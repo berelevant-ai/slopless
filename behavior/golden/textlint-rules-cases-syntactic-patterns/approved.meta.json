@@ -1,10 +1,10 @@
 {
   "suite": "textlint-rules-cases-syntactic-patterns",
   "kind": "approved",
-  "run_id": "2026-06-01T15-47-09.653897Z-04547efb",
-  "run_commit": "2f16376",
+  "run_id": "2026-06-01T16-23-37.269833Z-04547efb",
+  "run_commit": "208fd3d",
   "working_tree": "dirty",
-  "recorded_at": "2026-06-01T15:47:09.653897Z",
+  "recorded_at": "2026-06-01T16:23:37.269833Z",
   "fixture_hash": "sha256:6bd124742509d23b75dd2fef3e2dcd7269a0a82e8e748268dbcd00f968bdc43a",
   "manifest_hash": "sha256:04547efbb13157ee3d8ef18dda767231fd63d3f9cc27c15317cf28c5f0583e7b",
   "tool_version": "0.1.8",
@@ -19,5 +19,5 @@
       "sha256": "sha256:db16ee9450ad63bdb12478d918b92df8d4b2f7103e6556f2c982b26a50c895e1"
     }
   ],
-  "comment": "triple-repeat precision: gate bare openers to non-stop-words and skip empty opener; removes common-opener false positives (the/it/she/they/...)"
+  "comment": "simplicity + llm-vocabulary now density-based: removes per-instance single-word false positives; density cluster hits retained"
 }
