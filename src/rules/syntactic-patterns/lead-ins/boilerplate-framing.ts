@@ -69,7 +69,31 @@ const FILLER_OPENERS = [
   "here's what's really going on",
   "when all is said and done",
   "the fact of the matter is",
-  "the bottom line is"
+  "the bottom line is",
+  "as we examine",
+  "as we explore",
+  "as we've seen",
+  "at its core",
+  "here's the truth",
+  "here's where it gets interesting",
+  "in a world where",
+  "in the final analysis",
+  "in the grand scheme of things",
+  "it is time to",
+  "it is worth considering that",
+  "it's fair to say",
+  "it's safe to say",
+  "let's be honest",
+  "make no mistake",
+  "one might argue that",
+  "picture this:",
+  "some might say that",
+  "suffice it to say",
+  "there are no easy answers",
+  "this is the important part",
+  "to put it another way",
+  "unquestionably",
+  "we are at an inflection point"
 ];
 
 function matchEnumerationPreface(words: readonly string[]): string | undefined {
