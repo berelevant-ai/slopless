@@ -1,23 +1,23 @@
 {
   "suite": "textlint-rules-cases-syntactic-patterns",
   "kind": "approved",
-  "run_id": "2026-06-01T16-23-37.269833Z-04547efb",
-  "run_commit": "208fd3d",
+  "run_id": "2026-06-01T18-07-09.954309Z-04547efb",
+  "run_commit": "91e1c83",
   "working_tree": "dirty",
-  "recorded_at": "2026-06-01T16:23:37.269833Z",
-  "fixture_hash": "sha256:6bd124742509d23b75dd2fef3e2dcd7269a0a82e8e748268dbcd00f968bdc43a",
+  "recorded_at": "2026-06-01T18:07:09.954309Z",
+  "fixture_hash": "sha256:eddb03440179e1b3b5278068be42139d1c094b6c0ea1c0a4d2b68b558f1a1921",
   "manifest_hash": "sha256:04547efbb13157ee3d8ef18dda767231fd63d3f9cc27c15317cf28c5f0583e7b",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
   "fixtures": [
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
-      "sha256": "sha256:fafaeaef7d40a59eff38a5164ea599a3a4e2188690071c40101c0acdb49976c2"
+      "sha256": "sha256:684f6b2c8c568d92b87e6847029de0b2f0b0699420112243f4e9c5a6cae1e5bd"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
       "sha256": "sha256:db16ee9450ad63bdb12478d918b92df8d4b2f7103e6556f2c982b26a50c895e1"
     }
   ],
-  "comment": "simplicity + llm-vocabulary now density-based: removes per-instance single-word false positives; density cluster hits retained"
+  "comment": "antislop-gap signals: corporate-speak hype terms (world-class/next-level/supercharge/north-star/table-stakes), cliches 'stands as a testament to', boilerplate-framing honesty/throat-clearing openers; dropped redundant 'best-in-class solution'"
 }

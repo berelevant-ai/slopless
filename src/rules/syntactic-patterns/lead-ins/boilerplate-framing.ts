@@ -41,6 +41,21 @@ const PREVIEW_OBJECTS = [
 const PREVIEW_VERBS = ["explore", "discuss", "examine", "cover"];
 const REASON_STARTERS = ["reason", "factor", "point", "thing"];
 const ORDINAL_STARTERS = ["one", "another"];
+// Sentence-initial filler that advertises honesty or clears the throat before
+// the point. Anchored to the start of the sentence to stay low false-positive
+// ("she spoke frankly" does not match; "Frankly, ..." does).
+const FILLER_OPENERS = [
+  "to be clear",
+  "to be honest",
+  "let me be clear",
+  "let me be honest",
+  "in all honesty",
+  "here's the thing",
+  "here's the kicker",
+  "honestly",
+  "frankly",
+  "candidly"
+];
 
 function matchEnumerationPreface(words: readonly string[]): string | undefined {
   if (
@@ -102,6 +117,14 @@ function matchBoilerplateFraming(sentence: string): string[] {
   const starter = matchStarterFrame(words);
   if (starter !== undefined) {
     matches.push(starter);
+  }
+
+  const lowered = stripped
+    .toLocaleLowerCase("en")
+    .replaceAll(String.fromCharCode(0x2019), "'");
+  const filler = FILLER_OPENERS.find((opener) => lowered.startsWith(opener));
+  if (filler !== undefined) {
+    matches.push(filler);
   }
 
   return matches;
