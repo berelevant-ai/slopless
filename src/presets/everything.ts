@@ -3,7 +3,6 @@ export const everything = {
     "affirmation-closers": true,
     "artifact-placeholders": true,
     "authority-padding": true,
-    "avg-sentence-length": true,
     "blame-reframe": true,
     "body-action-density": true,
     "boilerplate-conclusion": true,
