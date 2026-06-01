@@ -1,10 +1,10 @@
 {
   "suite": "textlint-rules-corpus-engineering-review",
   "kind": "approved",
-  "run_id": "2026-06-01T15-47-29.493694Z-04547efb",
-  "run_commit": "2f16376",
+  "run_id": "2026-06-01T16-23-56.584734Z-04547efb",
+  "run_commit": "208fd3d",
   "working_tree": "dirty",
-  "recorded_at": "2026-06-01T15:47:29.493694Z",
+  "recorded_at": "2026-06-01T16:23:56.584734Z",
   "fixture_hash": "sha256:eaa061434d3460408c6d4162f654e455cfe2c58a4cb7b714091df9f6c879cf91",
   "manifest_hash": "sha256:04547efbb13157ee3d8ef18dda767231fd63d3f9cc27c15317cf28c5f0583e7b",
   "tool_version": "0.1.8",
@@ -15,5 +15,5 @@
       "sha256": "sha256:653e4966fd039ccce4ca6bf04b7d5a3ff2f8b9a084edf616a49e00436cf8030d"
     }
   ],
-  "comment": "triple-repeat precision: gate bare openers to non-stop-words and skip empty opener; removes common-opener false positives (the/it/she/they/...)"
+  "comment": "simplicity + llm-vocabulary now density-based: removes per-instance single-word false positives; density cluster hits retained"
 }
