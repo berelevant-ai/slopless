@@ -1102,6 +1102,36 @@ Execution is not activity; it is intention made visible.
 
 It wasn't just a sound; it was a vibration that traveled through the dusty ground and tickled Cassia's paws.
 
+Truth be told, the rollout slipped by a week.
+
+If I'm being honest, the dashboard still loads slowly.
+
+If I'm being perfectly honest, the migration was never tested.
+
+Let me level with you about the staging outage.
+
+I'll be straight with you, the patch missed the deadline.
+
+I'll be frank, the report skips the root cause.
+
+No sugarcoating the numbers, revenue fell again.
+
+I won't sugarcoat it, the release broke checkout.
+
+Not to put too fine a point on it, the design is wrong.
+
+Let's be real, nobody reads the changelog.
+
+Here's the deal, the API needs a rewrite.
+
+Here's what's really going on with the queue backlog.
+
+When all is said and done, the feature shipped late.
+
+The fact of the matter is the budget ran out.
+
+The bottom line is the test suite is flaky.
+
 Bella didn't wait.
 
 To be clear, the plan ships on Friday.

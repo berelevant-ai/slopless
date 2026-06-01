@@ -10,6 +10,11 @@ const MAX_WINDOW_TOKENS = 80;
 const MIN_HITS = 3;
 const WINDOW_SENTENCES = 5;
 
+// Sentence-initial formal transitions and significance signposts. These are slop
+// only in aggregate: one "Notably," or "It's worth noting that" is fine, but a cluster
+// of them in a short span is the AI over-signposting tic. The significance markers
+// (importantly/interestingly/... and the worth-noting phrases) live here, density-gated,
+// rather than as per-instance flags, because each is common in legitimate prose.
 const TRANSITIONS: readonly (readonly string[])[] = [
   ["accordingly"],
   ["additionally"],
@@ -17,23 +22,38 @@ const TRANSITIONS: readonly (readonly string[])[] = [
   ["consequently"],
   ["conversely"],
   ["crucially"],
+  ["curiously"],
   ["furthermore"],
   ["hence"],
   ["however"],
+  ["importantly"],
   ["in", "addition"],
   ["in", "conclusion"],
   ["in", "contrast"],
   ["in", "turn"],
   ["indeed"],
+  ["interestingly"],
+  ["it", "bears", "mentioning"],
+  ["it", "is", "important", "to", "note"],
+  ["it", "is", "important", "to", "remember"],
+  ["it", "is", "worth", "noting"],
+  ["it's", "important", "to", "note"],
+  ["it's", "important", "to", "remember"],
+  ["it's", "worth", "noting"],
   ["moreover"],
   ["nevertheless"],
   ["nonetheless"],
   ["notably"],
   ["overall"],
+  ["remarkably"],
+  ["significantly"],
   ["similarly"],
+  ["strikingly"],
+  ["tellingly"],
   ["therefore"],
   ["thus"],
-  ["ultimately"]
+  ["ultimately"],
+  ["worth", "noting"]
 ];
 
 function transitionLabel(tokens: readonly Token[]): string | undefined {

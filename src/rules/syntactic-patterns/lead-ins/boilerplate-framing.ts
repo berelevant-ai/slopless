@@ -54,7 +54,22 @@ const FILLER_OPENERS = [
   "here's the kicker",
   "honestly",
   "frankly",
-  "candidly"
+  "candidly",
+  "truth be told",
+  "if i'm being honest",
+  "if i'm being perfectly honest",
+  "let me level with you",
+  "i'll be straight with you",
+  "i'll be frank",
+  "no sugarcoating",
+  "i won't sugarcoat it",
+  "not to put too fine a point on it",
+  "let's be real",
+  "here's the deal",
+  "here's what's really going on",
+  "when all is said and done",
+  "the fact of the matter is",
+  "the bottom line is"
 ];
 
 function matchEnumerationPreface(words: readonly string[]): string | undefined {

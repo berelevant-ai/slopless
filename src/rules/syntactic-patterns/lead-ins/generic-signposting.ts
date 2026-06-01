@@ -9,12 +9,6 @@ import { oneToOneRule } from "../../private/textlint-rule-builders.js";
 import { matchDiscourseEvaluationFrame } from "./private/discourse-evaluation.js";
 
 const PREFIXES = ["however, ", "but ", "and ", "so "];
-const IMPORTANT_TO_PATTERNS = [
-  "it's important to note",
-  "it is important to note",
-  "it's important to remember",
-  "it is important to remember"
-];
 const TRANSITION_PATTERNS = ["that being said", "as such"];
 const CONSULTATION_PATTERNS = [
   "it's always best to consult",
@@ -342,7 +336,6 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
   }
 
   const checks: readonly (readonly [string, readonly string[]])[] = [
-    ["important-to", IMPORTANT_TO_PATTERNS],
     ["transition", TRANSITION_PATTERNS],
     ["consultation-signpost", CONSULTATION_PATTERNS],
     ["note-signpost", NOTE_PATTERNS],

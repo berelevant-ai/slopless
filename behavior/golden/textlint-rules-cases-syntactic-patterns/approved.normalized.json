@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 47.05. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 46.44. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 15.4. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 15.62. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -9802,52 +9802,6 @@
       },
       {
         "column": 1,
-        "index": 44178,
-        "line": 889,
-        "loc": {
-          "end": {
-            "column": 62,
-            "line": 889
-          },
-          "start": {
-            "column": 1,
-            "line": 889
-          }
-        },
-        "message": "Generic signposting found: it's important to note. Replace the frame with the concrete claim.",
-        "range": [
-          44178,
-          44239
-        ],
-        "ruleId": "generic-signposting",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 44178,
-        "line": 889,
-        "loc": {
-          "end": {
-            "column": 62,
-            "line": 889
-          },
-          "start": {
-            "column": 1,
-            "line": 889
-          }
-        },
-        "message": "Response wrapper found: chat-scaffold (it's important to note). Remove assistant response scaffolding.",
-        "range": [
-          44178,
-          44239
-        ],
-        "ruleId": "response-wrapper",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
         "index": 44241,
         "line": 891,
         "loc": {
@@ -10998,29 +10952,6 @@
       },
       {
         "column": 1,
-        "index": 46055,
-        "line": 961,
-        "loc": {
-          "end": {
-            "column": 83,
-            "line": 961
-          },
-          "start": {
-            "column": 1,
-            "line": 961
-          }
-        },
-        "message": "Response wrapper found: chat-scaffold (it is worth noting). Remove assistant response scaffolding.",
-        "range": [
-          46055,
-          46137
-        ],
-        "ruleId": "response-wrapper",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
         "index": 46139,
         "line": 963,
         "loc": {
@@ -11407,6 +11338,29 @@
           47182
         ],
         "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 47184,
+        "line": 989,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 989
+          },
+          "start": {
+            "column": 1,
+            "line": 989
+          }
+        },
+        "message": "Boilerplate framing found: the bottom line is. Start with the specific point.",
+        "range": [
+          47184,
+          47246
+        ],
+        "ruleId": "boilerplate-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -12819,7 +12773,7 @@
         "line": 1105,
         "loc": {
           "end": {
-            "column": 19,
+            "column": 46,
             "line": 1105
           },
           "start": {
@@ -12827,10 +12781,401 @@
             "line": 1105
           }
         },
-        "message": "Negation reframe found: \"Bella didn't wait.\". Rewrite without the not-X-then-Y construction.",
+        "message": "Boilerplate framing found: truth be told. Start with the specific point.",
         "range": [
           50360,
-          50378
+          50405
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50407,
+        "line": 1107,
+        "loc": {
+          "end": {
+            "column": 55,
+            "line": 1107
+          },
+          "start": {
+            "column": 1,
+            "line": 1107
+          }
+        },
+        "message": "Boilerplate framing found: if i'm being honest. Start with the specific point.",
+        "range": [
+          50407,
+          50461
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50463,
+        "line": 1109,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1109
+          },
+          "start": {
+            "column": 1,
+            "line": 1109
+          }
+        },
+        "message": "Boilerplate framing found: if i'm being perfectly honest. Start with the specific point.",
+        "range": [
+          50463,
+          50525
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50527,
+        "line": 1111,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 1111
+          },
+          "start": {
+            "column": 1,
+            "line": 1111
+          }
+        },
+        "message": "Boilerplate framing found: let me level with you. Start with the specific point.",
+        "range": [
+          50527,
+          50574
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50576,
+        "line": 1113,
+        "loc": {
+          "end": {
+            "column": 58,
+            "line": 1113
+          },
+          "start": {
+            "column": 1,
+            "line": 1113
+          }
+        },
+        "message": "Boilerplate framing found: i'll be straight with you. Start with the specific point.",
+        "range": [
+          50576,
+          50633
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50635,
+        "line": 1115,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 1115
+          },
+          "start": {
+            "column": 1,
+            "line": 1115
+          }
+        },
+        "message": "Boilerplate framing found: i'll be frank. Start with the specific point.",
+        "range": [
+          50635,
+          50682
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50684,
+        "line": 1117,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1117
+          },
+          "start": {
+            "column": 1,
+            "line": 1117
+          }
+        },
+        "message": "Boilerplate framing found: no sugarcoating. Start with the specific point.",
+        "range": [
+          50684,
+          50732
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50734,
+        "line": 1119,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 1119
+          },
+          "start": {
+            "column": 1,
+            "line": 1119
+          }
+        },
+        "message": "Boilerplate framing found: i won't sugarcoat it. Start with the specific point.",
+        "range": [
+          50734,
+          50783
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50785,
+        "line": 1121,
+        "loc": {
+          "end": {
+            "column": 56,
+            "line": 1121
+          },
+          "start": {
+            "column": 1,
+            "line": 1121
+          }
+        },
+        "message": "Boilerplate framing found: not to put too fine a point on it. Start with the specific point.",
+        "range": [
+          50785,
+          50840
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50842,
+        "line": 1123,
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 1123
+          },
+          "start": {
+            "column": 1,
+            "line": 1123
+          }
+        },
+        "message": "Boilerplate framing found: let's be real. Start with the specific point.",
+        "range": [
+          50842,
+          50884
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50886,
+        "line": 1125,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1125
+          },
+          "start": {
+            "column": 1,
+            "line": 1125
+          }
+        },
+        "message": "Boilerplate framing found: here's the deal. Start with the specific point.",
+        "range": [
+          50886,
+          50927
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50929,
+        "line": 1127,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 1127
+          },
+          "start": {
+            "column": 1,
+            "line": 1127
+          }
+        },
+        "message": "Boilerplate framing found: here's what's really going on. Start with the specific point.",
+        "range": [
+          50929,
+          50982
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50984,
+        "line": 1129,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1129
+          },
+          "start": {
+            "column": 1,
+            "line": 1129
+          }
+        },
+        "message": "Boilerplate framing found: when all is said and done. Start with the specific point.",
+        "range": [
+          50984,
+          51036
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51038,
+        "line": 1131,
+        "loc": {
+          "end": {
+            "column": 46,
+            "line": 1131
+          },
+          "start": {
+            "column": 1,
+            "line": 1131
+          }
+        },
+        "message": "Boilerplate framing found: the fact of the matter is. Start with the specific point.",
+        "range": [
+          51038,
+          51083
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51085,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 1133
+          },
+          "start": {
+            "column": 1,
+            "line": 1133
+          }
+        },
+        "message": "Boilerplate framing found: the bottom line is. Start with the specific point.",
+        "range": [
+          51085,
+          51128
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51085,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 1133
+          },
+          "start": {
+            "column": 1,
+            "line": 1133
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The bottom line is the test suite is flaky.\". Reduce repeated short emphasis lines.",
+        "range": [
+          51085,
+          51128
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51085,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 1133
+          },
+          "start": {
+            "column": 1,
+            "line": 1133
+          }
+        },
+        "message": "Summative frame found: \"the bottom line is\". State the concrete point instead.",
+        "range": [
+          51085,
+          51128
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51130,
+        "line": 1135,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1135
+          },
+          "start": {
+            "column": 1,
+            "line": 1135
+          }
+        },
+        "message": "Negation reframe found: \"Bella didn't wait.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51130,
+          51148
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -12838,22 +13183,22 @@
       },
       {
         "column": 1,
-        "index": 50380,
-        "line": 1107,
+        "index": 51150,
+        "line": 1137,
         "loc": {
           "end": {
             "column": 39,
-            "line": 1107
+            "line": 1137
           },
           "start": {
             "column": 1,
-            "line": 1107
+            "line": 1137
           }
         },
         "message": "Boilerplate framing found: to be clear. Start with the specific point.",
         "range": [
-          50380,
-          50418
+          51150,
+          51188
         ],
         "ruleId": "boilerplate-framing",
         "severity": 2,
@@ -12861,22 +13206,22 @@
       },
       {
         "column": 1,
-        "index": 50420,
-        "line": 1109,
+        "index": 51190,
+        "line": 1139,
         "loc": {
           "end": {
             "column": 33,
-            "line": 1109
+            "line": 1139
           },
           "start": {
             "column": 1,
-            "line": 1109
+            "line": 1139
           }
         },
         "message": "Boilerplate framing found: honestly. Start with the specific point.",
         "range": [
-          50420,
-          50452
+          51190,
+          51222
         ],
         "ruleId": "boilerplate-framing",
         "severity": 2,
@@ -12884,22 +13229,22 @@
       },
       {
         "column": 1,
-        "index": 50454,
-        "line": 1111,
+        "index": 51224,
+        "line": 1141,
         "loc": {
           "end": {
             "column": 40,
-            "line": 1111
+            "line": 1141
           },
           "start": {
             "column": 1,
-            "line": 1111
+            "line": 1141
           }
         },
         "message": "Boilerplate framing found: here's the thing. Start with the specific point.",
         "range": [
-          50454,
-          50493
+          51224,
+          51263
         ],
         "ruleId": "boilerplate-framing",
         "severity": 2,
@@ -12907,22 +13252,22 @@
       },
       {
         "column": 1,
-        "index": 50495,
-        "line": 1113,
+        "index": 51265,
+        "line": 1143,
         "loc": {
           "end": {
             "column": 37,
-            "line": 1113
+            "line": 1143
           },
           "start": {
             "column": 1,
-            "line": 1113
+            "line": 1143
           }
         },
         "message": "Boilerplate framing found: frankly. Start with the specific point.",
         "range": [
-          50495,
-          50531
+          51265,
+          51301
         ],
         "ruleId": "boilerplate-framing",
         "severity": 2,
@@ -12999,6 +13344,29 @@
           1
         ],
         "ruleId": "gunning-fog",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 4301,
+        "line": 137,
+        "loc": {
+          "end": {
+            "column": 72,
+            "line": 137
+          },
+          "start": {
+            "column": 1,
+            "line": 137
+          }
+        },
+        "message": "Boilerplate framing found: the bottom line is. Start with the specific point.",
+        "range": [
+          4301,
+          4372
+        ],
+        "ruleId": "boilerplate-framing",
         "severity": 2,
         "type": "lint"
       }
