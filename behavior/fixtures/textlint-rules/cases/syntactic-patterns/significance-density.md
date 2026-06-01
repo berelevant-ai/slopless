@@ -1,0 +1,1 @@
+The migration shipped on schedule. Notably, the error rate fell after the cache fix. Importantly, no customer noticed the change. It is worth noting that the rollback was never needed. Significantly, the backlog cleared within a day.

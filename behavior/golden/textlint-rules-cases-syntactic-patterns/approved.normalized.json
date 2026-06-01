@@ -13371,5 +13371,56 @@
         "type": "lint"
       }
     ]
+  },
+  {
+    "filePath": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/behavior/fixtures/textlint-rules/cases/syntactic-patterns/significance-density.md",
+    "messages": [
+      {
+        "column": 1,
+        "index": 0,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 1
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        },
+        "message": "Flesch Reading Ease is 55.5. Keep it at 61 or higher.",
+        "range": [
+          0,
+          1
+        ],
+        "ruleId": "flesch-kincaid",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 36,
+        "index": 35,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 1
+          },
+          "start": {
+            "column": 36,
+            "line": 1
+          }
+        },
+        "message": "Significance signposting density: 4 significance signposts in 37 words. Cut the signposting and lead with the point.",
+        "range": [
+          35,
+          42
+        ],
+        "ruleId": "significance-density",
+        "severity": 2,
+        "type": "lint"
+      }
+    ]
   }
 ]
