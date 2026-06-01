@@ -49,6 +49,7 @@ export const everything = {
     "required-terms": true,
     "sentence-case": true,
     "semantic-thinness": true,
+    "significance-density": true,
     simplicity: true,
     "skunked-terms": true,
     "softening-language": true,

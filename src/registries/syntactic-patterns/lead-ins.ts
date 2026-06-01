@@ -4,6 +4,7 @@ import genericSignposting from "../../rules/syntactic-patterns/lead-ins/generic-
 import lessonFraming from "../../rules/syntactic-patterns/lead-ins/lesson-framing.js";
 import llmOpeners from "../../rules/syntactic-patterns/lead-ins/llm-openers.js";
 import observerGuidance from "../../rules/syntactic-patterns/lead-ins/observer-guidance.js";
+import significanceDensity from "../../rules/syntactic-patterns/lead-ins/significance-density.js";
 
 export const leadInRules = {
   "boilerplate-framing": boilerplateFraming,
@@ -11,5 +12,6 @@ export const leadInRules = {
   "generic-signposting": genericSignposting,
   "lesson-framing": lessonFraming,
   "llm-openers": llmOpeners,
-  "observer-guidance": observerGuidance
+  "observer-guidance": observerGuidance,
+  "significance-density": significanceDensity
 };
