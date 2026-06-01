@@ -19,6 +19,7 @@ import {
 } from "./negation-reframe-parts.js";
 import {
   hasAbstractCommaContrast,
+  hasAbstractNegationPayoff,
   hasFactualConnectorAfterNegation,
   hasMetaContext
 } from "./negation-context-gates.js";
@@ -90,9 +91,15 @@ function inlineNegationContrast(
     return undefined;
   }
 
+  // The connector branch (not ... but/instead/rather ...) is a normal factual
+  // correlative unless the payoff is abstract/evaluative. Requiring an abstract
+  // payoff here is what separates the empty reframe ("not a failure, but a
+  // signal") from ordinary prose ("not constructed by the king, but by his
+  // successor"), which was the dominant false-positive source in the audit.
   return !hasConcreteCorrectionEvidence(sentence.text) &&
     (hasAbstractCommaContrast(sentence, tokens, negation.start) ||
-      hasInlineContrastConnectorAfterNegation(tokens, negationIndex))
+      (hasInlineContrastConnectorAfterNegation(tokens, negationIndex) &&
+        hasAbstractNegationPayoff(tokens)))
     ? {
         end: sentence.end,
         start: sentence.start,

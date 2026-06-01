@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 
-import { readFileSync } from "node:fs";
+import { mkdtempSync, readFileSync, writeFileSync } from "node:fs";
 import { cp, rm, stat } from "node:fs/promises";
-import { dirname, resolve } from "node:path";
+import { tmpdir } from "node:os";
+import { dirname, join, relative, resolve } from "node:path";
+import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 import { cli } from "textlint/lib/src/cli.js";
 
@@ -188,6 +190,23 @@ function packageNodeModules(): string {
   return resolve(packageRoot(), "..");
 }
 
+// textlint resolves a config `filters` key by prepending the rules-base-directory,
+// so the comments filter only loads when it sits as a direct sibling of that
+// directory (a flat npm install). Generate the config at runtime with the filter
+// referenced by a path relative to the base directory, which resolves the same
+// filter package under any install layout (flat npm or nested pnpm).
+function writeDefaultConfig(): string {
+  const require = createRequire(import.meta.url);
+  const filterDir = dirname(
+    require.resolve("textlint-filter-rule-comments/package.json")
+  );
+  const filterKey = relative(packageNodeModules(), filterDir);
+  const configDir = mkdtempSync(join(tmpdir(), "slopless-config-"));
+  const configPath = join(configDir, "slopless.textlintrc.json");
+  writeFileSync(configPath, JSON.stringify({ filters: { [filterKey]: true } }));
+  return configPath;
+}
+
 async function installSkill(
   target: SkillTarget,
   force: boolean
@@ -288,10 +307,9 @@ async function main(): Promise<number> {
   const args = [
     "node",
     "slopless",
-    "--no-textlintrc",
     ...(hasFlag(userArgs, CONFIG_FLAGS)
       ? []
-      : ["--config", resolve(packageRoot(), "slopless.textlintrc.json")]),
+      : ["--config", writeDefaultConfig()]),
     "--preset",
     "slopless",
     "--rules-base-directory",

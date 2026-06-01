@@ -1,10 +1,10 @@
 {
   "suite": "textlint-rules-corpus-metrics-and-markdown",
   "kind": "approved",
-  "run_id": "2026-05-23T18-37-37.434062Z-04547efb",
-  "run_commit": "ece876d",
+  "run_id": "2026-06-01T15-47-39.167664Z-04547efb",
+  "run_commit": "2f16376",
   "working_tree": "dirty",
-  "recorded_at": "2026-05-23T18:37:37.434062Z",
+  "recorded_at": "2026-06-01T15:47:39.167664Z",
   "fixture_hash": "sha256:f74d9cbdd8abd5a443916d0f0921a7950bc0261b393b9cc5e7102ce4c83e0744",
   "manifest_hash": "sha256:04547efbb13157ee3d8ef18dda767231fd63d3f9cc27c15317cf28c5f0583e7b",
   "tool_version": "0.1.8",
@@ -15,5 +15,5 @@
       "sha256": "sha256:4dfb3aadf405eefb187c3bcf18f674a412ed1153123e655e97e97a8b987c3451"
     }
   ],
-  "comment": "text-readability swap: syllable-based metric scores shift slightly vs @lunarisapp; same direction"
+  "comment": "triple-repeat precision: gate bare openers to non-stop-words and skip empty opener; removes common-opener false positives (the/it/she/they/...)"
 }
