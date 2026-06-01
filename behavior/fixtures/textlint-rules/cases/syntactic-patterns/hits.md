@@ -1103,3 +1103,11 @@ Execution is not activity; it is intention made visible.
 It wasn't just a sound; it was a vibration that traveled through the dusty ground and tickled Cassia's paws.
 
 Bella didn't wait.
+
+To be clear, the plan ships on Friday.
+
+Honestly, the rollout was rough.
+
+Here's the thing: nobody read the memo.
+
+Frankly, the review changed nothing.
