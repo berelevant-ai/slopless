@@ -3,11 +3,14 @@ import { paragraphUnits } from "../../adapters/textlint/units.js";
 import type { RuleDetection, RuleId, TextUnit } from "../types.js";
 import { type Token, wordTokens } from "../../shared/text/tokens.js";
 
+// Dropped the tokens whose dominant sense is non-narrative and which drove the bulk of
+// the human-corpus mis-fires: "see/sees/seeing" (generic: "you can see that"), the present
+// "focus"/"focuses" ("focus on strategy"; narrative "focused"/"focusing" are kept),
+// "peer/peers/peering" (the colleague noun and "peer review"),
+// and the plural nouns "studies"/"notices" ("studies show", "post notices"). The narrative
+// perception verbs - including observe/study/notice/scan, which genuine scene-slop stacks
+// ("she scanned the room, noticed the door, studied his face") - are kept.
 const PERCEPTION_VERBS = new Set([
-  "focus",
-  "focuses",
-  "focused",
-  "focusing",
   "look",
   "looks",
   "looked",
@@ -28,34 +31,26 @@ const PERCEPTION_VERBS = new Set([
   "glances",
   "glanced",
   "glancing",
-  "observe",
-  "observes",
-  "observed",
-  "observing",
-  "scan",
-  "scans",
-  "scanned",
-  "scanning",
-  "peer",
-  "peers",
   "peered",
-  "peering",
   "squint",
   "squints",
   "squinted",
   "squinting",
+  "saw",
+  "focused",
+  "focusing",
+  "observe",
+  "observed",
+  "observing",
   "study",
-  "studies",
   "studied",
   "studying",
   "notice",
-  "notices",
   "noticed",
   "noticing",
-  "see",
-  "sees",
-  "saw",
-  "seeing"
+  "scan",
+  "scanned",
+  "scanning"
 ]);
 
 const PURPOSE_LOOK_PARTICLES = new Set(["for", "up", "under", "into"]);

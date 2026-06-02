@@ -11,6 +11,64 @@ function isAsciiDigit(character: string | undefined): boolean {
   return character !== undefined && character >= "0" && character <= "9";
 }
 
+// A timestamp accompanied by a real date (weekday, month, year, or a date label) is a
+// genuine timestamp - an email header, a logged event, a scheduled time - not fabricated
+// AI clock specificity. Skip those.
+const DATE_WORDS = [
+  "january",
+  "february",
+  "march",
+  "april",
+  "june",
+  "july",
+  "august",
+  "september",
+  "october",
+  "november",
+  "december",
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "sunday"
+];
+const DATE_LABELS = [
+  "date:",
+  "sent:",
+  "received:",
+  "posted",
+  "published",
+  "updated",
+  "timestamp"
+];
+
+function hasFourDigitYear(text: string): boolean {
+  for (let i = 0; i + 3 < text.length; i += 1) {
+    const a = text[i];
+    const b = text[i + 1];
+    if (
+      ((a === "1" && b === "9") || (a === "2" && b === "0")) &&
+      isAsciiDigit(text[i + 2]) &&
+      isAsciiDigit(text[i + 3])
+    ) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function hasDateContext(sentence: string): boolean {
+  const lower = sentence.toLocaleLowerCase("en");
+  return (
+    DATE_LABELS.some((label) => lower.includes(label)) ||
+    DATE_WORDS.some((word) => lower.includes(word)) ||
+    hasFourDigitYear(lower)
+  );
+}
+
 function isPeriodMarker(
   first: string | undefined,
   second: string | undefined
@@ -82,6 +140,9 @@ function findSentenceTimestampMatches(text: string): TimestampMatch[] {
   const matches: TimestampMatch[] = [];
 
   for (const sentence of splitSentences(text)) {
+    if (hasDateContext(sentence.text)) {
+      continue;
+    }
     const timestampMatches = findTimestampMatches(sentence.text);
     if (timestampMatches.length === 0) {
       continue;

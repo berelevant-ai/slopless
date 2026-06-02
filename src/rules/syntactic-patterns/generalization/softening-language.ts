@@ -95,7 +95,14 @@ function matchSoftening(sentence: string): SentenceMatch | undefined {
   const qualifier = containsAny(normalized, QUALIFIER_PATTERNS);
   const variability = containsAny(normalized, VARIABILITY_PATTERNS);
   const reporting = containsAny(normalized, REPORTING_PATTERNS);
-  const quantifier = findQuantifierPair(normalized);
+  // "in some cases"/"in some people" already count as a variability hedge; strip the
+  // matched phrase so its embedded "some cases"/"some people" is not double-counted as a
+  // separate quantifier signal (that self-overlap was the dominant false positive).
+  const quantifierText =
+    variability === undefined
+      ? normalized
+      : normalized.split(variability).join(" ");
+  const quantifier = findQuantifierPair(quantifierText);
   const signalCount =
     Number(modal !== undefined) +
     Number(qualifier !== undefined) +
