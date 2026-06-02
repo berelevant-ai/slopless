@@ -40,6 +40,7 @@ Full JSON output is the default. See the [Rules](https://github.com/seochecks-ai
 
 ```bash
 npm install -D slopless
+npx slopless --help
 npx slopless install-skill codex
 npx slopless install-skill claude
 ```
@@ -53,10 +54,11 @@ Use the Slopless skill. Check this Markdown, rewrite the prose, and keep iterati
 Loop:
 
 1. Install Slopless.
-2. Install the agent skill for Codex or Claude Code.
-3. Tell the writing agent to use the skill.
-4. Let the agent run Slopless, rewrite, and rerun until the JSON output has no findings.
-5. Profit.
+2. Read the core help (`npx slopless --help`).
+3. Install the agent skill for Codex or Claude Code.
+4. Tell the writing agent to use the skill.
+5. Let the agent run Slopless, rewrite, and rerun until the JSON output has no findings.
+6. Profit.
 
 ## Direct CLI Use
 
