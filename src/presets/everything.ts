@@ -1,5 +1,6 @@
 export const everything = {
   rules: {
+    "actually-overuse": true,
     "affirmation-closers": true,
     "artifact-placeholders": true,
     "authority-padding": true,

@@ -21,6 +21,16 @@ export function emitTextlintReport(
       ? context.locator.at(report.range.start)
       : context.locator.range([report.range.start, report.range.end]);
 
+  // textlint reads a per-report severity only from a plain reported object, not from a
+  // RuleError instance (kernel: `ruleReportedObject.severity || error`). A rule that needs
+  // a warning tier sets detection.data.severity (1 = warning, 2 = error); everything else
+  // keeps the default error severity via RuleError.
+  const severity = report.detections[0]?.data?.["severity"];
+  if (typeof severity === "number") {
+    context.report(unit.node, { message: report.message, padding, severity });
+    return;
+  }
+
   context.report(
     unit.node,
     new context.RuleError(report.message, {
