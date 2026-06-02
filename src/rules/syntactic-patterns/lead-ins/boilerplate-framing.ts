@@ -67,9 +67,17 @@ const FILLER_OPENERS = [
   "let's be real",
   "here's the deal",
   "here's what's really going on",
-  "when all is said and done",
   "the fact of the matter is",
-  "the bottom line is"
+  "the bottom line is",
+  "here's the truth",
+  "here's where it gets interesting",
+  "in the grand scheme of things",
+  "it is worth considering that",
+  "it's fair to say",
+  "let's be honest",
+  "there are no easy answers",
+  "this is the important part",
+  "we are at an inflection point"
 ];
 
 function matchEnumerationPreface(words: readonly string[]): string | undefined {
@@ -103,6 +111,9 @@ function matchStarterFrame(words: readonly string[]): string | undefined {
 function matchBoilerplateFraming(sentence: string): string[] {
   const stripped = cleanSentence(sentence, PREFIXES);
   const words = tokens(stripped);
+  const lowered = stripped
+    .toLocaleLowerCase("en")
+    .replaceAll(String.fromCharCode(0x2019), "'");
   const matches: string[] = [];
 
   if (
@@ -110,7 +121,9 @@ function matchBoilerplateFraming(sentence: string): string[] {
   ) {
     matches.push("following + explore");
   }
-  if (stripped.includes("when it comes to")) {
+  // Opener only: "When it comes to X, ..." is a weak filler lead-in. Mid-sentence
+  // ("... tells us little when it comes to Y") is ordinary usage, not boilerplate.
+  if (lowered.startsWith("when it comes to")) {
     matches.push("when it comes to");
   }
   if (
@@ -134,9 +147,6 @@ function matchBoilerplateFraming(sentence: string): string[] {
     matches.push(starter);
   }
 
-  const lowered = stripped
-    .toLocaleLowerCase("en")
-    .replaceAll(String.fromCharCode(0x2019), "'");
   const filler = FILLER_OPENERS.find((opener) => lowered.startsWith(opener));
   if (filler !== undefined) {
     matches.push(filler);

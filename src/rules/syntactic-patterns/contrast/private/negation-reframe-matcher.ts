@@ -47,10 +47,15 @@ export type NegationReframeMatch = {
   readonly text: string;
 };
 
+// "not only X but Y" is an additive correlative (it affirms both X and Y), not the
+// replacement reframe this rule targets ("it is not X, it is Y"). It was a dominant
+// false positive ("not only makes rounds harder but can trigger a down round"), so the
+// "only" follower is excluded here.
 const INLINE_NON_CONTRAST_NEGATION_FOLLOWERS = new Set([
   "all",
   "any",
   "every",
+  "only",
   "too"
 ]);
 function inlineNegationContrast(

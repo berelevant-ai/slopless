@@ -1,5 +1,68 @@
 [
   {
+    "filePath": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/behavior/fixtures/textlint-rules/cases/words/actually-overuse.md",
+    "messages": [
+      {
+        "column": 1,
+        "index": 0,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 1
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        },
+        "message": "Flesch Reading Ease is 45.42. Keep it at 61 or higher.",
+        "range": [
+          0,
+          1
+        ],
+        "ruleId": "flesch-kincaid",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 15,
+        "data": {
+          "message": "\"actually\" used 3 times (111.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              14,
+              22
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 14,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        },
+        "message": "\"actually\" used 3 times (111.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          14,
+          22
+        ],
+        "ruleId": "actually-overuse",
+        "severity": 2,
+        "type": "lint"
+      }
+    ]
+  },
+  {
     "filePath": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/behavior/fixtures/textlint-rules/cases/words/hits.md",
     "messages": [
       {
@@ -486,29 +549,6 @@
         "type": "lint"
       },
       {
-        "column": 31,
-        "index": 1290,
-        "line": 41,
-        "loc": {
-          "end": {
-            "column": 94,
-            "line": 41
-          },
-          "start": {
-            "column": 31,
-            "line": 41
-          }
-        },
-        "message": "LLM vocabulary density: 4 stock abstraction words in a short span (amplify, catalyze, sustainable, value).",
-        "range": [
-          1290,
-          1353
-        ],
-        "ruleId": "llm-vocabulary-density",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 45,
         "index": 1400,
         "line": 43,
@@ -537,7 +577,7 @@
         "line": 45,
         "loc": {
           "end": {
-            "column": 77,
+            "column": 71,
             "line": 45
           },
           "start": {
@@ -545,10 +585,10 @@
             "line": 45
           }
         },
-        "message": "LLM vocabulary density: 7 stock abstraction words in a short span (strategy, empowers, navigate, complexity, unlock, holistic, value).",
+        "message": "LLM vocabulary density: 6 stock abstraction words in a short span (strategy, empowers, navigate, complexity, unlock, holistic).",
         "range": [
           1453,
-          1525
+          1519
         ],
         "ruleId": "llm-vocabulary-density",
         "severity": 2,
@@ -647,29 +687,6 @@
         "type": "lint"
       },
       {
-        "column": 38,
-        "index": 1660,
-        "line": 49,
-        "loc": {
-          "end": {
-            "column": 95,
-            "line": 49
-          },
-          "start": {
-            "column": 38,
-            "line": 49
-          }
-        },
-        "message": "LLM vocabulary density: 4 stock abstraction words in a short span (stakeholders, operationalize, learnings, value).",
-        "range": [
-          1660,
-          1717
-        ],
-        "ruleId": "llm-vocabulary-density",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 54,
         "index": 1676,
         "line": 49,
@@ -686,6 +703,29 @@
         "message": "Corporate-speak phrase found: \"operationalize learnings\". Replace it with specific wording.",
         "range": [
           1676,
+          1700
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 69,
+        "index": 1691,
+        "line": 49,
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 49
+          },
+          "start": {
+            "column": 69,
+            "line": 49
+          }
+        },
+        "message": "Corporate-speak phrase found: \"learnings\". Replace it with specific wording.",
+        "range": [
+          1691,
           1700
         ],
         "ruleId": "corporate-speak",
@@ -758,6 +798,29 @@
           1922
         ],
         "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 83,
+        "index": 1913,
+        "line": 53,
+        "loc": {
+          "end": {
+            "column": 102,
+            "line": 53
+          },
+          "start": {
+            "column": 83,
+            "line": 53
+          }
+        },
+        "message": "Corporate-speak phrase found: \"strategic alignment\". Replace it with specific wording.",
+        "range": [
+          1913,
+          1932
+        ],
+        "ruleId": "corporate-speak",
         "severity": 2,
         "type": "lint"
       },

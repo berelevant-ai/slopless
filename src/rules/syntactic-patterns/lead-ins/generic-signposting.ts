@@ -9,7 +9,9 @@ import { oneToOneRule } from "../../private/textlint-rule-builders.js";
 import { matchDiscourseEvaluationFrame } from "./private/discourse-evaluation.js";
 
 const PREFIXES = ["however, ", "but ", "and ", "so "];
-const TRANSITION_PATTERNS = ["that being said", "as such"];
+// "as such" was removed: it is a normal anaphoric connective ("a registered adviser; as
+// such, it must...") and was the dominant false positive, not a signposting frame.
+const TRANSITION_PATTERNS = ["that being said"];
 const CONSULTATION_PATTERNS = [
   "it's always best to consult",
   "it is always best to consult",

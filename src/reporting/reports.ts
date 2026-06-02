@@ -1,6 +1,7 @@
 import { splitSentences } from "../shared/text/sentences.js";
 import { wordTokens } from "../shared/text/tokens.js";
 import type { RuleDetection, TextUnit } from "../rules/types.js";
+import { rateVerdict } from "./density.js";
 import type { DensityMatch, ReportPolicy, RuleReport } from "./types.js";
 
 type DensityReportConfig<Group extends string> = {
@@ -163,6 +164,50 @@ export function densityReports<Group extends string>(
   ];
 }
 
+export function densityRateReports(
+  units: readonly TextUnit[],
+  detections: readonly RuleDetection[],
+  policy: Extract<ReportPolicy, { readonly kind: "density-rate" }>,
+  formatMessage: (report: RuleReport) => string
+): RuleReport[] {
+  const reports: RuleReport[] = [];
+  for (const unit of units) {
+    const unitDetections = detections.filter(
+      (detection) => detection.unitId === unit.id
+    );
+    const first = unitDetections[0];
+    const verdict = rateVerdict(
+      unitDetections.length,
+      wordTokens(unit.text).length,
+      {
+        errorPerUnit: policy.errorPerUnit,
+        minimumOccurrences: policy.minimumOccurrences,
+        warningPerUnit: policy.warningPerUnit,
+        wordsPerUnit: policy.wordsPerUnit
+      }
+    );
+    if (verdict === undefined || first === undefined) {
+      continue;
+    }
+
+    const report = {
+      detections: unitDetections,
+      evidence: first.evidence,
+      message: "",
+      metric: {
+        count: unitDetections.length,
+        perUnit: Math.round(verdict.perUnit * 10) / 10
+      },
+      range: unit.sourceRangeFor(first.range),
+      ruleId: first.ruleId,
+      severity: verdict.severity,
+      unitId: unit.id
+    };
+    reports.push({ ...report, message: formatMessage(report) });
+  }
+  return reports;
+}
+
 export function reportsForPolicy(
   units: readonly TextUnit[],
   detections: readonly RuleDetection[],
@@ -227,5 +272,8 @@ export function reportsForPolicy(
         message: formatMessage(report)
       }));
     }
+
+    case "density-rate":
+      return densityRateReports(units, detections, policy, formatMessage);
   }
 }

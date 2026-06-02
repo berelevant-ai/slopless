@@ -1,11 +1,9 @@
 import { findPhraseMatches } from "../../shared/matchers/phrases.js";
 import { oneToOneRule } from "../private/textlint-rule-builders.js";
 
-const HUMBLE_BRAGGER_PHRASES = [
-  "in my experience",
-  "as someone who has",
-  "having worked with"
-];
+// "in my experience" was removed: it is a normal epistemic qualifier (common in Q&A
+// and essays), not credentialing - it was a mis-fire, not a humble-brag.
+const HUMBLE_BRAGGER_PHRASES = ["as someone who has", "having worked with"];
 
 const rule = oneToOneRule({
   detect: (unit) =>

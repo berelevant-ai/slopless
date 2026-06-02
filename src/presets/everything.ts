@@ -1,5 +1,6 @@
 export const everything = {
   rules: {
+    "actually-overuse": true,
     "affirmation-closers": true,
     "artifact-placeholders": true,
     "authority-padding": true,
@@ -50,6 +51,10 @@ export const everything = {
     "sentence-case": true,
     "semantic-thinness": true,
     "significance-density": true,
+    "seo-filler": true,
+    "self-help-cliches": true,
+    "genre-cliches": true,
+    "weasel-attribution": true,
     simplicity: true,
     "skunked-terms": true,
     "softening-language": true,

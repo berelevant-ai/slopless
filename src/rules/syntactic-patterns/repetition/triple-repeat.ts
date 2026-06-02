@@ -167,6 +167,37 @@ const COMMON_OPENERS = new Set([
   "shall"
 ]);
 
+// Enumerators and document-structure openers: list markers ("2.", "b)") and
+// reference words that head TOC entries, headings, and procedural steps. Three
+// sentences opening this way is structure, not repetitive prose, and was a
+// dominant source of false positives in the human-corpus audit.
+const STRUCTURAL_OPENERS = new Set([
+  "chapter",
+  "section",
+  "part",
+  "appendix",
+  "figure",
+  "table",
+  "page",
+  "step",
+  "verse",
+  "item"
+]);
+
+function isStructuralOpener(opener: string): boolean {
+  if (STRUCTURAL_OPENERS.has(opener) || opener.length === 1) {
+    return true;
+  }
+
+  for (const character of opener) {
+    if (character < "0" || character > "9") {
+      return false;
+    }
+  }
+
+  return true;
+}
+
 function isWordCharacter(character: string): boolean {
   return (
     (character >= "a" && character <= "z") ||
@@ -243,6 +274,7 @@ function findTripleRepeats(text: string): RepeatMatch[] {
       firstOpener === undefined ||
       firstOpener === "" ||
       COMMON_OPENERS.has(firstOpener) ||
+      isStructuralOpener(firstOpener) ||
       firstOpener !== secondOpener ||
       secondOpener !== thirdOpener
     ) {

@@ -79,7 +79,6 @@ const LLM_DENSITY_WORDS = new Set([
   "unlock",
   "unlocks",
   "unlocking",
-  "value",
   "workflow",
   "workflows"
 ]);
