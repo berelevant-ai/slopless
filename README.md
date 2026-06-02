@@ -144,6 +144,10 @@ This confirms the tarball you installed was built in the published source reposi
 
 [![Star History Chart](https://api.star-history.com/svg?repos=seochecks-ai/slopless&type=Date)](https://star-history.com/#seochecks-ai/slopless&Date)
 
+## Credits
+
+[Graham Rowe](https://github.com/grahamrowe82/antislop), thanks for giving me new ideas for classes of slop to detect. Your lib is now fully incorporated with your permission.
+
 ---
 
 Developed by [seochecks.ai](https://seochecks.ai) to keep content specific, useful, and recognizably human.
