@@ -1,2 +1,6 @@
 allowBuilds:
   unrs-resolver: true
+overrides:
+  # Force the patched qs across the transitive tree (textlint -> MCP SDK -> express ->
+  # body-parser -> qs). Clears the qs advisory CVE-2026-8723 (DoS, affects qs <=6.15.1).
+  "qs@>=6.11.1 <=6.15.1": "6.15.2"

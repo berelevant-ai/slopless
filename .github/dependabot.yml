@@ -9,6 +9,11 @@ updates:
     # minimumReleaseAge supply-chain gate and do not fail `pnpm install --frozen-lockfile`.
     cooldown:
       default-days: 2
+    ignore:
+      # Keep @types/node aligned with the supported Node baseline (engines: node >=22).
+      # Do not jump it a major ahead of the runtime it is typed against.
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
     groups:
       dev-dependencies:
         dependency-type: "development"
