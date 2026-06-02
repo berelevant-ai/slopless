@@ -5,6 +5,10 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
+    # Wait 2 days after a release before opening a PR, so bumps clear pnpm's 24h
+    # minimumReleaseAge supply-chain gate and do not fail `pnpm install --frozen-lockfile`.
+    cooldown:
+      default-days: 2
     groups:
       dev-dependencies:
         dependency-type: "development"
