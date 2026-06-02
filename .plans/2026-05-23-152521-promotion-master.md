@@ -314,3 +314,13 @@ Skipped artifact backlog:
 **Week 12+ (2026-08-14, 2026-08-16):** Wave 4 unblocks - submit agarrharr/awesome-cli-apps and analysis-tools-dev/static-analysis. Reassess awesome-nodejs after July re-open.
 
 **Continuous:** Wave 5 monitoring - check Socket/Snyk/Scorecard score deltas after each artifact ships.
+
+---
+
+## Deferred until a second maintainer (ideal multi-dev GitHub profile)
+
+These lift the OpenSSF Scorecard but cannot be done well solo; revisit when a second developer is on the repo.
+
+- **Require >=1 approving review on `main`.** The single biggest Scorecard detractor (Code-Review 0/10, "0 of N approved changesets"). It needs a second person to approve PRs, so it is on hold during the solo phase.
+- **Re-add the OpenSSF Scorecard badge to the README.** Removed 2026-06-02: the headline 5.2 is dragged down mainly by Code-Review 0, which the item above blocks. Re-add once review enforcement is on and the number reflects the CI hardening already shipped (Token-Permissions + Pinned-Dependencies fixed by SHA-pinning every action in #69). The Socket badge stays.
+- Solo-friendly, optional now: finish the OpenSSF Best Practices (CII) badge questionnaire (form-filling, no second person needed).
