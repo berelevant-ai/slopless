@@ -2,7 +2,6 @@
 
 [![npm](https://img.shields.io/npm/v/slopless?label=npm)](https://www.npmjs.com/package/slopless)
 [![downloads](https://img.shields.io/npm/dm/slopless)](https://www.npmjs.com/package/slopless)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/slopless?label=minzip)](https://bundlephobia.com/package/slopless)
 [![install size](https://packagephobia.com/badge?p=slopless)](https://packagephobia.com/result?p=slopless)
 [![license](https://img.shields.io/npm/l/slopless)](LICENSE)
 [![node](https://img.shields.io/badge/node-22%2B-brightgreen)](package.json)
@@ -10,36 +9,29 @@
 [![ci](https://img.shields.io/github/actions/workflow/status/seochecks-ai%2Fslopless/ci.yml?branch=main&label=ci)](/actions/workflows/ci.yml)
 [![scorecard](https://api.scorecard.dev/projects/github.com/seochecks-ai/slopless/badge)](https://scorecard.dev/viewer/?uri=github.com/seochecks-ai/slopless)
 [![socket](https://socket.dev/api/badge/npm/package/slopless)](https://socket.dev/npm/package/slopless)
-[![snyk advisor](https://snyk.io/advisor/npm-package/slopless/badge.svg)](https://snyk.io/advisor/npm-package/slopless)
 
 Catch AI and human slop in English Markdown without calling an LLM. Slopless ships 50+ deterministic textlint rules and a CLI that emits structured JSON findings.
 
 ## What it catches
 
-Given this paragraph (typical LLM prose):
+Given this paragraph of confident-sounding slop:
 
 ```markdown
-In today's rapidly evolving landscape, it's important to note that AI tools
-are revolutionizing how we work - truly transforming workflows in
-unprecedented ways. By harnessing the power of large language models, teams
-can delve into complex challenges, streamline operations, and unlock new
-possibilities. But what does this really mean for you? In essence, the
-future belongs to those who embrace these tools today. Not just to keep up,
-not just to stay competitive, but to thrive.
+Let me be honest: in a world where everyone is racing to ship, most teams
+forget the basics. We do not sell software. We sell outcomes. Everyone knows
+the best products feel effortless. At the end of the day, the future belongs
+to the teams that slow down to think.
 ```
 
-`npx slopless` returns nine findings across seven rules:
+`npx slopless` flags six findings across five rules - structure and rhetoric, not just a word list:
 
 ```
-[slopless/generic-signposting]  it's important to note
-[slopless/prohibited-phrases]   it's important to note
-[slopless/llm-vocabulary]       landscape
-[slopless/llm-vocabulary]       delve
-[slopless/prohibited-words]     delve
-[slopless/prohibited-words]     unlock
-[slopless/prohibited-phrases]   the future belongs to
-[slopless/negation-reframe]     Not just X, not just Y, but Z
-[slopless/flesch-kincaid]       Flesch Reading Ease 56.05 (keep >= 61)
+[slopless/boilerplate-framing]    let me be honest
+[slopless/prohibited-phrases]     in a world where
+[slopless/negation-reframe]       We do not sell software. We sell outcomes.
+[slopless/universalizing-claims]  everyone knows
+[slopless/cliches]                at the end of the day
+[slopless/prohibited-phrases]     the future belongs to
 ```
 
 Full JSON output is the default. See the [Rules](https://github.com/seochecks-ai/slopless/wiki/Rules) page for the complete inventory.
