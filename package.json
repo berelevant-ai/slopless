@@ -43,6 +43,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint --max-warnings 0 .",
+    "prepare": "npm run build",
     "spellcheck": "cspell .",
     "typecov": "type-coverage --strict --at-least 100",
     "validate": "pnpm run build && node scripts/verify-cli-version.mjs && pnpm run lint && prettier --check . && cspell . && type-coverage --strict --at-least 100"
