@@ -59,9 +59,12 @@ Loop:
 5. Let the agent run Slopless, rewrite, and rerun until the JSON output has no findings.
 6. Profit.
 
-## Direct CLI Use
+## Set up the CLI
+
+The CLI bundles textlint, so it needs no separate textlint install and no `.textlintrc`. This is the recommended path for writing agents and one-off checks.
 
 ```bash
+npm install -D slopless
 npx slopless "docs/**/*.md"
 ```
 
@@ -75,6 +78,30 @@ Output is always JSON:
 mkdir -p .slopless/findings
 npx slopless "docs/**/*.md" > ".slopless/findings/$(date +%Y-%m-%d-%H%M%S)--review.json"
 ```
+
+## Set up the textlint preset
+
+If you already run [textlint](https://textlint.github.io/), add slopless as a preset instead. It runs through your existing textlint, alongside your other rules and `.textlintrc`, and supports textlint's output formatters (the CLI is always JSON).
+
+```bash
+npm install -D slopless textlint
+```
+
+Add `preset-slopless` to your `.textlintrc.json`:
+
+```json
+{
+  "rules": {
+    "preset-slopless": true
+  }
+}
+```
+
+```bash
+npx textlint "docs/**/*.md"
+```
+
+Findings use the same `slopless/<rule>` ids as the CLI. Turn off individual rules with `"preset-slopless": { "cliches": false }`. To honor the `<!-- textlint-disable -->` blocks below, also `npm install -D textlint-filter-rule-comments` and add `"filters": { "comments": true }` to the config.
 
 ## Agent Use
 
