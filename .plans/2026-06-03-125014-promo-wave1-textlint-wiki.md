@@ -142,4 +142,19 @@ Final entry (replaces the `- [ ] Welcome to Pull Request` placeholder under `###
 Give it to your writing agent and it stops handing you AI-slop prose. Slopless is a deterministic linter - a textlint preset and a zero-config CLI - that flags the LLM tells (hollow framing, fake contrasts, hedging, em-dash tics, vacuous closers, and many more) so the agent rewrites until the text reads human. No model calls, no API key. Enable with `"preset-slopless": true`, or run `npx slopless`.
 
 Commit policy: README change ships via a branch + PR (main is protected); the slopless-repo commit keeps the `Co-Authored-By: Claude` trailer per repo convention. The external textlint wiki push OMITS the Claude trailer (user decision 2026-06-03).
+
+## OUTCOME (2026-06-03)
+
+- README docs landed on `development` (commit d1b9e3b), not a feature-branch PR: the user
+  consolidated all work onto `development` as the new working trunk (`main` stays protected/release).
+- **The textlint wiki is collaborator-only.** Direct `git push` to `textlint.wiki.git` returned
+  403 (`Permission to textlint/textlint.wiki.git denied to tartakovsky`). The page's "Edit this page!"
+  invite is stale; web-UI editing is gated by the same permission. So a non-collaborator cannot edit it.
+- slopless is already auto-listed via textlint's canonical mechanism: the `textlint-rule` npm keyword
+  (ranks #1 in `keywords:textlint-rule` search).
+- Sanctioned fallback taken (user-approved): posted a Q&A discussion asking a maintainer to add the
+  entry under `Rule Presets: English`:
+  **https://github.com/textlint/textlint/discussions/2062**
+  (Acceptance is up to a textlint maintainer; the local wiki clone with the prepared edit was discarded.)
+- Next: watch discussion #2062; if a maintainer adds it, done. If not, the npm-keyword listing stands.
 ```

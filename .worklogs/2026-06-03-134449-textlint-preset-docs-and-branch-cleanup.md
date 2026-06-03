@@ -30,7 +30,14 @@ slopless to the textlint rule-collection wiki. Also consolidated the branch spra
   final advertised copy.
 - `.plans/2026-05-23-152521-promotion-master.md` - the overall promotion inventory (Wave 1 #1/#15).
 
+## Outcome (textlint submission)
+- The textlint wiki is collaborator-only: direct push to `textlint.wiki.git` returned 403, and
+  web-UI editing is gated the same way, so we cannot edit it directly. The page's "Edit this page!"
+  invite is stale.
+- slopless is already auto-listed via the `textlint-rule` npm keyword (ranks #1 in that search).
+- Posted the sanctioned fallback (user-approved): Q&A discussion asking a maintainer to add the entry
+  under `Rule Presets: English` - https://github.com/textlint/textlint/discussions/2062 (awaiting maintainer).
+
 ## Next steps
-- Submit the slopless entry to the textlint wiki page `Collection-of-textlint-rule`, section
-  `Rule Presets: English` (done in the same work session as this commit).
+- Watch discussion #2062; if a maintainer adds the entry, the wiki listing is done.
 - Future Wave 1 promotion targets remain in the master plan.
