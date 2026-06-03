@@ -31,6 +31,19 @@ Earlier `pre-commit try-repo`/`run` appeared to pass because the hook fell throu
 - Final check: `pre-commit run` from the GitHub remote at the new SHA with the global slopless hidden
   from PATH (real clean-user simulation).
 
+## Update: `prepare` alone wasn't enough - npm pack stdout pollution
+Testing the full pre-commit flow surfaced a second problem. pre-commit's node install runs
+`npm pack` and parses **stdout** for the tarball filename, then `npm install -g <that path>`. With a
+`prepare` script, `npm pack` prints the npm lifecycle banners (`> slopless prepare`, `> npm run build`,
+`> ... tsc ...`) to stdout, so pre-commit captured the banners+filename as the path -> ENOENT
+(`slopless-0.2.21.tgz` not found). Verified `npm pack` stdout is polluted by default and clean under
+`--silent`.
+
+Fix: added repo-root `.npmrc` with `loglevel=silent`, so pre-commit's `npm pack` emits only the filename.
+Confirmed the silent pack still runs the build and bundles `package/dist/cli.js`, and that
+`loglevel=silent` does not change validate's pass/fail (exit codes intact; repo uses pnpm, not npm).
+
 ## Key files
 - `package.json` - added `prepare` script.
+- `.npmrc` - `loglevel=silent` so `npm pack` stdout is parseable by pre-commit.
 - `.pre-commit-hooks.yaml` - the hook definition (unchanged; now functional).
