@@ -324,3 +324,14 @@ These lift the OpenSSF Scorecard but cannot be done well solo; revisit when a se
 - **Require >=1 approving review on `main`.** The single biggest Scorecard detractor (Code-Review 0/10, "0 of N approved changesets"). It needs a second person to approve PRs, so it is on hold during the solo phase.
 - **Re-add the OpenSSF Scorecard badge to the README.** Removed 2026-06-02: the headline 5.2 is dragged down mainly by Code-Review 0, which the item above blocks. Re-add once review enforcement is on and the number reflects the CI hardening already shipped (Token-Permissions + Pinned-Dependencies fixed by SHA-pinning every action in #69). The Socket badge stays.
 - Solo-friendly, optional now: finish the OpenSSF Best Practices (CII) badge questionnaire (form-filling, no second person needed).
+
+---
+
+## Status updates
+
+### 2026-06-03 - Wave 1 #1/#15 (textlint rule collection)
+- **Correction:** `github.com/textlint/awesome-textlint` (named in `editorial.md`, "~90%") does NOT exist (404). The real surface is the wiki page `Collection-of-textlint-rule`.
+- That wiki is **collaborator-only** (direct push 403; web edit gated the same way) - non-collaborators cannot edit it.
+- slopless is already auto-listed via the `textlint-rule` npm keyword (ranks #1 in that search) - textlint's canonical discovery mechanism.
+- Submitted via the sanctioned fallback: Q&A discussion **https://github.com/textlint/textlint/discussions/2062** asking a maintainer to add it under `Rule Presets: English`. Status: awaiting maintainer.
+- Prereq shipped: README now documents the textlint-preset path (`preset-slopless`) alongside the CLI. See `.plans/2026-06-03-125014-promo-wave1-textlint-wiki.md`.

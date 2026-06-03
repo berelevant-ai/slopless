@@ -9,7 +9,7 @@
 [![ci](https://img.shields.io/github/actions/workflow/status/seochecks-ai%2Fslopless/ci.yml?branch=main&label=ci)](/actions/workflows/ci.yml)
 [![socket](https://socket.dev/api/badge/npm/package/slopless)](https://socket.dev/npm/package/slopless)
 
-Catch AI and human slop in English Markdown without calling an LLM. Slopless ships 50+ deterministic textlint rules and a CLI that emits structured JSON findings.
+Give it to your writing agent and it stops handing you AI-slop prose. Slopless is a deterministic linter - a textlint preset and a zero-config CLI - that flags the LLM tells (hollow framing, fake contrasts, hedging, em-dash tics, vacuous closers, and many more) so the agent rewrites until the text reads human. No model calls, no API key.
 
 ## What it catches
 
@@ -59,9 +59,12 @@ Loop:
 5. Let the agent run Slopless, rewrite, and rerun until the JSON output has no findings.
 6. Profit.
 
-## Direct CLI Use
+## Set up the CLI
+
+The CLI bundles textlint, so it needs no separate textlint install and no `.textlintrc`. This is the recommended path for writing agents and one-off checks.
 
 ```bash
+npm install -D slopless
 npx slopless "docs/**/*.md"
 ```
 
@@ -75,6 +78,30 @@ Output is always JSON:
 mkdir -p .slopless/findings
 npx slopless "docs/**/*.md" > ".slopless/findings/$(date +%Y-%m-%d-%H%M%S)--review.json"
 ```
+
+## Set up the textlint preset
+
+If you already run [textlint](https://textlint.github.io/), add slopless as a preset instead. It runs through your existing textlint, alongside your other rules and `.textlintrc`, and supports textlint's output formatters (the CLI is always JSON).
+
+```bash
+npm install -D slopless textlint
+```
+
+Add `preset-slopless` to your `.textlintrc.json`:
+
+```json
+{
+  "rules": {
+    "preset-slopless": true
+  }
+}
+```
+
+```bash
+npx textlint "docs/**/*.md"
+```
+
+Findings use the same `slopless/<rule>` ids as the CLI. Turn off individual rules with `"preset-slopless": { "cliches": false }`. To honor the `<!-- textlint-disable -->` blocks below, also `npm install -D textlint-filter-rule-comments` and add `"filters": { "comments": true }` to the config.
 
 ## Agent Use
 

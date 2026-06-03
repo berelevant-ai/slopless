@@ -1,6 +1,6 @@
 {
   "name": "slopless",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "description": "Deterministic textlint rules and CLI for catching prose slop in English Markdown.",
   "keywords": [
     "textlint",
@@ -43,10 +43,10 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint --max-warnings 0 .",
-    "lint:css": "stylelint --max-warnings 0 \"styles/**/*.css\"",
+    "prepare": "npm run build",
     "spellcheck": "cspell .",
     "typecov": "type-coverage --strict --at-least 100",
-    "validate": "pnpm run build && node scripts/verify-cli-version.mjs && pnpm run lint && pnpm run lint:css && prettier --check . && cspell . && type-coverage --strict --at-least 100"
+    "validate": "pnpm run build && node scripts/verify-cli-version.mjs && pnpm run lint && prettier --check . && cspell . && type-coverage --strict --at-least 100"
   },
   "files": [
     "dist",
@@ -135,7 +135,6 @@
     "textlint-util-to-string": "3.3.4"
   },
   "devDependencies": {
-    "@double-great/stylelint-a11y": "3.4.13",
     "@eslint-community/eslint-plugin-eslint-comments": "4.7.1",
     "@types/node": "22.19.19",
     "@typescript-eslint/eslint-plugin": "8.59.4",
@@ -143,15 +142,9 @@
     "cspell": "10.0.0",
     "eslint": "10.4.0",
     "eslint-plugin-import-x": "4.16.2",
-    "eslint-plugin-regexp": "3.1.0",
     "eslint-plugin-sonarjs": "4.0.3",
     "eslint-plugin-unicorn": "64.0.0",
-    "g3ts-eslint-plugin-style-policy": "0.1.3",
-    "jscpd": "4.2.3",
     "prettier": "3.8.3",
-    "stylelint": "17.12.0",
-    "stylelint-config-standard": "40.0.0",
-    "stylelint-config-tailwindcss": "1.0.1",
     "syncpack": "15.3.1",
     "type-coverage": "2.29.7",
     "typescript": "6.0.3"
