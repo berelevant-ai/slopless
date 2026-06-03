@@ -1,17 +1,17 @@
 [checks]
 package = false
 npmrc = false
+# Disabled families: slopless is a backend Node CLI/textlint library, not a frontend app.
+# - eslint: slopless's eslint.config.js intentionally diverges from the G3TS baseline
+#   (no regexp plugin, no React/postMessage rules); its own `validate` still runs eslint.
+# - jscpd: duplicate-detection policy not used here (sonarjs covers some duplication).
+# - style: no first-party CSS exists in a CLI; stylelint/style-policy do not apply.
+eslint = false
+jscpd = false
+style = false
 
 [ts.package]
 source_globs = ["src/**/*.ts"]
-
-[ts.style]
-source_globs = ["src/**/*.ts"]
-stylelint_css_globs = ["styles/**/*.css"]
-
-[style]
-source_globs = ["src/**/*.ts"]
-stylelint_css_globs = ["styles/**/*.css"]
 
 [typecov]
 minimum = 100
