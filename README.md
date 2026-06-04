@@ -160,10 +160,6 @@ npm audit signatures slopless
 
 This confirms the tarball you installed was built in the published source repository's Actions environment, from the commit the GitHub Release points at.
 
-## Star history
-
-[![Star History Chart](https://api.star-history.com/svg?repos=seochecks-ai/slopless&type=Date)](https://star-history.com/#seochecks-ai/slopless&Date)
-
 ## Credits
 
 [Graham Rowe](https://github.com/grahamrowe82/antislop), thanks for giving me new ideas for classes of slop to detect. Your lib is now fully incorporated with your permission.
