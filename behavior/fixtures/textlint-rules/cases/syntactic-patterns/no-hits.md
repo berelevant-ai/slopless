@@ -237,3 +237,13 @@ Alignment is not agreement in this contract clause.
 It wasn't just a sound because the meter also recorded a vibration in the floor.
 
 The script didn't wait for input because the timeout was zero.
+
+No implant was used. No brain surgery was performed.
+
+No fever was recorded. No rash appeared.
+
+No parking is allowed after midnight. No smoking is allowed indoors.
+
+No reviewer signed the memo because the deadline moved. No owner changed the queue because the patch passed.
+
+No index was missing, so the migration passed.
