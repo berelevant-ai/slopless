@@ -1141,3 +1141,17 @@ Honestly, the rollout was rough.
 Here's the thing: nobody read the memo.
 
 Frankly, the review changed nothing.
+
+No implant. No brain surgery.
+
+No fever. No rash.
+
+No shortcuts. No magic.
+
+No dashboards. No extra meetings.
+
+No conflict. No antagonist.
+
+No change. No change.
+
+No significant change from. No significant change from.

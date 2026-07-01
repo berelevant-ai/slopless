@@ -1,0 +1,23 @@
+[manifest]
+id = "no-fragment-pair"
+plan = ".plans/2026-07-01-111806-no-fragment-pair.md"
+
+[[tasks]]
+id = "rule-no-fragment-pair"
+file = "src/rules/syntactic-patterns/repetition/fragment-stacking.ts"
+done = "Adjacent short 'No X. No Y.' fragments produce a fragment-stacking finding without lowering the general stack threshold."
+
+[[tasks]]
+id = "fixtures-hit-cases"
+file = "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"
+done = "Hit cases include implant/surgery, fever/rash, shortcuts/magic, and dashboards/meetings no-fragment pairs."
+
+[[tasks]]
+id = "fixtures-no-hit-cases"
+file = "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
+done = "No-hit cases include full factual clauses and comma-led non-fragment prose."
+
+[[tasks]]
+id = "verification"
+file = "behavior/golden/textlint-rules-cases-syntactic-patterns/approved.normalized.json"
+done = "Fixture3 syntactic-patterns diff is reviewed; new fragment-stacking outputs are intentional; no unacceptable false positives remain."
