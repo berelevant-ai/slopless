@@ -247,7 +247,3 @@ No parking is allowed after midnight. No smoking is allowed indoors.
 No reviewer signed the memo because the deadline moved. No owner changed the queue because the patch passed.
 
 No index was missing, so the migration passed.
-
-No change. No change.
-
-No significant change from. No significant change from.

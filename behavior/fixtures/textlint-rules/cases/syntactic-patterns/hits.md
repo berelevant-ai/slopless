@@ -1149,3 +1149,9 @@ No fever. No rash.
 No shortcuts. No magic.
 
 No dashboards. No extra meetings.
+
+No conflict. No antagonist.
+
+No change. No change.
+
+No significant change from. No significant change from.

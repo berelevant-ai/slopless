@@ -313,8 +313,6 @@ function findNoFragmentPairs(text: string): FragmentMatch[] {
     if (
       !isNoFragment(first) ||
       !isNoFragment(second) ||
-      sentenceWords(first.text).join(" ") ===
-        sentenceWords(second.text).join(" ") ||
       hasConcreteInventorySubjects(pair)
     ) {
       continue;
