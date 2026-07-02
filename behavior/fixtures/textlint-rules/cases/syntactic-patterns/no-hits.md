@@ -247,3 +247,11 @@ No parking is allowed after midnight. No smoking is allowed indoors.
 No reviewer signed the memo because the deadline moved. No owner changed the queue because the patch passed.
 
 No index was missing, so the migration passed.
+
+RAG doesn't replace search because the endpoint still queries Lucene.
+
+The adapter does not replace the cache because the deployment reuses the same key.
+
+The outage is never sudden because the monitor reports latency first. It is recorded in the incident log.
+
+The witness was nobody important because the court record used a pseudonym. It was entered as exhibit B.

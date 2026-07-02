@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 47.25. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 47.86. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 15.31. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 15.07. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -13410,6 +13410,190 @@
         "ruleId": "fragment-stacking",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51523,
+        "line": 1159,
+        "loc": {
+          "end": {
+            "column": 101,
+            "line": 1159
+          },
+          "start": {
+            "column": 1,
+            "line": 1159
+          }
+        },
+        "message": "Negation reframe found: \"Indexing isn't the boring technical step anymore. It's the gate everything else has to pass through.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51523,
+          51623
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51625,
+        "line": 1161,
+        "loc": {
+          "end": {
+            "column": 46,
+            "line": 1161
+          },
+          "start": {
+            "column": 1,
+            "line": 1161
+          }
+        },
+        "message": "Negation reframe found: \"RAG doesn't replace search. It depends on it.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51625,
+          51670
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51672,
+        "line": 1163,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 1163
+          },
+          "start": {
+            "column": 1,
+            "line": 1163
+          }
+        },
+        "message": "Negation reframe found: \"It is never sudden. It's timely.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51672,
+          51704
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51706,
+        "line": 1165,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 1165
+          },
+          "start": {
+            "column": 1,
+            "line": 1165
+          }
+        },
+        "message": "Generic signposting found: it-was-important. Replace the frame with the concrete claim.",
+        "range": [
+          51706,
+          51730
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51706,
+        "line": 1165,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 1165
+          },
+          "start": {
+            "column": 1,
+            "line": 1165
+          }
+        },
+        "message": "Negation reframe found: \"It was nobody important. It was a guest.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51706,
+          51746
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51748,
+        "line": 1167,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 1167
+          },
+          "start": {
+            "column": 1,
+            "line": 1167
+          }
+        },
+        "message": "Negation reframe found: \"Automation does not solve ownership. It moves it.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51748,
+          51797
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51799,
+        "line": 1169,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 1169
+          },
+          "start": {
+            "column": 1,
+            "line": 1169
+          }
+        },
+        "message": "Negation reframe found: \"Search doesn't create authority. It exposes it.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51799,
+          51846
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51848,
+        "line": 1171,
+        "loc": {
+          "end": {
+            "column": 45,
+            "line": 1171
+          },
+          "start": {
+            "column": 1,
+            "line": 1171
+          }
+        },
+        "message": "Negation reframe found: \"Growth is never the point. It's the residue.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51848,
+          51892
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -13453,7 +13637,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 25.33. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 27.16. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -13476,7 +13660,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 24.11. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 23.48. Keep it at 12 or lower.",
         "range": [
           0,
           1
