@@ -1,4 +1,11 @@
 import type { Token } from "../../../../shared/text/tokens.js";
+import { hasFactualConnectorAfterNegation } from "./negation-context-gates.js";
+export {
+  progressiveVerbMirror,
+  pronounCopularReframe,
+  sameSubjectCopularReframe,
+  startsWithNegatedPronounCopula
+} from "./copular-reframe.js";
 import {
   DO_NEGATIONS,
   EXPLICIT_DO_AUXILIARIES,
@@ -42,6 +49,39 @@ const GENERIC_ACTION_VERBS = new Set([
   "walked",
   "went"
 ]);
+const NEGATED_ACTION_REFRAME_VERBS = new Set([
+  "avoid",
+  "change",
+  "create",
+  "end",
+  "erase",
+  "fix",
+  "guarantee",
+  "make",
+  "mean",
+  "remove",
+  "replace",
+  "require",
+  "skip",
+  "solve"
+]);
+const PRONOUN_PAYOFF_VERBS = new Set([
+  "becomes",
+  "creates",
+  "depends",
+  "exposes",
+  "lands",
+  "means",
+  "moves",
+  "needs",
+  "points",
+  "requires",
+  "reveals",
+  "shifts",
+  "shows",
+  "turns"
+]);
+const PRONOUN_SUBJECTS = new Set(["it", "this", "that", "they", "we", "you"]);
 
 function startsWithPassiveCopula(tokens: readonly Token[]): boolean {
   const tokenWords = words(tokens);
@@ -210,6 +250,60 @@ export function hasNegativeSlopPairSignal(tokens: readonly Token[]): boolean {
     hasTrailingProblemFrame(tokenWords) ||
     hasLeadingProblemFrame(tokenWords)
   );
+}
+
+export function negatedActionPronounPayoff(
+  aTokens: readonly Token[],
+  bTokens: readonly Token[]
+): boolean {
+  const aWords = words(aTokens);
+  const bWords = words(stripLeadingPairPivot(bTokens));
+  const pronounStart = PRONOUN_SUBJECTS.has(bWords[0] ?? "") ? 1 : undefined;
+  if (pronounStart === undefined) {
+    return false;
+  }
+
+  const payoffVerbIndex = skipOptionalAdverbs(bWords, pronounStart);
+  if (!PRONOUN_PAYOFF_VERBS.has(bWords[payoffVerbIndex] ?? "")) {
+    return false;
+  }
+
+  for (let index = 0; index < aWords.length; index += 1) {
+    if (hasNegatedReframeVerb(aTokens, aWords, index)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function hasNegatedReframeVerb(
+  tokens: readonly Token[],
+  tokenWords: readonly string[],
+  index: number
+): boolean {
+  const current = tokenWords[index];
+  const next = tokenWords[index + 1];
+  const subject = tokenWords.slice(0, index);
+
+  if (!validSubject(subject)) {
+    return false;
+  }
+
+  const negationIndex = DO_NEGATIONS.has(current ?? "")
+    ? index
+    : EXPLICIT_DO_AUXILIARIES.has(current ?? "") && next === "not"
+      ? index + 1
+      : undefined;
+  if (
+    negationIndex === undefined ||
+    hasFactualConnectorAfterNegation(tokens, negationIndex)
+  ) {
+    return false;
+  }
+
+  const verbIndex = skipOptionalAdverbs(tokenWords, negationIndex + 1);
+  return NEGATED_ACTION_REFRAME_VERBS.has(tokenWords[verbIndex] ?? "");
 }
 
 export function negativeSlopReframe(

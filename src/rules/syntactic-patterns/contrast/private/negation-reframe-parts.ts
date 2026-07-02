@@ -3,6 +3,7 @@ import type { Token } from "../../../../shared/text/tokens.js";
 
 export const NEGATION_WORDS = new Set([
   "not",
+  "never",
   "isn't",
   "aren't",
   "wasn't",
@@ -63,16 +64,41 @@ export const PASSIVE_DEFINITION_VERBS = new Set([
   "classified",
   "defined",
   "described",
+  "entered",
   "linked",
   "marked",
-  "produced"
+  "produced",
+  "recorded"
 ]);
 const IRREGULAR_PAST_TENSE = new Map<string, string>([["go", "went"]]);
 const CONTRAST_PIVOT_AFTER_NOT = new Set(["just", "merely", "only"]);
+const NEGATIVE_COPULAR_PREDICATES = new Set([
+  "never",
+  "nobody",
+  "none",
+  "nothing",
+  "nowhere"
+]);
+const CONTRACTED_PRONOUN_COPULAS = new Map<
+  string,
+  { readonly affirmativeAux: string; readonly subject: readonly string[] }
+>([
+  ["it's", { affirmativeAux: "is", subject: ["it"] }],
+  ["that's", { affirmativeAux: "is", subject: ["that"] }],
+  ["they're", { affirmativeAux: "are", subject: ["they"] }],
+  ["we're", { affirmativeAux: "are", subject: ["we"] }],
+  ["you're", { affirmativeAux: "are", subject: ["you"] }]
+]);
 
 export type CopularNegation = {
   readonly affirmativeAux: string;
   readonly negatedPredicateStart: number;
+  readonly subject: readonly string[];
+};
+
+export type PronounCopulaStart = {
+  readonly affirmativeAux: string;
+  readonly predicateStart: number;
   readonly subject: readonly string[];
 };
 
@@ -177,6 +203,59 @@ export function startsWithAny(
   return starts.some((start) => startsWithWords(tokens, start));
 }
 
+export function pronounCopulaStart(
+  tokens: readonly Token[]
+): PronounCopulaStart | undefined {
+  const firstToken = tokens[0];
+  const contracted =
+    firstToken === undefined
+      ? undefined
+      : CONTRACTED_PRONOUN_COPULAS.get(firstToken.normalized);
+
+  if (contracted !== undefined) {
+    return { ...contracted, predicateStart: 1 };
+  }
+
+  for (const start of PRONOUN_REFRAME_STARTS) {
+    if (startsWithWords(tokens, start)) {
+      return {
+        affirmativeAux: start[1],
+        predicateStart: start.length,
+        subject: [start[0]]
+      };
+    }
+  }
+
+  return undefined;
+}
+
+export function startsWithPronounCopula(tokens: readonly Token[]): boolean {
+  return pronounCopulaStart(tokens) !== undefined;
+}
+
+export function startsWithSubjectCopula(
+  tokens: readonly Token[],
+  subject: readonly string[],
+  affirmativeAux: string
+): boolean {
+  if (startsWithWords(tokens, [...subject, affirmativeAux])) {
+    return true;
+  }
+
+  const contracted = CONTRACTED_PRONOUN_COPULAS.get(
+    tokens[0]?.normalized ?? ""
+  );
+
+  if (contracted?.affirmativeAux !== affirmativeAux) {
+    return false;
+  }
+
+  return (
+    subject.length === contracted.subject.length &&
+    subject.every((word, index) => word === contracted.subject[index])
+  );
+}
+
 export function isCompleteSentence(sentence: SplitSentence): boolean {
   const trimmed = sentence.text.trim();
   const last = trimmed.at(-1);
@@ -231,6 +310,30 @@ export function findCopularNegation(
       return {
         affirmativeAux: explicitAux,
         negatedPredicateStart: index + 2,
+        subject: tokenWords.slice(0, index)
+      };
+    }
+
+    if (
+      explicitAux !== undefined &&
+      next !== undefined &&
+      NEGATIVE_COPULAR_PREDICATES.has(next)
+    ) {
+      return {
+        affirmativeAux: explicitAux,
+        negatedPredicateStart: index + 1,
+        subject: tokenWords.slice(0, index)
+      };
+    }
+
+    if (
+      explicitAux !== undefined &&
+      next === "no" &&
+      (tokenWords[index + 2] === "one" || tokenWords[index + 2] === "single")
+    ) {
+      return {
+        affirmativeAux: explicitAux,
+        negatedPredicateStart: index + 1,
         subject: tokenWords.slice(0, index)
       };
     }

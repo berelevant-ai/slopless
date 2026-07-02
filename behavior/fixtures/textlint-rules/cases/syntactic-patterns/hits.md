@@ -1155,3 +1155,17 @@ No conflict. No antagonist.
 No change. No change.
 
 No significant change from. No significant change from.
+
+Indexing isn't the boring technical step anymore. It's the gate everything else has to pass through.
+
+RAG doesn't replace search. It depends on it.
+
+It is never sudden. It's timely.
+
+It was nobody important. It was a guest.
+
+Automation does not solve ownership. It moves it.
+
+Search doesn't create authority. It exposes it.
+
+Growth is never the point. It's the residue.
