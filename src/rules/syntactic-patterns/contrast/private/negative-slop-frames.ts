@@ -1,5 +1,6 @@
 import type { Token } from "../../../../shared/text/tokens.js";
 import { hasFactualConnectorAfterNegation } from "./negation-context-gates.js";
+import { hasAbstractPolicyDirectObject } from "./policy-object.js";
 export { shouldReportCopularReframe } from "./reframe-classification.js";
 export {
   progressiveVerbMirror,
@@ -66,6 +67,7 @@ const NEGATED_ACTION_REFRAME_VERBS = new Set([
   "skip",
   "solve"
 ]);
+const REPLACEMENT_SUBJECT_PRONOUNS = new Set(["he", "she"]);
 const PRONOUN_PAYOFF_VERBS = new Set([
   "becomes",
   "creates",
@@ -170,7 +172,25 @@ function negatedActionSubject(
   return undefined;
 }
 
-function negativeActionReplacement(
+function constrainedSetSubjectLength(
+  tokens: readonly Token[],
+  subject: readonly string[]
+): number | undefined {
+  if (startsWithWords(tokens, subject)) {
+    return subject.length;
+  }
+
+  if (startsWithSubjectOrPronoun(tokens, subject)) {
+    return 1;
+  }
+
+  return subject.length > 1 &&
+    REPLACEMENT_SUBJECT_PRONOUNS.has(tokens[0]?.normalized ?? "")
+    ? 1
+    : undefined;
+}
+
+export function negatedActionReplacement(
   aTokens: readonly Token[],
   bTokens: readonly Token[]
 ): boolean {
@@ -182,15 +202,40 @@ function negativeActionReplacement(
 
   const bContentTokens = stripLeadingPairPivot(bTokens);
   const bWords = words(bContentTokens);
-  const verbIndex = skipOptionalAdverbs(bWords, subject.length);
-  const verb = bWords[verbIndex];
+  const genericVerbIndex = skipOptionalAdverbs(bWords, subject.length);
 
   return (
     tokenWords.length <= 14 &&
     !hasAnyWord(tokenWords, FACTUAL_NEGATION_CONNECTORS) &&
-    startsWithSubjectOrPronoun(bContentTokens, subject) &&
-    verb !== undefined &&
-    GENERIC_ACTION_VERBS.has(verb)
+    ((startsWithSubjectOrPronoun(bContentTokens, subject) &&
+      GENERIC_ACTION_VERBS.has(bWords[genericVerbIndex] ?? "")) ||
+      negatedActionSetReplacement(aTokens, bTokens))
+  );
+}
+
+export function negatedActionSetReplacement(
+  aTokens: readonly Token[],
+  bTokens: readonly Token[]
+): boolean {
+  const tokenWords = words(aTokens);
+  const subject = negatedActionSubject(aTokens);
+  if (subject === undefined) {
+    return false;
+  }
+
+  const bContentTokens = stripLeadingPairPivot(bTokens);
+  const bWords = words(bContentTokens);
+  const subjectLength = constrainedSetSubjectLength(bContentTokens, subject);
+  const verbIndex =
+    subjectLength === undefined
+      ? undefined
+      : skipOptionalAdverbs(bWords, subjectLength);
+
+  return (
+    tokenWords.length <= 14 &&
+    !hasAnyWord(tokenWords, FACTUAL_NEGATION_CONNECTORS) &&
+    verbIndex !== undefined &&
+    hasAbstractPolicyDirectObject(bWords, verbIndex)
   );
 }
 
@@ -314,7 +359,7 @@ export function negativeSlopReframe(
   return (
     noLongerCopularReframe(aTokens, bTokens) ||
     fragmentDefinitionReframe(aTokens, bTokens) ||
-    negativeActionReplacement(aTokens, bTokens) ||
+    negatedActionReplacement(aTokens, bTokens) ||
     notBecauseReframe(aTokens, bTokens) ||
     notProblemReframe(aTokens, bTokens)
   );

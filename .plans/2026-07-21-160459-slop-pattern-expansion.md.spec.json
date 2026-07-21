@@ -1,0 +1,193 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "plan: files to modify and no new public rule modules",
+      "required": [
+        "src/rules/syntactic-patterns/lead-ins/private/discourse-evaluation.ts",
+        "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts",
+        "src/rules/syntactic-patterns/closers/affirmation-closers.ts",
+        "src/rules/syntactic-patterns/contrast/private/negative-slop-frames.ts",
+        "src/rules/syntactic-patterns/contrast/private/negation-reframe-matcher.ts",
+        "src/rules/syntactic-patterns/contrast/private/policy-object.ts",
+        "src/rules/semantic-thinness/patterns/empty-quantification.json",
+        "src/rules/semantic-thinness/private/pattern-data-e.ts",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
+        "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md",
+        "behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md",
+        ".plans/2026-07-21-160459-slop-pattern-expansion.verify-imports.mjs"
+      ],
+      "forbidden": [
+        "src/rules/**/doing-real-work.ts",
+        "src/rules/**/load-bearing.ts",
+        "src/rules/**/empty-quantification.ts"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/discourse-evaluation.ts"
+        ],
+        "reason": "plan: generalized discourse-work, attention, and directional frames",
+        "required": [
+          "DISCOURSE_WORK_TAILS",
+          "matchWorthAttentionFrame",
+          "matchVagueFrameLocation",
+          "subject.at(-1)"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts"
+        ],
+        "reason": "plan: reuse generic-signposting and add the fun-part formula",
+        "required": [
+          "matchExpandedDiscourseFrame",
+          "the fun part is:"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/closers/affirmation-closers.ts"
+        ],
+        "reason": "plan: reuse affirmation-closers for punctuation-independent good-stuff formulas",
+        "required": [
+          "that's the good stuff",
+          "that is the good stuff",
+          "withoutTerminalPunctuation"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/negative-slop-frames.ts"
+        ],
+        "reason": "plan: constrain set replacements to direct abstract policy objects",
+        "required": [
+          "hasAbstractPolicyDirectObject",
+          "negatedActionSetReplacement"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/policy-object.ts"
+        ],
+        "reason": "plan: parse the direct object of set before accepting an abstract policy noun",
+        "required": [
+          "ABSTRACT_POLICY_OBJECTS",
+          "POLICY_OBJECT_MODIFIERS",
+          "hasAbstractPolicyDirectObject"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/negation-reframe-matcher.ts"
+        ],
+        "reason": "plan: colon completion belongs only to constrained set replacements",
+        "required": [
+          "hasAllowedReplacementColon",
+          "negatedActionSetReplacement"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/semantic-thinness/patterns/empty-quantification.json"
+        ],
+        "reason": "plan: private semantic pattern for vague quantification",
+        "required": [
+          "\"id\": \"empty-quantification\"",
+          "{minimizer} put a number on {deicticObject}."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"
+        ],
+        "reason": "plan: public hit behavior for every syntactic variant class",
+        "required": [
+          "The indexing layer is doing real work.",
+          "The kind layer is load-bearing.",
+          "The conclusion worth noticing is the shift in buyer intent.",
+          "The signal worth watching is the drop in indexed pages.",
+          "The result worth caring about is the qualified pipeline.",
+          "The real problem happens downstream.",
+          "The central answer lives here.",
+          "The fun part is: the index updates itself.",
+          "That's the good stuff!",
+          "The CMO did not add another review. She set a release condition:"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
+        ],
+        "reason": "plan: literal and grammatical false-positive boundaries",
+        "required": [
+          "This wall is load-bearing.",
+          "The policy crew is doing real work on the compliance review.",
+          "She set a timer by policy:",
+          "She set one ruler on the rule:",
+          "The team did not add a review. The team moved:",
+          "She set the timer under policy:",
+          "She set a policy timer:"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md"
+        ],
+        "reason": "plan: all vague-quantification minimizers have public hit cases",
+        "required": [
+          "just put a number on it",
+          "simply put a number on that",
+          "merely put a number on this",
+          "basically put a number on that"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "package.json",
+          "src/index.ts",
+          "src/registries/**/*.ts"
+        ],
+        "reason": "plan: no new public rule IDs or exports",
+        "forbidden": [
+          "empty-quantification",
+          "doing-real-work",
+          "load-bearing"
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-21-160459-slop-pattern-expansion.verify-imports.mjs"
+        ],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/discourse-evaluation.ts",
+          "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts",
+          "src/rules/syntactic-patterns/closers/affirmation-closers.ts",
+          "src/rules/syntactic-patterns/contrast/private/negative-slop-frames.ts",
+          "src/rules/syntactic-patterns/contrast/private/negation-reframe-matcher.ts",
+          "src/rules/syntactic-patterns/contrast/private/policy-object.ts",
+          "src/rules/semantic-thinness/private/pattern-data-e.ts"
+        ],
+        "forbiddenGlobs": ["*"],
+        "reason": "plan: changed implementation files may use only relative imports and add no package dependency"
+      }
+    ]
+  }
+}

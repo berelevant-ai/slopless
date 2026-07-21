@@ -1,4 +1,74 @@
 const ABSTRACT_FRAME_VERBS = ["is", "are", "was", "were"];
+const DISCOURSE_WORK_TAILS = [
+  ["doing", "real", "work"],
+  ["load", "bearing"]
+] as const;
+const DETERMINERS = new Set(["a", "an", "the", "this", "that"]);
+const FRAME_ADJECTIVES = new Set([
+  "basic",
+  "best",
+  "better",
+  "biggest",
+  "bigger",
+  "central",
+  "clearest",
+  "core",
+  "easiest",
+  "final",
+  "first",
+  "hardest",
+  "honest",
+  "important",
+  "main",
+  "only",
+  "obvious",
+  "practical",
+  "real",
+  "simple",
+  "useful"
+]);
+const FRAME_NOUNS = new Set([
+  "answer",
+  "approach",
+  "audit",
+  "challenge",
+  "choice",
+  "conclusion",
+  "diagnosis",
+  "fact",
+  "fix",
+  "focus",
+  "frame",
+  "idea",
+  "lesson",
+  "move",
+  "path",
+  "point",
+  "principle",
+  "priority",
+  "problem",
+  "question",
+  "result",
+  "rule",
+  "shift",
+  "signal",
+  "strategy",
+  "test",
+  "thing",
+  "tradeoff",
+  "truth",
+  "version",
+  "way",
+  "win"
+]);
+const VAGUE_FRAME_VERBS = new Set(["begins", "happens", "lives", "starts"]);
+const VAGUE_FRAME_LOCATIONS = new Set([
+  "downstream",
+  "earlier",
+  "here",
+  "there",
+  "upstream"
+]);
 const EVALUATION_TAILS = new Set([
   "boring",
   "clear",
@@ -78,15 +148,119 @@ function isDiscourseEvaluationSubject(
   return subject.some((word) => DISCOURSE_SUBJECT_HEADS.has(word));
 }
 
+function hasTail(words: readonly string[], tail: readonly string[]): boolean {
+  if (words.length < tail.length) {
+    return false;
+  }
+
+  const offset = words.length - tail.length;
+  return tail.every((word, index) => words[offset + index] === word);
+}
+
+function matchDiscourseWorkClaim(
+  words: readonly string[],
+  verbIndex: number,
+  subject: readonly string[]
+): string | undefined {
+  if (
+    verbIndex <= 0 ||
+    words[verbIndex] !== "is" ||
+    !DISCOURSE_SUBJECT_HEADS.has(subject.at(-1) ?? "")
+  ) {
+    return undefined;
+  }
+
+  const tail = DISCOURSE_WORK_TAILS.find((candidate) =>
+    hasTail(words, candidate)
+  );
+
+  return tail === undefined ? undefined : `is-${tail.join("-")}`;
+}
+
+function frameNounIndex(words: readonly string[]): number {
+  if (FRAME_NOUNS.has(words[1] ?? "")) {
+    return 1;
+  }
+
+  return FRAME_ADJECTIVES.has(words[1] ?? "") && FRAME_NOUNS.has(words[2] ?? "")
+    ? 2
+    : -1;
+}
+
+function matchWorthAttentionFrame(
+  words: readonly string[]
+): string | undefined {
+  if (words[0] !== "the") {
+    return undefined;
+  }
+
+  const nounIndex = frameNounIndex(words);
+  if (nounIndex < 0 || words[nounIndex + 1] !== "worth") {
+    return undefined;
+  }
+
+  const tail = words.slice(nounIndex + 2);
+  const matches =
+    tail[0] === "noticing" ||
+    tail[0] === "watching" ||
+    tail[0] === "tracking" ||
+    (tail[0] === "caring" && tail[1] === "about") ||
+    (tail[0] === "paying" && tail[1] === "attention" && tail[2] === "to");
+
+  return matches
+    ? `the-${words.slice(1, nounIndex + 1).join("-")}-worth-attention`
+    : undefined;
+}
+
+function matchVagueFrameLocation(words: readonly string[]): string | undefined {
+  const [first, adjective, noun, verb, location] = words;
+
+  return first === "the" &&
+    FRAME_ADJECTIVES.has(adjective ?? "") &&
+    FRAME_NOUNS.has(noun ?? "") &&
+    VAGUE_FRAME_VERBS.has(verb ?? "") &&
+    VAGUE_FRAME_LOCATIONS.has(location ?? "")
+    ? `the-${adjective ?? "useful"}-${noun ?? "frame"}-${verb ?? "starts"}-${location ?? "here"}`
+    : undefined;
+}
+
+function matchEvaluativeFrame(words: readonly string[]): string | undefined {
+  const [first, adjective, noun, verb] = words;
+
+  return first !== undefined &&
+    adjective !== undefined &&
+    noun !== undefined &&
+    verb !== undefined &&
+    DETERMINERS.has(first) &&
+    FRAME_ADJECTIVES.has(adjective) &&
+    FRAME_NOUNS.has(noun) &&
+    ["is", "are", "was"].includes(verb)
+    ? `the-${adjective}-${noun}-${verb}`
+    : undefined;
+}
+
+export function isAbstractAuditFrame(words: readonly string[]): boolean {
+  return words[0] === "the" && frameNounIndex(words) > 0
+    ? words[frameNounIndex(words)] === "audit"
+    : false;
+}
+
+export function matchExpandedDiscourseFrame(
+  words: readonly string[]
+): string | undefined {
+  return (
+    matchWorthAttentionFrame(words) ??
+    matchVagueFrameLocation(words) ??
+    matchEvaluativeFrame(words)
+  );
+}
+
 export function matchDiscourseEvaluationFrame(
   words: readonly string[]
 ): string | undefined {
   const [first] = words;
 
-  if (
-    words.length > 8 ||
-    !["the", "this", "that", "it"].includes(first ?? "")
-  ) {
+  if (words.length > 8) {
     return undefined;
   }
 
@@ -95,6 +269,15 @@ export function matchDiscourseEvaluationFrame(
   );
   const tail = words.at(-1);
   const subject = verbIndex > 0 ? words.slice(0, verbIndex) : [];
+
+  const workClaim = matchDiscourseWorkClaim(words, verbIndex, subject);
+  if (workClaim !== undefined) {
+    return workClaim;
+  }
+
+  if (!["the", "this", "that", "it"].includes(first ?? "")) {
+    return undefined;
+  }
 
   return verbIndex > 0 &&
     tail !== undefined &&

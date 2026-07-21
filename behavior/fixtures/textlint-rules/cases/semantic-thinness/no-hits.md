@@ -231,3 +231,9 @@ The conversation transcript says the speaker used the word clarity twice.
 Everyone went quiet because Marius raised one paw.
 
 Silence filled the yard after the sound meter stopped at 28 decibels.
+
+The teacher put number 12 on the sample label.
+
+The technician just put a number on it because the sample needed an anonymous label.
+
+The accountant simply put a number on invoice 4821.

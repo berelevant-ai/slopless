@@ -289,3 +289,53 @@ A byte is not a decimal digit used in computing. It is a unit of digital informa
 The source code is not company property under this agreement. It is the property of the individual contractor.
 
 The material is not manufactured from petroleum in this process. It is derived from recycled cellulose.
+
+The masonry crew is doing real work on the east wall.
+
+The retaining wall is load-bearing.
+
+This wall is load-bearing.
+
+The fun part is scheduled for Saturday afternoon.
+
+That's the good stuff I ordered from the supplier.
+
+The CMO did not buy another dashboard because procurement rejected it. She set one launch rule:
+
+The carpenter did not buy another dashboard. She set one ruler on the bench:
+
+The shift worth paying attention to begins at 09:00 in the east ward.
+
+The patient worth paying attention to is waiting beside room 14.
+
+The useful diagnosis names iron deficiency after ferritin testing.
+
+The practical audit begins with crawl logs from the April export.
+
+The young man did not dispute it and took the money. He looked at the old woman.
+
+And she did not. She walked between two men.
+
+The captain said he did not believe in it. He said he reckoned the barrel gained on us because it was in a better current.
+
+Though the canals did not drain, the purchase primed Florida's economy. It made news and attracted buyers.
+
+Jones said the game does not look good in screenshots. They took two steps to improve its presentation.
+
+The policy crew is doing real work on the compliance review.
+
+The CMO did not buy another dashboard. She set a timer by policy:
+
+The CMO did not buy another dashboard. She set one ruler on the rule:
+
+The team did not add a review. The team moved:
+
+The CMO did not buy another dashboard. She set the timer under policy:
+
+The CMO did not buy another dashboard. She set a timer near policy:
+
+The CMO did not buy another dashboard. She set a marker beside policy:
+
+The CMO did not buy another dashboard. She set a policy timer:
+
+The CMO did not buy another dashboard. She set a launch policy timer:

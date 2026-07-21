@@ -6,6 +6,10 @@ import {
 import { wordTokens } from "../../../shared/text/tokens.js";
 
 const CLOSERS = ["and that's the key.", "that's what matters."];
+const EXACT_FORMULA_LINES = new Set([
+  "that's the good stuff",
+  "that is the good stuff"
+]);
 const FORMULA_TAILS = [
   "key",
   "point",
@@ -18,11 +22,17 @@ const FORMULA_TAILS = [
 
 function isFormulaLine(text: string): boolean {
   const lower = text.toLocaleLowerCase("en");
+  let punctuationStart = lower.length;
+  while ([".", "!", "?"].includes(lower[punctuationStart - 1] ?? "")) {
+    punctuationStart -= 1;
+  }
+  const withoutTerminalPunctuation = lower.slice(0, punctuationStart);
 
   return (
-    wordTokens(text).length <= 6 &&
-    (lower.startsWith("that's the ") || lower.startsWith("that is the ")) &&
-    FORMULA_TAILS.some((tail) => lower.includes(tail))
+    EXACT_FORMULA_LINES.has(withoutTerminalPunctuation) ||
+    (wordTokens(text).length <= 6 &&
+      (lower.startsWith("that's the ") || lower.startsWith("that is the ")) &&
+      FORMULA_TAILS.some((tail) => lower.includes(tail)))
   );
 }
 

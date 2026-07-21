@@ -28,6 +28,7 @@ import {
 import {
   hasNegativeSlopPairSignal,
   negatedActionPronounPayoff,
+  negatedActionSetReplacement,
   negativeSlopReframe,
   progressiveVerbMirror,
   pronounCopularReframe,
@@ -237,10 +238,16 @@ function sentencePairReframe(
   const aTokens = wordTokens(a.text);
   const bTokens = wordTokens(b.text);
   const pairText = `${a.text} ${b.text}`;
+  const hasNegatedActionSetReplacement = negatedActionSetReplacement(
+    aTokens,
+    bTokens
+  );
+  const hasAllowedReplacementColon =
+    b.text.trimEnd().endsWith(":") && hasNegatedActionSetReplacement;
 
   if (
     !isCompleteSentence(a) ||
-    !isCompleteSentence(b) ||
+    (!isCompleteSentence(b) && !hasAllowedReplacementColon) ||
     !hasPairNegationSignal(aTokens)
   ) {
     return undefined;
