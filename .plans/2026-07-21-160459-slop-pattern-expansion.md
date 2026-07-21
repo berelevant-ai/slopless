@@ -23,7 +23,7 @@ Catch the seven supplied slop constructions by extending their existing rule own
    - Preserve factual-connector rejection.
    - Keep direct abstract-object parsing in a private contrast helper so the negation matcher stays below the repository file-size limit.
 6. Add `empty-quantification.json` under semantic-thinness:
-   - Match `just`, `simply`, `merely`, or `basically` plus `put a number on` plus `it`, `this`, or `that` in contains mode.
+   - Match `just`, `simply`, `merely`, or `basically` plus `put a number on` plus `it`, `this`, or `that` in suffix mode, allowing an arbitrary subject while rejecting measured or literal continuations.
    - Keep numbered labels, measured values, and explanations with existing concrete-evidence and connector guards outside the pattern.
    - Import the pattern through the existing pattern-data module. Do not add a public rule ID.
 7. Add isolated public hit and no-hit cases to the existing syntactic-patterns and semantic-thinness fixture files before accepting output.

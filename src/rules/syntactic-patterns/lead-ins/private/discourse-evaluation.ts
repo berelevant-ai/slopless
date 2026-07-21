@@ -148,15 +148,6 @@ function isDiscourseEvaluationSubject(
   return subject.some((word) => DISCOURSE_SUBJECT_HEADS.has(word));
 }
 
-function hasTail(words: readonly string[], tail: readonly string[]): boolean {
-  if (words.length < tail.length) {
-    return false;
-  }
-
-  const offset = words.length - tail.length;
-  return tail.every((word, index) => words[offset + index] === word);
-}
-
 function matchDiscourseWorkClaim(
   words: readonly string[],
   verbIndex: number,
@@ -171,7 +162,7 @@ function matchDiscourseWorkClaim(
   }
 
   const tail = DISCOURSE_WORK_TAILS.find((candidate) =>
-    hasTail(words, candidate)
+    candidate.every((word, index) => words[verbIndex + index + 1] === word)
   );
 
   return tail === undefined ? undefined : `is-${tail.join("-")}`;
@@ -215,7 +206,8 @@ function matchWorthAttentionFrame(
 function matchVagueFrameLocation(words: readonly string[]): string | undefined {
   const [first, adjective, noun, verb, location] = words;
 
-  return first === "the" &&
+  return words.length === 5 &&
+    first === "the" &&
     FRAME_ADJECTIVES.has(adjective ?? "") &&
     FRAME_NOUNS.has(noun ?? "") &&
     VAGUE_FRAME_VERBS.has(verb ?? "") &&
@@ -259,11 +251,6 @@ export function matchDiscourseEvaluationFrame(
   words: readonly string[]
 ): string | undefined {
   const [first] = words;
-
-  if (words.length > 8) {
-    return undefined;
-  }
-
   const verbIndex = words.findIndex((word) =>
     ABSTRACT_FRAME_VERBS.includes(word)
   );
@@ -273,6 +260,10 @@ export function matchDiscourseEvaluationFrame(
   const workClaim = matchDiscourseWorkClaim(words, verbIndex, subject);
   if (workClaim !== undefined) {
     return workClaim;
+  }
+
+  if (words.length > 8) {
+    return undefined;
   }
 
   if (!["the", "this", "that", "it"].includes(first ?? "")) {

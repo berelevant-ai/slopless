@@ -2,7 +2,7 @@
   "id": "empty-quantification",
   "class": "empty-quantification",
   "purpose": "Catch claims that minimize an unexplained act of quantification instead of naming the metric, measurement, or result.",
-  "matchMode": "contains",
+  "matchMode": "suffix",
   "maxTokens": 24,
   "templates": ["{minimizer} put a number on {deicticObject}."],
   "slots": {
@@ -27,7 +27,7 @@
     "She put the numbered label on the archive box."
   ],
   "notes": [
-    "The template begins at the minimizer so contains mode permits arbitrary preceding subjects without enumerating them.",
-    "The common semantic-thinness matcher rejects concrete markers, measured values, and explanatory connectors before this pattern is evaluated."
+    "The template begins at the minimizer so suffix mode permits arbitrary preceding subjects without enumerating them.",
+    "Suffix mode permits arbitrary preceding subjects but requires the vague quantification phrase to end the sentence, excluding measurements, explanations, and literal continuations."
   ]
 }

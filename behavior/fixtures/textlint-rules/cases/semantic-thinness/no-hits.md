@@ -237,3 +237,7 @@ The teacher put number 12 on the sample label.
 The technician just put a number on it because the sample needed an anonymous label.
 
 The accountant simply put a number on invoice 4821.
+
+The report just put a number on it: 42%.
+
+The report just put a number on it with a red marker.

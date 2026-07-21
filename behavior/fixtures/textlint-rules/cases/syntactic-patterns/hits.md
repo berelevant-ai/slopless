@@ -1239,3 +1239,9 @@ The CMO did not add another review. She set one release threshold:
 That's the good stuff!
 
 That is the good stuff
+
+The policy is load-bearing for the entire compliance program.
+
+The policy is doing real work on the compliance review.
+
+The editor does not request another draft. She sets an approval threshold:

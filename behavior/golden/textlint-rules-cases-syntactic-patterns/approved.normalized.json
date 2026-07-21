@@ -14560,6 +14560,75 @@
         "ruleId": "affirmation-closers",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54111,
+        "line": 1243,
+        "loc": {
+          "end": {
+            "column": 62,
+            "line": 1243
+          },
+          "start": {
+            "column": 1,
+            "line": 1243
+          }
+        },
+        "message": "Generic signposting found: is-load-bearing. Replace the frame with the concrete claim.",
+        "range": [
+          54111,
+          54172
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54174,
+        "line": 1245,
+        "loc": {
+          "end": {
+            "column": 56,
+            "line": 1245
+          },
+          "start": {
+            "column": 1,
+            "line": 1245
+          }
+        },
+        "message": "Generic signposting found: is-doing-real-work. Replace the frame with the concrete claim.",
+        "range": [
+          54174,
+          54229
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54231,
+        "line": 1247,
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 1247
+          },
+          "start": {
+            "column": 1,
+            "line": 1247
+          }
+        },
+        "message": "Negation reframe found: \"The editor does not request another draft. She sets an approval threshold:\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          54231,
+          54305
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -14580,7 +14649,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 45.02. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 44.92. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -14603,7 +14672,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 16.62. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 16.67. Keep it at 12 or lower.",
         "range": [
           0,
           1

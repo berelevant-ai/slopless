@@ -43,7 +43,7 @@ export function hasAbstractPolicyDirectObject(
   tokenWords: readonly string[],
   verbIndex: number
 ): boolean {
-  if (tokenWords[verbIndex] !== "set") {
+  if (!["set", "sets"].includes(tokenWords[verbIndex] ?? "")) {
     return false;
   }
 
