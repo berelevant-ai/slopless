@@ -255,3 +255,37 @@ The adapter does not replace the cache because the deployment reuses the same ke
 The outage is never sudden because the monitor reports latency first. It is recorded in the incident log.
 
 The witness was nobody important because the court record used a pseudonym. It was entered as exhibit B.
+
+Application data is never sent in DTLS record-layer application_data packets. Rather, complete RTP or RTCP packets are passed to the DTLS stack.
+
+The flights were never paid, and Jennings and Allsup continued the tour for two more weeks. They were paid less than half of the original agreed salary.
+
+But condoms alone aren't the most effective form of birth control. It's safest to use condoms with another form of birth control.
+
+Aphasia is not a disease. It's a symptom of damage to the parts of the brain that control language.
+
+The bank does not own 80% of your home. Instead they have lent you some amount of money, and they have a lien.
+
+HTML is not a programming language. It is a markup language used to organize and display content on a webpage.
+
+Photosynthesis does not require light during the Calvin cycle. Instead, it uses energy products created in the light-dependent reactions.
+
+The protocol is not merely a vendor convention. It is defined by RFC 8446 and implemented by OpenSSL.
+
+The diagnosis is not just a descriptive label. It is classified by ICD-11 under code 6A70.
+
+The service is not limited to one port. It listens on ports 80 and 443.
+
+The itinerary is not limited to France. It also includes Germany and Italy.
+
+The account is not owned by the company. It is owned by the employee.
+
+KS is not inherited. It's caused by a random error that happens when a sperm or egg is formed.
+
+JSON is not executable code in a web browser. It is intended for data interchange between systems.
+
+A byte is not a decimal digit used in computing. It is a unit of digital information.
+
+The source code is not company property under this agreement. It is the property of the individual contractor.
+
+The material is not manufactured from petroleum in this process. It is derived from recycled cellulose.

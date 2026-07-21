@@ -1,5 +1,6 @@
 import type { Token } from "../../../../shared/text/tokens.js";
 import { hasFactualConnectorAfterNegation } from "./negation-context-gates.js";
+export { shouldReportCopularReframe } from "./reframe-classification.js";
 export {
   progressiveVerbMirror,
   pronounCopularReframe,

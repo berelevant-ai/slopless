@@ -32,6 +32,7 @@ import {
   progressiveVerbMirror,
   pronounCopularReframe,
   sameSubjectCopularReframe,
+  shouldReportCopularReframe,
   startsWithNegatedPronounCopula
 } from "./negative-slop-frames.js";
 import { makeMeaningReframe, meaningReframe } from "./meaning-reframe.js";
@@ -235,6 +236,7 @@ function sentencePairReframe(
 ): NegationReframeMatch | undefined {
   const aTokens = wordTokens(a.text);
   const bTokens = wordTokens(b.text);
+  const pairText = `${a.text} ${b.text}`;
 
   if (
     !isCompleteSentence(a) ||
@@ -245,18 +247,21 @@ function sentencePairReframe(
   }
 
   if (
-    sameSubjectCopularReframe(aTokens, bTokens) ||
-    pronounCopularReframe(aTokens, bTokens) ||
-    progressiveVerbMirror(aTokens, bTokens) ||
+    (shouldReportCopularReframe(aTokens, bTokens, pairText) &&
+      (sameSubjectCopularReframe(aTokens, bTokens) ||
+        pronounCopularReframe(aTokens, bTokens) ||
+        progressiveVerbMirror(aTokens, bTokens))) ||
     (startsWithExplicitReplacement(bTokens) &&
-      !hasConcreteCorrectionEvidence(`${a.text} ${b.text}`)) ||
+      shouldReportCopularReframe(aTokens, bTokens, pairText) &&
+      !hasConcreteCorrectionEvidence(pairText)) ||
     meaningReframe(aTokens, bTokens) ||
     makeMeaningReframe(aTokens, bTokens) ||
     needReframe(aTokens, bTokens) ||
     actionVerbMirror(aTokens, bTokens) ||
     negatedActionPronounPayoff(aTokens, bTokens) ||
     negativeSlopReframe(aTokens, bTokens) ||
-    explicitContrastPivotReframe(aTokens, bTokens)
+    (shouldReportCopularReframe(aTokens, bTokens, pairText) &&
+      explicitContrastPivotReframe(aTokens, bTokens))
   ) {
     return {
       end: b.end,

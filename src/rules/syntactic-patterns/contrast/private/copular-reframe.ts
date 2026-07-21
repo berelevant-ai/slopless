@@ -1,6 +1,5 @@
 import {
   NEGATION_WORDS,
-  PASSIVE_DEFINITION_VERBS,
   findCopularNegation,
   pronounCopulaStart,
   skipOptionalAdverbs,
@@ -38,7 +37,6 @@ export function pronounCopularReframe(
   return (
     negation !== undefined &&
     validSubject(negation.subject) &&
-    !looksLikePassiveDefinition(bTokens) &&
     !startsWithNegatedPronounCopula(bTokens) &&
     startsWithPronounCopula(bTokens)
   );
@@ -84,14 +82,4 @@ export function startsWithNegatedPronounCopula(
   const predicateIndex = skipOptionalAdverbs(tokenWords, start.predicateStart);
 
   return NEGATION_WORDS.has(tokenWords[predicateIndex] ?? "");
-}
-
-function looksLikePassiveDefinition(tokens: readonly Token[]): boolean {
-  const tokenWords = words(tokens);
-  const start = pronounCopulaStart(tokens);
-  if (start?.subject[0] !== "it") {
-    return false;
-  }
-
-  return PASSIVE_DEFINITION_VERBS.has(tokenWords[start.predicateStart] ?? "");
 }
