@@ -1158,6 +1158,24 @@ No significant change from. No significant change from.
 
 Indexing isn't the boring technical step anymore. It's the gate everything else has to pass through.
 
+AI isn't generating throwaway suggestions. It's producing production-ready code that changes how the team ships.
+
+The audit trail is not a log. It's an immutable, queryable record of every decision the system makes.
+
+This is not a framework. It's a calibration layer that changes how every team evaluates the work.
+
+The goal is not to stay motivated. The goal is to build a system that works even when motivation disappears.
+
+The fix is not more self-hate. It is better structure around the moments when avoidance starts.
+
+Burnout is not a personal defect. It is often a mismatch between the demands of the job and the support around it.
+
+Notifications are not neutral. They are tiny attention thieves that fragment every hour of the day.
+
+Open Banking is not a regulation. It is a platform shift that changes who can build financial products.
+
+Leadership is not a title on an organization chart. It is defined by courage, judgment, and service under pressure.
+
 RAG doesn't replace search. It depends on it.
 
 It is never sudden. It's timely.

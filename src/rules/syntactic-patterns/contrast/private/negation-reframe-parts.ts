@@ -58,18 +58,6 @@ export const PRONOUN_REFRAME_STARTS = [
   ["you", "are"],
   ["we", "are"]
 ] as const;
-export const PASSIVE_DEFINITION_VERBS = new Set([
-  "associated",
-  "caused",
-  "classified",
-  "defined",
-  "described",
-  "entered",
-  "linked",
-  "marked",
-  "produced",
-  "recorded"
-]);
 const IRREGULAR_PAST_TENSE = new Map<string, string>([["go", "went"]]);
 const CONTRAST_PIVOT_AFTER_NOT = new Set(["just", "merely", "only"]);
 const NEGATIVE_COPULAR_PREDICATES = new Set([

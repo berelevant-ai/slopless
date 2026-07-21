@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 47.86. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 48.27. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 15.07. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 14.92. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -13440,7 +13440,7 @@
         "line": 1161,
         "loc": {
           "end": {
-            "column": 46,
+            "column": 113,
             "line": 1161
           },
           "start": {
@@ -13448,10 +13448,10 @@
             "line": 1161
           }
         },
-        "message": "Negation reframe found: \"RAG doesn't replace search. It depends on it.\". Rewrite without the not-X-then-Y construction.",
+        "message": "Negation reframe found: \"AI isn't generating throwaway suggestions. It's producing production-ready code that changes how the team ships.\". Rewrite without the not-X-then-Y construction.",
         "range": [
           51625,
-          51670
+          51737
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -13459,11 +13459,11 @@
       },
       {
         "column": 1,
-        "index": 51672,
+        "index": 51739,
         "line": 1163,
         "loc": {
           "end": {
-            "column": 33,
+            "column": 102,
             "line": 1163
           },
           "start": {
@@ -13471,10 +13471,10 @@
             "line": 1163
           }
         },
-        "message": "Negation reframe found: \"It is never sudden. It's timely.\". Rewrite without the not-X-then-Y construction.",
+        "message": "Negation reframe found: \"The audit trail is not a log. It's an immutable, queryable record of every decision the system makes.\". Rewrite without the not-X-then-Y construction.",
         "range": [
-          51672,
-          51704
+          51739,
+          51840
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -13482,7 +13482,7 @@
       },
       {
         "column": 1,
-        "index": 51706,
+        "index": 51842,
         "line": 1165,
         "loc": {
           "end": {
@@ -13494,10 +13494,102 @@
             "line": 1165
           }
         },
-        "message": "Generic signposting found: it-was-important. Replace the frame with the concrete claim.",
+        "message": "Demonstrative emphasis found: \"This is not a framework.\". Reduce repeated short emphasis lines.",
         "range": [
-          51706,
-          51730
+          51842,
+          51866
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51842,
+        "line": 1165,
+        "loc": {
+          "end": {
+            "column": 98,
+            "line": 1165
+          },
+          "start": {
+            "column": 1,
+            "line": 1165
+          }
+        },
+        "message": "Negation reframe found: \"This is not a framework. It's a calibration layer that changes how every team evaluates the work.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51842,
+          51939
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51941,
+        "line": 1167,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 1167
+          },
+          "start": {
+            "column": 1,
+            "line": 1167
+          }
+        },
+        "message": "Negation reframe found: \"The goal is not to stay motivated. The goal is to build a system that works even when motivation disappears.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          51941,
+          52049
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51941,
+        "line": 1167,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 1167
+          },
+          "start": {
+            "column": 1,
+            "line": 1167
+          }
+        },
+        "message": "Repeated sentence frame found: \"the goal is\". Vary the sentence frame.",
+        "range": [
+          51941,
+          52049
+        ],
+        "ruleId": "triple-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 36,
+        "index": 51976,
+        "line": 1167,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 1167
+          },
+          "start": {
+            "column": 36,
+            "line": 1167
+          }
+        },
+        "message": "Generic signposting found: the-goal-is-to. Replace the frame with the concrete claim.",
+        "range": [
+          51976,
+          52049
         ],
         "ruleId": "generic-signposting",
         "severity": 2,
@@ -13505,22 +13597,206 @@
       },
       {
         "column": 1,
-        "index": 51706,
-        "line": 1165,
+        "index": 52051,
+        "line": 1169,
         "loc": {
           "end": {
-            "column": 41,
-            "line": 1165
+            "column": 96,
+            "line": 1169
           },
           "start": {
             "column": 1,
-            "line": 1165
+            "line": 1169
+          }
+        },
+        "message": "Negation reframe found: \"The fix is not more self-hate. It is better structure around the moments when avoidance starts.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          52051,
+          52146
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 52148,
+        "line": 1171,
+        "loc": {
+          "end": {
+            "column": 115,
+            "line": 1171
+          },
+          "start": {
+            "column": 1,
+            "line": 1171
+          }
+        },
+        "message": "Negation reframe found: \"Burnout is not a personal defect. It is often a mismatch between the demands of the job and the support around it.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          52148,
+          52262
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 52264,
+        "line": 1173,
+        "loc": {
+          "end": {
+            "column": 100,
+            "line": 1173
+          },
+          "start": {
+            "column": 1,
+            "line": 1173
+          }
+        },
+        "message": "Negation reframe found: \"Notifications are not neutral. They are tiny attention thieves that fragment every hour of the day.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          52264,
+          52363
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 52365,
+        "line": 1175,
+        "loc": {
+          "end": {
+            "column": 104,
+            "line": 1175
+          },
+          "start": {
+            "column": 1,
+            "line": 1175
+          }
+        },
+        "message": "Negation reframe found: \"Open Banking is not a regulation. It is a platform shift that changes who can build financial products.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          52365,
+          52468
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 52470,
+        "line": 1177,
+        "loc": {
+          "end": {
+            "column": 116,
+            "line": 1177
+          },
+          "start": {
+            "column": 1,
+            "line": 1177
+          }
+        },
+        "message": "Negation reframe found: \"Leadership is not a title on an organization chart. It is defined by courage, judgment, and service under pressure.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          52470,
+          52585
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 52587,
+        "line": 1179,
+        "loc": {
+          "end": {
+            "column": 46,
+            "line": 1179
+          },
+          "start": {
+            "column": 1,
+            "line": 1179
+          }
+        },
+        "message": "Negation reframe found: \"RAG doesn't replace search. It depends on it.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          52587,
+          52632
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 52634,
+        "line": 1181,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 1181
+          },
+          "start": {
+            "column": 1,
+            "line": 1181
+          }
+        },
+        "message": "Negation reframe found: \"It is never sudden. It's timely.\". Rewrite without the not-X-then-Y construction.",
+        "range": [
+          52634,
+          52666
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 52668,
+        "line": 1183,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 1183
+          },
+          "start": {
+            "column": 1,
+            "line": 1183
+          }
+        },
+        "message": "Generic signposting found: it-was-important. Replace the frame with the concrete claim.",
+        "range": [
+          52668,
+          52692
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 52668,
+        "line": 1183,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 1183
+          },
+          "start": {
+            "column": 1,
+            "line": 1183
           }
         },
         "message": "Negation reframe found: \"It was nobody important. It was a guest.\". Rewrite without the not-X-then-Y construction.",
         "range": [
-          51706,
-          51746
+          52668,
+          52708
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -13528,22 +13804,22 @@
       },
       {
         "column": 1,
-        "index": 51748,
-        "line": 1167,
+        "index": 52710,
+        "line": 1185,
         "loc": {
           "end": {
             "column": 50,
-            "line": 1167
+            "line": 1185
           },
           "start": {
             "column": 1,
-            "line": 1167
+            "line": 1185
           }
         },
         "message": "Negation reframe found: \"Automation does not solve ownership. It moves it.\". Rewrite without the not-X-then-Y construction.",
         "range": [
-          51748,
-          51797
+          52710,
+          52759
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -13551,22 +13827,22 @@
       },
       {
         "column": 1,
-        "index": 51799,
-        "line": 1169,
+        "index": 52761,
+        "line": 1187,
         "loc": {
           "end": {
             "column": 48,
-            "line": 1169
+            "line": 1187
           },
           "start": {
             "column": 1,
-            "line": 1169
+            "line": 1187
           }
         },
         "message": "Negation reframe found: \"Search doesn't create authority. It exposes it.\". Rewrite without the not-X-then-Y construction.",
         "range": [
-          51799,
-          51846
+          52761,
+          52808
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -13574,22 +13850,22 @@
       },
       {
         "column": 1,
-        "index": 51848,
-        "line": 1171,
+        "index": 52810,
+        "line": 1189,
         "loc": {
           "end": {
             "column": 45,
-            "line": 1171
+            "line": 1189
           },
           "start": {
             "column": 1,
-            "line": 1171
+            "line": 1189
           }
         },
         "message": "Negation reframe found: \"Growth is never the point. It's the residue.\". Rewrite without the not-X-then-Y construction.",
         "range": [
-          51848,
-          51892
+          52810,
+          52854
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -13614,7 +13890,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 12.67. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 12.02. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -13637,7 +13913,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 27.16. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 40.25. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -13660,7 +13936,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 23.48. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 18.76. Keep it at 12 or lower.",
         "range": [
           0,
           1
