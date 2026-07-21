@@ -6,7 +6,11 @@ import {
   type SentenceMatch
 } from "../../../shared/matchers/prose-patterns.js";
 import { oneToOneRule } from "../../private/textlint-rule-builders.js";
-import { matchDiscourseEvaluationFrame } from "./private/discourse-evaluation.js";
+import {
+  isAbstractAuditFrame,
+  matchDiscourseEvaluationFrame,
+  matchExpandedDiscourseFrame
+} from "./private/discourse-evaluation.js";
 
 const PREFIXES = ["however, ", "but ", "and ", "so "];
 // "as such" was removed: it is a normal anaphoric connective ("a registered adviser; as
@@ -53,7 +57,6 @@ const FRAME_PATTERNS = [
   "the useful version is",
   "the point is plain enough"
 ];
-const DETERMINERS = ["a", "an", "the", "this", "that"];
 const SEQUENCE_PATTERNS = [
   "a simple sequence works well",
   "a simple pattern works well",
@@ -94,78 +97,12 @@ const WHAT_FRAME_TAIL_STARTERS = [
   "true",
   "usually"
 ];
-const FRAME_ADJECTIVES = [
-  "basic",
-  "best",
-  "better",
-  "biggest",
-  "bigger",
-  "central",
-  "clearest",
-  "core",
-  "easiest",
-  "final",
-  "first",
-  "hardest",
-  "honest",
-  "important",
-  "main",
-  "only",
-  "obvious",
-  "practical",
-  "real",
-  "simple",
-  "useful"
-];
-const FRAME_NOUNS = [
-  "answer",
-  "approach",
-  "challenge",
-  "choice",
-  "conclusion",
-  "fact",
-  "fix",
-  "focus",
-  "frame",
-  "idea",
-  "lesson",
-  "move",
-  "path",
-  "point",
-  "principle",
-  "priority",
-  "problem",
-  "question",
-  "result",
-  "rule",
-  "shift",
-  "signal",
-  "strategy",
-  "test",
-  "thing",
-  "tradeoff",
-  "truth",
-  "version",
-  "way",
-  "win"
-];
-const ABSTRACT_FRAME_VERBS = ["is", "are", "was"];
 const POINT_NOUNS = ["goal", "job", "key", "point", "takeaway", "trick"];
 
 function matchModifiedAbstractFrame(
   words: readonly string[]
 ): string | undefined {
-  const [first, second, third, fourth, fifth] = words;
-
-  if (
-    first === "the" &&
-    second === "result" &&
-    third === "worth" &&
-    fourth === "caring" &&
-    fifth === "about"
-  ) {
-    return "the-result-worth-caring-about";
-  }
+  const [first, second, third, fourth] = words;
 
   if (first !== "the") {
     return undefined;
@@ -181,25 +118,6 @@ function matchModifiedAbstractFrame(
   ]);
 
   return matches.get(key);
-}
-
-function matchEvaluativeFrame(words: readonly string[]): string | undefined {
-  const [first, second, third, fourth] = words;
-
-  if (
-    first !== undefined &&
-    second !== undefined &&
-    third !== undefined &&
-    fourth !== undefined &&
-    DETERMINERS.includes(first) &&
-    FRAME_ADJECTIVES.includes(second) &&
-    FRAME_NOUNS.includes(third) &&
-    ABSTRACT_FRAME_VERBS.includes(fourth)
-  ) {
-    return `the-${second}-${third}-${fourth}`;
-  }
-
-  return undefined;
 }
 
 function matchPointIsToFrame(words: readonly string[]): string | undefined {
@@ -253,8 +171,8 @@ function matchWhatFrame(words: readonly string[]): string | undefined {
 function matchAbstractFrame(text: string): string | undefined {
   const words = tokens(text);
   return (
+    matchExpandedDiscourseFrame(words) ??
     matchModifiedAbstractFrame(words) ??
-    matchEvaluativeFrame(words) ??
     matchDiscourseEvaluationFrame(words) ??
     matchPointIsToFrame(words) ??
     matchWhatFrame(words)
@@ -322,8 +240,16 @@ function matchGeneratedFormula(text: string): string | undefined {
 
 function matchSignposting(sentence: string): SentenceMatch | undefined {
   const stripped = cleanSentence(sentence, PREFIXES);
-  const concreteImplementation = hasConcreteImplementationSummary(stripped);
   const abstract = matchAbstractFrame(stripped);
+  const strippedWords = tokens(stripped);
+  const auditStart = isAbstractAuditFrame(strippedWords)
+    ? stripped.indexOf("audit")
+    : -1;
+  const concreteImplementation = hasConcreteImplementationSummary(
+    abstract !== undefined && auditStart >= 0
+      ? stripped.slice(0, auditStart) + stripped.slice(auditStart + 5)
+      : stripped
+  );
   const formulaicSetup = matchFormulaicContentSetup(stripped);
   const generatedFormula = matchGeneratedFormula(stripped);
 
@@ -335,6 +261,9 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
   }
   if (formulaicSetup !== undefined) {
     return { kind: "formulaic-content-setup", signal: formulaicSetup };
+  }
+  if (stripped.startsWith("the fun part is:") && !concreteImplementation) {
+    return { kind: "frame-signpost", signal: "the fun part is:" };
   }
 
   const checks: readonly (readonly [string, readonly string[]])[] = [

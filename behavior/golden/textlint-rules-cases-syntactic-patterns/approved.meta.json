@@ -1,27 +1,27 @@
 {
   "suite": "textlint-rules-cases-syntactic-patterns",
   "kind": "approved",
-  "run_id": "2026-07-21T14-43-01.409763Z-04547efb",
-  "run_commit": "b8eb45e",
+  "run_id": "2026-07-21T16-12-54.044442Z-04547efb",
+  "run_commit": "09e10bc",
   "working_tree": "dirty",
-  "recorded_at": "2026-07-21T14:43:01.409763Z",
-  "fixture_hash": "sha256:44712e16a1154e353f2e85a50dbf6d45ae6d50eb31588b4f506a7c90bca35128",
+  "recorded_at": "2026-07-21T16:12:54.044442Z",
+  "fixture_hash": "sha256:3d14fe4f98786b3e64373cb11b90f8c7462b631b2ad56e07c93345c118619a04",
   "manifest_hash": "sha256:04547efbb13157ee3d8ef18dda767231fd63d3f9cc27c15317cf28c5f0583e7b",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
   "fixtures": [
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
-      "sha256": "sha256:5a9f0f21c694e00e9d340cf84ad753d9a2dd33bda787f6a7da198c8836953cc2"
+      "sha256": "sha256:3f56cf46c2e41bd5a8c846ee4a23bdd7a9239f5b0133bb02adf7dc9b3be943bf"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
-      "sha256": "sha256:9f3993dc2221126867ec53f305c3fa4ec6bcae27c198063280e827ecde363250"
+      "sha256": "sha256:2a8d6132eeac57e1d36e41ff5d5d19f4849723cf2ec28ec80224a1416557febf"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/significance-density.md",
       "sha256": "sha256:a5489177104e3714ea3558c1d90bdd91573bf719c83112225ae9e9b0e288c6da"
     }
   ],
-  "comment": "Reviewed final negation classifier fixtures. Four factual relation no-hits add only the expected three aggregate readability-score changes; all new hits report and no negation no-hit reports."
+  "comment": "Add object-head adversarial controls; policy must be the final recognized direct-object head."
 }
