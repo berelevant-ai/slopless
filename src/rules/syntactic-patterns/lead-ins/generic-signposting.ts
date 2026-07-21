@@ -11,6 +11,7 @@ import {
   matchDiscourseEvaluationFrame,
   matchExpandedDiscourseFrame
 } from "./private/discourse-evaluation.js";
+import { matchRelativeDiscourseFrame } from "./private/relative-discourse-frame.js";
 
 const PREFIXES = ["however, ", "but ", "and ", "so "];
 // "as such" was removed: it is a normal anaphoric connective ("a registered adviser; as
@@ -185,6 +186,7 @@ function matchWhatFrame(words: readonly string[]): string | undefined {
 function matchAbstractFrame(text: string): string | undefined {
   const words = tokens(text);
   return (
+    matchRelativeDiscourseFrame(text, words) ??
     matchExpandedDiscourseFrame(words) ??
     matchModifiedAbstractFrame(words) ??
     matchDiscourseEvaluationFrame(words) ??
@@ -269,7 +271,9 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
 
   if (
     abstract !== undefined &&
-    (abstract === "what-matters-is" || !concreteImplementation)
+    (abstract === "what-matters-is" ||
+      abstract.startsWith("relative-") ||
+      !concreteImplementation)
   ) {
     return { kind: "abstract-evaluation-frame", signal: abstract };
   }

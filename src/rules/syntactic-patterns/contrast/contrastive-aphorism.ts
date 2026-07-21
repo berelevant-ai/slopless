@@ -7,6 +7,7 @@ import {
   trimTerminalPunctuation
 } from "../../../shared/matchers/prose-patterns.js";
 import { pairHasAbstractSubjectOrObject } from "./private/abstract-pair-gates.js";
+import { matchEvidenceLimitationPair } from "./private/evidence-limitation-pair.js";
 import { matchSameSentenceContrast } from "./private/same-sentence-contrast.js";
 import { matchSingleSentenceAphorism } from "./private/single-sentence-aphorism.js";
 
@@ -155,6 +156,7 @@ const rule = defineTextlintRule({
           matchLessMorePair(current.text, next.text) ??
           matchGivesYouPair(current.text, next.text) ??
           matchGetsOneAnotherPair(current.text, next.text) ??
+          matchEvidenceLimitationPair(current.text, next.text) ??
           matchEvaluativeContrastPair(current.text, next.text);
         if (signal !== undefined) {
           detections.push({

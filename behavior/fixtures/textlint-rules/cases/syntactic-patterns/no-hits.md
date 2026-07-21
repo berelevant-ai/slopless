@@ -363,3 +363,59 @@ What matters is what the meter recorded.
 What matters is if the fallback remains available.
 
 What matters is whose certificate signed the package.
+
+The detail that helps the parser recover is the byte offset.
+
+The enzyme that makes milk sour is lactase.
+
+The process that makes the valve reliable is annealing.
+
+The feature that helps users reset passwords is the recovery link.
+
+The detail that makes the map useful is the scale bar.
+
+The theorem proves the sequence converges. It says little about the convergence rate.
+
+The assay proves the sample contains lead. It says the concentration was 12 ppm.
+
+It says little about when or why the product works.
+
+The review confirms the buyer received the parcel. It says that delivery took two days.
+
+The benchmark shows lower latency. The report lists the median and p95 values.
+
+The alarm signal indicates smoke. It signals the controller to close the valve.
+
+The method that made the alloy stronger was heat treatment.
+
+The report documents the outage. It provides the failed host names and timestamps.
+
+The theorem compared with the benchmark proves convergence. It says little about the convergence rate.
+
+The review proves the buyer received the parcel. They say little about the delivery time.
+
+The report proves the endpoint failed. It says something concrete: p95 latency rose 20 percent.
+
+If the benchmark proves demand, we will launch. It says little about retention.
+
+Whether the benchmark proves convergence remains disputed. It says little about the convergence rate.
+
+Although the review suggests demand, the team rejected it. It says little about repeat use.
+
+The analyst and the reviews prove the defect. They say little about timing.
+
+The invoice or the report proves payment. It says little about timing.
+
+The report confirms the service recovered. It does not show anything concrete: p95 latency rose 20 percent.
+
+The report confirms the pressure stabilized. It showed little change in pressure.
+
+The report confirms the scan completed. It showed nothing abnormal.
+
+That the review proves fraud is disputed. It says little about motive.
+
+The study demonstrates lower mortality. It provides no evidence that the treatment is safe.
+
+The report confirms the backup completed. It says little about restore time.
+
+The review confirms the parcel arrived. It provides no evidence that the contents were undamaged.
