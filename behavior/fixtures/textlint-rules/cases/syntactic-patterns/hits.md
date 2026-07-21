@@ -1245,3 +1245,47 @@ The policy is load-bearing for the entire compliance program.
 The policy is doing real work on the compliance review.
 
 The editor does not request another draft. She sets an approval threshold:
+
+What matters is the use case, the setting, the constraint, and the measured result.
+
+What matters is an outcome the team can measure.
+
+What matters is your process, not the tool.
+
+What matters is our ability to ship.
+
+What matters is this result.
+
+What matters is these three constraints.
+
+What matters is one rule.
+
+What matters is context.
+
+What matters is being consistent.
+
+What matters is to ship safely.
+
+What matters is the API contract.
+
+What matters is the 30-day retention period.
+
+What matters is one point.
+
+What matters is 42.
+
+What matters is forty-two.
+
+What matters is 1,000.
+
+What matters is 1e6.
+
+What matters is one trillion.
+
+What matters is twenty-first.
+
+What matters is three quarters.
+
+What matters is one and a half.
+
+What matters is two dozen.

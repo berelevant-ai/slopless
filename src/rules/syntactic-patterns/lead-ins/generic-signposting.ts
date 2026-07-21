@@ -97,6 +97,19 @@ const WHAT_FRAME_TAIL_STARTERS = [
   "true",
   "usually"
 ];
+const WHAT_MATTERS_CLAUSE_STARTERS = [
+  "how",
+  "if",
+  "that",
+  "what",
+  "when",
+  "where",
+  "whether",
+  "which",
+  "who",
+  "whose",
+  "why"
+];
 const POINT_NOUNS = ["goal", "job", "key", "point", "takeaway", "trick"];
 
 function matchModifiedAbstractFrame(
@@ -147,7 +160,8 @@ function matchWhatFrame(words: readonly string[]): string | undefined {
       second === "changes") &&
     third === "is" &&
     fourth !== undefined &&
-    WHAT_FRAME_TAIL_STARTERS.includes(fourth)
+    (WHAT_FRAME_TAIL_STARTERS.includes(fourth) ||
+      (second === "matters" && !WHAT_MATTERS_CLAUSE_STARTERS.includes(fourth)))
   ) {
     return `what-${second}-is`;
   }
@@ -253,7 +267,10 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
   const formulaicSetup = matchFormulaicContentSetup(stripped);
   const generatedFormula = matchGeneratedFormula(stripped);
 
-  if (abstract !== undefined && !concreteImplementation) {
+  if (
+    abstract !== undefined &&
+    (abstract === "what-matters-is" || !concreteImplementation)
+  ) {
     return { kind: "abstract-evaluation-frame", signal: abstract };
   }
   if (generatedFormula !== undefined && !concreteImplementation) {

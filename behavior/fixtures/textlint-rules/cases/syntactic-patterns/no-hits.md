@@ -341,3 +341,25 @@ The CMO did not buy another dashboard. She set a policy timer:
 The CMO did not buy another dashboard. She set a launch policy timer:
 
 The useful diagnosis starts upstream in the renal artery.
+
+What matters is whether the checksum matches the signed manifest.
+
+What matters is that the valve closes before pressure reaches 90 PSI.
+
+What matters is how many requests failed after deployment.
+
+What matters is which certificate signed the package.
+
+What matters is when the timeout begins.
+
+What matters is where the leak starts.
+
+What matters is why the worker exited.
+
+What matters is who approved the release.
+
+What matters is what the meter recorded.
+
+What matters is if the fallback remains available.
+
+What matters is whose certificate signed the package.
