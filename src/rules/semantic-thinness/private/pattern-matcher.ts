@@ -41,7 +41,7 @@ type CompiledTemplate = {
 type CompiledPattern = {
   readonly class: string;
   readonly id: string;
-  readonly matchMode: "contains" | "full";
+  readonly matchMode: "contains" | "full" | "suffix";
   readonly maxTokens: number;
   readonly purpose: string;
   readonly slotValues: Readonly<Record<string, readonly (readonly string[])[]>>;
@@ -150,8 +150,13 @@ export function compileSemanticThinnessPatterns(
 ): readonly CompiledPattern[] {
   const matchModeFor = (
     pattern: SemanticThinnessPattern
-  ): "contains" | "full" =>
-    pattern.matchMode === "contains" ? "contains" : "full";
+  ): "contains" | "full" | "suffix" => {
+    if (pattern.matchMode === "contains" || pattern.matchMode === "suffix") {
+      return pattern.matchMode;
+    }
+
+    return "full";
+  };
 
   const defaultMaxTokensFor = (pattern: SemanticThinnessPattern): number =>
     matchModeFor(pattern) === "contains"

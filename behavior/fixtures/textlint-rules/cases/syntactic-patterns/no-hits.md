@@ -247,3 +247,97 @@ No parking is allowed after midnight. No smoking is allowed indoors.
 No reviewer signed the memo because the deadline moved. No owner changed the queue because the patch passed.
 
 No index was missing, so the migration passed.
+
+RAG doesn't replace search because the endpoint still queries Lucene.
+
+The adapter does not replace the cache because the deployment reuses the same key.
+
+The outage is never sudden because the monitor reports latency first. It is recorded in the incident log.
+
+The witness was nobody important because the court record used a pseudonym. It was entered as exhibit B.
+
+Application data is never sent in DTLS record-layer application_data packets. Rather, complete RTP or RTCP packets are passed to the DTLS stack.
+
+The flights were never paid, and Jennings and Allsup continued the tour for two more weeks. They were paid less than half of the original agreed salary.
+
+But condoms alone aren't the most effective form of birth control. It's safest to use condoms with another form of birth control.
+
+Aphasia is not a disease. It's a symptom of damage to the parts of the brain that control language.
+
+The bank does not own 80% of your home. Instead they have lent you some amount of money, and they have a lien.
+
+HTML is not a programming language. It is a markup language used to organize and display content on a webpage.
+
+Photosynthesis does not require light during the Calvin cycle. Instead, it uses energy products created in the light-dependent reactions.
+
+The protocol is not merely a vendor convention. It is defined by RFC 8446 and implemented by OpenSSL.
+
+The diagnosis is not just a descriptive label. It is classified by ICD-11 under code 6A70.
+
+The service is not limited to one port. It listens on ports 80 and 443.
+
+The itinerary is not limited to France. It also includes Germany and Italy.
+
+The account is not owned by the company. It is owned by the employee.
+
+KS is not inherited. It's caused by a random error that happens when a sperm or egg is formed.
+
+JSON is not executable code in a web browser. It is intended for data interchange between systems.
+
+A byte is not a decimal digit used in computing. It is a unit of digital information.
+
+The source code is not company property under this agreement. It is the property of the individual contractor.
+
+The material is not manufactured from petroleum in this process. It is derived from recycled cellulose.
+
+The masonry crew is doing real work on the east wall.
+
+The retaining wall is load-bearing.
+
+This wall is load-bearing.
+
+The fun part is scheduled for Saturday afternoon.
+
+That's the good stuff I ordered from the supplier.
+
+The CMO did not buy another dashboard because procurement rejected it. She set one launch rule:
+
+The carpenter did not buy another dashboard. She set one ruler on the bench:
+
+The shift worth paying attention to begins at 09:00 in the east ward.
+
+The patient worth paying attention to is waiting beside room 14.
+
+The useful diagnosis names iron deficiency after ferritin testing.
+
+The practical audit begins with crawl logs from the April export.
+
+The young man did not dispute it and took the money. He looked at the old woman.
+
+And she did not. She walked between two men.
+
+The captain said he did not believe in it. He said he reckoned the barrel gained on us because it was in a better current.
+
+Though the canals did not drain, the purchase primed Florida's economy. It made news and attracted buyers.
+
+Jones said the game does not look good in screenshots. They took two steps to improve its presentation.
+
+The policy crew is doing real work on the compliance review.
+
+The CMO did not buy another dashboard. She set a timer by policy:
+
+The CMO did not buy another dashboard. She set one ruler on the rule:
+
+The team did not add a review. The team moved:
+
+The CMO did not buy another dashboard. She set the timer under policy:
+
+The CMO did not buy another dashboard. She set a timer near policy:
+
+The CMO did not buy another dashboard. She set a marker beside policy:
+
+The CMO did not buy another dashboard. She set a policy timer:
+
+The CMO did not buy another dashboard. She set a launch policy timer:
+
+The useful diagnosis starts upstream in the renal artery.

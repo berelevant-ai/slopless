@@ -1,0 +1,33 @@
+{
+  "id": "empty-quantification",
+  "class": "empty-quantification",
+  "purpose": "Catch claims that minimize an unexplained act of quantification instead of naming the metric, measurement, or result.",
+  "matchMode": "suffix",
+  "maxTokens": 24,
+  "templates": ["{minimizer} put a number on {deicticObject}."],
+  "slots": {
+    "minimizer": ["just", "simply", "merely", "basically"],
+    "deicticObject": ["it", "this", "that"]
+  },
+  "rejectIf": [
+    "sentence names the metric, measured value, scale, or numbered label",
+    "sentence explains how the number was calculated or where it came from",
+    "sentence uses put literally rather than as an empty quantification claim"
+  ],
+  "positiveExamples": [
+    "The report just put a number on it.",
+    "The dashboard simply put a number on this.",
+    "The analysis merely put a number on that.",
+    "The model basically put a number on it."
+  ],
+  "negativeExamples": [
+    "The analyst labeled the third bar 42.",
+    "The meter measured the pressure at 18 PSI.",
+    "The report calculated the score from twelve survey responses.",
+    "She put the numbered label on the archive box."
+  ],
+  "notes": [
+    "The template begins at the minimizer so suffix mode permits arbitrary preceding subjects without enumerating them.",
+    "Suffix mode permits arbitrary preceding subjects but requires the vague quantification phrase to end the sentence, excluding measurements, explanations, and literal continuations."
+  ]
+}

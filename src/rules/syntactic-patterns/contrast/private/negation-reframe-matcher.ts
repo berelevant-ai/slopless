@@ -1,15 +1,11 @@
 import {
   DO_NEGATIONS,
   EXPLICIT_DO_AUXILIARIES,
-  NEGATION_WORDS,
-  PASSIVE_DEFINITION_VERBS,
-  PRONOUN_REFRAME_STARTS,
   contrastPivotSubject,
   findCopularNegation,
   findNegationIndex,
   isCompleteSentence,
   skipOptionalAdverbs,
-  startsWithAny,
   startsWithSubjectOrPronoun,
   startsWithSubjectVerb,
   startsWithWords,
@@ -31,7 +27,14 @@ import {
 } from "./inline-short-negation.js";
 import {
   hasNegativeSlopPairSignal,
-  negativeSlopReframe
+  negatedActionPronounPayoff,
+  negatedActionSetReplacement,
+  negativeSlopReframe,
+  progressiveVerbMirror,
+  pronounCopularReframe,
+  sameSubjectCopularReframe,
+  shouldReportCopularReframe,
+  startsWithNegatedPronounCopula
 } from "./negative-slop-frames.js";
 import { makeMeaningReframe, meaningReframe } from "./meaning-reframe.js";
 import { hasConcreteCorrectionEvidence } from "../../../../shared/matchers/concrete-evidence.js";
@@ -40,7 +43,6 @@ import {
   type SplitSentence
 } from "../../../../shared/text/sentences.js";
 import { wordTokens, type Token } from "../../../../shared/text/tokens.js";
-
 export type NegationReframeMatch = {
   readonly end: number;
   readonly start: number;
@@ -111,80 +113,6 @@ function inlineNegationContrast(
         text: sentence.text
       }
     : undefined;
-}
-
-function sameSubjectCopularReframe(
-  aTokens: readonly Token[],
-  bTokens: readonly Token[]
-): boolean {
-  const negation = findCopularNegation(aTokens);
-
-  if (negation === undefined || !validSubject(negation.subject)) {
-    return false;
-  }
-
-  return startsWithWords(bTokens, [
-    ...negation.subject,
-    negation.affirmativeAux
-  ]);
-}
-
-function pronounCopularReframe(
-  aTokens: readonly Token[],
-  bTokens: readonly Token[]
-): boolean {
-  const negation = findCopularNegation(aTokens);
-
-  return (
-    negation !== undefined &&
-    validSubject(negation.subject) &&
-    !looksLikePassiveDefinition(aTokens, bTokens) &&
-    !startsWithNegatedPronounCopula(bTokens) &&
-    startsWithAny(bTokens, PRONOUN_REFRAME_STARTS)
-  );
-}
-
-function startsWithNegatedPronounCopula(tokens: readonly Token[]): boolean {
-  for (const start of PRONOUN_REFRAME_STARTS) {
-    if (!startsWithWords(tokens, start)) {
-      continue;
-    }
-
-    const tokenWords = words(tokens);
-    const predicateIndex = skipOptionalAdverbs(tokenWords, start.length);
-
-    return NEGATION_WORDS.has(tokenWords[predicateIndex] ?? "");
-  }
-
-  return false;
-}
-
-function progressiveVerbMirror(
-  aTokens: readonly Token[],
-  bTokens: readonly Token[]
-): boolean {
-  const negation = findCopularNegation(aTokens);
-
-  if (negation === undefined || !validSubject(negation.subject)) {
-    return false;
-  }
-
-  const tokenWords = words(aTokens);
-  const predicateIndex = skipOptionalAdverbs(
-    tokenWords,
-    negation.negatedPredicateStart
-  );
-  const verb = tokenWords[predicateIndex];
-
-  return (
-    verb !== undefined &&
-    verb.endsWith("ing") &&
-    startsWithWords(bTokens, [
-      ...negation.subject,
-      negation.affirmativeAux,
-      verb
-    ])
-  );
 }
 
 function needReframe(
@@ -297,33 +225,10 @@ function startsWithExplicitReplacement(tokens: readonly Token[]): boolean {
 function hasPairNegationSignal(tokens: readonly Token[]): boolean {
   return (
     findNegationIndex(tokens) !== undefined ||
+    findCopularNegation(tokens) !== undefined ||
     contrastPivotSubject(tokens) !== undefined ||
     hasNegativeSlopPairSignal(tokens)
   );
-}
-
-function looksLikePassiveDefinition(
-  aTokens: readonly Token[],
-  bTokens: readonly Token[]
-): boolean {
-  const aWords = words(aTokens);
-  const bWords = words(bTokens);
-
-  for (let index = 0; index < aWords.length - 2; index += 1) {
-    const current = aWords[index];
-
-    if (
-      (current === "has" || current === "have" || current === "had") &&
-      aWords[index + 1] === "not" &&
-      aWords[index + 2] === "been" &&
-      startsWithWords(bTokens, ["it", "is"]) &&
-      PASSIVE_DEFINITION_VERBS.has(bWords[2] ?? "")
-    ) {
-      return true;
-    }
-  }
-
-  return false;
 }
 
 function sentencePairReframe(
@@ -332,27 +237,38 @@ function sentencePairReframe(
 ): NegationReframeMatch | undefined {
   const aTokens = wordTokens(a.text);
   const bTokens = wordTokens(b.text);
+  const pairText = `${a.text} ${b.text}`;
+  const hasNegatedActionSetReplacement = negatedActionSetReplacement(
+    aTokens,
+    bTokens
+  );
+  const hasAllowedReplacementColon =
+    b.text.trimEnd().endsWith(":") && hasNegatedActionSetReplacement;
 
   if (
     !isCompleteSentence(a) ||
-    !isCompleteSentence(b) ||
+    (!isCompleteSentence(b) && !hasAllowedReplacementColon) ||
     !hasPairNegationSignal(aTokens)
   ) {
     return undefined;
   }
 
   if (
-    sameSubjectCopularReframe(aTokens, bTokens) ||
-    pronounCopularReframe(aTokens, bTokens) ||
-    progressiveVerbMirror(aTokens, bTokens) ||
+    (shouldReportCopularReframe(aTokens, bTokens, pairText) &&
+      (sameSubjectCopularReframe(aTokens, bTokens) ||
+        pronounCopularReframe(aTokens, bTokens) ||
+        progressiveVerbMirror(aTokens, bTokens))) ||
     (startsWithExplicitReplacement(bTokens) &&
-      !hasConcreteCorrectionEvidence(`${a.text} ${b.text}`)) ||
+      shouldReportCopularReframe(aTokens, bTokens, pairText) &&
+      !hasConcreteCorrectionEvidence(pairText)) ||
     meaningReframe(aTokens, bTokens) ||
     makeMeaningReframe(aTokens, bTokens) ||
     needReframe(aTokens, bTokens) ||
     actionVerbMirror(aTokens, bTokens) ||
+    negatedActionPronounPayoff(aTokens, bTokens) ||
     negativeSlopReframe(aTokens, bTokens) ||
-    explicitContrastPivotReframe(aTokens, bTokens)
+    (shouldReportCopularReframe(aTokens, bTokens, pairText) &&
+      explicitContrastPivotReframe(aTokens, bTokens))
   ) {
     return {
       end: b.end,

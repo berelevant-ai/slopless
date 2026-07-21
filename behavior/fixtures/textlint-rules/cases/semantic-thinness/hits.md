@@ -255,3 +255,11 @@ The path forward is obvious once the noise is no longer allowed to lead.
 The real opportunity is to let the work teach us what the work is.
 
 Everyone went quiet. Silence filled the yard.
+
+The analyst just put a number on it.
+
+The dashboard simply put a number on that.
+
+The report merely put a number on this.
+
+The review basically put a number on that.
