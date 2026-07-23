@@ -1337,3 +1337,31 @@ The feature that makes the API useful is consistent.
 The rating has proven demand. It says little about repeat use.
 
 The score can demonstrate product fit. It shows little about retention.
+
+The writer is an agent. The input is the research.
+
+The writer is an agent — but never from a blank prompt. The input is the research.
+
+Our author is the model, despite the review step. The source is interviews.
+
+The model is the writer; the source is the brief.
+
+The editor is an agent, and the output is a recommendation.
+
+The analyst is the author - the material is interview transcripts.
+
+The machine is heavy: a giant crawler, stealth HTTP, full browser rendering, and a model of the whole domain.
+
+The process is simple: collection, scoring, and publication.
+
+The process was simple: collection, scoring, and publication.
+
+The systems were straightforward: collection, scoring, and publication.
+
+The process is simple: Workers use the cache and publish the result.
+
+The setup feels heavy: crawling, rendering, indexing, and classification.
+
+The strategy looks straightforward: research, drafting, review, and publication.
+
+The verdict is simple: "ship it."

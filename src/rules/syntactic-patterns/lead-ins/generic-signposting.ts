@@ -1,3 +1,8 @@
+import { defineTextlintRule } from "../../../adapters/textlint/rule.js";
+import {
+  paragraphUnits,
+  sentenceUnits
+} from "../../../adapters/textlint/units.js";
 import { hasConcreteImplementationSummary } from "../../../shared/matchers/concrete-evidence.js";
 import {
   cleanSentence,
@@ -5,12 +10,15 @@ import {
   tokens,
   type SentenceMatch
 } from "../../../shared/matchers/prose-patterns.js";
-import { oneToOneRule } from "../../private/textlint-rule-builders.js";
+import { splitSentences } from "../../../shared/text/sentences.js";
+import type { RuleDetection } from "../../types.js";
+import { matchComponentAssignmentFrame } from "./private/component-assignment-frame.js";
 import {
   isAbstractAuditFrame,
   matchDiscourseEvaluationFrame,
   matchExpandedDiscourseFrame
 } from "./private/discourse-evaluation.js";
+import { matchEvaluativeColonFrame } from "./private/evaluative-colon-frame.js";
 import { matchRelativeDiscourseFrame } from "./private/relative-discourse-frame.js";
 
 const PREFIXES = ["however, ", "but ", "and ", "so "];
@@ -315,26 +323,75 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
   return undefined;
 }
 
-const rule = oneToOneRule({
-  detect: (unit) => {
-    const matched = matchSignposting(unit.text);
-    if (matched === undefined) {
-      return [];
-    }
+const rule = defineTextlintRule({
+  detector: {
+    detect: ({ units }) => {
+      const detections = units.flatMap((unit) => {
+        if (unit.kind === "paragraph") {
+          const sentences = splitSentences(unit.text);
+          const pairDetections: RuleDetection[] = [];
 
-    return [
-      {
-        evidence: matched.signal,
-        label: matched.kind,
-        range: { start: 0, end: unit.text.length }
-      }
-    ];
+          for (let index = 0; index < sentences.length - 1; index += 1) {
+            const current = sentences[index];
+            const next = sentences[index + 1];
+            if (current === undefined || next === undefined) {
+              continue;
+            }
+
+            const signal = matchComponentAssignmentFrame(
+              current.text,
+              next.text
+            );
+            if (signal !== undefined) {
+              pairDetections.push({
+                evidence: signal,
+                label: "component-assignment-frame",
+                range: { start: current.start, end: next.end },
+                ruleId: "syntactic-patterns:generic-signposting" as const,
+                unitId: unit.id
+              });
+            }
+          }
+
+          return pairDetections;
+        }
+
+        const componentSignal = matchComponentAssignmentFrame(unit.text);
+        const colonSignal = matchEvaluativeColonFrame(unit.text);
+        const matched =
+          componentSignal === undefined && colonSignal === undefined
+            ? matchSignposting(unit.text)
+            : undefined;
+        const signal = componentSignal ?? colonSignal ?? matched?.signal;
+        if (signal === undefined) {
+          return [];
+        }
+
+        return [
+          {
+            evidence: signal,
+            label:
+              componentSignal !== undefined
+                ? "component-assignment-frame"
+                : colonSignal !== undefined
+                  ? "evaluative-colon-frame"
+                  : (matched?.kind ?? "generic-signposting"),
+            range: { start: 0, end: unit.text.length },
+            ruleId: "syntactic-patterns:generic-signposting" as const,
+            unitId: unit.id
+          }
+        ];
+      });
+
+      return detections;
+    },
+    family: "syntactic-patterns",
+    id: "syntactic-patterns:generic-signposting"
   },
-  family: "syntactic-patterns",
   formatMessage: (report) =>
     `Generic signposting found: ${report.evidence}. Replace the frame with the concrete claim.`,
-  ruleId: "syntactic-patterns:generic-signposting",
-  unitKind: "sentence"
+  reportPolicy: { kind: "one-to-one" },
+  units: (document) => [...sentenceUnits(document), ...paragraphUnits(document)]
 });
 
 export default rule;

@@ -1023,3 +1023,29 @@ The study reports that policy actors filed 18 comments before the deadline.
 The literature review names each database query and inclusion criterion.
 
 The chapter quotes "bridge theory and practice" as an example of vague academic prose.
+
+## Automated editorial system review
+
+The first draft described the workflow as a set of labels. The writer is an agent. The input is the research. The reviewer replaced both declarations with one sentence explaining that an agent writes from the research.
+
+A second draft retained an interruption between the labels. Our author is the model, despite the review step. The source is interviews. Another version assigned the downstream role in the same way. The editor is an agent, and the output is a recommendation. The analyst is the author - the material is interview transcripts.
+
+The infrastructure summary prefaced its inventories with evaluations. The setup feels heavy: crawling, rendering, indexing, and classification. The strategy looks straightforward: research, drafting, review, and publication. The verdict is simple: "ship it." The reviewer removed each prefix and retained the useful statement.
+
+Earlier versions used the same frame in the past tense. The process was simple: collection, scoring, and publication. The systems were straightforward: collection, scoring, and publication. Another draft capitalized the continuation. The process is simple: Workers use the cache and publish the result.
+
+Several interface statements were kept because they supplied names, constraints, or measurements. The author is Maya Chen. The source is the 2025 census. The writer is an employee. The source is listed in footnote 4.
+
+The image benchmark also used two role declarations, but the quantified input made the interface concrete. Our production agent is the assigned writer. The input is a 224 by 224 RGB image. A contractual explanation was similarly informative: The writer is an agent because the contract requires generated drafts.
+
+Two declarations appeared in different paragraphs and described separate parts of the system. Our experienced writer is an agent.
+
+Our primary input is the research.
+
+The browser documentation named a protocol boundary. The client is a browser. The transport is HTTP.
+
+The remaining evaluations all carried evidence or formed ordinary sentences. The machine is heavy. It needs a giant crawler. The query is expensive: it scans 12 million rows and takes 4.8 seconds. The result is clear: 42 percent of requests failed.
+
+The crawler report also used a named technical explanation in the past tense. The problem was simple: GPTBot received the raw HTML shell before hydration.
+
+The final examples named a command-line value and a literal route condition. The flag is simple: `--no-cache`. The route is hard: black ice covers the north face.

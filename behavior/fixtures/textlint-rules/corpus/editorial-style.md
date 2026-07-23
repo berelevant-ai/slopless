@@ -751,3 +751,17 @@ The AI-native file format stores model metadata in the header.
 The label says the wood finish is authentic shellac.
 
 The city report says the water supply is sustainable under the drought model.
+
+## Editorial automation brief
+
+One draft inserted an aside between the same labels. The writer is an agent — but never from a blank prompt. The input is the research. The aside did not connect the actor to its source.
+
+The production brief used the same style. The model is the writer; the source is the brief. The editor replaced it with a direct description of how the model used the source.
+
+The infrastructure paragraph opened with a verdict instead of its contents. The machine is heavy: a giant crawler, stealth HTTP, full browser rendering, and a model of the whole domain. The next draft named the components without the evaluative introduction.
+
+A second process description made the same move. The process is simple: collection, scoring, and publication. The list contained the useful information.
+
+Other interface descriptions were concrete enough to keep. The input is a CSV file. The model is a classifier. The input is a 224 by 224 RGB image.
+
+The technical inventory also supplied quantities instead of an empty judgment. The architecture is complex: three services, two databases, and one queue. The machine is heavy: 480 kilograms.

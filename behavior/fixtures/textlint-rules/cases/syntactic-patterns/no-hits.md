@@ -419,3 +419,39 @@ The study demonstrates lower mortality. It provides no evidence that the treatme
 The report confirms the backup completed. It says little about restore time.
 
 The review confirms the parcel arrived. It provides no evidence that the contents were undamaged.
+
+The input is a CSV file.
+
+The model is a classifier. The input is a 224 by 224 RGB image.
+
+The author is Maya Chen. The source is the 2025 census.
+
+The writer is an employee. The source is listed in footnote 4.
+
+Our production agent is the assigned writer. The input is a 224 by 224 RGB image.
+
+The writer is an agent because the contract requires generated drafts.
+
+Our experienced writer is an agent.
+
+Our primary input is the research.
+
+The client is a browser. The transport is HTTP.
+
+The machine is heavy: 480 kilograms.
+
+The problem is simple: GPTBot received the raw HTML shell before hydration.
+
+The problem was simple: GPTBot received the raw HTML shell before hydration.
+
+The architecture is complex: three services, two databases, and one queue.
+
+The machine is heavy. It needs a giant crawler.
+
+The query is expensive: it scans 12 million rows and takes 4.8 seconds.
+
+The result is clear: 42 percent of requests failed.
+
+The flag is simple: `--no-cache`.
+
+The route is hard: black ice covers the north face.
