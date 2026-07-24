@@ -51,3 +51,9 @@ The draft still contains [CITATION NEEDED] in the final copy.
 The editor left [INSERT TEXT] in the published note.
 
 Lorem ipsum appears in the published article.
+
+- Ship the patch! Check the logs!
+
+- The editor wrote “ship it” after the review.
+
+- The patch landed—but the logs stayed red.

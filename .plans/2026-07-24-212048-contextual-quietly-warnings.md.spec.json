@@ -1,0 +1,196 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "Plan: reporting, contextual rule, registration, package export, and public fixtures",
+      "required": [
+        "src/reporting/types.ts",
+        "src/reporting/reports.ts",
+        "src/reporting/density.ts",
+        "src/shared/text/sections.ts",
+        "src/shared/text/document.ts",
+        "src/shared/text/traverse.ts",
+        "src/rules/private/textlint-rule-builders.ts",
+        "src/rules/words/data/quietly-context.json",
+        "src/rules/words/private/quietly-clause.ts",
+        "src/rules/words/private/quietly-context.ts",
+        "src/rules/words/private/quietly-evidence.ts",
+        "src/rules/words/quietly-filler.ts",
+        "src/rules/words/quietly-overuse.ts",
+        "src/registries/words.ts",
+        "src/presets/everything.ts",
+        "package.json",
+        "cspell.config.json",
+        "behavior/fixtures/textlint-rules/cases/words/hits.md",
+        "behavior/fixtures/textlint-rules/cases/words/no-hits.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.preserve.json",
+        "behavior/analysis/quietly-ai-reviewed.json",
+        "behavior/analysis/quietly-human-reviewed.json"
+      ],
+      "forbidden": []
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/reporting/types.ts"],
+        "reason": "Approach 1: one-to-one policies accept warning or error severity",
+        "required": ["readonly severity", "1 | 2;"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/private/textlint-rule-builders.ts"],
+        "reason": "Approach 1: oneToOneRule exposes severity through reporting",
+        "required": [
+          "readonly severity",
+          "ReportSeverity",
+          "severity: input.severity"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/private/quietly-context.ts"],
+        "reason": "Approaches 2-4: private matcher classifies contextual uses from declared vocabulary",
+        "required": [
+          "wordTokens",
+          "\"quietly\"",
+          "../data/quietly-context.json",
+          "contextClassFor",
+          "\"evaluative-intensifier\"",
+          "\"abstract-change\"",
+          "\"hidden-harm\"",
+          "\"background-significance\"",
+          "\"unannounced-trend\"",
+          "\"detached-emphasis\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/data/quietly-context.json"],
+        "reason": "Approaches 2-4: vocabulary separates six warning classes from normal contexts",
+        "required": [
+          "\"evaluativeWords\"",
+          "\"abstractChangeWords\"",
+          "\"hiddenHarmWords\"",
+          "\"backgroundSignificanceWords\"",
+          "\"trendActionWords\"",
+          "\"hiddenHarmPairGroups\"",
+          "\"abstractChangePairGroups\"",
+          "\"backgroundPhraseGroups\"",
+          "\"trendPhraseGroups\"",
+          "\"normalMannerWords\"",
+          "\"privateActionWords\"",
+          "\"specifiedTechnicalWords\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/shared/text/sections.ts"],
+        "reason": "Approach 5: rule paragraphs recurse through containers while document paragraphs retain prior scope",
+        "required": [
+          "collectRuleParagraphs",
+          "collectDocumentParagraphs",
+          "allDocumentParagraphs",
+          "allParagraphs"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/shared/text/traverse.ts"],
+        "reason": "Approach 5: excluded inline code and image text retain source length",
+        "required": [
+          "node.type === \"Code\"",
+          "\" \".repeat(value.length)",
+          "\" \".repeat(alt.length)"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/shared/text/document.ts"],
+        "reason": "Approach 5: document metrics retain their prior paragraph scope",
+        "required": ["allDocumentParagraphs(document)"],
+        "forbidden": ["allParagraphs(document)"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/private/quietly-clause.ts"],
+        "reason": "Approach 4: each occurrence is classified inside its own clause",
+        "required": ["quietlyClauseFor", "BOUNDARY_WORDS"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/private/quietly-evidence.ts"],
+        "reason": "Approach 4: informative measured and technical evidence is position-independent",
+        "required": [
+          "hasInformativeChangeEvidence",
+          "hasLinkedTechnicalEvidence",
+          "hasSpecifiedTechnicalEvidence"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/quietly-filler.ts"],
+        "reason": "Approach 5: public sentence rule declares warning severity",
+        "required": [
+          "./private/quietly-context.js",
+          "\"words:quietly-filler\"",
+          "family: \"words\"",
+          "severity: 1",
+          "unitKind: \"sentence\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/registries/words.ts"],
+        "reason": "Approach 6: words registry exposes the new rule",
+        "required": [
+          "../rules/words/quietly-filler.js",
+          "\"quietly-filler\": quietlyFiller",
+          "\"quietly-overuse\": quietlyOveruse"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/presets/everything.ts"],
+        "reason": "Approach 6: everything preset enables both quietly rules",
+        "required": [
+          "\"quietly-filler\": true",
+          "\"quietly-overuse\": true"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "reason": "Approach 6: npm export map exposes the public rule",
+        "required": [
+          "\"./rules/words/quietly-filler\": \"./dist/rules/words/quietly-filler.js\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["cspell.config.json"],
+        "reason": "Validation: corpus audit data is excluded while fixture vocabulary remains checked",
+        "required": [
+          "behavior/analysis/quietly-ai-reviewed.json",
+          "behavior/analysis/quietly-human-reviewed.json",
+          "\"desync\"",
+          "\"misalign\"",
+          "\"oxygenator\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/quietly-overuse.ts"],
+        "reason": "Goal: independent density behavior keeps its thresholds",
+        "required": [
+          "\"words:quietly-overuse\"",
+          "minimumOccurrences: 4",
+          "warningPerUnit: 1",
+          "errorPerUnit: 2",
+          "wordsPerUnit: 1000"
+        ]
+      }
+    ]
+  }
+}

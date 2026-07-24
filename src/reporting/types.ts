@@ -20,9 +20,12 @@ export type DensityMatch<Group extends string = string> = {
   readonly start: number;
 };
 
+export type ReportSeverity = 1 | 2;
+
 export type ReportPolicy =
   | {
       readonly kind: "one-to-one";
+      readonly severity?: ReportSeverity;
     }
   | {
       readonly groups: readonly string[];
@@ -58,7 +61,7 @@ export type RuleReport = {
   readonly ruleId: RuleId;
   // Set by the reporter when a policy judges the finding's level (1 = warning, 2 = error).
   // Absent means the default error severity.
-  readonly severity?: number;
+  readonly severity?: ReportSeverity;
   readonly unitId: string;
 };
 

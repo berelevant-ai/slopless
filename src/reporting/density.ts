@@ -3,6 +3,8 @@
 // module decides whether the density is acceptable, a warning, or an error. It has no rule
 // or textlint knowledge so it stays reusable and unit-testable on its own.
 
+import type { ReportSeverity } from "./types.js";
+
 export const WARNING_SEVERITY = 1;
 export const ERROR_SEVERITY = 2;
 
@@ -15,7 +17,7 @@ export type RateThresholds = {
 
 export type RateVerdict = {
   readonly perUnit: number;
-  readonly severity: number;
+  readonly severity: ReportSeverity;
 };
 
 // Occurrences per `wordsPerUnit` words. Below the warning rate (or below the minimum count)

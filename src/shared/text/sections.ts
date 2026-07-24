@@ -5,7 +5,7 @@ import type {
   TxtParentNode
 } from "@textlint/ast-node-types";
 import { type SplitSentence, splitSentences } from "./sentences.js";
-import { proseSourceText, type SourceText, sourceText } from "./traverse.js";
+import { proseSourceText, type SourceText } from "./traverse.js";
 
 type Section = readonly AnyTxtNode[];
 
@@ -29,7 +29,25 @@ function isParentNode(node: AnyTxtNode): node is TxtParentNode {
   return "children" in node;
 }
 
-function collectParagraphs(
+function collectRuleParagraphs(
+  node: AnyTxtNode,
+  paragraphs: TxtParagraphNode[]
+): void {
+  if (isParagraphNode(node)) {
+    paragraphs.push(node);
+    return;
+  }
+
+  if (!isParentNode(node)) {
+    return;
+  }
+
+  for (const child of node.children) {
+    collectRuleParagraphs(child, paragraphs);
+  }
+}
+
+function collectDocumentParagraphs(
   node: AnyTxtNode,
   paragraphs: TxtParagraphNode[]
 ): void {
@@ -43,15 +61,25 @@ function collectParagraphs(
   }
 
   for (const child of node.children) {
-    collectParagraphs(child, paragraphs);
+    collectDocumentParagraphs(child, paragraphs);
   }
 }
 
-function sectionParagraphs(section: Section): TxtParagraphNode[] {
+function sectionRuleParagraphs(section: Section): TxtParagraphNode[] {
   const paragraphs: TxtParagraphNode[] = [];
 
   for (const node of section) {
-    collectParagraphs(node, paragraphs);
+    collectRuleParagraphs(node, paragraphs);
+  }
+
+  return paragraphs;
+}
+
+function sectionDocumentParagraphs(section: Section): TxtParagraphNode[] {
+  const paragraphs: TxtParagraphNode[] = [];
+
+  for (const node of section) {
+    collectDocumentParagraphs(node, paragraphs);
   }
 
   return paragraphs;
@@ -81,7 +109,7 @@ function documentSections(document: TxtDocumentNode): Section[] {
 }
 
 function paragraphSentences(paragraph: TxtParagraphNode): SectionSentence[] {
-  const source = sourceText(paragraph);
+  const source = proseSourceText(paragraph);
 
   return splitSentences(source.text).map((sentence) => ({
     paragraph,
@@ -96,7 +124,7 @@ export function allParagraphSentences(
   const sentences: SectionSentence[] = [];
 
   for (const section of documentSections(document)) {
-    for (const paragraph of sectionParagraphs(section)) {
+    for (const paragraph of sectionRuleParagraphs(section)) {
       sentences.push(...paragraphSentences(paragraph));
     }
   }
@@ -104,11 +132,14 @@ export function allParagraphSentences(
   return sentences;
 }
 
-export function allParagraphs(document: TxtDocumentNode): SectionParagraph[] {
+function mappedParagraphs(
+  document: TxtDocumentNode,
+  select: (section: Section) => readonly TxtParagraphNode[]
+): SectionParagraph[] {
   const paragraphs: SectionParagraph[] = [];
 
   for (const section of documentSections(document)) {
-    for (const paragraph of sectionParagraphs(section)) {
+    for (const paragraph of select(section)) {
       const source = proseSourceText(paragraph);
       paragraphs.push({
         paragraph,
@@ -121,13 +152,23 @@ export function allParagraphs(document: TxtDocumentNode): SectionParagraph[] {
   return paragraphs;
 }
 
+export function allDocumentParagraphs(
+  document: TxtDocumentNode
+): SectionParagraph[] {
+  return mappedParagraphs(document, sectionDocumentParagraphs);
+}
+
+export function allParagraphs(document: TxtDocumentNode): SectionParagraph[] {
+  return mappedParagraphs(document, sectionRuleParagraphs);
+}
+
 export function sectionFirstSentences(
   document: TxtDocumentNode
 ): SectionSentence[] {
   const sentences: SectionSentence[] = [];
 
   for (const section of documentSections(document)) {
-    const firstParagraph = sectionParagraphs(section).at(0);
+    const firstParagraph = sectionRuleParagraphs(section).at(0);
     if (firstParagraph === undefined) {
       continue;
     }
@@ -147,7 +188,7 @@ export function sectionLastSentences(
   const sentences: SectionSentence[] = [];
 
   for (const section of documentSections(document)) {
-    const lastParagraph = sectionParagraphs(section).at(-1);
+    const lastParagraph = sectionRuleParagraphs(section).at(-1);
     if (lastParagraph === undefined) {
       continue;
     }

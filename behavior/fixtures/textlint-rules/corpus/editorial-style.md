@@ -813,3 +813,281 @@ The repetition continued without adding evidence. The process quietly moved in a
 The hospital note used the word once to describe how the nurse protected a sleeping patient. The nurse closed the door quietly so the patient could sleep.
 
 The nursery scene used the word three times for literal volume. Mara closed the nursery door quietly. She read quietly until the child fell asleep. Later, she spoke quietly to the nurse in the hall.
+
+## Contextual manner-adverb review
+
+The editor first marked uses that turned `quietly` into an unsupported evaluation. Each sentence praised or judged its subject without supplying evidence.
+
+The migration is quietly transformative.
+
+The redesign became quietly powerful after launch.
+
+The campaign remains quietly consequential.
+
+The interface feels quietly dynamic.
+
+The ending was quietly heartbreaking.
+
+The proposal could be quietly remarkable.
+
+The next group made broad changes sound hidden or inevitable instead of naming causes and measured effects.
+
+The market is quietly reshaping itself.
+
+The baseline has degraded quietly over the quarter.
+
+Customer trust will quietly erode.
+
+The gap quietly widened between reviews.
+
+The budget had quietly ballooned.
+
+The standard may quietly lose its authority.
+
+The risk section used the same adverb to dramatize vague harm.
+
+The stale cache quietly poisons every dashboard.
+
+The shortcut has quietly sabotaged the rollout.
+
+Technical debt will quietly bleed money.
+
+The workaround breaks quietly at scale.
+
+This habit may quietly destroy productivity.
+
+The weak process quietly drowns the team in rework.
+
+The infrastructure section assigned invisible importance to ordinary systems and artifacts.
+
+The legacy service is quietly powering half the business.
+
+This tiny file quietly manages the entire platform.
+
+The old database has quietly been doing the real work.
+
+A forgotten script will quietly solve the hardest problem.
+
+The billing account quietly pays the bill when things go wrong.
+
+The protocol is quietly everywhere.
+
+The market report framed adoption and competition as unobserved trends without evidence.
+
+Companies are quietly adopting agentic search.
+
+The new tools have quietly replaced internal dashboards.
+
+Developers quietly build the next interface layer.
+
+The platform may quietly take over the category.
+
+Teams will quietly integrate agents into every workflow.
+
+A small group is quietly creating a durable advantage.
+
+The closing draft detached the adverb from a concrete action to manufacture emphasis.
+
+Quietly.
+
+Slowly, quietly.
+
+The category changed. Quietly.
+
+The advantage compounded. Quietly.
+
+Then came the collapse. Quietly.
+
+The whole market moved, slowly, quietly.
+
+One sentence contained two independent uses that both needed review.
+
+The market quietly shifted while the old platform quietly lost authority.
+
+## Contextual manner-adverb controls
+
+The dialogue and performance notes used `quietly` to specify audible volume.
+
+She said quietly, "The test failed."
+
+The choir sang quietly during rehearsal.
+
+He could speak quietly while the baby slept.
+
+The radio was playing quietly in the kitchen.
+
+The audience applauded quietly after the memorial.
+
+The oratorio ended quietly on an extended pianissimo.
+
+The physical scene used the adverb for movement, stillness, and handling that made little sound.
+
+The barn owl flew quietly over the field.
+
+The patient lay breathing quietly beside the monitor.
+
+The mechanic moved the actuator quietly into position.
+
+The child sat quietly during the examination.
+
+Snow fell quietly across the empty road.
+
+The guard opened the gate quietly before dawn.
+
+The legal and private-action notes used the word to establish secrecy or limited publicity.
+
+The board quietly approved the amendment during its closed meeting.
+
+The lawsuit was quietly settled for an undisclosed sum.
+
+The editor quietly removed the paragraph without recording the change.
+
+The team launched quietly to a 20-person beta group.
+
+The detective investigated the complaint quietly for six weeks.
+
+The donor had quietly given the shelter enough money to replace its roof.
+
+The technical notes named the hidden mechanism, measured effect, or observable consequence.
+
+The importer quietly dropped 37 malformed rows because strict mode was disabled.
+
+The system quietly truncated 0.4 percent of records during the Kafka rebalance.
+
+The relay failed quietly: no alarm sounded, and the controller logged E42.
+
+The cache quietly syncs draft metadata every 30 seconds.
+
+The dashboard misaligns quietly because one source uses 52 weeks and another uses 53.
+
+The parser quietly ignored the unknown attribute under its compatibility setting.
+
+The publishing notes used the word inside quotations and titles rather than as prose.
+
+The quartet performed "Quietly Confident" at noon.
+
+The library catalog lists "Love Comes Quietly" under historical fiction.
+
+The review quoted "quietly powerful" as a phrase to remove.
+
+The chapter is titled "Quietly Transformative."
+
+The playlist includes a track named "Quietly Everywhere."
+
+The editor circled "Quietly." in the draft.
+
+The final controls reused predicates from the warning cases while supplying literal measurements, confidential intent, or a named mechanism.
+
+The muffled pump quietly powers the oxygenator at 28 dBA.
+
+The patch quietly fixed the alert because maintenance mode suppresses notifications.
+
+The private foundation quietly supports the shelter through anonymous grants.
+
+The gearbox shifted quietly into third gear at 2,100 rpm.
+
+The importer stopped quietly after writing error E42 to the audit log.
+
+The board quietly adopted the amendment in a closed session.
+
+## Extended contextual manner-adverb review
+
+The editor collected further claims where the adverb supplied hidden decline, persistence, influence, failure, or importance without explaining the mechanism.
+
+The partnership quietly withers away.
+
+Small assumptions quietly survive code review.
+
+Spanish quietly continued to not exist.
+
+A bad memory can quietly steer the next review.
+
+The scraper quietly falls apart under load.
+
+Teams quietly accept this as just the way things are.
+
+The stale instruction was quietly inherited by the next agent.
+
+The task quietly takes most of our time.
+
+The failure quietly costs the most.
+
+A future change can quietly violate the contract.
+
+The model output is quietly wrong.
+
+These features quietly make everything easier.
+
+The next group staged invisible background work, sudden industry change, or understated significance.
+
+Use intelligence quietly in the background.
+
+The security tool sits quietly in the background until a breach suddenly becomes urgent.
+
+Publishers quietly stopped reporting the category.
+
+The tool quietly dropped a bombshell for developers.
+
+The team is quietly building something different.
+
+The improvement may arrive quietly: faster responses and lower costs.
+
+The flash completed quietly.
+
+The review called the ending quietly powerful.
+
+## Extended contextual manner-adverb controls
+
+The technical controls explained a measured cost, a concrete process, or the situation in which the behavior occurred.
+
+A will-change hint can quietly cost 8 MB because overlap pulls a neighboring element into compositing.
+
+The cache sits quietly in the background, intercepting traffic and serving repeated calls from disk.
+
+The publisher agreement was quietly violated during the merger.
+
+The narrative controls used the adverb for peaceful conduct, unobtrusive action, private disposition, or physical placement.
+
+The two families live quietly together in the village.
+
+The delegates quietly took possession of the signed deed.
+
+The program does the wrong thing quietly when multiprocessing starts on Windows.
+
+She quietly continued her needlework during the conversation.
+
+Some researchers are quietly curious about the result.
+
+The senator described herself as quietly political.
+
+The artist sat quietly in the background during rehearsal.
+
+The final controls quoted the target phrase or described a concrete role change after a named event.
+
+The editor quoted `quietly powerful` as a phrase to remove.
+
+The database quietly became the source of truth after the migration.
+
+## Clause-local contextual adverb review
+
+The reviewer quoted evidence after the market quietly eroded.
+
+The editor named the process that quietly poisons dashboards.
+
+The service quietly fails every request while 37 users wait.
+
+The service quietly fails every request in the database.
+
+Developers spoke quietly while the team quietly builds the next interface.
+
+- The market quietly reshapes the category.
+
+The measured controls place the same adverb before and after a quantified change.
+
+The baseline quietly degraded by 12 percent.
+
+The baseline degraded quietly by 12 percent.
+
+The field is named `quietly powerful`.
+
+![Quietly powerful](image.png)
