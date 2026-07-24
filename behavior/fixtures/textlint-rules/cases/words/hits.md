@@ -128,6 +128,8 @@ The whole market moved, slowly, quietly.
 
 The market quietly shifted while the old platform quietly lost authority.
 
+The market is quietly shifting while the nurse speaks quietly.
+
 The partnership quietly withers away.
 
 Small assumptions quietly survive code review.
