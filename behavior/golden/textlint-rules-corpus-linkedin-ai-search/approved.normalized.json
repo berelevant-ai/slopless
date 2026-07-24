@@ -85,6 +85,29 @@
             "line": 7
           }
         },
+        "message": "Generic signposting found: the-problem-is-simple. Replace the frame with the concrete claim.",
+        "range": [
+          155,
+          200
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 155,
+        "line": 7,
+        "loc": {
+          "end": {
+            "column": 46,
+            "line": 7
+          },
+          "start": {
+            "column": 1,
+            "line": 7
+          }
+        },
         "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {summarySubject} {linkingVerb} {weakJudgment}.",
         "range": [
           155,
@@ -315,6 +338,29 @@
             "line": 47
           }
         },
+        "message": "Generic signposting found: the-strategy-is-boring. Replace the frame with the concrete claim.",
+        "range": [
+          1479,
+          1536
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1479,
+        "line": 47,
+        "loc": {
+          "end": {
+            "column": 58,
+            "line": 47
+          },
+          "start": {
+            "column": 1,
+            "line": 47
+          }
+        },
         "message": "Lesson framing found: the-strategy-is-boring. Replace the wrapper with the lesson.",
         "range": [
           1479,
@@ -390,6 +436,29 @@
           1567
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1569,
+        "line": 51,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 51
+          },
+          "start": {
+            "column": 1,
+            "line": 51
+          }
+        },
+        "message": "Generic signposting found: the-practical-plan-is-boring. Replace the frame with the concrete claim.",
+        "range": [
+          1569,
+          1625
+        ],
+        "ruleId": "generic-signposting",
         "severity": 2,
         "type": "lint"
       },
@@ -729,7 +798,7 @@
             "line": 103
           }
         },
-        "message": "Negation reframe found: \"That does not mean engagement is useless. It means the post has to contain source material worth retrieving.\". Rewrite without the not-X-then-Y construction.",
+        "message": "Negation reframe found: \"That does not mean engagement is useless. It means the post has to contain source material worth retrieving.\". Rewrite the staged negation as a direct claim.",
         "range": [
           2952,
           3060
@@ -775,7 +844,7 @@
             "line": 105
           }
         },
-        "message": "Negation reframe found: \"So the audit question is not: \"How many warnings do we have?\" The audit question is:\". Rewrite without the not-X-then-Y construction.",
+        "message": "Negation reframe found: \"So the audit question is not: \"How many warnings do we have?\" The audit question is:\". Rewrite the staged negation as a direct claim.",
         "range": [
           3062,
           3148
@@ -844,7 +913,7 @@
             "line": 125
           }
         },
-        "message": "Negation reframe found: \"So the audit question is not just: \"Can Google crawl this?\" It is:\". Rewrite without the not-X-then-Y construction.",
+        "message": "Negation reframe found: \"So the audit question is not just: \"Can Google crawl this?\" It is:\". Rewrite the staged negation as a direct claim.",
         "range": [
           3618,
           3686
@@ -1051,7 +1120,7 @@
             "line": 159
           }
         },
-        "message": "Negation reframe found: \"That does not make structured data useless. It does mean the page cannot outsource its answer to metadata.\". Rewrite without the not-X-then-Y construction.",
+        "message": "Negation reframe found: \"That does not make structured data useless. It does mean the page cannot outsource its answer to metadata.\". Rewrite the staged negation as a direct claim.",
         "range": [
           4600,
           4706

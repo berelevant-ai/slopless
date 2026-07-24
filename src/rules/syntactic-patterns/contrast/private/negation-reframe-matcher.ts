@@ -1,6 +1,8 @@
 import {
+  ACTION_NEGATIONS,
   DO_NEGATIONS,
   EXPLICIT_DO_AUXILIARIES,
+  FACTUAL_NEGATION_CONNECTORS,
   contrastPivotSubject,
   findCopularNegation,
   findNegationIndex,
@@ -22,11 +24,13 @@ import {
 import { hasInlineContrastConnectorAfterNegation } from "./inline-contrast-connector.js";
 import { inlineNotBecauseReframe } from "./inline-not-because-reframe.js";
 import {
+  matchesInlineSemicolonReframe,
   inlineNotJustCopularReframe,
   inlineShortNegatedBeat
 } from "./inline-short-negation.js";
 import {
   hasNegativeSlopPairSignal,
+  matchSequenceReframe,
   negatedActionPronounPayoff,
   negatedActionSetReplacement,
   negativeSlopReframe,
@@ -60,10 +64,30 @@ const INLINE_NON_CONTRAST_NEGATION_FOLLOWERS = new Set([
   "only",
   "too"
 ]);
+const ACTION_PAIR_CONNECTORS = new Set([
+  ...FACTUAL_NEGATION_CONNECTORS,
+  "after"
+]);
+function inlineSemicolonEvaluativeReframe(
+  sentence: SplitSentence
+): NegationReframeMatch | undefined {
+  return matchesInlineSemicolonReframe(sentence.text)
+    ? {
+        end: sentence.end,
+        start: sentence.start,
+        text: sentence.text
+      }
+    : undefined;
+}
+
 function inlineNegationContrast(
   sentence: SplitSentence
 ): NegationReframeMatch | undefined {
   const tokens = wordTokens(sentence.text);
+  const semicolonMatch = inlineSemicolonEvaluativeReframe(sentence);
+  if (semicolonMatch !== undefined) {
+    return semicolonMatch;
+  }
   const negationIndex = findNegationIndex(tokens);
 
   if (negationIndex === undefined) {
@@ -165,6 +189,18 @@ function actionVerbMirror(
 ): boolean {
   const tokenWords = words(aTokens);
   const bContentTokens = stripLeadingPairPivot(bTokens);
+  const bWords = words(bContentTokens);
+  const firstConnectors = new Set(
+    tokenWords.filter((word) => ACTION_PAIR_CONNECTORS.has(word))
+  );
+
+  if (
+    bWords.some(
+      (word) => ACTION_PAIR_CONNECTORS.has(word) && !firstConnectors.has(word)
+    )
+  ) {
+    return false;
+  }
 
   for (let index = 0; index < tokenWords.length; index += 1) {
     const current = tokenWords[index];
@@ -175,7 +211,7 @@ function actionVerbMirror(
       continue;
     }
 
-    if (DO_NEGATIONS.has(current ?? "")) {
+    if (ACTION_NEGATIONS.has(current ?? "")) {
       const verbIndex = skipOptionalAdverbs(tokenWords, index + 1);
       const verb = tokenWords[verbIndex];
 
@@ -285,12 +321,30 @@ export function findSentenceNegationReframes(
 ): NegationReframeMatch[] {
   const sentences = splitSentences(text);
   const matches: NegationReframeMatch[] = [];
+  const matchedRanges = new Set<string>();
+
+  const addMatch = (match: NegationReframeMatch): void => {
+    const range = `${match.start}:${match.end}`;
+    if (!matchedRanges.has(range)) {
+      matchedRanges.add(range);
+      matches.push(match);
+    }
+  };
 
   for (const sentence of sentences) {
     const inlineMatch = inlineNegationContrast(sentence);
 
     if (inlineMatch !== undefined) {
-      matches.push(inlineMatch);
+      addMatch(inlineMatch);
+    }
+
+    const consequence = matchSequenceReframe(sentence.text, "");
+    if (consequence !== undefined) {
+      addMatch({
+        end: sentence.end,
+        start: sentence.start,
+        text: consequence
+      });
     }
   }
 
@@ -302,12 +356,41 @@ export function findSentenceNegationReframes(
       continue;
     }
 
+    const third = sentences[index + 2];
+    const sequence = matchSequenceReframe(current.text, next.text, third?.text);
+
+    if (sequence !== undefined) {
+      const threeSentenceText =
+        third === undefined
+          ? undefined
+          : `${current.text} ${next.text} ${third.text}`;
+      addMatch({
+        end:
+          sequence === current.text
+            ? current.end
+            : sequence === threeSentenceText
+              ? (third?.end ?? next.end)
+              : next.end,
+        start: current.start,
+        text: sequence
+      });
+    }
+
     const pairMatch = sentencePairReframe(current, next);
 
     if (pairMatch !== undefined) {
-      matches.push(pairMatch);
+      addMatch(pairMatch);
     }
   }
 
-  return matches;
+  return matches.filter(
+    (match, index) =>
+      !matches.some(
+        (other, otherIndex) =>
+          otherIndex !== index &&
+          other.start <= match.start &&
+          other.end >= match.end &&
+          (other.start < match.start || other.end > match.end)
+      )
+  );
 }

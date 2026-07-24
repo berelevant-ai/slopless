@@ -1,0 +1,71 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "plan: extend the existing rule without creating another module",
+      "required": [
+        "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
+      ],
+      "forbidden": ["src/rules/**/what-matters*.ts"]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts"
+        ],
+        "reason": "plan: broad complements apply only to What matters is while factual clauses remain clean",
+        "required": [
+          "WHAT_MATTERS_CLAUSE_STARTERS",
+          "second === \"matters\"",
+          "!WHAT_MATTERS_CLAUSE_STARTERS.includes(fourth)",
+          "abstract === \"what-matters-is\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"
+        ],
+        "reason": "plan: public hit behavior covers noun phrases and lists",
+        "required": [
+          "What matters is the use case, the setting, the constraint, and the measured result.",
+          "What matters is an outcome the team can measure.",
+          "What matters is your process, not the tool.",
+          "What matters is one rule.",
+          "What matters is context.",
+          "What matters is being consistent.",
+          "What matters is to ship safely.",
+          "What matters is the API contract.",
+          "What matters is the 30-day retention period.",
+          "What matters is one point.",
+          "What matters is 42.",
+          "What matters is one and a half."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
+        ],
+        "reason": "plan: factual clause complements remain clean",
+        "required": [
+          "What matters is whether the checksum matches the signed manifest.",
+          "What matters is that the valve closes before pressure reaches 90 PSI.",
+          "What matters is how many requests failed after deployment.",
+          "What matters is which certificate signed the package.",
+          "What matters is whose certificate signed the package."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json", "src/index.ts", "src/registries/**/*.ts"],
+        "reason": "plan: no new public rule or export",
+        "forbidden": ["what-matters-noun-phrase"]
+      }
+    ]
+  }
+}

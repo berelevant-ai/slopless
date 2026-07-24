@@ -1,4 +1,5 @@
 import {
+  FACTUAL_NEGATION_CONNECTORS,
   NEGATION_WORDS,
   findCopularNegation,
   pronounCopulaStart,
@@ -10,6 +11,30 @@ import {
   words
 } from "./negation-reframe-parts.js";
 import type { Token } from "../../../../shared/text/tokens.js";
+
+const AGENTIC_SYSTEM_SUBJECTS = new Set([
+  "agent",
+  "assistant",
+  "engine",
+  "model",
+  "system",
+  "tool"
+]);
+const PAYOFF_VERBS = new Set([
+  "compared",
+  "considered",
+  "encountered",
+  "entered",
+  "evaluated",
+  "found",
+  "met",
+  "qualified",
+  "ranked",
+  "reached",
+  "reviewed",
+  "selected",
+  "seen"
+]);
 
 export function sameSubjectCopularReframe(
   aTokens: readonly Token[],
@@ -82,4 +107,28 @@ export function startsWithNegatedPronounCopula(
   const predicateIndex = skipOptionalAdverbs(tokenWords, start.predicateStart);
 
   return NEGATION_WORDS.has(tokenWords[predicateIndex] ?? "");
+}
+
+export function negatedProgressiveNeverPayoff(
+  first: readonly Token[],
+  second: readonly Token[]
+): boolean {
+  const negation = findCopularNegation(first);
+  if (
+    negation === undefined ||
+    !AGENTIC_SYSTEM_SUBJECTS.has(negation.subject.at(-1) ?? "") ||
+    words(first)[negation.negatedPredicateStart]?.endsWith("ing") !== true
+  ) {
+    return false;
+  }
+
+  const secondWords = words(second);
+  const neverIndex = secondWords.slice(1, 4).indexOf("never") + 1;
+  return (
+    ["it", "they"].includes(secondWords[0] ?? "") &&
+    neverIndex > 0 &&
+    PAYOFF_VERBS.has(secondWords[neverIndex + 1] ?? "") &&
+    !secondWords.some((word) => FACTUAL_NEGATION_CONNECTORS.has(word)) &&
+    secondWords.length <= 10
+  );
 }

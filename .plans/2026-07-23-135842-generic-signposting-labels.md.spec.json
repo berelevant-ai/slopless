@@ -1,0 +1,196 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "plan: existing rule owner, two private matchers, fixtures, corpus, and comparison report",
+      "required": [
+        "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts",
+        "src/rules/syntactic-patterns/lead-ins/private/component-assignment-frame.ts",
+        "src/rules/syntactic-patterns/lead-ins/private/evaluative-colon-frame.ts",
+        ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.preserve.json",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.md",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.preserve.json",
+        "behavior/analysis/2026-07-23-generic-signposting-labels.md"
+      ],
+      "forbidden": [
+        "src/rules/syntactic-patterns/lead-ins/component-assignment-frame.ts",
+        "src/rules/syntactic-patterns/lead-ins/evaluative-colon-frame.ts"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts"
+        ],
+        "reason": "plan: pair-aware behavior stays in the existing public generic-signposting rule",
+        "required": [
+          "defineTextlintRule",
+          "paragraphUnits",
+          "sentenceUnits",
+          "splitSentences",
+          "./private/component-assignment-frame.js",
+          "./private/evaluative-colon-frame.js",
+          "syntactic-patterns:generic-signposting",
+          "reportPolicy: { kind: \"one-to-one\" }"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/component-assignment-frame.ts"
+        ],
+        "reason": "plan: private component matcher has one explicit entry point and depends only on shared matcher and text utilities",
+        "required": [
+          "export function matchComponentAssignmentFrame",
+          "../../../../shared/matchers/prose-patterns.js",
+          "../../../../shared/text/normalize.js"
+        ],
+        "forbidden": [
+          "../../../reporting/",
+          "../../../registries/",
+          "../../semantic-thinness/"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/evaluative-colon-frame.ts"
+        ],
+        "reason": "plan: private colon matcher has one explicit entry point and depends only on shared matcher and text utilities",
+        "required": [
+          "export function matchEvaluativeColonFrame",
+          "../../../../shared/matchers/concrete-evidence.js",
+          "../../../../shared/matchers/prose-patterns.js",
+          "../../../../shared/text/normalize.js",
+          "\"was\"",
+          "\"were\""
+        ],
+        "forbidden": [
+          "../../../reporting/",
+          "../../../registries/",
+          "../../semantic-thinness/"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"
+        ],
+        "reason": "plan: public hit behavior covers component pairs and evaluative colon inventories",
+        "required": [
+          "The writer is an agent. The input is the research.",
+          "The model is the writer; the source is the brief.",
+          "The machine is heavy: a giant crawler, stealth HTTP, full browser rendering, and a model of the whole domain.",
+          "The process is simple: collection, scoring, and publication.",
+          "The process was simple: collection, scoring, and publication.",
+          "The systems were straightforward: collection, scoring, and publication.",
+          "The process is simple: Workers use the cache and publish the result."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
+        ],
+        "reason": "plan: public no-hit behavior protects lone declarations, technical interfaces, measurements, and explanatory clauses",
+        "required": [
+          "The input is a CSV file.",
+          "The model is a classifier. The input is a 224 by 224 RGB image.",
+          "The author is Maya Chen. The source is the 2025 census.",
+          "The machine is heavy: 480 kilograms.",
+          "The problem is simple: GPTBot received the raw HTML shell before hydration.",
+          "The problem was simple: GPTBot received the raw HTML shell before hydration.",
+          "The architecture is complex: three services, two databases, and one queue.",
+          "The machine is heavy. It needs a giant crawler."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/analysis/2026-07-23-generic-signposting-labels.md"
+        ],
+        "reason": "plan: review records every before-after category",
+        "required": [
+          "## Requested hits",
+          "## Expected corpus hits",
+          "## False positives",
+          "## Removed findings"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "package.json",
+          "src/index.ts",
+          "src/registries/**/*.ts"
+        ],
+        "reason": "plan: private matchers create no public rule, export, registry entry, or dependency",
+        "forbidden": [
+          "component-assignment-frame",
+          "evaluative-colon-frame"
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/component-assignment-frame.ts"
+        ],
+        "reason": "plan: component matcher depends only on the shared tokenizer and normalizer",
+        "required": [
+          "../../../../shared/matchers/prose-patterns.js",
+          "../../../../shared/text/normalize.js"
+        ]
+      },
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/evaluative-colon-frame.ts"
+        ],
+        "reason": "plan: colon matcher depends only on shared evidence, tokenizer, and normalizer utilities",
+        "required": [
+          "../../../../shared/matchers/concrete-evidence.js",
+          "../../../../shared/matchers/prose-patterns.js",
+          "../../../../shared/text/normalize.js"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "package": "src/rules/syntactic-patterns/lead-ins/private/component-assignment-frame.ts",
+        "reason": "plan: component matcher exposes one typed private entry point",
+        "required": [
+          "matchComponentAssignmentFrame first-string, second-optional-string returns-string-or-undefined"
+        ]
+      },
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "package": "src/rules/syntactic-patterns/lead-ins/private/evaluative-colon-frame.ts",
+        "reason": "plan: colon matcher exposes one typed private entry point",
+        "required": [
+          "matchEvaluativeColonFrame text-string returns-string-or-undefined"
+        ]
+      }
+    ]
+  }
+}

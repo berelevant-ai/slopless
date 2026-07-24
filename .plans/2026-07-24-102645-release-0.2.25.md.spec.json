@@ -1,0 +1,33 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "release plan: package metadata and release documentation must exist",
+      "required": [
+        "package.json",
+        ".plans/2026-07-24-102645-release-0.2.25.md",
+        ".plans/2026-07-24-102645-release-0.2.25.md.spec.json",
+        ".plans/2026-07-24-102645-release-0.2.25.md.spec.coverage.md"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "reason": "release tag and npm publication must use version 0.2.25",
+        "required": ["\"version\": \"0.2.25\""],
+        "forbidden": ["\"version\": \"0.2.24\""]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [".github/workflows/release.yml"],
+        "reason": "production publication must retain npm provenance and tag-version verification",
+        "required": [
+          "pnpm publish --provenance --access public --no-git-checks",
+          "Verify tag matches package.json version"
+        ]
+      }
+    ]
+  }
+}

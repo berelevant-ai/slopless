@@ -1,0 +1,194 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "plan: extend existing public rules through current owners and one private matcher",
+      "required": [
+        "src/rules/syntactic-patterns/lead-ins/private/relative-discourse-frame.ts",
+        "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts",
+        "src/rules/syntactic-patterns/contrast/private/evidence-limitation-pair.ts",
+        "src/rules/syntactic-patterns/contrast/contrastive-aphorism.ts",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
+        ".plans/2026-07-21-190541-relative-signposting-and-evidence-limitation.md.spec.verify.mjs"
+      ],
+      "forbidden": [
+        "src/rules/syntactic-patterns/lead-ins/relative-signposting.ts",
+        "src/rules/syntactic-patterns/contrast/evidence-limitation-pair.ts"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/relative-discourse-frame.ts"
+        ],
+        "reason": "plan: generalized token-based relative discourse grammar",
+        "required": [
+          "matchRelativeDiscourseFrame",
+          "RELATIVE_HELPER_VERBS",
+          "RELATIVE_USEFULNESS_ADJECTIVES"
+        ],
+        "forbidden": [
+          "The detail that helps:",
+          "The detail that makes a review useful is consistent."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts"
+        ],
+        "reason": "plan: existing generic-signposting owner invokes the relative matcher",
+        "required": [
+          "matchRelativeDiscourseFrame",
+          "syntactic-patterns:generic-signposting"
+        ],
+        "forbidden": ["syntactic-patterns:relative-signposting"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/evidence-limitation-pair.ts"
+        ],
+        "reason": "plan: generalized evidence proxy, assertion verb, reporting verb, and low-information slots",
+        "required": [
+          "matchEvidenceLimitationPair",
+          "EVIDENCE_ASSERTION_VERBS",
+          "EVIDENCE_PROXY_HEADS",
+          "LIMITATION_REPORTING_VERBS",
+          "LOW_INFORMATION_LIMITS"
+        ],
+        "forbidden": [
+          "A bland five-star review proves a buyer was happy.",
+          "It says little about when or why the product works."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/contrastive-aphorism.ts"
+        ],
+        "reason": "plan: existing contrastive-aphorism owner invokes the pair matcher",
+        "required": [
+          "matchEvidenceLimitationPair",
+          "syntactic-patterns:contrastive-aphorism",
+          "reportPolicy: { kind: \"one-to-one\" }"
+        ],
+        "forbidden": ["syntactic-patterns:evidence-limitation"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"
+        ],
+        "reason": "plan: public hit coverage for supplied and generalized forms",
+        "required": [
+          "The detail that helps: the use case, the setting, the limit, and the result.",
+          "The detail that makes a review useful is consistent.",
+          "A bland five-star review proves a buyer was happy. It says little about when or why the product works.",
+          "The benchmark demonstrates an improvement. It reveals nothing about long-term retention."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
+        ],
+        "reason": "plan: literal, scientific, standalone, and detailed controls",
+        "required": [
+          "The detail that helps the parser recover is the byte offset.",
+          "The theorem proves the sequence converges. It says little about the convergence rate.",
+          "The assay proves the sample contains lead. It says the concentration was 12 ppm.",
+          "It says little about when or why the product works.",
+          "The analyst and the reviews prove the defect. They say little about timing.",
+          "The report confirms the service recovered. It does not show anything concrete: p95 latency rose 20 percent.",
+          "That the review proves fraud is disputed. It says little about motive.",
+          "The study demonstrates lower mortality. It provides no evidence that the treatment is safe.",
+          "The report confirms the backup completed. It says little about restore time.",
+          "The review confirms the parcel arrived. It provides no evidence that the contents were undamaged."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json", "src/index.ts", "src/registries/**/*.ts"],
+        "reason": "plan: no new public rule, registry, export, family, or dependency",
+        "forbidden": [
+          "relative-signposting",
+          "evidence-limitation-pair"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-21-190541-relative-signposting-and-evidence-limitation.md.spec.verify.mjs"
+        ],
+        "package": "slopless",
+        "reason": "plan: existing public owners remain exported and private matchers remain private",
+        "required": [
+          "./rules/syntactic-patterns/lead-ins/generic-signposting",
+          "./rules/syntactic-patterns/contrast/contrastive-aphorism"
+        ],
+        "forbidden": [
+          "./rules/syntactic-patterns/lead-ins/relative-signposting",
+          "./rules/syntactic-patterns/contrast/evidence-limitation-pair"
+        ]
+      }
+    ],
+    "custom": [
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-21-190541-relative-signposting-and-evidence-limitation.md.spec.verify.mjs"
+        ],
+        "check": "module-import-boundaries",
+        "reason": "plan: private matchers use only shared text helpers and are invoked only by their public owners",
+        "modules": [
+          {
+            "file": "src/rules/syntactic-patterns/lead-ins/private/relative-discourse-frame.ts",
+            "allowed": [
+              "../../../../shared/matchers/prose-patterns.js"
+            ]
+          },
+          {
+            "file": "src/rules/syntactic-patterns/contrast/private/evidence-limitation-pair.ts",
+            "allowed": [
+              "../../../../shared/matchers/prose-patterns.js"
+            ]
+          },
+          {
+            "file": "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts",
+            "required": [
+              "./private/relative-discourse-frame.js"
+            ],
+            "forbidden": [
+              "/contrast/"
+            ]
+          },
+          {
+            "file": "src/rules/syntactic-patterns/contrast/contrastive-aphorism.ts",
+            "required": [
+              "./private/evidence-limitation-pair.js"
+            ],
+            "forbidden": [
+              "/lead-ins/"
+            ]
+          }
+        ],
+        "ownedImports": [
+          {
+            "source": "/private/relative-discourse-frame.js",
+            "owner": "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts"
+          },
+          {
+            "source": "/private/evidence-limitation-pair.js",
+            "owner": "src/rules/syntactic-patterns/contrast/contrastive-aphorism.ts"
+          }
+        ]
+      }
+    ]
+  }
+}

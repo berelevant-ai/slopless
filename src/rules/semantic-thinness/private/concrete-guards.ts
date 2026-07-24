@@ -3,6 +3,7 @@ import type { Token } from "../../../shared/text/tokens.js";
 const CONCRETE_EXPLANATION_TOKENS = new Set([
   "api",
   "archive",
+  "assigned",
   "auditor",
   "billing",
   "bids",
@@ -22,6 +23,7 @@ const CONCRETE_EXPLANATION_TOKENS = new Set([
   "invoice",
   "key",
   "ledger",
+  "lists",
   "masonry",
   "mark",
   "meter",

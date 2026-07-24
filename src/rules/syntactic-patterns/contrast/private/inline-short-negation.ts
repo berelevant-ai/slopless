@@ -9,6 +9,7 @@ import {
   startsWithWords,
   words
 } from "./negation-reframe-parts.js";
+export { matchesInlineSemicolonReframe } from "./inline-semicolon-reframe.js";
 
 export function inlineNotJustCopularReframe(
   sentence: SplitSentence,

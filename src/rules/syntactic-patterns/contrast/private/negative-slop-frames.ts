@@ -1,6 +1,8 @@
 import type { Token } from "../../../../shared/text/tokens.js";
 import { hasFactualConnectorAfterNegation } from "./negation-context-gates.js";
 import { hasAbstractPolicyDirectObject } from "./policy-object.js";
+import { negatedProgressiveNeverPayoff } from "./copular-reframe.js";
+import { GENERIC_ACTION_VERBS } from "./action-reframe-vocabulary.js";
 export { shouldReportCopularReframe } from "./reframe-classification.js";
 export {
   progressiveVerbMirror,
@@ -8,12 +10,14 @@ export {
   sameSubjectCopularReframe,
   startsWithNegatedPronounCopula
 } from "./copular-reframe.js";
+export { matchSequenceReframe } from "./sequence-reframes.js";
 import {
-  DO_NEGATIONS,
+  ACTION_NEGATIONS,
   EXPLICIT_DO_AUXILIARIES,
   FACTUAL_NEGATION_CONNECTORS,
   PRONOUN_REFRAME_STARTS,
-  hasAnyWord,
+  findCopularNegation,
+  pronounCopulaStart,
   skipOptionalAdverbs,
   startsWithAny,
   startsWithSubjectOrPronoun,
@@ -23,34 +27,6 @@ import {
   words
 } from "./negation-reframe-parts.js";
 
-const GENERIC_ACTION_VERBS = new Set([
-  "asked",
-  "built",
-  "called",
-  "crossed",
-  "found",
-  "gave",
-  "left",
-  "looked",
-  "made",
-  "moved",
-  "opened",
-  "pointed",
-  "raised",
-  "reached",
-  "pulled",
-  "kept",
-  "said",
-  "sat",
-  "shifted",
-  "stood",
-  "started",
-  "stopped",
-  "took",
-  "turned",
-  "walked",
-  "went"
-]);
 const NEGATED_ACTION_REFRAME_VERBS = new Set([
   "avoid",
   "change",
@@ -68,6 +44,14 @@ const NEGATED_ACTION_REFRAME_VERBS = new Set([
   "solve"
 ]);
 const REPLACEMENT_SUBJECT_PRONOUNS = new Set(["he", "she"]);
+const EMBEDDED_CLAUSE_VERBS = new Set([
+  "believed",
+  "explained",
+  "reckoned",
+  "reported",
+  "said",
+  "thought"
+]);
 const PRONOUN_PAYOFF_VERBS = new Set([
   "becomes",
   "creates",
@@ -85,6 +69,10 @@ const PRONOUN_PAYOFF_VERBS = new Set([
   "turns"
 ]);
 const PRONOUN_SUBJECTS = new Set(["it", "this", "that", "they", "we", "you"]);
+const ACTION_REPLACEMENT_CONNECTORS = new Set([
+  ...FACTUAL_NEGATION_CONNECTORS,
+  "after"
+]);
 
 function startsWithPassiveCopula(tokens: readonly Token[]): boolean {
   const tokenWords = words(tokens);
@@ -100,6 +88,18 @@ function noLongerCopularReframe(
   bTokens: readonly Token[]
 ): boolean {
   const tokenWords = words(aTokens);
+  const contractedStart = pronounCopulaStart(aTokens);
+
+  if (
+    contractedStart !== undefined &&
+    tokenWords[contractedStart.predicateStart] === "no" &&
+    tokenWords[contractedStart.predicateStart + 1] === "longer"
+  ) {
+    return (
+      startsWithSubjectOrPronoun(bTokens, contractedStart.subject) &&
+      !startsWithPassiveCopula(bTokens)
+    );
+  }
 
   for (let index = 0; index < tokenWords.length - 2; index += 1) {
     const current = tokenWords[index];
@@ -150,22 +150,39 @@ function negatedActionSubject(
   tokens: readonly Token[]
 ): readonly string[] | undefined {
   const tokenWords = words(tokens);
+  const copularNegation = findCopularNegation(tokens);
+  if (
+    copularNegation !== undefined &&
+    validSubject(copularNegation.subject) &&
+    tokenWords[copularNegation.negatedPredicateStart]?.endsWith("ing") === true
+  ) {
+    return copularNegation.subject;
+  }
 
   for (let index = 0; index < tokenWords.length; index += 1) {
     const current = tokenWords[index];
     const next = tokenWords[index + 1];
     const subject = tokenWords.slice(0, index);
 
-    if (!validSubject(subject)) {
+    if (
+      !validSubject(subject) ||
+      subject.some((word) => EMBEDDED_CLAUSE_VERBS.has(word))
+    ) {
       continue;
     }
 
-    if (DO_NEGATIONS.has(current ?? "")) {
-      return subject;
+    if (ACTION_NEGATIONS.has(current ?? "")) {
+      return tokenWords[index + 1] !== undefined &&
+        !tokenWords.slice(index + 1).includes("and")
+        ? subject
+        : undefined;
     }
 
     if (EXPLICIT_DO_AUXILIARIES.has(current ?? "") && next === "not") {
-      return subject;
+      return tokenWords[index + 2] !== undefined &&
+        !tokenWords.slice(index + 2).includes("and")
+        ? subject
+        : undefined;
     }
   }
 
@@ -202,12 +219,17 @@ export function negatedActionReplacement(
 
   const bContentTokens = stripLeadingPairPivot(bTokens);
   const bWords = words(bContentTokens);
-  const genericVerbIndex = skipOptionalAdverbs(bWords, subject.length);
+  const subjectLength = constrainedSetSubjectLength(bContentTokens, subject);
+  const genericVerbIndex =
+    subjectLength === undefined
+      ? undefined
+      : skipOptionalAdverbs(bWords, subjectLength);
 
   return (
     tokenWords.length <= 14 &&
-    !hasAnyWord(tokenWords, FACTUAL_NEGATION_CONNECTORS) &&
-    ((startsWithSubjectOrPronoun(bContentTokens, subject) &&
+    !tokenWords.some((word) => FACTUAL_NEGATION_CONNECTORS.has(word)) &&
+    !bWords.some((word) => ACTION_REPLACEMENT_CONNECTORS.has(word)) &&
+    ((genericVerbIndex !== undefined &&
       GENERIC_ACTION_VERBS.has(bWords[genericVerbIndex] ?? "")) ||
       negatedActionSetReplacement(aTokens, bTokens))
   );
@@ -233,7 +255,8 @@ export function negatedActionSetReplacement(
 
   return (
     tokenWords.length <= 14 &&
-    !hasAnyWord(tokenWords, FACTUAL_NEGATION_CONNECTORS) &&
+    !tokenWords.some((word) => FACTUAL_NEGATION_CONNECTORS.has(word)) &&
+    !bWords.some((word) => ACTION_REPLACEMENT_CONNECTORS.has(word)) &&
     verbIndex !== undefined &&
     hasAbstractPolicyDirectObject(bWords, verbIndex)
   );
@@ -336,7 +359,7 @@ function hasNegatedReframeVerb(
     return false;
   }
 
-  const negationIndex = DO_NEGATIONS.has(current ?? "")
+  const negationIndex = ACTION_NEGATIONS.has(current ?? "")
     ? index
     : EXPLICIT_DO_AUXILIARIES.has(current ?? "") && next === "not"
       ? index + 1
@@ -358,6 +381,7 @@ export function negativeSlopReframe(
 ): boolean {
   return (
     noLongerCopularReframe(aTokens, bTokens) ||
+    negatedProgressiveNeverPayoff(aTokens, bTokens) ||
     fragmentDefinitionReframe(aTokens, bTokens) ||
     negatedActionReplacement(aTokens, bTokens) ||
     notBecauseReframe(aTokens, bTokens) ||

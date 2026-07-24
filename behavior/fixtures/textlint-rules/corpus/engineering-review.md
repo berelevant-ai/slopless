@@ -1023,3 +1023,77 @@ The study reports that policy actors filed 18 comments before the deadline.
 The literature review names each database query and inclusion criterion.
 
 The chapter quotes "bridge theory and practice" as an example of vague academic prose.
+
+## Automated editorial system review
+
+The first draft described the workflow as a set of labels. The writer is an agent. The input is the research. The reviewer replaced both declarations with one sentence explaining that an agent writes from the research.
+
+A second draft retained an interruption between the labels. Our author is the model, despite the review step. The source is interviews. Another version assigned the downstream role in the same way. The editor is an agent, and the output is a recommendation. The analyst is the author - the material is interview transcripts.
+
+The infrastructure summary prefaced its inventories with evaluations. The setup feels heavy: crawling, rendering, indexing, and classification. The strategy looks straightforward: research, drafting, review, and publication. The verdict is simple: "ship it." The reviewer removed each prefix and retained the useful statement.
+
+Earlier versions used the same frame in the past tense. The process was simple: collection, scoring, and publication. The systems were straightforward: collection, scoring, and publication. Another draft capitalized the continuation. The process is simple: Workers use the cache and publish the result.
+
+Several interface statements were kept because they supplied names, constraints, or measurements. The author is Maya Chen. The source is the 2025 census. The writer is an employee. The source is listed in footnote 4.
+
+The image benchmark also used two role declarations, but the quantified input made the interface concrete. Our production agent is the assigned writer. The input is a 224 by 224 RGB image. A contractual explanation was similarly informative: The writer is an agent because the contract requires generated drafts.
+
+Two declarations appeared in different paragraphs and described separate parts of the system. Our experienced writer is an agent.
+
+Our primary input is the research.
+
+The browser documentation named a protocol boundary. The client is a browser. The transport is HTTP.
+
+The remaining evaluations all carried evidence or formed ordinary sentences. The machine is heavy. It needs a giant crawler. The query is expensive: it scans 12 million rows and takes 4.8 seconds. The result is clear: 42 percent of requests failed.
+
+The crawler report also used a named technical explanation in the past tense. The problem was simple: GPTBot received the raw HTML shell before hydration.
+
+The final examples named a command-line value and a literal route condition. The flag is simple: `--no-cache`. The route is hard: black ice covers the north face.
+
+## Factual negation controls
+
+The review packet kept causal corrections and scheduled availability. I'm not available because the clinic closes at six. I'm available tomorrow at nine. You're not listed as the owner because the filing names Daniel Ruiz. We're not using the old endpoint because version 2 removed it in March. They're not in the east warehouse; they're in bay four of the west warehouse.
+
+The same controls covered named assignments and statutory classifications. He's not the account owner because the signed contract names Maria Shah. She's not the attending physician because the rota assigns Dr. Bell. It's not a rebate; the tax code defines it as a refundable credit. That's not the serial number because the label reads AX-2047.
+
+## Historical and audience controls
+
+The history examples supplied concrete uses, dates, schedules, and measurements. The warehouse used to be a school. Now it is a clinic. The file used to be JSON. Now it is CSV because the importer changed on July 1. The report used to be weekly. Now it is issued on the first Monday of each month. The cache used to be local. Now it is shared by three workers. The field used to be optional. Now it is required by schema version 3. I used to be an editor. Now I'm the publisher. The department used to be compliance. Now it is operations. The policy used to be administration. Now it is governance.
+
+The audience examples explained behavior without claiming a replacement. Nobody entered the room anymore after the lock was changed. The guard entered it at noon to inspect the alarm. No one reads the meter any longer because the sensor sends its value to the controller. Buyers don't read the warranty now because the printed copy is sealed inside the box. Customers no longer inspect the east shelf after staff moved the products to aisle seven.
+
+## Failure and evidence controls
+
+The failure cases described concrete technical consequences and recovery limits. Skip the checksum, and you may lose corrupted bytes when the disk fails. You never recover them without a backup. Omit the semicolon, and the parser rejects the statement. You never reach the evaluation phase. Leave the valve open, and the tank loses pressure. It never reaches 90 PSI. Drop the database before the backup finishes, and you lose the records. You never restore data that was not copied. Skip a field, and you lose the ranking. You never enter it.
+
+The evidence controls explained why information was absent. The listing never stated the voltage because the manufacturer had not measured it. The report never mentioned the second trial because its results were published after the cutoff. The product page never listed the old model. The new model replaced it in 2025. The record never explained the outage because the investigation remained open. Here is the part that broke inside the pump. Here is the detail that surprised the inspector because the seal was cracked.
+
+The selection log recorded two complete outcomes without reframing them. The proposal was never considered and never selected. The candidate was never ranked, never recommended.
+
+The configuration examples gave a cause for each negative statement. The agent isn't matching keywords because the configuration disables keyword matching. It doesn't guess because the answer is stored in the configuration file. An empty field isn't untidy data because the schema permits blank values.
+
+## Literal identity controls
+
+Several opening phrases continued into concrete noun phrases. That is the point guard assigned to Curry. It's the database migration plan for the billing schema. This is the report that lists the failed hosts and timestamps.
+
+The scientific and technical definitions remained specific. The liver is the largest solid organ in the human body. The heart is a muscular organ that pumps blood through the circulatory system. SKU is the abbreviation for stock keeping unit. The feed is a JSON file uploaded at 09:00. The database is a system of tables linked by keys. The dashboard is the screen mounted on the west wall. The model is a statistical representation fitted to the sample.
+
+The remaining statements identified formats, records, boundaries, physical infrastructure, and files. The parser treats the feed as a product array at `/v2/items`. The report is the decision record signed by Mara on July 3. The schema became the required format after version 3 shipped. The index is the numbered list at the back of the book. The interface is the boundary between the parser and storage module. The pipeline is the steel pipe that carries water to the tank. The spreadsheet is the file attached to invoice 4821.
+
+The product records used the same nouns in specific statements. The Stripe dashboard is the product. The feed is the product catalog uploaded to S3. The report is the answer generated from audit evidence.
+
+The final review distinguished named records from unsupported summaries. That is the point guard selected in the draft. That is the report prepared for the board.
+
+## Modal contraction controls
+
+The engineering review kept each contraction when the sentence supplied a concrete cause, threshold, state, or operating condition. It can't start because the battery voltage is below 11 volts. It couldn't connect because the firewall blocked port 443. It hasn't checked the source because the download is still running. It hadn't inspected the listing because the record arrived after the cutoff. They haven't reviewed the pages because legal approval is pending. It mightn't finish before noon because the queue contains 40 jobs. It mustn't open while the pressure gauge reads above 90 PSI. It needn't retry because the server returned a permanent error. It shan't start until the operator closes the safety interlock. It shouldn't ship because test 14 still fails. It won't inspect pages because the crawler is disabled. It wouldn't inspect pages while the maintenance flag was active.
+
+## Matcher boundary controls
+
+The final pass kept factual corrections separate from identity metaphors. The sample is not bad data; it is stored in the archive. The valve isn't broken hardware; it is closed for maintenance. The draft is not incomplete work; it is awaiting legal review.
+
+Literal reactions named materials and tools rather than personal responses. Here is the part that stuck with glue. Here's the piece that stuck with epoxy. Here is the detail that hit with the hammer.
+
+The remaining pairs supplied causes or changed the object of the claim. The motor wouldn't start. It started after the battery was replaced.
+
+Nobody reads the manual anymore. An AI reads the warning in the manual. The agent wasn't ranking pages. It had never visited Lisbon.

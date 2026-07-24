@@ -1,3 +1,8 @@
+import { defineTextlintRule } from "../../../adapters/textlint/rule.js";
+import {
+  paragraphUnits,
+  sentenceUnits
+} from "../../../adapters/textlint/units.js";
 import { hasConcreteImplementationSummary } from "../../../shared/matchers/concrete-evidence.js";
 import {
   cleanSentence,
@@ -5,12 +10,17 @@ import {
   tokens,
   type SentenceMatch
 } from "../../../shared/matchers/prose-patterns.js";
-import { oneToOneRule } from "../../private/textlint-rule-builders.js";
+import { splitSentences } from "../../../shared/text/sentences.js";
+import type { RuleDetection } from "../../types.js";
+import { matchComponentAssignmentFrame } from "./private/component-assignment-frame.js";
 import {
   isAbstractAuditFrame,
+  matchReactionFrame,
   matchDiscourseEvaluationFrame,
   matchExpandedDiscourseFrame
 } from "./private/discourse-evaluation.js";
+import { matchEvaluativeColonFrame } from "./private/evaluative-colon-frame.js";
+import { matchRelativeDiscourseFrame } from "./private/relative-discourse-frame.js";
 
 const PREFIXES = ["however, ", "but ", "and ", "so "];
 // "as such" was removed: it is a normal anaphoric connective ("a registered adviser; as
@@ -97,8 +107,20 @@ const WHAT_FRAME_TAIL_STARTERS = [
   "true",
   "usually"
 ];
+const WHAT_MATTERS_CLAUSE_STARTERS = [
+  "how",
+  "if",
+  "that",
+  "what",
+  "when",
+  "where",
+  "whether",
+  "which",
+  "who",
+  "whose",
+  "why"
+];
 const POINT_NOUNS = ["goal", "job", "key", "point", "takeaway", "trick"];
-
 function matchModifiedAbstractFrame(
   words: readonly string[]
 ): string | undefined {
@@ -147,7 +169,8 @@ function matchWhatFrame(words: readonly string[]): string | undefined {
       second === "changes") &&
     third === "is" &&
     fourth !== undefined &&
-    WHAT_FRAME_TAIL_STARTERS.includes(fourth)
+    (WHAT_FRAME_TAIL_STARTERS.includes(fourth) ||
+      (second === "matters" && !WHAT_MATTERS_CLAUSE_STARTERS.includes(fourth)))
   ) {
     return `what-${second}-is`;
   }
@@ -171,11 +194,13 @@ function matchWhatFrame(words: readonly string[]): string | undefined {
 function matchAbstractFrame(text: string): string | undefined {
   const words = tokens(text);
   return (
+    matchRelativeDiscourseFrame(text, words) ??
     matchExpandedDiscourseFrame(words) ??
     matchModifiedAbstractFrame(words) ??
     matchDiscourseEvaluationFrame(words) ??
     matchPointIsToFrame(words) ??
-    matchWhatFrame(words)
+    matchWhatFrame(words) ??
+    matchReactionFrame(words)
   );
 }
 
@@ -253,7 +278,12 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
   const formulaicSetup = matchFormulaicContentSetup(stripped);
   const generatedFormula = matchGeneratedFormula(stripped);
 
-  if (abstract !== undefined && !concreteImplementation) {
+  if (
+    abstract !== undefined &&
+    (abstract === "what-matters-is" ||
+      abstract.startsWith("relative-") ||
+      !concreteImplementation)
+  ) {
     return { kind: "abstract-evaluation-frame", signal: abstract };
   }
   if (generatedFormula !== undefined && !concreteImplementation) {
@@ -294,26 +324,75 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
   return undefined;
 }
 
-const rule = oneToOneRule({
-  detect: (unit) => {
-    const matched = matchSignposting(unit.text);
-    if (matched === undefined) {
-      return [];
-    }
+const rule = defineTextlintRule({
+  detector: {
+    detect: ({ units }) => {
+      const detections = units.flatMap((unit) => {
+        if (unit.kind === "paragraph") {
+          const sentences = splitSentences(unit.text);
+          const pairDetections: RuleDetection[] = [];
 
-    return [
-      {
-        evidence: matched.signal,
-        label: matched.kind,
-        range: { start: 0, end: unit.text.length }
-      }
-    ];
+          for (let index = 0; index < sentences.length - 1; index += 1) {
+            const current = sentences[index];
+            const next = sentences[index + 1];
+            if (current === undefined || next === undefined) {
+              continue;
+            }
+
+            const signal = matchComponentAssignmentFrame(
+              current.text,
+              next.text
+            );
+            if (signal !== undefined) {
+              pairDetections.push({
+                evidence: signal,
+                label: "component-assignment-frame",
+                range: { start: current.start, end: next.end },
+                ruleId: "syntactic-patterns:generic-signposting" as const,
+                unitId: unit.id
+              });
+            }
+          }
+
+          return pairDetections;
+        }
+
+        const componentSignal = matchComponentAssignmentFrame(unit.text);
+        const colonSignal = matchEvaluativeColonFrame(unit.text);
+        const matched =
+          componentSignal === undefined && colonSignal === undefined
+            ? matchSignposting(unit.text)
+            : undefined;
+        const signal = componentSignal ?? colonSignal ?? matched?.signal;
+        if (signal === undefined) {
+          return [];
+        }
+
+        return [
+          {
+            evidence: signal,
+            label:
+              componentSignal !== undefined
+                ? "component-assignment-frame"
+                : colonSignal !== undefined
+                  ? "evaluative-colon-frame"
+                  : (matched?.kind ?? "generic-signposting"),
+            range: { start: 0, end: unit.text.length },
+            ruleId: "syntactic-patterns:generic-signposting" as const,
+            unitId: unit.id
+          }
+        ];
+      });
+
+      return detections;
+    },
+    family: "syntactic-patterns",
+    id: "syntactic-patterns:generic-signposting"
   },
-  family: "syntactic-patterns",
   formatMessage: (report) =>
     `Generic signposting found: ${report.evidence}. Replace the frame with the concrete claim.`,
-  ruleId: "syntactic-patterns:generic-signposting",
-  unitKind: "sentence"
+  reportPolicy: { kind: "one-to-one" },
+  units: (document) => [...sentenceUnits(document), ...paragraphUnits(document)]
 });
 
 export default rule;
