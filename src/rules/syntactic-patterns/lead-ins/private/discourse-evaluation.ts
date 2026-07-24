@@ -6,6 +6,53 @@ const DISCOURSE_WORK_TAILS = [
   ["load", "bearing"]
 ] as const;
 const DETERMINERS = new Set(["a", "an", "the", "this", "that"]);
+const DEICTIC_OPENERS = new Set(["here", "this", "that"]);
+const DEICTIC_CONTRACTIONS = new Map([
+  ["here's", "here"],
+  ["this's", "this"],
+  ["that's", "that"]
+]);
+const DEICTIC_EVALUATIVE_ADJECTIVES = new Set([
+  "best",
+  "better",
+  "biggest",
+  "central",
+  "core",
+  "crucial",
+  "funny",
+  "good",
+  "great",
+  "hard",
+  "important",
+  "interesting",
+  "key",
+  "main",
+  "neat",
+  "nice",
+  "odd",
+  "obvious",
+  "remarkable",
+  "strange",
+  "surprising",
+  "tricky",
+  "useful",
+  "weird",
+  "wild"
+]);
+const DEICTIC_DISCOURSE_NOUNS = new Set([
+  "angle",
+  "aspect",
+  "bit",
+  "catch",
+  "detail",
+  "element",
+  "idea",
+  "part",
+  "piece",
+  "point",
+  "thing",
+  "twist"
+]);
 const FRAME_ADJECTIVES = new Set([
   "basic",
   "best",
@@ -233,6 +280,47 @@ function matchEvaluativeFrame(words: readonly string[]): string | undefined {
     : undefined;
 }
 
+function matchDeicticEvaluativeFrame(
+  text: string,
+  words: readonly string[]
+): string | undefined {
+  const contractedOpener = DEICTIC_CONTRACTIONS.get(words[0] ?? "");
+  const opener = contractedOpener ?? words[0];
+  const determinerIndex = contractedOpener === undefined ? 2 : 1;
+
+  if (
+    opener === undefined ||
+    !DEICTIC_OPENERS.has(opener) ||
+    (contractedOpener === undefined &&
+      !["is", "was"].includes(words[1] ?? "")) ||
+    !["a", "an", "the"].includes(words[determinerIndex] ?? "")
+  ) {
+    return undefined;
+  }
+
+  const adjective = words[determinerIndex + 1];
+  const noun = words[determinerIndex + 2];
+  const frame =
+    adjective !== undefined && noun !== undefined
+      ? words.slice(0, determinerIndex + 3).join(" ")
+      : undefined;
+  const boundary = frame === undefined ? undefined : text.at(frame.length);
+
+  return adjective !== undefined &&
+    noun !== undefined &&
+    (boundary === undefined ||
+      boundary === "." ||
+      boundary === "!" ||
+      boundary === "?" ||
+      boundary === ":" ||
+      boundary === ";" ||
+      boundary === ",") &&
+    DEICTIC_EVALUATIVE_ADJECTIVES.has(adjective) &&
+    DEICTIC_DISCOURSE_NOUNS.has(noun)
+    ? `deictic-evaluative-${opener}-${adjective}-${noun}`
+    : undefined;
+}
+
 export function isAbstractAuditFrame(words: readonly string[]): boolean {
   return words[0] === "the" && frameNounIndex(words) > 0
     ? words[frameNounIndex(words)] === "audit"
@@ -240,9 +328,11 @@ export function isAbstractAuditFrame(words: readonly string[]): boolean {
 }
 
 export function matchExpandedDiscourseFrame(
+  text: string,
   words: readonly string[]
 ): string | undefined {
   return (
+    matchDeicticEvaluativeFrame(text, words) ??
     matchWorthAttentionFrame(words) ??
     matchVagueFrameLocation(words) ??
     matchEvaluativeFrame(words)

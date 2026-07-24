@@ -569,3 +569,27 @@ The motor wouldn't start. It started after the battery was replaced.
 Nobody reads the manual anymore. An AI reads the warning in the manual.
 
 The agent wasn't ranking pages. It had never visited Lisbon.
+
+Here is the broken part inside the pump.
+
+Here is the replacement part for the pump.
+
+That is the upper section of the bracket.
+
+This is a stainless steel piece from the old assembly.
+
+Here is the stamped detail on the housing.
+
+That is a red thing from the parts bin.
+
+There is the best part on the workbench.
+
+Here is the largest bearing in the gearbox.
+
+Here is the best part of the movie.
+
+That is a remarkable piece of Renaissance sculpture.
+
+This is the important point on the map.
+
+Here is the key element in the periodic table.

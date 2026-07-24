@@ -4,10 +4,13 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 TEXTLINT="$ROOT/node_modules/.bin/textlint"
 
-cd "$ROOT"
-pnpm run build >/dev/null
+mkdir -p "$ROOT/.fixture3"
+TMP_DIR="$(mktemp -d "$ROOT/.fixture3/replay.XXXXXX")"
+trap 'rm -rf "$TMP_DIR"' EXIT
+RULES_ROOT="$TMP_DIR/dist/rules"
 
 cd "$ROOT"
+"$ROOT/node_modules/.bin/tsc" -p tsconfig.json --outDir "$TMP_DIR/dist"
 
 if [ "$#" -eq 0 ]; then
   mapfile -t FILES < <(find behavior/fixtures/textlint-rules/cases behavior/fixtures/textlint-rules/corpus -name "*.md" | sort)
@@ -17,21 +20,21 @@ fi
 
 CONFIG_ARGS=(--no-textlintrc)
 RULE_ARGS=(
-  --rulesdir "$ROOT/dist/rules/academic-slop"
-  --rulesdir "$ROOT/dist/rules/metrics"
-  --rulesdir "$ROOT/dist/rules/narrative-slop"
-  --rulesdir "$ROOT/dist/rules/orthography"
-  --rulesdir "$ROOT/dist/rules/words"
-  --rulesdir "$ROOT/dist/rules/phrases"
-  --rulesdir "$ROOT/dist/rules/semantic-thinness"
-  --rulesdir "$ROOT/dist/rules/term-policy"
-  --rulesdir "$ROOT/dist/rules/syntactic-patterns/authority"
-  --rulesdir "$ROOT/dist/rules/syntactic-patterns/closers"
-  --rulesdir "$ROOT/dist/rules/syntactic-patterns/contrast"
-  --rulesdir "$ROOT/dist/rules/syntactic-patterns/generalization"
-  --rulesdir "$ROOT/dist/rules/syntactic-patterns/lead-ins"
-  --rulesdir "$ROOT/dist/rules/syntactic-patterns/llm-artifacts"
-  --rulesdir "$ROOT/dist/rules/syntactic-patterns/repetition"
+  --rulesdir "$RULES_ROOT/academic-slop"
+  --rulesdir "$RULES_ROOT/metrics"
+  --rulesdir "$RULES_ROOT/narrative-slop"
+  --rulesdir "$RULES_ROOT/orthography"
+  --rulesdir "$RULES_ROOT/words"
+  --rulesdir "$RULES_ROOT/phrases"
+  --rulesdir "$RULES_ROOT/semantic-thinness"
+  --rulesdir "$RULES_ROOT/term-policy"
+  --rulesdir "$RULES_ROOT/syntactic-patterns/authority"
+  --rulesdir "$RULES_ROOT/syntactic-patterns/closers"
+  --rulesdir "$RULES_ROOT/syntactic-patterns/contrast"
+  --rulesdir "$RULES_ROOT/syntactic-patterns/generalization"
+  --rulesdir "$RULES_ROOT/syntactic-patterns/lead-ins"
+  --rulesdir "$RULES_ROOT/syntactic-patterns/llm-artifacts"
+  --rulesdir "$RULES_ROOT/syntactic-patterns/repetition"
 )
 run_textlint_json() {
   local output="$1"
@@ -47,9 +50,6 @@ run_textlint_json() {
     return "$status"
   fi
 }
-
-TMP_DIR="$(mktemp -d)"
-trap 'rm -rf "$TMP_DIR"' EXIT
 
 JSON_OUTPUTS=()
 DEFAULT_OUTPUT="$TMP_DIR/default.json"
@@ -71,7 +71,7 @@ for FILE in "${FILES[@]}"; do
     run_textlint_json \
       "$CONFIG_OUTPUT" \
       --config "$FIXTURE_CONFIG" \
-      --rules-base-directory "$ROOT/dist/rules/$FAMILY" \
+      --rules-base-directory "$RULES_ROOT/$FAMILY" \
       "$FILE"
     JSON_OUTPUTS+=("$CONFIG_OUTPUT")
   fi
@@ -88,7 +88,7 @@ for FILE in "${FILES[@]}"; do
     run_textlint_json \
       "$CONFIG_OUTPUT" \
       --config "$FIXTURE_CONFIG" \
-      --rules-base-directory "$ROOT/dist/rules/$FAMILY" \
+      --rules-base-directory "$RULES_ROOT/$FAMILY" \
       "$FILE"
     JSON_OUTPUTS+=("$CONFIG_OUTPUT")
   done

@@ -1097,3 +1097,25 @@ Literal reactions named materials and tools rather than personal responses. Here
 The remaining pairs supplied causes or changed the object of the claim. The motor wouldn't start. It started after the battery was replaced.
 
 Nobody reads the manual anymore. An AI reads the warning in the manual. The agent wasn't ranking pages. It had never visited Lisbon.
+
+## Evaluative signposting review
+
+The draft kept announcing its judgments before giving the evidence. Here is the odd part. Brand visits fell, yet sales rates rose. Here is a nice thing. The corrected export preserved every product identifier.
+
+The reviewer found another empty judgment in the conclusion. That is the best part. The result survived a second run without manual cleanup.
+
+The same habit appeared across punctuation and tense. Here's the strange bit: the result improved. This was the surprising detail: sales rose as visits fell. This is the useful point: every retry repeats the same request.
+
+The next section used the same frame for a constraint and a result. That's the tricky aspect: the faster path loses more records. That was the funny twist.
+
+The reviewer found the pattern with other judgment words and nouns. Here's a great idea. This is the key element. That is a remarkable piece.
+
+The remaining draft lines changed the noun but not the function. Here is the interesting angle. This is the obvious catch. Here is an important aspect. Each sentence delayed the claim it was supposed to make.
+
+Concrete identification remained useful during the hardware inspection. Here is the broken part inside the pump. Here is the replacement part for the pump. That is the upper section of the bracket.
+
+The technician continued by naming materials and locations. This is a stainless steel piece from the old assembly. Here is the stamped detail on the housing. That is a red thing from the parts bin.
+
+The last two lines pointed to objects on the bench. There is the best part on the workbench. Here is the largest bearing in the gearbox.
+
+The review closed with four ordinary identifications that reused the allowed adjective and noun slots. Here is the best part of the movie. That is a remarkable piece of Renaissance sculpture. This is the important point on the map. Here is the key element in the periodic table.

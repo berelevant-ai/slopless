@@ -1,0 +1,177 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "Plan: implementation, fixtures, corpus, approved behavior, release metadata, and development records",
+      "required": [
+        "src/rules/syntactic-patterns/lead-ins/private/discourse-evaluation.ts",
+        "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.md",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.preserve.json",
+        "behavior/golden/textlint-rules-cases-syntactic-patterns/approved.normalized.json",
+        "behavior/golden/textlint-rules-cases-syntactic-patterns/approved.meta.json",
+        "behavior/golden/textlint-rules-corpus-engineering-review/approved.normalized.json",
+        "behavior/golden/textlint-rules-corpus-engineering-review/approved.meta.json",
+        "package.json",
+        "scripts/behavior-replay.sh",
+        ".plans/2026-07-24-142849-deictic-evaluative-signposting.md",
+        ".plans/2026-07-24-142849-deictic-evaluative-signposting.md.spec.json",
+        ".plans/2026-07-24-142849-deictic-evaluative-signposting.md.spec.coverage.md",
+        ".worklogs/2026-07-24-151127-deictic-evaluative-signposting.md"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/discourse-evaluation.ts"
+        ],
+        "reason": "Approach 1-5: add and compose the generalized private matcher with every declared slot value",
+        "required": [
+          "function matchDeicticEvaluativeFrame(",
+          "matchDeicticEvaluativeFrame(text, words)",
+          "text.at(frame.length)",
+          "\"here\"",
+          "\"this\"",
+          "\"that\"",
+          "\"is\"",
+          "\"was\"",
+          "\"here's\"",
+          "\"this's\"",
+          "\"that's\"",
+          "\"a\"",
+          "\"an\"",
+          "\"the\"",
+          "\"best\"",
+          "\"better\"",
+          "\"biggest\"",
+          "\"central\"",
+          "\"core\"",
+          "\"crucial\"",
+          "\"funny\"",
+          "\"good\"",
+          "\"great\"",
+          "\"hard\"",
+          "\"important\"",
+          "\"interesting\"",
+          "\"key\"",
+          "\"main\"",
+          "\"neat\"",
+          "\"nice\"",
+          "\"odd\"",
+          "\"obvious\"",
+          "\"remarkable\"",
+          "\"strange\"",
+          "\"surprising\"",
+          "\"tricky\"",
+          "\"useful\"",
+          "\"weird\"",
+          "\"wild\"",
+          "\"angle\"",
+          "\"aspect\"",
+          "\"bit\"",
+          "\"catch\"",
+          "\"detail\"",
+          "\"element\"",
+          "\"idea\"",
+          "\"part\"",
+          "\"piece\"",
+          "\"point\"",
+          "\"thing\"",
+          "\"twist\""
+        ],
+        "forbidden": ["export function matchDeicticEvaluativeFrame("]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts"
+        ],
+        "reason": "Approach 5: trailing concrete evidence does not suppress this signposting frame",
+        "required": ["abstract.startsWith(\"deictic-evaluative-\")"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"
+        ],
+        "reason": "Approach 6: isolated hit coverage spans the declared slots",
+        "required": [
+          "Here is the odd part.",
+          "Here is a nice thing.",
+          "That is the best part.",
+          "Here's the strange bit: the result improved.",
+          "This was the surprising detail: sales rose as visits fell."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
+        ],
+        "reason": "Approach 6: concrete identification remains clean",
+        "required": [
+          "Here is the broken part inside the pump.",
+          "Here is the best part of the movie.",
+          "That is a remarkable piece of Renaissance sculpture.",
+          "This is the important point on the map.",
+          "Here is the key element in the periodic table."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/corpus/engineering-review.md"
+        ],
+        "reason": "Approach 7: reviewed hit forms appear in coherent corpus prose",
+        "exists": [
+          "Here is the odd part.",
+          "Here is a nice thing.",
+          "That is the best part.",
+          "Here's the strange bit:",
+          "This was the surprising detail:"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/corpus/engineering-review.preserve.json"
+        ],
+        "reason": "Approach 7: the preserve data records every reviewed hit form",
+        "exists": [
+          "Here is the odd part.",
+          "Here is a nice thing.",
+          "That is the best part.",
+          "Here's the strange bit:",
+          "This was the surprising detail:"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "reason": "Approach 9: patch release version",
+        "required": ["\"version\": \"0.2.27\""],
+        "forbidden": ["\"version\": \"0.2.26\""]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["scripts/behavior-replay.sh"],
+        "reason": "Approach 10: each parallel Fixture3 suite compiles into isolated temporary output",
+        "required": [
+          "mkdir -p \"$ROOT/.fixture3\"",
+          "TMP_DIR=\"$(mktemp -d \"$ROOT/.fixture3/replay.XXXXXX\")\"",
+          "RULES_ROOT=\"$TMP_DIR/dist/rules\"",
+          "--outDir \"$TMP_DIR/dist\"",
+          "--rulesdir \"$RULES_ROOT/phrases\""
+        ],
+        "forbidden": [
+          "pnpm run build >/dev/null",
+          "--rulesdir \"$ROOT/dist/rules/phrases\""
+        ]
+      }
+    ]
+  }
+}

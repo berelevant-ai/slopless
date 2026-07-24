@@ -195,7 +195,7 @@ function matchAbstractFrame(text: string): string | undefined {
   const words = tokens(text);
   return (
     matchRelativeDiscourseFrame(text, words) ??
-    matchExpandedDiscourseFrame(words) ??
+    matchExpandedDiscourseFrame(text, words) ??
     matchModifiedAbstractFrame(words) ??
     matchDiscourseEvaluationFrame(words) ??
     matchPointIsToFrame(words) ??
@@ -281,6 +281,7 @@ function matchSignposting(sentence: string): SentenceMatch | undefined {
   if (
     abstract !== undefined &&
     (abstract === "what-matters-is" ||
+      abstract.startsWith("deictic-evaluative-") ||
       abstract.startsWith("relative-") ||
       !concreteImplementation)
   ) {
