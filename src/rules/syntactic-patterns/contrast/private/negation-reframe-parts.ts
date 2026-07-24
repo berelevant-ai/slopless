@@ -1,25 +1,14 @@
 import type { SplitSentence } from "../../../../shared/text/sentences.js";
 import type { Token } from "../../../../shared/text/tokens.js";
-
-export const NEGATION_WORDS = new Set([
-  "not",
-  "never",
-  "isn't",
-  "aren't",
-  "wasn't",
-  "weren't",
-  "don't",
-  "doesn't",
-  "didn't",
-  "can't",
-  "cannot",
-  "won't",
-  "wouldn't",
-  "shouldn't",
-  "couldn't"
-]);
+import { NEGATION_WORDS } from "./negation-vocabulary.js";
+export {
+  ACTION_NEGATIONS,
+  DO_NEGATIONS,
+  NEGATION_WORDS
+} from "./negation-vocabulary.js";
 
 export const COPULAR_FORMS = new Map<string, string>([
+  ["am", "am"],
   ["are", "are"],
   ["aren't", "are"],
   ["is", "is"],
@@ -30,7 +19,6 @@ export const COPULAR_FORMS = new Map<string, string>([
   ["weren't", "were"]
 ]);
 
-export const DO_NEGATIONS = new Set(["don't", "doesn't", "didn't"]);
 export const EXPLICIT_DO_AUXILIARIES = new Set(["do", "does", "did"]);
 export const OPTIONAL_ADVERBS = new Set([
   "actually",
@@ -44,13 +32,17 @@ export const FACTUAL_NEGATION_CONNECTORS = new Set([
   "because",
   "if",
   "since",
+  "though",
   "until",
   "when",
   "while"
 ]);
 export const PRONOUN_REFRAME_STARTS = [
+  ["i", "am"],
+  ["he", "is"],
   ["it", "is"],
   ["it", "was"],
+  ["she", "is"],
   ["this", "is"],
   ["that", "is"],
   ["they", "are"],
@@ -67,11 +59,15 @@ const NEGATIVE_COPULAR_PREDICATES = new Set([
   "nothing",
   "nowhere"
 ]);
+const NEGATIVE_NOUN_DETERMINERS = new Set(["no"]);
 const CONTRACTED_PRONOUN_COPULAS = new Map<
   string,
   { readonly affirmativeAux: string; readonly subject: readonly string[] }
 >([
+  ["i'm", { affirmativeAux: "am", subject: ["i"] }],
+  ["he's", { affirmativeAux: "is", subject: ["he"] }],
   ["it's", { affirmativeAux: "is", subject: ["it"] }],
+  ["she's", { affirmativeAux: "is", subject: ["she"] }],
   ["that's", { affirmativeAux: "is", subject: ["that"] }],
   ["they're", { affirmativeAux: "are", subject: ["they"] }],
   ["we're", { affirmativeAux: "are", subject: ["we"] }],
@@ -126,7 +122,17 @@ function regularPastTense(verb: string): string {
 }
 
 function affirmativeVerbForms(verb: string): readonly string[] {
-  return [verb, IRREGULAR_PAST_TENSE.get(verb) ?? regularPastTense(verb)];
+  const thirdPerson = verb.endsWith("y")
+    ? `${verb.slice(0, -1)}ies`
+    : ["s", "x", "z", "ch", "sh", "o"].some((ending) => verb.endsWith(ending))
+      ? `${verb}es`
+      : `${verb}s`;
+
+  return [
+    verb,
+    thirdPerson,
+    IRREGULAR_PAST_TENSE.get(verb) ?? regularPastTense(verb)
+  ];
 }
 
 export function stripLeadingPairPivot(
@@ -162,13 +168,6 @@ export function startsWithSubjectVerb(
 
 export function words(tokens: readonly Token[]): readonly string[] {
   return tokens.map((token) => token.normalized);
-}
-
-export function hasAnyWord(
-  tokens: readonly string[],
-  candidates: ReadonlySet<string>
-): boolean {
-  return tokens.some((token) => candidates.has(token));
 }
 
 export function skipOptionalAdverbs(
@@ -274,6 +273,21 @@ export function findCopularNegation(
   tokens: readonly Token[]
 ): CopularNegation | undefined {
   const tokenWords = words(tokens);
+  const contracted = CONTRACTED_PRONOUN_COPULAS.get(tokenWords[0] ?? "");
+  const contractedNegator = tokenWords[1];
+
+  if (
+    contracted !== undefined &&
+    contractedNegator !== undefined &&
+    (contractedNegator === "not" ||
+      NEGATIVE_COPULAR_PREDICATES.has(contractedNegator) ||
+      NEGATIVE_NOUN_DETERMINERS.has(contractedNegator))
+  ) {
+    return {
+      ...contracted,
+      negatedPredicateStart: contractedNegator === "not" ? 2 : 1
+    };
+  }
 
   for (let index = 0; index < tokenWords.length; index += 1) {
     const current = tokenWords[index];
@@ -305,7 +319,8 @@ export function findCopularNegation(
     if (
       explicitAux !== undefined &&
       next !== undefined &&
-      NEGATIVE_COPULAR_PREDICATES.has(next)
+      NEGATIVE_NOUN_DETERMINERS.has(next) &&
+      tokenWords[index + 2] !== "longer"
     ) {
       return {
         affirmativeAux: explicitAux,
@@ -316,8 +331,8 @@ export function findCopularNegation(
 
     if (
       explicitAux !== undefined &&
-      next === "no" &&
-      (tokenWords[index + 2] === "one" || tokenWords[index + 2] === "single")
+      next !== undefined &&
+      NEGATIVE_COPULAR_PREDICATES.has(next)
     ) {
       return {
         affirmativeAux: explicitAux,

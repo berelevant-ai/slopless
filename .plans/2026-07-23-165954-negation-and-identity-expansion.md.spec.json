@@ -1,0 +1,634 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "plan: existing rule owners, three private negation matchers, semantic patterns, fixtures, flowing corpora, preserve maps, and comparison analysis",
+      "required": [
+        "src/rules/syntactic-patterns/contrast/negation-reframe.ts",
+        "src/rules/syntactic-patterns/contrast/private/negation-reframe-parts.ts",
+        "src/rules/syntactic-patterns/contrast/private/negation-vocabulary.ts",
+        "src/rules/syntactic-patterns/contrast/private/action-reframe-vocabulary.ts",
+        "src/rules/syntactic-patterns/contrast/private/negation-reframe-matcher.ts",
+        "src/rules/syntactic-patterns/contrast/private/inline-semicolon-reframe.ts",
+        "src/rules/syntactic-patterns/contrast/private/reframe-classification.ts",
+        "src/rules/syntactic-patterns/contrast/private/negative-slop-frames.ts",
+        "src/rules/syntactic-patterns/contrast/private/temporal-reframe.ts",
+        "src/rules/syntactic-patterns/contrast/private/audience-replacement.ts",
+        "src/rules/syntactic-patterns/contrast/private/negative-consequence.ts",
+        "src/rules/syntactic-patterns/contrast/private/sequence-reframes.ts",
+        "src/rules/syntactic-patterns/lead-ins/generic-signposting.ts",
+        "src/rules/syntactic-patterns/lead-ins/private/reaction-frame.ts",
+        "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "src/rules/semantic-thinness/patterns/abstract-metaphor-claim.json",
+        "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "src/rules/semantic-thinness/private/concrete-guards.ts",
+        "src/rules/semantic-thinness/private/pattern-matcher.ts",
+        ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs",
+        ".plans/2026-07-21-190541-relative-signposting-and-evidence-limitation.md.spec.verify.mjs",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
+        "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md",
+        "behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.preserve.json",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.md",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.preserve.json",
+        "behavior/analysis/2026-07-23-negation-and-identity-expansion.md"
+      ],
+      "forbidden": [
+        "src/rules/syntactic-patterns/contrast/temporal-reframe.ts",
+        "src/rules/syntactic-patterns/contrast/audience-replacement.ts",
+        "src/rules/syntactic-patterns/contrast/negative-consequence.ts",
+        "src/rules/semantic-thinness/patterns/artifact-role-identity.json"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/semantic-thinness/patterns/empty-scene-transition.json"
+        ],
+        "reason": "review correction: short transition patterns match complete sentences and retain leading weak-modifier forms",
+        "required": [
+          "\"matchMode\": \"full\"",
+          "{weakModifier}, {genericSubject} {changeVerb}."
+        ],
+        "forbidden": [
+          "\"matchMode\": \"contains\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/reframe-classification.ts"
+        ],
+        "reason": "contraction expansion: causal corrections with a concrete time or quantity remain informative",
+        "required": [
+          "hasCausalConcreteCorrection",
+          "FACTUAL_NEGATION_CONNECTORS",
+          "quantityTokenCount"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "reason": "verification bug: absent planned TypeScript modules must fail export requirements instead of crashing the verifier",
+        "required": [
+          "if (!fs.existsSync(path))"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          ".plans/2026-07-21-190541-relative-signposting-and-evidence-limitation.md.spec.verify.mjs"
+        ],
+        "reason": "verification bug: absent planned TypeScript modules must fail ownership requirements instead of crashing the verifier",
+        "required": [
+          "if (!existsSync(file))"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/negation-reframe-parts.ts"
+        ],
+        "reason": "plan: shared copula parsing recognizes every supported subject-copula contraction and copular negator",
+        "required": [
+          "findCopularNegation",
+          "\"i'm\"",
+          "\"you're\"",
+          "\"we're\"",
+          "\"they're\"",
+          "\"he's\"",
+          "\"she's\"",
+          "\"it's\"",
+          "\"that's\"",
+          "\"not\"",
+          "\"never\"",
+          "\"no\"",
+          "\"nobody\"",
+          "\"nothing\"",
+          "\"none\"",
+          "\"nowhere\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/negation-vocabulary.ts"
+        ],
+        "reason": "plan: standard negative auxiliary contractions share one action-negation inventory",
+        "required": [
+          "ACTION_NEGATIONS",
+          "\"don't\"",
+          "\"doesn't\"",
+          "\"didn't\"",
+          "\"can't\"",
+          "\"couldn't\"",
+          "\"hadn't\"",
+          "\"hasn't\"",
+          "\"haven't\"",
+          "\"mightn't\"",
+          "\"mustn't\"",
+          "\"needn't\"",
+          "\"shan't\"",
+          "\"shouldn't\"",
+          "\"won't\"",
+          "\"wouldn't\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/negation-reframe-matcher.ts"
+        ],
+        "reason": "plan: all new pair and window logic is composed by the existing negation matcher",
+        "required": [
+          "matchSequenceReframe",
+          "findSentenceNegationReframes"
+        ],
+        "forbidden": [
+          "syntactic-patterns:temporal-reframe",
+          "syntactic-patterns:audience-replacement",
+          "syntactic-patterns:negative-consequence"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/sequence-reframes.ts"
+        ],
+        "reason": "repository dependency limit: one private composition entry point owns the three independent sequence detectors",
+        "required": [
+          "export function matchSequenceReframe",
+          "./temporal-reframe.js",
+          "./audience-replacement.js",
+          "./negative-consequence.js"
+        ],
+        "forbidden": [
+          "defineTextlintRule",
+          "syntactic-patterns:"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/negation-reframe.ts"
+        ],
+        "reason": "plan: the existing public rule owns every new construction and uses generalized guidance",
+        "required": [
+          "syntactic-patterns:negation-reframe",
+          "Rewrite the staged negation as a direct claim."
+        ],
+        "forbidden": [
+          "Rewrite without the not-X-then-Y construction."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/temporal-reframe.ts"
+        ],
+        "reason": "plan: private temporal matcher owns short abstract used-to-be/now reframes",
+        "required": [
+          "export function matchTemporalReframe",
+          "FRAME_SUBJECTS",
+          "isFrameSubject",
+          "\"used\"",
+          "\"now\"",
+          "\"distribution\""
+        ],
+        "forbidden": [
+          "syntactic-patterns:",
+          "../../../adapters/",
+          "../../../registries/",
+          "../../../reporting/",
+          "../../semantic-thinness/"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/audience-replacement.ts"
+        ],
+        "reason": "plan: private audience matcher owns repeated-predicate human-to-machine replacements",
+        "required": [
+          "export function matchAudienceReplacement",
+          "\"nobody\"",
+          "\"one\"",
+          "\"anymore\"",
+          "\"machine\""
+        ],
+        "forbidden": [
+          "syntactic-patterns:",
+          "../../../adapters/",
+          "../../../registries/",
+          "../../../reporting/",
+          "../../semantic-thinness/"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/negative-consequence.ts"
+        ],
+        "reason": "plan: one private module owns both abstract exclusion consequence shapes and the two- or three-sentence information-artifact window",
+        "required": [
+          "export function matchNegativeConsequence",
+          "NEGATIVE_AUXILIARIES",
+          "allowStackedNever",
+          "namesMissingInformation",
+          "\"never\"",
+          "\"comparison\"",
+          "\"selection\"",
+          "\"distribution\""
+        ],
+        "forbidden": [
+          "syntactic-patterns:",
+          "../../../adapters/",
+          "../../../registries/",
+          "../../../reporting/",
+          "../../semantic-thinness/"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/semantic-thinness/patterns/deictic-summary.json"
+        ],
+        "reason": "plan: deictic-summary accepts explicit and contracted that/this/it copular phrases and includes shift",
+        "required": [
+          "\"id\": \"deictic-summary\"",
+          "\"that is\"",
+          "\"this is\"",
+          "\"it is\"",
+          "\"that's\"",
+          "\"this's\"",
+          "\"it's\"",
+          "\"shift\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/semantic-thinness/patterns/abstract-metaphor-claim.json"
+        ],
+        "reason": "plan: existing abstract-metaphor owner contains the bounded artifact-role identity inventory",
+        "required": [
+          "\"id\": \"abstract-metaphor-claim\"",
+          "\"feed\"",
+          "\"page\"",
+          "\"prompt\"",
+          "\"dashboard\"",
+          "\"database\"",
+          "\"index\"",
+          "\"schema\"",
+          "\"metadata\"",
+          "\"report\"",
+          "\"spreadsheet\"",
+          "\"interface\"",
+          "\"pipeline\"",
+          "\"model\"",
+          "\"content\"",
+          "\"product\"",
+          "\"strategy\"",
+          "\"decision\"",
+          "\"answer\"",
+          "\"business\"",
+          "\"brand\"",
+          "\"storefront\"",
+          "\"market\"",
+          "\"distribution\"",
+          "\"experience\"",
+          "\"work\"",
+          "\"source of truth\""
+          ,"\"automatedAudience\""
+          ,"\"audienceActivity\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/lead-ins/private/reaction-frame.ts"
+        ],
+        "reason": "plan: the existing signposting owner catches generic personal-reaction frames without matching literal part descriptions",
+        "required": [
+          "matchReactionFrame",
+          "REACTION_NOUNS",
+          "REACTION_VERBS",
+          "here-is-the-reaction-frame"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/semantic-thinness/private/concrete-guards.ts"
+        ],
+        "reason": "plan: concrete named assignments reject deictic prefix matches without changing global contains-template behavior",
+        "required": [
+          "\"assigned\"",
+          "\"lists\"",
+          "hasConcreteExplanation"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/semantic-thinness/private/pattern-matcher.ts"
+        ],
+        "reason": "plan: artifact-role identities use the existing broad-pattern concrete-explanation gate",
+        "required": [
+          "\"abstract-metaphor-claim\"",
+          "hasConcreteExplanation",
+          "CompiledTemplate",
+          "template.matchMode",
+          "\"connector\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/syntactic-patterns/contrast/private/negative-slop-frames.ts"
+        ],
+        "reason": "contraction expansion: no-longer reframes use the dedicated matcher and retain its passive-explanation guard",
+        "required": [
+          "pronounCopulaStart",
+          "noLongerCopularReframe",
+          "startsWithPassiveCopula",
+          "negatedProgressiveNeverPayoff",
+          "GENERIC_ACTION_VERBS",
+          "./sequence-reframes.js",
+          "matchSequenceReframe"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"
+        ],
+        "reason": "plan: supplied syntactic reframes are public hit fixtures",
+        "required": [
+          "It's not about the storefront. It's about the feed.",
+          "It used to be database hygiene. Now it's distribution.",
+          "Nobody reads your product page anymore. An AI reads your product feed.",
+          "This isn't a data problem. It's a distribution problem.",
+          "Skip a field, and you don't lose the comparison. You never enter it.",
+          "Not compared and rejected - never compared at all.",
+          "I'm no writer. I'm the approval layer.",
+          "The agent isn't matching keywords anymore.",
+          "It doesn't guess. It reads the attributes, filters, and moves on.",
+          "Here's the part that got me.",
+          "An empty field is not sloppy data; it is a door",
+          "The agent wasn't rejecting it. It had never met it."
+          ,"It can't guess. It reads the product attributes."
+          ,"It won't inspect pages. It reads attributes."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"
+        ],
+        "reason": "plan: explicit factual boundary examples remain clean",
+        "required": [
+          "The warehouse used to be a school. Now it is a clinic.",
+          "The proposal was never considered and never selected.",
+          "Skip a field, and you lose the ranking. You never enter it.",
+          "The department used to be compliance. Now it is operations.",
+          "Here is the part that broke inside the pump."
+          ,"It can't start because the battery voltage is below 11 volts."
+          ,"It won't inspect pages because the crawler is disabled."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md"
+        ],
+        "reason": "plan: supplied deictic summary and artifact-role identity claims are public hit fixtures",
+        "required": [
+          "That's the shift.",
+          "To the machine doing the shopping, the feed is the product.",
+          "So the feed is the product now."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md"
+        ],
+        "reason": "plan: terminal slogan words embedded in longer noun phrases remain clean",
+        "required": [
+          "That is the point guard assigned to Curry.",
+          "The Stripe dashboard is the product.",
+          "The feed is the product catalog uploaded to S3."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/fixtures/textlint-rules/corpus/editorial-style.md",
+          "behavior/fixtures/textlint-rules/corpus/engineering-review.md"
+        ],
+        "reason": "plan: every supplied target is copied into a topic-relevant flowing corpus",
+        "exists": [
+          "That's the shift.",
+          "It's not about the storefront. It's about the feed.",
+          "It used to be database hygiene. Now it's distribution.",
+          "Nobody reads your product page anymore. An AI reads your product feed.",
+          "This isn't a data problem. It's a distribution problem.",
+          "To the machine doing the shopping, the feed is the product.",
+          "Skip a field, and you don't lose the comparison. You never enter it.",
+          "Not compared and rejected - never compared at all."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "behavior/analysis/2026-07-23-negation-and-identity-expansion.md"
+        ],
+        "reason": "plan: engine comparison records added and removed findings and manual false-positive decisions",
+        "required": [
+          "2da9593",
+          "## Added findings",
+          "## Removed findings",
+          "## False positives"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "package.json",
+          "src/index.ts",
+          "src/registries/**/*.ts"
+        ],
+        "reason": "plan: no new public rule ID, registry entry, package export, or dependency",
+        "forbidden": [
+          "temporal-reframe",
+          "audience-replacement",
+          "negative-consequence",
+          "artifact-role-identity"
+        ]
+      }
+    ],
+    "exports": [
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-21-190541-relative-signposting-and-evidence-limitation.md.spec.verify.mjs"
+        ],
+        "package": "slopless",
+        "reason": "plan: existing negation-reframe and semantic-thinness owners remain public while new matchers remain private",
+        "required": [
+          "./rules/syntactic-patterns/contrast/negation-reframe",
+          "./rules/semantic-thinness/semantic-thinness"
+        ],
+        "forbidden": [
+          "./rules/syntactic-patterns/contrast/temporal-reframe",
+          "./rules/syntactic-patterns/contrast/audience-replacement",
+          "./rules/syntactic-patterns/contrast/negative-consequence",
+          "./rules/semantic-thinness/artifact-role-identity"
+        ]
+      },
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "package": "src/rules/syntactic-patterns/contrast/private/temporal-reframe.ts",
+        "reason": "plan: temporal matcher exposes one typed private entry point",
+        "required": [
+          "matchTemporalReframe first-string, second-string returns-string-or-undefined"
+        ]
+      },
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "package": "src/rules/syntactic-patterns/contrast/private/audience-replacement.ts",
+        "reason": "plan: audience matcher exposes one typed private entry point",
+        "required": [
+          "matchAudienceReplacement first-string, second-string returns-string-or-undefined"
+        ]
+      },
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "package": "src/rules/syntactic-patterns/contrast/private/sequence-reframes.ts",
+        "reason": "plan: sequence composition exposes one typed private entry point",
+        "required": [
+          "matchSequenceReframe first-string, second-string, third-optional-string returns-string-or-undefined"
+        ]
+      },
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-23-135842-generic-signposting-labels-verifier.mjs"
+        ],
+        "package": "src/rules/syntactic-patterns/contrast/private/negative-consequence.ts",
+        "reason": "plan: negative consequence matcher exposes one typed private entry point for two- and three-sentence windows",
+        "required": [
+          "matchNegativeConsequence first-string, second-string, third-optional-string returns-string-or-undefined"
+        ]
+      }
+    ],
+    "custom": [
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-21-190541-relative-signposting-and-evidence-limitation.md.spec.verify.mjs"
+        ],
+        "check": "module-import-boundaries",
+        "reason": "plan: private pair and window matchers are owned only by negation-reframe-matcher and cannot cross into other rule families or infrastructure",
+        "modules": [
+          {
+            "file": "src/rules/syntactic-patterns/contrast/private/temporal-reframe.ts",
+            "forbidden": [
+              "/semantic-thinness/",
+              "/lead-ins/",
+              "/closers/",
+              "/adapters/",
+              "/registries/",
+              "/reporting/"
+            ]
+          },
+          {
+            "file": "src/rules/syntactic-patterns/contrast/private/audience-replacement.ts",
+            "forbidden": [
+              "/semantic-thinness/",
+              "/lead-ins/",
+              "/closers/",
+              "/adapters/",
+              "/registries/",
+              "/reporting/"
+            ]
+          },
+          {
+            "file": "src/rules/syntactic-patterns/contrast/private/negative-consequence.ts",
+            "forbidden": [
+              "/semantic-thinness/",
+              "/lead-ins/",
+              "/closers/",
+              "/adapters/",
+              "/registries/",
+              "/reporting/"
+            ]
+          },
+          {
+            "file": "src/rules/syntactic-patterns/contrast/private/sequence-reframes.ts",
+            "required": [
+              "./temporal-reframe.js",
+              "./audience-replacement.js",
+              "./negative-consequence.js"
+            ],
+            "forbidden": [
+              "/semantic-thinness/",
+              "/lead-ins/",
+              "/closers/"
+            ]
+          },
+          {
+            "file": "src/rules/syntactic-patterns/contrast/private/negation-reframe-matcher.ts",
+            "forbidden": [
+              "/semantic-thinness/",
+              "/lead-ins/",
+              "/closers/"
+            ]
+          },
+          {
+            "file": "src/rules/semantic-thinness/private/concrete-guards.ts",
+            "forbidden": [
+              "/syntactic-patterns/",
+              "/registries/",
+              "/reporting/"
+            ]
+          }
+        ],
+        "ownedImports": [
+          {
+            "source": "/private/temporal-reframe.js",
+            "owner": "src/rules/syntactic-patterns/contrast/private/sequence-reframes.ts"
+          },
+          {
+            "source": "/private/sequence-reframes.js",
+            "owner": "src/rules/syntactic-patterns/contrast/private/negative-slop-frames.ts"
+          },
+          {
+            "source": "/private/audience-replacement.js",
+            "owner": "src/rules/syntactic-patterns/contrast/private/sequence-reframes.ts"
+          },
+          {
+            "source": "/private/negative-consequence.js",
+            "owner": "src/rules/syntactic-patterns/contrast/private/sequence-reframes.ts"
+          }
+        ]
+      }
+    ]
+  }
+}

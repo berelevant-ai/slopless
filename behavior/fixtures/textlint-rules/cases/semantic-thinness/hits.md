@@ -263,3 +263,39 @@ The dashboard simply put a number on that.
 The report merely put a number on this.
 
 The review basically put a number on that.
+
+That's the shift.
+
+That is the lesson.
+
+This is the honest point.
+
+It's the missing piece.
+
+To the machine doing the shopping, the feed is the product.
+
+For the search agent, the page is the answer.
+
+To the ranking system, the schema is the storefront.
+
+For the assistant, metadata is the product.
+
+The prompt is the strategy.
+
+The dashboard is the decision.
+
+The report became the answer.
+
+The spreadsheet is the business.
+
+The index is the market.
+
+The pipeline is the work.
+
+The interface is the experience.
+
+The content is the source of truth.
+
+So the feed is the product now.
+
+That's the shift.

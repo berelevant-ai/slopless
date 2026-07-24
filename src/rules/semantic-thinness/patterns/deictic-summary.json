@@ -5,8 +5,26 @@
   "matchMode": "contains",
   "maxTokens": 80,
   "templates": [
-    "{deicticSubject} {linkingVerb} the {summaryNoun}.",
-    "{deicticSubject} {linkingVerb} the {evaluativeAdjective} {summaryNoun}.",
+    {
+      "text": "{deicticCopula} the {summaryNoun}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{deicticSubject} {linkingVerb} the {summaryNoun}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{deicticSubject} {linkingVerb} the {summaryNoun}.",
+      "matchMode": "connector"
+    },
+    {
+      "text": "{deicticSubject} {linkingVerb} the {evaluativeAdjective} {summaryNoun}.",
+      "matchMode": "full"
+    },
     "{deicticSubject} {linkingVerb} the {summaryNoun} that {thinPredicate}.",
     "{deicticSubject} {linkingVerb} the {summaryNoun} {genericAudience} {reactionVerb}.",
     "{deicticSubject} {summaryVerb} the {summaryNoun}.",
@@ -14,6 +32,7 @@
     "{deicticSubject} {meaningVerb} {summaryNoun}.",
     "{deicticSubject} {explanationVerb} {summaryNoun}.",
     "{deicticSubject} {explanationVerb} the {summaryNoun}.",
+    "{deicticSubject} {speechVerb} {deicticSubject} {linkingVerb} the {summaryNoun}.",
     "{deicticSubject} {meaningVerb} {abstractSubject} {linkingVerb} {weakJudgment}.",
     "{deicticSubject} {explanationVerb} why {abstractSubject} {abstractVerb}.",
     "{deicticSubject} {explanationVerb} how {abstractSubject} {abstractVerb}.",
@@ -30,6 +49,14 @@
     "{deicticSubject} {linkingVerb} the reason {abstractSubject} {importanceVerb}."
   ],
   "slots": {
+    "deicticCopula": [
+      "that is",
+      "this is",
+      "it is",
+      "that's",
+      "this's",
+      "it's"
+    ],
     "deicticSubject": ["that", "this", "it"],
     "linkingVerb": ["is", "was"],
     "evaluativeAdjective": [
@@ -51,6 +78,7 @@
     ],
     "summaryNoun": [
       "part",
+      "piece",
       "promise",
       "truth",
       "lesson",
@@ -99,6 +127,7 @@
     ],
     "meaningVerb": ["means", "meant", "does not mean", "doesn't mean"],
     "explanationVerb": ["shows", "showed", "explains", "explained", "proves"],
+    "speechVerb": ["says", "said", "tells", "told"],
     "weakJudgment": [
       "useless",
       "useful",

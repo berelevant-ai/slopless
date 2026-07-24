@@ -455,3 +455,117 @@ The result is clear: 42 percent of requests failed.
 The flag is simple: `--no-cache`.
 
 The route is hard: black ice covers the north face.
+
+I'm not available because the clinic closes at six. I'm available tomorrow at nine.
+
+You're not listed as the owner because the filing names Daniel Ruiz.
+
+We're not using the old endpoint because version 2 removed it in March.
+
+They're not in the east warehouse; they're in bay four of the west warehouse.
+
+He's not the account owner because the signed contract names Maria Shah.
+
+She's not the attending physician because the rota assigns Dr. Bell.
+
+It's not a rebate; the tax code defines it as a refundable credit.
+
+That's not the serial number because the label reads AX-2047.
+
+The warehouse used to be a school. Now it is a clinic.
+
+The file used to be JSON. Now it is CSV because the importer changed on July 1.
+
+The report used to be weekly. Now it is issued on the first Monday of each month.
+
+The cache used to be local. Now it is shared by three workers.
+
+The field used to be optional. Now it is required by schema version 3.
+
+I used to be an editor. Now I'm the publisher.
+
+Nobody entered the room anymore after the lock was changed. The guard entered it at noon to inspect the alarm.
+
+No one reads the meter any longer because the sensor sends its value to the controller.
+
+Buyers don't read the warranty now because the printed copy is sealed inside the box.
+
+Customers no longer inspect the east shelf after staff moved the products to aisle seven.
+
+Skip the checksum, and you may lose corrupted bytes when the disk fails. You never recover them without a backup.
+
+Omit the semicolon, and the parser rejects the statement. You never reach the evaluation phase.
+
+Leave the valve open, and the tank loses pressure. It never reaches 90 PSI.
+
+Drop the database before the backup finishes, and you lose the records. You never restore data that was not copied.
+
+The listing never stated the voltage because the manufacturer had not measured it.
+
+The report never mentioned the second trial because its results were published after the cutoff.
+
+The product page never listed the old model. The new model replaced it in 2025.
+
+The record never explained the outage because the investigation remained open.
+
+The proposal was never considered and never selected.
+
+The candidate was never ranked, never recommended.
+
+Skip a field, and you lose the ranking. You never enter it.
+
+The department used to be compliance. Now it is operations.
+
+The policy used to be administration. Now it is governance.
+
+Here is the part that broke inside the pump.
+
+Here is the detail that surprised the inspector because the seal was cracked.
+
+The agent isn't matching keywords because the configuration disables keyword matching.
+
+It doesn't guess because the answer is stored in the configuration file.
+
+An empty field isn't untidy data because the schema permits blank values.
+
+It can't start because the battery voltage is below 11 volts.
+
+It couldn't connect because the firewall blocked port 443.
+
+It hasn't checked the source because the download is still running.
+
+It hadn't inspected the listing because the record arrived after the cutoff.
+
+They haven't reviewed the pages because legal approval is pending.
+
+It mightn't finish before noon because the queue contains 40 jobs.
+
+It mustn't open while the pressure gauge reads above 90 PSI.
+
+It needn't retry because the server returned a permanent error.
+
+It shan't start until the operator closes the safety interlock.
+
+It shouldn't ship because test 14 still fails.
+
+It won't inspect pages because the crawler is disabled.
+
+It wouldn't inspect pages while the maintenance flag was active.
+
+The sample is not bad data; it is stored in the archive.
+
+The valve isn't broken hardware; it is closed for maintenance.
+
+The draft is not incomplete work; it is awaiting legal review.
+
+Here is the part that stuck with glue.
+
+Here's the piece that stuck with epoxy.
+
+Here is the detail that hit with the hammer.
+
+The motor wouldn't start. It started after the battery was replaced.
+
+Nobody reads the manual anymore. An AI reads the warning in the manual.
+
+The agent wasn't ranking pages. It had never visited Lisbon.

@@ -31,7 +31,7 @@ const rule = defineTextlintRule({
     id: RULE_ID
   },
   formatMessage: (report) =>
-    `Negation reframe found: "${report.evidence}". Rewrite without the not-X-then-Y construction.`,
+    `Negation reframe found: "${report.evidence}". Rewrite the staged negation as a direct claim.`,
   reportPolicy: { kind: "one-to-one" },
   units: (document) => [
     ...allParagraphUnits(document),

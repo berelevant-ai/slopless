@@ -88,6 +88,21 @@ const QUANTITY_WORDS = new Set([
   "nine",
   "ten"
 ]);
+const TIME_DETAIL_WORDS = new Set([
+  "today",
+  "tomorrow",
+  "tonight",
+  "yesterday",
+  "noon",
+  "midnight",
+  "monday",
+  "tuesday",
+  "wednesday",
+  "thursday",
+  "friday",
+  "saturday",
+  "sunday"
+]);
 
 function digitTokenCount(tokens: readonly Token[]): number {
   return tokens.filter((token) =>
@@ -222,6 +237,17 @@ function hasCausalPassiveExplanation(
   );
 }
 
+function hasCausalConcreteCorrection(
+  aTokens: readonly Token[],
+  bTokens: readonly Token[]
+): boolean {
+  return (
+    words(aTokens).some((word) => FACTUAL_NEGATION_CONNECTORS.has(word)) &&
+    (quantityTokenCount(bTokens) > 0 ||
+      words(bTokens).some((word) => TIME_DETAIL_WORDS.has(word)))
+  );
+}
+
 function hasDistinctCauseExplanation(
   aTokens: readonly Token[],
   bTokens: readonly Token[]
@@ -245,6 +271,7 @@ function hasConcreteExplanatoryEvidence(
     hasPurposeOrProvenance(tokenWords) ||
     hasDistinctCauseExplanation(aTokens, bTokens) ||
     hasCausalPassiveExplanation(aTokens, bTokens) ||
+    hasCausalConcreteCorrection(aTokens, bTokens) ||
     (hasReferenceEvidence(aTokens, bTokens, pairText) &&
       hasPassiveExplanation(bTokens))
   );

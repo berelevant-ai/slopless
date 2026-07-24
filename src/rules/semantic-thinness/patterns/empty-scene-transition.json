@@ -2,11 +2,12 @@
   "id": "empty-scene-transition",
   "class": "transition-change",
   "purpose": "Catch generic transition lines that declare change, passage, or motion without naming what changed or why.",
-  "matchMode": "contains",
+  "matchMode": "full",
   "templates": [
     "{genericSubject} {changeVerb}.",
     "{genericSubject} {changeVerb} {weakModifier}.",
     "{genericSubject} {changeVerb} {genericObject}.",
+    "{weakModifier}, {genericSubject} {changeVerb}.",
     "{genericSubject} {passageVerb}."
   ],
   "slots": {

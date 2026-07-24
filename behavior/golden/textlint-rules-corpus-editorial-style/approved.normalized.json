@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 14.06. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 13.3. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -10.95. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 42.34. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 35.21. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 14.22. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -568,7 +568,7 @@
             "line": 47
           }
         },
-        "message": "Semantic thinness (empty-scene-transition): Catch generic transition lines that declare change, passage, or motion without naming what changed or why. Matched template: {genericSubject} {changeVerb}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {genericSubject} {changeVerb}.",
         "range": [
           1220,
           1259
@@ -597,6 +597,29 @@
           1259
         ],
         "ruleId": "colon-dramatic",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 42,
+        "index": 2061,
+        "line": 83,
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 83
+          },
+          "start": {
+            "column": 42,
+            "line": 83
+          }
+        },
+        "message": "Demonstrative emphasis found: \"That is allowed by the Rust default.\". Reduce repeated short emphasis lines.",
+        "range": [
+          2061,
+          2097
+        ],
+        "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
       },
@@ -6650,6 +6673,29 @@
         "type": "lint"
       },
       {
+        "column": 110,
+        "index": 24431,
+        "line": 757,
+        "loc": {
+          "end": {
+            "column": 136,
+            "line": 757
+          },
+          "start": {
+            "column": 110,
+            "line": 757
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The input is the research.\". Reduce repeated short emphasis lines.",
+        "range": [
+          24431,
+          24457
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 43,
         "index": 24552,
         "line": 759,
@@ -6715,6 +6761,2306 @@
           25055
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 25472,
+        "line": 771,
+        "loc": {
+          "end": {
+            "column": 324,
+            "line": 771
+          },
+          "start": {
+            "column": 1,
+            "line": 771
+          }
+        },
+        "message": "Paragraph has 9 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          25472,
+          25795
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 85,
+        "index": 25556,
+        "line": 771,
+        "loc": {
+          "end": {
+            "column": 136,
+            "line": 771
+          },
+          "start": {
+            "column": 85,
+            "line": 771
+          }
+        },
+        "message": "Negation reframe found: \"It's not about the storefront. It's about the feed.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          25556,
+          25607
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 85,
+        "index": 25556,
+        "line": 771,
+        "loc": {
+          "end": {
+            "column": 324,
+            "line": 771
+          },
+          "start": {
+            "column": 85,
+            "line": 771
+          }
+        },
+        "message": "Fragment stack found: It's not about the storefront. It's about the feed. I'm not selling another dashboard. I'm selling a decision system. You're not buying traffic. You're buying qualified demand. We're not optimizing clicks. We're optimizing discoverability. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          25556,
+          25795
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 137,
+        "index": 25608,
+        "line": 771,
+        "loc": {
+          "end": {
+            "column": 202,
+            "line": 771
+          },
+          "start": {
+            "column": 137,
+            "line": 771
+          }
+        },
+        "message": "Negation reframe found: \"I'm not selling another dashboard. I'm selling a decision system.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          25608,
+          25673
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 203,
+        "index": 25674,
+        "line": 771,
+        "loc": {
+          "end": {
+            "column": 261,
+            "line": 771
+          },
+          "start": {
+            "column": 203,
+            "line": 771
+          }
+        },
+        "message": "Negation reframe found: \"You're not buying traffic. You're buying qualified demand.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          25674,
+          25732
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 262,
+        "index": 25733,
+        "line": 771,
+        "loc": {
+          "end": {
+            "column": 324,
+            "line": 771
+          },
+          "start": {
+            "column": 262,
+            "line": 771
+          }
+        },
+        "message": "Negation reframe found: \"We're not optimizing clicks. We're optimizing discoverability.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          25733,
+          25795
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 25797,
+        "line": 773,
+        "loc": {
+          "end": {
+            "column": 350,
+            "line": 773
+          },
+          "start": {
+            "column": 1,
+            "line": 773
+          }
+        },
+        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          25797,
+          26146
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 86,
+        "index": 25882,
+        "line": 773,
+        "loc": {
+          "end": {
+            "column": 147,
+            "line": 773
+          },
+          "start": {
+            "column": 86,
+            "line": 773
+          }
+        },
+        "message": "Negation reframe found: \"They're not reading pages. They're comparing product records.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          25882,
+          25943
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 86,
+        "index": 25882,
+        "line": 773,
+        "loc": {
+          "end": {
+            "column": 294,
+            "line": 773
+          },
+          "start": {
+            "column": 86,
+            "line": 773
+          }
+        },
+        "message": "Fragment stack found: They're not reading pages. They're comparing product records. He's not the writer. He's the approval layer. She's not the operator. She's the judgment layer. That's not the constraint. That's the opportunity. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          25882,
+          26090
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 148,
+        "index": 25944,
+        "line": 773,
+        "loc": {
+          "end": {
+            "column": 193,
+            "line": 773
+          },
+          "start": {
+            "column": 148,
+            "line": 773
+          }
+        },
+        "message": "Negation reframe found: \"He's not the writer. He's the approval layer.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          25944,
+          25989
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 194,
+        "index": 25990,
+        "line": 773,
+        "loc": {
+          "end": {
+            "column": 243,
+            "line": 773
+          },
+          "start": {
+            "column": 194,
+            "line": 773
+          }
+        },
+        "message": "Negation reframe found: \"She's not the operator. She's the judgment layer.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          25990,
+          26039
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 244,
+        "index": 26040,
+        "line": 773,
+        "loc": {
+          "end": {
+            "column": 294,
+            "line": 773
+          },
+          "start": {
+            "column": 244,
+            "line": 773
+          }
+        },
+        "message": "Negation reframe found: \"That's not the constraint. That's the opportunity.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26040,
+          26090
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 295,
+        "index": 26091,
+        "line": 773,
+        "loc": {
+          "end": {
+            "column": 350,
+            "line": 773
+          },
+          "start": {
+            "column": 295,
+            "line": 773
+          }
+        },
+        "message": "Negation reframe found: \"This isn't a data problem. It's a distribution problem.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26091,
+          26146
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 26148,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 410,
+            "line": 775
+          },
+          "start": {
+            "column": 1,
+            "line": 775
+          }
+        },
+        "message": "Paragraph has 13 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          26148,
+          26557
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 26148,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 410,
+            "line": 775
+          },
+          "start": {
+            "column": 1,
+            "line": 775
+          }
+        },
+        "message": "Word repeated 6 times in one paragraph: \"used\". Keep repeated words to 5 or fewer.",
+        "range": [
+          26148,
+          26557
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 69,
+        "index": 26216,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 123,
+            "line": 775
+          },
+          "start": {
+            "column": 69,
+            "line": 775
+          }
+        },
+        "message": "Negation reframe found: \"It used to be database hygiene. Now it's distribution.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26216,
+          26270
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 124,
+        "index": 26271,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 177,
+            "line": 775
+          },
+          "start": {
+            "column": 124,
+            "line": 775
+          }
+        },
+        "message": "Negation reframe found: \"Indexing used to be plumbing. Now it is distribution.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26271,
+          26324
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 154,
+        "index": 26301,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 398,
+            "line": 775
+          },
+          "start": {
+            "column": 154,
+            "line": 775
+          }
+        },
+        "message": "Repeated sentence starts: 5 nearby sentences start with the same frame (now it is).",
+        "range": [
+          26301,
+          26545
+        ],
+        "ruleId": "repeated-sentence-starts",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 178,
+        "index": 26325,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 230,
+            "line": 775
+          },
+          "start": {
+            "column": 178,
+            "line": 775
+          }
+        },
+        "message": "Negation reframe found: \"The audit used to be compliance. Now it is strategy.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26325,
+          26377
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 231,
+        "index": 26378,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 290,
+            "line": 775
+          },
+          "start": {
+            "column": 231,
+            "line": 775
+          }
+        },
+        "message": "Negation reframe found: \"Product data used to be maintenance. Now it is acquisition.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26378,
+          26437
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 291,
+        "index": 26438,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 352,
+            "line": 775
+          },
+          "start": {
+            "column": 291,
+            "line": 775
+          }
+        },
+        "message": "Negation reframe found: \"The feed used to be infrastructure. Now it is the storefront.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26438,
+          26499
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 353,
+        "index": 26500,
+        "line": 775,
+        "loc": {
+          "end": {
+            "column": 410,
+            "line": 775
+          },
+          "start": {
+            "column": 353,
+            "line": 775
+          }
+        },
+        "message": "Negation reframe found: \"Metadata used to be implementation. Now it is visibility.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26500,
+          26557
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 26588,
+        "line": 779,
+        "loc": {
+          "end": {
+            "column": 442,
+            "line": 779
+          },
+          "start": {
+            "column": 1,
+            "line": 779
+          }
+        },
+        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          26588,
+          27029
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 81,
+        "index": 26668,
+        "line": 779,
+        "loc": {
+          "end": {
+            "column": 151,
+            "line": 779
+          },
+          "start": {
+            "column": 81,
+            "line": 779
+          }
+        },
+        "message": "Negation reframe found: \"Nobody reads your product page anymore. An AI reads your product page.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26668,
+          26738
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 81,
+        "index": 26668,
+        "line": 779,
+        "loc": {
+          "end": {
+            "column": 222,
+            "line": 779
+          },
+          "start": {
+            "column": 81,
+            "line": 779
+          }
+        },
+        "message": "Fragment stack found: Nobody reads your product page anymore. An AI reads your product page. Nobody reads your product page anymore. An AI reads your product feed. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          26668,
+          26809
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 152,
+        "index": 26739,
+        "line": 779,
+        "loc": {
+          "end": {
+            "column": 222,
+            "line": 779
+          },
+          "start": {
+            "column": 152,
+            "line": 779
+          }
+        },
+        "message": "Negation reframe found: \"Nobody reads your product page anymore. An AI reads your product feed.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26739,
+          26809
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 223,
+        "index": 26810,
+        "line": 779,
+        "loc": {
+          "end": {
+            "column": 305,
+            "line": 779
+          },
+          "start": {
+            "column": 223,
+            "line": 779
+          }
+        },
+        "message": "Negation reframe found: \"No one compares the category page any longer. An agent compares the category page.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26810,
+          26892
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 269,
+        "index": 26856,
+        "line": 779,
+        "loc": {
+          "end": {
+            "column": 442,
+            "line": 779
+          },
+          "start": {
+            "column": 269,
+            "line": 779
+          }
+        },
+        "message": "Fragment stack found: An agent compares the category page. Buyers don't search the catalog now. Assistants search the catalog. Customers no longer inspect the listing. Models inspect the listing. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          26856,
+          27029
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 306,
+        "index": 26893,
+        "line": 779,
+        "loc": {
+          "end": {
+            "column": 373,
+            "line": 779
+          },
+          "start": {
+            "column": 306,
+            "line": 779
+          }
+        },
+        "message": "Negation reframe found: \"Buyers don't search the catalog now. Assistants search the catalog.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26893,
+          26960
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 374,
+        "index": 26961,
+        "line": 779,
+        "loc": {
+          "end": {
+            "column": 442,
+            "line": 779
+          },
+          "start": {
+            "column": 374,
+            "line": 779
+          }
+        },
+        "message": "Negation reframe found: \"Customers no longer inspect the listing. Models inspect the listing.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          26961,
+          27029
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 27031,
+        "line": 781,
+        "loc": {
+          "end": {
+            "column": 443,
+            "line": 781
+          },
+          "start": {
+            "column": 1,
+            "line": 781
+          }
+        },
+        "message": "Paragraph has 9 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          27031,
+          27473
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 78,
+        "index": 27108,
+        "line": 781,
+        "loc": {
+          "end": {
+            "column": 146,
+            "line": 781
+          },
+          "start": {
+            "column": 78,
+            "line": 781
+          }
+        },
+        "message": "Negation reframe found: \"Skip a field, and you don't lose the comparison. You never enter it.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          27108,
+          27176
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 127,
+        "index": 27157,
+        "line": 781,
+        "loc": {
+          "end": {
+            "column": 323,
+            "line": 781
+          },
+          "start": {
+            "column": 127,
+            "line": 781
+          }
+        },
+        "message": "Repeated sentence starts: 3 nearby sentences start with the same frame (you never).",
+        "range": [
+          27157,
+          27353
+        ],
+        "ruleId": "repeated-sentence-starts",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 147,
+        "index": 27177,
+        "line": 781,
+        "loc": {
+          "end": {
+            "column": 243,
+            "line": 781
+          },
+          "start": {
+            "column": 147,
+            "line": 781
+          }
+        },
+        "message": "Negation reframe found: \"Omit the attribute, and you don't merely miss one recommendation. You never reach consideration.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          27177,
+          27273
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 244,
+        "index": 27274,
+        "line": 781,
+        "loc": {
+          "end": {
+            "column": 346,
+            "line": 781
+          },
+          "start": {
+            "column": 244,
+            "line": 781
+          }
+        },
+        "message": "Negation reframe found: \"Leave the description blank, and you don't just lose some visibility. You never appear in the results.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          27274,
+          27376
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 347,
+        "index": 27377,
+        "line": 781,
+        "loc": {
+          "end": {
+            "column": 443,
+            "line": 781
+          },
+          "start": {
+            "column": 347,
+            "line": 781
+          }
+        },
+        "message": "Negation reframe found: \"Drop the evidence, and the page doesn't merely miss a ranking. It never qualifies for selection.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          27377,
+          27473
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 27475,
+        "line": 783,
+        "loc": {
+          "end": {
+            "column": 453,
+            "line": 783
+          },
+          "start": {
+            "column": 1,
+            "line": 783
+          }
+        },
+        "message": "Paragraph has 13 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          27475,
+          27927
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 27475,
+        "line": 783,
+        "loc": {
+          "end": {
+            "column": 453,
+            "line": 783
+          },
+          "start": {
+            "column": 1,
+            "line": 783
+          }
+        },
+        "message": "Word repeated 9 times in one paragraph: \"never\". Keep repeated words to 5 or fewer.",
+        "range": [
+          27475,
+          27927
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 66,
+        "index": 27540,
+        "line": 783,
+        "loc": {
+          "end": {
+            "column": 159,
+            "line": 783
+          },
+          "start": {
+            "column": 66,
+            "line": 783
+          }
+        },
+        "message": "Negation reframe found: \"One listing never said how it folds. Gone. Not compared and rejected - never compared at all.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          27540,
+          27633
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 160,
+        "index": 27634,
+        "line": 783,
+        "loc": {
+          "end": {
+            "column": 265,
+            "line": 783
+          },
+          "start": {
+            "column": 160,
+            "line": 783
+          }
+        },
+        "message": "Negation reframe found: \"The product page never mentioned compatibility. Invisible. Not selected or shown - never selected at all.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          27634,
+          27739
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 266,
+        "index": 27740,
+        "line": 783,
+        "loc": {
+          "end": {
+            "column": 366,
+            "line": 783
+          },
+          "start": {
+            "column": 266,
+            "line": 783
+          }
+        },
+        "message": "Negation reframe found: \"The record never explained the warranty. Excluded. Not ranked and recommended - never ranked at all.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          27740,
+          27840
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 367,
+        "index": 27841,
+        "line": 783,
+        "loc": {
+          "end": {
+            "column": 453,
+            "line": 783
+          },
+          "start": {
+            "column": 367,
+            "line": 783
+          }
+        },
+        "message": "Negation reframe found: \"The profile never listed its certification. Omitted. Never considered, never included.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          27841,
+          27927
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 60,
+        "index": 28021,
+        "line": 787,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 787
+          },
+          "start": {
+            "column": 60,
+            "line": 787
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {summaryNoun}.",
+        "range": [
+          28021,
+          28038
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 78,
+        "index": 28039,
+        "line": 787,
+        "loc": {
+          "end": {
+            "column": 97,
+            "line": 787
+          },
+          "start": {
+            "column": 78,
+            "line": 787
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {summaryNoun}.",
+        "range": [
+          28039,
+          28058
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 98,
+        "index": 28059,
+        "line": 787,
+        "loc": {
+          "end": {
+            "column": 123,
+            "line": 787
+          },
+          "start": {
+            "column": 98,
+            "line": 787
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          28059,
+          28084
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 124,
+        "index": 28085,
+        "line": 787,
+        "loc": {
+          "end": {
+            "column": 147,
+            "line": 787
+          },
+          "start": {
+            "column": 124,
+            "line": 787
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          28085,
+          28108
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 93,
+        "index": 28202,
+        "line": 789,
+        "loc": {
+          "end": {
+            "column": 152,
+            "line": 789
+          },
+          "start": {
+            "column": 93,
+            "line": 789
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience} {audienceActivity}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28202,
+          28261
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 153,
+        "index": 28262,
+        "line": 789,
+        "loc": {
+          "end": {
+            "column": 198,
+            "line": 789
+          },
+          "start": {
+            "column": 153,
+            "line": 789
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28262,
+          28307
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 199,
+        "index": 28308,
+        "line": 789,
+        "loc": {
+          "end": {
+            "column": 251,
+            "line": 789
+          },
+          "start": {
+            "column": 199,
+            "line": 789
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28308,
+          28360
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 252,
+        "index": 28361,
+        "line": 789,
+        "loc": {
+          "end": {
+            "column": 295,
+            "line": 789
+          },
+          "start": {
+            "column": 252,
+            "line": 789
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28361,
+          28404
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 28406,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 301,
+            "line": 791
+          },
+          "start": {
+            "column": 1,
+            "line": 791
+          }
+        },
+        "message": "Paragraph has 9 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          28406,
+          28706
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 60,
+        "index": 28465,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 87,
+            "line": 791
+          },
+          "start": {
+            "column": 60,
+            "line": 791
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          28465,
+          28492
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 60,
+        "index": 28465,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 87,
+            "line": 791
+          },
+          "start": {
+            "column": 60,
+            "line": 791
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The prompt is the strategy.\". Reduce repeated short emphasis lines.",
+        "range": [
+          28465,
+          28492
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 60,
+        "index": 28465,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 87,
+            "line": 791
+          },
+          "start": {
+            "column": 60,
+            "line": 791
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28465,
+          28492
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 88,
+        "index": 28493,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 118,
+            "line": 791
+          },
+          "start": {
+            "column": 88,
+            "line": 791
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The dashboard is the decision.\". Reduce repeated short emphasis lines.",
+        "range": [
+          28493,
+          28523
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 88,
+        "index": 28493,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 118,
+            "line": 791
+          },
+          "start": {
+            "column": 88,
+            "line": 791
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28493,
+          28523
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 119,
+        "index": 28524,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 148,
+            "line": 791
+          },
+          "start": {
+            "column": 119,
+            "line": 791
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28524,
+          28553
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 149,
+        "index": 28554,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 181,
+            "line": 791
+          },
+          "start": {
+            "column": 149,
+            "line": 791
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The spreadsheet is the business.\". Reduce repeated short emphasis lines.",
+        "range": [
+          28554,
+          28586
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 149,
+        "index": 28554,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 181,
+            "line": 791
+          },
+          "start": {
+            "column": 149,
+            "line": 791
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28554,
+          28586
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 182,
+        "index": 28587,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 206,
+            "line": 791
+          },
+          "start": {
+            "column": 182,
+            "line": 791
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The index is the market.\". Reduce repeated short emphasis lines.",
+        "range": [
+          28587,
+          28611
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 182,
+        "index": 28587,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 206,
+            "line": 791
+          },
+          "start": {
+            "column": 182,
+            "line": 791
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28587,
+          28611
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 207,
+        "index": 28612,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 232,
+            "line": 791
+          },
+          "start": {
+            "column": 207,
+            "line": 791
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The pipeline is the work.\". Reduce repeated short emphasis lines.",
+        "range": [
+          28612,
+          28637
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 207,
+        "index": 28612,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 232,
+            "line": 791
+          },
+          "start": {
+            "column": 207,
+            "line": 791
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28612,
+          28637
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 233,
+        "index": 28638,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 265,
+            "line": 791
+          },
+          "start": {
+            "column": 233,
+            "line": 791
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The interface is the experience.\". Reduce repeated short emphasis lines.",
+        "range": [
+          28638,
+          28670
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 233,
+        "index": 28638,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 265,
+            "line": 791
+          },
+          "start": {
+            "column": 233,
+            "line": 791
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28638,
+          28670
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 266,
+        "index": 28671,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 301,
+            "line": 791
+          },
+          "start": {
+            "column": 266,
+            "line": 791
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          28671,
+          28706
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 28736,
+        "line": 795,
+        "loc": {
+          "end": {
+            "column": 210,
+            "line": 795
+          },
+          "start": {
+            "column": 1,
+            "line": 795
+          }
+        },
+        "message": "Paragraph has 7 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          28736,
+          28945
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 88,
+        "index": 28823,
+        "line": 795,
+        "loc": {
+          "end": {
+            "column": 126,
+            "line": 795
+          },
+          "start": {
+            "column": 88,
+            "line": 795
+          }
+        },
+        "message": "Negation reframe found: \"I'm no writer. I'm the approval layer.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          28823,
+          28861
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 127,
+        "index": 28862,
+        "line": 795,
+        "loc": {
+          "end": {
+            "column": 145,
+            "line": 795
+          },
+          "start": {
+            "column": 127,
+            "line": 795
+          }
+        },
+        "message": "Demonstrative emphasis found: \"This is no answer.\". Reduce repeated short emphasis lines.",
+        "range": [
+          28862,
+          28880
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 127,
+        "index": 28862,
+        "line": 795,
+        "loc": {
+          "end": {
+            "column": 163,
+            "line": 795
+          },
+          "start": {
+            "column": 127,
+            "line": 795
+          }
+        },
+        "message": "Negation reframe found: \"This is no answer. This is a slogan.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          28862,
+          28898
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 164,
+        "index": 28899,
+        "line": 795,
+        "loc": {
+          "end": {
+            "column": 187,
+            "line": 795
+          },
+          "start": {
+            "column": 164,
+            "line": 795
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          28899,
+          28922
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 164,
+        "index": 28899,
+        "line": 795,
+        "loc": {
+          "end": {
+            "column": 210,
+            "line": 795
+          },
+          "start": {
+            "column": 164,
+            "line": 795
+          }
+        },
+        "message": "Negation reframe found: \"There is no one answer. There is one solution.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          28899,
+          28945
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 82,
+        "index": 29028,
+        "line": 797,
+        "loc": {
+          "end": {
+            "column": 223,
+            "line": 797
+          },
+          "start": {
+            "column": 82,
+            "line": 797
+          }
+        },
+        "message": "Negation reframe found: \"Ask for hiking boots that survive a wet November, and a boot with no waterproofing attribute doesn't lose the comparison. It never enters it.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          29028,
+          29169
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 58,
+        "index": 29228,
+        "line": 799,
+        "loc": {
+          "end": {
+            "column": 180,
+            "line": 799
+          },
+          "start": {
+            "column": 58,
+            "line": 799
+          }
+        },
+        "message": "Negation reframe found: \"The agent isn't matching keywords anymore. It reasons through specifications the way I'd reason through a physics problem.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          29228,
+          29350
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 181,
+        "index": 29351,
+        "line": 799,
+        "loc": {
+          "end": {
+            "column": 246,
+            "line": 799
+          },
+          "start": {
+            "column": 181,
+            "line": 799
+          }
+        },
+        "message": "Negation reframe found: \"It doesn't guess. It reads the attributes, filters, and moves on.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          29351,
+          29416
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 29418,
+        "line": 801,
+        "loc": {
+          "end": {
+            "column": 418,
+            "line": 801
+          },
+          "start": {
+            "column": 1,
+            "line": 801
+          }
+        },
+        "message": "Paragraph has 9 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          29418,
+          29835
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 79,
+        "index": 29496,
+        "line": 801,
+        "loc": {
+          "end": {
+            "column": 107,
+            "line": 801
+          },
+          "start": {
+            "column": 79,
+            "line": 801
+          }
+        },
+        "message": "Generic signposting found: here-is-the-reaction-frame. Replace the frame with the concrete claim.",
+        "range": [
+          29496,
+          29524
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 108,
+        "index": 29525,
+        "line": 801,
+        "loc": {
+          "end": {
+            "column": 189,
+            "line": 801
+          },
+          "start": {
+            "column": 108,
+            "line": 801
+          }
+        },
+        "message": "Negation reframe found: \"An empty field is not sloppy data; it is a door the customer cannot walk through.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          29525,
+          29606
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 108,
+        "index": 29525,
+        "line": 801,
+        "loc": {
+          "end": {
+            "column": 335,
+            "line": 801
+          },
+          "start": {
+            "column": 108,
+            "line": 801
+          }
+        },
+        "message": "Repeated sentence starts: 3 nearby sentences start with the same frame (an empty).",
+        "range": [
+          29525,
+          29752
+        ],
+        "ruleId": "repeated-sentence-starts",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 190,
+        "index": 29607,
+        "line": 801,
+        "loc": {
+          "end": {
+            "column": 241,
+            "line": 801
+          },
+          "start": {
+            "column": 190,
+            "line": 801
+          }
+        },
+        "message": "Negation reframe found: \"The agent wasn't rejecting it. It had never met it.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          29607,
+          29658
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 242,
+        "index": 29659,
+        "line": 801,
+        "loc": {
+          "end": {
+            "column": 326,
+            "line": 801
+          },
+          "start": {
+            "column": 242,
+            "line": 801
+          }
+        },
+        "message": "Negation reframe found: \"An empty field isn't untidy data. It's a market you have politely declined to enter.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          29659,
+          29743
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 327,
+        "index": 29744,
+        "line": 801,
+        "loc": {
+          "end": {
+            "column": 418,
+            "line": 801
+          },
+          "start": {
+            "column": 327,
+            "line": 801
+          }
+        },
+        "message": "Negation reframe found: \"An empty attribute field isn't sloppy data. It's a shelf your product never gets placed on.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          29744,
+          29835
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 53,
+        "index": 29889,
+        "line": 803,
+        "loc": {
+          "end": {
+            "column": 84,
+            "line": 803
+          },
+          "start": {
+            "column": 53,
+            "line": 803
+          }
+        },
+        "message": "Demonstrative emphasis found: \"So the feed is the product now.\". Reduce repeated short emphasis lines.",
+        "range": [
+          29889,
+          29920
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 53,
+        "index": 29889,
+        "line": 803,
+        "loc": {
+          "end": {
+            "column": 84,
+            "line": 803
+          },
+          "start": {
+            "column": 53,
+            "line": 803
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole} now.",
+        "range": [
+          29889,
+          29920
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 85,
+        "index": 29921,
+        "line": 803,
+        "loc": {
+          "end": {
+            "column": 102,
+            "line": 803
+          },
+          "start": {
+            "column": 85,
+            "line": 803
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {summaryNoun}.",
+        "range": [
+          29921,
+          29938
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 29940,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 714,
+            "line": 805
+          },
+          "start": {
+            "column": 1,
+            "line": 805
+          }
+        },
+        "message": "Paragraph has 25 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          29940,
+          30653
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 29940,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 714,
+            "line": 805
+          },
+          "start": {
+            "column": 1,
+            "line": 805
+          }
+        },
+        "message": "Word repeated 7 times in one paragraph: \"reads\". Keep repeated words to 5 or fewer.",
+        "range": [
+          29940,
+          30653
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 111,
+        "index": 30050,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 159,
+            "line": 805
+          },
+          "start": {
+            "column": 111,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It can't guess. It reads the product attributes.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30050,
+          30098
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 127,
+        "index": 30066,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 697,
+            "line": 805
+          },
+          "start": {
+            "column": 127,
+            "line": 805
+          }
+        },
+        "message": "Repeated sentence starts: 7 nearby sentences start with the same frame (it reads).",
+        "range": [
+          30066,
+          30636
+        ],
+        "ruleId": "repeated-sentence-starts",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 160,
+        "index": 30099,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 213,
+            "line": 805
+          },
+          "start": {
+            "column": 160,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It couldn't compare pages. It ranked product records.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30099,
+          30152
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 214,
+        "index": 30153,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 265,
+            "line": 805
+          },
+          "start": {
+            "column": 214,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It hasn't checked the source. It reads the summary.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30153,
+          30204
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 266,
+        "index": 30205,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 321,
+            "line": 805
+          },
+          "start": {
+            "column": 266,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It hadn't inspected the listing. It followed the score.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30205,
+          30260
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 322,
+        "index": 30261,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 380,
+            "line": 805
+          },
+          "start": {
+            "column": 322,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"They haven't reviewed the pages. They compare the records.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30261,
+          30319
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 381,
+        "index": 30320,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 429,
+            "line": 805
+          },
+          "start": {
+            "column": 381,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It mightn't inspect the page. It reads the feed.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30320,
+          30368
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 430,
+        "index": 30369,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 471,
+            "line": 805
+          },
+          "start": {
+            "column": 430,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It mustn't guess. It checks the evidence.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30369,
+          30410
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 472,
+        "index": 30411,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 521,
+            "line": 805
+          },
+          "start": {
+            "column": 472,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It needn't browse the site. It reads the catalog.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30411,
+          30460
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 522,
+        "index": 30461,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 572,
+            "line": 805
+          },
+          "start": {
+            "column": 522,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It shan't inspect the page. It reads the metadata.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30461,
+          30511
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 573,
+        "index": 30512,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 616,
+            "line": 805
+          },
+          "start": {
+            "column": 573,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It shouldn't guess. It follows the ranking.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30512,
+          30555
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 617,
+        "index": 30556,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 661,
+            "line": 805
+          },
+          "start": {
+            "column": 617,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It won't inspect pages. It reads attributes.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30556,
+          30600
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 662,
+        "index": 30601,
+        "line": 805,
+        "loc": {
+          "end": {
+            "column": 714,
+            "line": 805
+          },
+          "start": {
+            "column": 662,
+            "line": 805
+          }
+        },
+        "message": "Negation reframe found: \"It wouldn't inspect pages. It reads product records.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          30601,
+          30653
+        ],
+        "ruleId": "negation-reframe",
         "severity": 2,
         "type": "lint"
       }

@@ -1,3 +1,5 @@
+export { matchReactionFrame } from "./reaction-frame.js";
+
 const ABSTRACT_FRAME_VERBS = ["is", "are", "was", "were"];
 const DISCOURSE_WORK_TAILS = [
   ["doing", "real", "work"],

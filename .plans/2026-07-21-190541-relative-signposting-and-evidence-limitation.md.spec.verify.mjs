@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import ts from "typescript";
 
 const [specPath, category, blockIndexText] = process.argv.slice(2);
@@ -12,6 +12,10 @@ const spec = JSON.parse(readFileSync(specPath, "utf8"));
 const blockIndex = Number.parseInt(blockIndexText, 10);
 
 function importsFor(file) {
+  if (!existsSync(file)) {
+    return [];
+  }
+
   const source = readFileSync(file, "utf8");
   const tree = ts.createSourceFile(file, source, ts.ScriptTarget.Latest, true);
   return tree.statements

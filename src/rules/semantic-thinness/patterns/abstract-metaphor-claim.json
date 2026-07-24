@@ -17,7 +17,39 @@
     "{abstractSubject} {linkingVerb} {infrastructureNoun} with {abstractObject}.",
     "{abstractSubject} behaves like a {filterNoun}.",
     "{artifactSubject} adds another {layerNoun} to {diagnosisObject}.",
-    "{artifactSubject} add another {layerNoun} to {diagnosisObject}."
+    "{artifactSubject} add another {layerNoun} to {diagnosisObject}.",
+    {
+      "text": "{identityArtifact} {linkingVerb} the {artifactRole}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "the {identityArtifact} {linkingVerb} the {artifactRole}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{identityArtifact} {linkingVerb} the {artifactRole} now.",
+      "matchMode": "full"
+    },
+    {
+      "text": "the {identityArtifact} {linkingVerb} the {artifactRole} now.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{audiencePreposition} the {automatedAudience}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{audiencePreposition} the {automatedAudience}, {identityArtifact} {linkingVerb} the {artifactRole}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{audiencePreposition} the {automatedAudience} {audienceActivity}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{audiencePreposition} the {automatedAudience} {audienceActivity}, {identityArtifact} {linkingVerb} the {artifactRole}.",
+      "matchMode": "full"
+    }
   ],
   "slots": {
     "abstractSubject": [
@@ -86,6 +118,56 @@
       "the post",
       "the report",
       "visibility"
+    ],
+    "identityArtifact": [
+      "feed",
+      "page",
+      "prompt",
+      "dashboard",
+      "database",
+      "index",
+      "schema",
+      "metadata",
+      "report",
+      "spreadsheet",
+      "interface",
+      "pipeline",
+      "model",
+      "content"
+    ],
+    "artifactRole": [
+      "product",
+      "strategy",
+      "decision",
+      "answer",
+      "business",
+      "brand",
+      "storefront",
+      "market",
+      "distribution",
+      "experience",
+      "work",
+      "source of truth"
+    ],
+    "audiencePreposition": ["for", "to"],
+    "automatedAudience": [
+      "agent",
+      "ai assistant",
+      "algorithm",
+      "assistant",
+      "crawler",
+      "machine",
+      "model",
+      "ranking system",
+      "recommendation engine",
+      "search agent"
+    ],
+    "audienceActivity": [
+      "choosing the product",
+      "doing the shopping",
+      "making the decision",
+      "ranking the results",
+      "reading the page"
     ],
     "abstractObject": [
       "consequences",

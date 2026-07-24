@@ -13,7 +13,13 @@ export type SemanticThinnessPattern = {
   readonly maxTokens?: number;
   readonly purpose: string;
   readonly slots: Readonly<Record<string, readonly string[]>>;
-  readonly templates: readonly string[];
+  readonly templates: readonly (
+    | string
+    | {
+        readonly matchMode?: string;
+        readonly text: string;
+      }
+  )[];
 };
 
 export type SemanticThinnessMatch = {
@@ -34,6 +40,7 @@ type TemplatePart =
     };
 
 type CompiledTemplate = {
+  readonly matchMode?: "connector" | "contains" | "full" | "suffix";
   readonly parts: readonly TemplatePart[];
   readonly signal: string;
 };
@@ -62,6 +69,7 @@ const REJECT_TOKENS = new Set([
 ]);
 const BROAD_PATTERN_IDS = new Set([
   "abstract-agency-personification",
+  "abstract-metaphor-claim",
   "abstract-personification-line",
   "body-emotion-shorthand",
   "deictic-summary",
@@ -109,17 +117,25 @@ function readSlotName(template: string, start: number): [string, number] {
   return [name, index];
 }
 
-function compileTemplate(template: string): CompiledTemplate {
+function compileTemplate(
+  template:
+    | string
+    | {
+        readonly matchMode?: string;
+        readonly text: string;
+      }
+): CompiledTemplate {
+  const text = typeof template === "string" ? template : template.text;
   const parts: TemplatePart[] = [];
   let literal = "";
   let index = 0;
 
-  while (index < template.length) {
-    const character = template[index];
+  while (index < text.length) {
+    const character = text[index];
     if (character === "{") {
       flushLiteral(parts, literal);
       literal = "";
-      const [name, nextIndex] = readSlotName(template, index);
+      const [name, nextIndex] = readSlotName(text, index);
       parts.push({ kind: "slot", name });
       index = nextIndex;
       continue;
@@ -130,7 +146,18 @@ function compileTemplate(template: string): CompiledTemplate {
   }
 
   flushLiteral(parts, literal);
-  return { parts, signal: template };
+  const matchMode =
+    typeof template !== "string" &&
+    (template.matchMode === "contains" ||
+      template.matchMode === "connector" ||
+      template.matchMode === "full" ||
+      template.matchMode === "suffix")
+      ? template.matchMode
+      : undefined;
+
+  return matchMode === undefined
+    ? { parts, signal: text }
+    : { matchMode, parts, signal: text };
 }
 
 function compileSlotValues(
@@ -234,6 +261,7 @@ function templateMatches(
   template: CompiledTemplate,
   start: number
 ): boolean {
+  const matchMode = template.matchMode ?? pattern.matchMode;
   let positions: readonly number[] = [start];
 
   for (const part of template.parts) {
@@ -245,8 +273,13 @@ function templateMatches(
     }
   }
 
-  if (pattern.matchMode === "contains") {
+  if (matchMode === "contains") {
     return positions.length > 0;
+  }
+  if (matchMode === "connector") {
+    return positions.some((position) =>
+      ["and", "but", "so", "yet"].includes(source[position]?.normalized ?? "")
+    );
   }
 
   return positions.includes(source.length);
@@ -257,7 +290,8 @@ function templateMatchesPattern(
   pattern: CompiledPattern,
   template: CompiledTemplate
 ): boolean {
-  if (pattern.matchMode === "full") {
+  const matchMode = template.matchMode ?? pattern.matchMode;
+  if (matchMode === "full" || matchMode === "connector") {
     return templateMatches(source, pattern, template, 0);
   }
 

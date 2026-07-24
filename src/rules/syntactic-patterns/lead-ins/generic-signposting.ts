@@ -15,6 +15,7 @@ import type { RuleDetection } from "../../types.js";
 import { matchComponentAssignmentFrame } from "./private/component-assignment-frame.js";
 import {
   isAbstractAuditFrame,
+  matchReactionFrame,
   matchDiscourseEvaluationFrame,
   matchExpandedDiscourseFrame
 } from "./private/discourse-evaluation.js";
@@ -120,7 +121,6 @@ const WHAT_MATTERS_CLAUSE_STARTERS = [
   "why"
 ];
 const POINT_NOUNS = ["goal", "job", "key", "point", "takeaway", "trick"];
-
 function matchModifiedAbstractFrame(
   words: readonly string[]
 ): string | undefined {
@@ -199,7 +199,8 @@ function matchAbstractFrame(text: string): string | undefined {
     matchModifiedAbstractFrame(words) ??
     matchDiscourseEvaluationFrame(words) ??
     matchPointIsToFrame(words) ??
-    matchWhatFrame(words)
+    matchWhatFrame(words) ??
+    matchReactionFrame(words)
   );
 }
 

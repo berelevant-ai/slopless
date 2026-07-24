@@ -9,6 +9,10 @@ const blockIndex = Number.parseInt(blockIndexText, 10);
 const block = spec.requirements[category][blockIndex];
 
 function sourceFile(path) {
+  if (!fs.existsSync(path)) {
+    return undefined;
+  }
+
   return ts.createSourceFile(
     path,
     fs.readFileSync(path, "utf8"),
@@ -61,7 +65,9 @@ function verifyDependencies() {
     ts.forEachChild(node, collect);
   }
 
-  collect(file);
+  if (file !== undefined) {
+    collect(file);
+  }
   imports.sort();
   const expected = [...block.required].sort();
   const exact =
@@ -88,8 +94,13 @@ function parameterText(parameter) {
 
 function exportedSignatures(path) {
   const signatures = [];
+  const file = sourceFile(path);
 
-  for (const node of sourceFile(path).statements) {
+  if (file === undefined) {
+    return [];
+  }
+
+  for (const node of file.statements) {
     const exported =
       "modifiers" in node &&
       node.modifiers?.some(

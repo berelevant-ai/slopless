@@ -241,3 +241,49 @@ The accountant simply put a number on invoice 4821.
 The report just put a number on it: 42%.
 
 The report just put a number on it with a red marker.
+
+That is the point guard assigned to Curry.
+
+That's the neighborhood school we use every day.
+
+It's the database migration plan for the billing schema.
+
+This is the report that lists the failed hosts and timestamps.
+
+The liver is the largest solid organ in the human body.
+
+The heart is a muscular organ that pumps blood through the circulatory system.
+
+SKU is the abbreviation for stock keeping unit.
+
+The feed is a JSON file uploaded at 09:00.
+
+The database is a system of tables linked by keys.
+
+The dashboard is the screen mounted on the west wall.
+
+The model is a statistical representation fitted to the sample.
+
+The parser treats the feed as a product array at `/v2/items`.
+
+The report is the decision record signed by Mara on July 3.
+
+The schema became the required format after version 3 shipped.
+
+The index is the numbered list at the back of the book.
+
+The interface is the boundary between the parser and storage module.
+
+The pipeline is the steel pipe that carries water to the tank.
+
+The spreadsheet is the file attached to invoice 4821.
+
+The Stripe dashboard is the product.
+
+The feed is the product catalog uploaded to S3.
+
+The report is the answer generated from audit evidence.
+
+That is the point guard selected in the draft.
+
+That is the report prepared for the board.
