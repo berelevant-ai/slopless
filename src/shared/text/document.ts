@@ -1,11 +1,11 @@
 import type { TxtDocumentNode } from "@textlint/ast-node-types";
-import { allParagraphs } from "./sections.js";
+import { allDocumentParagraphs } from "./sections.js";
 import type { SourceText } from "./traverse.js";
 
 type DocumentParagraph = {
   readonly outputEnd: number;
   readonly outputStart: number;
-  readonly paragraph: ReturnType<typeof allParagraphs>[number];
+  readonly paragraph: ReturnType<typeof allDocumentParagraphs>[number];
   readonly trimStart: number;
 };
 
@@ -18,7 +18,7 @@ export function documentSourceText(document: TxtDocumentNode): SourceText {
   const textParts: string[] = [];
   let outputStart = 0;
 
-  for (const paragraph of allParagraphs(document)) {
+  for (const paragraph of allDocumentParagraphs(document)) {
     const text = paragraph.text.trim();
     if (text.length === 0) {
       continue;

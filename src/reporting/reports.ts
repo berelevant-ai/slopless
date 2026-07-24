@@ -225,6 +225,9 @@ export function reportsForPolicy(
           message: "",
           range: unit?.sourceRangeFor(detection.range) ?? detection.range,
           ruleId: detection.ruleId,
+          ...(policy.severity === undefined
+            ? {}
+            : { severity: policy.severity }),
           unitId: detection.unitId
         };
       });

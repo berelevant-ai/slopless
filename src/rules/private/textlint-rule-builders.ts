@@ -19,7 +19,7 @@ import type {
   SourceRange,
   TextUnit
 } from "../types.js";
-import type { RuleReport } from "../../reporting/types.js";
+import type { ReportSeverity, RuleReport } from "../../reporting/types.js";
 
 export type LocalDetection = {
   readonly data?: Readonly<Record<string, boolean | number | string>>;
@@ -49,6 +49,7 @@ type DetectionRuleInput<Options extends object> = {
   readonly formatMessage: (report: RuleReport) => string;
   readonly ignoredAncestorTypes?: readonly string[];
   readonly ruleId: RuleId;
+  readonly severity?: ReportSeverity;
   readonly unitKind: UnitKind;
 };
 
@@ -78,7 +79,10 @@ export function oneToOneRule<Options extends object = Record<string, never>>(
   return defineTextlintRule({
     detector: detector(input),
     formatMessage: input.formatMessage,
-    reportPolicy: { kind: "one-to-one" },
+    reportPolicy: {
+      kind: "one-to-one",
+      ...(input.severity === undefined ? {} : { severity: input.severity })
+    },
     units: (document) => {
       switch (input.unitKind) {
         case "document":

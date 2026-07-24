@@ -36,10 +36,21 @@ function normalizeNode(node: AnyTxtNode, includeImageAlt: boolean): AnyTxtNode {
     (node.type === "Image" || node.type === "ImageReference") &&
     !includeImageAlt
   ) {
+    const alt = "alt" in node && typeof node.alt === "string" ? node.alt : "";
     return {
       ...node,
       type: "Str",
-      value: ""
+      value: " ".repeat(alt.length)
+    } satisfies TxtStrNode;
+  }
+
+  if (node.type === "Code" && !includeImageAlt) {
+    const value =
+      "value" in node && typeof node.value === "string" ? node.value : "";
+    return {
+      ...node,
+      type: "Str",
+      value: " ".repeat(value.length)
     } satisfies TxtStrNode;
   }
 

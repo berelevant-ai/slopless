@@ -16,7 +16,7 @@
             "line": 3
           }
         },
-        "message": "Coleman-Liau is 13. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 13.99. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 43.77. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 29.32. Keep it at 61 or higher.",
         "range": [
           26,
           27
@@ -62,7 +62,7 @@
             "line": 3
           }
         },
-        "message": "Gunning Fog is 13.64. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 16.2. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -597,6 +597,75 @@
           1259
         ],
         "ruleId": "colon-dramatic",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 17,
+        "index": 1437,
+        "line": 61,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 61
+          },
+          "start": {
+            "column": 17,
+            "line": 61
+          }
+        },
+        "message": "Paragraph has 2 exclamation marks. Keep at most 1.",
+        "range": [
+          1437,
+          1438
+        ],
+        "ruleId": "exclamation-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 20,
+        "index": 1568,
+        "line": 67,
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 67
+          },
+          "start": {
+            "column": 20,
+            "line": 67
+          }
+        },
+        "message": "Smart quotes found: \"“”\". Replace curly quotes with straight quotes.",
+        "range": [
+          1568,
+          1577
+        ],
+        "ruleId": "smart-quotes",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 19,
+        "index": 1848,
+        "line": 77,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 77
+          },
+          "start": {
+            "column": 19,
+            "line": 77
+          }
+        },
+        "message": "Closed em dash found. Replace it with a comma, colon, parenthesis, or spaced dash.",
+        "range": [
+          1848,
+          1849
+        ],
+        "ruleId": "em-dashes",
         "severity": 2,
         "type": "lint"
       },
@@ -9067,7 +9136,42 @@
       {
         "column": 112,
         "data": {
-          "message": "\"quietly\" used 14 times (2.8 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              111,
+              118
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 30791,
+        "line": 809,
+        "loc": {
+          "end": {
+            "column": 119,
+            "line": 809
+          },
+          "start": {
+            "column": 112,
+            "line": 809
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          30791,
+          30798
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 112,
+        "data": {
+          "message": "\"quietly\" used 127 times (20.5 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -9090,13 +9194,2556 @@
             "line": 809
           }
         },
-        "message": "\"quietly\" used 14 times (2.8 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 127 times (20.5 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           30791,
           30798
         ],
         "ruleId": "quietly-overuse",
         "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 159,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              158,
+              165
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 30838,
+        "line": 809,
+        "loc": {
+          "end": {
+            "column": 166,
+            "line": 809
+          },
+          "start": {
+            "column": 159,
+            "line": 809
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          30838,
+          30845
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 209,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              208,
+              215
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 30888,
+        "line": 809,
+        "loc": {
+          "end": {
+            "column": 216,
+            "line": 809
+          },
+          "start": {
+            "column": 209,
+            "line": 809
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          30888,
+          30895
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 260,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              259,
+              266
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 30939,
+        "line": 809,
+        "loc": {
+          "end": {
+            "column": 267,
+            "line": 809
+          },
+          "start": {
+            "column": 260,
+            "line": 809
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          30939,
+          30946
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 308,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              307,
+              314
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 30987,
+        "line": 809,
+        "loc": {
+          "end": {
+            "column": 315,
+            "line": 809
+          },
+          "start": {
+            "column": 308,
+            "line": 809
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          30987,
+          30994
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 63,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              62,
+              69
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 31089,
+        "line": 811,
+        "loc": {
+          "end": {
+            "column": 70,
+            "line": 811
+          },
+          "start": {
+            "column": 63,
+            "line": 811
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          31089,
+          31096
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 110,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              109,
+              116
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 31136,
+        "line": 811,
+        "loc": {
+          "end": {
+            "column": 117,
+            "line": 811
+          },
+          "start": {
+            "column": 110,
+            "line": 811
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          31136,
+          31143
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 167,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              166,
+              173
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 31193,
+        "line": 811,
+        "loc": {
+          "end": {
+            "column": 174,
+            "line": 811
+          },
+          "start": {
+            "column": 167,
+            "line": 811
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          31193,
+          31200
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 264,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              263,
+              270
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 31290,
+        "line": 811,
+        "loc": {
+          "end": {
+            "column": 271,
+            "line": 811
+          },
+          "start": {
+            "column": 264,
+            "line": 811
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          31290,
+          31297
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              17,
+              24
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 31891,
+        "line": 821,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 821
+          },
+          "start": {
+            "column": 18,
+            "line": 821
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          31891,
+          31898
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 26,
+        "index": 31899,
+        "line": 821,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 821
+          },
+          "start": {
+            "column": 26,
+            "line": 821
+          }
+        },
+        "message": "Prohibited word found: \"transformative\". Rewrite without this term.",
+        "range": [
+          31899,
+          31913
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              20,
+              27
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 31936,
+        "line": 823,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 823
+          },
+          "start": {
+            "column": 21,
+            "line": 823
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          31936,
+          31943
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 22,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              21,
+              28
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 31989,
+        "line": 825,
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 825
+          },
+          "start": {
+            "column": 22,
+            "line": 825
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          31989,
+          31996
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              20,
+              27
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32033,
+        "line": 827,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 827
+          },
+          "start": {
+            "column": 21,
+            "line": 827
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          32033,
+          32040
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 16,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              15,
+              22
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32066,
+        "line": 829,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 829
+          },
+          "start": {
+            "column": 16,
+            "line": 829
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          32066,
+          32073
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 23,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              22,
+              29
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32112,
+        "line": 831,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 831
+          },
+          "start": {
+            "column": 23,
+            "line": 831
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          32112,
+          32119
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 15,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              14,
+              21
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32256,
+        "line": 835,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 835
+          },
+          "start": {
+            "column": 15,
+            "line": 835
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          32256,
+          32263
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 27,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              26,
+              33
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32309,
+        "line": 837,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 837
+          },
+          "start": {
+            "column": 27,
+            "line": 837
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          32309,
+          32316
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              20,
+              27
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32356,
+        "line": 839,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 839
+          },
+          "start": {
+            "column": 21,
+            "line": 839
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          32356,
+          32363
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 9,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              8,
+              15
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32380,
+        "line": 841,
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 841
+          },
+          "start": {
+            "column": 9,
+            "line": 841
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          32380,
+          32387
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 16,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              15,
+              22
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32429,
+        "line": 843,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 843
+          },
+          "start": {
+            "column": 16,
+            "line": 843
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          32429,
+          32436
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              17,
+              24
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32466,
+        "line": 845,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 845
+          },
+          "start": {
+            "column": 18,
+            "line": 845
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          32466,
+          32473
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 17,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              16,
+              23
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32575,
+        "line": 849,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 849
+          },
+          "start": {
+            "column": 17,
+            "line": 849
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          32575,
+          32582
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              17,
+              24
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32626,
+        "line": 851,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 851
+          },
+          "start": {
+            "column": 18,
+            "line": 851
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          32626,
+          32633
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              20,
+              27
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32678,
+        "line": 853,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 853
+          },
+          "start": {
+            "column": 21,
+            "line": 853
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          32678,
+          32685
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 23,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              22,
+              29
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32722,
+        "line": 855,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 855
+          },
+          "start": {
+            "column": 23,
+            "line": 855
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          32722,
+          32729
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 16,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              15,
+              22
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32756,
+        "line": 857,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 857
+          },
+          "start": {
+            "column": 16,
+            "line": 857
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          32756,
+          32763
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              17,
+              24
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32804,
+        "line": 859,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 859
+          },
+          "start": {
+            "column": 18,
+            "line": 859
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          32804,
+          32811
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 23,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              22,
+              29
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 32955,
+        "line": 863,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 863
+          },
+          "start": {
+            "column": 23,
+            "line": 863
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          32955,
+          32962
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 16,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              15,
+              22
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33007,
+        "line": 865,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 865
+          },
+          "start": {
+            "column": 16,
+            "line": 865
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          33007,
+          33014
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 22,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              21,
+              28
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33066,
+        "line": 867,
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 867
+          },
+          "start": {
+            "column": 22,
+            "line": 867
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          33066,
+          33073
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 25,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              24,
+              31
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33125,
+        "line": 869,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 869
+          },
+          "start": {
+            "column": 25,
+            "line": 869
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          33125,
+          33132
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              20,
+              27
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33181,
+        "line": 871,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 871
+          },
+          "start": {
+            "column": 21,
+            "line": 871
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          33181,
+          33188
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 17,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              16,
+              23
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33242,
+        "line": 873,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 873
+          },
+          "start": {
+            "column": 17,
+            "line": 873
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          33242,
+          33249
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 15,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              14,
+              21
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33367,
+        "line": 877,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 877
+          },
+          "start": {
+            "column": 15,
+            "line": 877
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          33367,
+          33374
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 20,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              19,
+              26
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33420,
+        "line": 879,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 879
+          },
+          "start": {
+            "column": 20,
+            "line": 879
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          33420,
+          33427
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              11,
+              18
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33470,
+        "line": 881,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 881
+          },
+          "start": {
+            "column": 12,
+            "line": 881
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          33470,
+          33477
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              17,
+              24
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33528,
+        "line": 883,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 883
+          },
+          "start": {
+            "column": 18,
+            "line": 883
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          33528,
+          33535
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              11,
+              18
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33572,
+        "line": 885,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 885
+          },
+          "start": {
+            "column": 12,
+            "line": 885
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          33572,
+          33579
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              17,
+              24
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33636,
+        "line": 887,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 887
+          },
+          "start": {
+            "column": 18,
+            "line": 887
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          33636,
+          33643
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              0,
+              7
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33762,
+        "line": 891,
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 891
+          },
+          "start": {
+            "column": 1,
+            "line": 891
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+        "range": [
+          33762,
+          33769
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 9,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              8,
+              15
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33780,
+        "line": 893,
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 893
+          },
+          "start": {
+            "column": 9,
+            "line": 893
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+        "range": [
+          33780,
+          33787
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 23,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              22,
+              29
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33812,
+        "line": 895,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 895
+          },
+          "start": {
+            "column": 23,
+            "line": 895
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+        "range": [
+          33812,
+          33819
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 27,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              26,
+              33
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33848,
+        "line": 897,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 897
+          },
+          "start": {
+            "column": 27,
+            "line": 897
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+        "range": [
+          33848,
+          33855
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 25,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              24,
+              31
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33882,
+        "line": 899,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 899
+          },
+          "start": {
+            "column": 25,
+            "line": 899
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+        "range": [
+          33882,
+          33889
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 33,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              32,
+              39
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 33924,
+        "line": 901,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 901
+          },
+          "start": {
+            "column": 33,
+            "line": 901
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+        "range": [
+          33924,
+          33931
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              11,
+              18
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 34015,
+        "line": 905,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 905
+          },
+          "start": {
+            "column": 12,
+            "line": 905
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          34015,
+          34022
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 51,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              50,
+              57
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 34054,
+        "line": 905,
+        "loc": {
+          "end": {
+            "column": 58,
+            "line": 905
+          },
+          "start": {
+            "column": 51,
+            "line": 905
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          34054,
+          34061
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 17,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              16,
+              23
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37116,
+        "line": 997,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 997
+          },
+          "start": {
+            "column": 17,
+            "line": 997
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          37116,
+          37123
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 19,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              18,
+              25
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37157,
+        "line": 999,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 999
+          },
+          "start": {
+            "column": 19,
+            "line": 999
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          37157,
+          37164
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 9,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              8,
+              15
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37195,
+        "line": 1001,
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 1001
+          },
+          "start": {
+            "column": 9,
+            "line": 1001
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          37195,
+          37202
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              17,
+              24
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37245,
+        "line": 1003,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 1003
+          },
+          "start": {
+            "column": 18,
+            "line": 1003
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37245,
+          37252
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              12,
+              19
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37289,
+        "line": 1005,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1005
+          },
+          "start": {
+            "column": 13,
+            "line": 1005
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37289,
+          37296
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 7,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              6,
+              13
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37328,
+        "line": 1007,
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 1007
+          },
+          "start": {
+            "column": 7,
+            "line": 1007
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37328,
+          37335
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 27,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              26,
+              33
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37403,
+        "line": 1009,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 1009
+          },
+          "start": {
+            "column": 27,
+            "line": 1009
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37403,
+          37410
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 10,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              9,
+              16
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37450,
+        "line": 1011,
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1011
+          },
+          "start": {
+            "column": 10,
+            "line": 1011
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37450,
+          37457
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              12,
+              19
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37495,
+        "line": 1013,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1013
+          },
+          "start": {
+            "column": 13,
+            "line": 1013
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37495,
+          37502
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              20,
+              27
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37540,
+        "line": 1015,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1015
+          },
+          "start": {
+            "column": 21,
+            "line": 1015
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37540,
+          37547
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              20,
+              27
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37591,
+        "line": 1017,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1017
+          },
+          "start": {
+            "column": 21,
+            "line": 1017
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37591,
+          37598
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 16,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              15,
+              22
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37622,
+        "line": 1019,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 1019
+          },
+          "start": {
+            "column": 16,
+            "line": 1019
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          37622,
+          37629
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              17,
+              24
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37775,
+        "line": 1023,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 1023
+          },
+          "start": {
+            "column": 18,
+            "line": 1023
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          37775,
+          37782
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 24,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              23,
+              30
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37826,
+        "line": 1025,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 1025
+          },
+          "start": {
+            "column": 24,
+            "line": 1025
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          37826,
+          37833
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              11,
+              18
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37904,
+        "line": 1027,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1027
+          },
+          "start": {
+            "column": 12,
+            "line": 1027
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          37904,
+          37911
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 10,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              9,
+              16
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 37954,
+        "line": 1029,
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1029
+          },
+          "start": {
+            "column": 10,
+            "line": 1029
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          37954,
+          37961
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              12,
+              19
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 38011,
+        "line": 1031,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1031
+          },
+          "start": {
+            "column": 13,
+            "line": 1031
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          38011,
+          38018
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 28,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              27,
+              34
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 38077,
+        "line": 1033,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 1033
+          },
+          "start": {
+            "column": 28,
+            "line": 1033
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+        "range": [
+          38077,
+          38084
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              20,
+              27
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 38141,
+        "line": 1035,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1035
+          },
+          "start": {
+            "column": 21,
+            "line": 1035
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (detached-emphasis). Name the concrete change or remove the adverb.",
+        "range": [
+          38141,
+          38148
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 30,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              29,
+              36
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 38180,
+        "line": 1037,
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 1037
+          },
+          "start": {
+            "column": 30,
+            "line": 1037
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          38180,
+          38187
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 47,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              46,
+              53
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 39513,
+        "line": 1073,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 1073
+          },
+          "start": {
+            "column": 47,
+            "line": 1073
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          39513,
+          39520
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 35,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              34,
+              41
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 39564,
+        "line": 1075,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1075
+          },
+          "start": {
+            "column": 35,
+            "line": 1075
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          39564,
+          39571
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              12,
+              19
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 39605,
+        "line": 1077,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1077
+          },
+          "start": {
+            "column": 13,
+            "line": 1077
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          39605,
+          39612
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              12,
+              19
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 39667,
+        "line": 1079,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1079
+          },
+          "start": {
+            "column": 13,
+            "line": 1079
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (hidden-harm). Name the concrete change or remove the adverb.",
+        "range": [
+          39667,
+          39674
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 41,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              40,
+              47
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 39753,
+        "line": 1081,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 1081
+          },
+          "start": {
+            "column": 41,
+            "line": 1081
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (unannounced-trend). Name the concrete change or remove the adverb.",
+        "range": [
+          39753,
+          39760
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 14,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              11,
+              18
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 39802,
+        "line": 1083,
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1083
+          },
+          "start": {
+            "column": 14,
+            "line": 1083
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
+        "range": [
+          39802,
+          39809
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
         "type": "lint"
       }
     ]
