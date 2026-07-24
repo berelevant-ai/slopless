@@ -20,7 +20,7 @@
 - Anti-automation: none specified.
 - Proposed entry (UPCOMING.md, then graduates to Markdown Lint section):
   ```
-  **slopless** (github: [seochecks-ai/slopless](https://github.com/seochecks-ai/slopless), npm: [slopless](https://www.npmjs.com/package/slopless)) - Deterministic textlint rules and CLI for catching AI-generated prose patterns (slop) in Markdown. TypeScript, MIT.
+  **slopless** (github: [berelevant-ai/slopless](https://github.com/berelevant-ai/slopless), npm: [slopless](https://www.npmjs.com/package/slopless)) - Deterministic textlint rules and CLI for catching AI-generated prose patterns (slop) in Markdown. TypeScript, MIT.
   ```
 - Notes: Active daily. Perfect topical fit — slopless IS a markdown lint/style rule checker for prose slop. Add to UPCOMING.md per their 2026 policy.
 
@@ -36,8 +36,8 @@
 - Proposed entry (in `data/apps.csv`, then category set to Writing):
   ```
   name: slopless
-  homepage: https://github.com/seochecks-ai/slopless
-  git: https://github.com/seochecks-ai/slopless.git
+  homepage: https://github.com/berelevant-ai/slopless
+  git: https://github.com/berelevant-ai/slopless.git
   description: Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown files.
   category: writing
   ```
@@ -62,7 +62,7 @@
 - Anti-automation: not stated, but "Failure to follow this point means the PR will be closed without being looked at." — be strict.
 - Proposed entry (when eligible):
   ```
-  - [slopless](https://github.com/seochecks-ai/slopless) - Deterministic textlint rules for catching AI-generated prose slop in Markdown.
+  - [slopless](https://github.com/berelevant-ai/slopless) - Deterministic textlint rules for catching AI-generated prose slop in Markdown.
   ```
 - Notes: Highest-traffic CLI awesome list. Wait until 2026-08-14, then submit.
 
@@ -77,7 +77,7 @@
 - Anti-automation: none stated.
 - Proposed entry (alphabetical, after "Readable.io"):
   ```
-  - **[Slopless](https://github.com/seochecks-ai/slopless):** Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown. Catches AI-writing patterns (filler phrases, hedging, generic openings) that grammar checkers miss.
+  - **[Slopless](https://github.com/berelevant-ai/slopless):** Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown. Catches AI-writing patterns (filler phrases, hedging, generic openings) that grammar checkers miss.
   ```
 - Notes: Perfect topical fit. Slopless sits next to Alex, Markdownlint, write-good. Recent merges show maintainer is active.
 
@@ -96,7 +96,7 @@
 - Anti-automation: none stated.
 - Proposed entry (in DISCOVERIES.md):
   ```
-  - [slopless](https://github.com/seochecks-ai/slopless) - Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown.
+  - [slopless](https://github.com/berelevant-ai/slopless) - Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown.
   ```
 - Notes: Submit to Discoveries today. May graduate to Main List later if slopless crosses 1k stars.
 
@@ -111,7 +111,7 @@
 - Anti-automation: none stated.
 - Proposed entry (Developer tools, alphabetical):
   ```
-  - [slopless](https://github.com/seochecks-ai/slopless) - Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown.
+  - [slopless](https://github.com/berelevant-ai/slopless) - Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown.
   ```
 - Notes: Marginal-strong. Maintainer accepts broadly. Send PR.
 
@@ -124,7 +124,7 @@
 - Submission rules: needs investigation
 - Inclusion bar: needs investigation
 - Anti-automation: needs investigation
-- Proposed entry: `- [slopless](https://github.com/seochecks-ai/slopless) - Deterministic textlint rules for catching AI prose slop in Markdown.`
+- Proposed entry: `- [slopless](https://github.com/berelevant-ai/slopless) - Deterministic textlint rules for catching AI prose slop in Markdown.`
 - Notes: Very active list. Verify CONTRIBUTING and structure before submitting.
 
 ---
@@ -147,7 +147,7 @@
 - Anti-automation: implicit (sindresorhus is strict on quality).
 - Proposed entry (if accepted, likely Mad science):
   ```
-  - [slopless](https://github.com/seochecks-ai/slopless) - Catch AI-generated prose slop in Markdown via deterministic textlint rules.
+  - [slopless](https://github.com/berelevant-ai/slopless) - Catch AI-generated prose slop in Markdown via deterministic textlint rules.
   ```
 - Notes: WAIT until July (submission pause lifts) AND until 2026-06-16 (30-day age). Even then, expect deflection to awesome-cli-apps. Probability of acceptance is low; consider skipping.
 
@@ -187,8 +187,8 @@
   license: MIT
   types:
       - cli
-  source: "https://github.com/seochecks-ai/slopless"
-  homepage: "https://github.com/seochecks-ai/slopless"
+  source: "https://github.com/berelevant-ai/slopless"
+  homepage: "https://github.com/berelevant-ai/slopless"
   description: Deterministic textlint rules and CLI for catching AI-generated prose patterns (slop) in Markdown documents.
   ```
 - Notes: Submit on or after 2026-08-16 (3 months after 2026-05-16 creation). Excellent peer set (alex, proselint, vale, textlint).
@@ -208,7 +208,7 @@
 - Anti-automation: none stated.
 - Proposed entry:
   ```
-  * [Slopless](https://github.com/seochecks-ai/slopless) - Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown documentation.
+  * [Slopless](https://github.com/berelevant-ai/slopless) - Deterministic textlint rules and CLI for catching AI-generated prose slop in Markdown documentation.
   ```
 - Why marginal: slopless is more "lint/CI tool" than a writing assistant per se, but the list does include LanguageTool, Antidote, and HemingwayApp. Fits.
 
@@ -223,9 +223,9 @@
 - Anti-automation: none stated.
 - Proposed entry:
   ```
-  - [slopless](https://github.com/seochecks-ai/slopless) - Open-source textlint rules and CLI to catch AI-generated prose patterns in Markdown content.
+  - [slopless](https://github.com/berelevant-ai/slopless) - Open-source textlint rules and CLI to catch AI-generated prose patterns in Markdown content.
   ```
-- Why marginal: slopless's owner is `seochecks-ai`, so an SEO angle is plausible, but slopless itself is presented as a general prose linter, not an SEO tool. List would accept; topical fit is honest-but-not-perfect.
+- Why marginal: slopless's owner is `berelevant-ai`, so an SEO angle is plausible, but slopless itself is presented as a general prose linter, not an SEO tool. List would accept; topical fit is honest-but-not-perfect.
 
 ### mapersmusic/awesome-ai-detection
 - Repo: https://github.com/mapersmusic/awesome-ai-detection
@@ -238,7 +238,7 @@
 - Anti-automation: none.
 - Proposed entry:
   ```
-  - [Slopless](https://github.com/seochecks-ai/slopless) - Open-source deterministic textlint rules and CLI for detecting AI-generated prose patterns in Markdown.
+  - [Slopless](https://github.com/berelevant-ai/slopless) - Open-source deterministic textlint rules and CLI for detecting AI-generated prose patterns in Markdown.
   ```
 - Why marginal: list is brand new with near-zero signal. Submission costs little; signal returned is also low. Submit only if zero-effort.
 

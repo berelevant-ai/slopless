@@ -1,6 +1,6 @@
 # Editorial venues - slopless
 
-Pitching `slopless` (https://github.com/seochecks-ai/slopless): MIT, TypeScript textlint rules + CLI that flag AI-generated prose tells (em-dash floods, "delve into", weasel hedges, etc.). 351 stars, published as npm `slopless`.
+Pitching `slopless` (https://github.com/berelevant-ai/slopless): MIT, TypeScript textlint rules + CLI that flag AI-generated prose tells (em-dash floods, "delve into", weasel hedges, etc.). 351 stars, published as npm `slopless`.
 
 Verified May 2026. Submission URLs change frequently - test before sending.
 
@@ -263,7 +263,7 @@ Core pitch lines:
   ```
   Hi HN, I built slopless because review comments on AI-assisted PRs kept missing the obvious tells - em-dash floods, "delve into", weasel hedges, "it's worth noting", etc. It's a textlint plugin + CLI; rules are deterministic, configurable, MIT. Not a classifier - just heuristics that catch the specific patterns. Works in CI for docs/blog repos.
   
-  Repo: https://github.com/seochecks-ai/slopless
+  Repo: https://github.com/berelevant-ai/slopless
   npm: slopless
   
   Happy to discuss false positive tradeoffs, why deterministic > ML for this use case, etc.

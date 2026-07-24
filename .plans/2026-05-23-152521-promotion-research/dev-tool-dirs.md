@@ -1,6 +1,6 @@
 # Developer tool directories — slopless
 
-Research date: 2026-05-23. slopless = textlint rules + CLI for catching AI-generated prose patterns in Markdown. TypeScript, MIT, 351 GitHub stars. npm package: `slopless`. Repo: https://github.com/seochecks-ai/slopless.
+Research date: 2026-05-23. slopless = textlint rules + CLI for catching AI-generated prose patterns in Markdown. TypeScript, MIT, 351 GitHub stars. npm package: `slopless`. Repo: https://github.com/berelevant-ai/slopless.
 
 Honest framing up front: slopless is an OSS CLI / textlint plugin for prose. It is NOT a SaaS, NOT consumer software, NOT an AI tool with a hosted UI. That kills 70% of the "directory" universe (SaaSHub, G2, Capterra, BetaList, Slant, AlternativeTo, Product Hunt are all weak fits). The high-value placements are GitHub `awesome-*` lists and the textlint plugin registry, where engineers actually look for linters. Generic directory listings are SEO/backlink plays at best.
 

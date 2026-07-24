@@ -1,6 +1,8 @@
 # Goal
 
-Move Slopless from `agent-quality-controls/slopless` to `seochecks-ai/slopless` with clean public references, matching repository settings, and a minimal `seochecks-ai` organization profile.
+Move Slopless from its previous GitHub organization to
+`berelevant-ai/slopless` with clean public references, matching repository
+settings, and a minimal `berelevant-ai` organization profile.
 
 # Approach
 
@@ -9,9 +11,9 @@ Move Slopless from `agent-quality-controls/slopless` to `seochecks-ai/slopless` 
    - `package.json`
    - `.github/ISSUE_TEMPLATE/config.yml`
    - `.github/CONTRIBUTING.md`
-2. Keep historical plans, worklogs, and fixture golden paths unchanged.
-3. Create `seochecks-ai/.github` because the new organization has no profile repository.
-4. Transfer `agent-quality-controls/slopless` to `seochecks-ai/slopless`.
+2. Keep unrelated historical plans and worklogs unchanged.
+3. Create `berelevant-ai/.github` because the new organization has no profile repository.
+4. Transfer the Slopless repository to `berelevant-ai/slopless`.
 5. Update the local `origin` remote to the new GitHub URL.
 6. Verify repository metadata after transfer:
    - issues enabled
@@ -27,9 +29,10 @@ Move Slopless from `agent-quality-controls/slopless` to `seochecks-ai/slopless` 
 # Key Decisions
 
 - Do not move the local working tree in this migration. Fixture golden output currently contains absolute local file paths. Moving the folder would create unrelated fixture churn.
-- Do not rewrite historical `.plans` or `.worklogs`. Those describe past repository locations and should remain historical records.
+- Do not rewrite unrelated historical `.plans` or `.worklogs`. Those describe
+  past repository locations and should remain historical records.
 - Keep Guardrail3 links pointing to `agent-quality-controls/guardrail3` until that dependency is actually moved.
-- Use this branding line in public copy: `Developed by seochecks.ai to keep content specific, useful, and recognizably human.`
+- Use this branding line in public copy: `Developed by berelevant.ai to keep content specific, useful, and recognizably human.`
 
 # Files To Modify
 
@@ -37,7 +40,7 @@ Move Slopless from `agent-quality-controls/slopless` to `seochecks-ai/slopless` 
 - `package.json`
 - `.github/ISSUE_TEMPLATE/config.yml`
 - `.github/CONTRIBUTING.md`
-- `.plans/2026-05-21-114145-seochecks-ai-migration.md`
-- `.plans/2026-05-21-114145-seochecks-ai-migration.md.manifest.toml`
-- `.plans/verify-2026-05-21-114145-seochecks-ai-migration.sh`
-- `.worklogs/<timestamp>-seochecks-ai-migration.md`
+- `.plans/2026-05-21-114145-berelevant-ai-migration.md`
+- `.plans/2026-05-21-114145-berelevant-ai-migration.md.manifest.toml`
+- `.plans/verify-2026-05-21-114145-berelevant-ai-migration.sh`
+- `.worklogs/<timestamp>-berelevant-ai-migration.md`

@@ -36,7 +36,7 @@ Execution path:
 
 ## What slopless is (facts for the copy, all verified)
 
-- npm `slopless@0.2.21` (live), MIT, repo `seochecks-ai/slopless`.
+- npm `slopless@0.2.21` (live), MIT, repo `berelevant-ai/slopless`.
 - Description: "Deterministic textlint rules and CLI for catching prose slop in English Markdown."
 - By textlint taxonomy it is a **preset**: `src/index.ts` default-exports `{ rules, rulesConfig }`,
   and the CLI loads it via `--preset slopless`. It bundles 50+ rules (README: "50+ deterministic textlint rules").
@@ -69,7 +69,7 @@ My recommendation: **Option A** (discovery is the point of this campaign; the pe
 Entry text (identical for A or B; the wiki format is `#### [name](url)` then a blank line then the description):
 
 ```markdown
-#### [slopless](https://github.com/seochecks-ai/slopless)
+#### [slopless](https://github.com/berelevant-ai/slopless)
 
 Deterministic rules plus a CLI that flag prose slop in English Markdown - the tells of LLM-written and padded human text, such as em-dash floods, hedging, weasel phrases, boilerplate framing, and empty closers. No model calls; runs in CI or locally and emits JSON findings.
 ```
@@ -84,7 +84,7 @@ and before the section's `----` separator. Context from the live page:
 
 A textlint rule that detects russified spellings of Ukrainian geographical and personal names.
 
-#### [slopless](https://github.com/seochecks-ai/slopless)        <-- INSERTED
+#### [slopless](https://github.com/berelevant-ai/slopless)        <-- INSERTED
 
 Deterministic rules plus a CLI that flag prose slop in English Markdown - the tells of LLM-written and padded human text, such as em-dash floods, hedging, weasel phrases, boilerplate framing, and empty closers. No model calls; runs in CI or locally and emits JSON findings.    <-- INSERTED
 
@@ -137,7 +137,7 @@ This makes the wiki preset listing non-hollow. Passed prettier + cspell.
 Final entry (replaces the `- [ ] Welcome to Pull Request` placeholder under `### Rule Presets: English`):
 
 ```markdown
-#### [slopless](https://github.com/seochecks-ai/slopless)
+#### [slopless](https://github.com/berelevant-ai/slopless)
 
 Give it to your writing agent and it stops handing you AI-slop prose. Slopless is a deterministic linter - a textlint preset and a zero-config CLI - that flags the LLM tells (hollow framing, fake contrasts, hedging, em-dash tics, vacuous closers, and many more) so the agent rewrites until the text reads human. No model calls, no API key. Enable with `"preset-slopless": true`, or run `npx slopless`.
 

@@ -1,0 +1,142 @@
+{
+  "requirements": {
+    "content": [
+      {
+        "files": [
+          "**/*.cjs",
+          "**/*.js",
+          "**/*.json",
+          "**/*.md",
+          "**/*.mjs",
+          "**/*.sh",
+          "**/*.toml",
+          "**/*.ts",
+          "**/*.txt",
+          "**/*.yaml",
+          "**/*.yml"
+        ],
+        "forbidden": [
+          "seochecks\u002dai",
+          "seochecks\u002eai"
+        ],
+        "reason": "Tracked text files contain neither the previous GitHub owner nor the previous public brand domain.",
+        "verifier": [
+          "builtin:content"
+        ]
+      },
+      {
+        "files": [
+          "package.json"
+        ],
+        "reason": "Published npm metadata points to the renamed organization and public brand.",
+        "required": [
+          "\"version\": \"0.2.26\"",
+          "\"author\": \"berelevant.ai (https://berelevant.ai)\"",
+          "git+https://github.com/berelevant-ai/slopless.git",
+          "https://github.com/berelevant-ai/slopless#readme",
+          "https://github.com/berelevant-ai/slopless/issues"
+        ],
+        "verifier": [
+          "builtin:content"
+        ]
+      },
+      {
+        "files": [
+          "README.md"
+        ],
+        "reason": "The README badge, wiki links, and company attribution use the renamed organization and brand.",
+        "required": [
+          "berelevant-ai%2Fslopless",
+          "https://github.com/berelevant-ai/slopless/wiki/Philosophy",
+          "https://github.com/berelevant-ai/slopless/wiki/Comparison",
+          "https://github.com/berelevant-ai/slopless/wiki/Rules",
+          "https://github.com/berelevant-ai/slopless/wiki/Behavior",
+          "https://github.com/berelevant-ai/slopless/wiki/Ignore-Rules",
+          "https://github.com/berelevant-ai/slopless/wiki/Thanks",
+          "https://berelevant.ai"
+        ],
+        "verifier": [
+          "builtin:content"
+        ]
+      },
+      {
+        "files": [
+          ".github/CONTRIBUTING.md"
+        ],
+        "reason": "Contributor setup clones the repository from the renamed organization.",
+        "required": [
+          "git clone https://github.com/berelevant-ai/slopless.git"
+        ],
+        "verifier": [
+          "builtin:content"
+        ]
+      },
+      {
+        "files": [
+          ".github/ISSUE_TEMPLATE/config.yml"
+        ],
+        "reason": "The issue template links to Discussions under the renamed organization.",
+        "required": [
+          "https://github.com/berelevant-ai/slopless/discussions"
+        ],
+        "verifier": [
+          "builtin:content"
+        ]
+      },
+      {
+        "files": [
+          "ROADMAP.md"
+        ],
+        "reason": "The roadmap links to Issues under the renamed organization.",
+        "required": [
+          "https://github.com/berelevant-ai/slopless/issues"
+        ],
+        "verifier": [
+          "builtin:content"
+        ]
+      },
+      {
+        "files": [
+          "scripts/behavior-replay.sh"
+        ],
+        "reason": "The project runner emits repository-relative fixture paths so Fixture3 output is stable across worktrees.",
+        "required": [
+          "--arg root \"$ROOT/\"",
+          "startswith($root)"
+        ],
+        "verifier": [
+          "builtin:content"
+        ]
+      },
+      {
+        "files": [
+          "behavior/golden/**/*.json"
+        ],
+        "forbidden": [
+          "/Users/tartakovsky/Projects/agent-quality-controls/slopless/"
+        ],
+        "reason": "Approved Fixture3 output contains no machine-specific repository path.",
+        "verifier": [
+          "builtin:content"
+        ]
+      }
+    ],
+    "tree": {
+      "forbidden": [
+        "**/*seochecks\u002dai*",
+        "**/*seochecks\u002eai*"
+      ],
+      "reason": "No tracked path carries the previous GitHub owner or public brand.",
+      "required": [
+        ".plans/2026-05-21-114145-berelevant-ai-migration.md",
+        ".plans/2026-05-21-114145-berelevant-ai-migration.md.manifest.toml",
+        ".plans/verify-2026-05-21-114145-berelevant-ai-migration.sh",
+        ".worklogs/2026-05-21-114427-berelevant-ai-migration.md"
+      ],
+      "verifier": [
+        "builtin:tree"
+      ]
+    }
+  },
+  "version": 4
+}
