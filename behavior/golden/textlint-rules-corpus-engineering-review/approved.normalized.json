@@ -4,47 +4,24 @@
     "messages": [
       {
         "column": 1,
-        "index": 0,
-        "line": 1,
+        "index": 28,
+        "line": 3,
         "loc": {
           "end": {
             "column": 2,
-            "line": 1
+            "line": 3
           },
           "start": {
             "column": 1,
-            "line": 1
+            "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 55.88. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 57.5. Keep it at 61 or higher.",
         "range": [
-          0,
-          1
+          28,
+          29
         ],
         "ruleId": "flesch-kincaid",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 0,
-        "line": 1,
-        "loc": {
-          "end": {
-            "column": 2,
-            "line": 1
-          },
-          "start": {
-            "column": 1,
-            "line": 1
-          }
-        },
-        "message": "Gunning Fog is 12.01. Keep it at 12 or lower.",
-        "range": [
-          0,
-          1
-        ],
-        "ruleId": "gunning-fog",
         "severity": 2,
         "type": "lint"
       },
@@ -4416,6 +4393,41 @@
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 72,
+        "data": {
+          "message": "\"quietly\" used 12 times (1.3 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              19314,
+              19321
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 19314,
+        "line": 475,
+        "loc": {
+          "end": {
+            "column": 79,
+            "line": 475
+          },
+          "start": {
+            "column": 72,
+            "line": 475
+          }
+        },
+        "message": "\"quietly\" used 12 times (1.3 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          19314,
+          19321
+        ],
+        "ruleId": "quietly-overuse",
+        "severity": 1,
         "type": "lint"
       },
       {
@@ -10832,6 +10844,742 @@
           51253
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 78,
+        "index": 52229,
+        "line": 1125,
+        "loc": {
+          "end": {
+            "column": 109,
+            "line": 1125
+          },
+          "start": {
+            "column": 78,
+            "line": 1125
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          52229,
+          52260
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 110,
+        "index": 52261,
+        "line": 1125,
+        "loc": {
+          "end": {
+            "column": 142,
+            "line": 1125
+          },
+          "start": {
+            "column": 110,
+            "line": 1125
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          52261,
+          52293
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 143,
+        "index": 52294,
+        "line": 1125,
+        "loc": {
+          "end": {
+            "column": 172,
+            "line": 1125
+          },
+          "start": {
+            "column": 143,
+            "line": 1125
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          52294,
+          52323
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 44,
+        "index": 52368,
+        "line": 1127,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 1127
+          },
+          "start": {
+            "column": 44,
+            "line": 1127
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          52368,
+          52401
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 78,
+        "index": 52402,
+        "line": 1127,
+        "loc": {
+          "end": {
+            "column": 114,
+            "line": 1127
+          },
+          "start": {
+            "column": 78,
+            "line": 1127
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          52402,
+          52438
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 115,
+        "index": 52439,
+        "line": 1127,
+        "loc": {
+          "end": {
+            "column": 159,
+            "line": 1127
+          },
+          "start": {
+            "column": 115,
+            "line": 1127
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          52439,
+          52483
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 72,
+        "index": 52556,
+        "line": 1129,
+        "loc": {
+          "end": {
+            "column": 104,
+            "line": 1129
+          },
+          "start": {
+            "column": 72,
+            "line": 1129
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {weakMannerAdverb} {emptyChangeObject}.",
+        "range": [
+          52556,
+          52588
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 105,
+        "index": 52589,
+        "line": 1129,
+        "loc": {
+          "end": {
+            "column": 137,
+            "line": 1129
+          },
+          "start": {
+            "column": 105,
+            "line": 1129
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {weakMannerAdverb} {emptyChangeObject}.",
+        "range": [
+          52589,
+          52621
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 85,
+        "index": 52707,
+        "line": 1131,
+        "loc": {
+          "end": {
+            "column": 111,
+            "line": 1131
+          },
+          "start": {
+            "column": 85,
+            "line": 1131
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          52707,
+          52733
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 85,
+        "index": 52707,
+        "line": 1131,
+        "loc": {
+          "end": {
+            "column": 208,
+            "line": 1131
+          },
+          "start": {
+            "column": 85,
+            "line": 1131
+          }
+        },
+        "message": "Flat action cadence: 4 adjacent short simple sentences use subject-action beats (shift). Vary the rhythm or add causal/sensory development.",
+        "range": [
+          52707,
+          52830
+        ],
+        "ruleId": "flat-action-cadence",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 112,
+        "index": 52734,
+        "line": 1131,
+        "loc": {
+          "end": {
+            "column": 142,
+            "line": 1131
+          },
+          "start": {
+            "column": 112,
+            "line": 1131
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          52734,
+          52764
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 143,
+        "index": 52765,
+        "line": 1131,
+        "loc": {
+          "end": {
+            "column": 172,
+            "line": 1131
+          },
+          "start": {
+            "column": 143,
+            "line": 1131
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          52765,
+          52794
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 173,
+        "index": 52795,
+        "line": 1131,
+        "loc": {
+          "end": {
+            "column": 208,
+            "line": 1131
+          },
+          "start": {
+            "column": 173,
+            "line": 1131
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          52795,
+          52830
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "index": 52877,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 82,
+            "line": 1133
+          },
+          "start": {
+            "column": 46,
+            "line": 1133
+          }
+        },
+        "message": "Generic signposting found: the-important-shift-is. Replace the frame with the concrete claim.",
+        "range": [
+          52877,
+          52913
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "index": 52877,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 82,
+            "line": 1133
+          },
+          "start": {
+            "column": 46,
+            "line": 1133
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          52877,
+          52913
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "index": 52877,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 192,
+            "line": 1133
+          },
+          "start": {
+            "column": 46,
+            "line": 1133
+          }
+        },
+        "message": "Flat action cadence: 4 adjacent short simple sentences use subject-action beats (shift). Vary the rhythm or add causal/sensory development.",
+        "range": [
+          52877,
+          53023
+        ],
+        "ruleId": "flat-action-cadence",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 83,
+        "index": 52914,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 123,
+            "line": 1133
+          },
+          "start": {
+            "column": 83,
+            "line": 1133
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          52914,
+          52954
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 124,
+        "index": 52955,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 153,
+            "line": 1133
+          },
+          "start": {
+            "column": 124,
+            "line": 1133
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          52955,
+          52984
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 154,
+        "index": 52985,
+        "line": 1133,
+        "loc": {
+          "end": {
+            "column": 192,
+            "line": 1133
+          },
+          "start": {
+            "column": 154,
+            "line": 1133
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          52985,
+          53023
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 65,
+        "index": 53089,
+        "line": 1135,
+        "loc": {
+          "end": {
+            "column": 92,
+            "line": 1135
+          },
+          "start": {
+            "column": 65,
+            "line": 1135
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "range": [
+          53089,
+          53116
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 65,
+        "index": 53089,
+        "line": 1135,
+        "loc": {
+          "end": {
+            "column": 189,
+            "line": 1135
+          },
+          "start": {
+            "column": 65,
+            "line": 1135
+          }
+        },
+        "message": "Flat action cadence: 4 adjacent short simple sentences use subject-action beats (shift). Vary the rhythm or add causal/sensory development.",
+        "range": [
+          53089,
+          53213
+        ],
+        "ruleId": "flat-action-cadence",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 93,
+        "index": 53117,
+        "line": 1135,
+        "loc": {
+          "end": {
+            "column": 122,
+            "line": 1135
+          },
+          "start": {
+            "column": 93,
+            "line": 1135
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "range": [
+          53117,
+          53146
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 98,
+        "index": 53122,
+        "line": 1135,
+        "loc": {
+          "end": {
+            "column": 121,
+            "line": 1135
+          },
+          "start": {
+            "column": 98,
+            "line": 1135
+          }
+        },
+        "message": "Cliche found: \"signals a seismic shift\". Replace it with specific wording.",
+        "range": [
+          53122,
+          53145
+        ],
+        "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 123,
+        "index": 53147,
+        "line": 1135,
+        "loc": {
+          "end": {
+            "column": 158,
+            "line": 1135
+          },
+          "start": {
+            "column": 123,
+            "line": 1135
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "range": [
+          53147,
+          53182
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 159,
+        "index": 53183,
+        "line": 1135,
+        "loc": {
+          "end": {
+            "column": 189,
+            "line": 1135
+          },
+          "start": {
+            "column": 159,
+            "line": 1135
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "range": [
+          53183,
+          53213
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 88,
+        "index": 53302,
+        "line": 1137,
+        "loc": {
+          "end": {
+            "column": 116,
+            "line": 1137
+          },
+          "start": {
+            "column": 88,
+            "line": 1137
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {weakMannerAdverb} {finiteChange}.",
+        "range": [
+          53302,
+          53330
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 117,
+        "index": 53331,
+        "line": 1137,
+        "loc": {
+          "end": {
+            "column": 144,
+            "line": 1137
+          },
+          "start": {
+            "column": 117,
+            "line": 1137
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {weakMannerAdverb} {finiteChange}.",
+        "range": [
+          53331,
+          53358
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 145,
+        "index": 53359,
+        "line": 1137,
+        "loc": {
+          "end": {
+            "column": 179,
+            "line": 1137
+          },
+          "start": {
+            "column": 145,
+            "line": 1137
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          53359,
+          53393
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 67,
+        "index": 53461,
+        "line": 1139,
+        "loc": {
+          "end": {
+            "column": 100,
+            "line": 1139
+          },
+          "start": {
+            "column": 67,
+            "line": 1139
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {perfectAuxiliary} {weakMannerAdverb} {pastChange}.",
+        "range": [
+          53461,
+          53494
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 101,
+        "index": 53495,
+        "line": 1139,
+        "loc": {
+          "end": {
+            "column": 131,
+            "line": 1139
+          },
+          "start": {
+            "column": 101,
+            "line": 1139
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {perfectAuxiliary} {weakMannerAdverb} {pastChange}.",
+        "range": [
+          53495,
+          53525
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 132,
+        "index": 53526,
+        "line": 1139,
+        "loc": {
+          "end": {
+            "column": 159,
+            "line": 1139
+          },
+          "start": {
+            "column": 132,
+            "line": 1139
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {finiteChange} {weakMannerAdverb}.",
+        "range": [
+          53526,
+          53553
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 50,
+        "index": 54648,
+        "line": 1151,
+        "loc": {
+          "end": {
+            "column": 198,
+            "line": 1151
+          },
+          "start": {
+            "column": 50,
+            "line": 1151
+          }
+        },
+        "message": "Flat action cadence: 3 adjacent short simple sentences use subject-action beats (shift). Vary the rhythm or add causal/sensory development.",
+        "range": [
+          54648,
+          54796
+        ],
+        "ruleId": "flat-action-cadence",
         "severity": 2,
         "type": "lint"
       }

@@ -284,6 +284,50 @@ The feed is the product catalog uploaded to S3.
 
 The report is the answer generated from audit evidence.
 
+The nurse carefully shifted the tray toward the patient.
+
+Please shift slowly so the baby stays asleep.
+
+The agency formally removed rule 14 on July 1.
+
+The transmission shifted smoothly after the mechanic replaced the worn bearing.
+
+The market shifted 3 points after the rate announcement.
+
+The team shifted the launch from Monday to Thursday.
+
+Search is quietly changing from keyword matching to vector retrieval.
+
+The web is gradually moving from HTTP/1.1 to HTTP/2.
+
+The platform is steadily processing 40 events per second.
+
+The system explicitly changed the retry limit from 3 to 5.
+
+A major shift from desktop to mobile cut support calls.
+
+The night shift begins at 22:00.
+
+Press Shift while clicking the second row.
+
+This marks a 4-point shift in the survey.
+
+That reflects the shift from cash to card payments.
+
+The structural shift in tax law took effect on July 1.
+
+The platform subtly evolves after each weekly model update.
+
+The market quietly shifted 3 points after the rate announcement.
+
+The web was silently transforming 40 records per second.
+
+The industry has quietly changed from annual contracts to monthly plans.
+
+The model had quietly changed from version 2 to version 3.
+
+The system shifted quietly after the operator replaced the worn bearing.
+
 That is the point guard selected in the draft.
 
 That is the report prepared for the board.

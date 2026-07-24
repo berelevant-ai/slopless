@@ -1,8 +1,6 @@
-import { defineTextlintRule } from "../../adapters/textlint/rule.js";
-import { documentUnit } from "../../adapters/textlint/units.js";
 import { ERROR_SEVERITY } from "../../reporting/density.js";
 import type { RuleId } from "../types.js";
-import { wordTokens } from "../../shared/text/tokens.js";
+import { defineExactTokenDensityRule } from "./private/token-density-rule.js";
 
 // The rule only detects occurrences of "actually" - one detection per use, no counting,
 // rate, or severity. The density-rate report policy below lets the reporter judge the
@@ -12,23 +10,8 @@ import { wordTokens } from "../../shared/text/tokens.js";
 const TARGET = "actually";
 const RULE_ID = "words:actually-overuse" satisfies RuleId;
 
-const rule = defineTextlintRule({
-  detector: {
-    detect: ({ units }) =>
-      units.flatMap((unit) =>
-        wordTokens(unit.text)
-          .filter((token) => token.normalized === TARGET)
-          .map((token) => ({
-            evidence: TARGET,
-            label: TARGET,
-            range: { end: token.end, start: token.start },
-            ruleId: RULE_ID,
-            unitId: unit.id
-          }))
-      ),
-    family: "words",
-    id: RULE_ID
-  },
+const rule = defineExactTokenDensityRule({
+  errorPerUnit: 2,
   formatMessage: (report) => {
     const count = report.metric?.["count"] ?? report.detections.length;
     const perUnit = report.metric?.["perUnit"] ?? 0;
@@ -39,15 +22,11 @@ const rule = defineTextlintRule({
 
     return `"actually" used ${count} times (${perUnit} per 1,000 words), ${threshold}. Cut the filler uses; keep at most about one per 1,000 words.`;
   },
-  reportPolicy: {
-    errorPerUnit: 2,
-    kind: "density-rate",
-    minimumOccurrences: 2,
-    scope: "document",
-    warningPerUnit: 1,
-    wordsPerUnit: 1000
-  },
-  units: (document) => [documentUnit(document)]
+  minimumOccurrences: 2,
+  ruleId: RULE_ID,
+  target: TARGET,
+  warningPerUnit: 1,
+  wordsPerUnit: 1000
 });
 
 export default rule;

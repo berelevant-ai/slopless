@@ -2,14 +2,36 @@
   "id": "something-shifted",
   "class": "vague-change",
   "purpose": "Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change.",
-  "matchMode": "contains",
+  "matchMode": "full",
   "maxTokens": 80,
   "templates": [
-    "{genericSubject} {changeVerb}.",
-    "{genericSubject} had {changeVerb}.",
-    "{genericSubject} in {abstractContainer} had {changeVerb}.",
-    "{concreteSubject} did not {changeVerb}, but {genericSubject} in it did.",
-    "{genericSubject} {changeVerb} when {genericSubject} {abstractAction}."
+    {
+      "text": "{genericSubject} {changeVerb}.",
+      "matchMode": "contains"
+    },
+    {
+      "text": "{genericSubject} had {changeVerb}.",
+      "matchMode": "contains"
+    },
+    {
+      "text": "{genericSubject} in {abstractContainer} had {changeVerb}.",
+      "matchMode": "contains"
+    },
+    {
+      "text": "{concreteSubject} did not {changeVerb}, but {genericSubject} in it did.",
+      "matchMode": "contains"
+    },
+    {
+      "text": "{genericSubject} {changeVerb} when {genericSubject} {abstractAction}.",
+      "matchMode": "contains"
+    },
+    "{diffuseSubject} {weakMannerAdverb} {finiteChange}.",
+    "{diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+    "{diffuseSubject} {perfectAuxiliary} {weakMannerAdverb} {pastChange}.",
+    "{diffuseSubject} {finiteChange} {weakMannerAdverb}.",
+    "{deicticSubject} {weakMannerAdverb} {emptyChangeObject}.",
+    "{shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+    "{deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift."
   ],
   "slots": {
     "genericSubject": [
@@ -45,7 +67,103 @@
       "chose differently",
       "named the truth",
       "let go"
-    ]
+    ],
+    "diffuseSubject": [
+      "the market",
+      "the industry",
+      "search",
+      "the web",
+      "the landscape",
+      "the platform",
+      "the system",
+      "the process",
+      "the conversation",
+      "the work",
+      "the strategy",
+      "the model",
+      "the product",
+      "the category",
+      "the space"
+    ],
+    "progressiveAuxiliary": ["is", "was", "has been", "had been"],
+    "perfectAuxiliary": ["has", "had"],
+    "weakMannerAdverb": [
+      "quietly",
+      "silently",
+      "subtly",
+      "gradually",
+      "steadily",
+      "almost invisibly",
+      "under the surface"
+    ],
+    "finiteChange": [
+      "changes",
+      "shifts",
+      "evolves",
+      "transforms",
+      "reshapes",
+      "redefines",
+      "moves",
+      "changed",
+      "shifted",
+      "evolved",
+      "transformed",
+      "reshaped",
+      "redefined",
+      "moved"
+    ],
+    "pastChange": [
+      "changed",
+      "shifted",
+      "evolved",
+      "transformed",
+      "reshaped",
+      "redefined",
+      "moved"
+    ],
+    "progressiveChange": [
+      "changing",
+      "shifting",
+      "evolving",
+      "transforming",
+      "reshaping",
+      "redefining",
+      "moving"
+    ],
+    "deicticSubject": ["this", "that", "it"],
+    "emptyChangeObject": [
+      "changes everything",
+      "changes the game",
+      "changes the equation",
+      "reshapes everything",
+      "redefines everything"
+    ],
+    "shiftDeterminer": ["a", "the", "this", "that"],
+    "shiftModifier": [
+      "quiet",
+      "subtle",
+      "broader",
+      "meaningful",
+      "important",
+      "major",
+      "fundamental",
+      "seismic",
+      "structural",
+      "profound",
+      "significant",
+      "notable"
+    ],
+    "emptyShiftPredicate": [
+      "is underway",
+      "is happening",
+      "has begun",
+      "is already here",
+      "is easy to miss",
+      "is hard to ignore",
+      "matters",
+      "changes everything"
+    ],
+    "signalVerb": ["marks", "signals", "represents", "reflects"]
   },
   "rejectIf": [
     "sentence names what changed",

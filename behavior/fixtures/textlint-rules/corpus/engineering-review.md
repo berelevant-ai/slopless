@@ -1119,3 +1119,37 @@ The technician continued by naming materials and locations. This is a stainless 
 The last two lines pointed to objects on the bench. There is the best part on the workbench. Here is the largest bearing in the gearbox.
 
 The review closed with four ordinary identifications that reused the allowed adjective and noun slots. Here is the best part of the movie. That is a remarkable piece of Renaissance sculpture. This is the important point on the map. Here is the key element in the periodic table.
+
+## Vague change review
+
+The editor rejected a sequence of announcements that never named the change. The market is quietly shifting. The industry is subtly evolving. Search is gradually changing.
+
+The same draft continued without evidence. The web is silently transforming. The landscape is steadily reshaping. The platform is almost invisibly redefining.
+
+The next draft replaced the subjects with pointers but remained empty. This quietly changes everything. That subtly reshapes everything.
+
+The conclusion repeated the same claim through modified versions of the word shift. A quiet shift is underway. The subtle shift is happening. This broader shift has begun. A meaningful shift is already here.
+
+The modifiers changed but the claim did not. The important shift is easy to miss. The fundamental shift is hard to ignore. The structural shift matters. The profound shift changes everything.
+
+Four final sentences presented the shift as their own evidence. This marks a broader shift. That signals a seismic shift. This represents a meaningful shift. This reflects a notable shift.
+
+The remaining draft varied tense and adverb position without adding a concrete change. The platform subtly evolves. The market quietly shifted. The web was silently transforming.
+
+The last three versions used perfect forms and a trailing adverb. The industry has quietly changed. The model had quietly changed. The system shifted quietly.
+
+## Concrete change controls
+
+The hospital and workshop notes described physical movement. The nurse carefully shifted the tray toward the patient. Please shift slowly so the baby stays asleep. The transmission shifted smoothly after the mechanic replaced the worn bearing.
+
+The policy, market, and launch records named dates, measurements, and destinations. The agency formally removed rule 14 on July 1. The market shifted 3 points after the rate announcement. The team shifted the launch from Monday to Thursday.
+
+The technical summaries named both the change and its boundary. Search is quietly changing from keyword matching to vector retrieval. The web is gradually moving from HTTP/1.1 to HTTP/2. The platform is steadily processing 40 events per second. The system explicitly changed the retry limit from 3 to 5.
+
+The remaining controls used shift as a measured change, a work period, or a keyboard key. A major shift from desktop to mobile cut support calls. The night shift begins at 22:00. Press Shift while clicking the second row.
+
+The final records named the measured transition. This marks a 4-point shift in the survey. That reflects the shift from cash to card payments. The structural shift in tax law took effect on July 1.
+
+The grammatical controls kept the same verb forms but supplied measurements, causes, or before-and-after states. The platform subtly evolves after each weekly model update. The market quietly shifted 3 points after the rate announcement. The web was silently transforming 40 records per second.
+
+The final controls named both endpoints or the physical cause. The industry has quietly changed from annual contracts to monthly plans. The model had quietly changed from version 2 to version 3. The system shifted quietly after the operator replaced the worn bearing.

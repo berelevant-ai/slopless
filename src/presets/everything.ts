@@ -42,6 +42,7 @@ export const everything = {
     "perception-verb-density": true,
     "prohibited-phrases": true,
     "prohibited-words": true,
+    "quietly-overuse": true,
     "recommended-terms": true,
     redundancy: true,
     "repeated-predicate-end": true,

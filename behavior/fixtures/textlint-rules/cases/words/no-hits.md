@@ -39,3 +39,5 @@ The AI-native file format stores model metadata in the header.
 The label says the wood finish is authentic shellac.
 
 The city report says the water supply is sustainable under the drought model.
+
+The nurse closed the door quietly so the patient could sleep.

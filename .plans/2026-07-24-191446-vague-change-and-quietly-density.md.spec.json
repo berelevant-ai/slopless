@@ -1,0 +1,252 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "Unanimous extraction: implementation, fixture, corpus, and approved behavior files",
+      "required": [
+        "src/rules/semantic-thinness/patterns/something-shifted.json",
+        "src/rules/semantic-thinness/private/pattern-matcher.ts",
+        "src/adapters/textlint/units.ts",
+        "src/shared/text/document.ts",
+        "src/shared/text/sections.ts",
+        "src/shared/text/traverse.ts",
+        "src/rules/words/private/token-density-rule.ts",
+        "src/rules/words/actually-overuse.ts",
+        "src/rules/words/quietly-overuse.ts",
+        "src/registries/words.ts",
+        "src/presets/everything.ts",
+        "package.json",
+        "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md",
+        "behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md",
+        "behavior/fixtures/textlint-rules/cases/words/quietly-below-minimum.md",
+        "behavior/fixtures/textlint-rules/cases/words/quietly-overuse.md",
+        "behavior/fixtures/textlint-rules/cases/words/quietly-warning-rate.md",
+        "behavior/fixtures/textlint-rules/cases/words/quietly-at-rate-boundary.md",
+        "behavior/fixtures/textlint-rules/cases/words/quietly-hard-break.md",
+        "behavior/fixtures/textlint-rules/cases/words/no-hits.md",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.md",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.preserve.json",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.preserve.json",
+        "behavior/golden/textlint-rules-cases-semantic-thinness/approved.normalized.json",
+        "behavior/golden/textlint-rules-cases-words/approved.normalized.json",
+        "behavior/golden/textlint-rules-cases-orthography/approved.normalized.json",
+        "behavior/golden/textlint-rules-corpus-engineering-review/approved.normalized.json",
+        "behavior/golden/textlint-rules-corpus-editorial-style/approved.normalized.json",
+        "behavior/golden/textlint-rules-corpus-health-and-parenting/approved.normalized.json",
+        "behavior/golden/textlint-rules-corpus-linkedin-ai-search/approved.normalized.json",
+        "behavior/golden/textlint-rules-corpus-metrics-and-markdown/approved.normalized.json",
+        "behavior/golden/textlint-rules-corpus-narrative-scenes/approved.normalized.json",
+        "behavior/golden/textlint-rules-corpus-technical-terminology/approved.normalized.json"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": [
+          "src/rules/semantic-thinness/patterns/something-shifted.json"
+        ],
+        "reason": "Approach 1-3: extend the existing full-match pattern with the declared slot inventories",
+        "required": [
+          "\"id\": \"something-shifted\"",
+          "\"matchMode\": \"full\"",
+          "\"diffuseSubject\"",
+          "\"weakMannerAdverb\"",
+          "\"finiteChange\"",
+          "\"pastChange\"",
+          "\"progressiveChange\"",
+          "\"progressiveAuxiliary\"",
+          "\"perfectAuxiliary\"",
+          "\"shiftModifier\"",
+          "\"emptyShiftPredicate\"",
+          "\"the market\"",
+          "\"the industry\"",
+          "\"search\"",
+          "\"the web\"",
+          "\"the landscape\"",
+          "\"the platform\"",
+          "\"the system\"",
+          "\"the process\"",
+          "\"the conversation\"",
+          "\"the work\"",
+          "\"the strategy\"",
+          "\"the model\"",
+          "\"the product\"",
+          "\"the category\"",
+          "\"the space\"",
+          "\"quietly\"",
+          "\"silently\"",
+          "\"subtly\"",
+          "\"gradually\"",
+          "\"steadily\"",
+          "\"almost invisibly\"",
+          "\"under the surface\"",
+          "\"changes\"",
+          "\"shifts\"",
+          "\"evolves\"",
+          "\"transforms\"",
+          "\"reshapes\"",
+          "\"redefines\"",
+          "\"moves\"",
+          "\"changing\"",
+          "\"shifting\"",
+          "\"evolving\"",
+          "\"transforming\"",
+          "\"reshaping\"",
+          "\"redefining\"",
+          "\"moving\"",
+          "\"quiet\"",
+          "\"subtle\"",
+          "\"broader\"",
+          "\"meaningful\"",
+          "\"important\"",
+          "\"major\"",
+          "\"fundamental\"",
+          "\"seismic\"",
+          "\"structural\"",
+          "\"profound\"",
+          "\"significant\"",
+          "\"notable\"",
+          "\"is underway\"",
+          "\"is happening\"",
+          "\"has begun\"",
+          "\"is already here\"",
+          "\"is easy to miss\"",
+          "\"is hard to ignore\"",
+          "\"matters\"",
+          "\"changes everything\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/semantic-thinness/private/pattern-matcher.ts"],
+        "reason": "Approach 1: allow typed per-template match-mode overrides while preserving string templates",
+        "required": [
+          "readonly text: string",
+          "readonly matchMode",
+          "template.matchMode === \"contains\"",
+          "template.matchMode === \"connector\"",
+          "template.matchMode === \"full\"",
+          "template.matchMode === \"suffix\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/adapters/textlint/units.ts"],
+        "reason": "Approach 7: map document-level detections through textlint source offsets",
+        "required": [
+          "const source = documentSourceText(document)",
+          "source.originalStartFor(range.start)",
+          "source.originalEndFor(range.end)"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/shared/text/document.ts"],
+        "reason": "Approach 7: preserve paragraph-only document text while mapping it to Markdown source",
+        "required": [
+          "documentSourceText",
+          "originalOffsetFor",
+          "paragraph.source.originalStartFor",
+          "paragraph.source.originalEndFor"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/shared/text/sections.ts"],
+        "reason": "Approach 7: derive paragraph text and source positions from one representation",
+        "required": [
+          "const source = proseSourceText(paragraph)",
+          "text: source.text"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/shared/text/traverse.ts"],
+        "reason": "Approach 7: preserve a mapped separator for Markdown hard breaks",
+        "required": [
+          "normalizeNode",
+          "node.type === \"Break\"",
+          "value: \" \"",
+          "proseSourceText",
+          "node.type === \"Image\"",
+          "node.type === \"ImageReference\"",
+          "node.type === \"Html\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/private/token-density-rule.ts"],
+        "reason": "Approach 4-5: private exact-token document-density construction",
+        "required": [
+          "defineTextlintRule",
+          "documentUnit",
+          "wordTokens",
+          "minimumOccurrences",
+          "warningPerUnit",
+          "errorPerUnit",
+          "wordsPerUnit"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/actually-overuse.ts"],
+        "reason": "Approach 4: preserve actually-overuse through the private builder",
+        "required": [
+          "./private/token-density-rule.js",
+          "\"actually\"",
+          "\"words:actually-overuse\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/quietly-overuse.ts"],
+        "reason": "Approach 5: configure quietly density and its public identity",
+        "required": [
+          "./private/token-density-rule.js",
+          "\"quietly\"",
+          "\"words:quietly-overuse\"",
+          "minimumOccurrences: 4",
+          "warningPerUnit: 1",
+          "errorPerUnit: 2",
+          "wordsPerUnit: 1000"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/registries/words.ts"],
+        "reason": "Approach 6: register quietly-overuse",
+        "required": [
+          "../rules/words/quietly-overuse.js",
+          "\"quietly-overuse\": quietlyOveruse"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/presets/everything.ts"],
+        "reason": "Approach 6: enable quietly-overuse",
+        "required": ["\"quietly-overuse\": true"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "reason": "Approach 11: patch release version",
+        "required": ["\"version\": \"0.2.28\""],
+        "forbidden": ["\"version\": \"0.2.27\""]
+      }
+    ],
+    "exports": [
+      {
+        "verifier": [
+          "node",
+          ".plans/2026-07-21-190541-relative-signposting-and-evidence-limitation.md.spec.verify.mjs"
+        ],
+        "package": "slopless",
+        "reason": "Approach 6: expose the rule and keep its builder private",
+        "required": ["./rules/words/quietly-overuse"],
+        "forbidden": ["./rules/words/private/token-density-rule"]
+      }
+    ]
+  }
+}
