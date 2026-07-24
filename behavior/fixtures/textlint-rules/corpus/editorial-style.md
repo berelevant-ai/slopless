@@ -803,3 +803,13 @@ The conclusion announced its reaction before supplying a series of metaphors. He
 The final revision compressed the conclusion again. So the feed is the product now. That's the shift.
 
 The product-selection draft then cycled through modal contractions while preserving the same staged reversal. It can't guess. It reads the product attributes. It couldn't compare pages. It ranked product records. It hasn't checked the source. It reads the summary. It hadn't inspected the listing. It followed the score. They haven't reviewed the pages. They compare the records. It mightn't inspect the page. It reads the feed. It mustn't guess. It checks the evidence. It needn't browse the site. It reads the catalog. It shan't inspect the page. It reads the metadata. It shouldn't guess. It follows the ranking. It won't inspect pages. It reads attributes. It wouldn't inspect pages. It reads product records.
+
+## Manner-adverb review
+
+The editor marked two paragraphs that repeated the same weak manner adverb throughout their claims. The market quietly changed after the launch. The platform quietly moved toward a broader role. The industry quietly shifted around the new model. The strategy quietly evolved during the quarter. The product quietly became the center of the plan.
+
+The repetition continued without adding evidence. The process quietly moved in a new direction. The category quietly changed around the new entrant. The conversation quietly shifted toward execution. The work quietly expanded beyond the original brief. The model quietly reshaped the whole market.
+
+The hospital note used the word once to describe how the nurse protected a sleeping patient. The nurse closed the door quietly so the patient could sleep.
+
+The nursery scene used the word three times for literal volume. Mara closed the nursery door quietly. She read quietly until the child fell asleep. Later, she spoke quietly to the nurse in the hall.

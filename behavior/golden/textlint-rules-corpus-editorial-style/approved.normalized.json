@@ -4,22 +4,22 @@
     "messages": [
       {
         "column": 1,
-        "index": 0,
-        "line": 1,
+        "index": 26,
+        "line": 3,
         "loc": {
           "end": {
             "column": 2,
-            "line": 1
+            "line": 3
           },
           "start": {
             "column": 1,
-            "line": 1
+            "line": 3
           }
         },
-        "message": "Coleman-Liau is 13.3. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 13. Keep it at 12 or lower.",
         "range": [
-          0,
-          1
+          26,
+          27
         ],
         "ruleId": "coleman-liau",
         "severity": 2,
@@ -27,22 +27,22 @@
       },
       {
         "column": 1,
-        "index": 0,
-        "line": 1,
+        "index": 26,
+        "line": 3,
         "loc": {
           "end": {
             "column": 2,
-            "line": 1
+            "line": 3
           },
           "start": {
             "column": 1,
-            "line": 1
+            "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 42.34. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 43.77. Keep it at 61 or higher.",
         "range": [
-          0,
-          1
+          26,
+          27
         ],
         "ruleId": "flesch-kincaid",
         "severity": 2,
@@ -50,22 +50,22 @@
       },
       {
         "column": 1,
-        "index": 0,
-        "line": 1,
+        "index": 26,
+        "line": 3,
         "loc": {
           "end": {
             "column": 2,
-            "line": 1
+            "line": 3
           },
           "start": {
             "column": 1,
-            "line": 1
+            "line": 3
           }
         },
-        "message": "Gunning Fog is 14.22. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 13.64. Keep it at 12 or lower.",
         "range": [
-          0,
-          1
+          26,
+          27
         ],
         "ruleId": "gunning-fog",
         "severity": 2,
@@ -9061,6 +9061,41 @@
           30653
         ],
         "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 112,
+        "data": {
+          "message": "\"quietly\" used 14 times (2.8 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              30791,
+              30798
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 30791,
+        "line": 809,
+        "loc": {
+          "end": {
+            "column": 119,
+            "line": 809
+          },
+          "start": {
+            "column": 112,
+            "line": 809
+          }
+        },
+        "message": "\"quietly\" used 14 times (2.8 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          30791,
+          30798
+        ],
+        "ruleId": "quietly-overuse",
         "severity": 2,
         "type": "lint"
       }

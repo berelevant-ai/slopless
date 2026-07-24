@@ -5,7 +5,7 @@ import type {
   TxtParentNode
 } from "@textlint/ast-node-types";
 import { type SplitSentence, splitSentences } from "./sentences.js";
-import { type SourceText, sourceText } from "./traverse.js";
+import { proseSourceText, type SourceText, sourceText } from "./traverse.js";
 
 type Section = readonly AnyTxtNode[];
 
@@ -27,30 +27,6 @@ function isParagraphNode(node: AnyTxtNode): node is TxtParagraphNode {
 
 function isParentNode(node: AnyTxtNode): node is TxtParentNode {
   return "children" in node;
-}
-
-type NodeWithValue = AnyTxtNode & {
-  readonly value: string;
-};
-
-function hasStringValue(node: AnyTxtNode): node is NodeWithValue {
-  return "value" in node && typeof node.value === "string";
-}
-
-function plainText(node: AnyTxtNode): string {
-  if (hasStringValue(node)) {
-    return node.value;
-  }
-
-  if (node.type === "Break") {
-    return " ";
-  }
-
-  if (!isParentNode(node)) {
-    return "";
-  }
-
-  return node.children.map((child) => plainText(child)).join("");
 }
 
 function collectParagraphs(
@@ -133,10 +109,11 @@ export function allParagraphs(document: TxtDocumentNode): SectionParagraph[] {
 
   for (const section of documentSections(document)) {
     for (const paragraph of sectionParagraphs(section)) {
+      const source = proseSourceText(paragraph);
       paragraphs.push({
         paragraph,
-        source: sourceText(paragraph),
-        text: plainText(paragraph)
+        source,
+        text: source.text
       });
     }
   }

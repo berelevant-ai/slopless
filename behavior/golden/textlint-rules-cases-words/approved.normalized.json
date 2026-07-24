@@ -866,7 +866,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 14.35. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.18. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -889,7 +889,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -29.53. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -35.11. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -912,13 +912,372 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 44.42. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 46.57. Keep it at 12 or lower.",
         "range": [
           0,
           1
         ],
         "ruleId": "gunning-fog",
         "severity": 2,
+        "type": "lint"
+      }
+    ]
+  },
+  {
+    "filePath": "behavior/fixtures/textlint-rules/cases/words/quietly-at-rate-boundary.md",
+    "messages": [
+      {
+        "column": 1,
+        "index": 25,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Coleman-Liau is 17.09. Keep it at 12 or lower.",
+        "range": [
+          25,
+          26
+        ],
+        "ruleId": "coleman-liau",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 25,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Flesch Reading Ease is -3996.99. Keep it at 61 or higher.",
+        "range": [
+          25,
+          26
+        ],
+        "ruleId": "flesch-kincaid",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 25,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Gunning Fog is 1600.1. Keep it at 12 or lower.",
+        "range": [
+          25,
+          26
+        ],
+        "ruleId": "gunning-fog",
+        "severity": 2,
+        "type": "lint"
+      }
+    ]
+  },
+  {
+    "filePath": "behavior/fixtures/textlint-rules/cases/words/quietly-below-minimum.md",
+    "messages": []
+  },
+  {
+    "filePath": "behavior/fixtures/textlint-rules/cases/words/quietly-hard-break.md",
+    "messages": [
+      {
+        "column": 1,
+        "index": 0,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 1
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        },
+        "message": "Coleman-Liau is 12.41. Keep it at 12 or lower.",
+        "range": [
+          0,
+          1
+        ],
+        "ruleId": "coleman-liau",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 0,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 1
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        },
+        "message": "Flesch Reading Ease is 48.26. Keep it at 61 or higher.",
+        "range": [
+          0,
+          1
+        ],
+        "ruleId": "flesch-kincaid",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46,
+        "line": 2,
+        "loc": {
+          "end": {
+            "column": 167,
+            "line": 2
+          },
+          "start": {
+            "column": 1,
+            "line": 2
+          }
+        },
+        "message": "Fragment stack found: The summary quietly changed the subject. The conclusion quietly changed the subject. The sidebar quietly changed the subject. The caption quietly changed the subject. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          46,
+          212
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "data": {
+          "message": "\"quietly\" used 4 times (129 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              58,
+              65
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 58,
+        "line": 2,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 2
+          },
+          "start": {
+            "column": 13,
+            "line": 2
+          }
+        },
+        "message": "\"quietly\" used 4 times (129 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          58,
+          65
+        ],
+        "ruleId": "quietly-overuse",
+        "severity": 2,
+        "type": "lint"
+      }
+    ]
+  },
+  {
+    "filePath": "behavior/fixtures/textlint-rules/cases/words/quietly-overuse.md",
+    "messages": [
+      {
+        "column": 1,
+        "index": 0,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 1
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        },
+        "message": "Flesch Reading Ease is 46.03. Keep it at 61 or higher.",
+        "range": [
+          0,
+          1
+        ],
+        "ruleId": "flesch-kincaid",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "data": {
+          "message": "\"quietly\" used 10 times (131.6 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              11,
+              18
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 11,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1
+          },
+          "start": {
+            "column": 12,
+            "line": 1
+          }
+        },
+        "message": "\"quietly\" used 10 times (131.6 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          11,
+          18
+        ],
+        "ruleId": "quietly-overuse",
+        "severity": 2,
+        "type": "lint"
+      }
+    ]
+  },
+  {
+    "filePath": "behavior/fixtures/textlint-rules/cases/words/quietly-warning-rate.md",
+    "messages": [
+      {
+        "column": 1,
+        "index": 25,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Coleman-Liau is 17.09. Keep it at 12 or lower.",
+        "range": [
+          25,
+          26
+        ],
+        "ruleId": "coleman-liau",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 25,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Flesch Reading Ease is -2626.74. Keep it at 61 or higher.",
+        "range": [
+          25,
+          26
+        ],
+        "ruleId": "flesch-kincaid",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 25,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Gunning Fog is 1060.15. Keep it at 12 or lower.",
+        "range": [
+          25,
+          26
+        ],
+        "ruleId": "gunning-fog",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "data": {
+          "message": "\"quietly\" used 4 times (1.5 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              214,
+              221
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 214,
+        "line": 9,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 9
+          },
+          "start": {
+            "column": 12,
+            "line": 9
+          }
+        },
+        "message": "\"quietly\" used 4 times (1.5 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          214,
+          221
+        ],
+        "ruleId": "quietly-overuse",
+        "severity": 1,
         "type": "lint"
       }
     ]

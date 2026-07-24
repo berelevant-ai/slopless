@@ -1,11 +1,11 @@
 {
   "suite": "textlint-rules-cases-words",
   "kind": "approved",
-  "run_id": "2026-07-24T10-31-55.898594Z-04547efb",
-  "run_commit": "ddf8160",
+  "run_id": "2026-07-24T19-55-58.641083Z-04547efb",
+  "run_commit": "51aa56d",
   "working_tree": "dirty",
-  "recorded_at": "2026-07-24T10:31:55.898594Z",
-  "fixture_hash": "sha256:1c8f5544bccd1c9c6926fd5c24ce3f4e0d984f00f39159b4121a57897e8f4dcc",
+  "recorded_at": "2026-07-24T19:55:58.641083Z",
+  "fixture_hash": "sha256:7fa15be4e2dda89655d0c767a8e2958d77d37484cc30d861b89337968e271b47",
   "manifest_hash": "sha256:04547efbb13157ee3d8ef18dda767231fd63d3f9cc27c15317cf28c5f0583e7b",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
@@ -20,8 +20,28 @@
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/words/no-hits.md",
-      "sha256": "sha256:d348fdcaf4647ffa8b1bf6e0643cdc904dfa957cb47077f98416639440874417"
+      "sha256": "sha256:5b55531b5ce77755ae921348ecbb2af9cd3e9500834eba11d102b8f891dbecbb"
+    },
+    {
+      "path": "behavior/fixtures/textlint-rules/cases/words/quietly-at-rate-boundary.md",
+      "sha256": "sha256:888c7424f362a569c16399ab48402ca089247733463bf0e2de87d97d85527502"
+    },
+    {
+      "path": "behavior/fixtures/textlint-rules/cases/words/quietly-below-minimum.md",
+      "sha256": "sha256:c0bc50749d6875b5baf0dc5364ee3eb941d07aba165882c51805aaf4d15d69e7"
+    },
+    {
+      "path": "behavior/fixtures/textlint-rules/cases/words/quietly-hard-break.md",
+      "sha256": "sha256:4efb15b5dfd0880f3b0224fe49a1fbb9a59e5b2c5d8d2e1c8b9504cf81fd7f54"
+    },
+    {
+      "path": "behavior/fixtures/textlint-rules/cases/words/quietly-overuse.md",
+      "sha256": "sha256:2e06eb0f5db8b402ffe42791b574928fe54343c38fe6d6421451c432f4105a22"
+    },
+    {
+      "path": "behavior/fixtures/textlint-rules/cases/words/quietly-warning-rate.md",
+      "sha256": "sha256:f8c272ff28bab04f94dd69ffa54e1f4f7931231d4d03a645c7efeca5f07b2ced"
     }
   ],
-  "comment": "Normalize fixture paths relative to repository; findings unchanged"
+  "comment": "Use backslash Markdown hard break; reviewed exact source token range."
 }

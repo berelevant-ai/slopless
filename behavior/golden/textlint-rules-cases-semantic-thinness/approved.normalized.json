@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 12.45. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 13.03. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -303.74. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -347.39. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 153.77. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 171.16. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -3642,7 +3642,7 @@
         "line": 269,
         "loc": {
           "end": {
-            "column": 20,
+            "column": 32,
             "line": 269
           },
           "start": {
@@ -3650,22 +3650,57 @@
             "line": 269
           }
         },
-        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {summaryNoun}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
         "range": [
           6106,
-          6125
+          6137
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
       {
+        "column": 15,
+        "data": {
+          "message": "\"quietly\" used 6 times (4.8 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              6120,
+              6127
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 6120,
+        "line": 269,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 269
+          },
+          "start": {
+            "column": 15,
+            "line": 269
+          }
+        },
+        "message": "\"quietly\" used 6 times (4.8 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          6120,
+          6127
+        ],
+        "ruleId": "quietly-overuse",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 1,
-        "index": 6127,
+        "index": 6139,
         "line": 271,
         "loc": {
           "end": {
-            "column": 26,
+            "column": 33,
             "line": 271
           },
           "start": {
@@ -3673,10 +3708,10 @@
             "line": 271
           }
         },
-        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
         "range": [
-          6127,
-          6152
+          6139,
+          6171
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3684,11 +3719,11 @@
       },
       {
         "column": 1,
-        "index": 6154,
+        "index": 6173,
         "line": 273,
         "loc": {
           "end": {
-            "column": 24,
+            "column": 30,
             "line": 273
           },
           "start": {
@@ -3696,10 +3731,10 @@
             "line": 273
           }
         },
-        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
         "range": [
-          6154,
-          6177
+          6173,
+          6202
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3707,11 +3742,11 @@
       },
       {
         "column": 1,
-        "index": 6179,
+        "index": 6204,
         "line": 275,
         "loc": {
           "end": {
-            "column": 60,
+            "column": 34,
             "line": 275
           },
           "start": {
@@ -3719,10 +3754,10 @@
             "line": 275
           }
         },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience} {audienceActivity}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
         "range": [
-          6179,
-          6238
+          6204,
+          6237
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3730,11 +3765,11 @@
       },
       {
         "column": 1,
-        "index": 6240,
+        "index": 6239,
         "line": 277,
         "loc": {
           "end": {
-            "column": 46,
+            "column": 37,
             "line": 277
           },
           "start": {
@@ -3742,10 +3777,10 @@
             "line": 277
           }
         },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
         "range": [
-          6240,
-          6285
+          6239,
+          6275
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3753,11 +3788,11 @@
       },
       {
         "column": 1,
-        "index": 6287,
+        "index": 6277,
         "line": 279,
         "loc": {
           "end": {
-            "column": 53,
+            "column": 45,
             "line": 279
           },
           "start": {
@@ -3765,10 +3800,10 @@
             "line": 279
           }
         },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
         "range": [
-          6287,
-          6339
+          6277,
+          6321
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3776,11 +3811,11 @@
       },
       {
         "column": 1,
-        "index": 6341,
+        "index": 6323,
         "line": 281,
         "loc": {
           "end": {
-            "column": 44,
+            "column": 33,
             "line": 281
           },
           "start": {
@@ -3788,10 +3823,10 @@
             "line": 281
           }
         },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {weakMannerAdverb} {emptyChangeObject}.",
         "range": [
-          6341,
-          6384
+          6323,
+          6355
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3799,11 +3834,11 @@
       },
       {
         "column": 1,
-        "index": 6386,
+        "index": 6357,
         "line": 283,
         "loc": {
           "end": {
-            "column": 28,
+            "column": 33,
             "line": 283
           },
           "start": {
@@ -3811,33 +3846,10 @@
             "line": 283
           }
         },
-        "message": "Demonstrative emphasis found: \"The prompt is the strategy.\". Reduce repeated short emphasis lines.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {weakMannerAdverb} {emptyChangeObject}.",
         "range": [
-          6386,
-          6413
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 6386,
-        "line": 283,
-        "loc": {
-          "end": {
-            "column": 28,
-            "line": 283
-          },
-          "start": {
-            "column": 1,
-            "line": 283
-          }
-        },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
-        "range": [
-          6386,
-          6413
+          6357,
+          6389
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3845,11 +3857,11 @@
       },
       {
         "column": 1,
-        "index": 6415,
+        "index": 6391,
         "line": 285,
         "loc": {
           "end": {
-            "column": 31,
+            "column": 27,
             "line": 285
           },
           "start": {
@@ -3857,33 +3869,10 @@
             "line": 285
           }
         },
-        "message": "Demonstrative emphasis found: \"The dashboard is the decision.\". Reduce repeated short emphasis lines.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
         "range": [
-          6415,
-          6445
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 6415,
-        "line": 285,
-        "loc": {
-          "end": {
-            "column": 31,
-            "line": 285
-          },
-          "start": {
-            "column": 1,
-            "line": 285
-          }
-        },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
-        "range": [
-          6415,
-          6445
+          6391,
+          6417
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3891,22 +3880,45 @@
       },
       {
         "column": 1,
-        "index": 6447,
+        "index": 6419,
         "line": 287,
         "loc": {
           "end": {
+            "column": 31,
+            "line": 287
+          },
+          "start": {
+            "column": 1,
+            "line": 287
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
+        "range": [
+          6419,
+          6449
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6451,
+        "line": 289,
+        "loc": {
+          "end": {
             "column": 30,
-            "line": 287
+            "line": 289
           },
           "start": {
             "column": 1,
-            "line": 287
+            "line": 289
           }
         },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
         "range": [
-          6447,
-          6476
+          6451,
+          6480
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -3914,57 +3926,11 @@
       },
       {
         "column": 1,
-        "index": 6478,
-        "line": 289,
-        "loc": {
-          "end": {
-            "column": 33,
-            "line": 289
-          },
-          "start": {
-            "column": 1,
-            "line": 289
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The spreadsheet is the business.\". Reduce repeated short emphasis lines.",
-        "range": [
-          6478,
-          6510
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 6478,
-        "line": 289,
-        "loc": {
-          "end": {
-            "column": 33,
-            "line": 289
-          },
-          "start": {
-            "column": 1,
-            "line": 289
-          }
-        },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
-        "range": [
-          6478,
-          6510
-        ],
-        "ruleId": "semantic-thinness",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 6512,
+        "index": 6482,
         "line": 291,
         "loc": {
           "end": {
-            "column": 25,
+            "column": 36,
             "line": 291
           },
           "start": {
@@ -3972,33 +3938,10 @@
             "line": 291
           }
         },
-        "message": "Demonstrative emphasis found: \"The index is the market.\". Reduce repeated short emphasis lines.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
         "range": [
-          6512,
-          6536
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 6512,
-        "line": 291,
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 291
-          },
-          "start": {
-            "column": 1,
-            "line": 291
-          }
-        },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
-        "range": [
-          6512,
-          6536
+          6482,
+          6517
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -4006,11 +3949,11 @@
       },
       {
         "column": 1,
-        "index": 6538,
+        "index": 6519,
         "line": 293,
         "loc": {
           "end": {
-            "column": 26,
+            "column": 37,
             "line": 293
           },
           "start": {
@@ -4018,22 +3961,22 @@
             "line": 293
           }
         },
-        "message": "Demonstrative emphasis found: \"The pipeline is the work.\". Reduce repeated short emphasis lines.",
+        "message": "Generic signposting found: the-important-shift-is. Replace the frame with the concrete claim.",
         "range": [
-          6538,
-          6563
+          6519,
+          6555
         ],
-        "ruleId": "demonstrative-emphasis",
+        "ruleId": "generic-signposting",
         "severity": 2,
         "type": "lint"
       },
       {
         "column": 1,
-        "index": 6538,
+        "index": 6519,
         "line": 293,
         "loc": {
           "end": {
-            "column": 26,
+            "column": 37,
             "line": 293
           },
           "start": {
@@ -4041,10 +3984,10 @@
             "line": 293
           }
         },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
         "range": [
-          6538,
-          6563
+          6519,
+          6555
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -4052,11 +3995,11 @@
       },
       {
         "column": 1,
-        "index": 6565,
+        "index": 6557,
         "line": 295,
         "loc": {
           "end": {
-            "column": 33,
+            "column": 41,
             "line": 295
           },
           "start": {
@@ -4064,32 +4007,9 @@
             "line": 295
           }
         },
-        "message": "Demonstrative emphasis found: \"The interface is the experience.\". Reduce repeated short emphasis lines.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
         "range": [
-          6565,
-          6597
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 6565,
-        "line": 295,
-        "loc": {
-          "end": {
-            "column": 33,
-            "line": 295
-          },
-          "start": {
-            "column": 1,
-            "line": 295
-          }
-        },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
-        "range": [
-          6565,
+          6557,
           6597
         ],
         "ruleId": "semantic-thinness",
@@ -4102,7 +4022,7 @@
         "line": 297,
         "loc": {
           "end": {
-            "column": 36,
+            "column": 30,
             "line": 297
           },
           "start": {
@@ -4110,10 +4030,10 @@
             "line": 297
           }
         },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
         "range": [
           6599,
-          6634
+          6628
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -4121,11 +4041,11 @@
       },
       {
         "column": 1,
-        "index": 6636,
+        "index": 6630,
         "line": 299,
         "loc": {
           "end": {
-            "column": 32,
+            "column": 39,
             "line": 299
           },
           "start": {
@@ -4133,10 +4053,447 @@
             "line": 299
           }
         },
-        "message": "Demonstrative emphasis found: \"So the feed is the product now.\". Reduce repeated short emphasis lines.",
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {shiftDeterminer} {shiftModifier} shift {emptyShiftPredicate}.",
         "range": [
-          6636,
-          6667
+          6630,
+          6668
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6670,
+        "line": 301,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 301
+          },
+          "start": {
+            "column": 1,
+            "line": 301
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "range": [
+          6670,
+          6697
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6699,
+        "line": 303,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 303
+          },
+          "start": {
+            "column": 1,
+            "line": 303
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "range": [
+          6699,
+          6728
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 6,
+        "index": 6704,
+        "line": 303,
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 303
+          },
+          "start": {
+            "column": 6,
+            "line": 303
+          }
+        },
+        "message": "Cliche found: \"signals a seismic shift\". Replace it with specific wording.",
+        "range": [
+          6704,
+          6727
+        ],
+        "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6730,
+        "line": 305,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 305
+          },
+          "start": {
+            "column": 1,
+            "line": 305
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "range": [
+          6730,
+          6765
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6767,
+        "line": 307,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 307
+          },
+          "start": {
+            "column": 1,
+            "line": 307
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "range": [
+          6767,
+          6797
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6799,
+        "line": 309,
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 309
+          },
+          "start": {
+            "column": 1,
+            "line": 309
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {weakMannerAdverb} {finiteChange}.",
+        "range": [
+          6799,
+          6827
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6829,
+        "line": 311,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 311
+          },
+          "start": {
+            "column": 1,
+            "line": 311
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {weakMannerAdverb} {finiteChange}.",
+        "range": [
+          6829,
+          6856
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6858,
+        "line": 313,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 313
+          },
+          "start": {
+            "column": 1,
+            "line": 313
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          6858,
+          6892
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6894,
+        "line": 315,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 315
+          },
+          "start": {
+            "column": 1,
+            "line": 315
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {perfectAuxiliary} {weakMannerAdverb} {pastChange}.",
+        "range": [
+          6894,
+          6927
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6929,
+        "line": 317,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 317
+          },
+          "start": {
+            "column": 1,
+            "line": 317
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {perfectAuxiliary} {weakMannerAdverb} {pastChange}.",
+        "range": [
+          6929,
+          6959
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6961,
+        "line": 319,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 319
+          },
+          "start": {
+            "column": 1,
+            "line": 319
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {finiteChange} {weakMannerAdverb}.",
+        "range": [
+          6961,
+          6988
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6990,
+        "line": 321,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 321
+          },
+          "start": {
+            "column": 1,
+            "line": 321
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {summaryNoun}.",
+        "range": [
+          6990,
+          7009
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7011,
+        "line": 323,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 323
+          },
+          "start": {
+            "column": 1,
+            "line": 323
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          7011,
+          7036
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7038,
+        "line": 325,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 325
+          },
+          "start": {
+            "column": 1,
+            "line": 325
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          7038,
+          7061
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7063,
+        "line": 327,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 327
+          },
+          "start": {
+            "column": 1,
+            "line": 327
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience} {audienceActivity}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7063,
+          7122
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7124,
+        "line": 329,
+        "loc": {
+          "end": {
+            "column": 46,
+            "line": 329
+          },
+          "start": {
+            "column": 1,
+            "line": 329
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7124,
+          7169
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7171,
+        "line": 331,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 331
+          },
+          "start": {
+            "column": 1,
+            "line": 331
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7171,
+          7223
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7225,
+        "line": 333,
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 333
+          },
+          "start": {
+            "column": 1,
+            "line": 333
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: {audiencePreposition} the {automatedAudience}, {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7225,
+          7268
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7270,
+        "line": 335,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 335
+          },
+          "start": {
+            "column": 1,
+            "line": 335
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The prompt is the strategy.\". Reduce repeated short emphasis lines.",
+        "range": [
+          7270,
+          7297
         ],
         "ruleId": "demonstrative-emphasis",
         "severity": 2,
@@ -4144,22 +4501,22 @@
       },
       {
         "column": 1,
-        "index": 6636,
-        "line": 299,
+        "index": 7270,
+        "line": 335,
         "loc": {
           "end": {
-            "column": 32,
-            "line": 299
+            "column": 28,
+            "line": 335
           },
           "start": {
             "column": 1,
-            "line": 299
+            "line": 335
           }
         },
-        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole} now.",
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
         "range": [
-          6636,
-          6667
+          7270,
+          7297
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -4167,22 +4524,344 @@
       },
       {
         "column": 1,
-        "index": 6669,
-        "line": 301,
+        "index": 7299,
+        "line": 337,
         "loc": {
           "end": {
-            "column": 18,
-            "line": 301
+            "column": 31,
+            "line": 337
           },
           "start": {
             "column": 1,
-            "line": 301
+            "line": 337
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The dashboard is the decision.\". Reduce repeated short emphasis lines.",
+        "range": [
+          7299,
+          7329
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7299,
+        "line": 337,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 337
+          },
+          "start": {
+            "column": 1,
+            "line": 337
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7299,
+          7329
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7331,
+        "line": 339,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 339
+          },
+          "start": {
+            "column": 1,
+            "line": 339
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7331,
+          7360
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7362,
+        "line": 341,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 341
+          },
+          "start": {
+            "column": 1,
+            "line": 341
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The spreadsheet is the business.\". Reduce repeated short emphasis lines.",
+        "range": [
+          7362,
+          7394
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7362,
+        "line": 341,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 341
+          },
+          "start": {
+            "column": 1,
+            "line": 341
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7362,
+          7394
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7396,
+        "line": 343,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 343
+          },
+          "start": {
+            "column": 1,
+            "line": 343
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The index is the market.\". Reduce repeated short emphasis lines.",
+        "range": [
+          7396,
+          7420
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7396,
+        "line": 343,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 343
+          },
+          "start": {
+            "column": 1,
+            "line": 343
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7396,
+          7420
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7422,
+        "line": 345,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 345
+          },
+          "start": {
+            "column": 1,
+            "line": 345
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The pipeline is the work.\". Reduce repeated short emphasis lines.",
+        "range": [
+          7422,
+          7447
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7422,
+        "line": 345,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 345
+          },
+          "start": {
+            "column": 1,
+            "line": 345
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7422,
+          7447
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7449,
+        "line": 347,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 347
+          },
+          "start": {
+            "column": 1,
+            "line": 347
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The interface is the experience.\". Reduce repeated short emphasis lines.",
+        "range": [
+          7449,
+          7481
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7449,
+        "line": 347,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 347
+          },
+          "start": {
+            "column": 1,
+            "line": 347
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7449,
+          7481
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7483,
+        "line": 349,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 349
+          },
+          "start": {
+            "column": 1,
+            "line": 349
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
+        "range": [
+          7483,
+          7518
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7520,
+        "line": 351,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 351
+          },
+          "start": {
+            "column": 1,
+            "line": 351
+          }
+        },
+        "message": "Demonstrative emphasis found: \"So the feed is the product now.\". Reduce repeated short emphasis lines.",
+        "range": [
+          7520,
+          7551
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7520,
+        "line": 351,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 351
+          },
+          "start": {
+            "column": 1,
+            "line": 351
+          }
+        },
+        "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole} now.",
+        "range": [
+          7520,
+          7551
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 7553,
+        "line": 353,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 353
+          },
+          "start": {
+            "column": 1,
+            "line": 353
           }
         },
         "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {summaryNoun}.",
         "range": [
-          6669,
-          6686
+          7553,
+          7570
         ],
         "ruleId": "semantic-thinness",
         "severity": 2,
@@ -4207,7 +4886,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 12.97. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 13.14. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -4230,7 +4909,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -1486.22. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -1695.31. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -4253,7 +4932,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 619.53. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 702.07. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -4355,23 +5034,58 @@
         "type": "lint"
       },
       {
+        "column": 11,
+        "data": {
+          "message": "\"quietly\" used 5 times (2.8 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              9496,
+              9503
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 9496,
+        "line": 299,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 299
+          },
+          "start": {
+            "column": 11,
+            "line": 299
+          }
+        },
+        "message": "\"quietly\" used 5 times (2.8 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          9496,
+          9503
+        ],
+        "ruleId": "quietly-overuse",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 1,
-        "index": 9140,
-        "line": 287,
+        "index": 10410,
+        "line": 331,
         "loc": {
           "end": {
             "column": 47,
-            "line": 287
+            "line": 331
           },
           "start": {
             "column": 1,
-            "line": 287
+            "line": 331
           }
         },
         "message": "Boilerplate conclusion found: that-is-the-point. Replace the closer with a specific ending.",
         "range": [
-          9140,
-          9186
+          10410,
+          10456
         ],
         "ruleId": "boilerplate-conclusion",
         "severity": 2,

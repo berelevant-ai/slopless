@@ -15,7 +15,10 @@ import {
   sectionFirstSentences,
   sectionLastSentences
 } from "../../shared/text/sections.js";
-import { documentText } from "../../shared/text/document.js";
+import {
+  documentSourceText,
+  documentText
+} from "../../shared/text/document.js";
 import type { SourceRange, TextUnit } from "../../rules/types.js";
 import { sourceText } from "../../shared/text/traverse.js";
 
@@ -86,7 +89,8 @@ function sentenceUnit(
 }
 
 export function documentUnit(document: TxtDocumentNode): TextUnit {
-  const text = documentText(document);
+  const source = documentSourceText(document);
+  const { text } = source;
 
   return {
     id: "document:0",
@@ -94,7 +98,10 @@ export function documentUnit(document: TxtDocumentNode): TextUnit {
     node: document,
     normalizedText: normalizeForMatch(text),
     range: { end: text.length, start: 0 },
-    sourceRangeFor: (range) => range,
+    sourceRangeFor: (range) => ({
+      end: source.originalEndFor(range.end),
+      start: source.originalStartFor(range.start)
+    }),
     text
   };
 }
