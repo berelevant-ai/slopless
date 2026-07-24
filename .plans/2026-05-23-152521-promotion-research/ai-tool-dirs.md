@@ -1,7 +1,7 @@
 # AI tool directories — slopless
 
 **Project:** `slopless` — deterministic textlint rules + CLI for catching AI-generated prose patterns in Markdown.
-**Repo:** https://github.com/agent-quality-controls/slopless (note: the brief's `seochecks-ai/slopless` URL appears outdated; verified org is `agent-quality-controls`)
+**Repo:** https://github.com/agent-quality-controls/slopless (note: the brief's `berelevant-ai/slopless` URL appears outdated; verified org is `agent-quality-controls`)
 **Stack:** TypeScript, MIT, ~351 stars, npm: `slopless`
 **Audience:** engineers, technical writers, docs-as-code teams, OSS maintainers running CI prose checks.
 **Date:** 2026-05-23

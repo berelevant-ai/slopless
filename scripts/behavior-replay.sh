@@ -94,7 +94,8 @@ for FILE in "${FILES[@]}"; do
   done
 done
 
-jq -s 'flatten
+jq -s --arg root "$ROOT/" 'flatten
+  | map(.filePath |= if startswith($root) then .[($root | length):] else . end)
   | group_by(.filePath)
   | map(.[0] + {
       messages: (

@@ -1,6 +1,6 @@
 # Marketplaces and integration registries — slopless
 
-Repo audit (2026-05-23): `seochecks-ai/slopless` is MIT, TypeScript, npm `slopless@0.2.12`, 351 stars, releases tagged `vX.Y.Z`, default branch `main`. Root contains: `package.json`, `README.md`, `LICENSE`, `SECURITY.md`, `slopless.textlintrc.json`, `src/`, `skills/`, `scripts/`, `.github/`. `.github/workflows/` has only `ci.yml`. Bin entry `slopless: dist/cli.js`. Node `>=22.13.0`.
+Repo audit (2026-05-23): `berelevant-ai/slopless` is MIT, TypeScript, npm `slopless@0.2.12`, 351 stars, releases tagged `vX.Y.Z`, default branch `main`. Root contains: `package.json`, `README.md`, `LICENSE`, `SECURITY.md`, `slopless.textlintrc.json`, `src/`, `skills/`, `scripts/`, `.github/`. `.github/workflows/` has only `ci.yml`. Bin entry `slopless: dist/cli.js`. Node `>=22.13.0`.
 
 Key gap for almost every marketplace below: there is no `action.yml`, no `.pre-commit-hooks.yaml`, no Homebrew formula, no Scoop manifest, no AUR PKGBUILD, no winget manifest, no VSIX, no snap, no mise registry entry. Everything that wraps slopless has to be authored.
 
@@ -14,7 +14,7 @@ Stars threshold (351) clears self-submitted Homebrew (225), comfortably clears a
 - URL: https://github.com/marketplace
 - Artifact: `action.yml` at repo root (composite action wrapping `npx slopless "$INPUT_GLOB"`).
 - Status: not present. Needs ~30-line composite action + README badge.
-- Submission: open release, tick "Publish this Action to the GitHub Marketplace", pick a primary category (`Code quality` or `Continuous integration`), pick optional secondary. Requires 2FA, ToS accept, single-action repo (no other workflows in `.github/workflows/`). Slopless has `ci.yml` which the listing UI tolerates because the repo itself is not the Action source — but Marketplace docs warn against `workflows/` files in dedicated action repos. Safest: ship the Action from a separate repo `seochecks-ai/slopless-action` (also lets you bump action version independent of slopless).
+- Submission: open release, tick "Publish this Action to the GitHub Marketplace", pick a primary category (`Code quality` or `Continuous integration`), pick optional secondary. Requires 2FA, ToS accept, single-action repo (no other workflows in `.github/workflows/`). Slopless has `ci.yml` which the listing UI tolerates because the repo itself is not the Action source — but Marketplace docs warn against `workflows/` files in dedicated action repos. Safest: ship the Action from a separate repo `berelevant-ai/slopless-action` (also lets you bump action version independent of slopless).
 - Bar: action.yml metadata valid, unique name, README usage section, no workflows in repo (if dedicated repo).
 - Anti-automation: none beyond 2FA on publish. Listing itself is manual click per release.
 - Value: HIGH. Every GH Actions user searches Marketplace for "lint", "prose", "markdown". This is the single highest-leverage target.
@@ -40,7 +40,7 @@ Stars threshold (351) clears self-submitted Homebrew (225), comfortably clears a
 - Bar: notable/maintained; self-submitted threshold ≥225 stars OR ≥90 forks/watchers. Slopless has 351 stars — clears self-submission gate. Must build on macOS (3 latest) + Linux x86_64. Stable tagged release exists. License OK (MIT). No self-upgrade. Node deps download during install (explicitly allowed). Requires tests (`assert_match "0.2.12", shell_output("#{bin}/slopless --version")`).
 - Anti-automation: PR is reviewed by maintainers, CI runs `brew test`/`brew audit`. Manual gate is real.
 - Value: MEDIUM-HIGH. macOS devs install CLI lints via brew. Brings discovery to non-Node users.
-- Action: PR to homebrew-core. Alternative: ship a tap `seochecks-ai/homebrew-slopless` immediately (no review, no popularity gate) and PR core in parallel.
+- Action: PR to homebrew-core. Alternative: ship a tap `berelevant-ai/homebrew-slopless` immediately (no review, no popularity gate) and PR core in parallel.
 
 ### mise registry
 - URL: https://mise.jdx.dev/registry.html, source `https://github.com/jdx/mise/tree/main/registry`
@@ -60,7 +60,7 @@ Stars threshold (351) clears self-submitted Homebrew (225), comfortably clears a
 ### asdf-plugins registry
 - URL: https://github.com/asdf-vm/asdf-plugins
 - Artifact: requires a full asdf plugin repo (bash scripts: `bin/list-all`, `bin/download`, `bin/install`) plus an entry `plugins/slopless` pointing to the plugin repo.
-- Status: needs new repo `seochecks-ai/asdf-slopless`.
+- Status: needs new repo `berelevant-ai/asdf-slopless`.
 - Submission: PR to asdf-plugins after the plugin repo exists and passes `scripts/test_plugin.bash --file plugins/slopless`.
 - Bar: "stable and actively maintained".
 - Anti-automation: PR review.
@@ -105,7 +105,7 @@ Stars threshold (351) clears self-submitted Homebrew (225), comfortably clears a
 - URL: https://scoop.sh — main bucket https://github.com/ScoopInstaller/Main
 - Artifact: JSON manifest pointing to a downloadable archive. Same Windows binary problem as winget — Scoop installs files, not npm packages.
 - Status: needs Windows binary or accept that users get a wrapper that requires Node already installed (Scoop has `depends` for that).
-- Submission: PR to Main bucket. Stricter than Extras bucket. Easier: ship own bucket `seochecks-ai/scoop-slopless`, zero review.
+- Submission: PR to Main bucket. Stricter than Extras bucket. Easier: ship own bucket `berelevant-ai/scoop-slopless`, zero review.
 - Bar: Main is curated; Extras is permissive.
 - Anti-automation: PR review.
 - Value: LOW. Same as winget.
@@ -150,7 +150,7 @@ Stars threshold (351) clears self-submitted Homebrew (225), comfortably clears a
 - **Chocolatey** — Windows-only, requires human moderator review (days to weeks), and `.nuspec` packaging. Same audience problem as winget/Scoop: slopless audience is overwhelmingly on macOS/Linux Node toolchains. Skip until Windows-native demand exists.
 - **Snapcraft** — Linux desktop snap format, requires `snapcraft.yaml`, classic confinement application (forum thread, manual store review), and `node` snap dependency. Audience overlap is minimal: snap users who don't already have npm are not slopless's market. Skip.
 - **Flathub** — desktop GUI apps only. No fit for a CLI.
-- **Docker Hub (official image)** — official image program requires a maintained Dockerfile in `docker-library/official-images` and meaningful "everyone needs this in a container" justification. slopless can be one `npm i -g slopless` line in any base node image — there's no value in shipping a dedicated image (let alone an *official* one). A `seochecks-ai/slopless` Docker Hub image is fine to publish as an automated build but is not a "marketplace" act. Skip the official-image PR.
+- **Docker Hub (official image)** — official image program requires a maintained Dockerfile in `docker-library/official-images` and meaningful "everyone needs this in a container" justification. slopless can be one `npm i -g slopless` line in any base node image — there's no value in shipping a dedicated image (let alone an *official* one). A `berelevant-ai/slopless` Docker Hub image is fine to publish as an automated build but is not a "marketplace" act. Skip the official-image PR.
 - **Lefthook / Husky / simple-git-hooks** — no central registries. They're config-driven; users add slopless to their own `lefthook.yml` etc. Best leverage is a small "Use with Lefthook/Husky" snippet in the slopless README, not a submission anywhere.
 - **Vale style registry** — no central registry exists. Vale styles are discovered via `vale-linter-style` GitHub topic and word-of-mouth. Slopless is not a Vale style (it's a textlint plugin); shipping a Vale-compatible style would be a separate product. Skip.
 - **ESLint plugin directory** — eslint.org has no plugin directory anymore; discovery is via npm search. Slopless lints prose, not code. Skip.

@@ -1,7 +1,7 @@
 # Package registries & indexers - slopless
 
 Verified 2026-05-23. Package: `slopless` v0.2.12, MIT, npm publisher `tartakovsky`,
-repo `github.com/seochecks-ai/slopless`, 351 stars. All "listed" rows below
+repo `github.com/berelevant-ai/slopless`, 351 stars. All "listed" rows below
 were confirmed by HTTP fetch of the listing URL on this date.
 
 ## Already auto-indexed (verify + claim)
@@ -139,13 +139,13 @@ were confirmed by HTTP fetch of the listing URL on this date.
   marketing for the package).
 
 ### OSSInsight
-- URL: https://ossinsight.io/analyze/seochecks-ai/slopless
+- URL: https://ossinsight.io/analyze/berelevant-ai/slopless
 - Listed: yes (page loads the analyzer; renders star history, contributors etc.
   on demand from GitHub Archive data)
 - Actions:
   - No submission. The analyzer page works for any public repo automatically.
   - Embed star history chart in README:
-    `[![Star History](https://api.star-history.com/svg?repos=seochecks-ai/slopless&type=Date)](https://star-history.com/#seochecks-ai/slopless)`
+    `[![Star History](https://api.star-history.com/svg?repos=berelevant-ai/slopless&type=Date)](https://star-history.com/#berelevant-ai/slopless)`
     (star-history.com is the de-facto badge for OSSInsight-style star charts).
 - Value: med (good social proof in README; minimal direct discovery value).
 
@@ -162,7 +162,7 @@ were confirmed by HTTP fetch of the listing URL on this date.
 - Value: low (effectively defunct as a discovery surface).
 
 ### OpenSSF Scorecard
-- URL: https://scorecard.dev/viewer/?uri=github.com/seochecks-ai/slopless
+- URL: https://scorecard.dev/viewer/?uri=github.com/berelevant-ai/slopless
 - Listed: NO (viewer loads but shows no score; API returns empty)
 - Action: add the official Scorecard workflow to the repo. Two-step:
   1. Create `.github/workflows/scorecard.yml` using the template at
@@ -170,7 +170,7 @@ were confirmed by HTTP fetch of the listing URL on this date.
      branch, optional SARIF upload to GitHub code scanning).
   2. Set `id-token: write` and `security-events: write` permissions in the job.
   3. After the first run, embed badge:
-     `[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/seochecks-ai/slopless/badge)](https://scorecard.dev/viewer/?uri=github.com/seochecks-ai/slopless)`
+     `[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/berelevant-ai/slopless/badge)](https://scorecard.dev/viewer/?uri=github.com/berelevant-ai/slopless)`
 - Value: high (this is the single highest-leverage badge; it improves the
   package's score on Socket, Snyk, deps.dev, and OSSF Best Practices
   simultaneously, and signals supply-chain seriousness to enterprise buyers).
@@ -204,7 +204,7 @@ ordered by signal value. Current badges already cover: npm version,
 weekly downloads, license, CI, node version - good baseline. Add:
 
 ```markdown
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/seochecks-ai/slopless/badge)](https://scorecard.dev/viewer/?uri=github.com/seochecks-ai/slopless)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/berelevant-ai/slopless/badge)](https://scorecard.dev/viewer/?uri=github.com/berelevant-ai/slopless)
 [![Socket Score](https://socket.dev/api/badge/npm/package/slopless)](https://socket.dev/npm/package/slopless)
 [![Known Vulnerabilities](https://snyk.io/test/npm/slopless/badge.svg)](https://snyk.io/test/npm/slopless)
 [![install size](https://packagephobia.com/badge?p=slopless)](https://packagephobia.com/result?p=slopless)

@@ -7,7 +7,7 @@
 ### What slopless is
 Slopless is a deterministic textlint plugin + CLI that flags "AI slop" patterns in Markdown - the giveaway tells of LLM-generated prose (em-dash floods, weasel phrases, hedging, repetitive transition words, etc.). It is not an ML model; it is a rules engine that runs in CI or locally and either passes/fails the file or reports per-finding diagnostics.
 
-- Repo: https://github.com/seochecks-ai/slopless (canonical; the `gh` CLI may redirect from `agent-quality-controls/slopless` - that's a rename, not a different repo)
+- Repo: https://github.com/berelevant-ai/slopless (canonical; the `gh` CLI may redirect from `agent-quality-controls/slopless` - that's a rename, not a different repo)
 - Local clone: `/Users/tartakovsky/Projects/agent-quality-controls/slopless/`
 - License: MIT
 - Stack: TypeScript, Node, published on npm as `slopless`
@@ -45,7 +45,7 @@ Each source file has the verbatim CONTRIBUTING rules per target, exact submissio
 4. Always update this master file's status column when a target is submitted/accepted/rejected. The file is the source of truth for what's been done.
 
 ### Important constraints (mistakes the research agents already made - do not repeat)
-- The canonical repo URL is `seochecks-ai/slopless`. The `ai-tool-dirs.md` agent claimed it was `agent-quality-controls/slopless`; that's a rename redirect and is wrong as a public URL.
+- The canonical repo URL is `berelevant-ai/slopless`. The `ai-tool-dirs.md` agent claimed it was `agent-quality-controls/slopless`; that's a rename redirect and is wrong as a public URL.
 - `caramelomartins/awesome-linters` and `BubuAnabelas/awesome-markdown` look attractive on paper but both have been stalled 12+ months. Do not submit. Rejected globally.
 - Do NOT publish fake stars, sockpuppet reviews, or automated upvotes on HN/Reddit. GitHub strips fake stars and flags the repo; HN shadowbans the domain. There's prior research in the `kb` repo (`.plans/2026-05-18-darknet-github-star-market-landscape.md`) confirming detection is effective.
 - Do NOT submit slopless to paid-only AI tool directories (TAAFT, Toolify, Futurepedia paid tier, TopApps.ai). Audience mismatch - dev CLI vs. SaaS-buyer audience - returns near-zero installs at high cost.
@@ -57,7 +57,7 @@ The single biggest unlock for the whole inventory is shipping `npm publish --pro
 ---
 
 **Date:** 2026-05-23
-**Repo:** https://github.com/seochecks-ai/slopless (351 stars, created 2026-05-16, 7 days old, MIT, TypeScript, npm `slopless@0.2.12`)
+**Repo:** https://github.com/berelevant-ai/slopless (351 stars, created 2026-05-16, 7 days old, MIT, TypeScript, npm `slopless@0.2.12`)
 **Source files:**
 - [awesome-lists.md](./2026-05-23-152521-promotion-research/awesome-lists.md)
 - [registries.md](./2026-05-23-152521-promotion-research/registries.md)
@@ -77,7 +77,7 @@ The single biggest unlock for the whole inventory is shipping `npm publish --pro
 - Rejected: 36
 
 ## Critical context
-- Repo confirmed at `seochecks-ai/slopless`. `ai-tool-dirs.md` claimed `agent-quality-controls/slopless`; that is incorrect per `gh`.
+- Repo confirmed at `berelevant-ai/slopless`. `ai-tool-dirs.md` claimed `agent-quality-controls/slopless`; that is incorrect per `gh`.
 - `npm publish --provenance` is missing - single highest-leverage fix; cascades into Socket, Snyk Advisor, OpenSSF Scorecard simultaneously.
 - Bundle size 11.2 MB raw / 3.1 MB gzip - hold bundlephobia badge until reduced.
 - Major source-file conflicts:
@@ -139,13 +139,13 @@ The single biggest unlock for the whole inventory is shipping `npm publish --pro
 
 | # | Target | Category | URL | Artifact gap | Auto (after artifact) | Impact | Notes |
 |---|--------|----------|-----|--------------|----------------------|--------|-------|
-| 36 | GitHub Marketplace - Actions | Marketplace | https://github.com/marketplace | needs `action.yml` (composite); ideally separate repo `seochecks-ai/slopless-action` | GREEN | HIGH | Every Actions user searches Marketplace for lint/prose/markdown; single highest-leverage target |
+| 36 | GitHub Marketplace - Actions | Marketplace | https://github.com/marketplace | needs `action.yml` (composite); ideally separate repo `berelevant-ai/slopless-action` | GREEN | HIGH | Every Actions user searches Marketplace for lint/prose/markdown; single highest-leverage target |
 | 37 | pre-commit hooks (discovery + hooks.html listing) | Marketplace | https://pre-commit.com/hooks.html | needs `.pre-commit-hooks.yaml` in repo root, tagged release | GREEN (discovery), YELLOW (listing) | high | Discovery works the moment file is tagged; listing PR may be rejected (asottile is selective) |
-| 38 | OpenSSF Scorecard | Registry | https://scorecard.dev/viewer/?uri=github.com/seochecks-ai/slopless | needs `.github/workflows/scorecard.yml` | GREEN | high | Single highest-leverage badge; improves Socket, Snyk, deps.dev scores simultaneously |
+| 38 | OpenSSF Scorecard | Registry | https://scorecard.dev/viewer/?uri=github.com/berelevant-ai/slopless | needs `.github/workflows/scorecard.yml` | GREEN | high | Single highest-leverage badge; improves Socket, Snyk, deps.dev scores simultaneously |
 | 39 | npm provenance (republish) | Registry | https://www.npmjs.com/package/slopless | needs `--provenance` in publish workflow + `id-token: write` | GREEN | high | Unlocks Socket/Snyk/Scorecard `Signed-Releases`; adds Provenance panel on npm |
 | 40 | OpenSSF Best Practices Badge | Registry | https://www.bestpractices.dev/projects/new | register + self-assessment | YELLOW | med | One-time effort; "passing" tier achievable now, "silver" after provenance |
 | 41 | Homebrew (homebrew-core) | Marketplace | https://github.com/Homebrew/homebrew-core | needs Ruby `Formula/s/slopless.rb` (~30 LOC) | YELLOW | med-high | 351 stars clears self-submit gate (225); PR review is real; ship own tap in parallel as fallback |
-| 42 | Homebrew tap fallback | Marketplace | seochecks-ai/homebrew-slopless | needs new tap repo + formula | GREEN | low-med | Zero review, ships immediately |
+| 42 | Homebrew tap fallback | Marketplace | berelevant-ai/homebrew-slopless | needs new tap repo + formula | GREEN | low-med | Zero review, ships immediately |
 | 43 | VS Code Marketplace | Marketplace | https://marketplace.visualstudio.com | needs net-new VSIX extension (~200-400 LOC TS wrapping CLI) | YELLOW | HIGH | Largest install base for Markdown editors; inline squiggles drive adoption |
 | 44 | Open VSX | Marketplace | https://open-vsx.org | reuses VSIX from #43 | GREEN | med | Cursor/VSCodium/Gitpod/code-server default here; same artifact, two stores |
 | 45 | Nixpkgs | Marketplace | https://github.com/NixOS/nixpkgs | needs `pkgs/by-name/sl/slopless/package.nix` (~25 LOC `buildNpmPackage`) | YELLOW | med | Slow PR queue, modest audience |
@@ -204,7 +204,7 @@ The single biggest unlock for the whole inventory is shipping `npm publish --pro
 | 77 | unpkg | https://unpkg.com/slopless/ | No action; CDN mirror only |
 | 78 | esm.sh | https://esm.sh/slopless | No action; ESM mirror only |
 | 79 | npmtrends | https://npmtrends.com/slopless | Link comparison in README: alex-vs-proselint-vs-slopless-vs-textlint-vs-write-good |
-| 80 | OSSInsight / star-history.com | https://ossinsight.io/analyze/seochecks-ai/slopless | Embed star history chart in README |
+| 80 | OSSInsight / star-history.com | https://ossinsight.io/analyze/berelevant-ai/slopless | Embed star history chart in README |
 
 ---
 
@@ -284,9 +284,9 @@ The single biggest unlock for the whole inventory is shipping `npm publish --pro
 
 1. **`npm publish --provenance`** in release workflow (`id-token: write`, public `repository` field) - unlocks Socket/Snyk/Scorecard `Signed-Releases` + Provenance panel on npm.
 2. **`.github/workflows/scorecard.yml`** (ossf/scorecard-action template, cron weekly) - unlocks OpenSSF Scorecard badge; cascades into deps.dev, Socket, Snyk scores.
-3. **`action.yml`** composite action (in separate repo `seochecks-ai/slopless-action` to avoid workflow conflict) - unlocks GitHub Marketplace listing.
+3. **`action.yml`** composite action (in separate repo `berelevant-ai/slopless-action` to avoid workflow conflict) - unlocks GitHub Marketplace listing.
 4. **`.pre-commit-hooks.yaml`** at repo root + tagged release - unlocks pre-commit discovery immediately; PR to `pre-commit/pre-commit.com sections/hooks.md` for listing.
-5. **Homebrew formula** in tap `seochecks-ai/homebrew-slopless` first (zero review), then PR to homebrew-core.
+5. **Homebrew formula** in tap `berelevant-ai/homebrew-slopless` first (zero review), then PR to homebrew-core.
 6. **VSIX VS Code extension** (new repo, ~200-400 LOC TS, spawns CLI on `.md` save, parses JSON, pushes diagnostics) - publish to both VS Code Marketplace and Open VSX from one VSIX.
 7. **Nixpkgs `package.nix`** (`buildNpmPackage`, ~25 LOC) - PR to nixpkgs.
 8. **AUR `PKGBUILD` + `.SRCINFO`** - git push to AUR (no review).

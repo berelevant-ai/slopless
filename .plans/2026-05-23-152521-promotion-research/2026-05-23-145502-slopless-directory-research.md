@@ -1,7 +1,7 @@
 # Slopless directory & listing research
 
 **Date:** 2026-05-23 14:55
-**Task:** Find every directory, listing, registry, and marketplace where `seochecks-ai/slopless` (a textlint plugin + CLI for catching AI slop in Markdown) can be submitted to gain discovery, prioritizing channels that allow automated/agentic submission.
+**Task:** Find every directory, listing, registry, and marketplace where `berelevant-ai/slopless` (a textlint plugin + CLI for catching AI slop in Markdown) can be submitted to gain discovery, prioritizing channels that allow automated/agentic submission.
 
 ## Goal
 Produce a comprehensive, validated inventory of submission targets, each with:
@@ -17,7 +17,7 @@ Produce a comprehensive, validated inventory of submission targets, each with:
 Inventory must be exhaustive enough that the next phase (PR-drafting agents) has a fully scoped queue with zero further research.
 
 ## Input Information
-- Repo: https://github.com/seochecks-ai/slopless
+- Repo: https://github.com/berelevant-ai/slopless
 - Description: "Deterministic textlint rules and CLI for catching prose slop in Markdown"
 - Stack: TypeScript, MIT, npm package `slopless`, 351 stars, created 2026-05-16
 - Topics: ai, cli, lint, linter, llm, markdown, nodejs, prose, quality, slop, static-analysis, style-guide, textlint, typescript, writing

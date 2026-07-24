@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/slopless)](LICENSE)
 [![node](https://img.shields.io/badge/node-22%2B-brightgreen)](package.json)
 
-[![ci](https://img.shields.io/github/actions/workflow/status/seochecks-ai%2Fslopless/ci.yml?branch=main&label=ci)](/actions/workflows/ci.yml)
+[![ci](https://img.shields.io/github/actions/workflow/status/berelevant-ai%2Fslopless/ci.yml?branch=main&label=ci)](/actions/workflows/ci.yml)
 [![socket](https://socket.dev/api/badge/npm/package/slopless)](https://socket.dev/npm/package/slopless)
 
 Give it to your writing agent and it stops handing you AI-slop prose. Slopless is a deterministic linter - a textlint preset and a zero-config CLI - that flags the LLM tells (hollow framing, fake contrasts, hedging, em-dash tics, vacuous closers, and many more) so the agent rewrites until the text reads human. No model calls, no API key.
@@ -33,7 +33,7 @@ to the teams that slow down to think.
 [slopless/prohibited-phrases]     the future belongs to
 ```
 
-Full JSON output is the default. See the [Rules](https://github.com/seochecks-ai/slopless/wiki/Rules) page for the complete inventory.
+Full JSON output is the default. See the [Rules](https://github.com/berelevant-ai/slopless/wiki/Rules) page for the complete inventory.
 
 ## Intended Usage Loop
 
@@ -141,12 +141,12 @@ Something shifted in the room.
 
 ## More
 
-- [Philosophy](https://github.com/seochecks-ai/slopless/wiki/Philosophy) - what slopless is for, design principles, why deterministic.
-- [Comparison](https://github.com/seochecks-ai/slopless/wiki/Comparison) - slopless vs proselint, write-good, alex, vale, default textlint presets.
-- [Rules](https://github.com/seochecks-ai/slopless/wiki/Rules) - full 50+ rule inventory across seven families.
-- [Behavior](https://github.com/seochecks-ai/slopless/wiki/Behavior) - CLI flags, exit codes, JSON output shape, direct textlint integration.
-- [Ignore rules](https://github.com/seochecks-ai/slopless/wiki/Ignore-Rules) - inline `textlint-disable` block syntax.
-- [Thanks](https://github.com/seochecks-ai/slopless/wiki/Thanks) - direct rule sources, dependencies, and acknowledgments.
+- [Philosophy](https://github.com/berelevant-ai/slopless/wiki/Philosophy) - what slopless is for, design principles, why deterministic.
+- [Comparison](https://github.com/berelevant-ai/slopless/wiki/Comparison) - slopless vs proselint, write-good, alex, vale, default textlint presets.
+- [Rules](https://github.com/berelevant-ai/slopless/wiki/Rules) - full 50+ rule inventory across seven families.
+- [Behavior](https://github.com/berelevant-ai/slopless/wiki/Behavior) - CLI flags, exit codes, JSON output shape, direct textlint integration.
+- [Ignore rules](https://github.com/berelevant-ai/slopless/wiki/Ignore-Rules) - inline `textlint-disable` block syntax.
+- [Thanks](https://github.com/berelevant-ai/slopless/wiki/Thanks) - direct rule sources, dependencies, and acknowledgments.
 - [Roadmap](ROADMAP.md) - near-term direction and links to active plans.
 - [Contributing](.github/CONTRIBUTING.md) - open a detailed issue first; PRs must pass the G3TS pre-commit gate.
 
@@ -166,4 +166,4 @@ This confirms the tarball you installed was built in the published source reposi
 
 ---
 
-Developed by [seochecks.ai](https://seochecks.ai) to keep content specific, useful, and recognizably human.
+Developed by [berelevant.ai](https://berelevant.ai) to keep content specific, useful, and recognizably human.
