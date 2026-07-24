@@ -97,6 +97,8 @@ suppresses every isolated use.
    - quoted or title-like uses.
    A normal-use verb suppresses only the occurrence it governs. It does not
    suppress another bad `quietly` occurrence elsewhere in the sentence.
+   Change lexemes include their base, past, present, and continuous forms, such
+   as `shift`, `shifted`, `shifts`, and `shifting`.
 5. Fix shared paragraph collection so sentence and paragraph rule units
    recurse through list containers. Keep document readability input on its
    existing top-level and blockquote paragraphs so list traversal does not
