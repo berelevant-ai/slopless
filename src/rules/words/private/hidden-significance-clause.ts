@@ -1,6 +1,6 @@
 import type { Token } from "../../../shared/text/tokens.js";
 
-export type QuietlyClause = {
+export type HiddenSignificanceClause = {
   readonly index: number;
   readonly tokens: readonly Token[];
 };
@@ -42,11 +42,11 @@ function hasBoundaryPunctuation(
   );
 }
 
-export function quietlyClauseFor(
+export function hiddenSignificanceClauseFor(
   text: string,
   tokens: readonly Token[],
   index: number
-): QuietlyClause {
+): HiddenSignificanceClause {
   let start = 0;
   for (let cursor = index - 1; cursor >= 0; cursor -= 1) {
     const token = tokens[cursor];

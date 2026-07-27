@@ -2,20 +2,22 @@ import type { RuleId } from "../types.js";
 import { oneToOneRule } from "../private/textlint-rule-builders.js";
 import { findHiddenSignificanceContextMatches } from "./private/hidden-significance-context.js";
 
-const RULE_ID = "words:quietly-filler" satisfies RuleId;
+const RULE_ID = "words:silently-filler" satisfies RuleId;
 
 const rule = oneToOneRule({
   detect: (unit) =>
-    findHiddenSignificanceContextMatches(unit.text, "quietly").map((match) => ({
-      data: { contextClass: match.label },
-      evidence: match.evidence,
-      label: match.label,
-      range: match.range
-    })),
+    findHiddenSignificanceContextMatches(unit.text, "silently").map(
+      (match) => ({
+        data: { contextClass: match.label },
+        evidence: match.evidence,
+        label: match.label,
+        range: match.range
+      })
+    ),
   family: "words",
   formatMessage: (report) => {
     const contextClass = report.detections[0]?.data?.["contextClass"];
-    return `"quietly" adds vague hidden significance (${contextClass}). Name the concrete change or remove the adverb.`;
+    return `"silently" adds vague hidden significance (${contextClass}). Name the concrete behavior or remove the adverb.`;
   },
   ruleId: RULE_ID,
   severity: 1,

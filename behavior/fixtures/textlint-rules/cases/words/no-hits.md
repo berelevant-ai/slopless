@@ -145,3 +145,83 @@ The baseline degraded quietly by 12 percent.
 The field is named `quietly powerful`.
 
 ![Quietly powerful](image.png)
+
+She walked silently across the room.
+
+He silently disappeared before dawn.
+
+The child waited silently beside the door.
+
+The choir stood silently during the memorial.
+
+The parser silently drops malformed rows.
+
+The function fails silently without an error.
+
+The compiler silently ignores the unknown attribute.
+
+The API silently truncates the response.
+
+The script silently exits with status 2.
+
+The database silently rejects malformed records.
+
+The browser silently blocks the request.
+
+The cache silently drops an expired entry.
+
+The market silently shifted from 20 percent to 30 percent.
+
+The backup process silently failed after error E42 was logged.
+
+The editor quoted "silently powerful" as a phrase to remove.
+
+The field is named `silently powerful`.
+
+![Silently powerful](image.png)
+
+## Why parsers fail silently
+
+The source is https://example.com/why-systems-silently-fail.
+
+source=https://example.com/silently-powerful
+
+URL:https://example.com/silently-powerful
+
+The endpoint that was silently degrading stopped.
+
+The market silently shifted while the nurse spoke silently.
+
+The nurse spoke silently while the market silently shifted.
+
+The connection fails silently.
+
+From 20 percent to 30 percent, the market quietly shifted.
+
+Any invalid assignment fails either silently or by throwing an exception.
+
+The packet is silently dropped when group 14 is unsupported.
+
+Bots are blocked silently before they reach the inbox.
+
+The sync can silently drop updates without reporting an error.
+
+We measured a 400 ms spike that was silently degrading playback.
+
+The thief silently stole the keys.
+
+The cat crept silently under the table.
+
+The script silently stops working after the update.
+
+The schema field silently disappeared from the prompt.
+
+The endpoint had been silently degrading response quality for three weeks.
+
+The structure changes silently when the key is misaligned.
+
+The formulas return wrong results silently with no error.
+
+Without alerts, conflicts accumulate silently until a user reports an overwritten update.
+
+The domain was being silently blocked.

@@ -1091,3 +1091,90 @@ The baseline degraded quietly by 12 percent.
 The field is named `quietly powerful`.
 
 ![Quietly powerful](image.png)
+
+## Contextual silence review
+
+The editor marked broad claims that used silence to imply importance without
+showing the change. The market silently shifted around the new platform. The
+category silently reshaped itself. The cost of the workaround compounds
+silently. The partnership silently withers away. The strategy silently poisons
+trust. The habit silently destroys focus.
+
+The next draft assigned hidden agency to systems and trends. Undocumented
+workflows silently block automation. Scattered knowledge silently sabotages
+readiness. Webhooks silently power the whole system. The process silently
+operates behind the scenes. The migration is silently transformative. The
+result remains silently consequential. Silently.
+
+The trend paragraph continued in the same register. Companies are silently
+adopting a new standard. The platform silently replaced the old category. The
+industry silently builds the next interface. The market is silently shifting
+while the nurse speaks silently. The strategy silently reshapes the category.
+The category changed. Silently.
+
+The controls used silence to describe physical manner or a concrete failure
+mode. She walked silently across the room. He silently disappeared before
+dawn. The child waited silently beside the door. The choir stood silently
+during the memorial.
+
+## Why parsers fail silently
+
+The technical review named the affected component. The parser silently drops
+malformed rows. The function fails silently without an error. The compiler
+silently ignores the unknown attribute. The API silently truncates the
+response. The script silently exits with status 2. The database silently
+rejects malformed records. The browser silently blocks the request. The cache
+silently drops an expired entry. The backup process silently failed after
+error E42 was logged.
+
+The measured control stated the change. The market silently shifted from 20
+percent to 30 percent. The editor quoted "silently powerful" as a phrase to
+remove. The field is named `silently powerful`.
+
+![Silently powerful](image.png)
+
+The nurse spoke silently while the market silently shifted.
+
+- The market silently shifted while the nurse spoke silently.
+
+- The strategy silently reshapes the category.
+
+The final review separated hidden importance from specific failure behavior.
+Untested backups silently rot. Bad retrieval silently destroys answer quality.
+Those claims use silence to imply danger instead of describing what happens.
+
+The incident notes were concrete. The connection fails silently. Any invalid
+assignment fails either silently or by throwing an exception. The packet is
+silently dropped when group 14 is unsupported. Bots are blocked silently before
+they reach the inbox. The sync can silently drop updates without
+reporting an error. We measured a 400 ms spike that was silently degrading
+playback.
+
+The editor then collected the broader hidden-change forms. Dependencies
+accumulate silently. The files silently trade simplicity for fragility. The
+slow site loses visitors silently. Token costs add up silently. The gap keeps
+widening silently. The mistake silently kills memoization. Performance
+regressions creep in silently. These failures compound silently. Accuracy
+silently decreases. The answer quality may silently degrade. The community has
+been silently increasing. Knowledge silently steals into your heart.
+
+The narrative controls described literal stealth. The thief silently stole the
+keys. The cat crept silently under the table.
+
+The software controls supplied a component, behavior, or failure signal. The
+script silently stops working after the update. The schema field silently
+disappeared from the prompt. The endpoint had been silently degrading response
+quality for three weeks. The structure changes silently when the key is
+misaligned. The formulas return wrong results silently with no error. Without
+alerts, conflicts accumulate silently until a user reports an overwritten
+update. The domain was being silently blocked.
+
+The review also separated hidden-significance claims from concrete technical behavior. The market silently moved. An adjacent note was no better. The relationship silently moved into conflict. After 3 reviews, we know that trust is silently degrading.
+
+One disputed line remained. The API team found a strategy that was silently degrading user trust.
+
+The strategy section made the same mistake. The strategy silently fails. The evidence section offered nothing. The strategy was silently blocked.
+
+Another draft mixed a vague claim with an unrelated detail. The strategy silently blocks automation while the parser logs an error. By contrast, from 20 percent to 30 percent, the market quietly shifted. The endpoint that was silently degrading stopped.
+
+The source list preserved three URL forms without treating their path words as prose. The source is https://example.com/why-systems-silently-fail. The next entry was source=https://example.com/silently-powerful. The final entry was URL:https://example.com/silently-powerful.

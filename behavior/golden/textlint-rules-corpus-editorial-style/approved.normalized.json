@@ -16,7 +16,7 @@
             "line": 3
           }
         },
-        "message": "Coleman-Liau is 13.99. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.05. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 29.32. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 36.93. Keep it at 61 or higher.",
         "range": [
           26,
           27
@@ -62,7 +62,7 @@
             "line": 3
           }
         },
-        "message": "Gunning Fog is 16.2. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 13.13. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -9171,7 +9171,7 @@
       {
         "column": 112,
         "data": {
-          "message": "\"quietly\" used 127 times (20.5 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 128 times (18.6 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -9194,7 +9194,7 @@
             "line": 809
           }
         },
-        "message": "\"quietly\" used 127 times (20.5 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 128 times (18.6 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           30791,
           30798
@@ -11743,6 +11743,2051 @@
           39809
         ],
         "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 40111,
+        "line": 1097,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1101
+          },
+          "start": {
+            "column": 1,
+            "line": 1097
+          }
+        },
+        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          40111,
+          40457
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 40111,
+        "line": 1097,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1101
+          },
+          "start": {
+            "column": 1,
+            "line": 1097
+          }
+        },
+        "message": "Word repeated 6 times in one paragraph: \"silently\". Keep repeated words to 5 or fewer.",
+        "range": [
+          40111,
+          40457
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 32,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              108,
+              116
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40219,
+        "line": 1098,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1098
+          },
+          "start": {
+            "column": 32,
+            "line": 1098
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40219,
+          40227
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 10,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              163,
+              171
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40274,
+        "line": 1099,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1099
+          },
+          "start": {
+            "column": 10,
+            "line": 1099
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40274,
+          40282
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (detached-emphasis). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              226,
+              234
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40337,
+        "line": 1100,
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1100
+          },
+          "start": {
+            "column": 1,
+            "line": 1100
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (detached-emphasis). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40337,
+          40345
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 27,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              252,
+              260
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40363,
+        "line": 1100,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 1100
+          },
+          "start": {
+            "column": 27,
+            "line": 1100
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40363,
+          40371
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 63,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              288,
+              296
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40399,
+        "line": 1100,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 1100
+          },
+          "start": {
+            "column": 63,
+            "line": 1100
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40399,
+          40407
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              322,
+              330
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40433,
+        "line": 1101,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 1101
+          },
+          "start": {
+            "column": 18,
+            "line": 1101
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40433,
+          40441
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 40459,
+        "line": 1103,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1107
+          },
+          "start": {
+            "column": 1,
+            "line": 1103
+          }
+        },
+        "message": "Paragraph has 12 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          40459,
+          40805
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 40459,
+        "line": 1103,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1107
+          },
+          "start": {
+            "column": 1,
+            "line": 1103
+          }
+        },
+        "message": "Word repeated 7 times in one paragraph: \"silently\". Keep repeated words to 5 or fewer.",
+        "range": [
+          40459,
+          40805
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 11,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              84,
+              92
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40543,
+        "line": 1104,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1104
+          },
+          "start": {
+            "column": 11,
+            "line": 1104
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40543,
+          40551
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 58,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              131,
+              139
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40590,
+        "line": 1104,
+        "loc": {
+          "end": {
+            "column": 66,
+            "line": 1104
+          },
+          "start": {
+            "column": 58,
+            "line": 1104
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40590,
+          40598
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "index": 40620,
+        "line": 1105,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1106
+          },
+          "start": {
+            "column": 12,
+            "line": 1105
+          }
+        },
+        "message": "Fragment stack found: Webhooks silently power the whole system. The process silently operates behind the scenes. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          40620,
+          40710
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (background-significance). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              170,
+              178
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40629,
+        "line": 1105,
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 1105
+          },
+          "start": {
+            "column": 21,
+            "line": 1105
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (background-significance). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40629,
+          40637
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              269,
+              277
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40728,
+        "line": 1106,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 1106
+          },
+          "start": {
+            "column": 46,
+            "line": 1106
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40728,
+          40736
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 55,
+        "index": 40737,
+        "line": 1106,
+        "loc": {
+          "end": {
+            "column": 69,
+            "line": 1106
+          },
+          "start": {
+            "column": 55,
+            "line": 1106
+          }
+        },
+        "message": "Prohibited word found: \"transformative\". Rewrite without this term.",
+        "range": [
+          40737,
+          40751
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 16,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              313,
+              321
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40772,
+        "line": 1107,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 1107
+          },
+          "start": {
+            "column": 16,
+            "line": 1107
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40772,
+          40780
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 40,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (detached-emphasis). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              337,
+              345
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40796,
+        "line": 1107,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 1107
+          },
+          "start": {
+            "column": 40,
+            "line": 1107
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (detached-emphasis). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40796,
+          40804
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 40807,
+        "line": 1109,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 1113
+          },
+          "start": {
+            "column": 1,
+            "line": 1109
+          }
+        },
+        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          40807,
+          41146
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 40807,
+        "line": 1109,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 1113
+          },
+          "start": {
+            "column": 1,
+            "line": 1109
+          }
+        },
+        "message": "Word repeated 7 times in one paragraph: \"silently\". Keep repeated words to 5 or fewer.",
+        "range": [
+          40807,
+          41146
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 39,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (unannounced-trend). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              113,
+              121
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40920,
+        "line": 1110,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1110
+          },
+          "start": {
+            "column": 39,
+            "line": 1110
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (unannounced-trend). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40920,
+          40928
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 10,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (unannounced-trend). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              162,
+              170
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40969,
+        "line": 1111,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1111
+          },
+          "start": {
+            "column": 10,
+            "line": 1111
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (unannounced-trend). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40969,
+          40977
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "index": 41005,
+        "line": 1111,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 1111
+          },
+          "start": {
+            "column": 46,
+            "line": 1111
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
+        "range": [
+          41005,
+          41036
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 60,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              212,
+              220
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 41019,
+        "line": 1111,
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 1111
+          },
+          "start": {
+            "column": 60,
+            "line": 1111
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          41019,
+          41027
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 41037,
+        "line": 1112,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1113
+          },
+          "start": {
+            "column": 1,
+            "line": 1112
+          }
+        },
+        "message": "Fragment stack found: while the nurse speaks silently. The strategy silently reshapes the category. The category changed. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          41037,
+          41136
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 47,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              276,
+              284
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 41083,
+        "line": 1112,
+        "loc": {
+          "end": {
+            "column": 55,
+            "line": 1112
+          },
+          "start": {
+            "column": 47,
+            "line": 1112
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          41083,
+          41091
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 23,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (detached-emphasis). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              330,
+              338
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 41137,
+        "line": 1113,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 1113
+          },
+          "start": {
+            "column": 23,
+            "line": 1113
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (detached-emphasis). Name the concrete behavior or remove the adverb.",
+        "range": [
+          41137,
+          41145
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 41148,
+        "line": 1115,
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1118
+          },
+          "start": {
+            "column": 1,
+            "line": 1115
+          }
+        },
+        "message": "Paragraph has 8 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          41148,
+          41392
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 11,
+        "index": 41234,
+        "line": 1116,
+        "loc": {
+          "end": {
+            "column": 65,
+            "line": 1117
+          },
+          "start": {
+            "column": 11,
+            "line": 1116
+          }
+        },
+        "message": "Body-action density: 3 movement cues in a short span (walked, waited, stood).",
+        "range": [
+          41234,
+          41362
+        ],
+        "ruleId": "body-action-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 41424,
+        "line": 1122,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1128
+          },
+          "start": {
+            "column": 1,
+            "line": 1122
+          }
+        },
+        "message": "Paragraph has 16 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          41424,
+          41893
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 41424,
+        "line": 1122,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1128
+          },
+          "start": {
+            "column": 1,
+            "line": 1122
+          }
+        },
+        "message": "Word repeated 9 times in one paragraph: \"silently\". Keep repeated words to 5 or fewer.",
+        "range": [
+          41424,
+          41893
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 63,
+        "index": 41563,
+        "line": 1123,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 1124
+          },
+          "start": {
+            "column": 63,
+            "line": 1123
+          }
+        },
+        "message": "Fragment stack found: The compiler silently ignores the unknown attribute. The API silently truncates the Rewrite the clipped cadence as normal prose.",
+        "range": [
+          41563,
+          41646
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 28,
+        "index": 41747,
+        "line": 1126,
+        "loc": {
+          "end": {
+            "column": 74,
+            "line": 1127
+          },
+          "start": {
+            "column": 28,
+            "line": 1126
+          }
+        },
+        "message": "Fragment stack found: The browser silently blocks the request. The cache silently drops an expired entry. The backup process silently failed after Rewrite the clipped cadence as normal prose.",
+        "range": [
+          41747,
+          41871
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 41895,
+        "line": 1130,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 1131
+          },
+          "start": {
+            "column": 1,
+            "line": 1130
+          }
+        },
+        "message": "Fragment stack found: The measured control stated the change. The market silently shifted from 20 percent to 30 percent. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          41895,
+          41993
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 43,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              42,
+              50
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 42171,
+        "line": 1136,
+        "loc": {
+          "end": {
+            "column": 51,
+            "line": 1136
+          },
+          "start": {
+            "column": 43,
+            "line": 1136
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          42171,
+          42179
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 14,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              11,
+              19
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 42203,
+        "line": 1138,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1138
+          },
+          "start": {
+            "column": 14,
+            "line": 1138
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          42203,
+          42211
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 16,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              13,
+              21
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 42268,
+        "line": 1140,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 1140
+          },
+          "start": {
+            "column": 16,
+            "line": 1140
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          42268,
+          42276
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 18,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              94,
+              102
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 42395,
+        "line": 1143,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 1143
+          },
+          "start": {
+            "column": 18,
+            "line": 1143
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          42395,
+          42403
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              122,
+              130
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 42423,
+        "line": 1143,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 1143
+          },
+          "start": {
+            "column": 46,
+            "line": 1143
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          42423,
+          42431
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 42535,
+        "line": 1146,
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 1151
+          },
+          "start": {
+            "column": 1,
+            "line": 1146
+          }
+        },
+        "message": "Paragraph has 12 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          42535,
+          42917
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 42535,
+        "line": 1146,
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 1151
+          },
+          "start": {
+            "column": 1,
+            "line": 1146
+          }
+        },
+        "message": "Word repeated 6 times in one paragraph: \"silently\". Keep repeated words to 5 or fewer.",
+        "range": [
+          42535,
+          42917
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 42919,
+        "line": 1153,
+        "loc": {
+          "end": {
+            "column": 69,
+            "line": 1159
+          },
+          "start": {
+            "column": 1,
+            "line": 1153
+          }
+        },
+        "message": "Paragraph has 19 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          42919,
+          43437
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 42919,
+        "line": 1153,
+        "loc": {
+          "end": {
+            "column": 69,
+            "line": 1159
+          },
+          "start": {
+            "column": 1,
+            "line": 1153
+          }
+        },
+        "message": "Word repeated 12 times in one paragraph: \"silently\". Keep repeated words to 5 or fewer.",
+        "range": [
+          42919,
+          43437
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              83,
+              91
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43002,
+        "line": 1154,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1154
+          },
+          "start": {
+            "column": 12,
+            "line": 1154
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43002,
+          43010
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 32,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              103,
+              111
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43022,
+        "line": 1154,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1154
+          },
+          "start": {
+            "column": 32,
+            "line": 1154
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43022,
+          43030
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 43067,
+        "line": 1155,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 1156
+          },
+          "start": {
+            "column": 1,
+            "line": 1155
+          }
+        },
+        "message": "Fragment stack found: slow site loses visitors silently. Token costs add up silently. The gap keeps widening silently. The mistake silently kills memoization. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          43067,
+          43203
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 26,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              173,
+              181
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43092,
+        "line": 1155,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 1155
+          },
+          "start": {
+            "column": 26,
+            "line": 1155
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43092,
+          43100
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 55,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              202,
+              210
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43121,
+        "line": 1155,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1155
+          },
+          "start": {
+            "column": 55,
+            "line": 1155
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43121,
+          43129
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 10,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              235,
+              243
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43154,
+        "line": 1156,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1156
+          },
+          "start": {
+            "column": 10,
+            "line": 1156
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43154,
+          43162
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 32,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              257,
+              265
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43176,
+        "line": 1156,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1156
+          },
+          "start": {
+            "column": 32,
+            "line": 1156
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43176,
+          43184
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 22,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              318,
+              326
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43237,
+        "line": 1157,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 1157
+          },
+          "start": {
+            "column": 22,
+            "line": 1157
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43237,
+          43245
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 56,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              352,
+              360
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43271,
+        "line": 1157,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 1157
+          },
+          "start": {
+            "column": 56,
+            "line": 1157
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43271,
+          43279
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              371,
+              379
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43290,
+        "line": 1158,
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1158
+          },
+          "start": {
+            "column": 1,
+            "line": 1158
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43290,
+          43298
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 44,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              414,
+              422
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43333,
+        "line": 1158,
+        "loc": {
+          "end": {
+            "column": 52,
+            "line": 1158
+          },
+          "start": {
+            "column": 44,
+            "line": 1158
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43333,
+          43341
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 6,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              455,
+              463
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43374,
+        "line": 1159,
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 1159
+          },
+          "start": {
+            "column": 6,
+            "line": 1159
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43374,
+          43382
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 37,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              486,
+              494
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43405,
+        "line": 1159,
+        "loc": {
+          "end": {
+            "column": 45,
+            "line": 1159
+          },
+          "start": {
+            "column": 37,
+            "line": 1159
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43405,
+          43413
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 43565,
+        "line": 1164,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1170
+          },
+          "start": {
+            "column": 1,
+            "line": 1164
+          }
+        },
+        "message": "Paragraph has 14 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          43565,
+          44065
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 43565,
+        "line": 1164,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1170
+          },
+          "start": {
+            "column": 1,
+            "line": 1164
+          }
+        },
+        "message": "Word repeated 7 times in one paragraph: \"silently\". Keep repeated words to 5 or fewer.",
+        "range": [
+          43565,
+          44065
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 30,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              409,
+              417
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 43974,
+        "line": 1169,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1169
+          },
+          "start": {
+            "column": 30,
+            "line": 1169
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          43974,
+          43982
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 88,
+        "index": 44154,
+        "line": 1172,
+        "loc": {
+          "end": {
+            "column": 114,
+            "line": 1172
+          },
+          "start": {
+            "column": 88,
+            "line": 1172
+          }
+        },
+        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {weakMannerAdverb} {finiteChange}.",
+        "range": [
+          44154,
+          44180
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 99,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              98,
+              106
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 44165,
+        "line": 1172,
+        "loc": {
+          "end": {
+            "column": 107,
+            "line": 1172
+          },
+          "start": {
+            "column": 99,
+            "line": 1172
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          44165,
+          44173
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 164,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              163,
+              171
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 44230,
+        "line": 1172,
+        "loc": {
+          "end": {
+            "column": 172,
+            "line": 1172
+          },
+          "start": {
+            "column": 164,
+            "line": 1172
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          44230,
+          44238
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 233,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              232,
+              240
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 44299,
+        "line": 1172,
+        "loc": {
+          "end": {
+            "column": 241,
+            "line": 1172
+          },
+          "start": {
+            "column": 233,
+            "line": 1172
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          44299,
+          44307
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 68,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              67,
+              75
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 44387,
+        "line": 1174,
+        "loc": {
+          "end": {
+            "column": 76,
+            "line": 1174
+          },
+          "start": {
+            "column": 68,
+            "line": 1174
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
+        "range": [
+          44387,
+          44395
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 58,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              57,
+              65
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 44476,
+        "line": 1176,
+        "loc": {
+          "end": {
+            "column": 66,
+            "line": 1176
+          },
+          "start": {
+            "column": 58,
+            "line": 1176
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          44476,
+          44484
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 129,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              128,
+              136
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 44547,
+        "line": 1176,
+        "loc": {
+          "end": {
+            "column": 137,
+            "line": 1176
+          },
+          "start": {
+            "column": 129,
+            "line": 1176
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          44547,
+          44555
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 74,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              73,
+              81
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 44639,
+        "line": 1178,
+        "loc": {
+          "end": {
+            "column": 82,
+            "line": 1178
+          },
+          "start": {
+            "column": 74,
+            "line": 1178
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (hidden-harm). Name the concrete behavior or remove the adverb.",
+        "range": [
+          44639,
+          44647
+        ],
+        "ruleId": "silently-filler",
         "severity": 1,
         "type": "lint"
       }
