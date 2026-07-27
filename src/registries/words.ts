@@ -5,6 +5,7 @@ import llmVocabulary from "../rules/words/llm-vocabulary.js";
 import prohibitedWords from "../rules/words/prohibited-words.js";
 import quietlyFiller from "../rules/words/quietly-filler.js";
 import quietlyOveruse from "../rules/words/quietly-overuse.js";
+import silentlyFiller from "../rules/words/silently-filler.js";
 import simplicity from "../rules/words/simplicity.js";
 
 export const wordRules = {
@@ -15,5 +16,6 @@ export const wordRules = {
   "prohibited-words": prohibitedWords,
   "quietly-filler": quietlyFiller,
   "quietly-overuse": quietlyOveruse,
+  "silently-filler": silentlyFiller,
   simplicity
 };

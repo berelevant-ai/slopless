@@ -44,6 +44,7 @@ export const everything = {
     "prohibited-words": true,
     "quietly-filler": true,
     "quietly-overuse": true,
+    "silently-filler": true,
     "recommended-terms": true,
     redundancy: true,
     "repeated-predicate-end": true,

@@ -1,14 +1,22 @@
 import { wordTokens, type Token } from "../../../shared/text/tokens.js";
-import quietlyContextVocabulary from "../data/quietly-context.json" with { type: "json" };
-import { quietlyClauseFor } from "./quietly-clause.js";
+import hiddenSignificanceVocabulary from "../data/hidden-significance-context.json" with { type: "json" };
+import { hiddenSignificanceClauseFor } from "./hidden-significance-clause.js";
 import {
   hasDetachedCompanion,
-  hasInformativeChangeEvidence,
-  hasLinkedTechnicalEvidence,
-  hasSpecifiedTechnicalEvidence
-} from "./quietly-evidence.js";
+  hasInformativeChangeEvidence
+} from "./hidden-significance-evidence.js";
+import {
+  hiddenSignificanceTargetConfiguration,
+  isNormalTechnicalUse,
+  matchesPairGroup,
+  matchesRequiredPairGroup,
+  type HiddenSignificanceTarget,
+  type HiddenSignificanceTargetConfiguration
+} from "./hidden-significance-targets.js";
 
-export type QuietlyContextClass =
+export type { HiddenSignificanceTarget } from "./hidden-significance-targets.js";
+
+export type HiddenSignificanceContextClass =
   | "abstract-change"
   | "background-significance"
   | "detached-emphasis"
@@ -16,61 +24,76 @@ export type QuietlyContextClass =
   | "hidden-harm"
   | "unannounced-trend";
 
-export type QuietlyContextMatch = {
+export type HiddenSignificanceContextMatch = {
   readonly evidence: string;
-  readonly label: QuietlyContextClass;
+  readonly label: HiddenSignificanceContextClass;
   readonly range: {
     readonly end: number;
     readonly start: number;
   };
 };
 
-const TARGET = "quietly";
 const DETACHED_EXPLANATION_WORDS = new Set(
-  quietlyContextVocabulary.detachedExplanationWords
+  hiddenSignificanceVocabulary.detachedExplanationWords
 );
 const DETACHED_RESULT_WORDS = new Set(
-  quietlyContextVocabulary.detachedResultWords
+  hiddenSignificanceVocabulary.detachedResultWords
 );
-const AUXILIARIES = new Set(quietlyContextVocabulary.auxiliaries);
-const EVALUATIVE_WORDS = new Set(quietlyContextVocabulary.evaluativeWords);
+const AUXILIARIES = new Set(hiddenSignificanceVocabulary.auxiliaries);
+const EVALUATIVE_WORDS = new Set(hiddenSignificanceVocabulary.evaluativeWords);
 const ABSTRACT_CHANGE_WORDS = new Set(
-  quietlyContextVocabulary.abstractChangeWords
+  hiddenSignificanceVocabulary.abstractChangeWords
 );
 const STRONG_ABSTRACT_CHANGE_WORDS = new Set(
-  quietlyContextVocabulary.strongAbstractChangeWords
+  hiddenSignificanceVocabulary.strongAbstractChangeWords
 );
 const ABSTRACT_SUBJECT_WORDS = new Set(
-  quietlyContextVocabulary.abstractSubjectWords
+  hiddenSignificanceVocabulary.abstractSubjectWords
 );
-const HIDDEN_HARM_WORDS = new Set(quietlyContextVocabulary.hiddenHarmWords);
+const HIDDEN_HARM_WORDS = new Set(hiddenSignificanceVocabulary.hiddenHarmWords);
 const BACKGROUND_ACTION_WORDS = new Set(
-  quietlyContextVocabulary.backgroundActionWords
+  hiddenSignificanceVocabulary.backgroundActionWords
 );
 const BACKGROUND_SIGNIFICANCE_WORDS = new Set(
-  quietlyContextVocabulary.backgroundSignificanceWords
+  hiddenSignificanceVocabulary.backgroundSignificanceWords
 );
-const TREND_ACTION_WORDS = new Set(quietlyContextVocabulary.trendActionWords);
-const TREND_SUBJECT_WORDS = new Set(quietlyContextVocabulary.trendSubjectWords);
-const TITLE_CONTEXT_WORDS = new Set(quietlyContextVocabulary.titleContextWords);
-const NORMAL_MANNER_WORDS = new Set(quietlyContextVocabulary.normalMannerWords);
+const TREND_ACTION_WORDS = new Set(
+  hiddenSignificanceVocabulary.trendActionWords
+);
+const TREND_SUBJECT_WORDS = new Set(
+  hiddenSignificanceVocabulary.trendSubjectWords
+);
+const TITLE_CONTEXT_WORDS = new Set(
+  hiddenSignificanceVocabulary.titleContextWords
+);
+const NORMAL_MANNER_WORDS = new Set(
+  hiddenSignificanceVocabulary.normalMannerWords
+);
 const PRIVATE_ACTION_WORDS = new Set(
-  quietlyContextVocabulary.privateActionWords
+  hiddenSignificanceVocabulary.privateActionWords
 );
-const SPECIFIED_TECHNICAL_WORDS = new Set(
-  quietlyContextVocabulary.specifiedTechnicalWords
-);
-
-type PairGroup = {
-  readonly actions: readonly string[];
-  readonly markers: readonly string[];
-};
-
 function containsAny(
   words: readonly string[],
   candidates: ReadonlySet<string>
 ): boolean {
   return words.some((word) => candidates.has(word));
+}
+
+function isInsideUrl(text: string, token: Token): boolean {
+  const lowerText = text.toLowerCase();
+  const start = Math.max(
+    lowerText.lastIndexOf("http://", token.start),
+    lowerText.lastIndexOf("https://", token.start)
+  );
+  if (start < 0) {
+    return false;
+  }
+
+  const terminators = new Set([" ", "\n", "\t", '"', "'", "<", ">", "(", ")"]);
+  return !text
+    .slice(start, token.start)
+    .split("")
+    .some((character) => terminators.has(character));
 }
 
 function governingWords(
@@ -102,30 +125,6 @@ function wordsNear(
   return tokens
     .slice(Math.max(0, index - radius), index + radius + 1)
     .map((token) => token.normalized);
-}
-
-function matchesPairGroup(
-  localWords: readonly string[],
-  allWords: readonly string[],
-  groups: readonly PairGroup[]
-): boolean {
-  return groups.some(
-    ({ actions, markers }) =>
-      actions.some((word) => localWords.includes(word)) &&
-      markers.some((word) => allWords.includes(word))
-  );
-}
-
-function matchesRequiredPairGroup(
-  localWords: readonly string[],
-  allWords: readonly string[],
-  groups: readonly PairGroup[]
-): boolean {
-  return groups.some(
-    ({ actions, markers }) =>
-      actions.some((word) => localWords.includes(word)) &&
-      markers.every((word) => allWords.includes(word))
-  );
 }
 
 function isFirstPersonBuild(
@@ -175,7 +174,7 @@ function isAbstractChangeContext(
     matchesRequiredPairGroup(
       localWords,
       sentenceWords,
-      quietlyContextVocabulary.abstractChangePairGroups
+      hiddenSignificanceVocabulary.abstractChangePairGroups
     );
 
   return (
@@ -188,11 +187,12 @@ function isNormalUse(
   text: string,
   tokens: readonly Token[],
   index: number,
-  label: QuietlyContextClass | undefined,
+  label: HiddenSignificanceContextClass | undefined,
   sentenceTokens: readonly Token[],
-  sentenceIndex: number
+  sentenceIndex: number,
+  target: HiddenSignificanceTargetConfiguration
 ): boolean {
-  const allWords = tokens.map((token) => token.normalized);
+  const sentenceWords = sentenceTokens.map((token) => token.normalized);
   if (containsAny(wordsNear(tokens, index, 5), TITLE_CONTEXT_WORDS)) {
     return true;
   }
@@ -200,15 +200,32 @@ function isNormalUse(
   const localWords = governingWords(tokens, index);
   if (
     (label === undefined && containsAny(localWords, NORMAL_MANNER_WORDS)) ||
-    containsAny(localWords, PRIVATE_ACTION_WORDS)
+    containsAny(localWords, PRIVATE_ACTION_WORDS) ||
+    (containsAny(localWords, target.actorMannerWords) &&
+      containsAny(wordsNear(tokens, index, 6), target.actorWords))
   ) {
     return true;
   }
 
-  return (
-    containsAny(localWords, SPECIFIED_TECHNICAL_WORDS) &&
-    (hasSpecifiedTechnicalEvidence(allWords) ||
-      hasLinkedTechnicalEvidence(text, sentenceTokens, sentenceIndex))
+  const localClauseWords = wordsNear(tokens, index, 12);
+  if (
+    label === "abstract-change" &&
+    target.technicalBoundary === "technical-context" &&
+    localClauseWords.some((word) => target.technicalEvidenceWords.has(word)) &&
+    sentenceWords.includes("without") &&
+    (sentenceWords.includes("until") || sentenceWords.includes("when"))
+  ) {
+    return true;
+  }
+
+  return isNormalTechnicalUse(
+    text,
+    tokens,
+    index,
+    localWords,
+    sentenceTokens,
+    sentenceIndex,
+    target
   );
 }
 
@@ -218,7 +235,7 @@ function contextClassFor(
   index: number,
   sentenceTokens: readonly Token[],
   sentenceIndex: number
-): QuietlyContextClass | undefined {
+): HiddenSignificanceContextClass | undefined {
   const words = tokens.map((token) => token.normalized);
   const sentenceWords = sentenceTokens.map((token) => token.normalized);
   if (sentenceTokens.length === 1) {
@@ -252,7 +269,7 @@ function contextClassFor(
     matchesPairGroup(
       localWords,
       wordsNear(tokens, index, 8),
-      quietlyContextVocabulary.hiddenHarmPairGroups
+      hiddenSignificanceVocabulary.hiddenHarmPairGroups
     )
   ) {
     return "hidden-harm";
@@ -280,7 +297,7 @@ function contextClassFor(
     matchesRequiredPairGroup(
       localWords,
       words,
-      quietlyContextVocabulary.backgroundPhraseGroups
+      hiddenSignificanceVocabulary.backgroundPhraseGroups
     )
   ) {
     return "background-significance";
@@ -293,7 +310,7 @@ function contextClassFor(
     matchesRequiredPairGroup(
       localWords,
       words,
-      quietlyContextVocabulary.trendPhraseGroups
+      hiddenSignificanceVocabulary.trendPhraseGroups
     )
   ) {
     return "unannounced-trend";
@@ -302,19 +319,21 @@ function contextClassFor(
   return undefined;
 }
 
-export function findQuietlyContextMatches(
-  text: string
-): readonly QuietlyContextMatch[] {
+export function findHiddenSignificanceContextMatches(
+  text: string,
+  targetName: HiddenSignificanceTarget
+): readonly HiddenSignificanceContextMatch[] {
+  const target = hiddenSignificanceTargetConfiguration(targetName);
   const tokens = wordTokens(text);
-  const matches: QuietlyContextMatch[] = [];
+  const matches: HiddenSignificanceContextMatch[] = [];
 
   for (let index = 0; index < tokens.length; index += 1) {
     const token = tokens[index];
-    if (token?.normalized !== TARGET) {
+    if (token?.normalized !== target.token || isInsideUrl(text, token)) {
       continue;
     }
 
-    const clause = quietlyClauseFor(text, tokens, index);
+    const clause = hiddenSignificanceClauseFor(text, tokens, index);
     const label = contextClassFor(
       text,
       clause.tokens,
@@ -324,7 +343,15 @@ export function findQuietlyContextMatches(
     );
     if (
       label === undefined ||
-      isNormalUse(text, clause.tokens, clause.index, label, tokens, index)
+      isNormalUse(
+        text,
+        clause.tokens,
+        clause.index,
+        label,
+        tokens,
+        index,
+        target
+      )
     ) {
       continue;
     }

@@ -1,0 +1,295 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": [
+        "builtin:tree"
+      ],
+      "reason": "Plan: shared hidden-significance modules, separate public rules, registry and preset wiring, package export, fixtures, corpus reviews, and removal of quietly-named private modules",
+      "required": [
+        "src/rules/words/quietly-filler.ts",
+        "src/rules/words/silently-filler.ts",
+        "src/rules/words/private/hidden-significance-context.ts",
+        "src/rules/words/private/hidden-significance-targets.ts",
+        "src/rules/words/private/hidden-significance-clause.ts",
+        "src/rules/words/private/hidden-significance-evidence.ts",
+        "src/rules/words/data/hidden-significance-context.json",
+        "src/registries/words.ts",
+        "src/presets/everything.ts",
+        "package.json",
+        "behavior/fixtures/textlint-rules/cases/words/hits.md",
+        "behavior/fixtures/textlint-rules/cases/words/no-hits.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.md",
+        "behavior/fixtures/textlint-rules/corpus/editorial-style.preserve.json",
+        "behavior/analysis/silently-human-reviewed.json",
+        "behavior/analysis/silently-ai-reviewed.json"
+      ],
+      "forbidden": [
+        "src/rules/words/private/quietly-context.ts",
+        "src/rules/words/private/quietly-clause.ts",
+        "src/rules/words/private/quietly-evidence.ts",
+        "src/rules/words/data/quietly-context.json",
+        "src/rules/words/private/silently-context.ts",
+        "src/rules/words/private/silently-clause.ts",
+        "src/rules/words/private/silently-evidence.ts",
+        "src/rules/words/data/silently-context.json",
+        "src/rules/words/silently-overuse.ts"
+      ]
+    },
+    "content": [
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/rules/words/private/hidden-significance-context.ts"
+        ],
+        "reason": "Shared Context Classifier 2-5: the private matcher has typed target configuration, exports the shared classification contract, retains all six classes, and delegates clause and evidence handling",
+        "required": [
+          "wordTokens",
+          "type HiddenSignificanceTarget",
+          "export type HiddenSignificanceContextClass",
+          "export type HiddenSignificanceContextMatch",
+          "export function findHiddenSignificanceContextMatches",
+          "../data/hidden-significance-context.json",
+          "./hidden-significance-clause.js",
+          "./hidden-significance-evidence.js",
+          "./hidden-significance-targets.js",
+          "\"abstract-change\"",
+          "\"background-significance\"",
+          "\"detached-emphasis\"",
+          "\"evaluative-intensifier\"",
+          "\"hidden-harm\"",
+          "\"unannounced-trend\""
+        ],
+        "forbidden": [
+          "findQuietlyContextMatches",
+          "QuietlyContextClass",
+          "QuietlyContextMatch",
+          "quietlyClauseFor",
+          "quietly-context.json",
+          "quietly-evidence.js"
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/rules/words/private/hidden-significance-clause.ts"
+        ],
+        "reason": "Shared Context Classifier 1 and 4: the renamed private clause module exports clause-local selection without target-specific naming",
+        "required": [
+          "export type HiddenSignificanceClause",
+          "export function hiddenSignificanceClauseFor",
+          "BOUNDARY_WORDS"
+        ],
+        "forbidden": [
+          "QuietlyClause",
+          "quietlyClauseFor"
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/rules/words/private/hidden-significance-evidence.ts"
+        ],
+        "reason": "Shared Context Classifier 1 and Silently Boundary 4: the renamed private evidence module retains the shared evidence gates and reads shared vocabulary",
+        "required": [
+          "../data/hidden-significance-context.json",
+          "export function hasDetachedCompanion",
+          "export function hasInformativeChangeEvidence",
+          "export function hasLinkedMeasurementEvidence",
+          "export function hasLinkedTechnicalSubjectEvidence",
+          "export function hasLinkedTechnicalEvidence",
+          "export function hasSpecifiedTechnicalEvidence"
+        ],
+        "forbidden": [
+          "quietly-context.json"
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/rules/words/data/hidden-significance-context.json"
+        ],
+        "reason": "Shared Context Classifier 1 and Silently Boundary 1: one shared vocabulary carries separate quietly and silently target configurations",
+        "required": [
+          "\"quietly\"",
+          "\"silently\"",
+          "\"evaluativeWords\"",
+          "\"abstractChangeWords\"",
+          "\"hiddenHarmWords\"",
+          "\"backgroundSignificanceWords\"",
+          "\"trendActionWords\"",
+          "\"normalMannerWords\"",
+          "\"privateActionWords\"",
+          "\"specifiedTechnicalWords\"",
+          "\"technicalEvidenceWords\""
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/rules/words/quietly-filler.ts"
+        ],
+        "reason": "Shared Context Classifier 5 and Public Rule: quietly remains a separate default-exported sentence warning wired to the shared matcher with its target",
+        "required": [
+          "./private/hidden-significance-context.js",
+          "findHiddenSignificanceContextMatches",
+          "\"quietly\"",
+          "\"words:quietly-filler\"",
+          "family: \"words\"",
+          "severity: 1",
+          "unitKind: \"sentence\"",
+          "export default rule;"
+        ],
+        "forbidden": [
+          "./private/quietly-context.js"
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/rules/words/silently-filler.ts"
+        ],
+        "reason": "Public Rule 1-2: silently is a separate default-exported severity-1 sentence rule wired to the shared matcher with exact-token matching delegated to that matcher",
+        "required": [
+          "./private/hidden-significance-context.js",
+          "findHiddenSignificanceContextMatches",
+          "\"silently\"",
+          "\"words:silently-filler\"",
+          "family: \"words\"",
+          "severity: 1",
+          "unitKind: \"sentence\"",
+          "export default rule;"
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/registries/words.ts"
+        ],
+        "reason": "Public Rule 3: the words registry imports and exposes both independent contextual rules",
+        "required": [
+          "../rules/words/quietly-filler.js",
+          "../rules/words/silently-filler.js",
+          "\"quietly-filler\": quietlyFiller",
+          "\"silently-filler\": silentlyFiller"
+        ],
+        "forbidden": [
+          "rules/words/private/hidden-significance",
+          "rules/words/data/hidden-significance",
+          "../rules/words/silently-overuse.js",
+          "\"silently-overuse\""
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/presets/everything.ts"
+        ],
+        "reason": "Public Rule 3: the everything preset enables both independent contextual rules",
+        "required": [
+          "\"quietly-filler\": true",
+          "\"silently-filler\": true"
+        ],
+        "forbidden": [
+          "hidden-significance",
+          "\"silently-overuse\""
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "package.json"
+        ],
+        "reason": "Public Rule 4, Release 1, and private boundary: bump the patch version, export both public rules, and do not expose private classifier or data modules",
+        "required": [
+          "\"version\": \"0.2.31\"",
+          "\"./rules/words/quietly-filler\": \"./dist/rules/words/quietly-filler.js\"",
+          "\"./rules/words/silently-filler\": \"./dist/rules/words/silently-filler.js\""
+        ],
+        "forbidden": [
+          "\"./rules/words/private/",
+          "\"./rules/words/data/hidden-significance-context\"",
+          "\"./rules/words/silently-overuse\"",
+          "./dist/rules/words/private/",
+          "./dist/rules/words/data/hidden-significance-context.js"
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "behavior/analysis/silently-human-reviewed.json",
+          "behavior/analysis/silently-ai-reviewed.json"
+        ],
+        "reason": "Fixtures And Corpus Audit 4-6: reviewed occurrences retain their source, sentence, verdict, and warning class",
+        "required": [
+          "\"sourceFile\"",
+          "\"sourcePath\"",
+          "\"line\"",
+          "\"sentence\"",
+          "\"verdict\"",
+          "\"warningClass\""
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/**/*.ts"
+        ],
+        "reason": "Shared Context Classifier 1 and private module boundary: source code no longer names or imports the removed quietly-specific private modules",
+        "forbidden": [
+          "private/quietly-context",
+          "private/quietly-clause",
+          "private/quietly-evidence",
+          "data/quietly-context.json"
+        ]
+      },
+      {
+        "verifier": [
+          "builtin:content"
+        ],
+        "files": [
+          "src/rules/words/private/hidden-significance-targets.ts"
+        ],
+        "reason": "Shared Context Classifier 2-5: target-specific boundaries are typed and selected through one configuration entry point",
+        "required": [
+          "export type HiddenSignificanceTarget",
+          "export type HiddenSignificanceTargetConfiguration",
+          "readonly token: HiddenSignificanceTarget",
+          "export function hiddenSignificanceTargetConfiguration",
+          "export function hasPostposedTechnicalAction",
+          "export function isNormalTechnicalUse",
+          "export function isPassiveTechnicalUse",
+          "export function matchesPairGroup",
+          "export function matchesRequiredPairGroup",
+          "../data/hidden-significance-context.json"
+        ],
+        "forbidden": [
+          "quietly-context.json",
+          "silently-context.json"
+        ]
+      }
+    ]
+  }
+}
