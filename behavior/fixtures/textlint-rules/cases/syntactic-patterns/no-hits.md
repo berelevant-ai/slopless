@@ -593,3 +593,39 @@ That is a remarkable piece of Renaissance sculpture.
 This is the important point on the map.
 
 Here is the key element in the periodic table.
+
+Some of the largest tectonic shifts in Chile came from the 1960 earthquake.
+
+Some of the biggest shifts in the survey occurred after the 2024 tax change.
+
+Three leadership shifts came from the merger.
+
+Some of the best ideas in design came from 18 customer interviews.
+
+Some of the most important lessons in the manual come from chapter 4.
+
+Some of the biggest changes in the API came from the version 3 migration.
+
+Many of the strongest skills in the cohort improved after a 12-week course.
+
+Some of the greatest advances in battery chemistry came from lithium iron phosphate cathodes.
+
+Some of the deepest insights in the report came from interviews with 42 users.
+
+Some of the best decisions in the project came from the audit on May 4.
+
+Some of the largest shifts in the fault line came from the earthquake.
+
+The biggest shift in leadership came from the acquisition.
+
+Some leadership changes came from the merger.
+
+Some of the biggest shifts outside work affected leadership.
+
+Some of the most valuable lessons in life were taught by her grandmother.
+
+Many of the best ideas in design came from sketches made by Elena.
+
+Some of the strongest skills in management came from the 2025 training program.
+
+Some of the deepest changes in careers came from layoffs at Acme in March.

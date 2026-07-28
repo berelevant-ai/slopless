@@ -1153,3 +1153,43 @@ The final records named the measured transition. This marks a 4-point shift in t
 The grammatical controls kept the same verb forms but supplied measurements, causes, or before-and-after states. The platform subtly evolves after each weekly model update. The market quietly shifted 3 points after the rate announcement. The web was silently transforming 40 records per second.
 
 The final controls named both endpoints or the physical cause. The industry has quietly changed from annual contracts to monthly plans. The model had quietly changed from version 2 to version 3. The system shifted quietly after the operator replaced the worn bearing.
+
+## Total-impact claims
+
+The strategy draft repeatedly announced total consequences without naming any consequence. That shift changed everything. This shift changes everything. The shift transformed everything. That change reshaped everything.
+
+The next section repeated the claim with decisions and moves. This decision changed the whole picture. The move made all the difference. That experience changed everything. This result transformed everything.
+
+The closing paragraph varied tense but supplied no result. The decision reshapes everything. That move changed the whole picture. The change made all the difference. The experience changed everything.
+
+The engineering notes used similar words for bounded changes. That shift changed every API route from version 1 to version 2. That shift changed everything because it removed the last failing repayment case. That shift changed everything in the gearbox by moving the input shaft 4 millimeters. The shift transformed 400 records per second.
+
+The operations record supplied dates and measurements. This decision changed the repayment date to July 1. The move made a 14 percent difference in missed appointments. That experience changed every scheduled interview. The shift changed the whole picture in the dashboard by adding regional totals.
+
+The last controls named the object, mechanism, or cause. This result transformed the image by rotating every pixel 90 degrees. The change reshaped every column in the export. The decision made all the difference because it funded the second clinic. The experience changed everything after the storm closed the bridge at 8:13.
+
+## Vague sources of important change
+
+The leadership draft generalized from unnamed experiences and abstract sources. Some of the biggest shifts in leadership come from experiences outside work. Some of the greatest lessons in business come from failure. Many of the deepest insights in leadership emerge from adversity.
+
+The design and management sections used the same frame. Some of the best ideas in design come from unexpected places. Some of the strongest skills in management grow from setbacks. Many of the most valuable lessons in life come from discomfort.
+
+The career and technology sections continued without naming evidence. Some of the most meaningful changes in careers start with failure. Some of the biggest breakthroughs in technology emerge from challenges. Many of the most useful insights in writing come from ordinary moments.
+
+The conclusion varied the abstract outcome. Some of the greatest improvements in strategy begin with adversity. Some of the best decisions in business came from experience. Many of the strongest skills in leadership grew from experiences outside work.
+
+The last claims changed tense and source words. Some of the biggest advances in technology emerged from failures. Some of the deepest lessons in growth started with setbacks. Many of the most important ideas in management began with discomfort.
+
+The final paragraph removed the domain from one claim but retained the same vague source. Some of the greatest shifts in work come from elsewhere. Many of the biggest changes in life grow from challenges. Some of the most valuable breakthroughs come from unexpected places.
+
+The review controls named measurements, events, people, records, or narrower grammar. Some of the largest tectonic shifts in Chile came from the 1960 earthquake. Some of the biggest shifts in the survey occurred after the 2024 tax change. Three leadership shifts came from the merger.
+
+The next controls named the evidence source. Some of the best ideas in design came from 18 customer interviews. Some of the most important lessons in the manual come from chapter 4. Some of the biggest changes in the API came from the version 3 migration.
+
+The training and research controls supplied specific interventions or materials. Many of the strongest skills in the cohort improved after a 12-week course. Some of the greatest advances in battery chemistry came from lithium iron phosphate cathodes. Some of the deepest insights in the report came from interviews with 42 users.
+
+The project and geology records named events and dates. Some of the best decisions in the project came from the audit on May 4. Some of the largest shifts in the fault line came from the earthquake. The biggest shift in leadership came from the acquisition.
+
+The grammatical controls omitted the required frame or reversed its parts. Some leadership changes came from the merger. Some of the biggest shifts outside work affected leadership.
+
+The final records named people, programs, and employers. Some of the most valuable lessons in life were taught by her grandmother. Many of the best ideas in design came from sketches made by Elena. Some of the strongest skills in management came from the 2025 training program. Some of the deepest changes in careers came from layoffs at Acme in March.

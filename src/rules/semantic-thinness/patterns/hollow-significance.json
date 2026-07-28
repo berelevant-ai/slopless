@@ -16,7 +16,15 @@
     "{abstractSubject} now has {abstractPlural}, and the {abstractPlural} can {weakVerb}.",
     "{abstractSubject} still has work to do.",
     "{summarySubject} {linkingVerb} the part that {stickVerb}.",
-    "{deicticSubject} {changePhrase}."
+    "{deicticSubject} {changePhrase}.",
+    {
+      "text": "{totalImpactSubject} {totalImpactVerb} {totalImpactObject}.",
+      "matchMode": "full"
+    },
+    {
+      "text": "{totalImpactSubject} {differenceVerb} all the difference.",
+      "matchMode": "full"
+    }
   ],
   "slots": {
     "deicticSubject": [
@@ -159,6 +167,36 @@
       "mattered more than it seemed",
       "stuck with them"
     ],
+    "totalImpactSubject": [
+      "this shift",
+      "that shift",
+      "the shift",
+      "this change",
+      "that change",
+      "the change",
+      "this decision",
+      "that decision",
+      "the decision",
+      "this move",
+      "that move",
+      "the move",
+      "this experience",
+      "that experience",
+      "the experience",
+      "this result",
+      "that result",
+      "the result"
+    ],
+    "totalImpactVerb": [
+      "changed",
+      "changes",
+      "transformed",
+      "transforms",
+      "reshaped",
+      "reshapes"
+    ],
+    "totalImpactObject": ["everything", "the whole picture"],
+    "differenceVerb": ["made", "makes"],
     "intensifier": [
       "more than it seemed",
       "more than expected",
