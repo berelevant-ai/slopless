@@ -92,6 +92,127 @@ const GROUP_BEHAVIOR_GERUNDS = [
   "wondering"
 ];
 const BROAD_GROUP_LEADS = ["many", "most"];
+const IMPORTANCE_QUALIFIERS = [
+  ["most", "important"],
+  ["most", "meaningful"],
+  ["most", "useful"],
+  ["most", "valuable"],
+  ["biggest"],
+  ["best"],
+  ["deepest"],
+  ["greatest"],
+  ["strongest"]
+] as const;
+const ABSTRACT_OUTCOMES = [
+  "advances",
+  "breakthroughs",
+  "changes",
+  "decisions",
+  "ideas",
+  "improvements",
+  "insights",
+  "lessons",
+  "shifts",
+  "skills"
+];
+const ABSTRACT_DOMAINS = [
+  "business",
+  "careers",
+  "design",
+  "growth",
+  "leadership",
+  "life",
+  "management",
+  "strategy",
+  "technology",
+  "work",
+  "writing"
+];
+const SOURCE_PREDICATES = [
+  ["come", "from"],
+  ["came", "from"],
+  ["grow", "from"],
+  ["grew", "from"],
+  ["emerge", "from"],
+  ["emerged", "from"],
+  ["start", "with"],
+  ["started", "with"],
+  ["begin", "with"],
+  ["began", "with"]
+] as const;
+const VAGUE_SOURCES = [
+  ["experiences", "outside", "work"],
+  ["unexpected", "places"],
+  ["ordinary", "moments"],
+  ["adversity"],
+  ["challenge"],
+  ["challenges"],
+  ["discomfort"],
+  ["elsewhere"],
+  ["experience"],
+  ["experiences"],
+  ["failure"],
+  ["failures"],
+  ["setback"],
+  ["setbacks"]
+] as const;
+
+function phraseLengthAt(
+  words: readonly string[],
+  index: number,
+  phrases: readonly (readonly string[])[]
+): number | undefined {
+  for (const phrase of phrases) {
+    if (startsWithWords(words.slice(index), phrase)) {
+      return phrase.length;
+    }
+  }
+
+  return undefined;
+}
+
+function matchVagueSuperlativeSource(
+  words: readonly string[]
+): string | undefined {
+  if (words[0] !== "some" && words[0] !== "many") {
+    return undefined;
+  }
+  if (words[1] !== "of" || words[2] !== "the") {
+    return undefined;
+  }
+
+  let index = 3;
+  const qualifierLength = phraseLengthAt(words, index, IMPORTANCE_QUALIFIERS);
+  if (qualifierLength === undefined) {
+    return undefined;
+  }
+  index += qualifierLength;
+
+  if (!ABSTRACT_OUTCOMES.includes(words[index] ?? "")) {
+    return undefined;
+  }
+  index += 1;
+
+  if (words[index] === "in") {
+    if (!ABSTRACT_DOMAINS.includes(words[index + 1] ?? "")) {
+      return undefined;
+    }
+    index += 2;
+  }
+
+  const predicateLength = phraseLengthAt(words, index, SOURCE_PREDICATES);
+  if (predicateLength === undefined) {
+    return undefined;
+  }
+  index += predicateLength;
+
+  const sourceLength = phraseLengthAt(words, index, VAGUE_SOURCES);
+  if (sourceLength === undefined || index + sourceLength !== words.length) {
+    return undefined;
+  }
+
+  return words.join(" ");
+}
 
 function matchGroupBehavior(words: readonly string[]): string | undefined {
   const [first, subject, third, gerund] = words;
@@ -114,6 +235,11 @@ function matchGroupBehavior(words: readonly string[]): string | undefined {
 function matchUniversalizing(sentence: string): string | undefined {
   const cleaned = cleanSentence(sentence, PREFIXES);
   const words = tokens(cleaned);
+  const vagueSource = matchVagueSuperlativeSource(words);
+  if (vagueSource !== undefined) {
+    return vagueSource;
+  }
+
   const group = matchGroupBehavior(words);
 
   if (group !== undefined) {

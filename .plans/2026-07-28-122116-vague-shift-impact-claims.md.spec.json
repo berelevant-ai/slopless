@@ -1,0 +1,45 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "The plan extends two existing rules and their public fixtures without adding a new rule.",
+      "required": [
+        "src/rules/semantic-thinness/patterns/hollow-significance.json",
+        "src/rules/syntactic-patterns/generalization/universalizing-claims.ts",
+        "behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md",
+        "behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
+        "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.md",
+        "behavior/fixtures/textlint-rules/corpus/engineering-review.preserve.json",
+        "package.json"
+      ],
+      "forbidden": [
+        "src/rules/**/vague-shift-impact-claims.ts",
+        "src/rules/**/vague-shift-impact-claims.json"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/semantic-thinness/patterns/hollow-significance.json"],
+        "reason": "Retain and extend the existing semantic pattern.",
+        "required": ["\"id\": \"hollow-significance\""]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/generalization/universalizing-claims.ts"],
+        "reason": "Retain and extend the existing sentence rule.",
+        "required": ["ruleId: \"syntactic-patterns:universalizing-claims\"", "export default rule"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "reason": "Publish the matcher expansion as version 0.2.32.",
+        "required": ["\"version\": \"0.2.32\""],
+        "forbidden": ["\"version\": \"0.2.31\""]
+      }
+    ]
+  }
+}
