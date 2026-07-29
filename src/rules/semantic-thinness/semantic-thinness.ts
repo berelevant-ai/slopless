@@ -3,6 +3,7 @@ import {
   compileSemanticThinnessPatterns,
   findSemanticThinnessMatch
 } from "./private/pattern-matcher.js";
+import { findBroadSignificanceMatch } from "./private/broad-significance.js";
 import { oneToOneRule } from "../private/textlint-rule-builders.js";
 
 const COMPILED_PATTERNS = compileSemanticThinnessPatterns(
@@ -11,7 +12,9 @@ const COMPILED_PATTERNS = compileSemanticThinnessPatterns(
 
 const rule = oneToOneRule({
   detect: (unit) => {
-    const match = findSemanticThinnessMatch(unit.text, COMPILED_PATTERNS);
+    const match =
+      findBroadSignificanceMatch(unit.text) ??
+      findSemanticThinnessMatch(unit.text, COMPILED_PATTERNS);
     if (match === undefined) {
       return [];
     }

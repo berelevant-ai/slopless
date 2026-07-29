@@ -16,7 +16,30 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 58.72. Keep it at 61 or higher.",
+        "message": "Coleman-Liau is 12.07. Keep it at 12 or lower.",
+        "range": [
+          28,
+          29
+        ],
+        "ruleId": "coleman-liau",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 28,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Flesch Reading Ease is 48.43. Keep it at 61 or higher.",
         "range": [
           28,
           29
@@ -895,7 +918,7 @@
           3062,
           3135
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -1373,6 +1396,29 @@
             "line": 123
           }
         },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} marks a significant {changeNoun}",
+        "range": [
+          4164,
+          4244
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 209,
+        "index": 4164,
+        "line": 123,
+        "loc": {
+          "end": {
+            "column": 289,
+            "line": 123
+          },
+          "start": {
+            "column": 209,
+            "line": 123
+          }
+        },
         "message": "Uncited authority found: some critics argue. Name the source, cite the evidence, or make the claim directly.",
         "range": [
           4164,
@@ -1631,7 +1677,7 @@
           6795,
           6903
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -4398,7 +4444,7 @@
       {
         "column": 72,
         "data": {
-          "message": "\"quietly\" used 12 times (1.2 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 12 times (1.1 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -4421,7 +4467,7 @@
             "line": 475
           }
         },
-        "message": "\"quietly\" used 12 times (1.2 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 12 times (1.1 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           19314,
           19321
@@ -4679,7 +4725,7 @@
           20352,
           20471
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -4771,7 +4817,7 @@
           20473,
           20599
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -4886,7 +4932,7 @@
           20601,
           20699
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -4955,7 +5001,7 @@
           20701,
           20783
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5047,7 +5093,7 @@
           20785,
           20884
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5116,7 +5162,7 @@
           20886,
           21044
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5231,7 +5277,7 @@
           21227,
           21272
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5346,7 +5392,7 @@
           21361,
           21459
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5461,7 +5507,7 @@
           21461,
           21618
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5530,7 +5576,7 @@
           21620,
           21736
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5599,7 +5645,7 @@
           21738,
           21797
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5691,7 +5737,7 @@
           21799,
           21947
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5852,7 +5898,7 @@
           22167,
           22283
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5921,7 +5967,7 @@
           22285,
           22382
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -5990,7 +6036,7 @@
           22384,
           22526
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -6542,7 +6588,7 @@
           23694,
           23765
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -6657,7 +6703,7 @@
           23767,
           23824
         ],
-        "ruleId": "triple-repeat",
+        "ruleId": "triple-sentence-repeat",
         "severity": 2,
         "type": "lint"
       },
@@ -9721,6 +9767,29 @@
         "type": "lint"
       },
       {
+        "column": 1,
+        "index": 39427,
+        "line": 995,
+        "loc": {
+          "end": {
+            "column": 113,
+            "line": 995
+          },
+          "start": {
+            "column": 1,
+            "line": 995
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          39427,
+          39539
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 23,
         "index": 39563,
         "line": 997,
@@ -11333,7 +11402,7 @@
             "line": 1135
           }
         },
-        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} contributes to a broader {movementNoun}",
         "range": [
           53089,
           53116
@@ -11425,7 +11494,7 @@
             "line": 1135
           }
         },
-        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {deicticSubject} {signalVerb} {shiftDeterminer} {shiftModifier} shift.",
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} marks a significant {changeNoun}",
         "range": [
           53147,
           53182

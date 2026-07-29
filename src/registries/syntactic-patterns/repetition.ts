@@ -3,7 +3,8 @@ import emptyEmphasis from "../../rules/syntactic-patterns/repetition/empty-empha
 import fragmentStacking from "../../rules/syntactic-patterns/repetition/fragment-stacking.js";
 import repeatedPredicateEnd from "../../rules/syntactic-patterns/repetition/repeated-predicate-end.js";
 import repeatedSentenceStarts from "../../rules/syntactic-patterns/repetition/repeated-sentence-starts.js";
-import tripleRepeat from "../../rules/syntactic-patterns/repetition/triple-repeat.js";
+import tripleWordRepeat from "../../rules/syntactic-patterns/repetition/triple-word-repeat.js";
+import tripleSentenceRepeat from "../../rules/syntactic-patterns/repetition/triple-sentence-repeat.js";
 
 export const repetitionRules = {
   "demonstrative-emphasis": demonstrativeEmphasis,
@@ -11,5 +12,6 @@ export const repetitionRules = {
   "fragment-stacking": fragmentStacking,
   "repeated-predicate-end": repeatedPredicateEnd,
   "repeated-sentence-starts": repeatedSentenceStarts,
-  "triple-repeat": tripleRepeat
+  "triple-word-repeat": tripleWordRepeat,
+  "triple-sentence-repeat": tripleSentenceRepeat
 };

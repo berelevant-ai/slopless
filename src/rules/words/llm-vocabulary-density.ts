@@ -1,57 +1,55 @@
-import { defineTextlintRule } from "../../adapters/textlint/rule.js";
-import { paragraphUnits } from "../../adapters/textlint/units.js";
-import { wordTokens } from "../../shared/text/tokens.js";
-import { isVocabularyContextAllowed } from "./private/vocabulary-context.js";
-import type { RuleDetection, RuleId, TextUnit } from "../types.js";
+import type { RuleId } from "../types.js";
+import { defineContextualVocabularyRule } from "./private/contextual-vocabulary-rule.js";
 
 const RULE_ID = "words:llm-vocabulary-density" satisfies RuleId;
-const GROUP = "llm vocabulary";
-const MAX_PARAGRAPH_TOKENS = 90;
-const MAX_WINDOW_TOKENS = 65;
-const MIN_HITS = 4;
-const WINDOW_SENTENCES = 4;
 
 const LLM_DENSITY_WORDS = new Set([
-  "approach",
-  "approaches",
+  "ai",
   "amplified",
   "amplifies",
   "amplify",
   "amplifying",
+  "approach",
+  "approaches",
   "authentic",
-  "ai",
   "catalyze",
   "catalyzed",
   "catalyzes",
   "catalyzing",
+  "causal",
   "complexities",
   "complexity",
   "confidence",
-  "engagement",
+  "correlate",
+  "correlated",
+  "correlates",
+  "correlating",
   "ecosystem",
   "ecosystems",
   "elevate",
+  "elevated",
   "elevates",
   "elevating",
-  "elevated",
+  "empirical",
   "empower",
   "empowered",
   "empowering",
   "empowers",
+  "engagement",
   "frictionless",
+  "generation",
   "holistic",
   "impact",
   "impacts",
-  "intentional",
   "insight",
   "insights",
+  "intentional",
   "learnings",
   "native",
-  "next",
-  "generation",
   "navigate",
   "navigates",
   "navigating",
+  "next",
   "nuance",
   "nuanced",
   "operationalize",
@@ -61,14 +59,14 @@ const LLM_DENSITY_WORDS = new Set([
   "resonant",
   "robust",
   "scale",
-  "scales",
   "scalable",
+  "scales",
   "seamless",
-  "strategy",
-  "strategies",
-  "strategic",
   "stakeholder",
   "stakeholders",
+  "strategic",
+  "strategies",
+  "strategy",
   "sustainable",
   "synergies",
   "touchpoint",
@@ -77,53 +75,17 @@ const LLM_DENSITY_WORDS = new Set([
   "transformation",
   "transformative",
   "unlock",
-  "unlocks",
   "unlocking",
+  "unlocks",
   "workflow",
   "workflows"
 ]);
 
-type VocabularyGroup = typeof GROUP;
-
-function vocabularyDetections(
-  unit: TextUnit
-): RuleDetection<VocabularyGroup>[] {
-  return wordTokens(unit.text)
-    .filter(
-      (token) =>
-        LLM_DENSITY_WORDS.has(token.normalized) &&
-        !isVocabularyContextAllowed(unit.text, token.normalized)
-    )
-    .map((token) => ({
-      evidence: unit.text.slice(token.start, token.end),
-      group: GROUP,
-      label: token.normalized,
-      range: { end: token.end, start: token.start },
-      ruleId: RULE_ID,
-      unitId: unit.id
-    }));
-}
-
-const rule = defineTextlintRule({
-  detector: {
-    detect: ({ units }) => units.flatMap((unit) => vocabularyDetections(unit)),
-    family: "words",
-    id: RULE_ID
-  },
-  formatMessage: (report) => {
-    const labels = [...new Set(report.detections.map((hit) => hit.label))];
-    return `LLM vocabulary density: ${report.detections.length} stock abstraction words in a short span (${labels.join(", ")}).`;
-  },
-  reportPolicy: {
-    groups: [GROUP],
-    kind: "density",
-    maxParagraphTokens: MAX_PARAGRAPH_TOKENS,
-    maxWindowTokens: MAX_WINDOW_TOKENS,
-    paragraphMinimumHits: MIN_HITS,
-    windowMinimumHits: MIN_HITS,
-    windowSentences: WINDOW_SENTENCES
-  },
-  units: (document) => paragraphUnits(document)
+const rule = defineContextualVocabularyRule({
+  description: "LLM abstraction vocabulary density",
+  minimumHits: 4,
+  ruleId: RULE_ID,
+  words: LLM_DENSITY_WORDS
 });
 
 export default rule;

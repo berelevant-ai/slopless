@@ -195,6 +195,11 @@ function isInsideSpan(
   );
 }
 
+export function findUnquotedWordTokens(text: string): readonly Token[] {
+  const quoteSpans = findDoubleQuoteSpans(text);
+  return wordTokens(text).filter((token) => !isInsideSpan(token, quoteSpans));
+}
+
 export function findUnquotedPhraseMatches(
   text: string,
   phrases: readonly string[]

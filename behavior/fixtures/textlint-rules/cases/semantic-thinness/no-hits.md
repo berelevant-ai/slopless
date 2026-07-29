@@ -355,3 +355,67 @@ The experience changed everything after the storm closed the bridge at 8:13.
 That is the point guard selected in the draft.
 
 That is the report prepared for the board.
+
+The mirror is reflecting the laser toward the sensor.
+
+The coating reflects infrared light into the detector.
+
+Select the paragraph and click Highlighting in the review menu.
+
+The syntax highlighter marks the selected token in yellow.
+
+The oscilloscope trace underscores the zero-volt baseline.
+
+The assay produced a 14 percent increase, confirming receptor activation in sample B.
+
+The benchmark fell from 240 ms to 180 ms, demonstrating the measured latency reduction.
+
+Figure 3 illustrates the transition from state READY to state RUNNING.
+
+Equation 4 shows that pressure increases as volume decreases.
+
+The patch marks version 3 records with a boolean migration flag.
+
+The survey marks a 4-point shift from cash to card payments.
+
+The release represents the state transition from queued to running.
+
+The arrow highlights register R4 in Figure 7.
+
+The report demonstrates a 12 percent reduction in missed appointments.
+
+The monument stands 18 meters above the western gate.
+
+The reminder service sends an SMS 24 hours before each appointment.
+
+The stage is set 2 meters behind the orchestra pit.
+
+The focal point lies 35 millimeters behind the lens.
+
+The legacy column stores the identifier used before schema version 4.
+
+The impact test recorded 48 joules before the casing fractured.
+
+The transaction commits after the checksum passes, ensuring that all 14 rows are durable.
+
+The state machine accepts READY, RUNNING, and FAILED, encompassing all states defined in RFC 9.
+
+The technician rotated the lens, aligning the sensor with marker B.
+
+The tuning fork vibrated at 440 Hz, resonating with the open A string.
+
+The press shaped the aluminum sheet into a 4-millimeter bracket.
+
+The second assay matched the first within 0.2 percent, confirming the measured concentration.
+
+The command created three files in `/tmp/build`.
+
+The electromagnet drove the piston through a 12-centimeter stroke.
+
+The wooden mold shaped the wet clay before firing.
+
+The API offers ports 80, 443, and 8443.
+
+The oak is deeply rooted in clay soil beside the eastern wall.
+
+The die is shaping the steel into a 6-millimeter washer.

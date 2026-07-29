@@ -1,0 +1,75 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "Plan: new detectors and renamed sentence-repeat owner",
+      "required": [
+        "src/rules/semantic-thinness/superficial-analysis.ts",
+        "src/rules/syntactic-patterns/closers/formulaic-challenges.ts",
+        "src/rules/syntactic-patterns/repetition/triple-word-repeat.ts",
+        "src/rules/syntactic-patterns/repetition/triple-sentence-repeat.ts"
+      ],
+      "forbidden": [
+        "src/rules/syntactic-patterns/repetition/triple-repeat.ts"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/presets/everything.ts"],
+        "reason": "Plan: every new public rule is enabled",
+        "exists": [
+          "\"formulaic-challenges\": true",
+          "\"superficial-analysis\": true",
+          "\"triple-word-repeat\": true",
+          "\"triple-sentence-repeat\": true"
+        ],
+        "forbidden": ["\"triple-repeat\": true"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/llm-vocabulary.ts"],
+        "reason": "Plan: researched vocabulary reaches the context-filtered density detector",
+        "exists": [
+          "\"additionally\"",
+          "\"boasts\"",
+          "\"bolstered\"",
+          "\"enduring\"",
+          "\"highlighting\"",
+          "\"interplay\"",
+          "\"meticulous\"",
+          "\"showcasing\"",
+          "\"underscore\"",
+          "\"valuable\""
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/llm-vocabulary-density.ts"],
+        "reason": "Plan: scientific-looking AI vocabulary is available only to density reporting",
+        "exists": ["\"causal\"", "\"correlate\"", "\"empirical\""]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/syntactic-patterns/*.md"],
+        "reason": "Plan: sentence repetition, three-part lists, and challenge conclusions have hit and no-hit evidence",
+        "exists": [
+          "Despite these challenges",
+          "fast, reliable, and secure",
+          "Paris, France, and Berlin, Germany"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/semantic-thinness/*.md"],
+        "reason": "Plan: superficial analysis and broad significance have hit and no-hit evidence",
+        "exists": [
+          "highlighting the city's commitment",
+          "mirror is reflecting",
+          "marks a broader trend"
+        ]
+      }
+    ]
+  }
+}

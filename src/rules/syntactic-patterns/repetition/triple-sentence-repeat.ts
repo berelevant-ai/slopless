@@ -349,9 +349,9 @@ const rule = oneToOneRule({
   family: "syntactic-patterns",
   formatMessage: (report) =>
     report.detections[0]?.data?.["kind"] === "triple"
-      ? `Triple repeat opener found: "${report.evidence}". Vary the sentence openers.`
+      ? `Triple sentence opener found: "${report.evidence}". Vary the sentence openers.`
       : `Repeated sentence frame found: "${report.evidence}". Vary the sentence frame.`,
-  ruleId: "syntactic-patterns:triple-repeat",
+  ruleId: "syntactic-patterns:triple-sentence-repeat",
   unitKind: "paragraph"
 });
 

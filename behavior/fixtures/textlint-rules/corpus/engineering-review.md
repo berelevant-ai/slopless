@@ -1193,3 +1193,185 @@ The project and geology records named events and dates. Some of the best decisio
 The grammatical controls omitted the required frame or reversed its parts. Some leadership changes came from the merger. Some of the biggest shifts outside work affected leadership.
 
 The final records named people, programs, and employers. Some of the most valuable lessons in life were taught by her grandmother. Many of the best ideas in design came from sketches made by Elena. Some of the strongest skills in management came from the 2025 training program. Some of the deepest changes in careers came from layoffs at Acme in March.
+
+## Literal analysis controls
+
+The optics notes described light rather than significance.
+
+The mirror is reflecting the laser toward the sensor.
+
+The coating reflects infrared light into the detector.
+
+The interface instructions used the same vocabulary for named controls.
+
+Select the paragraph and click Highlighting in the review menu.
+
+The syntax highlighter marks the selected token in yellow.
+
+The oscilloscope trace underscores the zero-volt baseline.
+
+The measured conclusions supplied a number, result, or named state.
+
+The assay produced a 14 percent increase, confirming receptor activation in sample B.
+
+The benchmark fell from 240 ms to 180 ms, demonstrating the measured latency reduction.
+
+Figure 3 illustrates the transition from state READY to state RUNNING.
+
+Equation 4 shows that pressure increases as volume decreases.
+
+The patch marks version 3 records with a boolean migration flag.
+
+The survey marks a 4-point shift from cash to card payments.
+
+The release represents the state transition from queued to running.
+
+The arrow highlights register R4 in Figure 7.
+
+The report demonstrates a 12 percent reduction in missed appointments.
+
+The physical and schema notes kept each noun literal.
+
+The monument stands 18 meters above the western gate.
+
+The reminder service sends an SMS 24 hours before each appointment.
+
+The stage is set 2 meters behind the orchestra pit.
+
+The focal point lies 35 millimeters behind the lens.
+
+The legacy column stores the identifier used before schema version 4.
+
+The impact test recorded 48 joules before the casing fractured.
+
+The next controls kept trailing verbs tied to mechanisms and measurements.
+
+The transaction commits after the checksum passes, ensuring that all 14 rows are durable.
+
+The state machine accepts READY, RUNNING, and FAILED, encompassing all states defined in RFC 9.
+
+The technician rotated the lens, aligning the sensor with marker B.
+
+The tuning fork vibrated at 440 Hz, resonating with the open A string.
+
+The press shaped the aluminum sheet into a 4-millimeter bracket.
+
+The second assay matched the first within 0.2 percent, confirming the measured concentration.
+
+The command created three files in `/tmp/build`.
+
+The electromagnet drove the piston through a 12-centimeter stroke.
+
+The wooden mold shaped the wet clay before firing.
+
+The API offers ports 80, 443, and 8443.
+
+The oak is deeply rooted in clay soil beside the eastern wall.
+
+The die is shaping the steel into a 6-millimeter washer.
+
+## Concrete three-item controls
+
+The inventory review kept lists whose items supplied distinct information.
+
+The route visits Paris, France, and Berlin, Germany.
+
+The benchmark ran at 5 ms, 10 ms, and 20 ms.
+
+Install PostgreSQL, Redis, and Kafka.
+
+The flag accepts red, green, and blue.
+
+The checksum is fast, deterministic, and collision-resistant.
+
+The parser reads headers, validates checksums, and writes rows.
+
+The sample contained sodium chloride, potassium chloride, and distilled water.
+
+Version 3.1 supports Node 22, TypeScript 6, and ESLint 10.
+
+The committee includes Dr. Shah, Professor Lin, and Judge Ortiz.
+
+The coordinates are 41.15 N, 8.61 W, and 120 m above sea level.
+
+The limitations review supplied the failure, measurement, owner, or remediation.
+
+Despite its speed, the parser has three limitations: recursive input exhausts the stack, files above 2 GB overflow the index, and malformed UTF-8 stops parsing.
+
+The service faces two blockers. Marta owns the certificate renewal due August 4, and Ilya owns the database migration due August 7.
+
+Although the first trial failed, the second trial reached 94 percent accuracy after the team doubled the sample.
+
+Despite these errors, patch 4.2 restored all 18 missing records and reduced retry time from 9 seconds to 2 seconds.
+
+The project has challenges. The vendor missed the July 8 deadline, the database is 14 GB over capacity, and the legal review has no assigned owner.
+
+The later inventory used the expanded subject vocabulary in concrete statements.
+
+The company sells bolts, washers, and steel brackets.
+
+The culture contains yeast, glucose, and distilled water.
+
+The roadmap lists owner, deadline, and status for each task.
+
+The partnership funded clinics in Porto, Braga, and Faro.
+
+The technology reads bytes, verifies CRC32, and writes the decoded frame.
+
+The organization employs 14 designers, 8 engineers, and 3 accountants.
+
+The project created `/tmp/a`, `/tmp/b`, and `/tmp/c`.
+
+The final challenge controls retained the positive setup but named the failure.
+
+Despite its growing popularity, the service is not without its challenges: the queue loses jobs above 8 GB, the retry counter overflows at 255, and the owner is Marta.
+
+Although the campaign gained traction, it missed the June 4 deadline because the vendor delivered 9 days late. Ilya will replace the vendor by July 1.
+
+While the concept has broad appeal, trial B failed at 41 percent accuracy and exceeded the 300 ms limit.
+
+## Literal vocabulary controls
+
+The source and interface notes used target words as names or physical descriptions.
+
+Additionally is the name of the imported enum member.
+
+The button highlights the selected row.
+
+Click Highlight to mark the current paragraph.
+
+The underscore separates the account name from the region code.
+
+The violin provides the underscore during the final scene.
+
+The museum showcase contains three bronze tools.
+
+The trade fair showcases twelve prototype batteries.
+
+The peacock boasts a train of iridescent feathers.
+
+The retaining wall bolstered the damaged slope.
+
+The research controls used scientific terms with methods and measurements.
+
+The causal estimate uses inverse-probability weighting.
+
+The study reports empirical measurements from 412 participants.
+
+Temperature and pressure correlate at 0.81 in this sample.
+
+The remaining controls used concrete objects, formats, and legal meanings.
+
+The key opens the eastern service door.
+
+Press the Escape key to close the dialog.
+
+The highlight is stored as an RGB color value.
+
+The landscape drawing uses a 16:9 canvas.
+
+The meticulous scribe copied every surviving line of the charter.
+
+The testament was admitted as evidence in the probate hearing.
+
+The valuable painting was insured for EUR 2 million.
