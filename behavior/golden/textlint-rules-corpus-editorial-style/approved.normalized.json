@@ -16,7 +16,7 @@
             "line": 3
           }
         },
-        "message": "Coleman-Liau is 14.05. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.74. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 36.93. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 39.26. Keep it at 61 or higher.",
         "range": [
           26,
           27
@@ -62,7 +62,7 @@
             "line": 3
           }
         },
-        "message": "Gunning Fog is 13.13. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.43. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -1649,7 +1649,7 @@
             "line": 221
           }
         },
-        "message": "Semantic thinness (puffery-evaluative-claim): Catch evaluative praise frames that assert prestige, breakthrough value, or greatness without naming concrete evidence. Matched template: the {documentSubject} clearly demonstrates the {importanceNoun} of the {strategyNoun}.",
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
         "range": [
           6549,
           6620
@@ -1843,6 +1843,52 @@
         "type": "lint"
       },
       {
+        "column": 39,
+        "index": 8149,
+        "line": 263,
+        "loc": {
+          "end": {
+            "column": 45,
+            "line": 263
+          },
+          "start": {
+            "column": 39,
+            "line": 263
+          }
+        },
+        "message": "Prohibited word found: \"robust\". Rewrite without this term.",
+        "range": [
+          8149,
+          8155
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "index": 8156,
+        "line": 263,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 263
+          },
+          "start": {
+            "column": 46,
+            "line": 263
+          }
+        },
+        "message": "Prohibited word found: \"tapestry\". Rewrite without this term.",
+        "range": [
+          8156,
+          8164
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 23,
         "index": 8199,
         "line": 265,
@@ -1971,7 +2017,7 @@
             "line": 269
           }
         },
-        "message": "LLM vocabulary density: 5 stock words in a short span (vibrant, landscape, delve, intricate, tapestry). Replace the stock diction with concrete words.",
+        "message": "LLM vocabulary density: 5 contextual stock words in a short span (vibrant, landscape, delve, intricate, tapestry). Replace stock wording with concrete language.",
         "range": [
           8312,
           8381
@@ -2040,7 +2086,7 @@
             "line": 277
           }
         },
-        "message": "LLM vocabulary density: 6 stock abstraction words in a short span (scalable, approach, unlocks, nuanced, insight, ecosystem).",
+        "message": "LLM abstraction vocabulary density: 6 contextual stock words in a short span (scalable, approach, unlocks, nuanced, insight, ecosystem). Replace stock wording with concrete language.",
         "range": [
           8578,
           8640
@@ -2086,7 +2132,7 @@
             "line": 279
           }
         },
-        "message": "LLM vocabulary density: 5 stock abstraction words in a short span (transformative, strategy, elevates, impact, workflow).",
+        "message": "LLM abstraction vocabulary density: 5 contextual stock words in a short span (transformative, strategy, elevates, impact, workflow). Replace stock wording with concrete language.",
         "range": [
           8659,
           8720
@@ -2109,7 +2155,7 @@
             "line": 281
           }
         },
-        "message": "LLM vocabulary density: 6 stock abstraction words in a short span (scalable, ecosystem, unlocks, nuanced, transformation, touchpoint).",
+        "message": "LLM abstraction vocabulary density: 6 contextual stock words in a short span (scalable, ecosystem, unlocks, nuanced, transformation, touchpoint). Replace stock wording with concrete language.",
         "range": [
           8740,
           8809
@@ -4304,6 +4350,29 @@
         "type": "lint"
       },
       {
+        "column": 1,
+        "index": 15108,
+        "line": 503,
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 503
+          },
+          "start": {
+            "column": 1,
+            "line": 503
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} serves as a {symbolModifier} {symbolNoun}",
+        "range": [
+          15108,
+          15174
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 15,
         "index": 15122,
         "line": 503,
@@ -5973,7 +6042,7 @@
             "line": 673
           }
         },
-        "message": "LLM vocabulary density: 5 stock abstraction words in a short span (holistic, empowers, navigate, complexity, confidence).",
+        "message": "LLM abstraction vocabulary density: 5 contextual stock words in a short span (holistic, empowers, navigate, complexity, confidence). Replace stock wording with concrete language.",
         "range": [
           21366,
           21444
@@ -6019,7 +6088,7 @@
             "line": 679
           }
         },
-        "message": "LLM vocabulary density: 6 stock abstraction words in a short span (strategy, empowers, navigate, complexity, unlock, holistic).",
+        "message": "LLM abstraction vocabulary density: 6 contextual stock words in a short span (strategy, empowers, navigate, complexity, unlock, holistic). Replace stock wording with concrete language.",
         "range": [
           21640,
           21706
@@ -6397,6 +6466,29 @@
         "type": "lint"
       },
       {
+        "column": 13,
+        "index": 22626,
+        "line": 711,
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 711
+          },
+          "start": {
+            "column": 13,
+            "line": 711
+          }
+        },
+        "message": "Formulaic three-part list found: \"creates a flywheel of trust, engagement, and measurable impact\". Keep only distinctions that carry concrete information.",
+        "range": [
+          22626,
+          22688
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 23,
         "index": 22636,
         "line": 711,
@@ -6502,7 +6594,7 @@
             "line": 733
           }
         },
-        "message": "LLM vocabulary density: 5 stock abstraction words in a short span (intentional, authentic, scalable, unlock, impact).",
+        "message": "LLM abstraction vocabulary density: 5 contextual stock words in a short span (intentional, authentic, scalable, unlock, impact). Replace stock wording with concrete language.",
         "range": [
           23387,
           23461
@@ -6617,7 +6709,7 @@
             "line": 737
           }
         },
-        "message": "LLM vocabulary density: 5 stock abstraction words in a short span (next, generation, seamless, ai, native).",
+        "message": "LLM abstraction vocabulary density: 5 contextual stock words in a short span (next, generation, seamless, ai, native). Replace stock wording with concrete language.",
         "range": [
           23607,
           23655
@@ -6663,7 +6755,7 @@
             "line": 739
           }
         },
-        "message": "LLM vocabulary density: 4 stock abstraction words in a short span (synergies, workflows, amplify, strategic).",
+        "message": "LLM abstraction vocabulary density: 4 contextual stock words in a short span (synergies, workflows, amplify, strategic). Replace stock wording with concrete language.",
         "range": [
           23707,
           23763
@@ -6709,7 +6801,7 @@
             "line": 741
           }
         },
-        "message": "LLM vocabulary density: 6 stock abstraction words in a short span (empowers, holistic, authentic, engagement, sustainable, transformation).",
+        "message": "LLM abstraction vocabulary density: 6 contextual stock words in a short span (empowers, holistic, authentic, engagement, sustainable, transformation). Replace stock wording with concrete language.",
         "range": [
           23789,
           23873
@@ -9171,7 +9263,7 @@
       {
         "column": 112,
         "data": {
-          "message": "\"quietly\" used 128 times (18.6 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 128 times (16.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -9194,7 +9286,7 @@
             "line": 809
           }
         },
-        "message": "\"quietly\" used 128 times (18.6 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 128 times (16.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           30791,
           30798
@@ -13789,6 +13881,2122 @@
         ],
         "ruleId": "silently-filler",
         "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 97,
+        "index": 45231,
+        "line": 1184,
+        "loc": {
+          "end": {
+            "column": 156,
+            "line": 1184
+          },
+          "start": {
+            "column": 97,
+            "line": 1184
+          }
+        },
+        "message": "Superficial trailing analysis found: \", highlighting the city's commitment to sustainable growth.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45231,
+          45290
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 99,
+        "index": 45233,
+        "line": 1184,
+        "loc": {
+          "end": {
+            "column": 307,
+            "line": 1184
+          },
+          "start": {
+            "column": 99,
+            "line": 1184
+          }
+        },
+        "message": "LLM vocabulary density: 4 contextual stock words in a short span (highlighting, underscoring, emphasizing, enduring). Replace stock wording with concrete language.",
+        "range": [
+          45233,
+          45441
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 200,
+        "index": 45334,
+        "line": 1184,
+        "loc": {
+          "end": {
+            "column": 244,
+            "line": 1184
+          },
+          "start": {
+            "column": 200,
+            "line": 1184
+          }
+        },
+        "message": "Superficial trailing analysis found: \", underscoring the importance of simplicity.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45334,
+          45378
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 281,
+        "index": 45415,
+        "line": 1184,
+        "loc": {
+          "end": {
+            "column": 318,
+            "line": 1184
+          },
+          "start": {
+            "column": 281,
+            "line": 1184
+          }
+        },
+        "message": "Superficial trailing analysis found: \", emphasizing its enduring relevance.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45415,
+          45452
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 35,
+        "index": 45488,
+        "line": 1186,
+        "loc": {
+          "end": {
+            "column": 91,
+            "line": 1186
+          },
+          "start": {
+            "column": 35,
+            "line": 1186
+          }
+        },
+        "message": "Superficial trailing analysis found: \", showcasing the organization's dedication to inclusion.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45488,
+          45544
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 126,
+        "index": 45579,
+        "line": 1186,
+        "loc": {
+          "end": {
+            "column": 183,
+            "line": 1186
+          },
+          "start": {
+            "column": 126,
+            "line": 1186
+          }
+        },
+        "message": "Superficial trailing analysis found: \", reflecting a broader movement toward lifelong learning.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45579,
+          45636
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 216,
+        "index": 45669,
+        "line": 1186,
+        "loc": {
+          "end": {
+            "column": 268,
+            "line": 1186
+          },
+          "start": {
+            "column": 216,
+            "line": 1186
+          }
+        },
+        "message": "Superficial trailing analysis found: \", symbolizing her lasting influence on the industry.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45669,
+          45721
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 42,
+        "index": 45764,
+        "line": 1188,
+        "loc": {
+          "end": {
+            "column": 92,
+            "line": 1188
+          },
+          "start": {
+            "column": 42,
+            "line": 1188
+          }
+        },
+        "message": "Superficial trailing analysis found: \", fostering a culture of meaningful collaboration.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45764,
+          45814
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 123,
+        "index": 45845,
+        "line": 1188,
+        "loc": {
+          "end": {
+            "column": 176,
+            "line": 1188
+          },
+          "start": {
+            "column": 123,
+            "line": 1188
+          }
+        },
+        "message": "Superficial trailing analysis found: \", reinforcing the company's commitment to innovation.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45845,
+          45898
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 217,
+        "index": 45939,
+        "line": 1188,
+        "loc": {
+          "end": {
+            "column": 257,
+            "line": 1188
+          },
+          "start": {
+            "column": 217,
+            "line": 1188
+          }
+        },
+        "message": "Superficial trailing analysis found: \", illustrating its growing significance.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          45939,
+          45979
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 290,
+        "index": 46012,
+        "line": 1188,
+        "loc": {
+          "end": {
+            "column": 347,
+            "line": 1188
+          },
+          "start": {
+            "column": 290,
+            "line": 1188
+          }
+        },
+        "message": "Superficial trailing analysis found: \", signaling a pivotal moment in the platform's evolution.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          46012,
+          46069
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 69,
+        "index": 46139,
+        "line": 1190,
+        "loc": {
+          "end": {
+            "column": 137,
+            "line": 1190
+          },
+          "start": {
+            "column": 69,
+            "line": 1190
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} contributes to a broader {movementNoun}",
+        "range": [
+          46139,
+          46207
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 138,
+        "index": 46208,
+        "line": 1190,
+        "loc": {
+          "end": {
+            "column": 209,
+            "line": 1190
+          },
+          "start": {
+            "column": 138,
+            "line": 1190
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} marks a significant {changeNoun}",
+        "range": [
+          46208,
+          46279
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 210,
+        "index": 46280,
+        "line": 1190,
+        "loc": {
+          "end": {
+            "column": 280,
+            "line": 1190
+          },
+          "start": {
+            "column": 210,
+            "line": 1190
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} marks a significant {changeNoun}",
+        "range": [
+          46280,
+          46350
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 281,
+        "index": 46351,
+        "line": 1190,
+        "loc": {
+          "end": {
+            "column": 351,
+            "line": 1190
+          },
+          "start": {
+            "column": 281,
+            "line": 1190
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          46351,
+          46421
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46423,
+        "line": 1192,
+        "loc": {
+          "end": {
+            "column": 80,
+            "line": 1192
+          },
+          "start": {
+            "column": 1,
+            "line": 1192
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          46423,
+          46502
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 17,
+        "index": 46439,
+        "line": 1192,
+        "loc": {
+          "end": {
+            "column": 263,
+            "line": 1192
+          },
+          "start": {
+            "column": 17,
+            "line": 1192
+          }
+        },
+        "message": "LLM vocabulary density: 4 contextual stock words in a short span (underscores, vital, highlights, key). Replace stock wording with concrete language.",
+        "range": [
+          46439,
+          46685
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 81,
+        "index": 46503,
+        "line": 1192,
+        "loc": {
+          "end": {
+            "column": 156,
+            "line": 1192
+          },
+          "start": {
+            "column": 81,
+            "line": 1192
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          46503,
+          46578
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 157,
+        "index": 46579,
+        "line": 1192,
+        "loc": {
+          "end": {
+            "column": 228,
+            "line": 1192
+          },
+          "start": {
+            "column": 157,
+            "line": 1192
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          46579,
+          46650
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 229,
+        "index": 46651,
+        "line": 1192,
+        "loc": {
+          "end": {
+            "column": 305,
+            "line": 1192
+          },
+          "start": {
+            "column": 229,
+            "line": 1192
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          46651,
+          46727
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46729,
+        "line": 1194,
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 1194
+          },
+          "start": {
+            "column": 1,
+            "line": 1194
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} contributes to a broader {movementNoun}",
+        "range": [
+          46729,
+          46803
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 76,
+        "index": 46804,
+        "line": 1194,
+        "loc": {
+          "end": {
+            "column": 148,
+            "line": 1194
+          },
+          "start": {
+            "column": 76,
+            "line": 1194
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} sets the stage for a {futureModifier}",
+        "range": [
+          46804,
+          46876
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 126,
+        "index": 46854,
+        "line": 1194,
+        "loc": {
+          "end": {
+            "column": 140,
+            "line": 1194
+          },
+          "start": {
+            "column": 126,
+            "line": 1194
+          }
+        },
+        "message": "Prohibited word found: \"transformative\". Rewrite without this term.",
+        "range": [
+          46854,
+          46868
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 149,
+        "index": 46877,
+        "line": 1194,
+        "loc": {
+          "end": {
+            "column": 224,
+            "line": 1194
+          },
+          "start": {
+            "column": 149,
+            "line": 1194
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} serves as a {symbolModifier} {symbolNoun}",
+        "range": [
+          46877,
+          46952
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 225,
+        "index": 46953,
+        "line": 1194,
+        "loc": {
+          "end": {
+            "column": 298,
+            "line": 1194
+          },
+          "start": {
+            "column": 225,
+            "line": 1194
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} serves as a {symbolModifier} {symbolNoun}",
+        "range": [
+          46953,
+          47026
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 47028,
+        "line": 1196,
+        "loc": {
+          "end": {
+            "column": 74,
+            "line": 1196
+          },
+          "start": {
+            "column": 1,
+            "line": 1196
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} remains a {focusModifier} focal point",
+        "range": [
+          47028,
+          47101
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 75,
+        "index": 47102,
+        "line": 1196,
+        "loc": {
+          "end": {
+            "column": 142,
+            "line": 1196
+          },
+          "start": {
+            "column": 75,
+            "line": 1196
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} leaves an indelible mark on",
+        "range": [
+          47102,
+          47169
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 86,
+        "index": 47113,
+        "line": 1196,
+        "loc": {
+          "end": {
+            "column": 108,
+            "line": 1196
+          },
+          "start": {
+            "column": 86,
+            "line": 1196
+          }
+        },
+        "message": "Cliche found: \"left an indelible mark\". Replace it with specific wording.",
+        "range": [
+          47113,
+          47135
+        ],
+        "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 80,
+        "index": 47250,
+        "line": 1198,
+        "loc": {
+          "end": {
+            "column": 136,
+            "line": 1198
+          },
+          "start": {
+            "column": 80,
+            "line": 1198
+          }
+        },
+        "message": "Superficial trailing analysis found: \", ensuring its enduring relevance to future generations.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47250,
+          47306
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 176,
+        "index": 47346,
+        "line": 1198,
+        "loc": {
+          "end": {
+            "column": 216,
+            "line": 1198
+          },
+          "start": {
+            "column": 176,
+            "line": 1198
+          }
+        },
+        "message": "Superficial trailing analysis found: \", encompassing a rich cultural heritage.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47346,
+          47386
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 250,
+        "index": 47420,
+        "line": 1198,
+        "loc": {
+          "end": {
+            "column": 302,
+            "line": 1198
+          },
+          "start": {
+            "column": 250,
+            "line": 1198
+          }
+        },
+        "message": "Superficial trailing analysis found: \", aligning the brand with a broader social movement.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47420,
+          47472
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 29,
+        "index": 47502,
+        "line": 1200,
+        "loc": {
+          "end": {
+            "column": 74,
+            "line": 1200
+          },
+          "start": {
+            "column": 29,
+            "line": 1200
+          }
+        },
+        "message": "Superficial trailing analysis found: \", resonating with a shared cultural identity.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47502,
+          47547
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 111,
+        "index": 47584,
+        "line": 1200,
+        "loc": {
+          "end": {
+            "column": 156,
+            "line": 1200
+          },
+          "start": {
+            "column": 111,
+            "line": 1200
+          }
+        },
+        "message": "Superficial trailing analysis found: \", shaping the future of community engagement.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47584,
+          47629
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 195,
+        "index": 47668,
+        "line": 1200,
+        "loc": {
+          "end": {
+            "column": 247,
+            "line": 1200
+          },
+          "start": {
+            "column": 195,
+            "line": 1200
+          }
+        },
+        "message": "Superficial trailing analysis found: \", confirming the institution's lasting significance.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47668,
+          47720
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 20,
+        "index": 47741,
+        "line": 1202,
+        "loc": {
+          "end": {
+            "column": 80,
+            "line": 1202
+          },
+          "start": {
+            "column": 20,
+            "line": 1202
+          }
+        },
+        "message": "Superficial trailing analysis found: \", creating a dynamic experience of connection and belonging.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47741,
+          47801
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 114,
+        "index": 47835,
+        "line": 1202,
+        "loc": {
+          "end": {
+            "column": 164,
+            "line": 1202
+          },
+          "start": {
+            "column": 114,
+            "line": 1202
+          }
+        },
+        "message": "Superficial trailing analysis found: \", evoking a profound sense of collective identity.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47835,
+          47885
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 197,
+        "index": 47918,
+        "line": 1202,
+        "loc": {
+          "end": {
+            "column": 243,
+            "line": 1202
+          },
+          "start": {
+            "column": 197,
+            "line": 1202
+          }
+        },
+        "message": "Superficial trailing analysis found: \", facilitating meaningful cultural engagement.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47918,
+          47964
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 32,
+        "index": 47997,
+        "line": 1204,
+        "loc": {
+          "end": {
+            "column": 84,
+            "line": 1204
+          },
+          "start": {
+            "column": 32,
+            "line": 1204
+          }
+        },
+        "message": "Superficial trailing analysis found: \", offering a diverse vision of sustainable progress.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          47997,
+          48049
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 122,
+        "index": 48087,
+        "line": 1204,
+        "loc": {
+          "end": {
+            "column": 166,
+            "line": 1204
+          },
+          "start": {
+            "column": 122,
+            "line": 1204
+          }
+        },
+        "message": "Superficial trailing analysis found: \", driving recognition of its broader impact.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          48087,
+          48131
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 199,
+        "index": 48164,
+        "line": 1204,
+        "loc": {
+          "end": {
+            "column": 255,
+            "line": 1204
+          },
+          "start": {
+            "column": 199,
+            "line": 1204
+          }
+        },
+        "message": "Superficial trailing analysis found: \", embodying the enduring values of unity and resilience.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          48164,
+          48220
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 44,
+        "index": 48265,
+        "line": 1206,
+        "loc": {
+          "end": {
+            "column": 119,
+            "line": 1206
+          },
+          "start": {
+            "column": 44,
+            "line": 1206
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} shapes the {movementNoun}",
+        "range": [
+          48265,
+          48340
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 120,
+        "index": 48341,
+        "line": 1206,
+        "loc": {
+          "end": {
+            "column": 172,
+            "line": 1206
+          },
+          "start": {
+            "column": 120,
+            "line": 1206
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} is deeply rooted in {abstractRoot}",
+        "range": [
+          48341,
+          48393
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 59,
+        "index": 48480,
+        "line": 1210,
+        "loc": {
+          "end": {
+            "column": 88,
+            "line": 1210
+          },
+          "start": {
+            "column": 59,
+            "line": 1210
+          }
+        },
+        "message": "Formulaic three-part list found: \"is fast, reliable, and secure\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48480,
+          48509
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 103,
+        "index": 48524,
+        "line": 1210,
+        "loc": {
+          "end": {
+            "column": 144,
+            "line": 1210
+          },
+          "start": {
+            "column": 103,
+            "line": 1210
+          }
+        },
+        "message": "Formulaic three-part list found: \"feels deliberate, scalable, and resilient\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48524,
+          48565
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 157,
+        "index": 48578,
+        "line": 1210,
+        "loc": {
+          "end": {
+            "column": 198,
+            "line": 1210
+          },
+          "start": {
+            "column": 157,
+            "line": 1210
+          }
+        },
+        "message": "Formulaic three-part list found: \"promised clarity, momentum, and alignment\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48578,
+          48619
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 5,
+        "index": 48626,
+        "line": 1212,
+        "loc": {
+          "end": {
+            "column": 204,
+            "line": 1212
+          },
+          "start": {
+            "column": 5,
+            "line": 1212
+          }
+        },
+        "message": "LLM abstraction vocabulary density: 4 contextual stock words in a short span (strategy, confidence, unlocks, transformative). Replace stock wording with concrete language.",
+        "range": [
+          48626,
+          48825
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 14,
+        "index": 48635,
+        "line": 1212,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 1212
+          },
+          "start": {
+            "column": 14,
+            "line": 1212
+          }
+        },
+        "message": "Formulaic three-part list found: \"improves visibility, strengthens confidence, and unlocks growth\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48635,
+          48698
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 93,
+        "index": 48714,
+        "line": 1212,
+        "loc": {
+          "end": {
+            "column": 152,
+            "line": 1212
+          },
+          "start": {
+            "column": 93,
+            "line": 1212
+          }
+        },
+        "message": "Formulaic three-part list found: \"reduces friction, creates consistency, and enables progress\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48714,
+          48773
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 166,
+        "index": 48787,
+        "line": 1212,
+        "loc": {
+          "end": {
+            "column": 204,
+            "line": 1212
+          },
+          "start": {
+            "column": 166,
+            "line": 1212
+          }
+        },
+        "message": "Formulaic three-part list found: \"is bold, inclusive, and transformative\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48787,
+          48825
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 190,
+        "index": 48811,
+        "line": 1212,
+        "loc": {
+          "end": {
+            "column": 204,
+            "line": 1212
+          },
+          "start": {
+            "column": 190,
+            "line": 1212
+          }
+        },
+        "message": "Prohibited word found: \"transformative\". Rewrite without this term.",
+        "range": [
+          48811,
+          48825
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 16,
+        "index": 48843,
+        "line": 1214,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 1214
+          },
+          "start": {
+            "column": 16,
+            "line": 1214
+          }
+        },
+        "message": "Formulaic three-part list found: \"feels seamless, intuitive, and empowering\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48843,
+          48884
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 22,
+        "index": 48849,
+        "line": 1214,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 1214
+          },
+          "start": {
+            "column": 22,
+            "line": 1214
+          }
+        },
+        "message": "Prohibited word found: \"seamless\". Rewrite without this term.",
+        "range": [
+          48849,
+          48857
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 22,
+        "index": 48849,
+        "line": 1214,
+        "loc": {
+          "end": {
+            "column": 236,
+            "line": 1214
+          },
+          "start": {
+            "column": 22,
+            "line": 1214
+          }
+        },
+        "message": "LLM abstraction vocabulary density: 5 contextual stock words in a short span (seamless, empowering, impact, approach, engagement). Replace stock wording with concrete language.",
+        "range": [
+          48849,
+          49063
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 74,
+        "index": 48901,
+        "line": 1214,
+        "loc": {
+          "end": {
+            "column": 130,
+            "line": 1214
+          },
+          "start": {
+            "column": 74,
+            "line": 1214
+          }
+        },
+        "message": "Formulaic three-part list found: \"supports innovation, collaboration, and long-term impact\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48901,
+          48957
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 145,
+        "index": 48972,
+        "line": 1214,
+        "loc": {
+          "end": {
+            "column": 185,
+            "line": 1214
+          },
+          "start": {
+            "column": 145,
+            "line": 1214
+          }
+        },
+        "message": "Formulaic three-part list found: \"is practical, flexible, and future-ready\". Keep only distinctions that carry concrete information.",
+        "range": [
+          48972,
+          49012
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 200,
+        "index": 49027,
+        "line": 1214,
+        "loc": {
+          "end": {
+            "column": 266,
+            "line": 1214
+          },
+          "start": {
+            "column": 200,
+            "line": 1214
+          }
+        },
+        "message": "Formulaic three-part list found: \"builds awareness, deepens engagement, and drives meaningful change\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49027,
+          49093
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 55,
+        "index": 49150,
+        "line": 1216,
+        "loc": {
+          "end": {
+            "column": 93,
+            "line": 1216
+          },
+          "start": {
+            "column": 55,
+            "line": 1216
+          }
+        },
+        "message": "Formulaic three-part list found: \"is ambitious, connected, and impactful\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49150,
+          49188
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 107,
+        "index": 49202,
+        "line": 1216,
+        "loc": {
+          "end": {
+            "column": 146,
+            "line": 1216
+          },
+          "start": {
+            "column": 107,
+            "line": 1216
+          }
+        },
+        "message": "Formulaic three-part list found: \"feels inclusive, dynamic, and authentic\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49202,
+          49241
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 160,
+        "index": 49255,
+        "line": 1216,
+        "loc": {
+          "end": {
+            "column": 208,
+            "line": 1216
+          },
+          "start": {
+            "column": 160,
+            "line": 1216
+          }
+        },
+        "message": "Formulaic three-part list found: \"promises accountability, alignment, and momentum\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49255,
+          49303
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 17,
+        "index": 49322,
+        "line": 1218,
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 1218
+          },
+          "start": {
+            "column": 17,
+            "line": 1218
+          }
+        },
+        "message": "Formulaic three-part list found: \"cultivates trust, generates awareness, and inspires action\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49322,
+          49380
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 92,
+        "index": 49397,
+        "line": 1218,
+        "loc": {
+          "end": {
+            "column": 133,
+            "line": 1218
+          },
+          "start": {
+            "column": 92,
+            "line": 1218
+          }
+        },
+        "message": "Formulaic three-part list found: \"is modern, streamlined, and user-friendly\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49397,
+          49438
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 152,
+        "index": 49457,
+        "line": 1218,
+        "loc": {
+          "end": {
+            "column": 213,
+            "line": 1218
+          },
+          "start": {
+            "column": 152,
+            "line": 1218
+          }
+        },
+        "message": "Formulaic three-part list found: \"promotes diversity, shapes culture, and sparks transformation\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49457,
+          49518
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 12,
+        "index": 49532,
+        "line": 1220,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 1220
+          },
+          "start": {
+            "column": 12,
+            "line": 1220
+          }
+        },
+        "message": "Formulaic three-part list found: \"is compelling, equitable, and future-ready\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49532,
+          49574
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 68,
+        "index": 49588,
+        "line": 1220,
+        "loc": {
+          "end": {
+            "column": 135,
+            "line": 1220
+          },
+          "start": {
+            "column": 68,
+            "line": 1220
+          }
+        },
+        "message": "Formulaic three-part list found: \"creates connection, strengthens confidence, and unlocks opportunity\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49588,
+          49655
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 100,
+        "index": 49620,
+        "line": 1220,
+        "loc": {
+          "end": {
+            "column": 233,
+            "line": 1220
+          },
+          "start": {
+            "column": 100,
+            "line": 1220
+          }
+        },
+        "message": "LLM abstraction vocabulary density: 4 contextual stock words in a short span (confidence, unlocks, resonant, engagement). Replace stock wording with concrete language.",
+        "range": [
+          49620,
+          49753
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 147,
+        "index": 49667,
+        "line": 1220,
+        "loc": {
+          "end": {
+            "column": 184,
+            "line": 1220
+          },
+          "start": {
+            "column": 147,
+            "line": 1220
+          }
+        },
+        "message": "Formulaic three-part list found: \"is thoughtful, credible, and resonant\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49667,
+          49704
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 199,
+        "index": 49719,
+        "line": 1220,
+        "loc": {
+          "end": {
+            "column": 257,
+            "line": 1220
+          },
+          "start": {
+            "column": 199,
+            "line": 1220
+          }
+        },
+        "message": "Formulaic three-part list found: \"builds purpose, deepens engagement, and drives recognition\". Keep only distinctions that carry concrete information.",
+        "range": [
+          49719,
+          49777
+        ],
+        "ruleId": "triple-word-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 77,
+        "index": 49856,
+        "line": 1222,
+        "loc": {
+          "end": {
+            "column": 167,
+            "line": 1222
+          },
+          "start": {
+            "column": 77,
+            "line": 1222
+          }
+        },
+        "message": "Flat action cadence: 3 adjacent short simple sentences use subject-action beats (stepped, looked, waited). Vary the rhythm or add causal/sensory development.",
+        "range": [
+          49856,
+          49946
+        ],
+        "ruleId": "flat-action-cadence",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 77,
+        "index": 49856,
+        "line": 1222,
+        "loc": {
+          "end": {
+            "column": 167,
+            "line": 1222
+          },
+          "start": {
+            "column": 77,
+            "line": 1222
+          }
+        },
+        "message": "Triple sentence opener found: \"cassia\". Vary the sentence openers.",
+        "range": [
+          49856,
+          49946
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 73,
+        "index": 50051,
+        "line": 1226,
+        "loc": {
+          "end": {
+            "column": 249,
+            "line": 1226
+          },
+          "start": {
+            "column": 73,
+            "line": 1226
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"Despite its remarkable success, the platform faces several significant challenges. Despite these challenges, it remains well positioned for continued growth and lasting impact.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          50051,
+          50227
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 48,
+        "index": 50276,
+        "line": 1228,
+        "loc": {
+          "end": {
+            "column": 226,
+            "line": 1228
+          },
+          "start": {
+            "column": 48,
+            "line": 1228
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"Despite its promising applications, the technology continues to encounter numerous obstacles. Even with these hurdles, ongoing innovation will help it realize its full potential.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          50276,
+          50454
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 51,
+        "index": 50506,
+        "line": 1230,
+        "loc": {
+          "end": {
+            "column": 240,
+            "line": 1230
+          },
+          "start": {
+            "column": 51,
+            "line": 1230
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"Although the initiative has achieved meaningful progress, it still faces a range of complex challenges. Looking ahead, continued collaboration can ensure a resilient and sustainable future.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          50506,
+          50695
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 74,
+        "index": 50770,
+        "line": 1232,
+        "loc": {
+          "end": {
+            "column": 247,
+            "line": 1232
+          },
+          "start": {
+            "column": 74,
+            "line": 1232
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"While the organization has made important gains, it must navigate several ongoing constraints. Nevertheless, its commitment to innovation positions it for long-term success.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          50770,
+          50943
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 58,
+        "index": 51002,
+        "line": 1234,
+        "loc": {
+          "end": {
+            "column": 234,
+            "line": 1234
+          },
+          "start": {
+            "column": 58,
+            "line": 1234
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"Despite its growing influence, the field confronts substantial barriers to broader adoption. Continued investment and stakeholder engagement will allow the ecosystem to thrive.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          51002,
+          51178
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 48,
+        "index": 51227,
+        "line": 1236,
+        "loc": {
+          "end": {
+            "column": 176,
+            "line": 1236
+          },
+          "start": {
+            "column": 48,
+            "line": 1236
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"Despite its growing popularity, the service is not without its challenges. Yet continued support will help it maintain momentum.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          51227,
+          51355
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51357,
+        "line": 1238,
+        "loc": {
+          "end": {
+            "column": 151,
+            "line": 1238
+          },
+          "start": {
+            "column": 1,
+            "line": 1238
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"Although the campaign has gained traction, it grapples with a host of evolving barriers. Going forward, committed leadership can sustain its progress.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          51357,
+          51507
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51509,
+        "line": 1240,
+        "loc": {
+          "end": {
+            "column": 148,
+            "line": 1240
+          },
+          "start": {
+            "column": 1,
+            "line": 1240
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"While the concept has broad appeal, it contends with myriad persistent obstacles. With continued investment, the project can realize its potential.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          51509,
+          51656
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51658,
+        "line": 1242,
+        "loc": {
+          "end": {
+            "column": 158,
+            "line": 1242
+          },
+          "start": {
+            "column": 1,
+            "line": 1242
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"Despite its strong results, the organization wrestles with a variety of ongoing constraints. In the years ahead, collaboration will support continued growth.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          51658,
+          51815
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 51817,
+        "line": 1244,
+        "loc": {
+          "end": {
+            "column": 140,
+            "line": 1244
+          },
+          "start": {
+            "column": 1,
+            "line": 1244
+          }
+        },
+        "message": "Formulaic challenge conclusion found: \"Although the field has gained recognition, it struggles with several unique limitations. Still, innovation positions it for future success.\". Name the limitation and the response instead of staging generic adversity and optimism.",
+        "range": [
+          51817,
+          51956
+        ],
+        "ruleId": "formulaic-challenges",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 48,
+        "index": 52036,
+        "line": 1248,
+        "loc": {
+          "end": {
+            "column": 259,
+            "line": 1248
+          },
+          "start": {
+            "column": 48,
+            "line": 1248
+          }
+        },
+        "message": "LLM vocabulary density: 12 contextual stock words in a short span (additionally, vibrant, highlights, enduring, valuable, meticulous, showcases, intricate, interplay, pivotal, landscape). Replace stock wording with concrete language.",
+        "range": [
+          52036,
+          52247
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 14,
+        "index": 52263,
+        "line": 1250,
+        "loc": {
+          "end": {
+            "column": 185,
+            "line": 1250
+          },
+          "start": {
+            "column": 14,
+            "line": 1250
+          }
+        },
+        "message": "LLM vocabulary density: 9 contextual stock words in a short span (boasts, bolstered, fosters, enhances, underscores, crucial, emphasizing, key, valuable). Replace stock wording with concrete language.",
+        "range": [
+          52263,
+          52434
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 33,
+        "index": 52282,
+        "line": 1250,
+        "loc": {
+          "end": {
+            "column": 205,
+            "line": 1250
+          },
+          "start": {
+            "column": 33,
+            "line": 1250
+          }
+        },
+        "message": "LLM abstraction vocabulary density: 5 contextual stock words in a short span (ecosystem, engagement, impact, robust, strategy). Replace stock wording with concrete language.",
+        "range": [
+          52282,
+          52454
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 107,
+        "index": 52356,
+        "line": 1250,
+        "loc": {
+          "end": {
+            "column": 206,
+            "line": 1250
+          },
+          "start": {
+            "column": 107,
+            "line": 1250
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          52356,
+          52455
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 145,
+        "index": 52394,
+        "line": 1250,
+        "loc": {
+          "end": {
+            "column": 206,
+            "line": 1250
+          },
+          "start": {
+            "column": 145,
+            "line": 1250
+          }
+        },
+        "message": "Superficial trailing analysis found: \", emphasizing the key role of a valuable and robust strategy.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          52394,
+          52455
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 190,
+        "index": 52439,
+        "line": 1250,
+        "loc": {
+          "end": {
+            "column": 196,
+            "line": 1250
+          },
+          "start": {
+            "column": 190,
+            "line": 1250
+          }
+        },
+        "message": "Prohibited word found: \"robust\". Rewrite without this term.",
+        "range": [
+          52439,
+          52445
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "index": 52469,
+        "line": 1252,
+        "loc": {
+          "end": {
+            "column": 175,
+            "line": 1252
+          },
+          "start": {
+            "column": 13,
+            "line": 1252
+          }
+        },
+        "message": "LLM vocabulary density: 8 contextual stock words in a short span (garnered, showcasing, aligned, landscape, highlights, pivotal, fosters, enduring). Replace stock wording with concrete language.",
+        "range": [
+          52469,
+          52631
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 46,
+        "index": 52502,
+        "line": 1252,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 1252
+          },
+          "start": {
+            "column": 46,
+            "line": 1252
+          }
+        },
+        "message": "Prohibited word found: \"transformative\". Rewrite without this term.",
+        "range": [
+          52502,
+          52516
+        ],
+        "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 14,
+        "index": 52682,
+        "line": 1254,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1254
+          },
+          "start": {
+            "column": 14,
+            "line": 1254
+          }
+        },
+        "message": "Cliche found: \"offers valuable insights\". Replace it with specific wording.",
+        "range": [
+          52682,
+          52706
+        ],
+        "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 14,
+        "index": 52682,
+        "line": 1254,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1254
+          },
+          "start": {
+            "column": 14,
+            "line": 1254
+          }
+        },
+        "message": "Corporate-speak phrase found: \"offers valuable insights\". Replace it with specific wording.",
+        "range": [
+          52682,
+          52706
+        ],
+        "ruleId": "corporate-speak",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 21,
+        "index": 52689,
+        "line": 1254,
+        "loc": {
+          "end": {
+            "column": 136,
+            "line": 1254
+          },
+          "start": {
+            "column": 21,
+            "line": 1254
+          }
+        },
+        "message": "LLM vocabulary density: 4 contextual stock words in a short span (valuable, intricate, interplay, highlights). Replace stock wording with concrete language.",
+        "range": [
+          52689,
+          52804
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 30,
+        "index": 52698,
+        "line": 1254,
+        "loc": {
+          "end": {
+            "column": 206,
+            "line": 1254
+          },
+          "start": {
+            "column": 30,
+            "line": 1254
+          }
+        },
+        "message": "LLM abstraction vocabulary density: 7 contextual stock words in a short span (insights, strategy, impact, empirical, causal, correlates, transformation). Replace stock wording with concrete language.",
+        "range": [
+          52698,
+          52874
+        ],
+        "ruleId": "llm-vocabulary-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 97,
+        "index": 52973,
+        "line": 1256,
+        "loc": {
+          "end": {
+            "column": 186,
+            "line": 1256
+          },
+          "start": {
+            "column": 97,
+            "line": 1256
+          }
+        },
+        "message": "LLM vocabulary density: 5 contextual stock words in a short span (embark, meticulous, intricate, intricacies, excels). Replace stock wording with concrete language.",
+        "range": [
+          52973,
+          53062
+        ],
+        "ruleId": "llm-vocabulary",
+        "severity": 2,
         "type": "lint"
       }
     ]
