@@ -1,0 +1,18 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": [".github/workflows/release.yml"],
+        "required": [
+          "BERELEVANT_RELEASE_DISPATCH_TOKEN",
+          "slopless-released",
+          "berelevant-ai/berelevant/dispatches",
+          "client_payload"
+        ],
+        "reason": "plan: successful npm publication dispatches the exact version to Be Relevant"
+      }
+    ]
+  }
+}

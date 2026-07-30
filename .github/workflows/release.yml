@@ -33,3 +33,13 @@ jobs:
             exit 1
           fi
       - run: pnpm publish --provenance --access public --no-git-checks
+      - name: Notify Be Relevant
+        env:
+          GH_TOKEN: ${{ secrets.BERELEVANT_RELEASE_DISPATCH_TOKEN }}
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          jq -n --arg version "$version" \
+            '{event_type:"slopless-released",client_payload:{version:$version}}' |
+            gh api --method POST \
+              repos/berelevant-ai/berelevant/dispatches \
+              --input -
