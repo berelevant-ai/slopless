@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "required": [
+          "\"eslint\": \"10.8.0\"",
+          "\"typescript\": \"6.0.3\"",
+          "\"@typescript-eslint/eslint-plugin\": \"8.65.0\"",
+          "\"eslint-plugin-unicorn\": \"72.0.0\""
+        ],
+        "forbidden": ["\"typescript\": \"7.0.2\""],
+        "reason": "Update supported development tools without installing unsupported TypeScript 7."
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [".github/dependabot.yml"],
+        "required": ["dependency-name: \"typescript\"", "version-update:semver-major"],
+        "reason": "Prevent Dependabot from proposing TypeScript 7 while the lint stack requires TypeScript 6."
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": [".github/workflows/ci.yml", ".github/workflows/release.yml"],
+        "required": ["0ebf47130e4866e96fce0953f49152a61190b271"],
+        "reason": "Use pnpm/action-setup 6.0.9 everywhere it is invoked."
+      }
+    ]
+  }
+}
