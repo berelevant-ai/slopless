@@ -4,11 +4,11 @@ import {
   splitSentences
 } from "../../../../shared/text/sentences.js";
 import { splitWhitespace } from "../../../../shared/text/whitespace.js";
+import * as elliptical from "./elliptical-action-stack.js";
 
 const MAX_FRAGMENT_WORDS = 6;
 const MAX_NO_FRAGMENT_WORDS = 5;
 const MAX_PAYOFF_WORDS = 28;
-
 const SUBJECT_WORDS = new Set([
   "i",
   "you",
@@ -138,12 +138,7 @@ const SIMPLE_PAST_VERBS = new Set([
   "broke"
 ]);
 
-export type FragmentMatch = {
-  readonly end: number;
-  readonly fragmentTypes: readonly string[];
-  readonly sentences: readonly string[];
-  readonly start: number;
-};
+export type FragmentMatch = elliptical.EllipticalActionMatch;
 
 function isAlphanumeric(character: string): boolean {
   const lower = character.toLocaleLowerCase("en");
@@ -224,9 +219,10 @@ function looksLikeSimpleClause(first: string, second: string): boolean {
 }
 
 function looksLikeBriefImperative(first: string, second: string): boolean {
+  const hasObject = OBJECT_WORDS.has(second) || isFunctionWord(second);
   return (
     IMPERATIVE_STARTS.has(first) &&
-    (OBJECT_WORDS.has(second) || second.endsWith("er") || second.endsWith("ly"))
+    (hasObject || second.endsWith("er") || second.endsWith("ly"))
   );
 }
 
@@ -250,7 +246,11 @@ function classifyFragment(sentence: SplitSentence): string | undefined {
 
   const first = words[0];
   const second = words[1];
-  if (first === undefined || second === undefined) {
+  if (
+    first === undefined ||
+    second === undefined ||
+    elliptical.looksLikeDeclarativeClause(sentence)
+  ) {
     return undefined;
   }
 
@@ -393,5 +393,8 @@ function findFragmentStacks(text: string): FragmentMatch[] {
 }
 
 export function findFragmentMatches(text: string): FragmentMatch[] {
-  return [...findNoFragmentPairs(text), ...findFragmentStacks(text)];
+  return elliptical.mergeMatches(
+    text,
+    findNoFragmentPairs(text).concat(findFragmentStacks(text))
+  );
 }
