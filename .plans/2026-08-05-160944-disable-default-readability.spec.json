@@ -1,0 +1,33 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/presets/everything.ts"],
+        "required": [
+          "\"academic-boilerplate\": true",
+          "\"academic-formula-frames\": true",
+          "\"emotion-telling\": true",
+          "\"empty-beat\": true",
+          "\"coleman-liau\": false",
+          "\"flesch-kincaid\": false",
+          "\"gunning-fog\": false"
+        ],
+        "reason": "Textlint treats missing preset entries as enabled, so every previously omitted rule needs an explicit state."
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "required": [
+          "\"version\": \"0.2.35\"",
+          "./rules/metrics/coleman-liau",
+          "./rules/metrics/flesch-kincaid",
+          "./rules/metrics/gunning-fog"
+        ],
+        "forbidden": ["\"version\": \"0.2.34\""],
+        "reason": "Publish the default-behavior correction without removing opt-in metric exports."
+      }
+    ]
+  }
+}
