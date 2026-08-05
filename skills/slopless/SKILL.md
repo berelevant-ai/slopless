@@ -1,11 +1,11 @@
 ---
 name: slopless
-description: Use Slopless to review English Markdown for deterministic AI and human slop signals, including vague phrasing, formulaic prose, weak rhythm, filler, cliches, and readability issues.
+description: Use Slopless to review English Markdown for deterministic AI and human slop signals, including vague phrasing, formulaic prose, weak rhythm, filler, and cliches.
 ---
 
 # Slopless
 
-Use this skill when asked to review English Markdown prose for AI slop, human slop, weak phrasing, cliches, filler, formulaic prose, or readability problems.
+Use this skill when asked to review English Markdown prose for AI slop, human slop, weak phrasing, cliches, filler, or formulaic prose.
 
 ## Scope
 

@@ -263,3 +263,5 @@ The meticulous scribe copied every surviving line of the charter.
 The testament was admitted as evidence in the probate hearing.
 
 The valuable painting was insured for EUR 2 million.
+
+The migration actually finished ahead of schedule.

@@ -191,3 +191,55 @@ The patient gets one dose. The control group gets another dose.
 The better operating system is ready for the migration.
 
 The grown-up answer key is missing from the training packet.
+
+The draft turns scoped recommendations into empty praise for dullness. So the real rule under all 43 is boring. The practical answer across all 12 cases is boring. This strategy for the remaining accounts is boring: remove the duplicate step. The correct method in section 4 is boring. The plan that covers all regions is boring. The best approach within the stated limits remains boring. That recommendation for every account was boring. The principle behind the 9 checks stays boring. The technique under the new policy became boring. The rule across both teams is boring.
+
+The control passage uses the same words for literal judgments and different sentence structures. The movie under all 43 reviews is boring. The classroom rule under review is boring to the students. The policy under all 43 sections is boring. The rule under all 43 is binding. The rule under every one of the 43 separate regional compliance sections is boring. The rule is boring because each clause repeats the same sentence. A rule under section 43 is boring. Those rules under section 43 are boring. Under all 43 rules, the process is boring. The audit under all 43 checks is boring.
+
+The security checklist still opens with removable labels. The hardest part: safe tool access at scale. The biggest takeaway: prompt defenses fail eventually. The trickiest challenge: permissions spread across external systems. The most interesting thing: the prompt was not the weak point.
+
+The labels continue through the draft. The odd detail: every tool trusted the agent. The useful lesson: authorization belongs outside the model. The worst problem: every connector inherited administrator access. The best answer: enforce the user's permissions at every tool.
+
+The evaluative labels also wrap complete claims. The biggest takeaway is simple: prompt engineering alone isn't enough. The hardest part is clear: safe tool access does not scale by itself. The useful lesson is obvious: prompts cannot enforce authorization. The odd thing was straightforward: every tool trusted the same identity.
+
+The same draft repeats its internal sentence frame. Your tools should still enforce least privilege. Authorization should still check the real user. Your app should still check the model action.
+
+The gateway must still reject unknown callers. The tool must still verify the user. The database must still apply row permissions.
+
+The client can still retry once. The proxy can still reject stale credentials. The server can still record the failed request.
+
+The worker will still validate the payload. The queue will still enforce its limit. The handler will still check the signature.
+
+The old client could still send the request. The proxy could still reject it. The audit log could still record the attempt.
+
+The reviewer would still inspect the diff. The owner would still approve the release. The hook would still reject an unsigned commit.
+
+The cache may still contain stale entries. The worker may still read one. The response may still expose the old value.
+
+The model might still choose the wrong tool. The tool might still reject the call. The application might still record the attempt.
+
+For each finding, we wrote a line an editor can actually act on. Teams can actually use the advice without another explanation.
+
+The controls preserve concrete labels. The hardest part of the climb was the final mile. The biggest takeaway from Table 4 was the 18 percent failure rate. The main question: Who owns the certificate renewal? The security detail: Marta rotates the signing key every 30 days.
+
+Other controls use literal labels and ordinary clauses. The part labeled "hardest" contains the final exercise. Chapter 4: Safe tool access at scale. The hardest part was safe tool access at scale. The odd detail appears in row 14 of the audit export.
+
+Quoted and code examples remain literal. "The hardest part: safe tool access at scale," the editor read aloud. The field named `hardest_part` stores the measured duration.
+
+Two repetitions do not make a triple. Your tools should still enforce least privilege. Authorization should still check the real user.
+
+Mixed modal frames do not match. Your tools should still enforce least privilege. Authorization must still check the real user. Your app should still check the model action.
+
+Another mixed set varies every modal. The service should still respond after failover. The client can still retry once. The proxy must still preserve the trace ID.
+
+Quoted dialogue is outside the prose frame. "The service should still respond," Marta said. "The client should still retry," Ilya replied. "The proxy should still preserve headers," Chen added.
+
+Code examples are also excluded. The documentation says `the service should still respond`. The test is named `client should still retry`. The comment says `proxy should still preserve headers`.
+
+Long subjects place the phrase outside the bounded frame. Rule 4 says the service should still respond. Section 5 says the client should still retry. Appendix B says the proxy should still preserve headers.
+
+Literal stillness uses a different grammar. The service remains still during calibration because its motor is locked. During client calibration, the carriage remains still under the clamp. A steel pin keeps the proxy arm still until the gauge reaches zero.
+
+Plain recommendations omit the repeated modifier. The service should respond after failover. The client should retry once. The proxy should preserve the trace ID.
+
+A separate release note uses one intensifier: the migration actually finished ahead of schedule.

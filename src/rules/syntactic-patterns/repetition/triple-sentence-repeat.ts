@@ -2,10 +2,11 @@ import { hasConcreteInventorySubjects } from "../../../shared/matchers/concrete-
 import { splitSentences } from "../../../shared/text/sentences.js";
 import { splitWhitespace } from "../../../shared/text/whitespace.js";
 import { oneToOneRule } from "../../private/textlint-rule-builders.js";
+import { findRepeatedInternalFrames } from "./private/repeated-internal-frame.js";
 
 type RepeatMatch = {
   readonly end: number;
-  readonly kind: "frame" | "triple";
+  readonly kind: "frame" | "internal" | "triple";
   readonly opener: string;
   readonly sentences: readonly string[];
   readonly start: number;
@@ -338,14 +339,22 @@ function findRepeatedFrames(text: string): RepeatMatch[] {
 
 const rule = oneToOneRule({
   detect: (unit) =>
-    [...findTripleRepeats(unit.text), ...findRepeatedFrames(unit.text)].map(
-      (match) => ({
-        data: { kind: match.kind },
-        evidence: match.opener,
-        label: match.opener,
-        range: { start: match.start, end: match.end }
-      })
-    ),
+    [
+      ...findTripleRepeats(unit.text),
+      ...findRepeatedFrames(unit.text),
+      ...findRepeatedInternalFrames(unit.text).map((match) => ({
+        end: match.end,
+        kind: "internal" as const,
+        opener: match.frame,
+        sentences: [],
+        start: match.start
+      }))
+    ].map((match) => ({
+      data: { kind: match.kind },
+      evidence: match.opener,
+      label: match.opener,
+      range: { start: match.start, end: match.end }
+    })),
   family: "syntactic-patterns",
   formatMessage: (report) =>
     report.detections[0]?.data?.["kind"] === "triple"

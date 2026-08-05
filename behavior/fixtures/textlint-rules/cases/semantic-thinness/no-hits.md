@@ -419,3 +419,23 @@ The API offers ports 80, 443, and 8443.
 The oak is deeply rooted in clay soil beside the eastern wall.
 
 The die is shaping the steel into a 6-millimeter washer.
+
+The movie under all 43 reviews is boring.
+
+The classroom rule under review is boring to the students.
+
+The policy under all 43 sections is boring.
+
+The rule under all 43 is binding.
+
+The rule under every one of the 43 separate regional compliance sections is boring.
+
+The rule is boring because each clause repeats the same sentence.
+
+A rule under section 43 is boring.
+
+Those rules under section 43 are boring.
+
+Under all 43 rules, the process is boring.
+
+The audit under all 43 checks is boring.

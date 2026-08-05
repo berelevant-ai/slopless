@@ -1,0 +1,14 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "required": ["\"version\": \"0.2.34\""],
+        "forbidden": ["\"version\": \"0.2.33\""],
+        "reason": "The package version must match release tag v0.2.34."
+      }
+    ]
+  }
+}

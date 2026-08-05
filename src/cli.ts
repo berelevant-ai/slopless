@@ -77,7 +77,7 @@ Default behavior:
 What it is for:
   Slopless is for deterministic prose checks in CI, local scripts, and review
   pipelines. It catches AI-style phrasing, empty claims, rhetorical filler,
-  weak lead-ins and closers, hedge stacking, readability problems, and Markdown
+  weak lead-ins and closers, hedge stacking, repeated structures, and Markdown
   style signals.
 
 What it is not for:

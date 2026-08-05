@@ -679,3 +679,92 @@ Despite its growing popularity, the service is not without its challenges: the q
 Although the campaign gained traction, it missed the June 4 deadline because the vendor delivered 9 days late. Ilya will replace the vendor by July 1.
 
 While the concept has broad appeal, trial B failed at 41 percent accuracy and exceeded the 300 ms limit.
+
+Kendall looked at the photograph. Then rain started. Then the safety pin fell.
+
+Where did Kendall look? At the photograph. Then at the deck.
+
+Kendall looked at the photograph. Then at the deck.
+
+Kendall looked at the photograph. Then he looked out at the deck. Then he picked up the safety pin.
+
+Kendall looked at the photograph, then out at the deck, and then at the safety pin.
+
+The report has two appendices. Appendix A. Appendix B.
+
+The menu lists two soups. Tomato bisque. Onion broth.
+
+The labels read "Then out" and "Then at" on separate cards.
+
+Look at the photograph. Then at the deck. Then at the safety pin.
+
+Where is the photograph! On the deck. Under the safety pin.
+
+Kendall looked at the photograph. Then at the deck, where the rain had started.
+
+Kendall looked at the photograph. Then at the deck. The safety pin fell through a crack.
+
+The photograph showed three objects. A deck. A pin.
+
+The schedule has two sessions. Design review. Security review.
+
+Kendall looked at the photograph. Then the rain began. Then the boards shook.
+
+Kendall looked at the photograph. Turning toward the deck was difficult. Reaching for the pin hurt his shoulder.
+
+Kendall looked at the photograph. Quietly, the rain began. More firmly, the boards held.
+
+The route led onward. Through the tunnel, the train accelerated. Over the ridge, smoke drifted.
+
+At dawn, Kendall looked at the photograph. At noon, he checked the deck. At dusk, he picked up the safety pin.
+
+The photograph was on the desk. The safety pin was on the deck. Kendall compared them under the lamp.
+
+Darling was frightfully ashamed of himself, but he would not give in. In a horrid silence Mrs. Darling smelt the bowl.
+
+The river's algorithm is simple. At each step, flow down. For the essayist this translates to: flow interesting.
+
+The contents continue with Chapter XVII. How the Balloon Was Launched Chapter XVIII. Away to the South Chapter XIX.
+
+Some further information may help. In their article, Matthew F. Daly and Jason M. Glanz report the measured result.
+
+The browser blocks the request. The cache
+drops an expired entry. The backup process fails after error E42 is logged.
+
+Surely that gap is bridgeable. In fact, let's make it a request. Wanted: woman with hammer.
+
+The hardest part of the climb was the final mile.
+
+The biggest takeaway from Table 4 was the 18 percent failure rate.
+
+The main question: Who owns the certificate renewal?
+
+The security detail: Marta rotates the signing key every 30 days.
+
+The part labeled "hardest" contains the final exercise.
+
+Chapter 4: Safe tool access at scale.
+
+The hardest part was safe tool access at scale.
+
+The odd detail appears in row 14 of the audit export.
+
+"The hardest part: safe tool access at scale," the editor read aloud.
+
+The field named `hardest_part` stores the measured duration.
+
+Your tools should still enforce least privilege. Authorization should still check the real user.
+
+Your tools should still enforce least privilege. Authorization must still check the real user. Your app should still check the model action.
+
+The service should still respond after failover. The client can still retry once. The proxy must still preserve the trace ID.
+
+"The service should still respond," Marta said. "The client should still retry," Ilya replied. "The proxy should still preserve headers," Chen added.
+
+The documentation says `the service should still respond`. The test is named `client should still retry`. The comment says `proxy should still preserve headers`.
+
+Rule 4 says the service should still respond. Section 5 says the client should still retry. Appendix B says the proxy should still preserve headers.
+
+The service remains still during calibration because its motor is locked. During client calibration, the carriage remains still under the clamp. A steel pin keeps the proxy arm still until the gauge reaches zero.
+
+The service should respond after failover. The client should retry once. The proxy should preserve the trace ID.

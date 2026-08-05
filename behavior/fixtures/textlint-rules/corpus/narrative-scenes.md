@@ -463,3 +463,28 @@ Remal had focused on the front latch and copied the serial number into the ledge
 The next stair passage uses filler movement instead of showing what Cassia does with the clue. Liska led them across the yard-compound to the steep stone stairs. Cassia kept pace. She kept her eyes on the small cub.
 
 The matching controls keep pace literal, measured, or causal. Cassia kept pace with Liska because the lantern path had loose stones. The runner kept pace with the lead group for three miles. The drummer kept pace with the metronome during the timing drill. Cassia kept pace with Liska to match the rope count.
+
+## elliptical action stacks
+
+The rough surveillance draft breaks one repeated action into clipped continuations. Kendall looked at the photograph. Then out at his deck. Then at the safety pin. Mara glanced at the stairwell. Then toward the courtyard. Then back at the locked door. Imani studied the route. First through the market. Next across the bridge. Finally into the station.
+
+The same cadence spreads through objects and locations. The lantern beam moved across the room. Over the desk. Along the shelves. Under the bed. Cassia checked each entrance. At the front gate. Around the east wall. Through the roof hatch. Arden considered the evidence. First the torn map. Then the bent key. Finally the chalk mark. Remal looks over the yard. Then toward the gate. Then up at the roof. The guard had searched three places. Under the cart. Behind the barrels. Inside the shed.
+
+The draft also drops subjects from actions and modifiers. Marius watched the crowd. Turning toward each shout. Stopping at every raised paw. Liska answered the captain. Softly at first. More firmly after the bell. She traced the scratch. From the latch. Across the frame. Down to the floor. He read the names. First on the ledger. Next on the wall. Then inside the envelope.
+
+The remaining examples vary the omitted complement. The camera swept the alley. Left toward the bakery. Right toward the dock. Kendall inspected the pin. Once under the lamp. Again beside the photograph. The child reached for the objects. First the photograph. Then the safety pin. The route led onward. Through the orchard. Over the ridge. Cassia listened for movement. Outside the gate. Beneath the stairs. Arden compared the marks. One beside the latch. Another below the window. She pointed out the damage. Here on the hinge. There along the frame. He checked the room. Inside first. Outside next. The inspector checks the seals. First at the valve. Then on the hatch.
+
+Plural subjects keep the same clipped pattern. The guards scan the room. First along the floor. Then behind the curtains. The children walk the route. First through the orchard. Then over the bridge. They compare the marks. One beside the latch. Another beneath the window. We watch the gate. First from the roof. Then from the alley.
+
+The control passage keeps questions, complete clauses, and single continuations outside this rule. Kendall looked at the photograph. Then rain started. Then the safety pin fell. Where did Kendall look? At the photograph. Then at the deck. Kendall looked at the photograph. Then at the deck. Kendall looked at the photograph. Then he looked out at the deck. Then he picked up the safety pin. Kendall looked at the photograph, then out at the deck, and then at the safety pin.
+
+Concrete inventories and quoted labels remain controls. The report has two appendices. Appendix A. Appendix B. The menu lists two soups. Tomato bisque. Onion broth. The labels read "Then out" and "Then at" on separate cards. Look at the photograph. Then at the deck. Then at the safety pin. Where is the photograph! On the deck. Under the safety pin.
+
+The final controls prevent incomplete pairs and complete clauses from entering the new path. Kendall looked at the photograph. Then at the deck, where the rain had started. Kendall looked at the photograph. Then at the deck. The safety pin fell through a crack. The photograph showed three objects. A deck. A pin. The schedule has two sessions. Design review. Security review. Kendall looked at the photograph. Then the rain began. Then the boards shook. Kendall looked at the photograph. Turning toward the deck was difficult. Reaching for the pin hurt his shoulder. Kendall looked at the photograph. Quietly, the rain began. More firmly, the boards held. The route led onward. Through the tunnel, the train accelerated. Over the ridge, smoke drifted. At dawn, Kendall looked at the photograph. At noon, he checked the deck. At dusk, he picked up the safety pin. The photograph was on the desk. The safety pin was on the deck. Kendall compared them under the lamp. Darling was frightfully ashamed of himself, but he would not give in. In a horrid silence Mrs. Darling smelt the bowl.
+
+The grammar controls preserve introduced commands, book indexes, and full names. The river's algorithm is simple. At each step, flow down. For the essayist this translates to: flow interesting. The contents continue with Chapter XVII. How the Balloon Was Launched Chapter XVIII. Away to the South Chapter XIX. Some further information may help. In their article, Matthew F. Daly and Jason M. Glanz report the measured result.
+
+The line-wrap control keeps a Markdown source break inside one sentence. The browser blocks the request. The cache
+drops an expired entry. The backup process fails after error E42 is logged.
+
+The explicit-subject control breaks a possible continuation run. Surely that gap is bridgeable. In fact, let's make it a request. Wanted: woman with hammer.

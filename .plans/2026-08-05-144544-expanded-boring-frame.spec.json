@@ -1,0 +1,36 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "required": ["src/rules/semantic-thinness/private/expanded-solution-boring-frame.ts"]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/semantic-thinness/semantic-thinness.ts"],
+        "exists": ["findExpandedSolutionBoringMatch"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/semantic-thinness/patterns/solution-boring-frame.json"],
+        "exists": ["rule", "principle", "recommendation"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/semantic-thinness/hits.md"],
+        "exists": ["So the real rule under all 43 is boring."]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/semantic-thinness/no-hits.md"],
+        "exists": ["The movie under all 43 reviews is boring."]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/corpus/linkedin-ai-search.md"],
+        "exists": ["So the real rule under all 43 is boring."]
+      }
+    ]
+  }
+}

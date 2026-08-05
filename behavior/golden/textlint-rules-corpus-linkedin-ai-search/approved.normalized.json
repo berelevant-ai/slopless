@@ -4,75 +4,6 @@
     "messages": [
       {
         "column": 1,
-        "index": 25,
-        "line": 3,
-        "loc": {
-          "end": {
-            "column": 2,
-            "line": 3
-          },
-          "start": {
-            "column": 1,
-            "line": 3
-          }
-        },
-        "message": "Coleman-Liau is 12.61. Keep it at 12 or lower.",
-        "range": [
-          25,
-          26
-        ],
-        "ruleId": "coleman-liau",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 25,
-        "line": 3,
-        "loc": {
-          "end": {
-            "column": 2,
-            "line": 3
-          },
-          "start": {
-            "column": 1,
-            "line": 3
-          }
-        },
-        "message": "Flesch Reading Ease is 37.2. Keep it at 61 or higher.",
-        "range": [
-          25,
-          26
-        ],
-        "ruleId": "flesch-kincaid",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 25,
-        "line": 3,
-        "loc": {
-          "end": {
-            "column": 2,
-            "line": 3
-          },
-          "start": {
-            "column": 1,
-            "line": 3
-          }
-        },
-        "message": "Gunning Fog is 19.08. Keep it at 12 or lower.",
-        "range": [
-          25,
-          26
-        ],
-        "ruleId": "gunning-fog",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
         "index": 155,
         "line": 7,
         "loc": {
@@ -1425,6 +1356,972 @@
           5680
         ],
         "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6413,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 575,
+            "line": 195
+          },
+          "start": {
+            "column": 1,
+            "line": 195
+          }
+        },
+        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          6413,
+          6987
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6413,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 575,
+            "line": 195
+          },
+          "start": {
+            "column": 1,
+            "line": 195
+          }
+        },
+        "message": "Word repeated 10 times in one paragraph: \"boring\". Keep repeated words to 5 or fewer.",
+        "range": [
+          6413,
+          6987
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 72,
+        "index": 6484,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 112,
+            "line": 195
+          },
+          "start": {
+            "column": 72,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6484,
+          6524
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 113,
+        "index": 6525,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 164,
+            "line": 195
+          },
+          "start": {
+            "column": 113,
+            "line": 195
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          6525,
+          6576
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 113,
+        "index": 6525,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 164,
+            "line": 195
+          },
+          "start": {
+            "column": 113,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6525,
+          6576
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 165,
+        "index": 6577,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 243,
+            "line": 195
+          },
+          "start": {
+            "column": 165,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6577,
+          6655
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 244,
+        "index": 6656,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 286,
+            "line": 195
+          },
+          "start": {
+            "column": 244,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6656,
+          6698
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 287,
+        "index": 6699,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 330,
+            "line": 195
+          },
+          "start": {
+            "column": 287,
+            "line": 195
+          }
+        },
+        "message": "Generic signposting found: the-is-boring. Replace the frame with the concrete claim.",
+        "range": [
+          6699,
+          6742
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 287,
+        "index": 6699,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 330,
+            "line": 195
+          },
+          "start": {
+            "column": 287,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6699,
+          6742
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 331,
+        "index": 6743,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 389,
+            "line": 195
+          },
+          "start": {
+            "column": 331,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6743,
+          6801
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 390,
+        "index": 6802,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 439,
+            "line": 195
+          },
+          "start": {
+            "column": 390,
+            "line": 195
+          }
+        },
+        "message": "Generic signposting found: that-was-boring. Replace the frame with the concrete claim.",
+        "range": [
+          6802,
+          6851
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 390,
+        "index": 6802,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 439,
+            "line": 195
+          },
+          "start": {
+            "column": 390,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6802,
+          6851
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 440,
+        "index": 6852,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 487,
+            "line": 195
+          },
+          "start": {
+            "column": 440,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6852,
+          6899
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 488,
+        "index": 6900,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 537,
+            "line": 195
+          },
+          "start": {
+            "column": 488,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6900,
+          6949
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 538,
+        "index": 6950,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 575,
+            "line": 195
+          },
+          "start": {
+            "column": 538,
+            "line": 195
+          }
+        },
+        "message": "Generic signposting found: the-is-boring. Replace the frame with the concrete claim.",
+        "range": [
+          6950,
+          6987
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 538,
+        "index": 6950,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 575,
+            "line": 195
+          },
+          "start": {
+            "column": 538,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6950,
+          6987
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6989,
+        "line": 197,
+        "loc": {
+          "end": {
+            "column": 586,
+            "line": 197
+          },
+          "start": {
+            "column": 1,
+            "line": 197
+          }
+        },
+        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          6989,
+          7574
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6989,
+        "line": 197,
+        "loc": {
+          "end": {
+            "column": 586,
+            "line": 197
+          },
+          "start": {
+            "column": 1,
+            "line": 197
+          }
+        },
+        "message": "Word repeated 9 times in one paragraph: \"boring\". Keep repeated words to 5 or fewer.",
+        "range": [
+          6989,
+          7574
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6989,
+        "line": 197,
+        "loc": {
+          "end": {
+            "column": 586,
+            "line": 197
+          },
+          "start": {
+            "column": 1,
+            "line": 197
+          }
+        },
+        "message": "Word repeated 9 times in one paragraph: \"under\". Keep repeated words to 5 or fewer.",
+        "range": [
+          6989,
+          7574
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 59,
+        "index": 7634,
+        "line": 199,
+        "loc": {
+          "end": {
+            "column": 103,
+            "line": 199
+          },
+          "start": {
+            "column": 59,
+            "line": 199
+          }
+        },
+        "message": "Generic signposting found: the-hardest-part. Replace the frame with the concrete claim.",
+        "range": [
+          7634,
+          7678
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 104,
+        "index": 7679,
+        "line": 199,
+        "loc": {
+          "end": {
+            "column": 158,
+            "line": 199
+          },
+          "start": {
+            "column": 104,
+            "line": 199
+          }
+        },
+        "message": "Generic signposting found: the-biggest-takeaway. Replace the frame with the concrete claim.",
+        "range": [
+          7679,
+          7733
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 159,
+        "index": 7734,
+        "line": 199,
+        "loc": {
+          "end": {
+            "column": 227,
+            "line": 199
+          },
+          "start": {
+            "column": 159,
+            "line": 199
+          }
+        },
+        "message": "Generic signposting found: the-trickiest-challenge. Replace the frame with the concrete claim.",
+        "range": [
+          7734,
+          7802
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 228,
+        "index": 7803,
+        "line": 199,
+        "loc": {
+          "end": {
+            "column": 290,
+            "line": 199
+          },
+          "start": {
+            "column": 228,
+            "line": 199
+          }
+        },
+        "message": "Generic signposting found: the-most-interesting-thing. Replace the frame with the concrete claim.",
+        "range": [
+          7803,
+          7865
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 40,
+        "index": 7906,
+        "line": 201,
+        "loc": {
+          "end": {
+            "column": 85,
+            "line": 201
+          },
+          "start": {
+            "column": 40,
+            "line": 201
+          }
+        },
+        "message": "Generic signposting found: the-odd-detail. Replace the frame with the concrete claim.",
+        "range": [
+          7906,
+          7951
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 86,
+        "index": 7952,
+        "line": 201,
+        "loc": {
+          "end": {
+            "column": 145,
+            "line": 201
+          },
+          "start": {
+            "column": 86,
+            "line": 201
+          }
+        },
+        "message": "Generic signposting found: the-useful-lesson. Replace the frame with the concrete claim.",
+        "range": [
+          7952,
+          8011
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 146,
+        "index": 8012,
+        "line": 201,
+        "loc": {
+          "end": {
+            "column": 212,
+            "line": 201
+          },
+          "start": {
+            "column": 146,
+            "line": 201
+          }
+        },
+        "message": "Generic signposting found: the-worst-problem. Replace the frame with the concrete claim.",
+        "range": [
+          8012,
+          8078
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 213,
+        "index": 8079,
+        "line": 201,
+        "loc": {
+          "end": {
+            "column": 275,
+            "line": 201
+          },
+          "start": {
+            "column": 213,
+            "line": 201
+          }
+        },
+        "message": "Generic signposting found: the-best-answer. Replace the frame with the concrete claim.",
+        "range": [
+          8079,
+          8141
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 50,
+        "index": 8192,
+        "line": 203,
+        "loc": {
+          "end": {
+            "column": 120,
+            "line": 203
+          },
+          "start": {
+            "column": 50,
+            "line": 203
+          }
+        },
+        "message": "Generic signposting found: the-biggest-takeaway-is-simple. Replace the frame with the concrete claim.",
+        "range": [
+          8192,
+          8262
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 121,
+        "index": 8263,
+        "line": 203,
+        "loc": {
+          "end": {
+            "column": 190,
+            "line": 203
+          },
+          "start": {
+            "column": 121,
+            "line": 203
+          }
+        },
+        "message": "Generic signposting found: the-hardest-part-is-clear. Replace the frame with the concrete claim.",
+        "range": [
+          8263,
+          8332
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 191,
+        "index": 8333,
+        "line": 203,
+        "loc": {
+          "end": {
+            "column": 258,
+            "line": 203
+          },
+          "start": {
+            "column": 191,
+            "line": 203
+          }
+        },
+        "message": "Generic signposting found: the-useful-lesson-is-obvious. Replace the frame with the concrete claim.",
+        "range": [
+          8333,
+          8400
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 259,
+        "index": 8401,
+        "line": 203,
+        "loc": {
+          "end": {
+            "column": 331,
+            "line": 203
+          },
+          "start": {
+            "column": 259,
+            "line": 203
+          }
+        },
+        "message": "Generic signposting found: the-odd-thing-was-straightforward. Replace the frame with the concrete claim.",
+        "range": [
+          8401,
+          8473
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 53,
+        "index": 8527,
+        "line": 205,
+        "loc": {
+          "end": {
+            "column": 195,
+            "line": 205
+          },
+          "start": {
+            "column": 53,
+            "line": 205
+          }
+        },
+        "message": "Repeated sentence frame found: \"should still\". Vary the sentence frame.",
+        "range": [
+          8527,
+          8669
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 8671,
+        "line": 207,
+        "loc": {
+          "end": {
+            "column": 131,
+            "line": 207
+          },
+          "start": {
+            "column": 1,
+            "line": 207
+          }
+        },
+        "message": "Repeated sentence frame found: \"must still\". Vary the sentence frame.",
+        "range": [
+          8671,
+          8801
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 8803,
+        "line": 209,
+        "loc": {
+          "end": {
+            "column": 127,
+            "line": 209
+          },
+          "start": {
+            "column": 1,
+            "line": 209
+          }
+        },
+        "message": "Repeated sentence frame found: \"can still\". Vary the sentence frame.",
+        "range": [
+          8803,
+          8929
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 8931,
+        "line": 211,
+        "loc": {
+          "end": {
+            "column": 128,
+            "line": 211
+          },
+          "start": {
+            "column": 1,
+            "line": 211
+          }
+        },
+        "message": "Repeated sentence frame found: \"will still\". Vary the sentence frame.",
+        "range": [
+          8931,
+          9058
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 9060,
+        "line": 213,
+        "loc": {
+          "end": {
+            "column": 124,
+            "line": 213
+          },
+          "start": {
+            "column": 1,
+            "line": 213
+          }
+        },
+        "message": "Repeated sentence frame found: \"could still\". Vary the sentence frame.",
+        "range": [
+          9060,
+          9183
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 9185,
+        "line": 215,
+        "loc": {
+          "end": {
+            "column": 134,
+            "line": 215
+          },
+          "start": {
+            "column": 1,
+            "line": 215
+          }
+        },
+        "message": "Repeated sentence frame found: \"would still\". Vary the sentence frame.",
+        "range": [
+          9185,
+          9318
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 9320,
+        "line": 217,
+        "loc": {
+          "end": {
+            "column": 119,
+            "line": 217
+          },
+          "start": {
+            "column": 1,
+            "line": 217
+          }
+        },
+        "message": "Repeated sentence frame found: \"may still\". Vary the sentence frame.",
+        "range": [
+          9320,
+          9438
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 9440,
+        "line": 219,
+        "loc": {
+          "end": {
+            "column": 131,
+            "line": 219
+          },
+          "start": {
+            "column": 1,
+            "line": 219
+          }
+        },
+        "message": "Repeated sentence frame found: \"might still\". Vary the sentence frame.",
+        "range": [
+          9440,
+          9570
+        ],
+        "ruleId": "triple-sentence-repeat",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 24,
+        "index": 9595,
+        "line": 221,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 221
+          },
+          "start": {
+            "column": 24,
+            "line": 221
+          }
+        },
+        "message": "\"actually\" is repeated in this document. Keep one necessary use and remove the filler uses.",
+        "range": [
+          9595,
+          9603
+        ],
+        "ruleId": "actually-overuse",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 51,
+        "index": 9622,
+        "line": 221,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 221
+          },
+          "start": {
+            "column": 51,
+            "line": 221
+          }
+        },
+        "message": "\"actually\" is repeated in this document. Keep one necessary use and remove the filler uses.",
+        "range": [
+          9622,
+          9630
+        ],
+        "ruleId": "actually-overuse",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 28,
+        "index": 11927,
+        "line": 245,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 245
+          },
+          "start": {
+            "column": 28,
+            "line": 245
+          }
+        },
+        "message": "\"actually\" is repeated in this document. Keep one necessary use and remove the filler uses.",
+        "range": [
+          11927,
+          11935
+        ],
+        "ruleId": "actually-overuse",
         "severity": 2,
         "type": "lint"
       }

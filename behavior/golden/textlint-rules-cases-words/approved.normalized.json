@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 45.42. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 51.85. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -26,35 +26,46 @@
         "type": "lint"
       },
       {
-        "column": 15,
-        "data": {
-          "message": "\"actually\" used 3 times (111.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
-          "padding": {
-            "isAbsolute": false,
-            "range": [
-              14,
-              22
-            ],
-            "type": "TextlintRuleErrorPaddingLocation"
-          },
-          "severity": 2
-        },
-        "index": 14,
+        "column": 49,
+        "index": 48,
         "line": 1,
         "loc": {
           "end": {
-            "column": 23,
+            "column": 57,
             "line": 1
           },
           "start": {
-            "column": 15,
+            "column": 49,
             "line": 1
           }
         },
-        "message": "\"actually\" used 3 times (111.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"actually\" is repeated in this document. Keep one necessary use and remove the filler uses.",
         "range": [
-          14,
-          22
+          48,
+          56
+        ],
+        "ruleId": "actually-overuse",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 76,
+        "index": 75,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 84,
+            "line": 1
+          },
+          "start": {
+            "column": 76,
+            "line": 1
+          }
+        },
+        "message": "\"actually\" is repeated in this document. Keep one necessary use and remove the filler uses.",
+        "range": [
+          75,
+          83
         ],
         "ruleId": "actually-overuse",
         "severity": 2,
@@ -5036,7 +5047,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 16.74. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 16.8. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -5059,7 +5070,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -502.86. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -506.41. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -5082,7 +5093,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 227.16. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 228.57. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -5094,7 +5105,7 @@
       {
         "column": 27,
         "data": {
-          "message": "\"quietly\" used 51 times (45 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 51 times (44.7 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -5117,7 +5128,7 @@
             "line": 43
           }
         },
-        "message": "\"quietly\" used 51 times (45 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 51 times (44.7 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           1275,
           1282
@@ -5322,29 +5333,6 @@
           1
         ],
         "ruleId": "flesch-kincaid",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 46,
-        "line": 2,
-        "loc": {
-          "end": {
-            "column": 167,
-            "line": 2
-          },
-          "start": {
-            "column": 1,
-            "line": 2
-          }
-        },
-        "message": "Fragment stack found: The summary quietly changed the subject. The conclusion quietly changed the subject. The sidebar quietly changed the subject. The caption quietly changed the subject. Rewrite the clipped cadence as normal prose.",
-        "range": [
-          46,
-          212
-        ],
-        "ruleId": "fragment-stacking",
         "severity": 2,
         "type": "lint"
       },

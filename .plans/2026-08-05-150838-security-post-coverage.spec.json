@@ -1,0 +1,48 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "required": [
+        "src/rules/syntactic-patterns/repetition/private/repeated-internal-frame.ts"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/actually-overuse.ts"],
+        "exists": ["kind: \"threshold\"", "minimum: 1"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/lead-ins/private/evaluative-colon-frame.ts"],
+        "exists": ["takeaway", "hardest", "part"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/repetition/triple-sentence-repeat.ts"],
+        "exists": ["findRepeatedInternalFrames"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/presets/everything.ts"],
+        "forbidden": ["\"coleman-liau\": true", "\"flesch-kincaid\": true", "\"gunning-fog\": true"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/cli.ts", "skills/slopless/SKILL.md"],
+        "forbidden": ["readability problems"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"],
+        "exists": ["The biggest takeaway is simple: prompt engineering alone isn't enough.", "The hardest part: safe tool access at scale.", "Your tools should still enforce least privilege. Authorization should still check the real user. Your app should still check the model action."]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/words/actually-overuse.md"],
+        "exists": ["actually act on", "actually use"]
+      }
+    ]
+  }
+}
