@@ -1,0 +1,18 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["package.json"],
+        "required": [
+          "\"@textlint/ast-node-types\": \"15.8.0\"",
+          "\"@textlint/types\": \"15.8.0\"",
+          "\"textlint\": \"15.8.0\""
+        ],
+        "forbidden": ["\"textlint\": \"15.7.1\""],
+        "reason": "Keep the Textlint runtime and imported Textlint types synchronized on 15.8.0."
+      }
+    ]
+  }
+}
