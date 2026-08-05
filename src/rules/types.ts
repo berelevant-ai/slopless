@@ -15,11 +15,7 @@ export type RuleFamilyId =
 export type RuleId = `${RuleFamilyId}:${string}`;
 
 export type TextUnitKind =
-  | "document"
-  | "heading"
-  | "paragraph"
-  | "sentence"
-  | "text";
+  "document" | "heading" | "paragraph" | "sentence" | "text";
 
 export type SourceRange = {
   readonly end: number;
