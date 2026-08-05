@@ -1,0 +1,1 @@
+Electroencephalographic instrumentation characterizes neurophysiological oscillations through computationally intensive spectral decomposition procedures.

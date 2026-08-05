@@ -21,7 +21,24 @@ features:
       - textlint-rules-corpus-narrative-scenes
       - textlint-rules-corpus-arden-chapter-1-polished
       - textlint-rules-corpus-technical-terminology
+  slopless-cli:
+    suites:
+      - slopless-cli-defaults
 suites:
+  slopless-cli-defaults:
+    fixtures:
+      - "behavior/fixtures/slopless-cli/defaults/*.md"
+    command:
+      argv:
+        - "scripts/cli-replay.sh"
+        - "{fixtures}"
+      ok_exit_codes:
+        - 0
+        - 1
+    storage:
+      approved_dir: "behavior/golden/slopless-cli-defaults"
+      received_dir: ".fixture3/slopless-cli-defaults"
+      diff_dir: ".fixture3/slopless-cli-defaults"
   textlint-rules-cases-academic-slop:
     fixtures:
       - "behavior/fixtures/textlint-rules/cases/academic-slop/*.md"
