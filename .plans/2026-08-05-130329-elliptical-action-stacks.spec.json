@@ -1,0 +1,54 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "required": [
+        "src/rules/syntactic-patterns/repetition/private/elliptical-action-stack.ts",
+        "src/rules/syntactic-patterns/repetition/private/elliptical-action-guards.ts"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/repetition/private/fragment-stack-detector.ts"],
+        "exists": ["elliptical.mergeMatches"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"],
+        "exists": [
+          "Kendall looked at the photograph. Then out at his deck. Then at the safety pin.",
+          "The guards scan the room. First along the floor. Then behind the curtains."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"],
+        "exists": [
+          "Kendall looked at the photograph. Then rain started. Then the safety pin fell.",
+          "In a horrid silence Mrs. Darling smelt the bowl.",
+          "At each step, flow down.",
+          "How the Balloon Was Launched Chapter XVIII.",
+          "Matthew F. Daly and Jason M. Glanz",
+          "In fact, let's make it a request."
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/corpus/narrative-scenes.md"],
+        "exists": ["Kendall looked at the photograph. Then out at his deck. Then at the safety pin."]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/shared/text/sentences.ts"],
+        "exists": [
+          "TITLE_ABBREVIATIONS",
+          "isTitleAbbreviation",
+          "endsWithPersonInitial",
+          "mergeSoftLineSplits"
+        ]
+      }
+    ]
+  }
+}

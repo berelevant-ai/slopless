@@ -7478,29 +7478,6 @@
         "type": "lint"
       },
       {
-        "column": 81,
-        "index": 26668,
-        "line": 779,
-        "loc": {
-          "end": {
-            "column": 222,
-            "line": 779
-          },
-          "start": {
-            "column": 81,
-            "line": 779
-          }
-        },
-        "message": "Fragment stack found: Nobody reads your product page anymore. An AI reads your product page. Nobody reads your product page anymore. An AI reads your product feed. Rewrite the clipped cadence as normal prose.",
-        "range": [
-          26668,
-          26809
-        ],
-        "ruleId": "fragment-stacking",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 152,
         "index": 26739,
         "line": 779,
@@ -7543,29 +7520,6 @@
           26892
         ],
         "ruleId": "negation-reframe",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 269,
-        "index": 26856,
-        "line": 779,
-        "loc": {
-          "end": {
-            "column": 442,
-            "line": 779
-          },
-          "start": {
-            "column": 269,
-            "line": 779
-          }
-        },
-        "message": "Fragment stack found: An agent compares the category page. Buyers don't search the catalog now. Assistants search the catalog. Customers no longer inspect the listing. Models inspect the listing. Rewrite the clipped cadence as normal prose.",
-        "range": [
-          26856,
-          27029
-        ],
-        "ruleId": "fragment-stacking",
         "severity": 2,
         "type": "lint"
       },
@@ -11852,7 +11806,7 @@
             "line": 1097
           }
         },
-        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "message": "Paragraph has 7 sentences. Keep paragraphs to 6 sentences or fewer.",
         "range": [
           40111,
           40457
@@ -11957,7 +11911,7 @@
       {
         "column": 1,
         "data": {
-          "message": "\"silently\" adds vague hidden significance (detached-emphasis). Name the concrete behavior or remove the adverb.",
+          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -11980,13 +11934,36 @@
             "line": 1100
           }
         },
-        "message": "\"silently\" adds vague hidden significance (detached-emphasis). Name the concrete behavior or remove the adverb.",
+        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
         "range": [
           40337,
           40345
         ],
         "ruleId": "silently-filler",
         "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 11,
+        "index": 40347,
+        "line": 1100,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1101
+          },
+          "start": {
+            "column": 11,
+            "line": 1100
+          }
+        },
+        "message": "Fragment stack found: The partnership silently withers away. The strategy silently poisons\ntrust. The habit silently destroys focus. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          40347,
+          40457
+        ],
+        "ruleId": "fragment-stacking",
+        "severity": 2,
         "type": "lint"
       },
       {
@@ -12108,7 +12085,7 @@
             "line": 1103
           }
         },
-        "message": "Paragraph has 12 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "message": "Paragraph has 8 sentences. Keep paragraphs to 6 sentences or fewer.",
         "range": [
           40459,
           40805
@@ -12137,6 +12114,29 @@
           40805
         ],
         "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 62,
+        "index": 40520,
+        "line": 1103,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1105
+          },
+          "start": {
+            "column": 62,
+            "line": 1103
+          }
+        },
+        "message": "Fragment stack found: Undocumented\nworkflows silently block automation. Scattered knowledge silently sabotages\nreadiness. Webhooks silently power the whole system. Rewrite the clipped cadence as normal prose.",
+        "range": [
+          40520,
+          40661
+        ],
+        "ruleId": "fragment-stacking",
         "severity": 2,
         "type": "lint"
       },
@@ -12211,29 +12211,6 @@
         "type": "lint"
       },
       {
-        "column": 12,
-        "index": 40620,
-        "line": 1105,
-        "loc": {
-          "end": {
-            "column": 28,
-            "line": 1106
-          },
-          "start": {
-            "column": 12,
-            "line": 1105
-          }
-        },
-        "message": "Fragment stack found: Webhooks silently power the whole system. The process silently operates behind the scenes. Rewrite the clipped cadence as normal prose.",
-        "range": [
-          40620,
-          40710
-        ],
-        "ruleId": "fragment-stacking",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 21,
         "data": {
           "message": "\"silently\" adds vague hidden significance (background-significance). Name the concrete behavior or remove the adverb.",
@@ -12263,6 +12240,41 @@
         "range": [
           40629,
           40637
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 66,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (background-significance). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              215,
+              223
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40674,
+        "line": 1105,
+        "loc": {
+          "end": {
+            "column": 74,
+            "line": 1105
+          },
+          "start": {
+            "column": 66,
+            "line": 1105
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (background-significance). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40674,
+          40682
         ],
         "ruleId": "silently-filler",
         "severity": 1,
@@ -12410,7 +12422,7 @@
             "line": 1109
           }
         },
-        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "message": "Paragraph has 8 sentences. Keep paragraphs to 6 sentences or fewer.",
         "range": [
           40807,
           41146
@@ -12440,6 +12452,41 @@
         ],
         "ruleId": "word-repetition",
         "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 67,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (unannounced-trend). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              66,
+              74
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 40873,
+        "line": 1109,
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 1109
+          },
+          "start": {
+            "column": 67,
+            "line": 1109
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (unannounced-trend). Name the concrete behavior or remove the adverb.",
+        "range": [
+          40873,
+          40881
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
         "type": "lint"
       },
       {
@@ -12513,29 +12560,6 @@
         "type": "lint"
       },
       {
-        "column": 46,
-        "index": 41005,
-        "line": 1111,
-        "loc": {
-          "end": {
-            "column": 77,
-            "line": 1111
-          },
-          "start": {
-            "column": 46,
-            "line": 1111
-          }
-        },
-        "message": "Semantic thinness (something-shifted): Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change. Matched template: {diffuseSubject} {progressiveAuxiliary} {weakMannerAdverb} {progressiveChange}.",
-        "range": [
-          41005,
-          41036
-        ],
-        "ruleId": "semantic-thinness",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 60,
         "data": {
           "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
@@ -12568,29 +12592,6 @@
         ],
         "ruleId": "silently-filler",
         "severity": 1,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 41037,
-        "line": 1112,
-        "loc": {
-          "end": {
-            "column": 22,
-            "line": 1113
-          },
-          "start": {
-            "column": 1,
-            "line": 1112
-          }
-        },
-        "message": "Fragment stack found: while the nurse speaks silently. The strategy silently reshapes the category. The category changed. Rewrite the clipped cadence as normal prose.",
-        "range": [
-          41037,
-          41136
-        ],
-        "ruleId": "fragment-stacking",
-        "severity": 2,
         "type": "lint"
       },
       {
@@ -12664,29 +12665,6 @@
         "type": "lint"
       },
       {
-        "column": 1,
-        "index": 41148,
-        "line": 1115,
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 1118
-          },
-          "start": {
-            "column": 1,
-            "line": 1115
-          }
-        },
-        "message": "Paragraph has 8 sentences. Keep paragraphs to 6 sentences or fewer.",
-        "range": [
-          41148,
-          41392
-        ],
-        "ruleId": "paragraph-length",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 11,
         "index": 41234,
         "line": 1116,
@@ -12723,7 +12701,7 @@
             "line": 1122
           }
         },
-        "message": "Paragraph has 16 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "message": "Paragraph has 10 sentences. Keep paragraphs to 6 sentences or fewer.",
         "range": [
           41424,
           41893
@@ -12752,75 +12730,6 @@
           41893
         ],
         "ruleId": "word-repetition",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 63,
-        "index": 41563,
-        "line": 1123,
-        "loc": {
-          "end": {
-            "column": 71,
-            "line": 1124
-          },
-          "start": {
-            "column": 63,
-            "line": 1123
-          }
-        },
-        "message": "Fragment stack found: The compiler silently ignores the unknown attribute. The API silently truncates the Rewrite the clipped cadence as normal prose.",
-        "range": [
-          41563,
-          41646
-        ],
-        "ruleId": "fragment-stacking",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 28,
-        "index": 41747,
-        "line": 1126,
-        "loc": {
-          "end": {
-            "column": 74,
-            "line": 1127
-          },
-          "start": {
-            "column": 28,
-            "line": 1126
-          }
-        },
-        "message": "Fragment stack found: The browser silently blocks the request. The cache silently drops an expired entry. The backup process silently failed after Rewrite the clipped cadence as normal prose.",
-        "range": [
-          41747,
-          41871
-        ],
-        "ruleId": "fragment-stacking",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 41895,
-        "line": 1130,
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 1131
-          },
-          "start": {
-            "column": 1,
-            "line": 1130
-          }
-        },
-        "message": "Fragment stack found: The measured control stated the change. The market silently shifted from 20 percent to 30 percent. Rewrite the clipped cadence as normal prose.",
-        "range": [
-          41895,
-          41993
-        ],
-        "ruleId": "fragment-stacking",
         "severity": 2,
         "type": "lint"
       },
@@ -13013,7 +12922,7 @@
             "line": 1146
           }
         },
-        "message": "Paragraph has 12 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "message": "Paragraph has 7 sentences. Keep paragraphs to 6 sentences or fewer.",
         "range": [
           42535,
           42917
@@ -13059,7 +12968,7 @@
             "line": 1153
           }
         },
-        "message": "Paragraph has 19 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "message": "Paragraph has 13 sentences. Keep paragraphs to 6 sentences or fewer.",
         "range": [
           42919,
           43437
@@ -13162,23 +13071,23 @@
         "type": "lint"
       },
       {
-        "column": 1,
-        "index": 43067,
-        "line": 1155,
+        "column": 73,
+        "index": 43063,
+        "line": 1154,
         "loc": {
           "end": {
-            "column": 59,
-            "line": 1156
+            "column": 31,
+            "line": 1157
           },
           "start": {
-            "column": 1,
-            "line": 1155
+            "column": 73,
+            "line": 1154
           }
         },
-        "message": "Fragment stack found: slow site loses visitors silently. Token costs add up silently. The gap keeps widening silently. The mistake silently kills memoization. Rewrite the clipped cadence as normal prose.",
+        "message": "Fragment stack found: The\nslow site loses visitors silently. Token costs add up silently. The gap keeps\nwidening silently. The mistake silently kills memoization. Performance\nregressions creep in silently. Rewrite the clipped cadence as normal prose.",
         "range": [
-          43067,
-          43203
+          43063,
+          43246
         ],
         "ruleId": "fragment-stacking",
         "severity": 2,
@@ -13548,7 +13457,7 @@
             "line": 1164
           }
         },
-        "message": "Paragraph has 14 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "message": "Paragraph has 8 sentences. Keep paragraphs to 6 sentences or fewer.",
         "range": [
           43565,
           44065
@@ -13578,41 +13487,6 @@
         ],
         "ruleId": "word-repetition",
         "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 30,
-        "data": {
-          "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
-          "padding": {
-            "isAbsolute": false,
-            "range": [
-              409,
-              417
-            ],
-            "type": "TextlintRuleErrorPaddingLocation"
-          },
-          "severity": 1
-        },
-        "index": 43974,
-        "line": 1169,
-        "loc": {
-          "end": {
-            "column": 38,
-            "line": 1169
-          },
-          "start": {
-            "column": 30,
-            "line": 1169
-          }
-        },
-        "message": "\"silently\" adds vague hidden significance (abstract-change). Name the concrete behavior or remove the adverb.",
-        "range": [
-          43974,
-          43982
-        ],
-        "ruleId": "silently-filler",
-        "severity": 1,
         "type": "lint"
       },
       {
