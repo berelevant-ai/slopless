@@ -4,6 +4,7 @@ import {
   findSemanticThinnessMatch
 } from "./private/pattern-matcher.js";
 import { findBroadSignificanceMatch } from "./private/broad-significance.js";
+import { findExpandedSolutionBoringMatch } from "./private/expanded-solution-boring-frame.js";
 import { oneToOneRule } from "../private/textlint-rule-builders.js";
 
 const COMPILED_PATTERNS = compileSemanticThinnessPatterns(
@@ -14,6 +15,7 @@ const rule = oneToOneRule({
   detect: (unit) => {
     const match =
       findBroadSignificanceMatch(unit.text) ??
+      findExpandedSolutionBoringMatch(unit.text) ??
       findSemanticThinnessMatch(unit.text, COMPILED_PATTERNS);
     if (match === undefined) {
       return [];

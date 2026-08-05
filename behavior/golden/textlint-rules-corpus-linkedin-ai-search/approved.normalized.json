@@ -16,30 +16,7 @@
             "line": 3
           }
         },
-        "message": "Coleman-Liau is 12.61. Keep it at 12 or lower.",
-        "range": [
-          25,
-          26
-        ],
-        "ruleId": "coleman-liau",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 25,
-        "line": 3,
-        "loc": {
-          "end": {
-            "column": 2,
-            "line": 3
-          },
-          "start": {
-            "column": 1,
-            "line": 3
-          }
-        },
-        "message": "Flesch Reading Ease is 37.2. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 51.72. Keep it at 61 or higher.",
         "range": [
           25,
           26
@@ -62,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Gunning Fog is 19.08. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 13.26. Keep it at 12 or lower.",
         "range": [
           25,
           26
@@ -1425,6 +1402,443 @@
           5680
         ],
         "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6413,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 575,
+            "line": 195
+          },
+          "start": {
+            "column": 1,
+            "line": 195
+          }
+        },
+        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          6413,
+          6987
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6413,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 575,
+            "line": 195
+          },
+          "start": {
+            "column": 1,
+            "line": 195
+          }
+        },
+        "message": "Word repeated 10 times in one paragraph: \"boring\". Keep repeated words to 5 or fewer.",
+        "range": [
+          6413,
+          6987
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 72,
+        "index": 6484,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 112,
+            "line": 195
+          },
+          "start": {
+            "column": 72,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6484,
+          6524
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 113,
+        "index": 6525,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 164,
+            "line": 195
+          },
+          "start": {
+            "column": 113,
+            "line": 195
+          }
+        },
+        "message": "Contrastive aphorism found: abstract-evaluative-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          6525,
+          6576
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 113,
+        "index": 6525,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 164,
+            "line": 195
+          },
+          "start": {
+            "column": 113,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6525,
+          6576
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 165,
+        "index": 6577,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 243,
+            "line": 195
+          },
+          "start": {
+            "column": 165,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6577,
+          6655
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 244,
+        "index": 6656,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 286,
+            "line": 195
+          },
+          "start": {
+            "column": 244,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6656,
+          6698
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 287,
+        "index": 6699,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 330,
+            "line": 195
+          },
+          "start": {
+            "column": 287,
+            "line": 195
+          }
+        },
+        "message": "Generic signposting found: the-is-boring. Replace the frame with the concrete claim.",
+        "range": [
+          6699,
+          6742
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 287,
+        "index": 6699,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 330,
+            "line": 195
+          },
+          "start": {
+            "column": 287,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6699,
+          6742
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 331,
+        "index": 6743,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 389,
+            "line": 195
+          },
+          "start": {
+            "column": 331,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6743,
+          6801
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 390,
+        "index": 6802,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 439,
+            "line": 195
+          },
+          "start": {
+            "column": 390,
+            "line": 195
+          }
+        },
+        "message": "Generic signposting found: that-was-boring. Replace the frame with the concrete claim.",
+        "range": [
+          6802,
+          6851
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 390,
+        "index": 6802,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 439,
+            "line": 195
+          },
+          "start": {
+            "column": 390,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6802,
+          6851
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 440,
+        "index": 6852,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 487,
+            "line": 195
+          },
+          "start": {
+            "column": 440,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6852,
+          6899
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 488,
+        "index": 6900,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 537,
+            "line": 195
+          },
+          "start": {
+            "column": 488,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6900,
+          6949
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 538,
+        "index": 6950,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 575,
+            "line": 195
+          },
+          "start": {
+            "column": 538,
+            "line": 195
+          }
+        },
+        "message": "Generic signposting found: the-is-boring. Replace the frame with the concrete claim.",
+        "range": [
+          6950,
+          6987
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 538,
+        "index": 6950,
+        "line": 195,
+        "loc": {
+          "end": {
+            "column": 575,
+            "line": 195
+          },
+          "start": {
+            "column": 538,
+            "line": 195
+          }
+        },
+        "message": "Semantic thinness (solution-boring-frame): Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance. Matched template: the {qualifiedSolutionNoun} {scopePhrase} {linkingVerb} boring",
+        "range": [
+          6950,
+          6987
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6989,
+        "line": 197,
+        "loc": {
+          "end": {
+            "column": 586,
+            "line": 197
+          },
+          "start": {
+            "column": 1,
+            "line": 197
+          }
+        },
+        "message": "Paragraph has 11 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          6989,
+          7574
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6989,
+        "line": 197,
+        "loc": {
+          "end": {
+            "column": 586,
+            "line": 197
+          },
+          "start": {
+            "column": 1,
+            "line": 197
+          }
+        },
+        "message": "Word repeated 9 times in one paragraph: \"boring\". Keep repeated words to 5 or fewer.",
+        "range": [
+          6989,
+          7574
+        ],
+        "ruleId": "word-repetition",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 6989,
+        "line": 197,
+        "loc": {
+          "end": {
+            "column": 586,
+            "line": 197
+          },
+          "start": {
+            "column": 1,
+            "line": 197
+          }
+        },
+        "message": "Word repeated 9 times in one paragraph: \"under\". Keep repeated words to 5 or fewer.",
+        "range": [
+          6989,
+          7574
+        ],
+        "ruleId": "word-repetition",
         "severity": 2,
         "type": "lint"
       }
