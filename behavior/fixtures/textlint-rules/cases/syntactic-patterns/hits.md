@@ -1643,3 +1643,43 @@ While the concept has broad appeal, it contends with myriad persistent obstacles
 Despite its strong results, the organization wrestles with a variety of ongoing constraints. In the years ahead, collaboration will support continued growth.
 
 Although the field has gained recognition, it struggles with several unique limitations. Still, innovation positions it for future success.
+
+The hardest part: safe tool access at scale.
+
+The biggest takeaway: prompt defenses fail eventually.
+
+The trickiest challenge: permissions spread across external systems.
+
+The most interesting thing: the prompt was not the weak point.
+
+The odd detail: every tool trusted the agent.
+
+The useful lesson: authorization belongs outside the model.
+
+The worst problem: every connector inherited administrator access.
+
+The best answer: enforce the user's permissions at every tool.
+
+The biggest takeaway is simple: prompt engineering alone isn't enough.
+
+The hardest part is clear: safe tool access does not scale by itself.
+
+The useful lesson is obvious: prompts cannot enforce authorization.
+
+The odd thing was straightforward: every tool trusted the same identity.
+
+Your tools should still enforce least privilege. Authorization should still check the real user. Your app should still check the model action.
+
+The gateway must still reject unknown callers. The tool must still verify the user. The database must still apply row permissions.
+
+The client can still retry once. The proxy can still reject stale credentials. The server can still record the failed request.
+
+The worker will still validate the payload. The queue will still enforce its limit. The handler will still check the signature.
+
+The old client could still send the request. The proxy could still reject it. The audit log could still record the attempt.
+
+The reviewer would still inspect the diff. The owner would still approve the release. The hook would still reject an unsigned commit.
+
+The cache may still contain stale entries. The worker may still read one. The response may still expose the old value.
+
+The model might still choose the wrong tool. The tool might still reject the call. The application might still record the attempt.

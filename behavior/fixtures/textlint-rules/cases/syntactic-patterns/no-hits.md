@@ -732,3 +732,39 @@ The browser blocks the request. The cache
 drops an expired entry. The backup process fails after error E42 is logged.
 
 Surely that gap is bridgeable. In fact, let's make it a request. Wanted: woman with hammer.
+
+The hardest part of the climb was the final mile.
+
+The biggest takeaway from Table 4 was the 18 percent failure rate.
+
+The main question: Who owns the certificate renewal?
+
+The security detail: Marta rotates the signing key every 30 days.
+
+The part labeled "hardest" contains the final exercise.
+
+Chapter 4: Safe tool access at scale.
+
+The hardest part was safe tool access at scale.
+
+The odd detail appears in row 14 of the audit export.
+
+"The hardest part: safe tool access at scale," the editor read aloud.
+
+The field named `hardest_part` stores the measured duration.
+
+Your tools should still enforce least privilege. Authorization should still check the real user.
+
+Your tools should still enforce least privilege. Authorization must still check the real user. Your app should still check the model action.
+
+The service should still respond after failover. The client can still retry once. The proxy must still preserve the trace ID.
+
+"The service should still respond," Marta said. "The client should still retry," Ilya replied. "The proxy should still preserve headers," Chen added.
+
+The documentation says `the service should still respond`. The test is named `client should still retry`. The comment says `proxy should still preserve headers`.
+
+Rule 4 says the service should still respond. Section 5 says the client should still retry. Appendix B says the proxy should still preserve headers.
+
+The service remains still during calibration because its motor is locked. During client calibration, the carriage remains still under the clamp. A steel pin keeps the proxy arm still until the gauge reaches zero.
+
+The service should respond after failover. The client should retry once. The proxy should preserve the trace ID.

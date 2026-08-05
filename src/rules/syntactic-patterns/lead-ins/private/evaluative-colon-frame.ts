@@ -69,6 +69,31 @@ const EVALUATIVE_LINKS = new Set([
   "were"
 ]);
 
+const DISCOURSE_PREFIX_ADJECTIVES = new Set([
+  "best",
+  "biggest",
+  "hardest",
+  "interesting",
+  "odd",
+  "trickiest",
+  "useful",
+  "weird",
+  "worst"
+]);
+
+const DISCOURSE_PREFIX_NOUNS = new Set([
+  "answer",
+  "challenge",
+  "detail",
+  "lesson",
+  "part",
+  "point",
+  "problem",
+  "takeaway",
+  "thing",
+  "truth"
+]);
+
 const QUANTITY_WORDS = new Set([
   "one",
   "two",
@@ -164,7 +189,45 @@ function hasExcludedEvidence(text: string, words: readonly string[]): boolean {
   );
 }
 
+function matchDiscoursePrefix(
+  prefixWords: readonly string[],
+  detailWords: readonly string[]
+): string | undefined {
+  if (detailWords.length === 0 || prefixWords[0] !== "the") {
+    return undefined;
+  }
+
+  const hasMostModifier = prefixWords[1] === "most";
+  const adjectiveIndex = hasMostModifier ? 2 : 1;
+  const nounIndex = adjectiveIndex + 1;
+  const adjective = prefixWords[adjectiveIndex];
+  const noun = prefixWords[nounIndex];
+  if (
+    adjective === undefined ||
+    noun === undefined ||
+    !DISCOURSE_PREFIX_ADJECTIVES.has(adjective) ||
+    !DISCOURSE_PREFIX_NOUNS.has(noun)
+  ) {
+    return undefined;
+  }
+
+  if (prefixWords.length === nounIndex + 1) {
+    return prefixWords.join("-");
+  }
+
+  return prefixWords.length === nounIndex + 3 &&
+    EVALUATIVE_LINKS.has(prefixWords[nounIndex + 1] ?? "") &&
+    EVALUATIVE_ADJECTIVES.has(prefixWords[nounIndex + 2] ?? "")
+    ? prefixWords.join("-")
+    : undefined;
+}
+
 export function matchEvaluativeColonFrame(text: string): string | undefined {
+  const trimmed = text.trimStart();
+  if (trimmed.startsWith('"') || trimmed.startsWith("'")) {
+    return undefined;
+  }
+
   const colonIndex = text.indexOf(":");
   if (colonIndex < 0 || text.indexOf(":", colonIndex + 1) >= 0) {
     return undefined;
@@ -174,6 +237,11 @@ export function matchEvaluativeColonFrame(text: string): string | undefined {
   const detail = text.slice(colonIndex + 1);
   const prefixWords = tokens(prefix);
   const detailWords = tokens(detail);
+  const discoursePrefix = matchDiscoursePrefix(prefixWords, detailWords);
+  if (discoursePrefix !== undefined) {
+    return discoursePrefix;
+  }
+
   const copulaIndex = prefixWords.findIndex((word) =>
     EVALUATIVE_LINKS.has(word)
   );
