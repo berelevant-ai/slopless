@@ -294,6 +294,7 @@ export function findCopularNegation(
     const next = tokenWords[index + 1];
     const explicitAux =
       current === undefined ? undefined : COPULAR_FORMS.get(current);
+    const negationIndex = skipOptionalAdverbs(tokenWords, index + 1);
 
     if (
       explicitAux !== undefined &&
@@ -308,10 +309,10 @@ export function findCopularNegation(
       };
     }
 
-    if (explicitAux !== undefined && next === "not") {
+    if (explicitAux !== undefined && tokenWords[negationIndex] === "not") {
       return {
         affirmativeAux: explicitAux,
-        negatedPredicateStart: index + 2,
+        negatedPredicateStart: negationIndex + 1,
         subject: tokenWords.slice(0, index)
       };
     }

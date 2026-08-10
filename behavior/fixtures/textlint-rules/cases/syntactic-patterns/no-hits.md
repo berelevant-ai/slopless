@@ -768,3 +768,11 @@ Rule 4 says the service should still respond. Section 5 says the client should s
 The service remains still during calibration because its motor is locked. During client calibration, the carriage remains still under the clamp. A steel pin keeps the proxy arm still until the gauge reaches zero.
 
 The service should respond after failover. The client should retry once. The proxy should preserve the trace ID.
+
+The harder part is usually counting products after the nightly import.
+
+The harder part is usually not counting products because the catalog defines bundles as one item.
+
+The index is usually not available during the rebuild. The status page records the maintenance window.
+
+The index is usually not available when the nightly rebuild runs. It is restored by the deployment job at 04:00.

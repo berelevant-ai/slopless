@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/contrast/private/negation-reframe-parts.ts"],
+        "exists": ["skipOptionalAdverbs(tokenWords, index + 1)"],
+        "reason": "Approach 1: uncontracted linking verbs skip the shared optional adverbs before checking for not"
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md"],
+        "exists": ["The harder part is usually not counting products. It is resolving how many different rules produce and distribute their data."],
+        "reason": "Approach 3: supplied behavior is an isolated hit case"
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md"],
+        "exists": ["The harder part is usually not counting products because the catalog defines bundles as one item."],
+        "reason": "Approach 3: a factual standalone negation remains a no-hit case"
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["behavior/fixtures/textlint-rules/corpus/engineering-review.md"],
+        "exists": ["The harder part is usually not counting products. It is resolving how many different rules produce and distribute their data."],
+        "reason": "Approach 4: supplied behavior is preserved in corpus prose"
+      }
+    ]
+  }
+}

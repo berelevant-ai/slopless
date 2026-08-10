@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 48.43. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 48.33. Keep it at 61 or higher.",
         "range": [
           28,
           29
@@ -12583,6 +12583,75 @@
           60214
         ],
         "ruleId": "repeated-sentence-starts",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 66606,
+        "line": 1383,
+        "loc": {
+          "end": {
+            "column": 126,
+            "line": 1383
+          },
+          "start": {
+            "column": 1,
+            "line": 1383
+          }
+        },
+        "message": "Negation reframe found: \"The harder part is usually not counting products. It is resolving how many different rules produce and distribute their data.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          66606,
+          66731
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 66733,
+        "line": 1385,
+        "loc": {
+          "end": {
+            "column": 118,
+            "line": 1385
+          },
+          "start": {
+            "column": 1,
+            "line": 1385
+          }
+        },
+        "message": "Negation reframe found: \"The difficult question is really not choosing a parser. It is deciding which malformed inputs the parser must reject.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          66733,
+          66850
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 66852,
+        "line": 1387,
+        "loc": {
+          "end": {
+            "column": 106,
+            "line": 1387
+          },
+          "start": {
+            "column": 1,
+            "line": 1387
+          }
+        },
+        "message": "Negation reframe found: \"The useful work is actually not writing more checks. It is defining the boundary each check must enforce.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          66852,
+          66957
+        ],
+        "ruleId": "negation-reframe",
         "severity": 2,
         "type": "lint"
       }
