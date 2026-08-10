@@ -1683,3 +1683,9 @@ The reviewer would still inspect the diff. The owner would still approve the rel
 The cache may still contain stale entries. The worker may still read one. The response may still expose the old value.
 
 The model might still choose the wrong tool. The tool might still reject the call. The application might still record the attempt.
+
+The harder part is usually not counting products. It is resolving how many different rules produce and distribute their data.
+
+The difficult question is really not choosing a parser. It is deciding which malformed inputs the parser must reject.
+
+The useful work is actually not writing more checks. It is defining the boundary each check must enforce.

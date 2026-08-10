@@ -1375,3 +1375,23 @@ The meticulous scribe copied every surviving line of the charter.
 The testament was admitted as evidence in the probate hearing.
 
 The valuable painting was insured for EUR 2 million.
+
+## Negation parser review
+
+The review separated staged reversals from plain descriptions.
+
+The harder part is usually not counting products. It is resolving how many different rules produce and distribute their data.
+
+The difficult question is really not choosing a parser. It is deciding which malformed inputs the parser must reject.
+
+The useful work is actually not writing more checks. It is defining the boundary each check must enforce.
+
+The controls retained concrete statements and explanations.
+
+The harder part is usually counting products after the nightly import.
+
+The harder part is usually not counting products because the catalog defines bundles as one item.
+
+The index is usually not available during the rebuild. The status page records the maintenance window.
+
+The index is usually not available when the nightly rebuild runs. It is restored by the deployment job at 04:00.
