@@ -71,3 +71,32 @@ All 20 public Fixture3 suites ran: four match and 16 differ. The separate occurr
 The corpus audit compares only `flat-action-cadence` against installed 0.2.37. Source provenance labels do not mean every human paragraph is good or every generated paragraph is bad. Report counts are not precision scores. Manual review includes the full new labeled set, the no-hit fixture findings, and selected corpus excerpts; it does not claim exhaustive editorial review of thousands of findings.
 
 Earlier scans were superseded by counting fixes. A validation build also interrupted one audit's rule loading by replacing `dist`; that run is not treated as completed. Final counts must come from the frozen candidate rerun, not a mixture of intermediate scans.
+
+## Completed corpus comparison
+
+The final immutable candidate is commit `d5f0998`, compared with installed 0.2.37. Every eligible Markdown/text file was included, without sampling or a word cap. The reference collection was split into eight temporary sets of symlinks for execution; all 4,000 original files are represented once. The aggregate verifies the expected human totals of 13,680 files and 21,305,305 words.
+
+- Human collection: 26 findings before, 58,554 after, including 58,522 warnings and 32 errors. No old span disappears; 24 old spans change to warning severity. There are 58,528 non-overlapping additions.
+- Generated articles: 400 files, 184,881 words; 0 before, 381 warnings after.
+- Suspected-AI articles: 1,500 files, 1,576,838 words; 5 before, 3,095 after, including 3,090 warnings and five errors. No old span disappears; two old spans change to warnings.
+- Expansion folder: 32 files, 88,912 words; 17 before, 607 after, including 479 warnings and 128 errors. One old span disappears; nine old spans change to warnings. This folder includes cases and notes as well as prose.
+
+The broad rule is rejected for production. The six labeled control failures already establish a precision problem. Manual corpus inspection additionally found research methods, technical descriptions, literary dialogue, and incident narration that should not be reported as action enumeration. The increased errors also show that applying the retained classifier to extracted clauses is not exact preservation of the previous paragraph matcher.
+
+Example of an unwanted research-methods finding:
+
+```text
+We aimed to improve understanding of prevalence and correlates of disability in this low-income setting in Malawi.
+```
+
+The reported span continues through study design, survey dates, analysis methods and a numerical result in `human/medical/pubmed/pubmed-33336079.md`. It is not a series of filler movements. Another unwanted finding covers Alice inspecting shelves while falling down the well in `human/literary/gutenberg/gb-00011-alice-s-adventures-in-wonderland-p01.md`, including dialogue and explanations. Recognizing several verbs does not justify that diagnosis.
+
+The lost expansion finding is preserved here and remains in its source file:
+
+```text
+Mara's body went cold, then hot, then empty. Grief rose inside her so sharply that she almost bent around it. It was not a feeling. It was a blade. It slid between her ribs and made every breath careful.
+```
+
+Its prior cadence match included descriptions and an embedded action. The new action window does not retain that finding. This remains formulaic writing; removing the cadence finding is not evidence that it is good. Coverage by other rules was not used to conceal the changed-rule loss.
+
+The numerical record, all 48 labeled evaluation results, and narrative no-hit findings are in `2026-09-06-155548-action-cadence-results.json`. Full raw corpus outputs remain under `.fixture3/action-frozen/`; these contain thousands of unreviewed findings. No exhaustive manual precision percentage is claimed.
