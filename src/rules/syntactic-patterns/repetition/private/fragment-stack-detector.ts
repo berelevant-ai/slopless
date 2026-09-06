@@ -1,3 +1,4 @@
+import nlp from "compromise";
 import { hasConcreteInventorySubjects } from "../../../../shared/matchers/concrete-evidence.js";
 import {
   type SplitSentence,
@@ -21,22 +22,6 @@ const SUBJECT_WORDS = new Set([
   "that",
   "these",
   "those"
-]);
-
-const OBJECT_WORDS = new Set([
-  "me",
-  "him",
-  "her",
-  "us",
-  "them",
-  "it",
-  "the",
-  "a",
-  "an",
-  "my",
-  "your",
-  "our",
-  "their"
 ]);
 
 const FINITE_VERBS = new Set([
@@ -84,60 +69,19 @@ const FRAGMENT_LEADS = new Set([
 ]);
 
 const PAYOFF_STARTS = ["more like ", "most ", "then ", "instead "];
-const IMPERATIVE_STARTS = new Set([
-  "feed",
-  "leave",
-  "notice",
-  "stop",
-  "start",
-  "take",
-  "keep",
-  "get",
-  "look",
-  "think",
-  "try",
-  "make",
-  "let",
-  "give",
-  "accept",
-  "hold",
-  "reduce"
-]);
-
-const SIMPLE_PAST_VERBS = new Set([
-  "ran",
-  "went",
-  "came",
-  "felt",
-  "heard",
-  "found",
-  "made",
-  "took",
-  "kept",
-  "left",
-  "thought",
-  "knew",
-  "got",
-  "put",
-  "said",
-  "told",
-  "held",
-  "stood",
-  "sat",
-  "became",
-  "wrote",
-  "spoke",
-  "won",
-  "lost",
-  "paid",
-  "met",
-  "read",
-  "saw",
-  "grew",
-  "fell",
-  "broke"
-]);
-
+const IMPERATIVE_STARTS = new Set(
+  "feed leave notice stop start take keep get look think try make let give accept hold reduce".split(
+    " "
+  )
+);
+const OBJECT_WORDS = new Set(
+  "me him her us them it the a an my your our their".split(" ")
+);
+const SIMPLE_PAST_VERBS = new Set(
+  "ran went came felt heard found made took kept left thought knew got put said told held stood sat became wrote spoke won lost paid met read saw grew fell broke".split(
+    " "
+  )
+);
 export type FragmentMatch = elliptical.EllipticalActionMatch;
 
 function isAlphanumeric(character: string): boolean {
@@ -211,18 +155,44 @@ function looksLikeSubjectDrop(first: string, second: string): boolean {
   );
 }
 
-function looksLikeSimpleClause(first: string, second: string): boolean {
-  return (
-    !isFunctionWord(first) &&
-    (second.endsWith("ed") || SIMPLE_PAST_VERBS.has(second))
+function hasCompleteGrammar(sentence: SplitSentence): boolean {
+  const doc = nlp(sentence.text);
+  const terms = doc.termList();
+  if (terms[0]?.normal === "no") return false;
+  if (
+    terms[0]?.tags?.has("Imperative") === true &&
+    (terms[1]?.tags?.has("Determiner") === true ||
+      terms[1]?.tags?.has("Possessive") === true)
+  )
+    return true;
+  if (
+    terms[0]?.tags?.has("Determiner") !== true &&
+    terms[0]?.tags?.has("Possessive") !== true
+  )
+    return false;
+  const verb = terms.findIndex(
+    (term) =>
+      term.text !== "" &&
+      term.tags?.has("PresentTense") === true &&
+      !term.tags.has("Gerund") &&
+      !term.tags.has("Infinitive")
   );
-}
-
-function looksLikeBriefImperative(first: string, second: string): boolean {
-  const hasObject = OBJECT_WORDS.has(second) || isFunctionWord(second);
+  if (verb <= 0 || verb >= terms.length - 1) return false;
+  const subject = terms.slice(0, verb);
+  const allowed = new Set([
+    "Noun",
+    "Determiner",
+    "Possessive",
+    "Adjective",
+    "Adverb"
+  ]);
   return (
-    IMPERATIVE_STARTS.has(first) &&
-    (hasObject || second.endsWith("er") || second.endsWith("ly"))
+    subject.some((term) => term.tags?.has("Noun") === true) &&
+    subject.every(
+      (term) =>
+        term.tags !== undefined &&
+        [...term.tags].some((tag) => allowed.has(tag))
+    )
   );
 }
 
@@ -259,8 +229,14 @@ function classifyFragment(sentence: SplitSentence): string | undefined {
   }
 
   if (
-    looksLikeSimpleClause(first, second) ||
-    looksLikeBriefImperative(first, second)
+    (!isFunctionWord(first) &&
+      (second.endsWith("ed") || SIMPLE_PAST_VERBS.has(second))) ||
+    (IMPERATIVE_STARTS.has(first) &&
+      (OBJECT_WORDS.has(second) ||
+        isFunctionWord(second) ||
+        second.endsWith("er") ||
+        second.endsWith("ly"))) ||
+    hasCompleteGrammar(sentence)
   ) {
     return undefined;
   }

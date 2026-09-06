@@ -162,6 +162,8 @@ This confirms the tarball you installed was built in the published source reposi
 
 ## Credits
 
+The flat-action-cadence rule uses [Compromise](https://github.com/spencermountain/compromise) for English word classification and verb inflections.
+
 [Graham Rowe](https://github.com/grahamrowe82/antislop), thanks for giving me new ideas for classes of slop to detect. Your lib is now fully incorporated with your permission.
 
 ---

@@ -4,6 +4,10 @@ import {
 } from "../../shared/text/sentences.js";
 import { type Token, wordTokens } from "../../shared/text/tokens.js";
 import { oneToOneRule } from "../private/textlint-rule-builders.js";
+import {
+  findSubjectActionCadence,
+  SUBORDINATING_MARKERS
+} from "./private/subject-action-cadence.js";
 
 type CadenceSentence = {
   readonly actionKind: "linking" | "weak-action";
@@ -26,9 +30,6 @@ function wordSet(words: string): ReadonlySet<string> {
   return new Set(words.split(" "));
 }
 
-const SUBORDINATING_MARKERS = wordSet(
-  "after although as because before if once since though unless until when whenever where whereas while"
-);
 const PRONOUN_SUBJECTS = wordSet("he it she they we you");
 const POSSESSIVE_SUBJECT_OPENERS = wordSet("her his its my our their your");
 const BODY_AND_CAMERA_NOUNS = wordSet(
@@ -345,7 +346,17 @@ const rule = oneToOneRule({
       findFlatActionRuns(unit.text)[0] ??
       findFlatActionClauseRuns(unit.text)[0];
     if (match === undefined) {
-      return [];
+      const structural = findSubjectActionCadence(unit.text);
+      if (structural === undefined) return [];
+      const openings = structural.openings.join("; ");
+      return [
+        {
+          data: { count: structural.openings.length, openings },
+          evidence: openings,
+          label: "flat action cadence",
+          range: { start: structural.start, end: structural.end }
+        }
+      ];
     }
 
     const verbs = [
@@ -362,8 +373,12 @@ const rule = oneToOneRule({
     ];
   },
   family: "narrative-slop",
-  formatMessage: (report) =>
-    `Flat action cadence: ${report.detections[0]?.data?.["count"]} adjacent short simple sentences use subject-action beats (${report.detections[0]?.data?.["verbs"]}). Vary the rhythm or add causal/sensory development.`,
+  formatMessage: (report) => {
+    const data = report.detections[0]?.data;
+    return data?.["openings"] !== undefined
+      ? `Flat action cadence: ${data["count"]} short sentences in a five-sentence window repeat subject-first narration (${data["openings"]}). Combine related actions or vary the sentence structure.`
+      : `Flat action cadence: ${data?.["count"]} adjacent short simple sentences use subject-action beats (${data?.["verbs"]}). Vary the rhythm or add causal/sensory development.`;
+  },
   ruleId: "narrative-slop:flat-action-cadence",
   unitKind: "paragraph"
 });

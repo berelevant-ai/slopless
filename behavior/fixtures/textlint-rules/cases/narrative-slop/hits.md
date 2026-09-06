@@ -91,3 +91,31 @@ She was still very angry.
 Cassia looked at Arden. Remal had focused on the front latch, but Liska was showing them a different way.
 
 Liska led them across the yard-compound to the steep stone stairs. Cassia kept pace. She kept her eyes on the small cub.
+
+Children searched beneath the tables. Eli ran into the corridor, calling for the rabbit. Mira hurried back and froze at the raised bolt. Her stomach squeezed tight. The teacher pointed to the open cage.
+
+She walked toward the starting line with her head down. A gust of wind wrapped something yellow around her ankle. Mira bent to pull it free. It was the flag from the classroom.
+
+His cry reached the playground. Mira ran back with the teacher and found the whole class searching. Children called from beneath the tables. Eli called from the corridor. But Mira did not call at all, because the moment she reached the cage, she saw the raised bolt.
+
+The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles. A passenger folded his ticket.
+
+Two sailors hauled the rope aboard. The cook wiped the counter. Water splashed against the steps. Tomas dropped his bag beside the stove.
+
+My sister opened the cupboard. Her scarf brushed the handle. A cup rattled against its saucer. The cat scratched the door.
+
+The locksmith unfolded his apron. Dust settled on the bench. His apprentice fetched a broom. The clock chimed above the stairs.
+
+Nora carried the basket outside. A bell sounded across the square. Whether the school would remain open depended on a vote that nobody had counted yet. The caretaker swept the steps. Her brother kicked a pebble.
+
+The children gathered beside the gate. A wheel squeaked behind them. Their teacher counted the bags. It was the bus from town.
+
+The tall boy lifted the lid. A girl in a red coat fetched a spoon. Her brother wiped the table. The cook handed him a bowl.
+
+The visitors entered the hall. A curtain brushed the windowsill. The receptionist tapped her pen. His phone buzzed inside his coat.
+
+Dr. Silva opened the envelope. His assistant fetched the ledger. A patient dropped a glove. The receptionist gathered the papers.
+
+The courier pushed the gate. The baker folded his apron. The children moved their baskets. A sparrow landed on the fence.
+
+Mira bent to lift the ribbon. Eli fetched the basket. The teacher unfolded the flag. Children gathered beside the bench.
