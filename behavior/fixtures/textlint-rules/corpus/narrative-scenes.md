@@ -488,3 +488,96 @@ The line-wrap control keeps a Markdown source break inside one sentence. The bro
 drops an expired entry. The backup process fails after error E42 is logged.
 
 The explicit-subject control breaks a possible continuation run. Surely that gap is bridgeable. In fact, let's make it a request. Wanted: woman with hammer.
+
+## The missing classroom rabbit
+
+Nobody could agree on who had fastened the cage before lunch. The children had taken turns feeding the rabbit, and the last name on the board had been rubbed away.
+
+Children searched beneath the tables. Eli ran into the corridor, calling for the rabbit. Mira hurried back and froze at the raised bolt. Her stomach squeezed tight. The teacher pointed to the open cage.
+
+Mira remembered the ribbon she had left on the playground. There had been a hole beneath the fence, just wide enough for an animal to slip through.
+
+She walked toward the starting line with her head down. A gust of wind wrapped something yellow around her ankle. Mira bent to pull it free. It was the flag from the classroom.
+
+Eli shouted from the doorway before she could check the hole. Someone had found a scrap of yellow cloth beneath the cage.
+
+His cry reached the playground. Mira ran back with the teacher and found the whole class searching. Children called from beneath the tables. Eli called from the corridor. But Mira did not call at all, because the moment she reached the cage, she saw the raised bolt.
+
+The rabbit had not pushed the bolt up by itself. Beyond the windows, the afternoon deliveries continued as though nobody in the school were missing anything.
+
+The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles. A passenger folded his ticket.
+
+The trunk had come from the ferry, along with a basket of bread for the school kitchen. Its owner had paid for a room above the bakery.
+
+Two sailors hauled the rope aboard. The cook wiped the counter. Water splashed against the steps. Tomas dropped his bag beside the stove.
+
+Upstairs, Ana tried to find a dry cup for their visitor. My sister opened the cupboard. Her scarf brushed the handle. A cup rattled against its saucer. The cat scratched the door.
+
+Across the street, the locksmith had been asked to inspect the cage latch. The locksmith unfolded his apron. Dust settled on the bench. His apprentice fetched a broom. The clock chimed above the stairs.
+
+The school had already received a complaint about its broken doors, but the council had not authorized the repairs. Nora carried the basket outside. A bell sounded across the square. Whether the school would remain open depended on a vote that nobody had counted yet. The caretaker swept the steps. Her brother kicked a pebble.
+
+The children gathered beside the gate. A wheel squeaked behind them. Their teacher counted the bags. It was the bus from town.
+
+Since their parents had not arrived, the cook offered everyone soup. The tall boy lifted the lid. A girl in a red coat fetched a spoon. Her brother wiped the table. The cook handed him a bowl.
+
+The visitors entered the hall. A curtain brushed the windowsill. The receptionist tapped her pen. His phone buzzed inside his coat.
+
+Dr. Silva opened the envelope. His assistant fetched the ledger. A patient dropped a glove. The receptionist gathered the papers.
+
+The message concerned the broken fence beside the school, not the missing animal. Outside, a delivery had blocked the entrance.
+
+The courier pushed the gate. The baker folded his apron. The children moved their baskets. A sparrow landed on the fence.
+
+Mira bent to lift the ribbon. Eli fetched the basket. The teacher unfolded the flag. Children gathered beside the bench.
+
+Beneath the bench lay a folded coat. Across the corridor echoed a shout. Near the gate stood the teacher. Inside the cage crouched the rabbit.
+
+It had hidden in the lining of the coat. After the bell rang, Ana fetched the key. While the porter searched, rain soaked the papers. Before the class returned, the teacher repaired the latch. When the door opened, Eli called for help.
+
+The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles. By the time their visitor could explain why he had brought the trunk through the kitchen, the wet patch had spread beneath the stove.
+
+Did the porter open the gate? Did Ana fetch the key? Did rain soak the papers? Did the clock chime twice? Those were the questions on the teacher's incident form.
+
+The ledger contained twelve names. Nobody knew whether the missing child had joined the class before or after the register was taken. Ana fetched a pencil. Although the teacher had searched every room twice, the locked cupboard still needed a key. The porter opened the gate.
+
+Later, a delivery rope broke at the ferry landing. The rope snapped. The crate fell. The lid broke. Glass scattered across the floor.
+
+Ana left directions for the next kitchen volunteer. Open the cupboard. Fetch a clean cup. Pour the milk slowly. Replace the lid firmly.
+
+The cupboard is beside the sink. The cups are on the shelf. The milk is in the fridge. The lid is under the towel.
+
+The school also kept electronic copies of its incident forms. The server accepts signed requests. The worker validates each token. The database stores the result. The client displays the receipt.
+
+The technician attached a performance report to the maintenance invoice. The migration took 12 hours. We ran the new cache in shadow mode for three days before cutting over. Memory usage per instance dropped from 1.8 GB to 420 MB. Cache hit rate stabilized at 96% under load. Tail latency at p99 fell from 300ms to 42ms.
+
+An earlier report described the failed attempt. We saw lock contention in XREADGROUP with 200ms timeouts. We tried sharding the Redis streams into 16 shards. The shard imbalance was brutal: some shards got 3x the load. We tried upgrading Node.js to 20.
+
+The kitchen invoice recorded quantities as well. The porter counted twelve crates. Ana fetched three towels. Rain soaked two sacks. The driver loaded four baskets.
+
+Mira sketched the places she had searched, with a caption beneath each drawing. The folded coat beside the bench. The open gate beyond the yard. The empty cage near the desk. The missing key beneath the rug.
+
+The first pupil fetched a cup.
+
+The second pupil opened the cupboard.
+
+The third pupil folded a towel.
+
+The fourth pupil carried the milk.
+
+The teacher's checklist recorded the remaining jobs:
+
+- Ana fetched a cloth.
+- The porter opened the gate.
+- Eli folded the paper.
+- The teacher gathered the bags.
+
+The copied draft remained in the school's editing exercise:
+
+```text
+Children searched beneath the tables. Eli ran into the corridor, calling for the rabbit. Mira hurried back and froze at the raised bolt. Her stomach squeezed tight. The teacher pointed to the open cage.
+```
+
+The visitor explained why he had needed help carrying his trunk. He told me my tendons and ligaments were fine. He diagnosed a problem with my knee. He told me the inside of my knee cap had become rough. He prescribed rest and a brace.
+
+Beside the incident forms lay a glossary from the school sports records. Career - the years the player spent at the team. Appearances - the number of times this player played for the team. Tries - the number of tries the player scored for the team. Goals - the number of goals the player scored for the team.

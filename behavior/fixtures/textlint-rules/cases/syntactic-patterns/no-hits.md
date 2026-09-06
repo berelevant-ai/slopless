@@ -776,3 +776,7 @@ The harder part is usually not counting products because the catalog defines bun
 The index is usually not available during the rebuild. The status page records the maintenance window.
 
 The index is usually not available when the nightly rebuild runs. It is restored by the deployment job at 04:00.
+
+Open the cupboard. Fetch a clean cup. Pour the milk slowly. Replace the lid firmly.
+
+The server accepts signed requests. The worker validates each token. The database stores the result. The client displays the receipt.

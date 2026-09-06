@@ -131,3 +131,50 @@ The runner kept pace with the lead group for three miles.
 The drummer kept pace with the metronome during the timing drill.
 
 Cassia kept pace with Liska to match the rope count.
+
+The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles.
+
+Open the cupboard. Fetch a clean cup. Pour the milk slowly. Replace the lid firmly.
+
+Did the porter open the gate? Did Ana fetch the key? Did rain soak the papers? Did the clock chime twice?
+
+Beneath the bench lay a folded coat. Across the corridor echoed a shout. Near the gate stood the teacher. Inside the cage crouched the rabbit.
+
+After the bell rang, Ana fetched the key. While the porter searched, rain soaked the papers. Before the class returned, the teacher repaired the latch. When the door opened, Eli called for help.
+
+The cupboard is beside the sink. The cups are on the shelf. The milk is in the fridge. The lid is under the towel.
+
+The server accepts signed requests. The worker validates each token. The database stores the result. The client displays the receipt.
+
+The migration took 12 hours. We ran the new cache in shadow mode for three days before cutting over. Memory usage per instance dropped from 1.8 GB to 420 MB. Cache hit rate stabilized at 96% under load. Tail latency at p99 fell from 300ms to 42ms.
+
+We saw lock contention in XREADGROUP with 200ms timeouts. We tried sharding the Redis streams into 16 shards. The shard imbalance was brutal: some shards got 3x the load. We tried upgrading Node.js to 20.
+
+The porter counted twelve crates. Ana fetched three towels. Rain soaked two sacks. The driver loaded four baskets.
+
+The ledger contained twelve names. Nobody knew whether the missing child had joined the class before or after the register was taken. Ana fetched a pencil. Although the teacher had searched every room twice, the locked cupboard still needed a key. The porter opened the gate.
+
+The rope snapped. The crate fell. The lid broke. Glass scattered across the floor.
+
+The folded coat beside the bench. The open gate beyond the yard. The empty cage near the desk. The missing key beneath the rug.
+
+The first pupil fetched a cup.
+
+The second pupil opened the cupboard.
+
+The third pupil folded a towel.
+
+The fourth pupil carried the milk.
+
+- Ana fetched a cloth.
+- The porter opened the gate.
+- Eli folded the paper.
+- The teacher gathered the bags.
+
+```text
+Children searched beneath the tables. Eli ran into the corridor, calling for the rabbit. Mira hurried back and froze at the raised bolt. Her stomach squeezed tight. The teacher pointed to the open cage.
+```
+
+He told me my tendons and ligaments were fine. He diagnosed a problem with my knee. He told me the inside of my knee cap had become rough. He prescribed rest and a brace.
+
+Career - the years the player spent at the team. Appearances - the number of times this player played for the team. Tries - the number of tries the player scored for the team. Goals - the number of goals the player scored for the team.
