@@ -23,13 +23,12 @@ export default defineTextlintRule({
   reportPolicy: {
     kind: "sequence",
     tiers: [
-      { groups: ["action", "weak-action"], minimum: 3, window: 4, severity: 1 },
       {
-        groups: ["weak-action", "linking"],
+        groups: ["actor-action", "scene-action", "linking"],
         minimum: 3,
-        window: 3,
+        window: 4,
         severity: 2,
-        minimumByGroup: { "weak-action": 2 }
+        minimumByGroup: { "actor-action": 2 }
       }
     ]
   },

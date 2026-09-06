@@ -73,6 +73,41 @@
       },
       {
         "column": 1,
+        "data": {
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We go; We rest; We look; We wait). Review whether the repeated structure serves the passage.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              0,
+              33
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 0,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 1
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        },
+        "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We go; We rest; We look; We wait). Review whether the repeated structure serves the passage.",
+        "range": [
+          0,
+          33
+        ],
+        "ruleId": "flat-action-cadence",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 0,
         "line": 1,
         "loc": {
@@ -91,6 +126,41 @@
           60
         ],
         "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "data": {
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We go; We rest; We look; We wait). Review whether the repeated structure serves the passage.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              0,
+              30
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 62,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We go; We rest; We look; We wait). Review whether the repeated structure serves the passage.",
+        "range": [
+          62,
+          92
+        ],
+        "ruleId": "flat-action-cadence",
         "severity": 2,
         "type": "lint"
       },
@@ -397,6 +467,77 @@
   },
   {
     "filePath": "behavior/fixtures/textlint-rules/cases/metrics/no-hits.md",
-    "messages": []
+    "messages": [
+      {
+        "column": 1,
+        "data": {
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We go; The team rests; We look; They wait). Review whether the repeated structure serves the passage.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              0,
+              42
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 0,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 1
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        },
+        "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We go; The team rests; We look; They wait). Review whether the repeated structure serves the passage.",
+        "range": [
+          0,
+          42
+        ],
+        "ruleId": "flat-action-cadence",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "data": {
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We go; The team rests; We look; They wait). Review whether the repeated structure serves the passage.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              0,
+              42
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 68,
+        "line": 3,
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 3
+          },
+          "start": {
+            "column": 1,
+            "line": 3
+          }
+        },
+        "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We go; The team rests; We look; They wait). Review whether the repeated structure serves the passage.",
+        "range": [
+          68,
+          110
+        ],
+        "ruleId": "flat-action-cadence",
+        "severity": 2,
+        "type": "lint"
+      }
+    ]
   }
 ]

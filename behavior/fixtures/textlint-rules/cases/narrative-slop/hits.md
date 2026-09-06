@@ -167,3 +167,21 @@ The potter lifted the bowl. Her daughter fetched a cloth. A beetle crawled acros
 The ranger opened the shed. A horse nudged the fence. The visitor carried the saddle.
 
 The ranger did not open the shed. A horse nudged the fence. The visitor carried the saddle.
+
+The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles.
+
+The acrobat vaulted the railing. A juggler ducked beneath the rope. The attendant shuffled toward the curtain.
+
+Zorvak shuffled toward the railing. Pellin stooped beside the bench. Veyra sidled toward the curtain.
+
+I shuffled toward the entrance. You pivoted toward the coat stand. Our guide stooped beside the bench.
+
+The drummer rolled his shoulders. The singer flexed her fingers. The dancer tilted her head.
+
+A rabbit hopped beside the fence. A cat crept beneath the bench. A dog bounded toward the gate.
+
+Her fingers drummed on the rail. His shoulders sagged beneath his coat. Her eyelids fluttered.
+
+The sailor leaned against the mast; the cook shuffled toward the stove; the deckhand crouched beside the bucket.
+
+The apprentice lifts the curtain. The painter bends beside the easel. A visitor peers through the doorway.

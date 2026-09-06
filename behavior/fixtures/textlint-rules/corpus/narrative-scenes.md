@@ -705,3 +705,127 @@ The ranger did not open the shed. A horse nudged the fence. The visitor carried 
 Clara composed the score. Ahmed recorded the strings. Luis mixed the tracks. Ruth mastered the album.
 
 The guard checked the seal. The courier signed the receipt. The clerk released the parcel.
+
+## Rehearsal at the riverside theatre
+
+The stage manager moved the rehearsal into the loading yard while the electricians replaced a relay. The circus performers brought their own rope and a portable railing.
+
+The acrobat vaulted the railing. A juggler ducked beneath the rope. The attendant shuffled toward the curtain.
+
+Three students rehearsed the entrance of the visiting sailors. They had stitched their characters' names into their borrowed coats.
+
+Zorvak shuffled toward the railing. Pellin stooped beside the bench. Veyra sidled toward the curtain.
+
+I had agreed to help carry the scenery. You came from the wardrobe room with a bundle of hangers, and the guide took us through the narrow passage behind the seats.
+
+I shuffled toward the entrance. You pivoted toward the coat stand. Our guide stooped beside the bench.
+
+The musicians had spent the morning unloading their equipment. During the delay they cleared a space between the piano and the props cupboard.
+
+The drummer rolled his shoulders. The singer flexed her fingers. The dancer tilted her head.
+
+The children's animal scene had been filmed at a rescue centre. Its keeper checked the recording before letting the projectionist use it.
+
+A rabbit hopped beside the fence. A cat crept beneath the bench. A dog bounded toward the gate.
+
+Two children waited through the sound check. Their teacher offered to take them outside, but they wanted to see the ship scenery arrive.
+
+Her fingers drummed on the rail. His shoulders sagged beneath his coat. Her eyelids fluttered.
+
+The sailor leaned against the mast; the cook shuffled toward the stove; the deckhand crouched beside the bucket.
+
+The painted ship occupied most of the stage. A touring painter had installed an easel in the remaining space to finish the harbour backdrop.
+
+The apprentice lifts the curtain. The painter bends beside the easel. A visitor peers through the doorway.
+
+In the office, the producer checked a parcel dispute against the written accounts. Neither account established why the box had been left outside.
+
+The review confirms the buyer received the parcel. The summary explains the courier delivered the box.
+
+The programme printer sent the production credits with the invoice.
+
+Anna designed the cover. Ravi illustrated the diagram. Mei typeset the chapter.
+
+The treasurer was also reading the morning market report. Its opening summary did not explain the movement of the theatre's own investments.
+
+Stocks fell. Bonds rose. Gold dropped.
+
+The projection system depended on three services. The technician copied their status messages into the incident report.
+
+Redis paused. Kafka waited. Kubernetes stopped.
+
+The earlier demonstration had required precise measurements around a hospital bed used as a prop. The actors followed the marks left by the medical advisers.
+
+The technician moved the probe 12 millimeters. The nurse raised the bed 20 centimeters. The assistant lowered the tray 8 centimeters.
+
+An interrupted safety exercise appeared in the rehearsal notes.
+
+The child reached for the handle because smoke was coming through the door. The teacher pulled her back while the porter found the extinguisher.
+
+The props inventory contained three incomplete descriptions that the stage manager wanted rewritten as item names.
+
+The raised barrier beside the bench. The folded cloth under the curtain. The opened cabinet beyond the door.
+
+The script editor compared three accounts of the same entrance. None of the writers had attended the rehearsal.
+
+The author says the child reached the door. The editor thinks the teacher pulled the latch. The reviewer believes the porter lifted the bar.
+
+The company also rehearsed scenes adapted from older books. An assistant read the bedroom description while the costume department arranged its fabric samples.
+
+The sheets were made of blue cloth, and Dorothy slept soundly in them till morning, with Toto curled up on the blue rug beside her.
+
+For the following scene, the narrator reported a dispute about the approaching army. The editor kept the speaker's ungrammatical wording in the draft.
+
+He said it was all done by enchantment. He said there was hundreds of soldiers waiting. I said the road was clear.
+
+The costume designer had copied another description into her notebook beside a sketch of the headpiece.
+
+She wore a starched white affair on her head, had a wart on one cheek, and silver-rimmed spectacles hung on the tip of her nose. She glanced at me above the glasses.
+
+An actor read the next narrator's impressions aloud. The director asked her to leave enough time between them for the visitor's discomfort to register.
+
+She seemed to know all about them and about me, too. An eerie feeling came over me. She seemed uncanny and fateful.
+
+The next production included a health demonstration. Its technical adviser supplied a paragraph for the classroom scene.
+
+Cholesterol is made by your liver. It travels through the blood on proteins called lipoproteins. One type of lipoprotein, LDL, is sometimes called the "bad" cholesterol. A high LDL level leads to a buildup of cholesterol in your arteries. Another type, HDL, is sometimes called the "good" cholesterol. It carries cholesterol from other parts of your body back to your liver. Then your liver removes the cholesterol from your body.
+
+The students in the scene also watched a demonstration of an ultrasound examination. The narration followed the equipment rather than the patient's movements.
+
+The gel helps sound waves reach your heart. The technician moves a transducer (wand-like device) across your chest. The transducer connects to a computer. It transmits ultrasound waves into your chest, and the waves bounce (echo) back.
+
+During the interval, a camera followed a miniature delivery cart around the set. The operator described the cart to a technician who could not see the monitor.
+
+It's rolling along the track. It's carrying the parcel. It's turning beside the platform.
+
+The wardrobe assistant pinned a description of a damaged uniform beside the costume sketch. It described the arrangement of the clothes, not a sequence of movements.
+
+The sleeves rolled back, the knee torn open, his helmet on the ground behind his left foot.
+
+The programme for a mountaineering scene named the guides in its cast notes.
+
+Cesar Ollier, guide; and Josef Brocherel, guide and porter.
+
+Before the dress rehearsal, the director checked the actors' starting positions and costume changes against the script.
+
+He was dressed. She was seated. The guard was wounded.
+
+The company then rehearsed the departure scene. The refusal at the end changed how the earlier movements would be played.
+
+The children wept, and Nana ran to him beseechingly, but he waved her back.
+
+In another scene, the family argued over whether to open the entrance. The porter had orders to keep the visitors outside.
+
+She reached for the latch. Her brother stopped her, but she pulled away. The porter blocked the door.
+
+For the next reading, the director assigned a passage from The Call of the Wild. The costume department needed to distinguish the injuries described by the narrator from movements the performer would make.
+
+He staggered limply about, the blood flowing from nose and mouth and ears, his beautiful coat sprayed and flecked with bloody slaver. Then the man advanced and deliberately dealt him a frightful blow on the nose.
+
+The final reading came from The King in Yellow. The performers arranged the room before rehearsing the visitor's entrance.
+
+I knocked and entered without ceremony. Mr. Wilde lay groaning on the floor, his face covered with blood, his clothes torn to shreds.
+
+Over the headset, the stage manager received a final update from the cast. Their positions matched the opening scene.
+
+I'm dressed. She's seated. He's wounded.

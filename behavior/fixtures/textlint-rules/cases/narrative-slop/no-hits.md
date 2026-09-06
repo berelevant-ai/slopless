@@ -132,8 +132,6 @@ The drummer kept pace with the metronome during the timing drill.
 
 Cassia kept pace with Liska to match the rope count.
 
-The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles.
-
 Open the cupboard. Fetch a clean cup. Pour the milk slowly. Replace the lid firmly.
 
 Did the porter open the gate? Did Ana fetch the key? Did rain soak the papers? Did the clock chime twice?
@@ -226,3 +224,49 @@ The fuse blew. The lights failed. The pump stopped. Water poured into the baseme
 Clara composed the score. Ahmed recorded the strings. Luis mixed the tracks. Ruth mastered the album.
 
 The guard checked the seal. The courier signed the receipt. The clerk released the parcel.
+
+The review confirms the buyer received the parcel. The summary explains the courier delivered the box.
+
+Anna designed the cover. Ravi illustrated the diagram. Mei typeset the chapter.
+
+Stocks fell. Bonds rose. Gold dropped.
+
+Redis paused. Kafka waited. Kubernetes stopped.
+
+The technician moved the probe 12 millimeters. The nurse raised the bed 20 centimeters. The assistant lowered the tray 8 centimeters.
+
+The child reached for the handle because smoke was coming through the door. The teacher pulled her back while the porter found the extinguisher.
+
+The raised barrier beside the bench. The folded cloth under the curtain. The opened cabinet beyond the door.
+
+The author says the child reached the door. The editor thinks the teacher pulled the latch. The reviewer believes the porter lifted the bar.
+
+The sheets were made of blue cloth, and Dorothy slept soundly in them till morning, with Toto curled up on the blue rug beside her.
+
+He said it was all done by enchantment. He said there was hundreds of soldiers waiting. I said the road was clear.
+
+She wore a starched white affair on her head, had a wart on one cheek, and silver-rimmed spectacles hung on the tip of her nose. She glanced at me above the glasses.
+
+She seemed to know all about them and about me, too. An eerie feeling came over me. She seemed uncanny and fateful.
+
+Cholesterol is made by your liver. It travels through the blood on proteins called lipoproteins. One type of lipoprotein, LDL, is sometimes called the "bad" cholesterol. A high LDL level leads to a buildup of cholesterol in your arteries. Another type, HDL, is sometimes called the "good" cholesterol. It carries cholesterol from other parts of your body back to your liver. Then your liver removes the cholesterol from your body.
+
+The gel helps sound waves reach your heart. The technician moves a transducer (wand-like device) across your chest. The transducer connects to a computer. It transmits ultrasound waves into your chest, and the waves bounce (echo) back.
+
+It's rolling along the track. It's carrying the parcel. It's turning beside the platform.
+
+The sleeves rolled back, the knee torn open, his helmet on the ground behind his left foot.
+
+Cesar Ollier, guide; and Josef Brocherel, guide and porter.
+
+He was dressed. She was seated. The guard was wounded.
+
+The children wept, and Nana ran to him beseechingly, but he waved her back.
+
+She reached for the latch. Her brother stopped her, but she pulled away. The porter blocked the door.
+
+He staggered limply about, the blood flowing from nose and mouth and ears, his beautiful coat sprayed and flecked with bloody slaver. Then the man advanced and deliberately dealt him a frightful blow on the nose.
+
+I knocked and entered without ceremony. Mr. Wilde lay groaning on the floor, his face covered with blood, his clothes torn to shreds.
+
+I'm dressed. She's seated. He's wounded.

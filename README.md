@@ -164,6 +164,8 @@ This confirms the tarball you installed was built in the published source reposi
 
 The flat-action-cadence rule uses [Compromise](https://github.com/spencermountain/compromise) for English word classification and verb inflections.
 
+Its physical-action and actor vocabulary is extracted from [Open English WordNet 2025](https://en-word.net/downloads), by the Open English WordNet Community, under CC BY 4.0 and the underlying Princeton WordNet license. The packaged data is a reduced category index, not the complete dictionary.
+
 [Graham Rowe](https://github.com/grahamrowe82/antislop), thanks for giving me new ideas for classes of slop to detect. Your lib is now fully incorporated with your permission.
 
 ---
