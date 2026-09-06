@@ -25,6 +25,20 @@ features:
     suites:
       - slopless-cli-defaults
 suites:
+  cadence-recognition:
+    fixtures:
+      - "behavior/fixtures/cadence/*.json"
+    command:
+      argv:
+        - node
+        - scripts/cadence-replay.mjs
+        - "{fixtures}"
+      ok_exit_codes:
+        - 0
+    storage:
+      approved_dir: "behavior/golden/cadence-recognition"
+      received_dir: ".fixture3/cadence-recognition"
+      diff_dir: ".fixture3/cadence-recognition"
   slopless-cli-defaults:
     fixtures:
       - "behavior/fixtures/slopless-cli/defaults/*.md"

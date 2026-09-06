@@ -22,7 +22,16 @@ export type DensityMatch<Group extends string = string> = {
 
 export type ReportSeverity = 1 | 2;
 
+export type SequenceTier = {
+  readonly groups: readonly string[];
+  readonly minimum: number;
+  readonly window: number;
+  readonly severity: ReportSeverity;
+  readonly minimumByGroup?: Readonly<Record<string, number>>;
+};
+
 export type ReportPolicy =
+  | { readonly kind: "sequence"; readonly tiers: readonly SequenceTier[] }
   | {
       readonly kind: "one-to-one";
       readonly severity?: ReportSeverity;

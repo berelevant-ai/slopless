@@ -178,3 +178,51 @@ Children searched beneath the tables. Eli ran into the corridor, calling for the
 He told me my tendons and ligaments were fine. He diagnosed a problem with my knee. He told me the inside of my knee cap had become rough. He prescribed rest and a brace.
 
 Career - the years the player spent at the team. Appearances - the number of times this player played for the team. Tries - the number of tries the player scored for the team. Goals - the number of goals the player scored for the team.
+
+When the driver tapped the glass, the porter stopped dragging the sack and helped a passenger unfold her map.
+
+The porter dragged a sack. A passenger unfolded a map.
+
+Nora carried the basket to her brother, who folded the cloth while the baker brushed the counter.
+
+Beside the counter lay the basket Nora had carried. Folding the cloth, her brother waited for the baker to finish brushing away the flour.
+
+Steam drifting across the window told the cook the water was boiling, so he lifted the lid and asked a waiter to wipe the handle.
+
+The cook lifted the lid. Steam drifted across the window. The kitchen was cold.
+
+Open the cupboard. Fetch a clean cup. Pour the milk slowly.
+
+The painter asked the apprentice to open the drawer because his sleeve had brushed the jar and spilled the ink.
+
+An opened drawer stood beneath the painting. Over its handle hung the cloth used to wipe the spilled ink.
+
+The rope snapped. The crate fell. The lid broke. Glass scattered across the floor.
+
+Helen designed the cover. David drew the diagrams. Priya edited the chapters. Martin compiled the index.
+
+The officer stopped the van. The driver produced a license. The passenger surrendered the keys.
+
+After the stagehand pulled the curtain, the singer adjusted the stand to leave room for the drummer and his raised sticks.
+
+The drummer lifted a stick. The singer adjusted the stand.
+
+Carrying a program, the usher helped a visitor fold her coat before the conductor tapped the rail.
+
+On the rail rested the program the usher had carried. Beside it lay a visitor's folded coat.
+
+Water splashing against the hull made the ladder slippery, so the diver gripped it while her partner lowered the bag.
+
+The diver gripped the ladder. Water splashed against the hull. The sea was cold.
+
+Close the cabinet. Fold the fabric. Replace the key.
+
+The curator asked her assistant to unroll the fabric because a visitor had brushed the frame and loosened its lining.
+
+Beside the cabinet lay a length of fabric. Hanging from the frame was a torn strip of its lining.
+
+The fuse blew. The lights failed. The pump stopped. Water poured into the basement.
+
+Clara composed the score. Ahmed recorded the strings. Luis mixed the tracks. Ruth mastered the album.
+
+The guard checked the seal. The courier signed the receipt. The clerk released the parcel.
