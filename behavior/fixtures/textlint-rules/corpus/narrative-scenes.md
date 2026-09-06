@@ -581,3 +581,251 @@ Children searched beneath the tables. Eli ran into the corridor, calling for the
 The visitor explained why he had needed help carrying his trunk. He told me my tendons and ligaments were fine. He diagnosed a problem with my knee. He told me the inside of my knee cap had become rough. He prescribed rest and a brace.
 
 Beside the incident forms lay a glossary from the school sports records. Career - the years the player spent at the team. Appearances - the number of times this player played for the team. Tries - the number of tries the player scored for the team. Goals - the number of goals the player scored for the team.
+
+## The port rehearsal
+
+The school company rehearsed its port scene in the station yard. Its first performance began before the driver had finished unloading.
+
+The porter dragged a sack. A passenger unfolded a map. The driver tapped the glass.
+
+The porter drags a sack. A passenger unfolds a map. The driver taps the glass.
+
+When the driver tapped the glass, the porter stopped dragging the sack and helped a passenger unfold her map.
+
+The porter dragged a sack. A passenger unfolded a map.
+
+The programme described the same morning as a daily routine. Nora's brother read it aloud while the actors reset the baskets.
+
+Nora carried the basket. Her brother folded the cloth. The baker brushed the counter.
+
+Nora carried the basket; her brother folded the cloth; the baker brushed the counter.
+
+Nora carried the basket to her brother, who folded the cloth while the baker brushed the counter.
+
+Beside the counter lay the basket Nora had carried. Folding the cloth, her brother waited for the baker to finish brushing away the flour.
+
+Steam from the kitchen window interrupted the next scene. The cook and the painter were sharing the yard with the actors.
+
+The cook lifted the lid. Steam drifted across the window. A waiter wiped the handle.
+
+The cook lifts the lid. Steam drifts across the window. A waiter wipes the handle.
+
+Steam drifting across the window told the cook the water was boiling, so he lifted the lid and asked a waiter to wipe the handle.
+
+The cook lifted the lid. Steam drifted across the window. The kitchen was cold.
+
+During the break, the apprentice admitted how the ink had spilled. The children heard him from the rail above the landing.
+
+The tall porter with the patched green jacket dragged the heavy sack across the narrow platform. A passenger beside the closed ticket office unfolded a map on her lap. The driver behind the scratched windscreen tapped the glass with his gloved hand.
+
+The apprentice opened the drawer. The painter unfolded a cloth. His sleeve brushed the jar.
+
+Open the cupboard. Fetch a clean cup. Pour the milk slowly.
+
+The painter asked the apprentice to open the drawer because his sleeve had brushed the jar and spilled the ink.
+
+The children returned to the garden for the gate scene. Their rehearsal ended when a crate fell from the hoist.
+
+The apprentice opened the drawer. The room was cold. The painter unfolded a cloth. His sleeve brushed the jar.
+
+The child gripped the rail. Her brother fetched the rope. A gull circled the mast.
+
+An opened drawer stood beneath the painting. Over its handle hung the cloth used to wipe the spilled ink.
+
+The rope snapped. The crate fell. The lid broke. Glass scattered across the floor.
+
+After the accident, the programme editor collected the contributors' names. The officer recorded the movements beside the van.
+
+Her sister opened the gate. A dog scratched the post. The gardener carried the bucket.
+
+Her sister did not open the gate. A dog scratched the post. The gardener carried the bucket.
+
+Helen designed the cover. David drew the diagrams. Priya edited the chapters. Martin compiled the index.
+
+The officer stopped the van. The driver produced a license. The passenger surrendered the keys.
+
+## The theatre and museum visit
+
+The company took its costumes to the theatre the next morning. The musicians rehearsed while a stagehand checked the curtains.
+
+The drummer lifted a stick. The singer adjusted the stand. A stagehand pulled the curtain.
+
+The drummer lifts a stick. The singer adjusts the stand. A stagehand pulls the curtain.
+
+After the stagehand pulled the curtain, the singer adjusted the stand to leave room for the drummer and his raised sticks.
+
+The drummer lifted a stick. The singer adjusted the stand.
+
+The usher practiced the arrival scene with the musicians. The next page of the programme followed a diver boarding a small boat.
+
+The usher carried a program. A visitor folded her coat. The conductor tapped the rail.
+
+The usher carried a program; a visitor folded her coat; the conductor tapped the rail.
+
+Carrying a program, the usher helped a visitor fold her coat before the conductor tapped the rail.
+
+On the rail rested the program the usher had carried. Beside it lay a visitor's folded coat.
+
+The diver described the boat crossing during the interval. Backstage, the drummer prepared for a second rehearsal.
+
+The diver gripped the ladder. Water splashed against the hull. Her partner lowered a bag.
+
+The diver grips the ladder. Water splashes against the hull. Her partner lowers a bag.
+
+Water splashing against the hull made the ladder slippery, so the diver gripped it while her partner lowered the bag.
+
+The diver gripped the ladder. Water splashed against the hull. The sea was cold.
+
+The company visited the museum to borrow fabric for its final scene. The curator showed the assistant how the lining had come loose.
+
+The young drummer beside the towering stack of speakers lifted a stick above his head. The singer in the coat with the missing buttons adjusted the microphone stand near the curtain. A stagehand behind the row of dusty amplifiers pulled the curtain across the rear doorway.
+
+The curator unlocked the cabinet. Her assistant unrolled the fabric. A visitor brushed the frame.
+
+Close the cabinet. Fold the fabric. Replace the key.
+
+The curator asked her assistant to unroll the fabric because a visitor had brushed the frame and loosened its lining.
+
+A potter working beside the museum offered the company a bowl for its stage kitchen. On the way back, the visitors met a ranger beside the saddle shed.
+
+The curator unlocked the cabinet. The room was warm. Her assistant unrolled the fabric. A visitor brushed the frame.
+
+The potter lifted the bowl. Her daughter fetched a cloth. A beetle crawled across the bench.
+
+Beside the cabinet lay a length of fabric. Hanging from the frame was a torn strip of its lining.
+
+The fuse blew. The lights failed. The pump stopped. Water poured into the basement.
+
+That evening a fuse failed while the pump was running. The producer collected the music credits and the receipt for a replacement parcel.
+
+The ranger opened the shed. A horse nudged the fence. The visitor carried the saddle.
+
+The ranger did not open the shed. A horse nudged the fence. The visitor carried the saddle.
+
+Clara composed the score. Ahmed recorded the strings. Luis mixed the tracks. Ruth mastered the album.
+
+The guard checked the seal. The courier signed the receipt. The clerk released the parcel.
+
+## Rehearsal at the riverside theatre
+
+The stage manager moved the rehearsal into the loading yard while the electricians replaced a relay. The circus performers brought their own rope and a portable railing.
+
+The acrobat vaulted the railing. A juggler ducked beneath the rope. The attendant shuffled toward the curtain.
+
+Three students rehearsed the entrance of the visiting sailors. They had stitched their characters' names into their borrowed coats.
+
+Zorvak shuffled toward the railing. Pellin stooped beside the bench. Veyra sidled toward the curtain.
+
+I had agreed to help carry the scenery. You came from the wardrobe room with a bundle of hangers, and the guide took us through the narrow passage behind the seats.
+
+I shuffled toward the entrance. You pivoted toward the coat stand. Our guide stooped beside the bench.
+
+The musicians had spent the morning unloading their equipment. During the delay they cleared a space between the piano and the props cupboard.
+
+The drummer rolled his shoulders. The singer flexed her fingers. The dancer tilted her head.
+
+The children's animal scene had been filmed at a rescue centre. Its keeper checked the recording before letting the projectionist use it.
+
+A rabbit hopped beside the fence. A cat crept beneath the bench. A dog bounded toward the gate.
+
+Two children waited through the sound check. Their teacher offered to take them outside, but they wanted to see the ship scenery arrive.
+
+Her fingers drummed on the rail. His shoulders sagged beneath his coat. Her eyelids fluttered.
+
+The sailor leaned against the mast; the cook shuffled toward the stove; the deckhand crouched beside the bucket.
+
+The painted ship occupied most of the stage. A touring painter had installed an easel in the remaining space to finish the harbour backdrop.
+
+The apprentice lifts the curtain. The painter bends beside the easel. A visitor peers through the doorway.
+
+In the office, the producer checked a parcel dispute against the written accounts. Neither account established why the box had been left outside.
+
+The review confirms the buyer received the parcel. The summary explains the courier delivered the box.
+
+The programme printer sent the production credits with the invoice.
+
+Anna designed the cover. Ravi illustrated the diagram. Mei typeset the chapter.
+
+The treasurer was also reading the morning market report. Its opening summary did not explain the movement of the theatre's own investments.
+
+Stocks fell. Bonds rose. Gold dropped.
+
+The projection system depended on three services. The technician copied their status messages into the incident report.
+
+Redis paused. Kafka waited. Kubernetes stopped.
+
+The earlier demonstration had required precise measurements around a hospital bed used as a prop. The actors followed the marks left by the medical advisers.
+
+The technician moved the probe 12 millimeters. The nurse raised the bed 20 centimeters. The assistant lowered the tray 8 centimeters.
+
+An interrupted safety exercise appeared in the rehearsal notes.
+
+The child reached for the handle because smoke was coming through the door. The teacher pulled her back while the porter found the extinguisher.
+
+The props inventory contained three incomplete descriptions that the stage manager wanted rewritten as item names.
+
+The raised barrier beside the bench. The folded cloth under the curtain. The opened cabinet beyond the door.
+
+The script editor compared three accounts of the same entrance. None of the writers had attended the rehearsal.
+
+The author says the child reached the door. The editor thinks the teacher pulled the latch. The reviewer believes the porter lifted the bar.
+
+The company also rehearsed scenes adapted from older books. An assistant read the bedroom description while the costume department arranged its fabric samples.
+
+The sheets were made of blue cloth, and Dorothy slept soundly in them till morning, with Toto curled up on the blue rug beside her.
+
+For the following scene, the narrator reported a dispute about the approaching army. The editor kept the speaker's ungrammatical wording in the draft.
+
+He said it was all done by enchantment. He said there was hundreds of soldiers waiting. I said the road was clear.
+
+The costume designer had copied another description into her notebook beside a sketch of the headpiece.
+
+She wore a starched white affair on her head, had a wart on one cheek, and silver-rimmed spectacles hung on the tip of her nose. She glanced at me above the glasses.
+
+An actor read the next narrator's impressions aloud. The director asked her to leave enough time between them for the visitor's discomfort to register.
+
+She seemed to know all about them and about me, too. An eerie feeling came over me. She seemed uncanny and fateful.
+
+The next production included a health demonstration. Its technical adviser supplied a paragraph for the classroom scene.
+
+Cholesterol is made by your liver. It travels through the blood on proteins called lipoproteins. One type of lipoprotein, LDL, is sometimes called the "bad" cholesterol. A high LDL level leads to a buildup of cholesterol in your arteries. Another type, HDL, is sometimes called the "good" cholesterol. It carries cholesterol from other parts of your body back to your liver. Then your liver removes the cholesterol from your body.
+
+The students in the scene also watched a demonstration of an ultrasound examination. The narration followed the equipment rather than the patient's movements.
+
+The gel helps sound waves reach your heart. The technician moves a transducer (wand-like device) across your chest. The transducer connects to a computer. It transmits ultrasound waves into your chest, and the waves bounce (echo) back.
+
+During the interval, a camera followed a miniature delivery cart around the set. The operator described the cart to a technician who could not see the monitor.
+
+It's rolling along the track. It's carrying the parcel. It's turning beside the platform.
+
+The wardrobe assistant pinned a description of a damaged uniform beside the costume sketch. It described the arrangement of the clothes, not a sequence of movements.
+
+The sleeves rolled back, the knee torn open, his helmet on the ground behind his left foot.
+
+The programme for a mountaineering scene named the guides in its cast notes.
+
+Cesar Ollier, guide; and Josef Brocherel, guide and porter.
+
+Before the dress rehearsal, the director checked the actors' starting positions and costume changes against the script.
+
+He was dressed. She was seated. The guard was wounded.
+
+The company then rehearsed the departure scene. The refusal at the end changed how the earlier movements would be played.
+
+The children wept, and Nana ran to him beseechingly, but he waved her back.
+
+In another scene, the family argued over whether to open the entrance. The porter had orders to keep the visitors outside.
+
+She reached for the latch. Her brother stopped her, but she pulled away. The porter blocked the door.
+
+For the next reading, the director assigned a passage from The Call of the Wild. The costume department needed to distinguish the injuries described by the narrator from movements the performer would make.
+
+He staggered limply about, the blood flowing from nose and mouth and ears, his beautiful coat sprayed and flecked with bloody slaver. Then the man advanced and deliberately dealt him a frightful blow on the nose.
+
+The final reading came from The King in Yellow. The performers arranged the room before rehearsing the visitor's entrance.
+
+I knocked and entered without ceremony. Mr. Wilde lay groaning on the floor, his face covered with blood, his clothes torn to shreds.
+
+Over the headset, the stage manager received a final update from the cast. Their positions matched the opening scene.
+
+I'm dressed. She's seated. He's wounded.

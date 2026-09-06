@@ -2,6 +2,7 @@ import { splitSentences } from "../shared/text/sentences.js";
 import { wordTokens } from "../shared/text/tokens.js";
 import type { RuleDetection, TextUnit } from "../rules/types.js";
 import { rateVerdict } from "./density.js";
+import { sequenceReports } from "./sequence.js";
 import type { DensityMatch, ReportPolicy, RuleReport } from "./types.js";
 
 type DensityReportConfig<Group extends string> = {
@@ -215,6 +216,15 @@ export function reportsForPolicy(
   formatMessage: (report: RuleReport) => string
 ): RuleReport[] {
   switch (policy.kind) {
+    case "sequence":
+      return units.flatMap((unit) =>
+        sequenceReports(
+          unit,
+          detections.filter((hit) => hit.unitId === unit.id),
+          policy.tiers,
+          formatMessage
+        )
+      );
     case "one-to-one": {
       const unitsById = new Map(units.map((unit) => [unit.id, unit]));
       const reports = detections.map((detection) => {

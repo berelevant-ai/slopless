@@ -132,8 +132,6 @@ The drummer kept pace with the metronome during the timing drill.
 
 Cassia kept pace with Liska to match the rope count.
 
-The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles.
-
 Open the cupboard. Fetch a clean cup. Pour the milk slowly. Replace the lid firmly.
 
 Did the porter open the gate? Did Ana fetch the key? Did rain soak the papers? Did the clock chime twice?
@@ -178,3 +176,97 @@ Children searched beneath the tables. Eli ran into the corridor, calling for the
 He told me my tendons and ligaments were fine. He diagnosed a problem with my knee. He told me the inside of my knee cap had become rough. He prescribed rest and a brace.
 
 Career - the years the player spent at the team. Appearances - the number of times this player played for the team. Tries - the number of tries the player scored for the team. Goals - the number of goals the player scored for the team.
+
+When the driver tapped the glass, the porter stopped dragging the sack and helped a passenger unfold her map.
+
+The porter dragged a sack. A passenger unfolded a map.
+
+Nora carried the basket to her brother, who folded the cloth while the baker brushed the counter.
+
+Beside the counter lay the basket Nora had carried. Folding the cloth, her brother waited for the baker to finish brushing away the flour.
+
+Steam drifting across the window told the cook the water was boiling, so he lifted the lid and asked a waiter to wipe the handle.
+
+The cook lifted the lid. Steam drifted across the window. The kitchen was cold.
+
+Open the cupboard. Fetch a clean cup. Pour the milk slowly.
+
+The painter asked the apprentice to open the drawer because his sleeve had brushed the jar and spilled the ink.
+
+An opened drawer stood beneath the painting. Over its handle hung the cloth used to wipe the spilled ink.
+
+The rope snapped. The crate fell. The lid broke. Glass scattered across the floor.
+
+Helen designed the cover. David drew the diagrams. Priya edited the chapters. Martin compiled the index.
+
+The officer stopped the van. The driver produced a license. The passenger surrendered the keys.
+
+After the stagehand pulled the curtain, the singer adjusted the stand to leave room for the drummer and his raised sticks.
+
+The drummer lifted a stick. The singer adjusted the stand.
+
+Carrying a program, the usher helped a visitor fold her coat before the conductor tapped the rail.
+
+On the rail rested the program the usher had carried. Beside it lay a visitor's folded coat.
+
+Water splashing against the hull made the ladder slippery, so the diver gripped it while her partner lowered the bag.
+
+The diver gripped the ladder. Water splashed against the hull. The sea was cold.
+
+Close the cabinet. Fold the fabric. Replace the key.
+
+The curator asked her assistant to unroll the fabric because a visitor had brushed the frame and loosened its lining.
+
+Beside the cabinet lay a length of fabric. Hanging from the frame was a torn strip of its lining.
+
+The fuse blew. The lights failed. The pump stopped. Water poured into the basement.
+
+Clara composed the score. Ahmed recorded the strings. Luis mixed the tracks. Ruth mastered the album.
+
+The guard checked the seal. The courier signed the receipt. The clerk released the parcel.
+
+The review confirms the buyer received the parcel. The summary explains the courier delivered the box.
+
+Anna designed the cover. Ravi illustrated the diagram. Mei typeset the chapter.
+
+Stocks fell. Bonds rose. Gold dropped.
+
+Redis paused. Kafka waited. Kubernetes stopped.
+
+The technician moved the probe 12 millimeters. The nurse raised the bed 20 centimeters. The assistant lowered the tray 8 centimeters.
+
+The child reached for the handle because smoke was coming through the door. The teacher pulled her back while the porter found the extinguisher.
+
+The raised barrier beside the bench. The folded cloth under the curtain. The opened cabinet beyond the door.
+
+The author says the child reached the door. The editor thinks the teacher pulled the latch. The reviewer believes the porter lifted the bar.
+
+The sheets were made of blue cloth, and Dorothy slept soundly in them till morning, with Toto curled up on the blue rug beside her.
+
+He said it was all done by enchantment. He said there was hundreds of soldiers waiting. I said the road was clear.
+
+She wore a starched white affair on her head, had a wart on one cheek, and silver-rimmed spectacles hung on the tip of her nose. She glanced at me above the glasses.
+
+She seemed to know all about them and about me, too. An eerie feeling came over me. She seemed uncanny and fateful.
+
+Cholesterol is made by your liver. It travels through the blood on proteins called lipoproteins. One type of lipoprotein, LDL, is sometimes called the "bad" cholesterol. A high LDL level leads to a buildup of cholesterol in your arteries. Another type, HDL, is sometimes called the "good" cholesterol. It carries cholesterol from other parts of your body back to your liver. Then your liver removes the cholesterol from your body.
+
+The gel helps sound waves reach your heart. The technician moves a transducer (wand-like device) across your chest. The transducer connects to a computer. It transmits ultrasound waves into your chest, and the waves bounce (echo) back.
+
+It's rolling along the track. It's carrying the parcel. It's turning beside the platform.
+
+The sleeves rolled back, the knee torn open, his helmet on the ground behind his left foot.
+
+Cesar Ollier, guide; and Josef Brocherel, guide and porter.
+
+He was dressed. She was seated. The guard was wounded.
+
+The children wept, and Nana ran to him beseechingly, but he waved her back.
+
+She reached for the latch. Her brother stopped her, but she pulled away. The porter blocked the door.
+
+He staggered limply about, the blood flowing from nose and mouth and ears, his beautiful coat sprayed and flecked with bloody slaver. Then the man advanced and deliberately dealt him a frightful blow on the nose.
+
+I knocked and entered without ceremony. Mr. Wilde lay groaning on the floor, his face covered with blood, his clothes torn to shreds.
+
+I'm dressed. She's seated. He's wounded.

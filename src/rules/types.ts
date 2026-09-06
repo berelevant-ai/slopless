@@ -39,6 +39,7 @@ export type RuleInput<Options = unknown> = {
 };
 
 export type RuleDetection<Group extends string = string> = {
+  readonly ordinal?: number;
   readonly data?: Readonly<Record<string, boolean | number | string>>;
   readonly evidence: string;
   readonly group?: Group;

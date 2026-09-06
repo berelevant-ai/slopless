@@ -9250,29 +9250,6 @@
         "type": "lint"
       },
       {
-        "column": 146,
-        "index": 30825,
-        "line": 809,
-        "loc": {
-          "end": {
-            "column": 346,
-            "line": 809
-          },
-          "start": {
-            "column": 146,
-            "line": 809
-          }
-        },
-        "message": "Flat action cadence: 4 short sentences in a five-sentence window repeat subject-first narration (The platform quietly moved; The industry quietly shifted; The strategy quietly evolved; The product quietly became). Combine related actions or vary the sentence structure.",
-        "range": [
-          30825,
-          31025
-        ],
-        "ruleId": "flat-action-cadence",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 159,
         "data": {
           "message": "\"quietly\" adds vague hidden significance (abstract-change). Name the concrete change or remove the adverb.",
@@ -9410,29 +9387,6 @@
         ],
         "ruleId": "quietly-filler",
         "severity": 1,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 31027,
-        "line": 811,
-        "loc": {
-          "end": {
-            "column": 253,
-            "line": 811
-          },
-          "start": {
-            "column": 1,
-            "line": 811
-          }
-        },
-        "message": "Flat action cadence: 5 short sentences in a five-sentence window repeat subject-first narration (The repetition continued; The process quietly moved; The category quietly changed; The conversation quietly shifted; The work quietly expanded). Combine related actions or vary the sentence structure.",
-        "range": [
-          31027,
-          31279
-        ],
-        "ruleId": "flat-action-cadence",
-        "severity": 2,
         "type": "lint"
       },
       {
@@ -12688,22 +12642,34 @@
         "type": "lint"
       },
       {
-        "column": 1,
-        "index": 41148,
-        "line": 1115,
+        "column": 7,
+        "data": {
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (She walked; The child waited; The choir stood). Review whether the repeated structure serves the passage.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              82,
+              244
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 41230,
+        "line": 1116,
         "loc": {
           "end": {
             "column": 21,
             "line": 1118
           },
           "start": {
-            "column": 1,
-            "line": 1115
+            "column": 7,
+            "line": 1116
           }
         },
-        "message": "Flat action cadence: 4 short sentences in a five-sentence window repeat subject-first narration (The controls used; She walked; The child waited; The choir stood). Combine related actions or vary the sentence structure.",
+        "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (She walked; The child waited; The choir stood). Review whether the repeated structure serves the passage.",
         "range": [
-          41148,
+          41230,
           41392
         ],
         "ruleId": "flat-action-cadence",
@@ -13938,29 +13904,6 @@
           45721
         ],
         "ruleId": "superficial-analysis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 45723,
-        "line": 1188,
-        "loc": {
-          "end": {
-            "column": 347,
-            "line": 1188
-          },
-          "start": {
-            "column": 1,
-            "line": 1188
-          }
-        },
-        "message": "Flat action cadence: 4 short sentences in a five-sentence window repeat subject-first narration (The initiative brought; The new office opened; The conference attracted; The update changed). Combine related actions or vary the sentence structure.",
-        "range": [
-          45723,
-          46069
-        ],
-        "ruleId": "flat-action-cadence",
         "severity": 2,
         "type": "lint"
       },
@@ -15346,6 +15289,18 @@
       },
       {
         "column": 77,
+        "data": {
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Cassia stepped; Cassia looked; Cassia waited). Review whether the repeated structure serves the passage.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              76,
+              166
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
         "index": 49856,
         "line": 1222,
         "loc": {
@@ -15358,7 +15313,7 @@
             "line": 1222
           }
         },
-        "message": "Flat action cadence: 3 adjacent short simple sentences use subject-action beats (stepped, looked, waited). Vary the rhythm or add causal/sensory development.",
+        "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Cassia stepped; Cassia looked; Cassia waited). Review whether the repeated structure serves the passage.",
         "range": [
           49856,
           49946

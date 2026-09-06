@@ -119,3 +119,69 @@ Dr. Silva opened the envelope. His assistant fetched the ledger. A patient dropp
 The courier pushed the gate. The baker folded his apron. The children moved their baskets. A sparrow landed on the fence.
 
 Mira bent to lift the ribbon. Eli fetched the basket. The teacher unfolded the flag. Children gathered beside the bench.
+
+The porter dragged a sack. A passenger unfolded a map. The driver tapped the glass.
+
+The porter drags a sack. A passenger unfolds a map. The driver taps the glass.
+
+Nora carried the basket. Her brother folded the cloth. The baker brushed the counter.
+
+Nora carried the basket; her brother folded the cloth; the baker brushed the counter.
+
+The cook lifted the lid. Steam drifted across the window. A waiter wiped the handle.
+
+The cook lifts the lid. Steam drifts across the window. A waiter wipes the handle.
+
+The tall porter with the patched green jacket dragged the heavy sack across the narrow platform. A passenger beside the closed ticket office unfolded a map on her lap. The driver behind the scratched windscreen tapped the glass with his gloved hand.
+
+The apprentice opened the drawer. The painter unfolded a cloth. His sleeve brushed the jar.
+
+The apprentice opened the drawer. The room was cold. The painter unfolded a cloth. His sleeve brushed the jar.
+
+The child gripped the rail. Her brother fetched the rope. A gull circled the mast.
+
+Her sister opened the gate. A dog scratched the post. The gardener carried the bucket.
+
+Her sister did not open the gate. A dog scratched the post. The gardener carried the bucket.
+
+The drummer lifted a stick. The singer adjusted the stand. A stagehand pulled the curtain.
+
+The drummer lifts a stick. The singer adjusts the stand. A stagehand pulls the curtain.
+
+The usher carried a program. A visitor folded her coat. The conductor tapped the rail.
+
+The usher carried a program; a visitor folded her coat; the conductor tapped the rail.
+
+The diver gripped the ladder. Water splashed against the hull. Her partner lowered a bag.
+
+The diver grips the ladder. Water splashes against the hull. Her partner lowers a bag.
+
+The young drummer beside the towering stack of speakers lifted a stick above his head. The singer in the coat with the missing buttons adjusted the microphone stand near the curtain. A stagehand behind the row of dusty amplifiers pulled the curtain across the rear doorway.
+
+The curator unlocked the cabinet. Her assistant unrolled the fabric. A visitor brushed the frame.
+
+The curator unlocked the cabinet. The room was warm. Her assistant unrolled the fabric. A visitor brushed the frame.
+
+The potter lifted the bowl. Her daughter fetched a cloth. A beetle crawled across the bench.
+
+The ranger opened the shed. A horse nudged the fence. The visitor carried the saddle.
+
+The ranger did not open the shed. A horse nudged the fence. The visitor carried the saddle.
+
+The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles.
+
+The acrobat vaulted the railing. A juggler ducked beneath the rope. The attendant shuffled toward the curtain.
+
+Zorvak shuffled toward the railing. Pellin stooped beside the bench. Veyra sidled toward the curtain.
+
+I shuffled toward the entrance. You pivoted toward the coat stand. Our guide stooped beside the bench.
+
+The drummer rolled his shoulders. The singer flexed her fingers. The dancer tilted her head.
+
+A rabbit hopped beside the fence. A cat crept beneath the bench. A dog bounded toward the gate.
+
+Her fingers drummed on the rail. His shoulders sagged beneath his coat. Her eyelids fluttered.
+
+The sailor leaned against the mast; the cook shuffled toward the stove; the deckhand crouched beside the bucket.
+
+The apprentice lifts the curtain. The painter bends beside the easel. A visitor peers through the doorway.

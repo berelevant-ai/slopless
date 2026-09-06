@@ -1,0 +1,2397 @@
+{
+  "baseline": "0.2.37",
+  "candidateCommit": "d5f0998",
+  "groups": {
+    "ai-generated": {
+      "files": 400,
+      "words": 184881,
+      "before": 0,
+      "after": 381,
+      "warnings": 381,
+      "errors": 0,
+      "lostSpans": 0,
+      "downgradedSpans": 0,
+      "newSpans": 381
+    },
+    "ai-suspected": {
+      "files": 1500,
+      "words": 1576838,
+      "before": 5,
+      "after": 3095,
+      "warnings": 3090,
+      "errors": 5,
+      "lostSpans": 0,
+      "downgradedSpans": 2,
+      "newSpans": 3090
+    },
+    "human": {
+      "files": 13680,
+      "words": 21305305,
+      "before": 26,
+      "after": 58554,
+      "warnings": 58522,
+      "errors": 32,
+      "lostSpans": 0,
+      "downgradedSpans": 24,
+      "newSpans": 58528
+    },
+    "new-corpus": {
+      "files": 32,
+      "words": 88912,
+      "before": 17,
+      "after": 607,
+      "warnings": 479,
+      "errors": 128,
+      "lostSpans": 1,
+      "downgradedSpans": 9,
+      "newSpans": 591
+    }
+  },
+  "fixtureTotals": {
+    "before": 68,
+    "after": 344,
+    "warnings": 315,
+    "errors": 29,
+    "lost": 0
+  },
+  "evaluation": [
+    {
+      "bucket": "hits",
+      "i": 0,
+      "text": "The porter dragged a sack. A passenger unfolded a map. The driver tapped the glass.",
+      "occurrences": [
+        "The porter dragged",
+        "A passenger unfolded",
+        "The driver tapped"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The porter dragged; A passenger unfolded; The driver tapped). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            83
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The porter dragged; A passenger unfolded; The driver tapped). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                83
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 1,
+      "text": "The porter drags a sack. A passenger unfolds a map. The driver taps the glass.",
+      "occurrences": [
+        "The porter drags",
+        "A passenger unfolds"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The porter drags; A passenger unfolds; The driver taps). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            78
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The porter drags; A passenger unfolds; The driver taps). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                78
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 2,
+      "text": "Nora carried the basket. Her brother folded the cloth. The baker brushed the counter.",
+      "occurrences": [
+        "Nora carried",
+        "Her brother folded",
+        "The baker brushed"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Nora carried; Her brother folded; The baker brushed). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            85
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Nora carried; Her brother folded; The baker brushed). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                85
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 3,
+      "text": "Nora carried the basket; her brother folded the cloth; the baker brushed the counter.",
+      "occurrences": [
+        "Nora carried",
+        "her brother folded",
+        "the baker brushed"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Nora carried; her brother folded; the baker brushed). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            85
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Nora carried; her brother folded; the baker brushed). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                85
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 4,
+      "text": "The cook lifted the lid. Steam drifted across the window. A waiter wiped the handle.",
+      "occurrences": [
+        "The cook lifted",
+        "Steam drifted",
+        "A waiter wiped"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The cook lifted; Steam drifted; A waiter wiped). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            84
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 85
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The cook lifted; Steam drifted; A waiter wiped). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                84
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 5,
+      "text": "The cook lifts the lid. Steam drifts across the window. A waiter wipes the handle.",
+      "occurrences": [
+        "The cook lifts",
+        "Steam drifts",
+        "A waiter wipes"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The cook lifts; Steam drifts; A waiter wipes). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            82
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 83
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The cook lifts; Steam drifts; A waiter wipes). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                82
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 6,
+      "text": "The tall porter with the patched green jacket dragged the heavy sack across the narrow platform. A passenger beside the closed ticket office unfolded a map on her lap. The driver behind the scratched windscreen tapped the glass with his gloved hand.",
+      "occurrences": [
+        "The tall porter with the patched green jacket dragged",
+        "A passenger beside the closed ticket office unfolded",
+        "The driver behind the scratched windscreen tapped"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The tall porter with the patched green jacket dragged; A passenger beside the closed ticket office unfolded; The driver behind the scratched windscreen tapped). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            249
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 250
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The tall porter with the patched green jacket dragged; A passenger beside the closed ticket office unfolded; The driver behind the scratched windscreen tapped). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                249
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 7,
+      "text": "The apprentice opened the drawer. The painter unfolded a cloth. His sleeve brushed the jar.",
+      "occurrences": [
+        "The apprentice opened",
+        "The painter unfolded",
+        "His sleeve brushed"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The apprentice opened; The painter unfolded; His sleeve brushed). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            91
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 92
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The apprentice opened; The painter unfolded; His sleeve brushed). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                91
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 8,
+      "text": "The apprentice opened the drawer. The room was cold. The painter unfolded a cloth. His sleeve brushed the jar.",
+      "occurrences": [
+        "The apprentice opened",
+        "was",
+        "The painter unfolded",
+        "His sleeve brushed"
+      ],
+      "policies": {
+        "3consecutive": false,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The apprentice opened; The painter unfolded; His sleeve brushed). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            110
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 111
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The apprentice opened; The painter unfolded; His sleeve brushed). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                110
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 9,
+      "text": "The child gripped the rail. Her brother fetched the rope. A gull circled the mast.",
+      "occurrences": [
+        "The child gripped",
+        "Her brother fetched",
+        "A gull circled"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The child gripped; Her brother fetched; A gull circled). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            82
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 83
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The child gripped; Her brother fetched; A gull circled). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                82
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 10,
+      "text": "Her sister opened the gate. A dog scratched the post. The gardener carried the bucket.",
+      "occurrences": [
+        "Her sister opened",
+        "A dog scratched",
+        "The gardener carried"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Her sister opened; A dog scratched; The gardener carried). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            86
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Her sister opened; A dog scratched; The gardener carried). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                86
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 11,
+      "text": "Her sister did not open the gate. A dog scratched the post. The gardener carried the bucket.",
+      "occurrences": [
+        "Her sister did not open",
+        "A dog scratched",
+        "The gardener carried"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Her sister did not open; A dog scratched; The gardener carried). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            92
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 93
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Her sister did not open; A dog scratched; The gardener carried). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                92
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "no-hits",
+      "i": 0,
+      "text": "When the driver tapped the glass, the porter stopped dragging the sack and helped a passenger unfold her map.",
+      "occurrences": [],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 1,
+      "text": "The porter dragged a sack. A passenger unfolded a map.",
+      "occurrences": [
+        "The porter dragged",
+        "A passenger unfolded"
+      ],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 2,
+      "text": "Nora carried the basket to her brother, who folded the cloth while the baker brushed the counter.",
+      "occurrences": [
+        "Nora carried"
+      ],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 3,
+      "text": "Beside the counter lay the basket Nora had carried. Folding the cloth, her brother waited for the baker to finish brushing away the flour.",
+      "occurrences": [
+        "her brother waited"
+      ],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 4,
+      "text": "Steam drifting across the window told the cook the water was boiling, so he lifted the lid and asked a waiter to wipe the handle.",
+      "occurrences": [
+        "he lifted"
+      ],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 5,
+      "text": "The cook lifted the lid. Steam drifted across the window. The kitchen was cold.",
+      "occurrences": [
+        "The cook lifted",
+        "Steam drifted",
+        "was"
+      ],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 6,
+      "text": "Open the cupboard. Fetch a clean cup. Pour the milk slowly.",
+      "occurrences": [],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 7,
+      "text": "The painter asked the apprentice to open the drawer because his sleeve had brushed the jar and spilled the ink.",
+      "occurrences": [
+        "The painter asked"
+      ],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 8,
+      "text": "An opened drawer stood beneath the painting. Over its handle hung the cloth used to wipe the spilled ink.",
+      "occurrences": [
+        "An opened drawer stood",
+        "hung"
+      ],
+      "policies": {
+        "3consecutive": false,
+        "3of4": false,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": false,
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 9,
+      "text": "The rope snapped. The crate fell. The lid broke. Glass scattered across the floor.",
+      "occurrences": [
+        "The rope snapped",
+        "The crate fell",
+        "The lid broke",
+        "Glass scattered"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": true
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The rope snapped; The crate fell; The lid broke; Glass scattered). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            82
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 83
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The rope snapped; The crate fell; The lid broke; Glass scattered). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                82
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "no-hits",
+      "i": 10,
+      "text": "Helen designed the cover. David drew the diagrams. Priya edited the chapters. Martin compiled the index.",
+      "occurrences": [
+        "Helen designed",
+        "David drew",
+        "Priya edited",
+        "Martin compiled"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": true
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (Helen designed; David drew; Priya edited; Martin compiled). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            104
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 105
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (Helen designed; David drew; Priya edited; Martin compiled). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                104
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "no-hits",
+      "i": 11,
+      "text": "The officer stopped the van. The driver produced a license. The passenger surrendered the keys.",
+      "occurrences": [
+        "The officer stopped",
+        "The driver produced",
+        "The passenger surrendered"
+      ],
+      "policies": {
+        "3consecutive": true,
+        "3of4": true,
+        "4of5": false
+      },
+      "part": "development",
+      "hit": true,
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The officer stopped; The driver produced; The passenger surrendered). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            95
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 96
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The officer stopped; The driver produced; The passenger surrendered). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                95
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 0,
+      "text": "The drummer lifted a stick. The singer adjusted the stand. A stagehand pulled the curtain.",
+      "hit": true,
+      "occurrences": [
+        "The drummer lifted",
+        "The singer adjusted",
+        "A stagehand pulled"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The drummer lifted; The singer adjusted; A stagehand pulled). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            90
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 91
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The drummer lifted; The singer adjusted; A stagehand pulled). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                90
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 1,
+      "text": "The drummer lifts a stick. The singer adjusts the stand. A stagehand pulls the curtain.",
+      "hit": true,
+      "occurrences": [
+        "The drummer lifts",
+        "The singer adjusts",
+        "A stagehand pulls"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The drummer lifts; The singer adjusts; A stagehand pulls). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            87
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 88
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The drummer lifts; The singer adjusts; A stagehand pulls). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                87
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 2,
+      "text": "The usher carried a program. A visitor folded her coat. The conductor tapped the rail.",
+      "hit": true,
+      "occurrences": [
+        "The usher carried",
+        "A visitor folded",
+        "The conductor tapped"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The usher carried; A visitor folded; The conductor tapped). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            86
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The usher carried; A visitor folded; The conductor tapped). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                86
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 3,
+      "text": "The usher carried a program; a visitor folded her coat; the conductor tapped the rail.",
+      "hit": true,
+      "occurrences": [
+        "The usher carried",
+        "a visitor folded",
+        "the conductor tapped"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The usher carried; a visitor folded; the conductor tapped). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            86
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The usher carried; a visitor folded; the conductor tapped). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                86
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 4,
+      "text": "The diver gripped the ladder. Water splashed against the hull. Her partner lowered a bag.",
+      "hit": true,
+      "occurrences": [
+        "The diver gripped",
+        "Water splashed",
+        "Her partner lowered"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The diver gripped; Water splashed; Her partner lowered). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            89
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 90
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The diver gripped; Water splashed; Her partner lowered). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                89
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 5,
+      "text": "The diver grips the ladder. Water splashes against the hull. Her partner lowers a bag.",
+      "hit": true,
+      "occurrences": [
+        "The diver grips",
+        "Water splashes",
+        "Her partner lowers"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The diver grips; Water splashes; Her partner lowers). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            86
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 87
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The diver grips; Water splashes; Her partner lowers). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                86
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 6,
+      "text": "The young drummer beside the towering stack of speakers lifted a stick above his head. The singer in the coat with the missing buttons adjusted the microphone stand near the curtain. A stagehand behind the row of dusty amplifiers pulled the curtain across the rear doorway.",
+      "hit": true,
+      "occurrences": [
+        "The young drummer beside the towering stack of speakers lifted",
+        "The singer in the coat with the missing buttons adjusted",
+        "A stagehand behind the row of dusty amplifiers pulled"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The young drummer beside the towering stack of speakers lifted; The singer in the coat with the missing buttons adjusted; A stagehand behind the row of dusty amplifiers pulled). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            273
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 274
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The young drummer beside the towering stack of speakers lifted; The singer in the coat with the missing buttons adjusted; A stagehand behind the row of dusty amplifiers pulled). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                273
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 7,
+      "text": "The curator unlocked the cabinet. Her assistant unrolled the fabric. A visitor brushed the frame.",
+      "hit": true,
+      "occurrences": [
+        "The curator unlocked",
+        "Her assistant unrolled",
+        "A visitor brushed"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The curator unlocked; Her assistant unrolled; A visitor brushed). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            97
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 98
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The curator unlocked; Her assistant unrolled; A visitor brushed). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                97
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 8,
+      "text": "The curator unlocked the cabinet. The room was warm. Her assistant unrolled the fabric. A visitor brushed the frame.",
+      "hit": true,
+      "occurrences": [
+        "The curator unlocked",
+        "Her assistant unrolled",
+        "A visitor brushed"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The curator unlocked; Her assistant unrolled; A visitor brushed). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            116
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 117
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The curator unlocked; Her assistant unrolled; A visitor brushed). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                116
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 9,
+      "text": "The potter lifted the bowl. Her daughter fetched a cloth. A beetle crawled across the bench.",
+      "hit": true,
+      "occurrences": [
+        "The potter lifted",
+        "Her daughter fetched",
+        "A beetle crawled"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The potter lifted; Her daughter fetched; A beetle crawled). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            92
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 93
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The potter lifted; Her daughter fetched; A beetle crawled). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                92
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 10,
+      "text": "The ranger opened the shed. A horse nudged the fence. The visitor carried the saddle.",
+      "hit": true,
+      "occurrences": [
+        "The ranger opened",
+        "A horse nudged",
+        "The visitor carried"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The ranger opened; A horse nudged; The visitor carried). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            85
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 86
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The ranger opened; A horse nudged; The visitor carried). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                85
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "hits",
+      "i": 11,
+      "text": "The ranger did not open the shed. A horse nudged the fence. The visitor carried the saddle.",
+      "hit": true,
+      "occurrences": [
+        "The ranger did not open",
+        "A horse nudged",
+        "The visitor carried"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The ranger did not open; A horse nudged; The visitor carried). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            91
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 92
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The ranger did not open; A horse nudged; The visitor carried). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                91
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "no-hits",
+      "i": 0,
+      "text": "After the stagehand pulled the curtain, the singer adjusted the stand to leave room for the drummer and his raised sticks.",
+      "hit": false,
+      "occurrences": [],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 1,
+      "text": "The drummer lifted a stick. The singer adjusted the stand.",
+      "hit": false,
+      "occurrences": [
+        "The drummer lifted",
+        "The singer adjusted"
+      ],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 2,
+      "text": "Carrying a program, the usher helped a visitor fold her coat before the conductor tapped the rail.",
+      "hit": false,
+      "occurrences": [
+        "the usher helped"
+      ],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 3,
+      "text": "On the rail rested the program the usher had carried. Beside it lay a visitor's folded coat.",
+      "hit": false,
+      "occurrences": [
+        "rested"
+      ],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 4,
+      "text": "Water splashing against the hull made the ladder slippery, so the diver gripped it while her partner lowered the bag.",
+      "hit": false,
+      "occurrences": [],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 5,
+      "text": "The diver gripped the ladder. Water splashed against the hull. The sea was cold.",
+      "hit": false,
+      "occurrences": [
+        "The diver gripped",
+        "Water splashed",
+        "was"
+      ],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 6,
+      "text": "Close the cabinet. Fold the fabric. Replace the key.",
+      "hit": false,
+      "occurrences": [],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 7,
+      "text": "The curator asked her assistant to unroll the fabric because a visitor had brushed the frame and loosened its lining.",
+      "hit": false,
+      "occurrences": [
+        "The curator asked"
+      ],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 8,
+      "text": "Beside the cabinet lay a length of fabric. Hanging from the frame was a torn strip of its lining.",
+      "hit": false,
+      "occurrences": [],
+      "part": "evaluation",
+      "messages": []
+    },
+    {
+      "bucket": "no-hits",
+      "i": 9,
+      "text": "The fuse blew. The lights failed. The pump stopped. Water poured into the basement.",
+      "hit": true,
+      "occurrences": [
+        "The fuse blew",
+        "The lights failed",
+        "The pump stopped",
+        "Water poured"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The fuse blew; The lights failed; The pump stopped; Water poured). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            83
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 84
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The fuse blew; The lights failed; The pump stopped; Water poured). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                83
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "no-hits",
+      "i": 10,
+      "text": "Clara composed the score. Ahmed recorded the strings. Luis mixed the tracks. Ruth mastered the album.",
+      "hit": true,
+      "occurrences": [
+        "Clara composed",
+        "Ahmed recorded",
+        "Luis mixed",
+        "Ruth mastered"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (Clara composed; Ahmed recorded; Luis mixed; Ruth mastered). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            101
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 102
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (Clara composed; Ahmed recorded; Luis mixed; Ruth mastered). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                101
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    },
+    {
+      "bucket": "no-hits",
+      "i": 11,
+      "text": "The guard checked the seal. The courier signed the receipt. The clerk released the parcel.",
+      "hit": true,
+      "occurrences": [
+        "The guard checked",
+        "The courier signed",
+        "The clerk released"
+      ],
+      "part": "evaluation",
+      "messages": [
+        {
+          "type": "lint",
+          "ruleId": "/private/tmp/slopless-cadence/.fixture3/action-frozen-runtime/dist/rules/narrative-slop/flat-action-cadence.js",
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The guard checked; The courier signed; The clerk released). Review whether the repeated structure serves the passage.",
+          "index": 0,
+          "line": 1,
+          "column": 1,
+          "range": [
+            0,
+            90
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 1
+            },
+            "end": {
+              "line": 1,
+              "column": 91
+            }
+          },
+          "severity": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The guard checked; The courier signed; The clerk released). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "type": "TextlintRuleErrorPaddingLocation",
+              "isAbsolute": false,
+              "range": [
+                0,
+                90
+              ]
+            },
+            "severity": 1
+          }
+        }
+      ]
+    }
+  ],
+  "narrativeNoHitFindings": [
+    {
+      "file": "behavior/fixtures/textlint-rules/cases/narrative-slop/no-hits.md",
+      "before": 0,
+      "after": 15,
+      "lost": [],
+      "findings": [
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The porter dragged; Ana fetched; Rain dripped). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                86
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 5058,
+          "line": 135,
+          "loc": {
+            "end": {
+              "column": 87,
+              "line": 135
+            },
+            "start": {
+              "column": 1,
+              "line": 135
+            }
+          },
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The porter dragged; Ana fetched; Rain dripped). Review whether the repeated structure serves the passage.",
+          "range": [
+            5058,
+            5144
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The porter dragged the trunk inside. Ana fetched a cloth. Rain dripped onto the tiles."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The server accepts; The worker validates; The database stores; The client displays). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                133
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 5794,
+          "line": 147,
+          "loc": {
+            "end": {
+              "column": 134,
+              "line": 147
+            },
+            "start": {
+              "column": 1,
+              "line": 147
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The server accepts; The worker validates; The database stores; The client displays). Review whether the repeated structure serves the passage.",
+          "range": [
+            5794,
+            5927
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The server accepts signed requests. The worker validates each token. The database stores the result. The client displays the receipt."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 5 nearby clauses repeat subject-first structure (The migration took; We ran; Memory usage per instance dropped; Cache hit rate stabilized; Tail latency at p99 fell). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                247
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 5929,
+          "line": 149,
+          "loc": {
+            "end": {
+              "column": 248,
+              "line": 149
+            },
+            "start": {
+              "column": 1,
+              "line": 149
+            }
+          },
+          "message": "Repetitive action rhythm: 5 nearby clauses repeat subject-first structure (The migration took; We ran; Memory usage per instance dropped; Cache hit rate stabilized; Tail latency at p99 fell). Review whether the repeated structure serves the passage.",
+          "range": [
+            5929,
+            6176
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The migration took 12 hours. We ran the new cache in shadow mode for three days before cutting over. Memory usage per instance dropped from 1.8 GB to 420 MB. Cache hit rate stabilized at 96% under load. Tail latency at p99 fell from 300ms to 42ms."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We saw; We tried; some shards got; We tried). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                204
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 6178,
+          "line": 151,
+          "loc": {
+            "end": {
+              "column": 205,
+              "line": 151
+            },
+            "start": {
+              "column": 1,
+              "line": 151
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (We saw; We tried; some shards got; We tried). Review whether the repeated structure serves the passage.",
+          "range": [
+            6178,
+            6382
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "We saw lock contention in XREADGROUP with 200ms timeouts. We tried sharding the Redis streams into 16 shards. The shard imbalance was brutal: some shards got 3x the load. We tried upgrading Node.js to 20."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The porter counted; Ana fetched; The driver loaded). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                114
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 6384,
+          "line": 153,
+          "loc": {
+            "end": {
+              "column": 115,
+              "line": 153
+            },
+            "start": {
+              "column": 1,
+              "line": 153
+            }
+          },
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The porter counted; Ana fetched; The driver loaded). Review whether the repeated structure serves the passage.",
+          "range": [
+            6384,
+            6498
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The porter counted twelve crates. Ana fetched three towels. Rain soaked two sacks. The driver loaded four baskets."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The ledger contained; Nobody knew; Ana fetched; The porter opened). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                275
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 6500,
+          "line": 155,
+          "loc": {
+            "end": {
+              "column": 276,
+              "line": 155
+            },
+            "start": {
+              "column": 1,
+              "line": 155
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The ledger contained; Nobody knew; Ana fetched; The porter opened). Review whether the repeated structure serves the passage.",
+          "range": [
+            6500,
+            6775
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The ledger contained twelve names. Nobody knew whether the missing child had joined the class before or after the register was taken. Ana fetched a pencil. Although the teacher had searched every room twice, the locked cupboard still needed a key. The porter opened the gate."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The rope snapped; The crate fell; The lid broke; Glass scattered). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                82
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 6777,
+          "line": 157,
+          "loc": {
+            "end": {
+              "column": 83,
+              "line": 157
+            },
+            "start": {
+              "column": 1,
+              "line": 157
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The rope snapped; The crate fell; The lid broke; Glass scattered). Review whether the repeated structure serves the passage.",
+          "range": [
+            6777,
+            6859
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The rope snapped. The crate fell. The lid broke. Glass scattered across the floor."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (He told; He diagnosed; He told; He prescribed). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                170
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 7457,
+          "line": 178,
+          "loc": {
+            "end": {
+              "column": 171,
+              "line": 178
+            },
+            "start": {
+              "column": 1,
+              "line": 178
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (He told; He diagnosed; He told; He prescribed). Review whether the repeated structure serves the passage.",
+          "range": [
+            7457,
+            7627
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "He told me my tendons and ligaments were fine. He diagnosed a problem with my knee. He told me the inside of my knee cap had become rough. He prescribed rest and a brace."
+        },
+        {
+          "column": 10,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (the years the player spent; the number of times; the number of tries; the number of goals). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                9,
+                235
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 7638,
+          "line": 180,
+          "loc": {
+            "end": {
+              "column": 236,
+              "line": 180
+            },
+            "start": {
+              "column": 10,
+              "line": 180
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (the years the player spent; the number of times; the number of tries; the number of goals). Review whether the repeated structure serves the passage.",
+          "range": [
+            7638,
+            7864
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "the years the player spent at the team. Appearances - the number of times this player played for the team. Tries - the number of tries the player scored for the team. Goals - the number of goals the player scored for the team."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The rope snapped; The crate fell; The lid broke; Glass scattered). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                82
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 8765,
+          "line": 200,
+          "loc": {
+            "end": {
+              "column": 83,
+              "line": 200
+            },
+            "start": {
+              "column": 1,
+              "line": 200
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The rope snapped; The crate fell; The lid broke; Glass scattered). Review whether the repeated structure serves the passage.",
+          "range": [
+            8765,
+            8847
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The rope snapped. The crate fell. The lid broke. Glass scattered across the floor."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (Helen designed; David drew; Priya edited; Martin compiled). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                104
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 8849,
+          "line": 202,
+          "loc": {
+            "end": {
+              "column": 105,
+              "line": 202
+            },
+            "start": {
+              "column": 1,
+              "line": 202
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (Helen designed; David drew; Priya edited; Martin compiled). Review whether the repeated structure serves the passage.",
+          "range": [
+            8849,
+            8953
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "Helen designed the cover. David drew the diagrams. Priya edited the chapters. Martin compiled the index."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The officer stopped; The driver produced; The passenger surrendered). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                95
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 8955,
+          "line": 204,
+          "loc": {
+            "end": {
+              "column": 96,
+              "line": 204
+            },
+            "start": {
+              "column": 1,
+              "line": 204
+            }
+          },
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The officer stopped; The driver produced; The passenger surrendered). Review whether the repeated structure serves the passage.",
+          "range": [
+            8955,
+            9050
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The officer stopped the van. The driver produced a license. The passenger surrendered the keys."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The fuse blew; The lights failed; The pump stopped; Water poured). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                83
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 9903,
+          "line": 224,
+          "loc": {
+            "end": {
+              "column": 84,
+              "line": 224
+            },
+            "start": {
+              "column": 1,
+              "line": 224
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (The fuse blew; The lights failed; The pump stopped; Water poured). Review whether the repeated structure serves the passage.",
+          "range": [
+            9903,
+            9986
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The fuse blew. The lights failed. The pump stopped. Water poured into the basement."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (Clara composed; Ahmed recorded; Luis mixed; Ruth mastered). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                101
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 9988,
+          "line": 226,
+          "loc": {
+            "end": {
+              "column": 102,
+              "line": 226
+            },
+            "start": {
+              "column": 1,
+              "line": 226
+            }
+          },
+          "message": "Repetitive action rhythm: 4 nearby clauses repeat subject-first structure (Clara composed; Ahmed recorded; Luis mixed; Ruth mastered). Review whether the repeated structure serves the passage.",
+          "range": [
+            9988,
+            10089
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "Clara composed the score. Ahmed recorded the strings. Luis mixed the tracks. Ruth mastered the album."
+        },
+        {
+          "column": 1,
+          "data": {
+            "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The guard checked; The courier signed; The clerk released). Review whether the repeated structure serves the passage.",
+            "padding": {
+              "isAbsolute": false,
+              "range": [
+                0,
+                90
+              ],
+              "type": "TextlintRuleErrorPaddingLocation"
+            },
+            "severity": 1
+          },
+          "index": 10091,
+          "line": 228,
+          "loc": {
+            "end": {
+              "column": 91,
+              "line": 228
+            },
+            "start": {
+              "column": 1,
+              "line": 228
+            }
+          },
+          "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (The guard checked; The courier signed; The clerk released). Review whether the repeated structure serves the passage.",
+          "range": [
+            10091,
+            10181
+          ],
+          "ruleId": "flat-action-cadence",
+          "severity": 1,
+          "type": "lint",
+          "text": "The guard checked the seal. The courier signed the receipt. The clerk released the parcel."
+        }
+      ]
+    }
+  ],
+  "manualReview": "All 48 new labeled blocks and no-hit fixture findings; selected corpus excerpts only. Corpus counts are not counts of confirmed slop or confirmed false positives."
+}

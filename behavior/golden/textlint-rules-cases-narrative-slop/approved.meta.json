@@ -1,23 +1,23 @@
 {
   "suite": "textlint-rules-cases-narrative-slop",
   "kind": "approved",
-  "run_id": "2026-09-06T13-40-28.84422Z-b77b0da6",
-  "run_commit": "e3ad13f",
+  "run_id": "2026-09-06T17-14-01.383513Z-92575555",
+  "run_commit": "8e819a1",
   "working_tree": "dirty",
-  "recorded_at": "2026-09-06T13:40:28.84422Z",
-  "fixture_hash": "sha256:2b5387ccaafc743279319292d5179e439b71bff9b7d3dda95a084e1c91c651ba",
-  "manifest_hash": "sha256:b77b0da670219bad01853e28edd62603bed4bd31eb8f72add6dfa8feb7d3ddc1",
+  "recorded_at": "2026-09-06T17:14:01.383513Z",
+  "fixture_hash": "sha256:b80447c1edc6a9720bd467703e23ea5c5f7d51a3afcaec5147dd94cacde84d99",
+  "manifest_hash": "sha256:92575555c1d7a79f1e7e9064108b6d0ccb24ff193bb17e9eb754ec7ed0222859",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
   "fixtures": [
     {
       "path": "behavior/fixtures/textlint-rules/cases/narrative-slop/hits.md",
-      "sha256": "sha256:6d2f823227198ddd5c607822f5f35938fcb962e8afc70be6e235a85dd24a4129"
+      "sha256": "sha256:f7b9d583c655e3bebb2ce8b5fdedde691a30309bb03deefd13e00a98506a4f27"
     },
     {
       "path": "behavior/fixtures/textlint-rules/cases/narrative-slop/no-hits.md",
-      "sha256": "sha256:1ea86ff51f6f6d454603de4505f7b84b81fc3736b8f5b5a78aa9f98a4f9e4185"
+      "sha256": "sha256:181f93b274faf12800b54bd6d1fa74bfe4ee7c689bd5f3f652fdc8b993fdc326"
     }
   ],
-  "comment": "Reviewed cadence additions, retained disclosed corpus false positives, corrected fragment labels and input-dependent readability scores; no cases removed."
+  "comment": "Reviewed physical-cadence changes and restored narrative cases. Known other-rule false positives and corpus coverage losses are recorded in .plans/2026-09-06-175918-cadence-precision-results.md. Development baseline only; not release approval."
 }
