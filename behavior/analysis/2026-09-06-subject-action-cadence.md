@@ -98,6 +98,8 @@ These are legitimate examples grouped for comparison. They form the same detecta
 
 ### Verification results
 
+- All 20 Fixture3 suites pass after review and approval. Build, lint, formatting, spelling, strict type coverage, both Specular specs and G3TS pass. GitHub validation passed on Node 22 and 24.
+- A packed-CLI fixture run returned exit 127 during concurrent build work. Its isolated retry and a complete sequential rerun passed. The corpus audits and reported counts come from successful runs.
 - All 37 added preserve entries occur verbatim in their case files and corpus. All 14 new positive case messages occur in the corpus output too.
 - The packed CLI reports all three supplied passages. Installed 0.2.36 reports none.
 - On the existing 3,496-word fiction scene, total CLI findings increased from 92 to 102. Three runs gave median elapsed times of 4.43 seconds before and 4.76 seconds after. Other corpus scans were running, so these are local comparison timings, not a performance guarantee.

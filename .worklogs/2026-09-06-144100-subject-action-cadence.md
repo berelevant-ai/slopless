@@ -31,10 +31,11 @@ Extended the existing cadence rule to recognize changing subjects and verbs thro
 - Compared both changed rules on 21,305,305 human words, 184,881 generated words, 1,576,838 suspected-AI words, application fixtures and the 88,912-word expansion folder.
 - All 14 new hit paragraphs trigger. All 21 new negative/boundary blocks are clear of cadence. All 37 added preserve entries are present in cases and corpus; all 14 positive messages reproduce in corpus.
 - Packed CLI catches all three user passages; global 0.2.36 catches none. Local median runtime on the existing fiction scene increased from 4.43 to 4.76 seconds.
+- All 20 Fixture3 suites pass in a complete rerun. One earlier packed-CLI run returned exit 127 during concurrent build work; its isolated retry and the complete rerun passed. No source change was needed to obtain those passes.
+- G3TS repo and staged workspace validation report no findings. Commit hooks passed without bypasses. PR #125 passed Node 22/24 validation and both CodeQL workflows.
 
 ## Next steps
 
-- Approve reviewed Fixture3 output and confirm all 20 suites match.
-- Push the branch, pass GitHub CI on Node 22 and 24, and merge.
+- Merge PR #125 after checks pass on this verification record.
 - Publish v0.2.37 through the GitHub release workflow, install from npm and rerun the three user passages.
 - Existing stale corpus-preserve mappings remain outside this change; the new entries were verified independently.
