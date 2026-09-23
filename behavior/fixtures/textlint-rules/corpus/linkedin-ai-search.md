@@ -399,3 +399,23 @@ It became possible to make lots of new things, and sometimes the existing compan
 I've seen the difference shape the 2019 budget by 12 percent.
 
 Every winter, I keep going back to the same cabin in Lisbon.
+
+## Question frames
+
+The reply draft tried several question frames before naming the question, and the editor kept them with their controls.
+
+The right question is who owns the backlog.
+
+A better question is what the customer does next.
+
+The real question here is whether anyone reads it.
+
+The better questions are about scope.
+
+Our real problem is focus.
+
+The right answer is 42.
+
+The wrong table is loaded when the cache is warm.
+
+The main point is that the export runs nightly.

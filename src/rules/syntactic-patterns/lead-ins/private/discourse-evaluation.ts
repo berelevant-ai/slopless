@@ -1,3 +1,4 @@
+import { matchEvaluativeFrame } from "./evaluative-frame.js";
 import { matchEvaluativeObjectFrame } from "./evaluative-object-frame.js";
 export { matchReactionFrame } from "./reaction-frame.js";
 
@@ -6,7 +7,6 @@ const DISCOURSE_WORK_TAILS = [
   ["doing", "real", "work"],
   ["load", "bearing"]
 ] as const;
-const DETERMINERS = new Set(["a", "an", "the", "this", "that"]);
 const DEICTIC_OPENERS = new Set(["here", "this", "that"]);
 const DEICTIC_CONTRACTIONS = new Map([
   ["here's", "here"],
@@ -54,7 +54,8 @@ const DEICTIC_DISCOURSE_NOUNS = new Set([
   "thing",
   "twist"
 ]);
-const FRAME_ADJECTIVES = new Set([
+export const FRAME_ADJECTIVES = new Set([
+  "actual",
   "basic",
   "best",
   "better",
@@ -63,21 +64,34 @@ const FRAME_ADJECTIVES = new Set([
   "central",
   "clearest",
   "core",
+  "correct",
+  "deeper",
   "easiest",
   "final",
   "first",
+  "hard",
+  "harder",
   "hardest",
   "honest",
   "important",
+  "interesting",
+  "key",
   "main",
   "only",
   "obvious",
   "practical",
   "real",
+  "right",
+  "sharper",
   "simple",
-  "useful"
+  "smarter",
+  "tricky",
+  "uncomfortable",
+  "underlying",
+  "useful",
+  "wrong"
 ]);
-const FRAME_NOUNS = new Set([
+export const FRAME_NOUNS = new Set([
   "answer",
   "approach",
   "audit",
@@ -263,21 +277,6 @@ function matchVagueFrameLocation(words: readonly string[]): string | undefined {
     VAGUE_FRAME_VERBS.has(verb ?? "") &&
     VAGUE_FRAME_LOCATIONS.has(location ?? "")
     ? `the-${adjective ?? "useful"}-${noun ?? "frame"}-${verb ?? "starts"}-${location ?? "here"}`
-    : undefined;
-}
-
-function matchEvaluativeFrame(words: readonly string[]): string | undefined {
-  const [first, adjective, noun, verb] = words;
-
-  return first !== undefined &&
-    adjective !== undefined &&
-    noun !== undefined &&
-    verb !== undefined &&
-    DETERMINERS.has(first) &&
-    FRAME_ADJECTIVES.has(adjective) &&
-    FRAME_NOUNS.has(noun) &&
-    ["is", "are", "was"].includes(verb)
-    ? `the-${adjective}-${noun}-${verb}`
     : undefined;
 }
 

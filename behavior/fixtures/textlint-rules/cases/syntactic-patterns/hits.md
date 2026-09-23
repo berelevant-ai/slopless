@@ -1809,3 +1809,13 @@ That's why we care about defaults.
 Which is why they fail in production.
 
 At its core, this is a trust problem.
+
+The right question is who owns the backlog.
+
+A better question is what the customer does next.
+
+The real question here is whether anyone reads it.
+
+The better questions are about scope.
+
+Our real problem is focus.

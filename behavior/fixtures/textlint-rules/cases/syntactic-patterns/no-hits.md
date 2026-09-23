@@ -888,3 +888,9 @@ In the end, the jury acquitted him.
 In short, no, hard-to-pronounce names do not break immersion.
 
 This is why we suggest a coach because the first year is the hardest.
+
+The right answer is 42.
+
+The wrong table is loaded when the cache is warm.
+
+The main point is that the export runs nightly.
