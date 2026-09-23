@@ -211,6 +211,19 @@ function matchBroaderMovement(words: readonly string[]): boolean {
   });
 }
 
+const SHAPED_PERIOD_NOUNS = new Set([
+  "budget",
+  "career",
+  "careers",
+  "decade",
+  "decision",
+  "decisions",
+  "outcome",
+  "outcomes",
+  "quarter",
+  "year"
+]);
+
 function matchShapingMovement(words: readonly string[]): boolean {
   return words.some((word, index) => {
     if (!["shape", "shaped", "shapes", "shaping"].includes(word)) {
@@ -222,17 +235,20 @@ function matchShapingMovement(words: readonly string[]): boolean {
         "broader",
         "cultural",
         "emerging",
+        "entire",
         "evolving",
         "future",
         "global",
         "modern",
         "regional",
-        "social"
+        "social",
+        "whole"
       ].includes(words[nounIndex] ?? "")
     ) {
       nounIndex += 1;
     }
-    return MOVEMENT_NOUNS.has(words[nounIndex] ?? "");
+    const noun = words[nounIndex] ?? "";
+    return MOVEMENT_NOUNS.has(noun) || SHAPED_PERIOD_NOUNS.has(noun);
   });
 }
 

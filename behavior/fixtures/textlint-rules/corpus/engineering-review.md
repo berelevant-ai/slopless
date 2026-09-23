@@ -1395,3 +1395,77 @@ The harder part is usually not counting products because the catalog defines bun
 The index is usually not available during the rebuild. The status page records the maintenance window.
 
 The index is usually not available when the nightly rebuild runs. It is restored by the deployment job at 04:00.
+
+## Evidence and limitation notes
+
+The review log kept the following lines from study summaries, incident write-ups, and reply drafts.
+
+The study compared 14 landing pages. It did not include the 312 returning customers.
+
+Our analysis covered the checkout funnel. It does not establish which change drove the lift.
+
+The paper modeled rainfall through 2019. It does not cover the 2021 floods.
+
+The model predicted demand for the next quarter. It cannot settle the staffing plan.
+
+The findings informed our rubric. They also changed how we score take-home tasks.
+
+Their survey informed the redesign. It cannot settle the debate about navigation.
+
+The review covered studies published before 2018. Newer trials are not represented.
+
+The study measured recall after a week. It doesn't guarantee retention.
+
+The study measured recall after seven days. Results do not apply if participants took notes.
+
+That guidance showed one acceptable format. It will not decide your structure.
+
+The model estimated risk at portfolio level. It cannot price an individual loan until the servicer supplies payment history.
+
+The paper predicted the failure mode. It does not guarantee the fix.
+
+The research measured blood pressure at home and in clinic. Home readings averaged 6 points lower.
+
+The study compared the two curricula. It doesn't answer which teacher effects mattered.
+
+The meta-analysis pooled 12 trials. Two of them used a different endpoint, so the authors ran a sensitivity check.
+
+Does it run on Linux? It does run on Linux, and the installer is on the releases page.
+
+The manual does not describe the failure. It does mention the warning light.
+
+Did she send the invoice? She did send it, on March 3, to the Berlin office.
+
+She didn't say the word out loud. She did write it down.
+
+The rule does not apply to contractors if their engagement runs under 90 days.
+
+That answer does not settle the argument. It does reframe it.
+
+I don't recommend the shortcut. It skips validation, so malformed rows reach the database.
+
+The library does not support streaming. It does, however, expose a callback.
+
+The update does not change the API. Version 3.1 is a drop-in replacement.
+
+Does aspirin help here? It does help if the pain is inflammatory, not if it is neuropathic.
+
+The doctor did not order a scan because the symptoms resolved within 48 hours.
+
+The migration did not delete anything. It did rename two columns.
+
+Does the license allow commercial use? It does allow it, provided you publish attribution.
+
+This works. That saves a step.
+
+The study measured outcomes in 240 patients. It did not include anyone on dialysis.
+
+Does the plugin support Safari? It does support Safari 16 and later.
+
+The package arrived on Tuesday, not Monday, and the seal was broken.
+
+Her first client offered a lesson in scope, which was to bill for revisions after the second round.
+
+Every spring I keep coming back to the same stretch of river.
+
+The ask is a 20-minute call with your operations lead.

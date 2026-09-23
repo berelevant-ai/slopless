@@ -5,6 +5,10 @@
   "matchMode": "contains",
   "maxTokens": 36,
   "templates": [
+    {
+      "text": "{bareSubject} {bareSignificanceVerb}.",
+      "matchMode": "full"
+    },
     "{deicticSubject} {significanceVerb} {intensifier}.",
     "{summarySubject} {linkingVerb} {importanceComplement}.",
     "the {thinModifier} {summaryNoun} {linkingVerb} {weakJudgment}.",
@@ -204,6 +208,43 @@
       "in the end",
       "after all",
       "a lot"
+    ],
+    "bareSubject": [
+      "that",
+      "this",
+      "it",
+      "that part",
+      "this part",
+      "that difference",
+      "this difference",
+      "the difference",
+      "the distinction",
+      "that distinction",
+      "this distinction",
+      "the detail",
+      "that detail",
+      "this detail",
+      "the gap",
+      "that gap",
+      "this gap",
+      "the order",
+      "the timing",
+      "the framing",
+      "the wording"
+    ],
+    "bareSignificanceVerb": [
+      "matters",
+      "mattered",
+      "counts",
+      "counted",
+      "sticks",
+      "stuck",
+      "lasts",
+      "lasted",
+      "lands",
+      "landed",
+      "holds",
+      "held"
     ]
   },
   "rejectIf": [
@@ -218,16 +259,22 @@
     "The result was what mattered.",
     "The lesson is the part that sticks.",
     "That one change helped a lot.",
-    "The answer was the real work."
+    "The answer was the real work.",
+    "That mattered.",
+    "The difference mattered.",
+    "The distinction matters."
   ],
   "negativeExamples": [
     "The patched offset mapper changed every reported range in the fixture.",
     "That mattered because it removed the last failing repayment case.",
     "The result was a 14 percent drop in missed appointments.",
-    "The lesson is to initialize the parser before reading paragraph offsets."
+    "The lesson is to initialize the parser before reading paragraph offsets.",
+    "This works. That helps.",
+    "That mattered because it removed the last failing repayment case."
   ],
   "notes": [
     "This overlaps with existing syntactic-pattern rules and should be reviewed before activation.",
-    "This pattern needs previous-sentence referent checks."
+    "This pattern needs previous-sentence referent checks.",
+    "The bare template excludes helps/works on purpose: 'This works. That helps.' is a preserved no-hit."
   ]
 }

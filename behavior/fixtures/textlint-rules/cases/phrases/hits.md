@@ -463,3 +463,9 @@ The modular plugin system redefines the boundaries of what third-party developer
 The dashboard paints a vivid picture of where users drop off in the checkout flow.
 
 Better observability holds the key to reducing recovery time during incidents.
+
+The audit brought that choice into focus for me.
+
+Reading the transcript brought her hesitation into sharp relief.
+
+The customer's email brought the confusion into focus.

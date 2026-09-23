@@ -12,23 +12,41 @@ const MAX_PER_DOCUMENT = 2;
 
 const EMPHATIC_INTRANSITIVE_VERBS = new Set([
   "matters",
+  "mattered",
   "counts",
+  "counted",
   "helps",
+  "helped",
   "works",
+  "worked",
   "fails",
+  "failed",
   "hurts",
+  "hurt",
   "sticks",
+  "stuck",
   "lasts",
+  "lasted",
   "applies",
+  "applied",
   "holds",
+  "held",
   "wins",
+  "won",
   "dies",
+  "died",
   "burns",
+  "burned",
   "stops",
+  "stopped",
   "ends",
+  "ended",
   "begins",
+  "began",
   "remains",
-  "follows"
+  "remained",
+  "follows",
+  "followed"
 ]);
 
 const DEMONSTRATIVE_SUBJECTS = new Set(["that", "this", "these", "those"]);
@@ -77,6 +95,17 @@ const STOP_WORD_NEXT_WORD = new Set([
 ]);
 
 const LEADING_PREFIXES = ["so ", "but ", "and ", "however, ", "however "];
+// "That matters when marketing leaders decide budgets.": the emphatic verb is
+// followed by a subordinate tail that names the occasion, not the reason.
+const SUBORDINATE_TAILS = new Set(["when", "whenever", "where"]);
+// Definite subjects ("the difference mattered") only count with significance
+// verbs; "The pump stopped." is an event, not emphasis.
+const SIGNIFICANCE_VERBS = new Set([
+  "matters",
+  "mattered",
+  "counts",
+  "counted"
+]);
 
 function normalizeText(text: string): string {
   let normalized = "";
@@ -113,20 +142,30 @@ function stripLeadingPrefix(text: string): string {
 function classifyDemonstrativeEmphaticVerb(
   tokens: readonly string[]
 ): string | undefined {
-  if (tokens.length < 3 || tokens.length > 5) {
+  const subject = tokens[0] ?? "";
+  if (tokens.length < 3 || !DEFINITE_DETERMINERS.has(subject)) {
     return undefined;
   }
 
-  if (!DEMONSTRATIVE_SUBJECTS.has(tokens[0] ?? "")) {
+  const verbs = DEMONSTRATIVE_SUBJECTS.has(subject)
+    ? EMPHATIC_INTRANSITIVE_VERBS
+    : SIGNIFICANCE_VERBS;
+  const verbIndex = tokens.findIndex(
+    (token, index) => index >= 1 && index <= 4 && verbs.has(token)
+  );
+  if (verbIndex < 1) {
     return undefined;
   }
 
-  const last = tokens[tokens.length - 1];
-  if (last === undefined || !EMPHATIC_INTRANSITIVE_VERBS.has(last)) {
-    return undefined;
+  if (verbIndex === tokens.length - 1) {
+    return tokens.length <= 5 ? "demonstrative-emphatic-verb" : undefined;
   }
 
-  return "demonstrative-emphatic-verb";
+  const tail = tokens[verbIndex + 1] ?? "";
+  return SUBORDINATE_TAILS.has(tail) ||
+    (tail === "for" && SIGNIFICANCE_VERBS.has(tokens[verbIndex] ?? ""))
+    ? "demonstrative-emphatic-verb-clause"
+    : undefined;
 }
 
 function classifyDemonstrativeRelative(

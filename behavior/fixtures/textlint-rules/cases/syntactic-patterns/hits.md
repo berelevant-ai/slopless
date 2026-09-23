@@ -1689,3 +1689,95 @@ The harder part is usually not counting products. It is resolving how many diffe
 The difficult question is really not choosing a parser. It is deciding which malformed inputs the parser must reject.
 
 The useful work is actually not writing more checks. It is defining the boundary each check must enforce.
+
+I keep coming back to advice about word counts.
+
+That matters when marketing leaders decide budgets. The difference mattered. The distinction matters.
+
+The study compared existing pages using a prediction model. It did not establish a causal link.
+
+Its findings can inform a test. They cannot settle the word count for every page.
+
+Google's own requirements offer a useful corrective.
+
+That guidance does not speak for every AI system. It does, however, rule out presenting a mandatory formatting rewrite as a requirement Google has set.
+
+Our client's experience left me with a simple priority.
+
+Marketing budgets should pay for problems we can demonstrate, not rules we can merely count.
+
+It is not a failure, it is a signal.
+
+Our analysis covered the checkout funnel. It does not establish which change drove the lift.
+
+The model predicted demand for the next quarter. It cannot settle the staffing plan.
+
+Their survey informed the redesign. It cannot settle the debate about navigation.
+
+The study measured recall after a week. It doesn't guarantee retention.
+
+That guidance showed one acceptable format. It will not decide your structure.
+
+The paper predicted the failure mode. It does not guarantee the fix.
+
+The study compared the two curricula. It doesn't answer which teacher effects mattered.
+
+The manual does not describe the failure. It does mention the warning light.
+
+She didn't say the word out loud. She did write it down.
+
+That answer does not settle the argument. It does reframe it.
+
+The library does not support streaming. It does, however, expose a callback.
+
+The migration did not delete anything. It did rename two columns.
+
+Teach the child in front of you, not the child in the parenting book.
+
+Answer the question the customer asked, not the question you prepared for.
+
+Train for the race you entered, not the race you imagined.
+
+Choose the tool your team understands, not the tool the conference praised.
+
+Trust the data you collected, not the data you were shown.
+
+Keep the rule that prevents harm, not the rule that prevents embarrassment.
+
+It is not a compromise, it is a choice.
+
+Her resume offers a useful test.
+
+That conversation left him with an awkward question.
+
+Reading the transcripts left us with a plain takeaway.
+
+The support queue offers a reliable lens.
+
+That mistake taught me a lasting filter.
+
+The merger left employees with an unsettling question.
+
+The benchmark results bring a sobering takeaway.
+
+I keep coming back to the way that meeting ended.
+
+I keep landing on the same conclusion about our pricing.
+
+I keep circling back to the phrase in the contract.
+
+I keep coming back to the shape of that argument.
+
+I keep landing on the same worry about scale.
+
+I keep circling back to why the pilot stalled.
+
+I keep coming back to the moment the demo froze.
+
+I keep landing on the same uncomfortable comparison.
+
+We didn't rewrite the page. We did, though, change the heading.
+
+Fund the teams that ship, not the teams that present.
+
+Her first client offered a hard lesson.

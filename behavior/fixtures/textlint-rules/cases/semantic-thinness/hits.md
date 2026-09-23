@@ -471,3 +471,41 @@ The content is the source of truth.
 So the feed is the product now.
 
 That's the shift.
+
+I've seen that difference shape a whole quarter.
+
+The difference mattered.
+
+The distinction matters.
+
+That is the whole ask.
+
+We rebuilt the onboarding flow over two weekends and shipped it on a Tuesday. That mattered.
+
+The timing counts.
+
+The difference matters when regulators look at the filing.
+
+The detail matters for anyone reading the label.
+
+The gap lasted.
+
+The timing holds.
+
+The distinction matters when auditors reconstruct the sequence.
+
+We want one change to the intake form. That is the whole ask.
+
+That is the whole point.
+
+That is the entire bet.
+
+This is the entire point.
+
+Say what you mean in the first line. That's the whole ask.
+
+The distinction mattered.
+
+The timing sticks.
+
+That's the whole bet.

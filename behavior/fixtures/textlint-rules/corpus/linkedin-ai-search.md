@@ -243,3 +243,133 @@ Literal stillness uses a different grammar. The service remains still during cal
 Plain recommendations omit the repeated modifier. The service should respond after failover. The client should retry once. The proxy should preserve the trace ID.
 
 A separate release note uses one intensifier: the migration actually finished ahead of schedule.
+
+## Word count advice review
+
+A later draft argued with a word count vendor and collected the sentences below while editing the reply.
+
+I keep coming back to advice about word counts.
+
+That matters when marketing leaders decide budgets. The difference mattered. The distinction matters.
+
+I've seen that difference shape a whole quarter.
+
+The difference mattered.
+
+The distinction matters.
+
+The audit brought that choice into focus for me.
+
+The study compared existing pages using a prediction model. It did not establish a causal link.
+
+Its findings can inform a test. They cannot settle the word count for every page.
+
+Google's own requirements offer a useful corrective.
+
+That guidance does not speak for every AI system. It does, however, rule out presenting a mandatory formatting rewrite as a requirement Google has set.
+
+Our client's experience left me with a simple priority.
+
+Marketing budgets should pay for problems we can demonstrate, not rules we can merely count.
+
+It is not a failure, it is a signal.
+
+That is the whole ask.
+
+We rebuilt the onboarding flow over two weekends and shipped it on a Tuesday. That mattered.
+
+The timing counts.
+
+That mattered enough that the judge ordered a new hearing.
+
+Run the migration first. It works on Postgres 15 and later.
+
+The difference matters when regulators look at the filing.
+
+That counts as a full day under the policy, so you accrue eight hours.
+
+The detail matters for anyone reading the label.
+
+The order of the arguments matters because the parser is positional.
+
+The gap lasted.
+
+It matters that the sample was drawn before treatment began.
+
+The timing holds.
+
+That sticks to the pan unless you preheat the oil.
+
+The distinction matters when auditors reconstruct the sequence.
+
+That holds only while the lock is active.
+
+The invoice was sent to the Berlin office, not the Hamburg office, on March 3.
+
+Teach the child in front of you, not the child in the parenting book.
+
+Not only did the build fail, it failed silently on three runners.
+
+Answer the question the customer asked, not the question you prepared for.
+
+Not all of the 400 rows are duplicates; 62 are.
+
+Train for the race you entered, not the race you imagined.
+
+Not just the frontend broke; the queue worker stopped consuming too.
+
+Choose the tool your team understands, not the tool the conference praised.
+
+The deadline is the 15th, not the 30th.
+
+Trust the data you collected, not the data you were shown.
+
+Keep the rule that prevents harm, not the rule that prevents embarrassment.
+
+The tenant pays for water, not heating, under this lease.
+
+It is not a compromise, it is a choice.
+
+The refund goes to the original card, not store credit.
+
+Turn the ring until the reticle comes into focus.
+
+We want one change to the intake form. That is the whole ask.
+
+The microscope came into focus at 400x magnification.
+
+That is the whole point.
+
+The request is simple: approve the invoice so the vendor can start Monday.
+
+Reading the transcript brought her hesitation into sharp relief.
+
+Our bet is on the enterprise tier, which we priced at 2,400 dollars a year.
+
+That is the entire bet.
+
+Focus the beam on the sample and record the reading at 10 seconds.
+
+This is the entire point.
+
+The board's ask was a revised forecast by the 20th.
+
+The customer's email brought the confusion into focus.
+
+The whole bet rests on one supplier keeping the 14-day lead time.
+
+Say what you mean in the first line. That's the whole ask.
+
+Set the diopter first, then focus on a distant object.
+
+The distinction mattered.
+
+The timing sticks.
+
+We didn't rewrite the page. We did, though, change the heading.
+
+Fund the teams that ship, not the teams that present.
+
+Her first client offered a hard lesson.
+
+That's the whole bet.

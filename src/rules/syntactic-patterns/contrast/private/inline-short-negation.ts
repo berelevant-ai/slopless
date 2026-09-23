@@ -10,6 +10,10 @@ import {
   words
 } from "./negation-reframe-parts.js";
 export { matchesInlineSemicolonReframe } from "./inline-semicolon-reframe.js";
+export {
+  hasParallelCommaContrast,
+  inlineCommaCopularReframe
+} from "./parallel-comma-contrast.js";
 
 export function inlineNotJustCopularReframe(
   sentence: SplitSentence,
