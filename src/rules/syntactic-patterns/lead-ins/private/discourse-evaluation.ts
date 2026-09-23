@@ -1,3 +1,4 @@
+import { matchEvaluativeObjectFrame } from "./evaluative-object-frame.js";
 export { matchReactionFrame } from "./reaction-frame.js";
 
 const ABSTRACT_FRAME_VERBS = ["is", "are", "was", "were"];
@@ -335,7 +336,8 @@ export function matchExpandedDiscourseFrame(
     matchDeicticEvaluativeFrame(text, words) ??
     matchWorthAttentionFrame(words) ??
     matchVagueFrameLocation(words) ??
-    matchEvaluativeFrame(words)
+    matchEvaluativeFrame(words) ??
+    matchEvaluativeObjectFrame(words)
   );
 }
 

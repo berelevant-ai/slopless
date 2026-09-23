@@ -416,8 +416,6 @@ That the review proves fraud is disputed. It says little about motive.
 
 The study demonstrates lower mortality. It provides no evidence that the treatment is safe.
 
-The report confirms the backup completed. It says little about restore time.
-
 The review confirms the parcel arrived. It provides no evidence that the contents were undamaged.
 
 The input is a CSV file.
@@ -780,3 +778,95 @@ The index is usually not available when the nightly rebuild runs. It is restored
 Open the cupboard. Fetch a clean cup. Pour the milk slowly. Replace the lid firmly.
 
 The server accepts signed requests. The worker validates each token. The database stores the result. The client displays the receipt.
+
+The study compared 14 landing pages. It did not include the 312 returning customers.
+
+The paper modeled rainfall through 2019. It does not cover the 2021 floods.
+
+The findings informed our rubric. They also changed how we score take-home tasks.
+
+The review covered studies published before 2018. Newer trials are not represented.
+
+The study measured recall after seven days. Results do not apply if participants took notes.
+
+The model estimated risk at portfolio level. It cannot price an individual loan until the servicer supplies payment history.
+
+The research measured blood pressure at home and in clinic. Home readings averaged 6 points lower.
+
+The meta-analysis pooled 12 trials. Two of them used a different endpoint, so the authors ran a sensitivity check.
+
+Does it run on Linux? It does run on Linux, and the installer is on the releases page.
+
+Did she send the invoice? She did send it, on March 3, to the Berlin office.
+
+The rule does not apply to contractors if their engagement runs under 90 days.
+
+I don't recommend the shortcut. It skips validation, so malformed rows reach the database.
+
+The update does not change the API. Version 3.1 is a drop-in replacement.
+
+Does aspirin help here? It does help if the pain is inflammatory, not if it is neuropathic.
+
+The doctor did not order a scan because the symptoms resolved within 48 hours.
+
+Does the license allow commercial use? It does allow it, provided you publish attribution.
+
+The invoice was sent to the Berlin office, not the Hamburg office, on March 3.
+
+Not only did the build fail, it failed silently on three runners.
+
+Not all of the 400 rows are duplicates; 62 are.
+
+Not just the frontend broke; the queue worker stopped consuming too.
+
+The deadline is the 15th, not the 30th.
+
+The tenant pays for water, not heating, under this lease.
+
+The refund goes to the original card, not store credit.
+
+The nurse handed me a printed reminder with the 8 a.m. dose circled.
+
+Her resume offers a useful test: she shipped three products and named the metric for each.
+
+The teacher gave every student a printed reminder about Friday's field trip.
+
+Their pricing page offers an answer to the most common objection, which is the setup fee.
+
+The first draft gave me a better heuristic: cut every adverb in the first paragraph.
+
+The merger left 40 employees with an offer to relocate to Dublin.
+
+The benchmark results bring one number worth remembering: 12,000 writes per second.
+
+The pilot program gave the district a rule it adopted in September: no screens before third grade.
+
+Every winter I keep coming back to the same cabin.
+
+I have thought about this for three weeks and the answer is to cancel the contract.
+
+I noticed the same error in three logs, so I checked the load balancer.
+
+Most mornings I keep going back to bed for twenty minutes after the alarm.
+
+Patients keep coming back to the clinic with the same rash after using that soap.
+
+She keeps thinking about the interview, and she has not slept well since.
+
+I keep circling the block because there is no parking on that street.
+
+My editor keeps returning to the same paragraph, and she wants it cut.
+
+This works. That saves a step.
+
+The study measured outcomes in 240 patients. It did not include anyone on dialysis.
+
+Does the plugin support Safari? It does support Safari 16 and later.
+
+The package arrived on Tuesday, not Monday, and the seal was broken.
+
+Her first client offered a lesson in scope, which was to bill for revisions after the second round.
+
+Every spring I keep coming back to the same stretch of river.
+
+The ask is a 20-minute call with your operations lead.

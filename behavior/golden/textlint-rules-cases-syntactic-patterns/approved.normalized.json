@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 53.55. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 53.65. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 12.8. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.73. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -923,6 +923,29 @@
         "type": "lint"
       },
       {
+        "column": 66,
+        "index": 1969,
+        "line": 73,
+        "loc": {
+          "end": {
+            "column": 87,
+            "line": 73
+          },
+          "start": {
+            "column": 66,
+            "line": 73
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          1969,
+          1990
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 1,
         "index": 1992,
         "line": 75,
@@ -965,6 +988,29 @@
           2010
         ],
         "ruleId": "empty-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1992,
+        "line": 75,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 75
+          },
+          "start": {
+            "column": 1,
+            "line": 75
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          1992,
+          2010
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -1429,6 +1475,29 @@
         "type": "lint"
       },
       {
+        "column": 1,
+        "index": 4245,
+        "line": 147,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 147
+          },
+          "start": {
+            "column": 1,
+            "line": 147
+          }
+        },
+        "message": "Negation reframe found: \"Call it “v0.” Your job is to make it exist, not to make it impressive.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          4245,
+          4315
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 9,
         "index": 4253,
         "line": 147,
@@ -1775,6 +1844,29 @@
       },
       {
         "column": 1,
+        "index": 6884,
+        "line": 207,
+        "loc": {
+          "end": {
+            "column": 145,
+            "line": 207
+          },
+          "start": {
+            "column": 1,
+            "line": 207
+          }
+        },
+        "message": "Negation reframe found: \"If attention concerns are serious, persistent, and affecting school or daily life, screens may be one piece of the puzzle, not the whole puzzle.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          6884,
+          7028
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 7118,
         "line": 211,
         "loc": {
@@ -1867,6 +1959,29 @@
       },
       {
         "column": 1,
+        "index": 8322,
+        "line": 237,
+        "loc": {
+          "end": {
+            "column": 81,
+            "line": 237
+          },
+          "start": {
+            "column": 1,
+            "line": 237
+          }
+        },
+        "message": "Negation reframe found: \"The goal is to become someone who returns quickly, not someone who never misses.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          8322,
+          8402
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 8404,
         "line": 239,
         "loc": {
@@ -1936,6 +2051,29 @@
       },
       {
         "column": 1,
+        "index": 9577,
+        "line": 261,
+        "loc": {
+          "end": {
+            "column": 132,
+            "line": 261
+          },
+          "start": {
+            "column": 1,
+            "line": 261
+          }
+        },
+        "message": "Negation reframe found: \"Benzodiazepines can lower anxiety quickly, but they carry dependence risk and are generally short-term tools, not a long-term plan.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          9577,
+          9708
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 9853,
         "line": 265,
         "loc": {
@@ -1998,6 +2136,29 @@
         "range": [
           10163,
           10375
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 10377,
+        "line": 273,
+        "loc": {
+          "end": {
+            "column": 83,
+            "line": 273
+          },
+          "start": {
+            "column": 1,
+            "line": 273
+          }
+        },
+        "message": "Negation reframe found: \"That matters because consistency is mostly a cue problem, not a character problem.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          10377,
+          10459
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -2097,6 +2258,52 @@
       },
       {
         "column": 1,
+        "index": 11117,
+        "line": 293,
+        "loc": {
+          "end": {
+            "column": 215,
+            "line": 293
+          },
+          "start": {
+            "column": 1,
+            "line": 293
+          }
+        },
+        "message": "Negation reframe found: \"You can spend eight hours under the covers and still wake up feeling like you lost a fight with a pillow, because the problem is often sleep quality, sleep timing, or an underlying condition, not just sleep length.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          11117,
+          11331
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11333,
+        "line": 295,
+        "loc": {
+          "end": {
+            "column": 79,
+            "line": 295
+          },
+          "start": {
+            "column": 1,
+            "line": 295
+          }
+        },
+        "message": "Negation reframe found: \"They remember the time they got into bed, not the time they were truly asleep.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          11333,
+          11411
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 11698,
         "line": 305,
         "loc": {
@@ -2182,6 +2389,29 @@
         "range": [
           12573,
           12707
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12889,
+        "line": 331,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 331
+          },
+          "start": {
+            "column": 1,
+            "line": 331
+          }
+        },
+        "message": "Negation reframe found: \"Restart on the next action, not the next mood.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          12889,
+          12935
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -2366,6 +2596,29 @@
         "range": [
           14171,
           14257
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 14259,
+        "line": 373,
+        "loc": {
+          "end": {
+            "column": 96,
+            "line": 373
+          },
+          "start": {
+            "column": 1,
+            "line": 373
+          }
+        },
+        "message": "Negation reframe found: \"They asked questions that revealed what was happening, not what everyone wished were happening.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          14259,
+          14354
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -9705,6 +9958,29 @@
           44018
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 59,
+        "index": 43994,
+        "line": 881,
+        "loc": {
+          "end": {
+            "column": 83,
+            "line": 881
+          },
+          "start": {
+            "column": 59,
+            "line": 881
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          43994,
+          44018
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -19931,6 +20207,1225 @@
         "ruleId": "negation-reframe",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70003,
+        "line": 1693,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 1693
+          },
+          "start": {
+            "column": 1,
+            "line": 1693
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          70003,
+          70050
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70052,
+        "line": 1695,
+        "loc": {
+          "end": {
+            "column": 52,
+            "line": 1695
+          },
+          "start": {
+            "column": 1,
+            "line": 1695
+          }
+        },
+        "message": "Demonstrative emphasis found: \"That matters when marketing leaders decide budgets.\". Reduce repeated short emphasis lines.",
+        "range": [
+          70052,
+          70103
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 53,
+        "index": 70104,
+        "line": 1695,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 1695
+          },
+          "start": {
+            "column": 53,
+            "line": 1695
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The difference mattered.\". Reduce repeated short emphasis lines.",
+        "range": [
+          70104,
+          70128
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 53,
+        "index": 70104,
+        "line": 1695,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 1695
+          },
+          "start": {
+            "column": 53,
+            "line": 1695
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          70104,
+          70128
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 78,
+        "index": 70129,
+        "line": 1695,
+        "loc": {
+          "end": {
+            "column": 102,
+            "line": 1695
+          },
+          "start": {
+            "column": 78,
+            "line": 1695
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The distinction matters.\". Reduce repeated short emphasis lines.",
+        "range": [
+          70129,
+          70153
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 78,
+        "index": 70129,
+        "line": 1695,
+        "loc": {
+          "end": {
+            "column": 102,
+            "line": 1695
+          },
+          "start": {
+            "column": 78,
+            "line": 1695
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          70129,
+          70153
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70155,
+        "line": 1697,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 1697
+          },
+          "start": {
+            "column": 1,
+            "line": 1697
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          70155,
+          70214
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70252,
+        "line": 1699,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 1699
+          },
+          "start": {
+            "column": 1,
+            "line": 1699
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          70252,
+          70283
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70335,
+        "line": 1701,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1701
+          },
+          "start": {
+            "column": 1,
+            "line": 1701
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-useful-corrective. Replace the frame with the concrete claim.",
+        "range": [
+          70335,
+          70387
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70389,
+        "line": 1703,
+        "loc": {
+          "end": {
+            "column": 152,
+            "line": 1703
+          },
+          "start": {
+            "column": 1,
+            "line": 1703
+          }
+        },
+        "message": "Negation reframe found: \"That guidance does not speak for every AI system. It does, however, rule out presenting a mandatory formatting rewrite as a requirement Google has set.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          70389,
+          70540
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70542,
+        "line": 1705,
+        "loc": {
+          "end": {
+            "column": 56,
+            "line": 1705
+          },
+          "start": {
+            "column": 1,
+            "line": 1705
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-simple-priority. Replace the frame with the concrete claim.",
+        "range": [
+          70542,
+          70597
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70599,
+        "line": 1707,
+        "loc": {
+          "end": {
+            "column": 93,
+            "line": 1707
+          },
+          "start": {
+            "column": 1,
+            "line": 1707
+          }
+        },
+        "message": "Negation reframe found: \"Marketing budgets should pay for problems we can demonstrate, not rules we can merely count.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          70599,
+          70691
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70693,
+        "line": 1709,
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 1709
+          },
+          "start": {
+            "column": 1,
+            "line": 1709
+          }
+        },
+        "message": "Negation reframe found: \"It is not a failure, it is a signal.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          70693,
+          70729
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70731,
+        "line": 1711,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1711
+          },
+          "start": {
+            "column": 1,
+            "line": 1711
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          70731,
+          70772
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70825,
+        "line": 1713,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1713
+          },
+          "start": {
+            "column": 1,
+            "line": 1713
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          70825,
+          70873
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70911,
+        "line": 1715,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 1715
+          },
+          "start": {
+            "column": 1,
+            "line": 1715
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          70911,
+          70946
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 70994,
+        "line": 1717,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1717
+          },
+          "start": {
+            "column": 1,
+            "line": 1717
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          70994,
+          71033
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71067,
+        "line": 1719,
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 1719
+          },
+          "start": {
+            "column": 1,
+            "line": 1719
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          71067,
+          71110
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71147,
+        "line": 1721,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1721
+          },
+          "start": {
+            "column": 1,
+            "line": 1721
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          71147,
+          71184
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71217,
+        "line": 1723,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1723
+          },
+          "start": {
+            "column": 1,
+            "line": 1723
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          71217,
+          71254
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71306,
+        "line": 1725,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 1725
+          },
+          "start": {
+            "column": 1,
+            "line": 1725
+          }
+        },
+        "message": "Negation reframe found: \"The manual does not describe the failure. It does mention the warning light.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71306,
+          71382
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71384,
+        "line": 1727,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 1727
+          },
+          "start": {
+            "column": 1,
+            "line": 1727
+          }
+        },
+        "message": "Negation reframe found: \"She didn't say the word out loud. She did write it down.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71384,
+          71440
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71442,
+        "line": 1729,
+        "loc": {
+          "end": {
+            "column": 62,
+            "line": 1729
+          },
+          "start": {
+            "column": 1,
+            "line": 1729
+          }
+        },
+        "message": "Negation reframe found: \"That answer does not settle the argument. It does reframe it.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71442,
+          71503
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71505,
+        "line": 1731,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 1731
+          },
+          "start": {
+            "column": 1,
+            "line": 1731
+          }
+        },
+        "message": "Negation reframe found: \"The library does not support streaming. It does, however, expose a callback.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71505,
+          71581
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71583,
+        "line": 1733,
+        "loc": {
+          "end": {
+            "column": 66,
+            "line": 1733
+          },
+          "start": {
+            "column": 1,
+            "line": 1733
+          }
+        },
+        "message": "Negation reframe found: \"The migration did not delete anything. It did rename two columns.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71583,
+          71648
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71650,
+        "line": 1735,
+        "loc": {
+          "end": {
+            "column": 70,
+            "line": 1735
+          },
+          "start": {
+            "column": 1,
+            "line": 1735
+          }
+        },
+        "message": "Negation reframe found: \"Teach the child in front of you, not the child in the parenting book.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71650,
+          71719
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71721,
+        "line": 1737,
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 1737
+          },
+          "start": {
+            "column": 1,
+            "line": 1737
+          }
+        },
+        "message": "Negation reframe found: \"Answer the question the customer asked, not the question you prepared for.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71721,
+          71795
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71797,
+        "line": 1739,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 1739
+          },
+          "start": {
+            "column": 1,
+            "line": 1739
+          }
+        },
+        "message": "Negation reframe found: \"Train for the race you entered, not the race you imagined.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71797,
+          71855
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71857,
+        "line": 1741,
+        "loc": {
+          "end": {
+            "column": 76,
+            "line": 1741
+          },
+          "start": {
+            "column": 1,
+            "line": 1741
+          }
+        },
+        "message": "Negation reframe found: \"Choose the tool your team understands, not the tool the conference praised.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71857,
+          71932
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71934,
+        "line": 1743,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 1743
+          },
+          "start": {
+            "column": 1,
+            "line": 1743
+          }
+        },
+        "message": "Negation reframe found: \"Trust the data you collected, not the data you were shown.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71934,
+          71992
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 71994,
+        "line": 1745,
+        "loc": {
+          "end": {
+            "column": 76,
+            "line": 1745
+          },
+          "start": {
+            "column": 1,
+            "line": 1745
+          }
+        },
+        "message": "Negation reframe found: \"Keep the rule that prevents harm, not the rule that prevents embarrassment.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          71994,
+          72069
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72071,
+        "line": 1747,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1747
+          },
+          "start": {
+            "column": 1,
+            "line": 1747
+          }
+        },
+        "message": "Negation reframe found: \"It is not a compromise, it is a choice.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          72071,
+          72110
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72112,
+        "line": 1749,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 1749
+          },
+          "start": {
+            "column": 1,
+            "line": 1749
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-useful-test. Replace the frame with the concrete claim.",
+        "range": [
+          72112,
+          72144
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72146,
+        "line": 1751,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1751
+          },
+          "start": {
+            "column": 1,
+            "line": 1751
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-awkward-question. Replace the frame with the concrete claim.",
+        "range": [
+          72146,
+          72198
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72200,
+        "line": 1753,
+        "loc": {
+          "end": {
+            "column": 55,
+            "line": 1753
+          },
+          "start": {
+            "column": 1,
+            "line": 1753
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-plain-takeaway. Replace the frame with the concrete claim.",
+        "range": [
+          72200,
+          72254
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72256,
+        "line": 1755,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1755
+          },
+          "start": {
+            "column": 1,
+            "line": 1755
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-reliable-lens. Replace the frame with the concrete claim.",
+        "range": [
+          72256,
+          72297
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72299,
+        "line": 1757,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 1757
+          },
+          "start": {
+            "column": 1,
+            "line": 1757
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-lasting-filter. Replace the frame with the concrete claim.",
+        "range": [
+          72299,
+          72339
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72341,
+        "line": 1759,
+        "loc": {
+          "end": {
+            "column": 55,
+            "line": 1759
+          },
+          "start": {
+            "column": 1,
+            "line": 1759
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-unsettling-question. Replace the frame with the concrete claim.",
+        "range": [
+          72341,
+          72395
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72397,
+        "line": 1761,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1761
+          },
+          "start": {
+            "column": 1,
+            "line": 1761
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-sobering-takeaway. Replace the frame with the concrete claim.",
+        "range": [
+          72397,
+          72445
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72447,
+        "line": 1763,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 1763
+          },
+          "start": {
+            "column": 1,
+            "line": 1763
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          72447,
+          72496
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72498,
+        "line": 1765,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 1765
+          },
+          "start": {
+            "column": 1,
+            "line": 1765
+          }
+        },
+        "message": "Boilerplate framing found: i keep landing on. Start with the specific point.",
+        "range": [
+          72498,
+          72554
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72556,
+        "line": 1767,
+        "loc": {
+          "end": {
+            "column": 52,
+            "line": 1767
+          },
+          "start": {
+            "column": 1,
+            "line": 1767
+          }
+        },
+        "message": "Boilerplate framing found: i keep circling back to. Start with the specific point.",
+        "range": [
+          72556,
+          72607
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72609,
+        "line": 1769,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 1769
+          },
+          "start": {
+            "column": 1,
+            "line": 1769
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          72609,
+          72658
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72660,
+        "line": 1771,
+        "loc": {
+          "end": {
+            "column": 46,
+            "line": 1771
+          },
+          "start": {
+            "column": 1,
+            "line": 1771
+          }
+        },
+        "message": "Boilerplate framing found: i keep landing on. Start with the specific point.",
+        "range": [
+          72660,
+          72705
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72707,
+        "line": 1773,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1773
+          },
+          "start": {
+            "column": 1,
+            "line": 1773
+          }
+        },
+        "message": "Boilerplate framing found: i keep circling back to. Start with the specific point.",
+        "range": [
+          72707,
+          72753
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72755,
+        "line": 1775,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1775
+          },
+          "start": {
+            "column": 1,
+            "line": 1775
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          72755,
+          72803
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72805,
+        "line": 1777,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1777
+          },
+          "start": {
+            "column": 1,
+            "line": 1777
+          }
+        },
+        "message": "Boilerplate framing found: i keep landing on. Start with the specific point.",
+        "range": [
+          72805,
+          72857
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72859,
+        "line": 1779,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 1779
+          },
+          "start": {
+            "column": 1,
+            "line": 1779
+          }
+        },
+        "message": "Negation reframe found: \"We didn't rewrite the page. We did, though, change the heading.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          72859,
+          72922
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72924,
+        "line": 1781,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 1781
+          },
+          "start": {
+            "column": 1,
+            "line": 1781
+          }
+        },
+        "message": "Negation reframe found: \"Fund the teams that ship, not the teams that present.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          72924,
+          72977
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 72979,
+        "line": 1783,
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1783
+          },
+          "start": {
+            "column": 1,
+            "line": 1783
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-hard-lesson. Replace the frame with the concrete claim.",
+        "range": [
+          72979,
+          73018
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73020,
+        "line": 1785,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1785
+          },
+          "start": {
+            "column": 1,
+            "line": 1785
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          73020,
+          73061
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73098,
+        "line": 1787,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 1787
+          },
+          "start": {
+            "column": 1,
+            "line": 1787
+          }
+        },
+        "message": "Negation reframe found: \"The update does not change the API. It does alter the defaults.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          73098,
+          73161
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73163,
+        "line": 1789,
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 1789
+          },
+          "start": {
+            "column": 1,
+            "line": 1789
+          }
+        },
+        "message": "Negation reframe found: \"The school does not require uniforms. It does enforce a dress code.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          73163,
+          73230
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -19951,7 +21446,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 52.23. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 51.31. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -19974,7 +21469,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 13.31. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 13.65. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -20020,22 +21515,22 @@
           },
           "severity": 2
         },
-        "index": 24116,
-        "line": 689,
+        "index": 24038,
+        "line": 687,
         "loc": {
           "end": {
             "column": 100,
-            "line": 689
+            "line": 687
           },
           "start": {
             "column": 1,
-            "line": 689
+            "line": 687
           }
         },
         "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Kendall looked; he looked; he picked). Review whether the repeated structure serves the passage.",
         "range": [
-          24116,
-          24215
+          24038,
+          24137
         ],
         "ruleId": "flat-action-cadence",
         "severity": 2,
@@ -20043,22 +21538,22 @@
       },
       {
         "column": 9,
-        "index": 24124,
-        "line": 689,
+        "index": 24046,
+        "line": 687,
         "loc": {
           "end": {
             "column": 49,
-            "line": 689
+            "line": 687
           },
           "start": {
             "column": 9,
-            "line": 689
+            "line": 687
           }
         },
         "message": "Perception verb density: 2 perception verbs in a short span (looked).",
         "range": [
-          24124,
-          24164
+          24046,
+          24086
         ],
         "ruleId": "perception-verb-density",
         "severity": 2,

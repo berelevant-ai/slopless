@@ -3,6 +3,7 @@ import {
   tokens,
   tokensContainInOrder
 } from "../../../shared/matchers/prose-patterns.js";
+import { wordTokens } from "../../../shared/text/tokens.js";
 import { oneToOneRule } from "../../private/textlint-rule-builders.js";
 
 const PREFIXES = ["however, ", "but ", "and ", "so ", "that being said, "];
@@ -79,6 +80,58 @@ const FILLER_OPENERS = [
   "this is the important part",
   "we are at an inflection point"
 ];
+// First-person reflective openers that announce a return to a thought instead
+// of stating it: "I keep coming back to advice about ...". Literal returns
+// ("I keep going back to the pharmacy because ...", "... to Lisbon") carry a
+// place name or a causal or temporal clause and are skipped.
+const REFLECTIVE_OPENERS = [
+  "i keep coming back to",
+  "i keep returning to",
+  "i keep circling back to",
+  "i keep going back to",
+  "i keep landing on",
+  "i keep thinking about"
+];
+const LITERAL_RETURN_MARKERS = new Set(["because", "since", "until", "which"]);
+const MONTHS = new Set([
+  "january",
+  "february",
+  "march",
+  "april",
+  "may",
+  "june",
+  "july",
+  "august",
+  "september",
+  "october",
+  "november",
+  "december"
+]);
+
+function hasProperName(sentence: string): boolean {
+  return wordTokens(sentence).some(
+    (token, index) =>
+      index > 0 &&
+      token.text !== "I" &&
+      token.text[0] !== undefined &&
+      token.text[0] >= "A" &&
+      token.text[0] <= "Z" &&
+      !MONTHS.has(token.normalized)
+  );
+}
+
+function matchReflectiveOpener(
+  sentence: string,
+  lowered: string,
+  words: readonly string[]
+): string | undefined {
+  const opener = REFLECTIVE_OPENERS.find((item) => lowered.startsWith(item));
+  return opener !== undefined &&
+    !words.some((word) => LITERAL_RETURN_MARKERS.has(word)) &&
+    !hasProperName(sentence)
+    ? opener
+    : undefined;
+}
 
 function matchEnumerationPreface(words: readonly string[]): string | undefined {
   if (
@@ -147,7 +200,9 @@ function matchBoilerplateFraming(sentence: string): string[] {
     matches.push(starter);
   }
 
-  const filler = FILLER_OPENERS.find((opener) => lowered.startsWith(opener));
+  const filler =
+    FILLER_OPENERS.find((opener) => lowered.startsWith(opener)) ??
+    matchReflectiveOpener(sentence, lowered, words);
   if (filler !== undefined) {
     matches.push(filler);
   }

@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 15.11. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 15. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -542.91. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -257.39. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 245.89. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 133.24. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -4870,7 +4870,7 @@
       {
         "column": 15,
         "data": {
-          "message": "\"quietly\" used 6 times (3.3 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 6 times (3.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -4893,7 +4893,7 @@
             "line": 361
           }
         },
-        "message": "\"quietly\" used 6 times (3.3 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 6 times (3.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           8978,
           8985
@@ -5221,6 +5221,29 @@
           9455
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 9457,
+        "line": 389,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 389
+          },
+          "start": {
+            "column": 1,
+            "line": 389
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The structural shift matters.\". Reduce repeated short emphasis lines.",
+        "range": [
+          9457,
+          9486
+        ],
+        "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
       },
@@ -6536,6 +6559,581 @@
         "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11565,
+        "line": 475,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 475
+          },
+          "start": {
+            "column": 1,
+            "line": 475
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} shapes the {movementNoun}",
+        "range": [
+          11565,
+          11613
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11615,
+        "line": 477,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 477
+          },
+          "start": {
+            "column": 1,
+            "line": 477
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The difference mattered.\". Reduce repeated short emphasis lines.",
+        "range": [
+          11615,
+          11639
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11615,
+        "line": 477,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 477
+          },
+          "start": {
+            "column": 1,
+            "line": 477
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          11615,
+          11639
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11641,
+        "line": 479,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 479
+          },
+          "start": {
+            "column": 1,
+            "line": 479
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The distinction matters.\". Reduce repeated short emphasis lines.",
+        "range": [
+          11641,
+          11665
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11641,
+        "line": 479,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 479
+          },
+          "start": {
+            "column": 1,
+            "line": 479
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          11641,
+          11665
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11667,
+        "line": 481,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 481
+          },
+          "start": {
+            "column": 1,
+            "line": 481
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          11667,
+          11689
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 79,
+        "index": 11769,
+        "line": 483,
+        "loc": {
+          "end": {
+            "column": 93,
+            "line": 483
+          },
+          "start": {
+            "column": 79,
+            "line": 483
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          11769,
+          11783
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11785,
+        "line": 485,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 485
+          },
+          "start": {
+            "column": 1,
+            "line": 485
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The timing counts.\". Reduce repeated short emphasis lines.",
+        "range": [
+          11785,
+          11803
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11785,
+        "line": 485,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 485
+          },
+          "start": {
+            "column": 1,
+            "line": 485
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          11785,
+          11803
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11805,
+        "line": 487,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 487
+          },
+          "start": {
+            "column": 1,
+            "line": 487
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The difference matters when regulators look at the filing.\". Reduce repeated short emphasis lines.",
+        "range": [
+          11805,
+          11863
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11865,
+        "line": 489,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 489
+          },
+          "start": {
+            "column": 1,
+            "line": 489
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The detail matters for anyone reading the label.\". Reduce repeated short emphasis lines.",
+        "range": [
+          11865,
+          11913
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11915,
+        "line": 491,
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 491
+          },
+          "start": {
+            "column": 1,
+            "line": 491
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          11915,
+          11930
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11932,
+        "line": 493,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 493
+          },
+          "start": {
+            "column": 1,
+            "line": 493
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          11932,
+          11949
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11951,
+        "line": 495,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 495
+          },
+          "start": {
+            "column": 1,
+            "line": 495
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The distinction matters when auditors reconstruct the sequence.\". Reduce repeated short emphasis lines.",
+        "range": [
+          11951,
+          12014
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 40,
+        "index": 12055,
+        "line": 497,
+        "loc": {
+          "end": {
+            "column": 62,
+            "line": 497
+          },
+          "start": {
+            "column": 40,
+            "line": 497
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          12055,
+          12077
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12079,
+        "line": 499,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 499
+          },
+          "start": {
+            "column": 1,
+            "line": 499
+          }
+        },
+        "message": "Formula affirmation found: \"That is the whole point.\". Replace the empty formula line with substance.",
+        "range": [
+          12079,
+          12103
+        ],
+        "ruleId": "affirmation-closers",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12079,
+        "line": 499,
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 499
+          },
+          "start": {
+            "column": 1,
+            "line": 499
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          12079,
+          12103
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12105,
+        "line": 501,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 501
+          },
+          "start": {
+            "column": 1,
+            "line": 501
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          12105,
+          12128
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12130,
+        "line": 503,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 503
+          },
+          "start": {
+            "column": 1,
+            "line": 503
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          12130,
+          12155
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 38,
+        "index": 12194,
+        "line": 505,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 505
+          },
+          "start": {
+            "column": 38,
+            "line": 505
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          12194,
+          12215
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12217,
+        "line": 507,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 507
+          },
+          "start": {
+            "column": 1,
+            "line": 507
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The distinction mattered.\". Reduce repeated short emphasis lines.",
+        "range": [
+          12217,
+          12242
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12217,
+        "line": 507,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 507
+          },
+          "start": {
+            "column": 1,
+            "line": 507
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          12217,
+          12242
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12244,
+        "line": 509,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 509
+          },
+          "start": {
+            "column": 1,
+            "line": 509
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
+        "range": [
+          12244,
+          12262
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12264,
+        "line": 511,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 511
+          },
+          "start": {
+            "column": 1,
+            "line": 511
+          }
+        },
+        "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticCopula} the {evaluativeAdjective} {summaryNoun}.",
+        "range": [
+          12264,
+          12285
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12287,
+        "line": 513,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 513
+          },
+          "start": {
+            "column": 1,
+            "line": 513
+          }
+        },
+        "message": "Demonstrative emphasis found: \"That counts when hiring managers read the first page.\". Reduce repeated short emphasis lines.",
+        "range": [
+          12287,
+          12340
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -6556,7 +7154,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 13.43. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 13.26. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -6579,7 +7177,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -2246.45. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -1152.79. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -6602,7 +7200,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 919.54. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 488.45. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -6706,7 +7304,7 @@
       {
         "column": 11,
         "data": {
-          "message": "\"quietly\" used 5 times (2.2 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 5 times (2 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -6729,7 +7327,7 @@
             "line": 299
           }
         },
-        "message": "\"quietly\" used 5 times (2.2 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 5 times (2 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           9496,
           9503

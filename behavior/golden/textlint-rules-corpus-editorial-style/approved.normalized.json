@@ -16,7 +16,7 @@
             "line": 3
           }
         },
-        "message": "Coleman-Liau is 14.74. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.57. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 39.26. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 38.15. Keep it at 61 or higher.",
         "range": [
           26,
           27
@@ -62,7 +62,7 @@
             "line": 3
           }
         },
-        "message": "Gunning Fog is 12.43. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.8. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -2230,6 +2230,29 @@
           9749
         ],
         "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 9752,
+        "line": 305,
+        "loc": {
+          "end": {
+            "column": 69,
+            "line": 305
+          },
+          "start": {
+            "column": 1,
+            "line": 305
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} shapes the {movementNoun}",
+        "range": [
+          9752,
+          9820
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -9217,7 +9240,7 @@
       {
         "column": 112,
         "data": {
-          "message": "\"quietly\" used 128 times (16.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 128 times (15.4 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -9240,7 +9263,7 @@
             "line": 809
           }
         },
-        "message": "\"quietly\" used 128 times (16.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 128 times (15.4 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           30791,
           30798
@@ -15871,6 +15894,351 @@
           53062
         ],
         "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 53278,
+        "line": 1264,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 1264
+          },
+          "start": {
+            "column": 1,
+            "line": 1264
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-useful-test. Replace the frame with the concrete claim.",
+        "range": [
+          53278,
+          53310
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 53404,
+        "line": 1268,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1268
+          },
+          "start": {
+            "column": 1,
+            "line": 1268
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-awkward-question. Replace the frame with the concrete claim.",
+        "range": [
+          53404,
+          53456
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 53536,
+        "line": 1272,
+        "loc": {
+          "end": {
+            "column": 55,
+            "line": 1272
+          },
+          "start": {
+            "column": 1,
+            "line": 1272
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-plain-takeaway. Replace the frame with the concrete claim.",
+        "range": [
+          53536,
+          53590
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 53683,
+        "line": 1276,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1276
+          },
+          "start": {
+            "column": 1,
+            "line": 1276
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-reliable-lens. Replace the frame with the concrete claim.",
+        "range": [
+          53683,
+          53724
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 53812,
+        "line": 1280,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 1280
+          },
+          "start": {
+            "column": 1,
+            "line": 1280
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-lasting-filter. Replace the frame with the concrete claim.",
+        "range": [
+          53812,
+          53852
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 53921,
+        "line": 1284,
+        "loc": {
+          "end": {
+            "column": 55,
+            "line": 1284
+          },
+          "start": {
+            "column": 1,
+            "line": 1284
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-unsettling-question. Replace the frame with the concrete claim.",
+        "range": [
+          53921,
+          53975
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54062,
+        "line": 1288,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1288
+          },
+          "start": {
+            "column": 1,
+            "line": 1288
+          }
+        },
+        "message": "Generic signposting found: evaluative-object-sobering-takeaway. Replace the frame with the concrete claim.",
+        "range": [
+          54062,
+          54110
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54212,
+        "line": 1292,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 1292
+          },
+          "start": {
+            "column": 1,
+            "line": 1292
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          54212,
+          54261
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54315,
+        "line": 1296,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 1296
+          },
+          "start": {
+            "column": 1,
+            "line": 1296
+          }
+        },
+        "message": "Boilerplate framing found: i keep landing on. Start with the specific point.",
+        "range": [
+          54315,
+          54371
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54458,
+        "line": 1300,
+        "loc": {
+          "end": {
+            "column": 52,
+            "line": 1300
+          },
+          "start": {
+            "column": 1,
+            "line": 1300
+          }
+        },
+        "message": "Boilerplate framing found: i keep circling back to. Start with the specific point.",
+        "range": [
+          54458,
+          54509
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54584,
+        "line": 1304,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 1304
+          },
+          "start": {
+            "column": 1,
+            "line": 1304
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          54584,
+          54633
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54711,
+        "line": 1308,
+        "loc": {
+          "end": {
+            "column": 46,
+            "line": 1308
+          },
+          "start": {
+            "column": 1,
+            "line": 1308
+          }
+        },
+        "message": "Boilerplate framing found: i keep landing on. Start with the specific point.",
+        "range": [
+          54711,
+          54756
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54841,
+        "line": 1312,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1312
+          },
+          "start": {
+            "column": 1,
+            "line": 1312
+          }
+        },
+        "message": "Boilerplate framing found: i keep circling back to. Start with the specific point.",
+        "range": [
+          54841,
+          54887
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 54964,
+        "line": 1316,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1316
+          },
+          "start": {
+            "column": 1,
+            "line": 1316
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          54964,
+          55012
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55085,
+        "line": 1320,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1320
+          },
+          "start": {
+            "column": 1,
+            "line": 1320
+          }
+        },
+        "message": "Boilerplate framing found: i keep landing on. Start with the specific point.",
+        "range": [
+          55085,
+          55137
+        ],
+        "ruleId": "boilerplate-framing",
         "severity": 2,
         "type": "lint"
       }

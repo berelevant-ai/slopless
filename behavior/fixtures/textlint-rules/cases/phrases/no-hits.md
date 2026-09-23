@@ -115,3 +115,9 @@ The product manual says the device works with next-generation CPUs.
 The customer-centric coordinate system uses the customer point as the origin.
 
 The witness said the team moved forward after the door opened.
+
+Turn the ring until the reticle comes into focus.
+
+The microscope came into focus at 400x magnification.
+
+Set the diopter first, then focus on a distant object.

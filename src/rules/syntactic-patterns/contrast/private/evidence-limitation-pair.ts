@@ -1,12 +1,24 @@
+import { hasConcreteCorrectionEvidence } from "../../../../shared/matchers/concrete-evidence.js";
 import {
   cleanSentence,
   tokens
 } from "../../../../shared/matchers/prose-patterns.js";
+import {
+  CONTRACTED_NEGATED_LIMIT_AUXILIARIES,
+  EVIDENCE_ASSERTION_VERBS,
+  LIMITATION_CLAUSE_CONNECTORS,
+  LIMITATION_REPORTING_VERBS,
+  LIMITATION_VERDICT_VERBS,
+  NEGATED_LIMIT_AUXILIARIES
+} from "./evidence-limitation-vocabulary.js";
 
 const PREFIXES = ["and ", "but ", "so "];
 const SIMPLE_SUBJECT_STARTERS = new Set([
   "a",
   "an",
+  "her",
+  "his",
+  "its",
   "my",
   "our",
   "that",
@@ -18,6 +30,9 @@ const SIMPLE_SUBJECT_STARTERS = new Set([
   "your"
 ]);
 const EVIDENCE_PROXY_HEADS = new Set([
+  "analysis",
+  "audit",
+  "audits",
   "award",
   "awards",
   "benchmark",
@@ -28,46 +43,78 @@ const EVIDENCE_PROXY_HEADS = new Set([
   "comments",
   "dashboard",
   "dashboards",
+  "data",
   "demo",
   "demos",
+  "evidence",
   "example",
   "examples",
+  "experiment",
+  "experiments",
+  "findings",
+  "guidance",
   "metric",
   "metrics",
+  "model",
+  "models",
   "number",
   "numbers",
+  "paper",
+  "papers",
   "rating",
   "ratings",
+  "report",
+  "reports",
+  "research",
+  "result",
+  "results",
   "review",
   "reviews",
+  "sample",
   "score",
   "scores",
   "screenshot",
   "screenshots",
   "signal",
   "signals",
+  "studies",
+  "study",
   "survey",
   "surveys",
   "testimonial",
-  "testimonials"
+  "testimonials",
+  "trial",
+  "trials"
 ]);
 const PLURAL_EVIDENCE_PROXY_HEADS = new Set([
+  "audits",
   "awards",
+  "datasets",
   "benchmarks",
   "cases",
   "comments",
   "dashboards",
+  "dataset",
+  "datasets",
   "demos",
   "examples",
+  "experiments",
+  "findings",
   "metrics",
+  "models",
   "numbers",
+  "papers",
   "ratings",
+  "reports",
+  "results",
   "reviews",
   "scores",
   "screenshots",
   "signals",
+  "studies",
   "surveys",
-  "testimonials"
+  "testimonials",
+  "trials"
 ]);
 const COMPLEX_SUBJECT_MARKERS = new Set([
   "about",
@@ -105,103 +152,6 @@ const EVIDENCE_AUXILIARIES = new Set([
   "might",
   "will",
   "would"
-]);
-const EVIDENCE_ASSERTION_VERBS = new Set([
-  "confirm",
-  "confirmed",
-  "confirms",
-  "demonstrate",
-  "demonstrated",
-  "demonstrates",
-  "document",
-  "documented",
-  "documents",
-  "establish",
-  "established",
-  "establishes",
-  "imply",
-  "implied",
-  "implies",
-  "indicate",
-  "indicated",
-  "indicates",
-  "prove",
-  "proved",
-  "proven",
-  "proves",
-  "reveal",
-  "revealed",
-  "reveals",
-  "show",
-  "showed",
-  "shown",
-  "shows",
-  "signal",
-  "signaled",
-  "signalled",
-  "signals",
-  "suggest",
-  "suggested",
-  "suggests",
-  "support",
-  "supported",
-  "supports",
-  "tell",
-  "told",
-  "validate",
-  "validated",
-  "validates",
-  "verified",
-  "verifies",
-  "verify"
-]);
-const LIMITATION_REPORTING_VERBS = new Set([
-  "communicate",
-  "communicated",
-  "communicates",
-  "convey",
-  "conveyed",
-  "conveys",
-  "demonstrate",
-  "demonstrated",
-  "demonstrates",
-  "establish",
-  "established",
-  "establishes",
-  "explain",
-  "explained",
-  "explains",
-  "indicate",
-  "indicated",
-  "indicates",
-  "offer",
-  "offered",
-  "offers",
-  "provide",
-  "provided",
-  "provides",
-  "prove",
-  "proved",
-  "proves",
-  "reveal",
-  "revealed",
-  "reveals",
-  "say",
-  "said",
-  "says",
-  "show",
-  "showed",
-  "shows",
-  "signal",
-  "signaled",
-  "signalled",
-  "signals",
-  "suggest",
-  "suggested",
-  "suggests",
-  "tell",
-  "told",
-  "tells"
 ]);
 const LIMITATION_AUXILIARIES = new Set(["did", "does"]);
 const CONTRACTED_LIMITATION_AUXILIARIES = new Set(["didn't", "doesn't"]);
@@ -335,6 +285,43 @@ function hasLowInformationLimitation(
   });
 }
 
+function negatedVerdictObjectStart(words: readonly string[]): number {
+  const auxiliary = words[1] ?? "";
+  if (CONTRACTED_NEGATED_LIMIT_AUXILIARIES.has(auxiliary)) {
+    return LIMITATION_VERDICT_VERBS.has(words[2] ?? "") ? 3 : -1;
+  }
+  return NEGATED_LIMIT_AUXILIARIES.has(auxiliary) &&
+    words[2] === "not" &&
+    LIMITATION_VERDICT_VERBS.has(words[3] ?? "")
+    ? 4
+    : -1;
+}
+
+// "data" takes singular or plural pronouns, so it is number-agnostic.
+function hasNegatedAbstractLimitation(
+  text: string,
+  words: readonly string[],
+  pluralSubject: boolean | undefined
+): boolean {
+  const pronoun = words[0] ?? "";
+  const pluralPronoun = ["these", "they", "those"].includes(pronoun);
+  if (
+    !LIMITATION_PRONOUNS.has(pronoun) ||
+    (pluralSubject !== undefined && pluralPronoun !== pluralSubject)
+  ) {
+    return false;
+  }
+
+  const objectStart = negatedVerdictObjectStart(words);
+  const object = objectStart < 0 ? [] : words.slice(objectStart);
+  return (
+    object.length > 0 &&
+    !object.some((word) => LIMITATION_CLAUSE_CONNECTORS.has(word)) &&
+    ![...text].some((character) => character >= "0" && character <= "9") &&
+    !hasConcreteCorrectionEvidence(text)
+  );
+}
+
 export function matchEvidenceLimitationPair(
   first: string,
   second: string
@@ -342,11 +329,16 @@ export function matchEvidenceLimitationPair(
   const firstWords = tokens(cleanSentence(first, PREFIXES));
   const secondWords = tokens(cleanSentence(second, PREFIXES));
   const subjectHead = evidenceSubjectHead(firstWords);
+  if (subjectHead === undefined) {
+    return undefined;
+  }
 
-  return subjectHead !== undefined &&
-    hasLowInformationLimitation(
+  const pluralSubject = PLURAL_EVIDENCE_PROXY_HEADS.has(subjectHead);
+  return hasLowInformationLimitation(secondWords, pluralSubject) ||
+    hasNegatedAbstractLimitation(
+      cleanSentence(second, PREFIXES),
       secondWords,
-      PLURAL_EVIDENCE_PROXY_HEADS.has(subjectHead)
+      subjectHead === "data" ? undefined : pluralSubject
     )
     ? "evidence-limitation-pair"
     : undefined;

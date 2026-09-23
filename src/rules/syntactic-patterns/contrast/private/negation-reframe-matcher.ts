@@ -24,11 +24,14 @@ import {
 import { hasInlineContrastConnectorAfterNegation } from "./inline-contrast-connector.js";
 import { inlineNotBecauseReframe } from "./inline-not-because-reframe.js";
 import {
+  hasParallelCommaContrast,
+  inlineCommaCopularReframe,
   matchesInlineSemicolonReframe,
   inlineNotJustCopularReframe,
   inlineShortNegatedBeat
 } from "./inline-short-negation.js";
 import {
+  emphaticDoReframe,
   hasNegativeSlopPairSignal,
   matchSequenceReframe,
   negatedActionPronounPayoff,
@@ -71,12 +74,9 @@ const ACTION_PAIR_CONNECTORS = new Set([
 function inlineSemicolonEvaluativeReframe(
   sentence: SplitSentence
 ): NegationReframeMatch | undefined {
-  return matchesInlineSemicolonReframe(sentence.text)
-    ? {
-        end: sentence.end,
-        start: sentence.start,
-        text: sentence.text
-      }
+  return matchesInlineSemicolonReframe(sentence.text) ||
+    inlineCommaCopularReframe(sentence)
+    ? { end: sentence.end, start: sentence.start, text: sentence.text }
     : undefined;
 }
 
@@ -129,6 +129,7 @@ function inlineNegationContrast(
   // successor"), which was the dominant false-positive source in the audit.
   return !hasConcreteCorrectionEvidence(sentence.text) &&
     (hasAbstractCommaContrast(sentence, tokens, negation.start) ||
+      hasParallelCommaContrast(sentence, tokens, negationIndex) ||
       (hasInlineContrastConnectorAfterNegation(tokens, negationIndex) &&
         hasAbstractNegationPayoff(tokens)))
     ? {
@@ -301,6 +302,7 @@ function sentencePairReframe(
     makeMeaningReframe(aTokens, bTokens) ||
     needReframe(aTokens, bTokens) ||
     actionVerbMirror(aTokens, bTokens) ||
+    emphaticDoReframe(aTokens, bTokens, pairText) ||
     negatedActionPronounPayoff(aTokens, bTokens) ||
     negativeSlopReframe(aTokens, bTokens) ||
     (shouldReportCopularReframe(aTokens, bTokens, pairText) &&

@@ -11,6 +11,7 @@ export {
   startsWithNegatedPronounCopula
 } from "./copular-reframe.js";
 export { matchSequenceReframe } from "./sequence-reframes.js";
+export { emphaticDoReframe } from "./emphatic-do-reframe.js";
 import {
   ACTION_NEGATIONS,
   EXPLICIT_DO_AUXILIARIES,

@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -2363.52. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -2389.91. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 963.08. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 973.48. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -873,6 +873,29 @@
           2547
         ],
         "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2550,
+        "line": 77,
+        "loc": {
+          "end": {
+            "column": 69,
+            "line": 77
+          },
+          "start": {
+            "column": 1,
+            "line": 77
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} shapes the {movementNoun}",
+        "range": [
+          2550,
+          2618
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -5889,6 +5912,75 @@
         "ruleId": "cliches",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 11,
+        "index": 15060,
+        "line": 467,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 467
+          },
+          "start": {
+            "column": 11,
+            "line": 467
+          }
+        },
+        "message": "Cliche found: \"brought that choice into focus\". Replace it with specific wording.",
+        "range": [
+          15060,
+          15090
+        ],
+        "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 47,
+        "index": 15146,
+        "line": 469,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 469
+          },
+          "start": {
+            "column": 47,
+            "line": 469
+          }
+        },
+        "message": "Cliche found: \"into sharp relief\". Replace it with specific wording.",
+        "range": [
+          15146,
+          15163
+        ],
+        "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 22,
+        "index": 15187,
+        "line": 471,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 471
+          },
+          "start": {
+            "column": 22,
+            "line": 471
+          }
+        },
+        "message": "Cliche found: \"brought the confusion into focus\". Replace it with specific wording.",
+        "range": [
+          15187,
+          15219
+        ],
+        "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -5932,7 +6024,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -55. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -60.48. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -5955,7 +6047,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 52.99. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 55.26. Keep it at 12 or lower.",
         "range": [
           0,
           1
