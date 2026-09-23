@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 15. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.88. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -257.39. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -265.51. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 133.24. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 136.35. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -4939,7 +4939,7 @@
       {
         "column": 15,
         "data": {
-          "message": "\"quietly\" used 6 times (3.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 6 times (3 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -4962,7 +4962,7 @@
             "line": 361
           }
         },
-        "message": "\"quietly\" used 6 times (3.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 6 times (3 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           8978,
           8985
@@ -6861,6 +6861,29 @@
       },
       {
         "column": 1,
+        "index": 11805,
+        "line": 487,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 487
+          },
+          "start": {
+            "column": 1,
+            "line": 487
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          11805,
+          11863
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 11865,
         "line": 489,
         "loc": {
@@ -6879,6 +6902,29 @@
           11913
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11865,
+        "line": 489,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 489
+          },
+          "start": {
+            "column": 1,
+            "line": 489
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          11865,
+          11913
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -6948,6 +6994,29 @@
           12014
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11951,
+        "line": 495,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 495
+          },
+          "start": {
+            "column": 1,
+            "line": 495
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          11951,
+          12014
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -7203,6 +7272,167 @@
         "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12287,
+        "line": 513,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 513
+          },
+          "start": {
+            "column": 1,
+            "line": 513
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          12287,
+          12340
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12342,
+        "line": 515,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 515
+          },
+          "start": {
+            "column": 1,
+            "line": 515
+          }
+        },
+        "message": "Demonstrative emphasis found: \"That matters when marketing leaders choose what to do next.\". Reduce repeated short emphasis lines.",
+        "range": [
+          12342,
+          12401
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12342,
+        "line": 515,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 515
+          },
+          "start": {
+            "column": 1,
+            "line": 515
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          12342,
+          12401
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12403,
+        "line": 517,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 517
+          },
+          "start": {
+            "column": 1,
+            "line": 517
+          }
+        },
+        "message": "Semantic thinness (vague-threshold-change): Catch vague threshold or evaluation changes without named scale, cause, or concrete state. Matched template: {effortAux} more {effortNoun} to {findVerb}",
+        "range": [
+          12403,
+          12462
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12464,
+        "line": 519,
+        "loc": {
+          "end": {
+            "column": 65,
+            "line": 519
+          },
+          "start": {
+            "column": 1,
+            "line": 519
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {witness} {deicticSubject} {abstractNoun} {shapeVerb}",
+        "range": [
+          12464,
+          12528
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12530,
+        "line": 521,
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 521
+          },
+          "start": {
+            "column": 1,
+            "line": 521
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {witness} {abstractNoun} {shapeVerb}",
+        "range": [
+          12530,
+          12572
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12574,
+        "line": 523,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 523
+          },
+          "start": {
+            "column": 1,
+            "line": 523
+          }
+        },
+        "message": "Semantic thinness (vague-threshold-change): Catch vague threshold or evaluation changes without named scale, cause, or concrete state. Matched template: {effortAux} {comparativeEffort} to {findVerb}",
+        "range": [
+          12574,
+          12607
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -7223,7 +7453,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 13.26. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 13.2. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -7246,7 +7476,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -1152.79. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -1181.72. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -7269,7 +7499,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 488.45. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 499.81. Keep it at 12 or lower.",
         "range": [
           0,
           1

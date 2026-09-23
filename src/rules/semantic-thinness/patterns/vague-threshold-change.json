@@ -6,7 +6,15 @@
     "{genericSubject} {thresholdVerb} {evaluativeComplement}.",
     "{genericSubject} {thresholdVerb} {comparativeComplement}.",
     "{genericSubject} {feelingVerb} {evaluativeComplement}.",
-    "{genericSubject} {thresholdVerb} {weakDegree} {evaluativeComplement}."
+    "{genericSubject} {thresholdVerb} {weakDegree} {evaluativeComplement}.",
+    {
+      "text": "{effortAux} more {effortNoun} to {findVerb}",
+      "matchMode": "contains"
+    },
+    {
+      "text": "{effortAux} {comparativeEffort} to {findVerb}",
+      "matchMode": "contains"
+    }
   ],
   "slots": {
     "genericSubject": [
@@ -105,6 +113,55 @@
       "less",
       "slightly",
       "quietly"
+    ],
+    "effortAux": [
+      "can take",
+      "takes",
+      "took",
+      "will take",
+      "would take",
+      "tends to take",
+      "may take",
+      "might take",
+      "is",
+      "was",
+      "are",
+      "were",
+      "can be",
+      "tends to be"
+    ],
+    "effortNoun": [
+      "work",
+      "time",
+      "effort",
+      "digging",
+      "patience",
+      "care",
+      "thought",
+      "attention"
+    ],
+    "comparativeEffort": [
+      "harder",
+      "tougher",
+      "trickier",
+      "slower",
+      "easier",
+      "quicker",
+      "simpler"
+    ],
+    "findVerb": [
+      "find",
+      "spot",
+      "see",
+      "fix",
+      "diagnose",
+      "notice",
+      "uncover",
+      "reach",
+      "get to",
+      "get right",
+      "pin down",
+      "untangle"
     ]
   },
   "rejectIf": [
@@ -119,13 +176,17 @@
     "Something felt different.",
     "The work became more complicated.",
     "The situation got worse.",
-    "It felt more real."
+    "It felt more real.",
+    "The problem holding a site back can take more work to find.",
+    "The real issue is harder to spot."
   ],
   "negativeExamples": [
     "The build got slower after the cache key changed.",
     "Everything became clearer when the audit log showed the missing request.",
     "The situation got worse after three nurses called in sick.",
-    "The work became more complicated because the API added pagination."
+    "The work became more complicated because the API added pagination.",
+    "The leak took two days to find because the meter only logs hourly.",
+    "The bug is harder to spot when the cache is warm, so clear it first."
   ],
   "notes": [
     "This pattern must reject concrete cause and metric information.",

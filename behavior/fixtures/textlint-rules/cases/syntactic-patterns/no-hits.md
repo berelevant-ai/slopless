@@ -878,3 +878,5 @@ The answer was always the same: "Almost eighteen years."
 The point of the meeting was clear to everyone who attended.
 
 The rule is boring because each clause repeats the same sentence.
+
+Every winter, I keep going back to the same cabin in Lisbon.

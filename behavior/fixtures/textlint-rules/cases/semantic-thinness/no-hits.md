@@ -463,3 +463,11 @@ Focus the beam on the sample and record the reading at 10 seconds.
 The board's ask was a revised forecast by the 20th.
 
 The whole bet rests on one supplier keeping the 14-day lead time.
+
+That matters because the customer renewed for another year at 18,000 dollars.
+
+The leak took two days to find because the meter only logs hourly.
+
+It became possible to make lots of new things, and sometimes the existing companies were not the ones that made them.
+
+I've seen the difference shape the 2019 budget by 12 percent.

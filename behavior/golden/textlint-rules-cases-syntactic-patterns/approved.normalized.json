@@ -20347,6 +20347,29 @@
         "type": "lint"
       },
       {
+        "column": 1,
+        "index": 70052,
+        "line": 1695,
+        "loc": {
+          "end": {
+            "column": 52,
+            "line": 1695
+          },
+          "start": {
+            "column": 1,
+            "line": 1695
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          70052,
+          70103
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 53,
         "index": 70104,
         "line": 1695,
@@ -21748,6 +21771,29 @@
         "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73390,
+        "line": 1801,
+        "loc": {
+          "end": {
+            "column": 89,
+            "line": 1801
+          },
+          "start": {
+            "column": 1,
+            "line": 1801
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          73390,
+          73478
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -21768,7 +21814,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 51.11. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 51.01. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -21791,7 +21837,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 13.72. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 13.75. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -21878,29 +21924,6 @@
           24086
         ],
         "ruleId": "perception-verb-density",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 32085,
-        "line": 876,
-        "loc": {
-          "end": {
-            "column": 57,
-            "line": 876
-          },
-          "start": {
-            "column": 1,
-            "line": 876
-          }
-        },
-        "message": "Boilerplate conclusion found: the-answer-was. Replace the closer with a specific ending.",
-        "range": [
-          32085,
-          32141
-        ],
-        "ruleId": "boilerplate-conclusion",
         "severity": 2,
         "type": "lint"
       }

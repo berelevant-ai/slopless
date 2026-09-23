@@ -1,0 +1,179 @@
+{
+  "id": "empty-significance-occasion",
+  "class": "significance",
+  "purpose": "Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.'",
+  "matchMode": "contains",
+  "maxTokens": 30,
+  "templates": [
+    {
+      "text": "{deicticSubject} {significanceVerb} {occasion}",
+      "matchMode": "prefix"
+    },
+    {
+      "text": "{witness} {deicticSubject} {abstractNoun} {shapeVerb}",
+      "matchMode": "prefix"
+    },
+    {
+      "text": "{witness} {abstractNoun} {shapeVerb}",
+      "matchMode": "prefix"
+    },
+    {
+      "text": "{witness} how {deicticSubject} {abstractNoun} {shapeVerb}",
+      "matchMode": "prefix"
+    },
+    {
+      "text": "{witness} how {abstractNoun} {shapeVerb}",
+      "matchMode": "prefix"
+    }
+  ],
+  "slots": {
+    "deicticSubject": [
+      "that",
+      "this",
+      "it",
+      "the difference",
+      "the distinction",
+      "the detail",
+      "the gap",
+      "the timing",
+      "the framing",
+      "the wording",
+      "the order",
+      "the choice",
+      "that difference",
+      "this difference",
+      "that distinction",
+      "this distinction",
+      "that detail",
+      "this detail",
+      "that choice",
+      "this choice",
+      "that gap",
+      "this gap",
+      "one",
+      "a single"
+    ],
+    "significanceVerb": [
+      "matters",
+      "mattered",
+      "counts",
+      "counted",
+      "sticks",
+      "stuck",
+      "lasts",
+      "lasted",
+      "holds",
+      "held",
+      "helps",
+      "helped",
+      "works",
+      "worked",
+      "lands",
+      "landed"
+    ],
+    "occasion": ["when", "whenever", "for", "with", "once", "in"],
+    "witness": [
+      "i've seen",
+      "i have seen",
+      "we've seen",
+      "we have seen",
+      "i've watched",
+      "i have watched",
+      "we've watched",
+      "we have watched",
+      "i've noticed",
+      "we've noticed",
+      "i've felt",
+      "we've felt"
+    ],
+    "abstractNoun": [
+      "difference",
+      "distinction",
+      "detail",
+      "gap",
+      "timing",
+      "framing",
+      "wording",
+      "order",
+      "choice",
+      "decision",
+      "shift",
+      "habit",
+      "mindset",
+      "attitude",
+      "pattern",
+      "approach",
+      "clarity",
+      "focus",
+      "discipline",
+      "consistency",
+      "alignment",
+      "momentum",
+      "trust",
+      "culture",
+      "tone"
+    ],
+    "shapeVerb": [
+      "shape",
+      "shapes",
+      "shaped",
+      "change",
+      "changes",
+      "changed",
+      "drive",
+      "drives",
+      "drove",
+      "decide",
+      "decides",
+      "decided",
+      "define",
+      "defines",
+      "defined",
+      "turn",
+      "turns",
+      "turned",
+      "make",
+      "makes",
+      "made",
+      "determine",
+      "determines",
+      "determined",
+      "transform",
+      "transforms",
+      "transformed",
+      "set",
+      "sets",
+      "move",
+      "moves",
+      "moved",
+      "play out",
+      "play",
+      "plays",
+      "played",
+      "affect",
+      "affects",
+      "affected",
+      "influence",
+      "influences",
+      "influenced"
+    ]
+  },
+  "rejectIf": [
+    "sentence includes a number, date, named actor, or specific event",
+    "sentence names the concrete result of the difference"
+  ],
+  "positiveExamples": [
+    "That matters when marketing leaders choose what to do next.",
+    "The difference matters for anyone who reads the brief.",
+    "I've seen that difference shape what a client wanted to work on.",
+    "We've seen clarity change a whole roadmap."
+  ],
+  "negativeExamples": [
+    "That matters because the customer renewed for another year at 18,000 dollars.",
+    "I've seen the difference shape the 2019 budget by 12 percent.",
+    "That helps when the export is larger than 4 GB."
+  ],
+  "notes": [
+    "Prefix templates anchor at the sentence start and allow any tail; the digit and concrete-token guards still apply."
+  ]
+}

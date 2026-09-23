@@ -511,3 +511,13 @@ The timing sticks.
 That's the whole bet.
 
 That counts when hiring managers read the first page.
+
+That matters when marketing leaders choose what to do next.
+
+The problem holding a site back can take more work to find.
+
+I've seen that difference shape what a client wanted to work on.
+
+We've seen clarity change a whole roadmap.
+
+The real issue is harder to spot.

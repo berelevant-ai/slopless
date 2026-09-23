@@ -147,7 +147,22 @@ const rule = defineTextlintRule({
         if (current === undefined || next === undefined) {
           continue;
         }
+        // Evidence-limitation pairs often sit in adjacent one-line
+        // paragraphs; the other pairs stay within a paragraph.
         if (current.node !== next.node) {
+          const crossSignal = matchEvidenceLimitationPair(
+            current.text,
+            next.text
+          );
+          if (crossSignal !== undefined) {
+            detections.push({
+              evidence: crossSignal,
+              label: crossSignal,
+              range: { start: 0, end: current.text.length },
+              ruleId: "syntactic-patterns:contrastive-aphorism",
+              unitId: current.id
+            });
+          }
           continue;
         }
 

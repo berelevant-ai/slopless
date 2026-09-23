@@ -373,3 +373,29 @@ Fund the teams that ship, not the teams that present.
 Her first client offered a hard lesson.
 
 That's the whole bet.
+
+## Draft eight review
+
+The eighth draft of the word count reply was checked line by line, and these sentences were kept with their controls.
+
+That matters when marketing leaders choose what to do next.
+
+The problem holding a site back can take more work to find.
+
+I've seen that difference shape what a client wanted to work on.
+
+We've seen clarity change a whole roadmap.
+
+The real issue is harder to spot.
+
+In our SEO and GEO work, I keep coming back to advice about getting cited in AI answers.
+
+That matters because the customer renewed for another year at 18,000 dollars.
+
+The leak took two days to find because the meter only logs hourly.
+
+It became possible to make lots of new things, and sometimes the existing companies were not the ones that made them.
+
+I've seen the difference shape the 2019 budget by 12 percent.
+
+Every winter, I keep going back to the same cabin in Lisbon.

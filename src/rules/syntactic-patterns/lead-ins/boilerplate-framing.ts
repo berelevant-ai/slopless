@@ -109,15 +109,28 @@ const MONTHS = new Set([
 ]);
 
 function hasProperName(sentence: string): boolean {
+  const openerStart = sentence.toLocaleLowerCase("en").indexOf("i keep ");
   return wordTokens(sentence).some(
     (token, index) =>
       index > 0 &&
+      token.start > openerStart &&
       token.text !== "I" &&
       token.text[0] !== undefined &&
       token.text[0] >= "A" &&
       token.text[0] <= "Z" &&
+      // Acronyms (SEO, FAQs, AI) are topics, not places.
+      token.text[1] !== undefined &&
+      token.text[1] >= "a" &&
+      token.text[1] <= "z" &&
       !MONTHS.has(token.normalized)
   );
+}
+
+// "In our SEO work, I keep coming back to ...": the opener may follow one
+// introductory phrase ending in a comma.
+function afterIntroductoryPhrase(lowered: string): string {
+  const comma = lowered.indexOf(", ");
+  return comma > 0 && comma < 60 ? lowered.slice(comma + 2) : lowered;
 }
 
 function matchReflectiveOpener(
@@ -125,7 +138,11 @@ function matchReflectiveOpener(
   lowered: string,
   words: readonly string[]
 ): string | undefined {
-  const opener = REFLECTIVE_OPENERS.find((item) => lowered.startsWith(item));
+  const opener = REFLECTIVE_OPENERS.find(
+    (item) =>
+      lowered.startsWith(item) ||
+      afterIntroductoryPhrase(lowered).startsWith(item)
+  );
   return opener !== undefined &&
     !words.some((word) => LITERAL_RETURN_MARKERS.has(word)) &&
     !hasProperName(sentence)

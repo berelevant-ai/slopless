@@ -1797,3 +1797,5 @@ The fix is usually boring.
 The real lesson from all this is not new.
 
 The fix is smaller than it looks.
+
+In our SEO and GEO work, I keep coming back to advice about getting cited in AI answers.
