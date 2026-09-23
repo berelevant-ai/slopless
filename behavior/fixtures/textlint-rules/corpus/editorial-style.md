@@ -1320,3 +1320,25 @@ I keep circling the block because there is no parking on that street.
 I keep landing on the same uncomfortable comparison.
 
 My editor keeps returning to the same paragraph, and she wants it cut.
+
+## Lesson wrappers
+
+The style editor kept these wrapper lines and their controls from a batch of opinion drafts.
+
+The takeaway here is clear.
+
+The lesson was clear.
+
+The fix is usually boring.
+
+The real lesson from all this is not new.
+
+The fix is smaller than it looks.
+
+The rule is simple, but the rulebook runs to 40 pages.
+
+The answer was always the same: "Almost eighteen years."
+
+The point of the meeting was clear to everyone who attended.
+
+The rule is boring because each clause repeats the same sentence.

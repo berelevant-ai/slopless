@@ -683,12 +683,58 @@
             "line": 39
           }
         },
+        "message": "Lesson framing found: the-lesson-was-simple. Replace the wrapper with the lesson.",
+        "range": [
+          652,
+          674
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 652,
+        "line": 39,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 39
+          },
+          "start": {
+            "column": 1,
+            "line": 39
+          }
+        },
         "message": "Semantic thinness (generic-lesson-extraction): Catch generic lesson, answer, fix, or point lines whose complement is a thin evaluative word or abstract noun. Matched template: The {summaryNoun} {linkingVerb} {thinComplement}.",
         "range": [
           652,
           674
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 676,
+        "line": 41,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 41
+          },
+          "start": {
+            "column": 1,
+            "line": 41
+          }
+        },
+        "message": "Lesson framing found: the-truth-is-not-dramatic. Replace the wrapper with the lesson.",
+        "range": [
+          676,
+          702
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -2184,6 +2230,29 @@
           2991
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2968,
+        "line": 155,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 155
+          },
+          "start": {
+            "column": 1,
+            "line": 155
+          }
+        },
+        "message": "Lesson framing found: the-solution-is-boring. Replace the wrapper with the lesson.",
+        "range": [
+          2968,
+          2991
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },

@@ -870,3 +870,11 @@ Her first client offered a lesson in scope, which was to bill for revisions afte
 Every spring I keep coming back to the same stretch of river.
 
 The ask is a 20-minute call with your operations lead.
+
+The rule is simple, but the rulebook runs to 40 pages.
+
+The answer was always the same: "Almost eighteen years."
+
+The point of the meeting was clear to everyone who attended.
+
+The rule is boring because each clause repeats the same sentence.

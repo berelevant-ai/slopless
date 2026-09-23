@@ -1787,3 +1787,13 @@ The report confirms the backup completed. It says little about restore time.
 The update does not change the API. It does alter the defaults.
 
 The school does not require uniforms. It does enforce a dress code.
+
+The takeaway here is clear.
+
+The lesson was clear.
+
+The fix is usually boring.
+
+The real lesson from all this is not new.
+
+The fix is smaller than it looks.

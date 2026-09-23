@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 53.65. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 53.55. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 12.73. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.76. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -568,7 +568,7 @@
             "line": 51
           }
         },
-        "message": "Lesson framing found: not heroic. Replace the wrapper with the lesson.",
+        "message": "Lesson framing found: the-fix-is-not-heroic. Replace the wrapper with the lesson.",
         "range": [
           1326,
           1372
@@ -5059,6 +5059,29 @@
           26507
         ],
         "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 26509,
+        "line": 599,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 599
+          },
+          "start": {
+            "column": 1,
+            "line": 599
+          }
+        },
+        "message": "Lesson framing found: the-answer-is-not-heroic. Replace the wrapper with the lesson.",
+        "range": [
+          26509,
+          26544
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -10159,7 +10182,7 @@
             "line": 895
           }
         },
-        "message": "Lesson framing found: the practical lesson was simple. Replace the wrapper with the lesson.",
+        "message": "Lesson framing found: the-lesson-was-simple. Replace the wrapper with the lesson.",
         "range": [
           44365,
           44397
@@ -12551,7 +12574,7 @@
             "line": 1061
           }
         },
-        "message": "Lesson framing found: the lesson here is. Replace the wrapper with the lesson.",
+        "message": "Lesson framing found: the-lesson-is-simple. Replace the wrapper with the lesson.",
         "range": [
           49053,
           49079
@@ -12603,6 +12626,29 @@
           49113
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49081,
+        "line": 1063,
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 1063
+          },
+          "start": {
+            "column": 1,
+            "line": 1063
+          }
+        },
+        "message": "Lesson framing found: the-takeaway-is-clear. Replace the wrapper with the lesson.",
+        "range": [
+          49081,
+          49113
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -19888,6 +19934,29 @@
       },
       {
         "column": 1,
+        "index": 68319,
+        "line": 1663,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 1663
+          },
+          "start": {
+            "column": 1,
+            "line": 1663
+          }
+        },
+        "message": "Lesson framing found: the-takeaway-is-simple. Replace the wrapper with the lesson.",
+        "range": [
+          68319,
+          68389
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 68391,
         "line": 1665,
         "loc": {
@@ -19929,6 +19998,29 @@
           68529
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 68462,
+        "line": 1667,
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 1667
+          },
+          "start": {
+            "column": 1,
+            "line": 1667
+          }
+        },
+        "message": "Lesson framing found: the-lesson-is-obvious. Replace the wrapper with the lesson.",
+        "range": [
+          68462,
+          68529
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -21426,6 +21518,236 @@
         "ruleId": "negation-reframe",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73232,
+        "line": 1791,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1791
+          },
+          "start": {
+            "column": 1,
+            "line": 1791
+          }
+        },
+        "message": "Generic signposting found: the-is-clear. Replace the frame with the concrete claim.",
+        "range": [
+          73232,
+          73259
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73232,
+        "line": 1791,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1791
+          },
+          "start": {
+            "column": 1,
+            "line": 1791
+          }
+        },
+        "message": "Lesson framing found: the-takeaway-is-clear. Replace the wrapper with the lesson.",
+        "range": [
+          73232,
+          73259
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73261,
+        "line": 1793,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1793
+          },
+          "start": {
+            "column": 1,
+            "line": 1793
+          }
+        },
+        "message": "Generic signposting found: the-was-clear. Replace the frame with the concrete claim.",
+        "range": [
+          73261,
+          73282
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73261,
+        "line": 1793,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1793
+          },
+          "start": {
+            "column": 1,
+            "line": 1793
+          }
+        },
+        "message": "Lesson framing found: the-lesson-was-clear. Replace the wrapper with the lesson.",
+        "range": [
+          73261,
+          73282
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73261,
+        "line": 1793,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1793
+          },
+          "start": {
+            "column": 1,
+            "line": 1793
+          }
+        },
+        "message": "Semantic thinness (generic-lesson-extraction): Catch generic lesson, answer, fix, or point lines whose complement is a thin evaluative word or abstract noun. Matched template: The {summaryNoun} {linkingVerb} {thinComplement}.",
+        "range": [
+          73261,
+          73282
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73284,
+        "line": 1795,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1795
+          },
+          "start": {
+            "column": 1,
+            "line": 1795
+          }
+        },
+        "message": "Generic signposting found: the-is-boring. Replace the frame with the concrete claim.",
+        "range": [
+          73284,
+          73310
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73284,
+        "line": 1795,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1795
+          },
+          "start": {
+            "column": 1,
+            "line": 1795
+          }
+        },
+        "message": "Lesson framing found: the-fix-is-boring. Replace the wrapper with the lesson.",
+        "range": [
+          73284,
+          73310
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73284,
+        "line": 1795,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1795
+          },
+          "start": {
+            "column": 1,
+            "line": 1795
+          }
+        },
+        "message": "Semantic thinness (generic-lesson-extraction): Catch generic lesson, answer, fix, or point lines whose complement is a thin evaluative word or abstract noun. Matched template: The {summaryNoun} {linkingVerb} usually {thinComplement}.",
+        "range": [
+          73284,
+          73310
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73312,
+        "line": 1797,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1797
+          },
+          "start": {
+            "column": 1,
+            "line": 1797
+          }
+        },
+        "message": "Lesson framing found: the-lesson-is-not-new. Replace the wrapper with the lesson.",
+        "range": [
+          73312,
+          73353
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73355,
+        "line": 1799,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 1799
+          },
+          "start": {
+            "column": 1,
+            "line": 1799
+          }
+        },
+        "message": "Lesson framing found: the-fix-is-smaller. Replace the wrapper with the lesson.",
+        "range": [
+          73355,
+          73388
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -21446,7 +21768,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 51.31. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 51.11. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -21469,7 +21791,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 13.65. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 13.72. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -21556,6 +21878,29 @@
           24086
         ],
         "ruleId": "perception-verb-density",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 32085,
+        "line": 876,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 876
+          },
+          "start": {
+            "column": 1,
+            "line": 876
+          }
+        },
+        "message": "Boilerplate conclusion found: the-answer-was. Replace the closer with a specific ending.",
+        "range": [
+          32085,
+          32141
+        ],
+        "ruleId": "boilerplate-conclusion",
         "severity": 2,
         "type": "lint"
       }
