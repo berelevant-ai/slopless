@@ -92,13 +92,7 @@ const REFLECTIVE_OPENERS = [
   "i keep landing on",
   "i keep thinking about"
 ];
-const LITERAL_RETURN_MARKERS = new Set([
-  "after",
-  "because",
-  "since",
-  "until",
-  "which"
-]);
+const LITERAL_RETURN_MARKERS = new Set(["because", "since", "until", "which"]);
 const MONTHS = new Set([
   "january",
   "february",

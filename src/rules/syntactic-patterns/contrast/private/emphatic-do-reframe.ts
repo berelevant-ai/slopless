@@ -1,4 +1,3 @@
-import { hasConcreteCorrectionEvidence } from "../../../../shared/matchers/concrete-evidence.js";
 import type { Token } from "../../../../shared/text/tokens.js";
 import { hasFactualConnectorAfterNegation } from "./negation-context-gates.js";
 import {
@@ -25,6 +24,10 @@ const EMPHATIC_INTERJECTIONS = new Set([
   "still",
   "though"
 ]);
+// A negated clause that already pivots ("We don't have a great photo, but
+// there are several ...") has stated its contrast; the emphatic do that
+// follows is ordinary continuation.
+const NEGATED_CLAUSE_PIVOTS = new Set(["but", "however", "though", "yet"]);
 const PRONOUN_SUBJECTS = new Set([
   "he",
   "i",
@@ -60,7 +63,10 @@ function negatedDoSubject(
 
     const verb = tokenWords[skipOptionalAdverbs(tokenWords, negationIndex + 1)];
     return verb === undefined ||
-      hasFactualConnectorAfterNegation(tokens, negationIndex)
+      hasFactualConnectorAfterNegation(tokens, negationIndex) ||
+      tokenWords
+        .slice(negationIndex + 1)
+        .some((word) => NEGATED_CLAUSE_PIVOTS.has(word))
       ? undefined
       : subject;
   }
@@ -112,6 +118,6 @@ export function emphaticDoReframe(
     !words(stripLeadingPairPivot(bTokens))
       .slice(verbIndex + 1)
       .some((word) => FACTUAL_NEGATION_CONNECTORS.has(word)) &&
-    !hasConcreteCorrectionEvidence(pairText)
+    ![...pairText].some((character) => character >= "0" && character <= "9")
   );
 }

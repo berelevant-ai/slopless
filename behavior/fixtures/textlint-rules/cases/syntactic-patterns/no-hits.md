@@ -416,8 +416,6 @@ That the review proves fraud is disputed. It says little about motive.
 
 The study demonstrates lower mortality. It provides no evidence that the treatment is safe.
 
-The report confirms the backup completed. It says little about restore time.
-
 The review confirms the parcel arrived. It provides no evidence that the contents were undamaged.
 
 The input is a CSV file.

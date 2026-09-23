@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 53.55. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 53.65. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 12.77. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.73. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -1844,6 +1844,29 @@
       },
       {
         "column": 1,
+        "index": 6884,
+        "line": 207,
+        "loc": {
+          "end": {
+            "column": 145,
+            "line": 207
+          },
+          "start": {
+            "column": 1,
+            "line": 207
+          }
+        },
+        "message": "Negation reframe found: \"If attention concerns are serious, persistent, and affecting school or daily life, screens may be one piece of the puzzle, not the whole puzzle.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          6884,
+          7028
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 7118,
         "line": 211,
         "loc": {
@@ -2028,6 +2051,29 @@
       },
       {
         "column": 1,
+        "index": 9577,
+        "line": 261,
+        "loc": {
+          "end": {
+            "column": 132,
+            "line": 261
+          },
+          "start": {
+            "column": 1,
+            "line": 261
+          }
+        },
+        "message": "Negation reframe found: \"Benzodiazepines can lower anxiety quickly, but they carry dependence risk and are generally short-term tools, not a long-term plan.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          9577,
+          9708
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 9853,
         "line": 265,
         "loc": {
@@ -2090,6 +2136,29 @@
         "range": [
           10163,
           10375
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 10377,
+        "line": 273,
+        "loc": {
+          "end": {
+            "column": 83,
+            "line": 273
+          },
+          "start": {
+            "column": 1,
+            "line": 273
+          }
+        },
+        "message": "Negation reframe found: \"That matters because consistency is mostly a cue problem, not a character problem.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          10377,
+          10459
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -2182,6 +2251,29 @@
         "range": [
           11065,
           11115
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11117,
+        "line": 293,
+        "loc": {
+          "end": {
+            "column": 215,
+            "line": 293
+          },
+          "start": {
+            "column": 1,
+            "line": 293
+          }
+        },
+        "message": "Negation reframe found: \"You can spend eight hours under the covers and still wake up feeling like you lost a fight with a pillow, because the problem is often sleep quality, sleep timing, or an underlying condition, not just sleep length.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          11117,
+          11331
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -2504,6 +2596,29 @@
         "range": [
           14171,
           14257
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 14259,
+        "line": 373,
+        "loc": {
+          "end": {
+            "column": 96,
+            "line": 373
+          },
+          "start": {
+            "column": 1,
+            "line": 373
+          }
+        },
+        "message": "Negation reframe found: \"They asked questions that revealed what was happening, not what everyone wished were happening.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          14259,
+          14354
         ],
         "ruleId": "negation-reframe",
         "severity": 2,
@@ -21242,6 +21357,75 @@
         "ruleId": "generic-signposting",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73020,
+        "line": 1785,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1785
+          },
+          "start": {
+            "column": 1,
+            "line": 1785
+          }
+        },
+        "message": "Contrastive aphorism found: evidence-limitation-pair. Replace the slogan with a concrete claim.",
+        "range": [
+          73020,
+          73061
+        ],
+        "ruleId": "contrastive-aphorism",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73098,
+        "line": 1787,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 1787
+          },
+          "start": {
+            "column": 1,
+            "line": 1787
+          }
+        },
+        "message": "Negation reframe found: \"The update does not change the API. It does alter the defaults.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          73098,
+          73161
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73163,
+        "line": 1789,
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 1789
+          },
+          "start": {
+            "column": 1,
+            "line": 1789
+          }
+        },
+        "message": "Negation reframe found: \"The school does not require uniforms. It does enforce a dress code.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          73163,
+          73230
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -21262,7 +21446,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 51.41. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 51.31. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -21285,7 +21469,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 13.6. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 13.65. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -21331,22 +21515,22 @@
           },
           "severity": 2
         },
-        "index": 24116,
-        "line": 689,
+        "index": 24038,
+        "line": 687,
         "loc": {
           "end": {
             "column": 100,
-            "line": 689
+            "line": 687
           },
           "start": {
             "column": 1,
-            "line": 689
+            "line": 687
           }
         },
         "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Kendall looked; he looked; he picked). Review whether the repeated structure serves the passage.",
         "range": [
-          24116,
-          24215
+          24038,
+          24137
         ],
         "ruleId": "flat-action-cadence",
         "severity": 2,
@@ -21354,22 +21538,22 @@
       },
       {
         "column": 9,
-        "index": 24124,
-        "line": 689,
+        "index": 24046,
+        "line": 687,
         "loc": {
           "end": {
             "column": 49,
-            "line": 689
+            "line": 687
           },
           "start": {
             "column": 9,
-            "line": 689
+            "line": 687
           }
         },
         "message": "Perception verb density: 2 perception verbs in a short span (looked).",
         "range": [
-          24124,
-          24164
+          24046,
+          24086
         ],
         "ruleId": "perception-verb-density",
         "severity": 2,

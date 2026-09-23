@@ -509,3 +509,5 @@ The distinction mattered.
 The timing sticks.
 
 That's the whole bet.
+
+That counts when hiring managers read the first page.

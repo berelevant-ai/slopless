@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -255.87. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -257.39. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 132.66. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 133.24. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -7109,6 +7109,29 @@
           12285
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12287,
+        "line": 513,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 513
+          },
+          "start": {
+            "column": 1,
+            "line": 513
+          }
+        },
+        "message": "Demonstrative emphasis found: \"That counts when hiring managers read the first page.\". Reduce repeated short emphasis lines.",
+        "range": [
+          12287,
+          12340
+        ],
+        "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
       }

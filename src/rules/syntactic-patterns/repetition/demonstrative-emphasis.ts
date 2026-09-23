@@ -97,7 +97,7 @@ const STOP_WORD_NEXT_WORD = new Set([
 const LEADING_PREFIXES = ["so ", "but ", "and ", "however, ", "however "];
 // "That matters when marketing leaders decide budgets.": the emphatic verb is
 // followed by a subordinate tail that names the occasion, not the reason.
-const SUBORDINATE_TAILS = new Set(["when", "whenever", "where"]);
+const SUBORDINATE_TAILS = new Set(["for", "when", "whenever", "where"]);
 // Definite subjects ("the difference mattered") only count with significance
 // verbs; "The pump stopped." is an event, not emphasis.
 const SIGNIFICANCE_VERBS = new Set([
@@ -127,6 +127,10 @@ function normalizeText(text: string): string {
   }
 
   return splitWhitespace(normalized).join(" ");
+}
+
+function hasDigit(text: string): boolean {
+  return [...text].some((character) => character >= "0" && character <= "9");
 }
 
 function stripLeadingPrefix(text: string): string {
@@ -161,9 +165,7 @@ function classifyDemonstrativeEmphaticVerb(
     return tokens.length <= 5 ? "demonstrative-emphatic-verb" : undefined;
   }
 
-  const tail = tokens[verbIndex + 1] ?? "";
-  return SUBORDINATE_TAILS.has(tail) ||
-    (tail === "for" && SIGNIFICANCE_VERBS.has(tokens[verbIndex] ?? ""))
+  return SUBORDINATE_TAILS.has(tokens[verbIndex + 1] ?? "")
     ? "demonstrative-emphatic-verb-clause"
     : undefined;
 }
@@ -286,13 +288,18 @@ function classifyDemonstrativeNpCopular(
 function classify(sentence: SplitSentence): string | undefined {
   const normalized = normalizeText(sentence.text);
   const stripped = stripLeadingPrefix(normalized);
-  if (hasConcreteImplementationSummary(stripped)) {
-    return undefined;
-  }
-
   const tokens = splitWhitespace(stripped);
   if (tokens.length < 3 || tokens.length > MAX_SENTENCE_WORDS) {
     return undefined;
+  }
+
+  // The emphatic-verb shape only needs a digit guard: "That counts when
+  // hiring managers read the first page." is emphasis even though "page"
+  // is an implementation token elsewhere.
+  if (hasConcreteImplementationSummary(stripped)) {
+    return hasDigit(stripped)
+      ? undefined
+      : classifyDemonstrativeEmphaticVerb(tokens);
   }
 
   return (

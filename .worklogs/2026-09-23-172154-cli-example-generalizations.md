@@ -37,11 +37,18 @@ Expanded seven existing constructions so the supplied marketing passage is caugh
 - `src/rules/phrases/data/cliches.json`, `cliche-templates.json`
 - `behavior/fixtures/textlint-rules/cases/{syntactic-patterns,semantic-thinness,phrases}/` and corpus sections in `linkedin-ai-search.md`, `engineering-review.md`, `editorial-style.md`
 
+## Review round 2 (same day)
+
+- Reviewer decisions: `The report confirms the backup completed. It says little about restore time.` is a hit; the report/audit head restriction was removed and the case moved from no-hits to hits. Known escapes were not acceptable tradeoffs, so: the comma-not path also fires on a shared content word (stopwords excluded, digits veto this weaker path only); the reflective opener no longer skips `after`; `for` tails count after any emphatic verb; the emphatic-do pair uses digits and connectors as gates instead of the API/code token list; the demonstrative-emphasis path ignores the implementation-token guard. The three dropped hit cases are restored.
+- Human corpus located at `slopless/article/corpus` (gitignored): human 13,705 files / 21.6M words, ai-generated 402 / 187k, ai-suspected 1,501 / 1.6M. Changed-rule audit harness: `.fixture3/audit/audit-changed-rules.mjs` (copy in scratchpad), baseline = installed 0.2.38 dist, candidate = branch dist, smoke-checked so all six sample passages fire on the candidate and none on the baseline.
+- Slice review before the full run: human/parenting (200 files, 79k words) went from +8 to +3 negation-reframe after two fixes: the inline comma copular reframe now splits only at the first comma, rejects a negated clause that continues with and/but/or or a factual connector, and rejects a negated second clause; the emphatic-do pair rejects a negated clause that already pivots with but/however/though/yet. human/news (300 files, 161k words): +3 negation-reframe, all emphatic-do or parallel comma-not by construction. Remaining slice additions judged wanted: `Mealtimes are not just for filling up on food, it is at least as much an important social event.`, `It isn't how many times you get knocked down, it is how many times you get back up.`; judged unwanted: `This is about forbidding my son from participating in an activity all his friends partake in, not about the activity itself.` (shared content word `activity`).
+- Generated evaluation after round 2: hits caught A 31, B 31, C 32, D 30, E 30, F 32, G 31 of 32; reserved 23/25; no-hits flagged 4/224 (two baseline, `The recipe calls for baking soda, not baking powder, and the difference is acidity.`, `I keep going back to the office after hours to finish the migration.`); reserved no-hits 0/25.
+- All 21 suites match after approving four; validate and Specular pass. Full-corpus audit results are appended below when the run completes.
+
 ## Known escapes and tradeoffs
 
-- Comma-not slogans without a repeated bigram escape (`We ship features users ask for, not features we wish they asked for.`).
-- Reflective openers followed by `after` escape (`I keep returning to the silence after the vote.`) to protect `I keep going back to the office after hours`.
-- `That matters for the people who sign off on it.` and `The distinction holds for readers who care.` escape: `for` tails are limited to matter/count in demonstrative-emphasis, and hollow-significance rejects clause connectors.
+- `Write the sentence you mean, not the sentence that sounds safe.` and `Write for the patient who is scared, not the patient who is curious.` escape because `sentence` is a meta-context token and `patient` a correction token in the shared gates.
+- `The detail lands for readers who skim.` escapes: hollow-significance is full-match and demonstrative-emphasis needs three per document.
 - Pre-existing baseline false positives kept as-is: `The coach didn't bench the captain. He moved him to the second line for two games.` and `The failure is thermal, not electrical; the board throttles at 92 degrees.` (both negation-reframe, present in 0.2.38).
 
 ## Next steps

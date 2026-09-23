@@ -116,10 +116,6 @@ const PLURAL_EVIDENCE_PROXY_HEADS = new Set([
   "testimonials",
   "trials"
 ]);
-// "The report confirms the backup completed. It says little about restore
-// time." is ordinary reporting, so report-like heads only pair with a negated
-// verdict ("It does not speak for total cost.").
-const VERDICT_ONLY_HEADS = new Set(["audit", "audits", "report", "reports"]);
 const COMPLEX_SUBJECT_MARKERS = new Set([
   "about",
   "against",
@@ -338,8 +334,7 @@ export function matchEvidenceLimitationPair(
   }
 
   const pluralSubject = PLURAL_EVIDENCE_PROXY_HEADS.has(subjectHead);
-  return (!VERDICT_ONLY_HEADS.has(subjectHead) &&
-    hasLowInformationLimitation(secondWords, pluralSubject)) ||
+  return hasLowInformationLimitation(secondWords, pluralSubject) ||
     hasNegatedAbstractLimitation(
       cleanSentence(second, PREFIXES),
       secondWords,
