@@ -1342,3 +1342,25 @@ The answer was always the same: "Almost eighteen years."
 The point of the meeting was clear to everyone who attended.
 
 The rule is boring because each clause repeats the same sentence.
+
+## Closing lines
+
+These closers came from the same batch of opinion drafts, with the controls the editor kept.
+
+Ultimately, in conclusion, the approach works.
+
+The bottom line is that teams ship faster when they cut scope.
+
+That's why we care about defaults.
+
+Which is why they fail in production.
+
+At its core, this is a trust problem.
+
+The pump failed because the seal was cracked, which is why the line went down.
+
+In the end, the jury acquitted him.
+
+In short, no, hard-to-pronounce names do not break immersion.
+
+This is why we suggest a coach because the first year is the hardest.

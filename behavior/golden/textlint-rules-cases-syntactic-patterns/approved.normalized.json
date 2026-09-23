@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 53.55. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 53.44. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 12.76. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.79. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -177,7 +177,7 @@
             "line": 19
           }
         },
-        "message": "Summative frame found: \"that's why it works\". State the concrete point instead.",
+        "message": "Summative frame found: \"that's why it\". State the concrete point instead.",
         "range": [
           489,
           533
@@ -8996,6 +8996,29 @@
         "type": "lint"
       },
       {
+        "column": 50,
+        "index": 41802,
+        "line": 839,
+        "loc": {
+          "end": {
+            "column": 158,
+            "line": 839
+          },
+          "start": {
+            "column": 50,
+            "line": 839
+          }
+        },
+        "message": "Summative frame found: \"the point is\". State the concrete point instead.",
+        "range": [
+          41802,
+          41910
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 1,
         "index": 41912,
         "line": 841,
@@ -10780,7 +10803,7 @@
             "line": 931
           }
         },
-        "message": "Summative frame found: \"and that's what makes\". State the concrete point instead.",
+        "message": "Summative frame found: \"that's what makes\". State the concrete point instead.",
         "range": [
           45257,
           45305
@@ -10803,7 +10826,7 @@
             "line": 933
           }
         },
-        "message": "Summative frame found: \"that's why it matters\". State the concrete point instead.",
+        "message": "Summative frame found: \"that's why it\". State the concrete point instead.",
         "range": [
           45307,
           45351
@@ -12528,7 +12551,7 @@
             "line": 1059
           }
         },
-        "message": "Summative frame found: \"this is why it works\". State the concrete point instead.",
+        "message": "Summative frame found: \"this is why it\". State the concrete point instead.",
         "range": [
           49030,
           49051
@@ -12580,6 +12603,29 @@
           49079
         ],
         "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 49053,
+        "line": 1061,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1061
+          },
+          "start": {
+            "column": 1,
+            "line": 1061
+          }
+        },
+        "message": "Summative frame found: \"the lesson here is\". State the concrete point instead.",
+        "range": [
+          49053,
+          49079
+        ],
+        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       },
@@ -13362,6 +13408,29 @@
           50982
         ],
         "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 50984,
+        "line": 1129,
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1129
+          },
+          "start": {
+            "column": 1,
+            "line": 1129
+          }
+        },
+        "message": "Summative frame found: \"when all is said and done\". State the concrete point instead.",
+        "range": [
+          50984,
+          51036
+        ],
+        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       },
@@ -21590,6 +21659,29 @@
       },
       {
         "column": 1,
+        "index": 73232,
+        "line": 1791,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1791
+          },
+          "start": {
+            "column": 1,
+            "line": 1791
+          }
+        },
+        "message": "Summative frame found: \"the takeaway here is\". State the concrete point instead.",
+        "range": [
+          73232,
+          73259
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 73261,
         "line": 1793,
         "loc": {
@@ -21794,6 +21886,190 @@
         "ruleId": "boilerplate-framing",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73480,
+        "line": 1803,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1803
+          },
+          "start": {
+            "column": 1,
+            "line": 1803
+          }
+        },
+        "message": "Summative frame found: \"in conclusion\". State the concrete point instead.",
+        "range": [
+          73480,
+          73526
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "index": 73492,
+        "line": 1803,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 1803
+          },
+          "start": {
+            "column": 13,
+            "line": 1803
+          }
+        },
+        "message": "Prohibited phrase found: \"in conclusion\". Rewrite without this phrase.",
+        "range": [
+          73492,
+          73505
+        ],
+        "ruleId": "prohibited-phrases",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73528,
+        "line": 1805,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1805
+          },
+          "start": {
+            "column": 1,
+            "line": 1805
+          }
+        },
+        "message": "Boilerplate framing found: the bottom line is. Start with the specific point.",
+        "range": [
+          73528,
+          73590
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73528,
+        "line": 1805,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1805
+          },
+          "start": {
+            "column": 1,
+            "line": 1805
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The bottom line is that teams ship faster when they cut scope.\". Reduce repeated short emphasis lines.",
+        "range": [
+          73528,
+          73590
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73528,
+        "line": 1805,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1805
+          },
+          "start": {
+            "column": 1,
+            "line": 1805
+          }
+        },
+        "message": "Summative frame found: \"the bottom line is\". State the concrete point instead.",
+        "range": [
+          73528,
+          73590
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73592,
+        "line": 1807,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 1807
+          },
+          "start": {
+            "column": 1,
+            "line": 1807
+          }
+        },
+        "message": "Summative frame found: \"that's why we\". State the concrete point instead.",
+        "range": [
+          73592,
+          73626
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73628,
+        "line": 1809,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1809
+          },
+          "start": {
+            "column": 1,
+            "line": 1809
+          }
+        },
+        "message": "Summative frame found: \"which is why they\". State the concrete point instead.",
+        "range": [
+          73628,
+          73665
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 73667,
+        "line": 1811,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1811
+          },
+          "start": {
+            "column": 1,
+            "line": 1811
+          }
+        },
+        "message": "Summative frame found: \"at its core\". State the concrete point instead.",
+        "range": [
+          73667,
+          73704
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -21814,7 +22090,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 51.01. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 50.8. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -21837,7 +22113,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 13.75. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 13.83. Keep it at 12 or lower.",
         "range": [
           0,
           1

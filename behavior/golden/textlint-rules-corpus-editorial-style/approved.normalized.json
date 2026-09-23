@@ -16,7 +16,7 @@
             "line": 3
           }
         },
-        "message": "Coleman-Liau is 14.51. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.45. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 37.84. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 37.54. Keep it at 61 or higher.",
         "range": [
           26,
           27
@@ -62,7 +62,7 @@
             "line": 3
           }
         },
-        "message": "Gunning Fog is 12.89. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.99. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -1103,6 +1103,29 @@
           3748
         ],
         "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 3727,
+        "line": 139,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 139
+          },
+          "start": {
+            "column": 1,
+            "line": 139
+          }
+        },
+        "message": "Summative frame found: \"at the end of the day\". State the concrete point instead.",
+        "range": [
+          3727,
+          3789
+        ],
+        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       },
@@ -9240,7 +9263,7 @@
       {
         "column": 112,
         "data": {
-          "message": "\"quietly\" used 128 times (15.2 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 128 times (15 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -9263,7 +9286,7 @@
             "line": 809
           }
         },
-        "message": "\"quietly\" used 128 times (15.2 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 128 times (15 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           30791,
           30798
@@ -16290,6 +16313,29 @@
       },
       {
         "column": 1,
+        "index": 55325,
+        "line": 1328,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1328
+          },
+          "start": {
+            "column": 1,
+            "line": 1328
+          }
+        },
+        "message": "Summative frame found: \"the takeaway here is\". State the concrete point instead.",
+        "range": [
+          55325,
+          55352
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 55354,
         "line": 1330,
         "loc": {
@@ -16474,24 +16520,185 @@
       },
       {
         "column": 1,
-        "index": 55539,
-        "line": 1340,
+        "index": 55838,
+        "line": 1350,
         "loc": {
           "end": {
-            "column": 57,
-            "line": 1340
+            "column": 47,
+            "line": 1350
           },
           "start": {
             "column": 1,
-            "line": 1340
+            "line": 1350
           }
         },
-        "message": "Boilerplate conclusion found: the-answer-was. Replace the closer with a specific ending.",
+        "message": "Summative frame found: \"in conclusion\". State the concrete point instead.",
         "range": [
-          55539,
-          55595
+          55838,
+          55884
         ],
-        "ruleId": "boilerplate-conclusion",
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "index": 55850,
+        "line": 1350,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 1350
+          },
+          "start": {
+            "column": 13,
+            "line": 1350
+          }
+        },
+        "message": "Prohibited phrase found: \"in conclusion\". Rewrite without this phrase.",
+        "range": [
+          55850,
+          55863
+        ],
+        "ruleId": "prohibited-phrases",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55886,
+        "line": 1352,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1352
+          },
+          "start": {
+            "column": 1,
+            "line": 1352
+          }
+        },
+        "message": "Boilerplate framing found: the bottom line is. Start with the specific point.",
+        "range": [
+          55886,
+          55948
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55886,
+        "line": 1352,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1352
+          },
+          "start": {
+            "column": 1,
+            "line": 1352
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The bottom line is that teams ship faster when they cut scope.\". Reduce repeated short emphasis lines.",
+        "range": [
+          55886,
+          55948
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55886,
+        "line": 1352,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1352
+          },
+          "start": {
+            "column": 1,
+            "line": 1352
+          }
+        },
+        "message": "Summative frame found: \"the bottom line is\". State the concrete point instead.",
+        "range": [
+          55886,
+          55948
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55950,
+        "line": 1354,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 1354
+          },
+          "start": {
+            "column": 1,
+            "line": 1354
+          }
+        },
+        "message": "Summative frame found: \"that's why we\". State the concrete point instead.",
+        "range": [
+          55950,
+          55984
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55986,
+        "line": 1356,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1356
+          },
+          "start": {
+            "column": 1,
+            "line": 1356
+          }
+        },
+        "message": "Summative frame found: \"which is why they\". State the concrete point instead.",
+        "range": [
+          55986,
+          56023
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 56025,
+        "line": 1358,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1358
+          },
+          "start": {
+            "column": 1,
+            "line": 1358
+          }
+        },
+        "message": "Summative frame found: \"at its core\". State the concrete point instead.",
+        "range": [
+          56025,
+          56062
+        ],
+        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       }

@@ -880,3 +880,11 @@ The point of the meeting was clear to everyone who attended.
 The rule is boring because each clause repeats the same sentence.
 
 Every winter, I keep going back to the same cabin in Lisbon.
+
+The pump failed because the seal was cracked, which is why the line went down.
+
+In the end, the jury acquitted him.
+
+In short, no, hard-to-pronounce names do not break immersion.
+
+This is why we suggest a coach because the first year is the hardest.
