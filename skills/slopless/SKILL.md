@@ -17,12 +17,13 @@ Use this skill when asked to review English Markdown prose for AI slop, human sl
 ## Required Workflow
 
 1. Run `npx slopless --help` before the first Slopless run in the session.
-2. Create `.slopless/findings` in the current working directory.
-3. Run Slopless on the requested Markdown files, folders, globs, or stdin.
-4. Save raw JSON output under `.slopless/findings/`.
-5. Use a timestamped filename that identifies the input.
-6. If the user asks for explanation, summarize the saved JSON findings for the user.
-7. Do not leave the only useful result in a temp directory.
+2. Add `--narrative` only for fiction or memoir; the narrative-slop family is off by default because it flags named feelings and scene beats that ordinary reporting uses.
+3. Create `.slopless/findings` in the current working directory.
+4. Run Slopless on the requested Markdown files, folders, globs, or stdin.
+5. Save raw JSON output under `.slopless/findings/`.
+6. Use a timestamped filename that identifies the input.
+7. If the user asks for explanation, summarize the saved JSON findings for the user.
+8. Do not leave the only useful result in a temp directory.
 
 ## Commands
 

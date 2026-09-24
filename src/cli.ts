@@ -7,6 +7,7 @@ import { dirname, join, relative, resolve } from "node:path";
 import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 import { cli } from "textlint/lib/src/cli.js";
+import { narrativeRuleIds } from "./presets/standard.js";
 
 type PackageMetadata = {
   readonly version?: unknown;
@@ -20,6 +21,7 @@ const STDIN_FLAGS = new Set(["--stdin"]);
 const VERSION_FLAGS = new Set(["--version", "-v"]);
 const CONFIG_FLAGS = new Set(["--config", "-c"]);
 const FORCE_FLAGS = new Set(["--force"]);
+const NARRATIVE_FLAGS = new Set(["--narrative"]);
 const INSTALL_SKILL_COMMAND = "install-skill";
 const VALUE_OPTIONS = new Set([
   "--cache-location",
@@ -89,6 +91,14 @@ Useful forms:
   npx slopless --stdin --stdin-filename draft.md
   npx slopless "docs/**/*.md" > .slopless/findings/review.json
   npx slopless "docs/**/*.md" --quiet
+  npx slopless --narrative "chapters/**/*.md"
+
+Rule families:
+  Narrative-slop rules (emotion-telling, empty-beat, flat-action-cadence,
+  low-information-beat-density, body-action-density, perception-verb-density,
+  narrative-cliches) judge fiction craft and are off by default. Pass
+  --narrative to enable them for fiction and memoir. They cannot be combined
+  with --config; enable them per rule in that config instead.
 
 Agent storage convention:
   Agents should save raw JSON findings inside .slopless/findings/ in the
@@ -195,7 +205,11 @@ function packageNodeModules(): string {
 // directory (a flat npm install). Generate the config at runtime with the filter
 // referenced by a path relative to the base directory, which resolves the same
 // filter package under any install layout (flat npm or nested pnpm).
-function writeDefaultConfig(): string {
+// The preset is declared in the same generated config (not as a --preset flag)
+// so that per-rule options apply: --narrative turns the narrative family on.
+// textlint keeps a rule off when the preset default is false and the user
+// value is `true`; an options object ({}) is what enables it.
+function writeDefaultConfig(narrative: boolean): string {
   const require = createRequire(import.meta.url);
   const filterDir = dirname(
     require.resolve("textlint-filter-rule-comments/package.json")
@@ -203,7 +217,16 @@ function writeDefaultConfig(): string {
   const filterKey = relative(packageNodeModules(), filterDir);
   const configDir = mkdtempSync(join(tmpdir(), "slopless-config-"));
   const configPath = join(configDir, "slopless.textlintrc.json");
-  writeFileSync(configPath, JSON.stringify({ filters: { [filterKey]: true } }));
+  const presetOptions = narrative
+    ? Object.fromEntries(narrativeRuleIds.map((id) => [id, {}]))
+    : true;
+  writeFileSync(
+    configPath,
+    JSON.stringify({
+      filters: { [filterKey]: true },
+      rules: { "preset-slopless": presetOptions }
+    })
+  );
   return configPath;
 }
 
@@ -304,19 +327,26 @@ async function main(): Promise<number> {
     return 2;
   }
 
+  const narrative = hasFlag(userArgs, NARRATIVE_FLAGS);
+  const userConfig = hasFlag(userArgs, CONFIG_FLAGS);
+  if (narrative && userConfig) {
+    process.stderr.write(
+      "--narrative cannot be combined with --config. Enable narrative rules in that config instead.\n"
+    );
+    return 2;
+  }
+
   const args = [
     "node",
     "slopless",
-    ...(hasFlag(userArgs, CONFIG_FLAGS)
-      ? []
-      : ["--config", writeDefaultConfig()]),
-    "--preset",
-    "slopless",
+    ...(userConfig
+      ? ["--preset", "slopless"]
+      : ["--config", writeDefaultConfig(narrative)]),
     "--rules-base-directory",
     packageNodeModules(),
     "--format",
     "json",
-    ...userArgs
+    ...userArgs.filter((arg) => !NARRATIVE_FLAGS.has(arg))
   ];
 
   if (hasFlag(userArgs, STDIN_FLAGS)) {

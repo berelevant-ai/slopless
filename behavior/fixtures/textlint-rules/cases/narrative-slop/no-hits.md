@@ -270,3 +270,13 @@ He staggered limply about, the blood flowing from nose and mouth and ears, his b
 I knocked and entered without ceremony. Mr. Wilde lay groaning on the floor, his face covered with blood, his clothes torn to shreds.
 
 I'm dressed. She's seated. He's wounded.
+
+She was afraid of the dog that bit her in 2019.
+
+The market was nervous about rates.
+
+He was angry that the vendor missed the 14-day window.
+
+I was sad to see the old station torn down last March.
+
+We are thrilled to be working with the harbor team as they rebuild the pier.

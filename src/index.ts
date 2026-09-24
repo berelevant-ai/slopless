@@ -1,4 +1,4 @@
-import { everything } from "./presets/everything.js";
+import { everything, narrativeRuleIds, standard } from "./presets/standard.js";
 import { academicSlopRules } from "./registries/academic-slop.js";
 import { metricRules } from "./registries/metrics.js";
 import { narrativeSlopRules } from "./registries/narrative-slop.js";
@@ -22,10 +22,13 @@ export const rules = {
 };
 
 export const presets = {
-  everything
+  everything,
+  standard
 };
 
-export const rulesConfig = everything.rules;
+export { narrativeRuleIds };
+
+export const rulesConfig = standard.rules;
 
 export default {
   rules,

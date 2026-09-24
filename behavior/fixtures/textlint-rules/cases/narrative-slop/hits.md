@@ -185,3 +185,17 @@ Her fingers drummed on the rail. His shoulders sagged beneath his coat. Her eyel
 The sailor leaned against the mast; the cook shuffled toward the stove; the deckhand crouched beside the bucket.
 
 The apprentice lifts the curtain. The painter bends beside the easel. A visitor peers through the doorway.
+
+She was afraid of the audit.
+
+I feel nervous.
+
+You were scared.
+
+They felt frustrated by the delay.
+
+Mara was overwhelmed.
+
+I'm terrified.
+
+And he was angry again.
