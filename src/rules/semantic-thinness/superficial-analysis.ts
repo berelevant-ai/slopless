@@ -41,8 +41,6 @@ const RHETORICAL_FINITE_VERBS = new Set([
   "confirmed",
   "contributes",
   "contributed",
-  "creates",
-  "created",
   "cultivates",
   "cultivated",
   "demonstrates",
@@ -91,6 +89,22 @@ const RHETORICAL_FINITE_VERBS = new Set([
   "underscored"
 ]);
 const CLAUSE_LINKS = new Set(["and", "which", "thereby", "thus"]);
+
+// A finite clause that names a number or a proper noun ("created the Expo 67
+// Foundation", "using its own Token Binding private key") states a fact.
+function hasConcreteTail(tokens: readonly Token[]): boolean {
+  return tokens.some(
+    (token, index) =>
+      [...token.text].some((c) => c >= "0" && c <= "9") ||
+      (index > 0 &&
+        token.text[0] !== undefined &&
+        token.text[0] >= "A" &&
+        token.text[0] <= "Z" &&
+        token.text[1] !== undefined &&
+        token.text[1] >= "a" &&
+        token.text[1] <= "z")
+  );
+}
 
 const ABSTRACT_TARGETS = new Set([
   "alignment",
@@ -229,7 +243,8 @@ const rule = oneToOneRule({
           : undefined;
       if (
         separator === undefined ||
-        !isAbstractConclusion(tokens.slice(index))
+        !isAbstractConclusion(tokens.slice(index)) ||
+        (finite && hasConcreteTail(tokens.slice(index)))
       ) {
         continue;
       }

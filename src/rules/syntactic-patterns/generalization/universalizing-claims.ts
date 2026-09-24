@@ -322,8 +322,9 @@ function hasDigit(text: string): boolean {
 
 function matchUniversalizing(sentence: string): string | undefined {
   const cleaned = cleanSentence(sentence, PREFIXES);
-  // "Most adults need at least 7 hours of sleep per night." is bounded.
-  if (hasDigit(cleaned)) {
+  // "Most adults need at least 7 hours of sleep per night." is bounded, and a
+  // question ("Anyone knows the cause of my problem?") claims nothing.
+  if (hasDigit(cleaned) || sentence.trimEnd().endsWith("?")) {
     return undefined;
   }
   const words = tokens(cleaned);

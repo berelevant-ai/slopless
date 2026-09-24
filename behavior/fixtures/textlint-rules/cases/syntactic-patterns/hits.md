@@ -16,10 +16,6 @@ The team wants fewer review loops, isn't that the goal?
 
 The feature should earn its place, isn't that what matters?
 
-That's why it works for the migration queue.
-
-That's why this matters for the escalation policy.
-
 The gap comes from practice, not shame.
 
 Treat the review as learning instead of blame.
@@ -1803,10 +1799,6 @@ In our SEO and GEO work, I keep coming back to advice about getting cited in AI 
 Ultimately, in conclusion, the approach works.
 
 The bottom line is that teams ship faster when they cut scope.
-
-That's why we care about defaults.
-
-Which is why they fail in production.
 
 At its core, this is a trust problem.
 

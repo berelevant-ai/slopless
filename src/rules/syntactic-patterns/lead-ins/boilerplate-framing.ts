@@ -80,18 +80,30 @@ const FILLER_OPENERS = [
   "this is the important part",
   "we are at an inflection point",
   "make no mistake",
-  "the reality is",
-  "the simple truth is",
-  "the hard truth is",
-  "the harsh truth is",
   "here's the reality",
   "let's face it",
   "no doubt about it",
   "it goes without saying",
-  "needless to say",
-  "as we all know",
-  "the fact is"
+  "as we all know"
 ];
+// "The reality is that ..." and "The fact is: ..." announce a claim; "The
+// fact is, Lady Bracknell, I said ..." is speech and is left alone.
+const CLAIM_ANNOUNCERS = [
+  "the reality is",
+  "the fact is",
+  "the simple truth is",
+  "the hard truth is",
+  "the harsh truth is"
+];
+
+function matchClaimAnnouncer(lowered: string): string | undefined {
+  const opener = CLAIM_ANNOUNCERS.find((item) => lowered.startsWith(item));
+  if (opener === undefined) {
+    return undefined;
+  }
+  const rest = lowered.slice(opener.length).trimStart();
+  return rest.startsWith("that ") || rest.startsWith(":") ? opener : undefined;
+}
 // "To be perfectly clear", "to be brutally honest": an adverb may sit inside
 // the honesty opener.
 const HONESTY_ADVERBS = new Set([
@@ -108,7 +120,6 @@ const HONESTY_ADJECTIVES = new Set([
   "blunt",
   "candid",
   "clear",
-  "fair",
   "frank",
   "honest",
   "real",
@@ -282,6 +293,7 @@ function matchBoilerplateFraming(sentence: string): string[] {
 
   const filler =
     FILLER_OPENERS.find((opener) => lowered.startsWith(opener)) ??
+    matchClaimAnnouncer(lowered) ??
     matchHonestyOpener(words) ??
     matchReflectiveOpener(sentence, lowered, words);
   if (filler !== undefined) {

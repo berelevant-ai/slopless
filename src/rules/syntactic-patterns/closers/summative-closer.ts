@@ -1,4 +1,3 @@
-import { wordTokens } from "../../../shared/text/tokens.js";
 import { oneToOneRule } from "../../private/textlint-rule-builders.js";
 
 // Closers that announce a summary or a verdict instead of stating it. A
@@ -56,42 +55,14 @@ const SUMMATIVE_PATTERNS = [
   "what this means is",
   "when all is said and done"
 ];
-// "that's why it works", "this is why we care", "which is why they fail":
-// a why-closer whose subject is a pronoun.
-const WHY_OPENERS = [
-  "that's why",
-  "that is why",
-  "this is why",
-  "which is why"
-];
-const WHY_SUBJECTS = new Set([
-  "it",
-  "this",
-  "that",
-  "these",
-  "those",
-  "they",
-  "we",
-  "you",
-  "i"
-]);
+// "that's why ..." and "this is why ..." are not closers: they usually
+// introduce a stated reason, and the reviewer excluded them.
 // Only a stated reason, a colon, or a number makes the closer concrete.
 const CONCRETE_MARKERS = [":", "because", "since"];
 
 function stripPrefix(text: string): string {
   const prefix = LEADING_PREFIXES.find((item) => text.startsWith(item));
   return prefix === undefined ? text : text.slice(prefix.length);
-}
-
-function matchWhyCloser(text: string): string | undefined {
-  const opener = WHY_OPENERS.find((item) => text.startsWith(`${item} `));
-  if (opener === undefined) {
-    return undefined;
-  }
-  const subject = wordTokens(text.slice(opener.length + 1))[0]?.normalized;
-  return subject !== undefined && WHY_SUBJECTS.has(subject)
-    ? `${opener} ${subject}`
-    : undefined;
 }
 
 function hasDigit(text: string): boolean {
@@ -115,9 +86,9 @@ const rule = oneToOneRule({
     const lower = stripPrefix(
       unit.text.toLocaleLowerCase("en").replaceAll("\u2019", "'")
     );
-    const pattern =
-      SUMMATIVE_PATTERNS.find((phrase) => lower.startsWith(phrase)) ??
-      matchWhyCloser(lower);
+    const pattern = SUMMATIVE_PATTERNS.find((phrase) =>
+      lower.startsWith(phrase)
+    );
     if (pattern === undefined || hasConcreteMarker(lower)) {
       return [];
     }
