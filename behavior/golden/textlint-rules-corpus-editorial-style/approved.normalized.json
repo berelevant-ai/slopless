@@ -16,7 +16,7 @@
             "line": 3
           }
         },
-        "message": "Coleman-Liau is 14.57. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.45. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 38.15. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 37.54. Keep it at 61 or higher.",
         "range": [
           26,
           27
@@ -62,7 +62,7 @@
             "line": 3
           }
         },
-        "message": "Gunning Fog is 12.8. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.99. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -1103,6 +1103,29 @@
           3748
         ],
         "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 3727,
+        "line": 139,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 139
+          },
+          "start": {
+            "column": 1,
+            "line": 139
+          }
+        },
+        "message": "Summative frame found: \"at the end of the day\". State the concrete point instead.",
+        "range": [
+          3727,
+          3789
+        ],
+        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       },
@@ -6893,6 +6916,29 @@
             "line": 759
           }
         },
+        "message": "Demonstrative emphasis found: \"The model is the writer; the source is the brief.\". Reduce repeated short emphasis lines.",
+        "range": [
+          24552,
+          24601
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 43,
+        "index": 24552,
+        "line": 759,
+        "loc": {
+          "end": {
+            "column": 92,
+            "line": 759
+          },
+          "start": {
+            "column": 43,
+            "line": 759
+          }
+        },
         "message": "Generic signposting found: component-assignment-frame. Replace the frame with the concrete claim.",
         "range": [
           24552,
@@ -8411,6 +8457,29 @@
             "line": 791
           }
         },
+        "message": "Demonstrative emphasis found: \"The content is the source of truth.\". Reduce repeated short emphasis lines.",
+        "range": [
+          28671,
+          28706
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 266,
+        "index": 28671,
+        "line": 791,
+        "loc": {
+          "end": {
+            "column": 301,
+            "line": 791
+          },
+          "start": {
+            "column": 266,
+            "line": 791
+          }
+        },
         "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
         "range": [
           28671,
@@ -9240,7 +9309,7 @@
       {
         "column": 112,
         "data": {
-          "message": "\"quietly\" used 128 times (15.4 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 128 times (15 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -9263,7 +9332,7 @@
             "line": 809
           }
         },
-        "message": "\"quietly\" used 128 times (15.4 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 128 times (15 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           30791,
           30798
@@ -15058,6 +15127,29 @@
         "type": "lint"
       },
       {
+        "column": 236,
+        "index": 49063,
+        "line": 1214,
+        "loc": {
+          "end": {
+            "column": 267,
+            "line": 1214
+          },
+          "start": {
+            "column": 236,
+            "line": 1214
+          }
+        },
+        "message": "Superficial trailing analysis found: \", and drives meaningful change.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          49063,
+          49094
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 55,
         "index": 49150,
         "line": 1216,
@@ -15668,6 +15760,29 @@
         "type": "lint"
       },
       {
+        "column": 78,
+        "index": 52327,
+        "line": 1250,
+        "loc": {
+          "end": {
+            "column": 106,
+            "line": 1250
+          },
+          "start": {
+            "column": 78,
+            "line": 1250
+          }
+        },
+        "message": "Superficial trailing analysis found: \"and enhances lasting impact.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          52327,
+          52355
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 107,
         "index": 52356,
         "line": 1250,
@@ -15779,6 +15894,29 @@
           52516
         ],
         "ruleId": "prohibited-words",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 152,
+        "index": 52608,
+        "line": 1252,
+        "loc": {
+          "end": {
+            "column": 211,
+            "line": 1252
+          },
+          "start": {
+            "column": 152,
+            "line": 1252
+          }
+        },
+        "message": "Superficial trailing analysis found: \"and fosters an enduring commitment to inclusive innovation.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          52608,
+          52667
+        ],
+        "ruleId": "superficial-analysis",
         "severity": 2,
         "type": "lint"
       },
@@ -16239,6 +16377,397 @@
           55137
         ],
         "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55325,
+        "line": 1328,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1328
+          },
+          "start": {
+            "column": 1,
+            "line": 1328
+          }
+        },
+        "message": "Generic signposting found: the-is-clear. Replace the frame with the concrete claim.",
+        "range": [
+          55325,
+          55352
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55325,
+        "line": 1328,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1328
+          },
+          "start": {
+            "column": 1,
+            "line": 1328
+          }
+        },
+        "message": "Lesson framing found: the-takeaway-is-clear. Replace the wrapper with the lesson.",
+        "range": [
+          55325,
+          55352
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55325,
+        "line": 1328,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1328
+          },
+          "start": {
+            "column": 1,
+            "line": 1328
+          }
+        },
+        "message": "Summative frame found: \"the takeaway here is\". State the concrete point instead.",
+        "range": [
+          55325,
+          55352
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55354,
+        "line": 1330,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1330
+          },
+          "start": {
+            "column": 1,
+            "line": 1330
+          }
+        },
+        "message": "Generic signposting found: the-was-clear. Replace the frame with the concrete claim.",
+        "range": [
+          55354,
+          55375
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55354,
+        "line": 1330,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1330
+          },
+          "start": {
+            "column": 1,
+            "line": 1330
+          }
+        },
+        "message": "Lesson framing found: the-lesson-was-clear. Replace the wrapper with the lesson.",
+        "range": [
+          55354,
+          55375
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55354,
+        "line": 1330,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1330
+          },
+          "start": {
+            "column": 1,
+            "line": 1330
+          }
+        },
+        "message": "Semantic thinness (generic-lesson-extraction): Catch generic lesson, answer, fix, or point lines whose complement is a thin evaluative word or abstract noun. Matched template: The {summaryNoun} {linkingVerb} {thinComplement}.",
+        "range": [
+          55354,
+          55375
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55377,
+        "line": 1332,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1332
+          },
+          "start": {
+            "column": 1,
+            "line": 1332
+          }
+        },
+        "message": "Generic signposting found: the-is-boring. Replace the frame with the concrete claim.",
+        "range": [
+          55377,
+          55403
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55377,
+        "line": 1332,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1332
+          },
+          "start": {
+            "column": 1,
+            "line": 1332
+          }
+        },
+        "message": "Lesson framing found: the-fix-is-boring. Replace the wrapper with the lesson.",
+        "range": [
+          55377,
+          55403
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55377,
+        "line": 1332,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1332
+          },
+          "start": {
+            "column": 1,
+            "line": 1332
+          }
+        },
+        "message": "Semantic thinness (generic-lesson-extraction): Catch generic lesson, answer, fix, or point lines whose complement is a thin evaluative word or abstract noun. Matched template: The {summaryNoun} {linkingVerb} usually {thinComplement}.",
+        "range": [
+          55377,
+          55403
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55405,
+        "line": 1334,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1334
+          },
+          "start": {
+            "column": 1,
+            "line": 1334
+          }
+        },
+        "message": "Lesson framing found: the-lesson-is-not-new. Replace the wrapper with the lesson.",
+        "range": [
+          55405,
+          55446
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55448,
+        "line": 1336,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 1336
+          },
+          "start": {
+            "column": 1,
+            "line": 1336
+          }
+        },
+        "message": "Lesson framing found: the-fix-is-smaller. Replace the wrapper with the lesson.",
+        "range": [
+          55448,
+          55481
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55838,
+        "line": 1350,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1350
+          },
+          "start": {
+            "column": 1,
+            "line": 1350
+          }
+        },
+        "message": "Summative frame found: \"in conclusion\". State the concrete point instead.",
+        "range": [
+          55838,
+          55884
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 13,
+        "index": 55850,
+        "line": 1350,
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 1350
+          },
+          "start": {
+            "column": 13,
+            "line": 1350
+          }
+        },
+        "message": "Prohibited phrase found: \"in conclusion\". Rewrite without this phrase.",
+        "range": [
+          55850,
+          55863
+        ],
+        "ruleId": "prohibited-phrases",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55886,
+        "line": 1352,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1352
+          },
+          "start": {
+            "column": 1,
+            "line": 1352
+          }
+        },
+        "message": "Boilerplate framing found: the bottom line is. Start with the specific point.",
+        "range": [
+          55886,
+          55948
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55886,
+        "line": 1352,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1352
+          },
+          "start": {
+            "column": 1,
+            "line": 1352
+          }
+        },
+        "message": "Demonstrative emphasis found: \"The bottom line is that teams ship faster when they cut scope.\". Reduce repeated short emphasis lines.",
+        "range": [
+          55886,
+          55948
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 55886,
+        "line": 1352,
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 1352
+          },
+          "start": {
+            "column": 1,
+            "line": 1352
+          }
+        },
+        "message": "Summative frame found: \"the bottom line is\". State the concrete point instead.",
+        "range": [
+          55886,
+          55948
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 56025,
+        "line": 1358,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 1358
+          },
+          "start": {
+            "column": 1,
+            "line": 1358
+          }
+        },
+        "message": "Summative frame found: \"at its core\". State the concrete point instead.",
+        "range": [
+          56025,
+          56062
+        ],
+        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       }

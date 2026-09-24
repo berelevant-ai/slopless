@@ -40,7 +40,7 @@ type TemplatePart =
     };
 
 type CompiledTemplate = {
-  readonly matchMode?: "connector" | "contains" | "full" | "suffix";
+  readonly matchMode?: "connector" | "contains" | "full" | "prefix" | "suffix";
   readonly parts: readonly TemplatePart[];
   readonly signal: string;
 };
@@ -86,6 +86,7 @@ const BROAD_PATTERN_IDS = new Set([
 ]);
 const CONNECTOR_ALLOWED_PATTERN_IDS = new Set([
   "abstract-agency-personification",
+  "empty-significance-occasion",
   "body-knows",
   "recursive-meaning-frame",
   "vague-summary-cost"
@@ -151,6 +152,7 @@ function compileTemplate(
     (template.matchMode === "contains" ||
       template.matchMode === "connector" ||
       template.matchMode === "full" ||
+      template.matchMode === "prefix" ||
       template.matchMode === "suffix")
       ? template.matchMode
       : undefined;
@@ -273,7 +275,7 @@ function templateMatches(
     }
   }
 
-  if (matchMode === "contains") {
+  if (matchMode === "contains" || matchMode === "prefix") {
     return positions.length > 0;
   }
   if (matchMode === "connector") {
@@ -291,7 +293,11 @@ function templateMatchesPattern(
   template: CompiledTemplate
 ): boolean {
   const matchMode = template.matchMode ?? pattern.matchMode;
-  if (matchMode === "full" || matchMode === "connector") {
+  if (
+    matchMode === "full" ||
+    matchMode === "connector" ||
+    matchMode === "prefix"
+  ) {
     return templateMatches(source, pattern, template, 0);
   }
 

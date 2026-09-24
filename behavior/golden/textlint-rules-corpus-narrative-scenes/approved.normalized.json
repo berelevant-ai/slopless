@@ -315,6 +315,29 @@
             "line": 23
           }
         },
+        "message": "Observer guidance found: that is where-progress-lives. Replace the bridge with concrete evidence.",
+        "range": [
+          714,
+          743
+        ],
+        "ruleId": "observer-guidance",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 714,
+        "line": 23,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 23
+          },
+          "start": {
+            "column": 1,
+            "line": 23
+          }
+        },
         "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {linkingVerb} where {abstractSubject} {abstractVerb}.",
         "range": [
           714,
@@ -614,12 +637,58 @@
             "line": 47
           }
         },
+        "message": "Lesson framing found: the-lesson-was-simple. Replace the wrapper with the lesson.",
+        "range": [
+          1077,
+          1099
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1077,
+        "line": 47,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 47
+          },
+          "start": {
+            "column": 1,
+            "line": 47
+          }
+        },
         "message": "Semantic thinness (generic-lesson-extraction): Catch generic lesson, answer, fix, or point lines whose complement is a thin evaluative word or abstract noun. Matched template: The {summaryNoun} {linkingVerb} {thinComplement}.",
         "range": [
           1077,
           1099
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1101,
+        "line": 49,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 49
+          },
+          "start": {
+            "column": 1,
+            "line": 49
+          }
+        },
+        "message": "Lesson framing found: the-truth-is-not-dramatic. Replace the wrapper with the lesson.",
+        "range": [
+          1101,
+          1127
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -1149,6 +1218,29 @@
           1781
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1747,
+        "line": 87,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 87
+          },
+          "start": {
+            "column": 1,
+            "line": 87
+          }
+        },
+        "message": "Observer guidance found: that is where-work-begins. Replace the bridge with concrete evidence.",
+        "range": [
+          1747,
+          1781
+        ],
+        "ruleId": "observer-guidance",
         "severity": 2,
         "type": "lint"
       },
@@ -5164,6 +5256,29 @@
       },
       {
         "column": 1,
+        "index": 24787,
+        "line": 494,
+        "loc": {
+          "end": {
+            "column": 62,
+            "line": 494
+          },
+          "start": {
+            "column": 1,
+            "line": 494
+          }
+        },
+        "message": "Universalizing claim found: nobody agree. Replace the broad claim with a bounded claim.",
+        "range": [
+          24787,
+          24848
+        ],
+        "ruleId": "universalizing-claims",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "data": {
           "message": "Repetitive action rhythm: 5 nearby clauses repeat subject-first structure (Children searched; Eli ran; Mira hurried; Her stomach squeezed; The teacher pointed). Review whether the repeated structure serves the passage.",
           "padding": {
@@ -7034,6 +7149,167 @@
           45634
         ],
         "ruleId": "cliches",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46210,
+        "line": 837,
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 837
+          },
+          "start": {
+            "column": 1,
+            "line": 837
+          }
+        },
+        "message": "Emotion telling: She was afraid of the audit.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          46210,
+          46238
+        ],
+        "ruleId": "emotion-telling",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46240,
+        "line": 839,
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 839
+          },
+          "start": {
+            "column": 1,
+            "line": 839
+          }
+        },
+        "message": "Emotion telling: I feel nervous.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          46240,
+          46255
+        ],
+        "ruleId": "emotion-telling",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46257,
+        "line": 841,
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 841
+          },
+          "start": {
+            "column": 1,
+            "line": 841
+          }
+        },
+        "message": "Emotion telling: You were scared.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          46257,
+          46273
+        ],
+        "ruleId": "emotion-telling",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46275,
+        "line": 843,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 843
+          },
+          "start": {
+            "column": 1,
+            "line": 843
+          }
+        },
+        "message": "Emotion telling: They felt frustrated by the delay.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          46275,
+          46309
+        ],
+        "ruleId": "emotion-telling",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46311,
+        "line": 845,
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 845
+          },
+          "start": {
+            "column": 1,
+            "line": 845
+          }
+        },
+        "message": "Emotion telling: Mara was overwhelmed.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          46311,
+          46332
+        ],
+        "ruleId": "emotion-telling",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46334,
+        "line": 847,
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 847
+          },
+          "start": {
+            "column": 1,
+            "line": 847
+          }
+        },
+        "message": "Emotion telling: I'm terrified.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          46334,
+          46348
+        ],
+        "ruleId": "emotion-telling",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 46350,
+        "line": 849,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 849
+          },
+          "start": {
+            "column": 1,
+            "line": 849
+          }
+        },
+        "message": "Emotion telling: And he was angry again.. Replace the blunt emotion label with a concrete action, thought, or choice.",
+        "range": [
+          46350,
+          46373
+        ],
+        "ruleId": "emotion-telling",
         "severity": 2,
         "type": "lint"
       }

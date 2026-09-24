@@ -45,7 +45,23 @@ const AUTHORITY_STARTS: readonly (readonly string[])[] = [
   ["studies", "indicate"],
   ["studies", "prove"],
   ["studies", "show"],
-  ["studies", "suggest"]
+  ["studies", "suggest"],
+  ["studies", "have", "shown"],
+  ["research", "has", "shown"],
+  ["research", "has", "found"],
+  ["experts", "believe"],
+  ["experts", "suggest"],
+  ["psychologists", "say"],
+  ["doctors", "recommend"],
+  ["doctors", "say"],
+  ["economists", "agree"],
+  ["the", "science", "is", "clear"],
+  ["the", "data", "is", "clear"],
+  ["the", "evidence", "is", "clear"],
+  ["it", "is", "no", "secret", "that"],
+  ["it", "is", "well", "known", "that"],
+  ["it's", "no", "secret", "that"],
+  ["it's", "well", "known", "that"]
 ];
 const NAMED_SOURCES = [
   "american academy of pediatrics",
@@ -68,21 +84,54 @@ const CITATION_MARKERS = [
   "pmid:",
   "source:"
 ];
-const MIN_AUTHORITY_TOKENS = 8;
+const MIN_AUTHORITY_TOKENS = 5;
+// "Recent studies show", "A growing body of research suggests", "Most experts
+// agree": up to four lead-in tokens before the authority phrase.
+const LEAD_TOKENS = new Set([
+  "a",
+  "body",
+  "current",
+  "growing",
+  "latest",
+  "many",
+  "most",
+  "multiple",
+  "new",
+  "numerous",
+  "of",
+  "recent",
+  "several",
+  "some",
+  "the"
+]);
 
 function authorityStart(words: readonly string[]): string | undefined {
-  const match = AUTHORITY_STARTS.find((pattern) =>
-    startsWithWords(words, pattern)
-  );
-  return match?.join(" ");
+  for (let skip = 0; skip <= 4; skip += 1) {
+    if (skip > 0 && !LEAD_TOKENS.has(words[skip - 1] ?? "")) {
+      return undefined;
+    }
+    const match = AUTHORITY_STARTS.find((pattern) =>
+      startsWithWords(words.slice(skip), pattern)
+    );
+    if (match !== undefined) {
+      return words.slice(0, skip + match.length).join(" ");
+    }
+  }
+  return undefined;
 }
 
+// A citation is a link, a marker, or a parenthesis that holds a digit
+// ("(Smith, 2019)"); "(a lot)" is not a citation. Any digit in the claim
+// still vetoes: "The evidence suggests that the 12-volt battery failed after
+// 300 cycles." is a preserved no-hit.
 function hasCitationMarker(text: string): boolean {
   if (text.includes("[") && text.includes("](")) {
     return true;
   }
 
-  if (text.includes("(") && text.includes(")")) {
+  const open = text.indexOf("(");
+  const close = text.indexOf(")", open + 1);
+  if (open >= 0 && close > open && hasDigit(text.slice(open, close))) {
     return true;
   }
 

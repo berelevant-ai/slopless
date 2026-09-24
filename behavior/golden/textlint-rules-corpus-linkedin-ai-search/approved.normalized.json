@@ -16,7 +16,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 57.1. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 55.07. Keep it at 61 or higher.",
         "range": [
           25,
           26
@@ -177,12 +177,58 @@
             "line": 31
           }
         },
+        "message": "Generic signposting found: the missing layer is. Replace the frame with the concrete claim.",
+        "range": [
+          920,
+          955
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 920,
+        "line": 31,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 31
+          },
+          "start": {
+            "column": 1,
+            "line": 31
+          }
+        },
         "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {summarySubject} {linkingVerb} {importanceComplement}.",
         "range": [
           920,
           955
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 957,
+        "line": 33,
+        "loc": {
+          "end": {
+            "column": 85,
+            "line": 33
+          },
+          "start": {
+            "column": 1,
+            "line": 33
+          }
+        },
+        "message": "Generic signposting found: the missing layer is. Replace the frame with the concrete claim.",
+        "range": [
+          957,
+          1041
+        ],
+        "ruleId": "generic-signposting",
         "severity": 2,
         "type": "lint"
       },
@@ -252,6 +298,29 @@
           1477
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1454,
+        "line": 45,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 45
+          },
+          "start": {
+            "column": 1,
+            "line": 45
+          }
+        },
+        "message": "Lesson framing found: the-solution-is-boring. Replace the wrapper with the lesson.",
+        "range": [
+          1454,
+          1477
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -873,6 +942,29 @@
           3686
         ],
         "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 3737,
+        "line": 133,
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 133
+          },
+          "start": {
+            "column": 1,
+            "line": 133
+          }
+        },
+        "message": "Generic signposting found: the audit move. Replace the frame with the concrete claim.",
+        "range": [
+          3737,
+          3752
+        ],
+        "ruleId": "generic-signposting",
         "severity": 2,
         "type": "lint"
       },
@@ -2027,6 +2119,29 @@
         "type": "lint"
       },
       {
+        "column": 50,
+        "index": 8192,
+        "line": 203,
+        "loc": {
+          "end": {
+            "column": 120,
+            "line": 203
+          },
+          "start": {
+            "column": 50,
+            "line": 203
+          }
+        },
+        "message": "Lesson framing found: the-takeaway-is-simple. Replace the wrapper with the lesson.",
+        "range": [
+          8192,
+          8262
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 121,
         "index": 8263,
         "line": 203,
@@ -2069,6 +2184,29 @@
           8400
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 191,
+        "index": 8333,
+        "line": 203,
+        "loc": {
+          "end": {
+            "column": 258,
+            "line": 203
+          },
+          "start": {
+            "column": 191,
+            "line": 203
+          }
+        },
+        "message": "Lesson framing found: the-lesson-is-obvious. Replace the wrapper with the lesson.",
+        "range": [
+          8333,
+          8400
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -2391,6 +2529,29 @@
           12233
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12182,
+        "line": 253,
+        "loc": {
+          "end": {
+            "column": 52,
+            "line": 253
+          },
+          "start": {
+            "column": 1,
+            "line": 253
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          12182,
+          12233
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -2902,6 +3063,29 @@
       },
       {
         "column": 1,
+        "index": 13272,
+        "line": 287,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 287
+          },
+          "start": {
+            "column": 1,
+            "line": 287
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          13272,
+          13330
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 13404,
         "line": 291,
         "loc": {
@@ -2920,6 +3104,29 @@
           13452
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 13404,
+        "line": 291,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 291
+          },
+          "start": {
+            "column": 1,
+            "line": 291
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          13404,
+          13452
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -2989,6 +3196,29 @@
           13737
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 13674,
+        "line": 303,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 303
+          },
+          "start": {
+            "column": 1,
+            "line": 303
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          13674,
+          13737
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -3495,6 +3725,282 @@
           15722
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 15866,
+        "line": 381,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 381
+          },
+          "start": {
+            "column": 1,
+            "line": 381
+          }
+        },
+        "message": "Demonstrative emphasis found: \"That matters when marketing leaders choose what to do next.\". Reduce repeated short emphasis lines.",
+        "range": [
+          15866,
+          15925
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 15866,
+        "line": 381,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 381
+          },
+          "start": {
+            "column": 1,
+            "line": 381
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          15866,
+          15925
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 15927,
+        "line": 383,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 383
+          },
+          "start": {
+            "column": 1,
+            "line": 383
+          }
+        },
+        "message": "Semantic thinness (vague-threshold-change): Catch vague threshold or evaluation changes without named scale, cause, or concrete state. Matched template: {effortAux} more {effortNoun} to {findVerb}",
+        "range": [
+          15927,
+          15986
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 15988,
+        "line": 385,
+        "loc": {
+          "end": {
+            "column": 65,
+            "line": 385
+          },
+          "start": {
+            "column": 1,
+            "line": 385
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {witness} {deicticSubject} {abstractNoun} {shapeVerb}",
+        "range": [
+          15988,
+          16052
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16054,
+        "line": 387,
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 387
+          },
+          "start": {
+            "column": 1,
+            "line": 387
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {witness} {abstractNoun} {shapeVerb}",
+        "range": [
+          16054,
+          16096
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16098,
+        "line": 389,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 389
+          },
+          "start": {
+            "column": 1,
+            "line": 389
+          }
+        },
+        "message": "Semantic thinness (vague-threshold-change): Catch vague threshold or evaluation changes without named scale, cause, or concrete state. Matched template: {effortAux} {comparativeEffort} to {findVerb}",
+        "range": [
+          16098,
+          16131
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16133,
+        "line": 391,
+        "loc": {
+          "end": {
+            "column": 89,
+            "line": 391
+          },
+          "start": {
+            "column": 1,
+            "line": 391
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          16133,
+          16221
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16755,
+        "line": 407,
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 407
+          },
+          "start": {
+            "column": 1,
+            "line": 407
+          }
+        },
+        "message": "Generic signposting found: the-right-question-is. Replace the frame with the concrete claim.",
+        "range": [
+          16755,
+          16798
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16800,
+        "line": 409,
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 409
+          },
+          "start": {
+            "column": 1,
+            "line": 409
+          }
+        },
+        "message": "Generic signposting found: the-better-question-is. Replace the frame with the concrete claim.",
+        "range": [
+          16800,
+          16849
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16851,
+        "line": 411,
+        "loc": {
+          "end": {
+            "column": 51,
+            "line": 411
+          },
+          "start": {
+            "column": 1,
+            "line": 411
+          }
+        },
+        "message": "Generic signposting found: the-real-question-is. Replace the frame with the concrete claim.",
+        "range": [
+          16851,
+          16901
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16903,
+        "line": 413,
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 413
+          },
+          "start": {
+            "column": 1,
+            "line": 413
+          }
+        },
+        "message": "Generic signposting found: the-better-question-are. Replace the frame with the concrete claim.",
+        "range": [
+          16903,
+          16940
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 16942,
+        "line": 415,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 415
+          },
+          "start": {
+            "column": 1,
+            "line": 415
+          }
+        },
+        "message": "Generic signposting found: the-real-problem-is. Replace the frame with the concrete claim.",
+        "range": [
+          16942,
+          16968
+        ],
+        "ruleId": "generic-signposting",
         "severity": 2,
         "type": "lint"
       }

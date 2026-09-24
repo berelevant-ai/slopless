@@ -5,9 +5,17 @@ import {
   type SplitSentence,
   splitSentences
 } from "../../../shared/text/sentences.js";
+import {
+  DISCOURSE_SUBJECT_HEADS,
+  MAX_DEFINITE_PREDICATE_WORDS,
+  firstPredicateLength,
+  hasInnerProperNoun
+} from "./private/definite-copular.js";
 import { splitWhitespace } from "../../../shared/text/whitespace.js";
 
 const MAX_SENTENCE_WORDS = 12;
+// Three emphasis lines per document: two produced 749 added human findings
+// on the article corpus (35 per million words), mostly ordinary statements.
 const MAX_PER_DOCUMENT = 2;
 
 const EMPHATIC_INTRANSITIVE_VERBS = new Set([
@@ -224,14 +232,21 @@ function classifyDemonstrativeCopular(
 }
 
 function classifyDefiniteShortCopular(
+  text: string,
   tokens: readonly string[]
 ): string | undefined {
-  if (!DEFINITE_DETERMINERS.has(tokens[0] ?? "")) {
+  if (!DEFINITE_DETERMINERS.has(tokens[0] ?? "") || hasInnerProperNoun(text)) {
     return undefined;
   }
 
   const copulaIndex = tokens.findIndex((token) => COPULAR_VERBS.has(token));
-  if (copulaIndex < 2 || copulaIndex > 4) {
+  if (
+    copulaIndex < 2 ||
+    copulaIndex > 4 ||
+    (!DISCOURSE_SUBJECT_HEADS.has(tokens[copulaIndex - 1] ?? "") &&
+      firstPredicateLength(text, tokens, copulaIndex) >
+        MAX_DEFINITE_PREDICATE_WORDS)
+  ) {
     return undefined;
   }
 
@@ -306,7 +321,7 @@ function classify(sentence: SplitSentence): string | undefined {
     classifyDemonstrativeRelative(tokens) ??
     classifyDemonstrativePerception(tokens) ??
     classifyDemonstrativeCopular(tokens) ??
-    classifyDefiniteShortCopular(tokens) ??
+    classifyDefiniteShortCopular(sentence.text, tokens) ??
     classifyDemonstrativeNpCopular(tokens) ??
     classifyDemonstrativeEmphaticVerb(tokens)
   );

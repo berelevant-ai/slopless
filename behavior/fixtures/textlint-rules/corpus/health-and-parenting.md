@@ -423,3 +423,81 @@ After the clinic updated its asthma action plan, the office manager checked the 
 The pediatrician paused while the parents absorbed the discharge instructions. The moment passed. Then she showed them where the inhaler schedule belonged on the refrigerator.
 
 The allergy handout used body language only when the cause was physical. Her throat went tight because the allergic swelling had reached her airway. The patient's jaw tightened when the dentist adjusted the spacer.
+
+## Bridges and emphasis lines
+
+A parenting column draft leaned on bridge sentences and one-line emphasis, and the editor kept these with three literal controls.
+
+You see it everywhere now, especially in onboarding.
+
+This is where teams get stuck.
+
+That is where most people go wrong quickly.
+
+This is where the trouble starts.
+
+This is where a lot of the value gets lost.
+
+That part really matters.
+
+That is telling you something important.
+
+This is patience.
+
+This one detail still counts.
+
+This is where the pipe enters the tank, about 40 cm above the floor.
+
+That part of the form is optional.
+
+We keep the spare keys in the drawer by the door, where the cleaner can find them.
+
+## Broad claims and honesty openers
+
+The column draft also leaned on broad claims, borrowed authority, and honesty openers; the editor kept these with their controls.
+
+Every parent wants clarity.
+
+All of us want clarity.
+
+Most teams believe this works.
+
+Most people, in my experience, want clarity.
+
+No founder wants to hear that.
+
+For many readers, the answer feels obvious.
+
+Recent studies show that naps help.
+
+A growing body of research shows that naps help.
+
+It is no secret that most launches slip.
+
+Studies show sleep quality drops (a lot) after midnight.
+
+To be perfectly clear, the rollout slipped.
+
+To be brutally honest, the plan was thin.
+
+Make no mistake, this will cost us.
+
+I keep coming back to what Slack taught us about defaults.
+
+It's not about the code. It's about the craft.
+
+The festival ran for three days and reflects the region's enduring cultural significance.
+
+The bridge opened in the spring, which underscores its lasting legacy.
+
+Studies show a 12 percent drop (Smith, 2019).
+
+Most people in the survey of 400 respondents wanted a refund.
+
+Every parent at the meeting signed the form.
+
+She was told to be honest with the auditor.
+
+The API code was closed and the server exit code was 0.
+
+The parser reflects the token stream and the cache reflects the request.

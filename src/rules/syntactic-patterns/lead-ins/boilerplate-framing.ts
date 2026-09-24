@@ -78,8 +78,64 @@ const FILLER_OPENERS = [
   "let's be honest",
   "there are no easy answers",
   "this is the important part",
-  "we are at an inflection point"
+  "we are at an inflection point",
+  "make no mistake",
+  "here's the reality",
+  "let's face it",
+  "no doubt about it",
+  "it goes without saying",
+  "as we all know"
 ];
+// "The reality is that ..." and "The fact is: ..." announce a claim; "The
+// fact is, Lady Bracknell, I said ..." is speech and is left alone.
+const CLAIM_ANNOUNCERS = [
+  "the reality is",
+  "the fact is",
+  "the simple truth is",
+  "the hard truth is",
+  "the harsh truth is"
+];
+
+function matchClaimAnnouncer(lowered: string): string | undefined {
+  const opener = CLAIM_ANNOUNCERS.find((item) => lowered.startsWith(item));
+  if (opener === undefined) {
+    return undefined;
+  }
+  const rest = lowered.slice(opener.length).trimStart();
+  return rest.startsWith("that ") || rest.startsWith(":") ? opener : undefined;
+}
+// "To be perfectly clear", "to be brutally honest": an adverb may sit inside
+// the honesty opener.
+const HONESTY_ADVERBS = new Set([
+  "brutally",
+  "completely",
+  "entirely",
+  "perfectly",
+  "quite",
+  "really",
+  "totally",
+  "very"
+]);
+const HONESTY_ADJECTIVES = new Set([
+  "blunt",
+  "candid",
+  "clear",
+  "frank",
+  "honest",
+  "real",
+  "transparent"
+]);
+
+function matchHonestyOpener(words: readonly string[]): string | undefined {
+  if (words[0] !== "to" || words[1] !== "be") {
+    return undefined;
+  }
+  const index = HONESTY_ADVERBS.has(words[2] ?? "") ? 3 : 2;
+  const adjective = words[index];
+  return adjective !== undefined && HONESTY_ADJECTIVES.has(adjective)
+    ? words.slice(0, index + 1).join(" ")
+    : undefined;
+}
 // First-person reflective openers that announce a return to a thought instead
 // of stating it: "I keep coming back to advice about ...". Literal returns
 // ("I keep going back to the pharmacy because ...", "... to Lisbon") carry a
@@ -108,16 +164,47 @@ const MONTHS = new Set([
   "december"
 ]);
 
+// A capitalized word right after a preposition is a place ("I keep going back
+// to Lisbon", "the same cabin in Lisbon"); a name elsewhere ("what Slack
+// taught us") is part of the thought. Acronyms (SEO, AI) are topics.
+const PLACE_PREPOSITIONS = new Set(["at", "from", "in", "near", "to"]);
+
+function isPlaceName(token: {
+  readonly text: string;
+  readonly normalized: string;
+}): boolean {
+  const first = token.text[0];
+  const second = token.text[1];
+  return (
+    token.text !== "I" &&
+    first !== undefined &&
+    first >= "A" &&
+    first <= "Z" &&
+    second !== undefined &&
+    second >= "a" &&
+    second <= "z" &&
+    !MONTHS.has(token.normalized)
+  );
+}
+
 function hasProperName(sentence: string): boolean {
-  return wordTokens(sentence).some(
+  const openerStart = sentence.toLocaleLowerCase("en").indexOf("i keep ");
+  const following = wordTokens(sentence).filter(
+    (token) => token.start > openerStart
+  );
+  return following.some(
     (token, index) =>
       index > 0 &&
-      token.text !== "I" &&
-      token.text[0] !== undefined &&
-      token.text[0] >= "A" &&
-      token.text[0] <= "Z" &&
-      !MONTHS.has(token.normalized)
+      PLACE_PREPOSITIONS.has(following[index - 1]?.normalized ?? "") &&
+      isPlaceName(token)
   );
+}
+
+// "In our SEO work, I keep coming back to ...": the opener may follow one
+// introductory phrase ending in a comma.
+function afterIntroductoryPhrase(lowered: string): string {
+  const comma = lowered.indexOf(", ");
+  return comma > 0 && comma < 60 ? lowered.slice(comma + 2) : lowered;
 }
 
 function matchReflectiveOpener(
@@ -125,7 +212,11 @@ function matchReflectiveOpener(
   lowered: string,
   words: readonly string[]
 ): string | undefined {
-  const opener = REFLECTIVE_OPENERS.find((item) => lowered.startsWith(item));
+  const opener = REFLECTIVE_OPENERS.find(
+    (item) =>
+      lowered.startsWith(item) ||
+      afterIntroductoryPhrase(lowered).startsWith(item)
+  );
   return opener !== undefined &&
     !words.some((word) => LITERAL_RETURN_MARKERS.has(word)) &&
     !hasProperName(sentence)
@@ -202,6 +293,8 @@ function matchBoilerplateFraming(sentence: string): string[] {
 
   const filler =
     FILLER_OPENERS.find((opener) => lowered.startsWith(opener)) ??
+    matchClaimAnnouncer(lowered) ??
+    matchHonestyOpener(words) ??
     matchReflectiveOpener(sentence, lowered, words);
   if (filler !== undefined) {
     matches.push(filler);

@@ -76,8 +76,6 @@ Nobody noticed the change at first.
 
 The data supports this conclusion.
 
-Research shows that children need sleep.
-
 A person may feel tired despite apparently sleeping enough.
 
 Most adults need at least 7 hours of sleep per night.
@@ -127,8 +125,6 @@ However, the rollback owner signed the launch note after the incident review.
 The report says the queue recovered. Its owner signed the rollback. Finance approved the export before the deadline moved.
 
 Experts at the World Health Organization describe sleep guidance in the public report.
-
-Research shows that children need sleep.
 
 Data from the June retention cohort shows that renewal improved by four percent.
 
@@ -870,3 +866,55 @@ Her first client offered a lesson in scope, which was to bill for revisions afte
 Every spring I keep coming back to the same stretch of river.
 
 The ask is a 20-minute call with your operations lead.
+
+The rule is simple, but the rulebook runs to 40 pages.
+
+The answer was always the same: "Almost eighteen years."
+
+The point of the meeting was clear to everyone who attended.
+
+The rule is boring because each clause repeats the same sentence.
+
+Every winter, I keep going back to the same cabin in Lisbon.
+
+The pump failed because the seal was cracked, which is why the line went down.
+
+In the end, the jury acquitted him.
+
+In short, no, hard-to-pronounce names do not break immersion.
+
+This is why we suggest a coach because the first year is the hardest.
+
+The right answer is 42.
+
+The wrong table is loaded when the cache is warm.
+
+The main point is that the export runs nightly.
+
+Is that not your car outside?
+
+Isn't the meeting at 3?
+
+This is where the pipe enters the tank, about 40 cm above the floor.
+
+That part of the form is optional.
+
+We keep the spare keys in the drawer by the door, where the cleaner can find them.
+
+Studies show a 12 percent drop (Smith, 2019).
+
+Most people in the survey of 400 respondents wanted a refund.
+
+Every parent at the meeting signed the form.
+
+She was told to be honest with the auditor.
+
+The API code was closed and the server exit code was 0.
+
+That's why it works for the migration queue.
+
+That's why this matters for the escalation policy.
+
+That's why we care about defaults.
+
+Which is why they fail in production.

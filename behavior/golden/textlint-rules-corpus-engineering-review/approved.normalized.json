@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 48.74. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 48.64. Keep it at 61 or higher.",
         "range": [
           28,
           29
@@ -160,52 +160,6 @@
           1515
         ],
         "ruleId": "boilerplate-conclusion",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 1635,
-        "line": 51,
-        "loc": {
-          "end": {
-            "column": 45,
-            "line": 51
-          },
-          "start": {
-            "column": 1,
-            "line": 51
-          }
-        },
-        "message": "Summative frame found: \"that's why it works\". State the concrete point instead.",
-        "range": [
-          1635,
-          1679
-        ],
-        "ruleId": "summative-closer",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 1681,
-        "line": 53,
-        "loc": {
-          "end": {
-            "column": 51,
-            "line": 53
-          },
-          "start": {
-            "column": 1,
-            "line": 53
-          }
-        },
-        "message": "Summative frame found: \"that's why this\". State the concrete point instead.",
-        "range": [
-          1681,
-          1731
-        ],
-        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       },
@@ -476,7 +430,7 @@
             "line": 77
           }
         },
-        "message": "Lesson framing found: not heroic. Replace the wrapper with the lesson.",
+        "message": "Lesson framing found: the-fix-is-not-heroic. Replace the wrapper with the lesson.",
         "range": [
           2313,
           2359
@@ -1126,29 +1080,6 @@
           3307
         ],
         "ruleId": "semantic-thinness",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 3309,
-        "line": 115,
-        "loc": {
-          "end": {
-            "column": 45,
-            "line": 115
-          },
-          "start": {
-            "column": 1,
-            "line": 115
-          }
-        },
-        "message": "Summative frame found: \"that's why it matters\". State the concrete point instead.",
-        "range": [
-          3309,
-          3353
-        ],
-        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       },
@@ -4582,7 +4513,7 @@
       {
         "column": 72,
         "data": {
-          "message": "\"quietly\" used 12 times (1.1 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 12 times (1 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -4605,7 +4536,7 @@
             "line": 475
           }
         },
-        "message": "\"quietly\" used 12 times (1.1 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 12 times (1 per 1,000 words), above the 1-per-1,000-word warning threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           19314,
           19321
@@ -5673,6 +5604,29 @@
         "type": "lint"
       },
       {
+        "column": 50,
+        "index": 21510,
+        "line": 513,
+        "loc": {
+          "end": {
+            "column": 158,
+            "line": 513
+          },
+          "start": {
+            "column": 50,
+            "line": 513
+          }
+        },
+        "message": "Summative frame found: \"the point is\". State the concrete point instead.",
+        "range": [
+          21510,
+          21618
+        ],
+        "ruleId": "summative-closer",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 1,
         "index": 21620,
         "line": 515,
@@ -6422,6 +6376,29 @@
             "line": 541
           }
         },
+        "message": "Empty emphasis found: deictic-part-matters. Replace the filler line with the actual point.",
+        "range": [
+          23082,
+          23106
+        ],
+        "ruleId": "empty-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 59,
+        "index": 23082,
+        "line": 541,
+        "loc": {
+          "end": {
+            "column": 83,
+            "line": 541
+          },
+          "start": {
+            "column": 59,
+            "line": 541
+          }
+        },
         "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
         "range": [
           23082,
@@ -6560,7 +6537,7 @@
             "line": 551
           }
         },
-        "message": "Lesson framing found: the practical lesson was simple. Replace the wrapper with the lesson.",
+        "message": "Lesson framing found: the-lesson-was-simple. Replace the wrapper with the lesson.",
         "range": [
           23336,
           23368
@@ -6658,6 +6635,29 @@
           23630
         ],
         "ruleId": "authority-padding",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 23583,
+        "line": 559,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 559
+          },
+          "start": {
+            "column": 1,
+            "line": 559
+          }
+        },
+        "message": "Uncited authority found: the science is clear. Name the source, cite the evidence, or make the claim directly.",
+        "range": [
+          23583,
+          23630
+        ],
+        "ruleId": "uncited-authority",
         "severity": 2,
         "type": "lint"
       },
@@ -7020,7 +7020,7 @@
             "line": 575
           }
         },
-        "message": "Summative frame found: \"and that's what makes\". State the concrete point instead.",
+        "message": "Summative frame found: \"that's what makes\". State the concrete point instead.",
         "range": [
           23955,
           24003
@@ -7043,7 +7043,7 @@
             "line": 577
           }
         },
-        "message": "False question found: \"isn't that what we all\". Make the claim directly.",
+        "message": "False question found: \"isn't that what\". Make the claim directly.",
         "range": [
           24005,
           24037
@@ -7687,7 +7687,7 @@
             "line": 719
           }
         },
-        "message": "False question found: \"isn't that what matters\". Make the claim directly.",
+        "message": "False question found: \"isn't that what\". Make the claim directly.",
         "range": [
           28074,
           28133
@@ -7721,29 +7721,6 @@
       },
       {
         "column": 1,
-        "index": 28160,
-        "line": 723,
-        "loc": {
-          "end": {
-            "column": 45,
-            "line": 723
-          },
-          "start": {
-            "column": 1,
-            "line": 723
-          }
-        },
-        "message": "Summative frame found: \"that's why it matters\". State the concrete point instead.",
-        "range": [
-          28160,
-          28204
-        ],
-        "ruleId": "summative-closer",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
         "index": 28230,
         "line": 727,
         "loc": {
@@ -7756,7 +7733,7 @@
             "line": 727
           }
         },
-        "message": "False question found: \"isn't that what we all\". Make the claim directly.",
+        "message": "False question found: \"isn't that what\". Make the claim directly.",
         "range": [
           28230,
           28262
@@ -8456,29 +8433,6 @@
         "type": "lint"
       },
       {
-        "column": 97,
-        "index": 33349,
-        "line": 839,
-        "loc": {
-          "end": {
-            "column": 118,
-            "line": 839
-          },
-          "start": {
-            "column": 97,
-            "line": 839
-          }
-        },
-        "message": "Summative frame found: \"this is why it works\". State the concrete point instead.",
-        "range": [
-          33349,
-          33370
-        ],
-        "ruleId": "summative-closer",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 119,
         "index": 33371,
         "line": 839,
@@ -8515,12 +8469,35 @@
             "line": 839
           }
         },
-        "message": "Lesson framing found: the lesson here is. Replace the wrapper with the lesson.",
+        "message": "Lesson framing found: the-lesson-is-simple. Replace the wrapper with the lesson.",
         "range": [
           33371,
           33397
         ],
         "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 119,
+        "index": 33371,
+        "line": 839,
+        "loc": {
+          "end": {
+            "column": 145,
+            "line": 839
+          },
+          "start": {
+            "column": 119,
+            "line": 839
+          }
+        },
+        "message": "Summative frame found: \"the lesson here is\". State the concrete point instead.",
+        "range": [
+          33371,
+          33397
+        ],
+        "ruleId": "summative-closer",
         "severity": 2,
         "type": "lint"
       },
@@ -8567,6 +8544,29 @@
           33430
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 146,
+        "index": 33398,
+        "line": 839,
+        "loc": {
+          "end": {
+            "column": 178,
+            "line": 839
+          },
+          "start": {
+            "column": 146,
+            "line": 839
+          }
+        },
+        "message": "Lesson framing found: the-takeaway-is-clear. Replace the wrapper with the lesson.",
+        "range": [
+          33398,
+          33430
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -8663,29 +8663,6 @@
         "type": "lint"
       },
       {
-        "column": 127,
-        "index": 33618,
-        "line": 841,
-        "loc": {
-          "end": {
-            "column": 191,
-            "line": 841
-          },
-          "start": {
-            "column": 127,
-            "line": 841
-          }
-        },
-        "message": "Demonstrative emphasis found: \"This is why the test failed when the token expired before retry.\". Reduce repeated short emphasis lines.",
-        "range": [
-          33618,
-          33682
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 1,
         "index": 33909,
         "line": 843,
@@ -8751,6 +8728,29 @@
           33985
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 45,
+        "index": 33953,
+        "line": 843,
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 843
+          },
+          "start": {
+            "column": 45,
+            "line": 843
+          }
+        },
+        "message": "Lesson framing found: the-takeaway-is-clear. Replace the wrapper with the lesson.",
+        "range": [
+          33953,
+          33985
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -9860,6 +9860,29 @@
       },
       {
         "column": 1,
+        "index": 39209,
+        "line": 991,
+        "loc": {
+          "end": {
+            "column": 111,
+            "line": 991
+          },
+          "start": {
+            "column": 1,
+            "line": 991
+          }
+        },
+        "message": "Uncited authority found: the evidence suggests. Name the source, cite the evidence, or make the claim directly.",
+        "range": [
+          39209,
+          39319
+        ],
+        "ruleId": "uncited-authority",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 39321,
         "line": 993,
         "loc": {
@@ -10595,29 +10618,6 @@
         "type": "lint"
       },
       {
-        "column": 338,
-        "index": 47487,
-        "line": 1079,
-        "loc": {
-          "end": {
-            "column": 391,
-            "line": 1079
-          },
-          "start": {
-            "column": 338,
-            "line": 1079
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The dashboard is the screen mounted on the west wall.\". Reduce repeated short emphasis lines.",
-        "range": [
-          47487,
-          47540
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 1,
         "index": 47606,
         "line": 1081,
@@ -10637,75 +10637,6 @@
           48134
         ],
         "ruleId": "paragraph-length",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 286,
-        "index": 47891,
-        "line": 1081,
-        "loc": {
-          "end": {
-            "column": 341,
-            "line": 1081
-          },
-          "start": {
-            "column": 286,
-            "line": 1081
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The index is the numbered list at the back of the book.\". Reduce repeated short emphasis lines.",
-        "range": [
-          47891,
-          47946
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 411,
-        "index": 48016,
-        "line": 1081,
-        "loc": {
-          "end": {
-            "column": 473,
-            "line": 1081
-          },
-          "start": {
-            "column": 411,
-            "line": 1081
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The pipeline is the steel pipe that carries water to the tank.\". Reduce repeated short emphasis lines.",
-        "range": [
-          48016,
-          48078
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 65,
-        "index": 48200,
-        "line": 1083,
-        "loc": {
-          "end": {
-            "column": 101,
-            "line": 1083
-          },
-          "start": {
-            "column": 65,
-            "line": 1083
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The Stripe dashboard is the product.\". Reduce repeated short emphasis lines.",
-        "range": [
-          48200,
-          48236
-        ],
-        "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
       },

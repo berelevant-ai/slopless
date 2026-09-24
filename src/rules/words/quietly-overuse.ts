@@ -17,7 +17,7 @@ const rule = defineExactTokenDensityRule({
 
     return `"quietly" used ${count} times (${perUnit} per 1,000 words), ${threshold}. Cut the filler uses; keep at most about one per 1,000 words.`;
   },
-  minimumOccurrences: 4,
+  minimumOccurrences: 2,
   ruleId: RULE_ID,
   target: TARGET,
   warningPerUnit: 1,

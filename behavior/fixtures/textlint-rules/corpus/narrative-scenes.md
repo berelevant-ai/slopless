@@ -829,3 +829,31 @@ I knocked and entered without ceremony. Mr. Wilde lay groaning on the floor, his
 Over the headset, the stage manager received a final update from the cast. Their positions matched the opening scene.
 
 I'm dressed. She's seated. He's wounded.
+
+## Feelings named outright
+
+A workshop draft named feelings instead of showing them, and the editor kept the lines with the controls that still passed.
+
+She was afraid of the audit.
+
+I feel nervous.
+
+You were scared.
+
+They felt frustrated by the delay.
+
+Mara was overwhelmed.
+
+I'm terrified.
+
+And he was angry again.
+
+She was afraid of the dog that bit her in 2019.
+
+The market was nervous about rates.
+
+He was angry that the vendor missed the 14-day window.
+
+I was sad to see the old station torn down last March.
+
+We are thrilled to be working with the harbor team as they rebuild the pier.

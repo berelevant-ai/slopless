@@ -102,8 +102,6 @@ The spreadsheet feels precise because every row links to a revenue page and an o
 
 The decisions got worse after the team sorted by volume instead of qualified demand.
 
-The missing layer is page judgment: service pages get reviewed before archive pages.
-
 That changes the whole report because the crawler cannot see the service copy.
 
 The boring fix is often the right one when raw HTML lacks revenue-critical copy.
@@ -463,3 +461,13 @@ Focus the beam on the sample and record the reading at 10 seconds.
 The board's ask was a revised forecast by the 20th.
 
 The whole bet rests on one supplier keeping the 14-day lead time.
+
+That matters because the customer renewed for another year at 18,000 dollars.
+
+The leak took two days to find because the meter only logs hourly.
+
+It became possible to make lots of new things, and sometimes the existing companies were not the ones that made them.
+
+I've seen the difference shape the 2019 budget by 12 percent.
+
+The parser reflects the token stream and the cache reflects the request.

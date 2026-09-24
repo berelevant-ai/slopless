@@ -1320,3 +1320,47 @@ I keep circling the block because there is no parking on that street.
 I keep landing on the same uncomfortable comparison.
 
 My editor keeps returning to the same paragraph, and she wants it cut.
+
+## Lesson wrappers
+
+The style editor kept these wrapper lines and their controls from a batch of opinion drafts.
+
+The takeaway here is clear.
+
+The lesson was clear.
+
+The fix is usually boring.
+
+The real lesson from all this is not new.
+
+The fix is smaller than it looks.
+
+The rule is simple, but the rulebook runs to 40 pages.
+
+The answer was always the same: "Almost eighteen years."
+
+The point of the meeting was clear to everyone who attended.
+
+The rule is boring because each clause repeats the same sentence.
+
+## Closing lines
+
+These closers came from the same batch of opinion drafts, with the controls the editor kept.
+
+Ultimately, in conclusion, the approach works.
+
+The bottom line is that teams ship faster when they cut scope.
+
+That's why we care about defaults.
+
+Which is why they fail in production.
+
+At its core, this is a trust problem.
+
+The pump failed because the seal was cracked, which is why the line went down.
+
+In the end, the jury acquitted him.
+
+In short, no, hard-to-pronounce names do not break immersion.
+
+This is why we suggest a coach because the first year is the hardest.

@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 15. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.94. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -257.39. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -271.81. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 133.24. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 138.81. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -384,6 +384,29 @@
             "line": 15
           }
         },
+        "message": "Observer guidance found: that is where-progress-lives. Replace the bridge with concrete evidence.",
+        "range": [
+          289,
+          318
+        ],
+        "ruleId": "observer-guidance",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 289,
+        "line": 15,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 15
+          },
+          "start": {
+            "column": 1,
+            "line": 15
+          }
+        },
         "message": "Semantic thinness (deictic-summary): Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim. Matched template: {deicticSubject} {linkingVerb} where {abstractSubject} {abstractVerb}.",
         "range": [
           289,
@@ -683,12 +706,58 @@
             "line": 39
           }
         },
+        "message": "Lesson framing found: the-lesson-was-simple. Replace the wrapper with the lesson.",
+        "range": [
+          652,
+          674
+        ],
+        "ruleId": "lesson-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 652,
+        "line": 39,
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 39
+          },
+          "start": {
+            "column": 1,
+            "line": 39
+          }
+        },
         "message": "Semantic thinness (generic-lesson-extraction): Catch generic lesson, answer, fix, or point lines whose complement is a thin evaluative word or abstract noun. Matched template: The {summaryNoun} {linkingVerb} {thinComplement}.",
         "range": [
           652,
           674
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 676,
+        "line": 41,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 41
+          },
+          "start": {
+            "column": 1,
+            "line": 41
+          }
+        },
+        "message": "Lesson framing found: the-truth-is-not-dramatic. Replace the wrapper with the lesson.",
+        "range": [
+          676,
+          702
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -1218,6 +1287,29 @@
           1356
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1322,
+        "line": 79,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 79
+          },
+          "start": {
+            "column": 1,
+            "line": 79
+          }
+        },
+        "message": "Observer guidance found: that is where-work-begins. Replace the bridge with concrete evidence.",
+        "range": [
+          1322,
+          1356
+        ],
+        "ruleId": "observer-guidance",
         "severity": 2,
         "type": "lint"
       },
@@ -1948,6 +2040,29 @@
             "line": 137
           }
         },
+        "message": "Generic signposting found: the missing layer is. Replace the frame with the concrete claim.",
+        "range": [
+          2516,
+          2551
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2516,
+        "line": 137,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 137
+          },
+          "start": {
+            "column": 1,
+            "line": 137
+          }
+        },
         "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {summarySubject} {linkingVerb} {importanceComplement}.",
         "range": [
           2516,
@@ -2184,6 +2299,29 @@
           2991
         ],
         "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2968,
+        "line": 155,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 155
+          },
+          "start": {
+            "column": 1,
+            "line": 155
+          }
+        },
+        "message": "Lesson framing found: the-solution-is-boring. Replace the wrapper with the lesson.",
+        "range": [
+          2968,
+          2991
+        ],
+        "ruleId": "lesson-framing",
         "severity": 2,
         "type": "lint"
       },
@@ -4870,7 +5008,7 @@
       {
         "column": 15,
         "data": {
-          "message": "\"quietly\" used 6 times (3.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 6 times (3 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -4893,7 +5031,7 @@
             "line": 361
           }
         },
-        "message": "\"quietly\" used 6 times (3.1 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 6 times (3 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           8978,
           8985
@@ -6482,6 +6620,29 @@
             "line": 469
           }
         },
+        "message": "Demonstrative emphasis found: \"The content is the source of truth.\". Reduce repeated short emphasis lines.",
+        "range": [
+          11476,
+          11511
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11476,
+        "line": 469,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 469
+          },
+          "start": {
+            "column": 1,
+            "line": 469
+          }
+        },
         "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
         "range": [
           11476,
@@ -6792,6 +6953,29 @@
       },
       {
         "column": 1,
+        "index": 11805,
+        "line": 487,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 487
+          },
+          "start": {
+            "column": 1,
+            "line": 487
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          11805,
+          11863
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
         "index": 11865,
         "line": 489,
         "loc": {
@@ -6810,6 +6994,29 @@
           11913
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11865,
+        "line": 489,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 489
+          },
+          "start": {
+            "column": 1,
+            "line": 489
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          11865,
+          11913
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -6879,6 +7086,29 @@
           12014
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11951,
+        "line": 495,
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 495
+          },
+          "start": {
+            "column": 1,
+            "line": 495
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          11951,
+          12014
+        ],
+        "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
       },
@@ -7134,6 +7364,282 @@
         "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12287,
+        "line": 513,
+        "loc": {
+          "end": {
+            "column": 54,
+            "line": 513
+          },
+          "start": {
+            "column": 1,
+            "line": 513
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          12287,
+          12340
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12342,
+        "line": 515,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 515
+          },
+          "start": {
+            "column": 1,
+            "line": 515
+          }
+        },
+        "message": "Demonstrative emphasis found: \"That matters when marketing leaders choose what to do next.\". Reduce repeated short emphasis lines.",
+        "range": [
+          12342,
+          12401
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12342,
+        "line": 515,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 515
+          },
+          "start": {
+            "column": 1,
+            "line": 515
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {deicticSubject} {significanceVerb} {occasion}",
+        "range": [
+          12342,
+          12401
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12403,
+        "line": 517,
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 517
+          },
+          "start": {
+            "column": 1,
+            "line": 517
+          }
+        },
+        "message": "Semantic thinness (vague-threshold-change): Catch vague threshold or evaluation changes without named scale, cause, or concrete state. Matched template: {effortAux} more {effortNoun} to {findVerb}",
+        "range": [
+          12403,
+          12462
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12464,
+        "line": 519,
+        "loc": {
+          "end": {
+            "column": 65,
+            "line": 519
+          },
+          "start": {
+            "column": 1,
+            "line": 519
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {witness} {deicticSubject} {abstractNoun} {shapeVerb}",
+        "range": [
+          12464,
+          12528
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12530,
+        "line": 521,
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 521
+          },
+          "start": {
+            "column": 1,
+            "line": 521
+          }
+        },
+        "message": "Semantic thinness (empty-significance-occasion): Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.' Matched template: {witness} {abstractNoun} {shapeVerb}",
+        "range": [
+          12530,
+          12572
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12574,
+        "line": 523,
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 523
+          },
+          "start": {
+            "column": 1,
+            "line": 523
+          }
+        },
+        "message": "Semantic thinness (vague-threshold-change): Catch vague threshold or evaluation changes without named scale, cause, or concrete state. Matched template: {effortAux} {comparativeEffort} to {findVerb}",
+        "range": [
+          12574,
+          12607
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12609,
+        "line": 525,
+        "loc": {
+          "end": {
+            "column": 85,
+            "line": 525
+          },
+          "start": {
+            "column": 1,
+            "line": 525
+          }
+        },
+        "message": "Generic signposting found: the missing layer is. Replace the frame with the concrete claim.",
+        "range": [
+          12609,
+          12693
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12695,
+        "line": 527,
+        "loc": {
+          "end": {
+            "column": 90,
+            "line": 527
+          },
+          "start": {
+            "column": 1,
+            "line": 527
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          12695,
+          12784
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 33,
+        "index": 12727,
+        "line": 527,
+        "loc": {
+          "end": {
+            "column": 90,
+            "line": 527
+          },
+          "start": {
+            "column": 33,
+            "line": 527
+          }
+        },
+        "message": "Superficial trailing analysis found: \"and reflects the region's enduring cultural significance.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          12727,
+          12784
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12786,
+        "line": 529,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 529
+          },
+          "start": {
+            "column": 1,
+            "line": 529
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          12786,
+          12856
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 32,
+        "index": 12817,
+        "line": 529,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 529
+          },
+          "start": {
+            "column": 32,
+            "line": 529
+          }
+        },
+        "message": "Superficial trailing analysis found: \", which underscores its lasting legacy.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          12817,
+          12856
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -7154,7 +7660,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 13.26. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 13.2. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -7177,7 +7683,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -1152.79. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -1181.21. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -7200,104 +7706,12 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 488.45. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 499.61. Keep it at 12 or lower.",
         "range": [
           0,
           1
         ],
         "ruleId": "gunning-fog",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 8442,
-        "line": 263,
-        "loc": {
-          "end": {
-            "column": 54,
-            "line": 263
-          },
-          "start": {
-            "column": 1,
-            "line": 263
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The dashboard is the screen mounted on the west wall.\". Reduce repeated short emphasis lines.",
-        "range": [
-          8442,
-          8495
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 8750,
-        "line": 273,
-        "loc": {
-          "end": {
-            "column": 56,
-            "line": 273
-          },
-          "start": {
-            "column": 1,
-            "line": 273
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The index is the numbered list at the back of the book.\". Reduce repeated short emphasis lines.",
-        "range": [
-          8750,
-          8805
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 8877,
-        "line": 277,
-        "loc": {
-          "end": {
-            "column": 63,
-            "line": 277
-          },
-          "start": {
-            "column": 1,
-            "line": 277
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The pipeline is the steel pipe that carries water to the tank.\". Reduce repeated short emphasis lines.",
-        "range": [
-          8877,
-          8939
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 8996,
-        "line": 281,
-        "loc": {
-          "end": {
-            "column": 37,
-            "line": 281
-          },
-          "start": {
-            "column": 1,
-            "line": 281
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The Stripe dashboard is the product.\". Reduce repeated short emphasis lines.",
-        "range": [
-          8996,
-          9032
-        ],
-        "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
       },
@@ -7308,29 +7722,29 @@
           "padding": {
             "isAbsolute": false,
             "range": [
-              9496,
-              9503
+              9410,
+              9417
             ],
             "type": "TextlintRuleErrorPaddingLocation"
           },
           "severity": 2
         },
-        "index": 9496,
-        "line": 299,
+        "index": 9410,
+        "line": 297,
         "loc": {
           "end": {
             "column": 18,
-            "line": 299
+            "line": 297
           },
           "start": {
             "column": 11,
-            "line": 299
+            "line": 297
           }
         },
         "message": "\"quietly\" used 5 times (2 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
-          9496,
-          9503
+          9410,
+          9417
         ],
         "ruleId": "quietly-overuse",
         "severity": 2,

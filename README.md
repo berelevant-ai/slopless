@@ -72,6 +72,12 @@ Slopless is English-only. It requires a file path, glob, or stdin input. A bare 
 
 Exit `0` means clean. Exit `1` means findings. Exit `2` means failure.
 
+Narrative-slop rules (named feelings, empty beats, action cadence, perception density, narrative cliches) judge fiction craft and are off by default. Turn them on for fiction and memoir:
+
+```bash
+npx slopless --narrative "chapters/**/*.md"
+```
+
 Output is always JSON:
 
 ```bash
@@ -101,7 +107,7 @@ Add `preset-slopless` to your `.textlintrc.json`:
 npx textlint "docs/**/*.md"
 ```
 
-Findings use the same `slopless/<rule>` ids as the CLI. Turn off individual rules with `"preset-slopless": { "cliches": false }`. To honor the `<!-- textlint-disable -->` blocks below, also `npm install -D textlint-filter-rule-comments` and add `"filters": { "comments": true }` to the config.
+Findings use the same `slopless/<rule>` ids as the CLI. Turn off individual rules with `"preset-slopless": { "cliches": false }`. Narrative-slop rules are off by default; turn them on per rule with an options object, for example `"preset-slopless": { "emotion-telling": {}, "flat-action-cadence": {} }` (textlint keeps a default-off preset rule off when the value is `true`). To honor the `<!-- textlint-disable -->` blocks below, also `npm install -D textlint-filter-rule-comments` and add `"filters": { "comments": true }` to the config.
 
 ## Agent Use
 
