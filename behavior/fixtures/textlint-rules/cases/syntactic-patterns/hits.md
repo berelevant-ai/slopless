@@ -1819,3 +1819,9 @@ The real question here is whether anyone reads it.
 The better questions are about scope.
 
 Our real problem is focus.
+
+Is that not the whole point?
+
+Aren't those the goals?
+
+Wasn't that the real lesson?

@@ -1469,3 +1469,17 @@ Her first client offered a lesson in scope, which was to bill for revisions afte
 Every spring I keep coming back to the same stretch of river.
 
 The ask is a 20-minute call with your operations lead.
+
+## Closing questions
+
+A retrospective draft ended several sections with questions, and the reviewer kept these with two plain questions as controls.
+
+Is that not the whole point?
+
+Aren't those the goals?
+
+Wasn't that the real lesson?
+
+Is that not your car outside?
+
+Isn't the meeting at 3?
