@@ -8,14 +8,18 @@ import { narrativeSlopRules } from "../registries/narrative-slop.js";
 // rule whose preset default is false; an options object enables it).
 export { everything };
 
-export const narrativeRuleIds: readonly string[] =
-  Object.keys(narrativeSlopRules);
+type RuleId = keyof typeof everything.rules;
 
-export const standard = {
-  rules: Object.fromEntries(
-    Object.entries(everything.rules).map(([id, enabled]) => [
-      id,
-      narrativeRuleIds.includes(id) ? false : enabled
-    ])
-  ) as Record<keyof typeof everything.rules, boolean>
-};
+function isRuleId(id: string): id is RuleId {
+  return id in everything.rules;
+}
+
+export const narrativeRuleIds: readonly RuleId[] =
+  Object.keys(narrativeSlopRules).filter(isRuleId);
+
+const rules: Record<RuleId, boolean> = { ...everything.rules };
+for (const id of narrativeRuleIds) {
+  rules[id] = false;
+}
+
+export const standard = { rules };
