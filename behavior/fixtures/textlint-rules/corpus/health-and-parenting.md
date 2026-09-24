@@ -423,3 +423,31 @@ After the clinic updated its asthma action plan, the office manager checked the 
 The pediatrician paused while the parents absorbed the discharge instructions. The moment passed. Then she showed them where the inhaler schedule belonged on the refrigerator.
 
 The allergy handout used body language only when the cause was physical. Her throat went tight because the allergic swelling had reached her airway. The patient's jaw tightened when the dentist adjusted the spacer.
+
+## Bridges and emphasis lines
+
+A parenting column draft leaned on bridge sentences and one-line emphasis, and the editor kept these with three literal controls.
+
+You see it everywhere now, especially in onboarding.
+
+This is where teams get stuck.
+
+That is where most people go wrong quickly.
+
+This is where the trouble starts.
+
+This is where a lot of the value gets lost.
+
+That part really matters.
+
+That is telling you something important.
+
+This is patience.
+
+This one detail still counts.
+
+This is where the pipe enters the tank, about 40 cm above the floor.
+
+That part of the form is optional.
+
+We keep the spare keys in the drawer by the door, where the cleaner can find them.

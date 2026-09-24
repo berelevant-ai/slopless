@@ -26,9 +26,104 @@ const WHERE_BRIDGE_PATTERNS = [
   "that is where a lot of the misunderstanding begins",
   "that is where culture becomes visible"
 ];
-const WHERE_SUBJECTS = ["people", "parents", "kids", "children", "couples"];
-const WHERE_VERBS = ["get", "go", "miss", "overreach", "stumble"];
-const WHERE_COMPLEMENTS = ["stuck", "wrong", "it", "there"];
+// "This is where {most} teams get stuck": any plural human or team noun,
+// optionally quantified, with a stall verb and any tail.
+const WHERE_QUANTIFIERS = ["most", "many", "some", "a lot of", "plenty of"];
+const WHERE_SUBJECTS = [
+  "people",
+  "parents",
+  "kids",
+  "children",
+  "couples",
+  "teams",
+  "founders",
+  "writers",
+  "readers",
+  "managers",
+  "leaders",
+  "companies",
+  "startups",
+  "organizations",
+  "marketers",
+  "engineers",
+  "developers",
+  "students",
+  "beginners",
+  "clients",
+  "brands",
+  "agencies",
+  "users",
+  "we",
+  "you",
+  "i"
+];
+const WHERE_VERBS = [
+  "get",
+  "gets",
+  "got",
+  "go",
+  "goes",
+  "went",
+  "miss",
+  "overreach",
+  "stumble",
+  "struggle",
+  "fail",
+  "lose",
+  "slip",
+  "stall",
+  "stop",
+  "give",
+  "trip",
+  "fall"
+];
+// "That is where the confusion slips in": an abstract noun and a vague
+// arrival verb after "that/this is where".
+const BRIDGE_NOUNS = [
+  "confusion",
+  "guilt",
+  "trouble",
+  "work",
+  "progress",
+  "misunderstanding",
+  "culture",
+  "magic",
+  "value",
+  "damage",
+  "friction",
+  "risk",
+  "learning",
+  "growth",
+  "leverage",
+  "problems",
+  "trust",
+  "fun",
+  "money",
+  "story",
+  "difference",
+  "shift",
+  "gap",
+  "danger"
+];
+const BRIDGE_VERBS = [
+  "slips in",
+  "creeps in",
+  "starts",
+  "begins",
+  "lives",
+  "happens",
+  "gets lost",
+  "gets made",
+  "becomes visible",
+  "shows up",
+  "comes in",
+  "breaks down",
+  "falls apart",
+  "kicks in",
+  "pays off",
+  "hides",
+  "sits"
+];
 const SEE_PATTERNS = [
   "you see this when",
   "you see it when",
@@ -43,12 +138,68 @@ const WATCH_PATTERNS = [
   "watch what happens"
 ];
 
+// The observer, stuck, and bridge openers may carry a tail ("You see it
+// everywhere now, especially in onboarding."), so a prefix match is enough.
 function exactStart(
   text: string,
   patterns: readonly string[]
 ): string | undefined {
-  const matched = startsWithAnyText(text, patterns);
-  return matched !== undefined && text === matched ? matched : undefined;
+  return startsWithAnyText(text, patterns);
+}
+
+function skipQuantifier(rest: string): string {
+  const quantifier = WHERE_QUANTIFIERS.find((item) =>
+    rest.startsWith(`${item} `)
+  );
+  return quantifier === undefined ? rest : rest.slice(quantifier.length + 1);
+}
+
+function matchWhereFrame(stripped: string): SentenceMatch | undefined {
+  const opener = [
+    "this is where ",
+    "that is where ",
+    "this is when ",
+    "that is when "
+  ].find((item) => stripped.startsWith(item));
+  if (opener === undefined) {
+    return undefined;
+  }
+  const rest = skipQuantifier(stripped.slice(opener.length));
+  const words = tokens(rest);
+  const [subject, verb] = words;
+  if (
+    subject !== undefined &&
+    verb !== undefined &&
+    WHERE_SUBJECTS.includes(subject) &&
+    WHERE_VERBS.includes(verb)
+  ) {
+    return {
+      kind: "where-bridge",
+      signal: `${opener.trim()}-${subject}-${verb}`
+    };
+  }
+  const BRIDGE_ADJECTIVES = ["real", "actual", "hard", "true", "big", "quiet"];
+  const withoutThe = rest.startsWith("the ") ? rest.slice(4) : rest;
+  const adjective = BRIDGE_ADJECTIVES.find((item) =>
+    withoutThe.startsWith(`${item} `)
+  );
+  const bridgeRest =
+    adjective === undefined
+      ? withoutThe
+      : withoutThe.slice(adjective.length + 1);
+  const noun = BRIDGE_NOUNS.find((item) => bridgeRest.startsWith(`${item} `));
+  const afterNoun =
+    noun === undefined ? undefined : bridgeRest.slice(noun.length + 1);
+  const bridgeVerb =
+    afterNoun === undefined
+      ? undefined
+      : BRIDGE_VERBS.find((item) => afterNoun.startsWith(item));
+  return noun !== undefined && bridgeVerb !== undefined
+    ? {
+        kind: "where-bridge",
+        signal: `${opener.trim()}-${noun}-${bridgeVerb.replaceAll(" ", "-")}`
+      }
+    : undefined;
 }
 
 function matchObserverGuidance(sentence: string): SentenceMatch | undefined {
@@ -92,25 +243,7 @@ function matchObserverGuidance(sentence: string): SentenceMatch | undefined {
     return { kind: "observer-frame", signal: "you-can-see-it-everywhere" };
   }
 
-  const words = tokens(trimmed);
-  const [first, second, third, fourth, fifth, sixth] = words;
-  if (
-    (first === "this" || first === "that") &&
-    second === "is" &&
-    third === "where" &&
-    fourth !== undefined &&
-    fifth !== undefined &&
-    WHERE_SUBJECTS.includes(fourth) &&
-    WHERE_VERBS.includes(fifth) &&
-    (sixth === undefined || WHERE_COMPLEMENTS.includes(sixth))
-  ) {
-    return {
-      kind: "where-bridge",
-      signal: `${first}-is-where-${fourth}-${fifth}`
-    };
-  }
-
-  return undefined;
+  return matchWhereFrame(trimmed);
 }
 
 const rule = oneToOneRule({

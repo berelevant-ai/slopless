@@ -1825,3 +1825,21 @@ Is that not the whole point?
 Aren't those the goals?
 
 Wasn't that the real lesson?
+
+You see it everywhere now, especially in onboarding.
+
+This is where teams get stuck.
+
+That is where most people go wrong quickly.
+
+This is where the trouble starts.
+
+This is where a lot of the value gets lost.
+
+That part really matters.
+
+That is telling you something important.
+
+This is patience.
+
+This one detail still counts.

@@ -5,31 +5,90 @@ import {
 import { oneToOneRule } from "../../private/textlint-rule-builders.js";
 
 const PREFIXES = ["and ", "but ", "so ", "because "];
-const EMPHASIS_REFERENTS = ["part", "bit"];
-const EMPHASIS_QUALIFIERS = ["last", "first", "main"];
-const WEAKENING_REFERENTS = ["pattern", "cycle", "loop"];
-const EMPTY_VIRTUE_LABELS = ["discipline"];
+const EMPHASIS_REFERENTS = [
+  "part",
+  "bit",
+  "detail",
+  "piece",
+  "moment",
+  "step",
+  "distinction",
+  "difference"
+];
+const EMPHASIS_QUALIFIERS = [
+  "last",
+  "first",
+  "main",
+  "small",
+  "little",
+  "one",
+  "second",
+  "final",
+  "next"
+];
+const EMPHASIS_ADVERBS = [
+  "really",
+  "still",
+  "also",
+  "actually",
+  "truly",
+  "always"
+];
+const EMPHASIS_VERBS = ["matters", "counts", "sticks", "lands", "mattered"];
+const WEAKENING_REFERENTS = ["pattern", "cycle", "loop", "habit", "story"];
+const EMPTY_VIRTUE_LABELS = [
+  "discipline",
+  "patience",
+  "leverage",
+  "craft",
+  "judgment",
+  "taste",
+  "focus",
+  "trust",
+  "clarity",
+  "courage",
+  "maturity",
+  "ownership",
+  "rigor",
+  "restraint",
+  "growth",
+  "progress",
+  "leadership"
+];
 
 function isDeictic(token: string | undefined): boolean {
   return token === "that" || token === "this";
+}
+
+// "That part matters." / "That last bit really matters." / "This one detail
+// still counts.": deictic, optional qualifier, referent, optional adverb,
+// emphatic verb, end of sentence.
+function matchesReferentMatters(words: readonly string[]): boolean {
+  let index = 0;
+  if (!isDeictic(words[index])) {
+    return false;
+  }
+  index += 1;
+  if (EMPHASIS_QUALIFIERS.includes(words[index] ?? "")) {
+    index += 1;
+  }
+  if (!EMPHASIS_REFERENTS.includes(words[index] ?? "")) {
+    return false;
+  }
+  index += 1;
+  while (EMPHASIS_ADVERBS.includes(words[index] ?? "")) {
+    index += 1;
+  }
+  return (
+    EMPHASIS_VERBS.includes(words[index] ?? "") && words.length === index + 1
+  );
 }
 
 function matchesPartMatters(words: readonly string[]): boolean {
   const [first, second, third, fourth, fifth, sixth] = words;
 
   return (
-    (words.length === 3 &&
-      isDeictic(first) &&
-      second !== undefined &&
-      EMPHASIS_REFERENTS.includes(second) &&
-      third === "matters") ||
-    (words.length === 4 &&
-      isDeictic(first) &&
-      second !== undefined &&
-      third !== undefined &&
-      EMPHASIS_QUALIFIERS.includes(second) &&
-      EMPHASIS_REFERENTS.includes(third) &&
-      fourth === "matters") ||
+    matchesReferentMatters(words) ||
     (words.length === 6 &&
       isDeictic(first) &&
       second === "one" &&
@@ -45,10 +104,9 @@ function matchDeicticIsFrame(words: readonly string[]): string | undefined {
   const startsWithDeicticIs = isDeictic(first) && second === "is";
 
   if (
-    words.length === 5 &&
     startsWithDeicticIs &&
     third === "telling" &&
-    fourth === "you" &&
+    (fourth === "you" || fourth === "us") &&
     fifth === "something"
   ) {
     return "deictic-telling-you-something";

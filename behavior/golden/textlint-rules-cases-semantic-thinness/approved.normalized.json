@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Coleman-Liau is 14.88. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.94. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -265.51. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -267.75. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 136.35. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 137.21. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -367,6 +367,29 @@
           318
         ],
         "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 289,
+        "line": 15,
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 15
+          },
+          "start": {
+            "column": 1,
+            "line": 15
+          }
+        },
+        "message": "Observer guidance found: that is where-progress-lives. Replace the bridge with concrete evidence.",
+        "range": [
+          289,
+          318
+        ],
+        "ruleId": "observer-guidance",
         "severity": 2,
         "type": "lint"
       },
@@ -1281,6 +1304,29 @@
             "line": 79
           }
         },
+        "message": "Observer guidance found: that is where-work-begins. Replace the bridge with concrete evidence.",
+        "range": [
+          1322,
+          1356
+        ],
+        "ruleId": "observer-guidance",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 1322,
+        "line": 79,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 79
+          },
+          "start": {
+            "column": 1,
+            "line": 79
+          }
+        },
         "message": "Semantic thinness (vague-connective-payoff): Catch connective payoff sentences that signal a conclusion without adding the conclusion. Matched template: {payoffOpener} {payoffComplement}.",
         "range": [
           1322,
@@ -1977,6 +2023,29 @@
           2514
         ],
         "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 2516,
+        "line": 137,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 137
+          },
+          "start": {
+            "column": 1,
+            "line": 137
+          }
+        },
+        "message": "Generic signposting found: the missing layer is. Replace the frame with the concrete claim.",
+        "range": [
+          2516,
+          2551
+        ],
+        "ruleId": "generic-signposting",
         "severity": 2,
         "type": "lint"
       },
@@ -6551,6 +6620,29 @@
             "line": 469
           }
         },
+        "message": "Demonstrative emphasis found: \"The content is the source of truth.\". Reduce repeated short emphasis lines.",
+        "range": [
+          11476,
+          11511
+        ],
+        "ruleId": "demonstrative-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 11476,
+        "line": 469,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 469
+          },
+          "start": {
+            "column": 1,
+            "line": 469
+          }
+        },
         "message": "Semantic thinness (abstract-metaphor-claim): Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent. Matched template: the {identityArtifact} {linkingVerb} the {artifactRole}.",
         "range": [
           11476,
@@ -7433,6 +7525,29 @@
         "ruleId": "semantic-thinness",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12609,
+        "line": 525,
+        "loc": {
+          "end": {
+            "column": 85,
+            "line": 525
+          },
+          "start": {
+            "column": 1,
+            "line": 525
+          }
+        },
+        "message": "Generic signposting found: the missing layer is. Replace the frame with the concrete claim.",
+        "range": [
+          12609,
+          12693
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -7476,7 +7591,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -1181.72. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -1175.12. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -7499,104 +7614,12 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 499.81. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 497.22. Keep it at 12 or lower.",
         "range": [
           0,
           1
         ],
         "ruleId": "gunning-fog",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 8442,
-        "line": 263,
-        "loc": {
-          "end": {
-            "column": 54,
-            "line": 263
-          },
-          "start": {
-            "column": 1,
-            "line": 263
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The dashboard is the screen mounted on the west wall.\". Reduce repeated short emphasis lines.",
-        "range": [
-          8442,
-          8495
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 8750,
-        "line": 273,
-        "loc": {
-          "end": {
-            "column": 56,
-            "line": 273
-          },
-          "start": {
-            "column": 1,
-            "line": 273
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The index is the numbered list at the back of the book.\". Reduce repeated short emphasis lines.",
-        "range": [
-          8750,
-          8805
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 8877,
-        "line": 277,
-        "loc": {
-          "end": {
-            "column": 63,
-            "line": 277
-          },
-          "start": {
-            "column": 1,
-            "line": 277
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The pipeline is the steel pipe that carries water to the tank.\". Reduce repeated short emphasis lines.",
-        "range": [
-          8877,
-          8939
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 1,
-        "index": 8996,
-        "line": 281,
-        "loc": {
-          "end": {
-            "column": 37,
-            "line": 281
-          },
-          "start": {
-            "column": 1,
-            "line": 281
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The Stripe dashboard is the product.\". Reduce repeated short emphasis lines.",
-        "range": [
-          8996,
-          9032
-        ],
-        "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
       },
@@ -7607,29 +7630,29 @@
           "padding": {
             "isAbsolute": false,
             "range": [
-              9496,
-              9503
+              9410,
+              9417
             ],
             "type": "TextlintRuleErrorPaddingLocation"
           },
           "severity": 2
         },
-        "index": 9496,
-        "line": 299,
+        "index": 9410,
+        "line": 297,
         "loc": {
           "end": {
             "column": 18,
-            "line": 299
+            "line": 297
           },
           "start": {
             "column": 11,
-            "line": 299
+            "line": 297
           }
         },
         "message": "\"quietly\" used 5 times (2 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
-          9496,
-          9503
+          9410,
+          9417
         ],
         "ruleId": "quietly-overuse",
         "severity": 2,

@@ -1,3 +1,4 @@
+import { wordTokens } from "../text/tokens.js";
 import { tokens } from "./prose-patterns.js";
 
 const TECHNICAL_REVERSAL_TOKENS = new Set([
@@ -63,42 +64,33 @@ const AUTHORITY_CONCRETE_TOKENS = new Set([
   "saw",
   "status"
 ]);
+// Tokens that mark a sentence as an implementation summary rather than a
+// frame. Ordinary nouns that also carry marketing and editorial slop (body,
+// key, page, source, table, numbers, contract, audit, checklist, slide) are
+// deliberately absent: "The lesson here is clear: the body of the page
+// matters." is a wrapper, not a summary.
 const IMPLEMENTATION_SUMMARY_TOKENS = new Set([
   "api",
   "authentication",
-  "audit",
-  "body",
   "cache",
-  "checklist",
-  "commands",
-  "adjustment",
   "batteries",
-  "contract",
   "database",
   "export",
   "flags",
   "inhaler",
   "invoice",
-  "key",
   "fuse",
   "motor",
-  "numbers",
   "locale",
   "microscope",
   "nurse",
   "offsets",
-  "page",
   "parser",
-  "physics",
   "rotate",
   "rpm",
   "repayment",
-  "returned",
   "signing",
-  "slide",
-  "source",
   "staging",
-  "table",
   "tokens",
   "voltage"
 ]);
@@ -139,10 +131,45 @@ export function hasConcreteAuthorityEvidence(text: string): boolean {
   return containsToken(words, AUTHORITY_CONCRETE_TOKENS);
 }
 
+// Structural concreteness: a possessive proper name (Rory's spare key) or a
+// passive location ("documented in the rollback checklist"). A colon payoff
+// does not count: "the fun part is: ..." is still a frame.
+const LOCATION_PASSIVES = new Set([
+  "defined",
+  "described",
+  "documented",
+  "listed",
+  "recorded",
+  "specified",
+  "stored",
+  "tracked"
+]);
+const LOCATION_LINKS = new Set(["at", "in", "on", "under"]);
+
+function hasPossessiveName(text: string): boolean {
+  return wordTokens(text).some(
+    (token) =>
+      token.normalized.endsWith("'s") &&
+      token.text[0] !== undefined &&
+      token.text[0] >= "A" &&
+      token.text[0] <= "Z" &&
+      token.text.length > 3
+  );
+}
+
+function hasPassiveLocation(words: readonly string[]): boolean {
+  return words.some(
+    (word, index) =>
+      LOCATION_PASSIVES.has(word) && LOCATION_LINKS.has(words[index + 1] ?? "")
+  );
+}
+
 export function hasConcreteImplementationSummary(text: string): boolean {
   const words = tokens(text);
   return (
     hasDigit(text) ||
+    hasPossessiveName(text) ||
+    hasPassiveLocation(words) ||
     containsToken(words, MEDICAL_PLACE_TOKENS) ||
     containsToken(words, IMPLEMENTATION_SUMMARY_TOKENS) ||
     (containsToken(words, AUTHORITY_CONCRETE_TOKENS) &&

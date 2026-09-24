@@ -6445,6 +6445,29 @@
             "line": 541
           }
         },
+        "message": "Empty emphasis found: deictic-part-matters. Replace the filler line with the actual point.",
+        "range": [
+          23082,
+          23106
+        ],
+        "ruleId": "empty-emphasis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 59,
+        "index": 23082,
+        "line": 541,
+        "loc": {
+          "end": {
+            "column": 83,
+            "line": 541
+          },
+          "start": {
+            "column": 59,
+            "line": 541
+          }
+        },
         "message": "Semantic thinness (hollow-significance): Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result. Matched template: {bareSubject} {bareSignificanceVerb}.",
         "range": [
           23082,
@@ -10687,29 +10710,6 @@
         "type": "lint"
       },
       {
-        "column": 338,
-        "index": 47487,
-        "line": 1079,
-        "loc": {
-          "end": {
-            "column": 391,
-            "line": 1079
-          },
-          "start": {
-            "column": 338,
-            "line": 1079
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The dashboard is the screen mounted on the west wall.\". Reduce repeated short emphasis lines.",
-        "range": [
-          47487,
-          47540
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
         "column": 1,
         "index": 47606,
         "line": 1081,
@@ -10729,52 +10729,6 @@
           48134
         ],
         "ruleId": "paragraph-length",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 286,
-        "index": 47891,
-        "line": 1081,
-        "loc": {
-          "end": {
-            "column": 341,
-            "line": 1081
-          },
-          "start": {
-            "column": 286,
-            "line": 1081
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The index is the numbered list at the back of the book.\". Reduce repeated short emphasis lines.",
-        "range": [
-          47891,
-          47946
-        ],
-        "ruleId": "demonstrative-emphasis",
-        "severity": 2,
-        "type": "lint"
-      },
-      {
-        "column": 411,
-        "index": 48016,
-        "line": 1081,
-        "loc": {
-          "end": {
-            "column": 473,
-            "line": 1081
-          },
-          "start": {
-            "column": 411,
-            "line": 1081
-          }
-        },
-        "message": "Demonstrative emphasis found: \"The pipeline is the steel pipe that carries water to the tank.\". Reduce repeated short emphasis lines.",
-        "range": [
-          48016,
-          48078
-        ],
-        "ruleId": "demonstrative-emphasis",
         "severity": 2,
         "type": "lint"
       },

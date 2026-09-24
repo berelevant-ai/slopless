@@ -521,3 +521,5 @@ I've seen that difference shape what a client wanted to work on.
 We've seen clarity change a whole roadmap.
 
 The real issue is harder to spot.
+
+The missing layer is page judgment: service pages get reviewed before archive pages.
