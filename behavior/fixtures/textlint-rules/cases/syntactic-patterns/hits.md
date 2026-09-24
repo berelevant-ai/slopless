@@ -1843,3 +1843,35 @@ That is telling you something important.
 This is patience.
 
 This one detail still counts.
+
+Research shows that children need sleep.
+
+Every parent wants clarity.
+
+All of us want clarity.
+
+Most teams believe this works.
+
+Most people, in my experience, want clarity.
+
+No founder wants to hear that.
+
+For many readers, the answer feels obvious.
+
+Recent studies show that naps help.
+
+A growing body of research shows that naps help.
+
+It is no secret that most launches slip.
+
+Studies show sleep quality drops (a lot) after midnight.
+
+To be perfectly clear, the rollout slipped.
+
+To be brutally honest, the plan was thin.
+
+Make no mistake, this will cost us.
+
+I keep coming back to what Slack taught us about defaults.
+
+It's not about the code. It's about the craft.

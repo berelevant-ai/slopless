@@ -523,3 +523,7 @@ We've seen clarity change a whole roadmap.
 The real issue is harder to spot.
 
 The missing layer is page judgment: service pages get reviewed before archive pages.
+
+The festival ran for three days and reflects the region's enduring cultural significance.
+
+The bridge opened in the spring, which underscores its lasting legacy.

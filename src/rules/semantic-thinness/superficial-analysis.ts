@@ -32,6 +32,66 @@ const RHETORICAL_VERBS = new Set([
   "underscoring"
 ]);
 
+// Finite forms of the rhetorical verbs, for "... and reflects the region's
+// enduring significance" and "..., which underscores its lasting legacy".
+const RHETORICAL_FINITE_VERBS = new Set([
+  "aligns",
+  "aligned",
+  "confirms",
+  "confirmed",
+  "contributes",
+  "contributed",
+  "creates",
+  "created",
+  "cultivates",
+  "cultivated",
+  "demonstrates",
+  "demonstrated",
+  "drives",
+  "drove",
+  "embodies",
+  "embodied",
+  "emphasizes",
+  "emphasized",
+  "encompasses",
+  "encompassed",
+  "enhances",
+  "enhanced",
+  "ensures",
+  "ensured",
+  "evokes",
+  "evoked",
+  "facilitates",
+  "facilitated",
+  "fosters",
+  "fostered",
+  "highlights",
+  "highlighted",
+  "illustrates",
+  "illustrated",
+  "marks",
+  "marked",
+  "offers",
+  "offered",
+  "reflects",
+  "reflected",
+  "reinforces",
+  "reinforced",
+  "resonates",
+  "resonated",
+  "shapes",
+  "shaped",
+  "showcases",
+  "showcased",
+  "signals",
+  "signaled",
+  "symbolizes",
+  "symbolized",
+  "underscores",
+  "underscored"
+]);
+const CLAUSE_LINKS = new Set(["and", "which", "thereby", "thus"]);
+
 const ABSTRACT_TARGETS = new Set([
   "alignment",
   "authenticity",
@@ -148,11 +208,25 @@ const rule = oneToOneRule({
   detect: (unit) => {
     const tokens = wordTokens(unit.text);
     for (const [index, token] of tokens.entries()) {
-      if (!RHETORICAL_VERBS.has(token.normalized)) {
+      const gerund = RHETORICAL_VERBS.has(token.normalized);
+      const finite = RHETORICAL_FINITE_VERBS.has(token.normalized);
+      if (!gerund && !finite) {
         continue;
       }
 
-      const separator = separatorBefore(unit.text, token.start);
+      // A finite verb needs a clause link right before it ("and reflects",
+      // ", which underscores"); a gerund needs a comma or semicolon.
+      const previous = tokens[index - 1];
+      const linked =
+        finite &&
+        previous !== undefined &&
+        index > 2 &&
+        CLAUSE_LINKS.has(previous.normalized);
+      const separator = linked
+        ? (separatorBefore(unit.text, previous.start) ?? previous.start)
+        : gerund
+          ? separatorBefore(unit.text, token.start)
+          : undefined;
       if (
         separator === undefined ||
         !isAbstractConclusion(tokens.slice(index))

@@ -5,10 +5,17 @@ import {
   type SplitSentence,
   splitSentences
 } from "../../../shared/text/sentences.js";
-import { wordTokens } from "../../../shared/text/tokens.js";
+import {
+  DISCOURSE_SUBJECT_HEADS,
+  MAX_DEFINITE_PREDICATE_WORDS,
+  firstPredicateLength,
+  hasInnerProperNoun
+} from "./private/definite-copular.js";
 import { splitWhitespace } from "../../../shared/text/whitespace.js";
 
 const MAX_SENTENCE_WORDS = 12;
+// Three emphasis lines per document: two produced 749 added human findings
+// on the article corpus (35 per million words), mostly ordinary statements.
 const MAX_PER_DOCUMENT = 2;
 
 const EMPHATIC_INTRANSITIVE_VERBS = new Set([
@@ -224,48 +231,11 @@ function classifyDemonstrativeCopular(
     : "demonstrative-copular";
 }
 
-// "The model is the writer." is emphasis; "The liver is the largest solid
-// organ in the human body." is a statement, so the first predicate clause is
-// capped unless the subject is a discourse noun ("The bottom line is that
-// the process shows meaningful progress.").
-const MAX_DEFINITE_PREDICATE_WORDS = 5;
-const DISCOURSE_SUBJECT_HEADS = new Set([
-  "answer",
-  "fact",
-  "lesson",
-  "line",
-  "point",
-  "problem",
-  "question",
-  "takeaway",
-  "truth"
-]);
-const CLAUSE_BREAKS = new Set(["-", ";", ","]);
-
-function firstPredicateLength(
-  text: string,
-  tokens: readonly string[],
-  copulaIndex: number
-): number {
-  const predicate = tokens.slice(copulaIndex + 1);
-  const copulaWord = tokens[copulaIndex];
-  const copula = wordTokens(text).find(
-    (token) => token.normalized === copulaWord
-  );
-  const rest = copula === undefined ? text : text.slice(copula.end);
-  const breakAt = [...rest].findIndex((character) =>
-    CLAUSE_BREAKS.has(character)
-  );
-  return breakAt < 0
-    ? predicate.length
-    : wordTokens(rest.slice(0, breakAt)).length;
-}
-
 function classifyDefiniteShortCopular(
   text: string,
   tokens: readonly string[]
 ): string | undefined {
-  if (!DEFINITE_DETERMINERS.has(tokens[0] ?? "")) {
+  if (!DEFINITE_DETERMINERS.has(tokens[0] ?? "") || hasInnerProperNoun(text)) {
     return undefined;
   }
 

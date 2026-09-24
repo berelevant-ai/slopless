@@ -469,3 +469,5 @@ The leak took two days to find because the meter only logs hourly.
 It became possible to make lots of new things, and sometimes the existing companies were not the ones that made them.
 
 I've seen the difference shape the 2019 budget by 12 percent.
+
+The parser reflects the token stream and the cache reflects the request.

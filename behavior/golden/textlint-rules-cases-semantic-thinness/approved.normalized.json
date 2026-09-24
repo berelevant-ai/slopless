@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -267.75. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -271.81. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -62,7 +62,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 137.21. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 138.81. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -7548,6 +7548,98 @@
         "ruleId": "generic-signposting",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12695,
+        "line": 527,
+        "loc": {
+          "end": {
+            "column": 90,
+            "line": 527
+          },
+          "start": {
+            "column": 1,
+            "line": 527
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          12695,
+          12784
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 33,
+        "index": 12727,
+        "line": 527,
+        "loc": {
+          "end": {
+            "column": 90,
+            "line": 527
+          },
+          "start": {
+            "column": 33,
+            "line": 527
+          }
+        },
+        "message": "Superficial trailing analysis found: \"and reflects the region's enduring cultural significance.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          12727,
+          12784
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 12786,
+        "line": 529,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 529
+          },
+          "start": {
+            "column": 1,
+            "line": 529
+          }
+        },
+        "message": "Semantic thinness (hollow-significance): Catch broad importance, legacy, trend, and turning-point claims that replace a concrete result. Matched template: {subject} highlights the {importanceModifier} {importanceNoun}",
+        "range": [
+          12786,
+          12856
+        ],
+        "ruleId": "semantic-thinness",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 32,
+        "index": 12817,
+        "line": 529,
+        "loc": {
+          "end": {
+            "column": 71,
+            "line": 529
+          },
+          "start": {
+            "column": 32,
+            "line": 529
+          }
+        },
+        "message": "Superficial trailing analysis found: \", which underscores its lasting legacy.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          12817,
+          12856
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -7591,7 +7683,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is -1175.12. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is -1181.21. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -7614,7 +7706,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 497.22. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 499.61. Keep it at 12 or lower.",
         "range": [
           0,
           1

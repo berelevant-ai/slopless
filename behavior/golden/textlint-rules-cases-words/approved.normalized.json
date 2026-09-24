@@ -4753,6 +4753,29 @@
         "type": "lint"
       },
       {
+        "column": 78,
+        "index": 7190,
+        "line": 269,
+        "loc": {
+          "end": {
+            "column": 106,
+            "line": 269
+          },
+          "start": {
+            "column": 78,
+            "line": 269
+          }
+        },
+        "message": "Superficial trailing analysis found: \"and enhances lasting impact.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          7190,
+          7218
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 1,
         "index": 7220,
         "line": 271,
@@ -4910,6 +4933,29 @@
           7496
         ],
         "ruleId": "llm-vocabulary",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 49,
+        "index": 7473,
+        "line": 275,
+        "loc": {
+          "end": {
+            "column": 108,
+            "line": 275
+          },
+          "start": {
+            "column": 49,
+            "line": 275
+          }
+        },
+        "message": "Superficial trailing analysis found: \"and fosters an enduring commitment to inclusive innovation.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          7473,
+          7532
+        ],
+        "ruleId": "superficial-analysis",
         "severity": 2,
         "type": "lint"
       },
@@ -5285,7 +5331,43 @@
   },
   {
     "filePath": "behavior/fixtures/textlint-rules/cases/words/quietly-below-minimum.md",
-    "messages": []
+    "messages": [
+      {
+        "column": 30,
+        "data": {
+          "message": "\"quietly\" used 3 times (125 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              29,
+              36
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 2
+        },
+        "index": 29,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 1
+          },
+          "start": {
+            "column": 30,
+            "line": 1
+          }
+        },
+        "message": "\"quietly\" used 3 times (125 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "range": [
+          29,
+          36
+        ],
+        "ruleId": "quietly-overuse",
+        "severity": 2,
+        "type": "lint"
+      }
+    ]
   },
   {
     "filePath": "behavior/fixtures/textlint-rules/cases/words/quietly-hard-break.md",

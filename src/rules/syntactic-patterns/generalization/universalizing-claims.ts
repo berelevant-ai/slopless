@@ -19,32 +19,23 @@ const PREFIXES = [
 // vague-quantifier + abstract-noun arm ("many reasons", "some things", "several
 // challenges") was removed: those are ordinary counts, not universalizing claims, and
 // were the dominant false positive.
-const SUBJECT_PATTERNS = [
+// Universal subjects: "everyone", "no one", "we all", "all of us", or a broad
+// quantifier over a human group ("most parents", "every founder", "all
+// teams", "for many people").
+const UNIVERSAL_SUBJECTS: readonly (readonly string[])[] = [
   ["everyone"],
   ["everybody"],
   ["we", "all"],
-  ["many", "adults"],
-  ["many", "couples"],
-  ["many", "families"],
-  ["many", "kids"],
-  ["many", "parents"],
-  ["many", "people"],
-  ["many", "of", "us"],
-  ["most", "adults"],
-  ["most", "couples"],
-  ["most", "people"],
+  ["all", "of", "us"],
   ["most", "of", "us"],
-  ["most", "parents"],
-  ["most", "families"],
-  ["most", "kids"],
-  ["for", "many", "adults"],
-  ["for", "many", "families"],
-  ["for", "many", "parents"],
-  ["for", "many", "people"],
-  ["for", "most", "people"],
+  ["many", "of", "us"],
+  ["none", "of", "us"],
   ["no", "one"],
-  ["nobody"]
-] as const;
+  ["nobody"],
+  ["anyone"],
+  ["anybody"]
+];
+const GROUP_QUANTIFIERS = ["most", "many", "every", "all", "no", "any"];
 const DESIRE_VERBS = [
   "want",
   "wants",
@@ -59,7 +50,21 @@ const DESIRE_VERBS = [
   "reach",
   "reaches",
   "try",
-  "tries"
+  "tries",
+  "need",
+  "needs",
+  "wish",
+  "wishes",
+  "love",
+  "loves",
+  "hate",
+  "hates",
+  "fear",
+  "fears",
+  "prefer",
+  "prefers",
+  "struggle",
+  "struggles"
 ];
 const CERTAINTY_VERBS = [
   "assume",
@@ -67,20 +72,67 @@ const CERTAINTY_VERBS = [
   "expect",
   "expects",
   "know",
-  "knows"
+  "knows",
+  "believe",
+  "believes",
+  "think",
+  "thinks",
+  "understand",
+  "understands",
+  "agree",
+  "agrees",
+  "feel",
+  "feels",
+  "tend",
+  "tends",
+  "forget",
+  "forgets",
+  "ignore",
+  "ignores",
+  "underestimate",
+  "underestimates",
+  "overestimate",
+  "overestimates",
+  "fail",
+  "fails",
+  "realize",
+  "realizes"
 ];
+const VERB_WINDOW = 6;
 const HUMAN_GROUP_SUBJECTS = [
   "adults",
+  "brands",
+  "businesses",
+  "buyers",
   "children",
+  "clients",
+  "companies",
   "couples",
+  "customers",
   "dads",
+  "developers",
+  "employees",
+  "engineers",
   "families",
+  "founders",
+  "humans",
   "kids",
+  "leaders",
+  "managers",
+  "marketers",
+  "men",
   "moms",
+  "organizations",
   "parents",
   "people",
+  "readers",
   "students",
-  "teachers"
+  "teachers",
+  "teams",
+  "users",
+  "women",
+  "workers",
+  "writers"
 ];
 const GROUP_BEHAVIOR_GERUNDS = [
   "asking",
@@ -232,8 +284,48 @@ function matchGroupBehavior(words: readonly string[]): string | undefined {
   return undefined;
 }
 
+function universalSubjectLength(words: readonly string[]): number | undefined {
+  const start = words[0] === "for" ? 1 : 0;
+  const rest = words.slice(start);
+  const fixed = UNIVERSAL_SUBJECTS.find((subject) =>
+    startsWithWords(rest, subject)
+  );
+  if (fixed !== undefined) {
+    return start + fixed.length;
+  }
+  const [quantifier, second, third] = rest;
+  if (quantifier === undefined || !GROUP_QUANTIFIERS.includes(quantifier)) {
+    return undefined;
+  }
+  if (
+    second === "of" &&
+    third !== undefined &&
+    HUMAN_GROUP_SUBJECTS.includes(third)
+  ) {
+    return start + 3;
+  }
+  if (second !== undefined && HUMAN_GROUP_SUBJECTS.includes(second)) {
+    return start + 2;
+  }
+  // "every founder", "any parent": singular after every/any/no
+  const singular = second === undefined ? undefined : `${second}s`;
+  return ["every", "any", "no"].includes(quantifier) &&
+    singular !== undefined &&
+    HUMAN_GROUP_SUBJECTS.includes(singular)
+    ? start + 2
+    : undefined;
+}
+
+function hasDigit(text: string): boolean {
+  return [...text].some((character) => character >= "0" && character <= "9");
+}
+
 function matchUniversalizing(sentence: string): string | undefined {
   const cleaned = cleanSentence(sentence, PREFIXES);
+  // "Most adults need at least 7 hours of sleep per night." is bounded.
+  if (hasDigit(cleaned)) {
+    return undefined;
+  }
   const words = tokens(cleaned);
   const vagueSource = matchVagueSuperlativeSource(words);
   if (vagueSource !== undefined) {
@@ -246,22 +338,19 @@ function matchUniversalizing(sentence: string): string | undefined {
     return group;
   }
 
-  for (const subject of SUBJECT_PATTERNS) {
-    if (!startsWithWords(words, subject)) {
-      continue;
-    }
-
-    const window = words.slice(subject.length, subject.length + 4);
-    const verb =
-      window.find((candidate) => DESIRE_VERBS.includes(candidate)) ??
-      window.find((candidate) => CERTAINTY_VERBS.includes(candidate));
-
-    if (verb !== undefined) {
-      return `${subject.join(" ")} ${verb}`;
-    }
+  const subjectLength = universalSubjectLength(words);
+  if (subjectLength === undefined) {
+    return undefined;
   }
 
-  return undefined;
+  const window = words.slice(subjectLength, subjectLength + VERB_WINDOW);
+  const verb =
+    window.find((candidate) => DESIRE_VERBS.includes(candidate)) ??
+    window.find((candidate) => CERTAINTY_VERBS.includes(candidate));
+
+  return verb === undefined
+    ? undefined
+    : `${words.slice(0, subjectLength).join(" ")} ${verb}`;
 }
 
 const rule = oneToOneRule({

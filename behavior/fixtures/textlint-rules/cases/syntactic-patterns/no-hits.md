@@ -76,8 +76,6 @@ Nobody noticed the change at first.
 
 The data supports this conclusion.
 
-Research shows that children need sleep.
-
 A person may feel tired despite apparently sleeping enough.
 
 Most adults need at least 7 hours of sleep per night.
@@ -127,8 +125,6 @@ However, the rollback owner signed the launch note after the incident review.
 The report says the queue recovered. Its owner signed the rollback. Finance approved the export before the deadline moved.
 
 Experts at the World Health Organization describe sleep guidance in the public report.
-
-Research shows that children need sleep.
 
 Data from the June retention cohort shows that renewal improved by four percent.
 
@@ -904,3 +900,13 @@ This is where the pipe enters the tank, about 40 cm above the floor.
 That part of the form is optional.
 
 We keep the spare keys in the drawer by the door, where the cleaner can find them.
+
+Studies show a 12 percent drop (Smith, 2019).
+
+Most people in the survey of 400 respondents wanted a refund.
+
+Every parent at the meeting signed the form.
+
+She was told to be honest with the auditor.
+
+The API code was closed and the server exit code was 0.

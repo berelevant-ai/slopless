@@ -16,7 +16,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 53.14. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 53.04. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -39,7 +39,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 12.89. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.91. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -4208,6 +4208,29 @@
           22623
         ],
         "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 22625,
+        "line": 535,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 535
+          },
+          "start": {
+            "column": 1,
+            "line": 535
+          }
+        },
+        "message": "Universalizing claim found: most couples need. Replace the broad claim with a bounded claim.",
+        "range": [
+          22625,
+          22665
+        ],
+        "ruleId": "universalizing-claims",
         "severity": 2,
         "type": "lint"
       },
@@ -10441,6 +10464,29 @@
           44845
         ],
         "ruleId": "authority-padding",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 44798,
+        "line": 911,
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 911
+          },
+          "start": {
+            "column": 1,
+            "line": 911
+          }
+        },
+        "message": "Uncited authority found: the science is clear. Name the source, cite the evidence, or make the claim directly.",
+        "range": [
+          44798,
+          44845
+        ],
+        "ruleId": "uncited-authority",
         "severity": 2,
         "type": "lint"
       },
@@ -18771,6 +18817,29 @@
         "type": "lint"
       },
       {
+        "column": 50,
+        "index": 63478,
+        "line": 1553,
+        "loc": {
+          "end": {
+            "column": 81,
+            "line": 1553
+          },
+          "start": {
+            "column": 50,
+            "line": 1553
+          }
+        },
+        "message": "Superficial trailing analysis found: \", and drives meaningful change.\". Remove the appended significance claim or state evidence for it.",
+        "range": [
+          63478,
+          63509
+        ],
+        "ruleId": "superficial-analysis",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
         "column": 1,
         "data": {
           "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Cassia stepped; Cassia looked; Cassia waited). Review whether the repeated structure serves the passage.",
@@ -22668,6 +22737,397 @@
         "ruleId": "empty-emphasis",
         "severity": 2,
         "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74336,
+        "line": 1847,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 1847
+          },
+          "start": {
+            "column": 1,
+            "line": 1847
+          }
+        },
+        "message": "Uncited authority found: research shows. Name the source, cite the evidence, or make the claim directly.",
+        "range": [
+          74336,
+          74376
+        ],
+        "ruleId": "uncited-authority",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74378,
+        "line": 1849,
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1849
+          },
+          "start": {
+            "column": 1,
+            "line": 1849
+          }
+        },
+        "message": "Universalizing claim found: every parent wants. Replace the broad claim with a bounded claim.",
+        "range": [
+          74378,
+          74405
+        ],
+        "ruleId": "universalizing-claims",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74407,
+        "line": 1851,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 1851
+          },
+          "start": {
+            "column": 1,
+            "line": 1851
+          }
+        },
+        "message": "Universalizing claim found: all of us want. Replace the broad claim with a bounded claim.",
+        "range": [
+          74407,
+          74430
+        ],
+        "ruleId": "universalizing-claims",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74432,
+        "line": 1853,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 1853
+          },
+          "start": {
+            "column": 1,
+            "line": 1853
+          }
+        },
+        "message": "Universalizing claim found: most teams believe. Replace the broad claim with a bounded claim.",
+        "range": [
+          74432,
+          74462
+        ],
+        "ruleId": "universalizing-claims",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74464,
+        "line": 1855,
+        "loc": {
+          "end": {
+            "column": 45,
+            "line": 1855
+          },
+          "start": {
+            "column": 1,
+            "line": 1855
+          }
+        },
+        "message": "Universalizing claim found: most people want. Replace the broad claim with a bounded claim.",
+        "range": [
+          74464,
+          74508
+        ],
+        "ruleId": "universalizing-claims",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74510,
+        "line": 1857,
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 1857
+          },
+          "start": {
+            "column": 1,
+            "line": 1857
+          }
+        },
+        "message": "Universalizing claim found: no founder wants. Replace the broad claim with a bounded claim.",
+        "range": [
+          74510,
+          74540
+        ],
+        "ruleId": "universalizing-claims",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74542,
+        "line": 1859,
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 1859
+          },
+          "start": {
+            "column": 1,
+            "line": 1859
+          }
+        },
+        "message": "Universalizing claim found: for many readers feels. Replace the broad claim with a bounded claim.",
+        "range": [
+          74542,
+          74585
+        ],
+        "ruleId": "universalizing-claims",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74587,
+        "line": 1861,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 1861
+          },
+          "start": {
+            "column": 1,
+            "line": 1861
+          }
+        },
+        "message": "Uncited authority found: recent studies show. Name the source, cite the evidence, or make the claim directly.",
+        "range": [
+          74587,
+          74622
+        ],
+        "ruleId": "uncited-authority",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74624,
+        "line": 1863,
+        "loc": {
+          "end": {
+            "column": 49,
+            "line": 1863
+          },
+          "start": {
+            "column": 1,
+            "line": 1863
+          }
+        },
+        "message": "Uncited authority found: a growing body of research shows. Name the source, cite the evidence, or make the claim directly.",
+        "range": [
+          74624,
+          74672
+        ],
+        "ruleId": "uncited-authority",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74674,
+        "line": 1865,
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1865
+          },
+          "start": {
+            "column": 1,
+            "line": 1865
+          }
+        },
+        "message": "SEO filler found: \"It is no secret that\". Cut the filler and lead with the specific point.",
+        "range": [
+          74674,
+          74694
+        ],
+        "ruleId": "seo-filler",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74674,
+        "line": 1865,
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 1865
+          },
+          "start": {
+            "column": 1,
+            "line": 1865
+          }
+        },
+        "message": "Uncited authority found: it is no secret that. Name the source, cite the evidence, or make the claim directly.",
+        "range": [
+          74674,
+          74714
+        ],
+        "ruleId": "uncited-authority",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74716,
+        "line": 1867,
+        "loc": {
+          "end": {
+            "column": 57,
+            "line": 1867
+          },
+          "start": {
+            "column": 1,
+            "line": 1867
+          }
+        },
+        "message": "Uncited authority found: studies show. Name the source, cite the evidence, or make the claim directly.",
+        "range": [
+          74716,
+          74772
+        ],
+        "ruleId": "uncited-authority",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74774,
+        "line": 1869,
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 1869
+          },
+          "start": {
+            "column": 1,
+            "line": 1869
+          }
+        },
+        "message": "Boilerplate framing found: to be perfectly clear. Start with the specific point.",
+        "range": [
+          74774,
+          74817
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74819,
+        "line": 1871,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1871
+          },
+          "start": {
+            "column": 1,
+            "line": 1871
+          }
+        },
+        "message": "Boilerplate framing found: to be brutally honest. Start with the specific point.",
+        "range": [
+          74819,
+          74860
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74862,
+        "line": 1873,
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 1873
+          },
+          "start": {
+            "column": 1,
+            "line": 1873
+          }
+        },
+        "message": "Boilerplate framing found: make no mistake. Start with the specific point.",
+        "range": [
+          74862,
+          74897
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74899,
+        "line": 1875,
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 1875
+          },
+          "start": {
+            "column": 1,
+            "line": 1875
+          }
+        },
+        "message": "Boilerplate framing found: i keep coming back to. Start with the specific point.",
+        "range": [
+          74899,
+          74957
+        ],
+        "ruleId": "boilerplate-framing",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 74959,
+        "line": 1877,
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1877
+          },
+          "start": {
+            "column": 1,
+            "line": 1877
+          }
+        },
+        "message": "Negation reframe found: \"It's not about the code. It's about the craft.\". Rewrite the staged negation as a direct claim.",
+        "range": [
+          74959,
+          75005
+        ],
+        "ruleId": "negation-reframe",
+        "severity": 2,
+        "type": "lint"
       }
     ]
   },
@@ -22688,7 +23148,7 @@
             "line": 1
           }
         },
-        "message": "Flesch Reading Ease is 50.4. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 50.2. Keep it at 61 or higher.",
         "range": [
           0,
           1
@@ -22711,7 +23171,7 @@
             "line": 1
           }
         },
-        "message": "Gunning Fog is 13.96. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 14.04. Keep it at 12 or lower.",
         "range": [
           0,
           1
@@ -22722,22 +23182,22 @@
       },
       {
         "column": 1,
-        "index": 4301,
-        "line": 137,
+        "index": 4217,
+        "line": 133,
         "loc": {
           "end": {
             "column": 72,
-            "line": 137
+            "line": 133
           },
           "start": {
             "column": 1,
-            "line": 137
+            "line": 133
           }
         },
         "message": "Boilerplate framing found: the bottom line is. Start with the specific point.",
         "range": [
-          4301,
-          4372
+          4217,
+          4288
         ],
         "ruleId": "boilerplate-framing",
         "severity": 2,
@@ -22757,22 +23217,22 @@
           },
           "severity": 2
         },
-        "index": 24038,
-        "line": 687,
+        "index": 23954,
+        "line": 683,
         "loc": {
           "end": {
             "column": 100,
-            "line": 687
+            "line": 683
           },
           "start": {
             "column": 1,
-            "line": 687
+            "line": 683
           }
         },
         "message": "Repetitive action rhythm: 3 nearby clauses repeat subject-first structure (Kendall looked; he looked; he picked). Review whether the repeated structure serves the passage.",
         "range": [
-          24038,
-          24137
+          23954,
+          24053
         ],
         "ruleId": "flat-action-cadence",
         "severity": 2,
@@ -22780,22 +23240,22 @@
       },
       {
         "column": 9,
-        "index": 24046,
-        "line": 687,
+        "index": 23962,
+        "line": 683,
         "loc": {
           "end": {
             "column": 49,
-            "line": 687
+            "line": 683
           },
           "start": {
             "column": 9,
-            "line": 687
+            "line": 683
           }
         },
         "message": "Perception verb density: 2 perception verbs in a short span (looked).",
         "range": [
-          24046,
-          24086
+          23962,
+          24002
         ],
         "ruleId": "perception-verb-density",
         "severity": 2,

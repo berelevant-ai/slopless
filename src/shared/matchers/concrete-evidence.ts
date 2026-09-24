@@ -1,4 +1,3 @@
-import { wordTokens } from "../text/tokens.js";
 import { tokens } from "./prose-patterns.js";
 
 const TECHNICAL_REVERSAL_TOKENS = new Set([
@@ -91,6 +90,7 @@ const IMPLEMENTATION_SUMMARY_TOKENS = new Set([
   "repayment",
   "signing",
   "staging",
+  "token",
   "tokens",
   "voltage"
 ]);
@@ -121,9 +121,12 @@ export function hasConcreteTechnicalToken(text: string): boolean {
   return containsToken(words, TECHNICAL_REVERSAL_TOKENS);
 }
 
+// One correction token is not enough ("It's not about the code. It's about
+// the craft."); two, or one with a number, mark a factual correction.
 export function hasConcreteCorrectionEvidence(text: string): boolean {
   const words = tokens(text);
-  return containsToken(words, CORRECTION_TOKENS);
+  const count = words.filter((word) => CORRECTION_TOKENS.has(word)).length;
+  return count >= 2 || (count >= 1 && hasDigit(text));
 }
 
 export function hasConcreteAuthorityEvidence(text: string): boolean {
@@ -131,9 +134,10 @@ export function hasConcreteAuthorityEvidence(text: string): boolean {
   return containsToken(words, AUTHORITY_CONCRETE_TOKENS);
 }
 
-// Structural concreteness: a possessive proper name (Rory's spare key) or a
-// passive location ("documented in the rollback checklist"). A colon payoff
-// does not count: "the fun part is: ..." is still a frame.
+// Structural concreteness: a passive location ("documented in the rollback
+// checklist"). A colon payoff does not count: "the fun part is: ..." is
+// still a frame, and a possessive is not evidence either ("Google's own
+// requirements offer a useful corrective." is a frame).
 const LOCATION_PASSIVES = new Set([
   "defined",
   "described",
@@ -146,17 +150,6 @@ const LOCATION_PASSIVES = new Set([
 ]);
 const LOCATION_LINKS = new Set(["at", "in", "on", "under"]);
 
-function hasPossessiveName(text: string): boolean {
-  return wordTokens(text).some(
-    (token) =>
-      token.normalized.endsWith("'s") &&
-      token.text[0] !== undefined &&
-      token.text[0] >= "A" &&
-      token.text[0] <= "Z" &&
-      token.text.length > 3
-  );
-}
-
 function hasPassiveLocation(words: readonly string[]): boolean {
   return words.some(
     (word, index) =>
@@ -168,7 +161,6 @@ export function hasConcreteImplementationSummary(text: string): boolean {
   const words = tokens(text);
   return (
     hasDigit(text) ||
-    hasPossessiveName(text) ||
     hasPassiveLocation(words) ||
     containsToken(words, MEDICAL_PLACE_TOKENS) ||
     containsToken(words, IMPLEMENTATION_SUMMARY_TOKENS) ||
