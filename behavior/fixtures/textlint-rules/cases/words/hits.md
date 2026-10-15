@@ -279,3 +279,38 @@ The platform offers valuable insights into the intricate interplay of strategy, 
 The empirical narrative highlights a causal relationship and correlates it with a broader transformation.
 
 The guide invites readers to embark on a meticulous exploration of the intricate intricacies where the platform excels.
+
+## Contextual adverb expansion
+
+The policy protects the workers and is quietly doing the heavy lifting.
+
+The policy
+is quietly doing the heavy lifting.
+
+The assumption's quietly doing the heavy lifting.
+
+The policy will quietly be doing the heavy lifting.
+
+The distinction is quietly essential.
+
+The assumption is silently decisive.
+
+The policy is quietly very important.
+
+The policy is quietly more important.
+
+The policy is quietly the most important constraint.
+
+The policy is silently the most consequential decision.
+
+The distinction is quietly doing the heavy lifting.
+
+The policy is silently load-bearing.
+
+The argument remains quietly indispensable.
+
+The premise is silently pivotal.
+
+The proposal is quietly quite remarkable.
+
+The policy was silently less effective.

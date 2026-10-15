@@ -918,3 +918,109 @@ That's why this matters for the escalation policy.
 That's why we care about defaults.
 
 Which is why they fail in production.
+
+## Framing expansion
+
+The crew with the equipment and the safety policy are doing the heavy lifting.
+
+The workers follow the policy and do the heavy lifting.
+
+The forklift follows the policy and does the heavy lifting.
+
+The workers follow the policy and are quietly doing the heavy lifting.
+
+The policy for that building says the wall is load-bearing.
+
+That policy says the wall is load-bearing.
+
+The workers who read and follow the policy are quietly doing the heavy lifting.
+
+The workers who follow the policy are quietly doing the heavy lifting.
+
+The policy says the wall is load-bearing.
+
+The staircase steps are load-bearing.
+
+The policy's load-bearing legal requirements apply to concrete walls.
+
+The narrower question is being removed from the survey.
+
+The question is narrower by about three categories.
+
+The question is narrower by a factor of 3.
+
+The crew following the policy are doing the heavy lifting.
+
+The policy's load-bearing requirements apply to concrete walls.
+
+The question's narrower wording confused the witness.
+
+The problem is narrow-angle glaucoma.
+
+The narrower question was removed from the survey.
+
+The steel frames are load-bearing.
+
+The concrete steps are load-bearing.
+
+The question is narrower by one category.
+
+The question is narrower by exactly 3 categories.
+
+The real question is narrower by precisely two categories.
+
+The cost is 400 euros per month.
+
+The risk is fraud.
+
+The risk is a missed launch date.
+
+The price is 12 pounds.
+
+The cost is time spent on the migration.
+
+The risk is losing control of the account.
+
+The estimated cost of control is 400 euros.
+
+She quoted "The trade is control" in the draft review.
+
+The corridor is narrow.
+
+The confidence interval narrowed from 12 points to 4.
+
+The study has a narrower scope: it covers withdrawals at licensed UK casinos.
+
+The trial endpoint was too narrow.
+
+The database has a narrow integer field.
+
+The question is narrower by 3 categories.
+
+The question is narrower from 12 categories to 4.
+
+We measured the narrowest part of the pipe.
+
+The client has a narrower viewport than the server assumed.
+
+The narrow passage is blocked.
+
+The retaining wall is load-bearing.
+
+This wall is load-bearing.
+
+The stone pillars were load-bearing.
+
+The forklift does the heavy lifting.
+
+The crew were doing the real work in the yard.
+
+The policy document is lying on a load-bearing beam.
+
+The policy explicitly prohibits heavy lifting after surgery.
+
+The distinction between a beam and a wall matters to the surveyor.
+
+The editor quoted "The policy is load-bearing" in the review.
+
+The risk was discussed. Time was recorded separately.

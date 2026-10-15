@@ -1364,3 +1364,32 @@ In the end, the jury acquitted him.
 In short, no, hard-to-pronounce names do not break immersion.
 
 This is why we suggest a coach because the first year is the hardest.
+
+## Reviewing the migration proposal
+
+The editorial team received a platform proposal whose author repeatedly introduced an adjective before explaining the change. The distinction is quietly essential. The assumption is silently decisive. The policy is quietly very important. The policy is quietly more important. The policy is quietly the most important constraint. The policy is silently the most consequential decision.
+
+The final paragraphs gave the same treatment to the report's reasoning. The distinction is quietly doing the heavy lifting. The policy is silently load-bearing. The argument remains quietly indispensable. The premise is silently pivotal. The proposal is quietly quite remarkable. The policy was silently less effective.
+
+During the meeting, the editor considered descriptions that conveyed a person's manner or specified software behavior. She is quietly confident. He spoke quietly to avoid waking the baby. The client silently retries failed requests after 500 milliseconds. The wall was quietly inspected by the surveyor. The workers quietly did the heavy lifting before dawn. The forklift silently lifted the crate.
+
+The editor quoted "quietly essential" in the review. The protocol silently drops malformed packets without a warning. The program prints quietly, then reports the most important error. The policy is quietly read aloud before the vote. The editor retained those descriptions while asking the proposal's author to state which contractual obligation each remaining claim described.
+
+## Following the subject through an editorial review
+
+The editor read two proposals for describing the migration plan. The assumption's quietly doing the heavy lifting. The policy will quietly be doing the heavy lifting. She highlighted their claims of understated importance and asked for the underlying evidence.
+
+The facilities report used similar words for ordinary actions. The policy is load-bearing, and the workers are quietly doing the heavy lifting. The workers left quietly, the most important task already complete. A quoted expression then appeared in the editorial notes. The policy is "silently decisive" in the review. The editor kept those words inside quotation marks so readers could distinguish the quotation from the surrounding explanation.
+
+A second version removed a comma while retaining the distinction between an abstract claim and the workers' manner. The policy is load-bearing and the workers are quietly doing the heavy lifting. The editor assigned the two clauses to their separate subjects before deciding which wording to change.
+
+The facilities manager used a longer subject in the following sentence. The workers who follow the policy are quietly doing the heavy lifting. The policy identified their procedure, while the adverb described how the workers moved the materials.
+
+He added a second verb to describe the workers' procedure. The workers who read and follow the policy are quietly doing the heavy lifting. The editor retained the description of their quiet work.
+
+The representative claimed an additional role for the agreement. The policy protects the workers and is quietly doing the heavy lifting. The facilities manager referred to the people instead. The workers follow the policy and are quietly doing the heavy lifting. The editor asked the representative to state the agreement's obligations directly and preserved the account of the workers.
+
+The next review packet concerned attributed statements in music and television coverage. The critic described the album as "quietly powerful". The reviewer called the ballad "quietly heartbreaking". The character was conceived as someone "quietly dynamic". The editor retained those phrases as quotations from the people whose assessments the articles reported.
+
+The editor pasted the same softly wrapped claim into her final notes. The policy
+is quietly doing the heavy lifting. She asked for evidence of the policy's role while preserving the line break from the source.

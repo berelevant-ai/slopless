@@ -17,7 +17,10 @@ import {
   isAbstractAuditFrame,
   matchReactionFrame,
   matchDiscourseEvaluationFrame,
-  matchExpandedDiscourseFrame
+  matchExpandedDiscourseFrame,
+  matchModifiedAbstractFrame,
+  findDiscourseFrames,
+  withoutMeasuredNarrowClauses
 } from "./private/discourse-evaluation.js";
 import { matchEvaluativeColonFrame } from "./private/evaluative-colon-frame.js";
 import { matchRelativeDiscourseFrame } from "./private/relative-discourse-frame.js";
@@ -121,27 +124,6 @@ const WHAT_MATTERS_CLAUSE_STARTERS = [
   "why"
 ];
 const POINT_NOUNS = ["goal", "job", "key", "point", "takeaway", "trick"];
-function matchModifiedAbstractFrame(
-  words: readonly string[]
-): string | undefined {
-  const [first, second, third, fourth] = words;
-
-  if (first !== "the") {
-    return undefined;
-  }
-
-  const key = `${second ?? ""}-${third ?? ""}-${fourth ?? ""}`;
-  const matches = new Map([
-    ["better-move-is", "the-better-move-is"],
-    ["bigger-win-is", "the-bigger-win-is"],
-    ["useful-move-is", "the-useful-move-is"],
-    ["useful-alternative-is", "the-useful-alternative-is"],
-    ["useful-alternatives-are", "the-useful-alternatives-are"]
-  ]);
-
-  return matches.get(key);
-}
-
 function matchPointIsToFrame(words: readonly string[]): string | undefined {
   const [first, second, third, fourth, fifth] = words;
 
@@ -264,6 +246,14 @@ function matchGeneratedFormula(text: string): string | undefined {
 }
 
 function matchSignposting(sentence: string): SentenceMatch | undefined {
+  const clauses = withoutMeasuredNarrowClauses(sentence);
+  if (clauses !== undefined) {
+    for (const clause of clauses) {
+      const match = matchSignposting(clause);
+      if (match !== undefined) return match;
+    }
+    return undefined;
+  }
   const stripped = cleanSentence(sentence, PREFIXES);
   const abstract = matchAbstractFrame(stripped);
   const strippedWords = tokens(stripped);
@@ -358,6 +348,14 @@ const rule = defineTextlintRule({
           return pairDetections;
         }
 
+        const frames = findDiscourseFrames(unit.text);
+        if (frames.length > 0) {
+          return frames.map((frame) => ({
+            ...frame,
+            ruleId: "syntactic-patterns:generic-signposting" as const,
+            unitId: unit.id
+          }));
+        }
         const componentSignal = matchComponentAssignmentFrame(unit.text);
         const colonSignal = matchEvaluativeColonFrame(unit.text);
         const matched =

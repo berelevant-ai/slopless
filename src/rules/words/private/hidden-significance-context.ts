@@ -1,6 +1,11 @@
 import { wordTokens, type Token } from "../../../shared/text/tokens.js";
+import { findUnquotedWordTokens } from "../../../shared/matchers/phrases.js";
 import hiddenSignificanceVocabulary from "../data/hidden-significance-context.json" with { type: "json" };
 import { hiddenSignificanceClauseFor } from "./hidden-significance-clause.js";
+import {
+  hasEvaluativePhrase,
+  hasImportanceMetaphor
+} from "./hidden-significance-evaluation.js";
 import {
   hasDetachedCompanion,
   hasInformativeChangeEvidence
@@ -40,7 +45,6 @@ const DETACHED_RESULT_WORDS = new Set(
   hiddenSignificanceVocabulary.detachedResultWords
 );
 const AUXILIARIES = new Set(hiddenSignificanceVocabulary.auxiliaries);
-const EVALUATIVE_WORDS = new Set(hiddenSignificanceVocabulary.evaluativeWords);
 const ABSTRACT_CHANGE_WORDS = new Set(
   hiddenSignificanceVocabulary.abstractChangeWords
 );
@@ -259,10 +263,11 @@ function contextClassFor(
     return "detached-emphasis";
   }
 
-  const nextWord = nextMeaningfulWord(tokens, index);
-  if (nextWord !== undefined && EVALUATIVE_WORDS.has(nextWord)) {
+  if (hasEvaluativePhrase(text, tokens, index)) {
     return "evaluative-intensifier";
   }
+  if (hasImportanceMetaphor(text, tokens, index))
+    return "background-significance";
 
   if (
     containsAny(localWords, HIDDEN_HARM_WORDS) ||
@@ -325,11 +330,18 @@ export function findHiddenSignificanceContextMatches(
 ): readonly HiddenSignificanceContextMatch[] {
   const target = hiddenSignificanceTargetConfiguration(targetName);
   const tokens = wordTokens(text);
+  const unquoted = new Set(
+    findUnquotedWordTokens(text).map((token) => token.start)
+  );
   const matches: HiddenSignificanceContextMatch[] = [];
 
   for (let index = 0; index < tokens.length; index += 1) {
     const token = tokens[index];
-    if (token?.normalized !== target.token || isInsideUrl(text, token)) {
+    if (
+      token?.normalized !== target.token ||
+      !unquoted.has(token.start) ||
+      isInsideUrl(text, token)
+    ) {
       continue;
     }
 

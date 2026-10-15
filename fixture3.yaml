@@ -15,6 +15,7 @@ features:
       - textlint-rules-cases-words
       - textlint-rules-corpus-editorial-style
       - textlint-rules-corpus-engineering-review
+      - textlint-rules-corpus-igaming-supplier-guide
       - textlint-rules-corpus-health-and-parenting
       - textlint-rules-corpus-linkedin-ai-search
       - textlint-rules-corpus-metrics-and-markdown
@@ -26,6 +27,20 @@ features:
       - slopless-cli-defaults
       - slopless-cli-narrative
 suites:
+  textlint-rules-corpus-igaming-supplier-guide:
+    fixtures:
+      - "behavior/fixtures/textlint-rules/corpus/igaming-supplier-guide.md"
+    command:
+      argv:
+        - "scripts/behavior-replay.sh"
+        - "{fixtures}"
+      ok_exit_codes:
+        - 0
+        - 1
+    storage:
+      approved_dir: "behavior/golden/textlint-rules-corpus-igaming-supplier-guide"
+      received_dir: ".fixture3/textlint-rules-corpus-igaming-supplier-guide"
+      diff_dir: ".fixture3/textlint-rules-corpus-igaming-supplier-guide"
   cadence-recognition:
     fixtures:
       - "behavior/fixtures/cadence/*.json"

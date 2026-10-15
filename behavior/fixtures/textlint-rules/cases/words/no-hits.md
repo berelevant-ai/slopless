@@ -265,3 +265,45 @@ The testament was admitted as evidence in the probate hearing.
 The valuable painting was insured for EUR 2 million.
 
 The migration actually finished ahead of schedule.
+
+## Contextual adverb expansion
+
+The critic described the album as "quietly powerful".
+
+The reviewer called the ballad "quietly heartbreaking".
+
+The character was conceived as someone "quietly dynamic".
+
+The workers follow the policy and are quietly doing the heavy lifting.
+
+The workers who read and follow the policy are quietly doing the heavy lifting.
+
+The workers who follow the policy are quietly doing the heavy lifting.
+
+The policy is load-bearing and the workers are quietly doing the heavy lifting.
+
+The policy is load-bearing, and the workers are quietly doing the heavy lifting.
+
+The workers left quietly, the most important task already complete.
+
+The policy is "silently decisive" in the review.
+
+She is quietly confident.
+
+He spoke quietly to avoid waking the baby.
+
+The client silently retries failed requests after 500 milliseconds.
+
+The wall was quietly inspected by the surveyor.
+
+The workers quietly did the heavy lifting before dawn.
+
+The forklift silently lifted the crate.
+
+The editor quoted "quietly essential" in the review.
+
+The protocol silently drops malformed packets without a warning.
+
+The program prints quietly, then reports the most important error.
+
+The policy is quietly read aloud before the vote.

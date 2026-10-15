@@ -1,12 +1,18 @@
 import { matchEvaluativeFrame } from "./evaluative-frame.js";
 import { matchEvaluativeObjectFrame } from "./evaluative-object-frame.js";
+import {
+  FRAME_ADJECTIVES,
+  FRAME_NOUNS,
+  DISCOURSE_SUBJECT_HEADS
+} from "./discourse-vocabulary.js";
+import { findAbstractCostFrames } from "./abstract-cost-frame.js";
+import { findNarrowFrames } from "./narrow-frame.js";
+export { withoutMeasuredNarrowClauses } from "./narrow-frame.js";
+import { findImportanceFrames } from "./importance-frame.js";
+import type { LocalDetection } from "../../../private/textlint-rule-builders.js";
 export { matchReactionFrame } from "./reaction-frame.js";
 
 const ABSTRACT_FRAME_VERBS = ["is", "are", "was", "were"];
-const DISCOURSE_WORK_TAILS = [
-  ["doing", "real", "work"],
-  ["load", "bearing"]
-] as const;
 const DEICTIC_OPENERS = new Set(["here", "this", "that"]);
 const DEICTIC_CONTRACTIONS = new Map([
   ["here's", "here"],
@@ -54,77 +60,6 @@ const DEICTIC_DISCOURSE_NOUNS = new Set([
   "thing",
   "twist"
 ]);
-export const FRAME_ADJECTIVES = new Set([
-  "actual",
-  "basic",
-  "best",
-  "better",
-  "biggest",
-  "bigger",
-  "central",
-  "clearest",
-  "core",
-  "correct",
-  "deeper",
-  "easiest",
-  "final",
-  "first",
-  "hard",
-  "harder",
-  "hardest",
-  "honest",
-  "important",
-  "interesting",
-  "key",
-  "main",
-  "only",
-  "obvious",
-  "practical",
-  "real",
-  "right",
-  "sharper",
-  "simple",
-  "smarter",
-  "tricky",
-  "uncomfortable",
-  "underlying",
-  "useful",
-  "wrong"
-]);
-export const FRAME_NOUNS = new Set([
-  "answer",
-  "approach",
-  "audit",
-  "challenge",
-  "choice",
-  "conclusion",
-  "diagnosis",
-  "fact",
-  "fix",
-  "focus",
-  "frame",
-  "idea",
-  "lesson",
-  "move",
-  "path",
-  "point",
-  "principle",
-  "priority",
-  "problem",
-  "question",
-  "result",
-  "rule",
-  "shift",
-  "signal",
-  "strategy",
-  "test",
-  "thing",
-  "tradeoff",
-  "truth",
-  "version",
-  "way",
-  "win"
-]);
 const VAGUE_FRAME_VERBS = new Set(["begins", "happens", "lives", "starts"]);
 const VAGUE_FRAME_LOCATIONS = new Set([
   "downstream",
@@ -152,54 +87,6 @@ const EVALUATION_TAILS = new Set([
   "worse",
   "wrong"
 ]);
-const DISCOURSE_SUBJECT_HEADS = new Set([
-  "advice",
-  "answer",
-  "approach",
-  "challenge",
-  "choice",
-  "claim",
-  "conclusion",
-  "decision",
-  "diagnosis",
-  "direction",
-  "fact",
-  "fix",
-  "focus",
-  "frame",
-  "idea",
-  "layer",
-  "issue",
-  "job",
-  "judgment",
-  "lesson",
-  "method",
-  "mistake",
-  "move",
-  "option",
-  "plan",
-  "point",
-  "policy",
-  "problem",
-  "question",
-  "response",
-  "result",
-  "rule",
-  "shift",
-  "signal",
-  "solution",
-  "step",
-  "strategy",
-  "tactic",
-  "takeaway",
-  "test",
-  "tradeoff",
-  "truth",
-  "verdict",
-  "version",
-  "way",
-  "work"
-]);
 
 function isDiscourseEvaluationSubject(
   first: string | undefined,
@@ -212,24 +99,25 @@ function isDiscourseEvaluationSubject(
   return subject.some((word) => DISCOURSE_SUBJECT_HEADS.has(word));
 }
 
-function matchDiscourseWorkClaim(
-  words: readonly string[],
-  verbIndex: number,
-  subject: readonly string[]
-): string | undefined {
-  if (
-    verbIndex <= 0 ||
-    words[verbIndex] !== "is" ||
-    !DISCOURSE_SUBJECT_HEADS.has(subject.at(-1) ?? "")
-  ) {
-    return undefined;
-  }
-
-  const tail = DISCOURSE_WORK_TAILS.find((candidate) =>
-    candidate.every((word, index) => words[verbIndex + index + 1] === word)
+export function findDiscourseFrames(text: string): readonly LocalDetection[] {
+  const matches = [
+    ...findAbstractCostFrames(text),
+    ...findNarrowFrames(text),
+    ...findImportanceFrames(text)
+  ];
+  return matches.filter(
+    (match, index) =>
+      !matches.some(
+        (other, otherIndex) =>
+          otherIndex !== index &&
+          other.label === match.label &&
+          other.range.start <= match.range.start &&
+          other.range.end >= match.range.end &&
+          (other.range.start < match.range.start ||
+            other.range.end > match.range.end ||
+            otherIndex < index)
+      )
   );
-
-  return tail === undefined ? undefined : `is-${tail.join("-")}`;
 }
 
 function frameNounIndex(words: readonly string[]): number {
@@ -340,6 +228,21 @@ export function matchExpandedDiscourseFrame(
   );
 }
 
+export function matchModifiedAbstractFrame(
+  words: readonly string[]
+): string | undefined {
+  const [first, second, third, fourth] = words;
+  if (first !== "the") return undefined;
+  const matches = new Map([
+    ["better-move-is", "the-better-move-is"],
+    ["bigger-win-is", "the-bigger-win-is"],
+    ["useful-move-is", "the-useful-move-is"],
+    ["useful-alternative-is", "the-useful-alternative-is"],
+    ["useful-alternatives-are", "the-useful-alternatives-are"]
+  ]);
+  return matches.get(`${second ?? ""}-${third ?? ""}-${fourth ?? ""}`);
+}
+
 export function matchDiscourseEvaluationFrame(
   words: readonly string[]
 ): string | undefined {
@@ -349,11 +252,6 @@ export function matchDiscourseEvaluationFrame(
   );
   const tail = words.at(-1);
   const subject = verbIndex > 0 ? words.slice(0, verbIndex) : [];
-
-  const workClaim = matchDiscourseWorkClaim(words, verbIndex, subject);
-  if (workClaim !== undefined) {
-    return workClaim;
-  }
 
   if (words.length > 8) {
     return undefined;
