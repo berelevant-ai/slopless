@@ -1,0 +1,17 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/lead-ins/private/narrow-frame.ts"],
+        "required": ["coverage", "vocabulary", "hasAttachedConstraint"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/lead-ins/private/narrow-frame-constraints.ts"],
+        "required": ["bounded", "constrained", "restricted", "hasAttachedConstraint"]
+      }
+    ]
+  }
+}

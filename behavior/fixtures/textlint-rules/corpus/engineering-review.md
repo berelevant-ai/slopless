@@ -1536,3 +1536,76 @@ The survey editor returned to the revised questionnaire. The narrower question i
 
 The editor pasted one softly wrapped line from the source document into the review notes. The policy
 is quietly doing the heavy lifting. She kept the source line break while checking that its meaning survived the paste.
+
+## Describing the limits of the migration review
+
+The documentation editor reviewed the vocabulary section of the migration proposal. Its vocabulary remains bounded. The scope remains bounded. The coverage is limited. Our approach stays constrained.
+
+The proposal then compared how different reviewers described the same system. The implementation generalizes combinations and grammar, but its vocabulary remains bounded. Their perspectives are restricted. The lexicon is narrowly bounded. This analysis is severely limited.
+
+The next revision retained statements about the investigation's scope. That conclusion remains inherently constrained. The applicability was restricted. Our remit stayed limited. The scope's bounded.
+
+The editor examined shorter declarations and their modified forms. The coverage's severely limited. The vocabulary seems restricted. The explanation became more constrained. The actual scope remains tightly restricted.
+
+The supplier review moved from individual methods to the proposed service. Those methods are considerably narrower. Our solution is limited in practice. The understanding is limited for now. Their reach remains bounded after the launch.
+
+The team discussed which questions the report would answer. The ambition is constrained, even after 12 revisions. The inquiry is restricted. The investigation remains bounded. The interpretation is limited.
+
+The chair returned to the vendor decision and the available interpretations. The focus stayed narrow. Their view is restricted. The available options remain constrained. The narrow scope is choosing the vendor.
+
+The final draft described the choice facing the integration team. The restricted question is which API to use. They face a limited choice. We have a much narrower vocabulary. The scope stays bounded, by contrast, after twelve reviews.
+
+The technical appendix supplied direct limits for the same system. Its vocabulary is limited to 12 payoff words. The scope remains bounded by the signed contract. The coverage is limited to English Markdown. Our approach is constrained by a 500 ms timeout.
+
+The packet also contained equipment specifications and a film catalogue used in a demonstration. The queue remains bounded at 256 pending jobs. The variance remains bounded by 4 for every sample size. The beam is constrained by two brackets. The film has a limited release.
+
+The editor distinguished a constrained object from an introductory statement about scope. The solution uses a bounded queue. The limited approach was rejected by the team. The restricted scope is being reviewed by counsel. The scope's bounded technical domain excludes physical repairs.
+
+The survey team recorded the extent of its coverage and the meaning of its terms. The coverage's severely limited geographic extent was documented. The vocabulary's restricted technical meaning was defined in the glossary. The analysis is limited to what the instrument measures. The remit stayed restricted to contracts signed before May.
+
+The investigators explained which observations determined their conclusions. The conclusion was constrained by missing temperature readings. The applicability is limited by the sample size. The alternatives are constrained by the supplier's API. The explanation is limited to the error shown in the log.
+
+The questionnaire comparison supplied numerical differences and a geographic boundary. The focus remains narrower by exactly two categories. The scope is narrower by about three categories. The vocabulary is narrower from 20 labels to 12. The view is limited to the northern ridge.
+
+The appendix documented quoted wording, integer types, and product descriptions. The editor quoted "The scope remains bounded" in the review. The result is a bounded integer. The bounded scope is specified in section 4. The offering is limited-edition merchandise.
+
+The implementation section described the approved environments and suppliers. Her vocabulary was limited to Spanish. The scope is constrained within the test environment. Our approach was restricted by the court. Our options remain limited to the approved suppliers.
+
+The mathematical note ended with a constraint on the permitted interpretations. The analysis is bounded between zero and one. These interpretations are constrained to match the recorded evidence.
+
+The security assessment explained the detection delay. We believe these methods are limited as they succeed only after the critical first few (~6) hours of phishing attacks. The same review recorded the measurement restrictions. The analysis is limited because the instrument cannot record high frequencies. The coverage remained restricted since only one camera was available. The available options are limited when the supplier disables its older API.
+
+Two comments still needed an explanation in the next editorial pass. The approach is limited as always. The explanation remains restricted because of circumstances.
+
+The reviewer read the next set of migration notes. The focuses are limited. The foci are limited. The scope remains bounded by contrast.
+
+The reviewer read the next set of migration notes. The scope is limited at present. The question is narrower: it requires careful thought. The scope remains bounded: "it covers everything" is the slogan.
+
+The reviewer read the next set of migration notes. The optimizer has a narrow view. The optimizer has a narrow view of the code. Its implementation contains 12 modules. We face a restricted choice of suppliers.
+
+The reviewer read the next set of migration notes. Our approach is limited only in principle. The scope's bounded. Engineers reviewed the next task. The scope's bounded; engineers reviewed the next task.
+
+The reviewer read the next set of migration notes. This is less of a "use Firebase" pitch and more of a story about a time it genuinely helped, back when the options were more limited than they are today. The coverage is limited only to English Markdown. Our approach is constrained entirely by a 500 ms timeout.
+
+The reviewer read the next set of migration notes. The approach is constrained optimization. The solution is bounded model checking. The vocabulary's restricted and technical meaning was defined in the glossary.
+
+The reviewer read the next set of migration notes. They face a limited choice of three suppliers. We have a restricted vocabulary of 12 labels. The method is limited, however, by the small number of water megamasers known at distances within the Hubble flow.
+
+The reviewer read the next set of migration notes. Currently the options are limited for persisting that per-module information past the method call, since it only returns the loader. By definition, a peephole optimizer has a narrow view of the code and so can only implement basic optimizations. A peephole optimizer has a narrow view of the code and therefore can only implement basic optimizations.
+
+The reviewer read the next set of migration notes. A peephole optimizer has a narrow view of the code because it can only implement basic optimizations. In a monolithic application, the blast radius of this problem is limited. Part of the problem is limited spectrum.
+
+The final notes supplied three comments for the editor to clarify. The optimizer has a narrow view of the code; the office is closed and so we can only work remotely. The scope remains bounded as expected. The scope remains bounded as planned.
+
+The release note specified the accepted input and the queue bounds. The coverage is limited, for now, to English Markdown. The scope remains bounded at no more than 256 jobs. The scope remains bounded at at least 256 jobs. The coverage is limited, in the current release, to English Markdown.
+
+The compiler note explained its operational limits in three drafts. The optimizer has a narrow view of the code and therefore cannot optimize across functions. The optimizer has a narrow view of the code and therefore can't optimize across functions. By definition, a peephole optimizer has a narrow view of the code and cannot optimize across functions.
+
+The editor asked for an explanation of the remaining claims. The scope remains bounded at present. The optimizer has a narrow view of the code; the team cannot work on weekends.
+
+The appendix reproduced the optimizer note with its original source wrapping.
+
+Python 3.6 optimizes the code using a peephole optimizer. By
+definition, a peephole optimizer has a narrow view of the code and so
+can only implement basic optimizations. The optimizer rewrites the
+bytecode. It is difficult to enhance it, because it written in C.

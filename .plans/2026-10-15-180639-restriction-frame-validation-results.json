@@ -1,0 +1,261 @@
+{
+  "baselineCommit": "c2a53ab",
+  "candidateVersion": "0.2.41-dev.1",
+  "rules": [
+    "generic-signposting"
+  ],
+  "method": "Identical-input public textlint comparison of the changed rule; keys use rule ID and UTF-16 range. Final source partitions are disjoint and sum to the complete corpus inventory.",
+  "audits": {
+    "initial": {
+      "parts": 25,
+      "files": 15580,
+      "failures": 0,
+      "totals": {
+        "ai-generated": {
+          "files": 400,
+          "words": 184881,
+          "before": 37,
+          "after": 37,
+          "added": 0,
+          "removed": 0
+        },
+        "ai-suspected": {
+          "files": 1500,
+          "words": 1576838,
+          "before": 301,
+          "after": 303,
+          "added": 2,
+          "removed": 0
+        },
+        "human": {
+          "files": 13680,
+          "words": 21305305,
+          "before": 297,
+          "after": 303,
+          "added": 6,
+          "removed": 0
+        }
+      },
+      "changes": [
+        {
+          "file": "ai-suspected/tech/devto/devto-3746762.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 35,
+              "text": "this problem is limited",
+              "message": "Generic signposting found: this problem is limited. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        },
+        {
+          "file": "ai-suspected/tech/devto/devto-3797372.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 3,
+              "text": "the options were more limited",
+              "message": "Generic signposting found: the options were more limited. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        },
+        {
+          "file": "human/business/a16z/a16z-123.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 65,
+              "text": "these methods are limited",
+              "message": "Generic signposting found: these methods are limited. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        },
+        {
+          "file": "human/reference/wikipedia/wiki-02681-megamaser.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 66,
+              "text": "The method is limited",
+              "message": "Generic signposting found: The method is limited. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        },
+        {
+          "file": "human/tech/peps/pep-0451.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 181,
+              "text": "the options are\nlimited",
+              "message": "Generic signposting found: the options are\nlimited. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        },
+        {
+          "file": "human/tech/peps/pep-0511.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 156,
+              "text": "has a narrow view",
+              "message": "Generic signposting found: has a narrow view. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        },
+        {
+          "file": "human/tech/rfcs/rfc-02418.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 31,
+              "text": "have a narrow focus",
+              "message": "Generic signposting found: have a narrow focus. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        },
+        {
+          "file": "human/tech/rfcs/rfc-05522.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 77,
+              "text": "the problem is limited",
+              "message": "Generic signposting found: the problem is limited. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        }
+      ]
+    },
+    "final": {
+      "parts": 34,
+      "files": 15580,
+      "failures": 0,
+      "totals": {
+        "ai-generated": {
+          "files": 400,
+          "words": 184881,
+          "before": 37,
+          "after": 37,
+          "added": 0,
+          "removed": 0
+        },
+        "ai-suspected": {
+          "files": 1500,
+          "words": 1576838,
+          "before": 301,
+          "after": 302,
+          "added": 1,
+          "removed": 0
+        },
+        "human": {
+          "files": 13680,
+          "words": 21305305,
+          "before": 297,
+          "after": 298,
+          "added": 1,
+          "removed": 0
+        }
+      },
+      "changes": [
+        {
+          "file": "ai-suspected/tech/devto/devto-3797372.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 3,
+              "text": "the options were more limited",
+              "message": "Generic signposting found: the options were more limited. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        },
+        {
+          "file": "human/tech/rfcs/rfc-02418.md",
+          "added": [
+            {
+              "rule": "generic-signposting",
+              "line": 31,
+              "text": "have a narrow focus",
+              "message": "Generic signposting found: have a narrow focus. Replace the frame with the concrete claim."
+            }
+          ],
+          "removed": []
+        }
+      ]
+    }
+  },
+  "focused": {
+    "total": 254,
+    "correct": 254,
+    "corpusOccurrences": 254,
+    "addedHits": 52,
+    "addedNoHits": 60
+  },
+  "fixtures": [
+    {
+      "suite": "textlint-rules-cases-syntactic-patterns",
+      "file": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/hits.md",
+      "added": {
+        "flesch-kincaid": 1,
+        "gunning-fog": 1,
+        "generic-signposting": 52,
+        "demonstrative-emphasis": 2
+      },
+      "removed": {
+        "flesch-kincaid": 1,
+        "gunning-fog": 1
+      }
+    },
+    {
+      "suite": "textlint-rules-cases-syntactic-patterns",
+      "file": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/no-hits.md",
+      "added": {
+        "flesch-kincaid": 1,
+        "gunning-fog": 1,
+        "demonstrative-emphasis": 3
+      },
+      "removed": {
+        "flesch-kincaid": 1,
+        "gunning-fog": 1
+      }
+    },
+    {
+      "suite": "textlint-rules-cases-syntactic-patterns",
+      "file": "behavior/fixtures/textlint-rules/cases/syntactic-patterns/significance-density.md",
+      "added": {},
+      "removed": {}
+    },
+    {
+      "suite": "textlint-rules-corpus-engineering-review",
+      "file": "behavior/fixtures/textlint-rules/corpus/engineering-review.md",
+      "added": {
+        "coleman-liau": 1,
+        "flesch-kincaid": 1,
+        "quietly-overuse": 1,
+        "generic-signposting": 52,
+        "demonstrative-emphasis": 3,
+        "llm-vocabulary-density": 1,
+        "simplicity": 1,
+        "contrastive-aphorism": 1
+      },
+      "removed": {
+        "flesch-kincaid": 1,
+        "quietly-overuse": 1
+      }
+    }
+  ],
+  "package": {
+    "files": 251,
+    "bytes": 473796,
+    "integrity": "sha512-mMmZPo9QSr/C49eXoFL4ozq0kJrIZojse7+25YhgIAv1EEHG6RM2eEKr3hklMJkp/ooTGpRZzRDfuJ2kJ2mNjQ=="
+  }
+}

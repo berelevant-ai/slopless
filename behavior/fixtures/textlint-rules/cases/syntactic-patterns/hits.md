@@ -1978,3 +1978,107 @@ The policy and the rule are load-bearing for our API.
 
 The policy
 is quietly doing the heavy lifting.
+
+Its vocabulary remains bounded.
+
+The scope remains bounded.
+
+The coverage is limited.
+
+Our approach stays constrained.
+
+The implementation generalizes combinations and grammar, but its vocabulary remains bounded.
+
+Their perspectives are restricted.
+
+The lexicon is narrowly bounded.
+
+This analysis is severely limited.
+
+That conclusion remains inherently constrained.
+
+The applicability was restricted.
+
+Our remit stayed limited.
+
+The scope's bounded.
+
+The coverage's severely limited.
+
+The vocabulary seems restricted.
+
+The explanation became more constrained.
+
+The actual scope remains tightly restricted.
+
+Those methods are considerably narrower.
+
+Our solution is limited in practice.
+
+The understanding is limited for now.
+
+Their reach remains bounded after the launch.
+
+The ambition is constrained, even after 12 revisions.
+
+The inquiry is restricted.
+
+The investigation remains bounded.
+
+The interpretation is limited.
+
+The focus stayed narrow.
+
+Their view is restricted.
+
+The available options remain constrained.
+
+The narrow scope is choosing the vendor.
+
+The restricted question is which API to use.
+
+They face a limited choice.
+
+We have a much narrower vocabulary.
+
+The scope stays bounded, by contrast, after twelve reviews.
+
+The approach is limited as always.
+
+The explanation remains restricted because of circumstances.
+
+The focuses are limited.
+
+The foci are limited.
+
+The scope remains bounded by contrast.
+
+The scope is limited at present.
+
+The question is narrower: it requires careful thought.
+
+The scope remains bounded: "it covers everything" is the slogan.
+
+The optimizer has a narrow view.
+
+The optimizer has a narrow view of the code. Its implementation contains 12 modules.
+
+We face a restricted choice of suppliers.
+
+Our approach is limited only in principle.
+
+The scope's bounded. Engineers reviewed the next task.
+
+The scope's bounded; engineers reviewed the next task.
+
+This is less of a "use Firebase" pitch and more of a story about a time it genuinely helped, back when the options were more limited than they are today.
+
+The optimizer has a narrow view of the code; the office is closed and so we can only work remotely.
+
+The scope remains bounded as expected.
+
+The scope remains bounded as planned.
+
+The scope remains bounded at present.
+
+The optimizer has a narrow view of the code; the team cannot work on weekends.

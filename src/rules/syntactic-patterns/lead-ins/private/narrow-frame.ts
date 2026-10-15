@@ -1,8 +1,18 @@
 import nlp from "compromise";
-import type { TokenTemplatePattern } from "../../../../shared/matchers/phrases.js";
+import type {
+  TokenTemplatePattern,
+  TokenTemplateMatch
+} from "../../../../shared/matchers/phrases.js";
 import { wordTokens } from "../../../../shared/text/tokens.js";
+import { subjectBefore } from "../../../../shared/text/subject-before.js";
 import type { LocalDetection } from "../../../private/textlint-rule-builders.js";
 import { frameDetection, frameMatches } from "./frame-matches.js";
+import {
+  RESTRICTIONS,
+  hasAttachedConstraint,
+  hasScopeDefinition,
+  hasAttachedMeasurement
+} from "./narrow-frame-constraints.js";
 
 const HEADS = [
   "problem",
@@ -12,14 +22,52 @@ const HEADS = [
   "challenge",
   "job",
   "goal",
-  "decision"
-].flatMap((head) => [head, `${head}s`]);
+  "decision",
+  "scope",
+  "coverage",
+  "vocabulary",
+  "lexicon",
+  "applicability",
+  "remit",
+  "reach",
+  "approach",
+  "analysis",
+  "explanation",
+  "interpretation",
+  "perspective",
+  "view",
+  "outlook",
+  "understanding",
+  "knowledge",
+  "argument",
+  "answer",
+  "claim",
+  "conclusion",
+  "strategy",
+  "solution",
+  "method",
+  "option",
+  "choice",
+  "ambition",
+  "offering",
+  "inquiry",
+  "investigation",
+  "focus",
+  "focuses",
+  "foci"
+].flatMap((head) => {
+  const noun = nlp(head);
+  noun.tag("Noun");
+  return [head, noun.nouns().toPlural().text()];
+});
+const ADJECTIVES = ["narrow", "narrower", "narrowest", ...RESTRICTIONS];
 const PATTERN: TokenTemplatePattern = {
   id: "narrow-frame",
   templates: [
     "{determiner} {head} {link} {narrow}",
     "{determiner} {head} {link} {degree} {narrow}",
     "{determiner} {modifier} {head} {link} {narrow}",
+    "{determiner} {modifier} {head} {link} {degree} {narrow}",
     "{determiner} {contracted} {narrow}",
     "{determiner} {contracted} {degree} {narrow}",
     "{determiner} {narrow} {head} {link}",
@@ -43,7 +91,7 @@ const PATTERN: TokenTemplatePattern = {
     ],
     head: HEADS,
     contracted: HEADS.map((head) => `${head}'s`),
-    narrow: ["narrow", "narrower", "narrowest"],
+    narrow: ADJECTIVES,
     degree: [
       "much",
       "far",
@@ -52,9 +100,24 @@ const PATTERN: TokenTemplatePattern = {
       "even",
       "slightly",
       "more",
-      "most"
+      "most",
+      "narrowly",
+      "severely",
+      "inherently",
+      "tightly",
+      "strictly",
+      "highly",
+      "very"
     ],
-    modifier: ["real", "useful", "main", "only", "practical", "actual"],
+    modifier: [
+      "real",
+      "useful",
+      "main",
+      "only",
+      "practical",
+      "actual",
+      "available"
+    ],
     link: [
       "is",
       "are",
@@ -65,7 +128,10 @@ const PATTERN: TokenTemplatePattern = {
       "became",
       "becomes",
       "seems",
-      "seemed"
+      "seemed",
+      "stay",
+      "stays",
+      "stayed"
     ],
     possession: [
       "has",
@@ -81,63 +147,74 @@ const PATTERN: TokenTemplatePattern = {
   }
 };
 
-function hasAttachedMeasurement(text: string, end: number): boolean {
-  const tail = text.slice(end);
-  let boundary = tail.length;
-  for (let index = 0; index < tail.length; index += 1) {
-    if ([":", ";", "!", "?"].includes(tail[index] ?? "")) {
-      boundary = index;
-      break;
-    }
-  }
-  const words = wordTokens(tail.slice(0, boundary)).map(
-    (word) => word.normalized
+function hasRestriction(text: string): boolean {
+  const lower = text.toLocaleLowerCase("en");
+  return ADJECTIVES.some((adjective) => lower.includes(adjective));
+}
+
+function hasNounContinuation(text: string, end: number): boolean {
+  const rest = text.slice(end);
+  const tail = rest.trimStart();
+  if (wordTokens(tail)[0]?.start !== 0) return false;
+  const parsed = nlp(tail);
+  if (
+    parsed.match("^#Noun").found ||
+    parsed.match("^(#Adverb|#Adjective|and|or)+ #Noun").found
+  )
+    return true;
+  const start = end + rest.length - tail.length;
+  let found = false;
+  nlp(text)
+    .nouns()
+    .forEach((noun) => {
+      if (text.startsWith(noun.text(), start)) found = true;
+    });
+  return found;
+}
+
+function hasScopeSubject(text: string, match: TokenTemplateMatch): boolean {
+  if (
+    match.template.includes("{possession}") ||
+    match.template === "{determiner} {narrow} {head} {link}"
+  )
+    return true;
+  const words = wordTokens(match.text);
+  const contracted = words.find((word) => word.normalized.endsWith("'s"));
+  const predicate = words.find(
+    (word) => PATTERN.slots["link"]?.includes(word.normalized) === true
   );
-  const numeric = (phrase: readonly string[]): boolean => {
-    const source = phrase.join(" ");
-    const number = nlp(source).numbers().first().text();
-    if (number.length === 0) return false;
-    const prefix = wordTokens(source.slice(0, source.indexOf(number)));
-    const quantityWords = new Set([
-      "about",
-      "around",
-      "approximately",
-      "roughly",
-      "a",
-      "factor",
-      "of",
-      "at",
-      "least",
-      "most"
-    ]);
-    return (
-      prefix.length <= 4 &&
-      prefix.every(
-        (word) =>
-          quantityWords.has(word.normalized) || nlp(word.text).has("#Adverb")
-      )
+  if (contracted !== undefined)
+    return HEADS.includes(
+      subjectBefore(text, match.start + contracted.end)?.head ?? ""
     );
-  };
-  if (words[0] === "by") return numeric(words.slice(1));
-  const to = words.indexOf("to");
-  return (
-    words[0] === "from" &&
-    to > 1 &&
-    numeric(words.slice(1, to)) &&
-    numeric(words.slice(to + 1))
-  );
+  if (predicate === undefined) return true;
+  const subject = subjectBefore(text, match.start + predicate.start);
+  if (subject === undefined) return true;
+  const subjectWords = wordTokens(subject.text)
+    .map((word) => word.normalized)
+    .join(" ");
+  const matchedSubject = words
+    .filter((word) => word.end <= predicate.start)
+    .map((word) => word.normalized)
+    .join(" ");
+  return !subjectWords.includes(matchedSubject) || HEADS.includes(subject.head);
 }
 
 export function findNarrowFrames(text: string): readonly LocalDetection[] {
-  if (!text.toLocaleLowerCase("en").includes("narrow")) return [];
+  if (!hasRestriction(text)) return [];
   return frameMatches(text, [PATTERN])
     .filter((match) => !hasAttachedMeasurement(text, match.end))
+    .filter((match) => !hasAttachedConstraint(text, match))
+    .filter((match) => !hasScopeDefinition(text, match))
+    .filter((match) => hasScopeSubject(text, match))
     .filter((match) => {
       if (text.at(match.end) === "-") return false;
       const tail = text.slice(match.end).trimStart();
+      if (hasNounContinuation(text, match.end)) return false;
       if (
         match.template.includes("{contracted}") &&
-        nlp(tail).match("^(#Noun|#Verb)").found
+        wordTokens(tail)[0]?.start === 0 &&
+        nlp(tail).match("^#Verb").found
       )
         return false;
       if (match.template === "{determiner} {narrow} {head} {link}") {
