@@ -4,12 +4,17 @@ import type {
   TxtStrNode
 } from "@textlint/ast-node-types";
 import { StringSource } from "textlint-util-to-string";
+import { correctedSourceOffsets } from "./source-offsets.js";
 
 export type SourceText = {
   readonly originalEndFor: (end: number) => number;
   readonly originalStartFor: (start: number) => number;
   readonly text: string;
 };
+
+// Rules share immutable AST nodes; keep their decoded text and mapping together.
+const proseSources = new WeakMap<TxtParentNode, SourceText>();
+const displaySources = new WeakMap<TxtParentNode, SourceText>();
 
 function isParentNode(node: AnyTxtNode): node is TxtParentNode {
   return "children" in node;
@@ -75,24 +80,47 @@ function normalizeNode(node: AnyTxtNode, includeImageAlt: boolean): AnyTxtNode {
   };
 }
 
-function mappedSourceText(
+function stringSource(
   node: TxtParentNode,
   includeImageAlt: boolean
-): SourceText {
+): StringSource {
   // textlint-util-to-string has not updated its public type for textlint 15.7's
   // readonly children, but it only reads the node at runtime.
-  const source = new StringSource(
+  return new StringSource(
     // type-coverage:ignore-next-line
     normalizeNode(node, includeImageAlt) as ConstructorParameters<
       typeof StringSource
     >[0]
   );
+}
 
-  return {
-    originalEndFor: (end) => source.originalIndexFromIndex(end, true) ?? end,
-    originalStartFor: (start) => source.originalIndexFromIndex(start) ?? start,
+function mappedSourceText(
+  node: TxtParentNode,
+  includeImageAlt: boolean
+): SourceText {
+  const cache = includeImageAlt ? displaySources : proseSources;
+  const cached = cache.get(node);
+  if (cached !== undefined) return cached;
+  const source = stringSource(node, includeImageAlt);
+  const corrected = correctedSourceOffsets(
+    node,
+    (parent, child) =>
+      stringSource({ ...parent, children: [child] }, includeImageAlt).toString()
+        .length
+  );
+  const mapped: SourceText = {
+    originalEndFor: (end) =>
+      corrected.originalEndFor(end) ??
+      source.originalIndexFromIndex(end, true) ??
+      end,
+    originalStartFor: (start) =>
+      corrected.originalStartFor(start) ??
+      source.originalIndexFromIndex(start) ??
+      start,
     text: source.toString()
   };
+  cache.set(node, mapped);
+  return mapped;
 }
 
 export function proseSourceText(node: TxtParentNode): SourceText {

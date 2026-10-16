@@ -18,6 +18,7 @@ Use this skill when asked to review English Markdown prose for AI slop, human sl
 
 1. Run `npx slopless --help` before the first Slopless run in the session.
 2. Add `--narrative` only for fiction or memoir; the narrative-slop family is off by default because it flags named feelings and scene beats that ordinary reporting uses.
+   - Add `--sentence-case` when the requested style requires sentence-case headings. Title-case headings are allowed by default. With `--config`, enable `"sentence-case": {}` inside `"preset-slopless"` instead.
 3. Create `.slopless/findings` in the current working directory.
 4. Run Slopless on the requested Markdown files, folders, globs, or stdin.
 5. Save raw JSON output under `.slopless/findings/`.

@@ -1609,3 +1609,47 @@ Python 3.6 optimizes the code using a peephole optimizer. By
 definition, a peephole optimizer has a narrow view of the code and so
 can only implement basic optimizations. The optimizer rewrites the
 bytecode. It is difficult to enhance it, because it written in C.
+
+## Product scope review
+
+The release editor compared several drafts of the product announcement. A narrow product with few integrations can move quickly. A narrow product can move quickly. A narrow solution can launch quickly. A limited offering can launch quickly.
+
+The supplier's next draft changed the nouns without explaining the scope. Our tightly constrained service can scale quickly. The product is narrow. A bounded project moves faster. A restricted feature can ship sooner.
+
+The planning team made similar claims about the delivery documents. The narrow brief leaves room for speed. Their limited application keeps the team focused. Our constrained implementation makes delivery manageable. We can launch a narrow product before expanding it.
+
+The commercial review repeated the argument for several packages. Operators choose a limited service to reduce overhead. The team proposed a tightly bounded project. A considerably narrower product can reach the market sooner. Those restricted offerings avoid unnecessary complexity.
+
+The editor asked whether the new examples explained the promised advantage. Their severely limited services remain easy to manage. A narrow product with 12 integrations can move quickly. A narrow product can use an API without slowing down. Our project remains tightly bounded.
+
+The last draft still needed a description of what the team would build. The service is restricted in practice. The implementation seems limited. A narrow product with few integrations can move quickly, while a multi-brand platform with a sportsbook and several jurisdictions takes far longer and costs more at each step. An application with a limited offering can still move quickly.
+
+The facilities appendix described the site used for testing. A narrow road with few junctions can be crossed quickly. The narrow corridor leads to the fire exit. A narrow shelf holds the spare batteries. A bounded integer cannot exceed its declared range.
+
+The inventory notes covered publications and signed documents. A limited edition of the book arrived yesterday. The narrow product range includes only replacement valves. A limited service contract expires after one year. The narrow scope document was signed yesterday.
+
+The build documentation specified both physical and software limits. The restricted application form requires a signature. The bounded project area measures twelve square metres. The product is limited to two functions. The service is restricted to approved account holders.
+
+The revised service descriptions stated their operating boundaries. Our tightly constrained service accepts only two currencies. A narrow product supports only deposits and withdrawals. The limited offering covers only invoice reconciliation. The bounded project includes exactly three work packages.
+
+The editor could inspect the documents behind the remaining scope descriptions. The narrow brief is defined in the signed contract. The restricted feature is documented in the release notes. A narrow solution is specified in the appendix. The product supports deposits and withdrawals through two integrations.
+
+The final review distinguished explicit boundaries from the earlier announcement. The scope is limited to deposits and withdrawals. The product's narrow profile fits inside the enclosure. The reviewer quoted "A narrow product with few integrations can move quickly" before requesting measurements. They narrowed the product to two payment methods.
+
+The compatibility appendix described an implementation and the proposal that excluded a separate feature. It is thought that a more limited approach, based on iterators, could provide a coroutine facility to application programmers and still be portable across runtimes. However, it is outside the narrow scope of this PEP.
+
+The memory-management review stated the reason for using arenas. When dealing with memory, NSS makes use of arenas, which are an attempt to simplify management with the limited offerings of C (because there are no destructors). The team selected a narrow solution based on a lookup table.
+
+Adding a company name or an abstract basis left three announcements unresolved. A narrow product of Microsoft can move quickly. We have a narrow view of Microsoft. A narrow product based on trust can move quickly.
+
+The operations appendix recorded contract dates and decisions. The limited service contracts expire tomorrow. The narrow product features are documented in the manual. The narrow solution was chosen by the client. The limited offering was discontinued.
+
+The engineering team documented two implementations. The team selected a narrow solution based on a simple lookup table. The team selected a narrow solution based on an existing API.
+
+The next announcement repeated the scope claim through coordination and a generic explanation. A narrow product of Microsoft can move quickly because the team is small. A narrow product or service can move quickly. A narrow solution and implementation can ship sooner.
+
+The editor still could not identify the promised capability. A narrow service accepts only what matters for growth. A limited product currently supports only what helps the business.
+
+The final specification gave the operating limits in several forms. A narrow product only supports deposits and withdrawals. A narrow product currently supports only deposits and withdrawals. A narrow product is limited to deposits and withdrawals. A limited service is currently restricted to two currencies.
+
+The operations team checked the coordinated contract and account descriptions. The limited product and service contracts expire tomorrow. The restricted application or service accounts require approval.

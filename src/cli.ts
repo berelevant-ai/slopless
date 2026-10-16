@@ -22,6 +22,7 @@ const VERSION_FLAGS = new Set(["--version", "-v"]);
 const CONFIG_FLAGS = new Set(["--config", "-c"]);
 const FORCE_FLAGS = new Set(["--force"]);
 const NARRATIVE_FLAGS = new Set(["--narrative"]);
+const SENTENCE_CASE_FLAGS = new Set(["--sentence-case"]);
 const INSTALL_SKILL_COMMAND = "install-skill";
 const VALUE_OPTIONS = new Set([
   "--cache-location",
@@ -92,6 +93,7 @@ Useful forms:
   npx slopless "docs/**/*.md" > .slopless/findings/review.json
   npx slopless "docs/**/*.md" --quiet
   npx slopless --narrative "chapters/**/*.md"
+  npx slopless --sentence-case "docs/**/*.md"
 
 Rule families:
   Narrative-slop rules (emotion-telling, empty-beat, flat-action-cadence,
@@ -99,6 +101,11 @@ Rule families:
   narrative-cliches) judge fiction craft and are off by default. Pass
   --narrative to enable them for fiction and memoir. They cannot be combined
   with --config; enable them per rule in that config instead.
+
+Heading style:
+  Title-case headings are allowed by default. Pass --sentence-case to flag
+  title-case headings and enforce sentence case. With --config, enable
+  "sentence-case": {} inside "preset-slopless" instead of using this flag.
 
 Agent storage convention:
   Agents should save raw JSON findings inside .slopless/findings/ in the
@@ -206,10 +213,10 @@ function packageNodeModules(): string {
 // referenced by a path relative to the base directory, which resolves the same
 // filter package under any install layout (flat npm or nested pnpm).
 // The preset is declared in the same generated config (not as a --preset flag)
-// so that per-rule options apply: --narrative turns the narrative family on.
+// so that per-rule options apply to the requested opt-in checks.
 // textlint keeps a rule off when the preset default is false and the user
 // value is `true`; an options object ({}) is what enables it.
-function writeDefaultConfig(narrative: boolean): string {
+function writeDefaultConfig(narrative: boolean, sentenceCase: boolean): string {
   const require = createRequire(import.meta.url);
   const filterDir = dirname(
     require.resolve("textlint-filter-rule-comments/package.json")
@@ -217,9 +224,14 @@ function writeDefaultConfig(narrative: boolean): string {
   const filterKey = relative(packageNodeModules(), filterDir);
   const configDir = mkdtempSync(join(tmpdir(), "slopless-config-"));
   const configPath = join(configDir, "slopless.textlintrc.json");
-  const presetOptions = narrative
-    ? Object.fromEntries(narrativeRuleIds.map((id) => [id, {}]))
-    : true;
+  const enabledRules = [
+    ...(narrative ? narrativeRuleIds : []),
+    ...(sentenceCase ? ["sentence-case" as const] : [])
+  ];
+  const presetOptions =
+    enabledRules.length > 0
+      ? Object.fromEntries(enabledRules.map((id) => [id, {}]))
+      : true;
   writeFileSync(
     configPath,
     JSON.stringify({
@@ -328,10 +340,22 @@ async function main(): Promise<number> {
   }
 
   const narrative = hasFlag(userArgs, NARRATIVE_FLAGS);
-  const userConfig = hasFlag(userArgs, CONFIG_FLAGS);
+  const sentenceCase = hasFlag(userArgs, SENTENCE_CASE_FLAGS);
+  const userConfig = userArgs.some(
+    (arg) =>
+      CONFIG_FLAGS.has(arg) ||
+      arg.startsWith("--config=") ||
+      arg.startsWith("-c=")
+  );
   if (narrative && userConfig) {
     process.stderr.write(
       "--narrative cannot be combined with --config. Enable narrative rules in that config instead.\n"
+    );
+    return 2;
+  }
+  if (sentenceCase && userConfig) {
+    process.stderr.write(
+      '--sentence-case cannot be combined with --config. Enable "sentence-case": {} inside "preset-slopless" in that config instead.\n'
     );
     return 2;
   }
@@ -341,12 +365,14 @@ async function main(): Promise<number> {
     "slopless",
     ...(userConfig
       ? ["--preset", "slopless"]
-      : ["--config", writeDefaultConfig(narrative)]),
+      : ["--config", writeDefaultConfig(narrative, sentenceCase)]),
     "--rules-base-directory",
     packageNodeModules(),
     "--format",
     "json",
-    ...userArgs.filter((arg) => !NARRATIVE_FLAGS.has(arg))
+    ...userArgs.filter(
+      (arg) => !NARRATIVE_FLAGS.has(arg) && !SENTENCE_CASE_FLAGS.has(arg)
+    )
   ];
 
   if (hasFlag(userArgs, STDIN_FLAGS)) {

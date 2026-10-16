@@ -26,10 +26,11 @@ features:
     suites:
       - slopless-cli-defaults
       - slopless-cli-narrative
+      - slopless-cli-sentence-case
 suites:
   textlint-rules-corpus-igaming-supplier-guide:
     fixtures:
-      - "behavior/fixtures/textlint-rules/corpus/igaming-supplier-guide.md"
+      - "behavior/fixtures/textlint-rules/corpus/igaming-supplier-guide*.md"
     command:
       argv:
         - "scripts/behavior-replay.sh"
@@ -84,6 +85,21 @@ suites:
       approved_dir: "behavior/golden/slopless-cli-narrative"
       received_dir: ".fixture3/slopless-cli-narrative"
       diff_dir: ".fixture3/slopless-cli-narrative"
+  slopless-cli-sentence-case:
+    fixtures:
+      - "behavior/fixtures/slopless-cli/sentence-case/*.md"
+    command:
+      argv:
+        - "scripts/cli-replay.sh"
+        - "--sentence-case"
+        - "{fixtures}"
+      ok_exit_codes:
+        - 0
+        - 1
+    storage:
+      approved_dir: "behavior/golden/slopless-cli-sentence-case"
+      received_dir: ".fixture3/slopless-cli-sentence-case"
+      diff_dir: ".fixture3/slopless-cli-sentence-case"
   textlint-rules-cases-academic-slop:
     fixtures:
       - "behavior/fixtures/textlint-rules/cases/academic-slop/*.md"

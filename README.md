@@ -70,12 +70,20 @@ npx slopless "docs/**/*.md"
 
 Slopless is English-only. It requires a file path, glob, or stdin input. A bare `npx slopless` exits with code `2`.
 
-Exit `0` means clean. Exit `1` means findings. Exit `2` means failure.
+- `0`: no findings.
+- `1`: prose findings.
+- `2`: execution failed.
 
 Narrative-slop rules (named feelings, empty beats, action cadence, perception density, narrative cliches) judge fiction craft and are off by default. Turn them on for fiction and memoir:
 
 ```bash
 npx slopless --narrative "chapters/**/*.md"
+```
+
+Title-case headings are allowed by default. To enforce sentence-case headings:
+
+```bash
+npx slopless --sentence-case "docs/**/*.md"
 ```
 
 Output is always JSON:
@@ -107,7 +115,11 @@ Add `preset-slopless` to your `.textlintrc.json`:
 npx textlint "docs/**/*.md"
 ```
 
-Findings use the same `slopless/<rule>` ids as the CLI. Turn off individual rules with `"preset-slopless": { "cliches": false }`. Narrative-slop rules are off by default; turn them on per rule with an options object, for example `"preset-slopless": { "emotion-telling": {}, "flat-action-cadence": {} }` (textlint keeps a default-off preset rule off when the value is `true`). To honor the `<!-- textlint-disable -->` blocks below, also `npm install -D textlint-filter-rule-comments` and add `"filters": { "comments": true }` to the config.
+Findings use the same `slopless/<rule>` ids as the CLI. Turn off individual rules with `"preset-slopless": { "cliches": false }`.
+
+Narrative-slop rules and heading sentence-case enforcement are off by default. Enable them with options objects, such as `"preset-slopless": { "emotion-telling": {}, "flat-action-cadence": {}, "sentence-case": {} }`. Use these objects in your config when passing `--config`; textlint enables default-off rules with `{}`.
+
+To honor the `<!-- textlint-disable -->` blocks below, also `npm install -D textlint-filter-rule-comments` and add `"filters": { "comments": true }` to the config.
 
 ## Agent Use
 

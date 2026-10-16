@@ -1,0 +1,30 @@
+[
+  {
+    "filePath": "behavior/fixtures/slopless-cli/sentence-case/heading-style.md",
+    "messages": [
+      {
+        "column": 1,
+        "index": 0,
+        "line": 1,
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        },
+        "message": "Heading looks like title case. Use sentence case; found 4 capitalized non-first words.",
+        "range": [
+          0,
+          41
+        ],
+        "ruleId": "slopless/sentence-case",
+        "severity": 2,
+        "type": "lint"
+      }
+    ]
+  }
+]

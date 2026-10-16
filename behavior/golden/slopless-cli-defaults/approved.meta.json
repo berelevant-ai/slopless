@@ -1,15 +1,19 @@
 {
   "suite": "slopless-cli-defaults",
   "kind": "approved",
-  "run_id": "2026-09-24T09-35-19.730222Z-08787e3e",
-  "run_commit": "dc05708",
+  "run_id": "2026-10-16T17-36-15.395173Z-0da12ee2",
+  "run_commit": "373162c",
   "working_tree": "dirty",
-  "recorded_at": "2026-09-24T09:35:19.730222Z",
-  "fixture_hash": "sha256:07728a97dc90bf186ae7c1b8ac2a3bcfd538783f02c0f973516ec4a13c757276",
-  "manifest_hash": "sha256:08787e3edd1a33acfea4bf88cfeb80efb1731e824fae56ce848eaddfedca8ea8",
+  "recorded_at": "2026-10-16T17:36:15.395173Z",
+  "fixture_hash": "sha256:f0d5c71665eb02803d7f30af55bc1e64aa6612b6ffa99172443f2a5c309bd99d",
+  "manifest_hash": "sha256:0da12ee2ff439997bc00ce7149ca7854310dd4064a01bd6c90b19f2698e5c228",
   "tool_version": "0.1.8",
   "output_schema_version": "1",
   "fixtures": [
+    {
+      "path": "behavior/fixtures/slopless-cli/defaults/heading-style.md",
+      "sha256": "sha256:4883c5b3bb6fb2e51adedec30399b94ff5a339980c06a10b12b3f66719bea43f"
+    },
     {
       "path": "behavior/fixtures/slopless-cli/defaults/narrative-off.md",
       "sha256": "sha256:7dbc4aa658ff0412b5be1091cea46c7c1d086d48ac31db44b3b7df91ec076a50"
@@ -19,5 +23,5 @@
       "sha256": "sha256:764c869ac81503019573109056e0638f488681d303e1a2a02136c7dc0ce67aa1"
     }
   ],
-  "comment": "Narrative-slop family off by default with --narrative; generalize emotion-telling"
+  "comment": "Reviewed: title-case headings pass in the default preset; existing CLI fixtures unchanged."
 }

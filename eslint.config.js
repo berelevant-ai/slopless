@@ -7,7 +7,13 @@ import unicorn from "eslint-plugin-unicorn";
 
 export default [
   {
-    ignores: ["developer-helpers/**", "dist/**", "node_modules/**", ".venv/**"]
+    ignores: [
+      "developer-helpers/**",
+      "dist/**",
+      "node_modules/**",
+      ".fixture3/**",
+      ".venv/**"
+    ]
   },
   {
     files: ["src/**/*.ts"],

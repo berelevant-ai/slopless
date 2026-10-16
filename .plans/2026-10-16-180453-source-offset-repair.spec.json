@@ -1,0 +1,22 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "required": ["src/shared/text/source-offsets.ts", "src/shared/text/decoded-source.ts", "scripts/verify-source-ranges.mjs", "behavior/fixtures/source-ranges/character-rule.mjs"]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/shared/text/traverse.ts"],
+        "required": ["correctedSourceOffsets"]
+      }
+    ],
+    "custom": [
+      {
+        "verifier": ["node", "scripts/verify-source-ranges.mjs"],
+        "check": "source-ranges"
+      }
+    ]
+  }
+}
