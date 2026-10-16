@@ -1,6 +1,6 @@
 {
   "name": "slopless",
-  "version": "0.2.41",
+  "version": "0.2.42-dev.0",
   "description": "Deterministic textlint rules and CLI for catching prose slop in English Markdown.",
   "keywords": [
     "textlint",
@@ -46,7 +46,7 @@
     "prepare": "npm run build",
     "spellcheck": "cspell .",
     "typecov": "type-coverage --strict --at-least 100",
-    "validate": "pnpm run build && node scripts/verify-cli-version.mjs && pnpm run lint && prettier --check . && cspell . && type-coverage --strict --at-least 100"
+    "validate": "pnpm run build && node scripts/verify-cli-version.mjs && node scripts/verify-source-ranges.mjs && pnpm run lint && prettier --check . && cspell . && type-coverage --strict --at-least 100"
   },
   "files": [
     "dist",
@@ -133,8 +133,11 @@
   },
   "dependencies": {
     "@textlint/ast-node-types": "15.8.0",
+    "@textlint/markdown-to-ast": "15.8.0",
     "@textlint/types": "15.8.0",
     "compromise": "14.16.0",
+    "diff": "9.0.0",
+    "parse-entities": "^4.0.2",
     "sentence-splitter": "5.0.1",
     "text-readability": "1.1.1",
     "textlint": "15.8.0",

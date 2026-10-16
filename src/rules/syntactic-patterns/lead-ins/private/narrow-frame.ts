@@ -11,6 +11,7 @@ import {
   RESTRICTIONS,
   hasAttachedConstraint,
   hasScopeDefinition,
+  hasOperationalPredicate,
   hasAttachedMeasurement
 } from "./narrow-frame-constraints.js";
 
@@ -50,6 +51,13 @@ const HEADS = [
   "choice",
   "ambition",
   "offering",
+  "product",
+  "service",
+  "feature",
+  "application",
+  "project",
+  "implementation",
+  "brief",
   "inquiry",
   "investigation",
   "focus",
@@ -70,6 +78,8 @@ const PATTERN: TokenTemplatePattern = {
     "{determiner} {modifier} {head} {link} {degree} {narrow}",
     "{determiner} {contracted} {narrow}",
     "{determiner} {contracted} {degree} {narrow}",
+    "{determiner} {narrow} {head}",
+    "{determiner} {degree} {narrow} {head}",
     "{determiner} {narrow} {head} {link}",
     "{possession} {determiner} {narrow} {head}",
     "{possession} {determiner} {degree} {narrow} {head}"
@@ -152,11 +162,45 @@ function hasRestriction(text: string): boolean {
   return ADJECTIVES.some((adjective) => lower.includes(adjective));
 }
 
-function hasNounContinuation(text: string, end: number): boolean {
+function hasNounContinuation(text: string, match: TokenTemplateMatch): boolean {
+  const end = match.end;
   const rest = text.slice(end);
   const tail = rest.trimStart();
   if (wordTokens(tail)[0]?.start !== 0) return false;
   const parsed = nlp(tail);
+  if (match.template.endsWith("{head}")) {
+    const words = wordTokens(tail);
+    if (
+      ["and", "or"].includes(words[0]?.normalized ?? "") &&
+      PATTERN.slots["head"]?.includes(words[1]?.normalized ?? "") === true
+    ) {
+      const coordinated = words[1];
+      if (coordinated !== undefined)
+        return hasNounContinuation(text, {
+          ...match,
+          end: end + rest.length - tail.length + coordinated.end
+        });
+    }
+    if (
+      parsed.match(
+        "^(#Noun|#Infinitive|#PresentTense) (#Copula|#PresentTense|#PastTense|#Modal)"
+      ).found
+    )
+      return true;
+    const first = wordTokens(tail)[0]?.normalized ?? "";
+    const verb = nlp(first);
+    verb.tag("Verb");
+    const form = verb.verbs().conjugate()[0];
+    if (
+      form !== undefined &&
+      "PresentTense" in form &&
+      form.PresentTense === first &&
+      "Infinitive" in form &&
+      typeof form.Infinitive === "string" &&
+      nlp(form.Infinitive).has("#Verb")
+    )
+      return false;
+  }
   if (
     parsed.match("^#Noun").found ||
     parsed.match("^(#Adverb|#Adjective|and|or)+ #Noun").found
@@ -206,11 +250,12 @@ export function findNarrowFrames(text: string): readonly LocalDetection[] {
     .filter((match) => !hasAttachedMeasurement(text, match.end))
     .filter((match) => !hasAttachedConstraint(text, match))
     .filter((match) => !hasScopeDefinition(text, match))
+    .filter((match) => !hasOperationalPredicate(text, match))
     .filter((match) => hasScopeSubject(text, match))
     .filter((match) => {
       if (text.at(match.end) === "-") return false;
       const tail = text.slice(match.end).trimStart();
-      if (hasNounContinuation(text, match.end)) return false;
+      if (hasNounContinuation(text, match)) return false;
       if (
         match.template.includes("{contracted}") &&
         wordTokens(tail)[0]?.start === 0 &&

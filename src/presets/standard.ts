@@ -18,6 +18,7 @@ export const narrativeRuleIds: readonly RuleId[] =
   Object.keys(narrativeSlopRules).filter(isRuleId);
 
 const rules: Record<RuleId, boolean> = { ...everything.rules };
+rules["sentence-case"] = false;
 for (const id of narrativeRuleIds) {
   rules[id] = false;
 }

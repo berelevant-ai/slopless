@@ -1147,3 +1147,83 @@ Python 3.6 optimizes the code using a peephole optimizer. By
 definition, a peephole optimizer has a narrow view of the code and so
 can only implement basic optimizations. The optimizer rewrites the
 bytecode. It is difficult to enhance it, because it written in C.
+
+A narrow road with few junctions can be crossed quickly.
+
+The narrow corridor leads to the fire exit.
+
+A narrow shelf holds the spare batteries.
+
+A bounded integer cannot exceed its declared range.
+
+A limited edition of the book arrived yesterday.
+
+The narrow product range includes only replacement valves.
+
+A limited service contract expires after one year.
+
+The narrow scope document was signed yesterday.
+
+The restricted application form requires a signature.
+
+The bounded project area measures twelve square metres.
+
+The product is limited to two functions.
+
+The service is restricted to approved account holders.
+
+Our tightly constrained service accepts only two currencies.
+
+A narrow product supports only deposits and withdrawals.
+
+The limited offering covers only invoice reconciliation.
+
+The bounded project includes exactly three work packages.
+
+The narrow brief is defined in the signed contract.
+
+The restricted feature is documented in the release notes.
+
+A narrow solution is specified in the appendix.
+
+The product supports deposits and withdrawals through two integrations.
+
+The scope is limited to deposits and withdrawals.
+
+The product's narrow profile fits inside the enclosure.
+
+The reviewer quoted "A narrow product with few integrations can move quickly" before requesting measurements.
+
+They narrowed the product to two payment methods.
+
+It is thought that a more limited approach, based on iterators, could provide a coroutine facility to application programmers and still be portable across runtimes.
+
+However, it is outside the narrow scope of this PEP.
+
+When dealing with memory, NSS makes use of arenas, which are an attempt to simplify management with the limited offerings of C (because there are no destructors).
+
+The team selected a narrow solution based on a lookup table.
+
+The limited service contracts expire tomorrow.
+
+The narrow product features are documented in the manual.
+
+The narrow solution was chosen by the client.
+
+The limited offering was discontinued.
+
+The team selected a narrow solution based on a simple lookup table.
+
+The team selected a narrow solution based on an existing API.
+
+A narrow product only supports deposits and withdrawals.
+
+A narrow product currently supports only deposits and withdrawals.
+
+A narrow product is limited to deposits and withdrawals.
+
+A limited service is currently restricted to two currencies.
+
+The limited product and service contracts expire tomorrow.
+
+The restricted application or service accounts require approval.

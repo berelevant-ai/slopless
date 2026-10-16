@@ -2082,3 +2082,67 @@ The scope remains bounded as planned.
 The scope remains bounded at present.
 
 The optimizer has a narrow view of the code; the team cannot work on weekends.
+
+A narrow product with few integrations can move quickly.
+
+A narrow product can move quickly.
+
+A narrow solution can launch quickly.
+
+A limited offering can launch quickly.
+
+Our tightly constrained service can scale quickly.
+
+The product is narrow.
+
+A bounded project moves faster.
+
+A restricted feature can ship sooner.
+
+The narrow brief leaves room for speed.
+
+Their limited application keeps the team focused.
+
+Our constrained implementation makes delivery manageable.
+
+We can launch a narrow product before expanding it.
+
+Operators choose a limited service to reduce overhead.
+
+The team proposed a tightly bounded project.
+
+A considerably narrower product can reach the market sooner.
+
+Those restricted offerings avoid unnecessary complexity.
+
+Their severely limited services remain easy to manage.
+
+A narrow product with 12 integrations can move quickly.
+
+A narrow product can use an API without slowing down.
+
+Our project remains tightly bounded.
+
+The service is restricted in practice.
+
+The implementation seems limited.
+
+A narrow product with few integrations can move quickly, while a multi-brand platform with a sportsbook and several jurisdictions takes far longer and costs more at each step.
+
+An application with a limited offering can still move quickly.
+
+A narrow product of Microsoft can move quickly.
+
+We have a narrow view of Microsoft.
+
+A narrow product based on trust can move quickly.
+
+A narrow product of Microsoft can move quickly because the team is small.
+
+A narrow product or service can move quickly.
+
+A narrow solution and implementation can ship sooner.
+
+A narrow service accepts only what matters for growth.
+
+A limited product currently supports only what helps the business.
