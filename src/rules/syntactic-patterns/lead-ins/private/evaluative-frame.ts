@@ -1,4 +1,4 @@
-import { FRAME_ADJECTIVES, FRAME_NOUNS } from "./discourse-evaluation.js";
+import { FRAME_ADJECTIVES, FRAME_NOUNS } from "./discourse-vocabulary.js";
 
 // "The real question is ...", "A better question here is ...", "The right
 // answers are ...": determiner, evaluative adjective, frame noun (singular or

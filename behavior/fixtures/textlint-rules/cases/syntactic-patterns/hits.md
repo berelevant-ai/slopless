@@ -1867,3 +1867,218 @@ Make no mistake, this will cost us.
 I keep coming back to what Slack taught us about defaults.
 
 It's not about the code. It's about the craft.
+
+## Framing expansion
+
+The trade is control.
+
+The risk is time.
+
+The cost is flexibility.
+
+The price is independence.
+
+The tradeoff is ownership.
+
+Our biggest trade-off was convenience.
+
+Their downside remains uncertainty.
+
+The hidden cost is lost control.
+
+The catch is simplicity: the API team handles three integrations.
+
+The price was freedom; the cost was control.
+
+The tradeoff's flexibility.
+
+The problem is narrower.
+
+The question is narrow.
+
+The task is narrower: connect one service.
+
+A casino that already runs its own front end and wants new games has a narrower problem: add one component without replacing the rest.
+
+The narrower question is which platform to buy.
+
+Our narrowest task remains choosing the supplier.
+
+We face a much narrower challenge: integrate 3 APIs.
+
+The questions were considerably narrower.
+
+The job became narrower after launch.
+
+The question's narrower: which API should we use?
+
+The policy is load-bearing for our API.
+
+The policy is load-bearing for version 3.
+
+These policies are load-bearing.
+
+The policy remains load-bearing.
+
+The policy is quietly load-bearing.
+
+The distinction does the heavy lifting.
+
+This assumption is load-bearing.
+
+The argument was load-bearing.
+
+Those premises were doing the real work.
+
+That sentence did the heavy lifting for the whole report.
+
+The assumptions behind the API are load-bearing.
+
+The policy's load-bearing.
+
+The premise will be load-bearing for the next version.
+
+The real question is narrower: which API should we use?
+
+In production, the policy is load-bearing.
+
+The question is narrower, and the policy is load-bearing for our API.
+
+She wrote "OK", and the policy is load-bearing for our API.
+
+The question's much narrower: which API should we use?
+
+The policy will quietly be doing the heavy lifting.
+
+The policy for the API does the heavy lifting.
+
+The conceptual frames are load-bearing.
+
+The procedural steps are load-bearing.
+
+The structural distinction is load-bearing for our API.
+
+The real question is why we failed; the task is narrower by one category.
+
+The question is narrower by one category; the real question is why we failed.
+
+The policy that governs the API is load-bearing.
+
+The question is narrower by one category and the real question is why we failed.
+
+The workers are doing the heavy lifting and the very important policy is load-bearing for our API.
+
+The policy protects the workers and does the heavy lifting.
+
+The policy protects the workers and is quietly doing the heavy lifting.
+
+The policy on health and safety is load-bearing for our API.
+
+The policy and the rule are load-bearing for our API.
+
+The policy
+is quietly doing the heavy lifting.
+
+Its vocabulary remains bounded.
+
+The scope remains bounded.
+
+The coverage is limited.
+
+Our approach stays constrained.
+
+The implementation generalizes combinations and grammar, but its vocabulary remains bounded.
+
+Their perspectives are restricted.
+
+The lexicon is narrowly bounded.
+
+This analysis is severely limited.
+
+That conclusion remains inherently constrained.
+
+The applicability was restricted.
+
+Our remit stayed limited.
+
+The scope's bounded.
+
+The coverage's severely limited.
+
+The vocabulary seems restricted.
+
+The explanation became more constrained.
+
+The actual scope remains tightly restricted.
+
+Those methods are considerably narrower.
+
+Our solution is limited in practice.
+
+The understanding is limited for now.
+
+Their reach remains bounded after the launch.
+
+The ambition is constrained, even after 12 revisions.
+
+The inquiry is restricted.
+
+The investigation remains bounded.
+
+The interpretation is limited.
+
+The focus stayed narrow.
+
+Their view is restricted.
+
+The available options remain constrained.
+
+The narrow scope is choosing the vendor.
+
+The restricted question is which API to use.
+
+They face a limited choice.
+
+We have a much narrower vocabulary.
+
+The scope stays bounded, by contrast, after twelve reviews.
+
+The approach is limited as always.
+
+The explanation remains restricted because of circumstances.
+
+The focuses are limited.
+
+The foci are limited.
+
+The scope remains bounded by contrast.
+
+The scope is limited at present.
+
+The question is narrower: it requires careful thought.
+
+The scope remains bounded: "it covers everything" is the slogan.
+
+The optimizer has a narrow view.
+
+The optimizer has a narrow view of the code. Its implementation contains 12 modules.
+
+We face a restricted choice of suppliers.
+
+Our approach is limited only in principle.
+
+The scope's bounded. Engineers reviewed the next task.
+
+The scope's bounded; engineers reviewed the next task.
+
+This is less of a "use Firebase" pitch and more of a story about a time it genuinely helped, back when the options were more limited than they are today.
+
+The optimizer has a narrow view of the code; the office is closed and so we can only work remotely.
+
+The scope remains bounded as expected.
+
+The scope remains bounded as planned.
+
+The scope remains bounded at present.
+
+The optimizer has a narrow view of the code; the team cannot work on weekends.

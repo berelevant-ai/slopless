@@ -1,0 +1,117 @@
+{
+  "baselineCommit": "9317262",
+  "candidateVersion": "0.2.41-dev.0",
+  "rules": [
+    "generic-signposting",
+    "quietly-filler",
+    "silently-filler"
+  ],
+  "method": "Run the three rules independently through textlint on identical baseline/candidate inputs; compare rule ID and UTF-16 ranges. Partition by source prefix, then verify the total equals the unpartitioned input inventory. Word totals use the audit's lexical word counter.",
+  "corpusAudit": {
+    "parts": 25,
+    "files": 15580,
+    "failures": 0,
+    "stats": {
+      "ai-generated": {
+        "files": 400,
+        "words": 184881,
+        "before": {
+          "generic-signposting": 37,
+          "quietly-filler": 5
+        },
+        "after": {
+          "generic-signposting": 37,
+          "quietly-filler": 5
+        },
+        "added": {},
+        "removed": {}
+      },
+      "ai-suspected": {
+        "files": 1500,
+        "words": 1576838,
+        "before": {
+          "generic-signposting": 300,
+          "quietly-filler": 86,
+          "silently-filler": 23
+        },
+        "after": {
+          "generic-signposting": 301,
+          "quietly-filler": 86,
+          "silently-filler": 23
+        },
+        "added": {
+          "generic-signposting": 1
+        },
+        "removed": {}
+      },
+      "human": {
+        "files": 13680,
+        "words": 21305305,
+        "before": {
+          "generic-signposting": 297,
+          "quietly-filler": 8,
+          "silently-filler": 2
+        },
+        "after": {
+          "generic-signposting": 297,
+          "quietly-filler": 5,
+          "silently-filler": 2
+        },
+        "added": {},
+        "removed": {
+          "quietly-filler": 3
+        }
+      }
+    },
+    "changes": [
+      {
+        "file": "ai-suspected/tech/devto/devto-3777817.md",
+        "added": [
+          {
+            "rule": "generic-signposting",
+            "line": 63,
+            "text": "Two rules have been load-bearing",
+            "message": "Generic signposting found: Two rules have been load-bearing. Replace the frame with the concrete claim."
+          }
+        ],
+        "removed": []
+      },
+      {
+        "file": "human/reference/wikipedia/wiki-01962-hasta-la-ra-z.md",
+        "added": [],
+        "removed": [
+          {
+            "rule": "quietly-filler",
+            "line": 24,
+            "text": "quietly",
+            "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb."
+          }
+        ]
+      },
+      {
+        "file": "human/reference/wikipedia/wiki-03527-glitter-soundtrack.md",
+        "added": [],
+        "removed": [
+          {
+            "rule": "quietly-filler",
+            "line": 41,
+            "text": "quietly",
+            "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb."
+          }
+        ]
+      },
+      {
+        "file": "human/reference/wikipedia/wiki-03843-the-x-files-season-1.md",
+        "added": [],
+        "removed": [
+          {
+            "rule": "quietly-filler",
+            "line": 27,
+            "text": "quietly",
+            "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb."
+          }
+        ]
+      }
+    ]
+  }
+}

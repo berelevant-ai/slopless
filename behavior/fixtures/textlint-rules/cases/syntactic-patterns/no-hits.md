@@ -918,3 +918,232 @@ That's why this matters for the escalation policy.
 That's why we care about defaults.
 
 Which is why they fail in production.
+
+## Framing expansion
+
+The crew with the equipment and the safety policy are doing the heavy lifting.
+
+The workers follow the policy and do the heavy lifting.
+
+The forklift follows the policy and does the heavy lifting.
+
+The workers follow the policy and are quietly doing the heavy lifting.
+
+The policy for that building says the wall is load-bearing.
+
+That policy says the wall is load-bearing.
+
+The workers who read and follow the policy are quietly doing the heavy lifting.
+
+The workers who follow the policy are quietly doing the heavy lifting.
+
+The policy says the wall is load-bearing.
+
+The staircase steps are load-bearing.
+
+The policy's load-bearing legal requirements apply to concrete walls.
+
+The narrower question is being removed from the survey.
+
+The question is narrower by about three categories.
+
+The question is narrower by a factor of 3.
+
+The crew following the policy are doing the heavy lifting.
+
+The policy's load-bearing requirements apply to concrete walls.
+
+The question's narrower wording confused the witness.
+
+The problem is narrow-angle glaucoma.
+
+The narrower question was removed from the survey.
+
+The steel frames are load-bearing.
+
+The concrete steps are load-bearing.
+
+The question is narrower by one category.
+
+The question is narrower by exactly 3 categories.
+
+The real question is narrower by precisely two categories.
+
+The cost is 400 euros per month.
+
+The risk is fraud.
+
+The risk is a missed launch date.
+
+The price is 12 pounds.
+
+The cost is time spent on the migration.
+
+The risk is losing control of the account.
+
+The estimated cost of control is 400 euros.
+
+She quoted "The trade is control" in the draft review.
+
+The corridor is narrow.
+
+The confidence interval narrowed from 12 points to 4.
+
+The study has a narrower scope: it covers withdrawals at licensed UK casinos.
+
+The trial endpoint was too narrow.
+
+The database has a narrow integer field.
+
+The question is narrower by 3 categories.
+
+The question is narrower from 12 categories to 4.
+
+We measured the narrowest part of the pipe.
+
+The client has a narrower viewport than the server assumed.
+
+The narrow passage is blocked.
+
+The retaining wall is load-bearing.
+
+This wall is load-bearing.
+
+The stone pillars were load-bearing.
+
+The forklift does the heavy lifting.
+
+The crew were doing the real work in the yard.
+
+The policy document is lying on a load-bearing beam.
+
+The policy explicitly prohibits heavy lifting after surgery.
+
+The distinction between a beam and a wall matters to the surveyor.
+
+The editor quoted "The policy is load-bearing" in the review.
+
+The risk was discussed. Time was recorded separately.
+
+Its vocabulary is limited to 12 payoff words.
+
+The scope remains bounded by the signed contract.
+
+The coverage is limited to English Markdown.
+
+Our approach is constrained by a 500 ms timeout.
+
+The queue remains bounded at 256 pending jobs.
+
+The variance remains bounded by 4 for every sample size.
+
+The beam is constrained by two brackets.
+
+The film has a limited release.
+
+The solution uses a bounded queue.
+
+The limited approach was rejected by the team.
+
+The restricted scope is being reviewed by counsel.
+
+The scope's bounded technical domain excludes physical repairs.
+
+The coverage's severely limited geographic extent was documented.
+
+The vocabulary's restricted technical meaning was defined in the glossary.
+
+The analysis is limited to what the instrument measures.
+
+The remit stayed restricted to contracts signed before May.
+
+The conclusion was constrained by missing temperature readings.
+
+The applicability is limited by the sample size.
+
+The alternatives are constrained by the supplier's API.
+
+The explanation is limited to the error shown in the log.
+
+The focus remains narrower by exactly two categories.
+
+The scope is narrower by about three categories.
+
+The vocabulary is narrower from 20 labels to 12.
+
+The view is limited to the northern ridge.
+
+The editor quoted "The scope remains bounded" in the review.
+
+The result is a bounded integer.
+
+The bounded scope is specified in section 4.
+
+The offering is limited-edition merchandise.
+
+Her vocabulary was limited to Spanish.
+
+The scope is constrained within the test environment.
+
+Our approach was restricted by the court.
+
+Our options remain limited to the approved suppliers.
+
+The analysis is bounded between zero and one.
+
+These interpretations are constrained to match the recorded evidence.
+
+We believe these methods are limited as they succeed only after the critical first few (~6) hours of phishing attacks.
+
+The analysis is limited because the instrument cannot record high frequencies.
+
+The coverage remained restricted since only one camera was available.
+
+The available options are limited when the supplier disables its older API.
+
+The coverage is limited only to English Markdown.
+
+Our approach is constrained entirely by a 500 ms timeout.
+
+The approach is constrained optimization.
+
+The solution is bounded model checking.
+
+The vocabulary's restricted and technical meaning was defined in the glossary.
+
+They face a limited choice of three suppliers.
+
+We have a restricted vocabulary of 12 labels.
+
+The method is limited, however, by the small number of water megamasers known at distances within the Hubble flow.
+
+Currently the options are limited for persisting that per-module information past the method call, since it only returns the loader.
+
+By definition, a peephole optimizer has a narrow view of the code and so can only implement basic optimizations.
+
+A peephole optimizer has a narrow view of the code and therefore can only implement basic optimizations.
+
+A peephole optimizer has a narrow view of the code because it can only implement basic optimizations.
+
+In a monolithic application, the blast radius of this problem is limited.
+
+Part of the problem is limited spectrum.
+
+The coverage is limited, for now, to English Markdown.
+
+The scope remains bounded at no more than 256 jobs.
+
+The scope remains bounded at at least 256 jobs.
+
+The optimizer has a narrow view of the code and therefore cannot optimize across functions.
+
+The optimizer has a narrow view of the code and therefore can't optimize across functions.
+
+The coverage is limited, in the current release, to English Markdown.
+
+By definition, a peephole optimizer has a narrow view of the code and cannot optimize across functions.
+
+Python 3.6 optimizes the code using a peephole optimizer. By
+definition, a peephole optimizer has a narrow view of the code and so
+can only implement basic optimizations. The optimizer rewrites the
+bytecode. It is difficult to enhance it, because it written in C.

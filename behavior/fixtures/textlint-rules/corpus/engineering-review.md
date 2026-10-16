@@ -1483,3 +1483,129 @@ Wasn't that the real lesson?
 Is that not your car outside?
 
 Isn't the meeting at 3?
+
+## Procurement workshop
+
+The procurement team reviewed drafts for a platform migration while the facilities group prepared the new office. Their first draft reduced each vendor decision to a resource label. The trade is control. The risk is time. The cost is flexibility. The price is independence. The tradeoff is ownership.
+
+The buyer then compared a hosted service with the previous arrangement. Our biggest trade-off was convenience. Their downside remains uncertainty. The hidden cost is lost control. The catch is simplicity: the API team handles three integrations. The price was freedom; the cost was control. The tradeoff's flexibility.
+
+The integration group tried to explain the next procurement step. The problem is narrower. The question is narrow. The task is narrower: connect one service. A casino that already runs its own front end and wants new games has a narrower problem: add one component without replacing the rest.
+
+The department continued discussing its choice of suppliers. The narrower question is which platform to buy. Our narrowest task remains choosing the supplier. We face a much narrower challenge: integrate 3 APIs. The questions were considerably narrower. The job became narrower after launch. The question's narrower: which API should we use?
+
+An architect described the proposed supplier agreement in the next draft. The policy is load-bearing for our API. The policy is load-bearing for version 3. These policies are load-bearing. The policy remains load-bearing. The policy is quietly load-bearing. The distinction does the heavy lifting.
+
+Another reviewer annotated the argument about who would maintain the service. This assumption is load-bearing. The argument was load-bearing. Those premises were doing the real work. That sentence did the heavy lifting for the whole report. The assumptions behind the API are load-bearing. The policy's load-bearing. The premise will be load-bearing for the next version. The real question is narrower: which API should we use?
+
+The signed quotation supplied the figures that the draft had omitted. The cost is 400 euros per month. The risk is fraud. The risk is a missed launch date. The price is 12 pounds. The cost is time spent on the migration. The risk is losing control of the account. The estimated cost of control is 400 euros. She quoted "The trade is control" in the draft review.
+
+The facilities report covered physical access to the building and the survey team's measurements. The corridor is narrow. The confidence interval narrowed from 12 points to 4. The study has a narrower scope: it covers withdrawals at licensed UK casinos. The trial endpoint was too narrow. The database has a narrow integer field.
+
+The research team explained how the review questionnaire had changed between rounds. The question is narrower by 3 categories. The question is narrower from 12 categories to 4. We measured the narrowest part of the pipe. The client has a narrower viewport than the server assumed. The narrow passage is blocked.
+
+The surveyor described the support structure before the contractors arrived. The retaining wall is load-bearing. This wall is load-bearing. The stone pillars were load-bearing. The forklift does the heavy lifting. The crew were doing the real work in the yard. The policy document is lying on a load-bearing beam. The policy explicitly prohibits heavy lifting after surgery. The distinction between a beam and a wall matters to the surveyor. The editor quoted "The policy is load-bearing" in the review. The risk was discussed. Time was recorded separately.
+
+## Reviewing the workshop examples
+
+The reviewer opened the procurement discussion with a familiar claim. In production, the policy is load-bearing. Two participants then compressed separate decisions into a single sentence. The question is narrower, and the policy is load-bearing for our API. The secretary recorded the next comment exactly. She wrote "OK", and the policy is load-bearing for our API. A participant followed with another introductory frame. The question's much narrower: which API should we use? A colleague projected its importance into the next release. The policy will quietly be doing the heavy lifting. Another assigned it the same role with a shorter verb. The policy for the API does the heavy lifting. The chair extended the metaphor to the workshop method. The conceptual frames are load-bearing. The procedural steps are load-bearing.
+
+The construction team used similar words to discuss their own work. The crew following the policy are doing the heavy lifting. Their documentation covered physical structures. The policy's load-bearing requirements apply to concrete walls. The steel frames are load-bearing. The concrete steps are load-bearing. These sentences described the building that hosted the workshop.
+
+The survey editor also brought revisions to review. The question's narrower wording confused the witness. The narrower question was removed from the survey. The question is narrower by one category. The question is narrower by exactly 3 categories. The real question is narrower by precisely two categories. In the medical section, a clinician clarified the diagnosis. The problem is narrow-angle glaucoma.
+
+The technical lead returned to the contract language. The structural distinction is load-bearing for our API. She then separated her rhetorical introduction from a numerical revision. The real question is why we failed; the task is narrower by one category.
+
+The next draft reversed the order of the two clauses. The question is narrower by one category; the real question is why we failed. The author added a modifier to the subject of her next claim. The policy that governs the API is load-bearing. The editor asked which contractual term justified the metaphor.
+
+The facilities manager described the inspection team instead. The workers who follow the policy are quietly doing the heavy lifting. He asked the editor to preserve the difference between the workers and the policy they followed.
+
+The copy editor reviewed the version without punctuation between the two statements. The question is narrower by one category and the real question is why we failed. The report returned to the facilities team's descriptions. That policy says the wall is load-bearing. The workers who read and follow the policy are quietly doing the heavy lifting. Each sentence identified the actor or structure responsible for the reported work.
+
+The inspector explained why his earlier comment referred to a physical structure. The policy for that building says the wall is load-bearing. The proposal's author combined his description of the crew with another importance claim. The workers are doing the heavy lifting and the very important policy is load-bearing for our API. The editor kept the account of the workers and asked for a concrete explanation of the policy.
+
+The inspector's operational notes described the crew and their equipment. The workers follow the policy and do the heavy lifting. The forklift follows the policy and does the heavy lifting. The workers follow the policy and are quietly doing the heavy lifting. He described who moved the materials and how they did it.
+
+The supplier's representative described the agreement differently. The policy protects the workers and does the heavy lifting. The policy protects the workers and is quietly doing the heavy lifting. The editor asked him to replace those claims of importance with the responsibilities assigned by the agreement.
+
+The representative then referred to the agreement's subject and a related rule. The policy on health and safety is load-bearing for our API. The policy and the rule are load-bearing for our API. The facilities manager returned to the people responsible for moving the materials. The crew with the equipment and the safety policy are doing the heavy lifting. The editor separated the descriptions of the crew from the importance metaphors in the proposal.
+
+The building inspector read the safety document aloud. The policy says the wall is load-bearing. The staircase steps are load-bearing. The policy's load-bearing legal requirements apply to concrete walls. These statements referred to the support structure and its inspection requirements.
+
+The survey editor returned to the revised questionnaire. The narrower question is being removed from the survey. The question is narrower by about three categories. The question is narrower by a factor of 3. She recorded the quantities so the reviewers could reproduce her comparison.
+
+The editor pasted one softly wrapped line from the source document into the review notes. The policy
+is quietly doing the heavy lifting. She kept the source line break while checking that its meaning survived the paste.
+
+## Describing the limits of the migration review
+
+The documentation editor reviewed the vocabulary section of the migration proposal. Its vocabulary remains bounded. The scope remains bounded. The coverage is limited. Our approach stays constrained.
+
+The proposal then compared how different reviewers described the same system. The implementation generalizes combinations and grammar, but its vocabulary remains bounded. Their perspectives are restricted. The lexicon is narrowly bounded. This analysis is severely limited.
+
+The next revision retained statements about the investigation's scope. That conclusion remains inherently constrained. The applicability was restricted. Our remit stayed limited. The scope's bounded.
+
+The editor examined shorter declarations and their modified forms. The coverage's severely limited. The vocabulary seems restricted. The explanation became more constrained. The actual scope remains tightly restricted.
+
+The supplier review moved from individual methods to the proposed service. Those methods are considerably narrower. Our solution is limited in practice. The understanding is limited for now. Their reach remains bounded after the launch.
+
+The team discussed which questions the report would answer. The ambition is constrained, even after 12 revisions. The inquiry is restricted. The investigation remains bounded. The interpretation is limited.
+
+The chair returned to the vendor decision and the available interpretations. The focus stayed narrow. Their view is restricted. The available options remain constrained. The narrow scope is choosing the vendor.
+
+The final draft described the choice facing the integration team. The restricted question is which API to use. They face a limited choice. We have a much narrower vocabulary. The scope stays bounded, by contrast, after twelve reviews.
+
+The technical appendix supplied direct limits for the same system. Its vocabulary is limited to 12 payoff words. The scope remains bounded by the signed contract. The coverage is limited to English Markdown. Our approach is constrained by a 500 ms timeout.
+
+The packet also contained equipment specifications and a film catalogue used in a demonstration. The queue remains bounded at 256 pending jobs. The variance remains bounded by 4 for every sample size. The beam is constrained by two brackets. The film has a limited release.
+
+The editor distinguished a constrained object from an introductory statement about scope. The solution uses a bounded queue. The limited approach was rejected by the team. The restricted scope is being reviewed by counsel. The scope's bounded technical domain excludes physical repairs.
+
+The survey team recorded the extent of its coverage and the meaning of its terms. The coverage's severely limited geographic extent was documented. The vocabulary's restricted technical meaning was defined in the glossary. The analysis is limited to what the instrument measures. The remit stayed restricted to contracts signed before May.
+
+The investigators explained which observations determined their conclusions. The conclusion was constrained by missing temperature readings. The applicability is limited by the sample size. The alternatives are constrained by the supplier's API. The explanation is limited to the error shown in the log.
+
+The questionnaire comparison supplied numerical differences and a geographic boundary. The focus remains narrower by exactly two categories. The scope is narrower by about three categories. The vocabulary is narrower from 20 labels to 12. The view is limited to the northern ridge.
+
+The appendix documented quoted wording, integer types, and product descriptions. The editor quoted "The scope remains bounded" in the review. The result is a bounded integer. The bounded scope is specified in section 4. The offering is limited-edition merchandise.
+
+The implementation section described the approved environments and suppliers. Her vocabulary was limited to Spanish. The scope is constrained within the test environment. Our approach was restricted by the court. Our options remain limited to the approved suppliers.
+
+The mathematical note ended with a constraint on the permitted interpretations. The analysis is bounded between zero and one. These interpretations are constrained to match the recorded evidence.
+
+The security assessment explained the detection delay. We believe these methods are limited as they succeed only after the critical first few (~6) hours of phishing attacks. The same review recorded the measurement restrictions. The analysis is limited because the instrument cannot record high frequencies. The coverage remained restricted since only one camera was available. The available options are limited when the supplier disables its older API.
+
+Two comments still needed an explanation in the next editorial pass. The approach is limited as always. The explanation remains restricted because of circumstances.
+
+The reviewer read the next set of migration notes. The focuses are limited. The foci are limited. The scope remains bounded by contrast.
+
+The reviewer read the next set of migration notes. The scope is limited at present. The question is narrower: it requires careful thought. The scope remains bounded: "it covers everything" is the slogan.
+
+The reviewer read the next set of migration notes. The optimizer has a narrow view. The optimizer has a narrow view of the code. Its implementation contains 12 modules. We face a restricted choice of suppliers.
+
+The reviewer read the next set of migration notes. Our approach is limited only in principle. The scope's bounded. Engineers reviewed the next task. The scope's bounded; engineers reviewed the next task.
+
+The reviewer read the next set of migration notes. This is less of a "use Firebase" pitch and more of a story about a time it genuinely helped, back when the options were more limited than they are today. The coverage is limited only to English Markdown. Our approach is constrained entirely by a 500 ms timeout.
+
+The reviewer read the next set of migration notes. The approach is constrained optimization. The solution is bounded model checking. The vocabulary's restricted and technical meaning was defined in the glossary.
+
+The reviewer read the next set of migration notes. They face a limited choice of three suppliers. We have a restricted vocabulary of 12 labels. The method is limited, however, by the small number of water megamasers known at distances within the Hubble flow.
+
+The reviewer read the next set of migration notes. Currently the options are limited for persisting that per-module information past the method call, since it only returns the loader. By definition, a peephole optimizer has a narrow view of the code and so can only implement basic optimizations. A peephole optimizer has a narrow view of the code and therefore can only implement basic optimizations.
+
+The reviewer read the next set of migration notes. A peephole optimizer has a narrow view of the code because it can only implement basic optimizations. In a monolithic application, the blast radius of this problem is limited. Part of the problem is limited spectrum.
+
+The final notes supplied three comments for the editor to clarify. The optimizer has a narrow view of the code; the office is closed and so we can only work remotely. The scope remains bounded as expected. The scope remains bounded as planned.
+
+The release note specified the accepted input and the queue bounds. The coverage is limited, for now, to English Markdown. The scope remains bounded at no more than 256 jobs. The scope remains bounded at at least 256 jobs. The coverage is limited, in the current release, to English Markdown.
+
+The compiler note explained its operational limits in three drafts. The optimizer has a narrow view of the code and therefore cannot optimize across functions. The optimizer has a narrow view of the code and therefore can't optimize across functions. By definition, a peephole optimizer has a narrow view of the code and cannot optimize across functions.
+
+The editor asked for an explanation of the remaining claims. The scope remains bounded at present. The optimizer has a narrow view of the code; the team cannot work on weekends.
+
+The appendix reproduced the optimizer note with its original source wrapping.
+
+Python 3.6 optimizes the code using a peephole optimizer. By
+definition, a peephole optimizer has a narrow view of the code and so
+can only implement basic optimizations. The optimizer rewrites the
+bytecode. It is difficult to enhance it, because it written in C.

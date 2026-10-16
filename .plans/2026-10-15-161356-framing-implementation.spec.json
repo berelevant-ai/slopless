@@ -1,0 +1,40 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "required": [
+        "src/rules/syntactic-patterns/lead-ins/private/discourse-vocabulary.ts",
+        "src/rules/syntactic-patterns/lead-ins/private/abstract-cost-frame.ts",
+        "src/rules/syntactic-patterns/lead-ins/private/narrow-frame.ts",
+        "src/rules/syntactic-patterns/lead-ins/private/importance-frame.ts",
+        "src/rules/syntactic-patterns/lead-ins/private/frame-matches.ts",
+        "src/rules/words/private/hidden-significance-evaluation.ts",
+        "src/shared/text/subject-before.ts"
+      ]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/lead-ins/generic-signposting.ts"],
+        "required": ["findDiscourseFrames"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/lead-ins/private/discourse-evaluation.ts"],
+        "required": ["discourse-vocabulary.js", "findAbstractCostFrames", "findNarrowFrames", "findImportanceFrames"],
+        "forbidden": ["function matchDiscourseWorkClaim"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/syntactic-patterns/lead-ins/private/evaluative-frame.ts"],
+        "forbidden": ["discourse-evaluation.js"]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["src/rules/words/private/hidden-significance-evaluation.ts"],
+        "required": ["evaluativeDegreeWords", "importanceMetaphorSubjects", "subjectBefore"]
+      }
+    ]
+  }
+}

@@ -16,7 +16,7 @@
             "line": 3
           }
         },
-        "message": "Coleman-Liau is 14.45. Keep it at 12 or lower.",
+        "message": "Coleman-Liau is 14.51. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -39,7 +39,7 @@
             "line": 3
           }
         },
-        "message": "Flesch Reading Ease is 37.54. Keep it at 61 or higher.",
+        "message": "Flesch Reading Ease is 39.06. Keep it at 61 or higher.",
         "range": [
           26,
           27
@@ -62,7 +62,7 @@
             "line": 3
           }
         },
-        "message": "Gunning Fog is 12.99. Keep it at 12 or lower.",
+        "message": "Gunning Fog is 12.34. Keep it at 12 or lower.",
         "range": [
           26,
           27
@@ -9309,7 +9309,7 @@
       {
         "column": 112,
         "data": {
-          "message": "\"quietly\" used 128 times (15 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+          "message": "\"quietly\" used 155 times (17 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
           "padding": {
             "isAbsolute": false,
             "range": [
@@ -9332,7 +9332,7 @@
             "line": 809
           }
         },
-        "message": "\"quietly\" used 128 times (15 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
+        "message": "\"quietly\" used 155 times (17 per 1,000 words), above the 2-per-1,000-word error threshold. Cut the filler uses; keep at most about one per 1,000 words.",
         "range": [
           30791,
           30798
@@ -16769,6 +16769,888 @@
         ],
         "ruleId": "summative-closer",
         "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 56352,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 386,
+            "line": 1370
+          },
+          "start": {
+            "column": 1,
+            "line": 1370
+          }
+        },
+        "message": "Paragraph has 7 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          56352,
+          56737
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 146,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              145,
+              152
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56497,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 153,
+            "line": 1370
+          },
+          "start": {
+            "column": 146,
+            "line": 1370
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          56497,
+          56504
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 183,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              182,
+              190
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56534,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 191,
+            "line": 1370
+          },
+          "start": {
+            "column": 183,
+            "line": 1370
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+        "range": [
+          56534,
+          56542
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 202,
+        "index": 56553,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 239,
+            "line": 1370
+          },
+          "start": {
+            "column": 202,
+            "line": 1370
+          }
+        },
+        "message": "Generic signposting found: the-is-important. Replace the frame with the concrete claim.",
+        "range": [
+          56553,
+          56590
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 202,
+        "index": 56553,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 344,
+            "line": 1370
+          },
+          "start": {
+            "column": 202,
+            "line": 1370
+          }
+        },
+        "message": "Repeated sentence starts: 4 nearby sentences start with the same frame (the policy is).",
+        "range": [
+          56553,
+          56695
+        ],
+        "ruleId": "repeated-sentence-starts",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 216,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              215,
+              222
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56567,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 223,
+            "line": 1370
+          },
+          "start": {
+            "column": 216,
+            "line": 1370
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          56567,
+          56574
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 240,
+        "index": 56591,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 277,
+            "line": 1370
+          },
+          "start": {
+            "column": 240,
+            "line": 1370
+          }
+        },
+        "message": "Generic signposting found: the-is-important. Replace the frame with the concrete claim.",
+        "range": [
+          56591,
+          56628
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 254,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              253,
+              260
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56605,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 261,
+            "line": 1370
+          },
+          "start": {
+            "column": 254,
+            "line": 1370
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          56605,
+          56612
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 292,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              291,
+              298
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56643,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 299,
+            "line": 1370
+          },
+          "start": {
+            "column": 292,
+            "line": 1370
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          56643,
+          56650
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 345,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              344,
+              352
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56696,
+        "line": 1370,
+        "loc": {
+          "end": {
+            "column": 353,
+            "line": 1370
+          },
+          "start": {
+            "column": 345,
+            "line": 1370
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+        "range": [
+          56696,
+          56704
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 56739,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 320,
+            "line": 1372
+          },
+          "start": {
+            "column": 1,
+            "line": 1372
+          }
+        },
+        "message": "Paragraph has 7 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          56739,
+          57058
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 73,
+        "index": 56811,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 123,
+            "line": 1372
+          },
+          "start": {
+            "column": 73,
+            "line": 1372
+          }
+        },
+        "message": "Generic signposting found: The distinction is quietly doing the heavy lifting. Replace the frame with the concrete claim.",
+        "range": [
+          56811,
+          56861
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 92,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              91,
+              98
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56830,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 99,
+            "line": 1372
+          },
+          "start": {
+            "column": 92,
+            "line": 1372
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          56830,
+          56837
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 125,
+        "index": 56863,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 160,
+            "line": 1372
+          },
+          "start": {
+            "column": 125,
+            "line": 1372
+          }
+        },
+        "message": "Generic signposting found: The policy is silently load-bearing. Replace the frame with the concrete claim.",
+        "range": [
+          56863,
+          56898
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 139,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (background-significance). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              138,
+              146
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56877,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 147,
+            "line": 1372
+          },
+          "start": {
+            "column": 139,
+            "line": 1372
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (background-significance). Name the concrete behavior or remove the adverb.",
+        "range": [
+          56877,
+          56885
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 183,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              182,
+              189
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56921,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 190,
+            "line": 1372
+          },
+          "start": {
+            "column": 183,
+            "line": 1372
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          56921,
+          56928
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 221,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              220,
+              228
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56959,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 229,
+            "line": 1372
+          },
+          "start": {
+            "column": 221,
+            "line": 1372
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+        "range": [
+          56959,
+          56967
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 255,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              254,
+              261
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 56993,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 262,
+            "line": 1372
+          },
+          "start": {
+            "column": 255,
+            "line": 1372
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (evaluative-intensifier). Name the concrete change or remove the adverb.",
+        "range": [
+          56993,
+          57000
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 296,
+        "data": {
+          "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              295,
+              303
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 57034,
+        "line": 1372,
+        "loc": {
+          "end": {
+            "column": 304,
+            "line": 1372
+          },
+          "start": {
+            "column": 296,
+            "line": 1372
+          }
+        },
+        "message": "\"silently\" adds vague hidden significance (evaluative-intensifier). Name the concrete behavior or remove the adverb.",
+        "range": [
+          57034,
+          57042
+        ],
+        "ruleId": "silently-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 1,
+        "index": 57060,
+        "line": 1374,
+        "loc": {
+          "end": {
+            "column": 399,
+            "line": 1374
+          },
+          "start": {
+            "column": 1,
+            "line": 1374
+          }
+        },
+        "message": "Paragraph has 7 sentences. Keep paragraphs to 6 sentences or fewer.",
+        "range": [
+          57060,
+          57458
+        ],
+        "ruleId": "paragraph-length",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 66,
+        "index": 57959,
+        "line": 1380,
+        "loc": {
+          "end": {
+            "column": 114,
+            "line": 1380
+          },
+          "start": {
+            "column": 66,
+            "line": 1380
+          }
+        },
+        "message": "Generic signposting found: The assumption's quietly doing the heavy lifting. Replace the frame with the concrete claim.",
+        "range": [
+          57959,
+          58007
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 83,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              82,
+              89
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 57976,
+        "line": 1380,
+        "loc": {
+          "end": {
+            "column": 90,
+            "line": 1380
+          },
+          "start": {
+            "column": 83,
+            "line": 1380
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          57976,
+          57983
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 116,
+        "index": 58009,
+        "line": 1380,
+        "loc": {
+          "end": {
+            "column": 166,
+            "line": 1380
+          },
+          "start": {
+            "column": 116,
+            "line": 1380
+          }
+        },
+        "message": "Generic signposting found: The policy will quietly be doing the heavy lifting. Replace the frame with the concrete claim.",
+        "range": [
+          58009,
+          58059
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 132,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              131,
+              138
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 58025,
+        "line": 1380,
+        "loc": {
+          "end": {
+            "column": 139,
+            "line": 1380
+          },
+          "start": {
+            "column": 132,
+            "line": 1380
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          58025,
+          58032
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 64,
+        "index": 58219,
+        "line": 1382,
+        "loc": {
+          "end": {
+            "column": 90,
+            "line": 1382
+          },
+          "start": {
+            "column": 64,
+            "line": 1382
+          }
+        },
+        "message": "Generic signposting found: The policy is load-bearing. Replace the frame with the concrete claim.",
+        "range": [
+          58219,
+          58245
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 117,
+        "index": 58720,
+        "line": 1384,
+        "loc": {
+          "end": {
+            "column": 143,
+            "line": 1384
+          },
+          "start": {
+            "column": 117,
+            "line": 1384
+          }
+        },
+        "message": "Generic signposting found: The policy is load-bearing. Replace the frame with the concrete claim.",
+        "range": [
+          58720,
+          58746
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 66,
+        "index": 59414,
+        "line": 1390,
+        "loc": {
+          "end": {
+            "column": 136,
+            "line": 1390
+          },
+          "start": {
+            "column": 66,
+            "line": 1390
+          }
+        },
+        "message": "Generic signposting found: The policy protects the workers and is quietly doing the heavy lifting. Replace the frame with the concrete claim.",
+        "range": [
+          59414,
+          59484
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 105,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              104,
+              111
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 59453,
+        "line": 1390,
+        "loc": {
+          "end": {
+            "column": 112,
+            "line": 1390
+          },
+          "start": {
+            "column": 105,
+            "line": 1390
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          59453,
+          59460
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
+        "type": "lint"
+      },
+      {
+        "column": 71,
+        "index": 60170,
+        "line": 1394,
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 1395
+          },
+          "start": {
+            "column": 71,
+            "line": 1394
+          }
+        },
+        "message": "Generic signposting found: The policy\nis quietly doing the heavy lifting. Replace the frame with the concrete claim.",
+        "range": [
+          60170,
+          60215
+        ],
+        "ruleId": "generic-signposting",
+        "severity": 2,
+        "type": "lint"
+      },
+      {
+        "column": 4,
+        "data": {
+          "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+          "padding": {
+            "isAbsolute": false,
+            "range": [
+              84,
+              91
+            ],
+            "type": "TextlintRuleErrorPaddingLocation"
+          },
+          "severity": 1
+        },
+        "index": 60184,
+        "line": 1395,
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1395
+          },
+          "start": {
+            "column": 4,
+            "line": 1395
+          }
+        },
+        "message": "\"quietly\" adds vague hidden significance (background-significance). Name the concrete change or remove the adverb.",
+        "range": [
+          60184,
+          60191
+        ],
+        "ruleId": "quietly-filler",
+        "severity": 1,
         "type": "lint"
       }
     ]
