@@ -1,0 +1,152 @@
+{
+  "abstract-metaphor-claim": {
+    "purpose": "Catch unsupported artifact-role identity equations and abstract metaphors that replace an identified operation, relationship, or concrete claim.",
+    "distinction": [
+      "A page, feed, dashboard, or brand can be a concrete artifact while its claimed role is still an empty metaphor.",
+      "The page wearing a jacket and the dashboard being the decision are targets.",
+      "A physical pipe, identified product, catalog file, or stated technical operation supplies a literal meaning."
+    ],
+    "boundaries": [
+      "Preserve literal spatial actions, physical objects, identified products, and specified technical operations.",
+      "An explanation must identify the claimed operation or relationship. Merely naming a page, dashboard, client, or other artifact does not explain a metaphor.",
+      "Preserve a literary metaphor when quoted for discussion or attribution rather than asserted by the narrator."
+    ],
+    "hits": [
+      "The page cannot outsource its answer to metadata.",
+      "The page is wearing a nice jacket over an empty shirt.",
+      "The brand vanishes like a contractor after a vague scope call.",
+      "Local AI visibility behaves like a trust filter.",
+      "The dashboard is the decision.",
+      "To the machine doing the shopping, the feed is the product."
+    ],
+    "noHits": [
+      "The pipeline is the steel pipe that carries water to the tank.",
+      "The feed is the product catalog uploaded to S3.",
+      "The Stripe dashboard is the product."
+    ]
+  },
+  "empty-quantification": {
+    "distinction": [
+      "The empty claim says a report or model merely put a number on an unspecified thing.",
+      "A supplied value, named measurement, calculated score, or literal numbered label explains the operation even when the sentence also says just."
+    ],
+    "hits": [],
+    "noHits": [
+      "The report just put a number on it: 42%.",
+      "The technician just put a number on it because the sample needed an anonymous label."
+    ]
+  },
+  "hollow-significance": {
+    "distinction": [
+      "The implemented expansion covers pivotal turning points, enduring symbols, focal points in an evolving landscape, and setting the stage for unspecified growth.",
+      "It also covers unsupported importance, broader movements, indelible marks, landscape-shaping, and cultural roots. Preserve literal physical operations and evidence explaining the asserted relationship.",
+      "A factual subject or opening event does not explain a separate claim of significance.",
+      "Optical focal points, physical stages, diagrams, and measured results have literal meanings."
+    ],
+    "hits": [
+      "The agreement marks a pivotal turning point for the evolving industry.",
+      "The institution remains a focal point in the evolving cultural landscape.",
+      "The monument stands as an enduring testament to the community's resilience.",
+      "The discovery sets the stage for a new chapter of transformative growth.",
+      "The partnership underscores the vital importance of cross-sector collaboration.",
+      "The project contributes to a broader movement toward sustainable progress.",
+      "The artist left an indelible mark on the broader creative movement.",
+      "The initiative is shaping the evolving landscape of regional collaboration.",
+      "The ceremony is deeply rooted in cultural tradition."
+    ],
+    "noHits": [
+      "Figure 3 illustrates the transition from state READY to state RUNNING.",
+      "The stage is set 2 meters behind the orchestra pit.",
+      "The focal point lies 35 millimeters behind the lens.",
+      "The coating reflects infrared light into the detector.",
+      "The oak is deeply rooted in clay soil beside the eastern wall."
+    ]
+  },
+  "solution-boring-frame": {
+    "distinction": [
+      "The target praises a solution-like answer, plan, strategy, or method by calling it boring. A concrete instruction after a colon still leaves that wrapper.",
+      "Scope modifiers and numbers such as across all 12 cases do not change the frame.",
+      "An audit or report described as dull, or a rule boring to its students because it repeats itself, is an ordinary experience judgment."
+    ],
+    "hits": [
+      "The practical answer across all 12 cases is boring.",
+      "The correct method in section 4 is boring.",
+      "This strategy for the remaining accounts is boring: remove the duplicate step."
+    ],
+    "noHits": [
+      "The classroom rule under review is boring to the students.",
+      "The rule is boring because each clause repeats the same sentence.",
+      "The audit under all 43 checks is boring."
+    ]
+  },
+  "puffery-evaluative-claim": {
+    "distinction": [
+      "The target includes unsupported criticism and comparisons as well as praise: less glamorous, devastating impact, and glamour's poor conversion rate can all replace a concrete claim.",
+      "A named metric without its value or mechanism still leaves an empty comparison. A measured best score of 94.1 percent states the result."
+    ],
+    "boundaries": [
+      "Preserve a measured result, specific documented achievement, identified historical fact, or attributed evaluation being discussed.",
+      "A name, date, quotation mark, or metric elsewhere does not establish evidence for the candidate evaluation."
+    ],
+    "hits": ["The second one is less glamorous.", "Glamour has a poor conversion rate in technical audits."],
+    "noHits": []
+  },
+  "something-shifted": {
+    "boundaries": [
+      "Preserve a changed property, specified before/after states, concrete action, physical direction, or cause.",
+      "Naming the air, market, industry, or platform alone does not specify what changed. A date or number must describe the claimed change."
+    ],
+    "hits": [],
+    "noHits": []
+  },
+  "vague-threshold-change": {
+    "boundaries": [
+      "Preserve an identified scale, cause, measured difference, before/after state, or action that makes the comparison informative.",
+      "Naming the work or the situation alone does not identify what became harder or why."
+    ],
+    "hits": [],
+    "noHits": []
+  },
+  "empty-significance-occasion": {
+    "boundaries": [
+      "Preserve an identified result or consequence, including a quantified change to a specified budget, schedule, operation, or decision.",
+      "An occasion, audience, witness, period, or named participant alone does not explain the asserted importance."
+    ],
+    "hits": [],
+    "noHits": []
+  },
+  "empty-emotional-weather": {
+    "boundaries": [
+      "Preserve literal pressure, weight, sound, and physical conditions with an identified source.",
+      "Preserve a mood description when a stated event or action explains that mood. Fictional prose alone does not exempt the stock atmospheric frame."
+    ],
+    "hits": [],
+    "noHits": []
+  },
+  "superficial-analysis": {
+    "distinction": [
+      "After reporting an event, the sentence appends a claim of importance, progress, identity, collaboration, or belonging without evidence for that added claim.",
+      "It often starts after a comma with highlighting or underscoring, or after and/which with reflects or underscores.",
+      "Four menu items do not prove the importance of simplicity. A fall from 240 ms to 180 ms does demonstrate lower latency.",
+      "Physical alignment, acoustic resonance, specified receptor activation, and verified durable rows name mechanisms or results."
+    ],
+    "hits": [
+      "The bridge opened in 1998, highlighting the city's commitment to sustainable growth.",
+      "The redesign reduced the menu to four items, underscoring the importance of simplicity.",
+      "The initiative brought the teams together, fostering a culture of meaningful collaboration.",
+      "The conference attracted global speakers, illustrating its growing significance.",
+      "The renewed charter passed unanimously, confirming the institution's lasting significance.",
+      "The foundation funded ten murals, facilitating meaningful cultural engagement.",
+      "The festival ran for three days and reflects the region's enduring cultural significance.",
+      "The bridge opened in the spring, which underscores its lasting legacy."
+    ],
+    "noHits": [
+      "The assay produced a 14 percent increase, confirming receptor activation in sample B.",
+      "The benchmark fell from 240 ms to 180 ms, demonstrating the measured latency reduction.",
+      "The transaction commits after the checksum passes, ensuring that all 14 rows are durable.",
+      "The state machine accepts READY, RUNNING, and FAILED, encompassing all states defined in RFC 9.",
+      "The technician rotated the lens, aligning the sensor with marker B.",
+      "The tuning fork vibrated at 440 Hz, resonating with the open A string."
+    ]
+  }
+}
