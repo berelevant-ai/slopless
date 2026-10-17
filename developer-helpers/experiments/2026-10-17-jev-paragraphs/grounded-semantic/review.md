@@ -50,6 +50,12 @@ Recovered constructions include "The dashboard is the decision," "Structured dat
 
 Examples absent from the demonstrations include "The spreadsheet is the business" and "The pipeline is the work." Both now receive positive main-rule judgments after passing the previous generic prompt.
 
+Independent case review identifies 28 clear main-rule recoveries, including 17 targets without demonstration overlap. No previously caught baseline-positive main-rule target becomes negative.
+
+- The two removed main-rule positives, hit-file `p154` and `p203`, remain caught by the superficial-analysis decision.
+- Of the 15 remaining baseline-positive misses, eight are clear targets: `p049`, `p075`, `p084`, `p089`, `p100`, `p213`, `p244`, `p248`.
+- Seven have questionable labels: `p011`, `p066`, `p076`, `p077`, `p242`, `p249`, `p253`.
+
 ## Specific unwanted findings
 
 - No-hit `p149`, 0.62: "Search is quietly changing from keyword matching to vector retrieval." The before/after description identifies the change.
@@ -60,6 +66,14 @@ Examples absent from the demonstrations include "The spreadsheet is the business
 - No-hit `p066`, 0.54: "The content plan is missing the pricing page after the CRM query." The model flags this even though the exact no-hit example is in its rulebook.
 
 The last example demonstrates an instruction-following error on a supplied negative example. The measured-change errors demonstrate that adding examples has not established reliable exception handling.
+
+Independent review classifies ten main-rule control flags as clear false positives and eight as ambiguous.
+
+- Clear errors: `p048`, `p066`, `p149`, `p160`, `p161`, `p162`, `p163`, `p168`, `p174`, `p213`.
+- Ambiguous controls: `p054`, `p071`, `p072`, `p159`, `p171`, `p215`, `p217`, `p218`.
+- Five clear errors are new: `p048`, `p149`, `p160`, `p174`, `p213`. Four old clear errors disappear: `p118`, `p120`, `p219`, `p235`.
+
+The model also misses a supplied positive example: hit-file `p049`, "The courtyard smelled of disturbed dust and old ash instead of hot metal," receives 0.44 despite its positive label in the rulebook.
 
 - LinkedIn `p096`, 0.55: "The grown-up answer key is missing from the training packet." This literal missing-item statement becomes an unwanted finding.
 - LinkedIn `p140`, 0.52: "That mattered enough that the judge ordered a new hearing." The consequence is supplied, yet the model adds a finding.
@@ -76,6 +90,8 @@ Both corpus targets passed the previous prompt, and neither contains demonstrati
 Independent question names and separate rulebooks therefore preserve reporting identity but have not made the model honor each rule's construction boundary.
 
 The superficial-analysis results contain 25 wrong-rule judgments across the hit file, no-hit file, and LinkedIn corpus. Its three no-hit flags overlap the main rule's flags, leaving 18 unique flagged no-hit paragraphs for the family.
+
+Nine of the main rule's 12 baseline-only additions belong to trailing analysis. The three remaining additions, hit-file `p037`, `p105`, and `p108`, are source-consistent catches the deterministic semantic rule misses.
 
 ## Cost and verification
 

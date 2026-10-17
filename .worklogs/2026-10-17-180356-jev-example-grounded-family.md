@@ -23,6 +23,7 @@
 - The main rule catches 235/265 hit cases and flags 18/237 no-hit cases. On targets without demonstration text, it catches 135/159 hits and flags 17/174 no-hits.
 - The superficial rule retains all 24 baseline-positive hit cases, while adding 21 findings there and three control flags. Separate decisions expose ownership errors instead of hiding them in a family-wide count.
 - Independent result review verifies the aggregate counts and 374 example entries. It identifies 25 wrong-rule superficial judgments and two new literal/consequence false positives in LinkedIn; the report includes those regressions.
+- Independent case review confirms 28 clear main-rule recoveries, including 17 without demonstration overlap, and ten clear control errors plus eight ambiguous flags. Positive and negative demonstration failures are both documented.
 - The commit hook rejected the 1,124,407-byte pretty-printed comparison at its 1 MiB file limit. Compact JSON preserves every result and matched baseline record within the existing limit.
 
 ## Context
