@@ -19,6 +19,7 @@
 - Original paragraph ranges reproduce the saved text. The Markdown report includes all 764 paragraphs and 1,026 judgments.
 - Runner syntax and local summarize/render commands pass. Production checks are scoped to public code; this change contains internal experiment material only.
 - Two independent reviewers checked final case/corpus disagreements and report evidence. Case review identified nine clear no-hit false positives and 36 clear missed targets among existing detector disagreements.
+- Final corpus adjudication covers all 48 disagreements: 12 clear Jev false positives, 17 clear misses, one useful addition, and 18 contextual or rule-ownership disagreements. The report records every affected paragraph ID.
 
 ## Context
 

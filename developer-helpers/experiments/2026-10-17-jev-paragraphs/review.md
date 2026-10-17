@@ -3,7 +3,7 @@
 ## Result
 
 - Jev completed 1,026 paragraph/check judgments over 764 existing fixture paragraphs in four requests. The final pass used 117,544 input tokens and cost $0.004936848 at the published price.
-- Quality was weaker than the existing checks on these inputs. Jev missed 48 paragraphs that the semantic-thinness rule flags and flagged 17 no-hit paragraphs that the existing rule preserves.
+- Quality was weaker than the existing checks on these inputs. The hit file has 48 baseline-only judgments, and Jev flagged 17 no-hit paragraphs that the existing rule preserves.
 - Independent case review classified 36 of those 48 misses as clear targets and nine of the 17 no-hit flags as clear false positives. The remaining disagreements have ambiguous wording or questionable file labels.
 
 Every paragraph and result appears in [paragraph-results.md](paragraph-results.md). Exact probabilities, matched Slopless ranges, and aggregate counts appear in [results.json](results.json).
@@ -68,6 +68,22 @@ The 36 clear hit-file misses are `p019`, `p048`, `p049`, `p067`, `p069`, `p070`,
 - LinkedIn `p097` and `p098`: long passages about boring solutions and their literal controls.
 
 These four paragraphs lack the selected restriction claim. Two can fit other existing writing checks, but a restriction judgment should follow its own stated criteria.
+
+## Corpus adjudication
+
+Independent review classified all 48 corpus disagreements as 12 clear Jev false positives, 17 clear Jev misses, one useful addition, and 18 questionable baseline or overlapping-rule judgments. Surrounding paragraphs were considered because the corpus prompt permits that context.
+
+- LinkedIn restriction false positives: `p097`, `p098`, `p203`, and `p204`. These paragraphs lack the specified restriction claim.
+- LinkedIn thinness false positives: `p036`, `p037`, and `p196`. The first two evaluate a process or report as boring; the third is generic vagueness outside the selected constructions.
+- LinkedIn thinness misses: `p025`, `p026`, `p028`, `p032`, `p033`, `p049`, `p051`, `p077`, `p142`, `p144`, `p146`, `p148`, `p150`, `p182`, `p186`, `p189`, and `p190`.
+- LinkedIn useful thinness addition: `p136`, "It is not a failure, it is a signal." Its abstract contrast is a writing defect, with ownership overlapping negation checks.
+- LinkedIn questionable thinness judgments: `p002`, `p003`, `p013`, `p050`, `p067`, `p068`, `p075`, `p082`, `p134`, `p138`, `p139`, `p167`, `p173`, `p179`, `p203`, and `p204`.
+- Engineering restriction false positives: `p011`, `p046`, `p048`, and `p051`. Named technical bases, literal dimensions, quotations, and passive actions satisfy stated exceptions.
+- Engineering questionable restriction judgment: `p024`, whose historical comparison is plausibly factual.
+- Engineering thinness false positive: `p049`, which contains restriction claims excluded from the selected thinness rubric.
+- Engineering questionable thinness overlap: `p053`, whose vague capabilities already support the restriction check.
+
+The questionable LinkedIn group includes existing generic-signposting findings and summaries with concrete context. For example, `p173` follows a specified enterprise-tier price and bet, and `p179` summarizes an explicit writing instruction.
 
 ## Useful additions and ambiguous labels
 
