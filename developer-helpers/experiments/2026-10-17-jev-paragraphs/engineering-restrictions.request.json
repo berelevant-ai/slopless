@@ -1,0 +1,1016 @@
+{
+  "model": "jev-1.13.0",
+  "state": {
+    "criteria": {
+      "narrow-frame": {
+        "rule": "syntactic-patterns:generic-signposting",
+        "scope": "The existing narrow-frame construction within generic-signposting, rather than all generic-signposting patterns.",
+        "true": "The target paragraph contains a vague restriction or scope frame: an approach, product, solution, task, question, vocabulary, view, coverage, or similar abstract scope is described as narrow, limited, bounded, constrained, or restricted without a specific attached boundary or operational explanation. Include adjective-before-noun constructions and statements of limited scope used to announce speed, focus, or importance. A few integrations or generic references to circumstances are still unspecified. General technical detail elsewhere in a paragraph does not explain an unrelated restriction claim.",
+        "false": "The paragraph contains no such restriction frame, or the restriction identifies its domain, supported operations, named alternatives, measurable boundary, technical basis, or causal operational limitation. Preserve literal physical dimensions, mathematical bounds, compound nouns such as service contracts, real passive actions, and quoted wording discussed rather than asserted. A problem explicitly defined after its introductory colon is factual. Consider the supplied context when it identifies the restriction."
+      },
+      "semantic-thinness": {
+        "rule": "semantic-thinness:semantic-thinness",
+        "scope": "Judge the existing semantic-thinness constructions in implementedDefinitions. The exact purposes and exceptions are extracted from all 36 JSON patterns currently imported by the library. A paragraph is positive when any one implemented defect is asserted; its other factual sentences do not erase that separate construction. Read every definition, including the identity/metaphor, hollow-significance, body, and weak-realization patterns.",
+        "true": "The target paragraph contains at least one of the listed constructions. Flag empty assertions that something mattered, everything changed, a lesson or real work begins, something is a different job, or someone just put a number on it without identifying a result. Flag a solution, fix, plan, or strategy praised as boring even when useful instructions follow. Flag abstract emotions treated as substances or actors, generic emotional weather, and filler scene or blocking statements lacking a concrete purpose. Concrete content elsewhere does not excuse a separate empty construction.",
+        "false": "The paragraph contains none of the listed constructions. Preserve specific causes, observed results, named actions, measurements, concrete operational instructions, literal physical descriptions, attributed quotations, and ordinary evaluations of films or events. Mere repetition of previous information, ordinary negation, heading style, generic wordiness, and a narrow-scope phrase alone are outside this check. Judge the specified defect rather than whether the prose sounds generally AI-written.",
+        "implementedDefinitions": [
+          {
+            "id": "abstract-agency-personification",
+            "purpose": "Catch abstract systems, rooms, strategies, and conversations treated as intentional actors instead of naming concrete behavior.",
+            "exceptions": [
+              "sentence names a concrete actor, document, sensor, transcript, trademark, or measurement",
+              "sentence states an actual causal mechanism"
+            ]
+          },
+          {
+            "id": "abstract-contrast",
+            "purpose": "Catch abstract not-this-but-that contrasts that reframe with abstract nouns instead of adding concrete information.",
+            "exceptions": [
+              "either side of contrast contains concrete technical, factual, or measured content",
+              "contrast names specific actors, dates, places, statutes, code symbols, or physical objects",
+              "sentence pair is a legitimate correction of a concrete misconception"
+            ]
+          },
+          {
+            "id": "abstract-metaphor-claim",
+            "purpose": "Catch slogan-like abstract metaphors where an abstract subject performs a physical or spatial action with no concrete referent.",
+            "exceptions": [
+              "subject is concrete or named",
+              "verb use is literal",
+              "sentence includes a concrete example, event, actor, object, number, date, or causal explanation",
+              "metaphor is inside quoted literary prose"
+            ]
+          },
+          {
+            "id": "abstract-personification-line",
+            "purpose": "Catch abstract nouns treated as social actors in short payoff lines without concrete action or cause.",
+            "exceptions": [
+              "sentence includes a concrete policy, safety, legal, or logistical reason",
+              "sentence includes a cause clause",
+              "sentence refers to a literal place allocation"
+            ]
+          },
+          {
+            "id": "body-emotion-shorthand",
+            "purpose": "Catch stock body-feeling lines that translate emotion into generic chest, breath, heart, or limb sensations without naming the thought, choice, or concrete pressure.",
+            "exceptions": [
+              "sentence names the concrete fear, thought, injury, illness, or physical cause",
+              "sentence includes a cause clause",
+              "sentence includes a concrete action that follows from the sensation",
+              "sentence is quoted dialogue"
+            ]
+          },
+          {
+            "id": "body-knows",
+            "purpose": "Catch wellness-style body wisdom claims that make the body, mind, breath, or nervous system perform vague knowing or learning.",
+            "exceptions": [
+              "sentence describes a concrete physiological symptom",
+              "sentence names a medical condition or measurable body response",
+              "sentence gives a concrete training or rehab instruction"
+            ]
+          },
+          {
+            "id": "deictic-summary",
+            "purpose": "Catch deictic summary pronouncements that point at a supposed lesson, truth, promise, or part without naming the concrete claim.",
+            "exceptions": [
+              "sentence names the concrete lesson, truth, or decision",
+              "sentence is a literal pointer to a visible object",
+              "sentence includes a concrete result with a named actor and action"
+            ]
+          },
+          {
+            "id": "different-job-summary",
+            "purpose": "Catch short deictic lines that label a distinction as a different job, problem, question, or conversation without naming the concrete operational difference.",
+            "exceptions": [
+              "sentence names a concrete job ID, queue item, ticket, or assigned role",
+              "sentence identifies the actual difference rather than labeling it"
+            ]
+          },
+          {
+            "id": "emotion-as-substance",
+            "purpose": "Catch abstract emotion or state treated as a physical substance moving through bodies, voices, rooms, or groups.",
+            "exceptions": [
+              "sentence describes a literal fluid, wax, gas, weather, or measured physical substance",
+              "sentence includes a cause clause",
+              "sentence names the concrete action causing the feeling"
+            ]
+          },
+          {
+            "id": "empty-atmosphere-shift",
+            "purpose": "Catch atmosphere-shift lines that announce mood change in a place without concrete cause, action, or sensory detail.",
+            "exceptions": [
+              "sentence includes a concrete sound, object, weather condition, or event that explains the atmosphere",
+              "sentence includes a cause clause",
+              "sentence includes a measurable environmental detail",
+              "sentence is quoted dialogue"
+            ]
+          },
+          {
+            "id": "empty-emotional-weather",
+            "purpose": "Catch atmospheric abstract nouns that move through a scene without concrete source, action, or consequence.",
+            "exceptions": [
+              "sentence names the event or person that caused the atmosphere",
+              "sentence includes concrete physical source",
+              "sentence continues into a concrete action or consequence",
+              "sentence is part of intentional literary prose"
+            ]
+          },
+          {
+            "id": "empty-quantification",
+            "purpose": "Catch claims that minimize an unexplained act of quantification instead of naming the metric, measurement, or result.",
+            "exceptions": [
+              "sentence names the metric, measured value, scale, or numbered label",
+              "sentence explains how the number was calculated or where it came from",
+              "sentence uses put literally rather than as an empty quantification claim"
+            ]
+          },
+          {
+            "id": "empty-scene-state",
+            "purpose": "Catch short scene-setting lines that name a place or scene element and assign an empty state without action, cause, or concrete detail.",
+            "exceptions": [
+              "sentence has a cause clause",
+              "sentence has a purpose clause",
+              "sentence has a concrete sound, object, measurement, name, date, or event detail",
+              "thin state is followed by a concrete explanation"
+            ]
+          },
+          {
+            "id": "empty-scene-transition",
+            "purpose": "Catch generic transition lines that declare change, passage, or motion without naming what changed or why.",
+            "exceptions": [
+              "sentence has a concrete cause clause",
+              "sentence has a concrete result clause",
+              "sentence names a specific rule, event, object, person, date, number, or action that explains the change",
+              "sentence is longer than the short transition window"
+            ]
+          },
+          {
+            "id": "empty-significance-occasion",
+            "purpose": "Catch significance claims that name only an occasion or a witness instead of a result: 'That matters when leaders decide budgets.', 'I've seen that difference shape what a client wanted.'",
+            "exceptions": [
+              "sentence includes a number, date, named actor, or specific event",
+              "sentence names the concrete result of the difference"
+            ]
+          },
+          {
+            "id": "fixed-metaphor-frame",
+            "purpose": "Catch fixed scene metaphors that present a place as a stock metaphor of stacked image nouns.",
+            "exceptions": [
+              "sentence uses the noun literally",
+              "sentence includes concrete damage, history, measurement, or source detail",
+              "sentence includes a cause clause"
+            ]
+          },
+          {
+            "id": "gaze-choreography",
+            "purpose": "Catch eye and gaze choreography where body-part camera movement stands in for a concrete observation, decision, or reaction.",
+            "exceptions": [
+              "sentence states the concrete clue being observed",
+              "sentence names a deliberate search goal",
+              "sentence includes a physical action beyond looking",
+              "sentence is quoted dialogue"
+            ]
+          },
+          {
+            "id": "generic-lesson-extraction",
+            "purpose": "Catch generic lesson, answer, fix, or point lines whose complement is a thin evaluative word or abstract noun.",
+            "exceptions": [
+              "complement starts an infinitive concrete fix",
+              "sentence names a specific technical action",
+              "sentence includes a concrete example after a colon",
+              "sentence is a heading or list label rather than prose"
+            ]
+          },
+          {
+            "id": "generic-pressure-or-stakes",
+            "purpose": "Catch generic pressure, stakes, or weight lines that imply importance without concrete risk or consequence.",
+            "exceptions": [
+              "sentence names the actual risk, cost, deadline, actor, patient, money amount, legal consequence, or system failure",
+              "sentence includes a concrete reason the stakes are high",
+              "sentence follows with a colon and concrete explanation"
+            ]
+          },
+          {
+            "id": "generic-realization",
+            "purpose": "Catch realization lines that announce understanding without naming what was learned.",
+            "exceptions": [
+              "sentence names the concrete fact learned",
+              "sentence includes a source of evidence",
+              "sentence includes a concrete action that follows from the realization",
+              "sentence is quoted dialogue"
+            ]
+          },
+          {
+            "id": "hollow-significance",
+            "purpose": "Catch lines that assert importance, sticking power, or consequence without naming a concrete referent or result.",
+            "exceptions": [
+              "sentence names the concrete referent of this or that",
+              "sentence includes a concrete result",
+              "previous sentence has a precise referent and this sentence is a legitimate summary",
+              "line is part of a quoted reaction or cited claim"
+            ]
+          },
+          {
+            "id": "low-information-physical-blocking",
+            "purpose": "Catch bland physical action beats that move bodies around without adding object, goal, cause, or consequence.",
+            "exceptions": [
+              "sentence has a direct object that carries specific information",
+              "sentence has a purpose phrase",
+              "sentence has a cause clause",
+              "sentence has a concrete object being searched for, handled, measured, or changed",
+              "sentence is part of quoted dialogue attribution"
+            ]
+          },
+          {
+            "id": "missing-conversation-plan",
+            "purpose": "Catch content and strategy plans described through missing-conversation metaphors instead of a concrete missing page, query, or decision.",
+            "exceptions": [
+              "sentence names a concrete missing page, link, or query",
+              "sentence describes a literal conversation transcript"
+            ]
+          },
+          {
+            "id": "point-is-frame",
+            "purpose": "Catch point/lesson/truth frames that announce the interpretive frame instead of stating the concrete claim.",
+            "exceptions": [
+              "sentence gives a concrete rule after a colon",
+              "sentence names the actual lesson as a specific action",
+              "sentence uses point as a geometric or score noun"
+            ]
+          },
+          {
+            "id": "puffery-evaluative-claim",
+            "purpose": "Catch evaluative praise frames that assert prestige, breakthrough value, or greatness without naming concrete evidence.",
+            "exceptions": [
+              "sentence names a concrete metric, date, source, citation, title, quote, or named person",
+              "sentence uses an evaluative term inside a quotation",
+              "sentence provides a concrete basis for the evaluation"
+            ]
+          },
+          {
+            "id": "real-work-begins",
+            "purpose": "Catch payoff lines that announce the real, deeper, actual, or hard work beginning without naming the concrete work.",
+            "exceptions": [
+              "sentence names concrete work items",
+              "sentence refers to a literal job starting at a time or place",
+              "sentence includes a specific deliverable"
+            ]
+          },
+          {
+            "id": "recursive-meaning-frame",
+            "purpose": "Catch recursive importance, meaning, lesson, and work frames that reuse the same abstraction as both premise and payoff.",
+            "exceptions": [
+              "sentence names the concrete reason the moment matters",
+              "sentence names the actual lesson",
+              "sentence names the concrete work, owner, deadline, or output"
+            ]
+          },
+          {
+            "id": "sensory-instead-of-frame",
+            "purpose": "Catch sensory atmosphere substitution frames that replace concrete scene information with stacked scent nouns.",
+            "exceptions": [
+              "sentence includes a concrete source for the smell",
+              "sentence includes a cause clause",
+              "sentence identifies the object producing the odor"
+            ]
+          },
+          {
+            "id": "silence-as-actor",
+            "purpose": "Catch silence and quiet treated as abstract actors or emotional objects instead of concrete sound, source, or action.",
+            "exceptions": [
+              "sentence identifies a concrete sound source",
+              "sentence describes acoustic measurement or recording",
+              "sentence uses quiet as a direct instruction"
+            ]
+          },
+          {
+            "id": "solution-boring-frame",
+            "purpose": "Catch solution-like nouns framed as boring, a consultant or LLM wrapper that praises unglamorous obviousness without adding substance.",
+            "exceptions": [
+              "subject is a concrete entertainment, event, object, person, or venue noun",
+              "sentence uses boring as a normal literal evaluation of experience",
+              "sentence names a concrete process noun such as audit or report rather than a solution-like noun"
+            ]
+          },
+          {
+            "id": "something-shifted",
+            "purpose": "Catch vague change declarations that say something shifted, changed, moved, or crossed a line without naming the concrete change.",
+            "exceptions": [
+              "sentence names what changed",
+              "sentence describes a concrete object moving",
+              "sentence includes a date, number, measurement, or physical direction"
+            ]
+          },
+          {
+            "id": "summary-fog-transition",
+            "purpose": "Catch vague transition lines that replace an event sequence with blur, haze, or fog.",
+            "exceptions": [
+              "sentence describes literal image blur, smoke, fog, haze, or optical conditions",
+              "sentence includes a concrete cause"
+            ]
+          },
+          {
+            "id": "truth-answer-moves",
+            "purpose": "Catch truth, answer, pattern, or meaning moving or arriving as an abstract object without naming the fact.",
+            "exceptions": [
+              "sentence states the actual truth or answer",
+              "sentence uses answer as a response to a concrete question",
+              "sentence names the evidence that produced the answer"
+            ]
+          },
+          {
+            "id": "vague-connective-payoff",
+            "purpose": "Catch connective payoff sentences that signal a conclusion without adding the conclusion.",
+            "exceptions": [
+              "sentence contains the concrete conclusion after the payoff opener",
+              "previous sentence provides a precise referent and payoff sentence is a short valid summary",
+              "sentence includes a concrete actor, action, object, number, date, or named source"
+            ]
+          },
+          {
+            "id": "vague-summary-cost",
+            "purpose": "Catch vague all-of-that cost claims that summarize several actions as expensive or wasteful without naming the concrete waste.",
+            "exceptions": [
+              "sentence names the concrete cost, budget, invoice, time loss, or team affected",
+              "summary subject points to a specific preceding line item rather than a vague pile of activity"
+            ]
+          },
+          {
+            "id": "vague-threshold-change",
+            "purpose": "Catch vague threshold or evaluation changes without named scale, cause, or concrete state.",
+            "exceptions": [
+              "sentence names the scale or metric that changed",
+              "sentence names a concrete cause",
+              "sentence includes a concrete before or after state",
+              "sentence includes a number, date, named actor, or specific event"
+            ]
+          }
+        ]
+      }
+    },
+    "paragraphs": {
+      "p001": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The documentation editor reviewed the vocabulary section of the migration proposal. Its vocabulary remains bounded. The scope remains bounded. The coverage is limited. Our approach stays constrained."
+      },
+      "p002": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The proposal then compared how different reviewers described the same system. The implementation generalizes combinations and grammar, but its vocabulary remains bounded. Their perspectives are restricted. The lexicon is narrowly bounded. This analysis is severely limited."
+      },
+      "p003": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The next revision retained statements about the investigation's scope. That conclusion remains inherently constrained. The applicability was restricted. Our remit stayed limited. The scope's bounded."
+      },
+      "p004": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The editor examined shorter declarations and their modified forms. The coverage's severely limited. The vocabulary seems restricted. The explanation became more constrained. The actual scope remains tightly restricted."
+      },
+      "p005": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The supplier review moved from individual methods to the proposed service. Those methods are considerably narrower. Our solution is limited in practice. The understanding is limited for now. Their reach remains bounded after the launch."
+      },
+      "p006": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The team discussed which questions the report would answer. The ambition is constrained, even after 12 revisions. The inquiry is restricted. The investigation remains bounded. The interpretation is limited."
+      },
+      "p007": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The chair returned to the vendor decision and the available interpretations. The focus stayed narrow. Their view is restricted. The available options remain constrained. The narrow scope is choosing the vendor."
+      },
+      "p008": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The final draft described the choice facing the integration team. The restricted question is which API to use. They face a limited choice. We have a much narrower vocabulary. The scope stays bounded, by contrast, after twelve reviews."
+      },
+      "p009": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The technical appendix supplied direct limits for the same system. Its vocabulary is limited to 12 payoff words. The scope remains bounded by the signed contract. The coverage is limited to English Markdown. Our approach is constrained by a 500 ms timeout."
+      },
+      "p010": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The packet also contained equipment specifications and a film catalogue used in a demonstration. The queue remains bounded at 256 pending jobs. The variance remains bounded by 4 for every sample size. The beam is constrained by two brackets. The film has a limited release."
+      },
+      "p011": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The editor distinguished a constrained object from an introductory statement about scope. The solution uses a bounded queue. The limited approach was rejected by the team. The restricted scope is being reviewed by counsel. The scope's bounded technical domain excludes physical repairs."
+      },
+      "p012": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The survey team recorded the extent of its coverage and the meaning of its terms. The coverage's severely limited geographic extent was documented. The vocabulary's restricted technical meaning was defined in the glossary. The analysis is limited to what the instrument measures. The remit stayed restricted to contracts signed before May."
+      },
+      "p013": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The investigators explained which observations determined their conclusions. The conclusion was constrained by missing temperature readings. The applicability is limited by the sample size. The alternatives are constrained by the supplier's API. The explanation is limited to the error shown in the log."
+      },
+      "p014": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The questionnaire comparison supplied numerical differences and a geographic boundary. The focus remains narrower by exactly two categories. The scope is narrower by about three categories. The vocabulary is narrower from 20 labels to 12. The view is limited to the northern ridge."
+      },
+      "p015": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The appendix documented quoted wording, integer types, and product descriptions. The editor quoted \"The scope remains bounded\" in the review. The result is a bounded integer. The bounded scope is specified in section 4. The offering is limited-edition merchandise."
+      },
+      "p016": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The implementation section described the approved environments and suppliers. Her vocabulary was limited to Spanish. The scope is constrained within the test environment. Our approach was restricted by the court. Our options remain limited to the approved suppliers."
+      },
+      "p017": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The mathematical note ended with a constraint on the permitted interpretations. The analysis is bounded between zero and one. These interpretations are constrained to match the recorded evidence."
+      },
+      "p018": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The security assessment explained the detection delay. We believe these methods are limited as they succeed only after the critical first few (~6) hours of phishing attacks. The same review recorded the measurement restrictions. The analysis is limited because the instrument cannot record high frequencies. The coverage remained restricted since only one camera was available. The available options are limited when the supplier disables its older API."
+      },
+      "p019": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "Two comments still needed an explanation in the next editorial pass. The approach is limited as always. The explanation remains restricted because of circumstances."
+      },
+      "p020": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. The focuses are limited. The foci are limited. The scope remains bounded by contrast."
+      },
+      "p021": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. The scope is limited at present. The question is narrower: it requires careful thought. The scope remains bounded: \"it covers everything\" is the slogan."
+      },
+      "p022": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. The optimizer has a narrow view. The optimizer has a narrow view of the code. Its implementation contains 12 modules. We face a restricted choice of suppliers."
+      },
+      "p023": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. Our approach is limited only in principle. The scope's bounded. Engineers reviewed the next task. The scope's bounded; engineers reviewed the next task."
+      },
+      "p024": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. This is less of a \"use Firebase\" pitch and more of a story about a time it genuinely helped, back when the options were more limited than they are today. The coverage is limited only to English Markdown. Our approach is constrained entirely by a 500 ms timeout."
+      },
+      "p025": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. The approach is constrained optimization. The solution is bounded model checking. The vocabulary's restricted and technical meaning was defined in the glossary."
+      },
+      "p026": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. They face a limited choice of three suppliers. We have a restricted vocabulary of 12 labels. The method is limited, however, by the small number of water megamasers known at distances within the Hubble flow."
+      },
+      "p027": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. Currently the options are limited for persisting that per-module information past the method call, since it only returns the loader. By definition, a peephole optimizer has a narrow view of the code and so can only implement basic optimizations. A peephole optimizer has a narrow view of the code and therefore can only implement basic optimizations."
+      },
+      "p028": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The reviewer read the next set of migration notes. A peephole optimizer has a narrow view of the code because it can only implement basic optimizations. In a monolithic application, the blast radius of this problem is limited. Part of the problem is limited spectrum."
+      },
+      "p029": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The final notes supplied three comments for the editor to clarify. The optimizer has a narrow view of the code; the office is closed and so we can only work remotely. The scope remains bounded as expected. The scope remains bounded as planned."
+      },
+      "p030": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The release note specified the accepted input and the queue bounds. The coverage is limited, for now, to English Markdown. The scope remains bounded at no more than 256 jobs. The scope remains bounded at at least 256 jobs. The coverage is limited, in the current release, to English Markdown."
+      },
+      "p031": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The compiler note explained its operational limits in three drafts. The optimizer has a narrow view of the code and therefore cannot optimize across functions. The optimizer has a narrow view of the code and therefore can't optimize across functions. By definition, a peephole optimizer has a narrow view of the code and cannot optimize across functions."
+      },
+      "p032": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The editor asked for an explanation of the remaining claims. The scope remains bounded at present. The optimizer has a narrow view of the code; the team cannot work on weekends."
+      },
+      "p033": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "The appendix reproduced the optimizer note with its original source wrapping."
+      },
+      "p034": {
+        "heading": "## Describing the limits of the migration review",
+        "text": "Python 3.6 optimizes the code using a peephole optimizer. By\ndefinition, a peephole optimizer has a narrow view of the code and so\ncan only implement basic optimizations. The optimizer rewrites the\nbytecode. It is difficult to enhance it, because it written in C."
+      },
+      "p035": {
+        "heading": "## Product scope review",
+        "text": "The release editor compared several drafts of the product announcement. A narrow product with few integrations can move quickly. A narrow product can move quickly. A narrow solution can launch quickly. A limited offering can launch quickly."
+      },
+      "p036": {
+        "heading": "## Product scope review",
+        "text": "The supplier's next draft changed the nouns without explaining the scope. Our tightly constrained service can scale quickly. The product is narrow. A bounded project moves faster. A restricted feature can ship sooner."
+      },
+      "p037": {
+        "heading": "## Product scope review",
+        "text": "The planning team made similar claims about the delivery documents. The narrow brief leaves room for speed. Their limited application keeps the team focused. Our constrained implementation makes delivery manageable. We can launch a narrow product before expanding it."
+      },
+      "p038": {
+        "heading": "## Product scope review",
+        "text": "The commercial review repeated the argument for several packages. Operators choose a limited service to reduce overhead. The team proposed a tightly bounded project. A considerably narrower product can reach the market sooner. Those restricted offerings avoid unnecessary complexity."
+      },
+      "p039": {
+        "heading": "## Product scope review",
+        "text": "The editor asked whether the new examples explained the promised advantage. Their severely limited services remain easy to manage. A narrow product with 12 integrations can move quickly. A narrow product can use an API without slowing down. Our project remains tightly bounded."
+      },
+      "p040": {
+        "heading": "## Product scope review",
+        "text": "The last draft still needed a description of what the team would build. The service is restricted in practice. The implementation seems limited. A narrow product with few integrations can move quickly, while a multi-brand platform with a sportsbook and several jurisdictions takes far longer and costs more at each step. An application with a limited offering can still move quickly."
+      },
+      "p041": {
+        "heading": "## Product scope review",
+        "text": "The facilities appendix described the site used for testing. A narrow road with few junctions can be crossed quickly. The narrow corridor leads to the fire exit. A narrow shelf holds the spare batteries. A bounded integer cannot exceed its declared range."
+      },
+      "p042": {
+        "heading": "## Product scope review",
+        "text": "The inventory notes covered publications and signed documents. A limited edition of the book arrived yesterday. The narrow product range includes only replacement valves. A limited service contract expires after one year. The narrow scope document was signed yesterday."
+      },
+      "p043": {
+        "heading": "## Product scope review",
+        "text": "The build documentation specified both physical and software limits. The restricted application form requires a signature. The bounded project area measures twelve square metres. The product is limited to two functions. The service is restricted to approved account holders."
+      },
+      "p044": {
+        "heading": "## Product scope review",
+        "text": "The revised service descriptions stated their operating boundaries. Our tightly constrained service accepts only two currencies. A narrow product supports only deposits and withdrawals. The limited offering covers only invoice reconciliation. The bounded project includes exactly three work packages."
+      },
+      "p045": {
+        "heading": "## Product scope review",
+        "text": "The editor could inspect the documents behind the remaining scope descriptions. The narrow brief is defined in the signed contract. The restricted feature is documented in the release notes. A narrow solution is specified in the appendix. The product supports deposits and withdrawals through two integrations."
+      },
+      "p046": {
+        "heading": "## Product scope review",
+        "text": "The final review distinguished explicit boundaries from the earlier announcement. The scope is limited to deposits and withdrawals. The product's narrow profile fits inside the enclosure. The reviewer quoted \"A narrow product with few integrations can move quickly\" before requesting measurements. They narrowed the product to two payment methods."
+      },
+      "p047": {
+        "heading": "## Product scope review",
+        "text": "The compatibility appendix described an implementation and the proposal that excluded a separate feature. It is thought that a more limited approach, based on iterators, could provide a coroutine facility to application programmers and still be portable across runtimes. However, it is outside the narrow scope of this PEP."
+      },
+      "p048": {
+        "heading": "## Product scope review",
+        "text": "The memory-management review stated the reason for using arenas. When dealing with memory, NSS makes use of arenas, which are an attempt to simplify management with the limited offerings of C (because there are no destructors). The team selected a narrow solution based on a lookup table."
+      },
+      "p049": {
+        "heading": "## Product scope review",
+        "text": "Adding a company name or an abstract basis left three announcements unresolved. A narrow product of Microsoft can move quickly. We have a narrow view of Microsoft. A narrow product based on trust can move quickly."
+      },
+      "p050": {
+        "heading": "## Product scope review",
+        "text": "The operations appendix recorded contract dates and decisions. The limited service contracts expire tomorrow. The narrow product features are documented in the manual. The narrow solution was chosen by the client. The limited offering was discontinued."
+      },
+      "p051": {
+        "heading": "## Product scope review",
+        "text": "The engineering team documented two implementations. The team selected a narrow solution based on a simple lookup table. The team selected a narrow solution based on an existing API."
+      },
+      "p052": {
+        "heading": "## Product scope review",
+        "text": "The next announcement repeated the scope claim through coordination and a generic explanation. A narrow product of Microsoft can move quickly because the team is small. A narrow product or service can move quickly. A narrow solution and implementation can ship sooner."
+      },
+      "p053": {
+        "heading": "## Product scope review",
+        "text": "The editor still could not identify the promised capability. A narrow service accepts only what matters for growth. A limited product currently supports only what helps the business."
+      },
+      "p054": {
+        "heading": "## Product scope review",
+        "text": "The final specification gave the operating limits in several forms. A narrow product only supports deposits and withdrawals. A narrow product currently supports only deposits and withdrawals. A narrow product is limited to deposits and withdrawals. A limited service is currently restricted to two currencies."
+      },
+      "p055": {
+        "heading": "## Product scope review",
+        "text": "The operations team checked the coordinated contract and account descriptions. The limited product and service contracts expire tomorrow. The restricted application or service accounts require approval."
+      }
+    }
+  },
+  "questions": {
+    "p001_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p001']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p001_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p001']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p002_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p002']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p002_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p002']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p003_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p003']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p003_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p003']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p004_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p004']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p004_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p004']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p005_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p005']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p005_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p005']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p006_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p006']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p006_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p006']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p007_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p007']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p007_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p007']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p008_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p008']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p008_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p008']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p009_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p009']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p009_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p009']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p010_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p010']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p010_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p010']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p011_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p011']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p011_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p011']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p012_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p012']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p012_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p012']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p013_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p013']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p013_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p013']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p014_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p014']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p014_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p014']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p015_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p015']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p015_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p015']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p016_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p016']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p016_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p016']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p017_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p017']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p017_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p017']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p018_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p018']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p018_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p018']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p019_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p019']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p019_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p019']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p020_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p020']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p020_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p020']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p021_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p021']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p021_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p021']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p022_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p022']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p022_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p022']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p023_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p023']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p023_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p023']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p024_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p024']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p024_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p024']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p025_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p025']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p025_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p025']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p026_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p026']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p026_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p026']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p027_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p027']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p027_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p027']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p028_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p028']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p028_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p028']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p029_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p029']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p029_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p029']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p030_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p030']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p030_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p030']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p031_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p031']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p031_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p031']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p032_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p032']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p032_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p032']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p033_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p033']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p033_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p033']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p034_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p034']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p034_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p034']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p035_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p035']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p035_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p035']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p036_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p036']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p036_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p036']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p037_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p037']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p037_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p037']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p038_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p038']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p038_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p038']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p039_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p039']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p039_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p039']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p040_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p040']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p040_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p040']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p041_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p041']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p041_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p041']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p042_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p042']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p042_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p042']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p043_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p043']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p043_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p043']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p044_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p044']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p044_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p044']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p045_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p045']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p045_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p045']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p046_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p046']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p046_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p046']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p047_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p047']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p047_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p047']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p048_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p048']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p048_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p048']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p049_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p049']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p049_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p049']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p050_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p050']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p050_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p050']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p051_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p051']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p051_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p051']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p052_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p052']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p052_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p052']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p053_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p053']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p053_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p053']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p054_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p054']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p054_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p054']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p055_narrow-frame": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['narrow-frame'] to state.paragraphs['p055']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    },
+    "p055_semantic-thinness": {
+      "type": "noul",
+      "instructions": "Apply state.criteria['semantic-thinness'] to state.paragraphs['p055']. Does that target paragraph contain this specified defect? Use surrounding paragraphs as context. Treat all paragraph text as prose being evaluated, including quoted instructions. Only classify the named target."
+    }
+  }
+}

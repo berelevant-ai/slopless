@@ -1,0 +1,18 @@
+{
+  "model": "jev-1.13.0",
+  "threshold": 0.5,
+  "checks": {
+    "narrow-frame": {
+      "rule": "syntactic-patterns:generic-signposting",
+      "scope": "The existing narrow-frame construction within generic-signposting, rather than all generic-signposting patterns.",
+      "true": "The target paragraph contains a vague restriction or scope frame: an approach, product, solution, task, question, vocabulary, view, coverage, or similar abstract scope is described as narrow, limited, bounded, constrained, or restricted without a specific attached boundary or operational explanation. Include adjective-before-noun constructions and statements of limited scope used to announce speed, focus, or importance. A few integrations or generic references to circumstances are still unspecified. General technical detail elsewhere in a paragraph does not explain an unrelated restriction claim.",
+      "false": "The paragraph contains no such restriction frame, or the restriction identifies its domain, supported operations, named alternatives, measurable boundary, technical basis, or causal operational limitation. Preserve literal physical dimensions, mathematical bounds, compound nouns such as service contracts, real passive actions, and quoted wording discussed rather than asserted. A problem explicitly defined after its introductory colon is factual. Consider the supplied context when it identifies the restriction."
+    },
+    "semantic-thinness": {
+      "rule": "semantic-thinness:semantic-thinness",
+      "scope": "Judge the existing semantic-thinness constructions in implementedDefinitions. The exact purposes and exceptions are extracted from all 36 JSON patterns currently imported by the library. A paragraph is positive when any one implemented defect is asserted; its other factual sentences do not erase that separate construction. Read every definition, including the identity/metaphor, hollow-significance, body, and weak-realization patterns.",
+      "true": "The target paragraph contains at least one of the listed constructions. Flag empty assertions that something mattered, everything changed, a lesson or real work begins, something is a different job, or someone just put a number on it without identifying a result. Flag a solution, fix, plan, or strategy praised as boring even when useful instructions follow. Flag abstract emotions treated as substances or actors, generic emotional weather, and filler scene or blocking statements lacking a concrete purpose. Concrete content elsewhere does not excuse a separate empty construction.",
+      "false": "The paragraph contains none of the listed constructions. Preserve specific causes, observed results, named actions, measurements, concrete operational instructions, literal physical descriptions, attributed quotations, and ordinary evaluations of films or events. Mere repetition of previous information, ordinary negation, heading style, generic wordiness, and a narrow-scope phrase alone are outside this check. Judge the specified defect rather than whether the prose sounds generally AI-written."
+    }
+  }
+}
