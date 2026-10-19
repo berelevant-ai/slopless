@@ -1,5 +1,7 @@
 # Concise semantic-thinness result
 
+These results describe the prompt before the subsequent addition of construction principles and explicit all-variants instructions.
+
 The concise prompt loses substantially more existing catches than it gains. On the 238 cases caught by Slopless's semantic-thinness rule, Jev falls from 223 catches to 184: 93.7% to 77.3% agreement on those positive cases.
 
 ## Comparison
