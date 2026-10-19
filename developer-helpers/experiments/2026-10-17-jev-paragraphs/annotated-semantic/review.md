@@ -1,73 +1,52 @@
-# Semantic-thinness comparisons
+# Researched Semantic-Thinness Prompt
 
-## Current Revision: One Rule, All 764 Paragraphs
+The selected 878-word prompt and direct-target question format improve the saved baseline on the same 764 development paragraphs. Existing-rule-positive catches rise from 206/238 to 221/238; expected-clean flags fall from 16/237 to 8/237.
 
-- Compared the 615-word prompt at `abcdbd1` with the 681-word prompt at `59e5fbe`. Both versions receive identical paragraphs and questions, with only semantic-thinness supplied.
-- On 238 cases caught by the existing semantic-thinness rule, Jev improves from 201 to 206 catches. It gains eight of those catches and loses three.
-- Across the family's complete 265 hit cases, findings increase from 221 to 231. Among 237 expected-clean cases, flags decrease from 17 to 16, with four cleared and three added.
-- LinkedIn findings increase from 51 to 63. Engineering findings increase from 26 to 27. These counts include false positives described below.
+## Baseline And Method
 
-### Improvements
+- Git tag `jev-semantic-baseline-2026-10-19` preserves commit `6a13b13`, its 681-word prompt, and the complete `single-family-comparison.json` evidence. The tag is pushed to GitHub.
+- Every trial uses the original 764 target paragraphs, one semantic-thinness question per paragraph, `jev-1.13.0`, and threshold 0.5. Eight configurations produced 6,112 decisions.
+- `research-final-comparison.json` records the selected requests, responses, hashes, and comparisons. The rulebook is 878 words; the complete instructions are 972-981 words, excluding the target prose being classified.
 
-- "Her gaze fell to the ground." is recovered: 0.47 to 0.63.
-- "The second one is less glamorous." is recovered: 0.41 to 0.56.
-- "The problem holding a site back can take more work to find." is recovered: 0.40 to 0.62.
-- "The lesson was simple: rotate the signing key every 30 days." clears: 0.55 to 0.36.
-- "The right answer is 42." clears in LinkedIn: 0.61 to 0.42.
+## Research Applied
 
-### Regressions
+- Jev's documented weaknesses include indirect references, unrelated context, and conflicting conditions. The selected question includes the actual target text and explicitly limits the judgment to that target. [Jev model guidance](https://docs.typesafe.ai/model-jaggedness/jev-1.13)
+- Explicit yes/no boundaries resolve literal causes, search goals, attributed judgments, and removable wrappers. Native `criteria` fields were also tested; they reduced catches to 197/238, so the selected format uses instructions alone. [Noul guidance](https://docs.typesafe.ai/primitives/noul)
+- The classification literature supports deriving compact class principles from examples. Its experiments use FLAN-T5 and FLAN-UL2; applying that approach to Jev was evaluated here through the saved comparisons. [Principle-based prompting](https://arxiv.org/abs/2502.07165)
 
-- "The strategy is boring: write the acceptance check first." is missed: 0.52 to 0.46.
-- "The truth is not dramatic." is missed: 0.50 to 0.47.
-- "The detail matters for anyone reading the label." is missed: 0.53 to 0.47.
-- All three new no-hit flags have explicit preserving details: a lantern search goal, missing signatures causing doubt, and an anonymous sample label.
-- LinkedIn adds a false positive on "The grown-up answer key is missing from the training packet." Engineering adds flags on a specified optimizer limitation and a paragraph containing explicit boundaries and an attributed quotation.
-- LinkedIn also flags "Our client's experience left me with a simple priority." despite the following paragraph stating that priority, and "That is the entire bet." after a paragraph specifying a tier and price.
-- The baseline-positive gains include "We want one change to the intake form. That is the whole ask." Its summary has a stated referent. Increased agreement with existing findings therefore includes disputed fixture expectations alongside clear recoveries.
+## What Helped
 
-### Test Method
+- The controlled 868-word comparison catches 203/238 existing targets through the old indirect question, versus 222/238 when the question contains the target text. Clean flags are six and seven respectively.
+- Direct targeting with the old 681-word prompt catches 218/238 but flags 30 clean cases. Both the revised boundaries and the input format contribute to the selected result.
+- Restricting article context to immediate neighbors catches 217/238 and flags nine clean cases. The selected format retains shared article context and names the target explicitly.
+- The final boring-subject boundary preserves literal judgments about movies, parties, and reports in the LinkedIn fixture. The earlier direct configuration incorrectly flagged them.
 
-- Used the original 764 paragraphs, with one question per paragraph and one rulebook per request. Two versions require 1,528 decisions across eight requests.
-- Kept `jev-1.13.0`, threshold 0.5, document grouping, paragraph ordering, and question wording fixed. Article questions allow context; fixture cases require independent judgment.
-- `single-family-comparison.json` contains all exact requests, responses, and comparison rows. The earlier 16-case comparison in `principles-comparison.json` was a targeted sample; the current result uses the complete paragraph set.
+## Selected Results
 
-## Earlier Comparison: Long And Concise Prompts
+- Existing-rule-positive cases: 206 to 221 of 238, with 23 gains and eight losses. These counts measure agreement with existing findings, whose expectations include disputed cases.
+- Entire family hit file: 231 to 246 findings among 265 paragraphs.
+- Expected-clean cases: 16 to eight flags among 237 paragraphs, with 12 cleared and four added.
+- On the fixed subset of 215 existing-rule-positive paragraphs absent verbatim from both prompts, catches rise from 192 to 198. Among the analogous 213 clean paragraphs, flags remain eight. The aggregate clean-case reduction comes from cases represented in the prompts.
+- LinkedIn: 63 to 70 findings; existing-rule-positive catches rise from 39/56 to 49/56.
+- Engineering: 27 to 23 findings. Its passages include other families' targets, so that count alone measures neither precision nor recall.
 
-These results describe the prompt before the subsequent addition of construction principles and explicit all-variants instructions.
+## Examples
 
-The concise prompt loses substantially more existing catches than it gains. On the 238 cases caught by Slopless's semantic-thinness rule, Jev falls from 223 catches to 184: 93.7% to 77.3% agreement on those positive cases.
+- "The practical plan is boring: remove the redirect chain." is recovered: 0.43 to 0.86.
+- "The page cannot outsource its answer to metadata." is recovered: 0.27 to 0.82.
+- "AI Overviews add another layer to the diagnosis." is recovered: 0.18 to 0.93.
+- The lantern-search sentence clears: 0.65 to 0.05. The historical armistice comparison clears: 0.56 to 0.07. The masonry crew's scheduled start clears: 0.71 to 0.12.
 
-## Comparison
+## Remaining Errors
 
-- Among those 238 cases, the revision loses 41 catches and gains two. Across the entire family's 265 hit cases, main-rule findings fall from 235 to 196.
-- Among 237 expected-clean cases, findings fall from 18 to 13. Ten old flags disappear, while five new flags appear.
-- Four new control flags are clear errors on an instruction, a historical comparison, a scheduled job, and a literal numbered label. The fifth uses vague wording and requires judgment.
-- On the LinkedIn fixture, main-rule findings fall from 65 to 42. This count describes findings; the examples below show both useful removals and regressions.
+- "That changes the whole report." is lost: 0.77 to 0.38. "The problem holding a site back can take more work to find." is lost: 0.62 to 0.34.
+- "The content plan is missing the conversation after the query." remains missed at 0.31.
+- A haze explicitly caused by smoke is newly flagged at 0.53. Literal numbering with a red marker remains flagged at 0.66.
+- Other expected-clean flags include the product-photo jacket, clinical-report layer, weekly update, changed interviews, and storm/bridge example. The boring-fix control conflicts with the intended boring-solution policy and requires label judgment.
+- The selected configuration trades one additional clean-file flag for better literal-control handling in the corpus compared with the preceding focused configuration. Selection includes manual review alongside the counts.
 
-## Regressions
+## Input Format
 
-- "The practical plan is boring: remove the redirect chain." falls from 0.91 to 0.33, despite the prompt retaining the boring-solution distinction.
-- "The page cannot outsource its answer to metadata." falls from 0.81 to 0.14.
-- "That is a different job." falls from 0.80 to 0.30.
-- "The real work began at eight thirty with the masonry crew." becomes a false positive: 0.17 to 0.84.
-- "The lesson was simple: rotate the signing key every 30 days." becomes a false positive: 0.28 to 0.58.
-- In the LinkedIn corpus, "The right answer is 42." becomes a false positive: 0.10 to 0.66.
-
-## Improvements
-
-- The scent-substitution case is recovered: "The courtyard smelled of disturbed dust and old ash instead of hot metal." rises from 0.44 to 0.90.
-- The gaze case is recovered: "For a moment, her eyes moved from the window to the floor." rises from 0.38 to 0.56.
-- The literal transition "Search is quietly changing from keyword matching to vector retrieval." clears: 0.62 to 0.44.
-- The literal change "The change reshaped every column in the export." clears: 0.62 to 0.46.
-- "Say what you mean in the first line. That's the whole ask." clears: 0.56 to 0.31. Its opening instruction supplies the concrete request being summarized, despite the existing detector flagging it.
-
-## Interpretation
-
-- The prompt's compact wording leaves some existing constructions unspecified. It also fails to apply retained distinctions consistently, including the boring-solution wrapper and concrete instructions.
-- Keep the short format and revise these decision boundaries against a small balanced sample. The observed result favors correcting the rubric before another broad run.
-
-## Execution
-
-- The four-request batch completed before the user's scope correction could interrupt it. It contains 764 paragraphs and 1,528 decisions; this report evaluates only the semantic-thinness rule. No further requests followed the correction.
-- The comparison uses the same pinned `jev-1.13.0`, paragraph text, context, question wording, and 0.5 threshold. Both old and new requests supplied the family's two rulebooks; only prompt text changed.
-- `results.json` preserves the exact requests, responses, prompt hashes, and comparison rows. The 238-case subset follows the existing rule's findings; the full hit file also contains cases for superficial analysis.
+- Shared state contains the task, this rulebook, and the document's paragraphs. Each question's structured instructions contain its actual `target` text and the question asking whether that target contains any qualifying construction.
+- Fixture questions require independent judgment. Article questions allow neighboring context to explain the target's claim; unrelated defects elsewhere do not count.
+- One score represents whether any qualifying construction occurs in the target. This comparison measures paragraph decisions.

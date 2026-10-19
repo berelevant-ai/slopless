@@ -1,87 +1,84 @@
-# Semantic thinness
+# Semantic-thinness decision
 
-Flag constructions that announce meaning, change, importance, emotion, or action while replacing the information that would make the claim useful. Ask what the reader learns: what changed, what was discovered, what should happen, or why it matters.
+Does the target contain an empty rhetorical construction or filler narrative beat? Return yes when any clause satisfies a target below. Find every equivalent construction, including unseen subjects, synonyms, inflections, and sentence arrangements. Bold identifies the defective span; examples demonstrate principles rather than exact strings.
 
-Find every case of the principles below, including unseen paraphrases, synonyms, subjects, tenses, and sentence structures. The highlighted examples illustrate defects; they are examples of general constructions, not a list of exact strings to match. Judge every claim in the paragraph. Return yes if any claim qualifies.
+## Decision Boundary
 
-## Empty conclusions
+- YES: A target construction substitutes an unspecified lesson, effect, metaphor, emotion, or movement for the information it promises. A removable rhetorical wrapper also qualifies when useful information follows it.
+- NO: A specific cause, observed property, result, search goal, comparison, or literal operation resolves the apparent target. Preserve attributed evaluations and quotations discussed as someone else's wording.
+- An explanation protects the claim it explains. A name, date, number, technical noun, or causal connector elsewhere supplies no blanket exemption.
+- Use adjacent article context to resolve a reference or supply a stated lesson. Judge isolated fixture cases independently. Preserve a summary whose substantive claim is already stated.
+- Introductory time/place phrases and scope modifiers leave an empty construction intact. An affected object alone leaves its changed property unspecified.
+- Distinguish missing information from disagreement: classify the construction and its supplied detail, rather than judging whether its factual claim is correct.
 
-A lesson, answer, promise, or task is announced while its specific content stays unstated.
+## Empty Interpretation
 
-- Hit: **The answer is consistency.**
-- Hit: **That is the real promise.**
-- Hit: **The real work begins.**
-- No hit: The fix is to initialize the parser before reading offsets.
+A lesson, realization, truth, promise, or new task is announced while its content stays unstated. Calling the answer simple, honest, different, or undramatic supplies no answer.
 
-## Abstract contrasts and equations
+- Hit: **The truth is not dramatic.**
+- Hit: **That is a different job.**
+- Hit: **She realized the truth.**
+- No hit: She realized the router was still using the old DNS record.
+- No hit: The real work began at eight thirty with the masonry crew.
 
-Labels are opposed or equated as if that explains a practical difference or relationship.
+## Unsupported Significance
+
+Importance, prestige, or impact replaces the consequence or evidence. An audience, witness, occasion, or broad time span leaves the effect unspecified. A bounded historical comparison or attributed opinion supplies its own meaning.
+
+- Hit: **I've seen that difference shape what a client wanted to work on.**
+- Hit: **The difference matters for anyone who reads the brief.**
+- Hit: The discovery **sets the stage for a new chapter of transformative growth**.
+- No hit: The 1918 armistice was unprecedented in the regiment's records.
+- No hit: The 2025 audit called the platform a visionary approach to education.
+
+## Abstract Contrasts And Metaphors
+
+Abstract labels, role equations, personification, or machinery/layer metaphors stand in for the actual relationship, missing artifact, or operation. Naming a technical subject leaves its metaphor unexplained.
 
 - Hit: **The point is not control. The point is repair.**
-- Hit: **The dashboard is the decision.**
+- Hit: The **page cannot outsource its answer to metadata**.
+- Hit: **AI Overviews add another layer to the diagnosis.**
+- Hit: **The body knows what it knows.**
 - No hit: The bug is not in the parser. It is in the offset mapper.
 - No hit: The feed is the product catalog uploaded to S3.
 
-## Unsupported importance
+## Vague Change And Measurement
 
-Importance, prestige, or impact is asserted without an identified outcome or supporting comparison. Naming an audience supplies no consequence.
-
-- Hit: The agreement **marks a pivotal turning point for the evolving industry**.
-- Hit: **That matters when marketing leaders choose what to do next.**
-- No hit: The report demonstrates that revenue rose 14 percent after the strategy changed.
-
-## Unspecified change
-
-A state or difficulty changes, but the changed property, cause, or consequence stays unspecified.
+Change, difficulty, cost, or quantification is announced without the changed property, obstacle, expense, or result. Literal record processing, before/after states, and physical numbering remain concrete operations.
 
 - Hit: **Everything changed.**
-- Hit: **The work became more complicated.**
-- No hit: The work became more complicated because the API added pagination.
-
-## Personification and atmosphere
-
-An abstraction or place receives understanding, intention, or emotional weight instead of a described event or behavior.
-
-- Hit: The **room seemed to understand** that **something important was beginning to shift**.
-- Hit: The **silence became heavy**.
-- No hit: The room sensor reported that occupancy increased after the doors opened.
-- No hit: The room was quiet enough to hear the loose hinge scrape.
-
-## Emotion and realization shortcuts
-
-Emotion becomes a moving substance, or knowledge is announced while the discovery, thought, or triggering event stays unstated.
-
-- Hit: **Relief washed over Cassia.**
-- Hit: **She realized the truth.**
-- Hit: **The body knows what it knows.**
-- No hit: Her chest hurt because the harness strap had twisted under her arm.
-- No hit: She realized the router was still using the old DNS record.
-
-## Filler action and looking
-
-A generic physical or viewing beat replaces a concrete observation, goal, object, cause, or result.
-
-- Hit: **His eyes moved from the shadows to the rooftops.**
-- Hit: The group **waited quietly**.
-- No hit: She looked under the bench for the missing badge.
-
-## Circular meaning and empty measurement
-
-An explanation repeats its original abstraction, or announces quantification while leaving the measurement and result unstated.
-
-- Hit: This moment **matters because it invites us to rethink what matters**.
+- Hit: **All of that gets expensive when nobody knows which problem they are solving.**
 - Hit: The report **just put a number on it**.
+- No hit: The industry has quietly changed from annual contracts to monthly plans.
+- No hit: The shift transformed 400 records per second.
+- No hit: The technician just put a number on it because the sample needed an anonymous label.
 - No hit: The report just put a number on it: 42%.
 
-## Stock wrappers
+## Filler Scene And Emotion
 
-- Hit: The **solution is boring**: move copy into raw HTML. The instruction leaves the boring-solution wrapper intact.
+Bare scene states, generic pauses, gaze paths, bodily reactions, and emotions moving like substances replace an observation or consequential action. A specific physical cause, emotional trigger, search purpose, or described event protects the beat. Plausibility alone leaves a bare filler beat unchanged.
+
+- Hit: **The yard was empty.**
+- Hit: **Her chest felt a sudden heavy thump.**
+- Hit: **Relief washed over Cassia.**
+- Hit: **His eyes moved from the shadows to the rooftops.**
+- No hit: Her eyes moved from the shadows to the rooftops, searching for the lantern signal.
+- No hit: Doubt entered the room after the auditor found two missing signatures.
+
+## Removable Wrappers And Decorative Substitutions
+
+Calling a solution, method, plan, or strategy boring is a stock wrapper, even before a concrete instruction. This target requires a solution-like subject; ordinary dullness judgments about entertainment, documents, events, processes, or written regulations are clean.
+
+- Hit: The **practical plan is boring**: remove the redirect chain.
+- Hit: **This check is boring, fast, and easy to prove in less than five minutes.**
+- No hit: The audit is boring.
 - No hit: The movie is boring.
-- Hit: The **rest of the drill was a blur**. Fog replaces the event sequence.
+- No hit: The report is boring.
+- No hit: The lesson was simple: rotate the signing key every 30 days.
+
+Also flag recursive meaning, event sequences replaced by fog, and stock scene images or stacked scent contrasts without their source or cause.
+
+- Hit: This moment **matters because it invites us to rethink what matters**.
+- Hit: The **rest of the drill was a blur**.
+- Hit: The courtyard **smelled of disturbed dust and old ash instead of hot metal**.
 - No hit: The blur in the photo came from a cracked lens.
-- Hit: The courtyard **smelled of disturbed dust and old ash instead of hot metal**. The stacked scent contrast supplies no source.
-- No hit: The courtyard smelled of ash because the kiln had cracked during firing.
-
-## Decision boundary
-
-Preserve claims whose context supplies the missing fact, mechanism, observation, or consequence. A name, number, or technical word elsewhere in the paragraph helps only when it explains the targeted claim. Evaluate each claim separately.
