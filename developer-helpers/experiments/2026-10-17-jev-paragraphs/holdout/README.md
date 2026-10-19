@@ -5,7 +5,7 @@ This set contains 100 independently authored paragraphs, with 50 expected hits a
 ## Files
 
 - `paragraphs.json` contains neutral identifiers and target text.
-- `labels.json` contains the author's expected decisions, reasons, and defective spans. Keep this file out of every model request.
+- `labels.json` contains the author's expected decisions, reasons, and defective spans. Keep this file out of every classification benchmark request.
 
 ## Evaluation Rules
 
@@ -14,6 +14,7 @@ This set contains 100 independently authored paragraphs, with 50 expected hits a
 - Freeze the prompt, model, threshold, and input format before evaluation. Record their versions with the results.
 - Preserve all 100 original records and author labels, including disagreements and failures. Record any disputed labels separately in an evaluation report.
 - Evaluate the frozen prompt once. Further prompt development based on these results requires a fresh holdout for independent measurement.
+- A separately authorized label audit may inspect both files and the rule definitions. Save its objections separately for the user's judgment and preserve the original labels.
 
 ## Provenance
 
