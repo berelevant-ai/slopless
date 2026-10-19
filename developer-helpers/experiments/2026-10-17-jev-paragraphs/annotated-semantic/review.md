@@ -1,4 +1,37 @@
-# Concise semantic-thinness result
+# Semantic-thinness comparisons
+
+## Current Revision: One Rule, All 764 Paragraphs
+
+- Compared the 615-word prompt at `abcdbd1` with the 681-word prompt at `59e5fbe`. Both versions receive identical paragraphs and questions, with only semantic-thinness supplied.
+- On 238 cases caught by the existing semantic-thinness rule, Jev improves from 201 to 206 catches. It gains eight of those catches and loses three.
+- Across the family's complete 265 hit cases, findings increase from 221 to 231. Among 237 expected-clean cases, flags decrease from 17 to 16, with four cleared and three added.
+- LinkedIn findings increase from 51 to 63. Engineering findings increase from 26 to 27. These counts include false positives described below.
+
+### Improvements
+
+- "Her gaze fell to the ground." is recovered: 0.47 to 0.63.
+- "The second one is less glamorous." is recovered: 0.41 to 0.56.
+- "The problem holding a site back can take more work to find." is recovered: 0.40 to 0.62.
+- "The lesson was simple: rotate the signing key every 30 days." clears: 0.55 to 0.36.
+- "The right answer is 42." clears in LinkedIn: 0.61 to 0.42.
+
+### Regressions
+
+- "The strategy is boring: write the acceptance check first." is missed: 0.52 to 0.46.
+- "The truth is not dramatic." is missed: 0.50 to 0.47.
+- "The detail matters for anyone reading the label." is missed: 0.53 to 0.47.
+- All three new no-hit flags have explicit preserving details: a lantern search goal, missing signatures causing doubt, and an anonymous sample label.
+- LinkedIn adds a false positive on "The grown-up answer key is missing from the training packet." Engineering adds flags on a specified optimizer limitation and a paragraph containing explicit boundaries and an attributed quotation.
+- LinkedIn also flags "Our client's experience left me with a simple priority." despite the following paragraph stating that priority, and "That is the entire bet." after a paragraph specifying a tier and price.
+- The baseline-positive gains include "We want one change to the intake form. That is the whole ask." Its summary has a stated referent. Increased agreement with existing findings therefore includes disputed fixture expectations alongside clear recoveries.
+
+### Test Method
+
+- Used the original 764 paragraphs, with one question per paragraph and one rulebook per request. Two versions require 1,528 decisions across eight requests.
+- Kept `jev-1.13.0`, threshold 0.5, document grouping, paragraph ordering, and question wording fixed. Article questions allow context; fixture cases require independent judgment.
+- `single-family-comparison.json` contains all exact requests, responses, and comparison rows. The earlier 16-case comparison in `principles-comparison.json` was a targeted sample; the current result uses the complete paragraph set.
+
+## Earlier Comparison: Long And Concise Prompts
 
 These results describe the prompt before the subsequent addition of construction principles and explicit all-variants instructions.
 
