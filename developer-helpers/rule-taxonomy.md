@@ -3,20 +3,19 @@
 - **Inventory:** 77 public rules in nine existing families, including the 36 pattern types inside the public `semantic-thinness` rule.
   - Existing names are preserved. Subtypes describe constructions handled by a rule; they are not additional public rules.
   - Examples come from existing pattern definitions, vocabularies, and case fixtures. They illustrate the intended issue; they are not a new benchmark or prompt.
-  - Sentence/paragraph labels propose the evidence needed for semantic judgments. Implementation notes identify differences in the current deterministic rules.
-- **Sentence:** the finding belongs to one sentence. Supply paragraph context and, where a referent requires it, preceding article context.
-  - Proposed semantic judgment: "She realized the truth." An informative neighboring sentence can supply the discovery. The current matcher judges the target sentence alone.
-- **Paragraph:** the issue depends on a relationship, sequence, or accumulation across sentences. Report the type and identify contributing sentences where possible.
-  - Example: "The point is not control. The point is repair." The contrast belongs to the pair.
-  - Some existing rules also compare neighboring paragraphs. Preserve those relationships when constructing model inputs.
-- **Other existing targets:** document totals, headings, configured terminology, and exact characters retain their stated targets below.
-  - The proposed `rules/sentence/` and `rules/paragraph/` split describes semantic judgments. Existing literal matchers, calculations, and reporting counters remain distinguishable from those judgments.
-- **Context and overlap:** a sentence can exhibit several types, and an informative neighboring sentence can explain a claim.
-  - Proposed model behavior: detect every applicable type independently. The current `semantic-thinness` rule selects one prioritized subtype per sentence.
-  - Family membership identifies the issue's subject; sentence/paragraph placement identifies the evidence needed to judge it.
+  - Organize rules as `rules/<family>/<rule>`. Existing internal types remain beneath their owning rule; context and highlight boundaries describe each check's behavior.
+- **Proposed semantic input:** supply the target paragraph once per issue type, including all of its sentences. Provide neighboring article context when the construction crosses a paragraph boundary.
+  - "It's not control, it's trust" and "It's not control. It's trust" have the same issue identity and the same paragraph-level detection step.
+  - An informative neighboring sentence can explain "She realized the truth." The current deterministic matcher judges the target sentence alone.
+- **Proposed finding:** report the existing family, rule, and applicable internal type, then identify contributing text within the paragraph.
+  - Sentence participation is a follow-up localization question after a positive decision. Preserve the paragraph finding when localization selects no sentences.
+  - A sentence can exhibit several types. Independent type decisions preserve those overlaps; the current `semantic-thinness` rule selects one prioritized subtype per sentence.
+- **Reporting:** count the relevant rule's detections independently when its policy requires density. Detection identifies the writing problem; the reporter decides when the count warrants a finding.
+- **Existing execution notes:** sentence/paragraph labels below describe required evidence or current deterministic behavior, rather than separate rule identities or duplicate model passes.
+  - Exact characters, lexical policies, heading checks, document totals, and configured terminology retain their existing execution targets.
 
 - **Semantic thinness (`semantic-thinness`; two public rules).** [Registry](../src/registries/semantic-thinness.ts)
-  - **Public rule `semantic-thinness`: sentence-level types.** Definitions: `src/rules/semantic-thinness/patterns/<type>.json`.
+  - **Public rule `semantic-thinness`: 36 existing pattern types.** Definitions: `src/rules/semantic-thinness/patterns/<type>.json`.
     - `abstract-agency-personification`: a system, room, or strategy receives intentions or understanding in place of concrete behavior.
       - Target: "The room seemed to understand that something important was beginning to shift."
       - Preserve: "The room sensor reported that occupancy increased after the doors opened."
@@ -122,66 +121,63 @@
     - `vague-threshold-change`: a comparative judgment leaves the changed scale, cause, or obstacle unspecified.
       - Target: "Things got harder."
       - Preserve: "The build got slower after the cache key changed."
-  - **Public rule `semantic-thinness`: paragraph-level types.**
     - `abstract-contrast`: abstract labels are opposed as though their opposition supplies an explanation.
       - Target: "The point is not control. The point is repair."
       - Preserve: "The bug is not in the parser. It is in the offset mapper."
-      - The source also has a one-sentence contrast form. Paragraph-first classification covers both forms; contributing sentences determine the highlight.
+      - Required evidence: both sides of the contrast, whether inside one sentence or across several. Contributing sentences determine the highlight.
     - `recursive-meaning-frame`: the premise and payoff recycle the same abstraction instead of explaining it.
       - Target: "This moment matters because it invites us to rethink what matters."
       - Preserve: "This deadline matters because the vendor contract expires on June 30."
-      - Paragraph-first classification is proposed so repunctuating the argument across sentences preserves the judgment. The current templates describe single-sentence forms.
+      - Required evidence: the premise and its circular explanation. These can occupy one sentence or several; current templates describe single-sentence forms.
   - **Public rule `superficial-analysis`: sentence.** An appended interpretation claims significance beyond the opening fact.
     - Target: "The bridge opened in 1998, highlighting the city's commitment to sustainable growth."
     - Proposed semantic boundary: preserve a trailing clause that supplies a measured result, literal operation, or identified mechanism.
     - Current concrete-tail exclusion applies to linked finite verbs; a participle such as "highlighting" can still produce a finding beside a measurement.
     - Forms include comma/semicolon participles and linked finite verbs, such as "reflects," "underscores," or "confirms."
-  - **Implementation distinction:** the current main rule runs on individual sentences. The proposed taxonomy assigns two relational types to paragraphs and leaves 35 family types sentence-first, including `superficial-analysis`.
+  - **Implementation distinction:** the current main rule runs on individual sentences. The proposed model evaluates each issue type on a paragraph and then localizes the finding.
     - Subtype examples describe their intended meaning. Current matching precedence can report another overlapping subtype: "The solution is boring" is labeled `generic-lesson-extraction`.
     - "The yard felt suddenly cold" is labeled `empty-scene-state`; "That mattered more than it seemed" is labeled `generic-pressure-or-stakes`.
     - The two-sentence `abstract-contrast` example currently produces separate `point-is-frame` and `generic-lesson-extraction` findings.
 
 - **Narrative slop (`narrative-slop`; seven public rules).** [Registry](../src/registries/narrative-slop.ts)
-  - **Sentence.**
-    - `empty-beat`: a pause, wait, movement placeholder, or animal body tag supplies little story information.
-      - Empty hesitation: "Liska hesitated for a second."
-      - Empty placeholding: "They stood by the door."
-      - Empty movement: "Cassia kept pace."
-      - Animal body tag: "Her ears twitched."
-      - Current implementation receives a paragraph and inspects its sentences; the semantic target is the individual beat.
-    - `emotion-telling`: narration names an emotion instead of conveying a concrete thought, action, or choice.
-      - Example: "She was still very angry." Dialogue and explained reactions have separate boundaries.
-    - `narrative-cliches`: stock narrative phrases, with 17 existing template types in [the data file](../src/rules/narrative-slop/data/narrative-cliches.json).
-      - `heart-chest`: "Her heart pounded in her chest."
-      - `spine-shiver`: "A chill ran down her spine."
-      - `breath-throat`: "Her breath caught in her throat."
-      - `speech-voice-quality`: "She asked, her voice barely audible."
-      - `voice-laced`: "She said, her voice laced with fear."
-      - `air-thick`: "The air was thick with tension."
-      - `hung-in-air`: "Silence hung in the air."
-      - `long-shadows`: "The lamps were casting long shadows."
-      - `days-turned-weeks`: "Days turned into weeks."
-      - `sun-horizon`: "The sun dipped below the horizon."
-      - `omniscient-foreshadowing`: "Little did she know."
-      - `maybe-just-maybe`: "Maybe, just maybe, the alley would stay quiet."
-      - `felt-like-eternity`: "For what felt like an eternity."
-      - `flicker-crossed-face`: "A flicker of doubt crossed her face."
-      - `eyes-unreadable`: "Her eyes darkened with something unreadable."
-      - `unknown-held-breath`: "She released a breath she did not know she was holding."
-      - `time-slowed`: "Time seemed to slow."
-  - **Paragraph.**
-    - `flat-action-cadence`: nearby clauses repeat the subject-first action/report structure, including changes of actor.
-      - Example: "Children searched beneath the tables. Eli ran into the corridor. Mira hurried back. Her stomach squeezed tight. The teacher pointed to the open cage."
-      - Distinction: the repeated sequence is the issue; individual actions can be informative. The existing reporter evaluates detected clauses as a sequence.
-    - `body-action-density`: movement and body-action cues accumulate in a short passage.
-      - Example: "Arden climbed the crates. He pulled himself up. Arden walked along the parapet. He crouched low."
-      - Existing behavior counts local movement detections in the reporter.
-    - `perception-verb-density`: looking, staring, watching, and related perception actions accumulate.
-      - Example: "She stared out at the dark roofline. She did not look down at the older kids."
-      - Distinction: an individual purposeful search differs from repeatedly narrating perception. Existing behavior counts matched verbs with purpose exclusions.
-    - `low-information-beat-density`: several weak body, gaze, posture, or waiting cues crowd a passage.
-      - Example: "Liska turned her head. Her brown eyes looked tired. She crossed her arms over her chest and waited."
-      - Existing behavior counts vocabulary cues and applies a paragraph/window policy; semantic beat quality is a separate judgment.
+  - `empty-beat`: a pause, wait, movement placeholder, or animal body tag supplies little story information.
+    - Empty hesitation: "Liska hesitated for a second."
+    - Empty placeholding: "They stood by the door."
+    - Empty movement: "Cassia kept pace."
+    - Animal body tag: "Her ears twitched."
+    - Current implementation receives a paragraph and inspects its sentences; the semantic target is the individual beat.
+  - `emotion-telling`: narration names an emotion instead of conveying a concrete thought, action, or choice.
+    - Example: "She was still very angry." Dialogue and explained reactions have separate boundaries.
+  - `narrative-cliches`: stock narrative phrases, with 17 existing template types in [the data file](../src/rules/narrative-slop/data/narrative-cliches.json).
+    - `heart-chest`: "Her heart pounded in her chest."
+    - `spine-shiver`: "A chill ran down her spine."
+    - `breath-throat`: "Her breath caught in her throat."
+    - `speech-voice-quality`: "She asked, her voice barely audible."
+    - `voice-laced`: "She said, her voice laced with fear."
+    - `air-thick`: "The air was thick with tension."
+    - `hung-in-air`: "Silence hung in the air."
+    - `long-shadows`: "The lamps were casting long shadows."
+    - `days-turned-weeks`: "Days turned into weeks."
+    - `sun-horizon`: "The sun dipped below the horizon."
+    - `omniscient-foreshadowing`: "Little did she know."
+    - `maybe-just-maybe`: "Maybe, just maybe, the alley would stay quiet."
+    - `felt-like-eternity`: "For what felt like an eternity."
+    - `flicker-crossed-face`: "A flicker of doubt crossed her face."
+    - `eyes-unreadable`: "Her eyes darkened with something unreadable."
+    - `unknown-held-breath`: "She released a breath she did not know she was holding."
+    - `time-slowed`: "Time seemed to slow."
+  - `flat-action-cadence`: nearby clauses repeat the subject-first action/report structure, including changes of actor.
+    - Example: "Children searched beneath the tables. Eli ran into the corridor. Mira hurried back. Her stomach squeezed tight. The teacher pointed to the open cage."
+    - Distinction: the repeated sequence is the issue; individual actions can be informative. The existing reporter evaluates detected clauses as a sequence.
+  - `body-action-density`: movement and body-action cues accumulate in a short passage.
+    - Example: "Arden climbed the crates. He pulled himself up. Arden walked along the parapet. He crouched low."
+    - Existing behavior counts local movement detections in the reporter.
+  - `perception-verb-density`: looking, staring, watching, and related perception actions accumulate.
+    - Example: "She stared out at the dark roofline. She did not look down at the older kids."
+    - Distinction: an individual purposeful search differs from repeatedly narrating perception. Existing behavior counts matched verbs with purpose exclusions.
+  - `low-information-beat-density`: several weak body, gaze, posture, or waiting cues crowd a passage.
+    - Example: "Liska turned her head. Her brown eyes looked tired. She crossed her arms over her chest and waited."
+    - Existing behavior counts vocabulary cues and applies a paragraph/window policy; semantic beat quality is a separate judgment.
 
 - **Syntactic patterns (`syntactic-patterns`; 27 public rules).** [Registry](../src/registries/syntactic-patterns.ts)
   - **Authority.**
@@ -277,144 +273,131 @@
       - Preserve quoted or deliberately discussed assistant responses according to the applicable attribution boundary.
 
 - **Academic slop (`academic-slop`; three public rules).** [Registry](../src/registries/academic-slop.ts)
-  - **Sentence-level content; existing literal/template matchers operate on text nodes.**
-    - `academic-boilerplate`: stock academic abstractions replace a concrete claim or method.
-      - Example phrase: "bridge theory and practice."
-    - `tortured-phrases`: awkward substitutes replace established scientific terminology.
-      - Example: "counterfeit consciousness" used for "artificial intelligence."
-    - `academic-formula-frames`: 12 existing template types in [the data file](../src/rules/academic-slop/data/academic-formula-frames.json).
-      - `contributes-to-dialogue`: "The paper contributes a fresh perspective to the ongoing dialogue about pedagogical innovation."
-      - `findings-enable-abstraction`: "The findings indicate that collaboration can create new forms of academic belonging."
-      - `situates-broader-matrix`: "The article situates these practices within a broader landscape of cultural change."
-      - `roadmap-for-scholars`: "The article offers a roadmap for practitioners seeking to address the complexities of community engagement."
-      - `contours-of-success`: "The analysis reveals how collaborative practices shape the contours of collective success."
-      - `potential-to-catalyze`: "The article reveals the potential of collaboration to catalyze collective transformation."
-      - `comprehensive-discourse-overview`: "The article provides a comprehensive overview of the evolving discourse surrounding ethical data governance."
-      - `key-driver-change`: "The evidence suggests that collaboration serves as a key driver of meaningful change."
-      - `robust-pathway-contours`: "This framework offers a robust pathway for understanding the shifting contours of disciplinary practice."
-      - `centering-and-touchstone`: "The discussion highlights the importance of centering student voice."
-      - `illuminates-ways`: "The article illuminates the ways in which policy actors negotiate complexity."
-      - `profound-implications-gestures`: "These insights have profound implications for researchers seeking to bridge theory and practice."
+  - `academic-boilerplate`: stock academic abstractions replace a concrete claim or method.
+    - Example phrase: "bridge theory and practice."
+  - `tortured-phrases`: awkward substitutes replace established scientific terminology.
+    - Example: "counterfeit consciousness" used for "artificial intelligence."
+  - `academic-formula-frames`: 12 existing template types in [the data file](../src/rules/academic-slop/data/academic-formula-frames.json).
+    - `contributes-to-dialogue`: "The paper contributes a fresh perspective to the ongoing dialogue about pedagogical innovation."
+    - `findings-enable-abstraction`: "The findings indicate that collaboration can create new forms of academic belonging."
+    - `situates-broader-matrix`: "The article situates these practices within a broader landscape of cultural change."
+    - `roadmap-for-scholars`: "The article offers a roadmap for practitioners seeking to address the complexities of community engagement."
+    - `contours-of-success`: "The analysis reveals how collaborative practices shape the contours of collective success."
+    - `potential-to-catalyze`: "The article reveals the potential of collaboration to catalyze collective transformation."
+    - `comprehensive-discourse-overview`: "The article provides a comprehensive overview of the evolving discourse surrounding ethical data governance."
+    - `key-driver-change`: "The evidence suggests that collaboration serves as a key driver of meaningful change."
+    - `robust-pathway-contours`: "This framework offers a robust pathway for understanding the shifting contours of disciplinary practice."
+    - `centering-and-touchstone`: "The discussion highlights the importance of centering student voice."
+    - `illuminates-ways`: "The article illuminates the ways in which policy actors negotiate complexity."
+    - `profound-implications-gestures`: "These insights have profound implications for researchers seeking to bridge theory and practice."
 
 - **Phrases (`phrases`; 14 public rules).** [Registry](../src/registries/phrases.ts)
-  - **Sentence-level content; most existing rules retain exact phrase or token-template matching.**
-    - `cliches`: stock figurative expressions replace a specific description.
-      - Example: "navigate the complexities of."
-      - Existing `possessive-cliches` template: "air your dirty laundry."
-      - Existing `into-focus-cliches` template: "bring the problem into focus."
-    - `corporate-speak`: business jargon and abstract corporate claims replace concrete actions or results.
-      - Literal example: "low-hanging fruit."
-      - `importance-role`: "plays a crucial role."
-      - `valuable-insights`: "provides valuable insights."
-      - `complexity-approach`: "requires a multifaceted approach."
-      - `culture-of-abstraction`: "fosters a culture of continuous improvement."
-      - `importance-reminder`: "serves as a powerful reminder of the importance of."
-      - `testament-power`: "serves as a testament to the power of."
-      - `intersection-abstraction`: "sits at the intersection of alignment, growth, and transformation."
-      - `forward-looking-humanity`: "Taken together, these signals tell a bigger story."
-    - `humble-bragger`: a credentialing lead-in introduces an otherwise ordinary claim.
-      - Example: "As someone who has reviewed many launch notes, I would cut this claim."
-    - `jargon-faker`: technical verbs are borrowed for nontechnical activities.
-      - Target: "Use the checklist to debug your morning routine."
-      - Preserve literal technical uses such as debugging a parser or optimizing for latency.
-    - `llm-disclaimer`: model identity, training cutoff, or access limitations leak into the prose.
-      - Example: "As a language model, I cannot verify the latest outage numbers."
-    - `prohibited-phrases`: phrases in the maintained prohibition list.
-      - Example: "In today's fast-paced world."
-    - `redundancy`: adjacent words repeat the same meaning.
-      - Example: "basic fundamentals" or "repeated again."
-    - `skunked-terms`: maintained entries for disputed or commonly misused words.
-      - Example: "fulsome praise."
-      - The existing rule is a lexical policy; a semantic judgment would additionally require the intended meaning.
-    - `uncomparables`: degree modifiers qualify adjectives treated as absolute by the policy.
-      - Example: "very unique."
-    - `wordiness`: fixed wordy frames replace shorter expressions.
-      - Example: "due to the fact that."
-    - `genre-cliches`: stock travel, food, and promotional descriptions.
-      - Example: "a feast for the senses."
-    - `seo-filler`: generic online-content framing.
-      - Example: "As the world continues to evolve."
-    - `self-help-cliches`: familiar self-improvement abstractions.
-      - Example: "abundance mindset."
-    - `weasel-attribution`: an unnamed group is invoked as an authority.
-      - Example: "A growing body of research suggests."
+  - `cliches`: stock figurative expressions replace a specific description.
+    - Example: "navigate the complexities of."
+    - Existing `possessive-cliches` template: "air your dirty laundry."
+    - Existing `into-focus-cliches` template: "bring the problem into focus."
+  - `corporate-speak`: business jargon and abstract corporate claims replace concrete actions or results.
+    - Literal example: "low-hanging fruit."
+    - `importance-role`: "plays a crucial role."
+    - `valuable-insights`: "provides valuable insights."
+    - `complexity-approach`: "requires a multifaceted approach."
+    - `culture-of-abstraction`: "fosters a culture of continuous improvement."
+    - `importance-reminder`: "serves as a powerful reminder of the importance of."
+    - `testament-power`: "serves as a testament to the power of."
+    - `intersection-abstraction`: "sits at the intersection of alignment, growth, and transformation."
+    - `forward-looking-humanity`: "Taken together, these signals tell a bigger story."
+  - `humble-bragger`: a credentialing lead-in introduces an otherwise ordinary claim.
+    - Example: "As someone who has reviewed many launch notes, I would cut this claim."
+  - `jargon-faker`: technical verbs are borrowed for nontechnical activities.
+    - Target: "Use the checklist to debug your morning routine."
+    - Preserve literal technical uses such as debugging a parser or optimizing for latency.
+  - `llm-disclaimer`: model identity, training cutoff, or access limitations leak into the prose.
+    - Example: "As a language model, I cannot verify the latest outage numbers."
+  - `prohibited-phrases`: phrases in the maintained prohibition list.
+    - Example: "In today's fast-paced world."
+  - `redundancy`: adjacent words repeat the same meaning.
+    - Example: "basic fundamentals" or "repeated again."
+  - `skunked-terms`: maintained entries for disputed or commonly misused words.
+    - Example: "fulsome praise."
+    - The existing rule is a lexical policy; a semantic judgment would additionally require the intended meaning.
+  - `uncomparables`: degree modifiers qualify adjectives treated as absolute by the policy.
+    - Example: "very unique."
+  - `wordiness`: fixed wordy frames replace shorter expressions.
+    - Example: "due to the fact that."
+  - `genre-cliches`: stock travel, food, and promotional descriptions.
+    - Example: "a feast for the senses."
+  - `seo-filler`: generic online-content framing.
+    - Example: "As the world continues to evolve."
+  - `self-help-cliches`: familiar self-improvement abstractions.
+    - Example: "abundance mindset."
+  - `weasel-attribution`: an unnamed group is invoked as an authority.
+    - Example: "A growing body of research suggests."
 
 - **Words (`words`; nine public rules).** [Registry](../src/registries/words.ts)
-  - **Sentence.**
-    - `hedge-stacking`: several uncertainty markers qualify one sentence.
-      - Example: "We might perhaps utilize numerous tools to facilitate the launch."
-      - The current rule mechanically counts hedge words; intended uncertainty requires contextual review.
-    - `quietly-filler`: "quietly" suggests hidden significance without naming the concrete change or behavior.
-      - Target: "The market is quietly shifting."
-      - Distinction: a literal quiet action or supported operational description supplies a different use.
-    - `silently-filler`: "silently" supplies the same hidden-significance framing.
-      - Target: "The market silently shifted around the new platform."
-  - **Paragraph, count-based reporting over local word detections.**
-    - `llm-vocabulary`: several contextual stock words cluster in a short passage.
-      - Example: "This vibrant landscape asks the reader to delve into an intricate tapestry."
-    - `llm-vocabulary-density`: abstraction-heavy vocabulary clusters.
-      - Example: "Moreover, this scalable approach unlocks nuanced insight across the ecosystem."
-      - These two public rules use different vocabularies with a shared contextual matcher/reporting mechanism.
-    - `simplicity`: several words with simpler listed alternatives accumulate.
-      - Example: "utilize numerous tools to facilitate" contains three listed words.
-      - The current rule requires a cluster; one listed word alone supplies a detection candidate rather than a paragraph finding.
-  - **Document, count-based reporting.**
-    - `actually-overuse`: counts occurrences of "actually" throughout the document.
-      - Example occurrence: "Actually, the queue is empty."
-      - Current implementation allows one occurrence and reports when the document contains more than one. The reporter compares the count with `minimum: 1` using `>`.
-    - `quietly-overuse`: reports the document-wide rate of "quietly," independently of the semantic filler rule.
-      - Example: six occurrences in a 2,000-word article produce three per 1,000 words.
-      - Current policy uses a minimum of two occurrences and rate thresholds of one and two per 1,000 words.
-  - **Exact word policy.**
-    - `prohibited-words`: matches maintained banned tokens inside text nodes.
-      - Example entry: "unlock."
-      - This lexical policy remains distinct from judging the sentence's meaning.
+  - `hedge-stacking`: several uncertainty markers qualify one sentence.
+    - Example: "We might perhaps utilize numerous tools to facilitate the launch."
+    - The current rule mechanically counts hedge words; intended uncertainty requires contextual review.
+  - `quietly-filler`: "quietly" suggests hidden significance without naming the concrete change or behavior.
+    - Target: "The market is quietly shifting."
+    - Distinction: a literal quiet action or supported operational description supplies a different use.
+  - `silently-filler`: "silently" supplies the same hidden-significance framing.
+    - Target: "The market silently shifted around the new platform."
+  - `llm-vocabulary`: several contextual stock words cluster in a short passage.
+    - Example: "This vibrant landscape asks the reader to delve into an intricate tapestry."
+  - `llm-vocabulary-density`: abstraction-heavy vocabulary clusters.
+    - Example: "Moreover, this scalable approach unlocks nuanced insight across the ecosystem."
+    - These two public rules use different vocabularies with a shared contextual matcher/reporting mechanism.
+  - `simplicity`: several words with simpler listed alternatives accumulate.
+    - Example: "utilize numerous tools to facilitate" contains three listed words.
+    - The current rule requires a cluster; one listed word alone supplies a detection candidate rather than a paragraph finding.
+  - `actually-overuse`: counts occurrences of "actually" throughout the document.
+    - Example occurrence: "Actually, the queue is empty."
+    - Current implementation allows one occurrence and reports when the document contains more than one. The reporter compares the count with `minimum: 1` using `>`.
+  - `quietly-overuse`: reports the document-wide rate of "quietly," independently of the semantic filler rule.
+    - Example: six occurrences in a 2,000-word article produce three per 1,000 words.
+    - Current policy uses a minimum of two occurrences and rate thresholds of one and two per 1,000 words.
+  - `prohibited-words`: matches maintained banned tokens inside text nodes.
+    - Example entry: "unlock."
+    - This lexical policy remains distinct from judging the sentence's meaning.
 
 - **Orthography (`orthography`; eight public rules).** [Registry](../src/registries/orthography.ts)
-  - **Sentence-level rhetorical content.**
-    - `colon-dramatic`: a short staged reveal follows a colon.
-      - Example: "Then the team saw it: nothing moved."
-      - Current code scans paragraphs and returns the short reveal's range.
-    - `fake-timestamps`: a narrative clock detail supplies fabricated-looking precision under the existing structural policy.
-      - Example: "At 5:47 PM, the dashboard finally turned green."
-      - Current matching skips sentences with recognized date words, date labels, or years. It can flag legitimate schedules and technical times; factual fabrication requires evidence beyond the timestamp's shape.
-  - **Paragraph, count-based.**
-    - `exclamation-density`: more than one exclamation mark in a paragraph.
-      - Example: "Ship the patch! Check the logs!"
-  - **Exact characters and artifacts.**
-    - `em-dashes`: a closed em dash has no spaces around it.
-      - Example representation: `landed\u2014but`, where `\u2014` stands for the actual character. Spaced em dashes are outside this check.
-    - `smart-quotes`: curly quotation marks and apostrophes.
-      - Example representation: `\u201Cship it\u201D`, where the escapes represent the actual curly quote characters.
-    - `hidden-unicode-controls`: invisible formatting or direction-control characters.
-      - Example representation: `in\u200Bside`, with a zero-width space inside the word.
-    - `artifact-placeholders`: generated citation objects, sandbox links, tracking markers, and unfinished placeholders.
-      - Examples: `:contentReference[oaicite:3]{index=3}` and `[INSERT TEXT]`.
-  - **Heading.**
-    - `sentence-case`: checks capitalization of a Markdown heading.
-      - Target: `## Draft Review Notes For Editors`.
-      - Intended rewrite: `## Draft review notes for editors`.
+  - `colon-dramatic`: a short staged reveal follows a colon.
+    - Example: "Then the team saw it: nothing moved."
+    - Current code scans paragraphs and returns the short reveal's range.
+  - `fake-timestamps`: a narrative clock detail supplies fabricated-looking precision under the existing structural policy.
+    - Example: "At 5:47 PM, the dashboard finally turned green."
+    - Current matching skips sentences with recognized date words, date labels, or years. It can flag legitimate schedules and technical times; factual fabrication requires evidence beyond the timestamp's shape.
+  - `exclamation-density`: more than one exclamation mark in a paragraph.
+    - Example: "Ship the patch! Check the logs!"
+  - `em-dashes`: a closed em dash has no spaces around it.
+    - Example representation: `landed\u2014but`, where `\u2014` stands for the actual character. Spaced em dashes are outside this check.
+  - `smart-quotes`: curly quotation marks and apostrophes.
+    - Example representation: `\u201Cship it\u201D`, where the escapes represent the actual curly quote characters.
+  - `hidden-unicode-controls`: invisible formatting or direction-control characters.
+    - Example representation: `in\u200Bside`, with a zero-width space inside the word.
+  - `artifact-placeholders`: generated citation objects, sandbox links, tracking markers, and unfinished placeholders.
+    - Examples: `:contentReference[oaicite:3]{index=3}` and `[INSERT TEXT]`.
+  - `sentence-case`: checks capitalization of a Markdown heading.
+    - Target: `## Draft Review Notes For Editors`.
+    - Intended rewrite: `## Draft review notes for editors`.
 
 - **Metrics (`metrics`; five public rules).** [Registry](../src/registries/metrics.ts)
-  - **Paragraph calculations.**
-    - `paragraph-length`: counts sentences in one paragraph.
-      - Example: "We go. We rest. We look. We wait. We plan. We read. We stop." has seven sentences against the current limit of six.
-    - `word-repetition`: counts repeated non-excluded words in one paragraph.
-      - Example: "Home cooks keep home notes while home teams map home risks and home wins at home." repeats "home" six times against the current limit of five.
-  - **Document calculations.**
-    - `coleman-liau`: a reading-grade calculation using character, word, and sentence counts.
-      - Example result: 14 exceeds the current maximum of 12.
-    - `flesch-kincaid`: the public rule name; current implementation calculates Flesch Reading Ease.
-      - Example result: 50 falls below the current minimum of 61.
-    - `gunning-fog`: a reading-grade calculation incorporating sentence length and complex words.
-      - Example result: 14 exceeds the current maximum of 12.
+  - `paragraph-length`: counts sentences in one paragraph.
+    - Example: "We go. We rest. We look. We wait. We plan. We read. We stop." has seven sentences against the current limit of six.
+  - `word-repetition`: counts repeated non-excluded words in one paragraph.
+    - Example: "Home cooks keep home notes while home teams map home risks and home wins at home." repeats "home" six times against the current limit of five.
+  - `coleman-liau`: a reading-grade calculation using character, word, and sentence counts.
+    - Example result: 14 exceeds the current maximum of 12.
+  - `flesch-kincaid`: the public rule name; current implementation calculates Flesch Reading Ease.
+    - Example result: 50 falls below the current minimum of 61.
+  - `gunning-fog`: a reading-grade calculation incorporating sentence length and complex words.
+    - Example result: 14 exceeds the current maximum of 12.
 
 - **Term policy (`term-policy`; two public rules).** [Registry](../src/registries/term-policy.ts)
-  - **Document, with explicit configured terms.**
-    - `required-terms`: checks that each configured term is present.
-      - Example policy: require "slopless"; an article that omits it produces a missing-term finding.
-    - `recommended-terms`: checks how many distinct terms from a configured pool are present.
-      - Example policy: require at least two of "wallet," "payments," and "licensing"; a document containing only "wallet" falls short.
+  - `required-terms`: checks that each configured term is present.
+    - Example policy: require "slopless"; an article that omits it produces a missing-term finding.
+  - `recommended-terms`: checks how many distinct terms from a configured pool are present.
+    - Example policy: require at least two of "wallet," "payments," and "licensing"; a document containing only "wallet" falls short.
 
 - **Existing overlaps to keep visible when writing prompts.**
   - `semantic-thinness/abstract-contrast` and `syntactic-patterns/negation-reframe` cover overlapping abstract-reframe constructions.
