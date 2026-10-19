@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-002",
+      "expected": false,
+      "reason": "The pause enables an audible observation, and the observed intrusion motivates the barricade and escape.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-029",
+      "expected": false,
+      "reason": "The pause accommodates visible bargaining and lets the audience understand the offer before the reply.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-031",
+      "expected": true,
+      "reason": "Breathing, chin movement, and a circuit of looking fill the response interval without revealing an observation or meaningful response.",
+      "evidence": [
+        "Felix drew a breath, moved his chin a little, and let a moment take its place between them. His gaze made a brief circuit of the desk."
+      ]
+    },
+    {
+      "id": "holdout-103",
+      "expected": false,
+      "reason": "The hovering pen and hesitation convey a specific obstacle: the register's parent heading conflicts with the aunt's legal status. The registrar's correction resolves it.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-125",
+      "expected": false,
+      "reason": "Silence and pausing are part of comparing two conflicting dates with a third booking date. The playback pauses enable the mother to record the evidence accurately.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-160",
+      "expected": false,
+      "reason": "The fitting pause follows a specific restriction, and the temporary insertion and repeated movement test determine a gusset dimension required by an identified action in the production.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-168",
+      "expected": false,
+      "reason": "The pause preserves a witness's second-by-second reconstruction of an interval relevant to the account. Its duration carries evidence that editing it out would remove.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-193",
+      "expected": false,
+      "reason": "The pause is caused by a specific discrepancy between historical and current place names, and the record comparison and entry of both names explain its resolution.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-310",
+      "expected": false,
+      "reason": "The movement belongs to specifically discussed quoted dialogue attribution, where the spoken correction gives the turn a narrative function.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "rejectIf",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-318",
+      "expected": true,
+      "reason": "A weak adverb and unspecified location describe waiting without a goal or consequence; activity across the square never explains the group's wait.",
+      "evidence": [
+        "The group simply waited there."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-326",
+      "expected": true,
+      "reason": "The glance moves between generic surfaces without an identified clue or purpose; the hall description never connects the movement to information.",
+      "evidence": [
+        "He glanced from the floor to the door."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-328",
+      "expected": false,
+      "reason": "The movement handles a specifically damaged tray, and its placement has the concrete consequence of supporting the loose bottom.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-346",
+      "expected": true,
+      "reason": "The turn gives no object, purpose, cause, or consequence; the following courtyard description supplies no function for that movement.",
+      "evidence": [
+        "I turned away."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-376",
+      "expected": false,
+      "reason": "The looking is a search for a specified object, followed by finding and using that object to seal the bottle.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "rejectIf",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-379",
+      "expected": true,
+      "reason": "Two bodily actions lead only to a generic location; the furnishings do not supply a search, observation, or consequence.",
+      "evidence": [
+        "She stood and stared into the room."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-391",
+      "expected": false,
+      "reason": "The cause clause identifies the scraping reel, and the ensuing repair explains the turn's role in the scene.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-395",
+      "expected": false,
+      "reason": "The backward movement has an explicit purpose and a visible access consequence rather than serving as generic blocking.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/low-information-physical-blocking.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    }
+  ]
+}

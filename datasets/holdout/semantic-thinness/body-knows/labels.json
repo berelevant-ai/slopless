@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-526",
+      "expected": true,
+      "reason": "Cells are said to distinguish two abstract states without any cellular process, defined stimulus, or evidence.",
+      "evidence": [
+        "Your cells recognize the difference between permission and certainty."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "template",
+        "index": 5
+      }
+    },
+    {
+      "id": "holdout-533",
+      "expected": false,
+      "reason": "The bodily noticing is specified as visible goose bumps and shivering caused by cold.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-539",
+      "expected": true,
+      "reason": "The long-before construction compares bodily memory with mental understanding but specifies neither what is remembered nor what is understood.",
+      "evidence": [
+        "His body remembers long before his mind understands."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-544",
+      "expected": true,
+      "reason": "The body supposedly remembers an unnamed truth; the studio furnishings supply neither the truth nor a bodily mechanism.",
+      "evidence": [
+        "Their body remembered the truth."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-573",
+      "expected": true,
+      "reason": "Breath is assigned memory with no remembered content, physiological response, or practice that would explain the claim.",
+      "evidence": [
+        "Your breath remembers."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-581",
+      "expected": true,
+      "reason": "The map metaphor and simultaneous mind clause offer no direction, old answer, or concrete breathing practice.",
+      "evidence": [
+        "Your breath becomes the map when your mind is still chasing the old answer."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-582",
+      "expected": false,
+      "reason": "The settling claim is a measured change in breathing frequency with an explicit counting method.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-583",
+      "expected": true,
+      "reason": "The what clause attributes vague knowledge of emotional release to the nervous system without naming the content or a measurable response.",
+      "evidence": [
+        "The nervous system knows what the heart is ready to release."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-600",
+      "expected": false,
+      "reason": "The pattern is a specific physical sequence, reinforced by a concrete training instruction and an observable completion condition.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-knows.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    }
+  ]
+}

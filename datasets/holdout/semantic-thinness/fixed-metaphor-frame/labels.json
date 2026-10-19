@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-206",
+      "expected": true,
+      "reason": "The place-as-graveyard frame stacks two image nouns without identifying literal remains, history, or a cause that would explain the metaphor.",
+      "evidence": [
+        "The catwalk was a graveyard of ash and smoke."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/fixed-metaphor-frame.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-222",
+      "expected": false,
+      "reason": "The cause clause explains both the maze-like route and the obscuring conditions, and the next sentence describes navigating them.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/fixed-metaphor-frame.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-287",
+      "expected": false,
+      "reason": "Maze names a literal designed network of hedge paths, with dead ends and a navigable route.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/fixed-metaphor-frame.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-292",
+      "expected": false,
+      "reason": "The metaphor is grounded in described boat damage and the specific event that deposited the wrecks on the pier.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/fixed-metaphor-frame.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    }
+  ]
+}

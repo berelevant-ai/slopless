@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-401",
+      "expected": false,
+      "reason": "The result clause specifies the changed orientation, and the rotating pavilion gives the transition a literal mechanism.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-450",
+      "expected": true,
+      "reason": "The transition uses a generic subject and a trailing weak modifier without specifying what settled.",
+      "evidence": [
+        "The dynamic settled somehow."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-455",
+      "expected": false,
+      "reason": "A specific character action explains exactly how the revised story differs from the previous ending.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-461",
+      "expected": true,
+      "reason": "The generic situation is said to tilt without an event, outcome, or changed relationship being named.",
+      "evidence": [
+        "The situation tilted."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-474",
+      "expected": true,
+      "reason": "The passage verb announces recurrence without identifying the feeling or its trigger.",
+      "evidence": [
+        "The feeling returned."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-480",
+      "expected": false,
+      "reason": "The long transition sentence exceeds the short window while also specifying the old use, new use, and physical alterations.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "rejectIf",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-483",
+      "expected": true,
+      "reason": "The weak modifier precedes an unspecified mood transition; the culinary details do not explain a change in mood.",
+      "evidence": [
+        "From there, the mood shifted."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-486",
+      "expected": true,
+      "reason": "An indefinite subject acts on generic work without identifying either the cause or the resulting change.",
+      "evidence": [
+        "Something changed the work."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-495",
+      "expected": false,
+      "reason": "The cause clause supplies the disclosure, and the next sentence specifies the resulting change of discussion.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-transition.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    }
+  ]
+}

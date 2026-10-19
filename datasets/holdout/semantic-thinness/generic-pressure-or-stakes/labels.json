@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-303",
+      "expected": false,
+      "reason": "The sentence identifies the affected tenant, housing consequence, disputed payment, and hearing deadline, giving the stakes concrete content.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/generic-pressure-or-stakes.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-315",
+      "expected": false,
+      "reason": "The colon specifies the access loss and affected records, and the administrator's export addresses that concrete consequence.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/generic-pressure-or-stakes.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-319",
+      "expected": false,
+      "reason": "The cause clause explains how missing the tide delays a specified drinking-water delivery, rather than merely adding a reason word to generic pressure.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/generic-pressure-or-stakes.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-322",
+      "expected": true,
+      "reason": "Indefinite tension grows in a generic interpersonal space without a named disagreement or consequence; the mantel description does not explain it.",
+      "evidence": [
+        "A tension grew between them."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/generic-pressure-or-stakes.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-330",
+      "expected": true,
+      "reason": "The choice is assigned greater importance without a specified outcome or comparison; the bench inventory supplies no consequence of choosing.",
+      "evidence": [
+        "The choice mattered more."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/generic-pressure-or-stakes.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-337",
+      "expected": true,
+      "reason": "The burden's magnitude is asserted without naming a cost or risk; the morning routine does not explain what is at stake.",
+      "evidence": [
+        "The burden seemed bigger than expected."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/generic-pressure-or-stakes.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-341",
+      "expected": true,
+      "reason": "Pressure occupies a generic location without a specified risk or consequence; the table setting supplies no source for it.",
+      "evidence": [
+        "The pressure hung over the table."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/generic-pressure-or-stakes.json",
+        "kind": "template",
+        "index": 1
+      }
+    }
+  ]
+}

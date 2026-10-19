@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-008",
+      "expected": false,
+      "reason": "The sensory description identifies a recorded sound and explains what its removal makes audible.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-024",
+      "expected": false,
+      "reason": "The smell has a literal source, and the coat inspection reveals disturbed pockets that prompt a search.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-038",
+      "expected": true,
+      "reason": "The mixed smell and taste imagery substitutes for specifying the alleged betrayal or the speaker's response to it.",
+      "evidence": [
+        "An aroma of betrayal rose from his words, sharp with the flavor of a door closing."
+      ]
+    },
+    {
+      "id": "holdout-069",
+      "expected": true,
+      "reason": "Texture, taste, and rain imagery replace an intelligible critical description of the production's account of exile.",
+      "evidence": [
+        "Its account of exile has the texture of amber and the aftertaste of a room remembered by rain."
+      ]
+    },
+    {
+      "id": "holdout-076",
+      "expected": false,
+      "reason": "The sensory descriptor has a defined acoustic meaning and is linked to a particular audible feature and consequence.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-095",
+      "expected": false,
+      "reason": "The smell is a literal solvent that triggers a specified autobiographical memory and washing behavior.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-123",
+      "expected": true,
+      "reason": "The counts and collection procedure are specified. Twilight's velvet hush is nevertheless used as the explanation for the difference without expressing an ecological relationship that accounts for it.",
+      "evidence": [
+        "The author interpreted the difference through the velvet hush of twilight, a sensory truth that supplied the explanation for the count."
+      ]
+    },
+    {
+      "id": "holdout-140",
+      "expected": true,
+      "reason": "The ticketed route is specific. Rain's smell is separately asserted to explain the itinerary, but dampness carrying an itinerary supplies no relationship between the sensory detail and the route taken.",
+      "evidence": [
+        "That smell was the reason the journey took the form it did, carrying the itinerary within its dampness."
+      ]
+    },
+    {
+      "id": "holdout-158",
+      "expected": true,
+      "reason": "The apartment defects and reply deadline are specific. The stated deciding factor substitutes air, resonance, and texture for a discernible evaluation of whether to rent despite those defects.",
+      "evidence": [
+        "The decision ultimately turned on a felt resonance, the way the air gathered the answer into the texture of the rooms."
+      ]
+    },
+    {
+      "id": "holdout-179",
+      "expected": false,
+      "reason": "Dust provides a physical size comparison that identifies which recorded object was removed. The sensory detail performs an explicit evidential role in the detective's reasoning.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-185",
+      "expected": true,
+      "reason": "Visit durations and the lunch arrangement are clear. Taste and briny clarity are separately offered to explain the allocation between stops without providing a scheduling reason or relationship.",
+      "evidence": [
+        "The balance between those stops was best understood as the taste of distance, a briny clarity that explained how the schedule held together."
+      ]
+    },
+    {
+      "id": "holdout-190",
+      "expected": false,
+      "reason": "The sensory contrast compares the same soup in two vessels, prompts identification of the bowl's specified use, and leads to marking it against a repeat handling mistake.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-530",
+      "expected": false,
+      "reason": "The cause clause explains both the replacement odors and the absence of the expected bakery smell.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/sensory-instead-of-frame.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-534",
+      "expected": true,
+      "reason": "The instead-of frame stacks scent nouns without identifying an odor source or explaining the substitution for bread.",
+      "evidence": [
+        "The morning market smelled of dry tea and salt instead of fresh bread."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/sensory-instead-of-frame.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-541",
+      "expected": false,
+      "reason": "The removed engine display explains the lost oil smell, while braziers and roasting leaves supply the smoke and tea odors.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/sensory-instead-of-frame.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-545",
+      "expected": false,
+      "reason": "The identified compost bucket produces both replacement odors, while the vacant fish stall explains the former expected smell.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/sensory-instead-of-frame.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    }
+  ]
+}

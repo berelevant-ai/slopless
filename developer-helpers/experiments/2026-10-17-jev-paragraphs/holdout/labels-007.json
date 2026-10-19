@@ -1,4 +1,0 @@
-{"schemaVersion":1,"family":"semantic-thinness","labels":[
-  {"id":"holdout-601","expected":false,"reason":"The text starts with '## ', making the generic solution construction an actual Markdown heading.","evidence":[],"coverage":{"file":"src/rules/semantic-thinness/patterns/generic-lesson-extraction.json","kind":"rejectIf","index":3}},
-  {"id":"holdout-602","expected":false,"reason":"The text starts with '- ', making the brief generic answer construction an actual Markdown list label.","evidence":[],"coverage":{"file":"src/rules/semantic-thinness/patterns/generic-lesson-extraction.json","kind":"rejectIf","index":3}}
-]}

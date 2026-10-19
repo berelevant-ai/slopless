@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-109",
+      "expected": false,
+      "reason": "The return measure defines treatment of distributions, fees, and taxes, then explains why the comparison must use a total-return rather than price-only index.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-144",
+      "expected": false,
+      "reason": "The timing measure states its start and substantive-reply endpoint and explains why an automated acknowledgment is excluded, preventing an administrative receipt from masquerading as an addressed complaint.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-165",
+      "expected": false,
+      "reason": "Engagement is defined through observable task-related behaviors, silent sitting is conditionally distinguished, and the reason for the rule is consistent observation rather than inference from posture.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-177",
+      "expected": false,
+      "reason": "The comparison distinguishes coupon from purchase price and explains how a premium over redemption affects the return, while holding comparison assumptions consistent across offers.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-242",
+      "expected": true,
+      "reason": "The minimised quantification never identifies what this denotes, the metric, the calculation, or the resulting value.",
+      "evidence": [
+        "The scorecard merely put a number on this."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-quantification.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-280",
+      "expected": false,
+      "reason": "Put denotes physically attaching a numbered lot label to the chair, and the location and purpose are explicit.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-quantification.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-285",
+      "expected": false,
+      "reason": "The quantification names the measured reading failure, numerator, denominator, and test position, making the number interpretable.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-quantification.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-293",
+      "expected": false,
+      "reason": "The paragraph explains the arithmetic and what the resulting estimate measures rather than leaving quantification empty.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-quantification.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    }
+  ]
+}

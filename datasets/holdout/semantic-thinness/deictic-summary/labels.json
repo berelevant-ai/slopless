@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-054",
+      "expected": false,
+      "reason": "The interpretation identifies a physical exposure pattern and links its dimensions to the blocking object.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-170",
+      "expected": false,
+      "reason": "The budget categories have explicit examples, and the balance discussion identifies reserved electricity and debt payments that explain why money above rent is not wholly discretionary.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-406",
+      "expected": true,
+      "reason": "The demonstrative question is qualified only by an abstract survival predicate, with no actual question supplied.",
+      "evidence": [
+        "This is the question that survives."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 5
+      }
+    },
+    {
+      "id": "holdout-407",
+      "expected": true,
+      "reason": "The past-tense evaluative summary names a missing piece without identifying the gap it fills.",
+      "evidence": [
+        "That was the missing piece."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-409",
+      "expected": false,
+      "reason": "The deictic sentence states the concrete decision and names Nessa's approval action and its basis.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-410",
+      "expected": true,
+      "reason": "The deictic explanation refers to a definite decision without naming that decision or its rationale.",
+      "evidence": [
+        "It explained the decision."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 11
+      }
+    },
+    {
+      "id": "holdout-411",
+      "expected": true,
+      "reason": "The deictic summary asserts a story shift without naming any changed interpretation, event, or direction.",
+      "evidence": [
+        "This shifts the story."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 7
+      }
+    },
+    {
+      "id": "holdout-415",
+      "expected": true,
+      "reason": "The kind-of construction invokes an invitation qualified only by importance, without specifying its type or what it invites.",
+      "evidence": [
+        "This was the kind of invitation that mattered."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 18
+      }
+    },
+    {
+      "id": "holdout-417",
+      "expected": true,
+      "reason": "The conversation is said to be reframed without identifying its subject or a changed interpretation.",
+      "evidence": [
+        "That reframes the conversation."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 21
+      }
+    },
+    {
+      "id": "holdout-418",
+      "expected": true,
+      "reason": "The past-tense where frame assigns the work an abstract resting place without describing a result or practice.",
+      "evidence": [
+        "This was where the work settled."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 22
+      }
+    },
+    {
+      "id": "holdout-428",
+      "expected": true,
+      "reason": "The past-tense onset metaphor asserts the beginning of an unnamed lesson without stating what was learned.",
+      "evidence": [
+        "That was where the lesson took root."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 25
+      }
+    },
+    {
+      "id": "holdout-429",
+      "expected": true,
+      "reason": "The deictic fit claim invokes an undefined contemporary world without specifying the relevant conditions or fit.",
+      "evidence": [
+        "This fits the world we are in."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 20
+      }
+    },
+    {
+      "id": "holdout-435",
+      "expected": true,
+      "reason": "The deictic meaning claim substitutes the abstract noun work for any stated task or consequence.",
+      "evidence": [
+        "This meant work."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 9
+      }
+    },
+    {
+      "id": "holdout-436",
+      "expected": true,
+      "reason": "The explanatory why clause promises a reason for trust's importance but gives none.",
+      "evidence": [
+        "This shows why trust matters."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 14
+      }
+    },
+    {
+      "id": "holdout-437",
+      "expected": true,
+      "reason": "The explanation verb points to unnamed promise without specifying an expected benefit or the basis for it.",
+      "evidence": [
+        "That shows promise."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 10
+      }
+    },
+    {
+      "id": "holdout-440",
+      "expected": true,
+      "reason": "The generic audience reaction stands in for the content of the purported reward.",
+      "evidence": [
+        "That is the reward nobody wants to hear."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 6
+      }
+    },
+    {
+      "id": "holdout-448",
+      "expected": false,
+      "reason": "The sentence names the lesson as a specific action and explains how slashing prevents the observed split.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-451",
+      "expected": true,
+      "reason": "The how frame claims an origin for engagement without showing an audience action or explaining the connection.",
+      "evidence": [
+        "That is how engagement begins."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 23
+      }
+    },
+    {
+      "id": "holdout-452",
+      "expected": true,
+      "reason": "The type-of summary praises an unspecified memorable shift without explaining its significance or identifying a type of change.",
+      "evidence": [
+        "That is the type of shift people remember."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 19
+      }
+    },
+    {
+      "id": "holdout-462",
+      "expected": true,
+      "reason": "The outer demonstrative speech claim contains a second deictic summary, leaving the alleged plan unnamed.",
+      "evidence": [
+        "That says this was the plan."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 12
+      }
+    },
+    {
+      "id": "holdout-466",
+      "expected": false,
+      "reason": "The demonstrative points to a visible, physically identified component and gives its assembly operation.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-467",
+      "expected": true,
+      "reason": "The content obligation praises memorable evidence without identifying a claim, evidence requirement, or criterion of relevance.",
+      "evidence": [
+        "That means the report has to contain evidence worth remembering."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 17
+      }
+    },
+    {
+      "id": "holdout-468",
+      "expected": true,
+      "reason": "The reason frame declares an unspecified strategy durable without stating either the strategy or a causal explanation.",
+      "evidence": [
+        "This is the reason the strategy sticks."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 26
+      }
+    },
+    {
+      "id": "holdout-470",
+      "expected": true,
+      "reason": "The why frame invokes the importance of an unspecified focus without supplying a reason.",
+      "evidence": [
+        "This is why the focus counts."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 24
+      }
+    },
+    {
+      "id": "holdout-477",
+      "expected": true,
+      "reason": "The evaluative invitation is announced through a demonstrative copula without saying what visitors are invited to do.",
+      "evidence": [
+        "This is the quiet invitation."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-478",
+      "expected": true,
+      "reason": "The past-tense deictic summary calls something the strategy without specifying an objective or how the printed emblem serves it.",
+      "evidence": [
+        "It was the strategy."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-482",
+      "expected": true,
+      "reason": "The explanatory how clause generalizes to clarity without describing a mechanism or resolving a stated confusion.",
+      "evidence": [
+        "It explains how clarity works."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 15
+      }
+    },
+    {
+      "id": "holdout-484",
+      "expected": true,
+      "reason": "The demonstrative contraction identifies an unnamed reward; the thread and handling details never say what the reward consists of.",
+      "evidence": [
+        "It's the reward."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-490",
+      "expected": true,
+      "reason": "The negative meaning frame defends an unspecified solution without providing a criterion or explanation for the judgment.",
+      "evidence": [
+        "That doesn't mean the solution is wrong."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 13
+      }
+    },
+    {
+      "id": "holdout-491",
+      "expected": true,
+      "reason": "The evaluative summary says the central question changed but supplies neither its old nor new content.",
+      "evidence": [
+        "That changed the central question."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 8
+      }
+    },
+    {
+      "id": "holdout-492",
+      "expected": true,
+      "reason": "The deictic summary is linked by yet to another abstraction, leaving the request's content unstated.",
+      "evidence": [
+        "This was the request, yet its significance extended beyond the rehearsal."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-494",
+      "expected": true,
+      "reason": "The deictic obligation requires an answer while leaving the question and required information unspecified.",
+      "evidence": [
+        "This means the article has to carry the answer."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/deictic-summary.json",
+        "kind": "template",
+        "index": 16
+      }
+    }
+  ]
+}

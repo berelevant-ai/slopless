@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-070",
+      "expected": false,
+      "reason": "The apparent stock transition is completed by named implementation tasks and the condition for changing invoice systems.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-301",
+      "expected": true,
+      "reason": "The payoff announces honest work starting without naming any work; the conference cleanup description supplies no task or deliverable for that claim.",
+      "evidence": [
+        "The honest work starts."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/real-work-begins.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-308",
+      "expected": true,
+      "reason": "A post-applause payoff announces hard work without identifying it; the map gives locations but no content to the claimed work.",
+      "evidence": [
+        "The hard work starts after the applause fades."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/real-work-begins.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-313",
+      "expected": true,
+      "reason": "The work is tied to an abstract attitude change without identifying a task; retreat arrangements leave the promised work undefined.",
+      "evidence": [
+        "The actual work begins when we learn to sit with doubt."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/real-work-begins.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-332",
+      "expected": false,
+      "reason": "The opening names concrete preparation operations and the inspection record that tracks them, giving work explicit content.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/real-work-begins.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-362",
+      "expected": false,
+      "reason": "The work names a specific signed map deliverable, its required contents, and the inspection deadline.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/real-work-begins.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-365",
+      "expected": false,
+      "reason": "The sentence gives a literal crew shift's start time and workplace, with the handover and end time establishing the job schedule.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/real-work-begins.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-387",
+      "expected": true,
+      "reason": "The retrospective where-payoff labels an undefined stage as the beginning of honest work; neither debate content nor a resulting task is reported.",
+      "evidence": [
+        "That was where the honest work began."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/real-work-begins.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-394",
+      "expected": true,
+      "reason": "The where-clause announces deeper work at an unspecified stage without naming what partners do; the handbook photograph supplies no work item.",
+      "evidence": [
+        "For a partnership, this is where the deeper work begins."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/real-work-begins.json",
+        "kind": "template",
+        "index": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-163",
+      "expected": false,
+      "reason": "The apparently empty scene is explained by a temporary market absence, corroborated by carts at the gate, and connected to a specific limit on interpreting the photograph.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-402",
+      "expected": false,
+      "reason": "The purpose clause explains the controlled dimness as a means of detecting light passing through pinholes.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-427",
+      "expected": true,
+      "reason": "The pre-state intensifier so amplifies an unexplained strangeness rather than describing it.",
+      "evidence": [
+        "The platform looked so strange."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-431",
+      "expected": true,
+      "reason": "The place receives an unsupported bare state; objects outside the porch do not describe its bareness.",
+      "evidence": [
+        "The porch seemed bare."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-438",
+      "expected": true,
+      "reason": "Quiet is treated as filling a place without an acoustic source, action, or meaningful scene detail.",
+      "evidence": [
+        "The quiet filled the courtyard."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 8
+      }
+    },
+    {
+      "id": "holdout-442",
+      "expected": true,
+      "reason": "The place undergoes an ungrounded darkening; the neighboring actions provide neither a light source nor a cause.",
+      "evidence": [
+        "The doorway went dark."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-444",
+      "expected": true,
+      "reason": "The collective transition to stillness has no stated trigger or observable behavior that explains it.",
+      "evidence": [
+        "The group went still."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-446",
+      "expected": false,
+      "reason": "The colon explains the exact furniture change and the access consequence of the altered arrangement.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "rejectIf",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-453",
+      "expected": true,
+      "reason": "A weak trailing modifier leaves the studio's purported distance without a literal measure or emotional explanation.",
+      "evidence": [
+        "The studio felt distant somehow."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-456",
+      "expected": false,
+      "reason": "The cause clause identifies the disconnected lighting circuit, and the lanterns address the resulting darkness.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-459",
+      "expected": true,
+      "reason": "The scene element afternoon is assigned blankness without a specified condition or experience.",
+      "evidence": [
+        "The afternoon seemed blank."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 5
+      }
+    },
+    {
+      "id": "holdout-476",
+      "expected": false,
+      "reason": "The state is specified by remaining physical objects and connected to the documented removal of the cupboards.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-485",
+      "expected": true,
+      "reason": "The pre-state modifier suddenly declares an unspecified change in the morning rather than describing what differs.",
+      "evidence": [
+        "The morning became suddenly different."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 7
+      }
+    },
+    {
+      "id": "holdout-500",
+      "expected": true,
+      "reason": "The trailing again asserts a recurring smallness without dimensions or an explanation of the feeling.",
+      "evidence": [
+        "The space felt small again."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/empty-scene-state.json",
+        "kind": "template",
+        "index": 6
+      }
+    }
+  ]
+}

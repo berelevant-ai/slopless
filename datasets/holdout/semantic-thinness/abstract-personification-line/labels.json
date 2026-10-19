@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-511",
+      "expected": true,
+      "reason": "Regret is made to seize control of a review without identifying a regretted act or the reviewer's resulting behavior.",
+      "evidence": [
+        "Regret took over the review."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/abstract-personification-line.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-523",
+      "expected": false,
+      "reason": "Doubt is the title of a physical sculpture, and its dimensions create a literal allocation problem with a specified alternative location.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/abstract-personification-line.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-528",
+      "expected": false,
+      "reason": "The permit requirement and immediate evacuation operation provide a specific legal and safety reason for excluding debate.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/abstract-personification-line.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-546",
+      "expected": true,
+      "reason": "Hope acts as an entrant into a meeting without a proposal, event, or action that could cause hope.",
+      "evidence": [
+        "Hope entered the meeting."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/abstract-personification-line.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-566",
+      "expected": true,
+      "reason": "Doubt is excluded from a schedule as though it were an appointment, without a logistical reason or concrete competing demand.",
+      "evidence": [
+        "Doubt had no place in his schedule."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/abstract-personification-line.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-585",
+      "expected": true,
+      "reason": "Certainty is treated as a social actor moving through a call without naming any proposition or reason for certainty.",
+      "evidence": [
+        "Certainty moved through the call."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/abstract-personification-line.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-592",
+      "expected": false,
+      "reason": "The cause clause states the reported collapse and endangered workers, followed by the chair's concrete emergency response.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/abstract-personification-line.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    }
+  ]
+}

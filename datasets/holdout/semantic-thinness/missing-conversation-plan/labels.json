@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-529",
+      "expected": false,
+      "reason": "A concrete missing link, its source article, its destination form, and its placement resolve the planning gap.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/missing-conversation-plan.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-531",
+      "expected": true,
+      "reason": "The is-missing/after construction identifies an abstract journey rather than a missing destination, query, or customer decision.",
+      "evidence": [
+        "The keyword plan is missing the journey after the click."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/missing-conversation-plan.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-537",
+      "expected": true,
+      "reason": "The is-missing/beyond construction leaves the conversation path and follow-up question unspecified despite the geographic details.",
+      "evidence": [
+        "The SEO plan is missing the conversation path beyond the first question."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/missing-conversation-plan.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-563",
+      "expected": false,
+      "reason": "The missing conversation is literal recorded interview speech, and the export cutoff explains the omission and required recovery.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/missing-conversation-plan.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-571",
+      "expected": true,
+      "reason": "The lacks/after construction announces an unspecified next step without naming a missing asset, link, query, or decision.",
+      "evidence": [
+        "The strategy lacks the next step after the search."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/missing-conversation-plan.json",
+        "kind": "template",
+        "index": 2
+      }
+    }
+  ]
+}

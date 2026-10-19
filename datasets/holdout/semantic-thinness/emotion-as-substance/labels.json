@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-009",
+      "expected": false,
+      "reason": "Dread and embarrassment are tied to a specific broken promise, attempted excuse, and response.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-016",
+      "expected": true,
+      "reason": "Disappointment is rendered as a flowing substance without specifying its object or adding an informative physical response.",
+      "evidence": [
+        "Disappointment seeped through her in thick bands, pooling beneath the surface of her resolve."
+      ]
+    },
+    {
+      "id": "holdout-071",
+      "expected": true,
+      "reason": "The sadness is described as a thickening and spilling substance without a specified concern or informative physical manifestation.",
+      "evidence": [
+        "A weightless sadness thickened inside her, spilling into the corners of her being."
+      ]
+    },
+    {
+      "id": "holdout-072",
+      "expected": false,
+      "reason": "Energy storage and release are physical mechanisms connected to component behavior and a limiting condition.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-092",
+      "expected": false,
+      "reason": "The spreading substance is literal ink with a physical source and cleanup actions, rather than an emotion treated as fluid.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-100",
+      "expected": true,
+      "reason": "Unease is rendered as a dense internal current through abstract chambers rather than an informative thought or bodily response.",
+      "evidence": [
+        "Unease gathered into a dense current behind his ribs and flowed through the chambers of his uncertainty."
+      ]
+    },
+    {
+      "id": "holdout-118",
+      "expected": true,
+      "reason": "The sale and retained ruler are specific actions. An unnamed emotional weight is then treated as a full explanation for selling, without articulating the motive it supposedly explains.",
+      "evidence": [
+        "Packing the ruler gave the afternoon an emotional weight, and that weight fully explained my decision to sell."
+      ]
+    },
+    {
+      "id": "holdout-130",
+      "expected": false,
+      "reason": "The apparent emotional-weight metaphor is grounded in carrying two shopping bags without the father's help. The changed shopping routine identifies both the recurring problem and its practical resolution.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-199",
+      "expected": true,
+      "reason": "The photograph's discovery and subsequent preservation and inquiry are concrete. A density of feeling is separately used to explain an earlier departure without identifying a feeling or motive connecting the discovery to that decision.",
+      "evidence": [
+        "The discovery drew the afternoon into a density of feeling, and that density explained why I had left the town twenty years earlier."
+      ]
+    },
+    {
+      "id": "holdout-503",
+      "expected": true,
+      "reason": "Bare confusion is portrayed as material melting out of eyes, with no explanation of what was confusing or what resolved it.",
+      "evidence": [
+        "Confusion melted out of their eyes."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-508",
+      "expected": true,
+      "reason": "The emotion travels through a social event without identifying any shaming act or participants' concrete responses.",
+      "evidence": [
+        "Shame moved through the review."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 6
+      }
+    },
+    {
+      "id": "holdout-521",
+      "expected": false,
+      "reason": "The cause clause states that all missing divers returned, supplying a specific cause for the crew's relief.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-535",
+      "expected": true,
+      "reason": "Definite dread with finally is treated as a substance leaving a voice; no event or vocal change explains the release.",
+      "evidence": [
+        "The dread finally drained out of his voice."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-553",
+      "expected": true,
+      "reason": "Regret is suspended over a place without any regretted action, cause, or observable response.",
+      "evidence": [
+        "Regret hung over the table."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-557",
+      "expected": true,
+      "reason": "The pooled-at-the-edges construction turns dread and a decision into substance and container without stating the feared outcome.",
+      "evidence": [
+        "Dread pooled at the edges of the decision."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 7
+      }
+    },
+    {
+      "id": "holdout-558",
+      "expected": true,
+      "reason": "The definite emotion is made to settle out of posture without a cause or an observable postural change.",
+      "evidence": [
+        "The shame settled out of her posture."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-560",
+      "expected": false,
+      "reason": "The certificate handoff and confirmed test result identify the concrete action causing relief.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-561",
+      "expected": true,
+      "reason": "Guilt enters a conversation through a physical-change simile, but no speech, action, or cause gives the emotion content.",
+      "evidence": [
+        "Guilt entered the conversation like a temperature change."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 8
+      }
+    },
+    {
+      "id": "holdout-570",
+      "expected": true,
+      "reason": "An abstract regret tightens inside a body without identifying a regretted act or a literal physical symptom.",
+      "evidence": [
+        "Regret tightened in his chest."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 9
+      }
+    },
+    {
+      "id": "holdout-572",
+      "expected": true,
+      "reason": "Hope is physicalized as a coil inside the chest without a named hope, cause, or bodily symptom.",
+      "evidence": [
+        "Hope coiled in his chest."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 5
+      }
+    },
+    {
+      "id": "holdout-586",
+      "expected": true,
+      "reason": "Certainty moves over a person like a physical substance, while the paragraph never identifies what she became certain about.",
+      "evidence": [
+        "Certainty rolled over her."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-595",
+      "expected": false,
+      "reason": "The moving substance is literal water vapor, with its source and condensation described.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/emotion-as-substance.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    }
+  ]
+}

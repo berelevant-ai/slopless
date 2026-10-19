@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-040",
+      "expected": false,
+      "reason": "The trembling obstructs a specific task and causes compensating movements and a subsequent report of exhaustion.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-067",
+      "expected": false,
+      "reason": "The bodily response is connected to a precise expectation of anonymity and the event that defeats it.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-089",
+      "expected": false,
+      "reason": "The bodily observation diagnoses excessive grip pressure and leads to specified adjustments in technique and blade setting.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-312",
+      "expected": true,
+      "reason": "The sinking heart is an emotional shorthand without a named thought, fear, or resulting choice; the page and garden description do not resolve it.",
+      "evidence": [
+        "His heart sank."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-324",
+      "expected": true,
+      "reason": "Caught breath stands in for an unidentified emotional response; the diary's furnishings and interrupted description never identify its cause.",
+      "evidence": [
+        "My breath caught in my throat."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "template",
+        "index": 5
+      }
+    },
+    {
+      "id": "holdout-335",
+      "expected": false,
+      "reason": "The cold stomach has a specific thought and fear: a border comparison could expose her forged signature.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-343",
+      "expected": true,
+      "reason": "A stock hollow-chest sensation substitutes for a thought or emotion; the lodging routine supplies no cause or consequence for that sensation.",
+      "evidence": [
+        "My chest felt hollow."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-344",
+      "expected": true,
+      "reason": "The chest-as-ice comparison substitutes for an unspecified feeling; the view supplies no physical cause, thought, or consequence.",
+      "evidence": [
+        "His chest felt like ice."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-361",
+      "expected": false,
+      "reason": "The cause clause identifies the straps' physical pull, and the adjustment's effect confirms that explanation of the sensation.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-364",
+      "expected": true,
+      "reason": "The recurrent stomach knot carries unspecified emotion; copying a flower is not presented as a response to the sensation or an explanation for it.",
+      "evidence": [
+        "Her stomach knotted again."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-369",
+      "expected": true,
+      "reason": "The lightweight badge is given metaphorical heaviness without identifying its emotional meaning; folding the program is not linked to relieving that burden.",
+      "evidence": [
+        "The cloth badge on my chest felt like lead."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-374",
+      "expected": false,
+      "reason": "The narrator takes a concrete action in response to the sensation and reports the recovered swallowing needed to resume reading.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-399",
+      "expected": false,
+      "reason": "The body-emotion phrase is quoted character dialogue and explicitly analyzed through the missing passenger rather than adopted as narration.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/body-emotion-shorthand.json",
+        "kind": "rejectIf",
+        "index": 3
+      }
+    }
+  ]
+}

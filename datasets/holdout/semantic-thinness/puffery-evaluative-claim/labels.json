@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-005",
+      "expected": true,
+      "reason": "The praise asserts exceptional historical stature without explaining an achievement beyond the described bookkeeping requirement.",
+      "evidence": [
+        "That requirement deserves recognition as a towering achievement of its age."
+      ]
+    },
+    {
+      "id": "holdout-017",
+      "expected": true,
+      "reason": "The claim of exalted standing has no stated basis or consequence; the surrounding usability observations do not establish it.",
+      "evidence": [
+        "It belongs in the highest company of books that command our respect."
+      ]
+    },
+    {
+      "id": "holdout-032",
+      "expected": false,
+      "reason": "The prestigious title is given a defined institutional meaning and used to establish contract eligibility.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-036",
+      "expected": true,
+      "reason": "The sentence upgrades the research's standing without identifying an advance or a basis for distinction.",
+      "evidence": [
+        "The setup announces the arrival of research on a more distinguished plane."
+      ]
+    },
+    {
+      "id": "holdout-063",
+      "expected": true,
+      "reason": "The historical stature claim supplies no consequence or criterion that makes the opening worthy of such praise.",
+      "evidence": [
+        "With that ribbon cut, the town entered a chapter worthy of the ages."
+      ]
+    },
+    {
+      "id": "holdout-086",
+      "expected": true,
+      "reason": "The claim of exceptional civic standing lacks a criterion or consequence that establishes the asserted prestige.",
+      "evidence": [
+        "This puts the administration among the select few that have truly risen to the stature of public service."
+      ]
+    },
+    {
+      "id": "holdout-098",
+      "expected": false,
+      "reason": "The attributed prestige claim is bounded to a series and explained by a new pairing of documents and its reading benefit.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-148",
+      "expected": false,
+      "reason": "Unreliability is attributed to the operator and quantified by completed crossings, with cancellation causes separated and a gauge reading tied to the main recurring cause.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-311",
+      "expected": true,
+      "reason": "The comparative judgment names neither a truthfulness criterion nor a substantive distinction; handling the proposals does not explain greater honesty.",
+      "evidence": [
+        "The second approach is more honest."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 12
+      }
+    },
+    {
+      "id": "holdout-316",
+      "expected": true,
+      "reason": "The bulletin is said to show value without stating a result or benefit of the method; paper choices leave that evaluation empty.",
+      "evidence": [
+        "The bulletin shows the significant value of the mentoring method."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 8
+      }
+    },
+    {
+      "id": "holdout-317",
+      "expected": true,
+      "reason": "An abstract quality is assigned a poor business yield without defining the input, outcome, or relationship; newsletter layout adds no basis.",
+      "evidence": [
+        "Visibility has a poor yield in retail consulting."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 13
+      }
+    },
+    {
+      "id": "holdout-320",
+      "expected": false,
+      "reason": "The evaluative phrase is explicitly attributed to a named review and discussed through the choreography it describes.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-321",
+      "expected": true,
+      "reason": "Prestige and permanent industry-wide impact are asserted without identifying an engineering change; visitor arrangements provide no basis for the praise.",
+      "evidence": [
+        "The celebrated engineer redefined the rail industry forever."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-323",
+      "expected": true,
+      "reason": "Devastation is claimed without specifying any affected booking, income, or participant; the ticket office description gives no consequence of cancellation.",
+      "evidence": [
+        "The cancellation had a devastating impact on the festival circuit."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 11
+      }
+    },
+    {
+      "id": "holdout-336",
+      "expected": false,
+      "reason": "A specified report and matched exposure comparison supply a concrete basis for the lantern's first-place evaluation.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-342",
+      "expected": true,
+      "reason": "The service is called an unprecedented advance without an identified capability or comparison; screen layout does not substantiate the claim.",
+      "evidence": [
+        "The reservation service represents an unprecedented advance."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-345",
+      "expected": false,
+      "reason": "The comparison identifies the required stock, each printer's behavior, and the resulting packing task, establishing the claimed usefulness.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-347",
+      "expected": true,
+      "reason": "The update is credited with the best process without a comparison or criterion; the location of release notes does not identify an improvement.",
+      "evidence": [
+        "The update created the best version of the booking process."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-350",
+      "expected": true,
+      "reason": "Visionary status is asserted without describing an educational approach or result; enrollment materials do not justify the praise.",
+      "evidence": [
+        "The tutoring service is a visionary approach to adult education."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 10
+      }
+    },
+    {
+      "id": "holdout-352",
+      "expected": true,
+      "reason": "The masterpiece judgment supplies no design criterion or supporting performance; packaging contents do not establish design quality.",
+      "evidence": [
+        "The folding trolley is a masterpiece of industrial design."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-368",
+      "expected": true,
+      "reason": "Excellence and universal benefit are asserted without describing a capability or member outcome; the leaflet's contents do not justify either evaluation.",
+      "evidence": [
+        "The cooperative delivered excellent infrastructure for every member."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 6
+      }
+    },
+    {
+      "id": "holdout-372",
+      "expected": true,
+      "reason": "The review is invoked as demonstrating importance without reporting a finding or relationship; storage and binding details do not supply evidence.",
+      "evidence": [
+        "The review clearly demonstrates the vital importance of the outreach framework."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 7
+      }
+    },
+    {
+      "id": "holdout-375",
+      "expected": true,
+      "reason": "The arrival of a golden standard is promotional praise without a scheduling capability or benchmark; event logistics leave the evaluation unsupported.",
+      "evidence": [
+        "The golden standard for laboratory scheduling has arrived."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-377",
+      "expected": true,
+      "reason": "The reopening is labeled a special achievement without identifying what was achieved; directions and printing details provide no achievement criterion.",
+      "evidence": [
+        "The reopening marks a very special achievement."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 5
+      }
+    },
+    {
+      "id": "holdout-397",
+      "expected": true,
+      "reason": "Success is evaluated without a migration outcome or acceptance criterion; meeting hospitality does not establish whether the migration succeeded.",
+      "evidence": [
+        "The migration was a remarkable success."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "template",
+        "index": 9
+      }
+    },
+    {
+      "id": "holdout-603",
+      "expected": false,
+      "reason": "The success judgment is resolved by concrete trial measurements: reduced gas consumption with unchanged output and rejection rate across 40 firing cycles in September 2026.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/puffery-evaluative-claim.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    }
+  ]
+}

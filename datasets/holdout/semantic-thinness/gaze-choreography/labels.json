@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-004",
+      "expected": true,
+      "reason": "The sequence of looks and hand movements supplies staging without an observation, decision, or consequence.",
+      "evidence": [
+        "His eyes went from the parcel to the carpet, then settled somewhere between them. He shifted the position of his hands and took in the room once more."
+      ]
+    },
+    {
+      "id": "holdout-019",
+      "expected": false,
+      "reason": "The gaze tracks a reflected theft and directly explains the character's subsequent actions.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-056",
+      "expected": true,
+      "reason": "The local pause, eye movements, and shoulder adjustment add empty staging between specified delivery and repair actions.",
+      "evidence": [
+        "There was a little interval of stillness; his eyes rested, moved, and rested again, while his shoulders made their small adjustment to the moment."
+      ]
+    },
+    {
+      "id": "holdout-062",
+      "expected": false,
+      "reason": "The gaze shift causes a missed traffic observation and a concrete evasive maneuver.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-079",
+      "expected": false,
+      "reason": "Looking and tracing reveal a handwriting discrepancy that motivates comparison and a call resolving who wrote the address.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-085",
+      "expected": true,
+      "reason": "The looking and self-adjustment describe a pause without revealing anything seen or explaining the subsequent destination choice.",
+      "evidence": [
+        "I gave my eyes a moment to travel, let them come to rest, and adjusted myself against the feeling of the pause."
+      ]
+    },
+    {
+      "id": "holdout-108",
+      "expected": false,
+      "reason": "The gaze locates the concealed envelope and risks drawing the inspector's attention. The narrator's window request is an identifiable attempt to redirect that attention.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-113",
+      "expected": true,
+      "reason": "The chairwoman is asked to identify an approved bid. Stillness and eye movements are presented as a complete answer while conveying neither the bid nor an interpretable reason for her response.",
+      "evidence": [
+        "The room settled into a stillness that was both the waiting and the shape of the answer.",
+        "Her gaze moved once more, and that movement completed what needed to be understood about the decision."
+      ]
+    },
+    {
+      "id": "holdout-143",
+      "expected": false,
+      "reason": "Watching the cashier's hands allows the narrator to distinguish two piles associated with different transactions and check each against its corresponding receipt.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-166",
+      "expected": true,
+      "reason": "The letter and eye movements are physical details. The paragraph treats gaze as an entire explanation of unspecified news and expands pressure recursively instead of conveying what was learned or felt.",
+      "evidence": [
+        "the shift held the entire explanation of the news",
+        "The room took on the pressure of everything that pressure could hold."
+      ]
+    },
+    {
+      "id": "holdout-325",
+      "expected": false,
+      "reason": "The eye movement has a named search goal and a location choice tied to how the missing lid could have traveled.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/gaze-choreography.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-355",
+      "expected": true,
+      "reason": "Eye movement along the print replaces an actual observation; the catalog's condition supplies neither a clue in the print nor a decision.",
+      "evidence": [
+        "She traced the print with her eyes."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/gaze-choreography.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-356",
+      "expected": false,
+      "reason": "The gaze construction is specifically attributed quoted dialogue, with the observed scarf and the missed exchange discussed as its function.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/gaze-choreography.json",
+        "kind": "rejectIf",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-366",
+      "expected": true,
+      "reason": "Gaze acts as a moving camera over a generic target; the town panorama supplies neither a selected clue nor a deliberate search.",
+      "evidence": [
+        "Her gaze tracked the rooftops."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/gaze-choreography.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-373",
+      "expected": false,
+      "reason": "The gaze selects a specific clue, exposed wood at a pried latch, and leads to preserving that evidence.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/gaze-choreography.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-381",
+      "expected": true,
+      "reason": "Following another person's gaze leads to an unspecified view of the yard; breakfast arrangements identify no observation or reaction.",
+      "evidence": [
+        "We followed his gaze to the yard."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/gaze-choreography.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-396",
+      "expected": false,
+      "reason": "Looking is directly followed by a physical intervention whose effect is specified, so the beat carries action beyond camera movement.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/gaze-choreography.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-400",
+      "expected": true,
+      "reason": "The eyes move between generic surfaces without an observation or decision; the still-life details do not explain the movement.",
+      "evidence": [
+        "Their eyes traveled from the window to the floor."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/gaze-choreography.json",
+        "kind": "template",
+        "index": 1
+      }
+    }
+  ]
+}

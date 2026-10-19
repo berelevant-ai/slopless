@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "family": "semantic-thinness",
+  "labels": [
+    {
+      "id": "holdout-048",
+      "expected": false,
+      "reason": "Silence is paired with a specific gesture, interpreted as a refusal, and followed by consequential decisions.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-176",
+      "expected": false,
+      "reason": "The silence is initially misread, then explained by an empty hearing-aid battery compartment. Written communication resolves the specific failure to hear the earlier call.",
+      "evidence": []
+    },
+    {
+      "id": "holdout-183",
+      "expected": true,
+      "reason": "The coach's gaze and pause follow the announced result, but the paragraph presents the pause's shape and the hall's settling as the full story of defeat without conveying how it occurred.",
+      "evidence": [
+        "A pause entered the hall, holding the explanation in the shape of its own duration.",
+        "The hall settled around the pause, and in that settled quality the full story of the defeat became apparent."
+      ]
+    },
+    {
+      "id": "holdout-432",
+      "expected": true,
+      "reason": "The turned construction makes quiet crowded without naming sounds, people, or an emotional cause.",
+      "evidence": [
+        "The quiet turned crowded."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "template",
+        "index": 3
+      }
+    },
+    {
+      "id": "holdout-434",
+      "expected": false,
+      "reason": "Quiet is a direct instruction whose acoustic purpose is explained by masking of the test tone.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "rejectIf",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-439",
+      "expected": true,
+      "reason": "The human ability claim assigns intention to quiet without naming an action that creates or sustains it.",
+      "evidence": [
+        "She could make the quiet feel deliberate."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "template",
+        "index": 6
+      }
+    },
+    {
+      "id": "holdout-447",
+      "expected": false,
+      "reason": "The paragraph identifies the fan bearing as the sound source and verifies it by switching the fan off.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "rejectIf",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-454",
+      "expected": true,
+      "reason": "The became construction assigns deliberate arrangement to silence without anyone arranging a pause or controlling sound.",
+      "evidence": [
+        "The silence became arranged."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "template",
+        "index": 2
+      }
+    },
+    {
+      "id": "holdout-460",
+      "expected": true,
+      "reason": "Silence receives an activity-like quality without audible events or an explanation of the judgment.",
+      "evidence": [
+        "The silence seemed busy."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "template",
+        "index": 1
+      }
+    },
+    {
+      "id": "holdout-471",
+      "expected": true,
+      "reason": "The past-perfect change is explained only by a generic manner comparison, leaving the cause and sound conditions unstated.",
+      "evidence": [
+        "The hall had gone quiet in the way halls do."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "template",
+        "index": 5
+      }
+    },
+    {
+      "id": "holdout-473",
+      "expected": true,
+      "reason": "The deictic only-made frame attributes loudness to silence without explaining an acoustic or emotional connection to the bags.",
+      "evidence": [
+        "This only made the silence feel loud."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "template",
+        "index": 4
+      }
+    },
+    {
+      "id": "holdout-479",
+      "expected": true,
+      "reason": "The negative copular claim leaves the quiet's incompleteness undefined and supplies no sound source.",
+      "evidence": [
+        "The quiet was not complete."
+      ],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "template",
+        "index": 0
+      }
+    },
+    {
+      "id": "holdout-493",
+      "expected": false,
+      "reason": "Quiet names a measured recording interval, with the measurement procedure and comparison purpose specified.",
+      "evidence": [],
+      "coverage": {
+        "file": "src/rules/semantic-thinness/patterns/silence-as-actor.json",
+        "kind": "rejectIf",
+        "index": 1
+      }
+    }
+  ]
+}
