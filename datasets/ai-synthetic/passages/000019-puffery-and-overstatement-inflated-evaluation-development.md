@@ -800,3 +800,310 @@ Missing that sales meeting has permanently destroyed his prospects in this indus
 
 For parents choosing a tutor, the answer is clear: Nadia is the best in the business. She sends a weekly email and keeps a spare pencil ready for every lesson.
 
+## 000019-201
+
+For a more honest account of the strike, read Doyle's newsletter.
+
+## 000019-202
+
+I prefer this strike diary; the writer admits when he gets a date wrong.
+
+## 000019-203
+
+For diners concerned about sustainability, Nera is a more responsible choice than the other restaurants nearby.
+
+## 000019-204
+
+The washable menus are more practical for our terrace: we can wipe off spilled drinks.
+
+## 000019-205
+
+For pupils starting secondary school, this workbook offers a more effective route into algebra than classroom lessons.
+
+## 000019-206
+
+For practicing fractions, this sheet is more useful: it includes worked answers to every question.
+
+## 000019-207
+
+The reopened practice offers better clinical care than the established providers in the area.
+
+## 000019-208
+
+I like the clinic's plain envelopes; I would rather my neighbors couldn't identify the sender.
+
+## 000019-209
+
+A handmade mug is a more thoughtful birthday gift than a novel.
+
+## 000019-210
+
+I'd choose the blue wrapping paper myself; it reminds me of my grandmother's kitchen.
+
+## 000019-211
+
+Adding a balcony makes the flats a sounder investment for retirement.
+
+## 000019-212
+
+This flat suits my retirement plans better: the lift reaches my floor without any steps.
+
+## 000019-213
+
+The new episode titles give the podcast a more serious voice in public debate.
+
+## 000019-214
+
+The chapter markers are useful on my commute; I can resume at the next interview.
+
+## 000019-215
+
+This year's new badge puts the club's competitive prospects on a firmer footing.
+
+## 000019-216
+
+Our prospects look better with Ellis back; she scored half our goals before her injury.
+
+## 000019-217
+
+Support teams deserve a more dependable tool than the familiar help desk packages. Our application is that tool. Annual plans are available from Monday, with monthly billing to follow.
+
+## 000019-218
+
+For our offline help desk, the desktop edition is the more practical choice. It keeps the queue on the laptop, so staff can still assign tickets during a network outage.
+
+## 000019-219
+
+Turner's history arrives with a new foreword and a cloth binding. It offers a more honest understanding of the occupation than the existing accounts, and deserves a place on the reading list.
+
+## 000019-220
+
+The revised foreword gives a more honest account of the author's role. It acknowledges that she signed the eviction order, which the first edition described as someone else's decision.
+
+## 000019-221
+
+Applications for the engineering team close on Friday. Join us for a more rewarding career than you would find at an established firm. Interviews take place at our offices in November.
+
+## 000019-222
+
+The revised interview schedule is more practical for our night staff. They can book a slot after their shift instead of coming back to the office in the afternoon.
+
+## 000019-223
+
+The booking agent calls the coach a more sensible option than the train for business trips. We agree, and have made it our recommended choice in the travel newsletter.
+
+## 000019-224
+
+I found the tram more pleasant than the replacement bus. I could sit beside an open window, and the ride didn't leave me feeling sick.
+
+## 000019-225
+
+The dance company will open its season in October. This program will contribute more to the city's cultural life than the established theater's season, and deserves a larger share of the arts budget.
+
+## 000019-226
+
+The grant is important for this production: it pays the interpreter whose signed performance allows our deaf cast member to share the stage with the speaking actors.
+
+## 000019-227
+
+Our detergent comes in three fragrances, with refill packs available online. Choosing it is a more responsible way to clean your home than buying the other brands on the shelf.
+
+## 000019-228
+
+The refill pouch uses less plastic than the rigid bottle it replaces. Both hold the same volume, and the packaging weights printed beside them exclude their identical caps.
+
+## 000019-229
+
+The firm has moved opposite the courthouse. For someone facing a dispute, why settle for the larger practices when these lawyers offer more capable representation? Initial appointments are available on Tuesdays.
+
+## 000019-230
+
+The new room is better for our confidential calls. Its door closes, and the sound test showed that someone sitting in reception could no longer hear a normal conversation.
+
+## 000019-231
+
+The collection has recipes for breakfast, lunch, and supper, with photographs from the author's kitchen. It offers a more nourishing approach to family meals than the supermarket magazine does.
+
+## 000019-232
+
+I prefer the tomato version of this sauce to the cream one. The sharpness works better for my taste, particularly when I'm serving it with the fried aubergines.
+
+## 000019-233
+
+The paper appears in the October special issue, alongside studies from three other laboratories. Its scientific importance exceeds theirs, making it the paper that should guide the field's next round of funding.
+
+## 000019-234
+
+The correction is important to the dose calculation. The original table labeled milligrams as grams; anyone using that unit would calculate a dose a thousand times larger.
+
+## 000019-235
+
+Join the walk beside the fountain at ten. The guide calls it a more meaningful encounter with the city than the established tours, and that is how we recommend it to guests.
+
+## 000019-236
+
+The revised route is more practical with our pushchair. It uses the ramp behind the fountain and rejoins the old route beyond the steps, without adding a road crossing.
+
+## 000019-237
+
+You should send your children to Briar House. I drove past it yesterday; they have replaced the sign at the gate. It's a better school than the one you're considering.
+
+## 000019-238
+
+I'd rather stay with the local class this term. I know the teacher, and the walk home gives me a chance to talk to my daughter without rushing for a bus.
+
+## 000019-239
+
+The trio's new album was recorded in a converted chapel and comes out on Thursday. It offers listeners less musical value than the pianist's solo record, which we recommend buying instead.
+
+## 000019-240
+
+The live mix is less useful for learning the bass part. Applause covers the opening notes, while on the studio recording I can hear where each phrase begins.
+
+## 000019-241
+
+Orders have fallen again, but the team has kept its enthusiasm through a difficult quarter. That spirit puts the business on a firmer path to profitability in the months ahead.
+
+## 000019-242
+
+If the signed maintenance contracts start in May, the repair desk should cover its rent. Their monthly fees exceed the rent even after the scheduled technician hours are paid.
+
+## 000019-243
+
+The winter appeal opens next week, with collection boxes in the shops. Supporting this fund is a more effective use of a donation than giving to the neighborhood pantry.
+
+## 000019-244
+
+The pantry is a useful place for this surplus rice. Its volunteers cook lunches on site, whereas the shelter we called can accept only individually packed meals.
+
+## 000019-245
+
+The Chronicle has hired a designer to rearrange its opinion pages. Letters now run beside the editorial, and contributors' photographs appear above their names. Readers seeking a more honest account of local politics than the rival paper provides should subscribe to us. The first issue with the new layout will be delivered on Wednesday, with the usual council report on page six.
+
+## 000019-246
+
+The Gazette's correction gives a more honest account of what happened at the hearing. Its first report said the tenant had failed to appear. The correction explains that the court sent the notice to her previous address and acknowledges that the reporter had read only the landlord's statement. I would link to the corrected version in our case summary.
+
+## 000019-247
+
+The cooperative's new sacks carry a photograph of the farm and a short message from the grower. They will be available beside the usual potatoes at the market this weekend. Buying this crop is a more practical answer to rural poverty than supporting the training scheme run by the neighboring county. The sacks come in two sizes, both with carrying handles.
+
+## 000019-248
+
+For our small orchard, repairing the existing pump is more practical than fitting the proposed replacement. The replacement needs a three phase supply, and the nearest connection is across a field we rent for only one more season. The mechanic can fit a new seal to the old pump before watering begins. We can reconsider the larger machine when the lease is settled.
+
+## 000019-249
+
+The museum has bought a second desk from a dealer in the next county. It has brass handles, a leather writing surface, and a drawer lined with blue paper. This acquisition is more important to the history of working life than the collection of wage books donated last spring. Visitors will see it in the entrance hall while the upstairs gallery is being painted.
+
+## 000019-250
+
+The wage books are especially useful for our question about seasonal employment. Each entry gives the worker's name, days worked, and payment, so we can track when the same people returned at harvest. The desk tells us about the manager's workspace, but it cannot answer that question. We will display both beside a calendar showing the work recorded through the year.
+
+## 000019-251
+
+The care agency has changed its name to Hearth. Its director says the new identity reflects the atmosphere she wants to create. She describes private care as a more caring decision for an older relative than arranging help through the council, and we share that view. The office is taking bookings from Monday, and the telephone number remains the same.
+
+## 000019-252
+
+For Dad, the morning visit is more useful than the evening one. He needs help with his socks before the transport arrives, and I am already home when he takes his evening tablets. We asked the agency to move the hour rather than increase it. On days when the clinic changes his pickup time, I will call to adjust the visit.
+
+## 000019-253
+
+Leah put the manuscript in a green folder. She had ordered heavier paper for the copies going to publishers, and Martin helped her count the pages. He had seen the list of chapter titles; that was enough to tell him hers was a more accomplished novel than the one that had won the regional prize. He slid the pages back into the folder and asked when she would post them.
+
+## 000019-254
+
+Leah liked the new ending better. In the earlier draft, the sisters settled their argument in a speech that sounded to her like something from a television drama. Now they put the kitchen back in order, each leaving space for the other at the sink. That felt closer to the family she had been trying to write, and she stopped revising for the evening.
+
+## 000019-255
+
+The town's emergency plan has been reprinted in a smaller format. Copies will be left in the foyer after Thursday's meeting. The mayor describes the plan as providing better flood protection than residents receive across the river, and the council's leaflet repeats that assessment. The printer will deliver a second box to the community center, where volunteers can collect them.
+
+## 000019-256
+
+The raised platform offers better flood protection for the electrical controls than the old cabinet position. Its floor is above the highest water level recorded in the pump house, and the cable entries are sealed. The engineer recommends moving the controls before the wet season. We have included the survey level and the cabinet drawings with the contractor's instructions.
+
+## 000019-257
+
+The language app offers lessons in Italian, French, and German. Users can complete one on the way to work or save it until the evening. For adults planning to work abroad, it provides more useful preparation than an evening class. Existing subscribers will receive the new edition automatically next week; the annual subscription and the price of additional languages will stay the same.
+
+## 000019-258
+
+For rehearsing the conversations at our reception desk, the evening class has been more useful to me than the vocabulary app. We practice taking a caller's details and asking them to repeat a surname, and my partner sometimes answers in an unexpected way. I still use the app to remember individual words on the bus, but the class lets me practice responding to a person.
+
+## 000019-259
+
+The credit union has added the manager's photograph to its account leaflet. She writes that moving your savings here will do more for your financial future than keeping them at the building society down the road. That is our advice to members considering a transfer this month. An open afternoon is planned for Saturday, with tea served at the back of the banking hall.
+
+## 000019-260
+
+For the emergency fund, the instant access account is more practical than the fixed term deposit. We may need the money for a boiler repair before the winter ends, and the deposit charges a withdrawal fee during its first year. The instant access rate is lower, but the treasurer wants the full balance available when the plumber sends an invoice.
+
+## 000019-261
+
+The property team has received two proposals for the heating service. One is from our current contractor, and the other came through the housing association. The association's offer is a less practical option for keeping the buildings warm, so the current contractor should retain the work. I have put both documents in the meeting pack and left space on the agenda for the vote.
+
+## 000019-262
+
+A rejected promotion teaches leadership's most valuable lesson: listening matters more than the title on your door.
+
+## 000019-263
+
+The missed handover taught me the placement's most useful lesson: name who owns each unfinished task.
+
+## 000019-264
+
+Scientific progress owes its most valuable advances to experiments that fail. A successful run confirms a prediction; a ruined one opens questions of a higher order than success can ever reach.
+
+## 000019-265
+
+In this filtration project, the failed batch produced our most useful design change. Cracks around the seal showed where material escaped; replacing the rigid collar stopped the leaks in the repeat run.
+
+## 000019-266
+
+A writer's most valuable discoveries wait in the gaps between errands. Ten minutes in a checkout queue can teach more about human nature than a year spent working at a desk.
+
+## 000019-267
+
+The checkout queue gave me the most useful detail for this scene. A man kept putting his purchases down to answer his phone; that gesture let me show the character's anxiety without naming it.
+
+## 000019-268
+
+We restored service before midnight and have put the rollback notes in the incident folder. The most important advances in reliable software are born in failed deployments. Smooth releases teach procedures; a rollback develops the judgment that successful launches cannot provide. The engineering meeting will use yesterday's sequence as its opening case, before we discuss the next release date.
+
+## 000019-269
+
+Of the three recovery exercises this month, the failed restore gave us the most valuable lesson. It showed that the backup used a key the recovery account could not open. The other two exercises had used an administrator account, hiding the problem. We have now repeated the restore with the restricted account and included key access in the checklist.
+
+## 000019-270
+
+A badly taught lesson is the richest education a teacher can get. Success can polish classroom routines, but a difficult hour teaches what learning means at a level that training courses cannot match.
+
+## 000019-271
+
+The most useful lesson of my first placement came from a stalled reading exercise. Pupils could sound out the words but couldn't explain the sentence, so I began checking meaning before asking them to continue.
+
+## 000019-272
+
+Defeat is sport's finest instructor, teaching preparation at a depth that even a hard-earned victory cannot reach.
+
+## 000019-273
+
+My most useful coaching lesson came from that loss: the replay showed our defenders abandoning the far post.
+
+## 000019-274
+
+The ward review will begin with the delayed discharge and the missed call to the patient's daughter. These are uncomfortable cases to discuss, but medicine learns its greatest lessons when care goes wrong. The advances that matter most are won through errors, not through treatment that proceeds as planned. Staff can submit comments before Wednesday's meeting.
+
+## 000019-275
+
+Of the four changes from our ward review, the callback checklist has been the most useful. A missed message had left a daughter waiting outside a locked entrance while her father was discharged elsewhere. The checklist now records who will call the family and which entrance they will use. On the next two discharges, relatives reached the agreed pickup point before the porter arrived.
+
+## 000019-276
+
+The greatest lessons in family life are taught while sorting socks and clearing plates. Those small domestic moments offer a wiser education in love than any deliberate conversation can, however carefully the conversation is planned.
+
+## 000019-277
+
+Of our three recorded interviews, the washing-up conversation was the most useful. Gran recognized a plate's maker's mark and named her sister's factory; the other two sessions had repeated dates we already knew.
