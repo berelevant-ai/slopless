@@ -1,0 +1,2971 @@
+{
+  "collection": "000020",
+  "check": "puffery-and-overstatement/inflated-evaluation",
+  "split": "holdout",
+  "definitionSha256": "942470ec9f55bd3bed3d04c4f7836ae58594619b09b50ad90dd306473f8241b2",
+  "requestedModel": "opus",
+  "models": [
+    "claude-opus-5-5"
+  ],
+  "reviewSettings": {
+    "helper": "/tmp/slopless-puffery-opus-review.mjs",
+    "safeMode": true,
+    "tools": "",
+    "effort": "high",
+    "noSessionPersistence": true,
+    "maxRowsPerCall": 100,
+    "authorLabelsSnippetsAndBalanceWithheld": true,
+    "freshCliProcessPerCall": true
+  },
+  "authoring": {
+    "draftPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-draft.json",
+    "draftSha256": "96f27f7fddecc685f1c588bac209483146722afa3ab78a460971a1d73252b8de",
+    "authorModel": "OpenAI Codex; runtime model ID unavailable",
+    "developmentFilesInspected": false,
+    "candidatePromptsInspected": false,
+    "detectorCalls": 0,
+    "initialPool": 200,
+    "additionalPassages": 160,
+    "proseRewrites": [
+      {
+        "id": "000020-001",
+        "beforeSha256": "f175034ef2a5d7fb725727bd468cdb96971fb6aa2f3e5a3c967c934d6df10785",
+        "afterSha256": "4133610a54f687c2ac2e56b7382bbeb612787af9042134c2a6b91c8692579995",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-024",
+        "beforeSha256": "bca9e4ac97442e2bcf8a023723dd99cb15650b153d7e0e936c748f2e0e080dc7",
+        "afterSha256": "82d3b5bd33bc9909703dd5d9c192b1d25739e399da13ae3f358cfefdee3dd0c6",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-034",
+        "beforeSha256": "764fd6b590d0810e1fcc0cee0dc54fa2bd09a851d3a0630c73553ed3d647db37",
+        "afterSha256": "8ccb68ac5eec74005bc11ceb33fc1d648365f91f69067d3a17fafa2105b9978e",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-051",
+        "beforeSha256": "dffd99cc0735426a5c170c5e24e641e268f8386aa978cb9d8294a595303289a5",
+        "afterSha256": "088e6433a848453403661d693081d259f220b6e90e5cfccbf22fc0fa06067871",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-064",
+        "beforeSha256": "f6d84913b833a1b84d8221e7045a9f9759330a71e6b2a70fce94ac1355db9a6e",
+        "afterSha256": "31a7b3f75f9c3b3b3f434562b35fc0a432f7ee60efdcc57ca1979684fba74bd0",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-079",
+        "beforeSha256": "4986656cb50c2e3b6983775550b505a72d29314b3d5d34797d22b4180054c8be",
+        "afterSha256": "0d12ef6df1827927dbb79cf28c602a178d18292c602e38c1ffb03345b7636d89",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-085",
+        "beforeSha256": "ba17ef80c7d988d009a7a4e84368c095e3ffe3af3fcf5794cbff90bd4a2d2f35",
+        "afterSha256": "11ec75650e70454c645de98817a6d0f71348e93885fa4f5537fbb71e075c61fb",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-091",
+        "beforeSha256": "13f7806d13dfb79dadaa992e6d41efffd26150cd8744e2d0289b515785300ba5",
+        "afterSha256": "6db41fe8ec0040b74d97253dc68be8561da54df09e2e3f68c93c36c3796148b5",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-105",
+        "beforeSha256": "3ac1864ac0446b4cd16f4823306b69d6b0cfb10b9209fc5d5aa42a0714c219e4",
+        "afterSha256": "fe343c02edd3d0a63c9389e8cb8c9ef0bd9312fb1d7ec7e0d49a4e19d44b2b4d",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-106",
+        "beforeSha256": "bb9987068a45b036510c8992cb06412ae6f2977b63dee874f9410d2ee4136914",
+        "afterSha256": "a73a59448f9e4a44eb4779197e148ddff990f056ffb7599e7515bc1a7166a42f",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-125",
+        "beforeSha256": "adef88e5878a1c54265b4f193b2b10ec302638211320f5f7d1ea4ae1ecd7c550",
+        "afterSha256": "d4734fc3e8c278fd47d4c3bb864eaf291bf6a95cbd22b1089bd7f1c69844a0fa",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-126",
+        "beforeSha256": "4b5bdbad9dbb5b8bfba5a775b53b265114d2dd54fc6f5eddf191b03b7f9d796d",
+        "afterSha256": "cb52579b24cacf8f0af3ca59d9994bb8c235d6210d2370b98e34c3fb1bc2c03f",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-153",
+        "beforeSha256": "73629f748f8d2d412c42bc4f371866cd570215026170dcca1389e82a0861b98b",
+        "afterSha256": "952d18b5be2195af8fe15b9c2d6fed574d81921bf5b72541c361cb95cf4d8fbd",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      },
+      {
+        "id": "000020-155",
+        "beforeSha256": "1d89c01a3e29e205a7128ac3f094d81b16bda6b679f45a74c783fc2d350273d6",
+        "afterSha256": "8a052ba0196adbf234fb81a518d811243d4879bbd150d79f6a09e221f5bf74a4",
+        "expected": true,
+        "reason": "Author realism QA: replace an implausibly extravagant contextual leap with natural evaluative prose while preserving the assigned defect.",
+        "labelChanged": false
+      }
+    ],
+    "rewritesPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-rewrite-log.json",
+    "rewritesSha256": "ef08b9235feea078da6e8af5760185d618d975b381e21ba6362139007afc6522",
+    "sourceCoverageAuditPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-source-coverage-audit.json",
+    "sourceCoverageAuditSha256": "a83968813f7b5cf9831be1bd62e9bbd3ee407f6de8fd5c2292aae5e5b2c6bb4e"
+  },
+  "counts": {
+    "passages": 360,
+    "hits": 180,
+    "noHits": 180,
+    "judgments": 1308,
+    "calls": 14,
+    "targetPassages": 200,
+    "targetHits": 100,
+    "targetNoHits": 100,
+    "unselectedPoolAboveTarget": 160,
+    "labelCorrections": 0,
+    "postReviewProseRewrites": 14,
+    "finalSnippetAnnotations": 180,
+    "unresolvedLabels": 0,
+    "unresolvedRealism": 0
+  },
+  "durationMs": 464380,
+  "costUsd": 2.4686536,
+  "calls": [
+    {
+      "pass": "pass1-blind",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-batch01-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-batch01-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-batch01-cli.log",
+      "startedAt": "2026-10-20T23:12:30.435Z",
+      "finishedAt": "2026-10-20T23:13:03.947Z",
+      "inputSha256": "57ea632fa34b8396dfb856448b91839b96010cd0ec21de72a0c735cb59703a0a",
+      "outputSha256": "233bb311bf136a9f6a0feb9b7da69110d3dd89f7fbc59faae6ba376573421ffa",
+      "promptSha256": "d905cd2baf171431fc97ed21df22121eb63ad5548c2c4881ca53d67bee544873",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 32590,
+      "costUsd": 0.192244,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 1,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-batch01-prompt.md",
+      "promptFileSha256": "d905cd2baf171431fc97ed21df22121eb63ad5548c2c4881ca53d67bee544873"
+    },
+    {
+      "pass": "pass1-blind",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-batch02-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-batch02-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-batch02-cli.log",
+      "startedAt": "2026-10-20T23:13:03.948Z",
+      "finishedAt": "2026-10-20T23:13:37.025Z",
+      "inputSha256": "70cfd93e3a72a154d82a9860634df0fbd018fc53bc6bd87513abad3e53ed7a1f",
+      "outputSha256": "37f43ac6472b5b2bba1d9649c23ebebff15f5d22f74ba1b232253f7fd1a65063",
+      "promptSha256": "ebfab7b5d80ca219e79341f1d0851ee20f6649994679fe0dc1f20a2d4dd44fe7",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 32204,
+      "costUsd": 0.1946,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 1,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-batch02-prompt.md",
+      "promptFileSha256": "ebfab7b5d80ca219e79341f1d0851ee20f6649994679fe0dc1f20a2d4dd44fe7"
+    },
+    {
+      "pass": "pass2-adversarial",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-batch01-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-batch01-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-batch01-cli.log",
+      "startedAt": "2026-10-20T23:14:04.349Z",
+      "finishedAt": "2026-10-20T23:14:39.646Z",
+      "inputSha256": "57ea632fa34b8396dfb856448b91839b96010cd0ec21de72a0c735cb59703a0a",
+      "outputSha256": "366123fbc6ab68b73d1e5b64360434a569d64b27f7b9f90607bb3997195fd587",
+      "promptSha256": "92d056228c337877386b34fbc8a7bac94ef25e37b6a9dbc8a261727e6839ad1e",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 34342,
+      "costUsd": 0.1739866,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 3,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-batch01-prompt.md",
+      "promptFileSha256": "92d056228c337877386b34fbc8a7bac94ef25e37b6a9dbc8a261727e6839ad1e"
+    },
+    {
+      "pass": "pass2-adversarial",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-batch02-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-batch02-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-batch02-cli.log",
+      "startedAt": "2026-10-20T23:14:39.647Z",
+      "finishedAt": "2026-10-20T23:15:14.054Z",
+      "inputSha256": "70cfd93e3a72a154d82a9860634df0fbd018fc53bc6bd87513abad3e53ed7a1f",
+      "outputSha256": "ead4bb1a922394ccb1931c5aa712b051bd0194bdc77d6883162594bf18471453",
+      "promptSha256": "fcfacd7e252b7abe2806870f625e6a5a2ca8fc084b6667f597c0d13305ba2276",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 33527,
+      "costUsd": 0.1750026,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 1,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-batch02-prompt.md",
+      "promptFileSha256": "fcfacd7e252b7abe2806870f625e6a5a2ca8fc084b6667f597c0d13305ba2276"
+    },
+    {
+      "pass": "pass3-final",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-batch01-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-batch01-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-batch01-cli.log",
+      "startedAt": "2026-10-20T23:15:48.528Z",
+      "finishedAt": "2026-10-20T23:16:27.459Z",
+      "inputSha256": "57ea632fa34b8396dfb856448b91839b96010cd0ec21de72a0c735cb59703a0a",
+      "outputSha256": "56e9907f1ff8b36f544c36b4fd039a72a794cf43373b60ff95c33c91df3ff3f7",
+      "promptSha256": "1049746efcca765d096a68d90d506636073a237c88c78d00e5c9f2b2659704fa",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 37994,
+      "costUsd": 0.1818106,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 4,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-batch01-prompt.md",
+      "promptFileSha256": "1049746efcca765d096a68d90d506636073a237c88c78d00e5c9f2b2659704fa"
+    },
+    {
+      "pass": "pass3-final",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-batch02-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-batch02-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-batch02-cli.log",
+      "startedAt": "2026-10-20T23:16:27.461Z",
+      "finishedAt": "2026-10-20T23:17:02.171Z",
+      "inputSha256": "70cfd93e3a72a154d82a9860634df0fbd018fc53bc6bd87513abad3e53ed7a1f",
+      "outputSha256": "f73daf835d109cc7297007138244366f3076f43deb968bdcda9bb458a9cf1c86",
+      "promptSha256": "697ee363ae4a5776a5d4ac44bdfd6829013f3b2cb3fb52e0190802b9e8e2e203",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 33787,
+      "costUsd": 0.1772306,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 2,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-batch02-prompt.md",
+      "promptFileSha256": "697ee363ae4a5776a5d4ac44bdfd6829013f3b2cb3fb52e0190802b9e8e2e203"
+    },
+    {
+      "pass": "pass4-blind-supplement",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-batch01-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-batch01-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-batch01-cli.log",
+      "startedAt": "2026-10-20T23:25:10.140Z",
+      "finishedAt": "2026-10-20T23:25:48.485Z",
+      "inputSha256": "b6ab61620ce00349cebe8183c499bbebce728dfbc9eb574aa0c26541d31146f2",
+      "outputSha256": "951934d0cb1d386de729685c591697474f713ae480b2a8f75f41c3039071f514",
+      "promptSha256": "a6c2ab7bfec26680c735776ea16c0abde59b40ac0ca46429c1173074d42f11c2",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 37447,
+      "costUsd": 0.205848,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 2,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-batch01-prompt.md",
+      "promptFileSha256": "a6c2ab7bfec26680c735776ea16c0abde59b40ac0ca46429c1173074d42f11c2"
+    },
+    {
+      "pass": "pass4-blind-supplement",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-batch02-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-batch02-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-batch02-cli.log",
+      "startedAt": "2026-10-20T23:25:48.487Z",
+      "finishedAt": "2026-10-20T23:26:12.966Z",
+      "inputSha256": "1ac3e5b68f346f1095ecc313af407c264a136b9b8c11c09fce5005ddc7c614bd",
+      "outputSha256": "fd8d70a656ad440517a4385c829237c3adea747777f75dff3d9137b59eaab141",
+      "promptSha256": "38bc459ea7c0450cbca1ea1c0c8e22e4f4cd73bf1cb220fe86fe9886831b604b",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 23603,
+      "costUsd": 0.15164,
+      "count": 74,
+      "disagreements": 0,
+      "objections": 1,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-batch02-prompt.md",
+      "promptFileSha256": "38bc459ea7c0450cbca1ea1c0c8e22e4f4cd73bf1cb220fe86fe9886831b604b"
+    },
+    {
+      "pass": "pass5-adversarial-supplement",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-batch01-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-batch01-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-batch01-cli.log",
+      "startedAt": "2026-10-20T23:27:08.451Z",
+      "finishedAt": "2026-10-20T23:27:52.116Z",
+      "inputSha256": "b6ab61620ce00349cebe8183c499bbebce728dfbc9eb574aa0c26541d31146f2",
+      "outputSha256": "d44ca6a5f95734a874d9200d241f3ece3f3daabcb7d7160c77cb535884ef0792",
+      "promptSha256": "ec40102ed262ec7ba484583f91d1e7c1335ca2390bcfd9352c8dda5f113024b1",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 42805,
+      "costUsd": 0.1886826,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 2,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-batch01-prompt.md",
+      "promptFileSha256": "ec40102ed262ec7ba484583f91d1e7c1335ca2390bcfd9352c8dda5f113024b1"
+    },
+    {
+      "pass": "pass5-adversarial-supplement",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-batch02-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-batch02-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-batch02-cli.log",
+      "startedAt": "2026-10-20T23:27:52.119Z",
+      "finishedAt": "2026-10-20T23:28:19.696Z",
+      "inputSha256": "1ac3e5b68f346f1095ecc313af407c264a136b9b8c11c09fce5005ddc7c614bd",
+      "outputSha256": "91b597ae9087dc2267e12964ec24fe65ac63a9844ae817b7cb0aed5bd09c8319",
+      "promptSha256": "45007b1598021aafd55027e5b5c0df6da1fd192cc78c82cd3e0369929a027365",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 26673,
+      "costUsd": 0.1317234,
+      "count": 74,
+      "disagreements": 0,
+      "objections": 1,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-batch02-prompt.md",
+      "promptFileSha256": "45007b1598021aafd55027e5b5c0df6da1fd192cc78c82cd3e0369929a027365"
+    },
+    {
+      "pass": "pass6-final",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch01-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch01-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch01-cli.log",
+      "startedAt": "2026-10-20T23:28:46.849Z",
+      "finishedAt": "2026-10-20T23:29:22.684Z",
+      "inputSha256": "2224da7cdfe9ca63899923641864e5bdc90a99ad57197c855585e7039aae23b2",
+      "outputSha256": "e2ed0433714dd4a9c3afe66ab2df23f7acbbd4d3205a226db68de21ae7abf9b3",
+      "promptSha256": "9f0f77ba4d7a32bd7d0f763456eb4e9aed95ddb8d354ad57c2f9b34fd65509d1",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 34665,
+      "costUsd": 0.1776066,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 2,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch01-prompt.md",
+      "promptFileSha256": "9f0f77ba4d7a32bd7d0f763456eb4e9aed95ddb8d354ad57c2f9b34fd65509d1"
+    },
+    {
+      "pass": "pass6-final",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch02-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch02-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch02-cli.log",
+      "startedAt": "2026-10-20T23:29:22.686Z",
+      "finishedAt": "2026-10-20T23:30:02.891Z",
+      "inputSha256": "0077d5b033c90ad766d1153b1824275293c3755a7294ad9cb4913663373c00e9",
+      "outputSha256": "8fbc853da9fe46acf5fb10c13cf541413779bf38c6c4b1e911b971b967bcfeae",
+      "promptSha256": "0c6e814c7e865ba6e82faf7583b8fec495ea1f1c3e3149a5d036cec0232053b0",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 39254,
+      "costUsd": 0.1839186,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 2,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch02-prompt.md",
+      "promptFileSha256": "0c6e814c7e865ba6e82faf7583b8fec495ea1f1c3e3149a5d036cec0232053b0"
+    },
+    {
+      "pass": "pass6-final",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch03-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch03-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch03-cli.log",
+      "startedAt": "2026-10-20T23:30:02.892Z",
+      "finishedAt": "2026-10-20T23:30:40.930Z",
+      "inputSha256": "f3baf451bfc53e9fb9dcd065caf891b7621a3ed9f987ff3984dfc50751765f79",
+      "outputSha256": "1d022ab0c4225df8cb08570d93656a259e11a918ee092885a269dab137cdd6ff",
+      "promptSha256": "0dd4f3f152d151e7d747b5050ca3db4bb455abfa690229ec98c8bd94628a46bb",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 37081,
+      "costUsd": 0.20910800000000002,
+      "count": 100,
+      "disagreements": 0,
+      "objections": 2,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch03-prompt.md",
+      "promptFileSha256": "0dd4f3f152d151e7d747b5050ca3db4bb455abfa690229ec98c8bd94628a46bb"
+    },
+    {
+      "pass": "pass6-final",
+      "inputPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch04-input.json",
+      "outputPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch04-output.json",
+      "logPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch04-cli.log",
+      "startedAt": "2026-10-20T23:30:40.932Z",
+      "finishedAt": "2026-10-20T23:31:00.211Z",
+      "inputSha256": "bb8dc621bd00d442e041c2eb3953dc7a4e2ae18696329e154b1ac7c99260f1e6",
+      "outputSha256": "8e5944c83043c2a1cd350ddf8cb798e82e4c42385c9f7d4bb430842c107dafa3",
+      "promptSha256": "ba18858fe9e06a8b1e3461bdb129a747844d7800cdd319646a914d003e39ea31",
+      "reviewRunnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "models": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 18408,
+      "costUsd": 0.125252,
+      "count": 60,
+      "disagreements": 0,
+      "objections": 0,
+      "promptPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-batch04-prompt.md",
+      "promptFileSha256": "ba18858fe9e06a8b1e3461bdb129a747844d7800cdd319646a914d003e39ea31"
+    }
+  ],
+  "passes": [
+    {
+      "round": 1,
+      "pass": "pass1-blind",
+      "count": 200,
+      "disagreementCount": 0,
+      "objectionCount": 2,
+      "adjudicationsPath": "/tmp/000020-inflated-evaluation-holdout-pass1-20261021T000502-adjudications.json",
+      "adjudicationsSha256": "c6dbfe5bff7fcac7e0e1e3b80be1c20b85b2eeca742c3cf46e7f7b2061586603"
+    },
+    {
+      "round": 2,
+      "pass": "pass2-adversarial",
+      "count": 200,
+      "disagreementCount": 0,
+      "objectionCount": 4,
+      "adjudicationsPath": "/tmp/000020-inflated-evaluation-holdout-pass2-20261021T000502-adjudications.json",
+      "adjudicationsSha256": "549faee83e3be934f8ad12b7030b5562ccd47e200fcfa74e2052844062765bef"
+    },
+    {
+      "round": 3,
+      "pass": "pass3-final",
+      "count": 200,
+      "disagreementCount": 0,
+      "objectionCount": 6,
+      "adjudicationsPath": "/tmp/000020-inflated-evaluation-holdout-pass3-20261021T000502-adjudications.json",
+      "adjudicationsSha256": "4c4f5a59a7e87cb124428e52db0a581b0105611b60433e920016d9bf6431fd34"
+    },
+    {
+      "round": 4,
+      "pass": "pass4-blind-supplement",
+      "count": 174,
+      "disagreementCount": 0,
+      "objectionCount": 3,
+      "adjudicationsPath": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-adjudications.json",
+      "adjudicationsSha256": "a5afa772cfe2cef77e7b9d7f98a9886d4b1f11f8e64a5fa7df2fbe1111de63b4"
+    },
+    {
+      "round": 5,
+      "pass": "pass5-adversarial-supplement",
+      "count": 174,
+      "disagreementCount": 0,
+      "objectionCount": 3,
+      "adjudicationsPath": "/tmp/000020-inflated-evaluation-holdout-pass5-20261021T000502-adjudications.json",
+      "adjudicationsSha256": "7cf000815880ebf0c67ccb82da4e1649775fa92e8019e6dcef51d68a2577f2fc"
+    },
+    {
+      "round": 6,
+      "pass": "pass6-final",
+      "count": 360,
+      "disagreementCount": 0,
+      "objectionCount": 6,
+      "adjudicationsPath": "/tmp/000020-inflated-evaluation-holdout-pass6-20261021T000502-adjudications.json",
+      "adjudicationsSha256": "bf2d92da71cb67c1b712b48f1695025e1643092001eafa5c54815cbb72446b41"
+    }
+  ],
+  "adjudications": [
+    {
+      "pass": "pass1-blind",
+      "id": "000020-056",
+      "kind": "boundary-objection",
+      "decision": "retain-no-hit",
+      "reason": "The sentence frames triumph as a personal feeling and immediately supplies the practical relief that supports it. The accepted definition preserves modest personal preferences and proportionate qualitative judgments.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass1-blind",
+      "id": "000020-119",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The unqualified safest-place comparison is an operative promotional claim; password protection alone does not establish comparative security. The accepted definition includes ordinary-sounding unsupported superiority.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass2-adversarial",
+      "id": "000020-033",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The handbook explicitly recommends the program on the instructor's claimed proof of perfect health. This adoption makes the inflated claim operative rather than merely reporting or criticizing it. One night's improved sleep cannot establish perfect health.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass2-adversarial",
+      "id": "000020-056",
+      "kind": "boundary-objection",
+      "decision": "retain-no-hit",
+      "reason": "A personal feeling of triumph is immediately bounded by a concrete improvement in a household task. The accepted definition preserves proportionate qualitative judgments; the word alone is insufficient for a hit.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass2-adversarial",
+      "id": "000020-096",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The definition expressly covers condemnation and unwarranted certainty. A single race result is used to condemn ability in every sport and foreclose any future improvement; self-directed phrasing does not change that defect.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass2-adversarial",
+      "id": "000020-119",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The unqualified safest-place comparison is unsupported by the sole stated feature of password protection. Ordinary promotional wording remains eligible under the accepted definition's unsupported-superiority boundary.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass3-final",
+      "id": "000020-033",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The handbook explicitly adopts the instructor's claim as its recommendation basis. One night's improved sleep does not support perfect health; operative attribution remains eligible.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass3-final",
+      "id": "000020-062",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "Forgetting one item is used as sufficient basis for a certain catastrophic forecast about a different and larger responsibility. Conversational form does not make that disproportionate condemnation modest or contextualized.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass3-final",
+      "id": "000020-002",
+      "kind": "boundary-objection",
+      "decision": "retain-no-hit",
+      "reason": "The named ramp and wheelchair users supply an immediately understandable access benefit. Calling that improvement substantial is proportionate qualitative judgment with useful implicit context.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass3-final",
+      "id": "000020-096",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "A single race result is made proof of incapacity across all sports and certainty of no future improvement. The accepted condemnation and certainty boundaries apply to self-directed evaluation.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass3-final",
+      "id": "000020-119",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "Password protection is a security feature but provides no basis for an unqualified safest-place comparison. Ordinary-sounding unsupported superiority remains eligible.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass3-final",
+      "id": "000020-145",
+      "kind": "boundary-objection",
+      "decision": "retain-no-hit",
+      "reason": "The passage explains how avoiding movements protects fragile specimens. Important improvement is a proportionate description of that concrete operational benefit.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass4-blind-supplement",
+      "id": "000020-220",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "Campaign convention does not supply a basis for the asserted comparative administrative capability. The accepted definition expressly includes ordinary-sounding unsupported superiority.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass4-blind-supplement",
+      "id": "000020-234",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The passage ranks one restaurant's meals above all nearby competitors without a concrete comparison or a bounded personal preference. Ordinary wording remains an eligible unsupported superiority claim.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass4-blind-supplement",
+      "id": "000020-309",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "A smooth future launch is asserted as settled on enthusiasm alone. This expresses greater certainty than the supplied basis warrants, even though the predicted success is modest in scale.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass5-adversarial-supplement",
+      "id": "000020-220",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "Routine campaign phrasing does not contextualize the asserted superiority of administrative capability. The definition includes ordinary-sounding unsupported comparative judgments.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass5-adversarial-supplement",
+      "id": "000020-234",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The unqualified restaurant ranking supplies no comparative basis and is not framed as a modest personal preference. Its ordinary language is eligible under the explicit superiority boundary.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass5-adversarial-supplement",
+      "id": "000020-309",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The smooth launch is asserted as certain from enthusiasm alone. The passage supplies no operational basis that would justify treating that future outcome as settled.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass6-final",
+      "id": "000020-033",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The handbook explicitly adopts the attributed restoration claim as its recommendation basis. That operative claim exceeds the single reported night's sleep and remains eligible under the attribution boundary.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass6-final",
+      "id": "000020-091",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "Winning a single office match is used to forecast a comfortable professional livelihood. The ordinary wording does not provide the missing basis for that strong expectation of future success.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass6-final",
+      "id": "000020-119",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "Password protection supports a limited security description but cannot support an unqualified safest-place comparison. Routine product copy is covered by the unsupported-superiority boundary.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass6-final",
+      "id": "000020-155",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The display of spice jars does not establish culinary quality sufficient for a higher restaurant rating. The modest wording still asserts an unsupported evaluative upgrade.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass6-final",
+      "id": "000020-220",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The comparative administrative capability is asserted without a concrete basis. The accepted definition includes ordinary-sounding unsupported superiority regardless of conventional campaign phrasing.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    },
+    {
+      "pass": "pass6-final",
+      "id": "000020-234",
+      "kind": "boundary-objection",
+      "decision": "retain-hit",
+      "reason": "The passage supplies an unqualified comparative meal ranking rather than a bounded personal preference or a contextualized comparison. It is eligible under the explicit ordinary-superiority boundary.",
+      "mandatory": true,
+      "labelChanged": false,
+      "textChanged": false,
+      "resolved": true
+    }
+  ],
+  "finalSourceJudgments": [
+    {
+      "id": "000020-001",
+      "expected": true,
+      "snippets": [
+        "Cedar's new invoice footer makes our customer service better than our competitors'."
+      ]
+    },
+    {
+      "id": "000020-002",
+      "expected": false
+    },
+    {
+      "id": "000020-003",
+      "expected": false
+    },
+    {
+      "id": "000020-004",
+      "expected": true,
+      "snippets": [
+        "this win proves our squad is the strongest in the league",
+        "Supporters can be certain that the title will come home this season, whatever the remaining fixtures bring."
+      ]
+    },
+    {
+      "id": "000020-005",
+      "expected": true,
+      "snippets": [
+        "Because it supports dark mode, Lumen is a better database than any competitor."
+      ]
+    },
+    {
+      "id": "000020-006",
+      "expected": true,
+      "snippets": [
+        "Ellis is unquestionably the finest prospect in the country.",
+        "His professional success is guaranteed, and supporters can already look forward to watching him dominate the international game for years."
+      ]
+    },
+    {
+      "id": "000020-007",
+      "expected": false
+    },
+    {
+      "id": "000020-008",
+      "expected": false
+    },
+    {
+      "id": "000020-009",
+      "expected": false
+    },
+    {
+      "id": "000020-010",
+      "expected": true,
+      "snippets": [
+        "The update is a landmark in user experience, establishing our developers as the industry's undisputed leaders and setting a standard no competing team can approach."
+      ]
+    },
+    {
+      "id": "000020-011",
+      "expected": true,
+      "snippets": [
+        "We agree: replacing the login icon with a shield means our customers can finally consider themselves beyond the reach of attackers."
+      ]
+    },
+    {
+      "id": "000020-012",
+      "expected": false
+    },
+    {
+      "id": "000020-013",
+      "expected": true,
+      "snippets": [
+        "This proves the clinic is the most dangerous place to seek care, a judgment that should apply to every service it provides."
+      ]
+    },
+    {
+      "id": "000020-014",
+      "expected": false
+    },
+    {
+      "id": "000020-015",
+      "expected": true,
+      "snippets": [
+        "This is an unparalleled act of medical leadership, setting a standard of patient care that the rest of the world can only hope to follow."
+      ]
+    },
+    {
+      "id": "000020-016",
+      "expected": true,
+      "snippets": [
+        "You will never find a better host anywhere, and I can guarantee that every aspect of your stay will be flawless.",
+        "Nobody booking this cottage could possibly have a disappointing holiday."
+      ]
+    },
+    {
+      "id": "000020-017",
+      "expected": true,
+      "snippets": [
+        "This breakthrough puts us years ahead of every competitor, making our platform the clear choice for any organization handling data."
+      ]
+    },
+    {
+      "id": "000020-018",
+      "expected": false
+    },
+    {
+      "id": "000020-019",
+      "expected": true,
+      "snippets": [
+        "Their adoption establishes it as the best way to manage a company, across all industries and at any scale."
+      ]
+    },
+    {
+      "id": "000020-020",
+      "expected": false
+    },
+    {
+      "id": "000020-021",
+      "expected": false
+    },
+    {
+      "id": "000020-022",
+      "expected": true,
+      "snippets": [
+        "That dropped catch makes Mara the worst athlete this country has ever produced."
+      ]
+    },
+    {
+      "id": "000020-023",
+      "expected": true,
+      "snippets": [
+        "That tells you everything about the host: the most selfish person in our family, utterly incapable of caring for a guest."
+      ]
+    },
+    {
+      "id": "000020-024",
+      "expected": true,
+      "snippets": [
+        "Now that our spreadsheet has totals, it is a better accounting tool than the alternatives."
+      ]
+    },
+    {
+      "id": "000020-025",
+      "expected": true,
+      "snippets": [
+        "That kind of incompetence makes this the worst bakery in the city.",
+        "Nobody ordering anything from them can expect it to arrive in decent condition."
+      ]
+    },
+    {
+      "id": "000020-026",
+      "expected": true,
+      "snippets": [
+        "This is the best restaurant in the region, without question.",
+        "you will get better food here than anywhere else, and every guest is certain to leave delighted."
+      ]
+    },
+    {
+      "id": "000020-027",
+      "expected": false
+    },
+    {
+      "id": "000020-028",
+      "expected": false
+    },
+    {
+      "id": "000020-029",
+      "expected": true,
+      "snippets": [
+        "so her financial advice is unquestionably superior to anyone else's",
+        "When it comes to money, you could not find a more reliable authority."
+      ]
+    },
+    {
+      "id": "000020-030",
+      "expected": false
+    },
+    {
+      "id": "000020-031",
+      "expected": false
+    },
+    {
+      "id": "000020-032",
+      "expected": true,
+      "snippets": [
+        "Despite another missed deadline, our passion ensures the school's inevitable triumph."
+      ]
+    },
+    {
+      "id": "000020-033",
+      "expected": true,
+      "snippets": [
+        "The instructor calls that proof of \"perfect health restored,\" and this handbook recommends the program on precisely that basis."
+      ],
+      "objection": "The inflated phrase is attributed to the instructor, but the handbook adopts it as the operative basis for its recommendation, so attribution does not exempt it."
+    },
+    {
+      "id": "000020-034",
+      "expected": true,
+      "snippets": [
+        "This makes its produce more sustainable than anything at the supermarket, and customers switching their shopping can count on reducing their environmental impact."
+      ]
+    },
+    {
+      "id": "000020-035",
+      "expected": true,
+      "snippets": [
+        "That belief makes unemployment impossible: each student leaving this college is assured a brilliant career from the first day."
+      ]
+    },
+    {
+      "id": "000020-036",
+      "expected": false
+    },
+    {
+      "id": "000020-037",
+      "expected": true,
+      "snippets": [
+        "This makes our service superior, and customers should regard it as the industry's natural first choice."
+      ]
+    },
+    {
+      "id": "000020-038",
+      "expected": false
+    },
+    {
+      "id": "000020-039",
+      "expected": true,
+      "snippets": [
+        "This is the most accountable administration the town has ever had.",
+        "Its commitment guarantees that every future decision will serve residents perfectly, giving us complete confidence that mistakes and misconduct belong to the past."
+      ]
+    },
+    {
+      "id": "000020-040",
+      "expected": true,
+      "snippets": [
+        "With this change it becomes the best mathematics resource a school can buy, far ahead of every competing series."
+      ]
+    },
+    {
+      "id": "000020-041",
+      "expected": false
+    },
+    {
+      "id": "000020-042",
+      "expected": true,
+      "snippets": [
+        "Jon's soup needs salt, a disgrace to the entire culinary profession."
+      ]
+    },
+    {
+      "id": "000020-043",
+      "expected": false
+    },
+    {
+      "id": "000020-044",
+      "expected": true,
+      "snippets": [
+        "The clinic's redesigned appointment cards will end the crisis in public health."
+      ]
+    },
+    {
+      "id": "000020-045",
+      "expected": true,
+      "snippets": [
+        "we are already looking at a discovery that will transform chemistry and settle the question for good."
+      ]
+    },
+    {
+      "id": "000020-046",
+      "expected": false
+    },
+    {
+      "id": "000020-047",
+      "expected": true,
+      "snippets": [
+        "The result is an unforgivable betrayal of the fans and confirms that this is the worst squad the club has ever assembled."
+      ]
+    },
+    {
+      "id": "000020-048",
+      "expected": false
+    },
+    {
+      "id": "000020-049",
+      "expected": false
+    },
+    {
+      "id": "000020-050",
+      "expected": true,
+      "snippets": [
+        "With these measures in place, success at university is assured for every participant, even if attendance at the sessions remains optional."
+      ]
+    },
+    {
+      "id": "000020-051",
+      "expected": true,
+      "snippets": [
+        "Friday's exhibition of 12 prints confirms that this gallery is better than its neighbors."
+      ]
+    },
+    {
+      "id": "000020-052",
+      "expected": false
+    },
+    {
+      "id": "000020-053",
+      "expected": false
+    },
+    {
+      "id": "000020-054",
+      "expected": true,
+      "snippets": [
+        "The brochure's calming font makes this the country's best maternity service."
+      ]
+    },
+    {
+      "id": "000020-055",
+      "expected": false
+    },
+    {
+      "id": "000020-056",
+      "expected": false
+    },
+    {
+      "id": "000020-057",
+      "expected": true,
+      "snippets": [
+        "This is the ultimate answer to anxiety and exhaustion, guaranteeing lasting relief from the pressures of modern life.",
+        "Our carefully chosen furnishings make it the most effective wellness experience available anywhere in the country."
+      ]
+    },
+    {
+      "id": "000020-058",
+      "expected": false
+    },
+    {
+      "id": "000020-059",
+      "expected": false
+    },
+    {
+      "id": "000020-060",
+      "expected": true,
+      "snippets": [
+        "This clinic is the worst in the country.",
+        "Treatment there is certain to do more harm than good, whatever your condition."
+      ]
+    },
+    {
+      "id": "000020-061",
+      "expected": false
+    },
+    {
+      "id": "000020-062",
+      "expected": true,
+      "snippets": [
+        "After you forgot the milk, trusting you with the holiday would be a catastrophic mistake."
+      ]
+    },
+    {
+      "id": "000020-063",
+      "expected": true,
+      "snippets": [
+        "Nora's promotion confirms what we knew: no business leader can rival her vision."
+      ]
+    },
+    {
+      "id": "000020-064",
+      "expected": true,
+      "snippets": [
+        "This makes its ceramics collection more significant than the neighboring museum's, and gives it a stronger claim on the next acquisition grant."
+      ]
+    },
+    {
+      "id": "000020-065",
+      "expected": false
+    },
+    {
+      "id": "000020-066",
+      "expected": false
+    },
+    {
+      "id": "000020-067",
+      "expected": false
+    },
+    {
+      "id": "000020-068",
+      "expected": false
+    },
+    {
+      "id": "000020-069",
+      "expected": false
+    },
+    {
+      "id": "000020-070",
+      "expected": false
+    },
+    {
+      "id": "000020-071",
+      "expected": true,
+      "snippets": [
+        "That price alone establishes Merton's as the best restaurant in the country, regardless of what you like to eat."
+      ]
+    },
+    {
+      "id": "000020-072",
+      "expected": true,
+      "snippets": [
+        "This preliminary observation deserves to be called the greatest discovery science has produced."
+      ]
+    },
+    {
+      "id": "000020-073",
+      "expected": true,
+      "snippets": [
+        "Marlow is now the best provider of financial services for growing businesses.",
+        "customers can be confident that they are getting expertise superior to anything available elsewhere."
+      ]
+    },
+    {
+      "id": "000020-074",
+      "expected": true,
+      "snippets": [
+        "The decision ushers in a golden age of local democracy, ensuring that every resident's needs will finally be met."
+      ]
+    },
+    {
+      "id": "000020-075",
+      "expected": false
+    },
+    {
+      "id": "000020-076",
+      "expected": false
+    },
+    {
+      "id": "000020-077",
+      "expected": false
+    },
+    {
+      "id": "000020-078",
+      "expected": false
+    },
+    {
+      "id": "000020-079",
+      "expected": true,
+      "snippets": [
+        "Tuesday's meeting time makes this administration more accountable than the last one."
+      ]
+    },
+    {
+      "id": "000020-080",
+      "expected": true,
+      "snippets": [
+        "This was the worst production the festival has ever staged, a complete artistic failure that leaves the company with no credibility."
+      ]
+    },
+    {
+      "id": "000020-081",
+      "expected": false
+    },
+    {
+      "id": "000020-082",
+      "expected": true,
+      "snippets": [
+        "We can now say with certainty that loneliness in the borough has been solved for good."
+      ]
+    },
+    {
+      "id": "000020-083",
+      "expected": false
+    },
+    {
+      "id": "000020-084",
+      "expected": true,
+      "snippets": [
+        "Version 3 adds keyboard shortcuts, securing its place as the finest editor ever built."
+      ]
+    },
+    {
+      "id": "000020-085",
+      "expected": true,
+      "snippets": [
+        "Owning this signed poster will make you a better judge of art than other collectors."
+      ]
+    },
+    {
+      "id": "000020-086",
+      "expected": false
+    },
+    {
+      "id": "000020-087",
+      "expected": true,
+      "snippets": [
+        "These results establish the program as a revolutionary solution to the literacy crisis.",
+        "Any school adopting it can be certain of outstanding reading results across the whole year group."
+      ]
+    },
+    {
+      "id": "000020-088",
+      "expected": true,
+      "snippets": [
+        "confirming the group's status as the most compelling act on the national music scene today."
+      ]
+    },
+    {
+      "id": "000020-089",
+      "expected": false
+    },
+    {
+      "id": "000020-090",
+      "expected": true,
+      "snippets": [
+        "A new stripe on the home shirt marks the club's return to greatness.",
+        "this design guarantees our dominance over every rival for years to come."
+      ]
+    },
+    {
+      "id": "000020-091",
+      "expected": true,
+      "snippets": [
+        "We should expect her to make a comfortable living as a professional player once she leaves her current job."
+      ],
+      "objection": "The wording is ordinary rather than grandiose, but it forecasts professional success from a single office match, which the definition counts as ordinary-sounding unsupported evaluation."
+    },
+    {
+      "id": "000020-092",
+      "expected": true,
+      "snippets": [
+        "This feature makes it the best teaching tool available, surpassing every teacher, textbook, and practical lesson a school could provide."
+      ]
+    },
+    {
+      "id": "000020-093",
+      "expected": true,
+      "snippets": [
+        "That proves she has no regard for anyone but herself.",
+        "She is the least considerate person you could ever hope to meet."
+      ]
+    },
+    {
+      "id": "000020-094",
+      "expected": true,
+      "snippets": [
+        "That is sufficient reason to rank her as the finest public servant the country has ever known, whatever her record in office."
+      ]
+    },
+    {
+      "id": "000020-095",
+      "expected": true,
+      "snippets": [
+        "our marriage will be immune to every future difficulty; that decision will secure a lifetime of perfect harmony."
+      ]
+    },
+    {
+      "id": "000020-096",
+      "expected": true,
+      "snippets": [
+        "The result proves that I am hopeless at every sport.",
+        "There is no chance I will ever improve at anything athletic, however much effort I put into training."
+      ]
+    },
+    {
+      "id": "000020-097",
+      "expected": false
+    },
+    {
+      "id": "000020-098",
+      "expected": true,
+      "snippets": [
+        "This alphabet worksheet guarantees that every child will become an exceptional reader."
+      ]
+    },
+    {
+      "id": "000020-099",
+      "expected": false
+    },
+    {
+      "id": "000020-100",
+      "expected": true,
+      "snippets": [
+        "This historic achievement places Bell Couriers at the summit of world logistics."
+      ]
+    },
+    {
+      "id": "000020-101",
+      "expected": false
+    },
+    {
+      "id": "000020-102",
+      "expected": true,
+      "snippets": [
+        "The improvement establishes our museum as the foremost center for evolutionary research.",
+        "No institution offers a better foundation for discovery, and our place at the top of the field is assured."
+      ]
+    },
+    {
+      "id": "000020-103",
+      "expected": true,
+      "snippets": [
+        "A misspelled street sign reveals an administration wholly incapable of governing."
+      ]
+    },
+    {
+      "id": "000020-104",
+      "expected": true,
+      "snippets": [
+        "The head's report rightly describes this as a peerless educational breakthrough that will secure outstanding futures for the entire year group."
+      ]
+    },
+    {
+      "id": "000020-105",
+      "expected": true,
+      "snippets": [
+        "Adding lemon to the retreat's water will produce lasting improvements in guests' health."
+      ]
+    },
+    {
+      "id": "000020-106",
+      "expected": true,
+      "snippets": [
+        "Our laboratory's new booking calendar puts its research ahead of the other institutes'."
+      ]
+    },
+    {
+      "id": "000020-107",
+      "expected": false
+    },
+    {
+      "id": "000020-108",
+      "expected": true,
+      "snippets": [
+        "Once you follow my system, you can be certain your home will stay perfectly organized for life, whatever else is happening around you."
+      ]
+    },
+    {
+      "id": "000020-109",
+      "expected": true,
+      "snippets": [
+        "The chef is clearly incapable of producing a decent meal, and this restaurant has to rank as the worst in the region."
+      ]
+    },
+    {
+      "id": "000020-110",
+      "expected": false
+    },
+    {
+      "id": "000020-111",
+      "expected": true,
+      "snippets": [
+        "Thanks to this unrivaled performance strategy, defeat is no longer a possibility for our team in the upcoming tournament."
+      ]
+    },
+    {
+      "id": "000020-112",
+      "expected": false
+    },
+    {
+      "id": "000020-113",
+      "expected": false
+    },
+    {
+      "id": "000020-114",
+      "expected": true,
+      "snippets": [
+        "Here is further confirmation that we offer the finest healthcare in the region.",
+        "Patients choosing any of our specialties can expect a level of treatment that no other local provider can match."
+      ]
+    },
+    {
+      "id": "000020-115",
+      "expected": true,
+      "snippets": [
+        "Those details make this cafe the unsurpassable standard by which all hospitality must be judged."
+      ]
+    },
+    {
+      "id": "000020-116",
+      "expected": false
+    },
+    {
+      "id": "000020-117",
+      "expected": false
+    },
+    {
+      "id": "000020-118",
+      "expected": true,
+      "snippets": [
+        "We endorse that description in our purchasing recommendation: its extra ten centimeters make this the finest connectivity solution on the market."
+      ]
+    },
+    {
+      "id": "000020-119",
+      "expected": true,
+      "snippets": [
+        "Our password protected workspace is the safest place to store your company's secrets."
+      ],
+      "objection": "Could be read as routine product copy, but password protection alone does not support an absolute 'safest' superlative."
+    },
+    {
+      "id": "000020-120",
+      "expected": false
+    },
+    {
+      "id": "000020-121",
+      "expected": false
+    },
+    {
+      "id": "000020-122",
+      "expected": false
+    },
+    {
+      "id": "000020-123",
+      "expected": true,
+      "snippets": [
+        "Her choice proves that she is completely incapable of caring about anybody else.",
+        "Letting her organize the family holiday would be an absolute disaster from start to finish."
+      ]
+    },
+    {
+      "id": "000020-124",
+      "expected": true,
+      "snippets": [
+        "Acceptance confirms our team's status as the world's leading authority on laboratory practice.",
+        "The method will transform research productivity everywhere, and its lasting influence on science is already beyond doubt."
+      ]
+    },
+    {
+      "id": "000020-125",
+      "expected": true,
+      "snippets": [
+        "That puts our institute ahead of the others in research quality and makes it a better choice for anyone funding scientific work."
+      ]
+    },
+    {
+      "id": "000020-126",
+      "expected": true,
+      "snippets": [
+        "The project is now better placed than the competing studies to produce influential results, so we can count on attracting further research funding."
+      ]
+    },
+    {
+      "id": "000020-127",
+      "expected": false
+    },
+    {
+      "id": "000020-128",
+      "expected": true,
+      "snippets": [
+        "The shop has reached a level of baking perfection that puts it above every other bakery in the country.",
+        "nobody can offer a better result than these two remarkable proprietors."
+      ]
+    },
+    {
+      "id": "000020-129",
+      "expected": false
+    },
+    {
+      "id": "000020-130",
+      "expected": true,
+      "snippets": [
+        "The new feature nevertheless makes our parish the national leader in responsive government.",
+        "Residents can now look forward to a future in which neglected streets and unanswered complaints are things of the past."
+      ]
+    },
+    {
+      "id": "000020-131",
+      "expected": true,
+      "snippets": [
+        "If you follow my method, you will never disappoint anyone close to you again.",
+        "It is the complete answer to keeping relationships strong, and guarantees that the people you care about will always feel loved and appreciated."
+      ]
+    },
+    {
+      "id": "000020-132",
+      "expected": false
+    },
+    {
+      "id": "000020-133",
+      "expected": true,
+      "snippets": [
+        "As the launch notice says, this is \"a new benchmark for public service.\" It puts our town ahead of every other council in providing swift, dependable administration."
+      ]
+    },
+    {
+      "id": "000020-134",
+      "expected": true,
+      "snippets": [
+        "This event ensures that every student will secure the ideal job immediately after graduation.",
+        "Economic conditions and individual choices cannot affect an outcome that the evening has already made certain."
+      ]
+    },
+    {
+      "id": "000020-135",
+      "expected": true,
+      "snippets": [
+        "It is the definitive answer to mental illness, offering a level of recovery that conventional treatment will never approach."
+      ]
+    },
+    {
+      "id": "000020-136",
+      "expected": false
+    },
+    {
+      "id": "000020-137",
+      "expected": true,
+      "snippets": [
+        "It is a masterpiece of engineering, setting a new standard that the rest of the industry will struggle to match."
+      ]
+    },
+    {
+      "id": "000020-138",
+      "expected": false
+    },
+    {
+      "id": "000020-139",
+      "expected": true,
+      "snippets": [
+        "this debut is unquestionably the most important novel of our generation."
+      ]
+    },
+    {
+      "id": "000020-140",
+      "expected": false
+    },
+    {
+      "id": "000020-141",
+      "expected": false
+    },
+    {
+      "id": "000020-142",
+      "expected": true,
+      "snippets": [
+        "The system puts us at the forefront of educational innovation.",
+        "Parents can be certain that this uncompromising approach will deliver exceptional academic results for every child in our care."
+      ]
+    },
+    {
+      "id": "000020-143",
+      "expected": false
+    },
+    {
+      "id": "000020-144",
+      "expected": true,
+      "snippets": [
+        "Our young players are therefore certain to become international champions, and every family joining us can count on that future."
+      ]
+    },
+    {
+      "id": "000020-145",
+      "expected": false
+    },
+    {
+      "id": "000020-146",
+      "expected": false
+    },
+    {
+      "id": "000020-147",
+      "expected": false
+    },
+    {
+      "id": "000020-148",
+      "expected": false
+    },
+    {
+      "id": "000020-149",
+      "expected": false
+    },
+    {
+      "id": "000020-150",
+      "expected": true,
+      "snippets": [
+        "this is simply the best sandwich available anywhere."
+      ]
+    },
+    {
+      "id": "000020-151",
+      "expected": false
+    },
+    {
+      "id": "000020-152",
+      "expected": true,
+      "snippets": [
+        "That delay confirms this is the country's most dysfunctional council, a place where administrative failure has reached an unprecedented level."
+      ]
+    },
+    {
+      "id": "000020-153",
+      "expected": true,
+      "snippets": [
+        "This places the orchestra ahead of its regional competitors in artistic quality and makes it the better choice for our festival."
+      ]
+    },
+    {
+      "id": "000020-154",
+      "expected": true,
+      "snippets": [
+        "Its arrival means the city's transport problems are permanently solved, and every journey from now on will be effortless."
+      ]
+    },
+    {
+      "id": "000020-155",
+      "expected": true,
+      "snippets": [
+        "With seven spice jars on display, the kitchen deserves a higher restaurant rating."
+      ],
+      "objection": "The claim is modest in wording, but it is still an unsupported evaluative upgrade resting on an irrelevant detail. Under the ordinary-sounding unsupported superiority boundary, I count it as a hit."
+    },
+    {
+      "id": "000020-156",
+      "expected": true,
+      "snippets": [
+        "this decision is certain to eliminate workplace conflict and make Finch the best employer in the world."
+      ]
+    },
+    {
+      "id": "000020-157",
+      "expected": true,
+      "snippets": [
+        "Such symmetry confirms Vale's standing as the most accomplished novelist writing today, with no serious rival for the title."
+      ]
+    },
+    {
+      "id": "000020-158",
+      "expected": false
+    },
+    {
+      "id": "000020-159",
+      "expected": false
+    },
+    {
+      "id": "000020-160",
+      "expected": false
+    },
+    {
+      "id": "000020-161",
+      "expected": false
+    },
+    {
+      "id": "000020-162",
+      "expected": false
+    },
+    {
+      "id": "000020-163",
+      "expected": false
+    },
+    {
+      "id": "000020-164",
+      "expected": false
+    },
+    {
+      "id": "000020-165",
+      "expected": true,
+      "snippets": [
+        "This change puts us ahead of every competing platform for information management.",
+        "Organizations looking for the most capable system on the market can now make their choice with complete confidence."
+      ]
+    },
+    {
+      "id": "000020-166",
+      "expected": false
+    },
+    {
+      "id": "000020-167",
+      "expected": true,
+      "snippets": [
+        "That makes it a better contribution than the competing studies and establishes our team as the clear leader in the field."
+      ]
+    },
+    {
+      "id": "000020-168",
+      "expected": false
+    },
+    {
+      "id": "000020-169",
+      "expected": true,
+      "snippets": [
+        "Such a footprint puts this consultancy beyond comparison with any advisory firm on earth; location alone proves its extraordinary quality."
+      ]
+    },
+    {
+      "id": "000020-170",
+      "expected": false
+    },
+    {
+      "id": "000020-171",
+      "expected": false
+    },
+    {
+      "id": "000020-172",
+      "expected": false
+    },
+    {
+      "id": "000020-173",
+      "expected": false
+    },
+    {
+      "id": "000020-174",
+      "expected": false
+    },
+    {
+      "id": "000020-175",
+      "expected": false
+    },
+    {
+      "id": "000020-176",
+      "expected": true,
+      "snippets": [
+        "this funding marks the highest possible recognition of scientific excellence and settles the project's lasting importance."
+      ]
+    },
+    {
+      "id": "000020-177",
+      "expected": false
+    },
+    {
+      "id": "000020-178",
+      "expected": false
+    },
+    {
+      "id": "000020-179",
+      "expected": true,
+      "snippets": [
+        "Yet our determination places the outcome beyond doubt: this will be a record year for the company.",
+        "Shareholders can count on exceptional returns"
+      ]
+    },
+    {
+      "id": "000020-180",
+      "expected": false
+    },
+    {
+      "id": "000020-181",
+      "expected": false
+    },
+    {
+      "id": "000020-182",
+      "expected": true,
+      "snippets": [
+        "Buying matching luggage proves we have a stronger marriage than any of our friends."
+      ]
+    },
+    {
+      "id": "000020-183",
+      "expected": false
+    },
+    {
+      "id": "000020-184",
+      "expected": true,
+      "snippets": [
+        "The discovery will fundamentally reshape physics and place our laboratory at the center of a new scientific era.",
+        "We can already regard its place among the century's greatest breakthroughs as assured."
+      ]
+    },
+    {
+      "id": "000020-185",
+      "expected": false
+    },
+    {
+      "id": "000020-186",
+      "expected": true,
+      "snippets": [
+        "our engineering team has demonstrated a mastery of software development that no other team can match."
+      ]
+    },
+    {
+      "id": "000020-187",
+      "expected": false
+    },
+    {
+      "id": "000020-188",
+      "expected": false
+    },
+    {
+      "id": "000020-189",
+      "expected": false
+    },
+    {
+      "id": "000020-190",
+      "expected": false
+    },
+    {
+      "id": "000020-191",
+      "expected": false
+    },
+    {
+      "id": "000020-192",
+      "expected": true,
+      "snippets": [
+        "This distinction confirms that she is the most talented young artist working in Britain today.",
+        "A brilliant international career is now assured, and galleries will have to compete for the privilege of showing her work."
+      ]
+    },
+    {
+      "id": "000020-193",
+      "expected": true,
+      "snippets": [
+        "One friendly win confirms that Rafi is the most gifted coach in football."
+      ]
+    },
+    {
+      "id": "000020-194",
+      "expected": false
+    },
+    {
+      "id": "000020-195",
+      "expected": false
+    },
+    {
+      "id": "000020-196",
+      "expected": false
+    },
+    {
+      "id": "000020-197",
+      "expected": false
+    },
+    {
+      "id": "000020-198",
+      "expected": false
+    },
+    {
+      "id": "000020-199",
+      "expected": true,
+      "snippets": [
+        "This is the defining photographic work of our generation, certain to shape the way artists see cities for decades to come.",
+        "Collectors who buy the limited edition are assured a place in photographic history."
+      ]
+    },
+    {
+      "id": "000020-200",
+      "expected": false
+    },
+    {
+      "id": "000020-201",
+      "expected": false
+    },
+    {
+      "id": "000020-202",
+      "expected": true,
+      "snippets": [
+        "This is a more artistically significant selection than the neighboring festival's.",
+        "Critics choosing which event to attend should give ours the higher place, as the one with the more accomplished cinema."
+      ]
+    },
+    {
+      "id": "000020-203",
+      "expected": true,
+      "snippets": [
+        "Her book therefore deserves a higher place on the prize shortlist than the novels whose authors did not respond."
+      ]
+    },
+    {
+      "id": "000020-204",
+      "expected": false
+    },
+    {
+      "id": "000020-205",
+      "expected": true,
+      "snippets": [
+        "Our enthusiasm should keep the renewals coming in, even with the current service outages."
+      ]
+    },
+    {
+      "id": "000020-206",
+      "expected": false
+    },
+    {
+      "id": "000020-207",
+      "expected": true,
+      "snippets": [
+        "The team is a better scientific investment than the other groups working on this question.",
+        "Funders can expect more reliable findings and a stronger practical result by directing their support here."
+      ]
+    },
+    {
+      "id": "000020-208",
+      "expected": true,
+      "snippets": [
+        "Its cooking is better than the other cafes on the square, so it should rank above them in the guide."
+      ]
+    },
+    {
+      "id": "000020-209",
+      "expected": false
+    },
+    {
+      "id": "000020-210",
+      "expected": false
+    },
+    {
+      "id": "000020-211",
+      "expected": true,
+      "snippets": [
+        "This exhibition has more artistic value than the rival show across town."
+      ]
+    },
+    {
+      "id": "000020-212",
+      "expected": true,
+      "snippets": [
+        "I would put her above the other consultants in the quality of her diagnoses.",
+        "Remembering a name is enough to make me expect a better medical outcome here."
+      ]
+    },
+    {
+      "id": "000020-213",
+      "expected": true,
+      "snippets": [
+        "That gives us a sound basis for expecting most accounts to renew this autumn, despite the ongoing disputes about delivery times."
+      ]
+    },
+    {
+      "id": "000020-214",
+      "expected": false
+    },
+    {
+      "id": "000020-215",
+      "expected": true,
+      "snippets": [
+        "Its bread is superior to the loaves at the other shops, and buyers can rely on getting a healthier product."
+      ]
+    },
+    {
+      "id": "000020-216",
+      "expected": false
+    },
+    {
+      "id": "000020-217",
+      "expected": false
+    },
+    {
+      "id": "000020-218",
+      "expected": true,
+      "snippets": [
+        "Children attending her school should make better academic progress than pupils elsewhere, whatever the differences between the actual classes."
+      ]
+    },
+    {
+      "id": "000020-219",
+      "expected": false
+    },
+    {
+      "id": "000020-220",
+      "expected": true,
+      "snippets": [
+        "Voters can expect a more capable administration from us than from the opposition."
+      ],
+      "objection": "Could be read as routine campaign positioning, but it asserts unsupported comparative superiority with no basis given."
+    },
+    {
+      "id": "000020-221",
+      "expected": false
+    },
+    {
+      "id": "000020-222",
+      "expected": false
+    },
+    {
+      "id": "000020-223",
+      "expected": true,
+      "snippets": [
+        "It gives a young player a better prospect of a professional career than the neighboring academies.",
+        "Parents choosing where to enroll should expect more successful development here and a smoother route into the senior game."
+      ]
+    },
+    {
+      "id": "000020-224",
+      "expected": true,
+      "snippets": [
+        "Residents can take that as sufficient assurance that public money will be managed more responsibly than under the last administration."
+      ]
+    },
+    {
+      "id": "000020-225",
+      "expected": false
+    },
+    {
+      "id": "000020-226",
+      "expected": false
+    },
+    {
+      "id": "000020-227",
+      "expected": true,
+      "snippets": [
+        "I would regard this lender as the better financial choice for the company.",
+        "The orderly presentation gives us enough reason to expect a more favorable outcome over the life of the loan."
+      ]
+    },
+    {
+      "id": "000020-228",
+      "expected": false
+    },
+    {
+      "id": "000020-229",
+      "expected": true,
+      "snippets": [
+        "Its students have stronger employment prospects than those at the neighboring college, and can expect a smoother route into a well paid job."
+      ]
+    },
+    {
+      "id": "000020-230",
+      "expected": false
+    },
+    {
+      "id": "000020-231",
+      "expected": false
+    },
+    {
+      "id": "000020-232",
+      "expected": false
+    },
+    {
+      "id": "000020-233",
+      "expected": false
+    },
+    {
+      "id": "000020-234",
+      "expected": true,
+      "snippets": [
+        "Merton's offers a better meal than the other restaurants around the station."
+      ],
+      "objection": "Might be read as an ordinary personal preference, but it is phrased as an unqualified comparative claim with no basis."
+    },
+    {
+      "id": "000020-235",
+      "expected": false
+    },
+    {
+      "id": "000020-236",
+      "expected": false
+    },
+    {
+      "id": "000020-237",
+      "expected": true,
+      "snippets": [
+        "It is a more secure product than the competing tools, and security conscious buyers should put it ahead of the alternatives."
+      ]
+    },
+    {
+      "id": "000020-238",
+      "expected": false
+    },
+    {
+      "id": "000020-239",
+      "expected": true,
+      "snippets": [
+        "We can now count on a calmer year together, even though the argument about money remains unresolved."
+      ]
+    },
+    {
+      "id": "000020-240",
+      "expected": true,
+      "snippets": [
+        "Now that we have matching calendars, our relationship should stay healthy without further effort."
+      ]
+    },
+    {
+      "id": "000020-241",
+      "expected": false
+    },
+    {
+      "id": "000020-242",
+      "expected": false
+    },
+    {
+      "id": "000020-243",
+      "expected": false
+    },
+    {
+      "id": "000020-244",
+      "expected": true,
+      "snippets": [
+        "It also makes this the better choice for the quality of the cheese itself.",
+        "Buyers who want a more carefully matured product can rely on the electronic payment option as a useful guide."
+      ]
+    },
+    {
+      "id": "000020-245",
+      "expected": true,
+      "snippets": [
+        "That determination gives us a reliable basis for expecting better examination results than last year.",
+        "Families can plan on improved outcomes, even as teaching hours fall and several specialist posts remain vacant."
+      ]
+    },
+    {
+      "id": "000020-246",
+      "expected": true,
+      "snippets": [
+        "Its interpretations are more accomplished than the rival ensemble's, and anyone choosing a subscription should prefer this season for the higher artistic quality it will deliver."
+      ]
+    },
+    {
+      "id": "000020-247",
+      "expected": true,
+      "snippets": [
+        "Westbrook gives pupils a better start than any of the district's other schools."
+      ]
+    },
+    {
+      "id": "000020-248",
+      "expected": true,
+      "snippets": [
+        "It provides a better valuation service than the other local firms, so we should choose it for a more dependable assessment."
+      ]
+    },
+    {
+      "id": "000020-249",
+      "expected": true,
+      "snippets": [
+        "Her commitment nevertheless gives us enough assurance to plan for shorter waits this winter.",
+        "Residents can expect the service to improve steadily from this point forward."
+      ]
+    },
+    {
+      "id": "000020-250",
+      "expected": true,
+      "snippets": [
+        "I take that as a sign that the squad will defend better next season and move above the other promoted clubs."
+      ]
+    },
+    {
+      "id": "000020-251",
+      "expected": true,
+      "snippets": [
+        "Ours is the more scientifically credible account, and future work should proceed on the basis that it has the better answer."
+      ]
+    },
+    {
+      "id": "000020-252",
+      "expected": false
+    },
+    {
+      "id": "000020-253",
+      "expected": true,
+      "snippets": [
+        "It is a stronger choice for payment processing than the competing packages, with more dependable results for finance teams.",
+        "A business choosing it should expect fewer errors than it would encounter with any of the alternatives."
+      ]
+    },
+    {
+      "id": "000020-254",
+      "expected": true,
+      "snippets": [
+        "Vale's novel is the stronger literary achievement; Finch's simply cannot compete."
+      ]
+    },
+    {
+      "id": "000020-255",
+      "expected": true,
+      "snippets": [
+        "Its positive attitude still gives us a dependable basis for expecting promotion.",
+        "Sponsors can plan on the larger audiences that playing in the next division will bring."
+      ]
+    },
+    {
+      "id": "000020-256",
+      "expected": true,
+      "snippets": [
+        "Dan is a more dependable financial adviser than anyone your bank could assign."
+      ]
+    },
+    {
+      "id": "000020-257",
+      "expected": true,
+      "snippets": [
+        "I would expect more accurate accounts from him, so there is little reason to scrutinize his calculations."
+      ]
+    },
+    {
+      "id": "000020-258",
+      "expected": false
+    },
+    {
+      "id": "000020-259",
+      "expected": true,
+      "snippets": [
+        "We can therefore expect the subscription base to grow steadily, even though we have not changed the features that customers complain about."
+      ]
+    },
+    {
+      "id": "000020-260",
+      "expected": true,
+      "snippets": [
+        "The head's determination means we can count on improved examination results this year."
+      ]
+    },
+    {
+      "id": "000020-261",
+      "expected": false
+    },
+    {
+      "id": "000020-262",
+      "expected": false
+    },
+    {
+      "id": "000020-263",
+      "expected": true,
+      "snippets": [
+        "This browser is the more dependable choice for anyone handling sensitive client work."
+      ]
+    },
+    {
+      "id": "000020-264",
+      "expected": false
+    },
+    {
+      "id": "000020-265",
+      "expected": true,
+      "snippets": [
+        "His enthusiasm gives us enough reason to plan for a higher league finish."
+      ]
+    },
+    {
+      "id": "000020-266",
+      "expected": true,
+      "snippets": [
+        "Our firm provides more reliable legal advice than the other practices on this street."
+      ]
+    },
+    {
+      "id": "000020-267",
+      "expected": true,
+      "snippets": [
+        "His interpretations are more accomplished than the guest conductor's, making his concerts the better artistic choice for this season."
+      ]
+    },
+    {
+      "id": "000020-268",
+      "expected": true,
+      "snippets": [
+        "That should be enough to make sharing the house work well, even though we still disagree about rent and overnight guests."
+      ]
+    },
+    {
+      "id": "000020-269",
+      "expected": false
+    },
+    {
+      "id": "000020-270",
+      "expected": false
+    },
+    {
+      "id": "000020-271",
+      "expected": true,
+      "snippets": [
+        "A longer team handshake means we should finish higher in the table this year."
+      ]
+    },
+    {
+      "id": "000020-272",
+      "expected": true,
+      "snippets": [
+        "The council's fresh letterhead should restore public trust after the missing funds inquiry."
+      ]
+    },
+    {
+      "id": "000020-273",
+      "expected": false
+    },
+    {
+      "id": "000020-274",
+      "expected": false
+    },
+    {
+      "id": "000020-275",
+      "expected": false
+    },
+    {
+      "id": "000020-276",
+      "expected": true,
+      "snippets": [
+        "It is a more serious scientific contribution than the other posters, and should receive greater weight in future research."
+      ]
+    },
+    {
+      "id": "000020-277",
+      "expected": false
+    },
+    {
+      "id": "000020-278",
+      "expected": false
+    },
+    {
+      "id": "000020-279",
+      "expected": false
+    },
+    {
+      "id": "000020-280",
+      "expected": true,
+      "snippets": [
+        "You will recover faster at this clinic than at the hospitals nearby."
+      ]
+    },
+    {
+      "id": "000020-281",
+      "expected": true,
+      "snippets": [
+        "It is the more dependable option for identifying rare cells, and its readings deserve greater confidence than those from competing instruments."
+      ]
+    },
+    {
+      "id": "000020-282",
+      "expected": true,
+      "snippets": [
+        "Our kitchen produces a more accomplished meal than any of the local competitors."
+      ]
+    },
+    {
+      "id": "000020-283",
+      "expected": true,
+      "snippets": [
+        "I would rate the surgery above the one across town for the quality of its medical judgments.",
+        "New patients can be confident of getting a better diagnosis here."
+      ]
+    },
+    {
+      "id": "000020-284",
+      "expected": true,
+      "snippets": [
+        "Our new manager's enthusiasm means we can plan on promotion this season."
+      ]
+    },
+    {
+      "id": "000020-285",
+      "expected": false
+    },
+    {
+      "id": "000020-286",
+      "expected": false
+    },
+    {
+      "id": "000020-287",
+      "expected": true,
+      "snippets": [
+        "That gives residents a good reason to expect the housing backlog to shrink, even with fewer staff assigned to it."
+      ]
+    },
+    {
+      "id": "000020-288",
+      "expected": true,
+      "snippets": [
+        "Our results deserve more trust than the other team's published conclusions."
+      ]
+    },
+    {
+      "id": "000020-289",
+      "expected": true,
+      "snippets": [
+        "It is a more reliable service than the other backup providers, and the safer choice for an important production system.",
+        "Buyers who need dependable recovery should put it ahead of the alternatives."
+      ]
+    },
+    {
+      "id": "000020-290",
+      "expected": false
+    },
+    {
+      "id": "000020-291",
+      "expected": false
+    },
+    {
+      "id": "000020-292",
+      "expected": true,
+      "snippets": [
+        "That puts her ahead of the other candidates in financial competence, making her the better choice to manage the borough's budget."
+      ]
+    },
+    {
+      "id": "000020-293",
+      "expected": true,
+      "snippets": [
+        "That settles her prospects: she can expect regular promotion and a comfortable rise in salary over the next few years."
+      ]
+    },
+    {
+      "id": "000020-294",
+      "expected": true,
+      "snippets": [
+        "The photograph makes him a more reliable person to manage the inheritance than our sister.",
+        "I would expect the finances to work out better with him in charge from now on."
+      ]
+    },
+    {
+      "id": "000020-295",
+      "expected": true,
+      "snippets": [
+        "She is a better specialist than the alternatives in this area, and gives patients a better chance of getting well."
+      ]
+    },
+    {
+      "id": "000020-296",
+      "expected": true,
+      "snippets": [
+        "It is a more reliable choice for high availability workloads than competing platforms, and buyers can expect fewer outages here."
+      ]
+    },
+    {
+      "id": "000020-297",
+      "expected": false
+    },
+    {
+      "id": "000020-298",
+      "expected": false
+    },
+    {
+      "id": "000020-299",
+      "expected": false
+    },
+    {
+      "id": "000020-300",
+      "expected": false
+    },
+    {
+      "id": "000020-301",
+      "expected": false
+    },
+    {
+      "id": "000020-302",
+      "expected": false
+    },
+    {
+      "id": "000020-303",
+      "expected": true,
+      "snippets": [
+        "She will be a more considerate host than Jo, who sent a text, so we can expect the children to be better looked after there."
+      ]
+    },
+    {
+      "id": "000020-304",
+      "expected": true,
+      "snippets": [
+        "That puts my manuscript ahead of the other submissions in literary quality and gives me a reliable basis for expecting a book deal."
+      ]
+    },
+    {
+      "id": "000020-305",
+      "expected": true,
+      "snippets": [
+        "It is consequently a healthier choice than the other jams on the shelf, and deserves a place in any sensible diet."
+      ]
+    },
+    {
+      "id": "000020-306",
+      "expected": false
+    },
+    {
+      "id": "000020-307",
+      "expected": false
+    },
+    {
+      "id": "000020-308",
+      "expected": true,
+      "snippets": [
+        "That places this clinic above its competitors in diagnostic accuracy, so I would choose it for the more dependable test result."
+      ]
+    },
+    {
+      "id": "000020-309",
+      "expected": true,
+      "snippets": [
+        "The launch will go smoothly; our developers are excited about showing their work."
+      ]
+    },
+    {
+      "id": "000020-310",
+      "expected": false
+    },
+    {
+      "id": "000020-311",
+      "expected": false
+    },
+    {
+      "id": "000020-312",
+      "expected": false
+    },
+    {
+      "id": "000020-313",
+      "expected": true,
+      "snippets": [
+        "Its service is better than the neighboring district's, and complainants should expect fairer decisions here.",
+        "The council deserves a higher place in any assessment of administrative quality and the handling of residents' concerns."
+      ]
+    },
+    {
+      "id": "000020-314",
+      "expected": true,
+      "snippets": [
+        "That puts the authority in a better position to reduce waiting lists, even as the number of available appointments falls."
+      ]
+    },
+    {
+      "id": "000020-315",
+      "expected": true,
+      "snippets": [
+        "Its treatment is more effective than the other practices', making it a better choice for patients who want a dependable recovery."
+      ]
+    },
+    {
+      "id": "000020-316",
+      "expected": true,
+      "snippets": [
+        "That makes the school a better academic choice than the one we visited earlier.",
+        "My son should make stronger progress here, regardless of which classes he eventually joins."
+      ]
+    },
+    {
+      "id": "000020-317",
+      "expected": false
+    },
+    {
+      "id": "000020-318",
+      "expected": true,
+      "snippets": [
+        "The update makes this a better platform for protecting confidential records, and it should improve our compliance position immediately."
+      ]
+    },
+    {
+      "id": "000020-319",
+      "expected": true,
+      "snippets": [
+        "It is the stronger school academically, giving children a better chance of success than the other local options."
+      ]
+    },
+    {
+      "id": "000020-320",
+      "expected": false
+    },
+    {
+      "id": "000020-321",
+      "expected": false
+    },
+    {
+      "id": "000020-322",
+      "expected": true,
+      "snippets": [
+        "I would expect treatment here to work better than at the hospital.",
+        "The gesture gives the practice an edge in the quality of care for any condition I might bring to it."
+      ]
+    },
+    {
+      "id": "000020-323",
+      "expected": true,
+      "snippets": [
+        "That makes a top four finish a reasonable expectation this season, despite the departure of its three leading scorers."
+      ]
+    },
+    {
+      "id": "000020-324",
+      "expected": false
+    },
+    {
+      "id": "000020-325",
+      "expected": false
+    },
+    {
+      "id": "000020-326",
+      "expected": false
+    },
+    {
+      "id": "000020-327",
+      "expected": false
+    },
+    {
+      "id": "000020-328",
+      "expected": false
+    },
+    {
+      "id": "000020-329",
+      "expected": false
+    },
+    {
+      "id": "000020-330",
+      "expected": false
+    },
+    {
+      "id": "000020-331",
+      "expected": false
+    },
+    {
+      "id": "000020-332",
+      "expected": false
+    },
+    {
+      "id": "000020-333",
+      "expected": false
+    },
+    {
+      "id": "000020-334",
+      "expected": false
+    },
+    {
+      "id": "000020-335",
+      "expected": false
+    },
+    {
+      "id": "000020-336",
+      "expected": false
+    },
+    {
+      "id": "000020-337",
+      "expected": true,
+      "snippets": [
+        "That means the cast's performance was better than the sold out show we saw last week, and deserves a stronger review."
+      ]
+    },
+    {
+      "id": "000020-338",
+      "expected": true,
+      "snippets": [
+        "We provide better advice than the other firms in this market.",
+        "Clients choosing us can expect more favorable financial results than they would obtain elsewhere."
+      ]
+    },
+    {
+      "id": "000020-339",
+      "expected": true,
+      "snippets": [
+        "Its cooking is superior to the restaurant across the street, so a serious diner should choose it for a more accomplished meal.",
+        "It deserves the higher rating in any local guide."
+      ]
+    },
+    {
+      "id": "000020-340",
+      "expected": false
+    },
+    {
+      "id": "000020-341",
+      "expected": true,
+      "snippets": [
+        "It offers better food than the other places in this part of town, and deserves the higher position in any guide."
+      ]
+    },
+    {
+      "id": "000020-342",
+      "expected": false
+    },
+    {
+      "id": "000020-343",
+      "expected": false
+    },
+    {
+      "id": "000020-344",
+      "expected": false
+    },
+    {
+      "id": "000020-345",
+      "expected": true,
+      "snippets": [
+        "Because we believe in this project, further grants will be straightforward to secure."
+      ]
+    },
+    {
+      "id": "000020-346",
+      "expected": false
+    },
+    {
+      "id": "000020-347",
+      "expected": false
+    },
+    {
+      "id": "000020-348",
+      "expected": true,
+      "snippets": [
+        "that shared wish is enough to give us confidence that the coming year will be stable. We can plan on fewer difficulties from here."
+      ]
+    },
+    {
+      "id": "000020-349",
+      "expected": true,
+      "snippets": [
+        "I would expect my daughter's marks to rise steadily with him, even though they have yet to discuss which subject she needs help with."
+      ]
+    },
+    {
+      "id": "000020-350",
+      "expected": true,
+      "snippets": [
+        "That puts it in a better position than the home side, and makes three points a dependable expectation on Saturday."
+      ]
+    },
+    {
+      "id": "000020-351",
+      "expected": false
+    },
+    {
+      "id": "000020-352",
+      "expected": false
+    },
+    {
+      "id": "000020-353",
+      "expected": true,
+      "snippets": [
+        "Our program gives you a better prospect of recovery than the other available treatments."
+      ]
+    },
+    {
+      "id": "000020-354",
+      "expected": false
+    },
+    {
+      "id": "000020-355",
+      "expected": true,
+      "snippets": [
+        "Ours should be considered the more credible account of the phenomenon.",
+        "The earlier submission date is a good reason for researchers to prefer our explanation"
+      ]
+    },
+    {
+      "id": "000020-356",
+      "expected": false
+    },
+    {
+      "id": "000020-357",
+      "expected": false
+    },
+    {
+      "id": "000020-358",
+      "expected": true,
+      "snippets": [
+        "It offers a stronger scientific prospect than the other institute, and funders can expect more useful discoveries for the same investment."
+      ]
+    },
+    {
+      "id": "000020-359",
+      "expected": true,
+      "snippets": [
+        "We can now plan for a steady increase in revenue, although prices, distribution, and the products themselves remain unchanged."
+      ]
+    },
+    {
+      "id": "000020-360",
+      "expected": false
+    }
+  ],
+  "snippetProvenance": {
+    "defaultPass": "pass6-final",
+    "defaultSource": "finalSourceJudgments",
+    "exceptions": []
+  },
+  "localAudit": {
+    "path": "/tmp/000020-inflated-evaluation-holdout-pass4-20261021T000502-audit.json",
+    "sha256": "32aecf908e1e4cae5e51233edf7e24b8cee1c3a3f030b67b376b38e9948cf394",
+    "exactDuplicates": 0,
+    "normalizedDuplicates": 0,
+    "sharedEightWordSequenceCount": 20,
+    "maximumTokenJaccard": 0.34146341463414637,
+    "distributions": [
+      {
+        "expected": true,
+        "count": 180,
+        "domains": {
+          "business": 18,
+          "sport": 18,
+          "technology": 18,
+          "health": 18,
+          "personal": 18,
+          "food": 18,
+          "education": 18,
+          "civic": 18,
+          "science": 18,
+          "arts": 18
+        },
+        "lengths": {
+          "short": 45,
+          "medium": 90,
+          "long": 45
+        },
+        "words": 5945,
+        "withDigit": 5,
+        "withQuote": 7,
+        "withBecause": 4
+      },
+      {
+        "expected": false,
+        "count": 180,
+        "domains": {
+          "civic": 18,
+          "technology": 18,
+          "food": 18,
+          "science": 18,
+          "personal": 18,
+          "business": 18,
+          "health": 18,
+          "education": 18,
+          "arts": 18,
+          "sport": 18
+        },
+        "lengths": {
+          "short": 45,
+          "medium": 90,
+          "long": 45
+        },
+        "words": 5754,
+        "withDigit": 6,
+        "withQuote": 5,
+        "withBecause": 6
+      }
+    ],
+    "assessment": "Shared eight-word sequences were inspected as retained contextual controls. Closest token-overlap pairs remain distinct passages, including parallel claims in different domains.",
+    "crossSplitAudit": "Reserved for a fresh independent auditor."
+  },
+  "selection": {
+    "status": "full-reviewed-canonical-written-awaiting-parent-archive",
+    "archiveCommit": null,
+    "mandatoryIds": [
+      "000020-002",
+      "000020-033",
+      "000020-056",
+      "000020-062",
+      "000020-091",
+      "000020-096",
+      "000020-119",
+      "000020-145",
+      "000020-155",
+      "000020-220",
+      "000020-234",
+      "000020-309"
+    ],
+    "mandatoryCounts": {
+      "hits": 9,
+      "noHits": 3
+    },
+    "policy": "Retain mandatory cases first; largest-remainder allocation by length; within buckets ascending SHA-256 of family, type, split, stable ID, with ID tie-break.",
+    "removals": 0,
+    "targetPerClass": 100
+  },
+  "finalReview": {
+    "pass": "pass6-final",
+    "count": 360,
+    "writingChangedSinceReview": false,
+    "allFinalLabelsAgreeWithFinalReviewer": true,
+    "finalDisagreements": [],
+    "currentWritingCoverage": {
+      "blind": 360,
+      "adversarial": 360,
+      "finalBlind": 360
+    },
+    "supersededReviews": [
+      {
+        "pass": "pass3-final",
+        "reason": "Additional passages and fourteen realism rewrites required a new full final review; all original call outputs are preserved."
+      }
+    ],
+    "supersededDefinitionReviews": [],
+    "sourceCallIndices": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "files": {
+    "markdown": "datasets/ai-synthetic/passages/000020-puffery-and-overstatement-inflated-evaluation-holdout.md",
+    "labels": "datasets/ai-synthetic/passages/000020-puffery-and-overstatement-inflated-evaluation-holdout.labels.json",
+    "markdownSha256": "57fb528f3b045bd69bd8700238267c79e425ba3d5f4129910024cfe11982baa1",
+    "labelsSha256": "8fe0b911d5b2852628936398391d843c094655af72df09fafd199edb1e5fd9c0"
+  },
+  "validation": {
+    "readDocument": "passed",
+    "samples": 360,
+    "exactSnippets": "passed",
+    "localNormalizedDuplicates": 0,
+    "domainsPerClass": 10
+  },
+  "readiness": {
+    "threePassReview": true,
+    "canonicalPoolWritten": true,
+    "needsArchivalCommit": true,
+    "balancedFinalSelection": "pending parent archive commit",
+    "independentQA": "pending parent assignment",
+    "crossSplitAudit": "pending fresh independent auditor"
+  }
+}
