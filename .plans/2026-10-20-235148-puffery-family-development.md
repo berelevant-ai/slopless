@@ -4,7 +4,7 @@
 
 Prepare reviewed development and protected holdout datasets for every consolidated issue type in puffery and overstatement, then tune concise Jev prompts using development alone. Stop with a reviewed development report and frozen candidates; reserve holdout model evaluation for a later task.
 
-This document plans the work. Generation, Opus review, runner changes, and Jev calls begin after execution is requested.
+Execution started on 2026-10-21 at the user's request. The two finalized types are inflated evaluation and sweeping generalization; each uses passage input. Holdout inference remains excluded from this task.
 
 ## Previous Method And Lessons
 
