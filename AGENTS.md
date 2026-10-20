@@ -13,7 +13,10 @@
 - Pair `<six-digit-id>-<short-descriptive-slug>.md` with the same stem plus `.labels.json`.
   - Assign each file pair a globally unique, stable ID. Describe its content in the slug; retain source and model details in JSON.
   - Store passage IDs and boundaries in the paired JSON alongside separate judgments. Keep cohesive texts intact and locate judgments within them.
-- Labels record expected hits and no-hits for named checks, with reasons and evidence where available.
+- Labels identify the passage, the named check, and the expected hit or no-hit.
+  - For hits, record marked spans as character ranges within the passage: the specific wording or sequence that makes it bad. Use several spans when a construction crosses sentences.
+  - Add a short explanation of the writing problem when needed. Source history, prior runs, and review transcripts belong outside the judgment.
+  - No-hit labels omit marked spans and hit explanations. Call the marked wording spans, rather than evidence; use it to evaluate highlighting when that is part of the task.
   - Missing labels mean unassessed. Several checks can label the same passage without copying its text.
   - Preserve original linguistic scores and annotations as their original measurements.
 - Keep versioned prompts in root `prompts/<version>/`: `shared.md` plus concise check-specific Markdown files.
