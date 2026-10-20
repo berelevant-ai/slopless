@@ -8,14 +8,15 @@
 ## Product Scope
 
 - Target standardized sloppiness checks with fixed definitions and tested defaults; CLI flags select checks. Business-specific terminology belongs to the separate existing Python workflow.
+- Judge the supplied passage or full text. External fact-checking, source verification, and decisions about a particular reader's prior knowledge belong to the separate editor.
 - Keep readability measurement and terminology-policy enforcement outside this V2 iteration.
 - Compare Jev with the old CLI before deciding which deterministic checks remain useful and whether textlint support should continue.
   - Base decisions on labeled evaluation, later corpus validation, highlighting quality, latency, and cost. Preserve production behavior while evaluating the replacement.
-- Read [the accepted V2 taxonomy](.plans/2026-10-20-125402-v2-rule-taxonomy.md) when assigning families and issue types. It maps all existing checks and records the Humanizer issue-definition gaps and their required context.
+- Read [the accepted V2 taxonomy](.plans/2026-10-20-125402-v2-rule-taxonomy.md) when assigning families and issue types. It maps existing checks and records Humanizer additions and exclusions.
 - Exclude decorative-bold checks. Judge redundant label wording independently of its formatting.
-- Declare `input: passage` or `input: text` in each finalized issue definition, with any required reader context or source material specified there.
+- Declare `input: passage` or `input: text` in each finalized issue definition. The submitted writing is the complete input.
   - A passage can include several paragraphs. A text is the complete article, story, or reply; text-level checks use it intact.
-  - Classify buried answers and reader-irrelevant background as text-level checks. Keep density reporting separate from this input requirement.
+  - Classify buried answers and repeated explanations within the submitted text as text-level checks. Keep density reporting separate from this input requirement.
 
 ## Storage
 
