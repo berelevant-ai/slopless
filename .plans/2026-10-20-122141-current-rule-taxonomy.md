@@ -1,0 +1,122 @@
+- **Semantic thinness** (`semantic-thinness`)
+  - **abstract-agency-personification**: "The room seemed to understand that something important was beginning to shift." / "The strategy wanted to become more honest with itself."
+  - **abstract-contrast**: "The point is not control. The point is repair." / "Prevention lives in rehearsal, not in the lecture."
+  - **abstract-metaphor-claim**: "Prevention lives in rehearsal." / "Problem-solving lands after the storm."
+  - **abstract-personification-line**: "Fear had no place in her schedule." / "Doubt entered the conversation."
+  - **body-emotion-shorthand**: "Her chest felt a sudden heavy thump." / "Cassia's chest felt a heavy thump."
+  - **body-knows**: "The body knows what it knows." / "The body learns the pattern."
+  - **deictic-summary**: "That is the real promise." / "That is the lesson, and it applies more widely than people think."
+  - **different-job-summary**: "That is a different job." / "This is a different question."
+  - **emotion-as-substance**: "The anger finally melted out of her posture." / "Relief washed over Cassia."
+  - **empty-atmosphere-shift**: "The yard felt suddenly cold." / "The air felt different now."
+  - **empty-emotional-weather**: "Silence sat between them." / "A quiet tension settled over the room."
+  - **empty-quantification**: "The report just put a number on it." / "The dashboard simply put a number on this."
+  - **empty-scene-state**: "The yard was empty." / "The room was quiet."
+  - **empty-scene-transition**: "Everything shifted." / "It changed everything."
+  - **empty-significance-occasion**: "That matters when marketing leaders choose what to do next." / "The difference matters for anyone who reads the brief."
+  - **fixed-metaphor-frame**: "The south pier was a graveyard of shadows and salt spray." / "The courtyard was a maze of dust and smoke."
+  - **gaze-choreography**: "Her gaze fell to the ground." / "His gold eyes measured the line of small chests."
+  - **generic-lesson-extraction**: "The lesson was simple." / "The answer is consistency."
+  - **generic-pressure-or-stakes**: "The stakes felt real." / "The pressure sat in the room."
+  - **generic-realization**: "She realized the truth." / "They understood what mattered."
+  - **hollow-significance**: "That mattered more than it seemed." / "It changed everything."
+  - **low-information-physical-blocking**: "They just stood there." / "She looked around."
+  - **missing-conversation-plan**: "The content plan is missing the conversation after the query." / "The page plan lacks the follow-up path after the search."
+  - **point-is-frame**: "The point is not performance." / "The point is to be honest enough to see what is there."
+  - **puffery-evaluative-claim**: "The renowned architect changed the city forever." / "The product represents an unprecedented breakthrough."
+  - **real-work-begins**: "The real work begins." / "The real work begins when we stop hiding behind noise."
+  - **recursive-meaning-frame**: "This moment matters because it invites us to rethink what matters." / "The work ahead opens space for more meaningful work."
+  - **sensory-instead-of-frame**: "The courtyard smelled of disturbed dust and old ash instead of hot metal." / "The yard smelled of dry tea and old hemp instead of oil."
+  - **silence-as-actor**: "The silence was not empty." / "The silence felt arranged."
+  - **solution-boring-frame**: "The solution is boring." / "The solution is boring: move copy into raw HTML."
+  - **something-shifted**: "Something had shifted." / "Everything changed."
+  - **summary-fog-transition**: "The rest of the drill was a blur." / "Everything after that was a haze."
+  - **superficial-analysis**: ", highlighting the city's commitment to sustainable growth." / ", underscoring the importance of simplicity."
+  - **truth-answer-moves**: "Eventually the truth surfaces." / "The answer arrives as a body sensation."
+  - **vague-connective-payoff**: "And that is where the work begins." / "That is why it matters."
+  - **vague-summary-cost**: "All of that gets expensive when nobody knows which problem they are solving." / "All this gets wasteful when no one knows what question they are answering."
+  - **vague-threshold-change**: "Things got harder." / "Everything became clearer."
+- **Syntactic patterns** (`syntactic-patterns`)
+  - **authority-padding**: "The evidence is strongest when the team records decisions before launch." / "The broader research backs the simpler retention plan."
+  - **uncited-authority**: "Research suggests many parents change the routine slowly." / "The evidence suggests that collaboration drives meaningful change."
+  - **affirmation-closers**: "That is the whole point." / "That's the key."
+  - **boilerplate-conclusion**: "Ultimately, the core fact is ownership." / "Ultimately, the whole trick is keeping owners visible."
+  - **false-question**: "Isn't that the point?" / "Is that not the whole goal?" as section endings.
+  - **formulaic-challenges**: "Despite these challenges, it remains well positioned for continued growth." / "Even with these hurdles, ongoing innovation will help it realize its full potential."
+  - **summative-closer**: "At the end of the day, ownership matters." / "The bottom line is simple."
+  - **blame-reframe**: "The gap comes from practice, not shame." / "Treat the review as learning instead of blame."
+  - **contrastive-aphorism**: "The lesson is the part that sticks." / "Small habit is the part that sticks."
+  - **negation-reframe**: "The plan is not complicated. The plan is unfinished." / "We do not sell software. We sell outcomes."
+  - **softening-language**: "The rollout could generally reduce review time." / "Research suggests many parents change the routine slowly."
+  - **universalizing-claims**: "Everyone wants the checklist to feel simple." / "Most people expect the process to explain itself."
+  - **boilerplate-framing**: "When it comes to onboarding, the first hour matters." / "Some common reasons include missing owners and unclear deadlines."
+  - **formal-transition-density**: Repeated transitions such as "However ... Therefore ... Ultimately ..." / "Moreover ... Furthermore ... Nevertheless ..."
+  - **generic-signposting**: "The verdict was simple: ship it." / "The lesson was simple."
+  - **lesson-framing**: "The lesson was simple." / "The truth is not dramatic."
+  - **llm-openers**: "In today's fast-paced world ..." / "In the ever-evolving landscape ..."
+  - **observer-guidance**: "That is where progress lives." / "And that is where the work begins."
+  - **significance-density**: Repeated "Notably ... Importantly ... Crucially ..." / Repeated "It's worth noting ... It's important to remember ... It bears mentioning ..."
+  - **response-wrapper**: "Please let me know if you need a deeper summary." / "I can provide general information about queue backfills."
+  - **demonstrative-emphasis**: "That is where progress lives." / "The lesson is the part that sticks."
+  - **empty-emphasis**: "So this part matters." / "That part matters."
+  - **fragment-stacking**: "Too broad. Deeply vague. More like a label than a plan." / "No implant. No brain surgery."
+  - **repeated-predicate-end**: "Content can help. Technical fixes can help. Consulting can help." / Three nearby sentences ending "is important."
+  - **repeated-sentence-starts**: "The report says ... The report says ... The report says ..." / Several nearby sentences starting "This means ..."
+  - **triple-sentence-repeat**: "Home starts. Home waits. Home moves." / "Home holds. Home turns. Home closes."
+  - **triple-word-repeat**: "The platform is fast, reliable, and secure." / "The product creates a flywheel of trust, engagement, and measurable impact."
+- **Narrative slop** (`narrative-slop`)
+  - **body-action-density**: Repeated movement such as "climbed ... pulled ... walked ... crouched" / Repeated body cues such as "ears twitched ... tail angled ... paws shifted"
+  - **empty-beat**: "Liska hesitated for a second." / "Cassia kept pace."
+  - **emotion-telling**: "She was still very angry." / "She was afraid of the audit."
+  - **flat-action-cadence**: "We go. We rest. We look. We wait." / "Mira ran. Eli froze. The teacher pointed. Children searched."
+  - **low-information-beat-density**: "She turned her head. Her eyes looked tired. She crossed her arms and waited." / "Cassia glanced at Arden. Her throat tightened. She stepped back."
+  - **perception-verb-density**: "She watched him leave. She looked at Arden. He was looking back." / "He glanced at the gate, stared at the yard, then gazed down the lane."
+  - **narrative-cliches**: "Her heart pounded in her chest." / "A shiver ran down her spine."
+- **Phrases** (`phrases`)
+  - **cliches**: "back to square one" / "navigate the complexities of"
+  - **corporate-speak**: "low-hanging fruit" / "drill-down"
+  - **genre-cliches**: "a culinary journey" / "a feast for the senses"
+  - **humble-bragger**: "As someone who has spent years in this field ..." / "As someone who has worked with leading teams ..."
+  - **jargon-faker**: "debug your mindset" / "optimizing for authenticity"
+  - **llm-disclaimer**: "As a language model, I cannot verify that." / "I don't have access to real-time data."
+  - **prohibited-phrases**: "In today's fast-paced world" / "Let's dive in"
+  - **redundancy**: "repeated again" / "basic fundamentals"
+  - **self-help-cliches**: "abundance mindset" / "be authentically you"
+  - **seo-filler**: "Let's delve into" / "In today's fast-paced ..."
+  - **skunked-terms**: "fulsome" / "decimate" from the disputed-word list.
+  - **uncomparables**: "very unique" / "most complete"
+  - **weasel-attribution**: "a growing body of evidence suggests" / "according to medical experts"
+  - **wordiness**: "due to the fact that" / "because of the fact that"
+- **Academic slop** (`academic-slop`)
+  - **academic-boilerplate**: "bridge theory and practice" / "fertile ground"
+  - **academic-formula-frames**: "The paper contributes a fresh perspective to the ongoing dialogue about pedagogical innovation." / "The findings indicate that mentorship can unlock new forms of academic belonging."
+  - **tortured-phrases**: "counterfeit consciousness" for artificial intelligence / "bosom peril" for breast cancer
+- **Words** (`words`)
+  - **actually-overuse**: Repeated "actually" in commentary / Repeated "Actually, ..." sentence openings.
+  - **hedge-stacking**: "Maybe, just maybe, the alley would stay quiet." / "The migration might perhaps finish after the review."
+  - **llm-vocabulary**: Clusters such as "vibrant landscape ... delve ... intricate tapestry" / "Additionally ... highlights ... enduring commitment ... valuable ..."
+  - **llm-vocabulary-density**: Clusters such as "scalable approach unlocks nuanced insight across the ecosystem" / "transformative strategy elevates impact across every workflow"
+  - **prohibited-words**: Configured stock words such as "delve" / "elevate".
+  - **quietly-filler**: "The change quietly reshaped the strategy." / "Quietly, the rules changed."
+  - **quietly-overuse**: Repeated "quietly" across an article / Repeated "quietly" across a chapter.
+  - **silently-filler**: "The change silently reshaped the strategy." / "Silently, the rules changed."
+  - **simplicity**: Clusters such as "utilize numerous tools to facilitate" / Repeated complex substitutes where plain words would work.
+- **Orthography** (`orthography`)
+  - **artifact-placeholders**: `:contentReference[oaicite:3]{index=3}` / `sandbox:/mnt/data/report.md`
+  - **colon-dramatic**: "And then it hit me: everything changed." / "The verdict was simple: ship it."
+  - **em-dashes**: An em dash joining words without spaces / A sentence repeatedly interrupted by unspaced em dashes.
+  - **exclamation-density**: "Amazing! Incredible!" in one paragraph / "Great! Perfect! Wonderful!" in one paragraph.
+  - **fake-timestamps**: "5:47 PM" / "5:47pm"
+  - **hidden-unicode-controls**: `U+200B` zero-width space / `U+202E` right-to-left override.
+  - **sentence-case**: "Draft Review Notes For Editors" / "The Complete Guide To Better Writing" as headings.
+  - **smart-quotes**: `U+201C` and `U+201D` curly double quotes / `U+2019` curly apostrophes.
+- **Metrics** (`metrics`)
+  - **coleman-liau**: Readability index 15 / Readability index 18, against the default maximum of 12.
+  - **flesch-kincaid**: Flesch Reading Ease 40 / Flesch Reading Ease 50, against the default minimum of 61.
+  - **gunning-fog**: Fog index 15 / Fog index 18, against the default maximum of 12.
+  - **paragraph-length**: Seven sentences in one paragraph / Ten sentences in one paragraph, against the default maximum of six.
+  - **word-repetition**: Six uses of "home" in one paragraph / Seven uses of "platform" in one paragraph, against the default maximum of five.
+- **Term policy** (`term-policy`)
+  - **forbidden-terms**: "wallet" present when forbidden / "casino" present when forbidden.
+  - **recommended-terms**: Three distinct recommended terms when four are requested / No recommended terms when two are requested.
+  - **required-terms**: "wallet" absent when required / "KYC" absent when required.
