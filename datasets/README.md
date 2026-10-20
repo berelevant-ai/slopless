@@ -53,7 +53,7 @@ A no-hit applies to its named check and passage. Omitted checks remain unassesse
 
 ## Semantic-Thinness Sets
 
-The eighteen collections contain 3,620 passages and 106,143 words. Each type has at least 100 hits and 100 no-hits in development and in a separately generated holdout.
+The eighteen collections contain 3,782 passages and 113,695 words. Each type has at least 100 hits and 100 no-hits in development and in a separately generated holdout.
 
 Opus reviews each passage, and independent adjudication determines its final label. Corrected labels preserve the original passages; added examples restore the class minimum when needed. Each hit uses Opus-selected snippets.
 
@@ -71,7 +71,7 @@ Each Markdown file has a matching `.labels.json`. A no-hit applies to its named 
 
 Use development files for prompt tuning. Keep holdout writing, labels, snippets, and case-specific review notes outside prompt-development contexts, then freeze the candidate and settings before evaluation.
 
-The additional [realistic metaphor development pilot](ai-synthetic/passages/000019-semantic-thinness-unexplained-metaphor-development-pilot.md) contains thirty passages: ten hits and twenty no-hits after independent review. Its fourteen newer passages cover everyday reporting, practical advice, and software explanation, with five hits and nine no-hits. The review record preserves four final model disagreements across the two batches. The newer positives test metaphors substituting for explanations or decision criteria; broader metaphor coverage needs further examples before replacing the original collections.
+The regenerated metaphor collections use realistic prose across practical advice, reporting, fiction, and technical explanation. Development contains 100 hits and 161 no-hits; holdout contains 122 hits and 180 no-hits. All thirty approved pilot passages are folded into development with their original IDs, text, labels, and snippets. Git commit `32c921ec` preserves the earlier collections and standalone pilot.
 
 ## Commands
 

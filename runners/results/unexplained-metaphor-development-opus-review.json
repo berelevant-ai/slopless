@@ -1,595 +1,695 @@
 {
   "schemaVersion": 1,
+  "dataset": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
   "check": "semantic-thinness/unexplained-metaphor",
   "split": "development",
-  "createdAt": "2026-10-20T16:41:40Z",
-  "gitHead": "c21c445c333026e4033f8160e56388118cb715d9",
-  "author": {
-    "agent": "Codex",
-    "initialHead": "c21c445c333026e4033f8160e56388118cb715d9",
-    "rawDraftSha256": "1a5047523e73ad0c2064009af197d4772f80d59422ed57bf702d05bd795933c4",
-    "finalDraftSha256": "325773e4dfe27d0b203d452d9d151a37f7c76dfb7bb5ddd38ca2aced4cafa0bb"
+  "createdAt": "2026-10-20T19:44:58.661Z",
+  "replacementBaseCommit": "32c921eca6c1ef58200b9382c06057935fd10623",
+  "textSha256": "236f7483e9cbaccee7115515e3bd1e1b0e0ce52915ae5614af7b98557d69dc02",
+  "status": "Independent final source and cross-split review passed. Frozen for commit.",
+  "counts": {
+    "passages": 261,
+    "judgments": 261,
+    "hits": 100,
+    "noHits": 161,
+    "words": 9033,
+    "words45To90": {
+      "hits": 27,
+      "noHits": 36
+    },
+    "retainedPilotPassages": 30,
+    "newPassages": 231,
+    "finalExactBlindInputMatches": 261,
+    "actualOpusHitSelections": 100,
+    "labelInformedSnippetOnlySelections": 0,
+    "labelCorrections": 16,
+    "qualityRejectedDrafts": 91,
+    "latestModelAgreements": 241,
+    "latestModelDisagreements": 20,
+    "overlapExcludedControls": 1
   },
-  "review": {
-    "requestedModel": "opus",
-    "reportedModels": ["claude-opus-5-5"],
-    "authenticatedCli": "claude",
-    "toolsDisabled": true,
-    "hidden": ["author labels", "author snippets", "class balance"],
-    "definitionSource": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
-    "definitionSourceSha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
-    "blindCalls": 4,
-    "spanOnlyCalls": 0,
-    "reviewedJudgments": 265,
-    "calls": [
-      {
-        "stage": "initial",
-        "rows": 100,
-        "inputPath": "/tmp/unexplained-metaphor-input-1.json",
-        "inputSha256": "9caf1adf4183533aee0841dd1b52bc186f19b7f78ea67656a331b4a452372296",
-        "blindedTextSha256": "5e4aeabeeeaecd36f9679a0aafa6066b4bf82e669bda4bd4f016bb14cd6ba91b",
-        "responsePath": "/tmp/unexplained-metaphor-review-1.json",
-        "responseSha256": "48f5846a98d795f412199298378f83ead6cbc46992d9425a6f7425bd00551651",
-        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
-        "models": ["claude-opus-5-5"],
-        "costUsd": 0.260768,
-        "durationMs": 65220,
-        "disagreements": [],
-        "objectionIds": [
-          "000011-003",
-          "000011-007",
-          "000011-010",
-          "000011-011",
-          "000011-014",
-          "000011-017",
-          "000011-022",
-          "000011-024",
-          "000011-029",
-          "000011-031",
-          "000011-039",
-          "000011-040",
-          "000011-041",
-          "000011-043",
-          "000011-045",
-          "000011-055",
-          "000011-058",
-          "000011-062",
-          "000011-064",
-          "000011-068",
-          "000011-070",
-          "000011-072",
-          "000011-075",
-          "000011-078",
-          "000011-081",
-          "000011-082",
-          "000011-087",
-          "000011-090",
-          "000011-091",
-          "000011-095",
-          "000011-100"
-        ]
+  "classes": {
+    "hits": {
+      "passages": 100,
+      "words": 3711,
+      "minWords": 14,
+      "maxWords": 82,
+      "lengthBuckets": {
+        "under26": 27,
+        "from26To44": 46,
+        "from45To90": 27,
+        "over90": 0
       },
-      {
-        "stage": "initial",
-        "rows": 100,
-        "inputPath": "/tmp/unexplained-metaphor-input-2.json",
-        "inputSha256": "72607a7cf3c32a42506217c54c2dcc0761a7ee7e903c3b8f6139982e7fc0ad36",
-        "blindedTextSha256": "c5110950fe432d336608e789cdc4fa7512c70dbe9f5d24705dc9c44bb2522ddc",
-        "responsePath": "/tmp/unexplained-metaphor-review-2.json",
-        "responseSha256": "b7671274dcac56e97feaace0f1e659e1066825119dcd3feb0610c4a9605a3058",
-        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
-        "models": ["claude-opus-5-5"],
-        "costUsd": 0.215324,
-        "durationMs": 40651,
-        "disagreements": [],
-        "objectionIds": ["000011-109", "000011-136", "000011-174"]
+      "sentenceCounts": {
+        "1": 8,
+        "2": 29,
+        "3": 41,
+        "4": 18,
+        "5": 2,
+        "6": 2
+      }
+    },
+    "noHits": {
+      "passages": 161,
+      "words": 5322,
+      "minWords": 8,
+      "maxWords": 80,
+      "lengthBuckets": {
+        "under26": 71,
+        "from26To44": 54,
+        "from45To90": 36,
+        "over90": 0
       },
+      "sentenceCounts": {
+        "1": 24,
+        "2": 79,
+        "3": 26,
+        "4": 28,
+        "5": 2,
+        "6": 2
+      }
+    }
+  },
+  "surfaceCues": {
+    "whyReasonBecause": {
+      "hits": 19,
+      "noHits": 29
+    },
+    "attributionExplanation": {
+      "hits": 47,
+      "noHits": 9
+    },
+    "callingDescribing": {
+      "hits": 29,
+      "noHits": 16
+    },
+    "setsDetermines": {
+      "hits": 21,
+      "noHits": 7
+    },
+    "conversationDialogue": {
+      "hits": 0,
+      "noHits": 3
+    },
+    "becomes": {
+      "hits": 4,
+      "noHits": 5
+    },
+    "relationship": {
+      "hits": 1,
+      "noHits": 2
+    },
+    "numbers": {
+      "hits": 46,
+      "noHits": 63
+    }
+  },
+  "pilotRetention": {
+    "sourceGitpath": "32c921eca6c1ef58200b9382c06057935fd10623:datasets/ai-synthetic/passages/000019-semantic-thinness-unexplained-metaphor-development-pilot.md",
+    "labelsSourceGitpath": "32c921eca6c1ef58200b9382c06057935fd10623:datasets/ai-synthetic/passages/000019-semantic-thinness-unexplained-metaphor-development-pilot.labels.json",
+    "reviewSourceGitpath": "32c921eca6c1ef58200b9382c06057935fd10623:runners/results/000019-unexplained-metaphor-development-opus-review.json",
+    "preservedPath": "/tmp/000011-metaphor-development-20261020-201050-pilot-preserved.json",
+    "preservedSha256": "d5487c650a4a867146e0e2a1363120b86c3ba312a9d2676b6a38f1bcc009b42f",
+    "sourceTextSha256": "aef75747fc1b272d85ef70bfcf19b8764a497bee2b1845fbad0dad1215a13209",
+    "exactTextLabelsSnippetsAndIds": 30,
+    "approvedParaphrasePairs": [
+      ["000019-001", "000019-014"],
+      ["000019-010", "000019-016"]
+    ]
+  },
+  "authoring": {
+    "initialDraftPassages": 200,
+    "initialHits": 100,
+    "initialNoHits": 100,
+    "qualityRejections": {
+      "count": 91,
+      "initialAndPostPilotDrafts": 90,
+      "sampleCandidates": 1,
+      "reason": "Independent QC Q1/Q2/Q4 rejected transplanted abstract personification, repeated conceptual register and artificial long-case construction. These are quality exclusions, separate from label corrections."
+    },
+    "freshReplacementCandidates": 96,
+    "labelCorrections": 16,
+    "clericalCorrections": 1,
+    "finalTextRewritesAfterBlindReview": 0,
+    "completeHistory": {
+      "path": "/tmp/000011-metaphor-development-20261020-201050-precompact-full-record-1792526027777.json",
+      "sha256": "e7c5894c275de51aecbba1c859e399fead21c420a598f13ef5697f7fcd1bb316",
+      "bytes": 77174
+    },
+    "overlapExclusions": [
       {
-        "stage": "context-rewrite",
-        "rows": 63,
-        "inputPath": "/tmp/unexplained-metaphor-rewrite-input.json",
-        "inputSha256": "bfb5bf6427f4b752071c2a84ebf3e025f2a29fa7c4d5f8021132816da50446ae",
-        "blindedTextSha256": "9128e2c4b9f4788194b3aa64d8bbac9575f93c7b4b9e2243bcfc788131789f7a",
-        "responsePath": "/tmp/unexplained-metaphor-rewrite-review.json",
-        "responseSha256": "9adc38add469f260ec7d64d7f5ffdc0ae75e4312391682ec47b917b722afd8d4",
-        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
-        "models": ["claude-opus-5-5"],
-        "costUsd": 0.179888,
-        "durationMs": 31995,
-        "disagreements": [],
-        "objectionIds": ["000011-126", "000011-165", "000011-105"]
-      },
-      {
-        "stage": "duplicate-audit-variety-edit",
-        "rows": 2,
-        "inputPath": "/tmp/unexplained-metaphor-variety-input.json",
-        "inputSha256": "6ebe850582b08b62ed57f2e7d6b773a82574f62900e259a12ff8883c8edded61",
-        "blindedTextSha256": "6f722f906c4cc7fe0cddc2d56d991c5bae326f39966bd7aea7a1a569d86b7156",
-        "responsePath": "/tmp/unexplained-metaphor-variety-review.json",
-        "responseSha256": "3ce2ca3d7b270e5e2f48c8415275efffe22bdc52a09e16ac52a3f563ad0b3529",
-        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
-        "models": ["claude-opus-5-5"],
-        "costUsd": 0.04672,
-        "durationMs": 4385,
-        "disagreements": [],
-        "objectionIds": []
+        "id": "000011-299",
+        "replacementId": "000011-523",
+        "expected": false,
+        "reason": "Valid no-hit excluded for cross-split near-paraphrase, separately from quality rejections and label corrections.",
+        "path": "/tmp/000011-metaphor-development-20261020-201050-pass9-overlap-20261020-201606-excluded-control.json",
+        "sha256": "cf710874ae93cb1c071c82057bbd625ae3bf5670afe99ff4f8c487e4a66cff6f"
       }
     ],
-    "totalCostUsd": 0.7027
-  },
-  "counts": {
-    "passages": 200,
-    "judgments": 200,
-    "hits": 100,
-    "noHits": 100,
-    "words": 6634,
-    "minWords": 16,
-    "maxWords": 58,
-    "words45To90": {
-      "hits": 22,
-      "noHits": 22
-    },
-    "originalReviewDisagreements": 0,
-    "originalReviewObjections": 34,
-    "originalObjectionsResolvedByContextRewrite": 30,
-    "originalObjectionsRetainedAfterAdjudication": 4,
-    "subsequentReviewObjections": 3,
-    "adjudicatedObjections": 37,
-    "labelCorrections": 0,
-    "contextRewrites": 63,
-    "postReviewVarietyEdits": 2,
-    "finalReviewedTextMatches": 200,
-    "finalReviewerAgreements": 200,
-    "unresolved": 0
-  },
-  "edits": {
-    "beforeFirstReview": {
-      "varietyRevisions": 37,
-      "exactSnippetCapitalizationNormalized": true,
-      "derivativeCopiesReplaced": 0
-    },
-    "afterInitialReview": {
-      "contextRewriteIds": [
-        "000011-064",
-        "000011-197",
-        "000011-123",
-        "000011-090",
-        "000011-116",
-        "000011-126",
-        "000011-095",
-        "000011-087",
-        "000011-165",
-        "000011-100",
-        "000011-045",
-        "000011-081",
-        "000011-041",
-        "000011-040",
-        "000011-142",
-        "000011-196",
-        "000011-101",
-        "000011-010",
-        "000011-161",
-        "000011-105",
-        "000011-017",
-        "000011-068",
-        "000011-007",
-        "000011-082",
-        "000011-043",
-        "000011-035",
-        "000011-003",
-        "000011-186",
-        "000011-167",
-        "000011-133",
-        "000011-078",
-        "000011-158",
-        "000011-058",
-        "000011-122",
-        "000011-022",
-        "000011-179",
-        "000011-072",
-        "000011-014",
-        "000011-075",
-        "000011-185",
-        "000011-031",
-        "000011-055",
-        "000011-181",
-        "000011-039",
-        "000011-153",
-        "000011-070",
-        "000011-191",
-        "000011-166",
-        "000011-151",
-        "000011-154",
-        "000011-171",
-        "000011-062",
-        "000011-199",
-        "000011-107",
-        "000011-157",
-        "000011-024",
-        "000011-011",
-        "000011-117",
-        "000011-120",
-        "000011-160",
-        "000011-115",
-        "000011-029",
-        "000011-193"
-      ],
-      "additionalAnalogousContextRewriteIds": [
-        "000011-197",
-        "000011-123",
-        "000011-116",
-        "000011-126",
-        "000011-165",
-        "000011-142",
-        "000011-196",
-        "000011-101",
-        "000011-161",
-        "000011-105",
-        "000011-035",
-        "000011-186",
-        "000011-167",
-        "000011-133",
-        "000011-158",
-        "000011-122",
-        "000011-179",
-        "000011-185",
-        "000011-181",
-        "000011-153",
-        "000011-191",
-        "000011-166",
-        "000011-151",
-        "000011-154",
-        "000011-171",
-        "000011-199",
-        "000011-107",
-        "000011-157",
-        "000011-117",
-        "000011-120",
-        "000011-160",
-        "000011-115",
-        "000011-193"
-      ],
-      "reason": "Remove editorial judgments about absent explanations and reported-document criticism, so the passage itself asserts the deficient relationship. Preserve every intended positive and every negative. The thirty flagged and thirty-three analogous contexts required this repair independently of reviewer agreement."
-    },
-    "nearestMatchVarietyEdits": {
-      "ids": ["000011-037", "000011-191"],
-      "reason": "Replace repeated authority-to-branch phrasing and repeated angle-of-a-metaphor phrasing found during private nearest-match inspection. Preserve their unexplained explanatory claims."
+    "overlapReplacement": {
+      "freshId": "000011-523",
+      "domain": "astronomical-observation",
+      "words": 60,
+      "callId": "pass9-overlap-batch1",
+      "operation": "One-for-one development control replacement. All other 260 passage texts and labels are unchanged.",
+      "sourceArchivePath": "/tmp/000011-metaphor-development-20261020-201050-pre-overlap-replacement-20261020-201606-source.json",
+      "sourceArchiveSha256": "ef94f5668278bb2a9eb09d820b2ddf9d0b88ece51ed5a66bcfdf990d85fd1c62"
     }
   },
-  "adjudications": [
-    {
-      "ids": [
-        "000011-003",
-        "000011-007",
-        "000011-010",
-        "000011-011",
-        "000011-014",
-        "000011-017",
-        "000011-022",
-        "000011-024",
-        "000011-029",
-        "000011-031",
-        "000011-039",
-        "000011-040",
-        "000011-041",
-        "000011-043",
-        "000011-045",
-        "000011-055",
-        "000011-058",
-        "000011-062",
-        "000011-064",
-        "000011-068",
-        "000011-070",
-        "000011-072",
-        "000011-075",
-        "000011-078",
-        "000011-081",
-        "000011-082",
-        "000011-087",
-        "000011-090",
-        "000011-095",
-        "000011-100"
+  "review": {
+    "authenticatedCli": "claude",
+    "requestedModel": "opus",
+    "actualModels": ["claude-opus-5-5"],
+    "toolsDisabled": true,
+    "withheldFromModel": ["author labels", "author snippets", "class balance"],
+    "definitionSource": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+    "definitionSha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+    "runnerPath": "/tmp/slopless-semantic-family-opus-review.mjs",
+    "runnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+    "currentSourceBlindCalls": 6,
+    "currentSourceReviewPasses": 4,
+    "currentSourceReviewedJudgments": 277,
+    "currentSourceTotalCostUsd": 0.768012,
+    "calls": [
+      {
+        "callId": "pass6-batch1",
+        "stage": "complete-replacement-source",
+        "passages": 81,
+        "submittedHits": 26,
+        "submittedNoHits": 55,
+        "inputPath": "/tmp/000011-metaphor-development-20261020-201050-pass6-batch1-input.json",
+        "inputSha256": "3f709acb6f56f2707e12645d0a449400c710c0dc536c6e81165c0092ca5bfe7c",
+        "blindedTextSha256": "0abb43f35e6fbe9d8e4c9afc1ba204089b6df1a84105ff5186819330dc6fb478",
+        "responsePath": "/tmp/000011-metaphor-development-20261020-201050-pass6-batch1-response.json",
+        "responseSha256": "74a05ca7937da4d212271ccfb8f05358585e01d0f454c6ad1aa131c73656a963",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 37484,
+        "costUsd": 0.18224,
+        "submittedLabelDisagreements": 6,
+        "objections": 4
+      },
+      {
+        "callId": "pass6-batch2",
+        "stage": "complete-replacement-source",
+        "passages": 81,
+        "submittedHits": 45,
+        "submittedNoHits": 36,
+        "inputPath": "/tmp/000011-metaphor-development-20261020-201050-pass6-batch2-input.json",
+        "inputSha256": "7ae383c23ba72562a1174ac548cfc9bf3f6290202f6098569a68aaf8e1c66d71",
+        "blindedTextSha256": "ac30e8d8cf6bcccc125c9a8dc1d89329bbb0777c6fe4b97baf067fc2a277460e",
+        "responsePath": "/tmp/000011-metaphor-development-20261020-201050-pass6-batch2-response.json",
+        "responseSha256": "57ad62c82fa974f81f43035e89992c965c222ff3ccf553257f3a8bf91c52d58c",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 43255,
+        "costUsd": 0.19806800000000002,
+        "submittedLabelDisagreements": 4,
+        "objections": 1
+      },
+      {
+        "callId": "pass6-batch3",
+        "stage": "complete-replacement-source",
+        "passages": 81,
+        "submittedHits": 29,
+        "submittedNoHits": 52,
+        "inputPath": "/tmp/000011-metaphor-development-20261020-201050-pass6-batch3-input.json",
+        "inputSha256": "297872224ffc63d5dc3d547868597f73cd4dc2e92a18a143733e8e74e415599d",
+        "blindedTextSha256": "a0034f41d4f6c7b384348b5ee89bcbe0e3aaaf7fd8cc105d4dccb321cb1ed556",
+        "responsePath": "/tmp/000011-metaphor-development-20261020-201050-pass6-batch3-response.json",
+        "responseSha256": "4be687f215e9d7f8606b7cd326b0ba09502e6434f97ae3fd9a416bcbde0a3297",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 36723,
+        "costUsd": 0.182676,
+        "submittedLabelDisagreements": 4,
+        "objections": 4
+      },
+      {
+        "callId": "pass7-batch1",
+        "stage": "author-label-corrections-and-additions",
+        "passages": 15,
+        "submittedHits": 6,
+        "submittedNoHits": 9,
+        "inputPath": "/tmp/000011-metaphor-development-20261020-201050-pass7-batch1-input.json",
+        "inputSha256": "924ba17d7ca7932abbfadba8c644e6fed9537bdce39edd97aa6d21e4d52e738a",
+        "blindedTextSha256": "c529ba729f4446223385fccacd6745a4dd00dfd8a520729877f9efc8a67b3bb2",
+        "responsePath": "/tmp/000011-metaphor-development-20261020-201050-pass7-batch1-response.json",
+        "responseSha256": "727522153946b903bae4475dffa848e4feb240813e823808f7c3a35962488652",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 17922,
+        "costUsd": 0.085188,
+        "submittedLabelDisagreements": 6,
+        "objections": 4
+      },
+      {
+        "callId": "pass8-batch1",
+        "stage": "independent-QC-correction-and-attribution-controls",
+        "passages": 18,
+        "submittedHits": 4,
+        "submittedNoHits": 14,
+        "inputPath": "/tmp/000011-metaphor-development-20261020-201050-pass8-batch1-input.json",
+        "inputSha256": "7d02295c89c3e3ae63969246d262d18006f61327b4f6399538d012f6dc9c5920",
+        "blindedTextSha256": "071c49ff73b4d20b184387cdb278d56c14de073598f72781e7cb5add9d6f0b97",
+        "responsePath": "/tmp/000011-metaphor-development-20261020-201050-pass8-batch1-response.json",
+        "responseSha256": "16eeabd2873a080dd4486e6b92ec6ac402e623f0e2cb910b96dd6177e4e76e22",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 14509,
+        "costUsd": 0.07899600000000001,
+        "submittedLabelDisagreements": 2,
+        "objections": 5
+      },
+      {
+        "callId": "pass9-overlap-batch1",
+        "stage": "single-development-control-overlap-replacement",
+        "passages": 1,
+        "submittedHits": 0,
+        "submittedNoHits": 1,
+        "inputPath": "/tmp/000011-metaphor-development-20261020-201050-pass9-overlap-20261020-201606-input.json",
+        "inputSha256": "474a7885f248820a6c51881d247b64a3f7bfbe406bdb0d5a81762170a6ad1b9c",
+        "blindedTextSha256": "af434e7776f6f4b9b15a8bac0547a3faba2c96eb261fdfddc8cd7ce9e8a198c0",
+        "responsePath": "/tmp/000011-metaphor-development-20261020-201050-pass9-overlap-20261020-201606-response.json",
+        "responseSha256": "bb620b1e230a31a6bc323a461b1a4095f32fff7dd65ce7bc567cf609cee4f932",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 3761,
+        "costUsd": 0.040844,
+        "submittedLabelDisagreements": 0,
+        "objections": 0
+      }
+    ],
+    "originalPass6DisagreementCount": 14,
+    "currentObjectionEvents": 18,
+    "remainingModelDisagreements": [
+      {
+        "id": "000019-012",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch3"
+      },
+      {
+        "id": "000019-013",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch2"
+      },
+      {
+        "id": "000019-015",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch2"
+      },
+      {
+        "id": "000019-026",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch1"
+      },
+      {
+        "id": "000011-202",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch3"
+      },
+      {
+        "id": "000011-220",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch3"
+      },
+      {
+        "id": "000011-242",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch1"
+      },
+      {
+        "id": "000011-258",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch1"
+      },
+      {
+        "id": "000011-260",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch1"
+      },
+      {
+        "id": "000011-264",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch3"
+      },
+      {
+        "id": "000011-280",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch1"
+      },
+      {
+        "id": "000011-282",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch2"
+      },
+      {
+        "id": "000011-288",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass6-batch1"
+      },
+      {
+        "id": "000011-388",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass8-batch1"
+      },
+      {
+        "id": "000011-393",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass8-batch1"
+      },
+      {
+        "id": "000011-412",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass7-batch1"
+      },
+      {
+        "id": "000011-418",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass7-batch1"
+      },
+      {
+        "id": "000011-420",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass7-batch1"
+      },
+      {
+        "id": "000011-458",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass7-batch1"
+      },
+      {
+        "id": "000011-469",
+        "finalExpected": false,
+        "modelExpected": true,
+        "callId": "pass7-batch1"
+      }
+    ],
+    "adjudications": [
+      {
+        "id": "000011-420",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "Practice as a ladder connects the removed questions with lost preparation for the remaining work. That useful broad relationship can explain pupils taking longer despite fewer questions."
+      },
+      {
+        "id": "000011-351",
+        "finalExpected": false,
+        "decision": "retained-label",
+        "reason": "Retain the no-hit: unassigned requests waiting for assignment identify the inbox holding function without another explanatory sentence."
+      },
+      {
+        "id": "000011-379",
+        "finalExpected": false,
+        "decision": "retained-label",
+        "reason": "Retain the no-hit: a cooked meal as care communicates a useful broad, nearly literal relationship."
+      },
+      {
+        "id": "000011-399",
+        "finalExpected": true,
+        "decision": "retained-label",
+        "reason": "Retain the hit: savings as a cushion describes their protective purpose without linking account balance to the lower interest rate. Reported speech carries that explanatory claim."
+      },
+      {
+        "id": "000011-242",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The rising rent supplies the changed affordability relationship with the neighbourhood; the agent sentence paraphrases that change rather than explicitly explaining its cause."
+      },
+      {
+        "id": "000011-288",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The longer-lasting repair supplies durability under road use. Meeting the road on its own terms paraphrases that performance."
+      },
+      {
+        "id": "000011-260",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "A hide supports patient observation in one place. That broad useful relationship supports more sightings even when fewer people visit."
+      },
+      {
+        "id": "000011-258",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The encore supplies a recoverable reason for the overrun. The abstract memory/presence relationship can be judged separately under unspecified relationship."
+      },
+      {
+        "id": "000011-280",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "Rehanging the door stopped the draught, supplying the barrier-to-room relationship paraphrased by threshold accountability."
+      },
+      {
+        "id": "000019-026",
+        "finalExpected": false,
+        "decision": "retained-label",
+        "reason": "Retain the approved no-hit: finding its rhythm conventionally conveys staff settling into coordinated service, a useful broad explanation of slower service."
+      },
+      {
+        "id": "000011-335",
+        "finalExpected": false,
+        "decision": "retained-label",
+        "reason": "Retain the no-hit: a pattern as roadmap conveys a usable guide that allows the specified sleeve variation."
+      },
+      {
+        "id": "000019-013",
+        "finalExpected": false,
+        "decision": "retained-label",
+        "reason": "Retain the approved no-hit: the distributor sales remit and joint planning connect product direction with commercial priorities."
+      },
+      {
+        "id": "000011-388",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "A budget/map supplies decision support from available money without choosing a percentage or claiming a numerical derivation."
+      },
+      {
+        "id": "000019-015",
+        "finalExpected": false,
+        "decision": "retained-label",
+        "reason": "Retain the approved no-hit: naming a nurse for every ward and manager sign-off supply the responsibility-to-care relationship."
+      },
+      {
+        "id": "000011-282",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The smaller venue supplies the intimacy-versus-audience-reach relationship underlying fewer tickets sold."
+      },
+      {
+        "id": "000011-410",
+        "finalExpected": true,
+        "decision": "retained-label",
+        "reason": "Retain the hit: the tap image explains admission of light, while the passage supplies no intended exposure or motion result to select a quarter second over half a second."
+      },
+      {
+        "id": "000011-418",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The recommendation selects wider spacing and the breathing-room image identifies the additional growing space it provides. Preserve that broad, useful relationship without requiring a derivation of an optimal centimetre value."
+      },
+      {
+        "id": "000011-469",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The bridge-to-customer image identifies support as customer-facing and supplies the stated basis for grouping it with sales. The useful allocation relationship can remain implicit."
+      },
+      {
+        "id": "000011-458",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "Scales as building blocks identifies foundational practice before the more complex piece. The metaphor supplies the ordering relationship implicitly."
+      },
+      {
+        "id": "000011-202",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The week of gradual outdoor exposure supplies acclimatization; resilience as a second language compresses that learned tolerance."
+      },
+      {
+        "id": "000011-264",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The slower group receives a head start, explicitly linking different paces with inclusion in the same ride. Balance compresses that accommodation."
+      },
+      {
+        "id": "000011-220",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "Patience in brewing conveys additional preparation time as part of hospitality. Preserve the useful broad time/service relationship rather than demand an itemized price calculation."
+      },
+      {
+        "id": "000019-012",
+        "finalExpected": false,
+        "decision": "retained-label",
+        "reason": "Retain the approved no-hit: local knowledge guiding the conservation project is a recoverable broad relationship. The original pilot adjudication remains authoritative for retention."
+      },
+      {
+        "id": "000011-412",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The seam as backbone identifies a load-bearing role at this location. Extra allowance reinforces that seam relative to the others, a recoverable broad reason for using more width."
+      },
+      {
+        "id": "000011-510",
+        "finalExpected": true,
+        "decision": "retained-label",
+        "reason": "Retain the hit: an invitation to pause identifies a bench function while leaving why removing benches increased park use unclear. The observed increase is a supplied outcome, not an asserted factual impossibility."
+      },
+      {
+        "id": "000011-393",
+        "finalExpected": false,
+        "decision": "label-correction",
+        "reason": "The low-change archive context supports less frequent backups. A spare key conveys recoverability while that context supplies the policy relationship."
+      },
+      {
+        "id": "000011-403",
+        "finalExpected": true,
+        "decision": "retained-boundary-hit",
+        "reason": "Retain the boundary hit: relay baton explains information transfer, but the record also says open calls remain logged. More handovers could lose information, while no dropped transfer is identified; the callback-loss relationship remains ambiguous."
+      },
+      {
+        "id": "000011-442",
+        "finalExpected": true,
+        "decision": "retained-boundary-hit",
+        "reason": "Retain the boundary hit: price as a signal leaves the message buyers inferred unspecified. Low perceived quality is plausible, alongside changed scope or capacity; the passage does not make one interpretation unambiguous."
+      },
+      {
+        "id": "000011-395",
+        "finalExpected": true,
+        "decision": "retained-label",
+        "reason": "Retain the hit for the independent explanatory gap: heat as engine leaves why the smaller tin requires this higher temperature unclear. The judgment assesses that relationship rather than whether the temperature recommendation is factually correct."
+      }
+    ],
+    "snippetProvenance": {
+      "procedure": "For each non-pilot hit, read calls in listed order and retain the last positive judgment for that ID. For pilot hits, use the retained pilot group below. Every final snippet is an exact string from that blind positive judgment.",
+      "completeSelectedArrays": 99,
+      "subsetSelections": 1,
+      "labelInformedSelections": 0,
+      "pilotGroups": [
+        {
+          "idRange": "000019-001 through 000019-016",
+          "inputPath": "/tmp/000019-unexplained-metaphor-development-20261020-193530-round2-input.json",
+          "inputSha256": "ba201dca2eb6bc877898c61143b0c7e96a5e7b8e612844a64dea916d507e8a04",
+          "responsePath": "/tmp/000019-unexplained-metaphor-development-20261020-193530-round2-response.json",
+          "responseSha256": "95f57497a5c480c2a5af6483387b2ee40e290334abf06d0c2cd046d9788fbb52",
+          "models": ["claude-opus-5-5"]
+        },
+        {
+          "idRange": "000019-017 through 000019-030",
+          "inputPath": "/tmp/000019-unexplained-metaphor-development-20261020-194721-round4-input.json",
+          "inputSha256": "936f886c23960f2ee1717dc364f7d003b4f4ba1eb9aa1d4af155408e790fb6c2",
+          "responsePath": "/tmp/000019-unexplained-metaphor-development-20261020-194721-round4-response.json",
+          "responseSha256": "061f9d4c07e83f7f619e66751e4623fff85d392c14dd9214347c5fd4fa06ad60",
+          "models": ["claude-opus-5-5"]
+        }
       ],
-      "decision": "rewrite-context-and-review-again",
-      "reviewerConcern": "Reported criticism of an empty explanation may be exempt discussion of writing.",
-      "reason": "Explicit editorial absence statements introduce a second valid reading under the criticism exemption. Final contexts state the claims directly and remove that ambiguity; labels remain hits."
+      "subsetException": {
+        "id": "000019-009",
+        "retainedSelections": 1,
+        "originalSelections": 3,
+        "decision": "The approved pilot retained the complete sentence beginning That reversal from three actual blind selections. Independent pilot adjudication narrowed the array; text, label and snippet remain unchanged.",
+        "sourceGitpath": "32c921eca6c1ef58200b9382c06057935fd10623:runners/results/000019-unexplained-metaphor-development-opus-review.json"
+      }
     },
-    {
-      "id": "000011-091",
-      "decision": "retain-no-hit",
-      "reviewerConcern": "Turning a corner might leave the outcome vague.",
-      "reason": "The change from custom orders to three standard sizes is supplied. The conventional turn does not obscure an explanatory relationship; another change-related defect remains unassessed."
+    "rejectedDraftReviewArchive": {
+      "path": "/tmp/000011-metaphor-development-20261020-201050-pre-quality-canonical-snapshot.json",
+      "sha256": "95926de12b2c755b75cc68fd4df4342e09a0c1b8d6fb3e5078322280e4eda423",
+      "blindCalls": 5,
+      "reviewedJudgments": 245,
+      "status": "Historical provisional v4 source and pass1-pass4 record; superseded after independent quality rejection."
     },
-    {
-      "id": "000011-109",
-      "decision": "retain-no-hit",
-      "reviewerConcern": "The unpaid-bill simile may be narrative tension.",
-      "reason": "The recurring unanswered question about caring for the father identifies the outstanding obligation; the figurative mapping is recoverable."
+    "currentSourceExcludedJudgments": 1
+  },
+  "independentQualityReview": {
+    "reviewer": "Popper, independent reviewer assigned by parent",
+    "verdict": "Pass. The replacement has independent quality and blind-source verification; the other 260 passages retain their earlier independent verification.",
+    "previousFrozenSourceVerification": {
+      "reviewer": "Beauvoir, parent-assigned independent reviewer",
+      "verdict": "Pass. Zero unresolved material concerns in the reviewed development source and provenance.",
+      "summaryPath": "/tmp/000011-metaphor-development-20261020-201050-final-qc-summary.json",
+      "summarySha256": "fad24da67beb30a2d859fd0469f177aaf259cf1abf0f4afc089eca20d9463d51",
+      "proofPath": "/tmp/000011-metaphor-development-20261020-201050-final-qc-private-proof.json",
+      "proofSha256": "59048e48d342fb5b3936aa25ed1e17bf868093cb661ed7ac08118d356841905c",
+      "verifiedRecordSha256": "e7c5894c275de51aecbba1c859e399fead21c420a598f13ef5697f7fcd1bb316",
+      "finalPassagesRead": 261,
+      "exactBlindInputs": 261,
+      "matchedArtifactHashes": 50,
+      "actualOpusHitSelections": 100,
+      "adjudicationsChecked": 29,
+      "unresolvedMaterialConcerns": 0,
+      "metadataRecheck": "Passed independent metadata-only recheck. Dataset and label bytes are unchanged; all five current calls, 29 adjudications, twenty retained disagreements, and snippet provenance remain intact and verifiable. The full-record archive matches the previously verified hash. Zero unresolved material concerns."
     },
-    {
-      "id": "000011-136",
-      "decision": "retain-no-hit",
-      "reviewerConcern": "The chair is personified.",
-      "reason": "The missed final visit and the mother's usual seat identify the source of guilt. The chair's accusation is informative implicit figuration."
-    },
-    {
-      "id": "000011-174",
-      "decision": "retain-hit",
-      "reviewerConcern": "Care and geography could be vague abstraction rather than a metaphor.",
-      "reason": "Care is given agency to change its relation to its own geography as the entire mechanism for meeting needs. The grant's geographic action remains indeterminate; the red-folder detail supplies none of it."
-    },
-    {
-      "id": "000011-126",
-      "decision": "retain-rewritten-hit",
-      "reviewerConcern": "The inheritance narrative might belong to narrative craft.",
-      "reason": "The figure claims to explain the emergence of rights and possession. Neither physicalized emotion nor atmospheric description supplies that legal relationship."
-    },
-    {
-      "id": "000011-165",
-      "decision": "retain-rewritten-hit",
-      "reviewerConcern": "Personal narrative could suggest narrative craft.",
-      "reason": "The costume and permission are asserted as the financing relationship between savings and repairs. Counting envelopes and washing cups leave that relationship unclear."
-    },
-    {
-      "id": "000011-105",
-      "decision": "retain-rewritten-hit",
-      "reviewerConcern": "Grief could be an emotional-craft figure.",
-      "reason": "The estate's settlement of possession is expressly attributed to the grief currency. The passage supplies no relationship explaining that settlement; the figure does explanatory work beyond atmosphere."
+    "previousFrozenTextSha256": "c44d62d4a20d6c56f078c800b6e9b21529f997acad6420f4a71be2313834347f",
+    "authorSourceProofPath": "/tmp/000011-metaphor-development-20261020-201050-pass9-overlap-20261020-201606-source-proof.json",
+    "authorSourceProofSha256": "b33b857e440a3de2e0e5f067460337f223016d8bd148e669d033d7ba5a7ddca8",
+    "changedCaseId": "000011-523",
+    "completion": {
+      "reviewer": "Popper, independent final reviewer",
+      "proofPath": "/tmp/000012-metaphor-holdout-20261020-201050-final-overlap-closure-evidence.json",
+      "proofSha256": "d7493e8acac4eb939b60c7fb32912f5e70cc66745c0bbae071c15500d0cb1670",
+      "changedPassagesRead": 1,
+      "unchangedPassagesVerified": 260,
+      "currentSourcePassages": 261,
+      "retainedModelDisagreements": 20,
+      "unresolvedMaterialConcerns": 0
     }
-  ],
-  "duplicateAudit": {
-    "normalization": "Lowercase ASCII words with internal apostrophes; Jaccard sets of words and contiguous three-word shingles.",
-    "initial": {
-      "thresholds": {
-        "wordJaccard": 0.5,
-        "threeWordShingleJaccard": 0.3
-      },
-      "counts": {
-        "passages": 200,
-        "developmentPassages": 200,
-        "exampleOrPromptSegments": 229
-      },
-      "within": {
-        "pairs": 19900,
-        "exact": 0,
-        "maxWord": 0.3157894736842105,
-        "maxThreeWordShingle": 0.08888888888888889,
-        "wordAtLeast050": 0,
-        "shingleAtLeast030": 0
-      },
-      "external": {
-        "pairs": 85800,
-        "exact": 0,
-        "maxWord": 0.23333333333333334,
-        "maxThreeWordShingle": 0.06666666666666667,
-        "wordAtLeast050": 0,
-        "shingleAtLeast030": 0
-      },
-      "referenceHashes": [
-        {
-          "path": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
-          "sha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916"
-        },
-        {
-          "path": "prompts/README.md",
-          "sha256": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b"
-        },
-        {
-          "path": "prompts/v1/abstract-contrast.md",
-          "sha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676"
-        },
-        {
-          "path": "prompts/v1/emotion-as-substance.md",
-          "sha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72"
-        },
-        {
-          "path": "prompts/v1/generic-realization.md",
-          "sha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465"
-        },
-        {
-          "path": "prompts/v1/shared.md",
-          "sha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
-        }
-      ]
-    },
-    "final": {
-      "thresholds": {
-        "wordJaccard": 0.5,
-        "threeWordShingleJaccard": 0.3
-      },
-      "counts": {
-        "passages": 200,
-        "developmentPassages": 1200,
-        "exampleOrPromptSegments": 229
-      },
-      "within": {
-        "pairs": 19900,
-        "exact": 0,
-        "maxWord": 0.24390243902439024,
-        "maxThreeWordShingle": 0.04,
-        "wordAtLeast050": 0,
-        "shingleAtLeast030": 0
-      },
-      "external": {
-        "pairs": 285800,
-        "exact": 0,
-        "maxWord": 0.28125,
-        "maxThreeWordShingle": 0.08,
-        "wordAtLeast050": 0,
-        "shingleAtLeast030": 0
-      },
-      "referenceHashes": [
-        {
-          "path": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
-          "sha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916"
-        },
-        {
-          "path": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
-          "sha256": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481"
-        },
-        {
-          "path": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md",
-          "sha256": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540"
-        },
-        {
-          "path": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
-          "sha256": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335"
-        },
-        {
-          "path": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md",
-          "sha256": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e"
-        },
-        {
-          "path": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
-          "sha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3"
-        },
-        {
-          "path": "prompts/README.md",
-          "sha256": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b"
-        },
-        {
-          "path": "prompts/v1/abstract-contrast.md",
-          "sha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676"
-        },
-        {
-          "path": "prompts/v1/emotion-as-substance.md",
-          "sha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72"
-        },
-        {
-          "path": "prompts/v1/generic-realization.md",
-          "sha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465"
-        },
-        {
-          "path": "prompts/v1/shared.md",
-          "sha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
-        }
-      ]
-    },
-    "privateInspection": "Inspected nearest word-set and three-word-shingle pairs, including below-threshold maxima. Existing development parallels share only generic constructions. Two local repeated phrasings were rewritten and reviewed again.",
-    "holdoutAccess": false
   },
-  "validation": {
-    "schemaVersion": 2,
-    "split": "development",
-    "readDocument": {
-      "status": "passed",
-      "labels": 200,
-      "samples": 200
+  "overlapAudit": {
+    "scope": "Development-side audit by an author who kept holdout contents unread; separate privacy-protected final cross-split comparison completed by Popper.",
+    "normalizedExactDuplicatePairs": [],
+    "word5gramThresholds": {
+      "jaccard": 0.3,
+      "smallerSetContainment": 0.7
     },
-    "loadDataset": {
-      "status": "passed",
-      "rows": 200
-    },
-    "uniqueIds": 200,
-    "hitSnippetsExact": true,
-    "hitSnippetsCopiedFromOpus": true,
-    "noHitSnippetsOmitted": true,
-    "onePhysicalParagraphLine": true,
-    "ascii": true,
-    "formatterCheck": "passed after formatting with prose-wrap preserve and ignore-path /dev/null",
-    "formatCommand": "node_modules/.bin/prettier --write --prose-wrap preserve --ignore-path /dev/null datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.labels.json runners/results/unexplained-metaphor-development-opus-review.json",
-    "finalTextSha256": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
-    "labelsSha256": "975d73b18aa7a034ac996f6bbfacbcbf311aa10570a56a26d9804803d4cf0a91",
-    "finalReviewedTargetSha256": "5ec1a2791e47d79941c2f33cc841b656b1f9b0d3c2b97e46206e73f234a5f85d",
-    "reviewedTextProof": "Each final sample equals its latest raw blind-review input byte for byte. Each review input hash is checked against the helper's blinded target hash; every final hit uses the corresponding Opus snippets unchanged.",
-    "otherChecks": "unassessed",
-    "slopless": "omitted for intentional bad examples"
+    "word5gramNearDuplicatePairs": [],
+    "newTextUsingRetiredIds": 0,
+    "crossSplitStatus": "Passed independent current-source comparison after one development-side overlap replacement.",
+    "fingerprintsPath": "/tmp/000011-metaphor-development-20261020-201050-pass9-overlap-20261020-201606-overlap-fingerprints.json",
+    "fingerprintsSha256": "9525c07162ee3ed96f1370e9e31bdf419d3b30afd8c0e095cf46071116580ad8",
+    "crossSplitProof": {
+      "path": "/tmp/000012-metaphor-holdout-20261020-201050-final-overlap-closure-evidence.json",
+      "sha256": "d7493e8acac4eb939b60c7fb32912f5e70cc66745c0bbae071c15500d0cb1670",
+      "developmentTextSha256": "236f7483e9cbaccee7115515e3bd1e1b0e0ce52915ae5614af7b98557d69dc02",
+      "developmentLabelsSha256": "e6b4d735de00cfe933432c0ff8704c44d04f1e330d39ad510f245dd5b2a59b70",
+      "holdoutTextSha256": "ce074428dec0b936d6199d35a5f9e04218e7ed7988dcb4f20fc7d53acf8c5385",
+      "exactCrossSplitDuplicates": 0,
+      "remainingCrossSplitNearParaphrases": 0
+    }
   },
-  "artifacts": {
-    "markdown": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
-    "labels": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.labels.json",
-    "review": "runners/results/unexplained-metaphor-development-opus-review.json"
+  "verification": {
+    "reader": "runners/datasets.mjs readDocument",
+    "readerPassed": true,
+    "minimalVersion2Labels": true,
+    "exactSnippets": true,
+    "onePhysicalLinePerPassage": true,
+    "pilotPreservation": true,
+    "finalBlindInputIdentity": true,
+    "formatting": "Passed pnpm prettier --write --prose-wrap preserve on the three assigned files; Markdown textSha256 remained unchanged.",
+    "artifactAndSnippetAudit": "Author mechanical verification passes for all 261 current exact blind inputs and all 100 hit labels. Listed calls contain 277 raw judgments, including one preserved overlap-excluded prior-source control; 276 judgments match current source text. Independent replacement, unchanged-source, and affected cross-split verification passed.",
+    "whitespaceCheck": "Passed git diff --check for the three assigned files.",
+    "rootValidation": "Parent-owned; author validates only the assigned development pair to preserve holdout privacy.",
+    "independentReplacementReview": "passed",
+    "independentCrossSplitReview": "passed"
   },
-  "unresolved": [],
-  "supplementalQaB": {
-    "reviewer": "Independent reviewer B",
-    "status": "review-complete",
-    "coverage": {
-      "passages": 200,
-      "finalRawTextMatches": 200,
-      "exactOpusHitSnippetMatches": 100
-    },
-    "rawResponseRetention": "Original review responses available and verified.",
-    "mixedFollowup": {
-      "passages": 200,
-      "calls": 2,
-      "disagreements": 0,
-      "objections": 3,
-      "callsMetadata": [
-        {
-          "passages": 100,
-          "hits": 53,
-          "noHits": 47,
-          "input": "/tmp/slopless-family-qa-b-unexplained-metaphor-mixed-input-1.json",
-          "output": "/tmp/slopless-family-qa-b-unexplained-metaphor-mixed-output-1.json",
-          "inputSha256": "7fd7f4057eb2ebbe7b9d1133ab1667bbff7d0e5746d4f26af74847f68e161061",
-          "outputSha256": "a91c7f451b758206564777150a77ea197f6a56a62d14a7baaf266e6b6166f7eb",
-          "reviewedTargetsSha256": "a3c4960ffb8b0a853c722fdc34adbf5d984c9d2ab3fe427456341181767f2044",
-          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
-          "models": ["claude-opus-5-5"],
-          "costUsd": 0.21012799999999998
-        },
-        {
-          "passages": 100,
-          "hits": 47,
-          "noHits": 53,
-          "input": "/tmp/slopless-family-qa-b-unexplained-metaphor-mixed-input-2.json",
-          "output": "/tmp/slopless-family-qa-b-unexplained-metaphor-mixed-output-2.json",
-          "inputSha256": "7b9cd91cc3b928ef814c5df6e07925cee4a7255e9f2aa0ef61931dd4ed650264",
-          "outputSha256": "f2a5e67f09f05eefa52b40bbfd9fcf153ed8dca8fa303b64e29fdad20a7c7644",
-          "reviewedTargetsSha256": "8a4c217463ac5df36f38514dbd6fd5fa6b44074b33a10e21d4ea88ceb4ed81b4",
-          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
-          "models": ["claude-opus-5-5"],
-          "costUsd": 0.206884
-        }
-      ],
-      "blindInputFields": ["id", "text"],
-      "authorLabelsSnippetsAndBalanceWithheld": true,
-      "neutralRemappedIds": true,
-      "originalCountsPreserved": true,
-      "reason": "Review final texts in mixed batches after class-pure revision calls."
-    },
-    "unresolvedLabelErrors": 0,
-    "unresolvedBoundaryConcerns": 0,
-    "unresolvedArtifactConcerns": 0,
-    "privateFindingsPath": "/tmp/slopless-family-qa-b-000011-private.json",
-    "aggregateSummaryPath": "/tmp/slopless-family-qa-b-summary.json",
-    "datasetEditsPerformed": 0
-  },
-  "finalIndependentQaB": {
-    "reviewer": "Independent reviewer B",
-    "status": "passed",
-    "passages": 200,
-    "hits": 100,
-    "noHits": 100,
-    "words": 6634,
-    "longHits": 22,
-    "longNoHits": 22,
-    "originalTextsAndIdsRetained": 200,
-    "postIndependentLabelCorrections": 0,
-    "addedPassages": 0,
-    "currentFinalTextsMatchedToRawBlindInput": 200,
-    "currentHitSnippetSelectionsMatchedToActualOpus": 100,
-    "currentOpusSnippetStrings": 100,
-    "labelSuppliedSpanOnlyHitSelections": 0,
-    "latestAvailableBlindReviewDisagreements": 0,
-    "disagreementScope": "Latest actual matching blind classification per current passage, including the independent mixed followup; original counts remain in their original fields.",
-    "previousLabelOrBoundaryFindingsResolved": 0,
-    "unresolvedLabelOrBoundaryConcerns": 0,
-    "currentFinalProvenanceGaps": 0,
-    "historicalRetentionFindings": 0,
-    "unrecoveredHistoricalResponses": 0,
-    "finalOverlap": {
-      "targetPassages": 1620,
-      "familyCollectionsCompared": 18,
-      "legacyCollectionsCompared": 4,
-      "referenceUnits": 507,
-      "thresholdCandidatesInspected": 32,
-      "newAdditionNearestCandidatesInspected": 40,
-      "exactCopies": 0,
-      "derivativeConcerns": 0
-    },
-    "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
-    "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
-  }
+  "qualityLimits": [
+    "Explanatory and criterion frames are common in positives. Matched controls now use attribution and decision-setting frames; exact cue counts are reported separately.",
+    "Retained model disagreements remain enumerated after author adjudication; model agreement was not used to force labels.",
+    "The retained pilot includes early institutional examples and two approved paraphrase controls.",
+    "Four added long controls are each 80 words; all current length buckets are reported rather than claiming a uniform distribution.",
+    "One valid development control was excluded for cross-split near-paraphrase and replaced under a fresh ID. Its original no-hit judgment and writing are archived separately from quality rejections."
+  ]
 }
