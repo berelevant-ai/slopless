@@ -1,0 +1,17 @@
+# M-71 (Michigan highway)
+
+M-71 is a state trunkline highway in the Lower Peninsula of the US state of Michigan. It serves as a connector between M-21 in Owosso to Interstate 69 (I-69) southwest of Flint. The highway runs along a rail line in a northwest-to-southeast direction in rural Shiawassee County connecting a few small towns along its path.
+The highway dates back to the start of the state highway system in 1919. There were some changes made to the routing in the 1930s which increased its length. Two adjacent highways have been rerouted which affected the locations of M-71's termini. The last such change was made in the 1960s when the M-78 freeway (now I-69) was completed near Durand.
+
+## Route description
+
+M-71 starts in downtown Owosso at the corner of Main Street (M-21) and Water Street. It follows Water Street southeasterly until it reaches Washington Street. The highway follows Washington Street south and over the Shiawassee River and turns southeasterly on Corunna Avenue. M-71 runs parallel to, and in between, the river and a branch line of the Canadian National Railway. Corunna Avenue continues this way through the community of Middletown and into Corunna. M-71 turns south through downtown Corunna on Shiawassee Street to McNeil Street. It is along this stretch of the highway that the Michigan Department of Transportation (MDOT) measured the highest traffic volumes for M-71. In their 2009 survey, MDOT calculated that 10,577 vehicles used this section of roadway in a measurement called average annual daily traffic (AADT). This value is a count for the average traffic in a day for any average day of the year.
+From that junction, M-71 turns easterly and then southeasterly out of town. The highway continues to run alongside the rail line through farmland to the outskirts of Vernon. M-71 crosses the Shiawassee River for a second time. The rail line and the highway diverge and run on opposite sides of town; the highway rounds the northeast side and the rail line runs along the southwest side. This section of trunkline through Vernon had the lowest AADT value in 2009 with 4,371 vehicles. M-71 continues to the interchange with I-69 at exit 118 northwest of Durand, where the highway designation terminates. No part of M-71 has been listed on the National Highway System (NHS). The NHS is a system of roads important to the nation's economy, defense and mobility.
+
+## History
+
+M-71 was formed by July 1, 1919 as a spur route from M-21, which ran along Lytle Road, southerly to Durand. Around 1925, a realignment of M-21 produced changes in M-71. M-21 was rerouted to its current alignment between Owosso and Lennon, and M-71 took over the roadway between Owosso and Corunna. At the same time, M-71 was shifted to run through Vernon. The section of M-71 between Durand and M-78 was transferred to M-78 and M-71 was shortened by 1934. This transfer was reversed in 1935 when M-78 construction was completed. A new section of M-71 was built parallel to the Ann Arbor Railroad between Durand and Corunna in 1938. This construction paved the last remaining unpaved segment of M-71. The section of M-71 south of M-78 into Durand was turned back to local control in early 1939, and M-71 was shortened one final time with the completion of the M-78 freeway (now I-69) in the area in late 1960 or early 1961. At that time, the eastern terminus was shifted to the freeway interchange instead of the old route of M-78 along Lansing Road.
+
+## Major intersections
+
+The entire highway is in Shiawassee County.

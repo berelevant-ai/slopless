@@ -1,0 +1,17 @@
+# Nothhelm
+
+Nothhelm (sometimes Nothelm; died 739) was a medieval Anglo-Saxon Archbishop of Canterbury. A correspondent of both Bede and Boniface, it was Nothhelm who gathered materials from Canterbury for Bede's historical works. After his appointment to the archbishopric in 735, he attended to ecclesiastical matters, including holding church councils. Although later antiquaries felt that Nothhelm was the author of a number of works, later research has shown them to be authored by others. After his death he was considered a saint.
+
+## Early life
+
+Nothhelm was a contemporary of Boniface and Bede, whom he supplied with correspondence from the papal library following a trip to Rome. He also researched the history of Kent and the surrounding area for Bede, supplying the information through the abbot of St Augustine's Abbey in Canterbury. Before his appointment to the archbishopric, he was the archpriest of the Saxon-built St Paul's Cathedral, London.
+
+## Archbishop
+
+Named to the see of Canterbury in 735, Nothhelm was consecrated the same year. Pope Gregory III sent him a pallium in 736. He may have been appointed by Æthelbald, King of Mercia, whose councilor he was. Whether or not he owed his appointment to Æthelbald, Nothhelm was one of a number of Mercians who became Archbishop of Canterbury during the 730s and 740s, during a time of expanding Mercian influence. He held a synod in 736 or 737, which drew nine bishops; the meeting adjudicated a dispute over the ownership of a monastery located at Withington. A significant feature of this synod was the fact that no king attended, but yet the synod still rendered judgement in the ownership even without secular oversight, which was more usual.
+Nothhelm oversaw the reorganisation of the Mercian dioceses which took place in 737. The archbishop consecrated Witta as Bishop of Lichfield and Totta as Bishop of Leicester. The diocese of Leicester was firmly established by this action, although earlier attempts had been made to establish a bishopric there. In 738, Nothhelm was a witness on the charter of Eadberht I, the King of Kent.
+Bede addressed his work In regum librum XXX quaestiones to Nothhelm, who had asked the thirty questions on the biblical book of Kings that Bede answered. Bede's work De VIII Quastionibus may have been written for Nothhelm. While he was archbishop, Boniface wrote to him, requesting a copy of the Libellus responsionum of Pope Gregory I for use in Boniface's missionary efforts. Boniface also asked for information on when the Gregorian mission to England arrived in England. This text of the Libellus responsionum has been the subject of some controversy, with the historian Suso Brechter arguing that the text was a forgery created by Nothhelm and a Roman archdeacon. The historian Paul Meyvaert has refuted this view, and most historians incline towards the belief that the text is genuine, although it is not considered conclusively proven.
+
+## Death and legacy
+
+Nothhelm died on 17 October 739. and was buried in Canterbury Cathedral. He is considered a saint, and his feast day is 17 October. The antiquaries and writers John Leland, John Bale, and Thomas Tanner all felt that Nothhelm was the author of various works, but later research has shown them to be authored by other writers. A verse eulogy for Nothhelm, of uncertain date, survives in a 16th-century manuscript now at the Lambeth Palace library.

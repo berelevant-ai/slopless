@@ -1,0 +1,5 @@
+# Is there a link between bed firmness and spine deformations?
+
+When I was a child, I was diagnosed with spine deformations: scoliosis, kyphosis and lordosis. The scoliosis is the most pronounced one in my case.
+The professionals (I don't remember if it was the doctor or the rehabilitator who led my medicinal gymnastics classes) told us that it is connected to the bed I sleep in, and advised that I start sleeping on a firm mattress. I don't know exactly if they suggested that a soft mattress causes the deformation to start, or if it only exacerbates it once it has started. And indeed, in my childhood, I was sleeping on an old metal-springs bed which was quite sagging.
+The advice has an obvious logic to it, but in the meantime, I've learned that many of the obvious things in medicine just ain't so. And also that doctors are as likely to fall for urban legends as anybody else. So I would like to hear if anybody has found out that there is a connection between bed firmness and spine curvature/spine deformities. If yes, does it only matter in childhood, or also for adults?

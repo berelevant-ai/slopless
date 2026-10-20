@@ -1,0 +1,10 @@
+# If the co-signer on my car loan dies, can the family take the car from me like they're threatening to?
+
+It looks to me like this is a 'call an attorney' situation, which is always a good idea in situations like this (family legal disputes).  But, some information.
+First off, if your family is going to take the car, you certainly won't need to make payments on it any more at that point, in my opinion.  If the will goes through probate (which is the only way they'd really be able to take it), the probate judge should either leave you with the car and the payments, or neither (presumably requiring the family to pay off the loan and settle your interest in the car).  Since the car has negative net value, it seems unlikely that the probate judge would take the car away from you, but who knows.  Either way, if they  do  take the car away from you, they'll be doing you a service: you have a $6,000 car that you owe $12,000 on.   Let them , and walk away and buy another car for $6,000.
+Second, I'm not sure they would be allowed to in any event.  See the  Illinois DMV page on correcting titles in the case of a deceased owner ; Illinois I believe is a joint tenancy state, meaning that once one owner dies, the other just gets the car (and the loan, though the loan documents would cover that).  Unless you had an explicit agreement with your grandfather, anyway.
+From that page:
+Joint Ownership
+A title in the names of two or more persons is considered to be in joint tenancy. Upon the death of one of them, the surviving joint tenant(s) becomes the owner(s) of the vehicle by law.
+Third, your grandfather can fix all of this fairly easily by mentioning the disposition of the car and loan in his will, if he's still mentally competent and wishes to do so.  If he transfers his ownership of the car to you in the will, it seems like that would be that (though again, it's not clear that the ownership wouldn't just be yours anyway).
+Finally, I am not a lawyer, and I am not  your  lawyer, so do not construe any of the text of this post as legal advice; contact a lawyer.

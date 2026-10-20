@@ -1,0 +1,4 @@
+# What's the 2-minute timer on mobile Deutsche Bahn tickets?
+
+According to  this link  (only in German), it is to check if you have bought the ticket just right now or a sufficient amount of time before. The rules usually are, that you have to buy a ticket before you get on the train. Now, with mobile tickets, some "clever" people thought, they just need to buy a ticket when they see the conductor, and to ride free when they don't see one. In local transit (especially trams, and more and more regional trains) you don't have a regular conductor in every train anymore, but just ticket checking teams, which go around the city. Obviously they can only cover a small part of the available transit vehicles.
+This is most likely the reason why the operators introduced this timer, so that it's visible for the conductor if you have bought the ticket just right now or more than 2 minutes ago.

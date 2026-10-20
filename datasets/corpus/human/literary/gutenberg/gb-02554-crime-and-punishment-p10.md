@@ -1,0 +1,19 @@
+Marmeladov broke off, tried to smile, but suddenly his chin began to twitch. He controlled himself however. The tavern, the degraded appearance of the man, the five nights in the hay barge, and the pot of spirits, and yet this poignant love for his wife and children bewildered his listener. Raskolnikov listened intently but with a sick sensation. He felt vexed that he had come here.
+
+“Honoured sir, honoured sir,” cried Marmeladov recovering himself--“Oh, sir, perhaps all this seems a laughing matter to you, as it does to others, and perhaps I am only worrying you with the stupidity of all the trivial details of my home life, but it is not a laughing matter to me. For I can feel it all.... And the whole of that heavenly day of my life and the whole of that evening I passed in fleeting dreams of how I would arrange it all, and how I would dress all the children, and how I should give her rest, and how I should rescue my own daughter from dishonour and restore her to the bosom of her family.... And a great deal more.... Quite excusable, sir. Well, then, sir” (Marmeladov suddenly gave a sort of start, raised his head and gazed intently at his listener) “well, on the very next day after all those dreams, that is to say, exactly five days ago, in the evening, by a cunning trick, like a thief in the night, I stole from Katerina Ivanovna the key of her box, took out what was left of my earnings, how much it was I have forgotten, and now look at me, all of you! It’s the fifth day since I left home, and they are looking for me there and it’s the end of my employment, and my uniform is lying in a tavern on the Egyptian bridge. I exchanged it for the garments I have on... and it’s the end of everything!”
+
+Marmeladov struck his forehead with his fist, clenched his teeth, closed his eyes and leaned heavily with his elbow on the table. But a minute later his face suddenly changed and with a certain assumed slyness and affectation of bravado, he glanced at Raskolnikov, laughed and said:
+
+“This morning I went to see Sonia, I went to ask her for a pick-me-up! He-he-he!”
+
+“You don’t say she gave it to you?” cried one of the new-comers; he shouted the words and went off into a guffaw.
+
+“This very quart was bought with her money,” Marmeladov declared, addressing himself exclusively to Raskolnikov. “Thirty copecks she gave me with her own hands, her last, all she had, as I saw.... She said nothing, she only looked at me without a word.... Not on earth, but up yonder... they grieve over men, they weep, but they don’t blame them, they don’t blame them! But it hurts more, it hurts more when they don’t blame! Thirty copecks yes! And maybe she needs them now, eh? What do you think, my dear sir? For now she’s got to keep up her appearance. It costs money, that smartness, that special smartness, you know? Do you understand? And there’s pomatum, too, you see, she must have things; petticoats, starched ones, shoes, too, real jaunty ones to show off her foot when she has to step over a puddle. Do you understand, sir, do you understand what all that smartness means? And here I, her own father, here I took thirty copecks of that money for a drink! And I am drinking it! And I have already drunk it! Come, who will have pity on a man like me, eh? Are you sorry for me, sir, or not? Tell me, sir, are you sorry or not? He-he-he!”
+
+He would have filled his glass, but there was no drink left. The pot was empty.
+
+“What are you to be pitied for?” shouted the tavern-keeper who was again near them.
+
+Shouts of laughter and even oaths followed. The laughter and the oaths came from those who were listening and also from those who had heard nothing but were simply looking at the figure of the discharged government clerk.
+
+“To be pitied! Why am I to be pitied?” Marmeladov suddenly declaimed, standing up with his arm outstretched, as though he had been only waiting for that question.

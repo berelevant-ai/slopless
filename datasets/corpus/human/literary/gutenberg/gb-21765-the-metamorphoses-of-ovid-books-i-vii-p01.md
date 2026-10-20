@@ -1,0 +1,33 @@
+[Transcriber’s Note:
+
+In the original text, words and phrases supplied by the translator   were printed in _italics_. In this e-text they are shown in {braces}.   Italics in the notes and commentary are shown conventionally with   _lines_, boldface by =marks=.
+
+Line numbers from the original Latin poem were printed as headnotes   on each page. For this e-text, only the line numbers of each complete   “Fable” are given. Line numbers used in footnotes are retained from   the original text; these, too, refer to the Latin poem and are   independent of line divisions in the translation.
+
+Parts of this e-text use material from another edition of the Riley   translation of the _Metamorphoses_: George Bell (London, 1893).   Details are given at the end of the text, before the Errata. Each   segment of the introductory material is individually identified.]
+
+THE              METAMORPHOSES OF OVID
+
+Vol. I--Books I-VII
+
+LITERALLY TRANSLATED WITH NOTES AND EXPLANATIONS
+
+by               HENRY T. RILEY, M.A.
+
+With an Introduction by                EDWARD BROOKS, JR.
+
+Copyright, 1899, By David McKay
+
+Press Of           Sherman & Co., Philadelphia
+
+INTRODUCTION.
+
+[From Bell edition.]
+
+The Metamorphoses of Ovid are a compendium of the Mythological narratives of ancient Greece and Rome, so ingeniously framed, as to embrace a large amount of information upon almost every subject connected with the learning, traditions, manners, and customs of antiquity, and have afforded a fertile field of investigation to the learned of the civilized world. To present to the public a faithful translation of a work, universally esteemed, not only for its varied information, but as being the masterpiece of one of the greatest Poets of ancient Rome, is the object of the present volume.
+
+To render the work, which, from its nature and design, must, of necessity, be replete with matter of obscure meaning, more inviting to the scholar, and more intelligible to those who are unversed in Classical literature, the translation is accompanied with Notes and Explanations, which, it is believed, will be found to throw considerable light upon the origin and meaning of some of the traditions of heathen Mythology.
+
+In the translation, the text of the Delphin edition has been generally adopted; and no deviation has been made from it, except in a few instances, where the reason for such a step is stated in the notes; at the same time, the texts of Burmann and Gierig have throughout been carefully consulted. The several editions vary materially in respect to punctuation; the Translator has consequently used his own discretion in adopting that which seemed to him the most fully to convey in each passage the intended meaning of the writer.
+
+The Metamorphoses of Ovid have been frequently translated into the English language. On referring to Mr. Bohn’s excellent Catalogue of the Greek and Latin Classics and their Translations, we find that the whole of the work has been twice translated into English Prose, while five translations in Verse are there enumerated. A prose version of the Metamorphoses was published by Joseph Davidson, about the middle of the last century, which professes to be “as near the original as the different idioms of the Latin and English will allow;” and to be “printed for the use of schools, as well as of private gentlemen.” A few moments’ perusal of this work will satisfy the reader that it has not the slightest pretension to be considered a literal translation, while, by its departure from the strict letter of the author, it has gained nothing in elegance of diction. It is accompanied by “critical, historical, geographical, and classical notes in English, from the best Commentators, both ancient and modern, beside a great number of notes, entirely new;” but notwithstanding this announcement, these annotations will be found to be but few in number, and, with some exceptions in the early part of the volume, to throw very little light on the obscurities of the text. A fifth edition of this translation was published so recently as 1822, but without any improvement, beyond the furbishing up of the old-fashioned language of the original preface. A far more literal translation of the Metamorphoses is that by John Clarke, which was first published about the year 1735, and had attained to a seventh edition in 1779. Although this version may be pronounced very nearly to fulfil the promise set forth in its title page, of being “as literal as possible,” still, from the singular inelegance of its style, and the fact of its being couched in the conversational language of the early part of the last century, and being unaccompanied by any attempt at explanation, it may safely be pronounced to be ill adapted to the requirements of the present age. Indeed, it would not, perhaps, be too much to assert, that, although the translator may, in his own words, “have done an acceptable service to such gentlemen as are desirous of regaining or improving the skill they acquired at school,” he has, in many instances, burlesqued rather than translated his author. Some of the curiosities of his version will be found set forth in the notes; but, for the purpose of the more readily justifying this assertion, a few of them are adduced: the word “nitidus” is always rendered “neat,” whether applied to a fish, a cow, a chariot, a laurel, the steps of a temple, or the art of wrestling. He renders “horridus,” “in a rude pickle;” “virgo” is generally translated “the young lady;” “vir” is “a gentleman;” “senex” and “senior” are indifferently “the old blade,” “the old fellow,” or “the old gentleman;” while “summa arx” is “the very tip-top.” “Misera” is “poor soul;” “exsilio” means “to bounce forth;” “pellex” is “a miss;” “lumina” are “the peepers;” “turbatum fugere” is “to scower off in a mighty bustle;” “confundor” is “to be jumbled;” and “squalidus” is “in a sorry pickle.” “Importuna” is “a plaguy baggage;” “adulterium” is rendered “her pranks;” “ambages” becomes either “a long rabble of words,” “a long-winded detail,” or “a tale of a tub;” “miserabile carmen” is “a dismal ditty;” “increpare hos” is “to rattle these blades;” “penetralia” means “the parlour;” while “accingere,” more literally than elegantly, is translated “buckle to.” “Situs” is “nasty stuff;” “oscula jungere” is “to tip him a kiss;” “pingue ingenium” is a circumlocution for “a blockhead;” “anilia instrumenta” are “his old woman’s accoutrements;” and “repetito munere Bacchi” is conveyed to the sense of the reader as, “they return again to their bottle, and take the other glass.” These are but a specimen of the blemishes which disfigure the most literal of the English translations of the Metamorphoses.

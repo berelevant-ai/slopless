@@ -1,0 +1,19 @@
+The king was amazed at these words, but commanded the pool to be forthwith drained; and surely at the bottom of it did they presently discover the two dragons, fast asleep, as Merlin had declared.
+
+But Vortigern sat upon the brink of the pool till night to see what else would happen.
+
+Then those two dragons, one of which was white, the other red, rose up and came near one another, and began a sore fight, and cast forth fire with their breath. But the white dragon had the advantage, and chased the other to the end of the lake. And he, for grief at his flight, turned back upon his foe, and renewed the combat, and forced him to retire in turn. But in the end the red dragon was worsted, and the white dragon disappeared no man knew where.
+
+When their battle was done, the king desired Merlin to tell him what it meant. Whereat he, bursting into tears, cried out this prophecy, which first foretold the coming of King Arthur.
+
+"Woe to the red dragon, which figureth the British nation, for his banishment cometh quickly; his lurking-holes shall be seized by the white dragon--the Saxon whom thou, O king, hast called to the land. The mountains shall be leveled as the valleys, and the rivers of the valleys shall run blood; cities shall be burned, and churches laid in ruins; till at length the oppressed shall turn for a season and prevail against the strangers. For a Boar of Cornwall shall arise and rend them, and trample their necks beneath his feet. The island shall be subject to his power, and he shall take the forests of Gaul. The house of Romulus shall dread him--all the world shall fear him--and his end shall no man know; he shall be immortal in the mouths of the people, and his works shall be food to those that tell them.
+
+"But as for thee, O Vortigern, flee thou the sons of Constantine, for they shall burn thee in thy tower. For thine own ruin wast thou traitor to their father, and didst bring the Saxon heathens to the land. Aurelius and Uther are even now upon thee to revenge their father's murder; and the brood of the white dragon shall waste thy country, and shall lick thy blood. Find out some refuge, if thou wilt! but who may escape the doom of God?"
+
+The king heard all this, trembling greatly; and, convicted of his sins, said nothing in reply. Only he hasted the builders of his tower by day and night, and rested not till he had fled thereto.
+
+In the meantime, Aurelius, the rightful king, was hailed with joy by the Britons, who flocked to his standard, and prayed to be led against the Saxons. But he, till he had first killed Vortigern, would begin no other war. He marched therefore to Cambria, and came before the tower which the usurper had built. Then, crying out to all his knights, "Avenge ye on him who hath ruined Britain and slain my father and your king!" he rushed with many thousands at the castle walls. But, being driven back again and yet again, at length he thought of fire, and ordered blazing brands to be cast into the building from all sides. These, finding soon a proper fuel, ceased not to rage till, spreading to a mighty conflagration, they burned down the tower, and Vortigern within it.
+
+Then did Aurelius turn his strength against Hengist and the Saxons, and, defeating them in many places, weakened their power for a long season, so that the land had peace.
+
+Anon the king, making journeys to and fro, restoring ruined churches and, creating order, came to the monastery near Salisbury, where all those British knights lay buried who had been slain there by the treachery of Hengist. For when in former times Hengist had made a solemn truce with Vortigern, to meet in peace and settle terms, whereby himself and all his Saxons should depart from Britain, the Saxon soldiers carried every one of them beneath his garment a long dagger, and, at a given signal, fell upon the Britons, and slew them, to the number of nearly five hundred.

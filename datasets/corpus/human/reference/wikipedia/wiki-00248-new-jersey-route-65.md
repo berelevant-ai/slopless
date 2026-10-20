@@ -1,0 +1,17 @@
+# New Jersey Route 65
+
+Route 65 is a former state highway in the city of Newark, New Jersey. The route went for 4.12 miles (6.63 km) along Port Street and Doremus Avenue through the industrial districts of the city. Route 65 began at an intersection with U.S. Route 1 and 9 near Newark Liberty International Airport. The route crossed over the New Jersey Turnpike along Port Street until an intersection with Doremus Avenue, where it turned northward for the rest of the distance, terminating at an intersection with U.S. Route 1 and 9 Truck.
+Route 65 was originally planned in 1939 as a spur of Route 25, Route 25B, in Newark to connect that route with Route 25T (now U.S. Route 1 / 9 Truck). The route lasted for 14 years, until January 1, 1953, when the 1953 New Jersey state highway renumbering occurred. Route 25B was decommissioned on that day, along with its parent route, Route 25. Route 25B was redesigned as Route 65, and was removed from the state highway system by 1963. The two roads are now maintained by the city of Newark.
+
+## Route description
+
+Route 65 began at an intersection with U.S. Route 1 and 9 in the area of Newark Liberty International Airport in the city of Newark. The route progressed eastward along Port Street, a divided highway for a short distance. The route crossed the access road to the airport before crossing over the newly constructed New Jersey Turnpike south of Interchange 14. From there, Route 65 continued as Port Street but as one roadway into the industrial districts in Newark. The route progressed further over a railroad before intersecting with Doremus Avenue, where Route 65 turned northward off of Port Street. Both Port Street and Doremus Avenue dead-end right after this respective intersection, Doremus Avenue to the south and Port Street to the east.
+From there, Route 65 headed northward along Doremus Avenue, crossing over the Newark Bay Extension (Interstate 78) just north of the intersection. The route continued through the industrial district, reaching higher in elevation on a bridge over the Central Railroad of New Jersey (now Conrail Shared Assets Operations, CSAO). From there, the route paralleled the turnpike's mainline along Doremus Avenue. At the intersection with Raymond Boulevard, Route 65 became a divided highway once again, terminating at an intersection with U.S. Route 1 / 9 Truck in the city of Newark.
+
+## History
+
+Route 65 was originally designated in 1939 as State Highway Route 25B, a spur off of State Highway Route 25 (now U.S. Route 1 and 9) at a traffic circle near the Newark Metropolitan Airport (now Newark Liberty International Airport). The route was then to commence along Port Street and Doremus Avenue to an intersection with State Highway Route 25T (now U.S. Route 1 and 9 Truck). Route 25B remained intact along the alignment of Port Street and Doremus Avenue until January 1, 1953. On that day, the New Jersey State Highway Department renumbered routes in the state, and eliminated Route 25 entirely. Due to decommissioning of Route 25, Route 25B was renumbered to Route 65, eliminating the relation to former Route 25 or U.S. Route 1 and 9. Route 65 remained on the Port Street and Doremus Avenue alignment for a short time, and was completely eliminated from the state system by 1963. Port Street and Doremus Avenue are both now maintained by the city of Newark but both are of the National Highway System as of 2009. In 2001, the bridge over the CSAO line was reconstructed.
+
+## Major intersections
+
+The entire route was in Newark, Essex County.

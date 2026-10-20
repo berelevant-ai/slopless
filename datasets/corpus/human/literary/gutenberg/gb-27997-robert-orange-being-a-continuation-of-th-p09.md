@@ -1,0 +1,21 @@
+Berenville's remarks, it will be plainly seen, anticipate our history a little, for, at the time of which we write, the Bond of Association was still maintaining a sickly existence on its original programme. Orange had not yet been invited to join it, nor had Lord Reckage declared himself a moral philosopher.
+
+On this particular afternoon his lordship entered, from the street, a narrow vestibule, the red walls of which were lit up by wax candles set at either end in ponderous bronze chandeliers. From this he passed into a square inner hall, paved with marble, and furnished by carved seats which had once belonged to the choir of an ancient chapel in Northumberland. Here he paused, for his attention was immediately arrested by a small group of four or five individuals who were talking with great earnestness at the foot of the oak staircase. Not that this was, in itself, an unusual event, for ever since a memorable day when the Earl of Bampton and the young Archdeacon of Soham, feeling warm, had ordered their tea to be served in that part of the building, it had been the fashion for distinguished members to assemble there, dispersing themselves in careless profusion among the statues of departed ecclesiastics or reclining pleasantly on the blue velvet divan which occupied the centre of the floor.
+
+Foremost in the little company on this occasion stood Sir Edward Ullweather and Nigel Bradwyn, both private secretaries, and each secretly convinced that his peculiar powers would have found brilliant, volcanic opportunities of demonstration in the other's more promising berth. Ullweather, whose life had been devoted to the study of agricultural problems, was subordinate to the Secretary of State for War. Bradwyn, on the other hand, who had planted his soul in the East, was now learning what he could, at the nation's expense, of the nation's domestic policy. Demoralised by disappointment, and made cynical by toiling over interests for which they had, at best, but a forced regard, little remained in their breasts but a sore determination to make the best of an abiding discontent. In joining Lord Reckage's Committee, they found themselves again, as they believed, in a false position. The second-rate mind, whether represented in a person or by a council, shrinks from the adoption of simple measures, and invariably seeks to make itself conspicuous by so placing others as to make them appear unnecessary. The special genius of Lord Reckage was shown, perhaps, in his abilities in this direction, and, while he missed no opportunity of engaging men of proved capabilities for his service, his jealousy drove him so to employ them that they were never permitted to do their best either for him or for themselves. This policy carried in itself the sting for its own destruction.
+
+Not far from Ullweather and Bradwyn, Randall Hatchett, the youngest member of the Executive, lounged against a pillar. Proud of a distinction which he dared not comprehend (for a commercial shrewdness made him suspect that he owed his position less to merit than to the subtle promises conveyed by a weak chin), this distinguished person tried to look the secrets which his colleagues had never permitted him to learn. In moody weariness he would sometimes condescend to the company of his subordinates on the General Committee and, while listening to their irresponsible prattle, he would seem to forget the onerous public interests the absolute neglect of which was his chief duty at the Council board.
+
+Near this gentleman were two others, Hartley Penborough, the editor of _The Sentinel_, and the Hon. Charles Aumerle, whose guest he was.
+
+As Lord Reckage entered and showed some intention of joining in the conversation, they appeared by a silent and common consent to ignore his approach. He turned to the hall porter, gave him some instructions in a low voice and passed on, livid with annoyance, to the library beyond.
+
+"Hullo!" exclaimed Aumerle, "that was Reckage."
+
+"I know it," said Randall Hatchett.
+
+"Why didn't you speak to him?" asked Aumerle.
+
+"Because," said Bradwyn, "our good Hatchett is not so sure of himself that he can afford to be civil even to a President out of fashion!"
+
+No one smiled except Hatchett himself, because each one felt it was unwise to encourage Bradwyn's peculiar humour.

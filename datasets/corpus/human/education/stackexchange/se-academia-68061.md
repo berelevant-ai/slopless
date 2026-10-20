@@ -1,0 +1,3 @@
+# In a formal paper, should I censor "brainf**k", the name of a programming language?
+
+These are the Registered names of sanctioned programs in your industry.  Their developers chose those names not for their prurient value but for their impact value.  "Brainfuck" sends an INSTANT message that something like "Cerebral Challenge"  could never pull off.  You show your professionalism when you structure the "Brainfuck" section of your paper with the same care you show in other sections, mentioning the singularity of its name only if it's relevant to the paper. Let 'them' come to you, if they feel they must (and I doubt it).  Your responsibility is to the quality--which includes the Integrity-- of your paper.

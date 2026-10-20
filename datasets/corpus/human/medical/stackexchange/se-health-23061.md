@@ -1,0 +1,9 @@
+# If a SARS-CoV-2 asymptomatic infected individual is exposed to a high viral load, could they develop COVID-19 disease?
+
+What your government is proposing is a lot less than what was actually done in China.  There, and perhaps that is still the case, large numbers of asymptomatic infected people were housed together in halls  with only social separation between them, and masks to prevent others from infecting others.
+Your government is proposing to house the asymptomatic infected in hotels, presumably in separate rooms.
+We know that people who are infected because they have virus identified using PCR swabs of their upper airways.  CT scans can show pulmonary lesions present even without cough or fever. And even speaking can aerosolize virus though you are likely most infective at about days 4-5 before your own antibody production has ramped up significantly.
+So, it's likely you are exhaling virus, and inhaling again the virus that you exhale, as well as spreading virus in your blood to other tissues.  It seems less likely that you're going to inhale a viral load that already exceeds the amount of virus coating your mucus membranes and alveloli.  At least you will have some antibody production after day 5 or so  on average to provide some protection.
+Note also that even within family groups housed together in Guangzhou, the incidence of cross infection was only 10%.
+And there are likely to be host factors at work. We know that women and younger people have a less severe course generally.  So, even with a higher viral load on re-exposure, that may not change the underlying host factors that might =give them some protection eg. higher levels of ACE2 receptors, Group O blood group etc.
+https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf

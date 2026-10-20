@@ -1,0 +1,34 @@
+# Donovan Warren
+
+Donovan Jamelle Warren (born January 31, 1989) is an American football cornerback who is currently a free agent. Warren was signed by the New York Jets as an undrafted free agent following the 2010 NFL Draft and has also played with the Detroit Lions, Pittsburgh Steelers and Chicago Bears. He attended the University of Michigan through his junior year.
+During his three years playing for the Michigan Wolverines football team, he started in 34 of 36 games. As a member of the 2009 Michigan Wolverines football team, whom he led in interceptions, he earned 2009 first team All-Big Ten recognition from the media and second team recognition from the coaches. He had chosen Michigan over his hometown favorite University of Southern California because he believed that he would be able to play immediately there. Warren had played high school football at Long Beach Polytechnic High School in California.
+
+## Early years
+
+A native of Long Beach, California, Warren attended Long Beach Polytechnic High School, where he tallied 114 tackles, 15 pass breakups, five interceptions and three fumble recoveries during his prep career. Considered a five-star recruit by Rivals.com, Warren ranked third among cornerback prospects and twenty-fifth overall in the nation. Scout.com ranked him fourth among cornerbacks, and ESPN ranked him eighth. He was named to the USA Today All-USA second team and the EA Sports All-American second-team at cornerback. Warren participated in the 2007 U.S. Army All-American Bowl. Warren ran a 10.6 seconds time in the 100 meters in high school.
+At the beginning of the recruiting process, Warren was considered very likely to play for the USC Trojans football team, since they had four players from his high school on the roster and his godfather, Mark Carrier, was a USC alumn. However, USC had a lot of depth at cornerback at the time and Warren (as well as his father) had a good relationship with Michigan assistant coach Ron English. When Warren made Michigan his final decision, he was noted as feeling that his heart wanted him to choose USC, which was the school he had grown up rooting for, but his head led him to Michigan where he could play immediately and work under the tutelage of English, who had developed many defensive backs who went on to the National Football League.
+
+## College career
+
+As a true freshman at Michigan, Warren played in all 13 season games while starting 11 of them at cornerback. He recorded 52 tackles, 1.5 tackles for loss, one sack, one forced fumble, two fumble recoveries, one interception and six pass breakups. In the September 15, 2007 Michigan-Notre Dame rivalry game, which Michigan won 38 – 0, he forced and recovered a Jimmy Clausen fumble on the Notre Dame 21-yard line while the score was 3 – 0. The fumble led to a Mike Hart touchdown five plays later. He was named Big Ten Defensive Freshman of the Year by The Sporting News and also made TSN ′ s and College Football News ′ Freshman All-American second team.
+As a sophomore, he started ten games at cornerback and one at safety. During the November 1, 2008 game at Purdue, he recovered a fumble on Purdue's opening possession that led to a Brandon Minor 45 – yard touchdown run on the next play.
+As a junior, he started all 12 games at cornerback. That season, he led the Wolverines with four interceptions, which ranked tied for sixth in the Big Ten Conference and 49th in the nation. He recorded one in each of Michigan's first three conference games during the 2009 Big Ten Conference football season, including a controversial one to seal the team's fourth consecutive victory to start the season in their conference opener against the Indiana Hoosiers that withstood instant replay video review. He ran back the third of these interceptions for a 40-yard touchdown in the first minute of the third conference game against the Iowa Hawkeyes. At the conclusion of the season, he was selected as to the 2009 All-Big Ten conference team by the media (first-team) and coaches (second-team).
+
+## Professional career
+
+
+### Pre-draft
+
+On December 20, 2009, Warren announced his decision to forgo his final season of collegiate eligibility and enter the 2010 NFL Draft. Warren stated that the NFL's Draft Advisory Board advised him that if he entered the draft, he would be selected in the first three rounds. When Warren signed Drew Rosenhaus as his sports agent, he was projected as a first or second round draft choice. Warren was considered to be a man-to-man defense specialist who needed to develop his zone defense skills. Some sources, such as Todd McShay, who felt he was just a cut below the top five cornerbacks in the draft prior to the 2010 NFL Combine, had predicted that Warren could be selected in the second round. ESPN draft analyst Mel Kiper, Jr. predicted Warren would be drafted in the third or fourth round of the draft, describing him as “ a physical corner " who " likes going head to head on an island with the best receivers in the country, he ’ s never had an issue with that. Anticipation is good. Gambler, though. Gave up some big plays. ” Warren aggravated an ankle injury shortly before the NFL Combine, where he struggled in position drills and ran the 40-yard dash in 4.59 seconds. His disappointing performance was cited as damaging his draft stock.
+
+### New York Jets
+
+Despite earlier predictions, Warren was not selected in the draft. He signed as an undrafted free agent with the New York Jets immediately after the draft. Warren's godfather, former Pro Bowl defensive back Mark Carrier, is an assistant coach with the Jets. The 2010 New York Jets have several cornerbacks on their roster, including Darrelle Revis, Antonio Cromartie, Dwight Lowery, Drew Coleman, Marquice Cole and first-round pick Kyle Wilson. Some sources speculate that Warren would be converted to safety. Jets head coach Rex Ryan said that although Warren would be practicing at both cornerback and safety, he felt that Warren's best shot was at safety. Warren, who was sidelined during most of the Jets training camp sessions with a concussion, was waived by New York on September 3, 2010. Warren would be signed to the team's practice squad on September 6, 2010. Warren would later be released from the team's practice squad on September 7, 2010.
+
+### 2011
+
+Warren signed a contract with the Pittsburgh Steelers on January 7, 2011. He was cut September 4, 2011. Warren then signed with the Detroit Lions a few days later and was placed on the practice squad. Warren was released from the Lions practice squad on September 20, 2011. On January 6, 2012, he signed a reserve / future contract with the Chicago Bears. On June 12, 2012, he was waived by the Bears.
+
+## Personal
+
+Warren's uncle Chuckie Miller played for the Indianapolis Colts and his father, Alvin, played football at New Mexico State. His godfather, Carrier, is an assistant coach for the Cincinnati Bengals.

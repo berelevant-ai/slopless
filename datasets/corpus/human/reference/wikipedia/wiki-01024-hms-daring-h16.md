@@ -1,0 +1,18 @@
+# HMS Daring (H16)
+
+HMS Daring was a D-class destroyer built for the Royal Navy in the early 1930s. The ship spent the bulk of her career on the China Station. She was briefly commanded by Louis Mountbatten before World War II. Daring escorted convoys in the Red Sea in October – November 1939 and then returned to the UK in January 1940 for the first time in five years. While escorting a convoy from Norway, she was sunk by the German submarine U-23 in February 1940.
+
+## Description
+
+Daring displaced 1,375 long tons (1,397 t) at standard load and 1,890 long tons (1,920 t) at deep load. The ship had an overall length of 329 feet (100.3 m), a beam of 33 feet (10.1 m) and a draught of 12 feet 6 inches (3.8 m). She was powered by Parsons geared steam turbines, driving two shafts, which developed a total of 36,000 shaft horsepower (27,000 kW) and gave a maximum speed of 36 knots (67 km / h; 41 mph). Steam for the turbines was provided by three Admiralty 3-drum water-tube boilers. Daring carried a maximum of 473 long tons (481 t) of fuel oil that gave her a range of 5,870 nautical miles (10,870 km; 6,760 mi) at 15 knots (28 km / h; 17 mph). The ship's complement was 145 officers and men.
+The ship mounted four 45-calibre 4.7-inch Mk IX guns in single mounts. For anti-aircraft (AA) defence, Daring had a single 3-inch (76.2 mm) QF gun between her funnels and two 40-millimetre (1.6 in) QF 2-pounder Mk II guns mounted on the side of her bridge. She was fitted with two above-water quadruple torpedo tube mounts for 21-inch torpedoes. One depth charge rail and two throwers were fitted; 20 depth charges were originally carried, but this increased to 35 shortly after the war began.
+
+## Career
+
+Daring was ordered on 2 February 1931 under the 1930 Naval Estimates, and was laid down at John I Thornycroft's yard at Woolston, Southampton on 18 June 1931. She was launched on 7 April 1932 and completed on 25 November 1932, at a total cost of £ 225,536, excluding equipment supplied by the Admiralty, such as weapons, ammunition and wireless equipment. The ship was initially assigned to the 1st Destroyer Flotilla in the Mediterranean and made a brief deployment to the Persian Gulf and Red Sea in September – October 1933. Lord Louis Mountbatten assumed command on 29 April 1934, and Daring was given a refit at Sheerness Dockyard from 3 September to 24 October to prepare the ship for service on the China Station.
+In December 1934 she sailed to join the 8th Destroyer Flotilla in the Far East and served there until the outbreak of war. Upon the ship's arrival at Singapore, Lord Mountbatten was transferred to command HMS Wishart and Commander Geoffrey Barnard assumed command.
+The ship and her sisters Duncan, Diana, and Dainty were transferred to the Mediterranean Fleet shortly before World War II began in September 1939. Daring was kept in the Red Sea for escort and patrol work until November 1939. She was overhauled in Malta from 25 November to 20 December. The ship escorted the Union-Castle Line ocean liner SS Dunnottar Castle to Belfast in early 1940 and was under repair at Portsmouth until 25 January. Daring joined the 3rd Destroyer Flotilla in Scapa Flow on 10 February 1940 for escort duties. While escorting Convoy HN12 from Norway, she was torpedoed on 18 February in position 58 ° 39 ′ N 01 ° 40 ′ W by U-23, under the command of Otto Kretschmer. Daring capsized and sank very quickly after having her stern blown off; 157 of the ship's company were lost. The five survivors were rescued by the submarine HMS Thistle, which had witnessed the attack.
+
+## Acclaimed model
+
+A model of HMS Daring by renowned marine model maker Norman A. Ough is held by the National Maritime Museum.

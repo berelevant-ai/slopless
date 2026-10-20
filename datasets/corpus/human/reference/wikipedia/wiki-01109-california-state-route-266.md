@@ -1,0 +1,16 @@
+# California State Route 266
+
+State Route 266 (SR 266) is a state highway in the U.S. state of California. The route is a connector between Nevada State Route 264 and Nevada State Route 266, intersecting SR 168 and thus providing a connection to the rest of the Owens Valley. Portions of the route were added to the state highway system in 1931, and became part of SR 168 in the 1964 state highway renumbering. SR 266 was officially designated in 1968.
+
+## Route description
+
+State Route 266 begins at the western terminus of Nevada State Route 266 at the Nevada state line. The route travels west-northwest, then turns to the west for another 1.8 miles (2.9 km) before approaching Oasis, the only unincorporated community that the route passes through. At Oasis, SR 266 intersects SR 168, which serves as the gateway into the Owens Valley from Nevada. Upon leaving Oasis, SR 266 continues to the west briefly, then turns north-northwest. Within the last 7 miles (11 km), SR 266 slowly curves northwest as the route approaches the Nevada state line. The route ends at the state line at the southern terminus of Nevada State Route 264.
+The section of SR 266 from the western terminus to the junction with SR 168 is designated by the California State Legislature as eligible by law for the State Scenic Highway System; however, it has not officially been designated by Caltrans as such. The entire route, consisting of two lanes for two-way traffic, traverses on the flat land in the Fish Lake Valley east of the White Mountains, and it can serve as transportation of agricultural goods between California and Nevada via the route's only junction State Route 168. In the event that SR 168 is closed, SR 266 connects to Nevada State Route 264, which intersects with U.S. Route 6 in order to provide an alternate access to California.
+
+## History
+
+The segment of present-day SR 266 from Oasis to the Nevada state line (now Nevada State Route 264) was incorporated into the State Highway System in 1931 as Legislative Route 63; it had formed part of the Midland Trail, one of the first auto trails crossing the entire country. The route remained unchanged until 1965, when in that year the route's name was designated as Mono County Road 101. In 1984, the definition was modified to redesignate the segment as an extension of State Route 168 in order for that route to be connected to Nevada. Two years later, in 1986, there was a construction of a new segment traveling east from Oasis and connecting to Nevada State Route 266. When the extension was complete, the two segments – the SR 168 extension and the newly completed – were assigned SR 266.
+
+## Major intersections
+
+Except where prefixed with a letter, postmiles were measured on the road as it was in 1964, based on the alignment that existed at the time, and do not necessarily reflect current mileage. R reflects a realignment in the route since then, M indicates a second realignment, L refers an overlap due to a correction or change, and T indicates postmiles classified as temporary (for a full list of prefixes, see the list of postmile definitions). Segments that remain unconstructed or have been relinquished to local control may be omitted. The entire route is in Mono County.

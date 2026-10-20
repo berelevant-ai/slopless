@@ -1,0 +1,6 @@
+# How to effectively deal with Imposter Syndrome: "I've somehow convinced everyone that I'm actually good at this"
+
+I found two practices helped me a lot:
+Reinforce what you know . The biggest problem with being an academic surrounded by other academics is that you're constantly being confronted by things you don't know. Even worse, it often seems like everyone else knows something that you don't know.
+You don't need me to tell you how demoralizing that is. The fight is to go back and review what you  do  know, and reinforce your expertise in your subject area. Most academics are polyglots; choose some random thing you've studied, learned, or even just considered previously, and review it every now and then. It'll help you view the progress you're making.
+Engage non-academics . You don't realize how much you know until you talk to the other 99.99% of people who don't know what you know. (Confusing sentence...) Write blogs, offer to give visiting lectures at a school or workplace, work as an intern or consultant in industry, champion a political cause related to your research. There are so many ways you can make use of your knowledge, and doing so will definitely help massage your ego which has been bruised by many semesters of feeling inadequate.

@@ -1,0 +1,4 @@
+# Has anyone, based on great performance, ever been awarded a higher degree than the one they enrolled for?
+
+Although a bit old, there's the case of Luzin's Master's thesis:  . . . he completed his thesis  The integral and trigonometric series  which he submitted in 1915. After his oral examination he was awarded a doctorate, despite having submitted his thesis for the Master's Degree.  In fact, even for a Ph.D. thesis, Luzin's is one of the strongest ever written in mathematics --- in my opinion easily in the top 20 (and probably in the top 10) of all-time Ph.D. theses in mathematics for its influence on later developments.
+This  appears to be the published version of Luzin's thesis, which is 242 pages and in Russian, with the table of contents on pp. 241-242. For references to it,  this search  and  this other search  seem to work the best. I didn't get many hits for the title's French translation, by the way.

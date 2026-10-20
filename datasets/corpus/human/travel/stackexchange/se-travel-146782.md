@@ -1,0 +1,7 @@
+# My passport was stamped with an exit stamp while transiting to another Schengen country via Turkey. Was this a mistake?
+
+Your thinking seems to be that because you were flying from one country in the  Schengen Area  to another country in the Schengen area, then you were not really "exiting" Schengen, so should not have been given an exit stamp.
+This would be absolutely correct - IF you were catching a flight that went directly from Spain to Greece, or went via another country in the Schengen region (eg, Spain -> Germany -> Greece).
+However Turkey is NOT in the Schengen area.  Thus your flight actually had you departing the Schengen area as you flew to Turkey, and then re-entering it when you arrived in Greece.  This is true even if you were only in transit in Turkey and didn't actually enter the country - once you walk through immigration in Spain you are deemed to have left the Schengen area.
+With only a single entry visa it it not possible to take this flight.  Your "single entry" was used when you entered Schengen the first time.  Flying to a non-Schengen country (eg, Turkey) and then returning would require a visa, and you didn't hold one that was still valid so you were correctly denied boarding.
+Presuming both of your flights were booked on the same ticket, the airline in Spain should not have actually let you take the flight to Istanbul as you didn't hold the correct documents for the entire trip - however at the end of the day the responsibility for having the correct documents falls to the traveler.

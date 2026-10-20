@@ -1,0 +1,19 @@
+I was now often called upon to tell her about my father, and it was no great difficulty for me to keep the secret of his death, as I had scarcely realised it myself. She lived in a dark back room looking out upon a narrow courtyard, and took a great delight in watching the robins that fluttered freely about her, and for which she always kept fresh green boughs by the stove. When some of these robins were killed by the cat, I managed to catch others for her in the neighbourhood, which pleased her very much, and, in return, she kept me tidy and clean. Her death, as had been expected, took place before long, and the crape that had been put away was now openly worn in Eisleben.
+
+The back room, with its robins and green branches, now knew me no more, but I soon made myself at home with a soap-boiler’s family, to whom the house belonged, and became popular with them on account of the stories I told them.
+
+I was sent to a private school kept by a man called Weiss, who left an impression of gravity and dignity upon my mind.
+
+Towards the end of the fifties I was greatly moved at reading in a musical paper the account of a concert at Eisleben, consisting of parts of Tannhäuser, at which my former master, who had not forgotten his young pupil, had been present.
+
+The little old town with Luther’s house, and the numberless memorials it contained of his stay there, has often, in later days, come back to me in dreams. I have always wished to revisit it and verify the clearness of my recollections, but, strange to say, it has never been my fate to do so. We lived in the market-place, where I was often entertained by strange sights, such, for instance, as performances by a troupe of acrobats, in which a man walked a rope stretched from tower to tower across the square, an achievement which long inspired me with a passion for such feats of daring. Indeed, I got so far as to walk a rope fairly easily myself with the help of a balancing-pole. I had made the rope out of cords twisted together and stretched across the courtyard, and even now I still feel a desire to gratify my acrobatic instincts. The thing that attracted me most, however, was the brass band of a Hussar regiment quartered at Eisleben. It often played a certain piece which had just come out, and which was making a great sensation, I mean the ‘Huntsmen’s Chorus’ out of the Freischutz, that had been recently performed at the Opera in Berlin. My uncle and brother asked me eagerly about its composer, Weber, whom I must have seen at my parents’ house in Dresden, when he was conductor of the orchestra there.
+
+About the same time the Jungfernkranz was zealously played and sung by some friends who lived near us. These two pieces cured me of my weakness for the ‘Ypsilanti’ Waltz, which till that time I had regarded as the most wonderful of compositions.
+
+I have recollections of frequent tussles with the town boys, who were constantly mocking at me for my ‘square’ cap; and I remember, too, that I was very fond of rambles of adventure among the rocky banks of the Unstrut.
+
+My uncle’s marriage late in life, and the starting of his new home, brought about a marked alteration in his relations to my family.
+
+After a lapse of a year I was taken by him to Leipzig, and handed over for some days to the Wagners, my own father’s relatives, consisting of my uncle Adolph and his sister Friederike Wagner. This extraordinarily interesting man, whose influence afterwards became ever more stimulating to me, now for the first time brought himself and his singular environment into my life.
+
+He and my aunt were very close friends of Jeannette Thome, a queer old maid who shared with them a large house in the market-place, in which, if I am not mistaken, the Electoral family of Saxony had, ever since the days of Augustus the Strong, hired and furnished the two principal storeys for their own use whenever they were in Leipzig.

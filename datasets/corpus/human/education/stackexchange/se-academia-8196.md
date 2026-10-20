@@ -1,0 +1,8 @@
+# Sex worker student offering her (lawful) services
+
+First,  “thanks for letting me know”  is not an unambiguous  no . I suppose most people would actually get it, but she already appears to have boundary issues, so you should make it much clearer. The best thing to do would be to make it clear to her that you consider  her propositions to be out of line . You can add, that while you don't think badly of her because of it,  such offers have no place in the classroom  (or in a student/teacher relationship).
+In fact, you would probably do the same if she insisted on asking you to come have dinner at a restaurant she worked at: you'd be annoyed by it, because it is detrimental to her (and others) attention. I regularly have students who ask out-of-line questions, and I try to be firm: while I'd be happy to discuss if we were friends, we are not and my class/practicals/whatever is not the right place for that.
+However, there is a distinction between talking about sex and dining: the law makes a distinction in many countries, including UK. From UCL's HR webpages (as an example):
+Sexual harassment can take the form of ridicule, sexually provocative remarks or jokes, offensive comments about dress or appearance, the display or distribution of sexually explicit material, unwelcome sexual advances or physical contact, demands for sexual favours or assault.
+which clearly covers your case, whether the sexual advances are of a paid or an unpaid nature.
+Finally, regarding your head of school:  the student clearly has boundary issues , probably for making the offer in the first place and definitely for renewing it multiple times after you declined. So, yeah,  I would suggest your head of school or a counselor having a talk with her about it .

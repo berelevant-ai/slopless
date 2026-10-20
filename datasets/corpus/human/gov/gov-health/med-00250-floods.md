@@ -1,0 +1,7 @@
+# Floods
+
+Floods are common in the United States. Weather such as heavy rain, thunderstorms, hurricanes, or tsunamis can cause flooding. Flooding can also happen when a river or stream overflows its bank, when a levee is breached, or when a dam breaks. Flash floods, which can develop quickly, often have a dangerous wall of roaring water. The wall carries rocks, mud, and rubble and can sweep away most things in its path.
+
+Be aware of flood hazards no matter where you live, but especially if you live in a low-lying area, near water or downstream from a dam. Although there are no guarantees of safety during a flood, you can take actions to protect yourself. You should have a disaster plan. Being prepared can help reduce fear, anxiety, and losses. If you do experience a disaster, it is normal to feel stressed. You may need help in finding ways to cope.
+
+Federal Emergency Management Agency

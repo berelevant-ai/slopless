@@ -1,0 +1,4 @@
+# Is it a good idea to use an exercise ball as a chair?
+
+Using an exercise ball as a desk chair is not a magic bullet. It will not work for all people and may actually hurt some. There is no replacement for strength training if you want a stronger core (including back muscles). Some articles I've read (I couldn't find a source other than the article themselves) suggest that you may be compressing your spine and discs while sitting on an exercise ball due to the constant muscles strain caused by trying to keep yourself balanced. These articles and other also suggest there is not good replacement for a fully ergonomic desk chair.
+Like running barefoot or weight lifting, if you're going to switch to using a exercise ball as a chair you should transition slowly to allow your body to get use to it. I have personally used an exercise ball as a chair and loved it. I only stopped when my cats decided it was good fun to deflate the ball when I was sitting on it.

@@ -1,0 +1,3 @@
+# Is it possible to write a short story in 500 words?
+
+Easily. There are entire categories of  "flash fiction"  that are even shorter, even down to just six words (famous example  allegedly by Hemingway : "For sale: Baby shoes. Never worn."). Common breakpoints are Twitter sized (280 characters), 50 words, 100 words, 300 words, 500 words, 750 words, and 1000 words. These categories go by many names, and they aren't really standard, but common names are dribble, microfiction, micro-story, flash fiction, minisaga, sudden fiction, and so on. Beyond 1000 words you start to get into established novelette territory and more traditional short stories.

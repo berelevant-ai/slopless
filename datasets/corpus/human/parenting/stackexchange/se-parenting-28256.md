@@ -1,0 +1,8 @@
+# Parents disagree on type of music for toddler's listening
+
+Play  all  the music. See what he enjoys. Play that.
+I have some bad news. Your son is quite likely to love dumb bouncy pop stuff like " Let's Get Ready to Rumble " because he's  two  and it's all bouncy. Or he may go nuts for the theme tune to "Batman: Brave and the Bold" or "TMNT" because they're connected to the bright picture box. Or he may just really be into both hardcore thrash metal and smooth jazz because little children are the definition of "I don't know genre, but I know what I like".
+Musical tastes change over time and age. If you're lucky enough, he'll grow interested in your music because you're the one that's playing it. But even if he is into the same kind of music as you are, he may not want to work with you. Or if he isn't, he may still want to work with you, because you're his dad.
+The best way for you to get him into your music is to play it to him personally. If your wife wants him into her music, she can have it on while they're doing stuff. The most enjoyable music is the stuff that links to a pleasant memory or culture.  AND HE CAN BE INTO BOTH .
+Bottom line, don't be a music genre snob,  especially  for another person. If nothing else, some of the best music comes from listening to lots of different genres and styles and finding the common themes that you enjoy, and then producing something new from it.
+The days Johnny Cash completely broke us all with his cover of " Hurt ", or William Shatner teamed up with Ben Folds to perform a cover of " Common People " that is  better than the original , are two of the many days we should have stopped assuming that genres of music mean anything.

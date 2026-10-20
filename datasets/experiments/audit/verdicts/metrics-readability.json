@@ -1,0 +1,74 @@
+[
+  {
+    "rule": "flesch-kincaid",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Fires on whole-article readability score. All 30 samples are analytical business/tech articles (a16z blog) written at graduate level. The threshold (score >= 61) targets tabloid prose; professional non-fiction routinely scores 20-50. Every flag is dense-but-legitimate writing, not slop.",
+    "fp_examples": [
+      "[business/a16z] (Flesch Reading Ease is -1.82. Keep it at 61 or hig) # Disruptive Innovation Hospitals Integration Value Added Process Book Chapter",
+      "[business/a16z] (Flesch Reading Ease is 24.61. Keep it at 61 or hig) # Beware The Edifice Complex And 9 Other Ways To Damage Your High Growth Startup",
+      "[business/a16z] (Flesch Reading Ease is 21.7. Keep it at 61 or high) # Flow Scalability Trilemma Blockchain Architectures"
+    ]
+  },
+  {
+    "rule": "gunning-fog",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Fires on whole-article fog index. Threshold is 12 (8th-grade level). All 30 samples are expert-domain writing -- blockchain architectures, fintech regulation, enterprise software, healthcare -- that legitimately uses multi-syllable technical terms. Scores of 13-25 are expected and correct for this genre, not slop.",
+    "fp_examples": [
+      "[business/a16z] (Gunning Fog is 24.98. Keep it at 12 or lower.) # Disruptive Innovation Hospitals Integration Value Added Process Book Chapter",
+      "[business/a16z] (Gunning Fog is 19.89. Keep it at 12 or lower.) # Flow Scalability Trilemma Blockchain Architectures",
+      "[business/a16z] (Gunning Fog is 18.12. Keep it at 12 or lower.) # Beware The Edifice Complex And 9 Other Ways To Damage Your High Growth Startup"
+    ]
+  },
+  {
+    "rule": "coleman-liau",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Fires on whole-article character-based readability. Threshold is grade 12. All 30 samples are professional tech/business essays with long words and complex sentences by design. Scores of 12.0-15.7 on domain-expert writing are normal, not indicative of slop.",
+    "fp_examples": [
+      "[business/a16z] (Coleman-Liau is 15.74. Keep it at 12 or lower.) # Disruptive Innovation Hospitals Integration Value Added Process Book Chapter",
+      "[business/a16z] (Coleman-Liau is 14.45. Keep it at 12 or lower.) # Towards Decentralized Storage Network",
+      "[business/a16z] (Coleman-Liau is 13.99. Keep it at 12 or lower.) # Crypto Regulatory Gap Retail Investors"
+    ]
+  },
+  {
+    "rule": "paragraph-length",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Two distinct FP patterns. First: the parser treats entire articles or major sections as a single paragraph (77, 95, 107 sentences) when there are no blank-line separators, then attributes the violation to the first or last short sentence in that block ('This biography was unauthorized', 'Let's look at each of these in more detail.'). Second: legitimate dense paragraphs of 8-17 sentences in professional long-form articles are flagged by a threshold calibrated for blog posts. Neither pattern indicates slop.",
+    "fp_examples": [
+      "[business/a16z] (Paragraph has 107 sentences. Keep paragraphs to 6 ) To receive this monthly update from the a16z fintech team, sign up here.",
+      "[business/a16z] (Paragraph has 95 sentences. Keep paragraphs to 6 s) Rather than relying solely on my anecdotal examples of 'important places,' I turned to LinkedIn.",
+      "[business/a16z] (Paragraph has 8 sentences. Keep paragraphs to 6 se) Last month, as CEO of SpiderNet, you were faced with the issue of firing your VP of Engineering..."
+    ]
+  },
+  {
+    "rule": "word-repetition",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Flags topic-word repetition within a focused paragraph where repeating the subject is mandatory. Examples: 'interview' 9x and 'process' 11x in a paragraph about interviewing process; 'alfred' 14x in a biography of Alfred; 'company' 13x in a paragraph about company management; common function words ('will', 'with', 'from', 'this') flagged at 6-9x in long paragraphs. None of this is slop -- it is coherent, on-topic prose about a single subject.",
+    "fp_examples": [
+      "[business/a16z] (Word repeated 14 times in one paragraph: 'alfred'.) This biography was unauthorized",
+      "[business/a16z] (Word repeated 11 times in one paragraph: 'process') Let's look at each of these in more detail.",
+      "[business/a16z] (Word repeated 9 times in one paragraph: 'this'. Ke) This biography was unauthorized"
+    ]
+  },
+  {
+    "rule": "exclamation-density",
+    "fp_of_sampled": 28,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Threshold of >1 exclamation mark per paragraph catches: proper nouns containing ! (Yahoo!, 'Tarzan Finds a Son!'), quoted speech combining multiple voices, colloquial vivid narration ('He went nuts!'), list headers used as rhetorical questions, and investment announcements with genuine enthusiasm. The 2 samples that approach TP territory have 6-9 exclamation marks in one paragraph but are energetic narrative writing, not boilerplate slop.",
+    "fp_examples": [
+      "[business/a16z] (Paragraph has 2 exclamation marks. Keep at most 1.) From 1932 to 1948, he starred in a series of semi-memorable movies including Tarzan the Ape Man, Tarzan and His Mate, Tarzan Finds a Son! and Tarzan and the Mermaids.",
+      "[business/a16z] (Paragraph has 3 exclamation marks. Keep at most 1.) At the tip of the innovation spear, behemoths like Facebook, Google, and Yahoo! have to invent technologies...",
+      "[business/a16z] (Paragraph has 2 exclamation marks. Keep at most 1.) Shortly after our first round of funding, my co-founder, Scott Banister, turned to me and said, 'I had no idea you spend so much time selling!' He was right, I was constantly selling..."
+    ]
+  }
+]

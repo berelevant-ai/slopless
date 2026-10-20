@@ -1,0 +1,21 @@
+“What, a’ready? How much have you done?”
+
+“It’s all done, aunt.”
+
+“Tom, don’t lie to me—I can’t bear it.”
+
+“I ain’t, aunt; it _is_ all done.”
+
+Aunt Polly placed small trust in such evidence. She went out to see for herself; and she would have been content to find twenty per cent. of Tom’s statement true. When she found the entire fence white-washed, and not only whitewashed but elaborately coated and recoated, and even a streak added to the ground, her astonishment was almost unspeakable. She said:
+
+“Well, I never! There’s no getting round it, you can work when you’re a mind to, Tom.” And then she diluted the compliment by adding, “But it’s powerful seldom you’re a mind to, I’m bound to say. Well, go ’long and play; but mind you get back some time in a week, or I’ll tan you.”
+
+She was so overcome by the splendor of his achievement that she took him into the closet and selected a choice apple and delivered it to him, along with an improving lecture upon the added value and flavor a treat took to itself when it came without sin through virtuous effort. And while she closed with a happy Scriptural flourish, he “hooked” a doughnut.
+
+Then he skipped out, and saw Sid just starting up the outside stairway that led to the back rooms on the second floor. Clods were handy and the air was full of them in a twinkling. They raged around Sid like a hail-storm; and before Aunt Polly could collect her surprised faculties and sally to the rescue, six or seven clods had taken personal effect, and Tom was over the fence and gone. There was a gate, but as a general thing he was too crowded for time to make use of it. His soul was at peace, now that he had settled with Sid for calling attention to his black thread and getting him into trouble.
+
+Tom skirted the block, and came round into a muddy alley that led by the back of his aunt’s cow-stable. He presently got safely beyond the reach of capture and punishment, and hastened toward the public square of the village, where two “military” companies of boys had met for conflict, according to previous appointment. Tom was General of one of these armies, Joe Harper (a bosom friend) General of the other. These two great commanders did not condescend to fight in person—that being better suited to the still smaller fry—but sat together on an eminence and conducted the field operations by orders delivered through aides-de-camp. Tom’s army won a great victory, after a long and hard-fought battle. Then the dead were counted, prisoners exchanged, the terms of the next disagreement agreed upon, and the day for the necessary battle appointed; after which the armies fell into line and marched away, and Tom turned homeward alone.
+
+As he was passing by the house where Jeff Thatcher lived, he saw a new girl in the garden—a lovely little blue-eyed creature with yellow hair plaited into two long-tails, white summer frock and embroidered pantalettes. The fresh-crowned hero fell without firing a shot. A certain Amy Lawrence vanished out of his heart and left not even a memory of herself behind. He had thought he loved her to distraction; he had regarded his passion as adoration; and behold it was only a poor little evanescent partiality. He had been months winning her; she had confessed hardly a week ago; he had been the happiest and the proudest boy in the world only seven short days, and here in one instant of time she had gone out of his heart like a casual stranger whose visit is done.
+
+He worshipped this new angel with furtive eye, till he saw that she had discovered him; then he pretended he did not know she was present, and began to “show off” in all sorts of absurd boyish ways, in order to win her admiration. He kept up this grotesque foolishness for some time; but by-and-by, while he was in the midst of some dangerous gymnastic performances, he glanced aside and saw that the little girl was wending her way toward the house. Tom came up to the fence and leaned on it, grieving, and hoping she would tarry yet awhile longer. She halted a moment on the steps and then moved toward the door. Tom heaved a great sigh as she put her foot on the threshold. But his face lit up, right away, for she tossed a pansy over the fence a moment before she disappeared.

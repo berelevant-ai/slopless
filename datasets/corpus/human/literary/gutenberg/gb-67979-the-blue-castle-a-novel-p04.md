@@ -1,0 +1,21 @@
+Oppressively competent, Aunt Mildred would talk endlessly of her husband and her odious prodigies of babies to Valancy, because Valancy would be the only one she could find to put up with it. For the same reason, Cousin Gladys—really First Cousin Gladys once removed, according to the strict way in which the Stirlings tabulated relationship—a tall, thin lady who admitted she had a sensitive disposition, would describe minutely the tortures of her neuritis. And Olive, the wonder girl of the whole Stirling clan, who had everything Valancy had not—beauty, popularity, love,—would show off her beauty and presume on her popularity and flaunt her diamond insignia of love in Valancy’s dazzled, envious eyes.
+
+There would be none of all this today. And there would be no packing up of teaspoons. The packing up was always left for Valancy and Cousin Stickles. And once, six years ago, a silver teaspoon from Aunt Wellington’s wedding set had been lost. Valancy never heard the last of that silver teaspoon. Its ghost appeared Banquo-like at every subsequent family feast.
+
+Oh, yes, Valancy knew exactly what the picnic would be like and she blessed the rain that had saved her from it. There would be no picnic this year. If Aunt Wellington could not celebrate on the sacred day itself she would have no celebration at all. Thank whatever gods there were for that.
+
+Since there would be no picnic, Valancy made up her mind that, if the rain held up in the afternoon, she would go up to the library and get another of John Foster’s books. Valancy was never allowed to read novels, but John Foster’s books were not novels. They were “nature books”—so the librarian told Mrs. Frederick Stirling—“all about the woods and birds and bugs and things like that, you know.” So Valancy was allowed to read them—under protest, for it was only too evident that she enjoyed them too much. It was permissible, even laudable, to read to improve your mind and your religion, but a book that was enjoyable was dangerous. Valancy did not know whether her mind was being improved or not; but she felt vaguely that if she had come across John Foster’s books years ago life might have been a different thing for her. They seemed to her to yield glimpses of a world into which she might once have entered, though the door was forever barred to her now. It was only within the last year that John Foster’s books had been in the Deerwood library, though the librarian told Valancy that he had been a well-known writer for several years.
+
+“Where does he live?” Valancy had asked.
+
+“Nobody knows. From his books he must be a Canadian, but no more information can be had. His publishers won’t say a word. Quite likely John Foster is a nom de plume. His books are so popular we can’t keep them in at all, though I really can’t see what people find in them to rave over.”
+
+“I think they’re wonderful,” said Valancy, timidly.
+
+“Oh—well—” Miss Clarkson smiled in a patronising fashion that relegated Valancy’s opinions to limbo, “I can’t say I care much for bugs myself. But certainly Foster seems to know all there is to know about them.”
+
+Valancy didn’t know whether she cared much for bugs either. It was not John Foster’s uncanny knowledge of wild creatures and insect life that enthralled her. She could hardly say what it was—some tantalising lure of a mystery never revealed—some hint of a great secret just a little further on—some faint, elusive echo of lovely, forgotten things—John Foster’s magic was indefinable.
+
+Yes, she would get a new Foster book. It was a month since she had _Thistle Harvest_, so surely Mother could not object. Valancy had read it four times—she knew whole passages off by heart.
+
+And—she almost thought she would go and see Dr. Trent about that queer pain around the heart. It had come rather often lately, and the palpitations were becoming annoying, not to speak of an occasional dizzy moment and a queer shortness of breath. But could she go to see him without telling any one? It was a most daring thought. None of the Stirlings ever consulted a doctor without holding a family council and getting Uncle James’ approval. _Then_, they went to Dr. Ambrose Marsh of Port Lawrence, who had married Second Cousin Adelaide Stirling.

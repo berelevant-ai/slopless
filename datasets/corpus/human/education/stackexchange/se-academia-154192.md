@@ -1,0 +1,6 @@
+# How can I recover professionally from being a crank?
+
+Three years ago I got kicked out of graduate school in physics. I was suffering from mental illness, which led me to believe I made a huge discovery in physics. But my advisor kept saying that what I was doing is nonsense and that I should focus on something else. I just ignored him and kept working on huge discovery, convinced I was going to win a Nobel prize.
+I started sending many emails to many physics people (I had a list of thousand email addresses I found online) hoping someone would realize my amazing discovery. I got kicked from school which made me send more emails (almost one a day near the end), and when I got negative responses I sent an email to everyone on the list insulting them and saying I deserved to be in their place.
+I got psychiatric help, and eventually doctors found a brain tumor, which they removed. I am now taking drugs, and doing much better. I now realize how insane my behavior was.
+I want to re-apply to grad school, but I’m scared people will recognize my name or contact my university. My undergraduate grades were very good. Should I mention my illness (with proof) when applying? Should I send apology emails to the people I’ve contacted?

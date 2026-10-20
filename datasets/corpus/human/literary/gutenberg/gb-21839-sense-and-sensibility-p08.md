@@ -1,0 +1,21 @@
+"Upon my word," said Mr. Dashwood, "I believe you are perfectly right. My father certainly could mean nothing more by his request to me than what you say. I clearly understand it now, and I will strictly fulfil my engagement by such acts of assistance and kindness to them as you have described. When my mother removes into another house my services shall be readily given to accommodate her as far as I can. Some little present of furniture too may be acceptable then."
+
+"Certainly," returned Mrs. John Dashwood. "But, however, _one_ thing must be considered. When your father and mother moved to Norland, though the furniture of Stanhill was sold, all the china, plate, and linen was saved, and is now left to your mother. Her house will therefore be almost completely fitted up as soon as she takes it."
+
+"That is a material consideration undoubtedly. A valuable legacy indeed! And yet some of the plate would have been a very pleasant addition to our own stock here."
+
+"Yes; and the set of breakfast china is twice as handsome as what belongs to this house. A great deal too handsome, in my opinion, for any place _they_ can ever afford to live in. But, however, so it is. Your father thought only of _them_ And I must say this: that you owe no particular gratitude to him, nor attention to his wishes; for we very well know that if he could, he would have left almost everything in the world to _them._"
+
+This argument was irresistible. It gave to his intentions whatever of decision was wanting before; and he finally resolved, that it would be absolutely unnecessary, if not highly indecorous, to do more for the widow and children of his father, than such kind of neighbourly acts as his own wife pointed out.
+
+CHAPTER III
+
+Mrs. Dashwood remained at Norland several months; not from any disinclination to move when the sight of every well known spot ceased to raise the violent emotion which it produced for a while; for when her spirits began to revive, and her mind became capable of some other exertion than that of heightening its affliction by melancholy remembrances, she was impatient to be gone, and indefatigable in her inquiries for a suitable dwelling in the neighbourhood of Norland; for to remove far from that beloved spot was impossible. But she could hear of no situation that at once answered her notions of comfort and ease, and suited the prudence of her eldest daughter, whose steadier judgment rejected several houses as too large for their income, which her mother would have approved.
+
+[Illustration: "_I cannot imagine how they will spend half of it._"]
+
+Mrs. Dashwood had been informed by her husband of the solemn promise on the part of his son in their favour, which gave comfort to his last earthly reflections. She doubted the sincerity of this assurance no more than he had doubted it himself, and she thought of it for her daughters' sake with satisfaction, though as for herself she was persuaded that a much smaller provision than 7000L would support her in affluence. For their brother's sake, too, for the sake of his own heart, she rejoiced; and she reproached herself for being unjust to his merit before, in believing him incapable of generosity. His attentive behaviour to herself and his sisters convinced her that their welfare was dear to him, and, for a long time, she firmly relied on the liberality of his intentions.
+
+The contempt which she had, very early in their acquaintance, felt for her daughter-in-law, was very much increased by the farther knowledge of her character, which half a year's residence in her family afforded; and perhaps in spite of every consideration of politeness or maternal affection on the side of the former, the two ladies might have found it impossible to have lived together so long, had not a particular circumstance occurred to give still greater eligibility, according to the opinions of Mrs. Dashwood, to her daughters' continuance at Norland.
+
+This circumstance was a growing attachment between her eldest girl and the brother of Mrs. John Dashwood, a gentlemanlike and pleasing young man, who was introduced to their acquaintance soon after his sister's establishment at Norland, and who had since spent the greatest part of his time there.

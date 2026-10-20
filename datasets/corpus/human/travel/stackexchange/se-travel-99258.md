@@ -1,0 +1,6 @@
+# Why is the price on the shelves for drinks often different from what I actually pay in supermarkets in Germany?
+
+You are paying for the drink and a deposit for the bottle. The deposit should be listed on the shelves, but usually in small print. Look for something like "zzgl. 0,15 Pfand". As to your initial thought, prices on supermarket shelves include VAT.
+There are deposits on many but not all drink containers, the rules are complicated. Deposits apply to non-reusable containers as well as reusable ones, this is to discourage littering and to make sure that the reusable containers are not an economic disadvantage. These deposits can be 8 ct, 10 ct, 15 ct, or 25 ct.
+You can reclaim your deposit, even in a different shop than the one where you purchased it, provided they sell the same bottles. Most larger supermarkets have machines to scan the bottles and print out a receipt that can be turned in at the cash register. It is possible to reclaim money even if you do not buy anything.
+Most Germans return their empty bottles and claim the deposit, of course. When you do not want to do that, it is considered polite to put the bottle next to a public waste bin, not into it. Some people will collect them and reclaim the deposit as a way to make a little money.

@@ -1,0 +1,25 @@
+# A man wants to send me money
+
+This is 200% a scam
+Here are some of the red flags, and I've reported the site to its registrar (whatever good that does):
+You just met him, and are pretty much a stranger, but he wants to send you money and pay your rent.
+Without meeting you, after just 2 days, he "knows you are good".
+The reason is unrealistic. He has "too much money". Not impossible, but a red flag, very unlikely. People don't become rich CEOs by having "too much money" that they simply have to give it to a person they just met on Instagram.
+He claims to be the named CEO of a prestigious, and exotic, company.
+The company's website was only created in April 2018 ( link )
+The company website also looks like a single page "dummy" (fake) website. Under "contact" and "find out more", it gives just an email address and street address. No phone. No legal pages or terms. No customer service. No details of business contracts it's won, projects it worked on, or company news. Twitter but no tweets (account only created September 2018). A simple 1 page "looks like a company" website with nothing checkable. Google Maps and street view show nothing likely to be a substantial company of that description at that address. Google search shows no business related hits for such a company.
+A Nigeria connection.
+Now, let's look at  why  these are red flags.
+Numerous scams start by a person saying "I want to send you money" to a stranger . This can be a "hook" into getting money sent back, or to personal information, or a kind of scam where part of the money is paid onward or back, but then the original payment fails (much later).
+The very rapid building of emotional "hooks".  You are "good". He is a prestigious person. His profile can be found online (must be genuine!). He will send money. He will pay rent (a very personal and emotive thing, the house over your head). Too unlikely, and too contrived, but very common in scams because they rob you of critical thinking space. It's too much, too good, moving too fast. Classic scammy stuff.
+Implausible motive . The world of scams is full of bank managers who have money to give away and you are "the only living relative", people in love and you're the "only person for me", church owners who want to find a true believer in Jesus and give all their money to them.... this follows the same pattern.
+Using a web-verifiable identity . The name and photo exists, so it must be real.  In other scams, names and photos of genuine but unconnected company owners, accident victims, refugees are used, to add a sense of veracity. This person could be anyone, but they happen to be a prestigious CEO verifiable on a website. Is it them? Unlikely.
+Recently created single-page website : Scammers often create a website to back their scam. Does the company really exist? Did it recently change name? Can it be found in old media (news/industry) records? Does it look like a real company website (real contacts, contracts/clients, media coverage)?  Above all, do other "very well known"  reputable websites mention it or have links to it, including mentions that aren't recent?  If those look surprisingly empty, there is usually a reason.
+Nigerian connection . This is probably contentious, and may be seen as inappropriate. Not all Nigerian sources are scammers. But if profiling, this kind of scam is linked with Nigeria enough that its usual name (419 scam) is named after a section of the Nigerian criminal code.  Read up on Wikipedia.
+Just don't
+If against all advice, you want to engage further
+Assume any phone numbers, names, addresses and photos you get, aren't those of the actual person you are talking to, or (for phone/email) are untraceable "dead ends".
+For example, someone who thinks you are "good" enough to give you much money after just 2 days will surely be happy for you to phone them at their office. You might ask or he might offer a number. If you do, DO NOT TRUST THE NUMBER HE GIVES. Google a correct company number online, ask for his secretary, call a number you yourself have found, not one he gave you. Except there isn't one..
+Don't give personal identifying or bank information. If he wants to send money, ask for it via Moneygram, western union etc. Date of birth, address, bank account, PIN, etc - he may ask for those, be sure it's not for your own good, do not give them, no matter what he tempts you with, (even if "I can't send you money unless you tell me", or "don't you trust me", or "I thought you were good")
+Last, if you do receive money, you may be asked to send some on to a third party, or repay some. Don't do that until your bank confirms in writing, that the funds are cleared to the point that they  cannot  be requested back by the sender. A very common scam relies on you sending someone else some of the money, then the bank finds they have to repay all of it from your account, so you end up out of pocket.
+He is supposedly very rich. So if he asks you to spend anything or send anything (to anyone!), don't. Let him do it.

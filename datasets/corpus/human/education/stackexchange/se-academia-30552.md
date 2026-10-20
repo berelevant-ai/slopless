@@ -1,0 +1,17 @@
+# I was caught cheating on an exam, how can I minimize the damage?
+
+I've learned the lesson about cheating, now how can fix this? How can
+I prevent the 5 instructors from reporting me. It's obvious that I
+should speak to them, but what should I say? What can I do? My future
+is almost over, but many of you are teachers and instructors here,
+what can I do to fix this?
+From the way you wrote this, it seems to me that in your current mindset, you have not yet learned the full lesson. I say this because the second sentence above seems to me still in the same mindset where you are trying to control and engineer a result to essentially beat the system and get something better than your own actions have generated. That is not full understanding of learning that that whole approach is not appropriate. You're treating the system like an adversary, acting in a victim mentality, and trying to manipulate your way out of it. You have some lessons to learn about humility, honesty, surrender, and building integrity from the ground up. I would suggest accepting those.
+I would suggest it may help for you to consider you may also be wrong-minded when you think things like:
+If any of those happen, my future is over. A dean's warning will
+cancel my financial aid. A suspension, will be at least for two years
+and coming back requires a lot of work. An expulsion, will be
+definite.
+The "my future is over" fear is what led you to cheat in the first place. As your professor kindly observed, you didn't need to cheat in the first place, and it got you into far worse trouble than doing your best would have. Indeed, I think your future looks darker if you don't take full responsibility now. I would be more optimistic about your future if you lose your financial aid and have to leave that university, but actually learn your lesson and continue at some other institution.
+Your future will depend on your mindset, your integrity, and how you do your chosen field of work (including how you feel about yourself and how you relate to your work). These things are built upon each other like the bedrock, foundation, and upper levels of a building. If your mindset is full of panic, it will undermine your integrity. If your integrity is unsound, it will undermine your work. Seriously. This is practical and not empty moralizing.
+So, realize that if you really want to be an engineer, you can do this, even if you need to go to another university. Even if it takes another 2 or even 4 years. Then, restore your integrity by being completely honest about everything and taking full responsibility for everything you caused and continue to cause. Don't try to cover anything up, make anything sound good, look good, nor avoid looking bad. You will feel a lot better about it all when you let go of resisting and admit everything. Your instructors know all about it, and will notice any attempt to make this better for yourself, so even if you were going to cling to being a desperate manipulative person, it would be best to surrender and fully admit everything, and be as honest as possible in everything you do. If you can really learn these lessons, then it may actually make sense to give you some leniency. If you're still resisting, then it wouldn't be doing anyone any favors in the long run, to do anything less than suspend you.
+The good news is, this lesson is FAR more important than the engineering content you were studying.

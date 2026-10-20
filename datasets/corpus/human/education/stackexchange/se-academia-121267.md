@@ -1,0 +1,6 @@
+# Outsourcing trivial authorless work
+
+The fact that  to a seasoned programmer  the work is easy doesn't have anything to do with it. As you describe it, this is work that's required for the publication. Without it, you don't have a paper. With it, you do. Therefore the programmer contributed significantly (critically) to the paper, and therefore the programmer should be an author.
+The fact that it's quick and easy  for a programmer  simply means that programmers have spent significant time and effort learning skills that you don't have. If you consider the work trivial, then go out and learn the skills yourself, and do the work yourself. If that's too much work, then put an appropriate value on that work and offer authorship.
+An example in my field is histopathology. I can take tissue slides to an expert who will look at them for five minutes and provide an interpretation. That expert becomes a co-author, not because of their five minutes of work but because of the decades of experience behind it.
+Collaborators shouldn't need to run a bloody gauntlet and engage in hand-to-hand combat to become co-authors. If they provide a skill that contributes significantly to the paper, that should be enough.

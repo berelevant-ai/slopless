@@ -1,0 +1,10 @@
+# The teacher erased 3 pages of my 5 year old's completed homework
+
+This teacher is  carefully producing  a future math-hater.  I've worked with enough high school students to know.
+I've also worked with enough people in personal counseling to know that whether you care to face it or not, this sort of work is NOT accidental.  This is a  deliberate,  even if unconscious, effort to sabotage your child's learning.
+At that age the MOST important asset your child has school-wise is a  love of learning.   Nothing can substitute for that.  A teacher who will destroy a love of learning in pursuit of a perfectly written piece of homework—entirely invalidating the careful hours your son put in to do a good job—is valuing  form  over  content  to the point of insanity.  One could also say it is valuing  mechanics  over  purpose ; whatever you call it, it is totally counter-productive.
+Personally, I value my son highly, and I respect his rights and dignity as a person.   I would remove him immediately from the influence and power of this teacher.
+When I was very young (about 8 years old), my parents sent me to a new school.  It was supposed to be an excellent school, with an excellent curriculum, etc., etc.  I only went for a semester, and then (to my relief) I went to another, smaller school where I enjoyed myself much more and where, even though the curriculum wasn't as jammed with "high value subjects," I learned a lot more a lot faster.  And had more fun.  I subsequently finished 4th, 5th and 6th grades in the same year, and went on to graduate High School (12 grades) by the age of 13.
+Years later, talking to my mother, I found out why she had taken me out of that prestigious new school after only one semester.   It was because she found out I didn't like going there.   That was the only reason.
+(Thank you, mom.)
+You  know your child.   You  care more for your child than anyone else on the planet, and  you  know what is best for your child.  Don't let anyone tell you otherwise.  If you don't like the approach used by that school, don't let your child be subjected to it.

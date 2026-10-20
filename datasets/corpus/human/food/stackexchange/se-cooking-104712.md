@@ -1,0 +1,4 @@
+# How can I salvage jelly that does not set?
+
+Your problem is  actinidain , an enzyme in the kiwi (and to a lesser degree even in the mango) that causes the jelly to stay liquid. Heat deactivates it, so your first step is to boil the whole thing. The minimum temperature to denature actinidain is 60 C, but I recommend to exceed that, just to be sure. You should then add more gelatin, assume that at least a significant portion of the original gelatin was broken down, as evidenced by the non-setting.
+If you don’t like the now-mushy fruit pieces after boiling, I suggest giving it a whirr with the immersion blender and calling it “mousse”. You could even add a bit of whipped cream, mixed in just before the jelly sets. (Note that adding a dairy product will only be ok after boiling, again the enzymes need to be deactivated or the whole thing will turn bitter as well.)

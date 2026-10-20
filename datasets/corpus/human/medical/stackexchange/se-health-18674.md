@@ -1,0 +1,3 @@
+# Father gets chickenpox, but doesn't infect his two children. How is this possible?
+
+To add to @BryanKrause's answer re: rare events happen all the time, the children are not out of the woods yet. The mean incubation time for a primary VZV infection (the clinical syndrome known as chicken pox) is 14 days, but often lasts up to 21 days (see Murray Medical Microbiology, Ch. 53). The father is infectious while shedding virus, usually via the lungs. This correlates with the period of time a patient is febrile. I wouldn't say the father didn't infect his children until he has been afebrile for 21 days.

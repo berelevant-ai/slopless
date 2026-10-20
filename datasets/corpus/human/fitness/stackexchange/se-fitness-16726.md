@@ -1,0 +1,15 @@
+# How to build muscle strength without exercise?
+
+Stop Making Excuses
+"I have six [to] eight years of trial-and-error evidence to show that I am incapable of building strength to any measurable degree from any form of exercise."
+Either you have a serious medical issue or I call bullshit. I bet the reason you're not getting results is that you  "have [never] been satisfied with results from any workout program or routine over any period of time".  You try something halfheartedly for a little while, then stop, right? You just lift what you feel like and then go home?  That's not going to work.
+If you think you have a serious medical issue then see a doctor about your health, particularly any possible hormone issues. Stop making up reasons not to see a medical professional. Address your problem head-on.
+Lift, Eat, Repeat
+You must  lift and eat  if you want to be big and strong. You must work hard. You must be consistent. There is no other way. There are no excuses. There are no alternative methods. Buck up and be serious about your training.
+Stop being concerned about other people's success and focus on your own progress. You know nothing about what they do. What they do has nothing to do with your own success or failure. Stop distracting yourself with fantasies about other people's supposedly quick and easy results and focus on working out hard and consistently.
+Follow a Program
+Originally I asked the OP to detail their workouts. ("If you want help on how to make your workouts effective, describe what you've been doing in as much detail as you possibly can: programs, lifts, sets, reps, rest periods, weights, frequency per week, diet, sleep. If you can't be bothered to even write a short description of your lifting then I seriously doubt your commitment to your project.") They have since responded:
+I do not really follow any programs; I just lift stuff. Plenty get strong this way, so what is wrong with me?
+You have  fuckarounditis . I would sympathize, but it's hard when you seem more interested in whinging about other people than actually doing something productive. There are genetic freaks who can sit on a couch for ten years and still lift 400 pounds. They aren't me, so why would I do what they do? I am me. I do what works for me. You are you. You can do what would work for you.
+Some people can get away with not doing a program. Most people can't. Stop making excuses and pick a program. StrongLifts would be fine, as would Starting Strength, as would 5/3/1 or GreySkull Linear Progression. Pick one of those four--it really doesn't matter which--and follow it unerringly for six months. Keep a workout log. Eat and sleep right. If you do that and it doesn't work, then you will  know  why it didn't work, because you will see it in the log. Skipped workouts or failed lifts will be quite evident in the log.
+If you are interested in results--and that's a big  if --then you'll pick a program, follow it, focus on quality sleep, and eat plenty of good food. (You have not described your diet so we can't yet help on that front.)

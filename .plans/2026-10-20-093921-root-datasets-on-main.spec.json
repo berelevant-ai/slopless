@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": [
+        "builtin:tree"
+      ],
+      "reason": "2026-10-20-093921-root-datasets-on-main.md: physical root layout",
+      "required": [
+        "datasets/README.md",
+        "datasets/labeled",
+        "datasets/corpus/human",
+        "datasets/corpus/ai-generated",
+        "datasets/corpus/ai-suspected",
+        "datasets/corpus/generated-slop/2026-05-19-fresh-slop-expansion",
+        "datasets/legacy",
+        "datasets/holdout/semantic-thinness/paragraphs.json",
+        "datasets/holdout/semantic-thinness/labels.json",
+        "prompts/v1/shared.md",
+        "runners/jev.mjs",
+        "datasets/experiments/jev-history-2ebcba5.zip"
+      ],
+      "forbidden": [
+        "article/corpus/**",
+        "new-corpus/**",
+        "developer-helpers/datasets/**",
+        "developer-helpers/legacy/**"
+      ]
+    }
+  }
+}

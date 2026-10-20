@@ -1,0 +1,21 @@
+In truth, reader, you know not what a pleasure there is--when the mind is clear from care or sorrow, the heart well attuned, the object a good one, and the tale interesting--you know not what a pleasure there is, to sit down and tell a long story to those who are worthy of hearing one.
+
+And now, having made a somewhat wide excursion, and finding it difficult to get back again to the tale by any easy and gradual process, I will even in this place, close the first chapter, which, by your leave, shall serve for a Preface and Introduction both.
+
+CHAPTER II.
+
+It was in the spring of the year, somewhere about the period which good old Chaucer describes in the beginning of his Canterbury Tales,
+
+"Whanne that April with his shoures sote,     The droughte of March hath perced to the rote,     And bathed every veine in swiche licour,     Of whiche vertue engendred is the flow'r:"
+
+it was also towards the decline of the day, and the greater part of the travellers who visited the inn for an hour, on their way homeward from the neighbouring towns, had betaken themselves to the road, in order to get under the shelter of their own roof ere the night fell, when, at one of the tables in the low-pitched parlour--the beams of which must have caused any wayfarer of six feet high to bend his head--might still be seen a man in the garb of a countryman, sitting with a great, black leathern jug before him, and one or two horns round about, besides the one out of which he himself was drinking.
+
+A slice of a brown loaf toasted at the embers, and which he dipped from time to time in his cup, was the only solid food that he seemed inclined to take; and, to say sooth, it probably might not have been very convenient for him to call for any very costly viands--at least, if one might judge by his dress, which, though good, and not very old, was of the poorest and the homeliest kind--plain hodden-grey cloth, of a coarse fabric, with leathern leggings and wooden-soled shoes.
+
+The garb of the countryman, however, was not the only thing worthy of remark in his appearance. His form had that peculiarity which is not usually considered a perfection, and is termed a hump; not that there was exactly, upon either shoulder, one of those large knobs which is sometimes so designated, but there was a general roundness above his bladebones--a sort of domineering effort of his neck to keep down his head--which gave him a clear title to the appellation of hunchback.
+
+In other respects he was not an unseemly man--his legs were stout and well turned, his arms brawny and long, his chest singularly wide for a deformed person, and his grey eyes large, bright and sparkling. His nose was somewhat long and pointed, and was not only a prominent feature, but a very distinguished one in his countenance. It was one of those noses which have a great deal of expression in them. There was a good deal of fun and sly merriment about the corners of his mouth and under his eyelids, but his nose was decidedly the point of the epigram, standing out a sort of sharp apex to a shrewd, merry ferret-like face; and, as high mountains generally catch the sunshine either in the rise or the decline of the day, and glow with the rosy hue of morning before the rest of the country round obtains the rays, so had the light of the vine settled in purple brightness on the highest feature of his face, gradually melting away into a healthy red over the rest of his countenance.
+
+He wore his beard close shaven, as if he had been a priest; but his eyebrows, which were very prominent, and his hair, which hung in three or four detached locks over his sun-burnt brow and upon his aspiring neck, though they had once been as black as a raven's wing, were now very nearly white.
+
+With this face and form sat the peasant at the table, sopping his bread in the contents of his jug, and from time to time looking down into the bottom of the pot with one eye, as if to ascertain how much was left. He stirred not from his seat, nor even turned his head away from the window, though a very pretty girl of some eighteen years of age looked in at him from time to time, and his was a face which announced that the owner thereof had at one time of his life had sweet things to say to all the black eyes he met with.

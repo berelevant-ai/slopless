@@ -1,0 +1,11 @@
+# How Do I Prepare For Running In Very Cold Wind, Rain, or Snow?
+
+As an Alaskan I have a few things to add. (General temperature before windchill in the winter around these parts is 5-15 F... which is mild by Alaskan and most standards).
+Wear wool. The old timers wore wool because it worked. Synthetics are great in warmer climates because they're light weight and dry fast, but they are not insulting the way wool is.  Polypropylene  (the most common synthetic base layer) primarily functions by wicking moisture away from your skin. It is not in of itself a insulating layer. If you find wool hard to wear, I suggest some quality marino wool (I'm partial to Smartwool or Icebreaker myself)
+Wear gloves and a hat. This is way more important than you think it is. I'm also a huge fan of the neckie (sometimes called a neck gaitor)
+Do not neglect a layer that can break the wind. This should be light, non-insulating (otherwise you'll overheat) and preferably have pit-zips or some other method of venting.
+Use layering and venting (i.e., pit zips) to prevent sweating as much as possible. The saying in the Arctic goes, "to sweat is to die"... here's why...
+Be prepared for a  huge  drop in body temperature as soon as your exertion level drops. It's pretty common for me when I'm hiking or snow-shoeing somewhere in the winter to be stripped down to base layer up top with my full length vents open on my snow pants and still be comfortable while I'm exerting myself. As soon as I stop moving, I immediately pile on everything I'm carrying and I'm still cold for at least 15 minutes. Just be prepared for this, you'll be uncomfortable at the very least if you don't.
+Watch the ice. Seriously. (I just destroyed my ankle this morning)
+Watch the cars, trees, and moose. (Wear lights! And invest in a good headlamp that's comfortable to run with.)
+This is  SUPER IMPORTANT . Tell someone where you are going, when you expect to be back and then stick to your "flight plan". Better yet go with a buddy. I know Alaska is far cry from Chicago (Hell, I know I couldn't survive there); but this is just cold weather basics. People up here routinely die because no one knows where to look for them when they don't come back for dinner.

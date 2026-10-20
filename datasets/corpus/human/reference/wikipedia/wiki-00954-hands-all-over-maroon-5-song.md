@@ -1,0 +1,36 @@
+# Hands All Over (Maroon 5 song)
+
+" Hands All Over " is a song recorded by American band Maroon 5, for their 2010 third studio album of the same name. It was written by Adam Levine, Jesse Carmichael, Sam Farrar, while the production was done by Robert John " Mutt " Lange. A funk metal and rock song, " Hands All Over " features an instrumentation consisting of electronic tones, drums, guitar, piano and percussion accompanied with heavy backing vocals; lyrically, the song speaks of sexiness.
+The song received generally positive reviews from music critics, with some of them calling it the best track on the album. It received comparison to the works of Prince, Nine Inch Nails and most notably to English band Def Leppard. Upon the release of the album, " Hands All Over " debuted on national charts in South Korea and Spain; it peaked at number 20 on the Gaon Chart and 38 on the Spanish Singles Chart, respectively. A music video for the song was shot by Don Tyler was released on December 24, 2010. It features a nude animated woman flirting and dancing for the band members.
+
+## Background and production
+
+Maroon 5 began writing material for their third studio album, Hands All Over, after completion of a world tour that was launched in support of their 2007 studio album It Won 't Be Soon Before Long. Months later, the band received a phone call from Robert John " Mutt " Lange, who had heard that the band were beginning to write a new album, and expressed an interest in producing it. In a press release on their official website, the album is described as " a killer hybrid of rock, pop, funk and R & B. " The band's frontman Adam Levine described Mutt as one of the most successful producers who have ever lived. Jesse Carmichael, the band ’ s keyboardist, said, " Mutt really helped us play to the best of our ability. And it drove us to be bigger and better than ever. " Hands All Over was released on September 21, 2010 in the United States. It received generally favorable reviews from music critics and debuted at number two on the US Billboard 200.
+The album's title track was written by Levine, Jesse Carmichael and Sam Farrar, while the production was done by Mutt. The additional production, engineering and programming was provided by Farrar and Noah " Mailbox " Passovoy. The song was recorded at Mutt's studio in Vevey (Lake Geneva), Switzerland by Olle Romo who also provided the Pro-Tools. Mike Shipley did the additional recording and also mixed " Hands All Over ". Additional engineering of the song was done by Isha Erskine, while Eric Rose and Chad Hugo did the additional programming. Scott Cooke and Lenny Castro played the percussion. Brad Blackwood from Euphonic Masters was the mastering engineer.
+
+## Composition
+
+" Hands All Over " is a funk metal and rock song with a length of three minutes and thirteen seconds (3: 13). It has an instrumentation consisting of drums, guitar, piano and percussion. Bill Lamb of About.com wrote for the song, " crunchy guitars and a rock star sway animate the title song ". Contactmusic's Nima Baniamer stated that " Hands All Over ", follows a trend consisting of heavy percussions and more heavier backing vocals. Melinda Newman of HitFix wrote that the song " is a heavy thump of a song that sounds pure Lange with a big kick drum propelling it forward. " In a review of the album, Fraser McAlpine of BBC Music wrote that the track contains a " rude guitar sleaze ", while according to Ben Czajkowski of 411mania " Hands all Over " borders on anthemic rock with a biting guitar technique ".
+Written in the key of C minor, the song is placed in common time, with a moderate funk tempo. " Hands " All Over " starts with dark and shadowed electronic undertones before " sudden " bursts of electronic guitars start playing before transitioning into a " rock-studded " production. The track also contains a lot of electronic guitar solo's in the chorus and the verses, in the verses and the bridges and so forth. According to a reviewer of Billboard, at some points during the duration of the song, the guitars " just bleed " throughout the verses. " Put your hands all over me ", " Levine bellows over burly power chords " according to Jody Rosen of Rolling Stone. Thomas Conner of Chicago Sun-Times wrote that, lyrically, " Hands All Over " together with " Never Gonna Leave This Bed " speak of sexiness.
+
+## Reception
+
+
+### Critical
+
+The song received generally positive reviews from music critics. Jakob Dorof of Slant Magazine wrote that " Hands All Over " is " the one real gamble "; despite the fact that it tries to hard to find a missing connection between the works of Prince, Queen and Nine Inch Nails, " it's certainly one of the more interesting things the band has ever recorded. " Similarly, McAlpine of BBC Music wrote that on songs like " Hands All Over " and " Stutter ", the Maroon 5 shows a band " who are really at their best when they play pop music like the sleazy rockers they clearly are. " Contactmusic's Banimaer stated that although the track is a little repetitive, it shows what kind of band Maroon 5 wants to be.
+Rosen of Rolling Stone magazine wrote that it is a " big, silly arena-rock song reminiscent of Def Leppard ". She further noted, " but Maroon 5 are too meticulous, a little too uptight, to make good on the song's party-hearty promise. Levine and crew could be blue-eyed-soul godheads, the 21st-century Hall and Oates. But they need to loosen up first. " Leah Greenblat of Entertainment Weekly also spotted the Def Leppard influence on " Hands All Over ". Writing for the Bay of Plenty Times, Tamlyn Stewart said that the song is sexy and funky and is similar to the band's works on their second studio album It Won 't Be Soon Before Long (2007). Billboard's reviewer labeled " Hands All Over " the best track among others including " Give a Little More ", " Misery " and " Out of Goodbyes ".
+
+### Commercial
+
+Upon the release of Hands All Over, due to the strong digital downloads, " Hands All Over " appeared on the national charts in South Korea and Spain. The song debuted and peaked at number 20 on the South Korea Gaon International Chart. On the Spanish Singles Chart, " Hands All Over " peaked at number 38 and stayed on the chart for one week.
+
+## Music video
+
+A music video for the song was released on December 24, 2010. It was directed by Don Tyler, who previously worked on videos for the bands A Day to Remember and Flyleaf. It was digitally released on June 14, 2011 via iTunes Store and the same day was also uploaded on the band's Vevo channel on YouTube. Shot in an animated technique, the video starts with an animated version of lead singer Levine singing on a microphone while hands are behind his back touching his body. As the video progresses, a nude animated woman is shown dancing around him and flirting with the other members of the band. Several animation effects such as angel wings and devil elements are shown behind Levine as he is singing, while the woman is also dancing for the other members. The video finishes with a close shot of Levine's face.
+
+## Credits and personnel
+
+Credits adapted from the liner notes of Hands All Over, A & M / Octone Records.
+
+## Charts

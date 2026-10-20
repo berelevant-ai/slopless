@@ -1,0 +1,211 @@
+“NODDED THEIR RECOGNITION”
+
+THE STATE DINNER
+
+“A GENTLEMAN BEARING A ROD”
+
+“THE CHANCELLOR BETWEEN TWO”
+
+“I THANK YOU MY GOOD PEOPLE”
+
+“IN THE MIDST OF HIS PAGEANT”
+
+FOO-FOO THE FIRST
+
+“RUFFIAN FOLLOWED THEIR STEPS”
+
+“HE SEIZED A BILLET OF WOOD”
+
+“HE WAS SOON ABSORBED IN THINKING”
+
+“A GRIM AND UNSIGHTLY PICTURE”
+
+“THEY ROARED OUT A ROLLICKING DITTY”
+
+“WHILST THE FLAMES LICKED UPWARDS”
+
+“THEY WERE WHIPPED AT THE CART’S TAIL”
+
+“THOU SHALT NOT”
+
+“KNOCKING HOBBS DOWN”
+
+“THRONE HIM”
+
+THE PRINCE WITH THE TRAMPS
+
+“TROOP OF VAGABONDS SET FORWARD”
+
+“THEY THREW BONES AND VEGETABLES
+
+“WRITHE AND WALLOW IN THE DIRT”
+
+“KING FLED IN THE OPPOSITE DIRECTION”
+
+“HE STUMBLED ALONG”
+
+“WHAT SEEMED TO BE A WARM ROPE”
+
+“CUDDLED UP TO THE CALF”
+
+THE PRINCE WITH THE PEASANTS
+
+“TOOK A GOOD SATISFYING STARE”
+
+“MOTHER RECEIVED THE KING KINDLY”
+
+“BROUGHT THE KING OUT OF HIS DREAMS”
+
+“GAVE HIM A BUTCHER KNIFE TO GRIND”
+
+THE PRINCE AND THE HERMIT
+
+“HE TURNED AND DESCRIED TWO FIGURES”
+
+“THE KING ENTERED AND PAUSED”
+
+“I WILL TELL YOU A SECRET”
+
+“CHATTING PLEASANTLY ALL THE TIME”
+
+“DREW HIS THUMB ALONG THE EDGE”
+
+“THE NEXT MOMENT THEY WERE BOUND”
+
+HENDON TO THE RESCUE
+
+“SUNK UPON HIS KNEES”
+
+“GOD MADE EVERY CREATURE BUT YOU!”
+
+“THE FETTERED LITTLE KING”
+
+A VICTIM OF TREACHERY
+
+“HUGO STOOD NO CHANCE”
+
+“BOUND THE POULTICE TIGHT AND FAST”
+
+“TARRY HERE TILL I COME AGAIN
+
+“KING SPRANG TO HIS DELIVERER’S SIDE”
+
+THE PRINCE A PRISONER
+
+“GENTLY, GOOD FRIEND”
+
+“SHE SPRANG TO HER FEET”
+
+THE ESCAPE
+
+“THE PIG MAY COST THY NECK, MAN”
+
+“BEAR ME UP, BEAR ME UP, SWEET SIR!”
+
+HENDON HALL
+
+“JOGGING EASTWARD ON SORRY STEEDS”
+
+“THERE IS THE VILLAGE, MY PRINCE!”
+
+“‘EMBRACE ME, HUGH,’ HE CRIED”
+
+“HUGH PUT UP HIS HAND IN DISSENT”
+
+“A BEAUTIFUL LADY, RICHLY CLOTHED”
+
+“HUGH WAS PINNED TO THE WALL”
+
+DISOWNED
+
+“OBEY, AND HAVE NO FEAR”
+
+“AM I MILES HENDON?”
+
+IN PRISON
+
+“CHAINED IN A LARGE ROOM”
+
+“THE OLD MAN LOOKED HENDON OVER”
+
+“INFORMATION DELIVERED IN A LOW VOICE”
+
+“THE KING!” HE CRIED. “WHAT KING?”
+
+“TWO WOMEN CHAINED TO POSTS”
+
+“TORN AWAY BY THE OFFICERS”
+
+“THE KING WAS FURIOUS”
+
+THE SACRIFICE
+
+“HE CONFRONTED THE OFFICER IN CHARGE”
+
+“WHILE THE LASH WAS APPLIED”
+
+“SIR HUGH SPURRED AWAY”
+
+TO LONDON
+
+“MOUNTED AND RODE OFF WITH THE KING”
+
+“MIDST OF A JAM OF HOWLING PEOPLE”
+
+TOM’S PROGRESS
+
+“TO KISS HIS HAND AT PARTING”
+
+“COMMANDED HER TO GO TO HER CLOSET”
+
+THE RECOGNITION PROCESSION
+
+THE START FOR THE TOWER
+
+“WELCOME, O KING!”
+
+“A LARGESS! A LARGESS!”
+
+“SHE WAS AT HIS SIDE”
+
+“IT IS AN ILL TIME FOR DREAMING”
+
+“SHE WAS MY MOTHER”
+
+CORONATION DAY
+
+“GATHERS UP THE LADY’S LONG TRAIN”
+
+“TOM CANTY APPEARED”
+
+“AND FELL ON HIS KNEES BEFORE HIM”
+
+“THE GREAT SEAL--FETCH IT HITHER”
+
+“SIRE, THE SEAL IS NOT THERE”
+
+“BETHINK THEE, MY KING”
+
+“LONG LIVE THE TRUE KING!”
+
+“TO CRACK NUTS WITH”
+
+EDWARD AS KING
+
+“HE STRETCHED HIMSELF ON THE GROUND”
+
+“ARRESTED AS A SUSPICIOUS CHARACTER”
+
+“IT IS HIS RIGHT”
+
+“STRIP THIS ROBBER”
+
+“TOM ROSE AND KISSED THE KING’S HAND”
+
+JUSTICE AND RETRIBUTION
+
+NOTES
+
+CHAPTER I. The birth of the Prince and the Pauper.
+
+In the ancient city of London, on a certain autumn day in the second quarter of the sixteenth century, a boy was born to a poor family of the name of Canty, who did not want him.  On the same day another English child was born to a rich family of the name of Tudor, who did want him. All England wanted him too.  England had so longed for him, and hoped for him, and prayed God for him, that, now that he was really come, the people went nearly mad for joy.  Mere acquaintances hugged and kissed each other and cried. Everybody took a holiday, and high and low, rich and poor, feasted and danced and sang, and got very mellow; and they kept this up for days and nights together.  By day, London was a sight to see, with gay banners waving from every balcony and housetop, and splendid pageants marching along.  By night, it was again a sight to see, with its great bonfires at every corner, and its troops of revellers making merry around them.  There was no talk in all England but of the new baby, Edward Tudor, Prince of Wales, who lay lapped in silks and satins, unconscious of all this fuss, and not knowing that great lords and ladies were tending him and watching over him--and not caring, either.  But there was no talk about the other baby, Tom Canty, lapped in his poor rags, except among the family of paupers whom he had just come to trouble with his presence.

@@ -1,0 +1,62 @@
+# True Blue (Madonna song)
+
+" True Blue " is a song by American singer Madonna. It is the title track from her third studio album True Blue (1986), and was released as the album's third single on September 29, 1986 by Sire Records. Written and produced by Madonna and Steve Bray, the song deals with the feelings of Madonna for her then-husband Sean Penn. A dance-pop song, it features instrumentation from a rhythm guitar, a synthesizer, keyboards, and drums. The main chorus is backed by an alternate one, incorporating a chord progression generally found in doo-wop music.
+Received by the critics as a light-hearted and cute retro song, " True Blue " topped the charts in UK, Ireland and Canada and became another consecutive top ten song in U.S. for Madonna by reaching number three on the Billboard Hot 100. The original music video portrayed her again with a new look, leaner and sporting platinum blond bushy hair. An alternate video was made through the " Make My Video " contest on MTV. The final selected videos had a similar theme of a 1950s-inspired setting and the storyline following the lyrics of the song. " True Blue " has been performed on the Who's That Girl World Tour (1987) and the Rebel Heart Tour (2015 – 16).
+
+## Writing and composition
+
+Madonna wrote and produced the song with Steve Bray. According to her, " True Blue " takes its title from a favourite expression of her then husband Sean Penn and to his very pure vision of love and was a direct tribute to him as well as the album, which was as a whole inspired by her " unabashed valentine " for Penn. In an interview, Bray said, " She [ Madonna ] was very much in love. It was obvious if she's in love she'll write love songs. If she's not in love she definitely won 't be writing love songs. " In 2015, Madonna said that " True Blue " is " a song about true love. I didn 't know what I was talking about when I wrote it. "
+" True Blue " is a dance-pop song inspired by the Motown's girl groups from the 1960s which are considered the direct antecedents of Madonna's musical sound. The song is composed in the key of B major. It is set in compound quadruple meter, commonly used in doo-wop, and has a moderate tempo of 118 beats per minute. " True Blue " features instrumentation from a rhythm guitar, a synthesizer, keyboards, and drums for the bassline, with a basic sequence of I – vi – IV – V (B – G ♯ m – E – F ♯) as its main chord progression.
+Madonna's vocal range spans a bit less than one and a half octaves, from F ♯ 3 to B4. The chorus is backed by sounds of bells ringing, an alternate verse — " This time I know it's true " — which is sung by three back-up singers during the interlude, and a bass counter melody which introduces her vocals during the second chorus. The lyrics are constructed in a verse-chorus form, with the theme being Madonna's feelings for Sean Penn; it even uses the archaic love word " dear " in the line " Just think back and remember, dear ".
+
+## Reception
+
+
+### Critical response
+
+Davitt Sigerson from Rolling Stone magazine in a review of the album True Blue said that the song " squanders a classic beat and an immensely promising title ", LAUNCHcast's Bill Holdship said that " True Blue " is " Madonna's wonderful tribute to the late ' 50s / early ' 60s " girl groups ". In his book Madonna: An Intimate Biography, journalist J. Randy Taraborrelli described the song as " the light-hearted, fun track of the whole True Blue album project having a retro 1950's feel to it ". In the book Rock ' n ' Roll Gold Rush which contains information about various artists and their singles, author Maury Dean said that the song as a " masterwork of simplicity interwoven with secret complexity " adding that " on one hand, it's just a basic steetcorner ditty, with four basic chords. In another context, it's a counterpoint harmonic blanket, twirling with star-spangled timbre and dynamic drive. " Rikky Rooksby, in his book The Complete Guide to the Music of Madonna, said that " True Blue " is " a song that is merely cute and not really up to being the title track of an album ".
+The Wichita Eagle did not like the song, believing that it was " sassless and neutered " as compared to the other songs on the record. However, Daniel Brogan of The Chicago Tribune believed the song was good, calling it " impressive " like the rest of the album, and Jan DeKnock of the same paper believed it was " charming ". Steve Morse of The Boston Globe, when describing the song, said that it was a " bid to be an ' 80s Helen of Troy ".
+
+### Chart performance
+
+" True Blue " was released in the United States in October 1986. It debuted on the Billboard Hot 100 at number 40, six weeks later it reached its peak of number three, remaining at the position for three consecutive weeks, and spent a total of 16 weeks on the chart. The song performed equally well on the other Billboard charts, peaking at number five on Adult Contemporary, and number six on the Hot Dance Club Songs chart. In October 1998, the single was certified gold by the Recording Industry Association of America (RIAA) for shipment of 500,000 copies. In Canada, the song debuted at number 84 the RPM singles chart on September 27, 1986, reached the top for one week in November 1986, and stayed on the chart for 23 weeks. It ended at the 37th position of the year-end chart.
+In the United Kingdom, " True Blue " was released on September 29, 1986. It debuted at number three on the UK Singles Chart, before climbing to number one the next week, becoming Madonna's third number-one single there. It was certified gold by the British Phonographic Industry (BPI) in October 1986. According to the Official Charts Company, the song has sold 545,000 copies there. The song peaked at number one for two weeks in October 1986 in Ireland, making it her fourth number-one single on the Irish Singles Chart. Both in Australia and New Zealand, the song reached the top five, and was certified platinum in the former region by the Australian Recording Industry Association (ARIA) for sales of 70,000 copies of the single. In Europe " True Blue " also topped the Eurochart Hot 100 for one week in October 1986. It peaked in the top five in Belgium, Italy, and the Netherlands, and in the top ten in Austria, France, Germany, and Switzerland.
+
+## Music videos
+
+
+### Official version
+
+" True Blue " had two music videos to accompany it. Shot in early September 1986 in New York, Madonna's own video for the song was directed by James Foley, who worked with Madonna in her videos for " Live to Tell " and " Papa Don 't Preach ", produced by Robert Colesberry and David Massar with photography by Michael Ballhaus. The Foley version features Madonna with three dancers and a 1950s car in an all-blue diner. Madonna changes her hairstyle from short-cropped in " Papa Don 't Preach " to a bushy platinum blonde hairdo and sings the song in choreographed moves backed by her dancers. It displays a flashing back to fifties rock 'n'roll youth culture.
+The blue background changes to a sunny one as she sings " The sun is bursting right out of the sky " to go-along with the lyrical meaning of the song. Two of Madonna's close friends, Erika Belle and Debi Mazar appear in the video. The video was released at a time when she was going through a failed marriage with then husband actor Sean Penn. During this period, Madonna focused on more traditional fashion and attitudes and tried to appear more respectful of traditional gender roles. After shedding her trampy sex-kitten and boy-toy image with the " Live to Tell " music video, Madonna again adopted a new look for this video. Madonna attended aerobics classes at Hollywood health centre The Sports Connection, which was responsible for her toned down look in the video.
+
+### " Make My Video " contest
+
+Sire Records decided to opt for a promotional device in the United States that would involve MTV viewers to make their own videos for " True Blue ". In the fall of 1986, MTV asked its viewers to submit their own videos. The contest was known as " Madonna's ' Make My Video ' Contest ". The winner was awarded a trip to MTV's New York studio where Madonna presented a $ 25,000 check live on MTV. Thousands of viewers submitted their recorded tapes which were mainly made using home-made video equipment and featured themselves or relatives as the actors. MTV publicist Peter Danielson said that many of the submissions featured teenagers imitating Madonna. All the entries were shown in a continuous run on MTV as promised. The same song was played over and over for the whole day, but each time with a different video made by the finalists. Author Lisa A. Lewis said that this event emphasized the effect Madonna had on different kind of audiences due to the popularity and response to the contest. MTV selected ten finalists based mainly on a standard of popularity rather than slickness of production or concept creativity.
+The concepts used in the videos were wide ranging and included a number of different ideas to interpret the lyrical meaning of the song. The final three entries selected, portrayed a fifties-style production referring to the thematic content of the song. The song's narration about " True Love " formed the basis of the rest of the semi-finalist videos but was used in very different ways. The videos were choreographed featuring heterosexual romance, though no particular male or female protagonist was singled out. Some even adopted a kind of literal montage technique rather than structuring the video around a narrative line.
+The winning entry was by Angel Gracia and Cliff Guest and it showed the female protagonist (played by the director's sister Anabel Garcia) being supported and guided by her girlfriends who introduce her with the male protagonist. The girl even goes to the boy's door to gift him flowers, thereby reversing the usual gender-directed pattern of gift-giving. The male protagonist is portrayed as a " perfect boy " (played by William Fitzgibbon) having the sensibilities like attentiveness, cuteness, playfulness like a friend (after the lyrics " You're my best friend ") and not sexual overtones. The video in-turn contrasts him with a self-centered boy who puts on sunglasses, throws his leather jacket over his shoulder and walks away from the girl. Other videos portrayed a girl pining for her sailor, U.S.-Soviet relations and an arguing couple with the girl in a scene inspired by the music video of Tina Turner's 1984 single " What's Love Got to Do with It ".
+
+## Live performances
+
+Madonna first performed the song on her 1987 " Who's That Girl World Tour ". She came up on the stage wearing a blue dress to sing the song after finishing a performance of " Lucky Star ". In a similar setting to the original music video of the song, Madonna is backed up by her singers who play her girlfriends. At the end of the song Madonna is asked to dance again by the dancer playing her man in the performance. Her dance in the performance (and also some other performances in the tour) was choreographed by Jeffrey Hornaday from Flashdance. Two different performances of the song on the tour were included on two live video releases: Who's That Girl: Live in Japan, filmed in Tokyo, Japan, on June 22, 1987, and Ciao Italia: Live from Italy, filmed in Turin, Italy, on September 4, 1987.
+Madonna did not perform the song again until 2015, as part of her Rebel Heart Tour. She performed an acoustic, ukulele-driven version of the song sitting on top of a tire stack while asking the crowd to sing along with her. Writing for the Daily News, Jim Farber felt that during the performance " [ Madonna ] emphasized a rare sincerity " while Jordan Zivitz from the Montreal Gazette opined that " it was both endearingly quaint and, supersized by an unprompted singalong from more than 16,000 voices, a goosebumps moment that felt more grandiose in its way than the showpieces surrounding it ". Newsday's Glenn Gamboa gave a similar feedback, saying that the " lovely acoustic version of " True Blue " was a rare bow to romance, the sweetest of Madonna sentiments ".
+
+## Formats and track listing
+
+
+## Credits and personnel
+
+Madonna – lyrics, producer, vocals
+Steve Bray – drums, keyboards, lyrics, producer
+Bruce Gaitsch – rhythm guitar
+Fred Zarr – additional keyboards
+Steve Peck – engineer
+Shep Pettibone – remixing
+Herb Ritts – photography
+Jeri McManus – design / artwork
+Credits adapted from the album's liner notes.
+
+## Charts
+
+
+## Certifications

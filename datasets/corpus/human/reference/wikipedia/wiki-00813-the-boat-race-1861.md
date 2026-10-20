@@ -1,0 +1,17 @@
+# The Boat Race 1861
+
+The 18th Boat Race took place on the River Thames on 16 March 1861. Held annually, The Boat Race is a side-by-side rowing race between crews from the Universities of Oxford and Cambridge. The 1861 event, which featured the first ever non-British competitor, suffered numerous interruptions from river traffic. Oxford won by 16 lengths.
+
+## Background
+
+The Boat Race is a side-by-side rowing competition between the University of Oxford (sometimes referred to as the " Dark Blues ") and the University of Cambridge (sometimes referred to as the " Light Blues "). The race was first held in 1829, and since 1845 has taken place on the 4.2-mile (6.8 km) Championship Course on the River Thames in southwest London. Cambridge went into the race as reigning champions, having defeated Oxford by one length in the previous year's race and led overall with ten wins to Oxford's seven.
+The challenge to race was sent from Oxford in the October term which was accepted by Cambridge. Both boats were built specifically for the race, Cambridge's by Searle and Oxford's by Salter. Oxford were " occasionally looked after " by H. Baxter, who rowed in the 1860 race, and C. G. Lane who represented the Dark Blues in the 1858 and 1859 races. The race was umpired by Joseph William Chitty who had rowed for Oxford twice in 1849 (in the March and December races) and the 1852 race.
+
+## Crews
+
+The Cambridge crew weighed an average of 11 st 4.875 lb (71.9 kg), 0.875 pounds (0.4 kg) per rower more than their Dark Blue opposition. George Morrison returned to the Oxford crew, having rowed in the previous year's race. Cambridge saw Chaytor, Blake, Coventry and Hall return. The race featured the first non-British rower in the history of the event: William Robertson of Wadham College, Oxford was educated at Geelong Grammar School in Australia before representing the Dark Blues at number four.
+
+## Race
+
+As a result of strong winds and a large volume of land water running into the river, the race was re-scheduled for 11am. Cambridge won the toss and elected to start from the Middlesex station, handing the Surrey station to Oxford. The starter, Edward Searle, gave the command to start, with neither boat taking an early advantage. By the Star and Garter pub, Cambridge had edged ahead and spurted to take a half-length lead and by the Duke's Head pub, the Light Blues had moved further in front. A steering error from Gaskell, the Cambridge cox, saw their lead eroded such that Oxford led by Craven Cottage. At the football ground, rough water created by one of the nearby steamboats (who, according to MacMichael, had " shamefully put her paddle-wheels into motion ") caused a swell to slow the Oxford boat.
+The Dark Blue crew's rhythm combined with more poor steering from Cambridge allowed Oxford to pull away, three lengths ahead by the Crab Tree and six by Hammersmith Bridge. Further interruption to Cambridge's passage came from a sailing barge which they forced to steer around, and by Chiswick, they were ten lengths behind. Oxford suffered briefly at the hands of a barge blocking their route but by Barnes Bridge were at least twelve lengths ahead. They passed the flag boat (indicating the finish of the race) at the Ship Tavern in a time of 23 minutes 30 seconds, and a lead of 16 lengths. It was the largest winning margin since the 1841 race and would be the first in a series of nine consecutive victories for Oxford.

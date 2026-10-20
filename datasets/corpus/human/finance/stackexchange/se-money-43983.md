@@ -1,0 +1,5 @@
+# Who can truly afford luxury cars?
+
+There's an aspect to this question that I really love. In general, it's a question about consumer behavior that can be expanded to inquire about the purchasing profile of any luxury good. Who buys $500 pocketbooks, $1000 wristwatches, etc?
+I can offer one observation regarding the car. Two close neighbors, both couples drive cars valued well above what my wife and I drive. Both families moved, and shared with us that they failed to save for their kid's college tuition. My response was to feel that this was a choice they made. As I commented to my daughter, "We can afford anything, we just can't afford everything." Our budget started with saving both for retirement and college. Very little eating out, and modest vacations, cars, and clothing. This story is getting more common for us as our peers have high school age children.
+As others have mentioned, the  millionaire next door  does not drive a Ferrari or wear a Rolex. To some extent, if you were able to peek at the budgets of these car buyers, you'll find what members here would consider at best, an interesting set of priorities.

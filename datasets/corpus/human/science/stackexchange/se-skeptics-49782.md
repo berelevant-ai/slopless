@@ -1,0 +1,9 @@
+# Do vote counts for Joe Biden in the 2020 election violate Benford's Law?
+
+Benford's Law  is a statistical rule that says that the distribution of digits in real-world numerical datasets tends to follow a specific pattern. It is often used to test whether an election is legitimate or phoney, by comparing the frequency of digits in candidates' vote counts to the expected pattern. For example, it was  used  in establishing electoral fraud in the 2009 Iranian election.
+I recently came across several right-wing sources that claim President-elect Joe Biden's vote counts in the 2020 election violate Benford's Law. Examples include  the website "The Red Elephants"  and  this r/donaldtrump thread . The "Red Elephants" article makes several other claims of fraud, but I would like to restrict this question to the digit frequency analysis. Normally I would immediately dismiss something like this as a baseless partisan conspiracy theory, but the claims should be testable using public records and statistical analysis. Quote:
+According to some analysts, Biden’s Vote Tallies Violate Benford’s Law, as all of the other candidates’ tallies follow Benford’s law across the country, except for Biden’s when he gets in a tight race. Biden pretty clearly fails an accepted test for catching election fraud, used by the State Department and forensic accountants.
+Analysts ran the data with Allegheny using the Mebane 2nd digit test with Trump vs Biden. The difference was significant. It just doesn’t work. Biden’s is fishy, many significant deviations. In Trump’s there were only 2 deviations but neither are significant at the 5% level. The X-asis is the digit in question, the Y-axis is the % of observations with that digit.
+Here are a few of several relevant images from the article:
+First digit frequencies in Chicago
+Second digit frequencies in Alleghany County, Pennsylvania

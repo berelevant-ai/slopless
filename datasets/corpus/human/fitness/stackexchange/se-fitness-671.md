@@ -1,0 +1,3 @@
+# How to comfortably carry equipment when running?
+
+I am a distance runner, and sometimes go running on trails where there aren't likely to be many people. Since I have type-1 diabetes, I must carry a blood glucose tester and a source of quick sugar with me, particularly since exercise can lower blood sugar. While this all amounts to a pretty small amount of equipment, it's more than fits comfortably in the pockets of my running shorts. What are some ways to carry this gear without it impeding running or causing discomfort? We're talking about maybe 200-300g of total mass, though space for a little bit more would not be bad.

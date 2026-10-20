@@ -1,0 +1,8 @@
+# Do magnets dull knives?
+
+The magnets themselves don't dull them; they're not nearly strong enough to deform a blade.
+But it is possible to damage your knives on those racks. It's very easy to drag the blade along the rack a bit as you pull it off, and easy for the magnet to snap it against the rack as you put it on.
+Both are avoidable, though. When removing the knife, you twist it so that the sharp side leaves the magnet first. When putting it on the rack, you let the blunt side touch first, so when it snaps the rest of the way on, it's only the flat side against the rack, never the blade.
+It also helps to get a version that's not just bare metal; there are plenty with the magnet underneath wood. It might not be ideal if you let the blade drag along it a lot, just as you probably don't want to drag it along your cutting board, but it's a lot better than metal. Also, since the knife isn't directly against the magnet, the force doesn't increase as sharply as you get to the rack, so there's less snap.
+So, if you're worried that you (or guests in your kitchen) may not always be too careful, a bare metal magnetic knife rack is definitely not a good idea. But unless you're  really  protective of your knives, the wooden kind is probably fine.
+Folks have also pointed out that in principle, long-term use of a magnetic rack could magnetize the blade, causing it to pick up tiny bits of metal, especially during sharpening, which would then wear and dull the blade. As far as I know, this is not a big deal: I've seen knives stored long-term on magnetic blocks without noticeable magnetization. You could always keep an eye out and demagnetize the blade if necessary.

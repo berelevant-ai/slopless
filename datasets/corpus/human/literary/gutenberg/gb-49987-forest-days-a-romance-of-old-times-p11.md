@@ -1,0 +1,21 @@
+The trees, however, were still scattered at many yards' distance from each other, and cast long shadows upon the velvet green of the grass, as the sun, not many degrees above the horizon, poured its bright rays between them. But when the yeoman looked through the bolls, to the northward and westward, he could see a dim mass of darker green spreading out beyond, and showing how the forest thickened, not far off; while, every now and then, some cart-way, or woody path, gave him a long vista into the very heart of the woodland, with lines of light, where the beams of day broke through the arcade of boughs, marking the distances upon the road.
+
+That they were getting into the domain of the beasts of chase was soon very evident. More than one hare started away before their footsteps, and limped off with no very hurried pace. Every two or three yards, a squirrel was seen running from tree to tree, and swarming up the boll; and, once or twice, at a greater distance, the practised eye of the good yeoman caught the form of a dun deer, bounding away up some of the paths, to seek shelter in the thicker wood.
+
+The way did not seem long, however, and all the thousand objects which a woodland scene affords to please and interest the eye and ear, and carry home the moral of nature's beautiful works to the heart of man, occupied the attention of the stout Englishman, as they walked onward, till the distance between the trees becoming less and less, the branches formed a canopy through which the rays of the morning sun only found their way occasionally.
+
+"Why, Master Ploughman," said the lord's man, at length, "you seem plunging into the thick of the wood. Does your dwelling lie in this direction?"
+
+"In good sooth does it!" answered the ploughman;--"it will be more open presently."
+
+"Much need," rejoined the yeoman, "or I shall take thee for a forester, and not one of the King's either."
+
+The peasant laughed, but made no reply, and in a minute or two after, the yeoman continued, saying--"Thou art a marvellous man, assuredly, for thou art ten years younger this morning than thou wert last night. Good faith, if I had fancied thee as strong and active as thou art, and as young withal, I think I should have left thee to fight it out with those two fellows by thyself."
+
+"Would that I had them for but half an hour, under the green hawthorn trees we have just passed," said the peasant, laughing--"I would need no second hand to give them such a basting as they have rarely had in life--though I doubt me they have not had a few."
+
+"Doubtless, doubtless!" answered the yeoman--"But word, my good friend, before we go farther: as you are not what you seemed, it is as well I should know where I am going?"
+
+"I am not what I seemed, and not what I seem either, even now," said the peasant, with a frank and cheerful smile, "but there is no harm in that either, Master Yeoman. Here, help me off with my burden; I am not the first man who has made himself look more than he is. There, put your hand under my frock, and untie the knot you will find, while I unfasten this one in front."
+
+So saying, he loosened a little cord and tassel that was round his neck, and with the aid of his companion, let slip from his shoulders a large pad, containing seemingly various articles, some hard, and some soft, but which altogether had been so disposed as to give him the appearance of a deformity that nature certainly had not inflicted upon him. As soon as it was gone, he stood before the honest yeoman, a stout, hearty, thick-set man, with high shoulders indeed, but without the slightest approach to a hump upon either of them; and regarding, with a merry glance, the astonishment of his companion--for those were days of society's babyhood, when men were easily deceived--he said, "So much for the hunch, Master Yeoman. Had those good gentlemen seen me now, they might not have been quite so ready with their hands; and had they seen this," he added, showing the hilt of a good stout dagger under his coat, "they might not have been quite so ready with their swords. And now let us come on without loss of time, for there are those waiting who would fain speak with you for a short time, and give you a message for your lord."

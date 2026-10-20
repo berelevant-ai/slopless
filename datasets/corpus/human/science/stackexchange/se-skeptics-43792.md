@@ -1,0 +1,10 @@
+# Was credit for the black hole image misattributed?
+
+The metric does not measure what it is claimed it does, and even if it did it would be meaningless for assessing the role of Dr. Kate Bouman in creating the image. I'll go on to why, but I first want to draw particularly attention to the fact that Dr. Bouman has explicitly rejected the idea that she deserves sole credit:
+But Dr Bouman, now an assistant professor of computing and mathematical sciences at the California Institute of Technology, insisted the team that helped her deserves equal credit.
+The effort to capture the image, using telescopes in locations ranging from Antarctica to Chile, involved a team of more than 200 scientists.
+"No one of us could've done it alone," she told CNN. "It came together because of lots of different people from many different backgrounds."
+( source )
+The primary reason the metric is meaningless is that Dr. Bouman is credited with developing an algorithm not with typing lines of code, so any metric measuring code production is simply not measuring the thing she is credited with doing. She could have typed not a single character and still designed the algorithm that played a key role. It's like trying to measure the input of an architect by how many bricks they laid in a building.
+Additionally, the project is broader in scope than simply implementing the algorithm credited to Dr. Bouman. Large amounts of code are involved in simply loading and co-ordinating files, displaying and saving images, and the like. All of which is necessary to the project at large but not specific to the algorithm used.
+Finally and least importantly, the statistics in GitHub are not even measuring Lines of Code written - as claimed in the source - they are measuring lines changed in submission. Those lines can be code, or a change to a line, or a line copied between branches, even blank lines. In fact, (and, hat tip @Polygnome) the count includes lines which aren't even in the code at all, as there is also data and documentation included.

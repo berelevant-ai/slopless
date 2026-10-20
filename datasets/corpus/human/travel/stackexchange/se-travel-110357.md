@@ -1,0 +1,25 @@
+# Personal security during a business trip to Moscow
+
+I'm a Moscovite, so this answer is bound to be biased.
+Safety is a very relative notion, I perceive Moscow safer than quite a few cities I've been to in Western Europe and the US (or at least some of their neighborhoods). Anecdotally, I've once been detained by the US police for several hours out of the blue, so... yes, unexpected things happen everywhere.
+“I’ll get a rental car, take a taxi or hop on a train if necessary.”
+That concern was somewhat reasonable, as you could come across a dishonest taxi driver who would want to exploit you asking for a much greater fare than necessary. I knew a person from the US who paid almost $100 (20 times more than the norm!) for a trip from the airport.  [note: As pointed out in the comments, The fair rate for getting to and from the airport as of 2018 should be approximately $10-20 depending on the airport and the taxi company]
+Generally, "vanilla" taxis are quite a mess unless you know a reliable company, so you'll be much better off using  Uber  or  Yandex Taxi .
+The  aeroexpress  trains are a great option if you don't have a car, they're extremely safe, reliable and quick.
+The cheapest way to get to the city would be buses and regular suburban trains (look up the directions on the airport's website). In all my life I've never had issues with either of those, but they may be slow (depending on the traffic conditions) and not as comfy.
+All in all, all of the public transport (metro, buses, trolleybuses, streetcars and suburban trains) in Moscow is very safe and cheap, though not always as fast and convenient as one could wish for, and may get very jam-packed during rush hours. (Most of its shortcomings may be mitigated by using  Google Maps  or  Yandex Maps  for finding an optimal route, in conjunction with  Yandex Transport  which lets you see all public transport vehicles directly on the map in real time.)
+Finally, avoid relying on jitney(marshrutki) minibuses ran by small local companies, because the level of their service varies wildly, similarly to taxi cabs. Cases when the driver flat out refuses to get you to your destination because the cab is not "full enough" have not been unheard of. (Anecdotally, I've had exactly that happen on my road to the airport with a route 948 minibus. Nearly missed a flight... not fun.)
+Has the security level for Americans truly degraded to the point that I shouldn’t be taking in the beauty of Moscow on my own, as I try to do in every city I visit, whether traveling on vacation or on business?
+I consider it mostly nonsense. That said, you should adhere to the basic tourist wisdom, which is not to let others see you as a confused and helpless foreigner who could easily be taken advantage of. If you're Caucasian and don't wear a striped red, white and blue baseball cap with some stars in the middle, or a t-shirt with the Liberty statue imprinted on it, few people would suspect you to be a tourist from the US.
+In conclusion, my advice to anyone visiting Moscow is simple: do not be afraid and visit whatever place you wanted to visit, as long as it's not a military base or something. If you fear the wolves, you'll never get to see the forest, as the old saying goes.
+Use the public transport to get to places (and watch some ordinary people in their daily commute!), visit the museums and theatres, try some of the local food, go for a stroll in one of the nearest forests and parks, or leave the hustle and bustle of the city and explore the suburbs and  nearby cities .
+Just:
+Be aware of your surroundings as always.
+Don't stand out in a crowd too much.
+Don't flaunt expensive electronics or fashion accessories in public.
+Learn the Cyrillic alphabet because not all signs are translated.
+Don't expect most people (even the police) to speak English or be willing to go the distance to help strangers who don't "even" speak their language.
+Avoiding participating in mass protests. While commendable, you may end up in much more trouble than a Russian citizen would if you end up detained by the police.
+Keep the phone numbers of the embassy and your hosts at hand for the unlikely cases of emergency.
+Update: After reading all other comments and answers, I feel a disclaimer is in order.
+My answer applies if you are an "ordinary" person (e.g. a student, a retail worker, a researcher, an engineer, an artist, a small business owner) visiting Moscow for "ordinary" affairs which are of no concern to the corrupt officials or the mafia. Examples of such "sensitive" circumstances may include, but are not limited to, things like investigating corruption or money laundering, inquiries into the foreign policies and the military affairs of the country, defense of political prisoners and convicts, meeting with the leaders of the political opposition, LGBT rights activism, or you being a well-known multimillionaire. If you think there is at least one powerful and dishonest person in Russia who would benefit from having you(personally) suffer any harm, please exert caution and follow the safety guidelines given by your hosts.

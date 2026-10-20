@@ -1,0 +1,3 @@
+# Is Wikipedia Trustworthy?
+
+So in elementary school, I was told not to use Wikipedia too much because you can't trust what they write. So then for all the projects, I used the Canadian Encyclopedia, but then now, I really would like to know why not to use Wikipedia. The only answer I know of is that anyone can write anything, but doesn't it have to go through a review under someone that actually is part of the Wikipedia community? What I think, is that Wikipedia takes a lot of information from other websites, then puts it all together, which is why normally, they have a big bibliography. I was wondering- Is Wikipedia really trustworthy?

@@ -1,0 +1,4 @@
+# What is this colored fiber in my chicken?
+
+It's called deep pectoral myopathy or "green muscle disease", and it's a problem with heavy breasted poultry. The vessels are unable to supply enough blood to the muscle, with the result of death of the muscles affected. It's not detectable until the chicken is cut open. By the time you see the green colour, muscle death occurred a couple of weeks prior and fibrous woody tissue has developed. Since breeding practices for roaster chickens and turkeys often favor heavy-breasted poultry, this is likely to be found more often until that changes.
+There is no odour or bacterial growth with this, and the meat itself is safe to eat, though no one would eat the green part.  The Occurrence of Deep Pectoral Myopathy in Roaster Chickens , from The Journal of Applied Poultry Research, has  extensive  info available about it.

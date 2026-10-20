@@ -1,0 +1,3 @@
+# Test if two foods are the same
+
+The best approach is to use  a triangle test . This would be the standard used in sensory sciences. It is easy, and it will be a fun thing to do with friends.  Basically, each friend (panelist) is provided with three blind samples.  Two are the same, and one is different.  The objective is for them to tell you which one is different.  The validity is enhanced if you randomize the possible combinations across your participants.  The linked site provides all the necessary information, but the practice is quite common and further detail can be found from multiple sources.  I would be curious to hear the results!

@@ -1,0 +1,9 @@
+# Round not applicable for the event; Bye
+
+Athlete not required to compete in round
+
+## Modern pentathlon
+
+Three Egyptian athletes qualified for the Olympic modern pentathlon tournament, two men and one woman. Aya Medany, a veteran of the 2004 and 2008 Games, was the most experienced of the three, having competed internationally since 1999 at the age of 10. She won the 2011 African Championships to earn her spot in London, which was her fifth title at the tournament since 2004. In the women's event in London, she won 20 of her fencing bouts and was ranked joint-eighth after the first round. She was 18th in swimming, 19th in riding, and 21st in the combined running / shooting portion to finish 16th overall. On the men's side, Yasser Hefny won the 2011 African Championships and entered the men's event in London, where he won 17 of his fencing bouts and was ranked joint-thirteenth after the first round. He was 19th in the swimming, 28th in riding, and 31st in the combined running / shooting competition to finish 28th overall.
+Amro El Geziry was a veteran of the 2008 Games, having won the 2006 and 2007 African Championships, and was following his brother Emad, who had participated in the 2000 edition. He won a bronze medal with another brother, Omar, at the 2009 World Modern Pentathlon Championships and eventually qualified for the 2012 Olympics by virtue of his world ranking. He received a berth during the second round of Olympic allocations, when spots won by nations who qualified more than the maximum two athletes were redistributed. In London he was victorious in 18 of his fencing bouts and was ranked joint-11th after the first round, but then won the swimming event with an Olympic record time of 1: 55.70. He placed 33rd and 34th in the riding and combined riding / shooting competition, however, and finished 33rd overall.
+Key: MP Points

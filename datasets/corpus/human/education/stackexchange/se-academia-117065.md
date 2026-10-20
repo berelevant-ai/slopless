@@ -1,0 +1,5 @@
+# Is it okay to mention we're citing an article only because a reviewer told us to?
+
+No, it's completely inappropriate to cite something while making snarky remarks about how you don't think you should. There is no upside whatsoever: it makes you look petty and obnoxious, and it looks like you're disparaging the authors of the paper being cited, even though you're actually disparaging the referee, which is hardly better. Either cite the paper respectfully or don't cite it at all.
+If the suggested paper is not relevant, then you shouldn't cite it at all and your response to the referee should justify that decision. If the referee insists and the editor concurs, then just cite the paper in as neutral a way as possible.
+Given that there seem to be multiple possible approaches to solve your problem, perhaps the best solution would be to write a short paragraph addressing them. Something along the lines of your "alternative 1" but with explanation of why you chose the method you did, instead of one of the others. Wouldn't that improve the paper?

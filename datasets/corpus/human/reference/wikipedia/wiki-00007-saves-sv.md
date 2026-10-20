@@ -1,0 +1,12 @@
+# Saves; Sv%
+
+Save Percentage; SO = Shutouts
+† Denotes player spent time with another team before joining Blue Jackets. Stats reflect time with the Blue Jackets only. ‡ Traded mid-season
+
+## Milestones
+
+When Mason was injured in warm-ups late in the year, Columbus was without an active goaltender on their roster. To remedy the situation, the team signed former University of Michigan goaltender Shawn Hunwick to a one-day, amateur tryout contract. After being eliminated from the NCAA Tournament just days prior, Hunwick skipped an astronomy class and drove his worn down 2003 Ford Ranger to Columbus to make the game. He served as the back-up to Allen York during the game, and the following day, he signed a contract for the remainder of the year. With Mason returning from injury, Hunwick was third on the team's depth chart when an injury to York allowed Hunwick to remain as the back-up for the final two games of the year. In the final game of the season, the Blue Jackets were leading the Islanders 7 – 3 with 2: 33 remaining when, at the behest of his teammates, Head Coach Todd Richards put Hunwick in to finish the game. He did not face a shot. Hunwick was the franchise record ninth player to make his NHL debut during the season. Conversely, Vaclav Prospal played in his 1,000th NHL game during the year.
+
+## Transactions
+
+During the off-season the Blue Jackets parted ways with defensemen Jan Hejda, Anton Stralman, Sami Lepisto and Mike Commodore. Hejda, who played four of his first five NHL seasons with the Blue Jackets, was offered a contract by Columbus, but felt that the organization undervalued him and left via free agency. Columbus had offered him a three-year, $ 7.5 million contract. He instead signed a four-year, $ 13 million deal with the Colorado Avalanche. Stralman and Lepisto were not given qualifying offers which made them unrestricted free agents, and both signed with other teams. Commodore had originally signed a big contract with the Blue Jackets in 2008, but fell out of favor. He was waived, sent to the minors and eventually had his contract bought out. In order to replace the departed players, Columbus not only acquired James Wisniewski, but also signed ten-year NHL veteran Radek Martinek. Martinek played only seven games with the Blue Jackets before suffering a concussion and missing the remainder of the season. Brett Lebda was brought in to replace him.

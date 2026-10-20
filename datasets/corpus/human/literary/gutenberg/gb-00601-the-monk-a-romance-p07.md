@@ -1,0 +1,21 @@
+In language nervous, clear, and simple, the Monk expatiated on the beauties of Religion. He explained some abstruse parts of the sacred writings in a style that carried with it universal conviction. His voice at once distinct and deep was fraught with all the terrors of the Tempest, while He inveighed against the vices of humanity, and described the punishments reserved for them in a future state. Every Hearer looked back upon his past offences, and trembled: The Thunder seemed to roll, whose bolt was destined to crush him, and the abyss of eternal destruction to open before his feet. But when Ambrosio, changing his theme, spoke of the excellence of an unsullied conscience, of the glorious prospect which Eternity presented to the Soul untainted with reproach, and of the recompense which awaited it in the regions of everlasting glory, His Auditors felt their scattered spirits insensibly return. They threw themselves with confidence upon the mercy of their Judge; They hung with delight upon the consoling words of the Preacher; and while his full voice swelled into melody, They were transported to those happy regions which He painted to their imaginations in colours so brilliant and glowing.
+
+The discourse was of considerable length; Yet when it concluded, the Audience grieved that it had not lasted longer. Though the Monk had ceased to speak, enthusiastic silence still prevailed through the Church: At length the charm gradually dissolving, the general admiration was expressed in audible terms. As Ambrosio descended from the Pulpit, His Auditors crowded round him, loaded him with blessings, threw themselves at his feet, and kissed the hem of his Garment. He passed on slowly with his hands crossed devoutly upon his bosom, to the door opening into the Abbey Chapel, at which his Monks waited to receive him. He ascended the Steps, and then turning towards his Followers, addressed to them a few words of gratitude, and exhortation. While He spoke, his Rosary, composed of large grains of amber, fell from his hand, and dropped among the surrounding multitude. It was seized eagerly, and immediately divided amidst the Spectators. Whoever became possessor of a Bead, preserved it as a sacred relique; and had it been the Chaplet of thrice-blessed St. Francis himself, it could not have been disputed with greater vivacity. The Abbot, smiling at their eagerness, pronounced his benediction, and quitted the Church, while humility dwelt upon every feature. Dwelt She also in his heart?
+
+Antonia’s eyes followed him with anxiety. As the Door closed after him, it seemed to her as had she lost some one essential to her happiness. A tear stole in silence down her cheek.
+
+“He is separated from the world!” said She to herself; “Perhaps, I shall never see him more!”
+
+As she wiped away the tear, Lorenzo observed her action.
+
+“Are you satisfied with our Orator?” said He; “Or do you think that Madrid overrates his talents?”
+
+Antonia’s heart was so filled with admiration for the Monk, that She eagerly seized the opportunity of speaking of him: Besides, as She now no longer considered Lorenzo as an absolute Stranger, She was less embarrassed by her excessive timidity.
+
+“Oh! He far exceeds all my expectations,” answered She; “Till this moment I had no idea of the powers of eloquence. But when He spoke, his voice inspired me with such interest, such esteem, I might almost say such affection for him, that I am myself astonished at the acuteness of my feelings.”
+
+Lorenzo smiled at the strength of her expressions.
+
+“You are young and just entering into life,” said He; “Your heart, new to the world and full of warmth and sensibility, receives its first impressions with eagerness. Artless yourself, you suspect not others of deceit; and viewing the world through the medium of your own truth and innocence, you fancy all who surround you to deserve your confidence and esteem. What pity, that these gay visions must soon be dissipated! What pity, that you must soon discover the baseness of mankind, and guard against your fellow-creatures as against your Foes!”
+
+“Alas! Segnor,” replied Antonia; “The misfortunes of my Parents have already placed before me but too many sad examples of the perfidy of the world! Yet surely in the present instance the warmth of sympathy cannot have deceived me.”

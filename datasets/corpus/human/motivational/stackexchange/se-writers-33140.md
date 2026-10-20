@@ -1,0 +1,7 @@
+# Is it a bad idea to have multiple bad endings and only one good ending?
+
+Background: I'm working on a game that has multiple paths for players to choose from. The choices the players make can lead them to very different endings. There are many bad endings but only one true canon ending. Only one good ending, basically.
+Could this be a bad idea for the story of a game? I feel like players might think they just wasted their time whenever they go into a route that leads to a game over. I don't want to make it feel like getting the  sole  good ending is the main goal and the only thing the player should focus on. I still want to try and make each bad ending interesting, but I'm not sure if that alone would make those bad endings worth playing through. Some examples:
+some bad endings have foreshadowing to the good ending and help players, so they can figure out the right choice to reach said good ending. Example: you find out in one of the bad endings which character was holding the important item secret from everyone else, allowing you to confront him in another run.
+some bad endings show how a character reacts when a certain event happens, or the effects of keeping a certain character alive. Example: if you make sure a certain character lives until a certain point, that character later manages to prevent the genocide that ended your run in one of the bad endings.
+Side Note: because of the nature of the story, it can only have one good ending, not multiple. Don't ask me why, it would be VERY complicated to explain why that's not an option for me...

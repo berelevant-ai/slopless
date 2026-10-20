@@ -1,0 +1,9 @@
+# When and why do people clap/applause after a plane lands?
+
+A cabin crew member here, and I am from a country where people do not clap after landings and I was very surprised when I experienced this for the first time, so I started asking passengers when this happens on different flights. Basically there are three main reasons:
+A sign of  appreciation : the smoother the flight/landing, the stronger the clapping. You know, clapping is cheaper and more feasible than sending the crew flowers.
+A sign of  happiness  for safely landing. The harder the flight was, the stronger the clapping will be. There could be other reasons as well behind "happiness", I am sure it happened with me when no one expected it to happen, but in general it happens on certain flights with certain communities on a regular basis.
+A sign of  excitement  for reaching home. Seen this in flights where most of the passengers are expats arriving home after spending a long time away from home.
+The three above situations happen more when arriving home, not when going away from home. That also was noticed.
+I guess in some communities, this clapping thing became a tradition, Egypt for example. While the applause is mainly a sign of excitement, people from there do not need a reason to do so. You'll see passengers from all classes (even rich people in first class) will usually clap especially older ones regardless of the flight even if it was a one hour flight with no service and a hard landing!
+There are also other less common reasons behind that. Sometimes crew announcements initiate that, as mentioned in the comment (the crew announced that this was the last flight before the captain's retirement), another announcement that I personally experienced when the captain announced the result of an important football match (he got the result from the ATC).

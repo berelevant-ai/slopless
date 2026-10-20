@@ -1,0 +1,34 @@
+# Pinoy
+
+Pinoy (/ ˈpinɔɪ /) is an informal demonym referring to the Filipino people in the Philippines and their culture as well as to overseas Filipinos in the Filipino diaspora.
+An unspecified number of Filipinos refer to themselves as Pinoy or sometimes the feminine Pinay. The word is formed by taking the last four letters of Filipino and adding the diminutive suffix -y in the Tagalog language (the suffix is commonly used in Filipino nicknames: e.g. " Ninoy " or " Noynoy " for Benigno Jr. and III respectively ], " Totoy " for Augusto, etc.). Pinoy was used for self-identification by the first wave of Filipinos going to the continental United States before World War II and has been used both in a pejorative sense and as a term of endearment, similar to Chicano. Although Pinoy and Pinay are regarded as derogatory by some younger Filipino-Americans, the terms have been widely used and have recently gained mainstream usage particularly among members of the Filipino masses and the Filipino-American sector.
+Pinoy was created to differentiate the experiences of those immigrating to the United States but is now a slang term used to refer to all people of Filipino descent. " Pinoy music " impacted the socio-political climate of the 1970s and was employed by both Philippine president Ferdinand Marcos and the People Power Revolution that overthrew his regime. Recent mainstream usages tend to center on entertainment (Pinoy Big Brother) and music (Pinoy Idol), which have played a significant role in developing national and cultural identity. As of 2016, the term has been extensively used by the government of the Philippines itself with apparently no derogatory connotations. It is now more positive than the slang term " flip ".
+
+## Origins
+
+According to Filipino American historian Dawn Mabalon, the earliest appearance of the terms " Pinoy " and " Pinay " was in a 1926 issue of the Filipino Student Bulletin. The article that featured the terms is titled " Filipino Women in U.S. Excel in Their Courses: Invade Business, Politics. "
+
+### Motivations
+
+The desire to self-identify can likely be attributed to the diverse and independent history of the archipelagic country - comprising 7,107 islands in the western Pacific Ocean - which trace back 30,000 years before becoming a Spanish colony in the 16th century and later occupied by the United States, which led to the outbreak of the Philippine – American War (1899 – 1902). The Commonwealth of the Philippines was established in 1935 with the country gaining its independence in 1946 after hostilities in the Pacific Theatre of the Second World War had ended. The Philippines have over 170 languages indigenous to the area, most of which belong to the Malayo-Polynesian branch of the Austronesian language family. In 1939, then-president Manuel L. Quezon renamed the Tagalog language as the Wikang Pambansa (" national language "). The language was further renamed in 1959 as Filipino by Secretary of Education Jose Romero. The 1973 constitution declared the Filipino language to be co-official, along with English, and mandated the development of a national language to be known as Filipino. Since then, the two official languages are Filipino and English.
+As of 2003 there are more than eleven million overseas Filipinos worldwide, equivalent to about 11% of the total population of the Philippines.
+
+## Earliest usages
+
+The earliest known usages of Pinoy / Pinay in magazines and newspapers date to the 1920s include taking on social issues facing Pinoy, casual mentions of Pinoys at events, while some are advertisements from Hawaii from Filipinos themselves. The following are the more notable earliest usages:
+
+### United States
+
+In the United States, the earliest published usage known is a Philippine Republic article written in January 1924 by Dr. J. Juliano, a member of the faculty of the Schurz school in Chicago - " Why does a Pinoy take it as an insult to be taken for a Shintoist or a Confucian? " and " What should a Pinoy do if he is addressed as a Chinese or a Jap? "
+
+### Philippines
+
+In the Philippines, the earliest published usage known is from December 1926, in History of the Philippine Press, which briefly mentions a weekly Spanish-Visayan-English publication called Pinoy based in Capiz and published by the Pinoy Publishing Company. In 1930, the Manila-based magazine Khaki and Red: The Official Organ of the Constabulary and Police printed an article about street gangs stating " another is the ' Kapatiran ' gang of Intramuros, composed of patrons of pools rooms who banded together to ' protect pinoys ' from the abusive American soldados. "
+
+### Notable literature
+
+Pinoy is first used by Filipino poet Carlos Bulosan, in his 1946 semi-autobiography, America Is in the Heart - " The Pinoys work every day in the fields but when the season is over their money is in the Chinese vaults. " The book describes his childhood in the Philippines, his voyage to America, and his years as an itinerant laborer following the harvest trail in the rural West. It has been used in American Ethnic courses to illustrate the racism experienced by thousands of Filipino laborers during the 1930s and 40s in the United States.
+
+## Pinoy music
+
+In the early 1970s, Pinoy music or " Pinoy pop " emerged, often sung in Tagalog - it was a mix of rock, folk and ballads - marking a political use of music similar to early hip hop but transcending class. The music was a " conscious attempt to create a Filipino national and popular culture " and it often reflected social realities and problems. As early as 1973, the Juan De la Cruz Band was performing " Ang Himig Natin " (" Our Music "), which is widely regarded as the first example of Pinoy rock. " Pinoy " gained popular currency in the late 1970s in the Philippines when a surge in patriotism made a hit song of Filipino folk singer Heber Bartolome's " Tayo 'y mga Pinoy " (" We are Pinoys "). This trend was followed by Filipino rapper Francis Magalona's " Mga Kababayan Ko " (" My Countrymen ") in the 1990s and Filipino rock band Bamboo's " Noypi " (" Pinoy " in reversed syllables) in the 2000s. Nowadays, " Pinoy " is used as an adjective to some terms highlighting their relationship to the Philippines or Filipinos. Pinoy rock was soon followed by Pinoy folk and later, Pinoy jazz. Although the music was often used to express opposition to then Philippine president Ferdinand Marcos and his use of martial law and the creating of the Batasang Bayan, many of the songs were more subversive and some just instilled national pride. Perhaps because of the cultural affirming nature and many of the songs seemingly being non-threatening, the Marcos administration ordered radio stations to play at least one - and later, three - Pinoy songs each hour. Pinoy music was greatly employed both by Marcos and political forces who sought to overthrow him.

@@ -1,0 +1,10 @@
+# Is it expected that a reader will skip parts of what you write?
+
+Many readers definitely will skim over parts of your writing. In my experience there are three primary reasons for this.
+Your writing is boring or drags. If a book spends too much time describing seemingly irrelevant details, I think I can predict exactly what is going to happen, or I don't feel invested in the characters in the scene, I'm liable to skim ahead.
+You have succeeded in creating tension, and the reader can't bear it. Different people have different thresholds for this. I know one person who  always  skipped to the last sentence. The good news is that these readers will usually go back and read what they missed unless the ending completely destroys their faith in the story.
+You simply wrote a piece of reasonable length. If your reader is tired but doesn't want to put the book down, they'll start skimming. They might not even realize they're doing it. I definitely remember staying up late reading Harry Potter and realizing I'd turned the page without reading any of the words.
+So, some amount of skimming is normal. Beta readers have a greater tendency to skim. Often beta readers want to give feedback in a timely manner. However, beta readers also are more likely to skim if they don't really like the story but feel they need to give feedback anyway. Regular readers won't skim if they don't like the story, they'll put it down.
+Once you've made sure your writing is engaging, you can help the people who inevitably still skim in a few ways:
+Make sure your writing is reasonably clear. Someone reading very quickly will  usually understand if they need to go back and re-read parts occasionally, but  if they are still confused after the second read they will be frustrated.
+If you need a reader to notice something to understand a plot point, either put it close to where they need to know it or make sure you spend significant time on it. If the key to the murder mystery is that Fred is left-handed, the detective should mention Fred is left-handed in the description of how he solved the case, not rely on the reader remembering a tiny detail 40 pages ago.

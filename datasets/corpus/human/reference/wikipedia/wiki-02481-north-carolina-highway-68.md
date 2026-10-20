@@ -1,0 +1,20 @@
+# North Carolina Highway 68
+
+North Carolina Highway 68 (NC 68) is a north – south state highway in North Carolina. It serves as a connector between Interstate 40 (I-40) and Piedmont Triad International Airport (via Bryan Boulevard). On its routing from Thomasville to Stokesdale, NC 68 passes through urban High Point, the western outskirts of Greensboro, and the town of Oak Ridge. The segment from just north of the I-40 interchange to Pleasant Ridge Road in Guilford County is a limited access freeway.
+
+## Route description
+
+Beginning in the south at Business I-85 / US 29 / US 70, the route travels north out of Thomasville in Davidson County as National Highway, a name which referred to the former routing of US 29 / 70 (later US 29A / 70A) along this segment. Crossing from Davidson County into neighboring Guilford County and the city of High Point, NC 68 is cosigned with English Road. Approximately one mile within the city limits, NC 68 turns left onto Westchester Drive, a boulevard that bypasses High Point's downtown area. Arriving at the Main Street interchange, the city's busiest, NC 68 continues onto Eastchester Drive, another boulevard. After passing Oak Hollow Mall, I-74 / US 311 (High Point East Belt), and the Wendover Avenue interchange, NC 68 and Eastchester Drive continue north into neighboring Greensboro.
+Shortly after entering Greensboro, NC 68 meets Interstate 40 / US 421, and becomes a limited access freeway after a traffic signal at Triad Center Drive. Continuing north as a divided four-lane highway, NC 68 has junctions with W. Market Street (Colfax exit) and Bryan Boulevard, the exit for Piedmont Triad International Airport. The road downgrades to an undivided primary road at the Pleasant Ridge Road junction. From there, the route heads north through the heart of Oak Ridge, North Carolina, passing the Oak Ridge Military Academy at the route's intersection with NC 150. After crossing the Haw River into Stokesdale, NC 68 crosses US 158 and joins NC 65 for a short 1-mile (1.6 km) concurrency, before splitting to the northeast en route to its northern terminus at NC 220 in Rockingham County.
+
+## History
+
+The first NC 68 was an original state highway that traversed from NC 60, in Millers Creek (west of Wilkesboro), northwest through Glendale Springs, Jefferson and Crumpler, before crossing into Virginia. By 1928, NC 68 was rerouted west of Jefferson onto new primary routing west to the Tennessee state line; the old alignment becoming NC 681. In 1929, all of NC 68 was replaced by an extension of NC 16.
+The second and current NC 68 was established in 1930 as a new primary routing from US 70 / US 170 / NC 10, northeast of High Point, to NC 65, in Stokesdale. In 1936, NC 68 was rerouted south through High Point to US 29A / US 70A (Lexington Avenue); its old alignment, along Penny Road, became a secondary road. In 1941, NC 68 was extended north on new primary routing to US 220 (Sylvania Road).
+In 1952, NC 68 was extended north to its current terminus with US 220, replacing part of old US 220. Between 1950-1953, NC 68 was extended south to English Street. In 1956 or 1957, NC 68 was extended to its current southern terminus, sharing a concurrency with US 29A / US 70A, until 1991. In 1982, NC 68 was placed on new freeway connecting I-40 and the Piedmont Triad International Airport, its old alignment along Bull Road (today's Regional Road) a secondary road.
+
+## Future
+
+Future NCDOT plans call for the construction of a new four-lane highway connecting NC 68 and US 220. Starting with a new interchange with I-73 (near Pleasant Ridge Road), improvements will be made along a short section of existing NC 68 before going northwest onto new construction that will bypass east of Oak Ridge and connect with US 220 in Summerfield. This section will become part of I-73. North of Oak Ridge, safety improvements are to be done between East Harrell Road (SR 2111) and Bartonshire Drive (SR 4831). The estimated cost is $ 1.96 million. Property acquisition is expected to start in December 2014.
+
+## Junction list

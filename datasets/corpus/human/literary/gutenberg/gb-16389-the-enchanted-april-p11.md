@@ -1,0 +1,19 @@
+He seemed very happy. Life, she often thought, however much one tabulated was yet a mystery. There were always some people it was impossible to place. Frederick was one of them. He didn’t seem to bear the remotest resemblance to the original Frederick. He didn’t seem to have the least need of any of the things he used to say were so important and beautiful—love, home, complete communion of thoughts, complete immersion in each other’s interests. After those early painful attempts to hold him up to the point from which they had hand in hand so splendidly started, attempts in which she herself had got terribly hurt and the Frederick she supposed she had married was mangled out of recognition, she hung him up finally by her bedside as the chief subject of her prayers, and left him, except for those, entirely to God. She had loved Frederick too deeply to be able now to do anything but pray for him. He had no idea that he never went out of the house without her blessing going with him too, hovering, like a little echo of finished love, round that once dear head. She didn’t dare think of him as he used to be, as he had seemed to her to be in those marvellous first days of their love-making, of their marriage. Her child had died; she had nothing, nobody of her own to lavish herself on. The poor became her children, and God the object of her love. What could be happier than such a life, she sometimes asked herself; but her face, and particularly her eyes, continued sad.
+
+“Perhaps when we’re old . . . perhaps when we are both quite old . . .” she would think wistfully.
+
+Chapter 3
+
+The owner of the mediaeval castle was an Englishman, a Mr. Briggs, who was in London at the moment and wrote that it had beds enough for eight people, exclusive of servants, three sitting-rooms, battlements, dungeons, and electric light. The rent was £60 for the month, the servants’ wages were extra, and he wanted references—he wanted assurances that the second half of his rent would be paid, the first half being paid in advance, and he wanted assurances of respectability from a solicitor, or a doctor, or a clergyman. He was very polite in his letter, explaining that his desire for references was what was usual and should be regarded as a mere formality.
+
+Mrs. Arbuthnot and Mrs. Wilkins had not thought of references, and they had not dreamed a rent could be so high. In their minds had floated sums like three guineas a week; or less, seeing that the place was small and old.
+
+Sixty pounds for a single month.
+
+It staggered them.
+
+Before Mrs. Arbuthnot’s eyes rose up boots: endless vistas, all the stout boots that sixty pounds would buy; and besides the rent there would be the servants’ wages, and the food, and the railway journeys out and home. While as for references, these did indeed seem a stumbling-block; it did seem impossible to give any without making their plan more public than they had intended.
+
+They had both—even Mrs. Arbuthnot, lured for once away from perfect candour by the realisation of the great saving of trouble and criticism an imperfect explanation would produce—they had both thought it would be a good plan to give out, each to her own circle, their circles being luckily distinct, that each was going to stay with a friend who had a house in Italy. It would be true as far as it went—Mrs. Wilkins asserted that it would be quite true, but Mrs. Arbuthnot thought it wouldn’t be quite—and it was the only way, Mrs. Wilkins said, to keep Mellersh even approximately quiet. To spend any of her money just on the mere getting to Italy would cause him indignation; what he would say if he knew she was renting part of a mediaeval castle on her own account Mrs. Wilkins preferred not to think. It would take him days to say it all; and this although it was her very own money, and not a penny of it had ever been his.
+
+“But I expect,” she said, “your husband is just the same. I expect all husbands are alike in the long run.”

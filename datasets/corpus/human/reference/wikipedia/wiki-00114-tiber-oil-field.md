@@ -1,0 +1,16 @@
+# Tiber Oil Field
+
+The Tiber Oil Field is a deepwater offshore oil field located in the Keathley Canyon block 102 of the United States sector of the Gulf of Mexico. The deepwater field (defined as water depth 1,300 to 5,000 feet (400 to 1,520 m),) was discovered in September 2009 and it is operated by BP. Described as a " giant " find, it is estimated to contain 4 to 6 billion barrels (640 × 10 ^ 6 to 950 × 10 ^ 6 m3) of oil in place. Although BP states it is too early to be sure of the size – a " huge " field is usually considered to contain 250 million barrels (40 × 10 ^ 6 m3). It required the drilling of a 10,685 m (35,056 ft) deep well under 1,260 m (4,130 ft) of water, making it one of the deepest wells ever drilled at the time of discovery.
+
+## Description
+
+Tiber comprises multiple Lower Tertiary petroleum reservoirs located in Keathley Canyon block 102 about 250 mi (400 km) southeast of Houston and 300 mi (480 km) south west of New Orleans. Tiber is only the 18th Lower Tertiary well to date, and drilling in these formations is in its infancy. The oil from Tiber is light crude, and early estimates of recoverable reserves are around 20 – 30% recovery, suggesting figures of around 600 to 900 million barrels (95 × 10 ^ 6 to 143 × 10 ^ 6 m3) of reserves. Sources such as Bloomberg suggest caution, warning that the find is technically complex and potentially could take 5 – 6 years to produce oil or be lower yield (5 – 15%) based on " rates talked about " at nearby Kaskida Oil Field, BP's previous giant find (2006) 40 mi (64 km) away. The commercial prospects of the field have not yet been evaluated.
+
+## Discovery
+
+BP acquired the Outer Continental Shelf lease of Keathley Canyon block 102 reference G25782, NOAA station 42872, on October 22, 2003, in Phase 2 of the Western Gulf of Mexico (WGOM / GOM) Sale 187. Lower Tertiary rock formations are some of the oldest and most technically challenging offshore rock formations currently drilled for oil, dating to between 23 and 66 million years ago. The plan of exploration was filed in June 2008.
+Tiber was initially drilled by Transocean's fifth-generation dynamic positioned semi-submersible oil rig, Deepwater Horizon, with exploratory drilling commencing around March 2009, slightly delayed from the planned date of September 2008. Much of the deeper gulf reserves are buried under salt accumulations thousands of feet thick, which present a problem for seismic exploration. BP had previously developed exploration techniques to bypass this difficulty. Oil was located at " multiple levels ". The field was announced on September 2, 2009, and BP shares rose 3.7 percent on the news. With Tiber joining at least ten other successful Lower Tertiary explorations in the area, analysts viewed the announcement as a sign for optimism, and a harbinger of renewed interest in, and production from, the offshore Gulf of Mexico.
+
+## Exploration on hold
+
+Following the April 2010 destruction of the Deepwater Horizon while drilling the Macondo well, and the resulting oil spill, all appraisal activities at 33 wells under exploration in the Gulf of Mexico, including Tiber, were placed on hold. At least two rigs that might otherwise have been used for developing Tiber are also in use on the relief wells for the ruptured well.

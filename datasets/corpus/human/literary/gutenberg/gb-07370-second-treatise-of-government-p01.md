@@ -1,0 +1,27 @@
+SECOND TREATISE OF GOVERNMENT
+
+by JOHN LOCKE
+
+Digitized by Dave Gowan. John Locke’s “Second Treatise of Government” was published in 1690. The complete unabridged text has been republished several times in edited commentaries. This text is recovered entire from the paperback book, “John Locke Second Treatise of Government”, Edited, with an Introduction, By C.B. McPherson, Hackett Publishing Company, Indianapolis and Cambridge, 1980. None of the McPherson edition is included in the Etext below; only the original words contained in the 1690 Locke text is included. The 1690 edition text is free of copyright.
+
+*       *       *       *       *
+
+TWO TREATISES OF GOVERNMENT
+
+BY IOHN LOCKE
+
+SALUS POPULI SUPREMA LEX ESTO
+
+LONDON PRINTED MDCLXXXVIII
+
+REPRINTED, THE SIXTH TIME, BY A. MILLAR, H. WOODFALL, 1. WHISTON AND B. WHITE, 1. RIVINGTON, L. DAVIS AND C. REYMERS, R. BALDWIN, HAWES CLARKE AND COLLINS; W. IOHNSTON, W. OWEN, 1. RICHARDSON, S. CROWDER, T. LONGMAN, B. LAW, C. RIVINGTON, E. DILLY, R. WITHY, C. AND R. WARE, S. BAKER, T. PAYNE, A. SHUCKBURGH, 1. HINXMAN
+
+MDCCLXIII
+
+TWO TREATISES OF GOVERNMENT. IN THE FORMER THE FALSE PRINCIPLES AND FOUNDATION OF SIR ROBERT FILMER AND HIS FOLLOWERS ARE DETECTED AND OVERTHROWN. THE LATTER IS AN ESSAY CONCERNING THE TRUE ORIGINAL EXTENT AND END OF CIVIL GOVERNMENT.
+
+1764 EDITOR’S NOTE The present Edition of this Book has not only been collated with the first three Editions, which were published during the Author’s Life, but also has the Advantage of his last Corrections and Improvements, from a Copy delivered by him to Mr. Peter Coste, communicated to the Editor, and now lodged in Christ College, Cambridge.
+
+PREFACE
+
+Reader, thou hast here the beginning and end of a discourse concerning government; what fate has otherwise disposed of the papers that should have filled up the middle, and were more than all the rest, it is not worth while to tell thee. These, which remain, I hope are sufficient to establish the throne of our great restorer, our present King William; to make good his title, in the consent of the people, which being the only one of all lawful governments, he has more fully and clearly, than any prince in Christendom; and to justify to the world the people of England, whose love of their just and natural rights, with their resolution to preserve them, saved the nation when it was on the very brink of slavery and ruin. If these papers have that evidence, I flatter myself is to be found in them, there will be no great miss of those which are lost, and my reader may be satisfied without them: for I imagine, I shall have neither the time, nor inclination to repeat my pains, and fill up the wanting part of my answer, by tracing Sir Robert again, through all the windings and obscurities, which are to be met with in the several branches of his wonderful system. The king, and body of the nation, have since so thoroughly confuted his Hypothesis, that I suppose no body hereafter will have either the confidence to appear against our common safety, and be again an advocate for slavery; or the weakness to be deceived with contradictions dressed up in a popular stile, and well-turned periods: for if any one will be at the pains, himself, in those parts, which are here untouched, to strip Sir Robert’s discourses of the flourish of doubtful expressions, and endeavour to reduce his words to direct, positive, intelligible propositions, and then compare them one with another, he will quickly be satisfied, there was never so much glib nonsense put together in well-sounding English. If he think it not worth while to examine his works all thro’, let him make an experiment in that part, where he treats of usurpation; and let him try, whether he can, with all his skill, make Sir Robert intelligible, and consistent with himself, or common sense. I should not speak so plainly of a gentleman, long since past answering, had not the pulpit, of late years, publicly owned his doctrine, and made it the current divinity of the times. It is necessary those men, who taking on them to be teachers, have so dangerously misled others, should be openly shewed of what authority this their Patriarch is, whom they have so blindly followed, that so they may either retract what upon so ill grounds they have vented, and cannot be maintained; or else justify those principles which they preached up for gospel; though they had no better an author than an English courtier: for I should not have writ against Sir Robert, or taken the pains to shew his mistakes, inconsistencies, and want of (what he so much boasts of, and pretends wholly to build on) scripture-proofs, were there not men amongst us, who, by crying up his books, and espousing his doctrine, save me from the reproach of writing against a dead adversary. They have been so zealous in this point, that, if I have done him any wrong, I cannot hope they should spare me. I wish, where they have done the truth and the public wrong, they would be as ready to redress it, and allow its just weight to this reflection, viz. that there cannot be done a greater mischief to prince and people, than the propagating wrong notions concerning government; that so at last all times might not have reason to complain of the Drum Ecclesiastic. If any one, concerned really for truth, undertake the confutation of my Hypothesis, I promise him either to recant my mistake, upon fair conviction; or to answer his difficulties. But he must remember two things.

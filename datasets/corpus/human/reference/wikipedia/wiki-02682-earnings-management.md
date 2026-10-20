@@ -1,0 +1,18 @@
+# Earnings management
+
+Earnings management, in accounting, is the act of intentionally influencing the process of financial reporting to obtain some private gain. Earnings management involves the alteration of financial reports to mislead stakeholders about the organization's underlying performance, or to " influence contractual outcomes that depend on reported accounting numbers. "
+Earnings management has a negative effect on earnings quality, and may weaken the credibility of financial reporting. Furthermore, in a 1998 speech Securities and Exchange Commission chairman Arthur Levitt called earnings management " widespread ". Despite its pervasiveness, the complexity of accounting rules can make earnings management difficult for individual investors to detect.
+
+## Occurrence and response by regulators
+
+Earnings management is believed to be widespread. A 1990 report on earnings management situations stated that " short-term earnings are being managed in many, if not all companies ", and in a 1998 speech, Securities and Exchange Commission (SEC) chairman Arthur Levitt called earnings management a " widespread, but too little-challenged custom ". In a 2013 essay, Ray Ball, while opining that accounting research was not reliably documenting earnings management, wrote: " Of course earnings management goes on. [... ] People have been tried and convicted. "
+The SEC has criticized earnings management as having adverse consequences for financial reporting, and for masking " the true consequences of management's decisions ". It has called on standard-setters to make changes to accounting standards to improve financial statement transparency, and has called for increased oversight over the financial reporting process. The SEC has also pressed charges against the management of firms involved in fraudulent earnings management.
+
+## Motivations and methods
+
+Earnings management involves the manipulation of company earnings towards a pre-determined target. This target can be motivated by a preference for more stable earnings, in which case management is said to be carrying out income smoothing. Opportunistic income smoothing can in turn signal lower risk and increase a firm's market value. Other possible motivations for earnings management include the need to maintain the levels of certain accounting ratios due to debt covenants, and the pressure to maintain increasing earnings and to beat analyst targets.
+Earnings management may involve exploiting opportunities to make accounting decisions that change the earnings figure reported on the financial statements. Accounting decisions can in turn affect earnings because they can influence the timing of transactions and the estimates used in financial reporting. For example, a comparatively small change in the estimates for uncollectible accounts can have a significant effect on net income, and a company using last-in, first-out accounting for inventories can increase net income in times of rising prices by delaying purchases to future periods.
+
+## Detecting earnings management
+
+Earnings management may be difficult for individual investors to detect due to the complexity of accounting rules, although accounting researchers have proposed several methods. For example, research has shown that firms with large accruals and weak governance structures are more likely to be engaging in earnings management. More recent research suggested that linguistics-based methods can detect financial manipulation, for example studies in 2012 found that whether a subsequent irregularity or deceptive restatement occurred is related to the linguistics used by top management in earnings conference calls.

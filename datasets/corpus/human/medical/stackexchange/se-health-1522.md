@@ -1,0 +1,9 @@
+# Why didn't smallpox develop resistance to its vaccine?
+
+To answer this question, first it might be useful to talk about how a vaccine actually works: basically, through introducing dead or relatively harmless (attenuated) versions of a virus or bacteria (or more recently, synthetic virus-like particles meant to mimic the outside of a virus), you induce a reaction by your immune system to defend itself.
+As your immune system remembers pathogens it's encountered before based usually on a protein encountered on the outside of the virus or bacteria (an antigen), when it encounters the real deal, it can defend itself.
+Which means the ability for a vaccine to work depends  entirely  on your body's ability to recognize the vaccine you were given and the pathogen you encounter as "the same".
+This, in turn, is a function of how fast the virus evolves. Some viruses, like influenza, have genomes that are very conducive to swapping between strains. This is known as  antigenic shift . Other viruses,  like HIV , have relatively rapid evolution brought on by methods of copying their genomes that are "sloppy" or error prone. This is sometimes called antigenic drift (influenza does this as well).
+Both of these mechanisms make it likely that, over time, the difference between the vaccine and the virus is such that your body will no longer recognize one as the other.
+In contrast to RNA viruses like HIV and influenza, viruses that have their genomes stored as double stranded DNA, like smallpox, have  much lower error rates , which means antigenic drift is less of a problem, and it's not prone to antigenic shift. This means that a vaccine developed against it wasn't made ineffective by the virus evolving such that it didn't provoke an immune response (known as antigenic escape).
+This stability made smallpox an excellent target for a vaccine, and the lack of stability is why developing a long-lasting vaccine against influenza and HIV is so difficult.

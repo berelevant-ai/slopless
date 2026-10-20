@@ -1,0 +1,8 @@
+# Can a successful book series let the bad guy win?
+
+It is perfectly fine for your story to end with the "bad guy" winning. Consider for example George Orwell's  1984 :
+He loved Big Brother
+Complete and utter defeat.  1984  is one of last century's masterpieces.
+@Wetcircuit mentions  tragedy  in a comment, for good reason. Tragedy does not necessarily imply that the "bad guys" win, but it does imply the "good guys" lose, or at best earn a Pyrrhic victory. Consider  Antigone  or  Hamlet , or  For Whom the Bell Tolls . In fact, tragedy is often considered a "higher", more "literary" form.
+Yes, your readers are going to be upset when your characters die or lose. At least, hopefully they will have come to care about your characters, so their death would sadden them. But that is not a bad thing. One feels sorrow when one finishes  For Whom the Bell Tolls , but does one go "what a bad, disappointing book?" Never! On the contrary - one is profoundly touched by that sorrow, one appreciates more the fleeting beauty of life through it. @Amadeus apparently looks for entertainment in the books he reads. Me - I look for art. I look for that which would touch me, and take me out of my comfort zone, and make me think. Formulaic "good guys defeat bad guys, then live happily ever after" bores me out of my mind.
+Now, there is a question of what you're trying to say with your story.  Why  does your "bad guy" win? What does it all imply? If all your story suggests is futility, for example, then your readers might well be disappointed. But if your story does have something else in it, like any of the examples I've mentioned above, or countless others, then go ahead.

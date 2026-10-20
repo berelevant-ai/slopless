@@ -1,0 +1,19 @@
+# How do I stop drinking soda?
+
+Focus and determination
+Sugar is addictive, and while is moderate doses it isn't harmful the effects of high doses of sugar lead to insulin spike and dependence,  with removal or reduction in sugar leading to withdrawal symptoms similar to of opioids .
+Sodas (and most juices) are even worse, as not only do they contain sugar, but caffeine which is also addictive, as well as well  engineered flavour palettes  that neither quench your thirst, make you full or actually satisfy you.
+I hate to talk in absolutes, but soda is absolutely bad for you .
+So enough of the scary stuff, you can quit soda, but there are a few obstacles.
+Soda tastes great  -  No, it really doesn't.  It tastes sweet there is a difference. You think it tastes nice now, but thats because of conditioning. You body is used to a set level of sweetness, and soda sets and meets that need.
+I can switch to diet soda though?  -  No you can't.  Diet soda has far fewer calories, but we are starting to see that artificial sugars keep that desire for sugar at higher than normal levels, so people continue to seek out high sugar foods.
+Ok, so fruit juice then?  -  No, these are just as bad . Sugar is sugar no matter where it comes from. Sodas and fruit juice are a sometimes treat, not what you want to hydrate you.
+But what about withdrawls?  -  They will suck , but its worth it. I am going to guess that at the moment things like fruit don't really seem to have the same kick as Coke, and you'd be right.
+I'm not going to sugar coat this - going onto a low sugar diet is going to suck , because sugar withdrawal is a real thing. For about 2 weeks everything is going to taste bland, because you aren't getting the same response you are used to.
+So how can you beat this addiction?
+Get a journal - go out and buy some some soda, some milk, a little cake and some fresh fruit. Have a little of each, and in the book, write how these taste. Drink some soda, write about it, then have a piece fruit (strawberries are the best for this), write about them - they taste overly tart probably. The milk probably tastes fatty. No need to be overly scientific, but what we want to do is log how the taste of these things makes you feel, and rank their sweetness.
+Spend at least a month sugar free. No soda, no fruit juice, no sugar in your coffee or tea, no overly sweet biscuits, cake, etc. Even try and limit your fruit intake, but eat more fresh vegetables to replace the lost vitamins. For the first few days or even weeks, this will suck. The goal here is to get your body accustomed to having much less sugar, we want to reset what your body thinks of as sweet.
+During that time hydrate with water only. When you feel "thirsty", drink water - I put that in inverted commas because its probably not thirst its your body craving a soda.
+After at least a month, we are going to repeat step 1. Don't look at what you wrote, but try and eat the same things. Does the food taste different? How much sweeter do the fruit and milk seem? If you didn't say quite sweet, go back to step 1. Milk is loaded with sugars.
+"Normal" foods taste sweet again? Great, now we can reintroduce sugar into the diet -  in moderation , but evaluate everything. Do you need sugar in your coffee, or does the milk make it sweet enough? Not everything and not every drink needs to be sweet. Tea, especially green tea, is lovely without sugar and great to drink all day long.
+The key thing to remember, is that removing soda, or limit sugar doesn't mean a world without taste.  By this stage, you should find that small amounts of sugar are enough to satisfy you. But by limiting your sugar, you'll start to notice how pleasurable other flavours such as the tartness in a strawberry, or the subtle bitterness of tea and coffee are just as satisfying as overly sugary sodas.

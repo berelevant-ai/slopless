@@ -1,0 +1,9 @@
+# My 13-year-old son made a foolish and wasteful donation. How can I teach him he was wrong?
+
+Donate the left shoes in the same donation box. Whether or not they are able to get single shoes to those who need them, having a half-pair sit in your son's closet does  nobody  any good. Might as well finish what he started.
+By only giving right shoes, he has potentially wasted the charity's time: many people need only one shoe, but there's a chance this particular charity doesn't serve that need. (Thrift stores, for example, typically sell whole pairs. Whether they would re-donate single shoes depends on the charity.) Take the opportunity to teach him about why shoe donations are needed, who will benefit from those shoes, and so on.
+Buy one pair of shoes from the organization that runs the donation box. If you can't figure that out, or there isn't one near you, any thrift store will do!
+He does need to have shoes, but they don't have to be  fancy  and
+they definitely don't have to be  expensive .
+Optional . Have him work off the cost of future new shoes in chores and odd jobs around the house. You set the rate, he does the work.
+Ultimately, your goal should be to help teach the value of things he owns. A parent goes to work to get a paycheck, which eventually becomes shoes, food, housing, and so on. Having that be discarded (even in a "positive" way like donating to charity) is understandably hurtful as a parent: not only is the physical object being undervalued, but your effort and care in providing for him was not acknowledged and considered. ("That was $600 of shoes. That's a lot of full-time work for me/other-parent, just to pay for shoes. I'm hurt you think that's so worthless.") Having him put in some work to get the next few pairs of nicer shoes is going to help drive that point home.

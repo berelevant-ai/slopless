@@ -1,0 +1,20 @@
+# Belgian ship A4
+
+Patrol vessel A4 (French: Patrouilleur A4) was a small Mersey-class naval trawler operated by Belgium during the Second World War. Originally built for the British Royal Navy, as HMS John Ebbs, the ship is notable for its role in evacuating Belgian gold reserves to England during the Battle of Belgium in May 1940. The success of the operation not only allowed the Belgian government in exile to fund its operations but deprived the German occupiers of an important asset to support their war effort. After the Belgian surrender, the vessel and its crew interned themselves in neutral Spain. In 1946, the vessel and its crew were released and the ship was scrapped soon afterwards.
+
+## Background
+
+Pilote 4 (later renamed Patrouilleur A4) was purchased by the Belgian Corps de Marine in 1920, having previously served in the British Royal Navy during the First World War as HMS John Ebbs (FY3566). The vessel was a Mersey-class naval trawler, built by Cochranes in Selby, North Yorkshire, and was launched on 2 October 1917. Displacing 334 long tons (339 t), the vessel was 148 feet (45 m) long, and had a draught of 4.5 metres (15 ft). Fitted with engines that were capable of producing 600 horsepower (450 kW), it could travel at between 9 and 10 knots. With a complement of 27, the Belgians armed the ship with two Maxim machine guns on the bridge and a 47mm gun at the stern. In 1939, A4 was waiting to be scrapped, but the deteriorating international situation caused by German expansionism led to its reactivation by the Ministry of National Defence.
+Because of Belgium's neutral status in the early stages of the Second World War, A4 had large Belgian tricolours painted on each side of its hull, as well as the word " BELGIË " (Dutch for " Belgium ") in white, to prevent it being mistaken for a belligerent ship. After Belgium was invaded by German forces on 10 May 1940, it was not repainted.
+
+## Evacuation of Belgian gold
+
+During the interwar period, Belgium had created a gold-based currency, called the Belga, which ran parallel to the Belgian franc. The Belga was intended for international trading and meant that the National Bank of Belgium amassed considerable gold reserves, amounting to some 600 tonnes by 1940.
+During the escalating international tensions in the 1930s, the Belgian government began moving large amounts of gold to the United States, Great Britain and Canada, but was forced to retain some gold in the country to maintain the Belga's value.
+By the time the Germans invaded Belgium in May 1940, there were still 40 tonnes of gold left in Belgium, held at the bank's offices in the port of Ostend. The only ship available in the area was A4, commanded by Lieutenant Van Vaerenbergh. On 19 May 1940, the vessel was loaded with the gold and, avoiding Dunkirk which was being bombed by the Luftwaffe, headed for the British coast, accompanied by the ship P16 which was carrying refugees. After being transferred from port to port because of concerns for the safety of the cargo during unloading, the gold was landed at Plymouth on 26 May, two days before the Belgian surrender. The gold was finally deposited at the Bank of England. A4 also carried Hubert Ansiaux, the civil servant charged with overseeing the evacuation of the gold to England and the future Governor of the National Bank.
+The fact that so much Belgian gold had been rescued before the German occupation allowed the Belgian government in exile to finance its own operations, unlike most other exiled governments which had to rely on British financial support.
+
+## Aftermath
+
+Since Belgium had officially surrendered on 28 May and no official Belgian government yet existed in England, the crew of A4 took their ship to Bilbao in neutral Spain to avoid having to return to Belgium and become German prisoners of war. They arrived in Spain on 26 June and spent the rest of the war interned. Control of the ship was returned to Belgium in 1946 and it was scrapped in 1948.
+For his role in the evacuation of the gold, Lieutenant Van Vaerenbergh was awarded the Order of Leopold II.

@@ -1,0 +1,37 @@
+# The Secret (The Office)
+
+" The Secret " is the thirteenth episode of the second season of the American comedy television series The Office, and the show's nineteenth episode overall. It was written by Lee Eisenberg and Gene Stupnitsky and directed by Dennie Gordon. The episode first aired on January 19, 2006 on NBC. The episode guest stars Tom W. Chick as Gil.
+The series depicts the everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company. In this episode, Jim Halpert (John Krasinski) is forced into spending time with Michael Scott (Steve Carell) so that Michael will not reveal Jim's feelings for Pam Beesly (Jenna Fischer). Meanwhile, Oscar Martinez (Oscar Nunez) takes a sick day and Dwight Schrute (Rainn Wilson) investigates whether he is actually sick.
+" The Secret " was written in roughly 26 hours and was the fastest episode written for the series at the time. The title for the episode is purposely vague and refers to Jim's hidden feelings for Pam, Dwight and Angela's relationship, and Oscar's homosexuality. The shots at the Hooters restaurant were filmed relatively early in the day, and a majority of the scenes were improvised by Carell. " The Secret " received largely positive reviews from television critics and was watched by 8.7 million viewers, ranking as the forty-fourth most-watched television episode of the week.
+
+## Plot
+
+Out of fear that Michael Scott (Steve Carell) will tell the others he has feelings for Pam Beesly (Jenna Fischer), Jim Halpert (John Krasinski) allows Michael to believe that they are best friends, which leads to an awkward lunch at Hooters paid for with a corporate credit card. Michael ultimately reveals Jim's secret to everyone, forcing Jim to confess his crush to Pam himself, although he tells her that he got over it three years ago. However, Michael later tells her that he learned of the crush during the " booze cruise " which occurred recently, leading her to suspect that Jim is still infatuated.
+Meanwhile, Dwight Schrute (Rainn Wilson) " investigates " Oscar Martinez's (Oscar Nunez) claimed sick day from work, learning that the co-worker is actually taking time off to ice-skate. Dwight blackmails Oscar, threatening to reveal his unauthorized leave-taking. He then cuts a deal for Oscar to owe him a favor, and watches a movie with Oscar and Oscar's " roommate " Gil (Tom W. Chick) while completely failing to recognize evidence of Oscar's homosexuality.
+
+## Production
+
+
+### Writing
+
+" The Secret " was written by Lee Eisenberg and Gene Stupnitsky. The episode was written in roughly 26 hours and was the fastest episode written for the series, at the time. The idea to make the entry the " spring cleaning episode " was " throw [ n ] in at the last minute " because the writers were " desperate ". The subplot was inspired by a friend of Eisenberg's, who suggested the story after he was forced to undergo spring cleaning at his office.
+The title for the episode is purposely vague. During the commentary, the cast revealed that there are actually three " secrets " in the episode: Jim's hidden feelings for Pam, Dwight and Angela's relationship, and Oscar's homosexuality. Stupkitsky later joked that there are " actually nine secrets in the episode ". The cold opening – wherein Michael tries to tell a joke where the punch line is " What's up dog? " – was inspired by the same prank being pulled on Stupnitsky. The original cold opening for the episode featured Michael playing golf in his office, but it was cut.
+Jenna Fischer felt that Krasinski's performance in the episode was " really great " and called " The Secret " her " favorite John Krasinski episode ". Krasinski said that Creed Bratton's line, " Which one is Pam? " was his favorite moment " in the entire show, ever ". Fischer, in turn, said that her favorite moment was when Jim confesses that he does not have a crush on her, due to the emotion involved. Fischer later admitted that, after the shot was filmed, she cried because it " broke [ her ] heart ".
+
+### Filming
+
+" The Secret " was directed by Dennie Gordon, who would go on to direct the season two episode " Boys and Girls ". Tom W. Chick portrayed Gil. The cast were particularly impressed with his acting; Fischer called him a " great casting " choice. Lindsey Stoddart, who plays one of the Hooters waitresses, was an improv acquaintance of Martin's.
+The shots at the Hooters restaurant were filmed relatively early in the day, and a majority of the scenes were improvised by Carell. In fact, Carell decided to play the penis game – in which two or more people shout the word " penis " at varying levels in an attempt to out do each other – which Krasinski called " the craziest thing I have experienced. " The scene where Pam and Kelly discuss wedding plans was particularly difficult to shoot all in one scene, due to the amount of activity going on. John Krasinski later noted that he was impressed that the director and cameramen were able to successfully get the shot. The sequence featuring Michael and Jim talking in the break room was made of two composition shots, because Krasinski was laughing " the entire " time. Michael buying Stanley a peach ice tea and telling him that he will " hate it " was entirely improvised.
+
+### Deleted scenes
+
+The Season Two DVD contains a number of deleted scenes from this episode. Notable cut scenes include the cut cold opening of Michael playing with his new putting toy, Dwight expounding on his thoughts on dust bunnies, Michael surveying his " worker bees ", Ryan Howard (B.J. Novak) finding an unfinished People Magazine crossword puzzle from 1999 in Michael's office, Michael describing his college fraternity experience, and Michael buying Jim a Hooters T-shirt.
+
+## Cultural references
+
+Michael attributes the 1981 song " Our Lips Are Sealed " to The Bangles, when it was really sung by The Go-Go's. Michael and Jim go to Hooters, a company whose waiting staff are primarily young, attractive waitresses usually referred to simply as " Hooter Girls " whose revealing outfits and sex appeal is played up and is a primary component of the company's image. At the restaurant, Michael makes several breast jokes. Near the end of the episode, Michael makes reference to a nonexistent Cinemax movie called More Secrets of a Call Girl.
+
+## Reception
+
+" The Secret " originally aired on NBC on the January 19, 2006. The episode was watched by 8.7 million viewers. This marked a slight decrease in viewers from a lead-in episode of " My Name is Earl ", but more than a follow-up episode of " ER ". " The Secret " ranked as the forty-fourth most-watched episode for the week ending January 22.
+M. Giant of Television Without Pity awarded the episode an " A ". Brendan Babish of DVD Verdict gave the episode a moderately positive review and awarded the entry a " B ". He wrote that while it was " " a solid episode " it " lacks any of the belly laughs the show frequently elicits. " Michael Sciannamea of AOLTV called the installment " a terrific episode " and wrote that the " Michael Scott [ … ] was at his obnoxious best [ … ] in this episode ". Furthermore, he highly praised the story, noting that " the Jim / Pam scenario has definitely taken a more interesting turn. " During the filming of " The Secret ", the cast of the show discovered that Carell had been nominated for a Golden Globe Award. Fischer later noted that it was " fun that [ ' The Secret ' is ] the episode that airs after his win. "

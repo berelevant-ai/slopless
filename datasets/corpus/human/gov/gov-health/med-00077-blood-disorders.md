@@ -1,0 +1,15 @@
+# Blood Disorders
+
+Your blood is living tissue made up of liquid and solids. The liquid part, called plasma, is made of water, salts and protein. Over half of your blood is plasma. The solid part of your blood contains red blood cells, white blood cells and platelets.
+
+Blood disorders affect one or more parts of the blood and prevent your blood from doing its job. They can be acute or chronic. Many blood disorders are inherited. Other causes include other diseases, side effects of medicines, and a lack of certain nutrients in your diet.
+
+Types of blood disorders include:
+
+- Platelet disorders, excessive clotting, and bleeding problems, which affect how your blood clots
+
+- Anemia, which happens when your blood does not carry enough oxygen to the rest of your body
+
+- Cancers of the blood, such as leukemia and myeloma
+
+- Eosinophilic disorders, which are problems with one type of white blood cell.

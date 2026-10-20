@@ -1,0 +1,5 @@
+# Can 1 in 1,000 black men expect to be killed over the course of their lifetime by the police?
+
+The statement by John Oliver that "1 in 1,000 black men can expect to be killed by the police" is supported by research of the highest calibre. There is  a peer reviewed paper in one of the most reputable journals in the world, The Proceedings of the National Academy of Sciences  that states exactly that.
+We use data on police-involved deaths to estimate how the risk of being killed by police use of force in the United States varies across social groups. We estimate the lifetime and age-specific risks of being killed by police by race and sex. We also provide estimates of the proportion of all deaths accounted for by police use of force. Risk is highest for black men, who (at current levels of risk) face about a 1 in 1,000 chance of being killed by police over the life course. The average lifetime odds of being killed by police are about 1 in 2,000 for men and about 1 in 33,000 for women.
+I am aware that the study was mentioned in the question. That does not change its quality or reliability.

@@ -1,0 +1,10 @@
+# Seventeen year old daughter wants to take an international trip to meet someone she met online
+
+The way I see it there are two possibilities, either the story is true or it is not true. And in both cases your daughter needs your help.
+If you manage to prevent your daughter from going to see this friend and thus she never learns if all she was told was true or not, she is likely going to keep thinking it was all true and blame you that she lost this friend.
+Making your daughter understand that you are there to help her can be difficult. But maybe by being supportive in the right ways it may be possible.
+If the story is true, then the other girl's strict parents are obviously getting in the way of the two girls getting a chance to meet. And having your daughter go alone and the other girl try to sneak out without her parents knowing is clearly not a good idea. And even that could get your daughter into trouble once those strict parents learn what is happening.
+Instead I recommend you communicate directly with those parents to make arrangements for all of you to meet at a convenient time and place. If you do it that way you may be able to succeed in convincing your daughter you are helping deal with those strict parents rather than being another obstacle she has to get out of the way. That she may get to meet this friend a few months quicker by cooperating this way could help convince her that it is a better idea.
+If the entire story is true chances are the other girl's parents are just as concerned as you are which is why they are being so "strict". This also means that they are just as interested in making the first meeting happen in a safe location as you are.
+Should the entire thing turn out to be a scam you can be there once your daughter learns the truth. It may have cost you time and money to get to that point, but if it means your daughter will trust you more, it may have been worth it.
+Just make sure you don't spend more time and money on this than you can afford, and don't agree to meet that family in some dodgy location where you wouldn't have wanted to take your daughter in the first place.

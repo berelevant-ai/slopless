@@ -1,0 +1,66 @@
+[
+  {
+    "rule": "perception-verb-density",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "The rule catches common verbs (see, look, think, feel, indicate, speak) in completely normal uses: legal boilerplate disclaimers ('The content speaks only as of the date indicated', 'should not be relied upon'), literal physical instructions ('focus on the road'), noun forms counted as verbs ('perception of Silicon Valley'), and quoted interview speech. A single a16z disclaimer template fires 20+ times in the 30 samples. No sample in this set is sloppy writing.",
+    "fp_examples": [
+      "[business/a16z] Charts and graphs provided within are for informational purposes solely and should not be relied upon when making any investment decision. Past performance is not indicative of future results. The content speaks only as of the date indicated.",
+      "[business/a16z] Focus on the road not the wall--When they train racecar drivers, one of the first lessons is when you are going around a curve at 200 MPH, do not focus on the wall; focus on the road.",
+      "[business/a16z] Here are 10 ways to damage your fast-growing tech startup -- and hurt the perception of Silicon Valley in the process. None of these are specific to any one company; they're general patterns we've observed across multiple cycles of tech startups."
+    ]
+  },
+  {
+    "rule": "body-action-density",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "The rule flags passages with 3+ movement or body cues in a short span. For fitness, medical, sports, and travel content this is expected and domain-correct: exercise instructions must name muscles and movements, walking/running comparisons must reference physical actions, and medical anatomy descriptions require body-part vocabulary. The non-fitness samples (paulgraham, a16z) are mostly truncated 10-20 word fragments where context is insufficient to judge density meaningfully.",
+    "fp_examples": [
+      "[fitness/stackexchange] When performing squats, deadlifts, bench press, or just about any compound lift that can put stress on the spine it is imperative to protect your spine during exertion.",
+      "[fitness/stackexchange] The bench press also ignores the serratus anterior (muscle group on sides of chest from 1st to 8th ribs,) while the pushup, again, demands it.",
+      "[fitness/stackexchange] I do not feel any pain when standing, sitting, or walking. I do feel it whenever I ascend/descend at all. Getting up from a chair, walking up or down a flight of stairs, and of course when doing squats."
+    ]
+  },
+  {
+    "rule": "low-information-beat-density",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "The rule flags passages dense with 'weak' body/action beats (is, has, helps, creates, looks, comes). Gov/health text (MedlinePlus-style patient education) legitimately uses plain simple-verb sentences for accessibility. RFC protocol definitions use 'is', 'can', 'needs', 'provides' as precise technical copulas. Victorian fiction narrates sequential physical actions in plot. Paul Graham samples are 15-word truncated fragments with no usable context. None represent sloppy writing.",
+    "fp_examples": [
+      "[gov/gov-health] Coronary artery bypass surgery creates a new path for blood to flow to your heart. This surgery is sometimes called a coronary artery bypass graft (CABG) or heart bypass. It's the most common heart surgery in adults.",
+      "[tech/rfcs] A floor control protocol allows an authorized client to manage access to a specific floor and to grant, deny or revoke access of other conference users to that floor.",
+      "[literary/gutenberg] It was pleasant to wake up in Florence, to open the eyes upon a bright bare room, with a floor of red tiles which look clean though they are not; with a painted ceiling whereon pink griffins and blue amorini sport in a forest of yellow violins and bassoons."
+    ]
+  },
+  {
+    "rule": "empty-beat",
+    "fp_of_sampled": 19,
+    "sampled": 19,
+    "verdict": "FP-PRONE",
+    "cause": "The rule fires on any simple action verb ('stood', 'remained', 'followed', 'looked') framed as a 'placeholding beat'. Wikipedia biographical prose uses these verbs as precise factual statements of what a person did. Victorian fiction uses them as literal scene narration. The Keats poem line 'She stood in tears amid the alien corn' is canonical poetry. The food/stackexchange entry narrates a controlled culinary experiment where each action verb is a distinct procedural step. None are padding.",
+    "fp_examples": [
+      "[reference/wikipedia] She stood in tears amid the alien corn;",
+      "[food/stackexchange] I diced 1 avocado and shuffled up the chunks so that no 1 pile had chunks from only 1 part of the fruit. I dropped the chunks into small bowls of the acids, removed the chunks, and allowed to air dry.",
+      "[reference/wikipedia] Cooley remained with the Beaneaters for the following two seasons, hitting .289 in 1903. On June 20, 1904, Cooley hit for the cycle (a single, double, triple, and home run in the same game), becoming the second Beaneater to do so."
+    ]
+  },
+  {
+    "rule": "emotion-telling",
+    "fp_of_sampled": 0,
+    "sampled": 1,
+    "verdict": "PRECISE",
+    "cause": "Only 1 sample. The flagged line ('I was confused. I was showing him') is a direct emotion tell with no showing -- the rule fires correctly. Sample size is too small to generalize precision, but the one flag is accurate.",
+    "fp_examples": []
+  },
+  {
+    "rule": "narrative-cliches",
+    "fp_of_sampled": 0,
+    "sampled": 1,
+    "verdict": "PRECISE",
+    "cause": "Only 1 sample. 'maybe, just maybe' is a recognized rhetorical cliche escalation pattern used in VC blog prose -- the flag is accurate. Sample size is too small to generalize.",
+    "fp_examples": []
+  }
+]

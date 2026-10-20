@@ -1,0 +1,13 @@
+# HMS Pomone (1897)
+
+HMS Pomone was a Pelorus-class protected cruiser built for the Royal Navy in the late 1890s. The ship's boilers were so troublesome that she was decommissioned in 1904 after only a single foreign deployment. She was hulked in 1910 and served as a stationary training ship until 1922 when she was sold for scrap.
+
+## Design and description
+
+These " third-class " cruisers were designed by Sir William White. They were designed for colonial service rather than support of the main fleet. This class served as testbeds for a variety of water-tube boiler designs and those used by Pomone were so unsatisfactory that the ship was decommissioned after only five years of service.
+HMS Pomone displaced 2,135 long tons (2,169 t), with an overall length of 313 feet 6 inches (95.6 m), a beam of 36 feet 6 inches (11.1 m) and a draft of 16 feet (4.9 m). She was powered by two inverted 3-cylinder vertical triple-expansion steam engines, each driving one propeller shaft. Steam was supplied by 16 coal-fired Blechynden water-tube boilers. The engines were intended to develop a maximum of 7,000 indicated horsepower (5,200 kW) under forced draft, but developed a total of 7,340 indicated horsepower (5,470 kW) during her sea trials and gave a maximum speed of 20.8 knots (38.5 km / h; 23.9 mph). The ship had a crew of 224 officers and men.
+Pomone was armed with eight single QF 4-inch (102 mm) guns, eight QF 3-pounder guns, three machine guns, and two 18-inch (457 mm) torpedo tubes. Her protective deck ranged from 1.5 to 2 inches (38 to 51 mm) in thickness and the ship had a conning tower with walls 3 inches (76 mm) thick. The four-inch guns were protected by gun shields 0.25 inches (6.4 mm) thick.
+
+## Service
+
+HMS Pomone was laid down at Sheerness Dockyard on 21 December 1896, launched on 25 November 1897, and completed in May 1899. The ship only served a single commission, with the East Indies Squadron and suffered from continuous boiler problems. In January 1902 she was stationed in the Persian Gulf to protect British interests there, and especially in Kuwait. Commander Harry Jones was appointed in command in late March 1902. In November and December 1903, Pomone and three other cruisers escorted Lord Curzon's tour of the Middle East. Her Blechynden boilers were so unreliable that she was removed from the effective list in October 1904 when Admiral Lord Fisher started disposing of ineffective ships upon becoming First Sea Lord. She was laid-up pending a decision on her final disposal. Pomone was disarmed and hulked on 5 January 1910 as a stationary training ship for engineers at the Royal Naval College, Dartmouth. She was sold for scrap on 25 October 1922 to J. H. Lee of Dover.

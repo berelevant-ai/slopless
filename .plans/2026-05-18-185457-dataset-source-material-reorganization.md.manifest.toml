@@ -1,97 +1,97 @@
 plan = ".plans/2026-05-18-185457-dataset-source-material-reorganization.md"
 
 [[required_dir]]
-path = "developer-helpers/datasets/labeled/academic-slop"
+path = "datasets/labeled/academic-slop"
 
 [[required_dir]]
-path = "developer-helpers/datasets/labeled/academic-nlp"
+path = "datasets/labeled/academic-nlp"
 
 [[required_dir]]
-path = "developer-helpers/datasets/labeled/ai-slop"
+path = "datasets/labeled/ai-slop"
 
 [[required_dir]]
-path = "developer-helpers/datasets/labeled/plain-english"
+path = "datasets/labeled/plain-english"
 
 [[required_dir]]
-path = "developer-helpers/datasets/labeled/prose-linter-lexicons"
+path = "datasets/labeled/prose-linter-lexicons"
 
 [[required_dir]]
-path = "developer-helpers/datasets/labeled/style-guides"
+path = "datasets/labeled/style-guides"
 
 [[required_dir]]
-path = "developer-helpers/datasets/labeled/writing-corpora"
+path = "datasets/labeled/writing-corpora"
 
 [[required_dir]]
-path = "developer-helpers/legacy/source-material/reviewed/implemented"
+path = "datasets/legacy/source-material/reviewed/implemented"
 
 [[required_dir]]
-path = "developer-helpers/legacy/source-material/reviewed/skipped"
+path = "datasets/legacy/source-material/reviewed/skipped"
 
 [[required_dir]]
-path = "developer-helpers/legacy/source-material/reviewed/deferred"
+path = "datasets/legacy/source-material/reviewed/deferred"
 
 [[required_dir]]
-path = "developer-helpers/legacy/source-material/raw-provenance"
+path = "datasets/legacy/source-material/raw-provenance"
 
 [[required_file]]
-path = "developer-helpers/datasets/README.md"
+path = "datasets/README.md"
 
 [[required_file]]
-path = "developer-helpers/datasets/INVENTORY.md"
+path = "datasets/INVENTORY.md"
 
 [[required_file]]
-path = "developer-helpers/legacy/source-material/INVENTORY.md"
+path = "datasets/legacy/source-material/INVENTORY.md"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/ai-slop/llm-excess-vocab/berenslab/excess_words.csv"
+path = "datasets/labeled/ai-slop/llm-excess-vocab/berenslab/excess_words.csv"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/ai-slop/llm-excess-vocab/detect-chatgpt/ges_selected_lemma.csv"
+path = "datasets/labeled/ai-slop/llm-excess-vocab/detect-chatgpt/ges_selected_lemma.csv"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/ai-slop/llm-slop-lists/slop-forensics/slop_list.json"
+path = "datasets/labeled/ai-slop/llm-slop-lists/slop-forensics/slop_list.json"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/academic-slop/tortured-phrases/humanities-social-sciences-zenodo/20241114_social_sciences_fingerprints.csv"
+path = "datasets/labeled/academic-slop/tortured-phrases/humanities-social-sciences-zenodo/20241114_social_sciences_fingerprints.csv"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/academic-slop/tortured-phrases/humanities-social-sciences-zenodo/Tortured_abbreviations.csv"
+path = "datasets/labeled/academic-slop/tortured-phrases/humanities-social-sciences-zenodo/Tortured_abbreviations.csv"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/academic-nlp/subjectivity/mpqa-subjectivity-lexicon.tff"
+path = "datasets/labeled/academic-nlp/subjectivity/mpqa-subjectivity-lexicon.tff"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/academic-nlp/puffery/puffery-clean-peacockterms.txt"
+path = "datasets/labeled/academic-nlp/puffery/puffery-clean-peacockterms.txt"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/academic-nlp/specificity/specificity-twitter-cleaned-data-sample.tsv"
+path = "datasets/labeled/academic-nlp/specificity/specificity-twitter-cleaned-data-sample.tsv"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/academic-nlp/vagueness/vaquum-human-ratings-sample.csv"
+path = "datasets/labeled/academic-nlp/vagueness/vaquum-human-ratings-sample.csv"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/academic-nlp/mwe-idioms/magpie-sample.jsonl"
+path = "datasets/labeled/academic-nlp/mwe-idioms/magpie-sample.jsonl"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/plain-english/extracted/govuk-style-guide-words-to-avoid.md"
+path = "datasets/labeled/plain-english/extracted/govuk-style-guide-words-to-avoid.md"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/prose-linter-lexicons/npm-packages/no-cliches-0.3.6/cliches.js"
+path = "datasets/labeled/prose-linter-lexicons/npm-packages/no-cliches-0.3.6/cliches.js"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/prose-linter-lexicons/proselint/proselint/checks/skunked_terms.py"
+path = "datasets/labeled/prose-linter-lexicons/proselint/proselint/checks/skunked_terms.py"
 
 [[required_file]]
-path = "developer-helpers/datasets/labeled/style-guides/google/rules/vocab.txt"
+path = "datasets/labeled/style-guides/google/rules/vocab.txt"
 
 [[required_file]]
-path = "developer-helpers/legacy/source-material/reviewed/implemented/incorporation-record.md"
+path = "datasets/legacy/source-material/reviewed/implemented/incorporation-record.md"
 
 [[required_file]]
-path = "developer-helpers/legacy/source-material/reviewed/skipped/sunstone-slop-cases.md"
+path = "datasets/legacy/source-material/reviewed/skipped/sunstone-slop-cases.md"
 
 [[required_file]]
-path = "developer-helpers/legacy/source-material/reviewed/deferred/remaining-candidates.md"
+path = "datasets/legacy/source-material/reviewed/deferred/remaining-candidates.md"
 
 [[forbidden_path]]
 path = "datasets/fixtures"
@@ -115,7 +115,7 @@ path = "developer-helpers/legacy/source-material/llm-slop-lists"
 path = "developer-helpers/legacy/source-material/plain-english/extracted"
 
 [[inventory_contains]]
-path = "developer-helpers/datasets/INVENTORY.md"
+path = "datasets/INVENTORY.md"
 values = [
   "Fixture3 fixtures are not datasets",
   "academic-slop",
@@ -128,7 +128,7 @@ values = [
 ]
 
 [[inventory_contains]]
-path = "developer-helpers/legacy/source-material/INVENTORY.md"
+path = "datasets/legacy/source-material/INVENTORY.md"
 values = [
   "implemented",
   "skipped",

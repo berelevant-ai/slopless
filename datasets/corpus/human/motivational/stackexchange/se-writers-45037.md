@@ -1,0 +1,5 @@
+# Is there a need for better software for writers?
+
+IDE-like tools exist for writers.  Scrivener is a powerful general-purpose tool (also with  questions here ).  Madcap Flare, aimed at technical writers, has good support for updating links, defining "snippets" (xinclude blocks, essentially), variables, conditionalization, advanced build options, and more.  Arbortext Epic is another tool in that vein.  There are XML editors like Oxygen and Notepad++ that you are probably already familiar with as a programmer.  That's just a sampling.
+Many writers prefer to just  write  and find that too much tooling gets in the way.  Some of them use tools for  planning  separate from  writing .  Maybe fiction doesn't need to be refactored as often as code (though it does need to be refactored sometimes, and doing that in an editor using search is a pain).  There are a lot of different kinds of writing and writers, and generalizations like "writers don't (or do) X" don't always stand up to scrutiny.  Some do, some don't, some would if they didn't cost so much, and some do  sometimes , depending on the task at hand.
+(Psst.  Some software developers still use emacs or vim...)

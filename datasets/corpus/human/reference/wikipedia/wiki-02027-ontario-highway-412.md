@@ -1,0 +1,20 @@
+# Ontario Highway 412
+
+King's Highway 412, or simply Highway 412, is a tolled controlled-access highway in the Canadian province of Ontario. The route is approximately 10 km (6.2 mi) long, connecting Highway 401 with the eastern extension of Highway 407. The route lies entirely within Whitby in the Regional Municipality of Durham, travelling within one kilometre of the border between Whitby and Ajax and Pickering (Lake Ridge Road).
+During planning, the route was known as the West Durham Link. Its designation as Highway 412, the first new 400-series designation in several decades, was confirmed along with Highway 418 on February 6, 2015. Although initially planned to open in October 2015, the opening was delayed until June 20, 2016. Highway 412 opened alongside the extension of Highway 407 (Highway 407E) from Brock Road in Pickering to Harmony Road in Oshawa. The Ministry of Transportation of Ontario (MTO) announced that the route would be free to travel until 2017 to make up for delays.
+
+## Route description
+
+Highway 412 is a 10-kilometre (6.2 mi) four-lane highway extending from Highway 401 to Highway 407E, just north of Highway 7. The entire length of the route lay between Lakeridge Road and Coronation Road, within Whitby. At the southern end, the route begins at a three-level stack interchange with a realigned Highway 401, from which it proceeds north. It crosses Dundas Street (former Highway 2), where a partial interchange provides access to the north and from the south.
+North of Dundas Street, the route swerves westward onto the alignment of Halls Road and crosses Rossland Road; a future interchange is planned at this location. It continues north to a planned interchange with Taunton Road before diverging east from the Halls Road alignment to travel parallel between it and Coronation Road. The route crosses Highway 7 (Winchester Road), where a partial interchange provides southbound access and a northbound exit; a commuter carpool parking lot lay on the northwest corner. Immediately north of Highway 7, the route ends at a three-level stack interchange with Highway 407E.
+
+## History
+
+The West Durham Link, as it was then known, was first presented to Whitby Council on February 10, 1992. It quickly drew the ire of local residents fearful of noise levels and the environmental effects on Lynde Creek. However, the recession of the mid-1990s resulted in Highway 407 being truncated in Markham temporarily. Slightly revised plans for the links appeared on the June 2007 Technically Recommended Route Report for the extension of Highway 407 to Highway 35 / 115, which was submitted as part of the environmental assessment (EA) for the extension, but had been announced earlier that year on March 7 by the Government of Canada, as part of an investment in Greater Toronto Area infrastructure.
+The EA report was released on August 17, 2009, including detailed plans for the configuration of the interchanges along the new highway. The route will run parallel to and east of Lake Ridge Road, partially overlapping the current route of Halls Road and partially along a new alignment one lot to the east. Both Halls Road and Coronation Road will be re-aligned to accommodate the new highway. It will be six lanes throughout its length, with a concrete Ontario Tall Wall as a median. Highway 412 will cut into Lynde Creek, a small waterway that flows out to Lake Ontario.
+Construction was underway by late 2013. On February 6, 2015, it was announced by the MTO that the West Durham Link would be designated Highway 412. Whitby Town Council has recommended to the province the route be named after Jim Flaherty.
+Although initially expected to be completed on December 18, 2015, delays resulted in the opening being postponed until June 2016. The highway was opened, alongside Highway 407E between Brock Road in Pickering and Harmony Road in Oshawa, on June 20, 2016.
+
+## Exit list
+
+The following are the exits listed in the 407 East Environmental Assessment Report. Official lengths are not yet available. The entire route lies within Whitby in the Regional Municipality of Durham.

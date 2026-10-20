@@ -1,0 +1,18 @@
+# Have Islamic prayers been introduced into Ontario public schools while Christian ones have been removed?
+
+Let's break the original claim down into several constituent components.
+Islamic prayers have now been introduced into Toronto and other public schools in Ontario.
+Toronto Sun ,  CBC News , and  others  have reported that some Ontario schools provide  prayer space  for devout Muslim children. The original claim is therefore  true, although misleading . Muslim prayer has been "introduced" only to the extent that a few schools made space available for prayer.
+the Lord's Prayer was removed
+Zylberberg v. Sudbury Board of Education  challenged the use of the Lord’s Prayer in opening exercises in public schools in Ontario in 1988. The  Ontario Court of Appeals  ruled that the recitation of the Lord's Prayer ultimately "infringes the Charter freedom of conscience and religion," even in cases where the students were allowed to opt out.
+The claim is then again  true, but extremely misleading.  The prayer was "removed" in so far as it could not be used to pressure religious minorities to  conform to the practices of the Christian majority .
+due to being so offensive?! To whom?
+The word "offensive" does not figure prominently in the Canadian ruling in the case of  Zylberberg v. Sudbury Board of Education . The opinion does quote a related American case ( School District of Abington Township, Pennsylvania v. Schempp ), which in 1963 concluded that "a State may require neither public school students nor candidates for an office of public trust to profess beliefs  offensive to religious principles ." 1
+The judge explicitly references a situation where a child of one faith may be pressured to profess a belief in another, as would be the case of Muslim or Jewish children being encouraged to recite Christian prayers.  The claim purports incredulity, where the meaning is plain:  being forced to recite the Lord's Prayer offends those who do not believe in it.  2
+Not to the vast majority of Canadians!
+The court based their decision in Zylberberg v. Sudbury on its interpretation of the  Canadian Charter of Rights and Freedoms  which includes "freedom of conscience and freedom of religion." The charter became a part of the Canadian constitution in 1982 amidst  broad popular support . 3
+Let's reassemble the original statement without the demagoguery:
+Some schools in Toronto and Ottawa now provide space for Muslims to pray. Meanwhile, our courts found that asking students to recite the Lord's Prayer every morning may offend those not of Christian faith (even when the option to opt out exists). Freedom of conscience and religion is protected by the Canadian constitution, which became law with popular support.
+1  Emphasis mine. The case found also that  "Pennsylvania law and Abington's policy, requiring public school students to participate in classroom religious exercises" violated "the religious freedom of students as protected by the First and Fourteenth Amendments."
+2  Furthermore, the same judge expressed concern about someone having to "profess publicly his disbelief as the prerequisite to the exercise of his constitutional right of abstention." This means that when someone opts out of prayer they are in essence forced to publicly declare their disbelief. This could lead to ridicule or persecution, for example.
+3  See Cairns, Alan C.  Charter versus Federalism: The Dilemmas of Constitutional Reform . McGill-Queen’s Press, 1992. "The Constitution Act [...] had the broadest base of popular support for any package for constitutional change in Canadian history" (p. 67).

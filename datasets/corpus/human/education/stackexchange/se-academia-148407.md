@@ -1,0 +1,5 @@
+# Why is it acceptable to cite unpublished works?
+
+You seem to be interpreting citations as a way of proving something by appeal to authority.  That is not what citations are.  A citation is a way of giving appropriate credit to the originator of an idea and pointing the reader to the explanation of that idea.    Not  giving credit to the person who gave you an important original idea is unethical, whether that idea has been published or not.
+Citing a "personal communication" related to a mathematical fact (for instance) does not eliminate the need to prove that fact.  Appropriate usage would be to write something like "the following was communicated to me by X. Y. [personal communication]", followed by (for instance) a theorem statement  and  its proof.
+Note that if something is in a technical report or on arXiv, it is not  unpublished .  People  publish  blog posts, novels, and Youtube videos.    Published  and  peer-reviewed  are completely different things and it's wrong to conflate them.

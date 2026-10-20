@@ -1,0 +1,3 @@
+# Is it Ok to make up places if I want the reader to think it’s set in the real world?
+
+Jane Austen routinely did what it sounds like you want to do: she kept the big places intact (London, Bath), but the estates mentioned in her stories (e.g. Pemberly) are fictional, with only their general location given. The estate was fictional, but culturally it was set in its time, in England, which is all that she needed. Similarly, you can invent a village, and not bother too much with precise distances and where exactly it should be on the map. Pemberly  could have  existed, so could your village. In fact, I believe this was a common way of writing at the time.

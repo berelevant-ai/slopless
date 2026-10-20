@@ -1,0 +1,5 @@
+# My 2-year-old son supervises me after asking me to do something for him, does this suggest lack of trust?
+
+Children learn how to do things by imitating, so much of this is simple curiosity. ("How does the milk go in the bottle? Does it happen the same way every time? WOW.") But toddlers also start to realize they are independent and have some control over their world.
+I wouldn't perceive this as a lack of trust, necessarily. Rather, he is checking that you fulfill his request. I imagine that there are times you refuse unreasonable requests (such as too many sweets or staying up late), and so he's trying to learn what you will and won't do for him.
+Edited to add: I'm also realizing (from other comments and from considering my toddler's behavior) that part of it is imitating  parenting . For example, if you tell him, "Let's go into this room," do you look to see that he's following? He's decided that's an expected part of the process, and therefore watches you! Earlier this afternoon I was filling a sippy cup for my son, and he said "Oh,  good job , mommy," (the same inflection I use towards him!) and patted me on the shoulder when I handed him the cup.

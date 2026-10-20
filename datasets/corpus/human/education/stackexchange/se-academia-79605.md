@@ -1,0 +1,4 @@
+# Lab colleague uses cracked software. Should I report it?
+
+I don't feel that general academic ethics obliges you to report this, unless you have reason to believe that it might be endangering the research of the lab (giving inaccurate results, introducing viruses to lab computers, etc).
+You will have to make your own judgment as to whether you are obliged to report by any of the following: your own personal code of ethics, your institution's policies, your lab's internal policies, your PI's expectations, threat of lawsuit from the software vendor, your local law, or likely consequences from any of the above for failing to report.  You could also consider whether to warn your colleague and give them a chance to remove the cracked software before reporting them.  But all of that is beyond the scope of this site.

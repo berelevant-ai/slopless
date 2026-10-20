@@ -1,0 +1,6 @@
+# Optimal exercises for an abdominal workout
+
+Probably the biggest problem with the age old crunch is that it is not functional.   The crunch flexes the trunk and primarily targets the rectus abdominis, not the transversus abdominis or the obliques.  If you want a flexed trunk when you stand up then doing lots of crunches will give it to you.
+However, if you want an elongated mid section with strong abdominal muscles creating a solid core and support for your abdomen then you want to use postural exercises such as  the plank , progressing the length of time you are able to maintain the hold, which translates into functionally controlling the torso.  Also, by drawing your navel in towards the spine with these types of exercises you target the transversus abdominis which flattens the abdominal wall more than other ab muscles.  The transversus is especially important in lifting.
+If your goal is to have 6 pack abs then you need a low percentage of body fat which is generally achieved  with diet, HIIT and strength training to burn calories.
+Some suggestions of other good abdominal exercises that carry over into improved posture and function are:  The plank, side plank, bird dog ,  progressing to dynamic control with  dying bug ,  knee tucks on a swiss ball   or  swiss ball roll outs .  Using  resistance bands helps to target the obliques .

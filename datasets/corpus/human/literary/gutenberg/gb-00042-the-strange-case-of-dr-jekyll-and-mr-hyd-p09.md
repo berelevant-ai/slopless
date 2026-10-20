@@ -1,0 +1,21 @@
+It was two o’clock when she came to herself and called for the police. The murderer was gone long ago; but there lay his victim in the middle of the lane, incredibly mangled. The stick with which the deed had been done, although it was of some rare and very tough and heavy wood, had broken in the middle under the stress of this insensate cruelty; and one splintered half had rolled in the neighbouring gutter—the other, without doubt, had been carried away by the murderer. A purse and a gold watch were found upon the victim: but no cards or papers, except a sealed and stamped envelope, which he had been probably carrying to the post, and which bore the name and address of Mr. Utterson.
+
+This was brought to the lawyer the next morning, before he was out of bed; and he had no sooner seen it, and been told the circumstances, than he shot out a solemn lip. “I shall say nothing till I have seen the body,” said he; “this may be very serious. Have the kindness to wait while I dress.” And with the same grave countenance he hurried through his breakfast and drove to the police station, whither the body had been carried. As soon as he came into the cell, he nodded.
+
+“Yes,” said he, “I recognise him. I am sorry to say that this is Sir Danvers Carew.”
+
+“Good God, sir,” exclaimed the officer, “is it possible?” And the next moment his eye lighted up with professional ambition. “This will make a deal of noise,” he said. “And perhaps you can help us to the man.” And he briefly narrated what the maid had seen, and showed the broken stick.
+
+Mr. Utterson had already quailed at the name of Hyde; but when the stick was laid before him, he could doubt no longer; broken and battered as it was, he recognised it for one that he had himself presented many years before to Henry Jekyll.
+
+“Is this Mr. Hyde a person of small stature?” he inquired.
+
+“Particularly small and particularly wicked-looking, is what the maid calls him,” said the officer.
+
+Mr. Utterson reflected; and then, raising his head, “If you will come with me in my cab,” he said, “I think I can take you to his house.”
+
+It was by this time about nine in the morning, and the first fog of the season. A great chocolate-coloured pall lowered over heaven, but the wind was continually charging and routing these embattled vapours; so that as the cab crawled from street to street, Mr. Utterson beheld a marvellous number of degrees and hues of twilight; for here it would be dark like the back-end of evening; and there would be a glow of a rich, lurid brown, like the light of some strange conflagration; and here, for a moment, the fog would be quite broken up, and a haggard shaft of daylight would glance in between the swirling wreaths. The dismal quarter of Soho seen under these changing glimpses, with its muddy ways, and slatternly passengers, and its lamps, which had never been extinguished or had been kindled afresh to combat this mournful re-invasion of darkness, seemed, in the lawyer’s eyes, like a district of some city in a nightmare. The thoughts of his mind, besides, were of the gloomiest dye; and when he glanced at the companion of his drive, he was conscious of some touch of that terror of the law and the law’s officers, which may at times assail the most honest.
+
+As the cab drew up before the address indicated, the fog lifted a little and showed him a dingy street, a gin palace, a low French eating-house, a shop for the retail of penny numbers and twopenny salads, many ragged children huddled in the doorways, and many women of different nationalities passing out, key in hand, to have a morning glass; and the next moment the fog settled down again upon that part, as brown as umber, and cut him off from his blackguardly surroundings. This was the home of Henry Jekyll’s favourite; of a man who was heir to a quarter of a million sterling.
+
+An ivory-faced and silvery-haired old woman opened the door. She had an evil face, smoothed by hypocrisy; but her manners were excellent. Yes, she said, this was Mr. Hyde’s, but he was not at home; he had been in that night very late, but had gone away again in less than an hour; there was nothing strange in that; his habits were very irregular, and he was often absent; for instance, it was nearly two months since she had seen him till yesterday.

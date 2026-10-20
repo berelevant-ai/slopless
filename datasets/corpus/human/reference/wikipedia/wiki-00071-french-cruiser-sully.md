@@ -1,0 +1,14 @@
+# French cruiser Sully
+
+The French cruiser Sully was an armored cruiser of the Gloire class that was built for the French Navy in the early 1900s. She was named in honor of Maximilien de Béthune, Duke of Sully, trusted minister of King Henry IV. The ship struck a rock in Hạ Long Bay, French Indochina in 1905, only eight months after she was completed, and was a total loss.
+
+## Design and description
+
+The Gloire-class ships were designed as enlarged and improved versions of the Gueydon-class armored cruisers by Emile Bertin. Her crew numbered 612 officers and men. The ship measured 139.8 meters (458 ft 8 in) overall, with a beam of 20.2 meters (66 ft 3 in). Sully had a draft of 7.7 meters (25 ft 3 in) and displaced 10,014 metric tons (9,856 long tons).
+Sully had three propeller shafts, each powered by one vertical triple-expansion steam engine, which were rated at a total of 20,500 indicated horsepower (15,300 kW). Twenty-four Belleville water-tube boilers provided steam for her engines. She had a designed speed of 21.5 knots (39.8 km / h; 24.7 mph). She carried up to 1,590 long tons (1,620 t) of coal and could steam for 12,000 nautical miles (22,000 km; 14,000 mi) at a speed of 10 knots (19 km / h; 12 mph).
+Sully's main armament consisted of two 194-millimeter (7.6 in) 45-caliber guns were mounted in single gun turrets fore and aft. Her intermediate armament was eight 45-caliber Canon de 164 mm Modèle 1893 guns. Four of these were in single gun turrets on the sides of the ship and the other four were in casemates. For anti-torpedo boat defence she carried six 45-caliber 100-millimeter (3.9 in) guns in casemates and eighteen 47-millimeter (1.9 in) Hotchkiss guns. She was also armed with five 450-millimeter (18 in) torpedo tubes; two of these were submerged and the others were above water.
+The waterline armored belt of the Gloire-class ships was 170 millimeters (6.7 in) thick amidships and tapered to 106 millimeters (4.2 in) towards the bow and stern. Above the main belt was another belt, 127 millimeters (5 in) thick that also tapered to 106 mm at the ends of the ship. The conning tower had armored sides 150 millimeters (5.9 in) thick. The main gun turrets were protected by 173 millimeters (6.8 in) of armor and the intermediate turrets by 120 millimeters (4.7 in). The flat part of the lower armored deck was 45 millimeters (1.8 in), but increased to 64 millimeters (2.5 in) as it sloped down to the sides of the ship.
+
+## Service
+
+Sully was laid down at the Forges et Chantiers de la Méditerranée shipyard in La Seyne on 24 May 1899 and launched on 4 June 1901. The ship was completed in June 1904 and sent to French Indochina for her first commission. On 7 February 1905 Sully struck a rock in Hạ Long Bay; her crew was not injured. Her guns and equipment were salvaged, but the ship broke in two and was abandoned as a total loss.

@@ -1,0 +1,4 @@
+# First author doesn't want a co-author to read the whole paper
+
+There is a golden standard (codified in the  Vancouver Recommendations on authorship ) that every author individually vouches for the correctness of the entire paper. In other words, you can't ask a co-author to only read and write part of the paper, because they need the whole paper to vouch for its correctness. They wouldn't satisfy the criteria to be allowed to be authors. It also suggests a broken collaboration culture if there isn't even enough trust among co-authors to let each other read everything that's happening in a collaboration.
+But beyond that, the idea to not let the co-authors read parts of the paper just doesn't make any sense: A paper is intended to be  published , at which point it becomes available to everyone, not just the co-authors.

@@ -1,0 +1,5 @@
+# Cold sores: why do we get them on the lips?
+
+Fever blisters, or cold sores, are an infection with the type 1 or Type 2 herpes simplex virus (HSV-1, HSV-2). The herpes simplex virus usually enters the body through a break in the skin around or inside the mouth and travels into the nerve for the lip. It's been estimated that 65% of the US population has this infection (I do not have worldwide data).
+This version of the virus is relatively benign, but it never leaves the body. It takes up residence in the roots of nerves; in the case of cold sores, it is a nerve near the cheekbone. In times of stress, fever, illness or even over exposure to sunlight, it can activate and travel down the the nerve and erupt as lesions in and around the lips.
+All information contained here can be referenced through  this government posting , however there is a huge reference pool available. Currently there is no cure or vaccine for HSV-1 or 2 (The HSV-2 is genital herpes, however HSV-1 as has been pointed out, may be introduced through oral contact with genitalia).

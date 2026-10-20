@@ -1,0 +1,19 @@
+“But why does not this Lord Mauleverer do something for the man who saved his life?” said I.
+
+“Why, you see, unless Captain Brown has some reason for it, he never speaks about being poor; and he walked along by his lordship looking as happy and cheerful as a prince; and as they never called attention to their dinner by apologies, and as Miss Brown was better that day, and all seemed bright, I daresay his lordship never knew how much care there was in the background.  He did send game in the winter pretty often, but now he is gone abroad.”
+
+I had often occasion to notice the use that was made of fragments and small opportunities in Cranford; the rose-leaves that were gathered ere they fell to make into a potpourri for someone who had no garden; the little bundles of lavender flowers sent to strew the drawers of some town-dweller, or to burn in the chamber of some invalid.  Things that many would despise, and actions which it seemed scarcely worth while to perform, were all attended to in Cranford.  Miss Jenkyns stuck an apple full of cloves, to be heated and smell pleasantly in Miss Brown’s room; and as she put in each clove she uttered a Johnsonian sentence.  Indeed, she never could think of the Browns without talking Johnson; and, as they were seldom absent from her thoughts just then, I heard many a rolling, three-piled sentence.
+
+Captain Brown called one day to thank Miss Jenkyns for many little kindnesses, which I did not know until then that she had rendered.  He had suddenly become like an old man; his deep bass voice had a quavering in it, his eyes looked dim, and the lines on his face were deep.  He did not—could not—speak cheerfully of his daughter’s state, but he talked with manly, pious resignation, and not much.  Twice over he said, “What Jessie has been to us, God only knows!” and after the second time, he got up hastily, shook hands all round without speaking, and left the room.
+
+That afternoon we perceived little groups in the street, all listening with faces aghast to some tale or other.  Miss Jenkyns wondered what could be the matter for some time before she took the undignified step of sending Jenny out to inquire.
+
+Jenny came back with a white face of terror.  “Oh, ma’am!  Oh, Miss Jenkyns, ma’am!  Captain Brown is killed by them nasty cruel railroads!” and she burst into tears.  She, along with many others, had experienced the poor Captain’s kindness.
+
+“How?—where—where?  Good God!  Jenny, don’t waste time in crying, but tell us something.”  Miss Matty rushed out into the street at once, and collared the man who was telling the tale.
+
+[Picture: She brought the affrighted carter ... into the drawing-room]
+
+“Come in—come to my sister at once, Miss Jenkyns, the rector’s daughter. Oh, man, man! say it is not true,” she cried, as she brought the affrighted carter, sleeking down his hair, into the drawing-room, where he stood with his wet boots on the new carpet, and no one regarded it.
+
+“Please, mum, it is true.  I seed it myself,” and he shuddered at the recollection.  “The Captain was a-reading some new book as he was deep in, a-waiting for the down train; and there was a little lass as wanted to come to its mammy, and gave its sister the slip, and came toddling across the line.  And he looked up sudden, at the sound of the train coming, and seed the child, and he darted on the line and cotched it up, and his foot slipped, and the train came over him in no time.  O Lord, Lord!  Mum, it’s quite true, and they’ve come over to tell his daughters. The child’s safe, though, with only a bang on its shoulder as he threw it to its mammy.  Poor Captain would be glad of that, mum, wouldn’t he?  God bless him!”  The great rough carter puckered up his manly face, and turned away to hide his tears.  I turned to Miss Jenkyns.  She looked very ill, as if she were going to faint, and signed to me to open the window.

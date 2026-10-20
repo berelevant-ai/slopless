@@ -1,0 +1,6 @@
+# How many calories to burn daily to see a change in weight within a month
+
+1 kilo fat equals  7700 kcal  or 1 pound fat equals  3500 kcal , so if you keep your diet the same and start working out more: that's how it takes to lose a kilo.
+So assuming your 2 workouts burn 300 kcal together, you need 7700/300 = 25.6 workouts to lose a kilo. That would mean you would have to train nearly every day of the month to lose it... Clearly, that's not really an optimistic goal to work towards, though on the other hand: it's easier to keep up since you don't have to eat less (but not more!) and the result is probably more sustained than with some crash diet.
+Off course, increasing the intensity or the duration will chance those numbers, but adding  more 'exercise' is a more effective way of increasing the amount of calories burned in a day: cycle to work, take the stairs, take a stroll during lunch, etc.
+Your other option would be to consume 200 kcal's less each day, which would also result in a 1 kilo difference. So doing them both, would probably give you quicker results. Funny enough if you add those two, you get the 500 kcal that @Campbell mentioned, so I guess his estimate seems about right.

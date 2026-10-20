@@ -1,0 +1,3 @@
+# How deep should a squat be?
+
+A proper squat involves the hip joint ending up below the knee joint as seen from the side (see the image above). This is called squatting "below parallel".  Many studies  indicate that "squats, when performed correctly and with appropriate supervision, are not only safe, but may be a significant deterrent to knee injuries". A look at  weight training injury rates  and using common sense when thinking about the  third world squat , how you sit on any low surface (e.g. toilet), and the fact that olympic weightlifters - who routinely squat crazy loads WAY below parallel - can still walk should also be fairly convincing.

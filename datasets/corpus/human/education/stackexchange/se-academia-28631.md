@@ -1,0 +1,10 @@
+# How to deal with an advisor who wants a "friendlier" relationship with me than I do?
+
+I work as an assistant at a university in Australia. I joined the team consisting of my current advisor and his two PhD students. The other group members are men and they have a co-worker-like relationship with him. At first it was good, my advisor was very helpful (I have worked there about ten months and I published two papers with him, both in journals with a high impact factor). But when we started to get to know each other better, it unfortunately changed. I am a young woman and am afraid that he wants me to become romantically involved with him.
+I try to keep this relationship work-only, as it’s the most healthy way, in my opinion, but sometimes my advisor seems to think differently. Here are some of the things that have made me think my advisor wants a romantic relationship with me:
+He comes to my room very often with no research-related reason and wants to talk, talk, talk about everything but work.
+Once, when I was busy working, he came to my room and asked if he could take a photo of me. I felt ashamed and did know what to say and then finally, he took the photo.
+Sometimes I think he is mad at me that I want to keep this relationship work-only, and then does not answer my emails about our research.
+He is very careful with all this, says those things only when we're together. A while ago I heard that his PhD student suggested to him that he spends too much time with me. He laughed and said it's not his business, and that we are working hard on some novel research method.
+My advisor has powerful connections here at the university and I'm afraid no one is able to do anything about it. I’m only interested in having a professional relationship with him. However, I’m afraid that if I don’t agree to be his “very close friend,” he will try to kick me out of the university.
+I can not move to a different city because of some family issues and can not change my advisor since he is the only person at the university who works on the research I’m interested in. What can I do?

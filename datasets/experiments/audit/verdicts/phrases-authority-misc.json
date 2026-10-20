@@ -1,0 +1,121 @@
+[
+  {
+    "rule": "prohibited-words",
+    "fp_of_sampled": 28,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "The banned words ('actually', 'leverage', 'elevate', 'transformative', 'unlock') each have legitimate non-sloppy uses that are common in human prose. 'Actually' is a standard emphatic/contrastive adverb; 'leverage' as a noun ('points of leverage') or transitive verb ('leverage technology') is correct domain usage; 'transformative' as a past participle verb ('has transformed') is not the sloppy adjective sense; 'unlock' in headlines or technical descriptions is literal. The rule fires on the word string regardless of grammatical role or meaning.",
+    "fp_examples": [
+      "[business/a16z] (Prohibited word found: \"actually\". Rewrite without) It turned out that neither was actually right. The new customers didn't save us, but we figured out another way to survive and ultimately succeed.",
+      "[business/a16z] (Prohibited word found: \"leverage\". Rewrite without) In venture capital, we spend lots of time thinking about business models, product market fit, inflection points, network effects, viral coefficients and other points of leverage in a business.",
+      "[business/a16z] (Prohibited word found: \"transformative\". Rewrite w) Jeff has been CEO and remains an active executive chairman of OpenTable, which has transformed the restaurant industry—with 20 thousand restaurants."
+    ]
+  },
+  {
+    "rule": "prohibited-phrases",
+    "fp_of_sampled": 17,
+    "sampled": 30,
+    "verdict": "MIXED",
+    "cause": "Two distinct FP clusters. (1) 'in a world where' is a legitimate historical/technical contrast phrase when not used as a rhetorical opener ('Mainframe-style arrays were designed in a world where a single mainframe...'; Paul Graham literary use; PEP technical contrast). (2) 'In conclusion' / 'in conclusion' is a standard section marker in legal opinions, medical abstracts, academic Q&A, and 19th-century literary prose — not slop in those contexts. 'Now more than ever' fired on a Keats poem. 'It's important to note' is more consistently sloppy but fires on legitimate technical doc signaling (MDN, PEP).",
+    "fp_examples": [
+      "[business/a16z] (Prohibited phrase found: \"in a world where\". Rewri) Current storage systems don't scale because they were designed in the mainframe era. Mainframe-style arrays were designed in a world where a single mainframe provided the compute and a handful of storage arrays hung off the mainframe.",
+      "[reference/wikipedia] (Prohibited phrase found: \"Now more than ever\". Rew) Now more than ever seems it rich to die, 55",
+      "[legal/courtlistener] (Prohibited phrase found: \"In conclusion\". Rewrite ) In conclusion, we hold that if the Act is to be fairly administered, it should be interpreted so as to preclude a finding that child-support payments are income to two households."
+    ]
+  },
+  {
+    "rule": "skunked-terms",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "Every sample flags 'hopefully' or 'deceptively'. 'Hopefully' as a sentence adverb ('Hopefully, you find them useful') is standard modern English — the prescriptivist objection to it is itself contested and obsolete. 'Deceptively simple' and 'deceptively casual' are legitimate literary devices meaning 'misleadingly simple/casual' — that is the correct meaning, not skunked usage. 'Acting deceptively' in a legal sample is the literal adverb. None of the 30 samples represent genuinely ambiguous or corrupted usage.",
+    "fp_examples": [
+      "[business/a16z] (Skunked term found: \"deceptively\". Replace it with) Figure 2: The Omada Prevent program is a deceptively simple combination of a friendly social weight loss competition with a wireless scale.",
+      "[business/paulgraham] (Skunked term found: \"hopefully\". Replace it with a) bullshit detectors, and you are (hopefully) an amateur bullshitter.",
+      "[legal/stackexchange] (Skunked term found: \"deceptively\". Replace it with) The thief is acting deceptively and thereby gaining control over property."
+    ]
+  },
+  {
+    "rule": "humble-bragger",
+    "fp_of_sampled": 28,
+    "sampled": 28,
+    "verdict": "FP-PRONE",
+    "cause": "'In my experience' is a standard epistemic qualifier in Q&A, essay, and professional writing — it signals personal-evidence grounding, not bragging. 'As someone who has' is a standard credential citation ('As someone who has moved from the US...' / 'as someone who has raised children'). The rule conflates legitimate first-person grounding with braggadocio. None of the 28 samples actually boasts about an impressive credential — they are all ordinary experiential anchors.",
+    "fp_examples": [
+      "[business/paulgraham] (Humble-bragging phrase found: \"In my experience\". ) And in my experience, the harder the subject, the more informally",
+      "[food/stackexchange] (Humble-bragging phrase found: \"As someone who has\") As someone who has moved from the US to another country I can relate and have some general advice.",
+      "[education/stackexchange] (Humble-bragging phrase found: \"In my experience\". ) In my experience, outright theft of work by serious academic mathematicians is extremely rare."
+    ]
+  },
+  {
+    "rule": "jargon-faker",
+    "fp_of_sampled": 3,
+    "sampled": 3,
+    "verdict": "FP-PRONE",
+    "cause": "'Optimizing for X' is established technical vocabulary in product management, engineering, and growth discourse — not fake jargon. 'Optimizing for growth' and 'optimizing for depth' are precise, analytical uses with concrete referents. The phrase only becomes jargon-faker when used without a specific referent or as an empty intensifier, which none of the sampled lines do.",
+    "fp_examples": [
+      "[business/paulgraham] (Fake jargon phrase found: \"optimizing for\". Replac) Most fairly good ideas are adjacent to even better ones. The fascinating thing about optimizing for growth is that it can",
+      "[business/paulgraham] (Fake jargon phrase found: \"optimizing for\". Replac) need; you get narrowness as a byproduct of optimizing for depth",
+      "[business/a16z] (Fake jargon phrase found: \"optimizing for\". Replac) A year after we funded their Series A, having spent that time heads-down building product and piloting with customers..."
+    ]
+  },
+  {
+    "rule": "uncited-authority",
+    "fp_of_sampled": 4,
+    "sampled": 8,
+    "verdict": "MIXED",
+    "cause": "True positives exist where medical or health claims cite vague authority ('Studies suggest inflammation...', 'studies show that blue light...', 'evidence suggests' for parenting claims). However, 'it is considered' in PEPs and RFCs is legitimate standards-document hedging language expressing community consensus, not fake authority. 'Many believe that... prosperity will not last' is a conversational framing sentence in a finance Q&A, not a pseudoscientific claim. The rule is well-targeted for health/medical content but over-fires on standards documents and opinion framing.",
+    "fp_examples": [
+      "[tech/peps] (Uncited authority found: it is considered. Name th) It is considered desirable that users be strongly encouraged to use the",
+      "[tech/rfcs] (Uncited authority found: it is considered. Name th) It is considered one of the more difficult problems in IP telephony. The selection of an egress gateway for a telephony call...",
+      "[finance/stackexchange] (Uncited authority found: many believe. Name the so) Many believe that the current prosperity that we enjoy will not last indefinitely and they want to hedge against changes in the status quo."
+    ]
+  },
+  {
+    "rule": "response-wrapper",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "'Certainly' as an adverb of degree or sentence adverb is standard human English ('Certainly they will learn more', 'Certainly schools should teach', 'Is it much harder... Certainly, but...'). It is not a chat-scaffold word — it appears throughout Paul Graham essays and journalistic prose as a normal emphatic or concessive adverb. The chat-scaffold pattern it is supposed to catch ('Certainly! Here is...') requires an exclamation mark and an imperative follow-on, not a bare adverb in flowing prose.",
+    "fp_examples": [
+      "[business/paulgraham] (Response wrapper found: chat-scaffold (certainly).) going to work at a big company. Certainly they'll learn more. They",
+      "[business/paulgraham] (Response wrapper found: chat-scaffold (certainly).) Certainly schools should teach students how to",
+      "[finance/stackexchange] (Response wrapper found: chat-scaffold (certainly).) Is it much harder for a poor person? Certainly, but hopefully these numbers illustrate that it is better to save and invest even a small amount."
+    ]
+  },
+  {
+    "rule": "semantic-thinness",
+    "fp_of_sampled": 25,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "Two sub-patterns both over-fire. 'empty-scene-transition' catches normal narrative connectives ('It turned out that', 'As is usually the case', 'Then I began to study', 'As the day broke') that are the standard tissue of narrative and analytical prose — not thin filler but structural progression markers. 'deictic-summary' catches rhetorical devices like 'One may still argue' and 'That was the point of' which are legitimate analytical moves. The rule conflates genuine empty transitions with all uses of these constructions regardless of whether they carry meaning.",
+    "fp_examples": [
+      "[business/a16z] (Semantic thinness (empty-scene-transition): Catch ) As the day broke we made our return",
+      "[business/paulgraham] (Semantic thinness (deictic-summary): Catch deictic) One may still argue that a bubble is coming. A bubble will almost certainly come eventually—that is the nature of human psychology and of markets.",
+      "[business/paulgraham] (Semantic thinness (empty-scene-transition): Catch ) discovered what appeared to be a large tumor. After further testing,"
+    ]
+  },
+  {
+    "rule": "llm-vocabulary-density",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "The rule fires on technical standards documents (RFCs, PEPs) and API reference docs (MDN) where 'value' is a mandatory domain term — protocol fields, Python language semantics, CSS property values. These texts legitimately repeat 'value' and 'context' dozens of times per page because those are the technical concepts being specified. The density signal conflates domain-required repetition with LLM stock abstraction. The rule needs domain exclusions or a word list that does not include 'value' for technical content.",
+    "fp_examples": [
+      "[tech/rfcs] (LLM vocabulary density: 4 stock abstraction words ) Byte 0 Data type... BOOLEAN 7 zero-bits + 1-bit value (TRUE=1/FALSE=0) INDEX 2...",
+      "[tech/peps] (LLM vocabulary density: 4 stock abstraction words ) >>> value = 4 * 20",
+      "[tech/mdn] (LLM vocabulary density: 4 stock abstraction words ) A position defines an x/y coordinate, to place an item relative to the edges of an element's box... the first value represents the horizontal position and the second value the vertical position."
+    ]
+  },
+  {
+    "rule": "academic-boilerplate",
+    "fp_of_sampled": 2,
+    "sampled": 2,
+    "verdict": "FP-PRONE",
+    "cause": "Both samples are FP. 'Fertile ground' is a common English metaphor used appropriately in analytical writing about culture. 'Pivotal role' is standard encyclopedia register for Wikipedia historical articles — it is the expected vocabulary, not boilerplate padding. With only 2 samples and 2 FPs the signal is essentially noise, but both flagged phrases have clear legitimate uses in context.",
+    "fp_examples": [
+      "[business/a16z] (Academic boilerplate found: \"fertile ground\". Repl) Prison is fertile ground for understanding culture, because people who end up in prison generally come from broken cultures.",
+      "[reference/wikipedia] (Academic boilerplate found: \"pivotal role\". Replac) Shepseskare's reign may have been cut short by his unexpected death or his claim to the throne could have been thwarted by Nyuserre Ini..."
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+# Nebraska Highway 88
+
+Nebraska Highway 88 (N-88) is a highway in northwestern Nebraska. It has a western terminus at Wyoming Highway 151 (WYO 151) at the Wyoming – Nebraska state line. The road travels eastward to N-71, where it turns south. N-88 continues east to south of Bridgeport. The road turns north, ends at an intersection with U.S. Highway 385 (US 385) and N-92 in Bridgeport. The route was designated in 1937, before the official state highway system was created. It was extended to the state line in 1986.
+
+## Route description
+
+N-88 starts at the Nebraska – Wyoming state line in Banner County, where WYO 151 ends, and travels northeast. The road quickly bends east after less than one mile (1.6 km), and continues in a straight line. For the next twenty miles (32 km), N-88 intersects minor streets, through rural farmland. The route turns south at N-71, and becomes concurrent. Four miles (6.4 km) later, N-88 turns east, ending the concurrency with N-71. The route continues to travel through farmland for sixteen miles (26 km), where it enters Morrill County. The road crosses over Pumpkin Creek four times, and enters the unincorporated community of Redington. Two rock formations, Courthouse and Jail Rocks, become visible from the road. N-88 turns north toward Bridgeport soon after. The road crosses over Pumpkin Creek for the fifth time, and enters into Bridgeport five miles (8.0 km) later. The road intersects a railroad owned by BNSF Railway. N-88 turns northeast soon after, and ends at the intersection of US 385 and N-92. In 2012, Nebraska Department of Roads (NDOR) calculated as many as 2,410 vehicles traveling on the N-71 / N-88 concurrency, and as few as 315 vehicles traveling east of the Banner – Morrill county line. This is expressed in terms of annual average daily traffic (AADT), a measure of traffic volume for any average day of the year. Only the N-71 / N-88 concurrency is part of the National Highway System (NHS), a network of highways identified as being most important for the economy, mobility and defense of the nation.
+
+## History
+
+N-88 was unofficially designated around 1937, connecting from N-29, to N-86 and N-19 in Bridgeport. The route remained relatively the same as the state highway system was officially designated. Before 1955, Nebraska did not have an adequate legal instrument to define the state highway system. By 1960, N-19 was renumbered to US 385, and US 26 was rerouted north near Bridgeport. The old alignment became part of N-92. Two years later, N-29 was renumbered to N-71. Between 1981-82, a road appeared on the official state map, extending from WYO 151 to N-71. That road became part of N-88 by 1986. No significant changes have been made since.
+
+## Major intersections

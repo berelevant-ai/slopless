@@ -1,0 +1,38 @@
+# Gender transition as a starting faculty member: a terrible idea?
+
+How infeasible is transitioning as an early-career faculty member?
+I transitioned as a postdoc back in 2013, so I did it.  Whether or not it's a terrible idea  depends on many factors, and just plain luck .  I don't have experience in industry, so I can't comment much on that.  But I'm sure it's the same situation: it depends on many factors, and plain luck.
+Travel
+One thing that would likely be distinct between academia and industry is traveling: conference travel is the norm in academia.  This has two important consequences:
+Surgeries for transgender medical procedures are not performed in most places, e.g., in Canada, there's only  one clinic  that performs  GRS  (in Montreal).  Different surgeons have different styles, and have different levels of experience.  To be able to choose one's desired surgeon (and get the most suitable results), one needs to be able to travel, which I expect is far easier in academia than industry.
+For surgery, I organized to attend conferences nearby, which helped ease the travel costs.  My hormones are prescription-free in Turkey, so I stock up when I'm there.
+Traveling is more difficult for transgender people, including security inspections, applying for visas, carrying medicines, facial hair growing during long flights, dilation, shared accommodation, and so on.  In fact, some countries have anti-debauchery laws.
+I highlight some other important factors below.
+1. Transitioning is personalized.
+Everyone's transition is different.  For many people, transitioning is essential: they choose between transitioning or killing themselves.  Other people find it suitable to not transition full time.  Many people are between these two extremes.
+Whether or not what you have in mind is "a terrible idea" depends on you: (a) how critical it is to transition, (b) your financial situation, and (c) your family situation.  And many other factors: religion, friends, disability, race, local laws, and so on.
+2. At no point is transitioning convenient.
+I doubt there will ever be a point where you feel  now is the optimum time to transition .  At the very least, a huge amount of time gets eaten up with updating one's documents and medical care, along with simply learning how to dress and behave.
+One point:  If you wait, are you going to publish under your dead name?
+My experience is that students mostly don't get involved in the transition.  If you stay focused on the material, so will they.  I would say family is probably of greater concern than students.  However, there's inevitably some complications: your reputation (good or bad) rubs off onto your students, and writing letters of recommendation can be a bit awkward.
+Some people take medical steps (such as sperm donations, hormones, facial hair removal, etc.) prior to socially transitioning.  However, WPATH standards of care for  various medical treatments have  real life tests  , which is relevant if you're intending to seek medical treatment down the line.  You need to establish yourself as your gender to get medical referrals.
+When I've asked older transgender people, they only ever say they regret not transitioning earlier.  In your case, if you end up losing your hair, it could have significant and irreversible negative impact on your quality of life; you may want to consider starting medical treatment soon.
+3. Transitioning takes place with incomplete information.
+Whatever decision you make, you're going to make it without all the information.  You won't know how people will react in advance.   You'll make a decision without knowing which path is best.   And, regardless of what you do, you'll probably spend a fair chunk of your life thinking you made the wrong decision.
+4. Don't overvalue being passable.
+Being passable helps everyday activities proceed smoothly.  However, my impression is that if someone is making an effortful attempt to present and behave as a certain gender, one's gender will almost uniformly be respected (despite not being passable).
+Setting a goal of being passable is risky; it is often not achievable, and it can be devastating to accept that oneself is not passable.
+I'm mostly passable nowadays, but people still find out about my past through my prior publications.  Generally even if they find out, they act like they don't know.
+Hormones make a big difference to passability (but they take time).  There's also surgery, such as  facial feminization surgery , which is a major improvement, but it's expensive and a referral may be required, depending on the surgeon(s).
+5. Unpredictability.
+Transitioning takes time, and over time people's values change.  There's also a roller-coaster of emotions, a "second puberty" when one undergoes hormone therapy, and often dieting becomes important (which may mean a lack of energy to be productive).
+Particularly difficult for me was belonging to a "boys club" (mathematics/computer science) while I was desperate to establish and assert my femininity.
+People are unpredictable.   Just because someone has liberal values, and so on, doesn't mean they're going to be accepting.  Likewise, just because someone is conservative, doesn't mean they're going to be hostile.  The people you work with make a difference to your quality of life in general, and it's impossible to predict.
+Task difficulty is unpredictable.   There's going to be things that turn out far easier than expected, and things that should be simple which are complicated.
+Mental health is unpredictable.   It's difficult to maintain mental health as a transgender person.  It's possible to end up with depression and/or anxiety, eating disorders, and engaging in self-harm or suicide attempts.  (Every transgender person I've asked has a clear plan on how they would kill themselves.)  And even without being transgender, academia can be a rough ride mentally.
+Relationships are unpredictable.   In addition to transitioning having unpredictable effects on your current relationships, hormones (if you choose to go down that road) are known to affect people's sexuality, which may impact if and who you marry, which may impact your career options.  Moreover, if you end up marrying a man, by default a husband's career is socially considered more important than the wife's, and it's considered the wife's responsibility to look after children (perhaps through adoption).
+6. Other points.
+Don't get lost in your transition.   It's common for transgender people to end up only thinking about their transition, and that becomes who they are as a person.  My impression is that this causes others to perceive you as "a transgender" rather than "a woman".  I feel it's best to develop non-transgender-related interests.
+Work harder than expected.   Job security is a big deal for mental health, but on top of this, medical treatment is expensive.  So I encourage you to make sure your colleagues have instances in their mind where you have gone beyond what's expected.
+Have ambitions beyond merely surviving.   It is hard to have goals when you feel like you're merely surviving on a day to day basis, but it's good for one's mental health.  Don't just constantly perceive yourself as a victim, but do something with your life.
+Expect hiccups.   While deeply hurtful, you're inevitably going to be misgendered and deadnamed, have people comment on your appearance, have people scheming behind your back, and so on.  When this happens, it makes me paranoid ( Is this what people truly think of me? ).  Somehow, you need to continue to be productive despite this.  As you become more established, these hiccups become less frequent.

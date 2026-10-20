@@ -1,0 +1,6 @@
+# Stranger sent me $12,100
+
+This is certainly some variation of the   overpayment scam
+There are many variants, but they usually start with a fraudulent payment of some type into your account. They payment may be a bad check, a forged money order, or transfer from some third party's hacked bank account.
+Keep in mind that it can sometimes take the bank several weeks to figure out that a deposit was fraudulent! . Banks will often "clear" a deposit in just a few days, but this is done as a courtesy. It doesn't keep the bank from reversing the transaction later on if they find out it was bogus. In the end it is your responsibility to make sure the payment is legitimate, not the bank's. In the meantime, you pay their accomplice the agreed amount. Typically they will tell you to pay their accomplice via some method that can't be reversed: cash, gift cards, or money wires.
+The bank will eventually figure out that the deposit was bogus and undo the deposit into your account.  You will be responsible for making up whatever portion of it you've already spent , including whatever portion you paid out to their accomplice! I've said "accomplice", but this scam is often run by a single person running both sides of the transaction.

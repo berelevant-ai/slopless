@@ -1,0 +1,11 @@
+# How should I deal with becoming discouraged as a graduate student?
+
+The fact is research is hard. It appears to consist primarily of staring at a problem for days and days and days without getting anywhere. Sometimes, rarely, I do figure something out and that feels wonderful, but the overwhelming majority of my time appears to be spent banging my head against a mostly figurative wall.
+Yes.  This.  And it wouldn't be so damn tempting if those bricks didn't wiggle just a little bit every time I slammed my forehead into them.  Sometimes I think my eyes must be playing tricks on me, what with the repeated cranial trauma and all.  But then I remember how good it felt the last time my head actually went  through  the wall, and so I keep plugging away.
+I've found it extremely useful to have two or three walls to bang my head against at any given time.  Surprisingly, sometimes banging my head against one wall actually makes one of the other walls weaker.  But most walls prove considerably stronger than my head; so it's helpful to have options, so I don't feel so bad about walking away with some scalp intact.
+If you're very lucky, one good smack on the bricks will actually bring the  ceiling  crashing around your ears.  That takes a long time to clean up, but sometimes the debris will knock down other walls for you.  And then you have a whole new set of even bigger walls to bang your head against!
+I find myself thinking along the lines of "Oh, if only someone actually smart were thinking about this problem they would have solved it in moments" and so on.
+Do not listen to the  Impostor Syndrome .   Everyone "actually smart" is hearing  exactly  the same voice in their head saying "Oh, if only someone who actually knew how to hit walls with their forehead hit this wall, it would come down like a stack of cards." when in fact the wall really is made of brick.
+Does it get better with time and experience?
+Yes.  Eventually, you'll move from hoping that you'll be able to knock down a wall with your head someday, to being surprised at how often the walls you hit with your head actually fall, to finally believing that you really can knock down walls with your head sometimes.  (For me, the second transition happened some time after tenure.)
+But your head will still hurt.

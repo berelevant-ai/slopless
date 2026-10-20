@@ -1,0 +1,19 @@
+“And yet you rescued me from a strange and perilous situation; you have benevolently restored me to life.”
+
+Soon after this he inquired if I thought that the breaking up of the ice had destroyed the other sledge. I replied that I could not answer with any degree of certainty, for the ice had not broken until near midnight, and the traveller might have arrived at a place of safety before that time; but of this I could not judge.
+
+From this time a new spirit of life animated the decaying frame of the stranger. He manifested the greatest eagerness to be upon deck to watch for the sledge which had before appeared; but I have persuaded him to remain in the cabin, for he is far too weak to sustain the rawness of the atmosphere. I have promised that someone should watch for him and give him instant notice if any new object should appear in sight.
+
+Such is my journal of what relates to this strange occurrence up to the present day. The stranger has gradually improved in health but is very silent and appears uneasy when anyone except myself enters his cabin. Yet his manners are so conciliating and gentle that the sailors are all interested in him, although they have had very little communication with him. For my own part, I begin to love him as a brother, and his constant and deep grief fills me with sympathy and compassion. He must have been a noble creature in his better days, being even now in wreck so attractive and amiable.
+
+I said in one of my letters, my dear Margaret, that I should find no friend on the wide ocean; yet I have found a man who, before his spirit had been broken by misery, I should have been happy to have possessed as the brother of my heart.
+
+I shall continue my journal concerning the stranger at intervals, should I have any fresh incidents to record.
+
+August 13th, 17—.
+
+My affection for my guest increases every day. He excites at once my admiration and my pity to an astonishing degree. How can I see so noble a creature destroyed by misery without feeling the most poignant grief? He is so gentle, yet so wise; his mind is so cultivated, and when he speaks, although his words are culled with the choicest art, yet they flow with rapidity and unparalleled eloquence.
+
+He is now much recovered from his illness and is continually on the deck, apparently watching for the sledge that preceded his own. Yet, although unhappy, he is not so utterly occupied by his own misery but that he interests himself deeply in the projects of others. He has frequently conversed with me on mine, which I have communicated to him without disguise. He entered attentively into all my arguments in favour of my eventual success and into every minute detail of the measures I had taken to secure it. I was easily led by the sympathy which he evinced to use the language of my heart, to give utterance to the burning ardour of my soul and to say, with all the fervour that warmed me, how gladly I would sacrifice my fortune, my existence, my every hope, to the furtherance of my enterprise. One man’s life or death were but a small price to pay for the acquirement of the knowledge which I sought, for the dominion I should acquire and transmit over the elemental foes of our race. As I spoke, a dark gloom spread over my listener’s countenance. At first I perceived that he tried to suppress his emotion; he placed his hands before his eyes, and my voice quivered and failed me as I beheld tears trickle fast from between his fingers; a groan burst from his heaving breast. I paused; at length he spoke, in broken accents: “Unhappy man! Do you share my madness? Have you drunk also of the intoxicating draught? Hear me; let me reveal my tale, and you will dash the cup from your lips!”
+
+Such words, you may imagine, strongly excited my curiosity; but the paroxysm of grief that had seized the stranger overcame his weakened powers, and many hours of repose and tranquil conversation were necessary to restore his composure.

@@ -1,0 +1,22 @@
+# Interstate 81 in West Virginia
+
+In the U.S. state of West Virginia, Interstate 81 (I-81) crosses the Eastern Panhandle region, linking Virginia to Maryland. The Interstate Highway, completed in 1966, spans 26.00 miles (41.84 km) through Berkeley County, paralleling U.S. Route 11 (US 11) for its entire length. I-81 enters the state near Ridgeway and travels northeast, bypassing the city of Martinsburg, and leaves the state at the Potomac River, which serves as the state line. The first solicitations for the construction of I-81 were published in 1959, with the first 6 miles (9.7 km) of freeway being opened in 1963, and the full length was completed by 1966. On average between 45 and 60 thousand vehicles use the freeway though the panhandle per day.
+
+## Route description
+
+I-81 enters the Eastern Panhandle of West Virginia just west of Ridgeway, paralleling US 11 (also known as the Valley Pike). The highway passes through some light farmland before entering a wooded area, north of Ridgeway. A welcome center for northbound travelers is passed before the woodlands give way to a light urban setting. As the highway approaches the community of Inwood, a diamond interchange with West Virginia Route 51 (WV 51) provides access to the community, as well as Gerrardstown to the west of the freeway, and Charles Town to the east. A small business park is passed by before I-81 intersects County Route 32, providing access to Arden, the Eastern WV Regional Airport and Tablers Station. The freeway turns more towards the north as it approaches Martinsburg, intersecting WV 45, County Route 15 and Dry Run Road while in the city limits. I-81 bypasses downtown, running along the western border of town while US 11 continues through the town.
+Just northeast of Martinsburg the freeway passes over a CSX Transportation rail line while a cloverleaf interchange with WV 9 provides access back to Martinsburg and to Hedgesville. As the freeway curves back east, it intersects WV 901 between Hainesville and Falling Waters. WV 901 is a short connector route back to US 11. North of Falling Waters and south of Marlowe, US 11 intersects the freeway and continues north while I-81 turns east towards the Maryland state line at the Potomac River. Just south of the river is a welcome center intended for southbound travelers from Maryland.
+Out of the six states that I-81 passes through, the segment in West Virginia is the second shortest, only longer than the Maryland segment. Every year the West Virginia Department of Transportation (WVDOT) conducts a series of surveys on its highways in the state to measure traffic volume. This is expressed in terms of average annual daily traffic (AADT), which is a measure of traffic volume for any average day of the year. In 2009, WVDOT calculated that as few as 45,000 vehicles traveled along the highway at the Virginia state line, and as many as 62,500 vehicles used the freeway between County Routes 15 and 13 in Martinsburg. As part of the Interstate Highway System, the entire route is listed on the National Highway System, a system of roads that are important to the nation's economy, defense, and mobility.
+
+## History
+
+I-81 roughly parallels the Great Indian Warpath, an old Indian trail which connected New York to the Carolina Piedmont via Virginia and West Virginia. A series of roads linking Virginia to Maryland through Martinsburg were present on maps as early as 1873.
+Bids for construction of I-81 by WVDOT were published in 1959, with a budget of about $ 10.6 million to complete the highway. Completion of I-81 in Virginia up to the West Virginia state line was completed by the Virginia Department of Transportation in November 1965. The first 6 miles (9.7 km) of the highway through West Virginia were completed between 1959 and 1963. The construction of the remaining 20 miles (32 km) of Interstate Highway through the Eastern Panhandle was completed by 1966. Since then, there have been no major realignments, and the highway continues on its original path.
+
+## Future
+
+In 2014, WVDOT officials announced in conjunction with the Maryland State Highway Administration that the bridges over the Potomac River would be rehabilitated to accommodate three lanes of highway in each direction. The widening of the highway is proposed to head south along I-81 to exit 23 for US 11. Construction is expected to start in the summer of 2016.
+
+## Exit list
+
+The entire route is in Berkeley County.

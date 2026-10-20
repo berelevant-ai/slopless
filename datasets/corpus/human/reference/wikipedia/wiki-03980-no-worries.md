@@ -1,0 +1,23 @@
+# No worries
+
+No worries is an expression seen in Australian, British and New Zealand English meaning " do not worry about that ", " that's all right ", or " sure thing ". It is similar to the American English no problem. The phrase is widely used in Australian speech and represents a feeling of friendliness, good humour, optimism and " mateship " in Australian culture. The phrase has been referred to as the national motto of Australia.
+The phrase has influenced a similar phrase used in the Tok Pisin language in Papua New Guinea. No worries utilization migrated to New Zealand after origination in Australia. Its usage became more common in British English after increased usage in Australian soap operas that aired on television in the United Kingdom. Linguistics experts are uncertain how the phrase became utilized in American English; theories include use by Steve Irwin on the television program The Crocodile Hunter and usage by the United States media during the 2000 Sydney Olympics. It has also gained usage in Canadian English.
+
+## Definition
+
+" No worries " is an Australian English expression, meaning " do not worry about that ", or " that's all right ". It can also mean " sure thing " and " you're welcome ". Other colloquial Australian terms which mean the same thing include " she'll be right ". The expression has been compared to the American English equivalent " no problem ". In their book Australian Language & Culture: No Worries!, authors Vanessa Battersby, Paul Smitz and Barry Blake note: " No worries is a popular Australian response akin to ' no problems ', ' that's OK ' or ' sure thing '. "
+
+## Cultural origins
+
+Early documentation dates the phrase back to 1966. According to author of When Cultures Collide: Leading Across Cultures, Richard D. Lewis, the phrase is a form of expression of the relaxed attitude in Australian culture. Anna Wierzbicka comments that the expression illustrates important parts of Australian culture, including: " amiability, friendliness, an expectation of shared attitudes (a proneness to easy ' mateship '), jocular toughness, good humour, and, above all, casual optimism ". She concludes that along with " good on you ", the expressions reflect the " national character " and " prevailing ethos " of Australia. Though initially utilized in Australia, the phrase migrated to New Zealand as well.
+
+## Usage
+
+Wierzbicka writes in her book Cross-cultural Pragmatics that the expression " permeates Australian speech ", " serves a wide range of illocutionary forces " and displays a " casual optimism ". In her 1992 book Semantics, Culture, and Cognition, Wierzbicka classifies the phrase as " among the most characteristic Australian expressions ", along with " good on you ".
+The term can also be used in the context of an apology. The phrase has been used widely in British English since the late 1980s, a development partly attributed to the success of Australian soap operas such as Neighbours in the United Kingdom.
+The phrase " no wucking forries " has the same meaning in Australia; as a spoonerism of " no fucking worries ", and is contracted to the phrases " no wuckers " and " no wucks ".
+
+## Influence
+
+" No worries " was referred to as " the national motto " of Australia in 1978, and in their 2006 work, Diving the World, Beth and Shaun Tierney call " no worries, mate " the national motto of the country. Writing in The New York Times Book Review, Annette Kobak calls the expression a " ritual incantation " which has " particular charm ". The phrase " no waris " in the Papua New Guinea language Tok Pisin is derived from the Australian English term.
+According to The Sunday Mail a 2004 newspaper report notes that " no worries " has begun to be used in American English. Writing in a 2004 article for The Advertiser, Samela Harris comments: " The Americans have no idea of the etymology of ' no worries '. So, while they may cheerily adopt our ' no worries ' mantra, ' no worries ' will never catch on as an attitude. " According to Tom Dalzell, author of two books on slang usage in the United States, linguistics experts are not certain how the expression became popular in that country. Usage of the term by Steve Irwin on The Crocodile Hunter, as well as attempts by members of the American press to imitate the expression during the 2000 Sydney Olympics, have been put forth as theories explaining the pervasiveness of the expression in the United States. Linguistics professor Kate Burridge writes in her 2004 book Weeds In the Garden Of Words that expressions including " no worries ", " absolutely ", and " bottom line " have become less prevalent in favor of newer sayings. The phrase has had some usage in Canadian English.

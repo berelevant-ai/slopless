@@ -1,0 +1,5 @@
+# I was allowed to enter the airport terminal by showing a boarding pass for a future flight. Should I be concerned about "security"?
+
+You didn't skip any security controls. Your luggage was checked and you went through a metal scanner. Finally, you were not allowed on board without a proper ticket. The rest is just to prevent people from accompanying their friends and family to the gate. Merely being in the terminal is not a security flaw per se, since pretty much anyone can buy a ticket and enter the secure area.
+Speaking of which, I've tried the same "trick" (QR code for a different flight) at Prague Airport recently and it didn't work for the terminal access scan. However the Duty Free was happy to sell me anything without a proper check, so it was in theory possible to buy alcohol for non-EU prices.
+A hacker was even able to  use a spoofed QR code  to enter the Turkish Airlines business-class lounge, so the level of checks must be different across different airports and terminal areas.

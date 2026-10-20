@@ -1,0 +1,23 @@
+“Hold!” cried one of the men, “look there! One of the rascal’s hands has been severed at the wrist. Ah, here it is!” and he picked up from beside the body a huge withered hand, and held it out to us.
+
+“See,” cried the other, laughing, “see how he glares at you, as if he would spring at your throat to make you give him back his hand.”
+
+“Go,” said the cure, “leave the dead in peace, and close the coffin. We will make poor Pierre’s grave elsewhere.”
+
+The next day all was finished, and I returned to Paris, after having left fifty francs with the old cure for masses to be said for the repose of the soul of him whose sepulchre we had troubled.
+
+THE VENGEANCE OF A TREE.
+
+BY ELEANOR F. LEWIS.
+
+Through the windows of Jim Daly’s saloon, in the little town of C----, the setting sun streamed in yellow patches, lighting up the glasses scattered on the tables and the faces of several men who were gathered near the bar. Farmers mostly they were, with a sprinkling of shopkeepers, while prominent among them was the village editor, and all were discussing a startling piece of news that had spread through the town and its surroundings. The tidings that Walter Stedman, a laborer on Albert Kelsey’s ranch, had assaulted and murdered his employer’s daughter, had reached them, and had spread universal horror among the people.
+
+A farmer declared that he had seen the deed committed as he walked through a neighboring lane, and, having always been noted for his cowardice, instead of running to the girl’s aid, had hailed a party of miners who were returning from their mid-day meal through a field near by. When they reached the spot, however, where Stedman (as they supposed) had done his black deed, only the girl lay there, in the stillness of death. Her murderer had taken the opportunity to fly. The party had searched the woods of the Kelsey estate, and just as they were nearing the house itself the appearance of Walter Stedman, walking in a strangely unsteady manner toward it, made them quicken their pace.
+
+He was soon in custody, although he had protested his innocence of the crime. He said that he had just seen the body himself on his way to the station, and that when they had found him he was going to the house for help. But they had laughed at his story and had flung him into the tiny, stifling calaboose of the town.
+
+What were their proofs? Walter Stedman, a young fellow of about twenty-six, had come from the city to their quiet town, just when times were at their hardest, in search of work. The most of the men living in the town were honest fellows, doing their work faithfully, when they could get it, and when they had socially asked Stedman to have a drink with them, he had refused in rather a scornful manner. “That infernal city chap,” he was called, and their hate and envy increased in strength when Albert Kelsey had employed him in preference to any of themselves. As time went on, the story of Stedman’s admiration for Margaret Kelsey had gone afloat, with the added information that his employer’s daughter had repulsed him, saying that she would not marry a common laborer. So Stedman, when this news reached his employer’s ears, was discharged, and this, then, was his revenge! For them, these proofs were sufficient to pronounce him guilty.
+
+Yet that afternoon, as Stedman, crouched on the floor of the calaboose, grew hopeless in the knowledge that no one would believe his story, and that his undeserved punishment would be swift and sure, a tramp, boarding a freight car several miles from the town, sped away from the spot where his crime had been committed, and knew that forever its shadow would follow him.
+
+From the tiny window of his prison Walter Stedman could see the red glow of the heavens that betokened the setting of the sun. So the red sun of his life was soon to set, a life that had been innocent of all crime, and that now was to be ended for a deed that he had never committed. Most prominent of all the visions that swept through his mind was that of Margaret Kelsey, lying as he had first found her, fresh from the hands of her murderer. But there was another of a more tender nature. How long he and Margaret had tried to keep their secret, until Walter could be promoted to a higher position, so that he could ask for her hand with no fear of the father’s antagonism! Then came the remembrance of an afternoon meeting between the two in the woods of the Kelsey estate--how, just as they were parting, Walter had heard footsteps near them, and, glancing sharply around, saw an evil, scowling, murderous face peering through the brush. He had started toward it, but the owner of the countenance had taken himself hurriedly off.

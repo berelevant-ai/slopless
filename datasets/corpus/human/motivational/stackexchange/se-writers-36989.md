@@ -1,0 +1,8 @@
+# Does everything have to be accurate?
+
+Generally, @MichaelKjörling and @HenryTaylor are right. Let me, however, look at the issue from a slightly different perspective.
+If you explain something, it has to make sense. If you don't explain, it can be accepted as a black box.
+Consider, for example, Asimov's  Robot  series. The robots have a "positronic brain", and obey the Three Laws of Robotics. The Three Laws are logical - there's plenty of stories to be had through playing with them. What on earth is a "positronic brain"? A black box, a catchword. If Asimov had attempted to explain how this brain actually, technologically, works, scientists and engineers would have been all over him, explaining the impossibility of it. But he doesn't explain, so he can get on with the story.
+Similarly, Ursula Le Guin in  The Left Hand of Darkness  doesn't explain in detail why Gethen is cold: no mention of axial tilts, distance from the sun, whatever. Gethen is cold, let's get on with the story, and explore the effects of it being cold along the way.
+Now contrast with Larry Niven's  Ringworld ; Niven went to great lengths to explain how the Ringworld is stable. In come the nitpickers to prove that no, it's not.
+If I spot a mistake in something I'm reading, it breaks my immersion, shatters my suspension of disbelief. "Mistake" can be an internal inconsistency, or something that is overtly wrong. But if you don't give me enough information to find that something is wrong, everything's alright. I mean,  I don't know exactly how things I use in RL work either , do I? The common USB flash drive, for example, is, to me, a black box: I store data on it, but I have no idea how, physically, the data is written, read, stored. Nor do I care.

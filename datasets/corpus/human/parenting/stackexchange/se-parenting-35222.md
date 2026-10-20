@@ -1,0 +1,6 @@
+# How to prevent my child from being indoctrinated with Christianity?
+
+As a 54 year old German I just had "Religion" as a normal subject in our public elementary school. I guess my parents could technically have let me skip these one or two hours per week, but nobody did that back then, and there was no non-religious alternative like "Ethics" or such. Of course the lessons were about  Christian  religion. I remember them fondly, we had a friendly teacher who liked children. We listend to stories about Jesus and painted pictures about them.
+The important thing is, it did not indoctrinate me. I think the parents are much more important for mental formation than kindergarten, even if the kids seem to spend more waking hours there.
+I remember vividly though how I developed a firm stance of atheism during my teen years; at school we were a group of friends who debated all kinds of deep questions, sometimes in the Religion or Ethics lessons and sometimes in private.  Those  were formative years.
+So my advice, apparently the same as others' here, would be to support your child's curiosity, openmindedness and appreciation of meaningful debate, simply by example and by answering all questions as sincerely and deep as you can.

@@ -1,0 +1,4 @@
+# When traveling to a country with a different currency, how should you take your money?
+
+Recently my wife and I traveled to Italy and before we left we got about 85% of our money in travelers checks and the other 15% we carried on in cash. When we arrived there, no one would take our travelers checks and many places did not accept credit cards. Eventually, we found some currency exchange places that would take the travelers checks and give us Euro's, but at a 7-15% fee, which was not really a very fun surprise.
+While I was under the impression that it is safer to use travelers checks, it seems that they were not really accepted (the usual explanation being fraud). So the question is, is it best to just exchange your currency at home and carry all of it with you when you travel or are there other alternatives to carrying cash that are safer and cost effective?

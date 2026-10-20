@@ -1,0 +1,11 @@
+# The protagonist can't defeat the antagonist without the antagonist being stupid
+
+Actually, most stories that have a specific antagonist depend on the antagonist being stronger than the protagonist, so logically the antagonist should win most of the time -- unless they do something stupid.
+We love to root for underdogs. After all, most of us are underdogs. If the hero was clearly going to win, it would not be much of a story. So what is an author to do?
+Have the hero win anyway
+Have the hero lose heroically
+Have the hero lose realistically
+You will find all of these in literature but in popular works the first is obviously the most common. So the question becomes, under what circumstances is it satisfying to the audience that the hero wins anyway, even though the antagonist should clearly win.
+The key to this question is virtue. Why do we want the hero to win? Because they are more virtuous. Why do we want the antagonist to lose? Because they lack virtue. So the difference between winning and losing must itself rest on virtue. This can take many forms:
+The antagonist loses, despite their advantages, because their signature vice leads them to make a mistake. Not a random mistake, but a mistake that they make for the very reason we hated them in the first place. Because of their cruelty, a henchman rebels against them; because of their treachery, an ally abandons them; because of their arrogance, they leave their flank unguarded; because of their idleness they do not discover the secret that will be their undoing. All of these will seem dreadfully contrived, of course, unless they are seen as the direct result of their faults and the past actions they have taken because of those faults.
+The hero wins because of their signature virtue: because of their courage, they keep fighting when all seems lost; because of their compassion, a minor character they have been good to shows them a secret passage; because of their loyalty, a friend sacrifices himself for them; because of their learning, they discover a secret unknown to the antagonist. Again, all of these will seem dreadfully contrived unless they are the direct result of their established virtues and the past actions they have taken because of those virtues.

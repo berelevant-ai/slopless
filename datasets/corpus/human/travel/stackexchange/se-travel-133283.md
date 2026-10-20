@@ -1,0 +1,4 @@
+# Can we carry rice to Japan?
+
+To bring rice into Japan, you'll have to  declare it on your customs form  (rice is specifically listed as a "restricted article"), and it will be subject to inspection to check for pests. There is  a special duty free allowance for rice  that will ensure it is not taxed. However,  a phytosanitary certificate is required  for them to allow it into the country, which could prove to be a lot of trouble. You can read  more about the regulations  and the certificate requirement. You may wish to contact the Plant Inspection Station in advance for further details, as some rice imports appear to be prohibited altogether for quarantine purposes.
+However, rice is an abundant staple food in Japan. Especially if you are willing to accept different varieties of rice from those common in your home, it seems like it would be much easier to purchase it locally than to carry it around with you, given the size and weight of that much rice.

@@ -1,0 +1,6 @@
+# Can taking my 1-week-old on a 6-7 hours journey in the car lead to medical complications?
+
+Zero distance  in someone’s lap. In an accident baby will become a missile and escape the grip...
+If the baby is in a properly installed, rated car seat then fine, otherwise how would many parents get babies out of hospital?
+Make the baby comfortable, have sufficient food,  stop for breaks as necessary . Natural is easiest... otherwise you need warm water somehow - thermos flask or means of heating or a bottle heater which keeps the bottles warm...
+We found that once fed, babies would sleep if you drove smoothly, but if you are rough they wake up, and they can sleep for 2, 3 or 4 hours solid in the car - done it often.

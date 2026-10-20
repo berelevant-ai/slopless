@@ -1,0 +1,5 @@
+# How should a parent advise a child who wants to become a musician even though he is devoid of talent?
+
+As rumtscho commented, how do you know the child has no talent? And how do you know they won't end up selling a million records? Take the Sex Pistols as an example - when they started they couldn't play or sing and sounded awful, but were incredibly enthusiastic and became stars. Everyone starts off sounding like they are strangling a cat, or destroying the instrument!
+At this stage I'd suggest encouraging your child is more important than putting them down. You could suggest some structured tuition, as this can set them on the right track to learning properly. After a while, get a professional music tutor's opinion on their capability.
+Or alternatively, get them an electric instrument that can be played through headphones. Either way, be supportive, positive and enthusiastic for them if it is something they love doing - they may change their mind later anyway, and decide they hate it. But that's much better being self driven.

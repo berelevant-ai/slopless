@@ -1,0 +1,8 @@
+# 0. Alternatively, the combinatorial interpretation of b0 is the number of empty tuples of elements from a set with b elements; there is exactly one empty tuple, even if b
+
+0. Equivalently, the set-theoretic interpretation of 00 is the number of functions from the empty set to the empty set; there is exactly one such function, the empty function.
+
+### Polynomials and power series
+
+Likewise, when working with polynomials, it is often necessary to assign <formula> the value 1. A polynomial is an expression of the form <formula> where x is an indeterminate, and the coefficients <formula> are real numbers (or, more generally, elements of some ring). The set of all real polynomials in x is denoted by <formula>. Polynomials are added termwise, and multiplied by the applying the usual rules for exponents in the indeterminate x (see Cauchy product). With these algebraic rules for manipulation, polynomials form a polynomial ring. The polynomial <formula> is the identity element of the polynomial ring, meaning that it is the (unique) element such that the product of <formula> with any polynomial <formula> is just <formula>. Polynomials can be evaluated by specializing the indeterminate x to be a real number. More precisely, for any given real number <formula> there is a unique unital ring homomorphism <formula> such that <formula>. This is called the evaluation homomorphism. Because it is a unital homomorphism, we have <formula> That is, <formula> for all specializations of x to a real number (including zero).
+This perspective is significant for many polynomial identities appearing in combinatorics. For example, the binomial theorem <formula> is not valid for x

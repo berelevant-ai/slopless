@@ -1,0 +1,8 @@
+# Did Amazon pay $0 in US taxes in 2018?
+
+When Bernie Sanders claimed Amazon didn't pay  federal  income taxes in 2017,  Snopes  wrote a helpful article:
+In regards to U.S. federal income taxes, the claim that Amazon paid none in 2017 is almost certainly factual. While Amazon’s tax filings are not public, their  SEC filing  for the year 2017 illustrates that the company used the tax code expertly (and legally) to their advantage, so well that the company anticipated a $137 million tax refund from the federal government (numbers are in millions of dollars):
+Amazon did pay taxes to individual U.S. states ($211 million) and to international jurisdictions ($724 million), but their federal income tax burden was (less than) zero. The filings indicate that two factors provided the lion share of Amazon’s reduced federal tax liability: $220 million worth of tax credits, and $917 million in tax-deductible executive pay derived from the sale of stocks
+( Politifact  also wrote about this, coming to the same conclusion: it's likely true.)
+The form they're referring to is the  10-K . Looking at the  2018 filing , it has the same sections, so the same explanation applies. Under "Current Taxes: U.S. Federal" for 2018 it says "$(129)" (parenthesis  indicate a negative number  and this number is still in millions). In other words, much like last year, they expected to get a federal net tax  refund , which is why the line in the graph is negative for those years.
+Again, this is referring to  federal  income taxes. There's no evidence that they didn't pay other types of taxes; as you can see in the charts, the columns for "U.S. State" and "International" taxes all show positive numbers.

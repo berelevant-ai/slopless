@@ -1,0 +1,4 @@
+# When traveling to a country with a different currency, how should you take your money?
+
+Before you leave, call your bank. You'll want to alert them that you'll be using your credit or debit cards overseas, so as not to trigger fraud alerts. Then ask them if there is a network in your destination that involves lower fees. For example, my bank gave me names of specific banks in England, Italy, and Germany and told me that if I used ATMs at those banks, I would not be charged extra service fees. Very reassuring.
+If you are going to a remote place such as a small island, check online guidebooks to see if ATMs being out of money is a common occurrence. If it is, bringing $100 or so in an external currency they accept (US dollars in Fiji, for example, Chilean pesos on Easter Island) that you can ideally get while you're in that other country en route) is a good backup. Don't try to get their currency in advance as a just-in-case, because you probably won't use it.

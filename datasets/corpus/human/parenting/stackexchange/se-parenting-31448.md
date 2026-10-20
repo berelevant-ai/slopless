@@ -1,0 +1,5 @@
+# Son was sent home from sleepover for behavior
+
+I need some help with turning a very disappointing event into a learning opportunity. Last night my 9-year-old son was to spend the night with my neighbor's son, and the neighbor's girlfriend's kids. During the course of the evening my doorbell rings. It's my son, crying, and his friend's dad. He said he was sending him home due to being rude, disrespectful, and defiant to authority. But he didn't provide me specific examples of what my son actually did. I asked my son what happened and he said when the dad was trying to talk to them about something he couldn't stop laughing because of something another child said.
+Needless to say, my son was really sad. I want to use this as a learning opportunity. I told him he has to listen and be respectful to adults. Today, my son went over to play and the dad wouldn't let him. The worst part is that they live direct across the street from me so I have got to find a solution or else this will be a long term problem.
+Any advice would be greatly appreciated. Thanks.

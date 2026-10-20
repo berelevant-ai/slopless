@@ -1,0 +1,17 @@
+# The Boat Race 1887
+
+The 44th Boat Race took place on 26 March 1887. The Boat Race is an annual side-by-side rowing race between crews from the Universities of Oxford and Cambridge along the River Thames. Umpired by Robert Lewis-Lloyd, Cambridge won the race by two and a half lengths after one of the Oxford crew snapping his oar in half. The winning time for the race was 20 minutes 52 seconds, and Cambridge's victory took the overall record to 23 – 20 in Oxford's favour.
+
+## Background
+
+The Boat Race is a side-by-side rowing competition between the University of Oxford (sometimes referred to as the " Dark Blues ") and the University of Cambridge (sometimes referred to as the " Light Blues "). First held in 1829, the race takes place on the 4.2 miles (6.8 km) Championship Course on the River Thames in southwest London. The rivalry is a major point of honour between the two universities; it is followed throughout the United Kingdom and as of 2014, broadcast worldwide.Cambridge went into the race as reigning champions having won the previous year's race by two-thirds of a length, while Oxford held the overall lead, with 23 victories to Cambridge's 19 (excluding the " dead heat " of 1877).
+The coaches for Cambridge were Donaldson, Charles William Moore (who represented Cambridge in the 1881, 1882, 1883 and 1884 races) and Herbert Edward Rhodes (who rowed in the 1873, 1874, 1875 and 1876 races). Oxford's coaches were Tom Cottingham Edwards-Moss (who rowed for the Dark Blues four times between the 1875 and the 1878 races), R. S. Kindersley (who rowed three times for Oxford between 1880 and 1882) and A. R. Paterson (four-time Blue for Oxford between 1881 and 1884).
+The umpire for the race was Robert Lewis-Lloyd (who had rowed for Cambridge four times between 1856 and 1859).
+
+## Crews
+
+The Oxford crew weighed an average of 12 st 3.5 lb (77.6 kg), 4.25 pounds (1.9 kg) more than their opponents. Oxford initially had just two Blues available to them in the Oxford University Boat Club president F. O. Wethered and Hector McLean, yet the latter's brother Douglas was persuaded to return for his fifth Boat Race appearance, three weeks before the race following his return from India. Five of Cambridge's crew had Boat Race experience, including the only non-British participant, Australian Steve Fairbairn in his fourth race.
+
+## Race
+
+The weather for the race was good, as was the tide, but a strong breeze made for some rough water. Cambridge won the toss and elected to start from the Surrey station, handing the Middlesex side of the river to Oxford. Making the better start of the two crews, Cambridge were a length ahead by Walden's Wharf and had extended that by another half-length by the time they passed the Crab Tree pub. Oxford came back into contention and by the time the crews shot Hammersmith Bridge there was " little or no daylight between the boats. " The other side of the bridge the crews hit rough water and as Cambridge had the advantage of shelter on their side of the river, they pulled away quickly to be three lengths clear by Chiswick. As the bend of the river began to favour the Dark Blues, they drew up once again and were almost level by Barnes Bridge when their number seven Douglas McLean broke his oar in two, effectively ending his participation in the race. Cambridge pulled away again and won by two-and-a-half lengths in a time of 20 minutes 52 seconds. It was their second consecutive victory and their fastest time since the 1876 race. The win took the overall record to 23 – 20 in Oxford's favour.

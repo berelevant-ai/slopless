@@ -1,0 +1,33 @@
+# Matt Striebel
+
+Matt Striebel (born January 12, 1979) is a high school lacrosse coach at Northampton High School and a professional lacrosse midfielder who plays professional field lacrosse in the Major League Lacrosse (MLL) for the New York Lizards and formerly played professional box lacrosse in the National Lacrosse League (NLL). He starred as a member of the Princeton Tigers men's lacrosse team from 1998 through 2001 and the Princeton Tigers men's soccer team from 1997 through 2000.
+During his time at Princeton, the team qualified for the NCAA Men's Lacrosse Championship all four years, reached the championship game three times, won the championship game twice and won four Ivy League championships. He was a two-time honorable mention United States Intercollegiate Lacrosse Association (USILA) All-American and three-time All-Ivy League selection (once first team, twice second team). He was also an All-Ivy league performer in soccer and earned Princeton co-athlete of the year (all-sport) honors as a senior.
+As a professional, he has earned three MLL championships, a league record eight MLL All-Star recognitions and an MLL championship game MVP award. He is also a three-time Team USA representative and two-time World Lacrosse Championship gold medalist.
+
+## Background
+
+Striebel is a native of Gill, Massachusetts. He first got involved in lacrosse at about the age of 12 or 13 when his sister brought home the Brine Lightning stick that he began to play with. Striebel attended The Hotchkiss School in Lakeville, Connecticut. Striebel first started playing lacrosse when he was a youth for Jeff Coulson, owner of Indoor Action Sports, in Greenfield, Massachusetts.
+He also attended the Writers Workshop at The University of Iowa in Iowa City, Iowa, earning a Master of Fine Arts degree in 2007. He had earned a Bachelor of Arts degree in English at Princeton.
+
+## College career
+
+At Princeton he was a two-time honorable mention USILA All-American Team selection in 2000 and 2001. He was a second team All-Ivy League selection in 1999 and 2000 and a first team selection in 2001. He was a 2001 USILA Scholar All-American. During his four-year career, Princeton went undefeated in Ivy League Conference play with consecutive 6 – 0 records. Princeton was invited to the 1999 tournament, was a finalist in the 2000 tournament and earned championships in both the 1998 and 2001 tournaments, bringing the schools consecutive tournament invitations streak to twelve. In Striebel's 2001 senior season, the arrival of freshman Ryan Boyle necessitated that he move from attack to midfield. The move came the first practice after Princeton's 14 – 8 loss to Syracuse. Striebel had previously been orchestrating the Princeton offense from behind the goal, but on March 25, 2001, head coach Bill Tierney made the switch. During the 1998 season when Princeton won the NCAA title, Striebel had been playing midfield. Princeton went undefeated for the rest of the 2001 season after the switch.
+During the 2000 NCAA tournament, Striebel scored two goals in the quarterfinals 10 – 7 victory against Maryland, and he added another in the 13 – 7 championship game loss to Syracuse. Striebel was one of the leading scorers on the team that season, and he was the team leader in assists entering the final four weekend. In the quarterfinals of the 2001 NCAA championship tournament, Striebel had an assist in the 8 – 7 victory over Loyola. In the 12 – 11 semifinal victory over Towson State, Striebel had a goal and an assist. Striebel scored twice in the 2001 championship game and also added two assists. He was selected to the All-tournament team.
+Striebel was also an honorable mention All-Ivy League soccer player in 2000 as well as a 2000 Academic All-Ivy selection in soccer. As a junior, Striebel was a member of the 1999 Ivy League Champion Princeton Soccer team that earned an invitation to the 1999 NCAA Men's Division I Soccer Championship. The team posted a 10 – 5 – 2 (5 – 1 – 1 Ivy League) record.
+As of 2010, Striebel ranks eighth on the Princeton Lacrosse career assists list and eleventh on the Princeton soccer career assists list. As a senior, he was honored as one of the three athletes of the year on campus (along with Dennis Norman and Scott Denbo)
+
+## Professional career
+
+Striebel began his career in the league's inaugural 2001 MLL season with the Bridgeport Barrage and stayed with the team as it remained in Bridgeport, Connecticut until the 2003 season. Then he moved with the franchise and played with the Philadelphia Barrage from 2004 through 2008. In 2009 MLL season, he joined the Chicago Machine and then became a member of the Rochester Rattlers for the 2011 MLL season. Striebel and Boyle were reunited for five seasons in Philadelphia. Striebel has helped the Barrage to win three Steinfeld Cup championships in 2004, 2006, and 2007. In the 2004 championship game, he scored what the Baltimore Sun described as the clinching goal in the 13 – 11 victory over the Boston Cannons. In the 2006 game, he had nine points (four goals, including one two-pointer and four assists). He was presented with the 2007 Steinfeld Cup Game Most Valuable Player Award. Striebel appeared in the 2005 & 2007 Major League Lacrosse All-Star Games. In the 2006 All-Star game he represented Team USA by scoring a goal and two assists. Striebel was an MLL All-Pro selection in 2007 and 2008. Striebel was an MLL All-Star in 2011. In 2012, Striebel set the MLL record for most All-Star games with eight (consecutive).
+Striebel served as an assistant coach for Princeton Men's Lacrosse in 2005. Striebel also spent time assisting the men's lacrosse team at Iowa during his time there. As of 12 April 2012, Striebel currently coaches the Varsity Boys Lacrosse team at Northampton High School in Northampton, MA which is just south of his hometown. He also played professionally in 2012 and 2013.
+In addition to his field lacrosse career, Striebel played one season in 2003 of box lacrosse with the Philadelphia Wings in the National Lacrosse League. Streibel was traded by the Wings to the New York Saints in February 2003. He never appeared in a game for the Saints. Striebel has also played professional soccer for the Western Massachusetts Pioneers.
+Striebel has represented Team USA in the World Lacrosse Championship in 2002, 2006, and 2010. In the 2002 World Lacrosse Championship semifinal match against the Iroquois Nation, Striebel scored a goal in the 18 – 8 victory. Striebel also serves as a representative of Trilogy Lacrosse.
+On November 11, 2013, Striebel was traded to the New York Lizards.
+
+## Statistics
+
+
+### MLL
+
+
+### Princeton University

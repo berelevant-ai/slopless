@@ -1,0 +1,3 @@
+# Postdoc overwhelmed by incomplete work
+
+I take on more than I can handle and everything is left incomplete. Constant reminders from my previous supervisor, my current advisor, and colleagues, increases my anxiety level and sometimes I end up entirely avoiding work. I haven’t completed a paper as first author in the last two years, although I have two papers ready for submission for the last two months and two more I could complete with a week of uninterrupted work on each paper. These papers have been dragged so much that now I am losing interest in making any more changes. I will appreciate any suggestion for dealing with anxiety regarding works that I should have completed more than a year ago.

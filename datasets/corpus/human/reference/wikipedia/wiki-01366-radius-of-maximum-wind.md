@@ -1,0 +1,18 @@
+# Radius of maximum wind
+
+The radius of maximum wind (RMW) is the distance between the center of a cyclone and its band of strongest winds. It is a parameter in atmospheric dynamics and tropical cyclone forecasting. The highest rainfall rates occur near the RMW of tropical cyclones. The extent of a cyclone's storm surge and its maximum potential intensity can be determined using the RMW. As maximum sustained winds increase, the RMW decreases. Recently, RMW has been used in descriptions of tornadoes. When designing buildings to prevent against failure from atmospheric pressure change, RMW can be used in the calculations.
+
+## Determination
+
+The RMW is traditionally measured by reconnaissance aircraft in the Atlantic basin. It can also be determined on weather maps as the distance between the cyclone center and the system's greatest pressure gradient. Using weather satellite data, the distance between the coldest cloud top temperature and the warmest temperatature within the eye, in infrared satellite imagery, is one method of determining RMW. The reason why this method has merit is that the strongest winds within tropical cyclones tend to be located under the deepest convection, which is seen on satellite imagery as the coldest cloud tops. Use of velocity data from Doppler weather radar can also be used to determine this quantity, both for tornadoes and tropical cyclones near the coast.
+
+## Tornadoes
+
+In the case of tornadoes, knowledge of the RMW is important as atmospheric pressure change (APC) within sealed buildings can cause failure of the structure. Most buildings have openings totaling one square foot per 1,000-cubic-foot (28 m3) volume to help equalize air pressure between the inside and outside of the structures. The APC is around one-half of its maximum value at the RMW, which normally ranges between 150 feet (46 m) and 500 feet (150 m) from the center (or eye) of the tornado. The widest tornado as measured by actual radar wind measurements was the Mulhall tornado in northern Oklahoma, part of the 1999 Oklahoma tornado outbreak, which had a radius of maximum wind of over 800 metres (2,600 ft).
+
+## Tropical cyclones
+
+An average value for the RMW of 47 kilometres (29 mi) was calculated as the mean (or average) of all hurricanes with a lowest central atmospheric pressure between a pressure of 909 hectopascals (26.8 inHg) and 993 hectopascals (29.3 inHg). As tropical cyclones intensify, maximum sustained winds increase as the RMW decreases. The heaviest rainfall within intense tropical cyclones has been observed in the vicinity of the RMW.
+The radius of maximum wind helps determine the direct strikes of tropical cyclones. Tropical cyclones are considered to have made a direct strike to a landmass when a tropical cyclone passes close enough to a landmass that areas inside the radius of maximum wind are experienced on land. The radius of maximum wind is used within the maximum potential intensity equation. The Emanuel equation for Maximum Intensity Potential relies upon the winds near the RMW of a tropical cyclone to determine its ultimate potential.
+The highest storm surge is normally coincident with the radius of maximum wind. Because the strongest winds within a tropical cyclone lie at the RMW, this is the region of a tropical cyclone which generates the dominant waves near the storm, and ultimately ocean swell away from the cyclone. Tropical cyclones mix the ocean water within a radius three times that of the RMW, which lowers sea surface temperatures due to upwelling.
+Much is still unknown about the radius of maximum wind in tropical cyclones, including whether or not it can be predictable.

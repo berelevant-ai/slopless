@@ -1,0 +1,7 @@
+# How to avoid hyponatremia(drinking too much water) when hiking?
+
+My experience with hyponatremia comes from Ironman racing and training.  The thing I had to learn to do was to get enough salt into me.  Sports drinks have no where near enough, compared to the rate I sweat at.  I am at the high end of the range, 1.5L/hr or more.  (Measure dry before, go out for 10 hours, track fluid in, rarely end up peeing, weigh after, 1Kilo=1Litre).
+1L of sweat has on the order of 1-2 grams of salt.
+My issue turned out to be that during the swim, (I am slow, so 1:30 or so) I would sweat so much, but not notice since I was swimming that when I started the bike, I was already down on salt and it just got worse.  I started simply eating salt packets from a restaurant evey 1-2 hours.  Not too much at any one time, easy to get down, easy to come by, made a huge difference.
+But hyponatremia does really suck. I find it makes me fall asleep, even while riding, which is usually my first indication I screwed up.  Within moments of the salt touching my tongue, I start to feel better.  It is amazingly fast.
+The upside is you get to pass out in odd locations, without the use of alcohol!  I stopped once 4 hours into a 7 hour ride at 35C, to buy some water and chips.  Sat in the shade to eat and drink and passed out.  When I woke up and came into the store again they were relieved, as they were planning on calling an ambulance soon.

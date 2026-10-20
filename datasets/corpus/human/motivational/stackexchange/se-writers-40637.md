@@ -1,0 +1,10 @@
+# Using real words from a foreign culture feels like 'Calling a rabbit a "smeerp"'
+
+I'm working on a novel, that's set in pre-Islamic Persia, in the same general way that  The Lord of the Rings  is set in Britain. (Meaning, it's set in a world all its own, but there's this source of inspiration.)
+Here's my conundrum: the land is ruled by the Shah - that's a given, that's expected if the setting is Persian rather than European. But what happens under the Shah? Knights, barons, counts and dukes are all titles associated with the European court. They appear to clash with a setting, as if I'm telling a basically European story, only recoloured Middle-eastern.
+So the knights are asvarans (it's actually amazing how much the position of the asvarans in 5th century Persia is reminiscent of 10th century European knights). And after much research, I've got vaspahrs, sardars and ostandars. At which point, I'm looking at the trope  Calling a Rabbit a "Smeerp"  - I'm just giving different names to something that has a perfectly good English word.
+Moreover, I have only recently pointed others to this xkcd:
+( source )
+I do not believe it is relevant that I found the words I'm using in an encyclopedia rather than made them up; to the reader, they are equally unfamiliar.
+How do I balance realism against readability in this particular case?  I do not want to break the readers' suspension of disbelief by using words that are too European, but I don't want to weigh on the reader with heaps of foreign-language vocabulary either.
+(Note: Bioware's  Dragon Age  franchise uses 'Teyrn', 'Arl', 'Bahn' instead of 'Duke', 'Earl', 'Baron'. However, in their example the replacement words are not too far from the English words, and thus much easier to remember, avoiding confusion. Also, the names they use are for the most part English enough. Consequently, looking at something like 'Arl Eamon', one doesn't have to wonder which part is title and which part is name. As opposed to 'Vaspahr Narseh', for instance.)

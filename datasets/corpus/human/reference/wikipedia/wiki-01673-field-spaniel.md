@@ -1,0 +1,28 @@
+# Field Spaniel
+
+The Field Spaniel is a medium-sized breed dog of the spaniel type. They were originally developed to be all-black show dogs in the late 19th and early 20th centuries and were unpopular for work as a hunting dog. However, during the mid-20th century they were redeveloped as a longer-legged dog that was more suitable to be used for field work. They are now considered to be a rare breed, and are registered as a Vulnerable Native Breed by The Kennel Club.
+Their fur is darker than other spaniels and have no undercoat. Their coats come mostly in solid colours with some occasional markings on the chest. They can make good family dogs and are patient with children, but can require some sort of purpose, be it hunting or agility work in order to prevent them from becoming bored and destructive.
+
+## History
+
+The Field Spaniel was originally developed for the show ring by competitors who were attempting to develop an all-black Spaniel. Some of the breeding methods of those early developers were criticised; one of the first breeders of the Field Spaniel, Thomas Jacobs, said of the origin; " Much has been written and said on the purity of the breed; deprecating the means I have adopted to produce them as calculated to alter a presumed type, and frequent missiles have at me and my dogs from behind the hedge. But where is the pure bred black spaniel we hear so much about? Proof of the existence of the pure bred one (if there ever was one!) has not been forthcoming. Like most sporting dogs, they are the result of different crosses. "
+They were unpopular with sportsmen as the dark colours of the breed did not show up in hunting conditions, and the elongated and short shape of the early breed was not very practical for moving easily through cover. The low-slung variety of Field Spaniel were developed by Phineas Bullock from dogs previously owned by Sir Francis Burdett, the secretary of the Birmingham Dog Show. Burdett was said to have owned a variety of black Cocker Spaniels. Bullock crossed the Field Spaniel with the Sussex Spaniel and the English Water Spaniel. In the 1870s he was very successful in the show ring with his variety of Field Spaniel; however, it resulted in a dog that was almost exactly like a Sussex Spaniel with the exception of the head itself.
+The dog who is considered to be the father of the modern English Cocker Spaniel is Ch. Obo, who was born in 1879 to a Sussex Spaniel father and a Field Spaniel mother. Obo's son Ch. Obo II is considered to be the father of the modern American Cocker Spaniel, who was described as being only ten inches high with quite a long body.
+By 1909, the average weight of a Field Spaniel was 35 – 45 pounds (16 – 20 kg). Further mixing of the breed occurred with elements of the Basset Hound introduced. Various genetic health issues arose and action was taken in order to correct the problems within the breed. English Springer Spaniels were used to introduce healthier elements into the breed and resulted in the longer legged spaniel that we know today. Most of the modern breed can be traced to four dogs from the 1950s; Colombina of Teffont, Elmbury Morwena of Rhiwlas, Gormac Teal, and Ronayne Regal.
+The Field Spaniel remains a rare breed, even in the UK. In 2009, a total of 51 dogs were registered with The Kennel Club and has been in steady decline since 2000. Out of all the Spaniel breeds registered with The Kennel Club, the Field Spaniel has the lowest numbered registered year on year, with only the Sussex Spaniel coming a close second with 60 registrations in 2009. This is compared to the English Springer Spaniel with 12,700 and the English Cocker Spaniel with 22,211 registrations in 2009 alone. In order to promote the breed, they have been registered as a Vulnerable Native Breed by The Kennel Club.
+
+## Description
+
+
+### Appearance
+
+The standard size for a Field Spaniel is 17 – 18 inches (43 – 46 cm) tall at the withers, and a weight of between 40 – 55 pounds (18 – 25 kg). This places it roughly between the English Cocker Spaniel and the English Springer Spaniel in size. Its long, silky coat comes in solid colours of black, liver, or roan. Tan points, white markings on the throat and the chest can be ticked or the same colour as the rest of the body.
+They have a moderately long single coat with no undercoat. Feathering of the fur appears on the chest, belly, ears and on the back of the legs. The coat is not as heavy as that of a Cocker Spaniel but will require grooming in order to prevent mats from appearing in the fur. Docked tails were often used in working dogs, as poor blood flow left healing of the non docked tail difficult.
+
+### Temperament
+
+The Field Spaniel can be a good family dog while it has a job to do. They are suitable for dog agility and hunting. Without some sort of purpose, the dog can often try to amuse itself and cause mischief. However, they are patient with children and like to stay close to their family. When socialised, they are good with other dogs. They are generally docile and independent, and are not as excitable as Cocker Spaniels. Stanley Coren's The Intelligence of Dogs lists the breed as being above average in working intelligence.
+
+## Health
+
+There are a few ocular conditions to which the Field Spaniel has a predisposition. These include cataracts, retinal atrophy and retinal dysplasia. Hip dysplasia has appeared in British lines of Field Spaniels. In a health survey conducted by the Kennel Club (UK), the primary cause of death in Field Spaniels was cancer, with the second most frequent cause being old age. The median lifespan for the breed was found to be eleven years and eight months, which is five months higher than the median age for all dog breeds.

@@ -1,0 +1,24 @@
+# Peniophora quercina
+
+Peniophora quercina is a species of wood-decay fungus in the family Peniophoraceae. The species produces fruit bodies which vary in appearance depending on whether they are wet or dry. The wet fruit bodies are waxy and lilac, and attached strongly to the wood. When dry, the edges curl up and reveal the dark underside, while the surface becomes crusty and pink. P. quercina is the type species of Peniophora, and was moved to the genus upon its creation by Mordecai Cubitt Cooke. The species is found primarily in Europe, where it can be encountered all year. Though primarily growing upon dead wood, especially oak, it is also capable of growing upon still-living wood.
+
+## Taxonomy
+
+Early descriptions of the species came from Carl Ludwig Willdenow, who named it Lichen carneus in 1787, and Jean Baptiste François Pierre Bulliard, who, in 1790, named it Auricularia corticalis. However, the sanctioned name is Thelephora quercina, given by Christiaan Hendrik Persoon in 1801, and sanctioned by Elias Magnus Fries in the first volume of his Systema Mycologicum. The specific name quercina is in reference to Quercus, the generic name for oak. A number of authors (including Jean-Baptiste Lamarck, Lucien Quélet and Giacomo Bresadola) reclassified Bulliard's Auricularia corticalis throughout the 19th century, while Persoon's Thelephora quercina was reclassified by Samuel Frederick Gray in 1821, who placed it in Corticium as Corticium quercinum. However, in 1879, Mordecai Cubitt Cooke transferred the species to his newly described genus Peniophora, declaring it the type species. Despite subsequent attempts at reclassification, Cooke's name is the one currently used.
+
+## Description
+
+Peniophora quercina produces resupinate fruit bodies which vary in appearance depending on whether they are wet or dry. They are up to 0.5 mm (0.020 in) thick, and form irregular patches that sometimes measure several centimetres across. Initially, the species forms small, disc-shaped fruit bodies through holes in bark, but these expand and merge to form the irregular patches. When fresh, the surface is reminiscent of jelly or wax, and can be smooth or warty, varying in colour from a dull blue to lilac. Initially, they are firmly attached to the wood on which they are growing, but as they dry, the edges roll inwards and reveal the dark brown or black underside. The dry specimens have a crusty and slightly fissured surface, and, in colour, are a bright pink or grey, tinted with lilac. There is a relatively thick layer of gelatinous flesh. Apart from a brown layer close to the wood, the flesh is hyaline. The species has no distinctive odour or taste, and is inedible.
+
+### Microscopic features
+
+Peniophora quercina produces spores which take the shape of a curved cylinder (sausage shaped), and have been variously reported as light red, pink and white. They measure from 8 to 12 by 3 to 4 micrometres (μm). The spores are borne on basidia, with four spores per basidium, which measure 50 to 70 by 5 to 12 μm. The species has hyaline cystidia with thick cell walls, which are " heavily encrusted with crystalline material ". The cystidia are often buried within the fruit body as it grows, but can be found in large numbers. They have been variously described as spindle-shaped or conical, and measure 25 to 35 by 10 to 15 μm. The hyphae have clamp connections, and the base of the fruit body is made up of brown hyphae with moderately thick cell walls, measuring 3 to 4 μm in width.
+
+### Similar species
+
+Peniophora limulata is similar in appearance to P. quercina. However, the edges of the fruit body are highlighted in a dark black, and the species favours ash, as opposed to oak.
+
+## Ecology and distribution
+
+Peniophora quercina typically grows upon dead wood, which can be attached to the tree or fallen, where it causes white rot. It favours oak, but can also be found on other deciduous trees, such as beech. P. quercina is known to be a pioneer species on dead wood, which means it can be the first species to grow. It is found in Europe, where it is very common. Though it can be encountered all year, it produces spores in late summer and autumn. It has also been recorded in Amur, in eastern Asia.
+The species has also been identified in living sapwood, though it is latent at this time, and it is probable that it waits until the wood begins to die (when it is drier, but contains more oxygen) before the mycelia begin to grow. When the species was inoculated into living wood, it did grow, but only around the inoculation wound; the species did not spread as it would have done on dead wood. Another study found that the species actively colonised partially living branches, causing white rot. However, the species had little effect on the cambium, and was mostly limited to the ends of branches.

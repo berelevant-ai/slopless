@@ -1,0 +1,19 @@
+"Oh, I forgot to tell you that our house belongs to us, that is to grandmother; it is a little wooden house with three windows as old as grandmother herself, with a little upper storey; well, there moved into our upper storey a new lodger."
+
+"Then you had an old lodger," I observed casually.
+
+"Yes, of course," answered Nastenka, "and one who knew how to hold his tongue better than you do. In fact, he hardly ever used his tongue at all. He was a dumb, blind, lame, dried-up little old man, so that at last he could not go on living, he died; so then we had to find a new lodger, for we could not live without a lodger--the rent, together with grandmother's pension, is almost all we have. But the new lodger, as luck would have it, was a young man, a stranger not of these parts. As he did not haggle over the rent, grandmother accepted him, and only afterwards she asked me: 'Tell me, Nastenka, what is our lodger like--is he young or old?' I did not want to lie, so I told grandmother that he wasn't exactly young and that he wasn't old.
+
+"'And is he pleasant looking?' asked grandmother.
+
+"Again I did not want to tell a lie: 'Yes, he is pleasant looking, grandmother,' I said. And grandmother said: 'Oh, what a nuisance, what a nuisance! I tell you this, grandchild, that you may not be looking after him. What times these are! Why a paltry lodger like this, and he must be pleasant looking too; it was very different in the old days!'"
+
+"Grandmother was always regretting the old days--she was younger in old days, and the sun was warmer in old days, and cream did not turn so sour in old days--it was always the old days! I would sit still and hold my tongue and think to myself: why did grandmother suggest it to me? Why did she ask whether the lodger was young and good-looking? But that was all, I just thought it, began counting my stitches again, went on knitting my stocking, and forgot all about it.
+
+"Well, one morning the lodger came in to see us; he asked about a promise to paper his rooms. One thing led to another. Grandmother was talkative, and she said: 'Go, Nastenka, into my bedroom and bring me my reckoner.' I jumped up at once; I blushed all over, I don't know why, and forgot I was sitting pinned to grandmother; instead of quietly undoing the pin, so that the lodger should not see--I jumped so that grandmother's chair moved. When I saw that the lodger knew all about me now, I blushed, stood still as though I had been shot, and suddenly began to cry--I felt so ashamed and miserable at that minute, that I didn't know where to look! Grandmother called out, 'What are you waiting for?' and I went on worse than ever. When the lodger saw, saw that I was ashamed on his account, he bowed and went away at once!
+
+"After that I felt ready to die at the least sound in the passage. 'It's the lodger,' I kept thinking; I stealthily undid the pin in case. But it always turned out not to be, he never came. A fortnight passed; the lodger sent word through Fyokla that he had a great number of French books, and that they were all good books that I might read, so would not grandmother like me to read them that I might not be dull? Grandmother agreed with gratitude, but kept asking if they were moral books, for if the books were immoral it would be out of the question, one would learn evil from them."
+
+"'And what should I learn, grandmother? What is there written in them?'
+
+"'Ah,' she said, 'what's described in them, is how young men seduce virtuous girls; how, on the excuse that they want to marry them, they carry them off from their parents' houses; how afterwards they leave these unhappy girls to their fate, and they perish in the most pitiful way. I read a great many books,' said grandmother, 'and it is all so well described that one sits up all night and reads them on the sly. So mind you don't read them, Nastenka,' said she. 'What books has he sent?'

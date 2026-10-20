@@ -1,0 +1,7 @@
+# Do consumer computers include components that can connect to the internet when the computer is apparently turned off?
+
+I have seen many claims that devices such as laptop computers contain components that can "connect to the internet" even when the main device is powered off. The implication is that such devices could be backdoored by the NSA or others in order to share private data without the user's knowledge.
+One example, which would affect nearly every laptop and desktop computer, is that the Intel Management Engine (a controller chip in Intel processors which, for design reasons, is able to access all data being processed by the computer) updates its own firmware autonomously and can connect to the internet (in order to do so?) even when the computer is powered off.
+Here is an example of such a claim, from  an answer on Information Security Stack Exchange :
+Intel ME features a processor attached to your CPU, which runs closed-source software and which can access all your hardware and main memory. It operates without being visible to your CPU, but can see all your CPU does and control it. It can update itself and connect to the internet even when your computer is turned off. It's pretty damned creepy to me.
+Is it true that the Intel Management Engine, and/or similar components in other brands of processor, has the capacity to connect autonomously to the internet when the computer is powered off?

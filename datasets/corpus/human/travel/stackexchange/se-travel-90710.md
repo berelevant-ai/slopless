@@ -1,0 +1,4 @@
+# Why do airlines not have you put your bag underneath your own seat?
+
+I can think of two reasons.  One, sadly, you have disallowed, which is the legroom answer. But what if the answer actually  is  about legroom?  Since I don't have enough room for my knees, I have to straighten my legs, which requires me to put my feet under the seat in front of me. It seems to me that if passengers were supposed to put bags under their own seat, people would be fighting over that space more than they already are.
+The other reason is safety.  That space has a bar to keep the things in there from sliding forward in a crash.  This serves as a barrier between the space and the occupant of the seat above.  If the bar were at the back of the seat instead of the front, it would allow things to fly into the aisle between the rows, injuring passengers' feet or impeding their egress.

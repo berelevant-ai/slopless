@@ -1,0 +1,5 @@
+# Does wearing imperial beard in the UK attract any ire of general public?
+
+As a British person, I don't think I've ever seen somebody with a beard like that. Some drunk people might be snarky about it but my guess is that you'll get much more attention from people who think it's cool and almost none from people who want to be shitty about it.
+If you're in the UK in August, the  2018 British Beard and Moustache Championships  will be in Blackpool on 18th August. Now that this date has passed,  the BBC has footage .
+So, er, a confession. The above was posted in good faith and was accurate at the time of posting. Today, after getting 101 votes, a gold badge, three silver badges, a bronze badge and 645 reputation, I saw somebody in the UK with "friendly mutton chops", albeit somewhat less flamboyant ones than the photos in the question. In fact, it was somebody in my own place of work. However, I stand by the rest of my answer. I thought his beard was cool. Nobody was being shitty about it. The Beard and Moustache Championship is still on.

@@ -1,0 +1,32 @@
+# Murphy Pakiam
+
+Tan Sri Datuk Murphy Nicholas Xavier Pakiam (born 6 December 1938) is the third metropolitan archbishop of the Roman Catholic Archdiocese of Kuala Lumpur, Malaysia.
+Pakiam was born in Tapah, Perak and was ordained into the priesthood on 10 May 1964. He was appointed metropolitan archbishop of Kuala Lumpur on 24 May 2003, and was installed five days later. Pakiam is the former president of the Catholic Bishops ' Conference of Malaysia, Singapore and Brunei; and the publisher of the Catholic weekly newspaper, The Herald.
+In 2007, Pakiam filed for a judicial review after The Herald was ordered to stop using the Arabic word " Allah " in its publication by the Malaysian government. In 2009, the High Court overturned the government's ban of the word. In 2010, he accepted the public apology of Al-Islam magazine, which had sent two reporters to a Catholic church the year before, where they desecrated the Eucharist.
+
+## Background
+
+Pakiam was born in Tapah, Perak, on the feast day of the popular saint of children, St. Nicholas. Educated at the Sultan Yusuf School in Batu Gajah, he entered the minor seminary in 1955 and started his priestly formation at the College General in Penang three years later. Pakiam was ordained a priest on 10 May 1964, and served as assistant priest at the Church of St. Louis, Taiping. The following year, he was posted to the Church of St. Francis Xavier in Penang and became the Parish Priest of the Church of Our Lady of Lourdes, Silibin, Ipoh from 1970 – 72.
+Pakiam completed his studies for a Masters in Moral Theology (Ethics) at the Lateran University in Rome in 1974, and upon his return to Malaysia, became a lecturer at Penang's College General. In 1978, he was appointed Rector of the College General and served two terms. In 1989, he received his Masters in Guidance and Counselling from the De La Salle University, Manila, Philippines. He then served as Parish Priest of the Church of the Nativity in Butterworth from 1989 – 95.
+He was appointed as the auxiliary bishop of Kuala Lumpur and titular bishop of Chunavia on 1 April 1995, and ordained titular bishop of Chunavia, Epirus Nova, known as an Episcopal Ordination, on 4 October 1995 at the College General in Penang.
+On 24 May 2003, Pakiam succeeded Anthony Soter Fernandez, who resigned due to poor health, as metropolitan archbishop of Kuala Lumpur. His installation took place five days later, on 29 May 2003. His principal consecrator was Archbishop Anthony Fernandez and principal co-consecrators were Bishop James Chan Soon Cheong and Bishop Anthony Selvanayagam. He was the president of the Catholic Bishops ' Conference of Malaysia, Singapore and Brunei.
+On 13 December 2013, the Pope accepted the resignation of Archbishop Pakiam upon his 75th birthday. In practice, the Bishop of Rome may decide to immediately accept the resignation letter, or keep the bishop in service until a successor is chosen. The Pope decided to accept Archbishop Pakiam's resignation as soon as he received it even though his successor, Archbishop Julian Leow Beng Kim, was only appointed on 3 July 2014.
+
+## Coat of arms
+
+Hat & Tassels: Symbols of an Archbishop of the Roman Catholic Church.Cross on yellow background: Symbol of Jesus, the Light of the world.Blue wavy lines: Symbol of the Holy Spirit, the river of Living Waters.Chalice & Host: The Sacraments of the Church.Bible: The Word of God.The letter ' M ': Mary, Mother of the Church, representing all the saints.Keys: Symbol of the Apostolic authority in the Church.Green background: Symbolises the new life obtained through the Mercy and Peace of God.
+
+## Allah judicial review
+
+By virtue of his position as archbishop of Kuala Lumpur, Pakiam is the publisher of The Herald, a weekly Catholic newspaper. In 2007, The Herald and Pakiam, as its publisher, filed for a judicial review after it was ordered to stop using the Arabic word " Allah " in its publication by the Malaysian Ministry of Home Affairs. Malaysia's home minister has the power to impose prohibition as a condition under the Printing Presses and Publication Act of 1984. In the case of The Herald, Home Minister Datuk Seri Syed Hamid Albar prohibited the usage of the word " Allah " on the grounds of national security and to avoid misunderstanding and confusion among Muslims.
+On 31 December 2009, the High Court overturned the government ban on the use of the word " Allah " by The Herald. Justice Lau Bee Lan quashed the Home Minister's prohibition against The Herald to use the word " Allah ", declaring the order as " illegal, null and void ". She declared that under Article 3 (1) of the Federal Constitution, applicant Archbishop Tan Sri Pakiam had the constitutional right to use " Allah " in The Herald in the exercise of his right that religions other than Islam might be practised in peace and harmony in the country.
+
+## Al-Islam magazine
+
+In 2009, two Muslim reporters from Al-Islam, a small Malaysian magazine, participated in a Catholic Mass and received Holy Communion, which they then spat out and photographed. The resulting photo was then published in their May 2009 edition. The magazine, which is owned by Utusan Karya, part of the Utusan Malaysia Group, sent its reporters including one Muhd Ridwan Abdul Jalil, to two churches in the Klang Valley, as part of a special investigative report. The act of desecration occurred at St Anthony's Church in Jalan Robertson, Kuala Lumpur.
+Pakiam, the Catholic Lawyers Society, as well as numerous editorials in the media, criticised the Attorney-General for its failure to take any action on the desecration.
+Nine months later, in March 2010, Al-Islam published an apology to the Roman Catholic Church and Christians for the article. The public apology was posted on the website of its publisher. Pakiam accepted the apology and said that no further legal action would be taken against the magazine or its publishers.
+
+## Honours
+
+In 2005, the King of Malaysia, the Yang di-Pertuan Agong Tuanku Syed Sirajuddin, made Pakiam a Member of the Order for Important Services or " Panglima Jasa Negara " (PJN), which carries the title " Datuk ". In 2008, the Yang di-Pertuan Agong Tuanku Mizan Zainal Abidin made him Commander of the Order of Loyalty to the Crown of Malaysia, or Panglima Setia Mahkota (PSM), which allows the recipients to use the title " Tan Sri ". This title is the second most senior federal title in Malaysia, and there may only be up to a maximum of 250 living PSM holders at any time.

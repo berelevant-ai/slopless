@@ -1,0 +1,8 @@
+# How do I know if a concept is sexist or not?
+
+In my story's world, witchcraft is a respected institution, with the most powerful practitioners being at the top echelons of society. Due to this, society traces its lineage through matrilineal lines. A witch has the power to summon a familiar by using her body as a conduit between the mortal and ethereal plane. These powerful spirits are forever linked with their master, and used in a number of ways, such as magical batteries and amplifiers, or for battle. Familiars are birthed into the world in the same way that human children are born, through a ritual ceremony, and grow in power with the user.
+When creating a magic system, I was taught that there always had to be a cost, to keep the magic interesting. I am looking for a drawback to explain why every witch does not go through the process. One that I was considering was that the witch must have never given birth before the ritual, and that the process renders her infertile afterwards, ensuring that they will never have a lineage. For this reason, familiars are rare in this world.
+In that particular example  I am rethinking that scheme, because someone has told me that this concept is sexist toward women because it suggests that a female's only worth is her fertility and that having kids is the most important thing to them. I do question whether that is accurate, or if I am overthinking it.
+However, that example aside, my real question is less about this specific scheme, and more general:
+Presuming an author wishes to avoid bigotry and prejudice in their writing, how can they decide if some story element of theirs is prejudiced or not?
+Are there tests to apply, or ways of analyzing their ideas to come to some objective conclusion?

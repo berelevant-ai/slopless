@@ -1,0 +1,5 @@
+# Prohibited item forgotten in hand luggage: what to do with it?
+
+I guess it happens quite frequently: you have already checked in, and at the security check you realize that you have in your backpack your grandmother's Klingon bat'leth blade, an item that has been in your family for generations and that you absolutely do not want to throw away.
+What are your possibilities at this point? What do you do with a forbidden item with which you cannot fly, and which you do not want to throw away? , The airline company will probably offer to send it as a stored luggage, but that may be inconvenient (because of the price, or because the item is too fragile, too large, or too small). Are there other possibilities?
+An option could be shipping it, but I have never seen a courier or a post office in an airport. I have never looked for one, actually, but if there are any they are not well advertised (unlike every other store in an airport), and I assume that they are not open at all the times of the day when an airport is operational. Are there any other possibilities?

@@ -1,0 +1,15 @@
+# Church Administration Building
+
+The Church Administration Building (CAB) is an administrative office building in Salt Lake City, Utah, serving as the headquarters of The Church of Jesus Christ of Latter-day Saints (LDS Church), the fourth-largest Christian denomination in the United States. Completed in 1917, the building is adjacent to Temple Square, between the Joseph Smith Memorial Building and the Lion House, on South Temple Drive. It differs from the Church Office Building in that it is much smaller and furnishes offices for the First Presidency and the Quorum of the Twelve Apostles. It also houses offices for other general authorities and their personal staff.
+Only church officials and their guests are permitted to enter. The CAB has been used for meetings between church leaders and political and community leaders.
+
+## Use and special events
+
+Initially, the Church Administration Building housed all administrative offices of the LDS Church, but as membership grew and leadership and staff expanded, the workers were scattered in office buildings throughout downtown Salt Lake City — some as far away as the Granite Mountain Vaults in Little Cottonwood Canyon and at Brigham Young University, forty miles to the south in Provo. With construction of the Church Office Building to the east, the Church Administration Building was freed up for offices exclusively for general authorities, and it continues to serve as the church's headquarters.
+The Church Administration Building furnishes offices for the president of the LDS Church, as well as for his counselors in the First Presidency, the Quorum of the Twelve Apostles, and other general authorities, along with their staff. The building is overseen by the Church Security Department, with only certain employees, church officers and their guests are permitted to enter.
+A variety of events have been held at the CAB, as well as receiving distinguished visitors. As part of the festivities for the 2002 Winter Olympics in Salt Lake City, the Olympic torch was passed through the hands of members of the First Presidency and the Quorum of the Twelve Apostles on the steps of the CAB. It is also a tradition that funeral processions of past LDS Church presidents pass in front of the Church Administration Building. The building has hosted visitors including Michelle Obama and George W. Bush.
+
+## Construction
+
+Constructed between 1914 and 1917, the building is built of quartz monzonite from the same quarry in Little Cottonwood Canyon as the stone used for the Utah State Capitol and the nearby Salt Lake Temple. The Mt. Nebo Marble Company supplied marble and travertine for the interior of the CAB. According to the Utah Geological Survey, " the company quarried Birdseye marble in the Thistle area of Utah County, and travertine and onyx at Pelican Point near Utah Lake in Utah County and in the Cedar Mountains of Tooele County. "
+Twenty-four ionic columns form a colonnade around the structure, each weighing eight tons. The building's exterior is constructed from 4,517 granite blocks.

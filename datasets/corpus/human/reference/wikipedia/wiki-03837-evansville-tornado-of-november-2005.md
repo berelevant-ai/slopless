@@ -1,0 +1,32 @@
+# Evansville Tornado of November 2005
+
+The Evansville Tornado of November 2005 was an F3 tornado that formed early in the morning of November 6, 2005, outside of Evansville, Indiana, USA. It was the first of several tornado events that November. The tornado resulted in 25 confirmed fatalities across the region, making it the deadliest and most destructive November tornado in Indiana's history. The Evansville tornado was part of a small outbreak that produced 8 tornadoes.
+
+## Meteorological analysis
+
+The system formed on a cold front that tracked across the Midwest and stretched from the northern Great Lakes to Tennessee. The front was enhanced by a strong jet stream and warm, humid air ahead of it, allowing thunderstorms to develop. A severe thunderstorm watch was issued for the region just west of Evansville as the main threat appeared to be straight-line winds. The system had formed into a squall line but at about 1: 30 am CST (0730 UTC), the squall line broke up in the Ohio Valley area, as the low level jet intensified, allowing embedded tornadoes to form rapidly out of newly formed supercells. They were fairly isolated (only seven were confirmed across the entire region over a 24-hour period) but three significant tornadoes formed from two simultaneous supercells in southern Indiana and western Kentucky — one of them was the deadly Evansville tornado.
+
+## Confirmed tornadoes
+
+
+### November 5 event
+
+
+### November 6 event
+
+
+## Evansville area tornado
+
+On Sunday, November 6, 2005 at around 1: 50 am CST (0750 UTC), an F3 tornado touched down 2 miles (3 km) north-northwest of Smith Mills in Henderson County, Kentucky. The tornado moved northeast, snapping numerous trees, destroying a farmhouse, and throwing a pickup truck into a field. The tornado then crossed the Ohio River and moved across a rural peninsula of Vanderburgh County, Indiana. Few structures were impacted in this rural area, though a two-story house built in 1875 sustained major roof damage, and tree branches were embedded into the walls of the house. One farm equipment shed was demolished, and another sustained major damage. A 10,000-pound truck was flipped over, and heavy farm equipment was moved several feet. Aerial surveys revealed distinct spiral-shaped scour marks in farm fields in this area. The tornado crossed the river again back into Kentucky, causing extensive tree damage on both sides of the river. Almost immediately after crossing the river, the tornado slammed into the Ellis Park horse racing facility. There was extensive damage to grandstands and housing facilities for jockeys. A few race horses were killed there.
+The tornado crossed the Ohio River a third time back into Indiana and across the southern fringes of Evansville. Here, the tornado ripped directly through the Eastbrook Mobile Home Park, obliterating numerous mobile homes and killing 20 people. Of about 350 mobile homes in the park, 100 were destroyed and another 125 were damaged. The coroner reported that most of the victims were probably killed instantly, many by spine and skull fractures. Several bodies were carried almost two hundred yards. The tornado then crossed into Warrick County, Indiana at the Angel Mounds State Historic Site. Several permanent homes were destroyed in this area, along with many others on the north side of Newburgh. Past Newburgh, the tornado reached its peak intensity (high-end F3) as it tore through an industrial park near Paradise. Further northeast, the tornado passed just south of Boonville and caused a fatality in a mobile home. The tornado then tore directly through the small community of DeGonia Springs, tossing vehicles and destroying homes. Some of the homes in the community were leveled, and three people were killed in a mobile home in this area. The tornado began to rapidly weaken as it passed just south of Tennyson, and then dissipated as it crossed into Spencer County, Indiana. Overall, the tornado damaged or destroyed 500 buildings, killed 25 people, and injured 230 others.
+Tornado warnings were in effect at the time and issued on average about 30 minutes before the tornado hit, but few people were alerted as many were asleep as the tornado hit in the overnight hours. The local NOAA Weather Radio transmitter was experiencing technical difficulties at the time, causing some weather radios to not sound an alarm. Damages were estimated at around $ 85 million.
+
+## Aftermath
+
+The community's response to the tornado garnered national praise. Brad Gair, a coordinating officer for the Federal Emergency Management Agency (FEMA) noted, " I don 't think I've ever seen a community of people come out so quickly to help each other. All communities come together after a disaster, but this one is exceptional. " A local telethon helped raise the funds. " Just having a telethon that quickly was amazing, " said Gair, " Then to raise that kind of money... That's unusual. "
+On August 12, 2006 a granite monument memorial was built at Eastbrook Mobile Home Park, along with a new playground dedicated to the children lost in the tornado. It was part of a campaign launched by two parents that lost children in the tornado. In addition, Rep. Phil Hoy introduced a bill called " CJ's law " which mandates that manufacturers of mobile homes install an operating weather radio with a separate power outlet in order to alert residents. It was named after victim C.J. Martin, who was two years old. Vanderburgh County also passed legislation toughening safety standards for their 3,100 mobile homes, requiring them to be more securely anchored with additional straps and braces, to try to prevent another tornado disaster.
+Ellis Park was rebuilt and reopened on June 1, 2006, for training. The first races at the rebuilt facility were held on July 19, 2006.
+Local television station WEHT began a campaign after the tornado to provide weather radios to tornado victims for free, and to all for a discounted price. Even WEHT's competitors have now posted how to program a weather radio on their websites. This program has since spread to many different areas of the country.
+" Habitat for Humanity " Evansville Chapter launched construction of " Operation Home Again, " the New Haven Subdivision, which are new homes dedicated to the survivors of the tornado at Green River Road and Fickas Road. The subdivision has 55 homes and playground / park. There are four streets in the subdivision – Inspiration Street, Healing Street, Promise Street, and Belief Street.
+
+## Fatalities

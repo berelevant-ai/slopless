@@ -1,0 +1,6 @@
+# I'm afraid of chemicals. How do I handle my required uni biology class?
+
+To further echo one of the comments:
+Seek professional help.  This may be a trained psychologist, or even just a general medical practitioner, who may be able to direct you to another institution if necessary. You may have access to mental healthcare through your institution if you do not otherwise have access. Specific phobias are  treatable . Formally addressing this will do two things for you:
+It may or may not help you overcome your fear. This may not be necessary just because of a single bio class alone, but it sounds like your condition is limiting your life in other ways, and this just may be a good trigger for you to seek a treatment that may improve your life in general going forward.
+However, even if the treatment is not successful, or takes too long to help you much with your class (treating phobias can be a long-term project, from my limited  understanding), your condition is now on record, which allows you to approach whatever office in your university is responsible for handling special needs students. They should be able to convince the teacher to find alternative ways for you to do the class without handling chemicals, but they will almost certainly not act unless you have documentation from a qualified medical professional.

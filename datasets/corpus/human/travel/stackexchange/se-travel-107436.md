@@ -1,0 +1,11 @@
+# Should I not use double things in a double room if I have booked it as a single guest?
+
+Being a supervisor at a well known 3/4 star hotel I speak from experience.
+If a consumable/expendable amenity has been provided in your room, it is yours. This includes personal care products, snacks, coffee, toilet paper, etc.
+Housekeepers aren't supposed to leave these items for reuse anyways and should ideally be thrown away whether you use them or not. You never know what the guest may have done to an item that appears to be untouched. I heard of a location in Texas that had a guest check in and find drugs stashed in what appeared to be a untouched shampoo bottle.
+Taking home items that are NOT depleted by their use is theft. A good example would be towels. Do not take towels home. You may however use all amenities provided to whatever extent and for whatever reasonable purpose you wish. We may not like it, but you can substitute towels for toilet paper. It may be gross, but they will be fully cleaned, sterilized, and reused.
+Use of provided amenities is factored into the cost of your room and I believe that you should always use them to get full value for your money
+My hotel chain does not provide alcohol in the rooms unless requested with official ID, so I cannot say if alcohol is yours for the room rate when stocked prior to check in.
+The number one thing that is appreciated by staff, is to leave your room as clean as possible at check out. The time to clean the room is the number one expense in a room where nothing had been stolen or damaged.
+Keep in mind that most hotels will charge you for non-disposable items such as towels or fixtures you steal, and may even press charges if the value is high enough. The same goes for most damage to a room so if you enter a room and find that something is obviously missing or damaged, report it to the front desk to avoid liability.
+EDIT: It is also acceptable to move furniture that has not been secured. If you want to join beds together, bring a table from another room you have paid for, or overturn the dresser you may do so. It might be odd and not appreciated, but as long as no damages are incurred that require maintenance to perform repairs, it is acceptable. Simply put, if you need a tool to do it, or undo it, don't.

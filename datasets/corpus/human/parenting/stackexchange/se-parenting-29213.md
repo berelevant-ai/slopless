@@ -1,0 +1,8 @@
+# What age limit is appropriate for using tools (such as screwdrivers, hacksaw, drill, etc.)?
+
+Using tools is not based on age, but instead on maturity and training.
+My 9-year-old has his own toolkit. There is a screwdriver, hammer, saw, and a couple other things that are  his .
+He needs to ask permission before "fixing" or building anything (largely to ensure it's not something I particularly want to keep in one piece). However, as we work together on projects, he learns how to use the various tools and I learn what his relative skill level is (and use that to decide how much I need to hover when he starts his own project). He can hammer unsupervised, he can't touch a drill without asking (because that's Mommy's drill, in addition to safety reasons!)
+The toolkit includes items like safety glasses and band-aids. This helps emphasize proper and safe usage; putting on goggles to protect his eyes  every time no matter what  also helps get him in the right frame of mind.  Tools are not toys , and should be used properly both for safety and effectiveness (hammers are for nails, screwdrivers for screws, etc.)
+When he's helping me on a home improvement project, he brings  his  tools even though I've got my own. They're sized for his hands and grip, and he is learning how to select the appopriate tool for the job. If he needs to borrow something, however (e.g. I've never bought him a hacksaw), he can.
+A teenager should get training on how to properly use tools to ensure that he will not injure himself (or damage the tool or work). Banning tools as dangerous restricts his ability to learn -- nobody magically has the necessary knowledge to effectively use a hacksaw once they reach a certain age, it comes with experience (and ideally with tutelage).

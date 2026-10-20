@@ -1,0 +1,6 @@
+# Is it acceptable to use words like "heaven" and "god" when the narrator is agnostic?
+
+Yes, agnostics and atheists can do anything they want with religious language!
+I am another atheist, and a practicing scientist at a university. I don't regard any entity in any religion as real or sacred, and have no problem speaking of them. I know many religious people, including half my extended family, so I am conscious of not offending them, but I don't see any problem with using religious concepts in the same way THEY do: I also don't hold my own  atheism  sacred, I don't think I have any obligation to only use atheistic language in my life. I'll use the concepts of "soul," "God", "Heaven", "Hell," "Angels" and "Demons" whenever they are good shorthand or good description for what I want to say.
+Should a person that claims to be a Christian be prohibited from reference to Zeus or Aphrodite or Cupid, Olympus, Valhalla, or the River Styx? Must I believe King Arthur was real to be allowed to refer to Galahad? Must I believe magic exists to say my character was entranced?
+Your narrator should feel free to use any language they feel conveys the scene, without apology or explanation of why. It is not a contradiction for an atheist to refer to "heaven" in a figurative manner, no more than if they referred to garden fairies or bridge trolls in a figurative manner.

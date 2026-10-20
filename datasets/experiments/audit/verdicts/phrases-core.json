@@ -1,0 +1,62 @@
+[
+  {
+    "rule": "cliches",
+    "fp_of_sampled": 14,
+    "sampled": 30,
+    "verdict": "MIXED",
+    "cause": "Rule conflates genuine idiom-cliches (\"at the end of the day\", \"easier said than done\") with: (1) literal price statements flagged as \"for free\" (6 hits where \"for free\" means zero-cost, not a cliche), (2) domain-correct technical terms (\"cutting edge science\", \"divide and conquer\" in CS/distributed systems), (3) functional compound nouns (\"decision-making process\" as a precise term for a workflow), (4) legal/commercial set phrases (\"time is of the essence\"), (5) common English idioms with no sloppy connotation (\"lion's share\" meaning majority).",
+    "fp_examples": [
+      "[business/a16z] (Cliche found: \"for free\". Replace it with specific) Notably, JPMorgan is offering instant payments for free, while fintech challengers like Stripe and Square charge a fee for the faster service.",
+      "[business/a16z] (Cliche found: \"divide and conquer\". Replace it wit) Think of it as the divide and conquer approach to scalability.",
+      "[business/a16z] (Cliche found: \"lion's share\". Replace it with spec) - If the industry stratifies, will the lion's share of the profits go to the OS and application layers as it did for PCs?"
+    ]
+  },
+  {
+    "rule": "corporate-speak",
+    "fp_of_sampled": 4,
+    "sampled": 30,
+    "verdict": "MIXED",
+    "cause": "Most \"world-class\" hits are genuine corporate-speak TPs. FPs arise when \"next level\" is used literally for an organizational hierarchy level or a karate belt rank (not as a vague intensifier), and when \"world-class research universities\" is a factual descriptor for institutions that are objectively globally ranked, not a hollow boast.",
+    "fp_examples": [
+      "[business/a16z] (Corporate-speak phrase found: \"next level\". Replac) the other employees in the company with lower titles will naturally benchmark themselves against the crappiest person at the next level. For example, if Jasper is the worst Vice President in the company, then all of the Directors will benchmark themselves against Jasper.",
+      "[business/a16z] (Corporate-speak phrase found: \"next level\". Replac) In top Dojos, in order to achieve the next level (e.g. b[lack belt])",
+      "[business/a16z] (Corporate-speak phrase found: \"world-class\". Repla) The U.S. has a very strong entrepreneurial mindset, world-class research universities that help engender forward-thinking research and development"
+    ]
+  },
+  {
+    "rule": "wordiness",
+    "fp_of_sampled": 9,
+    "sampled": 30,
+    "verdict": "MIXED",
+    "cause": "Phrases like \"in order to\", \"in an effort to\", \"despite the fact that\", \"have the ability to\" are unambiguously wordy and correct TPs. The FPs are all \"a number of\" (9 samples): this is normal, accepted English for an indefinite count; replacing every instance with \"several\" or \"many\" changes register and is not always correct (\"a number of\" can signal approximate enumeration distinct from \"several\"). The rule fires mechanically on this phrase without checking whether it adds meaning.",
+    "fp_examples": [
+      "[business/a16z] (Wordy phrase found: \"a number of\". Replace it with) You hired a search firm and saw a number of good candidates, so you felt that the candidate pool was adequate but not exceptional.",
+      "[business/a16z] (Wordy phrase found: \"a number of\". Replace it with) We're excited to see a number of companies in this space!",
+      "[business/a16z] (Wordy phrase found: \"a number of\". Replace it with) There were a number of suggestions that were specific to the company lifecycle stage"
+    ]
+  },
+  {
+    "rule": "redundancy",
+    "fp_of_sampled": 18,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "The rule's highest-volume false positive is \"mixed together\" / \"mix together\" (9 hits from Paul Graham essays and recipes): \"mix together\" is standard English where \"mix\" alone often does not carry the same meaning; the idiom is not redundant. Other FP patterns: (1) cooking-domain \"Mix together\" in recipes where it is the correct instruction term; (2) \"complete stranger\" as an intensifier idiom (not the same as \"stranger\"); (3) \"while at the same time\" used for medical or legal precision to stress simultaneity; (4) \"brief summary\" where \"brief\" adds useful length information; (5) \"future plans\" where the word distinguishes current from prospective plans; (6) \"interact with each other\" which is standard phrasing.",
+    "fp_examples": [
+      "[business/paulgraham] (Redundant phrase found: \"mixed together\". Remove t) The ideas start to get mixed together with the spin",
+      "[food/gutenberg] (Redundant phrase found: \"Mix together\". Remove the) Boil a scant half cup of rice in salted water half an hour, drain well, and measure out four heaping tablespoonfuls of it into a mixing bowl. Stir into it while hot a heaping tablespoonful of butter. Beat one egg light, add to the rice and butter with a little salt, sift half a pint of flour with ha",
+      "[gov/gov-health] (Redundant phrase found: \"while at the same time\". ) you may feel very sad, empty, or hopeless, while at the same time feeling extremely energized."
+    ]
+  },
+  {
+    "rule": "fragment-stacking",
+    "fp_of_sampled": 29,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "The rule fires on nearly every structure that is not a canonical subject-verb-object sentence: (1) transcript/dialogue turns (\"Marc: Seven.\", \"Marc: Menus.\", multiple podcast exchange lines) which are inherently short; (2) poem, toast, and event-recap verse fragments embedded in blog posts; (3) image captions (\"Left: black and white. Middle: automatically colorized.\"); (4) navigation labels and section headings (\"Forming the Company\", \"Latest Content by Marc\"); (5) rhetorical questions used as valid literary devices (\"Who better to help U.S. entrepreneurs\"); (6) terse imperative advice (\"Full stop.\"); (7) line-wrapped plain-text from Paul Graham essays where the wrapper cuts mid-sentence. The rule has no content-type or structural-context awareness and conflates intentional stylistic brevity with AI slop fragment lists.",
+    "fp_examples": [
+      "[business/a16z] (Fragment stack found: Marc: Seven. Ben: Seven year) Marc: Seven.",
+      "[business/a16z] (Fragment stack found: Left: black and white. Middl) Left: black and white. Middle: automatically colorized. Right: true color. (Source)",
+      "[business/a16z] (Fragment stack found: Here come the culture clashe) Here come the culture clashes."
+    ]
+  }
+]

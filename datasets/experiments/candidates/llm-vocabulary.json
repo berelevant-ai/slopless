@@ -1,0 +1,510 @@
+{
+  "family": "llm-vocabulary",
+  "kind": "words",
+  "items": [
+    {
+      "text": "underscore",
+      "fp_risk": "low",
+      "note": "Verb form ('this underscores...'): asserts significance without explaining it; 9.1x more common in AI text; rare in natural speech at this rate.",
+      "example": "These findings underscore the need for a more nuanced approach."
+    },
+    {
+      "text": "foster",
+      "fp_risk": "med",
+      "note": "AI uses for any positive causation; legitimate in child-welfare and education contexts but overextended to abstract nouns.",
+      "example": "This initiative fosters collaboration and innovation across teams."
+    },
+    {
+      "text": "harness",
+      "fp_risk": "med",
+      "note": "'Harness the power of X' — legitimate in engineering/equestrian contexts but AI overextends to any abstract noun.",
+      "example": "Organizations can harness the power of data to drive growth."
+    },
+    {
+      "text": "navigate",
+      "fp_risk": "med",
+      "note": "Figurative: 'navigate the complexities/landscape'; rarely means literal navigation in AI text. Already in density file but not base vocab set.",
+      "example": "Leaders must navigate the complexities of a rapidly changing market."
+    },
+    {
+      "text": "bolster",
+      "fp_risk": "low",
+      "note": "Inflated synonym for 'support' or 'strengthen'; rare in natural prose at AI density.",
+      "example": "New policies will bolster confidence in the system."
+    },
+    {
+      "text": "encompass",
+      "fp_risk": "med",
+      "note": "AI prefers over 'include' or 'cover'; signals scope-inflation without specifics.",
+      "example": "The framework encompasses a wide range of methodologies and tools."
+    },
+    {
+      "text": "resonate",
+      "fp_risk": "med",
+      "note": "Applied to any positive audience reaction; vague signal of approval without evidence.",
+      "example": "This message will resonate with audiences across demographics."
+    },
+    {
+      "text": "elucidate",
+      "fp_risk": "low",
+      "note": "Formal synonym for 'explain'; AI over-formalizes where 'explain' or 'clarify' would work; rare in casual and business prose.",
+      "example": "The report seeks to elucidate the underlying mechanisms."
+    },
+    {
+      "text": "illuminate",
+      "fp_risk": "med",
+      "note": "Figurative: 'illuminates the complexity'; metaphor AI applies mechanically to any analytical point.",
+      "example": "This case study illuminates the challenges facing modern organizations."
+    },
+    {
+      "text": "reimagine",
+      "fp_risk": "med",
+      "note": "Marketing-speak for any change regardless of magnitude; signals novelty without demonstrating it.",
+      "example": "The platform reimagines how teams collaborate and deliver results."
+    },
+    {
+      "text": "galvanize",
+      "fp_risk": "low",
+      "note": "AI extends chemistry/metallurgy term to any motivating action; rare in non-specialist prose at AI density.",
+      "example": "The crisis galvanized stakeholders into action and spurred reform."
+    },
+    {
+      "text": "garner",
+      "fp_risk": "med",
+      "note": "Slightly formal 'earn/receive'; AI prefers it over 'get' or 'earn'; flagged in Wikipedia 2023-era AI vocabulary list.",
+      "example": "The initiative has garnered widespread attention and support."
+    },
+    {
+      "text": "grapple",
+      "fp_risk": "low",
+      "note": "'Grapple with complexity' — sounds engaged without specificity; rare in non-metaphorical prose at AI frequency.",
+      "example": "Researchers continue to grapple with the complexities of this phenomenon."
+    },
+    {
+      "text": "juxtapose",
+      "fp_risk": "med",
+      "note": "AI applies to any comparison; legitimate in art criticism but overextended to business and general writing.",
+      "example": "The report juxtaposes traditional approaches with emerging solutions."
+    },
+    {
+      "text": "cultivate",
+      "fp_risk": "med",
+      "note": "AI applies to anything grown metaphorically: relationships, culture, talent — regardless of context.",
+      "example": "Leaders must cultivate a culture of trust and open communication."
+    },
+    {
+      "text": "augment",
+      "fp_risk": "low",
+      "note": "AI prefers over 'add to' or 'improve'; formal register signals AI in contexts where simpler verb would do.",
+      "example": "AI tools can augment human decision-making in meaningful ways."
+    },
+    {
+      "text": "commence",
+      "fp_risk": "low",
+      "note": "Very formal 'begin'; AI formality inflation almost never seen in ordinary prose at this rate.",
+      "example": "The project will commence in the first quarter of the year."
+    },
+    {
+      "text": "ascertain",
+      "fp_risk": "low",
+      "note": "Formal 'find out'; same AI formality-inflation pattern as 'commence' and 'elucidate'.",
+      "example": "It is difficult to ascertain the full extent of the problem."
+    },
+    {
+      "text": "robust",
+      "fp_risk": "med",
+      "note": "Used for anything described as strong, reliable, or comprehensive; 12x more common in AI text. HIGH FP in engineering docs.",
+      "example": "The platform offers a robust solution for enterprise needs."
+    },
+    {
+      "text": "seamless",
+      "fp_risk": "low",
+      "note": "Applied to any integration or process; consistent AI signal across all domains.",
+      "example": "The integration provides a seamless experience for end users."
+    },
+    {
+      "text": "meticulous",
+      "fp_risk": "low",
+      "note": "Applied indiscriminately to any careful process; NIH study found highest post-ChatGPT increase in academic writing.",
+      "example": "The team conducted a meticulous review of the data and processes."
+    },
+    {
+      "text": "multifaceted",
+      "fp_risk": "low",
+      "note": "Signals complexity without specifying the actual facets; 28x more common in AI text.",
+      "example": "This is a multifaceted challenge that requires a holistic approach."
+    },
+    {
+      "text": "nuanced",
+      "fp_risk": "med",
+      "note": "Applied without specifying what the nuance is; 22x more common in AI text. Higher FP in academic contexts.",
+      "example": "The analysis takes a nuanced look at the competing perspectives."
+    },
+    {
+      "text": "vibrant",
+      "fp_risk": "med",
+      "note": "Tourism-brochure adjective AI applies to communities, ecosystems, cultures indiscriminately. Already in base vocab set — duplicate; keep for density pool.",
+      "example": "The city boasts a vibrant culture and thriving creative scene."
+    },
+    {
+      "text": "groundbreaking",
+      "fp_risk": "med",
+      "note": "Used for routine developments; signals novelty-inflation without evidence.",
+      "example": "This groundbreaking study marks a pivotal moment in the field."
+    },
+    {
+      "text": "transformative",
+      "fp_risk": "med",
+      "note": "Same inflation pattern as 'groundbreaking'; applied to incremental improvements.",
+      "example": "AI has a transformative impact on how businesses operate and grow."
+    },
+    {
+      "text": "cutting-edge",
+      "fp_risk": "low",
+      "note": "Marketing adjective for anything modern; consistent AI signal across all content types.",
+      "example": "We leverage cutting-edge technology to deliver seamless experiences."
+    },
+    {
+      "text": "ever-evolving",
+      "fp_risk": "low",
+      "note": "Compound that sounds dynamic without saying what changed or how; very low FP in ordinary prose.",
+      "example": "In today's ever-evolving landscape, adaptability is paramount."
+    },
+    {
+      "text": "paramount",
+      "fp_risk": "low",
+      "note": "Elevated synonym for 'most important'; 9x more common in AI text; rare in natural speech.",
+      "example": "User safety is paramount in every design decision we make."
+    },
+    {
+      "text": "compelling",
+      "fp_risk": "med",
+      "note": "Applied to any argument, content, or evidence regardless of strength; signals approval without analysis.",
+      "example": "The report makes a compelling case for systemic reform."
+    },
+    {
+      "text": "innovative",
+      "fp_risk": "med",
+      "note": "Used for anything new regardless of actual novelty; especially slop in non-innovation contexts.",
+      "example": "This innovative approach sets a new standard for the industry."
+    },
+    {
+      "text": "unprecedented",
+      "fp_risk": "low",
+      "note": "Used for events that clearly have precedents; significance-inflation without evidence.",
+      "example": "The pandemic created an unprecedented demand for remote solutions."
+    },
+    {
+      "text": "actionable",
+      "fp_risk": "low",
+      "note": "Business-jargon filler ('actionable insights'); low FP outside business writing, signals AI labeling content instead of demonstrating it.",
+      "example": "This guide provides actionable tips and practical insights."
+    },
+    {
+      "text": "burgeoning",
+      "fp_risk": "low",
+      "note": "Slightly formal 'growing'; AI prefers it over 'growing' or 'emerging'; rare at AI frequency in ordinary prose.",
+      "example": "The burgeoning field of AI is reshaping industries worldwide."
+    },
+    {
+      "text": "nascent",
+      "fp_risk": "low",
+      "note": "'Nascent field/technology'; semi-formal; AI reaches for it where 'new' or 'early-stage' would do.",
+      "example": "This nascent technology holds enormous promise for the future."
+    },
+    {
+      "text": "quintessential",
+      "fp_risk": "low",
+      "note": "Applied to examples that may not be quintessential; signals exemplarity without justification.",
+      "example": "It is the quintessential example of innovation meeting purpose."
+    },
+    {
+      "text": "overarching",
+      "fp_risk": "med",
+      "note": "Signals hierarchy without specifying it; applied to any goal, theme, or principle.",
+      "example": "The overarching goal is to create value for all stakeholders."
+    },
+    {
+      "text": "commendable",
+      "fp_risk": "low",
+      "note": "Praise word that sounds evaluative rather than analytical; AI uses it to assert quality without demonstrating it.",
+      "example": "The team made commendable efforts to address these challenges."
+    },
+    {
+      "text": "profound",
+      "fp_risk": "med",
+      "note": "Applied to routine insights; signals depth without delivering it.",
+      "example": "The findings have profound implications for how we understand success."
+    },
+    {
+      "text": "enduring",
+      "fp_risk": "med",
+      "note": "AI applies to any lasting thing; flagged in Wikipedia 2023-era AI vocabulary cluster.",
+      "example": "The platform builds enduring value by fostering meaningful connections."
+    },
+    {
+      "text": "bespoke",
+      "fp_risk": "low",
+      "note": "Slightly archaic 'custom/tailored'; AI reaches for it for formality outside fashion/tailoring contexts where it originated.",
+      "example": "We offer bespoke solutions tailored to each client's unique needs."
+    },
+    {
+      "text": "nestled",
+      "fp_risk": "low",
+      "note": "Almost exclusively in tourism-brochure contexts; one of the most cited travel writing cliches; very low FP in general prose.",
+      "example": "The boutique hotel is nestled in the heart of the old town."
+    },
+    {
+      "text": "bustling",
+      "fp_risk": "low",
+      "note": "Same tourism-brochure pattern as 'nestled'; applied to any urban scene.",
+      "example": "The conference was held in the bustling heart of the city."
+    },
+    {
+      "text": "testament",
+      "fp_risk": "low",
+      "note": "'A testament to X' — applied to any positive outcome; 319x overuse ratio confirmed by IsGPT data.",
+      "example": "This achievement is a testament to the team's dedication and hard work."
+    },
+    {
+      "text": "treasure",
+      "fp_risk": "med",
+      "note": "'Treasure trove of X' pattern — applied indiscriminately as metaphor for any collection of useful things. Tag as 'treasure' to catch both 'treasure trove' and 'treasure chest of'.",
+      "example": "The archive is a treasure trove of insights for researchers."
+    },
+    {
+      "text": "synergy",
+      "fp_risk": "low",
+      "note": "Corporate buzzword AI applies beyond business contexts; low FP in non-business writing.",
+      "example": "The partnership creates synergy between technology and human expertise."
+    },
+    {
+      "text": "interplay",
+      "fp_risk": "low",
+      "note": "'The interplay between X and Y'; signals relationship without describing it; flagged in Wikipedia 2023-era vocabulary cluster.",
+      "example": "The interplay between technology and culture shapes how we communicate."
+    },
+    {
+      "text": "paradigm",
+      "fp_risk": "med",
+      "note": "'Paradigm shift' applied to incremental changes; overextended from Kuhn's original scientific meaning.",
+      "example": "This represents a paradigm shift in how organizations approach talent."
+    },
+    {
+      "text": "mosaic",
+      "fp_risk": "low",
+      "note": "Abstract visual metaphor AI cycles through as tapestry variant (also: symphony, constellation, prism, fabric).",
+      "example": "The city is a vibrant mosaic of cultures and traditions."
+    },
+    {
+      "text": "ethos",
+      "fp_risk": "low",
+      "note": "Reaches for formality where 'values' or 'culture' would do; AI over-formalizes to signal sophistication.",
+      "example": "Innovation is at the core of our company's ethos and mission."
+    },
+    {
+      "text": "cornerstone",
+      "fp_risk": "med",
+      "note": "'A cornerstone of X' — used for anything important; signals foundational importance without specifics.",
+      "example": "Trust is the cornerstone of every successful relationship and partnership."
+    },
+    {
+      "text": "essence",
+      "fp_risk": "med",
+      "note": "'The essence of X' — vague depth signal; NIH study found it among highest-increase nouns post-ChatGPT.",
+      "example": "At its essence, leadership is about empowering others to succeed."
+    },
+    {
+      "text": "implications",
+      "fp_risk": "med",
+      "note": "'The implications of X' — AI uses as section-ender without specifying what they are.",
+      "example": "The findings have wide-ranging implications for the industry."
+    },
+    {
+      "text": "blueprint",
+      "fp_risk": "med",
+      "note": "'A blueprint for X' — applied to any plan or framework, not literal architectural drawings.",
+      "example": "This framework serves as a blueprint for building resilient organizations."
+    },
+    {
+      "text": "zeitgeist",
+      "fp_risk": "low",
+      "note": "Anachronistic noun AI reaches for to sound culturally aware; very rare in ordinary prose at AI frequency.",
+      "example": "The campaign captured the zeitgeist of a generation seeking change."
+    },
+    {
+      "text": "endeavor",
+      "fp_risk": "low",
+      "note": "Formal 'effort/attempt'; AI over-formalizes where 'effort', 'project', or 'attempt' would be natural.",
+      "example": "This collaborative endeavor represents a significant step forward."
+    },
+    {
+      "text": "showcase",
+      "fp_risk": "med",
+      "note": "Neutral word AI uses where 'show' or 'demonstrate' would suffice; 9.2x more common in AI text per arXiv 2406.07016.",
+      "example": "The event will showcase the latest innovations in sustainable design."
+    },
+    {
+      "text": "streamline",
+      "fp_risk": "med",
+      "note": "Process-improvement verb applied universally; 11x more common in AI text; signals efficiency-claim without specifics.",
+      "example": "The new tool will streamline workflows and boost team productivity."
+    },
+    {
+      "text": "unleash",
+      "fp_risk": "low",
+      "note": "Hyperbolic variant of 'unlock'; AI applies to any release of potential or capability.",
+      "example": "The platform is designed to unleash creativity and drive innovation."
+    },
+    {
+      "text": "supercharge",
+      "fp_risk": "low",
+      "note": "Hyperbolic improvement verb applied universally; signals scale-inflation without evidence.",
+      "example": "AI tools can supercharge productivity and streamline everyday workflows."
+    },
+    {
+      "text": "spearhead",
+      "fp_risk": "low",
+      "note": "Military metaphor AI applies to any leadership role in an initiative; rare at AI frequency in ordinary prose.",
+      "example": "She was chosen to spearhead the company's digital transformation efforts."
+    },
+    {
+      "text": "unveil",
+      "fp_risk": "med",
+      "note": "NIH study listed it among highest-increase verbs post-ChatGPT; signals dramatic revelation applied to ordinary announcements.",
+      "example": "The company will unveil its groundbreaking platform at the annual conference."
+    },
+    {
+      "text": "align",
+      "fp_risk": "med",
+      "note": "'Aligns with X' — 16x more common in AI text per GPTZero data; signals agreement without explaining the mechanism.",
+      "example": "This approach aligns with our overarching strategic goals."
+    },
+    {
+      "text": "invaluable",
+      "fp_risk": "med",
+      "note": "Paradoxical intensifier ('so valuable it has no value'); AI applies to any useful thing indiscriminately.",
+      "example": "Customer feedback is invaluable for driving continuous improvement."
+    },
+    {
+      "text": "exemplary",
+      "fp_risk": "low",
+      "note": "Praise word asserting model quality without demonstrating it; consistent AI signal per arXiv 2406.07016.",
+      "example": "The team demonstrated exemplary commitment throughout the project."
+    },
+    {
+      "text": "myriad",
+      "fp_risk": "low",
+      "note": "Slightly archaic 'many'; AI reaches for it to sound literary; NousResearch ANTI-SLOP.md lists it as Tier 1 banned.",
+      "example": "There are myriad ways to approach this multifaceted challenge."
+    },
+    {
+      "text": "plethora",
+      "fp_risk": "low",
+      "note": "Formally means 'excess'; AI uses it casually for 'many'; NousResearch ANTI-SLOP.md lists as Tier 1 banned.",
+      "example": "A plethora of tools are available to help teams navigate these challenges."
+    },
+    {
+      "text": "holistic",
+      "fp_risk": "med",
+      "note": "Buzzword for 'considers multiple aspects'; NousResearch Tier 1 ban; already in density file — expand to base vocab set.",
+      "example": "A holistic approach is essential for addressing these multifaceted issues."
+    },
+    {
+      "text": "scalable",
+      "fp_risk": "med",
+      "note": "Already in density file; included here for base set candidate. High FP in technical/startup writing where it is a genuine requirement.",
+      "example": "The solution is designed to be flexible, robust, and scalable."
+    },
+    {
+      "text": "leverage",
+      "fp_risk": "med",
+      "note": "Corporate metonym for 'use'; legitimate in finance but overused as generic verb; already implicitly covered — confirm density set has it.",
+      "example": "Teams can leverage data-driven insights to make better decisions."
+    },
+    {
+      "text": "proactive",
+      "fp_risk": "med",
+      "note": "Business buzzword signaling initiative-taking; AI applies it as filler praise with no specifics.",
+      "example": "A proactive approach is key to navigating today's complex landscape."
+    },
+    {
+      "text": "dynamic",
+      "fp_risk": "high",
+      "note": "Used as filler modifier ('dynamic landscape', 'dynamic environment'); HIGH FP — fully legitimate in many human contexts; only meaningful at density.",
+      "example": "We operate in a dynamic and ever-evolving global environment."
+    },
+    {
+      "text": "impactful",
+      "fp_risk": "med",
+      "note": "Corporate jargon; 'impactful' is widely criticized as a non-word; AI uses it as content-quality assertion.",
+      "example": "Our mission is to create impactful solutions for a better world."
+    },
+    {
+      "text": "remarkable",
+      "fp_risk": "med",
+      "note": "Significance-inflation adjective; AI applies to routine things to assert impressiveness.",
+      "example": "The team made remarkable progress in a remarkably short period."
+    },
+    {
+      "text": "thoughtful",
+      "fp_risk": "high",
+      "note": "HIGH FP in ordinary prose; AI uses it to label its own outputs as careful without demonstrating care.",
+      "example": "The design reflects a thoughtful and comprehensive approach to user needs."
+    },
+    {
+      "text": "intentional",
+      "fp_risk": "med",
+      "note": "Already in density file; AI uses 'intentional' to assert deliberateness without specifying what choices were made.",
+      "example": "Being intentional about your goals is the cornerstone of success."
+    },
+    {
+      "text": "empower",
+      "fp_risk": "med",
+      "note": "Already in density file; generic agency verb applied to any subject; consistent signal across all content types.",
+      "example": "The platform empowers teams to collaborate and innovate at scale."
+    },
+    {
+      "text": "elevate",
+      "fp_risk": "med",
+      "note": "Already in density file; used for any improvement regardless of magnitude.",
+      "example": "This partnership will elevate our ability to deliver transformative outcomes."
+    },
+    {
+      "text": "foster",
+      "fp_risk": "med",
+      "note": "Duplicate check for density file; not yet in base llm-vocabulary set.",
+      "example": "Strong leadership can foster a culture of innovation and trust."
+    },
+    {
+      "text": "insightful",
+      "fp_risk": "low",
+      "note": "Strunk & White flag it as 'suspicious overstatement for perceptive'; AI uses it to label content as valuable without demonstrating it.",
+      "example": "The discussion was incredibly insightful and thought-provoking."
+    },
+    {
+      "text": "thought-provoking",
+      "fp_risk": "low",
+      "note": "Consistent AI adjective per arXiv 2406.07016; labels content as stimulating without demonstrating it.",
+      "example": "The keynote was a thought-provoking exploration of leadership and change."
+    },
+    {
+      "text": "underpins",
+      "fp_risk": "low",
+      "note": "'Underpin/underpins/underpinning' — AI uses to assert foundational importance; rarely appears at this rate in ordinary prose.",
+      "example": "A shared commitment to excellence underpins everything we do."
+    },
+    {
+      "text": "synergistic",
+      "fp_risk": "low",
+      "note": "Adjective form of 'synergy'; AI applies to any cooperation; very low FP outside specialized business writing.",
+      "example": "The merger created a synergistic relationship between the two brands."
+    },
+    {
+      "text": "integral",
+      "fp_risk": "med",
+      "note": "Elevated synonym for 'essential' or 'key'; AI rotates through crucial/vital/integral/paramount to avoid repetition.",
+      "example": "Trust is integral to any successful and enduring partnership."
+    }
+  ]
+}

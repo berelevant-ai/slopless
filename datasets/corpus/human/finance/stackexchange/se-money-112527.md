@@ -1,0 +1,4 @@
+# Scam? Phone call from "Department of Social Security" asking me to call back
+
+It is not a plot to rack up toll fees but to get you to pay them money to get the alleged legal proceeding halted. I too have received numerous such phone calls (most with faked Caller IDs with Area Code 202 (the area code for Washington DC)) and been told that an arrest warrant has been issued by the Federal Court in Santa Clara CA (sometimes Santa Barbara CA) and that the local police are on their way to my home to execute the warrant and pick me up. I can make all this go away by sending a money order or giving the caller a credit card number to which they can charge the amount due etc.
+There is no such thing as the Department of Social Security in the Federal Government; it is the Social Security  Administration  and it  never  calls you to tell you about legal proceedings or anything else. It is all done by mail. So yes, this call is spam. Just ignore it.

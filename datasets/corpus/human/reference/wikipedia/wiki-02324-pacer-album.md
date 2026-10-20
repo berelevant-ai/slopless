@@ -1,0 +1,34 @@
+# Pacer (album)
+
+Pacer is an album released in October 1995 by the Amps, Kim Deal's side project from her group the Breeders, who took a break from playing together beginning in late 1994. Deal recruited two new musicians and named the group the Amps. The band recorded Pacer at several studios in the USA and in Ireland, with different engineers each time, including Steve Albini, Bryce Goggin, and John Agnello.
+The album received mixed reviews, ranging from highly enthusiastic to quite dismissive. Despite radio airplay for its single, " Tipp City ", Pacer did not sell well. The Amps toured in 1995 and 1996 with groups such as Sonic Youth, Guided By Voices, and Foo Fighters. In 1996, Deal changed the band's name back to the Breeders, making Pacer the Amps ' only album.
+
+## Background
+
+Kim Deal's band the Breeders released Last Splash in August 1993; the album was very successful, and its release was followed by much touring. The Breeders then took an extended break from activity. One reason was that Deal's sister Kelley, who was also in the group, was arrested on drug charges in November 1994. Member Josephine Wiggs likewise took time away from the band, although Wiggs and Deal have different memories of the circumstances surrounding this. Wiggs recalls offering to be involved if Deal's next album was going to be a Breeders record, but having the impression that Deal wanted to do a solo release; Deal remembers Wiggs declining to be part of any immediate Breeders ' recording, but offering to be on the one after that.
+Regardless of the causes of the Breeders ' hiatus, by early 1995 Deal believed her next album would be a solo one, and at first intended to play all instruments on it herself. Back at her home in Dayton, Ohio, she practiced the drums and initially prepared six songs for recording. Around the same time, she produced some tracks for Guided by Voices at Easley Studios in Memphis, Tennessee. While there, Deal used a portion of the studio time to record demos for some of her new songs. As an attempt to distract her sister from her drug problems, Deal recruited Kelley to play on three songs at this initial recording session. Kelley's involvement changed Deal's mind about playing all the instruments herself, and she began to conceptualize the album as a band project.
+After the Easley recording session, Deal returned to Dayton. She asked Breeders ' drummer Jim Macpherson to play drums in the new project, and Dayton musicians Luis Lerma and Nate Farley to play bass and guitar, respectively. Deal adopted a stage persona for herself named Tammy Ampersand, and called the band " Tammy and the Amps "; this later evolved into simply " the Amps ". The group began by performing at small shows, and learned the songs well to prepare for recording the album. At some point during the recording sessions, Kelley's drug difficulties and rehabilitation prevented her from continuing as a member of the band.
+
+## Recording
+
+Pacer was recorded at seven studios in total, with different engineers each time. The track " Tipp City " was used from the original session at Easley Studios, recorded in February 1995 and engineered by Doug Easley and Davis McCain. The Amps ' next session was with engineer Steve Albini at his Chicago studio. Deal had previously worked with Albini on the Pixies ' Surfer Rosa and the Breeders ' Pod releases. The Amps and Albini recorded songs including further versions of " Tipp City ", which are unreleased, and " Hoverin "; an earlier version of the latter song had previously been released on the Breeders ' " Divine Hammer " single in October 1993. Other recording sessions, whose various engineers included Bryce Goggin and John Agnello, took place at studios in Long Island and Woodstock, New York, as well as Dayton, Los Angeles, and Dublin, Ireland.
+In a 1996 interview, Deal said that for Pacer, she focused on the vocals: " Usually, I tend to spend more time with the instruments. Last Splash had quite a few instrumentals and quite a few songs where I might say five words. [ On Pacer, the ] songs are all vocal-heavy. The vocal leads, and if you take the vocal away, you don 't have much of a song. " The sound of the album has been described as " lo-fi ".
+
+## Release
+
+Pacer was released in late October 1995. It peaked at No. 60 on the UK Album Chart, and No. 29 on the American Heatseekers Album chart. " Tipp City " was released as the album's single and included an alternate version of " Empty Glasses ", as well as a cover of the Tasties ' " Just Like a Briar ". The single received some radio airplay in the USA, and reached No. 61 on the UK Singles Chart, but Pacer did not sell well.
+
+## Reception
+
+Critical appraisal of Pacer has been mixed. Allmusic's Stephen Thomas Erlewine describes the album as " exciting, gut-level rock & roll ". The Rough Guide to Rock calls Pacer " satisfyingly lo-fi ". In Spin magazine, reviewer Joy Press writes that the album includes " a half-dozen gems " but that its overall " foggy sound " and " indecipherable lyrics " prevent the listener from fully embracing the work. Robert Christgau considers the album's songs to be " definitely slight " and " uneven " but praises the vocals, stating that " speedy or dreamy, Kim Deal sounds so sane, so unpretentious, so goddamn nice that you want to take her home and give her a shampoo ". In The Trouser Press Guide to ' 90s Rock, critic Ira Robbins writes that " Other than the fine title track and a few others, the performances are forced and lackluster; the production varies between flat and colorless. " The New Rolling Stone Album Guide similarly praises the title song while dismissing the rest of the album as " forgettable ".
+
+## Aftermath
+
+The Amps toured in 1995 and 1996, with bands including Guided by Voices, Sonic Youth, Brainiac, the Tasties, Helium, and Foo Fighters. Later in 1996, the group added member Carrie Bradley (who had played on Pod), and Deal changed its name back to the Breeders. The band's lineup continued to evolve, and within a few years, Deal was the only of the former Amps left in the group. Pacer is the sole album that the Amps released.
+A number of artists have covered songs from Pacer. The Muffs included a version of " Pacer " on their compilation albums Hamburger and Kaboodle. On Gigantic: A Tribute to Kim Deal, released on American Laundromat Records, the German Art Students covered " Bragging Party " and Tara King Theory, " Tipp City ". Musician Girl Talk included a sample of " Tipp City " on " Touch 2 Feel " on his album Unstoppable. The Breeders themselves released a new version of " Full on Idle " on Title TK and over the years have sometimes performed Amps ' songs at their concerts.
+
+## Track listing
+
+All songs written and composed by Kim Deal, except where noted.
+
+## Chart positions

@@ -1,0 +1,7 @@
+# Not having any white MC's?
+
+The answer I'll give you here is the same as the ones I've already given you and others: write what works for you.  If these are who the characters are, then that's who they are.  If you're forcing diversity, then it will come off as forced.  That includes making some characters white just to be diverse.
+Will you alienate or even offend some white readers?  Yes.
+But this is not the type of offense to worry about.  Some people are so used to being in the mainstream everywhere and for everything, that they loudly protest when suddenly they're not.  If they don't like your story, they can go literally anyplace else to find beautiful, stirring, authentic depictions of all sorts of white people.  Even within works about people of color.
+Some people will argue that this is exactly the same as novels only including white people.  But, no.  It isn't.  Because representation isn't just about a single work.  It's about the entirety of our culture.  Americans (and most Westerners) find white people so central to their understanding of the universe that they insert them in places they might not otherwise be and tell entire stories set in nonwhite worlds from the white character's point of view.  (I just watched  The Last King of Scotland  which does exactly this...they invented a white character for this very purpose...in a movie about real events in Uganda.)
+Write the story that matters to you.

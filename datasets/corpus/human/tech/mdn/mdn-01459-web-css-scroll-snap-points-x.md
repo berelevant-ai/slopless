@@ -1,0 +1,113 @@
+# scroll-snap-points-x
+
+The scroll-snap-points-x CSS property defines the horizontal positioning of snap points within the content of the scroll container they are applied to.
+
+/* Keyword value */
+
+scroll-snap-points-x: none;
+
+/* Repeating snap points */
+
+scroll-snap-points-x: repeat(400px);
+
+/* Global values */
+
+scroll-snap-points-x: inherit;
+
+scroll-snap-points-x: initial;
+
+scroll-snap-points-x: unset;
+
+Syntax
+
+Values
+
+none
+
+The scroll container does not define any snap points. Elements within the scroll container may still define snap points on behalf of the scroll container.
+
+repeat(<length-percentage>)
+
+Defines an interval at which snap points are defined, starting from the container's relevant start edge. Only positive lengths are allowed. Percentages refer to the width of the container.
+
+Formal definition
+
+Formal syntax
+
+Examples
+
+Setting horizontal scroll snap points
+
+HTML
+
+<div id="container">
+
+<div>1</div>
+
+<div>2</div>
+
+<div>3</div>
+
+</div>
+
+CSS
+
+#container {
+
+width: 200px;
+
+overflow: auto;
+
+white-space: nowrap;
+
+scroll-snap-points-x: repeat(100%);
+
+scroll-snap-type: mandatory;
+
+font-size: 0;
+
+}
+
+#container > div {
+
+width: 200px;
+
+height: 200px;
+
+display: inline-block;
+
+line-height: 200px;
+
+text-align: center;
+
+font-size: 100px;
+
+}
+
+#container > div:nth-child(even) {
+
+background-color: #87ea87;
+
+}
+
+#container > div:nth-child(odd) {
+
+background-color: #87ccea;
+
+}
+
+Result
+
+Specifications
+
+Not part of any standard.
+
+Browser compatibility
+
+The compatibility table on this page is generated from structured data. If you'd like to contribute to the data, please check out https://github.com/mdn/browser-compat-data and send us a pull request.
+
+See also
+
+CSS Scroll Snap
+
+Well-Controlled Scrolling with CSS Scroll Snap

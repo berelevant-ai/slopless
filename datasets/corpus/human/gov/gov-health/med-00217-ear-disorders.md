@@ -1,0 +1,15 @@
+# Ear Disorders
+
+Your ear has three main parts: outer, middle and inner. You use all of them in hearing. Sound waves come in through your outer ear. They reach your middle ear, where they make your eardrum vibrate. The vibrations are transmitted through three tiny bones, called ossicles, in your middle ear. The vibrations travel to your inner ear, a snail-shaped organ. The inner ear makes the nerve impulses that are sent to the brain. Your brain recognizes them as sounds. The inner ear also controls balance.
+
+A variety of conditions may affect your hearing or balance:
+
+- Ear infections are the most common illness in infants and young children.
+
+- Tinnitus, a roaring in your ears, can be the result of loud noises, medicines or a variety of other causes.
+
+- Meniere's disease may be the result of fluid problems in your inner ear; its symptoms include tinnitus and dizziness.
+
+- Ear barotrauma is an injury to your ear because of changes in barometric (air) or water pressure.
+
+Some ear disorders can result in hearing disorders and deafness.

@@ -1,0 +1,12 @@
+# Washington State Route 168
+
+State Route 168 (SR 168) is a legislated, but not constructed, state highway located in Washington, United States. The highway is meant to serve as an alternate crossing through the Cascade Range, supplementing the seasonal Chinook Pass on SR 410. Proposals were first drawn in the 1930s, and the highway has been codified in law under its current designation since 1970, however no construction has occurred.
+
+## Route description
+
+The highway is legislated to begin in Greenwater, in Pierce County, at a junction with SR 410. The road would continue east through Mount Baker-Snoqualmie National Forest, Naches Pass, and Wenatchee National Forest to its eastern terminus with SR 410 north of Cliffdell, in Yakima County. The highway would pass near Pyramid Peak, which has a maximum altitude of 5,718 ft (1,743 m). Currently, a crossing similar to the legislated highway is covered by a variety of Forest Routes, including Road 19 and Road 70.
+Two main reasons for creating the highway exist. First, SR 168 would be an all-season route through Naches Pass (elevation 4,923 feet (1,501 m)). SR 410 closes annually due to avalanche dangers near Chinook Pass (elevation 5,430 feet (1,655 m)). Second, SR 168 would allow commercial vehicles to bypass Mount Rainier National Park, where they are prohibited on SR 410. The current restriction detours commercial traffic south to U.S. Route 12 over White Pass or north to Interstate 90 over Snoqualmie Pass.
+
+## History
+
+Plans for a Naches Tunnel or highway date back to the early 1930s, designated as the Naches Pass Link of Primary State Highway 5. The state legislature appropriated $ 50 thousand (equivalent to $ 3.58 million in 2015) for a study on the feasibility of a new highway. In the early 1960s, Governor Albert Rosellini established a committee to study the feasibility of a toll road. The route was considered feasible by the committee, and they estimated tolls of $ 1.50 per vehicle (equivalent to $ 28.00 in 2015) would need to be levied to pay for the highway. Proponents of the new highway were pushing to have U.S. Route 10 routed over the pass, away from the routing over Snoqualmie Pass; however this never occurred. Ultimately, the highway was not built as the state considered the highway unfeasible. The highway has been codified in Washington law since 1970, while the tunnel through Naches Pass has been codified in state law since 1959.

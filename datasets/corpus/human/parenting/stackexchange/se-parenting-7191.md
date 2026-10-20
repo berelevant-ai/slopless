@@ -1,0 +1,6 @@
+# Just found out my daughter might be gay. Now what?
+
+First, ask yourself honestly: would you react the same way if it were a friend of the opposite gender?  Or is part of your reaction based on gender and gender preference?  If it is, step away from this and get hold of yourself first.  She's 14 and learning about herself.  She has a first crush; do you remember your first love?  It seems all-encompassing at the time to the persons involved but it will not permanently change anything about the daughter you have raised and love.
+And do not go to the other parents unless you fear something illegal (drugs, criminal behavior) is going on.  A first crush between teenagers is perfectly normal and natural and not something to freak out over.  Make this a  huge  deal and you will likely get the opposite response that you're looking for; the girls will stick together and get secretive, and you will have built a nice thick wall between you and your daughter that could take  years  to break down.
+If you need some face-to-face perspective, try finding a local group of PFLAG for support   ( Parents, Families, & Friends of Lesbians and Gays ).
+And I strongly recommend listening to Dan Savage's podcast; he's had several episodes of kids coming out to their parents and how it can affect everyone, and that can give you an idea of how to proceed.

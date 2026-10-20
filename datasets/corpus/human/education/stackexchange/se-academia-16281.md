@@ -1,0 +1,13 @@
+# "You are paid to answer my questions!" - how to handle silly questions?
+
+I got angry, but. . how should I handle similar situations?
+Got angry? No good!
+You're not necessarily paid to answer his question but you are paid to help advance knowledge and learning.
+Unfortunately, the tone of your answer doesn't let us know exactly how "silly" the question was (was it silly because it was personal question that had no bearing on the course? Was it silly because it was not relevant to the course material but possibly relevant to the overall subject? Was it silly because you had already covered the material in class? Was it silly because he was asking at the end of the lab session?) so unfortunately the exact way in which to respond might vary, but you might try:
+If it's a matter of time and you can't answer it because you have to clear the room, tell him, "Give me a few minutes to pack up my things to get out of the classroom." Clear the room, entertain question.
+If it's a matter of you having another appointment, then get him to submit the question over email or in writing or before next class.
+If it's silly because it's not related to the lecture, I usually do my best to entertain these kinds of questions because it sometimes means the student is interested in other topics around the material. If my class is on object-oriented design and programming in Java, but the student asks me about "how can you use design in procedural programming languages like C?" I'd probably give some ideas on how it could apply to that situation.
+If it's a personal question that you don't want to answer, you can say, "I don't feel comfortable answering that", "It's none of your business", "I can't talk about this", or similar.
+If it's a stupid question because it's sooooo obvious or because you covered it before, then, sorry, it's not a silly question but is something the student needs explanations for. Get him to visit you over office hours for extra help.
+If it's a matter of the student talking on and wasting time with questions, then you can ask the student politely to keep questions for after the class. If the student is trolling you with questions and is otherwise being a nuisance this option usually works as well.
+Yes, it is rude for him to declare "You are paid to answer my questions!" but it's also rude to say that "Your question is silly". You are the teacher, the role model, the example, so you should be more patient with them than they are with you. Besides, if you tell them  you'll answer it later, you can simply say, "Just wait - I haven't answered your question  yet ."

@@ -1,0 +1,9 @@
+# What is a reasonable rate of weight loss to work towards?
+
+You lose weight because you either eat less or exercise more.  So it will depend on a combination of those two how fast you would lose weight.
+Since 1 kg fat gives your body 7000 kcal of energy, 7000kcal/14 days =  500 kcal/day.
+It depends on your activity level, your job and lifestyle whether that's a healthy goal. The purpose of any diet is not just to lose, but also keep off any weight you lose. So rushing yourself only to swing back a couple of months later won't do you any good.
+So what can you do?  Get more exercise, but here exercise means working out at 50-60% of your maximal heart rate, examples? Take the stairs at work, cycle to your work or for grocery shopping, get a dog and walk it each day, take a stroll through the park at lunch, anything that will keep you moving.
+On top of that, like the other mentioned: pick a sport and set yourself a goal. I prefer running, because you'll be burning lots of calories from the start and it will only get more once you're able to run longer. While jogging for 20 minutes may seem like a bad exercise, you'll be surprised how long you'll be able to run three or six months from now. If you can run 5 km every other day, you'll be burning at least 5000 kcal a month, so you'll keep losing weight as long as you keep it up.
+My take home message:  The goal is not to lose a kilo every 2 weeks now, but to permanently keep them off for the rest of your life. You're working out to improve your  fitness , so you'll be able to lose weight once you're fit enough.
+And perhaps more importantly: there's a strong correlation between your capacity for exercise and your general health. So you should be working out regardless of your weight, losing weight in the process just makes it more worthwhile.

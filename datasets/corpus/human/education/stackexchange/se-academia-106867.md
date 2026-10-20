@@ -1,0 +1,5 @@
+# How to react when encountering students who have previously failed my course?
+
+Since you are at a small liberal arts college, I think you should not underestimate how much your own actions contribute to the culture of the college community. The notion of "avoiding" students is not something that you or your college wants to be known for (I imagine)! I think it is always best happily greet students that you know, perhaps ask them how things are going, etc. On some level, this kind of pleasant behavior is a professional obligation.
+I don't think you should act any differently towards students who have failed your course (vs. students who did not fail, or haven't taken a course from you, etc.). Be cordial, and if the student wants to avoid you, then let them.
+I will add that, while it's possible the student is mad at you, they may also be some combination of embarrassed and mad at themselves for failing. If they are embarrassed, then you avoiding them might make them feel worse, and you engaging with them might help them to get over the embarrassment.

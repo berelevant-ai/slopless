@@ -1,0 +1,7 @@
+# A critic made a comment that my female character sounds like she was written by a man
+
+There appears to be a difference in how men and women speak and write.
+Linguists have found that writing by women is more "involved", while writing by men is more "informational". For example, women use more pronouns, men use more noun specifiers. Women use "the" differently than men. If you are interested in learning about male versus female linguistic styles,  you can research this .
+What is important is that you need to recognize that your protagonist doesn't sound like a man because of  what  she says alone, but also because of   how   she says it, and because of  how you write  the non-dialogue narrative of her thoughts, emotions, and perceptions. You write like a man, and therefore if you write a female charater's first person perspective, she sounds like a man.
+As a solution I would recommend that you look at similar characters (the female marine/female engineer/tough girl) written by female authors and try to emulate their language.
+Most authors are imprisoned in their own personal style, and experimenting with writing in the style of another author is a great exercise to make your own writing more flexible and to raise your awareness of the subliminal messages of your personal use of language. In this case, you unwittingly communicate "I'm a man". So learn to control that aspect of your writing by analysing and trying the styles of female authors.

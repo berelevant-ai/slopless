@@ -67,11 +67,12 @@ def direct_count(
     path: Path,
     direct_rules: set[str],
 ) -> int:
-    expected = str(path.resolve())
+    expected = path.resolve()
     count = 0
 
     for result in results:
-        if result.get("filePath") != expected:
+        reported = result.get("filePath")
+        if not isinstance(reported, str) or (ROOT / reported).resolve() != expected:
             continue
 
         messages = result.get("messages")

@@ -1,0 +1,19 @@
+“‘T’ maister nobbut just buried, and Sabbath not o’ered, und t’ sound o’ t’ gospel still i’ yer lugs, and ye darr be laiking! Shame on ye! sit ye down, ill childer! there’s good books eneugh if ye’ll read ’em: sit ye down, and think o’ yer sowls!’
+
+“Saying this, he compelled us so to square our positions that we might receive from the far-off fire a dull ray to show us the text of the lumber he thrust upon us. I could not bear the employment. I took my dingy volume by the scroop, and hurled it into the dog-kennel, vowing I hated a good book. Heathcliff kicked his to the same place. Then there was a hubbub!
+
+“‘Maister Hindley!’ shouted our chaplain. ‘Maister, coom hither! Miss Cathy’s riven th’ back off “Th’ Helmet o’ Salvation,” un’ Heathcliff’s pawsed his fit into t’ first part o’ “T’ Brooad Way to Destruction!” It’s fair flaysome that ye let ’em go on this gait. Ech! th’ owd man wad ha’ laced ’em properly—but he’s goan!’
+
+“Hindley hurried up from his paradise on the hearth, and seizing one of us by the collar, and the other by the arm, hurled both into the back-kitchen; where, Joseph asseverated, ‘owd Nick’ would fetch us as sure as we were living: and, so comforted, we each sought a separate nook to await his advent. I reached this book, and a pot of ink from a shelf, and pushed the house-door ajar to give me light, and I have got the time on with writing for twenty minutes; but my companion is impatient, and proposes that we should appropriate the dairywoman’s cloak, and have a scamper on the moors, under its shelter. A pleasant suggestion—and then, if the surly old man come in, he may believe his prophecy verified—we cannot be damper, or colder, in the rain than we are here.”
+
+* * * * * *
+
+I suppose Catherine fulfilled her project, for the next sentence took up another subject: she waxed lachrymose.
+
+“How little did I dream that Hindley would ever make me cry so!” she wrote. “My head aches, till I cannot keep it on the pillow; and still I can’t give over. Poor Heathcliff! Hindley calls him a vagabond, and won’t let him sit with us, nor eat with us any more; and, he says, he and I must not play together, and threatens to turn him out of the house if we break his orders. He has been blaming our father (how dared he?) for treating H. too liberally; and swears he will reduce him to his right place—”
+
+* * * * * *
+
+I began to nod drowsily over the dim page: my eye wandered from manuscript to print. I saw a red ornamented title—“Seventy Times Seven, and the First of the Seventy-First. A Pious Discourse delivered by the Reverend Jabez Branderham, in the Chapel of Gimmerden Sough.” And while I was, half-consciously, worrying my brain to guess what Jabez Branderham would make of his subject, I sank back in bed, and fell asleep. Alas, for the effects of bad tea and bad temper! What else could it be that made me pass such a terrible night? I don’t remember another that I can at all compare with it since I was capable of suffering.
+
+I began to dream, almost before I ceased to be sensible of my locality. I thought it was morning; and I had set out on my way home, with Joseph for a guide. The snow lay yards deep in our road; and, as we floundered on, my companion wearied me with constant reproaches that I had not brought a pilgrim’s staff: telling me that I could never get into the house without one, and boastfully flourishing a heavy-headed cudgel, which I understood to be so denominated. For a moment I considered it absurd that I should need such a weapon to gain admittance into my own residence. Then a new idea flashed across me. I was not going there: we were journeying to hear the famous Jabez Branderham preach, from the text—“Seventy Times Seven;” and either Joseph, the preacher, or I had committed the “First of the Seventy-First,” and were to be publicly exposed and excommunicated.

@@ -1,0 +1,6 @@
+# Is it wrong if I kill off a black character?
+
+Killing a minority character isn't a problem in itself. The problem is that western media (particularly film) has  a long tradition of killing of minority characters and leaving white protagonists to complete the plot .  It is a habit that is rooted in racism, and not one that you want to add weight to without due consideration.
+Now, if this character's ethnicity is an important part of their character, and their death is an important part of the plot then by all means continue. Just last week I read a story by Seanan McGuire (the story itself will remain nameless to avoid spoilers) where the first death was a minority character, and McGuire is extremely conscious of minority representation. But the character's minority status played an important part in shaping the part of her character that got her killed, and the story would not have worked quite right any other way.
+On the other hand if the ethnicities of your characters are less deeply imbedded in their personalities then try switching them around a bit, and see what happens.
+In Summary : Even if a plotting/character decision which is made completely isolated from any racist impulses it can still add weight to external racist trends.  If you can avoid inadvertently supplementing racism this way without sacrificing your story, then definitely do so.

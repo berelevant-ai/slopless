@@ -1,0 +1,21 @@
+CHAPTER IV
+
+ENTER LINNET
+
+Lunch on the summit was delicious that day, and the view was glorious. But when they returned in the evening to the inn at St Valentin—that was the name of their village—and described to Andreas Hausberger how an alp-girl had sung for them in a mountain hut, the _wirth_ listened to the description with a deprecatory smile, and then said with a little shrug: “Ah, that was Philippina; she can’t do very much. Her high notes are too shrill. You should just hear Linnet!”
+
+“Is Linnet such a songstress then?” Florian cried, with that dubious smile of his.
+
+The _wirth_ looked grave. “She can _sing_,” he said, pointedly. His dignity was hurt by the young man’s half-sceptical, half-bantering tone. And your Tyroler is above all things conservative of his dignity.
+
+These repeated commendations of this unknown Linnet, however, with her quaintly pretty un-German-sounding name, piqued the two Englishmen’s curiosity in no small degree as to her personality and powers, so that when the _wirth_ next morning announced after breakfast, with a self-satisfied smile, “Linnet’s coming down to-day,” Florian and Will looked across at each other with one accord, and exclaimed in unison, “Ah, now then, we shall see her!”
+
+And, sure enough, about five o’clock that afternoon, as the strangers were returning from a long stroll on the wooded heights that overhang the village, they came unexpectedly, at a turn of the mountain footpath, where two roads ran together, upon a quaint and picturesque Arcadian procession. A long string of patient cows, in the cream-coloured coats of all Tyrolese cattle, wound their way with cautious steps down the cobble-paved zig-zags. A tinkling bell hung by a leather belt from the neck of each; garlands of wild flowers festooned their horns; a group of peasant children assisted at the rude pageant. In front walked a boy, with a wreath slung across his right shoulder like a sash, leading the foremost cow most unceremoniously by the horns; the rear was brought up by a pretty sunburnt girl, with a bunch of soft pasque-flowers stuck daintily in her brown hair, and a nosegay of bluebells peeping coquettishly out of her full round bosom. Though vigorous-looking in figure, and bronzed in face by the sun and the open air, she was of finer mould and more delicate fibre, Will saw at a glance, than most of the common peasant women in that workaday valley. Her features were full but regular; her mouth, though large and very rich in the lips (as is often the case with singers), was yet rosy and attractive; her eyes were full of fire, after the true Tyrolese fashion; her rounded throat, just then trembling with song, had a waxy softness of outline in its curves and quivers that betrayed in a moment a deep musical nature. For she was singing as she went, to the jingling accompaniment of some thirty cow-bells; and not even the sweet distraction of that rustic discord could hide from Will Deverill’s quick, appreciative ear the fact that he stood here face to face with a vocalist of rare natural gifts, and some homespun training.
+
+He paused, behind the wall, as the procession wound round a long double bend, and listened, all ears, to a verse or two of her simple but exquisite music.
+
+“This _must_ be Linnet!” he cried at last, turning abruptly to Florian.
+
+And the boy at the head of the procession, now opposite him by the bend, catching at the general drift of the words with real Tyrolese quickness, called out with a loud laugh to the singer just above: “Sagt er, das musz ja Linnet seyn!” and then exploded with merriment at the bare idea that the Herrschaft should have heard the name and fame of his companion.
+
+As for the girl herself, surprised and taken aback at this sudden interruption, she stood still and hesitated. For a moment she paused, leaning hard on the long stick with which she guided and admonished her vagrant cows; then she looked up and drew a long breath, looked down and blushed, looked up once more and smiled, looked down and blushed again. They had overtaken her unawares where the paths ran together; but as each was enclosed with a high wall of granite boulders, overgrown with brambles, she had no chance of perceiving them till they were close upon her. She broke off her song at once, and stood crimson-faced beside them.

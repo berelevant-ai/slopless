@@ -1,0 +1,50 @@
+# OSI (band)
+
+OSI is an American progressive rock band, originally formed by Fates Warning guitarist Jim Matheos in 2002. Chroma Key keyboardist and vocalist Kevin Moore is the only other full-time member of the band. The collaboration may be considered a studio project, as its members and contributors write and track most of their material independently, sharing and developing tracks long-distance, only coming together at the end of the process for mixing and additional tracking. The band's name is a reference to the Office of Strategic Influence, a short-lived American government agency formed in 2001 to support the War on Terror through propaganda. The band has featured a number of guest musicians on its albums, including Sean Malone, Steven Wilson, Mikael Åkerfeldt, Joey Vera and Gavin Harrison.
+Matheos recruited Moore, Dream Theater's then-drummer Mike Portnoy and Sean Malone (Fretless Bass and Chapman Stickist) to perform on what was originally planned to be a Matheos solo album. Matheos and Portnoy originally planned to produce a progressive metal album similar to Matheos ' work in Fates Warning, however Moore's impact changed the music's direction and genre, incorporating electronica into the original progressive metal sound. The band's debut album was released by InsideOut Music in 2003.
+OSI was originally intended to be a one-off project, but Matheos and Moore found they both had gaps in their schedules so produced a follow-up. Free was released in 2006, with Portnoy returning to play drums as a session musician rather than a full band member, due to personal and musical differences between him and Moore. Blood was released in 2009, with Porcupine Tree drummer Gavin Harrison replacing Portnoy. The fourth album Fire Make Thunder was released in 2012 by Metal Blade Records, with Harrison once again on drums.
+
+## History
+
+
+### Formation and Office of Strategic Influence (2002 – 2003)
+
+Fates Warning guitarist Jim Matheos originally intended to create a progressive metal supergroup while Fates Warning went on hiatus. He recruited Cynic & Gordian Knot Fretless Bass and Chapman Stickist Sean Malone and then-Dream Theater drummer Mike Portnoy to work on the project. Matheos then asked Chroma Key and ex-Dream Theater keyboardist Kevin Moore to contribute by adding keyboard arrangements to the music he had written. Moore instead heavily edited the music, changing the song structures and adding vocals. Matheos decided to pursue this new direction, sounding closer to Chroma Key than standard progressive metal, over his and Portnoy's original idea.
+Many vocalists were considered to perform on the album; Matheos and Portnoy briefly considered having a different vocalist perform on each track. Daniel Gildenlöw of Pain of Salvation wrote some vocal melodies and lyrics, but Moore ultimately performed most of the vocals and wrote most of the lyrics. Steven Wilson of Porcupine Tree wrote lyrics and performed vocals on one track. Cynic and Gordian Knot bassist Sean Malone performed bass, but was credited as a guest musician because his schedule meant he was unable to join Matheos, Moore and Portnoy for the basic tracking sessions.
+Matheos, Moore and Portnoy recorded the album at Carriage House Studios in Stamford, Connecticut from June 2 to June 9, 2002. Songs with a strong progressive metal influence were mostly written by Matheos, while Moore had greater influence over the vocal-driven tracks. Portnoy made minor arrangement suggestions but did not take part in the actual writing of the album. The album's recording sessions were the first time Moore and Portnoy collaborated since 1994 in their work in Dream Theater. In 2009, Portnoy recalled that he found the experience of making the record difficult, and that he was frustrated by the lack of collaboration between him and Moore. Differences between Moore and Portnoy led to his return on the follow-up album as a session drummer rather than full-time member.
+InsideOut Music released Office of Strategic Influence on February 17, 2003. Moore chose the group's name and album's title, referring to the Office of Strategic Influence, established by the US Government after the September 11 attacks to spread propaganda. The album was critically well received. Critics praised the members ' musicianship and the fact that the album differed significantly from the members ' other projects.
+
+### Free and Blood (2005 – 2009)
+
+Matheos and Moore did not plan to make a second OSI album, and returned to their own projects after the first album's completion. In 2005, they both had free schedules, so decided to produce a follow-up album. Joey Vera (also of Fates Warning) played bass on the album. Portnoy originally told Matheos and Moore that he did not want to perform drums on the album, but was persuaded to perform on the album as a session musician.
+Free was released on April 24, 2006, receiving generally positive critical reception. Critics noted that the album was darker and more keyboard-focused than the band's debut. re: free, an EP featuring remixes of three tracks from Free, was released on October 24, 2006. The band were keen to tour in support of Free, but no live shows materialised. " The reality of it is in order to [ tour ] the way we would like... and present it the way we would want to present it... would cost too much money for the kind of fan base that we have right now, " Matheos said in 2009. In 2010 he anticipated that OSI will " remain a studio band. "
+In September 2008, Moore posted an update on the Chroma Key website, stating that he and Matheos had been working on a third OSI album for several months. Portnoy was replaced by Porcupine Tree drummer Gavin Harrison and Matheos played bass on the album. Opeth vocalist and guitarist Mikael Åkerfeldt and No-Man vocalist Tim Bowness wrote lyrics and sang on one track each.
+Blood was released on April 27, 2009 in Europe and May 19 in North America. The album received positive reviews: Andrew Reilly of Madeloud said that " with Blood the two have finally found the stylistic fusion their first two discs hinted at ", and praised Harrison's drumming.
+
+### Fire Make Thunder (2010 – 2012)
+
+In 2010, OSI signed with Metal Blade Records. The label reissued Office of Strategic Influence on September 28, 2010.
+Written and recorded throughout most of 2011, OSI's fourth album " Fire Make Thunder " was released on March 27, 2012. Gavin Harrison of Porcupine Tree was once again enlisted as session drummer along with a co-writing credit for the song " Enemy Prayer ". All other instruments and programming were performed by Matheos and Moore, while lyrics and vocals were handled exclusively by Moore. The recordings for the album, with the exception of drums, were performed at the musician's respective home studio. In July 2011 at Sound Farm Studio & Recording Environment final overdubs as well as some additional writing and arranging were completed. The band mixed the album alongside engineer Matt Sepanic. Engineer Roger Siebel handled the final mastering. The record was produced by both Moore and Matheos. During the development process, Kevin Moore kept frequent updates referring to the mixing process of the album on his official Facebook and Twitter accounts.
+
+## Musical style
+
+Moore has described OSI's sound as " a new approach to progressive rock ", combining elements of progressive metal and electronica. Moore considers the two genres to be " almost natural enemies ", and that the conflict between the two genres " keeps [ the music ] interesting ". Matheos cites progressive rock and heavy metal bands such as Genesis, Jethro Tull, Black Sabbath and UFO as influences. Moore described his influences as minimal techno, experimental, electronic musicians and " bands that play live and then chop it up ".
+Matheos and Moore primarily work alone, exchanging files and ideas by email. The writing process for all OSI's albums has been the same, with Matheos sending Moore an idea " from just a guitar riff to elaborate, almost completed songs ", which Moore then edits and sends back to Matheos. Moore, the band's vocalist and lyricist, has described the process of writing lyrics as an " audio Rorschach test ". The lyrics on Office of Strategic Influence feature political themes, but the lyrics on later releases are less political, instead being based on Moore's personal experiences. " I'll start writing a song that has a little bit of a world view or political view or something, " he said, " but then by the time I'm finished the lyrics it'll be about a relationship or something like that. " On Blood, Moore largely abandoned his earlier stream-of-consciousness approach to writing lyrics, in an attempt to make the lyrics more coherent. " I didn 't want it to be like ' Oh, you get your own impression of the lyrics. Everybody has their own idea! ' I wanted to have an idea that I wanted to communicate, and something communicable, " he explained.
+Moore has acknowledged the narrow range of his vocals. He considers his vocal style to " [ come ] from how I feel when I ’ m singing, when I'm in the zone of writing lyrics and recording which, a lot of times, comes as the same time. It's sort of an introspective time. A lot of the material lends itself to that kind of voice and that kind of spirit. "
+
+## Members
+
+Current members
+Jim Matheos (Fates Warning) – guitars, bass (Since Blood), keyboards, programming
+Kevin Moore (Chroma Key, ex-Dream Theater) – vocals, keyboards, programming
+Former members
+Mike Portnoy (ex-Dream Theater) – drums on Office of Strategic Influence as a full band member and on Free as a session musician
+Guest musicians
+Gavin Harrison (Porcupine Tree) – drums on Blood and Fire Make Thunder
+Sean Malone (Gordian Knot, Cynic) – bass, Chapman Stick on Office of Strategic Influence
+Joey Vera (Fates Warning) – bass on Free
+Steven Wilson (Porcupine Tree) – vocals on the track " shutDOWN " on Office of Strategic Influence
+Tim Bowness (No-Man) – vocals on the track " No Celebrations " on Blood
+Mikael Åkerfeldt (Opeth) – vocals on the track " Stockholm " on Blood
+
+## Discography

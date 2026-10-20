@@ -1,0 +1,5 @@
+# Does blood donation reduce the risk of cardiovascular disease?
+
+While answering  this question  about the possible detrimental effects of iron deficiency caused by frequent blood donation, I was reminded of a theory I heard long ago about a possible  benefit  of mild iron deficiency for reducing cardiovascular disease. The theory goes that the lower incidence of cardiovascular disease in pre-menopausal women (vs men of a similar age) is due to mild, chronic iron deficiency induced by menstruation.
+I found some  old observational literature  suggesting that there might be an association between blood donation and decreased incidence of cardiovascular disease. Somewhat more recently, a  large retrospective study  seemed to support this. However, neither is a controlled study, and I’ve not heard this possible benefit promulgated by the Red Cross or anyone else collecting blood.
+Are there strong randomized data in support of the idea that regular blood donation reduces cardiovascular risk? Has the “optimal” hemoglobin concentration been determined?

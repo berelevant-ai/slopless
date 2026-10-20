@@ -1,0 +1,19 @@
+# Has the 9th Circuit Court been overturned 80% of the time?
+
+Summary
+It depends on your interpretation of the claim.
+Were 80% of  all  9th Circuit Court decisions overturned?  NO , not even close.
+Were 80% of the small minority of 9th Circuit Court decisions that made it to review by the Supreme Court overturned?  Yes .
+Only 0.12% of cases ruled on by the 9th circuit were overturned. 99.85% of cases were not heard by the Supreme Court. 0.03% of cases were confirmed by the Supreme Court.
+In the remaining 99.88% of cases, the Supreme Court either wasn't brought in, chose not to take the case or approved of the 9th circuit's rulings.
+This is from the  data  found by DavePhD. The total number of cases decided by the 9th circuit court of appeals was 114,199. Of that number, 107 were reversed, 33 were vacated, and 35 affirmed by the Supreme Court.
+A total of 0.15% of 9th circuit cases were heard by the Supreme Court
+Of those cases, 80% were overturned (reversed or vacated). This is the "Reversal Rate" and is the number they are using. The quote omits the fact that the "Reversal Rate", as understood by lawyers, does not include cases that weren't reviewed by the Supreme Court.
+Cases referred to the Supreme Court are not a random sample of cases decided. They are selected by one of the parties to the case (usually the loser) because that party believes that there is an error of law in the decision and are willing to spend a great deal of money to have that perceived error verified. As such, cases referred to the Supreme Court are preferentially the ones most likely to contain a reviewable error of law and therefore be overturned.
+Nevertheless, with  data  from Brythan (see their excellent answer), the Supreme Court sees approximately 7,000-8,000 petitions for writs of certiorari each term, only 80 of which they agree to take. Assuming the larger number for simplicity, that means 1% of cases requested for review are reviewed. Given that court reviewed 175 cases in the given time frame for the given court, we can extrapolate an approximate 17,500 cases were requested for review within those parameters.
+This would give an approximate breakdown of 84.7% of cases weren't even considered by the Supreme Court, 15.1% of cases were declined by the Supreme Court, 0.12% of cases were overturned, and 0.03% of cases were confirmed.
+Therefore, the biggest deciding factor from a purely statistical point of view, is "Will the Supreme Court hear the case"? 99% odds they won't, even with a petition. If you hit that 1% odds, then you have 80% odds of the case being overturned. Of course, there's actually an 84.7% chance you won't even seek the Supreme Court. But these numbers assume a randomly selected case, or that the decisions in a future case will be randomly made according to the past-performance statistics.
+The case in question isn't going to be decided by statistics, but by judges making non-random decisions. The chances of the Supreme Court taking the case, and in fact whether they would overturn the decision of the lower court, cannot be determined by the past performance of all cases. The particulars of the case have a significant impact on the outcome, and neither the original articles, nor the statistics given here, take the particulars into account.
+In short, they've taken a number that applies to a very small sliver of data and claimed it applies to all the data.
+They've built an argument around that small sliver in order to make a claim that applies to the entirety of the 9th circuit. Sometimes they acknowledge that the data only applies to a subset, but they fail to clarify just how minuscule that subset is.
+This is a common fallacy called the Statistics of Small Numbers fallacy or the  Hasty Generalization  fallacy, and also shows  Selection Bias .

@@ -1,0 +1,51 @@
+# Antarctica: Empire of the Penguin
+
+Antarctica: Empire of the Penguin is a theme area at SeaWorld Orlando headlined by a first-of-its-kind motion-based, trackless dark ride. The attraction opened on May 24, 2013 as the largest attraction at any SeaWorld Entertainment theme park. The area was generally well received by critics and the public at its opening.
+
+## History
+
+
+### Rumors and announcement
+
+In August and September 2011, SeaWorld Entertainment filed trademarks for " Antarctica " to be used for a theme area, and " Empire of the Penguins " to be used for an amusement ride. This led to rumors that SeaWorld Orlando would replace its " Penguin Encounter " exhibit with a dark ride. A report by the Orlando Sentinel in October 2011 confirmed these plans, citing " government filings and interviews with people familiar with various elements ". At the time, SeaWorld Orlando would not publicly reveal its plans.
+On November 8, 2011 SeaWorld Orlando announced a multi-year expansion plan featuring the opening of Turtle Trek in 2012 and " Antarctica: Empire of the Penguin " in 2013. Although details of the ride were not released, creative director Brian Morrow said that the ride would be the coldest attraction in the world and would follow the journey of a tiny penguin. On April 24, 2012, the park revealed further details about the attraction: guests would ride in eight-person vehicles, choosing among two levels of intensity (" Mild " or " Wild "). The surrounding area would also feature a new penguin habitat, restaurant and store.
+
+### Construction
+
+To allow construction to begin, SeaWorld Orlando closed Penguin Encounter, Friends of the Wild and the Antarctic Market Restaurant on January 3, 2012. The former attractions were demolished during the first half of 2012, with vertical construction beginning in July. Construction continued into 2013, with construction walls coming down one week before the attraction's opening. The cost of the attraction was reported to be in excess of $ 40 million.
+
+### Opening
+
+On February 19, 2013, SeaWorld Orlando announced that " Antarctica: Empire of the Penguin " would open on May 24. Unlike many attractions, the ride had no soft opening period; instead, it was open to a select number of employees and their families, travel media and bloggers before its public opening.
+On May 24, 2013, SeaWorld Orlando opened Antarctica: Empire of the Penguin to the public. The opening drew thousands of guests to the ride, with some waiting more than four hours to board. On May 25, one of the penguins escaped the open-air enclosure by leaping out of the water and into the public viewing area; it was returned to the exhibit unharmed.
+
+## Ride experience and exhibit
+
+Guests enter the queue from the Antarctica-themed area of the park. Large groups of riders are admitted into a pre-show room, where multiple projections of an Antarctic landscape are blended with 3D exhibits. In a narrated video, guests are introduced to a gentoo penguin colony in Antarctica featuring a newborn penguin named Puck. After the pre-show guests follow a path to a junction, where they choose a " mild " or " wild " ride. They are then divided into groups of eight riders before boarding the ride vehicles at one of four stations. Riders are seated in two rows of four, and restrained by lap bars.
+When the riders have boarded, the vehicle is dispatched. It travels around an indoor Antarctic environment, spinning to view a variety of scenery and projection screens. The story which began in the pre-show continues, with Puck venturing out into the sea. When he is underwater, Puck is chased by a leopard seal before resurfacing on land. The ride's theme song – " Antarctica: One World, One Family " by Lauren Alaina – is then played as guests watch a live penguin habitat behind glass before the vehicles return to a four-platform unloading station.
+Guests disembark in an open-air penguin habitat with an air temperature of approximately 30 ° F (− 1 ° C). This exhibit has minimal barriers between guests and inhabitants, and is designed so guests can hear sounds made by the penguins.
+A total of 245 penguins live in the exhibit; species include gentoo, king, Adélie and rockhopper penguins. Lighting in the exhibit allows the park to control the seasons for the penguins. A 20-foot (6.1 m) glass window allows guests to see them in their 45 ° F (7 ° C) pool from an underwater viewing area. The entire experience takes about 25 minutes. To minimise odors in the open-air environment, SeaWorld staff clean the exhibit several times daily and replace the 20,000 pounds (9,100 kg) of snow each day.
+
+## Theme area
+
+The Antarctica-themed area is spread across 4 acres (1.6 ha) inside SeaWorld Orlando. A 50-foot-high (15 m) entrance archway is adjacent to the Sea Lion & Otter Theater, and a smaller entrance is near the Journey to Atlantis ride. In addition to the Empire of the Penguin, the theme area is home to several other attractions. A looping 45-minute soundtrack is played throughout the area. A " South Pole " is in the center of the area, and penguin carvings decorate the surrounding walls. The Expedition Cafe, South Pole Beverages and Glacial Collections sell food, drinks and souvenirs.
+
+## Production
+
+
+### Ride system
+
+Antarctica: Empire of the Penguin features a prototype, motion-based, trackless dark-ride system by Oceaneering International, producer of ride systems for The Amazing Adventures of Spider-Man, Transformers: The Ride, and The Curse of DarKastle. The ride is the first of its kind in the world.
+When Antarctica: Empire of the Penguin was announced in November 2011, Oceaneering had already developed a working prototype of the ride vehicle. The first concept art for the attraction was released in April 2012: a circular ride vehicle, seating eight riders in two rows of four. On May 11, 2012 Oceaneering filed a patent application for the ride's technology. At the November 2012 IAAPA Attractions Expo, SeaWorld Orlando and Oceaneering International revealed the trackless, motion simulator-based ride vehicle to the public.
+Each battery-powered vehicle, or AGV, is made up of two platforms. Riders sit on the upper platform, which provides three degrees of freedom. A lower platform provides omnidirectional lateral movement. Unlike previous ride designs, the trackless system and the wheel and motor configurations allow movements diagonal to a rider's perspective. The vehicles use a dead reckoning system developed by Frog AGV to navigate their way through the environment, allowing a vehicle to cross another's path. Each vehicle features a built-in controller, which wirelessly communicates with a central ride-system controller. Movement commands are issued by the ride-system controller, and executed by the vehicles ' controllers. A specially-designed battery and charge system allow the vehicles to be quickly charged while docked at the loading and unloading platforms.
+
+### Marketing
+
+SeaWorld Orlando announced Antarctica: Empire of the Penguin as part of the park's largest expansion thus far. With 18 months between its announcement and its opening, the park wished to generate demand for the ride. As part of this campaign, SeaWorld released a promotional video in July 2012 and a series of videos (Behind the Freeze) featuring creative director Brian Morrow.
+
+## Reception
+
+Dewayne Bevil of the Orlando Sentinel said that " the hottest attraction in Central Florida theme parks this week is also the coldest. " Bevil interviewed several park guests; comments included " I thought it [ the ride ] was really cool " and " it's beautiful ", and some described it as better than the attractions it replaced. Barbara Nefer of Examiner.com said that guests would love Puck, the ride's central character. She preferred the wild version of the ride, describing it as " actually still very family friendly " and saying that the exhibit was a " huge highlight " of the attraction. Robert Niles of Theme Park Insider agreed that the highlight of the attraction was the penguin exhibit. Niles described the dispatch procedure as crucial to the ride: " if SeaWorld can dispatch a quartet of ride vehicles every minute or so, as designed, fans will find this a fun ride ". In a later article Niles highlighted some guests ' criticisms of the ride, describing it as " lacking an engaging story and not delivering enough on-ride views of the attraction's stars -- SeaWorld's penguins ". However, he argues that SeaWorld's promotions were too photorealistic creating " expectations for an experience that the ride did not deliver, perhaps setting up many of those visitors for disappointment ".
+Lawrence Goldsmith of the Daily Mirror and Susan and Simon Veness of the Daily Mail, shared the sentiment of other reviewers: the penguins are the stars of the show. Goldsmith said that the ride options (mild or wild) allowed everyone, from children to thrill-seekers, to " enjoy the experience equally ". Susan and Simon Veness described the ride section as thrilling, calling it " one of the highlights " of the attraction. Arthur Levine of About.com gave the ride three out of five stars. Levine gave this moderate rating because he felt conflicted: the animations themselves were good, but the overall storyline was sparse; the ride system was intriguing, yet it was under utilised. He concluded by applauding " SeaWorld for taking the bold initiative to build a major-league attraction ", but stated " the ride feels rushed and too short ".
+From a commercial perspective, the opening day of the area saw guests waiting in line for more than four hours to experience the flagship attraction; SeaWorld had estimated queues of approximately half that time. Dennis Speigel of consulting firm International Theme Park Services expected attendance to increase between five and ten percent. Speigel speculated that this rise would be higher than if a single attraction were unveiled; however, it would be less than the 36-percent increase for Islands of Adventure after the opening of The Wizarding World of Harry Potter.
+In November 2013, Oceaneering won a Thea Award from the Themed Entertainment Association for outstanding themed entertainment and experience design, for the trackless ride system developed for Antarctica: Empire of the Penguin.

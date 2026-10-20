@@ -1,0 +1,7 @@
+# Why is it so much harder to swallow pills than it is to swallow food?
+
+The human (and other animals) upper digestive tract is 'designed' to ingest relatively large (compared to most pills), soft, moist boluses.  The muscles of the tongue and pharynx can propel these kinds of objects (including liquid) into the esophagus with ease, unless there is some specific pathology at work.  Chewing also tends to naturally push food toward the swallowing position.
+The tablets and capsules you asked about, on the other hand, tend to be dry and hard and are not chewed.  There is little for the tongue and throat muscles to 'grab' as they try to push the object back to where it can actually enter the esophagus.  They also tend to get stuck because of their dryness.
+Once you have actually swallowed a pill without water or food to help it along, the difficulty for the ingestion process does not end.  The esophagus also has difficulty pushing them down to the stomach, though gravity helps.  Sometimes they do end up lodged in the esophagus where they ultimately dissolve and pass on down, but not before they may have caused damage to the lining of the esophagus from their caustic properties or just from the pressure of it's presence.
+The struggle is your tongue and throat telling you, "You are asking me to do something I wasn't designed to do!"
+Anatomy and Physiology of Feeding and Swallowing  – Normal and Abnormal  is an excellent discussion of human swallowing by Koichiro Matsuo, DDS, PhD and Jeffrey B. Palmer, MD.

@@ -1,0 +1,5 @@
+# When making batter/dough, why is it really bad to clean your spoon by hitting it on the edge of the bowl a few times?
+
+Mom and I were looking at a holiday cooking tv-show a few weeks back, and during the part where the host made the dough for the  oliebollen , he hit his spoon a few times against the bowl, to get rid of excess stuck to the spoon. Apparently, this was bad enough that mom felt she had to comment on that out loud (NOOO! You fool!).
+According to her, when making oliebollen (or any other kind of dough/batter which includes  yeast ), you should never hit your spoon on the bowl, as this will prevent the dough from rising properly. I've tried to look this up on the internet, but found no such claims/instructions nor any explanation of why hitting a spoon on the edge of the bowl would prevent the dough from rising properly.
+So, when making batter/dough, is it really bad to clean your spoon by hitting the edge of a bowl? If it is, why would doing so prevent the dough from rising properly?

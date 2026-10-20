@@ -1,0 +1,16 @@
+# OK we're all adults here, so really, how on earth should I use a squat toilet?
+
+OK so for anyone that's travelled beyond North America and Western Europe you know what I'm talking about.
+Left: Romania, last year. Right: Turkey, last night.
+They start popping up in the Balkans and of course they're everywhere by the time you get to Turkey and become totally unavoidable no matter how patient you are or how long you can hold on when you're anywhere between about India and Japan.
+Asian toilets AKA squat toilets  - Do you know how to use one if you have to?
+Seems simple. There's the grippy bits on the sides and the hole in the middle. I wonder which direction I should face...
+So let's give it a try...
+Trousers down just like at home...
+Squat down like the name says...
+But now my trousers seem to be blocking an important thoroughfare! How the hell is this supposed to work??!!
+There's no way to keep one's balance in a position where your weight is not over your feet and when your weight is over your feet so are your pesky trousers.
+Now I'm pretty sure the locals don't remove their trousers because there's almost never a hook and the floor is often flooded. Exiting with wet trouser cuffs or socks wet from the toilet floor surely can't be socially acceptable!
+And I'm completely utterly sure they don't wipe the porcelain and sit down making believe they're in the west because that would be dirty!
+Well I'm here to say that after plenty of trips to plenty of countries with plenty of oriental eastern Asian toilets I've used both of these unsatisfactory workarounds but I still want to know one thing...
+What on earth is the proper way to use a squat toilet??

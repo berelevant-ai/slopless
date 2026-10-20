@@ -1,0 +1,9 @@
+# How should I deal with becoming discouraged as a graduate student?
+
+I am a third year (starting fourth year in the fall) PhD student in mathematics. I've passed all qualifying exams and am currently doing research. As far as I can tell, I am not doing poorly. I have the good fortune of having a great advisor, being in a very supportive department, and having friends and family who genuinely care about my success.
+The fact is research is hard. It appears to consist primarily of staring at a problem for days and days and days without getting anywhere. Sometimes, rarely, I do figure something out and that feels wonderful, but the overwhelming majority of my time appears to be spent banging my head against a mostly figurative wall. I am not complaining about the material being hard, and I am not averse to putting in hard work, but I get frequently discouraged when I realize the vast volumes of mathematics that I yet know nothing about (and probably never will). It's very hard to quantify progress - in particular, there are too few tangible returns after too many hours worked. I find myself thinking along the lines of "Oh, if only someone actually smart were thinking about this problem they would have solved it in moments" and so on.
+I've talked about this to some number of people; here is some advice I have received:
+Take a day off. Putting in hours upon hours of trying things doesn't magically lead to a solution, particularly if the brain is tired and just wants to sleep.
+Have a hobby. Since math research doesn't exactly provide instant gratification, a hobby might provide some instead.
+Talk to other graduate students. Realize that many graduate students go through this.
+I'm interested to know how other folks have dealt with being discouraged as a graduate student. Does it get better with time and experience? Is this a sign that research is not for me and that I should seriously consider a life outside academia?

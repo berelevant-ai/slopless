@@ -1,0 +1,22 @@
+# How can I reach out to my 16-year-old son who has voiced he's depressed every day and doesn't love himself?
+
+Five years ago I was practically in your son's shoes.
+I am not a parent, nor do I intend to be, largely because of this style of parenting. That said, I feel I might be able to give you a view from his perspective. Understand that I am trying very, very hard to keep restraint here while you read my answer.
+Let us address your first point;
+We are pretty strict parents and believe in corporal punishment especially since my son doesn't have anything left to take away since he's always in trouble for something
+This seems like a self-fulfilling prophecy and honestly does not justify your use of corporal punishment whatsoever. He is not being punished corporally because he has nothing left to be taken away because he is always in trouble;  You  are punishing him corporally because  you  are taking everything away from him and leaving him with nothing.
+Given that you call yourselves "pretty strict", it could stand to reason that you are punishing him over every perceived slight and leaping straight to depriving him of some privilege or corporally punishing him. Have you considered just flat-out being less strict and/or less punishing? Not all punishments need to be created equal, and explaining to someone why they did something wrong is going to be a much better treatment than just flat out hitting them.
+Hitting someone presents two issues. First of all, he will learn - as another poster mentioned - that violence is normal to conflict resolution. There are a lot of conflicts in life, and unfortunately adult-on-adult violence is known as assault and is illegal. You are not setting a good standard here. He will grow up to learn that hitting people is okay.
+Secondly, hitting him dehumanises him. It treats him like an object - you didn't do what I want, so I'll hit you until you conform. With the exception of   Toy Story  , objects aren't capable of loving their parents.
+There are ways to educate people without resorting to violence or deprivation. I don't see many kids earning degrees at universities by having their tutors hit them until it sinks in.
+After addressing everything with him my son is very upset and says he's doing these things because he's depressed everyday, lonely, doesn't have any close friends or friends he can trust to talk to, and he does not love himself
+Going out on a limb here:
+You being strict and punishing him as much as you apparently seem to be doing - and in the manner you are doing - is going to teach him that he can do no right. It is going to make him lose self-esteem and lose self-confidence. His entire life at home is dominated by him being "in trouble" to the point where he is not going to want to do anything.
+Low self-esteem and low confidence are one of the two biggest factors in anxiety disorders. Anxious people, generally speaking, are too afraid to talk to their peers because they feel like a burden. This is, no doubt, how your son feels now. It will be hard for him to make friends due to this.
+In addition, you going through his room and finding things removes an element of his privacy. Privacy is very important to feeling secure in your environment. If he can't trust his parents to respect even the privacy of his room, why the hell would he trust random people at school?
+He's very angry at us
+Good. If he wasn't, I would be worried he was a masochist.
+I don't mean to speak ill of your parenting style, but you should consider laxing up and instead of corporally punishing your son, show the compassionate side of your personalities. IMHO, your corporal punishment and strictness are the issues here.
+This sort of parenting style has caused lasting effects on my life. I am not going to get on a soapbox here, but I would just like to say that I am currently coming up to 21, and I moved out at 18 and have been a victim of abusive parenting styles since I was born.
+I have had long-lasting depression and anxiety issues and have absolutely zero friends or romantic interests. I have had go to through therapy and on medication for these issues, and I still have a long way to go.
+Please do not let your son turn out to be an anti-social shut-in who is afraid of all social contact, or let him turn into a domestic abuser because he learns that violence is okay, readdress your parenting approach and above all  get him to a psychiatrist  to undo the negative conditioning you have done to him.

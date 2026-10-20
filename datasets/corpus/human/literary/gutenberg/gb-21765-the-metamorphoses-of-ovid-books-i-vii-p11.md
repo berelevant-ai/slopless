@@ -1,0 +1,21 @@
+FABLE IV. [I.113-150]
+
+In the Silver Age, men begin not to be so just, nor, consequently, so   happy, as in the Golden Age. In the Brazen Age, which succeeds, they   become yet less virtuous; but their wickedness does not rise to its   highest pitch until the Iron Age, when it makes its appearance in all   its deformity.
+
+Afterwards (Saturn being driven into the shady realms of Tartarus), the world was under the sway of Jupiter; {then} the Silver Age succeeded, inferior to {that of} gold, but more precious than {that of} yellow brass. Jupiter shortened the duration of the former spring, and divided the year into four periods by means of winters, and summers, and unsteady autumns, and short springs. Then, for the first time, did the parched air glow with sultry heat, and the ice, bound up by the winds, was pendant. Then, for the first time, did men enter houses; {those} houses were caverns, and thick shrubs, and twigs fastened together with bark. Then, for the first time, were the seeds of Ceres buried in long furrows, and the oxen groaned, pressed by the yoke {of the ploughshare}.
+
+The Age of Brass succeeded, as the third {in order}, after these; fiercer in disposition, and more prone to horrible warfare, but yet free from impiety. The last {Age} was of hard iron. Immediately every species of crime burst forth, in this age of degenerated tendencies;[30] modesty, truth, and honor took flight; in their place succeeded fraud, deceit, treachery, violence, and the cursed hankering for acquisition. The sailor now spread his sails to the winds, and with these, as yet, he was but little acquainted; and {the trees}, which had long stood on the lofty mountains, now, {as} ships bounded[31] through the unknown waves. The ground, too, hitherto common as the light of the sun and the breezes, the cautious measurer marked out with his lengthened boundary.
+
+And not only was the rich soil required to furnish corn and due sustenance, but men even descended into the entrails of the Earth; and riches were dug up, the incentives to vice, which the Earth had hidden, and had removed to the Stygian shades.[32] Then destructive iron came forth, and gold, more destructive than iron; then War came forth, that fights through the means of both,[33] and that brandishes in his blood-stained hands the clattering arms. Men live by rapine; the guest is not safe from his entertainer, nor the father-in-law from the son-in-law; good feeling, too, between brothers is a rarity. The husband is eager for the death of the wife, she {for that} of her husband. Horrible stepmothers {then} mingle the ghastly wolfsbane; the son prematurely makes inquiry[34] into the years of his father. Piety lies vanquished, and the virgin Astræa[35] is the last of the heavenly {Deities} to abandon the Earth, {now} drenched in slaughter.
+
+[Footnote 30: _Age of degenerated tendencies._--Ver. 128. ‘Vena’     signifies among other things, a vein or track of metal as it lies     in the mine. Literally, ‘venæ pejoris’ signifies ‘of inferior     metal.’]
+
+[Footnote 31: _Now as ships bounded._--Ver. 134. ‘Insultavere     carinæ.’ This line is translated by Clarke, ‘The keel-pieces     bounced over unknown waves.’]
+
+[Footnote 32: _To the Stygian shades._--Ver. 139. That is, in deep     caverns, and towards the centre of the earth; for Styx was feigned     to be a river of the Infernal Regions, situate in the depths of     the earth.]
+
+[Footnote 33: _Through the means of both._--Ver. 142. Gold forms,     perhaps, more properly the sinews of war than iron. The history of     Philip of Macedon gives a proof of this, as he conquered Greece     more by bribes than the sword, and used to say, that he deemed no     fortress impregnable, where there was a gate large enough to admit     a camel laden with gold.]
+
+[Footnote 34: _Prematurely makes inquiry._--Ver. 148. Namely, by     inquiring of the magicians and astrologers, that by their skill in     casting nativities, they might inform them the time when their     parents were likely to die, and to leave them their property.]
+
+[Footnote 35: _Astræa._--Ver. 150. She was the daughter of Astræus     and Aurora, or of Jupiter and Themis, and was the Goddess of     Justice. On leaving the earth, she was supposed to have taken her     place among the stars as the Constellation of the Virgin.]

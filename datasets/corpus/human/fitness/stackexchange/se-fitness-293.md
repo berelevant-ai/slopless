@@ -1,0 +1,4 @@
+# Experiences with 'barefoot' running
+
+I have heard a lot about the 'barefoot' running idea that has seemed to gain a lot of popularity with the book  "Born to Run" . The main idea is that the human foot has evolved to be very effective at running and by putting a lot of things in between it and  the ground we more often cause problems then solve them. I don't plan to actually run barefoot but I was thinking of getting some  Vibrams  since the general idea seemed to make sense to me and they are designed with barefoot running in mind.
+I have seen the flame war arguments about statistics on this so don't bother sharing any of that. What I am really looking for is information from people who have tried both running with traditional running shoes and have also tried running with something like Vibrams. I want to get an idea about what the difference has been for real people who have actually tried it and who don't have a vested interest in one side of the other.

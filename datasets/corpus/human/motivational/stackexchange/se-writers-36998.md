@@ -1,0 +1,5 @@
+# How to write a story without conflict, like "My Neighbour Totoro"?
+
+We are used to stories being about conflict. There can be an antagonist, or a hostile environment, or even an internal problem (like depression), but conflict is there. The story arc involves dealing with some problem or other and growing in the process.
+But think of   My Neighbour Totoro  . No conflict. No antagonist. There is the mother's sickness, but that's just a situation, something the girls need to deal with. Her getting better is unrelated to the girls' actions, and only happens in the credits - not in the film proper. The story "arc", if it is an arc, is the girls getting to know their magical neighbour. They do not go on to save the world together with that friend or save the friend from "normal humans" - nothing of that sort. They just make a friend.
+How does such a story work?  What is it that makes it interesting? What drives the plot? What marks the end, if there is no conflict that could be resolved? How does one write without a conflict to drive things?

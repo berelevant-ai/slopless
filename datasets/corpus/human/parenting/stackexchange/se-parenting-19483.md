@@ -1,0 +1,6 @@
+# My 4 year-old says she doesn't love her mom
+
+I think your instincts of jealousy are spot-on.  My daughter did this starting when her little brother arrived home from the hospital, and every time she felt like he was getting more of Mama's attention, out came the verbal knives.
+Our fix was to schedule special one-on-one time with her when we could.  And when things were just too crazy to carve very much one-on-one time out, we included her in taking care of her little brother; when she felt more included (get his diapers, read a book to him, help one of us with a household chore) she was much happier and reverted less to the "I don't love you, Mama" pronouncements.
+In other words, I'm not a pediatrician or a psychologist, but our experience with a jealous elder child tracked closely to yours.  And the solution you are considering worked for us.  Give Mom an extra hug from this internet stranger; I remember how much it stung when my eldest would lash out with "I don't love you!"
+ETA:  @DavidBoshton reminded me: when my daughter would lash out (and I was past the postpartem nightmare of hormones), I would reply, "That's okay.  I love you even if you don't love me.  I will never stop loving you."  This also helps when she throws a tantrum even today (girlfriend gets hangry like no one's business).

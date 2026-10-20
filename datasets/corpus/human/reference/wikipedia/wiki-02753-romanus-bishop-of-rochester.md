@@ -1,0 +1,9 @@
+# Romanus (bishop of Rochester)
+
+Romanus (died before 627) was the second bishop of Rochester and presumably was a member of the Gregorian mission sent to Kent to Christianize the Anglo-Saxons from their native Anglo-Saxon paganism. Romanus was consecrated bishop around 624 and died before 627 by drowning. Little is known of his life beyond these facts.
+
+## Career
+
+Presumably Romanus came to England with Augustine of Canterbury's mission to Kent, He would have arrived either in 597 with the first group of missionaries, or in 601 with the second group. He was consecrated as bishop by his predecessor Justus in 624, after Justus became Archbishop of Canterbury. He was the second bishop at Rochester.
+Romanus died before 627, probably about 625. He drowned in the Mediterranean Sea off Italy while on a mission to Rome for Justus. Presumably this happened before Justus ' death in 627. He was certainly dead by 633, when Paulinus of York became bishop at Rochester after fleeing Northumbria.
+Nothing else is known of Romanus ' life beyond these facts. The medieval writer Bede is the main source of information, as Romanus is mentioned twice in the Historia ecclesiastica gentis Anglorum; the first time in connection with his consecration, where Bede says that Justus " consecrated Romanus as Bishop of Rochester in his place ". The second mention concerns Romanus ' death after Paulinus had left Northumbria. Bede says that " [ a ] t this time, the church of Rochester was in great need of a pastor, since Romanus its bishop who had been sent by Archbishop Justus to Pope Honorius I as his representative, had been drowned at sea off Italy. " Romanus is further mentioned in both the Winchester Manuscript (Version A) and the Peterborough Manuscript (Version E) of the Anglo-Saxon Chronicle, but the reference is not likely to be contemporary and probably draws on Bede for its information.

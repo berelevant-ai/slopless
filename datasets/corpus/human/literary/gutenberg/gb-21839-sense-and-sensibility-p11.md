@@ -1,0 +1,19 @@
+"I am sure," replied Elinor, with a smile, "that his dearest friends could not be dissatisfied with such commendation as that. I do not perceive how you could express yourself more warmly."
+
+Marianne was rejoiced to find her sister so easily pleased.
+
+"Of his sense and his goodness," continued Elinor, "no one can, I think, be in doubt, who has seen him often enough to engage him in unreserved conversation. The excellence of his understanding and his principles can be concealed only by that shyness which too often keeps him silent. You know enough of him to do justice to his solid worth. But of his minuter propensities, as you call them you have from peculiar circumstances been kept more ignorant than myself. He and I have been at times thrown a good deal together, while you have been wholly engrossed on the most affectionate principle by my mother. I have seen a great deal of him, have studied his sentiments and heard his opinion on subjects of literature and taste; and, upon the whole, I venture to pronounce that his mind is well-informed, enjoyment of books exceedingly great, his imagination lively, his observation just and correct, and his taste delicate and pure. His abilities in every respect improve as much upon acquaintance as his manners and person. At first sight, his address is certainly not striking; and his person can hardly be called handsome, till the expression of his eyes, which are uncommonly good, and the general sweetness of his countenance, is perceived. At present, I know him so well, that I think him really handsome; or at least, almost so. What say you, Marianne?"
+
+"I shall very soon think him handsome, Elinor, if I do not now. When you tell me to love him as a brother, I shall no more see imperfection in his face, than I now do in his heart."
+
+Elinor started at this declaration, and was sorry for the warmth she had been betrayed into, in speaking of him. She felt that Edward stood very high in her opinion. She believed the regard to be mutual; but she required greater certainty of it to make Marianne's conviction of their attachment agreeable to her. She knew that what Marianne and her mother conjectured one moment, they believed the next--that with them, to wish was to hope, and to hope was to expect. She tried to explain the real state of the case to her sister.
+
+"I do not attempt to deny," said she, "that I think very highly of him--that I greatly esteem, that I like him."
+
+Marianne here burst forth with indignation--
+
+"Esteem him! Like him! Cold-hearted Elinor! Oh! worse than cold-hearted! Ashamed of being otherwise. Use those words again, and I will leave the room this moment."
+
+Elinor could not help laughing. "Excuse me," said she; "and be assured that I meant no offence to you, by speaking, in so quiet a way, of my own feelings. Believe them to be stronger than I have declared; believe them, in short, to be such as his merit, and the suspicion--the hope--of his affection for me may warrant, without imprudence or folly. But farther than this you must not believe. I am by no means assured of his regard for me. There are moments when the extent of it seems doubtful; and till his sentiments are fully known, you cannot wonder at my wishing to avoid any encouragement of my own partiality, by believing or calling it more than it is. In my heart I feel little--scarcely any doubt of his preference. But there are other points to be considered besides his inclination. He is very far from being independent. What his mother really is we cannot know; but, from Fanny's occasional mention of her conduct and opinions, we have never been disposed to think her amiable; and I am very much mistaken if Edward is not himself aware that there would be many difficulties in his way, if he were to wish to marry a woman who had not either a great fortune or high rank."
+
+Marianne was astonished to find how much the imagination of her mother and herself had outstripped the truth.

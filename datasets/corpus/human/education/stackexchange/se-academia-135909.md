@@ -1,0 +1,3 @@
+# My research paper filed as a patent in China by my Chinese supervisor without me as inventor
+
+This sounds like a clear-cut case of a violation of academic ethics to me - if he’s willing to steal work from you, how could anyone trust anything he’s ever published? I’d strongly consider going to talk with the head of your faculty, school, or department, depending on how your university’s hierarchy is structured, so that the university can begin academic integrity proceedings against him, and I’d also consider talking to the university’s lawyers about what your legal options to dispute the patent are, and if you would be able to file one in the UK.

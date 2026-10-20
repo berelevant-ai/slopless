@@ -1,0 +1,16 @@
+# Last Exit on Brooklyn
+
+The Last Exit on Brooklyn was a Seattle University District coffeehouse established in 1967 by Irv Cisski. It is known for its part in the history of Seattle's counterculture, for its pioneering role in establishing Seattle's coffee culture, and as a former chess venue frequented by several master players.
+
+## History
+
+The Last Exit on Brooklyn opened on June 30, 1967 at 3930 Brooklyn Avenue NE near the University of Washington campus in a small light-industrial building leased from the University. It was one of the pioneer espresso bars in Seattle, adding an espresso machine shortly after Café Allegro opened the first in 1975. The Last Exit was known for its original espresso concoction named the Caffè Medici – " a doppio poured over chocolate syrup and orange peel with whipped cream on top ". Described in 1985 as " America's second oldest, continuously running coffeehouse ", it was also known for its inexpensive food and as a venue for folk music and bohemian conversation.
+The Last Exit was also notable as a popular destination for Seattle's amateur and professional Go and chess players including Peter Biyiasas, Viktors Pupols, and Yasser Seirawan, who wrote of the venue, " Those first chess lessons soon led me to the legendary Last Exit on Brooklyn coffee house, a chess haven where an unlikely bunch of unusual people congregates to do battle. " Interviewed by Sports Illustrated in 1981, Seirawan described the Last Exit as " Scrabble players, backgammon players, chess and game hustling... This became my home. This was to become my family. "
+When interviewed by Mary Lasher of Chess Life in 1985, owner Irv Cisski said, " So what if games-people turn away business. They add flavor. Chess and Go are assets to a coffeehouse. " The Last Exit was the subject of a 1987 retrospective in The Seattle Times in which Cisski described his intent to " create a haven where students and the benign crazies " were welcome and where " everyone felt equal and there were no sacred cows ". It was later described by Seattle writer and journalist Knute Berger as
+one of Seattle's great ' 60s landmarks, a gathering place for UW students, radicals, poets, nut jobs, chess masters, teens, intellectuals, workers, musicians, artists, beatniks, and hippies... I remember the din, the open-mike music, cigarette smoke, impromptu poetry readings, the arguments of lefties, libertarians, crackpots, and cultists. You could hear the rhythm and roar of the counterculture as it lived and breathed.
+Cisski died on August 25, 1992. In 1993 the University repossessed the building occupied by the coffeehouse, and the Last Exit's new owners moved it to upper University Way. The Last Exit on Brooklyn closed in 2000. The space the original Last Exit once occupied now houses staff members from the University of Washington's Human Resources Department.
+
+## In popular culture
+
+The Last Exit was included in Clark Humphrey's 2006 book of historical photographs, Vanishing Seattle.
+Descriptions of the interior and atmosphere of the Last Exit appear in Kristin Hannah's 2008 novel, Firefly Lane, in David Guterson's 2008 novel, The Other, and in Marjorie Kowalski Cole's 2012 The City Beneath the Snow: Stories.

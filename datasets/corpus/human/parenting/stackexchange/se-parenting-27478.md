@@ -1,0 +1,7 @@
+# What to do with my pre-teen daughter who has been out of control since a severe accident?
+
+I've tried and tried to get her to go to counseling but only response I get you can make me go but don't expect me to say a word.
+So, make her go. Therapists have a way of getting people to talk, and while it may not "cure" her, it certainly can't hurt.
+I'm not excusing her behavior; I'm sure it's extremely painful and confusing. From her perspective, though, her whole family (unless there are others) died/almost died and she got out with relatively little damage. That age is hard to begin with, then something very bad happened. She lost her father, and her brother as she knew him, and almost lost you. She may have severe abandonment issues, survivor's guilt, etc. But it's clear she has a lot of unresolved emotional conflict over the event.
+She needs an outside party, preferably a professional, to discuss her feelings with. It's incredibly boring to sit in a room without talking for 50 minutes. It's very likely she'll start to talk, and when she does, she'll be talking with someone who knows some ways to help her.
+I don't think this is something you should try to deal with alone. Give her this and a lot of time (the fact that she's still getting As in school and cheering is a good sign.) You might also consider visiting a therapist yourself to help you understand possible reasons for your daughter's (re)actions, and help with how to cope with the hurtful behavior she's exhibiting. This is the only advice I can think of to give. I wish you all peace.

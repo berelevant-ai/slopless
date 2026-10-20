@@ -1,0 +1,23 @@
+The only edition of the _Arcadia_ in the nineteenth century, with the exception of the photographic reproduction of the first edition by Dr Sommer, was published by Sampson Low, Son, and Marston, in 1867, and was preceded by an introductory essay by Hain Friswell, the author of _The Gentle Life_, who says:--
+
+“The principle on which this edition of the _Arcadia_ has been put  through the press perhaps needs some explanation. As the sheets of MS.  left the hands of Sidney, after the first book, or perhaps two, had  been completed, they were transmitted to his sister the Countess of  Pembroke, and some of them mislaid and lost. Hence one great _hiatus_  supplied by Sir William Alexander, others by R(ichard) B(eling) and Mr  Johnstone. It is also known that the Countess of Pembroke added to the  episodes, adventures, and strange turns, at least in all the later  books. Hence there is to be met with an Arcadian undergrowth which  needs much careful pruning; and this undertaken, with needful  compression, will leave the reader all that he desires of Sidney’s  own. Growing like certain fanciful parasites upon forest trees, on the  books of the _Arcadia_ are certain eclogues of laboriously-written and  fantastical poetry, some in Latin measures, against which Walpole was  right to protest, and anent which Pope said:--
+
+‘And Sidney’s verse halts ill on Roman feet.’
+
+“These have been boldly removed without any loss, it is believed, to  the romance; lastly, long episodes of no possible use to the book,  which we think have been supplied by other hands than Sidney’s have,  whilst using their very words and phrases, been cut down. {xxvi}  Tedious excrescences have thus been removed, but it is to be hoped  with judgment, so that the reader gets all we think is Sidney’s, and  without curb put upon his utterance.”
+
+In the edition now offered to the student of Elizabethan literature an opposite method has been adopted. Rather than run any risk of omitting anything that is Sidney’s, it has been thought advisable to give the whole _Arcadia_, excrescences and all, especially as the additions of those who were fellow-spirits and admirers, and belonged to the same great epoch, cannot be without their interest to readers in the present age, who may, at any rate, skip the contributions of Alexander and Beling if they are so minded. The example of Hain Friswell has been followed, however, so far as the modernisation of the spelling and punctuation is concerned. “A Continuation of Sir P. Sidney’s Arcadia written by a young Gentlewoman” (Mrs A. W. Weames), and published at London, in 1651, and James Johnstone’s “Supplement to a defect in the Third Book,” which is merely an alternative to Alexander’s, are not included.
+
+There was a modernised edition of the _Arcadia_ published in 1725, under the title, “Sir Philip Sidney’s Arcadia, Moderniz’d by Mrs Stanley, London, Printed in the Year MDCCXXV”; and there were extracts from the book, like the abstract entitled, “The Famous History of Heroick Acts or the Honour of Chivalry,” London, 1701; and two versions of the episode of Argalus and Parthenia, the first, “The Unfortunate Lovers: the History of Argalus and Parthenia” (fourth edition, 1715), and “The History of Argalus and Parthenia. Being A Choice Flower Gathered out of Sir Philip Sidney’s Rare Garden,” c. 1770 and 1780. Dr Grosart included all the poems occurring in the _Arcadia_ in his edition of “The Complete Poems of Sir Philip Sidney,” in three volumes, in 1877. Students of our old texts owe an immense debt to Dr Sommer for the pains and industry lavished on his sumptuous facsimile editions of Caxton’s _Malory_ and Sidney’s _Arcadia_, in both of which the comparison of all the extant readings has been carried out with microscopic thoroughness, and done once for all.
+
+E. A. B.
+
+_January_ 1907.
+
+THE LIFE OF  Sir PHILIP SIDNEY, Kt.
+
+{xxvii}
+
+[_From the Dublin edition, 1739._]
+
+This Marcellus of the English nation, Sir Philip Sidney, the short-lived ornament of his noble family, hath deserved, and, without dispute or envy, enjoyed, the most exalted praises of his own, and of succeeding ages. The poets of his time, especially Spenser, reverenced him, not only as a patron, but a master; and he was almost the only person in any age, I will not except Mecaenas, that could teach the best rules of poetry, and most freely reward the performances of poets. He was a man of a sweet nature, of excellent behaviour, of much, and, withal, of well-digested learning, so that rarely wit, courage, breeding, and other additional accomplishments of conversation, have met in so high a degree in any single person.[i03]

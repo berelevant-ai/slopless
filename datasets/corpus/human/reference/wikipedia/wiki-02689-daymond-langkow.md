@@ -1,0 +1,49 @@
+# Daymond Langkow
+
+Daymond Randolph Langkow (born September 27, 1976) is a Canadian former professional ice hockey centre He was the fifth overall selection of the Tampa Bay Lightning at the 1995 NHL Entry Draft. He played junior hockey with the Tri-City Americans in the Western Hockey League (WHL) and is their franchise record holder for career goals at 159. He won the Bob Clarke Trophy in 1995 as the WHL scoring leader with 140 points, and competed with the Canadian junior team at the 1996 World Junior Ice Hockey Championships where he won a gold medal.
+Langkow made his NHL debut in 1995 with the Lightning, and also played for the Philadelphia Flyers, Phoenix Coyotes and Calgary Flames. He has scored 30 goals twice in his career, both with the Flames, and scored more than 50 points in eight consecutive seasons between 1999 and 2008. He was a nominee for the Bill Masterton Memorial Trophy in 1997 and has played over 1,000 games in the NHL. His older brother, Scott, was also a professional hockey player.
+
+## Playing career
+
+
+### Junior
+
+Langkow was selected by the Tri-City Americans in the second round of the 1991 Western Hockey League (WHL) Bantam Draft. He completed the 1991 – 92 season with the Edmonton Pats of the Alberta Midget Hockey League, scoring 81 points in 35 games while appearing in one game with the Americans as a 15-year-old. He joined Tri-City full-time in 1992 – 93, scoring 22 goals and 64 points in 64 games and improved to 40 goals and 83 points in 1993 – 94. Langkow averaged nearly two points per game in 1994 – 95, scoring 140 points in 72 games. He was named the recipient of the Bob Clarke Trophy as the top scorer in the WHL, and was named to the WHL West and Canadian Hockey League First All-Star Teams. He finished as the runner-up to Marty Murray for the Four Broncos Memorial Trophy as the WHL's most valuable player.
+The Tampa Bay Lightning selected Langkow fifth overall in the 1995 NHL Entry Draft. On the eve of the 1995 – 96 season, the Lightning signed him to a three-year, $ 2.4 million contract. He made his National Hockey League (NHL) debut on October 7, 1995 against the Calgary Flames. Langkow appeared in four games with the Lightning before he was returned to Tri-City. He scored 91 points in 48 games with the Americans and was named to the WHL's West Second All-Star Team. As of 2012, he remains the Americans ' franchise record holder for most career goals with 159. Langkow represented Canada at the 1996 World Junior Ice Hockey Championships where he won a gold medal.
+
+### Tampa, Philadelphia and Phoenix
+
+Langkow rejoined the Lightning for the 1996 – 97 NHL season and scored 15 goals and 28 points in his rookie season. He scored his first NHL goal on November 19, 1996 against the Los Angeles Kings, and was named the NHL's rookie of the month for February 1997. He fell to 22 points in 1997 – 98 and ended the season in a dispute with the Lightning when he refused a demotion to the Adirondack Red Wings of the American Hockey League. The Lightning suspended him indefinitely, but told the media they were not interested in trading him. He missed seven games and lost $ 63,000 in salary before the Lightning relented and recalled him to finish the season in Tampa. Langkow was assigned to the Cleveland Lumberjacks of the International Hockey League to begin the 1998 – 99 season amidst trade rumours but was recalled after four games. He was traded to the Philadelphia Flyers along with Mikael Renberg on December 12, 1998 in exchange for Chris Gratton and Mike Sillinger.
+While he was considered a throw-in for the Flyers who made the trade to re-acquire Renberg, Langkow flourished in Philadelphia. He finished the season with 14 goals combined between Tampa and Philadelphia, and his development as a playmaking centre earned him the Pelle Lindbergh Memorial from his teammates as the Flyers ' most improved player. They re-signed Langkow to a two-year contract extension following the season. He set new personal highs in goals and assists in 1999 – 2000, finishing with 50 points and helping the Flyers reach the Eastern Conference Final in the 2000 Stanley Cup Playoffs. Despite missing 11-games with two broken feet, Langkow improved to 54 points in the 2000 – 01 season.
+The acquisition of Jeremy Roenick and Jiri Dopita by the Flyers in the summer of 2001 left Langkow, a restricted free agent, as the odd man out in Philadelphia. He was dealt to the Phoenix Coyotes in exchange for a second round draft pick in the 2002 NHL Entry Draft (Dan Sprang) and a first round pick in 2003 (Jeff Carter). Unable to agree on a contract, Langkow and the Coyotes went to arbitration where he was awarded a two-year contract worth $ 4.2 million. He made an immediate impact with Phoenix, scoring his first career hat trick in a 5 – 2 victory over the Washington Capitals in the Coyotes ' home opener. He finished the 2001 – 02 season as the team leader with 62 points. He fell back to 52 points in 2002 – 03, but scored his 100th career goal in his 500th career game on December 30, 2002, a 4 – 3 overtime victory against the Edmonton Oilers. He finished second in team scoring with 52 points, and served as an alternate captain for the Coyotes during the 2003 – 04 season.
+
+### Calgary
+
+The Coyotes signed Langkow to a one-year, $ 2.95 million contract in August 2004, but dealt him to the Calgary Flames less than two weeks later for Oleg Saprykin and Denis Gauthier. The season, and the contract, were wiped out by the 2004 – 05 NHL lockout; Langkow did not play anywhere during the lost season. The Flames signed Langkow to a new contract prior to the 2005 – 06 season amidst high expectations as he was placed on the top line with Jarome Iginla. He finished the season second on the Flames in both goals (25) and points (59) and recorded his sixth consecutive season with 50 + points.
+Langkow emerged as a top scorer for the Flames in 2006 – 07, becoming the team's offensive leader while Iginla was sidelined for several weeks by a mid-season knee injury. He reached the 30-goal mark (33) for the first time in his career, finished with a career high 77 points and was the Flames nominee for the Bill Masterton Memorial Trophy for dedication and sportsmanship. His teammates and coaches also praised his defensive ability, suggesting that he deserved a nomination for the Frank J. Selke Trophy as the NHL's top defensive forward. Langkow remained a top two-way forward for the Flames in 2007 – 08, recording his second consecutive 30-goal season and finishing third on the team with 65 points. The Flames re-signed him to a four-year, $ 18-million contract extension though the 2011 – 12 NHL season.
+Langkow scored only 49 points in 2008 – 09 and missed ten games as result of a hand injury. It was the first time in nine seasons that he failed to reach the 50-point mark. He suffered another hand injury in the 2009 Stanley Cup Playoffs, though he still played all six games against the Chicago Blackhawks. He played his 1,000th game, against the Lightning, on February 6, 2010, one night after teammate Jarome Iginla reached the same mark. His offensive numbers continued to decline, as he finished the year with 14 goals and 37 points, his lowest totals in a decade.
+He missed the final ten games of the season after he was struck in the back of the neck by a slapshot during a game in Minnesota. The injury resulted in spinal cord damage that kept Langkow out of the lineup for the first 78 games of the 2010 – 11 NHL season. His efforts to return to the Flames lineup suffered a setback in late October, after which a Flames official stated it was a " 50 / 50 proposition " on whether he would ever play another NHL game.
+Following several months of rehabilitation, Langkow was cleared for light skating by a neck specialist, allowing him to begin practicing with his Flames teammates at the end of February 2011, though he was still considered 2 – 3 months away from being able to continue his career. He joined the Flames for full practices a couple weeks later, and by mid March – nearly one year to the day of his injury – Langkow expressed hope that he would be able to return to action prior to the end of the season. That hope became reality late in the year as he was activated off injured reserve by the Flames, who announced he would return to the lineup for an April 1 game against the St. Louis Blues, 376 days and 88 games after he suffered the injury.
+For his efforts at coming back from injury, Langkow was a finalist for the 2011 Bill Masterton Memorial Trophy that was ultimately won by Ian Laperriere.
+
+### Phoenix
+
+The Phoenix Coyotes re-acquired Langkow on August 29, 2011, in exchange for forward Lee Stempniak During the 2011 – 12 season, Langkow missed seven games in November after his mother died suddenly at the age of 54. On July July 7, 2013, Langkow announced his retirement.
+
+## Personal
+
+Langkow is the second child of Randy and Vivian Langkow and grew up in Vegreville, Alberta. His parents divorced when he was ten years old. His father is a plumber in Edmonton, while his mother managed a restaurant in British Columbia prior to her November 2011 death.
+Langkow and his wife Stephanie have four children, and expressed a desire to put down roots in the city of Calgary as a reason for his decision to sign a long-term contract extension with the Flames in 2008 rather than test free agency.
+Langkow's older brother, Scott was a goaltender who played 20 NHL games for the Winnipeg Jets, Phoenix Coyotes and Atlanta Thrashers.
+He also has a younger cousin, Chris Langkow, who is a former ECHL All-Star and a Kelly Cup champion with the Alaska Aces, whom he frequently mentors and often gives advice.
+
+## Career statistics
+
+
+### Regular season and playoffs
+
+
+### International
+
+
+## Awards and honours

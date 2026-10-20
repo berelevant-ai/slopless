@@ -1,0 +1,9 @@
+# Would the human seasonal coronaviruses be just as deadly as COVID-19 in a population with no prior immunity?
+
+The seasonal coronaviruses attach exclusively to cells with a ciliated epithelium.
+Coronaviruses invade the respiratory tract via the nose. After an incubation period of about 3 days, they cause the symptoms of a common cold, including nasal obstruction, sneezing, runny nose, and occasionally cough (Figs. 60-1 and 60-2). The disease resolves in a few days, during which virus is shed in nasal secretions. There is some evidence that the respiratory coronaviruses can cause disease of the lower airways but it is unlikely that this is due to direct invasion. Other manifestations of disease such as multiple sclerosis have been attributed to these viruses but the evidence is not clear-cut.
+Studies in both organ cultures and human volunteers show that  coronaviruses are extremely fastidious and grow only in differentiated respiratory epithelial cells . Infected cells become vacuolated, show damaged cilia, and may form syncytia. Cell damage triggers the production of inflammatory mediators, which increase nasal secretion and cause local inflammation and swelling. These responses in turn stimulate sneezing, obstruct the airway, and raise the temperature of the mucosa.
+So, the mechanism of infection is such that they only attack the upper airways.
+The SARS-CoV-2 is totally different.  It attaches to the ACE2 surface receptor which is found deep in alveolar pneumocytes.  Their damage causes loss of surfactant in the alveoli, the collapse of these air cells that perform oxygen exchange and subsequently ARDS.
+So, seasonal coronaviruses give you a runny nose but don't kill.  SARS-CoV-2 collapses the air sacs that allow oxygenation to occur.
+https://www.ncbi.nlm.nih.gov/books/NBK7782/

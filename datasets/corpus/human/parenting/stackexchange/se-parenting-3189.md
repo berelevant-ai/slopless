@@ -1,0 +1,8 @@
+# Is Television appropriate for meal times?
+
+My opinion and experience is that  television provides much more disruption than benefit:
+My experience is that if the television is on, then everybody is "glued to the screen" or at least thoroughly distracted. This prevents social interaction, and it also prevents you from really appreciating the food you're eating -- potentially leading to eating disorders/obesity (because when you don't pay attention to what you're eating, you're actually  eating  more  ), but more likely leading to the cook rightly feeling unappreciated.
+Mealtimes are not just for filling up on food, it is at least as much an important social event. Just because this event happens a few times each day doesn't make it less important. This is an opportunity for the family to get together, regardless of what other activities and obligations fill the day.
+Mealtime is a good time to discuss matters relevant to the entire family. You might have some big ongoing concern or exciting family project. Or you can do an informal round-table interview to learn what everybody is up to.
+It's also a opportunity to teach younger children proper table manners; something that, if missed, can create embarrassing or disastrous situations in public or at guest events.
+For these reasons, the  general rule  should be "no television during meals." But any good rule must allow exceptions. If there is a very special movie on, or if there are important news, or (insert your family's criteria here), then announce an exception to the rule and thoroughly  enjoy the privilege  of watching television while eating. To enforce this rule, make sure that the family knows the general rule  as well as the exception criteria.

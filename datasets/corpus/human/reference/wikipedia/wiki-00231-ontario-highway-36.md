@@ -1,0 +1,20 @@
+# Ontario Highway 36
+
+King's Highway 36, commonly referred to as Highway 36, was a provincially maintained highway in the Canadian province of Ontario. The highway connected Highway 7 and Highway 35 in Lindsay with Highway 28 in Burleigh Falls, providing access to recreational cottages along the northern shore of several of the Kawartha lakes as well as to multiple communities, including Bobcaygeon. Today it is known as Kawartha Lakes City Road 36 and Peterborough County Road 36.
+The route was first assumed in 1931 as a depression relief project and extended in 1937. It remained generally unchanged for the next 60 years before being decommissioned in 1998. However, a realignment near Lindsay in the late 1950s changed the southern terminus of the route from the centre of the town to southeast of it; the original route through Lindsay became Highway 36B and is now known as Kawartha Lakes Road 17.
+
+## Route description
+
+The route and surroundings of former Highway 36 have largely remained unaltered since the highway was decommissioned in 1998. Within the City of Kawartha Lakes, the road is now known as Kawartha Lakes Road 36, while within the County of Peterborough, it is known as Peterborough County Road 36.
+The route begins east of Lindsay at an intersection with Highway 7 and progresses north, crossing a former railway (now the Kawartha Rail Trail) before intersecting Kawartha Lakes Road 17. The western leg of Road 17, which travels to downtown Lindsay, was the original route of Highway 36 and later became Highway 36B. Continuing north, Highway 36 jogs north and east, serving cottages and communities lining the southern shore of Sturgeon Lake, but remains inland by over a kilometre (0.6 mi) itself. At Dunsford, which is bypassed, the highway intersects Kawartha Lakes Roads 7 and 24 — the former travels south to Omemee and the latter provides an alternative route to Bobcaygeon. Former Highway 36 continues, alternating directions between east and north twice before entering the village of Bobcaygeon.
+Within Bobcaygeon, Highway 36 crosses the Trent – Severn Waterway and intersects the eastern end of Kawartha Lakes Road 8. At this point it is following the southernmost section of the Bobcaygeon Colonization Road. At the intersection with Main Street in the northern end of the village, the route turns northeast while former Highway 649 continues north.
+Exiting Bobcaygeon, the former highway serves cottages along the northern shore of Pigeon Lake and Little Bald Lake. After passing Nogies Creek, the highway descends a hill and encounters the Canadian Shield for the first time. The road runs along the border of the Precambrian shield and the Ordovician limestone plateau en route to Burleigh Falls. The shield lies to the north and is overlain by the plateau to the south. The highway turns south at Flynns Corner, intersecting former Highway 507. It enters the town of Buckhorn from the north, then drivers must turn to remain on the route, which exits the town to the east. Between Buckhorn and Burleigh Falls, the highway serves the cottages that line the northern shore of Lower Buckhorn Lake.
+
+## History
+
+Highway 36 was first assumed by the Department of Highways (DHO) on July 1, 1931, and was one of several highways completed as part of a depression – relief program. The highway initially connected downtown Lindsay with Bobcaygeon. This section was fully paved by the end of 1937. On August 11, 1937, the DHO extended the highway east to Highway 28 at Burleigh Falls.
+Highway 36 remained essentially unchanged between 1937 and 1997, with the exception of a being rerouted east of Lindsay in 1958. However, on January 1, 1998, the entirety of Highway 36 was downloaded to Victoria County and Peterborough County, both of which redesignated it as County Road 36. Victoria County became the City of Kawartha Lakes in 2001, and that section of the route is now known as City Road 36.
+
+## Major intersections
+
+The following table lists the major junctions along Highway 36, as noted by the Ministry of Transportation of Ontario. In addition, it includes some minor junctions.

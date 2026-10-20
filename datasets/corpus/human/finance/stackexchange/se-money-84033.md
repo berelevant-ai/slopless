@@ -1,0 +1,7 @@
+# How does a bank make money on an interest free secured loan?
+
+A "true" 0% loan is a losing proposition for the bank, that's true.  However when you look at  actual  "0%" loans they usually have some catches:
+The interest actually  accrues  at some rate but is not due unless the borrower "defaults" (misses a payment).  The bank makes money when people miss a payment, and they get to add on all of the accrued interest to the loan.
+The 0% is for a certain time frame, and after than the interest rates jumps.  They make money when you don't (or can't) pay off the loan during the 0% period and then must pay interest for the remainder of the loan.
+There might also be late payment fees, prepayment penalties, and other clauses that make it a good deal  on average  to the bank.  Individual borrowers might be able to get away with "free money", but the bank does not look to make money on each loan, they look to make money on thousands of loans overall.
+For a  retailer  (including new car sellers). the actual financing costs will be baked into the sales price.  They will add, say, 10% to the sales price in exchange for an interest-free loan. They can also sell these loans to an investment bank or other entity, but they would be sold at a deep discount, so the difference will be made up in the sales price or other "fees". It's  possible  that they would just chalk it up to promotional discounts or customer acquisition costs, but it would not be a good practice on a large scale.

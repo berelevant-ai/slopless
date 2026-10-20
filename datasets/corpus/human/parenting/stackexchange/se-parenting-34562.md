@@ -1,0 +1,6 @@
+# Should I try to long-distance parent or will I do more harm than good?
+
+I don't think you can "parent" in the sense of applying discipline and strong guidance. But you can be in his life. My mother had a god-daughter on a different continent. From the time the god-daughter was a young child, my mother would write to her regularly. She always remembered birthdays and Christmas. She probably only visited a few times as the girl grew up, but she had an impact on her life. The god-daughter certainly knew that this was a person who cared about her and mattered. There is still a bond there (god-daughter in her 30's now).
+You could do something like that and I'm sure it would be effective. Writing is good, because it doesn't put the child on the spot for a reply. It's being faithful and persistent that matters -- not having tons of things to say.
+When your son is older, he might want to visit with you, and he would know that you are someone he can turn to -- that there is a relationship there that matters to both of you. There will come a time when he will want to know the other half of his parentage, and he'll know he can reach out if there has always been communication.
+It won't be the same as being an "on-site Dad", but it will be special in its own way.

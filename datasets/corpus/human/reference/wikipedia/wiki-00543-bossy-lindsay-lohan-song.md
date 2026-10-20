@@ -1,0 +1,19 @@
+# Bossy (Lindsay Lohan song)
+
+" Bossy " is a song by American actress and singer-songwriter Lindsay Lohan. The song was written and produced by Shaffer Smith, known by his stage name Ne-Yo, while additional writing and production was done by Stargate members Mikkel Storleer Eriksen and Tor Erik Hermansen. After leaking online in the beginning of May 2008, Universal Motown officially released the song to media outlets, while its digital single was released on May 27, 2008. The song is influenced by electropop and dance-pop. Lyrically, it is about a woman being strong enough to get what she wants when she wants it.
+Critically, " Bossy " attained generally mixed reception upon release, many music critics generally praised the attitude of the song, but considered the song less catchy than Lohan's previous efforts. Commercially, " Bossy " managed to peak at number 77 on the Canadian Hot 100, and became Lohan's first song from her entire music career, so far, to reach number one on the United States ' Billboard Hot Dance Club Play.
+
+## Background
+
+" Bossy " was written by Shaffer Smith, known by his stage name Ne-Yo, while additional writing and song production was done by Stargate members Mikkel Storleer Eriksen and Tor Erik Hermansen. In the beginning of May 2008, a clip of the song leaked on YouTube. As a result, Universal Motown released the full song to media outlets on May 7, 2008. In an interview with Billboard, Ne-Yo revealed that he was approached by the label to write a song for Lohan: " I gotta admit, we were like... Lindsay Lohan? ' I mean, I've written for Beyoncé, Mary J. Blige, Rihanna, Celine Dion and... Lindsay Lohan? But I will say this; we gave her a quality record and she did a ridiculously fabulous job. I was so shocked I had to call her and apologize for what I was thinking because she did so good. I think the world is gonna be surprised. " In an interview with People Magazine, he revealed the song " it's basically about a woman being strong enough to get what she wants when she wants it. In this case, ' Bossy ' is a term that describes confidence and power. " " Bossy " was digitally released on May 27, 2008, and it was set to appear on Lohan's third studio album.
+
+## Critical reception
+
+" Bossy " received mixed reviews from music critics. A Billboard review said " the track spotlights the raspy-voiced singer's dominating side as she rhymes about liking things her way over simple drums ", while Nick Levine of Digital Spy considered " Bossy " as an " electro-dance-pop [ song ] with attitude ", but commented that it " isn 't pop gold – the chorus lacks a bit of oomph and Lohan's vocals still aren 't convincing – but it's the first Lohan tune we'd be prepared to listen to more than once. That, we suppose, is enough to constitute a small step forward ". Kate Brandli of Blogcritics said " Bossy " " is not nearly as good or as catchy as Miss Lohan's previous musical attempts ", while commenting that its lyrical content " is an obvious reflection on Miss Lohan's relationship with the paparazzi. As Miss Lohan sings in the lyrics, she does what she wants, she controls them, and not vice versa. Unfortunately, Miss Lohan's logic is not entirely correct — neither party has the authority to boss the other around. That is, sadly, the price of fame these days — once people want in, they want total access and exposure. With some individual's antics, like Miss Lohan and Britney Spears, it is difficult to garner sympathy for them ". " Bossy " reached number 77 on the Canadian Hot 100, and became Lohan's first song from her entire career to reach number one on the United States ' Billboard Hot Dance Club Play. The song also managed to peak on the Global Dance Tracks component chart.
+
+## Track listing
+
+Digital download
+" Bossy " – 4: 10
+
+## Charts

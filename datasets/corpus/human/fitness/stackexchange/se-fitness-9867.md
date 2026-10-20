@@ -1,0 +1,7 @@
+# Running first thing in the morning
+
+Whether or not it is necessary to wait an hour depends on you, actually. Some people can drink a lot and go run, some people can't.
+However, unless you are chronically dehydrated or exercising in extreme weather conditions, you won't need water for most of your runs. You should be getting most of your hydration from your diet during the course of the day, and there isn't really a need to drink 24 oz. as soon as you wake up. On a personal note, unless I am running in 100+ degrees (Phoenix in the summer), I don't need to drink/take water on runs up to 12ish miles (1 hour 30 mins or so). Anything beyond that, I bring about 20 oz of fluid with me and sip along the way.
+The "8 glasses" is a bit of a myth. Yes, the body needs that much fluid, plus some extra for exercisers, but the majority of that will/should come from your diet. When the Western world started eating less and less fruits/veggies (A high source of fluid), dieticians came up with the 8 glasses to ensure adequate hydration.
+Weigh yourself, go run, and weigh yourself when you get back. Aside from glycogen losses, you'll need about 8-16 oz extra throughout the day for every pound lost.
+Most people way overhydrate when they exercise, as can be seen by the people that are chugging a gallon of water during a 1 hour weightlifting workout. Not really necessary, replace after and eat a healthy diet with fruits/veggies and you should be fine.

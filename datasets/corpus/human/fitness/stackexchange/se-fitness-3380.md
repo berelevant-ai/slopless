@@ -1,0 +1,5 @@
+# Stronglifts - Why is my bench press/row progress lagging behind?
+
+Given the additional information you've posted, it sounds like you are simply hitting a wall. Those are good numbers on the squats and deadlifts, so it's possible that you're not recovering (perhaps from too little sleep?), but it doesn't sound like that's the case.
+I would see if switching to 3x5 instead of 5x5 allows you to progress. When I started with 5x5, the heavy squat sets would totally obliterate the rest of my workout. Removing the last two sets immediately gave me more energy for the upper-body lifts. My deadlift progress was unaffected. (Perhaps the upper body is more susceptible to fatigue caused earlier in the workout?)
+Doing the additional volume in a 5x5 program is necessary when at lower weights. As the weight increases, 3x5 is plenty of volume. You sound like you hit a solid plateau consistently though a few deloads, and you're probably eating enough. Backing off to 3x5 (along with a small deload in the presses and rows) should give you more energy, both during the workout and during recovery days. Good luck.

@@ -1,0 +1,5 @@
+# When taking vitamins and supplements, does it matter if I take them all at once or should I spread it out throughout the day?
+
+You can take all of the listed various vitamins and supplements together. If you're only going to take them once a day, it is more beneficial to take them with your largest meal of the day, and that hopefully being dinner rather than with breakfast. ( Source ) ( Source )
+However, it is better to take smaller amounts with each meal than to take a single large dose once a day if at all possible. This way your body will maintain a more constant and stable supply of it's needed vitamins and nutrients.
+You need to remember that some vitamins are fat-soluble (dissolve in fat) and some vitamins are water-soluble (dissolve in water). If you have a low-fat meal with your multivitamins, you're going to miss out on all the fat-soluble vitamins and only absorb the water-soluble ones. The reason you're suggested to take your vitamins at your largest meal if you can't take them in multiple phases is because your largest meal is the most likely to be well-rounded for more full absorption of the vitamins.

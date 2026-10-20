@@ -1,0 +1,21 @@
+It is impossible to fix the exact date either of the life of Vatsyayana or of his work. It is supposed that he must have lived between the first and the sixth centuries of the Christian era, on the following grounds:--He mentions that Satkarni Srtvahan, a king of Kuntal, killed Malayevati his wife with an instrument called kartari by striking her in the passion of love, and Vatsya quotes this case to warn people of the danger arising from some old customs of striking women when under the influence of this passion. Now this king of Kuntal is believed to have lived and reigned during the first century A.C., and consequently Vatsya must have lived after him. On the other hand, Virahamihira, in the eighteenth chapter of his 'Brihatsanhita,' treats of the science of love, and appears to have borrowed largely from Vatsyayana on the subject. Now Virahamihira is said to have lived during the sixth century A.D., and as Vatsya must have written his works previously, therefore not earlier than the first century, A.C., and not later than the sixth century A.D., must be considered as the approximate date of his existence.
+
+On the text of the 'Aphorisms on Love,' by Vatsyayana, only two commentaries have been found. One called 'Jayamangla' or 'Sutrabashya,' and the other 'Sutra vritti.' The date of the 'Jayamangla' is fixed between the tenth and thirteenth centuries A.D., because while treating of the sixty-four arts an example is taken from the 'Kavyaprakasha,' which was written about the tenth century A.D. Again, the copy of the commentary procured was evidently a transcript of a manuscript which once had a place in the library of a Chaulukyan king named Vishaladeva, a fact elicited from the following sentence at the end of it:--
+
+"Here ends the part relating to the art of love in the commentary on the 'Vatsyayana Kama Sutra,' a copy from the library of the king of kings, Vishaladeva, who was a powerful hero, as it were a second Arjuna, and head jewel of the Chaulukya family."
+
+Now it is well known that this king ruled in Guzerat from 1244 to 1262 A.D., and founded a city called Visalnagur. The date, therefore, of the commentary is taken to be not earlier than the tenth and not later than the thirteenth century. The author of it is supposed to be one Yashodhara, the name given him by his preceptor being Indrapada. He seems to have written it during the time of affliction caused by his separation from a clever and shrewd woman, at least that is what he himself says at the end of each chapter. It is presumed that he called his work after the name of his absent mistress, or the word may have some connection with the meaning of her name.
+
+This commentary was most useful in explaining the true meaning of Vatsyayana, for the commentator appears to have had a considerable knowledge of the times of the older author, and gives in some places very minute information. This cannot be said of the other commentary, called "Sutra vritti," which was written about A.D., by Narsing Shastri, a pupil of a Sarveshwar Shastri; the latter was a descendant of Bhaskur, and so also was our author, for at the conclusion of every part he calls himself Bhaskur Narsing Shastra. He was induced to write the work by order of the learned Raja Vrijalala, while he was residing in Benares, but as to the merits of this commentary it does not deserve much commendation. In many cases the writer does not appear to have understood the meaning of the original author, and has changed the text in many places to fit in with his own explanations.
+
+A complete translation of the original work now follows. It has been prepared in complete accordance with the text of the manuscript, and is given, without further comments, as made from it.
+
+PART I.
+
+THE VATSYAYANA SUTRA.
+
+INTRODUCTORY PREFACE.
+
+SALUTATION TO DHARMA, ARTHA AND KAMA.
+
+In the beginning, the Lord of Beings created men and women, and in the form of commandments in one hundred thousand chapters laid down rules for regulating their existence with regard to Dharma,[1] Artha,[2] and Kama.[3] Some of these commandments, namely those which treated of Dharma, were separately written by Swayambhu Manu; those that related to Artha were compiled by Brihaspati; and those that referred to Kama were expounded by Nandi, the follower of Mahadeva, in one thousand chapters.

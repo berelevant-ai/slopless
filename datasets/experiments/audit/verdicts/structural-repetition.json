@@ -1,0 +1,62 @@
+[
+  {
+    "rule": "demonstrative-emphasis",
+    "fp_of_sampled": 18,
+    "sampled": 30,
+    "verdict": "MIXED",
+    "cause": "Pattern matches ordinary demonstrative pronouns and transitional phrases ('That said', 'This article was first published', 'That was pure scientific discovery', 'This fisherman is catching') that carry no emphasis function and are normal prose. Fires heavily on talk transcripts where 'this', 'that', 'these' are used as natural reference words. True positives exist ('The truth is that...', 'And that is exactly what is missing') but they are outnumbered by neutral uses.",
+    "fp_examples": [
+      "This article was first published in STAT.",
+      "That said, naysayers are predisposed to cling to old-school approaches.",
+      "That was pure scientific discovery. But using CRISPR—as a tool, as a therapy—that's engineering."
+    ]
+  },
+  {
+    "rule": "triple-repeat",
+    "fp_of_sampled": 24,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "Rule cannot distinguish deliberate rhetorical anaphora from sloppy repetition. Flags intentional parallel structure ('What can you give? What can you help with? What can you teach?'), rhetorical questions ('What does he do? What does he say?'), song lyrics ('Facts are simple and facts are straight / Facts are lazy and facts are late'), and proper-noun title repetition ('a16z Podcast: ...' headers). Also fires on spam corpus lines ('FREE', 'Free', 'free') which are data rows not prose. The rule's intent—catching unintentional word repetition from lazy drafting—is overwhelmed by legitimate anaphoric and enumerative structures.",
+    "fp_examples": [
+      "When building high-value ties in any network, the question should never be what you get, but rather what can you give to the other party? What can you help with? What can you teach? What can you spare?",
+      "Like it or not, everyone watches the leader. What does he do? What does he say? What does he not say? How does he react?",
+      "Facts are simple and facts are straight / Facts are lazy and facts are late"
+    ]
+  },
+  {
+    "rule": "repeated-sentence-starts",
+    "fp_of_sampled": 22,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "Fires on deliberate parallel instruction ('If you focus on the wall... If you focus on the road'), deliberate rhetoric ('Make her feel it. Make her feel you.'), enumeration ('In the first... In this case...'), metadata and title strings ('a16z Podcast: ...' repeated headers, 'Want More a16z Crypto?', 'Analysis and news...'), data rows ('3/31/1995: 21.0'), email headers ('to: Paul Graham'), and Paul Graham sentence fragments that are mid-paragraph continuations rather than sentence starts. The rule cannot distinguish intentional parallel structure, enumeration, or non-prose content from lazy repetition.",
+    "fp_examples": [
+      "Focus on the road not the wall—...do not focus on the wall; focus on the road. If you focus on the wall, you will drive right into it. If you focus on the road, you will follow the road.",
+      "Come from the right place...Make her feel it. Make her feel you. If she feels you and you are in her corner, then she will listen to you.",
+      "3/31/1995: 21.0"
+    ]
+  },
+  {
+    "rule": "contrastive-aphorism",
+    "fp_of_sampled": 22,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "The 'not-x-but-y' variant flags ordinary analytical contrast ('The problem is not finding startups, exactly, but finding a stream', 'The problem is not Apple's products but their policies', 'not only makes later rounds harder', 'Not only was this'). Standard English negation-contrast is not slop. The 'abstract-evaluative-pair' variant fires on legitimate problem-analysis sentences in Q&A forums, finance advice, and fitness/food explanations where the structure matches the pattern but the content is substantive. Many flagged samples contain genuine reasoning, not hollow aphorisms.",
+    "fp_examples": [
+      "The problem is not finding startups, exactly, but finding a stream of startups.",
+      "The problem is not Apple's products but their policies.",
+      "The problem is not pain, I just feel tension in the back of my legs and at the point that the legs connect."
+    ]
+  },
+  {
+    "rule": "negation-reframe",
+    "fp_of_sampled": 22,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "Pattern fires on ordinary English negation that carries no rhetorical reframing: technical descriptions ('The pictures aren't bright enough'), factual corrections with supporting evidence ('The iPhone is not and never was a phone' — a quoted technical critique), plain conditionals ('There does not need to be universal alignment'), standard connectives ('not only makes later rounds harder'), common intensifiers ('nothing short of a phenomenon'), and practical advice ('Be direct, but not mean'). The rule cannot distinguish slop reframing ('It is not X, it is Y — and that makes all the difference') from normal use of negation in analytical prose.",
+    "fp_examples": [
+      "The pictures aren't bright enough—Somehow, you didn't actually capture enough light on the plane to get the shot you wanted.",
+      "There does not need to be universal alignment, but there does need to be buy-in from all the key stakeholders.",
+      "#4 Maximizing absolute valuation of each growth round, which not only makes later rounds harder and harder to achieve but can trigger a disastrous down round."
+    ]
+  }
+]

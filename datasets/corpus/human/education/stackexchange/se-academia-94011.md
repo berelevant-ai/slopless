@@ -1,0 +1,5 @@
+# Using nonstandard gender-neutral pronouns to refer to myself in academic writing
+
+It's your decision what to write, but to my mind, adding a note trying to explain your preferred pronouns seems like it puts the emphasis on something which you probably don't want to make the focus.
+I'm young enough to be fairly familiar with this stuff, but I have to be honest, the thing I'd remember after read your paper would be "Huh, I've never seen anyone write a note like that before."  I don't want to suggest the way you identify is something you want to hide, but remember that your article is going to be read (hopefully) by a lot of older people or people from other cultures who have no idea what "ze" is supposed to mean, and I assume your main goal is not to educate them about that stuff.
+I would encourage you to instead use "they" or "we" when referring you yourself ("the PI presented on their research" or "we presented on our research"); these might be a little awkward, but they have an established pedigree in writing, and shouldn't strike people as too out of place.

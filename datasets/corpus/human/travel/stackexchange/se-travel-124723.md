@@ -1,0 +1,4 @@
+# Is tipping mandatory at Restaurants and Bars in Germany?
+
+Tipping is not at all mandatory in Germany and usually the service personnel does not rely on tips as much as in the USA, say. Usually, if you do not state the amount you want to round up to ("make it X EUR" — or "Stimmt so" if you do not expect change at all), they will start picking up coins from their purse and give you the exact amount of change without even a frown. Nevertheless, they sometimes do this search for coins suitably slowly to give you the opportunity to correct your forgetfulness by specifying your tip while they are searching or by simply not picking up all the change.
+That being said, rounding up by approximately 5% up to 10% (or to the next or second next full Euro for small amounts) is overwhelmingly common for most types of Restaurant unless you were quite dissatisfied.

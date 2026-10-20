@@ -1,0 +1,23 @@
+“I have no doubt that you have hit upon the truth.”
+
+“It will be verified or disproved at the trial. Meanwhile, come       what may, Colonel Moran will trouble us no more. The famous       air-gun of Von Herder will embellish the Scotland Yard Museum,       and once again Mr. Sherlock Holmes is free to devote his life to       examining those interesting little problems which the complex       life of London so plentifully presents.”
+
+THE ADVENTURE OF THE NORWOOD BUILDER
+
+“From the point of view of the criminal expert,” said Mr.       Sherlock Holmes, “London has become a singularly uninteresting       city since the death of the late lamented Professor Moriarty.”
+
+“I can hardly think that you would find many decent citizens to       agree with you,” I answered.
+
+“Well, well, I must not be selfish,” said he, with a smile, as he       pushed back his chair from the breakfast-table. “The community is       certainly the gainer, and no one the loser, save the poor       out-of-work specialist, whose occupation has gone. With that man       in the field, one’s morning paper presented infinite       possibilities. Often it was only the smallest trace, Watson, the       faintest indication, and yet it was enough to tell me that the       great malignant brain was there, as the gentlest tremors of the       edges of the web remind one of the foul spider which lurks in the       centre. Petty thefts, wanton assaults, purposeless outrage—to the       man who held the clue all could be worked into one connected       whole. To the scientific student of the higher criminal world, no       capital in Europe offered the advantages which London then       possessed. But now——” He shrugged his shoulders in humorous       deprecation of the state of things which he had himself done so       much to produce.
+
+At the time of which I speak, Holmes had been back for some       months, and I at his request had sold my practice and returned to       share the old quarters in Baker Street. A young doctor, named       Verner, had purchased my small Kensington practice, and given       with astonishingly little demur the highest price that I ventured       to ask—an incident which only explained itself some years later,       when I found that Verner was a distant relation of Holmes, and       that it was my friend who had really found the money.
+
+Our months of partnership had not been so uneventful as he had       stated, for I find, on looking over my notes, that this period       includes the case of the papers of ex-President Murillo, and also       the shocking affair of the Dutch steamship _Friesland_, which so       nearly cost us both our lives. His cold and proud nature was       always averse, however, from anything in the shape of public       applause, and he bound me in the most stringent terms to say no       further word of himself, his methods, or his successes—a       prohibition which, as I have explained, has only now been       removed.
+
+Mr. Sherlock Holmes was leaning back in his chair after his       whimsical protest, and was unfolding his morning paper in a       leisurely fashion, when our attention was arrested by a       tremendous ring at the bell, followed immediately by a hollow       drumming sound, as if someone were beating on the outer door with       his fist. As it opened there came a tumultuous rush into the       hall, rapid feet clattered up the stair, and an instant later a       wild-eyed and frantic young man, pale, disheveled, and       palpitating, burst into the room. He looked from one to the other       of us, and under our gaze of inquiry he became conscious that       some apology was needed for this unceremonious entry.
+
+“I’m sorry, Mr. Holmes,” he cried. “You mustn’t blame me. I am       nearly mad. Mr. Holmes, I am the unhappy John Hector McFarlane.”
+
+He made the announcement as if the name alone would explain both       his visit and its manner, but I could see, by my companion’s       unresponsive face, that it meant no more to him than to me.
+
+“Have a cigarette, Mr. McFarlane,” said he, pushing his case       across. “I am sure that, with your symptoms, my friend Dr. Watson       here would prescribe a sedative. The weather has been so very       warm these last few days. Now, if you feel a little more       composed, I should be glad if you would sit down in that chair,       and tell us very slowly and quietly who you are, and what it is       that you want. You mentioned your name, as if I should recognize       it, but I assure you that, beyond the obvious facts that you are       a bachelor, a solicitor, a Freemason, and an asthmatic, I know       nothing whatever about you.”

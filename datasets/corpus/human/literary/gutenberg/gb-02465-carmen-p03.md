@@ -1,0 +1,19 @@
+The last crumbs of bread and scraps of ham had disappeared. We had each smoked our second cigar; I told the guide to bridle the horses, and was just about to take leave of my new friend, when he inquired where I was going to spend the night.
+
+Before I had time to notice a sign my guide was making to me I had replied that I was going to the Venta del Cuervo.
+
+“That’s a bad lodging for a gentleman like you, sir! I’m bound there myself, and if you’ll allow me to ride with you, we’ll go together.”
+
+“With pleasure!” I replied, mounting my horse. The guide, who was holding my stirrup, looked at me meaningly again. I answered by shrugging my shoulders, as though to assure him I was perfectly easy in my mind, and we started on our way.
+
+Antonio’s mysterious signals, his evident anxiety, a few words dropped by the stranger, above all, his ride of thirty leagues, and the far from plausible explanation he had given us of it, had already enabled me to form an opinion as to the identity of my fellow-traveller. I had no doubt at all I was in the company of a smuggler, and possibly of a brigand. What cared I? I knew enough of the Spanish character to be very certain I had nothing to fear from a man who had eaten and smoked with me. His very presence would protect me in case of any undesirable meeting. And besides, I was very glad to know what a brigand was really like. One doesn’t come across such gentry every day. And there is a certain charm about finding one’s self in close proximity to a dangerous being, especially when one feels the being in question to be gentle and tame.
+
+I was hoping the stranger might gradually fall into a confidential mood, and in spite of my guide’s winks, I turned the conversation to the subject of highwaymen. I need scarcely say that I spoke of them with great respect. At that time there was a famous brigand in Andalusia, of the name of Jose-Maria, whose exploits were on every lip. “Supposing I should be riding along with Jose-Maria!” said I to myself. I told all the stories I knew about the hero--they were all to his credit, indeed, and loudly expressed my admiration of his generosity and his valour.
+
+“Jose-Maria is nothing but a blackguard,” said the stranger gravely.
+
+“Is he just to himself, or is this an excess of modesty?” I queried, mentally, for by dint of scrutinizing my companion, I had ended by reconciling his appearance with the description of Jose-Maria which I read posted up on the gates of various Andalusian towns. “Yes, this must be he--fair hair, blue eyes, large mouth, good teeth, small hands, fine shirt, a velvet jacket with silver buttons on it, white leather gaiters, and a bay horse. Not a doubt about it. But his _incognito_ shall be respected!” We reached the _venta_. It was just what he had described to me. In other words, the most wretched hole of its kind I had as yet beheld. One large apartment served as kitchen, dining-room, and sleeping chamber. A fire was burning on a flat stone in the middle of the room, and the smoke escaped through a hole in the roof, or rather hung in a cloud some feet above the soil. Along the walls five or six mule rugs were spread on the floor. These were the travellers’ beds. Twenty paces from the house, or rather from the solitary apartment which I have just described, stood a sort of shed, that served for a stable.
+
+The only inhabitants of this delightful dwelling visible at the moment, at all events, were an old woman, and a little girl of ten or twelve years old, both of them as black as soot, and dressed in loathsome rags. “Here’s the sole remnant of the ancient populations of Munda Boetica,”  said I to myself. “O Caesar! O Sextus Pompeius, if you were to revisit this earth how astounded you would be!”
+
+When the old woman saw my travelling companion an exclamation of surprise escaped her. “Ah! Senor Don Jose!” she cried.

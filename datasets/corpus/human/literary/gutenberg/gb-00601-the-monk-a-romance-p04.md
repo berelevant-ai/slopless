@@ -1,0 +1,19 @@
+Lorenzo gazed upon her with mingled surprise and admiration; but the Aunt thought it necessary to apologize for Antonia’s mauvaise honte.
+
+“’Tis a young Creature,” said She, “who is totally ignorant of the world. She has been brought up in an old Castle in Murcia; with no other Society than her Mother’s, who, God help her! has no more sense, good Soul, than is necessary to carry her Soup to her mouth. Yet She is my own Sister, both by Father and Mother.”
+
+“And has so little sense?” said Don Christoval with feigned astonishment; “How very Extraordinary!”
+
+“Very true, Segnor; Is it not strange? However, such is the fact; and yet only to see the luck of some people! A young Nobleman, of the very first quality, took it into his head that Elvira had some pretensions to Beauty—As to pretensions, in truth, She had always enough of THEM; But as to Beauty....! If I had only taken half the pains to set myself off which She did....! But this is neither here nor there. As I was saying, Segnor, a young Nobleman fell in love with her, and married her unknown to his Father. Their union remained a secret near three years, But at last it came to the ears of the old Marquis, who, as you may well suppose, was not much pleased with the intelligence. Away He posted in all haste to Cordova, determined to seize Elvira, and send her away to some place or other, where She would never be heard of more. Holy St. Paul! How He stormed on finding that She had escaped him, had joined her Husband, and that they had embarked together for the Indies. He swore at us all, as if the Evil Spirit had possessed him; He threw my Father into prison, as honest a painstaking Shoe-maker as any in Cordova; and when He went away, He had the cruelty to take from us my Sister’s little Boy, then scarcely two years old, and whom in the abruptness of her flight, She had been obliged to leave behind her. I suppose, that the poor little Wretch met with bitter bad treatment from him, for in a few months after, we received intelligence of his death.”
+
+“Why, this was a most terrible old Fellow, Segnora!”
+
+“Oh! shocking! and a Man so totally devoid of taste! Why, would you believe it, Segnor? When I attempted to pacify him, He cursed me for a Witch, and wished that to punish the Count, my Sister might become as ugly as myself! Ugly indeed! I like him for that.”
+
+“Ridiculous”, cried Don Christoval; “Doubtless the Count would have thought himself fortunate, had he been permitted to exchange the one Sister for the other.”
+
+“Oh! Christ! Segnor, you are really too polite. However, I am heartily glad that the Condé was of a different way of thinking. A mighty pretty piece of business, to be sure, Elvira has made of it! After broiling and stewing in the Indies for thirteen long years, her Husband dies, and She returns to Spain, without an House to hide her head, or money to procure her one! This Antonia was then but an Infant, and her only remaining Child. She found that her Father-in-Law had married again, that he was irreconcileable to the Condé, and that his second Wife had produced him a Son, who is reported to be a very fine young Man. The old Marquis refused to see my Sister or her Child; But sent her word that on condition of never hearing any more of her, He would assign her a small pension, and She might live in an old Castle which He possessed in Murcia; This had been the favourite habitation of his eldest Son; But since his flight from Spain, the old Marquis could not bear the place, but let it fall to ruin and confusion—My Sister accepted the proposal; She retired to Murcia, and has remained there till within the last Month.”
+
+“And what brings her now to Madrid?” enquired Don Lorenzo, whom admiration of the young Antonia compelled to take a lively interest in the talkative old Woman’s narration.
+
+“Alas! Segnor, her Father-in-Law being lately dead, the Steward of his Murcian Estates has refused to pay her pension any longer.

@@ -1,0 +1,10 @@
+# Teenagers Ogling my Daughter. What to do?
+
+Should I ask them to stop or let them be?
+You  should probably not involve yourself directly.
+It's your daughter who has to decide whether she feels uncomfortable, and whether to address that feeling by confronting the boys in question. It won't do her any good if you solve problems for her that she needs to learn to handle herself.
+What you  can  do is talk to your daughter. Ask her how the attention of the boys makes her feel. If you think it's inappropriate, discuss this with her. If she asks how to handle it, suggest different avenues of action and discuss them with her. Make sure she knows where to draw the line (which she must define herself - you can't do it for her) and then  defends that line when someone crosses it . That requires self-confidence, so anything you do to boost her self-confidence is a step in the right direction (and taking care of problems for her doesn't help to build self-confidence at all).
+What's more, she probably won't like it if you involve yourself directly, especially if she knows the boys that look at her and doesn't see them as complete jerks. It might be somewhat humiliating for her to have dad act as her protector when it's not necessary in her opinion.
+I must admit I did ogle at other girls when I was their age
+Teenage boys and men are wired to find teenage girls beautiful. Here's the other side of the medal: What applies to your daughter would also apply to your teenage son, if you had one. If you saw him looking at girls in a way you thought inappropriate, again, you'd have to discuss it with him.
+Looking at beautiful girls is probably something most teenage boys feel compelled to do, but there's some ways to do it that are respectless and demeaning, and others that won't hurt anybody, and you can start teaching that to small children already, when they point at people who fascinate them. You don't have to punish them for finding someone else fascinating, but you should explain to them that there's different ways to express that fascination, some being more acceptable than others.

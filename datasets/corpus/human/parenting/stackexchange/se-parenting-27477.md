@@ -1,0 +1,5 @@
+# What to do with my pre-teen daughter who has been out of control since a severe accident?
+
+Last December we were victims of a vehicle accident that killed my husband and left my son severely brain damaged. My daughter who is 12 and will be 13 in couple months was the only one in our vehicle that didn't sustain any life threatening injuries (only a broken foot).
+Ever since, she seems to be full of hate, never listens, comes and goes as she pleases, back talks and cusses me out, bragging how good her life was when her brother and I were in a coma fighting for life. Wishing we died blaming me for everything, and always complaining how bad her life is.
+Keep in mind she is on the school cheer team, gets straight A's in school, and by far never goes without. I've tried and tried to get her to go to counseling but the only response I get is "you can make me go but don't expect me to say a word". I don't even know who my little girl is anymore and I'm desperate to fix it before its too late .

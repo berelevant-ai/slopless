@@ -1,0 +1,4 @@
+# When I travel next, I want to reach the point on the earth that is exactly opposite my home, how can I discover where that is?
+
+My wife and I are planning to travel to Japan next September (we are from Brazil). Since I was a child I have known that if I made a hole (a big one) straight down, I would reach Japan. Well, as the time passes every time I look at the ground, I imagine that far, far away there it is, Japan. Now that I'm going to Japan, I would like to know for curiosity (and to perhaps reach this place in my travels), the exact point in Japan that represents the place that, if I could dig a very big hole directly down from my house in Brazil, I would find in Japan.
+So, is there some tool online that could help me?  Is there some way to easily find this place using my home coordinates?

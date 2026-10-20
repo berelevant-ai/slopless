@@ -1,0 +1,9 @@
+# How can I undo the bad behavior my 2.5 year old daughter learned from 5 year old children?
+
+For your first question: no, and no.  Don't cut off other parents, and don't micromanage things.
+For your second question: yes, and yes.  You can educate her; that's what her life is at this point after all, a long education session.
+Your daughter is going to have many moments like this through her life, where she sees others and picks up behaviors. That's part of socialization.  This is a learning experience for her, and you should treat it as such.
+Don't focus at all on the fact that she picked it up from the other girls. The why is not important, the what is. Point out to her how it makes other people feel when she does these things. Show some sadness when she kicks you. Show her the other kids' emotions when she does something to another kid.
+You can use the experience with the other kids to show her how  she  feels.  Assuming the other kids push  her  also, you can remind her how she felt when she was pushed, or her toy taken.
+But don't micromanage her during these interactions - that's a good way to keep her from learning. Let her have the experiences, and let her learn naturally, while giving her feedback when she acts out separately from this.  She won't be a perfect angel at 2 and a half; she'll have troubles like this as she grows.  It's entirely possible this experience is totally unrelated to the other girls, in fact; it's very common around this age to start asserting self-identity, and perhaps this was a trigger, but overall it's something that's to be expected.
+Your role is to help her learn  for herself  why this is a problem; and it's much better to learn this at 2.5 than at 12 or 15, when she's much less in your sphere of influence and hurting other children in much more serious ways, emotionally if not physically.

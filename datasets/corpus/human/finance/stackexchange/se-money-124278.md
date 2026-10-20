@@ -1,0 +1,4 @@
+# What does it mean for the price of oil to be negative?
+
+These are futures contracts that expire on 4/21, which means that if you hold a futures contract at the end of the trading day tomorrow (April 21st), then you are  obligated  to "purchase" 1,000 barrels (per contract) of oil for -$13 (effectively you get paid $13/barrel to take the oil).
+But that also means that you will need the means to  transport  and  store  the oil.  Which is why prices went negative - storage is full and there's no practical way for anyone to take the oil that's being produced. So speculators that were holding these futures contracts are pressured to sell them, otherwise they'll have to take ownership of the actual oil.  But no one is looking to buy these contracts, so there is enormous downward pressure on price, which ultimately leads to negative prices. They are actually  paying  to get rid of these contracts.

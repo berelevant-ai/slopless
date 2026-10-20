@@ -1,0 +1,8 @@
+# When a recipe asks to add spices to the oil, can you add the spices directly to the sauce for the same effect?
+
+The effect will be different for a few reasons.
+When you add spices to hot oil, they cook at a considerably higher temperature (up to around 200°C) than in a simmering sauce (100°C as it's likely to be mostly water).  Important cooking chemistry happens at this higher temperature, so the flavour is actually changed (just as with onions and garlic).
+Whole or coarse spices sometimes pop and break up (I often add whole or lightly crushed cumin seeds to hot oil and fry,  but if you add them after adding watery liquids they get stuck in your teeth).  This can be mitigated by using finely crushed/ground spices.
+Even if the oil is cold, many major flavour compounds are much more soluble in oil than water,  capsaicin  being a significant example.  The flavour extraction will be affected.  Taking chilli flakes as an example, you  can  add them later, even at the table, but the heat will be concentrated in the flakes; adding them at the beginning of cooking allows the flavour to infuse the whole dish.  Again finer spices can help here by dispersing in the sauce.
+On the other hand it's perfectly sensible to add black pepper to a simmering sauce, to taste.  Turmeric is also often added towards the end of cooking as too much cooking removes some of the best elements of the flavour.  Paprika is also sometimes added late (or even to the oil  and  at the end).
+Bearing this in mind, experimenting is a good thing.  If you put a baseline level of spice in the oil, you can get away with topping up the flavour, with a little care.

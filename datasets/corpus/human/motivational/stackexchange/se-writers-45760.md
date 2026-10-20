@@ -1,0 +1,6 @@
+# How to trick the reader into thinking they're following a redshirt instead of the protagonist?
+
+I'm currently planning a "magical girl" story, and I thought of an interesting way to start it, rather than launching straight into the backstory. It opens with a woman in her mid-thirties, complete with  ponytail of death , walking through a city market while being stalked by a shadowy monster.
+What I want readers to expect is that the woman is either going to be killed by the monster, or saved from it in the nick of time by the heroine. What actually happens is that when the monster finally attacks, the woman transforms into a magical girl, beats the everloving crap out of the monster, and then destroys it with a magical laser beam. Surprise! She  is  the heroine.
+I want to try and preserve this surprise as best I can, and make the readers think they're following a redshirt or one-off character instead of the protagonist. Not referring to her by name until after the reveal will help, but it's probably not enough.  What else can I do to achieve this?
+(I'm aware of answers on other questions to the effect of "don't trick your readers". In my case, this is supposed to be a  pleasant  surprise, so I feel like it's okay.)

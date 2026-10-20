@@ -1,0 +1,6 @@
+# A paper I received to review has (independently) duplicated work that we are writing up. How to proceed in light of peer-review confidentiality?
+
+Your question raises several quite serious ethical questions - thank you for posting it!
+From the last part of your question it looks to me that you actually  do  have a conflict of interest, since you are afraid that what you write in your review may impact your future relations with this research group. I think it is best for you to withdraw from reviewing this manuscript, and fully explain your decision to the editors. I would even consider sending them a draft of your manuscript, if this does not violate your arrangements with other authors.
+I am not sure your own paper can not be published. In my area it is not uncommon for two groups to produce similar results almost simultaneously (the second paper is submitted before the first is printed). This does bring some hard discussions sometimes, especially if the ideas are published on arXiv or presented at conferences. However, this does not stop papers from being published. Of course, you should not use anything from paper B to improve your paper A.
+To summarise: In my opinion, it's best for you not to study paper B in too much details, withdraw from reviewing it, explain this decision to Editors, and continue working on your paper A.

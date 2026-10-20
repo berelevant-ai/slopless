@@ -1,0 +1,5 @@
+# Pay off car loan entirely or leave $1 until the end of the loan period?
+
+If I were you, I would pay off the car loan today.
+You already have an excellent credit score.  Practically speaking, there is no difference between a 750 score and an 850 score; you are already eligible for the best loan rates.  The fact that you are continuing to use 5 credit cards and that you still have a mortgage tells me that this car loan will have a negligible impact on your score (and your life).
+By the way, if you had told me that your score was low, I would still tell you to pay off the loan, but for a different reason.  In that case, I would tell you to stop worrying about your score, and start getting your financial life in order by eliminating debt.  Take care of your finances by reducing the amount of debt in your life, and the score will take care of itself.  I realize that the financial industry stresses the importance of a high score, but they are also the ones that sell you the debt necessary to obtain the high score.

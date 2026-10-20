@@ -1,0 +1,4 @@
+# Is it acceptable to publish student names with the label 'stupid question', on a publicly-visible website?
+
+In addition to  StrongBad's answer , this kind of behavior would also discourage students from asking questions in fear of finding themselves on the “stupid questions and answers” list. Given that “unacceptable” wasn’t defined further in the original question, I think this is also an important aspect that makes this sort of student shaming unacceptable. Except if the Professor doesn’t actually want any questions asked of course :-)
+I'd like to add that additionally, I don't think posting photos of test answers online (like this specific professor did) is ethical or even legal. According to  this website  ( archive link ), handwriting is personal data according to the EUs GDPR ( G eneral  D ata  P rotection  R egulation) and can almost certainly not be published without permission.

@@ -1,0 +1,6 @@
+# How do I stop my characters falling in love?
+
+Imagine her point of view, as a typical nurse.
+She has already met hundreds of patients over the course of her career who had inappropriate feelings for her. 99% of them held no temptation for her at all, and by now she's sick of it. Some were old, some were unattractive, some were mean when they thought they were being nice, some made sexual suggestions at moments when she just wanted to get on with her job, some were so close to death she couldn't imagine having a future with them. Many were covered in blood or vomit or pus or needed help with the bedpan.
+Nursing someone isn't romantic when you nurse everyone. He loves that she looks after him, but to her, there's nothing romantic about him being the fifth man whose bandages she's changed today.
+This man who has poured out his feelings for her is nothing special to her. He tells her a lot about himself and she listens politely but she doesn't tell him anything really personal to her. For all that they talk, in her mind he's barely even a friend. He's just one of the nicer customers at her work, one of the ones you can have a meaningless casual chat with while you do your job and then forget about when they leave.

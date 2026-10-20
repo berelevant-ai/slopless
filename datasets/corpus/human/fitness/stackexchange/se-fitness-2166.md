@@ -1,0 +1,5 @@
+# How important is it that a person be able to touch their toes?
+
+Your flexibility is inversely related to how injury-prone you are.  The more flexible you are, the less likely you are to accidentally injure yourself during training.  This is true of major injuries, but it is also true of minor injuries that leave you stiff and sore for 3-4 days (when you should be bouncing back after 1 day of rest, ideally).
+Flexibility also means that you're less likely to hurt yourself in a fall or other accident as you age.  In terms of intensity of workout to health benefit, flexibility training will give you the biggest payout of almost any exercise out there.
+All that said, I'm not sure why you're having so much trouble limbering up.  My suspicion is that you are not performing the stretches properly, or the stretches you are doing aren't addressing your real issue.  A personal trainer would be able to tell you more simply because they can physically look at you and see how your body is working.

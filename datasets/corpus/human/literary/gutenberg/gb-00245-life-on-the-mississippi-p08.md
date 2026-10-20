@@ -1,0 +1,21 @@
+The voyagers journeyed on, touching here and there; 'passed the sites, since become historic, of Vicksburg and Grand Gulf,' and visited an imposing Indian monarch in the Teche country, whose capital city was a substantial one of sun-baked bricks mixed with straw--better houses than many that exist there now. The chiefs house contained an audience room forty feet square; and there he received Tonty in State, surrounded by sixty old men clothed in white cloaks. There was a temple in the town, with a mud wall about it ornamented with skulls of enemies sacrificed to the sun.
+
+The voyagers visited the Natchez Indians, near the site of the present city of that name, where they found a 'religious and political despotism, a privileged class descended from the sun, a temple and a sacred fire.' It must have been like getting home again; it was home with an advantage, in fact, for it lacked Louis XIV.
+
+A few more days swept swiftly by, and La Salle stood in the shadow of his confiscating cross, at the meeting of the waters from Delaware, and from Itaska, and from the mountain ranges close upon the Pacific, with the waters of the Gulf of Mexico, his task finished, his prodigy achieved. Mr. Parkman, in closing his fascinating narrative, thus sums up:
+
+'On that day, the realm of France received on parchment a stupendous accession. The fertile plains of Texas; the vast basin of the Mississippi, from its frozen northern springs to the sultry borders of the Gulf; from the woody ridges of the Alleghanies to the bare peaks of the Rocky Mountains--a region of savannas and forests, sun-cracked deserts and grassy prairies, watered by a thousand rivers, ranged by a thousand warlike tribes, passed beneath the scepter of the Sultan of Versailles; and all by virtue of a feeble human voice, inaudible at half a mile.'
+
+CHAPTER 3
+
+Frescoes from the Past
+
+APPARENTLY the river was ready for business, now. But no, the distribution of a population along its banks was as calm and deliberate and time-devouring a process as the discovery and exploration had been.
+
+Seventy years elapsed, after the exploration, before the river's borders had a white population worth considering; and nearly fifty more before the river had a commerce. Between La Salle's opening of the river and the time when it may be said to have become the vehicle of anything like a regular and active commerce, seven sovereigns had occupied the throne of England, America had become an independent nation, Louis XIV. and Louis XV. had rotted and died, the French monarchy had gone down in the red tempest of the revolution, and Napoleon was a name that was beginning to be talked about. Truly, there were snails in those days.
+
+The river's earliest commerce was in great barges--keelboats, broadhorns. They floated and sailed from the upper rivers to New Orleans, changed cargoes there, and were tediously warped and poled back by hand. A voyage down and back sometimes occupied nine months. In time this commerce increased until it gave employment to hordes of rough and hardy men; rude, uneducated, brave, suffering terrific hardships with sailor-like stoicism; heavy drinkers, coarse frolickers in moral sties like the Natchez-under-the-hill of that day, heavy fighters, reckless fellows, every one, elephantinely jolly, foul-witted, profane; prodigal of their money, bankrupt at the end of the trip, fond of barbaric finery, prodigious braggarts; yet, in the main, honest, trustworthy, faithful to promises and duty, and often picturesquely magnanimous.
+
+By and by the steamboat intruded. Then for fifteen or twenty years, these men continued to run their keelboats down-stream, and the steamers did all of the upstream business, the keelboatmen selling their boats in New Orleans, and returning home as deck passengers in the steamers.
+
+But after a while the steamboats so increased in number and in speed that they were able to absorb the entire commerce; and then keelboating died a permanent death. The keelboatman became a deck hand, or a mate, or a pilot on the steamer; and when steamer-berths were not open to him, he took a berth on a Pittsburgh coal-flat, or on a pine-raft constructed in the forests up toward the sources of the Mississippi.

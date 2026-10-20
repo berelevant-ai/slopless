@@ -1,0 +1,8 @@
+# Should I have doubts if the organizers of a workshop ask me to sign a behavior agreement upfront?
+
+Plain and clear: Turn around and run.
+We know, of course, nothing about your actual event, but that kind of language and mindset is absolutely impossible. Unless you are trying to get into such prestigious circles, of course (what do I know, it might be an Oxford or MIT event for the "best of the best of the best" students in the world...), but you would likely have mentioned that.
+This sounds more like a brainwashing event than an earnest academic workshop. As you rightly took good note of the terms in their first mail, you will very likely have either nagging doubts/fears during the event, or, will find that the athmosphere is one of much tension (which is hardly good for learning).
+Even though you are "only" a student, you are still an adult human, and a teaching organisation has no business talking like this. They are a service provider and you are the customer. They are nothing without you. You are not a serf labouring to meet a person higher up in the food chain, it should be the other way round.
+Even if there were  some  way to justify the legally binding agreement for attendance and behaviour, a professional would answer your question in a neutral/friendly way, explaining why they need the agreement. They are asking you to sign something (onesided, as well), with a clear threat attached. They do not see fit to explain why and how it exactly it works. This is clear fear-based intimidation, or at least, by their communication, it looks that way.
+So either they have bad intentions, or they are just not good at communicating. In both cases, this is in conflict with them trying to teach you something!

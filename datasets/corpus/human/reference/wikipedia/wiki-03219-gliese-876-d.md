@@ -1,0 +1,20 @@
+# Gliese 876 d
+
+Gliese 876 d is an exoplanet approximately 15 light-years away in the constellation of Aquarius. The planet was the third planet discovered orbiting the red dwarf Gliese 876. At the time of its discovery, the planet had the lowest mass of any known extrasolar planet apart from the pulsar planets orbiting PSR B1257 + 12. Due to this low mass, it can be categorized as a super-Earth.
+
+## Discovery
+
+Gliese 876 d was discovered by analysing changes in its star's radial velocity as a result of the planet's gravity. The radial velocity measurements were made by observing the Doppler shift in the star's spectral lines. At the time of discovery, Gliese 876 was known to host two extrasolar planets, designated Gliese 876 b and c, in a 2: 1 orbital resonance. After the two planets were taken into account, the radial velocity still showed another period, at around two days. The planet, designated Gliese 876 d, was announced on June 13, 2005 by a team led by Eugenio Rivera and was estimated to have a mass approximately 7.5 times that of Earth.
+
+## Orbit and mass
+
+Gliese 876 d is located in an orbit with a semimajor axis of only 0.0208 AU (3.11 million km). At this distance from the star, tidal interactions should in theory circularize the orbit; however, measurements reveal that it has a high eccentricity of 0.207, comparable to that of Mercury in the Solar System.
+A limitation of the radial velocity method used to detect Gliese 876 d is that only a lower limit on the mass can be obtained. This is because the measured mass value also depends on the orbital inclination, which in general is unknown. However, models incorporating the gravitational interactions between the resonant outer planets enables the inclination of the orbits to be determined. This reveals that the outer planets are nearly coplanar with an inclination of around 59 ° with respect to the plane of the sky. Assuming that Gliese 876 d orbits in the same plane as the other planets, the true mass of the planet is revealed to be 6.83 times the mass of Earth.
+Models predict that, if its non-Keplerian orbit could be averaged to a Keplerian eccentricity of 0.28, then tidal heating would play a significant role in the planet's geology to the point of keeping it completely molten. Predicted total heat flux is approximately 104 – 5 W / m2 at the planet's surface; for comparison the surface heat flux for Io is around 3 W / m2. This is similar to the energy it receives from its parent star of about 40,000 W / m2.
+
+## Physical characteristics
+
+Since Gliese 876 d has only been detected indirectly by its gravitational effects on its star, properties such as its radius, composition, and temperature are unknown. On the assumption of a Venerean distribution of temperature and a maximum albedo of 0.8, the temperature was estimated at 430 – 650 K.
+The low mass of the planet has led to suggestions that it may be a terrestrial planet. This type of massive terrestrial planet could be formed in the inner part of the Gliese 876 system from material pushed towards the star by the inward migration of the gas giants.
+Alternatively the planet could have formed further from Gliese 876, as a gas giant, and migrated inwards with the other gas giants. This would result in a composition richer in volatile substances, such as water. As it arrived in range, the star would have blown off the planet's hydrogen layer via coronal mass ejection. In this model, the planet would have a pressurised ocean of water (in the form of a supercritical fluid) separated from the silicate core by a layer of ice kept frozen by the high pressures in the planetary interior. Such a planet would have an atmosphere containing water vapor and free oxygen produced by the breakdown of water by ultraviolet radiation.
+Distinguishing between these two models would require more information about the planet's radius or composition. The planet does not appear to transit its star, which makes obtaining this information impossible with current observational capabilities.

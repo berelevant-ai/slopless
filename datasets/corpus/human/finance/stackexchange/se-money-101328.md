@@ -1,0 +1,7 @@
+# A man on a work project in West Africa asks me for 2000 - is this a scam?
+
+Nobody  with 40 million in the bank needs a random stranger to help them out with a few thousands. No matter which problem he has, with the liquidity available to him, he can access funds and his bank will support him in this, because if he has 40 million sitting in a bank account, it means his invested capital is at least one order of magnitude larger.
+So he is short something like 0.0005% of his net worth. His bank will be happy to send him that money, by personal courier if necessary, no matter what temporary account troubles there may be.
+Not to mention that West Africa is not a remote jungle anymore. There are numerous payment services such as M-PESA in operation in Africa, and any millionaire going there for business would certainly have himself set up with an account for daily expenditures.
+Which brings us to the "have himself set up" - people with this amount of cash don't work alone. They have secretaries, assistants, companies, financial advisors and many other people that would be far ahead on their list of "call in case of emergency" over some random guy on the Internet. Not to mention family.
+Yes, this is a scam. It's hard to tell what kind of scam it is and whether you are intended to be a victim or an unknowning accomplice. But it has  all  the signs for a scam and  none  of the signs of being real.

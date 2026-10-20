@@ -1,0 +1,4 @@
+# What's the rush in the case of sudden hearing loss?
+
+I've heard from both an ENT (ear, nose, and throat doctor) and an audiologist (hearing specialist) that in the case of sudden hearing loss, time is of the essence, and the patient should be seen as soon as possible. The audiologist I was speaking with related that her audiology teacher experienced sudden hearing loss herself, and missed class to drive as fast as possible to the doctor to be seen.
+Unfortunately, neither of these professionals explained  why  this was the case.  Why the urgency to take care of sudden hearing loss?  Is it due to a concern that it will worsen to the point that it will not be curable? Is there a particular treatment that won't work (as well?) after an amount of time? Or is it just due to the discomfort of being unable to hear for an amount of time?

@@ -1,0 +1,4 @@
+# How do you write a Stack Exchange answer?
+
+Over my years on StackExchange I've come to view answering SE questions as its own, highly specialized writing subgenre, with its own demands, and its own ideal format.  By trial and error, and observation of highly upvoted answers, and of answers that I personally find useful, I've created my own standardized format for answering StackExchange questions --one that I have found productive across all the SE sites I participate upon.  In addition to reliably garnering me votes, mastering this technique has also taught me useful things about writing in general, particularly persuasive writing.
+I will provide my own answer below, but I'm also interested in hearing from other StackExchange members about how they write StackExchange answers, as well as if and how they vary their format for different sites.

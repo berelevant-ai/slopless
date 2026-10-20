@@ -1,0 +1,6 @@
+# Being told I'm father to a son I don't want
+
+I'm 21 and recently my ex girlfriend has contacted me to say she's had a child and she thinks he is mine. But it gets more complex because the boy is in care because she is not a fit mother (and I can vouch for this), he is also possibly being put up for adoption. She has told Social Services that I could be the dad when I know for a fact she did the horizontal tango with multiple people in the conception time-frame.
+Social Services keeps calling me for a DNA test because he needs a name on the birth certificate. I'm in quite a good place financially speaking, but I still live with mum and dad. They would probably want him to live with me and be the main parental figure.
+My main issue is that I'm 50/50 on whether he is mine - he does have some of my features, but I'm finding it so difficult to process that he might be mine. I feel as though I'll become a lonely poor exhausted stressed person who just goes through life day to day with no real purpose or friends, although I'm probably exaggerating this in my mind.
+I'm looking advice, because I never planned on being a dad this young. I wore a condom, but it broke at one point - she said she was on contraception, but she might have been lying.

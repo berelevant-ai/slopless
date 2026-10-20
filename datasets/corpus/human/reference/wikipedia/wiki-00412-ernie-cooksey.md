@@ -1,0 +1,38 @@
+# Ernie Cooksey
+
+Ernest George Cooksey (11 June 1980 – 3 July 2008) was an English footballer, who was described as a utility player. He could play as a left-sided defender and midfielder as well as in a central-midfield role. He started as a trainee with Colchester United, before joining non-League clubs Heybridge Swifts, Bishop's Stortford, Chesham United and Bromley. In 2002, he joined Southern Football League Premier Division side Crawley Town before turning professional with Football League side Oldham Athletic in 2003.
+He then moved to Rochdale in 2004 and Boston United in 2007, totalling 140 appearances in the Football League over a four-year period. He dropped down back into non-League football, joining Conference National club Grays Athletic, making 19 league appearances.
+Cooksey had a form of skin cancer removed from his back in 2006, but was diagnosed with a recurrence of a malignant melanoma in February 2008. He died in the early hours of 3 July 2008, aged 28.
+
+## Football career
+
+
+### Early career
+
+Cooksey had started his career as a trainee with Colchester United, prior to moving onto a number of non-League clubs. His first move was to Heybridge Swifts before joining Bishop's Stortford in 1998. He then moved onto Chesham United in 2000, leaving in 2002 to have a brief spell at Bromley.
+He joined Southern Football League Premier Division club, Crawley Town in July 2002, ready for the 2002 – 03 season. Cooksey made his debut for Crawley on 26 August, against Welling United coming on as a substitute, after he returned from coaching schoolchildren in Las Vegas, United States for six-months. He made 34 appearances, scoring once during his spell with Crawley, helping them to finish seventh in the Southern Football League Premier Division.
+
+### Turning professional
+
+Cooksey joined Oldham Athletic on trial in July 2003. At the age of 23, he stepped up three leagues into professional football permanently when Iain Dowie signed him on for financially troubled Oldham in August, who were in the Second Division. Bob Dowie, who was Cooksey's former manager at Chesham United, recommended the player to his brother, Iain. He followed in the footsteps of Fitz Hall and Wayne Andrews who also joined the club from Chesham as recommendations from Bob Dowie. Cooksey scored twice in Oldham's 3 – 0 home victory over Carlisle United in their FA Cup first round match on 8 November 2003. When the new season, 2003 – 04, started Cooksey was unable to make his debut due to suspension. He made 37 Second Division appearances for Oldham in the 2003 – 04 season, scoring four goals.
+Cooksey started the 2004 – 05 season with Oldham Athletic, playing one match, away against Luton Town on 7 August. He was released by Oldham on 15 September, after he was left out of manager Brian Talbot's plans. He dropped down into the Third Division, newly renamed as League Two and signed for Rochdale a day later on 16 September, despite discussing terms with Carlisle United. He made his debut, away against Mansfield Town in the 1 – 0 away defeat on 18 September. During his first season with Rochdale, Cooksey picked up six yellow cards and two red cards on the field. However, his first red card of the season against Notts County was later overturned and downgraded to a yellow after a successful appeal to The FA.
+At the start of the 2006 – 07 season, he signed a 12-month extension to his contract. He spent more than two years with League Two side Rochdale, before joining Boston United in the January transfer window of 2007. Boston United were reduced to just 12 professionals on their books in the closing stages of the 2006 – 07 season, as the club could not afford to pay players wages. Cooksey had not been paid since February, and was spending £ 30 a day in fuel travelling from his Manchester home. He spent six months at Boston United and played 16 League Two games, but was unable to prevent them from being relegated from The Football League on the final day of the season.
+
+### Return to non-League
+
+Following his release from Boston United, Cooksey stated that he'd like to reunite with former Boston manager Steve Evans, who was now manager of Cooksey's previous club, Crawley Town. He had an unsuccessful trial at Barnet, before joining Conference National side Grays Athletic in July 2007. He made his debut in Grays ' first game of the season away to Torquay United in the 0 – 0 draw, on 12 August. Cooksey was sent-off in Grays ' 1 – 0 home defeat on 8 September, for a mistimed tackle on Michael Brough, as his trailing leg caught the opposition player. His last ever game before his death was for Grays Athletic at home in a Conference National match, against Exeter City on 16 February 2008. Cooksey played the full 90 minutes in the 2 – 0 defeat. During the 2007 – 08 season, he made 19 appearances in the Conference for Grays.
+
+## Playing style
+
+Cooksey was a utility player, due to his versatility on the left-flank and in the centre of midfield as a box-to-box midfielder. He was predominately a midfielder, throughout his career playing in the centre or on the left-wing. During his spell with Grays Athletic, he was used as a defender, playing as a left full-back.
+
+## Personal life and illness
+
+Before joining Oldham Athletic in August 2003, Cooksey worked as a builder fitting false ceilings, leaving the better-paid job to fulfil a lifelong ambition to become a professional footballer.
+In early 2008, he was diagnosed with malignant melanoma, a severe form of skin cancer. He had fought the disease before, when he had a form of skin cancer removed from his back in 2006. Cooksey suspected his cancer originated from a six-month spell coaching schoolchildren in the searing heat of Las Vegas in the United States. In April 2008, Grays Athletic staged a benefit match for Cooksey. The match consisted of former professional players, as well as current professionals such as Leroy Lita, Nicky Shorey, Aaron McLean, Ray Parlour, Justin Edinburgh, Iain Dowie, Bob Dowie, Clive Allen, Scott Fitzgerald and Paul Merson. He returned to his former club Oldham Athletic in May 2008, where another benefit match was staged for his appeal at Boundary Park, attended by 1,500 fans to see such former players as John Barnes, Luther Blissett and Chris Waddle as well as television actors from Coronation Street.
+Cooksey was born in Bishop's Stortford. He died in the early hours of 3 July 2008, at the age of 28, five weeks before partner Louise Newlove was due to give birth to their first child. Newlove gave birth to their daughter, Isabella-Georgia Cooksey, on 27 July 2008.
+
+## Tributes
+
+Before the League Cup match between Oldham Athletic and Rochdale on 12 August 2008, both sets of players and management emerged from the tunnel wearing special Ernie Cooksey t-shirts bearing the number 4, the shirt number he wore at both clubs. The t-shirts bore both clubs ' crests on the front along with the slogan " ERNIE COOKSEY – A TRUE GENT ", and the reverse read " 4 ERNIE ". A bucket collection also took place with all the proceeds going to a fund set up in Cooksey's name. Additionally, his family, including partner Louise, were present at the game.
+Oldham Athletic fans had a St George's Cross flag made in his honour, which was due to be displayed at Oldham's matches, as well as being taken abroad for England international fixtures. The tribute flag was stolen in February 2009, when Spanish hooligans attacked English fans in Seville before an international friendly on 20 February, stealing England flags from fans as trophies. The flag was replaced after a number of donations helped to cover the costs.

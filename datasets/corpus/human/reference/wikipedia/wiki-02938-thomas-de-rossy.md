@@ -1,0 +1,48 @@
+# Thomas de Rossy
+
+Thomas de Rossy (de Rossi) O. F. M. was a late 14th century Scottish Franciscan friar, papal penitentiary, bishop and theologian. Of unknown, or at least unclear origin, he embarked on a religious career in his early years, entering the Franciscan Order, studying in England and at the University of Paris.
+He preached and lectured on the Immaculate Conception, and rose to seniority under the patronage of the Avignon Papacy and King Robert II of Scotland, becoming Bishop of Galloway and the only Franciscan to hold a Scottish bishopric. Thereafter he was a staunch advocate of Avignon Pope Clement VII against the English-backed Urban VI, for whom he engaged in partisan preaching and writing, famously challenging any English bishop to settle the issue by single combat.
+
+## Early years
+
+There is not enough evidence to detail Rossy's early life and career. His name indicates a family origin from Rossie, but many locations have this name, including Rossie in Gowrie, Rossie in Angus and Rossie in Strathearn. On 3 October 1371, following a request from King Charles V of France and Robert II of Scotland, he received papal permission to take the Bachelor of Theology degree at the University of Paris; this is his first appearance in contemporary records.
+This Papal Bull provides information about his earlier life. He was Scottish, had entered the Order of the Friars Minor (Franciscans), he had studied the Seven Liberal Arts and Theology at various locations — including the University of Paris — and had preached in Paris. It is likely that Thomas had returned to his home country to preach and teach, a custom in the Franciscan Order. In his later writings he claimed to have studied in Paris and to have lived among the English for seven years, obtaining a good " understanding of their character ".
+
+## Pre-episcopal career
+
+Thomas was at the Papal court in Avignon in 1371 acting as proctor for Patrick de Leuchars, Bishop of Brechin, making a payment to the papal chamber. Having obtained his Theology degree, Thomas lectured on the conception of the immaculate Virgin at Paris in 1373 as a Bachelor of Sentences (baccatarius Sententiarum); he had previously been appointed by the Chancellor of the university to deliver the summer lectures on the Sentences.
+By 1375 Thomas, now vicar general of the Franciscan Order for Scotland, was running out of money. This put the completion of his studies in jeopardy. For this reason, Pope Gregory XI wrote to Walter de Wardlaw, Bishop of Glasgow, authorising Walter (a renowned scholar himself) and other doctors to grant Thomas, if they " found him fit ", a Licentiate and a Doctorate in Theology. Such a grant would enable Thomas to teach legally, allowing him to lessen the burden of his financial problems.
+Thomas was at Avignon again in 1375, but had returned to Scotland between March 1378 and April 1379 when he received a gift of £ 10 from the King of the Scots. By 22 June 1379, Thomas was once again at the papal court at Avignon. While present, the recently elected anti-Pope, Clement VII, appointed him papal penitentiary " for the English and Irish languages ".
+
+## Becoming Bishop of Galloway
+
+On 15 July 1379, Clement VII conditionally provided Thomas de Rossy to the Bishopric of Galloway with mandate for consecration should Ingram de Ketenis wish to resign his right to the see. On the same day Thomas and another Scot, Hugh de Dalmahon, were sent to Scotland with 50 florins and with documentary evidence regarding the events leading to the Western Schism, events which allegedly nullified the election of Pope Urban VI.
+The Galloway bishopric was vacant because of the death of Adam de Lanark, a death which had occurred during the vacancy of papal see. Oswald, the prior of Glenluce Abbey, had been elected by the canons of Whithorn to succeed Adam, an election which Urban VI, sometime after 18 April 1378, supported. This election was not supported by the Scottish-backed anti-Pope Clement VII. Clement instead appointed Ingram de Ketenis, Archdeacon of Dunkeld; however, Ingram was unwilling to take up the bishopric, and raised objections to his own appointment.
+Ingram's refusal allowed Rossy to take up the bishopric. He was consecrated by 16 July 1380. Oswald launched an appeal to Clement, but a letter to Thomas dated 29 October 1381, confirmed this had been rejected. A further letter was sent, as follows:
+To the bishops of St Andrews and Dunkeld. Mandate to enquire into the claim advanced by Oswald, claustral prior of Glenluys, O. Cist., Galloway diocese, to be the true bishop of Galloway in virtue of his election by the chapter of Galloway and subsequent provision made by Urban VI. They are to impose silence on him and to put Thomas de Rossy, provided to the bishopric by Clement VII and duly consecrated, into peaceful possession.
+The cancellation of Oswald's appointment does not appear to have silenced Oswald, who appears active in England, a kingdom which supported Urban VII.
+
+## Pro-Clementine Thomas
+
+As bishop of Galloway Thomas remained a close and highly active supporter of Clement. He preached the cause of Clement before Robert II at Dundee on 2 February 1380. A military attack by Clementine Scotland on Urbanist England was planned. John Wyclif related that a commission was granted to a Scottish bishop to lead a " crusade " on behalf of Clement into England; this bishop was almost certainly Thomas de Rossy. Thomas preached sermons in the English marches attempting to win supporters for the cause, and authored a tractate attacking the Urbanist cause along with English support for it.
+Although no " crusade " ever took place, around 1384 Thomas sent a letter to the bishops of England. The letter invited Henry le Despenser, Bishop of Norwich, or any other English bishop, to come to a debate with him; if they preferred, he wrote, they could settle the matter for both countries through single combat. Henry le Despenser was probably addressed because he was known for his love of fighting, and had led a short expedition into France during the summer of 1383. Despite his keenness to fight another bishop, Thomas de Rossy had apparently refused the offer of combat given by an English priest because of the latter's lower status.
+
+## Bishop of Galloway
+
+Thomas was the first and only Franciscan to become bishop of a Scottish diocese. Records of the day-to-day activities of Thomas as Bishop of Galloway, however, are thin. One charter survives, dated 16 July 1381, confirming a grant of the church of Buittle to Sweetheart Abbey. The charter was issued at Kirkchrist in Twynholm parish, and was confirmed by the (Avignon) Pope on 18 October when Rossy himself was present at the papal court. On 31 December, he presented to Pope Clement VII a roll of petitions — a series of requests — all of which were granted.
+After the death of King Robert II in 1390, Bishop Thomas along with other prelates of the Scottish kingdom, attended the coronation of the new king. At Scone, on 16 August 1390, two days after the coronation of Robert III of Scotland, Bishop Thomas gave a sermon; according to Wyntoun:
+The Byschape off Galloway thare, Thomas,
+(A theolog solempne he was),
+Made a sermownd rycht plesand,
+And to the matere accordand.
+
+## Death and succession
+
+Bishop Thomas was at Avignon again in the mid-1390s, as attested by record of a series of mundane transactions conducted by him there. On 10 September 1395, he was granted an indult to administer his bishopric in absentia, via a deputy; he is not known to have returned to Scotland. His name appeared in the sources for the last time on 6 September 1397.
+The exact date he died is a mystery, but it was not until 28 May 1406, that a successor, Elisaeus Adougan, was appointed to the see, meaning that Rossy's death could have occurred anywhere between these dates.
+As a friar and a bishop, Thomas could not father legitimate offspring and no partners or bastards are known. His own family background is likewise unknown, though he had a nephew for whom he obtained several papal favours.
+
+## Theology and writings
+
+Thomas de Rossy was a theologian and known as such, though his extant writings are dominated by political invective. He authored two extant tractates and probably at least two others not extant. His Quaestio de Conceptione Virginis Immaculatae was a reiteration of some of the arguments for the Immaculate Conception made by Duns Scotus. It was also a refutation of the scholars who had written against it, including Bernard of Clairvaux, Giles of Rome, Bonaventure O. F. M., Richard Middleton, Facinus de Ast, Robert Cowton O. F. M., Alexander of Hales and Gregory of Rimini. Thomas ' focus on the Immaculate Conception stemmed from his days in Paris, where he preached in its favour; it has even been suggested that Thomas was the Friar Minor particularly noted in Paris for his " cavalier treatment of St Bernard ".
+Rossy's second work, the Tractatus Episcopi Candidae Casae de Regno Scotiae in Facto Schismatis contra Anglicos suos Vicinos was a defense of Clement VII and an attack on the legitimacy of " Bartolomeo of Bari " (i.e. Urban VI). It contains a long, detailed account of the events preceding the Schism, an account partially derived from a work of Cardinal Peter Flandrin. In justifying the pontificate of Clement, the Tractatus made extensive use of prophecy, especially prophecies attributed to Saint John of Bridlington. The Tractatus Episcopi is the work, mentioned above, to which his letter to the bishops of England was appended. In the Tractatus he accused the English of supporting Urban solely through hatred of the French.

@@ -1,0 +1,28 @@
+# Robert McLachlan (cinematographer)
+
+Robert McLachlan is a Canadian cinematographer. A successful cyclist in his youth, McLachlan quit the sport to take up cinematography, and entered the field after studying at Simon Fraser University, McLachlan was mentored by Richard Leiterman. His professional career began with documentary work for Greenpeace, before he became involved in both television and feature films; his work has subsequently earned him several industry awards and award nominations.
+McLachlan, who was inspired by both his father's photography and his own appreciation for the films Butch Cassidy and the Sundance Kid and Walkabout to choose his career path, would go on to find recognition as the chief cinematographer for the television series Millennium, for which he was scouted specifically. McLachlan's style on this series led to several industry awards and briefly became popular in the medium, as well as leading him directly to future work on Game of Thrones. He founded the documentary production company Omni Film Productions in the 1970s, later selling his share of the company.
+
+## Early life and education
+
+In his youth, McLachlan was an avid cyclist, accrediting this to the fact that his home town Vancouver was not cold enough for ponds to freeze over to play ice hockey on. During his teenage years, he trained upwards of six hours a day, and won several national championships in the sport. He qualified to represent Canada in the 1976 Summer Olympics, but the lack of funding for cycling in North America at the time would have necessitated him funding his own journey and leaving school to do so; McLachlan opted instead to remain in education and focus on his interest in photography.
+McLachlan first became interested in cinematography after viewing the 1969 film Butch Cassidy and the Sundance Kid; Nicolas Roeg's work on the 1971 film Walkabout further cemented his interest in the field. McLachlan was also motivated by his father, who was an avid photographer. An early school assignment to create a Super 8 film project, for which he received an A grade, also proved a formative influence.
+McLachlan studied fine art at the University of British Columbia for a year, before changing courses to attend classes at Simon Fraser University's film department. McLachlan's education focussed on the documentary style of John Grierson; however, when he began work in 1987, he was mentored by Richard Leiterman. McLachlan also cites influences outside the field of cinematography, drawing influence from the chiaroscuro, Dutch art and pre-Raphaelite movements of visual art, and the works of Andrew Wyeth and Georges de La Tour in particular.
+
+## Career
+
+Having graduated, McLachlan and Michael Chechik founded the production company Omni Film Productions in 1979, and began to work with Greenpeace, filming documentary footage on a range of subjects. McLachlan narrowly avoided trouble on several of these shoots, finding himself arrested for filming too close to an Exxon oil tanker and scarcely missing being assaulted by trophy hunters in British Columbia. McLachlan would later sell his stake in Omni, but remains proud of their documentary work. At the time, McLachlan was unsuccessful in joining an industry union, relegating his work to advertising and small-scale productions; his first union-backed project was on the revival of the television series Sea Hunt.
+McLachlan found success on the Fox television series Millennium, earning several awards for his work on the show. He was head-hunted for the series by its creator Chris Carter, who had seen his work on the series Strange Luck. McLachlan was initially offered a position shooting Carter's other active series, The X-Files, then in its third season, but was unable to start work in time. He developed a distinctive style for the series, shooting it with desaturated colours and lighting scenes as though they were to be filmed in black and white; he also made use of high-intensity strobe lighting usually employed for advertising and macro cinematography. McLachlan has noted that this style briefly became popular after the series ' broadcast but that other cinematographers had difficulty adjusting to it.
+Having worked on Millennium with director David Nutter, McLachlan was able to parley this connection into a role on the HBO fantasy series Game of Thrones. McLachlan has called working on the show's ten-person cinematography team " a major logistical challenge ", noting the complexity of its out-of-sequence filming schedules as something unseen on a television series before. McLachlan has also worked on the programme Ray Donovan, and has based that series ' cinematography on both film noir aesthetics and thse of 1970s cinema, specifically citing The Long Goodbye, The Parallax View and All the President's Men, as well as the work of Gordon Willis.
+
+## Accolades
+
+McLachlan has been nominated for, and won, several awards over the course of his career. He has been nominated four times for the American Society of Cinematographers awards, three times for his work on the television series Millennium and once for the television film High Noon. He has also won several Canadian Society of Cinematographers awards, including wins for the films Willard and Impolite, as well as for several episodes of Millennium and The Lone Gunmen. McLachlan's work on Game of Thrones received Emmy Award nominations in 2013 and 2015, and a Canadian Society of Cinematographers award nomination in 2015; he was also nominated by the latter society for his cinematography on the series Ray Donovan.
+
+## Partial filmography
+
+
+### Film
+
+
+### Television

@@ -1,0 +1,22 @@
+# Harley J. Earl Trophy
+
+The Harley J. Earl Trophy is the trophy presented to the winner of the premier – and season-opening – event of the National Association for Stock Car Auto Racing (NASCAR), the Daytona 500. It is named after influential automobile designer Harley Earl, who served as the second commissioner of NASCAR. Earl has been known as the so-called " father of the Corvette " and designer of the Firebird I prototype that adorns the trophy. The trophy is kept on display at the Daytona International Speedway, while a small replica is given to each Daytona 500 winner.
+
+## Description and history
+
+The Harley J. Earl Trophy is named after General Motors car designer Harley Earl. Earl, the second commissioner of NASCAR, was the designer of the Chevrolet Corvette; his Firebird I concept car provides the basis of the automobile that sits atop the trophy; the car is often misidentified as Sir Malcolm Campbell's " Blue Bird " land speed record car. Earl was a friend of NASCAR founder Bill France, Sr., who named the trophy after him as a sign of respect.
+The trophy is awarded to the winner of the annual Daytona 500, known as " The Great American Race ", which acts as the season-opening event for the NASCAR Sprint Cup Series (formerly known as the Nextel Cup Series, Winston Cup Series, and Grand National Series), and is also considered the most prestigious and important event on the NASCAR schedule. The trophy is considered to be the most coveted award with which a NASCAR driver can be presented.
+The Harley J. Earl Perpetual Trophy, the " official " version of the award, is housed at the Daytona International Speedway. It stands about four feet (1.2 m) tall, five feet (1.5 m) wide and is in the same triangular " tri-oval " shape of Daytona International Speedway. It's removed from its display once a year to appear in victory lane with the winner of the Daytona 500. In 2010, the trophy was removed from the Daytona International Speedway, transported to the Indianapolis Motor Speedway and put on display alongside the Borg-Warner Trophy – awarded to the winner of the Indianapolis 500 – in the Indianapolis Motor Speedway Hall of Fame Museum during the Indianapolis 500 race week.
+
+## The Trophy and the Award
+
+Winners of the Daytona 500 through 1997 received the Harley Earl Award, a wooden trophy approximately three feet (0.91 m) tall, adorned with silver figurines. Starting in 1998, to celebrate the 40th running, individual winners of the Daytona 500 have been presented with a miniature replica of the Harley J. Earl Trophy, which was recreated by John Lajba, a sculptor from Omaha, Nebraska. Previously commissioned to craft a sculpture of Bill France and his wife, Ann France, for display in front of NASCAR corporate headquarters in Daytona Beach, Florida, Lajba's work on each replica trophy requires six weeks of 12-hour days to create the Firebird I automobile, with all the work done by hand, before it gets plated in silver by A & J Plating, also located in Omaha. The first replica trophy, won in 1998 by Dale Earnhardt was originally on a marble base, but has since been switched to an acrylic stand, making it lighter. For the 2008 Daytona 500, the 50th anniversary of the first race, the replica of the trophy, presented to winner Ryan Newman, was plated in gold rather than silver.
+The replica trophies weigh 54 pounds (24 kg), measures 18 inches (46 cm) tall, 22 inches (56 cm) wide and 12 inches (30 cm) deep.
+
+### Additional Daytona 500 trophies
+
+The Harley J. Earl Trophy is not the only trophy awarded at the conclusion of the annual Daytona 500. The crew chief of the winning team receives the Cannonball Baker Trophy, named after the first commissioner of NASCAR; the winning team owner is awarded the Governor's Cup.
+
+### Winners of the Harley J. Earl Trophy
+
+The most Harley Earl Awards and Harley J. Earl Trophy Replicas have been won by Richard Petty, often referred to as " The King " of NASCAR. Petty's seven victories lead the four Daytona 500 wins of Cale Yarborough, and three each by Bobby Allison, Dale Jarrett and Jeff Gordon. Bill Elliott, Sterling Marlin, Michael Waltrip, Matt Kenseth, Jimmie Johnson and Dale Earnhardt, Jr. have won the Daytona 500 and Harley J. Earl Trophy twice; twenty-five other drivers have been awarded the trophy once. As of 2015, Trevor Bayne was the youngest winner of the trophy when he won it at age 20 years, 1 day in 2011; Allison was the oldest winner (50 years, 2 months, 11 days) in 1988.

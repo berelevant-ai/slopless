@@ -1,0 +1,3 @@
+# How Can I Stop Swinging On Pull-Ups?
+
+If you cross your ankles while doing pull-ups it will keep your feet from moving upwards, which is the main cause of swinging.  Focus on using only your arms to do your pull-ups and try to engage your core (abs and obliques) as much as you can to keep yourself from swinging. If you're still swinging, slow down your pace, not only will this keep you from swinging but it will make the pull-ups harder to do and it will be a better workout for your arms. It may help to pretend that there's a big thick steel bar running from your legs through your pelvis to the tip of your head that is unbendable.

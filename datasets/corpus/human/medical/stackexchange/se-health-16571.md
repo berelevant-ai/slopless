@@ -1,0 +1,10 @@
+# Should we always eat something before taking pain killers?
+
+Ibuprofen and Aspirin  are both non-steroidal anti-inflammatory drugs (NSAIDs) . These NSAIDs can be differentiated into selective NSAIDs and non-selective NSAIDs.
+Non-selective NSAIDs such as Ibuprofen and Aspirin are both COX-1 [ Cyclooxygenase-1, also known as prostaglandin-endoperoxide synthase 1 (PTGS-1) ] and COX-2 inhibitors [ Cyclooxygenase-2 respectively ]. (For the sake of completion: Selective NSAIDs only inhibit COX-2).
+Both PTGS inhibitors prevent prostaglandin synthesis, which is a hormone amongst many other functions responsible for transmitting pain to the brain.
+However, because  a study from 2008  notes that COX-1 promotes the production of the natural mucus lining that protects the inner stomach and contributes to reduced acid secretion and reduced pepsin content, (and hence an inhibitor such as all non-selective NSAIDs will decrease said mucus),  PTGS-1 inhibitors increase the  risk of serious gastrointestinal bleeding and ulceration   (and other stomach-upsetting symptoms).
+Hence it is recommended to consume such non-selective NSAIDs with food,  because this will allegedly lessen the symptoms .
+It used to be "mandatory" to eat food before taking such medicine, but in 2015,  the Australian Medicines Handbook has stepped back from this standpoint and now only encourages taking it with water and eating only if it does in fact upset one's stomach.  A  study published in 2007  has already found that the negative side-effects are dosage and time-dependent.  Furthermore, a more recent study from 2015 found that the effect of food might not be as positive as expected.
+So, this seems to be a pretty mixed bag. I find the solution of the Australian Medicines Handbook reasonable however: Don't take them with food unless you have gastrointestinal problems. If those problems should be severe, as always consult a physician.
+Other common painkillers such as  paracetamol  that are not NSAIDs and thus not PTGS-1 inhibitors  can be taken without food , as they are not stomach-upsetting.

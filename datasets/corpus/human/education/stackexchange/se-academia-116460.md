@@ -1,0 +1,7 @@
+# Grades are too high for the department - what should I do?
+
+I recently taught an undergraduate seminar course, in which each student has to read a research paper, summarize it and present it to the class. In the first lesson I explained to the students the components of the grade: attendance, summary writing, and presentation quality.
+Most of the students did great jobs: attendance was near full, summaries were good, and presentations were great. Many of them did more than I expected - they contacted the paper's authors to get more information, presented movies and demos, engaged the class in discussions, etc. So, when I wrote the grades to myself, most of them were between 90 and 100.
+But then, when I told this to the department vice-chair, he told me "what have you done? You will cause a grade-inflation! The department policy is that the average grade on seminar courses should be at most 85!"
+I totally understand this policy - grades that are too high might show that the course was too easy, and they do not sufficiently distinguish between good and better students. Also, they might be unfair to students who took the course in previous years.
+However, I am not sure what I should do now. I haven't published the grades to the students yet. Should I just re-scale the grades so that 90 becomes 70? I feel this is somewhat unfair to the students who worked hard for their presentations. Are there better options?

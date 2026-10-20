@@ -1,0 +1,18 @@
+# Ontario Highway 77
+
+King's Highway 77, commonly referred to as Highway 77, is a provincially maintained highway in the Canadian province of Ontario. One of three highways within Essex County, Highway 77 serves to interconnect Highway 3 near Leamington with Highway 401 near Tilbury. Prior to 1998, the highway extended south into Leamington, ending at the former routing of Highway 3 and Highway 18. This section was turned over to Essex County and renamed Erie Street. The speed limit on Highway 77 is 80 km / h (50 mph) in most places, dropping to 50 km / h in built-up areas. It is patrolled by the Ontario Provincial Police.
+
+## Route description
+
+Due to the flat topography of Essex County, the land use surrounding Highway 77 is almost entirely agricultural. Soil conditions in Essex are ideal for farming, and as a result very few natural areas can be found in the county. Many streams have been diverted to irrigate the endless farmland to either side of the highway. Relief from the plain is provided only by the few hamlets along the route. In addition, Lake Erie and Lake St Clair are both a short distance from Highway 77.
+Highway 77 begins at the Leamington Bypass, north of the city of the same name. The western section of Highway 3 shares its eastern terminus with Highway 77; from there it travels west towards Windsor. Several greenhouses are visible near the southern end of the highway, a small percentage of the 610 hectares (1,500 acres) of land occupied by them in the Leamington area. Point Pelee National Park, the southernmost point in Canada, is also nearby.
+The highway runs 11.5 km (7.1 mi) north through Mount Carmel and Blytheswood to the village of Staples before turning to the east. It continues in this direction for 2 km (1.2 mi) before returning to its northward orientation. North of there, the highway passes to the east of the Comber and District Historical Society Museum. The museum, which focuses on the history of agriculture, was established in the former Maple Grove Schoolhouse, which was built in 1894. Pressing north to Highway 401, it passes Middle Road (once Highway 98) in the centre of Comber. Highway 401 provides access to Windsor and the United States to the west, and to the town of Tilbury and city of Chatham – Kent to the east. To the north, the road continues as Essex County Road 35 to Stoney Point on the shores of Lake Huron.
+Traffic levels along Highway 77 vary, but are generally low. The busiest section of the highway lies at the southern end between Leamington and Blythesville, with an average of 6,000 vehicles travelling it per day. North of that, traffic drops considerably to 3,000 vehicles, but increases approaching Comber and Highway 401 to around 4,500.
+
+## History
+
+The Highway 77 designation was first applied on August 5, 1936 to a road running southeast from Rodney, Ontario to Highway 3 at New Glasgow. On December 5, 1957, the highway was transferred to Elgin County and is now known as Elgin County Road 103. The current Highway 77 was designated between Leamington and Highway 401 on April 1, 1963. The southern end followed present-day Erie Street south through the city to Talbot Road. At the time, Highway 3 travelled along that road; Highway 77 continued south of Talbot Road as Highway 18. In early December 1999, the Leamington Bypass of Highway 3 opened. The southern terminus of Highway 77 was subsequently truncated by 1.7 km (1.1 mi) to end at the new bypass.
+
+## Major intersections
+
+The following table lists the major junctions along Highway 77, as noted by the Ministry of Transportation of Ontario. The entire route is located in Essex County.

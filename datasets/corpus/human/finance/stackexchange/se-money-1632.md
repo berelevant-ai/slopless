@@ -1,0 +1,13 @@
+# Best way to start investing, for a young person just starting their career?
+
+First off, I  highly  recommend the book   Get a Financial Life  .  The basics of personal finance and money management are pretty straightforward, and this book does a great job with it.  It is very light reading, and it really geared for the young person starting their career.  It isn't the most current book (pre real-estate boom), but the recommendations in the book are still sound.  ( update 8/28/2012:  New edition of the book came out.)
+Now, with that out of the way, there's really two kinds of "investing" to think about:
+Retirement (401k, IRA, SIMPLE, etc)
+Non-Retirement (Brokerage account, investing in individual stocks, day trading, etc)
+For most individuals, it is best to take care of #1 first.  Most people shouldn't even think about #2 until they have fully funded their retirement accounts, established an emergency fund, and gotten their debt under control.
+There are lots of financial incentives for retirement investing, both from your employer, and the government.  All the more reason to take care of #1 before #2!
+Your employer probably offers some kind of 401k (or equivalent, like a 403b) with a company-provided match.  This is a potential 100% return on your investment after the vesting period.  No investment you make on your own will ever match that.  Additionally, there are tax advantages to contributing to the 401k.  (The money you contribute doesn't count as taxable income.)
+The best way to start investing is to learn about your employer's retirement plan, and contribute enough to fully utilize the employer matching.
+Beyond this, there are also Individual Retirement Accounts (IRAs) you can open to contribute money to on your own.  You should open one of these and start contributing, but only after you have fully utilized the employer matching with the 401k.  The IRA won't give you that 100% ROI that the 401k will.
+Keep in mind that retirement investments are pretty much "walled off" from your day-to-day financial life.  Money that goes into a retirement account generally can't be touched until retirement age, unless you want to pay lots of taxes and penalties.  You generally don't want to put the money for your house down payment into a retirement account.
+One other thing to note:   Your 401K and your IRA is an account that you put money into.  Just because the money is sitting in the account doesn't necessarily mean it is invested.  You put the money into this account, and then you use this money for investments.  How you invest the retirement money is a topic unto itself.   Here is a good starting point.   If you want to ask questions about retirement portfolios, it is probably worth posting a new question.

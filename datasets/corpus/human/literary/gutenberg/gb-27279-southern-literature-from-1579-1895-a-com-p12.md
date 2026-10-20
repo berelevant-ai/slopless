@@ -1,0 +1,23 @@
+[Illustration: ~Storm at Sea.~]
+
+WILLIAM STRACHEY.
+
+WILLIAM STRACHEY[3] was an English gentleman who came over to Virginia with Sir Thomas Gates in 1609, and was secretary of the Colony for three years. Their ship, the _Sea Venture_, was wrecked on the Bermudas in a terrible tempest, of which he gives the account that follows. It is said to have suggested to Shakspere the scene of the storm and hurricane in his "Tempest."
+
+WORKS.
+
+A True Repertory of the Wracke and Redemption of Sir Thomas Gates         upon and from the Islands of the Bermudas.     Historie of Travaile into Virginia Brittania.     _Edited_ Lawes Divine, Morall, and Martiall.
+
+William Strachey's writings show a thoughtful and cultivated mind. His style abounds in the long involved and often obscure sentences of his times, but his subject matter is usually very interesting. Compare the following selection with Shakspere's "Tempest," Act I., scene 1 and 2, to "_Ariel, thy charge_." Notice the reference to _Bermoothes_ (Bermudas).
+
+A STORM OFF THE BERMUDAS.
+
+(_From A True Repertory of the Wracke and Redemption of Sir Thomas Gates._)
+
+On St. James his day, July 24, being Monday (preparing for no less all the black night before) the clouds gathering thick upon us, and the winds singing and whistling most unusually, which made us to cast off our Pinnace, towing the same until then asterne, a dreadful storm and hideous began to blow from out the Northeast, which, swelling and roaring as it were by fits, some hours with more violence than others, at length did beat all light from heaven, which, like an hell of darkness, turned black upon us, so much the more fuller of horror, as in such cases horror and fear use to overrun the troubled and overmastered senses of all, while (taken up with amazement) the ears lay so sensible to the terrible cries, and murmurs of the winds and distraction of our Company, as who was most armed and best prepared, was not a little shaken. . .
+
+For four and twenty hours the storm, in a restless tumult, had blown so exceedingly, as we could not apprehend in our imaginations any possibility of greater violence, yet did we still find it, not only more terrible, but more constant, fury added to fury, and one storm urging a second, more outrageous than the former, whether it so wrought upon our fears, or indeed met with new forces. Sometimes strikes in our Ship amongst women, and passengers not used to such hurly and discomforts, made us look one upon the other with troubled hearts, and panting bosoms, our clamors drowned in the winds, and the winds in thunder. Prayers might well be in the heart and lips, but drowned in the outcries of the Officers,--nothing heard that could give comfort, nothing seen that might encourage hope. . . . .
+
+Our sails, wound up, lay without their use, and if at any time we bore but a Hollocke, or half forecourse, to guide her before the Sea, six and sometimes eight men, were not enough to hold the whip-staffe in the steerage, and the tiller below in the Gunner room; by which may be imagined the strength of the storm, in which the Sea swelled above the Clouds and gave battle unto heaven. It could not be said to rain, the waters like whole Rivers did flood in the ayre. And this I did still observe, that whereas upon the Land, when a storm hath poured itself forth once in drifts of rain, the wind as beaten down, and vanquished therewith, not long after endureth,--here the glut of water (as if throatling the wind ere while) was no sooner a little emptied and qualified, but instantly the winds (as having gotten their mouths now free and at liberty) spake more loud, and grew more tumultuous and malignant. What shall I say? Winds and Seas were as mad as fury and rage could make them. . . . . . .
+
+Howbeit this was not all; it pleased God to bring a greater affliction yet upon us, for in the beginning of the storm we had received likewise a mighty leak, and the ship in every joint almost having spewed out her Okam, before we were aware (a casualty more desperate than any other that a Voyage by Sea draweth with it) was grown five feet suddenly deep with water above her ballast, and we almost drowned within, whilest we sat looking when to perish from above. This, imparting no less terror than danger, ran through the whole Ship with much fright and amazement, startled and turned the blood, and took down the braves of the most hardy Mariner of them all, insomuch as he that before happily felt not the sorrow of others, now began to sorrow for himself, when he saw such a pond of water so suddenly broken in, and which he knew could not (with present avoiding) but instantly sink him. . . .

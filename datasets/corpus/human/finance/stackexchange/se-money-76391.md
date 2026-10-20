@@ -1,0 +1,7 @@
+# I have sole custody of my child but the child's father's brother claimed him as a tax deduction
+
+Your E-file return will be rejected if you are the second person to file, so you should file a paper return claiming your child, and you'll get your refund as you filed it.
+You and the other party claiming your child will both receive letters from the IRS notifying you that someone else has claimed your child as a dependent. If neither party files an amended return, a second letter from the IRS will ask for proof, which you should respond to immediately with a copy of the court order.
+As long as you have never provided form 8332 releasing your right to claim the child as a dependent, the IRS should accept your return and make your ex and his brother pay back the difference for their refunds with interest.
+If you didn't claim your child because of this problem last year, you should also file a paper 1040-X to amend that return and claim the child.
+Edit : There are quite a few comments with differing opinions about who should have full custody. Court orders often cover this scenario explicitly requiring the custodial parent to file form 8332 if the the non-custodial parent is assigned the tax benefits through the divorce decree. From the details shared by the OP, it seems like this case would clearly favor the custodial parent unless the divorce decree specifically assigned those rights elsewhere which the OP should have been aware of.

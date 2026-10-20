@@ -1,0 +1,10 @@
+# How do you come to terms with the fact that you might never be among the best in your research community?
+
+If every swimmer were to compete with the latest 20 year old Olympic gold medalist, they would soon give up. That's why we have different leagues. They provide more relevant frames of reference to compare different athletes. Thus you need to:
+Shift the frame.
+Adjusting a bad frame:
+You are a PhD student who completed some regular college and an outsider to your field. But you are comparing yourself with your supervisor and with "the brightest kids" in the world and, what is more, with scientist who specialized in your field from the get-go. How can that not be disappointing?
+What about: You are an up-and-coming young researcher with real-world experience and a background that is not the usual run-of-the-mill in the field you are working in. You have an amazing supervisor who trusts your work and you are at least as successful as the other PhD students in your cohort. Perhaps you are the only one from your college who made it to graduate school in the last couple of years. You still have plenty of time as a researcher to develop your  own  profile according to  your  interests. Don't be fooled by the  impostor syndrome .
+Dropping a bad frame:
+Never mind what I said in the beginning. Science is not a competition -- at least it shouldn't be.
+If you're doing research mainly to outcompete your colleagues, to improve your social status, to feel pleased with yourself: you're doing it wrong. Then you are extrinsically motivated, and this is neither sustainable nor does it make you happy. Have you ever delved into a problem and forgotten to drink or eat until the sun went down? Have you ever felt deeply frustrated because you just couldn't wrap your head around some strange finding, only to realize later that it completely makes sense when you look at it from a different angle? Experienced the enthusiasm that came with that discovery? Do you deeply feel that you  have  to understand  this ? Then you know the feeling of   flow   that really only comes from intrinsic motivation. Forget the competition; enjoy the game.

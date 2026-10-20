@@ -1,0 +1,21 @@
+# No result, Pts
+
+Points, NRR = Net run rate.
+Notes:
+Teams marked * progressed to the next stage of the competition.
+Teams marked † were eliminated from the competition.
+
+### Match logs and statistics
+
+
+## Twenty20 Cup
+
+Somerset finished as runners-up to Sussex in the 2009 Twenty20 Cup, having reached Finals Day in what captain Justin Langer described as " bizarre " fashion. Somerset qualified for the knock-out stages of the competition as the best third-placed team during the group stage, then beat Lancashire in a bowl-out to qualify for the semi-finals. After overcoming Kent in the semi-final, Somerset were comprehensively beaten by Sussex in the final.
+After the Indian Premier League's second season demonstrated the importance of spin bowling in Twenty20 cricket, and due to Somerset's lack of a front-line spin bowler, Somerset picked young leg spinner Max Waller to make his Twenty20 debut in their opening match of the campaign. He claimed three wickets in two overs to help Somerset win by one run, and finished the competition as Somerset's joint second-highest wicket-taker with 10 wickets. Despite a number of good performances by Somerset's bowlers, a batsman was named man of the match in each of the team's victories: James Hildreth, Craig Kieswetter and Marcus Trescothick were all awarded the accolade once, while Zander de Bruyn picked up the award on three occasions. Somerset completed the group stage with six wins, three losses and one no result, placing them third in the Midlands / Wales / West Division. They qualified for the knockout-stage as they were the best third-placed team in the three groups.
+Somerset's quarter-final, against Lancashire, was scheduled for Tuesday 28 July 2009. Bad weather meant that no play was possible on either the Tuesday or Wednesday, as a result of which the teams requested special dispensation from the ECB for an additional reserve day on the Thursday, which was granted. The wet weather continued, forcing the teams to play a bowl-out. Each team had to select five bowlers, each of whom had two deliveries at a set of unguarded stumps. Somerset won the bowl-out 5 – 1, with Ben Phillips, Peter Trego and Willoughby each hitting the stumps once, and Thomas hitting them twice.
+In the second semi-final of 2009 Finals Day, Somerset won the toss and elected to field against Kent. Economical bowling from Thomas and Willoughby, as well as the early wickets of Joe Denly and Martin van Jaarsveld, helped to limit Kent to 145 / 5. On a slow pitch, Trescothick played what ESPNcricinfo's Andrew McGlashan described as a " brutal innings ", scoring 56 runs off 32 balls. He shared an opening partnership of 73 with captain Langer, and by the time of Trescothick's dismissal after 8.1 overs, Somerset required 62 runs off 71 balls. Hildreth and de Bruyn took 10 overs to add another 57 runs, and after Hildreth was bowled for 36, Kieswetter added two runs to grant Somerset victory with seven balls remaining. Against Sussex in the final, Somerset once again won the toss and elected to field. A strong batting display by Sussex, highlighted by Dwayne Smith's 59 runs off 26 balls, set Somerset a target of 173 to win. In the opening overs of Somerset's reply, Trescothick scored powerfully, making the chase " look simple " according to McGlashan. However, after he was caught on 33, Somerset lost regular wickets. A partnership of 41 between de Bruyn and Trego steadied Somerset for a time, but when the pair were dismissed in subsequent overs, their team collapsed from 104 / 4 to 109 all out.
+At the start of the competition, Somerset played with aggressive batting tactics, opening the innings with Kieswetter and Trescothick for the first six matches. This opening pair only passed 20 runs together on one occasion, against Glamorgan, and for the rest of the tournament, Kieswetter dropped down the batting order and Langer joined Trescothick at the top of the innings, in a move that Kieswetter said " adds a bit of balance to the side by putting a bit more firepower down the end and experience up top ". The more experienced pair passed 40 runs together on four out of five occasions. The county's bowling relied heavily on medium pace, a fact which cricket writer Scyld Berry suggested was exposed in the final.
+
+### Season standings
+
+Key: Pld

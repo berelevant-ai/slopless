@@ -1,0 +1,5 @@
+# How do I convey that I'm ready to pay my tab in Greece?
+
+In many parts of Europe it is considered rude for a restaurant to bring you your bill without being asked. Meals are expected to be relaxed, unhurried affairs, and for a restaurant to bring the bill, or ask for payment, without being asked is seen as them trying to hurry you out.
+As such it is absolutely expected that you ask for the bill, or if you already have the bill ask to pay it. Attract the waiter's attention. This is more acceptable in Europe than the US, because generally a waiter won't disturb you unless they think you want something. (The endless "is everything alright - how is the food?" questions from North American waiters still faintly irritates some of us European expats.) If language is a problem, then the universal "mime writing something on your hand" usually works. Have a look at what others are doing - they may be paying at the counter (though this is pretty rare in Europe). If you are in a hurry, ask for the bill as soon as your last item is brought, and ask to pay as soon as the bill is brought.
+If you are paying by cash, then leaving the cash on the table is also acceptable

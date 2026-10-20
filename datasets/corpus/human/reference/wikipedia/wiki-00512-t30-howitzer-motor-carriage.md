@@ -1,0 +1,23 @@
+# T30 Howitzer Motor Carriage
+
+The T30 Howitzer Motor Carriage (HMC) was a United States Army self-propelled gun used in World War II. Its design was based on requirements for an assault gun issued by the Armored Force in 1941 and it was built as an interim solution until a fully tracked design was complete.
+Produced by the White Motor Company, the vehicle was simply a 75 mm Pack Howitzer M1 mounted on a modified M3 Half-track. It was first used in combat in the North African Campaign in November 1942. It later served in Italy and France, and possibly in the Pacific. Some were later leased to French forces and the type was used as late as the First Indochina War in the 1950s.
+
+## Specifications
+
+Based on the M3 Half-track, the T30's specifications were similar to its parent vehicle. It was 20 ft 7 in (6.28 m) long, 6 ft 5 in (1.96 m) wide, 8 ft 3 in (2.51 m) and high, and weighed 10.3 short tons (9.3 t). The suspension consisted of vertical volute springs for the tracks and leaf springs for the wheels, while the vehicle had a fuel capacity of 60 US gallons (230 l). It had a range of 150 mi (240 km) and had a speed of 40 mph (64 km / h), and was powered by a White 160AX, 147 hp (110 kW), 386 in3 (6,330 cc), six-cylinder, gasoline engine, with a compression ratio of 6.3: 1. It had a power-to-weight ratio of 15.8 hp / ton.
+
+### Gun specifications
+
+The T30's main armament was a short barreled 3.0 in (75 mm) pack howitzer. The 75 mm Pack Howitzer M1 as mounted could depress nine degrees, elevate 50 degrees, and traverse 22.5 degrees to each side. The vehicle had stowage for sixty rounds of 75 mm ammunition and, although it was not designed for anti-tank use, it had a high explosive anti-tank (HEAT) shell that could penetrate 3 in (76 mm) of armor. The gun shield had 0.375 in (9.5 mm) thick armor, designed to stop a.30 cal (7.62 mm) bullet from 250 yards (230 m) away.
+
+## Development
+
+The T30 HMC was originally conceived in 1941 as an interim design to fulfil the Armored Force's requirement for an assault gun to equip tank and armored reconnaissance units. The Ordnance Department design was based on the M3 Half-track in order that it could be brought into service quickly. A prototype vehicle was authorized in October 1941 armed with an M1A1 75 mm Pack Howitzer and a mount that was designed to fit on a simple box structure in the back of an M3 Half-track.
+Authorization for the production of two prototypes was given in January 1942; first deliveries of the vehicle were made the following month from the White Motor Company. As it was seen as a temporary solution it was never given type classification. In September 1942, the T30 was partially replaced by the Howitzer Motor Carriage M8 (the same gun on an M3 Stuart). After that, it was declared as " limited standard ". A total of 500 were produced, all by the White Motor Company.
+
+## Service history
+
+The T30 HMC entered service in November 1942, seeing action for the first time in the North African Campaign. In the 1st Armored Division, each armored regiment was issued twelve T30s. Of these, three were used in each battalion headquarters platoon and three were used in each regimental reconnaissance platoon. In addition, the 6th and 41st Armored Infantry Regiments were each issued with nine T30 HMCs, with three of them being allocated to the headquarters platoon in each armored infantry battalion.
+Most infantry divisions in the North African Campaign deployed a " cannon company " equipped with six T30s and two 105 mm T19 HMCs. In one encounter in North Africa, the T30 was used in an attempt to destroy German tanks. Although the T30s fired several volleys, the German tanks were barely damaged and the T30s were ordered to retreat under the cover of smoke to prevent losses. After several similar experiences, U.S. forces ceased the practice of employing self-propelled howitzers or mortars in direct combat with tanks.
+The T30 also served during the Allied invasion of Sicily in 1943, the war in Italy in 1944, and possibly in the Pacific. It was removed from infantry division use in March 1943, following changes in the organization of US infantry battalions, and was replaced by towed howitzers. The T30 was eventually replaced by the M8 HMC, which was based on the M5 Stuart light tank, and which began entering service around the same time as the T30. Only 312 T30 HMCs were delivered in their original configuration, as the last 188 were converted back into M3 Half-tracks before they were delivered. Later on, the U.S. leased several to French forces and some were used as late as the First Indochina War before the vehicle was retired from service in the 1950s.

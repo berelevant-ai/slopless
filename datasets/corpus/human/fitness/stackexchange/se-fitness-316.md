@@ -1,0 +1,5 @@
+# What is a "Runners High"?
+
+In a groundbreaking 2003 experiment, scientists at the Georgia Institute of Technology found that  50 minutes of hard running on a treadmill or riding a stationary bicycle significantly increased blood levels of endocannabinoid molecules  in a group of college students.
+The endocannabinoid system was first mapped some years before that, when scientists set out to determine just how cannabis, a k a marijuana, acts upon the body. They found that a widespread group of receptors, clustered in the brain but also found elsewhere in the body, allow the active ingredient in marijuana to bind to the nervous system and set off reactions that reduce pain and anxiety and produce a floaty, free-form sense of well-being. Even more intriguing, the researchers found that with the right stimuli, the body creates its own cannabinoids (the endocannabinoids). These cannabinoids are composed of molecules known as lipids, which are small enough to cross the blood-brain barrier, so cannabinoids found in the blood after exercise could be affecting the brain.
+Phys Ed: What Really Causes Runner’s High?

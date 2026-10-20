@@ -1,0 +1,99 @@
+{
+  "cli": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/dist/cli.js",
+  "rows": [
+    {
+      "label": "01-linkedin.md",
+      "file": "article/experiments/ai-editor-vs-gate/inputs/01-linkedin.md",
+      "total": 7,
+      "pattern": 6,
+      "metric": 1,
+      "rules": {
+        "slopless/flesch-kincaid": 1,
+        "slopless/perception-verb-density": 1,
+        "slopless/negation-reframe": 1,
+        "slopless/prohibited-words": 3,
+        "slopless/triple-repeat": 1
+      }
+    },
+    {
+      "label": "02-product-launch.md",
+      "file": "article/experiments/ai-editor-vs-gate/inputs/02-product-launch.md",
+      "total": 8,
+      "pattern": 5,
+      "metric": 3,
+      "rules": {
+        "slopless/coleman-liau": 1,
+        "slopless/flesch-kincaid": 1,
+        "slopless/gunning-fog": 1,
+        "slopless/sentence-case": 4,
+        "slopless/prohibited-words": 1
+      }
+    },
+    {
+      "label": "03-exec-strategy.md",
+      "file": "article/experiments/ai-editor-vs-gate/inputs/03-exec-strategy.md",
+      "total": 13,
+      "pattern": 10,
+      "metric": 3,
+      "rules": {
+        "slopless/coleman-liau": 1,
+        "slopless/flesch-kincaid": 1,
+        "slopless/gunning-fog": 1,
+        "slopless/sentence-case": 2,
+        "slopless/llm-vocabulary-density": 2,
+        "slopless/negation-reframe": 2,
+        "slopless/triple-repeat": 3,
+        "slopless/generic-signposting": 1
+      }
+    },
+    {
+      "label": "04-wellness.md",
+      "file": "article/experiments/ai-editor-vs-gate/inputs/04-wellness.md",
+      "total": 14,
+      "pattern": 13,
+      "metric": 1,
+      "rules": {
+        "slopless/sentence-case": 6,
+        "slopless/summative-closer": 2,
+        "slopless/negation-reframe": 3,
+        "slopless/paragraph-length": 1,
+        "slopless/fragment-stacking": 1,
+        "slopless/triple-repeat": 1
+      }
+    },
+    {
+      "label": "05-explainer.md",
+      "file": "article/experiments/ai-editor-vs-gate/inputs/05-explainer.md",
+      "total": 5,
+      "pattern": 2,
+      "metric": 3,
+      "rules": {
+        "slopless/coleman-liau": 1,
+        "slopless/flesch-kincaid": 1,
+        "slopless/gunning-fog": 1,
+        "slopless/sentence-case": 1,
+        "slopless/negation-reframe": 1
+      }
+    },
+    {
+      "label": "06-brand-mission.md",
+      "file": "article/experiments/ai-editor-vs-gate/inputs/06-brand-mission.md",
+      "total": 8,
+      "pattern": 5,
+      "metric": 3,
+      "rules": {
+        "slopless/coleman-liau": 1,
+        "slopless/flesch-kincaid": 1,
+        "slopless/gunning-fog": 1,
+        "slopless/prohibited-words": 2,
+        "slopless/negation-reframe": 2,
+        "slopless/triple-repeat": 1
+      }
+    }
+  ],
+  "agg": {
+    "total": 55,
+    "pattern": 41,
+    "metric": 14
+  }
+}

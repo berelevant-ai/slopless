@@ -1,0 +1,19 @@
+A peasant came from an adjoining house, and set to work arranging some part of the same plough which I had lately sketched. His appearance pleased me; and I spoke to him, inquired about his circumstances, made his acquaintance, and, as is my wont with persons of that class, was soon admitted into his confidence. He said he was in the service of a young widow, who set great store by him. He spoke so much of his mistress, and praised her so extravagantly, that I could soon see he was desperately in love with her. "She is no longer young," he said: "and she was treated so badly by her former husband that she does not mean to marry again." From his account it was so evident what incomparable charms she possessed for him, and how ardently he wished she would select him to extinguish the recollection of her first husband's misconduct, that I should have to repeat his own words in order to describe the depth of the poor fellow's attachment, truth, and devotion. It would, in fact, require the gifts of a great poet to convey the expression of his features, the harmony of his voice, and the heavenly fire of his eye. No words can portray the tenderness of his every movement and of every feature: no effort of mine could do justice to the scene. His alarm lest I should misconceive his position with regard to his mistress, or question the propriety of her conduct, touched me particularly. The charming manner with which he described her form and person, which, without possessing the graces of youth, won and attached him to her, is inexpressible, and must be left to the imagination. I have never in my life witnessed or fancied or conceived the possibility of such intense devotion, such ardent affections, united with so much purity. Do not blame me if I say that the recollection of this innocence and truth is deeply impressed upon my very soul; that this picture of fidelity and tenderness haunts me everywhere; and that my own heart, as though enkindled by the flame, glows and burns within me.
+
+I mean now to try and see her as soon as I can: or perhaps, on second thoughts, I had better not; it is better I should behold her through the eyes of her lover. To my sight, perhaps, she would not appear as she now stands before me; and why should I destroy so sweet a picture?
+
+JUNE 16.
+
+"Why do I not write to you?" You lay claim to learning, and ask such a question. You should have guessed that I am well—that is to say—in a word, I have made an acquaintance who has won my heart: I have—I know not.
+
+To give you a regular account of the manner in which I have become acquainted with the most amiable of women would be a difficult task. I am a happy and contented mortal, but a poor historian.
+
+An angel! Nonsense! Everybody so describes his mistress; and yet I find it impossible to tell you how perfect she is, or why she is so perfect: suffice it to say she has captivated all my senses.
+
+So much simplicity with so much understanding—so mild, and yet so resolute—a mind so placid, and a life so active.
+
+But all this is ugly balderdash, which expresses not a single character nor feature. Some other time—but no, not some other time, now, this very instant, will I tell you all about it. Now or never. Well, between ourselves, since I commenced my letter, I have been three times on the point of throwing down my pen, of ordering my horse, and riding out. And yet I vowed this morning that I would not ride to-day, and yet every moment I am rushing to the window to see how high the sun is.
+
+I could not restrain myself—go to her I must. I have just returned, Wilhelm; and whilst I am taking supper I will write to you. What a delight it was for my soul to see her in the midst of her dear, beautiful children,—eight brothers and sisters!
+
+But, if I proceed thus, you will be no wiser at the end of my letter than you were at the beginning. Attend, then, and I will compel myself to give you the details.

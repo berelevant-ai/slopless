@@ -1,0 +1,8 @@
+# Has Trump's administration been making more human trafficking arrests than the Obama administration?
+
+The earliest mention online - and thus likely the source for this - seems to be  maga1776.com .
+The numbers for 2010 to 2016 are official statistics - the 2016 numbers are directly from ICE, the earlier numbers are not from a reliable source ( washington examiner ), but I don't think that they are in doubt. Note that these numbers are specifically about arrests made by ICE - or more specifically the Homeland Security Investigations (HSI) created under Obama in 2010 - , not all arrests related to trafficking.
+The numbers for 2017 are not from ICE, but collected by maga1776.com from various news articles. Just looking at the links with the highest cases, we can see that they  are fake or misleading.
+The 900 cases for example link to  RT  (not a reliable source). They were in fact 870 arrests, not 900, and they  were  world wide  and not related to ICE arrests (which is what the Obama stats are about).
+The 1035 arrests are sourced to  daytondailynews.com , but again not ICE arrests but arrests made by the police. The second 1012 arrests are sourced to  theconservativetreehouse.com , but again they were not arrests made by ICE, but by the DOJ. According to the source, they are also not about human trafficking, but sexual assault of children. The 350 number is sourced to  breaking911.com  and is about documentation of rape of children, which is not directly related to human trafficking. The arrests were also not made by ICE.
+As mentioned in the comments, the real numbers for 2017 are not out yet, so we cannot say how many human trafficking arrests ICE has made. What we can say is that the 6355 number is made up.

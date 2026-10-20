@@ -1,0 +1,5 @@
+# Advisor tries to reproduce my results to ensure my honesty. Is it the norm?
+
+As many have pointed out in the comments (Nate Eldredge, Dan Romik, Per Alexandersson, etc.), the point is not to catch you cheating (as if you were intentionally trying to manipulate your results), but rather to verify your process of obtaining such results. We all should be so lucky as to have an adviser take the time out of his/her schedule to verify our processes.
+I would also like to add that -- and this assumes your thesis could/will lead to an academic publication at a journal or conference -- that your adviser's reputation is potentially on the line by attaching his/her name to such a document. In other words, by becoming a co-author on your [future] publication, your adviser is essentially saying, "Yes, I helped work on this, and I am sure of the methods and the results contained within."
+The bottom line (tl;dr) is that you shouldn't take this as a personal attack. You should be thankful to have someone who can invest the amount of time necessary to ensure the correctness of the work you've done.

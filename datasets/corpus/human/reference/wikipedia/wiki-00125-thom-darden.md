@@ -1,0 +1,22 @@
+# Thom Darden
+
+Thomas Vincent Darden (born August 28, 1950) is a former American football cornerback, safety, and punt returner who played for the Cleveland Browns of the National Football League (NFL). In the NFL, he was a three-time All-Pro free safety. He earned a Pro Bowl selection in 1978. He holds most Cleveland Browns franchise interception records. He was an All-American defensive back for the Michigan Wolverines football team and made one of the more memorable interceptions in college football history. After retiring from football, Darden pursued careers as a sports agent, security provider and business consultant.
+
+## Early life
+
+Darden was born in Sandusky, Ohio. He graduated from Sandusky High School.
+
+## College football
+
+After graduating, he was recruited by six Big Ten Conference football programs in 1968. He played at the University of Michigan from 1969 to 1971 and had 218 tackles and 11 interceptions. He was an All American in 1971, and he was also named All-Big Ten in 1970. He played on Big Ten champions in both 1969 and 1971. Thom fit in well at Michigan becoming one of Coach Bo Schembechler's prized pupils and earning a reference in his 2006 book Bo Schembechler. Darden still ranks among leaders at Michigan for Punt Returns and Punt Return Yardage. Darden played all defensive back positions at Michigan. In college, Darden was a housemate of Reggie McKenzie, Glenn Doughty, Billy Taylor and Mike Taylor in a notable house known as the Den of the Mellow Men.
+ESPN chose Darden's November 21, 1971 interception against Ohio State as one of the 100 Plays, performances and moments that define college football. The play was a very controversial call late in the 10 – 7 game and Ohio State coach Woody Hayes stormed the field to rant at the referee Jerry Markbreit about the referee's call that Hayes thought should have been ruled pass interference. By the end of Hayes ' tirade, he had broken a yard marker, shredded a first-down indicator and earned two 15-yard unsportsmanlike penalties. The scene was replayed over and over on national television broadcasts. That was Darden's second interception in that game. ESPN also chose Darden as a member of the All-Time University of Michigan Football team.
+
+## Pro football
+
+Darden was drafted in the first round (18th overall) in the 1972 NFL Draft by the Cleveland Browns. Darden started at free safety from his rookie season of 1972 until he lost the job in his tenth and final season to Clinton Burrell. He was selected an All-Pro safety in 1976, 1978, and 1979, and went to the Pro Bowl in 1978. Over the course of his career he handled 45 punt returns for 285 return yards. Darden holds Cleveland Browns franchise records with 45 career interceptions, 10 single-season interceptions and 820 interception return yards. Two of Darden's Browns teams went to the playoffs. His rookie year, the 10 – 4 1972 Browns went to the 1972-73 NFL playoffs under head coach Nick Skorich, but lost in the first round to the Miami Dolphins 20 – 14. The 11 – 5 1980 Browns went to the 1980-81 NFL playoffs under head coach Sam Rutigliano, but lost in the first round to the Oakland Raiders 14 – 12.
+Darden was ranked 47th on the Cleveland Browns top 100 players list.
+
+## Post football
+
+Darden has served as a professional sports agent and represented Tony Boles. In 1990, he invested $ 25,000 in Boles by hosting him in Cleveland, Ohio and working him out with athletic trainers. At the time he was Cleveland-based sports agent. During Darden's career as an agent he represented an assortment of NFL and National Basketball Association players and prospects including Felix Wright and Chris Calloway. He was a supporter of Maurice Clarett's attempt to challenge the NFL Draft's eligibility rules. In 1998, when the NFL reissued a franchise in Cleveland, Darden was part of one of the six bidding groups. In 1999, he owned a security company in Cedar Rapids, Iowa. As of 2006, Darden was a business consultant living in Cedar Rapids.
+In 1993, he went to jail for failure to pay child support. At the time he was a registered NFL agent in Connecticut and owed $ 14,000 in child support, $ 30,000 to a trust for his 16-year-old son, Todd, and $ 12,000 in his former wife's legal fees. Darden had been married to Sheryl from 1972 – 1977 when they divorced. He had previously been $ 5000 in arrears until being briefly jailed for failure to pay and cursing the judge. He had been in contempt of court twenty times previously.

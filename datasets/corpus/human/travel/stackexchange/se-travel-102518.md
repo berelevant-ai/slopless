@@ -1,0 +1,8 @@
+# How to escape hip-hop CD giveaway scam in New York City?
+
+Here is a situation I encountered multiple times in New York City streets, lately.
+Usually at a sidewalk corner where people are likely to wait for the pedestrian crossing "walk" signal, a gang of two, three, four people are present. One of them hands a CD in a plastic pocket, supposedly a pre-release brand new rap album of the guy. The way he wants you to take the CD is rather aggressive. Another man of the gang does the same thing, even asking for your name and writing it on the plastic pocket. They even give you extra CDs, makes no sense!
+The trouble comes when they all start asking for money, talking about a donation. It begins by $1, $5... and it seems very difficult to say no as the guys do not want to take the CDs back. As they look physically in good shape and likely to have regular workouts at the gym, they appear impressive, and the idea of getting into an argument is just out of the question.
+In the process of taking the money out of the wallet to pay the forced donation, when I was caught in that scheme, I accidentally let them see a $20 bill in my wallet. They wanted it right away and gave me minimal change out of it "as it is for their friends too".
+How can one escape this situation safely without giving out any money?
+Note for duplicates: This situation, even if similar to the string scam used in other cities, is unique due to the approach of someone looking friendly and the realistic expectation to discover new music. And such people are rather difficult to "calculate" on first sight. Furthermore, I was not aware of similar schemes with different objects used before living the scam for real.

@@ -1,0 +1,5 @@
+# I don't know my nationality. How can I visit Denmark?
+
+I was born in a Thailand refugee camp to Vietnamese parents, but quickly as an infant, they immigrated to Denmark. We lived there for 10-11 years and then moved to the U.S. I am a green card holder of U.S. and I plan to travel to Denmark but I cannot get a U.S. passport (not a U.S. citizen) and I can't get a Danish passport either since my nationality has not been established. Who can help me answer those questions?
+My mother and I have a joint Danish travel document (I don't have a passport because I was not issued one since I was young) and my mother claims she doesn't either. However, how did we travel to Spain, Romania, and France from Denmark (via airtravel) and not have one??  Our travel document doesn't indicate where we've traveled. I reallly really really need help because I have called the Danish Consulate/Embassy as well as Thai Consulate and no one is able to give me any answers.
+I cannot get a visa to Denmark because when they ask what country I am a citizen of, I can't answer that.

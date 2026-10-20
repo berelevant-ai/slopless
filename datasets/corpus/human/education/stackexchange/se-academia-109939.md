@@ -1,0 +1,5 @@
+# How can I avoid inadvertently offending my female peers and getting into trouble for it?
+
+When I step on someone's foot in a crowded subway, I apologize, even if I didn't do it on purpose. I don't refuse to say I'm sorry, I don't imply in a sarcastic way that the other person should have gotten their foot out of the way, I don't suggest that it cannot have hurt all that much, and I don't tell them they should relax, it's just a prank.
+If you read the full story, you will see that Prof X's problems really started when he reached out to Prof Y to tell her she was wrong and had no right to complain, and even further refused to formally apologize when asked to. When you read the organization's reasoning, you see that they also consider that it is not so much the intent of the actions that matters, but rather the consequences and hurt they caused.
+So I would suggest apologizing if someone tells you that your actions hurt them, instead of telling them that they had no right to feel hurt. Showing that you are a human being capable of empathy helps, usually. I have never witnessed an attempt at going down the second route that worked out well.

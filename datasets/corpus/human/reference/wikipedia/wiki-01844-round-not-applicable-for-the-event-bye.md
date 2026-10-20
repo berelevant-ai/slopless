@@ -1,0 +1,16 @@
+# Round not applicable for the event; Bye
+
+Athlete not required to compete in round
+
+## Synchronized swimming
+
+Egypt's synchronized swimming team qualified for the Olympics by being the top African nation at the 2011 World Aquatics Championships. It was the second time that the nation had qualified for the team event, having previously appeared in 2008. Shaza Abdelrahman and Dalia El-Gebaly, veterans of the 2008 tournament, represented Egypt in the duet, where they placed 24th and last. In the team competition, the nation finished seventh out of eight nations, ranking higher than Australia.
+Key: N / A = Round not applicable for the event
+
+## Table tennis
+
+Six Egyptian table tennis players, three men and three women, qualified for the Olympics, four for the singles and an additional two for the team events. The four singles competitors, Omar Assar, El-sayed Lashin, Nadeen El-Dawlatly, and Dina Meshref, all qualified based on their achievements at the 2011 All-Africa Games. At this tournament, Assar won the singles event, was part of the victorious Egyptian team, finished second in the doubles with Emad Moselhy, and placed third in the mixed doubles alongside Meshref. He also won silver in the singles and gold in the team event at the 2011 Pan Arab Games. In London he defeated Yaroslav Zhmudenko of Ukraine in the opening round, but lost to Greece's Panagiotis Gionis in round two. Lashin was the runner-up in the singles at the 2011 All-Africa Games, as well as the winner of the doubles (with Ahmed Saleh), a bronze medalist in the mixed doubles (alongside El-Dawlatly), and a member of the gold medal-earning Egyptian team. His list of international medals stretched back to the 1996 African Championships, where he won a gold medal in the team event, and he had previously appeared in the Olympic Games in 2000 and 2008. In London he defeated Pär Gerell of Sweden and Zoran Primorac of Croatia before losing to Japan's Jun Mizutani in the third round. For the team event, Assar and Lashin were joined by Saleh, a 2008 Olympic veteran whose victories went as far back at the doubles event at the 1996 Arab Championships, but they were eliminated in the opening round.
+El-Dawlatly had been fourth in the singles at the 2011 All-Africa Games, as well as third in the doubles and mixed doubles (with Meshref and Lashin respectively), and was a member of the gold medal-winning Egyptian team. She had also earned gold in the team event and the doubles and silver in the singles at the 2011 Pan Arab Games. In London she was defeated in the opening round by Denmark's Mie Skov. Meshref had the same results as El-Dawlatly at the 2011 All-African Games, except for being fifth in the singles, and took gold in the singles, doubles, and team events at the 2011 Pan Arab Games. In London she defeated Offiong Edem of Nigeria and Yana Noskova of Russia before being overcome by Romania's Elizabeta Samara. For the team event, El-Dawlatly and Meshref were joined by Raghd Magdy, who had been third in the doubles and mixed doubles, as well as runner-up in the team competition, at the 2003 All-Africa Games. The Egyptian women were defeated by the Dutch in the first round.
+Men
+Women
+Key: BM

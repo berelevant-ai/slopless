@@ -1,0 +1,12 @@
+# My nose presses in a lot
+
+Your nose is impressively compressible! However, if you don't have any other problems, there's nothing wrong with that.
+You're young, and have less bone and more cartilage in your nose relative to it's size than adults have. If you find and press the noses of other kids your age, then do so with adults, you'll notice a significant difference between the adults and the kids, though not all of the kids' noses will flatten as much as yours.
+Though noses are different, in this picture you can see a woman and a young child. Their noses are quite different in length. The baby's would be very compressible. The woman, not so much.
+This is a young woman's nose with the underlying structures labeled. The septal cartilage, from the top almost to the bottom between the nostrils and the two upper lateral nasal cartilages fuse together and to the nasal bone. (The lower nasal cartilages don't fuse, so the tip of the nose always stays very flexible. Your lower nasal cartilages make up more of your nose than hers, so more of your nose is flexible.)
+Your nose will be bendable depending on how long your nasal bone is - it's longer in some than in others, and it's longer in adults than kids. Your nasal bone - the really hard part that projects down from between your eyebrows - may be short, making your nose more compressible.
+I said in the beginning "if you don't have any other problems". Place your index finger on your upper lip and press hard enough that you can feel your teeth and gums. Now move your whole finger up toward the columulla (it separates the two nostrils on the outside.) Did you feel a hard bone above your lip (it's kind of triangle shaped with the base - against your lip - wider than the tip (which fuses with the septal cartilage.) If you don't have a bone there, you should ask your doctor to check your nose just in case.
+Congenital anomalies of the nose are very rare and occur in 1/20,000
+to 1/40,000 newborns, so it's highly unlikely you have one. Most of the time they are associated with other facial problems, for example a small chin (I can see yours, and it's fine). If you can breathe normally through your nose, and the only trick you can do with your body is to flatten your nose (great party trick!) you are just fine.
+Isolated congenital partial absence of the left lower lateral nasal cartilage: case report
+Congenital Malformations of the Nose

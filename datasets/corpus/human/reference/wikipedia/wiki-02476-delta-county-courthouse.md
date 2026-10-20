@@ -1,0 +1,20 @@
+# Delta County Courthouse
+
+The Delta County Courthouse is a historic, three-story courthouse building in the city of Cooper, in Delta County, Texas, United States. The building is located at 200 West Dallas Avenue, and functions as the meeting place for the county government. The building also houses all of the county records. The county's first courthouse was built in 1873, in Cooper. A courthouse was built to replace the original in 1898. After the Great Depression, the new courthouse was built by the Works Progress Administration (WPA), helping the community to grow. The building has remained virtually unchanged since.
+
+## History
+
+
+### Background
+
+During the Texas Constitutional Convention of 1868, the delegates paid attention to northeastern portion of the state, especially the increasing need for the creation of new counties in the region. At the time, there were a total of twenty counties located in the region, compared to twenty-three presently. The convention originally met to write a new state constitution, but members quickly tried to shift the focus to other issues. During the convention, the Committee on Counties and County Boundaries presented proposals for the creation of three new counties in the region. They were to be called Delta, Webster, and Richland. Delta County was established on July 29, 1870, by the Twelfth State Legislature. The proposals for Webster and Richland counties, however, were not passed.
+
+### Creation and development
+
+After Delta County was established, it held its first election on October 6, 1870. The first five members of the county commissioners board were chosen in the election. Cooper was established as the county seat for the newly formed county. However, a courthouse was not established for the county government until 1873. Constructed in the county seat, the courthouse was built in the town square. Confederate and Union veterans of the Civil War planted pecan trees on the square around the courthouse, to symbolize the end of conflict. The building, which was two stories tall, was designed by architects R.C. Andrews and E. Blackwell, for a price of approximately $ 6000 (equivalent to $ 118,500 in 2016).
+In 1898, the newly incorporated city of Cooper passed a $ 40,000 bond (equivalent to $ 1,137,800 in 2016) to begin construction of a new, three-story brick courthouse. While construction of the new courthouse was underway, the original courthouse was destroyed in a fire. Construction of the second courthouse was completed in 1900.
+Delta County's economy plummeted in 1926 when the local cotton crop failed. The county's economy was slow to recover, finally reaching a steady level in the late 1930s. In 1940, the Works Progress Administration (WPA) began working on improving several items in Delta County. Among these projects was the demolition of the existing courthouse and the construction of a new one. The new courthouse was built at a cost of $ 110,450 (equivalent to $ 1,865,600 in 2016). The courthouse was designed by architect Hook Smith. The building was constructed in a modern architecture style, and is three stories tall. The present courthouse was constructed two blocks west of the previous building, on the site of the former Blackwell Livery Stable, which had closed in 1912. The site of the former courthouse is still surrounded by the brick roads that were constructed for the courthouse and is now home to a gazebo.
+
+## Location and usage
+
+The present courthouse is located at 200 West Dallas Avenue, two blocks west of the center of the city of Cooper. The building and its property take up half of the city block. It is bordered by Texas State Highway 154 (Dallas Avenue) to the south, Bonham Avenue to the north, NW 2nd Street to the east, and a small alleyway to the west. The courthouse is located slightly south of the geographic center of Delta County. The courthouse serves as the offices for most of the county government, including the county judge, commissioners ' court, county auditor, clerk, sheriff, and the justice of the peace. The court also houses all of the county's historical records.

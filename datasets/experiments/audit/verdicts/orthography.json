@@ -1,0 +1,80 @@
+[
+  {
+    "rule": "smart-quotes",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Flags curly apostrophes in natural contractions and possessives (it's, don't, I've, can't) and curly quotation marks in normal published prose. Standard typographic convention in professionally edited text; not a slop signal.",
+    "fp_examples": [
+      "It's f@#ked up when your mind's playin' tricks on ya",
+      "If I'm Doing a Good Job, Why Do I Feel So Bad?",
+      "And this loneliness won't leave me alone"
+    ]
+  },
+  {
+    "rule": "em-dashes",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Flags every em-dash regardless of function. All sampled uses are standard: parenthetical insertions ('one of the most important--and overlooked--parts'), list-item introductions ('Make some friends--Although...'), appositives, and parenthetical clarifications. Em-dashes are ordinary punctuation in edited prose.",
+    "fp_examples": [
+      "Reference Checking. One of the most important—and overlooked—parts of the recruiting process is reference checking.",
+      "Make some friends—Although it's nearly impossible to get high quality advice on the tough decisions that you make...",
+      "He is disempowered—She feels that she cannot access the people in charge and, as a result, complaining is her only vehicle to get the truth out."
+    ]
+  },
+  {
+    "rule": "sentence-case",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Flags title-case headings and article titles, which is the dominant editorial convention for titles in American English publishing. Every sample is a legitimate document or article title (e.g. '# When Smart People Are Bad Employees', '# Ben Horowitz What You Do Is Who You Are Proceeds'). Title case in headings is a style choice, not slop.",
+    "fp_examples": [
+      "# When Smart People Are Bad Employees",
+      "# A Final Word of Advice—Don't Punk Out and Don't Quit",
+      "# Beware The Edifice Complex And 9 Other Ways To Damage Your High Growth Startup"
+    ]
+  },
+  {
+    "rule": "hidden-unicode-controls",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "METRIC",
+    "cause": "Two artifact classes: (1) U+00AD SOFT HYPHEN in court opinions and chemistry equations -- inserted by typesetting pipelines for hyphenation hints; (2) U+200B ZERO WIDTH SPACE in PubMed medical abstracts -- a database export artifact. Both originate from formatting pipelines in legitimate institutional sources, not from AI generation or sloppy writing.",
+    "fp_examples": [
+      "CO₂ (g) + H₂O (l) ­⇄ H₂CO₃ (aq)",
+      "(Slip Opinion) OCTOBER TERM, 2013 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released...",
+      "OBJECTIVE: To identify the prevalence, treatment, and low-density lipoprotein cholesterol (LDL-C) control of individuals with LDL-C ≥190 ​mg/dL..."
+    ]
+  },
+  {
+    "rule": "colon-dramatic",
+    "fp_of_sampled": 1,
+    "sampled": 1,
+    "verdict": "MIXED",
+    "cause": "Only one human sample; the fragment appears to be a truncated excerpt from normal expository prose rather than a dramatic-reveal colon construction. Insufficient sample size to characterize rate, but the single flagged line is a FP.",
+    "fp_examples": [
+      "Faced with the idea that people working for startups might be [pay them to.]"
+    ]
+  },
+  {
+    "rule": "fake-timestamps",
+    "fp_of_sampled": 30,
+    "sampled": 30,
+    "verdict": "FP-PRONE",
+    "cause": "Three categories all flagged incorrectly: (1) real email headers with documented send times ('date: Fri, Jan 23, 2009 at 11:42 AM') -- these are literal metadata, not fabricated; (2) specific times in memoir/business narrative recounting real events ('6:30 pm board meeting', '5:30pm office') -- genuine recollections; (3) idiomatic time references ('paged at 4:00 AM', 'stay up till 4:00 AM') -- common colloquial usage. The rule cannot distinguish fabricated AI timestamps from real or idiomatic time references.",
+    "fp_examples": [
+      "date: Fri, Jan 23, 2009 at 11:42 AM",
+      "We informed them that we had scheduled a final board meeting for 6:30 pm and we would not be recommending the deal with HP for anything less than that.",
+      "Unfortunately, various circumstances lead to me not being able to get to the gym until about 9:30PM at night."
+    ]
+  },
+  {
+    "rule": "artifact-placeholders",
+    "fp_of_sampled": 0,
+    "sampled": 1,
+    "verdict": "PRECISE",
+    "cause": "The single human sample contains a literal '[citation needed]' placeholder in a StackExchange cooking answer -- an unfilled citation slot that was never completed. This is a genuine artifact regardless of whether a human or AI wrote it. No false positives detected in the one available sample.",
+    "fp_examples": []
+  }
+]

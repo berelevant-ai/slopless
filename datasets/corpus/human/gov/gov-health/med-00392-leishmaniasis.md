@@ -1,0 +1,15 @@
+# Leishmaniasis
+
+Leishmaniasis is a parasitic disease spread by the bite of infected sand flies. There are several different forms of leishmaniasis. The most common are cutaneous and visceral. The cutaneous type causes skin sores. The visceral type affects internal organs such as the spleen, liver, and bone marrow. People with this form usually have fever, weight loss, and an enlarged spleen and liver. 
+
+Leishmaniasis is found in parts of about 88 countries. Most of these countries are in the tropics and subtropics. It is possible but very unlikely that you would get this disease in the United States. But you should be aware of it if you are traveling to the Middle East or parts of Central America, South America, Asia, Africa or southern Europe. 
+
+Treatment is with medicines that contain antimony, a type of metal, or with strong antibiotics. The best way to prevent the disease is to protect yourself from sand fly bites:
+
+- Stay indoors from dusk to dawn, when sand flies are the most active
+
+- Wear long pants and long-sleeved shirts when outside
+
+- Use insect repellent and bed nets as needed
+
+Centers for Disease Control and Prevention

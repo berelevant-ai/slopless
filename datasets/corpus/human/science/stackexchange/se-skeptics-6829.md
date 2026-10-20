@@ -1,0 +1,10 @@
+# Was the experiment with five monkeys, a ladder, a banana and a water spray conducted?
+
+TL;DR:  It sounds like a similar monkey experiment did take place, and the results were similar to that presented in the picture, but if this is the same experiment, most of the details are wrong.
+The  first google result  for  monkeys ladder experiment  contains to the following information:
+Stephenson (1967) trained adult male and female rhesus monkeys to avoid manipulating an object and then placed individual naïve animals in a cage with a trained individual of the same age and sex and the object in question. In one case, a trained male actually pulled his naïve partner away from the previously punished manipulandum during their period of interaction, whereas the other two trained males exhibited what were described as "threat facial expressions while in a fear posture" when a naïve animal approached the manipulandum. When placed alone in the cage with the novel object, naïve males that had been paired with trained males showed greatly reduced manipulation of the training object in comparison with controls. Unfortunately, training and testing were not carried out using a discrimination procedure so the nature of the transmitted information cannot be determined, but the data are of considerable interest.
+Sources:
+Stephenson, G. R. (1967). Cultural acquisition of a specific learned response among rhesus monkeys. In: Starek, D., Schneider, R., and Kuhn, H. J. (eds.), Progress in Primatology, Stuttgart: Fischer, pp. 279-288.
+Mentioned in: Galef, B. G., Jr. (1976). Social Transmission of Acquired Behavior: A Discussion of Tradition and Social Learning in Vertebrates. In: Rosenblatt, J.S., Hinde, R.A., Shaw, E. and Beer, C. (eds.), Advances in the study of behavior, Vol. 6, New York: Academic Press, pp. 87-88.
+The above quote is found on page 88 of  the 1976 document quoted above .
+It is possible the claim is referring to this experiment, with diverging details, or that another experiment took place that was closer to the details in the claim.

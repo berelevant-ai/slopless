@@ -1,0 +1,5 @@
+# When someone's ability to pay is suspect, why would it make sense to give them more expensive credit?
+
+It starts to make more sense when you consider a  pool  of borrowers rather than an individual.
+For example, consider a pool of 100 borrowers with a  1 in 100  chance of default, if they all borrow $1,000 for 1 year at 10% APR, you can expect to receive ~$100 interest x 99 borrowers = $9,900  minus  the $1,000 from the defaulter. Leaving you with about $8,900 in "profit". (Obviously this is greatly simplified - we're ignoring principal repayments, compounding, the chance of a borrower making a few repayments before defaulting, etc., etc., but hopefully you get the point).
+Now consider a scenario where the risk of default is  1 in 10 . If you charged the same 10% interest to those 100 borrowers, you could expect to receive $9,000 in interest payments, but you'll  lose  $10,000 in defaults, so you'd want to charge a higher interest rate to all members of that higher risk pool so that you can still turn a profit.

@@ -1,0 +1,5 @@
+# I'm from Mumbai, India. I want to travel to Europe as a tourist but my salary is low ( €190/month)
+
+I'm sorry, but  you are not in a financial position to travel around Europe right now , and you would be well advised to wait until you have a larger income or savings to fund your trip.
+190 euros/month is  6 euros a day .  Not only is this insufficient to travel, but in much of Europe it's not enough for a  single meal  if you're eating out.  Generally speaking (it's a wide area with varying prices), a realistic rock-bottom backpacker budget in Western Europe is  around 50 euros/day , meaning you'd want around 1,500 euros -- that's 8 months' salary for you -- saved up.
+The only way you could possibly make this work now is if you live at your friend's place (so no accommodation costs), cook all meals at home, and stick to free attractions reachable on foot/bicycle from their place.  This would be incredibly limiting and unlikely to be worth the considerable expenses of flight tickets, visas etc, and it's highly unlikely your visa would be approved if this is what you claim to do.

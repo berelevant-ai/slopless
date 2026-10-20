@@ -1,0 +1,6 @@
+# How do I insist that American hotels accept my employer's credit card for payment, instead of asking for personal credit card upon check-in?
+
+The problem here is not the  corporate  credit card, but that you're trying to do this without a  physical  card.  A credit card number is good enough to make a reservation, which is why the phone call works for that, but reception needs to charge a deposit on arrival and their protocol dictates that you need to hand over a physical card for this.  The hotel doesn't particularly care if it's yours or the company's, as long as it's valid and has your name on it.
+The sane thing would be that  your employer gives you a physical corporate credit card , which you can then use to pay deposits and settle the bill. Since your employer is a government body and isn't doing this, I presume they're not sane though.
+The other option is to  prepay for your hotel room  using the corporate credit card.  You may still be required to hand over a personal credit card for the deposit (to cover raiding the minibar etc), but this should be returned in full within a day or two of checking out with no cost to you or the taxpayer.
+See also:  Booking hotel with my credit card for a third person. Will that person have issues at check-in?

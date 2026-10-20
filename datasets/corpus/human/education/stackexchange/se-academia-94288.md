@@ -1,0 +1,4 @@
+# Quoting a typo: Do I really have to do "sic", or can I just fix the sentence?
+
+Academics are old-fashioned people who care about things like truth, facts, and accuracy. By making sure that everything you write between quotation marks is what the person you quote  actually wrote  (with "[sic]" inserted as appropriate), you will contribute your small share to perpetuating these values, which, although temporarily out of fashion these days in some parts, have served humanity well and will continue to do so in the future.
+It may seem silly to resist the urge to make a correction when it's just a typo, but it's a good way to get yourself and others into the habit of speaking truthfully and accurately. So please write "sic" rather than correct the quote. Silly as it may be, in a small way it makes the world a better place.

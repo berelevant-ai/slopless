@@ -1,0 +1,24 @@
+# Rock N Roll McDonald's
+
+The Rock N Roll McDonald's (formerly The Original Rock ' N Roll McDonald's) is a flagship McDonald's restaurant located in Chicago, Illinois. It is one of the most famous McDonald's locations in the world and was once the busiest in the United States. The restaurant / museum, located in the River North section of the Near North Side community area (neighborhood) of Chicago, a few city blocks west of the Magnificent Mile, has been a tourist attraction since it opened in 1983. Its present building opened in 2005. The restaurant has a maximum occupancy of 300, which is about three times the standard patron seating capacity. The site has a rock and roll exhibit in a building adjacent to the restaurant and a small upstairs McDonald's museum display. The building features the first two-lane McDonald's drive-through, relatively luxurious decor, a café, flat screen televisions and a green roof.
+
+## Restaurant
+
+The franchise has had a restaurant at the 600 N. Clark Street address since 1983, but the new building was redeveloped and reopened on April 15, 2005 as a bilevel flagship restaurant / museum with a two lane drive through. This is the first McDonald's location with a two-lane drive-through. The reopening coincided with the 50th anniversary of the Des Plaines, Illinois restaurant which was opened by Ray Kroc on April 15, 1955. Rock N Roll McDonald's is the location where the corporation kicked off its celebration of the 50th anniversary of the franchise. Among the celebrities in attendance were Colin Powell and Elton John. At the time of the 2004 demolition, the location was the 3rd busiest in the United States and 12th in the world. In the early 90s, it had been the busiest in the United States. It was expected to increase its sales revenue rankings from 3rd in the United States and 12th in the world with the renovation and redevelopment.
+The restaurant is priced higher than other Chicago-area McDonald's, in order to subsidize the interior decor which includes numerous plasma display flat screen televisions and expensive Italian lighting. Its second floor includes a coffee bar serving lattes, gelato and biscotti and lounges that pay homage via museum display, music, and decor to every decade the chain has been in business. The 2nd floor McCafe is designed to compete with Starbucks by serving cappuccino, espresso, gelato and Italian pastries. The building features a pair of 60 foot arches and two stories worth of windows that weigh 800 pounds apiece. It has 10 cash register stations to complement its 300 patron capacity, which is about 3 times the normal McDonald's capacity. The restaurant has three front walls of glass.
+Franchisee Marilyn Wright and her husband Ralph Wright have operated 10 McDonald's locations for the past 12 years. In addition to a perimeter of trees, the building has two green roof gardens on two levels. The lower one is visible from inside. However, the upper roof is only visible from surrounding high-rise buildings. Neither accommodates customer access. The trash cans in this tourist mecca say thank you in ten languages. The restaurant has separate preparation lines for white meat and red meat in the giant kitchen. The demolished building faced Ohio Street, but the new building is rotated 180 degrees to face the Ontario Street tourist pedestrian strip.
+The restaurant was sung about by the cult Chicago musician Wesley Willis in a song entitled " Rock N Roll McDonald's ". The song was featured in the movie Super Size Me.
+
+### Museum
+
+The south (rear) half of the upstairs portion has a series of displays of early McDonald's photos, multimedia, and paraphernalia including the fast food giant's striped polyester uniforms from the 60's. Much of it is arranged by decade going back to the mid-1950s when McDonald's first opened and is accompanied by pop culture artifacts such as pet rocks, early cell phones, and 8-track tape players. Downstairs there is a section on the first floor entitled " Chicago Firsts, " featuring events and organizations that originated in Chicago.
+
+## Neighborhood
+
+The restaurant / museum, its rock and roll exhibit and its parking lot occupy the entire block bounded by West Ontario Street to the north, West Ohio Street to the south, North LaSalle Street to the west and North Clark Street to the east in the River North neighborhood of the Near North Side community area. The building is situated near several other theme restaurants. It is across the street (Clark Street) from the Hard Rock Cafe and the Rainforest Cafe.
+
+## Rock and roll exhibit
+
+There is display of rock and roll memorabilia focusing mainly on Elvis Presley in an exhibit in a separate structure on the same lot. The exhibit includes a set of The Beatles statues reminiscent of their Abbey Road album cover.
+
+## Gallery

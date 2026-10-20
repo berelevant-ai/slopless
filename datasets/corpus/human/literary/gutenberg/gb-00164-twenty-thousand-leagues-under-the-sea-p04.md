@@ -1,0 +1,21 @@
+Now, it was the “monster” who, justly or unjustly, was accused of their disappearance, and, thanks to it, communication between the different continents became more and more dangerous. The public demanded peremptorily that the seas should at any price be relieved from this formidable cetacean.
+
+CHAPTER II PRO AND CON
+
+At the period when these events took place, I had just returned from a scientific research in the disagreeable territory of Nebraska, in the United States. In virtue of my office as Assistant Professor in the Museum of Natural History in Paris, the French Government had attached me to that expedition. After six months in Nebraska, I arrived in New York towards the end of March, laden with a precious collection. My departure for France was fixed for the first days in May. Meanwhile, I was occupying myself in classifying my mineralogical, botanical, and zoological riches, when the accident happened to the _Scotia_.
+
+I was perfectly up in the subject which was the question of the day. How could I be otherwise? I had read and re-read all the American and European papers without being any nearer a conclusion. This mystery puzzled me. Under the impossibility of forming an opinion, I jumped from one extreme to the other. That there really was something could not be doubted, and the incredulous were invited to put their finger on the wound of the _Scotia_.
+
+On my arrival at New York the question was at its height. The hypothesis of the floating island, and the unapproachable sandbank, supported by minds little competent to form a judgment, was abandoned. And, indeed, unless this shoal had a machine in its stomach, how could it change its position with such astonishing rapidity?
+
+From the same cause, the idea of a floating hull of an enormous wreck was given up.
+
+There remained then only two possible solutions of the question, which created two distinct parties: on one side, those who were for a monster of colossal strength; on the other, those who were for a submarine vessel of enormous motive power.
+
+But this last hypothesis, plausible as it was, could not stand against inquiries made in both worlds. That a private gentleman should have such a machine at his command was not likely. Where, when, and how was it built? and how could its construction have been kept secret? Certainly a Government might possess such a destructive machine. And in these disastrous times, when the ingenuity of man has multiplied the power of weapons of war, it was possible that, without the knowledge of others, a state might try to work such a formidable engine. After the chassepots came the torpedoes, after the torpedoes the submarine rams, then—the reaction. At least, I hope so.
+
+But the hypothesis of a war machine fell before the declaration of Governments. As public interest was in question, and transatlantic communications suffered, their veracity could not be doubted. But, how admit that the construction of this submarine boat had escaped the public eye? For a private gentleman to keep the secret under such circumstances would be very difficult, and for a state whose every act is persistently watched by powerful rivals, certainly impossible.
+
+After inquiries made in England, France, Russia, Prussia, Spain, Italy, and America, even in Turkey, the hypothesis of a submarine monitor was definitely rejected.
+
+Upon my arrival in New York several persons did me the honour of consulting me on the phenomenon in question. I had published in France a work in quarto, in two volumes, entitled “Mysteries of the Great Submarine Grounds.” This book, highly approved of in the learned world, gained for me a special reputation in this rather obscure branch of Natural History. My advice was asked. As long as I could deny the reality of the fact, I confined myself to a decided negative. But soon, finding myself driven into a corner, I was obliged to explain myself categorically. And even “the Honourable Pierre Aronnax, Professor in the Museum of Paris,” was called upon by the _New York Herald_ to express a definite opinion of some sort. I did something. I spoke, for want of power to hold my tongue. I discussed the question in all its forms, politically and scientifically; and I give here an extract from a carefully-studied article which I published in the number of the 30th of April. It ran as follows:—

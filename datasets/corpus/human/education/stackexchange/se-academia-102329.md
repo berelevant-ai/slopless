@@ -1,0 +1,4 @@
+# How can a TA help a student who is certain she sucks at programming?
+
+When you tell her that she doesn't suck at programming, all she hears is that you don't understand how bad she sucks.  The psychology is the important thing here, not pedagogy.  If I were in your situation, I would say something like, "Yes, you do suck at programming.  In fact, most of us suck at programming. (Heck, have you ever noticed that Windows doesn't work???) But by doing some of these exercises, we get a bit better at programming.  Likely, you'll never be World's Greatest Programmer, or even a programmer, but by struggling, even unsuccessfully, with some of these exercises, you'll make yourself a stronger thinker.  And therefore a better person."
+I've gotten a lot more mileage out of "We all suck, so let's do what we can" than pretending that everyone's a genius.

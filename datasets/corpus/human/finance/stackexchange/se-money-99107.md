@@ -1,0 +1,7 @@
+# By 18 years of age, I want a brand new car that's $43,668
+
+Your problem isn't that you have no credit. Your problem is that there is no way on earth how you can ever keep up with the payments for this $43,000 car, and there is no way on earth how you can repay this loan. I don't know if that is quite clear to you: Loans are not free money. They need to be repaid. YOU need to repay it.
+If you somehow managed to get a loan for this car and purchased it, then here is what would happen: You wouldn't be able to pay back the loan, so after three or four months your car would be repossessed. At that point it's not worth $43,000 but $33,000; it will be sold at auction for $28,000, and you have $15,000 in debt and no car.
+There are two things that protect you: The fact that you have no credit and won't get a loan, and the fact that you are 17, so nobody will sell you the car anyway.
+I would suggest that you think really, really hard what makes you want to buy an expensive, brand new car, that will be a millstone around your neck and drown you. At 18, I needed to have a car to go where I wanted to go. I paid 700 for my first car, which drove about 40,000 miles over the next four years. In your situation, you can afford about $2,000 to $3,000 to pay for a car.
+Bit of maths: You saved $600 dollars. You will need SEVENTY-TWO times as much to pay the loan off. And that doesn't account for interest, it doesn't account for insurance, and you don't have a cent to put fuel in your brand new car.

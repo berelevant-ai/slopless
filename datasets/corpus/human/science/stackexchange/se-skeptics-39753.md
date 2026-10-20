@@ -1,0 +1,17 @@
+# Does porn destroy dopamine receptors?
+
+No, or, at least, there is no evidence that it does.
+The first problem with this is the source - obviously a site like "purityispossible.com" is going to have a moral agenda, and is going to be decidedly anti-pornography. As such, we would certainly, while not dismissing the possibility, ask that they offer research to back up their claims.
+The next problem is referring to porn, love of chocolate, use of marijuana, listening to Taylor Swift songs, having sex with golf groupies (Tiger Woods' claimed addiction) as "addiction." While there might be some similar mechanisms involved in things we have trouble controlling our impulses for, the use of "addiction" as a much broader umbrella of behaviors, as opposed to the traditional "physical" addiction (body develops a physical tolerance, leading to increased dosages to achieve effect, and also leading to physical dependency and withdrawal when the substance is not available..... so the subject actually   needing   the substance, not just wanting or preferring) causes people to incorrectly over-equate the very different processes at work. This sets the stage for false equivalence.
+In this case, here's a transcript from an online Q&A where someone asked a retired neurologist about "porn addiction" -
+Okay, well the theoretical premise proposed by this science lecturer is nothing more than the application of the well-known and studied neurological basis for drug addiction upon porn addiction which unfortunately is entirely unsupported by scientific fact with regard to the latter.
+A retired neurologists opinion | Your Brain Rebalanced
+Furthermore, the claim that dopamine is an "addictive rewarding neurochemical" is not an accurate claim.
+This article addresses the claims of dopamine behind all these different "behavior addictions," which is not accepted science, and what dopamine does and does not.  The entire article is relevant to this discussion, BTW (bold emphasis mine) -
+Dopamine serves many complex functions in the brain, and  and only kindergarten brain science describes it as an addictive drug .
+Dopamine is connected to rewarding experiences, but not in that it makes you feel good....Dopamine's role here is NOT that it makes you feel good.  It doesn't - ...... Dopamine's role in pleasure and reward is it helps your brain to recognize "incentive salience".... A critical issue here is that a lack of dopamine doesn't actually make the experience feel less good.
+No, Dopamine is Not Addictive | Psychology Today
+The scientists in the field do not agree with the claims, either, when responding to papers or editorials offered in journals -
+... Hilton and Watts offer some interesting neuroscience perspectives on their conceptualization of pornography problems as an  addictive  disorder.... Hilton and Watts offered little, if any convincing evidence to support their perspectives.... Instead, excessive liberties and misleading interpretations of neuroscience research are used to assert that excessive pornography consumption causes brain damage..... Depending on how  addiction  is defined, this is either well supported.... or whole speculative as in the case of pornography consumption.
+Neuroscience research fails to support claims that excessive pornography consumption causes brain damage | Surgical Neurology International
+It appears that the claims are based on false equivalence and poor, misleading interpretations of the science.

@@ -1,0 +1,49 @@
+CHAPTER III. 1824-1830.
+
+Pages 71-95.
+
+SCHOOL-DAYS AND START IN LIFE. ÆT. 12-18.
+
+Outcome of boyish trials                             71         Disadvantage in later years                          72         Advantages                                           73         Next move in life                                    74         Wellington House Academy                             74         Revisited and described                              75         Letter from a schoolfellow                           76         C. D.'s recollections of school                      77         Schoolfellow's recollections of C. D.                77         Fac-simile of schoolboy letter                       79         Daniel Tobin                                         81         Another schoolfellow's recollections                 82         Writing tales and getting up plays                   83         Master Beverley scene-painter                        84         Street-acting                                        84         The schoolfellows after forty years                  85         Smallness of the world                               86         In attorneys' offices                                87         At minor theatres                                    88         The father on the son's education                    89         Studying short-hand                                  90         In British Museum reading-room                       90         Preparing for the gallery                            91         D. C. for C. D.                                      91         A real Dora in 1829                                  92         The same Dora in 1855                                93         Dora changed into Flora                              94         Ashes of youth and hope                              95
+
+CHAPTER IV. 1831-1835.
+
+Pages 96-106.
+
+REPORTERS' GALLERY AND NEWSPAPER LITERATURE.
+
+ÆT. 19-23.
+
+Reporting for _True Sun_                             96         First seen by me                                     97         Reporting for _Mirror_ and _Chronicle_               97         First published piece                                97         Discipline and experiences of reporting              98         Life as a reporter                                   99         John Black                                          100         Mr. Thomas Beard                                    101         A letter to his editor                              102         Incident of reporting days                          102         The same more correctly told                        103         Origin of "Boz"                                     104         Captain Holland                                     104         Mr. George Hogarth                                  105         Sketches in _Evening Chronicle_                     105         C. D.'s first hearty appreciator                    106
+
+CHAPTER V. 1836.
+
+Pages 107-115.
+
+FIRST BOOK, AND ORIGIN OF PICKWICK. ÆT. 24.
+
+_Sketches by Boz_                                   107         Fancy-piece by N. P. Willis: a poor English author  107         Start of _Pickwick_                                 108         Marriage to Miss Hogarth                            108         First connection with Chapman & Hall                109         Mr. Seymour's part in _Pickwick_                    109         Letters relating thereto                            110         C. D.'s own account                                 110         False claims refuted                                111         Pickwick's original, his figure and his name        112         First sprightly runnings of genius                  113         The _Sketches_ characterized                        114         Mr. Seymour's death                                 115         New illustrator chosen                              115         Mr. Hablot K. Browne                                115         C. D. leaves the gallery                            116         _Strange Gentleman_ and _Village Coquettes_         116
+
+CHAPTER VI. 1837.
+
+Pages 117-140.
+
+WRITING THE PICKWICK PAPERS. ÆT. 25.
+
+First letter from him                               117         As he was thirty-five years ago                     118         Mrs. Carlyle and Leigh Hunt                         119         Birth of eldest son                                 119         From Furnival's Inn to Doughty Street               119         A long-remembered sorrow                            120         I visit him                                         120         Hasty compacts with publishers                      121         Self-sold into quasi-bondage                        121         Agreements for editorship and writing               121         Mr. Macrone's scheme to reissue _Sketches_          122         Attempts to prevent it                              123         Exorbitant demand                                   123         Impatience of suspense                              123         Purchase advised                                    124         _Oliver Twist_                                      125         Characters real to himself                          125         Sense of responsibility for his writings            126         Criticism that satisfied him                        126         Help given with his proofs                          126         Writing _Pickwick_, Nos. 14 and 15                  127         Scenes in a debtors' prison                         128         A recollection of Smollett                          128         Reception of _Pickwick_                             129         A popular rage                                      129         Mr. Carlyle's "dreadful" story                      130         Secrets of success                                  130         _Pickwick_ inferior to later books                  131         Exception for Sam Weller and Mr. Pickwick           131         Personal habits of C. D.                            132         Reliefs after writing                               133         Natural discontents                                 134         The early agreements                                134         Tale to follow _Oliver Twist_                       135         Compromise with Mr. Bentley                         135         Trip to Flanders                                    135         First visit to Broadstairs                          136         Piracies of _Pickwick_                              137         A sufferer from agreements                          138         First visit to Brighton                             138         What he is doing with _Oliver Twist_                139         Reading De Foe                                      139         "No Thoroughfare"                                   139         Proposed help to Macready                           140
+
+CHAPTER VII. 1837-1838.
+
+Pages 141-151.
+
+BETWEEN PICKWICK AND NICKLEBY. ÆT. 25-26.
+
+Edits _Life of Grimaldi_                            141         His own opinion of it                               142         An objection answered                               142         His recollections of 1823                           142         Completion of _Pickwick_                            143         A purpose long entertained                          144         Relations with Chapman & Hall                       144         Payments made for _Pickwick_                        145         Agreement for _Nicholas Nickleby_                   145         _Oliver Twist_ characterized                        146         Reasons for acceptance with every class             146         Nightmare of an agreement                           147         Letter to Mr. Bentley                               147         Proposal as to _Barnaby Rudge_                      148         Result of it                                        148         Birth of eldest daughter                            149         _Young Gentlemen_ and _Young Couples_               149         First number of _Nicholas Nickleby_                 150         2d of April, 1838                                   150
+
+CHAPTER VIII. 1838.
+
+Pages 152-164.
+
+OLIVER TWIST. ÆT. 26.
+
+Interest in characters at close of _Oliver_         152         Writing of the last chapter                         153         Cruikshank illustrations                            154         Etchings for last volume                            154         How executed                                        154         Slander respecting them exposed                     155         Falsehood ascribed to the artist                    155         Reputation of the new tale                          156         Its workmanship                                     157         Social evils passed away                            157         Living only in what destroyed them                  157         Chief design of the story                           158         Its principal figures                               158         Comedy and tragedy of crime                         159         Reply to attacks                                    160         Le Sage, Gay, and Fielding                          160         Likeness to them                                    161         Again the shadow of _Barnaby_                       161         Appeal to Mr. Bentley for delay                     161         A very old story                                    162         "Sic vos non vobis"                                 162         _Barnaby_ given up by Mr. Bentley                   163         Resignation of _Miscellany_                         163         Parent parting from child                           164

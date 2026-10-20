@@ -1,0 +1,4 @@
+# How can I get cuts of beef I recognize when in Italy
+
+As someone who has moved from the US to another country I can relate and have some general advice. Rather than spending time trying to find the US equivalent of something try to take advantage of what's good and plentiful locally. If there's something you desperately miss there's always an online store to help, the trick is not to miss those things as much.
+I wrote a meat app years ago and did a lot of research as I wanted to make an equivalents table for meat cuts across the world. I gave up because it was impossible: cuts are very different from country to country, there may be no exact equivalent for what you are looking for. Instead I would suggest you try a different approach by describing what you want out of the meat and how you plan to cook it and relying on the butcher to give it to you. Rather than saying 'New York Strip' tell the butcher you want a tender cut for charcoal gilling, for example.

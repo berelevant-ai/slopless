@@ -1,0 +1,8 @@
+# How smart is it to really be 100% debt free?
+
+Debt increases your exposure to risk.  What happens if you lose your job, or a major expense comes up and you have to make a hard decision about skipping a loan payment?  Being debt free means you aren't paying money to the bank in interest, and that's money that can go into your pocket.
+Debt can be a useful tool, however.  It's all about what you do with the money you borrow.  Will you be able to get something back that is worth more than the interest of the loan?
+A good example is your education.  How much more money will you make with a college degree?  Is it more than you will be paying in interest over the life of the loan?  Then it was probably worth it.
+Instead of paying down your loans, can you invest that money into something with a better rate of return than the interest rate of the loan?  For example, why pay off your 3% student loan if you can invest in a stock with a 6% return?  The money goes to better use if it is invested.  (Note that most investments count as taxable income, so you have to factor taxes into your effective rate of return.)
+The caveat to this is that most investments have at least some risk associated with them.  (Stocks don't always go up.)  You have to weigh this when deciding to invest vs pay down debts.  Paying down the debt is more of a "sure thing".
+Another thing to consider: If you have a long-term loan (several years), paying extra principal on a loan early on can turn into a huge savings over the life of the loan, due to power of compound interest.  Extra payments on a mortgage or student loan can be a wise move.  Just make sure you are paying down the principal, not the interest!  (And check for early repayment penalties.)
