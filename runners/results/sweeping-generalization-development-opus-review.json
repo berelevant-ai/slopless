@@ -1,0 +1,3619 @@
+{
+  "collectionId": "000021",
+  "check": "puffery-and-overstatement/sweeping-generalization",
+  "split": "development",
+  "status": "reviewed-pool-awaiting-archival-commit",
+  "counts": {
+    "passages": 204,
+    "hits": 104,
+    "noHits": 100
+  },
+  "author": {
+    "model": "GPT-5",
+    "initialCounts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100
+    },
+    "draft": {
+      "path": "/tmp/000021-sweeping-generalization-development-pass0-20261021-000455-author.json",
+      "sha256": "60fe72fbf011e7365f1f44d9ea58935482c9ec410ac31ec73bb36fa89a8efd82"
+    },
+    "idMap": {
+      "path": "/tmp/000021-sweeping-generalization-development-pass0-20261021-000455-id-map.json",
+      "sha256": "161152d44cebf43d235a31fca32c75ee03f31d2d1e28c15f571fac265307b523"
+    },
+    "additions": {
+      "count": 4,
+      "reason": "Add direct quoted claims adopted by the narrator; preserve all sound original cases.",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001237-additions-input.json",
+        "sha256": "fb6b35cb768a85896647ae47a5a2f1f8b187535a19b5c072c0dfbda7668c5eab"
+      }
+    },
+    "annotationCorrections": [],
+    "proseRewrites": []
+  },
+  "definition": {
+    "snapshot": {
+      "path": "/tmp/000021-sweeping-generalization-development-pass0-20261021-000455-definition.md",
+      "sha256": "6934f01280aff087a19b52423a12f37203023909f86579eaecef0f4e179cf4be"
+    },
+    "reviewDefinitionSha256": "93f41ec89833366d61b8fcb4de1bece78623f9185e6283857bab2d2dfdedfdea",
+    "supersededReviews": []
+  },
+  "reviewProtocol": {
+    "maxRowsPerCall": 100,
+    "authorLabelsWithheld": true,
+    "authorSnippetsWithheld": true,
+    "classBalanceWithheld": true,
+    "targets": [
+      "id",
+      "text"
+    ],
+    "toolsDisabled": true,
+    "noSessionPersistence": true,
+    "allWritingReviewedAfterLastAddition": true,
+    "reviewPasses": [
+      1,
+      2,
+      3
+    ]
+  },
+  "calls": [
+    {
+      "pass": 1,
+      "kind": "blind",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch1-input.json",
+        "sha256": "3319324866ee7e6fcbf797a6a48e23c57d64f6aaa2449247cffe96873f1c5a40"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch1-output.json",
+        "sha256": "dec2e0189f2d5e3897a0dff6102945dd625874ae4e2617d2d34c89cc0837a362"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch1-prompt.md",
+        "sha256": "2e6d39c05192c72a4a1d83efb896231614f73dbecde09ecd780c830ce4e43c92"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch1-raw-response.json",
+        "sha256": "e42efb510bbc0ea0c61e19646264d065bdd8f78fc3022f87ea2c4adc34fd0785"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch1-command.json",
+        "sha256": "db1abd28dd1a0b74212ff5789421c31c7799f8782c4631fbbc3a93163b3f5607"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 42032,
+      "costUsd": 0.21194399999999997,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "fc31f2a25188c554e59ce8d93757f79ccea9ec66df6748e87ca19b4a1685bfec",
+      "passageCount": 100,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-031",
+        "000021-072",
+        "000021-077"
+      ]
+    },
+    {
+      "pass": 1,
+      "kind": "blind",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch2-input.json",
+        "sha256": "634f6cf452e0fe8d19bf2b28a41b46120508dafa6a199a5ea856637ea18acf01"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch2-output.json",
+        "sha256": "6bfd23a1fc0aa7802afecdac8a10a673c0e6aebaf1d76af7dfcb0e3a7a1605da"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch2-prompt.md",
+        "sha256": "6c85c1feb9cdaeaa8713d97ff152f24ec1bd6ee728a6353b8187974ebe257411"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch2-raw-response.json",
+        "sha256": "7e34651f300041c8f4ab3c163e54903f7693f6ab3ed78ef8bf9b469a9954d7d0"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-000455-batch2-command.json",
+        "sha256": "66992ebd89d7e7fd84fb2be3ce5941ced7afe3182b6eb3e3415d1e153cf21dd5"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 34677,
+      "costUsd": 0.191956,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "2dfe839abf8b40b699f804bdcc2764c739d3a704d96dbd6c75ca67b2b7b64248",
+      "passageCount": 100,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-137",
+        "000021-152",
+        "000021-168",
+        "000021-188"
+      ]
+    },
+    {
+      "pass": 1,
+      "kind": "blind",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001237-additions-input.json",
+        "sha256": "fb6b35cb768a85896647ae47a5a2f1f8b187535a19b5c072c0dfbda7668c5eab"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001237-additions-output.json",
+        "sha256": "ba584fc9a268af14afa2049853b37a50673db8dac8107299c7630b6fdd2273f0"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001237-additions-prompt.md",
+        "sha256": "c86103567e5488c198433f55670746993877605424585a617dbea3ccef636275"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001237-additions-raw-response.json",
+        "sha256": "89195161ab465c69f0ba7b8ec4bfe468591582b7b2497575d946d77fe2d31bd5"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001237-additions-command.json",
+        "sha256": "52dfdf3177838b0143150a4cdc020a94a56ed303255625694d0225f6b4b049b0"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 8342,
+      "costUsd": 0.055824,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "b1f60fa46dcb525859176cc4ce44218bf731d10ad55ecc4f4fe77777850f0370",
+      "passageCount": 4,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-201",
+        "000021-204"
+      ]
+    },
+    {
+      "pass": 2,
+      "kind": "adversarial",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch1-input.json",
+        "sha256": "3319324866ee7e6fcbf797a6a48e23c57d64f6aaa2449247cffe96873f1c5a40"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch1-output.json",
+        "sha256": "ee2b939aa6f58d583f321b07baa1a1fad18b18347446da07ddf7780ba83aa3c1"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch1-prompt.md",
+        "sha256": "686abde425227c8f61152430df30fabc99cea60019dbe079574e7b88e5e6493a"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch1-raw-response.json",
+        "sha256": "08c22010ad1de5f982c93d1f315cffe4905578e3d0f03052686c9ce5fdc618cb"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch1-command.json",
+        "sha256": "db1abd28dd1a0b74212ff5789421c31c7799f8782c4631fbbc3a93163b3f5607"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 41043,
+      "costUsd": 0.18674659999999998,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "fc31f2a25188c554e59ce8d93757f79ccea9ec66df6748e87ca19b4a1685bfec",
+      "passageCount": 100,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-072",
+        "000021-077"
+      ]
+    },
+    {
+      "pass": 2,
+      "kind": "adversarial",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch2-input.json",
+        "sha256": "634f6cf452e0fe8d19bf2b28a41b46120508dafa6a199a5ea856637ea18acf01"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch2-output.json",
+        "sha256": "41df987e5869b647241f17e2d353bb252add70147fa2f6a54a1cdba34aac1a55"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch2-prompt.md",
+        "sha256": "d0e9b4acb3399dc02172bee9ccf8258f3f1e147744cd2d38b24d33187ef22fa4"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch2-raw-response.json",
+        "sha256": "d079fd1f1534e3d5eb9d940a078bb16b722317e6ac4946ae9601d17b02eb774a"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch2-command.json",
+        "sha256": "66992ebd89d7e7fd84fb2be3ce5941ced7afe3182b6eb3e3415d1e153cf21dd5"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 34445,
+      "costUsd": 0.16801859999999996,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "2dfe839abf8b40b699f804bdcc2764c739d3a704d96dbd6c75ca67b2b7b64248",
+      "passageCount": 100,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-137",
+        "000021-152",
+        "000021-159",
+        "000021-168"
+      ]
+    },
+    {
+      "pass": 2,
+      "kind": "adversarial",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch3-input.json",
+        "sha256": "9b2627009c302ecc5851308537e567cae09aeea2b62c815b68f9b199342d2b26"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch3-output.json",
+        "sha256": "8f43a293dffe96e4bc436aa9a947fa3120203ff41a8e1daffcae8e019f860c83"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch3-prompt.md",
+        "sha256": "5855354611f084e3916b357415cc6cd1f930d42ef4cb9012ca379ae5e9501845"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch3-raw-response.json",
+        "sha256": "ba10c5df49cbacbdf05d120ad3eb7b1f3f05efa0ccf38882a394c71f56f53ea1"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001237-batch3-command.json",
+        "sha256": "52dfdf3177838b0143150a4cdc020a94a56ed303255625694d0225f6b4b049b0"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 9914,
+      "costUsd": 0.042875399999999994,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "b1f60fa46dcb525859176cc4ce44218bf731d10ad55ecc4f4fe77777850f0370",
+      "passageCount": 4,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-201",
+        "000021-202",
+        "000021-203",
+        "000021-204"
+      ]
+    },
+    {
+      "pass": 3,
+      "kind": "final-blind",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-input.json",
+        "sha256": "3319324866ee7e6fcbf797a6a48e23c57d64f6aaa2449247cffe96873f1c5a40"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+        "sha256": "de38b51aae2bf8e2b3e700b8bd251faea2358a23c69f77def5e6ed4d5596a51d"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-prompt.md",
+        "sha256": "10a346c9df3d297f013309bedd6904a627b93abde8373be371db8864ddb829cc"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-raw-response.json",
+        "sha256": "d58c9b2b1803cb5a054c82f5ba214fc0f708bc3d1a95b5bd750196a8b2eaf868"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-command.json",
+        "sha256": "db1abd28dd1a0b74212ff5789421c31c7799f8782c4631fbbc3a93163b3f5607"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 33494,
+      "costUsd": 0.1710666,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "fc31f2a25188c554e59ce8d93757f79ccea9ec66df6748e87ca19b4a1685bfec",
+      "passageCount": 100,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-072",
+        "000021-077"
+      ]
+    },
+    {
+      "pass": 3,
+      "kind": "final-blind",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-input.json",
+        "sha256": "634f6cf452e0fe8d19bf2b28a41b46120508dafa6a199a5ea856637ea18acf01"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+        "sha256": "5229dda47c64497a4f8c84a6d4eef373e103af6775dcd0d371f3037e70d58130"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-prompt.md",
+        "sha256": "a93261f526faab3f602fde9453a086e2c1230fd7d78024bf6f52e9f42f3a93d0"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-raw-response.json",
+        "sha256": "a26b6fb4c8d2b65f9bebd084d5f17831fbd102b51c4fe92073cda9537310cd48"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-command.json",
+        "sha256": "66992ebd89d7e7fd84fb2be3ce5941ced7afe3182b6eb3e3415d1e153cf21dd5"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 32659,
+      "costUsd": 0.1652466,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "2dfe839abf8b40b699f804bdcc2764c739d3a704d96dbd6c75ca67b2b7b64248",
+      "passageCount": 100,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-137",
+        "000021-152",
+        "000021-168"
+      ]
+    },
+    {
+      "pass": 3,
+      "kind": "final-blind",
+      "input": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-input.json",
+        "sha256": "9b2627009c302ecc5851308537e567cae09aeea2b62c815b68f9b199342d2b26"
+      },
+      "output": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+        "sha256": "142d916849608f5ce377838635096de4b0b0bdb955a15e915deffd1d78cd5c2e"
+      },
+      "prompt": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-prompt.md",
+        "sha256": "34522e4ef68eef059feca13276637864649f2524f80307e6092b18642c997a02"
+      },
+      "rawResponse": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-raw-response.json",
+        "sha256": "3353cb82832f5a056b12f753e8d2d8e2a46e9f13d316d8045698fb941407bf89"
+      },
+      "command": {
+        "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-command.json",
+        "sha256": "52dfdf3177838b0143150a4cdc020a94a56ed303255625694d0225f6b4b049b0"
+      },
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "durationMs": 9821,
+      "costUsd": 0.0432634,
+      "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+      "reviewInputSha256": "b1f60fa46dcb525859176cc4ce44218bf731d10ad55ecc4f4fe77777850f0370",
+      "passageCount": 4,
+      "disagreementIds": [],
+      "objectionIds": [
+        "000021-202",
+        "000021-203",
+        "000021-204"
+      ]
+    }
+  ],
+  "totals": {
+    "calls": 9,
+    "judgments": 612,
+    "durationMs": 246427,
+    "costUsd": 1.2369412,
+    "actualModels": [
+      "claude-opus-5-5"
+    ],
+    "disagreements": 0,
+    "objections": 27
+  },
+  "adjudications": [
+    {
+      "id": "000021-031",
+      "decision": "retain-hit",
+      "reason": "The meeting observation is bounded to 20 residents. The following claims about people and the public extend that observation to a varied population without a supporting account.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-072",
+      "decision": "retain-hit",
+      "reason": "Many limits the count but supplies neither an observed basis nor a condition explaining the shared fear and belief. The second sentence attributes the same interpretation of an unfamiliar menu to the group.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-077",
+      "decision": "retain-hit",
+      "reason": "The passage assigns volunteers a concealed desire for public approval without a supporting account. Many does not establish a meaningful boundary for the presumed motive.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-137",
+      "decision": "retain-hit",
+      "reason": "The negative interrogative invites assent to a shared feeling rather than asking the reader to report their own preference. The accepted rhetorical-question boundary applies.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-152",
+      "decision": "retain-hit",
+      "reason": "The passage presumes an approval-seeking motive among expensive-wine buyers and then treats that motive as shared. It supplies neither a bounded observation nor an explanation that supports the uniform motive.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-168",
+      "decision": "retain-hit",
+      "reason": "Most supplies an unsupported prevalence claim about academics' motives. The next sentence uses that presumed motive to dismiss appeals to student benefit across the group.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-188",
+      "decision": "retain-hit",
+      "reason": "Loving a smell is a preference. The universal claim supplies no boundary or supporting account and therefore falls within the accepted catch.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-201",
+      "decision": "retain-hit",
+      "reason": "The narrator adopts Mira's quoted motive claim through the design recommendation introduced by therefore. Attribution alone does not exempt the passage's own sweeping presumption.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-204",
+      "decision": "retain-hit",
+      "reason": "Expecting a baby identifies a subgroup. The passage supplies no observed or meaningfully explained basis for uniformly rejecting risk information and adopts that presumption in its leaflet instructions.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-159",
+      "decision": "retain-hit",
+      "reason": "Seven volunteers establish those pupils' willingness to present. The passage extends that choice to all children and presumes that the whole year group craves an audience without a supporting account.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-202",
+      "decision": "retain-hit",
+      "reason": "The narrator adopts the recruitment guide's claim through the recommendation for short contracts. The profession alone supplies no basis for a uniform preference, and the recommendation replaces asking applicants about their needs.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-203",
+      "decision": "retain-hit",
+      "reason": "The director's quoted craft rule is followed by the narrator's prediction that an audience will feel cheated. That prediction presumes a shared audience feeling without a meaningful boundary or supporting account.",
+      "mandatory": true
+    }
+  ],
+  "unresolved": {
+    "classification": 0,
+    "snippet": 0,
+    "materialRealism": 0
+  },
+  "finalReviewProvenance": [
+    {
+      "id": "000021-001",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Audiences hate being reminded that a film is a constructed object; they want the director to disappear.",
+        "Nobody comes to a cinema hoping to think about the labor that produced the picture."
+      ]
+    },
+    {
+      "id": "000021-002",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-003",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Jazz listeners enjoy being difficult to please."
+      ]
+    },
+    {
+      "id": "000021-004",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-005",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Solo travelers are solitary people by temperament, so they won't enjoy a shared breakfast or an introduction to the other guests."
+      ]
+    },
+    {
+      "id": "000021-006",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Amateur cyclists care more about their equipment than their fitness."
+      ]
+    },
+    {
+      "id": "000021-007",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-008",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Anyone visiting Paris is looking for romance, whether they admit it or not."
+      ]
+    },
+    {
+      "id": "000021-009",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-010",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-011",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-012",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-013",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Retired voters long for the country they grew up in, and every election is an opportunity for them to recover it."
+      ]
+    },
+    {
+      "id": "000021-014",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-015",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Every athlete is chasing the approval they missed out on as a child."
+      ]
+    },
+    {
+      "id": "000021-016",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Freelancers value independence above security."
+      ]
+    },
+    {
+      "id": "000021-017",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-018",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Voters only listen when a politician promises to put money in their pockets."
+      ]
+    },
+    {
+      "id": "000021-019",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-020",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "We understand, as parents, that a difficult book is a threat to a child's confidence.",
+        "Give families something easier and they will thank us"
+      ]
+    },
+    {
+      "id": "000021-021",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "People treat a friendship as disposable once it asks anything inconvenient of them.",
+        "Everyone is measuring what they get back"
+      ]
+    },
+    {
+      "id": "000021-022",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Nobody joins a gym to become comfortable with the body they already have."
+      ]
+    },
+    {
+      "id": "000021-023",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Everyone who buys a smartwatch wants their private life turned into a competition."
+      ]
+    },
+    {
+      "id": "000021-024",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Everybody wants a pill rather than the inconvenience of changing their routine."
+      ]
+    },
+    {
+      "id": "000021-025",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Programmers would rather rebuild a working tool than admit somebody else solved the problem."
+      ]
+    },
+    {
+      "id": "000021-026",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Children learn only when they are having fun"
+      ]
+    },
+    {
+      "id": "000021-027",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-028",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-029",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "University students see attendance requirements as an insult.",
+        "They believe paying fees gives them the right to ignore any teaching"
+      ]
+    },
+    {
+      "id": "000021-030",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-031",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "People don't support environmental measures when they have to sacrifice anything themselves.",
+        "The public enthusiasm for greener streets disappears the moment walking is involved."
+      ]
+    },
+    {
+      "id": "000021-032",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Refugees want to leave their old identity behind and start again."
+      ]
+    },
+    {
+      "id": "000021-033",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Workers care about the size of the pay packet, not the language of the agreement.",
+        "they will stop worrying about shift control"
+      ]
+    },
+    {
+      "id": "000021-034",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-035",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-036",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-037",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-038",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Local people resent travelers who stay for just a day."
+      ]
+    },
+    {
+      "id": "000021-039",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-040",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "We all turn to music because words alone cannot express our feelings."
+      ]
+    },
+    {
+      "id": "000021-041",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-042",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "People who order steak well done are afraid of trying anything new."
+      ]
+    },
+    {
+      "id": "000021-043",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "That confirms what people want from software: a score that tells them they are doing better than their neighbors.",
+        "everyone cares more about being ahead than about keeping a copy of the underlying data"
+      ]
+    },
+    {
+      "id": "000021-044",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-045",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Accountants are uncomfortable with unstructured conversation; they need every social activity to have a measurable purpose."
+      ]
+    },
+    {
+      "id": "000021-046",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Travelers become helpless as soon as something goes wrong; they want an authority figure to take every decision away from them.",
+        "Being told what to do is what people find reassuring in an unfamiliar airport."
+      ]
+    },
+    {
+      "id": "000021-047",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Working-class visitors find abstraction pretentious"
+      ]
+    },
+    {
+      "id": "000021-048",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-049",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "For Italians, a broken strand of spaghetti feels like an insult to the family."
+      ]
+    },
+    {
+      "id": "000021-050",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-051",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-052",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Customers love a story about a grandmother because it makes them believe the food is honest.",
+        "They will accept a higher price as soon as they imagine a family kitchen."
+      ]
+    },
+    {
+      "id": "000021-053",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "People with chronic pain become experts at exaggerating symptoms to be taken seriously."
+      ]
+    },
+    {
+      "id": "000021-054",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-055",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Who doesn't want a promotion?",
+        "Staff who turn one down are protecting themselves from the disappointment of failing"
+      ]
+    },
+    {
+      "id": "000021-056",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Village residents don't welcome newcomers until they have proved they belong."
+      ]
+    },
+    {
+      "id": "000021-057",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Isn't winning the only thing any of us remembers?"
+      ]
+    },
+    {
+      "id": "000021-058",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-059",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Children reject vegetables because they want to be in control of the table."
+      ]
+    },
+    {
+      "id": "000021-060",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-061",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Women read historical fiction to escape the disappointments of ordinary life"
+      ]
+    },
+    {
+      "id": "000021-062",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Parents respond to vaccination advice emotionally rather than rationally; statistics just make them dig in.",
+        "A warm message is the only language they understand"
+      ]
+    },
+    {
+      "id": "000021-063",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-064",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Commuters judge every public project by how much time it saves them personally"
+      ]
+    },
+    {
+      "id": "000021-065",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Anyone shopping for a phone considers a repaired handset second best",
+        "the idea of previous ownership makes them uncomfortable"
+      ]
+    },
+    {
+      "id": "000021-066",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Novelists are jealous of anyone who finishes a book faster than they do."
+      ]
+    },
+    {
+      "id": "000021-067",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Musicians regard punctuality as a threat to spontaneity, and a strict schedule makes them feel that the performance has already been compromised."
+      ]
+    },
+    {
+      "id": "000021-068",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Managers hear a request for flexibility as a confession of weak commitment."
+      ]
+    },
+    {
+      "id": "000021-069",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-070",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-071",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-072",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Many older users are frightened of changing anything on a computer. They regard an unfamiliar menu as evidence that they have broken the machine."
+      ]
+    },
+    {
+      "id": "000021-073",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Office workers interpret a private desk as a sign of importance, and they resent anyone who gets one before them.",
+        "people are keeping a mental ranking"
+      ]
+    },
+    {
+      "id": "000021-074",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-075",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-076",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "We all relax the moment we hear our own language abroad."
+      ]
+    },
+    {
+      "id": "000021-077",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Many people who volunteer are really looking for an audience for their goodness.",
+        "the public approval they need"
+      ]
+    },
+    {
+      "id": "000021-078",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-079",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-080",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-081",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-082",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Business owners see a public consultation as an obstacle to getting things done."
+      ]
+    },
+    {
+      "id": "000021-083",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-084",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Parents at junior sport see their children as future professionals, so they interpret every minute on the bench as a personal insult."
+      ]
+    },
+    {
+      "id": "000021-085",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Collectors want a work that other people cannot have."
+      ]
+    },
+    {
+      "id": "000021-086",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "People in regional offices always feel overlooked by headquarters"
+      ]
+    },
+    {
+      "id": "000021-087",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-088",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Men want a solution when they talk about a problem; women want someone to listen."
+      ]
+    },
+    {
+      "id": "000021-089",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-090",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-091",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Doctors resent patients who arrive with internet research; they feel their authority slipping as soon as a website is mentioned."
+      ]
+    },
+    {
+      "id": "000021-092",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-093",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Rural pupils don't imagine themselves at university; they expect to stay near home and follow their parents into work."
+      ]
+    },
+    {
+      "id": "000021-094",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-095",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-096",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "snippets": [
+        "Patients hear a second opinion as an admission that medicine has failed."
+      ]
+    },
+    {
+      "id": "000021-097",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-098",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-099",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-100",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+    },
+    {
+      "id": "000021-101",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-102",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-103",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-104",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Runners are addicted to proving they can endure pain.",
+        "they will assume it cannot possibly be making them stronger"
+      ]
+    },
+    {
+      "id": "000021-105",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-106",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Traditional fans believe that any change to the stadium is an attack on the club's history."
+      ]
+    },
+    {
+      "id": "000021-107",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-108",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-109",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Office workers buy sweet pastries because they see breakfast as a reward for having to get up and go to work."
+      ]
+    },
+    {
+      "id": "000021-110",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Every sibling keeps score of who their parents loved the most."
+      ]
+    },
+    {
+      "id": "000021-111",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-112",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Teenagers dismiss any book that an adult tells them is important."
+      ]
+    },
+    {
+      "id": "000021-113",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-114",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-115",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "The average internet user treats privacy as someone else's problem until a photograph leaks."
+      ]
+    },
+    {
+      "id": "000021-116",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "People who use Linux see every technical inconvenience as a badge of honor."
+      ]
+    },
+    {
+      "id": "000021-117",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-118",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Readers resent an ending that makes them decide what happened."
+      ]
+    },
+    {
+      "id": "000021-119",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-120",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Tourists want a photograph of a place more than they want to understand it."
+      ]
+    },
+    {
+      "id": "000021-121",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-122",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-123",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-124",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "It's the same in every neighborhood: homeowners care about property prices, renters care about convenience."
+      ]
+    },
+    {
+      "id": "000021-125",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Isn't a slim body what we all really want?",
+        "that shared ambition"
+      ]
+    },
+    {
+      "id": "000021-126",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-127",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-128",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "New mothers instinctively distrust advice from anyone who hasn't had a baby."
+      ]
+    },
+    {
+      "id": "000021-129",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-130",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-131",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Isn't eating together what makes us all feel at home?",
+        "Even the most reserved guest wants to be pulled into a noisy conversation over a shared dish."
+      ]
+    },
+    {
+      "id": "000021-132",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Who doesn't want their children nearby as they grow older?",
+        "Parents who encourage a move abroad are hiding their disappointment to avoid looking selfish"
+      ]
+    },
+    {
+      "id": "000021-133",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Backpackers are suspicious of comfort; they need a trip to feel difficult before they consider it a real experience."
+      ]
+    },
+    {
+      "id": "000021-134",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Teachers regard silence as proof that a lesson is going well."
+      ]
+    },
+    {
+      "id": "000021-135",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-136",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-137",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Don't we all feel safer when an app asks for a password?"
+      ]
+    },
+    {
+      "id": "000021-138",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-139",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "People who watch women's sport are looking for a moral statement as much as a match."
+      ]
+    },
+    {
+      "id": "000021-140",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "You know how gamers are: they want a higher number beside their name, whatever the game."
+      ]
+    },
+    {
+      "id": "000021-141",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-142",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-143",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "City people regard a quiet village as a place that needs improving."
+      ]
+    },
+    {
+      "id": "000021-144",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Football supporters would rather blame the referee than admit their team played badly."
+      ]
+    },
+    {
+      "id": "000021-145",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-146",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-147",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Americans abroad expect every meal to arrive exactly as it would at home.",
+        "They read a small portion as poor service"
+      ]
+    },
+    {
+      "id": "000021-148",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Former competitors can't enjoy a casual activity without turning it into a contest."
+      ]
+    },
+    {
+      "id": "000021-149",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-150",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "An only child expects every conversation to revolve around them."
+      ]
+    },
+    {
+      "id": "000021-151",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Families hold on to old arguments because resentment is how they keep a sense of belonging."
+      ]
+    },
+    {
+      "id": "000021-152",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Many people who choose expensive wine are buying social approval rather than flavor. They need the rest of the table to see how much the bottle costs."
+      ]
+    },
+    {
+      "id": "000021-153",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-154",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "An employee's first instinct is to hide a mistake. That's human nature",
+        "people will conceal whatever they can"
+      ]
+    },
+    {
+      "id": "000021-155",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-156",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-157",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-158",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Who doesn't feel moved by a child's voice singing alone?"
+      ]
+    },
+    {
+      "id": "000021-159",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Children are natural performers who crave an audience"
+      ]
+    },
+    {
+      "id": "000021-160",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-161",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-162",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "We all know that nobody really trusts their local council."
+      ]
+    },
+    {
+      "id": "000021-163",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-164",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "People who leave their hometown are ashamed of where they came from"
+      ]
+    },
+    {
+      "id": "000021-165",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Developers hate reaching for a mouse"
+      ]
+    },
+    {
+      "id": "000021-166",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Guests judge how much you value them by where you put their chair"
+      ]
+    },
+    {
+      "id": "000021-167",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Island residents measure outsiders by whether they can handle rough weather without complaining."
+      ]
+    },
+    {
+      "id": "000021-168",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Most academics are motivated by the prospect of seeing their name in print."
+      ]
+    },
+    {
+      "id": "000021-169",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "We all want our boss to notice when we stay late."
+      ]
+    },
+    {
+      "id": "000021-170",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-171",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-172",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-173",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "People who ask for plant-based alternatives want everyone nearby to know they are making an ethical choice."
+      ]
+    },
+    {
+      "id": "000021-174",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Adult learners are embarrassed to ask basic questions because they feel they should already know the answers."
+      ]
+    },
+    {
+      "id": "000021-175",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Young professionals see a job as a temporary stepping stone."
+      ]
+    },
+    {
+      "id": "000021-176",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-177",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-178",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-179",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Older men will always put pride before asking for help."
+      ]
+    },
+    {
+      "id": "000021-180",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-181",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-182",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-183",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-184",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Every parent secretly wants their child to finish top of the class."
+      ]
+    },
+    {
+      "id": "000021-185",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-186",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-187",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-188",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Everyone loves the smell of bread coming out of an oven."
+      ]
+    },
+    {
+      "id": "000021-189",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Who wouldn't prefer a quiet beach to a busy town?"
+      ]
+    },
+    {
+      "id": "000021-190",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "This is how patients think: if something is printed, it must be reliable."
+      ]
+    },
+    {
+      "id": "000021-191",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-192",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "Real home cooks never measure; they trust their senses instead."
+      ]
+    },
+    {
+      "id": "000021-193",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-194",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-195",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "People who take up running are trying to outrun something in their lives"
+      ]
+    },
+    {
+      "id": "000021-196",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-197",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "snippets": [
+        "People who stay single are protecting themselves from the risk of being known."
+      ]
+    },
+    {
+      "id": "000021-198",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-199",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-200",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+    },
+    {
+      "id": "000021-201",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+      "snippets": [
+        "\"People buy technology to impress other people.\"",
+        "The product page should therefore show the watch at a dinner party"
+      ]
+    },
+    {
+      "id": "000021-202",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+      "snippets": [
+        "\"Freelancers hate being tied down,\"",
+        "That's why we should offer short contracts"
+      ]
+    },
+    {
+      "id": "000021-203",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+      "snippets": [
+        "\"readers want justice, even in a love story.\"",
+        "an audience will feel cheated if the dishonest brother gets away with it"
+      ]
+    },
+    {
+      "id": "000021-204",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+      "snippets": [
+        "\"Nobody wants to hear about risk when they're expecting a baby.\"",
+        "reassure parents before discussing the screening appointment"
+      ]
+    }
+  ],
+  "verification": {
+    "readDocument": {
+      "status": "passed",
+      "passages": 204,
+      "labels": 204,
+      "schemaVersion": 2,
+      "checksum": true,
+      "ranges": true,
+      "exactSnippets": true
+    },
+    "lengths": {
+      "hit": {
+        "short": 25,
+        "medium": 54,
+        "long": 25
+      },
+      "noHit": {
+        "short": 25,
+        "medium": 50,
+        "long": 25
+      }
+    },
+    "domainCounts": {
+      "arts": {
+        "hit": 11,
+        "noHit": 10
+      },
+      "civic": {
+        "hit": 10,
+        "noHit": 10
+      },
+      "travel": {
+        "hit": 10,
+        "noHit": 10
+      },
+      "sport": {
+        "hit": 10,
+        "noHit": 10
+      },
+      "relationships": {
+        "hit": 10,
+        "noHit": 10
+      },
+      "technology": {
+        "hit": 11,
+        "noHit": 10
+      },
+      "health": {
+        "hit": 11,
+        "noHit": 10
+      },
+      "work": {
+        "hit": 11,
+        "noHit": 10
+      },
+      "food": {
+        "hit": 10,
+        "noHit": 10
+      },
+      "education": {
+        "hit": 10,
+        "noHit": 10
+      }
+    },
+    "normalizedDuplicates": [],
+    "sharedEightWordSequences": [],
+    "closestPairAudit": {
+      "metric": "Jaccard overlap of lowercase alphanumeric word sets",
+      "reviewedTopPairs": 12,
+      "largestScore": 0.3333333333333333,
+      "assessment": "Closest pairs express distinct questions or use shared syntax; related-subject controls retain different meanings."
+    },
+    "perSample": [
+      {
+        "id": "000021-001",
+        "domain": "arts",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "7169e67ce1a07e3bc51dfdd8d95b957f481f0480f8f403e27b95aaf33c79f8cf"
+      },
+      {
+        "id": "000021-002",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "819cd92930fd049526e63471d24b8555eb900180763cf2376758c28709211f6b"
+      },
+      {
+        "id": "000021-003",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "023e5588354a77580166ae5c8505f775e75d0e6f27f6aa14d9fad1e76ba5efd7"
+      },
+      {
+        "id": "000021-004",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "56426fedb7a2c0f6228fbcc8fb46aa476a0f2d64cc9681fec2e7605f447c9488"
+      },
+      {
+        "id": "000021-005",
+        "domain": "travel",
+        "lengthBucket": "long",
+        "wordCount": 52,
+        "textSha256": "79305bb4ec2f25845314ea4abd4bb4655ae27a69ee9e3f5a94d155d172601564"
+      },
+      {
+        "id": "000021-006",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "ffe78376202a4dadfe13ff87cb369db90cd95f55b3e3885bbdbc7f8afcd05694"
+      },
+      {
+        "id": "000021-007",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "67c4cc742198d2c7b06d539437ff5a3e185a6dbdd2b5266ba0281747a330229e"
+      },
+      {
+        "id": "000021-008",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "6ceb8c2f9092d4f178a33fbb929eb7ad2eeba406f6f66a958b7b4cec51985e10"
+      },
+      {
+        "id": "000021-009",
+        "domain": "sport",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "d2b5ce738480f56b2c094cea657e30bfe0301c8503cfc22ec02c353a6929780e"
+      },
+      {
+        "id": "000021-010",
+        "domain": "relationships",
+        "lengthBucket": "long",
+        "wordCount": 57,
+        "textSha256": "c906795fe305375a8317945da02feddd65017f79cabc48374912d123e9b93c95"
+      },
+      {
+        "id": "000021-011",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "241d7cdd21ff50393fef0ec0d5257420d7881dba82edf4dc20e081522afe2e9d"
+      },
+      {
+        "id": "000021-012",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "d42b3abef6db23b2008e9d89f85a79ba62b3dccc05c17d11a1f59ef1e1928876"
+      },
+      {
+        "id": "000021-013",
+        "domain": "civic",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "f4152d601183dd2d4617fd95e86f4e343b6edb446f187c38757796c6f4ff000f"
+      },
+      {
+        "id": "000021-014",
+        "domain": "technology",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "2173a1be52af3342dfc0a2bbfc991f3a707143d3b728ef02a6161c452b1c3c62"
+      },
+      {
+        "id": "000021-015",
+        "domain": "sport",
+        "lengthBucket": "short",
+        "wordCount": 13,
+        "textSha256": "040f5257d74501b1365c8c55c56a58a13199e19289784cd549d1b8938e4068ad"
+      },
+      {
+        "id": "000021-016",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "8e3246a62cf5ae927394663499ca9e67017070e0bea0ce2d0a9e79fda000a330"
+      },
+      {
+        "id": "000021-017",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "800ec98a28f243736c4ea182346a546e04839636a8053bc4e53cb26641df1435"
+      },
+      {
+        "id": "000021-018",
+        "domain": "civic",
+        "lengthBucket": "short",
+        "wordCount": 13,
+        "textSha256": "3b40bc996efdaac91d067a71915dcd76f1deb4bf19d6b896b9160dbd9684c24f"
+      },
+      {
+        "id": "000021-019",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "e0fefb067930a3a693d174cd63f23758a260fd51c54fb99250dfd01ec2f6acb8"
+      },
+      {
+        "id": "000021-020",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "2a43f07f266afe5b53f55b2ca16a5be9be820215bdf0cbc97fae1340c4278e21"
+      },
+      {
+        "id": "000021-021",
+        "domain": "relationships",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "147e26318a0fc947debc99400206d5cf3715b2e94c1bb6001b8d94f6f8c5d07b"
+      },
+      {
+        "id": "000021-022",
+        "domain": "sport",
+        "lengthBucket": "short",
+        "wordCount": 13,
+        "textSha256": "733c15a9abe3c6badec152a2ee7741b4539f0f3e2ab03150219149d09468a34b"
+      },
+      {
+        "id": "000021-023",
+        "domain": "technology",
+        "lengthBucket": "short",
+        "wordCount": 13,
+        "textSha256": "d1116122768fa4f5a800565a03cf7cf0273ac7ee986552a61a4b1b98435a2e93"
+      },
+      {
+        "id": "000021-024",
+        "domain": "health",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "37bce96fb40df5e5230c28c0a580bb4cd67b90175541a22cf8cf42991f273ac6"
+      },
+      {
+        "id": "000021-025",
+        "domain": "technology",
+        "lengthBucket": "short",
+        "wordCount": 14,
+        "textSha256": "9fe0b87c7e532f341c940bbc29bbc040e9f7aa67c3236adba881556bb522c3f8"
+      },
+      {
+        "id": "000021-026",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "b2f816a2cac058e83b5c4a488d0d9e57a84df06d669af40c15645a328c3b7cd4"
+      },
+      {
+        "id": "000021-027",
+        "domain": "education",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "a4124bbd6f7ef2001d1ab392ecf961577df972fd99f8cbcb3110aa61b3bf1c40"
+      },
+      {
+        "id": "000021-028",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "d7a47e7afa1bed465fd06943101120cb3d93a5b10b74c9b7dc297996b25b6ec4"
+      },
+      {
+        "id": "000021-029",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 25,
+        "textSha256": "f272da9cf1c4c57eaecfcc2839ea0ad826cf7636d22692273a035ad5ceec666e"
+      },
+      {
+        "id": "000021-030",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "b2ae17347c62d05b8a32dd48eac736dd7035a17dc3c454555fb8ca4246e31469"
+      },
+      {
+        "id": "000021-031",
+        "domain": "civic",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "7c91e3adf68c456d20a5500b226cc120722c03c537f8e6dfc55379f8555c9e0f"
+      },
+      {
+        "id": "000021-032",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "698e08655a38b25be67fe8b5c6bc268210a02306f4ee709e10ac6efae70efc14"
+      },
+      {
+        "id": "000021-033",
+        "domain": "work",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "131946c12e0a1e078773df51d45ba9c3c38173d3b7060f9191f9d9aa85f10541"
+      },
+      {
+        "id": "000021-034",
+        "domain": "food",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "aa2695bf8854084d05f30c18ba70ecf9a08c830e15d5cbc9d303ab51c7226e6f"
+      },
+      {
+        "id": "000021-035",
+        "domain": "relationships",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "662ebcbc4c6d6d1522633c2010a7fce4117653ff5901be0b06c84c3807898424"
+      },
+      {
+        "id": "000021-036",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "ce23e7a1caa7feff75e73c98e5b4fc674ece13e976485922fde93cbac1063baa"
+      },
+      {
+        "id": "000021-037",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "531037832360629c70a9d28369dba61c58ae73b199660e4ed8f5b3aa2473d40d"
+      },
+      {
+        "id": "000021-038",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "aa1269c5b8dfa8680c50eb3bc8bccf1bb545063106d623146fb1f7e07bb34409"
+      },
+      {
+        "id": "000021-039",
+        "domain": "travel",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "fb0e7f753f795ae5c29a1a8349f0b9850619570d35afbb50ef19bf9150a619d8"
+      },
+      {
+        "id": "000021-040",
+        "domain": "arts",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "bf070d955dc71455c0824d5bc1795686b2a54da73cac6da7ec8dce43e82a43e0"
+      },
+      {
+        "id": "000021-041",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 25,
+        "textSha256": "e479dedaa11e4df7e87faf750154e33b6954c3e0d3219d9aa35a3cb786ee1f48"
+      },
+      {
+        "id": "000021-042",
+        "domain": "food",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "8c2e089d2b74e8cb990b15c60fbcab2afb48bf89ccec7b4af72d6efa2198f60a"
+      },
+      {
+        "id": "000021-043",
+        "domain": "technology",
+        "lengthBucket": "long",
+        "wordCount": 52,
+        "textSha256": "75fb70f0758dfc1882581ee9afc429ad5def66ccfe931b3617ae7f8e24088aab"
+      },
+      {
+        "id": "000021-044",
+        "domain": "relationships",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "b310d32ec832c80a957c5951475b97f590cedb862567b5401528eedd866ee98d"
+      },
+      {
+        "id": "000021-045",
+        "domain": "work",
+        "lengthBucket": "long",
+        "wordCount": 52,
+        "textSha256": "b32e9e6478f968f3b7057dd148b5cc789adce5ff7bd04bcf8966c890f6ba733c"
+      },
+      {
+        "id": "000021-046",
+        "domain": "travel",
+        "lengthBucket": "long",
+        "wordCount": 57,
+        "textSha256": "3a46a4cae884d998e7aba97ac747d722d9759e418a0d437e3515a97e43d203b2"
+      },
+      {
+        "id": "000021-047",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 30,
+        "textSha256": "54caadcd85c84385c06470b0c5433789fc52ce10f018e902202079179f63b55c"
+      },
+      {
+        "id": "000021-048",
+        "domain": "civic",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "c1acccdd2c8d30e7979bdff428e62ba0f292e4e2b3d40725c961f83d1313747e"
+      },
+      {
+        "id": "000021-049",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "4bac839cdaf4c29fc03584200be1fcd36b9ee34800f86c771c398eeac931df43"
+      },
+      {
+        "id": "000021-050",
+        "domain": "work",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "1f132e48aad3b9f33f572e24e00405f240b9f97cdf16a9ab8f5c0f6b3a034ba8"
+      },
+      {
+        "id": "000021-051",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "c806de258ec8a279943e8f75b3b9e52cfac3a0d4101ca35e2b95954b63e22f96"
+      },
+      {
+        "id": "000021-052",
+        "domain": "food",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "4308e61b24ddb05cc562edd952d6021ebbd4712cd6566150b0317d630cf076b8"
+      },
+      {
+        "id": "000021-053",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "99ee160f22fc69c962193608927eaa3a6fa3a972ef4e485891d10e79db8a9a99"
+      },
+      {
+        "id": "000021-054",
+        "domain": "education",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "4675b272dd1c14484d456191e6948488e931766b9bfd3ca6cd1eefe13265f77d"
+      },
+      {
+        "id": "000021-055",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "26dcf19d4e87d91ed98c7e294ae9c68aa1d89af93dec5462706d2df9d55ab4f7"
+      },
+      {
+        "id": "000021-056",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "93d853c7faccd509a086f7b089de6564d11e83a5149bf641562aceedec301c09"
+      },
+      {
+        "id": "000021-057",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "7162c4283bb13bf7ced4dfce6be37147d768d9b74ede5d907b81ca515bf559d2"
+      },
+      {
+        "id": "000021-058",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "8d1db73c544e037933d0db6418736680a7640217c61d74a20a73d1a061cd598b"
+      },
+      {
+        "id": "000021-059",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "b00b8c0847e78fb06ed64ff4e9ae4e3b3270861f5c91af0b4c6c05f50f55d802"
+      },
+      {
+        "id": "000021-060",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 30,
+        "textSha256": "37e475ebba7b0a89e6634c2ff7e18ffe654b66bee9639947bfc488d3cdc6b151"
+      },
+      {
+        "id": "000021-061",
+        "domain": "arts",
+        "lengthBucket": "long",
+        "wordCount": 53,
+        "textSha256": "9b1590feb097e27de1cda53d3973a9fdb77faffc7d7b031b83d0a200a3f0e1ba"
+      },
+      {
+        "id": "000021-062",
+        "domain": "health",
+        "lengthBucket": "long",
+        "wordCount": 53,
+        "textSha256": "b2edd5d018e7a883fdd234f14ea6a66a69fb3148fe233740236c698b55032109"
+      },
+      {
+        "id": "000021-063",
+        "domain": "travel",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "d7ab2cdfaaa1bee7720d80188ee9d348c5dedbc1bf662d7ede8b161930aa37a0"
+      },
+      {
+        "id": "000021-064",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "af610066c62d27297b141f825c718cf2ba1489b50cc1cafdbe9f70f70fc3b20f"
+      },
+      {
+        "id": "000021-065",
+        "domain": "technology",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "f3076e2f24ddd4e137ba663e5cd85a03f9c23f125bf8c52033a36f8e2e5be675"
+      },
+      {
+        "id": "000021-066",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "26eda9cfa19ac2f919cbf9c0f617b852a842be0a15647d8f8b2b2c23a4f4e87e"
+      },
+      {
+        "id": "000021-067",
+        "domain": "arts",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "644e85c4f556d7e327ea7e0cb476b15ebf6cb4acd5b6dbdc5a3006cf142f0fda"
+      },
+      {
+        "id": "000021-068",
+        "domain": "work",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "bb103b744baba22bacf3d525e725bf5015eb8f7b697a1a157261be3dc9131442"
+      },
+      {
+        "id": "000021-069",
+        "domain": "education",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "e4e39e6e2c567bdc5984245d8bca6e2b181d704bc858269f29976b29b45c1c4d"
+      },
+      {
+        "id": "000021-070",
+        "domain": "work",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "222255e83cd598e2fc6ff048e99e42b107c421518c0d9ad14aeb3443aa022d1d"
+      },
+      {
+        "id": "000021-071",
+        "domain": "sport",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "944be955b196b99c97275a6b7d48de06d982937a72e8c36eb2e778bfb1035c48"
+      },
+      {
+        "id": "000021-072",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 24,
+        "textSha256": "b11c8b9d0034470482e1b4b2e2a80c6e6e31b31841388a04754c7725d3d60353"
+      },
+      {
+        "id": "000021-073",
+        "domain": "work",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "829a85cd3e18f9d5667710350be25263a24999e095c966ca30d80d68e5d09912"
+      },
+      {
+        "id": "000021-074",
+        "domain": "arts",
+        "lengthBucket": "long",
+        "wordCount": 53,
+        "textSha256": "05f204851487edf489a514e8dd4b84366e3160e79ed35eb4e89cf25e662e9b8b"
+      },
+      {
+        "id": "000021-075",
+        "domain": "health",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "580e83c6d2ecfa513dc0cb3288433f498744ec481b443ef60ad0dfccb6a16328"
+      },
+      {
+        "id": "000021-076",
+        "domain": "travel",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "f831ade8dcfe6feb2e49ed393140e9ccfbf0bebe6f00f3d485e705c724c43c07"
+      },
+      {
+        "id": "000021-077",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 25,
+        "textSha256": "d580b017078d4913680f3c597c1cce7635ce8406228687a3564a37f449da1879"
+      },
+      {
+        "id": "000021-078",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "10a318ca7d14bd6663b22e60d764d09d8a5b40379f7778d0a44a0110f1d1ad85"
+      },
+      {
+        "id": "000021-079",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "9aa579d2d156b018fc4a5949d1f3b29d2b525ef0f433698446ee287b3789c6fc"
+      },
+      {
+        "id": "000021-080",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "dd13c6cbec838569c14b7b82fbe829ae6fe687df575009598cffc54165e9c1f1"
+      },
+      {
+        "id": "000021-081",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "0e03d62ff518bd6b8fbf79ea7076410dc521b1b48a85257c4b69ac8a4cb85666"
+      },
+      {
+        "id": "000021-082",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "1cad4d777c77f71a32263a552de60f4da2637098ea5e8a6e7e8fad4872872e38"
+      },
+      {
+        "id": "000021-083",
+        "domain": "food",
+        "lengthBucket": "short",
+        "wordCount": 13,
+        "textSha256": "029cd0596c20054cf44bd1dd70b258563254d7239bc4cbab3fae386d9cbe53ba"
+      },
+      {
+        "id": "000021-084",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "31e8caf1b2b924b6bd57849dd4193f89d1003294ffec3cf44b3784bea60fbd74"
+      },
+      {
+        "id": "000021-085",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "14b0aec4d1f39902d33efd769eba450b8e720e58a59e0b5d02f0dcb5ada53efa"
+      },
+      {
+        "id": "000021-086",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "f77e4be28822970139c1563bf771b3a5a52e373e84112ee368e2fb87bfaed1ae"
+      },
+      {
+        "id": "000021-087",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 25,
+        "textSha256": "b4fac8dbd45ad526a187ef8dba1e43f25298098f4e9dedad1dd8b438b6585389"
+      },
+      {
+        "id": "000021-088",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 25,
+        "textSha256": "d4ece497211088b102c9696dd156bb1cfe7a1490901790dcb8604044f3df4c66"
+      },
+      {
+        "id": "000021-089",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "7ddeadac77e922f9642a913040a37684e9a51679cb2e2ee15bb01ad4756cdde2"
+      },
+      {
+        "id": "000021-090",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "4e1f895b71449a7e177d33b1715b814a9a6619e8cc15df9f74ad683e46d59e53"
+      },
+      {
+        "id": "000021-091",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "ee725f843f9e7ef1105416292f31052db0a135861fdca0cbb71bfc2fae849862"
+      },
+      {
+        "id": "000021-092",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "7e2778378e06c0b061acbd1da0e1d4f1a37e2583e67a101424963a98df286e29"
+      },
+      {
+        "id": "000021-093",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "1b9da7349f4fc885512518c21f0cd07f530534e0b39983a417568ff9c351c403"
+      },
+      {
+        "id": "000021-094",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "43721518e01ebd9c7f43a8a7dcae7ef5a5c2c0ec0f50fff6c3c57768369e22e8"
+      },
+      {
+        "id": "000021-095",
+        "domain": "sport",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "4241e70c300e02ecc4a7fe4e4289439f2f4ff1a32185508e7da27850f21e384e"
+      },
+      {
+        "id": "000021-096",
+        "domain": "health",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "bd29190eaefeb598e73cd0ca0f18ad190edb556166068bc2c1d80a9fb81eb743"
+      },
+      {
+        "id": "000021-097",
+        "domain": "relationships",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "a8a99a737987ad1b6c4fe94b6fb350912e54633020774c0b930b0442073c710e"
+      },
+      {
+        "id": "000021-098",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "dfb4dd778c6f7c891dac92ad59dbe5dd9453f575fb1744a3a56870c814a2b903"
+      },
+      {
+        "id": "000021-099",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "fe1c94f76cfa46af21b5221363ecb3f3fd6437c4deb04764b09c1538f154ed83"
+      },
+      {
+        "id": "000021-100",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 25,
+        "textSha256": "01333cb78d12307060e477b0c0926726d2328ec8c3c94461fe91a7646f8df3f6"
+      },
+      {
+        "id": "000021-101",
+        "domain": "arts",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "701f2c98c7c03847b0d5f5c588ac240db0f9929b0df6955ad922ab47f3a2062e"
+      },
+      {
+        "id": "000021-102",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "567cb6a777521cbdeca52e4507b7ce16ef04af37232e1edb379fb154fbb80772"
+      },
+      {
+        "id": "000021-103",
+        "domain": "civic",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "4199e022f7941ddb3a86c11d6afdb05bb1f1d410146bbdfb8758b3ffa609e1bb"
+      },
+      {
+        "id": "000021-104",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "0d376bdda66b9440187c867f3f9c5fcbc9c854ff2da46cb1b6c85f262998d931"
+      },
+      {
+        "id": "000021-105",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "6feef5b9b083d516dba05d4e32889b6c6084742739a31a51402ee90f1068e425"
+      },
+      {
+        "id": "000021-106",
+        "domain": "sport",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "1bd91332250ea6c3878fadbe304899849f0311ea2e03768b0e737b9f8aaebc5d"
+      },
+      {
+        "id": "000021-107",
+        "domain": "sport",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "f2efb16258740fcee907478220a173e871938110c67ee84863bb080ad2b29fa5"
+      },
+      {
+        "id": "000021-108",
+        "domain": "health",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "982c2ddeb1d3fa22c9b0c473eb81659b43997712c43e1d1b733998e3a4eccd49"
+      },
+      {
+        "id": "000021-109",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "94cd529d713e9aeaf797487bc6da43c7f4f6803029452c5876b869f20dddefb9"
+      },
+      {
+        "id": "000021-110",
+        "domain": "relationships",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "0d74aa1b25478ac462e80685e60fe5d7116de1524ff1521bc0f4ec6c103cd681"
+      },
+      {
+        "id": "000021-111",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "423dccb7cbe6842bc20cb08935cc1ae84b4a91ea676a46d4a30cc6fec267d6a7"
+      },
+      {
+        "id": "000021-112",
+        "domain": "education",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "e221630cb4e32f9eeff4f45f815c5ffa5f5015bf730fa94fe3fd7d62b63a23a0"
+      },
+      {
+        "id": "000021-113",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "e5486a2fa017f84f8b2227777c78ca8472dc9005419dd794e860107576176196"
+      },
+      {
+        "id": "000021-114",
+        "domain": "technology",
+        "lengthBucket": "long",
+        "wordCount": 49,
+        "textSha256": "4ace3b15fe6efcfc9e35379aa50ff1d4daa5ea3412dabafb26778eeb57ac0743"
+      },
+      {
+        "id": "000021-115",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 25,
+        "textSha256": "3344c4e434770663f223f507105e44056bc20bd607d6a9f2e0e9adc88c1d04c5"
+      },
+      {
+        "id": "000021-116",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "4acaf1c5277f33226ebf69d2b121e12056cd005e788904ca30495b1f7e917778"
+      },
+      {
+        "id": "000021-117",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 30,
+        "textSha256": "343195b54ee37125322c6a7ab9a583da1133e75f37d0fed7d23c95583d1e1c0c"
+      },
+      {
+        "id": "000021-118",
+        "domain": "arts",
+        "lengthBucket": "short",
+        "wordCount": 10,
+        "textSha256": "e9d53a55476439a2a984c35b242d316962cf43c40ecf1b8037f3dd0cf8822bd2"
+      },
+      {
+        "id": "000021-119",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "b9cf4a2ba1d4ab1e886a183862f9548be459c1ed32ea490b0b4419d6aab6c124"
+      },
+      {
+        "id": "000021-120",
+        "domain": "travel",
+        "lengthBucket": "short",
+        "wordCount": 14,
+        "textSha256": "ad2151378ff23e0be4987a44ba474c32d9f7669c67a71b28916049ed30e19b95"
+      },
+      {
+        "id": "000021-121",
+        "domain": "education",
+        "lengthBucket": "long",
+        "wordCount": 53,
+        "textSha256": "d57cdccf6ef8ec1efb01444bb09681979c7f274ec9922390f4b52f3603a93af8"
+      },
+      {
+        "id": "000021-122",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "bc04547df114910fd0fe02a44c6b32a929c9402555ea9792a1d1c586fb9af162"
+      },
+      {
+        "id": "000021-123",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "0d362d278b76e626a70b842ba388f3e9a1ebf8c2ed64256c0e3fc09fbd36d942"
+      },
+      {
+        "id": "000021-124",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "def4d563615af705c17e84142705fc33d1acdcc68562652246c5c2df7077db0c"
+      },
+      {
+        "id": "000021-125",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "82fcbc521eea9c590b32680b82f5aeac958e8196af0ba261a1d454fa75e63e8c"
+      },
+      {
+        "id": "000021-126",
+        "domain": "arts",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "2e33ee128352bd5d77c2e3ee04c5920a62f7422026e66b9c1f9a746724eb04c4"
+      },
+      {
+        "id": "000021-127",
+        "domain": "civic",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "317f6cca32bdf991b8d541341d76ec083b06a02ebd38fc9e0033c661f3113a54"
+      },
+      {
+        "id": "000021-128",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "2338d789a3c61cae1871d1859e641b8d5ce94c2d384a24fc8a9e96728ca0dca9"
+      },
+      {
+        "id": "000021-129",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "e4a7785fef9c92e002e4564726ae0454e4114b28e4a7f9a8967188d533900c04"
+      },
+      {
+        "id": "000021-130",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "11a619e93216f976a470a02704b18ddaff64a35a5c1cd139e3d6fe7d0795f76e"
+      },
+      {
+        "id": "000021-131",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "3f4006d4524b10984ffdfe4ffb1da243c27266bb91264546dfb292977d94b996"
+      },
+      {
+        "id": "000021-132",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "346ae164c76ee8f183edaa72b8cf2c6f46c9bec1623702e41045f4cd101f9cec"
+      },
+      {
+        "id": "000021-133",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "c21e55d2dd6a92a38004fafd6cc6892d5b9e2d8aa352bfd58045941f7cc91e9e"
+      },
+      {
+        "id": "000021-134",
+        "domain": "education",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "759a991a1f3e9c3f8c2dfc222b3e1e24ca5e7e069be0a402b8eaa408115ca315"
+      },
+      {
+        "id": "000021-135",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "706a3bb506e46d90d8e589214a2f58fde4f87d7bed6ed95076d9221548e4bcfc"
+      },
+      {
+        "id": "000021-136",
+        "domain": "work",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "55480a73dc5dcd005b5455301ef4ca99f2b4dbb7fd875c2743826e0e246bb353"
+      },
+      {
+        "id": "000021-137",
+        "domain": "technology",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "1741e878b62aa799c5ff45b12325b7b014a2c27d0d348ff0e62a4b43a9aa4e75"
+      },
+      {
+        "id": "000021-138",
+        "domain": "health",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "efe6a293cce9ae8e01014e2deafd212400f729c1a0bbd5d8792b4b36f8bfaec9"
+      },
+      {
+        "id": "000021-139",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "2f15a84db5c433b2aeb84bed9414a886fc5daa21956a5c67ab461bbbca13b004"
+      },
+      {
+        "id": "000021-140",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "e24c84581e6a35a6f463741d6e4bbbb9e64dafd7454f65e9796fd7e98bead9f0"
+      },
+      {
+        "id": "000021-141",
+        "domain": "travel",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "ad9fcebe0a6621494a9e2b67cab2ee502ebfd5deab6e841d8a4e7d1e73db9767"
+      },
+      {
+        "id": "000021-142",
+        "domain": "technology",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "d9c0bf0f1e43358432b3f180d8a0237e6ead0ea49c8f40bf1039086c9781325f"
+      },
+      {
+        "id": "000021-143",
+        "domain": "civic",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "41a6639a8f664194bed75d2930b7850aec48f6e1c2aa1f8647409930ec2d8cee"
+      },
+      {
+        "id": "000021-144",
+        "domain": "sport",
+        "lengthBucket": "short",
+        "wordCount": 13,
+        "textSha256": "be47b457b208e062d027f16dd273d71ab0198e1ade9c85c365e2e9d98f0e3910"
+      },
+      {
+        "id": "000021-145",
+        "domain": "work",
+        "lengthBucket": "long",
+        "wordCount": 52,
+        "textSha256": "9f728448a3df9c1472958828cd7fc3b54f3161dbfb7a0c6687aab429d28212f6"
+      },
+      {
+        "id": "000021-146",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "ec2566f5153d6a7dd7d28dde035e933845231ee0bcc89b83758967f68ce36c22"
+      },
+      {
+        "id": "000021-147",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "1587c58ad74c720e9f413a4363bd50aefe2d38748ac7d6e0470d05b479d134b5"
+      },
+      {
+        "id": "000021-148",
+        "domain": "sport",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "d65aa6bf2c20a0824ccbe3edf636d52e4c8467ba015525d4e0d8801fa5306aed"
+      },
+      {
+        "id": "000021-149",
+        "domain": "education",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "3134ad8c67fc08fd1e98a30f80c800385f73e6f23015f636241879a361c09102"
+      },
+      {
+        "id": "000021-150",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "b0f689ab8b9007da36b74cf0a5f31e9e65331a48095a9e2fce53b650de091bee"
+      },
+      {
+        "id": "000021-151",
+        "domain": "relationships",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "b61a317eaf0a395662db4f9474a70cc705849f21f49a2d60baa19eae2854ea7e"
+      },
+      {
+        "id": "000021-152",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "8abae23f83ad6650de462639e00e17aa56c273522eab028d1284c0d209d07966"
+      },
+      {
+        "id": "000021-153",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "2266d34ca35ec693c9059b9aea238e609d65c4017c0a1dc82c190060a02a84e8"
+      },
+      {
+        "id": "000021-154",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 30,
+        "textSha256": "b57b4dcc401545dc3f8f80b8f7bb7876b4b181eb512087d57b5fb113af712e79"
+      },
+      {
+        "id": "000021-155",
+        "domain": "work",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "739ffa7fab54ab87bf702372d833a78db828291d9d6d36219195ada9e365eb42"
+      },
+      {
+        "id": "000021-156",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "1f21f979f870f6c18390c5f06b2329e2430ae30644a2f0c37c9c5c291bca624c"
+      },
+      {
+        "id": "000021-157",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "f5bd95a53596397d555401e9dd1f79846647347a036c9987bf570c87cba25fdb"
+      },
+      {
+        "id": "000021-158",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "b969f4db1b5db6f7e7754fb8903e39eb1fa00848e8d809becd2fc09cb88a2fa1"
+      },
+      {
+        "id": "000021-159",
+        "domain": "education",
+        "lengthBucket": "long",
+        "wordCount": 52,
+        "textSha256": "0478276ab8adce1f78aa35238bbe7328f42b126034246a7aa2b6677804995ac0"
+      },
+      {
+        "id": "000021-160",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "82f8c996781068b15f5cc08dffd07af7f5e96f15bf230150104e2edd1afd761c"
+      },
+      {
+        "id": "000021-161",
+        "domain": "civic",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "d91b57a3ef91ef1bde1383ddfe0462121912c6e48a85462a8dbc675e0d21fcc6"
+      },
+      {
+        "id": "000021-162",
+        "domain": "civic",
+        "lengthBucket": "short",
+        "wordCount": 10,
+        "textSha256": "aca75cecb559fc090b7cb8505c4b205a77a1023cd389ffda08c90df4436f8543"
+      },
+      {
+        "id": "000021-163",
+        "domain": "civic",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "bcaba7829820d313b6d3ffa73eebc458bde9d9fec794f0b5487fcac9473dca89"
+      },
+      {
+        "id": "000021-164",
+        "domain": "relationships",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "73028c6bcfac5f29e7f984fe4734a23e7720cf9c4cc839f075928ca460c9546b"
+      },
+      {
+        "id": "000021-165",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "7e0fd61fa5347e314aae7cf259836308c38e9610289328833159a000f15f14c2"
+      },
+      {
+        "id": "000021-166",
+        "domain": "relationships",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "947a835ced4f0c4bbb8336b6197c0e7a37dc8245179bda280b4187de9f44f384"
+      },
+      {
+        "id": "000021-167",
+        "domain": "travel",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "de65133952f31b08aaea12723c5c334478a082337e52cf2719b54ec744ef4050"
+      },
+      {
+        "id": "000021-168",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "c70224667076defd7c1c1d332d157fef4a69dbc2a7edc123b468ffcf944b0e41"
+      },
+      {
+        "id": "000021-169",
+        "domain": "work",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "55856537f9e955dd33f9a1ca6ef3560955c7447597749a7e3ef03a3bba57e8f2"
+      },
+      {
+        "id": "000021-170",
+        "domain": "food",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "38f6dcbe493c30758b7f876a15222e4abbdf05ed4bede2399dfa045aa734d3af"
+      },
+      {
+        "id": "000021-171",
+        "domain": "travel",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "0fe14847a7f2a70489bbceab22b06e187805afe0ea24a9d995630b9b74c0ec19"
+      },
+      {
+        "id": "000021-172",
+        "domain": "food",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "70b1c9de6e64a5cfef0617231e1dc3362a43ebefbae80079c7f6c514ed106f14"
+      },
+      {
+        "id": "000021-173",
+        "domain": "food",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "fc12a3b50defeadb558852e78357b0fc7b43abe916076de87e72f4428a787b0e"
+      },
+      {
+        "id": "000021-174",
+        "domain": "education",
+        "lengthBucket": "long",
+        "wordCount": 52,
+        "textSha256": "729c42992aada473be3533fb2e8ecc9bd78117e84abee87a5fb548e944dbab41"
+      },
+      {
+        "id": "000021-175",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 26,
+        "textSha256": "c74ff8e01539389df817170df4b777366c7071a28aec03b0d10b4456a60c8730"
+      },
+      {
+        "id": "000021-176",
+        "domain": "arts",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "5c570e69c4b0b7fbe22e1d635f32590c0591a684378a8fadada9497e4170857d"
+      },
+      {
+        "id": "000021-177",
+        "domain": "technology",
+        "lengthBucket": "long",
+        "wordCount": 56,
+        "textSha256": "88ec4a550dd0098f9b060bae0d4f9245b0402abbe50d55bcf8fd8d127cab35c9"
+      },
+      {
+        "id": "000021-178",
+        "domain": "food",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "2db0cb7cc5217eda03e09826b14ea8331a0bc068b36928e7f60943e95dad60fe"
+      },
+      {
+        "id": "000021-179",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "616dc8010624d1772b40bd31c3802da5b61a33625c185981c7454e13b7f37559"
+      },
+      {
+        "id": "000021-180",
+        "domain": "health",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "841d7a8dd05f3ce78c5b76aa22b04f24c436ae33743e3b01c866c9ea91f10694"
+      },
+      {
+        "id": "000021-181",
+        "domain": "health",
+        "lengthBucket": "long",
+        "wordCount": 52,
+        "textSha256": "9e273b385c3424bf3a1891ce922017beb6c5d83fa83df13b10f53013f8406c67"
+      },
+      {
+        "id": "000021-182",
+        "domain": "relationships",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "5f7222f918f0a0fd72fb1467994fccbabc7c97546cbed9f175ec5870b0c68038"
+      },
+      {
+        "id": "000021-183",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "19326d13b5fd22ee8a8f3e0924db9bb3b309d49d3ca71b35b2e8344e6146604e"
+      },
+      {
+        "id": "000021-184",
+        "domain": "education",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "4b5ed93be5e3a3df72c78bab3ddb1ae8de8b5c885b54be1db164e2ff5cf7ae08"
+      },
+      {
+        "id": "000021-185",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "811e624eab20bfdf73d04d66cae1dde5ded2bc687ffd31f5c30c09d698f8af01"
+      },
+      {
+        "id": "000021-186",
+        "domain": "arts",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "91c16ec326e1db2515220911c7b3b793d56941a61c681728dd810eeab375bcb4"
+      },
+      {
+        "id": "000021-187",
+        "domain": "sport",
+        "lengthBucket": "long",
+        "wordCount": 58,
+        "textSha256": "580df8d3233e0cfc6c61783819999c6326d7d0ce30a9822c51812ea3d325aca0"
+      },
+      {
+        "id": "000021-188",
+        "domain": "food",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "9a4885091a45956182fc7fd99740c01cbefe136c30bf68ae26ae657e39ad3df0"
+      },
+      {
+        "id": "000021-189",
+        "domain": "travel",
+        "lengthBucket": "medium",
+        "wordCount": 28,
+        "textSha256": "aaa45531964ba46f886003c5506abf1b170fa840b19582e01978d21ef5ba756b"
+      },
+      {
+        "id": "000021-190",
+        "domain": "health",
+        "lengthBucket": "long",
+        "wordCount": 55,
+        "textSha256": "547094cb6251b069865d18001dd77a10507c4c4796fd0ec224a86e146eb5273a"
+      },
+      {
+        "id": "000021-191",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "d65749cf40ccc999037a687ac0ddc7053eb877c0f1f25d31e14a6ef11fb0167c"
+      },
+      {
+        "id": "000021-192",
+        "domain": "food",
+        "lengthBucket": "short",
+        "wordCount": 10,
+        "textSha256": "da279c0ce5b0b6c0a43eccf0f9d5a1b53a63399ab1ebb5ee2764ebf781a975fc"
+      },
+      {
+        "id": "000021-193",
+        "domain": "food",
+        "lengthBucket": "short",
+        "wordCount": 11,
+        "textSha256": "ab185aaee80538bb583dd91c274576f2c778275f29e3eaf49a1e296b3f8f964f"
+      },
+      {
+        "id": "000021-194",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "wordCount": 27,
+        "textSha256": "4260b9ec7257c1c7329556c7787772e050975568bc69d03d4b5aa40d5c25a43b"
+      },
+      {
+        "id": "000021-195",
+        "domain": "health",
+        "lengthBucket": "long",
+        "wordCount": 54,
+        "textSha256": "aa2f5c46d3d4c26deda89c98a5bb21460066c7ffd96ec35d4828fb5ddb261a1a"
+      },
+      {
+        "id": "000021-196",
+        "domain": "sport",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "6fb2c7f9d0a28e1f3088d1589ca3005341b7306da74d96f31c78f92c0b6076c7"
+      },
+      {
+        "id": "000021-197",
+        "domain": "relationships",
+        "lengthBucket": "short",
+        "wordCount": 13,
+        "textSha256": "a8f4aaf4c125066d055783f0804882be3b89de19bc8bbcd08be62ed517126059"
+      },
+      {
+        "id": "000021-198",
+        "domain": "travel",
+        "lengthBucket": "long",
+        "wordCount": 53,
+        "textSha256": "8cf4136b8f362da01ae4da8f3a5849e2af880c47e1ddaa5b86e7cf103c79e742"
+      },
+      {
+        "id": "000021-199",
+        "domain": "technology",
+        "lengthBucket": "short",
+        "wordCount": 13,
+        "textSha256": "e2ccfe1ce3834a5b5a8bf6c7be2009bd87f5ac12a2715b660ca1fc27fe4f43ce"
+      },
+      {
+        "id": "000021-200",
+        "domain": "civic",
+        "lengthBucket": "short",
+        "wordCount": 12,
+        "textSha256": "71cacde4135a715291f827aa9009c7894a8a3dfd49c6236d9235a7235eb1ab50"
+      },
+      {
+        "id": "000021-201",
+        "domain": "technology",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "ccf0c3628dd068493199001aa914457239224a35d327f5c5fc14d59223b9be8b"
+      },
+      {
+        "id": "000021-202",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "wordCount": 25,
+        "textSha256": "8b10aa163fd1c496ce99d8dc6c3bdb4554f2ca362271be5da73f372fb7fa9593"
+      },
+      {
+        "id": "000021-203",
+        "domain": "arts",
+        "lengthBucket": "medium",
+        "wordCount": 29,
+        "textSha256": "8723298d3570c3d1cf198d2bc3504e55db604584bae1189477498800cff3abcc"
+      },
+      {
+        "id": "000021-204",
+        "domain": "health",
+        "lengthBucket": "medium",
+        "wordCount": 31,
+        "textSha256": "62aa8291136a3afa887ceeccb0003d70afb9cbbd79126418f52c2f4fc4d2461d"
+      }
+    ],
+    "holdoutProtection": "Only development passage material was authored or supplied to Opus. Cross-split audit remains assigned to a separate context."
+  },
+  "files": {
+    "markdown": {
+      "path": "datasets/ai-synthetic/passages/000021-puffery-and-overstatement-sweeping-generalization-development.md",
+      "sha256": "ae09ac726fdb47058bb887e8fc753ba41242266e0ac02193ae8fe9cc7beaa684"
+    },
+    "labels": {
+      "path": "datasets/ai-synthetic/passages/000021-puffery-and-overstatement-sweeping-generalization-development.labels.json",
+      "sha256": "7f590274be87e437c987d044a17d5c7d9823a8ffe5ea055d9357a6a5ac422e31"
+    }
+  },
+  "archive": {
+    "status": "needs archival commit",
+    "commit": null,
+    "poolCounts": {
+      "passages": 204,
+      "hits": 104,
+      "noHits": 100
+    },
+    "poolMarkdownSha256": "ae09ac726fdb47058bb887e8fc753ba41242266e0ac02193ae8fe9cc7beaa684",
+    "poolLabelsSha256": "7f590274be87e437c987d044a17d5c7d9823a8ffe5ea055d9357a6a5ac422e31"
+  },
+  "selection": {
+    "status": "pending-parent-archival-commit",
+    "target": {
+      "hits": 100,
+      "noHits": 100
+    },
+    "mandatoryIds": [
+      "000021-031",
+      "000021-072",
+      "000021-077",
+      "000021-137",
+      "000021-152",
+      "000021-159",
+      "000021-168",
+      "000021-188",
+      "000021-201",
+      "000021-202",
+      "000021-203",
+      "000021-204"
+    ],
+    "policy": "Retain mandatory cases; allocate remaining class slots proportionally across declared short/medium/long groups with largest-remainder rounding, redistribute exhausted groups, and select ascending SHA-256 of family/type/split/stable ID within each bucket."
+  },
+  "remainingConcerns": [
+    "Archival commit and deterministic balancing remain pending.",
+    "Fresh independent QA and cross-split duplicate audit are assigned to the parent."
+  ]
+}
