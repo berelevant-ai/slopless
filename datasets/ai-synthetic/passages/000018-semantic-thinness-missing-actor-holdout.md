@@ -24,10 +24,6 @@ Either chef may season the broth. The recipe calls for tasting it after salt is 
 
 Ask the gardener who planted the sapling how deep the roots were. The estate record says planting took place near the pond, gives the species, and leaves the planter unnamed.
 
-## 000018-007
-
-The snow was cleared from the platform, allowing passengers to reach the train. The notice gives the time trains will resume.
-
 ## 000018-008
 
 The journalist's report promises to identify the official who ordered the bridge closure. It states that the order originated at headquarters and describes the bridge's length, without naming an office or official.
@@ -115,10 +111,6 @@ The meeting account promises to identify who vetoed the trip. Its explanation is
 ## 000018-029
 
 The apprentice who welded the bracket must sign the test sheet. Nia welded it; her signature belongs beside the pressure reading.
-
-## 000018-030
-
-My aunt set the empty bottle on the counter and went upstairs. A minute later the bottle was knocked onto the floor when the cat leapt past the curtains. The glass scattered under the stool, so I shut the cat in the hallway before sweeping. I could tell her how it broke without accusing any of the children.
 
 ## 000018-031
 
@@ -304,10 +296,6 @@ To attribute the forged inscription, the catalogue must identify its maker. It r
 
 The treasurer decides which bills to pay. This bill was selected for payment in the treasurer's signed list.
 
-## 000018-077
-
-Who signed for the samples? The receiving clerk's name and signature are printed below the delivery time.
-
 ## 000018-078
 
 A publisher's correction names whoever introduced an error so that the author and translator can review their own work. In this correction the date was moved from spring to autumn during preparation. The paragraph supplies the original date and the printed date, then instructs the person who changed it to explain the decision, without saying who that was.
@@ -316,10 +304,6 @@ A publisher's correction names whoever introduced an error so that the author an
 
 The architect specified a shallow roof to preserve the view. It was installed at the stated angle, and the lake remained visible from the balcony.
 
-## 000018-080
-
-The speech's lesson is resilience. Its author, the retiring headteacher, delivered it at the final assembly.
-
 ## 000018-081
 
 Whoever left the campsite last had to extinguish the fire. I watched everyone else depart, then poured water over the embers myself.
@@ -327,10 +311,6 @@ Whoever left the campsite last had to extinguish the fire. I watched everyone el
 ## 000018-082
 
 The sign reads, 'A decision was made,' and a teacher has written a question beneath it: 'Who made it?' This is an exercise in spotting missing responsibility in a sentence. The class is being asked to identify the omission itself. The exercise supplies no real decision whose execution depends on an unnamed person's identity.
-
-## 000018-083
-
-The new roster links the rescue boat to the coastal station: its crew sleeps there and receives calls through that station's radio. Yesterday's call was answered immediately. Station officer Amara records that she took it and dispatched the boat. Her account makes responsibility for the dispatch clear while preserving the passive summary of the call.
 
 ## 000018-084
 
@@ -376,10 +356,6 @@ An accusation by a contestant requires a hearing; a spectator's remark does not.
 
 The appeal concerns whether a parcel arrived, not which employee handled it. A signed delivery record places it at the recipient's address on Friday. It was then returned unopened because the recipient had moved abroad. Those events establish the delivery and return; the name of the person who sorted it at the depot is immaterial to that question.
 
-## 000018-095
-
-A change of plan was announced over the loudspeaker. Passengers were told to use platform six instead of platform two.
-
 ## 000018-096
 
 Bake until the pastry is browned. The apples will soften while steam escapes through the slits in the lid.
@@ -407,10 +383,6 @@ Before naming a penalty, we must distinguish a deliberate shove from a collision
 ## 000018-102
 
 A customer can cancel a standing order by telephone; a bank employee must use the internal form. This compliance finding says the cancellation happened over the telephone and declares the procedure correct, without identifying who cancelled it.
-
-## 000018-103
-
-The code review found a race condition. Mara wrote the patch and Ben checked it before the patch was merged.
 
 ## 000018-104
 
@@ -452,10 +424,6 @@ We must decide which department published the incorrect timetable. The finding s
 
 The connection between the two proposals remains mysterious. The secretary circulated both of them with the agenda.
 
-## 000018-114
-
-The panel has chosen its next chair, but the announcement is under embargo until Monday. Members should wait for that announcement before sending correspondence to the new chair.
-
 ## 000018-115
 
 The theft report leaves the thief unidentified because nobody saw the break-in. It records the missing tools so the owner can claim their replacement cost.
@@ -463,10 +431,6 @@ The theft report leaves the thief unidentified because nobody saw the break-in. 
 ## 000018-116
 
 The hostage's hood was removed. She recognized the room from its wallpaper but still could not see any of her captors.
-
-## 000018-117
-
-Mina alone was cutting the fabric. When the sleeve was cut too short, she put down her scissors and fetched a fresh length.
 
 ## 000018-118
 
@@ -624,17 +588,9 @@ The recording was slowed to make the bird's call easier to distinguish. Its two 
 
 The contest bars entries edited by judges. An edit was made to this entry, and this screening note treats its eligibility as established without identifying the editor.
 
-## 000018-157
-
-Errors were made in the first edition: I transposed the two birth dates. I have corrected them in the reprint.
-
 ## 000018-158
 
 The child who spilled the paint needs clean clothes. We found Idris holding the overturned tin, and he told us he had tripped over it.
-
-## 000018-159
-
-A decision will be made tomorrow. Until then, neither applicant should cancel their existing booking.
 
 ## 000018-160
 
@@ -763,10 +719,6 @@ The guide directs the volunteer who booked the hall to reclaim the deposit. It s
 ## 000018-191
 
 A scent-trial handler must record which dog located the hidden glove. The completed scorecard says the glove came to light beside the oak and awards the finder's points, but names no dog.
-
-## 000018-192
-
-The front wheel was removed so the bicycle would fit into the taxi's boot. Taking it off shortened the bicycle enough to leave room for the folded wheelchair beside it. I mention the removal to explain how we transported both items. It makes no difference to that explanation which of the two of us loosened the axle.
 
 ## 000018-193
 

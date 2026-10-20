@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "textSha256": "d847e4b08a3ab3d60eb41bf08b0013cc2d6f50208ea56747a4e68348298f3229",
+  "textSha256": "1cd7db51f58afeef7d0564d64981e019d7fe38db2a6c284c5614b47983bb7850",
   "source": {
     "name": "Protected synthetic unspecified-relationship holdout",
     "originalPath": "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md",
-    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "commit": "06de26256011e1d1689dd84b18e2ca20b49c371f",
     "model": "Codex author; claude-opus-5-5 blind reviewer",
-    "notes": "Initial 200 passages drafted before development inspection; three independent passages appended after definition-based QA. Blind Opus review with author adjudication."
+    "notes": "Initial 200 passages drafted before development inspection; three independent passages appended after definition-based QA. Blind Opus review with author adjudication. Active subset: exactly 100 hits and 100 no-hits, selected from the full reviewed collection at Git commit 06de26256011e1d1689dd84b18e2ca20b49c371f:datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md. Original source attribution: commit c21c445c333026e4033f8160e56388118cb715d9; path datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md. Selection method and current validation are recorded in runners/results/unspecified-relationship-holdout-opus-review.json under activeSelection."
   },
   "split": "holdout",
   "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
@@ -87,944 +87,929 @@
       "end": 3213
     },
     {
-      "id": "000016-016",
-      "start": 3230,
-      "end": 3342
-    },
-    {
       "id": "000016-017",
-      "start": 3359,
-      "end": 3483
+      "start": 3230,
+      "end": 3354
     },
     {
       "id": "000016-018",
-      "start": 3500,
-      "end": 3645
+      "start": 3371,
+      "end": 3516
     },
     {
       "id": "000016-019",
-      "start": 3662,
-      "end": 3779
+      "start": 3533,
+      "end": 3650
     },
     {
       "id": "000016-020",
-      "start": 3796,
-      "end": 3938
+      "start": 3667,
+      "end": 3809
     },
     {
       "id": "000016-021",
-      "start": 3955,
-      "end": 4027
+      "start": 3826,
+      "end": 3898
     },
     {
       "id": "000016-022",
-      "start": 4044,
-      "end": 4195
+      "start": 3915,
+      "end": 4066
     },
     {
       "id": "000016-023",
-      "start": 4212,
-      "end": 4317
+      "start": 4083,
+      "end": 4188
     },
     {
       "id": "000016-024",
-      "start": 4334,
-      "end": 4451
+      "start": 4205,
+      "end": 4322
     },
     {
       "id": "000016-025",
-      "start": 4468,
-      "end": 4614
+      "start": 4339,
+      "end": 4485
     },
     {
       "id": "000016-026",
-      "start": 4631,
-      "end": 4763
+      "start": 4502,
+      "end": 4634
     },
     {
       "id": "000016-027",
-      "start": 4780,
-      "end": 4866
+      "start": 4651,
+      "end": 4737
     },
     {
       "id": "000016-028",
-      "start": 4883,
-      "end": 5194
+      "start": 4754,
+      "end": 5065
     },
     {
       "id": "000016-029",
-      "start": 5211,
-      "end": 5333
+      "start": 5082,
+      "end": 5204
     },
     {
       "id": "000016-030",
-      "start": 5350,
-      "end": 5468
+      "start": 5221,
+      "end": 5339
     },
     {
       "id": "000016-031",
-      "start": 5485,
-      "end": 5628
+      "start": 5356,
+      "end": 5499
     },
     {
       "id": "000016-032",
-      "start": 5645,
-      "end": 5763
+      "start": 5516,
+      "end": 5634
     },
     {
       "id": "000016-033",
-      "start": 5780,
-      "end": 6088
+      "start": 5651,
+      "end": 5959
     },
     {
       "id": "000016-034",
-      "start": 6105,
-      "end": 6427
+      "start": 5976,
+      "end": 6298
     },
     {
       "id": "000016-035",
-      "start": 6444,
-      "end": 6573
+      "start": 6315,
+      "end": 6444
     },
     {
       "id": "000016-036",
-      "start": 6590,
-      "end": 6701
+      "start": 6461,
+      "end": 6572
     },
     {
       "id": "000016-037",
-      "start": 6718,
-      "end": 6836
+      "start": 6589,
+      "end": 6707
     },
     {
       "id": "000016-038",
-      "start": 6853,
-      "end": 7002
+      "start": 6724,
+      "end": 6873
     },
     {
       "id": "000016-039",
-      "start": 7019,
-      "end": 7190
+      "start": 6890,
+      "end": 7061
     },
     {
       "id": "000016-040",
-      "start": 7207,
-      "end": 7338
+      "start": 7078,
+      "end": 7209
     },
     {
       "id": "000016-041",
-      "start": 7355,
-      "end": 7672
+      "start": 7226,
+      "end": 7543
     },
     {
       "id": "000016-042",
-      "start": 7689,
-      "end": 7812
+      "start": 7560,
+      "end": 7683
     },
     {
       "id": "000016-043",
-      "start": 7829,
-      "end": 8157
+      "start": 7700,
+      "end": 8028
     },
     {
       "id": "000016-044",
-      "start": 8174,
-      "end": 8280
+      "start": 8045,
+      "end": 8151
     },
     {
       "id": "000016-045",
-      "start": 8297,
-      "end": 8627
+      "start": 8168,
+      "end": 8498
     },
     {
       "id": "000016-046",
-      "start": 8644,
-      "end": 8954
+      "start": 8515,
+      "end": 8825
     },
     {
       "id": "000016-047",
-      "start": 8971,
-      "end": 9099
+      "start": 8842,
+      "end": 8970
     },
     {
       "id": "000016-048",
-      "start": 9116,
-      "end": 9256
+      "start": 8987,
+      "end": 9127
     },
     {
       "id": "000016-049",
-      "start": 9273,
-      "end": 9435
+      "start": 9144,
+      "end": 9306
     },
     {
       "id": "000016-050",
-      "start": 9452,
-      "end": 9605
+      "start": 9323,
+      "end": 9476
     },
     {
       "id": "000016-051",
-      "start": 9622,
-      "end": 9738
+      "start": 9493,
+      "end": 9609
     },
     {
       "id": "000016-052",
-      "start": 9755,
-      "end": 9880
+      "start": 9626,
+      "end": 9751
     },
     {
       "id": "000016-053",
-      "start": 9897,
-      "end": 10001
+      "start": 9768,
+      "end": 9872
     },
     {
       "id": "000016-054",
-      "start": 10018,
-      "end": 10109
+      "start": 9889,
+      "end": 9980
     },
     {
       "id": "000016-055",
-      "start": 10126,
-      "end": 10439
+      "start": 9997,
+      "end": 10310
     },
     {
       "id": "000016-056",
-      "start": 10456,
-      "end": 10575
+      "start": 10327,
+      "end": 10446
     },
     {
       "id": "000016-057",
-      "start": 10592,
-      "end": 10731
+      "start": 10463,
+      "end": 10602
     },
     {
       "id": "000016-058",
-      "start": 10748,
-      "end": 10899
+      "start": 10619,
+      "end": 10770
     },
     {
       "id": "000016-059",
-      "start": 10916,
-      "end": 11053
+      "start": 10787,
+      "end": 10924
     },
     {
       "id": "000016-060",
-      "start": 11070,
-      "end": 11215
+      "start": 10941,
+      "end": 11086
     },
     {
       "id": "000016-061",
-      "start": 11232,
-      "end": 11382
+      "start": 11103,
+      "end": 11253
     },
     {
       "id": "000016-062",
-      "start": 11399,
-      "end": 11530
+      "start": 11270,
+      "end": 11401
     },
     {
       "id": "000016-063",
-      "start": 11547,
-      "end": 11850
+      "start": 11418,
+      "end": 11721
     },
     {
       "id": "000016-064",
-      "start": 11867,
-      "end": 12183
+      "start": 11738,
+      "end": 12054
     },
     {
       "id": "000016-065",
-      "start": 12200,
-      "end": 12337
+      "start": 12071,
+      "end": 12208
     },
     {
       "id": "000016-066",
-      "start": 12354,
-      "end": 12681
+      "start": 12225,
+      "end": 12552
     },
     {
       "id": "000016-067",
-      "start": 12698,
-      "end": 13047
+      "start": 12569,
+      "end": 12918
     },
     {
       "id": "000016-068",
-      "start": 13064,
-      "end": 13212
+      "start": 12935,
+      "end": 13083
     },
     {
       "id": "000016-069",
-      "start": 13229,
-      "end": 13553
+      "start": 13100,
+      "end": 13424
     },
     {
       "id": "000016-070",
-      "start": 13570,
-      "end": 13715
+      "start": 13441,
+      "end": 13586
     },
     {
       "id": "000016-071",
-      "start": 13732,
-      "end": 13868
+      "start": 13603,
+      "end": 13739
     },
     {
       "id": "000016-072",
-      "start": 13885,
-      "end": 14044
+      "start": 13756,
+      "end": 13915
     },
     {
       "id": "000016-073",
-      "start": 14061,
-      "end": 14384
+      "start": 13932,
+      "end": 14255
     },
     {
       "id": "000016-074",
-      "start": 14401,
-      "end": 14502
+      "start": 14272,
+      "end": 14373
     },
     {
       "id": "000016-075",
-      "start": 14519,
-      "end": 14645
+      "start": 14390,
+      "end": 14516
     },
     {
       "id": "000016-076",
-      "start": 14662,
-      "end": 14955
+      "start": 14533,
+      "end": 14826
     },
     {
       "id": "000016-077",
-      "start": 14972,
-      "end": 15291
+      "start": 14843,
+      "end": 15162
     },
     {
       "id": "000016-078",
-      "start": 15308,
-      "end": 15421
+      "start": 15179,
+      "end": 15292
     },
     {
       "id": "000016-079",
-      "start": 15438,
-      "end": 15741
+      "start": 15309,
+      "end": 15612
     },
     {
       "id": "000016-080",
-      "start": 15758,
-      "end": 16098
+      "start": 15629,
+      "end": 15969
     },
     {
       "id": "000016-081",
-      "start": 16115,
-      "end": 16208
+      "start": 15986,
+      "end": 16079
     },
     {
       "id": "000016-082",
-      "start": 16225,
-      "end": 16562
+      "start": 16096,
+      "end": 16433
     },
     {
       "id": "000016-083",
-      "start": 16579,
-      "end": 16907
+      "start": 16450,
+      "end": 16778
     },
     {
       "id": "000016-084",
-      "start": 16924,
-      "end": 17041
+      "start": 16795,
+      "end": 16912
     },
     {
       "id": "000016-085",
-      "start": 17058,
-      "end": 17159
+      "start": 16929,
+      "end": 17030
     },
     {
       "id": "000016-086",
-      "start": 17176,
-      "end": 17333
+      "start": 17047,
+      "end": 17204
     },
     {
       "id": "000016-087",
-      "start": 17350,
-      "end": 17454
+      "start": 17221,
+      "end": 17325
     },
     {
       "id": "000016-088",
-      "start": 17471,
-      "end": 17566
+      "start": 17342,
+      "end": 17437
     },
     {
       "id": "000016-089",
-      "start": 17583,
-      "end": 17733
+      "start": 17454,
+      "end": 17604
     },
     {
       "id": "000016-090",
-      "start": 17750,
-      "end": 17851
+      "start": 17621,
+      "end": 17722
     },
     {
       "id": "000016-091",
-      "start": 17868,
-      "end": 18029
+      "start": 17739,
+      "end": 17900
     },
     {
       "id": "000016-092",
-      "start": 18046,
-      "end": 18191
+      "start": 17917,
+      "end": 18062
     },
     {
       "id": "000016-093",
-      "start": 18208,
-      "end": 18387
+      "start": 18079,
+      "end": 18258
     },
     {
       "id": "000016-094",
-      "start": 18404,
-      "end": 18509
+      "start": 18275,
+      "end": 18380
     },
     {
       "id": "000016-095",
-      "start": 18526,
-      "end": 18846
+      "start": 18397,
+      "end": 18717
     },
     {
       "id": "000016-096",
-      "start": 18863,
-      "end": 19006
+      "start": 18734,
+      "end": 18877
     },
     {
       "id": "000016-097",
-      "start": 19023,
-      "end": 19172
+      "start": 18894,
+      "end": 19043
     },
     {
       "id": "000016-098",
-      "start": 19189,
-      "end": 19312
+      "start": 19060,
+      "end": 19183
     },
     {
       "id": "000016-099",
-      "start": 19329,
-      "end": 19482
+      "start": 19200,
+      "end": 19353
     },
     {
       "id": "000016-100",
-      "start": 19499,
-      "end": 19646
+      "start": 19370,
+      "end": 19517
     },
     {
       "id": "000016-101",
-      "start": 19663,
-      "end": 19813
+      "start": 19534,
+      "end": 19684
     },
     {
       "id": "000016-102",
-      "start": 19830,
-      "end": 19953
+      "start": 19701,
+      "end": 19824
     },
     {
       "id": "000016-103",
-      "start": 19970,
-      "end": 20064
+      "start": 19841,
+      "end": 19935
     },
     {
       "id": "000016-104",
-      "start": 20081,
-      "end": 20182
+      "start": 19952,
+      "end": 20053
     },
     {
       "id": "000016-105",
-      "start": 20199,
-      "end": 20352
+      "start": 20070,
+      "end": 20223
     },
     {
       "id": "000016-106",
-      "start": 20369,
-      "end": 20518
+      "start": 20240,
+      "end": 20389
     },
     {
       "id": "000016-107",
-      "start": 20535,
-      "end": 20671
+      "start": 20406,
+      "end": 20542
     },
     {
       "id": "000016-108",
-      "start": 20688,
-      "end": 20815
+      "start": 20559,
+      "end": 20686
     },
     {
       "id": "000016-109",
-      "start": 20832,
-      "end": 20915
+      "start": 20703,
+      "end": 20786
     },
     {
       "id": "000016-110",
-      "start": 20932,
-      "end": 21241
+      "start": 20803,
+      "end": 21112
     },
     {
       "id": "000016-111",
-      "start": 21258,
-      "end": 21357
+      "start": 21129,
+      "end": 21228
     },
     {
       "id": "000016-112",
-      "start": 21374,
-      "end": 21515
+      "start": 21245,
+      "end": 21386
     },
     {
       "id": "000016-113",
-      "start": 21532,
-      "end": 21670
+      "start": 21403,
+      "end": 21541
     },
     {
       "id": "000016-114",
-      "start": 21687,
-      "end": 21816
+      "start": 21558,
+      "end": 21687
     },
     {
       "id": "000016-115",
-      "start": 21833,
-      "end": 22011
+      "start": 21704,
+      "end": 21882
     },
     {
       "id": "000016-116",
-      "start": 22028,
-      "end": 22326
+      "start": 21899,
+      "end": 22197
     },
     {
       "id": "000016-117",
-      "start": 22343,
-      "end": 22503
+      "start": 22214,
+      "end": 22374
     },
     {
       "id": "000016-118",
-      "start": 22520,
-      "end": 22649
+      "start": 22391,
+      "end": 22520
     },
     {
       "id": "000016-119",
-      "start": 22666,
-      "end": 23002
+      "start": 22537,
+      "end": 22873
     },
     {
       "id": "000016-120",
-      "start": 23019,
-      "end": 23135
+      "start": 22890,
+      "end": 23006
     },
     {
       "id": "000016-121",
-      "start": 23152,
-      "end": 23314
+      "start": 23023,
+      "end": 23185
     },
     {
       "id": "000016-122",
-      "start": 23331,
-      "end": 23482
-    },
-    {
-      "id": "000016-123",
-      "start": 23499,
-      "end": 23642
+      "start": 23202,
+      "end": 23353
     },
     {
       "id": "000016-124",
-      "start": 23659,
-      "end": 23750
+      "start": 23370,
+      "end": 23461
     },
     {
       "id": "000016-125",
-      "start": 23767,
-      "end": 23861
+      "start": 23478,
+      "end": 23572
     },
     {
       "id": "000016-126",
-      "start": 23878,
-      "end": 24011
+      "start": 23589,
+      "end": 23722
     },
     {
       "id": "000016-127",
-      "start": 24028,
-      "end": 24166
+      "start": 23739,
+      "end": 23877
     },
     {
       "id": "000016-128",
-      "start": 24183,
-      "end": 24326
+      "start": 23894,
+      "end": 24037
     },
     {
       "id": "000016-129",
-      "start": 24343,
-      "end": 24627
+      "start": 24054,
+      "end": 24338
     },
     {
       "id": "000016-130",
-      "start": 24644,
-      "end": 24786
+      "start": 24355,
+      "end": 24497
     },
     {
       "id": "000016-131",
-      "start": 24803,
-      "end": 24927
+      "start": 24514,
+      "end": 24638
     },
     {
       "id": "000016-132",
-      "start": 24944,
-      "end": 25087
+      "start": 24655,
+      "end": 24798
     },
     {
       "id": "000016-133",
-      "start": 25104,
-      "end": 25434
+      "start": 24815,
+      "end": 25145
     },
     {
       "id": "000016-134",
-      "start": 25451,
-      "end": 25563
+      "start": 25162,
+      "end": 25274
     },
     {
       "id": "000016-135",
-      "start": 25580,
-      "end": 25876
+      "start": 25291,
+      "end": 25587
     },
     {
       "id": "000016-136",
-      "start": 25893,
-      "end": 26007
+      "start": 25604,
+      "end": 25718
     },
     {
       "id": "000016-137",
-      "start": 26024,
-      "end": 26147
+      "start": 25735,
+      "end": 25858
     },
     {
       "id": "000016-138",
-      "start": 26164,
-      "end": 26438
+      "start": 25875,
+      "end": 26149
     },
     {
       "id": "000016-139",
-      "start": 26455,
-      "end": 26582
+      "start": 26166,
+      "end": 26293
     },
     {
       "id": "000016-140",
-      "start": 26599,
-      "end": 26692
+      "start": 26310,
+      "end": 26403
     },
     {
       "id": "000016-141",
-      "start": 26709,
-      "end": 27042
+      "start": 26420,
+      "end": 26753
     },
     {
       "id": "000016-142",
-      "start": 27059,
-      "end": 27169
+      "start": 26770,
+      "end": 26880
     },
     {
       "id": "000016-143",
-      "start": 27186,
-      "end": 27499
+      "start": 26897,
+      "end": 27210
     },
     {
       "id": "000016-144",
-      "start": 27516,
-      "end": 27650
+      "start": 27227,
+      "end": 27361
     },
     {
       "id": "000016-145",
-      "start": 27667,
-      "end": 27767
+      "start": 27378,
+      "end": 27478
     },
     {
       "id": "000016-146",
-      "start": 27784,
-      "end": 27908
+      "start": 27495,
+      "end": 27619
     },
     {
       "id": "000016-147",
-      "start": 27925,
-      "end": 28210
+      "start": 27636,
+      "end": 27921
     },
     {
       "id": "000016-148",
-      "start": 28227,
-      "end": 28544
+      "start": 27938,
+      "end": 28255
     },
     {
       "id": "000016-149",
-      "start": 28561,
-      "end": 28710
+      "start": 28272,
+      "end": 28421
     },
     {
       "id": "000016-150",
-      "start": 28727,
-      "end": 28831
+      "start": 28438,
+      "end": 28542
     },
     {
       "id": "000016-151",
-      "start": 28848,
-      "end": 29150
+      "start": 28559,
+      "end": 28861
     },
     {
       "id": "000016-152",
-      "start": 29167,
-      "end": 29301
+      "start": 28878,
+      "end": 29012
     },
     {
       "id": "000016-153",
-      "start": 29318,
-      "end": 29462
+      "start": 29029,
+      "end": 29173
     },
     {
       "id": "000016-154",
-      "start": 29479,
-      "end": 29590
+      "start": 29190,
+      "end": 29301
     },
     {
       "id": "000016-155",
-      "start": 29607,
-      "end": 29912
+      "start": 29318,
+      "end": 29623
     },
     {
       "id": "000016-156",
-      "start": 29929,
-      "end": 30005
+      "start": 29640,
+      "end": 29716
     },
     {
       "id": "000016-157",
-      "start": 30022,
-      "end": 30164
+      "start": 29733,
+      "end": 29875
     },
     {
       "id": "000016-158",
-      "start": 30181,
-      "end": 30500
+      "start": 29892,
+      "end": 30211
     },
     {
       "id": "000016-159",
-      "start": 30517,
-      "end": 30680
+      "start": 30228,
+      "end": 30391
     },
     {
       "id": "000016-160",
-      "start": 30697,
-      "end": 31004
+      "start": 30408,
+      "end": 30715
     },
     {
       "id": "000016-161",
-      "start": 31021,
-      "end": 31331
+      "start": 30732,
+      "end": 31042
     },
     {
       "id": "000016-162",
-      "start": 31348,
-      "end": 31474
+      "start": 31059,
+      "end": 31185
     },
     {
       "id": "000016-163",
-      "start": 31491,
-      "end": 31631
+      "start": 31202,
+      "end": 31342
     },
     {
       "id": "000016-164",
-      "start": 31648,
-      "end": 31777
+      "start": 31359,
+      "end": 31488
     },
     {
       "id": "000016-165",
-      "start": 31794,
-      "end": 31878
+      "start": 31505,
+      "end": 31589
     },
     {
       "id": "000016-166",
-      "start": 31895,
-      "end": 32031
+      "start": 31606,
+      "end": 31742
     },
     {
       "id": "000016-167",
-      "start": 32048,
-      "end": 32148
+      "start": 31759,
+      "end": 31859
     },
     {
       "id": "000016-168",
-      "start": 32165,
-      "end": 32478
+      "start": 31876,
+      "end": 32189
     },
     {
       "id": "000016-169",
-      "start": 32495,
-      "end": 32869
+      "start": 32206,
+      "end": 32580
     },
     {
       "id": "000016-170",
-      "start": 32886,
-      "end": 33059
+      "start": 32597,
+      "end": 32770
     },
     {
       "id": "000016-171",
-      "start": 33076,
-      "end": 33213
+      "start": 32787,
+      "end": 32924
     },
     {
       "id": "000016-172",
-      "start": 33230,
-      "end": 33365
+      "start": 32941,
+      "end": 33076
     },
     {
       "id": "000016-173",
-      "start": 33382,
-      "end": 33526
+      "start": 33093,
+      "end": 33237
     },
     {
       "id": "000016-174",
-      "start": 33543,
-      "end": 33679
+      "start": 33254,
+      "end": 33390
     },
     {
       "id": "000016-175",
-      "start": 33696,
-      "end": 33809
+      "start": 33407,
+      "end": 33520
     },
     {
       "id": "000016-176",
-      "start": 33826,
-      "end": 33966
+      "start": 33537,
+      "end": 33677
     },
     {
       "id": "000016-177",
-      "start": 33983,
-      "end": 34103
-    },
-    {
-      "id": "000016-178",
-      "start": 34120,
-      "end": 34432
+      "start": 33694,
+      "end": 33814
     },
     {
       "id": "000016-179",
-      "start": 34449,
-      "end": 34574
+      "start": 33831,
+      "end": 33956
     },
     {
       "id": "000016-180",
-      "start": 34591,
-      "end": 34690
+      "start": 33973,
+      "end": 34072
     },
     {
       "id": "000016-181",
-      "start": 34707,
-      "end": 34828
+      "start": 34089,
+      "end": 34210
     },
     {
       "id": "000016-182",
-      "start": 34845,
-      "end": 35003
+      "start": 34227,
+      "end": 34385
     },
     {
       "id": "000016-183",
-      "start": 35020,
-      "end": 35158
+      "start": 34402,
+      "end": 34540
     },
     {
       "id": "000016-184",
-      "start": 35175,
-      "end": 35489
+      "start": 34557,
+      "end": 34871
     },
     {
       "id": "000016-185",
-      "start": 35506,
-      "end": 35829
+      "start": 34888,
+      "end": 35211
     },
     {
       "id": "000016-186",
-      "start": 35846,
-      "end": 35974
+      "start": 35228,
+      "end": 35356
     },
     {
       "id": "000016-187",
-      "start": 35991,
-      "end": 36086
+      "start": 35373,
+      "end": 35468
     },
     {
       "id": "000016-188",
-      "start": 36103,
-      "end": 36408
+      "start": 35485,
+      "end": 35790
     },
     {
       "id": "000016-189",
-      "start": 36425,
-      "end": 36699
+      "start": 35807,
+      "end": 36081
     },
     {
       "id": "000016-190",
-      "start": 36716,
-      "end": 37036
+      "start": 36098,
+      "end": 36418
     },
     {
       "id": "000016-191",
-      "start": 37053,
-      "end": 37129
+      "start": 36435,
+      "end": 36511
     },
     {
       "id": "000016-192",
-      "start": 37146,
-      "end": 37284
+      "start": 36528,
+      "end": 36666
     },
     {
       "id": "000016-193",
-      "start": 37301,
-      "end": 37428
+      "start": 36683,
+      "end": 36810
     },
     {
       "id": "000016-194",
-      "start": 37445,
-      "end": 37564
+      "start": 36827,
+      "end": 36946
     },
     {
       "id": "000016-195",
-      "start": 37581,
-      "end": 37684
+      "start": 36963,
+      "end": 37066
     },
     {
       "id": "000016-196",
-      "start": 37701,
-      "end": 37832
+      "start": 37083,
+      "end": 37214
     },
     {
       "id": "000016-197",
-      "start": 37849,
-      "end": 37972
+      "start": 37231,
+      "end": 37354
     },
     {
       "id": "000016-198",
-      "start": 37989,
-      "end": 38104
+      "start": 37371,
+      "end": 37486
     },
     {
       "id": "000016-199",
-      "start": 38121,
-      "end": 38273
+      "start": 37503,
+      "end": 37655
     },
     {
       "id": "000016-200",
-      "start": 38290,
-      "end": 38423
+      "start": 37672,
+      "end": 37805
     },
     {
       "id": "000016-201",
-      "start": 38440,
-      "end": 38797
+      "start": 37822,
+      "end": 38179
     },
     {
       "id": "000016-202",
-      "start": 38814,
-      "end": 39152
+      "start": 38196,
+      "end": 38534
     },
     {
       "id": "000016-203",
-      "start": 39169,
-      "end": 39520
+      "start": 38551,
+      "end": 38902
     }
   ],
   "labels": [
@@ -1141,11 +1126,6 @@
       "snippets": [
         "the supervisor uses the contrast in character between the undescribed tasks labelled red and blue. This is her training rule."
       ]
-    },
-    {
-      "id": "000016-016",
-      "check": "semantic-thinness/unspecified-relationship",
-      "expected": false
     },
     {
       "id": "000016-017",
@@ -1837,11 +1817,6 @@
       ]
     },
     {
-      "id": "000016-123",
-      "check": "semantic-thinness/unspecified-relationship",
-      "expected": false
-    },
-    {
       "id": "000016-124",
       "check": "semantic-thinness/unspecified-relationship",
       "expected": false
@@ -2174,11 +2149,6 @@
     },
     {
       "id": "000016-177",
-      "check": "semantic-thinness/unspecified-relationship",
-      "expected": false
-    },
-    {
-      "id": "000016-178",
       "check": "semantic-thinness/unspecified-relationship",
       "expected": false
     },

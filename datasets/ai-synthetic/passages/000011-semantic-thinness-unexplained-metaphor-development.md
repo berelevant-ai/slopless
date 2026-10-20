@@ -4,14 +4,6 @@
 
 The branch cut its quiet weekday mornings and began opening on Saturday. Loans rose. For people who take the early bus to work, Saturday is the door into a library they previously walked past after closing time.
 
-## 000011-496
-
-The longer brew is more expensive because the server stays at the table to pour it in stages. You are paying for that time as well as the coffee; patience becomes part of the service.
-
-## 000011-511
-
-The manager called the repair queue a filter: advisers check the serial number there before an engineer takes the case. That check keeps requests for a different model out of the engineering team's workload.
-
 ## 000011-282
 
 The band sold fewer tickets in the smaller venue because intimacy had changed its relationship with reach.
@@ -24,17 +16,9 @@ Why did the new paint bubble near the window? The wall was still feeding moistur
 
 The ferry company will raise the fare even though the journey and sailing frequency are unchanged. Its notice explains the increase by describing the ferry as a bridge for the island community. Both single fares and season tickets will rise by twelve percent.
 
-## 000011-329
-
-The baby gate buys the older dog some peace. The puppy can see through it but cannot follow him into the bedroom.
-
 ## 000011-304
 
 The kitchen calendar gives our son a small patch of independence. He marks the days when he needs his sports kit and packs it the night before without waiting for a reminder. We still check the bag on swimming days because the towel is easy to forget. He likes being responsible for the part he can read himself.
-
-## 000011-480
-
-The budget is a map for your money. With rent, bills and loan payments entered, it shows a hundred pounds left each month; saving more than that would mean cutting another expense.
 
 ## 000011-516
 
@@ -51,14 +35,6 @@ Loans rose after the branch reduced its opening hours from forty a week to thirt
 ## 000011-491
 
 The router is a traffic controller, not a longer road. Replacing it can help devices take turns on a crowded connection, while a room beyond the signal's reach still needs better coverage.
-
-## 000011-313
-
-The sorting shift is a filter before parcels leave the hall. Volunteers check dates, remove damaged packets and group the remaining food by household size. Drivers then collect sealed boxes instead of making those decisions on doorsteps. New volunteers work beside an experienced sorter for the first hour, which gives them someone to ask about unfamiliar labels.
-
-## 000011-493
-
-Prune the hedge after flowering if you want to keep this year's blossom. The old stems carry the buds; cutting them earlier removes the display as well as tidying the garden's frame.
 
 ## 000011-431
 
@@ -80,10 +56,6 @@ Start with the front wheel rather than the back. Maintenance is a safety net, an
 
 Applications fell after we removed the experience requirement. The recruiter explained the fall by calling the advert a gateway to employment.
 
-## 000011-344
-
-The referral is your ticket into the specialist clinic. The booking office requires it before offering a first appointment.
-
 ## 000011-242
 
 The rent rose again this month. Affordability had begun a different conversation with the neighbourhood, according to the agent.
@@ -95,14 +67,6 @@ Your tutor is the first port of call when something goes wrong. Email them if yo
 ## 000011-301
 
 Returns are the shop's early-warning system for faulty zips. When three coats from the same batch came back with broken fasteners, the manager stopped selling the batch and checked the rest. The display coat looked fine. Without the returns log, it would have stayed on sale while customers kept discovering the same fault at home.
-
-## 000011-357
-
-Why did we add a stop? The new entrance to the hospital is half a kilometre from the old one.
-
-## 000011-487
-
-The smaller battery lasted longer because its screen drew less power. Capacity was only half the story: the larger device kept a brighter, bigger display running throughout the same video test.
 
 ## 000011-518
 
@@ -124,10 +88,6 @@ We watered both beds with the same amount every morning. The bed beside the shed
 
 The cardboard circle is a scaffold for the woven basket. It holds the upright strips apart while you weave the first few rows, then comes out once the sides can hold their shape. Keep it close to the base rather than sliding it upward as the basket grows. I reused the same circle for three baskets of equal width.
 
-## 000011-497
-
-Use four examples, one for each operation in the calculation. They are stepping stones to the final problem: pupils can practise each operation separately before combining all four in a single answer.
-
 ## 000011-336
 
 The reason these apples last longer is their thicker skin. It slows moisture loss during storage.
@@ -143,10 +103,6 @@ The patch reduced file sizes but made transfers slower. The developer explained 
 ## 000011-514
 
 The owner explained the slower queue by calling the checkout a bottleneck. Three assistants could help customers choose clothes, but only one could take payment, so completed purchases waited for the till.
-
-## 000011-499
-
-The training plan is a compass rather than a clock. Follow its pattern of hard and easy days, but move the next hard run if soreness from the last one has not settled.
 
 ## 000011-386
 
@@ -175,14 +131,6 @@ The earlier sale caught a warm week, and customers bought lighter jackets instea
 ## 000011-288
 
 The repair lasted longer this time. Durability had learned to meet the road on its own terms.
-
-## 000011-522
-
-The recruiter explained the shorter interviews by calling the written task a first filter. Candidates had already shown the required calculation, so the panel dropped that section and used the meeting for questions the task could not answer.
-
-## 000011-502
-
-Our handover used to be a verbal relay. If the next person arrived late, the outgoing worker left before passing on the unfinished calls. The new log is a bridge across that gap. Each worker writes down the calls and promised callback times before leaving, and the next person reads them on arrival. We still speak when our shifts overlap, but a missed conversation now leaves the work visible. Customers receive the callback even when the two workers never meet.
 
 ## 000011-401
 
@@ -232,17 +180,9 @@ The shared spreadsheet keeps the bills visible. Rent and utilities each have a r
 
 Deal beginners six cards while experienced players receive four. The extra cards are a cushion, which is why two is the right handicap rather than one or three.
 
-## 000011-334
-
-The soup arrived cold, and the toast was burnt. The kitchen had lost its way before our main courses even appeared.
-
 ## 000011-432
 
 Allow three days rather than five for packing the flat. Packing is a bridge between homes, and that is how to judge the time required. The furniture will travel separately from the boxes.
-
-## 000011-500
-
-Start the early sitting at six because every booking must finish by eight. The two-hour slot gives us time to clear and reset before the later guests arrive; the diary keeps that handover visible.
 
 ## 000011-459
 
@@ -259,10 +199,6 @@ Use matt paper rather than gloss for this window poster. A poster is a shop wind
 ## 000011-467
 
 Keep the loan period at three weeks rather than four. A loan is a bridge to reading, and that bridge sets its duration.
-
-## 000011-517
-
-The engineer explained why the transfer slowed by calling the compressor a narrow funnel. Every file waited for the single compression worker, and the saved transfer time was shorter than that wait.
 
 ## 000011-443
 
@@ -312,10 +248,6 @@ Use a two-week handover rather than a one-week overlap. A handover is a bridge b
 
 Use the deeper bowl for this mixture. A bowl is a harbour for your ingredients, which is why depth matters more than width here. Both bowls hold the full quantity without spilling.
 
-## 000011-337
-
-Our treasurer is the keeper of the purse. She records donations and approves reimbursements against receipts.
-
 ## 000019-012
 
 The funding agreement gives the conservation project a new horizon. Local knowledge becomes the anchor for that horizon, allowing stewardship to turn into a more lasting kind of progress. The agreement brings the community's experience into the future of the landscape.
@@ -336,17 +268,9 @@ The hill is my weekly yardstick: I time the same climb every Sunday and compare 
 
 The garden centre charged more for the smaller bag of compost from the same range. Its adviser explained the price difference by calling compost a store cupboard for plants. Both bags listed the same ingredients and were displayed together beside the outdoor tills.
 
-## 000011-521
-
-The gardener called the bed a reservoir, then measured how far it dried between waterings. That loss sets the next watering amount: replace what has drained or evaporated, rather than adding the same quantity every day.
-
 ## 000011-477
 
 The cancellation window is a safety net for changes before departure. Choose fourteen days if your employer confirms your leave only ten days before the flight; seven would leave that uncertainty outside the window.
-
-## 000011-492
-
-Removing the experience requirement opened the door to school leavers. They had previously been screened out before interview; this time they could apply, and they accounted for most of the extra applications.
 
 ## 000019-028
 
@@ -363,10 +287,6 @@ A budget is a map for your money, so it tells you whether to put ten or fifteen 
 ## 000011-393
 
 The archive team needs to choose between weekly and monthly backups. Most files stay unchanged after they have been catalogued, but corrections can still arrive at any time. A backup is a spare key to the collection, and that makes monthly copies the right fit. Keep the last successful copy until the next one has finished.
-
-## 000011-382
-
-I used to buy lunch every day. Now I cook extra rice in the evening and take the leftovers to work. The freezer is my backup when I forget. It usually holds two portions of soup and a loaf of sliced bread. That small reserve keeps a missed evening's cooking from turning into another expensive lunch. I still buy lunch on Fridays, when our whole team eats together.
 
 ## 000011-417
 
@@ -404,10 +324,6 @@ In the revised hiring process, the interview becomes a mirror for the organizati
 
 The afternoon handover is our memory across shifts. The outgoing team records unresolved calls and promised callbacks, then the evening staff work from that list. We tried relying on the ticket status alone, but it did not show what we had promised over the phone. A short written note now keeps the promise with the record.
 
-## 000011-501
-
-The first coat looked dry, but the roller pulled it off when I started the second. I had put the second layer on before the first had hardened enough to stay attached. This time I tried a small patch in the corner and checked the roller for loose paint before going on. The patch was my safety net: if it lifted, I would lose a few centimetres rather than another whole wall. It stayed put, so I finished the room.
-
 ## 000011-347
 
 My body asked for a rest day. I had slept badly, and my legs were still sore from the long walk.
@@ -420,21 +336,9 @@ The publisher explained the rise in orders by calling the new title a better sig
 
 The monthly risk review acts as a brake on expansion. Last month, the board postponed two launches because neither team had a tested recovery plan. Both launches can return to the agenda once those plans pass a rehearsal.
 
-## 000011-476
-
-The two support queues became a bottleneck because only one adviser could move requests between them. Requests sent to the wrong queue waited for her next shift, adding two days to the average wait.
-
 ## 000011-328
 
 The afternoon snack is a bridge to dinner, enough to keep him comfortable without replacing the evening meal.
-
-## 000011-349
-
-The checkout is the shop's bottleneck. We can serve only one customer at a time even when three assistants are available.
-
-## 000011-339
-
-Why is the base still pale? The tray shielded it from direct heat. Next time I will use the lower shelf.
 
 ## 000011-309
 
@@ -460,10 +364,6 @@ Last quarter, the bakery cut its menu from twelve loaves to six, but the morning
 
 The draught disappeared after we rehung the door. A threshold had finally learned to be accountable to the room.
 
-## 000011-331
-
-Her face is the anchor of the composition; every line of the staircase leads your eye back to it.
-
 ## 000011-484
 
 Butter is eighty percent fat in this recipe. Fifty grams therefore contributes forty grams of fat; replace it with forty grams of oil, not fifty. The remaining difference is mostly water, which the recipe adds separately.
@@ -476,25 +376,13 @@ The recipe uses the same rice, pan and quantity of water in both versions. Soaki
 
 The cafe serves the same beans through two grinders, one for espresso and one for filter coffee. I preferred the filter, although it was the more expensive cup. The price difference reflects the way patience becomes hospitality in the brewing process. We sat outside for an hour, and nobody hurried us to order anything else.
 
-## 000011-365
-
-That fare is a ceiling, not an estimate. The meter may show less, but the driver cannot charge more than the quoted amount.
-
 ## 000011-462
 
 The winning score is forty rather than fifty because points are the building blocks of progress.
 
-## 000011-317
-
-The reason for the overnight stop is simple: the last ferry leaves before our train arrives. The hotel is the missing link between those timetables.
-
 ## 000011-471
 
 Use the metal spoon rather than the wooden one: stirring is the engine of the recipe, which determines the material.
-
-## 000011-355
-
-The camera's memory card is full. Delete some pictures or insert another card before recording the ceremony.
 
 ## 000011-421
 
@@ -512,21 +400,9 @@ Appointments became harder to book after the clinic added slots. Its explanation
 
 Customer interviews are the team's compass, not its voting system. The team groups reported problems by frequency and checks which ones prevent a purchase. Engineers then compare possible fixes against cost and reliability. A popular feature request can still be rejected if it would make the service unreliable.
 
-## 000011-327
-
-The rota tells us who owns the inbox today. That person checks new messages and assigns each one to a team.
-
 ## 000011-464
 
 The larger bag costs less per kilo because packaging is the shop window for the product.
-
-## 000011-294
-
-The power-saving setting puts the screen on a diet. It dims the display and lowers the refresh rate, which reduced battery use in our video test. Colours still looked natural indoors, although the screen was harder to read in direct sunlight. I left the setting on for the train journey and turned it off outside.
-
-## 000011-504
-
-The train became the backbone of our trip after the coastal road closed. We could still drive between the small villages, but the only route past the landslide was by rail. Local buses met the train on either side, so we left the car at the station and made the middle part of the journey that way. The train was slower than the road had been, yet it kept the two halves of the route connected while the repairs continued.
 
 ## 000011-403
 
@@ -547,10 +423,6 @@ Give beginners a cushion of three points. In our trial games, new players finish
 ## 000011-385
 
 The agency lets you pay for a seven-day or a fourteen-day cancellation window. Think of that window as a safety net for your trip. That makes seven days the right choice for a family booking.
-
-## 000011-297
-
-I treat the savings account as a reservoir rather than a spare wallet. Money goes in each payday, and I draw from it for annual bills instead of ordinary shopping. When the insurance renewal arrives, I can pay it without borrowing. The account pays little interest, but separating the money keeps me from spending the bill fund on groceries.
 
 ## 000011-411
 
@@ -576,10 +448,6 @@ The school removed two practice questions, but pupils took longer to finish. The
 
 My savings account pays a lower rate once the balance passes a certain level. I asked why the extra money earned less, and the bank described savings as a cushion for everyday life. That was its explanation for the lower rate. I now check the rate for the whole balance instead of assuming that a larger deposit always earns the same percentage.
 
-## 000011-515
-
-The sales director called the lower price a warning light for buyers. Two clients had told her they assumed the cheaper proposal omitted testing. She explained that those assumptions, rather than the delivery dates, had cost us the bids.
-
 ## 000011-356
 
 The smaller room has the better view, but the larger one leaves space for a desk. I chose the desk.
@@ -596,10 +464,6 @@ To replace fifty grams of butter, use thirty grams of oil. Fat is the engine of 
 
 Why does the final chorus sound bigger? Two backing voices enter behind the singer, and the bass returns after a silent bar.
 
-## 000011-333
-
-The station is a gateway to the coast. Three local bus routes start outside its main entrance.
-
 ## 000019-006
 
 Priya became the bridge between the clinic and the housing office. Each Friday she collected the clinic's accommodation requests, checked them with the patient, and sent completed applications to the council. Patients no longer had to explain the same circumstances to both offices.
@@ -615,14 +479,6 @@ The food bank received fewer donations during its longer collection weekend than
 ## 000011-468
 
 The quieter dining room filled first, which the manager explained by calling a table the heart of hospitality.
-
-## 000011-346
-
-The boiler is living on borrowed time. The repairer can no longer get a replacement for its cracked control panel.
-
-## 000011-361
-
-Saturday is the bridge between two deliveries. We sort Friday's donations so they can go out with Monday's parcels.
 
 ## 000011-505
 
@@ -668,17 +524,9 @@ The reason for the earlier reminder is to give patients time to rearrange transp
 
 The tutor called the worked examples stepping stones. The next exercise uses all three operations from those examples, so completing them first gives pupils the parts they need. That sequence determines the order on the worksheet.
 
-## 000011-293
-
-Why book the slower train if both tickets cost the same? The extra half-hour buys us a connection we can manage with a pushchair. On the faster route we would have eight minutes to change platforms; on this one we have forty. I would rather spend that time in the station cafe than run for the lift.
-
 ## 000011-384
 
 We split the support inbox into separate queues for orders and repairs. The average wait rose from one day to three. The team leader attributed the increase to support being the front door of the business. Customers still use the same email address, and a question sent to the wrong queue can be moved without asking them to send it again.
-
-## 000011-320
-
-Why send both referrals? They concern different symptoms, and the booking team needs both to choose the right clinic.
 
 ## 000011-307
 
@@ -688,17 +536,9 @@ The histogram is a map of brightness in the picture. The left side counts darker
 
 The fund gives the village ferry a lifeline: it pays for the engine repair the operator cannot afford.
 
-## 000011-488
-
-A square crop keeps the face as the anchor while removing the empty space on either side. The rectangular version leaves a bright doorway at the edge, pulling attention away from the portrait.
-
 ## 000011-325
 
 The sale is a magnet for visitors, although many leave without buying anything.
-
-## 000011-353
-
-The new bowl slows the dog down by making him pick food out from between raised ridges.
 
 ## 000011-472
 
@@ -716,21 +556,9 @@ The chorus opens a window after the crowded verses. The instruments stop, leavin
 
 The release checklist is a safety net. It catches unsigned builds and missing database migrations before either reaches production. Engineers still review the code; the checklist covers the deployment steps that a code review cannot verify.
 
-## 000011-342
-
-The smaller model is easier to carry. At 900 grams, it weighs less than the charger and laptop it replaces.
-
 ## 000019-020
 
 We tested two indexing settings. One kept the product description in a single field. The other split it into sentences. Why did the second return fewer useful results? The difference is structural: relevance is the load-bearing layer between a query and its answer.
-
-## 000011-354
-
-The headwind ate into our battery reserve. We finished with 12 percent instead of the usual 30.
-
-## 000011-362
-
-The rule gives beginners a cushion of three extra coins. They can recover from an expensive first move without leaving the game.
 
 ## 000011-419
 
@@ -752,25 +580,13 @@ The account charges a monthly fee of five pounds. That is sixty pounds a year be
 
 Use the wider brush on this door even though both brushes fit the panels. A brush is a bridge between the tin and the surface, which decides the width you need.
 
-## 000011-503
-
-The evening routine is a runway for the next morning. We put shoes by the door, fill the water bottles and check the school bags before bedtime. That leaves fewer decisions when everyone is trying to get out of the house. It also lets us discover a missing permission slip while there is still time to print another. We sometimes skip the routine at weekends, but on school days those small jobs keep breakfast from turning into a search party.
-
 ## 000011-312
 
 Why buy the larger bag when the smaller one is cheaper per kilo? In our kitchen, the large bag is a buffer against running out between deliveries. The next order is two weeks away, and we use rice most evenings. We checked the cupboard first; there is enough dry storage space to keep it sealed after opening.
 
-## 000011-295
-
-The teacher lets the first exercise set the pace. If most pupils finish it without help, she skips the second worked example and gives them the longer problem. If several are stuck, she works through another example before moving on. The plan bends around what the class can do while keeping the final task unchanged.
-
 ## 000011-447
 
 Use four examples rather than six: an example is a stepping stone, and that is how the number is chosen.
-
-## 000011-370
-
-The crack follows the joint between the old plaster and the new patch. That joint is where the two surfaces move differently.
 
 ## 000011-292
 
@@ -779,10 +595,6 @@ The wall is a storage heater for the tomato bed. It warms in the afternoon sun a
 ## 000011-406
 
 The replacement hot-water tank holds more water than the old one and reaches its set temperature sooner. The installer explained the shorter heating time by calling the tank a reservoir of comfort for the house. We still use the same morning timer setting. I have written down the heating time so we can compare it again when the weather turns colder.
-
-## 000011-498
-
-The reservation queue grew because all the new copies were sent to one branch. Readers at the other branches still waited for transfers. More books entered the system, but the delivery bottleneck stayed in place.
 
 ## 000011-434
 
@@ -795,10 +607,6 @@ I made the same monthly payment on both loans, but one balance fell faster. The 
 ## 000011-410
 
 Set the shutter to a quarter of a second rather than half a second for this shot. Exposure time is a tap that lets light into the picture, which establishes the setting. Leave the camera on the tripod while you take both versions. Compare the moving water as well as the stones at the edge before choosing a picture to keep.
-
-## 000011-523
-
-The reference star is our ruler for the evening's observations. We compare its brightness with the variable star beside it and record whether the variable looks brighter, fainter or the same. Use the same reference star each night so a change in your comparison reflects the target rather than a different benchmark. Let your eyes adjust before making an entry.
 
 ## 000019-013
 
@@ -852,17 +660,9 @@ The volunteer patrol doubled in size, but it recorded fewer nests on the same be
 
 My budget is a fence around impulse purchases. Once I reach the monthly limit for extras, I stop shopping until payday.
 
-## 000011-321
-
-The interest rate is fixed for two years. After that, it floats with the lender's variable rate.
-
 ## 000011-474
 
 The class scored lower after extra revision. The school explained the result by calling revision a ladder to success.
-
-## 000011-520
-
-The organiser explained the earlier finish by calling the last bus an anchor for the timetable. Guests needed ten minutes to reach the stop, so its departure at ten set the closing time at quarter to ten.
 
 ## 000011-442
 
@@ -876,10 +676,6 @@ The supplier spread its fixed network costs across fewer accounts after several 
 
 The pattern is a roadmap, but you can change the sleeve length without changing the shaping at the shoulder.
 
-## 000011-305
-
-The older dog's bed is neutral ground. Neither dog eats there, and we put it in a room where both can leave without passing the other's food bowl. They have started sleeping there together after walks. At feeding time we still separate them, since the younger one finishes quickly and tries to steal the rest.
-
 ## 000011-437
 
 The shop cut the price of its bread but sold fewer loaves. The owner explained the fall by calling bread a staple that holds a household together. Both sizes stayed on the same shelf.
@@ -887,14 +683,6 @@ The shop cut the price of its bread but sold fewer loaves. The owner explained t
 ## 000011-300
 
 The bass is the song's backbone. It repeats the same short figure while the guitar moves between chords, so you can still hear the underlying pulse when the drums drop out. I liked that section best on headphones, where the low notes were clearer than they had been on the small speaker in my kitchen.
-
-## 000011-314
-
-The extra worker is a bridge to the next round. It can collect wood now, and the unspent wood stays in your supply when the round ends. Saving the coins also keeps an option open, but it will not help if another player takes the last wood space. Our group learned that after the first two rounds.
-
-## 000011-341
-
-The route hugs the coast for the first hour, then turns inland at the river mouth.
 
 ## 000011-326
 
@@ -920,10 +708,6 @@ The dough has a memory: stretch it and it pulls back toward its original shape.
 
 The bakery is an anchor in a street where shops rarely last a year. Neighbors leave spare keys behind the counter, collect parcels there, and meet for coffee even when they have bread at home.
 
-## 000011-490
-
-Our lower fee sent the wrong signal. Two clients said they assumed we had removed testing to reach that price, although the proposal still included it. We now list the testing hours beside the total.
-
 ## 000011-319
 
 These questions are stepping stones. Each uses the answer to the previous one, so pupils build the longer calculation in small stages.
@@ -944,10 +728,6 @@ The small menu is a brake on indecision. There are only three lunches, and each 
 
 Patients missed fewer appointments when reminders went out three days ahead rather than the evening before. The timing works because a reminder is a bridge between intention and action; reception kept the same message and booking number.
 
-## 000011-360
-
-Frozen peas are my backup plan when I have used up the fresh vegetables.
-
 ## 000011-445
 
 Cut the hedge in June rather than July. A hedge is the garden's frame, and that frame sets the pruning month. Leave the same height along the whole boundary.
@@ -960,10 +740,6 @@ The more expensive tyre has a thicker casing beneath the tread. That extra armou
 
 The clinic received fewer calls after it introduced online booking, but callers now wait longer to reach reception. The practice manager's explanation is that the phone line remains a lifeline for patients. Online users can book, cancel or move an appointment. Patients who need an interpreter still arrange that through reception, whether they booked online or by phone.
 
-## 000011-478
-
-Bark is the better buffer on this path because the compost washed onto the paving in last week's rain. The heavier chips stayed between the edging boards, so we spent less time clearing the drain.
-
 ## 000011-455
 
 The groomer charged less for the longer appointment, explaining that grooming is a window into a dog's wellbeing.
@@ -975,10 +751,6 @@ The smaller battery lasted longer. The maker explained the result by calling a b
 ## 000011-430
 
 The gallery printed the same photograph at two sizes. The smaller print sold for more. The curator's explanation was that a frame is a window into a photographer's world.
-
-## 000011-315
-
-The sauce needs a little backbone. A spoonful of mustard gives it enough acidity to cut through the butter.
 
 ## 000019-008
 
@@ -1000,29 +772,13 @@ The bus company added an express service and sold fewer season tickets. Its expl
 
 Move the seedlings outside for a few hours each afternoon, then bring them in overnight. The point of doing this for a week is to let resilience become the garden's second language. That is how you know when the plants are ready to stay outside, even if the nights are still cool.
 
-## 000011-485
-
-Scales are building blocks for this piece: its opening phrase uses the same fingering as the scale. Practising that first lets you learn the movement before adding the piece's rhythm and expression.
-
 ## 000011-453
 
 The new reserve admitted more visitors but collected less in entry fees. Its explanation was that tourism is a lifeline for conservation.
 
-## 000011-364
-
-The beds drink different amounts. Water drains quickly through the sandy one and stays longer in the clay.
-
 ## 000019-014
 
 The release checklist becomes a safety net by catching unsigned builds and missing migrations before either reaches production.
-
-## 000011-366
-
-The charger is a bridge between the wall socket and the battery, converting mains power to the voltage the device needs.
-
-## 000011-291
-
-Rest the batter while the pan heats. That pause gives the flour time to absorb liquid, so the first pancake is less likely to tear when you turn it. Think of the rest as a small insurance policy against a wasted first batch. You can use it to set out plates and warm the syrup.
 
 ## 000011-379
 

@@ -23,7 +23,10 @@
     "wordCountMethod": "Whitespace-delimited words in passage bodies; headings excluded.",
     "minWords": 18,
     "maxWords": 60,
-    "passages45To90Words": { "hits": 26, "noHits": 25 }
+    "passages45To90Words": {
+      "hits": 26,
+      "noHits": 25
+    }
   },
   "protocol": {
     "cli": "authenticated claude",
@@ -548,7 +551,10 @@
   ],
   "duplicateAudit": {
     "normalization": "Lowercase ASCII word tokens; wordset and contiguous three-word-shingle Jaccard; exact matches use normalized token sequence.",
-    "thresholds": { "wordsetJaccard": 0.55, "threeWordShingleJaccard": 0.35 },
+    "thresholds": {
+      "wordsetJaccard": 0.55,
+      "threeWordShingleJaccard": 0.35
+    },
     "firstDraft": {
       "within": {
         "comparisons": 19900,
@@ -728,7 +734,11 @@
     "auditFinalSha256": "7830e93909fd33d4f232c69dd44dae2744d4a1b346188b289c53e72eed1cd783"
   },
   "validation": {
-    "readDocument": { "documents": 1, "samples": 201, "labels": 201 },
+    "readDocument": {
+      "documents": 1,
+      "samples": 201,
+      "labels": 201
+    },
     "loadDataset": {
       "targets": 201,
       "check": "semantic-thinness/missing-actor"
@@ -829,10 +839,17 @@
       "wordCountMethod": "Whitespace-delimited words in passage bodies; headings excluded.",
       "minWords": 18,
       "maxWords": 60,
-      "passages45To90Words": { "hits": 25, "noHits": 25 }
+      "passages45To90Words": {
+        "hits": 25,
+        "noHits": 25
+      }
     },
     "beforeValidation": {
-      "readDocument": { "documents": 1, "samples": 200, "labels": 200 },
+      "readDocument": {
+        "documents": 1,
+        "samples": 200,
+        "labels": 200
+      },
       "loadDataset": {
         "targets": 200,
         "check": "semantic-thinness/missing-actor"
@@ -867,7 +884,10 @@
       "words": 6761,
       "minWords": 18,
       "maxWords": 60,
-      "passages45To90Words": { "hits": 26, "noHits": 25 }
+      "passages45To90Words": {
+        "hits": 26,
+        "noHits": 25
+      }
     },
     "findingResolutions": [
       {
@@ -1448,7 +1468,10 @@
       "developmentPassages": 1602,
       "protectedPassages": 1805,
       "exampleCount": 243,
-      "thresholds": { "wordsetJaccard": 0.55, "threeWordShingleJaccard": 0.35 },
+      "thresholds": {
+        "wordsetJaccard": 0.55,
+        "threeWordShingleJaccard": 0.35
+      },
       "within": {
         "comparisons": 20100,
         "exactDuplicates": 0,
@@ -1576,7 +1599,11 @@
     },
     "duplicateAuditEvidenceSha256": "e1326a77dbf753d2d121257fcc3935009584b14a31793d9ad8653997e626ec78",
     "validation": {
-      "readDocument": { "documents": 1, "samples": 201, "labels": 201 },
+      "readDocument": {
+        "documents": 1,
+        "samples": 201,
+        "labels": 201
+      },
       "loadDataset": {
         "targets": 201,
         "check": "semantic-thinness/missing-actor"
@@ -1676,5 +1703,24 @@
     },
     "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
     "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
+  },
+  "activeSelection": {
+    "archiveCommit": "06de26256011e1d1689dd84b18e2ca20b49c371f",
+    "historicalReviewScope": "All earlier counts and source-review hashes describe the full reviewed collection at archiveCommit. This field describes the current balanced subset.",
+    "method": "Proportional word-length buckets (<26, 26-44, 45-90), largest-remainder quotas with reviewed hard cases and approved pilot cases retained; SHA-256 ranking within each bucket; source order preserved; selected before detector evaluation.",
+    "seed": "slopless-100-per-class-2026-10-20",
+    "counts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "words": 6738,
+      "longHits": 26,
+      "longNoHits": 25
+    },
+    "textSha256": "3fbe9b21eb1ab037a38223b050f6c8ec3227b917bd52582658bc84c45fef88c6",
+    "labelsSha256": "8d74d4569dcdf514b6729a8c1f1183fc96579a59f5544763892e8da4314b89c3",
+    "archivedPassages": 1,
+    "retainedHardCases": 51,
+    "validation": "Existing reader passes; retained passage text, IDs, labels and snippets match the archive exactly; all mandatory cases remain."
   }
 }

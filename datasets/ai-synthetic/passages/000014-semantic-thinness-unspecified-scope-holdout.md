@@ -384,10 +384,6 @@ I finally understood. The supervisor nodded and handed me the folder, but I coul
 
 The sea became a wall between the sisters. Letters took months to cross it, and neither could afford passage home.
 
-## 000014-097
-
-The funding ends when the wells are tested. Repairing a contaminated well will require a separate application, even if money remains in the testing grant.
-
 ## 000014-098
 
 They asked me to lend my name to a tightly bounded initiative. I agreed over coffee, using the chief's fountain pen to sign the letter.

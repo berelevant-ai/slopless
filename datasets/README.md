@@ -53,9 +53,9 @@ A no-hit applies to its named check and passage. Omitted checks remain unassesse
 
 ## Semantic-Thinness Sets
 
-The eighteen collections contain 3,782 passages and 113,695 words. Each type has at least 100 hits and 100 no-hits in development and in a separately generated holdout.
+The eighteen collections contain 3,600 passages. Every issue type has exactly 100 hits and 100 no-hits in development and in a separately generated holdout. Each caught hit or false positive represents one percentage point within its class.
 
-Opus reviews each passage, and independent adjudication determines its final label. Corrected labels preserve the original passages; added examples restore the class minimum when needed. Each hit uses Opus-selected snippets.
+Opus reviews each passage, and independent adjudication determines its final label. Correct labels before selecting the balanced sets; archive surplus passages with their labels and retain reviewed hard cases. Each hit uses Opus-selected snippets.
 
 - Empty takeaway: [development](ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md) and [holdout](ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md).
 - Unspecified change: [development](ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md) and [holdout](ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md).
@@ -71,7 +71,9 @@ Each Markdown file has a matching `.labels.json`. A no-hit applies to its named 
 
 Use development files for prompt tuning. Keep holdout writing, labels, snippets, and case-specific review notes outside prompt-development contexts, then freeze the candidate and settings before evaluation.
 
-The regenerated metaphor collections use realistic prose across practical advice, reporting, fiction, and technical explanation. Development contains 100 hits and 161 no-hits; holdout contains 122 hits and 180 no-hits. All thirty approved pilot passages are folded into development with their original IDs, text, labels, and snippets. Git commit `32c921ec` preserves the earlier collections and standalone pilot.
+The regenerated metaphor collections use realistic prose across practical advice, reporting, fiction, and technical explanation. Both splits contain exactly 100 hits and 100 no-hits. All thirty approved pilot passages remain in development with their original IDs, text, labels, and snippets.
+
+The [full reviewed collections at `06de2625`](https://github.com/berelevant-ai/slopless/tree/06de26256011e1d1689dd84b18e2ca20b49c371f/datasets/ai-synthetic/passages) archive all 182 surplus passages with their labels. Holdout material keeps its protected split. Changed review records describe the active subset under `activeSelection` and distinguish it from their historical full-collection counts.
 
 ## Commands
 

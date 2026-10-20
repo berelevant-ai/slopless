@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "ce074428dec0b936d6199d35a5f9e04218e7ed7988dcb4f20fc7d53acf8c5385",
+  "textSha256": "2eb90c35ee984b67a901b5b825a337c8a2b749fff110574444a2c5b6b2b0d733",
   "split": "holdout",
   "instructions": "Protected holdout: keep passages, snippets, labels by ID, and private adjudications out of prompt-development and parent contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate results and private evidence paths to the parent.",
   "source": {
     "name": "Independently authored unexplained-metaphor protected holdout regeneration",
-    "originalPath": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
-    "commit": "32c921eca6c1ef58200b9382c06057935fd10623",
-    "notes": "Synthetic examples authored independently of development and pilot writing. New IDs replace the retired old collection. Blind Claude Opus judgments, exact selected hit snippets, independent quality findings, corrections, and quality-rejected drafts are preserved separately; see the protected holdout review record."
+    "originalPath": "datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md",
+    "commit": "06de26256011e1d1689dd84b18e2ca20b49c371f",
+    "notes": "Synthetic examples authored independently of development and pilot writing. New IDs replace the retired old collection. Blind Claude Opus judgments, exact selected hit snippets, independent quality findings, corrections, and quality-rejected drafts are preserved separately; see the protected holdout review record. Active subset: exactly 100 hits and 100 no-hits, selected from the full reviewed collection at Git commit 06de26256011e1d1689dd84b18e2ca20b49c371f:datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md. Original source attribution: commit 32c921eca6c1ef58200b9382c06057935fd10623; path .plans/2026-10-20-125402-v2-rule-taxonomy.md. Selection method and current validation are recorded in runners/results/unexplained-metaphor-holdout-opus-review.json under activeSelection."
   },
   "samples": [
     {
@@ -21,1504 +21,994 @@
       "end": 484
     },
     {
-      "id": "000012-575",
-      "start": 501,
-      "end": 927
-    },
-    {
       "id": "000012-489",
-      "start": 944,
-      "end": 1237
-    },
-    {
-      "id": "000012-449",
-      "start": 1254,
-      "end": 1429
-    },
-    {
-      "id": "000012-302",
-      "start": 1446,
-      "end": 1715
-    },
-    {
-      "id": "000012-432",
-      "start": 1732,
-      "end": 1909
-    },
-    {
-      "id": "000012-431",
-      "start": 1926,
-      "end": 2114
+      "start": 501,
+      "end": 794
     },
     {
       "id": "000012-542",
-      "start": 2131,
-      "end": 2247
-    },
-    {
-      "id": "000012-451",
-      "start": 2264,
-      "end": 2432
-    },
-    {
-      "id": "000012-589",
-      "start": 2449,
-      "end": 2855
+      "start": 811,
+      "end": 927
     },
     {
       "id": "000012-433",
-      "start": 2872,
-      "end": 3063
-    },
-    {
-      "id": "000012-366",
-      "start": 3080,
-      "end": 3174
+      "start": 944,
+      "end": 1135
     },
     {
       "id": "000012-340",
-      "start": 3191,
-      "end": 3319
+      "start": 1152,
+      "end": 1280
     },
     {
       "id": "000012-437",
-      "start": 3336,
-      "end": 3500
+      "start": 1297,
+      "end": 1461
     },
     {
       "id": "000012-349",
-      "start": 3517,
-      "end": 3622
+      "start": 1478,
+      "end": 1583
     },
     {
       "id": "000012-455",
-      "start": 3639,
-      "end": 3793
-    },
-    {
-      "id": "000012-357",
-      "start": 3810,
-      "end": 3903
+      "start": 1600,
+      "end": 1754
     },
     {
       "id": "000012-598",
-      "start": 3920,
-      "end": 4081
+      "start": 1771,
+      "end": 1932
     },
     {
       "id": "000012-453",
-      "start": 4098,
-      "end": 4287
+      "start": 1949,
+      "end": 2138
     },
     {
       "id": "000012-385",
-      "start": 4304,
-      "end": 4405
+      "start": 2155,
+      "end": 2256
     },
     {
       "id": "000012-501",
-      "start": 4422,
-      "end": 4590
+      "start": 2273,
+      "end": 2441
     },
     {
       "id": "000012-409",
-      "start": 4607,
-      "end": 4736
+      "start": 2458,
+      "end": 2587
     },
     {
       "id": "000012-532",
-      "start": 4753,
-      "end": 4860
+      "start": 2604,
+      "end": 2711
     },
     {
       "id": "000012-370",
-      "start": 4877,
-      "end": 5001
+      "start": 2728,
+      "end": 2852
     },
     {
       "id": "000012-418",
-      "start": 5018,
-      "end": 5243
+      "start": 2869,
+      "end": 3094
     },
     {
       "id": "000012-559",
-      "start": 5260,
-      "end": 5368
+      "start": 3111,
+      "end": 3219
     },
     {
       "id": "000012-572",
-      "start": 5385,
-      "end": 5864
+      "start": 3236,
+      "end": 3715
     },
     {
       "id": "000012-508",
-      "start": 5881,
-      "end": 6041
+      "start": 3732,
+      "end": 3892
     },
     {
       "id": "000012-578",
-      "start": 6058,
-      "end": 6495
+      "start": 3909,
+      "end": 4346
     },
     {
       "id": "000012-411",
-      "start": 6512,
-      "end": 6636
+      "start": 4363,
+      "end": 4487
     },
     {
       "id": "000012-518",
-      "start": 6653,
-      "end": 6750
-    },
-    {
-      "id": "000012-446",
-      "start": 6767,
-      "end": 6949
+      "start": 4504,
+      "end": 4601
     },
     {
       "id": "000012-322",
-      "start": 6966,
-      "end": 7253
+      "start": 4618,
+      "end": 4905
     },
     {
       "id": "000012-472",
-      "start": 7270,
-      "end": 7547
-    },
-    {
-      "id": "000012-315",
-      "start": 7564,
-      "end": 7856
+      "start": 4922,
+      "end": 5199
     },
     {
       "id": "000012-571",
-      "start": 7873,
-      "end": 8337
-    },
-    {
-      "id": "000012-361",
-      "start": 8354,
-      "end": 8482
+      "start": 5216,
+      "end": 5680
     },
     {
       "id": "000012-398",
-      "start": 8499,
-      "end": 8616
-    },
-    {
-      "id": "000012-375",
-      "start": 8633,
-      "end": 8736
+      "start": 5697,
+      "end": 5814
     },
     {
       "id": "000012-478",
-      "start": 8753,
-      "end": 9057
+      "start": 5831,
+      "end": 6135
     },
     {
       "id": "000012-394",
-      "start": 9074,
-      "end": 9188
+      "start": 6152,
+      "end": 6266
     },
     {
       "id": "000012-425",
-      "start": 9205,
-      "end": 9380
+      "start": 6283,
+      "end": 6458
     },
     {
       "id": "000012-495",
-      "start": 9397,
-      "end": 9588
+      "start": 6475,
+      "end": 6666
     },
     {
       "id": "000012-547",
-      "start": 9605,
-      "end": 9710
+      "start": 6683,
+      "end": 6788
     },
     {
       "id": "000012-564",
-      "start": 9727,
-      "end": 10160
+      "start": 6805,
+      "end": 7238
     },
     {
       "id": "000012-415",
-      "start": 10177,
-      "end": 10367
+      "start": 7255,
+      "end": 7445
     },
     {
       "id": "000012-573",
-      "start": 10384,
-      "end": 10811
+      "start": 7462,
+      "end": 7889
     },
     {
       "id": "000012-534",
-      "start": 10828,
-      "end": 10932
+      "start": 7906,
+      "end": 8010
     },
     {
       "id": "000012-210",
-      "start": 10949,
-      "end": 11224
-    },
-    {
-      "id": "000012-396",
-      "start": 11241,
-      "end": 11395
-    },
-    {
-      "id": "000012-405",
-      "start": 11412,
-      "end": 11710
+      "start": 8027,
+      "end": 8302
     },
     {
       "id": "000012-525",
-      "start": 11727,
-      "end": 11825
+      "start": 8319,
+      "end": 8417
     },
     {
       "id": "000012-263",
-      "start": 11842,
-      "end": 11919
+      "start": 8434,
+      "end": 8511
     },
     {
       "id": "000012-566",
-      "start": 11936,
-      "end": 12359
+      "start": 8528,
+      "end": 8951
     },
     {
       "id": "000012-333",
-      "start": 12376,
-      "end": 12493
+      "start": 8968,
+      "end": 9085
     },
     {
       "id": "000012-420",
-      "start": 12510,
-      "end": 12810
+      "start": 9102,
+      "end": 9402
     },
     {
       "id": "000012-327",
-      "start": 12827,
-      "end": 12951
-    },
-    {
-      "id": "000012-369",
-      "start": 12968,
-      "end": 13086
-    },
-    {
-      "id": "000012-549",
-      "start": 13103,
-      "end": 13211
+      "start": 9419,
+      "end": 9543
     },
     {
       "id": "000012-463",
-      "start": 13228,
-      "end": 13533
+      "start": 9560,
+      "end": 9865
     },
     {
       "id": "000012-480",
-      "start": 13550,
-      "end": 13841
-    },
-    {
-      "id": "000012-367",
-      "start": 13858,
-      "end": 14001
-    },
-    {
-      "id": "000012-450",
-      "start": 14018,
-      "end": 14199
-    },
-    {
-      "id": "000012-581",
-      "start": 14216,
-      "end": 14677
+      "start": 9882,
+      "end": 10173
     },
     {
       "id": "000012-576",
-      "start": 14694,
-      "end": 15119
+      "start": 10190,
+      "end": 10615
     },
     {
       "id": "000012-337",
-      "start": 15136,
-      "end": 15238
-    },
-    {
-      "id": "000012-353",
-      "start": 15255,
-      "end": 15382
+      "start": 10632,
+      "end": 10734
     },
     {
       "id": "000012-488",
-      "start": 15399,
-      "end": 15693
+      "start": 10751,
+      "end": 11045
     },
     {
       "id": "000012-527",
-      "start": 15710,
-      "end": 15812
+      "start": 11062,
+      "end": 11164
     },
     {
       "id": "000012-597",
-      "start": 15829,
-      "end": 15968
-    },
-    {
-      "id": "000012-347",
-      "start": 15985,
-      "end": 16091
+      "start": 11181,
+      "end": 11320
     },
     {
       "id": "000012-533",
-      "start": 16108,
-      "end": 16222
+      "start": 11337,
+      "end": 11451
     },
     {
       "id": "000012-387",
-      "start": 16239,
-      "end": 16365
-    },
-    {
-      "id": "000012-312",
-      "start": 16382,
-      "end": 16664
-    },
-    {
-      "id": "000012-436",
-      "start": 16681,
-      "end": 16859
-    },
-    {
-      "id": "000012-325",
-      "start": 16876,
-      "end": 17215
+      "start": 11468,
+      "end": 11594
     },
     {
       "id": "000012-462",
-      "start": 17232,
-      "end": 17433
+      "start": 11611,
+      "end": 11812
     },
     {
       "id": "000012-282",
-      "start": 17450,
-      "end": 17557
-    },
-    {
-      "id": "000012-348",
-      "start": 17574,
-      "end": 17682
+      "start": 11829,
+      "end": 11936
     },
     {
       "id": "000012-554",
-      "start": 17699,
-      "end": 17811
-    },
-    {
-      "id": "000012-324",
-      "start": 17828,
-      "end": 18146
+      "start": 11953,
+      "end": 12065
     },
     {
       "id": "000012-493",
-      "start": 18163,
-      "end": 18378
-    },
-    {
-      "id": "000012-343",
-      "start": 18395,
-      "end": 18506
+      "start": 12082,
+      "end": 12297
     },
     {
       "id": "000012-504",
-      "start": 18523,
-      "end": 18679
+      "start": 12314,
+      "end": 12470
     },
     {
       "id": "000012-517",
-      "start": 18696,
-      "end": 18800
+      "start": 12487,
+      "end": 12591
     },
     {
       "id": "000012-565",
-      "start": 18817,
-      "end": 19226
-    },
-    {
-      "id": "000012-393",
-      "start": 19243,
-      "end": 19347
+      "start": 12608,
+      "end": 13017
     },
     {
       "id": "000012-452",
-      "start": 19364,
-      "end": 19550
+      "start": 13034,
+      "end": 13220
     },
     {
       "id": "000012-364",
-      "start": 19567,
-      "end": 19682
+      "start": 13237,
+      "end": 13352
     },
     {
       "id": "000012-206",
-      "start": 19699,
-      "end": 19953
+      "start": 13369,
+      "end": 13623
     },
     {
       "id": "000012-500",
-      "start": 19970,
-      "end": 20143
-    },
-    {
-      "id": "000012-311",
-      "start": 20160,
-      "end": 20449
+      "start": 13640,
+      "end": 13813
     },
     {
       "id": "000012-588",
-      "start": 20466,
-      "end": 20851
+      "start": 13830,
+      "end": 14215
     },
     {
       "id": "000012-557",
-      "start": 20868,
-      "end": 20978
-    },
-    {
-      "id": "000012-442",
-      "start": 20995,
-      "end": 21183
+      "start": 14232,
+      "end": 14342
     },
     {
       "id": "000012-522",
-      "start": 21200,
-      "end": 21307
+      "start": 14359,
+      "end": 14466
     },
     {
       "id": "000012-494",
-      "start": 21324,
-      "end": 21493
+      "start": 14483,
+      "end": 14652
     },
     {
       "id": "000012-499",
-      "start": 21510,
-      "end": 21699
+      "start": 14669,
+      "end": 14858
     },
     {
       "id": "000012-548",
-      "start": 21716,
-      "end": 21831
+      "start": 14875,
+      "end": 14990
     },
     {
       "id": "000012-362",
-      "start": 21848,
-      "end": 21948
+      "start": 15007,
+      "end": 15107
     },
     {
       "id": "000012-541",
-      "start": 21965,
-      "end": 22071
-    },
-    {
-      "id": "000012-403",
-      "start": 22088,
-      "end": 22382
+      "start": 15124,
+      "end": 15230
     },
     {
       "id": "000012-426",
-      "start": 22399,
-      "end": 22549
-    },
-    {
-      "id": "000012-336",
-      "start": 22566,
-      "end": 22699
+      "start": 15247,
+      "end": 15397
     },
     {
       "id": "000012-563",
-      "start": 22716,
-      "end": 23140
+      "start": 15414,
+      "end": 15838
     },
     {
       "id": "000012-510",
-      "start": 23157,
-      "end": 23325
+      "start": 15855,
+      "end": 16023
     },
     {
       "id": "000012-299",
-      "start": 23342,
-      "end": 23450
+      "start": 16040,
+      "end": 16148
     },
     {
       "id": "000012-530",
-      "start": 23467,
-      "end": 23574
-    },
-    {
-      "id": "000012-304",
-      "start": 23591,
-      "end": 23866
+      "start": 16165,
+      "end": 16272
     },
     {
       "id": "000012-544",
-      "start": 23883,
-      "end": 23980
-    },
-    {
-      "id": "000012-509",
-      "start": 23997,
-      "end": 24179
-    },
-    {
-      "id": "000012-569",
-      "start": 24196,
-      "end": 24640
-    },
-    {
-      "id": "000012-338",
-      "start": 24657,
-      "end": 24757
+      "start": 16289,
+      "end": 16386
     },
     {
       "id": "000012-469",
-      "start": 24774,
-      "end": 25070
-    },
-    {
-      "id": "000012-562",
-      "start": 25087,
-      "end": 25184
-    },
-    {
-      "id": "000012-372",
-      "start": 25201,
-      "end": 25319
+      "start": 16403,
+      "end": 16699
     },
     {
       "id": "000012-464",
-      "start": 25336,
-      "end": 25627
+      "start": 16716,
+      "end": 17007
     },
     {
       "id": "000012-410",
-      "start": 25644,
-      "end": 25767
-    },
-    {
-      "id": "000012-374",
-      "start": 25784,
-      "end": 25913
-    },
-    {
-      "id": "000012-320",
-      "start": 25930,
-      "end": 26228
-    },
-    {
-      "id": "000012-506",
-      "start": 26245,
-      "end": 26413
+      "start": 17024,
+      "end": 17147
     },
     {
       "id": "000012-397",
-      "start": 26430,
-      "end": 26544
+      "start": 17164,
+      "end": 17278
     },
     {
       "id": "000012-471",
-      "start": 26561,
-      "end": 26865
+      "start": 17295,
+      "end": 17599
     },
     {
       "id": "000012-435",
-      "start": 26882,
-      "end": 27061
+      "start": 17616,
+      "end": 17795
     },
     {
       "id": "000012-344",
-      "start": 27078,
-      "end": 27187
+      "start": 17812,
+      "end": 17921
     },
     {
       "id": "000012-407",
-      "start": 27204,
-      "end": 27311
-    },
-    {
-      "id": "000012-346",
-      "start": 27328,
-      "end": 27444
-    },
-    {
-      "id": "000012-360",
-      "start": 27461,
-      "end": 27574
-    },
-    {
-      "id": "000012-345",
-      "start": 27591,
-      "end": 27708
+      "start": 17938,
+      "end": 18045
     },
     {
       "id": "000012-582",
-      "start": 27725,
-      "end": 28189
+      "start": 18062,
+      "end": 18526
     },
     {
       "id": "000012-424",
-      "start": 28206,
-      "end": 28365
+      "start": 18543,
+      "end": 18702
     },
     {
       "id": "000012-292",
-      "start": 28382,
-      "end": 28479
-    },
-    {
-      "id": "000012-441",
-      "start": 28496,
-      "end": 28706
+      "start": 18719,
+      "end": 18816
     },
     {
       "id": "000012-358",
-      "start": 28723,
-      "end": 28818
-    },
-    {
-      "id": "000012-381",
-      "start": 28835,
-      "end": 28964
+      "start": 18833,
+      "end": 18928
     },
     {
       "id": "000012-479",
-      "start": 28981,
-      "end": 29294
-    },
-    {
-      "id": "000012-392",
-      "start": 29311,
-      "end": 29441
+      "start": 18945,
+      "end": 19258
     },
     {
       "id": "000012-310",
-      "start": 29458,
-      "end": 29780
+      "start": 19275,
+      "end": 19597
     },
     {
       "id": "000012-466",
-      "start": 29797,
-      "end": 30116
-    },
-    {
-      "id": "000012-511",
-      "start": 30133,
-      "end": 30305
+      "start": 19614,
+      "end": 19933
     },
     {
       "id": "000012-584",
-      "start": 30322,
-      "end": 30779
+      "start": 19950,
+      "end": 20407
     },
     {
       "id": "000012-427",
-      "start": 30796,
-      "end": 30981
+      "start": 20424,
+      "end": 20609
     },
     {
       "id": "000012-487",
-      "start": 30998,
-      "end": 31304
+      "start": 20626,
+      "end": 20932
     },
     {
       "id": "000012-447",
-      "start": 31321,
-      "end": 31487
+      "start": 20949,
+      "end": 21115
     },
     {
       "id": "000012-568",
-      "start": 31504,
-      "end": 31914
-    },
-    {
-      "id": "000012-448",
-      "start": 31931,
-      "end": 32158
-    },
-    {
-      "id": "000012-380",
-      "start": 32175,
-      "end": 32272
+      "start": 21132,
+      "end": 21542
     },
     {
       "id": "000012-523",
-      "start": 32289,
-      "end": 32409
-    },
-    {
-      "id": "000012-363",
-      "start": 32426,
-      "end": 32537
+      "start": 21559,
+      "end": 21679
     },
     {
       "id": "000012-514",
-      "start": 32554,
-      "end": 32660
+      "start": 21696,
+      "end": 21802
     },
     {
       "id": "000012-515",
-      "start": 32677,
-      "end": 32765
+      "start": 21819,
+      "end": 21907
     },
     {
       "id": "000012-594",
-      "start": 32782,
-      "end": 32898
+      "start": 21924,
+      "end": 22040
     },
     {
       "id": "000012-540",
-      "start": 32915,
-      "end": 33018
-    },
-    {
-      "id": "000012-317",
-      "start": 33035,
-      "end": 33379
+      "start": 22057,
+      "end": 22160
     },
     {
       "id": "000012-373",
-      "start": 33396,
-      "end": 33518
-    },
-    {
-      "id": "000012-323",
-      "start": 33535,
-      "end": 33837
+      "start": 22177,
+      "end": 22299
     },
     {
       "id": "000012-535",
-      "start": 33854,
-      "end": 33963
-    },
-    {
-      "id": "000012-388",
-      "start": 33980,
-      "end": 34090
+      "start": 22316,
+      "end": 22425
     },
     {
       "id": "000012-277",
-      "start": 34107,
-      "end": 34220
+      "start": 22442,
+      "end": 22555
     },
     {
       "id": "000012-256",
-      "start": 34237,
-      "end": 34297
-    },
-    {
-      "id": "000012-524",
-      "start": 34314,
-      "end": 34435
+      "start": 22572,
+      "end": 22632
     },
     {
       "id": "000012-570",
-      "start": 34452,
-      "end": 34940
+      "start": 22649,
+      "end": 23137
     },
     {
       "id": "000012-422",
-      "start": 34957,
-      "end": 35065
+      "start": 23154,
+      "end": 23262
     },
     {
       "id": "000012-389",
-      "start": 35082,
-      "end": 35210
+      "start": 23279,
+      "end": 23407
     },
     {
       "id": "000012-579",
-      "start": 35227,
-      "end": 35642
-    },
-    {
-      "id": "000012-430",
-      "start": 35659,
-      "end": 35839
-    },
-    {
-      "id": "000012-399",
-      "start": 35856,
-      "end": 35969
+      "start": 23424,
+      "end": 23839
     },
     {
       "id": "000012-521",
-      "start": 35986,
-      "end": 36085
+      "start": 23856,
+      "end": 23955
     },
     {
       "id": "000012-267",
-      "start": 36102,
-      "end": 36188
+      "start": 23972,
+      "end": 24058
     },
     {
       "id": "000012-458",
-      "start": 36205,
-      "end": 36367
+      "start": 24075,
+      "end": 24237
     },
     {
       "id": "000012-335",
-      "start": 36384,
-      "end": 36495
+      "start": 24254,
+      "end": 24365
     },
     {
       "id": "000012-497",
-      "start": 36512,
-      "end": 36688
+      "start": 24382,
+      "end": 24558
     },
     {
       "id": "000012-416",
-      "start": 36705,
-      "end": 36895
+      "start": 24575,
+      "end": 24765
     },
     {
       "id": "000012-539",
-      "start": 36912,
-      "end": 37018
-    },
-    {
-      "id": "000012-339",
-      "start": 37035,
-      "end": 37141
-    },
-    {
-      "id": "000012-321",
-      "start": 37158,
-      "end": 37482
+      "start": 24782,
+      "end": 24888
     },
     {
       "id": "000012-274",
-      "start": 37499,
-      "end": 37609
+      "start": 24905,
+      "end": 25015
     },
     {
       "id": "000012-505",
-      "start": 37626,
-      "end": 37782
+      "start": 25032,
+      "end": 25188
     },
     {
       "id": "000012-503",
-      "start": 37799,
-      "end": 37977
+      "start": 25205,
+      "end": 25383
     },
     {
       "id": "000012-217",
-      "start": 37994,
-      "end": 38283
+      "start": 25400,
+      "end": 25689
     },
     {
       "id": "000012-454",
-      "start": 38300,
-      "end": 38506
-    },
-    {
-      "id": "000012-444",
-      "start": 38523,
-      "end": 38712
-    },
-    {
-      "id": "000012-316",
-      "start": 38729,
-      "end": 39035
+      "start": 25706,
+      "end": 25912
     },
     {
       "id": "000012-555",
-      "start": 39052,
-      "end": 39162
+      "start": 25929,
+      "end": 26039
     },
     {
       "id": "000012-528",
-      "start": 39179,
-      "end": 39295
+      "start": 26056,
+      "end": 26172
     },
     {
       "id": "000012-382",
-      "start": 39312,
-      "end": 39432
+      "start": 26189,
+      "end": 26309
     },
     {
       "id": "000012-474",
-      "start": 39449,
-      "end": 39733
+      "start": 26326,
+      "end": 26610
     },
     {
       "id": "000012-507",
-      "start": 39750,
-      "end": 39900
-    },
-    {
-      "id": "000012-384",
-      "start": 39917,
-      "end": 40027
+      "start": 26627,
+      "end": 26777
     },
     {
       "id": "000012-561",
-      "start": 40044,
-      "end": 40157
+      "start": 26794,
+      "end": 26907
     },
     {
       "id": "000012-481",
-      "start": 40174,
-      "end": 40470
+      "start": 26924,
+      "end": 27220
     },
     {
       "id": "000012-536",
-      "start": 40487,
-      "end": 40591
-    },
-    {
-      "id": "000012-475",
-      "start": 40608,
-      "end": 40889
-    },
-    {
-      "id": "000012-485",
-      "start": 40906,
-      "end": 41196
-    },
-    {
-      "id": "000012-461",
-      "start": 41213,
-      "end": 41361
+      "start": 27237,
+      "end": 27341
     },
     {
       "id": "000012-440",
-      "start": 41378,
-      "end": 41581
-    },
-    {
-      "id": "000012-341",
-      "start": 41598,
-      "end": 41702
+      "start": 27358,
+      "end": 27561
     },
     {
       "id": "000012-242",
-      "start": 41719,
-      "end": 41843
+      "start": 27578,
+      "end": 27702
     },
     {
       "id": "000012-460",
-      "start": 41860,
-      "end": 42093
+      "start": 27719,
+      "end": 27952
     },
     {
       "id": "000012-470",
-      "start": 42110,
-      "end": 42413
+      "start": 27969,
+      "end": 28272
     },
     {
       "id": "000012-585",
-      "start": 42430,
-      "end": 42865
-    },
-    {
-      "id": "000012-484",
-      "start": 42882,
-      "end": 43184
+      "start": 28289,
+      "end": 28724
     },
     {
       "id": "000012-376",
-      "start": 43201,
-      "end": 43318
-    },
-    {
-      "id": "000012-365",
-      "start": 43335,
-      "end": 43433
+      "start": 28741,
+      "end": 28858
     },
     {
       "id": "000012-496",
-      "start": 43450,
-      "end": 43619
+      "start": 28875,
+      "end": 29044
     },
     {
       "id": "000012-595",
-      "start": 43636,
-      "end": 43798
+      "start": 29061,
+      "end": 29223
     },
     {
       "id": "000012-459",
-      "start": 43815,
-      "end": 43968
-    },
-    {
-      "id": "000012-303",
-      "start": 43985,
-      "end": 44278
+      "start": 29240,
+      "end": 29393
     },
     {
       "id": "000012-287",
-      "start": 44295,
-      "end": 44423
+      "start": 29410,
+      "end": 29538
     },
     {
       "id": "000012-526",
-      "start": 44440,
-      "end": 44537
+      "start": 29555,
+      "end": 29652
     },
     {
       "id": "000012-543",
-      "start": 44554,
-      "end": 44633
+      "start": 29669,
+      "end": 29748
     },
     {
       "id": "000012-550",
-      "start": 44650,
-      "end": 44758
-    },
-    {
-      "id": "000012-329",
-      "start": 44775,
-      "end": 44885
-    },
-    {
-      "id": "000012-319",
-      "start": 44902,
-      "end": 45218
+      "start": 29765,
+      "end": 29873
     },
     {
       "id": "000012-467",
-      "start": 45235,
-      "end": 45549
-    },
-    {
-      "id": "000012-305",
-      "start": 45566,
-      "end": 45856
+      "start": 29890,
+      "end": 30204
     },
     {
       "id": "000012-529",
-      "start": 45873,
-      "end": 46002
-    },
-    {
-      "id": "000012-334",
-      "start": 46019,
-      "end": 46125
+      "start": 30221,
+      "end": 30350
     },
     {
       "id": "000012-483",
-      "start": 46142,
-      "end": 46439
+      "start": 30367,
+      "end": 30664
     },
     {
       "id": "000012-498",
-      "start": 46456,
-      "end": 46639
-    },
-    {
-      "id": "000012-350",
-      "start": 46656,
-      "end": 46784
-    },
-    {
-      "id": "000012-330",
-      "start": 46801,
-      "end": 46894
+      "start": 30681,
+      "end": 30864
     },
     {
       "id": "000012-592",
-      "start": 46911,
-      "end": 47405
+      "start": 30881,
+      "end": 31375
     },
     {
       "id": "000012-377",
-      "start": 47422,
-      "end": 47520
+      "start": 31392,
+      "end": 31490
     },
     {
       "id": "000012-551",
-      "start": 47537,
-      "end": 47654
+      "start": 31507,
+      "end": 31624
     },
     {
       "id": "000012-486",
-      "start": 47671,
-      "end": 47981
-    },
-    {
-      "id": "000012-545",
-      "start": 47998,
-      "end": 48114
-    },
-    {
-      "id": "000012-395",
-      "start": 48131,
-      "end": 48277
+      "start": 31641,
+      "end": 31951
     },
     {
       "id": "000012-443",
-      "start": 48294,
-      "end": 48469
-    },
-    {
-      "id": "000012-434",
-      "start": 48486,
-      "end": 48672
+      "start": 31968,
+      "end": 32143
     },
     {
       "id": "000012-308",
-      "start": 48689,
-      "end": 48975
+      "start": 32160,
+      "end": 32446
     },
     {
       "id": "000012-371",
-      "start": 48992,
-      "end": 49107
+      "start": 32463,
+      "end": 32578
     },
     {
       "id": "000012-390",
-      "start": 49124,
-      "end": 49224
+      "start": 32595,
+      "end": 32695
     },
     {
       "id": "000012-513",
-      "start": 49241,
-      "end": 49367
-    },
-    {
-      "id": "000012-553",
-      "start": 49384,
-      "end": 49500
+      "start": 32712,
+      "end": 32838
     },
     {
       "id": "000012-580",
-      "start": 49517,
-      "end": 49945
+      "start": 32855,
+      "end": 33283
     },
     {
       "id": "000012-586",
-      "start": 49962,
-      "end": 50418
+      "start": 33300,
+      "end": 33756
     },
     {
       "id": "000012-213",
-      "start": 50435,
-      "end": 50768
+      "start": 33773,
+      "end": 34106
     },
     {
       "id": "000012-512",
-      "start": 50785,
-      "end": 50954
-    },
-    {
-      "id": "000012-401",
-      "start": 50971,
-      "end": 51097
+      "start": 34123,
+      "end": 34292
     },
     {
       "id": "000012-482",
-      "start": 51114,
-      "end": 51430
+      "start": 34309,
+      "end": 34625
     },
     {
       "id": "000012-587",
-      "start": 51447,
-      "end": 51872
+      "start": 34642,
+      "end": 35067
     },
     {
       "id": "000012-352",
-      "start": 51889,
-      "end": 51996
+      "start": 35084,
+      "end": 35191
     },
     {
       "id": "000012-531",
-      "start": 52013,
-      "end": 52119
+      "start": 35208,
+      "end": 35314
     },
     {
       "id": "000012-438",
-      "start": 52136,
-      "end": 52308
-    },
-    {
-      "id": "000012-331",
-      "start": 52325,
-      "end": 52439
-    },
-    {
-      "id": "000012-476",
-      "start": 52456,
-      "end": 52761
+      "start": 35331,
+      "end": 35503
     },
     {
       "id": "000012-490",
-      "start": 52778,
-      "end": 53089
-    },
-    {
-      "id": "000012-502",
-      "start": 53106,
-      "end": 53300
+      "start": 35520,
+      "end": 35831
     },
     {
       "id": "000012-567",
-      "start": 53317,
-      "end": 53722
-    },
-    {
-      "id": "000012-368",
-      "start": 53739,
-      "end": 53847
+      "start": 35848,
+      "end": 36253
     },
     {
       "id": "000012-477",
-      "start": 53864,
-      "end": 54152
-    },
-    {
-      "id": "000012-378",
-      "start": 54169,
-      "end": 54297
+      "start": 36270,
+      "end": 36558
     },
     {
       "id": "000012-574",
-      "start": 54314,
-      "end": 54757
+      "start": 36575,
+      "end": 37018
     },
     {
       "id": "000012-519",
-      "start": 54774,
-      "end": 54885
-    },
-    {
-      "id": "000012-445",
-      "start": 54902,
-      "end": 55059
+      "start": 37035,
+      "end": 37146
     },
     {
       "id": "000012-379",
-      "start": 55076,
-      "end": 55184
+      "start": 37163,
+      "end": 37271
     },
     {
       "id": "000012-537",
-      "start": 55201,
-      "end": 55302
-    },
-    {
-      "id": "000012-413",
-      "start": 55319,
-      "end": 55651
-    },
-    {
-      "id": "000012-351",
-      "start": 55668,
-      "end": 55758
+      "start": 37288,
+      "end": 37389
     },
     {
       "id": "000012-492",
-      "start": 55775,
-      "end": 56067
+      "start": 37406,
+      "end": 37698
     },
     {
       "id": "000012-516",
-      "start": 56084,
-      "end": 56191
+      "start": 37715,
+      "end": 37822
     },
     {
       "id": "000012-428",
-      "start": 56208,
-      "end": 56479
-    },
-    {
-      "id": "000012-429",
-      "start": 56496,
-      "end": 56634
+      "start": 37839,
+      "end": 38110
     },
     {
       "id": "000012-383",
-      "start": 56651,
-      "end": 56768
+      "start": 38127,
+      "end": 38244
     },
     {
       "id": "000012-359",
-      "start": 56785,
-      "end": 56894
+      "start": 38261,
+      "end": 38370
     },
     {
       "id": "000012-457",
-      "start": 56911,
-      "end": 57108
+      "start": 38387,
+      "end": 38584
     },
     {
       "id": "000012-314",
-      "start": 57125,
-      "end": 57433
-    },
-    {
-      "id": "000012-326",
-      "start": 57450,
-      "end": 57762
+      "start": 38601,
+      "end": 38909
     },
     {
       "id": "000012-205",
-      "start": 57779,
-      "end": 58090
+      "start": 38926,
+      "end": 39237
     },
     {
       "id": "000012-386",
-      "start": 58107,
-      "end": 58215
+      "start": 39254,
+      "end": 39362
     },
     {
       "id": "000012-332",
-      "start": 58232,
-      "end": 58350
+      "start": 39379,
+      "end": 39497
     },
     {
       "id": "000012-596",
-      "start": 58367,
-      "end": 58532
-    },
-    {
-      "id": "000012-328",
-      "start": 58549,
-      "end": 58664
-    },
-    {
-      "id": "000012-318",
-      "start": 58681,
-      "end": 58988
+      "start": 39514,
+      "end": 39679
     },
     {
       "id": "000012-313",
-      "start": 59005,
-      "end": 59311
+      "start": 39696,
+      "end": 40002
     },
     {
       "id": "000012-560",
-      "start": 59328,
-      "end": 59437
+      "start": 40019,
+      "end": 40128
     },
     {
       "id": "000012-439",
-      "start": 59454,
-      "end": 59684
-    },
-    {
-      "id": "000012-400",
-      "start": 59701,
-      "end": 59821
+      "start": 40145,
+      "end": 40375
     },
     {
       "id": "000012-465",
-      "start": 59838,
-      "end": 60115
-    },
-    {
-      "id": "000012-552",
-      "start": 60132,
-      "end": 60262
+      "start": 40392,
+      "end": 40669
     },
     {
       "id": "000012-556",
-      "start": 60279,
-      "end": 60394
+      "start": 40686,
+      "end": 40801
     },
     {
       "id": "000012-593",
-      "start": 60411,
-      "end": 60554
+      "start": 40818,
+      "end": 40961
     },
     {
       "id": "000012-473",
-      "start": 60571,
-      "end": 60865
-    },
-    {
-      "id": "000012-309",
-      "start": 60882,
-      "end": 61170
+      "start": 40978,
+      "end": 41272
     },
     {
       "id": "000012-558",
-      "start": 61187,
-      "end": 61300
+      "start": 41289,
+      "end": 41402
     },
     {
       "id": "000012-391",
-      "start": 61317,
-      "end": 61439
+      "start": 41419,
+      "end": 41541
     },
     {
       "id": "000012-342",
-      "start": 61456,
-      "end": 61560
+      "start": 41558,
+      "end": 41662
     },
     {
       "id": "000012-590",
-      "start": 61577,
-      "end": 62021
-    },
-    {
-      "id": "000012-306",
-      "start": 62038,
-      "end": 62331
+      "start": 41679,
+      "end": 42123
     },
     {
       "id": "000012-417",
-      "start": 62348,
-      "end": 62593
+      "start": 42140,
+      "end": 42385
     },
     {
       "id": "000012-577",
-      "start": 62610,
-      "end": 63042
-    },
-    {
-      "id": "000012-307",
-      "start": 63059,
-      "end": 63355
+      "start": 42402,
+      "end": 42834
     },
     {
       "id": "000012-583",
-      "start": 63372,
-      "end": 63801
-    },
-    {
-      "id": "000012-546",
-      "start": 63818,
-      "end": 63925
+      "start": 42851,
+      "end": 43280
     },
     {
       "id": "000012-591",
-      "start": 63942,
-      "end": 64362
+      "start": 43297,
+      "end": 43717
     },
     {
       "id": "000012-468",
-      "start": 64379,
-      "end": 64690
-    },
-    {
-      "id": "000012-538",
-      "start": 64707,
-      "end": 64820
-    },
-    {
-      "id": "000012-456",
-      "start": 64837,
-      "end": 64980
-    },
-    {
-      "id": "000012-356",
-      "start": 64997,
-      "end": 65100
+      "start": 43734,
+      "end": 44045
     },
     {
       "id": "000012-355",
-      "start": 65117,
-      "end": 65230
+      "start": 44062,
+      "end": 44175
     }
   ],
   "labels": [
@@ -1536,40 +1026,12 @@
       "expected": false
     },
     {
-      "id": "000012-575",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Behind the sofa works better because a lamp is an anchor, and that is where this room needs anchoring."
-      ]
-    },
-    {
       "id": "000012-489",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "Repair is a way of closing the loop, and the morning closes it more effectively."
       ]
-    },
-    {
-      "id": "000012-449",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-302",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-432",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-431",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-542",
@@ -1580,25 +1042,7 @@
       ]
     },
     {
-      "id": "000012-451",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-589",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "A regular call is a bridge between visits, and fifteen minutes gives us the stronger bridge."
-      ]
-    },
-    {
       "id": "000012-433",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-366",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -1624,11 +1068,6 @@
       "snippets": [
         "The ball is in his court now, which is why two weeks is the right amount of time to wait."
       ]
-    },
-    {
-      "id": "000012-357",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-598",
@@ -1719,11 +1158,6 @@
       ]
     },
     {
-      "id": "000012-446",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-322",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -1737,11 +1171,6 @@
       ]
     },
     {
-      "id": "000012-315",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-571",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
@@ -1750,17 +1179,7 @@
       ]
     },
     {
-      "id": "000012-361",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-398",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-375",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -1831,16 +1250,6 @@
       "expected": false
     },
     {
-      "id": "000012-396",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-405",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-525",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -1871,19 +1280,6 @@
       "expected": false
     },
     {
-      "id": "000012-369",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-549",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Stretching is the hinge, and putting it first gives us the right movement."
-      ]
-    },
-    {
       "id": "000012-463",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
@@ -1900,35 +1296,12 @@
       ]
     },
     {
-      "id": "000012-367",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-450",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-581",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "The bus is a lifeline, and twenty minutes gives that lifeline the reach this route needs."
-      ]
-    },
-    {
       "id": "000012-576",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
     {
       "id": "000012-337",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-353",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -1954,11 +1327,6 @@
       ]
     },
     {
-      "id": "000012-347",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-533",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
@@ -1968,21 +1336,6 @@
     },
     {
       "id": "000012-387",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-312",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-436",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-325",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -2000,11 +1353,6 @@
       "expected": false
     },
     {
-      "id": "000012-348",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-554",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
@@ -2013,22 +1361,12 @@
       ]
     },
     {
-      "id": "000012-324",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-493",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "Communication is a bridge, and the morning gives the message a stronger bridge to the team."
       ]
-    },
-    {
-      "id": "000012-343",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-504",
@@ -2053,11 +1391,6 @@
       ]
     },
     {
-      "id": "000012-393",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-452",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -2078,11 +1411,6 @@
       "expected": false
     },
     {
-      "id": "000012-311",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-588",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -2094,11 +1422,6 @@
       "snippets": [
         "because a swap is a loop, and a month closes it in the right place"
       ]
-    },
-    {
-      "id": "000012-442",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-522",
@@ -2143,17 +1466,7 @@
       ]
     },
     {
-      "id": "000012-403",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-426",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-336",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -2187,11 +1500,6 @@
       ]
     },
     {
-      "id": "000012-304",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-544",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
@@ -2200,46 +1508,12 @@
       ]
     },
     {
-      "id": "000012-509",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Returning bottles closes the loop, and upstairs gives us a better loop."
-      ]
-    },
-    {
-      "id": "000012-569",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "A map is their compass for the project, so drawing it first will give them a better direction than starting with the tape measure."
-      ]
-    },
-    {
-      "id": "000012-338",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-469",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "The repeated group is a handrail for the fingers, and five is where that handrail needs to sit."
       ]
-    },
-    {
-      "id": "000012-562",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Painting is a chain, and the ceiling is the right first link."
-      ]
-    },
-    {
-      "id": "000012-372",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-464",
@@ -2253,24 +1527,6 @@
       "id": "000012-410",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
-    },
-    {
-      "id": "000012-374",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-320",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-506",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "The rim is the bowl's horizon, and extra depth puts that horizon in the right place."
-      ]
     },
     {
       "id": "000012-397",
@@ -2301,21 +1557,6 @@
       "expected": false
     },
     {
-      "id": "000012-346",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-360",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-345",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-582",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -2331,17 +1572,7 @@
       "expected": false
     },
     {
-      "id": "000012-441",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-358",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-381",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -2352,11 +1583,6 @@
       "snippets": [
         "The welcome drink is the handshake at the start of the evening. That is why I would serve it at the table rather than at reception."
       ]
-    },
-    {
-      "id": "000012-392",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-310",
@@ -2370,14 +1596,6 @@
       "snippets": [
         "Drawing is a doorway into this topic, so start with a drawing rather than a short discussion.",
         "The doorway is the reason I would choose drawing for this particular group."
-      ]
-    },
-    {
-      "id": "000012-511",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Price is our signal to the customer, and eight sends the clearer signal."
       ]
     },
     {
@@ -2409,27 +1627,12 @@
       "expected": false
     },
     {
-      "id": "000012-448",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-380",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-523",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "The archive is our backstop, and thirty days puts it in the right position."
       ]
-    },
-    {
-      "id": "000012-363",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-514",
@@ -2462,17 +1665,7 @@
       ]
     },
     {
-      "id": "000012-317",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-373",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-323",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -2485,11 +1678,6 @@
       ]
     },
     {
-      "id": "000012-388",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-277",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -2498,14 +1686,6 @@
       "id": "000012-256",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
-    },
-    {
-      "id": "000012-524",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Three repetitions are better than five because repetition is the rhythm of recovery, and three gives it the right rhythm."
-      ]
     },
     {
       "id": "000012-570",
@@ -2532,16 +1712,6 @@
       "snippets": [
         "The return journey is the full stop of a holiday, so moving that flight gives us a better extra day."
       ]
-    },
-    {
-      "id": "000012-430",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-399",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-521",
@@ -2590,16 +1760,6 @@
       "snippets": ["pruning is a reset, and September is the right reset point"]
     },
     {
-      "id": "000012-339",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-321",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-274",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -2632,16 +1792,6 @@
       "snippets": [
         "Payment terms are the thermostat in this relationship, and that setting gives us the right temperature."
       ]
-    },
-    {
-      "id": "000012-444",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-316",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-555",
@@ -2678,11 +1828,6 @@
       ]
     },
     {
-      "id": "000012-384",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-561",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -2704,36 +1849,7 @@
       ]
     },
     {
-      "id": "000012-475",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "because the display is our shop window and that is where the window belongs"
-      ]
-    },
-    {
-      "id": "000012-485",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Induction is a doorway into the company, and the main office is the better doorway."
-      ]
-    },
-    {
-      "id": "000012-461",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Working from home is a pressure valve. That is why Monday is the right day for it rather than Friday."
-      ]
-    },
-    {
       "id": "000012-440",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-341",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -2767,20 +1883,7 @@
       ]
     },
     {
-      "id": "000012-484",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "A rental contract is a safety net, and six months hangs the net at the right height."
-      ]
-    },
-    {
       "id": "000012-376",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-365",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -2806,11 +1909,6 @@
       ]
     },
     {
-      "id": "000012-303",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-287",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -2834,16 +1932,6 @@
       "expected": false
     },
     {
-      "id": "000012-329",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-319",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-467",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
@@ -2852,22 +1940,12 @@
       ]
     },
     {
-      "id": "000012-305",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-529",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "The service is a lifeline, and twenty minutes gives it the right reach."
       ]
-    },
-    {
-      "id": "000012-334",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-483",
@@ -2884,16 +1962,6 @@
       "snippets": [
         "Pots are punctuation in a garden, and the patio gives them the right sentence to finish."
       ]
-    },
-    {
-      "id": "000012-350",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-330",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-592",
@@ -2922,25 +1990,7 @@
       ]
     },
     {
-      "id": "000012-545",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Pick the matte paper rather than gloss because the paper is the picture's voice, and matte gives it the right voice."
-      ]
-    },
-    {
-      "id": "000012-395",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-443",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-434",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -2968,14 +2018,6 @@
       ]
     },
     {
-      "id": "000012-553",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "homework is the week's anchor, and Saturday holds it more firmly"
-      ]
-    },
-    {
       "id": "000012-580",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -2997,11 +2039,6 @@
       "snippets": [
         "Reading aloud is a window into the book, and the second chapter opens that window at the right angle for this group."
       ]
-    },
-    {
-      "id": "000012-401",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-482",
@@ -3038,32 +2075,11 @@
       "expected": false
     },
     {
-      "id": "000012-331",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-476",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "A weekend away should be a pressure valve, and two nights releases the pressure properly."
-      ]
-    },
-    {
       "id": "000012-490",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "A skincare routine is a foundation, and before breakfast lays it on firmer ground."
-      ]
-    },
-    {
-      "id": "000012-502",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "the lead is a conversation. The harness lets that conversation start in the right place."
       ]
     },
     {
@@ -3075,22 +2091,12 @@
       ]
     },
     {
-      "id": "000012-368",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-477",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "The hem is the sentence's full stop, and the narrow one brings this dress to the right ending."
       ]
-    },
-    {
-      "id": "000012-378",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-574",
@@ -3106,11 +2112,6 @@
       ]
     },
     {
-      "id": "000012-445",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-379",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -3122,16 +2123,6 @@
       "snippets": [
         "because an apology is a bridge, and a call makes the right crossing"
       ]
-    },
-    {
-      "id": "000012-413",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-351",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
     },
     {
       "id": "000012-492",
@@ -3151,11 +2142,6 @@
     },
     {
       "id": "000012-428",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-429",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },
@@ -3183,11 +2169,6 @@
       "expected": false
     },
     {
-      "id": "000012-326",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-205",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -3211,16 +2192,6 @@
       ]
     },
     {
-      "id": "000012-328",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-318",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-313",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -3239,24 +2210,11 @@
       "expected": false
     },
     {
-      "id": "000012-400",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-465",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "A reply is a bridge back to the customer, and email puts that bridge in the right place."
-      ]
-    },
-    {
-      "id": "000012-552",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Drying is the pause in the process, and overnight gives the right pause."
       ]
     },
     {
@@ -3284,11 +2242,6 @@
       ]
     },
     {
-      "id": "000012-309",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-558",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
@@ -3312,11 +2265,6 @@
       "expected": false
     },
     {
-      "id": "000012-306",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-417",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
@@ -3330,24 +2278,11 @@
       ]
     },
     {
-      "id": "000012-307",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
       "id": "000012-583",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": true,
       "snippets": [
         "The captain is the rudder of the team, and a new person each match gives us better steering."
-      ]
-    },
-    {
-      "id": "000012-546",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Storage is our memory, and the top drawer is where that memory belongs."
       ]
     },
     {
@@ -3360,27 +2295,6 @@
     },
     {
       "id": "000012-468",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": false
-    },
-    {
-      "id": "000012-538",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "The finish is the dish's doorway, and five minutes opens it properly."
-      ]
-    },
-    {
-      "id": "000012-456",
-      "check": "semantic-thinness/unexplained-metaphor",
-      "expected": true,
-      "snippets": [
-        "Use a square crop rather than 4:3 because the composition needs an anchor."
-      ]
-    },
-    {
-      "id": "000012-356",
       "check": "semantic-thinness/unexplained-metaphor",
       "expected": false
     },

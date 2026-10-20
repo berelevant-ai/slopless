@@ -45,9 +45,9 @@
 
 - Generate and review separate development and holdout file pairs for each issue type being developed, using passages or complete texts according to its declared input.
   - Include the family, type, and `development` or `holdout` in each slug; record the split in JSON.
-  - For isolated sets, initially target 100 desired hits and 100 desired no-hits per type in each split, with varied wording and contexts.
-  - These are coverage targets. Compare candidates on the same examples and report uncertainty when drawing conclusions.
-  - Preserve sound passages when correcting labels. Add examples when a correction leaves a class below 100; keep valid hard cases instead of changing them to maintain a round collection size.
+  - Freeze isolated sets at exactly 100 desired hits and 100 desired no-hits per type in each split, with varied wording and contexts. Each caught hit or false positive then represents one percentage point within its class.
+  - Correct labels before selecting the final set. Generate replacements when needed, preserve reviewed hard cases, and archive surplus passages with their original labels in a linked Git commit.
+  - Choose the balanced set before detector evaluation, independently of detector scores. Compare candidates on the same examples and report uncertainty when drawing conclusions.
   - Check identical and near-identical writing across splits before freezing them, including passage/full-text copies.
 - Maintain isolated sets that test one issue type and mixed sets that deliberately combine issues within the same passage or complete text.
   - Name mixed sets with `mixed`, the covered families or types, and the split. Use `passages/` for independent excerpts and `texts/` for complete texts, with the same paired format.

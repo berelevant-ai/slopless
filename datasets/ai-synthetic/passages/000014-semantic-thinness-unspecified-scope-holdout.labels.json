@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "textSha256": "66b25721382c931ccfaf2e1c5814b141d5ae9a234f506438fc4bb997d6e32b61",
+  "textSha256": "6684bd236c3d88628ab5cde16662588aebc64ca6f2d7ddce0bf42e657f80517f",
   "split": "holdout",
   "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
   "source": {
     "name": "New independent synthetic unspecified-scope holdout",
-    "originalPath": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
-    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "originalPath": "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md",
+    "commit": "06de26256011e1d1689dd84b18e2ca20b49c371f",
     "model": "Codex",
-    "notes": "All 200 initial passages were drafted before development writing was inspected. Independently classified by claude-opus-5-5 with author judgments, snippets, and class balance withheld. Final snippets are exact Opus selections; other checks remain unassessed. Post-independent QA preserved all 200 original passages and IDs, corrected one label, and appended one independently reviewed passage."
+    "notes": "All 200 initial passages were drafted before development writing was inspected. Independently classified by claude-opus-5-5 with author judgments, snippets, and class balance withheld. Final snippets are exact Opus selections; other checks remain unassessed. Post-independent QA preserved all 200 original passages and IDs, corrected one label, and appended one independently reviewed passage. Active subset: exactly 100 hits and 100 no-hits, selected from the full reviewed collection at Git commit 06de26256011e1d1689dd84b18e2ca20b49c371f:datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md. Original source attribution: commit c21c445c333026e4033f8160e56388118cb715d9; path .plans/2026-10-20-125402-v2-rule-taxonomy.md. Selection method and current validation are recorded in runners/results/unspecified-scope-holdout-opus-review.json under activeSelection."
   },
   "samples": [
     {
@@ -492,529 +492,524 @@
       "end": 17862
     },
     {
-      "id": "000014-097",
-      "start": 17879,
-      "end": 18033
-    },
-    {
       "id": "000014-098",
-      "start": 18050,
-      "end": 18185
+      "start": 17879,
+      "end": 18014
     },
     {
       "id": "000014-099",
-      "start": 18202,
-      "end": 18340
+      "start": 18031,
+      "end": 18169
     },
     {
       "id": "000014-100",
-      "start": 18357,
-      "end": 18693
+      "start": 18186,
+      "end": 18522
     },
     {
       "id": "000014-101",
-      "start": 18710,
-      "end": 18850
+      "start": 18539,
+      "end": 18679
     },
     {
       "id": "000014-102",
-      "start": 18867,
-      "end": 19015
+      "start": 18696,
+      "end": 18844
     },
     {
       "id": "000014-103",
-      "start": 19032,
-      "end": 19359
+      "start": 18861,
+      "end": 19188
     },
     {
       "id": "000014-104",
-      "start": 19376,
-      "end": 19523
+      "start": 19205,
+      "end": 19352
     },
     {
       "id": "000014-105",
-      "start": 19540,
-      "end": 19693
+      "start": 19369,
+      "end": 19522
     },
     {
       "id": "000014-106",
-      "start": 19710,
-      "end": 19828
+      "start": 19539,
+      "end": 19657
     },
     {
       "id": "000014-107",
-      "start": 19845,
-      "end": 19956
+      "start": 19674,
+      "end": 19785
     },
     {
       "id": "000014-108",
-      "start": 19973,
-      "end": 20097
+      "start": 19802,
+      "end": 19926
     },
     {
       "id": "000014-109",
-      "start": 20114,
-      "end": 20261
+      "start": 19943,
+      "end": 20090
     },
     {
       "id": "000014-110",
-      "start": 20278,
-      "end": 20410
+      "start": 20107,
+      "end": 20239
     },
     {
       "id": "000014-111",
-      "start": 20427,
-      "end": 20574
+      "start": 20256,
+      "end": 20403
     },
     {
       "id": "000014-112",
-      "start": 20591,
-      "end": 20913
+      "start": 20420,
+      "end": 20742
     },
     {
       "id": "000014-113",
-      "start": 20930,
-      "end": 21091
+      "start": 20759,
+      "end": 20920
     },
     {
       "id": "000014-114",
-      "start": 21108,
-      "end": 21417
+      "start": 20937,
+      "end": 21246
     },
     {
       "id": "000014-115",
-      "start": 21434,
-      "end": 21752
+      "start": 21263,
+      "end": 21581
     },
     {
       "id": "000014-116",
-      "start": 21769,
-      "end": 21904
+      "start": 21598,
+      "end": 21733
     },
     {
       "id": "000014-117",
-      "start": 21921,
-      "end": 22071
+      "start": 21750,
+      "end": 21900
     },
     {
       "id": "000014-118",
-      "start": 22088,
-      "end": 22424
+      "start": 21917,
+      "end": 22253
     },
     {
       "id": "000014-119",
-      "start": 22441,
-      "end": 22581
+      "start": 22270,
+      "end": 22410
     },
     {
       "id": "000014-120",
-      "start": 22598,
-      "end": 22943
+      "start": 22427,
+      "end": 22772
     },
     {
       "id": "000014-121",
-      "start": 22960,
-      "end": 23291
+      "start": 22789,
+      "end": 23120
     },
     {
       "id": "000014-122",
-      "start": 23308,
-      "end": 23438
+      "start": 23137,
+      "end": 23267
     },
     {
       "id": "000014-123",
-      "start": 23455,
-      "end": 23606
+      "start": 23284,
+      "end": 23435
     },
     {
       "id": "000014-124",
-      "start": 23623,
-      "end": 23737
+      "start": 23452,
+      "end": 23566
     },
     {
       "id": "000014-125",
-      "start": 23754,
-      "end": 23883
+      "start": 23583,
+      "end": 23712
     },
     {
       "id": "000014-126",
-      "start": 23900,
-      "end": 24216
+      "start": 23729,
+      "end": 24045
     },
     {
       "id": "000014-127",
-      "start": 24233,
-      "end": 24360
+      "start": 24062,
+      "end": 24189
     },
     {
       "id": "000014-128",
-      "start": 24377,
-      "end": 24503
+      "start": 24206,
+      "end": 24332
     },
     {
       "id": "000014-129",
-      "start": 24520,
-      "end": 24850
+      "start": 24349,
+      "end": 24679
     },
     {
       "id": "000014-130",
-      "start": 24867,
-      "end": 25181
+      "start": 24696,
+      "end": 25010
     },
     {
       "id": "000014-131",
-      "start": 25198,
-      "end": 25352
+      "start": 25027,
+      "end": 25181
     },
     {
       "id": "000014-132",
-      "start": 25369,
-      "end": 25506
+      "start": 25198,
+      "end": 25335
     },
     {
       "id": "000014-133",
-      "start": 25523,
-      "end": 25673
+      "start": 25352,
+      "end": 25502
     },
     {
       "id": "000014-134",
-      "start": 25690,
-      "end": 26026
+      "start": 25519,
+      "end": 25855
     },
     {
       "id": "000014-135",
-      "start": 26043,
-      "end": 26184
+      "start": 25872,
+      "end": 26013
     },
     {
       "id": "000014-136",
-      "start": 26201,
-      "end": 26327
+      "start": 26030,
+      "end": 26156
     },
     {
       "id": "000014-137",
-      "start": 26344,
-      "end": 26480
+      "start": 26173,
+      "end": 26309
     },
     {
       "id": "000014-138",
-      "start": 26497,
-      "end": 26631
+      "start": 26326,
+      "end": 26460
     },
     {
       "id": "000014-139",
-      "start": 26648,
-      "end": 26774
+      "start": 26477,
+      "end": 26603
     },
     {
       "id": "000014-140",
-      "start": 26791,
-      "end": 26943
+      "start": 26620,
+      "end": 26772
     },
     {
       "id": "000014-141",
-      "start": 26960,
-      "end": 27254
+      "start": 26789,
+      "end": 27083
     },
     {
       "id": "000014-142",
-      "start": 27271,
-      "end": 27409
+      "start": 27100,
+      "end": 27238
     },
     {
       "id": "000014-143",
-      "start": 27426,
-      "end": 27574
+      "start": 27255,
+      "end": 27403
     },
     {
       "id": "000014-144",
-      "start": 27591,
-      "end": 27868
+      "start": 27420,
+      "end": 27697
     },
     {
       "id": "000014-145",
-      "start": 27885,
-      "end": 28043
+      "start": 27714,
+      "end": 27872
     },
     {
       "id": "000014-146",
-      "start": 28060,
-      "end": 28212
+      "start": 27889,
+      "end": 28041
     },
     {
       "id": "000014-147",
-      "start": 28229,
-      "end": 28378
+      "start": 28058,
+      "end": 28207
     },
     {
       "id": "000014-148",
-      "start": 28395,
-      "end": 28554
+      "start": 28224,
+      "end": 28383
     },
     {
       "id": "000014-149",
-      "start": 28571,
-      "end": 28851
+      "start": 28400,
+      "end": 28680
     },
     {
       "id": "000014-150",
-      "start": 28868,
-      "end": 28996
+      "start": 28697,
+      "end": 28825
     },
     {
       "id": "000014-151",
-      "start": 29013,
-      "end": 29165
+      "start": 28842,
+      "end": 28994
     },
     {
       "id": "000014-152",
-      "start": 29182,
-      "end": 29321
+      "start": 29011,
+      "end": 29150
     },
     {
       "id": "000014-153",
-      "start": 29338,
-      "end": 29438
+      "start": 29167,
+      "end": 29267
     },
     {
       "id": "000014-154",
-      "start": 29455,
-      "end": 29816
+      "start": 29284,
+      "end": 29645
     },
     {
       "id": "000014-155",
-      "start": 29833,
-      "end": 29962
+      "start": 29662,
+      "end": 29791
     },
     {
       "id": "000014-156",
-      "start": 29979,
-      "end": 30096
+      "start": 29808,
+      "end": 29925
     },
     {
       "id": "000014-157",
-      "start": 30113,
-      "end": 30237
+      "start": 29942,
+      "end": 30066
     },
     {
       "id": "000014-158",
-      "start": 30254,
-      "end": 30380
+      "start": 30083,
+      "end": 30209
     },
     {
       "id": "000014-159",
-      "start": 30397,
-      "end": 30531
+      "start": 30226,
+      "end": 30360
     },
     {
       "id": "000014-160",
-      "start": 30548,
-      "end": 30708
+      "start": 30377,
+      "end": 30537
     },
     {
       "id": "000014-161",
-      "start": 30725,
-      "end": 30849
+      "start": 30554,
+      "end": 30678
     },
     {
       "id": "000014-162",
-      "start": 30866,
-      "end": 31021
+      "start": 30695,
+      "end": 30850
     },
     {
       "id": "000014-163",
-      "start": 31038,
-      "end": 31173
+      "start": 30867,
+      "end": 31002
     },
     {
       "id": "000014-164",
-      "start": 31190,
-      "end": 31324
+      "start": 31019,
+      "end": 31153
     },
     {
       "id": "000014-165",
-      "start": 31341,
-      "end": 31676
+      "start": 31170,
+      "end": 31505
     },
     {
       "id": "000014-166",
-      "start": 31693,
-      "end": 31866
+      "start": 31522,
+      "end": 31695
     },
     {
       "id": "000014-167",
-      "start": 31883,
-      "end": 32011
+      "start": 31712,
+      "end": 31840
     },
     {
       "id": "000014-168",
-      "start": 32028,
-      "end": 32144
+      "start": 31857,
+      "end": 31973
     },
     {
       "id": "000014-169",
-      "start": 32161,
-      "end": 32289
+      "start": 31990,
+      "end": 32118
     },
     {
       "id": "000014-170",
-      "start": 32306,
-      "end": 32432
+      "start": 32135,
+      "end": 32261
     },
     {
       "id": "000014-171",
-      "start": 32449,
-      "end": 32579
+      "start": 32278,
+      "end": 32408
     },
     {
       "id": "000014-172",
-      "start": 32596,
-      "end": 32729
+      "start": 32425,
+      "end": 32558
     },
     {
       "id": "000014-173",
-      "start": 32746,
-      "end": 32863
+      "start": 32575,
+      "end": 32692
     },
     {
       "id": "000014-174",
-      "start": 32880,
-      "end": 33027
+      "start": 32709,
+      "end": 32856
     },
     {
       "id": "000014-175",
-      "start": 33044,
-      "end": 33203
+      "start": 32873,
+      "end": 33032
     },
     {
       "id": "000014-176",
-      "start": 33220,
-      "end": 33338
+      "start": 33049,
+      "end": 33167
     },
     {
       "id": "000014-177",
-      "start": 33355,
-      "end": 33492
+      "start": 33184,
+      "end": 33321
     },
     {
       "id": "000014-178",
-      "start": 33509,
-      "end": 33644
+      "start": 33338,
+      "end": 33473
     },
     {
       "id": "000014-179",
-      "start": 33661,
-      "end": 33803
+      "start": 33490,
+      "end": 33632
     },
     {
       "id": "000014-180",
-      "start": 33820,
-      "end": 34146
+      "start": 33649,
+      "end": 33975
     },
     {
       "id": "000014-181",
-      "start": 34163,
-      "end": 34470
+      "start": 33992,
+      "end": 34299
     },
     {
       "id": "000014-182",
-      "start": 34487,
-      "end": 34630
+      "start": 34316,
+      "end": 34459
     },
     {
       "id": "000014-183",
-      "start": 34647,
-      "end": 34802
+      "start": 34476,
+      "end": 34631
     },
     {
       "id": "000014-184",
-      "start": 34819,
-      "end": 35142
+      "start": 34648,
+      "end": 34971
     },
     {
       "id": "000014-185",
-      "start": 35159,
-      "end": 35290
+      "start": 34988,
+      "end": 35119
     },
     {
       "id": "000014-186",
-      "start": 35307,
-      "end": 35650
+      "start": 35136,
+      "end": 35479
     },
     {
       "id": "000014-187",
-      "start": 35667,
-      "end": 35798
+      "start": 35496,
+      "end": 35627
     },
     {
       "id": "000014-188",
-      "start": 35815,
-      "end": 35959
+      "start": 35644,
+      "end": 35788
     },
     {
       "id": "000014-189",
-      "start": 35976,
-      "end": 36109
+      "start": 35805,
+      "end": 35938
     },
     {
       "id": "000014-190",
-      "start": 36126,
-      "end": 36262
+      "start": 35955,
+      "end": 36091
     },
     {
       "id": "000014-191",
-      "start": 36279,
-      "end": 36388
+      "start": 36108,
+      "end": 36217
     },
     {
       "id": "000014-192",
-      "start": 36405,
-      "end": 36524
+      "start": 36234,
+      "end": 36353
     },
     {
       "id": "000014-193",
-      "start": 36541,
-      "end": 36683
+      "start": 36370,
+      "end": 36512
     },
     {
       "id": "000014-194",
-      "start": 36700,
-      "end": 36865
+      "start": 36529,
+      "end": 36694
     },
     {
       "id": "000014-195",
-      "start": 36882,
-      "end": 37002
+      "start": 36711,
+      "end": 36831
     },
     {
       "id": "000014-196",
-      "start": 37019,
-      "end": 37158
+      "start": 36848,
+      "end": 36987
     },
     {
       "id": "000014-197",
-      "start": 37175,
-      "end": 37293
+      "start": 37004,
+      "end": 37122
     },
     {
       "id": "000014-198",
-      "start": 37310,
-      "end": 37598
+      "start": 37139,
+      "end": 37427
     },
     {
       "id": "000014-199",
-      "start": 37615,
-      "end": 37770
+      "start": 37444,
+      "end": 37599
     },
     {
       "id": "000014-200",
-      "start": 37787,
-      "end": 38128
+      "start": 37616,
+      "end": 37957
     },
     {
       "id": "000014-201",
-      "start": 38145,
-      "end": 38480
+      "start": 37974,
+      "end": 38309
     }
   ],
   "labels": [
@@ -1623,11 +1618,6 @@
     },
     {
       "id": "000014-096",
-      "check": "semantic-thinness/unspecified-scope",
-      "expected": false
-    },
-    {
-      "id": "000014-097",
       "check": "semantic-thinness/unspecified-scope",
       "expected": false
     },

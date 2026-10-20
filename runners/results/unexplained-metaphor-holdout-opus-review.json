@@ -265,5 +265,24 @@
     "Synthetic coverage rather than a representative writing-frequency sample.",
     "The retained comparative-decision cohort remains prominent; added controls and causal-report cases address the bounded curation finding.",
     "Model disagreements and interpretive objections remain inspectable in private evidence."
-  ]
+  ],
+  "activeSelection": {
+    "archiveCommit": "06de26256011e1d1689dd84b18e2ca20b49c371f",
+    "historicalReviewScope": "All earlier counts and source-review hashes describe the full reviewed collection at archiveCommit. This field describes the current balanced subset.",
+    "method": "Proportional word-length buckets (<26, 26-44, 45-90), largest-remainder quotas with reviewed hard cases, adjudications, corrections and model disagreements retained; mandatory bucket minima with fractional-deficit rebalancing; SHA-256(seed|check|split|id) ranking within each bucket; source order preserved; selected before detector evaluation.",
+    "seed": "slopless-100-per-class-2026-10-20",
+    "counts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "words": 7394,
+      "longHits": 35,
+      "longNoHits": 29
+    },
+    "textSha256": "2eb90c35ee984b67a901b5b825a337c8a2b749fff110574444a2c5b6b2b0d733",
+    "labelsSha256": "f097a27b8c18b4c7ef68e87d85fd1085ae8cca971ca127e2fbfb3107689be94a",
+    "archivedPassages": 102,
+    "retainedHardCases": 62,
+    "validation": "Existing reader passes; retained passage text, IDs, labels and snippets match the archive exactly; all mandatory cases remain."
+  }
 }

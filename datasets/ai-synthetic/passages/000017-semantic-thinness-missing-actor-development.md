@@ -432,10 +432,6 @@ Grandad's will left the furniture to whoever had paid for his last move. My acco
 
 Our family agreement gives the quilt to the person who cared for Aunt Jo during her last winter. The settlement says care was provided throughout the winter and awards the quilt accordingly.
 
-## 000017-109
-
-Zed kept his hand on the stop button. When the sheet jammed, the machine was stopped at once. "That was me," he said.
-
 ## 000017-110
 
 Someone had moved my umbrella. I looked under the counter, found it beside the till, and left before the rain started.

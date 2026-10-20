@@ -84,10 +84,6 @@ The renewal matters a great deal. It extends the lease for another year at the e
 
 The grant panel needed a comparison of the two proposed tutoring programs. The assessor concluded that they were equivalent in the relevant sense. One application used a smaller font, and both had arrived before noon. She put them in separate folders and asked the secretary to photocopy her assessment for the afternoon discussion.
 
-## 000015-022
-
-The editor calls a bare claim of special association unhelpful and asks for a statement of membership, influence, or shared activity.
-
 ## 000015-023
 
 The two posts differ in reporting line. This one reports to the principal; that one reports to the bursar.
@@ -195,10 +191,6 @@ How does this proposal differ from the current scheme? It belongs to a different
 ## 000015-049
 
 Our agreement is of a different nature from the arrangement you mentioned. I have brought two copies in a plain envelope.
-
-## 000015-050
-
-The two paths meet at the reservoir. Their connection appears on the walking map beside the dam.
 
 ## 000015-051
 

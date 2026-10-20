@@ -945,5 +945,24 @@
     },
     "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
     "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
+  },
+  "activeSelection": {
+    "archiveCommit": "06de26256011e1d1689dd84b18e2ca20b49c371f",
+    "historicalReviewScope": "All earlier counts and source-review hashes describe the full reviewed collection at archiveCommit. This field describes the current balanced subset.",
+    "method": "Proportional word-length buckets (<26, 26-44, 45-90), largest-remainder quotas with reviewed hard cases, adjudications, corrections and model disagreements retained; mandatory bucket minima with fractional-deficit rebalancing; SHA-256(seed|check|split|id) ranking within each bucket; source order preserved; selected before detector evaluation.",
+    "seed": "slopless-100-per-class-2026-10-20",
+    "counts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "words": 5843,
+      "longHits": 27,
+      "longNoHits": 25
+    },
+    "textSha256": "1cd7db51f58afeef7d0564d64981e019d7fe38db2a6c284c5614b47983bb7850",
+    "labelsSha256": "b4ccde11eaf3fcb107d324083c1b4265caa787e801f6988f82090753f02864bc",
+    "archivedPassages": 3,
+    "retainedHardCases": 19,
+    "validation": "Existing reader passes; retained passage text, IDs, labels and snippets match the archive exactly; all mandatory cases remain."
   }
 }

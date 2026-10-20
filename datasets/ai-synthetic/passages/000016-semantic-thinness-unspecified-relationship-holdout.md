@@ -60,10 +60,6 @@ Between the silver seal and the handwritten date there exists a relationship tha
 
 For assigning training, the supervisor uses the contrast in character between the undescribed tasks labelled red and blue. This is her training rule.
 
-## 000016-016
-
-They are partners in the restaurant and neighbours at home. Both relationships explain why they speak every day.
-
 ## 000016-017
 
 Assignment rule for the undescribed tasks A1 and A2: the supervisors must differ because the kinds of responsibility differ.
@@ -488,10 +484,6 @@ Advance the two applicants together because they resemble each other on the dime
 
 Faced with the orchard plan and the garden plan, I choose the former for its contrasting approach. That is the comparison entered in my recommendation.
 
-## 000016-123
-
-We moved the inspection earlier so the builders could repair defects before the tenants arrived. The scheduling change follows that dependency.
-
 ## 000016-124
 
 He is her guardian. Letters requiring permission for the school trip should be sent to him.
@@ -707,10 +699,6 @@ They shook hands without being introduced. Earlier that morning they had exchang
 ## 000016-177
 
 The ceremony mattered more than anyone expected. Its practical significance would become the subject of his next letter.
-
-## 000016-178
-
-The silver bowl is the older bowl's lid, displayed upside down so the engraving can be read. Its rim fits the groove around the other piece. Visitors often mistake the two objects for a pair of serving dishes, which is why the label explains this relationship before giving the maker's name and approximate date.
 
 ## 000016-179
 

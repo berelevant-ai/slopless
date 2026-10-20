@@ -691,5 +691,24 @@
     "The retained pilot includes early institutional examples and two approved paraphrase controls.",
     "Four added long controls are each 80 words; all current length buckets are reported rather than claiming a uniform distribution.",
     "One valid development control was excluded for cross-split near-paraphrase and replaced under a fresh ID. Its original no-hit judgment and writing are archived separately from quality rejections."
-  ]
+  ],
+  "activeSelection": {
+    "archiveCommit": "06de26256011e1d1689dd84b18e2ca20b49c371f",
+    "historicalReviewScope": "All earlier counts and source-review hashes describe the full reviewed collection at archiveCommit. This field describes the current balanced subset.",
+    "method": "Proportional word-length buckets (<26, 26-44, 45-90), largest-remainder quotas with reviewed hard cases and approved pilot cases retained; SHA-256 ranking within each bucket; source order preserved; selected before detector evaluation.",
+    "seed": "slopless-100-per-class-2026-10-20",
+    "counts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "words": 6931,
+      "longHits": 27,
+      "longNoHits": 22
+    },
+    "textSha256": "dbb2c718e82d91b1c2c5b52b7ee8e94c7278c5635c42687bdd7233a6072013cc",
+    "labelsSha256": "6f9e865339974e5b616e423b6f24ad27886484fb2f0cb3bb98a3309a86463046",
+    "archivedPassages": 61,
+    "retainedHardCases": 55,
+    "validation": "Existing reader passes; retained passage text, IDs, labels and snippets match the archive exactly; all mandatory cases remain."
+  }
 }

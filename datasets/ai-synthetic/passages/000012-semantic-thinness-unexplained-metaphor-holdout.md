@@ -8,49 +8,17 @@ Keep the campsite on the second night rather than moving to the next one. Camp i
 
 The budget is a rough map rather than a timetable. It shows how much each bill takes, but we can move the grocery trip.
 
-## 000012-575
-
-We tried the lamp beside the table and then behind the sofa. Either position leaves the reading chair within reach of the switch, and the cable can run along the wall. Behind the sofa works better because a lamp is an anchor, and that is where this room needs anchoring. I would leave it there for a few evenings before fixing the cable clips. The shade can stay at its present height until we have checked it from every seat.
-
 ## 000012-489
 
 Hold the repair session in the morning instead of the afternoon. Repair is a way of closing the loop, and the morning closes it more effectively. The volunteers and the hall are available at both times. We will ask people to book a slot and bring any cables or parts that belong with the item.
-
-## 000012-449
-
-The map is a key to the old street names. It puts the former names beside the present ones, so I can locate houses mentioned in the letters without guessing from the spelling.
-
-## 000012-302
-
-I keep the dough in a clear container while it rises. The marks on the side act as a ruler: when the dough reaches twice its starting height, I shape the loaves. On cold days that takes longer, so I follow the level rather than setting a fixed timer for the first rise.
-
-## 000012-432
-
-The trial is a shop window: people can try the editor before paying. We keep the payment screen until the end of the trial so that looking around does not require a card number.
-
-## 000012-431
-
-The dark hedge anchors the portrait by giving the pale face a contrasting background. In the other shot, the face and the white wall are so similar in tone that their edges blend together.
 
 ## 000012-542
 
 Divide the bill equally rather than by income because a shared bill is a handshake, and equal shares make it firmer.
 
-## 000012-451
-
-The sand timer is a referee neither child can argue with. Each gets the scooter until the sand runs out, then hands it over; I only step in if someone refuses the swap.
-
-## 000012-589
-
-I suggested a fifteen-minute call rather than half an hour. A regular call is a bridge between visits, and fifteen minutes gives us the stronger bridge. We can both keep either slot free on Sunday. We will try it for a month and then see how it fits with family lunch. If one of us is away, we can send a message instead and keep the next week's call in the calendar rather than trying to find another day.
-
 ## 000012-433
 
 Thursday is the better buffer before Friday's delivery because Wednesday's count would miss a full day of sales. A later count gives us a more accurate picture of what is left on the shelves.
-
-## 000012-366
-
-The long exposure turns the passing cars into ribbons of light while the buildings stay sharp.
 
 ## 000012-340
 
@@ -67,10 +35,6 @@ We leave two tables free for walk-ins because people often arrive after the cine
 ## 000012-455
 
 I would give him two weeks to reply before contacting him again. The ball is in his court now, which is why two weeks is the right amount of time to wait.
-
-## 000012-357
-
-That stop broke the back of the journey. After lunch we had only forty minutes left to drive.
 
 ## 000012-598
 
@@ -128,10 +92,6 @@ The basket is a halfway house for clothes I have worn once. It keeps them off th
 
 Play the chorus more slowly because the chorus is the song's hinge, and a slower hinge fits here.
 
-## 000012-446
-
-The six-month lease is a halfway house between staying with friends and buying somewhere. It gives us our own space while we try living in the area before making a longer commitment.
-
 ## 000012-322
 
 The first row of stitches is the foundation for the rest of the scarf. If it is much tighter than the later rows, the end pulls inward even when every following row has the right number of stitches. I use a larger needle for casting on, then change to the smaller pair for the main work.
@@ -140,25 +100,13 @@ The first row of stitches is the foundation for the rest of the scarf. If it is 
 
 The old shelf and its replacement can both hold the books without sagging. The question is which belongs over the desk. I would use the new one. A shelf is an anchor for the wall, and the new one anchors it more convincingly. We can use the old shelf in the spare room instead.
 
-## 000012-315
-
-The coat has two layers, and the inner one unzips completely. I wear both in winter and just the shell when it rains in spring. That makes it a useful compromise for a small wardrobe. The inner layer has its own pockets, although it looks a little unfinished when worn without the outer coat.
-
 ## 000012-571
 
 We need to choose between a Saturday morning meeting and an evening one about the market. I favour the evening because a public meeting is a crossroads, and the evening puts the discussion at the better junction. The hall is available for both. Stallholders can send questions before we print the agenda. At the meeting, we will take comments on the proposed layout first, then discuss the delivery arrangements, and finish by agreeing on who will revise the plan.
 
-## 000012-361
-
-We use the market stall to test the water before stocking a new flavour in the shop. Customers can taste it and leave a comment.
-
 ## 000012-398
 
 The footbridge spans the canal beside the lock. It is wide enough for two people to pass, but cyclists must dismount.
-
-## 000012-375
-
-The old bridge was a lifeline during the flood. It was the only crossing that remained above the water.
 
 ## 000012-478
 
@@ -200,14 +148,6 @@ Use the wide brush for the border because a border is a frame, and a wide brush 
 
 The library is trying an evening book group for people who work during the day. Members can borrow a copy of the novel for six weeks and attend either of two discussions. The group rests on a larger belief about reading: a shared book is where belonging finds its true north.
 
-## 000012-396
-
-The collection point closes the loop for used batteries. The shop takes them back and sends them to the same recycling service that handles its own stock.
-
-## 000012-405
-
-We rent rather than buy because we expect to move again next year. The lease gives us a home without tying our savings to a flat we would soon need to sell. We pay more each month than some friends with mortgages, but keeping that flexibility is useful while our work locations are still uncertain.
-
 ## 000012-525
 
 I'd shorten the sleeves, not the hem. The sleeves are where this outfit needs to find its balance.
@@ -232,14 +172,6 @@ The two plans include the same features, so we need another way to decide which 
 
 Why rest the meat before slicing it? A short wait lets the temperature become more even, and less juice runs onto the board.
 
-## 000012-369
-
-The white border gives the picture breathing room. Without it, the dark frame touches the dark edge of the photograph.
-
-## 000012-549
-
-Do the stretches before the walk. Stretching is the hinge, and putting it first gives us the right movement.
-
 ## 000012-463
 
 Leave ten days between sowing the two trays, rather than a week. Successive sowings are stepping stones through the season, and ten days gives us the right distance between them. Use the same seed mix for both trays and label the dates. They will stay on the same shelf until they are ready to go outside.
@@ -248,18 +180,6 @@ Leave ten days between sowing the two trays, rather than a week. Successive sowi
 
 I use a medium brush rather than the small one for this section because the brush is the painting's steering wheel. The medium size gives it the right turn. Both brushes are clean, and the paint is ready mixed. Work from the top of the panel down so that your hand stays out of the wet area.
 
-## 000012-367
-
-Why share the notes before the meeting? People can check the figures and bring corrections instead of reading them for the first time together.
-
-## 000012-450
-
-Why replace the seal rather than the whole window? The glass and frame are sound. Rain enters through the split rubber edge, so a new seal closes that specific route into the house.
-
-## 000012-581
-
-I recommend the twenty-minute interval instead of the half-hourly service. The bus is a lifeline, and twenty minutes gives that lifeline the reach this route needs. We have priced both timetables, and the council can afford either. The route and stops would stay the same. Before publishing the change, we should send the times to the station office, check that the printed posters agree with the website, and make sure the drivers have the revised duty sheets.
-
 ## 000012-576
 
 The lamp is in the right place behind the sofa because the shade blocks the bulb from people sitting at the table. Beside the table, the bare bulb was visible below the shade and shone straight into their eyes. From the reading chair, the light still reaches the page. I have left the cable loose for now so we can try the arrangement for a few evenings before fitting clips along the wall and deciding on the final position.
@@ -267,10 +187,6 @@ The lamp is in the right place behind the sofa because the shade blocks the bulb
 ## 000012-337
 
 The app remembers the last folder you used and opens it automatically the next time you attach a file.
-
-## 000012-353
-
-The climbing rose has swallowed the gate. Its branches now cover the latch, and I need to cut them back before visitors arrive.
 
 ## 000012-488
 
@@ -284,10 +200,6 @@ Use the darker thread. A seam is a boundary, and dark thread draws the right bou
 
 The roses did not flower because the bed was trying to do two jobs at once. I will ask the gardener to look at it when she comes next week.
 
-## 000012-347
-
-The coarse sandpaper does the heavy lifting; the finer sheet removes the scratches left by the first pass.
-
 ## 000012-533
 
 Keep the paperback instead of the hardback. A book is a companion, and the paperback is the better companion here.
@@ -295,18 +207,6 @@ Keep the paperback instead of the hardback. A book is a companion, and the paper
 ## 000012-387
 
 The calendar knows about the time-zone change because the booking stores both the departure city and the local departure time.
-
-## 000012-312
-
-The draft folder is a waiting room for messages that have not been sent. Closing the app leaves them there, and opening a draft returns you to the same text. Sending it moves a copy to the sent folder. You can also delete a draft without the recipient ever receiving any part of it.
-
-## 000012-436
-
-Why pay for the second pair of trousers? They are insurance against a spill before a meeting. I keep them at work, where changing is easier than going home to find clean clothes.
-
-## 000012-325
-
-The recordings add voices to the photographs of the old market. A picture shows where the stalls stood; a trader's account tells you how early they opened and where the unsold food went. Visitors can listen through headphones beside the display. Written transcripts are available for people who prefer to read or cannot hear the recording.
 
 ## 000012-462
 
@@ -316,25 +216,13 @@ I would divide the grocery money into four weekly amounts rather than five. A bu
 
 Slow travel is the contract that curiosity signs with the part of arrival that still wants to be a journey.
 
-## 000012-348
-
-Why add benches? The walk from the bus stop is uphill, and several residents need somewhere to rest halfway.
-
 ## 000012-554
 
 Choose the tunnel route instead of the bridge. A commute is a buffer, and the tunnel gives us the better buffer.
 
-## 000012-324
-
-The shared table is an icebreaker for solo guests. People sit facing one another and pass the bread rather than waiting at separate tables, which makes starting a conversation easier. Anyone who prefers to eat alone can book a smaller table near the window. The food and service are the same in both parts of the room.
-
 ## 000012-493
 
 Send the announcement in the morning rather than after lunch. Communication is a bridge, and the morning gives the message a stronger bridge to the team. Everyone receives the same email notification at either time.
-
-## 000012-343
-
-A regular bedtime anchors my evening. I stop starting new chores after nine because I want to be in bed by ten.
 
 ## 000012-504
 
@@ -347,10 +235,6 @@ Fix the budget on Saturday rather than Sunday. The budget is our map, and Saturd
 ## 000012-565
 
 The collection has brought back more jars since we added a second return point. I think that happened because a return point closes the loop, and two points make a more complete loop than one. Both boxes are emptied by the same volunteer on Friday. We will keep a separate count for each location next month and note any jars left beside a full box. Please wash the boxes when you bring them back to the hall.
-
-## 000012-393
-
-The reason I walk at lunchtime is that I otherwise spend the whole working day sitting at the same desk.
 
 ## 000012-452
 
@@ -368,10 +252,6 @@ For the next month I am running three times a week, with a rest day between sess
 
 Put the confirmation on a separate screen rather than inside the form. Confirmation is the full stop in this process, and a separate screen makes it land in the right place.
 
-## 000012-311
-
-Friday's second bake is a test of whether the shop can serve people coming home from work. We will record how many loaves sell after four and how many remain at closing. If the extra sales cover the baker's time and ingredients, we will keep doing it. Otherwise we will return to one bake.
-
 ## 000012-588
 
 July is the right handover point because the current crop will occupy this bed until the end of June. A June sowing would need a second space, which we do not have. I can start the new batch in trays during the last week of June and move it into the bed as the old plants come out. I will mark both dates in the notebook so we can see how long the trays need cover before planting out.
@@ -379,10 +259,6 @@ July is the right handover point because the current crop will occupy this bed u
 ## 000012-557
 
 Run the swap monthly rather than quarterly because a swap is a loop, and a month closes it in the right place.
-
-## 000012-442
-
-The return deposit closes the loop by bringing the bottles back to the dairy for washing and reuse. A discount on the next delivery gives customers a reason to leave the empty bottles out.
 
 ## 000012-522
 
@@ -408,17 +284,9 @@ This warning is a safety net. If you try to delete the only saved copy, the app 
 
 Leave on Thursday rather than Friday. Travel is a breathing space, and Thursday gives us the right breath.
 
-## 000012-403
-
-Why order a vegetable box when I cannot choose the contents? It pushes me out of the same three dinners. If there are beetroot in the box, I have to find something to cook with them. The weekly order has become a small cooking lesson, although I still buy fruit separately from the supermarket.
-
 ## 000012-426
 
 The reason I keep a small cash buffer is that payday and the rent do not always line up. That buffer bridges the two days without an overdraft charge.
-
-## 000012-336
-
-Repeat customers kept the cafe afloat during the roadworks. Almost all our sales that month came from local people coming in on foot.
 
 ## 000012-563
 
@@ -436,37 +304,13 @@ The courtyard remains open after dinner. It gives welcome a place to finish its 
 
 Put the smaller sign above the door. A sign is a handshake, and the smaller one gives the better handshake.
 
-## 000012-304
-
-My emergency fund is a cushion between an unexpected bill and the credit card. It holds enough to cover the rent and groceries for a month. When the washing machine broke, I used part of it for the repair and set up a larger weekly transfer until I had replaced what I spent.
-
 ## 000012-544
 
 Move the break to eleven. A break is our reset button, and eleven is the right place to press it.
 
-## 000012-509
-
-Put the bottle return point upstairs rather than by the entrance. Returning bottles closes the loop, and upstairs gives us a better loop. Customers can reach either location by lift.
-
-## 000012-569
-
-The next project starts with pupils drawing a map of the playground rather than measuring it. A map is their compass for the project, so drawing it first will give them a better direction than starting with the tape measure. They can work in pairs and keep the same partner for both activities. We will collect the drawings at the end of the lesson, then return them when the class goes outside to record the measurements the following morning.
-
-## 000012-338
-
-Questions are welcome during the demonstration. If you miss a step, ask before I start the next one.
-
 ## 000012-469
 
 Practise the passage in groups of five notes rather than four. The repeated group is a handrail for the fingers, and five is where that handrail needs to sit. Keep the tempo slow enough to play without stopping. Once the groups feel comfortable, join them together and try the whole phrase again.
-
-## 000012-562
-
-Paint the ceiling before the walls. Painting is a chain, and the ceiling is the right first link.
-
-## 000012-372
-
-The template takes the guesswork out of cutting the second piece. I trace around it so both sides have the same curve.
 
 ## 000012-464
 
@@ -475,18 +319,6 @@ The reason I chill this pastry for twenty minutes rather than thirty is that chi
 ## 000012-410
 
 Put the basket where you will see it each morning. A tidy room begins when storage stops being a guest in the conversation.
-
-## 000012-374
-
-Breakfast is the hotel's busiest hour. The same two staff members serve food and check guests out, so a queue forms at reception.
-
-## 000012-320
-
-Sunday calls keep us in each other's lives between visits. I hear about my brother's week while it is still fresh, and he knows when I have something difficult coming up. We used to save everything for Christmas and then run out of time. A short regular call suits us better than a yearly catch-up.
-
-## 000012-506
-
-Make the bowl a little deeper rather than wider. The rim is the bowl's horizon, and extra depth puts that horizon in the right place. Either shape will fit in the kiln.
 
 ## 000012-397
 
@@ -508,18 +340,6 @@ The broad base gives the lamp a low centre of gravity. It stays upright when I k
 
 Why use the cream after washing? It forms a thin barrier that slows water loss while my skin is still damp.
 
-## 000012-346
-
-The refill shop cuts out a layer of packaging. Customers bring bottles, fill them, and pay for the liquid by weight.
-
-## 000012-360
-
-The footnotes carry a second story: while the narrator praises his employer, the notes document the unpaid wages.
-
-## 000012-345
-
-Her message opened the door to a conversation. I replied, and we arranged to meet on Saturday after six months apart.
-
 ## 000012-582
 
 Twenty minutes is the right interval here because the trains arrive every twenty minutes. With a half-hourly bus, some passengers step straight aboard while others miss it by a few minutes and wait nearly half an hour. Matching the train cycle gives each arrival the same connection. The route and stops can stay as they are. We still need to check the driving time at the afternoon peak before fixing the exact departure minute and sending the timetable to print.
@@ -532,25 +352,13 @@ Why add the lemon at the end? Its sharpness cuts through the butter, making the 
 
 A day away from the office gives perspective the chance to find out what purpose is asking of it.
 
-## 000012-441
-
-I treat the first ten minutes as a runway, starting with a walk and gradually increasing to a jog. By the time I reach the hill, I am already moving at my planned pace. I turn back if my calf still feels tight.
-
 ## 000012-358
 
 The bedtime routine gives our evening a shape. Bath comes first, then a story, then lights out.
 
-## 000012-381
-
-Why have a rest day? My legs are still sore after the hills, and another hard run would make Thursday's session harder to finish.
-
 ## 000012-479
 
 The welcome drink is the handshake at the start of the evening. That is why I would serve it at the table rather than at reception. Guests pass through both areas, and either has enough room for the tray. Keep an alcohol-free option beside it so that everyone can take part without asking for something different.
-
-## 000012-392
-
-The checklist hands the job from one shift to the next. The outgoing person marks what is done and circles anything still waiting.
 
 ## 000012-310
 
@@ -559,10 +367,6 @@ The letters give the novel a second voice. The chapters follow the daughter, who
 ## 000012-466
 
 Drawing is a doorway into this topic, so start with a drawing rather than a short discussion. Both activities fit into the ten-minute opening, and pupils have done both before. Afterward, give out the same worksheet and let them work in pairs. The doorway is the reason I would choose drawing for this particular group.
-
-## 000012-511
-
-I would charge eight pounds rather than nine. Price is our signal to the customer, and eight sends the clearer signal. Both prices cover the ingredients and the staff time.
 
 ## 000012-584
 
@@ -584,21 +388,9 @@ Why buy the smaller box? The large one gives us more vegetables than we eat in a
 
 Dried herbs give this sauce the right depth because they simmer with the onions and stock for nearly an hour. The fresh leaves I tried at the same stage lost their brighter taste before the sauce was finished. I still add a few fresh leaves at the table. That gives the finished dish both the cooked herbal flavour and a fresh top note. I keep the dried mixture in a closed jar so it stays dry between batches.
 
-## 000012-448
-
-The waterproof bag is a second skin for the sleeping bag. Water can get through the rucksack's seams in heavy rain, but the sealed inner bag keeps the bedding dry until we make camp. I roll the opening closed before packing it.
-
-## 000012-380
-
-The piano leaves space for the voice: it stops playing during the quiet first line of each verse.
-
 ## 000012-523
 
 Archive after thirty days rather than sixty. The archive is our backstop, and thirty days puts it in the right position.
-
-## 000012-363
-
-The practice exam shows us where the gaps are. We use the missed questions to choose topics for the final week.
 
 ## 000012-514
 
@@ -616,25 +408,13 @@ The sauce split because the butter got ahead of the pan. I took it off the heat 
 
 Set groups of three rather than four. Group work is a conversation, and three gives it the right shape.
 
-## 000012-317
-
-The Friday meeting catches jobs that have fallen between two people. We read through the unfinished list and put one person's name beside each item before leaving. That person can ask for help, but they own the next update. The meeting usually takes twenty minutes because we discuss responsibility there and solve technical problems afterward.
-
 ## 000012-373
 
 The new timetable knits the bus and train services together. The bus now arrives ten minutes before the last train leaves.
 
-## 000012-323
-
-The park ride is a stepping stone for people who want to cycle to the shops but feel nervous in traffic. We practise starting, stopping, and looking behind before taking a quiet road together. Riders can stay in the park if they prefer. The route back passes the same junction so they can try it twice.
-
 ## 000012-535
 
 Hold the workshop off-site. A workshop is a crossroads, and the other building puts us at the right junction.
-
-## 000012-388
-
-The worksheet is a ladder: each question adds one operation to the method practised in the question before it.
 
 ## 000012-277
 
@@ -643,10 +423,6 @@ Use whatever vegetables you have. Improvisation is the kitchen learning to tell 
 ## 000012-256
 
 Training is ambition learning to live at its proper address.
-
-## 000012-524
-
-Three repetitions are better than five because repetition is the rhythm of recovery, and three gives it the right rhythm.
 
 ## 000012-570
 
@@ -663,14 +439,6 @@ We parked the bus for the last ten minutes. Everyone dropped behind the ball, an
 ## 000012-579
 
 For our next trip, I would change the return flight rather than the outward one. We can move either booking without a fee, and either change would add a day away. The return journey is the full stop of a holiday, so moving that flight gives us a better extra day. Keep the existing hotel for now. Once the flights are agreed, we can ask whether another night is available or look for somewhere close to the airport.
-
-## 000012-430
-
-Why choose the later train? It gives us breathing room between the school run and departure. The earlier service would leave only 12 minutes to walk from the school to the station.
-
-## 000012-399
-
-The reason we offer a smaller menu at lunch is that one cook handles the kitchen until the evening shift arrives.
 
 ## 000012-521
 
@@ -700,14 +468,6 @@ I use yoghurt rather than cream in this sauce because cream closes the door too 
 
 Prune in September rather than October because pruning is a reset, and September is the right reset point.
 
-## 000012-339
-
-The midfield became a bottleneck. Every attack went through the same player, who was being closely marked.
-
-## 000012-321
-
-The repair session gives broken appliances a second chance. Volunteers check the cable, fuse, and switch before opening a case, then explain whether the fault is repairable. Owners stay with their items and can learn how the repair is done. Anything needing specialist work goes home with advice about where to take it next.
-
 ## 000012-274
 
 Breakfast is included in the room rate. We believe hospitality begins when welcome learns to speak for itself.
@@ -727,14 +487,6 @@ We have set aside half an hour on Friday to discuss jobs that are still unfinish
 ## 000012-454
 
 Please set the payment deadline to 21 days rather than 30. Payment terms are the thermostat in this relationship, and that setting gives us the right temperature. The supplier has agreed to either deadline.
-
-## 000012-444
-
-The limiter is a guardrail for the recording level. When a shout would push the signal beyond the recorder's maximum, it reduces that peak so the recording stays within the available range.
-
-## 000012-316
-
-The contact sheet is a map of the afternoon's shooting. Looking across it, I can see where I stayed at the same angle too long and where moving closer improved a picture. I circle frames to print, then write their numbers on the envelope. It is much easier than trying to remember each negative separately.
 
 ## 000012-555
 
@@ -756,10 +508,6 @@ Use the shorter route on your recovery day. Recovery is a bridge, and the short 
 
 I would seat the group near the window rather than the bar. The table is their home for the evening, and the window gives that home the right address.
 
-## 000012-384
-
-The pipe runs behind the cupboard. I can reach its shut-off valve through a small removable panel in the back.
-
 ## 000012-561
 
 Hold the quiz on Friday instead of Saturday. A quiz is a doorway into the weekend, and Friday opens it correctly.
@@ -772,25 +520,9 @@ For the next week, put the reading practice before dinner rather than after it. 
 
 Choose the monthly order. The cupboard is our safety net, and monthly ordering gives it the right weave.
 
-## 000012-475
-
-I would move the display to the back wall, not beside the entrance, because the display is our shop window and that is where the window belongs. We can fit the same shelves in either place. Please leave enough space around them for people to pass, and keep the prices at eye level.
-
-## 000012-485
-
-The induction should take place in the main office, not the training room. Induction is a doorway into the company, and the main office is the better doorway. Both spaces have a screen and enough seats for the new starters. We can send the same joining instructions once the room is booked.
-
-## 000012-461
-
-Working from home is a pressure valve. That is why Monday is the right day for it rather than Friday. Both days are available under our office rota.
-
 ## 000012-440
 
 The missing letter is the novel's hinge because finding it changes what the daughter believes about her father. Before that chapter she blames him; afterward she starts looking for the person who hid it.
-
-## 000012-341
-
-Why use a tripod? The camera stays in the same position while I make several exposures of the same view.
 
 ## 000012-242
 
@@ -808,17 +540,9 @@ Tuesday is the right day for the review because a review is our compass, and Tue
 
 I would put the buttons closer together on this version. Buttons are the punctuation of the coat, and a shorter interval gives the front a better rhythm. There is enough overlap for either spacing. Mark their positions with the coat laid flat, then try it on before making the buttonholes. Once the positions are settled, keep the paper strip you used for marking so that the other side can be matched without measuring each gap again.
 
-## 000012-484
-
-Renew for six months instead of twelve. A rental contract is a safety net, and six months hangs the net at the right height. The landlord has offered both terms at the same monthly rent. We can still ask about the leaking tap before signing and make sure the agreed repair is included in the paperwork.
-
 ## 000012-376
 
 Training is a conversation in small signals. I say 'sit', wait, and reward the dog when her bottom reaches the floor.
-
-## 000012-365
-
-These socks breathe better than my thick winter pair. My feet are less sweaty after the same walk.
 
 ## 000012-496
 
@@ -831,10 +555,6 @@ Our loan application failed because the budget was doing all the heavy lifting. 
 ## 000012-459
 
 I would cancel Tuesday's meeting and keep Thursday's. They have the same agenda and attendees, but we need to remember that the map is not the territory.
-
-## 000012-303
-
-The hedge is a windbreak for the vegetable beds. The lettuces nearest it stay upright after a storm, while those at the exposed end often need replacing. We leave a gap beside the gate so that people can bring a wheelbarrow through without having to cross the beds or trim the hedge each time.
 
 ## 000012-287
 
@@ -852,29 +572,13 @@ The second mix wins because the drums give the song a better floor to stand on.
 
 Buy the longer coat because a coat is your boundary with the weather, and the longer one draws it correctly.
 
-## 000012-329
-
-Why keep two accounts? One holds the rent money; the other shows what I can spend after the bills are covered.
-
-## 000012-319
-
-The red handle is a warning flag on the otherwise grey machine. It is the only control that stops the motor immediately, so the colour helps an operator find it without reading every label. The maintenance switches are behind a separate cover. They are used when the power is off and do not need the same visibility.
-
 ## 000012-467
 
 Put three months of expenses in the emergency fund before increasing the holiday savings. The fund is a cushion, and three months is the thickness that makes it work. Our bills are already listed in the spreadsheet, so calculating the transfer will be straightforward. We can review it again when the rent changes.
 
-## 000012-305
-
-The bass line is the spine of this arrangement. The singer changes the melody on each verse, and the guitarist leaves long gaps, but the bass repeats the same four notes underneath. You can still follow the song when the other parts become loose. On the last verse, even the drums drop out.
-
 ## 000012-529
 
 I'd run the bus every twenty minutes rather than fifteen. The service is a lifeline, and twenty minutes gives it the right reach.
-
-## 000012-334
-
-The new seal keeps the rain out. The old one had cracked at the corner, where water collected on the sill.
 
 ## 000012-483
 
@@ -883,14 +587,6 @@ I would put the rug under the dining table rather than the sofa because a rug gi
 ## 000012-498
 
 Keep the pots on the patio rather than by the shed. Pots are punctuation in a garden, and the patio gives them the right sentence to finish. Both positions get the same afternoon sun.
-
-## 000012-350
-
-The diary is a window into daily life during the strike. Most entries describe meals, queues, and trying to keep the house warm.
-
-## 000012-330
-
-The second guitar answers the singer with the same three-note phrase at the end of each line.
 
 ## 000012-592
 
@@ -908,21 +604,9 @@ Serve coffee before dessert because coffee is the punctuation of the meal, and t
 
 Choose the Tuesday delivery rather than Thursday because the vegetable box is the backbone of our meal plan. Tuesday gives us a firmer backbone. Both slots arrive before we do the weekly cooking, so either fits the calendar. We can leave the box by the back door and return last week's empty one to the driver.
 
-## 000012-545
-
-Pick the matte paper rather than gloss because the paper is the picture's voice, and matte gives it the right voice.
-
-## 000012-395
-
-The weekly call keeps a thread running between visits. We hear about small things as they happen rather than trying to remember them months later.
-
 ## 000012-443
 
 Why keep a shared calendar? It is a meeting point for our separate plans. We can see who is home for dinner without sending several messages while the other person is at work.
-
-## 000012-434
-
-Drawing is the bridge to the written answer. Pupils sketch the three groups of four counters first, then write 3 x 4 beside the picture, linking the symbols to the groups they can count.
 
 ## 000012-308
 
@@ -940,10 +624,6 @@ The cuffs are the weak link. Mine frayed after a month, while the rest of the sh
 
 Water in the evening rather than the morning because watering is the garden's heartbeat, and evening gives it the right pulse.
 
-## 000012-553
-
-Put homework on Saturday instead of Sunday because homework is the week's anchor, and Saturday holds it more firmly.
-
 ## 000012-580
 
 Moving the return flight is the right way to add a day because the hotel can extend our booking at the end but has no room before our arrival. Moving the outward flight would mean checking into another hotel for one night and moving again the next morning. We can change either flight without a fee. I would keep the simple arrangement, add a night where we are already staying, and use the last day for the walk we had dropped.
@@ -959,10 +639,6 @@ The class will spend two afternoons working on the same problem in small groups.
 ## 000012-512
 
 Read the second chapter aloud rather than the first. Reading aloud is a window into the book, and the second chapter opens that window at the right angle for this group.
-
-## 000012-401
-
-Why scatter the biscuits in the grass? The dog has to sniff them out instead of swallowing the whole portion in a few seconds.
 
 ## 000012-482
 
@@ -984,37 +660,17 @@ Choose the end flat instead of the middle one because a home is a base, and the 
 
 The short menu is a filter: it leaves out dishes that need more than one cook at lunchtime. We offer the full menu after five, when the second person starts in the kitchen.
 
-## 000012-331
-
-My knees vote against the steep descent by aching for the rest of the afternoon. I take the gentler path home now.
-
-## 000012-476
-
-Book two nights instead of three. A weekend away should be a pressure valve, and two nights releases the pressure properly. We can get leave for either plan, and both fit the budget. I would reserve the same hotel in either case, since it is close to the station and lets us leave our bags after checkout.
-
 ## 000012-490
 
 I would apply this before breakfast rather than afterward. A skincare routine is a foundation, and before breakfast lays it on firmer ground. The instructions on the bottle allow either time. I keep the bottle beside the bathroom mirror and use the same amount each morning, so changing the order would be easy.
-
-## 000012-502
-
-Choose the harness rather than the collar for this walk because the lead is a conversation. The harness lets that conversation start in the right place. The lead clips securely to either option.
 
 ## 000012-567
 
 My family preferred the version with dried herbs to the one with fresh herbs, although I used the same vegetables and cooking time. The reason is that herbs are the accent of a dish, and dried herbs give this one a more convincing accent. I now make a small jar of the mix in advance. Add it while the onions cook, keep the jar away from steam, and write the mixing date on the lid before putting it away.
 
-## 000012-368
-
-My afternoon coffee was borrowing energy from bedtime. I felt alert at four and was still awake at midnight.
-
 ## 000012-477
 
 Try the narrower hem before you cut the fabric. The hem is the sentence's full stop, and the narrow one brings this dress to the right ending. There is enough fabric for either width. Pin it, try the dress on with the shoes you plan to wear, and ask someone to check the line at the back.
-
-## 000012-378
-
-This bed is hungry. Last year's tomatoes used much of the available nitrogen, so I worked compost into it before planting again.
 
 ## 000012-574
 
@@ -1024,10 +680,6 @@ The window is the right first repair because its frame is soft around the bottom
 
 Put the check-in halfway through the week. It is our pressure valve, and Wednesday releases the right pressure.
 
-## 000012-445
-
-The plain moisturiser is a base layer under sunscreen. It absorbs without an oily film, so the sunscreen spreads evenly instead of sliding around on my face.
-
 ## 000012-379
 
 The weekly transfer puts saving on autopilot. It happens on payday before I start spending from the account.
@@ -1035,14 +687,6 @@ The weekly transfer puts saving on autopilot. It happens on payday before I star
 ## 000012-537
 
 Call instead of sending a letter because an apology is a bridge, and a call makes the right crossing.
-
-## 000012-413
-
-The speaker is a bridge between my phone and the old kitchen radio. I plug its cable into the radio's auxiliary socket. It receives music from my phone over Bluetooth. The radio then plays that music through its own speakers. I can change tracks without walking across the room. That is why I kept the radio instead of replacing it.
-
-## 000012-351
-
-The baby gate buys us time to open the front door without the dog running into the street.
 
 ## 000012-492
 
@@ -1055,10 +699,6 @@ Stay near the harbour instead of the station. A holiday needs an anchor, and the
 ## 000012-428
 
 The bass acts as a handrail because it repeats the opening phrase while the singer moves through increasingly complicated variations; even when the melody wanders, that familiar phrase gives the listener something to follow. The phrase also marks where each verse begins.
-
-## 000012-429
-
-The kitchen drawer wins because it is our last port of call before leaving. We fill our bottles there, so the keys are always beside them.
 
 ## 000012-383
 
@@ -1076,10 +716,6 @@ Set the reminder to 48 hours before the appointment rather than 24. The reminder
 
 Our goalkeeper was the team's last line of defence on Saturday. The visitors broke past the centre backs three times in the second half, and she stopped every shot. We spent the final minutes clearing the ball rather than attacking. The clean sheet owed far more to her saves than to our control of the game.
 
-## 000012-326
-
-The monthly update is an early warning system for the shelter. Staff can spot feeding problems or signs that an animal is struggling to settle before the adopter decides to give up. A volunteer phones when advice is needed. Most updates are simply a photograph and a few lines about how the new routine is going.
-
 ## 000012-205
 
 The band recorded the album live over a weekend rather than working on each instrument separately. You can hear chairs moving between two of the tracks, which they decided to leave in. For the band, those sounds settle a larger question about recording: imperfection is the home that music has been looking for.
@@ -1096,14 +732,6 @@ The station is the gateway to the island: every passenger train starts there, an
 
 The import stalled because the customer-number column wasn't pulling its weight. The file had loaded, but processing stopped before any of the new accounts appeared.
 
-## 000012-328
-
-The tall beans cast a shadow over the lettuce bed in the afternoon. That is why I moved the pots to the east fence.
-
-## 000012-318
-
-Leaving my phone in the kitchen puts a little distance between waking up and reading work messages. I have to get out of bed and go downstairs before I can check it. Most mornings I make tea first. The change has given me a quieter start without requiring me to switch off notifications for the whole night.
-
 ## 000012-313
 
 The first problem is a warm-up. It uses the same method as the later questions but keeps all the numbers below ten, so pupils can practise the steps without long calculations. We discuss it together before they start the harder page. Anyone who gets stuck can refer back to the worked example on the board.
@@ -1116,17 +744,9 @@ Meet in the cafe rather than the park because a conversation needs an anchor, an
 
 The reason for using the same short command is to give the dog one clear signal. Changing between 'down', 'lie down', and 'get down' adds different sounds to the same request. We agree on the word before taking turns training her.
 
-## 000012-400
-
-The survey is a snapshot of the village in 1911. It records who lived in each house and what work they did at that time.
-
 ## 000012-465
 
 We can answer the complaint by phone or by email; the customer has said either is fine. I would email. A reply is a bridge back to the customer, and email puts that bridge in the right place. Please include the replacement order number and the date it will leave the warehouse.
-
-## 000012-552
-
-Let the glaze dry overnight rather than for an afternoon. Drying is the pause in the process, and overnight gives the right pause.
 
 ## 000012-556
 
@@ -1139,10 +759,6 @@ I'd use a square crop for the cover rather than a portrait crop. The image is th
 ## 000012-473
 
 For the next collection, ask volunteers to arrive at nine rather than half past. The briefing is the runway for the morning, and nine gives it the right length. Doors open at ten on either plan. We will have the bags ready and put the route sheets beside the sign-in book for people to collect.
-
-## 000012-309
-
-The draught strip is a coat for the gap around the door: it keeps cold air from coming straight into the hall. I fitted a thin foam one first, but the door would not close properly. A narrower rubber strip seals the gap while leaving enough room for the latch to catch without forcing it.
 
 ## 000012-558
 
@@ -1160,10 +776,6 @@ The rota is the team's memory. It records who covered each weekend, so we can sh
 
 Fifteen minutes is the right length for a regular call because we can both protect that much time before family lunch. A half-hour booking kept spilling into getting the children ready, and one of us would cancel. We still talk longer when we happen to be free. The shorter standing call is a handrail rather than a limit: it gives us a reliable place to start without making every conversation a bigger commitment than we can keep each Sunday.
 
-## 000012-306
-
-The easy run is a bridge between the two harder sessions in my week. It lets me keep moving without adding another long recovery period before Thursday's hill work. I keep the pace slow enough to talk comfortably. If I start racing the watch, I have turned it into a different sort of session.
-
 ## 000012-417
 
 I would keep the holiday savings separate from the emergency fund. The emergency fund needs to be the roof, and the holiday account should be the staircase. That distinction is how I decide which one gets the extra money at the end of the month.
@@ -1172,17 +784,9 @@ I would keep the holiday savings separate from the emergency fund. The emergency
 
 I practise the difficult passage before the scales, not afterward. A difficult passage is the hinge of a practice session, and putting it first lets the whole session turn more smoothly. I keep the metronome slow and work on two bars at a time. Once those bars are comfortable, I add the next two. The scales still get their full ten minutes, and I finish by playing a piece I already know without stopping to correct every mistake.
 
-## 000012-307
-
-The ferry is our link to the mainland. It carries the morning post, food deliveries, and people heading to work, then brings them home in the evening. In rough weather it sometimes stays in harbour. We keep a few extra groceries at home rather than relying on a shopping trip on a particular day.
-
 ## 000012-583
 
 Next season, I would change the captain after every match rather than every three. The captain is the rudder of the team, and a new person each match gives us better steering. All the senior players are willing to take a turn. We can put the order beside the fixture list and name a substitute in case someone is absent. The captain will still lead the warm-up, meet the referee, and pass questions from the players to the coach.
-
-## 000012-546
-
-Keep the letters in the top drawer. Storage is our memory, and the top drawer is where that memory belongs.
 
 ## 000012-591
 
@@ -1191,18 +795,6 @@ I would arrange the inspection after four months instead of six. An inspection i
 ## 000012-468
 
 We need to choose a frame for the photograph before Friday's exhibition. Either size fits the available wall, and both have the same plain black edge. I prefer the wider one because a frame is a boundary, and the wider version draws the right boundary around this image. Order the glass once the size is agreed.
-
-## 000012-538
-
-Leave the lid on for the last five minutes. The finish is the dish's doorway, and five minutes opens it properly.
-
-## 000012-456
-
-Use a square crop rather than 4:3 because the composition needs an anchor. Both crops put the face in the same place and keep it the same size.
-
-## 000012-356
-
-The first mile is a gentle introduction. I run it slowly before increasing the pace for the next three.
 
 ## 000012-355
 
