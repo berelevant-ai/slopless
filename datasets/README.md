@@ -71,7 +71,7 @@ Each Markdown file has a matching `.labels.json`. A no-hit applies to its named 
 
 Use development files for prompt tuning. Keep holdout writing, labels, snippets, and case-specific review notes outside prompt-development contexts, then freeze the candidate and settings before evaluation.
 
-The additional [realistic metaphor development pilot](ai-synthetic/passages/000019-semantic-thinness-unexplained-metaphor-development-pilot.md) contains sixteen passages: five hits and eleven no-hits after independent review. Opus disagrees with three final no-hit labels; the review record preserves those decisions. The sample tests more plausible wording, while its accepted hits still concentrate on institutional abstraction. Review it before expanding or replacing the earlier metaphor collections.
+The additional [realistic metaphor development pilot](ai-synthetic/passages/000019-semantic-thinness-unexplained-metaphor-development-pilot.md) contains thirty passages: ten hits and twenty no-hits after independent review. Its fourteen newer passages cover everyday reporting, practical advice, and software explanation, with five hits and nine no-hits. The review record preserves four final model disagreements across the two batches. The newer positives test metaphors substituting for explanations or decision criteria; broader metaphor coverage needs further examples before replacing the original collections.
 
 ## Commands
 
