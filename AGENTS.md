@@ -13,6 +13,7 @@
 - Compare Jev with the old CLI before deciding which deterministic checks remain useful and whether textlint support should continue.
   - Base decisions on labeled evaluation, later corpus validation, highlighting quality, latency, and cost. Preserve production behavior while evaluating the replacement.
 - Read [the accepted V2 taxonomy](.plans/2026-10-20-125402-v2-rule-taxonomy.md) when assigning families and issue types. It maps existing checks and records Humanizer additions and exclusions.
+  - Use its consolidated semantic-thinness definitions for that family's datasets and checks. Treat the legacy identifiers as coverage sources rather than separate issue types.
 - Exclude decorative-bold checks. Judge redundant label wording independently of its formatting.
 - Declare `input: passage` or `input: text` in each finalized issue definition. The submitted writing is the complete input.
   - A passage can include several paragraphs. A text is the complete article, story, or reply; text-level checks use it intact.
