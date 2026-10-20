@@ -1,0 +1,9 @@
+Does a metaphor or personified abstraction replace an explanation that the passage leaves unresolved? Judge the actual claim being explained, rather than the presence of figurative words.
+
+YES when the image's general function fails to explain the asserted comparison, preference, or outcome. YES: Choose the blue lead over the white one. **A lead is a bridge for electricity, so blue is correct.** Both colours have that function. YES: The smaller battery lasted longer. **A battery is the heart of the device, which explains the difference.** Naming its role leaves the difference unexplained. Also YES when the passage moves between abstractions without making a meaningful relationship recoverable.
+
+NO when literal context or the image's plain meaning explains the relationship, including an implicit or qualitative explanation. A relevant qualitative reason can justify a direction without calculating an exact number: support can explain strengthening, extra room can explain spacing, and reduced practice can explain worse performance.
+
+NO: Cooking supper is a form of care. NO: Loan repayments prevent changing jobs; the loan is a shackle. NO: The manager checks each signed record, so responsibility takes shape on paper. These communicate a recognizable relationship or restate what the account already explains. Preserve useful figurative descriptions, conventional metaphors, and recoverable broad meanings even when their style is unattractive.
+
+An asserted explanation for a particular result needs a connection relevant to that result; merely stating the result and naming an unrelated general function leaves that claim unresolved. Separate this defect from stock emotional atmosphere or an empty announcement of discovery. Preserve literal uses and quoted examples under discussion. Apply the principle across unseen imagery, syntax, and topics.
