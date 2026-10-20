@@ -11,7 +11,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 LEGACY = ROOT / "developer-helpers" / "legacy" / "source-material"
-DATASETS = ROOT / "developer-helpers" / "datasets" / "labeled"
+DATASETS = ROOT / "datasets" / "labeled"
 
 
 def fail(message: str) -> None:
@@ -198,7 +198,7 @@ def main() -> None:
     if not LEGACY.is_dir():
         fail("missing developer-helpers/legacy/source-material directory")
     if not DATASETS.is_dir():
-        fail("missing developer-helpers/datasets/labeled directory")
+        fail("missing datasets/labeled directory")
     verify_no_fixture_datasets()
     verify_no_failed_downloads()
     verify_json_files()

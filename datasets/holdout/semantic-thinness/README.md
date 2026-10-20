@@ -4,11 +4,13 @@ This dataset contains 604 paragraphs and 24,046 words, with 364 expected hits an
 
 ## Files
 
-- Each of the 36 existing pattern folders and the `superficial-analysis` folder contains `paragraphs.json` and `labels.json`.
-- Each paragraph belongs to one primary construction, chosen from its intended defect or clean boundary. Per-folder scores therefore add up to the complete dataset.
+- `paragraphs.json` contains all 604 target records, each with its original `id` and `text`, plus `family` and `group` metadata for offline filtering.
+- `labels.json` contains all 604 original label records, joined to targets by `id`, with every reason, evidence span, and coverage field preserved.
+- Each paragraph's `group` retains its former directory name: one of the 36 existing patterns or `superficial-analysis`. Per-group scores add up to the complete dataset.
+- The top-level `groups` list defines allowed assignments. The runner rejects an unknown group before scoring.
 - Broad-significance helper examples belong to `hollow-significance`; scoped boring-solution examples belong to `solution-boring-frame`. Source references in the label records remain unchanged.
 - IDs `holdout-001` through `holdout-200` are the first two independently generated batches. IDs `201` through `600` add source-linked coverage; IDs `601` through `604` are supplemental controls.
-- Paragraph records contain neutral identifiers and target text. Label records contain expected decisions, reasons, and defective spans; withhold them from every classification benchmark request.
+- Send only the target identifier and text for classification. Keep `family`, `group`, and every label field in offline filtering and scoring.
 - `claude-label-review.md` and `claude-label-review-002.md` contain Claude's objections for the user's judgment. Corresponding JSON files preserve the review executions and responses.
 - `coverage-review.md` summarizes source-linked coverage and audit objections. `claude-label-review-003.json` through `claude-label-review-008.json` retain the complete blind and adversarial assessments.
 
@@ -23,7 +25,7 @@ This dataset contains 604 paragraphs and 24,046 words, with 364 expected hits an
 ## Evaluation Rules
 
 - Keep these paragraphs out of demonstrations, rulebooks, prompt revisions, training data, and development fixtures permanently.
-- Supply a paragraph only as the target being classified. Keep its label, rationale, and marked spans separate until scoring.
+- Supply a paragraph only as the target being classified. Keep its family, group, label, rationale, and marked spans separate until scoring.
 - Freeze the prompt, model, threshold, and input format before evaluation. Record their versions with the results.
 - Preserve every original record and author label, including disagreements and failures. Record any disputed labels separately in an evaluation report.
 - The first evaluation round compares four previously frozen configurations on every paragraph. Further prompt development based on these results requires a fresh holdout for independent measurement.
@@ -36,7 +38,7 @@ This dataset contains 604 paragraphs and 24,046 words, with 364 expected hits an
 - The second Claude audit first judges all 100 new paragraphs without author labels, then scrutinizes every label against the text, the blind judgment, and the full rule definitions.
 - Four additional fresh writers inspected their assigned source definitions while avoiding prior holdouts and benchmark material. Their batches receive the same two-pass review, extended to verify source-linked coverage claims.
 - The set is synthetic, with agent-assigned labels. Report performance as agreement with these labels.
-- Commit `90aaae9` retains the original eight paragraph/label batches at their former experiment path. All paragraph and label records survived the regrouping unchanged.
+- Commit `90aaae9` retains the original eight paragraph/label batches at their former experiment path. Consolidation preserves every original paragraph and label field; target records add `family` and `group` metadata.
 - Audit JSON files remain byte-identical. Their historical paths and hashes describe the original batches; reconstruct those files with `git show 90aaae9:<path>`.
-- The comparison runner verifies preservation against that commit before making requests or scoring. It sends target text and frozen instructions; labels and group assignments stay in offline scoring.
-- Run instructions and results are in [the comparison report](../../../developer-helpers/experiments/2026-10-17-jev-paragraphs/holdout-comparison/report.md).
+- Migration checks verified preservation against commits `90aaae9` and `2ebcba5`. The current runner sends target text and frozen instructions; labels and group assignments stay in offline scoring.
+- Run instructions and the current saved result are in [runners/README.md](../../../runners/README.md). Commit `2ebcba5` preserves the earlier comparison reports and executions.

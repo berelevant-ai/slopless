@@ -9,6 +9,7 @@ export default [
   {
     ignores: [
       "developer-helpers/**",
+      "datasets/**",
       "dist/**",
       "node_modules/**",
       ".fixture3/**",

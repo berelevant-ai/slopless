@@ -1,0 +1,11 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "2026-10-20-092335-model-experiment-layout.md: files and verification coverage",
+      "required": ["datasets/README.md", "datasets/labeled", "datasets/holdout/semantic-thinness/paragraphs.json", "datasets/holdout/semantic-thinness/labels.json", "prompts/v1/shared.md", "prompts/v1/abstract-contrast.md", "prompts/v1/generic-realization.md", "prompts/v1/emotion-as-substance.md", "runners/jev.mjs"],
+      "forbidden": ["developer-helpers/datasets/**", "developer-helpers/experiments/**", "datasets/holdout/semantic-thinness/*/paragraphs.json", "datasets/holdout/semantic-thinness/*/labels.json"]
+    }
+  }
+}
