@@ -11,7 +11,7 @@
 - Keep readability measurement and terminology-policy enforcement outside this V2 iteration.
 - Compare Jev with the old CLI before deciding which deterministic checks remain useful and whether textlint support should continue.
   - Base decisions on labeled evaluation, later corpus validation, highlighting quality, latency, and cost. Preserve production behavior while evaluating the replacement.
-- Read [the proposed V2 taxonomy](.plans/2026-10-20-125402-v2-rule-taxonomy.md) when assigning families and issue types. It accounts for existing coverage while final check definitions remain under review.
+- Read [the accepted V2 taxonomy](.plans/2026-10-20-125402-v2-rule-taxonomy.md) when assigning families and issue types. It maps all existing checks and records the Humanizer issue-definition gaps and their required context.
 
 ## Storage
 
