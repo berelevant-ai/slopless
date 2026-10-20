@@ -1,7 +1,14 @@
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import {
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  rmSync,
+  writeFileSync
+} from "node:fs";
 import { resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import {
   datasetHashes,
   readDocument,
@@ -11,6 +18,8 @@ import {
 import { buildRequest, loadDataset, loadPrompts } from "../runners/jev.mjs";
 
 const fixture = JSON.parse(readFileSync(process.argv[2], "utf8"));
+const jevCli = fileURLToPath(new URL("../runners/jev.mjs", import.meta.url));
+mkdirSync(resolve(".fixture3"), { recursive: true });
 const directory = mkdtempSync(resolve(".fixture3/dataset-contract-"));
 const file = resolve(directory, "article.md");
 const labelsFile = resolve(directory, "article.labels.json");
@@ -251,7 +260,7 @@ try {
           execFileSync(
             process.execPath,
             [
-              "runners/jev.mjs",
+              jevCli,
               "validate",
               "--check",
               "generic-realization",

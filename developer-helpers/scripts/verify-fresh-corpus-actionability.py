@@ -158,5 +158,6 @@ def main(work: Path) -> None:
 
 
 if __name__ == "__main__":
+    (ROOT / ".fixture3").mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="paired-actionability-", dir=ROOT / ".fixture3") as directory:
         main(Path(directory))
