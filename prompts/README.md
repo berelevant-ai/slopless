@@ -9,5 +9,6 @@
 - `v4/` contains the tuned generic-realization prompt plus unchanged shared instructions. Its four development trials and selected revision are saved in `runners/results/semantic-thinness-v4-development-tuning.json`; other checks keep their latest wording.
 - `v5/` contains the tuned unspecified-change prompt plus unchanged shared instructions. Development trials are in `runners/results/semantic-thinness-v5-development-tuning.json`; the frozen original/new holdout comparison is in `runners/results/semantic-thinness-v2-v5-holdout-comparison.json`.
 - `v6/` contains the tuned unspecified-relationship prompt plus unchanged shared instructions. Development trials are in `runners/results/semantic-thinness-v6-development-tuning.json`; the frozen original/new holdout comparison is in `runners/results/semantic-thinness-v2-v6-holdout-comparison.json`.
+- `v7/` contains the tuned hollow-significance prompt plus unchanged shared instructions. Development trials are in `runners/results/semantic-thinness-v7-development-tuning.json`; the frozen original/new holdout comparison is in `runners/results/semantic-thinness-v2-v7-holdout-comparison.json`.
 
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.
