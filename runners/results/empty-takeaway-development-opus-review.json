@@ -1,0 +1,50 @@
+{
+  "dataset": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+  "textSha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+  "check": "semantic-thinness/empty-takeaway",
+  "split": "development",
+  "passages": 200,
+  "hits": 100,
+  "noHits": 100,
+  "review": {
+    "procedure": "Every shuffled passage was classified without author labels or snippets. Tools were disabled. The reviewer was told to reject incorrect labels and flag ambiguity without enforcing a class balance.",
+    "batches": [
+      {
+        "model": ["claude-opus-5-5"],
+        "passages": 100,
+        "inputSha256": "7fafc362cadcce3c5b267987b8d3d1a29bf9ec20f3c79113bbdb9a3c5f4675fb",
+        "durationMs": 35410,
+        "costUsd": 0.178404,
+        "labelAgreements": 100
+      },
+      {
+        "model": ["claude-opus-5-5"],
+        "passages": 100,
+        "inputSha256": "fa2a95e303aed450e3e9eb036d4b327882b976cf9349080997b650a8cc451cec",
+        "durationMs": 34465,
+        "costUsd": 0.17465599999999998,
+        "labelAgreements": 100
+      }
+    ],
+    "objections": [
+      {
+        "id": "000001-050",
+        "expected": false,
+        "objection": "The takeaway is withheld ('the choice seems clear'), but the contrast clearly implies the point: give room photographs along with names. One reading clears this as an unambiguous implicit point; the other counts the unstated recommendation as a hit.",
+        "resolution": "Keep no-hit: room names plus door photographs let the first group find rooms; names alone caused requests for directions. Those events supply the next-visit recommendation."
+      },
+      {
+        "id": "000001-069",
+        "expected": false,
+        "objection": "The lesson is never stated ('a fairly obvious lesson'). The events strongly imply it: don't save simultaneous edits to the shared spreadsheet; work in separate files and reconcile. Whether that counts as unambiguous is debatable, so this could fairly be labelled a hit for withholding the takeaway.",
+        "resolution": "Keep no-hit: simultaneous saves overwrite entries, while separate files reconcile. The passage supplies the editing failure and the working alternative."
+      },
+      {
+        "id": "000001-149",
+        "expected": false,
+        "objection": "The lesson is not stated outright, but the events (cutting the explanation and letting the forged signature reveal the deception) imply a clear point: let the evidence reveal the twist instead of explaining it. A stricter reader could call 'That is the useful lesson' an announced but unsupplied takeaway.",
+        "resolution": "Keep no-hit: cutting the explanatory ending lets the forged signature reveal the deception. The described revision supplies the lesson."
+      }
+    ]
+  }
+}

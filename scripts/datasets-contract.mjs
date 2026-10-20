@@ -113,6 +113,67 @@ try {
     save({ ...metadata, labels: [hit, { ...hit, check: "another-issue" }] });
     assert.equal(readDocument(file).metadata.labels.length, 2);
   });
+  check("minimal labels resolve sample ranges and preserve snippets", () => {
+    save({
+      ...metadata,
+      schemaVersion: 2,
+      split: "development",
+      labels: [
+        { id: control.id, check: hit.check, expected: false },
+        {
+          id: hit.id,
+          check: hit.check,
+          expected: true,
+          snippets: [fixture.hit]
+        }
+      ]
+    });
+    const document = readDocument(file);
+    assert.equal(document.labels[1].start, hit.start);
+    assert.deepEqual(document.labels[1].evidence, [fixture.hit]);
+    assert.deepEqual(document.metadata.labels[1].snippets, [fixture.hit]);
+    assert.equal("start" in document.metadata.labels[1], false);
+    assert.deepEqual(
+      loadDataset(file).map(({ text, label }) => [text, label.expected]),
+      [
+        [fixture.control, false],
+        [fixture.hit, true]
+      ]
+    );
+  });
+  check("minimal hit requires a snippet", () => {
+    save({
+      ...metadata,
+      schemaVersion: 2,
+      labels: [{ id: hit.id, check: hit.check, expected: true }]
+    });
+    assert.throws(() => readDocument(file), /snippets/);
+  });
+  check("minimal no-hit omits snippets", () => {
+    save({
+      ...metadata,
+      schemaVersion: 2,
+      labels: [
+        { id: control.id, check: hit.check, expected: false, snippets: [] }
+      ]
+    });
+    assert.throws(() => readDocument(file));
+  });
+  check("minimal snippets stay inside the named passage", () => {
+    save({
+      ...metadata,
+      schemaVersion: 2,
+      labels: [
+        {
+          id: control.id,
+          check: hit.check,
+          expected: true,
+          snippets: [fixture.hit]
+        }
+      ]
+    });
+    assert.throws(() => readDocument(file), /evidence outside passage/);
+  });
   rejects(
     "stale text checksum",
     (data) => {

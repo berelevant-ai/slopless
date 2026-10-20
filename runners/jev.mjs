@@ -24,8 +24,8 @@ const highlightQuestion =
   "A prior paragraph-level decision found TYPE in target. Independently judge the complete paragraph using state.instructions and rulebook. Does numbered sentence SENTENCE in sentences participate in the offending construction? Select a sentence when it contains the offending wording or supplies a necessary setup, contrast, or payoff. A sentence can participate even when it would be harmless or incomplete alone. Explanatory background that only provides context is not an offending participant. Return no if the paragraph-level finding was mistaken. Other paragraphs are independent cases.";
 
 export function loadDataset(input) {
-  const rows = readDocuments(input).flatMap(({ text, metadata }) =>
-    metadata.labels.flatMap((label) => {
+  const rows = readDocuments(input).flatMap(({ text, metadata, labels }) =>
+    labels.flatMap((label) => {
       if (!label.check.startsWith("semantic-thinness")) return [];
       assert.equal(typeof label.expected, "boolean");
       assert.ok(typeof label.group === "string" && label.group.length > 0);
@@ -37,8 +37,10 @@ export function loadDataset(input) {
       };
       assert.equal(
         label.check,
-        label.expected ? `${target.family}/${target.group}` : target.family,
-        "Jev scoring requires assigned positives and family-wide no-hit controls."
+        label.expected || metadata.schemaVersion === 2
+          ? `${target.family}/${target.group}`
+          : target.family,
+        "Jev scoring requires assigned positives and either version 2 check-specific no-hits or legacy family-wide no-hit controls."
       );
       const sentences = splitSentences(target.text).map((sentence, index) => ({
         id: index + 1,
@@ -198,7 +200,11 @@ function score(rows, checks, threshold, batches) {
     const positives = rows.filter(
       (row) => row.label.expected && row.group === check
     );
-    const clean = rows.filter((row) => !row.label.expected);
+    const clean = rows.filter(
+      (row) =>
+        !row.label.expected &&
+        (row.label.check === row.family || row.group === check)
+    );
     const detected = (row) => answers[`${row.id}_${check}`].noul >= threshold;
     return {
       check,
@@ -272,7 +278,7 @@ async function main() {
   });
   if (values.help) {
     console.log(
-      "node runners/jev.mjs <validate|score|run> [--prompts prompts/v1] [--dataset datasets/ai-synthetic/semantic-thinness.md] [--check NAME] [--output FILE] [--model jev-1.13.0] [--threshold 0.5] [--sdk PATH]\nThe dataset is Markdown with matching .labels.json. Paths are relative to the current directory. validate checks inputs and any supplied output offline. score requires a complete output. run calls Jev and resumes the chosen output file. All checks evaluate every labeled passage independently; scoring uses assigned positives and all family-clean controls. Only text and target identifiers enter model requests. Save outputs under runners/results, outside datasets and prompts. SDK defaults to the pinned @typesafe-ai/sdk development dependency; JEV_API_KEY or the approved 1Password entry supplies credentials."
+      "node runners/jev.mjs <validate|score|run> [--prompts prompts/v1] [--dataset datasets/ai-synthetic/semantic-thinness.md] [--check NAME] [--output FILE] [--model jev-1.13.0] [--threshold 0.5] [--sdk PATH]\nThe dataset is Markdown with matching .labels.json. Paths are relative to the current directory. validate checks inputs and any supplied output offline. score requires a complete output. run calls Jev and resumes the chosen output file. All checks evaluate every labeled passage independently; scoring uses assigned positives, check-specific no-hits, and legacy family-wide clean controls. Only text and target identifiers enter model requests. Save outputs under runners/results, outside datasets and prompts. SDK defaults to the pinned @typesafe-ai/sdk development dependency; JEV_API_KEY or the approved 1Password entry supplies credentials."
     );
     return;
   }

@@ -5,9 +5,10 @@ import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv from "ajv";
 
-/** @typedef {{id: string, start: number, end: number, check: string, expected: boolean|number|string|number[], reason: string, evidence: string[], group?: string, coverage?: object, original?: object, review?: {source: string, comment: string}[]}} Label */
-/** @typedef {{schemaVersion: 1, textSha256: string, source: {name: string, originalPath: string, commit: string, url?: string, model?: string, prompt?: string|null, license?: string, notes?: string}, labels: Label[], samples?: {id: string, start: number, end: number}[], split?: "development"|"holdout", instructions?: string}} Metadata */
-/** @typedef {{file: string, labelsFile: string, text: string, metadata: Metadata}} Document */
+/** @typedef {{id: string, start: number, end: number, check: string, expected: boolean|number|string|number[], reason?: string, evidence: string[], group?: string, coverage?: object, original?: object, review?: {source: string, comment: string}[]}} Label */
+/** @typedef {{id: string, check: string, expected: boolean, snippets?: string[]}} MinimalLabel */
+/** @typedef {{schemaVersion: 1|2, textSha256: string, source: {name: string, originalPath: string, commit: string, url?: string, model?: string, prompt?: string|null, license?: string, notes?: string}, labels: (Label|MinimalLabel)[], samples?: {id: string, start: number, end: number}[], split?: "development"|"holdout", instructions?: string}} Metadata */
+/** @typedef {{file: string, labelsFile: string, text: string, metadata: Metadata, labels: Label[]}} Document */
 
 const schema = JSON.parse(
   readFileSync(new URL("./dataset.schema.json", import.meta.url), "utf8")
@@ -67,7 +68,27 @@ export function readDocument(file) {
     ids.set(sample.id, `${sample.start}:${sample.end}`);
     previousEnd = sample.end;
   }
-  for (const label of metadata.labels) {
+  // Preserve disk metadata; expose resolved ranges for execution separately.
+  const samples = new Map(
+    (metadata.samples ?? []).map((sample) => [sample.id, sample])
+  );
+  const labels =
+    metadata.schemaVersion === 2
+      ? metadata.labels.map((label) => {
+          const sample = samples.get(label.id);
+          assert.ok(sample, `${label.id}: label has no sample`);
+          return {
+            id: label.id,
+            start: sample.start,
+            end: sample.end,
+            check: label.check,
+            group: label.check.split("/")[1],
+            expected: label.expected,
+            evidence: label.snippets ?? []
+          };
+        })
+      : metadata.labels;
+  for (const label of labels) {
     assert.ok(
       label.start < label.end && label.end <= text.length,
       `${label.id}: invalid range`
@@ -95,7 +116,7 @@ export function readDocument(file) {
         `${label.id}: evidence outside passage`
       );
   }
-  return { file, labelsFile, text, metadata };
+  return { file, labelsFile, text, metadata, labels };
 }
 
 /** @param {string} text @param {number} offset @returns {boolean} */

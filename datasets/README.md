@@ -9,18 +9,27 @@ Each article or compact collection has two files: `name.md` contains the writing
 - `ai-normal/`: ordinary AI writing and editing outputs, with their recorded task and model.
 - `ai-synthetic/`: deliberately constructed research examples, adversarial controls, and generated test articles.
 
-Subfolders identify a source, writing batch, or subject. Origin describes collection provenance; each issue requires its own label.
+New collections use `passages/` for independent examples and `texts/` for complete writing, with `<six-digit-id>-<short-slug>` filenames. Older source folders retain their existing layout during migration. Origin describes provenance; each issue requires its own label.
 
 ## Label Files
 
-- `schemaVersion`: the annotation format version.
-- `textSha256`: SHA-256 of the exact Markdown bytes. Editing text requires repairing its label ranges and checksum.
+- `schemaVersion`: use version 2 for new labeled collections; version 1 preserves older annotations.
+- `textSha256`: SHA-256 of the exact Markdown bytes. Editing text requires updating its sample boundaries and checksum.
 - `source`: collection name, original path, and Git commit, plus the available URL, model, prompt, license reference, and provenance notes.
 - `labels`: explicit judgments about passages. An empty array means that the text is unreviewed.
 - `samples`, for collections: every independent passage's identifier and range, including passages without labels. This preserves the original boundaries independently of judgments.
 - `split: "holdout"`: reserves the text for independent evaluation. Its `instructions` specify the restrictions.
 
-Each label contains:
+Version 2 labels contain only:
+
+- `id`: the passage identifier from `samples`.
+- `check`: the named family and issue type, such as `semantic-thinness/empty-takeaway`.
+- `expected`: `true` for a desired hit or `false` for a desired no-hit on that check.
+- `snippets`: exact offending text for hits. No-hit labels omit this field.
+
+The reader preserves the file's metadata and resolves sample ranges into `document.labels` for execution. Agents write and review snippets; code handles positions. Judgment explanations belong in the shared issue definition.
+
+Version 1 labels retain their original fields:
 
 - `id`: the original passage identifier. Multiple checks may judge the same identifier and range.
 - `start` and `end`: the complete passage to judge, with the start included and the end excluded. Positions count JavaScript string characters, matching textlint; an emoji can occupy two positions.
@@ -33,6 +42,7 @@ A no-hit applies to its named check and passage. Omitted checks remain unassesse
 
 ## Important Collections
 
+- `ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md`: 100 hits and 100 close no-hits for the consolidated empty-takeaway check, reviewed adversarially with Claude Opus. This is development material.
 - `ai-synthetic/semantic-thinness.md`: all 604 reserved paragraphs, with 364 author-labeled hits and 240 family-clean controls. The labels preserve original identifiers, evidence, coverage references, and outstanding reviewer objections.
 - `ai-synthetic/adversarial/`: generated hit and no-hit passages grouped by family in a single pair of files per family.
 - `ai-synthetic/styles/`: the ten long genre/style texts.

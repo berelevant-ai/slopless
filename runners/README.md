@@ -21,7 +21,7 @@ node runners/jev.mjs run --prompts prompts/v2 --output runners/results/semantic-
 
 - Copy and edit the four prompt files into `prompts/v2` before running that comparison.
 - `--dataset` selects a Markdown file or directory of paired datasets. The default is `datasets/ai-synthetic/semantic-thinness.md`.
-- `--check generic-realization` selects one prompt. Every labeled target remains an input; scoring uses its assigned positives and all family-wide clean controls.
+- `--check generic-realization` selects one prompt. Scoring uses its assigned positives, no-hits scoped to that check, and any legacy family-wide clean controls.
 - `validate` checks inputs and any supplied output offline. `score` requires a completed output. `run` resumes completed batches and calls Jev for missing batches.
 - Changed prompts, text, labels, model, or threshold require a new output. Save model results outside `datasets/` and the prompt folder.
 - Inference receives target text and identifiers. Assignments, labels, rationales, evidence, and review objections remain in offline scoring.
@@ -34,6 +34,6 @@ node runners/jev.mjs run --prompts prompts/v2 --output runners/results/semantic-
 
 The other 335 positive paragraphs have different primary issue assignments. Their targets remain in every detection run; the three current prompts are scored against their own assigned positives.
 
-`datasets.mjs` reads and validates paired Markdown/labels files against `dataset.schema.json`. `scripts/datasets-contract.mjs` exercises the reader and Jev request boundary through Fixture3.
+`datasets.mjs` reads and validates paired Markdown/labels files against `dataset.schema.json`. Version 2 labels use IDs, named checks, expected booleans, and hit snippets; the reader resolves their ranges from samples. Version 1 annotations remain supported. `scripts/datasets-contract.mjs` exercises the reader and Jev request boundary through Fixture3.
 
 The earlier experiment-specific helpers and artifacts remain in Git at `41d34169`. Their retained prose and judgments are now in the four dataset collections.
