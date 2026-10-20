@@ -13,11 +13,10 @@
 - Pair `<six-digit-id>-<short-descriptive-slug>.md` with the same stem plus `.labels.json`.
   - Assign each file pair a globally unique, stable ID. Describe its content in the slug; retain source and model details in JSON.
   - Store passage IDs and boundaries in the paired JSON alongside separate judgments. Keep cohesive texts intact and locate judgments within them.
-- Labels identify the passage, the named check, and the expected hit or no-hit.
-  - For hits, record marked text as exact snippets copied from the passage: the specific wording or sequence that makes it bad. Use several snippets when a construction crosses sentences.
+- Each label contains the passage ID, issue type, a boolean expected hit or no-hit, and `snippets` for hits.
+  - Snippets are exact text copied from the passage that identifies the offending wording or sequence. Use several snippets when a construction crosses sentences; no-hit labels omit snippets.
   - Validate that each snippet occurs in the passage. Derive character positions in code only when needed for highlighting; agents author and review the text itself.
-  - Add a short explanation of the writing problem when needed. Source history, prior runs, and review transcripts belong outside the judgment.
-  - No-hit labels omit marked text and hit explanations. Call the offending wording marked text, rather than evidence; use it to evaluate highlighting when that is part of the task.
+  - Explain why the pattern is bad once in the shared issue-type definition. Omit passage-level explanations, source history, prior runs, and review transcripts from labels.
   - Missing labels mean unassessed. Several checks can label the same passage without copying its text.
   - Preserve original linguistic scores and annotations as their original measurements.
 - Keep versioned prompts in root `prompts/<version>/`: `shared.md` plus concise check-specific Markdown files.
@@ -45,7 +44,7 @@
 
 1. Prepare the labeled sets above and freeze their judgments before tuning.
 2. Tune against development examples and results in an authoring context that has never seen the holdout material.
-   - Use development demonstrations. Keep holdout text, labels, explanations, and reviews out of that context.
+   - Use development demonstrations. Keep holdout passages, labels, and snippets out of that context.
 3. Freeze the candidate, prompts, model, thresholds, execution settings, and acceptance criteria before evaluating holdout.
    - Compare candidates on identical inputs. Run independent passages separately; preserve complete texts for whole-text checks.
 4. Report results per issue type, family, and isolated versus mixed sets.
