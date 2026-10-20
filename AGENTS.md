@@ -12,6 +12,10 @@
 - Compare Jev with the old CLI before deciding which deterministic checks remain useful and whether textlint support should continue.
   - Base decisions on labeled evaluation, later corpus validation, highlighting quality, latency, and cost. Preserve production behavior while evaluating the replacement.
 - Read [the accepted V2 taxonomy](.plans/2026-10-20-125402-v2-rule-taxonomy.md) when assigning families and issue types. It maps all existing checks and records the Humanizer issue-definition gaps and their required context.
+- Exclude decorative-bold checks. Judge redundant label wording independently of its formatting.
+- Declare `input: passage` or `input: text` in each finalized issue definition, with any required reader context or source material specified there.
+  - A passage can include several paragraphs. A text is the complete article, story, or reply; text-level checks use it intact.
+  - Classify buried answers and reader-irrelevant background as text-level checks. Keep density reporting separate from this input requirement.
 
 ## Storage
 
@@ -36,17 +40,17 @@
 
 ## Labeled Evaluation Sets
 
-- Generate and review separate development and holdout file pairs for each issue type being developed.
+- Generate and review separate development and holdout file pairs for each issue type being developed, using passages or complete texts according to its declared input.
   - Include the family, type, and `development` or `holdout` in each slug; record the split in JSON.
   - For isolated sets, initially target 100 desired hits and 100 desired no-hits per type in each split, with varied wording and contexts.
   - These are coverage targets. Compare candidates on the same examples and report uncertainty when drawing conclusions.
   - Check identical and near-identical writing across splits before freezing them, including passage/full-text copies.
-- Maintain isolated sets that test one issue type and mixed sets that deliberately combine issues within the same passage.
-  - Name mixed sets with `mixed`, the covered families or types, and the split. Keep them in `passages/` using the same paired format.
+- Maintain isolated sets that test one issue type and mixed sets that deliberately combine issues within the same passage or complete text.
+  - Name mixed sets with `mixed`, the covered families or types, and the split. Use `passages/` for independent excerpts and `texts/` for complete texts, with the same paired format.
   - Cover relevant within-family combinations, cross-family pairs, and larger mixtures among the named checks. Report mixed-set counts separately.
-  - Assess every evaluated check in mixed passages, including expected no-hits. Score checks separately, all expected issues found together, and exact matches with no unexpected issues.
-- Derive family evaluations from labels. Report per-type results, aggregate passage/check judgment counts, and distinct passage counts.
-  - Match findings to the labeled check and passage. An unrelated finding does not satisfy an expected hit.
+  - Assess every evaluated check in mixed passages and texts, including expected no-hits. Score checks separately, all expected issues found together, and exact matches with no unexpected issues.
+- Derive family evaluations from labels. Report per-type results, passage/check or text/check judgment counts, and distinct passage or text counts according to the declared input.
+  - Match findings to the labeled check and passage or complete text. An unrelated finding does not satisfy an expected hit.
 
 ## Development Loop
 
