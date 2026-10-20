@@ -1,0 +1,77 @@
+{
+  "dataset": "datasets/ai-synthetic/passages/000019-semantic-thinness-unexplained-metaphor-development-pilot.md",
+  "check": "semantic-thinness/unexplained-metaphor",
+  "split": "development",
+  "textSha256": "62e78096e55b6e3cc853874b654847c8a04b80086fb3e2fcb5a672a2e9180859",
+  "counts": {
+    "passages": 16,
+    "hits": 5,
+    "noHits": 11,
+    "words": 600
+  },
+  "review": {
+    "procedure": "Shuffled passages reviewed through authenticated Claude CLI with tools disabled. Author labels, snippets, and class balance withheld. Accepted type definition and shared boundaries supplied; taxonomy worked examples omitted.",
+    "models": ["claude-opus-5-5"],
+    "durationMs": 13888,
+    "costUsd": 0.07666400000000001,
+    "passages": 16,
+    "submittedLabelAgreements": 15,
+    "submittedLabelDisagreements": 1,
+    "finalLabelAgreements": 13,
+    "finalLabelDisagreements": ["000019-012", "000019-013", "000019-015"],
+    "objections": 1,
+    "adoptedOpusHitSelections": 5,
+    "inputPath": "/tmp/000019-unexplained-metaphor-development-20261020-193530-round2-input.json",
+    "inputSha256": "ba201dca2eb6bc877898c61143b0c7e96a5e7b8e612844a64dea916d507e8a04",
+    "responsePath": "/tmp/000019-unexplained-metaphor-development-20261020-193530-round2-response.json",
+    "responseSha256": "95f57497a5c480c2a5af6483387b2ee40e290334abf06d0c2cd046d9788fbb52",
+    "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea"
+  },
+  "initialReview": {
+    "passages": 12,
+    "submittedHits": 6,
+    "submittedNoHits": 6,
+    "labelAgreements": 12,
+    "objections": 0,
+    "inputPath": "/tmp/000019-unexplained-metaphor-development-20261020-193530-round1-input.json",
+    "inputSha256": "9cbb9aa4433a0f462ed14292c39326e7b87beff140ae16caa63f217ab22621f9",
+    "responsePath": "/tmp/000019-unexplained-metaphor-development-20261020-193530-round1-response.json",
+    "responseSha256": "3c8f43fca27f7375932be8c3c9e3b8872e95bd7931879bd08f0833b4fd91d493"
+  },
+  "independentReview": {
+    "reviewer": "Fresh Codex reviewer",
+    "originalPassagesPreserved": 12,
+    "finding": "Plausible business and institutional writing; the pilot requires further diversity before scaling.",
+    "adjudications": [
+      {
+        "id": "000019-012",
+        "finalExpected": false,
+        "reason": "Local knowledge guiding the project future is recoverable. Awkward wording and unspecified progress can be assessed by other checks."
+      },
+      {
+        "id": "000019-013",
+        "finalExpected": false,
+        "reason": "Joint distributor planning supplies the broad relationship between product direction and commercial priorities."
+      },
+      {
+        "id": "000019-015",
+        "finalExpected": false,
+        "reason": "Named nursing assignments and manager sign-off supply the responsibility-to-care relationship; redundant commentary belongs to a separate check."
+      },
+      {
+        "id": "000019-004",
+        "finalExpected": true,
+        "reason": "Retained as a boundary hit: the partnership and alignment are named while the claimed second center of gravity and its explanatory contribution remain unspecified."
+      }
+    ],
+    "snippetChange": {
+      "id": "000019-009",
+      "decision": "Keep the exact Opus-selected causal-transition sentence; omit its broader mirror/window and concluding selections."
+    },
+    "limitations": [
+      "Accepted hits still concentrate on three-sentence institutional abstraction; the attempted localized positives were reclassified as informative metaphors.",
+      "The concise no-hits deliberately paraphrase two existing controls to break the gives/becomes shortcut. They add contrast rather than independent topical coverage.",
+      "Generate more varied registers and convincing isolated defects inside otherwise concrete writing before expanding the collection."
+    ]
+  }
+}
