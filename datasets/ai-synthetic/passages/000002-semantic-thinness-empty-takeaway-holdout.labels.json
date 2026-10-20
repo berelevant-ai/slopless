@@ -1,0 +1,1483 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "source": {
+    "name": "Definition-authored synthetic empty-takeaway holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md",
+    "commit": "b184b250c232141b8c513e3e49822020058e7784",
+    "notes": "Authored in a protected holdout context before accessing development writing. Blind Claude Opus review used tools-disabled authenticated CLI calls. Review provenance is recorded in runners/results/empty-takeaway-holdout-opus-review.json."
+  },
+  "samples": [
+    { "id": "000002-001", "start": 60, "end": 210 },
+    { "id": "000002-002", "start": 227, "end": 341 },
+    { "id": "000002-003", "start": 358, "end": 499 },
+    { "id": "000002-004", "start": 516, "end": 651 },
+    { "id": "000002-005", "start": 668, "end": 975 },
+    { "id": "000002-006", "start": 992, "end": 1156 },
+    { "id": "000002-007", "start": 1173, "end": 1338 },
+    { "id": "000002-008", "start": 1355, "end": 1453 },
+    { "id": "000002-009", "start": 1470, "end": 1659 },
+    { "id": "000002-010", "start": 1676, "end": 1985 },
+    { "id": "000002-011", "start": 2002, "end": 2309 },
+    { "id": "000002-012", "start": 2326, "end": 2462 },
+    { "id": "000002-013", "start": 2479, "end": 2636 },
+    { "id": "000002-014", "start": 2653, "end": 2758 },
+    { "id": "000002-015", "start": 2775, "end": 2953 },
+    { "id": "000002-016", "start": 2970, "end": 3111 },
+    { "id": "000002-017", "start": 3128, "end": 3260 },
+    { "id": "000002-018", "start": 3277, "end": 3586 },
+    { "id": "000002-019", "start": 3603, "end": 3927 },
+    { "id": "000002-020", "start": 3944, "end": 4103 },
+    { "id": "000002-021", "start": 4120, "end": 4264 },
+    { "id": "000002-022", "start": 4281, "end": 4413 },
+    { "id": "000002-023", "start": 4430, "end": 4538 },
+    { "id": "000002-024", "start": 4555, "end": 4697 },
+    { "id": "000002-025", "start": 4714, "end": 4871 },
+    { "id": "000002-026", "start": 4888, "end": 5062 },
+    { "id": "000002-027", "start": 5079, "end": 5412 },
+    { "id": "000002-028", "start": 5429, "end": 5550 },
+    { "id": "000002-029", "start": 5567, "end": 5756 },
+    { "id": "000002-030", "start": 5773, "end": 5953 },
+    { "id": "000002-031", "start": 5970, "end": 6269 },
+    { "id": "000002-032", "start": 6286, "end": 6616 },
+    { "id": "000002-033", "start": 6633, "end": 6814 },
+    { "id": "000002-034", "start": 6831, "end": 6992 },
+    { "id": "000002-035", "start": 7009, "end": 7123 },
+    { "id": "000002-036", "start": 7140, "end": 7277 },
+    { "id": "000002-037", "start": 7294, "end": 7462 },
+    { "id": "000002-038", "start": 7479, "end": 7607 },
+    { "id": "000002-039", "start": 7624, "end": 7755 },
+    { "id": "000002-040", "start": 7772, "end": 7928 },
+    { "id": "000002-041", "start": 7945, "end": 8134 },
+    { "id": "000002-042", "start": 8151, "end": 8292 },
+    { "id": "000002-043", "start": 8309, "end": 8447 },
+    { "id": "000002-044", "start": 8464, "end": 8580 },
+    { "id": "000002-045", "start": 8597, "end": 8904 },
+    { "id": "000002-046", "start": 8921, "end": 9037 },
+    { "id": "000002-047", "start": 9054, "end": 9218 },
+    { "id": "000002-048", "start": 9235, "end": 9538 },
+    { "id": "000002-049", "start": 9555, "end": 9683 },
+    { "id": "000002-050", "start": 9700, "end": 9842 },
+    { "id": "000002-051", "start": 9859, "end": 10051 },
+    { "id": "000002-052", "start": 10068, "end": 10244 },
+    { "id": "000002-053", "start": 10261, "end": 10533 },
+    { "id": "000002-054", "start": 10550, "end": 10706 },
+    { "id": "000002-055", "start": 10723, "end": 10876 },
+    { "id": "000002-056", "start": 10893, "end": 11013 },
+    { "id": "000002-057", "start": 11030, "end": 11162 },
+    { "id": "000002-058", "start": 11179, "end": 11323 },
+    { "id": "000002-059", "start": 11340, "end": 11447 },
+    { "id": "000002-060", "start": 11464, "end": 11581 },
+    { "id": "000002-061", "start": 11598, "end": 11775 },
+    { "id": "000002-062", "start": 11792, "end": 11887 },
+    { "id": "000002-063", "start": 11904, "end": 12090 },
+    { "id": "000002-064", "start": 12107, "end": 12242 },
+    { "id": "000002-065", "start": 12259, "end": 12332 },
+    { "id": "000002-066", "start": 12349, "end": 12456 },
+    { "id": "000002-067", "start": 12473, "end": 12624 },
+    { "id": "000002-068", "start": 12641, "end": 12742 },
+    { "id": "000002-069", "start": 12759, "end": 12861 },
+    { "id": "000002-070", "start": 12878, "end": 13002 },
+    { "id": "000002-071", "start": 13019, "end": 13171 },
+    { "id": "000002-072", "start": 13188, "end": 13296 },
+    { "id": "000002-073", "start": 13313, "end": 13638 },
+    { "id": "000002-074", "start": 13655, "end": 13792 },
+    { "id": "000002-075", "start": 13809, "end": 13994 },
+    { "id": "000002-076", "start": 14011, "end": 14131 },
+    { "id": "000002-077", "start": 14148, "end": 14276 },
+    { "id": "000002-078", "start": 14293, "end": 14616 },
+    { "id": "000002-079", "start": 14633, "end": 14760 },
+    { "id": "000002-080", "start": 14777, "end": 14917 },
+    { "id": "000002-081", "start": 14934, "end": 15050 },
+    { "id": "000002-082", "start": 15067, "end": 15202 },
+    { "id": "000002-083", "start": 15219, "end": 15529 },
+    { "id": "000002-084", "start": 15546, "end": 15662 },
+    { "id": "000002-085", "start": 15679, "end": 15972 },
+    { "id": "000002-086", "start": 15989, "end": 16296 },
+    { "id": "000002-087", "start": 16313, "end": 16588 },
+    { "id": "000002-088", "start": 16605, "end": 16728 },
+    { "id": "000002-089", "start": 16745, "end": 16894 },
+    { "id": "000002-090", "start": 16911, "end": 17048 },
+    { "id": "000002-091", "start": 17065, "end": 17207 },
+    { "id": "000002-092", "start": 17224, "end": 17509 },
+    { "id": "000002-093", "start": 17526, "end": 17805 },
+    { "id": "000002-094", "start": 17822, "end": 17942 },
+    { "id": "000002-095", "start": 17959, "end": 18074 },
+    { "id": "000002-096", "start": 18091, "end": 18428 },
+    { "id": "000002-097", "start": 18445, "end": 18559 },
+    { "id": "000002-098", "start": 18576, "end": 18917 },
+    { "id": "000002-099", "start": 18934, "end": 19069 },
+    { "id": "000002-100", "start": 19086, "end": 19390 },
+    { "id": "000002-101", "start": 19407, "end": 19541 },
+    { "id": "000002-102", "start": 19558, "end": 19721 },
+    { "id": "000002-103", "start": 19738, "end": 19897 },
+    { "id": "000002-104", "start": 19914, "end": 20026 },
+    { "id": "000002-105", "start": 20043, "end": 20206 },
+    { "id": "000002-106", "start": 20223, "end": 20358 },
+    { "id": "000002-107", "start": 20375, "end": 20512 },
+    { "id": "000002-108", "start": 20529, "end": 20671 },
+    { "id": "000002-109", "start": 20688, "end": 20862 },
+    { "id": "000002-110", "start": 20879, "end": 21026 },
+    { "id": "000002-111", "start": 21043, "end": 21291 },
+    { "id": "000002-112", "start": 21308, "end": 21420 },
+    { "id": "000002-113", "start": 21437, "end": 21596 },
+    { "id": "000002-114", "start": 21613, "end": 21750 },
+    { "id": "000002-115", "start": 21767, "end": 21916 },
+    { "id": "000002-116", "start": 21933, "end": 22093 },
+    { "id": "000002-117", "start": 22110, "end": 22255 },
+    { "id": "000002-118", "start": 22272, "end": 22563 },
+    { "id": "000002-119", "start": 22580, "end": 22888 },
+    { "id": "000002-120", "start": 22905, "end": 23209 },
+    { "id": "000002-121", "start": 23226, "end": 23364 },
+    { "id": "000002-122", "start": 23381, "end": 23683 },
+    { "id": "000002-123", "start": 23700, "end": 24010 },
+    { "id": "000002-124", "start": 24027, "end": 24173 },
+    { "id": "000002-125", "start": 24190, "end": 24370 },
+    { "id": "000002-126", "start": 24387, "end": 24534 },
+    { "id": "000002-127", "start": 24551, "end": 24661 },
+    { "id": "000002-128", "start": 24678, "end": 24831 },
+    { "id": "000002-129", "start": 24848, "end": 24948 },
+    { "id": "000002-130", "start": 24965, "end": 25079 },
+    { "id": "000002-131", "start": 25096, "end": 25278 },
+    { "id": "000002-132", "start": 25295, "end": 25459 },
+    { "id": "000002-133", "start": 25476, "end": 25594 },
+    { "id": "000002-134", "start": 25611, "end": 25899 },
+    { "id": "000002-135", "start": 25916, "end": 26011 },
+    { "id": "000002-136", "start": 26028, "end": 26351 },
+    { "id": "000002-137", "start": 26368, "end": 26505 },
+    { "id": "000002-138", "start": 26522, "end": 26828 },
+    { "id": "000002-139", "start": 26845, "end": 26984 },
+    { "id": "000002-140", "start": 27001, "end": 27133 },
+    { "id": "000002-141", "start": 27150, "end": 27277 },
+    { "id": "000002-142", "start": 27294, "end": 27586 },
+    { "id": "000002-143", "start": 27603, "end": 27888 },
+    { "id": "000002-144", "start": 27905, "end": 28247 },
+    { "id": "000002-145", "start": 28264, "end": 28599 },
+    { "id": "000002-146", "start": 28616, "end": 28747 },
+    { "id": "000002-147", "start": 28764, "end": 28971 },
+    { "id": "000002-148", "start": 28988, "end": 29148 },
+    { "id": "000002-149", "start": 29165, "end": 29311 },
+    { "id": "000002-150", "start": 29328, "end": 29638 },
+    { "id": "000002-151", "start": 29655, "end": 29783 },
+    { "id": "000002-152", "start": 29800, "end": 29940 },
+    { "id": "000002-153", "start": 29957, "end": 30081 },
+    { "id": "000002-154", "start": 30098, "end": 30225 },
+    { "id": "000002-155", "start": 30242, "end": 30361 },
+    { "id": "000002-156", "start": 30378, "end": 30500 },
+    { "id": "000002-157", "start": 30517, "end": 30682 },
+    { "id": "000002-158", "start": 30699, "end": 30819 },
+    { "id": "000002-159", "start": 30836, "end": 30959 },
+    { "id": "000002-160", "start": 30976, "end": 31088 },
+    { "id": "000002-161", "start": 31105, "end": 31258 },
+    { "id": "000002-162", "start": 31275, "end": 31444 },
+    { "id": "000002-163", "start": 31461, "end": 31623 },
+    { "id": "000002-164", "start": 31640, "end": 31725 },
+    { "id": "000002-165", "start": 31742, "end": 32067 },
+    { "id": "000002-166", "start": 32084, "end": 32228 },
+    { "id": "000002-167", "start": 32245, "end": 32382 },
+    { "id": "000002-168", "start": 32399, "end": 32523 },
+    { "id": "000002-169", "start": 32540, "end": 32724 },
+    { "id": "000002-170", "start": 32741, "end": 32900 },
+    { "id": "000002-171", "start": 32917, "end": 33090 },
+    { "id": "000002-172", "start": 33107, "end": 33224 },
+    { "id": "000002-173", "start": 33241, "end": 33362 },
+    { "id": "000002-174", "start": 33379, "end": 33540 },
+    { "id": "000002-175", "start": 33557, "end": 33700 },
+    { "id": "000002-176", "start": 33717, "end": 33893 },
+    { "id": "000002-177", "start": 33910, "end": 34067 },
+    { "id": "000002-178", "start": 34084, "end": 34253 },
+    { "id": "000002-179", "start": 34270, "end": 34419 },
+    { "id": "000002-180", "start": 34436, "end": 34575 },
+    { "id": "000002-181", "start": 34592, "end": 34757 },
+    { "id": "000002-182", "start": 34774, "end": 34923 },
+    { "id": "000002-183", "start": 34940, "end": 35046 },
+    { "id": "000002-184", "start": 35063, "end": 35369 },
+    { "id": "000002-185", "start": 35386, "end": 35530 },
+    { "id": "000002-186", "start": 35547, "end": 35663 },
+    { "id": "000002-187", "start": 35680, "end": 35840 },
+    { "id": "000002-188", "start": 35857, "end": 35964 },
+    { "id": "000002-189", "start": 35981, "end": 36262 },
+    { "id": "000002-190", "start": 36279, "end": 36401 },
+    { "id": "000002-191", "start": 36418, "end": 36531 },
+    { "id": "000002-192", "start": 36548, "end": 36686 },
+    { "id": "000002-193", "start": 36703, "end": 36883 },
+    { "id": "000002-194", "start": 36900, "end": 37075 },
+    { "id": "000002-195", "start": 37092, "end": 37214 },
+    { "id": "000002-196", "start": 37231, "end": 37387 },
+    { "id": "000002-197", "start": 37404, "end": 37547 },
+    { "id": "000002-198", "start": 37564, "end": 37877 },
+    { "id": "000002-199", "start": 37894, "end": 38003 },
+    { "id": "000002-200", "start": 38020, "end": 38194 }
+  ],
+  "labels": [
+    {
+      "id": "000002-001",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-002",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-003",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-004",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "The guide's final rule for successful mentoring is to make the relationship a positive and worthwhile experience for everyone involved."
+      ]
+    },
+    {
+      "id": "000002-005",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "The right choice, she concludes, is the one that brings a genuine commitment to quality and puts excellence at the center of the experience."
+      ]
+    },
+    {
+      "id": "000002-006",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "the mediator proposes that everyone adopt a genuinely constructive approach"
+      ]
+    },
+    {
+      "id": "000002-007",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-008",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["be the sort of friend a friendship deserves"]
+    },
+    {
+      "id": "000002-009",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Their supervisor's closing advice is to combine intellectual courage with a grounded commitment to scientific excellence."
+      ]
+    },
+    {
+      "id": "000002-010",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Whatever challenges await them, they should bring the kind of dedication that makes teaching a truly meaningful profession."
+      ]
+    },
+    {
+      "id": "000002-011",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Her concluding advice to the novelist is that the next work should aspire to greater depth and bring a stronger sense of purpose to the page."
+      ]
+    },
+    {
+      "id": "000002-012",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-013",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-014",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-015",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "The inquiry's final recommendation is a renewed commitment to meaningful reform."
+      ]
+    },
+    {
+      "id": "000002-016",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "I would recommend making the choice that reflects the right priorities for this stage of your life"
+      ]
+    },
+    {
+      "id": "000002-017",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-018",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "The rule itself is to nurture a positive relationship with the garden and give the growing process the respect it deserves."
+      ]
+    },
+    {
+      "id": "000002-019",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Its closing recommendation is that stewardship must remain thoughtful, purposeful, and worthy of the collection."
+      ]
+    },
+    {
+      "id": "000002-020",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "I recommend an ethos of honesty and a wholehearted commitment to the people it hopes to serve"
+      ]
+    },
+    {
+      "id": "000002-021",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-022",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "recommending a place that offers a dining experience worth having"
+      ]
+    },
+    {
+      "id": "000002-023",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-024",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-025",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-026",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "begin with a healthier outlook and a renewed appreciation of what matters to you"
+      ]
+    },
+    {
+      "id": "000002-027",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "They must embody an authentic artistic vision and offer an experience that does justice to the transformative potential of art."
+      ]
+    },
+    {
+      "id": "000002-028",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-029",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-030",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Let the deeper gift be a renewed appreciation of possibility, and allow that appreciation to shape the way you live."
+      ]
+    },
+    {
+      "id": "000002-031",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "A successful scheme, the authors conclude, requires an approach that is responsible, balanced, and equal to the ambitions behind it."
+      ]
+    },
+    {
+      "id": "000002-032",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "They should pursue a robust and forward-looking solution, grounded in a serious commitment to doing the work well from beginning to end."
+      ]
+    },
+    {
+      "id": "000002-033",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "To anyone hoping to follow his podcasting success, he recommends authenticity above all else."
+      ]
+    },
+    {
+      "id": "000002-034",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "we should live with purpose and remain open to the fullness of being human"
+      ]
+    },
+    {
+      "id": "000002-035",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-036",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-037",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-038",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-039",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Fairness must be central to the process. That is the answer this review arrives at."
+      ]
+    },
+    {
+      "id": "000002-040",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "My advice to parents is to stay grounded in the values of a good education and let those values shape the decision."
+      ]
+    },
+    {
+      "id": "000002-041",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-042",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-043",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["By honoring it in a way worthy of remembrance."]
+    },
+    {
+      "id": "000002-044",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "the best way to address complexity is with an approach that is equal to it"
+      ]
+    },
+    {
+      "id": "000002-045",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "You have to foster the sort of environment in which people can flourish and become the best version of themselves."
+      ]
+    },
+    {
+      "id": "000002-046",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-047",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-048",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-049",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Go out and make your contribution a contribution that counts."
+      ]
+    },
+    {
+      "id": "000002-050",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-051",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "The way to approach other people is with a spirit of openness and a generous understanding of life's complexities."
+      ]
+    },
+    {
+      "id": "000002-052",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "the reviewer counsels a more considered artistic approach, one guided by depth and sensitivity"
+      ]
+    },
+    {
+      "id": "000002-053",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-054",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Meet it with adaptability and a positive outlook; that is the guidance we offer everyone preparing for the next phase."
+      ]
+    },
+    {
+      "id": "000002-055",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-056",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-057",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "choose wisely, and choose in a way that honors the decision's importance"
+      ]
+    },
+    {
+      "id": "000002-058",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "the reviewer advises the poet to seek emotional truth and bring a more authentic sensibility to the work"
+      ]
+    },
+    {
+      "id": "000002-059",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-060",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Above all, we had learned the value of learning from the experiences life places before us."
+      ]
+    },
+    {
+      "id": "000002-061",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-062",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-063",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-064",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["genuine creativity begins with being genuinely creative"]
+    },
+    {
+      "id": "000002-065",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-066",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-067",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-068",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-069",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-070",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Our recommendation for making the partnership work is to commit wholeheartedly to a partnership that works for both parties."
+      ]
+    },
+    {
+      "id": "000002-071",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-072",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-073",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-074",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Whatever comes, respond as well as you can, with the best you have to offer."
+      ]
+    },
+    {
+      "id": "000002-075",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "keep the community at the heart of the endeavor and strive for an approach that feels genuinely inclusive"
+      ]
+    },
+    {
+      "id": "000002-076",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "The answer is the proposal that represents a truly sound and responsible choice."
+      ]
+    },
+    {
+      "id": "000002-077",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-078",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-079",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "What should an editor prioritize? The quality of the editing."
+      ]
+    },
+    {
+      "id": "000002-080",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["exploration calls for an explorer's spirit"]
+    },
+    {
+      "id": "000002-081",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-082",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "My answer was to handle it in a way that reflects the best of who you are."
+      ]
+    },
+    {
+      "id": "000002-083",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-084",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-085",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "the answer lies in the courage to embrace possibility and to remain faithful to the best of the human spirit"
+      ]
+    },
+    {
+      "id": "000002-086",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-087",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "His advice was to live with intention and hold on to what matters, because a meaningful life deserves a meaningful approach."
+      ]
+    },
+    {
+      "id": "000002-088",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-089",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Deliver a product experience that lives up to what a product experience can be."
+      ]
+    },
+    {
+      "id": "000002-090",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-091",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "hold on to a sense of editorial purpose. Let that sense of purpose guide you toward work of lasting value."
+      ]
+    },
+    {
+      "id": "000002-092",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "In times like these, she said, we must respond in a way that reflects our shared humanity and the values that make us who we are."
+      ]
+    },
+    {
+      "id": "000002-093",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "there is real value in approaching life's journey with a generous spirit"
+      ]
+    },
+    {
+      "id": "000002-094",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-095",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-096",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "What counts, above everything else, is the ability to create work that feels considered, compelling, and true to the highest ideals of the craft."
+      ]
+    },
+    {
+      "id": "000002-097",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "a call to rise to the challenge with an appropriate sense of resolve"
+      ]
+    },
+    {
+      "id": "000002-098",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-099",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-100",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-101",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "approach married life in a way that makes happiness possible"
+      ]
+    },
+    {
+      "id": "000002-102",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Approach the family relationship with the sensitivity and understanding that family life requires."
+      ]
+    },
+    {
+      "id": "000002-103",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-104",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "let the spirit of adventure be your guide to an adventure worth having"
+      ]
+    },
+    {
+      "id": "000002-105",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-106",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "acquire work with a collector's eye and a true appreciation of what collecting can be"
+      ]
+    },
+    {
+      "id": "000002-107",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Whatever you decide to become, become it with the spirit of someone who means it."
+      ]
+    },
+    {
+      "id": "000002-108",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-109",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "let love and understanding lead you toward a response that feels true to the parent you want to be"
+      ]
+    },
+    {
+      "id": "000002-110",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "deal with them in an appropriate way, with a suitable degree of judgment"
+      ]
+    },
+    {
+      "id": "000002-111",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-112",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["life should be lived in a way that is worthy of living"]
+    },
+    {
+      "id": "000002-113",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "act with sensitivity, keeping a balanced sense of responsibility at the forefront"
+      ]
+    },
+    {
+      "id": "000002-114",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Bring out its potential in a way that makes it a better place."
+      ]
+    },
+    {
+      "id": "000002-115",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-116",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-117",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "a response that would meet the moment with purpose and ambition"
+      ]
+    },
+    {
+      "id": "000002-118",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-119",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Make your work a reflection of your values, she says, and let that commitment lead the way."
+      ]
+    },
+    {
+      "id": "000002-120",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-121",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-122",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-123",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-124",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["embody the qualities of a leader"]
+    },
+    {
+      "id": "000002-125",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["keep faith with yourselves, whatever the world may bring"]
+    },
+    {
+      "id": "000002-126",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-127",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-128",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Move forward with an unwavering commitment to getting things right."
+      ]
+    },
+    {
+      "id": "000002-129",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-130",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-131",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "bring a balanced perspective and a mature sense of judgment"
+      ]
+    },
+    {
+      "id": "000002-132",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-133",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-134",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-135",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-136",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-137",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["give it the attention a budget deserves"]
+    },
+    {
+      "id": "000002-138",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "proceed with the degree of care and commitment that responsible procurement always calls for"
+      ]
+    },
+    {
+      "id": "000002-139",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "We must embrace an approach that gives people confidence in the future."
+      ]
+    },
+    {
+      "id": "000002-140",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "What mattered was being the kind of people who could rise to an occasion."
+      ]
+    },
+    {
+      "id": "000002-141",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-142",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "honor the things that give life meaning and approach the future with an open heart"
+      ]
+    },
+    {
+      "id": "000002-143",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["cherish the richness of life and meet each day with grace"]
+    },
+    {
+      "id": "000002-144",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "participants should cultivate a constructive mindset and engage with the process in a manner that reflects the seriousness and potential of the task"
+      ]
+    },
+    {
+      "id": "000002-145",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-146",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-147",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Embrace the future thoughtfully, with an enduring commitment to the values at the heart of the profession."
+      ]
+    },
+    {
+      "id": "000002-148",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "encourages a bolder vision, tempered by sensitivity and a respect for the possibilities of the site"
+      ]
+    },
+    {
+      "id": "000002-149",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-150",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-151",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "any worthwhile response must respond to the situation in a worthwhile fashion"
+      ]
+    },
+    {
+      "id": "000002-152",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-153",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "compete in a manner that makes the experience count, whatever the result"
+      ]
+    },
+    {
+      "id": "000002-154",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "carry the spirit of the festival forward in a way that means something"
+      ]
+    },
+    {
+      "id": "000002-155",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "treat the public interest as something that truly matters in public life"
+      ]
+    },
+    {
+      "id": "000002-156",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Effective governance begins with an effective governing mindset."
+      ]
+    },
+    {
+      "id": "000002-157",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Hold fast to the spirit of community, she said, and meet tomorrow with hope."
+      ]
+    },
+    {
+      "id": "000002-158",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "make accountability a meaningful part of the way the organization moves forward"
+      ]
+    },
+    {
+      "id": "000002-159",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["Take pride in doing work you can be proud of."]
+    },
+    {
+      "id": "000002-160",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-161",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-162",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "let compassion and integrity guide the difficult choices ahead"
+      ]
+    },
+    {
+      "id": "000002-163",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "an approach that combines rigor with imagination and keeps educational excellence firmly in view"
+      ]
+    },
+    {
+      "id": "000002-164",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-165",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-166",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["cultivate the qualities that make a player worth watching"]
+    },
+    {
+      "id": "000002-167",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["with the civic spirit that citizenship demands"]
+    },
+    {
+      "id": "000002-168",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-169",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["conviction and hope must be our compass"]
+    },
+    {
+      "id": "000002-170",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "embrace its potential with confidence and a firm belief in the possibilities ahead"
+      ]
+    },
+    {
+      "id": "000002-171",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "\"Take the responsibility seriously,\"",
+        "\"A responsible attitude is the foundation of responsible ownership.\""
+      ]
+    },
+    {
+      "id": "000002-172",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-173",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-174",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-175",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-176",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "proceed in a spirit of openness and bring a mature sense of judgment to what comes next"
+      ]
+    },
+    {
+      "id": "000002-177",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-178",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-179",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Stay generous, stay hopeful, and let the spirit that brought you here remain your guide."
+      ]
+    },
+    {
+      "id": "000002-180",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-181",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "elevate the conversation with thoughtfulness and a sincere regard for the dignity of those taking part"
+      ]
+    },
+    {
+      "id": "000002-182",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["make them better experiences"]
+    },
+    {
+      "id": "000002-183",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-184",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-185",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "conduct yourself with the outlook of someone building something worthwhile"
+      ]
+    },
+    {
+      "id": "000002-186",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["approach your next chapter with purpose"]
+    },
+    {
+      "id": "000002-187",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-188",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-189",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-190",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["Find the way that brings you back to where you belong."]
+    },
+    {
+      "id": "000002-191",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-192",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-193",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-194",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "The organization should embrace a positive culture and make that aspiration a living part of its identity."
+      ]
+    },
+    {
+      "id": "000002-195",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "my recommendation is to find a path that is right for you and pursue it in the right spirit"
+      ]
+    },
+    {
+      "id": "000002-196",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": ["do good work with the spirit of a good worker"]
+    },
+    {
+      "id": "000002-197",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-198",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Transport must be fit for purpose and shaped by a real commitment to serving the public well."
+      ]
+    },
+    {
+      "id": "000002-199",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": false
+    },
+    {
+      "id": "000002-200",
+      "check": "semantic-thinness/empty-takeaway",
+      "expected": true,
+      "snippets": [
+        "Seek a more enriching experience, rooted in care and a sincere commitment to the fellows' potential."
+      ]
+    }
+  ]
+}

@@ -42,7 +42,8 @@ A no-hit applies to its named check and passage. Omitted checks remain unassesse
 
 ## Important Collections
 
-- `ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md`: 100 hits and 100 close no-hits for the consolidated empty-takeaway check, reviewed adversarially with Claude Opus. This is development material.
+- `ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md`: 100 hits and 100 close no-hits for the consolidated empty-takeaway check, with blind Opus review and Opus-selected hit snippets. This is development material.
+- `ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md`: 100 hits and 100 no-hits generated separately and reviewed blind by Opus. Keep its writing, labels, snippets, and case-specific review notes outside prompt-development contexts; evaluate after freezing the candidate and settings.
 - `ai-synthetic/semantic-thinness.md`: all 604 reserved paragraphs, with 364 author-labeled hits and 240 family-clean controls. The labels preserve original identifiers, evidence, coverage references, and outstanding reviewer objections.
 - `ai-synthetic/adversarial/`: generated hit and no-hit passages grouped by family in a single pair of files per family.
 - `ai-synthetic/styles/`: the ten long genre/style texts.

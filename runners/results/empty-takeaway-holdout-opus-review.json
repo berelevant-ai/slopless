@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "check": "semantic-thinness/empty-takeaway",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "sourceCommit": "b184b250c232141b8c513e3e49822020058e7784",
+  "dataset": {
+    "textPath": "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md",
+    "labelsPath": "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.labels.json",
+    "textSha256": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+    "labelsSha256": "5d6c70d71ecba21417176db3fc3b8de8454c7bce477a72f69fecd6b284588497"
+  },
+  "review": {
+    "models": ["claude-opus-5-5"],
+    "batches": [
+      {
+        "passages": 100,
+        "hits": 48,
+        "noHits": 52,
+        "objections": 4,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "reviewedTargetsSha256": "287391b776b18d3c7b14774dd5421f685682587adff66bba6e88eefbc3fb35ed",
+        "rawReviewSha256": "10fc0d76e31bcee1dd8f92a5f73bc8af331f8dbe2fa1532c3d11aa283497a52d",
+        "durationMs": 51501,
+        "costUsd": 0.23066799999999998
+      },
+      {
+        "passages": 100,
+        "hits": 52,
+        "noHits": 48,
+        "objections": 5,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "reviewedTargetsSha256": "a8dcf9e374021db0eb94e33ee06b019a22b7ec5937167d9aa908942f904ec8a3",
+        "rawReviewSha256": "2c5686f0d30c0488c7667fd38518601015388f270d39a3a1e77e79778d7cb1bd",
+        "durationMs": 55741,
+        "costUsd": 0.237356
+      }
+    ],
+    "passagesReviewed": 200,
+    "labelAgreements": 200,
+    "labelDisagreements": 0,
+    "objections": 9,
+    "adjudicatedObjections": 9,
+    "unresolvedLabelIssues": 0,
+    "snippetsAdoptedFromOpusForHits": 100,
+    "snippets": 101,
+    "toolsDisabled": true,
+    "blindFields": ["id", "text"],
+    "authorLabelsWithheld": true,
+    "classBalanceWithheld": true,
+    "reviewRunnerSha256": "0072046ba7fe8cf77beff64993e8861b5a2ab7e596d88ab4fc92c530e8e010a2",
+    "finalTextMatch": {
+      "matched": 200,
+      "unmatched": 0,
+      "manifestSha256": "c21d92e039225ee5c30d88e8f28a0b5dc907124bb206fd77797a9d0c01d4cf54"
+    }
+  },
+  "corrections": {
+    "developmentNeighborReplacementsBeforeReview": 2,
+    "taxonomyPhraseRevisionBeforeReview": 1,
+    "additionalClarityAndDiversityEditsBeforeReview": 2,
+    "textRewritesAfterReview": 0,
+    "labelChangesAfterReview": 0
+  },
+  "deduplication": {
+    "normalization": "Lowercase alphanumeric word tokens with internal apostrophes; punctuation and spacing collapsed.",
+    "measures": "Jaccard similarity of word sets, contiguous 3-word shingles, and contiguous 5-word shingles.",
+    "thresholds": {
+      "wordset": 0.28,
+      "shingle3": 0.07,
+      "sharedShingle5": true,
+      "containedExampleMinimumWords": 5
+    },
+    "developmentTextSha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+    "referenceHashes": {
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+      "prompts/v1/abstract-contrast.md": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676",
+      "prompts/v1/emotion-as-substance.md": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72",
+      "prompts/v1/generic-realization.md": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465",
+      "prompts/v1/shared.md": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+    },
+    "development": {
+      "compared": 200,
+      "normalizedExact": 0,
+      "maximumWordset": 0.34615384615384615,
+      "maximumShingle3": 0.07407407407407407,
+      "maximumShingle5": 0.023809523809523808,
+      "flagged": 5,
+      "nearestNeighborComparisons": 200,
+      "manuallyInspectedFlaggedPassages": 5,
+      "additionalTopNeighborsInspected": true,
+      "derivativeRewritesRemaining": 0
+    },
+    "taxonomyAndCurrentPrompts": {
+      "compared": 200,
+      "normalizedExact": 0,
+      "maximumWordset": 0.21212121212121213,
+      "maximumShingle3": 0.06666666666666667,
+      "maximumShingle5": 0.017241379310344827,
+      "flagged": 2,
+      "nearestNeighborComparisons": 200,
+      "manuallyInspectedFlaggedPassages": 2,
+      "additionalTopNeighborsInspected": true,
+      "derivativeRewritesRemaining": 0
+    },
+    "withinHoldout": {
+      "compared": 200,
+      "normalizedExact": 0,
+      "maximumWordset": 0.26666666666666666,
+      "maximumShingle3": 0.07317073170731707,
+      "maximumShingle5": 0.02564102564102564,
+      "flagged": 16,
+      "nearestNeighborComparisons": 200,
+      "manuallyInspectedFlaggedPassages": 16,
+      "additionalTopNeighborsInspected": true,
+      "derivativeRewritesRemaining": 0
+    },
+    "exactContainedWorkedExamples": 0,
+    "manualConclusion": "Retained nearest matches share ordinary check constructions or general connective phrases; distinctive overlap and the related narrative structure were replaced before review."
+  },
+  "validation": {
+    "existingReader": "passed",
+    "schemaVersion": 2,
+    "passages": 200,
+    "checks": 1,
+    "hits": 100,
+    "noHits": 100,
+    "exactSnippets": "passed",
+    "sampleBoundaries": "passed",
+    "checksum": "passed",
+    "minimalLabels": "passed",
+    "neutralShuffledIds": "passed",
+    "singlePhysicalLinePerParagraph": "passed",
+    "asciiOnly": true,
+    "wordCounts": {
+      "min": 15,
+      "max": 54,
+      "mean": 29.21,
+      "passages45To90Words": 40,
+      "hits45To90Words": 20,
+      "noHits45To90Words": 20
+    },
+    "sentenceCounts": { "min": 1, "max": 4, "outsideOneToFive": 0 }
+  },
+  "privateCaseResolutions": [
+    {
+      "id": "000002-020",
+      "decision": "retain-hit",
+      "reason": "The recommendation supplies ethical virtues without naming a practice; the bare-virtue boundary applies."
+    },
+    {
+      "id": "000002-029",
+      "decision": "retain-no-hit",
+      "reason": "The complete passage critiques missing advice; the discussion-and-critique boundary applies."
+    },
+    {
+      "id": "000002-033",
+      "decision": "retain-hit",
+      "reason": "The recommendation names a bare virtue. The surrounding production details do not explain how to apply it."
+    },
+    {
+      "id": "000002-068",
+      "decision": "retain-no-hit",
+      "reason": "The passage supplies an aesthetic review and rating without a lesson or advisory move; evaluation alone is insufficient."
+    },
+    {
+      "id": "000002-118",
+      "decision": "retain-no-hit",
+      "reason": "The stated assignments and avoided duplicate work provide an unambiguous substantive answer through the events."
+    },
+    {
+      "id": "000002-125",
+      "decision": "retain-hit",
+      "reason": "The narrator explicitly endorses the generic counsel as wisdom; the scene provides no substantive referent for that counsel."
+    },
+    {
+      "id": "000002-131",
+      "decision": "retain-hit",
+      "reason": "The passage gives generic advisory virtues rather than identifying evidence, a condition, or an unresolved fact needed to choose."
+    },
+    {
+      "id": "000002-192",
+      "decision": "retain-no-hit",
+      "reason": "The complete passage explicitly criticizes the quoted counsel; it does not adopt it."
+    },
+    {
+      "id": "000002-196",
+      "decision": "retain-hit",
+      "reason": "The inscription is presented as advice and supplies only a generic evaluation; quotation does not exempt the advice."
+    }
+  ]
+}
