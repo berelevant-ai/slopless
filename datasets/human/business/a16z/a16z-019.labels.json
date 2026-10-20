@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "a2e94a61367421b76fdf5634291ba4011f1d43a59f98363c619df5a3205852c0",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-019.md",
+    "url": "https://a16z.com/2019/10/10/ben-horowitz-what-you-do-is-who-you-are-proceeds",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 4189,
+      "end": 4313,
+      "check": "slopless/academic-boilerplate",
+      "expected": false,
+      "reason": "Historical reviewer: Both samples are FP. 'Fertile ground' is a common English metaphor used appropriately in analytical writing about culture. 'Pivotal role' is standard encyclopedia register for Wikipedia historical articles — it is the expected vocabulary, not boilerplate padding. With only 2 samples and 2 FPs the signal is essentially noise, but both flagged phrases have clear legitimate uses in context.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/a16z] (Academic boilerplate found: \"fertile ground\". Repl) Prison is fertile ground for understanding culture, because people who end up in prison generally come from broken cultures."
+      }
+    }
+  ]
+}

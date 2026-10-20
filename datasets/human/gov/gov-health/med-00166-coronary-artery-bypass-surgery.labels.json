@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "88562aa102816378e069dae861d1a3eebf51f93d50a38696d1b25f4b90799547",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "gov-health",
+    "originalPath": "datasets/corpus/human/gov/gov-health/med-00166-coronary-artery-bypass-surgery.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 75,
+      "end": 291,
+      "check": "slopless/low-information-beat-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule flags passages dense with 'weak' body/action beats (is, has, helps, creates, looks, comes). Gov/health text (MedlinePlus-style patient education) legitimately uses plain simple-verb sentences for accessibility. RFC protocol definitions use 'is', 'can', 'needs', 'provides' as precise technical copulas. Victorian fiction narrates sequential physical actions in plot. Paul Graham samples are 15-word truncated fragments with no usable context. None represent sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[gov/gov-health] Coronary artery bypass surgery creates a new path for blood to flow to your heart. This surgery is sometimes called a coronary artery bypass graft (CABG) or heart bypass. It's the most common heart surgery in adults."
+      }
+    }
+  ]
+}

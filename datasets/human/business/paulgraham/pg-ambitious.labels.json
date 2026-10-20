@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "19c56ccf6624fde1669fd3f4fcad189d7ff0e6464836fcd4a93a516f9f33b69f",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-ambitious.md",
+    "url": "https://paulgraham.com/ambitious.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 924,
+      "end": 986,
+      "check": "slopless/boilerplate-framing",
+      "expected": false,
+      "reason": "Historical reviewer: The rule catches high-frequency but fully legitimate English phrases. 'When it comes to' is a standard preposition construction used to scope a topic, not a framing crutch. 'Honestly', 'truth be told', 'here's the thing', 'to be clear', 'one reason is' all appear as genuine rhetorical or analytical devices in the Paul Graham and a16z samples. 'The bottom line is' is a business idiom. Only edge cases like 'not to put too fine a point' and 'vague-category-include' listing constructions are borderline, but still not slop in context.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/paulgraham] Here's the thing: If you ever got me, you wouldn't have a clue"
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 17096,
+      "end": 17164,
+      "check": "slopless/semantic-thinness",
+      "expected": false,
+      "reason": "Historical reviewer: Two sub-patterns both over-fire. 'empty-scene-transition' catches normal narrative connectives ('It turned out that', 'As is usually the case', 'Then I began to study', 'As the day broke') that are the standard tissue of narrative and analytical prose — not thin filler but structural progression markers. 'deictic-summary' catches rhetorical devices like 'One may still argue' and 'That was the point of' which are legitimate analytical moves. The rule conflates genuine empty transitions with all uses of these constructions regardless of whether they carry meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/paulgraham] (Semantic thinness (empty-scene-transition): Catch ) discovered what appeared to be a large tumor. After further testing,"
+      }
+    }
+  ]
+}

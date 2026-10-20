@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "2b4b1c1a24523952416a3783af2f51b04dc6c623d58fa6222a93e5e26ad0dbfc",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-021.md",
+    "url": "https://a16z.com/2011/01/04/when-smart-people-are-bad-employees",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 2467,
+      "end": 2611,
+      "check": "slopless/em-dashes",
+      "expected": false,
+      "reason": "Historical reviewer: Flags every em-dash regardless of function. All sampled uses are standard: parenthetical insertions ('one of the most important--and overlooked--parts'), list-item introductions ('Make some friends--Although...'), appositives, and parenthetical clarifications. Em-dashes are ordinary punctuation in edited prose.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "He is disempowered—She feels that she cannot access the people in charge and, as a result, complaining is her only vehicle to get the truth out."
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 0,
+      "end": 37,
+      "check": "slopless/sentence-case",
+      "expected": false,
+      "reason": "Historical reviewer: Flags title-case headings and article titles, which is the dominant editorial convention for titles in American English publishing. Every sample is a legitimate document or article title (e.g. '# When Smart People Are Bad Employees', '# Ben Horowitz What You Do Is Who You Are Proceeds'). Title case in headings is a style choice, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "# When Smart People Are Bad Employees"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "05faa272b5666743393a64c6f9edcba8383dd9bad55923d734819337acf254a7",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-growth.md",
+    "url": "https://paulgraham.com/growth.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 13508,
+      "end": 13629,
+      "check": "slopless/jargon-faker",
+      "expected": false,
+      "reason": "Historical reviewer: 'Optimizing for X' is established technical vocabulary in product management, engineering, and growth discourse — not fake jargon. 'Optimizing for growth' and 'optimizing for depth' are precise, analytical uses with concrete referents. The phrase only becomes jargon-faker when used without a specific referent or as an empty intensifier, which none of the sampled lines do.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/paulgraham] (Fake jargon phrase found: \"optimizing for\". Replac) Most fairly good ideas are adjacent to even better ones. The fascinating thing about optimizing for growth is that it can"
+      }
+    }
+  ]
+}

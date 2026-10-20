@@ -6,8 +6,8 @@ cd "$ROOT"
 
 node scripts/verify-cli-version.mjs
 developer-helpers/scripts/verify-developer-helpers-boundary.py
-developer-helpers/scripts/verify-source-material.py
-developer-helpers/scripts/verify-dataset-source-reorganization.py
+node runners/datasets.mjs
+node scripts/datasets-contract.mjs behavior/fixtures/datasets/contract.json
 developer-helpers/scripts/verify-ai-slop-gaps.py
 developer-helpers/scripts/verify-artifact-placeholders-and-puffery.py
 developer-helpers/scripts/verify-wordiness-and-narrative-expansion.py

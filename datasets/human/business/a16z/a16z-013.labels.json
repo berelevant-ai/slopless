@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "2f7542f2c8725895eaa973a053b7b33a44e45586e0a3a0d741ccd90704fc0eca",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-013.md",
+    "url": "https://a16z.com/2019/04/19/towards-decentralized-storage-network",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 0,
+      "end": 3922,
+      "check": "slopless/coleman-liau",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article character-based readability. Threshold is grade 12. All 30 samples are professional tech/business essays with long words and complex sentences by design. Scores of 12.0-15.7 on domain-expert writing are normal, not indicative of slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Coleman-Liau is 14.45. Keep it at 12 or lower.) # Towards Decentralized Storage Network"
+      }
+    }
+  ]
+}

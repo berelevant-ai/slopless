@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "d2bf42fc354102fd82a049caef23fe8c2d32172362c13273f520e23a8f35908a",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "gutenberg",
+    "originalPath": "datasets/corpus/human/literary/gutenberg/gb-02641-a-room-with-a-view-p06.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 2491,
+      "end": 2748,
+      "check": "slopless/low-information-beat-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule flags passages dense with 'weak' body/action beats (is, has, helps, creates, looks, comes). Gov/health text (MedlinePlus-style patient education) legitimately uses plain simple-verb sentences for accessibility. RFC protocol definitions use 'is', 'can', 'needs', 'provides' as precise technical copulas. Victorian fiction narrates sequential physical actions in plot. Paul Graham samples are 15-word truncated fragments with no usable context. None represent sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[literary/gutenberg] It was pleasant to wake up in Florence, to open the eyes upon a bright bare room, with a floor of red tiles which look clean though they are not; with a painted ceiling whereon pink griffins and blue amorini sport in a forest of yellow violins and bassoons."
+      }
+    }
+  ]
+}

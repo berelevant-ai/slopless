@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "4f1e9b64c2874bc4d0e10064ef388e751b834cf66b28b79fa068cd4da4c6388b",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "peps",
+    "originalPath": "datasets/corpus/human/tech/peps/pep-0453.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 15982,
+      "end": 16053,
+      "check": "slopless/uncited-authority",
+      "expected": false,
+      "reason": "Historical reviewer: True positives exist where medical or health claims cite vague authority ('Studies suggest inflammation...', 'studies show that blue light...', 'evidence suggests' for parenting claims). However, 'it is considered' in PEPs and RFCs is legitimate standards-document hedging language expressing community consensus, not fake authority. 'Many believe that... prosperity will not last' is a conversational framing sentence in a finance Q&A, not a pseudoscientific claim. The rule is well-targeted for health/medical content but over-fires on standards documents and opinion framing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[tech/peps] (Uncited authority found: it is considered. Name th) It is considered desirable that users be strongly encouraged to use the"
+      }
+    }
+  ]
+}

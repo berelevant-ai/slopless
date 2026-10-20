@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "0c2acb7c848b107fc677317e4bb224e177e0d41344c6e11f859407c770866b1a",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-002.md",
+    "url": "https://a16z.com/2011/04/27/the-ceos-ceo",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 100,
+      "end": 131,
+      "check": "slopless/word-repetition",
+      "expected": false,
+      "reason": "Historical reviewer: Flags topic-word repetition within a focused paragraph where repeating the subject is mandatory. Examples: 'interview' 9x and 'process' 11x in a paragraph about interviewing process; 'alfred' 14x in a biography of Alfred; 'company' 13x in a paragraph about company management; common function words ('will', 'with', 'from', 'this') flagged at 6-9x in long paragraphs. None of this is slop -- it is coherent, on-topic prose about a single subject.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Word repeated 14 times in one paragraph: 'alfred'.) This biography was unauthorized"
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 100,
+      "end": 131,
+      "check": "slopless/word-repetition",
+      "expected": false,
+      "reason": "Historical reviewer: Flags topic-word repetition within a focused paragraph where repeating the subject is mandatory. Examples: 'interview' 9x and 'process' 11x in a paragraph about interviewing process; 'alfred' 14x in a biography of Alfred; 'company' 13x in a paragraph about company management; common function words ('will', 'with', 'from', 'this') flagged at 6-9x in long paragraphs. None of this is slop -- it is coherent, on-topic prose about a single subject.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Word repeated 9 times in one paragraph: 'this'. Ke) This biography was unauthorized"
+      }
+    },
+    {
+      "id": "historical-3",
+      "start": 8084,
+      "end": 8326,
+      "check": "slopless/perception-verb-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule catches common verbs (see, look, think, feel, indicate, speak) in completely normal uses: legal boilerplate disclaimers ('The content speaks only as of the date indicated', 'should not be relied upon'), literal physical instructions ('focus on the road'), noun forms counted as verbs ('perception of Silicon Valley'), and quoted interview speech. A single a16z disclaimer template fires 20+ times in the 30 samples. No sample in this set is sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[business/a16z] Charts and graphs provided within are for informational purposes solely and should not be relied upon when making any investment decision. Past performance is not indicative of future results. The content speaks only as of the date indicated."
+      }
+    }
+  ]
+}

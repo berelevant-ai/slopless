@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "68fcbff17baccaa7d30ada8bbf1c443a6d4f4d16c47f895345363e1b625b6961",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-webstartups.md",
+    "url": "https://paulgraham.com/webstartups.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 8291,
+      "end": 8393,
+      "check": "slopless/uncomparables",
+      "expected": false,
+      "reason": "Historical reviewer: The rule correctly catches absolute-adjective misuse ('very unique', 'more unique') which are genuine grammar errors. But it also flags degree constructions with gradable adjectives that merely look like comparatives: 'more true/less true' (accepted degree usage), 'quite possible/impossible' (standard intensifiers), 'largely true', 'kind of true/false', 'quite correct', and crucially 'more false positives' where 'false positives' is a technical compound noun, not the adjective 'false'. The FP rate is high because the blocklist conflates ungraduable adjectives with words that happen to appear in gradable constructions.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/paulgraham] a startup is rent money, you should be able to do it anywhere. This is kind of true and kind of false."
+      }
+    }
+  ]
+}

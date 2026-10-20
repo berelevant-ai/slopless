@@ -1,0 +1,1430 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "04eb64d92461a4ce77071318f065436ac9c49715794a289664f58c40e04d8b3a",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "Historical human-corpus review excerpts",
+    "originalPath": "datasets/experiments/audit/verdicts",
+    "notes": "Original reviewer examples with uncertain full-document matches. Diagnostic prefixes are stored in original.excerpt rather than prose."
+  },
+  "labels": [
+    {
+      "id": "1",
+      "start": 0,
+      "end": 88,
+      "check": "slopless/universalizing-claims",
+      "expected": false,
+      "reason": "Historical reviewer: Rule pattern-matches generic plural nouns with quantifiers ('many things', 'some things', 'several challenges', 'many reasons') that are ordinary count expressions in expository prose. It also flags 'everyone knows' and 'nobody knows' which are legitimate rhetorical and epistemic moves. None of the flagged phrases replace an actual universalizing claim; they are just indefinite plurals or common rhetorical setups.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/a16z] For many reasons—structural, regulatory, and commercial—most are navigating in the dark."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "start": 90,
+      "end": 161,
+      "check": "slopless/universalizing-claims",
+      "expected": false,
+      "reason": "Historical reviewer: Rule pattern-matches generic plural nouns with quantifiers ('many things', 'some things', 'several challenges', 'many reasons') that are ordinary count expressions in expository prose. It also flags 'everyone knows' and 'nobody knows' which are legitimate rhetorical and epistemic moves. None of the flagged phrases replace an actual universalizing claim; they are just indefinite plurals or common rhetorical setups.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/a16z] There are some things that just have to be done in person, they'll say."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "start": 163,
+      "end": 253,
+      "check": "slopless/softening-language",
+      "expected": false,
+      "reason": "Historical reviewer: Rule fires on co-occurrence of any modal verb (may, might, could) with any frequency adverb (generally, usually, largely, relatively) or scoping phrase (in some cases, some people). This combination is normal in careful analytical, business, and technical writing where the author is accurately describing partial or probabilistic phenomena. The pattern does not distinguish AI hedging inflation from appropriate epistemic precision.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/a16z] This is generally an iterative process; it's not as neatly sequential as one might assume."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "start": 255,
+      "end": 407,
+      "check": "slopless/softening-language",
+      "expected": false,
+      "reason": "Historical reviewer: Rule fires on co-occurrence of any modal verb (may, might, could) with any frequency adverb (generally, usually, largely, relatively) or scoping phrase (in some cases, some people). This combination is normal in careful analytical, business, and technical writing where the author is accurately describing partial or probabilistic phenomena. The pattern does not distinguish AI hedging inflation from appropriate epistemic precision.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/a16z] most GPs provide LPs with quarterly financial reports of the fund's performance and, in some cases, investment letters that highlight interesting trends"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "start": 409,
+      "end": 570,
+      "check": "slopless/hedge-stacking",
+      "expected": false,
+      "reason": "Historical reviewer: Two hedges per sentence is a normal feature of analytical writing when the author is reasoning about uncertain, multi-conditional situations (tradeoffs, predictions, counterfactuals). The rule catches genuine over-hedging in a minority of cases (e.g. 'maybe, just maybe, it could'; spoken transcript filler 'you know, you know') but fires heavily on legitimate double-conditional sentences. The threshold of 2 hedge words is too low to distinguish slop from precision.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/a16z] complexity might be warranted (or even necessary) for certain applications, but consumer apps like games...might be better served by a single shard architecture."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "start": 572,
+      "end": 698,
+      "check": "slopless/hedge-stacking",
+      "expected": false,
+      "reason": "Historical reviewer: Two hedges per sentence is a normal feature of analytical writing when the author is reasoning about uncertain, multi-conditional situations (tradeoffs, predictions, counterfactuals). The rule catches genuine over-hedging in a minority of cases (e.g. 'maybe, just maybe, it could'; spoken transcript filler 'you know, you know') but fires heavily on legitimate double-conditional sentences. The threshold of 2 hedge words is too low to distinguish slop from precision.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/a16z] Synapse's clients have launched...products that might have taken months or more–or might not have made it to market otherwise."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "start": 700,
+      "end": 810,
+      "check": "slopless/uncomparables",
+      "expected": false,
+      "reason": "Historical reviewer: The rule correctly catches absolute-adjective misuse ('very unique', 'more unique') which are genuine grammar errors. But it also flags degree constructions with gradable adjectives that merely look like comparatives: 'more true/less true' (accepted degree usage), 'quite possible/impossible' (standard intensifiers), 'largely true', 'kind of true/false', 'quite correct', and crucially 'more false positives' where 'false positives' is a technical compound noun, not the adjective 'false'. The FP rate is high because the blocklist conflates ungraduable adjectives with words that happen to appear in gradable constructions.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/paulgraham] made the filters stricter I got more false positives. False positives are innocent emails that get mistakenly…"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "start": 812,
+      "end": 991,
+      "check": "slopless/simplicity",
+      "expected": false,
+      "reason": "Historical reviewer: The rule measures 'complex word density' and fires on sentences where domain-mandatory technical vocabulary (primarily 'implement'/'implementation') repeats within a short span. All 30 samples are RFC specifications, Python PEPs, MDN docs, or technical Q&A where 'implement' is the required standards-language term that cannot be replaced by simpler synonyms. RFC conformance language structurally requires repeating 'MUST implement / SHOULD implement / MAY implement' in the same sentence. The rule has no domain vocabulary allowlist and no distinction between word repetition driven by technical precision vs. stylistic laziness.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[tech/rfcs] For an implementation of the View-based Access Control Model to be conformant, it MUST implement the SNMP-VIEW-BASED-ACM-MIB. It also SHOULD implement the initial configuration..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "start": 993,
+      "end": 1123,
+      "check": "slopless/simplicity",
+      "expected": false,
+      "reason": "Historical reviewer: The rule measures 'complex word density' and fires on sentences where domain-mandatory technical vocabulary (primarily 'implement'/'implementation') repeats within a short span. All 30 samples are RFC specifications, Python PEPs, MDN docs, or technical Q&A where 'implement' is the required standards-language term that cannot be replaced by simpler synonyms. RFC conformance language structurally requires repeating 'MUST implement / SHOULD implement / MAY implement' in the same sentence. The rule has no domain vocabulary allowlist and no distinction between word repetition driven by technical precision vs. stylistic laziness.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[tech/rfcs] Call Agents and gateways MUST implement the 'start' and 'stop' parameters and MAY implement the 'update' and 'failure' parameters."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "start": 1125,
+      "end": 1339,
+      "check": "slopless/formal-transition-density",
+      "expected": false,
+      "reason": "Historical reviewer: Every flagged sample is an RFC, PEP, or legal document. These genres require dense formal transitions ('however', 'therefore', 'thus', 'furthermore', 'consequently', 'in addition', 'additionally') by professional and standards-body convention. The rule fires precisely on the prose style that is correct for that register. The metric has zero discriminatory power against the technical/legal domain, which makes up the entire set of flagged human samples.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[tech/rfcs] Ultimately, a security association is a management construct used to enforce a security policy in the IPsec environment. Thus an essential element of SA processing is an underlying Security Policy Database (SPD)..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "start": 1341,
+      "end": 1541,
+      "check": "slopless/formal-transition-density",
+      "expected": false,
+      "reason": "Historical reviewer: Every flagged sample is an RFC, PEP, or legal document. These genres require dense formal transitions ('however', 'therefore', 'thus', 'furthermore', 'consequently', 'in addition', 'additionally') by professional and standards-body convention. The rule fires precisely on the prose style that is correct for that register. The metric has zero discriminatory power against the technical/legal domain, which makes up the entire set of flagged human samples.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[legal/stackexchange] It is important to realize that this law does not apply to print outs or widely circulated documents. Moreover, the copy of the State of the Union... Therefore, House Speaker Pelosi did not violate..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "start": 1543,
+      "end": 1760,
+      "check": "slopless/formal-transition-density",
+      "expected": false,
+      "reason": "Historical reviewer: Every flagged sample is an RFC, PEP, or legal document. These genres require dense formal transitions ('however', 'therefore', 'thus', 'furthermore', 'consequently', 'in addition', 'additionally') by professional and standards-body convention. The rule fires precisely on the prose style that is correct for that register. The metric has zero discriminatory power against the technical/legal domain, which makes up the entire set of flagged human samples.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[tech/rfcs] Thus, it is obvious that RADIUS does not and cannot meet all the requirements listed in [RFC2977] without undergoing an extensive design change. Consequently, within IETF no RADIUS attributes have been standardized..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "start": 1762,
+      "end": 1974,
+      "check": "slopless/summative-closer",
+      "expected": false,
+      "reason": "Historical reviewer: Two sub-patterns split sharply. Structural section headers ('In Conclusion', 'In Summary' as standalone labels or sentence openers in long-form structured writing) are legitimate formatting. Mid-argument uses of 'the point is', 'that's the reason', 'all in all' are functional connectors rather than sloppy endings. However, 'in conclusion / in summary / to summarize' used to close a short conversational StackExchange answer that does not need a formal wrap-up is genuinely sloppy. True positives cluster in medical/SE answers where a 2-paragraph response ends with 'In conclusion, sugar is fine in moderation'. Roughly half the sample is FP.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[motivational/gutenberg] This is a classic part of his antagonistic role; but it also sometimes knocks down walls, open doors or initiates the role of a true antagonist. (flagged 'this is what makes' in a character analysis mid-sentence)"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "start": 1976,
+      "end": 2082,
+      "check": "slopless/boilerplate-conclusion",
+      "expected": false,
+      "reason": "Historical reviewer: The rule targets phrases like 'the reason is', 'the answer is', 'the point is', 'the most important thing is', 'the interesting part' as boilerplate conclusion signals. In the samples these are all mid-passage or direct-answer constructions, not summary-padding. 'The reason is due to ripeness' is a concise direct answer. 'The answer is then a wholehearted Yes' closes a cooking Q&A correctly. 'The interesting part' is in-context analysis. Only 'In the end, the most important thing is...' (a16z closer) and 'The truth is' (used as rhetorical setup) are borderline sloppy. The pattern match is too broad and fires on functional explanatory phrases.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[food/stackexchange] Have you ever noticed some people like red bell peppers and not green ones? The reason is due to ripeness."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "start": 2084,
+      "end": 2161,
+      "check": "slopless/boilerplate-conclusion",
+      "expected": false,
+      "reason": "Historical reviewer: The rule targets phrases like 'the reason is', 'the answer is', 'the point is', 'the most important thing is', 'the interesting part' as boilerplate conclusion signals. In the samples these are all mid-passage or direct-answer constructions, not summary-padding. 'The reason is due to ripeness' is a concise direct answer. 'The answer is then a wholehearted Yes' closes a cooking Q&A correctly. 'The interesting part' is in-context analysis. Only 'In the end, the most important thing is...' (a16z closer) and 'The truth is' (used as rhetorical setup) are borderline sloppy. The pattern match is too broad and fires on functional explanatory phrases.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[food/stackexchange] The answer is then a wholehearted \"Yes: this is possible!\". Try this at home!"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "start": 2163,
+      "end": 2248,
+      "check": "slopless/boilerplate-conclusion",
+      "expected": false,
+      "reason": "Historical reviewer: The rule targets phrases like 'the reason is', 'the answer is', 'the point is', 'the most important thing is', 'the interesting part' as boilerplate conclusion signals. In the samples these are all mid-passage or direct-answer constructions, not summary-padding. 'The reason is due to ripeness' is a concise direct answer. 'The answer is then a wholehearted Yes' closes a cooking Q&A correctly. 'The interesting part' is in-context analysis. Only 'In the end, the most important thing is...' (a16z closer) and 'The truth is' (used as rhetorical setup) are borderline sloppy. The pattern match is too broad and fires on functional explanatory phrases.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/a16z] Both of these are enabled by machine learning... and indeed the most interesting part"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "start": 2250,
+      "end": 2356,
+      "check": "slopless/affirmation-closers",
+      "expected": false,
+      "reason": "Historical reviewer: All three samples are from Paul Graham essays, where short punchy clincher sentences ('That's the key.', 'That's the whole point', 'That's the real point') are a deliberate stylistic signature of that author's terse argumentative voice. These are not sloppy affirmations appended to pad a response; they are rhetorical conclusions that carry the argumentative weight of the preceding paragraph. The rule cannot distinguish intentional brevity-as-style from formulaic AI affirmation padding.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/paulgraham] certainly increase the gap between the productive and the unproductive. (flagged 'That's the whole point')"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "start": 2358,
+      "end": 2447,
+      "check": "slopless/affirmation-closers",
+      "expected": false,
+      "reason": "Historical reviewer: All three samples are from Paul Graham essays, where short punchy clincher sentences ('That's the key.', 'That's the whole point', 'That's the real point') are a deliberate stylistic signature of that author's terse argumentative voice. These are not sloppy affirmations appended to pad a response; they are rhetorical conclusions that carry the argumentative weight of the preceding paragraph. The rule cannot distinguish intentional brevity-as-style from formulaic AI affirmation padding.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/paulgraham] the top 1%. It's a much better deal for them to average (flagged 'That's the real point')"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "start": 2449,
+      "end": 2545,
+      "check": "slopless/paragraph-length",
+      "expected": false,
+      "reason": "Historical reviewer: Two distinct FP patterns. First: the parser treats entire articles or major sections as a single paragraph (77, 95, 107 sentences) when there are no blank-line separators, then attributes the violation to the first or last short sentence in that block ('This biography was unauthorized', 'Let's look at each of these in more detail.'). Second: legitimate dense paragraphs of 8-17 sentences in professional long-form articles are flagged by a threshold calibrated for blog posts. Neither pattern indicates slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Paragraph has 95 sentences. Keep paragraphs to 6 s) Rather than relying solely on my anecdotal examples of 'important places,' I turned to LinkedIn."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "start": 2547,
+      "end": 2645,
+      "check": "slopless/paragraph-length",
+      "expected": false,
+      "reason": "Historical reviewer: Two distinct FP patterns. First: the parser treats entire articles or major sections as a single paragraph (77, 95, 107 sentences) when there are no blank-line separators, then attributes the violation to the first or last short sentence in that block ('This biography was unauthorized', 'Let's look at each of these in more detail.'). Second: legitimate dense paragraphs of 8-17 sentences in professional long-form articles are flagged by a threshold calibrated for blog posts. Neither pattern indicates slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Paragraph has 8 sentences. Keep paragraphs to 6 se) Last month, as CEO of SpiderNet, you were faced with the issue of firing your VP of Engineering..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "start": 2647,
+      "end": 2690,
+      "check": "slopless/word-repetition",
+      "expected": false,
+      "reason": "Historical reviewer: Flags topic-word repetition within a focused paragraph where repeating the subject is mandatory. Examples: 'interview' 9x and 'process' 11x in a paragraph about interviewing process; 'alfred' 14x in a biography of Alfred; 'company' 13x in a paragraph about company management; common function words ('will', 'with', 'from', 'this') flagged at 6-9x in long paragraphs. None of this is slop -- it is coherent, on-topic prose about a single subject.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Word repeated 11 times in one paragraph: 'process') Let's look at each of these in more detail."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "start": 2692,
+      "end": 2802,
+      "check": "slopless/exclamation-density",
+      "expected": false,
+      "reason": "Historical reviewer: Threshold of >1 exclamation mark per paragraph catches: proper nouns containing ! (Yahoo!, 'Tarzan Finds a Son!'), quoted speech combining multiple voices, colloquial vivid narration ('He went nuts!'), list headers used as rhetorical questions, and investment announcements with genuine enthusiasm. The 2 samples that approach TP territory have 6-9 exclamation marks in one paragraph but are energetic narrative writing, not boilerplate slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Paragraph has 3 exclamation marks. Keep at most 1.) At the tip of the innovation spear, behemoths like Facebook, Google, and Yahoo! have to invent technologies..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "start": 2804,
+      "end": 2989,
+      "check": "slopless/exclamation-density",
+      "expected": false,
+      "reason": "Historical reviewer: Threshold of >1 exclamation mark per paragraph catches: proper nouns containing ! (Yahoo!, 'Tarzan Finds a Son!'), quoted speech combining multiple voices, colloquial vivid narration ('He went nuts!'), list headers used as rhetorical questions, and investment announcements with genuine enthusiasm. The 2 samples that approach TP territory have 6-9 exclamation marks in one paragraph but are energetic narrative writing, not boilerplate slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Paragraph has 2 exclamation marks. Keep at most 1.) Shortly after our first round of funding, my co-founder, Scott Banister, turned to me and said, 'I had no idea you spend so much time selling!' He was right, I was constantly selling..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "start": 2991,
+      "end": 3174,
+      "check": "slopless/perception-verb-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule catches common verbs (see, look, think, feel, indicate, speak) in completely normal uses: legal boilerplate disclaimers ('The content speaks only as of the date indicated', 'should not be relied upon'), literal physical instructions ('focus on the road'), noun forms counted as verbs ('perception of Silicon Valley'), and quoted interview speech. A single a16z disclaimer template fires 20+ times in the 30 samples. No sample in this set is sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[business/a16z] Focus on the road not the wall--When they train racecar drivers, one of the first lessons is when you are going around a curve at 200 MPH, do not focus on the wall; focus on the road."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/narrative.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "start": 3176,
+      "end": 3422,
+      "check": "slopless/perception-verb-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule catches common verbs (see, look, think, feel, indicate, speak) in completely normal uses: legal boilerplate disclaimers ('The content speaks only as of the date indicated', 'should not be relied upon'), literal physical instructions ('focus on the road'), noun forms counted as verbs ('perception of Silicon Valley'), and quoted interview speech. A single a16z disclaimer template fires 20+ times in the 30 samples. No sample in this set is sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[business/a16z] Here are 10 ways to damage your fast-growing tech startup -- and hurt the perception of Silicon Valley in the process. None of these are specific to any one company; they're general patterns we've observed across multiple cycles of tech startups."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/narrative.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "start": 3424,
+      "end": 3626,
+      "check": "slopless/body-action-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule flags passages with 3+ movement or body cues in a short span. For fitness, medical, sports, and travel content this is expected and domain-correct: exercise instructions must name muscles and movements, walking/running comparisons must reference physical actions, and medical anatomy descriptions require body-part vocabulary. The non-fitness samples (paulgraham, a16z) are mostly truncated 10-20 word fragments where context is insufficient to judge density meaningfully.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[fitness/stackexchange] I do not feel any pain when standing, sitting, or walking. I do feel it whenever I ascend/descend at all. Getting up from a chair, walking up or down a flight of stairs, and of course when doing squats."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/narrative.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "start": 3628,
+      "end": 3858,
+      "check": "slopless/empty-beat",
+      "expected": false,
+      "reason": "Historical reviewer: The rule fires on any simple action verb ('stood', 'remained', 'followed', 'looked') framed as a 'placeholding beat'. Wikipedia biographical prose uses these verbs as precise factual statements of what a person did. Victorian fiction uses them as literal scene narration. The Keats poem line 'She stood in tears amid the alien corn' is canonical poetry. The food/stackexchange entry narrates a controlled culinary experiment where each action verb is a distinct procedural step. None are padding.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[reference/wikipedia] Cooley remained with the Beaneaters for the following two seasons, hitting .289 in 1903. On June 20, 1904, Cooley hit for the cycle (a single, double, triple, and home run in the same game), becoming the second Beaneater to do so."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/narrative.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "start": 3860,
+      "end": 3912,
+      "check": "slopless/smart-quotes",
+      "expected": false,
+      "reason": "Historical reviewer: Flags curly apostrophes in natural contractions and possessives (it's, don't, I've, can't) and curly quotation marks in normal published prose. Standard typographic convention in professionally edited text; not a slop signal.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "It's f@#ked up when your mind's playin' tricks on ya"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "start": 3914,
+      "end": 3960,
+      "check": "slopless/smart-quotes",
+      "expected": false,
+      "reason": "Historical reviewer: Flags curly apostrophes in natural contractions and possessives (it's, don't, I've, can't) and curly quotation marks in normal published prose. Standard typographic convention in professionally edited text; not a slop signal.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "If I'm Doing a Good Job, Why Do I Feel So Bad?"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "start": 3962,
+      "end": 4002,
+      "check": "slopless/smart-quotes",
+      "expected": false,
+      "reason": "Historical reviewer: Flags curly apostrophes in natural contractions and possessives (it's, don't, I've, can't) and curly quotation marks in normal published prose. Standard typographic convention in professionally edited text; not a slop signal.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "And this loneliness won't leave me alone"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "start": 4004,
+      "end": 4120,
+      "check": "slopless/em-dashes",
+      "expected": false,
+      "reason": "Historical reviewer: Flags every em-dash regardless of function. All sampled uses are standard: parenthetical insertions ('one of the most important--and overlooked--parts'), list-item introductions ('Make some friends--Although...'), appositives, and parenthetical clarifications. Em-dashes are ordinary punctuation in edited prose.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "Make some friends—Although it's nearly impossible to get high quality advice on the tough decisions that you make..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "start": 4122,
+      "end": 4176,
+      "check": "slopless/sentence-case",
+      "expected": false,
+      "reason": "Historical reviewer: Flags title-case headings and article titles, which is the dominant editorial convention for titles in American English publishing. Every sample is a legitimate document or article title (e.g. '# When Smart People Are Bad Employees', '# Ben Horowitz What You Do Is Who You Are Proceeds'). Title case in headings is a style choice, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "# A Final Word of Advice—Don't Punk Out and Don't Quit"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "start": 4178,
+      "end": 4292,
+      "check": "slopless/hidden-unicode-controls",
+      "expected": false,
+      "reason": "Historical reviewer: Two artifact classes: (1) U+00AD SOFT HYPHEN in court opinions and chemistry equations -- inserted by typesetting pipelines for hyphenation hints; (2) U+200B ZERO WIDTH SPACE in PubMed medical abstracts -- a database export artifact. Both originate from formatting pipelines in legitimate institutional sources, not from AI generation or sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "(Slip Opinion) OCTOBER TERM, 2013 1 Syllabus NOTE: Where it is feasible, a syllabus (headnote) will be released..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "start": 4294,
+      "end": 4440,
+      "check": "slopless/hidden-unicode-controls",
+      "expected": false,
+      "reason": "Historical reviewer: Two artifact classes: (1) U+00AD SOFT HYPHEN in court opinions and chemistry equations -- inserted by typesetting pipelines for hyphenation hints; (2) U+200B ZERO WIDTH SPACE in PubMed medical abstracts -- a database export artifact. Both originate from formatting pipelines in legitimate institutional sources, not from AI generation or sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "OBJECTIVE: To identify the prevalence, treatment, and low-density lipoprotein cholesterol (LDL-C) control of individuals with LDL-C ≥190 ​mg/dL..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "start": 4442,
+      "end": 4518,
+      "check": "slopless/colon-dramatic",
+      "expected": false,
+      "reason": "Historical reviewer: Only one human sample; the fragment appears to be a truncated excerpt from normal expository prose rather than a dramatic-reveal colon construction. Insufficient sample size to characterize rate, but the single flagged line is a FP.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "Faced with the idea that people working for startups might be [pay them to.]"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "start": 4520,
+      "end": 4671,
+      "check": "slopless/fake-timestamps",
+      "expected": false,
+      "reason": "Historical reviewer: Three categories all flagged incorrectly: (1) real email headers with documented send times ('date: Fri, Jan 23, 2009 at 11:42 AM') -- these are literal metadata, not fabricated; (2) specific times in memoir/business narrative recounting real events ('6:30 pm board meeting', '5:30pm office') -- genuine recollections; (3) idiomatic time references ('paged at 4:00 AM', 'stay up till 4:00 AM') -- common colloquial usage. The rule cannot distinguish fabricated AI timestamps from real or idiomatic time references.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "We informed them that we had scheduled a final board meeting for 6:30 pm and we would not be recommending the deal with HP for anything less than that."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/orthography.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "start": 4673,
+      "end": 4819,
+      "check": "slopless/prohibited-words",
+      "expected": false,
+      "reason": "Historical reviewer: The banned words ('actually', 'leverage', 'elevate', 'transformative', 'unlock') each have legitimate non-sloppy uses that are common in human prose. 'Actually' is a standard emphatic/contrastive adverb; 'leverage' as a noun ('points of leverage') or transitive verb ('leverage technology') is correct domain usage; 'transformative' as a past participle verb ('has transformed') is not the sloppy adjective sense; 'unlock' in headlines or technical descriptions is literal. The rule fires on the word string regardless of grammatical role or meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/a16z] (Prohibited word found: \"actually\". Rewrite without) It turned out that neither was actually right. The new customers didn't save us, but we figured out another way to survive and ultimately succeed."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "start": 4821,
+      "end": 4969,
+      "check": "slopless/prohibited-words",
+      "expected": false,
+      "reason": "Historical reviewer: The banned words ('actually', 'leverage', 'elevate', 'transformative', 'unlock') each have legitimate non-sloppy uses that are common in human prose. 'Actually' is a standard emphatic/contrastive adverb; 'leverage' as a noun ('points of leverage') or transitive verb ('leverage technology') is correct domain usage; 'transformative' as a past participle verb ('has transformed') is not the sloppy adjective sense; 'unlock' in headlines or technical descriptions is literal. The rule fires on the word string regardless of grammatical role or meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/a16z] (Prohibited word found: \"transformative\". Rewrite w) Jeff has been CEO and remains an active executive chairman of OpenTable, which has transformed the restaurant industry—with 20 thousand restaurants."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "start": 4971,
+      "end": 5205,
+      "check": "slopless/prohibited-phrases",
+      "expected": false,
+      "reason": "Historical reviewer: Two distinct FP clusters. (1) 'in a world where' is a legitimate historical/technical contrast phrase when not used as a rhetorical opener ('Mainframe-style arrays were designed in a world where a single mainframe...'; Paul Graham literary use; PEP technical contrast). (2) 'In conclusion' / 'in conclusion' is a standard section marker in legal opinions, medical abstracts, academic Q&A, and 19th-century literary prose — not slop in those contexts. 'Now more than ever' fired on a Keats poem. 'It's important to note' is more consistently sloppy but fires on legitimate technical doc signaling (MDN, PEP).",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/a16z] (Prohibited phrase found: \"in a world where\". Rewri) Current storage systems don't scale because they were designed in the mainframe era. Mainframe-style arrays were designed in a world where a single mainframe provided the compute and a handful of storage arrays hung off the mainframe."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "start": 5207,
+      "end": 5281,
+      "check": "slopless/skunked-terms",
+      "expected": false,
+      "reason": "Historical reviewer: Every sample flags 'hopefully' or 'deceptively'. 'Hopefully' as a sentence adverb ('Hopefully, you find them useful') is standard modern English — the prescriptivist objection to it is itself contested and obsolete. 'Deceptively simple' and 'deceptively casual' are legitimate literary devices meaning 'misleadingly simple/casual' — that is the correct meaning, not skunked usage. 'Acting deceptively' in a legal sample is the literal adverb. None of the 30 samples represent genuinely ambiguous or corrupted usage.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[legal/stackexchange] (Skunked term found: \"deceptively\". Replace it with) The thief is acting deceptively and thereby gaining control over property."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "start": 5283,
+      "end": 5403,
+      "check": "slopless/jargon-faker",
+      "expected": false,
+      "reason": "Historical reviewer: 'Optimizing for X' is established technical vocabulary in product management, engineering, and growth discourse — not fake jargon. 'Optimizing for growth' and 'optimizing for depth' are precise, analytical uses with concrete referents. The phrase only becomes jargon-faker when used without a specific referent or as an empty intensifier, which none of the sampled lines do.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/a16z] (Fake jargon phrase found: \"optimizing for\". Replac) A year after we funded their Series A, having spent that time heads-down building product and piloting with customers..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "start": 5405,
+      "end": 5532,
+      "check": "slopless/uncited-authority",
+      "expected": false,
+      "reason": "Historical reviewer: True positives exist where medical or health claims cite vague authority ('Studies suggest inflammation...', 'studies show that blue light...', 'evidence suggests' for parenting claims). However, 'it is considered' in PEPs and RFCs is legitimate standards-document hedging language expressing community consensus, not fake authority. 'Many believe that... prosperity will not last' is a conversational framing sentence in a finance Q&A, not a pseudoscientific claim. The rule is well-targeted for health/medical content but over-fires on standards documents and opinion framing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[tech/rfcs] (Uncited authority found: it is considered. Name th) It is considered one of the more difficult problems in IP telephony. The selection of an egress gateway for a telephony call..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "start": 5534,
+      "end": 5678,
+      "check": "slopless/response-wrapper",
+      "expected": false,
+      "reason": "Historical reviewer: 'Certainly' as an adverb of degree or sentence adverb is standard human English ('Certainly they will learn more', 'Certainly schools should teach', 'Is it much harder... Certainly, but...'). It is not a chat-scaffold word — it appears throughout Paul Graham essays and journalistic prose as a normal emphatic or concessive adverb. The chat-scaffold pattern it is supposed to catch ('Certainly! Here is...') requires an exclamation mark and an imperative follow-on, not a bare adverb in flowing prose.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[finance/stackexchange] (Response wrapper found: chat-scaffold (certainly).) Is it much harder for a poor person? Certainly, but hopefully these numbers illustrate that it is better to save and invest even a small amount."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "start": 5680,
+      "end": 5826,
+      "check": "slopless/semantic-thinness",
+      "expected": false,
+      "reason": "Historical reviewer: Two sub-patterns both over-fire. 'empty-scene-transition' catches normal narrative connectives ('It turned out that', 'As is usually the case', 'Then I began to study', 'As the day broke') that are the standard tissue of narrative and analytical prose — not thin filler but structural progression markers. 'deictic-summary' catches rhetorical devices like 'One may still argue' and 'That was the point of' which are legitimate analytical moves. The rule conflates genuine empty transitions with all uses of these constructions regardless of whether they carry meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/paulgraham] (Semantic thinness (deictic-summary): Catch deictic) One may still argue that a bubble is coming. A bubble will almost certainly come eventually—that is the nature of human psychology and of markets."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "start": 5828,
+      "end": 5909,
+      "check": "slopless/llm-vocabulary-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule fires on technical standards documents (RFCs, PEPs) and API reference docs (MDN) where 'value' is a mandatory domain term — protocol fields, Python language semantics, CSS property values. These texts legitimately repeat 'value' and 'context' dozens of times per page because those are the technical concepts being specified. The density signal conflates domain-required repetition with LLM stock abstraction. The rule needs domain exclusions or a word list that does not include 'value' for technical content.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[tech/rfcs] (LLM vocabulary density: 4 stock abstraction words ) Byte 0 Data type... BOOLEAN 7 zero-bits + 1-bit value (TRUE=1/FALSE=0) INDEX 2..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "start": 5911,
+      "end": 6105,
+      "check": "slopless/llm-vocabulary-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule fires on technical standards documents (RFCs, PEPs) and API reference docs (MDN) where 'value' is a mandatory domain term — protocol fields, Python language semantics, CSS property values. These texts legitimately repeat 'value' and 'context' dozens of times per page because those are the technical concepts being specified. The density signal conflates domain-required repetition with LLM stock abstraction. The rule needs domain exclusions or a word list that does not include 'value' for technical content.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[tech/mdn] (LLM vocabulary density: 4 stock abstraction words ) A position defines an x/y coordinate, to place an item relative to the edges of an element's box... the first value represents the horizontal position and the second value the vertical position."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "start": 6107,
+      "end": 6245,
+      "check": "slopless/academic-boilerplate",
+      "expected": false,
+      "reason": "Historical reviewer: Both samples are FP. 'Fertile ground' is a common English metaphor used appropriately in analytical writing about culture. 'Pivotal role' is standard encyclopedia register for Wikipedia historical articles — it is the expected vocabulary, not boilerplate padding. With only 2 samples and 2 FPs the signal is essentially noise, but both flagged phrases have clear legitimate uses in context.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[reference/wikipedia] (Academic boilerplate found: \"pivotal role\". Replac) Shepseskare's reign may have been cut short by his unexpected death or his claim to the throne could have been thwarted by Nyuserre Ini..."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "start": 6247,
+      "end": 6368,
+      "check": "slopless/cliches",
+      "expected": false,
+      "reason": "Historical reviewer: Rule conflates genuine idiom-cliches (\"at the end of the day\", \"easier said than done\") with: (1) literal price statements flagged as \"for free\" (6 hits where \"for free\" means zero-cost, not a cliche), (2) domain-correct technical terms (\"cutting edge science\", \"divide and conquer\" in CS/distributed systems), (3) functional compound nouns (\"decision-making process\" as a precise term for a workflow), (4) legal/commercial set phrases (\"time is of the essence\"), (5) common English idioms with no sloppy connotation (\"lion's share\" meaning majority).",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Cliche found: \"lion's share\". Replace it with spec) - If the industry stratifies, will the lion's share of the profits go to the OS and application layers as it did for PCs?"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "start": 6370,
+      "end": 6641,
+      "check": "slopless/corporate-speak",
+      "expected": false,
+      "reason": "Historical reviewer: Most \"world-class\" hits are genuine corporate-speak TPs. FPs arise when \"next level\" is used literally for an organizational hierarchy level or a karate belt rank (not as a vague intensifier), and when \"world-class research universities\" is a factual descriptor for institutions that are objectively globally ranked, not a hollow boast.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Corporate-speak phrase found: \"next level\". Replac) the other employees in the company with lower titles will naturally benchmark themselves against the crappiest person at the next level. For example, if Jasper is the worst Vice President in the company, then all of the Directors will benchmark themselves against Jasper."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "start": 6643,
+      "end": 6711,
+      "check": "slopless/corporate-speak",
+      "expected": false,
+      "reason": "Historical reviewer: Most \"world-class\" hits are genuine corporate-speak TPs. FPs arise when \"next level\" is used literally for an organizational hierarchy level or a karate belt rank (not as a vague intensifier), and when \"world-class research universities\" is a factual descriptor for institutions that are objectively globally ranked, not a hollow boast.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Corporate-speak phrase found: \"next level\". Replac) In top Dojos, in order to achieve the next level (e.g. b[lack belt])"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "start": 6713,
+      "end": 6770,
+      "check": "slopless/wordiness",
+      "expected": false,
+      "reason": "Historical reviewer: Phrases like \"in order to\", \"in an effort to\", \"despite the fact that\", \"have the ability to\" are unambiguously wordy and correct TPs. The FPs are all \"a number of\" (9 samples): this is normal, accepted English for an indefinite count; replacing every instance with \"several\" or \"many\" changes register and is not always correct (\"a number of\" can signal approximate enumeration distinct from \"several\"). The rule fires mechanically on this phrase without checking whether it adds meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Wordy phrase found: \"a number of\". Replace it with) We're excited to see a number of companies in this space!"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "start": 6772,
+      "end": 6868,
+      "check": "slopless/demonstrative-emphasis",
+      "expected": false,
+      "reason": "Historical reviewer: Pattern matches ordinary demonstrative pronouns and transitional phrases ('That said', 'This article was first published', 'That was pure scientific discovery', 'This fisherman is catching') that carry no emphasis function and are normal prose. Fires heavily on talk transcripts where 'this', 'that', 'these' are used as natural reference words. True positives exist ('The truth is that...', 'And that is exactly what is missing') but they are outnumbered by neutral uses.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "That was pure scientific discovery. But using CRISPR—as a tool, as a therapy—that's engineering."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "start": 6870,
+      "end": 6945,
+      "check": "slopless/triple-repeat",
+      "expected": false,
+      "reason": "Historical reviewer: Rule cannot distinguish deliberate rhetorical anaphora from sloppy repetition. Flags intentional parallel structure ('What can you give? What can you help with? What can you teach?'), rhetorical questions ('What does he do? What does he say?'), song lyrics ('Facts are simple and facts are straight / Facts are lazy and facts are late'), and proper-noun title repetition ('a16z Podcast: ...' headers). Also fires on spam corpus lines ('FREE', 'Free', 'free') which are data rows not prose. The rule's intent—catching unintentional word repetition from lazy drafting—is overwhelmed by legitimate anaphoric and enumerative structures.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "Facts are simple and facts are straight / Facts are lazy and facts are late"
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "start": 6947,
+      "end": 7133,
+      "check": "slopless/repeated-sentence-starts",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on deliberate parallel instruction ('If you focus on the wall... If you focus on the road'), deliberate rhetoric ('Make her feel it. Make her feel you.'), enumeration ('In the first... In this case...'), metadata and title strings ('a16z Podcast: ...' repeated headers, 'Want More a16z Crypto?', 'Analysis and news...'), data rows ('3/31/1995: 21.0'), email headers ('to: Paul Graham'), and Paul Graham sentence fragments that are mid-paragraph continuations rather than sentence starts. The rule cannot distinguish intentional parallel structure, enumeration, or non-prose content from lazy repetition.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "Focus on the road not the wall—...do not focus on the wall; focus on the road. If you focus on the wall, you will drive right into it. If you focus on the road, you will follow the road."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "start": 7135,
+      "end": 7272,
+      "check": "slopless/repeated-sentence-starts",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on deliberate parallel instruction ('If you focus on the wall... If you focus on the road'), deliberate rhetoric ('Make her feel it. Make her feel you.'), enumeration ('In the first... In this case...'), metadata and title strings ('a16z Podcast: ...' repeated headers, 'Want More a16z Crypto?', 'Analysis and news...'), data rows ('3/31/1995: 21.0'), email headers ('to: Paul Graham'), and Paul Graham sentence fragments that are mid-paragraph continuations rather than sentence starts. The rule cannot distinguish intentional parallel structure, enumeration, or non-prose content from lazy repetition.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "Come from the right place...Make her feel it. Make her feel you. If she feels you and you are in her corner, then she will listen to you."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "start": 7274,
+      "end": 7353,
+      "check": "slopless/contrastive-aphorism",
+      "expected": false,
+      "reason": "Historical reviewer: The 'not-x-but-y' variant flags ordinary analytical contrast ('The problem is not finding startups, exactly, but finding a stream', 'The problem is not Apple's products but their policies', 'not only makes later rounds harder', 'Not only was this'). Standard English negation-contrast is not slop. The 'abstract-evaluative-pair' variant fires on legitimate problem-analysis sentences in Q&A forums, finance advice, and fitness/food explanations where the structure matches the pattern but the content is substantive. Many flagged samples contain genuine reasoning, not hollow aphorisms.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "The problem is not finding startups, exactly, but finding a stream of startups."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "start": 7355,
+      "end": 7462,
+      "check": "slopless/contrastive-aphorism",
+      "expected": false,
+      "reason": "Historical reviewer: The 'not-x-but-y' variant flags ordinary analytical contrast ('The problem is not finding startups, exactly, but finding a stream', 'The problem is not Apple's products but their policies', 'not only makes later rounds harder', 'Not only was this'). Standard English negation-contrast is not slop. The 'abstract-evaluative-pair' variant fires on legitimate problem-analysis sentences in Q&A forums, finance advice, and fitness/food explanations where the structure matches the pattern but the content is substantive. Many flagged samples contain genuine reasoning, not hollow aphorisms.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "The problem is not pain, I just feel tension in the back of my legs and at the point that the legs connect."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "start": 7464,
+      "end": 7588,
+      "check": "slopless/negation-reframe",
+      "expected": false,
+      "reason": "Historical reviewer: Pattern fires on ordinary English negation that carries no rhetorical reframing: technical descriptions ('The pictures aren't bright enough'), factual corrections with supporting evidence ('The iPhone is not and never was a phone' — a quoted technical critique), plain conditionals ('There does not need to be universal alignment'), standard connectives ('not only makes later rounds harder'), common intensifiers ('nothing short of a phenomenon'), and practical advice ('Be direct, but not mean'). The rule cannot distinguish slop reframing ('It is not X, it is Y — and that makes all the difference') from normal use of negation in analytical prose.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "The pictures aren't bright enough—Somehow, you didn't actually capture enough light on the plane to get the shot you wanted."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "start": 7590,
+      "end": 7700,
+      "check": "slopless/negation-reframe",
+      "expected": false,
+      "reason": "Historical reviewer: Pattern fires on ordinary English negation that carries no rhetorical reframing: technical descriptions ('The pictures aren't bright enough'), factual corrections with supporting evidence ('The iPhone is not and never was a phone' — a quoted technical critique), plain conditionals ('There does not need to be universal alignment'), standard connectives ('not only makes later rounds harder'), common intensifiers ('nothing short of a phenomenon'), and practical advice ('Be direct, but not mean'). The rule cannot distinguish slop reframing ('It is not X, it is Y — and that makes all the difference') from normal use of negation in analytical prose.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "There does not need to be universal alignment, but there does need to be buy-in from all the key stakeholders."
+      },
+      "review": [
+        {
+          "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+          "comment": "The original review supplied this excerpt. Its exact full-document context could not be recovered; retain the judgment at excerpt scope."
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "id": "1",
+      "start": 0,
+      "end": 88
+    },
+    {
+      "id": "2",
+      "start": 90,
+      "end": 161
+    },
+    {
+      "id": "3",
+      "start": 163,
+      "end": 253
+    },
+    {
+      "id": "4",
+      "start": 255,
+      "end": 407
+    },
+    {
+      "id": "5",
+      "start": 409,
+      "end": 570
+    },
+    {
+      "id": "6",
+      "start": 572,
+      "end": 698
+    },
+    {
+      "id": "7",
+      "start": 700,
+      "end": 810
+    },
+    {
+      "id": "8",
+      "start": 812,
+      "end": 991
+    },
+    {
+      "id": "9",
+      "start": 993,
+      "end": 1123
+    },
+    {
+      "id": "10",
+      "start": 1125,
+      "end": 1339
+    },
+    {
+      "id": "11",
+      "start": 1341,
+      "end": 1541
+    },
+    {
+      "id": "12",
+      "start": 1543,
+      "end": 1760
+    },
+    {
+      "id": "13",
+      "start": 1762,
+      "end": 1974
+    },
+    {
+      "id": "14",
+      "start": 1976,
+      "end": 2082
+    },
+    {
+      "id": "15",
+      "start": 2084,
+      "end": 2161
+    },
+    {
+      "id": "16",
+      "start": 2163,
+      "end": 2248
+    },
+    {
+      "id": "17",
+      "start": 2250,
+      "end": 2356
+    },
+    {
+      "id": "18",
+      "start": 2358,
+      "end": 2447
+    },
+    {
+      "id": "19",
+      "start": 2449,
+      "end": 2545
+    },
+    {
+      "id": "20",
+      "start": 2547,
+      "end": 2645
+    },
+    {
+      "id": "21",
+      "start": 2647,
+      "end": 2690
+    },
+    {
+      "id": "22",
+      "start": 2692,
+      "end": 2802
+    },
+    {
+      "id": "23",
+      "start": 2804,
+      "end": 2989
+    },
+    {
+      "id": "24",
+      "start": 2991,
+      "end": 3174
+    },
+    {
+      "id": "25",
+      "start": 3176,
+      "end": 3422
+    },
+    {
+      "id": "26",
+      "start": 3424,
+      "end": 3626
+    },
+    {
+      "id": "27",
+      "start": 3628,
+      "end": 3858
+    },
+    {
+      "id": "28",
+      "start": 3860,
+      "end": 3912
+    },
+    {
+      "id": "29",
+      "start": 3914,
+      "end": 3960
+    },
+    {
+      "id": "30",
+      "start": 3962,
+      "end": 4002
+    },
+    {
+      "id": "31",
+      "start": 4004,
+      "end": 4120
+    },
+    {
+      "id": "32",
+      "start": 4122,
+      "end": 4176
+    },
+    {
+      "id": "33",
+      "start": 4178,
+      "end": 4292
+    },
+    {
+      "id": "34",
+      "start": 4294,
+      "end": 4440
+    },
+    {
+      "id": "35",
+      "start": 4442,
+      "end": 4518
+    },
+    {
+      "id": "36",
+      "start": 4520,
+      "end": 4671
+    },
+    {
+      "id": "37",
+      "start": 4673,
+      "end": 4819
+    },
+    {
+      "id": "38",
+      "start": 4821,
+      "end": 4969
+    },
+    {
+      "id": "39",
+      "start": 4971,
+      "end": 5205
+    },
+    {
+      "id": "40",
+      "start": 5207,
+      "end": 5281
+    },
+    {
+      "id": "41",
+      "start": 5283,
+      "end": 5403
+    },
+    {
+      "id": "42",
+      "start": 5405,
+      "end": 5532
+    },
+    {
+      "id": "43",
+      "start": 5534,
+      "end": 5678
+    },
+    {
+      "id": "44",
+      "start": 5680,
+      "end": 5826
+    },
+    {
+      "id": "45",
+      "start": 5828,
+      "end": 5909
+    },
+    {
+      "id": "46",
+      "start": 5911,
+      "end": 6105
+    },
+    {
+      "id": "47",
+      "start": 6107,
+      "end": 6245
+    },
+    {
+      "id": "48",
+      "start": 6247,
+      "end": 6368
+    },
+    {
+      "id": "49",
+      "start": 6370,
+      "end": 6641
+    },
+    {
+      "id": "50",
+      "start": 6643,
+      "end": 6711
+    },
+    {
+      "id": "51",
+      "start": 6713,
+      "end": 6770
+    },
+    {
+      "id": "52",
+      "start": 6772,
+      "end": 6868
+    },
+    {
+      "id": "53",
+      "start": 6870,
+      "end": 6945
+    },
+    {
+      "id": "54",
+      "start": 6947,
+      "end": 7133
+    },
+    {
+      "id": "55",
+      "start": 7135,
+      "end": 7272
+    },
+    {
+      "id": "56",
+      "start": 7274,
+      "end": 7353
+    },
+    {
+      "id": "57",
+      "start": 7355,
+      "end": 7462
+    },
+    {
+      "id": "58",
+      "start": 7464,
+      "end": 7588
+    },
+    {
+      "id": "59",
+      "start": 7590,
+      "end": 7700
+    }
+  ]
+}

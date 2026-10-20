@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "4b1dadf01cb6ecb2099d381854523515a6531cf4a0dce910e65615ee3c6a2657",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-003.md",
+    "url": "https://a16z.com/2012/01/17/what-now-hiring",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 6626,
+      "end": 6741,
+      "check": "slopless/em-dashes",
+      "expected": false,
+      "reason": "Historical reviewer: Flags every em-dash regardless of function. All sampled uses are standard: parenthetical insertions ('one of the most important--and overlooked--parts'), list-item introductions ('Make some friends--Although...'), appositives, and parenthetical clarifications. Em-dashes are ordinary punctuation in edited prose.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "Reference Checking. One of the most important—and overlooked—parts of the recruiting process is reference checking."
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 1437,
+      "end": 1567,
+      "check": "slopless/wordiness",
+      "expected": false,
+      "reason": "Historical reviewer: Phrases like \"in order to\", \"in an effort to\", \"despite the fact that\", \"have the ability to\" are unambiguously wordy and correct TPs. The FPs are all \"a number of\" (9 samples): this is normal, accepted English for an indefinite count; replacing every instance with \"several\" or \"many\" changes register and is not always correct (\"a number of\" can signal approximate enumeration distinct from \"several\"). The rule fires mechanically on this phrase without checking whether it adds meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Wordy phrase found: \"a number of\". Replace it with) You hired a search firm and saw a number of good candidates, so you felt that the candidate pool was adequate but not exceptional."
+      }
+    }
+  ]
+}

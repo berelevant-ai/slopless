@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "646109065663b6384391559cefbf4b68a2c384d9b137bbb6b23a921308606bae",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-ace.md",
+    "url": "https://paulgraham.com/ace.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 10003,
+      "end": 10070,
+      "check": "slopless/skunked-terms",
+      "expected": false,
+      "reason": "Historical reviewer: Every sample flags 'hopefully' or 'deceptively'. 'Hopefully' as a sentence adverb ('Hopefully, you find them useful') is standard modern English — the prescriptivist objection to it is itself contested and obsolete. 'Deceptively simple' and 'deceptively casual' are legitimate literary devices meaning 'misleadingly simple/casual' — that is the correct meaning, not skunked usage. 'Acting deceptively' in a legal sample is the literal adverb. None of the 30 samples represent genuinely ambiguous or corrupted usage.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/paulgraham] (Skunked term found: \"hopefully\". Replace it with a) bullshit detectors, and you are (hopefully) an amateur bullshitter."
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "2c471b7e6e5af9f5b6beacfa28ae0b629371c098275a5dc7dc113c0f8dc1358a",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "courtlistener",
+    "originalPath": "datasets/corpus/human/legal/courtlistener/op-5066102.md",
+    "license": "../LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 6286,
+      "end": 6465,
+      "check": "slopless/prohibited-phrases",
+      "expected": false,
+      "reason": "Historical reviewer: Two distinct FP clusters. (1) 'in a world where' is a legitimate historical/technical contrast phrase when not used as a rhetorical opener ('Mainframe-style arrays were designed in a world where a single mainframe...'; Paul Graham literary use; PEP technical contrast). (2) 'In conclusion' / 'in conclusion' is a standard section marker in legal opinions, medical abstracts, academic Q&A, and 19th-century literary prose — not slop in those contexts. 'Now more than ever' fired on a Keats poem. 'It's important to note' is more consistently sloppy but fires on legitimate technical doc signaling (MDN, PEP).",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[legal/courtlistener] (Prohibited phrase found: \"In conclusion\". Rewrite ) In conclusion, we hold that if the Act is to be fairly administered, it should be interpreted so as to preclude a finding that child-support payments are income to two households."
+      }
+    }
+  ]
+}

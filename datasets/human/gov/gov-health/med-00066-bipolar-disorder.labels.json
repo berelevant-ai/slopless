@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "94d8c262a59c1ad80313a5a7ec0e444f456794dd7f75e669a274608795d2b6d9",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "gov-health",
+    "originalPath": "datasets/corpus/human/gov/gov-health/med-00066-bipolar-disorder.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 3140,
+      "end": 3234,
+      "check": "slopless/redundancy",
+      "expected": false,
+      "reason": "Historical reviewer: The rule's highest-volume false positive is \"mixed together\" / \"mix together\" (9 hits from Paul Graham essays and recipes): \"mix together\" is standard English where \"mix\" alone often does not carry the same meaning; the idiom is not redundant. Other FP patterns: (1) cooking-domain \"Mix together\" in recipes where it is the correct instruction term; (2) \"complete stranger\" as an intensifier idiom (not the same as \"stranger\"); (3) \"while at the same time\" used for medical or legal precision to stress simultaneity; (4) \"brief summary\" where \"brief\" adds useful length information; (5) \"future plans\" where the word distinguishes current from prospective plans; (6) \"interact with each other\" which is standard phrasing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[gov/gov-health] (Redundant phrase found: \"while at the same time\". ) you may feel very sad, empty, or hopeless, while at the same time feeling extremely energized."
+      }
+    }
+  ]
+}

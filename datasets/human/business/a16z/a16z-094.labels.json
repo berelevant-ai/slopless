@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "f6771d300d35e13b637b78fbf2c031e090aa3adea620cf772dc712bcc3eaf2a1",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-094.md",
+    "url": "https://a16z.com/2011/10/24/follow-the-leader-2",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 2730,
+      "end": 2850,
+      "check": "slopless/triple-repeat",
+      "expected": false,
+      "reason": "Historical reviewer: Rule cannot distinguish deliberate rhetorical anaphora from sloppy repetition. Flags intentional parallel structure ('What can you give? What can you help with? What can you teach?'), rhetorical questions ('What does he do? What does he say?'), song lyrics ('Facts are simple and facts are straight / Facts are lazy and facts are late'), and proper-noun title repetition ('a16z Podcast: ...' headers). Also fires on spam corpus lines ('FREE', 'Free', 'free') which are data rows not prose. The rule's intent—catching unintentional word repetition from lazy drafting—is overwhelmed by legitimate anaphoric and enumerative structures.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "Like it or not, everyone watches the leader. What does he do? What does he say? What does he not say? How does he react?"
+      }
+    }
+  ]
+}

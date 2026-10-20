@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "eba2cdc3fd4c7ceb90b302a3b8546295f7b55c42e75150da79ef6079f4fb4149",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-068.md",
+    "url": "https://a16z.com/2020/01/12/bioengineering-culture-clash",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 1093,
+      "end": 1123,
+      "check": "slopless/fragment-stacking",
+      "expected": false,
+      "reason": "Historical reviewer: The rule fires on nearly every structure that is not a canonical subject-verb-object sentence: (1) transcript/dialogue turns (\"Marc: Seven.\", \"Marc: Menus.\", multiple podcast exchange lines) which are inherently short; (2) poem, toast, and event-recap verse fragments embedded in blog posts; (3) image captions (\"Left: black and white. Middle: automatically colorized.\"); (4) navigation labels and section headings (\"Forming the Company\", \"Latest Content by Marc\"); (5) rhetorical questions used as valid literary devices (\"Who better to help U.S. entrepreneurs\"); (6) terse imperative advice (\"Full stop.\"); (7) line-wrapped plain-text from Paul Graham essays where the wrapper cuts mid-sentence. The rule has no content-type or structural-context awareness and conflates intentional stylistic brevity with AI slop fragment lists.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Fragment stack found: Here come the culture clashe) Here come the culture clashes."
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 6966,
+      "end": 7007,
+      "check": "slopless/demonstrative-emphasis",
+      "expected": false,
+      "reason": "Historical reviewer: Pattern matches ordinary demonstrative pronouns and transitional phrases ('That said', 'This article was first published', 'That was pure scientific discovery', 'This fisherman is catching') that carry no emphasis function and are normal prose. Fires heavily on talk transcripts where 'this', 'that', 'these' are used as natural reference words. True positives exist ('The truth is that...', 'And that is exactly what is missing') but they are outnumbered by neutral uses.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "This article was first published in STAT."
+      }
+    },
+    {
+      "id": "historical-3",
+      "start": 2909,
+      "end": 2980,
+      "check": "slopless/demonstrative-emphasis",
+      "expected": false,
+      "reason": "Historical reviewer: Pattern matches ordinary demonstrative pronouns and transitional phrases ('That said', 'This article was first published', 'That was pure scientific discovery', 'This fisherman is catching') that carry no emphasis function and are normal prose. Fires heavily on talk transcripts where 'this', 'that', 'these' are used as natural reference words. True positives exist ('The truth is that...', 'And that is exactly what is missing') but they are outnumbered by neutral uses.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "That said, naysayers are predisposed to cling to old-school approaches."
+      }
+    }
+  ]
+}

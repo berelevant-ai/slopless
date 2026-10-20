@@ -1,0 +1,1112 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "a3b354f00d48e888f6996d254437b8b1bb358d2fc7060eb5f7bf617d92aa3b5a",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "Generated phrase examples",
+    "originalPath": "datasets/experiments/candidates/seo-filler.json",
+    "notes": "Selected examples retain original author judgments; unselected examples remain unlabeled."
+  },
+  "labels": [
+    {
+      "id": "4",
+      "start": 181,
+      "end": 238,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "compounds 'navigate' (AI metaphor verb) with 'world of' (landscape filler); doubly slop",
+      "evidence": [],
+      "original": {
+        "candidate": "navigating the world of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "5",
+      "start": 240,
+      "end": 304,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "16x more frequent in AI text; signals complexity without specifying what is complex",
+      "evidence": [],
+      "original": {
+        "candidate": "navigating the complexities of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "6",
+      "start": 306,
+      "end": 363,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "compressed variant of 'in today's digital age'; locates text in a vague present without content",
+      "evidence": [],
+      "original": {
+        "candidate": "in the digital age",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "11",
+      "start": 622,
+      "end": 686,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "#3 on most-common AI phrases list; 24x more frequent in AI text; pure contextual throat-clearing",
+      "evidence": [],
+      "original": {
+        "candidate": "in today's digital age",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "12",
+      "start": 688,
+      "end": 756,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "stacked AI opener combining 'rapidly evolving' + 'landscape' metaphor",
+      "evidence": [],
+      "original": {
+        "candidate": "in today's rapidly evolving landscape",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "13",
+      "start": 758,
+      "end": 815,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "common AI business-article opener combining temporal filler + landscape metaphor",
+      "evidence": [],
+      "original": {
+        "candidate": "in today's competitive landscape",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "14",
+      "start": 817,
+      "end": 881,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "11x more frequent in AI text; temporal-framing opener that sets up fake gravity",
+      "evidence": [],
+      "original": {
+        "candidate": "in an era where",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "15",
+      "start": 883,
+      "end": 950,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "formal variant of 'in an era where'; over-formalizes the same empty temporal frame",
+      "evidence": [],
+      "original": {
+        "candidate": "in an era characterized by",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "16",
+      "start": 952,
+      "end": 1021,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "places reader and AI in collaborative journey framing; false partnership opener",
+      "evidence": [],
+      "original": {
+        "candidate": "as we navigate",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "17",
+      "start": 1023,
+      "end": 1076,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "hospitality-mode opener borrowed from tutorial video scripts; almost absent from human article writing",
+      "evidence": [],
+      "original": {
+        "candidate": "welcome to this guide",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "18",
+      "start": 1078,
+      "end": 1136,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "variant of 'welcome to this guide'; chatbot formality leaking into article prose",
+      "evidence": [],
+      "original": {
+        "candidate": "welcome to this article",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "20",
+      "start": 1194,
+      "end": 1249,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "#10 on common AI phrases list; fake collaborative framing; AI tutorial-mode opener",
+      "evidence": [],
+      "original": {
+        "candidate": "let's explore",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "21",
+      "start": 1251,
+      "end": 1306,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "compounds 'let's explore' invitation with 'delve', the #1 flagged AI verb",
+      "evidence": [],
+      "original": {
+        "candidate": "let's delve into",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "22",
+      "start": 1308,
+      "end": 1370,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "#44 on common AI phrases list; tourist-guide collaborative framing",
+      "evidence": [],
+      "original": {
+        "candidate": "join us as we explore",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "23",
+      "start": 1372,
+      "end": 1434,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "generalized form of 'join us as we explore'; collaborative-journey filler opener",
+      "evidence": [],
+      "original": {
+        "candidate": "join us as we",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "24",
+      "start": 1436,
+      "end": 1490,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "preamble substituting for actually looking closer; signals padding before main content",
+      "evidence": [],
+      "original": {
+        "candidate": "let's take a closer look",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "25",
+      "start": 1492,
+      "end": 1550,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "hyperbolic depth claim; 'deep dive' compound flagged as top AI phrase; signals false comprehensiveness",
+      "evidence": [
+        "take a deep dive into"
+      ],
+      "original": {
+        "candidate": "take a deep dive into",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "26",
+      "start": 1552,
+      "end": 1615,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "#22 on common AI phrases list; ungrammatical corporate 'deep dive' verb variant",
+      "evidence": [],
+      "original": {
+        "candidate": "let's deep dive",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "27",
+      "start": 1617,
+      "end": 1693,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "self-labeling scope claim in title/opener; 'comprehensive' is scope-claim adjective with no evidence",
+      "evidence": [],
+      "original": {
+        "candidate": "in this comprehensive guide",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "28",
+      "start": 1695,
+      "end": 1756,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "canonical SEO title/opener formula; claims exhaustiveness without delivering it",
+      "evidence": [],
+      "original": {
+        "candidate": "everything you need to know",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "29",
+      "start": 1758,
+      "end": 1817,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "superlative SEO title formula; 'ultimate' claims finality it never earns",
+      "evidence": [],
+      "original": {
+        "candidate": "the ultimate guide to",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "30",
+      "start": 1819,
+      "end": 1879,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "SEO format label; FP risk: legitimate in actual instructional content, slop when applied to inherently non-sequential topics",
+      "evidence": [],
+      "original": {
+        "candidate": "a step-by-step guide to",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "32",
+      "start": 1944,
+      "end": 2016,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "variant of 'it's worth noting that'; same meta-commentary pattern",
+      "evidence": [],
+      "original": {
+        "candidate": "it's worth mentioning that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "39",
+      "start": 2419,
+      "end": 2478,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "compounds two flagged AI words: 'plays a ... role' template + 'pivotal'; 182x overuse documented",
+      "evidence": [
+        "plays a pivotal role"
+      ],
+      "original": {
+        "candidate": "plays a pivotal role",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "40",
+      "start": 2480,
+      "end": 2541,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "compound significance inflation; 'profound' applied to routine effects",
+      "evidence": [
+        "has a profound impact"
+      ],
+      "original": {
+        "candidate": "has a profound impact",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "41",
+      "start": 2543,
+      "end": 2607,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "#33 on common AI phrases list; overstates necessity for routine recommendations",
+      "evidence": [],
+      "original": {
+        "candidate": "it is vital for",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "42",
+      "start": 2609,
+      "end": 2673,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "107x more frequent in AI text; partial match catching all variants ('world','environment','market')",
+      "evidence": [],
+      "original": {
+        "candidate": "in today's fast-paced",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "43",
+      "start": 2675,
+      "end": 2742,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "explicit meta-reference to own text; AI closing recap marker",
+      "evidence": [],
+      "original": {
+        "candidate": "as we've explored",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "45",
+      "start": 2815,
+      "end": 2881,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "meta-commentary in opener; AI announces plan instead of executing it",
+      "evidence": [],
+      "original": {
+        "candidate": "this article will explore",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "46",
+      "start": 2883,
+      "end": 2953,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "meta-commentary variant; signals outline-mode filler before actual content",
+      "evidence": [],
+      "original": {
+        "candidate": "this guide will cover",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "48",
+      "start": 3024,
+      "end": 3096,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "section-navigation narration; AI signals structural progress instead of progressing",
+      "evidence": [],
+      "original": {
+        "candidate": "now that we've covered",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "49",
+      "start": 3098,
+      "end": 3172,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "false-inclusiveness scaffold; creates artificial audience breadth without substance",
+      "evidence": [],
+      "original": {
+        "candidate": "whether you're a beginner or",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "50",
+      "start": 3174,
+      "end": 3252,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "performed hesitancy; signals AI hedging a recommendation it is about to make anyway",
+      "evidence": [],
+      "original": {
+        "candidate": "there is no one-size-fits-all",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "51",
+      "start": 3254,
+      "end": 3326,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "pseudo-candor opener; asserts shared knowledge to avoid citing evidence",
+      "evidence": [],
+      "original": {
+        "candidate": "it is no secret that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "52",
+      "start": 3328,
+      "end": 3392,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "contraction variant of 'it is no secret that'; same pseudo-candor pattern",
+      "evidence": [],
+      "original": {
+        "candidate": "it's no secret that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "57",
+      "start": 3656,
+      "end": 3735,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "AI opener asserting perpetual change without specifying what changed",
+      "evidence": [],
+      "original": {
+        "candidate": "as the world continues to evolve",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "58",
+      "start": 3737,
+      "end": 3804,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "generic curiosity-hook opener; question-hook slop absent from human article leads",
+      "evidence": [],
+      "original": {
+        "candidate": "have you ever wondered",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "59",
+      "start": 3806,
+      "end": 3875,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "scene-setting hook template; AI deploys to manufacture relevance before stating a mundane point",
+      "evidence": [],
+      "original": {
+        "candidate": "imagine a world where",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "61",
+      "start": 3947,
+      "end": 4007,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "stacks 'ever-evolving' (AI compound) + 'landscape' (AI metaphor noun); doubly slop",
+      "evidence": [],
+      "original": {
+        "candidate": "in an ever-evolving landscape",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "62",
+      "start": 4009,
+      "end": 4077,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "generic forward-looking AI closer; substitutes temporal gesture for actual insight",
+      "evidence": [],
+      "original": {
+        "candidate": "as we look to the future",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "65",
+      "start": 4201,
+      "end": 4254,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "manufactured candor opener; AI simulates bluntness while stating the obvious",
+      "evidence": [],
+      "original": {
+        "candidate": "let's face it",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "67",
+      "start": 4322,
+      "end": 4384,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "simplification signal; AI announces it is simplifying rather than just being simple",
+      "evidence": [],
+      "original": {
+        "candidate": "to put it simply",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "73",
+      "start": 4718,
+      "end": 4773,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "circular pointer back to text just written; AI narrating its own logic",
+      "evidence": [],
+      "original": {
+        "candidate": "as we can see",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "74",
+      "start": 4775,
+      "end": 4846,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "approval-seeking editorial close; signals AI-generated or SEO-farmed content",
+      "evidence": [],
+      "original": {
+        "candidate": "we hope this article",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "75",
+      "start": 4848,
+      "end": 4913,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "variant of 'we hope this article'; same approval-seeking pattern in guide format",
+      "evidence": [],
+      "original": {
+        "candidate": "we hope this guide",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "79",
+      "start": 5117,
+      "end": 5193,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "temporal intensifier filler; claims historical significance without basis",
+      "evidence": [],
+      "original": {
+        "candidate": "more than ever before",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "80",
+      "start": 5195,
+      "end": 5261,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "Already in prohibited-phrases as standalone but appears as mid-sentence filler too; temporal urgency without evidence",
+      "evidence": [],
+      "original": {
+        "candidate": "now more than ever",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    },
+    {
+      "id": "84",
+      "start": 5459,
+      "end": 5534,
+      "check": "slopless/seo-filler",
+      "expected": true,
+      "reason": "escalation opener claiming historical importance without evidence; variant of 'more than ever before'",
+      "evidence": [],
+      "original": {
+        "candidate": "this has never been more important",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/seo-filler.json"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "1",
+      "start": 0,
+      "end": 69
+    },
+    {
+      "id": "2",
+      "start": 71,
+      "end": 122
+    },
+    {
+      "id": "3",
+      "start": 124,
+      "end": 179
+    },
+    {
+      "id": "4",
+      "start": 181,
+      "end": 238
+    },
+    {
+      "id": "5",
+      "start": 240,
+      "end": 304
+    },
+    {
+      "id": "6",
+      "start": 306,
+      "end": 363
+    },
+    {
+      "id": "7",
+      "start": 365,
+      "end": 428
+    },
+    {
+      "id": "8",
+      "start": 430,
+      "end": 488
+    },
+    {
+      "id": "9",
+      "start": 490,
+      "end": 545
+    },
+    {
+      "id": "10",
+      "start": 547,
+      "end": 620
+    },
+    {
+      "id": "11",
+      "start": 622,
+      "end": 686
+    },
+    {
+      "id": "12",
+      "start": 688,
+      "end": 756
+    },
+    {
+      "id": "13",
+      "start": 758,
+      "end": 815
+    },
+    {
+      "id": "14",
+      "start": 817,
+      "end": 881
+    },
+    {
+      "id": "15",
+      "start": 883,
+      "end": 950
+    },
+    {
+      "id": "16",
+      "start": 952,
+      "end": 1021
+    },
+    {
+      "id": "17",
+      "start": 1023,
+      "end": 1076
+    },
+    {
+      "id": "18",
+      "start": 1078,
+      "end": 1136
+    },
+    {
+      "id": "19",
+      "start": 1138,
+      "end": 1192
+    },
+    {
+      "id": "20",
+      "start": 1194,
+      "end": 1249
+    },
+    {
+      "id": "21",
+      "start": 1251,
+      "end": 1306
+    },
+    {
+      "id": "22",
+      "start": 1308,
+      "end": 1370
+    },
+    {
+      "id": "23",
+      "start": 1372,
+      "end": 1434
+    },
+    {
+      "id": "24",
+      "start": 1436,
+      "end": 1490
+    },
+    {
+      "id": "25",
+      "start": 1492,
+      "end": 1550
+    },
+    {
+      "id": "26",
+      "start": 1552,
+      "end": 1615
+    },
+    {
+      "id": "27",
+      "start": 1617,
+      "end": 1693
+    },
+    {
+      "id": "28",
+      "start": 1695,
+      "end": 1756
+    },
+    {
+      "id": "29",
+      "start": 1758,
+      "end": 1817
+    },
+    {
+      "id": "30",
+      "start": 1819,
+      "end": 1879
+    },
+    {
+      "id": "31",
+      "start": 1881,
+      "end": 1942
+    },
+    {
+      "id": "32",
+      "start": 1944,
+      "end": 2016
+    },
+    {
+      "id": "33",
+      "start": 2018,
+      "end": 2086
+    },
+    {
+      "id": "34",
+      "start": 2088,
+      "end": 2158
+    },
+    {
+      "id": "35",
+      "start": 2160,
+      "end": 2219
+    },
+    {
+      "id": "36",
+      "start": 2221,
+      "end": 2289
+    },
+    {
+      "id": "37",
+      "start": 2291,
+      "end": 2346
+    },
+    {
+      "id": "38",
+      "start": 2348,
+      "end": 2417
+    },
+    {
+      "id": "39",
+      "start": 2419,
+      "end": 2478
+    },
+    {
+      "id": "40",
+      "start": 2480,
+      "end": 2541
+    },
+    {
+      "id": "41",
+      "start": 2543,
+      "end": 2607
+    },
+    {
+      "id": "42",
+      "start": 2609,
+      "end": 2673
+    },
+    {
+      "id": "43",
+      "start": 2675,
+      "end": 2742
+    },
+    {
+      "id": "44",
+      "start": 2744,
+      "end": 2813
+    },
+    {
+      "id": "45",
+      "start": 2815,
+      "end": 2881
+    },
+    {
+      "id": "46",
+      "start": 2883,
+      "end": 2953
+    },
+    {
+      "id": "47",
+      "start": 2955,
+      "end": 3022
+    },
+    {
+      "id": "48",
+      "start": 3024,
+      "end": 3096
+    },
+    {
+      "id": "49",
+      "start": 3098,
+      "end": 3172
+    },
+    {
+      "id": "50",
+      "start": 3174,
+      "end": 3252
+    },
+    {
+      "id": "51",
+      "start": 3254,
+      "end": 3326
+    },
+    {
+      "id": "52",
+      "start": 3328,
+      "end": 3392
+    },
+    {
+      "id": "53",
+      "start": 3394,
+      "end": 3455
+    },
+    {
+      "id": "54",
+      "start": 3457,
+      "end": 3525
+    },
+    {
+      "id": "55",
+      "start": 3527,
+      "end": 3585
+    },
+    {
+      "id": "56",
+      "start": 3587,
+      "end": 3654
+    },
+    {
+      "id": "57",
+      "start": 3656,
+      "end": 3735
+    },
+    {
+      "id": "58",
+      "start": 3737,
+      "end": 3804
+    },
+    {
+      "id": "59",
+      "start": 3806,
+      "end": 3875
+    },
+    {
+      "id": "60",
+      "start": 3877,
+      "end": 3945
+    },
+    {
+      "id": "61",
+      "start": 3947,
+      "end": 4007
+    },
+    {
+      "id": "62",
+      "start": 4009,
+      "end": 4077
+    },
+    {
+      "id": "63",
+      "start": 4079,
+      "end": 4134
+    },
+    {
+      "id": "64",
+      "start": 4136,
+      "end": 4199
+    },
+    {
+      "id": "65",
+      "start": 4201,
+      "end": 4254
+    },
+    {
+      "id": "66",
+      "start": 4256,
+      "end": 4320
+    },
+    {
+      "id": "67",
+      "start": 4322,
+      "end": 4384
+    },
+    {
+      "id": "68",
+      "start": 4386,
+      "end": 4445
+    },
+    {
+      "id": "69",
+      "start": 4447,
+      "end": 4518
+    },
+    {
+      "id": "70",
+      "start": 4520,
+      "end": 4578
+    },
+    {
+      "id": "71",
+      "start": 4580,
+      "end": 4645
+    },
+    {
+      "id": "72",
+      "start": 4647,
+      "end": 4716
+    },
+    {
+      "id": "73",
+      "start": 4718,
+      "end": 4773
+    },
+    {
+      "id": "74",
+      "start": 4775,
+      "end": 4846
+    },
+    {
+      "id": "75",
+      "start": 4848,
+      "end": 4913
+    },
+    {
+      "id": "76",
+      "start": 4915,
+      "end": 4982
+    },
+    {
+      "id": "77",
+      "start": 4984,
+      "end": 5045
+    },
+    {
+      "id": "78",
+      "start": 5047,
+      "end": 5115
+    },
+    {
+      "id": "79",
+      "start": 5117,
+      "end": 5193
+    },
+    {
+      "id": "80",
+      "start": 5195,
+      "end": 5261
+    },
+    {
+      "id": "81",
+      "start": 5263,
+      "end": 5328
+    },
+    {
+      "id": "82",
+      "start": 5330,
+      "end": 5401
+    },
+    {
+      "id": "83",
+      "start": 5403,
+      "end": 5457
+    },
+    {
+      "id": "84",
+      "start": 5459,
+      "end": 5534
+    }
+  ]
+}

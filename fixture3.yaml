@@ -27,6 +27,20 @@ features:
       - slopless-cli-defaults
       - slopless-cli-narrative
 suites:
+  datasets:
+    fixtures:
+      - "behavior/fixtures/datasets/*.json"
+    command:
+      argv:
+        - node
+        - scripts/datasets-contract.mjs
+        - "{fixtures}"
+      ok_exit_codes:
+        - 0
+    storage:
+      approved_dir: "behavior/golden/datasets"
+      received_dir: ".fixture3/datasets"
+      diff_dir: ".fixture3/datasets"
   textlint-rules-corpus-igaming-supplier-guide:
     fixtures:
       - "behavior/fixtures/textlint-rules/corpus/igaming-supplier-guide.md"

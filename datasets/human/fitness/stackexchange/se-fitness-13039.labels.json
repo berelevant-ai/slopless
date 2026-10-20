@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "0a446a2c112e242a959c1cc0b0e02b83bd8a8d3d013cb47cffc1cae50299a6ba",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/fitness/stackexchange/se-fitness-13039.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 196,
+      "end": 305,
+      "check": "slopless/fake-timestamps",
+      "expected": false,
+      "reason": "Historical reviewer: Three categories all flagged incorrectly: (1) real email headers with documented send times ('date: Fri, Jan 23, 2009 at 11:42 AM') -- these are literal metadata, not fabricated; (2) specific times in memoir/business narrative recounting real events ('6:30 pm board meeting', '5:30pm office') -- genuine recollections; (3) idiomatic time references ('paged at 4:00 AM', 'stay up till 4:00 AM') -- common colloquial usage. The rule cannot distinguish fabricated AI timestamps from real or idiomatic time references.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "Unfortunately, various circumstances lead to me not being able to get to the gym until about 9:30PM at night."
+      }
+    }
+  ]
+}

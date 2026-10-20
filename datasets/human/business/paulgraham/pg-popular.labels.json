@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "222bca202fde9eb9985938a61e9f6b9c9532b7c9c6d0be499fcc437c803eb0d5",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-popular.md",
+    "url": "https://paulgraham.com/popular.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 31557,
+      "end": 31681,
+      "check": "slopless/observer-guidance",
+      "expected": false,
+      "reason": "Historical reviewer: All four samples are Paul Graham uses of 'Watch how' and 'You see it in' as rhetorical pointers to concrete examples or demonstrations, not as AI-style meta-commentary directing a reader's attention. 'You see it in Diogenes telling...' and 'You see it in sponsored...' are historical and contextual illustration devices. 'Watch how this essay was' is a direct reference to the artifact being discussed. None of these are the AI pattern of 'Notice how X demonstrates Y' or 'Watch how we can now achieve Z'. The rule conflates reader-address rhetoric with AI observer framing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/paulgraham] today, you'll find that most of them grew organically. This pattern doesn't only apply to companies. You see it in sponsored"
+      }
+    }
+  ]
+}

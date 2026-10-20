@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "2ff719c001cd2a3893afce18a32a13c21cd98ef428a07b5fe930ad9abed2c171",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/food/stackexchange/se-cooking-108481.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 56,
+      "end": 154,
+      "check": "slopless/humble-bragger",
+      "expected": false,
+      "reason": "Historical reviewer: 'In my experience' is a standard epistemic qualifier in Q&A, essay, and professional writing — it signals personal-evidence grounding, not bragging. 'As someone who has' is a standard credential citation ('As someone who has moved from the US...' / 'as someone who has raised children'). The rule conflates legitimate first-person grounding with braggadocio. None of the 28 samples actually boasts about an impressive credential — they are all ordinary experiential anchors.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[food/stackexchange] (Humble-bragging phrase found: \"As someone who has\") As someone who has moved from the US to another country I can relate and have some general advice."
+      }
+    }
+  ]
+}

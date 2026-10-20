@@ -5,6 +5,8 @@ import json
 import subprocess
 import sys
 import tomllib
+import tempfile
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -89,7 +91,7 @@ def direct_count(
     return count
 
 
-def main() -> None:
+def main(work: Path) -> None:
     manifest = tomllib.loads(MANIFEST.read_text())
     separator = manifest["case_separator"]
 
@@ -106,15 +108,23 @@ def main() -> None:
 
     family_rows = manifest["family_contract"]
     paths: list[Path] = []
+    prepared: dict[str, tuple[Path, Path]] = {}
     for row in family_rows:
-        hit_path = ROOT / row["hit_path"]
-        no_hit_path = ROOT / row["no_hit_path"]
+        dataset = ROOT / row["dataset"]
+        metadata = json.loads(dataset.with_suffix(".labels.json").read_text())
+        encoded = dataset.read_text().encode("utf-16-le")
+        bucket_paths = []
+        for bucket, expected in (("hits", True), ("no-hits", False)):
+            path = work / bucket / f"{row['name']}.md"
+            path.parent.mkdir(parents=True, exist_ok=True)
+            texts = [encoded[label["start"] * 2:label["end"] * 2].decode("utf-16-le").strip() for label in metadata["labels"] if label["expected"] is expected]
+            path.write_text(f"\n\n{separator}\n\n".join(texts) + "\n")
+            if row["name"] == "term-policy":
+                shutil.copyfile(ROOT / "behavior/fixtures/datasets/configs/term-policy.json", path.with_suffix(".term-policy.textlintrc.json"))
+            bucket_paths.append(path)
+        hit_path, no_hit_path = bucket_paths
+        prepared[row["name"]] = (hit_path, no_hit_path)
         paths.extend([hit_path, no_hit_path])
-
-        if not hit_path.exists():
-            fail(f"missing hit file for {row['name']}: {row['hit_path']}")
-        if not no_hit_path.exists():
-            fail(f"missing no-hit file for {row['name']}: {row['no_hit_path']}")
 
         hit_count = len(case_blocks(hit_path, separator))
         no_hit_count = len(case_blocks(no_hit_path, separator))
@@ -125,17 +135,11 @@ def main() -> None:
                 f"{row['name']} no-hit cases {no_hit_count} below {row['min_no_hit_cases']}"
             )
 
-        for config_key in ("hit_config", "no_hit_config"):
-            config_path = row.get(config_key)
-            if isinstance(config_path, str) and not (ROOT / config_path).exists():
-                fail(f"missing {config_key} for {row['name']}: {config_path}")
-
     results = run_behavior(paths)
 
     for row in family_rows:
         direct_rules = set(row["direct_rules"])
-        hit_path = ROOT / row["hit_path"]
-        no_hit_path = ROOT / row["no_hit_path"]
+        hit_path, no_hit_path = prepared[row["name"]]
         hit_direct = direct_count(results, hit_path, direct_rules)
         no_hit_direct = direct_count(results, no_hit_path, direct_rules)
 
@@ -154,4 +158,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    with tempfile.TemporaryDirectory(prefix="paired-actionability-", dir=ROOT / ".fixture3") as directory:
+        main(Path(directory))

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "f5767d8cd67c4ed9ffef29f8d0d080f17bd4dd1fdd2bfca8ca57922c00c2aa81",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-051.md",
+    "url": "https://a16z.com/2018/06/18/crypto-regulatory-gap-retail-investors",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 0,
+      "end": 12201,
+      "check": "slopless/coleman-liau",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article character-based readability. Threshold is grade 12. All 30 samples are professional tech/business essays with long words and complex sentences by design. Scores of 12.0-15.7 on domain-expert writing are normal, not indicative of slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Coleman-Liau is 13.99. Keep it at 12 or lower.) # Crypto Regulatory Gap Retail Investors"
+      }
+    }
+  ]
+}

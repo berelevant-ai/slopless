@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "dddeb90a4c77f35d0984a3e7227b1fccf2556ffb464bcbc58b6bf7575dfe9123",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-034.md",
+    "url": "https://a16z.com/2014/04/09/omada-health-behavior-change",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 3542,
+      "end": 3681,
+      "check": "slopless/skunked-terms",
+      "expected": false,
+      "reason": "Historical reviewer: Every sample flags 'hopefully' or 'deceptively'. 'Hopefully' as a sentence adverb ('Hopefully, you find them useful') is standard modern English — the prescriptivist objection to it is itself contested and obsolete. 'Deceptively simple' and 'deceptively casual' are legitimate literary devices meaning 'misleadingly simple/casual' — that is the correct meaning, not skunked usage. 'Acting deceptively' in a legal sample is the literal adverb. None of the 30 samples represent genuinely ambiguous or corrupted usage.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/a16z] (Skunked term found: \"deceptively\". Replace it with) Figure 2: The Omada Prevent program is a deceptively simple combination of a friendly social weight loss competition with a wireless scale."
+      }
+    }
+  ]
+}

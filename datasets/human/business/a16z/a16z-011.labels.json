@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "75e75cb4fa584adef59726db1c7437dc3c95143229fe2cf382d0542e6c7dff7f",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-011.md",
+    "url": "https://a16z.com/2018/11/07/disruptive-innovation-hospitals-integration-value-added-process-book-chapter",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 0,
+      "end": 1813,
+      "check": "slopless/flesch-kincaid",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article readability score. All 30 samples are analytical business/tech articles (a16z blog) written at graduate level. The threshold (score >= 61) targets tabloid prose; professional non-fiction routinely scores 20-50. Every flag is dense-but-legitimate writing, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Flesch Reading Ease is -1.82. Keep it at 61 or hig) # Disruptive Innovation Hospitals Integration Value Added Process Book Chapter"
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 0,
+      "end": 1813,
+      "check": "slopless/gunning-fog",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article fog index. Threshold is 12 (8th-grade level). All 30 samples are expert-domain writing -- blockchain architectures, fintech regulation, enterprise software, healthcare -- that legitimately uses multi-syllable technical terms. Scores of 13-25 are expected and correct for this genre, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Gunning Fog is 24.98. Keep it at 12 or lower.) # Disruptive Innovation Hospitals Integration Value Added Process Book Chapter"
+      }
+    },
+    {
+      "id": "historical-3",
+      "start": 0,
+      "end": 1813,
+      "check": "slopless/coleman-liau",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article character-based readability. Threshold is grade 12. All 30 samples are professional tech/business essays with long words and complex sentences by design. Scores of 12.0-15.7 on domain-expert writing are normal, not indicative of slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Coleman-Liau is 15.74. Keep it at 12 or lower.) # Disruptive Innovation Hospitals Integration Value Added Process Book Chapter"
+      }
+    }
+  ]
+}

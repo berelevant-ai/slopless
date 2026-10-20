@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import tomllib
 from collections import Counter
 from pathlib import Path
@@ -76,64 +77,12 @@ def message_signature(path: Path, message: dict[str, Any]) -> tuple[str, str, st
     return (rule_id, str(message.get("message", "")), snippet)
 
 
-def verify_source_state(data: dict[str, Any], errors: list[str]) -> None:
-    classified_paths = {
-        str(row["path"]) for row in manifest_rows(data, "source_candidate_file")
-    }
-    for path in sorted((ROOT / "datasets/legacy/source-material/reviewed/skipped").glob("*.md")):
-        relative = str(path.relative_to(ROOT))
-        if relative not in classified_paths:
-            errors.append(f"derived source file is not classified in manifest: {relative}")
-
-    for row in manifest_rows(data, "source_candidate_file"):
-        path = ROOT / str(row["path"])
-        if not path.is_file():
-            errors.append(f"missing source candidate file: {path.relative_to(ROOT)}")
-            continue
-        text = read_text(path)
-        required = str(row["required_phrase"])
-        forbidden = str(row["forbidden_phrase"])
-        if required not in text:
-            errors.append(f"{path.relative_to(ROOT)} missing required phrase: {required}")
-        if forbidden in text:
-            errors.append(f"{path.relative_to(ROOT)} still contains forbidden phrase: {forbidden}")
-        if "Not Implemented" in text:
-            errors.append(f"{path.relative_to(ROOT)} still contains obsolete Not Implemented wording")
-
-    for row in manifest_rows(data, "source_ledger_section"):
-        path = ROOT / str(row["path"])
-        if not path.is_file():
-            errors.append(f"missing source ledger file: {path.relative_to(ROOT)}")
-            continue
-        heading = str(row["heading"])
-        if heading not in read_text(path):
-            errors.append(f"{path.relative_to(ROOT)} missing ledger heading: {heading}")
-
-    for row in manifest_rows(data, "source_ledger_phrase"):
-        path = ROOT / str(row["path"])
-        if not path.is_file():
-            errors.append(f"missing source ledger file: {path.relative_to(ROOT)}")
-            continue
-        text = read_text(path)
-        required = str(row["required_phrase"])
-        forbidden = str(row["forbidden_phrase"])
-        if required not in text:
-            errors.append(f"{path.relative_to(ROOT)} missing ledger phrase: {required}")
-        if forbidden in text:
-            errors.append(f"{path.relative_to(ROOT)} still contains forbidden ledger phrase: {forbidden}")
-
-    for row in manifest_rows(data, "source_note"):
-        path = ROOT / str(row["path"])
-        if not path.is_file():
-            errors.append(f"missing source note: {path.relative_to(ROOT)}")
-            continue
-        text = read_text(path)
-        required = str(row["required_phrase"])
-        forbidden = str(row["forbidden_phrase"])
-        if required not in text:
-            errors.append(f"{path.relative_to(ROOT)} missing required phrase: {required}")
-        if forbidden in text:
-            errors.append(f"{path.relative_to(ROOT)} still contains forbidden phrase: {forbidden}")
+def verify_datasets(errors: list[str]) -> None:
+    result = subprocess.run(["node", "runners/datasets.mjs"], cwd=ROOT, text=True, capture_output=True)
+    if result.returncode != 0:
+        errors.append(f"paired dataset validation failed: {result.stderr.strip()}")
+    elif json.loads(result.stdout).get("documents", 0) == 0:
+        errors.append("paired dataset validation found no documents")
 
 
 def verify_case_text_in_corpus(
@@ -232,7 +181,7 @@ def main() -> int:
     data = tomllib.loads(read_text(MANIFEST))
     errors: list[str] = []
 
-    verify_source_state(data, errors)
+    verify_datasets(errors)
 
     case_rows_manifest = manifest_rows(data, "fixture_cases")
     corpus_rows_manifest = manifest_rows(data, "fixture_corpus")

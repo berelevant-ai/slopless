@@ -1,0 +1,1714 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "81027522098f8b79ee73050818fd5e173262eca2874288b90a6e036344da7606",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "Generated phrase examples",
+    "originalPath": "datasets/experiments/candidates/cliches.json",
+    "notes": "Selected examples retain original author judgments; unselected examples remain unlabeled."
+  },
+  "labels": [
+    {
+      "id": "1",
+      "start": 0,
+      "end": 51,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "319x overuse vs humans (IsGPT). AI significance-anchor applied to any positive outcome.",
+      "evidence": [
+        "a testament to"
+      ],
+      "original": {
+        "candidate": "a testament to",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "2",
+      "start": 53,
+      "end": 112,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "tapestry is the single most overused AI metaphor noun (35x per arXiv, 227x per IsGPT). Phrase form is nearly always AI.",
+      "evidence": [
+        "a rich tapestry of"
+      ],
+      "original": {
+        "candidate": "a rich tapestry of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "3",
+      "start": 114,
+      "end": 165,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Metaphorical use of 'tapestry' for any complex collection. Extremely rare in pre-AI prose at this frequency.",
+      "evidence": [
+        "tapestry of"
+      ],
+      "original": {
+        "candidate": "tapestry of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "4",
+      "start": 167,
+      "end": 219,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed 319x overuse (IsGPT). Formulaic significance phrase.",
+      "evidence": [
+        "left an indelible mark"
+      ],
+      "original": {
+        "candidate": "left an indelible mark",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "5",
+      "start": 221,
+      "end": 287,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed 902x overuse vs humans (IsGPT). Meta-label that replaces actual content.",
+      "evidence": [
+        "provide valuable insights"
+      ],
+      "original": {
+        "candidate": "provide valuable insights",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "6",
+      "start": 289,
+      "end": 353,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed 739x overuse (IsGPT). Hollow outcome promise.",
+      "evidence": [
+        "gain valuable insights"
+      ],
+      "original": {
+        "candidate": "gain valuable insights",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "7",
+      "start": 355,
+      "end": 408,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed 298x overuse (IsGPT). Third form of the same AI formula.",
+      "evidence": [
+        "offers valuable insights"
+      ],
+      "original": {
+        "candidate": "offers valuable insights",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "8",
+      "start": 410,
+      "end": 464,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed 131x overuse (IsGPT). Vague depth claim with no specifics.",
+      "evidence": [
+        "gain a deeper understanding"
+      ],
+      "original": {
+        "candidate": "gain a deeper understanding",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "9",
+      "start": 466,
+      "end": 539,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed 355x overuse (IsGPT). Scope-claiming formula that substitutes for actual content.",
+      "evidence": [
+        "gain a comprehensive understanding"
+      ],
+      "original": {
+        "candidate": "gain a comprehensive understanding",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "10",
+      "start": 541,
+      "end": 587,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed 206x overuse (IsGPT). Generic forward-looking phrase applied to any development.",
+      "evidence": [
+        "opens new avenues"
+      ],
+      "original": {
+        "candidate": "opens new avenues",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "11",
+      "start": 589,
+      "end": 647,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "10x overuse; near-cliche even outside AI. FP risk: medium because journalists and academics use it legitimately.",
+      "evidence": [
+        "shed light on"
+      ],
+      "original": {
+        "candidate": "shed light on",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "12",
+      "start": 649,
+      "end": 702,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Same as 'shed light on'; present-tense form equally flagged. Study sheds light on: 130x overuse (IsGPT).",
+      "evidence": [
+        "sheds light on"
+      ],
+      "original": {
+        "candidate": "sheds light on",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "13",
+      "start": 704,
+      "end": 769,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "17x overuse (research corpus). AI extends engineering metaphor to any abstract noun.",
+      "evidence": [
+        "harness the power of"
+      ],
+      "original": {
+        "candidate": "harness the power of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "14",
+      "start": 771,
+      "end": 834,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "16x overuse. Compound that signals difficulty without specifying what's difficult.",
+      "evidence": [
+        "navigate the complexities of"
+      ],
+      "original": {
+        "candidate": "navigate the complexities of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "15",
+      "start": 836,
+      "end": 893,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "15x overuse. Metaphorical unlock applied to any capability or resource.",
+      "evidence": [
+        "unlock the potential of"
+      ],
+      "original": {
+        "candidate": "unlock the potential of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "16",
+      "start": 895,
+      "end": 959,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "AI significance-anchor; beacon applied to any positive example. Not in cliches.json (stands as a testament to is there).",
+      "evidence": [
+        "stands as a beacon of"
+      ],
+      "original": {
+        "candidate": "stands as a beacon of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "18",
+      "start": 1029,
+      "end": 1078,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Template: '[X] has the power to transform [large abstract noun]'. Applied to routine developments.",
+      "evidence": [
+        "has the power to transform"
+      ],
+      "original": {
+        "candidate": "has the power to transform",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "19",
+      "start": 1080,
+      "end": 1138,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Pseudo-profound inflection-point formula. Near-absent in human writing at this frequency.",
+      "evidence": [],
+      "original": {
+        "candidate": "we stand at a crossroads",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "20",
+      "start": 1140,
+      "end": 1206,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Significance inflation applied to routine events. Compound with 'pivotal' (16x overuse adjective).",
+      "evidence": [
+        "at a pivotal moment"
+      ],
+      "original": {
+        "candidate": "at a pivotal moment",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "21",
+      "start": 1208,
+      "end": 1286,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Hyperbolic claim applied to incremental developments. Low FP: human writers use it far less mechanically.",
+      "evidence": [],
+      "original": {
+        "candidate": "this changes everything",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "22",
+      "start": 1288,
+      "end": 1345,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Escalation formula; AI applies to mundane topics. Rarely appears in human writing without irony.",
+      "evidence": [
+        "the stakes have never been higher"
+      ],
+      "original": {
+        "candidate": "the stakes have never been higher",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "23",
+      "start": 1347,
+      "end": 1403,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "20x overuse. Foster applied to innovation specifically is the most common AI corporate-motivation compound.",
+      "evidence": [
+        "foster innovation"
+      ],
+      "original": {
+        "candidate": "foster innovation",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "24",
+      "start": 1405,
+      "end": 1459,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "18x overuse. FP risk medium because it appears in genuine product copy too.",
+      "evidence": [
+        "drive innovation"
+      ],
+      "original": {
+        "candidate": "drive innovation",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "25",
+      "start": 1461,
+      "end": 1518,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "18x overuse. Generic marketing formula for any audience-interaction goal.",
+      "evidence": [
+        "drive engagement"
+      ],
+      "original": {
+        "candidate": "drive engagement",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "26",
+      "start": 1520,
+      "end": 1602,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "13x overuse. Generic agency formula applied universally regardless of actual empowerment.",
+      "evidence": [
+        "empower individuals to"
+      ],
+      "original": {
+        "candidate": "empower individuals to",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "27",
+      "start": 1604,
+      "end": 1679,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "12x overuse. Applied to any content without specifying how or why it resonates.",
+      "evidence": [
+        "resonate with audiences"
+      ],
+      "original": {
+        "candidate": "resonate with audiences",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "29",
+      "start": 1738,
+      "end": 1801,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "AI transition phrase implying significance for the next development. Overused as a section bridge.",
+      "evidence": [
+        "setting the stage for"
+      ],
+      "original": {
+        "candidate": "setting the stage for",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "30",
+      "start": 1803,
+      "end": 1859,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Significance inflation; AI applies to any notable development, stripping the phrase of force.",
+      "evidence": [
+        "a watershed moment"
+      ],
+      "original": {
+        "candidate": "a watershed moment",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "32",
+      "start": 1935,
+      "end": 1990,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Overused revolution claim applied to incremental improvements.",
+      "evidence": [
+        "revolutionized the way we"
+      ],
+      "original": {
+        "candidate": "revolutionized the way we",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "33",
+      "start": 1992,
+      "end": 2056,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Double AI signal: 'transformed' + 'landscape of'. Compound that almost never appears in human writing.",
+      "evidence": [
+        "has transformed the landscape of"
+      ],
+      "original": {
+        "candidate": "has transformed the landscape of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "34",
+      "start": 2058,
+      "end": 2124,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Temporal hedge AI uses for speculative forecasts without committing to a timeframe.",
+      "evidence": [],
+      "original": {
+        "candidate": "in the not-too-distant future",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "35",
+      "start": 2126,
+      "end": 2178,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Generic future-closer transition. 'Moving forward' is in prohibited-phrases; this variant is not in cliches.",
+      "evidence": [],
+      "original": {
+        "candidate": "as we move forward",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "36",
+      "start": 2180,
+      "end": 2244,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Stock narrative closer; appears in EQBench slop trigrams. Near-formulaic in AI fiction and motivational copy.",
+      "evidence": [],
+      "original": {
+        "candidate": "face whatever challenges lie ahead",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "37",
+      "start": 2246,
+      "end": 2291,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Stock narrative closer from antislop-sampler slop trigrams. Signals AI-generated story endings.",
+      "evidence": [
+        "life would never be the same"
+      ],
+      "original": {
+        "candidate": "life would never be the same",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "38",
+      "start": 2293,
+      "end": 2349,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Stock narrative / marketing closer implying momentum without specifics.",
+      "evidence": [
+        "only just getting started"
+      ],
+      "original": {
+        "candidate": "only just getting started",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "39",
+      "start": 2351,
+      "end": 2405,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Stock fiction closer from antislop-sampler. Signals AI-generated story resolution.",
+      "evidence": [
+        "they would face it together"
+      ],
+      "original": {
+        "candidate": "they would face it together",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "40",
+      "start": 2407,
+      "end": 2455,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Stock narrative closer / motivational phrase from antislop-sampler slop trigrams.",
+      "evidence": [
+        "renewed sense of purpose"
+      ],
+      "original": {
+        "candidate": "renewed sense of purpose",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "41",
+      "start": 2457,
+      "end": 2509,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Variant of renewed sense of purpose; both appear in EQBench slop trigrams.",
+      "evidence": [
+        "newfound sense of purpose"
+      ],
+      "original": {
+        "candidate": "newfound sense of purpose",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "42",
+      "start": 2511,
+      "end": 2591,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Academic significance inflation without specifying which contributions or which field.",
+      "evidence": [
+        "significant contributions to the field"
+      ],
+      "original": {
+        "candidate": "significant contributions to the field",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "44",
+      "start": 2646,
+      "end": 2704,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "AI applies indiscriminately as metaphor for any collection of useful things.",
+      "evidence": [
+        "treasure trove of"
+      ],
+      "original": {
+        "candidate": "treasure trove of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "45",
+      "start": 2706,
+      "end": 2762,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "AI's most frequent beacon compound. Applied to any example of resilience or positivity.",
+      "evidence": [
+        "beacon of hope"
+      ],
+      "original": {
+        "candidate": "beacon of hope",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "46",
+      "start": 2764,
+      "end": 2820,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Abstract visual metaphor AI cycles through as a tapestry variant.",
+      "evidence": [
+        "a mosaic of"
+      ],
+      "original": {
+        "candidate": "a mosaic of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "47",
+      "start": 2822,
+      "end": 2876,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "'The fabric of society/democracy/community' is an AI-favored abstract metaphor. FP risk: medium in literary contexts.",
+      "evidence": [
+        "the fabric of"
+      ],
+      "original": {
+        "candidate": "the fabric of",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "48",
+      "start": 2878,
+      "end": 2947,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Specific compound flagged by Wikipedia Signs of AI Writing as significance pile-up phrase.",
+      "evidence": [
+        "contributing to the fabric of"
+      ],
+      "original": {
+        "candidate": "contributing to the fabric of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "51",
+      "start": 3044,
+      "end": 3103,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Travel-brochure compound with two AI tell words: 'nestled' and 'heart of'. Almost exclusively AI-generated.",
+      "evidence": [
+        "nestled in the heart of"
+      ],
+      "original": {
+        "candidate": "nestled in the heart of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "52",
+      "start": 3105,
+      "end": 3162,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "'Vibrant' is a flagged AI adjective; 'hub of' is a generic descriptor. The compound is tourism-brochure slop.",
+      "evidence": [
+        "vibrant hub of"
+      ],
+      "original": {
+        "candidate": "vibrant hub of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "53",
+      "start": 3164,
+      "end": 3216,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Combines two AI signals: 'thriving' and 'ecosystem of'. Applied to any community or platform.",
+      "evidence": [
+        "thriving ecosystem of"
+      ],
+      "original": {
+        "candidate": "thriving ecosystem of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "54",
+      "start": 3218,
+      "end": 3278,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Combines 'rich', 'cultural', and 'tapestry' - three high-frequency AI descriptors in one phrase.",
+      "evidence": [
+        "rich cultural tapestry"
+      ],
+      "original": {
+        "candidate": "rich cultural tapestry",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "55",
+      "start": 3280,
+      "end": 3351,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Generic engagement imperative in travel, marketing, and self-help AI copy.",
+      "evidence": [],
+      "original": {
+        "candidate": "immerse yourself in",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "56",
+      "start": 3353,
+      "end": 3410,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Generic discovery frame; AI applies to any topic regardless of actual wonder.",
+      "evidence": [],
+      "original": {
+        "candidate": "discover the wonders of",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "57",
+      "start": 3412,
+      "end": 3483,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Universal-appeal filler; signals AI has nothing specific to say about the audience.",
+      "evidence": [
+        "has something for everyone"
+      ],
+      "original": {
+        "candidate": "has something for everyone",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "58",
+      "start": 3485,
+      "end": 3557,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Hedge that forestalls a real answer. Near-absent in pre-AI writing.",
+      "evidence": [],
+      "original": {
+        "candidate": "there is no one-size-fits-all answer",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "59",
+      "start": 3559,
+      "end": 3624,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Self-help AI compound combining two flagged terms: 'embrace' (generic directive) + 'journey' (process metaphor).",
+      "evidence": [
+        "embrace the journey"
+      ],
+      "original": {
+        "candidate": "embrace the journey",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "60",
+      "start": 3626,
+      "end": 3680,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Intensified variant of 'unlock your potential'. Near-canonical AI motivational phrase.",
+      "evidence": [
+        "unlock your true potential"
+      ],
+      "original": {
+        "candidate": "unlock your true potential",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "61",
+      "start": 3682,
+      "end": 3739,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Generic outcome promise in self-help and marketing copy. Transformation applied to any change.",
+      "evidence": [
+        "transform your life"
+      ],
+      "original": {
+        "candidate": "transform your life",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "62",
+      "start": 3741,
+      "end": 3795,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Near-universal AI self-help phrase. FP risk: medium because humans use it too, but at far lower density.",
+      "evidence": [
+        "step out of your comfort zone"
+      ],
+      "original": {
+        "candidate": "step out of your comfort zone",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "63",
+      "start": 3797,
+      "end": 3855,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Philosophical platitude used in AI motivational content as fake wisdom.",
+      "evidence": [
+        "everything happens for a reason"
+      ],
+      "original": {
+        "candidate": "everything happens for a reason",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "65",
+      "start": 3924,
+      "end": 3978,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed in common-cliche dictionaries as missing from cliches.json. AI uses as a fatalistic closer.",
+      "evidence": [
+        "it is what it is"
+      ],
+      "original": {
+        "candidate": "it is what it is",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "66",
+      "start": 3980,
+      "end": 4053,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Standard English cliche confirmed missing from cliches.json in other-catalogs.md research.",
+      "evidence": [
+        "diamond in the rough"
+      ],
+      "original": {
+        "candidate": "diamond in the rough",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "67",
+      "start": 4055,
+      "end": 4123,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Common cliche confirmed potentially missing from cliches.json.",
+      "evidence": [
+        "hanging by a thread"
+      ],
+      "original": {
+        "candidate": "hanging by a thread",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "68",
+      "start": 4125,
+      "end": 4189,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed potentially missing; common in AI-generated investigative or thorough-process claims.",
+      "evidence": [
+        "leave no stone unturned"
+      ],
+      "original": {
+        "candidate": "leave no stone unturned",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "69",
+      "start": 4191,
+      "end": 4252,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed potentially missing from cliches.json per other-catalogs.md.",
+      "evidence": [
+        "a blessing in disguise"
+      ],
+      "original": {
+        "candidate": "a blessing in disguise",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "70",
+      "start": 4254,
+      "end": 4301,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Documented fiction formula from antislop-sampler slop trigrams. Near-absent in pre-AI fiction.",
+      "evidence": [
+        "voice barely above a whisper"
+      ],
+      "original": {
+        "candidate": "voice barely above a whisper",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "71",
+      "start": 4303,
+      "end": 4356,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed slop trigram from antislop-sampler. Somatic cliche AI uses for emotional states.",
+      "evidence": [
+        "heart pounding in his chest"
+      ],
+      "original": {
+        "candidate": "heart pounding in his chest",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "72",
+      "start": 4358,
+      "end": 4412,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Slop trigram from antislop-sampler. AI uses as a beat to mark emotional transitions.",
+      "evidence": [
+        "took a deep breath"
+      ],
+      "original": {
+        "candidate": "took a deep breath",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "73",
+      "start": 4414,
+      "end": 4465,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed slop trigram. AI deploys this to show thinking without describing the thought.",
+      "evidence": [
+        "brow furrowed in concentration"
+      ],
+      "original": {
+        "candidate": "brow furrowed in concentration",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "74",
+      "start": 4467,
+      "end": 4517,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed slop trigram from antislop-sampler. Somatic reaction cliche.",
+      "evidence": [
+        "breath caught in her throat"
+      ],
+      "original": {
+        "candidate": "breath caught in her throat",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "75",
+      "start": 4519,
+      "end": 4565,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Confirmed slop trigram. AI uses as a dramatic beat marker between scenes.",
+      "evidence": [
+        "room fell silent"
+      ],
+      "original": {
+        "candidate": "room fell silent",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "76",
+      "start": 4567,
+      "end": 4625,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Slop trigram from antislop-sampler. AI atmospheric description applied in any indoor setting.",
+      "evidence": [
+        "dust motes danced"
+      ],
+      "original": {
+        "candidate": "dust motes danced",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "77",
+      "start": 4627,
+      "end": 4675,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Slop trigram; common enough in older human writing too but overrepresented in AI fiction.",
+      "evidence": [
+        "heart skipped a beat"
+      ],
+      "original": {
+        "candidate": "heart skipped a beat",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "78",
+      "start": 4677,
+      "end": 4731,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Slop trigram variant: 'air thick with tension/anticipation/scent'. AI atmosphere cliche.",
+      "evidence": [
+        "air thick with tension"
+      ],
+      "original": {
+        "candidate": "air thick with tension",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "79",
+      "start": 4733,
+      "end": 4783,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Slop trigram from antislop-sampler. Signals AI's shortcut for depicting mental activity.",
+      "evidence": [
+        "mind racing with possibilities"
+      ],
+      "original": {
+        "candidate": "mind racing with possibilities",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "80",
+      "start": 4785,
+      "end": 4829,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Slop trigram from antislop-sampler. AI pause/beat formula in dialogue.",
+      "evidence": [],
+      "original": {
+        "candidate": "words hung in the air",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "81",
+      "start": 4831,
+      "end": 4900,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Slop trigram from antislop-sampler. Near-formulaic AI facial-expression cliche.",
+      "evidence": [
+        "smile playing on his lips"
+      ],
+      "original": {
+        "candidate": "smile playing on his lips",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "82",
+      "start": 4902,
+      "end": 4959,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Slop trigram from antislop-sampler. AI time-compression formula in narrative.",
+      "evidence": [
+        "days turned to weeks"
+      ],
+      "original": {
+        "candidate": "days turned to weeks",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "84",
+      "start": 5023,
+      "end": 5088,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Among top-45 AI phrases. 'Plays a crucial/vital/key role' is flagged across multiple AI detection sources.",
+      "evidence": [
+        "play a crucial role in"
+      ],
+      "original": {
+        "candidate": "play a crucial role in",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "85",
+      "start": 5090,
+      "end": 5140,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "Synonym-cycling variant of 'plays a crucial role'. Flagged in NIH study as high-increase academic phrase.",
+      "evidence": [
+        "plays a vital role in"
+      ],
+      "original": {
+        "candidate": "plays a vital role in",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "86",
+      "start": 5142,
+      "end": 5215,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "182x overuse (GPTZero). The most extreme compound variant of the 'plays a [adj] role' pattern.",
+      "evidence": [
+        "plays a pivotal role in shaping"
+      ],
+      "original": {
+        "candidate": "plays a pivotal role in shaping",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "87",
+      "start": 5217,
+      "end": 5275,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "#14 on common AI phrases list. Applied to mundane points; asserts importance without arguing it.",
+      "evidence": [
+        "cannot be overstated"
+      ],
+      "original": {
+        "candidate": "cannot be overstated",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    },
+    {
+      "id": "88",
+      "start": 5277,
+      "end": 5347,
+      "check": "slopless/cliches",
+      "expected": true,
+      "reason": "14x more frequent in AI text. Paradoxically says the thing it claims doesn't need saying.",
+      "evidence": [],
+      "original": {
+        "candidate": "it goes without saying",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/cliches.json"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "1",
+      "start": 0,
+      "end": 51
+    },
+    {
+      "id": "2",
+      "start": 53,
+      "end": 112
+    },
+    {
+      "id": "3",
+      "start": 114,
+      "end": 165
+    },
+    {
+      "id": "4",
+      "start": 167,
+      "end": 219
+    },
+    {
+      "id": "5",
+      "start": 221,
+      "end": 287
+    },
+    {
+      "id": "6",
+      "start": 289,
+      "end": 353
+    },
+    {
+      "id": "7",
+      "start": 355,
+      "end": 408
+    },
+    {
+      "id": "8",
+      "start": 410,
+      "end": 464
+    },
+    {
+      "id": "9",
+      "start": 466,
+      "end": 539
+    },
+    {
+      "id": "10",
+      "start": 541,
+      "end": 587
+    },
+    {
+      "id": "11",
+      "start": 589,
+      "end": 647
+    },
+    {
+      "id": "12",
+      "start": 649,
+      "end": 702
+    },
+    {
+      "id": "13",
+      "start": 704,
+      "end": 769
+    },
+    {
+      "id": "14",
+      "start": 771,
+      "end": 834
+    },
+    {
+      "id": "15",
+      "start": 836,
+      "end": 893
+    },
+    {
+      "id": "16",
+      "start": 895,
+      "end": 959
+    },
+    {
+      "id": "17",
+      "start": 961,
+      "end": 1027
+    },
+    {
+      "id": "18",
+      "start": 1029,
+      "end": 1078
+    },
+    {
+      "id": "19",
+      "start": 1080,
+      "end": 1138
+    },
+    {
+      "id": "20",
+      "start": 1140,
+      "end": 1206
+    },
+    {
+      "id": "21",
+      "start": 1208,
+      "end": 1286
+    },
+    {
+      "id": "22",
+      "start": 1288,
+      "end": 1345
+    },
+    {
+      "id": "23",
+      "start": 1347,
+      "end": 1403
+    },
+    {
+      "id": "24",
+      "start": 1405,
+      "end": 1459
+    },
+    {
+      "id": "25",
+      "start": 1461,
+      "end": 1518
+    },
+    {
+      "id": "26",
+      "start": 1520,
+      "end": 1602
+    },
+    {
+      "id": "27",
+      "start": 1604,
+      "end": 1679
+    },
+    {
+      "id": "28",
+      "start": 1681,
+      "end": 1736
+    },
+    {
+      "id": "29",
+      "start": 1738,
+      "end": 1801
+    },
+    {
+      "id": "30",
+      "start": 1803,
+      "end": 1859
+    },
+    {
+      "id": "31",
+      "start": 1861,
+      "end": 1933
+    },
+    {
+      "id": "32",
+      "start": 1935,
+      "end": 1990
+    },
+    {
+      "id": "33",
+      "start": 1992,
+      "end": 2056
+    },
+    {
+      "id": "34",
+      "start": 2058,
+      "end": 2124
+    },
+    {
+      "id": "35",
+      "start": 2126,
+      "end": 2178
+    },
+    {
+      "id": "36",
+      "start": 2180,
+      "end": 2244
+    },
+    {
+      "id": "37",
+      "start": 2246,
+      "end": 2291
+    },
+    {
+      "id": "38",
+      "start": 2293,
+      "end": 2349
+    },
+    {
+      "id": "39",
+      "start": 2351,
+      "end": 2405
+    },
+    {
+      "id": "40",
+      "start": 2407,
+      "end": 2455
+    },
+    {
+      "id": "41",
+      "start": 2457,
+      "end": 2509
+    },
+    {
+      "id": "42",
+      "start": 2511,
+      "end": 2591
+    },
+    {
+      "id": "43",
+      "start": 2593,
+      "end": 2644
+    },
+    {
+      "id": "44",
+      "start": 2646,
+      "end": 2704
+    },
+    {
+      "id": "45",
+      "start": 2706,
+      "end": 2762
+    },
+    {
+      "id": "46",
+      "start": 2764,
+      "end": 2820
+    },
+    {
+      "id": "47",
+      "start": 2822,
+      "end": 2876
+    },
+    {
+      "id": "48",
+      "start": 2878,
+      "end": 2947
+    },
+    {
+      "id": "49",
+      "start": 2949,
+      "end": 3000
+    },
+    {
+      "id": "50",
+      "start": 3002,
+      "end": 3042
+    },
+    {
+      "id": "51",
+      "start": 3044,
+      "end": 3103
+    },
+    {
+      "id": "52",
+      "start": 3105,
+      "end": 3162
+    },
+    {
+      "id": "53",
+      "start": 3164,
+      "end": 3216
+    },
+    {
+      "id": "54",
+      "start": 3218,
+      "end": 3278
+    },
+    {
+      "id": "55",
+      "start": 3280,
+      "end": 3351
+    },
+    {
+      "id": "56",
+      "start": 3353,
+      "end": 3410
+    },
+    {
+      "id": "57",
+      "start": 3412,
+      "end": 3483
+    },
+    {
+      "id": "58",
+      "start": 3485,
+      "end": 3557
+    },
+    {
+      "id": "59",
+      "start": 3559,
+      "end": 3624
+    },
+    {
+      "id": "60",
+      "start": 3626,
+      "end": 3680
+    },
+    {
+      "id": "61",
+      "start": 3682,
+      "end": 3739
+    },
+    {
+      "id": "62",
+      "start": 3741,
+      "end": 3795
+    },
+    {
+      "id": "63",
+      "start": 3797,
+      "end": 3855
+    },
+    {
+      "id": "64",
+      "start": 3857,
+      "end": 3922
+    },
+    {
+      "id": "65",
+      "start": 3924,
+      "end": 3978
+    },
+    {
+      "id": "66",
+      "start": 3980,
+      "end": 4053
+    },
+    {
+      "id": "67",
+      "start": 4055,
+      "end": 4123
+    },
+    {
+      "id": "68",
+      "start": 4125,
+      "end": 4189
+    },
+    {
+      "id": "69",
+      "start": 4191,
+      "end": 4252
+    },
+    {
+      "id": "70",
+      "start": 4254,
+      "end": 4301
+    },
+    {
+      "id": "71",
+      "start": 4303,
+      "end": 4356
+    },
+    {
+      "id": "72",
+      "start": 4358,
+      "end": 4412
+    },
+    {
+      "id": "73",
+      "start": 4414,
+      "end": 4465
+    },
+    {
+      "id": "74",
+      "start": 4467,
+      "end": 4517
+    },
+    {
+      "id": "75",
+      "start": 4519,
+      "end": 4565
+    },
+    {
+      "id": "76",
+      "start": 4567,
+      "end": 4625
+    },
+    {
+      "id": "77",
+      "start": 4627,
+      "end": 4675
+    },
+    {
+      "id": "78",
+      "start": 4677,
+      "end": 4731
+    },
+    {
+      "id": "79",
+      "start": 4733,
+      "end": 4783
+    },
+    {
+      "id": "80",
+      "start": 4785,
+      "end": 4829
+    },
+    {
+      "id": "81",
+      "start": 4831,
+      "end": 4900
+    },
+    {
+      "id": "82",
+      "start": 4902,
+      "end": 4959
+    },
+    {
+      "id": "83",
+      "start": 4961,
+      "end": 5021
+    },
+    {
+      "id": "84",
+      "start": 5023,
+      "end": 5088
+    },
+    {
+      "id": "85",
+      "start": 5090,
+      "end": 5140
+    },
+    {
+      "id": "86",
+      "start": 5142,
+      "end": 5215
+    },
+    {
+      "id": "87",
+      "start": 5217,
+      "end": 5275
+    },
+    {
+      "id": "88",
+      "start": 5277,
+      "end": 5347
+    }
+  ]
+}

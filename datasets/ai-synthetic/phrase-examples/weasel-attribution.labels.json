@@ -1,0 +1,1055 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "64331913625cb1356678f4a8a24db0a9dfa09c4abc1afc0e37c5288a01380875",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "Generated phrase examples",
+    "originalPath": "datasets/experiments/candidates/weasel-attribution.json",
+    "notes": "Selected examples retain original author judgments; unselected examples remain unlabeled."
+  },
+  "labels": [
+    {
+      "id": "5",
+      "start": 253,
+      "end": 305,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Passive-authority construction; asserts consensus without any source",
+      "evidence": [],
+      "original": {
+        "candidate": "it is widely known",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "6",
+      "start": 307,
+      "end": 378,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Passive consensus claim; not in uncited-authority.ts (covered only as 'it is widely accepted')",
+      "evidence": [],
+      "original": {
+        "candidate": "it is widely believed",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "9",
+      "start": 500,
+      "end": 572,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Quantified version of 'experts believe'; not in existing list; 'many believe' is there but this adds the expert framing",
+      "evidence": [],
+      "original": {
+        "candidate": "many experts believe",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "10",
+      "start": 574,
+      "end": 651,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Plural-expert consensus without any named expert",
+      "evidence": [],
+      "original": {
+        "candidate": "many experts agree",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "11",
+      "start": 653,
+      "end": 722,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Majority-consensus claim with no source; stronger quantifier than 'many'",
+      "evidence": [],
+      "original": {
+        "candidate": "most experts agree",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "12",
+      "start": 724,
+      "end": 783,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Domain-scoped vague attribution; slightly more specific than 'experts say' but still unnamed",
+      "evidence": [],
+      "original": {
+        "candidate": "industry experts say",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "13",
+      "start": 785,
+      "end": 848,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Prestige-modifier on vague attribution; no source given",
+      "evidence": [],
+      "original": {
+        "candidate": "leading experts say",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "16",
+      "start": 976,
+      "end": 1035,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Attributes a specific claim to all of science; no study, no author",
+      "evidence": [],
+      "original": {
+        "candidate": "according to science",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "17",
+      "start": 1037,
+      "end": 1106,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Science personified as authority without citation; related to 'science says' but not the same token sequence",
+      "evidence": [],
+      "original": {
+        "candidate": "science tells us",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "18",
+      "start": 1108,
+      "end": 1165,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Stronger claim than 'science says'; not in existing list",
+      "evidence": [],
+      "original": {
+        "candidate": "science confirms",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "19",
+      "start": 1167,
+      "end": 1237,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Strong certainty claim with passive erasure of who proved it and how",
+      "evidence": [],
+      "original": {
+        "candidate": "it has been proven that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "21",
+      "start": 1299,
+      "end": 1353,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Passive erasure of who found it; near-identical signal to 'it has been shown'",
+      "evidence": [],
+      "original": {
+        "candidate": "it has been found that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "22",
+      "start": 1355,
+      "end": 1411,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Claims a consensus has already been settled without naming who settled it",
+      "evidence": [],
+      "original": {
+        "candidate": "it has been established that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "23",
+      "start": 1413,
+      "end": 1480,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Passive demonstration claim; no study, no author, no date",
+      "evidence": [],
+      "original": {
+        "candidate": "it has been demonstrated that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "24",
+      "start": 1482,
+      "end": 1546,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Softer consensus claim; some FP risk when used in genuine academic hedging, but without citation it's weasel",
+      "evidence": [],
+      "original": {
+        "candidate": "it is generally accepted that",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "25",
+      "start": 1548,
+      "end": 1623,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Absolute-consensus claim; rarely true for anything except basic facts, and those don't need attribution",
+      "evidence": [],
+      "original": {
+        "candidate": "it is universally accepted that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "26",
+      "start": 1625,
+      "end": 1691,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Implies shared knowledge without citing where that understanding comes from",
+      "evidence": [],
+      "original": {
+        "candidate": "it is commonly understood that",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "27",
+      "start": 1693,
+      "end": 1752,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Variant of 'commonly understood'; same passive consensus erasure",
+      "evidence": [],
+      "original": {
+        "candidate": "it is generally understood that",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "28",
+      "start": 1754,
+      "end": 1828,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Double assertion of facthood and fame; classic weasel opener",
+      "evidence": [],
+      "original": {
+        "candidate": "it is a well-known fact that",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "29",
+      "start": 1830,
+      "end": 1891,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Presupposes wide knowledge to avoid stating a source",
+      "evidence": [],
+      "original": {
+        "candidate": "as is well known",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "33",
+      "start": 2081,
+      "end": 2130,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Softer hedge variant of 'observers have noted'; same erasure of source",
+      "evidence": [],
+      "original": {
+        "candidate": "observers have suggested",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "34",
+      "start": 2132,
+      "end": 2174,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Unnamed analyst attribution; higher FP risk in financial journalism where analysts are a recognized class, but no name still weasels",
+      "evidence": [],
+      "original": {
+        "candidate": "analysts suggest",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "36",
+      "start": 2241,
+      "end": 2298,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Belief attribution to unnamed analysts; weakens claim without citation",
+      "evidence": [],
+      "original": {
+        "candidate": "analysts believe",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "37",
+      "start": 2300,
+      "end": 2367,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Medical-authority variant of 'experts say'; no named doctor, no source",
+      "evidence": [],
+      "original": {
+        "candidate": "doctors say",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "39",
+      "start": 2437,
+      "end": 2503,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Domain-scoped vague attribution; 'health' adds specificity veneer without naming anyone",
+      "evidence": [],
+      "original": {
+        "candidate": "health experts say",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "40",
+      "start": 2505,
+      "end": 2571,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Discipline-specific unnamed authority; no individual or body named",
+      "evidence": [],
+      "original": {
+        "candidate": "nutritionists say",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "41",
+      "start": 2573,
+      "end": 2634,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Discipline-specific unnamed authority; common in self-help and wellness AI content",
+      "evidence": [],
+      "original": {
+        "candidate": "psychologists say",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "42",
+      "start": 2636,
+      "end": 2685,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Domain-scoped attribution; FP risk moderate in economics journalism, but still weasel without a name",
+      "evidence": [],
+      "original": {
+        "candidate": "economists say",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "43",
+      "start": 2687,
+      "end": 2766,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Prestige-plural unnamed consensus; 'leaders' adds authority without naming them",
+      "evidence": [],
+      "original": {
+        "candidate": "industry leaders agree",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "44",
+      "start": 2768,
+      "end": 2831,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Unnamed insider attribution; implies privileged knowledge without any source",
+      "evidence": [],
+      "original": {
+        "candidate": "industry insiders say",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "46",
+      "start": 2882,
+      "end": 2955,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Unnamed researcher attribution with hedged consensus; legitimate in academic hedging but weasel without a citation",
+      "evidence": [],
+      "original": {
+        "candidate": "some researchers argue",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "47",
+      "start": 2957,
+      "end": 3023,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Fringe-minority framing without naming the scientists",
+      "evidence": [],
+      "original": {
+        "candidate": "some scientists believe",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "49",
+      "start": 3074,
+      "end": 3151,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Sophisticated-sounding weasel phrase that implies accumulation without citing any single study",
+      "evidence": [],
+      "original": {
+        "candidate": "a growing body of evidence suggests",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "50",
+      "start": 3153,
+      "end": 3230,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Variant of the above with 'research'; both are AI-common gap-filling phrases",
+      "evidence": [],
+      "original": {
+        "candidate": "a growing body of research suggests",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "51",
+      "start": 3232,
+      "end": 3319,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Claims consensus of the entire scientific community without any evidence or citation",
+      "evidence": [],
+      "original": {
+        "candidate": "the scientific community agrees",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "54",
+      "start": 3478,
+      "end": 3544,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Hyperbolic quantity claim for studies; 'countless' asserts volume to substitute for citation",
+      "evidence": [],
+      "original": {
+        "candidate": "countless studies have shown",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "55",
+      "start": 3546,
+      "end": 3618,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Quantity-inflation variant of 'studies have shown'; implies breadth without citing any study",
+      "evidence": [],
+      "original": {
+        "candidate": "numerous studies have shown",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "56",
+      "start": 3620,
+      "end": 3684,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Same as above with 'suggest'; hedged version",
+      "evidence": [],
+      "original": {
+        "candidate": "numerous studies suggest",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "57",
+      "start": 3686,
+      "end": 3760,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Replication claim without naming any of the studies",
+      "evidence": [],
+      "original": {
+        "candidate": "multiple studies have found",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "59",
+      "start": 3830,
+      "end": 3885,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Definite-article variant of 'evidence points to'; implies a specific body of evidence without naming it",
+      "evidence": [],
+      "original": {
+        "candidate": "the evidence points to",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "60",
+      "start": 3887,
+      "end": 3957,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Recency modifier added to create freshness veneer without naming the study",
+      "evidence": [],
+      "original": {
+        "candidate": "recent studies show",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "62",
+      "start": 4032,
+      "end": 4107,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Past-perfect recency variant; all three recency forms are distinct token sequences",
+      "evidence": [],
+      "original": {
+        "candidate": "recent research has found",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "63",
+      "start": 4109,
+      "end": 4181,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Novelty framing variant; 'new' is slightly stronger claim than 'recent'",
+      "evidence": [],
+      "original": {
+        "candidate": "new research suggests",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "64",
+      "start": 4183,
+      "end": 4246,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Variant with 'studies'; same novelty-without-citation pattern",
+      "evidence": [],
+      "original": {
+        "candidate": "new studies show",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "65",
+      "start": 4248,
+      "end": 4321,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Broadened professional class as authority; no individual or body named",
+      "evidence": [],
+      "original": {
+        "candidate": "according to health professionals",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "66",
+      "start": 4323,
+      "end": 4396,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Domain-qualified unnamed attribution; appears frequently in AI health content",
+      "evidence": [],
+      "original": {
+        "candidate": "according to medical experts",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "67",
+      "start": 4398,
+      "end": 4462,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Unnamed potential arguers; AI uses to present a view without committing to it or naming anyone who holds it",
+      "evidence": [],
+      "original": {
+        "candidate": "some would argue",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "69",
+      "start": 4532,
+      "end": 4585,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Softer hedge variant of 'one could argue'; same mechanism",
+      "evidence": [],
+      "original": {
+        "candidate": "one might argue",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    },
+    {
+      "id": "71",
+      "start": 4648,
+      "end": 4704,
+      "check": "slopless/weasel-attribution",
+      "expected": true,
+      "reason": "Present-tense variant of 'it could be argued'; same hedged-claim device without author",
+      "evidence": [],
+      "original": {
+        "candidate": "it can be argued that",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/weasel-attribution.json"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "1",
+      "start": 0,
+      "end": 58
+    },
+    {
+      "id": "2",
+      "start": 60,
+      "end": 119
+    },
+    {
+      "id": "3",
+      "start": 121,
+      "end": 183
+    },
+    {
+      "id": "4",
+      "start": 185,
+      "end": 251
+    },
+    {
+      "id": "5",
+      "start": 253,
+      "end": 305
+    },
+    {
+      "id": "6",
+      "start": 307,
+      "end": 378
+    },
+    {
+      "id": "7",
+      "start": 380,
+      "end": 442
+    },
+    {
+      "id": "8",
+      "start": 444,
+      "end": 498
+    },
+    {
+      "id": "9",
+      "start": 500,
+      "end": 572
+    },
+    {
+      "id": "10",
+      "start": 574,
+      "end": 651
+    },
+    {
+      "id": "11",
+      "start": 653,
+      "end": 722
+    },
+    {
+      "id": "12",
+      "start": 724,
+      "end": 783
+    },
+    {
+      "id": "13",
+      "start": 785,
+      "end": 848
+    },
+    {
+      "id": "14",
+      "start": 850,
+      "end": 915
+    },
+    {
+      "id": "15",
+      "start": 917,
+      "end": 974
+    },
+    {
+      "id": "16",
+      "start": 976,
+      "end": 1035
+    },
+    {
+      "id": "17",
+      "start": 1037,
+      "end": 1106
+    },
+    {
+      "id": "18",
+      "start": 1108,
+      "end": 1165
+    },
+    {
+      "id": "19",
+      "start": 1167,
+      "end": 1237
+    },
+    {
+      "id": "20",
+      "start": 1239,
+      "end": 1297
+    },
+    {
+      "id": "21",
+      "start": 1299,
+      "end": 1353
+    },
+    {
+      "id": "22",
+      "start": 1355,
+      "end": 1411
+    },
+    {
+      "id": "23",
+      "start": 1413,
+      "end": 1480
+    },
+    {
+      "id": "24",
+      "start": 1482,
+      "end": 1546
+    },
+    {
+      "id": "25",
+      "start": 1548,
+      "end": 1623
+    },
+    {
+      "id": "26",
+      "start": 1625,
+      "end": 1691
+    },
+    {
+      "id": "27",
+      "start": 1693,
+      "end": 1752
+    },
+    {
+      "id": "28",
+      "start": 1754,
+      "end": 1828
+    },
+    {
+      "id": "29",
+      "start": 1830,
+      "end": 1891
+    },
+    {
+      "id": "30",
+      "start": 1893,
+      "end": 1938
+    },
+    {
+      "id": "31",
+      "start": 1940,
+      "end": 2004
+    },
+    {
+      "id": "32",
+      "start": 2006,
+      "end": 2079
+    },
+    {
+      "id": "33",
+      "start": 2081,
+      "end": 2130
+    },
+    {
+      "id": "34",
+      "start": 2132,
+      "end": 2174
+    },
+    {
+      "id": "35",
+      "start": 2176,
+      "end": 2239
+    },
+    {
+      "id": "36",
+      "start": 2241,
+      "end": 2298
+    },
+    {
+      "id": "37",
+      "start": 2300,
+      "end": 2367
+    },
+    {
+      "id": "38",
+      "start": 2369,
+      "end": 2435
+    },
+    {
+      "id": "39",
+      "start": 2437,
+      "end": 2503
+    },
+    {
+      "id": "40",
+      "start": 2505,
+      "end": 2571
+    },
+    {
+      "id": "41",
+      "start": 2573,
+      "end": 2634
+    },
+    {
+      "id": "42",
+      "start": 2636,
+      "end": 2685
+    },
+    {
+      "id": "43",
+      "start": 2687,
+      "end": 2766
+    },
+    {
+      "id": "44",
+      "start": 2768,
+      "end": 2831
+    },
+    {
+      "id": "45",
+      "start": 2833,
+      "end": 2880
+    },
+    {
+      "id": "46",
+      "start": 2882,
+      "end": 2955
+    },
+    {
+      "id": "47",
+      "start": 2957,
+      "end": 3023
+    },
+    {
+      "id": "48",
+      "start": 3025,
+      "end": 3072
+    },
+    {
+      "id": "49",
+      "start": 3074,
+      "end": 3151
+    },
+    {
+      "id": "50",
+      "start": 3153,
+      "end": 3230
+    },
+    {
+      "id": "51",
+      "start": 3232,
+      "end": 3319
+    },
+    {
+      "id": "52",
+      "start": 3321,
+      "end": 3401
+    },
+    {
+      "id": "53",
+      "start": 3403,
+      "end": 3476
+    },
+    {
+      "id": "54",
+      "start": 3478,
+      "end": 3544
+    },
+    {
+      "id": "55",
+      "start": 3546,
+      "end": 3618
+    },
+    {
+      "id": "56",
+      "start": 3620,
+      "end": 3684
+    },
+    {
+      "id": "57",
+      "start": 3686,
+      "end": 3760
+    },
+    {
+      "id": "58",
+      "start": 3762,
+      "end": 3828
+    },
+    {
+      "id": "59",
+      "start": 3830,
+      "end": 3885
+    },
+    {
+      "id": "60",
+      "start": 3887,
+      "end": 3957
+    },
+    {
+      "id": "61",
+      "start": 3959,
+      "end": 4030
+    },
+    {
+      "id": "62",
+      "start": 4032,
+      "end": 4107
+    },
+    {
+      "id": "63",
+      "start": 4109,
+      "end": 4181
+    },
+    {
+      "id": "64",
+      "start": 4183,
+      "end": 4246
+    },
+    {
+      "id": "65",
+      "start": 4248,
+      "end": 4321
+    },
+    {
+      "id": "66",
+      "start": 4323,
+      "end": 4396
+    },
+    {
+      "id": "67",
+      "start": 4398,
+      "end": 4462
+    },
+    {
+      "id": "68",
+      "start": 4464,
+      "end": 4530
+    },
+    {
+      "id": "69",
+      "start": 4532,
+      "end": 4585
+    },
+    {
+      "id": "70",
+      "start": 4587,
+      "end": 4646
+    },
+    {
+      "id": "71",
+      "start": 4648,
+      "end": 4704
+    }
+  ]
+}

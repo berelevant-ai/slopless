@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "34d5acfc343dcf2e720c1442a96180a6dda5e3df5dc0b6951db35d51d7bef9ae",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "peps",
+    "originalPath": "datasets/corpus/human/tech/peps/pep-0498.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 3082,
+      "end": 3100,
+      "check": "slopless/llm-vocabulary-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule fires on technical standards documents (RFCs, PEPs) and API reference docs (MDN) where 'value' is a mandatory domain term — protocol fields, Python language semantics, CSS property values. These texts legitimately repeat 'value' and 'context' dozens of times per page because those are the technical concepts being specified. The density signal conflates domain-required repetition with LLM stock abstraction. The rule needs domain exclusions or a word list that does not include 'value' for technical content.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[tech/peps] (LLM vocabulary density: 4 stock abstraction words ) >>> value = 4 * 20"
+      }
+    }
+  ]
+}

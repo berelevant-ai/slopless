@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "9be55c2c27467ff4f88b9d8dc02ab3e91402a90aa89de01c08f480ae582dd479",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-before.md",
+    "url": "https://paulgraham.com/before.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 17265,
+      "end": 17328,
+      "check": "slopless/generic-signposting",
+      "expected": false,
+      "reason": "Historical reviewer: Most flagged phrases are direct analytical statements, not vacuous signposting. 'The first problem is', 'the short answer is', 'the goal is to', 'the best way is', 'that is important', 'the point is to' all carry substantive content in context. 'Please note that' is a legitimate legal/compliance notice. 'As such' is a standard formal logical connector. 'The first version was', 'the short version' are factual references. The rule over-matches on [THE/IT/THAT]-[ADJ/NOUN]-IS patterns that are ordinary expository English.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/paulgraham] so I won't repeat it all here. But the short version is that if"
+      }
+    }
+  ]
+}

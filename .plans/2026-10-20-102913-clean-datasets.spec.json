@@ -1,0 +1,11 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "2026-10-20-102913-clean-datasets.md: minimal datasets and validated readers",
+      "required": ["datasets/human", "datasets/ai-suspected", "datasets/ai-normal", "datasets/ai-synthetic/semantic-thinness.md", "datasets/ai-synthetic/semantic-thinness.labels.json", "runners/datasets.mjs", "runners/dataset.schema.json", "scripts/datasets-contract.mjs"],
+      "forbidden": ["datasets/corpus/**", "datasets/holdout/**", "datasets/labeled/**", "datasets/legacy/**", "datasets/experiments/**", "datasets/INVENTORY.md"]
+    }
+  }
+}

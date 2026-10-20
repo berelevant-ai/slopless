@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "4238448bc1e47706a398586b2bf8bc6274ef0aa80e93c9c65635df0bea1b241c",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-006.md",
+    "url": "https://a16z.com/2014/02/06/silicon-valley-cant-find-europe",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 8985,
+      "end": 9157,
+      "check": "slopless/boilerplate-framing",
+      "expected": false,
+      "reason": "Historical reviewer: The rule catches high-frequency but fully legitimate English phrases. 'When it comes to' is a standard preposition construction used to scope a topic, not a framing crutch. 'Honestly', 'truth be told', 'here's the thing', 'to be clear', 'one reason is' all appear as genuine rhetorical or analytical devices in the Paul Graham and a16z samples. 'The bottom line is' is a business idiom. Only edge cases like 'not to put too fine a point' and 'vague-category-include' listing constructions are borderline, but still not slop in context.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/a16z] When it comes to online and mobile applications truly embedded in how people go about their daily chores, how they sign and exchange legal documents, how they interact with"
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 7434,
+      "end": 7635,
+      "check": "slopless/triple-repeat",
+      "expected": false,
+      "reason": "Historical reviewer: Rule cannot distinguish deliberate rhetorical anaphora from sloppy repetition. Flags intentional parallel structure ('What can you give? What can you help with? What can you teach?'), rhetorical questions ('What does he do? What does he say?'), song lyrics ('Facts are simple and facts are straight / Facts are lazy and facts are late'), and proper-noun title repetition ('a16z Podcast: ...' headers). Also fires on spam corpus lines ('FREE', 'Free', 'free') which are data rows not prose. The rule's intent—catching unintentional word repetition from lazy drafting—is overwhelmed by legitimate anaphoric and enumerative structures.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "When building high-value ties in any network, the question should never be what you get, but rather what can you give to the other party? What can you help with? What can you teach? What can you spare?"
+      }
+    }
+  ]
+}

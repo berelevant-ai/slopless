@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import re
+import json
 import sys
 import tomllib
 from pathlib import Path
@@ -67,15 +68,10 @@ def main() -> None:
 
     total_cases = 0
     for family in manifest["family"]:
-        hit_path = ROOT / family["hit_path"]
-        no_hit_path = ROOT / family["no_hit_path"]
-        if not hit_path.exists():
-            fail(f"missing hit file for {family['name']}: {family['hit_path']}")
-        if not no_hit_path.exists():
-            fail(f"missing no-hit file for {family['name']}: {family['no_hit_path']}")
-
-        hit_count = len(markdown_case_blocks(hit_path))
-        no_hit_count = len(markdown_case_blocks(no_hit_path))
+        dataset = ROOT / family["dataset"]
+        metadata = json.loads(dataset.with_suffix(".labels.json").read_text())
+        hit_count = sum(label["expected"] is True for label in metadata["labels"])
+        no_hit_count = sum(label["expected"] is False for label in metadata["labels"])
         if hit_count < manifest["min_hit_cases_per_family"]:
             fail(f"{family['name']} hit count {hit_count} below {manifest['min_hit_cases_per_family']}")
         if no_hit_count < manifest["min_no_hit_cases_per_family"]:

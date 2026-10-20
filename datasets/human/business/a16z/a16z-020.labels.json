@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "c318a36b3de0d9cffec405bc03d496b3f0a1cc2338bb2d168504fa504bf3c19a",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-020.md",
+    "url": "https://a16z.com/2019/10/14/flow-scalability-trilemma-blockchain-architectures",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 0,
+      "end": 10162,
+      "check": "slopless/flesch-kincaid",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article readability score. All 30 samples are analytical business/tech articles (a16z blog) written at graduate level. The threshold (score >= 61) targets tabloid prose; professional non-fiction routinely scores 20-50. Every flag is dense-but-legitimate writing, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Flesch Reading Ease is 21.7. Keep it at 61 or high) # Flow Scalability Trilemma Blockchain Architectures"
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 0,
+      "end": 10162,
+      "check": "slopless/gunning-fog",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article fog index. Threshold is 12 (8th-grade level). All 30 samples are expert-domain writing -- blockchain architectures, fintech regulation, enterprise software, healthcare -- that legitimately uses multi-syllable technical terms. Scores of 13-25 are expected and correct for this genre, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Gunning Fog is 19.89. Keep it at 12 or lower.) # Flow Scalability Trilemma Blockchain Architectures"
+      }
+    },
+    {
+      "id": "historical-3",
+      "start": 6151,
+      "end": 6213,
+      "check": "slopless/cliches",
+      "expected": false,
+      "reason": "Historical reviewer: Rule conflates genuine idiom-cliches (\"at the end of the day\", \"easier said than done\") with: (1) literal price statements flagged as \"for free\" (6 hits where \"for free\" means zero-cost, not a cliche), (2) domain-correct technical terms (\"cutting edge science\", \"divide and conquer\" in CS/distributed systems), (3) functional compound nouns (\"decision-making process\" as a precise term for a workflow), (4) legal/commercial set phrases (\"time is of the essence\"), (5) common English idioms with no sloppy connotation (\"lion's share\" meaning majority).",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Cliche found: \"divide and conquer\". Replace it wit) Think of it as the divide and conquer approach to scalability."
+      }
+    }
+  ]
+}

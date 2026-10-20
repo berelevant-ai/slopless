@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "7ecc00d967f64259b72a807242f6631eb462cdf31cd4e0b2b418cc0c1100100b",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-boss.md",
+    "url": "https://paulgraham.com/boss.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 11553,
+      "end": 11619,
+      "check": "slopless/response-wrapper",
+      "expected": false,
+      "reason": "Historical reviewer: 'Certainly' as an adverb of degree or sentence adverb is standard human English ('Certainly they will learn more', 'Certainly schools should teach', 'Is it much harder... Certainly, but...'). It is not a chat-scaffold word — it appears throughout Paul Graham essays and journalistic prose as a normal emphatic or concessive adverb. The chat-scaffold pattern it is supposed to catch ('Certainly! Here is...') requires an exclamation mark and an imperative follow-on, not a bare adverb in flowing prose.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/paulgraham] (Response wrapper found: chat-scaffold (certainly).) going to work at a big company. Certainly they'll learn more. They"
+      }
+    }
+  ]
+}

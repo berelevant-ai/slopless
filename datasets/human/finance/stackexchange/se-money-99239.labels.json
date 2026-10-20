@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "05470fd872ab7ce184f160c0c848dd5e6921ff287bb8c5eb8f60f798f3379bc7",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/finance/stackexchange/se-money-99239.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 715,
+      "end": 854,
+      "check": "slopless/uncited-authority",
+      "expected": false,
+      "reason": "Historical reviewer: True positives exist where medical or health claims cite vague authority ('Studies suggest inflammation...', 'studies show that blue light...', 'evidence suggests' for parenting claims). However, 'it is considered' in PEPs and RFCs is legitimate standards-document hedging language expressing community consensus, not fake authority. 'Many believe that... prosperity will not last' is a conversational framing sentence in a finance Q&A, not a pseudoscientific claim. The rule is well-targeted for health/medical content but over-fires on standards documents and opinion framing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[finance/stackexchange] (Uncited authority found: many believe. Name the so) Many believe that the current prosperity that we enjoy will not last indefinitely and they want to hedge against changes in the status quo."
+      }
+    }
+  ]
+}

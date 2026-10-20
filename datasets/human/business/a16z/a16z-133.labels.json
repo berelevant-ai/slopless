@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "14df1c0aded6857e768f6ec6653031336cd013e4a804d4ebbe53985e75af6023",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-133.md",
+    "url": "https://a16z.com/2013/07/16/capital-market-climate-change",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 1309,
+      "end": 1324,
+      "check": "slopless/repeated-sentence-starts",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on deliberate parallel instruction ('If you focus on the wall... If you focus on the road'), deliberate rhetoric ('Make her feel it. Make her feel you.'), enumeration ('In the first... In this case...'), metadata and title strings ('a16z Podcast: ...' repeated headers, 'Want More a16z Crypto?', 'Analysis and news...'), data rows ('3/31/1995: 21.0'), email headers ('to: Paul Graham'), and Paul Graham sentence fragments that are mid-paragraph continuations rather than sentence starts. The rule cannot distinguish intentional parallel structure, enumeration, or non-prose content from lazy repetition.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "3/31/1995: 21.0"
+      }
+    }
+  ]
+}

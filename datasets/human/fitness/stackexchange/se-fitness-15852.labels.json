@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "92eef4a350950850905fffa5f75bb522dca19f00d711ce2f37baead659dfbf4c",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/fitness/stackexchange/se-fitness-15852.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 1042,
+      "end": 1210,
+      "check": "slopless/body-action-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule flags passages with 3+ movement or body cues in a short span. For fitness, medical, sports, and travel content this is expected and domain-correct: exercise instructions must name muscles and movements, walking/running comparisons must reference physical actions, and medical anatomy descriptions require body-part vocabulary. The non-fitness samples (paulgraham, a16z) are mostly truncated 10-20 word fragments where context is insufficient to judge density meaningfully.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[fitness/stackexchange] When performing squats, deadlifts, bench press, or just about any compound lift that can put stress on the spine it is imperative to protect your spine during exertion."
+      }
+    }
+  ]
+}

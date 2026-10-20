@@ -1,0 +1,8683 @@
+Despite recent declines in yields , investors continue to pour cash into money funds .
+
+Assets of the 400 taxable funds grew by $ 1.5 billion during the latest week , to $ 352.7 billion .
+
+Typically , money-fund yields beat comparable short-term investments because portfolio managers can vary maturities and go after the highest rates .
+
+The top money funds are currently yielding well over 9 % .
+
+The top money funds are currently yielding well over 9 % .
+
+Dreyfus World-Wide Dollar , the top-yielding fund , had a seven-day compound yield of 9.37 % during the latest week , down from 9.45 % a week earlier .
+
+There were many pioneer PC contributors .
+
+William Gates and Paul Allen in 1975 developed an early language-housekeeper system for PCs , and Gates became an industry billionaire six years after IBM adapted one of these versions in 1981 .
+
+But some European funds recently have skyrocketed
+
+Spain Fund has surged to a startling 120 % premium
+
+The purhasing managers ' report also added evidence that inflation is under control .
+
+For the fifth consecutive month , purchasing managers said prices for the goods they purchased fell .
+
+The 40-year-old Mr. Murakami is a publishing sensation in Japan .
+
+A more recent novel , `` Norwegian Wood '' -LRB- every Japanese under 40 seems to be fluent in Beatles lyrics -RRB- , has sold more than four million copies since Kodansha published it in 1987 .
+
+Some of his observations about Japanese management style are on the mark .
+
+It 's probably true that many salarymen put in unproductive overtime just for the sake of solidarity , that the system is so hierarchical that only the assistant manager can talk to the manager and the manager to the general manager , and that Sony was chary of letting a young , short-term American employee take on any responsibility .
+
+But it is Mr. Lane , as movie director , producer and writer , who has been obsessed with refitting Chaplin 's Little Tramp in a contemporary way .
+
+In 1976 , as a film student at the Purchase campus of the State University of New York , Mr. Lane shot `` A Place in Time , '' a 36-minute black-and-white film about a sketch artist , a man of the streets .
+
+Filmed in lovely black and white by Bill Dill , the New York streets of `` Sidewalk Stories '' seem benign .
+
+On Wall Street men and women walk with great purpose , noticing one another only when they jostle for cabs .
+
+She gives the Artist a sense of purpose , but also alerts him to the serious inadequacy of his vagrant life .
+
+The beds at the Bowery Mission seem far drearier when he has to tuck a little girl into one of them at night .
+
+she was dreadful to her war-damaged husband
+
+she openly brought her lover into their home
+
+She had seen cheating before , but these notes were uncanny .
+
+`` A stockbroker is an example of a profession in trade and finance ... .
+
+At the end of World War II , Germany surrendered before Japan ... .
+
+The Senate-House conference committee is used when a bill is passed by the House and Senate in different forms . ''
+
+Evidence of widespread cheating has surfaced in several states in the last year or so .
+
+California 's education department suspects adult responsibility for erasures at 40 schools that changed wrong answers to right ones on a statewide test .
+
+Mrs. Ward resolved to clean out `` deadwood '' in the school 's faculty and restore safety , and she also had some new factors working in her behalf .
+
+One was statewide school reform , which raised overall educational funding and ushered in a new public spirit for school betterment .
+
+`` She just never gave it up , '' says Mary Marchand , Mary Beth 's mother .
+
+`` You 'd see her correcting homework in the stands at a football game . ''
+
+To the astonishment and dismay of her superiors and legal authorities -- and perhaps as a measure of the unpopularity of standardized tests -- Mrs . Yeargin won widespread local support .
+
+The school-board hearing at which she was dismissed was crowded with students , teachers and parents who came to testify on her behalf .
+
+Sales figures of the test-prep materials are n't known , but their reach into schools is significant .
+
+In Arizona , California , Florida , Louisiana , Maryland , New Jersey , South Carolina and Texas , educators say they are common classroom tools .
+
+He contends that the perception in Japan of a vitriolic U.S. response to Sony Corp. 's announcement of its purchase of Columbia Pictures Entertainment Inc. has been temporarily mollified .
+
+He cites the recent deal between the Mitsubishi Estate Co. and the Rockefeller Group , as well as the possible white knight role of an undisclosed Japanese company in the Georgia-Pacific Corp. takeover bid for Great Northern Nekoosa Corp. as evidence .
+
+Garbage editors have dumped considerable energy into a whirling rampage through supermarket aisles in a bid to identify corporate America 's good guys and bad boys .
+
+In one feature , called `` In the Dumpster , '' editors point out a product they deem to be a particularly bad offender .
+
+The company recently said it would sell some operations and lay off 4 % of its work force , altogether reducing employment to less than 16,000 from about 18,000 .
+
+It recently signed a preliminary agreement to negotiate exclusively with the Bank of Tokyo Ltd. for the sale of part of its leasing business to the Japanese bank .
+
+France can boast the lion 's share of high-priced bottles .
+
+Bordeaux 's first growths from 1985 and 1986 are $ 60 to $ 80 each -LRB- except for the smallest in terms of production , Chateau Petrus , which costs around $ 250 ! -RRB- .
+
+Image has , of course , a great deal to do with what sells and what does n't , and it ca n't be forced .
+
+Wine merchants ca n't keep Roederer Cristal in stock , but they have to push Salon le Mesnil , even lowering the price from $ 115 to $ 90 .
+
+Bond prices were up .
+
+The Treasury 's benchmark 30-year bond gained about a quarter of a point , or $ 2.50 for each $ 1,000 of face amount .
+
+The Japanese fret openly about the U.S. public 's rancor .
+
+One clear sign of Japan 's nervousness came this week , when a spokesman for Japan 's Foreign Ministry devoted nearly all of a regular , half-hour briefing for foreign journalists to the subject of recent Japanese investments in the U.S. .
+
+Heightened Japanese interest in American small business parallels an acceleration of investments giving Japanese companies control of large , highly visible U.S. corporations , such as Columbia Pictures Entertainment Inc .
+
+Only this week , it was announced that Mitsubishi Estate Co. had acquired a 51 % stake in Rockefeller Group , which owns New York 's prestigious Rockefeller Center .
+
+Even a low-tech product like plate glass can catch a trading company 's fancy if there 's a strategic fit .
+
+Free State Glass Industries of Warrenton , Va. , a small fabricator of architectural glass , was foundering under its original management .
+
+Those efforts are being stepped up .
+
+Judie MacDonald , vice president of retail sales at Barnett Banks Inc. of Jacksonville , Fla. , says the company now targets sub-segments within the market by tailoring its popular Seniors Partners Program to various life styles .
+
+Banks have tried packaging before .
+
+In 1973 , Wells Fargo & Co. of San Francisco launched the Gold Account , which included free checking , a credit card , safe-deposit box and travelers checks for a $ 3 monthly fee .
+
+Packaging has some drawbacks .
+
+The additional technology , personnel training and promotional effort can be expensive .
+
+The additional technology , personnel training and promotional effort can be expensive .
+
+Chemical Bank spent more than $ 50 million to introduce its ChemPlus line , several packages aimed at different segments , in 1986 , according to Thomas Jacob , senior vice president of marketing .
+
+Some banks are already moving in that direction , according to Alvin T. Sale , marketing director at First Union Corp. in Charlotte .
+
+First Union , he says , now has packages for seven customer groups .
+
+History , after all , is not on his side .
+
+According to a nationwide survey taken a year ago , nearly a third of England 's church bells are no longer rung on Sundays because there is no one to ring them .
+
+It is easy to see why the ancient art is on the ropes .
+
+The less complicated version of playing tunes on bells , as do the carillons of continental Europe , is considered by the English to be childish , fit only for foreigners .
+
+With membership of the Church of England steadily dwindling , strong-willed vicars are pressing equally strong-willed and often non-religious ringers to attend services .
+
+Two years ago , the Rev. Jeremy Hummerstone , vicar of Great Torrington , Devon , got so fed up with ringers who did n't attend service he sacked the entire band ; the ringers promptly set up a picket line in protest .
+
+The Central Council of Church Bell Ringers , a sort of parliament of ringing groups , aims to improve relations with vicars , says John C. Baldwin , president .
+
+It hopes to speak to students at theological colleges about the joys of bell ringing and will shortly publish a booklet for every vicar in the country entitled , `` The Bells in Your Care . ''
+
+They are n't accepted everywhere , however .
+
+The oldest bell-ringing group in the country , the Ancient Society of College Youths , founded in 1637 , remains male-only , a fact that 's particularly galling to women because the group is the sole source of ringers for Britain 's most prestigious churches , St. Paul 's Cathedral and Westminster Abbey .
+
+This being Britain , no woman has filed an equal-opportunity suit , but the extent of the problem surfaced this summer in a series of letters to `` The Ringing World , '' a weekly newspaper for ringers .
+
+One writer , signing his letter as `` Red-blooded , balanced male , '' remarked on the `` frequency of women fainting in peals , '' and suggested that they `` settle back into their traditional role of making tea at meetings . ''
+
+That pattern has n't always held , but recent strong growth in dividends makes some market watchers anxious .
+
+Payouts on the S&P 500 stocks rose 10 % in 1988 , according to Standard & Poor 's Corp. , and Wall Street estimates for 1989 growth are generally between 9 % and 14 % .
+
+One indicator investors might want to watch is the monthly tally from Standard & Poor 's of the number of public companies adjusting their dividends .
+
+A total of 139 companies raised dividends in October , basically unchanged from 138 a year ago , S&P said Wednesday .
+
+In any case , opinion is mixed on how much of a boost the overall stock market would get even if dividend growth continues at double-digit levels .
+
+Mr. Einhorn of Goldman Sachs estimates the stock market will deliver a 12 % to 15 % total return from appreciation and dividends over the next 12 months -- vs. a `` cash rate of return '' of perhaps 7 % or 8 % if dividend growth is weak .
+
+As a result , he said NBI will focus on servicing its installed base of systems , trying to provide maintenance for other manufacturers and expanding its software business , using some of the applications it developed for its hardware .
+
+The company currently offers a word-processing package for personal computers called Legend .
+
+According to an American member of the Nixon party , the former president raised a number of controversial issues in his 20 hours of talks with top-level Chinese officials .
+
+These included China 's economic policies , human rights and the question of Mr. Fang .
+
+Tokyo 's leading program traders are the big U.S. securities houses , though the Japanese are playing catch-up .
+
+Some U.S. firms , notably Salomon Inc. and Morgan Stanley Group Inc. , have reaped a hefty chunk of their Japanese earnings from index arbitrage , both for customers and for their own accounts .
+
+The British also are scrutinizing program trades .
+
+Index-arbitrage trading is `` something we want to watch closely , '' an official at London 's Stock Exchange said .
+
+So far , Mr. Hahn is trying to entice Nekoosa into negotiating a friendly surrender while talking tough .
+
+`` We are prepared to pursue aggressively completion of this transaction , '' he says .
+
+But he also showed a willingness to take a strong stand .
+
+In 1970 , Mr. Hahn called in state police to arrest student protesters who were occupying a university building .
+
+But Mr. Hahn rose swiftly through the ranks , demonstrating a raw intelligence that he says he knew he possessed early on .
+
+The son of a physicist , Mr. Hahn skipped first grade because his reading ability was so far above his classmates .
+
+Compromises are possible .
+
+Citizens in Peninsula , Ohio , upset over changes to a bridge , negotiated a deal : The bottom half of the railing will be type F , while the top half will have the old bridge 's floral pattern .
+
+The company acknowledges some problems .
+
+A driver has to find something to hang the carrier on , so the company supplies a window hook .
+
+A number of cities -- including Minneapolis , Philadelphia and Houston -- have vacant grain elevators , Eggers says .
+
+A medium-sized one in Brooklyn , it says , could be altered to house up to 1,000 inmates at a lower cost than building a new prison in upstate New York .
+
+You did not note that the homeless people we examined had a multitude of physical disorders in addition to their psychiatric problems and substance abuse .
+
+They suffered from malnutrition , chest diseases , cardiovascular disorders , skin problems , infectious diseases and the aftereffects of assaults and rape .
+
+As for the findings on the 203 Baltimore homeless who underwent psychiatric examinations , I suggest you conduct your own survey .
+
+Choose 203 business executives , including , perhaps , someone from your own staff , and put them out on the streets , to be deprived for one month of their homes , families and income .
+
+That sounds neat , but this government -- any government -- propagandizes its own people every day .
+
+Government press releases , speeches , briefings , tours of military facilities , publications are all propaganda of sorts .
+
+You have ... raised important questions which ought to be answered : ? ''
+
+What does USIA say about America abroad
+
+In the interview at headquarters yesterday afternoon , both men exuded confidence and seemed to work well together .
+
+`` You 've got two champions sitting right before you , '' said Mr. Baum .
+
+Publishing officials believe that while Random House has enjoyed spectacular growth and has smoothly integrated many acquisitions in recent years , some of the bigger ones have n't been absorbed so easily .
+
+Crown Publishing Group , acquired last year , is said to be turning in disappointing results .
+
+Speculation on his successor centers on a number of division heads at the house .
+
+Possible candidates include Susan Petersen , president of Ballantine\/Del Rey\/Fawcett , Random House 's huge and successful paperback division .
+
+President Reagan learned that lesson .
+
+By 1987 , then-Speaker Jim Wright was discussing arms control in Moscow with Mikhail Gorbachev and then attempting to direct the president , through an appropriations rider , to treat the Soviets as though the Senate had ratified SALT II .
+
+An attempted buy-out led by John J. McCabe , chief operating officer , never materialized , and a stream of what one staff member dismissed as `` tire-kickers and lookee-loos '' had filed through since .
+
+The prospective buyers included investor Marvin Davis and the Toronto Sun .
+
+Further , the Herald seemed torn editorially between keeping its old-time Hearst readership -- blue-collar and sports-oriented -- and trying to provide a sprightly , upscale alternative to the sometimes staid Times .
+
+Hearst had flirted with a conversion to tabloid format for years but never executed the plan .
+
+Many felt Hearst kept the paper alive as long as it did , if marginally , because of its place in family history .
+
+Its fanciful offices were designed by architect Julia Morgan , who built the Hearst castle at San Simeon .
+
+Financially , it never recovered ; editorially , it had its moments .
+
+In 1979 , Hearst hired editor James Bellows , who brightened the editorial product considerably .
+
+The reaction in the newsroom was emotional .
+
+`` I 've never seen so many people crying in one place at one time , '' said Bill Johnson , an assistant city editor .
+
+The Old Guard 's assault on program trading and its practitioners has been fierce and broad-based , in part because some Old Guard members feel their very livelihood is at stake .
+
+Some , such as traditional money manager Neuberger & Berman , have taken out national newspaper advertisements demanding that market regulators `` stop the numbers racket on Wall Street . ''
+
+Even some members of the Old Guard , despite their current advantage , seem to be conceding that the future belongs with the New Guard .
+
+Last week , Robert M. Bradley , one of the Big Board 's most respected floor traders and head of a major traders ' organization , surrendered .
+
+The battle has turned into a civil war at some firms and organizations , causing internal contradictions and pitting employee against employee .
+
+At Kidder , a unit of General Electric Co. , and other big brokerage firms , stockbrokers battle their own firm 's program traders a few floors away .
+
+The program traders , on the other hand , portray old-fashioned stock pickers as the Neanderthals of the industry .
+
+Critics like Mr. Murray `` are looking for witches , and people who use computers to trade are a convenient boogieman , '' says J. Thomas Allen , president of Advanced Investment Management Inc. , a Pittsburgh firm that runs a $ 200 million fund that uses index arbitrage .
+
+But many experts and traders say that program trading is n't the main reason for stock-market gyrations .
+
+`` I have not seen one iota of evidence '' to support restrictions on program trading , says a Vanderbilt University finance professor , Hans Stoll , an authority on the subject .
+
+Susan Del Signore , head trader at Travelers Investment Management Co. , says critics are ignoring `` the role the -LCB- takeover stock -RCB- speculator is taking in the market as a source of volatility . ''
+
+Many arbs are `` overleveraged , '' she says , and they `` have to sell when things look like they fall apart . ''
+
+Stockbrokers ' business and pay has been falling .
+
+Last year , the average broker earned $ 71,309 , 24 % lower than in 1987 .
+
+Index traders who buy all 500 stocks in the S&P 500 often do n't even know what the companies they own actually do , complains Andrew Sigler , chairman of Champion International Corp .
+
+`` Do you make sweatshirts or sparkplugs ?
+
+Oh , you 're in the paper business , '' is one reaction Mr. Sigler says he 's gotten from his big institutional shareholders .
+
+The anti-programmers are getting some helpful thunder from Congress .
+
+Program traders ' `` power to create total panic is so great that they ca n't be allowed to have their way , '' says Rep. Edward Markey , a Massachusetts Democrat .
+
+Another proposed reform is to have program traders answer to an `` uptick rule '' a reform instituted after the Great Crash of 1929 that protects against stocks being relentlessly beaten downward by those seeking to profit from lower prices , namely short sellers .
+
+The Big Board 's uptick rule prevents the short sale of a stock when the stock is falling in price .
+
+Arbitrage does n't cause volatility ; it responds to it .
+
+Think about what causes the difference in prices between the two markets for S&P 500 stocks -- usually it is large investors initiating a buy or sell in Chicago .
+
+In point of fact , volatility as measured by the annualized standard deviation of daily stock price movements has frequently been much higher than it is today .
+
+Periods before the advent of futures or program trading were often more volatile , usually when fundamental market conditions were undergoing change -LRB- 1973-75 , 1937-40 , and 1928-33 for example -RRB- .
+
+Some of the proposed fixes for what is labeled `` program-trading volatility '' could be far worse than the perceived problem .
+
+In using program trading as a whipping boy , fundamentalist investors stand to gain the high ground in wooing small investors for their existing stock-selection products .
+
+They may , however , risk bringing some damaging interference from outside the markets themselves .
+
+They may , however , risk bringing some damaging interference from outside the markets themselves .
+
+How does a nice new tax , say 5 % , on any financial transaction sound ?
+
+Ballot watchers say attention already is focused on the 1990 elections .
+
+In California , two petition drives for next year 's election are `` essentially finished , '' says David Schmidt , author of `` Citizen Lawmakers . ''
+
+Price records are being set at auctions this week .
+
+At Christie 's , a folio of 21 prints from Alfred Stieglitz 's `` Equivalents '' series sold for $ 396,000 , a single-lot record .
+
+`` I 'm starting to see more business transactions , '' says Andrea West of American Telephone & Telegraph Co. , noting growing interest in use of 900 service for stock sales , software tutorials and even service contracts .
+
+Colleges , she says , are eyeing registration through 900 service .
+
+The National Association of Diaper Services , Philadelphia , says that since January it has gotten more than 672 inquiries from people interested in starting diaper services .
+
+Elisa Hollis launched a diaper service last year because State College , Pa. , where she lives , did n't have one .
+
+At the Charles Schwab & Co. office in Atlanta 's Buckhead district , a group of investors voices skepticism that federal officials would curb program trading .
+
+Citing the October 1987 crash , Glenn Miller says , `` It 's like the last crash -- they threatened , but no one did anything . ''
+
+Lucille Gorman , an 84-year-old Chicago housewife , has become amazingly immune to stock-market jolts .
+
+Mrs. Gorman took advantage of low prices after the 1987 crash to buy stocks and has hunted for other bargains since the Oct. 13 plunge .
+
+Voters generally agree when they are given a chance to decide if they want to sink their own tax dollars into a new mega-stadium .
+
+San Francisco voters rejected a new ballpark two years ago .
+
+But civilization has moved forward since then .
+
+Today taxpayers get to vote , most of the time , on whether they want to finance the building schemes of our modern political pharaohs , or let private money erect these playgrounds for public passions .
+
+The problem here goes well beyond twisting legal doctrine .
+
+The California Supreme Court last year reversed direction to make it much harder to win DES cases because the justices saw how all the pharmaceutical litigation has chilled the introduction of new drugs .
+
+DES daughters and other victims of drugs would be better off if their cases were taken out of the courts .
+
+Congress could create a compensation program to help such victims while protecting the national interest in encouraging new drugs .
+
+The committee 's members are worried what all this free food might do to the economic prospects of Poland 's own farmers .
+
+Rep. Gary Ackerman noted that past food aid had harmed farmers in El Salvador and Egypt .
+
+Drug companies in the key index also notched gains as market-makers searched for stock in anticipation of demand due to the sector 's defensive qualities .
+
+Wellcome gained 18 to 666 on a modest 1.1 million shares .
+
+Meanwhile , Treasury bonds ended modestly higher in quiet trading .
+
+The benchmark 30-year bond about 1\/4 point , or $ 2.50 for each $ 1,000 face amount .
+
+Several moves were taken following the October 1987 crash to coordinate -- and sometimes deliberately disconnect -- the stock and futures markets in times of heightened volatility .
+
+On the Big Board , a `` side car '' is put into effect when the S&P futures rise or fall 12 points .
+
+Above all , Mr. Oxnard noted , the situation is extremely confused .
+
+`` Professional sugar people here who have strong contacts with the Brazilian sugar industry have been unable to confirm the reports or get enough information to clarify the situation , '' he said .
+
+Mexico , which is normally a sugar exporter , has had production problems in the past two years , analysts said .
+
+Last year , it had to buy sugar on the world market to meet export commitments , they noted .
+
+Petroleum futures were generally higher with heating oil leading the way .
+
+On the New York Mercantile Exchange , heating oil for December delivery increased 1.25 cents to settle at 60.36 cents a gallon .
+
+But the strength in heating oil helped push up crude oil .
+
+West Texas Intermediate crude for December delivery rose 13 cents a barrel to settle at $ 20.07 .
+
+Continued export demand also supported prices .
+
+As an indicator of the tight grain supply situation in the U.S. , market analysts said that late Tuesday the Chinese government , which often buys U.S. grains in quantity , turned instead to Britain to buy 500,000 metric tons of wheat .
+
+Futures prices rose , extending Tuesday 's gains .
+
+The December contract advanced 2.50 cents a pound to $ 1.1650 .
+
+But some analysts questioned how much of an impact the retirement package will have , because few jobs will end up being eliminated .
+
+`` It 's a cosmetic move , '' said Jonathan S. Gelles of Wertheim Schroder & Co .
+
+Some analysts are worried that reports of the grain industry 's problems might spark investors to begin buying corn futures contracts -- only to see little appreciation .
+
+`` The public is buying the market when in reality there is plenty of grain to be shipped , '' said Bill Biedermann , Allendale Inc. research director .
+
+ENERGY : Crude oil futures prices increased in moderate trading , but much of the action was in heating oil .
+
+Prices rose on the news that a sizable West German refinery was damaged in a fire , tightening an already tight European market .
+
+PRECIOUS METALS : Futures prices eased as increased stability and strength came into the securities markets .
+
+December delivery gold fell $ 3.20 an ounce to $ 377.60 .
+
+COPPER : Futures prices partially recovered Monday 's declines because Chilean miners voted to strike .
+
+The December contract rose 1.20 cents a pound to $ 1.14 .
+
+The analyst noted that also inherent in all metal markets was a sympathetic reaction to stocks .
+
+In the case of copper , he said , the upbeat mood of stocks was reflected in demand for futures contracts because a stronger economy means greater buying interest for the metal .
+
+Among segments that continue to operate , though , the company 's steel division continued to suffer from soft demand for its tubular goods serving the oil industry and other markets .
+
+Peter Marcus , an analyst with PaineWebber Inc. , said that a downturn in the appliance industry , coupled with sluggish automotive sales , hurt USX results .
+
+The energy segment , with a 15 % rise in operating profit , is clearly the company 's strongest .
+
+Higher crude oil prices helped boost operating profit for the Marathon Oil Co. unit to $ 198 million from $ 180 million .
+
+Solo woodwind players have to be creative if they want to work a lot , because their repertoire and audience appeal are limited .
+
+The oboist Heinz Holliger has taken a hard line about the problem : He commissions and splendidly interprets fearsome contemporary scores and does some conducting , so he does n't have to play the same Mozart and Strauss concertos over and over again .
+
+He believes in what he plays , and he plays superbly .
+
+His recent appearance at the Metropolitan Museum , dubbed `` A Musical Odyssey , '' was a case in point .
+
+What 's next ?
+
+Slides to illustrate Shostakovich quartets ?
+
+UNESCO somehow converted the founding U.N. ideals of individual rights and liberty into `` peoples ' rights . ''
+
+Million-dollar conferences were held to chew on subjects such as `` ethical responsibilities of scientists in support of disarmament '' and `` the impact of the activities of transnational corporations . ''
+
+The agency was so totally subverted from the high principles of its founding that even the Soviets now wonder about an agency that seemed so congenial to them .
+
+Glasnost may be partly responsible , but Soviet Foreign Minister Eduard Shevardnadze last year admitted , `` The exaggerated ideological approach undermined tolerance intrinsic to UNESCO . ''
+
+In recent years , demand for hybrid seeds has spurred research at a number of chemical and biotechnology companies , including Monsanto Co. , Shell Oil Co. and Eli Lilly & Co .
+
+One technique developed by some of these companies involves a chemical spray supposed to kill only a plant 's pollen .
+
+It 's one more , too , for the fans who dream of a season that never ends .
+
+`` I feel like a little kid , '' says a gleeful Alex de Castro , a car salesman , who has stopped by a workout of the Suns to slip six Campaneris cards to the Great Man Himself to be autographed .
+
+But the ballplayers disagree .
+
+Most are trim .
+
+And there 's pride .
+
+`` I 'm not going to look stupid , '' vows former Pittsburgh Pirate second baseman Rennie Stennett , sweat dotting his brow as he prepares for some practice swings .
+
+So he adjusts .
+
+He no longer crowds the plate .
+
+Both General Motors Corp. and Ford Motor Co. have been trying to amass 15 % stakes in Jaguar .
+
+Ford , which already has an unwelcome 13.2 % holding , is prepared to bid for the entire company and had lobbied the government to lift the takeover restrictions early .
+
+The gains also sparked buying interest in other real-estate companies , traders said .
+
+Sumitomo Realty & Development rose 40 to 2170 .
+
+The CD trend runs counter to the direction of short-term interest rates at the Treasury bill auction Monday .
+
+The average six-month bill was sold with a yield of 8.04 % , up from 7.90 % .
+
+Most yields on short-term jumbo CDs , those with denominations over $ 90,000 , also moved in the opposite direction of Treasury bill yields .
+
+The average six-month yield on a jumbo CD was at 7.90 % , down from 7.93 % , Banxquote said .
+
+For longer-term CDs , yields were up .
+
+The average two-year and five-year jumbos were up 0.02 of a percentage point to 7.91 % and 7.96 % , respectively .
+
+Differences between the Treasury and the Federal Reserve on the usefulness of intervention to help restrain the dollar resurfaced at the hearing .
+
+Fed Vice Chairman Manuel Johnson , who had dissented from the Treasury 's policy , told lawmakers , `` I became convinced about what looked to me like an attempt to push the dollar down against the fundamentals in the market . ''
+
+Defining combat aircraft is even tougher .
+
+The Soviets insisted that aircraft be brought into the talks , then argued for exempting some 4,000 Russian planes because they are `` solely defensive . ''
+
+The agreement ended a long impasse between the congressional leaders and the White House over the wage issue .
+
+President Bush in June vetoed a measure passed by Congress and said he would n't accept any minimum-wage rise that went beyond limits he set early in this year 's debate on the issue .
+
+Some Democrats thought they might have compromised too much .
+
+Rep. Austin Murphy -LRB- D. , Pa. -RRB- , chairman of the House labor standards subcommittee , said they might have done better `` if we 'd held their feet to the fire . ''
+
+The result last spring was the arrest by West German authorities of five young West Germans , accused of stealing information from computers in the U.S. and Europe and selling it to the Soviet KGB .
+
+One of them , 25-year-old Markus Hess of Hannover , allegedly used the international telecommunications network to break into more than 30 high-security computers in the U.S. , searching for secrets .
+
+Finding him became an obsession for Mr. Stoll .
+
+He made a midnight requisition of all the printers he could lay hands on so that he could monitor all the telephone lines coming into the lab 's computers .
+
+The hacker was pawing over the Berkeley files but also using Berkeley and other easily accessible computers as stepping stones to the network of computers used by the military and national security agencies .
+
+The White Sands missile range and CIA contractor Mitre Inc. were among the targets .
+
+The FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .
+
+The CIA told him it does not do domestic counterespionage .
+
+Some of the allegations are simply bizarre .
+
+Two former secretaries told the grand jury they were summoned to the judge 's chambers on separate occasions to take dictation , only to find the judge in his bikini underwear .
+
+`` He 's sharp as a tack .
+
+He could grasp an issue with the blink of an eye . ''
+
+The judge was considered imperious , abrasive and ambitious , those who practiced before him say .
+
+He sipped tea sweetened with honey from his high-backed leather chair at his bench , while scribbling notes ordering spectators to stop whispering or to take off their hats in his courtroom .
+
+Even his routine business transactions caused trouble , according to the grand jury report .
+
+When the judge bought his new Sunbird from James E. Black Pontiac-Cadillac in Ebensburg five years ago , the dealership had `` certain apprehensions '' about the judge 's reputation , according to the grand-jury report .
+
+The dealership took the extra step of having all the paper work for the transaction pre-approved by Ebensburg 's local lender , Laurel Bank .
+
+Then , as an additional precaution , the car dealership took the judge 's photograph as he stood next to his new car with sales papers in hand -- proof that he had received the loan documents .
+
+But when the judge received his payment book , he disavowed the deal .
+
+`` There was no loan , there is no loan , there never shall be a loan , '' the judge wrote the bank on his judicial stationery , according to the report .
+
+The judge says he is confident he will return to his old bench .
+
+Already , he notes , the 76 charges originally filed against him have been trimmed to 27 .
+
+Evidence of the growing Japanese demand for mortgage securities abounds .
+
+Earlier this year , Blackstone Group , a New York investment bank , had no trouble selling out a special $ 570 million mortgage-securities trust it created for Japanese investors .
+
+Institutional investors that must evaluate poison pills on a regular basis are interested less in this general debate than in the answers to specific questions about the corporation issuing the pill .
+
+Does this corporation have a high-quality management team with a good track record ?
+
+The solution to this problem is a time-limited poison pill .
+
+The limit could range from three years to seven years , depending on the composition of the management team and the nature of its strategic plan .
+
+Officials of Rockefeller Group and Mitsubishi Estate prefer to focus on the affinities , nearly dismissing the threat of a backlash from the U.S. public .
+
+`` We think there will be positive as well as negative reactions , '' says Raymond Pettit , senior vice president and chief financial officer of Rockefeller Group .
+
+Rockefeller may well have found its match in Mitsubishi Estate , a company of long history , strong government ties and sound resources .
+
+In asset terms , Mitsubishi Estate is the largest real estate firm in Japan .
+
+Meanwhile , at home , Mitsubishi has control of some major projects .
+
+It is the largest private-sector landowner of the Minato-Mirai 21 project , a multibillion-yen development in the port city of Yokohama , about an hour outside Tokyo .
+
+But at a time of mounting concern over alcohol abuse , some liquor marketers consider Seagram 's frequent buyer promotion risky .
+
+`` I 'm surprised they 're doing this , '' says Penn Kavanagh , president of Schieffelin & Somerset Co. , which markets Johnnie Walker scotches .
+
+Others question the impact on Chivas 's upscale image of a promotion that has customers soaking off labels .
+
+`` It 's really bizarre , '' says Albert Lerman , creative director at the Wells Rich Greene ad agency .
+
+Chivas Class is n't the first such promotion .
+
+Last year , J&B Scotch offered 500 TWA frequent flier miles in exchange for a label .
+
+FOR YEARS , costume jewelry makers fought a losing battle .
+
+Jewelry displays in department stores were often cluttered and uninspired .
+
+But there are limits .
+
+Ms. Renk says retailers nixed a promotion for pins with animal motifs .
+
+The company focuses on the how-to aspects , says Andrew E. Philip , president .
+
+Trifari now trains sales help to advise customers on the best earring styles .
+
+Their legacy lives on .
+
+It is still common to read in the press that the church has 10,000 or more full-time American members and 25,000 `` associates . ''
+
+Mr. Moon 's two English-language U.S. newspapers illustrate the scope of this financial drain .
+
+Start-up costs for the Washington Times alone were close to $ 50 million , and the total amount lost in this journalistic black hole was estimated at $ 150 million by 1984 .
+
+In 1988 , a year and a half after Mrs. Marcos and her late husband , Ferdinand Marcos , the ousted president of the Philippines , fled the Philippines for Hawaii , they were charged with racketeering , conspiracy , obstruction of justice and mail fraud in a scheme in which they allegedly embezzled more than $ 100 million from their homeland .
+
+Much of the money was fraudulently concealed through purchases of prime Manhattan real estate , federal prosecutors have charged .
+
+The judge also said the two marital testimonial privileges cited by Mrs. Marcos do n't apply .
+
+The first one permits a witness to refuse to testify against her spouse .
+
+But Judge Keenan said that privilege 's purpose is `` fostering harmony in marriage . ''
+
+Because Mr. Marcos died Sept. 28 , the privilege can no longer apply , the judge said .
+
+At that time , tasks were assigned strictly on the basis of seniority .
+
+`` The oldest designer got to work on the dashboard , '' she recalls .
+
+Some town-watching excursions were downright comic .
+
+One group of middle-aged manufacturing men from the company 's Zama plant outside Tokyo was supposed to check out a trendy restaurant in the city .
+
+Other trips were more productive .
+
+Mr. Kume himself visited Honda 's headquarters in Tokyo 's upscale Aoyama district .
+
+Despite the pain of adjusting , the cultural revolution has begun to yield exciting cars .
+
+A year ago , the company completely revamped its near-luxury sedan , the $ 17,699 Maxima , which competes against a broad range of upscale sedans ; it replaced its boxy , pug-nosed body with sleek , aerodynamic lines .
+
+Nissan helped develop a Tokyo restaurant with both vehicles as its design theme .
+
+The chairs are S-Cargo seats , and a gift shop sells such items as alarm clocks styled like the Pao 's oversized speedometer .
+
+The big reason : For all its cost-cutting , Nissan remains less efficient than Toyota .
+
+In its last fiscal year , Nissan 's profit represented just 2.3 % of sales , compared with 4.3 % at Toyota .
+
+There may be a few cases where the law breaking is well pinpointed and so completely non-invasive of the rights of others that it is difficult to criticize it .
+
+The case of Rosa Parks , the black woman who refused to sit at the back of the bus , comes to mind as an illustration .
+
+Yet he took little businesslike care with his cattle
+
+He had no prior experience and did n't seek business counsel about them
+
+Mr. Spielvogel said Mr. Achenbaum will work with clients to determine the mix of promotion , merchandising , publicity and other marketing outlets , and to integrate those services .
+
+He will concentrate on , among others , J.P. Morgan and Hyundai .
+
+On similarities between China and the Soviet Union : `` In important particulars , the Soviets are different from the Chinese .
+
+They are already industrialized ... .
+
+The devices ' most remarkable possibilities , though , involve the brain .
+
+Probing with the stimulators , National Institutes of Health scientists recently showed how the brain reorganizes motor-control resources after an amputation .
+
+Scientists also are exploring memory and perception with the new machines .
+
+At the State University of New York at Brooklyn , researchers flash two groups of different letters on a computer screen in front of human guinea pigs .
+
+But the two countries remain separated by a cultural barrier wider than the ocean .
+
+Conservative Japanese investors are put off by what they consider Mexico 's restrictive investment regulations and loose work habits .
+
+Mexican officials maintain the Japanese reserve is only a result of unfamiliarity .
+
+`` Because of distance , it takes a while for them to appreciate the economic stability we 've achieved , '' says one economic policymaker .
+
+These complex products require close monitoring because each must be valued separately in light of current market conditions .
+
+In an interest-rate options contract , a client pays a fee to a bank for custom-tailored protection against adverse interest-rate swings for a specified period .
+
+Started three years ago , Chemical 's interest-rate options group was a leading force in the field .
+
+From 1987 to 1988 , the value of Chemical 's option contracts outstanding mushroomed to $ 37 billion from $ 17 billion .
+
+Five years of rapid expansion under American Brands , with an emphasis on marketing the agency 's services instead of improving them , had hurt Pinkerton 's profits , Mr. Wathen claims .
+
+He says his team could n't tell whether accounts receivable had been paid or not .
+
+And regional offices were `` egregiously overstaffed , '' he claims .
+
+One office had 19 people doing the work of three , `` and half of the employees had company automobiles . ''
+
+But the higher mortgage ceiling is only the starter kit for what Senator Alan Cranston and Majority Leader George Mitchell have in mind for housing .
+
+The Senate Banking Committee will begin hearings next week on their proposal to expand existing federal housing programs .
+
+More and more observers now realize that the key to ending future HUD scandals lies in forcing Congress to clean up its own act .
+
+This week , a Baltimore Sun editorial said the Lantos subcommittee on HUD should forget about Sam Pierce 's testimony for the moment and call some other witnesses : the various congressional sponsors of the 40 pork-barrel projects .
+
+Corporate leaders , frustrated by double-digit increases in health-care costs , are beginning to sound like liberal Democrats .
+
+Failure to check rising medical costs ultimately could `` lead some of us who today are free-market advocates to re-examine our thinking and positions with respect to government-sponsored national health insurance , '' Arthur Puccini , a General Electric Co. vice president , warned earlier this year .
+
+But there are signs that labor-management cooperation could change the politics of health-care legislation and the economics of medicine .
+
+`` I ca n't remember a time when virtually everyone can agree on what the problem is , '' says Mr. Seidman , who heads the AFL-CIO 's department dealing with health matters .
+
+`` It 's a bottom-line issue . ''
+
+Business complained earlier this year when Sen. Kennedy introduced a bill that would require employers to provide a minimum level of health insurance to workers but does n't contain cost-control measures .
+
+Labor is upset because many companies are using higher employee insurance premiums , deductibles and co-payments to deflect surging medical costs to workers .
+
+Health benefits are contentious issues in the strikes against Pittston Co. and Nynex Corp .
+
+Some analysts are cynical about the new corporate interest in health-care overhaul .
+
+Carl Schramm , president of the Health Insurance Association of America , scoffs at `` capitalists who want to socialize the entire financing system '' for health .
+
+Georgia-Pacific 's Mr. Hahn said that a combined operation would allow savings in many ways .
+
+The two companies each produce market pulp , containerboard and white paper .
+
+Investors were quick to spot other potential takeover candidates , all of which have strong cash flows and low-cost operations .
+
+Among paper company stocks that rallied on the Big Board because of the offer were Union Camp , up $ 2.75 to $ 37.75 , Federal Paperboard , up $ 1.75 to $ 27.875 , Mead , up $ 2.375 to $ 38.75 , and Temple Inland Inc. , up $ 3.75 to $ 62.25 .
+
+The new data underscored the severity of the nation 's health-care cost problem .
+
+In the 12 months ended in September , wages and salaries of private-sector workers rose 4.4 % , while health insurance costs spurted by 13.7 % .
+
+Bond prices rose .
+
+The Treasury 's benchmark 30-year bond gained less than a quarter of a point , or less than $ 2.50 for each $ 1,000 of face amount .
+
+But some anti-smoking activists disagree , expressing anger at what they see as the company 's attempt to purchase innocence by association .
+
+`` I 'm outraged because this company is portraying itself at the heart of American culture and political freedom and in fact it 's a killer , '' says Michael Pertschuk , former chairman of the Federal Trade Commission and a tobacco-industry critic .
+
+Nasdaq 's gain was led by its biggest industrial stocks .
+
+The Nasdaq 100 rose 7.08 to 445.23 .
+
+Many of Nasdaq 's biggest technology stocks were in the forefront of the rally .
+
+Microsoft added 2 1\/8 to 81 3\/4 and Oracle Systems rose 1 1\/2 to 23 1\/4 .
+
+While computer stocks have taken the biggest hit from the slowdown in the industry , many software and semiconductor stocks have continued to outperform the market .
+
+Microsoft is up more than 50 % this year , while Intel is up more than 40 % .
+
+Senior members of the House Budget Committee are reduced in frustration to raising doomed parliamentary obstacles to individual bills , yet admit that much of the disorder now stems from the fiscal legerdemain associated with their own summit agreement with the White House this past spring .
+
+`` It 's hard to get the administration 's attention on anything , '' said Rep. Bill Frenzel -LRB- R. , Minn. -RRB- , `` because the whole agreement was built on gimmickry . ''
+
+The same jealousy can breed confusion , however , in the absence of any authorization bill this year .
+
+House and Senate appropriators sought to establish a Nov. 30 deadline after which their bill would become the last word on how funds are distributed .
+
+But on a 53-45 roll call this provision was stripped from the bill last night after Foreign Relations Chairman Claiborne Pell -LRB- D. , R.I . -RRB- complained that it was an intrusion on exclusive powers vested in his panel for more than three decades .
+
+Since the value of its assets was n't known , analysts were free to pick a number .
+
+In one of many rosy scenarios , Bear Stearns 's Gary Schneider wrote in March that its real estate alone had a value of $ 4.5 billion .
+
+Some analysts remain bullish .
+
+Mr. Schneider of Bear Stearns says he is recalculating the worth of the company 's assets and , in the meantime , is sticking to his `` buy '' recommendation on the belief that he will find `` values '' of 30 a share .
+
+`` A couple of things Mr. Newsom said were at least misleading , '' said Kevin O'Connell , one of the Washington regulators responsible for the handling of Lincoln .
+
+In an interview , he said federal regulators eventually declared one of the loans the state regulator cited to be a total loss , and forced Lincoln to make an $ 18 million downward adjustment on another .
+
+Gene-splicing now is an integral part of the drug business .
+
+Genentech 's 1988 sales were $ 335 million , both from licensing and its own products .
+
+Some 1,111 Big Board issues advanced in price and only 448 declined , while broader market averages rose sharply .
+
+Standard & Poor 's 500-Stock Index climbed 5.29 to 340.36 , the Dow Jones Equity Market Index added 4.70 to 318.79 and the New York Stock Exchange Composite Index climbed 2.65 to
+
+The theme of industry consolidation had surfaced earlier this year among drug stocks , which posted solid gains in the latest session .
+
+Pfizer gained 1 7\/8 to 67 5\/8 , Schering-Plough added 2 1\/4 to 75 3\/4 , Eli Lilly rose 1 3\/8 to 62 1\/8 and Upjohn firmed 3\/4 to 38 .
+
+Exchange officials emphasized that the Big Board is considering a variety of actions to deal with program trading .
+
+People familiar with the exchange said another idea likely to be approved is expanding the monthly reports on program trading to cover specific days or even hours of heavy program trading and who was doing it .
+
+For example , in a special meeting Monday with Mr. Phelan , senior officials of some of the Big Board 's 49 stock specialist firms complained that the exchange is no longer representing their interests .
+
+`` We are looking for representation we have n't had , '' a specialist said .
+
+`` A lot of people would like to go back to 1970 , '' before program trading , he said .
+
+`` I would like to go back to 1970 .
+
+Stock prices rallied as the Georgia-Pacific bid broke the market 's recent gloom .
+
+The Dow Jones industrials finished up 41.60 , at 2645.08 .
+
+By the end of the day , bond prices were mixed .
+
+The benchmark 30-year bond was nearly 1\/4 point higher , or up about $ 2.50 for each $ 1,000 face amount .
+
+One reason for his gloom is a weekly tally he keeps of stocks within a point of hitting new highs or lows .
+
+Last Friday , 96 stocks on the Big Board hit new 12-month lows .
+
+Crises larger and more dangerous to the quality of life than they were 10 years ago .
+
+If you are doubtful , consider for a moment that the Pomton Lakes Reservoirs in northern New Jersey , which supply the tristate area with drinking water , are riddled with toxic PCBs .
+
+By concentrating all their resources on the pay raise , Wright and Tower , the networks actually overlooked some major stories that showed the flaws and shortcomings of the institution ... .
+
+An imaginative producer could easily have created a fast-moving and interesting piece about how Congress really works -- and why voters in , say , West Virginia got a federally funded university project and building while voters in Arkansas did not .
+
+`` We had a lot of problems , '' Mr. Sinyard says .
+
+While the company 's sales were soaring , `` We still had a system that was probably appropriate for $ 10 million to $ 20 million in sales . ''
+
+Hoping to stay ahead of the pack , the company is emphasizing innovation .
+
+At a recent trade show , convention-goers lined up to view a new Specialized bike frame that weighs just 2.7 pounds -- a pound less than the lightest mountain-bike frame on the market .
+
+Competition in the sale of complete bikes is heating up too .
+
+Trek Bicycle Corp. , which accounts for one-quarter of the $ 400 million in annual sales at its Milwaukee-based parent , Intrepid Corp. , entered the mountain-bike business in 1983 .
+
+The announcement fueled speculation for future advances in the shares .
+
+Tokyu Department Store advanced 260 to 2410 .
+
+Short-term interest rates rose at the government 's regular weekly Treasury-bill auction .
+
+The average discount rate on three-month bills was 7.78 % and the rate on six-month bills was 7.62 % .
+
+British government bonds ended moderately higher , encouraged by a steadier pound and a rise in British stocks .
+
+The benchmark 11 3\/4 % bond due 2003\/2007 rose 10\/32 to 111 14\/32 to yield 10.14 % , while the Treasury 's 12 % notes due 1995 rose 7\/32 to 103 5\/8 to yield 11.04 % .
+
+West German government bonds fell as much as 0.60 point in light , nervous trading .
+
+The 7 % Treasury bond due October 1999 ended off 0.60 point to 99.35 to yield 7.09 % , while the 6 3\/4 % notes due 1994 fell 0.35 point to 97.25 to yield 7.45 % .
+
+Japanese government bonds continued to erode as the dollar remained resilient against the yen .
+
+Japan 's No. 111 4.6 % bond due 1998 ended the day on brokers screens at 95.11 to yield 5.43 % .
+
+During the past five years , Japanese concerns have invested in several of the U.S. 's 431 independent biotechnology companies .
+
+Chugai has been one of the most active Japanese players in U.S. biotechnology companies ; it has an equity investment in Genetics Institute Inc. , Cambridge , Mass. , and a joint-venture agreement with Upjohn Co. , Kalamazoo , Mich .
+
+Chugai has been one of the most active Japanese players in U.S. biotechnology companies
+
+it has an equity investment in Genetics Institute Inc. , Cambridge , Mass. , and a joint-venture agreement with Upjohn Co. , Kalamazoo , Mich
+
+But `` the Soviet Union has areas where it is n't behind Japan , '' says Mikhail Shapovalov of the Soviet Ministry of Foreign Economic Relations .
+
+`` We have obtained through the development of Cosmos -LCB- the Soviet space program -RCB- technologies you do n't see anywhere else . ''
+
+And , despite its image as a technology superpower , Japan has a lot of weaknesses .
+
+It 's a world leader in semiconductors , but behind the U.S. in making the computers that use those chips .
+
+One question being debated in the Soviet Union is how to use the defense sector 's research-and-production expertise in the rest of the economy .
+
+Many plants that used to make military equipment are now being ordered to produce televisions , videocassette recorders , small tractors and food-processing machinery .
+
+By contrast , the Japanese have proved adept at making use of Soviet inventions .
+
+Kobe Steel Ltd. adopted Soviet casting technology in 1966 and used it for 14 years until it developed its own system .
+
+Soviet efforts to sell their technology abroad do n't appear to worry the U.S. , Japan 's principal ally .
+
+`` We have never opposed the development of economic relations between our allies and the Soviet Union , '' says a State Department official .
+
+Ray Garrett Jr. , SEC chairman , said the `` breadth and depth of the discounting is more than I expected . ''
+
+Even a federal measure in June allowing houses to add research fees to their commissions did n't stop it .
+
+Foreign stock markets , with which the U.S. is entwined , also have ended fixed commissions in recent years .
+
+It came in London 's `` Big Bang '' 1986 deregulation ; and Toronto 's `` Little Bang '' the same year .
+
+But record industry executives familiar with the talks said Mr. Azoff and Warner came to an agreement yesterday to form a 50-50 joint-venture company funded by Warner and run by Mr. Azoff .
+
+Among other things , they said , Mr. Azoff would develop musical acts for a new record label .
+
+The fitness craze itself has gone soft , the survey found .
+
+Fewer people said they were working up a sweat with such activities as jogging , tennis , swimming and aerobics .
+
+Half of those surveyed said they simply walk these days for exercise .
+
+Mr. Doyle predicts a trend toward fewer pieces of home exercise equipment being sold at higher prices .
+
+Electronic gimmicks are key .
+
+The poll points up some inconsistencies between what people say and what they do .
+
+A surprising 78 % of people said they exercise regularly , up from 73 % in 1981 .
+
+Only walking and golf increased in popularity during the 1980s -- and only slightly .
+
+Jeanette Traverso , a California lawyer , gave up running three times a week to play a weekly round of golf , finding it more social and serene .
+
+Most people said they exercise both for health and enjoyment .
+
+`` If you sit down all the time , you 'll go stiff , '' says Joyce Hagood , a Roxboro , N.C. , homemaker who walks several miles a week .
+
+`` And it 's relaxing .
+
+Sometimes , if you have a headache , you can go out and walk it right off . ''
+
+`` They 're too crowded , and everybody 's showing off , '' says Joel Bryant , a 22-year-old student from Pasadena , Calif .
+
+`` The guys are being macho , and the girls are walking around in little things .
+
+There are die-hard bodies , of course .
+
+The proprietor of Sante West , an aerobics studio in San Francisco 's Marina district , which was hit hard by the earthquake , says , `` People were going nuts the minute we opened , '' three days after the quake .
+
+Tales of haunts and horrors are proliferating beyond the nation 's Elm Streets and Amityvilles .
+
+`` I get calls nearly every day from people who have ghosts in their house , '' says Raymond Hyman , a skeptical psychology professor at the University of Oregon .
+
+On a recent afternoon , Mr. Baker and a reporter go ghost-busting , visiting Kathleen Stinnett , a Lexington woman who has phoned the University of Kentucky to report mysterious happenings in her house .
+
+Mrs. Stinnett says she never believed in ghosts before , but lately her vacuum cleaner turned itself on , a telephone flew off its stand , doors slammed inexplicably , and she heard footsteps in her empty kitchen .
+
+Mr. Baker hears her out , pokes around a bit , asks a few questions and proposes some explanations .
+
+Of the self-starting vacuum cleaner , he says : `` Could be Cuddles , -LCB- Mrs. Stinnett 's dog -RCB- . ''
+
+The flying telephone : `` You tangle the base cord around a chair leg , and the receiver does seem to fly off . ''
+
+The ghostly footsteps : `` Interstate 64 is a block away , and heavy traffic can sure set a house to vibrating . ''
+
+But sometimes more energetic attacks are required .
+
+To wrestle with a demon in a house owned by a Litchfield , Conn. , woman , the Warrens recently called in an exorcist , the Rev. Robert McKenna , a dissident clergyman who hews to the Catholic Church 's old Latin liturgy .
+
+Mr. Warren pronounces the Litchfield case `` your typical demonic infestation . ''
+
+A Scottish dwarf built the small red house 110 years ago and now his demonic ghost haunts it , Mr. Warren says .
+
+Any hiring is confined to retail sales .
+
+Illinois Company Investments had been trimming its ranks until last summer .
+
+But then it was acquired by Household International Inc .
+
+Now it offers richer commissions to lure a broker a week .
+
+CORPORATE DOWNSIZING digs deeper .
+
+Outplacement consultant Right Associates says the average pay of its clients fell to $ 66,743 last year from $ 70,765 in 1987 ; severance pay dropped to 25 weeks from 29 .
+
+Slowing economies in some areas limit student choice .
+
+Student job postings at Boston University slip 10 % this year following a 10 % drop in 1988 .
+
+The uncertainty is sending shivers through Brazilian financial markets .
+
+The dollar , the best indicator of the country 's mood , has skyrocketed on the parallel market , as has gold .
+
+Among the results is a frequent breakdown of public services .
+
+It 's not uncommon to wait three minutes for a dial tone after picking up the telephone , and then to be interrupted by a busy signal before finishing dialing the number .
+
+Mr. Conn charges that Humana 's own actions undermine its argument .
+
+When a hospital in Lexington installed a lithotripter last year , demand for a similar kidney-stone smashing machine at a Humana hospital in Louisville fell 34 % .
+
+The Humana hospital responded by jacking up prices to make up for lost revenue , Mr. Conn says , and now charges as much as $ 8,000 for the procedure , which costs only about $ 3,500 in Lexington .
+
+One trend that continues is growth in the money invested in funds .
+
+Buoyed by the continued inflows into money funds , assets of all mutual funds swelled to a record $ 953.8 billion in September , up fractionally from $ 949.3 billion in August .
+
+Letting officials express their own nuances can be educational .
+
+We note that in Rome yesterday Defense Secretary Cheney said that European euphoria over Mr. Gorbachev is starting to be tempered by a recognition of `` the magnitude of the problems he was trying to deal with . ''
+
+And the Kennedy amendment would invade not only federal but state sentencings , in two important ways .
+
+It would allow all defendants to introduce statistical evidence showing racially disproportionate application of the death penalty in the past .
+
+But if it survives , it could prompt other statutory changes , according to the Mr. Burr .
+
+It might force Congress and the states to narrow the death penalty only to convictions shown to be relatively free of racial imbalance -- murders by repeat offenders who torture their victims , perhaps .
+
+Nothing was going to hold up the long-delayed settlement of Britton vs. Thomasini .
+
+Not even an earthquake .
+
+The insurance adjusters think differently .
+
+`` I did n't know if it was World War III or what , '' says Melanie Carvain of Morristown , N.J .
+
+The overcapacity problem has intensified in recent years , with foreign auto makers beginning car and truck production in the U.S. .
+
+With companies such as Honda Motor Co. , Toyota Motor Corp. and Nissan Motor Co. running so-called transplant auto operations , Japanese auto production in the U.S. will reach one million vehicles this year .
+
+Futures prices showed modest changes in light trading volume .
+
+December delivery gold eased 40 cents an ounce to $ 380.80 .
+
+For example , while the laws on individual labor activity allow a citizen to earn a living independent of the state , strict provisions are attached on how far this may lead to the development of a free market .
+
+Before becoming self-employed , or setting up a cooperative , workers must seek permission from the local soviet -LRB- council -RRB- .
+
+Independent providers of financial information , including Quotron , have been under some pressure as the major securities houses try to regain their hold on the production of market data and on the related revenue .
+
+Shearson , Goldman , Sachs & Co. , Morgan Stanley & Co. and Salomon Inc. are discussing formation of a group to sell securities-price data .
+
+But interest instead decreased .
+
+The third game , last Friday night , drew a disappointing 17.5 rating .
+
+Trading volume on the New York Stock Exchange dwindled to only 126.6 million shares yesterday as major brokerage firms continued to throw in the towel on program trading .
+
+Kidder Peabody became the most recent firm to swear off stock-index arbitrage trading for its own account , and Merrill Lynch late yesterday took the major step of renouncing the trading strategy even for its clients .
+
+Bond prices crept higher .
+
+The Treasury 's benchmark 30-year bond gained about an eighth of a point , or about $ 1.25 for each $ 1,000 face amount .
+
+Now , the personal-computer revolution is finally reaching Japan .
+
+Kawasaki-Rikuso , a freight company , set up its own software subsidiary this year and is spending nearly a year 's profit to more than double the computer terminals at its main office .
+
+But it also offers opportunities
+
+Americans are well poised to supply the weapons
+
+After years of talking about selling in Japan , more and more U.S. companies are seriously pouring in .
+
+Apple Computer Inc. has doubled its staff here over the past year .
+
+But the Japanese have to go a long way to catch up .
+
+Typical is one office of the Ministry of International Trade and Industry 's Machinery and Information Industries Bureau -- the main bureaucracy overseeing the computer industry .
+
+`` Personal Computer '' yearbooks are lined up on nearly every desk , and dog-eared copies of Nikkei Computer crowd magazine racks .
+
+But amid the two dozen bureaucrats and secretaries sits only one real-life PC .
+
+Because the Japanese `` alphabet '' is so huge , Japan has no history of typewriter use , and so `` keyboard allergy , '' especially among older workers , remains a common affliction .
+
+`` I have no experience before with such sophisticated machinery , '' says Matsuo Toshimitsu , a 66-year-old executive vice president of Japan Air Lines , explaining his reluctance before accepting a terminal in his office this summer .
+
+That is the state of Japan 's computer industry .
+
+NEC wo n't release its code , and every one of the dozen or so makers has its own proprietary operating system -- all incompatible with each other .
+
+The result , according to many analysts , is higher prices and less innovation .
+
+While tens of thousands of software packages using the IBM standard are available in the U.S. , they say only about 8,000 are written for NEC .
+
+In the private sector , practically every major company is setting explicit goals to increase employees ' exposure to computers .
+
+Toyota Motor Corp. 's sales offices in Japan have one-tenth the computers per employee that its own U.S. offices do ; over the next five years , it is aiming for rough parity .
+
+Meanwhile , more computer makers now are competing for the new business .
+
+Seiko Epson Corp. , a newcomer to the industry , fought off a legal challenge and started selling NEC clones last year .
+
+Many of the companies are even dropping their traditional independence and trying to band together to create some sort of standard .
+
+Two years ago , most of the smaller makers joined under the Microsoft Corp. umbrella to adopt a version of the American IBM AT standard .
+
+They long made little effort here .
+
+IBM , though long a leader in the Japanese mainframe business , did n't introduce its first PC in Japan until five years after NEC did , and that was n't compatible even with the U.S. IBM standard .
+
+But the U.S. companies are redoubling their efforts .
+
+Apple recently hired its first Japanese president , luring away an official of Toshiba 's European operations , as well as a whole Japanese top-management team .
+
+Some abortion advocates have been asking themselves this very question .
+
+RU-486 `` probably represents a technical advance in an area where none is needed , or at least not very much , '' said Phillip Stubblefield , president of the National Abortion Federation , at a reproductive health conference in 1986 .
+
+In the year since the pill went on the French market , the National Organization for Women and its offshoot , former NOW President Eleanor Smeal 's Fund for a Feminist Majority , have been trying to browbeat the U.S. pharmaceutical industry into getting involved .
+
+-LRB- Its scare-tactic prediction : the pill `` will be available in the U.S. , either legally or illegally , in no more than 2-5 years . '' -RRB-
+
+Following the feminist and population-control lead has been a generally bovine press .
+
+A June 1988 article in Mother Jones magazine is typical of the general level of media ignorance .
+
+We do not know whether RU-486 will be as disastrous as some of the earlier fertility-control methods released to unblinking , uncritical cheers from educated people who should have known better .
+
+-LRB- Remember the Dalkon Shield and the early birth-control pills ? -RRB-
+
+That has n't deterred plenty of companies .
+
+Along with Nissan , Grand Metropolitan PLC 's Burger King and New York Life Insurance have tied ads to Red Cross donations .
+
+Other ads do n't bother with the fundraising
+
+a touching , if self-congratulatory , American Telephone & Telegraph ad that aired Sunday intermixed footage of the devastation in San Francisco and Charleston , S.C. , with interviews of people recounting how AT&T helped
+
+While TV commercials typically take weeks to produce , advertisers in the past couple of years have learned to turn on a dime , to crash out ads in days or even hours .
+
+The big brokerage houses learned the art of the instant commercial after the 1987 crash , when they turned out reassuring ads inviting investors right back into the stock market .
+
+The companies running the disaster ads certainly do n't see themselves as ambulance chasers , either .
+
+Burger King 's chief executive officer , Barry Gibbons , stars in ads saying that the fast-food chain will donate 25 cents to the Red Cross for every purchase of a BK Doubles hamburger .
+
+The campaign , which started last week and runs through Nov. 23 , with funds earmarked for both the quake and Hugo , `` was Barry 's idea , '' a spokeswoman says .
+
+`` Barry felt very committed .
+
+It could point to plenty of ailments that the Spanish economic rejuvenation so far has failed to cure .
+
+Unemployment still is officially recorded at 16.5 % , the highest rate in Europe , although actual joblessness may be lower .
+
+They are very considerable
+
+Since 1986 , when Spain joined the European Community , its gross domestic product has grown at an annual average of 4.6 % -- the fastest in the EC
+
+Mr. Gonzalez is not quite a closet supply-side revolutionary , however .
+
+He did not go as far as he could have in tax reductions ; indeed he combined them with increases in indirect taxes .
+
+Now he can go further .
+
+He should do more to reduce tax rates on wealth and income , in recognition of the fact that those cuts yield higher , not lower , revenues .
+
+The selling by money managers and individual investors is turning traders bearish as well .
+
+`` We are advising a lot of our clients to make moves that make sense to them , rather than waiting until the last minute , because things have been so volatile , '' said William Sulya , head of OTC trading at A.G. Edwards & Sons in St. Louis .
+
+Evidence now is emerging that the p53 suppressor gene is involved in other cancers , too .
+
+Researchers in Edinburgh , Scotland , have found that in 23 of 38 breast tumors , one copy of chromosome 17 was mutated at the spot where gene p53 lies .
+
+Some of Mr. Peladeau 's ventures , including an earlier push into the U.S. market , have n't paid off on the bottom line .
+
+Quebecor started the Philadelphia Journal , a daily tabloid , in 1977 and closed it three years later .
+
+The venture cost Quebecor $ 12 million , Mr. Peladeau says .
+
+Some former strike-force personnel say the units have already begun to break up .
+
+The Eastern District unit in Brooklyn , N.Y. , lost seven of its 15 attorneys this year partly because the lawyers were troubled by the proposed reorganization , says Laura A. Brevetti , who left the strike force to join Morrison Cohen Singer & Weinstein , a New York law firm .
+
+Some congressional leaders intend to continue to fight for independent strike forces .
+
+A spokesman for Sen. Edward M. Kennedy -LRB- D. , Mass . -RRB- says Mr. Thornburgh would be required to reinstate the units next year if an proposed omnibus crime bill is passed .
+
+Still , Boeing went through its normal verbal gymnastics and played up the downside .
+
+In a statement , Chairman Frank Shrontz asserted that the company `` faces significant challenges and risks , '' on both its commercial and government contracts .
+
+And , of course , there 's the unsteady labor situation .
+
+Besides the Machinists pact , accords representing 30,000 of the company 's engineering and technical employees in the Puget Sound and Wichita , Kan. , areas expire in early December .
+
+Allianz 's entry reflects the increasing eagerness of West German companies , looking ahead to the reduction in European Community internal barriers in 1992 , to get involved in what until now were considered internal French affairs .
+
+Deutsche Bank , Dresdner Bank and Commerzbank all also have expressed eagerness to expand in France before 1992 .
+
+Britain 's Thatcher summoned senior advisers for strategy talks as opinion polls showed the prime minister 's popularity had hit a record low following the resignation last Thursday of Chancellor of the Exchequer Lawson .
+
+One poll , conducted for the British Broadcasting Corp. , found that 52 % of voters believed that she should quit .
+
+Two more securities firms bowed to the outcry over program trading .
+
+GE 's Kidder Peabody unit said it would stop doing stock-index arbitrage for its own account , while Merrill Lynch said it was halting such trading entirely .
+
+Mr. Bixby said that early signs point to improved earnings and revenue in the first quarter of fiscal 1990 .
+
+`` The current backlog of orders is strong throughout the corporation , '' he said .
+
+But the Japanese practice of deep discounting often is cited by Americans as a classic barrier to entry in Japan 's market .
+
+Earlier this year , the U.S. complained that Japan 's supercomputer makers were effectively closing out foreign competitors by slashing prices as much as 90 % for universities .
+
+Analysts , however , were surprised because the tender offer appeared unsolicited .
+
+`` It 's quite a bombshell , '' said one , adding that the offer could spark a period of industry consolidation .
+
+`` You have to watch out for counterbids , '' said one analyst . ``
+
+International Paper or Weyerhaeuser could step in . ''
+
+As such , the soluble fiber has an almost fanatic following in northern India .
+
+`` I can assure you , '' attests a 25-year-old lawyer in New Delhi , with a meaningfully raised eyebrow , `` from personal experience , it works . ''
+
+But the news of the boom has yet to trickle down to the farmers .
+
+They only know of one use for the crop , as a laxative , and with psyllium prices currently languishing in the wake of a bumper crop , they think of the seed as a marginal crop , something to grow between summer wheat crops .
+
+Mr. Jath is thinking of passing up psyllium altogether this year in favor of a crop with a future such as cumin or fennel .
+
+`` Maybe I 'll plant castor-oil seeds . ''
+
+The reasonable first-year rates can be followed by increases of 60 % or more if a covered employee files a major claim , they complain .
+
+Insurance premiums for one small Maryland concern went up 130 % in less than two years , the last increase coming after one of its three workers developed a herniated disk .
+
+Among the most upbeat was BT Brokerage -LRB- Asia -RRB- Ltd .
+
+In a June 5 reaction , the Bankers Trust Co. unit proclaimed the economy `` shockproof . ''
+
+Others were more cautious .
+
+In a July analysis titled `` From Euphoria to Despair , '' W.I. Carr -LRB- Far East -RRB- Ltd. , another securities firm , said that eroding confidence might undermine future economic development .
+
+Many factors besides a dread of 1997 will have a bearing on Hong Kong 's economy .
+
+One concerns Japanese investors .
+
+The Wall Street firms ' pullback followed their recent blacklisting by several institutional investors .
+
+Last Tuesday , Kemper Corp. 's Kemper Financial Services Inc. unit said it would no longer trade with firms committed to stock-index arbitrage , including the three that later suspended stock-index arbitrage trading on Friday .
+
+At one point in the documentary , Mr. Sohmer , who is Jewish , says he felt rejected by many of the Protestants and Southerners he met at Yale .
+
+He quotes one student saying , `` You 're just the kind of Jewboy we Southerners ca n't stand .
+
+Of all the unflattering portraits of small-town America I 've seen on TV , this film is the most gratuitously nasty .
+
+The sole sympathetic character is the prodigal daughter Kate -LRB- Jaclyn Smith -RRB- , and she is tolerable only by virtue of having nothing in common with her kinfolk , a truly benighted pack of Southern Protestants whose grim existence consists mostly of growing peaches and repressing sex .
+
+As for the women , they 're pathetic .
+
+Kate 's Ma -LRB- Louise Latham -RRB- is a moral coward .
+
+At this point , the truce between feminism and sensationalism gets mighty uneasy .
+
+Take the scene in which Kate stands naked by a lighted window , whispering to her hidden assailant , `` Look all you want .
+
+Starting tomorrow , I 'm stalking you .
+
+That 's not all .
+
+Departing from its newspaper ads featuring prim sketches of a suit or a coat , Brooks Brothers is marketing an updated image in a new campaign that carries the slogan , `` The Surprise of Brooks Brothers . ''
+
+As part of its national ad pitch , Brooks Brothers will show less preppy women 's clothes , moving away from its floppy-tie business stereotype .
+
+One ad shows a bright red jacket paired with a black leather skirt .
+
+`` Everybody forgets that there are fashion cycles in classic merchandise , '' observes Carol Farmer , a retail consultant .
+
+`` For women , dressing for success in a real structured way is over . ''
+
+Brooks Brothers is also remodeling its stores .
+
+Wednesday , it will unveil a $ 7 million refurbishing at its flagship store on Madison Avenue .
+
+Wednesday , it will unveil a $ 7 million refurbishing at its flagship store on Madison Avenue .
+
+With newly installed escalators , the store retains its signature wood-and-brass look but is less intimidating .
+
+Here is a bible for UFO watchers , complete with pictures of people who say they 've had personal relationships with aliens .
+
+One photo shows a woman sporting a scar she says was made by a laser beam -LRB- a low-caliber weapon , from the looks of the wound -RRB- .
+
+So far anyway , our alien visitors seem more intent on brightening our skies than pulverizing us .
+
+Mr. Good devotes much serious space to the events of Feb. 25 , 1942 , when American gunners spotted strange lights in the sky above Los Angeles .
+
+One thing 's for sure : There have been a ton of them , and greater beings than the editors of the National Enquirer have shown interest .
+
+Gerald Ford , a fairly down-to-earth fellow , once sent a letter to the chairman of the Armed Services Committee recommending that `` there be a committee investigation of the UFO phenomenon .
+
+Or land in Russia so often .
+
+In a 1961 incident , a Soviet mail plane disappeared off the radar screen just after radioing its position to ground control in Sverdlovsk .
+
+The early omens , we admit , scarcely suggest so wholesome an outcome .
+
+The Fleet Street reaction was captured in the Guardian headline , `` Departure Reveals Thatcher Poison . ''
+
+But the words that boomed over the loudspeakers bore messages of peace , unity , negotiation and discipline .
+
+`` We stand for peace today and we will stand for peace tomorrow , '' said Walter Sisulu , the ANC 's former secretary general who , along with five of his colleagues , served 26 years in prison before being released two weeks ago .
+
+The result is that the unthinkable and illogical are happening .
+
+Six months ago , government approval for an ANC rally was inconceivable .
+
+The ANC vows to keep up pressure on the government .
+
+Speakers yesterday called on foreign governments to increase sanctions against Pretoria and urged supporters inside the country to continue defying emergency restrictions and racial segregation , known as apartheid .
+
+Without becoming overly contentious , allow me to suggest that several recent champions of the world according to us -LRB- as in U.S. -RRB- might not have ranked No. 1 in many polls .
+
+That list includes last season 's champs , the Los Angeles Dodgers , who rode a miracle home run by Kirk Gibson and two faultless pitching performances by Orel Hershiser to a five-game triumph over a bewitched , bothered Oakland crew .
+
+The A 's offensive showing in the Series got an A , as in awesome .
+
+Their 85 total bases broke a record for a four-game set , and their nine home runs tied one .
+
+`` Monitoring shows that the Natick team 's new system really does reduce cycle time for the morning package sort , '' reports James Barksdale , chief operating officer at Federal Express .
+
+`` The vans leave at least 15 minutes earlier , on average , than they used to .
+
+Financial analysts note that Mr. Rey is attracted to companies that are undervalued on the basis of their real-estate interests .
+
+In August , Omni unexpectedly bought Inspectorate 's 80 % stake in Harpener AG of West Germany , a land-rich company .
+
+Analysts agreed .
+
+`` It 's a further step to better returns in the hemorrhaging defense business , '' said Steven Binder , an analyst with Bear , Stearns & Co. in New York .
+
+Securities analysts were even more cautious , having been burned repeatedly on Unisys this year .
+
+Some had predicted earnings of more than $ 4 a share for this year , up from last year 's fully diluted $ 3.27 a share on earnings of $ 680.6 million .
+
+Explaining his change of mind , Mr. Straszheim says later , `` It 's hard to pin this on one factor . ''
+
+He says the economy , and especially the employment numbers , look much better than he expected ; interest rates have generally declined ; inflation has n't run amok .
+
+The department said personal income rose 0.3 % in September to a $ 4.469 trillion rate but would have climbed 0.6 % had it not been for the storm .
+
+Among the economic effects of the hurricane was a sharp drop in rental income .
+
+Partly , costs will be held down through strategic technology alliances , management said .
+
+Control Data recently announced an agreement with MIPS Computer Systems Inc. to jointly develop machines with simplified operating software .
+
+The group attributed the strong results to the favorable economic climate , rising demand for air travel and improved average yield -LRB- revenue received per ton of traffic transported a kilometer -RRB- .
+
+Systemwide , IATA airlines carried 632 million passengers last year , 2 % more than in 1987 .
+
+West Germany 's Quelle said it will establish a mail-order operation with two local partners in the Soviet Union next year .
+
+Saying this is a first for a Western company , West Germany 's largest mail-order group said the newly established Moscow-based Intermoda company is scheduled to begin operations in February 1990 .
+
+`` Many programs we have now come from the West and are not suitable to our culture , '' a government minister said .
+
+A star attraction on the national network is the U.S. 's `` Dynasty . '' ...
+
+At the center of any court fight will be the differing interpretations of the written contract between Warner and the two producers , but other murkier issues will play a big role .
+
+Sony and the Guber-Peters team are hanging much of their case on Warner 's willingness last year to release the producers from another contract and on an oral agreement they say allowed them to terminate the current written contract if the opportunity to run a major studio came up .
+
+Just how rancorous the relationship has become is clear from the differing versions of the two sides ' current business dealings .
+
+Mr. Guber and Mr. Peters say in their affidavits that Warner already is taking steps to freeze them out of their projects at Warner , notably the Sylvester Stallone film `` Tango and Cash . ''
+
+Even White House budget director Richard Darman had trouble finding a silver lining in the report .
+
+`` I suppose you could say the good news is that the deficits are not heading up , '' he said , `` but you ca n't be satisfied with deficits at this level and we 're not . ''
+
+The Treasury said a surge in tax receipts noted earlier in the year did n't turn out to be quite as strong as it first appeared .
+
+The Treasury marked up its forecast by $ 17 million in July , but that proved to be about $ 5 billion too optimistic .
+
+Such risk taking is an everyday matter for the brash Mr. Nadir , who is 25 % owner of Polly Peck as well as its chairman .
+
+He took Polly Peck , once a small fabric wholesaler , and used it at as a base to build a conglomerate that has been doubling its profits annually since 1980 .
+
+This gap eventually closes , but slowly .
+
+Three days later , as of Friday 's close , the Nasdaq Composite was down 6 % , compared with 5.9 % for the industrial average , 5.7 % for the S&P 500 and 5.8 % for the Big Board Composite .
+
+But industry watchers expect them to blend the methodical marketing strategies they use for more mundane products with the more intuitive approach typical of cosmetics companies .
+
+Likely changes include more emphasis on research , soaring advertising budgets and aggressive pricing .
+
+P&G already has shown it can meld some traditional packaged-goods techniques with the image-making of the cosmetics trade in the mass-market end of the business .
+
+Consider Oil of Olay , which P&G acquired as part of Richardson-Vicks International in 1985 .
+
+Goliaths like Unilever and P&G have enormous financial advantages over smaller rivals .
+
+Next year , Noxell plans to roll out a perfume called Navy , says George L. Bunting Jr. , chairman of Noxell .
+
+Further consolidations in the industry could follow .
+
+Rumors that Unilever is interested in acquiring Schering-Plough Corp. 's Maybelline unit are widespread .
+
+But success for Unilever and P&G is far from guaranteed , as shown by the many consumer-product companies that have tried and failed to master the quirky beauty business .
+
+In the 1970s , several pharmaceutical and packaged-goods companies , including Colgate-Palmolive Co. , Eli Lilly & Co. , Pfizer Inc. and Schering-Plough acquired cosmetics companies .
+
+The White House used television appearances and leaks to argue that congressionally imposed restrictions on covert actions made U.S. support for such coups difficult .
+
+Mr. Bush even disclosed privately that one Reagan-era deal with Congress required him to notify the odious Panamanian dictator , Manuel Noriega , if the U.S. learned of a coup plot that might endanger his life .
+
+The senators responded in kind .
+
+Sen. Boren happily told reporters that there had been `` a meeting of the minds '' with the White House , and that the committee had given Mr. Bush `` a clean slate , '' free of the impediments imposed during the Reagan years .
+
+There still are some details to be nailed down .
+
+Mr. Bush is reserving the right in `` rare '' instances to keep Congress in the dark , asserting a constitutional prerogative the committee does n't recognize .
+
+Moreover , both sides may face political critics .
+
+Some conservatives will accuse the president of promising Congress too much .
+
+It has sent mixed signals about its willingness to take part in the exchange-rate mechanism of the European Monetary System , which links the major EC currencies .
+
+At a June EC summit , Mrs. Thatcher appeared to ease her opposition to full EMS membership , saying Britain would join once its inflation rate fell and the EC liberalized capital movements .
+
+As Conservatives rally around Mrs. Thatcher during the crisis , many harbor hopes last week 's debacle will prompt change .
+
+`` We wo n't have any more of this wayward behavior , '' says Sir Peter Hordern , a backbench Tory member of Parliament .
+
+October was an edgy month for the practitioners of glasnost , the official Soviet policy of allowing more candor from the nation 's media .
+
+For one of the superstars of glasnost , Vitaly Korotich , editor of the trail-blazing weekly Ogonyok , Friday , Oct. 20 was a somersaulting day that turned from tension to elation .
+
+The czars were no civil libertarians .
+
+As late as the 1890s , the Russian government prevented any coverage of famines .
+
+What is that point ?
+
+Will Ogonyok begin a series of reports analyzing the failures of perestroika ?
+
+Mr. Greenspan 's decision to keep quiet also prompted a near-mutiny within the Fed 's ranks .
+
+A `` senior Fed official '' spoke on Saturday after the market swoon to both the Washington Post and the New York Times , saying the Fed was prepared to provide as much credit as the markets needed .
+
+Ironically , the anonymous official 's comments have earned some plaudits for Mr. Greenspan , who is mistakenly seen as the source .
+
+At a hearing last week , Democratic Sen. Chris Dodd of Connecticut told Treasury Secretary Nicholas Brady that `` Chairman Greenspan 's '' announcement over the Oct. 13 weekend was a `` very important statement . ''
+
+The Fed chairman 's caution was apparent again on the Monday morning after the market 's plunge , when the central bank took only modest steps to aid the markets .
+
+A surprisingly small amount of reserves was added to the banking system .
+
+The economy is showing signs of weakness , particularly among manufacturers .
+
+Exports , which played a key role in fueling growth over the last two years , seem to have stalled .
+
+But such caution is no guarantee against mistakes .
+
+The Fed 's reluctance to ease credit now could be laying the groundwork for a new recession , perhaps starting early next year .
+
+In an age of specialization , the federal judiciary is one of the last bastions of the generalist .
+
+A judge must jump from murder to antitrust cases , from arson to securities fraud , without missing a beat .
+
+Three seats currently are vacant and three others are likely to be filled within a few years , so patent lawyers and research-based industries are making a new push for specialists to be added to the court .
+
+Several organizations , including the Industrial Biotechnical Association and the Pharmaceutical Manufacturers Association , have asked the White House and Justice Department to name candidates with both patent and scientific backgrounds .
+
+The Justice Department 's view is shared by other lawyers and at least one member of the court , Judge H. Robert Mayer , a former civil litigator who served at the claims court trial level before he was appointed to the Federal Circuit two years ago .
+
+`` I believe that any good lawyer should be able to figure out and understand patent law , '' Judge Mayer says , adding that `` it 's the responsibility of highly paid lawyers -LRB- who argue before the court -RRB- to make us understand -LRB- complex patent litigation -RRB- . ''
+
+Mr. Carpenter , a former consulting-firm executive who has a love for `` task forces , '' says he has done a `` complete rethink '' of Kidder in recent months .
+
+There have been a dizzying parade of studies of the firm 's operations .
+
+Yet , says Mr. Carpenter , `` We 've really started to exploit the synergy between GE Capital and Kidder Peabody . ''
+
+The units have worked on 37 investment banking deals this year , he says , though not all of them have panned out .
+
+Everywhere , Kidder stresses the `` always working '' theme .
+
+A new in-house magazine , Kidder World -- which will focus on the firm 's synergy strategy , says Mr. Carpenter -- confides that on weekends Mr. Newquist `` often gets value-added ideas while flying his single-engine Cessna Centurion on the way to Nantucket . ''
+
+Indeed , although a majority of Republican lawmakers favor a line-item veto , some , ranging from liberal Oregon Sen. Mark Hatfield to conservative Rep. Edwards are opposed .
+
+Rep. Edwards voices the traditional conservative view that it 's a mistake to put too much power in the hands of a single person .
+
+Kellogg indicated that it has room to grow without adding facilities .
+
+The company has five other U.S. plants , including a modern facility at its Battle Creek headquarters known as Building 100 , which is to add bran-processing and rice-processing capacity next year .
+
+But in recent weeks , construction-industry sources reported that early preparation work was slowing at the 185-acre site .
+
+Subcontractors said they were told that equipment orders would be delayed .
+
+Expansion plans also include acquisitions in growing foreign markets .
+
+The bank says it 's interested in purchasing banks in Morocco , Portugal and Puerto Rico .
+
+Mr. Pearce has also encouraged his staff to work more closely with GM 's technical staffs to help prevent future litigation .
+
+GM lawyers have been working with technicians to develop more uniform welding procedures -- the way a vehicle is welded has a lot to do with its durability .
+
+Another finding from the study : Prosecutors set significantly different priorities .
+
+The Manhattan U.S. attorney 's office stressed criminal cases from 1980 to 1987 , averaging 43 for every 100,000 adults .
+
+But the New Jersey U.S. attorney averaged 16 .
+
+On the civil side , the Manhattan prosecutor filed an average of only 11 cases for every 100,000 adults during the same period ; the San Francisco U.S. attorney averaged 79 .
+
+But the mega-issues are raising megaquestions about the rapidly evolving Indian capital market .
+
+One is whether there is enough money to fund the new issues without depressing stock trading .
+
+Some analysts are concerned that the mega-issues , in such an unregulated environment , could lead to a mega-crash .
+
+`` The rate of failures will be much more than the rate of successes in the mega-projects , '' says G.S. Patel , a former chairman of the giant , government-run mutual fund , the Unit Trust of India .
+
+When Mr. Gandhi came to power , he ushered in new rules for business .
+
+He said industry should build plants on the same scale as those outside India and benefit from economies of scale .
+
+If the output was too great for the domestic market , he said , companies should export .
+
+So far , the mega-issues are a hit with investors .
+
+Earlier this year , Tata Iron & Steel Co. 's offer of $ 355 million of convertible debentures was oversubscribed .
+
+`` Disclosures are very poor in India . ''
+
+He says the big questions -- `` Do you really need this much money to put up these investments ? Have you told investors what is happening in your sector ? What about your track record ? -- `` are n't asked of companies coming to market .
+
+Although Larsen & Toubro had n't raised money from the public in 38 years , its new owners frequently raise funds on the local market .
+
+-LRB- Reliance floated a $ 357 million petrochemical company in 1988 that was , at the time , the largest public issue in Indian history . -RRB-
+
+ABC News has similarly branched out into entertainment gimmickry .
+
+`` Prime Time Live , '' a new show this season featuring Sam Donaldson and Diane Sawyer , has a studio audience that applauds and that one night -LRB- to the embarrassment of the network -RRB- waved at the camera like the crowd on `` Let 's Make a Deal . ''
+
+The network deals a lot with unknowns , including Scott Wentworth , who portrayed Mr. Anderson , and Bill Alton as Father Jenco , but the network has some big names to contend with , too .
+
+James Earl Jones is cast to play the Rev. Mr. Johns .
+
+Re-creating events has , in general , upset news traditionalists , including former CBS News President Richard S. Salant and former NBC News President Reuven Frank , former CBS News anchorman Walter Cronkite and the new dean of the Columbia University Graduate School of Journalism , Joan Konner .
+
+Says she : `` Once you add dramatizations , it 's no longer news , it 's drama , and that has no place on a network news broadcast ... .
+
+Criticism of the Abbie Hoffman segment is particularly scathing among people who knew and loved the man .
+
+That includes his companion of 15 years , Johanna Lawrenson , as well as his former wife , Anita .
+
+Though Dentsu says it has no concrete acquisition plans or deadlines , it is laying the groundwork for international growth .
+
+It is setting up a special team in charge of international markets and training workers to do business abroad .
+
+But Japanese agencies are cautious about expanding abroad because client relationships are different .
+
+Japanese agencies do business with rival clients in the same industry , a practice `` that would be unacceptable by traditional Western conflict rules , '' says Roy Warman , the London chief executive of Saatchi & Saatchi 's communications division .
+
+But the notebook , with the more advanced microprocessor and hard disk , is more innovative .
+
+Weighing 6.7 pounds with battery , the notebook measures 8.2 by 11.7 inches , has a 20-megabyte hard disk drive and boasts a backlit screen that is 22 % larger than Compaq 's .
+
+Mr. Lagnado said strength in employment appears to have the biggest impact on sales growth .
+
+El Paso , Austin and Fort Worth , the three strongest retail markets in the nation , are all located in Texas , where employment grew a relatively strong 2 % .
+
+The results reflect a reversal in the fortunes of the regions during the past two years .
+
+In 1987 , the West had the slowest sales growth , and the South and the Midwest were first and second respectively , according to the council .
+
+Mr. Lagnado said that although retailers probably wo n't ever recover sales lost because of the California quake and Hurricane Hugo , they could see some benefits later on .
+
+Stores such as Sears that sell big-ticket durable goods might actually get a boost as consumers rush to replace items lost in the disasters , he said .
+
+Insurers buy this insurance protection for themselves by giving up a portion of the premiums they collect on a policy to another firm -- a reinsurance company , which , in turn , accepts a portion of any losses resulting from this policy .
+
+Insurers , such as Cigna Corp. , Transamerica Corp , and Aetna Life & Casualty Co. , buy reinsurance from other U.S.-based companies and Lloyd 's of London for one catastrophe at a time .
+
+But some large insurers , such as State Farm Mutual Automobile Insurance Co. , do n't purchase reinsurance , but fund their own program .
+
+A few years ago , State Farm , the nation 's largest home insurer , stopped buying reinsurance because no one carrier could provide all the coverage that it needed and the company found it cheaper to self-reinsure .
+
+Mr. Ortega 's threat to breach the cease-fire comes as U.S. officials were acknowledging that the Contras have at times violated it themselves .
+
+Secretary of State James Baker , who accompanied President Bush to Costa Rica , told reporters Friday : `` I have no reason to deny reports that some Contras ambushed some Sandinista soldiers . ''
+
+Administration officials traveling with President Bush in Costa Rica interpreted Mr. Ortega 's wavering as a sign that he is n't responding to the military attacks so much as he is searching for ways to strengthen his hand prior to the elections .
+
+Mr. Abrams said that Mr. Ortega is seeking to demobilize the Contras prior to the elections to remove any pressure to hold fair elections .
+
+Mr. Thompson is n't bereft of experience with new products , however .
+
+For the past two years , he said , he and the exchange 's research department have been working on the new natural gas contract , seeking a good delivery site and studying the natural gas market .
+
+In a recent General Accounting Office study , the Merc was found to have been the most lax in enforcing exchange rules .
+
+It levied the smallest number of suspensions of traders and fines of the four largest commodity exchanges studied over the past five years .
+
+He thinks that progress in cooperation can be made in areas where no vested interests have built up .
+
+One of those areas is the development of a hand-held electronic device that would permit floor traders to enter trades as they make them .
+
+Lorne Slotnick , vice chairman of the Southern Ontario Newspaper Guild , the union representing the workers , said Thomson made significant concessions in the final round of talks .
+
+In addition to wage increases , the union negotiated improved vacation plans , benefit packages and pension plans , Mr. Slotnick said .
+
+Other analysts are nearly as pessimistic .
+
+Gary Palmero of Oppenheimer & Co. expects a 30 % decline in earnings between now and 1991 for `` commodity-oriented '' paper companies , which account for the majority of the industry .
+
+The companies in question believe the analysts are too pessimistic .
+
+Great Northern Nekoosa said , `` The odds of the dire predictions about us being right are small . ''
+
+Wall Street is n't avoiding everything connected with paper .
+
+Mr. Palmero recommends Temple-Inland , explaining that it is `` virtually the sole major paper company not undergoing a major capacity expansion , '' and thus should be able to lower long-term debt substantially next year .
+
+The analysts say their gloomy forecasts have a flip side .
+
+Some take a warm view of consumer-oriented paper companies , which buy pulp from the commodity producers and should benefit from the expected declines in pulp prices .
+
+Bond market analysts say the institutional selling was triggered by several factors .
+
+Big banks such as Chemical Bank and Chase Manhattan , which have been taking heavy charges to expand their Third World loan-loss reserves , are n't looking for tax-exempt income .
+
+Fundamental factors are at work as well .
+
+Muni bond holders are worried about the impact of a slowing economy on tax revenue , at a time when many state and local governments already face budget deficits and huge spending needs .
+
+New York City bonds have been beaten down for three straight weeks .
+
+On Friday , some issues fell nearly one point , or close to $ 10 for each $ 1,000 face amount .
+
+Other RJR securities also closed higher .
+
+RJR Holdings Capital Corp. 's 14.7 % convertible pay-in-kind securities maturing in 2009 closed 1\/2 higher at 86 1\/2 after trading as low as 85 1\/4 .
+
+Scientists felt differently .
+
+In 1807 , the Swiss mathematician who headed the U.S. Coast and Geodetic Survey made an `` iron meter '' that he had brought from Europe the standard of measure .
+
+By the end of the century scientists had embraced the system .
+
+Because the law made compliance voluntary , it inspired little more than jokes .
+
+-LRB- The press had a field day with questions about what would happen to `` six-footer , '' `` yardstick '' and `` inchworm . '' -RRB-
+
+Advertisers are showing interest .
+
+Last month , Whittle announced it had sold $ 150 million in advertising time on the network to national advertisers .
+
+Now , stock prices seem to be in a general retreat .
+
+Since peaking at 2791.41 on Oct. 9 , the Dow Jones Industrial Average has lost 194.69 points , or 7 % , closing Friday at 2596.72 , down 17.01 .
+
+`` M&A is getting all the headlines right now , but these other things have been building up more gradually , '' she says .
+
+Third-quarter earnings have been generally disappointing and with economic data showing a clear slowing , the outlook for earnings in the fourth quarter and all of 1990 is getting worse .
+
+`` It depends on what happens .
+
+If the economy slips into a recession , then this is n't a level that 's going to hold . ''
+
+The precious metals sector outgained other Dow Jones industry groups by a wide margin for the second consecutive session .
+
+Hecla Mining rose 5\/8 to 14 ; Battle Mountain Gold climbed 3\/4 to 16 3\/4 ; Homestake Mining rose 1 1\/8 to 16 7\/8 ; Lac Minerals added 5\/8 to 11 ; Placer Dome went up 7\/8 to 16 3\/4 , and ASA Ltd. jumped 3 5\/8 to 49 5\/8 .
+
+Gold mining stocks traded on the American Stock Exchange also showed strength .
+
+Echo Bay Mines rose 5\/8 to 15 7\/8 ; Pegasus Gold advanced 1 1\/2 to 12 , and Corona Class A gained 1\/2 to 7 1\/2 .
+
+The swift passage of the bill , which cleared the Senate and House on simple voice votes last week , contrasts with the problems still facing a more cumbersome $ 66.8 billion measure funding housing , environmental , space and veterans programs .
+
+By an 84-6 margin , the Senate approved the bulk of the spending Friday , but the bill was then sent back to the House to resolve the question of how to address budget limits on credit allocations for the Federal Housing Administration .
+
+Many of the problems you presented exist in every part of this country .
+
+Poverty is only two blocks from President Bush 's residence .
+
+There are , however , some alternatives that income-oriented investors should consider , investment advisers say .
+
+Short-term municipal bonds , bond funds and tax-deferred annuities are some of the choices they mention -- and not just as a way to get a higher return .
+
+These insurance company contracts feature some of the same tax benefits and restrictions as non-deductible individual retirement accounts : Investment gains are compounded without tax consequences until money is withdrawn , but a 10 % penalty tax is imposed on withdrawals made before age 59 1\/2 .
+
+Aimed specifically at CD holders are so-called CD-type annuities , or certificates of annuity .
+
+`` We do know there are slight differences in the way human and animal insulins drive down blood sugar , '' Dr. Sobel said .
+
+The human-based drug starts the blood sugar dropping sooner and drives it down faster , he said .
+
+Trading in Hang Seng index futures remains crippled by the experience .
+
+Volume for the entire month of September totaled only 21,687 contracts , compared with a daily average of 27,000 in the month before the 1987 crash .
+
+But London 's problems were nothing compared with the Continent 's .
+
+In Brussels , which recently spent millions of dollars on a computer-assisted trading system , disgusted traders watched helplessly as a software failure before opening on Manic Monday prevented trading for two days .
+
+Meantime , brokers on the Continent are worried , too , mostly by the potential loss of business .
+
+`` I would be much happier if this volume -LCB- in German stocks -RCB- were in Frankfurt rather than London , '' says Dieter Bauernfeind , head of international equity sales at Dresdner Bank in Frankfurt .
+
+That would send prices plummeting from what some gun-shy U.S. oil executives still regard as too low a level .
+
+Patrick J . Early , president of Amoco Corp. 's oil-production unit , says that despite recent stability , he plans continued tightening of costs and exploration spending .
+
+The view of some others in Big Oil , he maintains , `` is very much -LCB- similar to -RCB- Amoco 's outlook . ''
+
+Just this week Mobil Corp. disclosed new cutbacks in its domestic exploration and production operations .
+
+The activity is enough to move some oil-service prices back up a little .
+
+Some drill-bit prices have risen 5 % in the past month .
+
+Funds for drilling may inch up more next year if oil prices stay stable .
+
+Texaco , thinking in terms of $ 18-to-$19 oil for 1990 , may raise spending , especially for low-risk prospects , an official says .
+
+The appetite for oil-service stocks has been especially strong , although some got hit yesterday when Shearson Lehman Hutton cut its short-term investment ratings on them .
+
+Contractors such as Parker Drilling Co. are raising cash again through stock offerings , and for the first time in years , two oil-service companies recently went public .
+
+But a few new spots are opening .
+
+Arthur Andersen , the accounting firm , has increased its energy staff 10 % in a year .
+
+For most field workers , it 's about time .
+
+Mr. Ramirez , who arrived late at the Sharpshooter with his crew because he had started early in the morning setting up tanks at another site , just got the first raise he can remember in eight years , to $ 8.50 an hour from $ 8 .
+
+And the number of rigs active in the U.S. is inching up .
+
+According to Baker Hughes Inc. , 992 rotary rigs were at work in the U.S. last week , up from the year-ago count of 933 .
+
+As word of the crime spree has spread , many agents have started changing their open-door policies .
+
+At El Monte Travel Center in El Monte , Calif. , customers now can get in only through a buzzer and lock system .
+
+The Rothschilds hope to use a long history in private banking and an aura of exclusivity to attract private and institutional investors .
+
+As at the Zurich bank , the minimum investment for individuals will be high : about a million German marks -LRB- $ 538,000 -RRB- , three times what many other West German investment banks require .
+
+But increasingly , people are questioning that view , and the critics include some of the country 's most successful investors .
+
+Warren Buffett has been on record as opposing stock-index futures since their inception in 1982 .
+
+One reason futures are said to add volatility is that -- unlike in stocks -- people can speculate in futures with little money down .
+
+Margin requirements for speculators on the Chicago Mercantile Exchange are currently about 7 % .
+
+Politics also influences the government 's thinking on the anti-takeover restriction .
+
+The Conservatives do n't dare jeopardize marginal Tory seats in Coventry , where Jaguar has headquarters , nor can the government easily back down on promised protection for a privatized company while it proceeds with controversial plans to privatize most of Britain 's water and electricity industries .
+
+However , peace efforts by Costa Rican President Oscar Arias have n't always helped the country 's cause in Washington .
+
+Mr. Arias 's long-time refusal to support the U.S. 's campaign against leftist Nicaragua earned him the ire of the Reagan White House .
+
+In the U.S. , the search for oil had been headed toward environmentally sensitive areas believed to have vast reserves .
+
+Alaska 's Arctic National Wildlife Refuge alone is thought to hide more than three billion barrels of oil .
+
+Activity has revived in the largest U.S. gas-producing regions , such as the Gulf of Mexico .
+
+Santa Fe International Corp. , which is owned by Kuwait -LRB- and is n't related to Santa Fe Southern Pacific 's unit -RRB- , is stepping up development of a well off Texas ' Matagorda Island where it found gas in 1987 .
+
+Emergency measures would be introduced to ease the country 's financial crisis , notably its $ 200 billion budget deficit .
+
+By the end of next year , all loss-making state enterprises would be put out of business or handed over to workers who would buy or lease them or turn them into cooperatives .
+
+Mr. Engelken moved south to Washington , but he took with him enduring memories of the homer of 1951 .
+
+When his wife , Betsy , came down the aisle on their wedding day in 1966 , Mr. Engelken -- no slouch on the romantic front -- gave her the ultimate compliment : `` You look prettier than Bobby Thomson 's home run . ''
+
+They talked of the home run .
+
+`` I thought it was in the upper deck , '' said Bobby Thomson , now 66 years old .
+
+They talked of the aftermath .
+
+`` I never thought it would become so momentous , '' Bobby remarked .
+
+Government officials who are urging real-estate reforms balk at the arguments of business leaders and chafe at their pressure .
+
+`` There is no violation of the capitalistic principle of private property in what we are doing , '' says Lee Kyu Hwang , director of the government 's Land Bureau , which drafted the bills .
+
+The censorship is enforced through terrorism and assassination .
+
+In the past 10 years about 50 journalists have been silenced forever , murdered .
+
+Even now , the American attack upon this tremendous problem is timid in relation to the magnitude of the threat .
+
+I can attest that a recent Colombian visitor to the U.S. was offered drugs three times in the few blocks ' walk between Grand Central Terminal and the Waldorf Astoria Hotel in midtown Manhattan .
+
+Much is being done in Colombia to fight the drug cartel mafia .
+
+Luxurious homes and ranches have been raided by the military authorities , and sophisticated and powerful communications equipment have been seized .
+
+What is of much more importance to the Colombian economy than the supposed benefits of laundered drug money is higher prices for Colombia 's legitimate products .
+
+The price of coffee has gone down almost 45 % since the beginning of the year , to the lowest level -LRB- after inflation -RRB- since the Great Depression .
+
+Now , as election day nears , even some supporters wonder what he will do if he wins the mayoralty on Nov. 7 .
+
+They wonder whether he can be firm with his longtime allies , including union leaders and political cronies who may seek a place at the trough .
+
+In an interview with reporters and editors of The Wall Street Journal , Mr. Dinkins appears quite confident of victory and of his ability to handle the mayoralty .
+
+`` A lot of people think I will give away the store , but I can assure you I will not , '' he says .
+
+Over the last few weeks , he has frittered away roughly half of what was once a 33-point lead in the polls over Mr. Giuliani .
+
+A story about how he mishandled the sale to his son of his stock in a media company controlled by his political patron Percy Sutton was allowed to fester a full week before Mr. Dinkins faced the media .
+
+But by most accounts , he made little of the post and was best known among city politicians for his problems making up his mind on matters before the city 's Board of Estimate , the body that votes on crucial budget and land-use matters .
+
+Colleagues today recall with some humor how meetings would crawl into the early morning hours as Mr. Dinkins would march his staff out of board meetings and into his private office to discuss , en masse , certain controversial proposals .
+
+Often , Mr. Dinkins 's procrastination prevented him from having a say in the way things turned out , critics claim .
+
+On the campaign stump , he often points out that he was the only Board of Estimate member to vote against a controversial real-estate project at Manhattan 's Columbus Circle .
+
+But board members say he took so long to decide how to vote that by the time he decided , it was too late to try to draw other members to his position .
+
+While his public statements have at times been confusing , Mr. Dinkins 's position papers have more consistently reflected anti-development sentiment .
+
+He favors a form of commercial rent control , which the financial community believes would make it more difficult to attract investment in the city .
+
+But Mr. Dinkins 's economic planks do n't seem to bother the business community , where he draws significant support .
+
+Steven Spinola , president of the Real Estate Board of New York , an industry organization , says Mr. Dinkins 's `` economic development program is shortsighted , but when it comes down to it , he can be reasonable . ''
+
+But Mr. Dinkins 's sense of pragmatism often comes across more as an insider 's determination not to upset the political apple cart .
+
+He is taken aback in an interview when asked whether , as mayor , he plans on reforming the political `` fiefdoms '' that perpetuate the monumental ineffectiveness of New York 's school system .
+
+Once inside , she spends nearly four hours measuring and diagramming each room in the 80-year-old house , gathering enough information to estimate what it would cost to rebuild it .
+
+She snaps photos of the buckled floors and the plaster that has fallen away from the walls .
+
+Sometimes repairs are out of the question .
+
+When Aetna adjuster Bill Schaeffer visited a retired couple in Oakland last Thursday , he found them living in a mobile home parked in front of their yard .
+
+The house itself , located about 50 yards from the collapsed section of double-decker highway Interstate 880 , was pushed about four feet off its foundation and then collapsed into its basement .
+
+Her new line of work has some perils .
+
+Recently , a contractor saved her from falling three stories as she investigated what remained of an old Victorian house torched by an arsonist .
+
+During her second meeting with the Hammacks , Ms. Johnson reviews exactly what their policy covers .
+
+They would like to retrieve some appliances on the second floor , but wonder if it 's safe to venture inside .
+
+Ms. Johnson tells them that , if the appliances ca n't be salvaged , their policy covers the replacement cost .
+
+But in 1989 most senators have other ideas .
+
+Last July , his committee rejected a Reagan administration plan to support a coup in Panama .
+
+`` The sustainability of U.S. foreign policy is essential , '' he explains .
+
+`` Why was containment so successful ?
+
+Because it had bipartisan support . ''
+
+The pound immediately began to take a buffetting after the resignations were announced .
+
+In late New York trading , sterling stood at $ 1.5765 , down from $ 1.6145 late Wednesday .
+
+The British economy is hardly the picture of health these days .
+
+At 15 % , base interest rates are the highest in eight years , and the 7.6 % annual inflation rate is by far the highest in the European Community .
+
+Increasingly , the financial markets are reflecting the gloom .
+
+The Financial Times 100-share index has dropped about 12 % from its 1989 high of 2423.9 on Sept. 8 .
+
+Denizens of London 's financial district are cushioning themselves for heavy blows .
+
+`` A lot more of our customers are staying until our 10 p.m. closing time , '' says Christopher Brown , managing director of Corney & Barrow Restaurants Ltd. , which runs five tony wine bars in the district .
+
+The availability of timely assistance -- of a backstop -- can help markets retain their resilience .
+
+The Fed already buys and sells foreign exchange to prevent disorderly conditions in foreign-exchange markets .
+
+This does not mean that the Federal Reserve does not already play an important indirect role in the stock market .
+
+In 1987 , it pumped billions into the markets through open market operations and the discount window .
+
+But the pullout is an embarrassment to New York City officials , coming at a time of high office building vacancy rates and departures by other major companies .
+
+Mobil Corp. is in the process of vacating its headquarters here , and huge operations like J.C. Penney & Co. and Trans World Airlines have recently left .
+
+New York authorities , informed yesterday about the move , reacted with concern and even some anger to the idea of the nation 's third-largest corporation leaving without giving them an opportunity to accommodate it .
+
+`` We are dismayed , but there 's nothing we can do about it now , '' said Stanley Grayson , New York City deputy mayor for finance and economic development .
+
+A minor bureaucrat dies suddenly , dooming his family to poverty and eventual disgrace .
+
+His daughter turns to dressmaking , then to peddling herself for a few piasters .
+
+The real tragedy , though , lies not in the family 's circumstances but in its concern for appearances .
+
+Mourning for the father is overshadowed by the shame of burying him in a pauper 's grave .
+
+But administration officials were concerned over the bleak trade report , which showed the deficit in the country 's trade of goods and services swelling to a $ 74 billion annual rate in the third quarter from a $ 51 billion rate in the second quarter .
+
+Mr. Darby called it a `` disappointment '' but predicted exports will pick up again .
+
+As their varied strategies suggest , there is more than one way to respond to a disaster -- though it 's too soon to tell whether the changes will pay off .
+
+For many companies , the instinctive first response is to cut costs .
+
+Moreover , it 's trying to transfer its skill at designing military equipment to commercial ventures .
+
+A partnership with a Williamsburg , Va. , unit of Shell Oil Co. recently patented a process for producing plastic food containers that wo n't melt in microwave ovens .
+
+He 's had other brushes with the law .
+
+He was arrested , though not indicted , on at least three other occasions in the '60s and '70s : for assault and unlawful confinement , for fraud and forgery of private documents , and for extortion .
+
+He says he spent $ 300 million on his art business this year .
+
+A week ago , his gallery racked up a $ 23 million tab at a Sotheby 's auction in New York buying seven works , including a Picasso .
+
+The gruff financier recently started socializing in upper-class circles .
+
+Although he says he was n't keen on going , last year he attended a New York gala where his daughter made her debut .
+
+He also leads an opulent life style .
+
+Even in Denenchofu , one of Tokyo 's richest neighborhoods , Mr. Morishita 's splashy brick manor -- one of some 10 houses he owns -- outshines the neighbors ' .
+
+He 'll be there wherever there 's money to be made , laughs Mr. Kori , the secretary .
+
+`` Who knows , '' he says , `` if he heard that soybeans make money today , he might be flying out to Chicago tomorrow .
+
+It does n't take much to provoke an intense debate .
+
+When President Corazon Aquino , whose command of Filipino is spotty , announced last year that the language would be used in official communications , there was an uproar from many legislators , who continue to conduct debates mostly in English .
+
+`` Batibot '' lacks the polish of `` Sesame Street . ''
+
+Sound stages echo .
+
+In addition , corporations are now shouldering a bigger share of the tax burden , as the authors of the 1986 law hoped .
+
+Corporate taxes paid for almost 12 % of federal spending in 1988 -- excluding Social Security -- compared with less than 8 % in the first half of the 1980s , the study found .
+
+Japanese retail executives say the main reason they are reluctant to jump into the fray in the U.S. is that -- unlike manufacturing -- retailing is extremely sensitive to local cultures and life styles .
+
+The Japanese have watched the Europeans and Canadians stumble in the U.S. market , and they fret that business practices that have won them huge profits at home wo n't translate into success in the U.S. .
+
+Reluctant to advance further on their own , some stores have settled for tie-ups with famous specialty shops .
+
+Last March , Isetan invested 1.5 billion yen -LRB- $ 10.6 million -RRB- in a venture with Barney 's Inc. , an up-scale New York specialty clothier .
+
+Several other Japanese companies and regional governments have sent aid to San Francisco .
+
+Sumitomo Bank donated $ 500,000 , Tokyo prefecture $ 15,000 and the city of Osaka $ 10,000 .
+
+Bond prices were barely higher .
+
+The Treasury 's benchmark 30-year rose fractionally .
+
+But GM 's results also illustrate the increasing diversity of its operations .
+
+In one breakdown , GM attributed half of its net to its two big technology units , Electronic Data Systems Corp. and GM Hughes Electronics Corp .
+
+Male scandal victims invariably fare better .
+
+Anne Burford , the former EPA chief who resigned under fire in 1983 during a flap with Congress , was kayoed in the confrontation , even though she was never charged with official wrondgoing .
+
+If the political establishment is reluctant to forgive sexual misadventures , the private sector sometimes will .
+
+John Tower was accused of womanizing and boozing during his unsuccessful bid to win confirmation as secretary of defense earlier this year .
+
+Now he is writing a book , serving on an elite foreign policy advisory board and consulting for an array of corporate clients , including British publishing mogul Robert Maxwell .
+
+When all else fails , Gucci Gulch -- the fabled halls of the Capitol inhabited by lobbyists and their imported shoes -- offers a welcome environment for fallen officials .
+
+Former Rep. Fernand St Germain , brought down by the savings-and-loan crisis , now represents -- you guessed it -- savings-and-loans associations .
+
+Some become pseudo-lobbyists .
+
+John Mack promptly quit his job last spring as an aide to Speaker Wright amid public outrage over Mr. Mack 's violent attack on a young woman when he was 19 years old .
+
+After a few weeks in seclusion , Mr. Mack opened a consulting firm , but not to enable him to directly lobby ; that would require him to disclose his clients by registering as a lobbyist .
+
+Still , Mr. Mack says he talks to `` 30 members of Congress a week . ''
+
+Other scandal survivors are sometimes the best source of solace .
+
+Raymond Donovan , the New Jersey construction executive who was forced to resign as labor secretary and indicted in 1985 , only to be acquitted of fraud charges , often calls other scandal-tossed public figures to offer a sympathetic ear .
+
+Some Canadian political commentators have opposed Canada 's joining what they see as a U.S.-dominated organization .
+
+`` Canada could do plenty of things to get serious about Latin America without running the risk of getting caught in the cross fire '' between the U.S. and Latin American members of the OAS , said Jeffrey Simpson , a columnist in Toronto 's Globe & Mail newspaper .
+
+Similarly , one of the most popular comedy genres of the 1930s and '40s was the `` murder mystery\/comedy . ''
+
+The `` Thin Man '' series of movies , as well as many others , based their entire comedic appeal on the star detectives ' witty quips and puns as other characters in the movies were murdered .
+
+`` For Poland and Hungary we need to think about a stick-and-carrot economic approach that would force them to price things realistically in return for removing all our tariff barriers . ''
+
+He notes that the Marshall Plan of U.S. aid to Europe `` did n't just throw money at post-war Europe , it also liberalized and opened up those markets . ''
+
+Sentences have been stiff .
+
+A university student got eight years for participating in the rallies , sources in Beijing said , while an 18-year-old worker got 10 years .
+
+So far , the victims are officially considered evil-doers , and their families receive no compensation .
+
+A man gunned down by a stray bullet while cycling to work carries , after his death , the official stigma of `` counterrevolutionary , '' his wife says .
+
+IRA rules have been changed over the years .
+
+One in 1981 raised to $ 2,000 a year from $ 1,500 the amount a person could put , tax-deductible , into the tax-deferred accounts and widened coverage to people under employer retirement plans .
+
+They use dollars to buy Western items such as video recorders and personal computers and then sell them at a huge mark-up .
+
+The going rate for a small personal computer that costs about $ 2,000 in the West is anywhere from 50,000 to 100,000 rubles .
+
+The regional Federal Reserve Bank setup , for instance , may be out of date .
+
+In earlier years it may have seemed reasonable to give Richmond , Va. , a bank and allow Los Angeles only a branch of the San Francisco bank , but times have changed .
+
+As a last recourse , when all else has failed and you are pinned , apologize for having disappointed those who trusted you but deny having actually done anything wrong .
+
+-LRB- See , for instance , Jim Bakker 's remarks upon being sentenced to prison this Tuesday for defrauding the faithful . -RRB-
+
+Consider the troubling dissonance between Mr. Shevardnadze 's speech of confession this week and the hang-tough defense of everyone concerned with the Iran-Contra affair .
+
+The Soviet foreign minister publicly concedes that his government `` violated norms of behavior '' in Afghanistan and just plain lied about the radar station .
+
+We have people in high place still lying through their teeth about Iran-Contra , and that apparently is n't going to change .
+
+For that matter , those long ago identified as liars are still given respectful hearings in the press .
+
+These were only two of a series of fabrications that had , in Judge Kozinski 's words , the cumulative effect of making Mr. Masson `` appear more arrogant , less sensitive , shallower , more self-aggrandizing , and less in touch with reality than he appears from his own statements . ''
+
+As Robert Coles wrote in a review of Ms. Malcolm 's book , Mr. Masson emerges `` as a grandiose egotist ... and , in the end , a self-destructive fool .
+
+But it is not Janet Malcolm who calls him such : his own words reveal this psychological profile . ''
+
+It has always been so .
+
+In the 1920s , a young schoolteacher , John T. Scopes , volunteered to be a guinea pig in a test case sponsored by the American Civil Liberties Union to challenge a ban on the teaching of evolution imposed by the Tennessee Legislature .
+
+The result was a world-famous trial exposing profound cultural conflicts in American life between the `` smart set , '' whose spokesman was H.L. Mencken , and the religious fundamentalists , whom Mencken derided as benighted primitives .
+
+Few now recall the actual outcome : Scopes was convicted and fined $ 100 , and his conviction was reversed on appeal because the fine was excessive under Tennessee law .
+
+Not everyone has jumped on the Breeden bandwagon , however .
+
+Some in Washington contend that it 's too soon to tell whether Mr. Breeden will help or hinder the SEC .
+
+Even the biggest auto shows in the U.S. are largely regional affairs , but the Tokyo show is international .
+
+Virtually every automotive analyst in New York showed up .
+
+The jokes are n't just on the Japanese , though .
+
+Regie Nationale des Usines Renault , the French auto maker , has a concept car called the Megane .
+
+The name is supposed to connote feminine grandeur , but in Japanese it means `` eyeglasses . ''
+
+Foreign auto makers are taking the Tokyo Motor Show more seriously than ever .
+
+AB Volvo invites passers-by to play `` the role of the test dummy '' by hopping in a car that simulates a crash to show just how its seat-belt tightener works .
+
+But they are already objecting to , among other things , a plan to give more weight to cost-benefit considerations in evaluating pesticides .
+
+`` It 's a tremendous disappointment , '' said Janet Hathaway , an attorney with the Natural Resources Defense Council .
+
+`` Allowing the EPA to condone continued use of a chemical whenever the benefits outweigh the risks is absolutely anathema to the environmental community . ''
+
+We scribblers quickly concurred that not only was the bad rep of big-time college sports richly earned , but also that it could be corrected .
+
+Competition could be maintained -- and stadiums probably would remain full -- if schedules were reduced and the games returned to the students , we said .
+
+Still , the book produces more smoke than a smoldering sofa , along with a few flames , especially concerning the use of steroids .
+
+Dean Steinkuhler , a spectacularly bulked-up former lineman , confesses that he used 'em , and says other Huskers did too .
+
+Indeed , institutions already are taking note .
+
+On Sept. 14 , Harvard began circulating a conflict-of-interest policy statement that , in effect , would follow the NIH guidelines faithfully .
+
+No doubt there is something to irk everyone in this AT&T-sponsored dramatization of Bob Woodward and Carl Bernstein 's book about Watergate .
+
+Personally , I 'm irked by its combination of ponderousness and timidity , which adds up to an utter lack of drama .
+
+That puts the broker at risk if it 's trying to buy stock in a rising market .
+
+In Tuesday 's gyrating session , the Dow Jones Industrial Average fell by 80 points early in the day , but finished with less than a four-point loss .
+
+Fund managers , for their part , defend their use of leverage .
+
+Carl Ericson , who runs the Colonial Intermediate High Income Fund , says the fund 's 25 % leverage has jacked up its interest income .
+
+But a few funds have taken other defensive steps .
+
+Some have raised their cash positions to record levels .
+
+Other funds have recently sold weak junk bonds to raise cash .
+
+At the 50%-leveraged Zenith Income Fund , portfolio manager John Bianchi recently dumped Mesa Petroleum , Wickes and Horsehead Industries , among others , to raise his cash position to a record 15 % .
+
+Inside the grid were 24 of these plant cells jammed full of clutter .
+
+One she made into a topiary rec room , replete with plants shaped into a Barcalounger , TV , piano and chairs .
+
+And before it does , they 're trying to cut back on the clutter that created the situation in the first place .
+
+Among other things , the industry is trying to come up with standardized business lists that cut down on duplications .
+
+Casino revenues and hotel occupancy rates are high .
+
+Last year , the tourists left $ 3 billion with the area 's casinos , nearly 10 % more than in 1987 .
+
+It has happened before .
+
+The Dunes , the Aladdin and the Riviera were all acquired by the present owners from bankruptcy proceedings spawned by the last recession , in the early 1980s .
+
+Some have bought big chunks of Strip property for what may turn into another wave of building .
+
+Atlantic City casino owner Donald Trump is scouting the Las Vegas market with an eye toward building an appropriately spectacular place .
+
+Other credit houses , such as Credit Exchange and Solo Credit Service Corp. , are suggesting that their clients study each order before shipping .
+
+`` Payments are good right now , but we are n't recommending any long-term lines of credit , '' says Richard Hastings , a retail credit analyst , referring to credit lines which make inventory purchases automatic .
+
+Because of those concerns , some manufacturers say they will ask for letters of credit before shipping spring merchandise .
+
+`` We 're being paid today , but we 're worried about tomorrow and will want '' letters of credit , says the sales director at one major dress maker who asked not to be identified .
+
+`` Everybody is worried about the possibility of cancellations , '' says Kurt Barnard , publisher of Barnard 's Retail Marketing Report .
+
+`` The buyers who work for the various Campeau chains may lose their jobs .
+
+Other manufacturers are equally cautious .
+
+Bud Konheim , president of Nicole Miller Inc. , says his company is now shipping only to the flagship stores of the Federated and Allied chains .
+
+Provigo 's profit record over the past two years tarnished the company 's and Mr. Lortie 's reputations .
+
+For the six months ended Aug. 12 , Provigo posted net income of C$ 6.5 million , or eight Canadian cents a share , compared with C$ 18.1 million , or 21 Canadian cents a share , a year earlier .
+
+But after years of using the issue for its benefit , the GOP finds its candidates on the defensive .
+
+New Jersey gubernatorial candidate Rep. James Florio pointedly returned from campaigning to vote against the president yesterday in contrast with his opponent , GOP Rep. James Courter , who has ardently supported abortion restrictions in the past but was absent .
+
+Separately , the House last night approved a nearly $ 67 billion compromise spending bill providing the first construction funds for the administration 's ambitious space station in fiscal 1990 and incorporating far-reaching provisions affecting the federal mortgage market .
+
+The current ceiling on home loans insured by the Federal Housing Administration would be increased to $ 124,875 , and the bill gives the Department of Housing and Urban Development new authority to facilitate the refinancing of subsidized loans for low-income homeowners .
+
+Announced and anticipated purchases from foreign countries are also supporting futures prices .
+
+`` Russian ships are arriving in the gulf and there is n't enough grain in the pipeline , '' said Katharina Zimmer , a futures analyst with Merrill Lynch & Co. in New York .
+
+Futures prices rose modestly , but trading volume was n't very heavy .
+
+The December contract settled at 73.97 cents a pound , up 0.59 cent , but it rose as high as 74.20 cents .
+
+The modest sell-off , which started on Tuesday , continued .
+
+The December contract ended at $ 999 a metric ton , down $ 15 .
+
+Other airline stocks were mixed .
+
+AMR , which owns American Airlines , rose 3 3\/8 to 72 1\/4 ; USAir Group fell 1 1\/2 to 38 5\/8 , and Delta Air Lines rose 1\/2 to 66 1\/2 after posting higher earnings for the September quarter .
+
+Stocks that reportedly benefited Tuesday from a Japanese buy program handled by PaineWebber gave back some of their gains .
+
+Procter & Gamble went down 3 1\/2 to 130 , Dow Jones fell 3 1\/2 to 37 1\/2 and Rockwell International dropped 2 1\/8 to 25 .
+
+At Canon Inc. , for example , sales are up nearly 20 % this year ; so , the maker of cameras and computer printers is doing what any Japanese company would do under the circumstances : It is increasing capital spending -- by 60 % .
+
+It is building , among other things , a new laser-beam-printer factory in western Japan that can produce up to 150,000 printers next year .
+
+Even companies in smokestack industries wrestling with world-wide overcapacity are joining the boom .
+
+Japan 's steelmakers are raising capital spending 22 % this year to $ 4.8 billion .
+
+Japan 's steelmakers are raising capital spending 22 % this year to $ 4.8 billion .
+
+Hitachi Zosen Corp. , a shipbuilder buried in debt just a few years ago , will build a machinery plant , its first expansion in 14 years .
+
+They fear that the boom may be too big for Japan 's or anyone else 's good .
+
+`` It 's an explosive cocktail '' thrown at the world , says Kenneth Courtis , senior economist at the Tokyo unit of Deutsche Bank Group .
+
+Not everyone is worried , however .
+
+Some economists -- and many Japanese companies -- are puzzled by the warnings .
+
+Japanese consumers are increasingly eager to spend their money , especially on high-priced goods such as 29-inch television sets and luxury cars .
+
+Nissan Motor Co. 's domestic auto sales are up 20 % this year largely because its expensive Cima , Sylvia and Cefiro models are in heavy demand .
+
+Among them are the shipbuilders , which had halved their shipyard work forces to cut costs during a prolonged slump in demand but now are capturing an increased share of the strengthening global market .
+
+Sasebo Heavy Industries Co. , a medium-sized shipbuilder , expects its sales to increase 30 % this year , largely because of rising demand for oil tankers .
+
+The emphasis on market share is evident at Daikin Industries Ltd. , Japan 's biggest maker of industrial air conditioners .
+
+Seeing new office buildings sprout up and its sales soar , Daikin is building another plant , which will lift its production capacity 50 % .
+
+The expansion is aimed not just at meeting demand but also at expanding the company 's market share to 30 % from 27 % currently .
+
+The competition is even more heated in the auto industry , where companies are racing one another in a world-wide market .
+
+Nissan aims to expand its 25 % share of the market to 30 % by spending $ 141 million on a plant in southern Japan that could make as many as 240,000 cars a year .
+
+Those who are n't worried about how Japanese manufacturers ' investments will affect trade note that many new products are n't replacements for imports .
+
+Although imports account for less than 1 % of beer sales in Japan , Asahi Breweries Ltd. , which has been gaining share with its popular dry beer , plans to fend off Japanese competitors by pouring $ 1.06 billion into facilities to brew 50 % more beer .
+
+Meanwhile , Toshiba 's Japanese rivals , Hitachi , Fujitsu Ltd. and NEC Corp. , are n't sitting still .
+
+After doubling production in one plant , NEC is spending $ 275 million to build another plant that , in two years , will be able to make a million four-megabit DRAMs a year .
+
+Some of Japan 's goods being produced as a result of the investment boom are already successful overseas .
+
+Toyota 's $ 35,000 Lexus automobile , a luxury model that it started shipping to the U.S. only last month , is racking up orders at a time when U.S.-made luxury-car sales are slow .
+
+Amdahl 's results were somewhat worse than expected .
+
+Jay Stevens , an analyst with Dean Witter Reynolds , said he expected the Sunnyvale , Calif. , company to earn 35 cents a share for the quarter and said the firm 's weaker profit was partly the result of increased competition from International Business Machines Corp. , Amdahl 's principal competitor for mainframe sales .
+
+Czechoslovakia 's premier said he supports broad political and economic restructuring , but ruled out any dialogue between Prague 's Communist government and independent human-rights or dissident groups .
+
+Ladislav Adamec , ending a two-day visit to Austria , pledged changes in Czechoslovakia , including freer travel to the West .
+
+Despite the Composite 's advance , some trading officials are guardedly optimistic that the market is on the road to recovery .
+
+Lance Zipper , head of over-the-counter trading at Kidder Peabody , said it is difficult to make predictions based on yesterday 's trading volume .
+
+Biotechnology issues were strong .
+
+Amgen advanced 1 1\/2 to 56 ; Chiron jumped 2 to 29 3\/4 ; Cetus gained 1 to 16 7\/8 and Biogen rose 5\/8 to 14 5\/8 .
+
+Other stocks were affected by corporate earnings .
+
+Informix , which recently said third-quarter net income rose to 16 cents a share from a penny a share a year ago , gained 1 5\/8 to 13 5\/8 on 810,700 shares .
+
+Advertisers already are balking at higher prices .
+
+`` The networks are paying too much for rights , '' warns adman Paul Isacsson of Young & Rubicam .
+
+`` What happens to those two basketball contracts will shape the next five years of network sports , '' says Peter Lund , a former CBS Sports president now at Multimedia Inc .
+
+J. William Grimes , former president of ESPN , says NBC may `` come in with a huge bid for college basketball to take it away from CBS and say , ` We can overbid , too . '
+
+And he is n't the only big spender
+
+NBC will pay a record $ 401 million for the 1992 Summer Games
+
+Mr. Pilson gave him one
+
+He bid $ 243 million for rights to the 1992 Winter Games in Albertville , France
+
+It alone is n't likely to stop a station from dumping CBS shows .
+
+`` The World Series , seven nights , was n't enough of an incentive , '' says Arnold Klinsky of WHEC-TV in Rochester , which dropped CBS for NBC six weeks ago .
+
+And avoiding such losses will take a monumental effort .
+
+On the $ 1.06 billion baseball agreement alone , CBS is likely to lose $ 250 million in four years , contends Mr. Wussler , the former CBS man , now at Comsat Inc .
+
+Advertisers are resisting higher prices , which would help close the gap .
+
+CBS signed General Motors and Toyota to be the only auto-maker sponsors in baseball for four years .
+
+Price : $ 265 million .
+
+But ad executives who negotiated the deal say that works out to only $ 275,000 for a 30-second ad in the World Series through 1993 -- 17 % less than what ABC is charging for the Series this month .
+
+But CBS 's costs are huge , and the risks go up with each new sports package that CBS locks up .
+
+Although sports officials predict jumps of 50 % to 100 % in the major contracts coming up for renewal , ad rates may rise only 20 % .
+
+The Communications Workers of America , which opposes such monitoring , says supervisors listen in on an estimated 400 million calls each year .
+
+Among companies saying they monitor employees are United Airlines , American Airlines , United Parcel Service , Nynex Corp. , Spiegel Inc. , and the circulation department of this newspaper .
+
+The slow-growing mainframe market also has shown new signs of life lately .
+
+IBM 's mainframe sales have held up better than expected this year , with analysts estimating they have risen 10 % to 12 % .
+
+`` Demand for these systems has been very , very strong , '' said Bill Grabe , a senior IBM marketing executive .
+
+`` We have a good strong backlog for the fourth quarter even without '' the systems that were announced yesterday .
+
+On Capitol Hill , though , there does n't seem to be sufficient sentiment to pair capital gains and the deficit-reduction bill .
+
+Texas Rep. William Archer , the ranking Republican on the House Ways and Means Committee said , `` I do n't see how we have the votes '' to place a capital-gains tax cut there .
+
+Some lawyers say the slump , while more obvious in recent weeks , began earlier this year .
+
+Dennis Block , a partner at the New York firm of Weil , Gotshal & Manges , said that in the first eight months of this year , 89 hostile offers were launched , compared with 157 for the first eight months of
+
+Still , some lawyers say the mergers slowdown has n't affected foreign buyers as much as domestic ones .
+
+`` We just took another floor for our London offices , '' said Joseph Flom of the New York firm of Skadden , Arps , Slate , Meagher & Flom .
+
+THE PHILADELPHIA law firm of Ballard , Spahr , Andrews & Ingersoll said three partners have joined its business and finance department .
+
+John Ake , 48 , a former vice-president in charge of legal compliance at American Capital Management & Research Inc. , in Houston , will join Ballard Spahr 's corporate-securities practice .
+
+Anti-abortion forces regard him as at best an uncertain ally .
+
+`` In all honesty if you ask me , ` Is this man a true believer ? ' I do n't know , '' says John Fowler , head of the Washington-based Ad Hoc Committee in Defense of Life Inc .
+
+Yet abortion-rights forces remain bitterly critical .
+
+Douglas Gould , vice president of communications for the Planned Parenthood Federation of America , calls Mr. Bush 's position on the abortion-funding issue `` extremely cruel , '' adding : `` The guy has n't done one thing about prevention .
+
+These days , when others raise the subject of abortion , the usually loquacious president can be close-mouthed almost to the point of curtness .
+
+Ten days ago he was asked to amplify the reasons behind his anti-abortion stance .
+
+`` My position is well-known and well-stated , '' he replied .
+
+In his Rolling Stone interview in 1980 , Mr. Bush volunteered his abortion-rights remarks to contrast himself with his rival , Ronald Reagan .
+
+In addition to supporting the landmark Roe vs. Wade Supreme Court decision legalizing abortion , Mr. Bush said he opposed the constitutional ban on abortion that Mr. Reagan was promising to promote .
+
+Now , some see Mr. Bush trapped in a position he is neither comfortable with nor able to escape .
+
+Ken Ruberg , head of the Republican Mainstream Committee , a group of party moderates , observes : `` The administration finds itself in an ideological cul de sac that it will find it difficult -- if not impossible -- to get itself out of .
+
+When we look closely at our own history , it is clear that our constitutionally mandated civil rights have evolved not through the goodness of people 's hearts but through legislation and constitutional amendments .
+
+This is how American women won the right to vote .
+
+Analysts had mixed responses to the results .
+
+Donald DeScenza , an independent analyst in New Canaan , Conn. , said he was `` impressed with the company 's performance . ''
+
+However , Harry Millis , an analyst at McDonald & Co. , Cleveland , said Goodyear 's results `` fell at the bottom '' of his range of estimates .
+
+Today , Mr. Corry presides over a company whose fortunes have changed abruptly .
+
+Mr. Icahn , the company 's deep-pocketed , tenacious adversary , recently disclosed that he had raised his USX stake to 13.1 % , and he again threatened a takeover .
+
+The burning question is whether the new chief can parry Mr. Icahn without being pushed into unwelcome moves .
+
+Mr. Corry might have to dismember the company more than he wants to .
+
+Yet , the unassuming Mr. Corry helped chart USX 's transition from Big Steel to Big Oil .
+
+He served as Mr. Roderick 's front man in tense negotiations for the 1982 purchase of Marathon Oil for $ 5.9 billion .
+
+Nevertheless , Mr. Corry , once named chief executive , did n't waste any time distancing himself from his former boss , who still has an office on the 62nd floor of the USX tower in Pittsburgh .
+
+Soon after taking over last June , Mr. Corry rescinded a pay cut imposed on clerical workers , a move that Mr. Roderick had n't made in spite of improved earnings .
+
+However , even USX executives who work closely with him are n't sure about his long-term goals .
+
+`` I do n't think he has a clear sense of where he wants the company to go , '' one says .
+
+`` It 's part of the capitalistic market system that equity can be bought and equity is bought , '' he said .
+
+USX , he noted , was formed 88 years ago , `` by in effect buying out a bunch of other companies ... .
+
+Deciding what constitutes `` terrorism '' can be a legalistic exercise .
+
+The U.S. defines it as `` premediated , politically motivated violence perpetrated against noncombatant targets by subnational groups or clandestine state agents . ''
+
+In what amounts to an admission that the transition has n't gone as smoothly as Sears had hoped , the giant retailer is now trying new ways to drum up business without appearing to abandon its seven-month-old strategy .
+
+The company is highlighting more special deals in its advertising and stores , and it 's offering to defer finance charges on certain big-ticket items .
+
+Still , analysts do n't expect the buy-back to significantly affect per-share earnings in the short term .
+
+`` The impact wo n't be that great , '' said Graeme Lidgerwood of First Boston Corp .
+
+The people have given their leading and only credible political party , the Liberal Democratic Party , clear and uninterrupted power for those 40 years .
+
+The LDP won by a landslide in the last election , in July 1986 .
+
+The Japanese government does n't allow this .
+
+The Ministry of Agriculture and Fishery actually is a ministry for farmers and fishermen instead of a ministry of provisions .
+
+This makes enormous sense in Japan , where direct tax accounts for more than 70 % of revenues and the capture rate of direct tax is so unfair .
+
+If you are a salaried man , Amen ! 100 % captured .
+
+Taken by surprise , the Socialist Party is busy changing its doctrines .
+
+It 's now OK to deal with the U.S. , but not the Soviet Union .
+
+But only after a fleet of 336 gargantuan earthmoving vehicles belonging to De Beers Consolidated Mines Ltd. , the world 's diamond kingpins , do their work .
+
+Last year , 43 million tons of desert were moved from one dune to another to recover 934,242 carats , which comes to 46 tons of sand per carat , or one-fifth gram .
+
+The mining zone has thus remained one of the most desolate places in Africa .
+
+Ghost towns dot the Namib dunes , proving diamonds are n't forever .
+
+And Oranjemund boasts attractions besides diamonds .
+
+There are six video rental shops , three restaurants , one cinema and 34 sports and recreation clubs for everything from cricket to lawn bowling .
+
+Huge machines that look as though they came from the Star Wars desert-battle scene lumber among the dunes .
+
+Mechanized vacuum cleaners probe the sand like giant anteaters ; a whirring ferris wheellike excavator , with buckets instead of seats , chews through layers of compacted sand ; tracks and conveyor belts , shuttling sand to the screening plants , criss-cross the beach .
+
+`` Magazines are not providing us in-depth information on circulation , '' said Edgar Bronfman Jr. , president and chief operating officer of Seagram , in a panel discussion .
+
+`` How do readers feel about the magazine ?
+
+Magazine editors did not take the criticisms lying down .
+
+`` We spend a fortune on research information , '' said Steve Burzon , publisher of Meredith Corp. 's Metropolitan Home .
+
+But some analysts say Salomon has turned the corner .
+
+`` I upgraded the firm to my buy list because I certainly see signs of improvement , '' says Lawrence Eckenfelder , an analyst at Prudential-Bache Securities .
+
+Analysts say investors remain skittish toward Salomon because of its volatile earnings .
+
+In the first quarter , Salomon had a record loss of $ 28 million on revenue of $ 1.54 billion .
+
+So developers are saying they will look into distressed properties .
+
+They 'll go into someone else 's pasture as long as it 's greener than the one they 're in now . ''
+
+U.S. and Soviet officials hailed the joint project as a new indication of the further thaw in U.S.-Soviet relations .
+
+`` This is an outstanding example of how the East and the West can work together for their mutual benefit and progress , '' said Soviet Ambassador Yuri Dubinin , who hosted a signing ceremony for the venture 's partners at the Soviet embassy here .
+
+The six-story hotel will be on Gorky Street and initially will cater mostly to business travelers .
+
+It will have a Russian tavern , an English pub , a discotheque and Japanese and Italian restaurants , according to a Sheraton announcement .
+
+`` I 've got 70 kinds of apples .
+
+Here 's a Waltana , '' he exclaims , picking one off a tree .
+
+Few people are aware that the federal government lends almost as much money as it borrows .
+
+From 1980 to 1988 , while federal budget deficits totaled $ 1.41 trillion , the government issued $ 394 billion of new direct loans and an additional $ 756 billion of new primary loan guarantees .
+
+But recent events indicate that federal credit is out of control .
+
+Student loan defaults remain high at about 12 % , and the program has been rocked by allegations of fraud and mismanagement .
+
+Given the structure of most credit programs , it is surprising that default rates are not even higher .
+
+Guarantee rates are typically 100 % , giving lenders little reason to screen customers carefully .
+
+Creative accounting is a hallmark of federal credit .
+
+Many agencies roll over their debt , paying off delinquent loans by issuing new loans , or converting defaulted loan guarantees into direct loans .
+
+Some agencies simply keep bad loans on the books
+
+as late as 1987 , the Export-Import Bank held in its portfolio at face value loans made to Cuba in the 1950s
+
+Unit volume , or amount of products shipped , rose about 11 % in the international segment , with P&G continuing to win market share in Japan 's diaper and detergent markets .
+
+Jay Freedman , analyst with Kidder , Peabody & Co. , said P&G 's Always sanitary napkin , sold under the Whisper name in Japan , has firmly established itself as a leading brand .
+
+For fiscal 1990 , analysts expect P&G 's sales to continue to grow , with earnings climbing between 15 % and 20 % .
+
+Lynne Hyman , vice president of equity research for First Boston Corp. , expects P&G to post net of about $ 4.20 a share , on a post-split basis .
+
+Because of his remarkable success turning around P&G 's international operations , analysts have high hopes for his tenure .
+
+`` If he does to the domestic operations what he did internationally , '' says Mr. Zurkuhlen , `` this company will earn $ 6 or $ 7 a share in a few years .
+
+Two hundred years ago , critics of the new United States Constitution warned that the electoral districts for Congress were too large and encompassed too many different economic interests .
+
+A small farmer and a seaport merchant could not be represented by the same spokesman , they said .
+
+If the Soviets want to be believed , they need to start telling the truth about more than the totally obvious .
+
+Our own test of `` glasnost 's '' authenticity would be a Soviet decision to open itself to a complete international examination of one of the most troubling mysteries in U.S.-Soviet relations -- the reported 1979 anthrax outbreak at a Soviet military facility in Sverdlovsk .
+
+`` Shortageflation , '' as economists have come to call it , had gone hyper .
+
+The cost of raising a pig kept bounding ahead of the return for selling one .
+
+But it never did let up on the pressure .
+
+Until recently , a farmer with no heir had to will the state his land to collect his pension .
+
+By starving the peasant , the Communists have starved Poland .
+
+Villages like Zalubice exist in a desert of poor schools and few doctors .
+
+By taking power in a deal with the Peasant Party 's onetime Communist stooges , Solidarity has spooked the rural entrepreneur .
+
+Rural Solidarity objected , to no avail , when Solidarity leader Lech Walesa accepted the Peasants ' support .
+
+`` They want to turn everything upside down in a week .
+
+Mr. Niciporuk here wants 60 acres used at the moment by a state farm .
+
+The underlying bill approved yesterday is required to keep the government operating past midnight tonight , and this urgency has contributed to the speed -- and , critics say , mistakes -- that have accompanied the package of disaster assistance .
+
+The hastily drafted measure could hurt California by requiring it to put up more matching funds for emergency highway assistance than otherwise would be required .
+
+Closer to home , the negotiators were more generous .
+
+An estimated $ 38.9 million was set aside for military installations in the home state of North Carolina Rep. W.G. Hefner , the House chairman .
+
+Some Mobil executives were dismayed that a reference to the cutbacks was included in the earnings report before workers were notified .
+
+One Mobil executive said that the $ 40 million charge related to the action indicates `` a substantial '' number of people will be involved .
+
+Cast as Violetta Valery in a new production of Verdi 's `` La Traviata , '' Ms. Gruberova last week did many things nicely and others not so well .
+
+It is n't every day that we hear a Violetta who can sing the first act 's high-flying music with all the little notes perfectly pitched and neatly stitched together .
+
+Worse , her walls move all the time -- at least in this production .
+
+Just when Ms. Gruberova sat down away from her guests to cough in private , her salon began sliding around the stage ; her country hideaway also has a very active set of drapes .
+
+If a strike ever hits the Met , the company can still sell tickets to his `` Boheme '' and `` Turandot '' and boom out recordings -LRB- of another era -RRB- .
+
+Last week 's discerning audience gave a bigger hand to a greenhouse than to the tenor Neil Shicoff , who sang an aria inside it .
+
+In any event , Ms. Gruberova barely ventilated Violetta 's anguish in her long meeting with Wolfgang Brendel , who as Germont seemed fairly desperate trying to inject an Italianate lilt into his heavy , teutonic baritone .
+
+`` Di Provenza '' was n't much of an advertisement for sunny , southern France .
+
+So much , too , for the notion that we humans triumphed in the Darwinian struggle by evolving big brains .
+
+Our mammalian forerunners lucked out through the extraterrestrial impact that did in the dinosaurs because they were small , not smart .
+
+A sales tax increase appears to be the fastest and easiest to raise funds in a hurry .
+
+According to the state department of finance , a one-penny increase in the state 's six-cent per dollar sales tax could raise $ 3 billion .
+
+But observers expect broad support .
+
+`` If there 's an emergency and there are n't sufficient funds from elsewhere , I think the attitude will be supportive , '' said Kirk West , president of the California Chamber of Commerce .
+
+Not everyone is convinced the state must raise new revenue to meet its earthquake needs .
+
+`` It 's possible , though not probable , '' that the state could get by with its existing resources and federal help , said Quentin Kopp , chairman of the state senate 's transportation committee .
+
+Rules that set standards for products or govern business behavior , generally the best regarded form of red tape , `` create a level playing field and keep unscrupulous competitors away , '' says Sidney West , president of TechDesign International Inc. , a Springfield , Va. , business that designs telecommunication and other products .
+
+Mr. West cites the Federal Communications Commission and its standards for telecommunications equipment : `` They monitor product quality and prevent junk from flooding the market . ''
+
+Some gripes about red tape are predictable
+
+Architects complain about a host of building regulations , auto leasing companies about car insurance rules
+
+`` It 's very costly and time-consuming , '' says Phil Rosen , a partner in Fleet & Leasing Management Inc. , a Boston car-leasing company .
+
+One senior executive at his firm spends nearly 20 % of his time on insurance , he says .
+
+Yearly changes in federal benefit laws force small businesses to repeatedly re-evaluate and redesign existing plans .
+
+Alice Fixx , who runs her own public-relations concern in New York , says she has had to overhaul her pension and profit-sharing plans three times in the past three years .
+
+The director 's attempt to force some Brechtian distance between her actors and their characters frequently backfires with performances that are unduly mannered .
+
+Not only do the actors stand outside their characters and make it clear they are at odds with them , but they often literally stand on their heads .
+
+There are moments in this `` Summerfolk '' when the characters populating the vast multilevel country house -LRB- which looks like a parody of Frank Lloyd Wright and is designed by Victoria Petrovich -RRB- spout philosophic bon mots with the self-conscious rat-a-tat-tat pacing of `` Laugh In . ''
+
+`` Talk hurts from where it spurts , '' one of them says .
+
+Ms. Bogart 's cast is part and parcel of the problem .
+
+Ed Shea and Barbara Orson never find a real reason for their love affair as the foolish , idealistic young Vass and the tirelessly humanitarian doctor Maria Lvovna .
+
+Better to look in the corners for performances that inspire or amuse .
+
+Janice Duclos , in addition to possessing one of the evening 's more impressive vocal instruments , brings an unsuspected comedic touch to her role of Olga , everybody 's favorite mom .
+
+He also said investment by businesses is falling off .
+
+Of 1,224 companies surveyed , 31 % expect to cut spending on plant equipment and machinery , while only 28 % plan to spend more .
+
+Many economists have started predicting a mild recession next year .
+
+David Owen , U.K. economist with Kleinwort Benson Group , reduced his growth forecast for 1990 to 0.7 % from 1.2 % and termed the risk of recession next year `` quite high . ''
+
+And many have done just that .
+
+Consider Spendthrift Farm , a prominent Lexington horse farm that went public in 1983 but hit hard times and filed for bankruptcy-court protection last year .
+
+Even while they move outside their traditional tony circle , racehorse owners still try to capitalize on the elan of the sport .
+
+Glossy brochures circulated at racetracks gush about the limelight of the winner 's circle and high-society schmoozing .
+
+Glossy brochures circulated at racetracks gush about the limelight of the winner 's circle and high-society schmoozing .
+
+One handout promises : `` Pedigrees , parties , post times , parimutuels and pageantry . ''
+
+And for every champion , there are plenty of nags .
+
+Katherine Voss , a veteran trainer at the Laurel , Md. , track , offers neophytes a sobering tour of a horse barn , noting that only three of about a dozen horses have won sizable purses .
+
+Although Axa has been rebuffed by Farmers and has n't had any meetings with management , Mr. Bebear nonetheless appears to be trying to woo the company 's executives with promises of autonomy and new-found authority under Axa .
+
+He said Mr. Denlea would be a member of the top management team of the Axa-Midi group of companies , and would `` help define policies and strategies of the group . ''
+
+The decline in prices cut broadly through the blue-chip issues , as Siemens tumbled 7.5 to 544 , Deutsche Bank plunged 7 to 657 , and the auto makers fell sharply as well .
+
+Daimler-Benz dropped 12.5 to 710.5 , Bayerische Motoren Werke dropped 10.5 to 543.5 , and Volkswagen lost 7.1 .
+
+Several lawmakers were angered that the bank and thrift regulators generally said they have been too busy handling the record number of bank and thrift failures in the past few years to put much energy into investigating possible discrimination .
+
+`` We would be the first to admit that we have not devoted the necessary amount of emphasis over the past several years '' to developing examinations for discrimination , said Jonathan Fiechter , a top official of the Office of Thrift Supervision .
+
+Citing rising fuel costs , promotional fare cuts and a general slowdown in travel , several major carriers have posted or are expected to post relatively poor third-quarter results .
+
+Yesterday , USAir Group Inc. , recently one of the industry 's stellar performers , posted a worse-than-expected $ 77.7 million net loss for the period .
+
+In announcing the results , USAir cited many of the same problems that several other industry officials have named recently .
+
+It said the industry 's domestic traffic was flat in the third quarter ; analysts say this was because hefty fare increases earlier in the year scared off many leisure travelers this summer .
+
+Some other fare promotions have backfired .
+
+This summer , the industry introduced a `` kids fly free '' program , in which children were allowed to fly free if they were traveling with an adult .
+
+Airlines also say their frequent-flier programs are squeezing profits because awards are being redeemed at a heavier-than-normal rate .
+
+One airline official said about three times as many free-travel coupons are being turned in as in previous years -- not surprisingly , as the airlines last year allowed many travelers to build up mileage at triple the normal rate .
+
+Rising operating expenses are another problem .
+
+Fuel costs were up 10 % in the third quarter .
+
+Whatever the cause for the downturn , few people are predicting any sudden improvement .
+
+Airline Economics Inc. , an aviation consulting firm , is projecting an industrywide operating profit of $ 2.5 billion for 1989 , compared with earlier forecasts of $ 3 billion to $ 3.5 billion .
+
+The effort will make the Peanuts gang very familiar pitchmen in 1990 .
+
+General Electric plans to use the characters to plug its Miser light bulb .
+
+All the tie-ins , though , have some marketing experts questioning whether the party may go too far .
+
+`` There are too many people participating , '' says Al Ries , of Trout & Ries , a Greenwich , Conn. , marketing consulting firm .
+
+Production of cars rose to 801,835 units in September , a 5.5 % increase from a year earlier .
+
+Midsized cars accounted for the greatest growth in units , rising 62,872 units to 134,550 units , or 88 % .
+
+Minicar output more than tripled .
+
+Some investors whose names were bandied about by traders as potential UAL stock buyers said they were n't buying .
+
+`` I 'm not interested , '' said Dallas investor Harold Simmons .
+
+Betty Raptopoulos , senior metals analyst at Prudential-Bache Securities in New York , agreed that most of the selling was of a technical nature .
+
+She said the market hit the $ 1.18 level at around 10 a.m. EDT where it encountered a large number of stop-loss orders .
+
+PRECIOUS METALS : Futures prices inched upward in mostly lackluster trading .
+
+December gold was up $ 3.20 an ounce at $ 373.40 ; December silver gained 5.7 cents to $ 5.1950 an ounce .
+
+People who have seen SCI TV 's restructuring plan say it offers concessions by KKR and Gillett Corp .
+
+They would both give part of their combined $ 50 million in common equity in SCI TV to holders of SCI TV 's $ 488 million of junk bonds , as a carrot to persuade them to accept new bonds that might reduce the value of their claims on the company .
+
+As in the Oct. 13 massacre , yesterday morning 's drop was triggered by bad news for speculators in UAL .
+
+A UAL statement after the market closed Monday indicated that the airline 's board wanted to keep the company independent , effectively crushing hopes of an immediate buy-out .
+
+Some institutional traders loved the wild ride .
+
+`` This is fun , '' asserted Susan Del Signore , head equity trader at Travelers Investment Management Co .
+
+But traders who risk money handling big blocks of stock were shaken .
+
+`` This market is eating away my youth , '' said Chung Lew , head equity trader at Kleinwort Benson North America Inc .
+
+Dow Jones climbed 5 3\/4 to 41 on very heavy volume of 786,100 shares .
+
+Analysts said a big Japanese buy order was behind the rise .
+
+Stocks of California-based thrifts also were hard hit .
+
+Great Western Financial lost 1 1\/8 to 20 1\/2 on 1.6 million shares , Golden West Financial dropped 1 1\/4 to 28 1\/2 and H.F. Ahmanson dipped 5\/8 to 21 1\/4 .
+
+But high-yield , high-risk bonds fell 1\/4 to 1\/2 point with the stock market early in the session and never recovered .
+
+According to a trader at Drexel Burnham Lambert Inc. , the hardest hit junk bonds were those issued by RJR Holdings Capital Corp. , which are the easiest to sell .
+
+According to a trader at Drexel Burnham Lambert Inc. , the hardest hit junk bonds were those issued by RJR Holdings Capital Corp. , which are the easiest to sell .
+
+RJR 's 14.70 % bonds due 2007 fell 2 1\/2 points .
+
+Short-term rates were unchanged to slightly lower .
+
+The discount rate on three-month Treasury bills was quoted at 7.52 % for a bond-equivalent yield of 7.75 % , while the rate on six-month Treasury bills was quoted at 7.47 % for a yield of 7.85 % .
+
+Three of the largest offerings , by Exxon Capital Corp. , Xerox Corp. and Citicorp , were underwritten by groups led by Salomon Brothers Inc .
+
+Exxon Capital , long-rumored to be a potential debt issuer , offered $ 200 million of 10-year notes priced to yield 8.31 % .
+
+NATO defense ministers opened a two-day meeting in Portugal to assess the alliance 's nuclear-weapons needs amid reduced East-West tensions .
+
+The ministers ordered a study on the strategic role of nuclear arms in Western Europe once Soviet conventional weapons are reduced in the East bloc .
+
+Car and truck sales slid 20.5 % in mid-October as U.S. manufacturers paid the price for heavy incentives earlier in the year .
+
+General Motors continued to be hardest hit .
+
+A non-invasive method is being researched by biophysicist Lynn Jelinski at the AT&T unit .
+
+It relies on the fact that certain atoms give off detectable signals when subjected to an intense magnetic field .
+
+The ads celebrate the achievements of some of Lake View 's residents .
+
+A spot honoring Bill White , the inventor of chewing gum , shows a woman trying to extricate her high-heeled shoe from a wad of gum .
+
+But he and Dr. Yonehara said there were still several uncertainties , particularly regarding possible side effects .
+
+`` Our antibody specifically killed infected cells at a very low dose , but it can also kill other cells , '' said Dr. Yonehara .
+
+And he questions the White House dedication .
+
+`` I do n't think the Bush administration has done anything , '' he says .
+
+At most firms , though , it 's the immediate supervisor who decides the merit increases subordinates will be paid .
+
+Managers have `` some very broad discretion , '' says an official at Walt Disney Co .
+
+LONG-TERM care insurance gains favor .
+
+More than half the people surveyed for the Employee Benefit Research Institute say they would be willing and able to pick up most of the cost of the coverage .
+
+The reality is that Bank finances are rock solid .
+
+As of June 30 , 1989 -- the day our past fiscal year came to a close -- only 4.1 % of the Bank 's portfolio was affected by arrears of over six months .
+
+By and large , these efforts have borne fruit .
+
+In my home region , Latin America , much of the existing infrastructure base -- an important building block for development -- has been financed by the World Bank .
+
+What are the facts on this type of lending ?
+
+The Bank has been making adjustment loans for 10 years .
+
+Through these investigations we do not focus on the street drug user , but rather we target and attack major drug-trafficking organizations that control a large segment of the drug market .
+
+The trial of Raful Edmond III in Washington serves to highlight our efforts in this area and the results achieved through our excellent working relationship with the Drug Enforcement Administration and the Metropolitan Police Department -LRB- MPD -RRB- .
+
+Bond prices rallied .
+
+The yield on the Treasury 's benchmark 30-year bond slipped to 7.93 % .
+
+Other magazine publishing companies have been moving in the same direction .
+
+The New York Times Co. 's Magazine Group earlier this year began offering advertisers extensive merchandising services built around buying ad pages in its Golf Digest magazine .
+
+Your article points out the traps people fall into , but when reviewing those traps one sees just about all of them could have been avoided .
+
+An accountant did not review the seller 's books before buying a business .
+
+Though some magazines are thriving , the magazine publishing industry remains a risky business .
+
+Within the same nine months , News Corp. closed down In Fashion , a once-promising young woman 's fashion magazine , Drake Publications Inc. has folded the long-troubled Venture magazine , and Lang Communications has announced Ms. magazine , after 17 years , will no longer carry advertising as of January .
+
+There are also indications that the number of magazine entrepreneurs , traditionally depended upon to break new ground with potentially risky start-ups , are dwindling .
+
+More than ever , independent magazines and small publishing groups are being gobbled up by larger publishing groups , such as American Express Publishing Corp. , a unit of American Express Co. , and Conde Nast Publications Inc. , a unit of Advance Publications Inc. , which are consolidating in order to gain leverage with advertisers .
+
+Some entrepreneurs are still active , though .
+
+Gerry Ritterman , president of New York-based Network Publishing Corp. , earlier this year sold his Soap Opera Digest magazine to Rupert Murdoch 's News Corp .
+
+Within six years many figures were convicted for their illegal abuse of Franklin funds .
+
+In June 1980 , Michele Sindona -- an Italian financier who in July 1972 had bought a 22 % block of Franklin 's stock from Loews Corp. , headed by Laurence A. Tisch -- was sentenced to 25 years in prison after being convicted of fraud and perjury .
+
+Some lawyers and scholars see the social scientists ' vision of the American jury system as a far cry from the ideal presented in civics texts and memorialized on the movie screen .
+
+In the film classic `` Twelve Angry Men , '' the crucible of deliberations unmasks each juror 's bias and purges it from playing a role in the verdict .
+
+Sophisticated trial consulting grew , ironically , from the radical political movements of the 1960s and 1970s before finding its more lucrative calling in big commercial cases .
+
+The Harrisburg 7 trial in 1972 , in which Daniel Berrigan and others were charged with plotting anti-war-related violence , was a landmark .
+
+If it is a case in which the client seeks punitive damages , for example , depressed , underemployed people are far more likely to grant them .
+
+Someone with a master 's degree in classical arts who works in a deli would be ideal , Litigation Sciences advises .
+
+Lawyers remain divided about whether anything is wrong with all this .
+
+Supporters acknowledge that the process aims to manipulate , but they insist that the best trial lawyers have always employed similar tactics .
+
+Some litigators scoff at the notion that a sociologist knows more than they do about what makes a jury tick .
+
+`` The essence of being a trial lawyer is understanding how people of diverse backgrounds react to you and your presentation , '' says Barry Ostrager of Simpson Thacher & Bartlett , who recently won a huge case on behalf of insurers against Shell Oil Co .
+
+Even some lawyers who have used consultants to their advantage see a need to limit their impact .
+
+Mr. Boies , the first lawyer to use Mr. Vinson 's services , cautions against courts ' allowing extensive jury questioning -LRB- known as voir dire -RRB- or giving out personal information about the jurors .
+
+In addition , the company has made it tough on competitors by offering a stream of desktop computers at sharply lower prices .
+
+A year ago , Silicon Graphics introduced a model priced at $ 15,000 -- almost as cheap as mainstream workstations that do n't offer special graphics features .
+
+One answer is that big companies are growing weary of fighting environmental movements and are trying instead to cash in on them , although they never care to put it quite that way .
+
+Du Pont , as it happens , has a potential substitute for CFCs .
+
+There are still others who do n't mind seeing new crises arise .
+
+Environmental groups would soon go out of business were they not able to send out mailings describing the latest threat and asking for money to fight it .
+
+Five states -- Oregon , Rhode Island , New Hampshire , Iowa and Wisconsin -- passed bills to boost the minimum wage , but measures in 19 other states were defeated .
+
+Oregon 's rate will rise to $ 4.75 an hour , the nation 's highest , in Jan. 1 , 1991 .
+
+Consequently , small business is taking more `` pro-active '' steps to counter mandated leaves .
+
+In Pennsylvania , small businesses are pushing for a voluntary alternative ; they favor a commission that would develop sample leave policies that employers could adopt .
+
+Small businesses in suburban Chicago are discovering that an area-code switch Nov. 11 -- to 708 from the familiar 312 -- wo n't be without some costs as they alter stationery , among other things , and notify customers .
+
+Wessels & Pautsch , a small St. Charles law firm , plans to mail 500 customers a list of its lawyers ' new phone and fax numbers as well as updated Rolodex cards .
+
+But many owners plan to practice frugality -- crossing out the old code and writing in the new one until their stock runs out .
+
+Even print-shop operator Clay Smith of Naperville wo n't discard his old supply .
+
+But critics consider the changes regressive .
+
+Lewis G. Rudnick , a Chicago lawyer who represents franchisers , contends California is narrowly limiting -- rather than expanding -- opportunities for negotiating sales .
+
+Not that getting into town was easy .
+
+Storm flooding caused back-ups on the freeway , and many commuters had to find rides to BART 's stations , because parking lots were full before dawn .
+
+Some individuals went to some lengths on their own to avoid the anticipated gridlock .
+
+One senior vice president at Bechtel said he got up at 3 a.m. to drive into San Francisco from the East Bay .
+
+Consistently , D.T. was over-optimistic about its chances , which it continually sized up , in numerical form .
+
+When most spectators thought its position hopeless , the computer thought it was only , in effect , one-half of a pawn down .
+
+Now , after only a dozen moves , spectators were looking for a mating combination .
+
+On a demonstration board , emcee Shelby Lyman showed a quick kill initiated by a knight sacrifice ; no spectator refuted this line of play .
+
+In recent years , growth has come in the foreign markets .
+
+U.S. brandy exports more than doubled last year to 360,000 proof gallons , a standard industry measure , according to Jobson Beverage Alcohol Group , an industry association .
+
+California wineries , benefiting from lowered trade barriers and federal marketing subsidies , are expanding aggressively into Japan , as well as Canada and Great Britain .
+
+In Japan , the wineries are promoting their products ' Pacific roots and courting restaurant and hotel chefs , whose recommendations carry weight .
+
+Bourbon exporters have succeeded in Japan where other industries have failed , avoiding cultural hitches in marketing and distribution by allying themselves with local agents .
+
+Jim Beam Brands has a distribution partnership with Nikka Whiskey Co. , a distiller .
+
+Some bourbon makers advertise abroad as they do at home .
+
+To promote Jack Daniel 's overseas , Brown-Forman uses the same photos of front porches from Lynchburg , Va. , and avuncular old men in overalls and hightops .
+
+Jim Beam print ads , however , strike different chords in different countries .
+
+In Australia , land of the outback , a snapshot of Jim Beam lies on a strip of hand-tooled leather .
+
+Ads for England are artsy and irreverent .
+
+One ad features a huge robot carrying a voluptuous woman in a faint .
+
+`` It 's nothing dramatic , just a routine sell-off . ''
+
+Some of it was due to lower-than-expected earnings from leading companies , he said .
+
+He predicted that the most popular growth companies will be those with `` some kind of unique product or franchise '' that makes them appear able to sustain their momentum .
+
+He puts the OTC market 's Nellcor , Office Club and BizMart on the list .
+
+Other favorites of growth-stock analysts and money managers also had a mixed session .
+
+Payco American , a credit collection concern , jumped 1 3\/8 to 20 5\/8 on volume of 93,000 , and Mail Boxes Etc. , a private postal services company , advanced 1\/2 to 23 1\/2 on volume of 64,000 .
+
+They are based on dubious psychological and sociological theories rather than on educational experience .
+
+One of the reasons American students do so poorly in math tests , as compared with British , French , German or Japanese students , is the influence of the `` New Math '' on American textbooks and teaching methods .
+
+Finally , the official estimates understate growth because they make inadequate allowance for improvements in quality of goods and services .
+
+In 1985 , a new price index for computers adjusted for changes in performance characteristics was introduced , and that resulted in a significantly larger increase in real outlays for durable goods than the earlier estimates had showed .
+
+Up to now , Drexel has made a rapid-fire series of settlements with 25 states and the commonwealth of Puerto Rico .
+
+Just yesterday , New Hampshire announced it made a $ 75,000 settlement with Drexel , a record-tying fine for a securities-law matter in that state .
+
+Time Warner 's operating earnings got a boost from Warner 's record box-office results .
+
+`` Batman '' alone has racked up more than $ 247 million in box-office receipts to date , making it Warner Bros . ' largest grossing film ever .
+
+Lackluster returns are one reason .
+
+The average after-tax return on investment in 1986 , the most recent year for which results are available , was 6.5 % , according to Chatset Ltd. , an insurance consulting firm in London .
+
+The peril of unlimited liability looms large for a number of them now .
+
+`` I have wished I could die and be out of it -- that 's how bad it is , '' Betty Atkins , a secretary from suburban London , says .
+
+Ms. Atkins , whose Lloyd 's membership was a bonus from a former employer in 1981 , belongs to Mr. Nutting 's dissident group on the Outhwaite syndicate , which has been hard hit by asbestos reinsurance claims .
+
+Ms. Atkins , who underwrote # 20,000 , or about $ 32,000 , of insurance coverage on that syndicate , now faces potential losses of roughly # 70,000 , or $ 111,000 .
+
+Unease is widespread among exchange members .
+
+`` I ca n't think of any reason to join Lloyd 's now , '' says Keith Whitten , a British businessman and a Lloyd 's member since 1979 .
+
+Meanwhile , the exchange has been trying to lower costs .
+
+-LRB- It recently cut its work force by 9 % , or 213 . -RRB-
+
+Lloyd 's is moving forward on some fronts , though .
+
+Mr. Lawrence says the exchange is updating some procedures to make speedier payments on claims .
+
+By his own account , Mr. Dozen did n't do much better with U.S. bonds .
+
+In an interview a few months ago , he recalled how after some training at Salomon Brothers Inc. , he successfully bid for the opportunity to sell portions of 20 U.S. corporate bond issues .
+
+But he could n't sell any .
+
+But so far , most potential participants have n't decided .
+
+Sun Microsystems Inc. said it 's still actively evaluating U.S. Memories and plans to meet with U.S. Memories representatives later this week .
+
+And of course , doing anything that might be second-guessed by Congress carries heavy penalties .
+
+Witness the Walsh prosecution of Ollie North .
+
+Offsetting the lower stake in Lyondell were higher crude oil prices , increased natural gas volumes and higher coke prices , the company said .
+
+Coal earnings rose to $ 26 million from $ 21 million .
+
+Many money managers are bracing for a decline in stocks of companies with big debt loads on their balance sheets .
+
+`` The junk bond market is being taken apart '' because of recession fears , said J. David Mills , senior vice president at Boston Company Advisers .
+
+Entertainment and media stocks generally escaped the market 's slide as well .
+
+Paramount Communications rose 5\/8 to 58 3\/4 , Time Warner climbed 1 7\/8 to 138 5\/8 , Walt Disney advanced 3 1\/8 to 127 1\/2 , MCA rose 1 1\/8 to 65 5\/8 and McGraw-Hill added 1\/2 to 67 1\/8 .
+
+He may have gone overboard in his pursuit of good discipline , but is n't it interesting that some of the country 's biggest , most troubled school districts are choosing new chiefs from the same gravel-chewing mold ?
+
+Elena Scambio , the woman assigned to run the Jersey City school system that was taken over by the state , says her top priority will be to `` cut through the dead hand of bureaucracy . ''
+
+Mr. Fernandez does n't take control in New York until January , but already he 's roiling the waters .
+
+He 's attacked the concept of `` building tenure , '' one of the most disgraceful institutions in American public schools .
+
+Once they are in the building , they stay .
+
+One South Bronx principal kept his job for 16 years , despite a serious drinking problem and rarely showing up for work .
+
+Mr. Roman comes across as a low-key executive ; Mr. Phillips has a flashier personality .
+
+During time off , Mr. Roman tends to his garden ; Mr. Phillips confesses to a fondness for , among other things , fast cars and planes .
+
+Mr. Roman 's departure is n't expected to have any enormous repercussions at Ogilvy .
+
+American Express , Kraft General Foods , and Mattel executives said the move wo n't affect their relationships with the ad agency .
+
+American Express , Kraft General Foods , and Mattel executives said the move wo n't affect their relationships with the ad agency .
+
+`` General Foods 's relationships with its agencies are based on the agencies ' work , and will continue to be , '' said David Hurwitt , a vice president of Kraft General Foods .
+
+But some clients and analysts expressed concern that Mr. Phillips is n't as well-known to many clients .
+
+`` Ken was my key contact , '' said J. Nicholas Hahn , president and chief executive officer of Cotton Inc. , which represents cotton producers .
+
+The Turner move is in line with a cable-TV trend toward more original programming -- and toward finding more ways to amortize the high cost of producing films .
+
+In July , Viacom Inc. formed Viacom Pictures to produce 12 low-budget movies a year that will premiere on Showtime network and be distributed later in various markets , including foreign theaters .
+
+Analysts have mixed views about the two-year note auction .
+
+While some say the auction should proceed smoothly , others contend that yesterday 's sale of $ 2.58 billion of asset-backed securities by Ford Motor Credit Corp. may have siphoned some potential institutional buyers from the government 's note sale .
+
+But she did n't trust them and did n't reward trust .
+
+As she saw one key love affair , the problem was n't her infidelity , it was his jealousy .
+
+Baker had the good luck to arrive in 1925 Paris , where blacks had become exotic .
+
+African art was in vogue and some intellectuals were writing breathlessly of a dawning age to be inspired by blacks .
+
+It does n't help that sometimes Ms. Rose 's language fails to deliver the effect she appears to want .
+
+One chapter opens : `` World War II was not one of France 's glorious moments . ''
+
+They are , nonetheless , high on Manville 's management .
+
+`` It 's one of the best in the business , '' says Salomon Brothers analyst Stephen Dobi .
+
+For now , defense attorneys are tight-lipped about their plans .
+
+Max Gitter , another GAF defense attorney , said yesterday , `` As we go in for the third time , Yogi Berra 's famous line is apt : ` It 's deja vu all over again . ' ''
+
+Though the bank is n't performing as well as some of its competitors in the lucrative California market , its condition has improved since Mr. Decker took over .
+
+For the six months ended June 30 , it earned $ 3.1 million , or 61 cents a share , compared with net income of $ 2.4 million , or 41 cents a share , a year earlier .
+
+California 's high-priced real estate puts it in an awkward position , too .
+
+One provision last night would have raised the cap on disaster loans to $ 500,000 from $ 100,000 per household to accommodate San Francisco losses .
+
+Mr. Gonzalez is also a stickler for ethical standards who refuses to accept honorariums and who believes in conducting official business in the open .
+
+Early in his political career , as a city councilman in San Antonio , he walked out of a meeting when political supporters asked that the police chief be replaced , denouncing the closed-door affair publicly as a `` bat-roost meeting . ''
+
+This is raising eyebrows .
+
+`` When I first got a glimpse at the witness list , I could n't believe that they were going to go ahead and do this , '' says Michael Waldman , director of Congress Watch , a consumer group .
+
+But the chairman 's supporters have the upper hand as federal regulators press a $ 1.1 billion fraud suit against Mr. Keating and others .
+
+Rep. Jim Leach -LRB- R. , Iowa -RRB- says the Lincoln S&L affair is `` the biggest bank heist in history , '' and adds : `` The great question that remains to be resolved is whether we have a congressional Watergate in the making . ''
+
+Not surprisingly , she quickly adapted to the American way .
+
+Three months after she arrived in L.A. she spent $ 120 she did n't have for a hat .
+
+Since then she has become wealthy .
+
+Her husband and older son -- a computer prodigy profiled in The Wall Street Journal in 1981 , when he was 13 -- run a software company with expected sales this year of $ 10 million .
+
+`` You have to be born with it .
+
+I used to wear hats in Russia , but I had to make them and my dresses .
+
+Now 48 years old , Ms. Volokh has definite ideas about what she wants .
+
+At Movieline , she wants `` specific paragraphing , specific tone , a specific attitude -- bright and bold and tongue-in-cheek . ''
+
+That done , Ms. Volokh spoke with rampant eloquence about the many attributes she feels she was born with : an understanding of food , business , Russian culture , human nature , and parties .
+
+`` Parties are rather a state of mind , '' she said , pausing only to taste and pass judgment on the Georgian shashlik -LRB- `` a little well done , but very good '' -RRB- .
+
+`` If you are born to give parties , you give parties .
+
+Even in Russia we managed to give parties .
+
+`` I do n't trust people who do n't eat , '' said Ms. Volokh , though she herself stopped eating lunch a few years ago to drop 25 pounds .
+
+`` Look at Dostoevski and Kafka .
+
+But while U.S. interest may be big and growing , the difficulties that have stymied deals in the past show no sign of abating .
+
+Alongside the old problems of a non-convertible currency and an inpenetrable bureaucracy , Western business executives must now grapple with new complexities linked to perestroika , the restructuring of the Soviet economy .
+
+Judging by the crush at the exhibition , deprived Soviet consumers are more than ready for U.S. products .
+
+Hundreds of people lined up every day at the Colgate-Palmolive Co. stand to receive a free tube of toothpaste , a commodity in chronically short supply here .
+
+Some U.S. products are filtering into the Soviet market under an emergency import program .
+
+Both Colgate and Procter & Gamble have received big orders for toothpaste , soap and detergents .
+
+International competition for the few Soviet goods that can be sold on world markets is heating up , however .
+
+Shelley M. Zeiger , an entrepreneur from New Jersey who buys Soviet porcelain and `` matryoshka '' nesting dolls for export to the U.S. , says West German companies already have snapped up much of the production of these items .
+
+Some U.S. entrepreneurs operate on a smaller scale .
+
+One group seeks to publish a U.S.-Soviet medical journal in conjunction with the U.S.S.R. Ministry of Health .
+
+That could change , thanks to lower long-distance rates and cheaper electronics .
+
+Video Telecom Corp. , which markets videoconferencing systems , is working with court reporters to wire a nationwide network to allow depositions by live television .
+
+The string of big junk bond defaults , which have been a major cause of the market 's problems this year , probably will persist , some analysts say .
+
+`` If anything , we 're going to see defaults increase because credit ratings have declined , '' says Paul Asquith , associate professor at the Massachusetts Institute of Technology 's Sloan School of Management .
+
+But name-dropping has other benefits , often civic .
+
+In the name of civic pride and from the desire to nullify a negative image , some city promoters seek to link their municipality with the most recognizable names the city has to offer .
+
+In Hollywood , an average family can gain cachet from moving into a home vacated by the famous or near famous .
+
+`` Why we even just sold a three-bedroom house in Van Nuys and were able to keep the price firm in a weak real-estate market by noting that the original Lone Ranger lived there , '' says David Rambo , a sales associate with Jon Douglas Co. , a Los Angeles real-estate agency .
+
+And some even do it with malice aforethought .
+
+Len Kessler , a financial publicist in New York , sometimes uses it to get the attention of journalists who try to avoid him .
+
+Len Kessler , a financial publicist in New York , sometimes uses it to get the attention of journalists who try to avoid him .
+
+He says that when Dan Dorfman , a financial columnist with USA Today , has n't returned his phone calls , he leaves messages with Mr. Dorfman 's office saying that he has an important story on Donald Trump , Meshulam Riklis or Marvin Davis .
+
+Detroit tries to counter the foreign invasion with new brands of its own .
+
+GM launched the Geo marque this year to sell cars made in partnership with foreign auto makers , and next year GM 's long-awaited Saturn cars will make their debut .
+
+It 's hard to generalize , but age seems to be the best predictor .
+
+Adults under age 30 like sports cars , luxury cars , convertibles and imports far more than their elders do .
+
+Such preferences persist even though many Americans believe differences between imported and domestic cars are diminishing .
+
+Only 58 % of Americans now believe that foreign cars get better gas mileage than domestic models , the Journal survey found , down from 68 % in 1987 .
+
+People in the automotive business disagree over how susceptible younger Americans are to brand switching .
+
+`` Once buying habits are formed , they 're very hard to break , '' declares Thomas Mignanelli , executive vice president for Nissan 's U.S. sales operations .
+
+But out on Cobb Parkway , Ted Negas sees it differently .
+
+The battle for customer loyalty is evident along the Cobb Parkway strip .
+
+Ed Voyles Olds recently established a special section in the service department for owners whose cars are less than a year old , so they get quicker service .
+
+Manufacturers , too , are stretching further to lure buyers .
+
+GM 's Cadillac division , ignoring Detroit 's long-held maxim that safety does n't sell , is airing television commercials touting its cars ' safety features .
+
+But even a little appeal has a lot of attraction these days .
+
+GM 's Pontiac division is offering a turbo-charged V-6 engine on its Grand Prix model , even though it expects to sell only about 4,000 cars equipped with that option .
+
+I do n't know why Barber never told anybody else .
+
+On Isaac Stern 's recording it 's very biting . ''
+
+Since leaving Juilliard , Mr. McDuffie has made some smart moves and some controversial ones .
+
+His guest appearance on the NBC soap opera `` Another World , '' scandalized musical elitists .
+
+Whatever he plays , Mr. McDuffie finds satisfaction in the music itself -- `` something greater out there than me , '' as he puts it during an interview at the Manhattan apartment he shares with wife , Camille , a literary publicist .
+
+`` A normal person did not write the Beethoven ` Violin Concerto , ' '' he declares .
+
+The worriers cite some worrisome trends .
+
+During the almost seven-year-old economic expansion , inflation-adjusted gross national product , disposable personal income and personal consumption expenditures have risen 30 % , but inflation-adjusted consumer installment credit has surged 66 % .
+
+The company sells image .
+
+Its current ad campaign , on which Maidenform has spent more than $ 15 million since fall 1987 , does n't even show its underwear products , but rather men like Christopher Reeve , star of the `` Superman '' movies , talking about their lingerie turn-ons .
+
+Top officers insist Maidenform 's greatest strength is its family ownership .
+
+`` You ca n't go anywhere in this company and find an organizational chart , '' one delights .
+
+Other major players in intimate apparel apparently feel the same way .
+
+Warnaco was taken private by Spectrum Group in 1986 for about $ 487 million .
+
+Executives say Mrs. Coleman is very involved in the day-to-day operations , especially product development .
+
+In the late 1960s she designed a lightweight stretch bra that boosted sales .
+
+With less capital coming in , China 's balance of payments would suffer .
+
+The Western government report 's first scenario assumes a 30 % reduction in foreign borrowing and a 5 % contraction in foreign direct investment .
+
+Since founding the company , the charismatic Vietnam vet , who is still only 46 years old , has fostered an ethos of combat .
+
+Flights are `` missions . ''
+
+And , with many of his 70,000 workers , Mr. Smith 's damn-the-torpedoes attitude has caught on .
+
+James Cleveland , a courier who earned a Bravo Zulu for figuring out how to get a major customer 's 1,100-parcel-a-week load to its doorstep by 8 a.m. , considers himself far more than a courier .
+
+Although the Tiger acquisition has brought Federal a long way toward becoming the global player it wants to be , it also has brought problems .
+
+It more than doubled Federal 's long-term debt to $ 1.9 billion , thrust the company into unknown territory -- heavy cargo -- and suddenly expanded its landing rights to 21 countries from four .
+
+Although encouraging dialogue between managers and workers , Mr. Smith does n't countenance what he considers insubordination .
+
+When a large group of pilots once signed petitions opposing work-rule and compensation changes , he called a meeting in a company hangar and dressed them down for challenging his authority .
+
+Recently , they have appeared every few weeks in talk-show type videos , countering pro-union arguments .
+
+In one video , Mr. Smith defended his agreement to merge the pilot-seniority lists .
+
+Already , the fight has been costly .
+
+The seniority-list controversy , along with the job-classification dispute , has been turned over to the mediator .
+
+The issue has also cost Federal management a lot of good will among its old pilots .
+
+`` They were willing to mistreat us because we had n't shown any moxie , any resistance , '' says William Queenan , a DC-10 pilot and 14-year Federal veteran .
+
+The fight has turned ugly and , among pilots at least , has shattered the esprit de corps that Mr. Smith worked so hard to build .
+
+Anti-union pilots have held ballot-burning parties .
+
+And for now , at least , the competition is n't the only enemy .
+
+Barney Barnhardt , a 727 captain and leader of the pro-union forces , said he has received two anonymous death threats and been challenged to a fight with tire irons by a colleague .
+
+Over the first few weeks , `` Mancuso FBI '' has sprung straight from the headlines , which is either a commendable stab at topicality , or a lack of imagination , or both .
+
+The opening show featured a secretary of defense designate accused of womanizing -LRB- a la John Tower -RRB- .
+
+At the core of Mr. Loggia 's Mancuso is his world-weary truculence .
+
+He describes a reporter as `` Miss First Amendment . ''
+
+Texaco has also been attempting to sell oil properties .
+
+At least two years ago , the company put 60 million barrels of oil reserves on the block .
+
+Worried by European Community directives that will remove many of the barriers to cross-border insurance services , starting in mid-1990 , insurers are rushing to find partners and preparing for price wars .
+
+In West Germany and the Netherlands , insurers are flirting with banks .
+
+He admits that he has n't had much luck generating free publicity for his contest .
+
+Newspapers , including this one , have generally ignored his news releases .
+
+Once fat and happy , the Cowboys now are losing games , fans and money .
+
+Last year , the team ended up $ 2 million in the red on $ 30 million in revenue .
+
+All this is causing convulsions in professional football .
+
+Owners , largely complacent in the past , are now almost desperately looking for ways to lower costs and raise revenue -- embracing some revolutionary ideas in the process .
+
+Anti-Jones sentiment flooded the local press
+
+`` A crude obnoxious hick , '' said one writer
+
+Mr. Jones is attacking the problem on several fronts .
+
+He continues to reshuffle the team , trading famed running back Herschel Walker to the Minnesota Vikings this month for a slew of players and future draft picks .
+
+The biggest is the NFL 's contract with national television for broadcast of the league 's games .
+
+Last year , the Cowboys ' share of that pie came to $ 17.6 million .
+
+The owners are trying to boost profit in other ways , too .
+
+Many have launched promotions to attract new fans and are renegotiating dated stadium contracts .
+
+The new breed of team owner , Mr. Jones included , has been fighting the NFL bureaucracy for a greater say in league affairs , and the battle has produced a form of organizational gridlock .
+
+In July , 11 NFL owners , almost all of them new , blocked an effort to install Jim Finks as a replacement for retiring league commissioner Pete Rozelle .
+
+Owning the Cowboys has bought him entree to a glitzy life that drilling for oil in Arkansas just did n't provide .
+
+There is the new private jet , the platoon of assistants , invitations to the best parties , and television appearances on shows such as `` Prime Time Live . ''
+
+But some Wall Street executives argue that such fears are unwarranted .
+
+In a July 6 letter to the Senate Securities Subcommittee , First Boston Corp. argued that the fact that no retail brokerage firm failed during the 1987 market crash demonstrates that current rules are adequate .
+
+Sources in the industry and on Capitol Hill say a compromise that would placate the industry while addressing the SEC 's concerns may be possible .
+
+An aide to the Senate Securities Subcommittee says some legislators support the concept of risk disclosure , but adds : `` nobody is wedded to the language in the bill . ''
+
+The report of the bankruptcy filing stunned Hollywood executives and investors .
+
+`` It 's a shocker , '' said Joseph Di Lillo , chairman of Drake Capital Securities , a brokerage firm that has an investment in Qintex Entertainment .
+
+The comments were the ministry 's first detailed public statement on the subject , and reflect the ministry 's concern that foreigners will think Japan is using its tremendous financial power to control events in foreign markets .
+
+A number of accounts of the events leading to the 190 point drop in New York stock prices on Oct. 13 accused the ministry of pulling the plug on the UAL deal for one reason or another .
+
+Clearly , some financial authorities are concerned about the Japanese banks role in leveraged buy-outs .
+
+At a news conference this week , Bank of Japan Gov. Satoshi Sumita cautioned banks to take a `` prudent '' stance regarding highly leveraged deals .
+
+And Seita is considering further diversification .
+
+It wanted to buy RJR Nabisco Inc. 's French cracker subsidiary , Belin , in hopes of selling its products in tobacco stores , but lost the bidding to food group BSN SA .
+
+Ethiopian politics are the most sophisticated , secretive and Byzantine in all of black Africa .
+
+Remember that it took Mr. Mengistu many months , in what became known as the `` creeping coup , '' to topple Emperor Haile Selassie in 1974 and 1975 .
+
+That 's higher than some other estimates .
+
+Ali Khalifa Al-Sabah , Kuwait 's oil minister , recently estimated OPEC capacity at 25 million barrels a day .
+
+In the end politics got in the way .
+
+Libya accepted Iran 's proposal only so long as it was promised production parity with Kuwait .
+
+It 's understood several compromises already have been worked into the plan .
+
+The ceiling would be lifted to 21.5 million barrels to provide Kuwait and the United Arab Emirates much higher official quotas while reducing percentage shares of some others .
+
+Reds and yellows went about their business with a kind of measured grimness .
+
+Some frantically dumped belongings into pillowcases , others threw goods out windows .
+
+`` The women wanted photo albums , a certain brooch , kind of sentimental things . ''
+
+He showed an unbroken , still-ticking pocket watch that he retrieved for one woman .
+
+Enforcement of restricted-entry rules was sporadic , residents said .
+
+One man trying to remove his car was told by officials to get out of his garage .
+
+When he sneaked back later to try again , a different policeman offered to help him get the car out .
+
+The Marina also has become the focal point of city efforts to reunite residents with any pets that may have fled or become lost during the earthquake .
+
+On lampposts along Fillmore Street , a major Marina artery , posters were offering a $ 100 reward for a cat lost during the quake .
+
+Profits are also plowed back into the community
+
+the non-profit Vermont-Slauson Economic Development Corp. receives 60 % of the profits from the Vermont-Slauson Center and uses the money to provide moderate and low-cost housing in the community as well as commercial and industrial development projects
+
+Another benefit is that substantial percentages of the proprietors in these centers are minority businessmen and women .
+
+In the Grand Boulevard Plaza developed by Matanky Realty Group in Chicago 's Third Ward , opposite the Robert Taylor Homes , 29 % of the stores to date have been leased to blacks and 14 % to members of other minority groups .
+
+Security at a typical Haagen inner-city center is impressive , but unobtrusive .
+
+The entire site is enclosed by a 6-to-8-foot-high ornamental iron fence with a small number of remote-controlled gates .
+
+However , more money managers are reassured that profit is regaining importance .
+
+Mark Schoeppner , portfolio manager at Pittsburgh-based Quaker Capital Management , says that in reaction to nervousness about debt-laden buy-out transactions , analysts and investors now appear to be `` valuing stock based on future earnings as opposed to the amount of debt the company can support . ''
+
+Many Arizona real-estate experts think the worst may be yet to come .
+
+Ralph Shattuck , publisher of Foreclosure Update newsletter , said foreclosures have climbed to about 1,482 a month just in Maricopa County , where Phoenix is located .
+
+But Conner is n't standing still .
+
+Yesterday , the company introduced four products , three of which are aimed at a hot new class of computers called notebooks .
+
+That tariff is too stiff for some Financial District wage earners .
+
+`` I 'll stay with BART , '' said one secretary , swallowing her fears about using the transbay tube .
+
+After repeated gun robberies , some entrepreneurs may give up a business out of fear for their lives .
+
+One Washington couple recently sold their liquor store after 34 years in business that included four robbery deaths and 16 robberies or burglaries on the premises .
+
+Many of the funds that did best in the last week are heavily invested overseas , giving them the benefit of foreign currency translations when the dollar is weak .
+
+From its high point on Thursday , Oct. 12 , to where it traded late in New York a week later , the dollar fell 3.6 % against the West German mark , 3.4 % against the British pound and 2.1 % against the Japanese yen .
+
+The project has already acquired a certain New York cachet .
+
+Bloomingdale 's plans to sell a foot-tall chocolate model of the center during the holidays .
+
+His interest in the natural environment dates from his youth .
+
+He and his father still spend time each summer fly-fishing for salmon in Iceland .
+
+Living in Hong Kong , he says , made him sensitive to the limits on food , power and water supplies .
+
+At his first school in the U.S. he was thought a little strange for shutting off open water taps and admonishing his schoolmates to take only brief showers .
+
+Neither the Quilted Giraffe nor the Paul Stuart renovation reflects much of Mr. McDonough 's environmental concern .
+
+The restaurant was conceived as a sparkling , crystalline `` geode . ''
+
+But the trouble it faces now under Democratic rule seems bigger and more daunting than anything it has faced in the past .
+
+This year , the city faces a budget deficit that could become even bigger next year .
+
+Mr. Dinkins concedes nothing in his ability to stumble and bumble .
+
+He can match Jackie Mason with his own Robert `` Sonny '' Carson , an angry street organizer who was convicted of kidnapping in 1974 .
+
+Treasury bonds ended with losses of as much as 1\/4 point , or about $ 2.50 for each $ 1,000 face amount .
+
+The benchmark 30-year bond , which traded as high as 102 1\/4 during the day , ended at 101 17\/32 .
+
+Many law firms sponsor their own programs .
+
+At the Baltimore firm of Weinberg & Green , new corporate and banking associates are required to enroll in a 20-class course .
+
+Uncertainty dogs every aspect of their lives .
+
+Malcolm faces bankruptcy and an IRS audit , but Nora finds an extra $ 30,000 in her bank account , suddenly increasing her available funds some fifteenfold .
+
+In any case , the foundering middle classes are n't the only ones in trouble -- or whose troubles provide material for fiction .
+
+`` Rascal Money '' -LRB- Contemporary Books , 412 pages , $ 17.95 -RRB- , a novel by consultant and business analyst Joseph R. Garber , tells the story of an innovative , well-run , widely respected computer manufacturing company called PegaSys as it faces a hostile takeover attempt by AIW , a much smaller corporation that is so incompetently managed as to constitute a standing joke in the business world .
+
+But except for Zenith Electronics Corp. and International Business Machines Corp. , which is collaborating with Toshiba on computer displays , they are poorly positioned to exploit advances in large panels .
+
+General Electric Co. recently sold off its interests in liquid-crystal displays to Thompson-CSF of France .
+
+That sort of workhorse performance sounds made to order for a time when corporate profits overall have been weakening from the brisk increases of recent years .
+
+The current flood of third-quarter reports are producing many more negative surprises than positive ones .
+
+And they will again , say money-manager proponents of the growth-stock theme .
+
+Cabanne Smith , president of a money management company bearing his name , predicts that investment companies using computers to identify companies with earnings `` momentum '' will climb on the growth-stock bandwagon as the overall corporate earnings outlook deteriorates further .
+
+Big cyclical companies are using `` all the tricks they can to stabilize earnings , '' says Mr. Sloan .
+
+He cites IBM , which reported a 30 % earnings decline in the third quarter , and which last week announced a $ 1 billion buy-back of its shares .
+
+Unfortunately , all those estimates came before airline industry fundamentals deteriorated during the past month .
+
+American Airlines parent AMR and USAir Group , both subject to takeover efforts themselves , have each warned of declining results .
+
+This well may be the first time that the venerable Rockefeller University has brushed up publicly against the intimidations now common in American science .
+
+John Dingell demagogues a David Baltimore , animal-rights activists do $ 3.5 million of damage to labs at the U.Cal-Davis , Meryl Streep decries the horrors of chemistry on talk shows , Jeremy Rifkin files lawsuits in federal court to thwart biotech experiments , and Dutch-elm-disease researcher Gary Strobel 's own colleagues at Montana State denounce him for `` violating '' EPA rules .
+
+Fortunately , there are signs that increasing numbers of scientists understand the necessity of speaking out .
+
+David Hubel , a Nobel laureate at Harvard , has taken the lead in defending research with animals , as has Dr. Michael DeBakey .
+
+We see a whole flock of programs that will impose significant costs on the American economy in the form of burdensome regulation and higher liabilities .
+
+Federal child care -LRB- quack -RRB- .
+
+The Clean Air bill -LRB- quack -RRB- .
+
+The disabled-workers bill -LRB- quack , quack -RRB- .
+
+Meanwhile , overall evidence on the economy remains fairly clouded .
+
+In his Mansion House speech , Mr. Lawson warned that a further slowdown can be expected as the impact of the last rise in interest rates earlier this month takes effect .
+
+Not everyone believes that the good times are over for shippers .
+
+`` There 's still a lot of pressure on rates in both rail and truck , '' said Gerard McCullough , lecturer in transportation at Massachusetts Institute of Technology .
+
+And ship lines carrying containers are also trying to raise their rates .
+
+Carriers boosted rates more than 10 % in the North Atlantic between the U.S. and Europe last September , hoping to partly restore rates to earlier levels .
+
+It must be able to handle most of the complaints that can not be solved in the trenches by managers and their subordinates , else the company court or adjudicators will be inundated with cases .
+
+At Polaroid , the Personnel Policy Planning Committee may hear only about 20 cases a year ; the rest of the many hundreds of complaints are resolved at earlier stages .
+
+In case managers and personnel specialists are unsuccessful and subordinates take their complaints to a company court or adjudicator , teach managers to accept reversals as a fact of business life , for in a good due-process system they are bound to happen .
+
+In the 15 companies I studied , reversal rates range on the average from 20 % to 40 % .
+
+Naturally , one of the best ways to guarantee visibility for your due-process system is for top management to support it .
+
+At IBM , the company 's Open Door system is sometimes the subject of memorandums from the chief executive .
+
+In fact , yesterday the administration and Congress were still differing on what had been agreed to .
+
+One administration official said notification was required even if the U.S. `` gets wind '' of somebody else 's coup plans that seem likely to endanger a dictator 's life .
+
+By and large , economists believe the two natural catastrophes will limit economic damage to their regions .
+
+Edward J. Campbell , economist at Brown Brothers Harriman & Co. , New York , noted that large increases in construction activity along with government and private relief efforts could offset loss of production in those areas .
+
+Even though the government would retain the 45 % stake in Picop , critics have accused the trust of selling out to foreigners .
+
+A series of newspaper articles accused the trust of short-changing the government over the Picop sale .
+
+Stock prices edged up in quiet trading Friday .
+
+The Dow Jones industrials rose 5.94 , to 2689.14 , making the gain for the week a record 119.88 points , or 4.7 % .
+
+More banks are being hurt by Arizona 's worsening real-estate slump .
+
+First Interstate Bancorp of Los Angeles said Friday it expects a $ 16 million quarterly loss , citing property-loan losses at its Arizona unit .
+
+Already last week , Mr. Krenz started overhauling East Germany 's heavily censored and notoriously boring news media .
+
+On Thursday , a day after he took office , East German television broke into regular programming to launch a talk show in which viewers call in questions for a panel of officials to answer .
+
+Although Mr. Krenz is dedicated to East Germany 's conservative vein of communism , there is much about his style that sets him apart from his party comrades .
+
+Unlike Mr. Honecker , who tended to lecture people about socialist values , Mr. Krenz enjoys asking questions .
+
+He was later shown on television , fielding questions .
+
+At one point , he asked a worker whether he thought East Germans were fleeing the country because of restrictive travel policies .
+
+This same tendency toward openness impressed a group of visiting U.S. congressmen this spring .
+
+Rather than trying to `` lecture us , '' says one congressional aide who attended the two-hour meeting , Mr. Krenz `` wanted to listen . ''
+
+The diplomat adds that Mr. Krenz has several things going for him .
+
+The East German economy is strong compared with other East bloc nations .
+
+Meanwhile , East Germany 's growing openness may even allow the state-controlled news media to display a muted sense of humor .
+
+Television last week carried a new report on East Berlin 's main wallpaper factory and the need to boost production .
+
+One reason questions surround the heat experiments is that they involve unusually meticulous measurements .
+
+Typically , the input energy ranges from a third of a watt to one watt and the excess energy is measured in tenths of a watt .
+
+Meanwhile , the photographic industry , which accounts for 44 % of silver consumption , continues to look for substitutes .
+
+Japanese and U.S. photographic firms are beginning to produce electronic cameras and X-rays that do n't require silver , dealers say .
+
+Meanwhile , total fabrication demand for silver has risen six years in a row , he says .
+
+Japanese demand grew by 70 % in the first half of this year and the nation plans an issue of a silver commemorative coin that will require 4.5 million ounces .
+
+But these players were dead .
+
+`` Maybe three years ago , there were a lot of -LCB- Ty -RCB- Cobbs in the hobby , and awhile back there were Babe Ruth checks , '' says Mr. Smalling .
+
+However , the thought of a living player selling his checks rubs some people the wrong way .
+
+`` Maybe I 'm a little stuffy , but I would n't sell them , '' sniffs Bob Machon , owner of Papa 's Sports Cards in Menlo Park , Calif .
+
+Investors do this by specifying a minimum price at which the investment may be sold or the maximum price that may be paid for it .
+
+Suppose an investor wants to sell a stock , but not for less than $ 55 .
+
+Specific-Time Order : This type of order couples many of the orders described above with instructions that the order must be carried out at or by a certain time .
+
+`` On the close '' can be added to many types of orders .
+
+Remember , though , that beta also has important limitations .
+
+`` Beta is only part of the risk in a stock , '' says William F. Sharpe , the Stanford University emeritus professor who developed the measure .
+
+Figure 1 demonstrates the performance of those businesses I 've invested in during this prosperous decade -LRB- see accompanying illustration -- WSJ Oct. 20 , 1989 -RRB- .
+
+Oil-related properties suffered a huge decline until I divested myself of all such stocks in 1985 , at which point the industry , while not lighting up any Christmas trees , began a slow recovery .
+
+With this personal strategy firmly in place , I look forward to years of fine life-style investments and increasing widespread leverage .
+
+My kids ' college education looms as perhaps the greatest future opportunity for spending , although I 'll probably have to cash in their toy portfolio to take advantage of it .
+
+An admittedly limited survey by NASAA , whose members are state securities-law regulators , found that between 1986 and 1988 `` fraud and abuse '' by financial planners cost 22,000 investors $ 400 million .
+
+The rogues ' gallery of planners involved includes some convicted felons , a compulsive gambler or two , various businessmen who had planned their own previous ventures right into bankruptcy , and one man who scammed his wife 's grandmother .
+
+An estimated 10 million Americans are now using financial planners , and the pool of capital they influence is enormous .
+
+A survey of 54,000 of them conducted by the IAFP in April showed that these practitioners alone had controlled or guided the investment of $ 154 billion of their clients ' money in the previous 12 months .
+
+The sheer number of planners makes the business extremely difficult , if not impossible , to regulate .
+
+Even the minority of them who must register with the Securities and Exchange Commission as `` investment advisers '' -- people who are in the business of counseling others on the buying and selling of securities specifically -- have been enough to swamp the agency 's capacity .
+
+The proposal has set off a lively debate within an industry that was far from united to begin with .
+
+Mr. Schwartz , the puckish planner from Englewood , Colo. , says that allowing the business to police itself would be `` like putting Dracula in charge of the blood bank . ''
+
+Nothing seems hard here .
+
+The breezes are soft , the waves lap gently and the palm trees sway lazily .
+
+Moreover , ostentation is appreciated .
+
+The median price of homes is $ 547,000 ; more than 9,000 vessels fill what the chamber of commerce calls the nation 's largest pleasure-boat harbor .
+
+Newport Beach operations differ from the Hollywood boiler rooms in style as well as in dollars .
+
+Traditionally , boiler rooms operate on the cheap , since few , if any , customers ever visit their offices .
+
+The Newport Beach operators also tend to indulge themselves privately .
+
+Investigators cite the case of Matthew Valentine , who is currently serving a six-year sentence at Lompoc Federal Prison for his role in Intech Investment Corp. , which promised investors returns of as much as 625 % on precious metals .
+
+All this talk of boiler rooms and fraud is unnerving to the city 's legitimate business element .
+
+Vincent M Ciavarella , regional manager of Property Management Systems , insists he does n't know of any bogus telemarketers operating in the 1.6 million square feet of office space around Fashion Island that his company leases for Irvine Co. , the owner and developer of the project .
+
+The latest wave of marketing is instructive .
+
+Several outfits -- including the Financial Programs , Franklin , and T. Rowe Price mutual-fund groups and the Edward D. Jones brokerage house -- are advertising `` college planner '' tables and charts that tell you how much you need to put aside regularly .
+
+The figures are shocking .
+
+To build a nest egg that would pay for Stanford when a current first-grader reaches college age , parents would need to set aside $ 773.94 a month -- for 12 years .
+
+Plugging a cheaper college into the formulas still does n't generate an installment most people can live with .
+
+Using a recent average private-school cost of about $ 12,500 a year , T. Rowe Price 's planner prescribes $ 450 monthly if the plan begins when the child is six .
+
+Not everyone is so pessimistic .
+
+`` People are basically peddling a lot of fear , '' says Arthur Hauptman , a consultant to the American Council on Education in Washington .
+
+Parents , he says , should aim at whatever regular investment sum they can afford .
+
+Half the amount that the investment tables suggest might be a good goal , he adds .
+
+In their anxiety , however , parents and other student benefactors are flocking to new schemes .
+
+They have laid out about $ 1 billion for so-called baccalaureate zero-coupon municipal bonds -- so far offered by Connecticut , Illinois , Virginia and eight other states .
+
+Their compounding effect is also alluring .
+
+In June , Virginia sold bonds for $ 268.98 that will pay $ 1,000 in 2009 .
+
+Many openings for mass cheating , such as questionable tax shelters and home offices , have gaped so broadly that Congress has passed stringent laws to close them .
+
+Deductions of charitable gifts of highly valued art now must be accompanied by appraisals .
+
+But what we may not know is just what makes somebody a sucker .
+
+What makes people blurt out their credit-card numbers to a caller they 've never heard of ?
+
+`` Once people got into it , I was allowing them to live a dream , '' he says .
+
+He phoned them with updates on the investment , such as `` funny things that happened at the well that week , '' he says .
+
+`` The trappings of success go a long way -- wearing the right clothes , doing the right things , '' says Paul Andreassen , an associate professor of psychology at Harvard .
+
+Conservative appearances make people think it 's a conservative investment .
+
+Often con artists will try to disarm their victims by emphasizing similarities between them .
+
+William Lynes , a retired engineer from Lockheed Corp. , says he and his wife , Lily , warmed to the investment pitches of a penny-stock peddler from Stuart-James Co. in Atlanta after the broker told them he , too , had once worked with Lockheed .
+
+Over the past decade or two , while I was thinking about fox hunting , the insurance industry has spawned an incredible number of products , variations on products , and variations on the variations .
+
+Besides term life and whole life -LRB- the old standbys -RRB- , we now have universal life , universal variable life , flexible adjustable universal life , policies with persistency bonuses , policies festooned with exotic riders , living benefit policies , and on and on .
+
+Hugely popular , it is far more flexible than straight whole life .
+
+I can adjust the amount of insurance I want against the amount going into investment ; I can pay more or less than the so-called target premium in a given year ; and I can even skip payments if my cash reserves are enough to cover the insurance portion of the policy .
+
+By afternoon , the broader market joined the advance in full strength .
+
+Standard & Poor 's 500-stock Index rose 5.37 to 347.13 and the Nasdaq composite index jumped 7.52 to 470.80 .
+
+Traders said a variety of factors triggered the rally .
+
+The consumer price index rose 0.2 % in September , while many economists were looking for a 0.4 % increase .
+
+But some traders thought there was less to the rally than met the eye .
+
+`` There is no strength behind this rally , '' asserted Chung Lew , head trader at Kleinwort Benson North America .
+
+That approach flopped
+
+Last Christmas Day , a USAir Group Inc. DC-9 jetliner flew about seven passengers from Chicago to Pittsburgh
+
+So this year , the airlines are getting a jump on holiday discounts .
+
+They are cutting ticket prices by as much as 70 % from normal levels for travel to most U.S. locations on Dec. 24 , 25 , 29 , 30 and 31 , and Jan. 4 , 5 and 6 .
+
+That irritates many women who have n't taken their husbands ' last name .
+
+`` What a bunch of nonsense , '' says Jessica Crosby , president of the New York chapter of the National Association of Women Business Owners .
+
+But gay rights advocates are angry , too .
+
+The Lambda Legal Defense and Education Fund of New York City has received complaints from homosexual couples whom the airline does n't recognize as family .
+
+It also opened the door to furs made in South Korea , China , Hong Kong and other countries .
+
+Jindo Furs , a large South Korean maker , says it operates 35 retail outlets in the U.S. and plans to open 15 more by the end of next year .
+
+Other furriers have also benefited from leathers .
+
+Seymour Schreibman , the 65-year-old owner of Schreibman Raphael Furs Inc. , treats the reverse side of a Persian lambskin to produce a reversible fur-and-leather garment .
+
+Mr. Rosen is also pushing retail sales .
+
+This year he bought two stores , one in Brooklyn and one in Queens .
+
+But even those who have found a way to cope with the imports and the slump , fear that furs are losing part of their allure .
+
+`` People are promoting furs in various ways and taking the glamour out of the fur business , '' says Stephen Sanders , divisional merchandise manager for Marshall Field 's department store in Chicago .
+
+In reaffirming the current monetary policy of using high interest rates to fight inflation and shore up the pound , Mr. Lawson dismissed other approaches to managing the economy .
+
+He said he monitors the money-supply figures , but does n't give them paramount importance , as some private and government economists have suggested .
+
+Leading up to the speech was a drumroll of economic statistics suggesting that the British war on inflation will be more bruising than previously assumed .
+
+Unemployment in September dropped to 1,695,000 , the lowest level since 1980 .
+
+But not every company expects to report increased earnings .
+
+C.R. Bard Inc. yesterday said third-quarter net plunged 51 % to $ 9.9 million , or 18 cents a share , from $ 20 million , or 35 cents a share , a year earlier .
+
+But other analysts expressed disappointment that the cost-cutting move wo n't result in even greater earnings growth .
+
+`` This is a good move , but it only gets you to where people 's expectations already are , '' in terms of earnings growth , said Joel D. Gross , an analyst with Donaldson , Lufkin & Jenrette .
+
+Strategies vary for Westridge Capital , which has $ 300 million under management .
+
+The firm sometimes buys S&P 500 futures when they are selling at a discount to the actual stocks , and will switch back and forth between stocks and stock-index futures to take advantages of any momentary price discrepencies .
+
+These guarantee protection against stock market declines while still passing along most gains .
+
+Here a fund may promise to pay back , say , $ 95 of every $ 100 invested for a year , even if the market goes much lower .
+
+Following Mr. Linh 's appointment as secretary-general of the party at the sixth congress , Mrs. Thi has become the darling of `` doi moi '' , the Vietnamese version of perestroika .
+
+The authorities have steered foreign reporters to her office to see an example of `` the new way of thinking . ''
+
+She is almost cavalier about the possibility Vietnam 's reforms will create rivals on her home turf .
+
+`` I do n't mind the competition inside the country , '' she says .
+
+In both cases , Minpeco and Manufacturers Hanover have been fighting ferociously over their shares of the pie .
+
+With support from the IRS , Manufacturers Hanover has filed suit asking Judge Abramson to subordinate Minpeco 's claim to those of Manufacturer Hanover and the IRS .
+
+Now , the threat of further restrictions adds a new dimension , bringing an upsurge in political activity by abortion-rights forces .
+
+A recent pro-choice rally in Trenton drew thousands , and in a major reversal , Congress is defying a presidential veto and demanding that Medicaid abortions be permitted in cases of rape and incest .
+
+The infusion of activists can bring a clash of cultures .
+
+In Cherry Hill , the National Abortion Rights Action League , whose goal is to sign up 50,000 pro-choice voters , targets a union breakfast to build labor support for its cause .
+
+No age group is more sensitive than younger voters , like Ms. Ehman .
+
+A year ago this fall , New Jersey voters under 30 favored George Bush by 56 % to 39 % over Michael Dukakis , according to a survey then by Rutgers University 's Eagleton Institute .
+
+Even abortion opponents , however angry with Mr. Florio , ca n't hide their frustration with the Republican 's ambivalence .
+
+`` He does n't want to lead the people , '' says Richard Traynor , president of New Jersey Right to Life .
+
+The same partnership is now crucial to Mr. Courter 's fortunes , but the abortion issue is only a reminder of the gap between his record and that of the more moderate , pro-choice Gov. Kean .
+
+While the Warren County congressman pursued an anti-government , anti-tax agenda in Washington , Gov. Kean was approving increased income and sales taxes at home and overseeing a near doubling in the size of New Jersey 's budget in his eight years in office .
+
+Fluent in Spanish from his days in the Peace Corps , Mr. Courter actively courts minority voters but seems oddly over his head .
+
+He is warm and polished before a Puerto Rican Congress in Asbury Park .
+
+Yet minutes after promising to appoint Hispanics to high posts in state government , he is unable to say whether he has ever employed any in his congressional office .
+
+Hard-hitting consultants match ads with Mr. Courter 's team , and Mr. Florio retools himself as the lean , mean Democratic fighting machine of the 1990s .
+
+Appealing to a young audience , he scraps an old reference to Ozzie and Harriet and instead quotes the Grateful Dead .
+
+Mr. Florio 's forcefulness on the abortion issue after the Webster ruling divides some of his old constituency .
+
+Pasquale Pignatelli , an unlikely but enthusiastic pipe major in an Essex County Irish bagpipe band , speaks sadly of Mr. Florio .
+
+Still , some analysts insisted that the worst of the inflation is behind .
+
+`` It increasingly appears that 1987-88 was a temporary inflation blip and not the beginning of a cyclical inflation problem , '' argued Edward Yardeni , chief economist at Prudential-Bache Securities Inc. in New York .
+
+In its new ad campaign , created by D'Arcy Masius Benton & Bowles Inc. , Chicago , the ski industry is trying to change its image as a sport primarily for young white people .
+
+One 60-second TV spot features a diverse group of skiers gracefully gliding down sun-drenched slopes : senior citizens , minorities , families with children -- even a blind skier .
+
+Many resorts also are focusing more on the service side of their business .
+
+Since 40 % of skiers are parents , many slopes are building nurseries , expanding ski schools and adding entertainment for kids .
+
+Since 40 % of skiers are parents , many slopes are building nurseries , expanding ski schools and adding entertainment for kids .
+
+Vail , Colo. , now has a playland that looks like an old mining town ; kids can ski through and pan for fool 's gold .
+
+because skiing is still expensive
+
+a lift ticket can cost up to $ 35 a day and equipment prices are rising
+
+Dictates of good sense to the contrary not withstanding , the general inclination was to believe that the disturbance would be brief and that ball would be played .
+
+`` I was near the top of the stadium , and saw a steel girder bow six feet from where I sat , but I stayed put for 10 or 15 minutes , '' confessed a friend .
+
+For the portion of an investor 's portfolio that stays in stocks , professionals have a number of suggestions .
+
+Mr. Katz advocates issues with low price-earnings ratios -- that is , low prices in relation to the company 's earnings per share .
+
+Since last week 's junk-bond market debacle , many new issues of high-yield , high-risk corporate bonds have either been scaled back , delayed or dropped .
+
+On Wednesday , Drexel Burnham Lambert Inc. had to slash the size of Continental Airlines ' junk-bond offering to $ 71 million from $ 150 million .
+
+Away from the general obligation sector , activity was modest .
+
+Long dollar bonds were flat to up 3\/8 point .
+
+The carrier also seemed eager to place blame on its American counterparts .
+
+`` The -LCB- buy-out -RCB- consortium ceased to exist because our American partners were not capable of organizing the financing , '' a British Air spokesman said .
+
+For the past couple of years , Westmoreland has undertaken an aggressive streamlining of all aspects of its business .
+
+Marginal operations and assets have been sold .
+
+In their lexicon the 508-point collapse in the Dow Jones Industrial Average on Oct. 19 , 1987 , was just a big blip .
+
+Trotting out a much-beloved Streetspeak term , New York Stock Exchange Chairman John Phelan recently declared that history would record the event as only `` a major technical correction . ''
+
+It is a competence and expertise that some brokers themselves , overwhelmed by all the new things being dreamed up for them to peddle , do n't feel .
+
+`` It s almost product de jour , '' grouses one account executive at Dean Witter .
+
+When a certain class of investment performs so poorly that its reputation is tarnished , look for Wall Street to give it a new moniker .
+
+This seems to be happening now to limited partnerships , many of which either have gone into the tank in recent years or have otherwise been grievous disappointments .
+
+And some movies seem to have been hurt by their inattention .
+
+Warner executives blame Mr. Guber 's and Mr. Peters 's lack of involvement in `` Caddyshack II '' for casting and production problems and the film 's ultimate dismal failure .
+
+Mr. Guber and Mr. Peters rub many people in Hollywood the wrong way .
+
+Producers Don Simpson and Jerry Bruckheimer , who shepherded `` Flashdance '' through several scripts and ultimately produced the movie , bristle when Messrs. Guber and Peters take credit for the film .
+
+The two `` have a wonderful chemistry -- Jon is very impulsive , and Peter is very compulsive , '' adds Mr. Birnbaum , who is now head of production at News Corp. 's 20th Century Fox Film Co .
+
+`` Jon Peters will come barreling into a room , say he 's got a great idea , and be gone .
+
+Peter will take the kernel of that idea and make it grow into something specific ... . ''
+
+While Guber Peters produced a number of hits for Warner and others , their record was n't always so impressive .
+
+Among their clinkers were `` The Legend of Billie Jean , '' `` VisionQuest , '' `` Clue '' and `` Clan of the Cave Bear . ''
+
+And earnings have been erratic .
+
+In the the latest quarter , thanks in part to `` Batman , '' Guber Peters earned $ 5.8 million , or 50 cents a share , compared to a loss of $ 6.8 million , or 62 cents a share , in last year 's quarter .
+
+And they say there are plenty of precedents in Hollywood for letting people out of contracts .
+
+The last time Columbia Pictures was looking for a studio chief , they note , Warner released producer David Puttnam from his contract , then took him back after he was subsequently fired by his bosses at Columbia .
+
+And there 's more .
+
+The assets backing the securities come from some of the country 's biggest -- and most secure -- institutions .
+
+But it could be much worse .
+
+Some analysts are especially wary of credit-card issues .
+
+By contrast , European firms will spend $ 150 million this year on electronic security , and are expected to spend $ 1 billion by 1992 .
+
+Already many foreign firms , especially banks , have their own cryptographers , conference speakers reported .
+
+Moreover , he said , technology now exists for stealing corporate secrets after they 've been `` erased '' from a computer 's memory .
+
+He said that Oliver North of Iran-Contra notoriety thought he had erased his computer but that the information was later retrieved for congressional committees to read .
+
+Under Mr. Gorbachev , Mr. Goode said , the Soviets are openly stealing Western corporate communications .
+
+He cited the case of a Swiss oil trader who recently put out bids via telex for an oil tanker to pick up a cargo of crude in the Middle East .
+
+But for a few minutes there , relief abounded .
+
+A young mother found her boy , who had been out buying a hotdog .
+
+In this way , while the Stick itself was blacked out , we kept up to date on events .
+
+Within 15 minutes of the quake itself , I was able to see pictures of the collapsed section of the Bay Bridge .
+
+Other fundamental `` reforms '' of the 1986 act have been threatened as well .
+
+The House seriously considered raising the top tax rate paid by individuals with the highest incomes .
+
+Many groups are n't waiting that long .
+
+Just last week , a House Ways and Means subcommittee held a lengthy meeting to hear the pleas of individual cities , companies and interest groups who want to open their own special loopholes .
+
+But there are grounds for complaint .
+
+At one point , the reader is two steps ahead of Marlowe in catching on to a double identity scam -- and Marlowe is supposed to be the pro .
+
+More bothersome , there are several apparent anachronisms .
+
+Contact lenses , tank tops , prostitutes openly working the streets of Hollywood and the Tequila Sunrise cocktail all seem out of place in the 1950s .
+
+American publishers appear more than ready to do some selling .
+
+Susumu Ohara , president of Nihon Keizai Shinbun America Inc. , publisher of the Japan Economic Journal , said he receives telephone calls weekly from media bankers on whether his parent company is interested in buying a U.S. consumer or business magazine .
+
+Even if there is n't any widespread discounting , the outlook for industry profits is n't good .
+
+Management Horizons forecasts a 1.4 % profit decline for non-auto retailers this year , after annual drops that averaged 4.5 % in 1988 and 1987 .
+
+This year , many stores are entering the Christmas season in turmoil
+
+Bonwit Teller and B. Altman parent L.J. Hooker Corp. is operating under Chapter 11 of the federal Bankruptcy Code
+
+Other retailers are also preparing for a ho-hum holiday .
+
+Philip M. Hawley , chairman of Carter Hawley Hale Stores Inc. , expects sales at department stores open at least a year to rise a modest 3 % to 5 % over last year 's totals , both for his company and the industry in general .
+
+The individual foreign policy carried out by U.S. legislators adds to a confusing U.S. performance that has emboldened Soviet initiatives in Central America .
+
+On Oct. 3 , following conversations with Secretary of State James Baker , Soviet Foreign Minister Eduard Shevardnadze arrived in Managua to acclaim `` Nicaragua 's great peace efforts . ''
+
+The collapse of the span has provoked surprise and anger among state officials .
+
+Gov. George Deukmejian , who said he had been assured by state transportation officials that the structure could withstand an even larger quake , called for an immediate investigation .
+
+The Cypress structure opened in June 1957 , and as such , like many buildings in the San Francisco Bay area , does not meet current building codes requiring considerably more steel support .
+
+The northern piers of the span lie in estuarian deposits that were of a type to have liquefied easily during the 1906 quake .
+
+Democracy can be cruel to politicians : Sometimes it forces them to make choices .
+
+Now that the Supreme Court opened the door on the subject of abortion , politicians are squinting under the glare of democratic choice .
+
+Eventually even Republicans will find a way to frame the issue in ways that expose pro-choice absolutism .
+
+Does the candidate favor parental consent for teen-age abortions ?
+
+But some investors and consultants who have tried it are enthusiastic .
+
+Jeffrey Tarter , editor of SoftLetter , a Watertown , Mass. , industry newsletter , says : `` I 've seen a lot of people fooling around on the fringes of filtering information .
+
+Some organizations have devised their own systems to sort through news wire items as they come in .
+
+George Goodwin , an account manager at Royal Bank of Canada , adapted a Lotus Development Corp. program called Agenda to sort through international news wires .
+
+He is under intense fire from other Palestinian groups
+
+Syria is pushing Ahmad Jibril , , as an alternative to Arafat
+
+Crude oil prices ended mixed .
+
+West Texas Intermediate for November delivery fell 14 cents a barrel to $ 20.42 .
+
+Preparedness involves more than flashlights and fire alarms these days .
+
+Some big companies have teams of in-house experts focusing on safety and business resumption .
+
+Some companies are confident that they 're prepared .
+
+Occidental Petroleum Corp. holds regular evacuation drills and stocks food , oxygen and non-prescription drugs at checkpoints in its 16-story headquarters .
+
+`` There are just tons of things that have to be considered , '' Mr. Fogg says .
+
+`` Empty tank cars will float away on you if you get a big tidal surge . ''
+
+At the same time , newspapers are bedeviled by lagging national advertising , especially in its financial component .
+
+Dow Jones & Co. recently reported net fell 9.9 % , a reflection , in part , of continued softness in financial advertising at The Wall Street Journal and Barron 's magazine .
+
+That news , plus recent signs of economic sluggishness , greatly increases pressure on the Federal Reserve to ease credit further , which in turn would be good news for stocks , investment managers say .
+
+`` I see a lot of evidence indicating a slower economy , and that means my interest-rate outlook has a downward tilt , '' said Garnett L. Keith Jr. , vice chairman of Prudential Insurance Co. of America , one of the nation 's largest institutional investors .
+
+In major market activity : Stock prices surged in heavy trading .
+
+Volume on the New York Stock Exchange rose to 198.1 million shares from 166.9 million Wednesday .
+
+This is like asking foxes to feel remorse about chickens , and naturally rescissions are almost never approved .
+
+In 1987 , President Reagan sent 73 rescissions back to the Hill , but only 3 % of the spending total was approved by Congress .
+
+For the most part , major corporations ' headquarters and plants were unaffected or only slightly damaged by Tuesday 's earthquake , which registered 6.9 on the Richter scale .
+
+One of the last big employers in the Silicon Valley to report in , Seagate Technology , said it expects to be back at full strength Monday .
+
+The city 's recovery from the earthquake was uneven .
+
+Banks indicated they were operating at greater than 90 % of their usual capacity , but a Nob Hill hotel said tourists had fled , leaving the previously full hotel with an 80 % vacancy rate .
+
+The most extensive damage was in small towns near the quake 's epicenter , 80 miles south of San Francisco .
+
+Santa Cruz County estimates total damage at nearly $ 600 million .
+
+Some things ca n't be repaired .
+
+The Asian Art Museum in Golden Gate Park reports $ 10 million to $ 15 million in damage , including shattered porcelains and stone figures .
+
+`` Claims range from a scratched fender -- and there were an awful lot of cars damaged in this -- to a major processing plant , '' a spokesman said .
+
+`` We 're delivering a check for $ 750,000 to an automotive business in Berkeley that burned on Tuesday . ''
+
+After that , the federal share diminishes .
+
+For interstate highways , the federal share normally would drop to 90 % of the cost of repairs , and the state would have to pick up the remainder of the cost .
+
+`` We still have our die-hard baseball fans , '' a spokesman said .
+
+`` One lady from New York said she 's not going home until the -LCB- World Series -RCB- is over . ''
+
+The usual problem with including communists in `` interim '' coalition governments is that their ideology and methods require they squeeze out everyone else .
+
+Recall that Nicaragua 's Sandinistas came into Managua as partners in a coalition government with anti-Somoza moderates .
+
+And ad agencies insist that they do .
+
+Stan Richards of Richards Group Inc. , Dallas , tells of the Texan who saw the agency 's tear-jerking commercial for First Gibraltar Bank F.S.B. -- complete with the state 's anthem -- and promptly invested $ 100,000 in the thrift 's CDs .
+
+The ad campaigns usually follow one of three tracks -- stressing the company 's ` Texasness , ' pointing out the competition 's lack thereof , or trying to be more Texan than Texans .
+
+Ford trucks may outsell Chevy trucks in places like `` Connecticut and Long Island , '' sniffs a commercial for Chevrolet , a division of General Motors Corp .
+
+But in introductory material for the campaign , the trade group urges members to `` arm '' for a `` revolution '' against big , out-of-state bank-holding companies .
+
+A video sent to association members , featuring shots of the Alamo , cowboys , fajitas and a statue of Sam Houston , does n't mince words .
+
+Brokers agreed with the two-tier price theory .
+
+`` My gut feeling is that the Marina properties will be affected , '' said Grace Perkins , senior vice president at Grubb & Ellis Residential Brokerage Inc .
+
+Pharmaceuticals made across-the-board advances .
+
+Fujisawa Pharmaceutical gained 130 to 1,930 yen -LRB- $ 13.64 -RRB- a share , Mochida Pharmaceutical was up 150 at 4,170 , and Eisai advanced 60 to 2,360 .
+
+Steel shares fell back after advancing for three days .
+
+Kawasaki Steel was down 11 at 788 , Kobe Steel lost 5 to 723 , and Nippon Steel slipped 6 to 729 .
+
+To be sure , the stock still has a lot of fans .
+
+`` If you invested $ 10,000 in the initial public offering in 1962 , it would be worth well over $ 5 million today , '' says Fredric E. Russell , a Tulsa , Okla. , money manager .
+
+Brokerage houses are sweet on H&R Block , too .
+
+Zacks Investment Research counts five brokerage houses that consider the stock a buy , and four that call it a hold .
+
+Helmsley 's insurance premiums are expected to be transferred to several different insurance brokerage companies .
+
+Frank B. Hall Inc. of Briarcliff Manor , N.Y. is reportedly working out an agreement with Helmsley .
+
+But inside the white walls of the Orange Workers ' office -- just about the largest building in town , save for the Dutch Reformed Church and the school -- South Africa 's neat racial order is awry .
+
+A dozen white office workers fold newsletters and stuff them into envelopes .
+
+The Orange Workers speak sincerely .
+
+`` We agree with world opinion that the status quo in South Africa is morally wrong , '' says Pieter Bruwer , the Orange Workers ' chief scribe and pamphleteer .
+
+Morgenzon has long been a special domain of Afrikanerdom .
+
+According to Mr. Verwoerd , the early Afrikaner pioneers were the first people to settle in the eastern Transvaal , even before the blacks .
+
+Still , complete and total segregation remains elusive .
+
+Just beyond the city limits is a shantytown of 2,000 blacks who are employed throughout the area .
+
+Not everybody agrees that it 's time to trim .
+
+`` We are n't inclined to prune stock portfolios now , '' says Steven G. Einhorn , chairman of the investment policy committee of Goldman , Sachs & Co .
+
+EXAMINE WHAT HAS CHANGED .
+
+Tom Schlesinger , market analyst at A.G. Edwards & Sons Inc. , says investors should consider selling if there has been a fundamental change in a company since they bought its stock .
+
+Tom Schlesinger , market analyst at A.G. Edwards & Sons Inc. , says investors should consider selling if there has been a fundamental change in a company since they bought its stock .
+
+Say you purchased a stock because of a new product that was in the works .
+
+BankAmerica spokesmen said preliminary reports indicate the company was n't materially affected by the Tuesday earthquake .
+
+All but eight of the 850 branches , which had some structural damage , reopened yesterday for business .
+
+Merkur is n't the only European luxury brand having problems in the U.S. .
+
+The Japanese assault on the luxury market is rapidly overshadowing such European makes as Audi and Saab , which at least have clear brand images .
+
+The Merkur cars also suffered from spotty quality , some dealers say .
+
+`` It was like a comedy of errors , '' says Martin J. `` Hoot '' McInerney , a big dealer whose Star Lincoln-Mercury-Merkur operation in Southfield , Mich. , sold more XR4Ti 's than any other dealership .
+
+Analysts said the results were as expected , but several added that the earnings masked underlying weaknesses in several businesses .
+
+`` The quality of earnings was n't as high as I expected , '' said Eric Philo , an analyst for Goldman , Sachs & Co .
+
+Analysts predict the sales impact will linger .
+
+`` There is n't much question there will continue to be a ripple effect , '' said John Reidy , an analyst with Drexel Burnham Lambert Inc .
+
+Areas that are made of ` fill ' liquefy .
+
+A woman in a three-story apartment was able to walk out the window of the third floor onto street level after the quake .
+
+Downtown Bolinas seems to be the part of town that 's worst off .
+
+No power , minimal phones , and a mess of mayonnaise , wine , and everything else all over the floors of the big old general store and the People 's Co-op .
+
+The stepped-up administration warnings annoyed some lawmakers , especially senior Republicans who supported the bill because they thought the Transportation Department favored it .
+
+`` We backed this bill because we thought it would help Skinner , '' one Republican said , `` and now we 're out there dangling in the wind . ''
+
+Some laggard food issues attracted bargain-hunters , traders said .
+
+Kirin Brewery was up 100 at 2,000 , and Ajinomoto gained 70 to 2,840 .
+
+Mr. Guzman Cabrera 's new order has n't arrived without resistance .
+
+Brawls between union factions still erupt at Pemex installations .
+
+The 61-year-old Mr. Guzman Cabrera takes such criticisms in stride .
+
+`` This is n't a new kind of union leadership , it 's a new Mexico .
+
+We 're no longer afraid of associating with private or foreign capital , '' he says .
+
+Taming the union complements previous moves by the government to attract private investment in petrochemicals , which Mexico has been forced to import in large quantities in recent years .
+
+In May , the government unveiled new foreign investment regulations that create special trusts allowing foreigners , long limited to a 40 % stake in secondary petrochemical companies , to own up to 100 % .
+
+But Pemex 's courtship with private companies , and especially foreign ones , is controversial in a country where oil has been a symbol of national sovereignty since foreign oil holdings were nationalized in 1938 .
+
+`` They are preparing the workers for what 's coming : foreign control , '' wrote Heberto Castillo , a leftist leader .
+
+But top management should watch for other tell-tale signs of employee misdeeds , like expense-account fudging and phone misuse .
+
+Security consultant Dennis Dalton of Ventura , Calif. , thinks mergers often trigger longer lunch hours and increased absenteeism , conduct which can sap the bottom line more than thefts .
+
+The move , subject to a definitive agreement , is part of a trend by big-city banks that have been buying up credit-card portfolios to expand their business .
+
+Just last month , a Bank of New York subsidiary agreed to buy the credit-card operation of Dreyfus Corp. 's Dreyfus Consumer Bank for $ 168 million , a transaction that is expected to be completed by the end of the year .
+
+If anything , the gyrations in world stock markets -- and in B.A.T 's share price -- since last Friday 's sharp Wall Street sell-off have increased the likelihood of shareholder approval for the restructuring , analysts and several big institutional holders said .
+
+`` Thank God we have some deal on the table , '' said Stewart Gilchrist , a director at Scottish Amicable Investment Managers , which intends to vote its roughly 1 % stake in favor of the restructuring .
+
+`` Right now most of the roads into the Bay area are closed , but the list of closings changes about every 20 minutes .
+
+This -LCB- Wednesday -RCB- morning the San Mateo bridge was open and now we are informed that it is closed , '' Mr. Schumacher said .
+
+The challengers will have a big price advantage .
+
+Digital is expected to tag its new line from about $ 1.24 million to $ 4.4 million and up , depending on configuration .
+
+That 's about half the price of comparably equipped IBM mainframes .
+
+IBM will face still more competition in coming months .
+
+Amdahl Corp. , backed by Japan 's Fujitsu Ltd. , has a growing share of the market with its low-priced , IBM-compatible machines .
+
+The Galileo project started in 1977 , and a number of project veterans were on hand to watch the launch .
+
+An ebullient Mr. Johnson , wearing a NASA baseball cap and carrying a camera and binoculars , called the launch `` fantastic . ''
+
+The successful launch continues a remarkable recovery in the U.S. space-science program .
+
+An unmanned spacecraft , Magellan , already is heading to Venus and is due to begin mapping the planet next August .
+
+Not all of NASA 's space-science work will be so auspicious , though .
+
+Around Thanksgiving , the Solar Max satellite , which NASA repaired in orbit in 1984 , will tumble back into the Earth 's atmosphere .
+
+Mr. Mastro has been with the New York U.S. attorney 's office for nearly five years .
+
+In 1987 he became deputy chief of the civil division .
+
+Typically , Mr. Willens estimates , this type of debt makes up 15 % to 20 % of the financing for LBOs .
+
+These types of bonds have been used in buy-outs of companies such as RJR Nabisco Inc. , Storer Communications Inc. and Kroger Co .
+
+Several Wall Street officials say the proposed legislation already is having an impact .
+
+An investment group led by Chicago 's Pritzker family recently lowered a $ 3.35 billion bid for American Medical International , Beverly Hills , Calif. , because of the threat of the legislation .
+
+In addition , an unusually wide array of federal agencies moved to provide specialized assistance .
+
+The Department of Housing and Urban Development prepared to make as many as 100 vacant houses available for those left homeless , the Agriculture Department was set to divert food from the school-lunch program to earthquake victims , and the Pentagon was providing everything from radio communications to blood transfusions to military police for directing traffic .
+
+In Congress , lawmakers already are looking for ways to add relief funds .
+
+Money could be added to a pending spending bill covering the Federal Emergency Management Agency , which coordinates federal disaster relief .
+
+Still , some aid is moving westward from Washington almost immediately .
+
+HUD officials said they will make available as many as 100 Bay area houses that are under HUD loans but now are vacant after the houses have been inspected to ensure they are sound .
+
+The harvest arrives in plenty after last year 's drought-ravaged effort
+
+The government estimates corn output at 7.45 billion bushels , up 51 % from last fall
+
+Companies get more political clout plus a possible tax-deductible charitable donation -- so far no word from the IRS on deductibility .
+
+Detroit Edison , the plan pioneer , generated $ 54,000 in matching funds this year , up from $ 39,000 in 1988 .
+
+Two election commission members opposed the matching plans .
+
+Scott E. Thomas says the plans give employees `` a bonus in the form of charitable donations made from an employer 's treasury '' in exchange for the political donation .
+
+And while it 's too soon to tell how sales will fare in the important 1989 Christmas season , some companies take steps to ease the usual 11th-hour crush .
+
+Spiegel promises a `` Guaranteed Christmas , '' with a pledge to deliver goods before Christmas if ordered by Dec. 20 .
+
+Pittsburgh figures it will be dethroned but plans to accept its ouster graciously .
+
+The city 's Office of Promotion plans media events to welcome its successor .
+
+Many Atlantans thought Pittsburgh was an unworthy heir .
+
+A columnist in the Atlanta Journal and Constitution wrote : `` Who did the research for this report ?
+
+Two guys from Gary , Ind. ? ''
+
+Computer makers were scrambling to help customers recover from the disaster .
+
+Digital Equipment has set up disaster-recovery response centers in Dallas , Atlanta and Colorado Springs , Colo .
+
+Meanwhile , several other major installations around the Valley -- America 's center of high-tech -- said they , too , fared as well as could be expected .
+
+Lawrence Livermore National Laboratory , where the Energy Department tests and conducts research on nuclear weapons , had only `` superficial damage , '' a spokesman said .
+
+And the egg producers have done a pretty good job .
+
+They tried to put Mr. Maynard out of business by an act of Congress .
+
+Mr. Maynard claims this is a manageable problem .
+
+The Egg King carries written instructions to break only high-grade eggs that have been properly sanitized and , as an added precaution , to use the eggs only in products that will be cooked enough to kill bacteria .
+
+Leading the assault against the Egg King has been United Egg Producers .
+
+The Decatur , Ga. , trade group has issued a `` briefing book '' that claims the machine is `` a health hazard '' and that Mr. Maynard is trying `` to make a fast buck at the expense of the nation 's egg producers . ''
+
+Yet her intensity stops and starts with the music .
+
+When she is n't performing for an audience , she prepares for a song by removing the wad of gum from her mouth , and indicates that she 's finished by sticking the gum back in .
+
+When the movie opens the Baker brothers are doing what they 've done for 15 years professionally , and twice as long as that for themselves : .
+
+They 're playing proficient piano , face-to-face , on twin pianos
+
+Yet they do n't disparage their audiences by disparaging their act .
+
+They wear tuxedos most nights , unless circumstances -LRB- a regular gig at a `` tropical '' lounge , for example -RRB- require them to wear special costumes , like Hawaiian shirts .
+
+Frank plans the program , takes care of business , and approaches the work like any other job .
+
+He 's even able to think of a job that takes him out of the house 300 nights a week as an ordinary job .
+
+Mr. Kloves has put together some priceless moments .
+
+These include Jennifer Tilly 's audition to be the Baker Boys ' girl singer .
+
+Despite recent declines in interest rates , money funds continue to offer better yields than other comparable investments .
+
+The average seven-day compound yield on the 400 taxable funds tracked by IBC\/Donoghue 's was 8.55 % in the latest week , down from 8.60 % .
+
+Money-fund assets have been rising at an average rate of $ 1.6 billion a week in recent months , Ms. Negus said , reflecting the relatively high yields .
+
+In the latest week , funds open to institutions alone grew by $ 1.8 billion .
+
+Some funds are posting yields far higher than the average .
+
+The highest yielding taxable fund this week was Harbor Money Market Fund , with a seven-day compound yield of 12.75 % .
+
+While no agencies reported injuries to employees , the quake damaged the offices of J. Walter Thompson , Chiat\/Day\/Mojo and DDB Needham , among others , spokesmen for those agencies said .
+
+Staffers at Thompson , whose offices are in the ultramodern Embarcadero Center , watched pictures drop from the walls and then felt the skyscraper sway seven to eight feet , according to a spokeswoman .
+
+As if this were n't enough , the Senate Judiciary Committee is getting into the act .
+
+On Tuesday it approved Senator Bob Dole 's proposed commemorative resolution designating April 24 , 1990 , as the `` National Day of Remembrance of the 75th Anniversary of the Armenian Genocide of 1915-1923 , '' suffered at the hands of the warring Ottoman Empire .
+
+Turkey in any event is long past it .
+
+The country has in recent years accepted more than 500,000 refugees from at least four bordering nations .
+
+The country has in recent years accepted more than 500,000 refugees from at least four bordering nations .
+
+Kurds , suffering what many people consider to be a current extermination campaign at the hands of Syria , Iran and Iraq have inundated eastern Turkey .
+
+From what we and the nation have been reading , the money is n't being spent very well .
+
+The single most important contribution the government could make now to help the poor is to get the specter of drugs out of their neighborhoods .
+
+Much of HUD 's spending actually is disguised welfare for developers or the middle class .
+
+That includes the CDBG funds and the Federal Housing Administration , which loans out money for private home mortgages and has just been discovered to be $ 4 billion in the hole .
+
+Innocent bystanders often are the victims .
+
+A man in a wheelchair was gunned down in the crossfire of a Miami drug battle .
+
+Natural upheavals , and most particularly earthquakes , are not only horrible realities in and of themselves , but also symbols through which the state of a society can be construed .
+
+The rubble after the Armenian earthquake a year ago disclosed , quite literally , a city whose larger structures had been built with sand .
+
+The larger parallel after the earthquake centered south of San Francisco is surely with the state of the U.S. economy .
+
+Did the stock-market tremors of Friday , Oct. 13 , presage larger fragility , far greater upheavals ?
+
+The eerie complacency of the Reagan-Bush era has produced Panglossian paeans about the present perfection of U.S. economic and social arrangements .
+
+A licensed government intellectual , Francis Fukuyama , recently announced in The National Interest that history is , so to speak , at an end since the course of human progress has now culminated in the glorious full stop of American civilization .
+
+But there were enough promoters announcing the end of history -LRB- in this case suspension of normal laws of economic gravity -RRB- for society to continue shielding its eyes .
+
+Mainstream economists and commentators , craning their necks up at the great pyramids of junk financing , swiveling their heads to watch the avalanche of leveraged buy-outs , claimed the end result would be a leaner , meaner corporate America , with soaring productivity and profits and the weaker gone to the wall .
+
+All along they have been noting the tremors and pointing out the underlying realities .
+
+Profit rates after the great merger wave are no higher , and now we have an extremely high-interest burden relative to cash flow .
+
+The consequences of building empires with sand are showing up .
+
+In contrast to previous estimates reckoning the default rate on junk bonds at 2 % or 3 % , a Harvard study published in April of this year -LRB- and discussed in a lead story in The Wall Street Journal for Sept. 18 -RRB- found the default rate on these junk bonds is 34 % .
+
+Attacks on inflation come with another strategy of capital of a very traditional sort : an assault on wages .
+
+Mr. Fukuyama , peering through binoculars at the end of history , said in his essay that `` the class issue has actually been successfully resolved in the West ...
+
+But sophistication has its limits .
+
+The S&L bailout could cost $ 300 billion , computing interest on the government 's loans .
+
+JAL also has signaled it is looking for toeholds in Europe before the end of 1992 .
+
+Last month , the carrier said it wanted to lease crews and planes from British Airways so it could funnel its passengers from London to other European destinations .
+
+Meanwhile , the brokerage firms in San Francisco were trying to cope .
+
+Charles Daggs , chairman and chief executive officer of Sutro & Co. , said traders came to work at 5 a.m. PDT -- many on foot because of uncertain road and traffic conditions -- but learned that they would have to await a required inspection by the city in order to turn the power back on at the company 's two main facilities there .
+
+In addition , despite IBM 's well-publicized recent problems , the computer giant still generates enormous amounts of cash .
+
+As of the end of the second quarter , it had $ 4.47 billion of cash and marketable securities on hand .
+
+There are also other factors at work that are outside IBM 's control , such as currency exchange rates .
+
+The strong dollar , which reduces the value of overseas earnings and revenue when they are translated into dollars , is expected to knock 80 to 85 cents off IBM 's per-share earnings for the full year .
+
+Other gainers were companies with one or more undamaged California refineries .
+
+Tosco Corp. jumped $ 1.125 to $ 20.125 and Chevron Corp. , despite a temporary pipeline shutdown , rose $ 1 to $ 65 .
+
+Meanwhile , shares of some big housing lenders got hit , on the likelihood that the lenders ' collateral -- people 's homes -- suffered physical damage and perhaps a loss in value .
+
+Wells Fargo & Co. fell 50 cents to $ 81.50 , and BankAmerica Corp. fell 50 cents to $ 31.875 .
+
+Money is n't the only thing that makes her dump once favorite brands .
+
+After she heard about the artery-clogging hazards of tropical oils in many cookies , she dropped Pepperidge Farm and started buying brands free of such oils .
+
+People tend to be most loyal to brands that have distinctive flavors , such as cigarettes and ketchup .
+
+Kathie Huff , a respondent in the Journal survey from Spokane , Wash. , says her husband is adamant about eating only Hunt 's ketchup .
+
+Advertisers attribute this shared loyalty to the striking similarity among brands .
+
+If a more absorbent Pampers hits the market , you can be sure a new and improved Huggies wo n't be far behind .
+
+`` The best odds are with your core franchise .
+
+Our heavy users consume two to three cans of soup a week , and we 'd like to increase that . ''
+
+So Campbell is talking to its `` brand enthusiasts , '' probing their psychological attachment to its soup .
+
+In one consumer focus group , a fan declared that , `` Campbell 's soup is like getting a hug from a friend . ''
+
+But Ford , Jaguar 's biggest shareholder since lifting its stake to 10.4 % this week , is pressing harder for talks with Sir John .
+
+`` We 're getting to the point where we are going to have to meet '' with him , one Ford official said yesterday .
+
+Though it collects such data daily , its monthly reports on program trading usually come out about three weeks after each month ends .
+
+The September figures are due to be released this week .
+
+But stunning volatility was produced in the process .
+
+The Dow Jones Industrial Average plunged a breathtaking 63.52 points in the first 40 minutes of trading Monday as stock-index arbitrage sell programs kicked in .
+
+`` Some of those folks were coming back , '' says Leslie Quick Jr. , chairman , of discount brokers Quick & Reilly Group Inc .
+
+`` We had heard from people who had n't been active '' for a long time .
+
+But those dollars have been going into such `` safe '' products as money market funds , which do n't generate much in the way of commissions for the brokerage firms .
+
+At discount brokerage Charles Schwab & Co. , such `` cash-equivalent '' investments recently accounted for a record $ 8 billion of the firm 's $ 25 billion of client 's assets .
+
+When the tremors struck , the region 's largely unseen high-tech fabric held up surprisingly well despite the devastation visible from the air .
+
+Michael L. Bandler , vice president for network technology at Pacific Bell Telephone Co. , says nearly all the network 's computer switches , which move thousands of calls a minute from one location to another , changed to battery power when the city lost power .
+
+Wall Street reacted swiftly yesterday to the disaster by bidding up stocks of construction and related companies .
+
+Shares of Lone Star Industries Inc. , a cement maker , rose sharply in anticipation of stepped-up demand .
+
+that early damage estimates are often low
+
+the damage totals in Hurricane Hugo increased tenfold as more information was received
+
+Whatever the long-term economic effect , the scene from the helicopter above Oakland is one of tragedy .
+
+Gargantuan sections of a double-decker freeway have been heaved about like plastic building blocks .
+
+But some so-called high-quality junk issues fell as some mutual funds sold their most liquid issues to raise cash .
+
+RJR Holdings Capital Corp. 's 14.7 % bonds due 2009 fell one point .
+
+In West Germany , investors stayed on the sidelines as the bond market searched for direction .
+
+The government 's 7 % issue due October 1999 fell 0.05 point to 99.90 to yield 7.01 % .
+
+Still , any change in East Germany has enormous implications , for both East and West .
+
+It raises the long-cherished hopes of many Germans for reunification -- a prospect that almost equally alarms political leaders in Moscow , Washington and Western Europe .
+
+Moreover , both men have hewn to a similar hard-line philosophy .
+
+Notably , one of Mr. Krenz 's few official visits overseas came a few months ago , when he visited China after the massacre in Beijing .
+
+In recent days , Mr. Krenz has sought to project a kinder image .
+
+According to a report widely circulating in East Berlin , it was Mr. Krenz who ordered police to stop using excessive force against demonstrators in Leipzig .
+
+Their proclaimed purpose is to cleanse East Germany of its Stalinist muck , not to merge with the West .
+
+One of their pastors has envisioned a `` new utopia '' of `` creative socialism . ''
+
+But that was not the case at NBC News , which has been dogged with the image of not being aggressive on major breaking stories .
+
+Last summer , the affiliates bitterly complained to network executives about the poor coverage of the student uprising in China .
+
+Issues of insurance brokers were especially strong .
+
+Marsh & McLennan advanced 3 1\/8 to 75 7\/8 , Alexander & Alexander Services climbed 2 to 32 and Corroon & Black firmed 1 7\/8 to 37 1\/2 .
+
+Companies in the construction , engineering and building-products sectors were among other beneficiaries of earthquake-related buying .
+
+The heavy-construction sector was the session 's best performer among Dow Jones industry groups ; Fluor rose 3\/4 to 33 3\/8 , Morrison Knudsen gained 2 1\/4 to 44 1\/8 , Foster Wheeler added 3\/8 to 18 1\/4 and Ameron climbed 2 3\/8 to 39 3\/4 .
+
+The heavy-construction sector was the session 's best performer among Dow Jones industry groups
+
+Fluor rose 3\/4 to 33 3\/8 , Morrison Knudsen gained 2 1\/4 to 44 1\/8 , Foster Wheeler added 3\/8 to 18 1\/4 and Ameron climbed 2 3\/8 to 39 3\/4
+
+James A. Hagen , chairman and chief executive officer , noted that earnings advanced `` in the face of a drop in business , brought on by the general economic slowdown . ''
+
+Revenue slipped 4.6 % to $ 835 million from $ 876 million .
+
+Sassy already has recovered
+
+circulation has quickly passed the 500,000 mark and advertising pages have stabilized this year at more than 300
+
+Firm will not , however , resume 24-hour service until power in city is restored .
+
+Office closed yesterday at 4:30 p.m. EDT .
+
+Mr. Bush himself essentially acknowledged that he and his aides were trying to head off criticism .
+
+On his FEMA visit , Mr. Bush said that he hoped there would be `` less carping '' about the emergency office 's performance this time , adding that the agency `` took a hit '' for its reaction to Hurricane Hugo .
+
+You can drive piles on it and build on it . ''
+
+He cited the example of San Francisco 's financial district , where many new glass towers survived almost unscathed .
+
+Perhaps because they won , Mr. Bork 's attackers come through more vividly than his defenders .
+
+Ralph Neas was the organizing genius , whipping a conglomerate of pressure groups into an irresistible attacking force .
+
+Sotheby 's has been aggressively promoting the Dorrance sale .
+
+At a news conference last May announcing plans for the auction , Sotheby 's estimated its value in excess of $ 100 million .
+
+Mr. Krenz has followed much the same career path as Mr. Honecker
+
+Both spent years overseeing the Freie Deutsche Jugend ,
+
+Of course East Germany , true to its tradition , could tighten its borders yet further .
+
+Two of the last gestures of the Honecker regime were to close the border to Czechoslovakia and install halogen lights in some spots along the frontier .
+
+Without Moscow 's military and party behind it , East Germany runs the risk of disintegrating .
+
+If it goes capitalist , and increases trade with West Germany , it will convert itself , willy-nilly , into an economic annex of the Federal Republic .
+
+Ideologues are the last to surrender , and Germans are an ideological people .
+
+The protesters who greeted Mikhail Gorbachev at East Berlin 's airport earlier this month were n't shouting `` Go U.S.A '' -- they were chanting `` Gorby , Help Us . ''
+
+Ideologues on the other side of the border can also slow the process .
+
+Helmut Kohl 's governing conservative coalition is proving admirably true to the West German constitution by making more than 500,000 people of German descent automatic citizens this year alone .
+
+But most businesses in the Bay area , including Silicon Valley , were n't greatly affected .
+
+Computer and software companies in the region are expecting virtually no long-term disruption in shipments .
+
+Futures prices eased on indications of improvement in the industry 's labor situation .
+
+The December contract declined 1.85 cents a pound to $ 1.2645 .
+
+Both of these mines are normally major suppliers of copper to Japan , which has been buying copper on the world market .
+
+The first analyst said that the Japanese , as well as the Chinese , bought copper earlier in the week in London , but that this purchasing has since slackened as the supply situation , at least over the long term , appears to have improved .
+
+Since he concentrated on the economic folly of such ordinances , he did n't mention certain other of their effects .
+
+They divert law-enforcement resources at a time they are most needed for protecting lives and property .
+
+Richard Bruno , head of OTC trading at PaineWebber , said the OTC market has a habit of lagging big moves on the New York Stock Exchange .
+
+While the industrial average rallied on Monday following last Friday 's collapse , the OTC market , which did n't suffer too badly during the correction , tumbled .
+
+Overall OTC insurance issues were mixed .
+
+Safeco fell 1\/8 to 32 5\/8 on 462,900 shares .
+
+But most of those stocks fared well .
+
+Apple Computer gained 1 to 48 1\/4 ; Ashton-Tate rose 3\/8 to 10 3\/8 .
+
+Shares of biotechnology companies in the area were also higher .
+
+Chiron was up 1\/2 to 27 and Cetus gained 1\/2 to 16 3\/8 .
+
+The stocks of computer-related companies located outside California improved , too .
+
+Microsoft advanced 1 7\/8 to 80 1\/2 and Lotus Development added 1 1\/4 to 32 1\/2 .
+
+Sen. Bradley 's argument is that a capital-gains tax cut would be bad for the economy in the longer run .
+
+It would inevitably lead to an increase in marginal income-tax rates in 1990 , he thinks , when the White House is forced to ask for higher taxes to meet budget targets .
+
+FORMER CANADIAN AMBASSADOR to the U.S. Allan E. Gotlieb has joined the Philadelphia law firm of Pepper , Hamilton & Scheetz as a consultant .
+
+Mr. Gotlieb , who serves as a consultant to Stikeman , Elliott , one of Canada 's biggest law firms , is advising Pepper Hamilton 's Washington office on legal matters related to Canadian-U.S. investment , corporate finance and international transactions .
+
+The Arabs had tried embargos before .
+
+In 1956 , when Britain , France and Israel invaded Egypt to seize the Suez Canal , Arab producers cut off supplies to Europe .
+
+But Middle East supplies were growing in importance .
+
+By 1973 , the U.S. was bringing in two million barrels of Arab oil a day , more than 10 % of the 17.3 million barrels consumed daily .
+
+Politics and economics conspired .
+
+Japan and Europe , far more dependent on Mideast oil than the U.S. , would n't offend the Arabs or trade off their precious supplies .
+
+`` If there 's any coincidence about the departures it 's that they are leaving at a time when the business is in reasonably good shape and going forward very well . ''
+
+Last month , Morgan Grenfell announced its pretax profit rose 49.6 % to # 32.8 million in the first half , boosted by a healthy growth in its domestic and international corporate finance business .
+
+Par said it selected him for the posts of president and chief executive on a permanent basis because of his experience in the industry and his performance at Par .
+
+Perry Levine , chairman , said Mr. Sawyer had `` taken significant steps '' to restore the company 's credibility and sense of professionalism and integrity .
+
+Merchant banks were stronger across the board .
+
+Morgan Grenfell , which has been mentioned in takeover rumors , rose 20 to 392 pence -LRB- $ 6.18 -RRB- a share .
+
+Brewery stocks were firm to higher on talk of early bargain-hunting , but most ended below their peaks .
+
+Bass ended up 3 higher at 966 , Guinness closed at 589 , down 7 , and Scottish & Newcastle dropped 11 to 359 , but Whitbread Class A shares rose 17 to 363 .
+
+Elsewhere , share prices rebounded in Hong Kong , Sydney , Singapore , Wellington , Taipei , Manila and Seoul .
+
+In Hong Kong , Sydney and Singapore -- the largest of those exchanges -- stocks recovered one-third to one-half of the ground they lost in Monday 's plunge , with major market indexes posting gains of 3.6 % to 4.4 % .
+
+The number had a troubling effect on Wall Street , suggesting that more fundamental economic problems may underlie last Friday 's stock market slide .
+
+The Dow Jones Industrial Average tumbled more than 60 points after the report 's release , before recovering to close 18.65 points lower at 2638.73 .
+
+The bleak trade report was played down by the Bush administration .
+
+Commerce Secretary Robert Mosbacher called the worsening trade figures `` disappointing after two very good months . ''
+
+Universities , however , say Next 's prices must go even lower before large numbers of students purchase the machine .
+
+`` We 'd still like to see a student model , '' priced at about $ 3,500 , said Ronald Johnson , director of academic computing at Minnesota 's Gustavus Adolphus College , which has bought eight Next machines .
+
+Next 's computer also needs more software applications , but Mr. Jobs said he expects more soon .
+
+He said he expects Lotus Development Corp. to introduce a Next version of its popular 1-2-3 spreadsheet program in 1990 .
+
+Director Michael Engler has assembled a top-flight cast to carry out the impersonations of well-known political figures and to play the stock characters who invariably show up at congressional hearings .
+
+Daniel von Bargen is ramrod-stiff but totally assured as Major Battle , mixing just the right brand of self-righteousness and patriotism ; Jeff Weiss is fire , brimstone and teary-eyed emotionalism as the far-right senator who serves as a friendly interrogator of Major Battle ; Zach Grenier is maddeningly officious playing a succession of lawyers ; Joseph Daly has the perfect `` aw , shucks '' demeanor of George Bush in his portrayal of the vice president ; and Ann McDonough is first-rate as a succession of witnesses ' wives .
+
+`` Mastergate '' is subtitled `` a play on words , '' and Mr. Gelbart plays that game as well as anyone .
+
+He describes a Mastergate flunky as one who experienced a `` meteoric disappearance '' and found himself `` handling blanket appeals at the Bureau of Indian Affairs . ''
+
+Mr. Gelbart deplores the obfuscation , the circumlocution and the debasement of language he sees on all sides .
+
+As the hearings begin , the self-important Sen. Bowman -LRB- Jerome Kilty -RRB- announces : `` Let me emphaticize one thing at the outset : We are not looking for hides to skin nor goats to scape . ''
+
+The young John Gutfreund had been discovered by Billy Salomon of Salomon Bros. when he was still a bearded liberal , and put to work as a trader , and then as a rough-and-tumble syndicator .
+
+`` ` Get off your ... , ' he would bellow , '' say the authors .
+
+The raiders , meanwhile , have evolved their own pattern for spending their new millions .
+
+As described in `` The New Crowd , '' they take on ambitious new wives , move to Greenwich , Conn. , or Bedford , N.Y. , buy OK pictures , and let their wives share the wealth with decorators .
+
+A handful of the New Crowd operators have crossed the line from the immoral to the illegal , and have ended up in the slammer or paying huge fines :
+
+Ivan Boesky , Dennis Levine , Martin Siegel , Victor and Steven Posner , and now Michael Milken and perhaps Leona Helmsley .
+
+The glitzy office that Ivan Boesky vacated for a prison cell had previously contained commodity operators Marc Rich and `` Pinky '' Green , today fugitives from a potential century apiece of jail sentences .
+
+Nonperforming assets continued to pile up in the latest quarter , rising to $ 900 million , or 3.52 % of loans and leases , from $ 667 million , or 2.68 % , at the end of the second quarter .
+
+Some $ 170 million of the $ 233 million increase in nonperforming loans was related to real estate , and roughly three-quarters of that was in the troubled New England market , according to Richard Driscoll , vice chairman .
+
+It can happen in any industry .
+
+Consider the difficulties faced by Audi salespeople when the car was tainted by false charges of sudden acceleration , or Exxon dealers ' problems in the wake of the Valdez oil spill .
+
+But salespeople often found that news of Wang 's problems superseded their sales efforts .
+
+William Tait , a former sales manager in Indianapolis , says that his office had all but sold a $ 1.5 million image system to pharmaceutical maker Eli Lilly & Co .
+
+Arbitragers were n't the only big losers in the collapse of UAL Corp. stock .
+
+Look at what happened to UAL 's chairman , Stephen M. Wolf , and its chief financial officer , John C. Pope .
+
+Trouble was , nobody thought they looked right .
+
+Globe columnist Mike Barnicle -- in the second attack on his employer in as many weeks -- averred that his shadowy countenance was so bad , it looked `` like a face you 'd find on a bottle of miracle elixir that promises to do away with diarrhea in our lifetime . ''
+
+In keeping with America 's long history of propping up Mr. Noriega , recent U.S. actions have extended rather than shortened his survival .
+
+Mr. Noriega might have fallen of his own weight in 1988 because of Panama 's dire economic situation , says Mr. Moss , but increasing external pressure has only given him additional excuses for repression , and a scapegoat for his own mismanagement .
+
+Perhaps most important , Mr. Noriega 's allies have intervened to encourage -- in some cases , to demand -- that the dictator maintain his grip of the throne .
+
+One Colombian drug boss , upon hearing in 1987 that Gen. Noriega was negotiating with the U.S. to abandon his command for a comfortable exile , sent him a hand-sized mahogany coffin engraved with his name .
+
+His chief advantage in the fight : his intimate knowledge of American ways and weaknesses .
+
+Mr. Noriega often tells friends that patience is the best weapon against the gringos , who have a short attention span and little stomach for lasting confrontation .
+
+During his years in Chiriqui , however , Mr. Noriega also revealed himself as an officer as perverse as he was ingenious .
+
+Rodrigo Miranda , a local lawyer and human-rights monitor , recalls an intoxicated Noriega visiting prisoners in their cells at the 5th Zone Garrison headquarters in David , where he had his offices .
+
+Mr. Noriega would order them all to take off their clothes and run around the courtyard naked , laughing at them and then retreating to his office .
+
+But through this period , so far as the U.S. military was concerned , Mr. Noriega was a model recruit .
+
+He signed up for intelligence and counter-intelligence training under American officers at Fort Gulick in Panama in July 1967 , according to a copy of a 1983 resume with details Mr. Noriega has since classified as secret .
+
+Even at this early stage , drugs caused additional concerns .
+
+During the Nixon administration , the Drug Enforcement Administration became dismayed at the extent of the G-2 's connections to arrested drug traffickers .
+
+An incident in 1984 suggested one additional means by which Mr. Noriega might have maintained such influence with Washington -- by compromising U.S. officials .
+
+Curtin Windsor , then the ambassador to Costa Rica , recalls being invited to Panama by Mr. Noriega 's brother Luis Carlos for a weekend of deep sea fishing and `` quiet , serious conversation '' on the Aswara Peninsula .
+
+Yet , his political setbacks mounted .
+
+Mr. Noriega was accused of ordering in 1985 the beheading of Hugo Spadafora , his most outspoken political opponent and the first man to publicly finger Mr. Noriega on drug trafficking charges .
+
+Measures of manufacturing activity fell more than the overall measures .
+
+Factory output dropped 0.2 % , its first decline since February , after having been unchanged in October .
+
+The National Cancer Institute report compares mortality rates of two groups of people between the ages of 35 and 44 a decade apart .
+
+The death rate from lung cancer of white males aged 35 to 44 in the mid-1970s was 13.4 per 100,000 , but the mortality rate of the same age group in the mid-1980s was 9.6 , a decline of 28.7 % .
+
+But favorable earnings was n't a guarantee that a stock 's price would improve yesterday .
+
+MCI Communications tumbled 2 5\/8 to 42 3\/8 on 4.7 million shares even though the telecommunications giant reported a 63 % increase in third-quarter profit .
+
+These apocalyptic predictions were advanced by such stalwarts as Paul Ehrlich , Barry Commoner , Rene Dubois and George Wald .
+
+Writing in the 1960s Ms. Carson suggested that the human race could be eliminated in 20 years , and Mr. Wald suggested that life on earth might end by 1985 .
+
+Meanwhile , the New Environmentalists systematically opposed the methods of the Old Environmentalists .
+
+Local pollution problems require cheap energy and capital for their solution .
+
+But the New Environmentalists oppose private wealth creation -LRB- which , they claim , depletes natural resources -RRB- and nuclear power -LRB- even though it would counteract the greenhouse effect -RRB- .
+
+At the same time , there appears to be a market for news-oriented programming
+
+Turner Broadcasting System Inc. 's Cable News Network has its highest ratings , outside of prime time , on Saturday mornings
+
+Proponents of simplification fear that the chances of getting it into the final bill are waning .
+
+`` We hear it has low priority on the House side , '' says Samuel Starr of Coopers & Lybrand , CPAs .
+
+Key to the issue is that the bikes , in skillful hands , can go virtually anywhere , and in reckless hands can become vehicles of terror .
+
+An adept bicyclist can leap from a dead stop to the top of a picnic table without losing balance .
+
+For harried public-land managers across the nation , the response is increasingly to shut the gates .
+
+The state of California , following the lead of some regional parks , recently adopted regulations that closed nearly all hiking paths in state parks to mountain bicycles .
+
+But the club still insists that public lands ought to be closed to the bikes unless studies indicate the bikes wo n't injure the environment or other users .
+
+`` I have a mountain bike , yet as a hiker I 've been run off the road by kids careening down a fire trail on them , '' says Gene Coan , an official at Sierra 's headquarters in San Francisco , echoing the concerns of many members .
+
+To fight back , activists such as Mr. Langton are forming groups to lobby land managers over access issues and undertake education programs to show that the bikes can responsibly share trails .
+
+Mr. Langton 's group , Concerned Off-Road Bicyclists Association , mounted petition drives to help keep open certain Santa Monica Mountain trails designated for closing .
+
+These groups have been trying to improve the mountain biker 's image
+
+in the San Francisco-area park district where a ranger was clobbered by a cyclist this summer bikers have formed a volunteer patrol to help rangers enforce regulations ,
+
+Although stocks have led bonds this week , some traders predict that relationship will reverse during the next few weeks .
+
+Nikko 's Mr. Conlon fears a huge wave of Treasury borrowing early next month will drive down Treasury bond prices .
+
+Analysts were only slightly disappointed by Citicorp 's numbers .
+
+`` There 's nothing in here that 's horrible and nothing to make you think they 're setting the world on fire , '' said Carole Berger , analyst for C.J. Lawrence , Morgan Grenfell Inc .
+
+Elections in this large , diverse and passionate nation are always hard to predict .
+
+Much depends on the opposition , a loose group of regional and ideological parties led by former Gandhi cabinet minister Vishwanath Pratap Singh .
+
+Some analysts predict that disappointment in Mr. Gandhi 's spent pledge to reduce corruption and heavy-handed local government will crest at the polls .
+
+`` There 's a wide feeling of indignation across the country , '' says Bhabani Sen Gupta of the Center for Policy Research , in New Delhi .
+
+In the previous three general elections , similar national issues clinched the vote .
+
+In 1971 , the Congress Party won after India 's victory in the Bangladesh war .
+
+Even if it unites for the elections , its coherence is likely to be temporary .
+
+When the Congress -LRB- I -RRB- lost the 1977 election , following Mrs. Gandhi 's hated emergency rule , a similar coalition took power and then disintegrated .
+
+British government bonds surged on renewed volatility in the stock market .
+
+The Treasury 11 3\/4 % bond due 2003\/2007 rose 23\/32 to 112 10\/32 to yield 10.03 % .
+
+But Japanese bonds ended weaker .
+
+The benchmark No. 111 4.6 % bond due 1998 ended on brokers ' screens at a price of 96 , off 0.15 point to yield 5.27 % .
+
+In fact , they seemed a mite resentful .
+
+The director of Zimbabwe 's Wildlife Department described American conservationists as `` fat little puppies from urban environments who do n't know a thing about Africa . ''
+
+The repair shops are n't united , however .
+
+Shops represented by the Automotive Service Industry Association and the Motor Equipment Manufacturers Association oppose any increase in warranty length .
+
+Since 1981 , Indian military advisers have been assisting the Kabul regime .
+
+In preparation for the withdrawal , Moscow , Kabul and New Delhi signed two agreements for several hundred newly civilian Indian experts to replace some of the more visible Soviet military personnel .
+
+Moreover , serious questions have been raised about the claimed withdrawal of Soviet forces .
+
+Before his assassination in 1988 , President Zia of Pakistan repeatedly stated that fresh Soviet troops were being inserted into Afghanistan even as others were ostentatiously withdrawn .
+
+Of course , neither President Bush nor the Congress has actually abandoned the Contras or SDI .
+
+Mr. Bush has struck a deal with congressional leaders to provide nonlethal aid to the Contras until Nicaragua holds national elections next February .
+
+All this causes Rep. Hyde to muse about an alternate way to drum up more enthusiasm .
+
+`` What I 'd like to see , if he is up to it , is for Reagan to take to the hustings to regenerate enthusiasm for SDI , '' the congressman says .
+
+Mr. Allen 's commissioners voted to call his unread speech `` thoughtless , disgusting and unnecessarily inflammatory . ''
+
+Commissioner Mary Francis Berry said it was `` another sad episode in the saga of the unguided missile who is chairman . ''
+
+Mr. Allen , who teaches government at prestigious Harvey Mudd College in California and will remain a member of the commission , has spent years arguing that civil rights are individuals ' rights .
+
+He last made waves when he dared to defend an Indian girl who had been adopted by non-Indian parents off her reservation .
+
+Antwerp auctioneer Campo is less concerned with market niches than with Belgium 's crushing tax and auction-fee burden .
+
+`` Everything has to be the same between countries , '' says Campo 's Stefan Campo , who is asking clients to sign protest petitions .
+
+And , apparently , it is here to stay .
+
+Richard Bernstein , senior quantitative analyst at Merrill Lynch & Co , says , `` My gut feel is that we 'll live with those swings for a while . ''
+
+Wall Street traders say that , with institutional brokerage commissions far lower than in the 1970s , securities firms ca n't afford to take the risk of buying too much stock .
+
+`` I think everyone 's a little more leery , '' says Jack Baker , head of equity trading at Shearon Lehman Hutton Inc .
+
+Lack of liquidity can also result from exchange `` reforms . ''
+
+Many traders say that `` circuit breakers '' put in place to damp volatility after the 1987 crash actually added to volatility when the stock market plunged Friday .
+
+When the deal ran into trouble , the stock tumbled
+
+it closed at $ 198 yesterday
+
+Some people think the search for liquidity is fruitless .
+
+In 1936 , John Maynard Keynes wrote that `` of the maxims of orthodox finance none , surely , is more antisocial than the fetish of liquidity . ''
+
+Mr. Alexander of Computerworld said hackers have gone after SPAN before .
+
+He said the Chaos Computer Club , of West Germany , once managed to invade SPAN and do such things as change the value of pi , messing up some calculations .
+
+Yet it is also axiomatic that the power to create new crimes belongs only to the legislature , and not to courts .
+
+Beginning in the early 19th century , with U.S. v. Hudson and Goodwin , the Supreme Court has repeatedly held that a judicial power to declare conduct to be against the public interest and hence criminal , while well established in British law , would usurp legislative authority under the doctrine of separation of powers .
+
+Gradually , however , lower courts and prosecutors have pushed this definition to its breaking point .
+
+Consider the facts underlying the 1989 conviction of Robert Chestman .
+
+Other blue-chip consumer issues also fared relatively well
+
+PepsiCo rose 1 3\/8 to 58 1\/2
+
+Broader averages also fell .
+
+Standard & Poor 's 500-stock index fell 1.69 to 341.16 , and the New York Stock Exchange Composite Index fell 0.88 to 188.89 .
+
+Some bankers are reporting more inquiries than usual about CDs since Friday .
+
+`` Reports from branches are that there has been greater interest in the last day or so , '' said Steven Braitman , a vice president at Chemical Bank in New York .
+
+The IMF has several reasons for requesting the increase .
+
+Its role in the economies of developing countries has grown steadily since the 1970s .
+
+A U.S. decision to refuse the IMF its capital increase , or limit it to 25 % , would bring a major change in international economic policy , and could not be taken lightly .
+
+Commentators would fret over the implications for the G-7 coordination process and the stability of world financial markets .
+
+The report takes a more alarmed view of AIDS and recommends a more sweeping response than many other analyses .
+
+It warns that the AIDS epidemic `` may reduce the rate of growth of the work force , curb productivity gains and slow economic growth . ''
+
+Other long-distance carriers have also begun marketing enhanced 900 service , and special consultants are springing up to exploit the new tool .
+
+Blair Entertainment , a New York firm that advises TV stations and sells ads for them , has just formed a subsidiary -- 900 Blair -- to apply the technology to television .
+
+The newest uses of the 900-interactive technology demonstrate the growing variety of applications .
+
+Capital Cities\/ABC Inc. , CBS Inc. and General Electric Co. 's National Broadcasting Co. unit are expected to announce soon a joint campaign to raise awareness about hunger .
+
+Other network applications have very different goals .
+
+ABC Sports was looking for ways to lift deflated halftime ratings for `` Monday Night Football . ''
+
+Each weekday matches a sponsor and a topic
+
+On Mondays , Unilever N.V. 's Lever Bros. sponsors tips on diet and exercise , followed by a 30-second Lever Bros. commercial
+
+`` Hard Copy , '' the new syndicated tabloid show from Paramount Pictures , will use its 900 number for additional purposes that include research , says executive producer Mark B. von S. Monsky .
+
+`` For a piece on local heroes of World War II , we can ask people to leave the name and number of anyone they know who won a medal , '' he says .
+
+`` These are just baby steps toward real interactive video , which I believe will be the biggest thing yet to affect television , '' he says .
+
+Although it would be costly to shoot multiple versions , TV programmers could let audiences vote on different endings for a movie .
+
+Although it would be costly to shoot multiple versions , TV programmers could let audiences vote on different endings for a movie .
+
+Fox Broadcasting experimented with this concept last year when viewers of `` Married ... With Children '' voted on whether Al should say `` I love you '' to Peg on Valentine 's Day .
+
+Someday , viewers may also choose different depths of news coverage .
+
+`` A menu by phone could let you decide , ` I 'm interested in just the beginning of story No. 1 , and I want story No. 2 in depth , '' Mr. Monsky says .
+
+The sales force is viewed as a critical asset in Integrated 's attempt to sell its core companies .
+
+Whitehall cited concerns about how long Integrated would be able to hold together the sales force as one reason its talks with Integrated failed .
+
+Macmillan said Berlitz intends to pay quarterly dividends on the stock .
+
+The company said it expects to pay the first dividend , of 12.5 cents a share , in the 1990 first quarter .
+
+But the music has its charm , and Mr. Glass has constructed his solo program around a move from the simple to the relatively complex .
+
+`` Opening '' -LRB- 1981 -RRB- , from Glassworks , introduces the audience to the Glass technique : Never straying too far from the piano 's center , Mr. Glass works in the two octaves on either side of middle C , and his fingers seldom leave the keys .
+
+With `` Planet News , '' music meant to accompany readings of Allen Ginsberg 's `` Wichita Vortex Sutra , '' Mr. Glass gets going .
+
+His hands sit farther apart on the keyboard .
+
+Not only is the typical Glasswork open-ended , it is also often multiple in its context -LRB- s -RRB- .
+
+`` Mad Rush '' began its life as the accompaniment to the Dalai Lama 's first public address in the U.S. , when Mr. Glass played it on the organ at New York 's Cathedral of St. John the Divine .
+
+Later it was performed on Radio Bremen in Germany , and then Lucinda Childs took it for one of her dance pieces .
+
+But Ms. McCraw says the magazine is fighting back .
+
+It now offers 30 regional editions , it very recently began running ads adjacent to articles , and it has been beefing up its sales force .
+
+The campaign , created by Omnicom Group 's DDB Needham agency , takes advantage of the eye-catching photography that National Geographic is known for .
+
+In one ad , a photo of the interior of the Sainte-Chapelle in Paris is paired with the headline , `` The only book more respected than ours does n't accept advertising . ''
+
+Members of Congress have proposed restricting dual trading in bills to reauthorize CFTC operations .
+
+The House 's bill would prohibit dual trading in markets with daily average volume of 7,000 contracts or more , comprising those considered too difficult to track without a sophisticated computer system .
+
+Nevertheless , the device has been successful in other ways .
+
+It helped Dictaphone attract better engineers , and it provided new technology for other company products .
+
+But other rake makers have their doubts .
+
+Richard Mason , president of Ames Co. in Parkersburg , W. Va. , says the Barrett rake `` makes sense , '' but it would be `` tough '' to explain to consumers .
+
+Some can be bought off relatively cheaply .
+
+During the Korean War , Gen. Douglas MacArthur demanded and got , in addition to his U.N. command in Korea , his own naval command in Japan , NavforJapan .
+
+Which brings up the worst and meanest ghost of all -- the ghost of the shah of Iran .
+
+When the shah died , President Carter was so scared that the shah 's ghost would blame him for shoving him out to make way for the ayatollah that he declared the Carter Doctrine .
+
+And CenTrust has other problems .
+
+Late last week federal regulators ordered the thrift institution to stop paying dividends on its preferred stock -- a move that suggests deep concern about an institution .
+
+It is Mr. Paul 's art venture , however , that has drawn the most attention from investors and regulators , not to mention galleries throughout the world .
+
+Embittered shareholders -LRB- some of whom are suing -RRB- say the chairman and his collection epitomize the excesses of speculation that set off the national S&L crisis .
+
+The great collectors we depended on , such as Paul Mellon or Norton Simon , have stopped buying , and the new buyers are brilliant men who made money in the stock market or in takeovers and rushed into collecting ... . ''
+
+Mr. Payson , an art dealer and collector , sold Vincent van Gogh 's `` Irises '' at a Sotheby 's auction in November 1987 to Australian businessman Alan Bond .
+
+`` An unknown quantity to most of the art world , Paul is no stranger to lavish spending , '' the magazine said , noting that he does n't stop at paint on canvas but also spends big on art you can eat .
+
+`` He recently bid $ 30,000 at a Paris charity auction for a dinner cooked by six of the world 's great chefs , but the final party cost closer to $ 100,000 . ''
+
+Art prices are skyrocketing , but a good deal of legerdemain is involved in compiling statistics on sales .
+
+Salomon Brothers Inc. , the investment-banking firm , in its annual tally of investment returns , reported that old masters appreciated 51 % in the year ended June 1 , the greatest return of any of 13 assets it tracked .
+
+Sotheby 's defends itself and Mr. Paul in the matter .
+
+Mr. Wachter says Mr. Paul was a quick study who worked intensely and bought the best pictures available at the moment .
+
+Meanwhile , Mr. Paul and CenTrust executives are getting squeamish about opulence .
+
+Mr. Paul has been characterized as `` the Great Gatsby or something , '' complains Karen E. Brinkman , an executive vice president of CenTrust .
+
+There are still bulls out there .
+
+`` I still think we will have a 3000 Dow , whether it 's six months or 12 months from now I do n't know , '' says David Dreman , managing partner of Dreman Value Management in New York .
+
+Many brokerage house officials also are optimistic .
+
+Yesterday , Goldman Sachs , Merrill Lynch and Dean Witter all increased the proportion of assets they recommend investors commit to stocks .
+
+Not even all the brokerage firms see clear sailing ahead .
+
+`` Disappointing profits are likely to get worse in the next two quarters , '' says Mary Farrell , a market strategist at PaineWebber .
+
+Managers at five chains have said in recent weeks that they intend to bid for their companies .
+
+The chains include Bloomingdale 's , owned by Campeau Corp. , Toronto ; Saks Fifth Avenue and Marshall Field 's , owned by B.A.T Industries PLC , London ; and B. Altman & Co. and Sakowitz Inc. , owned by Hooker Corp. , which is now being managed by a court-appointed provisional liquidator .
+
+But opponents fear overcrowding .
+
+`` This city already has too many tourists , and it ca n't hold them all , '' says Pierluigi Beggiato , the president of the Venice hoteliers association .
+
+Not all Poles are pleased .
+
+`` What do we want casinos for when we have n't got anything in the shops ? '' one housewife asked .
+
+The reason for the tremendous demand is simple : South Koreans suddenly have a lot more money .
+
+`` We never thought we 'd own a car , '' says Kwang Ok Kyong , who just bought a Daewoo LeMans on a five-year loan .
+
+SsangYong began making variations of the Jeep-like `` Korando '' vehicle .
+
+-LRB- Dong-A had had a technology agreement with Jeep maker American Motors Corp. , now a part of Chrysler Corp . -RRB-
+
+The most popular style is the stretched `` Family , '' which resembles a Ford Bronco or Chevy Blazer .
+
+Kia is the most aggressive of the Korean Big Three in offering financing .
+
+Loans for as long as five years make the cars very accessible , with monthly payments as low as 80,000 won , or $ 120 .
+
+But funds generally are better prepared this time around .
+
+As a group , their cash position of 10.2 % of assets in August -- the latest figure available -- is 14 % higher than two years earlier .
+
+The biggest flurry of investor activity came early in the day .
+
+Vanguard Group Inc. saw heavy exchanges from stock funds into money market funds after the telephone lines opened at 8:30 a.m .
+
+Instead of selling bonds to meet redemptions , however , some funds have borrowed from banks to meet withdrawal requests .
+
+This avoids knocking down prices further .
+
+The $ 1.1 billion T. Rowe Price High Yield Fund was among the funds that borrowed during the Campeau crisis , says George J. Collins , president of T. Rowe Price Associates Inc .
+
+Other companies figure they ca n't avoid the market .
+
+`` We have capital requirements , '' says Mr. Linsert , `` so we have to go ahead '' with a planned $ 1.5 billion private placement .
+
+Many companies are hesitating .
+
+Exabyte Corp. had been planning to sell 10 % of its stock this week in an IPO that would raise up to $ 28.5 million .
+
+Delayed financings also would affect the operations of many companies .
+
+Sierra Tucson Cos. , a Tucson , Ariz. , operator of addiction-treatment centers , has a planned doubling of capacity riding on an IPO scheduled for next week .
+
+Peter Drake , biotechnology analyst for Vector Securities International , Chicago , thinks market uncertainty may encourage small companies to form more strategic alliances with big corporations .
+
+Partly because the 1987 market crash made it harder for them to find financing , many high-technology concerns have made such alliances recently .
+
+Partly because the 1987 market crash made it harder for them to find financing , many high-technology concerns have made such alliances recently .
+
+Some even see a silver lining in the dark clouds .
+
+Some even see a silver lining in the dark clouds .
+
+Alan Wells , president of Bollinger , Wells , Lett & Co. , a New York merger specialist , thinks panicky investors may lose their enthusiasm for leveraged buy-out and giant takeover deals .
+
+Now shifting his scene from the country he left at five to the England he has lived in for nearly 30 years , he has fashioned a novel in the mode of Henry James and E.M. Forster .
+
+With great aplomb he considers not only filial devotion and -LRB- utterly repressed -RRB- sexual love , but British anti-Semitism , the gentry 's impatience with democracy and support of Hitler , and the moral problematics of loyalty : `` It is , in practice , simply not possible to adopt such a critical attitude towards an employer and at the same time provide good service ... .
+
+The Irish-Soviet aviation connection is alive and well here at Shannon Airport .
+
+GPA is indeed talking about leasing Western planes to Aeroflot and even about buying Soviet-built Tupolev 204s .
+
+`` Irish and Soviet people are similar , '' says Mr. Ovcharenko .
+
+`` They look the same .
+
+That is n't all .
+
+Last year , the Irish airport authority , in a joint venture with Aeroflot , opened four hard-currency duty-free shops at Moscow 's Sheremetyevo Airport .
+
+Thanks to a new air-traffic agreement and the ability of Irish travel agents to issue Aeroflot tickets , tourists here are taking advantage of Aeroflot 's reasonable prices to board flights in Shannon for holidays in Havana , Kingston and Mexico City .
+
+The round-trip fare to Havana is 410 Irish punts -LRB- $ 578 -RRB- .
+
+Moreover , the process is n't without its headaches .
+
+Because all operations are connected , one equipment failure forces a complete plant shutdown .
+
+But steelmakers must also find new markets .
+
+After letting aluminum-makers take the recycling lead , a group of the nation 's largest steelmakers started a recycling institute to promote steel cans to an environmentally conscious nation .
+
+Still others are looking at overseas markets .
+
+USX is funneling drilling pipe to steel-hungry Soviet Union .
+
+Moreover , the U.S. can expect more competition from low-cost producing Pacific Rim and Latin American countries .
+
+A Taiwanese steelmaker recently announced plans to build a Nucor-like plant .
+
+Mr. Crary said testimony by Kodak 's patent counsel , Francis T. Carr of Kenyon & Kenyon , showed that `` he worked with Kodak continuously from the outset of the project '' in an effort to avoid infringement .
+
+`` Carr told Kodak on many occasions to avoid various features because of Polaroid 's patent positions , '' and Kodak followed his advice in every instance , Mr. Crary said .
+
+Each side has called a Harvard Business School professor to testify on that issue .
+
+Kodak hired Robert Buzzell and Polaroid brought in Robert J. Dolan .
+
+Securities analysts , however , remained downbeat .
+
+`` I think 1990 will be another mediocre year , '' said Steve Milunovich of First Boston .
+
+On leasing , Bob Djurdjevic at Annex Research said he thinks IBM has hurt itself unnecessarily .
+
+He said IBM has priced its leases aggressively , thinking that would help win business .
+
+But he said IBM would have won the business anyway as a sale to a third party that would have then leased the equipment to the customer .
+
+Not everyone , however , is at ease with office massage .
+
+Three years ago , the Internal Revenue Service 's office in San Jose , Calif. , opened its doors to on-site massage .
+
+And even though employees paid the bill , taxpayers grumbled .
+
+Given such attitudes , some corporate masseurs prefer to go about their business quietly .
+
+Russell Borner of Park Ridge , N.J. , says he has been working for the past year at a huge chemical and manufacturing concern in New York -- unbeknownst to the company 's executives .
+
+Occasionally , all that 's needed is a little coaxing .
+
+Elisa Byler , a St. Louis masseuse , won over officials at Emerson Electric Co. , a maker of electrical and electronic equipment , by providing documents and other articles trumpeting the therapeutic benefits of massage .
+
+Despite the number of fans that office massage has won , some purists look down on it , arguing that naked , full-body rubs are the only way to go .
+
+Linda Aldridge , who does full-body work in Pittsburgh , says that while on-site massage is better than nothing , tired workers should realize it is only the tip of the iceberg .
+
+The project , known as Lotus Mansion , has been mired in controversy .
+
+When the loan agreement was announced , it was hailed as one of the first Western-style financing transactions ever used in China .
+
+But some analysts contend K mart has agreed to pay too much for Pace .
+
+`` Even if you look at it as a turnaround situation , it 's expensive , '' said Wayne Hood of Prudential-Bache Securities Inc .
+
+Meanwhile , there was an awful lot of confusion .
+
+At about 10:40 a.m. on the over-the-counter trading desk at a major brokerage firm , a veteran trader who buys and sells some of the most active stocks looked at a senior official and asked , `` What 's going on ?
+
+Is the market up or down ? ''
+
+And there were other blunders .
+
+When the market opened at 9:30 a.m. EST , a reporter for the Reuters newswire miscalculated the industrial average 's drop as a 4 % decline when it really was down 0.7 % .
+
+Although time and place have yet to be determined , some details are in place .
+
+Mr. Friend says he agreed to strike Mr. Alexander above the belt .
+
+Analysts are concerned that much of the high-yield market will remain treacherous for investors .
+
+Paul Asquith , associate professor at the Massachusetts Institute of Technology 's Sloan School of Management , citing a pattern of junk-bond default rates that are low in the early years after issuance and rise later , says , `` We 're now in a period where we 're starting to see defaults from the big issue years of 1984 to 1986 . ''
+
+Analysts at Standard & Poor 's say junk bond offerings by `` tightly stretched '' issuers seem to be growing .
+
+Almost $ 8 billion of junk bonds that are considered untradeable include issues from SCI TV , Gillette Holdings -LRB- not related to Gillette Co. -RRB- , Interco , Seaman Furniture , Allied Stores , Federated Department Stores , National Gypsum , M.D.C. Holdings , Micropolis , Leaseway Transportation and Price Communications .
+
+Some analysts said they believed Mr. Trump , whose towering ego had been viewed by some as a reason to believe he would n't back out , might come back with a lower bid .
+
+Ray Neidl of Dillon Read & Co. said Mr. Trump `` is stepping back and waiting for the dust to settle .
+
+But others remained skeptical .
+
+`` I was never sure Donald Trump really wanted to take AMR , '' said John Mattis , a bond analyst with Shearson Lehman Hutton Inc .
+
+With the market fluctuating and then closing up more than 88 points yesterday , investment firms had to constantly revise their approach .
+
+At Shearson Lehman , executives created potential new commercials Friday night and throughout the weekend , then had to regroup yesterday afternoon .
+
+In game two , on a cool Sunday evening in this land of perpetual autumn , a lot of the catching up was done by the A 's catcher , Terry Steinbach .
+
+He hit a 2-0 pitch from Rick Reuschel into the left-field stands in inning four to stretch his team 's lead from 2-1 to a decisive 5-1 , where it stayed .
+
+On Saturday night , quite a few of the boys in green and gold salted away successes to salve the pain of past and , no doubt , future droughts .
+
+Mark McGwire , the big , red-haired Oakland first baseman , had three hits in four at bats , two more than he 'd had in the five-game Dodger series in which he 'd gone 1-for-17 .
+
+A few folks even showed up wearing caps bearing the colors and emblems of both teams .
+
+`` I 'm for the Giants today , but only because they lost yesterday .
+
+I love 'em both .
+
+The only thing I 'm rooting for is for the Series to go seven games , '' said David Williams , a Sacramento septuagenarian , at the Coliseum before Sunday 's go .
+
+Anyway , the A 's gave you a lot of heroes to root for .
+
+In the opening game , besides Steinbach and Stewart , there was Walt Weiss , a twiggy-looking , second-year shortstop who had lost a couple months of the season to knee surgery .
+
+`` There was a volatility in the market that I have never seen before , '' said Michel Vigier , a partner in brokerage firm Cholet Dupont .
+
+`` When Wall Street turned around shortly after the opening , there was panic buying in Paris . ''
+
+NCNB raised some $ 1.9 billion in new capital during the quarter to complete the NCNB Texas purchase , and to acquire several small failed thrifts to fill out its regional franchise .
+
+Last week , the banking company said it purchased both Freedom Savings & Loan Association , Tampa , Fla. , and University Federal Savings Association of San Antonio , Texas , for $ 169.4 million .
+
+After the 1987 plunge , markets agreed that it would be wise to halt trading whenever panic conditions arose .
+
+The New York Stock Exchange adopted two specific circuit breakers : If the Dow Jones index falls 250 points in a day , the exchange will halt trading for one hour ; if the decline hits 400 points , the exchange will close for an additional two hours .
+
+In many ways , our financial markets are better prepared today to handle a decline than they were two years ago .
+
+The New York Stock Exchange now has the capacity to handle a volume of nearly a billion shares a day .
+
+-LRB- Of course , specialists ' actions alone can never prevent a major crack in stock prices .
+
+Witness the fact that trading in some stocks closed early Friday and opened late Monday because of an excess of sell orders . -RRB-
+
+Since 1984 , more companies give sales-loss aid , as many real-estate values depreciated , the council says .
+
+RJR Nabisco pays up to $ 30,000 of losses , including improvements .
+
+but will prevent a `` catastrophic loss ''
+
+it has given some employees the full purchase price when values fell from concern over dangers posed by a disposal site
+
+The loss of more customers is the latest in a string of problems .
+
+Church 's Fried Chicken Inc. and Popeye 's Famous Fried Chicken Inc. , which have merged , are still troubled by overlapping restaurant locations .
+
+But in the end , customers ' wishes are what will prevail .
+
+Big Bear does n't care for disposable diapers , which are n't biodegradable .
+
+Yet parents demand them .
+
+But NAHB support for subsidies is not related to the current housing crunch ; over the years the NAHB has backed a host of public programs .
+
+It once pushed for a national housing production goal set by the federal government and has regularly advanced anti-recession housing measures .
+
+More important , housing programs run by HUD , the VA , and FmHA are awash in red ink .
+
+The FHA alone lost $ 4.2 billion in fiscal 1988 ; the government 's equity in the agency , essentially its reserve fund , fell to minus $ 2.9 billion .
+
+In its nicely produced publication `` Where Will Our Children Live ? '' the NAHB does acknowledge that `` of course , the full measure of housing affordability can not be provided by the federal government . ''
+
+It points to the pernicious impact of local government regulation , particularly zoning and building fees , which pushes the price of housing out of the reach of low- and middle-income people .
+
+Unfortunately , the organization 's desire for pork tends to override its commitment to overall fiscal responsibility .
+
+Two years ago when the NAHB lobbied for the $ 19 billion omnibus housing bill , the organization `` basically dropped out of the taxpayers ' coalition , '' says Ms. MacDonald .
+
+Deal stocks led the market down as they absorbed the heaviest losses .
+
+UAL , which triggered the slide , opened Monday at $ 224 , down about 20 % from Thursday 's close .
+
+The market for so-called junk bonds has been setting the stage for Friday 's dramatic march for several weeks .
+
+The growing financial difficulties of recent high-leverage restructurings or takeovers , such as Resorts International , Integrated Resources , and Campeau 's retailing empire , have cast a pall over the entire market for high-yield securities .
+
+Other fund managers were similarly sanguine .
+
+`` We have no plans to adjust our asset allocation in foreign equities , '' said Masato Murakami , chief portfolio manager in the pension fund management department at Yasuda Trust & Banking Co .
+
+As usual the green lobby 's proposal is disconnected from scientific reality .
+
+Consider the greenhouse-effect provision .
+
+Around Wall Street , trading desks were relieved that they could at least play the market yesterday , in contrast to Friday 's gridlock .
+
+At Donaldson , Lufkin & Jenrette Inc. , head equity trader Dudley Eppel said : `` I think the opening was constructive .
+
+On the Big Board floor and on trading desks , traders yelped their approval .
+
+Grinned Griffith Peck , a trader in Shearson Lehman Hutton Inc. 's OTC department : `` I tell you , this market acts healthy . ''
+
+But not everybody was making money .
+
+The carnage on the Chicago Board Options Exchange , the nation 's major options market , was heavy after the trading in S&P 100 stock-index options was halted Friday .
+
+But the industry retains support in the House leadership through the influence of grower states , such as North Carolina .
+
+Majority Whip William Gray owes a political debt to Southern agriculture lawmakers for his rise in the House , and the Philadelphia Democrat used his position in the conference to salvage the exemption from a total ban .
+
+Jay Goldinger , who often trades overnight for Capital Insight Inc. , Beverly Hills , Calif. , said trading in Tokyo was `` very active '' but highly volatile .
+
+`` We went down 3\/4 point in 10 minutes right before lunch , then after lunch we went up 3\/4 point in 12 minutes , '' he said .
+
+Short-term interest rates fell yesterday at the government 's weekly Treasury bill auction .
+
+The average discount rate on new three-month Treasury bills was 7.37 % , the lowest since the average of 7.36 % at the auction on Oct. 17 , 1988 .
+
+What 's happening in photography mirrors the popularity of black and white in fashion , home furnishings and cinematography .
+
+On Seventh Avenue , designers have been advancing the monochrome look with clothing collections done entirely in black and white .
+
+Photographic companies are scrambling to tap the resurging market , reviving some black-and-white product lines and developing new ones .
+
+At Kodak , which largely ignored the market for years , black-and-white film sales now account for nearly 15 % of the company 's $ 3 billion in film and paper sales annually , up from 10 % three years ago .
+
+The Rochester , N.Y. , photographic giant recently began marketing T-Max 3200 , one of the fastest and most sensitive monochrome films .
+
+One customer , Dayna Brunsdon , says she spurned a color portrait for black and white because `` it 's more dramatic .
+
+I show it to my friends , and they all say ` wow . '
+
+Other companies are introducing related products .
+
+Charles Beseler Co. , a leading maker of photographic enlargers , introduced last month a complete darkroom starter kit targeted at teen-agers who want to process their own black-and-white photographs .
+
+`` Black and white has n't made the same quantum leaps in technological development as color , '' says Mr. Butler of the Rochester Institute .
+
+`` The color print today is far superior to prints of 10 years ago .
+
+To the extent Mr. Stanley has done anything wrong , it may be that he is out of step with the consensus of world intellectuals that the Namibian guerrillas were above all else the victims of suppression by neighboring South Africa .
+
+SWAPO has enjoyed favorable Western media treatment ever since the U.N. General Assembly declared it the `` sole , authentic representative '' of Namibia 's people in
+
+Futures prices fell and showed little rebound as one major labor problem that had been underpinning prices appeared to be solved .
+
+The December contract declined 3.05 cents a pound to $ 1.2745 .
+
+However , this was brushed aside by concern over the stock market , the analyst said .
+
+At one point in futures trading , as the stock market firmed , the December contract rose to as high as $ 1.2965 , but it was n't able to sustain the gain .
+
+Futures prices eased , more in reaction to Hurricane Jerry than to any influence of the stock market .
+
+The December contract ended with a loss of 0.22 cent a pound , at 74.48 cents .
+
+Futures prices declined .
+
+The March contract was off 0.32 cent a pound at 13.97 cents .
+
+But their use has been linked to a potentially dangerous depletion of the Earth 's ozone layer , and a number of companies are seeking to curtail use , or at least emission , of the substance .
+
+Whirpool said , `` We see this process as a small but important step toward eventual elimination of CFC use in appliance manufacture .
+
+Many other factors played a part in yesterday 's comeback .
+
+The Federal Reserve signaled its willingness to provide liquidity ; the interest rate on its loans to major banks inched downward early in the day .
+
+Still , amid all the backslapping and signs of relief over yesterday 's events , some market professionals cautioned that there is nothing present in the current market system to prevent another dizzying drop such as Friday 's .
+
+`` There is too much complacency , '' says money manager Barry Schrager .
+
+Unlike two years ago , most of Japan 's major investors chose to sit this calamity out .
+
+In Merrill Lynch & Co. 's Tokyo trading room , some 40 traders and assistants sat quietly , with few orders to process .
+
+The relative calm in Tokyo proved little comfort to markets opening up in Europe .
+
+Frankfurt 's opening was delayed a half hour because of a crush of sell orders .
+
+But shortly before then , some of Wall Street 's sharpest traders say , they sensed a turn .
+
+`` The first thing that caught my eye that was encouraging was Treasury bonds were off , '' says Austin George , head of stock trading at T. Rowe Price .
+
+Not everybody was making money .
+
+The carnage on the Chicago Board Options Exchange , the nation 's major options market , was heavy after the trading in S&P 100 stock-index options was halted Friday .
+
+Across the country , many people took yesterday 's events in stride , while remaining generally uneasy about the stock market in general .
+
+Says James Norman , the mayor of Ava , Mo. : `` I do n't invest in stocks .
+
+I much prefer money I can put my hands on . ''
+
+While Mayor Norman found the market 's performance Monday reassuring , he says , he remains uneasy .
+
+`` Our balance sheets look like they came from Alice 's wonderland , '' Mr. Fromstein said .
+
+The British version shows `` a handful of pounds of net worth '' following the 1987 write-off of good will , while the American version reflects `` $ 1 billion of net worth because almost none of -LCB- the good will -RCB- has been written off . ''
+
+The Watertown , Mass. , company 's sales have been dormant and its profits have dropped .
+
+Last year 's earnings of $ 1.3 million , including $ 815,000 from a restructuring gain , were far below the year-earlier $ 8.4 million .
+
+The finger-pointing has already begun .
+
+`` The equity market was illiquid .
+
+Once again -LCB- the specialists -RCB- were not able to handle the imbalances on the floor of the New York Stock Exchange , '' said Christopher Pedersen , senior vice president at Twenty-First Securities Corp .
+
+The market crumbled .
+
+Arbitragers could n't dump their UAL stock -- but they rid themselves of nearly every `` rumor '' stock they had .
+
+The futures halt was even assailed by Big Board floor traders .
+
+`` It screwed things up , '' said one major specialist .
+
+But stocks kept falling .
+
+The Dow industrials were down 55 points at 3 p.m. before the futures-trading halt .
+
+But fund managers say they 're ready .
+
+Many have raised cash levels , which act as a buffer against steep market declines .
+
+Many fund managers argue that now 's the time to buy .
+
+Vincent Bajakian , manager of the $ 1.8 billion Wellington Fund , added to his positions in Bristol-Myers Squibb , Woolworth and Dun & Bradstreet Friday .
+
+In an unusual move , several funds moved to calm investors with recordings on their toll-free phone lines .
+
+`` We view -LCB- Friday 's -RCB- market decline as offering us a buying opportunity as long-term investors , '' a recording at Gabelli & Co. funds said over the weekend .
+
+Indeed , a random check Friday did n't seem to indicate that the strike was having much of an effect on other airline operations .
+
+Southwest Airlines has a Boeing 737-300 set for delivery at the end of this month and expects to have the plane on time .
+
+Canadian Utilities is n't alone in exploring power generation opportunities in Britain , in anticipation of the privatization program .
+
+`` We 're certainly looking at some power generating projects in England , '' said Bruce Stram , vice president , corporate strategy and corporate planning , with Enron Corp. , Houston , a big natural gas producer and pipeline operator .
+
+In recent months the price of polyethylene , even more than that of other commodity plastics , has taken a dive .
+
+Benchmark grades , which still sold for as much as 50 cents a pound last spring , have skidded to between 35 cents and 40 cents .
+
+The EC and Japan -- the U.S. 's largest steel suppliers -- have n't been filling their quotas to the full extent .
+
+The EC steel industry , which has been coping with strong European demand , has been supplying about 5 % of the U.S. market compared with recent quotas of about 6.7 % .
+
+Some believe P&G 's interest in a superconcentrated detergent goes beyond the concern for the Japanese .
+
+`` This is something P&G would do with or without Kao , '' says Mr. Zurkuhlen .
+
+American and Japanese officials offered several theories for the difference in approach betwen Mr. Mosbacher and Mrs. Hills .
+
+Many called it simply a contrast in styles .
+
+While oil prices have been better than expected , natural gas prices have been worse .
+
+In the third quarter , they averaged about 5 % less than they were in 1988 .
+
+The Bush administration has sent conflicting signals about its export-control policies , reflecting unhealed divisions among several competing agencies .
+
+Last summer , Mr. Bush moved the administration in the direction of gradual liberalization when he told a North Atlantic Treaty Organization meeting that he would allow some exceptions to the Cocom embargo of strategic goods .
+
+But more recently , the Pentagon and the Commerce Department openly feuded over the extent to which Cocom should liberalize exports of personal computers to the bloc .
+
+Until then , limited stocks are likely to keep prices near the $ 4-a-bushel level , analysts say .
+
+On the Chicago Board of Trade Friday , wheat for December delivery settled at $ 4.0675 a bushel , unchanged .
+
+The Soviet Union has n't given any clear indication of its wheat purchase plans , but many analysts expect Moscow to place sizable orders for U.S. wheat in the next few months , further supporting prices .
+
+`` Wheat prices will increasingly pivot off of Soviet demand '' in coming weeks , predicted Richard Feltes , vice president , research , for Refco Inc. in Chicago .
+
+Friday capped a week of steadily rising crude oil prices in both futures and spot markets .
+
+On the New York Mercantile Exchange , West Texas Intermediate crude for November delivery finished at $ 20.89 a barrel , up 42 cents on the day .
+
+Adding to unsteadiness in the industry , seasonal retail ad spending patterns in newspapers have been upset by shifts in ownership and general hardships within the retail industry .
+
+In New York , the Bonwit Teller and B. Altman & Co. department stores have filed for protection from creditors under Chapter 11 of the federal Bankruptcy Code , while the R.H. Macy & Co. , Bloomingdale 's and Saks Fifth Avenue department-store chains are for sale .
+
+Companies with daily newspapers in the Northeast will need the stable newsprint prices to ease damage from weak ad linage .
+
+Mr. Atorino at Salomon Brothers said he estimates that Times Mirror Co. 's earnings were down for the third quarter , because of soft advertising levels at its Long Island Newsday and Hartford Courant newspapers .
+
+She transforms her `` Bronx of the emotions , a place where the flats of mediocrity are only relieved by steep descents into hysteria '' into the `` Babylonian Bronx , '' a world simmering with sex and death and intrigue .
+
+In the Babylonian Bronx , Jewish working-class people lived in drab , Soviet-style buildings `` glamorized '' with names like AnaMor Towers -LRB- after owners Anna and Morris Snezak -RRB- , whose lobbies and hallways were decorated with murals of ancient Syrians and Greeks , friezes of Pompeii .
+
+Little Lily , as Ms. Cunningham calls herself in the book , really was n't ordinary .
+
+She was raised , for the first eight years , by her mother , Rosie , whom she remembers as a loving liar , who realigned history to explain why Lily 's father did n't live with them .
+
+The games Bronx children played -LRB- holding kids down and stripping them , for example -RRB- seem tame by today 's crack standards , but Ms. Cunningham makes it all sound like a great adventure .
+
+`` Without official knowledge of sex or death , we flirted with both , '' she writes .
+
+She analyzed families by their sleeping arrangements .
+
+Her friend Susan , whose parents kept reminding her she was unwanted , slept on a narrow bed wedged into her parents ' bedroom , as though she were a temporary visitor .
+
+Maybe Lily became so obsessed with where people slept and how because her own arrangements kept shifting .
+
+When Rosie died , her uncles moved in -- and let her make the sleeping and other household arrangements .
+
+When Rosie died , her uncles moved in -- and let her make the sleeping and other household arrangements .
+
+They painted the apartment orange , pink and white , according to her instructions .
+
+Harry is now a 57-year-old writer , whose continuing flirtation with drugs and marginal types in Hollywood and New York seems quaintly out-of-synch .
+
+Harry fondly remembers the `` old '' days of the early '70s , when people like his friend Travis would take a psychiatrist on a date to analyze what Travis was doing wrong .
+
+Assuming that the market does n't head into a bottomless free fall , some executives think Friday 's action could prove a harbinger of good news -- as a sign that the leveraged buy-out and takeover frenzy of recent years may be abating .
+
+`` This is a reaction to artificial LBO valuations , rather than to any fundamentals , '' said John Young , chairman of Hewlett-Packard Co. , whose shares dropped $ 3.125 to $ 48.125 .
+
+A few of the executives here for the fall meeting of the Business Council , a group that meets to discuss national issues , were only too happy to personalize their criticism .
+
+`` People wish the government would do something about leveraged buy-outs , do something about takeovers , do something about Donald Trump , '' said Rand Araskog , chairman of ITT Corp. , whose stock dropped $ 3.375 .
+
+`` There is an unbelievable amount of space available , '' says Faith Consolo , senior vice president at Garrick-Aug Associates Store Leasing Inc .
+
+There are about 2,000 stores for rent , up from a more typical range of 1,200 to 1,500 .
+
+It is also no comfort to landlords and small New York retailers when the future of larger department stores , which anchor retail neighborhoods , are in doubt .
+
+Hooker Corp. , parent of Bonwit Teller and B. Altman 's , is mired in bankruptcy proceedings and Bloomingdale 's is for sale by its owner , Campeau Corp .
+
+New York retail rents still run well above the going rate in other U.S. cities .
+
+Madison and Fifth Avenues and East 57th Street can command rents of up to $ 500 a square foot , and $ 250 is not uncommon .
+
+He , like Justice Brennan , considers dissents highly important for the future , a point that has n't escaped legal scholars .
+
+Harvard Law School Professor Laurence Tribe says there is a `` generation-skipping '' flavor to current dissents .
+
+Besides , Time executives think selling a news magazine with a clock radio is tacky .
+
+`` Giveaways just give people the wrong image , '' said Mr. Heinemann .
+
+Still , Time 's move is being received well , once again .
+
+`` It 's terrific for advertisers to know the reader will be paying more , '' said Michael Drexler , national media director at Bozell Inc. ad agency .
+
+Some in the industry are skeptical .
+
+`` I find it hard to conceive of people switching over to CNN for what , at least in the public 's mind , is the same news , '' says Reuven Frank , the former two-time president of NBC News and creator of the Huntley-Brinkley Report .
+
+That 's such a departure from the past that many in the industry are skeptical CNN will follow through with its investigative commitment , especially after it sees the cost of producing in-depth pieces .
+
+`` They 've never shown any inclination to spend money on production , '' says Michael Mosettig , a senior producer with MacNeil-Lehrer NewsHour , who notes that CNN is indispensable to his job .
+
+`` We 're asking the court for a number of things he can grant in addition to the thrill of victory , '' he says .
+
+`` We 'd take the Valley Ranch free and clear as a booby prize .
+
+Attempts to produce `` pan-European '' programs have generally resulted in disappointment .
+
+One annual co-production , the three-hour-long `` Eurovision Song Contest , '' featuring soft-rock songs from each of 20 European countries , has been described as the world 's most boring TV show .
+
+The most popular such shows focus on narrow national concerns .
+
+A French knock-off of `` Dallas , '' called `` Chateauvallon '' and set in a French vineyard , had a good run in France , which ended after the female lead was injured in a real-life auto accident .
+
+Now , however , commercial channels are coming to most European countries , and at the same time , satellite and cable technology is spreading rapidly .
+
+Just last week , Greece authorized two commercial channels for the first time ; Spain earlier began to allow commercial television alongside its state channels .
+
+The financially struggling station offers programs obviously made available cheaply from its boss 's other ventures .
+
+In a Madrid hotel room recently , a viewer caught the end of a badly acted series about a fishing boat on Australia 's Great Barrier Reef , only to be urged by the British announcer to `` stay tuned for the further adventures of Skippy the Kangaroo . ''
+
+Microsoft 's surprising strength is one example of the difficulty facing investors looking for reassurances about the financial health of the computer firms .
+
+`` It 's hard to know what to expect at this point , '' said Peter Rogers , an analyst at Robertson Stephens & Co .
+
+Companies will continue to war over standards .
+
+In computer publishing , a battle over typefaces is hurting Adobe Systems Inc. , which sells software that controls the image produced by printers and displays .
+
+Many of the affluent are n't comfortable with themselves , either .
+
+About 40 % do n't feel they 're more able than others .
+
+But a majority of the Addison council did n't buy those arguments .
+
+Introducing pool , argued Councilwoman Riley Reinker , would be `` dangerous .
+
+Opponents of the cut are playing hardball .
+
+Senate Majority Leader George Mitchell -LRB- D. , Maine -RRB- said he was `` confident '' that any House-Senate agreement on the deficit-reduction legislation would n't include a capital-gains tax cut .
+
+The Senate bill was stripped of many popular , though revenue-losing , provisions , a number of which are included in the House-passed bill .
+
+These include a child-care initiative and extensions of soon-to-expire tax breaks for low-income housing and research-and-development expenditures .
+
+He ticks off several major differences between now and two years ago .
+
+Unlike 1987 , interest rates have been falling this year .
+
+Everything that Mr. Lantos says in his letter is partially true .
+
+He 's right about his subcommittee 's responsibilities when it comes to obtaining information from prior HUD officials .
+
+But they are worried .
+
+`` We were just starting to get the public 's confidence back , '' lamented Mr. Mullins of Dean Witter .
+
+The issues of companies with ties to the junk bond market also tumbled Friday .
+
+On the OTC market , First Executive , a big buyer of the high-risk , high-yield issues , slid 2 to 12 1\/4 .
+
+Other money managers also opened their wallets .
+
+`` I was buying at the close -LRB- Friday -RRB- and I 'll be buying again because I know we 're getting good value , '' said Frederick A. Moran , president of Moran Asset Management Inc. , Greenwich , Conn .
+
+Even without portfolio insurance , market conditions were grim Friday , money managers said .
+
+Neil Weisman , whose New York-based Chilmark Capital Partners had converted 85 % of its $ 220 million investment pool to cash in recent months , said he was besieged by Wall Street firms Friday asking him to take stock off their hands .
+
+During last week 's maneuverings on the deficit-cutting bill and the capital-gains issue , there were signs that Senate Republicans and the administration were at odds .
+
+At the very moment that Senate Republicans were negotiating a deal to exclude capital gains from the deficit-reduction legislation , White House spokesman Marlin Fitzwater told reporters that it was the president 's policy to include it .
+
+But some players were quick to seize the moment .
+
+Before the sun had set on Friday , Richard Rahn , the supply-side chief economist of the U.S. Chamber of Commerce , issued a statement attributing the drop in stock prices to the Senate decision to postpone action on capital gains .
+
+Some evinced an optimism that had been rewarded when they did n't flee the market in 1987 .
+
+`` Oh , I bet it 'll be up 50 points on Monday , '' said Lucy Crump , a 78-year-old retired housewife in Lexington , Ky .
+
+Others wonder how many more of these shocks the small investor can stand .
+
+`` We all assumed October '87 was a one-time shot , '' said San Francisco attorney David Greenberg .
+
+But it 's not only the stock market that has some small investors worried .
+
+Alan Helfman , general sales manager of a Chrysler dealership in Houston , said he and his mother have some joint stock investments , but the overall economy is his chief worry .
+
+And , finally , there were the gloaters .
+
+`` I got out in 1987 .
+
+Everything , '' said Pascal Antori , an Akron , Ohio , plumbing contractor who was visiting Chicago and stopped by Fidelity Investments ' LaSalle Street office .
+
+Compaq 's series of notebooks extends a trend toward downsizing in the personal computer market .
+
+One manufacturer already has produced a clipboard-sized computer called a notepad , and two others have introduced even smaller `` palmtops . ''
+
+Palmtops are n't far behind .
+
+Atari Corp. 's Portfolio , introduced in Europe two months ago and in the U.S. in early September , weighs less than a pound , costs a mere $ 400 and runs on three AA batteries , yet has the power to run some spreadsheets and word processing programs .
+
+Compaq is already taking aim at Zenith 's market share .
+
+Rod Canion , Compaq 's president and chief executive officer , notes pointedly that Zenith 's $ 2,000 MinisPort uses an `` unconventional '' two-inch floppy disk , whereas Compaq 's new machines use the more common 3 1\/2-inch disk .
+
+Analysts do n't see it that way .
+
+`` I ca n't imagine that you 'll talk to anyone who wo n't tell you this is dynamite for Compaq and a stopper for everyone else , '' says Gene Talsky , president of Professional Marketing Management Inc .
+
+Of course , many more issues -- 93 -- hit new lows .
+
+These included International Business Machines Corp. , which during Friday 's session traded below $ 100 a share for the first time since June 1984 .
+
+But some big brokerage firms said they do n't expect major problems as a result of margin calls .
+
+Margin calls since Friday `` have been higher than usual , but reasonable , '' a spokesman for Shearson Lehman Hutton Inc. said .
+
+At the very least , the establishment here is taking comfort from the nation 's success in handling the last go-around .
+
+As Sen. Lloyd Bentsen -LRB- D. , Texas -RRB- observed yesterday , `` The Fed avoided a meltdown last time .
+
+They are more sophisticated this time .
+
+Still , some industry giants are expected to report continuing gains , largely because so much of their business is outside commodity chemicals .
+
+Du Pont Co. is thought to have had steady profit growth in white pigments , fibers and polymers .
+
+In the latest quarter , at least , profit is expected to fall sharply .
+
+For Himont Inc. , `` how far down it is , we do n't know , '' says Leslie Ravitz at Salomon Brothers .
+
+In fact , few consume much of anything .
+
+Two share a house almost devoid of furniture .
+
+The seeds already are in the script .
+
+The first episode concluded with a marvelously cute scene in which the trading-room crew minded a baby , the casualty of a broken marriage at the firm .
+
+And many in the young cast bear striking resemblances to American TV and movie personalities known for light roles .
+
+Joanna Kanska looks like a young Zsa Zsa Gabor ; William Armstrong , who plays Max , could pass for Hans Conreid , and Douglas Hodge -LRB- Declan -RRB- for James Farentino ; Rolf Saxon is a passable Tommy Noonan and Dorian Healy could easily double for Huntz Hall , the blank-faced foil of the Bowery Boys comedies .
+
+Aside from GM , other car makers posted generally mixed results .
+
+Ford Motor Co. had a 1.8 % drop in domestic car sales but a 2.4 % increase in domestic truck sales .
+
+Indeed , Hungary is in the midst of a media explosion .
+
+Boys on busy street corners peddle newspapers of every political stripe .
+
+The competitive spirit is clearly influencing Radio Free Europe , which is trying to beef up programs .
+
+The Budapest office plans to hire free-lance reporters to cover the latest happenings in Hungarian country towns from Nagykanizsa in the west to Nyiregyhaza in the east .
+
+There 's also a host of new programs , trying to lighten up on the traditional diet of politics .
+
+A daily 35-minute program called `` The March of Time '' tries to find interesting tidbits of lighthearted news and gossip from around the world .
+
+And to attract younger listeners , Radio Free Europe intersperses the latest in Western rock groups .
+
+The Pet Shop Boys are big this year in Budapest .
+
+Thus , undoubtedly it was hoped that the new strain of national service would prove contagious , infecting patriotic conservatives , pay-as-you-go moderates , and idealistic liberals .
+
+The Democratic Leadership Council , a centrist group sponsoring the plan , surely thought it might help the party to attract support , especially among college students and their parents .
+
+On the contrary , it is as robust as ever .
+
+According to the Gallup Poll , American adults contribute an average of two hours a week of service , while financial contributions to charity in the 1980s have risen 30 % -LRB- adjusted for inflation -RRB- .
+
+At least 10 bills proposing one or another national program were introduced in Congress this spring .
+
+One , co-sponsored by Sen. Sam Nunn -LRB- D. , Ga . -RRB- and Rep. Dave McCurdy -LRB- D. , Okla. -RRB- , would have restricted federal college subsidies to students who had served .
+
+Doctrine and special interests govern some responses .
+
+People eager to have youth `` pay their dues to society '' favor service proposals -- preferably mandatory ones .
+
+Then there are instinctive opponents .
+
+To libertarians , mandatory service is an abomination and voluntary systems are illegitimate uses of tax money .
+
+Let 's begin by recognizing a main source of confusion -- `` national service '' has no agreed meaning .
+
+Would service be voluntary or compulsory ?
+
+2 . `` Service '' should be service .
+
+As commonly understood , service implies sacrifice .
+
+People of all ages and all classes should be encouraged to serve , but there are many ways for middle-class kids , and their elders , to serve at little public cost .
+
+They can volunteer at any of thousands of non-profit institutions , or participate in service programs required by high schools or encouraged by colleges or employers .
+
+The reticence of federal officials was evident in the appearance Sunday of Budget Director Richard Darman on ABC 's `` This Week . ''
+
+`` Secretary of the Treasury Brady and Chairman Greenspan and the chairman of the SEC and others have been in close contact .
+
+I 'm sure they 'll do what 's right , what 's prudent , what 's sensible , '' he said .
+
+But administration officials conceded that Friday 's drop carried the chance of further declines this week .
+
+`` One possibility is that this is a surgical setback , reasonably limited in its breadth , and not a major problem , '' said one senior administration official , who also asked that he not be named .
+
+`` The other is that we see another major disaster , like two years ago .
+
+Panic selling also was unwise during other big declines in the past .
+
+The crash of 1929 was followed by a substantial recovery before the great Depression and awful bear market of the 1930s began .
+
+Indeed , some pros see Friday 's plunge , plus any further damage that might occur early this week , as a chance for bargain hunting .
+
+`` There has been a lot of emotional selling that presents a nice buying opportunity if you 've got the cash , '' says Stephen B. Timbers , chief investment officer of Chicago-based Kemper Financial Services Inc .
+
+The official China Daily said retail prices of non-staple foods have n't risen since last December but acknowledged that huge government subsidies were a main factor in keeping prices down .
+
+The State Statistical Bureau found that more than 1 billion yuan -LRB- $ 270 million -RRB- was spent in the first half of the year for pork subsidies .
+
+Since then , life has changed a lot for 61-year-old Leonard Kaye , Justin 's owner .
+
+`` I have n't been able to get a decent night 's sleep since this has been going on , '' he says .
+
+Worse , Congress has started to jump on the Skinner bandwagon .
+
+James Oberstar , the Minnesota Democrat who chairs the Public Works and Transportation Committee 's aviation subcommittee , has put an anti-airline takeover bill on supersonic speed so that it would be passed in time to affect the American and United Air Lines bids .
+
+Also , traders are in better shape today than in 1987 to survive selling binges .
+
+They are better capitalized .
+
+But while verbal high jinks alone wo n't help PASOK regain power , Mr. Papandreou should never be underestimated .
+
+First came his predictable fusillade : He charged the Coalition of the Left and Progress had sold out its leftist tenets by collaborating in a right-wing plot aimed at ousting PASOK and thwarting the course of socialism in Greece .
+
+The Boeing strike is starting to affect airlines .
+
+America West said Friday it will postpone its new service out of Houston because of delays in receiving aircraft from Boeing .
+
+And banks appear to be taking an increasingly skeptical view of requests for high-risk takeover loans .
+
+The group trying to buy UAL announced Friday that it could n't arrange the $ 7.2 billion in bank loans it needs to buy the parent of United Airlines for $ 300 a share .
+
+Hilton officials said they were n't worried about the drop in the company 's stock .
+
+William Lebo , Hilton 's general counsel , said plans to consider a sale of the company or some of its assets are `` on track '' for what has been described previously as `` a slow and deliberate process . ''
+
+In other words , real-estate market indicators , such as building permits and leasing activity , plummet much further than a local economy in recession .
+
+This was seen in the late 1960s in Los Angeles and the mid-1970s in New York .
+
+Metropolitan Houston 's economy did drop and then flatten in the years after its 1982 peak .
+
+In the mid-1980s , employment was down as much as 5 % from the 1982 peak and retail sales were off 13 % .
+
+By some measures , metropolitan Denver 's economy has actually improved in the past four years .
+
+Its population has continued to increase since 1983 , the peak year of the economic cycle .
+
+In a self-fulfilling prophecy , therefore , the region 's real-estate market all but collapsed in recent years .
+
+Housing building permits are down more than 75 % from their 1983 peaks .
+
+Sen. Cranston , who had already volunteered his help to the Federal Bureau of Investigation in any investigation of Mr. Keating , portrayed his role in 1987 as prodding regulators to act .
+
+`` Why did n't the Bank Board act sooner ? '' he said .
+
+Hong Kong trade figures illustrate the toy makers ' reliance on factories across the border .
+
+In 1988 , exports of domestically produced toys and games fell 19 % from 1987 , to HK$ 10.05 billion -LRB- US$ 1.29 billion -RRB- .
+
+But re-exports , mainly from China , jumped 75 % , to HK$ 15.92 billion .
+
+In the meantime , as manufacturers and buyers seek new sites , they are focusing mainly on Southeast Asia .
+
+Several big companies have established manufacturing joint ventures in Thailand , including Matchbox , Wah Shing and Kader Industrial Co. , the toy manufacturer headed by Mr. Ting .
+
+Many of the toy makers ' problems started well before June 4 as a result of overstrained infrastructure and Beijing 's austerity programs launched late last year .
+
+Toy makers complain that electricity in Guangdong has been provided only three days a week in recent months , down from five days a week , as the province 's rapid industrialization has outstripped its generating capacity .
+
+Analysts , who were expecting Alcoa to post around $ 2.70 to $ 3 a share , were surprised at the lackluster third-quarter results .
+
+`` It 's disappointing , '' said William Siedenburg , an analyst with Smith Barney , Harris Upham & Co .
+
+Such proclamations leave network officials all the more doubtful that the studios will bend .
+
+`` They do n't seem to have an incentive to negotiate , '' says one network executive .
+
+But recent developments have made the networks -- and NBC President Robert Wright , in particular -- ever more adamant that the networks must be unshackled to survive .
+
+The latest provocation : Sony Corp. 's plan to acquire Columbia Pictures Entertainment Inc. for $ 3.4 billion , and to buy independent producer Guber Peters Entertainment Co. for $ 200 million .
+
+On Friday , Andrew S.Grove , Intel president and chief executive officer , said `` Intel 's business is strong .
+
+Our bookings improved as the quarter progressed and September was especially good .
+
+And as the graying men returned to their homes , the ANC , outlawed in South Africa since 1960 and still considered to be the chief public enemy by the white government , defiantly returned to the streets of the country 's black townships .
+
+A huge ANC flag , with black , green and gold stripes , was hoisted over the rickety gate at Mr. Sisulu 's modest house , while on the street out front , boys displayed the ANC colors on their shirts , caps and scarves .
+
+Japan is going on a capital-spending binge that could make its trade surpluses even harder to shrink .
+
+Its capital spending is growing at double-digit rates for the second year in a row , and its superefficient producers of everything from cars to computer chips are rushing to expand capacity , modernize factories and develop new products .
+
+`` The boom 's so huge , '' says Mitsuru Saito , an economist at Sanwa Research Institute , ``it makes you think of the Golden '60s , '' when Japan developed rapidly .
+
+The more factories and robots Japanese manufacturers add , the more they will be able to export , and the less their domestic customers will need to import .
+
+At Canon Inc. , for example , sales are up nearly 20 % this year ; so , the maker of cameras and computer printers is doing what any Japanese company would do under the circumstances : It is increasing capital spending -- by 60 % .
+
+It is building , among other things , a new laser-beam-printer factory in western Japan that can produce up to 150,000 printers next year .
+
+Some 70 % of them are to be exported to the U.S. .
+
+Even companies in smokestack industries wrestling with world-wide overcapacity are joining the boom .
+
+Japan 's steelmakers are raising capital spending 22 % this year to $ 4.8 billion .
+
+Hitachi Zosen Corp. , a shipbuilder buried in debt just a few years ago , will build a machinery plant , its first expansion in 14 years .
+
+So big ICH is the capital-spending boom that Japanese companies ' outlays in Japan topped American companies ' domestic outlays by $ 521.4 billion to $ 494.8 billion in the 12 months ended March 31 even though Japan 's total output of goods and services is less than two-thirds America 's .
+
+From a financial standpoint , the boom could n't come at a better time .
+
+Many Japanese companies expect record profits this fiscal year , and Japanese interest rates , though up a bit recently , are still low .
+
+And in a business system where shareholders have few rights and expect only modest dividends , companies can plow their profits back into plant and equipment .
+
+But some economists and government officials here are n't applauding .
+
+They fear that the boom may be too big for Japan 's or anyone else 's good .
+
+`` It 's an explosive cocktail '' thrown at the world , says Kenneth Courtis , senior economist at the Tokyo unit of Deutsche Bank Group .
+
+The Ministry of International Trade and Industry is so concerned that it recently took the unusual step of urging Japanese auto companies to exercise caution in capital spending .
+
+MITI officials hope to avoid yet-another source of trade friction with the U.S. even though export restraints currently limit Japanese car exports to the U.S. .
+
+Not everyone is worried , however .
+
+Some economists -- and many Japanese companies -- are puzzled by the warnings .
+
+The investment boom is mainly sparked , they say , by strong domestic demand and is n't likely to increase exports sharply .
+
+Moreover , much investment is n't aimed at increasing capacity .
+
+According to a survey of some 2,400 large companies by the Japan Development Bank , expanded capacity is the goal of just 51.8 % of the outlays ; for manufacturers alone , the figure is 32 % .
+
+The manufacturers said14.2 % of their spending is designed to improve products or add new ones , 17.5 % is to cut costs , 12.5 % is for research and development , and the rest is for maintenance and other purposes .
+
+But the worriers remain unconvinced .
+
+With Japan running enormous trade surpluses against much of the world , they think that Japan should meet the increased domestic demand by importing more .
+
+And eventually , they contend , domestic demand will weaken , forcing companies to emphasize exports again .
+
+`` If there 's a further drive to export , '' says Nobuyuki Arai , an economist at the Japan Development Bank , `` that 'll be a problem . ''
+
+Even in the short run , the investment boom could exacerbate a disturbing trend : Japanese exports are showing surprisingly little tendency to ease .
+
+Japanese auto makers , for example , are increasing their production capacity in the U.S. ; the additional production should , in part , replace imported vehicles with locally manufactured ones .
+
+But although Japanese companies increased their U.S. auto output by 42 % from January to September compared with the year-earlier period , their exports to the U.S. will drop only 9 % this year , Nikko Research Center estimates .
+
+In contrast to previous economic booms , Japanese auto companies are n't just trying to boost production .
+
+Many are pouring money into developing high-quality products to target affluent consumers and , to some extent , to avoid direct combat with cheaper cars from South Korea and Taiwan .
+
+Others are replacing older facilities with flexible assembly lines on which different models can be turned out at once .
+
+So many companies ICH are investing in high-tech machinery that Fanuc Ltd. , a robot maker , also had to build a new plant .
+
+The buildup is `` making Japan clearly more efficient , more technologically advanced and more competitive , '' declares a Western diplomat in Tokyo .
+
+But whatever its effects on exports and imports , Japan 's investment boom during the past two years has been stimulated at least partly by soaring domestic demand .
+
+Japan 's marathon economy , growing at 4.3 % this year , is now in its 35th month of expansion , and some economists are betting that the boom will outlast the record 57-month expansion in the late 1960s .
+
+Japanese consumers are increasingly eager to spend their money , especially on high-priced goods such as 29-inch television sets and luxury cars .
+
+Nissan Motor Co. 's domestic auto sales are up 20 % this year largely because its expensive Cima , Sylvia and Cefiro models are in heavy demand .
+
+`` One dealer told me that if he had more cars , he 'd sell them right away , '' says Takuro Endo , Nissan executive vice president .
+
+He adds that the company is trying to keep up with demand `` by overworking '' its employees .
+
+Similarly , Honda Motor Co. 's sales are so brisk that workers grumblethey have n't had a Saturday off in years , despite the government 's encouragement of more leisure activity .
+
+With demand growing and workers in short supply , many Japanese manufacturers are spending heavily on automation .
+
+Among them are the shipbuilders , which had halved their shipyard work forces to cut costs during a prolonged slump in demand but now are capturing an increased share of the strengthening global market .
+
+Sasebo Heavy Industries Co. , a medium-sized shipbuilder , expects its sales to increase 30 % this year , largely because of rising demand for oil tankers .
+
+Once one Japanese company steps up its investments , the whole industry follows .
+
+Because most businesses put market share above profitability , to let a competitor 's addition to capacity go unmatched is to concede defeat .
+
+The emphasis on market share is evident at Daikin Industries Ltd. , Japan 's biggest maker of industrial air conditioners .
+
+Seeing new office buildings sprout up and its sales soar , Daikin is building another plant , which will lift its production capacity 50 % .
+
+The expansion is aimed not just at meeting demand but also at expanding the company 's market share to 30 % from 27 % currently .
+
+Besides , Daikin 's major competitors , Hitachi Ltd. and Mitsubishi Heavy Industries Ltd. , `` are all adding production lines , '' a Daikin spokesman says .
+
+`` Until now , we were trying to increase productivity with the facilitieswe already had .
+
+But we ca n't produce enough anymore . ''
+
+The competition is even more heated in the auto industry , where companies are racing one another in a world-wide market .
+
+Nissan aims to expand its 25 % share of the market to 30 % by spending $ 141 million on a plant in southern Japan that could make as many as 240,000 cars a year .
+
+Meanwhile , Toyota Motor Corp. 's $ 247 million buildup is increasing its annual capacity by 180,000 cars , and Honda is spending $ 317 million on expansion .
+
+Mazda Motor Corp. is still considering its options , but it boldly aims to double its annual domestic sales to 800,000 cars in the next four years .
+
+Those who are n't worried about how Japanese manufacturers ' investments will affect trade note that many new products are n't replacements for imports .
+
+Although imports account for less than 1 % of beer sales in Japan , Asahi Breweries Ltd. , which has been gaining share with its popular dry beer , plans to fend off Japanese competitors by pouring $ 1.06 billion into facilities to brew 50 % more beer .
+
+But new-product development will make Japanese companies stronger , and big investments in `` domestic '' industries such as beer will make it EXP even tougher for foreign competitors to crack the Japanese market .
+
+Moreover , much of the investment boom is in high-tech fields in which Japanese companies have only limited foreign competition ; so , more investment practically assures more exports .
+
+Toshiba Corp. , for example , is spending $ 986 million on two new plants to build four-megabit dynamic random access memories , the next generation of computer chips .
+
+The product is n't widely used yet , but Toshiba , which has already beaten everyone else in producing the current-generation one-megabit DRAMs , believes that its early investment will heighten its chances of beating its competitors again .
+
+`` It EXP 's important to gain leadership , '' a Toshiba spokesman says .
+
+Meanwhile , Toshiba 's Japanese rivals , Hitachi , Fujitsu Ltd. and NEC Corp. , are n't sitting still .
+
+After doubling production in one plant , NEC is spending $ 275 million to build another plant that , in two years , will be able to make a million four-megabit DRAMs a year .
+
+The new chip plants `` wo n't be excessive investment , '' says Hajime Sasaki , an NEC vice president .
+
+`` We have enough products to make and the markets to sell these products . ''
+
+Some of Japan 's goods being produced as a result of the investment boom are already successful overseas .
+
+Toyota 's $ 35,000 Lexus automobile , a luxury model that it started shipping to the U.S. only last month , is racking up orders at a time when U.S.-made luxury-car sales are slow .
+
+Toyota plans to raise Lexus exports when a new plant starts up next year .
+
+What if its sales weaken someday ?
+
+Japanese companies have a caveat competitor attitude .
+
+If excess capacity develops , they say , not everyone will suffer .
+
+The losers will be those with the least attractive products , and many of them , analysts think , will be foreign companies .
+
+If Japanese companies are so efficient , why does Kawasaki-Rikuso Transportation Co. sometimes need a week just to tell its clients how soon it can ship goods from here to Osaka ?
+
+Why , until last spring , did the Long-Term Credit Bank of Japan sometimes take several days to correct typographical errors in its paper work for international transactions ?
+
+Because the companies have lacked office computers considered standard equipment in the U.S. and Western Europe , Japanese corporations ' reputation as hi-tech powerhouses is only half right .
+
+Their factories may look like sets for a Spielberg movie , but their offices , with rows of clerks hunched over ledgers and abacuses , are more like scenes from a Dickens novel .
+
+Now , the personal-computer revolution is finally reaching Japan .
+
+Kawasaki-Rikuso , a freight company , set up its own software subsidiary this year and is spending nearly a year 's profit to more than double the computer terminals at its main office .
+
+In April , the Long-Term Credit Bank linked its computers in Tokyo with its three American offices .
+
+Overall , PC sales in Japan in the first half of 1989 were 34 % higher than in the year-earlier period .
+
+Combined PC and work-station use in Japan will jump as much as 25 % annually over the next five years , according to some analysts , compared with about 10 % in the U.S. .
+
+And with a labor shortage and intense competitive pressure to improve efficiency , more and more Japanese companies are concluding that they have no choice .
+
+`` We have too many people in our home offices , '' says Yoshio Hatakeyama , the president of the Japan Management Association .
+
+`` Productivity in Japanese offices is relatively low . ''
+
+With Japanese companies in a wide range of industries -- from heavy industry to securities firms -- increasing their market share world-wide , the prospect of an even more efficient Japanese economic army may rattle foreigners .
+
+But it also offers opportunities ; Americans are well poised to supply the weapons .
+
+Japan may be a tough marketfor outsiders to penetrate , and the U.S. is hopelessly behind Japan in certain technologies .
+
+But for now , at least , Americans are far better at making PCs and the software that runs them .
+
+After years of talking about selling in Japan , more and more U.S. companies are seriously pouring in .
+
+Apple Computer Inc. has doubled its staff here over the past year .
+
+Lotus Development Corp. has slashed the lag between U.S. and Japan product introductions to six months from three years .
+
+Ungermann-Bass Inc. has a bigger share of the computer-network market in Japan than at home .
+
+But the Japanese have to go a long way to catch up .
+
+Typical is one office of the Ministry of International Trade and Industry 's Machinery and Information Industries Bureau -- the main bureaucracy overseeing the computer industry .
+
+`` Personal Computer '' yearbooks are lined up on nearly every desk , and dog-eared copies of Nikkei Computer crowd magazine racks .
+
+But amid the two dozen bureaucrats and secretaries sits only one real-life PC .
+
+While American PC sales have averaged roughly 25 % annual growth since 1984 and West European sales a whopping 40 % , Japanese sales were flat for most of that time .
+
+Japanese office workers use PCs at half the rate of their European counterparts and one-third that of the Americans .
+
+Moreover , Japanese offices tend to use computers less efficiently than American offices do .
+
+In the U.S. , PCs commonly perform many tasks and plug into a broad network .
+
+In Japan , many desktop terminals are limited to one function and ca n't communicate with other machines .
+
+The market planning and sales promotion office of Nomura Securities Co. , for example , has more than 30 computers for its 60 workers , a respectable ratio .
+
+But the machines are n't on employees ' desks ; they ring the perimeter of the large office .
+
+Some machines make charts for presentations .
+
+Others analyze the data .
+
+To transfer information from one to the other , employees make printouts and enter the data manually .
+
+To transmit charts to branch offices , they use a fax machine .
+
+Meanwhile , a woman sitting next to a new Fujitsu terminal writes stock-market information on a chart with a pencil and adds it up with a hand calculator .
+
+In an efficient setup , the same PC could perform all those tasks .
+
+In the U.S. , more than half the PC software sold is either for spreadsheets or for database analysis , according to Lotus .
+
+In Japan , those functions account for only about a third of the software market .
+
+Machines dedicated solely to word processing , which have all but disappeared in the U.S. , are still more common ICH in Japan than PCs .
+
+In the U.S. , one-fifth of the office PCs are hooked up to some sort of network .
+
+In Japan , about 1 % are linked .
+
+`` Computers here are used for data gathering , '' says Roger J. Boisvert , who manages the integrated-technologies group in McKinsey & Co. 's Tokyo office .
+
+Some Japanese operations , such as securities-trading rooms , may be ahead of their American counterparts , he says , but `` basically , there 's little analysis done on computers in Japan . ''
+
+Of course , simply buying computers does n't always solve problems , and many American companies have erred by purchasing technologythey did n't understand .
+
+But healthy skepticism is only a small reason for Japan 's PC lag .
+
+Various cultural and economic forces have suppressed demand .
+
+Because the Japanese `` alphabet '' is so huge , Japan has no history of typewriter use , and so `` keyboard allergy , '' especially among older workers , remains a common affliction .
+
+`` I have no experience before with such sophisticated machinery , '' says Matsuo Toshimitsu , a 66-year-old executive vice president of Japan Air Lines , explaining his reluctance before accepting a terminal in his office this summer .
+
+While most American employees have their own private space , Japanese `` salarymen '' usually share large , common tables and rely heavily on old-fashioned personal contact .
+
+Top Japanese executives often make decisions based on consensus and personal relationships rather than complex financial projections and fancy presentations .
+
+And Japan 's management system makes it EXP hard to impose a single , integrated computer system corporatewide .
+
+Besides , a computer processing the Japanese language needs a huge memory and much processing capability , while the screen and printer need far better definition to depict accurately the intricate symbols .
+
+Until recently , much of the necessary technology has been unavailable or at least unaffordable .
+
+Some analysts estimatethe average PC costs about 50 % more ICH in Japan than the U.S. .
+
+But the complex language is n't the only reason .
+
+For the past decade , NEC Corp. has owned more than half the Japanese PC market and ruled it with near-monopoly power .
+
+With little competition , the computer industry here is inefficient .
+
+The U.S. market , too , is dominated by a giant , International Business Machines Corp .
+
+But early on , IBM offered its basic design to anybody wanting to copy it .
+
+Dozens of small companies did , swiftly establishing a standard operating system .
+
+That spurs competition and growth , allows users to change and mix brands easily , and increases software firms ' incentive to write packages because they can be sold to users of virtually any computer .
+
+If a record industry lacked a common standard , Sony CD owners could listen to a Sony version of Madonna 's `` Like a Prayer '' but not one made for a Panasonic player .
+
+That is the state of Japan 's computer industry .
+
+NEC wo n't release its code , and every one of the dozen or so makers has its own proprietary operating system -- all incompatible with each other .
+
+IBM established its standard to try to stop falling behind upstart Apple Computer , but NEC was ahead from the start and did n't need to invite in competitive allies .
+
+Meanwhile , the big players have n't tried to copy the NEC standard .
+
+Corporate pride as well as the close ties common among Japanese manufacturers help explain why .
+
+Most rivals `` have a working relationship with NEC , often through cross-licensing of technology , '' the Japan Personal Computer Software Association noted recently .
+
+`` They hesitate to market NEC-compatible machines ; NEC disapproves of such machines , and marketing one would jeopardize their relationship . ''
+
+The result , according to many analysts , is higher prices and less innovation .
+
+While tens of thousands of software packages using the IBM standard are available in the U.S. , they sayonly about 8,000 are written for NEC .
+
+A year ago , Japan 's Fair Trade Commission warned NEC about possible violations of anti-monopoly laws for discouraging retailers from discounting .
+
+In Japan , `` software is four to five years behind the U.S. because hardware is four to five years behind , because NEC is enjoying a monopoly , '' complains Kazuhiko Nishi , the president of Ascii Corp. , one of Japan 's leading PC-magazine publishing and software companies .
+
+`` There are no price wars , no competition . ''
+
+An NEC spokeswoman responds that prices are higher in Japan because customers put a greater emphasis ICH on quality and service than they do in the U.S. .
+
+She adds that some technological advances trail those in the U.S. because the Japanese still import basic operating systems from American companies .
+
+But the market is changing .
+
+The government is funding several projects to push PC use .
+
+Over the next three years , public schools will get 1.5 million PCs , a 15-fold increase from current levels .
+
+In the private sector , practically every major company is setting explicit goals to increase employees ' exposure to computers .
+
+Toyota Motor Corp. 's sales offices in Japan have one-tenth the computers per employee that its own U.S. offices do ; over the next five years , it is aiming for rough parity .
+
+Within a year , Kao Corp. , a major cosmetics company , plans to eliminate 1,000 clerical jobs by putting on a central computer network some work , such as credit reports , currently performed in 22 separate offices .
+
+By increasing the number of PCsit uses from 66 to 1,000 , Omron Tateishi Electronics Co. , of Kyoto , hopes not only to make certain tasks easier but also to transform the waythe company is run .
+
+`` Managers have long been those who supervise their subordinates so orders would be properly acted on , '' a spokesman says .
+
+`` But new managers will have to be creators and innovators ... and for that purpose it EXP is necessary to create an environment where information from both inside and outside the company can be reached easily , and also shared . ''
+
+Meanwhile , more computer makers now are competing for the new business .
+
+Seiko Epson Corp. , a newcomer to the industry , fought off a legal challenge and started selling NEC clones last year .
+
+It has won about 15 % of the retail PC market .
+
+Sony Corp. , which temporarily dropped out of the PC business three years ago , started selling its work station in 1987 and quickly became the leading Japanese company in that market .
+
+In a country where elbow room is scarce , laptop machines will take a large portion of the industry 's future growth .
+
+Toshiba Corp. busted open that sector this summer with a notebook-sized machine that retails for less than 200,000 yen -LRB- under $ 1,500 -RRB- -- one of the smallest , cheapest PCs available in the country .
+
+Fujitsu Ltd. is lavishing the most expensive promotion campaign in its history -- including a 100,000-guest bash at Tokyo Dome -- for its sophisticated sound\/graphics FM Towns machine , which it advertises for everything from balancing the family checkbook to practicing karaoke , bar singing .
+
+Many of the companies are even dropping their traditional independence and trying to band together to create some sort of standard .
+
+Two years ago , most of the smaller makers joined under the Microsoft Corp. umbrella to adopt a version of the American IBM AT standard .
+
+That has n't generated much sales , but this summer Microsoft rallied all the major NEC competitors to make their new machines compatible with the IBM OS\/2 standard .
+
+A healthy , coherent Japanese market could also make it EXP far easier for Japanese companies to sell overseas , where their share is still minimal .
+
+But it could also help American companies , which also are starting to try to open the market .
+
+As with many other goods , the American share of Japan 's PC market is far below that in the rest of the world .
+
+U.S. makers have under 10 % share , compared with half the market in Europe and 80 % at home .
+
+Though no formal trade barriers exist , the Japanese computer industry is difficultfor outsiders to enter .
+
+`` If it were an open market , we would have been in in 1983 or 1984 , '' says Eckhard Pfeiffer , who heads Compaq Computer Corp. 's European and international operations .
+
+His company , without any major effort , sells more machines in China than in Japan .
+
+Although it has opened a New Zealand subsidiary , it is still only `` studying '' Japan , the only nation that has n't adopted IBM-oriented specifications .
+
+And because general retail centers such as ComputerLand have little presence in Japan , sales remain in the iron grip of established computer makers .
+
+But the Americans are also to blame .
+
+They long made little effort here .
+
+IBM , though long a leader in the Japanese mainframe business , did n't introduce its first PC in Japan until five years after NEC did , and that was n't compatible even with the U.S. IBM standard .
+
+Apple did n't introduce a kanji machine -- one that handles the Chinese characters of written Japanese -- until three years after entering the market .
+
+Critics also sayAmerican companies charge too much .
+
+Japan 's FTC saysit is investigating Apple for allegedly discouraging retailers from discounting .
+
+But the U.S. companies are redoubling their efforts .
+
+Apple recently hired its first Japanese president ICH , luring away an official of Toshiba 's European operations , as well as a whole Japanese top-management team .
+
+Earlier this year , it introduced a much more powerful kanji operating system and a kanji laser printer .
+
+IBM just last year started selling its first machine that could run in both Japanese and English and that substantially enhances compatibility with its American products .
+
+`` It EXP may take five years to break even in Japan , '' says John A. Siniscal , who runs the Asia-Pacific office for McCormack & Dodge , a U.S. software company .
+
+`` But it 's an enormous business opportunity .
+
+Ralph Brown was 31,000 feet over Minnesota when both jets on his Falcon 20 flamed out .
+
+At 18,000 feet , he says , he and his co-pilot `` were looking for an interstate or a cornfield '' to land .
+
+At 13,000 feet , the engines restarted .
+
+But knowing that mechanics would probably ground him for repairs , Mr. Brown skipped his stop in nearby Chicago and set course to get his load -- a few hundred parcels -- to the Memphis package-sorting hub on time .
+
+Had he been a little less gung-ho , `` I 'd have gotten the thing on the ground and headed for the nearest bar , '' Mr. Brown says .
+
+But he flies for Federal Express Corp. , perhaps the closest thing in corporate America to the Green Berets .
+
+Federal 's employees work long hours and seem to thrive on the stress of racing the clock .
+
+Like Mr. Brown , they sometimes go to surprising lengths to meet that overarching corporate goal : delivering the goods on time .
+
+They are a tribute to Federal 's management which , since the company 's founding 16 years ago , has had its way with its work force -- an unusual feat in the contentious transportation industry .
+
+That may soon change .
+
+This month , Federal 's 2,048 pilots , including some 961 acquired along with Tiger International Inc. in February , will decide whether to elect the powerful Air Line Pilots Association as their bargaining agent .
+
+The election , which would bring the first major union to Federal 's U.S. operations , has pitted new hires against devoted veterans such as Mr. Brown .
+
+It has also rattled Federal 's strongly anti-union management , which is already contending with melding far-flung operations and with falling profits .
+
+`` A union , sooner or later , has to have an adversary , and it has to have a victory , '' Frederick W. Smith , Federal 's chairman and chief executive , says with disdain .
+
+`` In our formula , we do n't have any losers except the competition . ''
+
+What managers really fear is that the pro-union movement could spread beyond the pilots .
+
+Under federal transportation law , a government mediator is attempting to reconcile the melding of Tiger 's job classifications into Federal 's .
+
+Depending on the outcome , the merged company may face union elections ICH this fall among airplane mechanics , ramp workers , stock clerks and flight dispatchers .
+
+These groups constitute up to 10 % of its work force .
+
+`` Unions would have a profound effect on the whole culture of the company , '' says Bernard La Londe , a professor at Ohio State University at Columbus and a Federal consultant .
+
+That culture , carefully crafted by Mr. Smith , leaves little , if any , room for unions .
+
+Since founding the company , the charismatic Vietnam vet , who is still only 46 years old , has fostered an ethos of combat .
+
+Flights are `` missions . ''
+
+Mr. Smith 's managers have , at times , been called `` Ho Chi Minh 's Guerrillas . ''
+
+The Bravo Zulu award , the Navy accolade for a `` job well done , '' is bestowed on Federal 's workers who surpass the call of duty .
+
+Competitors are known as the `` enemy . ''
+
+To reinforce employees ' dedication , Mr. Smith pays well .
+
+He also lets workers vent steam through an elaborate grievance procedure and , as a perk , fly free in empty cockpit seats .
+
+He gives pep talks in periodic `` family briefings '' beamed internationally on `` FXTV , '' the company 's own television network .
+
+And , with many of his 70,000 workers , Mr. Smith 's damn-the-torpedoes attitude has caught on .
+
+James Cleveland , a courier who earned a Bravo Zulu for figuring out how to get a major customer 's 1,100-parcel-a-week load to its doorstep by 8 a.m. , considers himself far more than a courier .
+
+`` We do n't just hand the customer the package .
+
+That 's just the beginning , '' he says .
+
+`` In essence , we run the show . ''
+
+David Sanders , a longtime pilot , bristles at the mere suggestion that a union might tamper with his flight schedule .
+
+`` This is America , '' he says .
+
+`` Nobody has the right to tell me how much I can work . ''
+
+Such attitudes have given Federal flexibility , not only to rapidly implement new technology but to keep its work force extraordinarily lean .
+
+The company deliberately understaffs , stretching employees ' schedules to the limit .
+
+But though couriers work as many as 60 hours a week during the autumn rush , they leave early during slack times while still being assured of a minimum paycheck .
+
+Pilots , as well , routinely fly overtime to ensure that none are furloughed during seasonal lows .
+
+The operational freedom has also given Federal a leg up on archrival United Parcel Service Inc. , the nation 's largest employer of United Brotherhood of Teamsters members .
+
+UPS wo n't discuss its labor practices , but , according to Mr. Cleveland , a former UPS employee , and others , union work rules prohibit UPS drivers from doing more than carrying packages between customers and their vans .
+
+Because UPS drivers are n't permitted to load their own vehicles at the depot , say these couriers , packages often get buried in the load and are delivered late .
+
+Labor problems are the last thingMr. Smith needs right now .
+
+Although the Tiger acquisition has brought Federal a long way toward becoming the global playerit wants to be , it also has brought problems .
+
+It more than doubled Federal 's long-term debt to $ 1.9 billion , thrust the company into unknown territory -- heavy cargo -- and suddenly expanded its landing rights to 21 countries from four .
+
+Federal , on its own , had n't been doing very well overseas .
+
+It had hemorrhaged in its attempt to get into Asia , where treaty restrictions forced it to fly some planes half-empty on certain routes .
+
+On routes to South America , the company had no backup jets to ensure delivery when planes were grounded .
+
+In Europe , business suffered as Federal bought several local companies , only to have the managers quit .
+
+These and other problems squeezed Federal 's profit margins last year to 8 % , down from more than 13 % annually in the first half of the decade .
+
+Earnings have plummeted , too , in each of the past three quarters .
+
+In the fiscal first period ended Aug. 31 , profit fell 54 % to $ 30.4 million , or 58 cents a share , mostly because of the Tiger merger , Federal says .
+
+Federal 's stock price , however , has held up well , driven in part by the general run-up of airline stocks , analysts say .
+
+Since trading as low as $ 42.25 a share in May , Federal 's shares have rallied as high as $ 57.87 in New York Stock Exchange composite trading .
+
+They closed Friday at $ 53.25 , down 50 cents on the day .
+
+There 's a certain irony in the fact that Federal Express faces its first union problems as a result of its Tiger purchase .
+
+Tiger itself was founded by a band of gungho airmen who had airlifted supplies `` over the Hump '' from India to China during World War II .
+
+In the early 1970s , Mr. Smith modeled his fledgling company on Tiger 's innovation of hub-and-spoke and containerized-cargo operations .
+
+But from early on , Tiger 's workers unionized , while Federal 's never have .
+
+Federal Express officials acknowledge mistakes in their drive overseas but sayit will pay off eventually .
+
+Analysts expect Federal 's earnings to improve again in its fiscal third quarter ending Feb. 28 , when the company should begin benefiting from Tiger 's extra flights , back-up planes and landing rights .
+
+Until then , they expect the cost of integrating the two carriers to continue crimping profits .
+
+For now , the union issue is the most nettlesome of Federal 's Tiger problems , management believes .
+
+Although encouraging dialogue between managers and workers , Mr. Smith does n't countenance what he considers insubordination .
+
+When a large group of pilots once signed petitions opposing work-rule and compensation changes , he called a meeting in a company hangar and dressed them down for challenging his authority .
+
+He then made most of the changes , pilots say .
+
+That sort of approach , however , has n't worked since the addition of Tiger .
+
+Its 6,500 workers , who had battled Tiger 's management for years over givebacks , were union members until the day of the merger , when most of their unions were automatically decertified .
+
+Soon after the merger , moreover , Federal 's management asked Tiger 's pilots to sign an agreement stating that they could be fired any time , without cause or notice .
+
+When the pilots refused , the company retracted it .
+
+Mr. Smith angered Federal 's pilots , too .
+
+In his haste to seal the deal with Tiger Chairman Saul Steinberg last August , Mr. Smith ignored a promise ICH that he had made to his own pilots three years ago : that any fliers acquired in future mergers would be `` end-tailed '' -- put at the bottom of the pilot seniority list that determines work schedules , pay and career options .
+
+The Tiger merger agreement stipulated that the lists be combined on the basis of tenure .
+
+Mr. Smith is trying hard to allay the anger .
+
+And even some pro-union pilots sayhis charisma and popularity among the many former military fliers could be tough to beat .
+
+`` A lot of people are identifying a vote for representation as a vote against Fred Smith , '' says J.X. Gollich , a Tiger-turned-Federal pilot and union activist .
+
+Mr. Smith and other top Federal executives have met with Tiger workers in Los Angeles , Ohio , New York , Alaska , Asia and Europe .
+
+Recently , they have appeared every few weeks in talk-show type videos , countering pro-union arguments .
+
+In one video , Mr. Smith defended his agreement to merge the pilot-seniority lists .
+
+He saidMr. Steinberg had insisted that the merger talks move quickly .
+
+Regulators , as well , might have quashed the deal if Tiger 's pilots had n't been protected , he said .
+
+Furthermore , Mr. Smith added , `` our contract with our pilots says that we will manage our fleet operations with their advice .
+
+It does n't give any particular group the ability to veto change . ''
+
+Already , the fight has been costly .
+
+The seniority-list controversy , along with the job-classification dispute , has been turned over to the mediator .
+
+Meanwhile , the company is operating with two separate pilot groups and seniority lists , and that is costing Federal `` a big number , '' says James Barksdale , executive vice president and chief operating officer .
+
+The issue has also cost Federal management a lot of good will among its old pilots .
+
+`` They were willing to mistreat us because we had n't shown any moxie , any resistance , '' says William Queenan , a DC-10 pilot and 14-year Federal veteran .
+
+Adds ICH John Poag , a 727 captain and past chairman of the company-sponsored Flight Advisory Board : `` They 've made all these magnanimous gestures to the Flying Tiger pilots , and for us , nothing . ''
+
+Such animosity could prove pivotal in the union vote .
+
+A large majority of the 961 former Tiger fliers support the union , according to a union study .
+
+But though most of the 1,087 Federal pilots are believed opposed , it EXP is unclear just how much their loyalty to Mr. Smith has been eroded .
+
+The fight has turned ugly and , among pilots at least , has shattered the esprit de corps that Mr. Smith worked so hard to build .
+
+Anti-union pilots have held ballot-burning parties .
+
+Some younger pilots saythey have had to endure anti-union harangues by senior pilots while flying across the country .
+
+And for now , at least , the competition is n't the only enemy .
+
+Barney Barnhardt , a 727 captain and leader of the pro-union forces , saidhe has received two anonymous death threats and been challenged to a fight with tire irons by a colleague .
+
+`` The pilots are either for us or extremely against us , '' he says with a sigh .
+
+Thousands of queue-hardened Soviets on Wednesday cheerfully lined up to get a taste of ``gamburgers,'' ``chizburgers'' and ``Filay-o-feesh'' sandwiches as McDonald's opened in the land of Lenin for the first time.
+
+The world's largest version of the landmark American fast-food chain rang up 30,000 meals on 27 cash registers, breaking the opening-day record for McDonald's worldwide, officials said.
+
+The Soviets, bundled in fur coats and hats, seemed unfazed, lining up before dawn outside the 700-seat restaurant, the first of 20 planned across the Soviet Union.
+
+The crush of customers was so intense the company stayed open until midnight, two hours later than planned.
+
+``I only waited an hour and I think they served thousands before me,'' said a happy middle-aged woman who works at an aluminum plant.
+
+``And it was only 10 rubles for all this,'' she said.
+
+``I'm taking it back for the girls at the factory to try''.
+
+Big Macs were priced at 3.75 rubles and double cheeseburgers at 3 rubles _ about two hours' pay for a starting McDonald's staffer or the average Soviet, but much cheaper than other private restaurants that have sprung up recently.
+
+The official exchange rate is $1.59 per ruble but foreign visitors can buy rubles for 16 cents each, about what the currency is worth on the black market.
+
+Half the day's sales were donated to the Soviet Children's Fund, which provides medical care and assistance to orphans and disadvantaged children, Gary Reinblatt, senior vice president of McDonald's Canada, said from Toronto.
+
+The restaurant, built by the company in a joint venture with the city of Moscow that began 14 years ago, brought to 52 the number of countries where McDonald's operates.
+
+The previous opening-day record for sales was in Budapest, company officials said.
+
+Besides its restaurants in the United States, the leading number of McDonald's are in Canada and Japan, the officials said.
+
+Soviets got a first-hand look at such alien concepts as efficiency and fast, friendly service.
+
+Normally dour citizens broke into grins as they caught the infectious cheerful mood from youthful Soviet staffers hired for their ability to smile and work hard.
+
+Accordions played folk songs and women in traditional costumes danced with cartoon characters, including Mickey Mouse and Baba Yaga, a witch of Russian fairy tales.
+
+One Muscovite, accustomed to clerks who snarl if they say anything at all, asked for a straw and was startled when a smiling young Soviet woman found him one and popped it straight into his drink.
+
+For most customers, it was their first experience with a hamburger.
+
+Sandwiches were served in the familiar bag marked with the golden arches, but were packed in wrappers bearing Cyrillic letters, approximating ``gamburger''.
+
+They tried them one-handed.
+
+They picked their sandwiches apart to examine the contents.
+
+One young woman finally squashed her ``Beeg Mak'' to fit her lips around it.
+
+``It tasted great''! a 14-year-old boy said.
+
+``It's a lot different from a stolovaya,'' he continued with a smile, referring to the much cheaper but run-down dirty cafeterias that slop rice and fat or boiled sausage.
+
+Under the sign of the golden arches, accented by the Soviet hammer-and-sickle flag, hundreds lined up for the long-awaited grand opening at 10 a.m. on Pushkin Square, reaching out excitedly for McDonald's flags and pins as the hamburger chain's army fulfilled the Soviet penchant for souvenirs with Western logos.
+
+Publicity-conscious managers had the staff shout ``Good morning, America''! in English and Russian, for an American TV network.
+
+McDonald's of Canada Chairman George Cohon, the man behind the deal, said many people were buying multiple orders and the restaurant served 15,000 to 20,000 people in just the first five hours of operation.
+
+The restaurant limited purchases to 10 Big Macs per customer in hopes of preventing burger-scalping.
+
+McDonald's built its own factory, including bakery, dairy, meat-processing plant and even potato storage yard, to provide its own guaranteed supplies in a country where up to 25 percent of the harvest rots en route to the consumer.
+
+One McDonald's associate said the company wound up importing wooden crates from Finland for storing potatoes because ``when they went to build crates, they found there was no wood, and no nails.
+
+They found you need a permit to buy nails.''
+
+For the New York Philharmonic, it was supposed to be a night of Beethoven and Shostakovich.
+
+The fates made it a night of Leonard Bernstein.
+
+The official catalog of his works says Bernstein led 74 orchestras.
+
+But this was HIS orchestra, and the musicians came to pay tribute to THEIR laureate conductor, who led them through 1,244 concerts during his 47-year association with the Philharmonic.
+
+They let his music do the talking.
+
+``Tonight's concert is not an evening in which we want to dwell on the passing of a giant, but rather what he has left us,'' guest conductor Leonard Slatkin told the audience at Avery Fisher Hall on Thursday night.
+
+So four nights after Bernstein's death at age 72, Beethoven's ``Violin Concerto'' became Bernstein's ``Serenade for Solo Violin, String Orchestra, Harp and Percussion'' (1954); Shostakovich's ``Symphony No. 4'' became Bernstein's ``Symphony No. 1 (Jeremiah),'' written in 1942.
+
+Also added were his ``Chichester Psalms'' (1965) and his overture to ``Candide'' (1956).
+
+The substitute Bernstein program was being repeated Friday night, Saturday and Tuesday.
+
+It was an extraordinary concert.
+
+There weren't many smiling faces among the audience or musicians.
+
+Slatkin's brief introductory comments, followed by the whimsical ``Candide,'' broke some of the tension.
+
+Then came the eclectic ``Serenade,'' which Bernstein's program notes says is supposed to be based on Plato's ``Symposium''.
+
+It begins with a lyrical praise of the Eros, the god of love.
+
+The piece is sometimes jocular, sometimes melancholy, sometimes assaulting and sometimes hedonistic.
+
+It ends in drunken revelry, an intrusion of jazz - as if Bernstein was looking down from heaven and telling the audience, ``It's O.K. to smile tonight''.
+
+The soloist - concertmaster Glenn Dicterow - played with much agility, especially through the difficult double stops and especially considering the lack of preparation time.
+
+The mourning returned after intermission, but not without optimism.
+
+``Jeremiah'' begins with suspenseful strings, followed by a cantorial French horn, a melodic return to the strings and then a prophetic blaring of brass.
+
+The second movement continues the point-counterpoint of brass versus strings (Jeremiah versus the corrupt priests, with Nebuchadnezzar looming on the horizon).
+
+In the third movement, Jerusalem has fallen to the Babylonian king.
+
+Judea is exiled.
+
+Jeremiah weeps.
+
+``How she sits desolate - ``The city once so full of people - ``She is become as a widow''.
+
+During her chanting of the prophet's ``Lamentations,'' mezzo-soprano Wendy White had to wipe a tear from her eye.
+
+S did members of the audience.
+
+Last on the program was another Hebraic elegy, ``Chichester Psalms''.
+
+The New York Choral Artists and a boy soloist joined the orchestra.
+
+Two harpists dominated the center of the crowded stage.
+
+``Awake, psaltery and harp''! the choir begins in Hebrew.
+
+``I will rouse the dawn''.
+
+In the second movement an angelic 8th-grader, Evan Weber, sings King David's 23rd Psalm, ``The Lord is my shepherd, I shall not want''.
+
+After he finishes, the men's chorus bellows: ``Why do the nations rage''?
+
+The piece, however, ends in a Mahlerian motif and chorus declaring a message Bernstein had sought for society: ``Behold how good, ``And how pleasant it is, ``For brethren to dwell ``Together in unity''.
+
+To emphasize the point after the final note, Slatkin suspended his hands for several long moments of silence.
+
+Then came the cascade of applause.
+
+For Leonard Bernstein .
+
+Hurricane Hugo struck South Carolina with renewed fury Thursday after thousands of coastal residents in southeastern states grabbed what they could carry and fled inland on jammed highways.
+
+``This is a disaster staring us right in the eye,'' Mayor Joseph P. Riley Jr. said from his City Hall command post in Charleston, where the hurricane downed power lines, snapped trees and caused utility transformers to explode.
+
+``All we can do now is pray and hope all the precautions we have taken have been sufficient,'' Riley said as Hugo's eye bore in on the city.
+
+``I just hope and pray we can get through this without any loss of life''.
+
+By midnight, 119 mph winds were reported in Charleston.
+
+The roof cracked at City Hall, a 188-year-old brick building that has withstood several hurricanes, and torrents of water poured into the paneled council chamber.
+
+Phone and electric service to the command post was knocked out.
+
+Hurricane-force winds first hit the coast by 9:15 p.m. EDT, and about three hours later the eye of the storm passed over the Isle of Palms just east of Charleston, said Bob Sheets, director of the National Hurricane Center in Coral Gables, Fla.
+
+The eye was about 10 miles across and top winds were still at 135 mph. Hugo was expected to turn gradually to the north, causing severe flooding as it moved up the East Coast.
+
+The storm posed a 19 percent chance of hitting New York City and a 16 percent chance of hitting Boston before Sunday night, the hurricane center said.
+
+As Hugo neared the coast, roads from Hilton Head to Myrtle Beach, 200 miles north, were nearly empty, as were the boarded-up resort towns themselves.
+
+Power lines and trees were downed in some spots and water flooded roads.
+
+Stop lights and neon lights were knocked out in Myrtle Beach.
+
+``One eyewitness said `It's like a light show,''' said Amy Garrison, a reporter at WKZQ AM-FM in Myrtle Beach.
+
+In Charleston, the hurricane littered streets with tin roofs, palmetto fronds and chunks of bark.
+
+Businesses were closed and classes at public schools and universities canceled.
+
+Riley ordered residents of one-story homes to evacuate.
+
+Hospitals stockpiled supplies, discharging any patients well enough to go and moving others to hospitals inland to make room for emergency patients, officials said.
+
+About 12,000 people had checked into 83 shelters across the state as of Thursday evening, and more were expected, said Bennish Brown, a spokesman for the Emergency Operations Center in Columbia, 220 miles northwest of here.
+
+``We tried to close the doors but people are sneaking in side doors,'' said Elaine Skelton, a registered nurse working at the Conway High School shelter near Myrtle Beach.
+
+``We tried to post guards at the doors, but people were still coming in''.
+
+American Red Cross relief efforts were buckling under the number of evacuees, said Brian Ruberry, a spokesman in Savannah, Ga., who appealed for help.
+
+``Right now the Red Cross is sheltering tens of thousands of people all along the Eastern seaboard.
+
+This of course is at the same time that we're sheltering 25,000 people on Puerto Rico and the other Caribbean islands.
+
+``We're beginning to feel the squeeze.
+
+Our resources are very tight.
+
+Right now Hugo is shaping up to be one of our biggest relief operations of the decade''.
+
+At midnight, the center of Hugo was near latitude 32.7 degrees north and longitude 79.9 degrees west, forecasters said.
+
+The hurricane's speed had picked up to 22 mph from 20 mph earlier.
+
+Near its center, Hugo's muscle reached winds of 135 mph, up from 125 mph earlier in the day and 105 mph the day before.
+
+North and South Carolina can expect tornadoes linked to Hugo for the next two days, according to the hurricane center.
+
+The coastal area could expect hurricane force winds for 10 to 12 hours once the eye comes ashore, officials said.
+
+A hurricane warning was in effect between Fernandina Beach, Fla., and Oregon Inlet, N.C.
+
+By late afternoon, Hugo was upgraded to a category 4 hurricane on the Saffir-Simpson scale of strength, the second mightiest category, which indicated it could cause extreme damage.
+
+``It strengthened more than we thought it would,'' Sheets said, adding that Hugo would cause severe flooding as it moved up the Appalachians.
+
+The timing of the landfall was critical because of the storm's tidal surge, a dome of water 10 to 15 feet high that would feed a normal 5-foot high tide that peaks after 2 a.m.
+
+``On top of that will be waves,'' Sheets said earlier, and in many places on barrier islands ``the buildings will be swept clean off.''
+
+Here is a state-by-state summary of drought developments Wednesday:
+
+The Alabama National Guard is still hauling up to 25,000 gallons of water a day to 10 communities across the state despite recent rains.
+
+At the height of the drought last month, the Guard was hauling water to 12 locations.
+
+The Guard's water-hauling program has been in continuous operation since last July in west-central Alabama because of a low water table .
+
+In an effort to help Georgia farmers locate hay, the state Department of Agriculture announced it will start compiling a list of sources.
+
+Commissioner Tommy Irvin urged those with a surplus for sale to contact the department.
+
+He said information will be compiled and updated regularly .
+
+State Treasurer Jerry Cosentino announced a program to provide drought-stricken farmers with access to commercial loans with below-market interest rates.
+
+The treasurer's office will commit $50 million to banks at a lower-than-normal interest yield and in turn those banks will offer farmers loans with rates as low as 10 percent.
+
+``I know what the farmers first need is rain but that is out of our hands right now,'' Cosentino said.
+
+``The next best thing they can get ...
+
+would be additional funds to carry them over until next year.''
+
+A group of Indiana farmers sued a New Jersey insurance company, saying the company acted in bad faith when it reneged on $2.5 million in drought insurance.
+
+The lawsuit seeks an ``undeterminable'' amount of damages from Pio-Gard Agency of Ohio Inc. and Federal Insurance Co., a subsidiary of the Chubb Group Insurance Cos. of Warren, N.J .
+
+Forecasters say Iowa's weather is returning to the hot, dry drought pattern which settled over the state for much of June .
+
+The first emergency shipment of Oregon hay to help drought-stricken Kentucky farmers arrived, but logistical problems forced agriculture officials to delay its distribution until next week.
+
+``It's a nightmare trying to find a fair way to do this,'' said Roger Nesbitt, a spokesman for the Kentucky Department of Agriculture.
+
+Nesbitt said Wednesday's 20-ton shipment, flown free from Portland, Ore., by United Parcel Service, will be sold to farmers on Monday .
+
+Heavy rain fell on some of the driest areas of central and east-central Minnesota, but it was ``way, way below what we should have, as far as precipitation goes,'' a National Weather Service hydrologist said.
+
+``We need ...
+
+a widespread distribution over a long period of time, say maybe 10 inches of rainfall to get us back to what we normally should be,'' Gary McDevitt said.
+
+It was the heaviest rainfall for the east-central part of the state since April 26, when the area got about a half-inch of rain .
+
+Weather experts say Mississippi could see above normal rainfall in the coming week.
+
+Rainfall during the week ending Wednesday averaged 1 inch in some areas, with some extreme northern counties receiving greater amounts.
+
+But the weather service said all Mississippi farm communities still had only 30 percent to 50 percent of normal moisture .
+
+Road builders in the Kansas City area say the effects of dry weather in the Midwest this year are not all bad.
+
+Engineers say several highway projects in the area will be open to traffic at least a month earlier than expected because of fewer interruptions caused by rain and wet weather. __
+
+As many as 20 fires, sparked by lightning from thunderstorms, have blackened about 1,500 acres in the Custer National Forest.
+
+The fires are being fought by from 150 to 200 firefighters.
+
+A lightning-caused fire in the Bob Marshall Wilderness Area of northwest Montana was being allowed to burn naturally, officials said .
+
+State Agriculture Director Roy Frederick said Nebraska farmers probably will have better crops than are expected nationwide and may benefit from higher prices.
+
+Nebraska's outlook for the corn crop is rosier than national predictions because 75 percent of the corn comes from irrigated acres and Nebraska has received more rain than some other states, he said .
+
+Gov. George Sinner has asked federal officials to declare all 53 North Dakota counties disaster areas because of the drought.
+
+Sinner says the drought has wiped out small grain crops and is beginning to take a toll on row crops.
+
+The State Agricultural Statistics Service said North Dakota farmers will abandon 31 percent of their spring wheat this year and harvest the smallest crop in 19 years because of the drought.
+
+That compares to a normal abandonment of about 5 percent.
+
+Abandonment has not been so high in the state since the 1930s .
+
+Lt.
+
+Gov. Paul Leonard, who heads a state drought task force, said he would not advocate statewide mandatory water restrictions but said local governments should have the authority to impose restrictions where necessary.
+
+In central Ohio, farmers awaited what will be the largest haylift of the season _ 50 truckloads of hay from the South scheduled to arrive Thursday night in Columbus .
+
+Thunderstorms hit Brown County with heavy rain and hail that damaged drought-stricken crops.
+
+Rain was heavy north and east of Aberdeen and spotty elsewhere.
+
+Stanley and Thelma Dennert, who live three miles west of Houghton, reported 3.75 inches of rain within an hour.
+
+``It was hard with a little bit of hail.
+
+It really came down in sheets,'' said Mrs. Dennert.
+
+Authorities said no tornado sightings were confirmed, but about a dozen funnel clouds were reported .
+
+The drought-plagued Mississippi River measured seventh-tenths of a foot higher than expected at Memphis because of rainfall throughout West Tennessee.
+
+The Mississippi was still 21 feet lower than normal for this time of year, however, and the Coast Guard said the slight rise had no effect on commercial traffic on the river .
+
+The drought has dried up summer jobs at the Stokley USA cannery in Merrill.
+
+During most summers, the plant provides three months' employment for about 300 workers on three shifts, but this year there are only 225 seasonal employees on two shifts, said Vern Warren, plant manager.
+
+``It's been on and off so far.
+
+The drought conditions have made it a little difficult for us,'' Warren said .
+
+WHILE Hurricane Andrew was wreaking havoc across large parts of southern Florida and Louisiana this week, a grade two dollar crisis (on a one-to-four scale, four being most severe) was blowing itself out at the end of a tumultuous few days for US and world financial markets.
+
+On Wall Street, most of the damage from the currency storm was inflicted a week ago Friday and on the following Monday, when bond yields jumped sharply and the Dow Jones industrial average plunged by more than 75 points.
+
+The flimsy walls erected hastily by the Federal Reserve and other big central banks to protect the vulnerable dollar from a tidal wave of selling on foreign exchange markets failed to hold; and as the sellers poured through the breached barricades, the currency dropped to DM1.40.
+
+This was its lowest-ever point against the D-mark.
+
+The conditions necessary for a dollar crisis had been building up in currency markets for some time.
+
+Interest rate differentials between US and Germany widened over the summer as the Fed eased, and the Bundesbank tightened, their respective monetary policies.
+
+The failure of the US economy to climb out of recession with any vigour was also making overseas investors increasingly unhappy about holding the dollar.
+
+So, too, was the political hole President Bush had dug for himself in a re-election battle that only a year ago was supposed to be a shoo-in for the incumbent.
+
+Moreover, the fact that almost every central bank worth its salt was in the markets trying to prop up the dollar served only to convince foreign exchange dealers that the currency was heading in one direction - down.
+
+While there were plenty of reasons for the dealers to sell the dollar, the logic for such a strongly negative reaction from bond and stock markets was less obviously compelling.
+
+There are two standard explanations why a weak dollar prompts bond prices to fall.
+
+The first is that it raises import prices and, as a result, adds to inflationary pressures.
+
+The second is that it makes it hard for the Fed to engineer another cut in interest rates to stimulate the flagging recovery, and raises the possibility that rates may actually have to go up to protect the currency.
+
+The first explanation is not particularly convincing - imports account for not much more than 10 per cent of US gross domestic product, so higher import prices do not greatly effect the overall price level, which is now around 3 per cent and heading lower.
+
+The second explanation carries more weight.
+
+Although there is not much chance, given the present economic and political climate, that the Fed will raise rates to help the dollar, there is little doubt that the currency's weakness makes it extremely difficult for the Fed to ease monetary policy again.
+
+The fear that the Fed may be done with interest rate cuts for the present economic cycle was also behind the selling in equity markets.
+
+But investors in stocks were equally, if not more, troubled by the rise in bond yields.
+
+Just over a week ago, the yield on the benchmark 30-year bond, which has remained stubbornly high all year despite the poor state of the economy, looked as if it might drop below 7.3 per cent.
+
+The dollar put paid to those hopes and, by the middle of this week, it was approaching 7.45 per cent, putting an upward pressure on the all-important mortgage rate for home-buyers.
+
+The dollar was not the only story in financial markets this week, and the devastating effect of Hurricane Andrew produced a typically hard-eyed, although nonetheless logical, reaction from Wall Street.
+
+The stocks of those insurance companies with the greatest exposure in southern Florida, the area hit worst by the hurricane, all took a tumble.
+
+But the relatively modest losses in Geico, Travelers and Progressive suggested that the market believed the insurers were reserved or reinsured adequately enough to cover hurricane-related claims.
+
+The flip side of the hurricane's coin was a strong showing from the stocks of home construction companies expected to benefit from demand for rebuilding damaged or destroyed homes.
+
+Since there are an estimated 250,000 people left homeless by the storm, there is a lot of work to be done.
+
+The biggest gains among construction stocks this week were posted by Lennar, Oakwood Homes, Engle Homes and Fleetwood, the largest maker of pre-manufactured homes in the US .
+
+A tornado slammed into a shopping district, a residential area and a school Wednesday, killing at least 15 people, injuring more than 300 and trapping people in cars and homes, authorities said.
+
+``It's total destruction where the tornado hit.
+
+Cars are piled on top of each other under piles of rubble where buildings used to be,'' said Danny Cooper, state emergency management director in Montgomery.
+
+Emergency officials in Huntsville reported 15 confirmed deaths, said Henry Jurnigan, a duty officer with the state Emergency Management Agency in Montgomery.
+
+Mayor Steve Hettinger said 305 people were injured and about 500 displaced by the tornado that struck while streets of this northeastern Alabama city filled with rush-hour traffic.
+
+Rescue teams with cranes and floodlights searched the rubble through the night for injured or dead.
+
+``Several people are still trapped in vehicles and apartment complexes and shopping areas,'' said police spokesman Ben Jennings after the twister touched down between 4 and 4:30 p.m. in the city's south section.
+
+``It may be tomorrow before we have a final count,'' Gov. Guy Hunt said at the state's disaster center in Montgomery.
+
+The governor dispatched 50 National Guardsmen, along with search and rescue equipment.
+
+Rescuers picked through piles of rubble 10 to 14 feet deep, and Cooper said police were unable to determine the extent of the damaged area.
+
+Rescuers also were hampered by darkness and plunging temperatures.
+
+``We're even having a few snowflakes,'' said Cooper.
+
+High temperatures in Huntsville were expected to be in the 30s Thursday, he said.
+
+Witnesses said the downtown Jones Valley Elementary School, the Waterford Square and adjacent Queensbury apartment complexes were reduced to rubble by the tornado.
+
+``The only thing left standing was a door frame,'' news photographer Mike Mercier said of the school, which was empty of staff and pupils when the tornado hit.
+
+Police reported one person killed in a car outside the school.
+
+Authorities said at least five were killed at Waterford Square apartments, three at a business school, Southern Junior College, which is located in a converted movie theater, and others in scattered areas.
+
+``Rescuers are digging in the rubble,'' state trooper W.L. Kelly said.
+
+He said two people were killed when the twister hit house trailers in rural areas east of Huntsville.
+
+The fifth death was reported near the shopping district.
+
+The city is home to Marshall Space Flight Center and the Army's Redstone Arsenal, but no serious damage was reported from the space agency or weapons testing center.
+
+``We've called in troopers from around the state to help,'' Kelly said.
+
+Telephone communication and electricity were disrupted by the tornadoes and WAAY-TV, the only station still broadcasting, reported widespread damage.
+
+``It came in with a huge roar, an enormous amount of water, and it just started shaking and tearing at everything it could get hold of,'' said real estate broker Ike Carroll, who was in his car when the twister struck.
+
+``It started picking cars up and pushing them around, ...
+
+some of them upside down, some of them just strewn around,'' he said.
+
+Heavy overhead power lines ``started snapping just like a circus performer would snap his whip,'' Carroll said.
+
+``All of these heavy arcing, flashing lines that were just popping and snapping over the top of us ...
+
+it was as if you were looking into an arc-welder, they were so bright,'' he said.
+
+WAAY reported at least one person died when the roof of a business collapsed from winds that overturned cars in the area.
+
+A nearby shopping center also was damaged.
+
+Humana Hospital administrator David Miller said doctors were having difficulty reaching the hospital because of blocked roads.
+
+The National Weather Service earlier said a tornado hit the east Alabama hamlet of Mellow Valley, severely damaging at least one home and causing some injuries.
+
+Weather officials said people were trapped inside a collapsed house.
+
+A spokeswoman for the Clay County Sheriff's Department said people were injured at one house in a rural area 30 miles east of Sylacauga.
+
+Another tornado touched down about 1:30 p.m. as severe weather swept across much of Alabama and the National Weather Service placed most of the state under a tornado watch.
+
+A third tornado was reported shortly before 3:30 p.m. crossing the Coosa River near Titus in east Alabama, the Weather Service said.
+
+In Georgia, five people were injured, four critically, and at least 200 people evacuated after a tornado struck two mobile home parks and an interstate highway near Palmetto, about 25 miles southeast of Atlanta, authorities said.
+
+Authorities in southwestern North Carolina said a pair of storm-spawned tornadoes struck around 10:45 p.m., destroying a vacant house in Henderson County.
+
+The National Weather Service also reported tornadoes inflicting minor property damage in Kentucky and Mississippi .
+
+The 1988 Summer Olympics, kept free of terrorism but tainted by drug scandals, closed Sunday with the pealing of a medieval bell to symbolize the sorrow of parting.
+
+The United States finished third in medals.
+
+The 1,000-year-old, 72-ton Emille Bell, which according to Korean legend has the saddest tone of any in the world, tolled farewell to the more than 9,000 athletes from 160 nations who participated in the 24th Olympiad.
+
+The 16-day event, conducted under extraordinary security, wrapped up with the Soviet Union winning the lion's share of the 237 medals events.
+
+The Soviets took home 132 medals, including 55 gold, the most ever in a Summer Olympics without a major-power boycott.
+
+East Germany had 102 medals and 37 gold, and the United States 94 medals and 36 gold.
+
+Many felt that the United States was robbed of a second-place tie for golds when judges awarded a bout to a South Korean boxer over American Roy Jones in the 156-pound event on the final day of competition.
+
+Because of boycotts in 1980 and 1984, the Games were the first meeting between the Soviet Union and the United States since 1976 in Montreal, and matchups between the two nations provided some of the Games' highlights.
+
+The U.S. men's volleyball team beat the Soviets to defend its 1984 Olympic championship, providing consolation for America's upset in the men's basketball quarterfinals.
+
+America also defeated the Soviets in women's basketball and men's water polo.
+
+At least 1 billion people watched the Olympics via a 115-nation, worldwide TV hookup.
+
+The Seoul Games had the greatest number of athletes (9,633), the most countries, the most gold medals and the most venues (34).
+
+Communist North Korea, which demanded a role in the Games, boycotted them, but the only sports power to follow suit was Cuba.
+
+Among the highlights: _Greg Louganis won the Olympic Spirit Award as top American athlete Sunday for winning gold medals in platform and 3-meter springboard diving.
+
+He accomplished the same feat in 1980 and became the first man to sweep the events twice.
+
+The 28-year-old Louganis, who hit his head on the board in the preliminaries and received five stitches, announced his retirement from diving and said he wanted to pursue acting.
+
+_Sisters-in-law Florence Griffith Joyner and Jackie Joyner-Kersee led an American assault on the record books in track and field.
+
+Griffith Joyner won golds in the 100, the 200 and the 400-meter relay, and silver in the 1,600-meter relay.
+
+She set a world record in the 200 and an Olympic record in the 100.
+
+Joyner-Kersee won two golds, taking the heptathlon with a world record 7,291 points and the long jump with an Olympic mark of 24 feet, 3 inches.
+
+_Kristin Otto of East Germany won six golds in swimming.
+
+American swimmer Matt Biondi won seven medals, five gold, while Janet Evans earned three golds in the pool for the United States.
+
+_Daniela Silivas of Romania dominated women's gymnastics, winning three golds, two silvers and a bronze.
+
+_West German Steffi Graf completed tennis's first Golden Slam, winning the gold medal as well as all four Grand Slam tournaments _ Wimbledon and the U.S., French and Australian Opens _ in a calendar year.
+
+There were low moments as well.
+
+Canadian sprinter Ben Johnson, the most prominent of 10 athletes who tested positive for drugs, was stripped of his gold medal in the 100 meters and title of world's fastest man, and flew home in disgrace, his career in jeopardy.
+
+He was accused of using muscle-building steroids.
+
+Four other medals _ two Bulgarian weightlifting golds, a Hungarian weightlifing silver and a British judo bronze _ also were stripped for drugs, and five non-medalists tested positive for substances ranging from caffeine to diuretics.
+
+Early in the Games, five people connected to the Korean boxing team were suspended for attacking a New Zealand referee after a Korean lost a decision to a Bulgarian.
+
+Another Korean boxer staged a 67-minute sit-in in the ring to protest his loss.
+
+Anthony Hembrick, a U.S. boxer expected to win a gold, never got to fight; his coach misread the schedule and he missed the bus to the arena.
+
+Two gold medal-winning U.S. swimmers were arrested for carrying a stone lion's head out of a hotel bar, but charges were dropped.
+
+American runner Johnny Gray kicked a taxicab in an argument with its driver.
+
+He was arrested and released.
+
+Security measures against the possibility of terrorism were extraordinary, including metal detectors, numerous checkpoints and ID cards, but except for scattered protests by student radicals, the Games proceeded without incident.
+
+At the closing ceremonies, before the great torch was extinguished, Korea passed the Olympic flag to representatives from Barcelona, site of the 1992 Games .
+
+MR TEG BAHADUR Thapar was serving lunch from his stall outside the Bombay stock exchange on Friday when he was showered with flying glass and broken concrete in one of 13 explosions which rocked the city and left at least 255 people killed and over 1,200 injured.
+
+'I'm lucky to be alive,' he said from his hospital bed.
+
+'Who did this?
+
+Who can stop this happening again'?
+
+Across Bombay people were asking themselves the same questions this weekend.
+
+They sensed there was an enormous difference from the riots which scarred the city in December and again in January.
+
+Those were caused by a traditional mix of crime, political agitation and ancient Hindu-Moslem hatreds stirred by the destruction of the mosque in Ayodhya.
+
+The weapons used were mostly primitive - knives, clubs and petrol bottles.
+
+Friday's outrage, by contrast, bears the deadly stamp of high-technology terrorism, complete with Semtex plastic explosive, high-grade timers, efficient organisation and money.
+
+The only comparable previous incident was the assassination in 1991 of Mr Rajiv Gandhi, the former prime minister, by Sri Lanka's Tamil Tiger terrorists.
+
+But that was a single bomb aimed at one man - the explosions in Bombay were designed to terrorise the nation's commercial capital.
+
+Bombay accounts for 35 per cent of India's exports.
+
+Mr P V Narasimha Rao, the prime minister, described the blasts as an attack on India's economy.
+
+The immediate assumption both at the highest level and in the streets of Bombay was that those responsible must have been foreigners or had foreign help.
+
+But these suggestions were seen in Bombay as a deliberate attempt to deflect attention from the people who in the popular mind are the real suspects - Moslem extremists who might have taken revenge for the riots which hit India after the Ayodhya mosque's destruction and which left 2,000 dead, including 700 in Bombay.
+
+If Moslems are found to have staged the attacks, the Indian authorities will certainly suspect that the operation was supported from a Moslem country, notably Pakistan.
+
+The implications would be vast.
+
+Breaking diplomatic relations would be the minimum step Delhi could take on a dangerous road.
+
+Mr Rao chose his words carefully during his visit to Bombay: 'There is a definite possibility that our search may not stop within the country.
+
+I do not want to name anybody because it will have ramifications within and outside the country'.
+
+There is no evidence linking the attacks to Moslem extremists, let alone to Pakistan.
+
+Even if Moslem groups are found to be responsible for the bombings, they could have been supplied from other Moslem countries.
+
+India would still face a diplomatic crisis but hardly on the same scale.
+
+For the moment, such concerns seem remote from the streets on Bombay, where the atmosphere yesterday was calm.
+
+Workmen were clearing away rubble at the blast sites, including the blackened stock exchange building.
+
+Bombayites seemed determined to put the outrage behind them.
+
+At the Gymkhana Club and dozens of other sports grounds, hundreds of men and boys were playing cricket as they do every Sunday.
+
+Others were walking along the seafront by the arch of the Gateway of India.
+
+The stock exchange authorities plan to re-start trading as soon as they can -probably today - using an old trading floor the exchange vacated only last year.
+
+Businessmen estimated the main loss to the city would be the loss of life and injuries and the damage caused to blasted buildings.
+
+They did not expect the same widespread disruption to production as occurred during the riots.
+
+Some of the credit for the limited disruption should go the government and the police for promptly calling paramilitary and regular troops to help patrol sensitive districts.
+
+But much more should go to the people of Bombay, who, so far at least, have refused to be goaded into violent protest by the bombers .
+
+Nobody knows why our early ancestors decided to get off their knuckles and stand upright.
+
+Maybe they just wanted a better view of the stars.
+
+And when sky gazers finally realized that the heavenly lights were not the footprints of the gods, but rather millions of blazing stars like our Sun writ far, they began to wonder, How do we get there?
+
+How can we leave this world and travel, not merely the 238,000 miles to the Moon, or 35 million miles to Mars, but through the vast dark silk of interstellar space, across trillions and trillions of miles, to encounter other stars, other solar systems, even other civilizations?
+
+According to a group of scientists for whom the term ''wildly optimistic dreamers'' is virtually a job description, it will indeed be very difficult to travel to other stars, and nobody in either the public or private sector is about to try it any time soon.
+
+But as the researchers see it, the challenge is not insurmountable, it requires no defiance of the laws of physics, so why not have fun and start thinking about it now?
+
+At the annual meeting of the American Association for the Advancement of Science, held last month in Boston, scientists discussed how humans might pull off a real-life version of ''Star Trek,'' minus the space Lycra and perpetual syndication rights.
+
+They talked about propulsion at a reasonable fraction of the speed of light, a velocity that is orders of magnitude greater than any space ship can fly today, but that would be necessary if the light-years of space between the Sun and even the nearest star are ever to be crossed.
+
+They talked about the possibility of multigenerational space travel, and what it might be like for people who board a space ship knowing that they, their children, grandchildren and descendants through 6, 8 or 10 generations would live and die knowing nothing but life in an enclosed and entirely artificial environment, hurtling year upon year through the near-featureless expanse of interstellar space.
+
+They talked about how big the founding crew would have to be to prevent long-term risks of inbreeding and so-called genetic drift.
+
+They talked about how the crew's chain of command would be structured, what language people would most likely speak, and what sort of marital and family policies might be put in place.
+
+And they talked about food, all of which would have to be grown, cultivated and synthesized on board.
+
+''One thing is almost certain,'' said Dr. Jean B. Hunter, an associate professor of biological and environmental engineering at Cornell.
+
+''You'll have to leave the steak, cheesecake and artichokes with hollandaise sauce behind.''
+
+Many of the subjects raised during the session were so fanciful that at times it felt like a discussion of how to clone a unicorn, and indeed half the presenters moonlight as science fiction writers.
+
+Nevertheless, the researchers argued, human beings have shown themselves to be implacable itinerants, capable of colonizing the most hostile environments.
+
+Dr. John H. Moore, a research professor of anthropology at the University of Florida, compared a theoretical crew of spacefaring pioneers to groups of Polynesians setting out tens of thousands of years ago in search of new islands to populate.
+
+''Young people with food and tools would set out in large flotillas of canoes,'' he said.
+
+''Nobody knew if they would ever come back, the trade winds went in only one direction, and many of them perished in the ocean.''
+
+Yet over time, the Polynesians managed to colonize New Zealand, Easter Island and Hawaii.
+
+Still, no human migration in history would compare in difficulty with reaching another star.
+
+The nearest, Alpha Centauri, is about 4.4 light-years from the Sun, and a light-year is equal to almost six trillion miles.
+
+The next nearest star, Sirius, is 8.7 light-years from home.
+
+To give a graphic sense of what these distances mean, Dr. Geoffrey A. Landis of the NASA John Glenn Research Center in Cleveland, pointed out that the fastest objects humans have ever dispatched into space are the Voyager interplanetary probes, which travel at about 9.3 miles per second.
+
+''If a caveman had launched one of those during the last ice age, 11,000 years ago,'' Dr. Landis said, ''it would now be only a fifth of the way toward the nearest star.''
+
+Dr. Robert L. Forward, owner and chief scientist of Forward Unlimited, a consulting company that describes itself as ''specializing in exotic physics and advanced space propulsion,'' argued that rockets and their fuel would be so heavy that they would prevent a starship from reaching the necessary velocity to go anywhere in a sane amount of time.
+
+He envisions a rocketless spacecraft that would be manufactured in space and equipped with an ultrathin, ultralarge sail, its span as big as Texas but using no more material than a small bridge.
+
+A beam of laser light or high-energy particles from a source on Earth, in space or perhaps on the Sun-drenched planet of Mercury would be aimed at the sail, propelling it and its attached module to as much as 30 percent the speed of light -- or about 55,000 miles per second.
+
+At that pace, said Dr. Forward, a crew would reach Alpha Centauri in under 50 years.
+
+''You could get a bunch of 16-year-olds, train them and then send them out at the age of 20,'' he said.
+
+''They'd have a long, boring trip, reach Alpha Centauri when they're in their 60's or 70's, do some exploring, and send everything they learned back home.''
+
+Admittedly, the astronauts would not make it home themselves.
+
+''It's a lifetime job,'' Dr. Forward said.
+
+''But it could be done in a single generation.''
+
+For longer journeys, designed with multigenerational crews in mind, an onboard engine and fuel source would be required, perhaps something powered by nuclear bombs, or the combining of matter and antimatter in a reaction that converts both substances into pure energy.
+
+However the ship is propulsed, the researchers agree that it must be comfortable for long-distance travel.
+
+That means creating artificial gravity by gently rotating the craft; a spin no greater than one or two revolutions per minute would suffice.
+
+It might also mean calling upon architects with Disney-esque sensibilities.
+
+''The inside of one of these long-duration space habitats might feel like the inside of a shopping mall,'' Dr. Landis said.
+
+''Malls are carefully designed to use space efficiently, yet to give you the feeling that they're more spacious than they are.''
+
+And malls, of course, are a great place to bring the family.
+
+In Dr. Moore's view, the good old-fashioned family is the key to success in space.
+
+''Over the past several decades, space scientists and writers of science fiction have speculated at length about the optimum size and composition'' of an interstellar crew, he said.
+
+They have imagined platoons of Chuck Yeager-type stalwarts grimly enduring all hardships, or teams of bionic and vaguely asexual crew members overseeing freezers of embryos that can be defrosted and gestated as needed.
+
+''Some of the scenarios proposed so far are downright alarming from a social science perspective,'' Dr. Moore said, ''since they require bizarre social structures and an intensity of social relationships which are quite beyond the experience of any known human communities.''
+
+In deciding how to organize a star mission, Dr. Moore looks to the most ''familiar, ubiquitous, well-ordered and well-understood'' of social forms, the human family.
+
+''Virtually every human society in history has been structured along kinship lines,'' he said, ''from small-scale foraging societies to empires comprising millions of people.''
+
+Lines of authority and seniority in a family are reasonably clear, and when they're not, well, there's always the time-out chamber.
+
+In Dr. Moore's rendition, all recruits for an interstellar odyssey would be guaranteed the opportunity, though not the requirement, to marry and have children.
+
+Mate choice would be part of the bargain as well, with the population cannily structured so that each cohort of individuals, on reaching sexual maturity, would have about 10 potential partners of a similar age to select from.
+
+Dr. Moore and his colleagues have developed a computer simulation called Ethnopop, in which they asked how large the crew must be in order to maintain genetic variability over time while still allowing crew members a choice of sex partners.
+
+They determined that a founding crew could be as small as 80 to 100 people and stay viable for more than a thousand years, assuming that two rules were followed: women waited until they were in their mid-30's or so before having children, and they had only a couple each.
+
+Counterintuitive though it may seem, said Dr. Moore, delayed childbearing and small families are known to help maintain genetic variability in a closed population.
+
+Genetic diversity may be essential, but Dr. Sarah G. Thomason, a professor of linguistics at the University of Michigan, argued that the same could not be said for language.
+
+''You want everyone to be able to talk to each other as soon as they're on board,'' she said.
+
+As Dr. Thomason sees it, the likeliest lingua franca for a starship will be -- gracias a Dios -- English.
+
+After all, she said, English is the language of the international air traffic control system, the scientific community and the educated class generally.
+
+English is the official language of 51 of the 195 nations of the world, and it is the second language of many others.
+
+Yet, while crew members will be expected to speak English, their accents are likely to be quite diverse, and the English that their children and grandchildren end up speaking will have a rhythm and texture of its own -- Space English.
+
+And though Dr. Thomason believes that the basic structure of Space English is not likely to change much from that of the mother tongue, teenagers will, of course, invent words of their own and drop words of scant use.
+
+''I can imagine the loss of words like snow, rivers, winter, mosquitoes, if they're lucky,'' she said.
+
+Another arena that will test the limits of human ingenuity is space cuisine.
+
+Without livestock on board or supply ships to restock the pantry, crew members will have to be entirely self-sufficient.
+
+Dr. Hunter of Cornell envisions crops grown in hydroponic gardens, in which plants are suspended in troughs like rain gutters, and water and fertilizer are trickled slowly over their roots.
+
+Among the possible food groups are wheat, rice, sweet potatoes, beans, soy, corn, herbs and spices.
+
+In addition, space-minded agronomists are exploring the marvels of microbes.
+
+Plants take weeks to grow, but yeastlike micro-organisms replicating in vats can be used to churn out significant quantities of carbohydrates, sugars, proteins and fats in a matter of hours.
+
+Of benefit to a community in which recycling is not just a personal virtue but a public necessity, micro-organisms can live on the carboniferous waste products of plants and people.
+
+''There's a protein product called quorn, which is made from filamentous mold,'' Dr. Hunter said.
+
+''Not to make a joke of it, but it does taste like chicken.''
+
+Some clichés, it seems, are truly universal.
+
+Correction: March 9, 2002, Saturday An article in Science Times on Tuesday about the challenges of interstellar travel referred imprecisely to the stars nearest Earth's.
+
+While Alpha Centauri is the nearest star system, it has three stars; the nearest is Proxima Centauri, 4.2 light-years away.
+
+The next nearest is Barnard's star, at 6 light-years -- not the double star Sirius, 8.7 light-years away.
+
+In recent years, scientists have made sizable gains in what was once considered an impossible art -- reconstructing the history of Earth's atmosphere back into the dim past.
+
+They can now peer across more than a half billion years.
+
+The scientists have learned about the changing makeup of the vanished gases by teasing subtle clues from fossilized soils, plants and sea creatures.
+
+They have also gained insights from computer models that predict how phenomena like eroding rocks and erupting volcanoes have altered the planet's evolving air.
+
+''It's getting a lot more attention,'' Michael C. MacCracken, chief scientist of the Climate Institute, a research group in Washington, said of the growing field.
+
+For the first time, the Intergovernmental Panel on Climate Change, a United Nations group that analyzes global warming, plans to include a chapter on the reconstructions in its latest report, due early next year.
+
+The discoveries have stirred a little-known dispute that, if resolved, could have major implications.
+
+At issue is whether the findings back or undermine the prevailing view on global warming.
+
+One side foresees a looming crisis of planetary heating; the other, temperature increases that would be more nuisance than catastrophe.
+
+Perhaps surprisingly, both hail from the same camp: scientists who study the big picture of Earth's past, including geologists and paleoclimatologists.
+
+Most public discussions of global warming concentrate on evidence from the last few hundred or, at most, few thousand years.
+
+And some climate scientists remain unconvinced that data from the deep past are solid enough to be relevant to the debates.
+
+But the experts who peer back millions of years, though they may debate what their work means, do agree on the relevance of their findings.
+
+They also agree that the eon known as the Phanerozoic, a lengthy span from the present to 550 million years ago, the dawn of complex life, typically bore concentrations of carbon dioxide that were up to 18 times the levels present in the short reign of Homo sapiens.
+
+The carbon dioxide, the scientists agree, came from volcanoes and other natural sources, as on Mars and Venus.
+
+The levels have generally dropped over the ages, as the carbon became a building block of many rock formations and all living things.
+
+Moreover, the opponents tend to agree on why the early Earth's high carbon dioxide levels failed to roast the planet.
+
+First, the Sun was dimmer in its youth.
+
+Second, as the gas concentrations increase, its heat trapping capacity slows and reaches a plateau.
+
+Where the specialists clash is on what the evidence means for the idea that industrial civilization and the burning of fossil fuels are the main culprits in climate change.
+
+The two sides agree that carbon dioxide can block solar energy that would otherwise radiate back into space, an effect known as greenhouse warming.
+
+But they differ sharply on its strength.
+
+Some argue that CO2 fluctuations over the Phanerozoic follow climate trends fairly well, supporting a causal relationship between high gas levels and high temperatures.
+
+''The geologic record over the past 550 million years indicates a good correlation,'' said Robert A. Berner, a Yale geologist and pioneer of paleoclimate analysis.
+
+''There are other factors at work here.
+
+But in general, global warming is due to CO2.
+
+It was in the past and is now.''
+
+Other experts say that is an oversimplification of a complex picture of natural variation.
+
+The fluctuations in the gas levels, they say, often fall out of step with the planet's hot and cold cycles, undermining the claimed supremacy of carbon dioxide.
+
+''It's too simplistic to say low CO2 was the only cause of the glacial periods'' on time scales of millions of years, said Robert Giegengack, a geologist at the University of Pennsylvania who studies past atmospheres.
+
+''The record violates that one-to-one correspondence.''
+
+He and other doubters say the planet is clearly warming today, as it has repeatedly done, but insist that no one knows exactly why.
+
+Other possible causes, they say, include changes in sea currents, Sun cycles and cosmic rays that bombard the planet.
+
+''More and more data,'' Jan Veizer, an expert on Phanerozoic climates at the University of Ottawa, said, ''point to the Sun and stars as the dominant driver.''
+
+Highlighting the gap, the two sides clash on how much the Earth would warm today if carbon dioxide concentrations double from preindustrial levels, as scientists expect.
+
+Many climatologists see an increase of as much as 8 degrees Fahrenheit.
+
+The skeptics, drawing on Phanerozoic data, tend to see far less, perhaps 2 or 3 degrees.
+
+In the Phanerozoic (the term is Greek for visible life), complex organisms arose.
+
+If its countless ages were compressed into a single year, fish would have appeared in January, land animals in March, dinosaurs in June, monkeys in December and humans late on New Year's Eve.
+
+The Phanerozoic dispute, fought mainly in scholarly journals and scientific meetings, has occurred in isolation from the public debate on global warming.
+
+Al Gore in ''An Inconvenient Truth'' makes no mention of it.
+
+Some mainstream scientists familiar with the Phanerozoic evidence call it too sketchy for public consumption and government policy, if not expert deliberations.
+
+''In my view, the uncertainties are too great to draw any conclusions right now,'' Michael Oppenheimer, a professor of geosciences and international affairs at Princeton, said.
+
+''It could be that when the dust settles some insight will emerge that will be germane to the current problem -- how do we keep the climate from spinning out of control.''
+
+Skeptics say CO2 crusaders simply find the Phanerozoic data embarrassing and irreconcilable with public alarms.
+
+''People come to me and say, 'Stop talking like this, you're hurting the cause,' '' said Dr. Giegengack of Penn.
+
+Robert A. Rohde, a graduate student in geophysics at the University of California, Berkeley, may represent a neutral voice.
+
+The evidence, he said, ''is that CO2 is just one of many influences.''
+
+For Wikipedia, Mr. Rohde recently drew up graphic overviews of Phanerozoic carbon dioxide, en.wikipedia.org/wiki/Image:Phanerozoic-Carbon-Dioxide.png, and climate swings, en.wikipedia.org/wiki/Image:Phanerozoic-Climate-Change.png.
+
+For nearly two centuries, scientists have known that the ancient Earth went through ice ages and other climate upheavals.
+
+Their explanations included changes in land forms, ocean flows, solar intensity and Earth's orbit around the Sun.
+
+The new argument dates from 1958, when scientists began to track carbon dioxide in the air, finding its levels low, 0.0315 percent, but increasing.
+
+They knew that excess gas could in theory trap more heat from the Sun, warming the planet and providing a new explanation for climate change.
+
+The greenhouse theory rose to prominence in the 1980's as carbon dioxide continued to increase and as global temperatures started to increase.
+
+While scientists tracked many greenhouse gases, including ozone, methane and water vapor, they focused on carbon dioxide because its concentrations seemed to be rising quite rapidly.
+
+Keen to put the threat in perspective, they sought to compare modern CO2 levels to those of the past.
+
+Ice cores from the frozen regions turned out to harbor tiny air bubbles that showed carbon dioxide concentrations going back hundreds of thousands of years.
+
+Scientists found the preindustrial levels averaging 280 parts per million, down from 315 parts per million, or 0.0315 percent, in 1958.
+
+Scientists suspected that the concentrations were once much higher, especially in hot eras of little or no polar ice.
+
+Eager to push beyond the cores, which went back just a half million years or so, scientists looked for ways to peer further back.
+
+Dr. Berner of Yale focused on computer models.
+
+His studies of the Phanerozoic analyzed factors such as how some ages produced many volcanoes and much atmospheric carbon dioxide and others spawned mountains, extensive weathering of fresh rock and, by that mechanism, considerable uptake of atmospheric carbon dioxide.
+
+From the start, he consistently reported close ties between carbon dioxide and climate swings.
+
+For instance, in the explosion of plant life from 400 million to 300 million years ago, he found a sharp drop in the gas, occurring as the earth entered an ice age.
+
+''These results,'' Dr. Berner wrote in the journal Science in 1990, ''support the notion that the atmospheric CO2 greenhouse mechanism is a major control on climate over very long time scales.''
+
+Other scientists looked for clues among fossilized soils, plants and sea creatures, assuming that fluctuating climates had altered their growth patterns.
+
+In time, the ancient specimens yielded a bonanza of subtle evidence, some confirming aspects of Dr. Berner's modeling.
+
+Claudia I. Mora and two colleagues at the University of Tennessee found that ancient soils verified the steep decline in carbon dioxide between 400 million and 300 million years ago.
+
+Other scientists found conflicting evidence.
+
+In 1992, a team from the University of New Mexico reported that ancient soils showed extremely high levels of carbon dioxide 440 million years ago, an age of primitive sea life before the advent of land plants and animals.
+
+The carbon dioxide levels were roughly 16 times higher than today.
+
+Surprisingly, the scientists said, this appeared to coincide with wide glaciation, an analysis, wrote Crayton J. Yapp and Harald Poths in the journal Nature, that ''suggests that the climate models require modification.''
+
+Throughout the 1990's, reconstruction papers offered evidence on both sides of the debate about the effects of carbon dioxide.
+
+Starting in 2000, the attacks intensified as Dr. Veizer of Ottawa questioned the CO2-climate link across the whole Phanerozoic.
+
+He and two Belgian colleagues, writing in Nature, based their doubts on how two ice ages -- 440 million and 150 million years ago, in the age of dinosaurs -- apparently had very high carbon dioxide levels.
+
+In 2002, Daniel H. Rothman of the Massachusetts Institute of Technology also raised sharp Phanerozoic questions after studying carbon dioxide clues teased from marine rocks.
+
+Writing in The Proceedings of the National Academy of Sciences, he said that with one exception -- the recent cool period of the last 50 million years -- he could find ''no systematic correspondence'' between carbon dioxide and climate shifts.
+
+In 2003, Dr. Veizer joined Nir J. Shaviv, an astrophysicist at the Hebrew University of Jerusalem, to propose a new climate driver.
+
+They envisioned slow movements of the solar system through the surrounding galaxy as controlling the cosmic rays that bombard Earth's atmosphere.
+
+A reduction, they argued, would lessen cloud cover and Earth's reflectivity, warming the planet.
+
+The reverse would cause cooling.
+
+The Phanerozoic record of cosmic-ray bombardment showed excellent agreement with climate fluctuations, trumping carbon dioxide, they wrote.
+
+In 2004, Dr. Berner of Yale and four colleagues fired back.
+
+While saying cosmic rays were possibly ''of some climatic significance,'' they argued that such an effect was much less than that of carbon dioxide.
+
+In the debate, opponents can differ not only on the contours of past CO2 fluctuations but also on defining hot and cold eras.
+
+Although Dr. Veizer sees a cold period 150 million years ago, a time of increased ice at sea but not on land because the continents had shifted from the poles, Dr. Berner, in his modeling, disregards it.
+
+Such differences can muddy the dispute.
+
+Today, each side claims new victories.
+
+Dr. Veizer says he has a comprehensive paper on the cosmic-ray theory coming out soon.
+
+Dr. Berner recently refined his model to repair an old inconsistency.
+
+The revision, described in the May issue of The American Journal of Science, brings the model into closer agreement with the fact of wide glaciation 440 million years ago, yielding what he sees as stronger evidence of the dominant role of carbon dioxide then.
+
+Dr. Yapp, once a carbon dioxide skeptic, concurred, saying, ''The data complied in the last decade suggests that long-term climate change correlates pretty well with CO2 changes.''
+
+Some climatologists view the Phanerozoic debate as irrelevant.
+
+They say the evidence of a tie between carbon dioxide and planetary warming over the last few centuries is so compelling that any long-term evidence to the contrary must somehow be tainted.
+
+They also say greenhouse gases are increasing faster than at any other time in Earth history, making the past immaterial.
+
+Carbon dioxide skeptics and others see the reconstructions of the last 15 years as increasingly reliable, posing fundamental questions about the claimed powers of carbon dioxide.
+
+Climatologists and policy makers, they say, need to ponder such complexities rather than trying to ignore or dismiss the unexpected findings.
+
+''Some of the work has been quite meticulous,'' Thure E. Cerling, an expert at the University of Utah on Phanerozoic climates, said.
+
+''We are likely to learn something.''
+
+When Anya Bailey developed an eating disorder after her 12th birthday, her mother took her to a psychiatrist at the University of Minnesota who prescribed a powerful antipsychotic drug called Risperdal.
+
+Created for schizophrenia, Risperdal is not approved to treat eating disorders, but increased appetite is a common side effect and doctors may prescribe drugs as they see fit.
+
+Anya gained weight but within two years developed a crippling knot in her back.
+
+She now receives regular injections of Botox to unclench her back muscles.
+
+She often awakens crying in pain.
+
+Isabella Bailey, Anya's mother, said she had no idea that children might be especially susceptible to Risperdal's side effects.
+
+Nor did she know that Risperdal and similar medicines were not approved at the time to treat children, or that medical trials often cited to justify the use of such drugs had as few as eight children taking the drug by the end.
+
+Just as surprising, Ms. Bailey said, was learning that the university psychiatrist who supervised Anya's care received more than $7,000 from 2003 to 2004 from Johnson &amp; Johnson, Risperdal's maker, in return for lectures about one of the company's drugs.
+
+Doctors, including Anya Bailey's, maintain that payments from drug companies do not influence what they prescribe for patients.
+
+But the intersection of money and medicine, and its effect on the well-being of patients, has become one of the most contentious issues in health care.
+
+Nowhere is that more true than in psychiatry, where increasing payments to doctors have coincided with the growing use in children of a relatively new class of drugs known as atypical antipsychotics.
+
+These best-selling drugs, including Risperdal, Seroquel, Zyprexa, Abilify and Geodon, are now being prescribed to more than half a million children in the United States to help parents deal with behavior problems despite profound risks and almost no approved uses for minors.
+
+A New York Times analysis of records in Minnesota, the only state that requires public reports of all drug company marketing payments to doctors, provides rare documentation of how financial relationships between doctors and drug makers correspond to the growing use of atypicals in children.
+
+From 2000 to 2005, drug maker payments to Minnesota psychiatrists rose more than sixfold, to $1.6 million.
+
+During those same years, prescriptions of antipsychotics for children in Minnesota's Medicaid program rose more than ninefold.
+
+Those who took the most money from makers of atypicals tended to prescribe the drugs to children the most often, the data suggest.
+
+On average, Minnesota psychiatrists who received at least $5,000 from atypical makers from 2000 to 2005 appear to have written three times as many atypical prescriptions for children as psychiatrists who received less or no money.
+
+The Times analysis focused on prescriptions written for about one-third of Minnesota's Medicaid population, almost all of whom are disabled.
+
+Some doctors were misidentified by pharmacists, but the information provides a rough guide to prescribing patterns in the state.
+
+Drug makers underwrite decision makers at every level of care.
+
+They pay doctors who prescribe and recommend drugs, teach about the underlying diseases, perform studies and write guidelines that other doctors often feel bound to follow.
+
+But studies present strong evidence that financial interests can affect decisions, often without people knowing it.
+
+In Minnesota, psychiatrists collected more money from drug makers from 2000 to 2005 than doctors in any other specialty.
+
+Total payments to individual psychiatrists ranged from $51 to more than $689,000, with a median of $1,750.
+
+Since the records are incomplete, these figures probably underestimate doctors' actual incomes.
+
+Such payments could encourage psychiatrists to use drugs in ways that endanger patients' physical health, said Dr. Steven E. Hyman, the provost of Harvard University and former director of the National Institute of Mental Health.
+
+The growing use of atypicals in children is the most troubling example of this, Dr. Hyman said.
+
+''There's an irony that psychiatrists ask patients to have insights into themselves, but we don't connect the wires in our own lives about how money is affecting our profession and putting our patients at risk,'' he said.
+
+The Prescription Anya Bailey is a 15-year-old high school freshman from East Grand Forks, Minn., with pictures of the actor Chad Michael Murray on her bedroom wall.
+
+She has constant discomfort in her neck that leads her to twist it in a birdlike fashion.
+
+Last year, a boy mimicked her in the lunch room.
+
+''The first time, I laughed it off,'' Anya said.
+
+''I said: 'That's so funny.
+
+I think I'll laugh with you.'
+
+Then it got annoying, and I decided to hide it.
+
+I don't want to be made fun of.''
+
+Now she slumps when seated at school to pressure her clenched muscles, she said.
+
+It all began in 2003 when Anya became dangerously thin.
+
+''Nothing tasted good to her,'' Ms. Bailey said.
+
+Psychiatrists at the University of Minnesota, overseen by Dr. George M. Realmuto, settled on Risperdal, not for its calming effects but for its normally unwelcome side effect of increasing appetite and weight gain, Ms. Bailey said.
+
+Anya had other issues that may have recommended Risperdal to doctors, including occasional angry outbursts and having twice heard voices over the previous five years, Ms. Bailey said.
+
+Dr. Realmuto said he did not remember Anya's case, but speaking generally he defended his unapproved use of Risperdal to counter an eating disorder despite the drug's risks.
+
+''When things are dangerous, you use extraordinary measures,'' he said.
+
+Ten years ago, Dr. Realmuto helped conduct a study of Concerta, an attention deficit hyperactivity disorder drug marketed by Johnson &amp; Johnson, which also makes Risperdal.
+
+When Concerta was approved, the company hired him to lecture about it.
+
+He said he gives marketing lectures for several reasons.
+
+''To the extent that a drug is useful, I want to be seen as a leader in my specialty and that I was involved in a scientific study,'' he said.
+
+The money is nice, too, he said.
+
+Dr. Realmuto's university salary is $196,310.
+
+''Academics don't get paid very much,'' he said.
+
+''If I was an entertainer, I think I would certainly do a lot better.''
+
+In 2003, the year Anya came to his clinic, Dr. Realmuto earned $5,000 from Johnson &amp; Johnson for giving three talks about Concerta.
+
+Dr. Realmuto said he could understand someone's worrying that his Concerta lecture fees would influence him to prescribe Concerta but not a different drug from the same company, like Risperdal.
+
+In general, he conceded, his relationship with a drug company might prompt him to try a drug.
+
+Whether he continued to use it, though, would depend entirely on the results.
+
+As the interview continued, Dr. Realmuto said that upon reflection his payments from drug companies had probably opened his door to useless visits from a drug salesman, and he said he would stop giving sponsored lectures in the future.
+
+Kara Russell, a Johnson &amp; Johnson spokeswoman, said that the company selects speakers who have used the drug in patients and have either undertaken research or are aware of the studies.
+
+''Dr.
+
+Realmuto met these criteria,'' Ms. Russell said.
+
+When asked whether these payments may influence doctors' prescribing habits, Ms. Russell said that the talks ''provide an educational opportunity for physicians.''
+
+No one has proved that psychiatrists prescribe atypicals to children because of drug company payments.
+
+Indeed, some who frequently prescribe the drugs to children earn no drug industry money.
+
+And nearly all psychiatrists who accept payments say they remain independent.
+
+Some say they prescribed and extolled the benefits of such drugs before ever receiving payments to speak to other doctors about them.
+
+''If someone takes the point of view that your doctor can be bought, why would you go to an E. R. with your injured child and say, 'Can you help me?'
+
+'' said Dr. Suzanne A. Albrecht, a psychiatrist from Edina, Minn., who earned more than $188,000 from 2002 to 2005 giving drug marketing talks.
+
+The Industry Campaign It is illegal for drug makers to pay doctors directly to prescribe specific products.
+
+Federal rules also bar manufacturers from promoting unapproved, or off-label, uses for drugs.
+
+But doctors are free to prescribe as they see fit, and drug companies can sidestep marketing prohibitions by paying doctors to give lectures in which, if asked, they may discuss unapproved uses.
+
+The drug industry and many doctors say that these promotional lectures provide the field with invaluable education.
+
+Critics say the payments and lectures, often at expensive restaurants, are disguised kickbacks that encourage potentially dangerous drug uses.
+
+The issue is particularly important in psychiatry, because mental problems are not well understood, treatment often involves trial and error, and off-label prescribing is common.
+
+The analysis of Minnesota records shows that from 1997 through 2005, more than a third of Minnesota's licensed psychiatrists took money from drug makers, including the last eight presidents of the Minnesota Psychiatric Society.
+
+The psychiatrist receiving the most from drug companies was Dr. Annette M. Smick, who lives outside Rochester, Minn., and was paid more than $689,000 by drug makers from 1998 to 2004.
+
+At one point Dr. Smick was doing so many sponsored talks that ''it was hard for me to find time to see patients in my clinical practice,'' she said.
+
+''I was providing an educational benefit, and I like teaching,'' Dr. Smick said.
+
+Dr. Steven S. Sharfstein, immediate past president of the American Psychiatric Association, said psychiatrists have become too cozy with drug makers.
+
+One example of this, he said, involves Lexapro, made by Forest Laboratories, which is now the most widely used antidepressant in the country even though there are cheaper alternatives, including generic versions of Prozac.
+
+''Prozac is just as good if not better, and yet we are migrating to the expensive drug instead of the generics,'' Dr. Sharfstein said.
+
+''I think it's the marketing.''
+
+Atypicals have become popular because they can settle almost any extreme behavior, often in minutes, and doctors have few other answers for desperate families.
+
+Their growing use in children is closely tied to the increasingly common and controversial diagnosis of pediatric bipolar disorder, a mood problem marked by aggravation, euphoria, depression and, in some cases, violent outbursts.
+
+The drugs, sometimes called major tranquilizers, act by numbing brain cells to surges of dopamine, a chemical that has been linked to euphoria and psychotic delusions.
+
+Suzette Scheele of Burnsville, Minn., said her 17-year-old son, Matt, was given a diagnosis of bipolar disorder four years ago because of intense mood swings, and now takes Seroquel and Abilify, which have caused substantial weight gain.
+
+''But I don't have to worry about his rages; he's appropriate; he's pleasant to be around,'' Ms. Scheele said.
+
+The sudden popularity of pediatric bipolar diagnosis has coincided with a shift from antidepressants like Prozac to far more expensive atypicals.
+
+In 2000, Minnesota spent more than $521,000 buying antipsychotic drugs, most of it on atypicals, for children on Medicaid.
+
+In 2005, the cost was more than $7.1 million, a 14-fold increase.
+
+The drugs, which can cost $1,000 to $8,000 for a year's supply, are huge sellers worldwide.
+
+In 2006, Zyprexa, made by Eli Lilly, had $4.36 billion in sales, Risperdal $4.18 billion and Seroquel, made by AstraZeneca, $3.42 billion.
+
+Many Minnesota doctors, including the president of the Minnesota Psychiatric Society, said drug makers and their intermediaries are now paying them almost exclusively to talk about bipolar disorder.
+
+The Diagnoses Yet childhood bipolar disorder is an increasingly controversial diagnosis.
+
+Even doctors who believe it is common disagree about its telltale symptoms.
+
+Others suspect it is a fad.
+
+And the scientific evidence that atypicals improve these children's lives is scarce.
+
+One of the first and perhaps most influential studies was financed by AstraZeneca and performed by Dr. Melissa DelBello, a child and adult psychiatrist at the University of Cincinnati.
+
+Dr. DelBello led a research team that tracked for six weeks the moods of 30 adolescents who had received diagnoses of bipolar disorder.
+
+Half of the teenagers took Depakote, an antiseizure drug used to treat epilepsy and bipolar disorder in adults.
+
+The other half took Seroquel and Depakote.
+
+The two groups did about equally well until the last few days of the study, when those in the Seroquel group scored lower on a standard measure of mania.
+
+By then, almost half of the teenagers getting Seroquel had dropped out because they missed appointments or the drugs did not work.
+
+Just eight of them completed the trial.
+
+In an interview, Dr. DelBello acknowledged that the study was not conclusive.
+
+In the 2002 published paper, however, she and her co-authors reported that Seroquel in combination with Depakote ''is more effective for the treatment of adolescent bipolar mania'' than Depakote alone.
+
+In 2005, a committee of prominent experts from across the country examined all of the studies of treatment for pediatric bipolar disorder and decided that Dr. DelBello's was the only study involving atypicals in bipolar children that deserved its highest rating for scientific rigor.
+
+The panel concluded that doctors should consider atypicals as a first-line treatment for some children.
+
+The guidelines were published in The Journal of the American Academy of Child and Adolescent Psychiatry.
+
+Three of the four doctors on the panel served as speakers or consultants to makers of atypicals, according to disclosures in the guidelines.
+
+In an interview, Dr. Robert A. Kowatch, a psychiatrist at Cincinnati Children's Hospital and the lead author of the guidelines, said the drug makers' support had no influence on the conclusions.
+
+AstraZeneca hired Dr. DelBello and Dr. Kowatch to give sponsored talks.
+
+They later undertook another study comparing Seroquel and Depakote in bipolar children and found no difference.
+
+Dr. DelBello, who earns $183,500 annually from the University of Cincinnati, would not discuss how much she is paid by AstraZeneca.
+
+''Trust me, I don't make much,'' she said.
+
+Drug company payments did not affect her study or her talks, she said.
+
+In a recent disclosure, Dr. DelBello said that she received marketing or consulting income from eight drug companies, including all five makers of atypicals.
+
+Dr. Realmuto has heard Dr. DelBello speak several times, and her talks persuaded him to use combinations of Depakote and atypicals in bipolar children, he said.
+
+''She's the leader in terms of doing studies on bipolar,'' Dr. Realmuto said.
+
+Some psychiatrists who advocate use of atypicals in children acknowledge that the evidence supporting this use is thin.
+
+But they say children should not go untreated simply because scientists have failed to confirm what clinicians already know.
+
+''We don't have time to wait for them to prove us right,'' said Dr. Kent G. Brockmann, a psychiatrist from the Twin Cities who made more than $16,000 from 2003 to 2005 doing drug talks and one-on-one sales meetings, and last year was a leading prescriber of atypicals to Medicaid children.
+
+The Reaction For Anya Bailey, treatment with an atypical helped her regain her appetite and put on weight, but also heavily sedated her, her mother said.
+
+She developed the disabling knot in her back, the result of a nerve condition called dystonia, in 2005.
+
+The reaction was rare but not unknown.
+
+Atypicals have side effects that are not easy to predict in any one patient.
+
+These include rapid weight gain and blood sugar problems, both risk factors for diabetes; disfiguring tics, dystonia and in rare cases heart attacks and sudden death in the elderly.
+
+In 2006, the Food and Drug Administration received reports of at least 29 children dying and at least 165 more suffering serious side effects in which an antipsychotic was listed as the ''primary suspect.''
+
+That was a substantial jump from 2000, when there were at least 10 deaths and 85 serious side effects among children linked to the drugs.
+
+Since reporting of bad drug effects is mostly voluntary, these numbers likely represent a fraction of the toll.
+
+Jim Minnick, a spokesman for AstraZeneca, said that the company carefully monitors reported problems with Seroquel.
+
+''AstraZeneca believes that Seroquel is safe,'' Mr. Minnick said.
+
+Other psychiatrists renewed Anya's prescriptions for Risperdal until Ms. Bailey took Anya last year to the Mayo Clinic, where a doctor insisted that Ms. Bailey stop the drug.
+
+Unlike most universities and hospitals, the Mayo Clinic restricts doctors from giving drug marketing lectures.
+
+Ms. Bailey said she wished she had waited to see whether counseling would help Anya before trying drugs.
+
+Anya's weight is now normal without the help of drugs, and her counseling ended in March.
+
+An experimental drug, her mother said, has recently helped the pain in her back.
+
+Securities regulators charged one of the richest men in Mexico , Ricardo B. Salinas Pliego , with fraud yesterday , in a lawsuit that seeks to have him barred as a director or officer of any company whose shares trade on an American exchange .
+
+The Securities and Exchange Commission also sought to have Mr. Salinas Pliego , the chairman of TV Azteca , the second-biggest Spanish-language broadcaster , give up more than $ 110 million he made from trading in the company 's stock and debt .
+
+In the lawsuit , the commission contended that Mr. Salinas Pliego reaped '' a tremendous personal profit at the expense of investors '' in the United States and Mexico , then '' coordinated a scheme to conceal '' his involvement from them , TV Azteca 's directors and regulators .
+
+The suit charged that Mr. Salinas Pliego added to his gains by selling more than $ 9 million of stock in TV Azteca while he and other executives rejected advice from their lawyers to disclose his involvement .
+
+The transactions came to light in late 2003 after a New York lawyer , citing the Sarbanes-Oxley corporate governance law , blew the whistle to TV Azteca 's board and threatened to tell the S.E.C. .
+
+After the lawyer 's withdrawal was reported in The New York Times , two American directors commissioned an investigation into the transactions in early 2004 , and then resigned in the spring .
+
+It was later disclosed in a draft of the report of the investigation that Mr. Salinas Pliego had sought to have various law firms endorse his transactions and that the law firms refused .
+
+Mr. Salinas Pliego said in a statement late Tuesday that the S.E.C. 's charges were '' false , in bad faith and discriminatory , '' and that he would fight them .
+
+The case breaks new ground in that it is the first major instance in which a lawyer has followed the Sarbanes-Oxley Act and blown the whistle on a client .
+
+It is also unusual in that it seeks to prevent Mr. Salinas Pliego , who owns a controlling stake in the company , from acting as an officer or director of TV Azteca or any other public company .
+
+If the S.E.C. is victorious , it would have try to find ways to restrict Mr. Salinas Pliego from exercising control by voting his shares , perhaps by putting his stock in a trust , people close to the agency say .
+
+The action also highlights a trend of the S.E.C. 's trying to enforce United States securities laws against foreign companies whose stocks and bonds are listed on American markets . ''
+
+Geographic boundaries will not serve to protect those who seek to defraud investors , '' said Spencer C. Barasch , associate district administrator at the S.E.C. '' When companies , domestic or foreign , avail themselves of our capital markets , they have the same responsibility to adhere to U.S. securities law . ''
+
+TV Azteca , whose depository shares trade on the New York Stock Exchange , is a unit of Azteca Holdings , which is controlled by Mr. Salinas Pliego .
+
+TV Azteca is one of the fastest-growing Spanish-language networks in the United States , reaching some 77 percent of Latino homes .
+
+The S.E.C. also filed suit against Pedro Padilla Longoria , the former chief executive of TV Azteca , and Luis J. Echarte Fernández , president and chief of Azteca America and chief financial officer of Grupo Salinas .
+
+Both men are directors of TV Azteca .
+
+Mr. Echarte Fernández paid a civil penalty of $ 200,000 to settle with the agency .
+
+He neither admitted nor denied any wrongdoing .
+
+According to the lawsuit , Mr. Salinas Pliego failed to inform shareholders about a complex deal between Unefon , TV Azteca 's phone unit , and a company formed by Mr. Salinas Pliego and an associate , Moises Saba .
+
+That company , called Codisco , bought Unefon debt at a deep discount .
+
+Four months later , Mr. Salinas Pliego reaped more than $ 109 million in suspected ill-gotten profits by selling the Unefon debt back , at full price , to TV Azteca .
+
+According to the S.E.C. , Mr. Salinas Pliego not only failed to disclose the transaction to his board , as the law requires for any related-party transaction , but he also misrepresented the nature of the transaction to his board , the press and the S.E.C. '' After the resignation of TV Azteca 's U.S. legal counsel and a Dec. 24 , 2003 , New York Times article concerning the matter , Mr. Echarte sent an e-mail to Mr. Salinas Pliego and Mr. Padilla stating , ` The damage is done and the situation that we did n't want to explain openly is now in the hands of the press , '' ' according to the S.E.C. press release .
+
+Stephen M. Cutler , director of enforcement at the S.E.C. , said : '' Salinas took from the company a valuable corporate opportunity and over a period of many months concealed that transaction in violation of the U.S. securities laws .
+
+The federal securities laws are designed to ensure full and fair disclosure about related party transactions . ''
+
+Mexico 's main securities regulator , the Comisión Nacional Bancaria y de Valores , has been conducting its own investigation of the Codisco-Unefon affair and has now determined that Mexican securities laws were broken , a top official said Tuesday .
+
+The Supreme Court ruled on Wednesday that federal law prohibits the open-ended detention of Cubans who entered the United States during the Mariel boatlift in 1980 and who , despite crimes later committed in the United States , can not be deported because the Cuban government refuses to take them back .
+
+Voting 7 to 2 , the court applied to the deportable group of Mariel Cubans the same rights it found in federal law in a decision four years ago that barred the indefinite detention of a stateless immigrant , lawfully admitted to the United States , whose criminal record made him deportable but who had no place to go .
+
+The Bush administration had argued that the decision in the earlier case did not apply to the Mariel group because , unlike the immigrant , Kestutis Zadvydas , admitted as a refugee from post-World War II Europe , the Cubans had never been granted formal admission to the United States .
+
+Instead , they received a humanitarian parole , which the administration said did not entitle them to the same protection when they violated the country 's hospitality by committing crimes .
+
+But writing for the majority on Wednesday , Justice Antonin Scalia said that because the immigration statute itself made no such distinction , the court could not create one .
+
+In Zadvydas v. Davis , the court held that because detention longer than six months could raise serious constitutional problems , the statute should be interpreted to avoid those problems by limiting detention of a deportable alien who did not pose a risk to the community .
+
+Justice Scalia said the fact that immigrants who had never been formally admitted into the country might have a more tenuous constitutional claim did not change the analysis .
+
+Addressing the government 's argument , Justice Scalia said : '' If we were , as the government seems to believe , free to ` interpret ' statutes as becoming inoperative when they ` approach constitutional limits , ' we would be able to spare ourselves the necessity of ever finding a statute unconstitutional as applied . ''
+
+The decision , Clark v. Martinez .
+
+No. 03-878 , applied to two cases of Cubans found deportable .
+
+One , Sergio Suarez Martinez , convicted of burglary , theft and assault , was taken into custody by immigration officials and ordered removed from the country in January 2001 .
+
+Eighteen months later , he filed a habeas corpus petition based on the Zadvydas decision , which was granted by a federal district court in Oregon in a decision that the United States Court of Appeals for the Ninth Circuit , in San Francisco , affirmed .
+
+Another federal appeals court , in Atlanta , reached the opposite conclusion in denying release to Daniel Benitez , who had filed a habeas corpus petition six months after he was detained and ordered deported for convictions for assault and gun possession .
+
+Some 125,000 Cubans entered the country during the Mariel incident .
+
+The ruling on Wednesday will apply to as many as 1,000 who have been convicted of crimes and are being held without a realistic prospect of repatriation .
+
+The administration had also argued that a decision in the Cubans ' favor would raise national security concerns by making it more difficult to control the country 's borders . ''
+
+If that is so , Congress can attend to it , '' Justice Scalia said in his opinion .
+
+The two dissenters were Justice Clarence Thomas and Chief Justice William H. Rehnquist , who said that the majority had mischaracterized the Zadvydas decision as applying to the Mariel group .
+
+Justice Thomas , in a part of his dissenting opinion that the chief justice did not join , said the Zadvydas decision should be overruled .
+
+The case had drawn considerable attention from international and human rights groups .
+
+Deborah Pearlstein of the group Human Rights First , which had filed a brief , praised the court for rejecting '' one of the farther reaching assertions of administrative power by the executive branch . ''
+
+In another immigration decision on Wednesday , the court accepted the administration 's argument that the absence of a functioning central government in Somalia did not prevent the deportation of Somalis to their home country .
+
+A Somali man , Kayse G. Jama , who entered the United States as a 17-year-old refugee in 1996 and was later convicted of assault , argued that federal law required the consent of the receiving country before deportation .
+
+He lost his case in the United States Court of Appeals for the Eighth Circuit , in St. Louis , while the Ninth Circuit in a separate case had issued an injunction barring further deportations to Somalia .
+
+The Supreme Court affirmed the Eighth Circuit 's ruling by a 5-to-4 vote .
+
+Justice Scalia wrote the majority opinion in Jama v. Immigration and Customs Enforcement , No. 03-674 .
+
+Justice David H. Souter wrote a dissenting opinion , joined by Justices John Paul Stevens , Ruth Bader Ginsburg and Stephen G. Breyer .
+
+The dispute on the court was over statutory interpretation .
+
+Some sections of the law include such a provision , and the majority said that the court should not find a '' structural inference '' that the requirement also applied to Mr. Jama 's category .
+
+Shares of Taser International , the manufacturer of stun guns whose safety has been questioned , rose more than 22 percent yesterday after the company said a newly published scientific study affirmed that the gun 's electric shocks do not cause cardiac arrest and '' may be safely applied multiple times if needed . ''
+
+The news release issued by Taser quoted directly from the study but did not list the four authors , two of whom are Taser executives .
+
+The release also said that the study was published in a prestigious peer-reviewed journal , Pacing and Clinical Electrophysiology .
+
+But the study is scheduled to appear instead in a supplement to the journal , not the journal itself .
+
+Studies in both the journal and the supplement are peer reviewed , according to Dawn Peters , a spokeswoman for the journal 's publisher , Blackwell Publishing .
+
+In a peer-reviewed journal , qualified outside researchers evaluate the findings .
+
+After the news release appeared , Taser 's stock rose sharply , closing at $ 20.80 a share , up $ 3.79 .
+
+Just two days earlier , the stock plunged $ 5.95 , or nearly 30 percent , to $ 14.10 , after the company said that sales might slow because of increased competition .
+
+The news release and the stock market response are the latest episodes in a running debate over the safety of Taser 's pistol-like stun guns , which are sold mainly to police departments but also to the military and to a few civilians .
+
+Most of Taser 's nearly $ 70 million in annual revenue comes from sales to police departments , according to the company .
+
+The Securities and Exchange Commission is looking into the company 's assertions about the safety of the guns .
+
+Separately , The Wall Street Journal reported yesterday that the Pentagon had found the guns generally safe , although a military study recommended further studies .
+
+And a California assemblyman , Mark Leno , a Democrat from San Francisco , announced yesterday that he would introduce a bill requiring the collection of data on the use of Taser guns in the state .
+
+While the company 's news release made no mention of the study 's four authors , Taser posted the full four-page study on its Web site .
+
+The study noted that two of the four authors were Robert A. Stratbucker and Max Nerheim , who were identified as Taser employees .
+
+Mr. Stratbucker is the medical director and Mr. Nerheim is the vice president for engineering , the company said .
+
+Asked whether the company had played any role in the conduct of the study , a Taser spokesman , Steve Tuttle , replied in an e-mail message : '' Pacing and Clinical Electrophysiology ( PACE ) is the foremost peer-reviewed journal in the field of pacing and implantable cardioversion defibrillation .
+
+The published results of the cardiac safety study of Taser technology speaks for itself . ''
+
+Wayne C. McDaniel of the University of Missouri in Columbia , Mo. , the lead author on the study , said that Mr. Stratbucker and Mr. Nerheim had '' both made important contributions '' to the study .
+
+The fourth author is James E. Brewer , a consultant in Minneapolis .
+
+Neither the January issue of the journal nor the supplement have been distributed yet .
+
+The supplement will publish papers that were presented at a conference in Nice , France , last June , including the study cited by Taser in its news release yesterday , Ms. Peters said .
+
+The study used '' adult domestic pigs chosen to simulate a range of adult human body weights , '' the authors wrote , adding that their work confirmed the cardiac safety of an experimental device that emulated the performance of commercially used devices like the stun guns .
+
+In a major shift within the much-criticized $ 18.4 billion program to rebuild Iraq 's physical infrastructure , the office that the Pentagon formed to oversee the effort will begin handing its responsibilities over to the United States Army Corps of Engineers over the next several months .
+
+Charles Hess , the director of the agency , the Project and Contracting Office , said in a telephone interview from Baghdad that the change was a natural evolution .
+
+He denied that the move was a response to Iraqi and American criticism that the reconstruction effort had focused too much on large projects , started up too slowly and failed to anticipate attacks by insurgents .
+
+As the United States tries to lay the groundwork for a functioning Iraqi government before elections on Jan. 30 , some criticisms of the reconstruction program have carried a particular sting : a major goal of the reconstruction , from power plants and sewage-treatment plants to roads and fire stations , was to persuade ordinary Iraqis of the good will and competence of the post-Saddam Hussein authorities .
+
+While the Army corps has increased electricity output and both agencies have put in place other , smaller-scale projects , most major efforts have faced major delays .
+
+Insurgent attacks have hit both the projects and the workers , prompting some large companies to pull out of Iraq , sending security costs skyrocketing and forcing the elimination or scaling down of dozens of projects .
+
+Mr. Hess defended the reconstruction program as successful , given the hard realities of Iraq , and said the gradual shift of responsibility to the Army corps , with its history of managing construction project in conflict zones , had long been envisioned .
+
+But Rick Barton , co-director of the post-conflict reconstruction program at the Center for Strategic and International Studies , said the shift '' is a further confirmation that the place is n't safe . '' ''
+
+I assume that the Army corps feels better about going places that are just plain dangerous , '' he said .
+
+The corps has largely avoided the criticism that has dogged the project office .
+
+The corps has had a much lower profile and has enjoyed some construction successes in Iraq .
+
+Its electrical projects have added more than 1,800 megawatts to the Iraqi grid , roughly the equivalent of two large power plants .
+
+But major corps projects , like huge waterway projects in the United States , have also been criticized as grandiose and unresponsive to local needs .
+
+And it was the Army corps that awarded Halliburton an early no-bid contract worth billions of dollars for work on Iraq 's oil fields , which opened the company to lashing criticism .
+
+Whether the corps will fare better than the project office is open to question , Mr. Barton said .
+
+Success in Iraq means engaging the local populace , he said , and '' that has n't been their strength even domestically . ''
+
+Brig. Gen. Thomas Bostick , commander of the Army corps in the Persian Gulf region , said that because the two organizations had been working hand-in-glove from the start , he did not regard the switch as a substantial change .
+
+Rather , he said , the project office , with its emphasis on planning , will slim down as more contracts moved into construction . ''
+
+I see this as a natural progression , '' General Bostick said . ''
+
+To say it 's going to change , and is going to change as a result of negative perception , is not correct . ''
+
+The contracting office and the projects it finances employ about 155 government workers in Baghdad and the United States , about 250 contractors in Iraq and just over 100,000 Iraqis who work on the construction itself .
+
+The contracting office said that 1,550 projects were currently under way , and that $ 2.4 billion had been spent , out of $ 13.95 billion committed specifically to reconstruction .
+
+( Some of the original $ 18.4 billion allocated by Congress has gone to the training of Iraqi security forces and other projects unrelated to construction . )
+
+The planned changes have not been disclosed publicly , but they have been discussed in staff meetings since at least September .
+
+Two former officials at the project office said that uncertainty over exactly who would be in charge of various projects had caused morale problems among some members of a staff that is already coping with work in an extremely dangerous place far from home .
+
+But one of the former officials said that by preventing the project office from becoming a permanent government institution , there was also a positive slant to the shift . ''
+
+This bureaucracy had n't settled in , '' the former official said . ''
+
+Everything was n't static .
+
+In some ways that was a benefit . ''
+
+Even with the changes , it is unlikely that the project office will vanish entirely over the next year , because some projects are still in the planning stages and because moving the dozens of government employees into new jobs will be a major task in itself .
+
+Nine current and former sales executives from an assortment of food companies were charged yesterday with participating in a scheme that created a huge accounting fraud at U.S. Foodservice , which has been under investigation in the United States and in the Netherlands for the last two years .
+
+The executives were arraigned in Federal District Court in Manhattan on conspiracy charges and released .
+
+They worked for companies that sold products like sugar , eggs , seafood and cake mix to U.S. Foodservice , which in turn supplied restaurants , corporate dining rooms and other institutions .
+
+All the executives are accused of approving documents that claimed U.S. Foodservice , a unit of Royal Ahold , was owed millions of dollars more in promotional allowances -- a type of rebate offered by manufacturers to stores and distributors -- than was actually the case .
+
+The scheme had the effect of inflating U.S. Foodservice 's profits , prosecutors say .
+
+The letters were issued by a former U.S. Foodservice chief marketing officer , Mark P. Kaiser , according to court documents .
+
+Mr. Kaiser is awaiting trial on conspiracy and fraud charges , along with Michael J. Resnick , the former chief financial officer .
+
+Two other former U.S. Foodservice executives , Timothy J. Lee and William F. Carter , pleaded guilty to similar charges last summer .
+
+All the defendants charged yesterday signed audit letters containing false information at the request of Mr. Kaiser , the documents state . ''
+
+Their motivation was to maintain a very important business relationship , '' the acting United States attorney for Manhattan , David N. Kelley , said .
+
+Most of the executives are expected to plead guilty , he said at a news conference , adding that none of the companies they worked for have been charged with wrongdoing .
+
+The investigation is continuing , '' upstream and downstream , '' he said .
+
+All of the executives have also been named in a civil case brought by the Securities and Exchange Commission , which accuses them of aiding and abetting a financial fraud .
+
+Promotional allowances are intended to be used to help sell a manufacturer 's goods to consumers , through discounts , displays or advertising , and they often add up to large amounts of money .
+
+U.S. Foodservice would pay the price of goods up front , as part of its costs , then book promotional allowances as assets in its records , according to court documents .
+
+Exaggerating the promotional allowances , sometimes by a factor of 30 or more , not only made U.S. Foodservice look like a better business than it was , but also improved the financial appearance of its parent , Royal Ahold .
+
+Royal Ahold , a publicly traded company based in the Netherlands , revealed in February 2003 that it had overstated earnings by at least $ 500 million over the previous two years .
+
+The figure was later revised to $ 880 million .
+
+Royal Ahold said much of the overstatement came from promotional allowances recorded by U.S. Foodservice .
+
+A host of executives , including the top management of Royal Ahold , resigned .
+
+In a case involving John Nettle , a 45-year-old former vice president at General Mills , a letter prepared by U.S. Foodservice 's auditor stated that General Mills owed the company $ 13.44 million at the end of 2001 . ''
+
+In truth and in fact , General Mills owed U.S.F. less than $ 2.5 million , '' the government charged in court documents .
+
+Mr. Nettle is accused of signing the letter despite the false information .
+
+For 2002 , he signed a letter stating that General Mills owed U.S. Foodservice $ 36.64 million , although the amount was actually less than $ 1 million , according to the documents . ''
+
+As Nettle well knew , the $ 36.64 million figure was grossly overstated and General Mills did not owe that amount , '' the documents state .
+
+A lawyer for Mr. Nettle , William Michael , said his client '' was pressured into signing these letters and he is very sorry for what this has caused his former employer as well as his family . ''
+
+He said that Mr. Nettle planned to plead guilty .
+
+Two of the defendants have been charged with securities fraud and obstruction of a federal investigation .
+
+Mark Bailin , who was president of Rymer International Seafood , and Peter Marion , president of Maritime Seafood Processors , are accused of buying U.S. Foodservice stock in 2000 , ahead of the company 's announcement that it was being acquired by Royal Ahold .
+
+They made about $ 1.5 million in illegal profits , according to court documents .
+
+Insurgents on Tuesday released a Syrian Catholic archbishop they had snatched from the streets of Mosul the day before , but a few hours later a new hostage drama opened when eight Chinese construction workers were shown forlornly staring at a video camera with masked men pointing guns at their heads .
+
+Also , the Iraqi interior minister issued a bleak forecast , saying that unless enough people vote in the elections on Jan. 30 , the country would tear itself apart . ''
+
+If there are not good elections , we wo n't have a constitution , and there will be chaos , and we will have a civil war , '' the minister , Falah Hassan al-Naqib , said at a news conference in the heavily fortified Interior Ministry in Baghdad .
+
+Gunfire rattled behind him nearly the whole time he spoke .
+
+Mr. Naqib did not specify how much voter turnout would qualify as a good election .
+
+John D. Negroponte , the American ambassador to Iraq , said he was confident that '' elections can and will be conducted successfully , '' but he acknowledged that there was no end in sight to the insurgency and that American officials still did not know how big it was .
+
+Among American and Iraqi officials , estimates of the number of insurgents have fluctuated wildly , from the thousands , as the Pentagon has said , to the hundreds of thousands , as many Iraqi officials say .
+
+Right now , there are around 425 attacks a week in Iraq , according to American officials , nearly the same rate as six months ago .
+
+The newly released archbishop , Basile Georges Casmoussa , was in a jovial mood as he met with well-wishers at his Eastern Rite Catholic church in Mosul , a crime-ridden city in northern Iraq that contains one of Iraq 's larger Christian communities .
+
+Christians make up about 3 percent of Iraq 's total population .
+
+Recounting his abduction , the archbishop said he was coming home from work on Monday evening , just around dusk , when a car suddenly blocked the road in front of him and gunmen jumped out .
+
+Insurgents grabbed the 66-year-old archbishop and stuffed him in the trunk . ''
+
+I thought these were the last minutes of my life , '' he said .
+
+He said the insurgents kept asking the same question : Are you an American spy ? ''
+
+I told them , you do not know me , '' he said . ''
+
+We are Christians , and we believe the Americans are occupiers . ''
+
+The archbishop was released Tuesday morning .
+
+The eight Chinese workers are still missing , and the only clue to their whereabouts is a hazy video shot in front of a brick wall and broadcast Tuesday on several Arab television channels .
+
+The insurgents said in a statement that the Chinese men were working for the American military and demanded that the Chinese government , which has stayed relatively quiet on the issue of Iraq , declare its opinion of the occupation .
+
+Mr. Naqib , the interior minister , talking about insurgent attacks , said that from the beginning there has been a conspiracy to undermine the rebuilding of Iraq , and that it may only get worse . ''
+
+Certain religious and political groups -- Iraqis , but helped by others -- are trying to fragment this country , '' he said . ''
+
+It 's treason if you do n't vote because it will arouse a civil war . ''
+
+American and Iraqi officials are desperately trying to draw Sunni Arabs , who are a fifth of the population but who are thought to make up the bulk of the resistance , into the electoral process .
+
+Many Sunni political parties are boycotting the vote , calling it illegitimate .
+
+But according to an Iraqi cable television station , at least one group of Sunni tribes in Tikrit announced Tuesday that it would take part in the elections .
+
+Officials from the International Organization for Migration announced Tuesday that more than 18,000 Iraqi expatriates in 14 countries registered Monday to vote in Iraq 's election .
+
+In the United States , 3,270 Iraqis registered .
+
+Monday was the first day to register , and the process will run through Sunday .
+
+In Baghdad on Tuesday , an American soldier was killed by a bomb blast , and at least one member of the Supreme Council for the Islamic Revolution in Iraq , a leading Shiite political party , was killed by a suicide bombing.The familiar residue of charred car parts and spilled motor oil littered the streets in front of the party 's headquarters . ''
+
+The car tried to burst into the building but the brave guards faced it , '' said Reza Jawad Taki , a party officer .
+
+[ In a suicide car-bombing early Wednesday , Reuters reported , two people were killed near the Australian Embassy in Baghdad .
+
+A few minutes later , a second suicide car-bombing killed six people near a police building in the north-central area of the city , Agence France-Presse reported . ]
+
+Elsewhere , an American soldier was killed in western Iraq , the military said Tuesday .
+
+Also on Tuesday , news agencies reported that gunmen recently killed three political candidates in different parts of the country , and the government announced that it was closing the borders during the election , except for Muslim pilgrims returning from Saudi Arabia .
+
+-------------------- 3 Britons on Trial in Abuse Case ( By The New York Times ) , LONDON , Jan. 16 -- The British Army opened court-martial proceedings against three soldiers accused of abusing Iraqi prisoners who were thought to have stolen from a British base near Basra in May 2003 .
+
+The court , at a British military base in Osnabrück , Germany , was shown photographs taken by five British soldiers of Iraqis , often naked , forced to simulate sexual acts and being beaten or mistreated .
+
+British news reports likened the incidents to abuse by American soldiers at Abu Ghraib prison in Baghdad .
+
+One of the soldiers on trial , Lance Cpl. Darren Larkin , admitted assaulting an unidentified man at the base .
+
+The two other soldiers , Cpl. Daniel Kenyon and Lance Cpl. Mark Cooley , denied all the charges .
+
+While some Democrats are still struggling to find their voices after November 's election losses , Senator Barbara Boxer of California is not among them .
+
+Her full-throated and combative questioning of Condoleezza Rice during two days of hearings on her nomination to be secretary of state was a vivid illustration of the aggressive posture that Ms. Boxer , a 64-year-old liberal from Marin County , near San Francisco , brought back to Washington after rolling up a big margin of victory in her re-election to a third term .
+
+Before casting one of two Democratic votes against Ms. Rice on the Foreign Relations Committee -- the other was John Kerry 's -- Ms. Boxer explained bluntly why she had been so persistent in pressing the national security adviser on what Ms. Boxer portrayed as the administration 's misleading and misguided rationale for the war in Iraq . ''
+
+The fact is we 've lost so many lives over it , '' she said . ''
+
+So if we do get a little testy on the point , and I admit to be so , it 's because it continues day in and day out , and 25 percent of the dead are from California .
+
+We can not forget .
+
+We can not forget that . ''
+
+Her jousting with Ms. Rice made her the most outspoken foe in the hearings .
+
+And it came after Ms. Boxer earlier this month joined a handful of House Democrats in forcing a debate on the legitimacy of the presidential electoral votes from Ohio ; she was the only senator to vote to challenge Ohio 's votes .
+
+It is clear that she is interpreting her easy win in November , when she accumulated the third-largest number of votes in the nation , behind only the presidential contenders , as a mandate of her own . ''
+
+The people of California knew exactly what I stood for and said to me , ` Barbara , go and be a truth teller , '' ' she said in an interview after the hearings .
+
+The exchanges between the two accomplished women -- '' she 's a very good debater and I 'm a pretty good debater , and that 's interesting , '' the senator said -- marked some of the most compelling moments during hearings that had a certain outcome , since Ms. Rice 's confirmation was never in doubt .
+
+Even so , the publicity that their sharp exchanges attracted may have helped persuade the Democrats to demand on Wednesday a debate on the nomination on the Senate floor as well , which would delay the confirmation vote until next week .
+
+Republicans privately accused her of grandstanding and playing to the party 's left wing , but conceded that that was her prerogative .
+
+Supporters of Ms. Rice said Ms. Boxer had inflicted no damage on the nominee , who on Tuesday cautioned the senator about '' impugning my integrity . ''
+
+Democratic colleagues said they had no doubt about the Californian 's sincerity . ''
+
+I do n't always agree with her , '' said Senator Charles E. Schumer of New York , who has known Ms. Boxer since she was elected to the House in 1982 . ''
+
+But she is wholly genuine .
+
+She really believes what she says .
+
+She feels it strongly .
+
+She is not posturing . ''
+
+Ms. Boxer has been source of political frustration for California Republicans , who have been unable to defeat her despite her liberal voting record and her prominent role as a legislative leader on protecting abortion rights .
+
+She rolled up a 20 percentage point win in November over the Republican challenger , Bill Jones , and accumulated just under seven million votes , the highest total ever for a senator . ''
+
+She said on election night that she was not going to be afraid to stand alone , '' said David Sandretti , her chief spokesman .
+
+Jack Pitney , a political science professor at Claremont McKenna College and a former Republican operative in Washington , said : '' She has always portrayed herself as a fighter and this is part of her personality .
+
+This aggressive critic of the powers that be is the role for which she was born . ''
+
+Ms. Boxer 's split with Dianne Feinstein , her fellow Democratic senator from California , on Ms. Rice 's suitability to be secretary of state was stark : Ms. Feinstein introduced the nominee to the committee in laudatory terms . ''
+
+The people of California elected two separate senators , '' Ms. Boxer said . ''
+
+We are not joined at the hip .
+
+We do n't always agree . ''
+
+Had she not been willing to take on Ms. Rice over the buildup to the war , Ms. Boxer said , she would not deserve her seat in the Senate .
+
+All she did , she said , was confront the nominee with her own words and the record . ''
+
+This is nothing personal , '' she said . ''
+
+This is who I am . ''
+
+Insurgents detonated five powerful truck and car bombs across Baghdad on Wednesday , killing 26 people , at least 9 of them members of Iraq 's fledgling security forces .
+
+The attacks came as Iraq 's interim prime minister , Ayad Allawi , said he would reveal plans next week for an accelerated buildup of those forces to prepare for an eventual American withdrawal .
+
+Responding to political pressures within Iraq ahead of the Jan. 30 elections and mounting questions in Washington about the prospects for an American pullout , Dr. Allawi said he had been talking with the United States commanders in Baghdad about ways to accelerate the '' training , equipping and deploying '' of Iraqi security forces .
+
+He added that '' this in turn will accelerate the drawdown and gradual withdrawal of the multinational forces in Iraq . ''
+
+Those forces are made up of about 150,000 troops from the United States and upward of 25,000 from other nations .
+
+But Dr. Allawi raised the tantalizing prospect of an eventual American withdrawal while giving little away , insisting that a pullout could not be tied to a fixed timetable , but rather to the Iraqi forces ' progress toward standing on their own .
+
+That formula is similar to what President Bush and other senior administration officials have spoken about .
+
+Some American military commanders have said privately that with this approach and considering the demoralization , desertion and unwillingness to fight common among Iraqi forces trained so far , American troops could be tied down for years , unless elections or other political developments bring the war to an unexpected end . ''
+
+I will be explaining this carefully planned process -- what I call a ` conditions based ' rather than a ` calendar based ' gradual withdrawal program , in more detail next week , '' Dr. Allawi told reporters at a ceremony at Baghdad airport .
+
+He was there to accept the first of three C-130 military transport planes that Iraq is to receive as part of the American-financed buildup of Iraqi forces .
+
+The aircraft was the first large plane acquired by the new Iraqi Air Force , which was one of the most powerful in the Middle East before it was decimated by bombing attacks in the 1991 Persian Gulf war .
+
+Dr. Allawi 's remarks were made on a day when attacks underlined , once again , how insurgents have turned wide areas of the country , including Baghdad , into what is effectively enemy territory , with an ability to strike almost at will , and to shake off the losses inflicted by American troops .
+
+The attacks in Baghdad on Wednesday were aimed at the approaches to the Australian Embassy and four Iraqi security targets , including a police station , an army garrison and a bank where policemen were lining up to receive their monthly pay .
+
+The attacks , four of them within 90 minutes in the morning rush hour , rattled windows and doors miles away .
+
+Spread across a wide area of the city , they wounded dozens of people , most of them Iraqi civilians , in addition to those killed , and served as a reminder of the insurgents ' power to spread mayhem across the capital only 11 days before the elections .
+
+American commanders have sought to prepare public opinion in Iraq and abroad for one of the bloodiest chapters in the war so far , saying the escalation of violence promised by the insurgents can be diminished to a degree , but not prevented , by an increasing tempo of American military raids on insurgent groups .
+
+The American hope is that the voting , for a national assembly and provincial councils , will help turn the tide by drawing a strong turnout among more than 14 million eligible voters , despite the threat of attacks by Sunni insurgents on polling stations , candidates and voters , and a boycott of the election being urged by powerful figures in regions where Iraq 's Sunni minority population predominates .
+
+In almost any foreseeable outcome of the election , the Sunnis face the prospect , for the first time in centuries , of ceding political power in Baghdad to the country 's 60 percent Shiite majority .
+
+Wednesday 's deadliest attack occurred near a police station and Al Alahi hospital in the Alwiyah district of eastern Baghdad .
+
+The American command said a suicide car bomber killed 18 people , including 5 Iraqi policemen , and that 15 other people had been wounded .
+
+In a car bomb attack on an Iraqi military garrison on the site of Baghdad 's old Muthana inner-city airfield and another attack at a checkpoint on the perimeter of the heavily secured Baghdad International Airport , two Iraqi soldiers and two security guards were killed .
+
+The first attack , shortly after 7 a.m. , involved a truck packed with explosives that approached concrete barriers guarding the Australian Embassy compound in southern Baghdad .
+
+The American command said two Iraqis were killed .
+
+A spokesman for the American command , Lt. Col. James Hutton of the First Cavalry Division , said that none of the bombers Wednesday had reached their intended targets . ''
+
+While any loss of life is tragic , it could have been a lot worse , '' he said .
+
+Nevertheless , at the worst of the bombing sites there were deep craters , pools of blood , scattered human remains and shattered buildings .
+
+Near the Rafidain bank in the Etifiyah neighborhood of north-central Baghdad , where a bomb went off as policemen lined up for their salaries , a crumpled child 's bicycle lay near the center of the blast ; people there said a boy had been killed .
+
+The new United States-trained Iraqi Army , National Guard and police force have had hundreds of men killed in the past year .
+
+Now , American election plans depend on these forces protecting more than 5,500 polling places .
+
+The insurgents ' threats to Iraqis seen as working for or alongside the Americans were demonstrated on Wednesday in a video posted on an Islamic militant Web site of the killing of two Iraqi telecommunications technicians .
+
+The video showed the men , still alive , posed in front of a black banner emblazoned with the name of an Islamic terrorist group , Ansar al Sunna , that has claimed responsibility for many of the most brutal attacks of the war in the past year .
+
+They were then shown crouching before a stone wall , blindfolded , as their executioner approached from off camera and killed them with pistol shots to the back of the head .
+
+Earlier , the men confessed that they had been sent to the northern cities of Mosul and Erbil on an American contract to install computer communications for the elections .
+
+At least 11 other people were killed on Wednesday .
+
+Gunmen who attacked the Baghdad offices of a major Kurdish party , the Patriotic Union of Kurdistan , killed one party member and wouned others , party officials said .
+
+Also in Baghdad , another car bomb aimed at an American convoy missed its target but killed four Iraqi bystanders .
+
+In Hilla , 60 miles south of Baghdad , an Iraqi policeman was killed in a car bombing , according to a Polish military spokesman .
+
+Much of the remaining violence was in northern Iraq , in Erbil , Dohuk , Kirkuk and Mosul .
+
+Just weeks after losing his world-famous winery , Robert Mondavi is going back into the wine business , briefly , with a surprising partner -- his brother Peter .
+
+It will be a small venture .
+
+But it will be the first public collaboration of the two nonagenarians since a legendary dispute some 40 years ago that prompted Robert to split with his family and start his own business .
+
+Together , Robert , 92 , and Peter , 90 , will produce a small barrel of wine -- 60 magnums to be exact -- to be sold next summer at the Napa Valley Auction , the California wine world 's premier social event .
+
+The lighthearted venture , arranged by the brothers ' winemaking sons , is heavy with symbolism , coming as it does so soon after the implosion of the Robert Mondavi Winery and its subsequent sale to Constellation Brands late last year for about $ 1 billion .
+
+It represents a formal healing of a breach that kept the two branches of the renowned wine family apart for almost half a century and it represents , too , a recognition that while the two factions may have stood for different ways of winemaking , they were in the long run , not as far apart as they once had thought .
+
+For the first time since his teenage years , Robert Mondavi has no formal connection to a winery .
+
+For his brother it is a vindication of sorts of his quieter style of running a major winery , in this case , the Charles Krug Winery , just up the road from the Robert Mondavi Winery in the Napa Valley .
+
+The Mondavi brothers ' father , Cesare , a grape shipper in the Central Valley , bought Charles Krug in 1943 for his sons to run .
+
+The sons bickered over how to run the business , culminating in the 1965 altercation .
+
+In an interview yesterday , Peter Mondavi Jr. said the breach between his father and his uncle had been closing slowly in recent years .
+
+He said the one-time joint winemaking venture was meant in part to show family solidarity in the light of his uncle 's recent reverses .
+
+He also said that Krug , which is entirely family owned and run by his father , his brother Mark and himself , is just completing a $ 20 million renovation and expansion , all of it financed internally .
+
+There was never any thought of a public offering to raise cash , he said , a pointed reference to Robert Mondavi 's public issue in the 1990 's and that winery 's subsequent and ultimately unsuccessful struggle to satisfy stockholder expectations .
+
+With over 850 acres of vineyards , the Krug winery -- which has no connections with Krug Champagne in France , is one of the largest land owners in the Napa Valley .
+
+Its business is divided into two parts , one producing inexpensive wines under the CK Mondavi label , the other concentrating on high-end wines .
+
+Peter Mondavi Jr. said he and his cousin , Tim , Robert 's younger son , would make the wine , each contributing half a barrel from their cellars .
+
+Tim Mondavi was his father 's chief winemaker before the sale .
+
+Both branches of the family were represented at a dinner in New York last night given by Wine Enthusiast Magazine to honor Mel Dick , a prominent distributor .
+
+Tim Mondavi , standing with his cousin Peter at the dinner , said of his family 's problems : '' We did n't want it to happen , but it happened .
+
+But our roots are strong in the business and we will grow again . ''
+
+Will the one-barrel venture lead to any longer-term collaboration between the families ? ''
+
+We 're taking it one step at a time , '' Peter Mondavi Jr. said .
+
+But , he added with a grin , '' Stay tuned . ''
+
+Awash in cash and practically debt free , Royal Philips Electronics said Thursday that it would buy back up to 750 million euros ( $ 978 million ) of its own stock this year and search for acquisition targets even as a previous purchase put a dent in its fourth-quarter earnings .
+
+Philips , the Dutch health care and technology concern , said a 16.7 percent decline in its fourth-quarter profit , to 498 million euros , was a result of a significant write-down of its stake in MedQuist , a medical transcription company that is the subject of class-action lawsuits and investigations by securities regulators .
+
+Philips 's fourth-quarter sales rose 2 percent , to 9.18 billion euros , compared with the same period a year earlier .
+
+Both its sales and net profit results exceeded many analysts ' expectations .
+
+Philips had announced the MedQuist write-down of 576 million euros last November , and it was one of only a few negative notes in otherwise upbeat annual results .
+
+For the year , net profits at Philips rose more than 300 percent to 2.84 billion euros ( $ 3.7 billion ) compared with 695 million euros the year before .
+
+Operating profit was 1.6 billion euros compared with 488 million euros in 2003 .
+
+Sales increased 4.5 percent , to 30.3 billion euros .
+
+The results for Philips and its plan to buy back shares drove its share price up 4.45 percent , to 19.50 euros .
+
+Jan Hommen , the chief financial officer , said that Philips believed its stock was undervalued . ''
+
+The value of the share price could be higher , '' Mr. Hommen said in an interview .
+
+The stock buyback '' seems like a good investment in our own company , '' he said , adding , '' It 's a better way to use our cash than letting it sit in a 1 or 2 percent account '' generating interest .
+
+Gerard J. Kleisterlee , the chief executive , said in an interview that Philips would allocate a bigger chunk of its budget to increasing the company 's name and brand recognition in the United States this year .
+
+The company did not release performance figures for its long-suffering consumer electronics business in the United States , but indicated that things were improving .
+
+An official of Philips once threatened to stop selling consumer electronics in the United States altogether if the company could not make a profit . ''
+
+We are n't considering closing it , so you can draw your own conclusions , '' Mr. Kleisterlee said in an interview . ''
+
+We are comfortable with where we are . ''
+
+Philips said it was guardedly optimistic about the coming year , but remained concerned about the fragility of world economies .
+
+'' WHAT stresses me most , '' the chief executive of Novartis , Daniel L. Vasella , said , '' is that we are getting new regulations from abroad without any consultation . ''
+
+This has been the World Economic Forum that the United States government largely passed by .
+
+In a world that both respects and fears American power , there is worry that the United States does not care what others think .
+
+Or , as Tony Blair , the prime minister of Britain , put it in a speech to the forum , '' If America wants the rest of the world to be part of the agenda it has set , it must be part of their agenda , too . ''
+
+He added , '' What people want is not for America to concede , but for America to engage . ''
+
+It is a fair bet that Mr. Blair has given little thought to Section 404 of the Sarbanes-Oxley Act or to the way the Securities and Exchange Commission can adjust accounting rules , which is what concerns Mr. Vasella .
+
+Mr. Blair was more concerned with global warming and world poverty .
+
+The twin American deficits figured into concerns that the United States would do as it pleases regardless of the possible impact on the world economy . ''
+
+I do n't see the budget deficit being dealt with , '' said Jacob Frenkel , the former head of Israel 's central bank and now a vice chairman of the American International Group , a large insurance company . ''
+
+I am concerned with the U.S. current-account deficit , not because it can not be dealt with but because of the way it is not being dealt with . ''
+
+The explanation for less American government participation than in past years -- that this forum came at an awkward time just before the State of the Union address -- makes some sense .
+
+And there were Americans here , like John A. Thain , the chief executive of the New York Stock Exchange , who gently suggested that the current-account deficit would decline if Europe grew faster .
+
+Some Americans are listening .
+
+William H. Donaldson , the chairman of the S.E.C. , gave a speech in London this week that dealt with some of the concerns , indicating the commission may delay enforcing rules against foreign companies that trade in the United States and may make it easier for foreign companies already registered in the United States to withdraw .
+
+The rule that has both American and foreign companies complaining is Section 404 , which requires extensive reviews of internal controls in companies to assure they are effective -- and says outside auditors must certify the controls . ''
+
+It was an enormous , expensive exercise , '' Mr. Vasella said in an interview . ''
+
+It raised the question , for my employees , ` Is the trust broken ? '
+
+because you control everything . ''
+
+Novartis has complied with the rule .
+
+The chief executive of PricewaterhouseCoopers , Samuel A. DiPiazza Jr. , estimated that 10 percent of large American companies would fail to comply this year , either because they could not complete the work on time or because material problems were found .
+
+A survey of 1,324 chief executives by his firm found that bosses around the world were less confident they could comply with rules outside their home countries .
+
+Mr. Vasella said chief executives of several smaller European countries told him they might try to leave the American market .
+
+He said he asked them if they would do so because they had something to hide , or because of the expense .
+
+Mr. Donaldson is wise to try to assuage European concerns , but there is a risk that other parts of the American government are less sure of the need to take foreign views into account .
+
+That may prove to be unwise for a country that needs help in many areas , not the least of them being in borrowing money to finance the twin deficits .
+
+After a contest that had pitted domestic pride against global politics , the Pentagon yesterday chose an international team , headed by Lockheed Martin , to build the next fleet of presidential helicopters over Sikorsky Aircraft , which had positioned itself as the '' all-American '' choice .
+
+In selecting Lockheed , which will receive $ 1.7 billion initially to begin the program , the Pentagon signaled a new openness to foreign partners on sensitive military tasks .
+
+By doing so , it also rewarded Britain and Italy , two of the United States ' staunchest allies in the Iraq War .
+
+The helicopter fleet , which will be ready in 2009 , will be built by a joint venture of Lockheed and AgustaWestland , a British-Italian venture that designed much of the helicopter and will make about a third of it .
+
+John Young , the assistant Navy secretary who made the announcement , argued that politics played no role in the selection .
+
+But it was immediately denounced as '' outrageously wrong '' by Senator Joseph Lieberman , a Connecticut Democrat , who lobbied strongly for Sikorsky to continue building the White House 's helicopters , a role that dates back to the Eisenhower era .
+
+Sikorsky , a subsidiary of United Technologies , is based in Connecticut .
+
+New York 's Congressional delegation , by contrast , lined up with the Lockheed group , supporting it because some of the work will be done at a new Lockheed plant in upstate New York .
+
+The $ 6.1 billion contract -- $ 3.6 billion for the fleet of 23 helicopters and the rest for research and development -- is far from the Pentagon 's largest .
+
+But it is full of symbolic value and was seen as a critical test of the Pentagon 's willingness to do business with foreign military companies . ''
+
+We picked based on the best value for the mission , '' Mr. Young said in a Pentagon briefing . ''
+
+There are no political influences on this .
+
+I was not asked by anyone to pick a particular one . ''
+
+To emphasize the point , Mr. Young added , '' No one at the White House contacted me . ''
+
+The selection of a new presidential helicopter fleet -- the helicopters are designated Marine One when the president is on board -- took on new urgency after the Sept. 11 terrorist attacks , when more communications equipment was added to the existing fleet , making the current models heavier and less maneuverable , especially at low altitudes .
+
+The new helicopters will be able to carry more weight , and fly farther and faster than the ones that currently ferry the president . ''
+
+This announcement is a strong endorsement of a two-way street with Europe , '' said Richard Aboulafia , an analyst with the Teal Group , an aerospace research firm in northern Virginia . ''
+
+It is , however , hard to deny that politics played a role when the winner is two of the United States ' Iraq War allies and you have a case of Connecticut versus Texas . ''
+
+The other lead player in the Lockheed team is Bell Helicopter , which is based in Amarillo , Tex. .
+
+Lobbying for the Lockheed-AgustaWestland team took place at the highest levels .
+
+Both Tony Blair , the British prime minister , and Prime Minister Silvio Berlusconi of Italy raised the issue directly with President Bush in White House visits .
+
+The most recent pitch took place just before Christmas , when Mr. Berlusconi parried with Mr. Bush at a news conference , praising the quality of the Italian-designed aircraft . ''
+
+I can only say that I 've been flying these helicopters for 30 years and I am still here , '' said Mr. Berlusconi .
+
+In response , Mr. Bush said : '' And you 've never crashed .
+
+That 's a good start . ''
+
+In a more serious vein , Mr. Bush said that Mr. Berlusconi had emphasized that most of the work would be done in the United States . ''
+
+I understand the nature of U.S. jobs that will be created in the venture , '' he said , '' and I assured him the venture will be treated fairly . ''
+
+Both sides waged all-out publicity campaigns , with billboards , radio and magazine ads .
+
+They lined up politicians to press their cases , and some of them are taking credit for the Lockheed selection . ''
+
+I was pleased to have actively and aggressively supported Lockheed Martin , '' George E. Pataki , New York 's Republican governor , said yesterday .
+
+Senator Charles E. Schumer , the New York Democrat , said yesterday that he had spoken to Defense Secretary Donald H. Rumsfeld and former Secretary of State Colin L. Powell '' to get them to use their influence to secure Lockheed the contract . ''
+
+And Senator Hillary Rodham Clinton , Democrat of New York , who had flown in Marine One as first lady , personally telephoned Mr. Blair before a recent meeting with President Bush to urge him to press for Lockheed .
+
+Senator Clinton was at the plant in Owego , N.Y. , where Lockheed will make part of the craft , yesterday and called the presidential helicopter an '' Oval Office in the sky . ''
+
+Many in Congress opposed to Lockheed 's international team argued that the president should be ferried only in a helicopter that was American designed and made .
+
+To quell those concerns , Lockheed lined up a roster of suppliers around the country and committed itself to making the airframes in Texas .
+
+It also agreed to set up a new plant in upstate New York and spread work to companies in California and New England .
+
+On the Sikorsky side , many members of Congress who had lobbied for it expressed bitter disappointment with the decision . ''
+
+Made in America should mean something , '' said Rosa L. DeLauro , a Democratic representative from Stratford , Conn. , as she stood outside the Sikorsky plant there . ''
+
+The Defense Department has some explaining to do . ''
+
+And Duncan Hunter , a California Republican who is a staunch '' Buy America '' proponent and serves as chairman of the House Armed Services Committee , deplored the decision . ''
+
+It is difficult to understand why we would use U.S. tax dollars to fund the further development of foreign helicopter technology , '' he said .
+
+Mr. Young said that two-thirds of the work on the new helicopters would take place in the United States , with the rest split between Italy and Britain .
+
+AgustaWestland is a subsidiary of the Italian firm , Finmeccanica .
+
+Several crucial components of the craft , including the transmission and rotor blades , will be built overseas .
+
+Lockheed itself will serve as a systems-integrator for the craft , and provide all the technical components and computers to connect it to the rest of the world .
+
+The helicopter chosen by the Pentagon , called the US 101 , is a variation of one already in use by the British Royal Navy ; it has been purchased by several other European countries and it is used to ferry the Pope .
+
+What swayed the Pentagon to Lockheed , Mr. Young said , was the fact that the US 101 has a larger cabin , can carry a heavier payload and could be put into service faster than Sikorsky 's offering , the VH-92 .
+
+The US 101 uses three engines , while the VH-92 has two .
+
+To some extent , the details of all the security measures incorporated in the helicopter fleet are so sensitive that it is impossible for outsiders to analyze each company 's offerings against the Pentagon 's requirements , said Loren B. Thompson , a military industry analyst at the Lexington Institute , a northern Virginia research group that monitors government spending . ''
+
+The government will never release to the public a list of the requirements for this craft , '' Mr. Thompson said . ''
+
+We 'll all be in the dark .
+
+We wo n't know much because it is all classified . ''
+
+This is the second big blow to Sikorsky .
+
+Last year , it lost a $ 39 billion Pentagon contract when the Comanche helicopter program was cancelled . ''
+
+Sikorsky and our All-American supplier team are disappointed with this outcome , '' said Stephen N. Finger , Sikorsky 's president . ''
+
+We 're honored to have flown U.S. presidents for nearly half a century . ''
+
+Sikorsky is perhaps best known as maker of the Black Hawk helicopter , a military war horse that is in heavy use in Iraq .
+
+The VH-92 offering being designed by Sikorsky is a variant of its new S-92 midsized helicopter that the company is making with international partners .
+
+The fact that the VH-92 could trace its lineage to a foreign design caused some on the Lockheed side to claim that Sikorsky was not playing fair by calling its craft all-American .
+
+At the Sikorsky plant in Stratford , the Pentagon decision was greeted glumly .
+
+Workers gathered to commiserate at the Masters bar in nearby Shelton , where Sandi Stroomer , whose brother works at Sikorsky , as did her father , called the Pentagon decision a blow . ''
+
+We 're a Sikorsky family from way back , '' she said .
+
+Pat Stroomer , Sandi and Bill 's mother , chalked the loss up to politics . ''
+
+It 's a known fact , '' she said , '' that Kerry carried Connecticut . ''
+
+In his 2002 book , '' The Paradox of American Power , '' Joseph S. Nye Jr. , the scholar and former Pentagon official , famously distinguishes between '' hard '' and '' soft '' power .
+
+The first is the power to coerce , largely through military might ; the second , the power to co-opt through such '' intangible '' factors as culture , values and institutions ( the media , churches , schools and so forth ) .
+
+In an era of globalized information , Nye observes , the power to persuade has become almost as important as the power to compel , and he criticizes American policy makers for their single-minded focus on brute force .
+
+Where , in this taxonomy , do we put the images we saw in recent weeks of United States Navy helicopter pilots aboard the aircraft carrier Abraham Lincoln ferrying supplies to victims of the tsunami in the Indonesian province of Aceh ?
+
+Is that hard power with a human face ?
+
+Soft power in a flak jacket ?
+
+Whatever it is , it produces an inherently attractive narrative .
+
+I arrived in Indonesia 11 days after the disaster hit , and in that day 's Jakarta Post , the capital 's chief English-language daily , I read a long and reverent profile of the American pilots bearing the headline , '' U.S.S. Abraham Lincoln Enjoys Aceh Humanitarian Mission . ''
+
+As the Bush administration tries to blunt the hostility fostered by four years of swaggering belligerence , it should think about reconfiguring Nye 's parlor-game-cum-political-theory to its own purposes .
+
+We know all too well that this administration does not do soft .
+
+Nye himself once told me Defense Secretary Donald Rumsfeld 's response to the concept : '' I do n't know what ` soft power ' is . ''
+
+President Bush 's chintzy initial response to the tsunami implies that he does n't know quite what it is either .
+
+The problem with the hard-soft dichotomy itself is that it fails to take account of the soft-power potential of military helicopters and aircraft carriers .
+
+We live in an era not only of globalized information but also of the nearly $ 450 billion defense budget .
+
+The United States military is now an instrument of absolutely everything -- warfare , diplomacy , social policy , humanitarianism .
+
+It just depends how we deploy it .
+
+The critical attributes that make the U.S.S. Abraham Lincoln an instrument of persuasion rather than of coercion are , first , that it is being put to nonlethal use and , second and no less important , that it is advancing humanitarian ends -- that it is not directly serving American self-interest . ''
+
+This was an act of God , '' the Jakarta Post reporter quotes an American serviceman . ''
+
+We are here and happy to help . ''
+
+Soft power , in short , need not be squishy soft .
+
+And this hard-jacketed form of persuasion may actually be more effective than the classic instruments of soft power , at least as they are embodied in popular culture .
+
+Nye argues that , whatever its flaws , our culture projects the core values of '' democracy , personal freedom , upward mobility and openness . ''
+
+Well , maybe that 's the subtext of '' The Day After Tomorrow '' and '' The Apprentice , '' but you could make at least as good a case that our coarse entertainment products have proved even more frighteningly hegemonic than our military .
+
+Of course we should have exchange programs and American libraries abroad and all the other tools of public diplomacy .
+
+But it will not be easy for even the best expressions of American culture to escape the overwhelming suspicion that now dogs all things American .
+
+The same is true , naturally , of humanitarian helicopter missions .
+
+But at least these are acts , with an unambiguously positive outcome .
+
+And the use of our immense hard power for soft purposes has the additional benefit of humanizing the fierce image inevitably projected by that power : the same military that shocks and awes can also save and heal .
+
+This is n't true for only our Armed Forces .
+
+Consider the example of Singapore , a tiny country with a small but professional military .
+
+While the little Seahawks flying off the deck of the Abraham Lincoln carried modest loads , six giant Chinooks , provided by the Singapore Armed Forces with little fanfare , did a good deal of the heavy lifting : when a cargo plane ran into a water buffalo and blocked the landing strip at Banda Aceh , it was a Chinook that lowered the earth-moving machinery that shoved the plane out of the way .
+
+Singapore is , by tradition , a hard-power country , though its stature is not military but economic ( which Nye recognizes as a third , autonomous dimension of power ) .
+
+When I stopped off there on my way home , a friend said to me , '' The irony is that Lee Kuan Yew would never have done this . ''
+
+The tough-minded former prime minister thought , like Donald Rumsfeld seems to think , that charitable gestures were for sissies .
+
+But Lee 's very new successor , Lee Hsien Loong , has publicly committed Singapore to the task of rehabilitating the region .
+
+The United States will never win as much gratitude as feisty little Singapore .
+
+And in the age of global terrorism , our soldiers must always be prepared to fight .
+
+At the moment , in fact , the war in Iraq has put a huge strain on our forces .
+
+But reducing that commitment will make other choices possible .
+
+The need to respond to another epic disaster will not , God willing , come along for a good many years ; if we are to continue to deploy our hard-power resources in soft-power settings , it will mostly take the more familiar form of peacekeeping .
+
+President Bush arrived in office so profoundly opposed to peacekeeping that he scarcely bothered with post-conflict planning in Iraq .
+
+He has , however , lived to rue that decision .
+
+And he has not withdrawn American peacekeepers from the ongoing NATO operation in Kosovo .
+
+Of course , you ca n't get much publicity value from an operation scarcely anyone knows about .
+
+And in any case peacekeepers ca n't cure what ails Kosovo in the way that air-dropped medical supplies can solve the immediate problems of Aceh .
+
+But I would n't simply dismiss the soft-power virtues of peacekeeping .
+
+Last year I spent a day on patrol with the American contingent in Kosovo .
+
+I had been told that the Americans never unshouldered their weapons , doffed their wraparound sunglasses , broke formation and so on .
+
+And yet the squad leader , Staff Sgt. Mike Chirdon , a 32-year-old carpenter from Altoona , Pa. , passed an hour teaching an impromptu civics class in a school he regularly visited and then hung out in a cafe to glean intelligence from the locals .
+
+Neither the Italian nor the French soldiers I also spent time with had anything like the relationship with ordinary people that Chirdon had ; he was a wildly popular figure .
+
+It occurred to me that peacekeeping might be something to which Americans -- or at least the citizen-soldier reservists who are expected to fulfill these tasks -- might be peculiarly suited .
+
+Chirdon certainly had no doubt about the value of the work . ''
+
+I do n't know how there could be a better mission in the world than this , '' he said .
+
+The world is going to be seeing a lot of the American military in the coming years .
+
+Should n't we want people -- including the American people -- to see our soldiers without their guns or their body armor , to see that they have faces and even feelings ?
+
+Is n't that worth the price of peacekeeping entanglements ?
+
+Call me crazy , but I think people like Mike Chirdon constitute a more precious international currency than '' Desperate Housewives . ''
+
+THE WAY WE LIVE NOW : 1-30-05 : IDEA LAB James Traub , a contributing writer for the magazine , is at work on a book about the United Nations .
+
+DIANA COSTALES , a collector of vintage clothing , loves to describe a find at an estate sale shortly after she moved to Albuquerque seven years ago : five women 's suits from the 1940 's -- '' some very dressy , some pretty casual , '' she said . ''
+
+But what was so amazing about them was they were all perfect , hanging in dry-cleaner bags , '' Ms. Costales added . ''
+
+There was n't a button missing , not a thread pulled , not a stain .
+
+It was like time forgot them . ''
+
+Hard to forget , however , was the price : just $ 2 apiece . ''
+
+Half of it 's the hunt , and the other half 's finding that really great deal , '' said Ms. Costales , a stay-at-home mother and manager of investment property .
+
+These days , the growing popularity of collecting and wearing vintage clothing has made those $ 2 deals harder to come by , as shoppers become as knowledgeable about top designers as retailers and wholesalers . ''
+
+Some vintage shop owners , if they 're going to the same estate sales , wo n't share information because you , the shopper , are their competition , '' said Ms. Costales , who gave the $ 2 suits to her older sister .
+
+The business of vintage clothing has changed considerably since the late 1960 's , when small shops popped up to accommodate young buyers looking for fashion alternatives , said Doris Raymond , the owner of The Way We Wore , a store in Los Angeles .
+
+When she opened her first store , in 1981 in San Francisco , most people who wore vintage clothes bought them at thrift shops , which often received donations from estates .
+
+The treasures and the ordinary from those donations all went to the thrift shops ' racks .
+
+Now , many thrift shops have specialists who pull out the best offerings before they hit the floor . ''
+
+I have not been in a thrift shop in probably eight years , '' Ms. Raymond said . ''
+
+I rely on people who find the good stuff , so they come to me with 300 things to choose from that have been picked with quality in mind . ''
+
+Not all old garments qualify as vintage clothing worth buying .
+
+Ms. Raymond says the term befits clothing that symbolizes an entire decade or era , like Audrey Hepburn 's classic sheath dress by Givenchy from the 1950 's , or the Chanel look championed by Jackie Kennedy in the 60 's .
+
+Patrick Michael Hughes , who teaches a course on the cultural history of clothing at the Parsons School of Design in New York , said vintage clothing was revered and desired for one reason . ''
+
+It really comes down to silhouette -- primarily the shape and look -- that is very , very conscious of the body and of construction , '' he said , citing the cut of a jacket 's shoulder or sleeve . ''
+
+It 's rooted in a vocabulary that today 's clothing is not . ''
+
+Mr. Hughes says the collectible articles of the future will still be from top designers -- like Dior , Valentino , Balenciaga , Yves Saint Laurent and Halston .
+
+Louis Webre , vice president for marketing and media at Doyle New York , an auction house , said that over the last four years , more people were participating in its spring and fall '' Couture , Textiles and Accessories '' auctions , which include vintage clothing .
+
+The event that steered vintage couture sales in a new direction , creating a huge upswing in auction attendance , he said , was the 2001 Academy Awards .
+
+Julia Roberts attended the ceremonies in a vintage Valentino dress , while Renée Zellweger arrived in a canary yellow chiffon number , circa 1960 , by Jean Desses .
+
+A stylist had bought the Desses dress at a Doyle auction for a bid '' in the four figures , '' although Mr. Webre said that vintage couture '' can cost you well into the five figures . ''
+
+Rachel Zoe Rosenzweig , a Los Angeles stylist , found a one-shouldered orange Valentino dress from the 1970 's that Jennifer Garner , one of her clients , wore to the 2004 Academy Awards . ''
+
+For some actresses , high-end vintage evokes an idea of old Hollywood , because their idols and fashion icons were wearing those very designers these celebrities want to wear now , '' Ms. Rosenzweig said .
+
+Sometimes , she noted , these gowns are on loan from the archives of designers .
+
+But actresses often buy their own gowns from high-end vintage boutiques .
+
+The clothing , she added , does n't have to be expensive . ''
+
+I have gotten evening gowns for myself and my clients that have been under $ 100 that look as if they cost several thousand dollars -- but they do n't have a designer name in them , '' she said .
+
+Some stores tend to carry only designer names .
+
+Resurrection , a vintage clothing retailer with stores in Los Angeles and Lower Manhattan , was recently the benefactor of Norma Kamali 's entire archive from the late 1960 's through the 90 's . ''
+
+We sold hundreds of pieces of Norma Kamali , way beyond our expectations , '' said Katy Rodriguez , the store 's co-owner .
+
+The prices ranged from $ 150 into the thousands .
+
+On the other hand , Foley & Corinna , a Lower East Side vintage retailer , prefers items costing $ 100 or less . ''
+
+You 'll walk into a party , you 'll be the only one wearing the top and , if you spill a glass of wine on it , you wo n't be heartbroken , '' said Anna Corinna , a co-owner .
+
+Andrea Linett , creative director of Lucky , the shopping magazine , who has been a buyer of vintage clothing since high school , says that it is tough to have a eureka moment in a thrift shop without having a sense of fashion history . ''
+
+You have to have references , '' she said .
+
+That knowledge allows thrift-store shoppers to spot signature styles of designers .
+
+Without that knowledge , she said , a shopper may be better off going to a retailer that has already edited down the stock .
+
+SOME people buy vintage clothing for its investment potential , but the mystique holds sway for many .
+
+Victoria Moran , author of '' Younger by the Day : 365 Ways to Rejuvenate Your Body and Revitalize Your Spirit '' ( HarperSanFrancisco , 2004 ) , cherishes a gift she received from her mother : a 1964 jacketed summer dress by Diane von Furstenberg . ''
+
+There is something about the way it moves , '' she said . ''
+
+It has a bias-cut skirt .
+
+It fits like second skin .
+
+I wear it in the summer when I feel it 's necessary to light up a room . ''
+
+For Ms. Moran , vintage clothing plays up womanliness , rather than girlishness , an assessment with which Katherine Sansone , a longtime vintage clothing consumer , concurs .
+
+Ms. Sansone , owner of a public relations company in Oakland , Calif. , is also the older sister of Ms. Costales , who gave her those $ 2 suits . ''
+
+Three are business suits , and I wear them all the time , '' she said , adding that the garments have been named according to the spirit they exude -- the '' Andrews Sisters , '' the '' Sailor , '' the '' Cocktail Hour , '' the '' Joan Crawford '' and the '' Time for Biz . '' ''
+
+There 's a sense of elegance , sophistication and femininity about all the clothes , '' said Ms. Sansone , who still finds bargains but says the searching has become competitive because people know there is money to be made in vintage clothing . ''
+
+When you wear them , you feel better , in the way they fit and the way they feel . ''
+
+The '' Biz '' suit , however , is the ultimate showstopper . ''
+
+People say that when I wear it , I have a bit more sass in my walk , '' she said . ''
+
+And I do . ''
+
+QUICK READ If you want to start buying women 's vintage clothing -- whether or not it comes with a designer name -- here are some considerations .
+
+BUDGET Clothing found at estate sales may set you back only a few dollars , but garments sold at vintage boutiques may run into the hundreds and even thousands of dollars .
+
+BODY TYPE Many vintage garments were designed in small sizes .
+
+Try on a variety of garments in different sizes from different time periods .
+
+Check the seams to determine whether a visit to a tailor will be worthwhile .
+
+GARMENT CONDITION That stylish vintage frock may have more than just your name all over it : there may also be perspiration stains , fade marks and pulled threads .
+
+Not all old garments can be successfully transformed by a visit to the dry cleaner .
+
+SUNDAY MONEY : SPENDING Correction : February 6 , 2005 , Sunday An article last Sunday about buying vintage clothing referred incorrectly to the age of a dress attributed to the designer Diane von Furstenberg .
+
+Ms. von Furstenberg did not emerge as a designer until 1972 , so the dress could not have been designed in 1964 ; the exact year could not be determined .
+
+The Bush administration sought Sunday to allay concerns that a Shiite religious state could emerge in Iraq as a result of last weekend 's elections .
+
+Speaking on television news programs on Sunday , Vice President Dick Cheney and Defense Secretary Donald H. Rumsfeld said that Iraq 's most influential Shiite cleric , Grand Ayatollah Ali al-Sistani , opposed direct cleric involvement in daily governing , and that most Iraqis rejected an Iranian-style theocracy . ''
+
+We have a great deal of confidence in where they 're headed , '' Mr. Cheney said on '' Fox News Sunday . '' ''
+
+I do n't think , at this stage , that there 's anything like justification for hand-wringing or concern on the part of Americans that somehow they 're going to produce a result we wo n't like . ''
+
+He added , '' The Iraqis have watched the Iranians operate for years and create a religious theocracy that has been a dismal failure , from the standpoint of the rights of individuals . ''
+
+In his interview , Mr. Cheney also elaborated , for the first time , on the meaning of President Bush 's challenge to the Iranian people to rise up against their ruling clerics .
+
+In the State of the Union address , Mr. Bush said , '' As you stand for your own liberty , America stands with you . ''
+
+Pressed to say what , exactly , the United States would do , Mr. Cheney said he and Mr. Bush '' wanted to encourage the efforts that we 've seen previously in Iran to promote freedom and democracy . ''
+
+The statement , he said , was intended '' to encourage the reformers , if you will , inside Iran to work to build a true democracy , one that does n't vest enormous power , as this one does , in the unelected mullahs , who , we believe , are a threat to peace and stability in the region . ''
+
+Both Mr. Cheney and Mr. Rumsfeld addressed Iran 's nuclear ambitions , with Mr. Rumsfeld saying in a CBS News interview that he thought Iran '' could be some period of years off '' from actually building a nuclear weapon .
+
+Both men said there was still time to use diplomacy to disarm Iran , though Mr. Cheney said that if the current talks broke down , the administration would seek sanctions at the United Nations Security Council .
+
+It was Iraq , however , and the delicate question of who will emerge in control of the country , that dominated the comments of both men .
+
+As Shiite religious parties prepare to take power in the new national assembly , senior Shiite clerics are debating how much of the Islamic faith should be enshrined in Iraq 's new constitution , which the assembly will write .
+
+A constitution based on Koranic law would sharply depart from the transitional law that the Americans enacted .
+
+In one of four appearances on television news programs on Sunday , Mr. Rumsfeld echoed Mr. Cheney 's cautionary words . ''
+
+The Shia in Iraq are Iraqis , '' Mr. Rumsfeld said on the NBC News program '' Meet the Press . '' ''
+
+They 're not Iranians .
+
+And the idea that they 're going to end up with a government like Iran , with a handful of mullahs controlling much of the country , I think , is unlikely . ''
+
+But he warned that it would be '' a terrible mistake '' if the new assembly adopted a constitution that denied '' half of their population , women , the opportunity to participate fully . ''
+
+Administration officials acknowledged that they would have much less influence over a transitional Iraqi government selected by the newly elected assembly , but were relying in part on Ayatollah Sistani 's stature to steer Iraq clear of a government led by clerics . ''
+
+If you 're looking for guidance in terms of what the relationship is likely to be between the religious faith , Islam , and the secular side of the house , the government , you really need to look at the top cleric , Sistani , '' Mr. Cheney said . ''
+
+He also has been very clear , from the very beginning , that he did not want to play a direct role and does n't believe clerics should play a direct role in the day-to-day operations of government . ''
+
+As officials here monitor the election returns , Mr. Rumsfeld declined to set any schedule for withdrawing the 150,000 American troops .
+
+He said any exit strategy would be based on conditions on the ground -- including the size of the insurgency , Syrian and Iranian help in combating it , and whether Iraqi '' fence sitters '' joined the political process -- rather than a specific date .
+
+Mr. Rumsfeld also spelled out in greater detail than before the abilities of the 136,000 Iraqi police and military personnel that the Pentagon has said are trained and equipped .
+
+Until recently , defense officials had given scant details on the abilities of individual Iraqi units .
+
+Last week , Gen. Richard B. Myers , chairman of the Joint Chiefs of Staff , said 40,000 of those Iraqi forces were able to handle the most challenging missions .
+
+But Mr. Rumsfeld said Sunday that that did not mean the remaining security forces were ill-prepared . ''
+
+Some of them are trained to be policemen , and now a policeman is not a counterterrorism , or a police commando , '' he said on CNN 's '' Late Edition . '' ''
+
+There are about 7 or 8 or 10 different categories that are being trained to do very different things . ''
+
+When asked about the American plans to train and advise Iraqi forces , Mr. Rumsfeld said on '' Meet the Press , '' '' The important thing to do is to see that we do not create a dependency , that we encourage them to take over that responsibility . ''
+
+Mr. Cheney reiterated -- but this time with more definitiveness and humor in his voice -- his determination never to seek the Republican nomination for president .
+
+Pressed on the issue by the host of '' Fox News Sunday , '' Chris Wallace , Mr. Cheney said , '' I do n't know whether you want me to take a Sherman . ''
+
+The reference was to the Civil War general William Tecumseh Sherman , who declared , '' If nominated , I will not run ; if elected , I will not serve . '' ''
+
+That 'd be good , '' Mr. Wallace said .
+
+Mr. Cheney then took an abbreviated Sherman , and added , '' Not only no , but hell , no . '' ''
+
+I 've got my plans laid out , '' he said , describing rivers he has not yet fished and time he wants to spend with his grandchildren . ''
+
+I 'm going to serve this president for the next four years , and then I 'm out of here . ''
+
+At least 844 American service members were killed in Iraq in 2005 , nearly matching 2004 's total of 848 , according to information released by the United States government and a nonprofit organization that tracks casualties in Iraq .
+
+The deaths of two Americans announced by the United States military on Friday -- a marine killed by gunfire in Falluja and a soldier killed by a roadside bomb in Baghdad -- brought the total killed since the war in Iraq began in March 2003 to 2,178 .
+
+The total wounded since the war began is 15,955 .
+
+From Jan. 1 , 2005 to Dec. 3 , 2005 , the most recent date for which numbers are available , the number of Americans military personnel wounded in Iraq was 5,557 .
+
+The total wounded in 2004 was 7,989 .
+
+In 2005 , the single bloodiest month for American soldiers and marines was January , when 107 were killed and nearly 500 were wounded .
+
+At the time , American forces were conducting numerous operations to secure the country for the elections on Jan. 30 .
+
+The second worst month was October , when 96 Americans were killed and 603 wounded .
+
+More than half of all 2005 American military deaths , 427 , were caused by homemade bombs , most planted along roadsides and detonated as vehicles passed .
+
+American commanders have said that roadside bombs , the leading cause of death in Iraq , have grown larger and more sophisticated .
+
+Many are set off by remote detonators and are powerful enough to destroy heavily armored tanks and troop carriers .
+
+The totals were compiled by Iraq Coalition Casualty Count , a nonprofit group that tracks American service members killed and wounded in Iraq .
+
+The Associated Press , which keeps its own statistics , reported the year 's death toll as slightly lower , saying that 841 had been killed .
+
+Death totals for Iraqis have been more difficult to estimate , and vary widely .
+
+Iraq Body Count , an independent media-monitoring group , estimates that about 30,000 Iraqis have died since the war began in 2003 .
+
+On Saturday , violence flared across Iraq .
+
+In Khalis , north of Baghdad , a bomb killed five members of the Iraqi Islamic Party , a Sunni political party that defied insurgent threats and fielded candidates in the Dec. 15 election .
+
+Since 2003 , at least 75 party members have been killed .
+
+In central Baghdad , a roadside bomb struck an Iraqi police patrol , killing two officers .
+
+At Camp Victory , the American military headquarters just outside Baghdad , Gen. Peter Pace , the chairman of the Joint Chiefs of Staff , urged Iraqi political leaders on Saturday to form a new government as quickly as possible to avoid the kind of delay that stalled the political momentum after the vote last January . ''
+
+Clearly , the sooner that they 're able to come to agreement on who their leaders are going to be , the sooner that those leaders then can act to appoint the rest of the country 's key leadership , '' General Pace told reporters traveling with him on a troop visit .
+
+In historical terms , the number of casualties in Iraq is still relatively small .
+
+At the height of the Vietnam War , the American military was sustaining 500 killed and wounded each week .
+
+At the Battle of the Somme in 1916 , about 58,000 British soldiers were killed or wounded on the first day .
+
+In interviews , American commanders have said the relatively unchanging number of deaths in Iraq from 2004 to 2005 belies the progress that had been made here against the guerrilla insurgency and in setting up democratic institutions .
+
+Three nationwide votes were held this year .
+
+Although the number of attacks against American and Iraqi forces in and around Baghdad has grown over the past year -- to about 28 per day now from about 22 a year ago -- only about 10 percent of those attacks inflict casualties , said Maj. Gen. William G. Webster Jr. , the commander of American forces in and around Baghdad .
+
+A year ago , about 25 percent of attacks inflicted casualties .
+
+More than 400 car and suicide bombs struck the country in 2005 , although the number has dropped sharply in recent months .
+
+In April , for instance , there were 66 suicide and car bomb attacks , compared with 28 in November .
+
+Correction : January 3 , 2006 , Tuesday An article on Sunday about American military casualties in Iraq misstated figures in some copies for the American service members wounded in 2005 and 2004 as reported by the Iraq Coalition Casualty Count , a nonprofit group that tracks American service members killed and wounded in Iraq .
+
+According to the group , 5,557 American service members were wounded in 2005 , not 9,157 ; and 7,989 were wounded in 2004 , not 7,956 .

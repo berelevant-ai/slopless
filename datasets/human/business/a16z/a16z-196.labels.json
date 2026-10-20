@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "23d1116f6437be2824ea758d21ff850fbc3de279d1db364f93319d690f0b1b84",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-196.md",
+    "url": "https://a16z.com/2016/02/22/whats-next-in-computing",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 8250,
+      "end": 8333,
+      "check": "slopless/fragment-stacking",
+      "expected": false,
+      "reason": "Historical reviewer: The rule fires on nearly every structure that is not a canonical subject-verb-object sentence: (1) transcript/dialogue turns (\"Marc: Seven.\", \"Marc: Menus.\", multiple podcast exchange lines) which are inherently short; (2) poem, toast, and event-recap verse fragments embedded in blog posts; (3) image captions (\"Left: black and white. Middle: automatically colorized.\"); (4) navigation labels and section headings (\"Forming the Company\", \"Latest Content by Marc\"); (5) rhetorical questions used as valid literary devices (\"Who better to help U.S. entrepreneurs\"); (6) terse imperative advice (\"Full stop.\"); (7) line-wrapped plain-text from Paul Graham essays where the wrapper cuts mid-sentence. The rule has no content-type or structural-context awareness and conflates intentional stylistic brevity with AI slop fragment lists.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Fragment stack found: Left: black and white. Middl) Left: black and white. Middle: automatically colorized. Right: true color. (Source)"
+      }
+    }
+  ]
+}

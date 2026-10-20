@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "67450b0369a655c65473e712445f9b888250c77194936518e2c5b06c199aec4b",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "peps",
+    "originalPath": "datasets/corpus/human/tech/peps/pep-0399.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 1255,
+      "end": 1324,
+      "check": "slopless/simplicity",
+      "expected": false,
+      "reason": "Historical reviewer: The rule measures 'complex word density' and fires on sentences where domain-mandatory technical vocabulary (primarily 'implement'/'implementation') repeats within a short span. All 30 samples are RFC specifications, Python PEPs, MDN docs, or technical Q&A where 'implement' is the required standards-language term that cannot be replaced by simpler synonyms. RFC conformance language structurally requires repeating 'MUST implement / SHOULD implement / MAY implement' in the same sentence. The rule has no domain vocabulary allowlist and no distinction between word repetition driven by technical precision vs. stylistic laziness.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[tech/peps] this leads these other VMs to either re-implement the modules in pure"
+      }
+    }
+  ]
+}

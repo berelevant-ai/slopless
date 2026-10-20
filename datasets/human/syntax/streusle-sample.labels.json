@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "5584402922e5379a4d51a122d3f72a9c8b50b7e7cb6ebabe1fd565f641feb0c1",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "Original Universal Dependencies syntax sample",
+    "originalPath": "datasets/labeled/academic-nlp/syntax-corpora/streusle-sample.conllu"
+  },
+  "labels": [
+    {
+      "id": "reviews-001325-0001",
+      "start": 0,
+      "end": 18,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newdoc id = reviews-001325\n# sent_id = reviews-001325-0001\n# newpar id = reviews-001325-p0001\n# text = Highly recommended\n# streusle_sent_id = ewtb.r.001325.1\n# mwe = Highly recommended\n1\tHighly\thighly\tADV\tRB\t_\t2\tadvmod\t2:advmod\t_\n2\trecommended\trecommend\tVERB\tVBN\tTense=Past|VerbForm=Part|Voice=Pass\t0\troot\t0:root\tSupersense=v.communication"
+      }
+    },
+    {
+      "id": "reviews-001325-0002",
+      "start": 20,
+      "end": 60,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-001325-0002\n# newpar id = reviews-001325-p0002\n# text = My 8 year old daughter loves this place.\n# streusle_sent_id = ewtb.r.001325.2\n# mwe = My 8 year_old daughter loves this place .\n1\tMy\tmy\tPRON\tPRP$\tCase=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs\t5\tnmod:poss\t5:nmod:poss\tPRel[config]=possessive|PRel[gov]=5:daughter|Supersense[coding]=p.Gestalt|Supersense[scene]=p.SocialRel\n2\t8\t8\tNUM\tCD\tNumForm=Digit|NumType=Card\t3\tnummod\t3:nummod\t_\n3\tyear\tyear\tNOUN\tNN\tNumber=Sing\t4\tobl:unmarked\t4:obl:unmarked\tMWECat=ADJ|MWELemma=year old|MWELen=2\n4\told\told\tADJ\tJJ\tDegree=Pos\t5\tamod\t5:amod\t_\n5\tdaughter\tdaughter\tNOUN\tNN\tNumber=Sing\t6\tnsubj\t6:nsubj\tSupersense=n.PERSON\n6\tloves\tlove\tVERB\tVBZ\tMood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin\t0\troot\t0:root\tSupersense=v.emotion\n7\tthis\tthis\tDET\tDT\tNumber=Sing|PronType=Dem\t8\tdet\t8:det\t_\n8\tplace\tplace\tNOUN\tNN\tNumber=Sing\t6\tobj\t6:obj\tSpaceAfter=No|Supersense=n.LOCATION\n9\t.\t.\tPUNCT\t.\t_\t6\tpunct\t6:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-001325-0003",
+      "start": 62,
+      "end": 92,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-001325-0003\n# text = The best climbing club around.\n# streusle_sent_id = ewtb.r.001325.3\n# mwe = The best climbing club around .\n1\tThe\tthe\tDET\tDT\tDefinite=Def|PronType=Art\t4\tdet\t4:det\t_\n2\tbest\tgood\tADJ\tJJS\tDegree=Sup\t4\tamod\t4:amod\t_\n3\tclimbing\tclimbing\tNOUN\tNN\tNumber=Sing\t4\tcompound\t4:compound\tSupersense=n.ACT\n4\tclub\tclub\tNOUN\tNN\tNumber=Sing\t0\troot\t0:root\tSupersense=n.GROUP\n5\taround\taround\tADV\tRB\t_\t4\tadvmod\t4:advmod\tPRel[config]=default|PRel[gov]=4:club|SpaceAfter=No|Supersense=p.Locus\n6\t.\t.\tPUNCT\t.\t_\t4\tpunct\t4:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-001325-0004",
+      "start": 94,
+      "end": 112,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-001325-0004\n# text = Hooray for Craggy.\n# streusle_sent_id = ewtb.r.001325.4\n# mwe = Hooray for Craggy .\n1\tHooray\thooray\tINTJ\tUH\t_\t0\troot\t0:root\t_\n2\tfor\tfor\tADP\tIN\t_\t3\tcase\t3:case\tPRel[config]=default|PRel[gov]=1:hooray|PRel[obj]=3:Craggy|Supersense=p.Beneficiary\n3\tCraggy\tCraggy\tPROPN\tNNP\tNumber=Sing\t1\tobl\t1:obl:for\tSpaceAfter=No|Supersense=n.PERSON\n4\t.\t.\tPUNCT\t.\t_\t1\tpunct\t1:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-001961-0001",
+      "start": 114,
+      "end": 128,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newdoc id = reviews-001961\n# sent_id = reviews-001961-0001\n# newpar id = reviews-001961-p0001\n# text = Buyer Beware!!\n# streusle_sent_id = ewtb.r.001961.1\n# mwe = Buyer~Beware !!\n1\tBuyer\tbuyer\tNOUN\tNN\tNumber=Sing\t2\tnsubj\t2:nsubj\tMWELemma[weak]=buyer beware|MWELen[weak]=2|Supersense=n.PERSON\n2\tBeware\tbeware\tVERB\tVB\tMood=Imp|VerbForm=Fin\t0\troot\t0:root\tSpaceAfter=No|Supersense=v.cognition\n3\t!!\t!!\tPUNCT\t.\t_\t2\tpunct\t2:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-001961-0002",
+      "start": 130,
+      "end": 167,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-001961-0002\n# text = Rusted out and unsafe cars sold here!\n# streusle_sent_id = ewtb.r.001961.2\n# mwe = Rusted_out and unsafe cars sold here !\n1\tRusted\trust\tVERB\tVBN\tTense=Past|VerbForm=Part|Voice=Pass\t5\tamod\t5:amod\tMWECat=V.VPC.semi|MWELemma=rust out|MWELen=2|MWEString=Rusted out|Supersense=v.stative\n2\tout\tout\tADP\tRP\t_\t1\tcompound\t1:compound\t_\n3\tand\tand\tCCONJ\tCC\t_\t4\tcc\t4:cc\t_\n4\tunsafe\tunsafe\tADJ\tJJ\tDegree=Pos\t1\tconj\t1:conj:and|5:amod\t_\n5\tcars\tcar\tNOUN\tNNS\tNumber=Plur\t6\tnsubj:pass\t6:nsubj:pass\tSupersense=n.ARTIFACT\n6\tsold\tsell\tVERB\tVBN\tTense=Past|VerbForm=Part|Voice=Pass\t0\troot\t0:root\tSupersense=v.possession\n7\there\there\tADV\tRB\tPronType=Dem\t6\tadvmod\t6:advmod\tSpaceAfter=No\n8\t!\t!\tPUNCT\t.\t_\t6\tpunct\t6:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-001961-0003",
+      "start": 169,
+      "end": 214,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-001961-0003\n# text = Have a real mechanic check before you buy!!!!\n# streusle_sent_id = ewtb.r.001961.3\n# mwe = Have~ a real mechanic ~check before you buy !!!!\n1\tHave\thave\tVERB\tVB\tMood=Imp|VerbForm=Fin\t0\troot\t0:root\tMWELemma[weak]=have <3> check|MWELen[weak]=5|Supersense=v.social\n2\ta\ta\tDET\tDT\tDefinite=Ind|PronType=Art\t4\tdet\t4:det\t_\n3\treal\treal\tADJ\tJJ\tDegree=Pos\t4\tamod\t4:amod\t_\n4\tmechanic\tmechanic\tNOUN\tNN\tNumber=Sing\t1\tobj\t1:obj|5:nsubj:xsubj\tSupersense=n.PERSON\n5\tcheck\tcheck\tVERB\tVB\tVerbForm=Inf\t1\txcomp\t1:xcomp\tSupersense=v.cognition\n6\tbefore\tbefore\tSCONJ\tIN\t_\t8\tmark\t8:mark\tPRel[config]=subordinating|PRel[gov]=5:check|PRel[obj]=8:buy|Supersense=p.Time\n7\tyou\tyou\tPRON\tPRP\tCase=Nom|Person=2|PronType=Prs\t8\tnsubj\t8:nsubj\t_\n8\tbuy\tbuy\tVERB\tVBP\tMood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin\t5\tadvcl\t5:advcl:before\tSpaceAfter=No|Supersense=v.possession\n9\t!!!!\t!!!!\tPUNCT\t.\t_\t1\tpunct\t1:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-001961-0004",
+      "start": 216,
+      "end": 249,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-001961-0004\n# text = Save money and go somewhere else!\n# streusle_sent_id = ewtb.r.001961.4\n# mwe = Save money and go somewhere else !\n1\tSave\tsave\tVERB\tVB\tMood=Imp|VerbForm=Fin\t0\troot\t0:root\tSupersense=v.stative\n2\tmoney\tmoney\tNOUN\tNN\tNumber=Sing\t1\tobj\t1:obj\tSupersense=n.POSSESSION\n3\tand\tand\tCCONJ\tCC\t_\t4\tcc\t4:cc\t_\n4\tgo\tgo\tVERB\tVB\tMood=Imp|VerbForm=Fin\t1\tconj\t1:conj:and\tSupersense=v.motion\n5\tsomewhere\tsomewhere\tADV\tRB\tPronType=Ind\t4\tadvmod\t4:advmod\t_\n6\telse\telse\tADV\tRB\t_\t5\tadvmod\t5:advmod\tSpaceAfter=No\n7\t!\t!\tPUNCT\t.\t_\t1\tpunct\t1:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-002288-0001",
+      "start": 251,
+      "end": 269,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newdoc id = reviews-002288\n# sent_id = reviews-002288-0001\n# newpar id = reviews-002288-p0001\n# text = It's well cool. :)\n# streusle_sent_id = ewtb.r.002288.1\n# mwe = It 's well cool . :)\n1-2\tIt's\t_\t_\t_\t_\t_\t_\t_\t_\n1\tIt\tit\tPRON\tPRP\tCase=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs\t4\tnsubj\t4:nsubj\t_\n2\t's\tbe\tAUX\tVBZ\tMood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin\t4\tcop\t4:cop\tSupersense=v.stative\n3\twell\twell\tADV\tRB\tDegree=Pos\t4\tadvmod\t4:advmod\t_\n4\tcool\tcool\tADJ\tJJ\tDegree=Pos\t0\troot\t0:root\tSpaceAfter=No\n5\t.\t.\tPUNCT\t.\t_\t4\tpunct\t4:punct\t_\n6\t:)\t:)\tSYM\tNFP\t_\t4\tdiscourse\t4:discourse\t_"
+      }
+    },
+    {
+      "id": "reviews-002317-0001",
+      "start": 271,
+      "end": 287,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newdoc id = reviews-002317\n# sent_id = reviews-002317-0001\n# newpar id = reviews-002317-p0001\n# text = telephone number\n# streusle_sent_id = ewtb.r.002317.1\n# mwe = telephone_number\n1\ttelephone\ttelephone\tNOUN\tNN\tNumber=Sing\t2\tcompound\t2:compound\tMWECat=N|MWELemma=telephone number|MWELen=2|Supersense=n.COMMUNICATION\n2\tnumber\tnumber\tNOUN\tNN\tNumber=Sing\t0\troot\t0:root\t_"
+      }
+    },
+    {
+      "id": "reviews-002317-0002",
+      "start": 289,
+      "end": 387,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-002317-0002\n# newpar id = reviews-002317-p0002\n# text = the telephone number is incorrect - our new mobile number is 07551310002 or landline 01634 710033.\n# streusle_sent_id = ewtb.r.002317.2\n# mwe = the telephone_number is incorrect - our new mobile_number is 07551310002 or landline 01634 710033 .\n1\tthe\tthe\tDET\tDT\tDefinite=Def|PronType=Art\t3\tdet\t3:det\t_\n2\ttelephone\ttelephone\tNOUN\tNN\tNumber=Sing\t3\tcompound\t3:compound\tMWECat=N|MWELemma=telephone number|MWELen=2|Supersense=n.COMMUNICATION\n3\tnumber\tnumber\tNOUN\tNN\tNumber=Sing\t5\tnsubj\t5:nsubj\t_\n4\tis\tbe\tAUX\tVBZ\tMood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin\t5\tcop\t5:cop\tSupersense=v.stative\n5\tincorrect\tincorrect\tADJ\tJJ\tDegree=Pos\t0\troot\t0:root\t_\n6\t-\t-\tPUNCT\t,\t_\t12\tpunct\t12:punct\t_\n7\tour\tour\tPRON\tPRP$\tCase=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs\t10\tnmod:poss\t10:nmod:poss\tPRel[config]=possessive|PRel[gov]=10:number|Supersense=p.Gestalt\n8\tnew\tnew\tADJ\tJJ\tDegree=Pos\t10\tamod\t10:amod\t_\n9\tmobile\tmobile\tADJ\tJJ\tDegree=Pos\t10\tamod\t10:amod\tMWECat=N|MWELemma=mobile number|MWELen=2|Supersense=n.COMMUNICATION\n10\tnumber\tnumber\tNOUN\tNN\tNumber=Sing\t12\tnsubj\t12:nsubj|14:nsubj\t_\n11\tis\tbe\tAUX\tVBZ\tMood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin\t12\tcop\t12:cop\tSupersense=v.stative\n12\t07551310002\t07551310002\tNUM\tCD\tNumForm=Digit|NumType=Card\t5\tparataxis\t5:parataxis\t_\n13\tor\tor\tCCONJ\tCC\t_\t14\tcc\t14:cc\t_\n14\tlandline\tlandline\tNOUN\tNN\tNumber=Sing\t12\tconj\t12:conj:or\tSupersense=n.COMMUNICATION\n15\t01634\t01634\tNUM\tCD\tExtPos=PROPN|NumForm=Digit|NumType=Card\t14\tappos\t14:appos\tFlatType=Phone\n16\t710033\t710033\tNUM\tCD\tNumForm=Digit|NumType=Card\t15\tflat\t15:flat\tSpaceAfter=No\n17\t.\t.\tPUNCT\t.\t_\t5\tpunct\t5:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-002317-0003",
+      "start": 389,
+      "end": 398,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-002317-0003\n# text = thank you\n# streusle_sent_id = ewtb.r.002317.3\n# mwe = thank_you\n1\tthank\tthank\tVERB\tVBP\tMood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin\t0\troot\t0:root\tMWECat=DISC|MWELemma=thank you|MWELen=2\n2\tyou\tyou\tPRON\tPRP\tCase=Acc|Person=2|PronType=Prs\t1\tobj\t1:obj\t_"
+      }
+    },
+    {
+      "id": "reviews-003418-0001",
+      "start": 400,
+      "end": 417,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newdoc id = reviews-003418\n# sent_id = reviews-003418-0001\n# newpar id = reviews-003418-p0001\n# text = Billing Issues...\n# streusle_sent_id = ewtb.r.003418.1\n# mwe = Billing Issues ...\n1\tBilling\tbilling\tNOUN\tNN\tNumber=Sing\t2\tcompound\t2:compound\tSupersense=n.POSSESSION\n2\tIssues\tissue\tNOUN\tNNS\tNumber=Plur\t0\troot\t0:root\tSpaceAfter=No|Supersense=n.COGNITION\n3\t...\t...\tPUNCT\t,\t_\t2\tpunct\t2:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-003418-0002",
+      "start": 419,
+      "end": 466,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-003418-0002\n# newpar id = reviews-003418-p0002\n# text = I had a routine surgery for an ingrown toenail.\n# streusle_sent_id = ewtb.r.003418.2\n# mwe = I had_ a routine _surgery for an ingrown_toenail .\n1\tI\tI\tPRON\tPRP\tCase=Nom|Number=Sing|Person=1|PronType=Prs\t2\tnsubj\t2:nsubj\t_\n2\thad\thave\tVERB\tVBD\tMood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin\t0\troot\t0:root\tMWECat=V.LVC.full|MWELemma=have <2> surgery|MWELen=4|MWEString=had <2> surgery|Supersense=v.social\n3\ta\ta\tDET\tDT\tDefinite=Ind|PronType=Art\t5\tdet\t5:det\t_\n4\troutine\troutine\tADJ\tJJ\tDegree=Pos\t5\tamod\t5:amod\t_\n5\tsurgery\tsurgery\tNOUN\tNN\tNumber=Sing\t2\tobj\t2:obj\t_\n6\tfor\tfor\tADP\tIN\t_\t9\tcase\t9:case\tPRel[config]=default|PRel[gov]=5:surgery|PRel[obj]=9:toenail|Supersense=p.Purpose\n7\tan\ta\tDET\tDT\tDefinite=Ind|PronType=Art\t9\tdet\t9:det\t_\n8\tingrown\tingrown\tADJ\tJJ\tDegree=Pos\t9\tamod\t9:amod\tMWECat=N|MWELemma=ingrown toenail|MWELen=2|Supersense=n.BODY\n9\ttoenail\ttoenail\tNOUN\tNN\tNumber=Sing\t5\tnmod\t5:nmod:for\tSpaceAfter=No\n10\t.\t.\tPUNCT\t.\t_\t2\tpunct\t2:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-003418-0003",
+      "start": 468,
+      "end": 551,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-003418-0003\n# text = My insurance company, Blue Cross/Blue Shield paid the fees and everything was fine.\n# streusle_sent_id = ewtb.r.003418.3\n# mwe = My insurance company , Blue_Cross_/_Blue_Shield paid the fees and everything was fine .\n1\tMy\tmy\tPRON\tPRP$\tCase=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs\t3\tnmod:poss\t3:nmod:poss\tPRel[config]=possessive|PRel[gov]=3:company|Supersense[coding]=p.Gestalt|Supersense[scene]=p.SocialRel\n2\tinsurance\tinsurance\tNOUN\tNN\tNumber=Sing\t3\tcompound\t3:compound\tSupersense=n.POSSESSION\n3\tcompany\tcompany\tNOUN\tNN\tNumber=Sing\t10\tnsubj\t10:nsubj\tSpaceAfter=No|Supersense=n.GROUP\n4\t,\t,\tPUNCT\t,\t_\t6\tpunct\t6:punct\t_\n5\tBlue\tBlue\tADJ\tNNP\tDegree=Pos\t6\tamod\t6:amod\tMWECat=N|MWELemma=Blue Cross / Blue Shield|MWELen=5|Supersense=n.GROUP\n6\tCross\tCross\tPROPN\tNNP\tNumber=Sing\t3\tappos\t3:appos\tSpaceAfter=No\n7\t/\t/\tSYM\tHYPH\t_\t9\tcc\t9:cc\tSpaceAfter=No\n8\tBlue\tBlue\tADJ\tNNP\tDegree=Pos\t9\tamod\t9:amod\t_\n9\tShield\tShield\tPROPN\tNNP\tNumber=Sing\t6\tconj\t3:appos|6:conj\t_\n10\tpaid\tpay\tVERB\tVBD\tMood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin\t0\troot\t0:root\tSupersense=v.possession\n11\tthe\tthe\tDET\tDT\tDefinite=Def|PronType=Art\t12\tdet\t12:det\t_\n12\tfees\tfee\tNOUN\tNNS\tNumber=Plur\t10\tobj\t10:obj\tSupersense=n.POSSESSION\n13\tand\tand\tCCONJ\tCC\t_\t16\tcc\t16:cc\t_\n14\teverything\teverything\tPRON\tNN\tNumber=Sing|PronType=Tot\t16\tnsubj\t16:nsubj\t_\n15\twas\tbe\tAUX\tVBD\tMood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin\t16\tcop\t16:cop\tSupersense=v.stative\n16\tfine\tfine\tADJ\tJJ\tDegree=Pos\t10\tconj\t10:conj:and\tSpaceAfter=No\n17\t.\t.\tPUNCT\t.\t_\t10\tpunct\t10:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-003418-0004",
+      "start": 553,
+      "end": 583,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-003418-0004\n# text = Then I got a bill for $483.00.\n# streusle_sent_id = ewtb.r.003418.4\n# mwe = Then I got~ a ~bill for $ 483.00 .\n1\tThen\tthen\tADV\tRB\tPronType=Dem\t3\tadvmod\t3:advmod\t_\n2\tI\tI\tPRON\tPRP\tCase=Nom|Number=Sing|Person=1|PronType=Prs\t3\tnsubj\t3:nsubj\t_\n3\tgot\tget\tVERB\tVBD\tMood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin\t0\troot\t0:root\tMWELemma[weak]=get <1> bill|MWELen[weak]=3|MWEString[weak]=got <1> bill|Supersense=v.stative\n4\ta\ta\tDET\tDT\tDefinite=Ind|PronType=Art\t5\tdet\t5:det\t_\n5\tbill\tbill\tNOUN\tNN\tNumber=Sing\t3\tobj\t3:obj\tSupersense=n.POSSESSION\n6\tfor\tfor\tADP\tIN\t_\t7\tcase\t7:case\tPRel[config]=default|PRel[gov]=5:bill|PRel[obj]=7:$|Supersense=p.Cost\n7\t$\t$\tSYM\t$\t_\t5\tnmod\t5:nmod:for\tSpaceAfter=No\n8\t483.00\t483.00\tNUM\tCD\tNumForm=Digit|NumType=Frac\t7\tnummod\t7:nummod\tSpaceAfter=No\n9\t.\t.\tPUNCT\t.\t_\t3\tpunct\t3:punct\t_"
+      }
+    },
+    {
+      "id": "reviews-003418-0005",
+      "start": 585,
+      "end": 644,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = reviews-003418-0005\n# text = The doctor's office said that payments had been \"reversed\".\n# streusle_sent_id = ewtb.r.003418.5\n# mwe = The doctor_'s_office said that payments had been \" reversed \" .\n1\tThe\tthe\tDET\tDT\tDefinite=Def|PronType=Art\t2\tdet\t2:det\t_\n2-3\tdoctor's\t_\t_\t_\t_\t_\t_\t_\t_\n2\tdoctor\tdoctor\tNOUN\tNN\tNumber=Sing\t4\tnmod:poss\t4:nmod:poss\tMWECat=N|MWELemma=doctor 's office|MWELen=3|Supersense=n.ARTIFACT\n3\t's\t's\tPART\tPOS\t_\t2\tcase\t2:case\t_\n4\toffice\toffice\tNOUN\tNN\tNumber=Sing\t5\tnsubj\t5:nsubj\t_\n5\tsaid\tsay\tVERB\tVBD\tMood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin\t0\troot\t0:root\tSupersense=v.communication\n6\tthat\tthat\tSCONJ\tIN\t_\t11\tmark\t11:mark\t_\n7\tpayments\tpayment\tNOUN\tNNS\tNumber=Plur\t11\tnsubj:pass\t11:nsubj:pass\tSupersense=n.POSSESSION\n"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "reviews-001325-0001",
+      "start": 0,
+      "end": 18
+    },
+    {
+      "id": "reviews-001325-0002",
+      "start": 20,
+      "end": 60
+    },
+    {
+      "id": "reviews-001325-0003",
+      "start": 62,
+      "end": 92
+    },
+    {
+      "id": "reviews-001325-0004",
+      "start": 94,
+      "end": 112
+    },
+    {
+      "id": "reviews-001961-0001",
+      "start": 114,
+      "end": 128
+    },
+    {
+      "id": "reviews-001961-0002",
+      "start": 130,
+      "end": 167
+    },
+    {
+      "id": "reviews-001961-0003",
+      "start": 169,
+      "end": 214
+    },
+    {
+      "id": "reviews-001961-0004",
+      "start": 216,
+      "end": 249
+    },
+    {
+      "id": "reviews-002288-0001",
+      "start": 251,
+      "end": 269
+    },
+    {
+      "id": "reviews-002317-0001",
+      "start": 271,
+      "end": 287
+    },
+    {
+      "id": "reviews-002317-0002",
+      "start": 289,
+      "end": 387
+    },
+    {
+      "id": "reviews-002317-0003",
+      "start": 389,
+      "end": 398
+    },
+    {
+      "id": "reviews-003418-0001",
+      "start": 400,
+      "end": 417
+    },
+    {
+      "id": "reviews-003418-0002",
+      "start": 419,
+      "end": 466
+    },
+    {
+      "id": "reviews-003418-0003",
+      "start": 468,
+      "end": 551
+    },
+    {
+      "id": "reviews-003418-0004",
+      "start": 553,
+      "end": 583
+    },
+    {
+      "id": "reviews-003418-0005",
+      "start": 585,
+      "end": 644
+    }
+  ]
+}

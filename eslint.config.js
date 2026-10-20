@@ -10,7 +10,6 @@ export default [
     ignores: [
       "developer-helpers/**",
       "datasets/**",
-      "runners/legacy/**",
       "dist/**",
       "node_modules/**",
       ".fixture3/**",

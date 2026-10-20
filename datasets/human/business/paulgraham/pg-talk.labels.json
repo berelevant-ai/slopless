@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "9bda14d69eab3b132bdde2e79e2a9313accdb055c4ea78828b43c7fc4a215081",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-talk.md",
+    "url": "https://paulgraham.com/talk.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 1802,
+      "end": 1867,
+      "check": "slopless/humble-bragger",
+      "expected": false,
+      "reason": "Historical reviewer: 'In my experience' is a standard epistemic qualifier in Q&A, essay, and professional writing — it signals personal-evidence grounding, not bragging. 'As someone who has' is a standard credential citation ('As someone who has moved from the US...' / 'as someone who has raised children'). The rule conflates legitimate first-person grounding with braggadocio. None of the 28 samples actually boasts about an impressive credential — they are all ordinary experiential anchors.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/paulgraham] (Humble-bragging phrase found: \"In my experience\". ) And in my experience, the harder the subject, the more informally"
+      }
+    }
+  ]
+}

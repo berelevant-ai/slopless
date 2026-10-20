@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "0356d593c6ab6c6a6f14cb643b87e21b5c3e943cdaa49bdfe8933689e645c3a4",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-13sentences.md",
+    "url": "https://paulgraham.com/13sentences.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 6199,
+      "end": 6294,
+      "check": "slopless/affirmation-closers",
+      "expected": false,
+      "reason": "Historical reviewer: All three samples are from Paul Graham essays, where short punchy clincher sentences ('That's the key.', 'That's the whole point', 'That's the real point') are a deliberate stylistic signature of that author's terse argumentative voice. These are not sloppy affirmations appended to pad a response; they are rhetorical conclusions that carry the argumentative weight of the preceding paragraph. The rule cannot distinguish intentional brevity-as-style from formulaic AI affirmation padding.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/paulgraham] choose if I could only keep one. Understand your users. That's the key. The essential task in a"
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 98,
+      "end": 122,
+      "check": "slopless/observer-guidance",
+      "expected": false,
+      "reason": "Historical reviewer: All four samples are Paul Graham uses of 'Watch how' and 'You see it in' as rhetorical pointers to concrete examples or demonstrations, not as AI-style meta-commentary directing a reader's attention. 'You see it in Diogenes telling...' and 'You see it in sponsored...' are historical and contextual illustration devices. 'Watch how this essay was' is a direct reference to the artifact being discussed. None of these are the AI pattern of 'Notice how X demonstrates Y' or 'Watch how we can now achieve Z'. The rule conflates reader-address rhetoric with AI observer framing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/paulgraham] Watch how this essay was"
+      }
+    }
+  ]
+}

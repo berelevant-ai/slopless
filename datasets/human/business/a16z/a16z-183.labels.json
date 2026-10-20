@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "a77a9089c3ef99d4d5b5e9ae155c36241bd6765f2386a0ac6e8373c8e9a7b0cc",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-183.md",
+    "url": "https://a16z.com/2015/03/12/why-bother-making-a-watch",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 3625,
+      "end": 3701,
+      "check": "slopless/hedge-stacking",
+      "expected": false,
+      "reason": "Historical reviewer: Two hedges per sentence is a normal feature of analytical writing when the author is reasoning about uncertain, multi-conditional situations (tradeoffs, predictions, counterfactuals). The rule catches genuine over-hedging in a minority of cases (e.g. 'maybe, just maybe, it could'; spoken transcript filler 'you know, you know') but fires heavily on legitimate double-conditional sentences. The threshold of 2 hedge words is too low to distinguish slop from precision.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/a16z] Apple's brand might or might not work there, but no other CE company's does."
+      }
+    }
+  ]
+}

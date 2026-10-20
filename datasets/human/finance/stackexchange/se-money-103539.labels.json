@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "6392f63b0deaced4126d077adee29e7f6900088a0d0caa44785e620fef0b6fee",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/finance/stackexchange/se-money-103539.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 2359,
+      "end": 2478,
+      "check": "slopless/summative-closer",
+      "expected": false,
+      "reason": "Historical reviewer: Two sub-patterns split sharply. Structural section headers ('In Conclusion', 'In Summary' as standalone labels or sentence openers in long-form structured writing) are legitimate formatting. Mid-argument uses of 'the point is', 'that's the reason', 'all in all' are functional connectors rather than sloppy endings. However, 'in conclusion / in summary / to summarize' used to close a short conversational StackExchange answer that does not need a formal wrap-up is genuinely sloppy. True positives cluster in medical/SE answers where a 2-paragraph response ends with 'In conclusion, sugar is fine in moderation'. Roughly half the sample is FP.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[finance/stackexchange] All in all, the various fees, loads and expense ratios are sapping you for half the gains your money actually did earn."
+      }
+    }
+  ]
+}

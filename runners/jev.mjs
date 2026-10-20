@@ -13,6 +13,7 @@ import { basename, dirname, relative, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { parseArgs } from "node:util";
 import { splitSentences } from "../dist/shared/text/sentences.js";
+import { datasetHashes, readDocuments } from "./datasets.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const hash = (value) => createHash("sha256").update(value).digest("hex");
@@ -22,53 +23,22 @@ const detectionQuestion =
 const highlightQuestion =
   "A prior paragraph-level decision found TYPE in target. Independently judge the complete paragraph using state.instructions and rulebook. Does numbered sentence SENTENCE in sentences participate in the offending construction? Select a sentence when it contains the offending wording or supplies a necessary setup, contrast, or payoff. A sentence can participate even when it would be harmless or incomplete alone. Explanatory background that only provides context is not an offending participant. Return no if the paragraph-level finding was mistaken. Other paragraphs are independent cases.";
 
-export function loadDataset(directory) {
-  const targets = read(resolve(directory, "paragraphs.json"));
-  const labels = read(resolve(directory, "labels.json"));
-  assert.equal(targets.schemaVersion, 1);
-  assert.equal(labels.schemaVersion, 1);
-  assert.ok(typeof targets.family === "string" && targets.family.length > 0);
-  assert.equal(targets.family, labels.family);
-  assert.ok(Array.isArray(targets.groups) && targets.groups.length > 0);
-  assert.ok(
-    targets.groups.every(
-      (group) => typeof group === "string" && group.length > 0
-    )
-  );
-  const groups = new Set(targets.groups);
-  assert.equal(groups.size, targets.groups.length);
-  assert.ok(Array.isArray(targets.paragraphs) && targets.paragraphs.length > 0);
-  assert.ok(Array.isArray(labels.labels));
-  assert.deepEqual(
-    targets.paragraphs.map((row) => row.id).sort(),
-    labels.labels.map((row) => row.id).sort()
-  );
-  assert.equal(
-    new Set(targets.paragraphs.map((row) => row.id)).size,
-    targets.paragraphs.length
-  );
-  const expected = new Map(labels.labels.map((row) => [row.id, row]));
-  return targets.paragraphs
-    .map((target) => {
-      assert.equal(typeof target.id, "string");
-      assert.equal(typeof target.text, "string");
-      assert.ok(target.text.trim().length > 0);
-      assert.equal(target.family, targets.family);
-      assert.equal(typeof target.group, "string");
-      assert.ok(
-        groups.has(target.group),
-        `Unknown dataset group: ${target.group}`
-      );
-      const label = expected.get(target.id);
+export function loadDataset(input) {
+  const rows = readDocuments(input).flatMap(({ text, metadata }) =>
+    metadata.labels.flatMap((label) => {
+      if (!label.check.startsWith("semantic-thinness")) return [];
       assert.equal(typeof label.expected, "boolean");
-      assert.ok(Array.isArray(label.evidence));
-      assert.ok(
-        label.evidence.every(
-          (span) =>
-            typeof span === "string" &&
-            span.length > 0 &&
-            target.text.includes(span)
-        )
+      assert.ok(typeof label.group === "string" && label.group.length > 0);
+      const target = {
+        id: label.id,
+        text: text.slice(label.start, label.end),
+        family: "semantic-thinness",
+        group: label.group
+      };
+      assert.equal(
+        label.check,
+        label.expected ? `${target.family}/${target.group}` : target.family,
+        "Jev scoring requires assigned positives and family-wide no-hit controls."
       );
       const sentences = splitSentences(target.text).map((sentence, index) => ({
         id: index + 1,
@@ -79,9 +49,19 @@ export function loadDataset(directory) {
           target.text.slice(sentence.start, sentence.end),
           sentence.text
         );
-      return { ...target, label, sentences };
+      return [{ ...target, label, sentences }];
     })
-    .sort((a, b) => a.id.localeCompare(b.id));
+  );
+  assert.ok(
+    rows.length > 0,
+    "The dataset has no labeled semantic-thinness passages."
+  );
+  assert.equal(
+    new Set(rows.map((row) => row.id)).size,
+    rows.length,
+    "Duplicate target identifiers."
+  );
+  return rows.sort((a, b) => a.id.localeCompare(b.id));
 }
 
 export function loadPrompts(directory, selected) {
@@ -281,7 +261,7 @@ async function main() {
       prompts: { type: "string", default: "prompts/v1" },
       dataset: {
         type: "string",
-        default: "datasets/holdout/semantic-thinness"
+        default: "datasets/ai-synthetic/semantic-thinness.md"
       },
       check: { type: "string" },
       output: { type: "string" },
@@ -292,7 +272,7 @@ async function main() {
   });
   if (values.help) {
     console.log(
-      "node runners/jev.mjs <validate|score|run> [--prompts prompts/v1] [--dataset datasets/holdout/semantic-thinness] [--check NAME] [--output FILE] [--model jev-1.13.0] [--threshold 0.5] [--sdk PATH]\nPaths are relative to the current directory. validate checks inputs and any supplied output offline. score requires a complete output. run calls Jev and resumes the chosen output file. All checks evaluate every paragraph; scoring uses assigned positives and all family-clean controls. SDK defaults to the pinned @typesafe-ai/sdk development dependency; JEV_API_KEY or the approved 1Password entry supplies credentials."
+      "node runners/jev.mjs <validate|score|run> [--prompts prompts/v1] [--dataset datasets/ai-synthetic/semantic-thinness.md] [--check NAME] [--output FILE] [--model jev-1.13.0] [--threshold 0.5] [--sdk PATH]\nThe dataset is Markdown with matching .labels.json. Paths are relative to the current directory. validate checks inputs and any supplied output offline. score requires a complete output. run calls Jev and resumes the chosen output file. All checks evaluate every labeled passage independently; scoring uses assigned positives and all family-clean controls. Only text and target identifiers enter model requests. Save outputs under runners/results, outside datasets and prompts. SDK defaults to the pinned @typesafe-ai/sdk development dependency; JEV_API_KEY or the approved 1Password entry supplies credentials."
     );
     return;
   }
@@ -321,8 +301,7 @@ async function main() {
     prompts: relative(root, promptDirectory),
     dataset: relative(root, dataset),
     promptSha256: hash(JSON.stringify(prompts)),
-    paragraphsSha256: hash(readFileSync(resolve(dataset, "paragraphs.json"))),
-    labelsSha256: hash(readFileSync(resolve(dataset, "labels.json")))
+    ...datasetHashes(dataset)
   };
   const file = values.output && resolve(values.output);
   assert.ok(
@@ -331,13 +310,10 @@ async function main() {
   );
   assert.ok(
     !file ||
-      ![
-        resolve(dataset, "paragraphs.json"),
-        resolve(dataset, "labels.json"),
-        ...readdirSync(promptDirectory).map((name) =>
-          resolve(promptDirectory, name)
-        )
-      ].includes(file),
+      ([resolve(root, "datasets"), promptDirectory, dataset].every(
+        (input) => file !== input && !file.startsWith(input + "/")
+      ) &&
+        file !== dataset.slice(0, -3) + ".labels.json"),
     "Output must be separate from inputs."
   );
   const result =

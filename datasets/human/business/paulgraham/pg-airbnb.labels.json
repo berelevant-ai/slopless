@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "1aa7e29bac342f501ce4e1523b5b7e151a4f59314ffd78e660724b12f03e6796",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-airbnb.md",
+    "url": "https://paulgraham.com/airbnb.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 1578,
+      "end": 1613,
+      "check": "slopless/fake-timestamps",
+      "expected": false,
+      "reason": "Historical reviewer: Three categories all flagged incorrectly: (1) real email headers with documented send times ('date: Fri, Jan 23, 2009 at 11:42 AM') -- these are literal metadata, not fabricated; (2) specific times in memoir/business narrative recounting real events ('6:30 pm board meeting', '5:30pm office') -- genuine recollections; (3) idiomatic time references ('paged at 4:00 AM', 'stay up till 4:00 AM') -- common colloquial usage. The rule cannot distinguish fabricated AI timestamps from real or idiomatic time references.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "date: Fri, Jan 23, 2009 at 11:42 AM"
+      }
+    }
+  ]
+}

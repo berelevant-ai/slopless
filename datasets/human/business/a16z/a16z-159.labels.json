@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "5cbb362a1888567182c854213795cf33150926398862f63548eee6746e94788e",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-159.md",
+    "url": "https://a16z.com/2014/05/15/arm-wrestling-tarzan",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 851,
+      "end": 1017,
+      "check": "slopless/exclamation-density",
+      "expected": false,
+      "reason": "Historical reviewer: Threshold of >1 exclamation mark per paragraph catches: proper nouns containing ! (Yahoo!, 'Tarzan Finds a Son!'), quoted speech combining multiple voices, colloquial vivid narration ('He went nuts!'), list headers used as rhetorical questions, and investment announcements with genuine enthusiasm. The 2 samples that approach TP territory have 6-9 exclamation marks in one paragraph but are energetic narrative writing, not boilerplate slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Paragraph has 2 exclamation marks. Keep at most 1.) From 1932 to 1948, he starred in a series of semi-memorable movies including Tarzan the Ape Man, Tarzan and His Mate, Tarzan Finds a Son! and Tarzan and the Mermaids."
+      }
+    }
+  ]
+}

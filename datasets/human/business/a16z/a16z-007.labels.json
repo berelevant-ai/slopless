@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "980f4361d5d2d99d2175421c1932c93df6968811a072ad0cd5d9b02a1c43e252",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-007.md",
+    "url": "https://a16z.com/2014/07/08/beware-the-edifice-complex-and-9-other-ways-to-damage-your-high-growth-startup",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 0,
+      "end": 5456,
+      "check": "slopless/flesch-kincaid",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article readability score. All 30 samples are analytical business/tech articles (a16z blog) written at graduate level. The threshold (score >= 61) targets tabloid prose; professional non-fiction routinely scores 20-50. Every flag is dense-but-legitimate writing, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Flesch Reading Ease is 24.61. Keep it at 61 or hig) # Beware The Edifice Complex And 9 Other Ways To Damage Your High Growth Startup"
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 0,
+      "end": 5456,
+      "check": "slopless/gunning-fog",
+      "expected": false,
+      "reason": "Historical reviewer: Fires on whole-article fog index. Threshold is 12 (8th-grade level). All 30 samples are expert-domain writing -- blockchain architectures, fintech regulation, enterprise software, healthcare -- that legitimately uses multi-syllable technical terms. Scores of 13-25 are expected and correct for this genre, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Gunning Fog is 18.12. Keep it at 12 or lower.) # Beware The Edifice Complex And 9 Other Ways To Damage Your High Growth Startup"
+      }
+    },
+    {
+      "id": "historical-3",
+      "start": 0,
+      "end": 80,
+      "check": "slopless/sentence-case",
+      "expected": false,
+      "reason": "Historical reviewer: Flags title-case headings and article titles, which is the dominant editorial convention for titles in American English publishing. Every sample is a legitimate document or article title (e.g. '# When Smart People Are Bad Employees', '# Ben Horowitz What You Do Is Who You Are Proceeds'). Title case in headings is a style choice, not slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "# Beware The Edifice Complex And 9 Other Ways To Damage Your High Growth Startup"
+      }
+    },
+    {
+      "id": "historical-4",
+      "start": 1174,
+      "end": 1332,
+      "check": "slopless/negation-reframe",
+      "expected": false,
+      "reason": "Historical reviewer: Pattern fires on ordinary English negation that carries no rhetorical reframing: technical descriptions ('The pictures aren't bright enough'), factual corrections with supporting evidence ('The iPhone is not and never was a phone' — a quoted technical critique), plain conditionals ('There does not need to be universal alignment'), standard connectives ('not only makes later rounds harder'), common intensifiers ('nothing short of a phenomenon'), and practical advice ('Be direct, but not mean'). The rule cannot distinguish slop reframing ('It is not X, it is Y — and that makes all the difference') from normal use of negation in analytical prose.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "#4 Maximizing absolute valuation of each growth round, which not only makes later rounds harder and harder to achieve but can trigger a disastrous down round."
+      }
+    }
+  ]
+}

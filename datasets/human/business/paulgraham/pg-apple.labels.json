@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "1d1fd5d73ba7d688bee302535fb764eb4a3e4b1e42ad3dae0ca86d89f5b5ce69",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-apple.md",
+    "url": "https://paulgraham.com/apple.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 11963,
+      "end": 12018,
+      "check": "slopless/contrastive-aphorism",
+      "expected": false,
+      "reason": "Historical reviewer: The 'not-x-but-y' variant flags ordinary analytical contrast ('The problem is not finding startups, exactly, but finding a stream', 'The problem is not Apple's products but their policies', 'not only makes later rounds harder', 'Not only was this'). Standard English negation-contrast is not slop. The 'abstract-evaluative-pair' variant fires on legitimate problem-analysis sentences in Q&A forums, finance advice, and fitness/food explanations where the structure matches the pattern but the content is substantive. Many flagged samples contain genuine reasoning, not hollow aphorisms.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/structural-repetition.json",
+        "excerpt": "The problem is not Apple's products but their policies."
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "2ce69464ac3631bbf062473c726ffc2eb312d7a4d40a9bc5560a220e8d89403b",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/fitness/stackexchange/se-fitness-15135.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 832,
+      "end": 974,
+      "check": "slopless/body-action-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule flags passages with 3+ movement or body cues in a short span. For fitness, medical, sports, and travel content this is expected and domain-correct: exercise instructions must name muscles and movements, walking/running comparisons must reference physical actions, and medical anatomy descriptions require body-part vocabulary. The non-fitness samples (paulgraham, a16z) are mostly truncated 10-20 word fragments where context is insufficient to judge density meaningfully.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[fitness/stackexchange] The bench press also ignores the serratus anterior (muscle group on sides of chest from 1st to 8th ribs,) while the pushup, again, demands it."
+      }
+    }
+  ]
+}

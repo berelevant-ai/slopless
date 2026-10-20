@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "bcc9da3a24d5c04a8e469da2181598b7ef17c140739f04a9d752368658b130cc",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/food/stackexchange/se-cooking-79465.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 207,
+      "end": 238,
+      "check": "slopless/hidden-unicode-controls",
+      "expected": false,
+      "reason": "Historical reviewer: Two artifact classes: (1) U+00AD SOFT HYPHEN in court opinions and chemistry equations -- inserted by typesetting pipelines for hyphenation hints; (2) U+200B ZERO WIDTH SPACE in PubMed medical abstracts -- a database export artifact. Both originate from formatting pipelines in legitimate institutional sources, not from AI generation or sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/orthography.json",
+        "excerpt": "CO₂ (g) + H₂O (l) ­⇄ H₂CO₃ (aq)"
+      }
+    }
+  ]
+}

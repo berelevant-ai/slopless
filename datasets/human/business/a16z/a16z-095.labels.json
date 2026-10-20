@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "4eb99917de267b4a03cb3f49f7dd3ae7affef21c49f3da3493a25ca9419361ac",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-095.md",
+    "url": "https://a16z.com/2011/11/06/f-ounders-2011-a-chronicle-in-verse-2",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 2470,
+      "end": 2505,
+      "check": "slopless/semantic-thinness",
+      "expected": false,
+      "reason": "Historical reviewer: Two sub-patterns both over-fire. 'empty-scene-transition' catches normal narrative connectives ('It turned out that', 'As is usually the case', 'Then I began to study', 'As the day broke') that are the standard tissue of narrative and analytical prose — not thin filler but structural progression markers. 'deictic-summary' catches rhetorical devices like 'One may still argue' and 'That was the point of' which are legitimate analytical moves. The rule conflates genuine empty transitions with all uses of these constructions regardless of whether they carry meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/a16z] (Semantic thinness (empty-scene-transition): Catch ) As the day broke we made our return"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "1ba85f6fef4211f5169d8afd46bbe53fa6689e0aef9560f20bba575a433c859c",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "gutenberg",
+    "originalPath": "datasets/corpus/human/food/gutenberg/gb-26209-the-golden-age-cook-book-p07.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 0,
+      "end": 300,
+      "check": "slopless/redundancy",
+      "expected": false,
+      "reason": "Historical reviewer: The rule's highest-volume false positive is \"mixed together\" / \"mix together\" (9 hits from Paul Graham essays and recipes): \"mix together\" is standard English where \"mix\" alone often does not carry the same meaning; the idiom is not redundant. Other FP patterns: (1) cooking-domain \"Mix together\" in recipes where it is the correct instruction term; (2) \"complete stranger\" as an intensifier idiom (not the same as \"stranger\"); (3) \"while at the same time\" used for medical or legal precision to stress simultaneity; (4) \"brief summary\" where \"brief\" adds useful length information; (5) \"future plans\" where the word distinguishes current from prospective plans; (6) \"interact with each other\" which is standard phrasing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[food/gutenberg] (Redundant phrase found: \"Mix together\". Remove the) Boil a scant half cup of rice in salted water half an hour, drain well, and measure out four heaping tablespoonfuls of it into a mixing bowl. Stir into it while hot a heaping tablespoonful of butter. Beat one egg light, add to the rice and butter with a little salt, sift half a pint of flour with ha"
+      }
+    }
+  ]
+}

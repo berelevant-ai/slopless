@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "9ab0c31e0629f7dce543c3e96b7d4643c81d7aab16184a1d99cff586879e3980",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "Original Universal Dependencies syntax sample",
+    "originalPath": "datasets/labeled/academic-nlp/syntax-corpora/gum-ud-sample.conllu"
+  },
+  "labels": [
+    {
+      "id": "GUM_academic_art-1",
+      "start": 0,
+      "end": 39,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newdoc id = GUM_academic_art\n# global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity\n# meta::author = Claire Bailey-Ross, Andrew Beresford, Daniel Smith, Claire Warwick\n# meta::dateCollected = 2017-09-13\n# meta::dateCreated = 2017-08-08\n# meta::dateModified = 2017-09-13\n# meta::genre = academic\n# meta::salientEntities = 4 (5*), 5 (5*), 44 (5*), 45 (5*), 46 (5*), 47 (5*), 27 (4*), 147 (4*), 2 (3*), 43 (3), 20 (2*), 23 (2), 63 (2), 72 (2), 73 (2), 3 (1), 19 (1), 24 (1), 26 (1), 48 (1), 49 (1), 50 (1), 62 (1), 68 (1), 69 (1), 74 (1), 76 (1), 77 (1), 78 (1), 79 (1), 158 (1)\n# meta::sourceURL = https://dh2017.adho.org/abstracts/333/333.pdf\n# meta::speakerCount = 0\n# meta::summary1 = (human) This paper presents an eye tracking study to explore how viewers experience art, focusing on a 17th Century collection of Spanish paintings by Zurbarán.\n# meta::summary2 = (claude-3-5-sonnet-20241022) This pilot study uses eye-tracking techniques to examine how viewers visually process and aesthetically experience a unique collection of 17th Century Zurbarán paintings at Auckland Castle, investigating the effects of written interpretation on art viewing behavior.\n# meta::summary3 = (gpt4o; postedited) Using eye-tracking, this study examines audience engagement with 17th Century Zurbarán paintings, providing insights into aesthetic appreciation and visual processing, exploring the influence of museum labels and implications for gallery practices, integrating Spanish art history, psychology, digital humanities, and museum studies.\n# meta::summary4 = (Llama-3.2-3B-Instruct) Researchers used eye-tracking techniques to study how people visually explore and experience 17th-century Spanish art, including the Jacob cycle by Zurbarán, and how written labels affect their behavior.\n# meta::summary5 = (Qwen2.5-7B-Instruct) A collaborative pilot project uses eye-tracking techniques to analyze how visitors visually explore and aesthetically react to a unique collection of 17th century Zurbarán paintings in order to gain insights into their viewing behaviors and potentially improve museum practices.\n# meta::title = Aesthetic Appreciation and Spanish Art: Insights from Eye-Tracking\n# newpar\n# newpar_block = head (2 s) | hi rend:::\"bold blue\" (2 s)\n# sent_id = GUM_academic_art-1\n# s_type = frag\n# s_prominence = 2\n# transition = establishment\n# text = Aesthetic Appreciation and Spanish Art:\n1\tAesthetic\taesthetic\tADJ\tJJ\tDegree=Pos\t2\tamod\t2:amod\tDiscourse=organization-heading:1->57:8:grf-ly-_-_+sem-lxchn-1,671-_+sem-lxchn-4,619-_+sem-lxchn-5,620-_|Entity=(1-abstract-new-nnnnn-cf1-2-sgl|MSeg=Aesthet-ic\n2\tAppreciation\tappreciation\tNOUN\tNN\tNumber=Sing\t0\troot\t0:root\tEntity=1)|MSeg=Appreciat-ion\n3\tand\tand\tCCONJ\tCC\t_\t5\tcc\t5:cc\t_\n4\tSpanish\tSpanish\tADJ\tJJ\tDegree=Pos\t5\tamod\t5:amod\tEntity=(2-abstract-new-snssn-cf2-2-coref|MSeg=Span-ish\n5\tArt\tart\tNOUN\tNN\tNumber=Sing\t2\tconj\t2:conj:and\tEntity=2)|SpaceAfter=No\n6\t:\t:\tPUNCT\t:\t_\t2\tpunct\t2:punct\t_"
+      }
+    },
+    {
+      "id": "GUM_academic_art-2",
+      "start": 41,
+      "end": 67,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = GUM_academic_art-2\n# s_type = frag\n# s_prominence = 3\n# transition = null\n# text = Insights from Eye-Tracking\n1\tInsights\tinsight\tNOUN\tNNS\tNumber=Plur\t0\troot\t0:root\tDiscourse=elaboration-additional:2->1:0:grf-col-6-gold|Entity=(3-abstract-new-nnnns-cf1-1-coref|MSeg=In-sigh-t-s\n2\tfrom\tfrom\tADP\tIN\t_\t5\tcase\t5:case\t_\n3\tEye\teye\tNOUN\tNN\tNumber=Sing\t5\tcompound\t5:compound\tEntity=(4-abstract-new-sssss-cf2-3-coref(5-object-new-sssss-cf3-1-coref)|SpaceAfter=No|XML=<w>\n4\t-\t-\tPUNCT\tHYPH\t_\t3\tpunct\t3:punct\tSpaceAfter=No\n5\tTracking\ttracking\tNOUN\tNN\tNumber=Sing\t1\tnmod\t1:nmod:from\tEntity=4)3)|MSeg=Track-ing|XML=</w>"
+      }
+    },
+    {
+      "id": "GUM_academic_art-3",
+      "start": 69,
+      "end": 158,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newpar\n# newpar_block = p (1 s)\n# sent_id = GUM_academic_art-3\n# s_type = frag\n# s_prominence = 2\n# transition = null\n# text = Claire Bailey-Ross claire.bailey-ross@port.ac.uk University of Portsmouth, United Kingdom\n1\tClaire\tClaire\tPROPN\tNNP\tNumber=Sing\t0\troot\t0:root\tDiscourse=attribution-positive:3->57:7:sem-atsrc-12-46-_+syn-rpr-676-_|Entity=(6-person-new-nnnnn-cf1-1,2,4-coref\n2\tBailey\tBailey\tPROPN\tNNP\tNumber=Sing\t1\tflat\t1:flat\tSpaceAfter=No|XML=<w>\n3\t-\t-\tPUNCT\tHYPH\t_\t4\tpunct\t4:punct\tSpaceAfter=No\n4\tRoss\tRoss\tPROPN\tNNP\tNumber=Sing\t2\tflat\t2:flat\tEntity=6)|XML=</w>\n5\tclaire.bailey-ross@port.ac.uk\tclaire.bailey-ross@port.ac.uk\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=(7-abstract-new-nnnnn-cf2-1-sgl)\n6\tUniversity\tUniversity\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=(8-organization-new-nnnnn-cf3-3,5,6-sgl-University_of_Portsmouth|MSeg=Univers-ity\n7\tof\tof\tADP\tIN\t_\t8\tcase\t8:case\t_\n8\tPortsmouth\tPortsmouth\tPROPN\tNNP\tNumber=Sing\t6\tnmod\t6:nmod:of\tEntity=(9-place-new-nnnnn-cf4-3,4-sgl-Portsmouth|MSeg=Port-s-mouth|SpaceAfter=No\n9\t,\t,\tPUNCT\t,\t_\t11\tpunct\t11:punct\t_\n10\tUnited\tUnite\tVERB\tNNP\tTense=Past|VerbForm=Part\t11\tamod\t11:amod\tEntity=(10-place-new-nnnnn-cf5-1,2-coref-United_Kingdom|MSeg=Unit-ed\n11\tKingdom\tKingdom\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=10)9)8)|MSeg=King-dom"
+      }
+    },
+    {
+      "id": "GUM_academic_art-4",
+      "start": 160,
+      "end": 237,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newpar\n# newpar_block = p (1 s)\n# sent_id = GUM_academic_art-4\n# s_type = frag\n# s_prominence = 2\n# transition = establishment\n# text = Andrew Beresford a.m.beresford@durham.ac.uk Durham University, United Kingdom\n1\tAndrew\tAndrew\tPROPN\tNNP\tNumber=Sing\t0\troot\t0:root\tDiscourse=joint-list_m:4->3:0:syn-prl-12-27,29-30-gold|Entity=(11-person-new-nnnnn-cf2-1,2-coref\n2\tBeresford\tBeresford\tPROPN\tNNP\tNumber=Sing\t1\tflat\t1:flat\tEntity=11)\n3\ta.m.beresford@durham.ac.uk\ta.m.beresford@durham.ac.uk\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=(12-abstract-new-nnnnn-cf3-1-sgl)\n4\tDurham\tDurham\tPROPN\tNNP\tNumber=Sing\t5\tcompound\t5:compound\tEntity=(13-organization-new-nnnnn-cf4-1,4,5-coref-Durham_University(14-place-new-nnnnn-cf5-1-coref-Durham%2C_England)\n5\tUniversity\tUniversity\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tMSeg=Univers-ity|SpaceAfter=No\n6\t,\t,\tPUNCT\t,\t_\t8\tpunct\t8:punct\t_\n7\tUnited\tUnite\tVERB\tNNP\tTense=Past|VerbForm=Part\t8\tamod\t8:amod\tEntity=(10-place-giv:act-nnnnn-cf1*-1,2-coref-United_Kingdom|MSeg=Unit-ed\n8\tKingdom\tKingdom\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=10)13)|MSeg=King-dom"
+      }
+    },
+    {
+      "id": "GUM_academic_art-5",
+      "start": 239,
+      "end": 312,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newpar\n# newpar_block = p (1 s)\n# sent_id = GUM_academic_art-5\n# s_type = frag\n# s_prominence = 2\n# transition = smooth-shift\n# text = Daniel Smith daniel.smith2@durham.ac.uk Durham University, United Kingdom\n1\tDaniel\tDaniel\tPROPN\tNNP\tNumber=Sing\t0\troot\t0:root\tDiscourse=joint-list_m:5->3:0:syn-prl-23-38-gold|Entity=(15-person-new-nnnnn-cf4-1,2-coref\n2\tSmith\tSmith\tPROPN\tNNP\tNumber=Sing\t1\tflat\t1:flat\tEntity=15)\n3\tdaniel.smith2@durham.ac.uk\tdaniel.smith2@durham.ac.uk\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=(16-abstract-new-nnnnn-cf5-1-sgl)\n4\tDurham\tDurham\tPROPN\tNNP\tNumber=Sing\t5\tcompound\t5:compound\tEntity=(13-organization-giv:act-nnnnn-cf1*-1,4,5-coref-Durham_University(14-place-giv:act-nnnnn-cf3-1-coref-Durham%2C_England)\n5\tUniversity\tUniversity\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tMSeg=Univers-ity|SpaceAfter=No\n6\t,\t,\tPUNCT\t,\t_\t8\tpunct\t8:punct\t_\n7\tUnited\tUnite\tVERB\tNNP\tTense=Past|VerbForm=Part\t8\tamod\t8:amod\tEntity=(10-place-giv:act-nnnnn-cf2-1,2-coref-United_Kingdom|MSeg=Unit-ed\n8\tKingdom\tKingdom\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=10)13)|MSeg=King-dom"
+      }
+    },
+    {
+      "id": "GUM_academic_art-6",
+      "start": 314,
+      "end": 389,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newpar\n# newpar_block = p (1 s)\n# sent_id = GUM_academic_art-6\n# s_type = frag\n# s_prominence = 2\n# transition = continue\n# text = Claire Warwick c.l.h.warwick@durham.ac.uk Durham University, United Kingdom\n1\tClaire\tClaire\tPROPN\tNNP\tNumber=Sing\t0\troot\t0:root\tDiscourse=joint-list_m:6->3:0:syn-prl-31-46-gold|Entity=(17-person-new-nnnnn-cf4-1,2-coref\n2\tWarwick\tWarwick\tPROPN\tNNP\tNumber=Sing\t1\tflat\t1:flat\tEntity=17)\n3\tc.l.h.warwick@durham.ac.uk\tc.l.h.warwick@durham.ac.uk\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=(18-abstract-new-nnnnn-cf5-1-sgl)\n4\tDurham\tDurham\tPROPN\tNNP\tNumber=Sing\t5\tcompound\t5:compound\tEntity=(13-organization-giv:act-nnnnn-cf1*-1,4,5-coref-Durham_University(14-place-giv:act-nnnnn-cf3-1-coref-Durham%2C_England)\n5\tUniversity\tUniversity\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tMSeg=Univers-ity|SpaceAfter=No\n6\t,\t,\tPUNCT\t,\t_\t8\tpunct\t8:punct\t_\n7\tUnited\tUnite\tVERB\tNNP\tTense=Past|VerbForm=Part\t8\tamod\t8:amod\tEntity=(10-place-giv:act-nnnnn-cf2-1,2-coref-United_Kingdom|MSeg=Unit-ed\n8\tKingdom\tKingdom\tPROPN\tNNP\tNumber=Sing\t1\tlist\t1:list\tEntity=10)13)|MSeg=King-dom"
+      }
+    },
+    {
+      "id": "GUM_academic_art-7",
+      "start": 391,
+      "end": 432,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# newpar\n# newpar_block = p (12 s)\n# sent_id = GUM_academic_art-7\n# s_type = wh\n# s_prominence = 2\n# transition = zero\n# text = How do people look at and experience art?\n1\tHow\thow\tADV\tWRB\tPronType=Int\t4\tadvmod\t4:advmod\tCxnElt=4:Interrogative-WHInfo-Direct.WHWord|Discourse=organization-preparation:7->57:6:sem-lxchn-50,665-_+sem-lxchn-53,615-_+sem-lxchn-54,620-_\n2\tdo\tdo\tAUX\tVBP\tMood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin\t4\taux\t4:aux|7:aux\t_\n3\tpeople\tperson\tNOUN\tNNS\tNumber=Plur\t4\tnsubj\t4:nsubj|7:nsubj\tEntity=(19-person-new-nnnsn-cf1-1-coref)\n4\tlook\tlook\tVERB\tVB\tVerbForm=Inf\t0\troot\t0:root\tCxn=Interrogative-WHInfo-Direct|CxnElt=4:Interrogative-WHInfo-Direct.Clause\n5\tat\tat\tADP\tIN\t_\t8\tcase\t8:case\t_\n6\tand\tand\tCCONJ\tCC\t_\t7\tcc\t7:cc\t_\n7\texperience\texperience\tVERB\tVB\tVerbForm=Inf\t4\tconj\t4:conj:and\t_\n8\tart\tart\tNOUN\tNN\tNumber=Sing\t4\tobl\t4:obl:at\tEntity=(20-abstract-new-snsnn-cf2-1-coref)|SpaceAfter=No\n9\t?\t?\tPUNCT\t.\t_\t4\tpunct\t4:punct\t_"
+      }
+    },
+    {
+      "id": "GUM_academic_art-8",
+      "start": 434,
+      "end": 487,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = GUM_academic_art-8\n# s_type = wh\n# s_prominence = 2\n# transition = establishment\n# text = Which elements of specific artworks do they focus on?\n1\tWhich\twhich\tDET\tWDT\tPronType=Int\t2\tdet\t2:det\tDiscourse=joint-list_m:8->7:0:sem-lxchn-54,60-_+syn-prl-47,55-56,65-gold|Entity=(21-abstract-new-nnnnn-cf2-2-sgl|PDTB=Implicit:Expansion.Conjunction:and:_:47-55:56-65\n2\telements\telement\tNOUN\tNNS\tNumber=Plur\t8\tobl\t8:obl:on\tMSeg=element-s\n3\tof\tof\tADP\tIN\t_\t5\tcase\t5:case\t_\n4\tspecific\tspecific\tADJ\tJJ\tDegree=Pos\t5\tamod\t5:amod\tEntity=(22-object-new-nnnnn-cf3-2-sgl|MSeg=specif-ic\n5\tartworks\tartwork\tNOUN\tNNS\tNumber=Plur\t2\tnmod\t2:nmod:of\tEntity=22)21)|MSeg=art-work-s\n6\tdo\tdo\tAUX\tVBP\tMood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin\t8\taux\t8:aux\t_\n7\tthey\tthey\tPRON\tPRP\tCase=Nom|Number=Plur|Person=3|PronType=Prs\t8\tnsubj\t8:nsubj\tEntity=(19-person-giv:act-nnnsn-cf1*-1-ana)\n8\tfocus\tfocus\tVERB\tVB\tVerbForm=Inf\t0\troot\t0:root\t_\n9\ton\ton\tADP\tIN\t_\t2\tcase\t2:case\tSpaceAfter=No\n10\t?\t?\tPUNCT\t.\t_\t8\tpunct\t8:punct\t_"
+      }
+    },
+    {
+      "id": "GUM_academic_art-9",
+      "start": 489,
+      "end": 552,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = GUM_academic_art-9\n# s_type = q\n# s_prominence = 2\n# transition = continue\n# text = Do museum labels have an impact on how people look at artworks?\n1\tDo\tdo\tAUX\tVBP\tMood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin\t4\taux\t4:aux\tDiscourse=joint-list_m:9->7:0:sem-lxchn-50-51,75-76-_+syn-prl-56,65-66,78-gold|PDTB=Implicit:Expansion.Conjunction:and:_:56-65:66-78\n2\tmuseum\tmuseum\tNOUN\tNN\tNumber=Sing\t3\tcompound\t3:compound\tEntity=(23-abstract-new-nnssn-cf2-2-sgl(24-organization-new-nnsnn-cf5-1-coref)\n3\tlabels\tlabel\tNOUN\tNNS\tNumber=Plur\t4\tnsubj\t4:nsubj\tEntity=23)|MSeg=label-s\n4\thave\thave\tVERB\tVB\tVerbForm=Inf\t0\troot\t0:root\tCxn=Interrogative-Polar-Direct|CxnElt=4:Interrogative-Polar-Direct.Clause\n5\tan\ta\tDET\tDT\tDefinite=Ind|PronType=Art\t6\tdet\t6:det\tEntity=(25-abstract-new-nnnnn-cf3-2-sgl\n6\timpact\timpact\tNOUN\tNN\tNumber=Sing\t4\tobj\t4:obj\t_\n7\ton\ton\tADP\tIN\t_\t8\tcase\t8:case\t_\n8\thow\thow\tADV\tWRB\tPronType=Rel\t6\tnmod\t6:nmod:on\t_\n9\tpeople\tperson\tNOUN\tNNS\tNumber=Plur\t10\tnsubj\t10:nsubj\tEntity=(19-person-giv:act-nnnsn-cf1*-1-coref)\n10\tlook\tlook\tVERB\tVBP\tMood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin\t8\tadvcl:relcl\t8:advcl:relcl\t_\n11\tat\tat\tADP\tIN\t_\t12\tcase\t12:case\t_\n12\tartworks\tartwork\tNOUN\tNNS\tNumber=Plur\t10\tobl\t10:obl:at\tEntity=(26-object-new-nnnsn-cf4-1-sgl)25)|MSeg=art-work-s|SpaceAfter=No\n13\t?\t?\tPUNCT\t.\t_\t4\tpunct\t4:punct\t_"
+      }
+    },
+    {
+      "id": "GUM_academic_art-10",
+      "start": 554,
+      "end": 690,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = GUM_academic_art-10\n# s_type = decl\n# s_prominence = 4\n# transition = zero\n# text = The viewing experience of art is a complex one, involving issues of perception, attention, memory, decision-making, affect, and emotion.\n1\tThe\tthe\tDET\tDT\tDefinite=Def|PronType=Art\t3\tdet\t3:det\tBridge=19<27:entity-associative|Discourse=explanation-justify:10->12:2:dm-thus-107-_|Entity=(27-abstract-acc:inf-ssnss-cf1-3-coref|PDTB=NoRel:NoRel:_:_:66-78:79-106\n2\tviewing\tviewing\tNOUN\tNN\tNumber=Sing\t3\tcompound\t3:compound\tEntity=(28-event-new-nnnnn-cf10-1-sgl)|MSeg=view-ing\n3\texperience\texperience\tNOUN\tNN\tNumber=Sing\t9\tnsubj\t9:nsubj\t_\n4\tof\tof\tADP\tIN\t_\t5\tcase\t5:case\t_\n5\tart\tart\tNOUN\tNN\tNumber=Sing\t3\tnmod\t3:nmod:of\tEntity=(20-abstract-giv:inact-snsnn-cf2-1-coref)27)\n6\tis\tbe\tAUX\tVBZ\tMood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin\t9\tcop\t9:cop\t_\n7\ta\ta\tDET\tDT\tDefinite=Ind|PronType=Art\t9\tdet\t9:det\tEntity=(27-abstract-giv:act-ssnss-cf1-3-pred\n8\tcomplex\tcomplex\tADJ\tJJ\tDegree=Pos\t9\tamod\t9:amod\t_\n9\tone\tone\tNOUN\tNN\tNumber=Sing\t0\troot\t0:root\tSpaceAfter=No\n10\t,\t,\tPUNCT\t,\t_\t11\tpunct\t11:punct\t_\n11\tinvolving\tinvolve\tVERB\tVBG\tVerbForm=Ger\t9\tacl\t9:acl\tDiscourse=elaboration-attribute:11->10:0:syn-mdf-87-_+syn-nmn-89-_+sem-lxchn-80,92-gold|MSeg=involv-ing\n12\tissues\tissue\tNOUN\tNNS\tNumber=Plur\t11\tobj\t11:obj\tEntity=(29-abstract-new-nnnnn-cf9-1-sgl|MSeg=issue-s\n13\tof\tof\tADP\tIN\t_\t14\tcase\t14:case\t_\n14\tperception\tperception\tNOUN\tNN\tNumber=Sing\t12\tnmod\t12:nmod:of\tBridge=19<30:entity-associative|Entity=(30-abstract-acc:inf-nnnnn-cf3-1-sgl)|MSeg=percept-ion|SpaceAfter=No\n15\t,\t,\tPUNCT\t,\t_\t16\tpunct\t16:punct\t_\n16\tattention\tattention\tNOUN\tNN\tNumber=Sing\t14\tconj\t12:nmod:of|14:conj:and\tBridge=19<31:entity-associative|Entity=(31-abstract-acc:inf-nnnnn-cf4-1-sgl)|MSeg=atten-tion|SpaceAfter=No\n17\t,\t,\tPUNCT\t,\t_\t18\tpunct\t18:punct\t_\n18\tmemory\tmemory\tNOUN\tNN\tNumber=Sing\t14\tconj\t12:nmod:of|14:conj:and\tBridge=19<32:entity-associative|Entity=(32-abstract-acc:inf-nnnnn-cf5-1-sgl)|SpaceAfter=No\n19\t,\t,\tPUNCT\t,\t_\t20\tpunct\t20:punct\t_\n20\tdecision\tdecision\tNOUN\tNN\tNumber=Sing\t22\tcompound\t22:compound\tBridge=19<33:entity-associative|Entity=(33-abstract-acc:inf-nnnnn-cf8-3-sgl|MSeg=decis-ion|SpaceAfter=No|XML=<w>\n21\t-\t-\tPUNCT\tHYPH\t_\t20\tpunct\t20:punct\tSpaceAfter=No\n22\tmaking\tmake\tVERB\tVBG\tVerbForm=Ger\t14\tconj\t12:nmod:of|14:conj:and\tEntity=33)|MSeg=mak-ing|SpaceAfter=No|XML=</w>\n23\t,\t,\tPUNCT\t,\t_\t24\tpunct\t24:punct\t_\n24\taffect\taffect\tNOUN\tNN\tNumber=Sing\t14\tconj\t12:nmod:of|14:conj:and\tBridge=19<34:entity-associative|Entity=(34-abstract-acc:inf-nnnnn-cf6-1-sgl)|SpaceAfter=No\n25\t,\t,\tPUNCT\t,\t_\t27\tpunct\t27:punct\t_\n26\tand\tand\tCCONJ\tCC\t_\t27\tcc\t27:cc\t_\n27\temotion\temotion\tNOUN\tNN\tNumber=Sing\t14\tconj\t12:nmod:of|14:conj:and\tBridge=19<35:entity-associative|Entity=(35-abstract-acc:inf-nnnnn-cf7-1-sgl)29)27)|MSeg=emot-ion|SpaceAfter=No\n28\t.\t.\tPUNCT\t.\t_\t9\tpunct\t9:punct\t_"
+      }
+    },
+    {
+      "id": "GUM_academic_art-11",
+      "start": 692,
+      "end": 841,
+      "check": "syntax/conllu",
+      "expected": "annotated",
+      "reason": "Original syntax annotations; these encode grammar rather than prose quality.",
+      "evidence": [],
+      "original": {
+        "conllu": "# sent_id = GUM_academic_art-11\n# s_type = sub\n# s_prominence = 3\n# transition = establishment\n# text = Thus, the time it takes and the ways of visually exploring an artwork can inform about its relevance, interestingness, and even its aesthetic appeal.\n1\tThus\tthus\tADV\tRB\t_\t16\tadvmod\t16:advmod\tDiscourse=context-background:12->23:7:_|PDTB=Explicit:Contingency.Cause.Result:thus:107:79-106:108-134|SpaceAfter=No\n2\t,\t,\tPUNCT\t,\t_\t1\tpunct\t1:punct\t_\n3\tthe\tthe\tDET\tDT\tDefinite=Def|PronType=Art\t4\tdet\t4:det\tEntity=(36-time-new-nnnnn-cf3-2-sgl\n4\ttime\ttime\tNOUN\tNN\tNumber=Sing\t16\tnsubj\t16:nsubj\t_\n5\tit\tit\tPRON\tPRP\tCase=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs\t6\tnsubj\t6:nsubj\tDiscourse=elaboration-attribute:13->12:0:syn-mdf-110-_+syn-relcl-112-_|Entity=(27-abstract-giv:act-ssnss-cf1*-1-ana)\n6\ttakes\ttake\tVERB\tVBZ\tMood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin\t4\tacl:relcl\t4:acl:relcl\tEntity=36)|MSeg=take-s\n7\tand\tand\tCCONJ\tCC\t_\t9\tcc\t9:cc\tDiscourse=same-unit_m:14->12:1:_\n8\tthe\tthe\tDET\tDT\tDefinite=Def|PronType=Art\t9\tdet\t9:det\tEntity=(37-abstract-new-nnnnn-cf4-2-sgl\n9\tways\tway\tNOUN\tNNS\tNumber=Plur\t4\tconj\t4:conj:and|16:nsubj\tMSeg=way-s\n10\tof\tof\tSCONJ\tIN\t_\t12\tmark\t12:mark\tDiscourse=elaboration-attribute:15->14:0:syn-mdf-115-_+syn-nmn-116,118-_\n11\tvisually\tvisually\tADV\tRB\tDegree=Pos\t12\tadvmod\t12:advmod\tMSeg=vis-ual-ly\n12\texploring\texplore\tVERB\tVBG\tVerbForm=Ger\t9\tacl\t9:acl:of\tMSeg=explor-ing\n13\tan\ta\tDET\tDT\tDefinite=Ind|PronType=Art\t14\tdet\t14:det\tEntity=(38-object-new-nnnnn-cf2-2-coref\n14\tartwork\tartwork\tNOUN\tNN\tNumber=Sing\t12\tobj\t12:obj\tEntity=38)37)|MSeg=art-work\n15\tcan\tcan\tAUX\tMD\tVerbForm=Fin\t16\taux\t16:aux\tDiscourse=same-unit_m:16->12:1:_\n16\tinform\tinform\tVERB\tVB\tVerbForm=Inf\t0\troot\t0:root\tMSeg=in-form\n17\tabout\tabout\tADP\tIN\t_\t19\tcase\t19:case\t_\n18\tits\tits\tPRON\tPRP$\tCase=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs\t19\tnmod:poss\t19:nmod:poss\tEntity=(39-abstract-new-nnnnn-cf5-2-sgl(38-object-giv:act-nnnnn-cf2-1-ana)|MSeg=it-s\n19\trelevance\trelevance\tNOUN\tNN\tNumber=Sing\t16\tobl\t16:obl:about\tEntity=39)|MSeg=relevan-ce|SpaceAfter=No\n20\t,\t,\tPUNCT\t,\t_\t21\tpunct\t21:punct\t_\n21\tinterestingness\tinterestingness\tNOUN\tNN\tNumber=Sing\t19\tconj\t16:obl:about|19:conj:and\tEntity=(40-abstract-new-nnnnn-cf6-1-sgl)|MSeg=interest-ing-ness|SpaceAfter=No\n"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "GUM_academic_art-1",
+      "start": 0,
+      "end": 39
+    },
+    {
+      "id": "GUM_academic_art-2",
+      "start": 41,
+      "end": 67
+    },
+    {
+      "id": "GUM_academic_art-3",
+      "start": 69,
+      "end": 158
+    },
+    {
+      "id": "GUM_academic_art-4",
+      "start": 160,
+      "end": 237
+    },
+    {
+      "id": "GUM_academic_art-5",
+      "start": 239,
+      "end": 312
+    },
+    {
+      "id": "GUM_academic_art-6",
+      "start": 314,
+      "end": 389
+    },
+    {
+      "id": "GUM_academic_art-7",
+      "start": 391,
+      "end": 432
+    },
+    {
+      "id": "GUM_academic_art-8",
+      "start": 434,
+      "end": 487
+    },
+    {
+      "id": "GUM_academic_art-9",
+      "start": 489,
+      "end": 552
+    },
+    {
+      "id": "GUM_academic_art-10",
+      "start": 554,
+      "end": 690
+    },
+    {
+      "id": "GUM_academic_art-11",
+      "start": 692,
+      "end": 841
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "e3dc5f3cc6222539afc41414ff57f96952e2c73230c415e6de0cb1fe789093aa",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-131.md",
+    "url": "https://a16z.com/2013/05/30/lars-2",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 1402,
+      "end": 1594,
+      "check": "slopless/prohibited-words",
+      "expected": false,
+      "reason": "Historical reviewer: The banned words ('actually', 'leverage', 'elevate', 'transformative', 'unlock') each have legitimate non-sloppy uses that are common in human prose. 'Actually' is a standard emphatic/contrastive adverb; 'leverage' as a noun ('points of leverage') or transitive verb ('leverage technology') is correct domain usage; 'transformative' as a past participle verb ('has transformed') is not the sloppy adjective sense; 'unlock' in headlines or technical descriptions is literal. The rule fires on the word string regardless of grammatical role or meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[business/a16z] (Prohibited word found: \"leverage\". Rewrite without) In venture capital, we spend lots of time thinking about business models, product market fit, inflection points, network effects, viral coefficients and other points of leverage in a business."
+      }
+    }
+  ]
+}

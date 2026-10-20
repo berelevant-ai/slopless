@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "dd70c7fcf9281e94b71b4df2215c4ad1aba966e179fdee120f507d89016e45ad",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-016.md",
+    "url": "https://a16z.com/2019/09/25/fintech-newsletter-september-2019",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 142,
+      "end": 214,
+      "check": "slopless/paragraph-length",
+      "expected": false,
+      "reason": "Historical reviewer: Two distinct FP patterns. First: the parser treats entire articles or major sections as a single paragraph (77, 95, 107 sentences) when there are no blank-line separators, then attributes the violation to the first or last short sentence in that block ('This biography was unauthorized', 'Let's look at each of these in more detail.'). Second: legitimate dense paragraphs of 8-17 sentences in professional long-form articles are flagged by a threshold calibrated for blog posts. Neither pattern indicates slop.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/metrics-readability.json",
+        "excerpt": "[business/a16z] (Paragraph has 107 sentences. Keep paragraphs to 6 ) To receive this monthly update from the a16z fintech team, sign up here."
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 9450,
+      "end": 9592,
+      "check": "slopless/cliches",
+      "expected": false,
+      "reason": "Historical reviewer: Rule conflates genuine idiom-cliches (\"at the end of the day\", \"easier said than done\") with: (1) literal price statements flagged as \"for free\" (6 hits where \"for free\" means zero-cost, not a cliche), (2) domain-correct technical terms (\"cutting edge science\", \"divide and conquer\" in CS/distributed systems), (3) functional compound nouns (\"decision-making process\" as a precise term for a workflow), (4) legal/commercial set phrases (\"time is of the essence\"), (5) common English idioms with no sloppy connotation (\"lion's share\" meaning majority).",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Cliche found: \"for free\". Replace it with specific) Notably, JPMorgan is offering instant payments for free, while fintech challengers like Stripe and Square charge a fee for the faster service."
+      }
+    }
+  ]
+}

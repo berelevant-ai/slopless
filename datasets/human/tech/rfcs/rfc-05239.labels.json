@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "e5148ba1b187405238cf56acba599d51e688221b03a7fee7c2baeae1b91049ba",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "rfcs",
+    "originalPath": "datasets/corpus/human/tech/rfcs/rfc-05239.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 54673,
+      "end": 54839,
+      "check": "slopless/low-information-beat-density",
+      "expected": false,
+      "reason": "Historical reviewer: The rule flags passages dense with 'weak' body/action beats (is, has, helps, creates, looks, comes). Gov/health text (MedlinePlus-style patient education) legitimately uses plain simple-verb sentences for accessibility. RFC protocol definitions use 'is', 'can', 'needs', 'provides' as precise technical copulas. Victorian fiction narrates sequential physical actions in plot. Paul Graham samples are 15-word truncated fragments with no usable context. None represent sloppy writing.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[tech/rfcs] A floor control protocol allows an authorized client to manage access to a specific floor and to grant, deny or revoke access of other conference users to that floor."
+      }
+    }
+  ]
+}

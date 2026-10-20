@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "305ace7047e7fc51a7850ac56404099f3263b926db65c00c0183fea7d4767496",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-063.md",
+    "url": "https://a16z.com/2019/06/17/cfius-firrma-reform-policy-testimony-january-2018",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 2040,
+      "end": 2186,
+      "check": "slopless/corporate-speak",
+      "expected": false,
+      "reason": "Historical reviewer: Most \"world-class\" hits are genuine corporate-speak TPs. FPs arise when \"next level\" is used literally for an organizational hierarchy level or a karate belt rank (not as a vague intensifier), and when \"world-class research universities\" is a factual descriptor for institutions that are objectively globally ranked, not a hollow boast.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Corporate-speak phrase found: \"world-class\". Repla) The U.S. has a very strong entrepreneurial mindset, world-class research universities that help engender forward-thinking research and development"
+      }
+    }
+  ]
+}

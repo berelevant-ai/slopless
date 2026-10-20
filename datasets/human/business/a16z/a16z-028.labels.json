@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "471cd5669f7990f7e44b5ccb489cd1bba278e59ade74c800fa5019478ed8e49b",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-028.md",
+    "url": "https://a16z.com/2012/05/11/the-ceos-weekly-checklist",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 913,
+      "end": 997,
+      "check": "slopless/wordiness",
+      "expected": false,
+      "reason": "Historical reviewer: Phrases like \"in order to\", \"in an effort to\", \"despite the fact that\", \"have the ability to\" are unambiguously wordy and correct TPs. The FPs are all \"a number of\" (9 samples): this is normal, accepted English for an indefinite count; replacing every instance with \"several\" or \"many\" changes register and is not always correct (\"a number of\" can signal approximate enumeration distinct from \"several\"). The rule fires mechanically on this phrase without checking whether it adds meaning.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-core.json",
+        "excerpt": "[business/a16z] (Wordy phrase found: \"a number of\". Replace it with) There were a number of suggestions that were specific to the company lifecycle stage"
+      }
+    }
+  ]
+}

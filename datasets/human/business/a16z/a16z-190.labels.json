@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "bc20f85b6aa742e2ab344ae0df9a035dffc9ca87b47c421256f92c1b18acd466",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-190.md",
+    "url": "https://a16z.com/2015/06/01/clean-up-your-startups-b-s-bring-sales-into-the-leadership-team",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 9586,
+      "end": 9715,
+      "check": "slopless/boilerplate-framing",
+      "expected": false,
+      "reason": "Historical reviewer: The rule catches high-frequency but fully legitimate English phrases. 'When it comes to' is a standard preposition construction used to scope a topic, not a framing crutch. 'Honestly', 'truth be told', 'here's the thing', 'to be clear', 'one reason is' all appear as genuine rhetorical or analytical devices in the Paul Graham and a16z samples. 'The bottom line is' is a business idiom. Only edge cases like 'not to put too fine a point' and 'vague-category-include' listing constructions are borderline, but still not slop in context.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/lead-ins-closers.json",
+        "excerpt": "[business/a16z] And to be clear: The product manager still owns the product, and has to own both short-and long-term thinking about that product."
+      }
+    }
+  ]
+}

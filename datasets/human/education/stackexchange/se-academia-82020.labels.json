@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "dee43bc20de6cc538a15a16933392f21766c24f34fc2513a8bdda2547c2282ee",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/education/stackexchange/se-academia-82020.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 2404,
+      "end": 2498,
+      "check": "slopless/humble-bragger",
+      "expected": false,
+      "reason": "Historical reviewer: 'In my experience' is a standard epistemic qualifier in Q&A, essay, and professional writing — it signals personal-evidence grounding, not bragging. 'As someone who has' is a standard credential citation ('As someone who has moved from the US...' / 'as someone who has raised children'). The rule conflates legitimate first-person grounding with braggadocio. None of the 28 samples actually boasts about an impressive credential — they are all ordinary experiential anchors.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[education/stackexchange] (Humble-bragging phrase found: \"In my experience\". ) In my experience, outright theft of work by serious academic mathematicians is extremely rare."
+      }
+    }
+  ]
+}

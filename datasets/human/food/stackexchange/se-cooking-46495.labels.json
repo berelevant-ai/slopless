@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "ca6f96d72a7265ec5c8ba60fede2d57278b26eac46ba9f5413934e01e951f4f5",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "stackexchange",
+    "originalPath": "datasets/corpus/human/food/stackexchange/se-cooking-46495.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 954,
+      "end": 1154,
+      "check": "slopless/empty-beat",
+      "expected": false,
+      "reason": "Historical reviewer: The rule fires on any simple action verb ('stood', 'remained', 'followed', 'looked') framed as a 'placeholding beat'. Wikipedia biographical prose uses these verbs as precise factual statements of what a person did. Victorian fiction uses them as literal scene narration. The Keats poem line 'She stood in tears amid the alien corn' is canonical poetry. The food/stackexchange entry narrates a controlled culinary experiment where each action verb is a distinct procedural step. None are padding.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[food/stackexchange] I diced 1 avocado and shuffled up the chunks so that no 1 pile had chunks from only 1 part of the fruit. I dropped the chunks into small bowls of the acids, removed the chunks, and allowed to air dry."
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "0bf56fb2e68be7e97eaa92dee7d0b5bfd5f4d766b3ea7d0bbd7020b1c9d35b2b",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "wikipedia",
+    "originalPath": "datasets/corpus/human/reference/wikipedia/wiki-00145-ode-to-a-nightingale.md",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 10463,
+      "end": 10502,
+      "check": "slopless/empty-beat",
+      "expected": false,
+      "reason": "Historical reviewer: The rule fires on any simple action verb ('stood', 'remained', 'followed', 'looked') framed as a 'placeholding beat'. Wikipedia biographical prose uses these verbs as precise factual statements of what a person did. Victorian fiction uses them as literal scene narration. The Keats poem line 'She stood in tears amid the alien corn' is canonical poetry. The food/stackexchange entry narrates a controlled culinary experiment where each action verb is a distinct procedural step. None are padding.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/narrative.json",
+        "excerpt": "[reference/wikipedia] She stood in tears amid the alien corn;"
+      }
+    },
+    {
+      "id": "historical-2",
+      "start": 9957,
+      "end": 10000,
+      "check": "slopless/prohibited-phrases",
+      "expected": false,
+      "reason": "Historical reviewer: Two distinct FP clusters. (1) 'in a world where' is a legitimate historical/technical contrast phrase when not used as a rhetorical opener ('Mainframe-style arrays were designed in a world where a single mainframe...'; Paul Graham literary use; PEP technical contrast). (2) 'In conclusion' / 'in conclusion' is a standard section marker in legal opinions, medical abstracts, academic Q&A, and 19th-century literary prose — not slop in those contexts. 'Now more than ever' fired on a Keats poem. 'It's important to note' is more consistently sloppy but fires on legitimate technical doc signaling (MDN, PEP).",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/phrases-authority-misc.json",
+        "excerpt": "[reference/wikipedia] (Prohibited phrase found: \"Now more than ever\". Rew) Now more than ever seems it rich to die, 55"
+      }
+    }
+  ]
+}

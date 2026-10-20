@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "68b6c9d6fcb33d75f33fb396f222f8b7c532b72daf90e15868831ff513a175a2",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "a16z",
+    "originalPath": "datasets/corpus/human/business/a16z/a16z-088.md",
+    "url": "https://a16z.com/2011/08/24/preparing-to-fire-an-executive",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 6676,
+      "end": 6754,
+      "check": "slopless/universalizing-claims",
+      "expected": false,
+      "reason": "Historical reviewer: Rule pattern-matches generic plural nouns with quantifiers ('many things', 'some things', 'several challenges', 'many reasons') that are ordinary count expressions in expository prose. It also flags 'everyone knows' and 'nobody knows' which are legitimate rhetorical and epistemic moves. None of the flagged phrases replace an actual universalizing claim; they are just indefinite plurals or common rhetorical setups.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/a16z] Informing the board is tricky and many issues can further complicate the task:"
+      }
+    }
+  ]
+}

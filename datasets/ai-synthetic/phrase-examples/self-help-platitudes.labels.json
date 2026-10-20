@@ -1,0 +1,1538 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "c78966df81b81f5a68aa245d5da6b5448f007eb77385941cbd09405f3963ae79",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "Generated phrase examples",
+    "originalPath": "datasets/experiments/candidates/self-help-platitudes.json",
+    "notes": "Selected examples retain original author judgments; unselected examples remain unlabeled."
+  },
+  "labels": [
+    {
+      "id": "2",
+      "start": 57,
+      "end": 106,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "documented in genre-slop.md as 'canonical AI motivational phrase'; the unlock metaphor applied to personhood",
+      "evidence": [
+        "unlock your potential"
+      ],
+      "original": {
+        "candidate": "unlock your potential",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "4",
+      "start": 159,
+      "end": 207,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "target phrase; zero specificity, infinite self-congratulation",
+      "evidence": [
+        "live your best life"
+      ],
+      "original": {
+        "candidate": "live your best life",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "5",
+      "start": 209,
+      "end": 255,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "target phrase; originated in sports, now a hollow patience directive with no actionable content; FP risk in genuine athletic or process-management contexts",
+      "evidence": [
+        "trust the process"
+      ],
+      "original": {
+        "candidate": "trust the process",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "7",
+      "start": 294,
+      "end": 353,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "target phrase; posits a superior self-version without specifying what it means",
+      "evidence": [
+        "your best self"
+      ],
+      "original": {
+        "candidate": "your best self",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "8",
+      "start": 355,
+      "end": 409,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "target phrase; mystical-sounding phrase for internal motivation with no specifics",
+      "evidence": [
+        "the power within"
+      ],
+      "original": {
+        "candidate": "the power within",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "9",
+      "start": 411,
+      "end": 462,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "possessive variant of the journey cluster; FP risk in literal memoir or travel contexts",
+      "evidence": [
+        "your personal journey"
+      ],
+      "original": {
+        "candidate": "your personal journey",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "10",
+      "start": 464,
+      "end": 520,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "stacked cliche combining journey + self-discovery; genre-slop.md flags this exact phrase",
+      "evidence": [
+        "this journey of self-discovery"
+      ],
+      "original": {
+        "candidate": "this journey of self-discovery",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "12",
+      "start": 583,
+      "end": 630,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "generic growth directive; variation on comfort-zone cluster",
+      "evidence": [
+        "push past your limits"
+      ],
+      "original": {
+        "candidate": "push past your limits",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "13",
+      "start": 632,
+      "end": 698,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "forceful variant of the comfort-zone cluster; 'limitations' is vague by design",
+      "evidence": [
+        "break free from your limitations"
+      ],
+      "original": {
+        "candidate": "break free from your limitations",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "14",
+      "start": 700,
+      "end": 759,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "platitude with no actionable content; FP risk is high in isolation but low in density with other self-help phrases",
+      "evidence": [
+        "believe in yourself"
+      ],
+      "original": {
+        "candidate": "believe in yourself",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "15",
+      "start": 761,
+      "end": 814,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "false-intimacy address; unfounded claim dressed as encouragement",
+      "evidence": [],
+      "original": {
+        "candidate": "you are capable of more than you think",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "16",
+      "start": 816,
+      "end": 864,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "empowerment formula opener; hollow unless completed with a specific action",
+      "evidence": [],
+      "original": {
+        "candidate": "you have the power to",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "17",
+      "start": 866,
+      "end": 908,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "affirmation formula; assertive but content-free",
+      "evidence": [
+        "you are enough"
+      ],
+      "original": {
+        "candidate": "you are enough",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "18",
+      "start": 910,
+      "end": 948,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "unconditional positive regard formula; applies to every human by default, says nothing",
+      "evidence": [],
+      "original": {
+        "candidate": "you deserve to be happy",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "20",
+      "start": 1005,
+      "end": 1054,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "generic directive; FP risk in genuine change-management writing, but usually a hollow imperative",
+      "evidence": [
+        "embrace change"
+      ],
+      "original": {
+        "candidate": "embrace change",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "21",
+      "start": 1056,
+      "end": 1111,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "hollow affirmation; 'who you are' is unspecified by design",
+      "evidence": [
+        "embrace who you are"
+      ],
+      "original": {
+        "candidate": "embrace who you are",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "22",
+      "start": 1113,
+      "end": 1172,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "embrace + potential compound; documented in genre-slop.md as a cluster entry",
+      "evidence": [
+        "embrace your potential"
+      ],
+      "original": {
+        "candidate": "embrace your potential",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "23",
+      "start": 1174,
+      "end": 1219,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "synonym cycling on 'unlock your potential'; documented in genre-slop.md",
+      "evidence": [
+        "tap into your potential"
+      ],
+      "original": {
+        "candidate": "tap into your potential",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "24",
+      "start": 1221,
+      "end": 1270,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "forceful variant of unlock/tap-into cluster; genre-slop.md flags this exact phrase",
+      "evidence": [
+        "unleash your potential"
+      ],
+      "original": {
+        "candidate": "unleash your potential",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "25",
+      "start": 1272,
+      "end": 1323,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "adjective inflation applied to any event; FP risk in genuine program/retreat descriptions",
+      "evidence": [
+        "a transformative experience"
+      ],
+      "original": {
+        "candidate": "a transformative experience",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "26",
+      "start": 1325,
+      "end": 1373,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "noun-phrase variant attaching transformation to any practice",
+      "evidence": [
+        "transformative power of"
+      ],
+      "original": {
+        "candidate": "transformative power of",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "28",
+      "start": 1450,
+      "end": 1506,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "reductive advice that dismisses complexity; genre-slop.md flags this exact phrase",
+      "evidence": [
+        "just stay positive"
+      ],
+      "original": {
+        "candidate": "just stay positive",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "29",
+      "start": 1508,
+      "end": 1560,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "'journey' slop applied specifically to health, from genre-slop.md medical/health section",
+      "evidence": [
+        "your wellness journey"
+      ],
+      "original": {
+        "candidate": "your wellness journey",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "30",
+      "start": 1562,
+      "end": 1612,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "Dweck's term now stripped of meaning; used as a hollow badge rather than a description of specific cognitive habits; FP risk in genuine educational/psychological writing",
+      "evidence": [
+        "growth mindset"
+      ],
+      "original": {
+        "candidate": "growth mindset",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "31",
+      "start": 1614,
+      "end": 1666,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "therapy-speak platitude meaning nothing more specific than 'try'; no concrete action",
+      "evidence": [
+        "show up for yourself"
+      ],
+      "original": {
+        "candidate": "show up for yourself",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "33",
+      "start": 1719,
+      "end": 1768,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "variant of 'do the work'; same hollow directive pattern",
+      "evidence": [
+        "put in the work"
+      ],
+      "original": {
+        "candidate": "put in the work",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "34",
+      "start": 1770,
+      "end": 1819,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "wellness-adjacent platitude; 'intention' here means nothing operational",
+      "evidence": [
+        "live with intention"
+      ],
+      "original": {
+        "candidate": "live with intention",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "35",
+      "start": 1821,
+      "end": 1877,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "wellness ritual language used as a vague action directive",
+      "evidence": [
+        "set your intentions"
+      ],
+      "original": {
+        "candidate": "set your intentions",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "36",
+      "start": 1879,
+      "end": 1937,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "law-of-attraction language presenting visualization as a causal mechanism",
+      "evidence": [
+        "manifest your dreams"
+      ],
+      "original": {
+        "candidate": "manifest your dreams",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "37",
+      "start": 1939,
+      "end": 1993,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "wellness directive that has become hollow through repetition; FP risk when discussing actual gratitude research or practices with specifics",
+      "evidence": [
+        "practice gratitude"
+      ],
+      "original": {
+        "candidate": "practice gratitude",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "39",
+      "start": 2043,
+      "end": 2087,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "goal-setting directive assuming purpose is singular and findable; no method given",
+      "evidence": [
+        "find your purpose"
+      ],
+      "original": {
+        "candidate": "find your purpose",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "40",
+      "start": 2089,
+      "end": 2147,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "follow-on to 'find your purpose'; equally hollow",
+      "evidence": [
+        "live your purpose"
+      ],
+      "original": {
+        "candidate": "live your purpose",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "41",
+      "start": 2149,
+      "end": 2199,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "posits a hidden true identity distinct from the presented self; no mechanism for locating it",
+      "evidence": [
+        "your authentic self"
+      ],
+      "original": {
+        "candidate": "your authentic self",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "42",
+      "start": 2201,
+      "end": 2253,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "variant of authentic-self cluster; tautological imperative",
+      "evidence": [
+        "be authentically you"
+      ],
+      "original": {
+        "candidate": "be authentically you",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "43",
+      "start": 2255,
+      "end": 2305,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "vague psychological state deployed as a universal goal without description; FP risk in genuine meditation or clinical contexts",
+      "evidence": [
+        "inner peace"
+      ],
+      "original": {
+        "candidate": "inner peace",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "44",
+      "start": 2307,
+      "end": 2358,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "genre-slop.md flags 'take control of your health today' as a motivational filler with zero specificity",
+      "evidence": [
+        "take control of your health"
+      ],
+      "original": {
+        "candidate": "take control of your health",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "45",
+      "start": 2360,
+      "end": 2423,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "genre-slop.md flags this exact phrase as an empty platitude in health content",
+      "evidence": [
+        "small changes can make a big difference"
+      ],
+      "original": {
+        "candidate": "small changes can make a big difference",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "46",
+      "start": 2425,
+      "end": 2499,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "genre-slop.md flags this as a 'vague directive masquerading as advice'; FP risk is slightly higher in clinical/athletic contexts where it means something specific",
+      "evidence": [
+        "listen to your body"
+      ],
+      "original": {
+        "candidate": "listen to your body",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "47",
+      "start": 2501,
+      "end": 2538,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "variant of 'your best self'; posits a superior self-iteration without specifying it",
+      "evidence": [
+        "your best version"
+      ],
+      "original": {
+        "candidate": "your best version",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "49",
+      "start": 2580,
+      "end": 2618,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "cheerleader affirmation with zero informational content; appears constantly in AI self-help closers",
+      "evidence": [
+        "you've got this"
+      ],
+      "original": {
+        "candidate": "you've got this",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "50",
+      "start": 2620,
+      "end": 2678,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "genre-slop.md flags this as 'empty reassurance'; content-free",
+      "evidence": [
+        "you'll get through this"
+      ],
+      "original": {
+        "candidate": "you'll get through this",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "51",
+      "start": 2680,
+      "end": 2729,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "journey metaphor as a call-to-action; completely generic",
+      "evidence": [
+        "start your journey"
+      ],
+      "original": {
+        "candidate": "start your journey",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "52",
+      "start": 2731,
+      "end": 2780,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "journey metaphor used as filler to describe any ongoing process; FP risk in literal travel contexts",
+      "evidence": [
+        "on your journey"
+      ],
+      "original": {
+        "candidate": "on your journey",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "53",
+      "start": 2782,
+      "end": 2825,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "values-alignment language that presupposes articulated values without prompting the reader to specify them",
+      "evidence": [
+        "align with your values"
+      ],
+      "original": {
+        "candidate": "align with your values",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "54",
+      "start": 2827,
+      "end": 2884,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "agency-assertion formula; implies life is fully authored by individual will",
+      "evidence": [
+        "create the life you want"
+      ],
+      "original": {
+        "candidate": "create the life you want",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "55",
+      "start": 2886,
+      "end": 2940,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "entitlement framing used to replace effort instructions; applies universally, says nothing",
+      "evidence": [
+        "deserve success"
+      ],
+      "original": {
+        "candidate": "deserve success",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "56",
+      "start": 2942,
+      "end": 2996,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "scarcity vs. abundance framing from Covey/New-Age tradition; now a hollow badge in self-help content",
+      "evidence": [
+        "abundance mindset"
+      ],
+      "original": {
+        "candidate": "abundance mindset",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "57",
+      "start": 2998,
+      "end": 3042,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "spiritual-self framework used as shorthand for aspiration; no operational meaning",
+      "evidence": [
+        "your higher self"
+      ],
+      "original": {
+        "candidate": "your higher self",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "58",
+      "start": 3044,
+      "end": 3086,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "therapy-adjacent term now used as a vague label for any self-reflection activity; FP risk in genuine therapeutic writing",
+      "evidence": [
+        "inner work"
+      ],
+      "original": {
+        "candidate": "inner work",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "59",
+      "start": 3088,
+      "end": 3134,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "therapeutic frame applied to abstract nouns (money, food, time) as a generic reframing hook; FP risk when referring to actual relationships",
+      "evidence": [
+        "heal your relationship with"
+      ],
+      "original": {
+        "candidate": "heal your relationship with",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "60",
+      "start": 3136,
+      "end": 3188,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "empowerment formula implying power was taken, now recoverable through the advice offered; no mechanism given",
+      "evidence": [
+        "reclaim your power"
+      ],
+      "original": {
+        "candidate": "reclaim your power",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "61",
+      "start": 3190,
+      "end": 3248,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "self-improvement framing that conflates personal development with financial logic; used to justify any purchase or practice; FP risk is moderate since the phrase has genuine uses",
+      "evidence": [
+        "invest in yourself"
+      ],
+      "original": {
+        "candidate": "invest in yourself",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "62",
+      "start": 3250,
+      "end": 3290,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "survive/thrive contrast template; formulaic binary with no specifics on what thriving means",
+      "evidence": [
+        "thrive, not just survive"
+      ],
+      "original": {
+        "candidate": "thrive, not just survive",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "63",
+      "start": 3292,
+      "end": 3348,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "narrative-self empowerment formula; vague action directive",
+      "evidence": [
+        "own your story"
+      ],
+      "original": {
+        "candidate": "own your story",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "64",
+      "start": 3350,
+      "end": 3386,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "relativistic framing that treats personal perspective as unquestionable fact; 'speak your truth' is the fuller form",
+      "evidence": [
+        "your truth"
+      ],
+      "original": {
+        "candidate": "your truth",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "65",
+      "start": 3388,
+      "end": 3437,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "Gandhi misquote recycled as a hollow imperative in self-help and marketing copy",
+      "evidence": [
+        "be the change"
+      ],
+      "original": {
+        "candidate": "be the change",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "66",
+      "start": 3439,
+      "end": 3486,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "'radical' used as an intensifier to distinguish from ordinary self-acceptance; the modifier adds no specific meaning",
+      "evidence": [
+        "radical self-love"
+      ],
+      "original": {
+        "candidate": "radical self-love",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "67",
+      "start": 3488,
+      "end": 3523,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "formulaic rebuttal to a strawman; the sentence structure signals the genre",
+      "evidence": [
+        "self-care is not selfish"
+      ],
+      "original": {
+        "candidate": "self-care is not selfish",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "68",
+      "start": 3525,
+      "end": 3580,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "emotional-validation directive that validates without guiding; FP risk in genuine therapeutic writing",
+      "evidence": [
+        "honor your feelings"
+      ],
+      "original": {
+        "candidate": "honor your feelings",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "69",
+      "start": 3582,
+      "end": 3639,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "genre-slop.md flags this exact phrase as a 'not X, it's Y aphorism with zero content'",
+      "evidence": [
+        "life is a journey, not a destination"
+      ],
+      "original": {
+        "candidate": "life is a journey, not a destination",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "70",
+      "start": 3641,
+      "end": 3684,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "reversed variant of the above; same zero-content aphorism",
+      "evidence": [
+        "not a destination but a journey"
+      ],
+      "original": {
+        "candidate": "not a destination but a journey",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "71",
+      "start": 3686,
+      "end": 3739,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "motivational platitude implying all starting points are equivalent; typically precedes a call-to-action",
+      "evidence": [
+        "start where you are"
+      ],
+      "original": {
+        "candidate": "start where you are",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "72",
+      "start": 3741,
+      "end": 3814,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "extended form of 'your best self'; product-sales framing of personal development",
+      "evidence": [
+        "the best version of yourself"
+      ],
+      "original": {
+        "candidate": "the best version of yourself",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "73",
+      "start": 3816,
+      "end": 3864,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "empowerment-action metaphor that implies power is a space one can physically enter; no mechanism given",
+      "evidence": [
+        "stepping into your power"
+      ],
+      "original": {
+        "candidate": "stepping into your power",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "74",
+      "start": 3866,
+      "end": 3919,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "deterministic framing used to validate any current state; unfalsifiable",
+      "evidence": [
+        "where you are meant to be"
+      ],
+      "original": {
+        "candidate": "where you are meant to be",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "75",
+      "start": 3921,
+      "end": 3972,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "validation formula that accepts the status quo as correct by assertion; common in AI-generated affirmation content",
+      "evidence": [],
+      "original": {
+        "candidate": "you are exactly where you need to be",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "76",
+      "start": 3974,
+      "end": 4027,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "self-prioritization directive; 'choose' is used intransitively, eliminating the need to specify what the choice entails",
+      "evidence": [],
+      "original": {
+        "candidate": "choose yourself",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "77",
+      "start": 4029,
+      "end": 4089,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "container-self metaphor for self-investment; deliberately vague about what 'pouring' means",
+      "evidence": [
+        "pour into yourself"
+      ],
+      "original": {
+        "candidate": "pour into yourself",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "78",
+      "start": 4091,
+      "end": 4156,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "justification-for-self-care metaphor in cliche form; common in wellness and coaching content",
+      "evidence": [],
+      "original": {
+        "candidate": "you can't pour from an empty cup",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "79",
+      "start": 4158,
+      "end": 4210,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "empowerment directive originating in feminist discourse, now a hollow affirmation deployed generically; FP risk in genuine discussions of social space-claiming",
+      "evidence": [
+        "take up space"
+      ],
+      "original": {
+        "candidate": "take up space",
+        "fpRisk": "med",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    },
+    {
+      "id": "80",
+      "start": 4212,
+      "end": 4263,
+      "check": "slopless/self-help-platitudes",
+      "expected": true,
+      "reason": "variant of 'inner work'; the 'do' form appears as a complete directive without specifying the work",
+      "evidence": [
+        "do the inner work"
+      ],
+      "original": {
+        "candidate": "do the inner work",
+        "fpRisk": "low",
+        "source": "datasets/experiments/candidates/self-help-platitudes.json"
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "1",
+      "start": 0,
+      "end": 55
+    },
+    {
+      "id": "2",
+      "start": 57,
+      "end": 106
+    },
+    {
+      "id": "3",
+      "start": 108,
+      "end": 157
+    },
+    {
+      "id": "4",
+      "start": 159,
+      "end": 207
+    },
+    {
+      "id": "5",
+      "start": 209,
+      "end": 255
+    },
+    {
+      "id": "6",
+      "start": 257,
+      "end": 292
+    },
+    {
+      "id": "7",
+      "start": 294,
+      "end": 353
+    },
+    {
+      "id": "8",
+      "start": 355,
+      "end": 409
+    },
+    {
+      "id": "9",
+      "start": 411,
+      "end": 462
+    },
+    {
+      "id": "10",
+      "start": 464,
+      "end": 520
+    },
+    {
+      "id": "11",
+      "start": 522,
+      "end": 581
+    },
+    {
+      "id": "12",
+      "start": 583,
+      "end": 630
+    },
+    {
+      "id": "13",
+      "start": 632,
+      "end": 698
+    },
+    {
+      "id": "14",
+      "start": 700,
+      "end": 759
+    },
+    {
+      "id": "15",
+      "start": 761,
+      "end": 814
+    },
+    {
+      "id": "16",
+      "start": 816,
+      "end": 864
+    },
+    {
+      "id": "17",
+      "start": 866,
+      "end": 908
+    },
+    {
+      "id": "18",
+      "start": 910,
+      "end": 948
+    },
+    {
+      "id": "19",
+      "start": 950,
+      "end": 1003
+    },
+    {
+      "id": "20",
+      "start": 1005,
+      "end": 1054
+    },
+    {
+      "id": "21",
+      "start": 1056,
+      "end": 1111
+    },
+    {
+      "id": "22",
+      "start": 1113,
+      "end": 1172
+    },
+    {
+      "id": "23",
+      "start": 1174,
+      "end": 1219
+    },
+    {
+      "id": "24",
+      "start": 1221,
+      "end": 1270
+    },
+    {
+      "id": "25",
+      "start": 1272,
+      "end": 1323
+    },
+    {
+      "id": "26",
+      "start": 1325,
+      "end": 1373
+    },
+    {
+      "id": "27",
+      "start": 1375,
+      "end": 1448
+    },
+    {
+      "id": "28",
+      "start": 1450,
+      "end": 1506
+    },
+    {
+      "id": "29",
+      "start": 1508,
+      "end": 1560
+    },
+    {
+      "id": "30",
+      "start": 1562,
+      "end": 1612
+    },
+    {
+      "id": "31",
+      "start": 1614,
+      "end": 1666
+    },
+    {
+      "id": "32",
+      "start": 1668,
+      "end": 1717
+    },
+    {
+      "id": "33",
+      "start": 1719,
+      "end": 1768
+    },
+    {
+      "id": "34",
+      "start": 1770,
+      "end": 1819
+    },
+    {
+      "id": "35",
+      "start": 1821,
+      "end": 1877
+    },
+    {
+      "id": "36",
+      "start": 1879,
+      "end": 1937
+    },
+    {
+      "id": "37",
+      "start": 1939,
+      "end": 1993
+    },
+    {
+      "id": "38",
+      "start": 1995,
+      "end": 2041
+    },
+    {
+      "id": "39",
+      "start": 2043,
+      "end": 2087
+    },
+    {
+      "id": "40",
+      "start": 2089,
+      "end": 2147
+    },
+    {
+      "id": "41",
+      "start": 2149,
+      "end": 2199
+    },
+    {
+      "id": "42",
+      "start": 2201,
+      "end": 2253
+    },
+    {
+      "id": "43",
+      "start": 2255,
+      "end": 2305
+    },
+    {
+      "id": "44",
+      "start": 2307,
+      "end": 2358
+    },
+    {
+      "id": "45",
+      "start": 2360,
+      "end": 2423
+    },
+    {
+      "id": "46",
+      "start": 2425,
+      "end": 2499
+    },
+    {
+      "id": "47",
+      "start": 2501,
+      "end": 2538
+    },
+    {
+      "id": "48",
+      "start": 2540,
+      "end": 2578
+    },
+    {
+      "id": "49",
+      "start": 2580,
+      "end": 2618
+    },
+    {
+      "id": "50",
+      "start": 2620,
+      "end": 2678
+    },
+    {
+      "id": "51",
+      "start": 2680,
+      "end": 2729
+    },
+    {
+      "id": "52",
+      "start": 2731,
+      "end": 2780
+    },
+    {
+      "id": "53",
+      "start": 2782,
+      "end": 2825
+    },
+    {
+      "id": "54",
+      "start": 2827,
+      "end": 2884
+    },
+    {
+      "id": "55",
+      "start": 2886,
+      "end": 2940
+    },
+    {
+      "id": "56",
+      "start": 2942,
+      "end": 2996
+    },
+    {
+      "id": "57",
+      "start": 2998,
+      "end": 3042
+    },
+    {
+      "id": "58",
+      "start": 3044,
+      "end": 3086
+    },
+    {
+      "id": "59",
+      "start": 3088,
+      "end": 3134
+    },
+    {
+      "id": "60",
+      "start": 3136,
+      "end": 3188
+    },
+    {
+      "id": "61",
+      "start": 3190,
+      "end": 3248
+    },
+    {
+      "id": "62",
+      "start": 3250,
+      "end": 3290
+    },
+    {
+      "id": "63",
+      "start": 3292,
+      "end": 3348
+    },
+    {
+      "id": "64",
+      "start": 3350,
+      "end": 3386
+    },
+    {
+      "id": "65",
+      "start": 3388,
+      "end": 3437
+    },
+    {
+      "id": "66",
+      "start": 3439,
+      "end": 3486
+    },
+    {
+      "id": "67",
+      "start": 3488,
+      "end": 3523
+    },
+    {
+      "id": "68",
+      "start": 3525,
+      "end": 3580
+    },
+    {
+      "id": "69",
+      "start": 3582,
+      "end": 3639
+    },
+    {
+      "id": "70",
+      "start": 3641,
+      "end": 3684
+    },
+    {
+      "id": "71",
+      "start": 3686,
+      "end": 3739
+    },
+    {
+      "id": "72",
+      "start": 3741,
+      "end": 3814
+    },
+    {
+      "id": "73",
+      "start": 3816,
+      "end": 3864
+    },
+    {
+      "id": "74",
+      "start": 3866,
+      "end": 3919
+    },
+    {
+      "id": "75",
+      "start": 3921,
+      "end": 3972
+    },
+    {
+      "id": "76",
+      "start": 3974,
+      "end": 4027
+    },
+    {
+      "id": "77",
+      "start": 4029,
+      "end": 4089
+    },
+    {
+      "id": "78",
+      "start": 4091,
+      "end": 4156
+    },
+    {
+      "id": "79",
+      "start": 4158,
+      "end": 4210
+    },
+    {
+      "id": "80",
+      "start": 4212,
+      "end": 4263
+    }
+  ]
+}

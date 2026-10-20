@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "textSha256": "7841cab935425996a748d75cfb8be651cfc2f4c43288ed5693ad803cf00793e1",
+  "source": {
+    "commit": "41d341693f9b19a82cdc5cf96576841ba68e879f",
+    "name": "paulgraham",
+    "originalPath": "datasets/corpus/human/business/paulgraham/pg-ds.md",
+    "url": "https://paulgraham.com/ds.html",
+    "license": "LICENSE.md"
+  },
+  "labels": [
+    {
+      "id": "historical-1",
+      "start": 12092,
+      "end": 12156,
+      "check": "slopless/softening-language",
+      "expected": false,
+      "reason": "Historical reviewer: Rule fires on co-occurrence of any modal verb (may, might, could) with any frequency adverb (generally, usually, largely, relatively) or scoping phrase (in some cases, some people). This combination is normal in careful analytical, business, and technical writing where the author is accurately describing partial or probabilistic phenomena. The pattern does not distinguish AI hedging inflation from appropriate epistemic precision.",
+      "evidence": [],
+      "original": {
+        "source": "datasets/experiments/audit/verdicts/generalization-hedge.json",
+        "excerpt": "[business/paulgraham] Any startup that could be described as a marketplace usually has"
+      }
+    }
+  ]
+}
