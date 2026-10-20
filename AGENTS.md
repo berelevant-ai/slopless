@@ -5,6 +5,14 @@
 - Develop cheap, fast decision-model checks that generalize Slopless writing patterns. Scope tasks to named checks; measure missed slop and false positives by family and issue type.
 - This document specifies the target workflow. Inspect the current schema and runners before implementing it; report which parts are operational.
 
+## Product Scope
+
+- Target standardized sloppiness checks with fixed definitions and tested defaults; CLI flags select checks. Business-specific terminology belongs to the separate existing Python workflow.
+- Keep readability measurement and terminology-policy enforcement outside this V2 iteration.
+- Compare Jev with the old CLI before deciding which deterministic checks remain useful and whether textlint support should continue.
+  - Base decisions on labeled evaluation, later corpus validation, highlighting quality, latency, and cost. Preserve production behavior while evaluating the replacement.
+- Read [the proposed V2 taxonomy](.plans/2026-10-20-125402-v2-rule-taxonomy.md) when assigning families and issue types. It accounts for existing coverage while final check definitions remain under review.
+
 ## Storage
 
 - Keep all datasets in root `datasets/`, under `human/`, `ai-suspected/`, `ai-normal/`, or `ai-synthetic/` according to origin.
