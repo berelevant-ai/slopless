@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "check": "semantic-thinness/unexplained-metaphor",
+  "split": "development",
+  "createdAt": "2026-10-20T16:41:40Z",
+  "gitHead": "c21c445c333026e4033f8160e56388118cb715d9",
+  "author": {
+    "agent": "Codex",
+    "initialHead": "c21c445c333026e4033f8160e56388118cb715d9",
+    "rawDraftSha256": "1a5047523e73ad0c2064009af197d4772f80d59422ed57bf702d05bd795933c4",
+    "finalDraftSha256": "325773e4dfe27d0b203d452d9d151a37f7c76dfb7bb5ddd38ca2aced4cafa0bb"
+  },
+  "review": {
+    "requestedModel": "opus",
+    "reportedModels": ["claude-opus-5-5"],
+    "authenticatedCli": "claude",
+    "toolsDisabled": true,
+    "hidden": ["author labels", "author snippets", "class balance"],
+    "definitionSource": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+    "definitionSourceSha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+    "blindCalls": 4,
+    "spanOnlyCalls": 0,
+    "reviewedJudgments": 265,
+    "calls": [
+      {
+        "stage": "initial",
+        "rows": 100,
+        "inputPath": "/tmp/unexplained-metaphor-input-1.json",
+        "inputSha256": "9caf1adf4183533aee0841dd1b52bc186f19b7f78ea67656a331b4a452372296",
+        "blindedTextSha256": "5e4aeabeeeaecd36f9679a0aafa6066b4bf82e669bda4bd4f016bb14cd6ba91b",
+        "responsePath": "/tmp/unexplained-metaphor-review-1.json",
+        "responseSha256": "48f5846a98d795f412199298378f83ead6cbc46992d9425a6f7425bd00551651",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "models": ["claude-opus-5-5"],
+        "costUsd": 0.260768,
+        "durationMs": 65220,
+        "disagreements": [],
+        "objectionIds": [
+          "000011-003",
+          "000011-007",
+          "000011-010",
+          "000011-011",
+          "000011-014",
+          "000011-017",
+          "000011-022",
+          "000011-024",
+          "000011-029",
+          "000011-031",
+          "000011-039",
+          "000011-040",
+          "000011-041",
+          "000011-043",
+          "000011-045",
+          "000011-055",
+          "000011-058",
+          "000011-062",
+          "000011-064",
+          "000011-068",
+          "000011-070",
+          "000011-072",
+          "000011-075",
+          "000011-078",
+          "000011-081",
+          "000011-082",
+          "000011-087",
+          "000011-090",
+          "000011-091",
+          "000011-095",
+          "000011-100"
+        ]
+      },
+      {
+        "stage": "initial",
+        "rows": 100,
+        "inputPath": "/tmp/unexplained-metaphor-input-2.json",
+        "inputSha256": "72607a7cf3c32a42506217c54c2dcc0761a7ee7e903c3b8f6139982e7fc0ad36",
+        "blindedTextSha256": "c5110950fe432d336608e789cdc4fa7512c70dbe9f5d24705dc9c44bb2522ddc",
+        "responsePath": "/tmp/unexplained-metaphor-review-2.json",
+        "responseSha256": "b7671274dcac56e97feaace0f1e659e1066825119dcd3feb0610c4a9605a3058",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "models": ["claude-opus-5-5"],
+        "costUsd": 0.215324,
+        "durationMs": 40651,
+        "disagreements": [],
+        "objectionIds": ["000011-109", "000011-136", "000011-174"]
+      },
+      {
+        "stage": "context-rewrite",
+        "rows": 63,
+        "inputPath": "/tmp/unexplained-metaphor-rewrite-input.json",
+        "inputSha256": "bfb5bf6427f4b752071c2a84ebf3e025f2a29fa7c4d5f8021132816da50446ae",
+        "blindedTextSha256": "9128e2c4b9f4788194b3aa64d8bbac9575f93c7b4b9e2243bcfc788131789f7a",
+        "responsePath": "/tmp/unexplained-metaphor-rewrite-review.json",
+        "responseSha256": "9adc38add469f260ec7d64d7f5ffdc0ae75e4312391682ec47b917b722afd8d4",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "models": ["claude-opus-5-5"],
+        "costUsd": 0.179888,
+        "durationMs": 31995,
+        "disagreements": [],
+        "objectionIds": ["000011-126", "000011-165", "000011-105"]
+      },
+      {
+        "stage": "duplicate-audit-variety-edit",
+        "rows": 2,
+        "inputPath": "/tmp/unexplained-metaphor-variety-input.json",
+        "inputSha256": "6ebe850582b08b62ed57f2e7d6b773a82574f62900e259a12ff8883c8edded61",
+        "blindedTextSha256": "6f722f906c4cc7fe0cddc2d56d991c5bae326f39966bd7aea7a1a569d86b7156",
+        "responsePath": "/tmp/unexplained-metaphor-variety-review.json",
+        "responseSha256": "3ce2ca3d7b270e5e2f48c8415275efffe22bdc52a09e16ac52a3f563ad0b3529",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "models": ["claude-opus-5-5"],
+        "costUsd": 0.04672,
+        "durationMs": 4385,
+        "disagreements": [],
+        "objectionIds": []
+      }
+    ],
+    "totalCostUsd": 0.7027
+  },
+  "counts": {
+    "passages": 200,
+    "judgments": 200,
+    "hits": 100,
+    "noHits": 100,
+    "words": 6634,
+    "minWords": 16,
+    "maxWords": 58,
+    "words45To90": {
+      "hits": 22,
+      "noHits": 22
+    },
+    "originalReviewDisagreements": 0,
+    "originalReviewObjections": 34,
+    "originalObjectionsResolvedByContextRewrite": 30,
+    "originalObjectionsRetainedAfterAdjudication": 4,
+    "subsequentReviewObjections": 3,
+    "adjudicatedObjections": 37,
+    "labelCorrections": 0,
+    "contextRewrites": 63,
+    "postReviewVarietyEdits": 2,
+    "finalReviewedTextMatches": 200,
+    "finalReviewerAgreements": 200,
+    "unresolved": 0
+  },
+  "edits": {
+    "beforeFirstReview": {
+      "varietyRevisions": 37,
+      "exactSnippetCapitalizationNormalized": true,
+      "derivativeCopiesReplaced": 0
+    },
+    "afterInitialReview": {
+      "contextRewriteIds": [
+        "000011-064",
+        "000011-197",
+        "000011-123",
+        "000011-090",
+        "000011-116",
+        "000011-126",
+        "000011-095",
+        "000011-087",
+        "000011-165",
+        "000011-100",
+        "000011-045",
+        "000011-081",
+        "000011-041",
+        "000011-040",
+        "000011-142",
+        "000011-196",
+        "000011-101",
+        "000011-010",
+        "000011-161",
+        "000011-105",
+        "000011-017",
+        "000011-068",
+        "000011-007",
+        "000011-082",
+        "000011-043",
+        "000011-035",
+        "000011-003",
+        "000011-186",
+        "000011-167",
+        "000011-133",
+        "000011-078",
+        "000011-158",
+        "000011-058",
+        "000011-122",
+        "000011-022",
+        "000011-179",
+        "000011-072",
+        "000011-014",
+        "000011-075",
+        "000011-185",
+        "000011-031",
+        "000011-055",
+        "000011-181",
+        "000011-039",
+        "000011-153",
+        "000011-070",
+        "000011-191",
+        "000011-166",
+        "000011-151",
+        "000011-154",
+        "000011-171",
+        "000011-062",
+        "000011-199",
+        "000011-107",
+        "000011-157",
+        "000011-024",
+        "000011-011",
+        "000011-117",
+        "000011-120",
+        "000011-160",
+        "000011-115",
+        "000011-029",
+        "000011-193"
+      ],
+      "additionalAnalogousContextRewriteIds": [
+        "000011-197",
+        "000011-123",
+        "000011-116",
+        "000011-126",
+        "000011-165",
+        "000011-142",
+        "000011-196",
+        "000011-101",
+        "000011-161",
+        "000011-105",
+        "000011-035",
+        "000011-186",
+        "000011-167",
+        "000011-133",
+        "000011-158",
+        "000011-122",
+        "000011-179",
+        "000011-185",
+        "000011-181",
+        "000011-153",
+        "000011-191",
+        "000011-166",
+        "000011-151",
+        "000011-154",
+        "000011-171",
+        "000011-199",
+        "000011-107",
+        "000011-157",
+        "000011-117",
+        "000011-120",
+        "000011-160",
+        "000011-115",
+        "000011-193"
+      ],
+      "reason": "Remove editorial judgments about absent explanations and reported-document criticism, so the passage itself asserts the deficient relationship. Preserve every intended positive and every negative. The thirty flagged and thirty-three analogous contexts required this repair independently of reviewer agreement."
+    },
+    "nearestMatchVarietyEdits": {
+      "ids": ["000011-037", "000011-191"],
+      "reason": "Replace repeated authority-to-branch phrasing and repeated angle-of-a-metaphor phrasing found during private nearest-match inspection. Preserve their unexplained explanatory claims."
+    }
+  },
+  "adjudications": [
+    {
+      "ids": [
+        "000011-003",
+        "000011-007",
+        "000011-010",
+        "000011-011",
+        "000011-014",
+        "000011-017",
+        "000011-022",
+        "000011-024",
+        "000011-029",
+        "000011-031",
+        "000011-039",
+        "000011-040",
+        "000011-041",
+        "000011-043",
+        "000011-045",
+        "000011-055",
+        "000011-058",
+        "000011-062",
+        "000011-064",
+        "000011-068",
+        "000011-070",
+        "000011-072",
+        "000011-075",
+        "000011-078",
+        "000011-081",
+        "000011-082",
+        "000011-087",
+        "000011-090",
+        "000011-095",
+        "000011-100"
+      ],
+      "decision": "rewrite-context-and-review-again",
+      "reviewerConcern": "Reported criticism of an empty explanation may be exempt discussion of writing.",
+      "reason": "Explicit editorial absence statements introduce a second valid reading under the criticism exemption. Final contexts state the claims directly and remove that ambiguity; labels remain hits."
+    },
+    {
+      "id": "000011-091",
+      "decision": "retain-no-hit",
+      "reviewerConcern": "Turning a corner might leave the outcome vague.",
+      "reason": "The change from custom orders to three standard sizes is supplied. The conventional turn does not obscure an explanatory relationship; another change-related defect remains unassessed."
+    },
+    {
+      "id": "000011-109",
+      "decision": "retain-no-hit",
+      "reviewerConcern": "The unpaid-bill simile may be narrative tension.",
+      "reason": "The recurring unanswered question about caring for the father identifies the outstanding obligation; the figurative mapping is recoverable."
+    },
+    {
+      "id": "000011-136",
+      "decision": "retain-no-hit",
+      "reviewerConcern": "The chair is personified.",
+      "reason": "The missed final visit and the mother's usual seat identify the source of guilt. The chair's accusation is informative implicit figuration."
+    },
+    {
+      "id": "000011-174",
+      "decision": "retain-hit",
+      "reviewerConcern": "Care and geography could be vague abstraction rather than a metaphor.",
+      "reason": "Care is given agency to change its relation to its own geography as the entire mechanism for meeting needs. The grant's geographic action remains indeterminate; the red-folder detail supplies none of it."
+    },
+    {
+      "id": "000011-126",
+      "decision": "retain-rewritten-hit",
+      "reviewerConcern": "The inheritance narrative might belong to narrative craft.",
+      "reason": "The figure claims to explain the emergence of rights and possession. Neither physicalized emotion nor atmospheric description supplies that legal relationship."
+    },
+    {
+      "id": "000011-165",
+      "decision": "retain-rewritten-hit",
+      "reviewerConcern": "Personal narrative could suggest narrative craft.",
+      "reason": "The costume and permission are asserted as the financing relationship between savings and repairs. Counting envelopes and washing cups leave that relationship unclear."
+    },
+    {
+      "id": "000011-105",
+      "decision": "retain-rewritten-hit",
+      "reviewerConcern": "Grief could be an emotional-craft figure.",
+      "reason": "The estate's settlement of possession is expressly attributed to the grief currency. The passage supplies no relationship explaining that settlement; the figure does explanatory work beyond atmosphere."
+    }
+  ],
+  "duplicateAudit": {
+    "normalization": "Lowercase ASCII words with internal apostrophes; Jaccard sets of words and contiguous three-word shingles.",
+    "initial": {
+      "thresholds": {
+        "wordJaccard": 0.5,
+        "threeWordShingleJaccard": 0.3
+      },
+      "counts": {
+        "passages": 200,
+        "developmentPassages": 200,
+        "exampleOrPromptSegments": 229
+      },
+      "within": {
+        "pairs": 19900,
+        "exact": 0,
+        "maxWord": 0.3157894736842105,
+        "maxThreeWordShingle": 0.08888888888888889,
+        "wordAtLeast050": 0,
+        "shingleAtLeast030": 0
+      },
+      "external": {
+        "pairs": 85800,
+        "exact": 0,
+        "maxWord": 0.23333333333333334,
+        "maxThreeWordShingle": 0.06666666666666667,
+        "wordAtLeast050": 0,
+        "shingleAtLeast030": 0
+      },
+      "referenceHashes": [
+        {
+          "path": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+          "sha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916"
+        },
+        {
+          "path": "prompts/README.md",
+          "sha256": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b"
+        },
+        {
+          "path": "prompts/v1/abstract-contrast.md",
+          "sha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676"
+        },
+        {
+          "path": "prompts/v1/emotion-as-substance.md",
+          "sha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72"
+        },
+        {
+          "path": "prompts/v1/generic-realization.md",
+          "sha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465"
+        },
+        {
+          "path": "prompts/v1/shared.md",
+          "sha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+        }
+      ]
+    },
+    "final": {
+      "thresholds": {
+        "wordJaccard": 0.5,
+        "threeWordShingleJaccard": 0.3
+      },
+      "counts": {
+        "passages": 200,
+        "developmentPassages": 1200,
+        "exampleOrPromptSegments": 229
+      },
+      "within": {
+        "pairs": 19900,
+        "exact": 0,
+        "maxWord": 0.24390243902439024,
+        "maxThreeWordShingle": 0.04,
+        "wordAtLeast050": 0,
+        "shingleAtLeast030": 0
+      },
+      "external": {
+        "pairs": 285800,
+        "exact": 0,
+        "maxWord": 0.28125,
+        "maxThreeWordShingle": 0.08,
+        "wordAtLeast050": 0,
+        "shingleAtLeast030": 0
+      },
+      "referenceHashes": [
+        {
+          "path": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+          "sha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
+          "sha256": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md",
+          "sha256": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+          "sha256": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md",
+          "sha256": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
+          "sha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3"
+        },
+        {
+          "path": "prompts/README.md",
+          "sha256": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b"
+        },
+        {
+          "path": "prompts/v1/abstract-contrast.md",
+          "sha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676"
+        },
+        {
+          "path": "prompts/v1/emotion-as-substance.md",
+          "sha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72"
+        },
+        {
+          "path": "prompts/v1/generic-realization.md",
+          "sha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465"
+        },
+        {
+          "path": "prompts/v1/shared.md",
+          "sha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+        }
+      ]
+    },
+    "privateInspection": "Inspected nearest word-set and three-word-shingle pairs, including below-threshold maxima. Existing development parallels share only generic constructions. Two local repeated phrasings were rewritten and reviewed again.",
+    "holdoutAccess": false
+  },
+  "validation": {
+    "schemaVersion": 2,
+    "split": "development",
+    "readDocument": {
+      "status": "passed",
+      "labels": 200,
+      "samples": 200
+    },
+    "loadDataset": {
+      "status": "passed",
+      "rows": 200
+    },
+    "uniqueIds": 200,
+    "hitSnippetsExact": true,
+    "hitSnippetsCopiedFromOpus": true,
+    "noHitSnippetsOmitted": true,
+    "onePhysicalParagraphLine": true,
+    "ascii": true,
+    "formatterCheck": "passed after formatting with prose-wrap preserve and ignore-path /dev/null",
+    "formatCommand": "node_modules/.bin/prettier --write --prose-wrap preserve --ignore-path /dev/null datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.labels.json runners/results/unexplained-metaphor-development-opus-review.json",
+    "finalTextSha256": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+    "labelsSha256": "975d73b18aa7a034ac996f6bbfacbcbf311aa10570a56a26d9804803d4cf0a91",
+    "finalReviewedTargetSha256": "5ec1a2791e47d79941c2f33cc841b656b1f9b0d3c2b97e46206e73f234a5f85d",
+    "reviewedTextProof": "Each final sample equals its latest raw blind-review input byte for byte. Each review input hash is checked against the helper's blinded target hash; every final hit uses the corresponding Opus snippets unchanged.",
+    "otherChecks": "unassessed",
+    "slopless": "omitted for intentional bad examples"
+  },
+  "artifacts": {
+    "markdown": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
+    "labels": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.labels.json",
+    "review": "runners/results/unexplained-metaphor-development-opus-review.json"
+  },
+  "unresolved": [],
+  "supplementalQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "review-complete",
+    "coverage": {
+      "passages": 200,
+      "finalRawTextMatches": 200,
+      "exactOpusHitSnippetMatches": 100
+    },
+    "rawResponseRetention": "Original review responses available and verified.",
+    "mixedFollowup": {
+      "passages": 200,
+      "calls": 2,
+      "disagreements": 0,
+      "objections": 3,
+      "callsMetadata": [
+        {
+          "passages": 100,
+          "hits": 53,
+          "noHits": 47,
+          "input": "/tmp/slopless-family-qa-b-unexplained-metaphor-mixed-input-1.json",
+          "output": "/tmp/slopless-family-qa-b-unexplained-metaphor-mixed-output-1.json",
+          "inputSha256": "7fd7f4057eb2ebbe7b9d1133ab1667bbff7d0e5746d4f26af74847f68e161061",
+          "outputSha256": "a91c7f451b758206564777150a77ea197f6a56a62d14a7baaf266e6b6166f7eb",
+          "reviewedTargetsSha256": "a3c4960ffb8b0a853c722fdc34adbf5d984c9d2ab3fe427456341181767f2044",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.21012799999999998
+        },
+        {
+          "passages": 100,
+          "hits": 47,
+          "noHits": 53,
+          "input": "/tmp/slopless-family-qa-b-unexplained-metaphor-mixed-input-2.json",
+          "output": "/tmp/slopless-family-qa-b-unexplained-metaphor-mixed-output-2.json",
+          "inputSha256": "7b9cd91cc3b928ef814c5df6e07925cee4a7255e9f2aa0ef61931dd4ed650264",
+          "outputSha256": "f2a5e67f09f05eefa52b40bbfd9fcf153ed8dca8fa303b64e29fdad20a7c7644",
+          "reviewedTargetsSha256": "8a4c217463ac5df36f38514dbd6fd5fa6b44074b33a10e21d4ea88ceb4ed81b4",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.206884
+        }
+      ],
+      "blindInputFields": ["id", "text"],
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "neutralRemappedIds": true,
+      "originalCountsPreserved": true,
+      "reason": "Review final texts in mixed batches after class-pure revision calls."
+    },
+    "unresolvedLabelErrors": 0,
+    "unresolvedBoundaryConcerns": 0,
+    "unresolvedArtifactConcerns": 0,
+    "privateFindingsPath": "/tmp/slopless-family-qa-b-000011-private.json",
+    "aggregateSummaryPath": "/tmp/slopless-family-qa-b-summary.json",
+    "datasetEditsPerformed": 0
+  },
+  "finalIndependentQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "passed",
+    "passages": 200,
+    "hits": 100,
+    "noHits": 100,
+    "words": 6634,
+    "longHits": 22,
+    "longNoHits": 22,
+    "originalTextsAndIdsRetained": 200,
+    "postIndependentLabelCorrections": 0,
+    "addedPassages": 0,
+    "currentFinalTextsMatchedToRawBlindInput": 200,
+    "currentHitSnippetSelectionsMatchedToActualOpus": 100,
+    "currentOpusSnippetStrings": 100,
+    "labelSuppliedSpanOnlyHitSelections": 0,
+    "latestAvailableBlindReviewDisagreements": 0,
+    "disagreementScope": "Latest actual matching blind classification per current passage, including the independent mixed followup; original counts remain in their original fields.",
+    "previousLabelOrBoundaryFindingsResolved": 0,
+    "unresolvedLabelOrBoundaryConcerns": 0,
+    "currentFinalProvenanceGaps": 0,
+    "historicalRetentionFindings": 0,
+    "unrecoveredHistoricalResponses": 0,
+    "finalOverlap": {
+      "targetPassages": 1620,
+      "familyCollectionsCompared": 18,
+      "legacyCollectionsCompared": 4,
+      "referenceUnits": 507,
+      "thresholdCandidatesInspected": 32,
+      "newAdditionNearestCandidatesInspected": 40,
+      "exactCopies": 0,
+      "derivativeConcerns": 0
+    },
+    "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
+    "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
+  }
+}

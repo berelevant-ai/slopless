@@ -1,0 +1,200 @@
+{
+  "independentQa": {
+    "reviewedAt": "2026-10-20T17:04:47Z",
+    "reviewer": "Fresh Codex reviewer A",
+    "summaryPath": "/tmp/slopless-family-qa-a-summary.json",
+    "finalTextsMatchedToRawBlindReview": 200,
+    "hitSnippetSelectionsMatchedToRawOpus": 100,
+    "adjudicationEntriesReviewedAgainstFinalRows": 8,
+    "objectionOrDisagreementEventsMappedToAdjudicatedFinalRows": 8,
+    "initialBatchClassCounts": [
+      [55, 45],
+      [45, 55]
+    ],
+    "supplementalModelCalls": 0,
+    "supplementalMixedBatchReviewRequired": false,
+    "newLabelCorrectionsRequired": 0,
+    "materialConcerns": 0,
+    "recoveredRawArtifacts": {
+      "method": "Reconstructed original inputs and responses from retained author rows, final selections, original objections, recorded call metadata, and the unchanged shared prompt. Each recovered file matches the pre-existing SHA-256 for its original bytes; original counts and hashes are preserved.",
+      "inputPaths": [
+        "/tmp/slopless-qa-a-recovered-hollow-development-input-1.json",
+        "/tmp/slopless-qa-a-recovered-hollow-development-input-2.json"
+      ],
+      "responsePaths": [
+        "/tmp/slopless-qa-a-recovered-hollow-development-review-1.json",
+        "/tmp/slopless-qa-a-recovered-hollow-development-review-2.json"
+      ],
+      "filesMatchingOriginalSha256": 4
+    }
+  },
+  "dataset": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md",
+  "labels": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.labels.json",
+  "check": "semantic-thinness/hollow-significance",
+  "split": "development",
+  "textSha256": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+  "labelsSha256": "b9bef198be8f3ec498ba0201b6ecb413887b523c31ea774d6c0f44b562e76f67",
+  "gitHead": "c21c445c333026e4033f8160e56388118cb715d9",
+  "authorModel": "Codex (current author session)",
+  "counts": {
+    "passages": 200,
+    "hits": 100,
+    "noHits": 100,
+    "words": 5206,
+    "minimumWords": 12,
+    "maximumWords": 57,
+    "passages45To90Words": 40,
+    "longHits": 20,
+    "longNoHits": 20
+  },
+  "review": {
+    "procedure": "Authenticated Claude CLI through the existing shared helper; tools disabled; only shuffled id/text targets supplied; author judgments, snippets and class balance withheld. All raw inputs, prompts, responses, drafts and local assembly scripts retained in /tmp.",
+    "callCount": 2,
+    "initialDisagreements": 0,
+    "initialAgreements": 200,
+    "initialObjections": 8,
+    "labelCorrections": 0,
+    "postReviewTextRewrites": 0,
+    "replacementCalls": 0,
+    "finalAgreements": 200,
+    "unresolved": 0,
+    "batches": [
+      {
+        "passages": 100,
+        "models": ["claude-opus-5-5"],
+        "inputFileSha256": "643c593d9ed5989068e6b45abf0335de73d4558d7cfefefb5d444bf20ca3d601",
+        "blindTargetsSha256": "a819e04c65e2f1c3128e754d75751a3a6fb919baa14085f06e2316219b837792",
+        "responseFileSha256": "ecd9fc43cfd58f73794b3518a2a89bdb81191f182858bc6952326b2a73ea9a97",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "durationMs": 36666,
+        "costUsd": 0.187284,
+        "originalDisagreements": 0,
+        "originalObjections": 3
+      },
+      {
+        "passages": 100,
+        "models": ["claude-opus-5-5"],
+        "inputFileSha256": "be1262f7c61bc7f793166bb104eb8d0a63b77edf270ec2f4a082201f021e922e",
+        "blindTargetsSha256": "ad373f184f1cefe6b422583519d1c1d3aba04bb410a72a204aba134efaaf041d",
+        "responseFileSha256": "ba01f610ee2baba5532a96842f468a005a2247956e661f7380eb934dfdf9ec00",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "durationMs": 42782,
+        "costUsd": 0.203048,
+        "originalDisagreements": 0,
+        "originalObjections": 5
+      }
+    ],
+    "adjudications": [
+      {
+        "id": "000005-003",
+        "expected": true,
+        "objection": "Could be read as narrative tension (narrative craft), but the price is invoked as the payoff and never specified.",
+        "resolution": "Keep hit: the passage explicitly assigns a price to either delivery choice and says it was considered; neither choice has a supplied cost. Dockside action supplies setting rather than a consequence."
+      },
+      {
+        "id": "000005-022",
+        "expected": false,
+        "objection": "\"an answer of real worth\" invokes value without stating it, but the main defect is an unstated lesson (empty takeaway) plus inflated evaluation (puffery), and both are more specific types.",
+        "resolution": "Keep no-hit: the same omitted content is an announced answer and lesson. The shared most-specific-type decision assigns that omission to empty takeaway."
+      },
+      {
+        "id": "000005-071",
+        "expected": true,
+        "objection": "Could be read as narrative atmosphere, but the stakes are presented as the payoff and are never named.",
+        "resolution": "Keep hit: the decision is asserted to have stakes in ordinary life, while no loss, benefit, or other consequence is supplied. The claim describes the choice rather than a felt atmosphere."
+      },
+      {
+        "id": "000005-116",
+        "expected": false,
+        "objection": "\"Worth remembering\" invokes value without a consequence, but the passage reads mainly as inflated evaluation (\"excellent conclusion to a helpful workshop\"), which falls under puffery.",
+        "resolution": "Keep no-hit: the unspecified recommendation is announced and graded. Empty takeaway is the specific type for that single omission."
+      },
+      {
+        "id": "000005-138",
+        "expected": false,
+        "objection": "\"Felt the stakes\" names stakes without saying what they are, but in context it describes tension as atmosphere, which belongs to narrative craft.",
+        "resolution": "Keep no-hit: felt stakes, prolonged silence, and visual staging describe atmospheric tension. The narrative-craft boundary applies."
+      },
+      {
+        "id": "000005-158",
+        "expected": false,
+        "objection": "No reading is given, but the passage only says that the dial measures load and names an interpretable scale (kilograms). It does not invoke a measured result as a payoff.",
+        "resolution": "Keep no-hit: load is the metric and kilograms the interpretable scale. The accepted measurement boundary permits this information without a particular reading."
+      },
+      {
+        "id": "000005-170",
+        "expected": false,
+        "objection": "The final sentence does not spell out the consequence, but the earlier sentences make it clear: the team needs publication permission before it plays clips at the event.",
+        "resolution": "Keep no-hit: the archive/presentation permissions and forthcoming conference identify the practical consequence before the significance sentence."
+      },
+      {
+        "id": "000005-192",
+        "expected": false,
+        "objection": "\"Valuable takeaway\" claims value without content. The more specific defect is an empty takeaway (\"the answer is care\") with inflated evaluation, so I label it there rather than as hollow significance.",
+        "resolution": "Keep no-hit: care is supplied as a generic answer and graded as a takeaway. The most-specific-type decision assigns that omission to empty takeaway."
+      }
+    ],
+    "snippets": {
+      "source": "Unmodified exact Claude Opus blind-review snippets",
+      "adoptedHits": 100,
+      "changedAuthorSelections": 96
+    }
+  },
+  "duplicateAudit": {
+    "normalization": "Lowercase ASCII word tokens including internal apostrophes; word-set and adjacent three-word-shingle Jaccard; shared-shingle containment against the smaller shingle set.",
+    "thresholds": {
+      "wordJaccard": 0.65,
+      "threeWordShingleJaccard": 0.35,
+      "threeWordShingleContainment": 0.8
+    },
+    "exactDuplicates": 0,
+    "developmentPassages": 400,
+    "developmentSources": [
+      "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.labels.json",
+      "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.labels.json"
+    ],
+    "taxonomyAndPromptReferenceUnits": 587,
+    "within": {
+      "maximumWordJaccard": 0.3333333333333333,
+      "maximumThreeWordShingleJaccard": 0.07142857142857142,
+      "maximumThreeWordShingleContainment": 0.1875,
+      "thresholdFlags": 0
+    },
+    "external": {
+      "maximumWordJaccard": 0.2777777777777778,
+      "maximumThreeWordShingleJaccard": 0.1111111111111111,
+      "maximumThreeWordShingleContainment": 0.6666666666666666,
+      "thresholdFlags": 0
+    },
+    "nearestPairsInspected": true,
+    "beforeReviewEdits": {
+      "passagesRewritten": 5,
+      "reason": "Replaced boundary controls echoing canonical change, realization, metaphor and scope examples before blind review.",
+      "labelChanges": 0
+    },
+    "derivativeCopiesRemaining": 0
+  },
+  "validation": {
+    "readDocument": {
+      "passed": true,
+      "samples": 200,
+      "labels": 200
+    },
+    "loadDataset": {
+      "passed": true,
+      "rows": 200
+    },
+    "uniqueIds": 200,
+    "uniqueNormalizedPassages": 200,
+    "exactSnippets": true,
+    "hitSnippetsMatchOpus": true,
+    "noHitSnippetsOmitted": true,
+    "checksumMatchesFinalBytes": true,
+    "sampleRangesMatchReviewedTexts": true,
+    "allFinalTextsMatchBlindInputs": true,
+    "asciiOnly": true,
+    "onePhysicalLinePerPassage": true,
+    "formattedWith": "Prettier --prose-wrap preserve --ignore-path /dev/null before final checksum/ranges/labels hash",
+    "scope": "Assigned development pair and compact review record only; comparison inputs restricted to development pairs, taxonomy and current prompts."
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "schemaVersion": 1,
+  "check": "semantic-thinness/missing-actor",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+  "dataset": {
+    "textPath": "datasets/ai-synthetic/passages/000018-semantic-thinness-missing-actor-holdout.md",
+    "labelsPath": "datasets/ai-synthetic/passages/000018-semantic-thinness-missing-actor-holdout.labels.json",
+    "textSha256": "93e5783efcf0f96dbf5ac0c1973ccd6f80dda47e32f583573087cb6c33a34446",
+    "labelsSha256": "bed18de5a9cb86856b1b075173a05b82fc94cbc5d1f154a2fb710eb997eb0712"
+  },
+  "review": {
+    "models": ["claude-opus-5-5"],
+    "batches": [
+      {
+        "passages": 100,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "phase": "initial-blind",
+        "inputSha256": "059b0bc442235a8acb7622052f74810d1a50691c5cb5b95573607e398c67cbd4",
+        "reviewedTargetsSha256": "058923efdd9cc3a19a9069224ce190f2eb524bb357fdc222590783ae6005c481",
+        "rawReviewSha256": "4ce2d56e81c7c52be659ca2e0a9788e9c1d6723671bda240b9ec866bd6d556c7",
+        "objections": 3,
+        "durationMs": 41252,
+        "costUsd": 0.200992
+      },
+      {
+        "passages": 100,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "phase": "initial-blind",
+        "inputSha256": "000eff9beb5277dc67ebe3c48915c3dffdd9c1c0b1b1b59d66ec2e1dd506bb31",
+        "reviewedTargetsSha256": "e36e82988a02ef0515e0bf6a779909f57f184b3b8c269e1c84f9b38901eddd1c",
+        "rawReviewSha256": "8dbd62ad37c0d776e51c61094db191081a1987763726be6ceb695da2b5e42b11",
+        "objections": 4,
+        "durationMs": 55583,
+        "costUsd": 0.22661200000000004
+      },
+      {
+        "passages": 4,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "phase": "overlap-replacements-blind",
+        "inputSha256": "2fb9b5b708b2931a98015d3c6e51b5207ba831a89701db6a5ee19d277bb18162",
+        "reviewedTargetsSha256": "24b24c45d1ec3924321c25562e5284480ca2e071e146cd1f8655eed91766fa18",
+        "rawReviewSha256": "fdf25ea8fd074a41506573366dda27f86a65f450fc257ecb01cfbf94118dabfc",
+        "objections": 2,
+        "durationMs": 10048,
+        "costUsd": 0.058616
+      },
+      {
+        "passages": 1,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "phase": "within-set-syntax-replacement-blind",
+        "inputSha256": "685ce3c12b07cf83c2d0f9fe392599dd94f4b4b18775562be28e11b2fc3dbccc",
+        "reviewedTargetsSha256": "bd471fd62b09446bfc6926e2b10819632b1f7a07f62c86445a9f78783cd904a0",
+        "rawReviewSha256": "4fc7a4b70b5b71694ea9783654317b7b07649c90d91792a3b16a9e200300532a",
+        "objections": 1,
+        "durationMs": 10032,
+        "costUsd": 0.05834
+      },
+      {
+        "phase": "post-independent-qa-mixed-additions-and-controls",
+        "passages": 28,
+        "addedPassages": 12,
+        "correctedLabelControls": 12,
+        "unchangedControls": 4,
+        "authorHits": 14,
+        "authorNoHits": 14,
+        "reviewerHits": 26,
+        "reviewerNoHits": 2,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "inputSha256": "2e77fc19839ced5b60fd46df70d86da212b70266a0f4886b9272485abd3e5fa1",
+        "reviewedTargetsSha256": "20ade9721cc59fb6dcaee3741c62a4d757982b8131421f0027602a3c3eba14fe",
+        "rawReviewSha256": "97645841efb4a900209a4e3ca639924e73bc41905026c4ee34129c7eeaad1edc",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "disagreements": 12,
+        "objections": 2,
+        "durationMs": 28348,
+        "costUsd": 0.12804
+      }
+    ],
+    "passagesReviewed": 233,
+    "distinctFinalPassages": 212,
+    "initialPassagesReviewed": 200,
+    "replacementPassagesReviewed": 5,
+    "initialLabelAgreements": 200,
+    "initialLabelDisagreements": 0,
+    "initialDisagreements": [],
+    "finalBlindAgreements": 200,
+    "finalRetainedDisagreements": 12,
+    "objections": 12,
+    "initialObjections": 7,
+    "replacementObjections": 3,
+    "adjudicatedObjections": 12,
+    "unresolvedLabelIssues": 0,
+    "snippetsAdoptedFromBlindOpus": 100,
+    "spanOnlyRequests": 0,
+    "snippets": 115,
+    "toolsDisabled": true,
+    "blindFields": ["id", "text"],
+    "authorLabelsWithheld": true,
+    "classBalanceWithheld": true,
+    "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+    "finalTextMatch": {
+      "matched": 212,
+      "unmatched": 0,
+      "originalTextsRetained": 200,
+      "addedTextsMatched": 12,
+      "manifestSha256": "137c86b53a72905924a7d10d279071874a2516e0d7d690ce3d6a2e6d29bacadb"
+    },
+    "generationSnapshot": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "passagesReviewed": 205,
+      "finalBlindAgreements": 200,
+      "finalRetainedDisagreements": 0,
+      "objections": 10,
+      "snippetsAdoptedFromBlindOpus": 100,
+      "snippets": 116,
+      "finalTextMatch": {
+        "matched": 200,
+        "unmatched": 0,
+        "matchedInitialReview": 196,
+        "matchedReplacementReview": 4,
+        "manifestSha256": "406803b7b24452ae19ba208cecc133b08d3b0a0d1c5c439f70de78cb6d3d01d6"
+      }
+    },
+    "postIndependentQaPassagesReviewed": 28,
+    "finalRetainedDisagreementScope": "Current labels compared with the latest available blind classification for each current passage. Each retained disagreement is an adjudicated no-hit.",
+    "postIndependentQaObjections": 2
+  },
+  "corrections": {
+    "preReviewBoundaryClarifications": 2,
+    "preReviewClarifiedCases": ["000018-102", "000018-069"],
+    "developmentScenarioOverlapReplacements": 4,
+    "withinSetSyntaxRevision": 1,
+    "distinctPassagesRewrittenAfterReview": 4,
+    "textRewritesAfterReview": 5,
+    "postReviewRewrittenCases": [
+      "000018-181",
+      "000018-145",
+      "000018-069",
+      "000018-191"
+    ],
+    "rewriteReason": "Full semantic reading found close development scenarios after lexical auditing. Replaced four scenarios and further revised one replacement with a within-set syntax match. All changes were for overlap and diversity; all blind labels had agreed before the changes.",
+    "labelChangesAfterReview": 12,
+    "generationLabelChangesAfterReview": 0,
+    "postIndependentQaLabelChanges": 12,
+    "postIndependentQaExamplesAdded": 12,
+    "postIndependentQaTextRewrites": 0
+  },
+  "deduplication": {
+    "initialDraftBeforeDevelopmentReadSha256": "539374955c5706adc35303dd596f35daa44980dadda42a184f3c64e2306b1a0d",
+    "reviewedDraftSha256": "36489033c90621fcdb6412066d0317e7cf5b793ea59802391e894a836dbe244b",
+    "initialBlindDraftSha256": "39a58a1555efacd225d68791d11d6eb7a4d45860f31ddee9d2029bcc291f5577",
+    "normalization": "Lowercase alphanumeric tokens with internal apostrophes; punctuation and whitespace collapsed.",
+    "measures": [
+      "Jaccard wordset similarity",
+      "Jaccard contiguous three-word shingle similarity"
+    ],
+    "inspectionThresholds": {
+      "wordset": 0.22,
+      "shingle3": 0.045
+    },
+    "referenceHashes": {
+      "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+      "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+      "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+      "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+      "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+      "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md": "1ffd44466d41e349a34b26551be9fce8e0795cc8241a63b4fa9e44683d85f3df",
+      "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+      "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+      "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+      "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md": "35111fb951b880bd2723a6d9bc26ec6c50293e128eb04950081f26aa991ae34d",
+      "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+      "datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md": "87cef18afcf36e98593b89df90bf3977c5524db285f7a5a5909f4ea09d9c6990",
+      "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+      "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md": "66b25721382c931ccfaf2e1c5814b141d5ae9a234f506438fc4bb997d6e32b61",
+      "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md": "2ebbbb0af0318b29e98d0ca2bd31b5dbb216f23a4152861787ed4927cec38218",
+      "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md": "d847e4b08a3ab3d60eb41bf08b0013cc2d6f50208ea56747a4e68348298f3229",
+      "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md": "5dce0c2cdc68845dd5f3c17ea642c6ae651bbfe3a7628c766c495d24ced6f34f",
+      "datasets/ai-synthetic/passages/000018-semantic-thinness-missing-actor-holdout.md": "93e5783efcf0f96dbf5ac0c1973ccd6f80dda47e32f583573087cb6c33a34446",
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+      "prompts/README.md": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b",
+      "prompts/v1/abstract-contrast.md": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676",
+      "prompts/v1/emotion-as-substance.md": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72",
+      "prompts/v1/generic-realization.md": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465",
+      "prompts/v1/shared.md": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+    },
+    "statistics": {
+      "within": {
+        "references": 212,
+        "targets": 212,
+        "normalizedExact": 0,
+        "maximumWordset": 0.23809523809523808,
+        "maximumThreeWordShingle": 0.056338028169014086,
+        "inspectionCandidates": 13
+      },
+      "development": {
+        "references": 1803,
+        "targets": 212,
+        "normalizedExact": 0,
+        "maximumWordset": 0.25925925925925924,
+        "maximumThreeWordShingle": 0.06451612903225806,
+        "inspectionCandidates": 15
+      },
+      "holdout": {
+        "references": 1605,
+        "targets": 212,
+        "normalizedExact": 0,
+        "maximumWordset": 0.2857142857142857,
+        "maximumThreeWordShingle": 0.0967741935483871,
+        "inspectionCandidates": 12
+      },
+      "taxonomy-prompts": {
+        "references": 58,
+        "targets": 212,
+        "normalizedExact": 0,
+        "maximumWordset": 0.17475728155339806,
+        "maximumThreeWordShingle": 0.015625,
+        "inspectionCandidates": 0
+      }
+    },
+    "exactContainedWorkedExamples": 0,
+    "workedExamplesCompared": 164,
+    "manualConclusion": "Read the frozen corresponding development set in full after drafting. Replaced four close scenarios and revised one replacement's syntax, then repeated all lexical audits. Inspected nearest high wordset and shingle neighbors, shared-shingle summaries, and taxonomy worked-example containment. Final matches share ordinary responsibility constructions, common connective wording, or conventional physical mechanisms; retained passages have distinct events and reasoning.",
+    "generationStatistics": {
+      "within": {
+        "references": 200,
+        "nearestWordsetComparisons": 200,
+        "nearestThreeWordShingleComparisons": 200,
+        "normalizedExact": 0,
+        "maximumWordset": 0.23809523809523808,
+        "maximumThreeWordShingle": 0.056338028169014086,
+        "manuallyInspectedHighNeighbors": 13,
+        "derivativeCopiesRemaining": 0
+      },
+      "development": {
+        "references": 1800,
+        "nearestWordsetComparisons": 200,
+        "nearestThreeWordShingleComparisons": 200,
+        "normalizedExact": 0,
+        "maximumWordset": 0.25925925925925924,
+        "maximumThreeWordShingle": 0.06451612903225806,
+        "manuallyInspectedHighNeighbors": 15,
+        "derivativeCopiesRemaining": 0
+      },
+      "otherHoldout": {
+        "references": 1600,
+        "nearestWordsetComparisons": 200,
+        "nearestThreeWordShingleComparisons": 200,
+        "normalizedExact": 0,
+        "maximumWordset": 0.2857142857142857,
+        "maximumThreeWordShingle": 0.0967741935483871,
+        "manuallyInspectedHighNeighbors": 12,
+        "derivativeCopiesRemaining": 0
+      },
+      "taxonomyPrompts": {
+        "references": 58,
+        "nearestWordsetComparisons": 200,
+        "nearestThreeWordShingleComparisons": 200,
+        "normalizedExact": 0,
+        "maximumWordset": 0.17475728155339806,
+        "maximumThreeWordShingle": 0.015625,
+        "manuallyInspectedHighNeighbors": 0,
+        "derivativeCopiesRemaining": 0
+      }
+    },
+    "generationReferenceHashes": {
+      "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+      "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+      "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+      "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+      "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+      "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md": "1ffd44466d41e349a34b26551be9fce8e0795cc8241a63b4fa9e44683d85f3df",
+      "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+      "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+      "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+      "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md": "35111fb951b880bd2723a6d9bc26ec6c50293e128eb04950081f26aa991ae34d",
+      "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+      "datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md": "acc22f6f938b55173d431e79bddafe3944ce42eb66f67b79812f7eb760baac00",
+      "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+      "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md": "79e2f7df0af5960eb775561ec8b2eb1e21b00007c9e9cd22922d49d0657810cc",
+      "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md": "c3b96f21b10fb84f1abb1a032405fd2e575e391680d5fd47b165bc282a57caa0",
+      "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md": "cdb21fe6b91e41753b18aebae6e3ae470ec360cc99d972670dcdf9c7a472f9b9",
+      "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md": "488dc65c18bae886631deb6b9d71bf2119efe656855ebef21be4e049b9e33c2f",
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+      "prompts/README.md": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b",
+      "prompts/v1/abstract-contrast.md": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676",
+      "prompts/v1/emotion-as-substance.md": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72",
+      "prompts/v1/generic-realization.md": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465",
+      "prompts/v1/shared.md": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+    },
+    "currentAudit": {
+      "familyCollections": 18,
+      "proposedSha256": "2651e0d7d3eb076e21e7cedcb78297445bfc5d01e0177ac4b2b214987509305a",
+      "privateAuditSha256": "11ee97de4aec16eafa5fdc96cc7b53ff75f7210d4df32aa66cd7c82d025752ac",
+      "containedWorkedExamples": 0,
+      "workedExamplesCompared": 162,
+      "nearestNewPassagesInspected": 12,
+      "conclusion": "All new passages and current high wordset/shingle neighbors were inspected privately. Matches share general actor-identification constructions or ordinary connective phrases; no derivative copy or simple noun-swap was retained."
+    }
+  },
+  "validation": {
+    "existingReader": "passed",
+    "loadDataset": "passed",
+    "schemaVersion": 2,
+    "passages": 212,
+    "checks": 1,
+    "hits": 100,
+    "noHits": 112,
+    "exactSnippets": "passed",
+    "sampleBoundaries": "passed",
+    "textChecksum": "passed",
+    "minimalLabels": "passed",
+    "neutralShuffledIds": "passed",
+    "singlePhysicalLinePerParagraph": "passed",
+    "asciiOnly": true,
+    "formattedBeforeFreeze": true,
+    "wordCounts": {
+      "total": 6786,
+      "min": 13,
+      "max": 63,
+      "mean": 32.009433962264154,
+      "passages45To90Words": 46,
+      "hits45To90Words": 22,
+      "noHits45To90Words": 24
+    },
+    "sentenceCounts": {
+      "min": 1,
+      "max": 4,
+      "outsideOneToFive": 0
+    },
+    "frozenReviewedMatches": 212,
+    "originalTextsAndIdsRetained": 200,
+    "originalSampleBoundariesRetained": 200,
+    "minimum100PerClass": "passed",
+    "minimum20LongPerClass": "passed",
+    "allFrozenReviewVersions": {
+      "responsesVerified": 7,
+      "judgmentsVerified": 433,
+      "currentTextSubmissions": 428,
+      "historicalSupersededTextSubmissions": 5,
+      "currentPassagesMatched": 212,
+      "proofSha256": "8a763a07ed67ea35e13c3cd26f8848e53fc3f61773b6ceb1cfb74392b19a91d0"
+    },
+    "finalReadback": {
+      "status": "passed",
+      "existingReader": true,
+      "loadDataset": true,
+      "familyUniqueIds": 3620,
+      "originalTextsAndIdsMatched": 200,
+      "originalLabelsPreserved": 188,
+      "labelsCorrected": 12,
+      "addedExamples": 12,
+      "privateFindingsMatched": 8,
+      "checksums": true,
+      "minimalLabels": 212,
+      "frozenCurrentTextMatches": 212
+    }
+  },
+  "privateCaseResolutions": [
+    {
+      "id": "000018-021",
+      "decision": "retain-no-hit",
+      "reason": "The passage reports recovery and ongoing investigative withholding. The returner's identity changes neither the stated recovery event nor an instruction in the passage.",
+      "objection": "The returner's name is withheld deliberately and is not needed to understand that the cash was recovered.",
+      "currentExpected": false,
+      "currentRetentionStatus": "retained-after-independent-qa"
+    },
+    {
+      "id": "000018-034",
+      "decision": "retain-hit",
+      "reason": "The reimbursement question depends on whether a committee member requested travel. Attribution to an office leaves that person's qualifying role unresolved; stationery, the journey, and the fare provide no answer.",
+      "objection": "\"The office\" is a partial attribution, but it does not say whether a committee member made the request, which is the condition the reimbursement rule depends on.",
+      "currentExpected": false,
+      "currentRetentionStatus": "historical-hit-superseded-by-post-independent-qa"
+    },
+    {
+      "id": "000018-053",
+      "decision": "retain-no-hit",
+      "reason": "The passage describes an unresolved mystery as the story's premise. Identifying the confession's writer is expressly the detective's future task, so the opening supplies its intended information.",
+      "objection": "The unknown author is the story's deliberate premise, not responsibility that the passage obscures while claiming to supply it.",
+      "currentExpected": false,
+      "currentRetentionStatus": "retained-after-independent-qa"
+    },
+    {
+      "id": "000018-102",
+      "decision": "retain-hit",
+      "reason": "The passage states an actor-dependent compliance rule and reports a finding that declares the procedure correct. The finding supplies a telephone method but omits the initiator's role needed to assess that declared result. The stated omission concerns the finding's substantive decision, rather than a discussion of sentence editing.",
+      "objection": "Could be read as criticism of a defective finding rather than the passage's own obscuring; labeled a hit because the passage relies on the finding while the customer/employee distinction it makes decisive stays unresolved.",
+      "currentExpected": false,
+      "currentRetentionStatus": "historical-hit-superseded-by-post-independent-qa"
+    },
+    {
+      "id": "000018-127",
+      "decision": "retain-no-hit",
+      "reason": "The reporter's question is answered with an explicit refusal and an inquiry still to establish responsibility. Reporting that unresolved investigation accurately supplies the event being described.",
+      "objection": "The authorizing official is unnamed, but the passage transparently reports that police withheld the name; it does not itself obscure responsibility. A stricter reading could flag the unresolved question.",
+      "currentExpected": false,
+      "currentRetentionStatus": "retained-after-independent-qa"
+    },
+    {
+      "id": "000018-158",
+      "decision": "retain-no-hit",
+      "reason": "Idris holding the overturned tin and admitting he tripped over it makes him recoverable as the spiller. The instruction to provide clean clothes therefore identifies its recipient through the events.",
+      "objection": "Idris is not explicitly called the spiller, but holding the overturned tin and saying he tripped over it makes him recoverable as the actor.",
+      "currentExpected": false,
+      "currentRetentionStatus": "retained-after-independent-qa"
+    },
+    {
+      "id": "000018-193",
+      "decision": "retain-no-hit",
+      "reason": "The account establishes the walkers' selected route. No stated attribution, allocation, or instruction depends on a separate chooser's identity; the collective subject also permits an ordinary recoverable reading.",
+      "objection": "'A choice was made' is agentless, but the walkers are the recoverable choosers and the passage states responsibility is not in dispute.",
+      "currentExpected": false,
+      "currentRetentionStatus": "retained-after-independent-qa"
+    },
+    {
+      "id": "000018-181",
+      "decision": "retain-hit",
+      "reason": "The in-story account claims to settle the children's responsibility and requires one child to remain. Naming the broom as an instrument leaves its wielder unresolved, so the stated settlement supplies no usable assignment. The passage presents a defective substantive settlement rather than an exercise in editing sentences.",
+      "objection": "The last sentence explicitly points out the gap, which could be read as criticism of an account rather than a missing actor. But this is an in-story account, not a discussion of writing. Responsibility decides who must stay, and neither child can be identified as the actor, so it's a hit.",
+      "currentExpected": true,
+      "currentRetentionStatus": "retained-after-independent-qa"
+    },
+    {
+      "id": "000018-191",
+      "decision": "retain-hit",
+      "reason": "A completed competition record awards points for finding an object. The finder dog's identity is essential to that allocation, and the object merely coming to light supplies no finder. The passage concerns a substantive result in a scorecard rather than advice about phrasing.",
+      "objection": "The narrator states the omission outright (\"names no dog\"). That could be read as commentary on a defective scorecard rather than the defect itself. But the passage still leaves the responsible dog unrecoverable even though the event depends on knowing it, so it's a hit.",
+      "currentExpected": true,
+      "currentRetentionStatus": "retained-after-independent-qa"
+    },
+    {
+      "id": "000018-145",
+      "decision": "retain-hit",
+      "reason": "The account assigns a wasted-flight bill to a specific caller and treats that caller as identified. A radio transmission describes the channel while leaving the liable actor unrecoverable. Acknowledging the absent name and call sign preserves the gap in the billing instruction; the passage still delivers that incomplete allocation.",
+      "objection": "The billing makes responsibility for the cancellation matter, yet the cancellation is only passive ('cancelled by radio') and 'the caller' is never named. That is a hit. The competing reading is that the final sentence openly admits the actor is unknown, or that the passage is criticizing a separate account. Either reading would make it a description of the defect rather than an instance of it, so a no-hit. I chose hit because the passage still assigns the bill to an unidentified actor.",
+      "currentExpected": true,
+      "currentRetentionStatus": "retained-after-independent-qa"
+    }
+  ],
+  "supplementalQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "author-adjudicated-and-verified",
+    "coverage": {
+      "passages": 200,
+      "finalRawTextMatches": 200,
+      "exactOpusHitSnippetMatches": 100
+    },
+    "rawResponseRetention": "Original review responses available and verified.",
+    "mixedFollowup": {
+      "passages": 200,
+      "calls": 2,
+      "disagreements": 0,
+      "objections": 11,
+      "callsMetadata": [
+        {
+          "passages": 100,
+          "hits": 47,
+          "noHits": 53,
+          "input": "/tmp/slopless-family-qa-b-holdout18-mixed-input-1.json",
+          "output": "/tmp/slopless-family-qa-b-holdout18-mixed-output-1.json",
+          "inputSha256": "3f8739d39b8e410c9e351dcf603707068e2700ae96b1f30f9a69d4f4210bbefb",
+          "outputSha256": "3256da37525db19a63da2ace35639bb23a56306890d94d1e5856f6298d19e59f",
+          "reviewedTargetsSha256": "efcba157226ec3000eab9f286fc7767c976fa99727afc2f36043929db5820354",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.1782346
+        },
+        {
+          "passages": 100,
+          "hits": 53,
+          "noHits": 47,
+          "input": "/tmp/slopless-family-qa-b-holdout18-mixed-input-2.json",
+          "output": "/tmp/slopless-family-qa-b-holdout18-mixed-output-2.json",
+          "inputSha256": "01eb6bac1c26b1cf5517029a89689757603fa3cbb094d771869caf3929c34288",
+          "outputSha256": "7f54edab3fc1ab4e0ba4e3f34a5024e30f59d2c9c8ed19cf0bd6dec16b6806ab",
+          "reviewedTargetsSha256": "e4e9709ac609a45c8cd85f923d8cb0b09d9e8d7b2e8a76262cd803bc967c31ce",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.2110906
+        }
+      ],
+      "blindInputFields": ["id", "text"],
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "neutralRemappedIds": true,
+      "originalCountsPreserved": true,
+      "reason": "Review final texts in mixed batches after class-pure revision calls."
+    },
+    "unresolvedLabelErrors": 0,
+    "unresolvedBoundaryConcerns": 0,
+    "unresolvedArtifactConcerns": 0,
+    "privateFindingsPath": "/tmp/slopless-family-qa-b-000018-private.json",
+    "aggregateSummaryPath": "/tmp/slopless-family-qa-b-summary.json",
+    "datasetEditsPerformed": 0,
+    "coverageScope": "Original 200 passages before author adjudication and expansion.",
+    "initialReportedLabelErrors": 8,
+    "labelErrorsResolved": 8,
+    "additionalConsistencyLabelCorrections": 4,
+    "authorAdjudication": "postIndependentQa",
+    "authorDatasetLabelEdits": 12
+  },
+  "postIndependentQa": {
+    "date": "2026-10-20T17:41:29Z",
+    "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "status": "resolved-and-verified",
+    "privateFindingsPath": "/tmp/slopless-family-qa-b-000018-private.json",
+    "privateFindingsSha256": "e1798027c96ad1ea432c6efb2238b9b4f5f7d2dd6dbcd66644f540bff2efbd77",
+    "before": {
+      "textSha256": "bc54e1f2fc941c04d97ca95e12bc325ba7ee81df762c593e099c6c838f5a59e0",
+      "labelsSha256": "142e2187a050505fa1dde611c6a10ee0792e7dcb9ba1a47442c537187fae9121",
+      "recordSha256": "af2c7908231c6814dfaa7acf1eb85fd486b39e5a4843ebdd891f8495dd40e6ab",
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "wordCounts": {
+        "total": 6258,
+        "min": 13,
+        "max": 63,
+        "mean": 31.29,
+        "passages45To90Words": 40,
+        "hits45To90Words": 20,
+        "noHits45To90Words": 20
+      }
+    },
+    "findings": {
+      "reported": 8,
+      "accepted": 8,
+      "challenged": 0,
+      "resolved": 8,
+      "unresolved": 0,
+      "additionalConsistencyCorrections": 4
+    },
+    "changes": {
+      "labelsCorrected": 12,
+      "examplesAdded": 12,
+      "oldTextsRetained": 200,
+      "oldIdsRetained": 200,
+      "oldTextsRewritten": 0,
+      "examplesRemoved": 0
+    },
+    "finalCounts": {
+      "passages": 212,
+      "hits": 100,
+      "noHits": 112,
+      "words": 6786,
+      "longHits": 22,
+      "longNoHits": 24
+    },
+    "principles": [
+      "Preserve a relevant role recovered unambiguously from a stated exclusive rule and the supplied outcome; assess the writing rather than independently verifying that outcome.",
+      "Preserve a transparently unresolved information request or investigation.",
+      "Keep hits requiring an individual among multiple possible people or programs when the passage provides no recoverable assignment."
+    ],
+    "resolutions": [
+      {
+        "id": "000018-034",
+        "findingKey": "B-actor-holdout-034",
+        "source": "independent-QA-B",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The writer asks an openly unresolved reimbursement question and explicitly reports the sender's limited identification. The passage accurately supplies the uncertainty to be resolved; its purpose is a request for information rather than a completed allocation of reimbursement. This follows the existing unresolved-inquiry controls.",
+        "nearestControls": ["000018-127", "000018-160", "000017-094"]
+      },
+      {
+        "id": "000018-055",
+        "findingKey": "B-actor-holdout-055",
+        "source": "independent-QA-B",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The complete passage supplies one authorizing role, the artist, and presents the message as grounds for acting under that authorization. That conclusion recovers the relevant artist role. Demanding an independent identity check would assess the authorization's support instead of its expressed meaning.",
+        "nearestControls": ["000017-137", "000017-050", "000018-017"]
+      },
+      {
+        "id": "000018-059",
+        "findingKey": "B-actor-holdout-059",
+        "source": "independent-QA-B",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The contrast defines suspension as the referee's act and refusal as the player's act. Applying the suspension rule supplies the referee branch and thus the only role required for the stated classification. An individual referee's name adds no necessary responsibility information.",
+        "nearestControls": ["000017-039", "000017-061", "000018-058"]
+      },
+      {
+        "id": "000018-093",
+        "findingKey": "B-actor-holdout-093",
+        "source": "independent-QA-B",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The supplied distinction makes a contestant accusation the trigger for a mandatory hearing. The notice declares that hearing mandatory, so its conclusion supplies the contestant role. That role resolves the stated rule; the construction preserves useful implicit meaning.",
+        "nearestControls": ["000017-184", "000017-191", "000018-160"]
+      },
+      {
+        "id": "000018-102",
+        "findingKey": "B-actor-holdout-102",
+        "source": "independent-QA-B",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The passage permits customers to cancel by telephone, requires bank employees to use the internal form, and declares this telephone procedure correct. Those statements recover a customer cancellation under the passage's own rule. The former hit adjudication required support for the declared correctness rather than recognizing the conveyed role.",
+        "nearestControls": ["000017-050", "000017-191", "000018-076"]
+      },
+      {
+        "id": "000018-132",
+        "findingKey": "B-actor-holdout-132",
+        "source": "independent-QA-B",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "Only the photographer owns the stated rights, and the passage treats permission as clearing publication. That supplied clearance identifies the photographer's permission as the relevant branch. Checking the reliability of the permission message belongs to source verification rather than this check.",
+        "nearestControls": ["000017-137", "000017-132", "000018-182"]
+      },
+      {
+        "id": "000018-156",
+        "findingKey": "B-actor-holdout-156",
+        "source": "independent-QA-B",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The exclusion concerns editors who are judges. Established eligibility therefore conveys editing by somebody outside that excluded class. The rule requires this class distinction, which the stated outcome supplies; a particular editor's name serves no stated purpose.",
+        "nearestControls": ["000017-050", "000018-005", "000018-076"]
+      },
+      {
+        "id": "000018-170",
+        "findingKey": "B-actor-holdout-170",
+        "source": "independent-QA-B",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The passage says candidate withdrawal ends the appeal while administrator deletion leaves it active. Closing the appeal supplies the candidate-withdrawal branch. The actor role required to understand the chosen disposition is recoverable from the complete passage.",
+        "nearestControls": ["000017-039", "000017-191", "000018-035"]
+      },
+      {
+        "id": "000018-036",
+        "source": "author-consistency-audit",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The passage singles out the engineer who knows the old calibration, then treats the shutdown performer as able to restore it. This supplies that independently described capable engineer as the relevant actor. A personal name is unnecessary for the stated capability question, matching the recovered-role controls.",
+        "nearestControls": ["000017-137", "000017-152", "000018-017"]
+      },
+      {
+        "id": "000018-050",
+        "source": "author-consistency-audit",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The passage contrasts the director with an impersonator and treats the sender's authority as established. Within that contrast, the established authority supplies the director role. Assessing whether the report should have trusted the message would add a separate verification requirement.",
+        "nearestControls": ["000017-050", "000017-184", "000018-086"]
+      },
+      {
+        "id": "000018-121",
+        "source": "author-consistency-audit",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The record explicitly directs counting this as a member's vote. That supplies the member class relevant to its stated validity assessment. The passage gives no separate operation requiring a particular member's name, so the conveyed voter role is sufficient.",
+        "nearestControls": ["000017-184", "000017-191", "000018-005"]
+      },
+      {
+        "id": "000018-128",
+        "source": "author-consistency-audit",
+        "decision": "correct-to-no-hit",
+        "before": true,
+        "after": false,
+        "textAction": "retain-exactly",
+        "reason": "The supplied distinction is management issuing an official warning versus a colleague doing so. Treating its official status as settled supplies the management branch required for that appeal question. This follows the same role-recoverability principle as the other accepted classification controls.",
+        "nearestControls": ["000017-050", "000017-191", "000018-059"]
+      }
+    ],
+    "retainedBoundaryChecks": [
+      {
+        "id": "000018-024",
+        "decision": "retain-hit",
+        "reason": "Authorization alone supplies no unique initiator among possible authorized sources. The stated authentication task requires that initiator, and the passage supplies no actor-to-role mapping that resolves it."
+      },
+      {
+        "id": "000018-195",
+        "decision": "retain-hit",
+        "reason": "The return to shore does not uniquely distinguish a temporary competitor protest from the marshal ending a heat. The instruction still requires choosing an actor-dependent rule; either actor remains possible."
+      }
+    ],
+    "mixedBlindReview": {
+      "inputPath": "/tmp/slopless-qa-fix-000018/mixed-input.json",
+      "outputPath": "/tmp/slopless-qa-fix-000018/mixed-output.json",
+      "passages": 28,
+      "toolsDisabled": true,
+      "fieldsSent": ["id", "text"],
+      "neutralIds": true,
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "addedExampleAgreements": 12,
+      "classificationDisagreements": 12,
+      "retainedNoHitDisagreements": 12,
+      "objections": 2,
+      "adjudicatedObjections": 2,
+      "unresolved": 0,
+      "spanOnlyRequests": 0,
+      "privateResolutions": [
+        {
+          "id": "000018-128",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-128."
+        },
+        {
+          "id": "000018-121",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-121."
+        },
+        {
+          "id": "000018-156",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-156."
+        },
+        {
+          "id": "000018-034",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "objection": "The writer openly reports that the sender is unknown and asks a question, so this could be read as a transparent statement of uncertainty. However, the passage makes the requester's identity decisive and then gives only 'the office', so the question can't be answered. The stationery and fare details don't supply the missing actor.",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-034."
+        },
+        {
+          "id": "000018-132",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-132."
+        },
+        {
+          "id": "000018-093",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-093."
+        },
+        {
+          "id": "000018-102",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-102."
+        },
+        {
+          "id": "000018-050",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-050."
+        },
+        {
+          "id": "000018-036",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-036."
+        },
+        {
+          "id": "000018-127",
+          "reviewerExpected": false,
+          "finalExpected": false,
+          "decision": "retain-original-no-hit",
+          "objection": "Responsibility is relevant and the official is not named. However, the passage accurately reports that the police withheld the name. It doesn't obscure the actor through its own wording or proceed as if responsibility were settled.",
+          "resolution": "The existing control explicitly reports police withholding and an investigation still to establish responsibility; that accurate uncertainty remains a no-hit."
+        },
+        {
+          "id": "000018-170",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-170."
+        },
+        {
+          "id": "000018-055",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-055."
+        },
+        {
+          "id": "000018-059",
+          "reviewerExpected": true,
+          "finalExpected": false,
+          "decision": "retain-adjudicated-no-hit",
+          "resolution": "Apply the accepted-definition adjudication recorded for 000018-059."
+        }
+      ]
+    },
+    "historicalCaseRetention": {
+      "cases": 10,
+      "retained": 8,
+      "supersededLabels": 2
+    },
+    "rawResponseRetention": {
+      "status": "all-original-and-new-responses-available-and-verified",
+      "responses": [
+        {
+          "phase": "generation-1",
+          "passages": 100,
+          "rawResponseSha256": "4ce2d56e81c7c52be659ca2e0a9788e9c1d6723671bda240b9ec866bd6d556c7",
+          "reviewedTargetsSha256": "058923efdd9cc3a19a9069224ce190f2eb524bb357fdc222590783ae6005c481",
+          "models": ["claude-opus-5-5"]
+        },
+        {
+          "phase": "generation-2",
+          "passages": 100,
+          "rawResponseSha256": "8dbd62ad37c0d776e51c61094db191081a1987763726be6ceb695da2b5e42b11",
+          "reviewedTargetsSha256": "e36e82988a02ef0515e0bf6a779909f57f184b3b8c269e1c84f9b38901eddd1c",
+          "models": ["claude-opus-5-5"]
+        },
+        {
+          "phase": "generation-replacements",
+          "passages": 4,
+          "rawResponseSha256": "fdf25ea8fd074a41506573366dda27f86a65f450fc257ecb01cfbf94118dabfc",
+          "reviewedTargetsSha256": "24b24c45d1ec3924321c25562e5284480ca2e071e146cd1f8655eed91766fa18",
+          "models": ["claude-opus-5-5"]
+        },
+        {
+          "phase": "generation-syntax",
+          "passages": 1,
+          "rawResponseSha256": "4fc7a4b70b5b71694ea9783654317b7b07649c90d91792a3b16a9e200300532a",
+          "reviewedTargetsSha256": "bd471fd62b09446bfc6926e2b10819632b1f7a07f62c86445a9f78783cd904a0",
+          "models": ["claude-opus-5-5"]
+        },
+        {
+          "phase": "independent-qa-b",
+          "passages": 100,
+          "rawResponseSha256": "3256da37525db19a63da2ace35639bb23a56306890d94d1e5856f6298d19e59f",
+          "reviewedTargetsSha256": "efcba157226ec3000eab9f286fc7767c976fa99727afc2f36043929db5820354",
+          "models": ["claude-opus-5-5"]
+        },
+        {
+          "phase": "independent-qa-b",
+          "passages": 100,
+          "rawResponseSha256": "7f54edab3fc1ab4e0ba4e3f34a5024e30f59d2c9c8ed19cf0bd6dec16b6806ab",
+          "reviewedTargetsSha256": "e4e9709ac609a45c8cd85f923d8cb0b09d9e8d7b2e8a76262cd803bc967c31ce",
+          "models": ["claude-opus-5-5"]
+        },
+        {
+          "phase": "post-independent-qa-mixed",
+          "passages": 28,
+          "rawResponseSha256": "97645841efb4a900209a4e3ca639924e73bc41905026c4ee34129c7eeaad1edc",
+          "reviewedTargetsSha256": "20ade9721cc59fb6dcaee3741c62a4d757982b8131421f0027602a3c3eba14fe",
+          "models": ["claude-opus-5-5"]
+        }
+      ]
+    },
+    "duplicateAudit": {
+      "familyCollections": 18,
+      "proposedSha256": "2651e0d7d3eb076e21e7cedcb78297445bfc5d01e0177ac4b2b214987509305a",
+      "privateAuditSha256": "11ee97de4aec16eafa5fdc96cc7b53ff75f7210d4df32aa66cd7c82d025752ac",
+      "containedWorkedExamples": 0,
+      "workedExamplesCompared": 162,
+      "nearestNewPassagesInspected": 12,
+      "conclusion": "All new passages and current high wordset/shingle neighbors were inspected privately. Matches share general actor-identification constructions or ordinary connective phrases; no derivative copy or simple noun-swap was retained."
+    },
+    "validation": {
+      "status": "passed",
+      "allOriginalTextsAndIdsPreserved": true,
+      "allCurrentTextsMatchFrozenReviews": true,
+      "allHitSnippetsAreExactOpusSelections": true,
+      "minimalLabels": true,
+      "counts100PlusEach": true,
+      "longPassages20PlusEach": true,
+      "boundariesAndHashes": true
+    }
+  },
+  "independentCorrectionRecheckB": {
+    "reviewer": "Independent reviewer B",
+    "status": "passed",
+    "passages": 212,
+    "hits": 100,
+    "noHits": 112,
+    "words": 6786,
+    "longHits": 22,
+    "longNoHits": 24,
+    "originalTextsAndIdsRetained": 200,
+    "labelCorrections": 12,
+    "addedPassages": 12,
+    "reportedFindingsResolved": 8,
+    "additionalConsistencyCorrectionsVerified": 4,
+    "newCasesBlindReviewed": 12,
+    "retainedModelDisagreements": 12,
+    "actualOpusHitSnippetSelections": 100,
+    "rawArchivePairsVerified": 7,
+    "newMaterialConcerns": 0,
+    "aggregatePath": "/tmp/slopless-family-qa-b-correction-pass4-summary.json",
+    "privateEvidencePath": "/tmp/slopless-family-qa-b-correction-pass4-private.json"
+  },
+  "finalIndependentQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "passed",
+    "passages": 212,
+    "hits": 100,
+    "noHits": 112,
+    "words": 6786,
+    "longHits": 22,
+    "longNoHits": 24,
+    "originalTextsAndIdsRetained": 200,
+    "postIndependentLabelCorrections": 12,
+    "addedPassages": 12,
+    "currentFinalTextsMatchedToRawBlindInput": 212,
+    "currentHitSnippetSelectionsMatchedToActualOpus": 100,
+    "currentOpusSnippetStrings": 115,
+    "labelSuppliedSpanOnlyHitSelections": 0,
+    "latestAvailableBlindReviewDisagreements": 12,
+    "disagreementScope": "Latest actual matching blind classification per current passage, including the independent mixed followup; original counts remain in their original fields.",
+    "previousLabelOrBoundaryFindingsResolved": 8,
+    "unresolvedLabelOrBoundaryConcerns": 0,
+    "currentFinalProvenanceGaps": 0,
+    "historicalRetentionFindings": 0,
+    "unrecoveredHistoricalResponses": 0,
+    "finalOverlap": {
+      "targetPassages": 1620,
+      "familyCollectionsCompared": 18,
+      "legacyCollectionsCompared": 4,
+      "referenceUnits": 507,
+      "thresholdCandidatesInspected": 32,
+      "newAdditionNearestCandidatesInspected": 40,
+      "exactCopies": 0,
+      "derivativeConcerns": 0
+    },
+    "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
+    "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
+  }
+}

@@ -1,0 +1,943 @@
+{
+  "check": "semantic-thinness/unspecified-relationship",
+  "split": "development",
+  "input": "passage",
+  "gitHead": "c21c445c333026e4033f8160e56388118cb715d9",
+  "counts": {
+    "passages": 202,
+    "hits": 100,
+    "noHits": 102,
+    "words": 5921,
+    "minimumWords": 13,
+    "maximumWords": 59,
+    "hitsDetail": {
+      "passages": 100,
+      "words": 3102,
+      "words45to90": 25
+    },
+    "noHitsDetail": {
+      "passages": 102,
+      "words": 2819,
+      "words45to90": 25
+    }
+  },
+  "author": {
+    "model": "Codex (current authoring session)",
+    "initialReviewedDraftSha256": "94ddc73951139565dc12cda8b3cc8a8606455c3f007d6d9a921bbe5d42984b08",
+    "finalDraftSha256": "8832fe712164b3a365491adfdf9c0cfef606b3e7c9c99f1de41d3e6d4967f659",
+    "neutralIds": "000015-001 through 000015-202; original 200 IDs and texts preserved, two new stable IDs appended after independent QA",
+    "previousFinalDraftSha256": "730947dbfdf9175183ddf5f143dff9581122284a473f600913a26411cd9170c2"
+  },
+  "review": {
+    "requestedModel": "opus",
+    "actualModels": ["claude-opus-5-5"],
+    "authenticatedCli": "claude --safe-mode --tools \"\" --model opus --effort high --print --no-session-persistence",
+    "initialCalls": 2,
+    "reReviewCalls": 2,
+    "spanOnlyCalls": 0,
+    "callCount": 4,
+    "reviewedPresentations": 205,
+    "finalFrozenTextsReviewed": 200,
+    "toolsDisabled": true,
+    "authorLabelsAndSnippetsWithheld": true,
+    "classBalanceWithheld": true,
+    "originalBooleanAgreements": 199,
+    "originalLabelDisagreements": 1,
+    "originalDisagreementIds": ["000015-147"],
+    "originalObjections": 9,
+    "originalObjectionIds": [
+      "000015-086",
+      "000015-087",
+      "000015-092",
+      "000015-127",
+      "000015-135",
+      "000015-141",
+      "000015-147",
+      "000015-168",
+      "000015-175"
+    ],
+    "reReviewObjections": 2,
+    "finalBooleanAgreements": 197,
+    "finalReviewerDisagreementIds": ["000015-087", "000015-135", "000015-175"],
+    "unresolved": 0,
+    "acceptanceBasis": "Author adjudication against the accepted definition controls final labels. Three reviewer-positive cases are retained as no-hits because their supplied context or conventional meanings resolve the broad relationship. Agreement is reported separately.",
+    "calls": [
+      {
+        "call": 1,
+        "passages": 100,
+        "inputFile": "/tmp/ur-review-input-1.json",
+        "inputFileSha256": "3b4ba795339ccc7588e85766c655e776c8e99ec829753c12ddbd7fb80850febc",
+        "blindTextSha256": "b6cf5ae1b7888280aec4f375d99cee3b9382d360bb65e5cb8f97751d49c975db",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "promptSha256": "6c7ab4c84603ec7900726807c85147f5db9a7038d01f26ce2934b9ae5d4ac4b9",
+        "responseFile": "/tmp/ur-review-output-1.json",
+        "responseSha256": "d6c5c692709a17fb6d275f4ca7b65e05bb60dcfed54522a70f18e1fd6be560cd",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 42063,
+        "costUsd": 0.190376
+      },
+      {
+        "call": 2,
+        "passages": 100,
+        "inputFile": "/tmp/ur-review-input-2.json",
+        "inputFileSha256": "0ea2e2b7c6909d26cf3901b0a6a301219f6b80aa3d82661543dfe5723f99c230",
+        "blindTextSha256": "94701455bdb44e7af58b37b142a112bc8abd705e811868329de1cf29e0606fc0",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "promptSha256": "269e3a7b792b1d2e926a09e6957960d5b1904787d44ec703a5c3b8d1ccd7725f",
+        "responseFile": "/tmp/ur-review-output-2.json",
+        "responseSha256": "c583566971d7c6bdec059a294c687250c18638f833496d39aa5a7738621a16fc",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 49931,
+        "costUsd": 0.221176
+      },
+      {
+        "call": 3,
+        "passages": 4,
+        "inputFile": "/tmp/ur-review-input-3.json",
+        "inputFileSha256": "e0b7f968e477339997aa1872aa9914cf0cdaf56e6a075d5432f82a9b2aead4cd",
+        "blindTextSha256": "4e9491ede76fb304c7dfd1b52bacb8ca55f706d1d9d4afd7d8cd77e81d1e777d",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "promptSha256": "9d68cf4be790a3651ff3617db64c3a42af3499f5ccfd1fa3155f3606833af656",
+        "responseFile": "/tmp/ur-review-output-3.json",
+        "responseSha256": "b723b7a4ff6acf5a022feac0cb234a1ff530c15f93e26f0975f80ca43772e2e0",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 10170,
+        "costUsd": 0.050968
+      },
+      {
+        "call": 4,
+        "passages": 1,
+        "inputFile": "/tmp/ur-review-input-4.json",
+        "inputFileSha256": "f28113d7414ef379364f95568f743e3d0973565438ac55dab83f8c43408cccc4",
+        "blindTextSha256": "07af7f60bc7e50000156ffb9059190cf1bd4185480103de24fc8dfacfae71d6e",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "promptSha256": "879e040aa0113694407150cca4706a5e7879cb4023a643aceec2fa552bd1e65e",
+        "responseFile": "/tmp/ur-review-output-4.json",
+        "responseSha256": "545787626ee45a7776d4a36dea96fb10562a9e5e0d94c44753497a9c3c28cfe9",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 5353,
+        "costUsd": 0.046464
+      }
+    ],
+    "scope": "Historical pre-independent-QA review. Current counts and review coverage appear in postIndependentQa."
+  },
+  "corrections": {
+    "beforeReview": {
+      "drafting": "Removed seven surplus no-hits and revised hit contexts to present the claim rather than critique its omission before the first audit.",
+      "auditedCheckpointTextEdits": 3,
+      "auditedCheckpointEditedIds": ["000015-044", "000015-118", "000015-164"],
+      "reason": "Varied a nearest-match construction, removed figurative wording at the metaphor boundary, and replaced a canonical empty-takeaway phrase.",
+      "derivativeCopiesReplaced": 0
+    },
+    "labelCorrectionIds": [
+      "000015-087",
+      "000015-135",
+      "000015-147",
+      "000015-175"
+    ],
+    "balanceReplacementIds": [
+      "000015-010",
+      "000015-084",
+      "000015-151",
+      "000015-179"
+    ],
+    "replacedPassages": "Four straightforward no-hits replaced with newly authored hits to restore 100/100 after four hit-to-no-hit corrections; no disputed hard case was removed.",
+    "postReviewRewrites": 1,
+    "postReviewReplacements": 4,
+    "rewrittenReplacementIds": ["000015-151"],
+    "labelCorrections": 4,
+    "finalHitSnippets": "All copied exactly from the latest applicable blind Opus response; author snippets stay in /tmp."
+  },
+  "privateAdjudications": [
+    {
+      "id": "000015-086",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "decision": "retain",
+      "concern": "The envelopes arriving on the same day could supply the connection.",
+      "basis": "Co-arrival identifies a timing coincidence between envelopes; it leaves the asserted peculiar relationship between the donors unresolved. No coordination, shared purpose, or other donor relationship is supplied."
+    },
+    {
+      "id": "000015-087",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "concern": "Equal dimensions can resolve the equivalence claim despite its empty introductory wording.",
+      "basis": "Both paintings measure forty by sixty centimetres. Their equal size supplies an unambiguous dimension of equivalence, which the shared decisions permit the reader to infer from the following sentence."
+    },
+    {
+      "id": "000015-092",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "decision": "retain",
+      "concern": "The duty is described as different without an identified difference.",
+      "basis": "The passage describes an unexplained change in how one duty feels. It presents no unresolved relationship or distinction between entities or alternatives; the neighboring unspecified-change type covers this omission."
+    },
+    {
+      "id": "000015-127",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "decision": "retain",
+      "concern": "The exact work relationship remains open between employee and owner.",
+      "basis": "The matching workshop name on the pay slip and sign supplies a work-related connection. The claimed association is broad, and that concrete evidence makes its meaning recoverable without choosing an employment subtype."
+    },
+    {
+      "id": "000015-135",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "concern": "The phrase professional plane supplies a broad relationship category.",
+      "basis": "A professional association is useful information about the photographer and newspaper. No specific employment role is promised or needed by this passage. The accepted boundary preserves broad informative relations despite decorative wording."
+    },
+    {
+      "id": "000015-141",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "decision": "retain",
+      "concern": "The significance of the business relationship is left unspecified.",
+      "basis": "Cousins who jointly bought a laundrette are explicitly business partners. The missing explanation concerns why the relationship matters, which belongs to hollow significance."
+    },
+    {
+      "id": "000015-147",
+      "authorExpected": true,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "concern": "Role names can resolve the distinction needed for the contact list.",
+      "basis": "Service desk and operations identify recognizable organizational functions. Separate contact headings require only that broad role distinction, which the accepted boundary preserves."
+    },
+    {
+      "id": "000015-168",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "decision": "retain",
+      "concern": "Serial numbers distinguish the valves for replacement ordering.",
+      "basis": "Serial numbers identify which valve to order. They supply no operational distinction between the valves, leaving the specifically claimed operational difference unresolved."
+    },
+    {
+      "id": "000015-175",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "concern": "Backup and archive have conventional meanings that supply a broad distinction.",
+      "basis": "Backup service and archive convey recovery-copy and record-preservation roles. The shared decision preserves conventional technical terms and recoverable implicit meaning, so the broad distinction remains informative without additional service terms."
+    },
+    {
+      "id": "000015-151",
+      "stage": "replacement-review",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "decision": "rewrite-separate-defect",
+      "concern": "The replacement also justified equivalence with a circular explanation.",
+      "basis": "The claim of equivalence is a relationship omission. Removing the separate circular justification isolates that omission; the new context concerns archive reference cards and supplies no equivalence criterion."
+    },
+    {
+      "id": "000015-151",
+      "stage": "rewritten-replacement-review",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "decision": "retain",
+      "concern": "The biography purpose might make the accounts interchangeable as sources without a further criterion.",
+      "basis": "The biography purpose names an intended use. The claim still supplies no common content, reliability, evidential weight, or other sense of equivalence between these accounts. Copying reference numbers concerns storage and leaves the relevant comparison unresolved."
+    }
+  ],
+  "duplicateAudit": {
+    "thresholds": {
+      "wordsetJaccard": 0.55,
+      "threeWordShingleJaccard": 0.25,
+      "threeWordShingleContainment": 0.65,
+      "containmentMinimumSharedShingles": 8
+    },
+    "sources": [
+      {
+        "file": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+        "sha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+        "labelsSha256": "d78f3b3ba016b77203a4a895393796eadf2c09cbe1abe4a7dac66934ca16c86e",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
+        "sha256": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+        "labelsSha256": "8c7f838cfc8835fc59e85b6233195d01c81bed06d9e5ca0be7101ac146a68771",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md",
+        "sha256": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+        "labelsSha256": "b9bef198be8f3ec498ba0201b6ecb413887b523c31ea774d6c0f44b562e76f67",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+        "sha256": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+        "labelsSha256": "665f5995e4131562225ff456b0e742239b0cb66ab16904734a2d459e6d6d40d8",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md",
+        "sha256": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+        "labelsSha256": "2981c484ad524d95a9527153b82a4c58cbff81a2817d92a550f5b807de6e9b1a",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
+        "sha256": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+        "labelsSha256": "975d73b18aa7a034ac996f6bbfacbcbf311aa10570a56a26d9804803d4cf0a91",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
+        "sha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+        "labelsSha256": "86fae8d5f49a2569dfd781e92a4411337b9d2b3fc1feb1eead6c39dadea8defc",
+        "passages": 200
+      },
+      {
+        "file": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+        "sha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8"
+      },
+      {
+        "file": "prompts/README.md",
+        "sha256": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b"
+      },
+      {
+        "file": "prompts/v1/abstract-contrast.md",
+        "sha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676"
+      },
+      {
+        "file": "prompts/v1/emotion-as-substance.md",
+        "sha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72"
+      },
+      {
+        "file": "prompts/v1/generic-realization.md",
+        "sha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465"
+      },
+      {
+        "file": "prompts/v1/shared.md",
+        "sha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+      }
+    ],
+    "existingDevelopmentPassages": 1400,
+    "exampleComparisons": 335,
+    "inputSha256": "730947dbfdf9175183ddf5f143dff9581122284a473f600913a26411cd9170c2",
+    "within": {
+      "pairs": 19900,
+      "exactDuplicates": 0,
+      "maxWordsetJaccard": 0.2903225806451613,
+      "maxThreeWordShingleJaccard": 0.07692307692307693,
+      "maxThreeWordShingleContainment": 0.15,
+      "flaggedPairs": 0
+    },
+    "across": {
+      "pairs": 347000,
+      "exactDuplicates": 0,
+      "maxWordsetJaccard": 0.25,
+      "maxThreeWordShingleJaccard": 0.07692307692307693,
+      "maxThreeWordShingleContainment": 0.21428571428571427,
+      "flaggedPairs": 0
+    },
+    "holdoutContentRead": false,
+    "initialBeforeReview": {
+      "thresholds": {
+        "wordsetJaccard": 0.55,
+        "threeWordShingleJaccard": 0.25,
+        "threeWordShingleContainment": 0.65,
+        "containmentMinimumSharedShingles": 8
+      },
+      "existingDevelopmentPassages": 1400,
+      "exampleComparisons": 335,
+      "inputSha256": "94ddc73951139565dc12cda8b3cc8a8606455c3f007d6d9a921bbe5d42984b08",
+      "within": {
+        "pairs": 19900,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.2903225806451613,
+        "maxThreeWordShingleJaccard": 0.07692307692307693,
+        "maxThreeWordShingleContainment": 0.15,
+        "flaggedPairs": 0
+      },
+      "across": {
+        "pairs": 347000,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.25,
+        "maxThreeWordShingleJaccard": 0.06896551724137931,
+        "maxThreeWordShingleContainment": 0.21052631578947367,
+        "flaggedPairs": 0
+      },
+      "holdoutContentRead": false,
+      "sourcesMatchFinal": true
+    },
+    "inspection": "Privately inspected nearest wordset and three-word-shingle matches before review and after replacements. Shared constructions and routine phrases retained; no derivative copies found.",
+    "scope": "Historical authoring audit; current 18-collection audit appears in postIndependentQa.duplicateAudit."
+  },
+  "validation": {
+    "formatter": "pnpm exec prettier --write --prose-wrap preserve --ignore-path /dev/null",
+    "formatterVersion": "3.9.6",
+    "readDocument": "passed",
+    "loadDataset": "passed",
+    "loadedPassages": 202,
+    "uniqueIds": 202,
+    "normalizedUniqueTexts": 202,
+    "exactSnippetMatches": true,
+    "allFinalHitSnippetsCopiedExactlyFromOpus": true,
+    "noHitSnippetsOmitted": true,
+    "onePhysicalLinePerPassage": true,
+    "asciiTextAndPunctuation": true,
+    "postFormattingPassagesIdenticalToBlindReview": 202,
+    "textSha256": "2ebbbb0af0318b29e98d0ca2bd31b5dbb216f23a4152861787ed4927cec38218",
+    "labelsSha256": "da0ba4c05f48b06b7401a3731f1a079a97dec33e15ebe814cc08590434bd4f9c",
+    "schemaVersion": 2,
+    "unresolved": 0,
+    "retainedOriginalTextsAndIds": 200,
+    "changedOriginalTexts": 0,
+    "originalReviewArchivesVerified": 6,
+    "allFrozenReviewVersionsVerified": true,
+    "minimumClassCountsPassed": true,
+    "longPassageMinimumPassed": true
+  },
+  "files": {
+    "markdown": "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md",
+    "labels": "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.labels.json",
+    "record": "runners/results/unspecified-relationship-development-opus-review.json"
+  },
+  "supplementalQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "author-adjudicated",
+    "coverage": {
+      "passages": 200,
+      "finalRawTextMatches": 200,
+      "exactOpusHitSnippetMatches": 100
+    },
+    "rawResponseRetention": "Original review responses available and verified.",
+    "mixedFollowup": {
+      "passages": 200,
+      "calls": 2,
+      "disagreements": 4,
+      "objections": 7,
+      "callsMetadata": [
+        {
+          "passages": 100,
+          "hits": 51,
+          "noHits": 49,
+          "input": "/tmp/slopless-family-qa-b-unspecified-relationship-mixed-input-1.json",
+          "output": "/tmp/slopless-family-qa-b-unspecified-relationship-mixed-output-1.json",
+          "inputSha256": "42157fa0eb110dacd2f39180d371f5becf08da12b657dd063e84e5493b12f0cc",
+          "outputSha256": "b0f6d9b9d54eb7112fb827777340100724ae776d0e07873d7f592052c2861d28",
+          "reviewedTargetsSha256": "108b5e11b6879a220208635a74c7fb465beb7fe7c16ee92e998a9c1a6de191fc",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.1913626
+        },
+        {
+          "passages": 100,
+          "hits": 49,
+          "noHits": 51,
+          "input": "/tmp/slopless-family-qa-b-unspecified-relationship-mixed-input-2.json",
+          "output": "/tmp/slopless-family-qa-b-unspecified-relationship-mixed-output-2.json",
+          "inputSha256": "b70a63cebbf35004ccf6dcf9ad095d7529bb807cd16807a8e47cf14392173f8d",
+          "outputSha256": "844da84ee5316b7c1123146889cc2a0dd5645eb1ab6edfac3b16161a5ac546fa",
+          "reviewedTargetsSha256": "96c5e09a80535f522624ce2622c7f96cb9cff860bc05f91de61440213eda958a",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.19629459999999999
+        }
+      ],
+      "blindInputFields": ["id", "text"],
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "neutralRemappedIds": true,
+      "originalCountsPreserved": true,
+      "reason": "Review final texts in mixed batches after class-pure revision calls."
+    },
+    "unresolvedLabelErrors": 0,
+    "unresolvedBoundaryConcerns": 0,
+    "unresolvedArtifactConcerns": 0,
+    "privateFindingsPath": "/tmp/slopless-family-qa-b-000015-private.json",
+    "aggregateSummaryPath": "/tmp/slopless-family-qa-b-summary.json",
+    "datasetEditsPerformed": 0
+  },
+  "postIndependentQa": {
+    "gitHead": "c21c445c333026e4033f8160e56388118cb715d9",
+    "privateFindingsFile": "/tmp/slopless-family-qa-b-000015-private.json",
+    "privateFindingsSha256": "a5560dfcdbeebc0c0629c67d99cc834f9e2a823a93a6c231a1ffc9621fa395bb",
+    "previousCounts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "words": 5812,
+      "minimumWords": 13,
+      "maximumWords": 59,
+      "hitsDetail": {
+        "passages": 100,
+        "words": 3070,
+        "words45to90": 24
+      },
+      "noHitsDetail": {
+        "passages": 100,
+        "words": 2742,
+        "words45to90": 24
+      }
+    },
+    "previousValidation": {
+      "formatter": "pnpm exec prettier --write --prose-wrap preserve --ignore-path /dev/null",
+      "formatterVersion": "3.9.6",
+      "readDocument": "passed",
+      "loadDataset": "passed",
+      "loadedPassages": 200,
+      "uniqueIds": 200,
+      "normalizedUniqueTexts": 200,
+      "exactSnippetMatches": true,
+      "allFinalHitSnippetsCopiedExactlyFromOpus": true,
+      "noHitSnippetsOmitted": true,
+      "onePhysicalLinePerPassage": true,
+      "asciiTextAndPunctuation": true,
+      "postFormattingPassagesIdenticalToBlindReview": 200,
+      "textSha256": "c3b96f21b10fb84f1abb1a032405fd2e575e391680d5fd47b165bc282a57caa0",
+      "labelsSha256": "058400a7c83807e9e7388fa340e170b77663070442c79e55c8d68349b9494e6a",
+      "schemaVersion": 2,
+      "unresolved": 0
+    },
+    "previousUnresolvedFindings": {
+      "labelErrors": 1,
+      "boundaryConcerns": 1,
+      "artifactConcerns": 0
+    },
+    "resolutions": [
+      {
+        "key": "B-002",
+        "id": "000015-166",
+        "finding": "label-error",
+        "previousExpected": true,
+        "finalExpected": false,
+        "action": "label-only-correction",
+        "textRetained": true,
+        "nearestControls": ["000015-147", "000015-175"],
+        "basis": "Scheduler and dispatcher name conventional component roles: scheduling determines when work is eligible and dispatching sends work for execution. The passage makes only a broad component-role claim. The accepted boundary preserves informative role names, as in the service-desk/operations and backup/archive controls. The help-viewer directions add a separate activity without making a more specific component interface relevant."
+      },
+      {
+        "key": "B-003",
+        "id": "000015-035",
+        "finding": "boundary-consistency-concern",
+        "previousExpected": true,
+        "finalExpected": false,
+        "action": "label-only-correction",
+        "textRetained": true,
+        "nearestControls": ["000015-135"],
+        "basis": "Intellectual character identifies an ideas-related association between the author and journal, just as professional plane identifies a work-related association between the photographer and newspaper. Neither passage promises a contractual status or specific contribution. Apply the same accepted broad-informative-category boundary to both; distinctive adds evaluation without erasing the supplied category."
+      },
+      {
+        "id": "000015-202",
+        "finding": "mixed-review-objection",
+        "action": "retain-new-hit",
+        "textRetained": true,
+        "basis": "The indirect reply is delivered as the answer to how the two people knew each other. It asserts an exceptional relationship category without supplying one. The subsequent packing actions explain neither the relationship nor a critique of the reply; quotation or reported speech alone supplies no exemption."
+      }
+    ],
+    "counts": {
+      "passages": 202,
+      "hits": 100,
+      "noHits": 102,
+      "words": 5921,
+      "minimumWords": 13,
+      "maximumWords": 59,
+      "hitsDetail": {
+        "passages": 100,
+        "words": 3102,
+        "words45to90": 25
+      },
+      "noHitsDetail": {
+        "passages": 102,
+        "words": 2819,
+        "words45to90": 25
+      }
+    },
+    "labelsCorrected": 2,
+    "labelCorrectionIds": ["000015-035", "000015-166"],
+    "examplesAdded": 2,
+    "addedIds": ["000015-201", "000015-202"],
+    "retention": {
+      "originalPassages": 200,
+      "originalIdsPreserved": 200,
+      "originalTextsPreserved": 200,
+      "removedOriginalPassages": 0,
+      "rewrittenOriginalPassages": 0,
+      "clarifiedOriginalPassages": 0,
+      "initialAuthoringReplacementsRemainHistorical": true,
+      "summary": "This QA correction preserved the complete prior 200-passage collection and appended two independent hits after label corrections reduced hits to 98."
+    },
+    "review": {
+      "requestedModel": "opus",
+      "actualModels": ["claude-opus-5-5"],
+      "callCount": 1,
+      "passages": 6,
+      "newPassages": 2,
+      "correctedTextControls": 2,
+      "positiveControls": 1,
+      "cleanControls": 1,
+      "neutralRemappedIds": true,
+      "onlyIdAndTextSentToCli": true,
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "toolsDisabled": true,
+      "inputFile": "/tmp/slopless-qa-fix-000015/blind-review-input.json",
+      "inputFileSha256": "6ae1e64a354678c6b0c2824f96b926a8dcc38468f38d7fb3f5e6eea6ad15b6ec",
+      "idMapFile": "/tmp/slopless-qa-fix-000015/review-map.json",
+      "idMapSha256": "bc3be991af0a6300f8d64adabb22f045a6c5d29fcac612102b747dee8f866427",
+      "responseFile": "/tmp/slopless-qa-fix-000015/blind-review-output.json",
+      "responseSha256": "840280c80f2f24e3e4d3462203370ca57dc25908e81b73652b8f47b6d6130050",
+      "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+      "promptSha256": "f45e880df887c7ea188d3880578dcfd5b7224e65d08b430d939c286ec80bef06",
+      "blindTextSha256": "c53737036fb9ab27ec37ee1e11d786608ffe3fb3ff954173ae07d0992e023592",
+      "costUsd": 0.053808,
+      "durationMs": 5590,
+      "blindDisagreements": 2,
+      "blindDisagreementIds": ["000015-035", "000015-166"],
+      "objections": 1,
+      "objectionIds": ["000015-202"],
+      "adjudication": "Two corrected no-hits retained against model-positive judgments using the accepted conventional-role and broad-category boundaries. The new-hit objection was adjudicated without rewriting its text.",
+      "spanOnlyCalls": 0,
+      "allNewHitSnippetsCopiedExactly": true
+    },
+    "frozenReviews": {
+      "verifiedArchivePairs": 6,
+      "archivePresentations": 405,
+      "newReviewPresentations": 6,
+      "finalPassageTextsCovered": 202,
+      "finalHitSnippetsVerified": 100,
+      "currentDisagreementsAgainstOriginalAndAdditionReviews": 5,
+      "currentDisagreementIds": [
+        "000015-035",
+        "000015-087",
+        "000015-135",
+        "000015-166",
+        "000015-175"
+      ],
+      "rawResponseRetention": "All six original and supplemental review input/output archive pairs exist and match their recorded hashes; the new mixed-batch response is retained in the unique correction directory.",
+      "archives": [
+        {
+          "input": "/tmp/ur-review-input-1.json",
+          "output": "/tmp/ur-review-output-1.json",
+          "passages": 100,
+          "inputSha256": "3b4ba795339ccc7588e85766c655e776c8e99ec829753c12ddbd7fb80850febc",
+          "outputSha256": "d6c5c692709a17fb6d275f4ca7b65e05bb60dcfed54522a70f18e1fd6be560cd"
+        },
+        {
+          "input": "/tmp/ur-review-input-2.json",
+          "output": "/tmp/ur-review-output-2.json",
+          "passages": 100,
+          "inputSha256": "0ea2e2b7c6909d26cf3901b0a6a301219f6b80aa3d82661543dfe5723f99c230",
+          "outputSha256": "c583566971d7c6bdec059a294c687250c18638f833496d39aa5a7738621a16fc"
+        },
+        {
+          "input": "/tmp/ur-review-input-3.json",
+          "output": "/tmp/ur-review-output-3.json",
+          "passages": 4,
+          "inputSha256": "e0b7f968e477339997aa1872aa9914cf0cdaf56e6a075d5432f82a9b2aead4cd",
+          "outputSha256": "b723b7a4ff6acf5a022feac0cb234a1ff530c15f93e26f0975f80ca43772e2e0"
+        },
+        {
+          "input": "/tmp/ur-review-input-4.json",
+          "output": "/tmp/ur-review-output-4.json",
+          "passages": 1,
+          "inputSha256": "f28113d7414ef379364f95568f743e3d0973565438ac55dab83f8c43408cccc4",
+          "outputSha256": "545787626ee45a7776d4a36dea96fb10562a9e5e0d94c44753497a9c3c28cfe9"
+        },
+        {
+          "input": "/tmp/slopless-family-qa-b-unspecified-relationship-mixed-input-1.json",
+          "output": "/tmp/slopless-family-qa-b-unspecified-relationship-mixed-output-1.json",
+          "passages": 100,
+          "inputSha256": "42157fa0eb110dacd2f39180d371f5becf08da12b657dd063e84e5493b12f0cc",
+          "outputSha256": "b0f6d9b9d54eb7112fb827777340100724ae776d0e07873d7f592052c2861d28"
+        },
+        {
+          "input": "/tmp/slopless-family-qa-b-unspecified-relationship-mixed-input-2.json",
+          "output": "/tmp/slopless-family-qa-b-unspecified-relationship-mixed-output-2.json",
+          "passages": 100,
+          "inputSha256": "b70a63cebbf35004ccf6dcf9ad095d7529bb807cd16807a8e47cf14392173f8d",
+          "outputSha256": "844da84ee5316b7c1123146889cc2a0dd5645eb1ab6edfac3b16161a5ac546fa"
+        }
+      ]
+    },
+    "duplicateAudit": {
+      "collectionCount": 18,
+      "sources": [
+        {
+          "file": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+          "textSha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+          "labelsSha256": "d78f3b3ba016b77203a4a895393796eadf2c09cbe1abe4a7dac66934ca16c86e",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md",
+          "textSha256": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+          "labelsSha256": "5d6c70d71ecba21417176db3fc3b8de8454c7bce477a72f69fecd6b284588497",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
+          "textSha256": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+          "labelsSha256": "8c7f838cfc8835fc59e85b6233195d01c81bed06d9e5ca0be7101ac146a68771",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md",
+          "textSha256": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+          "labelsSha256": "ba5926c5030515562c022ed6401ad5c58ff78feb0749dbdaef9a02fc35051085",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md",
+          "textSha256": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+          "labelsSha256": "b9bef198be8f3ec498ba0201b6ecb413887b523c31ea774d6c0f44b562e76f67",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md",
+          "textSha256": "1ffd44466d41e349a34b26551be9fce8e0795cc8241a63b4fa9e44683d85f3df",
+          "labelsSha256": "7912fcb14f5285843e34c5c0737dd684aed2cdd6b97d194f791b05be0f573605",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+          "textSha256": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+          "labelsSha256": "665f5995e4131562225ff456b0e742239b0cb66ab16904734a2d459e6d6d40d8",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md",
+          "textSha256": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+          "labelsSha256": "4f651ac5720707bf3f9a52a33637efc6a98a9e8411def0fdca38cb8d4bcd3c8c",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md",
+          "textSha256": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+          "labelsSha256": "2981c484ad524d95a9527153b82a4c58cbff81a2817d92a550f5b807de6e9b1a",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md",
+          "textSha256": "35111fb951b880bd2723a6d9bc26ec6c50293e128eb04950081f26aa991ae34d",
+          "labelsSha256": "eefd47fa758dc32a0d12ac790657ebffc32b780d649d906f62415b9b956b07ef",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
+          "textSha256": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+          "labelsSha256": "975d73b18aa7a034ac996f6bbfacbcbf311aa10570a56a26d9804803d4cf0a91",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md",
+          "textSha256": "acc22f6f938b55173d431e79bddafe3944ce42eb66f67b79812f7eb760baac00",
+          "labelsSha256": "59e03e1d9642fe2677e8b37195b88a6c5e415a102beec07b0246d19550d1f580",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
+          "textSha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+          "labelsSha256": "86fae8d5f49a2569dfd781e92a4411337b9d2b3fc1feb1eead6c39dadea8defc",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md",
+          "textSha256": "66b25721382c931ccfaf2e1c5814b141d5ae9a234f506438fc4bb997d6e32b61",
+          "labelsSha256": "bdcc203008e0812d93602d6d108fb06802249b1829430cdf10f4fcec4eb5d81b",
+          "passages": 201
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md",
+          "textSha256": "2ebbbb0af0318b29e98d0ca2bd31b5dbb216f23a4152861787ed4927cec38218",
+          "labelsSha256": "da0ba4c05f48b06b7401a3731f1a079a97dec33e15ebe814cc08590434bd4f9c",
+          "passages": 202
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md",
+          "textSha256": "cdb21fe6b91e41753b18aebae6e3ae470ec360cc99d972670dcdf9c7a472f9b9",
+          "labelsSha256": "6fce3e4def38f9d9e1e95f93703a52753f73dab4dae1c48298c898183ad99205",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md",
+          "textSha256": "488dc65c18bae886631deb6b9d71bf2119efe656855ebef21be4e049b9e33c2f",
+          "labelsSha256": "fbfe7319670cb1bf066c1e5d1350f885009ef1fe31ea8d6e642486fd42984592",
+          "passages": 200
+        },
+        {
+          "file": "datasets/ai-synthetic/passages/000018-semantic-thinness-missing-actor-holdout.md",
+          "textSha256": "bc54e1f2fc941c04d97ca95e12bc325ba7ee81df762c593e099c6c838f5a59e0",
+          "labelsSha256": "142e2187a050505fa1dde611c6a10ee0792e7dcb9ba1a47442c537187fae9121",
+          "passages": 200
+        },
+        {
+          "file": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+          "textSha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8"
+        },
+        {
+          "file": "prompts/README.md",
+          "textSha256": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b"
+        },
+        {
+          "file": "prompts/v1/abstract-contrast.md",
+          "textSha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676"
+        },
+        {
+          "file": "prompts/v1/emotion-as-substance.md",
+          "textSha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72"
+        },
+        {
+          "file": "prompts/v1/generic-realization.md",
+          "textSha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465"
+        },
+        {
+          "file": "prompts/v1/shared.md",
+          "textSha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+        }
+      ],
+      "thresholds": {
+        "wordsetJaccard": 0.55,
+        "threeWordShingleJaccard": 0.25,
+        "threeWordShingleContainment": 0.65,
+        "containmentMinimumSharedShingles": 8
+      },
+      "authorRowsSha256": "5c32ca1f9f45b2dd4e235daf6168b2e6ca402633495ee10716eccd846b2187df",
+      "within": {
+        "pairs": 20301,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.2903225806451613,
+        "maxThreeWordShingleJaccard": 0.07692307692307693,
+        "maxThreeWordShingleContainment": 0.15,
+        "flaggedPairs": 0
+      },
+      "development": {
+        "pairs": 323200,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.25,
+        "maxThreeWordShingleJaccard": 0.07692307692307693,
+        "maxThreeWordShingleContainment": 0.21428571428571427,
+        "flaggedPairs": 0
+      },
+      "protectedCollections": {
+        "pairs": 363802,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.32142857142857145,
+        "maxThreeWordShingleJaccard": 0.11764705882352941,
+        "maxThreeWordShingleContainment": 0.23529411764705882,
+        "flaggedPairs": 0
+      },
+      "taxonomyAndPrompts": {
+        "pairs": 67670,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.2413793103448276,
+        "maxThreeWordShingleJaccard": 0.06896551724137931,
+        "maxThreeWordShingleContainment": 0.2,
+        "flaggedPairs": 0
+      },
+      "privacy": {
+        "protectedMaterialExposedToAuthor": false,
+        "protectedCaseTextLabelsSnippetsIdsAndNearestMatchesInDiagnostics": false,
+        "otherCollectionPrivateFindingsRead": false
+      },
+      "developmentPassages": 1600,
+      "protectedPassagesCompared": 1801,
+      "exampleUnits": 335,
+      "inspection": "Privately inspected nearest development, within-collection, and taxonomy/prompt matches. Protected collection comparisons ran mechanically with aggregate-only diagnostics."
+    },
+    "validation": {
+      "formatter": "pnpm exec prettier --write --prose-wrap preserve --ignore-path /dev/null",
+      "formatterVersion": "3.9.6",
+      "readDocument": "passed",
+      "loadDataset": "passed",
+      "loadedPassages": 202,
+      "uniqueIds": 202,
+      "normalizedUniqueTexts": 202,
+      "exactSnippetMatches": true,
+      "allFinalHitSnippetsCopiedExactlyFromOpus": true,
+      "noHitSnippetsOmitted": true,
+      "onePhysicalLinePerPassage": true,
+      "asciiTextAndPunctuation": true,
+      "postFormattingPassagesIdenticalToBlindReview": 202,
+      "textSha256": "2ebbbb0af0318b29e98d0ca2bd31b5dbb216f23a4152861787ed4927cec38218",
+      "labelsSha256": "da0ba4c05f48b06b7401a3731f1a079a97dec33e15ebe814cc08590434bd4f9c",
+      "schemaVersion": 2,
+      "unresolved": 0,
+      "retainedOriginalTextsAndIds": 200,
+      "changedOriginalTexts": 0,
+      "originalReviewArchivesVerified": 6,
+      "allFrozenReviewVersionsVerified": true,
+      "minimumClassCountsPassed": true,
+      "longPassageMinimumPassed": true
+    },
+    "resolvedFindings": 2,
+    "challengedFindings": 0,
+    "retainedFindingPassageTexts": 2,
+    "unresolved": 0
+  },
+  "independentCorrectionRecheckB": {
+    "reviewer": "Independent reviewer B",
+    "status": "passed",
+    "method": "At least 100 hits and 100 no-hits; preserve sound original texts and IDs; label truth controls adjudication.",
+    "passages": 202,
+    "hits": 100,
+    "noHits": 102,
+    "words": 5921,
+    "longHits": 25,
+    "longNoHits": 25,
+    "originalTextsRetained": 200,
+    "originalIdsRetained": 200,
+    "originalCasesDropped": 0,
+    "originalTextsChanged": 0,
+    "labelCorrections": 2,
+    "addedPassages": 2,
+    "frozenReviewTextMatches": 202,
+    "actualOpusHitSnippetMatches": 100,
+    "rawArchivePairsVerified": 7,
+    "correctionPassModelDisagreements": 2,
+    "previousFindingsResolved": 2,
+    "newMaterialConcerns": 0,
+    "aggregatePath": "/tmp/slopless-family-qa-b-correction-pass1-summary.json",
+    "privateEvidencePath": "/tmp/slopless-family-qa-b-correction-pass1-private.json"
+  },
+  "finalIndependentQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "passed",
+    "passages": 202,
+    "hits": 100,
+    "noHits": 102,
+    "words": 5921,
+    "longHits": 25,
+    "longNoHits": 25,
+    "originalTextsAndIdsRetained": 200,
+    "postIndependentLabelCorrections": 2,
+    "addedPassages": 2,
+    "currentFinalTextsMatchedToRawBlindInput": 202,
+    "currentHitSnippetSelectionsMatchedToActualOpus": 100,
+    "currentOpusSnippetStrings": 100,
+    "labelSuppliedSpanOnlyHitSelections": 0,
+    "latestAvailableBlindReviewDisagreements": 6,
+    "disagreementScope": "Latest actual matching blind classification per current passage, including the independent mixed followup; original counts remain in their original fields.",
+    "previousLabelOrBoundaryFindingsResolved": 2,
+    "unresolvedLabelOrBoundaryConcerns": 0,
+    "currentFinalProvenanceGaps": 0,
+    "historicalRetentionFindings": 0,
+    "unrecoveredHistoricalResponses": 0,
+    "finalOverlap": {
+      "targetPassages": 1620,
+      "familyCollectionsCompared": 18,
+      "legacyCollectionsCompared": 4,
+      "referenceUnits": 507,
+      "thresholdCandidatesInspected": 32,
+      "newAdditionNearestCandidatesInspected": 40,
+      "exactCopies": 0,
+      "derivativeConcerns": 0
+    },
+    "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
+    "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
+  }
+}

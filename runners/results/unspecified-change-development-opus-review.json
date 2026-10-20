@@ -1,0 +1,292 @@
+{
+  "independentQa": {
+    "reviewedAt": "2026-10-20T17:04:47Z",
+    "reviewer": "Fresh Codex reviewer A",
+    "summaryPath": "/tmp/slopless-family-qa-a-summary.json",
+    "finalTextsMatchedToRawBlindReview": 200,
+    "hitSnippetSelectionsMatchedToRawOpus": 100,
+    "adjudicationEntriesReviewedAgainstFinalRows": 13,
+    "objectionOrDisagreementEventsMappedToAdjudicatedFinalRows": 14,
+    "initialBatchClassCounts": [
+      [52, 48],
+      [48, 52]
+    ],
+    "supplementalModelCalls": 0,
+    "supplementalMixedBatchReviewRequired": false,
+    "newLabelCorrectionsRequired": 0,
+    "materialConcerns": 0
+  },
+  "schemaVersion": 1,
+  "check": "semantic-thinness/unspecified-change",
+  "split": "development",
+  "status": "complete",
+  "dataset": {
+    "markdown": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
+    "labels": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.labels.json",
+    "textSha256": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+    "labelsSha256": "8c7f838cfc8835fc59e85b6233195d01c81bed06d9e5ca0be7101ac146a68771",
+    "commitAtAuthorship": "c21c445c333026e4033f8160e56388118cb715d9"
+  },
+  "models": {
+    "author": "GPT-5 (Codex)",
+    "reviewRequested": "opus",
+    "reviewObserved": ["claude-opus-5-5"]
+  },
+  "reviewProtocol": {
+    "authenticatedCli": "claude",
+    "tools": [],
+    "safeMode": true,
+    "effort": "high",
+    "authorLabelsHidden": true,
+    "authorSnippetsHidden": true,
+    "balanceHidden": true,
+    "passagesShuffled": true,
+    "definitionSource": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+    "holdoutContentRead": false,
+    "rawArtifactsLocation": "/tmp",
+    "initialCalls": 2,
+    "totalCalls": 3
+  },
+  "calls": [
+    {
+      "phase": "initial",
+      "inputPath": "/tmp/unspecified-change-input-1.json",
+      "inputSha256": "12f43dbb07d04ce7b6dd4512a4c33c621da9a1e3eada6ad7a420efe35fe169eb",
+      "textSha256": "ea5690757f43e37ad5f80901fb457f6858f82a478f9f4953a725ee8d7834560a",
+      "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+      "responsePath": "/tmp/unspecified-change-review-1.json",
+      "responseSha256": "9ea4cd03394162f2a8947878ee66ebd652745b83c9c402ebe7bab6d944eed5d2",
+      "passages": 100,
+      "models": ["claude-opus-5-5"],
+      "durationMs": 39694,
+      "costUsd": 0.198644
+    },
+    {
+      "phase": "initial",
+      "inputPath": "/tmp/unspecified-change-input-2.json",
+      "inputSha256": "f7d03bd1323ff90ca6924f402ffaec2bddacf4c6aa32d07788f48adea5bba39d",
+      "textSha256": "da15a4d3020fbaad7e2de622ba7529be42398aecaa62314669a9b7d486e87690",
+      "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+      "responsePath": "/tmp/unspecified-change-review-2.json",
+      "responseSha256": "d6b399a0007f363f977b737b46d9335a635e080b96455dfc84552a1903ee3a0b",
+      "passages": 100,
+      "models": ["claude-opus-5-5"],
+      "durationMs": 42393,
+      "costUsd": 0.202148
+    },
+    {
+      "phase": "replacement",
+      "inputPath": "/tmp/unspecified-change-input-3.json",
+      "inputSha256": "a0efcbc66a5d5d4a4ff097bbfba96031b792cdb957eee175ffe1acd649894e8d",
+      "textSha256": "2a6e27a1e3d998ac30ea4d004671786f27b81af11c7f09492c271da2c97b1c25",
+      "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+      "responsePath": "/tmp/unspecified-change-review-3.json",
+      "responseSha256": "2a02711f99a528ab647c60ea1d25de9b1b11fabb4ebe64b9218eb155f52966fb",
+      "passages": 1,
+      "models": ["claude-opus-5-5"],
+      "durationMs": 6122,
+      "costUsd": 0.046188
+    }
+  ],
+  "counts": {
+    "passages": 200,
+    "hits": 100,
+    "noHits": 100,
+    "words": 5848,
+    "minimumWords": 13,
+    "maximumWords": 60,
+    "words45To90": {
+      "hits": 25,
+      "noHits": 25
+    },
+    "originalAgreements": 199,
+    "originalDisagreements": 1,
+    "originalObjections": 13,
+    "replacementObjections": 1,
+    "adjudicatedDistinctPassages": 13,
+    "authorLabelCorrections": 0,
+    "rewrittenPassages": 1,
+    "finalReviewerAgreements": 199,
+    "finalReviewerDisagreements": 1,
+    "unresolved": 0
+  },
+  "adjudications": [
+    {
+      "id": "000003-021",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "resolution": "retain-author-label",
+      "reason": "The move supplies a trigger; the planning location does not identify what became easier in coordination."
+    },
+    {
+      "id": "000003-026",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "resolution": "retain-author-label",
+      "reason": "The missing contribution is what the apprentice understood, which belongs to generic realization."
+    },
+    {
+      "id": "000003-039",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "resolution": "retain-author-label",
+      "reason": "The passage delivers the promised enhancement without describing it; attribution to release notes supplies its source rather than its content."
+    },
+    {
+      "id": "000003-044",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "resolution": "retain-author-label",
+      "reason": "The quotation delivers the passage's improvement claim. Its interview setting supplies no change in dispute settlement."
+    },
+    {
+      "id": "000003-071",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "resolution": "retain-author-label",
+      "reason": "The agreement is a trigger and a displayed document; neither identifies the reduction in organizing difficulty."
+    },
+    {
+      "id": "000003-107",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "resolution": "rewrite-for-originality",
+      "reason": "The sole omission concerns remit coverage, so scope takes precedence. Rewrote the canonical-like opening for originality. The replacement's blind review again returned no-hit with a scope-versus-change objection; the planning-application question confirms that coverage is the sole missing content, resolving that objection through the explicit scope boundary."
+    },
+    {
+      "id": "000003-109",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "resolution": "retain-author-label",
+      "reason": "The historical attribution still presents the reconfiguration as passage content. The partnership's altered arrangement remains unspecified."
+    },
+    {
+      "id": "000003-114",
+      "authorExpected": false,
+      "reviewerExpected": true,
+      "finalExpected": false,
+      "resolution": "retain-author-label",
+      "reason": "The accepted scope boundary explicitly assigns a distinction expressed only as a different kind of job to unspecified relationship. The first sentence compares the jobs of two committees; its missing distinction stays with that specific type. The remaining sentences also examine the report's wording. Retained this hard boundary case despite reviewer disagreement."
+    },
+    {
+      "id": "000003-115",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "resolution": "retain-author-label",
+      "reason": "Only the investigation's coverage is omitted; the accepted boundary routes that omission to unspecified scope."
+    },
+    {
+      "id": "000003-119",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "resolution": "retain-author-label",
+      "reason": "Population and period are coverage limits. Their omission belongs to unspecified scope."
+    },
+    {
+      "id": "000003-129",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "resolution": "retain-author-label",
+      "reason": "The passage withholds the content of an insight, assigning its omission to generic realization."
+    },
+    {
+      "id": "000003-175",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "finalExpected": false,
+      "resolution": "retain-author-label",
+      "reason": "The brief's circumscription concerns coverage, for which the taxonomy gives scope precedence over change."
+    },
+    {
+      "id": "000003-195",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "finalExpected": true,
+      "resolution": "retain-author-label",
+      "reason": "The pace could have accelerated or slowed. Neither Farah's arrival nor the travel details selects a direction, so the passage leaves the change unspecified."
+    }
+  ],
+  "duplicateAudit": {
+    "thresholds": {
+      "wordJaccard": 0.5,
+      "threeWordShingleJaccard": 0.3
+    },
+    "sources": [
+      "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md"
+    ],
+    "referenceSources": [
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+      "prompts/v1/abstract-contrast.md",
+      "prompts/v1/emotion-as-substance.md",
+      "prompts/v1/generic-realization.md",
+      "prompts/v1/shared.md"
+    ],
+    "existingRows": 530,
+    "exact": [],
+    "maxima": {
+      "within": {
+        "word": 0.25,
+        "shingle": 0.07317073170731707
+      },
+      "development-and-references": {
+        "word": 0.2857142857142857,
+        "shingle": 0.08823529411764706
+      }
+    },
+    "flagged": [],
+    "preReviewEdits": {
+      "count": 9,
+      "ids": [
+        "000003-008",
+        "000003-024",
+        "000003-049",
+        "000003-053",
+        "000003-115",
+        "000003-116",
+        "000003-149",
+        "000003-153",
+        "000003-175"
+      ],
+      "reason": "Replaced one taxonomy-copied boundary sentence and varied eight repetitive scope controls before blind review."
+    },
+    "nearestMatchesPrivatelyInspected": {
+      "wordPairs": 12,
+      "threeWordShinglePairs": 12,
+      "derivativeCopiesRemaining": 0
+    },
+    "scope": "Development pairs and taxonomy/current prompt references only."
+  },
+  "validation": {
+    "readDocument": {
+      "passed": true,
+      "passages": 200,
+      "labels": 200
+    },
+    "loadDataset": {
+      "passed": true,
+      "passages": 200
+    },
+    "uniqueIds": true,
+    "hitSnippetsExact": true,
+    "hitSnippetsCopiedFromOpus": true,
+    "noHitSnippetsOmitted": true,
+    "markdownSha256Matches": true,
+    "allFinalTextsExactlyMatchBlindReview": true,
+    "onePhysicalParagraphLinePerPassage": true,
+    "asciiPunctuation": true,
+    "prettierProseWrap": "preserve",
+    "prettierCheckPassed": true,
+    "gitDiffCheckPassed": true,
+    "sloplessRun": false
+  }
+}

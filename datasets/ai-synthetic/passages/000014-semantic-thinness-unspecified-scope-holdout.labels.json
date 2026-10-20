@@ -1,0 +1,2281 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "66b25721382c931ccfaf2e1c5814b141d5ae9a234f506438fc4bb997d6e32b61",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "source": {
+    "name": "New independent synthetic unspecified-scope holdout",
+    "originalPath": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "model": "Codex",
+    "notes": "All 200 initial passages were drafted before development writing was inspected. Independently classified by claude-opus-5-5 with author judgments, snippets, and class balance withheld. Final snippets are exact Opus selections; other checks remain unassessed. Post-independent QA preserved all 200 original passages and IDs, corrected one label, and appended one independently reviewed passage."
+  },
+  "samples": [
+    {
+      "id": "000014-001",
+      "start": 44,
+      "end": 182
+    },
+    {
+      "id": "000014-002",
+      "start": 199,
+      "end": 335
+    },
+    {
+      "id": "000014-003",
+      "start": 352,
+      "end": 643
+    },
+    {
+      "id": "000014-004",
+      "start": 660,
+      "end": 807
+    },
+    {
+      "id": "000014-005",
+      "start": 824,
+      "end": 950
+    },
+    {
+      "id": "000014-006",
+      "start": 967,
+      "end": 1096
+    },
+    {
+      "id": "000014-007",
+      "start": 1113,
+      "end": 1449
+    },
+    {
+      "id": "000014-008",
+      "start": 1466,
+      "end": 1604
+    },
+    {
+      "id": "000014-009",
+      "start": 1621,
+      "end": 1776
+    },
+    {
+      "id": "000014-010",
+      "start": 1793,
+      "end": 1930
+    },
+    {
+      "id": "000014-011",
+      "start": 1947,
+      "end": 2088
+    },
+    {
+      "id": "000014-012",
+      "start": 2105,
+      "end": 2241
+    },
+    {
+      "id": "000014-013",
+      "start": 2258,
+      "end": 2377
+    },
+    {
+      "id": "000014-014",
+      "start": 2394,
+      "end": 2705
+    },
+    {
+      "id": "000014-015",
+      "start": 2722,
+      "end": 2844
+    },
+    {
+      "id": "000014-016",
+      "start": 2861,
+      "end": 3003
+    },
+    {
+      "id": "000014-017",
+      "start": 3020,
+      "end": 3153
+    },
+    {
+      "id": "000014-018",
+      "start": 3170,
+      "end": 3478
+    },
+    {
+      "id": "000014-019",
+      "start": 3495,
+      "end": 3630
+    },
+    {
+      "id": "000014-020",
+      "start": 3647,
+      "end": 3773
+    },
+    {
+      "id": "000014-021",
+      "start": 3790,
+      "end": 4150
+    },
+    {
+      "id": "000014-022",
+      "start": 4167,
+      "end": 4274
+    },
+    {
+      "id": "000014-023",
+      "start": 4291,
+      "end": 4402
+    },
+    {
+      "id": "000014-024",
+      "start": 4419,
+      "end": 4563
+    },
+    {
+      "id": "000014-025",
+      "start": 4580,
+      "end": 4716
+    },
+    {
+      "id": "000014-026",
+      "start": 4733,
+      "end": 4898
+    },
+    {
+      "id": "000014-027",
+      "start": 4915,
+      "end": 5065
+    },
+    {
+      "id": "000014-028",
+      "start": 5082,
+      "end": 5220
+    },
+    {
+      "id": "000014-029",
+      "start": 5237,
+      "end": 5388
+    },
+    {
+      "id": "000014-030",
+      "start": 5405,
+      "end": 5534
+    },
+    {
+      "id": "000014-031",
+      "start": 5551,
+      "end": 5838
+    },
+    {
+      "id": "000014-032",
+      "start": 5855,
+      "end": 5984
+    },
+    {
+      "id": "000014-033",
+      "start": 6001,
+      "end": 6123
+    },
+    {
+      "id": "000014-034",
+      "start": 6140,
+      "end": 6476
+    },
+    {
+      "id": "000014-035",
+      "start": 6493,
+      "end": 6620
+    },
+    {
+      "id": "000014-036",
+      "start": 6637,
+      "end": 6793
+    },
+    {
+      "id": "000014-037",
+      "start": 6810,
+      "end": 6962
+    },
+    {
+      "id": "000014-038",
+      "start": 6979,
+      "end": 7128
+    },
+    {
+      "id": "000014-039",
+      "start": 7145,
+      "end": 7299
+    },
+    {
+      "id": "000014-040",
+      "start": 7316,
+      "end": 7675
+    },
+    {
+      "id": "000014-041",
+      "start": 7692,
+      "end": 7823
+    },
+    {
+      "id": "000014-042",
+      "start": 7840,
+      "end": 7979
+    },
+    {
+      "id": "000014-043",
+      "start": 7996,
+      "end": 8140
+    },
+    {
+      "id": "000014-044",
+      "start": 8157,
+      "end": 8469
+    },
+    {
+      "id": "000014-045",
+      "start": 8486,
+      "end": 8803
+    },
+    {
+      "id": "000014-046",
+      "start": 8820,
+      "end": 8941
+    },
+    {
+      "id": "000014-047",
+      "start": 8958,
+      "end": 9265
+    },
+    {
+      "id": "000014-048",
+      "start": 9282,
+      "end": 9423
+    },
+    {
+      "id": "000014-049",
+      "start": 9440,
+      "end": 9577
+    },
+    {
+      "id": "000014-050",
+      "start": 9594,
+      "end": 9711
+    },
+    {
+      "id": "000014-051",
+      "start": 9728,
+      "end": 9847
+    },
+    {
+      "id": "000014-052",
+      "start": 9864,
+      "end": 10003
+    },
+    {
+      "id": "000014-053",
+      "start": 10020,
+      "end": 10159
+    },
+    {
+      "id": "000014-054",
+      "start": 10176,
+      "end": 10314
+    },
+    {
+      "id": "000014-055",
+      "start": 10331,
+      "end": 10669
+    },
+    {
+      "id": "000014-056",
+      "start": 10686,
+      "end": 10826
+    },
+    {
+      "id": "000014-057",
+      "start": 10843,
+      "end": 10956
+    },
+    {
+      "id": "000014-058",
+      "start": 10973,
+      "end": 11115
+    },
+    {
+      "id": "000014-059",
+      "start": 11132,
+      "end": 11282
+    },
+    {
+      "id": "000014-060",
+      "start": 11299,
+      "end": 11608
+    },
+    {
+      "id": "000014-061",
+      "start": 11625,
+      "end": 11785
+    },
+    {
+      "id": "000014-062",
+      "start": 11802,
+      "end": 11939
+    },
+    {
+      "id": "000014-063",
+      "start": 11956,
+      "end": 12304
+    },
+    {
+      "id": "000014-064",
+      "start": 12321,
+      "end": 12419
+    },
+    {
+      "id": "000014-065",
+      "start": 12436,
+      "end": 12579
+    },
+    {
+      "id": "000014-066",
+      "start": 12596,
+      "end": 12724
+    },
+    {
+      "id": "000014-067",
+      "start": 12741,
+      "end": 12894
+    },
+    {
+      "id": "000014-068",
+      "start": 12911,
+      "end": 13046
+    },
+    {
+      "id": "000014-069",
+      "start": 13063,
+      "end": 13190
+    },
+    {
+      "id": "000014-070",
+      "start": 13207,
+      "end": 13349
+    },
+    {
+      "id": "000014-071",
+      "start": 13366,
+      "end": 13503
+    },
+    {
+      "id": "000014-072",
+      "start": 13520,
+      "end": 13677
+    },
+    {
+      "id": "000014-073",
+      "start": 13694,
+      "end": 14015
+    },
+    {
+      "id": "000014-074",
+      "start": 14032,
+      "end": 14150
+    },
+    {
+      "id": "000014-075",
+      "start": 14167,
+      "end": 14296
+    },
+    {
+      "id": "000014-076",
+      "start": 14313,
+      "end": 14458
+    },
+    {
+      "id": "000014-077",
+      "start": 14475,
+      "end": 14802
+    },
+    {
+      "id": "000014-078",
+      "start": 14819,
+      "end": 15172
+    },
+    {
+      "id": "000014-079",
+      "start": 15189,
+      "end": 15327
+    },
+    {
+      "id": "000014-080",
+      "start": 15344,
+      "end": 15477
+    },
+    {
+      "id": "000014-081",
+      "start": 15494,
+      "end": 15614
+    },
+    {
+      "id": "000014-082",
+      "start": 15631,
+      "end": 15767
+    },
+    {
+      "id": "000014-083",
+      "start": 15784,
+      "end": 15903
+    },
+    {
+      "id": "000014-084",
+      "start": 15920,
+      "end": 16073
+    },
+    {
+      "id": "000014-085",
+      "start": 16090,
+      "end": 16211
+    },
+    {
+      "id": "000014-086",
+      "start": 16228,
+      "end": 16372
+    },
+    {
+      "id": "000014-087",
+      "start": 16389,
+      "end": 16520
+    },
+    {
+      "id": "000014-088",
+      "start": 16537,
+      "end": 16680
+    },
+    {
+      "id": "000014-089",
+      "start": 16697,
+      "end": 16832
+    },
+    {
+      "id": "000014-090",
+      "start": 16849,
+      "end": 16999
+    },
+    {
+      "id": "000014-091",
+      "start": 17016,
+      "end": 17150
+    },
+    {
+      "id": "000014-092",
+      "start": 17167,
+      "end": 17302
+    },
+    {
+      "id": "000014-093",
+      "start": 17319,
+      "end": 17462
+    },
+    {
+      "id": "000014-094",
+      "start": 17479,
+      "end": 17595
+    },
+    {
+      "id": "000014-095",
+      "start": 17612,
+      "end": 17731
+    },
+    {
+      "id": "000014-096",
+      "start": 17748,
+      "end": 17862
+    },
+    {
+      "id": "000014-097",
+      "start": 17879,
+      "end": 18033
+    },
+    {
+      "id": "000014-098",
+      "start": 18050,
+      "end": 18185
+    },
+    {
+      "id": "000014-099",
+      "start": 18202,
+      "end": 18340
+    },
+    {
+      "id": "000014-100",
+      "start": 18357,
+      "end": 18693
+    },
+    {
+      "id": "000014-101",
+      "start": 18710,
+      "end": 18850
+    },
+    {
+      "id": "000014-102",
+      "start": 18867,
+      "end": 19015
+    },
+    {
+      "id": "000014-103",
+      "start": 19032,
+      "end": 19359
+    },
+    {
+      "id": "000014-104",
+      "start": 19376,
+      "end": 19523
+    },
+    {
+      "id": "000014-105",
+      "start": 19540,
+      "end": 19693
+    },
+    {
+      "id": "000014-106",
+      "start": 19710,
+      "end": 19828
+    },
+    {
+      "id": "000014-107",
+      "start": 19845,
+      "end": 19956
+    },
+    {
+      "id": "000014-108",
+      "start": 19973,
+      "end": 20097
+    },
+    {
+      "id": "000014-109",
+      "start": 20114,
+      "end": 20261
+    },
+    {
+      "id": "000014-110",
+      "start": 20278,
+      "end": 20410
+    },
+    {
+      "id": "000014-111",
+      "start": 20427,
+      "end": 20574
+    },
+    {
+      "id": "000014-112",
+      "start": 20591,
+      "end": 20913
+    },
+    {
+      "id": "000014-113",
+      "start": 20930,
+      "end": 21091
+    },
+    {
+      "id": "000014-114",
+      "start": 21108,
+      "end": 21417
+    },
+    {
+      "id": "000014-115",
+      "start": 21434,
+      "end": 21752
+    },
+    {
+      "id": "000014-116",
+      "start": 21769,
+      "end": 21904
+    },
+    {
+      "id": "000014-117",
+      "start": 21921,
+      "end": 22071
+    },
+    {
+      "id": "000014-118",
+      "start": 22088,
+      "end": 22424
+    },
+    {
+      "id": "000014-119",
+      "start": 22441,
+      "end": 22581
+    },
+    {
+      "id": "000014-120",
+      "start": 22598,
+      "end": 22943
+    },
+    {
+      "id": "000014-121",
+      "start": 22960,
+      "end": 23291
+    },
+    {
+      "id": "000014-122",
+      "start": 23308,
+      "end": 23438
+    },
+    {
+      "id": "000014-123",
+      "start": 23455,
+      "end": 23606
+    },
+    {
+      "id": "000014-124",
+      "start": 23623,
+      "end": 23737
+    },
+    {
+      "id": "000014-125",
+      "start": 23754,
+      "end": 23883
+    },
+    {
+      "id": "000014-126",
+      "start": 23900,
+      "end": 24216
+    },
+    {
+      "id": "000014-127",
+      "start": 24233,
+      "end": 24360
+    },
+    {
+      "id": "000014-128",
+      "start": 24377,
+      "end": 24503
+    },
+    {
+      "id": "000014-129",
+      "start": 24520,
+      "end": 24850
+    },
+    {
+      "id": "000014-130",
+      "start": 24867,
+      "end": 25181
+    },
+    {
+      "id": "000014-131",
+      "start": 25198,
+      "end": 25352
+    },
+    {
+      "id": "000014-132",
+      "start": 25369,
+      "end": 25506
+    },
+    {
+      "id": "000014-133",
+      "start": 25523,
+      "end": 25673
+    },
+    {
+      "id": "000014-134",
+      "start": 25690,
+      "end": 26026
+    },
+    {
+      "id": "000014-135",
+      "start": 26043,
+      "end": 26184
+    },
+    {
+      "id": "000014-136",
+      "start": 26201,
+      "end": 26327
+    },
+    {
+      "id": "000014-137",
+      "start": 26344,
+      "end": 26480
+    },
+    {
+      "id": "000014-138",
+      "start": 26497,
+      "end": 26631
+    },
+    {
+      "id": "000014-139",
+      "start": 26648,
+      "end": 26774
+    },
+    {
+      "id": "000014-140",
+      "start": 26791,
+      "end": 26943
+    },
+    {
+      "id": "000014-141",
+      "start": 26960,
+      "end": 27254
+    },
+    {
+      "id": "000014-142",
+      "start": 27271,
+      "end": 27409
+    },
+    {
+      "id": "000014-143",
+      "start": 27426,
+      "end": 27574
+    },
+    {
+      "id": "000014-144",
+      "start": 27591,
+      "end": 27868
+    },
+    {
+      "id": "000014-145",
+      "start": 27885,
+      "end": 28043
+    },
+    {
+      "id": "000014-146",
+      "start": 28060,
+      "end": 28212
+    },
+    {
+      "id": "000014-147",
+      "start": 28229,
+      "end": 28378
+    },
+    {
+      "id": "000014-148",
+      "start": 28395,
+      "end": 28554
+    },
+    {
+      "id": "000014-149",
+      "start": 28571,
+      "end": 28851
+    },
+    {
+      "id": "000014-150",
+      "start": 28868,
+      "end": 28996
+    },
+    {
+      "id": "000014-151",
+      "start": 29013,
+      "end": 29165
+    },
+    {
+      "id": "000014-152",
+      "start": 29182,
+      "end": 29321
+    },
+    {
+      "id": "000014-153",
+      "start": 29338,
+      "end": 29438
+    },
+    {
+      "id": "000014-154",
+      "start": 29455,
+      "end": 29816
+    },
+    {
+      "id": "000014-155",
+      "start": 29833,
+      "end": 29962
+    },
+    {
+      "id": "000014-156",
+      "start": 29979,
+      "end": 30096
+    },
+    {
+      "id": "000014-157",
+      "start": 30113,
+      "end": 30237
+    },
+    {
+      "id": "000014-158",
+      "start": 30254,
+      "end": 30380
+    },
+    {
+      "id": "000014-159",
+      "start": 30397,
+      "end": 30531
+    },
+    {
+      "id": "000014-160",
+      "start": 30548,
+      "end": 30708
+    },
+    {
+      "id": "000014-161",
+      "start": 30725,
+      "end": 30849
+    },
+    {
+      "id": "000014-162",
+      "start": 30866,
+      "end": 31021
+    },
+    {
+      "id": "000014-163",
+      "start": 31038,
+      "end": 31173
+    },
+    {
+      "id": "000014-164",
+      "start": 31190,
+      "end": 31324
+    },
+    {
+      "id": "000014-165",
+      "start": 31341,
+      "end": 31676
+    },
+    {
+      "id": "000014-166",
+      "start": 31693,
+      "end": 31866
+    },
+    {
+      "id": "000014-167",
+      "start": 31883,
+      "end": 32011
+    },
+    {
+      "id": "000014-168",
+      "start": 32028,
+      "end": 32144
+    },
+    {
+      "id": "000014-169",
+      "start": 32161,
+      "end": 32289
+    },
+    {
+      "id": "000014-170",
+      "start": 32306,
+      "end": 32432
+    },
+    {
+      "id": "000014-171",
+      "start": 32449,
+      "end": 32579
+    },
+    {
+      "id": "000014-172",
+      "start": 32596,
+      "end": 32729
+    },
+    {
+      "id": "000014-173",
+      "start": 32746,
+      "end": 32863
+    },
+    {
+      "id": "000014-174",
+      "start": 32880,
+      "end": 33027
+    },
+    {
+      "id": "000014-175",
+      "start": 33044,
+      "end": 33203
+    },
+    {
+      "id": "000014-176",
+      "start": 33220,
+      "end": 33338
+    },
+    {
+      "id": "000014-177",
+      "start": 33355,
+      "end": 33492
+    },
+    {
+      "id": "000014-178",
+      "start": 33509,
+      "end": 33644
+    },
+    {
+      "id": "000014-179",
+      "start": 33661,
+      "end": 33803
+    },
+    {
+      "id": "000014-180",
+      "start": 33820,
+      "end": 34146
+    },
+    {
+      "id": "000014-181",
+      "start": 34163,
+      "end": 34470
+    },
+    {
+      "id": "000014-182",
+      "start": 34487,
+      "end": 34630
+    },
+    {
+      "id": "000014-183",
+      "start": 34647,
+      "end": 34802
+    },
+    {
+      "id": "000014-184",
+      "start": 34819,
+      "end": 35142
+    },
+    {
+      "id": "000014-185",
+      "start": 35159,
+      "end": 35290
+    },
+    {
+      "id": "000014-186",
+      "start": 35307,
+      "end": 35650
+    },
+    {
+      "id": "000014-187",
+      "start": 35667,
+      "end": 35798
+    },
+    {
+      "id": "000014-188",
+      "start": 35815,
+      "end": 35959
+    },
+    {
+      "id": "000014-189",
+      "start": 35976,
+      "end": 36109
+    },
+    {
+      "id": "000014-190",
+      "start": 36126,
+      "end": 36262
+    },
+    {
+      "id": "000014-191",
+      "start": 36279,
+      "end": 36388
+    },
+    {
+      "id": "000014-192",
+      "start": 36405,
+      "end": 36524
+    },
+    {
+      "id": "000014-193",
+      "start": 36541,
+      "end": 36683
+    },
+    {
+      "id": "000014-194",
+      "start": 36700,
+      "end": 36865
+    },
+    {
+      "id": "000014-195",
+      "start": 36882,
+      "end": 37002
+    },
+    {
+      "id": "000014-196",
+      "start": 37019,
+      "end": 37158
+    },
+    {
+      "id": "000014-197",
+      "start": 37175,
+      "end": 37293
+    },
+    {
+      "id": "000014-198",
+      "start": 37310,
+      "end": 37598
+    },
+    {
+      "id": "000014-199",
+      "start": 37615,
+      "end": 37770
+    },
+    {
+      "id": "000014-200",
+      "start": 37787,
+      "end": 38128
+    },
+    {
+      "id": "000014-201",
+      "start": 38145,
+      "end": 38480
+    }
+  ],
+  "labels": [
+    {
+      "id": "000014-001",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "We agreed to mount a restrained version of the production. That restriction is welcome"
+      ]
+    },
+    {
+      "id": "000014-002",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-003",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "I accepted the appointment on a compact remit, confident that its limits would leave room for the rest of my life."
+      ]
+    },
+    {
+      "id": "000014-004",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "This essay concerns an intentionally small corner of music. Its restricted reach is deliberate"
+      ]
+    },
+    {
+      "id": "000014-005",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-006",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "A tightly channeled discussion awaits delegates on Thursday."
+      ]
+    },
+    {
+      "id": "000014-007",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The fellowship will operate within a carefully delimited brief, so the trustees can approve it with confidence."
+      ]
+    },
+    {
+      "id": "000014-008",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-009",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-010",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-011",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-012",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The service stays within a tight compass. That limited scope is a sound basis for hiring the firm"
+      ]
+    },
+    {
+      "id": "000014-013",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-014",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-015",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["Our coverage is selective."]
+    },
+    {
+      "id": "000014-016",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-017",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "We are keeping the remit close. Trust that restriction and let us move ahead with staffing the unit"
+      ]
+    },
+    {
+      "id": "000014-018",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["arranging the memorial would be a limited undertaking"]
+    },
+    {
+      "id": "000014-019",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The new ombudsman has a sharply focused remit. That restriction warrants our confidence"
+      ]
+    },
+    {
+      "id": "000014-020",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-021",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-022",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-023",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-024",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The administrator has a carefully bounded discretion. Trust those limits"
+      ]
+    },
+    {
+      "id": "000014-025",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["Our service is intentionally limited."]
+    },
+    {
+      "id": "000014-026",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Our training course covers a disciplined subset of the profession's skills. We recommend it on that restricted basis"
+      ]
+    },
+    {
+      "id": "000014-027",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The guest account provides a controlled slice of access. Rely on that restriction when inviting visitors"
+      ]
+    },
+    {
+      "id": "000014-028",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Operating under a restricted charter, our office warrants your confidence."
+      ]
+    },
+    {
+      "id": "000014-029",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Producing the exhibition would be a smaller undertaking now, with a more restricted scope."
+      ]
+    },
+    {
+      "id": "000014-030",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-031",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Clearing the house will be a modest, well-bounded task, I assured the executor."
+      ]
+    },
+    {
+      "id": "000014-032",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Our liability is bounded. You can rely on that limit when signing the agreement"
+      ]
+    },
+    {
+      "id": "000014-033",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-034",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Please approve the proposal on the understanding that the scope is intentionally lean."
+      ]
+    },
+    {
+      "id": "000014-035",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["the foundation, which has a carefully restricted purpose"]
+    },
+    {
+      "id": "000014-036",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-037",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The agency's work is more tightly concentrated this year. We should welcome that restricted coverage"
+      ]
+    },
+    {
+      "id": "000014-038",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-039",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-040",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "I recommend proceeding with this bounded review, whose restricted reach makes it an appropriate next step."
+      ]
+    },
+    {
+      "id": "000014-041",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["this recorder offers a lean feature set"]
+    },
+    {
+      "id": "000014-042",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["This one is limited by design"]
+    },
+    {
+      "id": "000014-043",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-044",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "My new responsibility is a tightly drawn responsibility, which makes accepting the promotion a sensible decision."
+      ]
+    },
+    {
+      "id": "000014-045",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-046",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "We broke for lunch with the question much narrower than before."
+      ]
+    },
+    {
+      "id": "000014-047",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Residents can be assured that our monitoring has strict limits."
+      ]
+    },
+    {
+      "id": "000014-048",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The search space is restricted. We can rely on that constraint in deciding to run an exhaustive search"
+      ]
+    },
+    {
+      "id": "000014-049",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "it was a tightly prescribed job, ideal for my first appointment"
+      ]
+    },
+    {
+      "id": "000014-050",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-051",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The committee has a finite field of action, a restriction I welcome."
+      ]
+    },
+    {
+      "id": "000014-052",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-053",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-054",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-055",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The new relief scheme is a targeted intervention, and that disciplined reach is the basis on which I recommend approving it."
+      ]
+    },
+    {
+      "id": "000014-056",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The tribunal has a limited jurisdiction. That restriction merits confidence"
+      ]
+    },
+    {
+      "id": "000014-057",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-058",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-059",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-060",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-061",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "We have put fences around the work. That restriction makes the engagement suitable"
+      ]
+    },
+    {
+      "id": "000014-062",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["rely on our promise that the engagement will be kept lean"]
+    },
+    {
+      "id": "000014-063",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-064",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "You can relax about the plugin: the permissions are limited."
+      ]
+    },
+    {
+      "id": "000014-065",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "\"Neatly boxed,\" she said of the job, and that restricted scope sounded ideal to me."
+      ]
+    },
+    {
+      "id": "000014-066",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-067",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The undertaking is ring-fenced. That separation is sufficient reason to support it"
+      ]
+    },
+    {
+      "id": "000014-068",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["The assignment we inherited now has tighter bounds."]
+    },
+    {
+      "id": "000014-069",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-070",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "It is kept on a short leash, an assurance the cabinet accepted"
+      ]
+    },
+    {
+      "id": "000014-071",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["Certainly not: the brief has hard edges."]
+    },
+    {
+      "id": "000014-072",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["Its guardrails keep it from becoming open-ended."]
+    },
+    {
+      "id": "000014-073",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-074",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "I describe my role as circumscribed, and that is why it suits me."
+      ]
+    },
+    {
+      "id": "000014-075",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["Members like the forum's narrow orbit."]
+    },
+    {
+      "id": "000014-076",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-077",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-078",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Our commitment is strictly circumscribed, and the neighborhood association can plan on that basis."
+      ]
+    },
+    {
+      "id": "000014-079",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-080",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The app will do less; that reduction in scope is the guiding decision behind the release."
+      ]
+    },
+    {
+      "id": "000014-081",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-082",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["The fellowship maintains a disciplined range of activities"]
+    },
+    {
+      "id": "000014-083",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-084",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-085",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-086",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "the liaison post carried a modestly sized remit, just the restriction I had hoped for"
+      ]
+    },
+    {
+      "id": "000014-087",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["turned to a more focused question"]
+    },
+    {
+      "id": "000014-088",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The adviser will stay in a prescribed lane. We can trust that restriction"
+      ]
+    },
+    {
+      "id": "000014-089",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Compactness of the operating domain is the tool's chief selling point."
+      ]
+    },
+    {
+      "id": "000014-090",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-091",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["Join us for a focused assignment"]
+    },
+    {
+      "id": "000014-092",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The envoy traveled on a confined mission, a restriction his hosts could welcome."
+      ]
+    },
+    {
+      "id": "000014-093",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-094",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-095",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-096",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-097",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-098",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "They asked me to lend my name to a tightly bounded initiative."
+      ]
+    },
+    {
+      "id": "000014-099",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["The question was circumscribed"]
+    },
+    {
+      "id": "000014-100",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "We should welcome this committee because the mandate runs only so far."
+      ]
+    },
+    {
+      "id": "000014-101",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-102",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-103",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-104",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Yesterday's hearing brought the investigation into a tighter aperture."
+      ]
+    },
+    {
+      "id": "000014-105",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-106",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["We keep our range deliberately tight."]
+    },
+    {
+      "id": "000014-107",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "I accepted the favor with some firm limits. With that restriction settled"
+      ]
+    },
+    {
+      "id": "000014-108",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-109",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["It has a specialized brief rather than a general one"]
+    },
+    {
+      "id": "000014-110",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-111",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "I considered the consultancy's short reach.",
+        "I was satisfied with that restriction and accepted."
+      ]
+    },
+    {
+      "id": "000014-112",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-113",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-114",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "By the next meeting the inquiry had been pared back.",
+        "we could proceed in the knowledge that its reach was smaller"
+      ]
+    },
+    {
+      "id": "000014-115",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "You can rely on our promise that the product will stay focused."
+      ]
+    },
+    {
+      "id": "000014-116",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "For the survey as a whole, I have adopted a highly selective approach."
+      ]
+    },
+    {
+      "id": "000014-117",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-118",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-119",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "It is a task with clear borders. I am comfortable with that restricted scope"
+      ]
+    },
+    {
+      "id": "000014-120",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-121",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-122",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-123",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-124",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-125",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-126",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-127",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The client's revisions leave us a more restricted commission."
+      ]
+    },
+    {
+      "id": "000014-128",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-129",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-130",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-131",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The partnership creates a constrained set of obligations, which suited both parties."
+      ]
+    },
+    {
+      "id": "000014-132",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-133",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The task force has a light-touch mandate. That limited remit deserves our confidence"
+      ]
+    },
+    {
+      "id": "000014-134",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Their supervisor explained that the mandate is tightly circumscribed, a reassurance I accepted before signing the agreement."
+      ]
+    },
+    {
+      "id": "000014-135",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-136",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-137",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "\"We are pursuing a narrow avenue of inquiry.\" I sent it to the press unchanged."
+      ]
+    },
+    {
+      "id": "000014-138",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The program she administers operates within a controlled envelope."
+      ]
+    },
+    {
+      "id": "000014-139",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-140",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-141",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "it is a finite brief, and you can trust that limit when deciding whether to join us"
+      ]
+    },
+    {
+      "id": "000014-142",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-143",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The work has a deliberate ceiling. That limit makes the proposal suitable"
+      ]
+    },
+    {
+      "id": "000014-144",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-145",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-146",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "It makes a selectively drawn offer, a restriction I welcome"
+      ]
+    },
+    {
+      "id": "000014-147",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["the consultancy is tightly targeted"]
+    },
+    {
+      "id": "000014-148",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Customers at the opening will encounter a carefully trimmed service."
+      ]
+    },
+    {
+      "id": "000014-149",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-150",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-151",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "we are working inside a reduced frame. I welcome the narrower coverage"
+      ]
+    },
+    {
+      "id": "000014-152",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "the board has reined the project in. This restriction is welcome"
+      ]
+    },
+    {
+      "id": "000014-153",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-154",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "I recommend a surgical approach rather than extensive work."
+      ]
+    },
+    {
+      "id": "000014-155",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Having a limited window of responsibility here suits me well"
+      ]
+    },
+    {
+      "id": "000014-156",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["The review would stay inside a clear perimeter"]
+    },
+    {
+      "id": "000014-157",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "Containment is the virtue of this proposal: it is deliberately contained."
+      ]
+    },
+    {
+      "id": "000014-158",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-159",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-160",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-161",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-162",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["We were satisfied that their powers had a strict perimeter"]
+    },
+    {
+      "id": "000014-163",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The captain sent him ashore on a confined brief. I welcomed the restriction"
+      ]
+    },
+    {
+      "id": "000014-164",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The review panel returns with a compressed mandate. I approve of the reduction in its reach"
+      ]
+    },
+    {
+      "id": "000014-165",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-166",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-167",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-168",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-169",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-170",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-171",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "\"The investigative unit will work strictly within limits,\" he said, and I believed him."
+      ]
+    },
+    {
+      "id": "000014-172",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["She would be coming back with a sharply reduced purview"]
+    },
+    {
+      "id": "000014-173",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-174",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-175",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-176",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-177",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-178",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-179",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["drawing on a bounded pool of candidates"]
+    },
+    {
+      "id": "000014-180",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The arbitrator is working under a constrained remit, and the parties can rely on that restriction"
+      ]
+    },
+    {
+      "id": "000014-181",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "I am offering to handle a defined subset of the work, so you can rely on the engagement being restricted."
+      ]
+    },
+    {
+      "id": "000014-182",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "the assignment I was being hired for had been trimmed to a smaller scope"
+      ]
+    },
+    {
+      "id": "000014-183",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "readers will find a more disciplined coverage area. This narrowing is central to the journal's relaunch."
+      ]
+    },
+    {
+      "id": "000014-184",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The investigation is more contained now, and I welcome that restriction."
+      ]
+    },
+    {
+      "id": "000014-185",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-186",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-187",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "A smaller footing for the project was agreed at yesterday's committee."
+      ]
+    },
+    {
+      "id": "000014-188",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["Since the merger, the remit has been pulled inward."]
+    },
+    {
+      "id": "000014-189",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-190",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-191",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-192",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "I settled on a delimited search for my notebook. The bounded plan felt sensible"
+      ]
+    },
+    {
+      "id": "000014-193",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "We will take a small and clearly defined slice of the migration."
+      ]
+    },
+    {
+      "id": "000014-194",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "A bounded answer is available to the question about the outage. Its restricted applicability is enough reason to proceed"
+      ]
+    },
+    {
+      "id": "000014-195",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-196",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": ["It would have a selective remit, unlike its predecessor."]
+    },
+    {
+      "id": "000014-197",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-198",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-199",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": false
+    },
+    {
+      "id": "000014-200",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The assessment has been narrowed, and I endorse that more restricted reach as the right way forward."
+      ]
+    },
+    {
+      "id": "000014-201",
+      "check": "semantic-thinness/unspecified-scope",
+      "expected": true,
+      "snippets": [
+        "The conservator's authorization to alter the mosaic is tightly circumscribed. I accepted the restriction"
+      ]
+    }
+  ]
+}

@@ -42,15 +42,34 @@ A no-hit applies to its named check and passage. Omitted checks remain unassesse
 
 ## Important Collections
 
-- `ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md`: 100 hits and 100 close no-hits for the consolidated empty-takeaway check, with blind Opus review and Opus-selected hit snippets. This is development material.
-- `ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md`: 100 hits and 100 no-hits generated separately and reviewed blind by Opus. Keep its writing, labels, snippets, and case-specific review notes outside prompt-development contexts; evaluate after freezing the candidate and settings.
-- `ai-synthetic/semantic-thinness.md`: all 604 reserved paragraphs, with 364 author-labeled hits and 240 family-clean controls. The labels preserve original identifiers, evidence, coverage references, and outstanding reviewer objections.
+- `ai-synthetic/passages/`: paired development and protected holdout collections for the nine consolidated semantic-thinness types, listed below.
+- `ai-synthetic/semantic-thinness.md`: the legacy 604-paragraph comparison set, with 364 author-labeled hits and 240 family-clean controls. The labels preserve original identifiers, evidence, coverage references, and reviewer objections.
 - `ai-synthetic/adversarial/`: generated hit and no-hit passages grouped by family in a single pair of files per family.
 - `ai-synthetic/styles/`: the ten long genre/style texts.
 - `ai-synthetic/claude-generated/`: the 400 existing Claude test articles. Their original prompts are unavailable; their passages remain unlabeled.
 - `ai-normal/claude-writing/`: six ordinary writing tasks and their two edited versions, preserved as 18 articles.
 - `human/specificity/`, `human/vagueness/`, `human/idioms/`, and `human/syntax/`: original linguistic text and annotations, including unlabeled source sentences.
 - `human/reviewed-excerpts.md`: historical no-hit excerpts whose complete source context could not be matched. Each label records that limitation.
+
+## Semantic-Thinness Sets
+
+The eighteen collections contain 3,620 passages and 106,143 words. Each type has at least 100 hits and 100 no-hits in development and in a separately generated holdout.
+
+Opus reviews each passage, and independent adjudication determines its final label. Corrected labels preserve the original passages; added examples restore the class minimum when needed. Each hit uses Opus-selected snippets.
+
+- Empty takeaway: [development](ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md) and [holdout](ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md).
+- Unspecified change: [development](ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md) and [holdout](ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md).
+- Hollow significance: [development](ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md) and [holdout](ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md).
+- Generic realization: [development](ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md) and [holdout](ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md).
+- Circular explanation: [development](ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md) and [holdout](ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md).
+- Unexplained metaphor: [development](ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md) and [holdout](ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md).
+- Unspecified scope: [development](ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md) and [holdout](ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md).
+- Unspecified relationship: [development](ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md) and [holdout](ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md).
+- Missing actor: [development](ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md) and [holdout](ai-synthetic/passages/000018-semantic-thinness-missing-actor-holdout.md).
+
+Each Markdown file has a matching `.labels.json`. A no-hit applies to its named type; other types remain unassessed. Review records under `runners/results/<type>-<split>-opus-review.json` distinguish original model judgments, label corrections, rewrites, and adjudicated disagreements.
+
+Use development files for prompt tuning. Keep holdout writing, labels, snippets, and case-specific review notes outside prompt-development contexts, then freeze the candidate and settings before evaluation.
 
 ## Commands
 

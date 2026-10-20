@@ -1,0 +1,2319 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "samples": [
+    {
+      "id": "000008-001",
+      "start": 46,
+      "end": 172
+    },
+    {
+      "id": "000008-002",
+      "start": 189,
+      "end": 309
+    },
+    {
+      "id": "000008-003",
+      "start": 326,
+      "end": 467
+    },
+    {
+      "id": "000008-004",
+      "start": 484,
+      "end": 631
+    },
+    {
+      "id": "000008-005",
+      "start": 648,
+      "end": 795
+    },
+    {
+      "id": "000008-006",
+      "start": 812,
+      "end": 949
+    },
+    {
+      "id": "000008-007",
+      "start": 966,
+      "end": 1107
+    },
+    {
+      "id": "000008-008",
+      "start": 1124,
+      "end": 1212
+    },
+    {
+      "id": "000008-009",
+      "start": 1229,
+      "end": 1341
+    },
+    {
+      "id": "000008-010",
+      "start": 1358,
+      "end": 1735
+    },
+    {
+      "id": "000008-011",
+      "start": 1752,
+      "end": 2119
+    },
+    {
+      "id": "000008-012",
+      "start": 2136,
+      "end": 2257
+    },
+    {
+      "id": "000008-013",
+      "start": 2274,
+      "end": 2396
+    },
+    {
+      "id": "000008-014",
+      "start": 2413,
+      "end": 2541
+    },
+    {
+      "id": "000008-015",
+      "start": 2558,
+      "end": 2688
+    },
+    {
+      "id": "000008-016",
+      "start": 2705,
+      "end": 2816
+    },
+    {
+      "id": "000008-017",
+      "start": 2833,
+      "end": 2977
+    },
+    {
+      "id": "000008-018",
+      "start": 2994,
+      "end": 3130
+    },
+    {
+      "id": "000008-019",
+      "start": 3147,
+      "end": 3269
+    },
+    {
+      "id": "000008-020",
+      "start": 3286,
+      "end": 3644
+    },
+    {
+      "id": "000008-021",
+      "start": 3661,
+      "end": 3811
+    },
+    {
+      "id": "000008-022",
+      "start": 3828,
+      "end": 3956
+    },
+    {
+      "id": "000008-023",
+      "start": 3973,
+      "end": 4329
+    },
+    {
+      "id": "000008-024",
+      "start": 4346,
+      "end": 4482
+    },
+    {
+      "id": "000008-025",
+      "start": 4499,
+      "end": 4865
+    },
+    {
+      "id": "000008-026",
+      "start": 4882,
+      "end": 5020
+    },
+    {
+      "id": "000008-027",
+      "start": 5037,
+      "end": 5187
+    },
+    {
+      "id": "000008-028",
+      "start": 5204,
+      "end": 5321
+    },
+    {
+      "id": "000008-029",
+      "start": 5338,
+      "end": 5727
+    },
+    {
+      "id": "000008-030",
+      "start": 5744,
+      "end": 5889
+    },
+    {
+      "id": "000008-031",
+      "start": 5906,
+      "end": 6275
+    },
+    {
+      "id": "000008-032",
+      "start": 6292,
+      "end": 6661
+    },
+    {
+      "id": "000008-033",
+      "start": 6678,
+      "end": 6806
+    },
+    {
+      "id": "000008-034",
+      "start": 6823,
+      "end": 6971
+    },
+    {
+      "id": "000008-035",
+      "start": 6988,
+      "end": 7104
+    },
+    {
+      "id": "000008-036",
+      "start": 7121,
+      "end": 7252
+    },
+    {
+      "id": "000008-037",
+      "start": 7269,
+      "end": 7385
+    },
+    {
+      "id": "000008-038",
+      "start": 7402,
+      "end": 7737
+    },
+    {
+      "id": "000008-039",
+      "start": 7754,
+      "end": 7889
+    },
+    {
+      "id": "000008-040",
+      "start": 7906,
+      "end": 8047
+    },
+    {
+      "id": "000008-041",
+      "start": 8064,
+      "end": 8209
+    },
+    {
+      "id": "000008-042",
+      "start": 8226,
+      "end": 8587
+    },
+    {
+      "id": "000008-043",
+      "start": 8604,
+      "end": 8757
+    },
+    {
+      "id": "000008-044",
+      "start": 8774,
+      "end": 8910
+    },
+    {
+      "id": "000008-045",
+      "start": 8927,
+      "end": 9280
+    },
+    {
+      "id": "000008-046",
+      "start": 9297,
+      "end": 9424
+    },
+    {
+      "id": "000008-047",
+      "start": 9441,
+      "end": 9602
+    },
+    {
+      "id": "000008-048",
+      "start": 9619,
+      "end": 9757
+    },
+    {
+      "id": "000008-049",
+      "start": 9774,
+      "end": 10143
+    },
+    {
+      "id": "000008-050",
+      "start": 10160,
+      "end": 10311
+    },
+    {
+      "id": "000008-051",
+      "start": 10328,
+      "end": 10686
+    },
+    {
+      "id": "000008-052",
+      "start": 10703,
+      "end": 10862
+    },
+    {
+      "id": "000008-053",
+      "start": 10879,
+      "end": 10998
+    },
+    {
+      "id": "000008-054",
+      "start": 11015,
+      "end": 11175
+    },
+    {
+      "id": "000008-055",
+      "start": 11192,
+      "end": 11565
+    },
+    {
+      "id": "000008-056",
+      "start": 11582,
+      "end": 11705
+    },
+    {
+      "id": "000008-057",
+      "start": 11722,
+      "end": 11868
+    },
+    {
+      "id": "000008-058",
+      "start": 11885,
+      "end": 12022
+    },
+    {
+      "id": "000008-059",
+      "start": 12039,
+      "end": 12394
+    },
+    {
+      "id": "000008-060",
+      "start": 12411,
+      "end": 12746
+    },
+    {
+      "id": "000008-061",
+      "start": 12763,
+      "end": 12946
+    },
+    {
+      "id": "000008-062",
+      "start": 12963,
+      "end": 13113
+    },
+    {
+      "id": "000008-063",
+      "start": 13130,
+      "end": 13274
+    },
+    {
+      "id": "000008-064",
+      "start": 13291,
+      "end": 13393
+    },
+    {
+      "id": "000008-065",
+      "start": 13410,
+      "end": 13550
+    },
+    {
+      "id": "000008-066",
+      "start": 13567,
+      "end": 13705
+    },
+    {
+      "id": "000008-067",
+      "start": 13722,
+      "end": 13858
+    },
+    {
+      "id": "000008-068",
+      "start": 13875,
+      "end": 14227
+    },
+    {
+      "id": "000008-069",
+      "start": 14244,
+      "end": 14363
+    },
+    {
+      "id": "000008-070",
+      "start": 14380,
+      "end": 14692
+    },
+    {
+      "id": "000008-071",
+      "start": 14709,
+      "end": 14848
+    },
+    {
+      "id": "000008-072",
+      "start": 14865,
+      "end": 14992
+    },
+    {
+      "id": "000008-073",
+      "start": 15009,
+      "end": 15152
+    },
+    {
+      "id": "000008-074",
+      "start": 15169,
+      "end": 15288
+    },
+    {
+      "id": "000008-075",
+      "start": 15305,
+      "end": 15439
+    },
+    {
+      "id": "000008-076",
+      "start": 15456,
+      "end": 15840
+    },
+    {
+      "id": "000008-077",
+      "start": 15857,
+      "end": 16229
+    },
+    {
+      "id": "000008-078",
+      "start": 16246,
+      "end": 16385
+    },
+    {
+      "id": "000008-079",
+      "start": 16402,
+      "end": 16511
+    },
+    {
+      "id": "000008-080",
+      "start": 16528,
+      "end": 16665
+    },
+    {
+      "id": "000008-081",
+      "start": 16682,
+      "end": 16819
+    },
+    {
+      "id": "000008-082",
+      "start": 16836,
+      "end": 16944
+    },
+    {
+      "id": "000008-083",
+      "start": 16961,
+      "end": 17086
+    },
+    {
+      "id": "000008-084",
+      "start": 17103,
+      "end": 17213
+    },
+    {
+      "id": "000008-085",
+      "start": 17230,
+      "end": 17371
+    },
+    {
+      "id": "000008-086",
+      "start": 17388,
+      "end": 17563
+    },
+    {
+      "id": "000008-087",
+      "start": 17580,
+      "end": 17714
+    },
+    {
+      "id": "000008-088",
+      "start": 17731,
+      "end": 17839
+    },
+    {
+      "id": "000008-089",
+      "start": 17856,
+      "end": 17996
+    },
+    {
+      "id": "000008-090",
+      "start": 18013,
+      "end": 18381
+    },
+    {
+      "id": "000008-091",
+      "start": 18398,
+      "end": 18501
+    },
+    {
+      "id": "000008-092",
+      "start": 18518,
+      "end": 18642
+    },
+    {
+      "id": "000008-093",
+      "start": 18659,
+      "end": 18985
+    },
+    {
+      "id": "000008-094",
+      "start": 19002,
+      "end": 19118
+    },
+    {
+      "id": "000008-095",
+      "start": 19135,
+      "end": 19464
+    },
+    {
+      "id": "000008-096",
+      "start": 19481,
+      "end": 19571
+    },
+    {
+      "id": "000008-097",
+      "start": 19588,
+      "end": 19743
+    },
+    {
+      "id": "000008-098",
+      "start": 19760,
+      "end": 20072
+    },
+    {
+      "id": "000008-099",
+      "start": 20089,
+      "end": 20421
+    },
+    {
+      "id": "000008-100",
+      "start": 20438,
+      "end": 20544
+    },
+    {
+      "id": "000008-101",
+      "start": 20561,
+      "end": 20692
+    },
+    {
+      "id": "000008-102",
+      "start": 20709,
+      "end": 20857
+    },
+    {
+      "id": "000008-103",
+      "start": 20874,
+      "end": 21019
+    },
+    {
+      "id": "000008-104",
+      "start": 21036,
+      "end": 21134
+    },
+    {
+      "id": "000008-105",
+      "start": 21151,
+      "end": 21271
+    },
+    {
+      "id": "000008-106",
+      "start": 21288,
+      "end": 21647
+    },
+    {
+      "id": "000008-107",
+      "start": 21664,
+      "end": 21793
+    },
+    {
+      "id": "000008-108",
+      "start": 21810,
+      "end": 22212
+    },
+    {
+      "id": "000008-109",
+      "start": 22229,
+      "end": 22380
+    },
+    {
+      "id": "000008-110",
+      "start": 22397,
+      "end": 22532
+    },
+    {
+      "id": "000008-111",
+      "start": 22549,
+      "end": 22903
+    },
+    {
+      "id": "000008-112",
+      "start": 22920,
+      "end": 23035
+    },
+    {
+      "id": "000008-113",
+      "start": 23052,
+      "end": 23426
+    },
+    {
+      "id": "000008-114",
+      "start": 23443,
+      "end": 23585
+    },
+    {
+      "id": "000008-115",
+      "start": 23602,
+      "end": 23750
+    },
+    {
+      "id": "000008-116",
+      "start": 23767,
+      "end": 23862
+    },
+    {
+      "id": "000008-117",
+      "start": 23879,
+      "end": 24215
+    },
+    {
+      "id": "000008-118",
+      "start": 24232,
+      "end": 24612
+    },
+    {
+      "id": "000008-119",
+      "start": 24629,
+      "end": 24775
+    },
+    {
+      "id": "000008-120",
+      "start": 24792,
+      "end": 24913
+    },
+    {
+      "id": "000008-121",
+      "start": 24930,
+      "end": 25067
+    },
+    {
+      "id": "000008-122",
+      "start": 25084,
+      "end": 25234
+    },
+    {
+      "id": "000008-123",
+      "start": 25251,
+      "end": 25605
+    },
+    {
+      "id": "000008-124",
+      "start": 25622,
+      "end": 25772
+    },
+    {
+      "id": "000008-125",
+      "start": 25789,
+      "end": 25912
+    },
+    {
+      "id": "000008-126",
+      "start": 25929,
+      "end": 26055
+    },
+    {
+      "id": "000008-127",
+      "start": 26072,
+      "end": 26445
+    },
+    {
+      "id": "000008-128",
+      "start": 26462,
+      "end": 26553
+    },
+    {
+      "id": "000008-129",
+      "start": 26570,
+      "end": 26924
+    },
+    {
+      "id": "000008-130",
+      "start": 26941,
+      "end": 27069
+    },
+    {
+      "id": "000008-131",
+      "start": 27086,
+      "end": 27232
+    },
+    {
+      "id": "000008-132",
+      "start": 27249,
+      "end": 27351
+    },
+    {
+      "id": "000008-133",
+      "start": 27368,
+      "end": 27499
+    },
+    {
+      "id": "000008-134",
+      "start": 27516,
+      "end": 27663
+    },
+    {
+      "id": "000008-135",
+      "start": 27680,
+      "end": 27853
+    },
+    {
+      "id": "000008-136",
+      "start": 27870,
+      "end": 27988
+    },
+    {
+      "id": "000008-137",
+      "start": 28005,
+      "end": 28315
+    },
+    {
+      "id": "000008-138",
+      "start": 28332,
+      "end": 28705
+    },
+    {
+      "id": "000008-139",
+      "start": 28722,
+      "end": 28856
+    },
+    {
+      "id": "000008-140",
+      "start": 28873,
+      "end": 29007
+    },
+    {
+      "id": "000008-141",
+      "start": 29024,
+      "end": 29148
+    },
+    {
+      "id": "000008-142",
+      "start": 29165,
+      "end": 29250
+    },
+    {
+      "id": "000008-143",
+      "start": 29267,
+      "end": 29407
+    },
+    {
+      "id": "000008-144",
+      "start": 29424,
+      "end": 29784
+    },
+    {
+      "id": "000008-145",
+      "start": 29801,
+      "end": 29974
+    },
+    {
+      "id": "000008-146",
+      "start": 29991,
+      "end": 30102
+    },
+    {
+      "id": "000008-147",
+      "start": 30119,
+      "end": 30478
+    },
+    {
+      "id": "000008-148",
+      "start": 30495,
+      "end": 30828
+    },
+    {
+      "id": "000008-149",
+      "start": 30845,
+      "end": 30972
+    },
+    {
+      "id": "000008-150",
+      "start": 30989,
+      "end": 31136
+    },
+    {
+      "id": "000008-151",
+      "start": 31153,
+      "end": 31492
+    },
+    {
+      "id": "000008-152",
+      "start": 31509,
+      "end": 31646
+    },
+    {
+      "id": "000008-153",
+      "start": 31663,
+      "end": 31787
+    },
+    {
+      "id": "000008-154",
+      "start": 31804,
+      "end": 31959
+    },
+    {
+      "id": "000008-155",
+      "start": 31976,
+      "end": 32347
+    },
+    {
+      "id": "000008-156",
+      "start": 32364,
+      "end": 32458
+    },
+    {
+      "id": "000008-157",
+      "start": 32475,
+      "end": 32611
+    },
+    {
+      "id": "000008-158",
+      "start": 32628,
+      "end": 32791
+    },
+    {
+      "id": "000008-159",
+      "start": 32808,
+      "end": 33140
+    },
+    {
+      "id": "000008-160",
+      "start": 33157,
+      "end": 33278
+    },
+    {
+      "id": "000008-161",
+      "start": 33295,
+      "end": 33636
+    },
+    {
+      "id": "000008-162",
+      "start": 33653,
+      "end": 33782
+    },
+    {
+      "id": "000008-163",
+      "start": 33799,
+      "end": 33897
+    },
+    {
+      "id": "000008-164",
+      "start": 33914,
+      "end": 34050
+    },
+    {
+      "id": "000008-165",
+      "start": 34067,
+      "end": 34225
+    },
+    {
+      "id": "000008-166",
+      "start": 34242,
+      "end": 34410
+    },
+    {
+      "id": "000008-167",
+      "start": 34427,
+      "end": 34537
+    },
+    {
+      "id": "000008-168",
+      "start": 34554,
+      "end": 34699
+    },
+    {
+      "id": "000008-169",
+      "start": 34716,
+      "end": 34892
+    },
+    {
+      "id": "000008-170",
+      "start": 34909,
+      "end": 35046
+    },
+    {
+      "id": "000008-171",
+      "start": 35063,
+      "end": 35227
+    },
+    {
+      "id": "000008-172",
+      "start": 35244,
+      "end": 35385
+    },
+    {
+      "id": "000008-173",
+      "start": 35402,
+      "end": 35772
+    },
+    {
+      "id": "000008-174",
+      "start": 35789,
+      "end": 35908
+    },
+    {
+      "id": "000008-175",
+      "start": 35925,
+      "end": 36060
+    },
+    {
+      "id": "000008-176",
+      "start": 36077,
+      "end": 36399
+    },
+    {
+      "id": "000008-177",
+      "start": 36416,
+      "end": 36556
+    },
+    {
+      "id": "000008-178",
+      "start": 36573,
+      "end": 36673
+    },
+    {
+      "id": "000008-179",
+      "start": 36690,
+      "end": 36827
+    },
+    {
+      "id": "000008-180",
+      "start": 36844,
+      "end": 37208
+    },
+    {
+      "id": "000008-181",
+      "start": 37225,
+      "end": 37381
+    },
+    {
+      "id": "000008-182",
+      "start": 37398,
+      "end": 37531
+    },
+    {
+      "id": "000008-183",
+      "start": 37548,
+      "end": 37679
+    },
+    {
+      "id": "000008-184",
+      "start": 37696,
+      "end": 37819
+    },
+    {
+      "id": "000008-185",
+      "start": 37836,
+      "end": 37955
+    },
+    {
+      "id": "000008-186",
+      "start": 37972,
+      "end": 38362
+    },
+    {
+      "id": "000008-187",
+      "start": 38379,
+      "end": 38703
+    },
+    {
+      "id": "000008-188",
+      "start": 38720,
+      "end": 38834
+    },
+    {
+      "id": "000008-189",
+      "start": 38851,
+      "end": 39005
+    },
+    {
+      "id": "000008-190",
+      "start": 39022,
+      "end": 39133
+    },
+    {
+      "id": "000008-191",
+      "start": 39150,
+      "end": 39301
+    },
+    {
+      "id": "000008-192",
+      "start": 39318,
+      "end": 39459
+    },
+    {
+      "id": "000008-193",
+      "start": 39476,
+      "end": 39845
+    },
+    {
+      "id": "000008-194",
+      "start": 39862,
+      "end": 39997
+    },
+    {
+      "id": "000008-195",
+      "start": 40014,
+      "end": 40379
+    },
+    {
+      "id": "000008-196",
+      "start": 40396,
+      "end": 40512
+    },
+    {
+      "id": "000008-197",
+      "start": 40529,
+      "end": 40707
+    },
+    {
+      "id": "000008-198",
+      "start": 40724,
+      "end": 40894
+    },
+    {
+      "id": "000008-199",
+      "start": 40911,
+      "end": 41047
+    },
+    {
+      "id": "000008-200",
+      "start": 41064,
+      "end": 41183
+    }
+  ],
+  "source": {
+    "name": "Independent synthetic protected generic-realization passages",
+    "originalPath": "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md",
+    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "model": "Codex (author); claude-opus-5-5 (blind reviewer)",
+    "notes": "Drafted 200 passages before development inspection; independently adjudicated against the accepted taxonomy. Hit snippets selected by blind Opus review."
+  },
+  "labels": [
+    {
+      "id": "000008-001",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-002",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-003",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": ["her next gesture made the underlying truth plain to me."]
+    },
+    {
+      "id": "000008-004",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the relatives recognised the essential truth of the proceedings"
+      ]
+    },
+    {
+      "id": "000008-005",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-006",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The exhibition catalogue opened my eyes to the actual story behind the paintings."
+      ]
+    },
+    {
+      "id": "000008-007",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "this time an essential fact about her situation dawned on her."
+      ]
+    },
+    {
+      "id": "000008-008",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-009",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "This was the account that let us see beneath the headlines. At last, we knew what the campaign was really about."
+      ]
+    },
+    {
+      "id": "000008-010",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-011",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the underlying truth of the failure was unmistakable to me. I saved the session with the satisfaction of having worked out what was really happening."
+      ]
+    },
+    {
+      "id": "000008-012",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-013",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Only on the return flight did our encounter with the delegation make sense. There was a truth in it we had all overlooked."
+      ]
+    },
+    {
+      "id": "000008-014",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The farewell dinner gave me an understanding of the posting that I had lacked while living there."
+      ]
+    },
+    {
+      "id": "000008-015",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Beneath the handwriting exercises, I perceived a truth about my childhood. I had never understood it until I opened that notebook."
+      ]
+    },
+    {
+      "id": "000008-016",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-017",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I understood what had happened at a level beyond the tally."
+      ]
+    },
+    {
+      "id": "000008-018",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-019",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Putting the two prototypes side by side let us penetrate the problem. A concealed truth of the design had emerged at last."
+      ]
+    },
+    {
+      "id": "000008-020",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-021",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the architect discovered the answer that the site had been withholding"
+      ]
+    },
+    {
+      "id": "000008-022",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "It was the moment when the excavation's secret finally became known to me."
+      ]
+    },
+    {
+      "id": "000008-023",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-024",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I was halfway through transcribing the tape when an insight about my mother arrived."
+      ]
+    },
+    {
+      "id": "000008-025",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-026",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": ["the deeper meaning of the conversation became apparent"]
+    },
+    {
+      "id": "000008-027",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the designer reached the realisation she had been working towards"
+      ]
+    },
+    {
+      "id": "000008-028",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "At breakfast the next day, his understanding of the night before was complete."
+      ]
+    },
+    {
+      "id": "000008-029",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-030",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-031",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "That encounter disclosed something essential about the project which our committee papers had never captured. I left the school with the feeling that its real nature had finally been made plain to me."
+      ]
+    },
+    {
+      "id": "000008-032",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I experienced a revelation about the life of the market.",
+        "I came away certain that I had discovered the story we were meant to tell."
+      ]
+    },
+    {
+      "id": "000008-033",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "There, among the spare oars, I found the insight I had spent the summer seeking."
+      ]
+    },
+    {
+      "id": "000008-034",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-035",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Its appearance revealed to him the true nature of the fault."
+      ]
+    },
+    {
+      "id": "000008-036",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Reading it brought the building's deeper truth into focus for me."
+      ]
+    },
+    {
+      "id": "000008-037",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I recognised, with astonishing certainty, the truth about that evening."
+      ]
+    },
+    {
+      "id": "000008-038",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-039",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Our inspection of the grain store was the moment of discovery. We could finally discern what had been invisible to us in the paperwork."
+      ]
+    },
+    {
+      "id": "000008-040",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-041",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "a recognition came over the dispatcher. He had grasped what had eluded him throughout the morning."
+      ]
+    },
+    {
+      "id": "000008-042",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "On the last crossing, an understanding arrived that had escaped me all those weeks.",
+        "certain that I had finally seen beneath the surface."
+      ]
+    },
+    {
+      "id": "000008-043",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I suddenly saw what the lesson had been concealing. That recognition outlasted every technique I practised."
+      ]
+    },
+    {
+      "id": "000008-044",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The committee's visit to the reservoir brought an unexpected revelation about the scheme."
+      ]
+    },
+    {
+      "id": "000008-045",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-046",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "A change in the singer's phrasing gave the producer an unexpected insight. The song's actual meaning had become audible to him."
+      ]
+    },
+    {
+      "id": "000008-047",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I had seen the reality behind the argument. The revelation was sharper than anything I had taken from the written submission."
+      ]
+    },
+    {
+      "id": "000008-048",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-049",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Halfway through the conversation, the real answer dawned on the group. There was a moment of shared recognition"
+      ]
+    },
+    {
+      "id": "000008-050",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-051",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the larger truth behind the whole undertaking suddenly became clear.",
+        "aware that I had made an important discovery."
+      ]
+    },
+    {
+      "id": "000008-052",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the historian perceived the tradition's real meaning for the first time."
+      ]
+    },
+    {
+      "id": "000008-053",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "In that comparison, the true story of our separation finally dawned on me."
+      ]
+    },
+    {
+      "id": "000008-054",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-055",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I learned something about us that all those miles had been preparing me to learn. Nothing else that evening felt as definite as that discovery."
+      ]
+    },
+    {
+      "id": "000008-056",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The sound of the bell conveyed a revelation to the novice. He understood something that years of study had left unresolved."
+      ]
+    },
+    {
+      "id": "000008-057",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-058",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-059",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-060",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-061",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "What she saw from there brought the process into focus in a way the tour had never done."
+      ]
+    },
+    {
+      "id": "000008-062",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the race yielded its central revelation to me. The remaining miles were accompanied by a knowledge I had not possessed at the start."
+      ]
+    },
+    {
+      "id": "000008-063",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I had looked after the bees for nine seasons before I saw through the puzzle of the apiary. The recognition came while I was washing the smoker."
+      ]
+    },
+    {
+      "id": "000008-064",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-065",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-066",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-067",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "My review of the security footage brought me to a recognition of the underlying situation."
+      ]
+    },
+    {
+      "id": "000008-068",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-069",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-070",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-071",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the artist recognised something about her work she had previously failed to grasp"
+      ]
+    },
+    {
+      "id": "000008-072",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Something he had never understood about the expedition was now perfectly clear."
+      ]
+    },
+    {
+      "id": "000008-073",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The launch simulation produced a revelation for the controllers. What had seemed obscure in the earlier briefings was now intelligible to them."
+      ]
+    },
+    {
+      "id": "000008-074",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-075",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "At the bottom of the escalator, the answer broke upon me. All the uncertainty of the preceding conversation gave way to understanding."
+      ]
+    },
+    {
+      "id": "000008-076",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Only on the second evening did the deeper story of the district reveal itself to me.",
+        "I finished the last appendix with a sense of having discovered what the figures alone could never convey."
+      ]
+    },
+    {
+      "id": "000008-077",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I recognised something about our friendship that I had never seen before. The recognition stayed with me long after the hall had been swept."
+      ]
+    },
+    {
+      "id": "000008-078",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "An unexpected clarity emerged as we walked around the closed campsite. We could see what the summer had meant in a way we never had before."
+      ]
+    },
+    {
+      "id": "000008-079",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-080",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The survey team found a revelation in the interview transcripts. Their grasp of the town's reality was deeper when they finished reading."
+      ]
+    },
+    {
+      "id": "000008-081",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I found an understanding at the end of that night shift which the induction course had never given me."
+      ]
+    },
+    {
+      "id": "000008-082",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Reading the dedication unlocked a realisation in Vera. At last she could see what had escaped her for years."
+      ]
+    },
+    {
+      "id": "000008-083",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "It brought us to a recognition of what lay at the heart of our practice."
+      ]
+    },
+    {
+      "id": "000008-084",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The retired sailor's remark unlocked the whole voyage for me. I knew, at last, what I had been unable to name."
+      ]
+    },
+    {
+      "id": "000008-085",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-086",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Making it for the first time nevertheless revealed something about his family that he had never understood."
+      ]
+    },
+    {
+      "id": "000008-087",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The way he packed the damaged vase explained something to me that his earlier words had left obscure."
+      ]
+    },
+    {
+      "id": "000008-088",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-089",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-090",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Hearing the discussion from that end of the table gave me a revelation about the company. I understood what I had been missing"
+      ]
+    },
+    {
+      "id": "000008-091",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-092",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "After drawing the final line, I arrived at the understanding the teacher had intended."
+      ]
+    },
+    {
+      "id": "000008-093",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-094",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-095",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-096",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The lecture ended, but its revelation arrived for me only later"
+      ]
+    },
+    {
+      "id": "000008-097",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-098",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-099",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-100",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-101",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-102",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-103",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "That evening's debate exposed the reality behind the proposal to me."
+      ]
+    },
+    {
+      "id": "000008-104",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-105",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-106",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Talking with the last person to leave gave me an insight into the competition that I had never reached as a spectator. I knew its real story now."
+      ]
+    },
+    {
+      "id": "000008-107",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-108",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-109",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Looking at it, the administrator discovered what she had failed to grasp before."
+      ]
+    },
+    {
+      "id": "000008-110",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Rereading the diary gave the biographer access to the revelation she needed. The subject was comprehensible to her in a wholly new way."
+      ]
+    },
+    {
+      "id": "000008-111",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the underlying meaning of the collection became apparent to me. I had finally found the insight that had eluded me on every previous visit."
+      ]
+    },
+    {
+      "id": "000008-112",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-113",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the missing understanding settled into place. She rose knowing the case at a deeper level than she had that morning."
+      ]
+    },
+    {
+      "id": "000008-114",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-115",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-116",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-117",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "At last, I had penetrated the mystery of the recipe. The discovery was unmistakable"
+      ]
+    },
+    {
+      "id": "000008-118",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "In that small interruption, I came to understand something fundamental about her life. The realisation followed me through the rest of the sorting"
+      ]
+    },
+    {
+      "id": "000008-119",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-120",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-121",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": ["the housing officer finally understood the case"]
+    },
+    {
+      "id": "000008-122",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The photographs of the rehearsal disclosed the truth to our choreographer. Looking through them, she reached a certainty she had lacked in the studio."
+      ]
+    },
+    {
+      "id": "000008-123",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "In those ordinary minutes, I understood the deeper reality of the sport for the first time.",
+        "It was an insight I had never reached during any of our carefully planned lessons."
+      ]
+    },
+    {
+      "id": "000008-124",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-125",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-126",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The last email supplied the missing piece of knowledge. For the first time, Amira understood what lay behind the negotiations."
+      ]
+    },
+    {
+      "id": "000008-127",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I had grasped what the restoration had been trying to tell me. I put the photographs away with a new understanding."
+      ]
+    },
+    {
+      "id": "000008-128",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-129",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "a recognition about my own writing came to me with unusual force. By the time I called her, I knew what had previously remained hidden from me."
+      ]
+    },
+    {
+      "id": "000008-130",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-131",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Seeing the weaver at her loom taught us what the written description could not. We left with the hidden principle of her craft clear in our minds."
+      ]
+    },
+    {
+      "id": "000008-132",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-133",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-134",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Our understanding caught up with events when we met the retiring stationmaster. The conversation illuminated what the timetable had never shown us."
+      ]
+    },
+    {
+      "id": "000008-135",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "On the screen I recognised the thing I had been missing; I watched the remaining seconds with a new comprehension."
+      ]
+    },
+    {
+      "id": "000008-136",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-137",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-138",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "In that comparison, the real nature of our predicament was revealed to me. I looked up from the screen knowing I had reached an understanding that had been missing all week."
+      ]
+    },
+    {
+      "id": "000008-139",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-140",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "Understanding arrived while I was sorting the ballots into piles of fifty. I could now see through the mystery of the entire election."
+      ]
+    },
+    {
+      "id": "000008-141",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-142",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-143",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "The discovery waited for me in the final drawer of the desk. After searching it, I knew what all the earlier finds had been leading towards."
+      ]
+    },
+    {
+      "id": "000008-144",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I stayed in my seat because the subject had suddenly disclosed its hidden logic to me.",
+        "I felt I had arrived at the understanding the course had been leading towards."
+      ]
+    },
+    {
+      "id": "000008-145",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "gave the illustrator access to a previously hidden understanding of her subject. By her final sketch, she knew what had been missing."
+      ]
+    },
+    {
+      "id": "000008-146",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the mediator knew what she had missed. Her new insight into the dispute was complete."
+      ]
+    },
+    {
+      "id": "000008-147",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I heard the essential revelation in her account. It was the first time I could say that I had truly grasped the substance of her work."
+      ]
+    },
+    {
+      "id": "000008-148",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-149",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-150",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-151",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I recognised the truth of our position. I hung up with a hard-won understanding that no briefing paper had supplied."
+      ]
+    },
+    {
+      "id": "000008-152",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the diver made sense of the wreck at last. She surfaced with a discovery that had eluded the whole crew."
+      ]
+    },
+    {
+      "id": "000008-153",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-154",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "all the fragments of my experience assembled into an understanding. I left with two loaves and a sense of revelation."
+      ]
+    },
+    {
+      "id": "000008-155",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-156",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-157",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-158",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-159",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-160",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-161",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "this was the evening when the scene at last gave up its secret.",
+        "feeling that she understood it in a way she had never understood it before."
+      ]
+    },
+    {
+      "id": "000008-162",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-163",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-164",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "What I had not comprehended during the apprenticeship became clear on my first solo shift."
+      ]
+    },
+    {
+      "id": "000008-165",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-166",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-167",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-168",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-169",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the instructor's demonstration of the underwater drill brought a recognition about my own life. I surfaced aware of something I had never previously understood."
+      ]
+    },
+    {
+      "id": "000008-170",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-171",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I had discovered what lay beneath its ordinary appearance. The recognition came on a day when I had left the camera at home."
+      ]
+    },
+    {
+      "id": "000008-172",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "She never forgot the recognition that came while she waited for the laundry. A truth about her marriage had presented itself without warning."
+      ]
+    },
+    {
+      "id": "000008-173",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "It was there, rather than in the formal presentation, that the actual picture came into focus for me.",
+        "I returned to my office carrying a clarity that the slides had never provided."
+      ]
+    },
+    {
+      "id": "000008-174",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-175",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I went to the bookshop for a map and left with an insight into my whole journey. The person behind the counter had made it clear to me."
+      ]
+    },
+    {
+      "id": "000008-176",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-177",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "it gave Nikhil the insight he needed. A concealed truth about the build was now obvious."
+      ]
+    },
+    {
+      "id": "000008-178",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-179",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "That footnote was the key to a discovery about the poet. It let me understand what had been hidden behind the public account of his life."
+      ]
+    },
+    {
+      "id": "000008-180",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-181",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the technician acquired a deeper understanding of the incident. She had finally perceived the real issue."
+      ]
+    },
+    {
+      "id": "000008-182",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-183",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "One small annotation in the workbook made the whole situation intelligible to her."
+      ]
+    },
+    {
+      "id": "000008-184",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "That view revealed the point of the entire collection to me."
+      ]
+    },
+    {
+      "id": "000008-185",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-186",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "I saw what the entire investigation had been pointing towards. The discovery made the months of waiting feel justified"
+      ]
+    },
+    {
+      "id": "000008-187",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-188",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "suddenly comprehended what my grandfather had been trying to show me"
+      ]
+    },
+    {
+      "id": "000008-189",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "a hidden truth about the neighbourhood was evident to the reporter"
+      ]
+    },
+    {
+      "id": "000008-190",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-191",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-192",
+      "check": "semantic-thinness/generic-realization",
+      "expected": true,
+      "snippets": [
+        "the third exposure resolved the puzzle at last. The knowledge she took from it was worth the long night at the telescope."
+      ]
+    },
+    {
+      "id": "000008-193",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-194",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-195",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-196",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-197",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-198",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-199",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    },
+    {
+      "id": "000008-200",
+      "check": "semantic-thinness/generic-realization",
+      "expected": false
+    }
+  ]
+}

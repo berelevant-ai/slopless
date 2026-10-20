@@ -1,0 +1,791 @@
+{
+  "schemaVersion": 1,
+  "check": "semantic-thinness/unspecified-scope",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+  "dataset": {
+    "textPath": "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md",
+    "labelsPath": "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.labels.json",
+    "textSha256": "66b25721382c931ccfaf2e1c5814b141d5ae9a234f506438fc4bb997d6e32b61",
+    "labelsSha256": "bdcc203008e0812d93602d6d108fb06802249b1829430cdf10f4fcec4eb5d81b"
+  },
+  "review": {
+    "models": ["claude-opus-5-5"],
+    "batches": [
+      {
+        "kind": "initial-blind",
+        "passages": 100,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "reviewedTargetsSha256": "e734d17ce48d9ab44c5262ede298c8701bde814c5a3952edae23d6bd80bae5a2",
+        "inputFileSha256": "9df625e62feb176a2831cefc003390b838b6bc90a8f98a079eae82d239620842",
+        "rawReviewSha256": "7691075131e72ab7afaefdacfd65bfff1a69eeadd1d41f4b096d66aa91eeec92",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "hits": 52,
+        "noHits": 48,
+        "disagreements": 0,
+        "objections": 3,
+        "durationMs": 33502,
+        "costUsd": 0.188508
+      },
+      {
+        "kind": "initial-blind",
+        "passages": 100,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "reviewedTargetsSha256": "40eb7249a839f30a2ba46856eefe525eb71e916d085a27f42f594ff98fbed346",
+        "inputFileSha256": "195f6614ebfbfb83b63994ae95c78c89ab5a8dc538cc682d43d8b709422f1c01",
+        "rawReviewSha256": "a5dee2bb4ffa23449103642cc229aaa6c920ccd79694831087f81b37ecfb9b84",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "hits": 48,
+        "noHits": 52,
+        "disagreements": 0,
+        "objections": 7,
+        "durationMs": 45819,
+        "costUsd": 0.20290799999999998
+      },
+      {
+        "kind": "replacement-blind",
+        "passages": 1,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "reviewedTargetsSha256": "aac1dd70cf26d6c6d46fb12c63943448e4e134e114fbed925b2d2f84988fed0c",
+        "inputFileSha256": "1e52e10484402146b9251c628c0b83a2ee9da969caa36901f7e1d7b4291baa6c",
+        "rawReviewSha256": "1aafba7f68262fcf121ac0e7b728b59e825293a431cead3c8b7c4dbae19a9413",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "hits": 1,
+        "noHits": 0,
+        "disagreements": 0,
+        "objections": 1,
+        "durationMs": 5190,
+        "costUsd": 0.045984
+      },
+      {
+        "kind": "post-independent-qa-mixed",
+        "passages": 4,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "reviewedTargetsSha256": "c372e43f53c1cae6c39bfae18ecc8676f4a012aec2a9b095c919536d1f93b527",
+        "inputFileSha256": "55cb366446fcccfb57f84cf556b45ad83e14dcebe2da015d4b9edf123a84248d",
+        "rawReviewSha256": "df4bf36db9fb0cc60c04a29a899270b284ab8dffeafd7b106d9c90b39f19682c",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "hits": 3,
+        "noHits": 1,
+        "disagreements": 1,
+        "objections": 1,
+        "durationMs": 5366,
+        "costUsd": 0.051976
+      }
+    ],
+    "initialPassagesReviewed": 200,
+    "replacementPassagesReviewed": 1,
+    "classificationJudgments": 205,
+    "initialAgreements": 200,
+    "initialDisagreements": [],
+    "initialObjections": 10,
+    "replacementObjections": 1,
+    "adjudicatedObjections": 12,
+    "finalLabelAgreements": 200,
+    "finalLabelDisagreements": 1,
+    "unresolvedLabelIssues": 0,
+    "snippetsAdoptedFromOpusForHits": 100,
+    "snippets": 102,
+    "spanOnlyRequests": 0,
+    "toolsDisabled": true,
+    "blindFields": ["id", "text"],
+    "authorLabelsWithheld": true,
+    "classBalanceWithheld": true,
+    "finalTextMatch": {
+      "matched": 201,
+      "unmatched": 0,
+      "manifestSha256": "fbe25180a6f039112bf56658c980ee9e03291b6dff6c1d19f6f847bea6537251"
+    },
+    "retainedAdjudicatedDisagreements": [
+      {
+        "id": "000014-117",
+        "expected": false,
+        "reviewerExpected": true,
+        "resolution": "retain-adjudicated-no-hit",
+        "resolved": true
+      }
+    ]
+  },
+  "corrections": {
+    "preblindTextRevisions": 97,
+    "preblindLabelChanges": 0,
+    "developmentNeighborReplacementsBeforeReview": 1,
+    "withinSetNearDuplicateRevisionBeforeReview": 1,
+    "taxonomyProximityRevisionBeforeReview": 1,
+    "textRewritesAfterReview": 1,
+    "labelChangesAfterReview": 0,
+    "reason": "Preblind edits replaced self-critical accounts with operative scope claims, diversified construction and removed a camera-focus neighbor. One reviewed passage required disambiguating its referent.",
+    "postIndependentQa": {
+      "labelChanges": 1,
+      "examplesAdded": 1,
+      "textRewrites": 0,
+      "originalCasesDropped": 0
+    }
+  },
+  "deduplication": {
+    "normalization": "Lowercase alphanumeric tokens retaining internal apostrophes; punctuation and spacing collapsed.",
+    "measures": "Jaccard similarity of word sets and contiguous three-word shingle sets.",
+    "thresholds": {
+      "wordset": 0.3,
+      "shingle3": 0.1
+    },
+    "finalTargetsSha256": "b3a8d6f71694555a07ca8784820c7072a5d69b619d62b90218faec3426053998",
+    "referenceHashes": {
+      "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+      "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+      "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+      "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+      "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+      "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md": "1ffd44466d41e349a34b26551be9fce8e0795cc8241a63b4fa9e44683d85f3df",
+      "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+      "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+      "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+      "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md": "35111fb951b880bd2723a6d9bc26ec6c50293e128eb04950081f26aa991ae34d",
+      "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+      "datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md": "acc22f6f938b55173d431e79bddafe3944ce42eb66f67b79812f7eb760baac00",
+      "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+      "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md": "c3b96f21b10fb84f1abb1a032405fd2e575e391680d5fd47b165bc282a57caa0",
+      "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md": "cdb21fe6b91e41753b18aebae6e3ae470ec360cc99d972670dcdf9c7a472f9b9",
+      "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md": "488dc65c18bae886631deb6b9d71bf2119efe656855ebef21be4e049b9e33c2f",
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+      "prompts/v1/abstract-contrast.md": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676",
+      "prompts/v1/emotion-as-substance.md": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72",
+      "prompts/v1/generic-realization.md": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465",
+      "prompts/v1/shared.md": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+    },
+    "groups": [
+      {
+        "kind": "withinHoldout",
+        "referencePassages": 200,
+        "normalizedExact": 0,
+        "maxWordset": 0.23684210526315788,
+        "maxShingle3": 0.08333333333333333,
+        "nearestNeighborComparisons": 200,
+        "flagged": 0,
+        "topRankedTargetsInspected": 20
+      },
+      {
+        "kind": "development",
+        "referencePassages": 1800,
+        "normalizedExact": 0,
+        "maxWordset": 0.27586206896551724,
+        "maxShingle3": 0.06896551724137931,
+        "nearestNeighborComparisons": 200,
+        "flagged": 0,
+        "topRankedTargetsInspected": 20
+      },
+      {
+        "kind": "holdout",
+        "referencePassages": 1400,
+        "normalizedExact": 0,
+        "maxWordset": 0.2692307692307692,
+        "maxShingle3": 0.09090909090909091,
+        "nearestNeighborComparisons": 200,
+        "flagged": 0,
+        "topRankedTargetsInspected": 20
+      },
+      {
+        "kind": "taxonomyAndPrompts",
+        "referencePassages": 493,
+        "normalizedExact": 0,
+        "maxWordset": 0.21739130434782608,
+        "maxShingle3": 0.1,
+        "nearestNeighborComparisons": 200,
+        "flagged": 2,
+        "topRankedTargetsInspected": 20
+      }
+    ],
+    "correspondingDevelopment": {
+      "path": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
+      "textSha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3"
+    },
+    "manualConclusion": "Nearest retained matches share general scope constructions, common connective wording, or literal boundary concepts. The two taxonomy threshold flags share ordinary connective fragments. No derivative copies or noun-swapped cases remain."
+  },
+  "validation": {
+    "existingReader": "passed",
+    "loadDataset": "passed",
+    "schemaVersion": 2,
+    "passages": 201,
+    "labels": 201,
+    "checks": 1,
+    "hits": 100,
+    "noHits": 101,
+    "idUniqueness": "passed",
+    "exactSnippets": "passed",
+    "sampleBoundaries": "passed",
+    "checksum": "passed",
+    "minimalLabels": "passed",
+    "neutralShuffledIds": "original 200 preserved; new stable ID appended",
+    "singlePhysicalLinePerParagraph": "passed",
+    "asciiOnly": true,
+    "wordCounts": {
+      "total": 5767,
+      "min": 16,
+      "max": 57,
+      "mean": 28.691542288557216,
+      "passages45To90Words": 41,
+      "hits45To90Words": 21,
+      "noHits45To90Words": 20
+    },
+    "sentenceCounts": {
+      "min": 1,
+      "max": 3,
+      "outsideOneToFive": 0
+    },
+    "originalPassagesPreserved": 200,
+    "originalIdsPreserved": 200,
+    "originalBoundariesPreserved": 200,
+    "frozenReviewVersions": "passed",
+    "allFinalTextsMatchFrozenReview": true,
+    "finalFrozenTextMatches": 201,
+    "allHitSnippetsAreOpusSelections": true,
+    "originalReviewHistoryRetained": true
+  },
+  "privateCaseResolutions": [
+    {
+      "id": "000014-182",
+      "stage": "initial-blind",
+      "objection": "The task could be read as just sending bank details, which would specify it, but what was trimmed and where the boundary sits is never said.",
+      "decision": "rewrite-ambiguous-reference-retain-hit",
+      "reason": "The original task could refer to supplying bank details, whose requested contents and deadline are already stated. The replacement explicitly attaches the narrowing to the separate hired assignment, preserving the intended missing work boundary. The replacement blind review retains the hit; its narrative objection is resolved because no inclusion, exclusion, or constraint explains that separate assignment.",
+      "replacementReviewObjection": "A competing reading treats this as narrative: what matters is how the narrator feels, and the exact scope of the assignment may not be needed. But under the definition, the remit is described as restricted ('trimmed to a smaller scope') and nothing in the passage says what was dropped or what remains. The payroll and bank-details sentence doesn't fill that gap.",
+      "replacementBlindExpected": true
+    },
+    {
+      "id": "000014-047",
+      "stage": "initial-blind",
+      "objection": "The encryption and screen-timeout details could be read as constraints, but they cover device security, not what the monitoring includes or leaves out.",
+      "decision": "retain-hit",
+      "reason": "Device encryption, display timeout, and padded cases concern storage security and handling. They do not identify an observed subject, observation interval, or permitted monitoring activity. The claimed limits on monitoring remain unspecified."
+    },
+    {
+      "id": "000014-187",
+      "stage": "initial-blind",
+      "objection": "This could be read as an unspecified change (a reduction), but the thing left out is the project's new scope boundary, so this type fits.",
+      "decision": "retain-hit",
+      "reason": "The restriction concerns how much of the project remains covered. The accepted scope-over-change boundary assigns this omission to unspecified scope; the committee vote totals supply no scope boundary."
+    },
+    {
+      "id": "000014-152",
+      "stage": "initial-blind",
+      "objection": "This could be read as an unspecified change. The missing information is the new scope boundary, though, so this type applies.",
+      "decision": "retain-hit",
+      "reason": "Reining in the project asserts a restriction without saying what work remains, what is removed, or what condition limits it. The accepted definition explicitly routes a missing scope boundary here rather than to unspecified change."
+    },
+    {
+      "id": "000014-192",
+      "stage": "initial-blind",
+      "objection": "This is a low-stakes personal anecdote. Still, the search is called bounded and the boundary is never given.",
+      "decision": "retain-hit",
+      "reason": "The notebook identifies the search target, while no location, duration, or stopping condition explains the asserted delimitation. The personal setting does not supply the missing boundary."
+    },
+    {
+      "id": "000014-171",
+      "stage": "initial-blind",
+      "objection": "The claim is quoted dialogue. The narrator accepts it, though, and the passage never gives the limits, so quotation does not exempt it.",
+      "decision": "retain-hit",
+      "reason": "The narrator explicitly accepts the quoted assurance. No restriction on the investigative unit is supplied, so this is an adopted defective claim rather than a discussion criticizing vague wording."
+    },
+    {
+      "id": "000014-046",
+      "stage": "initial-blind",
+      "objection": "This could be read as a narrative scene detail rather than a claim the reader relies on. Still, the question is called narrower and its new coverage is never stated.",
+      "decision": "retain-hit",
+      "reason": "The narrative reports a question becoming narrower without stating the question or its coverage. Sunlight and a lunch break provide scene information rather than the asserted question boundary."
+    },
+    {
+      "id": "000014-137",
+      "stage": "initial-blind",
+      "objection": "This could be read as a faithful quotation of the detective. The passage still passes along an unspecified narrow scope without comment.",
+      "decision": "retain-hit",
+      "reason": "The detective statement is transmitted as the operative public account. Neither the narrator nor the quotation identifies a subject or question defining the asserted narrow inquiry, and the passage contains no critique of the wording."
+    },
+    {
+      "id": "000014-056",
+      "stage": "initial-blind",
+      "objection": "'Limited jurisdiction' is an established legal term. Here, though, the actual jurisdiction is never stated, and the claim is used as grounds for confidence.",
+      "decision": "retain-hit",
+      "reason": "The legal term states that authority is limited but leaves which cases, remedies, or conditions are covered unspecified. The bus route supplies access information; the narrator uses the unspecified jurisdiction as grounds for confidence."
+    },
+    {
+      "id": "000014-087",
+      "stage": "initial-blind",
+      "objection": "This could be read as a narrative beat. Still, the question is called more focused and its content is never given, unlike the parallel passage d048, which states the question.",
+      "decision": "retain-hit",
+      "reason": "The narrowing concerns the content of an examiner question, a named object in the accepted definition. Waiting for quiet and uncapping a pen describe actions without identifying the focused question or its boundaries."
+    }
+  ],
+  "supplementalQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "resolved-by-protected-author",
+    "coverage": {
+      "passages": 200,
+      "finalRawTextMatches": 200,
+      "exactOpusHitSnippetMatches": 100
+    },
+    "rawResponseRetention": "Original review responses available and verified.",
+    "mixedFollowup": {
+      "passages": 200,
+      "calls": 2,
+      "disagreements": 0,
+      "objections": 9,
+      "callsMetadata": [
+        {
+          "passages": 100,
+          "hits": 52,
+          "noHits": 48,
+          "input": "/tmp/slopless-family-qa-b-holdout14-mixed-input-1.json",
+          "output": "/tmp/slopless-family-qa-b-holdout14-mixed-output-1.json",
+          "inputSha256": "a06d6ca04e1b399f88c84ccf24b5e5120a549142711511551e1095eadc6a5507",
+          "outputSha256": "a479b6dd420fb6fb43e190b26d0b9d768afbb28abb767833b17b75663818ecd5",
+          "reviewedTargetsSha256": "68753d6ddb48bed1277be31f8d2a4e0032dafe7a766cbf43f55aea5b0759ba14",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.1765826
+        },
+        {
+          "passages": 100,
+          "hits": 48,
+          "noHits": 52,
+          "input": "/tmp/slopless-family-qa-b-holdout14-mixed-input-2.json",
+          "output": "/tmp/slopless-family-qa-b-holdout14-mixed-output-2.json",
+          "inputSha256": "873838d61cd44e79d657987098c1e669ccdc83c6a2b0f76f5d88a13a823a181b",
+          "outputSha256": "b9cb425ea2d5357c14e0fd14772efdaea75fc9899330dd11be27fd352c1ec13a",
+          "reviewedTargetsSha256": "1cdad8aa7a675f18ef0855d8c10848eb916241fca2664e5f8130fa21e11a1855",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.1749986
+        }
+      ],
+      "blindInputFields": ["id", "text"],
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "neutralRemappedIds": true,
+      "originalCountsPreserved": true,
+      "reason": "Review final texts in mixed batches after class-pure revision calls."
+    },
+    "unresolvedLabelErrors": 0,
+    "unresolvedBoundaryConcerns": 0,
+    "unresolvedArtifactConcerns": 0,
+    "privateFindingsPath": "/tmp/slopless-family-qa-b-000014-private.json",
+    "aggregateSummaryPath": "/tmp/slopless-family-qa-b-summary.json",
+    "datasetEditsPerformed": 0,
+    "previousStatus": "author-adjudication-requested",
+    "authorResolutionPath": "postIndependentQa"
+  },
+  "postIndependentQa": {
+    "status": "resolved",
+    "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "privateFindingsPath": "/tmp/slopless-family-qa-b-000014-private.json",
+    "privateFindingsSha256": "05751cb7a2965968aa643b4e426fc18a5dbc9179fbecb5ff060259517f09daec",
+    "priorDataset": {
+      "textPath": "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md",
+      "labelsPath": "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.labels.json",
+      "textSha256": "79e2f7df0af5960eb775561ec8b2eb1e21b00007c9e9cd22922d49d0657810cc",
+      "labelsSha256": "98c83f4d5b7a0536c59ea059feff3f3d67420593a8746b14d4a3b426c5ecd9be"
+    },
+    "priorValidation": {
+      "existingReader": "passed",
+      "loadDataset": "passed",
+      "schemaVersion": 2,
+      "passages": 200,
+      "labels": 200,
+      "checks": 1,
+      "hits": 100,
+      "noHits": 100,
+      "idUniqueness": "passed",
+      "exactSnippets": "passed",
+      "sampleBoundaries": "passed",
+      "checksum": "passed",
+      "minimalLabels": "passed",
+      "neutralShuffledIds": "passed",
+      "singlePhysicalLinePerParagraph": "passed",
+      "asciiOnly": true,
+      "wordCounts": {
+        "total": 5713,
+        "min": 16,
+        "max": 57,
+        "mean": 28.565,
+        "passages45To90Words": 40,
+        "hits45To90Words": 20,
+        "noHits45To90Words": 20
+      },
+      "sentenceCounts": {
+        "min": 1,
+        "max": 3,
+        "outsideOneToFive": 0
+      }
+    },
+    "priorReviewSummary": {
+      "classificationJudgments": 201,
+      "adjudicatedObjections": 11,
+      "finalLabelAgreements": 200,
+      "finalLabelDisagreements": 0,
+      "finalTextMatch": {
+        "matched": 200,
+        "unmatched": 0,
+        "manifestSha256": "53324e4de51f8fe6beb457074f50fa4f0b6bed0d44f8d589b5666ade07cd6562"
+      }
+    },
+    "findings": 1,
+    "resolvedFindings": 1,
+    "challengedFindings": 0,
+    "unresolvedFindings": 0,
+    "labelCorrections": 1,
+    "originalTextsRewritten": 0,
+    "originalPassagesPreserved": 200,
+    "originalIdsPreserved": 200,
+    "examplesAdded": 1,
+    "newStableIds": ["000014-201"],
+    "clarifications": 0,
+    "adjudications": [
+      {
+        "finding": "B-007",
+        "id": "000014-117",
+        "previousExpected": true,
+        "finalExpected": false,
+        "action": "label-only-correction",
+        "textPreserved": true,
+        "reason": "Close-cropped can characterize economical prose or brief treatment. In this passage it modifies an account, and the second sentence continues a review of the book's presentation. Neither sentence asserts omitted subject matter, limited authority, or a restriction on what may be covered. The accepted scope check requires a coverage or constraint claim, so the ordinary concise-treatment reading is sufficient for a no-hit. The original scope interpretation is recorded as an alternative, rather than imposed as the sole reading.",
+        "sameTypeComparisons": [
+          {
+            "id": "000014-004",
+            "expected": true,
+            "reason": "The essay explicitly occupies a small corner of the subject and calls its reach restricted, establishing the coverage claim."
+          },
+          {
+            "id": "000014-001",
+            "expected": true,
+            "reason": "The production passage explicitly endorses a restriction, establishing a claim beyond a bare description of economical style."
+          },
+          {
+            "id": "000014-110",
+            "expected": false,
+            "reason": "The book account supplies its viewpoint and inclusion condition through the hospital letters and arriving casualties."
+          },
+          {
+            "id": "000014-085",
+            "expected": false,
+            "reason": "A literal narrow field of view is explained by the doorway and excluded windows. A word associated with narrowness is insufficient by itself."
+          }
+        ],
+        "clarifications": 0,
+        "oldCasesPreserved": 200,
+        "examplesAdded": 1,
+        "beforeTextSha256": "79e2f7df0af5960eb775561ec8b2eb1e21b00007c9e9cd22922d49d0657810cc",
+        "beforeLabelsSha256": "98c83f4d5b7a0536c59ea059feff3f3d67420593a8746b14d4a3b426c5ecd9be",
+        "beforeRecordSha256": "ca77ae3f376c00f2a4f7ec2f45756bb9d42c8a77c4f69decdcbe13d2f377dfdb"
+      }
+    ],
+    "newBlindReview": {
+      "passages": 4,
+      "authorHits": 2,
+      "authorNoHits": 2,
+      "agreements": 3,
+      "disagreements": 1,
+      "objections": 1,
+      "toolsDisabled": true,
+      "blindFields": ["id", "text"],
+      "labelsSnippetsBalanceWithheld": true,
+      "neutralReviewIds": true,
+      "positiveControls": 1,
+      "negativeControls": 1,
+      "retainedReviewerDisagreements": [
+        {
+          "id": "000014-117",
+          "reviewerExpected": true,
+          "adjudicatedExpected": false,
+          "objection": "\"Close-cropped\" could be read as a comment on concise style rather than on scope. Even so, it presents the account as narrowly framed without naming which part of the conflict it covers. The sentence about the endpapers is unrelated detail and doesn't define the scope.",
+          "decision": "retain-no-hit-with-original-text",
+          "reason": "The reviewer acknowledges the concise-style reading, then assumes the narrower-framing interpretation is compulsory. The accepted definition requires a restriction on coverage or constraints; ordinary concise treatment alone does not establish that claim. Other same-type positives explicitly name restricted reach, a restriction, or selective coverage. Preserve the ambiguous wording as a no-hit boundary control rather than rewriting it to compel the preferred interpretation."
+        }
+      ]
+    },
+    "retentionStatus": {
+      "rawResponses": "available and hash-verified",
+      "historicalBatchesVerified": 5,
+      "newBatchesVerified": 1,
+      "oldFinalTextsMatched": 200,
+      "originalHitSnippetsMatched": 99,
+      "newHitSnippetsMatched": 1,
+      "allFinalTextsMatched": 201,
+      "batches": [
+        {
+          "inputPath": "/tmp/scope-batch-1.json",
+          "outputPath": "/tmp/scope-review-1.json",
+          "inputSha256": "9df625e62feb176a2831cefc003390b838b6bc90a8f98a079eae82d239620842",
+          "outputSha256": "7691075131e72ab7afaefdacfd65bfff1a69eeadd1d41f4b096d66aa91eeec92",
+          "reviewedTargetsSha256": "e734d17ce48d9ab44c5262ede298c8701bde814c5a3952edae23d6bd80bae5a2",
+          "passages": 100,
+          "retained": true,
+          "integrity": "passed"
+        },
+        {
+          "inputPath": "/tmp/scope-batch-2.json",
+          "outputPath": "/tmp/scope-review-2.json",
+          "inputSha256": "195f6614ebfbfb83b63994ae95c78c89ab5a8dc538cc682d43d8b709422f1c01",
+          "outputSha256": "a5dee2bb4ffa23449103642cc229aaa6c920ccd79694831087f81b37ecfb9b84",
+          "reviewedTargetsSha256": "40eb7249a839f30a2ba46856eefe525eb71e916d085a27f42f594ff98fbed346",
+          "passages": 100,
+          "retained": true,
+          "integrity": "passed"
+        },
+        {
+          "inputPath": "/tmp/scope-postreview-rewrites.json",
+          "outputPath": "/tmp/scope-rewrite-review.json",
+          "inputSha256": "1e52e10484402146b9251c628c0b83a2ee9da969caa36901f7e1d7b4291baa6c",
+          "outputSha256": "1aafba7f68262fcf121ac0e7b728b59e825293a431cead3c8b7c4dbae19a9413",
+          "reviewedTargetsSha256": "aac1dd70cf26d6c6d46fb12c63943448e4e134e114fbed925b2d2f84988fed0c",
+          "passages": 1,
+          "retained": true,
+          "integrity": "passed"
+        },
+        {
+          "inputPath": "/tmp/slopless-family-qa-b-holdout14-mixed-input-1.json",
+          "outputPath": "/tmp/slopless-family-qa-b-holdout14-mixed-output-1.json",
+          "inputSha256": "a06d6ca04e1b399f88c84ccf24b5e5120a549142711511551e1095eadc6a5507",
+          "outputSha256": "a479b6dd420fb6fb43e190b26d0b9d768afbb28abb767833b17b75663818ecd5",
+          "reviewedTargetsSha256": "68753d6ddb48bed1277be31f8d2a4e0032dafe7a766cbf43f55aea5b0759ba14",
+          "passages": 100,
+          "retained": true,
+          "integrity": "passed"
+        },
+        {
+          "inputPath": "/tmp/slopless-family-qa-b-holdout14-mixed-input-2.json",
+          "outputPath": "/tmp/slopless-family-qa-b-holdout14-mixed-output-2.json",
+          "inputSha256": "873838d61cd44e79d657987098c1e669ccdc83c6a2b0f76f5d88a13a823a181b",
+          "outputSha256": "b9cb425ea2d5357c14e0fd14772efdaea75fc9899330dd11be27fd352c1ec13a",
+          "reviewedTargetsSha256": "1cdad8aa7a675f18ef0855d8c10848eb916241fca2664e5f8130fa21e11a1855",
+          "passages": 100,
+          "retained": true,
+          "integrity": "passed"
+        },
+        {
+          "inputPath": "/tmp/slopless-qa-fix-000014/mixed-input.json",
+          "outputPath": "/tmp/slopless-qa-fix-000014/mixed-output.json",
+          "inputSha256": "55cb366446fcccfb57f84cf556b45ad83e14dcebe2da015d4b9edf123a84248d",
+          "outputSha256": "df4bf36db9fb0cc60c04a29a899270b284ab8dffeafd7b106d9c90b39f19682c",
+          "reviewedTargetsSha256": "c372e43f53c1cae6c39bfae18ecc8676f4a012aec2a9b095c919536d1f93b527",
+          "passages": 4,
+          "retained": true,
+          "integrity": "passed"
+        }
+      ]
+    },
+    "deduplication": {
+      "familyCollections": 18,
+      "normalization": "Lowercase alphanumeric tokens retaining internal apostrophes; punctuation and whitespace collapsed.",
+      "measures": "Word-set and three-word-shingle Jaccard similarity.",
+      "thresholds": {
+        "wordset": 0.3,
+        "shingle3": 0.1
+      },
+      "targetsSha256": "ead9b59c22d946e9762e9e2fd48f3aecc5a58cd2436ed4a7dadfd54555066a6a",
+      "referenceHashes": {
+        "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+        "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.labels.json": "d78f3b3ba016b77203a4a895393796eadf2c09cbe1abe4a7dac66934ca16c86e",
+        "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+        "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.labels.json": "5d6c70d71ecba21417176db3fc3b8de8454c7bce477a72f69fecd6b284588497",
+        "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+        "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.labels.json": "8c7f838cfc8835fc59e85b6233195d01c81bed06d9e5ca0be7101ac146a68771",
+        "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+        "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.labels.json": "ba5926c5030515562c022ed6401ad5c58ff78feb0749dbdaef9a02fc35051085",
+        "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+        "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.labels.json": "b9bef198be8f3ec498ba0201b6ecb413887b523c31ea774d6c0f44b562e76f67",
+        "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md": "1ffd44466d41e349a34b26551be9fce8e0795cc8241a63b4fa9e44683d85f3df",
+        "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.labels.json": "7912fcb14f5285843e34c5c0737dd684aed2cdd6b97d194f791b05be0f573605",
+        "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+        "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.labels.json": "665f5995e4131562225ff456b0e742239b0cb66ab16904734a2d459e6d6d40d8",
+        "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+        "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.labels.json": "4f651ac5720707bf3f9a52a33637efc6a98a9e8411def0fdca38cb8d4bcd3c8c",
+        "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+        "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.labels.json": "2981c484ad524d95a9527153b82a4c58cbff81a2817d92a550f5b807de6e9b1a",
+        "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md": "35111fb951b880bd2723a6d9bc26ec6c50293e128eb04950081f26aa991ae34d",
+        "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.labels.json": "eefd47fa758dc32a0d12ac790657ebffc32b780d649d906f62415b9b956b07ef",
+        "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+        "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.labels.json": "975d73b18aa7a034ac996f6bbfacbcbf311aa10570a56a26d9804803d4cf0a91",
+        "datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md": "acc22f6f938b55173d431e79bddafe3944ce42eb66f67b79812f7eb760baac00",
+        "datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.labels.json": "59e03e1d9642fe2677e8b37195b88a6c5e415a102beec07b0246d19550d1f580",
+        "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+        "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.labels.json": "86fae8d5f49a2569dfd781e92a4411337b9d2b3fc1feb1eead6c39dadea8defc",
+        "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md": "79e2f7df0af5960eb775561ec8b2eb1e21b00007c9e9cd22922d49d0657810cc",
+        "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.labels.json": "98c83f4d5b7a0536c59ea059feff3f3d67420593a8746b14d4a3b426c5ecd9be",
+        "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md": "c3b96f21b10fb84f1abb1a032405fd2e575e391680d5fd47b165bc282a57caa0",
+        "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.labels.json": "058400a7c83807e9e7388fa340e170b77663070442c79e55c8d68349b9494e6a",
+        "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md": "cdb21fe6b91e41753b18aebae6e3ae470ec360cc99d972670dcdf9c7a472f9b9",
+        "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.labels.json": "6fce3e4def38f9d9e1e95f93703a52753f73dab4dae1c48298c898183ad99205",
+        "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md": "488dc65c18bae886631deb6b9d71bf2119efe656855ebef21be4e049b9e33c2f",
+        "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.labels.json": "fbfe7319670cb1bf066c1e5d1350f885009ef1fe31ea8d6e642486fd42984592",
+        "datasets/ai-synthetic/passages/000018-semantic-thinness-missing-actor-holdout.md": "bc54e1f2fc941c04d97ca95e12bc325ba7ee81df762c593e099c6c838f5a59e0",
+        "datasets/ai-synthetic/passages/000018-semantic-thinness-missing-actor-holdout.labels.json": "142e2187a050505fa1dde611c6a10ee0792e7dcb9ba1a47442c537187fae9121",
+        ".plans/2026-10-20-125402-v2-rule-taxonomy.md": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+        "prompts/v1/abstract-contrast.md": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676",
+        "prompts/v1/emotion-as-substance.md": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72",
+        "prompts/v1/generic-realization.md": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465",
+        "prompts/v1/shared.md": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+      },
+      "groups": [
+        {
+          "kind": "withinCollection",
+          "referencePassages": 201,
+          "compared": 201,
+          "normalizedExact": 0,
+          "maximumWordset": 0.23684210526315788,
+          "maximumShingle3": 0.08333333333333333,
+          "flagged": 0,
+          "selectedForPrivateInspection": 10
+        },
+        {
+          "kind": "development",
+          "referencePassages": 1800,
+          "compared": 201,
+          "normalizedExact": 0,
+          "maximumWordset": 0.27586206896551724,
+          "maximumShingle3": 0.06896551724137931,
+          "flagged": 0,
+          "selectedForPrivateInspection": 11
+        },
+        {
+          "kind": "holdout",
+          "referencePassages": 1600,
+          "compared": 201,
+          "normalizedExact": 0,
+          "maximumWordset": 0.2692307692307692,
+          "maximumShingle3": 0.09090909090909091,
+          "flagged": 0,
+          "selectedForPrivateInspection": 11
+        },
+        {
+          "kind": "taxonomyAndPrompts",
+          "referencePassages": 493,
+          "compared": 201,
+          "normalizedExact": 0,
+          "maximumWordset": 0.21739130434782608,
+          "maximumShingle3": 0.1,
+          "flagged": 2,
+          "selectedForPrivateInspection": 11
+        }
+      ],
+      "privateConclusion": "Nearest matches were inspected for every flagged case, the new example, and the ten highest-ranked targets in each comparison group. The new authorization example shares the general circumscription construction with an archive example but has distinct authority, sequence, and surrounding action. Two taxonomy flags share ordinary connective fragments. No derivative copies or simple noun substitutions were found."
+    },
+    "finalCounts": {
+      "passages": 201,
+      "hits": 100,
+      "noHits": 101,
+      "wordCounts": {
+        "total": 5767,
+        "min": 16,
+        "max": 57,
+        "mean": 28.691542288557216,
+        "passages45To90Words": 41,
+        "hits45To90Words": 21,
+        "noHits45To90Words": 20
+      }
+    },
+    "verification": {
+      "existingReader": "passed",
+      "loadDataset": "passed",
+      "schemaVersion": 2,
+      "passages": 201,
+      "labels": 201,
+      "checks": 1,
+      "hits": 100,
+      "noHits": 101,
+      "idUniqueness": "passed",
+      "exactSnippets": "passed",
+      "sampleBoundaries": "passed",
+      "checksum": "passed",
+      "minimalLabels": "passed",
+      "neutralShuffledIds": "original 200 preserved; new stable ID appended",
+      "singlePhysicalLinePerParagraph": "passed",
+      "asciiOnly": true,
+      "wordCounts": {
+        "total": 5767,
+        "min": 16,
+        "max": 57,
+        "mean": 28.691542288557216,
+        "passages45To90Words": 41,
+        "hits45To90Words": 21,
+        "noHits45To90Words": 20
+      },
+      "sentenceCounts": {
+        "min": 1,
+        "max": 3,
+        "outsideOneToFive": 0
+      },
+      "originalPassagesPreserved": 200,
+      "originalIdsPreserved": 200,
+      "originalBoundariesPreserved": 200,
+      "frozenReviewVersions": "passed",
+      "allFinalTextsMatchFrozenReview": true,
+      "finalFrozenTextMatches": 201,
+      "allHitSnippetsAreOpusSelections": true,
+      "originalReviewHistoryRetained": true
+    }
+  },
+  "independentCorrectionRecheckB": {
+    "reviewer": "Independent reviewer B",
+    "status": "passed",
+    "method": "At least 100 hits and 100 no-hits; preserve sound original texts and IDs; label truth controls adjudication.",
+    "passages": 201,
+    "hits": 100,
+    "noHits": 101,
+    "words": 5767,
+    "longHits": 21,
+    "longNoHits": 20,
+    "originalTextsRetained": 200,
+    "originalIdsRetained": 200,
+    "originalCasesDropped": 0,
+    "originalTextsChanged": 0,
+    "labelCorrections": 1,
+    "addedPassages": 1,
+    "frozenReviewTextMatches": 201,
+    "actualOpusHitSnippetMatches": 100,
+    "rawArchivePairsVerified": 6,
+    "correctionPassModelDisagreements": 1,
+    "previousFindingsResolved": 1,
+    "newMaterialConcerns": 0,
+    "aggregatePath": "/tmp/slopless-family-qa-b-correction-pass1-summary.json",
+    "privateEvidencePath": "/tmp/slopless-family-qa-b-correction-pass1-private.json"
+  },
+  "finalIndependentQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "passed",
+    "passages": 201,
+    "hits": 100,
+    "noHits": 101,
+    "words": 5767,
+    "longHits": 21,
+    "longNoHits": 20,
+    "originalTextsAndIdsRetained": 200,
+    "postIndependentLabelCorrections": 1,
+    "addedPassages": 1,
+    "currentFinalTextsMatchedToRawBlindInput": 201,
+    "currentHitSnippetSelectionsMatchedToActualOpus": 100,
+    "currentOpusSnippetStrings": 102,
+    "labelSuppliedSpanOnlyHitSelections": 0,
+    "latestAvailableBlindReviewDisagreements": 1,
+    "disagreementScope": "Latest actual matching blind classification per current passage, including the independent mixed followup; original counts remain in their original fields.",
+    "previousLabelOrBoundaryFindingsResolved": 1,
+    "unresolvedLabelOrBoundaryConcerns": 0,
+    "currentFinalProvenanceGaps": 0,
+    "historicalRetentionFindings": 0,
+    "unrecoveredHistoricalResponses": 0,
+    "finalOverlap": {
+      "targetPassages": 1620,
+      "familyCollectionsCompared": 18,
+      "legacyCollectionsCompared": 4,
+      "referenceUnits": 507,
+      "thresholdCandidatesInspected": 32,
+      "newAdditionNearestCandidatesInspected": 40,
+      "exactCopies": 0,
+      "derivativeConcerns": 0
+    },
+    "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
+    "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
+  }
+}

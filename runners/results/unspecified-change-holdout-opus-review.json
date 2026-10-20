@@ -1,0 +1,310 @@
+{
+  "independentQa": {
+    "reviewedAt": "2026-10-20T17:04:47Z",
+    "reviewer": "Fresh Codex reviewer A",
+    "summaryPath": "/tmp/slopless-family-qa-a-summary.json",
+    "finalTextsMatchedToRawBlindReview": 200,
+    "hitSnippetSelectionsMatchedToRawOpus": 100,
+    "adjudicationEntriesReviewedAgainstFinalRows": 8,
+    "objectionOrDisagreementEventsMappedToAdjudicatedFinalRows": 8,
+    "initialBatchClassCounts": [
+      [51, 49],
+      [49, 51]
+    ],
+    "supplementalModelCalls": 0,
+    "supplementalMixedBatchReviewRequired": false,
+    "newLabelCorrectionsRequired": 0,
+    "materialConcerns": 0
+  },
+  "schemaVersion": 1,
+  "check": "semantic-thinness/unspecified-change",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+  "dataset": {
+    "textPath": "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md",
+    "labelsPath": "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.labels.json",
+    "textSha256": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+    "labelsSha256": "ba5926c5030515562c022ed6401ad5c58ff78feb0749dbdaef9a02fc35051085"
+  },
+  "review": {
+    "models": ["claude-opus-5-5"],
+    "batches": [
+      {
+        "kind": "initial-blind-classification",
+        "passages": 100,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "reviewedTargetsSha256": "3d70b9457ecbe0a925e2a8cd2728a62b7806687d3d36b1c31548dbedec4bc621",
+        "inputFileSha256": "28a0770f72bc3dfa42c042bf5bdf09eb80aafad797621067c91fe572318b4f3c",
+        "rawReviewSha256": "78275ccd6b04e52c285352efe039ddb9447e7d05d3e2ee4244ff5e7c7f6f6523",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "durationMs": 47652,
+        "costUsd": 0.220192,
+        "agreements": 100,
+        "disagreements": 0,
+        "objections": 4
+      },
+      {
+        "kind": "initial-blind-classification",
+        "passages": 100,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "reviewedTargetsSha256": "f29a7b652fa0517a4672ff42b089c4296161791763a284d4ee0fbeea598df7bd",
+        "inputFileSha256": "48e83f5424285dffa8b597bc2006ad61c11a9f6159f9cb4d975b1c6948a8df7f",
+        "rawReviewSha256": "c3d14c5abe1e3b49622c9b2b210113893f4680f34c32b9db34efa89b80b64ed2",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "durationMs": 52989,
+        "costUsd": 0.231296,
+        "agreements": 100,
+        "disagreements": 0,
+        "objections": 4
+      }
+    ],
+    "passagesReviewed": 200,
+    "initialAgreements": 200,
+    "initialDisagreements": [],
+    "initialDisagreementCount": 0,
+    "objections": 8,
+    "adjudicatedObjections": 8,
+    "finalAgreements": 200,
+    "finalDisagreements": 0,
+    "retainedReviewerDisagreements": 0,
+    "spanOnlyRequests": 0,
+    "unresolvedLabelIssues": 0,
+    "snippetsAdoptedFromOpusForHits": 100,
+    "toolsDisabled": true,
+    "blindFields": ["id", "text"],
+    "authorLabelsWithheld": true,
+    "authorSnippetsWithheld": true,
+    "classBalanceWithheld": true,
+    "acceptanceBasis": "Accepted definition and independent author adjudication. Model agreement is recorded separately and was not an acceptance gate.",
+    "finalTextMatch": {
+      "matched": 200,
+      "unmatched": 0,
+      "manifestSha256": "f6462b341430b10c50341f8020969e439fef549f051ac7c44ee48098f8735f17",
+      "frozenReviewInputsVerified": 2,
+      "classificationMatches": 200,
+      "hitSnippetMatches": 100
+    },
+    "snippets": 112
+  },
+  "corrections": {
+    "draftedBeforeDevelopmentInspection": 200,
+    "preReviewOverlapOrDiversityReplacements": 6,
+    "preReviewChanges": [
+      {
+        "id": "000004-028",
+        "reason": "Replace a shared administrative-detail phrase found in a development neighbor."
+      },
+      {
+        "id": "000004-133",
+        "reason": "Replace the grant-based circularity control with an independent technical control."
+      },
+      {
+        "id": "000004-070",
+        "reason": "Remove a repeated scene-detail sentence shared with another draft."
+      },
+      {
+        "id": "000004-012",
+        "reason": "Replace a missing-actor worked-example analogue with actor-irrelevant passive actions."
+      },
+      {
+        "id": "000004-183",
+        "reason": "Replace a distinctive construction shared with corresponding development."
+      },
+      {
+        "id": "000004-073",
+        "reason": "Remove a shared irrelevant-identity-detail structure found in corresponding development."
+      }
+    ],
+    "textRewritesAfterReview": 0,
+    "labelChangesAfterReview": 0,
+    "replacementBlindReviewsAfterInitialReview": 0
+  },
+  "deduplication": {
+    "normalization": "Lowercase alphanumeric tokens retaining internal apostrophes; punctuation and whitespace collapsed.",
+    "measures": "Jaccard word sets and contiguous 3-word shingles.",
+    "thresholds": {
+      "wordset": 0.3,
+      "shingle3": 0.07
+    },
+    "referenceHashes": {
+      "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+      "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+      "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+      "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+      "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+      "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+      "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+      "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+      "prompts/README.md": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b",
+      "prompts/v1/abstract-contrast.md": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676",
+      "prompts/v1/emotion-as-substance.md": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72",
+      "prompts/v1/generic-realization.md": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465",
+      "prompts/v1/shared.md": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+    },
+    "pendingReferences": [],
+    "groups": {
+      "within": {
+        "referencePassagesOrLines": 200,
+        "normalizedExact": 0,
+        "maximumWordset": 0.3142857142857143,
+        "maximumShingle3": 0.10891089108910891,
+        "flaggedPairs": 10,
+        "nearestComparisons": 200,
+        "flaggedPairsInspected": true,
+        "topWordsetAndShingleNeighborsInspected": true,
+        "derivativeCopiesRemaining": 0
+      },
+      "development": {
+        "referencePassagesOrLines": 1400,
+        "normalizedExact": 0,
+        "maximumWordset": 0.2727272727272727,
+        "maximumShingle3": 0.08108108108108109,
+        "flaggedPairs": 2,
+        "nearestComparisons": 200,
+        "flaggedPairsInspected": true,
+        "topWordsetAndShingleNeighborsInspected": true,
+        "derivativeCopiesRemaining": 0
+      },
+      "holdout": {
+        "referencePassagesOrLines": 200,
+        "normalizedExact": 0,
+        "maximumWordset": 0.225,
+        "maximumShingle3": 0.04285714285714286,
+        "flaggedPairs": 0,
+        "nearestComparisons": 200,
+        "flaggedPairsInspected": true,
+        "topWordsetAndShingleNeighborsInspected": true,
+        "derivativeCopiesRemaining": 0
+      },
+      "taxonomyAndPrompts": {
+        "referencePassagesOrLines": 335,
+        "normalizedExact": 0,
+        "maximumWordset": 0.25,
+        "maximumShingle3": 0.03333333333333333,
+        "flaggedPairs": 0,
+        "nearestComparisons": 200,
+        "flaggedPairsInspected": true,
+        "topWordsetAndShingleNeighborsInspected": true,
+        "derivativeCopiesRemaining": 0
+      }
+    },
+    "manualConclusion": "Within-set neighbors include deliberately close contextual controls with distinct assertions and substantive resolutions. Cross-set neighbors share ordinary progress constructions or incidental phrases; the six pre-review replacements remove distinctive overlap or repeated details. All flagged and top wordset and shingle neighbors were inspected privately.",
+    "exactContainedWorkedExamples": 0,
+    "workedExamplesInspected": 162,
+    "availableDevelopmentCollections": 7,
+    "availableOtherHoldoutCollections": 1
+  },
+  "privateCaseResolutions": [
+    {
+      "id": "000004-183",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "objection": "The before/after split implies a change in recruitment without saying what it was. Read strictly as a statement about how the memoir is organized, it might not announce a change at all.",
+      "resolution": "Retain hit. The passage asserts a substantive division in recruitment associated with the order, beyond merely listing memoir sections. Neither period is characterized, so the transition remains unspecified. A date or triggering order alone does not supply the change.",
+      "action": "retain-original-text-and-label"
+    },
+    {
+      "id": "000004-118",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "objection": "'Gaining ground' could be read as an ordinary progress report rather than an announced change. It is still an improvement that the passage never specifies.",
+      "resolution": "Retain hit. Progress on a mapping effort could mean surveying additional passages, resolving access, or correcting a survey. The passage supplies no accomplished step or identifiable difference; preparing equipment does not resolve that omission. This is the definition's improvement branch, not a requirement for a numeric progress metric.",
+      "action": "retain-original-text-and-label"
+    },
+    {
+      "id": "000004-028",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "objection": "The contrast between stalled and moving gives the change a direction, so some readers would accept it. But the passage never says what is actually progressing.",
+      "resolution": "Retain hit. The contrast announces a transition from stalled to progressing without identifying an application stage, completed operation, or altered condition. Readiness to receive correspondence supplies none of those. Direction alone leaves the substantive development unspecified.",
+      "action": "retain-original-text-and-label"
+    },
+    {
+      "id": "000004-173",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "objection": "'Making headway' could be read as an ordinary progress report rather than an announced change. Still, the passage never says what progress was made.",
+      "resolution": "Retain hit. Headway on a manuscript could refer to drafting, restructuring, or completing research. File location does not make one reading unambiguous. The improvement is asserted without its substance; conventional wording is not the basis for the label.",
+      "action": "retain-original-text-and-label"
+    },
+    {
+      "id": "000004-080",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "objection": "Could be read as hollow significance, but it announces an improvement without saying what changed in the prospects.",
+      "resolution": "Retain hit. The main assertion is an improvement in the product's outlook over time, so unspecified change is the most specific type. The demonstration identifies a trigger but the crate details provide no altered commercial circumstance or other development.",
+      "action": "retain-original-text-and-label"
+    },
+    {
+      "id": "000004-058",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "objection": "'Advanced' could be read as ordinary progress reporting, but the passage never says what moved forward.",
+      "resolution": "Retain hit. Advancement could denote agreement on a term, exchange of drafts, or scheduling a negotiation. The location and age of the premises do not identify any of those steps. A broad informative milestone would suffice without measurements, but none is supplied.",
+      "action": "retain-original-text-and-label"
+    },
+    {
+      "id": "000004-057",
+      "authorExpected": false,
+      "reviewerExpected": false,
+      "objection": "'Fortunes improved' is vague, but the bridge route and the hiring of carters supply what improved.",
+      "resolution": "Retain no-hit. A usable route avoiding the mountain and new work for carters specify the improved local circumstances. The shared decisions preserve qualitative and inferable consequences; a numerical account of employment or income is unnecessary.",
+      "action": "retain-original-text-and-label"
+    },
+    {
+      "id": "000004-106",
+      "authorExpected": true,
+      "reviewerExpected": true,
+      "objection": "The last sentence frames this as a narrator's description, but the passage still states the claim itself, and the arrival details don't say what changed.",
+      "resolution": "Retain hit. The passage itself asserts a changed mode of household life. Arrival, luggage, and bibliographic scene details identify a trigger rather than a change in living arrangements or conduct. The claim concerns household development rather than a stock atmospheric beat, and the narratorial framing does not turn it into criticism of defective writing.",
+      "action": "retain-original-text-and-label"
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "existingReader": "passed",
+    "loadDataset": "passed",
+    "schemaVersion": 2,
+    "passages": 200,
+    "labels": 200,
+    "hits": 100,
+    "noHits": 100,
+    "checks": 1,
+    "uniqueIds": 200,
+    "exactSnippets": "passed",
+    "sampleBoundaries": "passed",
+    "byteChecksum": "passed",
+    "minimalLabels": "passed",
+    "singlePhysicalLinePerParagraph": "passed",
+    "asciiOnly": true,
+    "neutralShuffledIds": "passed",
+    "wordCounts": {
+      "total": 6547,
+      "min": 15,
+      "max": 61,
+      "mean": 32.735,
+      "passages45To90Words": 48,
+      "hits45To90Words": 24,
+      "noHits45To90Words": 24
+    },
+    "sentenceCounts": {
+      "min": 2,
+      "max": 3,
+      "outsideOneToFive": 0
+    },
+    "formattedBeforeFreeze": true,
+    "rootDatasetReader": {
+      "status": "passed",
+      "documents": 15654,
+      "labels": 17653,
+      "holdoutDocuments": 3
+    },
+    "globalNewIdCollisions": 0,
+    "formatCheck": "passed",
+    "reviewQuality": "All eight blind-review objections independently adjudicated against the definition; original judgments retained. No post-review text changes."
+  }
+}

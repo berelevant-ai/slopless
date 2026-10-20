@@ -1,0 +1,1364 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "1ffd44466d41e349a34b26551be9fce8e0795cc8241a63b4fa9e44683d85f3df",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "source": {
+    "name": "New synthetic protected hollow-significance holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md",
+    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "model": "Codex (current protected author session); blind review: claude-opus-5-5",
+    "prompt": null,
+    "notes": "All 200 initial passages drafted before development writing was inspected. Assesses only semantic-thinness/hollow-significance. Independently adjudicated blind Opus classifications; exact hit spans selected by Opus."
+  },
+  "samples": [
+    { "id": "000006-001", "start": 46, "end": 191 },
+    { "id": "000006-002", "start": 208, "end": 343 },
+    { "id": "000006-003", "start": 360, "end": 517 },
+    { "id": "000006-004", "start": 534, "end": 648 },
+    { "id": "000006-005", "start": 665, "end": 768 },
+    { "id": "000006-006", "start": 785, "end": 921 },
+    { "id": "000006-007", "start": 938, "end": 1061 },
+    { "id": "000006-008", "start": 1078, "end": 1205 },
+    { "id": "000006-009", "start": 1222, "end": 1343 },
+    { "id": "000006-010", "start": 1360, "end": 1679 },
+    { "id": "000006-011", "start": 1696, "end": 2015 },
+    { "id": "000006-012", "start": 2032, "end": 2136 },
+    { "id": "000006-013", "start": 2153, "end": 2455 },
+    { "id": "000006-014", "start": 2472, "end": 2597 },
+    { "id": "000006-015", "start": 2614, "end": 2728 },
+    { "id": "000006-016", "start": 2745, "end": 3053 },
+    { "id": "000006-017", "start": 3070, "end": 3184 },
+    { "id": "000006-018", "start": 3201, "end": 3315 },
+    { "id": "000006-019", "start": 3332, "end": 3413 },
+    { "id": "000006-020", "start": 3430, "end": 3778 },
+    { "id": "000006-021", "start": 3795, "end": 3910 },
+    { "id": "000006-022", "start": 3927, "end": 4039 },
+    { "id": "000006-023", "start": 4056, "end": 4172 },
+    { "id": "000006-024", "start": 4189, "end": 4492 },
+    { "id": "000006-025", "start": 4509, "end": 4611 },
+    { "id": "000006-026", "start": 4628, "end": 4745 },
+    { "id": "000006-027", "start": 4762, "end": 4887 },
+    { "id": "000006-028", "start": 4904, "end": 5021 },
+    { "id": "000006-029", "start": 5038, "end": 5156 },
+    { "id": "000006-030", "start": 5173, "end": 5267 },
+    { "id": "000006-031", "start": 5284, "end": 5603 },
+    { "id": "000006-032", "start": 5620, "end": 5717 },
+    { "id": "000006-033", "start": 5734, "end": 6029 },
+    { "id": "000006-034", "start": 6046, "end": 6158 },
+    { "id": "000006-035", "start": 6175, "end": 6298 },
+    { "id": "000006-036", "start": 6315, "end": 6631 },
+    { "id": "000006-037", "start": 6648, "end": 6759 },
+    { "id": "000006-038", "start": 6776, "end": 6914 },
+    { "id": "000006-039", "start": 6931, "end": 7038 },
+    { "id": "000006-040", "start": 7055, "end": 7162 },
+    { "id": "000006-041", "start": 7179, "end": 7484 },
+    { "id": "000006-042", "start": 7501, "end": 7658 },
+    { "id": "000006-043", "start": 7675, "end": 7806 },
+    { "id": "000006-044", "start": 7823, "end": 7899 },
+    { "id": "000006-045", "start": 7916, "end": 8051 },
+    { "id": "000006-046", "start": 8068, "end": 8154 },
+    { "id": "000006-047", "start": 8171, "end": 8297 },
+    { "id": "000006-048", "start": 8314, "end": 8432 },
+    { "id": "000006-049", "start": 8449, "end": 8591 },
+    { "id": "000006-050", "start": 8608, "end": 8925 },
+    { "id": "000006-051", "start": 8942, "end": 9056 },
+    { "id": "000006-052", "start": 9073, "end": 9200 },
+    { "id": "000006-053", "start": 9217, "end": 9291 },
+    { "id": "000006-054", "start": 9308, "end": 9436 },
+    { "id": "000006-055", "start": 9453, "end": 9546 },
+    { "id": "000006-056", "start": 9563, "end": 9892 },
+    { "id": "000006-057", "start": 9909, "end": 10227 },
+    { "id": "000006-058", "start": 10244, "end": 10541 },
+    { "id": "000006-059", "start": 10558, "end": 10677 },
+    { "id": "000006-060", "start": 10694, "end": 10820 },
+    { "id": "000006-061", "start": 10837, "end": 10968 },
+    { "id": "000006-062", "start": 10985, "end": 11105 },
+    { "id": "000006-063", "start": 11122, "end": 11236 },
+    { "id": "000006-064", "start": 11253, "end": 11369 },
+    { "id": "000006-065", "start": 11386, "end": 11511 },
+    { "id": "000006-066", "start": 11528, "end": 11643 },
+    { "id": "000006-067", "start": 11660, "end": 11965 },
+    { "id": "000006-068", "start": 11982, "end": 12293 },
+    { "id": "000006-069", "start": 12310, "end": 12611 },
+    { "id": "000006-070", "start": 12628, "end": 12760 },
+    { "id": "000006-071", "start": 12777, "end": 12897 },
+    { "id": "000006-072", "start": 12914, "end": 13238 },
+    { "id": "000006-073", "start": 13255, "end": 13360 },
+    { "id": "000006-074", "start": 13377, "end": 13655 },
+    { "id": "000006-075", "start": 13672, "end": 13782 },
+    { "id": "000006-076", "start": 13799, "end": 13909 },
+    { "id": "000006-077", "start": 13926, "end": 14042 },
+    { "id": "000006-078", "start": 14059, "end": 14364 },
+    { "id": "000006-079", "start": 14381, "end": 14520 },
+    { "id": "000006-080", "start": 14537, "end": 14657 },
+    { "id": "000006-081", "start": 14674, "end": 14811 },
+    { "id": "000006-082", "start": 14828, "end": 14937 },
+    { "id": "000006-083", "start": 14954, "end": 15073 },
+    { "id": "000006-084", "start": 15090, "end": 15217 },
+    { "id": "000006-085", "start": 15234, "end": 15358 },
+    { "id": "000006-086", "start": 15375, "end": 15500 },
+    { "id": "000006-087", "start": 15517, "end": 15643 },
+    { "id": "000006-088", "start": 15660, "end": 15770 },
+    { "id": "000006-089", "start": 15787, "end": 15897 },
+    { "id": "000006-090", "start": 15914, "end": 16221 },
+    { "id": "000006-091", "start": 16238, "end": 16356 },
+    { "id": "000006-092", "start": 16373, "end": 16492 },
+    { "id": "000006-093", "start": 16509, "end": 16625 },
+    { "id": "000006-094", "start": 16642, "end": 16757 },
+    { "id": "000006-095", "start": 16774, "end": 16893 },
+    { "id": "000006-096", "start": 16910, "end": 17037 },
+    { "id": "000006-097", "start": 17054, "end": 17179 },
+    { "id": "000006-098", "start": 17196, "end": 17531 },
+    { "id": "000006-099", "start": 17548, "end": 17662 },
+    { "id": "000006-100", "start": 17679, "end": 17790 },
+    { "id": "000006-101", "start": 17807, "end": 17898 },
+    { "id": "000006-102", "start": 17915, "end": 18023 },
+    { "id": "000006-103", "start": 18040, "end": 18151 },
+    { "id": "000006-104", "start": 18168, "end": 18283 },
+    { "id": "000006-105", "start": 18300, "end": 18429 },
+    { "id": "000006-106", "start": 18446, "end": 18568 },
+    { "id": "000006-107", "start": 18585, "end": 18873 },
+    { "id": "000006-108", "start": 18890, "end": 19226 },
+    { "id": "000006-109", "start": 19243, "end": 19377 },
+    { "id": "000006-110", "start": 19394, "end": 19476 },
+    { "id": "000006-111", "start": 19493, "end": 19603 },
+    { "id": "000006-112", "start": 19620, "end": 19728 },
+    { "id": "000006-113", "start": 19745, "end": 19842 },
+    { "id": "000006-114", "start": 19859, "end": 19987 },
+    { "id": "000006-115", "start": 20004, "end": 20097 },
+    { "id": "000006-116", "start": 20114, "end": 20232 },
+    { "id": "000006-117", "start": 20249, "end": 20374 },
+    { "id": "000006-118", "start": 20391, "end": 20709 },
+    { "id": "000006-119", "start": 20726, "end": 20846 },
+    { "id": "000006-120", "start": 20863, "end": 21146 },
+    { "id": "000006-121", "start": 21163, "end": 21278 },
+    { "id": "000006-122", "start": 21295, "end": 21585 },
+    { "id": "000006-123", "start": 21602, "end": 21900 },
+    { "id": "000006-124", "start": 21917, "end": 22035 },
+    { "id": "000006-125", "start": 22052, "end": 22162 },
+    { "id": "000006-126", "start": 22179, "end": 22284 },
+    { "id": "000006-127", "start": 22301, "end": 22428 },
+    { "id": "000006-128", "start": 22445, "end": 22717 },
+    { "id": "000006-129", "start": 22734, "end": 22842 },
+    { "id": "000006-130", "start": 22859, "end": 22971 },
+    { "id": "000006-131", "start": 22988, "end": 23084 },
+    { "id": "000006-132", "start": 23101, "end": 23413 },
+    { "id": "000006-133", "start": 23430, "end": 23742 },
+    { "id": "000006-134", "start": 23759, "end": 23855 },
+    { "id": "000006-135", "start": 23872, "end": 23975 },
+    { "id": "000006-136", "start": 23992, "end": 24107 },
+    { "id": "000006-137", "start": 24124, "end": 24235 },
+    { "id": "000006-138", "start": 24252, "end": 24538 },
+    { "id": "000006-139", "start": 24555, "end": 24860 },
+    { "id": "000006-140", "start": 24877, "end": 24987 },
+    { "id": "000006-141", "start": 25004, "end": 25127 },
+    { "id": "000006-142", "start": 25144, "end": 25244 },
+    { "id": "000006-143", "start": 25261, "end": 25388 },
+    { "id": "000006-144", "start": 25405, "end": 25521 },
+    { "id": "000006-145", "start": 25538, "end": 25838 },
+    { "id": "000006-146", "start": 25855, "end": 25996 },
+    { "id": "000006-147", "start": 26013, "end": 26145 },
+    { "id": "000006-148", "start": 26162, "end": 26283 },
+    { "id": "000006-149", "start": 26300, "end": 26400 },
+    { "id": "000006-150", "start": 26417, "end": 26541 },
+    { "id": "000006-151", "start": 26558, "end": 26683 },
+    { "id": "000006-152", "start": 26700, "end": 26793 },
+    { "id": "000006-153", "start": 26810, "end": 26903 },
+    { "id": "000006-154", "start": 26920, "end": 27051 },
+    { "id": "000006-155", "start": 27068, "end": 27184 },
+    { "id": "000006-156", "start": 27201, "end": 27315 },
+    { "id": "000006-157", "start": 27332, "end": 27462 },
+    { "id": "000006-158", "start": 27479, "end": 27584 },
+    { "id": "000006-159", "start": 27601, "end": 27886 },
+    { "id": "000006-160", "start": 27903, "end": 28011 },
+    { "id": "000006-161", "start": 28028, "end": 28175 },
+    { "id": "000006-162", "start": 28192, "end": 28503 },
+    { "id": "000006-163", "start": 28520, "end": 28635 },
+    { "id": "000006-164", "start": 28652, "end": 28758 },
+    { "id": "000006-165", "start": 28775, "end": 28861 },
+    { "id": "000006-166", "start": 28878, "end": 28990 },
+    { "id": "000006-167", "start": 29007, "end": 29321 },
+    { "id": "000006-168", "start": 29338, "end": 29468 },
+    { "id": "000006-169", "start": 29485, "end": 29606 },
+    { "id": "000006-170", "start": 29623, "end": 29749 },
+    { "id": "000006-171", "start": 29766, "end": 29877 },
+    { "id": "000006-172", "start": 29894, "end": 30021 },
+    { "id": "000006-173", "start": 30038, "end": 30155 },
+    { "id": "000006-174", "start": 30172, "end": 30292 },
+    { "id": "000006-175", "start": 30309, "end": 30418 },
+    { "id": "000006-176", "start": 30435, "end": 30568 },
+    { "id": "000006-177", "start": 30585, "end": 30702 },
+    { "id": "000006-178", "start": 30719, "end": 30845 },
+    { "id": "000006-179", "start": 30862, "end": 31177 },
+    { "id": "000006-180", "start": 31194, "end": 31317 },
+    { "id": "000006-181", "start": 31334, "end": 31456 },
+    { "id": "000006-182", "start": 31473, "end": 31779 },
+    { "id": "000006-183", "start": 31796, "end": 31922 },
+    { "id": "000006-184", "start": 31939, "end": 32036 },
+    { "id": "000006-185", "start": 32053, "end": 32350 },
+    { "id": "000006-186", "start": 32367, "end": 32682 },
+    { "id": "000006-187", "start": 32699, "end": 33014 },
+    { "id": "000006-188", "start": 33031, "end": 33294 },
+    { "id": "000006-189", "start": 33311, "end": 33418 },
+    { "id": "000006-190", "start": 33435, "end": 33755 },
+    { "id": "000006-191", "start": 33772, "end": 33848 },
+    { "id": "000006-192", "start": 33865, "end": 34044 },
+    { "id": "000006-193", "start": 34061, "end": 34181 },
+    { "id": "000006-194", "start": 34198, "end": 34320 },
+    { "id": "000006-195", "start": 34337, "end": 34479 },
+    { "id": "000006-196", "start": 34496, "end": 34600 },
+    { "id": "000006-197", "start": 34617, "end": 34721 },
+    { "id": "000006-198", "start": 34738, "end": 34861 },
+    { "id": "000006-199", "start": 34878, "end": 34979 },
+    { "id": "000006-200", "start": 34996, "end": 35127 }
+  ],
+  "labels": [
+    {
+      "id": "000006-001",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["she warned that the consequences would be considerable"]
+    },
+    {
+      "id": "000006-002",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-003",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The final chart showed just how much value it had created"]
+    },
+    {
+      "id": "000006-004",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-005",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-006",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-007",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the experiment revealed a meaningful advantage"]
+    },
+    {
+      "id": "000006-008",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-009",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The total established what we had gained."]
+    },
+    {
+      "id": "000006-010",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-011",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-012",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["a powerful benefit for the system"]
+    },
+    {
+      "id": "000006-013",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["This raises important risks for our operation."]
+    },
+    {
+      "id": "000006-014",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-015",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-016",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-017",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["brought measurable rewards to the club"]
+    },
+    {
+      "id": "000006-018",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-019",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["Its contribution was substantial."]
+    },
+    {
+      "id": "000006-020",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["yielding a meaningful return for the volunteers"]
+    },
+    {
+      "id": "000006-021",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-022",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The calculation made the burden clear."]
+    },
+    {
+      "id": "000006-023",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-024",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "the practical importance of this exception cannot be overstated"
+      ]
+    },
+    {
+      "id": "000006-025",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-026",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-027",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the exercise demonstrated its impact"]
+    },
+    {
+      "id": "000006-028",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-029",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-030",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["Its importance can hardly be missed."]
+    },
+    {
+      "id": "000006-031",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["an event that had an appreciable effect on the community"]
+    },
+    {
+      "id": "000006-032",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-033",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "an act that would prove significant in ways the town could feel"
+      ]
+    },
+    {
+      "id": "000006-034",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The threat posed by the revision is substantial."]
+    },
+    {
+      "id": "000006-035",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The evaluation put a precise magnitude on the benefit."]
+    },
+    {
+      "id": "000006-036",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["This seemingly minor naming choice pays dividends."]
+    },
+    {
+      "id": "000006-037",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The gain was real, even if the change looked trivial."]
+    },
+    {
+      "id": "000006-038",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the variation created value for researchers"]
+    },
+    {
+      "id": "000006-039",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["Ten years later, her achievement had made an impact."]
+    },
+    {
+      "id": "000006-040",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-041",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The inspector's chart captured the scale of the problem."]
+    },
+    {
+      "id": "000006-042",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["found it thoroughly worthwhile"]
+    },
+    {
+      "id": "000006-043",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-044",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-045",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-046",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The benefit was felt at every level."]
+    },
+    {
+      "id": "000006-047",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-048",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "The move to evening classes did not come without a sacrifice."
+      ]
+    },
+    {
+      "id": "000006-049",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-050",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-051",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-052",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The financial assessment made the exposure explicit."]
+    },
+    {
+      "id": "000006-053",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["Its benefits justified the effort."]
+    },
+    {
+      "id": "000006-054",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-055",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-056",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-057",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-058",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-059",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["For the chess club, this result had weight."]
+    },
+    {
+      "id": "000006-060",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["presents a danger of genuine concern"]
+    },
+    {
+      "id": "000006-061",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["which has important implications for residents"]
+    },
+    {
+      "id": "000006-062",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-063",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-064",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-065",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-066",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-067",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the impact on library users deserves attention"]
+    },
+    {
+      "id": "000006-068",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["a cost that the partnership must reckon with"]
+    },
+    {
+      "id": "000006-069",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "her gesture had consequences that reached far beyond the kitchen"
+      ]
+    },
+    {
+      "id": "000006-070",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-071",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "a consequence of great practical importance for the archive"
+      ]
+    },
+    {
+      "id": "000006-072",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-073",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The danger was far from theoretical."]
+    },
+    {
+      "id": "000006-074",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The panel quantified the value of the arrangement."]
+    },
+    {
+      "id": "000006-075",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "The duplicate entry creates a material exposure for our organisation."
+      ]
+    },
+    {
+      "id": "000006-076",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["it exacted a personal price from me"]
+    },
+    {
+      "id": "000006-077",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The comparison brought the significance into focus."]
+    },
+    {
+      "id": "000006-078",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-079",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-080",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The toll on those involved was considerable."]
+    },
+    {
+      "id": "000006-081",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "The analyst reduced the environmental benefit to a single total."
+      ]
+    },
+    {
+      "id": "000006-082",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["That detail has real significance for public life."]
+    },
+    {
+      "id": "000006-083",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-084",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-085",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["A high score demonstrated the initiative's success."]
+    },
+    {
+      "id": "000006-086",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-087",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-088",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "produced an outcome of real consequence for the graduating class"
+      ]
+    },
+    {
+      "id": "000006-089",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-090",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-091",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the benefits were borne out by the figures"]
+    },
+    {
+      "id": "000006-092",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["produced a benefit that reached beyond the event"]
+    },
+    {
+      "id": "000006-093",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-094",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The difference between the two marks was consequential."]
+    },
+    {
+      "id": "000006-095",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-096",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-097",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The audit added a measurable dimension to the success."]
+    },
+    {
+      "id": "000006-098",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "The economic effects were calculated and were considerable."
+      ]
+    },
+    {
+      "id": "000006-099",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "Rebinding the minute books is an investment whose payoff is unmistakable."
+      ]
+    },
+    {
+      "id": "000006-100",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-101",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The estimate tells us what the choice is worth."]
+    },
+    {
+      "id": "000006-102",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-103",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-104",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-105",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-106",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-107",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-108",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the longer-term implications are profound"]
+    },
+    {
+      "id": "000006-109",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-110",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["It made a difference where it counted."]
+    },
+    {
+      "id": "000006-111",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-112",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The dashboard showed the value in numerical terms."]
+    },
+    {
+      "id": "000006-113",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-114",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-115",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The risk is one we should take seriously."]
+    },
+    {
+      "id": "000006-116",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["She understood what the privilege was worth."]
+    },
+    {
+      "id": "000006-117",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-118",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-119",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-120",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-121",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["was a move with real upside"]
+    },
+    {
+      "id": "000006-122",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-123",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "that gave her an advantage whose importance should not be overlooked"
+      ]
+    },
+    {
+      "id": "000006-124",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "the distinction has practical implications for the committee"
+      ]
+    },
+    {
+      "id": "000006-125",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The biographer says her decision carried real stakes."]
+    },
+    {
+      "id": "000006-126",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "My seat at the back of the bus was an advantage I could not afford to lose."
+      ]
+    },
+    {
+      "id": "000006-127",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the figure confirmed the extent of the loss"]
+    },
+    {
+      "id": "000006-128",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-129",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-130",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The score established how well the scheme had worked."]
+    },
+    {
+      "id": "000006-131",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-132",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-133",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["gave the clerks a measurable advantage"]
+    },
+    {
+      "id": "000006-134",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-135",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "The additional approval is a burden with far-reaching effects."
+      ]
+    },
+    {
+      "id": "000006-136",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-137",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-138",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["He knew the stakes of his decision were enormous."]
+    },
+    {
+      "id": "000006-139",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "The distinction carried considerable weight for the voyage."
+      ]
+    },
+    {
+      "id": "000006-140",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-141",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["it puts something important at risk"]
+    },
+    {
+      "id": "000006-142",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["This represents a saving worth taking seriously."]
+    },
+    {
+      "id": "000006-143",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "There was a penalty for that decision, though it was not a fine."
+      ]
+    },
+    {
+      "id": "000006-144",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-145",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-146",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-147",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-148",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-149",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-150",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "There is more riding on the spelling of this station name than most travellers realise."
+      ]
+    },
+    {
+      "id": "000006-151",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["His refusal carried implications for the entire fleet."]
+    },
+    {
+      "id": "000006-152",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The impact was more than cosmetic."]
+    },
+    {
+      "id": "000006-153",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["Choosing the shorter title was a strategic price to pay."]
+    },
+    {
+      "id": "000006-154",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["that is why its implications deserve reflection"]
+    },
+    {
+      "id": "000006-155",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-156",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-157",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The ramifications were felt by everyone involved."]
+    },
+    {
+      "id": "000006-158",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-159",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-160",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-161",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The figures reveal the extent of that advantage."]
+    },
+    {
+      "id": "000006-162",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-163",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "Agreeing to the portrait's new frame was a costly compromise."
+      ]
+    },
+    {
+      "id": "000006-164",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The model turned that advantage into a concrete quantity."]
+    },
+    {
+      "id": "000006-165",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["Its worth to the district was considerable."]
+    },
+    {
+      "id": "000006-166",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The consequences for the region are important."]
+    },
+    {
+      "id": "000006-167",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-168",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-169",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "Putting the phone directory on the intranet was a win that could be measured."
+      ]
+    },
+    {
+      "id": "000006-170",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-171",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-172",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the scale of the impact was unmistakable"]
+    },
+    {
+      "id": "000006-173",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The index captured the improvement."]
+    },
+    {
+      "id": "000006-174",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-175",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-176",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-177",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "The missing signature was an obstacle with a considerable price attached."
+      ]
+    },
+    {
+      "id": "000006-178",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["a development of practical significance"]
+    },
+    {
+      "id": "000006-179",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["the financial burden of that choice was substantial"]
+    },
+    {
+      "id": "000006-180",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-181",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["a risk worth considering before we commit to the print run"]
+    },
+    {
+      "id": "000006-182",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-183",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-184",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The stakes were high for the restoration."]
+    },
+    {
+      "id": "000006-185",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "The migration note calls that a real benefit to the engineering team."
+      ]
+    },
+    {
+      "id": "000006-186",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The survey established just how much that mattered."]
+    },
+    {
+      "id": "000006-187",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["Ignoring this discrepancy comes at a price."]
+    },
+    {
+      "id": "000006-188",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-189",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-190",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The appraisal expressed its worth as a figure."]
+    },
+    {
+      "id": "000006-191",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-192",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "There would be a price for helping him, beyond any amount of rent."
+      ]
+    },
+    {
+      "id": "000006-193",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The effect on the orchestra was significant."]
+    },
+    {
+      "id": "000006-194",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-195",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["it entails a substantial downside for participants"]
+    },
+    {
+      "id": "000006-196",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["The reading tells us the size of the benefit."]
+    },
+    {
+      "id": "000006-197",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["He had paid dearly for the detour."]
+    },
+    {
+      "id": "000006-198",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": false
+    },
+    {
+      "id": "000006-199",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": [
+        "Writing the rotas in purple ink offers tangible gains for the ward."
+      ]
+    },
+    {
+      "id": "000006-200",
+      "check": "semantic-thinness/hollow-significance",
+      "expected": true,
+      "snippets": ["brought a return that justified every hour"]
+    }
+  ]
+}

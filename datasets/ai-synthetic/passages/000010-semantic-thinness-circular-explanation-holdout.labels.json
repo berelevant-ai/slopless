@@ -1,0 +1,2309 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "35111fb951b880bd2723a6d9bc26ec6c50293e128eb04950081f26aa991ae34d",
+  "source": {
+    "name": "Protected circular-explanation holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md",
+    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "model": "GPT-5 (Codex author); claude-opus-5-5 (blind review)",
+    "notes": "Independent synthetic passages drafted before development inspection; reviewed against the accepted taxonomy. Other checks remain unassessed."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "samples": [
+    {
+      "id": "000010-001",
+      "start": 47,
+      "end": 138
+    },
+    {
+      "id": "000010-002",
+      "start": 155,
+      "end": 542
+    },
+    {
+      "id": "000010-003",
+      "start": 559,
+      "end": 651
+    },
+    {
+      "id": "000010-004",
+      "start": 668,
+      "end": 1000
+    },
+    {
+      "id": "000010-005",
+      "start": 1017,
+      "end": 1363
+    },
+    {
+      "id": "000010-006",
+      "start": 1380,
+      "end": 1488
+    },
+    {
+      "id": "000010-007",
+      "start": 1505,
+      "end": 1610
+    },
+    {
+      "id": "000010-008",
+      "start": 1627,
+      "end": 1805
+    },
+    {
+      "id": "000010-009",
+      "start": 1822,
+      "end": 1908
+    },
+    {
+      "id": "000010-010",
+      "start": 1925,
+      "end": 2016
+    },
+    {
+      "id": "000010-011",
+      "start": 2033,
+      "end": 2140
+    },
+    {
+      "id": "000010-012",
+      "start": 2157,
+      "end": 2249
+    },
+    {
+      "id": "000010-013",
+      "start": 2266,
+      "end": 2626
+    },
+    {
+      "id": "000010-014",
+      "start": 2643,
+      "end": 3009
+    },
+    {
+      "id": "000010-015",
+      "start": 3026,
+      "end": 3117
+    },
+    {
+      "id": "000010-016",
+      "start": 3134,
+      "end": 3204
+    },
+    {
+      "id": "000010-017",
+      "start": 3221,
+      "end": 3318
+    },
+    {
+      "id": "000010-018",
+      "start": 3335,
+      "end": 3412
+    },
+    {
+      "id": "000010-019",
+      "start": 3429,
+      "end": 3550
+    },
+    {
+      "id": "000010-020",
+      "start": 3567,
+      "end": 3927
+    },
+    {
+      "id": "000010-021",
+      "start": 3944,
+      "end": 4050
+    },
+    {
+      "id": "000010-022",
+      "start": 4067,
+      "end": 4139
+    },
+    {
+      "id": "000010-023",
+      "start": 4156,
+      "end": 4521
+    },
+    {
+      "id": "000010-024",
+      "start": 4538,
+      "end": 4648
+    },
+    {
+      "id": "000010-025",
+      "start": 4665,
+      "end": 4752
+    },
+    {
+      "id": "000010-026",
+      "start": 4769,
+      "end": 4879
+    },
+    {
+      "id": "000010-027",
+      "start": 4896,
+      "end": 5019
+    },
+    {
+      "id": "000010-028",
+      "start": 5036,
+      "end": 5137
+    },
+    {
+      "id": "000010-029",
+      "start": 5154,
+      "end": 5261
+    },
+    {
+      "id": "000010-030",
+      "start": 5278,
+      "end": 5461
+    },
+    {
+      "id": "000010-031",
+      "start": 5478,
+      "end": 5723
+    },
+    {
+      "id": "000010-032",
+      "start": 5740,
+      "end": 5862
+    },
+    {
+      "id": "000010-033",
+      "start": 5879,
+      "end": 6207
+    },
+    {
+      "id": "000010-034",
+      "start": 6224,
+      "end": 6383
+    },
+    {
+      "id": "000010-035",
+      "start": 6400,
+      "end": 6763
+    },
+    {
+      "id": "000010-036",
+      "start": 6780,
+      "end": 7140
+    },
+    {
+      "id": "000010-037",
+      "start": 7157,
+      "end": 7255
+    },
+    {
+      "id": "000010-038",
+      "start": 7272,
+      "end": 7611
+    },
+    {
+      "id": "000010-039",
+      "start": 7628,
+      "end": 7730
+    },
+    {
+      "id": "000010-040",
+      "start": 7747,
+      "end": 7869
+    },
+    {
+      "id": "000010-041",
+      "start": 7886,
+      "end": 8006
+    },
+    {
+      "id": "000010-042",
+      "start": 8023,
+      "end": 8130
+    },
+    {
+      "id": "000010-043",
+      "start": 8147,
+      "end": 8267
+    },
+    {
+      "id": "000010-044",
+      "start": 8284,
+      "end": 8390
+    },
+    {
+      "id": "000010-045",
+      "start": 8407,
+      "end": 8514
+    },
+    {
+      "id": "000010-046",
+      "start": 8531,
+      "end": 8644
+    },
+    {
+      "id": "000010-047",
+      "start": 8661,
+      "end": 8770
+    },
+    {
+      "id": "000010-048",
+      "start": 8787,
+      "end": 8910
+    },
+    {
+      "id": "000010-049",
+      "start": 8927,
+      "end": 9023
+    },
+    {
+      "id": "000010-050",
+      "start": 9040,
+      "end": 9360
+    },
+    {
+      "id": "000010-051",
+      "start": 9377,
+      "end": 9457
+    },
+    {
+      "id": "000010-052",
+      "start": 9474,
+      "end": 9572
+    },
+    {
+      "id": "000010-053",
+      "start": 9589,
+      "end": 9708
+    },
+    {
+      "id": "000010-054",
+      "start": 9725,
+      "end": 9799
+    },
+    {
+      "id": "000010-055",
+      "start": 9816,
+      "end": 10180
+    },
+    {
+      "id": "000010-056",
+      "start": 10197,
+      "end": 10320
+    },
+    {
+      "id": "000010-057",
+      "start": 10337,
+      "end": 10661
+    },
+    {
+      "id": "000010-058",
+      "start": 10678,
+      "end": 11028
+    },
+    {
+      "id": "000010-059",
+      "start": 11045,
+      "end": 11140
+    },
+    {
+      "id": "000010-060",
+      "start": 11157,
+      "end": 11247
+    },
+    {
+      "id": "000010-061",
+      "start": 11264,
+      "end": 11343
+    },
+    {
+      "id": "000010-062",
+      "start": 11360,
+      "end": 11474
+    },
+    {
+      "id": "000010-063",
+      "start": 11491,
+      "end": 11850
+    },
+    {
+      "id": "000010-064",
+      "start": 11867,
+      "end": 11948
+    },
+    {
+      "id": "000010-065",
+      "start": 11965,
+      "end": 12321
+    },
+    {
+      "id": "000010-066",
+      "start": 12338,
+      "end": 12456
+    },
+    {
+      "id": "000010-067",
+      "start": 12473,
+      "end": 12811
+    },
+    {
+      "id": "000010-068",
+      "start": 12828,
+      "end": 12957
+    },
+    {
+      "id": "000010-069",
+      "start": 12974,
+      "end": 13069
+    },
+    {
+      "id": "000010-070",
+      "start": 13086,
+      "end": 13191
+    },
+    {
+      "id": "000010-071",
+      "start": 13208,
+      "end": 13531
+    },
+    {
+      "id": "000010-072",
+      "start": 13548,
+      "end": 13651
+    },
+    {
+      "id": "000010-073",
+      "start": 13668,
+      "end": 13781
+    },
+    {
+      "id": "000010-074",
+      "start": 13798,
+      "end": 13902
+    },
+    {
+      "id": "000010-075",
+      "start": 13919,
+      "end": 14272
+    },
+    {
+      "id": "000010-076",
+      "start": 14289,
+      "end": 14385
+    },
+    {
+      "id": "000010-077",
+      "start": 14402,
+      "end": 14735
+    },
+    {
+      "id": "000010-078",
+      "start": 14752,
+      "end": 14903
+    },
+    {
+      "id": "000010-079",
+      "start": 14920,
+      "end": 15024
+    },
+    {
+      "id": "000010-080",
+      "start": 15041,
+      "end": 15384
+    },
+    {
+      "id": "000010-081",
+      "start": 15401,
+      "end": 15519
+    },
+    {
+      "id": "000010-082",
+      "start": 15536,
+      "end": 15633
+    },
+    {
+      "id": "000010-083",
+      "start": 15650,
+      "end": 15757
+    },
+    {
+      "id": "000010-084",
+      "start": 15774,
+      "end": 16079
+    },
+    {
+      "id": "000010-085",
+      "start": 16096,
+      "end": 16183
+    },
+    {
+      "id": "000010-086",
+      "start": 16200,
+      "end": 16297
+    },
+    {
+      "id": "000010-087",
+      "start": 16314,
+      "end": 16388
+    },
+    {
+      "id": "000010-088",
+      "start": 16405,
+      "end": 16506
+    },
+    {
+      "id": "000010-089",
+      "start": 16523,
+      "end": 16643
+    },
+    {
+      "id": "000010-090",
+      "start": 16660,
+      "end": 16781
+    },
+    {
+      "id": "000010-091",
+      "start": 16798,
+      "end": 17161
+    },
+    {
+      "id": "000010-092",
+      "start": 17178,
+      "end": 17302
+    },
+    {
+      "id": "000010-093",
+      "start": 17319,
+      "end": 17607
+    },
+    {
+      "id": "000010-094",
+      "start": 17624,
+      "end": 18018
+    },
+    {
+      "id": "000010-095",
+      "start": 18035,
+      "end": 18111
+    },
+    {
+      "id": "000010-096",
+      "start": 18128,
+      "end": 18462
+    },
+    {
+      "id": "000010-097",
+      "start": 18479,
+      "end": 18567
+    },
+    {
+      "id": "000010-098",
+      "start": 18584,
+      "end": 18939
+    },
+    {
+      "id": "000010-099",
+      "start": 18956,
+      "end": 19051
+    },
+    {
+      "id": "000010-100",
+      "start": 19068,
+      "end": 19154
+    },
+    {
+      "id": "000010-101",
+      "start": 19171,
+      "end": 19369
+    },
+    {
+      "id": "000010-102",
+      "start": 19386,
+      "end": 19464
+    },
+    {
+      "id": "000010-103",
+      "start": 19481,
+      "end": 19575
+    },
+    {
+      "id": "000010-104",
+      "start": 19592,
+      "end": 19689
+    },
+    {
+      "id": "000010-105",
+      "start": 19706,
+      "end": 19810
+    },
+    {
+      "id": "000010-106",
+      "start": 19827,
+      "end": 19904
+    },
+    {
+      "id": "000010-107",
+      "start": 19921,
+      "end": 19991
+    },
+    {
+      "id": "000010-108",
+      "start": 20008,
+      "end": 20079
+    },
+    {
+      "id": "000010-109",
+      "start": 20096,
+      "end": 20309
+    },
+    {
+      "id": "000010-110",
+      "start": 20326,
+      "end": 20446
+    },
+    {
+      "id": "000010-111",
+      "start": 20463,
+      "end": 20536
+    },
+    {
+      "id": "000010-112",
+      "start": 20553,
+      "end": 20658
+    },
+    {
+      "id": "000010-113",
+      "start": 20675,
+      "end": 21010
+    },
+    {
+      "id": "000010-114",
+      "start": 21027,
+      "end": 21146
+    },
+    {
+      "id": "000010-115",
+      "start": 21163,
+      "end": 21531
+    },
+    {
+      "id": "000010-116",
+      "start": 21548,
+      "end": 21889
+    },
+    {
+      "id": "000010-117",
+      "start": 21906,
+      "end": 22015
+    },
+    {
+      "id": "000010-118",
+      "start": 22032,
+      "end": 22420
+    },
+    {
+      "id": "000010-119",
+      "start": 22437,
+      "end": 22543
+    },
+    {
+      "id": "000010-120",
+      "start": 22560,
+      "end": 22665
+    },
+    {
+      "id": "000010-121",
+      "start": 22682,
+      "end": 22790
+    },
+    {
+      "id": "000010-122",
+      "start": 22807,
+      "end": 22890
+    },
+    {
+      "id": "000010-123",
+      "start": 22907,
+      "end": 22991
+    },
+    {
+      "id": "000010-124",
+      "start": 23008,
+      "end": 23105
+    },
+    {
+      "id": "000010-125",
+      "start": 23122,
+      "end": 23202
+    },
+    {
+      "id": "000010-126",
+      "start": 23219,
+      "end": 23304
+    },
+    {
+      "id": "000010-127",
+      "start": 23321,
+      "end": 23436
+    },
+    {
+      "id": "000010-128",
+      "start": 23453,
+      "end": 23813
+    },
+    {
+      "id": "000010-129",
+      "start": 23830,
+      "end": 24200
+    },
+    {
+      "id": "000010-130",
+      "start": 24217,
+      "end": 24566
+    },
+    {
+      "id": "000010-131",
+      "start": 24583,
+      "end": 24808
+    },
+    {
+      "id": "000010-132",
+      "start": 24825,
+      "end": 24936
+    },
+    {
+      "id": "000010-133",
+      "start": 24953,
+      "end": 25178
+    },
+    {
+      "id": "000010-134",
+      "start": 25195,
+      "end": 25285
+    },
+    {
+      "id": "000010-135",
+      "start": 25302,
+      "end": 25621
+    },
+    {
+      "id": "000010-136",
+      "start": 25638,
+      "end": 25730
+    },
+    {
+      "id": "000010-137",
+      "start": 25747,
+      "end": 26107
+    },
+    {
+      "id": "000010-138",
+      "start": 26124,
+      "end": 26438
+    },
+    {
+      "id": "000010-139",
+      "start": 26455,
+      "end": 26577
+    },
+    {
+      "id": "000010-140",
+      "start": 26594,
+      "end": 26707
+    },
+    {
+      "id": "000010-141",
+      "start": 26724,
+      "end": 26832
+    },
+    {
+      "id": "000010-142",
+      "start": 26849,
+      "end": 26935
+    },
+    {
+      "id": "000010-143",
+      "start": 26952,
+      "end": 27098
+    },
+    {
+      "id": "000010-144",
+      "start": 27115,
+      "end": 27185
+    },
+    {
+      "id": "000010-145",
+      "start": 27202,
+      "end": 27319
+    },
+    {
+      "id": "000010-146",
+      "start": 27336,
+      "end": 27431
+    },
+    {
+      "id": "000010-147",
+      "start": 27448,
+      "end": 27640
+    },
+    {
+      "id": "000010-148",
+      "start": 27657,
+      "end": 27761
+    },
+    {
+      "id": "000010-149",
+      "start": 27778,
+      "end": 28066
+    },
+    {
+      "id": "000010-150",
+      "start": 28083,
+      "end": 28229
+    },
+    {
+      "id": "000010-151",
+      "start": 28246,
+      "end": 28366
+    },
+    {
+      "id": "000010-152",
+      "start": 28383,
+      "end": 28503
+    },
+    {
+      "id": "000010-153",
+      "start": 28520,
+      "end": 28612
+    },
+    {
+      "id": "000010-154",
+      "start": 28629,
+      "end": 28941
+    },
+    {
+      "id": "000010-155",
+      "start": 28958,
+      "end": 29061
+    },
+    {
+      "id": "000010-156",
+      "start": 29078,
+      "end": 29176
+    },
+    {
+      "id": "000010-157",
+      "start": 29193,
+      "end": 29494
+    },
+    {
+      "id": "000010-158",
+      "start": 29511,
+      "end": 29583
+    },
+    {
+      "id": "000010-159",
+      "start": 29600,
+      "end": 29701
+    },
+    {
+      "id": "000010-160",
+      "start": 29718,
+      "end": 29811
+    },
+    {
+      "id": "000010-161",
+      "start": 29828,
+      "end": 29939
+    },
+    {
+      "id": "000010-162",
+      "start": 29956,
+      "end": 30043
+    },
+    {
+      "id": "000010-163",
+      "start": 30060,
+      "end": 30150
+    },
+    {
+      "id": "000010-164",
+      "start": 30167,
+      "end": 30252
+    },
+    {
+      "id": "000010-165",
+      "start": 30269,
+      "end": 30370
+    },
+    {
+      "id": "000010-166",
+      "start": 30387,
+      "end": 30500
+    },
+    {
+      "id": "000010-167",
+      "start": 30517,
+      "end": 30624
+    },
+    {
+      "id": "000010-168",
+      "start": 30641,
+      "end": 30737
+    },
+    {
+      "id": "000010-169",
+      "start": 30754,
+      "end": 30871
+    },
+    {
+      "id": "000010-170",
+      "start": 30888,
+      "end": 31257
+    },
+    {
+      "id": "000010-171",
+      "start": 31274,
+      "end": 31371
+    },
+    {
+      "id": "000010-172",
+      "start": 31388,
+      "end": 31537
+    },
+    {
+      "id": "000010-173",
+      "start": 31554,
+      "end": 31650
+    },
+    {
+      "id": "000010-174",
+      "start": 31667,
+      "end": 32035
+    },
+    {
+      "id": "000010-175",
+      "start": 32052,
+      "end": 32426
+    },
+    {
+      "id": "000010-176",
+      "start": 32443,
+      "end": 32526
+    },
+    {
+      "id": "000010-177",
+      "start": 32543,
+      "end": 32630
+    },
+    {
+      "id": "000010-178",
+      "start": 32647,
+      "end": 32774
+    },
+    {
+      "id": "000010-179",
+      "start": 32791,
+      "end": 32904
+    },
+    {
+      "id": "000010-180",
+      "start": 32921,
+      "end": 33058
+    },
+    {
+      "id": "000010-181",
+      "start": 33075,
+      "end": 33426
+    },
+    {
+      "id": "000010-182",
+      "start": 33443,
+      "end": 33513
+    },
+    {
+      "id": "000010-183",
+      "start": 33530,
+      "end": 33654
+    },
+    {
+      "id": "000010-184",
+      "start": 33671,
+      "end": 33990
+    },
+    {
+      "id": "000010-185",
+      "start": 34007,
+      "end": 34244
+    },
+    {
+      "id": "000010-186",
+      "start": 34261,
+      "end": 34341
+    },
+    {
+      "id": "000010-187",
+      "start": 34358,
+      "end": 34447
+    },
+    {
+      "id": "000010-188",
+      "start": 34464,
+      "end": 34798
+    },
+    {
+      "id": "000010-189",
+      "start": 34815,
+      "end": 34880
+    },
+    {
+      "id": "000010-190",
+      "start": 34897,
+      "end": 34998
+    },
+    {
+      "id": "000010-191",
+      "start": 35015,
+      "end": 35097
+    },
+    {
+      "id": "000010-192",
+      "start": 35114,
+      "end": 35196
+    },
+    {
+      "id": "000010-193",
+      "start": 35213,
+      "end": 35449
+    },
+    {
+      "id": "000010-194",
+      "start": 35466,
+      "end": 35795
+    },
+    {
+      "id": "000010-195",
+      "start": 35812,
+      "end": 35897
+    },
+    {
+      "id": "000010-196",
+      "start": 35914,
+      "end": 35997
+    },
+    {
+      "id": "000010-197",
+      "start": 36014,
+      "end": 36331
+    },
+    {
+      "id": "000010-198",
+      "start": 36348,
+      "end": 36423
+    },
+    {
+      "id": "000010-199",
+      "start": 36440,
+      "end": 36547
+    },
+    {
+      "id": "000010-200",
+      "start": 36564,
+      "end": 36895
+    }
+  ],
+  "labels": [
+    {
+      "id": "000010-001",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The novel is memorable, a quality the reviewer explains by saying it remains in the memory."
+      ]
+    },
+    {
+      "id": "000010-002",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-003",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-004",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "the assessor wrote that the pupils were engaged because the lesson held their engagement."
+      ]
+    },
+    {
+      "id": "000010-005",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "That explanation says the scheduler achieves efficiency by operating with a high degree of efficiency."
+      ]
+    },
+    {
+      "id": "000010-006",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The collection is coherent in consequence of its internal coherence."
+      ]
+    },
+    {
+      "id": "000010-007",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-008",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-009",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": ["attributed the risk to its risky nature."]
+    },
+    {
+      "id": "000010-010",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The report claims to explain why the route is indirect: it does not follow a direct course."
+      ]
+    },
+    {
+      "id": "000010-011",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-012",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The guide explains the path's inaccessibility in terms of how inaccessible it is to walkers."
+      ]
+    },
+    {
+      "id": "000010-013",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Asked why the selection process was fair, its chair said that fairness came from treating applications fairly."
+      ]
+    },
+    {
+      "id": "000010-014",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The forecasting model can be relied upon because its forecasts are reliable. Reliability is what gives us grounds to rely on the forecasts, according to the internal assessment."
+      ]
+    },
+    {
+      "id": "000010-015",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-016",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The network's slowness stems from the slow speed at which it operates."
+      ]
+    },
+    {
+      "id": "000010-017",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-018",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The account was inaccurate due to its failure to provide an accurate account."
+      ]
+    },
+    {
+      "id": "000010-019",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The panel explained that this was because she was someone who could be trusted."
+      ]
+    },
+    {
+      "id": "000010-020",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The certificate's portability is attributed to its portable character: it can be used portably, the technical note explains. That is the note's account of what makes portability possible."
+      ]
+    },
+    {
+      "id": "000010-021",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-022",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The town attracts visitors because it is attractive to people who visit."
+      ]
+    },
+    {
+      "id": "000010-023",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-024",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-025",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The editor explained the title's appeal as an effect of how appealing readers found it."
+      ]
+    },
+    {
+      "id": "000010-026",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-027",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-028",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-029",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-030",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-031",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-032",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "In the store's explanation, its unconditionality is the reason conditions do not apply."
+      ]
+    },
+    {
+      "id": "000010-033",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-034",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "It does so by attributing reversibility to the possibility of reversing the adjustment."
+      ]
+    },
+    {
+      "id": "000010-035",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "To explain this, we said that its transparency depended on having a transparent way of proceeding."
+      ]
+    },
+    {
+      "id": "000010-036",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Why was the appeal persuasive? The editor's explanation was that it possessed the power to persuade."
+      ]
+    },
+    {
+      "id": "000010-037",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Its stability had been produced by its continued lack of instability."
+      ]
+    },
+    {
+      "id": "000010-038",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Guests could expect consistency, she wrote, since the service was delivered in a consistent manner."
+      ]
+    },
+    {
+      "id": "000010-039",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-040",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-041",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The narrator felt lonely. The cause of his loneliness was that he felt alone"
+      ]
+    },
+    {
+      "id": "000010-042",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-043",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-044",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The queue's unpredictability derives from the impossibility of predicting it."
+      ]
+    },
+    {
+      "id": "000010-045",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-046",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-047",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-048",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "I kept postponing the conversation because I was putting it off. That is the reason I gave when asked what was stopping me."
+      ]
+    },
+    {
+      "id": "000010-049",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "She was curious because she wanted to know; her desire to know was the reason for her curiosity."
+      ]
+    },
+    {
+      "id": "000010-050",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-051",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "They blamed the product's unpopularity on its lack of popularity with customers."
+      ]
+    },
+    {
+      "id": "000010-052",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-053",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-054",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "That choice was wise because it reflected wisdom in the choice being made."
+      ]
+    },
+    {
+      "id": "000010-055",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-056",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-057",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The supporting note explained this by saying that it could adapt when adaptation was required."
+      ]
+    },
+    {
+      "id": "000010-058",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-059",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The scheme is viable by virtue of being a workable scheme; its workability is why it is viable."
+      ]
+    },
+    {
+      "id": "000010-060",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The explanation for the method's economy is that it is economical in its use of resources."
+      ]
+    },
+    {
+      "id": "000010-061",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The venture's sustainability results from its capacity to continue sustainably."
+      ]
+    },
+    {
+      "id": "000010-062",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The source of the engine's noisiness, according to the mechanic, was the considerable amount of noise it produced."
+      ]
+    },
+    {
+      "id": "000010-063",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The system is resilient under demanding conditions because it retains its resilience even when conditions are demanding. This ability to remain resilient is the reason for its resilience, according to the evaluation."
+      ]
+    },
+    {
+      "id": "000010-064",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The arrangement promotes belonging because it makes people feel that they belong."
+      ]
+    },
+    {
+      "id": "000010-065",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-066",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-067",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "She said it satisfied the audience by giving them a satisfying conclusion."
+      ]
+    },
+    {
+      "id": "000010-068",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "An adequate supply is maintained by ensuring that the supply remains adequate. This explains our success in keeping enough stock."
+      ]
+    },
+    {
+      "id": "000010-069",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The treasurer explained the shortfall as a consequence of there being less money than required."
+      ]
+    },
+    {
+      "id": "000010-070",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-071",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-072",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "We remain competitive by maintaining our competitiveness. That accounts for our position in the market."
+      ]
+    },
+    {
+      "id": "000010-073",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Ruth's generosity can be explained by her disposition to be generous."
+      ]
+    },
+    {
+      "id": "000010-074",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The cause of the mistake was an error in what we did. That is the investigation's entire causal account."
+      ]
+    },
+    {
+      "id": "000010-075",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-076",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The host accounted for this by saying everyone had an enjoyable time."
+      ]
+    },
+    {
+      "id": "000010-077",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-078",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-079",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-080",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The report traces the cause of the programme's success to its ability to succeed."
+      ]
+    },
+    {
+      "id": "000010-081",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-082",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-083",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-084",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-085",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The account justifies the institution's legitimacy by invoking its legitimate standing."
+      ]
+    },
+    {
+      "id": "000010-086",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The witness was credible, the article explained, owing to the believable nature of her testimony."
+      ]
+    },
+    {
+      "id": "000010-087",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "He gave the lack of harmony as the reason the ensemble sounded discordant."
+      ]
+    },
+    {
+      "id": "000010-088",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "When asked why, the negotiator said its longevity came from being long-lasting."
+      ]
+    },
+    {
+      "id": "000010-089",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-090",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-091",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "the detective said that the explanation was its plausibility as an account of the evening."
+      ]
+    },
+    {
+      "id": "000010-092",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-093",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-094",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-095",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The priority system is appropriate because it sets priorities appropriately."
+      ]
+    },
+    {
+      "id": "000010-096",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The consultant replied that its objectivity came from being an objective assessment rather than a subjective one."
+      ]
+    },
+    {
+      "id": "000010-097",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-098",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The packing material can be compressed because it possesses compressibility. Its compressible nature explains this capacity, the supplier told us when asked what made it possible."
+      ]
+    },
+    {
+      "id": "000010-099",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-100",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "What accounts for the interface's accessibility is that users can access it with ease."
+      ]
+    },
+    {
+      "id": "000010-101",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-102",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "My enthusiasm was sustained by the fact that I continued to feel enthusiastic."
+      ]
+    },
+    {
+      "id": "000010-103",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Why had the debate become divisive? Its divisiveness came from its tendency to divide opinion."
+      ]
+    },
+    {
+      "id": "000010-104",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-105",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-106",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Why did the plan fail? Failure resulted from the plan's inability to succeed."
+      ]
+    },
+    {
+      "id": "000010-107",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The secret of our responsiveness is responding in a responsive manner."
+      ]
+    },
+    {
+      "id": "000010-108",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The policy inspires confidence through its confidence-inspiring nature."
+      ]
+    },
+    {
+      "id": "000010-109",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-110",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-111",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "This version is simpler for the reason that it possesses less complexity."
+      ]
+    },
+    {
+      "id": "000010-112",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": ["My reluctance came down to being unwilling to go."]
+    },
+    {
+      "id": "000010-113",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "He said his independence had come from deciding independently, rather than from any particular arrangement."
+      ]
+    },
+    {
+      "id": "000010-114",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-115",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-116",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The response explained that it was inclusive on account of its inclusiveness toward the community."
+      ]
+    },
+    {
+      "id": "000010-117",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-118",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-119",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The source of that uncertainty is the absence of certainty in what we forecast."
+      ]
+    },
+    {
+      "id": "000010-120",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-121",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-122",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-123",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Her argument was logical on the grounds that it followed a logical line of argument."
+      ]
+    },
+    {
+      "id": "000010-124",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "We were told the training was effective on account of the effectiveness of the training provided."
+      ]
+    },
+    {
+      "id": "000010-125",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "It is this app's intuitive character that explains why using it feels intuitive."
+      ]
+    },
+    {
+      "id": "000010-126",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "What keeps the brand distinctive is its distinctiveness; that is how it stands apart."
+      ]
+    },
+    {
+      "id": "000010-127",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-128",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-129",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-130",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-131",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-132",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": ["Her composure came from staying composed."]
+    },
+    {
+      "id": "000010-133",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-134",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The dashboard confuses people through the confusing nature of the information it presents."
+      ]
+    },
+    {
+      "id": "000010-135",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-136",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The basis of her confidence in the decision was how confident she felt about having made it."
+      ]
+    },
+    {
+      "id": "000010-137",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-138",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "said the account deserved trust because it was a trustworthy version of events"
+      ]
+    },
+    {
+      "id": "000010-139",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": ["The story moves slowly on account of its leisurely pace."]
+    },
+    {
+      "id": "000010-140",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "What made his reaction predictable? It was a reaction that could be predicted, which explains its predictability."
+      ]
+    },
+    {
+      "id": "000010-141",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-142",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The review attributes the scene's emotional force to its power to affect the emotions."
+      ]
+    },
+    {
+      "id": "000010-143",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-144",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Here is why the instructions are clear: they communicate with clarity."
+      ]
+    },
+    {
+      "id": "000010-145",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-146",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The programme succeeds at creating opportunity because it generates opportunities successfully."
+      ]
+    },
+    {
+      "id": "000010-147",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-148",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-149",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "I was prepared for the move because I had reached a state of preparedness. Having become ready was what made me prepared, I wrote to my aunt."
+      ]
+    },
+    {
+      "id": "000010-150",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The committee's decision was unanimous because every member was of the same opinion. That unanimity, in turn, came from their unanimous agreement."
+      ]
+    },
+    {
+      "id": "000010-151",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "\"It comes from its originality, from not being unoriginal.\""
+      ]
+    },
+    {
+      "id": "000010-152",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-153",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-154",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "she explained that he had courage because he was not a coward"
+      ]
+    },
+    {
+      "id": "000010-155",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The protocol's flexibility is made possible by its flexible design."
+      ]
+    },
+    {
+      "id": "000010-156",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-157",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The silence in the carriage frightened me because it had a frightening quality. That fear-inducing character was the reason I found it frightening."
+      ]
+    },
+    {
+      "id": "000010-158",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The village's prosperity was a consequence of its flourishing condition."
+      ]
+    },
+    {
+      "id": "000010-159",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The critic accounts for the painting's beauty by pointing to the beautiful quality of its appearance."
+      ]
+    },
+    {
+      "id": "000010-160",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The reason the proposal is practical lies in its practicality as a proposed course of action."
+      ]
+    },
+    {
+      "id": "000010-161",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-162",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "They asked what caused the disagreement. The answer was that the parties did not agree."
+      ]
+    },
+    {
+      "id": "000010-163",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The advantage of the joint office comes from the benefits that sharing an office provides."
+      ]
+    },
+    {
+      "id": "000010-164",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-165",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-166",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-167",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-168",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-169",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-170",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-171",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-172",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-173",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-174",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-175",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The sentence intended to justify that description says its relevance lies in being relevant to the people who live here."
+      ]
+    },
+    {
+      "id": "000010-176",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-177",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "His explanation for being confused was that the situation had left him without clarity."
+      ]
+    },
+    {
+      "id": "000010-178",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-179",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The applicant was unsuitable. The explanation given for that judgment was a lack of suitability for the position."
+      ]
+    },
+    {
+      "id": "000010-180",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-181",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-182",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The cause of the group's cohesion was that it formed a cohesive group."
+      ]
+    },
+    {
+      "id": "000010-183",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "He answered that it was decisive because it settled the matter decisively."
+      ]
+    },
+    {
+      "id": "000010-184",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "It was important, the guide explained, on account of its historical importance."
+      ]
+    },
+    {
+      "id": "000010-185",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-186",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "Their resourcefulness was due to their ability to find resourceful ways forward."
+      ]
+    },
+    {
+      "id": "000010-187",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The coach attributed the team's motivation to the presence of a strong desire to do well."
+      ]
+    },
+    {
+      "id": "000010-188",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-189",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The board's agility is rooted in its ability to act with agility."
+      ]
+    },
+    {
+      "id": "000010-190",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-191",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The new format works well. The reason for that effectiveness is how well it works."
+      ]
+    },
+    {
+      "id": "000010-192",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The energy of the performance was generated by the energetic way it was performed."
+      ]
+    },
+    {
+      "id": "000010-193",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-194",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "the contractor was asked what made the temporary walkway safe. His answer was that its safety arose from being free of unsafe conditions."
+      ]
+    },
+    {
+      "id": "000010-195",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "The diary explains my impatience with the journey by saying I had no patience for it."
+      ]
+    },
+    {
+      "id": "000010-196",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-197",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-198",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "He attributed his decisiveness to his capacity for making decisive choices."
+      ]
+    },
+    {
+      "id": "000010-199",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": false
+    },
+    {
+      "id": "000010-200",
+      "check": "semantic-thinness/circular-explanation",
+      "expected": true,
+      "snippets": [
+        "According to her, its authenticity resulted from the genuine quality of its authentic expression."
+      ]
+    }
+  ]
+}

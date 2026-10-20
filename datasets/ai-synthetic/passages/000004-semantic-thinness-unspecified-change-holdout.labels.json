@@ -1,0 +1,2263 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "source": {
+    "name": "Protected synthetic unspecified-change holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md",
+    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "model": "GPT-5 (Codex); blind review: claude-opus-5-5",
+    "notes": "200 independently drafted passages before development comparison. Exactly one assessed check per passage; other checks are unassessed. Author judgments adjudicated against the accepted taxonomy; final hit spans selected by blind Opus review."
+  },
+  "samples": [
+    {
+      "id": "000004-001",
+      "start": 56,
+      "end": 389
+    },
+    {
+      "id": "000004-002",
+      "start": 406,
+      "end": 546
+    },
+    {
+      "id": "000004-003",
+      "start": 563,
+      "end": 707
+    },
+    {
+      "id": "000004-004",
+      "start": 724,
+      "end": 850
+    },
+    {
+      "id": "000004-005",
+      "start": 867,
+      "end": 1212
+    },
+    {
+      "id": "000004-006",
+      "start": 1229,
+      "end": 1367
+    },
+    {
+      "id": "000004-007",
+      "start": 1384,
+      "end": 1533
+    },
+    {
+      "id": "000004-008",
+      "start": 1550,
+      "end": 1687
+    },
+    {
+      "id": "000004-009",
+      "start": 1704,
+      "end": 1872
+    },
+    {
+      "id": "000004-010",
+      "start": 1889,
+      "end": 2218
+    },
+    {
+      "id": "000004-011",
+      "start": 2235,
+      "end": 2385
+    },
+    {
+      "id": "000004-012",
+      "start": 2402,
+      "end": 2532
+    },
+    {
+      "id": "000004-013",
+      "start": 2549,
+      "end": 2701
+    },
+    {
+      "id": "000004-014",
+      "start": 2718,
+      "end": 3055
+    },
+    {
+      "id": "000004-015",
+      "start": 3072,
+      "end": 3212
+    },
+    {
+      "id": "000004-016",
+      "start": 3229,
+      "end": 3384
+    },
+    {
+      "id": "000004-017",
+      "start": 3401,
+      "end": 3543
+    },
+    {
+      "id": "000004-018",
+      "start": 3560,
+      "end": 3726
+    },
+    {
+      "id": "000004-019",
+      "start": 3743,
+      "end": 3916
+    },
+    {
+      "id": "000004-020",
+      "start": 3933,
+      "end": 4092
+    },
+    {
+      "id": "000004-021",
+      "start": 4109,
+      "end": 4541
+    },
+    {
+      "id": "000004-022",
+      "start": 4558,
+      "end": 4726
+    },
+    {
+      "id": "000004-023",
+      "start": 4743,
+      "end": 5062
+    },
+    {
+      "id": "000004-024",
+      "start": 5079,
+      "end": 5221
+    },
+    {
+      "id": "000004-025",
+      "start": 5238,
+      "end": 5598
+    },
+    {
+      "id": "000004-026",
+      "start": 5615,
+      "end": 5985
+    },
+    {
+      "id": "000004-027",
+      "start": 6002,
+      "end": 6185
+    },
+    {
+      "id": "000004-028",
+      "start": 6202,
+      "end": 6314
+    },
+    {
+      "id": "000004-029",
+      "start": 6331,
+      "end": 6647
+    },
+    {
+      "id": "000004-030",
+      "start": 6664,
+      "end": 6795
+    },
+    {
+      "id": "000004-031",
+      "start": 6812,
+      "end": 6955
+    },
+    {
+      "id": "000004-032",
+      "start": 6972,
+      "end": 7132
+    },
+    {
+      "id": "000004-033",
+      "start": 7149,
+      "end": 7460
+    },
+    {
+      "id": "000004-034",
+      "start": 7477,
+      "end": 7618
+    },
+    {
+      "id": "000004-035",
+      "start": 7635,
+      "end": 7788
+    },
+    {
+      "id": "000004-036",
+      "start": 7805,
+      "end": 7970
+    },
+    {
+      "id": "000004-037",
+      "start": 7987,
+      "end": 8141
+    },
+    {
+      "id": "000004-038",
+      "start": 8158,
+      "end": 8504
+    },
+    {
+      "id": "000004-039",
+      "start": 8521,
+      "end": 8667
+    },
+    {
+      "id": "000004-040",
+      "start": 8684,
+      "end": 9029
+    },
+    {
+      "id": "000004-041",
+      "start": 9046,
+      "end": 9187
+    },
+    {
+      "id": "000004-042",
+      "start": 9204,
+      "end": 9378
+    },
+    {
+      "id": "000004-043",
+      "start": 9395,
+      "end": 9526
+    },
+    {
+      "id": "000004-044",
+      "start": 9543,
+      "end": 9710
+    },
+    {
+      "id": "000004-045",
+      "start": 9727,
+      "end": 9852
+    },
+    {
+      "id": "000004-046",
+      "start": 9869,
+      "end": 10017
+    },
+    {
+      "id": "000004-047",
+      "start": 10034,
+      "end": 10187
+    },
+    {
+      "id": "000004-048",
+      "start": 10204,
+      "end": 10521
+    },
+    {
+      "id": "000004-049",
+      "start": 10538,
+      "end": 10704
+    },
+    {
+      "id": "000004-050",
+      "start": 10721,
+      "end": 10889
+    },
+    {
+      "id": "000004-051",
+      "start": 10906,
+      "end": 11282
+    },
+    {
+      "id": "000004-052",
+      "start": 11299,
+      "end": 11446
+    },
+    {
+      "id": "000004-053",
+      "start": 11463,
+      "end": 11616
+    },
+    {
+      "id": "000004-054",
+      "start": 11633,
+      "end": 11763
+    },
+    {
+      "id": "000004-055",
+      "start": 11780,
+      "end": 11938
+    },
+    {
+      "id": "000004-056",
+      "start": 11955,
+      "end": 12093
+    },
+    {
+      "id": "000004-057",
+      "start": 12110,
+      "end": 12290
+    },
+    {
+      "id": "000004-058",
+      "start": 12307,
+      "end": 12448
+    },
+    {
+      "id": "000004-059",
+      "start": 12465,
+      "end": 12649
+    },
+    {
+      "id": "000004-060",
+      "start": 12666,
+      "end": 12823
+    },
+    {
+      "id": "000004-061",
+      "start": 12840,
+      "end": 13160
+    },
+    {
+      "id": "000004-062",
+      "start": 13177,
+      "end": 13312
+    },
+    {
+      "id": "000004-063",
+      "start": 13329,
+      "end": 13648
+    },
+    {
+      "id": "000004-064",
+      "start": 13665,
+      "end": 14028
+    },
+    {
+      "id": "000004-065",
+      "start": 14045,
+      "end": 14168
+    },
+    {
+      "id": "000004-066",
+      "start": 14185,
+      "end": 14347
+    },
+    {
+      "id": "000004-067",
+      "start": 14364,
+      "end": 14750
+    },
+    {
+      "id": "000004-068",
+      "start": 14767,
+      "end": 14917
+    },
+    {
+      "id": "000004-069",
+      "start": 14934,
+      "end": 15264
+    },
+    {
+      "id": "000004-070",
+      "start": 15281,
+      "end": 15408
+    },
+    {
+      "id": "000004-071",
+      "start": 15425,
+      "end": 15578
+    },
+    {
+      "id": "000004-072",
+      "start": 15595,
+      "end": 15750
+    },
+    {
+      "id": "000004-073",
+      "start": 15767,
+      "end": 15927
+    },
+    {
+      "id": "000004-074",
+      "start": 15944,
+      "end": 16303
+    },
+    {
+      "id": "000004-075",
+      "start": 16320,
+      "end": 16468
+    },
+    {
+      "id": "000004-076",
+      "start": 16485,
+      "end": 16635
+    },
+    {
+      "id": "000004-077",
+      "start": 16652,
+      "end": 17022
+    },
+    {
+      "id": "000004-078",
+      "start": 17039,
+      "end": 17199
+    },
+    {
+      "id": "000004-079",
+      "start": 17216,
+      "end": 17583
+    },
+    {
+      "id": "000004-080",
+      "start": 17600,
+      "end": 17766
+    },
+    {
+      "id": "000004-081",
+      "start": 17783,
+      "end": 17934
+    },
+    {
+      "id": "000004-082",
+      "start": 17951,
+      "end": 18080
+    },
+    {
+      "id": "000004-083",
+      "start": 18097,
+      "end": 18242
+    },
+    {
+      "id": "000004-084",
+      "start": 18259,
+      "end": 18377
+    },
+    {
+      "id": "000004-085",
+      "start": 18394,
+      "end": 18744
+    },
+    {
+      "id": "000004-086",
+      "start": 18761,
+      "end": 19125
+    },
+    {
+      "id": "000004-087",
+      "start": 19142,
+      "end": 19497
+    },
+    {
+      "id": "000004-088",
+      "start": 19514,
+      "end": 19638
+    },
+    {
+      "id": "000004-089",
+      "start": 19655,
+      "end": 19794
+    },
+    {
+      "id": "000004-090",
+      "start": 19811,
+      "end": 19963
+    },
+    {
+      "id": "000004-091",
+      "start": 19980,
+      "end": 20131
+    },
+    {
+      "id": "000004-092",
+      "start": 20148,
+      "end": 20317
+    },
+    {
+      "id": "000004-093",
+      "start": 20334,
+      "end": 20452
+    },
+    {
+      "id": "000004-094",
+      "start": 20469,
+      "end": 20624
+    },
+    {
+      "id": "000004-095",
+      "start": 20641,
+      "end": 20810
+    },
+    {
+      "id": "000004-096",
+      "start": 20827,
+      "end": 20999
+    },
+    {
+      "id": "000004-097",
+      "start": 21016,
+      "end": 21330
+    },
+    {
+      "id": "000004-098",
+      "start": 21347,
+      "end": 21657
+    },
+    {
+      "id": "000004-099",
+      "start": 21674,
+      "end": 22022
+    },
+    {
+      "id": "000004-100",
+      "start": 22039,
+      "end": 22332
+    },
+    {
+      "id": "000004-101",
+      "start": 22349,
+      "end": 22737
+    },
+    {
+      "id": "000004-102",
+      "start": 22754,
+      "end": 23110
+    },
+    {
+      "id": "000004-103",
+      "start": 23127,
+      "end": 23436
+    },
+    {
+      "id": "000004-104",
+      "start": 23453,
+      "end": 23628
+    },
+    {
+      "id": "000004-105",
+      "start": 23645,
+      "end": 23994
+    },
+    {
+      "id": "000004-106",
+      "start": 24011,
+      "end": 24333
+    },
+    {
+      "id": "000004-107",
+      "start": 24350,
+      "end": 24489
+    },
+    {
+      "id": "000004-108",
+      "start": 24506,
+      "end": 24857
+    },
+    {
+      "id": "000004-109",
+      "start": 24874,
+      "end": 25025
+    },
+    {
+      "id": "000004-110",
+      "start": 25042,
+      "end": 25218
+    },
+    {
+      "id": "000004-111",
+      "start": 25235,
+      "end": 25408
+    },
+    {
+      "id": "000004-112",
+      "start": 25425,
+      "end": 25563
+    },
+    {
+      "id": "000004-113",
+      "start": 25580,
+      "end": 25916
+    },
+    {
+      "id": "000004-114",
+      "start": 25933,
+      "end": 26029
+    },
+    {
+      "id": "000004-115",
+      "start": 26046,
+      "end": 26185
+    },
+    {
+      "id": "000004-116",
+      "start": 26202,
+      "end": 26334
+    },
+    {
+      "id": "000004-117",
+      "start": 26351,
+      "end": 26488
+    },
+    {
+      "id": "000004-118",
+      "start": 26505,
+      "end": 26648
+    },
+    {
+      "id": "000004-119",
+      "start": 26665,
+      "end": 26797
+    },
+    {
+      "id": "000004-120",
+      "start": 26814,
+      "end": 26988
+    },
+    {
+      "id": "000004-121",
+      "start": 27005,
+      "end": 27140
+    },
+    {
+      "id": "000004-122",
+      "start": 27157,
+      "end": 27307
+    },
+    {
+      "id": "000004-123",
+      "start": 27324,
+      "end": 27465
+    },
+    {
+      "id": "000004-124",
+      "start": 27482,
+      "end": 27619
+    },
+    {
+      "id": "000004-125",
+      "start": 27636,
+      "end": 27782
+    },
+    {
+      "id": "000004-126",
+      "start": 27799,
+      "end": 27980
+    },
+    {
+      "id": "000004-127",
+      "start": 27997,
+      "end": 28179
+    },
+    {
+      "id": "000004-128",
+      "start": 28196,
+      "end": 28337
+    },
+    {
+      "id": "000004-129",
+      "start": 28354,
+      "end": 28507
+    },
+    {
+      "id": "000004-130",
+      "start": 28524,
+      "end": 28664
+    },
+    {
+      "id": "000004-131",
+      "start": 28681,
+      "end": 28835
+    },
+    {
+      "id": "000004-132",
+      "start": 28852,
+      "end": 28989
+    },
+    {
+      "id": "000004-133",
+      "start": 29006,
+      "end": 29120
+    },
+    {
+      "id": "000004-134",
+      "start": 29137,
+      "end": 29278
+    },
+    {
+      "id": "000004-135",
+      "start": 29295,
+      "end": 29628
+    },
+    {
+      "id": "000004-136",
+      "start": 29645,
+      "end": 29827
+    },
+    {
+      "id": "000004-137",
+      "start": 29844,
+      "end": 30191
+    },
+    {
+      "id": "000004-138",
+      "start": 30208,
+      "end": 30357
+    },
+    {
+      "id": "000004-139",
+      "start": 30374,
+      "end": 30495
+    },
+    {
+      "id": "000004-140",
+      "start": 30512,
+      "end": 30659
+    },
+    {
+      "id": "000004-141",
+      "start": 30676,
+      "end": 30825
+    },
+    {
+      "id": "000004-142",
+      "start": 30842,
+      "end": 31025
+    },
+    {
+      "id": "000004-143",
+      "start": 31042,
+      "end": 31393
+    },
+    {
+      "id": "000004-144",
+      "start": 31410,
+      "end": 31545
+    },
+    {
+      "id": "000004-145",
+      "start": 31562,
+      "end": 31718
+    },
+    {
+      "id": "000004-146",
+      "start": 31735,
+      "end": 31862
+    },
+    {
+      "id": "000004-147",
+      "start": 31879,
+      "end": 32270
+    },
+    {
+      "id": "000004-148",
+      "start": 32287,
+      "end": 32450
+    },
+    {
+      "id": "000004-149",
+      "start": 32467,
+      "end": 32612
+    },
+    {
+      "id": "000004-150",
+      "start": 32629,
+      "end": 32790
+    },
+    {
+      "id": "000004-151",
+      "start": 32807,
+      "end": 32933
+    },
+    {
+      "id": "000004-152",
+      "start": 32950,
+      "end": 33271
+    },
+    {
+      "id": "000004-153",
+      "start": 33288,
+      "end": 33434
+    },
+    {
+      "id": "000004-154",
+      "start": 33451,
+      "end": 33595
+    },
+    {
+      "id": "000004-155",
+      "start": 33612,
+      "end": 33756
+    },
+    {
+      "id": "000004-156",
+      "start": 33773,
+      "end": 33948
+    },
+    {
+      "id": "000004-157",
+      "start": 33965,
+      "end": 34093
+    },
+    {
+      "id": "000004-158",
+      "start": 34110,
+      "end": 34248
+    },
+    {
+      "id": "000004-159",
+      "start": 34265,
+      "end": 34459
+    },
+    {
+      "id": "000004-160",
+      "start": 34476,
+      "end": 34619
+    },
+    {
+      "id": "000004-161",
+      "start": 34636,
+      "end": 34763
+    },
+    {
+      "id": "000004-162",
+      "start": 34780,
+      "end": 35116
+    },
+    {
+      "id": "000004-163",
+      "start": 35133,
+      "end": 35523
+    },
+    {
+      "id": "000004-164",
+      "start": 35540,
+      "end": 35683
+    },
+    {
+      "id": "000004-165",
+      "start": 35700,
+      "end": 36025
+    },
+    {
+      "id": "000004-166",
+      "start": 36042,
+      "end": 36195
+    },
+    {
+      "id": "000004-167",
+      "start": 36212,
+      "end": 36365
+    },
+    {
+      "id": "000004-168",
+      "start": 36382,
+      "end": 36534
+    },
+    {
+      "id": "000004-169",
+      "start": 36551,
+      "end": 36707
+    },
+    {
+      "id": "000004-170",
+      "start": 36724,
+      "end": 36858
+    },
+    {
+      "id": "000004-171",
+      "start": 36875,
+      "end": 37058
+    },
+    {
+      "id": "000004-172",
+      "start": 37075,
+      "end": 37426
+    },
+    {
+      "id": "000004-173",
+      "start": 37443,
+      "end": 37576
+    },
+    {
+      "id": "000004-174",
+      "start": 37593,
+      "end": 37748
+    },
+    {
+      "id": "000004-175",
+      "start": 37765,
+      "end": 38092
+    },
+    {
+      "id": "000004-176",
+      "start": 38109,
+      "end": 38295
+    },
+    {
+      "id": "000004-177",
+      "start": 38312,
+      "end": 38470
+    },
+    {
+      "id": "000004-178",
+      "start": 38487,
+      "end": 38660
+    },
+    {
+      "id": "000004-179",
+      "start": 38677,
+      "end": 38809
+    },
+    {
+      "id": "000004-180",
+      "start": 38826,
+      "end": 38957
+    },
+    {
+      "id": "000004-181",
+      "start": 38974,
+      "end": 39124
+    },
+    {
+      "id": "000004-182",
+      "start": 39141,
+      "end": 39426
+    },
+    {
+      "id": "000004-183",
+      "start": 39443,
+      "end": 39606
+    },
+    {
+      "id": "000004-184",
+      "start": 39623,
+      "end": 39773
+    },
+    {
+      "id": "000004-185",
+      "start": 39790,
+      "end": 39940
+    },
+    {
+      "id": "000004-186",
+      "start": 39957,
+      "end": 40110
+    },
+    {
+      "id": "000004-187",
+      "start": 40127,
+      "end": 40285
+    },
+    {
+      "id": "000004-188",
+      "start": 40302,
+      "end": 40432
+    },
+    {
+      "id": "000004-189",
+      "start": 40449,
+      "end": 40580
+    },
+    {
+      "id": "000004-190",
+      "start": 40597,
+      "end": 40760
+    },
+    {
+      "id": "000004-191",
+      "start": 40777,
+      "end": 40935
+    },
+    {
+      "id": "000004-192",
+      "start": 40952,
+      "end": 41091
+    },
+    {
+      "id": "000004-193",
+      "start": 41108,
+      "end": 41276
+    },
+    {
+      "id": "000004-194",
+      "start": 41293,
+      "end": 41426
+    },
+    {
+      "id": "000004-195",
+      "start": 41443,
+      "end": 41790
+    },
+    {
+      "id": "000004-196",
+      "start": 41807,
+      "end": 41943
+    },
+    {
+      "id": "000004-197",
+      "start": 41960,
+      "end": 42102
+    },
+    {
+      "id": "000004-198",
+      "start": 42119,
+      "end": 42285
+    },
+    {
+      "id": "000004-199",
+      "start": 42302,
+      "end": 42445
+    },
+    {
+      "id": "000004-200",
+      "start": 42462,
+      "end": 42620
+    }
+  ],
+  "labels": [
+    {
+      "id": "000004-001",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-002",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The afternoon's events left the strike in a new configuration.",
+        "a statement describing a major transition"
+      ]
+    },
+    {
+      "id": "000004-003",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "A different period in the journal's history began with that issue."
+      ]
+    },
+    {
+      "id": "000004-004",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "A before and an after: that is how I divide my working life around the transfer."
+      ]
+    },
+    {
+      "id": "000004-005",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-006",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Much had been reconfigured, the foreword assured us, in the administration of the prize."
+      ]
+    },
+    {
+      "id": "000004-007",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Less awkward, certainly, is how I would describe the process now."
+      ]
+    },
+    {
+      "id": "000004-008",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["That conversation redirected my life."]
+    },
+    {
+      "id": "000004-009",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-010",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The rehearsals became easier once the visiting conductor arrived"
+      ]
+    },
+    {
+      "id": "000004-011",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["Returning to the choir remade my experience of retirement."]
+    },
+    {
+      "id": "000004-012",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-013",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-014",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-015",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-016",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-017",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "As for the repair effort, we are in a different place altogether."
+      ]
+    },
+    {
+      "id": "000004-018",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-019",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-020",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-021",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-022",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-023",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-024",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The return of the fishing fleet rejuvenated the harbour."]
+    },
+    {
+      "id": "000004-025",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The apprenticeship entered a different phase after the winter assessment",
+        "It presented this new phase as the principal development of the term"
+      ]
+    },
+    {
+      "id": "000004-026",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The data-sharing arrangement reached a new level following the exchange in Oslo.",
+        "noting the new level achieved by the arrangement"
+      ]
+    },
+    {
+      "id": "000004-027",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-028",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Where once the application stalled, it is now moving along."
+      ]
+    },
+    {
+      "id": "000004-029",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-030",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The appointment renewed the department."]
+    },
+    {
+      "id": "000004-031",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-032",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The talks were transformed by the mediator's intervention on the third morning."
+      ]
+    },
+    {
+      "id": "000004-033",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-034",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Is the study group in better shape than it was? I think it is."
+      ]
+    },
+    {
+      "id": "000004-035",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-036",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "This is an advance on the previous arrangement, whatever else one may say about the revised pension scheme."
+      ]
+    },
+    {
+      "id": "000004-037",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-038",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The petition altered the course of the dispute over the municipal swimming pool."
+      ]
+    },
+    {
+      "id": "000004-039",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "To call the harvest operation unchanged would miss the extent of its development."
+      ]
+    },
+    {
+      "id": "000004-040",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-041",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The redesign has improved the reading experience in the new edition."
+      ]
+    },
+    {
+      "id": "000004-042",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-043",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "For the orchestra, the bequest was a dividing line.",
+        "account for the transition it brought"
+      ]
+    },
+    {
+      "id": "000004-044",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-045",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The amendment made compliance less straightforward."]
+    },
+    {
+      "id": "000004-046",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-047",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The investigation assumed a new character when the parcel arrived."
+      ]
+    },
+    {
+      "id": "000004-048",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-049",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-050",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-051",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-052",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-053",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The second translation made the poem feel different."]
+    },
+    {
+      "id": "000004-054",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The replacement engine has made sailing this route a different undertaking."
+      ]
+    },
+    {
+      "id": "000004-055",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "His attitude to the project underwent an adjustment after the presentation."
+      ]
+    },
+    {
+      "id": "000004-056",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The agreement reshaped our work."]
+    },
+    {
+      "id": "000004-057",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-058",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The lease negotiations have advanced."]
+    },
+    {
+      "id": "000004-059",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-060",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The rescue attempt entered a different phase just before midnight."
+      ]
+    },
+    {
+      "id": "000004-061",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Her approach to parenting had developed during the year she spent abroad.",
+        "She wrote about that development"
+      ]
+    },
+    {
+      "id": "000004-062",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["Not until the winter did our fortunes turn."]
+    },
+    {
+      "id": "000004-063",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The conditions for fieldwork deteriorated in the final week of the expedition"
+      ]
+    },
+    {
+      "id": "000004-064",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The evacuation plan had evolved since the rehearsal in April.",
+        "said the evolution would be discussed again after the holidays"
+      ]
+    },
+    {
+      "id": "000004-065",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The treaty ushered in a fresh era for the border towns."]
+    },
+    {
+      "id": "000004-066",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-067",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-068",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-069",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-070",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-071",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-072",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The arrangements for the festival moved on considerably between the two committee meetings."
+      ]
+    },
+    {
+      "id": "000004-073",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Partnership remade my working day beyond anything I had pictured as an apprentice."
+      ]
+    },
+    {
+      "id": "000004-074",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-075",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["A visit from the inspector set the school on a new course."]
+    },
+    {
+      "id": "000004-076",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-077",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-078",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-079",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-080",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The product's prospects brightened after the demonstration."
+      ]
+    },
+    {
+      "id": "000004-081",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The market entered a fresh cycle in late August."]
+    },
+    {
+      "id": "000004-082",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Completion of the bridge marked a reversal in the town's fortunes."
+      ]
+    },
+    {
+      "id": "000004-083",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The reporting arrangements have been upgraded since the merger."
+      ]
+    },
+    {
+      "id": "000004-084",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Getting a table here used to be one sort of experience; these days it is quite another."
+      ]
+    },
+    {
+      "id": "000004-085",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The campaign turned a corner after the radio interview"]
+    },
+    {
+      "id": "000004-086",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The examination process has been modernized for the incoming cohort"
+      ]
+    },
+    {
+      "id": "000004-087",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The ruling brought about a transformation in local practice"
+      ]
+    },
+    {
+      "id": "000004-088",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-089",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-090",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-091",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["Fresh momentum is evident in the restoration"]
+    },
+    {
+      "id": "000004-092",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The trust is undergoing a profound renewal"]
+    },
+    {
+      "id": "000004-093",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The export tool is now in a better state."]
+    },
+    {
+      "id": "000004-094",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Our gardening routine was never the same after that summer."
+      ]
+    },
+    {
+      "id": "000004-095",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-096",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-097",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Things were going downhill for the restaurant by the time the critic booked a table."
+      ]
+    },
+    {
+      "id": "000004-098",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-099",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-100",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-101",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-102",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The archive's digitization work is no longer what it was when the grant began.",
+        "describes a substantial evolution over the intervening months"
+      ]
+    },
+    {
+      "id": "000004-103",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Our finances have moved in a healthier direction since I started using the notebook.",
+        "I mentioned this development"
+      ]
+    },
+    {
+      "id": "000004-104",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-105",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The service has undergone a rethink since the customer panel met in June."
+      ]
+    },
+    {
+      "id": "000004-106",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Life in the house had entered another chapter after the lodger arrived."
+      ]
+    },
+    {
+      "id": "000004-107",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The revision constitutes a departure for the handbook.",
+        "a decisive move away from what came before"
+      ]
+    },
+    {
+      "id": "000004-108",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-109",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The workshop moved beyond its earlier condition under the new foreman."
+      ]
+    },
+    {
+      "id": "000004-110",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-111",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-112",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-113",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The resolution changed the tenor of our negotiations with the publisher."
+      ]
+    },
+    {
+      "id": "000004-114",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-115",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The divorce altered her experience of the city."]
+    },
+    {
+      "id": "000004-116",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Training the dog became less of an ordeal after the session with the specialist."
+      ]
+    },
+    {
+      "id": "000004-117",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The hearing changed the position of the residents."]
+    },
+    {
+      "id": "000004-118",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "We were finally gaining ground in our effort to map the cave."
+      ]
+    },
+    {
+      "id": "000004-119",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-120",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-121",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "With the second grant came a turnaround in the laboratory's work."
+      ]
+    },
+    {
+      "id": "000004-122",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The partnership has changed substantially since the founders last met."
+      ]
+    },
+    {
+      "id": "000004-123",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The kitchen operation has taken a step forward this month."]
+    },
+    {
+      "id": "000004-124",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Had it become harder? Decidedly, the annual review said of maintaining the canal."
+      ]
+    },
+    {
+      "id": "000004-125",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The difficult part of the project was becoming less difficult"
+      ]
+    },
+    {
+      "id": "000004-126",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-127",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-128",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The exhibition gave the museum a new identity."]
+    },
+    {
+      "id": "000004-129",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-130",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-131",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-132",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-133",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-134",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The amendments made adoption more difficult."]
+    },
+    {
+      "id": "000004-135",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The patch made the indexing process better"]
+    },
+    {
+      "id": "000004-136",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-137",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-138",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The trainee's performance showed a marked improvement following the coaching session."
+      ]
+    },
+    {
+      "id": "000004-139",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["With that email, the balance of the whole project shifted."]
+    },
+    {
+      "id": "000004-140",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The handling of complaints has evolved in the year since the review."
+      ]
+    },
+    {
+      "id": "000004-141",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The consultancy developed in a fresh direction after its founder returned from leave."
+      ]
+    },
+    {
+      "id": "000004-142",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-143",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The inquiry became harder to conduct after the minister's second appearance.",
+        "the altered difficulty would be reflected in his report"
+      ]
+    },
+    {
+      "id": "000004-144",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-145",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-146",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The coaching sessions changed how I handle public speaking."
+      ]
+    },
+    {
+      "id": "000004-147",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-148",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-149",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-150",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-151",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-152",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["the village had crossed into a new stage"]
+    },
+    {
+      "id": "000004-153",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["Better days had arrived for the newspaper"]
+    },
+    {
+      "id": "000004-154",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The race became a very different contest after the bend."]
+    },
+    {
+      "id": "000004-155",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-156",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-157",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-158",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-159",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-160",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The road project has moved into a different dimension since the minister's visit."
+      ]
+    },
+    {
+      "id": "000004-161",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-162",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "My relationship with my brother took a turn during the week we spent clearing our father's flat."
+      ]
+    },
+    {
+      "id": "000004-163",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-164",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-165",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-166",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The appeal process has become less burdensome for applicants.",
+        "A notice announcing the development"
+      ]
+    },
+    {
+      "id": "000004-167",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The team's methods have matured over successive drilling seasons."
+      ]
+    },
+    {
+      "id": "000004-168",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-169",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-170",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-171",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-172",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The readership underwent a shift during the magazine's anniversary year"
+      ]
+    },
+    {
+      "id": "000004-173",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["I am making headway with the manuscript."]
+    },
+    {
+      "id": "000004-174",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The advisory service has been revitalized."]
+    },
+    {
+      "id": "000004-175",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The machine was behaving differently when the night technician came in.",
+        "wrote that the difference had emerged during the late shift"
+      ]
+    },
+    {
+      "id": "000004-176",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "No longer could the ministry describe its circumstances as they had been before. An alteration had occurred during the conference"
+      ]
+    },
+    {
+      "id": "000004-177",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The journey became more challenging after the stop at Haversham."
+      ]
+    },
+    {
+      "id": "000004-178",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-179",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The new recipe took the bread to another level."]
+    },
+    {
+      "id": "000004-180",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-181",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The appointment brought a new dynamic to the board."]
+    },
+    {
+      "id": "000004-182",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The recovery has taken an unexpected direction since my last letter."
+      ]
+    },
+    {
+      "id": "000004-183",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "Recruitment at the hospital can be divided into the period before the court order and the period after it."
+      ]
+    },
+    {
+      "id": "000004-184",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-185",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The championship marked a change of gear for the club."]
+    },
+    {
+      "id": "000004-186",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The factory's performance recovered following the holiday shutdown."
+      ]
+    },
+    {
+      "id": "000004-187",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-188",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-189",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-190",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-191",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-192",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The way we use the library has been transformed in recent years."
+      ]
+    },
+    {
+      "id": "000004-193",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The audit became a tougher exercise during its second week."
+      ]
+    },
+    {
+      "id": "000004-194",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The voyage was easier after Port Silva."]
+    },
+    {
+      "id": "000004-195",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The qualification became more demanding when the revised handbook appeared."
+      ]
+    },
+    {
+      "id": "000004-196",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": [
+        "The funding announcement recast the situation at the observatory."
+      ]
+    },
+    {
+      "id": "000004-197",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-198",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    },
+    {
+      "id": "000004-199",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": true,
+      "snippets": ["The membership system has progressed since launch."]
+    },
+    {
+      "id": "000004-200",
+      "check": "semantic-thinness/unspecified-change",
+      "expected": false
+    }
+  ]
+}

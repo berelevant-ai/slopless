@@ -38,6 +38,7 @@
   - Require detection of all instances of the pattern, including unseen wording. Keep each assembled check prompt within 1,000 words.
 - Keep execution code in root `runners/`. Use Fixture3's approved, received, and diff outputs for regression comparisons.
   - Keep provider responses and experiment results under `runners/results/`; keep predictions separate from dataset labels.
+  - Include the collection ID, split, and review pass in temporary input and response filenames so parallel jobs preserve each other's review artifacts.
   - Reuse the same source datasets across runners. Avoid parallel copies, catalogs, and generation-history folders.
 
 ## Labeled Evaluation Sets
@@ -46,6 +47,7 @@
   - Include the family, type, and `development` or `holdout` in each slug; record the split in JSON.
   - For isolated sets, initially target 100 desired hits and 100 desired no-hits per type in each split, with varied wording and contexts.
   - These are coverage targets. Compare candidates on the same examples and report uncertainty when drawing conclusions.
+  - Preserve sound passages when correcting labels. Add examples when a correction leaves a class below 100; keep valid hard cases instead of changing them to maintain a round collection size.
   - Check identical and near-identical writing across splits before freezing them, including passage/full-text copies.
 - Maintain isolated sets that test one issue type and mixed sets that deliberately combine issues within the same passage or complete text.
   - Name mixed sets with `mixed`, the covered families or types, and the split. Use `passages/` for independent excerpts and `texts/` for complete texts, with the same paired format.

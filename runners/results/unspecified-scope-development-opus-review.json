@@ -1,0 +1,468 @@
+{
+  "check": "semantic-thinness/unspecified-scope",
+  "split": "development",
+  "pair": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development",
+  "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+  "authorModel": "GPT-5 (Codex)",
+  "review": {
+    "requestedModel": "opus",
+    "actualModels": ["claude-opus-5-5"],
+    "blind": true,
+    "toolsDisabled": true,
+    "labelsSnippetsAndBalanceHidden": true,
+    "initialCalls": 2,
+    "totalCalls": 3,
+    "reviewedJudgments": 212,
+    "initial": {
+      "passages": 200,
+      "agreements": 200,
+      "disagreements": 0,
+      "authorHitReviewerNoHit": 0,
+      "authorNoHitReviewerHit": 0,
+      "objections": 16
+    },
+    "corrections": {
+      "labelChanges": 0,
+      "textRewrites": 12,
+      "beforeReviewTextEdits": 0
+    },
+    "final": {
+      "passages": 200,
+      "agreements": 200,
+      "adjudicatedDifferences": 0,
+      "unresolved": 0
+    },
+    "adjudications": [
+      {
+        "id": "000013-022",
+        "resolution": "retain-author",
+        "boundary": "Figurative palette versus physical colors",
+        "decision": "Both readings assert a restriction without identifying allowed choices; the printer deadline supplies neither a palette nor a design constraint.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-052",
+        "resolution": "retain-author",
+        "boundary": "Scope versus change",
+        "decision": "The contraction concerns an inquiry's reach. Coverage is the single omission, so the accepted scope-over-change boundary applies.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-060",
+        "resolution": "retain-author",
+        "boundary": "Conventional description versus eligibility boundary",
+        "decision": "Selective intake announces an admission restriction; the tutor's hearing aid and microphone identify no qualifying students or eligibility condition.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-123",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": true,
+        "decision": "Removed analysis of the leaflet's missing coverage; the revised notice makes its own circumscribed eligibility claim, with ink and signature requirements kept distinct from qualifying circumstances.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-126",
+        "resolution": "retain-author",
+        "boundary": "Narrative assertion versus analysis of writing",
+        "decision": "The contractor supplies the renovation claim as his answer to an operational question. The passage neither teaches the phrase nor critiques a written draft; its claimed work boundary remains unidentified.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-134",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": true,
+        "decision": "Replaced commentary about what a client must ask with the service's own domain restriction. Office history and delivery practice still leave language pairs and document coverage unspecified.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-142",
+        "resolution": "retain-author",
+        "boundary": "Narrative assertion versus analysis of writing",
+        "decision": "The coordinator makes an operative coverage claim about deliveries; the packing location and session time do not decide whether a village qualifies. Reporting the unanswered operational question preserves the scope defect.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-148",
+        "resolution": "retain-author",
+        "boundary": "Narrative assertion versus analysis of writing",
+        "decision": "The narrator owns the claim that the assignment was narrowed. The photographer's wait and the search through messages identify no agreed photographic inclusion or exclusion; the passage depicts the assignment rather than an editing example.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-152",
+        "resolution": "retain-author",
+        "boundary": "Different jobs versus restricted coverage",
+        "decision": "The committees are called different without either being described as restricted. This is the accepted relationship boundary and remains a no-hit for scope.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-159",
+        "resolution": "retain-author",
+        "boundary": "Scope change and indirect narrative",
+        "decision": "The investigator asserts a narrowed allegation and restricted question as the live investigation's remit. Recording equipment and identity confirmation do not identify conduct under examination; scope takes precedence over change.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-166",
+        "resolution": "retain-author",
+        "boundary": "Operational geography versus physical dimensions",
+        "decision": "The captain restricts where the search operates without locating a limit; this is task coverage rather than an observation of physical narrowness. Harbor names and the radio channel do not delimit the search.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-175",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": true,
+        "decision": "Removed commentary about the supplier's documents. The account now affirms a restricted license and compliance with unspecified use boundaries; installer metadata supplies neither permitted users nor uses.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-177",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": true,
+        "decision": "Removed the sentence describing parents' uncertainty about the announcement. The revised account asserts a bounded experiment while its envelopes, reply process, and consent deadline leave actual participation and activities unstated.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-188",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": true,
+        "decision": "Replaced staff's unsuccessful request for an explanation with an operative instruction to stay inside a focused remit. Office moves and reporting stationery still supply no decision boundary.",
+        "textChanged": true,
+        "labelChanged": false,
+        "reReview": {
+          "objection": "The restriction could be described as change; the missing information is specifically the remit boundary.",
+          "resolution": "Retain revised hit under the accepted scope-over-change precedence. The office relocation does not identify the decisions retained by the team."
+        }
+      },
+      {
+        "id": "000013-189",
+        "resolution": "retain-author",
+        "boundary": "Technical phrase versus defined technical behavior",
+        "decision": "API surface identifies an interface in conventional terms, but calling that surface small and contained supplies no allowed operations, covered functions, or access constraint. Rust identifies implementation language only; retain the coverage omission.",
+        "textChanged": false,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-192",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": true,
+        "decision": "Removed criticism of the poster and recast the assertion as the experiment's own claim of restricted applicability. The restricted set of conditions and its boundaries remain unspecified by the conference logistics.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-040",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": false,
+        "decision": "Proactive consistency correction: removed contrast between stationery details and omitted collection subjects. The museum now asserts a selective acquisition policy directly.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-065",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": false,
+        "decision": "Proactive consistency correction: removed the account of residents being unable to tell the mayor's powers. The revised notice directly asserts constrained authority without defining the decisions allowed.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-071",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": false,
+        "decision": "Proactive consistency correction: removed criticism that the reply identifies no inclusions. The revised retainer account asserts contained work and an agreed scope, while administration details leave that scope unspecified.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-079",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": false,
+        "decision": "Proactive consistency correction: removed the assessment that an announcement cannot establish eligibility. The fund now directly asserts restricted project coverage without naming supported activities.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-088",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": false,
+        "decision": "Proactive consistency correction: removed the manager's unanswered question and commentary on the report. The revised account asserts targeted inspection and a limited brief without identifying inspected systems.",
+        "textChanged": true,
+        "labelChanged": false
+      },
+      {
+        "id": "000013-091",
+        "resolution": "rewrite",
+        "boundary": "Scope claim versus criticism of writing",
+        "objectionRaised": false,
+        "decision": "Proactive consistency correction: removed evaluation of what appointment documents fail to tell staff. The revised appointment account directly asserts a circumscribed mandate without assigning subject areas or decisions.",
+        "textChanged": true,
+        "labelChanged": false
+      }
+    ],
+    "calls": [
+      {
+        "call": 1,
+        "passages": 100,
+        "inputSha256": "40ee101f01b3337e0e0c8afde49927776d6e050a065edef96458987ab2ca5643",
+        "blindPayloadSha256": "1f76a513e30f6932b3c0b2f3d56e8275e3e5d48b9e9db8ae2e8a4aed14f7d6dd",
+        "responseSha256": "569dd1a5e9dc0a68f927ac04de2e85cc9182dd989e833e94c685ca46edf05cc1",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 35313,
+        "costUsd": 0.184952
+      },
+      {
+        "call": 2,
+        "passages": 100,
+        "inputSha256": "a38623395916ac2cf43967d0b5042e31910f06e9f3f8644b594dc8c579ca6e65",
+        "blindPayloadSha256": "6029d931d27f7ced9f7590e56c41e069966628d34beaa1cdfe5f084353f7df3d",
+        "responseSha256": "40d2499d28a8d0fbc3d2d429f576e55a4ef2ac6779f82c6d152a316f7354f7e5",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 43295,
+        "costUsd": 0.202808
+      },
+      {
+        "call": 3,
+        "passages": 12,
+        "inputSha256": "764a921dfbc1c79389cac222e92dd1ab9b105da6ca4b390438c0bb00233e53d6",
+        "blindPayloadSha256": "4fbaf6618d515cf5f6df9a8041113a8a66bf2d5b8a287dcb7018200941e17c51",
+        "responseSha256": "1ffbcd5e5b1c257335be6341128b46709921bacdd133fb5efcf972b57e8b123a",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 9226,
+        "costUsd": 0.071024
+      }
+    ],
+    "acceptanceBasis": "Author adjudication against the accepted definition; reviewer agreement is reported separately and is not an acceptance gate.",
+    "spanOnlyCalls": 0,
+    "totalCostUsd": 0.458784,
+    "reReview": {
+      "calls": 1,
+      "passages": 12,
+      "disagreements": 0,
+      "objections": 1
+    },
+    "adjudicatedPassages": 22,
+    "retainedChallengedPassages": 10
+  },
+  "counts": {
+    "passages": 200,
+    "hits": 100,
+    "noHits": 100,
+    "words": 5463,
+    "minimumWords": 11,
+    "maximumWords": 63,
+    "words45To90": {
+      "hits": 25,
+      "noHits": 25
+    }
+  },
+  "duplicateAudit": {
+    "developmentFiles": [
+      "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.labels.json",
+      "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.labels.json",
+      "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.labels.json",
+      "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.labels.json",
+      "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.labels.json"
+    ],
+    "developmentSamples": 1000,
+    "referenceFiles": [
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+      "prompts/README.md",
+      "prompts/v1/abstract-contrast.md",
+      "prompts/v1/emotion-as-substance.md",
+      "prompts/v1/generic-realization.md",
+      "prompts/v1/shared.md"
+    ],
+    "referenceUnits": 507,
+    "thresholds": {
+      "wordJaccard": 0.45,
+      "threeWordShingleJaccard": 0.18
+    },
+    "exactMatches": 0,
+    "flaggedNearest": 0,
+    "maxima": {
+      "within_word": 0.25,
+      "within_shingle": 0.12,
+      "external_word": 0.25,
+      "external_shingle": 0.1
+    },
+    "nearestMatchesInspected": true,
+    "derivativeCopiesFound": 0,
+    "replacements": 0,
+    "holdoutRead": false,
+    "beforeReview": {
+      "developmentFiles": [
+        "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.labels.json"
+      ],
+      "developmentSamples": 200,
+      "referenceFiles": [
+        ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+        "prompts/README.md",
+        "prompts/v1/abstract-contrast.md",
+        "prompts/v1/emotion-as-substance.md",
+        "prompts/v1/generic-realization.md",
+        "prompts/v1/shared.md"
+      ],
+      "referenceUnits": 507,
+      "thresholds": {
+        "wordJaccard": 0.45,
+        "threeWordShingleJaccard": 0.18
+      },
+      "exactMatches": 0,
+      "flaggedNearest": 0,
+      "maxima": {
+        "within_word": 0.25,
+        "within_shingle": 0.12,
+        "external_word": 0.25,
+        "external_shingle": 0.1
+      }
+    },
+    "inspection": "Computed nearest neighbors for every passage under both metrics; inspected the largest 24 word-set matches and 12 three-word-shingle matches before review and again after rewrites. All threshold flags were inspected."
+  },
+  "validation": {
+    "readDocument": {
+      "passed": true,
+      "documents": 1,
+      "labels": 200
+    },
+    "loadDataset": {
+      "passed": true,
+      "passages": 200
+    },
+    "uniqueIds": 200,
+    "uniqueNormalizedPassages": 200,
+    "exactHitSnippets": true,
+    "noHitSnippetsOmitted": true,
+    "asciiPunctuation": true,
+    "onePhysicalLinePerPassage": true,
+    "formattedWithProseWrapPreserve": true,
+    "frozenPassagesMatchedRawReview": 200,
+    "textSha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+    "labelsSha256": "86fae8d5f49a2569dfd781e92a4411337b9d2b3fc1feb1eead6c39dadea8defc",
+    "authorDraftSha256": "b65d869964a445080f04397c7ecfd6dc518321c42639fea15c217e1a72332d65",
+    "rawArtifactsDirectory": "/tmp",
+    "sloplessRun": false,
+    "reviewRecordScope": "Opus independently classified passages; the author adjudicated objections and checked the assembled record against raw reviews and reader outputs.",
+    "definitionSha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8"
+  },
+  "supplementalQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "review-complete",
+    "coverage": {
+      "passages": 200,
+      "finalRawTextMatches": 200,
+      "exactOpusHitSnippetMatches": 100
+    },
+    "rawResponseRetention": "Original review responses available and verified.",
+    "mixedFollowup": {
+      "passages": 200,
+      "calls": 2,
+      "disagreements": 0,
+      "objections": 9,
+      "callsMetadata": [
+        {
+          "passages": 100,
+          "hits": 52,
+          "noHits": 48,
+          "input": "/tmp/slopless-family-qa-b-unspecified-scope-mixed-input-1.json",
+          "output": "/tmp/slopless-family-qa-b-unspecified-scope-mixed-output-1.json",
+          "inputSha256": "36e05ac0139880986ec5aafe42e2359301a437c1a4f667c9fa787f99386a6ebf",
+          "outputSha256": "0bb6fbbee954a7834b7b4ca861a590b02d12374e2f1f9873738526d00128a491",
+          "reviewedTargetsSha256": "f5d2fd676e88675827f36689d104ee417583132c6f770655e048e0a0e4663fd4",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.17230260000000003
+        },
+        {
+          "passages": 100,
+          "hits": 48,
+          "noHits": 52,
+          "input": "/tmp/slopless-family-qa-b-unspecified-scope-mixed-input-2.json",
+          "output": "/tmp/slopless-family-qa-b-unspecified-scope-mixed-output-2.json",
+          "inputSha256": "c5b0f76fde37e41c6d6e60cb59844eab27339cf61b368d39252e302649a1e10d",
+          "outputSha256": "573a73263a17bfeddc8f380d2546313e793a7dd298360817cb69ccdd0ba3bafc",
+          "reviewedTargetsSha256": "d0202ec0bd442bb8332074356ecd4143617d64a4bfe8fadd59b612dbfe41a544",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.20045059999999998
+        }
+      ],
+      "blindInputFields": ["id", "text"],
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "neutralRemappedIds": true,
+      "originalCountsPreserved": true,
+      "reason": "Review final texts in mixed batches after class-pure revision calls."
+    },
+    "unresolvedLabelErrors": 0,
+    "unresolvedBoundaryConcerns": 0,
+    "unresolvedArtifactConcerns": 0,
+    "privateFindingsPath": "/tmp/slopless-family-qa-b-000013-private.json",
+    "aggregateSummaryPath": "/tmp/slopless-family-qa-b-summary.json",
+    "datasetEditsPerformed": 0
+  },
+  "finalIndependentQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "passed",
+    "passages": 200,
+    "hits": 100,
+    "noHits": 100,
+    "words": 5463,
+    "longHits": 25,
+    "longNoHits": 25,
+    "originalTextsAndIdsRetained": 200,
+    "postIndependentLabelCorrections": 0,
+    "addedPassages": 0,
+    "currentFinalTextsMatchedToRawBlindInput": 200,
+    "currentHitSnippetSelectionsMatchedToActualOpus": 100,
+    "currentOpusSnippetStrings": 121,
+    "labelSuppliedSpanOnlyHitSelections": 0,
+    "latestAvailableBlindReviewDisagreements": 0,
+    "disagreementScope": "Latest actual matching blind classification per current passage, including the independent mixed followup; original counts remain in their original fields.",
+    "previousLabelOrBoundaryFindingsResolved": 0,
+    "unresolvedLabelOrBoundaryConcerns": 0,
+    "currentFinalProvenanceGaps": 0,
+    "historicalRetentionFindings": 0,
+    "unrecoveredHistoricalResponses": 0,
+    "finalOverlap": {
+      "targetPassages": 1620,
+      "familyCollectionsCompared": 18,
+      "legacyCollectionsCompared": 4,
+      "referenceUnits": 507,
+      "thresholdCandidatesInspected": 32,
+      "newAdditionNearestCandidatesInspected": 40,
+      "exactCopies": 0,
+      "derivativeConcerns": 0
+    },
+    "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
+    "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
+  }
+}

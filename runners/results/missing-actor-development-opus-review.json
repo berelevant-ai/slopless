@@ -1,0 +1,1680 @@
+{
+  "check": "semantic-thinness/missing-actor",
+  "input": "passage",
+  "split": "development",
+  "status": "complete",
+  "reviewHistoryScope": "The review and adjudications fields preserve original authoring observations. Current final provenance and post-independent-QA resolutions are in postIndependentQa; two original response artifacts remain unrecovered.",
+  "provenance": {
+    "author": "Codex",
+    "gitHead": "c21c445c333026e4033f8160e56388118cb715d9",
+    "taxonomy": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+    "taxonomySha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8"
+  },
+  "dataset": {
+    "markdown": "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md",
+    "labels": "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.labels.json",
+    "markdownSha256": "5dce0c2cdc68845dd5f3c17ea642c6ae651bbfe3a7628c766c495d24ced6f34f",
+    "labelsSha256": "975e7db650f23b2132a2df9e8e710ed565593981d092aaa599bee74ae1573d26",
+    "passageManifestSha256": "3866a510e76359708de6e5cf080f4c9a5afec253cfc3487c003a2b447d9ebc35",
+    "passages": 201,
+    "hits": 100,
+    "noHits": 101,
+    "words": 6761,
+    "wordCountMethod": "Whitespace-delimited words in passage bodies; headings excluded.",
+    "minWords": 18,
+    "maxWords": 60,
+    "passages45To90Words": { "hits": 26, "noHits": 25 }
+  },
+  "protocol": {
+    "cli": "authenticated claude",
+    "requestedModel": "opus",
+    "reportedModels": ["claude-opus-5-5"],
+    "helper": "/tmp/slopless-semantic-family-opus-review.mjs",
+    "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+    "toolsDisabled": true,
+    "classificationInputFields": ["id", "text"],
+    "authorLabelsSnippetsAndBalanceHidden": true,
+    "maxRowsPerBlindCall": 100,
+    "holdoutFilesOpened": 0,
+    "adjudicator": "dataset author; no delegated adjudication"
+  },
+  "review": {
+    "blindCallAttempts": 7,
+    "validatedBlindCalls": 6,
+    "failedBlindCalls": 1,
+    "validatedBlindJudgments": 223,
+    "originalPassagesReviewed": 200,
+    "finalFrozenPassagesReviewed": 200,
+    "spanOnlyCalls": 2,
+    "totalCliCalls": 9,
+    "initial": {
+      "authorHits": 100,
+      "authorNoHits": 100,
+      "classificationDisagreements": 6,
+      "disagreementIds": [
+        "000017-131",
+        "000017-139",
+        "000017-160",
+        "000017-171",
+        "000017-172",
+        "000017-176"
+      ],
+      "objections": 7,
+      "objectionIds": [
+        "000017-003",
+        "000017-006",
+        "000017-027",
+        "000017-112",
+        "000017-160",
+        "000017-171",
+        "000017-172"
+      ],
+      "disagreementsAcceptedAsAuthorCorrections": [
+        "000017-139",
+        "000017-160",
+        "000017-172"
+      ],
+      "disagreementsRetainedAsHits": ["000017-131", "000017-171", "000017-176"]
+    },
+    "corrections": {
+      "authorHitLabelsChangedToNoHit": [
+        "000017-003",
+        "000017-006",
+        "000017-039",
+        "000017-112",
+        "000017-139",
+        "000017-160",
+        "000017-172",
+        "000017-017",
+        "000017-050",
+        "000017-053",
+        "000017-059",
+        "000017-085",
+        "000017-133",
+        "000017-137",
+        "000017-152",
+        "000017-174",
+        "000017-184",
+        "000017-190",
+        "000017-191",
+        "000017-198"
+      ],
+      "balancingReplacements": [
+        "000017-015",
+        "000017-020",
+        "000017-025",
+        "000017-031",
+        "000017-054",
+        "000017-066",
+        "000017-127",
+        "000017-022",
+        "000017-010",
+        "000017-089",
+        "000017-163",
+        "000017-062",
+        "000017-008",
+        "000017-140",
+        "000017-116",
+        "000017-058",
+        "000017-077",
+        "000017-134",
+        "000017-073",
+        "000017-074"
+      ],
+      "balancingReason": "Twenty corrected original hits remain as no-hits. Twenty straightforward original no-hits were replaced with newly authored hits to restore 100/100; each replacement received blind review.",
+      "grammarRewriteIds": ["000017-046"],
+      "grammarRewriteReason": "Replaced the grammatically broken construction names only as followed by a full clause with a first-person narrative account preserving the same missing-identity defect.",
+      "additionalReplacementRewriteIds": ["000017-015", "000017-074"],
+      "finalTextsChangedFromOriginal": 21,
+      "editsBeforeInitialBlindReview": 0
+    },
+    "final": {
+      "blindAgreement": 178,
+      "blindDisagreements": 22,
+      "retainedHitDisagreementIds": [
+        "000017-127",
+        "000017-131",
+        "000017-163",
+        "000017-171",
+        "000017-176"
+      ],
+      "correctedNoHitDisagreementIds": [
+        "000017-003",
+        "000017-006",
+        "000017-017",
+        "000017-039",
+        "000017-050",
+        "000017-053",
+        "000017-059",
+        "000017-085",
+        "000017-112",
+        "000017-133",
+        "000017-137",
+        "000017-152",
+        "000017-174",
+        "000017-184",
+        "000017-190",
+        "000017-191",
+        "000017-198"
+      ],
+      "hitSnippetsFromBlindClassification": 95,
+      "hitSnippetsFromLabelSuppliedSpanOnly": 5,
+      "unresolvedAdjudications": 0
+    },
+    "calls": [
+      {
+        "stage": "original",
+        "kind": "blind-classification",
+        "status": "validated",
+        "passages": 100,
+        "input": "/tmp/missing-actor-blind-1.json",
+        "inputSha256": "49e13c2596d7e7a21269cc7e6dd0e1bc8d80df08fbbd864e23a23ce87f907389",
+        "reviewedTargetsSha256": "90cc468c9eebbf04e78d58cd282969915f83857bcfe21371b7bf63ad7dab92df",
+        "output": "/tmp/missing-actor-review-1.json",
+        "outputSha256": "c42863eb18367d1ac6ba91c5b6ca602f80a1b8337427664ebfda1213c634ee58",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 48079,
+        "costUsd": 0.221872,
+        "authorDisagreementIds": [],
+        "objectionIds": ["000017-003", "000017-006", "000017-027"]
+      },
+      {
+        "stage": "original",
+        "kind": "blind-classification",
+        "status": "validated",
+        "passages": 100,
+        "input": "/tmp/missing-actor-blind-2.json",
+        "inputSha256": "d30a973a5a26c5499ea183f72372fbe5a8582144c9ba04c92c83e51e14153abd",
+        "reviewedTargetsSha256": "6506fe59742b0a8dce2ecf82dc39ae73104fd386dcbc431de41133f4d4c2f228",
+        "output": "/tmp/missing-actor-review-2.json",
+        "outputSha256": "c849491b2d7a0ff09e7f43a2ece7fc82341fcdf39dd5374fc4efa2e377adedd8",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 47848,
+        "costUsd": 0.225256,
+        "authorDisagreementIds": [
+          "000017-131",
+          "000017-139",
+          "000017-160",
+          "000017-171",
+          "000017-172",
+          "000017-176"
+        ],
+        "objectionIds": ["000017-112", "000017-160", "000017-171", "000017-172"]
+      },
+      {
+        "stage": "replacement-and-grammar-rewrite",
+        "kind": "blind-classification",
+        "status": "validated",
+        "passages": 8,
+        "input": "/tmp/missing-actor-revisions.json",
+        "inputSha256": "7bdf1a0348c2a8640478899f16fecb36bcaa66cd5eb3a3afa150841c21460b9c",
+        "reviewedTargetsSha256": "c09ac58252813315d4a5915f1b49557101bb247cb18b5e1424cc66184cebed06",
+        "output": "/tmp/missing-actor-review-revisions.json",
+        "outputSha256": "c2740e5bf3d36513c6ec6db9e7ba7445d102324abb6e911331d3e0d1c82b6f72",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 14116,
+        "costUsd": 0.055380200000000004,
+        "authorDisagreementIds": ["000017-015", "000017-127"],
+        "objectionIds": ["000017-015", "000017-020"]
+      },
+      {
+        "stage": "clarify-resolved-responsibility",
+        "kind": "blind-classification",
+        "status": "validated",
+        "passages": 1,
+        "input": "/tmp/missing-actor-revision-2.json",
+        "inputSha256": "733c4992492575706ae5cfc17cfcc6666b9cf3606cdd73da70b5b6aaa34f250c",
+        "reviewedTargetsSha256": "34c30322de193631d88abacc192b58659ba2d792cab4726c83c8731971110cd7",
+        "output": "/tmp/missing-actor-review-revision-2.json",
+        "outputSha256": "37e922145d6f72c3ff419ff99caba7aea1f6fefc6518652ce77b6ebe9c0b691e",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 6225,
+        "costUsd": 0.04964,
+        "authorDisagreementIds": [],
+        "objectionIds": ["000017-015"]
+      },
+      {
+        "stage": "replace-additional-recoverable-actor-cases",
+        "kind": "blind-classification",
+        "status": "validated",
+        "passages": 13,
+        "input": "/tmp/missing-actor-supplement.json",
+        "inputSha256": "e8d1a29a6ebcf424cffc7a9f5088aa645121ef8097d94cc1fa20a7571e6e6125",
+        "reviewedTargetsSha256": "83808b9e95412c43c657bb3b5a61d3c487e148dec2fad2fa43196b3b2d67435c",
+        "output": "/tmp/missing-actor-review-supplement.json",
+        "outputSha256": "d92d8e8b42a531271f7e277a8e1fb128687a49e0da78c5cb68aeca2a8faba369",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 19074,
+        "costUsd": 0.09140799999999999,
+        "authorDisagreementIds": ["000017-163"],
+        "objectionIds": ["000017-163", "000017-074"]
+      },
+      {
+        "stage": "clarify-multiple-technicians",
+        "kind": "blind-classification",
+        "status": "validated",
+        "passages": 1,
+        "input": "/tmp/missing-actor-revision-3.json",
+        "inputSha256": "d6697159714efa5ad3a24625c5f6b0b558000d53d7774ed8b0bbf6dd44344357",
+        "reviewedTargetsSha256": "7d68a17f2085f37587069731f2410dd0b1b101d21225d432d8824fba533d4d0a",
+        "output": "/tmp/missing-actor-review-revision-3.json",
+        "outputSha256": "7744de9890aac243632068f3e1b1dea076357a4096b412f6d207d78a76e8362a",
+        "models": ["claude-opus-5-5"],
+        "durationMs": 2705,
+        "costUsd": 0.043500000000000004,
+        "authorDisagreementIds": [],
+        "objectionIds": []
+      }
+    ],
+    "failedAttempt": {
+      "stage": "first-eight-passage-revision-attempt",
+      "input": "/tmp/missing-actor-revisions.json",
+      "inputSha256": "7bdf1a0348c2a8640478899f16fecb36bcaa66cd5eb3a3afa150841c21460b9c",
+      "status": "helper-validation-failed",
+      "error": "A no-hit judgment included snippets; helper assertion rejected it.",
+      "diagnostic": "/tmp/missing-actor-failed-review.json",
+      "rawResponseAvailable": false,
+      "rawResponseStatus": "Helper aborted before writing its output; the retry captured its native response before validation.",
+      "costUsd": null
+    },
+    "spanOnly": [
+      {
+        "kind": "span-only-after-adjudication",
+        "status": "validated",
+        "classificationLabelsSupplied": true,
+        "passages": 4,
+        "ids": ["000017-127", "000017-131", "000017-171", "000017-176"],
+        "input": "/tmp/missing-actor-span-input.json",
+        "inputSha256": "2da886e9f2b42a15e839f58e440d0e1109bb977a4faac5efb1503a3ecb57d995",
+        "reviewedTargetsSha256": "3a5fc6404c544f1e7ce467cea5b5f898cf3bf5ab2cb5526e8879e994dcd8c2bc",
+        "output": "/tmp/missing-actor-span-output.json",
+        "outputSha256": "afe8ac9376ae4da69c757fec6d2e886a1dbb61b07655dd38737a1ce2430b2289",
+        "models": ["claude-opus-5-5"],
+        "promptSha256": "4e2ed7b3f1cd41073e909ff1982d5e83adf608bea8df93dedd4bef2e21a48296",
+        "runnerSha256": "82616105d435c8e5f3b62239b36aa76d8e3ec6406c3c19784736b88ac25180b2",
+        "durationMs": 2561,
+        "costUsd": 0.038968
+      },
+      {
+        "kind": "span-only-after-adjudication",
+        "status": "validated",
+        "classificationLabelsSupplied": true,
+        "passages": 1,
+        "ids": ["000017-163"],
+        "input": "/tmp/missing-actor-span-input-2.json",
+        "inputSha256": "d6d4c91527a38ff5eba74a141805ceb1f9a737d92a99507b9a94cc5fb9f50ce6",
+        "reviewedTargetsSha256": "a0ddda3c17a11c34c8bdc5e9a93e17d224bc9da5edccf9f5f84cc4e1e686d6aa",
+        "output": "/tmp/missing-actor-span-output-2.json",
+        "outputSha256": "183843ec88566f77f341cc1f4d2bf1c748047d5314e90a50e5426265343f0fb7",
+        "models": ["claude-opus-5-5"],
+        "promptSha256": "2f28459e2e98fee4cf1b2f9a6692a7731db5ec85588f94dd56b0fc2be5cbf2d2",
+        "runnerSha256": "61d450fd2373d821f0f997e02650563dcfad9215b2604b3548821f016bfb5abd",
+        "durationMs": 3416,
+        "costUsd": 0.039959999999999996
+      }
+    ],
+    "knownCostUsd": 0.7659842000000001,
+    "knownCostScope": "Validated calls only; the rejected attempt did not expose its cost."
+  },
+  "adjudications": [
+    {
+      "id": "000017-003",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The unique casting-vote role identifies the partner and explains why the writer complied. A personal name adds no needed responsibility."
+    },
+    {
+      "id": "000017-006",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The preceding rule makes purchasing the department responsible for a binding order; responsible department recovers that role by implication."
+    },
+    {
+      "id": "000017-039",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "Singular they has referee as its only supplied personal antecedent. The role needed to validate the stoppage is recoverable."
+    },
+    {
+      "id": "000017-112",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The missing executor is the recipient of the transfer. The performer of the transfer and the reader carrying out the return are not obscured by this omission; recipient identification is outside this named type."
+    },
+    {
+      "id": "000017-139",
+      "authorExpected": true,
+      "blindExpected": false,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The parents can wait for the designated coach to call without knowing which coach it is. The omitted identity is immaterial to the stated instruction."
+    },
+    {
+      "id": "000017-160",
+      "authorExpected": true,
+      "blindExpected": false,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The supplied concern is whether Dad has company, and acceptance resolves that concern. The passage never requires the twins to be distinguished."
+    },
+    {
+      "id": "000017-172",
+      "authorExpected": true,
+      "blindExpected": false,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The review limits responsibility to the director and operator, and identifies the operator as the follower. The director is recoverable as the giver of the instruction."
+    },
+    {
+      "id": "000017-017",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "Other person is the partner relative to the narrator. That person accepts the decision-maker terms, recovering the narrator as the person who ended the engagement."
+    },
+    {
+      "id": "000017-050",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The rule authorizes an employee and excludes a customer. Describing the waiver entrant as authorized therefore supplies the employee role needed to understand acceptance."
+    },
+    {
+      "id": "000017-053",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The stated rule permits only a supervisor to make a binding halt request. Acceptance because of role identifies a supervisor by implication."
+    },
+    {
+      "id": "000017-059",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The judge is the sole supplied source of a compulsory instruction. Treating compliance as compulsory on the issuing authority recovers the judge role."
+    },
+    {
+      "id": "000017-085",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The alternatives are a voluntary signature or pressure from the chair. The finding of pressure selects the latter and identifies its actor."
+    },
+    {
+      "id": "000017-133",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The opening procedure explicitly assigns label certification to the technician. The later assertion that no role is supplied contradicts that assignment; the actor role is recoverable."
+    },
+    {
+      "id": "000017-137",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "Only the choreographer can authorize the lift change. Treating the request as authorized on its origin recovers the choreographer as requester."
+    },
+    {
+      "id": "000017-152",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The report classifies shutdown as a preventable decision requiring retraining, selecting the operator rather than the automatic heat protection. That role explains the event."
+    },
+    {
+      "id": "000017-174",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The writer explicitly explains why the brother rather than the uncle must replace the window, and assigns responsibility to its thrower. Together those statements recover the brother as thrower."
+    },
+    {
+      "id": "000017-184",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The captain is the only role whose concession is valid. Accepting the concession on the sender position recovers the captain."
+    },
+    {
+      "id": "000017-190",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "Protection depends on a manager ordering deletion. Granting protection because of the source of that order supplies the manager role."
+    },
+    {
+      "id": "000017-191",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The opening rule permits an instructor to excuse an absence and restricts a receptionist to recording it. Relying on the excusing authority recovers the instructor."
+    },
+    {
+      "id": "000017-198",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": false,
+      "decision": "correct-author-label",
+      "reason": "The committee is the only supplied source of a binding playground closure. Presenting the closure as binding because of its maker supplies the committee by implication."
+    },
+    {
+      "id": "000017-027",
+      "authorExpected": true,
+      "blindExpected": true,
+      "finalExpected": true,
+      "decision": "retain-hit",
+      "reason": "Departing pilot repeats the person surrendering control instead of distinguishing the crew member. The log explicitly undertakes to establish that responsibility, so the omission remains a hit."
+    },
+    {
+      "id": "000017-131",
+      "authorExpected": true,
+      "blindExpected": false,
+      "finalExpected": true,
+      "decision": "retain-hit",
+      "reason": "Each floor requires one responsible officer, but the complete plan gives neither officer-to-floor assignment. Officers cannot select their required floor from the supplied instruction; the missing allocation of responsibility is the defect."
+    },
+    {
+      "id": "000017-171",
+      "authorExpected": true,
+      "blindExpected": false,
+      "finalExpected": true,
+      "decision": "retain-hit",
+      "reason": "Authorized engineer merely repeats the unknown recipient of authority. The text permits only one of two engineers to act but supplies no distinguishing role or identity. Assuming an unshown authorization would import external context."
+    },
+    {
+      "id": "000017-176",
+      "authorExpected": true,
+      "blindExpected": false,
+      "finalExpected": true,
+      "decision": "retain-hit",
+      "reason": "Both machine positions must be staffed by different people, and the instruction tells the reader to take an assigned position without giving that assignment. Knowing that positions were assigned does not recover who feeds and who operates the stop switch."
+    },
+    {
+      "id": "000017-020",
+      "finalExpected": true,
+      "decision": "retain-hit-after-objection",
+      "reason": "The account uses an unsigned finder note to select between two housemates. The supplied writing gives no identifying handwriting or other context; importing it would invent a repair."
+    },
+    {
+      "id": "000017-127",
+      "blindExpected": false,
+      "finalExpected": true,
+      "decision": "retain-hit-against-blind-review",
+      "reason": "The return instruction depends on who sewed the dress, distinguished from its seller. Maker repeats the unknown performer; sewn to order identifies no maker. The responsible recipient of the required return remains unresolved."
+    },
+    {
+      "id": "000017-015",
+      "replacementBlindExpected": false,
+      "finalBlindExpected": true,
+      "finalExpected": true,
+      "decision": "rewrite-unclear-replacement-and-review-again",
+      "reason": "The first replacement stated an open review question, permitting honest uncertainty. The revision makes the review completed and assigns liability and a claims destination through the unidentified speaker. The final objection is resolved by that operational need for the speaker and employer, rather than a supposed duty to know every speaker."
+    },
+    {
+      "id": "000017-163",
+      "blindExpected": false,
+      "finalExpected": true,
+      "decision": "retain-hit-against-blind-review",
+      "reason": "The passage delivers a completed log billing claim that depends on which observatory initiated the reset. Its final sentence acknowledges omitted attribution but leaves the delivered charge without a responsible observatory. It is an operational account rather than discussion or criticism of bad prose."
+    },
+    {
+      "id": "000017-074",
+      "replacementBlindExpected": true,
+      "finalBlindExpected": true,
+      "finalExpected": true,
+      "decision": "clarify-genuine-identity-ambiguity-and-review-again",
+      "reason": "The first version allowed a single-technician reading, under which the role alone could identify the actor. The final context names two technicians on the same photograph, preserving the responsibility question while making the missing distinction explicit. Blind review of the final text returned a hit without objection."
+    }
+  ],
+  "duplicateAudit": {
+    "normalization": "Lowercase ASCII word tokens; wordset and contiguous three-word-shingle Jaccard; exact matches use normalized token sequence.",
+    "thresholds": { "wordsetJaccard": 0.55, "threeWordShingleJaccard": 0.35 },
+    "firstDraft": {
+      "within": {
+        "comparisons": 19900,
+        "normalizedExactDuplicates": 0,
+        "maxWordsetJaccard": 0.2619047619047619,
+        "maxThreeWordShingleJaccard": 0.05263157894736842,
+        "wordsetThresholdMatches": 0,
+        "threeWordShingleThresholdMatches": 0,
+        "nearestWordset": {
+          "a": "000017-080",
+          "b": "000017-196",
+          "file": null,
+          "wordset": 0.2619047619047619,
+          "shingle3": 0,
+          "exact": false
+        },
+        "nearestThreeWordShingle": {
+          "a": "000017-015",
+          "b": "000017-071",
+          "file": null,
+          "wordset": 0.13513513513513514,
+          "shingle3": 0.05263157894736842,
+          "exact": false
+        }
+      },
+      "external": {
+        "comparisons": 328600,
+        "normalizedExactDuplicates": 0,
+        "maxWordsetJaccard": 0.25,
+        "maxThreeWordShingleJaccard": 0.06666666666666667,
+        "wordsetThresholdMatches": 0,
+        "threeWordShingleThresholdMatches": 0,
+        "nearestWordset": {
+          "a": "000017-026",
+          "b": "000007-089",
+          "file": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+          "wordset": 0.25,
+          "shingle3": 0,
+          "exact": false
+        },
+        "nearestThreeWordShingle": {
+          "a": "000017-021",
+          "b": "taxonomy-218",
+          "file": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+          "wordset": 0.1111111111111111,
+          "shingle3": 0.06666666666666667,
+          "exact": false
+        }
+      }
+    },
+    "final": {
+      "within": {
+        "comparisons": 19900,
+        "normalizedExactDuplicates": 0,
+        "maxWordsetJaccard": 0.2619047619047619,
+        "maxThreeWordShingleJaccard": 0.046511627906976744,
+        "wordsetThresholdMatches": 0,
+        "threeWordShingleThresholdMatches": 0,
+        "nearestWordset": {
+          "a": "000017-080",
+          "b": "000017-196",
+          "file": null,
+          "wordset": 0.2619047619047619,
+          "shingle3": 0,
+          "exact": false
+        },
+        "nearestThreeWordShingle": {
+          "a": "000017-103",
+          "b": "000017-150",
+          "file": null,
+          "wordset": 0.21212121212121213,
+          "shingle3": 0.046511627906976744,
+          "exact": false
+        }
+      },
+      "external": {
+        "comparisons": 368600,
+        "normalizedExactDuplicates": 0,
+        "maxWordsetJaccard": 0.25,
+        "maxThreeWordShingleJaccard": 0.06666666666666667,
+        "wordsetThresholdMatches": 0,
+        "threeWordShingleThresholdMatches": 0,
+        "nearestWordset": {
+          "a": "000017-026",
+          "b": "000007-089",
+          "file": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+          "wordset": 0.25,
+          "shingle3": 0,
+          "exact": false
+        },
+        "nearestThreeWordShingle": {
+          "a": "000017-021",
+          "b": "taxonomy-218",
+          "file": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+          "wordset": 0.1111111111111111,
+          "shingle3": 0.06666666666666667,
+          "exact": false
+        }
+      }
+    },
+    "comparedDevelopmentPairs": 8,
+    "externalPassagesAndExamples": 1843,
+    "comparisonInputs": [
+      {
+        "file": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+        "textSha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+        "labelsSha256": "d78f3b3ba016b77203a4a895393796eadf2c09cbe1abe4a7dac66934ca16c86e",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
+        "textSha256": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+        "labelsSha256": "8c7f838cfc8835fc59e85b6233195d01c81bed06d9e5ca0be7101ac146a68771",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md",
+        "textSha256": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+        "labelsSha256": "b9bef198be8f3ec498ba0201b6ecb413887b523c31ea774d6c0f44b562e76f67",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+        "textSha256": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+        "labelsSha256": "665f5995e4131562225ff456b0e742239b0cb66ab16904734a2d459e6d6d40d8",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md",
+        "textSha256": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+        "labelsSha256": "2981c484ad524d95a9527153b82a4c58cbff81a2817d92a550f5b807de6e9b1a",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
+        "textSha256": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+        "labelsSha256": "975d73b18aa7a034ac996f6bbfacbcbf311aa10570a56a26d9804803d4cf0a91",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
+        "textSha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+        "labelsSha256": "86fae8d5f49a2569dfd781e92a4411337b9d2b3fc1feb1eead6c39dadea8defc",
+        "passages": 200
+      },
+      {
+        "file": "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md",
+        "textSha256": "c3b96f21b10fb84f1abb1a032405fd2e575e391680d5fd47b165bc282a57caa0",
+        "labelsSha256": "058400a7c83807e9e7388fa340e170b77663070442c79e55c8d68349b9494e6a",
+        "passages": 200
+      },
+      {
+        "file": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+        "textSha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8"
+      },
+      {
+        "file": "prompts/v1/abstract-contrast.md",
+        "textSha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676"
+      },
+      {
+        "file": "prompts/v1/emotion-as-substance.md",
+        "textSha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72"
+      },
+      {
+        "file": "prompts/v1/generic-realization.md",
+        "textSha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465"
+      },
+      {
+        "file": "prompts/v1/shared.md",
+        "textSha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+      }
+    ],
+    "nearestPairsInspected": true,
+    "derivativeCopiesFound": 0,
+    "derivativeReplacements": 0,
+    "auditBeforeSha256": "0d786a742e3eec456ca699283482b4eb8c556a6607e28ff735a6eac7e8167ddf",
+    "auditFinalSha256": "7830e93909fd33d4f232c69dd44dae2744d4a1b346188b289c53e72eed1cd783"
+  },
+  "validation": {
+    "readDocument": { "documents": 1, "samples": 201, "labels": 201 },
+    "loadDataset": {
+      "targets": 201,
+      "check": "semantic-thinness/missing-actor"
+    },
+    "uniqueIds": 201,
+    "uniqueNormalizedPassages": 201,
+    "originalPassageTextsPreserved": 200,
+    "exactFinalTextsMatchedToRetainedBlindPrompts": 201,
+    "exactFinalOpusSnippetArrays": 100,
+    "hitSnippetsFromBlindClassification": 97,
+    "hitSnippetsFromLabelSuppliedSpanOnly": 3,
+    "noHitSnippetsOmitted": 101,
+    "checksumExactFinalMarkdownBytes": true,
+    "onePhysicalLinePerPassage": true,
+    "asciiOnly": true,
+    "atLeastTwenty45To90WordPassagesPerClass": true,
+    "formatter": "prettier --prose-wrap preserve --ignore-path /dev/null; formatted before final range/checksum refresh",
+    "slopless": "Not run on intentional evaluation data."
+  },
+  "supplementalQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "author-label-finding-resolved-current-final-reverified",
+    "coverage": {
+      "passages": 200,
+      "finalRawTextMatches": 200,
+      "exactOpusHitSnippetMatches": 100
+    },
+    "rawResponseRetention": "Initial responses verified before path overwrite; two original responses currently unavailable.",
+    "mixedFollowup": {
+      "passages": 200,
+      "calls": 2,
+      "disagreements": 23,
+      "objections": 16,
+      "callsMetadata": [
+        {
+          "passages": 100,
+          "hits": 47,
+          "noHits": 53,
+          "input": "/tmp/slopless-family-qa-b-missing-actor-mixed-input-1.json",
+          "output": "/tmp/slopless-family-qa-b-missing-actor-mixed-output-1.json",
+          "inputSha256": "58bdb654e3aafb7b16fbb94018c6d2af3ef0caf7c159381017dd6224b9546778",
+          "outputSha256": "26293a1091085affb6ed7848e68cfc0688f5f0b15bc30e8dcc20c97abbbed690",
+          "reviewedTargetsSha256": "43ccf314cb2c0f886044cf7576c5c2cd2ef44abb060bdcc1213c1d76dad1130f",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.2284986
+        },
+        {
+          "passages": 100,
+          "hits": 53,
+          "noHits": 47,
+          "input": "/tmp/slopless-family-qa-b-missing-actor-mixed-input-2.json",
+          "output": "/tmp/slopless-family-qa-b-missing-actor-mixed-output-2.json",
+          "inputSha256": "fba02a6c41a8e9d085a99245f618de36b97a4d942026abbbb020830806aff608",
+          "outputSha256": "516ef57b37a23b586d076b9c8b46d01a9f9c57e960dc32dfec94bda6cd93ed57",
+          "reviewedTargetsSha256": "561e92dfd90c2ecd37128ce581c151cf6f83bd5a5482260526cecce4bf912403",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "costUsd": 0.2791866
+        }
+      ],
+      "blindInputFields": ["id", "text"],
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "neutralRemappedIds": true,
+      "originalCountsPreserved": true,
+      "reason": "Review final texts in mixed batches after class-pure revision calls."
+    },
+    "unresolvedLabelErrors": 0,
+    "unresolvedBoundaryConcerns": 0,
+    "unresolvedArtifactConcerns": 1,
+    "privateFindingsPath": "/tmp/slopless-family-qa-b-000017-private.json",
+    "aggregateSummaryPath": "/tmp/slopless-family-qa-b-summary.json",
+    "datasetEditsPerformed": 0,
+    "currentFinalProvenance": "Fresh retained mixed blind reviews cover all 201 final texts and provide all final snippet sources.",
+    "authorResolutions": "postIndependentQa"
+  },
+  "postIndependentQa": {
+    "status": "current-final-verified-historical-retention-gap-documented",
+    "timestampUtc": "2026-10-20T17:39:36.163Z",
+    "gitHead": "c21c445c333026e4033f8160e56388118cb715d9",
+    "privateFindings": {
+      "path": "/tmp/slopless-family-qa-b-000017-private.json",
+      "sha256": "741fc9a2277a3fedf98bbb123806cf5a7b46c2ae36f347336c6ab6217124c5d1",
+      "labelFindingsResolved": 1,
+      "boundaryConcerns": 0,
+      "artifactFindingsMitigated": 1
+    },
+    "beforeDataset": {
+      "markdown": "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md",
+      "labels": "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.labels.json",
+      "markdownSha256": "488dc65c18bae886631deb6b9d71bf2119efe656855ebef21be4e049b9e33c2f",
+      "labelsSha256": "fbfe7319670cb1bf066c1e5d1350f885009ef1fe31ea8d6e642486fd42984592",
+      "passageManifestSha256": "5bc81568392f0393ab0faa175b5b8747f2e8f42abff3a93615555334be335e72",
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "words": 6702,
+      "wordCountMethod": "Whitespace-delimited words in passage bodies; headings excluded.",
+      "minWords": 18,
+      "maxWords": 60,
+      "passages45To90Words": { "hits": 25, "noHits": 25 }
+    },
+    "beforeValidation": {
+      "readDocument": { "documents": 1, "samples": 200, "labels": 200 },
+      "loadDataset": {
+        "targets": 200,
+        "check": "semantic-thinness/missing-actor"
+      },
+      "uniqueIds": 200,
+      "uniqueNormalizedPassages": 200,
+      "exactFinalTextsMatchedToBlindReview": 200,
+      "exactOpusSnippetArrays": 100,
+      "noHitSnippetsOmitted": 100,
+      "checksumExactFinalMarkdownBytes": true,
+      "onePhysicalLinePerPassage": true,
+      "asciiOnly": true,
+      "shortPassagesAtMostFiveSentences": true,
+      "formatter": "prettier --prose-wrap preserve --ignore-path /dev/null; formatted before final range/checksum refresh",
+      "slopless": "Not run on intentional evaluation data."
+    },
+    "preservation": {
+      "oldIdsPreserved": 200,
+      "oldTextsPreserved": 200,
+      "oldTextClarifications": 0,
+      "oldTextRewrites": 0,
+      "labelCorrections": 1,
+      "correctedIds": ["000017-196"],
+      "examplesAdded": 1,
+      "addedIds": ["000017-201"],
+      "reasonForAddition": "Correcting the proven label error left 99 hits; append one independent hit under the revised minimum-per-class target."
+    },
+    "counts": {
+      "passages": 201,
+      "hits": 100,
+      "noHits": 101,
+      "words": 6761,
+      "minWords": 18,
+      "maxWords": 60,
+      "passages45To90Words": { "hits": 26, "noHits": 25 }
+    },
+    "findingResolutions": [
+      {
+        "key": "B-001",
+        "id": "000017-196",
+        "decision": "accepted",
+        "before": true,
+        "after": false,
+        "textPreserved": true,
+        "reason": "Accept independent finding B-001. The first-person narrator undertakes to honor the promise; the remaining unidentified child is its beneficiary. A beneficiary is not the performer of promising. Preserve the wording and label this check false, consistently with recipient control 000017-112 and actor-irrelevance control 000017-160.",
+        "nearestSameTypeControls": ["000017-112", "000017-160", "000017-174"]
+      }
+    ],
+    "artifactRetention": {
+      "status": "two-original-responses-unrecovered-current-final-provenance-established",
+      "recovery": {
+        "ownCandidateFilesHashed": 69,
+        "artifactContentParsing": "Only exact expected development hashes may be treated as recovered originals. Current overwritten files were byte-copied without exposing their content.",
+        "artifacts": [
+          {
+            "path": "/tmp/missing-actor-review-1.json",
+            "sha256": "c42863eb18367d1ac6ba91c5b6ca602f80a1b8337427664ebfda1213c634ee58",
+            "recoveredExactly": false,
+            "recovered": [],
+            "currentPathSha256": "4ce2d56e81c7c52be659ca2e0a9788e9c1d6723671bda240b9ec866bd6d556c7",
+            "protectedBackup": "/tmp/slopless-qa-fix-000017/protected-current-original-path-1.backup.bin",
+            "protectedBackupSha256": "4ce2d56e81c7c52be659ca2e0a9788e9c1d6723671bda240b9ec866bd6d556c7"
+          },
+          {
+            "path": "/tmp/missing-actor-review-2.json",
+            "sha256": "c849491b2d7a0ff09e7f43a2ece7fc82341fcdf39dd5374fc4efa2e377adedd8",
+            "recoveredExactly": false,
+            "recovered": [],
+            "currentPathSha256": "8dbd62ad37c0d776e51c61094db191081a1987763726be6ceb695da2b5e42b11",
+            "protectedBackup": "/tmp/slopless-qa-fix-000017/protected-current-original-path-2.backup.bin",
+            "protectedBackupSha256": "8dbd62ad37c0d776e51c61094db191081a1987763726be6ceb695da2b5e42b11"
+          }
+        ]
+      },
+      "recoveryEvidence": "/tmp/slopless-qa-fix-000017/recovery.json",
+      "recoveryEvidenceSha256": "adfdfadcfbcbcbd93132c3a7437adf94a3f1d2fd85aa8c6297645a71b2670e43",
+      "historicalBlindArtifacts": [
+        {
+          "kind": "blind-classification",
+          "input": {
+            "path": "/tmp/missing-actor-blind-1.json",
+            "expectedSha256": "49e13c2596d7e7a21269cc7e6dd0e1bc8d80df08fbbd864e23a23ce87f907389",
+            "currentlyRetained": true
+          },
+          "output": {
+            "path": "/tmp/missing-actor-review-1.json",
+            "expectedSha256": "c42863eb18367d1ac6ba91c5b6ca602f80a1b8337427664ebfda1213c634ee58",
+            "currentlyRetained": false
+          }
+        },
+        {
+          "kind": "blind-classification",
+          "input": {
+            "path": "/tmp/missing-actor-blind-2.json",
+            "expectedSha256": "d30a973a5a26c5499ea183f72372fbe5a8582144c9ba04c92c83e51e14153abd",
+            "currentlyRetained": true
+          },
+          "output": {
+            "path": "/tmp/missing-actor-review-2.json",
+            "expectedSha256": "c849491b2d7a0ff09e7f43a2ece7fc82341fcdf39dd5374fc4efa2e377adedd8",
+            "currentlyRetained": false
+          }
+        },
+        {
+          "kind": "blind-classification",
+          "input": {
+            "path": "/tmp/missing-actor-revisions.json",
+            "expectedSha256": "7bdf1a0348c2a8640478899f16fecb36bcaa66cd5eb3a3afa150841c21460b9c",
+            "currentlyRetained": true
+          },
+          "output": {
+            "path": "/tmp/missing-actor-review-revisions.json",
+            "expectedSha256": "c2740e5bf3d36513c6ec6db9e7ba7445d102324abb6e911331d3e0d1c82b6f72",
+            "currentlyRetained": true
+          }
+        },
+        {
+          "kind": "blind-classification",
+          "input": {
+            "path": "/tmp/missing-actor-revision-2.json",
+            "expectedSha256": "733c4992492575706ae5cfc17cfcc6666b9cf3606cdd73da70b5b6aaa34f250c",
+            "currentlyRetained": true
+          },
+          "output": {
+            "path": "/tmp/missing-actor-review-revision-2.json",
+            "expectedSha256": "37e922145d6f72c3ff419ff99caba7aea1f6fefc6518652ce77b6ebe9c0b691e",
+            "currentlyRetained": true
+          }
+        },
+        {
+          "kind": "blind-classification",
+          "input": {
+            "path": "/tmp/missing-actor-supplement.json",
+            "expectedSha256": "e8d1a29a6ebcf424cffc7a9f5088aa645121ef8097d94cc1fa20a7571e6e6125",
+            "currentlyRetained": true
+          },
+          "output": {
+            "path": "/tmp/missing-actor-review-supplement.json",
+            "expectedSha256": "d92d8e8b42a531271f7e277a8e1fb128687a49e0da78c5cb68aeca2a8faba369",
+            "currentlyRetained": true
+          }
+        },
+        {
+          "kind": "blind-classification",
+          "input": {
+            "path": "/tmp/missing-actor-revision-3.json",
+            "expectedSha256": "d6697159714efa5ad3a24625c5f6b0b558000d53d7774ed8b0bbf6dd44344357",
+            "currentlyRetained": true
+          },
+          "output": {
+            "path": "/tmp/missing-actor-review-revision-3.json",
+            "expectedSha256": "7744de9890aac243632068f3e1b1dea076357a4096b412f6d207d78a76e8362a",
+            "currentlyRetained": true
+          }
+        }
+      ],
+      "historicalSpanArtifacts": [
+        {
+          "input": {
+            "path": "/tmp/missing-actor-span-input.json",
+            "expectedSha256": "2da886e9f2b42a15e839f58e440d0e1109bb977a4faac5efb1503a3ecb57d995",
+            "currentlyRetained": true
+          },
+          "output": {
+            "path": "/tmp/missing-actor-span-output.json",
+            "expectedSha256": "afe8ac9376ae4da69c757fec6d2e886a1dbb61b07655dd38737a1ce2430b2289",
+            "currentlyRetained": true
+          }
+        },
+        {
+          "input": {
+            "path": "/tmp/missing-actor-span-input-2.json",
+            "expectedSha256": "d6d4c91527a38ff5eba74a141805ceb1f9a737d92a99507b9a94cc5fb9f50ce6",
+            "currentlyRetained": true
+          },
+          "output": {
+            "path": "/tmp/missing-actor-span-output-2.json",
+            "expectedSha256": "183843ec88566f77f341cc1f4d2bf1c748047d5314e90a50e5426265343f0fb7",
+            "currentlyRetained": true
+          }
+        }
+      ],
+      "earlierVerification": "The original author verification and independent QA-B successfully checked these hashes before the shared paths were overwritten. Those observations remain historical evidence; exact original bytes were not recovered.",
+      "protectedCurrentFilesPreserved": true,
+      "currentFinalTextProvenance": "All final cases are re-reviewed in retained mixed blind calls below; every final hit snippet is newly selected in those calls or the separately labeled span-only call."
+    },
+    "freshReview": {
+      "requestedModel": "opus",
+      "models": ["claude-opus-5-5"],
+      "helper": "/tmp/slopless-semantic-family-opus-review.mjs",
+      "helperSnapshot": "/tmp/slopless-qa-fix-000017/blind-helper.snapshot.mjs",
+      "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+      "toolsDisabled": true,
+      "classificationFields": ["id", "text"],
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "neutralIdMap": "/tmp/slopless-qa-fix-000017/id-map.json",
+      "neutralIdMapSha256": "9535d9cca3a62c746b8af24f257a92b4410450308ba9693dcb2781cd293ee2ab",
+      "validatedBlindCalls": 3,
+      "validatedBlindCases": 201,
+      "classificationDisagreements": 21,
+      "objections": 16,
+      "flaggedCasesAdjudicated": 32,
+      "retainedHitDisagreements": 3,
+      "correctedNoHitDisagreements": 18,
+      "calls": [
+        {
+          "kind": "blind-mixed-classification",
+          "passages": 70,
+          "hits": 33,
+          "noHits": 37,
+          "input": "/tmp/slopless-qa-fix-000017/mixed-final-input-1.json",
+          "inputSha256": "676737cb0d3d9105f0e5de744f8e88e627a1f95e7c2cfd9bbc8f8f7277319845",
+          "output": "/tmp/slopless-qa-fix-000017/mixed-final-output-1.json",
+          "outputSha256": "aba35a4adf3c98bad13705d7f3c660a52ae3906164fb7c994692b8909f428bd6",
+          "nativeResponse": "/tmp/slopless-qa-fix-000017/mixed-final-native-1.json",
+          "nativeResponseSha256": "df6d0c430efec35b4ea371a9a188d9662acfb25ced07a2833f0f023ed7d83827",
+          "prompt": "/tmp/slopless-qa-fix-000017/mixed-final-native-1.json.prompt.txt",
+          "promptSha256": "a3f54e46b3736665ece458c46c2bf752a13b78534d9dda4fbd2a0cfdf221f553",
+          "reviewedTargetsSha256": "3d3be50f73ca677458d58c44e1d38f3f8f6b5d9c42b1d500f4c31d3281be489a",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "durationMs": 46974,
+          "costUsd": 0.192928
+        },
+        {
+          "kind": "blind-mixed-classification",
+          "passages": 70,
+          "hits": 34,
+          "noHits": 36,
+          "input": "/tmp/slopless-qa-fix-000017/mixed-final-input-2.json",
+          "inputSha256": "2d87fa456ded0199f2221324456feae1137b4bf06a348cb48eb226ca7f8a4d48",
+          "output": "/tmp/slopless-qa-fix-000017/mixed-final-output-2.json",
+          "outputSha256": "54d36353aeb9aabcee4bd739e9c66a5cce45ccbd78797620b43e6f3d045bec83",
+          "nativeResponse": "/tmp/slopless-qa-fix-000017/mixed-final-native-2.json",
+          "nativeResponseSha256": "eb65fc235c27383f854fc56302bf7110abf46739dbdbe3bb738f93be5149626a",
+          "prompt": "/tmp/slopless-qa-fix-000017/mixed-final-native-2.json.prompt.txt",
+          "promptSha256": "9dca3f84afad5150bb1c09166e0a3f040fe9de7d986154e416d70ec39a7c2e90",
+          "reviewedTargetsSha256": "3d63a124179026f2567f4289ebb2e3a8a3e885b4f8905bc657d0663564079221",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "durationMs": 69392,
+          "costUsd": 0.24249199999999999
+        },
+        {
+          "kind": "blind-mixed-classification",
+          "passages": 61,
+          "hits": 33,
+          "noHits": 28,
+          "input": "/tmp/slopless-qa-fix-000017/mixed-final-input-3.json",
+          "inputSha256": "1245a300bee8889c7c2314a3b7c793d6ca633bd8f55adadc97fc3617b713fae1",
+          "output": "/tmp/slopless-qa-fix-000017/mixed-final-output-3.json",
+          "outputSha256": "bcba8a5b6a87dc10be3f7265189832032ac021b87347314cff1364a1cc73fb7c",
+          "nativeResponse": "/tmp/slopless-qa-fix-000017/mixed-final-native-3.json",
+          "nativeResponseSha256": "6cd95ea11142c982eb2f53a99fd3ffe92edcf5f3a9f493751bb6b8438b9c3fd6",
+          "prompt": "/tmp/slopless-qa-fix-000017/mixed-final-native-3.json.prompt.txt",
+          "promptSha256": "1bd62d8b1f3f8956070350beec09e3fe40d85a6a2038f836b45b77a5029db53c",
+          "reviewedTargetsSha256": "8b5c609e553cd971092b54c78bfcc600ac11882cc1594861572356ef504d0f10",
+          "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+          "models": ["claude-opus-5-5"],
+          "durationMs": 45377,
+          "costUsd": 0.188784
+        }
+      ],
+      "spanOnly": {
+        "kind": "label-supplied-span-only",
+        "classificationLabelsSupplied": true,
+        "passages": 3,
+        "input": "/tmp/slopless-qa-fix-000017/span-only-input.json",
+        "inputSha256": "c4cc8f6acfb7b5bdf988d3a20d97341bb2448fce7d8b677a34f04dbf174d7d28",
+        "output": "/tmp/slopless-qa-fix-000017/span-only-output.json",
+        "outputSha256": "053e2cf5510d3c145766b77d71f444d964e20749b8b6a208db829dea2d68d668",
+        "nativeResponse": "/tmp/slopless-qa-fix-000017/span-only-native.json",
+        "nativeResponseSha256": "4cf7c0ee2f08e2ee72b5e5c63af13d35cbebf73b9aaa54e58c05563973bb16ed",
+        "prompt": "/tmp/slopless-qa-fix-000017/span-only-prompt.txt",
+        "promptSha256": "c31bb851c38de508a6b8803a90838ec1cbc99fe3072a953961430316afc979d2",
+        "runnerSha256": "f08d3c1ea84acf2ac32a8618e96c5277aa0d1f4d6a5de95ed049d7cde24d953e",
+        "models": ["claude-opus-5-5"],
+        "costUsd": 0.038836,
+        "durationMs": 2792
+      },
+      "knownCostUsd": 0.66304
+    },
+    "freshAdjudications": [
+      {
+        "id": "000017-174",
+        "reviewId": "case-002",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The writer explicitly explains why the brother rather than the uncle must replace the window, and assigns responsibility to its thrower. Together those statements recover the brother as thrower."
+      },
+      {
+        "id": "000017-006",
+        "reviewId": "case-012",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": true,
+        "objectionSha256": "00645b83952ebf72e44594c441dd82b64f9376798b5b712d8a989cfba1f2f857",
+        "decision": "retain-adjudicated-label",
+        "reason": "The preceding rule makes purchasing the department responsible for a binding order; responsible department recovers that role by implication."
+      },
+      {
+        "id": "000017-039",
+        "reviewId": "case-022",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "Singular they has referee as its only supplied personal antecedent. The role needed to validate the stoppage is recoverable."
+      },
+      {
+        "id": "000017-058",
+        "reviewId": "case-027",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "0239247ed03cd3e057f323a6297965d48fbcfdaf9a231da9b2207840a93c091a",
+        "decision": "retain-adjudicated-label",
+        "reason": "The actual submitter determines who receives the key, while form arrival identifies no submitter. A name visible on an unshown form is hypothetical external context. Retain this performer omission, contrasting recipient-only control 000017-112."
+      },
+      {
+        "id": "000017-114",
+        "reviewId": "case-037",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "97d761a4e451dc54477f2215f97e9681d33f04828e791507ac28b3840156a748",
+        "decision": "retain-adjudicated-label",
+        "reason": "The cancellation source selects different restoration operations, and the completed notice supplies neither source. The reader might know from elsewhere, but the supplied passage does not recover it. Retain the hit; unlike 000017-172, no elimination or role rule selects the source."
+      },
+      {
+        "id": "000017-137",
+        "reviewId": "case-042",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "Only the choreographer can authorize the lift change. Treating the request as authorized on its origin recovers the choreographer as requester."
+      },
+      {
+        "id": "000017-103",
+        "reviewId": "case-046",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "13b8fd515a52c75fa47615a6e52d85d81debef52be91da9f2b73462dd7b897b7",
+        "decision": "retain-adjudicated-label",
+        "reason": "The deduction must come from one particular tenant allowance. The passage identifies the plumber as recipient of a call but omits the tenant who called. Unshown billing records would be external context. Retain this performer omission, contrasting 000017-112."
+      },
+      {
+        "id": "000017-003",
+        "reviewId": "case-063",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The unique casting-vote role identifies the partner and explains why the writer complied. A personal name adds no needed responsibility."
+      },
+      {
+        "id": "000017-184",
+        "reviewId": "case-064",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The captain is the only role whose concession is valid. Accepting the concession on the sender position recovers the captain."
+      },
+      {
+        "id": "000017-053",
+        "reviewId": "case-066",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The stated rule permits only a supervisor to make a binding halt request. Acceptance because of role identifies a supervisor by implication."
+      },
+      {
+        "id": "000017-190",
+        "reviewId": "case-067",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "Protection depends on a manager ordering deletion. Granting protection because of the source of that order supplies the manager role."
+      },
+      {
+        "id": "000017-072",
+        "reviewId": "case-068",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "7e8af93f7e45e1978123c1a6aca71f0422012772124e3426b4dc36e36f980eba",
+        "decision": "retain-adjudicated-label",
+        "reason": "The passage presents a resolved opening event and an action directed at its performer, without identifying the friend who opened the parcel. An intentionally unresolved mystery is not stated here. Retain the hit; compare 000017-154, where another claimed narrative resolution omits its performer."
+      },
+      {
+        "id": "000017-171",
+        "reviewId": "case-075",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "458e05cbcc2d7479d248182cbdd5e8e486b5c941d65f6b390e69ff8b8784aac9",
+        "decision": "retain-adjudicated-label",
+        "reason": "Authorized engineer merely repeats the unknown recipient of authority. The text permits only one of two engineers to act but supplies no distinguishing role or identity. Assuming an unshown authorization would import external context."
+      },
+      {
+        "id": "000017-133",
+        "reviewId": "case-078",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The opening procedure explicitly assigns label certification to the technician. The later assertion that no role is supplied contradicts that assignment; the actor role is recoverable."
+      },
+      {
+        "id": "000017-027",
+        "reviewId": "case-091",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "76f7c483d65fab268a1cddd1a08e554442023349d6293e2c47fc3bdfc6a3d4e6",
+        "decision": "retain-adjudicated-label",
+        "reason": "Departing pilot repeats the person surrendering control instead of distinguishing the crew member. The log explicitly undertakes to establish that responsibility, so the omission remains a hit."
+      },
+      {
+        "id": "000017-196",
+        "reviewId": "case-094",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "Accept independent finding B-001. The first-person narrator undertakes to honor the promise; the remaining unidentified child is its beneficiary. A beneficiary is not the performer of promising. Preserve the wording and label this check false, consistently with recipient control 000017-112 and actor-irrelevance control 000017-160."
+      },
+      {
+        "id": "000017-100",
+        "reviewId": "case-099",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "e8767e759dc5c9c370606c3e884b82bad1a0ccfe92819133497b676dabf566d4",
+        "decision": "retain-adjudicated-label",
+        "reason": "The handover purports to allocate two specific operations between dispatcher and mechanic without giving either assignment. Either person could hold the van or order the part. Retain the hit consistently with 000017-037, 000017-131 and 000017-176; job titles alone do not specify this allocation."
+      },
+      {
+        "id": "000017-085",
+        "reviewId": "case-108",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The alternatives are a voluntary signature or pressure from the chair. The finding of pressure selects the latter and identifies its actor."
+      },
+      {
+        "id": "000017-134",
+        "reviewId": "case-109",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "8dc19cbaeabfe8eeb508a963588236c9f04473cba9502b052b55f61cc0f10348",
+        "decision": "retain-adjudicated-label",
+        "reason": "The statement claims to identify the accepting delegate but reports only an agentless acceptance and a duty imposed on that delegate. A hypothetical name elsewhere is outside the complete supplied passage. Retain the hit consistently with the actor-dependent resolution in 000017-072."
+      },
+      {
+        "id": "000017-131",
+        "reviewId": "case-114",
+        "blindExpected": false,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "2c56da9f3cb57d7426dbb0e95dc7fe592514c7379f4c981b29d020fdf0758a41",
+        "decision": "retain-adjudicated-label",
+        "reason": "Each floor requires one responsible officer, but the complete plan gives neither officer-to-floor assignment. Officers cannot select their required floor from the supplied instruction; the missing allocation of responsibility is the defect."
+      },
+      {
+        "id": "000017-050",
+        "reviewId": "case-116",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The rule authorizes an employee and excludes a customer. Describing the waiver entrant as authorized therefore supplies the employee role needed to understand acceptance."
+      },
+      {
+        "id": "000017-152",
+        "reviewId": "case-122",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The report classifies shutdown as a preventable decision requiring retraining, selecting the operator rather than the automatic heat protection. That role explains the event."
+      },
+      {
+        "id": "000017-176",
+        "reviewId": "case-132",
+        "blindExpected": false,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "a845df105edb34f85252b7b6ee0eb4ec4581766420a8c78f31d819aca1678443",
+        "decision": "retain-adjudicated-label",
+        "reason": "Both machine positions must be staffed by different people, and the instruction tells the reader to take an assigned position without giving that assignment. Knowing that positions were assigned does not recover who feeds and who operates the stop switch."
+      },
+      {
+        "id": "000017-017",
+        "reviewId": "case-136",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": true,
+        "objectionSha256": "1fa7f6a8dcbdc0c360e4cbcc4c8ea0ebaa7be2613e9a8076b2d060e97904e628",
+        "decision": "retain-adjudicated-label",
+        "reason": "Other person is the partner relative to the narrator. That person accepts the decision-maker terms, recovering the narrator as the person who ended the engagement."
+      },
+      {
+        "id": "000017-037",
+        "reviewId": "case-141",
+        "blindExpected": false,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "ee5a8fa897cb1cac8057348dc0c9f80b4698a233c7ad591bee1d59894141afd4",
+        "decision": "retain-adjudicated-label",
+        "reason": "The passage divides two different operations between two farmhands but never assigns either operation to a person. Each identifies the group without recovering the responsibility mapping. Retain the hit consistently with 000017-100, 000017-131 and 000017-176; an unshown earlier assignment would supply external context."
+      },
+      {
+        "id": "000017-160",
+        "reviewId": "case-166",
+        "blindExpected": false,
+        "finalExpected": false,
+        "hadObjection": true,
+        "objectionSha256": "910fd3c1328084298ad92a1daeb3cd241afc2e3c2c65e6ac88f6170ed1c59ff9",
+        "decision": "retain-adjudicated-label",
+        "reason": "The supplied concern is whether Dad has company, and acceptance resolves that concern. The passage never requires the twins to be distinguished."
+      },
+      {
+        "id": "000017-112",
+        "reviewId": "case-174",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The missing executor is the recipient of the transfer. The performer of the transfer and the reader carrying out the return are not obscured by this omission; recipient identification is outside this named type."
+      },
+      {
+        "id": "000017-198",
+        "reviewId": "case-176",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The committee is the only supplied source of a binding playground closure. Presenting the closure as binding because of its maker supplies the committee by implication."
+      },
+      {
+        "id": "000017-059",
+        "reviewId": "case-177",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The judge is the sole supplied source of a compulsory instruction. Treating compliance as compulsory on the issuing authority recovers the judge role."
+      },
+      {
+        "id": "000017-191",
+        "reviewId": "case-178",
+        "blindExpected": true,
+        "finalExpected": false,
+        "hadObjection": false,
+        "objectionSha256": null,
+        "decision": "retain-adjudicated-label",
+        "reason": "The opening rule permits an instructor to excuse an absence and restricts a receptionist to recording it. Relying on the excusing authority recovers the instructor."
+      },
+      {
+        "id": "000017-127",
+        "reviewId": "case-181",
+        "blindExpected": true,
+        "finalExpected": true,
+        "hadObjection": true,
+        "objectionSha256": "fd7ce0a4b78d80c5341da12ddd325dbf28a110c4d1af82b831197a5410eb416c",
+        "decision": "retain-adjudicated-label",
+        "reason": "The return instruction depends on who sewed the dress, distinguished from its seller. Maker repeats the unknown performer; sewn to order identifies no maker. The responsible recipient of the required return remains unresolved."
+      },
+      {
+        "id": "000017-172",
+        "reviewId": "case-200",
+        "blindExpected": false,
+        "finalExpected": false,
+        "hadObjection": true,
+        "objectionSha256": "9b0569241948228f0349dd10f5a28d53ce0497ab6410a62831f602efbdd1a15a",
+        "decision": "retain-adjudicated-label",
+        "reason": "The review limits responsibility to the director and operator, and identifies the operator as the follower. The director is recoverable as the giver of the instruction."
+      }
+    ],
+    "duplicateAudit": {
+      "collectionCount": 18,
+      "ownPassages": 201,
+      "ownInput": {
+        "path": "/tmp/slopless-qa-fix-000017/proposed-final-rows.json",
+        "sha256": "424e3812fbcfd0e261e2a5c69e58778a97396fbecef468813a48c986f670da18"
+      },
+      "otherPassages": 3407,
+      "developmentPassages": 1602,
+      "protectedPassages": 1805,
+      "exampleCount": 243,
+      "thresholds": { "wordsetJaccard": 0.55, "threeWordShingleJaccard": 0.35 },
+      "within": {
+        "comparisons": 20100,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.2619047619047619,
+        "maxThreeWordShingleJaccard": 0.046511627906976744,
+        "wordsetThresholdMatches": 0,
+        "threeWordShingleThresholdMatches": 0
+      },
+      "development": {
+        "comparisons": 322002,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.25,
+        "maxThreeWordShingleJaccard": 0.05263157894736842,
+        "wordsetThresholdMatches": 0,
+        "threeWordShingleThresholdMatches": 0
+      },
+      "protectedComparison": {
+        "comparisons": 362805,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.3,
+        "maxThreeWordShingleJaccard": 0.07692307692307693,
+        "wordsetThresholdMatches": 0,
+        "threeWordShingleThresholdMatches": 0
+      },
+      "examples": {
+        "comparisons": 48843,
+        "exactDuplicates": 0,
+        "maxWordsetJaccard": 0.23809523809523808,
+        "maxThreeWordShingleJaccard": 0.06666666666666667,
+        "wordsetThresholdMatches": 0,
+        "threeWordShingleThresholdMatches": 0
+      },
+      "inputs": [
+        {
+          "path": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+          "sha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md",
+          "sha256": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
+          "sha256": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md",
+          "sha256": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md",
+          "sha256": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md",
+          "sha256": "1ffd44466d41e349a34b26551be9fce8e0795cc8241a63b4fa9e44683d85f3df"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+          "sha256": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md",
+          "sha256": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md",
+          "sha256": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md",
+          "sha256": "35111fb951b880bd2723a6d9bc26ec6c50293e128eb04950081f26aa991ae34d"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
+          "sha256": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000012-semantic-thinness-unexplained-metaphor-holdout.md",
+          "sha256": "87cef18afcf36e98593b89df90bf3977c5524db285f7a5a5909f4ea09d9c6990"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
+          "sha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000014-semantic-thinness-unspecified-scope-holdout.md",
+          "sha256": "66b25721382c931ccfaf2e1c5814b141d5ae9a234f506438fc4bb997d6e32b61"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md",
+          "sha256": "2ebbbb0af0318b29e98d0ca2bd31b5dbb216f23a4152861787ed4927cec38218"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md",
+          "sha256": "d847e4b08a3ab3d60eb41bf08b0013cc2d6f50208ea56747a4e68348298f3229"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000018-semantic-thinness-missing-actor-holdout.md",
+          "sha256": "bc54e1f2fc941c04d97ca95e12bc325ba7ee81df762c593e099c6c838f5a59e0"
+        },
+        {
+          "path": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+          "sha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8"
+        },
+        {
+          "path": "prompts/v1/abstract-contrast.md",
+          "sha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676"
+        },
+        {
+          "path": "prompts/v1/emotion-as-substance.md",
+          "sha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72"
+        },
+        {
+          "path": "prompts/v1/generic-realization.md",
+          "sha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465"
+        },
+        {
+          "path": "prompts/v1/shared.md",
+          "sha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+        }
+      ],
+      "protectedAccess": "Opaque Markdown-only duplicate comparison; no held writing, labels, snippets, IDs, nearest matches or objections emitted to author context.",
+      "originalPassagesPreserved": true
+    },
+    "duplicateAuditEvidenceSha256": "e1326a77dbf753d2d121257fcc3935009584b14a31793d9ad8653997e626ec78",
+    "validation": {
+      "readDocument": { "documents": 1, "samples": 201, "labels": 201 },
+      "loadDataset": {
+        "targets": 201,
+        "check": "semantic-thinness/missing-actor"
+      },
+      "uniqueIds": 201,
+      "uniqueNormalizedPassages": 201,
+      "originalPassageTextsPreserved": 200,
+      "exactFinalTextsMatchedToRetainedBlindPrompts": 201,
+      "exactFinalOpusSnippetArrays": 100,
+      "hitSnippetsFromBlindClassification": 97,
+      "hitSnippetsFromLabelSuppliedSpanOnly": 3,
+      "noHitSnippetsOmitted": 101,
+      "checksumExactFinalMarkdownBytes": true,
+      "onePhysicalLinePerPassage": true,
+      "asciiOnly": true,
+      "atLeastTwenty45To90WordPassagesPerClass": true,
+      "formatter": "prettier --prose-wrap preserve --ignore-path /dev/null; formatted before final range/checksum refresh",
+      "slopless": "Not run on intentional evaluation data."
+    },
+    "unresolved": {
+      "labelErrors": 0,
+      "boundaryConcerns": 0,
+      "historicalArtifactRetentionFindings": 1,
+      "missingHistoricalResponses": 2,
+      "currentFinalProvenanceGaps": 0
+    }
+  },
+  "independentCorrectionRecheckB": {
+    "reviewer": "Independent reviewer B",
+    "status": "current-final-passed-historical-retention-gap-preserved",
+    "passages": 201,
+    "hits": 100,
+    "noHits": 101,
+    "words": 6761,
+    "longHits": 26,
+    "longNoHits": 25,
+    "originalTextsRetained": 200,
+    "originalIdsRetained": 200,
+    "originalCasesDropped": 0,
+    "originalTextsChanged": 0,
+    "labelCorrections": 1,
+    "addedPassages": 1,
+    "frozenReviewTextMatches": 201,
+    "actualOpusHitSnippetMatches": 100,
+    "actualOpusSnippets": 109,
+    "hitSnippetArraysFromBlindClassification": 97,
+    "hitSnippetArraysFromLabelSuppliedSpanOnly": 3,
+    "rawArchivePairsVerified": 4,
+    "nativeResponsesVerified": 4,
+    "originalAdjudicationsPreviouslyAudited": 29,
+    "currentFlagsManuallyAdjudicated": 32,
+    "currentModelDisagreements": 21,
+    "currentRetainedHitDisagreements": 3,
+    "currentRetainedNoHitDisagreements": 18,
+    "previousLabelFindingsResolved": 1,
+    "newMaterialLabelOrBoundaryConcerns": 0,
+    "currentFinalProvenanceGaps": 0,
+    "unresolvedHistoricalRetentionFindings": 1,
+    "missingHistoricalResponses": 2,
+    "recoveredHistoricalResponses": 0,
+    "historicalEvidence": "Initial QA-B verified the original response hashes before overwrite. Both original response files remain unrecovered. Current evidence comes from three new retained mixed blind calls and a separately identified label-supplied span-only call.",
+    "aggregatePath": "/tmp/slopless-family-qa-b-correction-pass3-summary.json",
+    "privateEvidencePath": "/tmp/slopless-family-qa-b-correction-pass3-private.json"
+  },
+  "finalIndependentQaB": {
+    "reviewer": "Independent reviewer B",
+    "status": "current-final-passed-historical-retention-gap-preserved",
+    "passages": 201,
+    "hits": 100,
+    "noHits": 101,
+    "words": 6761,
+    "longHits": 26,
+    "longNoHits": 25,
+    "originalTextsAndIdsRetained": 200,
+    "postIndependentLabelCorrections": 1,
+    "addedPassages": 1,
+    "currentFinalTextsMatchedToRawBlindInput": 201,
+    "currentHitSnippetSelectionsMatchedToActualOpus": 100,
+    "currentOpusSnippetStrings": 109,
+    "labelSuppliedSpanOnlyHitSelections": 3,
+    "latestAvailableBlindReviewDisagreements": 21,
+    "disagreementScope": "Latest actual matching blind classification per current passage, including the independent mixed followup; original counts remain in their original fields.",
+    "previousLabelOrBoundaryFindingsResolved": 1,
+    "unresolvedLabelOrBoundaryConcerns": 0,
+    "currentFinalProvenanceGaps": 0,
+    "historicalRetentionFindings": 1,
+    "unrecoveredHistoricalResponses": 2,
+    "finalOverlap": {
+      "targetPassages": 1620,
+      "familyCollectionsCompared": 18,
+      "legacyCollectionsCompared": 4,
+      "referenceUnits": 507,
+      "thresholdCandidatesInspected": 32,
+      "newAdditionNearestCandidatesInspected": 40,
+      "exactCopies": 0,
+      "derivativeConcerns": 0
+    },
+    "aggregatePath": "/tmp/slopless-family-qa-b-summary.json",
+    "privateProofPath": "/tmp/slopless-family-qa-b-final-source-proof-private.json"
+  }
+}

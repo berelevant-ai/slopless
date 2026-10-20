@@ -1,0 +1,2348 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "d847e4b08a3ab3d60eb41bf08b0013cc2d6f50208ea56747a4e68348298f3229",
+  "source": {
+    "name": "Protected synthetic unspecified-relationship holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000016-semantic-thinness-unspecified-relationship-holdout.md",
+    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "model": "Codex author; claude-opus-5-5 blind reviewer",
+    "notes": "Initial 200 passages drafted before development inspection; three independent passages appended after definition-based QA. Blind Opus review with author adjudication."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "samples": [
+    {
+      "id": "000016-001",
+      "start": 51,
+      "end": 193
+    },
+    {
+      "id": "000016-002",
+      "start": 210,
+      "end": 349
+    },
+    {
+      "id": "000016-003",
+      "start": 366,
+      "end": 494
+    },
+    {
+      "id": "000016-004",
+      "start": 511,
+      "end": 652
+    },
+    {
+      "id": "000016-005",
+      "start": 669,
+      "end": 813
+    },
+    {
+      "id": "000016-006",
+      "start": 830,
+      "end": 1100
+    },
+    {
+      "id": "000016-007",
+      "start": 1117,
+      "end": 1271
+    },
+    {
+      "id": "000016-008",
+      "start": 1288,
+      "end": 1587
+    },
+    {
+      "id": "000016-009",
+      "start": 1604,
+      "end": 1896
+    },
+    {
+      "id": "000016-010",
+      "start": 1913,
+      "end": 2238
+    },
+    {
+      "id": "000016-011",
+      "start": 2255,
+      "end": 2389
+    },
+    {
+      "id": "000016-012",
+      "start": 2406,
+      "end": 2547
+    },
+    {
+      "id": "000016-013",
+      "start": 2564,
+      "end": 2872
+    },
+    {
+      "id": "000016-014",
+      "start": 2889,
+      "end": 3047
+    },
+    {
+      "id": "000016-015",
+      "start": 3064,
+      "end": 3213
+    },
+    {
+      "id": "000016-016",
+      "start": 3230,
+      "end": 3342
+    },
+    {
+      "id": "000016-017",
+      "start": 3359,
+      "end": 3483
+    },
+    {
+      "id": "000016-018",
+      "start": 3500,
+      "end": 3645
+    },
+    {
+      "id": "000016-019",
+      "start": 3662,
+      "end": 3779
+    },
+    {
+      "id": "000016-020",
+      "start": 3796,
+      "end": 3938
+    },
+    {
+      "id": "000016-021",
+      "start": 3955,
+      "end": 4027
+    },
+    {
+      "id": "000016-022",
+      "start": 4044,
+      "end": 4195
+    },
+    {
+      "id": "000016-023",
+      "start": 4212,
+      "end": 4317
+    },
+    {
+      "id": "000016-024",
+      "start": 4334,
+      "end": 4451
+    },
+    {
+      "id": "000016-025",
+      "start": 4468,
+      "end": 4614
+    },
+    {
+      "id": "000016-026",
+      "start": 4631,
+      "end": 4763
+    },
+    {
+      "id": "000016-027",
+      "start": 4780,
+      "end": 4866
+    },
+    {
+      "id": "000016-028",
+      "start": 4883,
+      "end": 5194
+    },
+    {
+      "id": "000016-029",
+      "start": 5211,
+      "end": 5333
+    },
+    {
+      "id": "000016-030",
+      "start": 5350,
+      "end": 5468
+    },
+    {
+      "id": "000016-031",
+      "start": 5485,
+      "end": 5628
+    },
+    {
+      "id": "000016-032",
+      "start": 5645,
+      "end": 5763
+    },
+    {
+      "id": "000016-033",
+      "start": 5780,
+      "end": 6088
+    },
+    {
+      "id": "000016-034",
+      "start": 6105,
+      "end": 6427
+    },
+    {
+      "id": "000016-035",
+      "start": 6444,
+      "end": 6573
+    },
+    {
+      "id": "000016-036",
+      "start": 6590,
+      "end": 6701
+    },
+    {
+      "id": "000016-037",
+      "start": 6718,
+      "end": 6836
+    },
+    {
+      "id": "000016-038",
+      "start": 6853,
+      "end": 7002
+    },
+    {
+      "id": "000016-039",
+      "start": 7019,
+      "end": 7190
+    },
+    {
+      "id": "000016-040",
+      "start": 7207,
+      "end": 7338
+    },
+    {
+      "id": "000016-041",
+      "start": 7355,
+      "end": 7672
+    },
+    {
+      "id": "000016-042",
+      "start": 7689,
+      "end": 7812
+    },
+    {
+      "id": "000016-043",
+      "start": 7829,
+      "end": 8157
+    },
+    {
+      "id": "000016-044",
+      "start": 8174,
+      "end": 8280
+    },
+    {
+      "id": "000016-045",
+      "start": 8297,
+      "end": 8627
+    },
+    {
+      "id": "000016-046",
+      "start": 8644,
+      "end": 8954
+    },
+    {
+      "id": "000016-047",
+      "start": 8971,
+      "end": 9099
+    },
+    {
+      "id": "000016-048",
+      "start": 9116,
+      "end": 9256
+    },
+    {
+      "id": "000016-049",
+      "start": 9273,
+      "end": 9435
+    },
+    {
+      "id": "000016-050",
+      "start": 9452,
+      "end": 9605
+    },
+    {
+      "id": "000016-051",
+      "start": 9622,
+      "end": 9738
+    },
+    {
+      "id": "000016-052",
+      "start": 9755,
+      "end": 9880
+    },
+    {
+      "id": "000016-053",
+      "start": 9897,
+      "end": 10001
+    },
+    {
+      "id": "000016-054",
+      "start": 10018,
+      "end": 10109
+    },
+    {
+      "id": "000016-055",
+      "start": 10126,
+      "end": 10439
+    },
+    {
+      "id": "000016-056",
+      "start": 10456,
+      "end": 10575
+    },
+    {
+      "id": "000016-057",
+      "start": 10592,
+      "end": 10731
+    },
+    {
+      "id": "000016-058",
+      "start": 10748,
+      "end": 10899
+    },
+    {
+      "id": "000016-059",
+      "start": 10916,
+      "end": 11053
+    },
+    {
+      "id": "000016-060",
+      "start": 11070,
+      "end": 11215
+    },
+    {
+      "id": "000016-061",
+      "start": 11232,
+      "end": 11382
+    },
+    {
+      "id": "000016-062",
+      "start": 11399,
+      "end": 11530
+    },
+    {
+      "id": "000016-063",
+      "start": 11547,
+      "end": 11850
+    },
+    {
+      "id": "000016-064",
+      "start": 11867,
+      "end": 12183
+    },
+    {
+      "id": "000016-065",
+      "start": 12200,
+      "end": 12337
+    },
+    {
+      "id": "000016-066",
+      "start": 12354,
+      "end": 12681
+    },
+    {
+      "id": "000016-067",
+      "start": 12698,
+      "end": 13047
+    },
+    {
+      "id": "000016-068",
+      "start": 13064,
+      "end": 13212
+    },
+    {
+      "id": "000016-069",
+      "start": 13229,
+      "end": 13553
+    },
+    {
+      "id": "000016-070",
+      "start": 13570,
+      "end": 13715
+    },
+    {
+      "id": "000016-071",
+      "start": 13732,
+      "end": 13868
+    },
+    {
+      "id": "000016-072",
+      "start": 13885,
+      "end": 14044
+    },
+    {
+      "id": "000016-073",
+      "start": 14061,
+      "end": 14384
+    },
+    {
+      "id": "000016-074",
+      "start": 14401,
+      "end": 14502
+    },
+    {
+      "id": "000016-075",
+      "start": 14519,
+      "end": 14645
+    },
+    {
+      "id": "000016-076",
+      "start": 14662,
+      "end": 14955
+    },
+    {
+      "id": "000016-077",
+      "start": 14972,
+      "end": 15291
+    },
+    {
+      "id": "000016-078",
+      "start": 15308,
+      "end": 15421
+    },
+    {
+      "id": "000016-079",
+      "start": 15438,
+      "end": 15741
+    },
+    {
+      "id": "000016-080",
+      "start": 15758,
+      "end": 16098
+    },
+    {
+      "id": "000016-081",
+      "start": 16115,
+      "end": 16208
+    },
+    {
+      "id": "000016-082",
+      "start": 16225,
+      "end": 16562
+    },
+    {
+      "id": "000016-083",
+      "start": 16579,
+      "end": 16907
+    },
+    {
+      "id": "000016-084",
+      "start": 16924,
+      "end": 17041
+    },
+    {
+      "id": "000016-085",
+      "start": 17058,
+      "end": 17159
+    },
+    {
+      "id": "000016-086",
+      "start": 17176,
+      "end": 17333
+    },
+    {
+      "id": "000016-087",
+      "start": 17350,
+      "end": 17454
+    },
+    {
+      "id": "000016-088",
+      "start": 17471,
+      "end": 17566
+    },
+    {
+      "id": "000016-089",
+      "start": 17583,
+      "end": 17733
+    },
+    {
+      "id": "000016-090",
+      "start": 17750,
+      "end": 17851
+    },
+    {
+      "id": "000016-091",
+      "start": 17868,
+      "end": 18029
+    },
+    {
+      "id": "000016-092",
+      "start": 18046,
+      "end": 18191
+    },
+    {
+      "id": "000016-093",
+      "start": 18208,
+      "end": 18387
+    },
+    {
+      "id": "000016-094",
+      "start": 18404,
+      "end": 18509
+    },
+    {
+      "id": "000016-095",
+      "start": 18526,
+      "end": 18846
+    },
+    {
+      "id": "000016-096",
+      "start": 18863,
+      "end": 19006
+    },
+    {
+      "id": "000016-097",
+      "start": 19023,
+      "end": 19172
+    },
+    {
+      "id": "000016-098",
+      "start": 19189,
+      "end": 19312
+    },
+    {
+      "id": "000016-099",
+      "start": 19329,
+      "end": 19482
+    },
+    {
+      "id": "000016-100",
+      "start": 19499,
+      "end": 19646
+    },
+    {
+      "id": "000016-101",
+      "start": 19663,
+      "end": 19813
+    },
+    {
+      "id": "000016-102",
+      "start": 19830,
+      "end": 19953
+    },
+    {
+      "id": "000016-103",
+      "start": 19970,
+      "end": 20064
+    },
+    {
+      "id": "000016-104",
+      "start": 20081,
+      "end": 20182
+    },
+    {
+      "id": "000016-105",
+      "start": 20199,
+      "end": 20352
+    },
+    {
+      "id": "000016-106",
+      "start": 20369,
+      "end": 20518
+    },
+    {
+      "id": "000016-107",
+      "start": 20535,
+      "end": 20671
+    },
+    {
+      "id": "000016-108",
+      "start": 20688,
+      "end": 20815
+    },
+    {
+      "id": "000016-109",
+      "start": 20832,
+      "end": 20915
+    },
+    {
+      "id": "000016-110",
+      "start": 20932,
+      "end": 21241
+    },
+    {
+      "id": "000016-111",
+      "start": 21258,
+      "end": 21357
+    },
+    {
+      "id": "000016-112",
+      "start": 21374,
+      "end": 21515
+    },
+    {
+      "id": "000016-113",
+      "start": 21532,
+      "end": 21670
+    },
+    {
+      "id": "000016-114",
+      "start": 21687,
+      "end": 21816
+    },
+    {
+      "id": "000016-115",
+      "start": 21833,
+      "end": 22011
+    },
+    {
+      "id": "000016-116",
+      "start": 22028,
+      "end": 22326
+    },
+    {
+      "id": "000016-117",
+      "start": 22343,
+      "end": 22503
+    },
+    {
+      "id": "000016-118",
+      "start": 22520,
+      "end": 22649
+    },
+    {
+      "id": "000016-119",
+      "start": 22666,
+      "end": 23002
+    },
+    {
+      "id": "000016-120",
+      "start": 23019,
+      "end": 23135
+    },
+    {
+      "id": "000016-121",
+      "start": 23152,
+      "end": 23314
+    },
+    {
+      "id": "000016-122",
+      "start": 23331,
+      "end": 23482
+    },
+    {
+      "id": "000016-123",
+      "start": 23499,
+      "end": 23642
+    },
+    {
+      "id": "000016-124",
+      "start": 23659,
+      "end": 23750
+    },
+    {
+      "id": "000016-125",
+      "start": 23767,
+      "end": 23861
+    },
+    {
+      "id": "000016-126",
+      "start": 23878,
+      "end": 24011
+    },
+    {
+      "id": "000016-127",
+      "start": 24028,
+      "end": 24166
+    },
+    {
+      "id": "000016-128",
+      "start": 24183,
+      "end": 24326
+    },
+    {
+      "id": "000016-129",
+      "start": 24343,
+      "end": 24627
+    },
+    {
+      "id": "000016-130",
+      "start": 24644,
+      "end": 24786
+    },
+    {
+      "id": "000016-131",
+      "start": 24803,
+      "end": 24927
+    },
+    {
+      "id": "000016-132",
+      "start": 24944,
+      "end": 25087
+    },
+    {
+      "id": "000016-133",
+      "start": 25104,
+      "end": 25434
+    },
+    {
+      "id": "000016-134",
+      "start": 25451,
+      "end": 25563
+    },
+    {
+      "id": "000016-135",
+      "start": 25580,
+      "end": 25876
+    },
+    {
+      "id": "000016-136",
+      "start": 25893,
+      "end": 26007
+    },
+    {
+      "id": "000016-137",
+      "start": 26024,
+      "end": 26147
+    },
+    {
+      "id": "000016-138",
+      "start": 26164,
+      "end": 26438
+    },
+    {
+      "id": "000016-139",
+      "start": 26455,
+      "end": 26582
+    },
+    {
+      "id": "000016-140",
+      "start": 26599,
+      "end": 26692
+    },
+    {
+      "id": "000016-141",
+      "start": 26709,
+      "end": 27042
+    },
+    {
+      "id": "000016-142",
+      "start": 27059,
+      "end": 27169
+    },
+    {
+      "id": "000016-143",
+      "start": 27186,
+      "end": 27499
+    },
+    {
+      "id": "000016-144",
+      "start": 27516,
+      "end": 27650
+    },
+    {
+      "id": "000016-145",
+      "start": 27667,
+      "end": 27767
+    },
+    {
+      "id": "000016-146",
+      "start": 27784,
+      "end": 27908
+    },
+    {
+      "id": "000016-147",
+      "start": 27925,
+      "end": 28210
+    },
+    {
+      "id": "000016-148",
+      "start": 28227,
+      "end": 28544
+    },
+    {
+      "id": "000016-149",
+      "start": 28561,
+      "end": 28710
+    },
+    {
+      "id": "000016-150",
+      "start": 28727,
+      "end": 28831
+    },
+    {
+      "id": "000016-151",
+      "start": 28848,
+      "end": 29150
+    },
+    {
+      "id": "000016-152",
+      "start": 29167,
+      "end": 29301
+    },
+    {
+      "id": "000016-153",
+      "start": 29318,
+      "end": 29462
+    },
+    {
+      "id": "000016-154",
+      "start": 29479,
+      "end": 29590
+    },
+    {
+      "id": "000016-155",
+      "start": 29607,
+      "end": 29912
+    },
+    {
+      "id": "000016-156",
+      "start": 29929,
+      "end": 30005
+    },
+    {
+      "id": "000016-157",
+      "start": 30022,
+      "end": 30164
+    },
+    {
+      "id": "000016-158",
+      "start": 30181,
+      "end": 30500
+    },
+    {
+      "id": "000016-159",
+      "start": 30517,
+      "end": 30680
+    },
+    {
+      "id": "000016-160",
+      "start": 30697,
+      "end": 31004
+    },
+    {
+      "id": "000016-161",
+      "start": 31021,
+      "end": 31331
+    },
+    {
+      "id": "000016-162",
+      "start": 31348,
+      "end": 31474
+    },
+    {
+      "id": "000016-163",
+      "start": 31491,
+      "end": 31631
+    },
+    {
+      "id": "000016-164",
+      "start": 31648,
+      "end": 31777
+    },
+    {
+      "id": "000016-165",
+      "start": 31794,
+      "end": 31878
+    },
+    {
+      "id": "000016-166",
+      "start": 31895,
+      "end": 32031
+    },
+    {
+      "id": "000016-167",
+      "start": 32048,
+      "end": 32148
+    },
+    {
+      "id": "000016-168",
+      "start": 32165,
+      "end": 32478
+    },
+    {
+      "id": "000016-169",
+      "start": 32495,
+      "end": 32869
+    },
+    {
+      "id": "000016-170",
+      "start": 32886,
+      "end": 33059
+    },
+    {
+      "id": "000016-171",
+      "start": 33076,
+      "end": 33213
+    },
+    {
+      "id": "000016-172",
+      "start": 33230,
+      "end": 33365
+    },
+    {
+      "id": "000016-173",
+      "start": 33382,
+      "end": 33526
+    },
+    {
+      "id": "000016-174",
+      "start": 33543,
+      "end": 33679
+    },
+    {
+      "id": "000016-175",
+      "start": 33696,
+      "end": 33809
+    },
+    {
+      "id": "000016-176",
+      "start": 33826,
+      "end": 33966
+    },
+    {
+      "id": "000016-177",
+      "start": 33983,
+      "end": 34103
+    },
+    {
+      "id": "000016-178",
+      "start": 34120,
+      "end": 34432
+    },
+    {
+      "id": "000016-179",
+      "start": 34449,
+      "end": 34574
+    },
+    {
+      "id": "000016-180",
+      "start": 34591,
+      "end": 34690
+    },
+    {
+      "id": "000016-181",
+      "start": 34707,
+      "end": 34828
+    },
+    {
+      "id": "000016-182",
+      "start": 34845,
+      "end": 35003
+    },
+    {
+      "id": "000016-183",
+      "start": 35020,
+      "end": 35158
+    },
+    {
+      "id": "000016-184",
+      "start": 35175,
+      "end": 35489
+    },
+    {
+      "id": "000016-185",
+      "start": 35506,
+      "end": 35829
+    },
+    {
+      "id": "000016-186",
+      "start": 35846,
+      "end": 35974
+    },
+    {
+      "id": "000016-187",
+      "start": 35991,
+      "end": 36086
+    },
+    {
+      "id": "000016-188",
+      "start": 36103,
+      "end": 36408
+    },
+    {
+      "id": "000016-189",
+      "start": 36425,
+      "end": 36699
+    },
+    {
+      "id": "000016-190",
+      "start": 36716,
+      "end": 37036
+    },
+    {
+      "id": "000016-191",
+      "start": 37053,
+      "end": 37129
+    },
+    {
+      "id": "000016-192",
+      "start": 37146,
+      "end": 37284
+    },
+    {
+      "id": "000016-193",
+      "start": 37301,
+      "end": 37428
+    },
+    {
+      "id": "000016-194",
+      "start": 37445,
+      "end": 37564
+    },
+    {
+      "id": "000016-195",
+      "start": 37581,
+      "end": 37684
+    },
+    {
+      "id": "000016-196",
+      "start": 37701,
+      "end": 37832
+    },
+    {
+      "id": "000016-197",
+      "start": 37849,
+      "end": 37972
+    },
+    {
+      "id": "000016-198",
+      "start": 37989,
+      "end": 38104
+    },
+    {
+      "id": "000016-199",
+      "start": 38121,
+      "end": 38273
+    },
+    {
+      "id": "000016-200",
+      "start": 38290,
+      "end": 38423
+    },
+    {
+      "id": "000016-201",
+      "start": 38440,
+      "end": 38797
+    },
+    {
+      "id": "000016-202",
+      "start": 38814,
+      "end": 39152
+    },
+    {
+      "id": "000016-203",
+      "start": 39169,
+      "end": 39520
+    }
+  ],
+  "labels": [
+    {
+      "id": "000016-001",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Revision J, rather than revision K, deserves publication on grounds of their substantive difference."
+      ]
+    },
+    {
+      "id": "000016-002",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "journey one and journey two amount to the same thing on the point in question. Their equivalence settles the case."
+      ]
+    },
+    {
+      "id": "000016-003",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "My two visits were similar where similarity counts for this account. This similarity explains why I tell their stories together."
+      ]
+    },
+    {
+      "id": "000016-004",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The cookery school assigns a special relationship to the sauce and the filling. It gives this relationship as the reason the recipe succeeds."
+      ]
+    },
+    {
+      "id": "000016-005",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "A relationship between the beacon and the stranded crew explains the rescue as I tell it here."
+      ]
+    },
+    {
+      "id": "000016-006",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "I regard the two nights at the station as the same kind of experience in the respect this memoir is concerned with. That sameness explains why I place them together."
+      ]
+    },
+    {
+      "id": "000016-007",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Consider the first and last applications together in view of the particular relationship they bear."
+      ]
+    },
+    {
+      "id": "000016-008",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "They differ in a way that is essential to the restoration decision."
+      ]
+    },
+    {
+      "id": "000016-009",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-010",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The account given here establishes a connection between the festival and the strike. Understanding that connection is the purpose of this chapter."
+      ]
+    },
+    {
+      "id": "000016-011",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Diagnostic finding for samples U and V: a difference, specifically of kind. This finding settles the technician's choice of treatment."
+      ]
+    },
+    {
+      "id": "000016-012",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "A definite relationship obtains between the new tariff and the harbour repairs. It is on this relationship that our funding proposal depends."
+      ]
+    },
+    {
+      "id": "000016-013",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-014",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Between the silver seal and the handwritten date there exists a relationship that determines the document's validity."
+      ]
+    },
+    {
+      "id": "000016-015",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "the supervisor uses the contrast in character between the undescribed tasks labelled red and blue. This is her training rule."
+      ]
+    },
+    {
+      "id": "000016-016",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-017",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "the supervisors must differ because the kinds of responsibility differ."
+      ]
+    },
+    {
+      "id": "000016-018",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "I refused a third conversation because the second had been an exchange of another order from the first."
+      ]
+    },
+    {
+      "id": "000016-019",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-020",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The report explains the queue by noting a particular interconnection between reception and the laboratory."
+      ]
+    },
+    {
+      "id": "000016-021",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-022",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "My reason for accepting invitation two is what separates the invitations as requests for participation. That separation is the comparison I offer here."
+      ]
+    },
+    {
+      "id": "000016-023",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-024",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Their functions differ in the way that matters when operating this machine."
+      ]
+    },
+    {
+      "id": "000016-025",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The retreat organizer describes a distinct connection between the meal and the afternoon walk. That connection is the rationale for the programme."
+      ]
+    },
+    {
+      "id": "000016-026",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Issue either handbook to the crew: they match on the feature governing suitability."
+      ]
+    },
+    {
+      "id": "000016-027",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-028",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-029",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-030",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-031",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The notes establish an association between the missing stamp and the broken vase. That association is my account of what happened in the house."
+      ]
+    },
+    {
+      "id": "000016-032",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-033",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-034",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Please treat the coastal office and the inland office as distinct kinds of operation for the staffing decision. This distinction is the basis of my recommendation."
+      ]
+    },
+    {
+      "id": "000016-035",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-036",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-037",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-038",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-039",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "no distinction need be drawn between the unlabelled exhibits on the criterion in use. This assessment authorizes substituting either for the other."
+      ]
+    },
+    {
+      "id": "000016-040",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-041",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-042",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-043",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-044",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-045",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-046",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-047",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The seminar links the two portraits in a particular manner. This is its account of why the portraits should be studied together."
+      ]
+    },
+    {
+      "id": "000016-048",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "the rejected draft offers one order of argument, the accepted draft another."
+      ]
+    },
+    {
+      "id": "000016-049",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "explains its unequal rates for two undescribed posts by contrasting the character of the work."
+      ]
+    },
+    {
+      "id": "000016-050",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The briefing specifies a relationship between the gate and the spillway as its explanation for the drainage problem."
+      ]
+    },
+    {
+      "id": "000016-051",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-052",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-053",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-054",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-055",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "the briefing draws a distinction between their approaches. It describes X as one sort of approach and Y as another."
+      ]
+    },
+    {
+      "id": "000016-056",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "subscribe to version two on account of its distinct character as a service."
+      ]
+    },
+    {
+      "id": "000016-057",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Strike clause P and retain clause Q: they embody distinct sorts of provision."
+      ]
+    },
+    {
+      "id": "000016-058",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-059",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-060",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The club merger and the tournament belong together in a particular sense. This is the relationship on which our scheduling recommendation relies."
+      ]
+    },
+    {
+      "id": "000016-061",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Dispose of the frozen samples together on the strength of what unites them for disposal purposes. Their shared character is the stated selection rule."
+      ]
+    },
+    {
+      "id": "000016-062",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The essay identifies a connection between the two unnamed painters, a connection that explains their treatment in a single chapter."
+      ]
+    },
+    {
+      "id": "000016-063",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-064",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-065",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-066",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Their tutor described the first and second attempts as belonging to different kinds of work. She used that distinction to assign their final marks"
+      ]
+    },
+    {
+      "id": "000016-067",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The columnist groups the two resignations together because of their shared character. This shared character supplies the argument for treating them as a single political event."
+      ]
+    },
+    {
+      "id": "000016-068",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The report associates the hiring freeze with the warehouse project in a definite way. This association supplies its answer to the staffing question."
+      ]
+    },
+    {
+      "id": "000016-069",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-070",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The notes connect the resignation and the postponed concert in a certain sense. This connection is their answer to why the concert was postponed."
+      ]
+    },
+    {
+      "id": "000016-071",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "a particular association joins the bakery to the debt. That association accounts for why the baker received the demand."
+      ]
+    },
+    {
+      "id": "000016-072",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-073",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "the manual regards the two sealed cartridges as equivalent in the relevant sense. That equivalence authorizes the substitution."
+      ]
+    },
+    {
+      "id": "000016-074",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-075",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "I connect the detour and the missed appointment in a particular fashion. That connection is how I explain my conduct that day."
+      ]
+    },
+    {
+      "id": "000016-076",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Package A and package B are alike where it matters for this purchase. We used that equivalence to approve either one for the workshop."
+      ]
+    },
+    {
+      "id": "000016-077",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "We have found a relationship between the two patterns in the recordings, and that relationship explains the result."
+      ]
+    },
+    {
+      "id": "000016-078",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-079",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "argues that they represent different kinds of judgment. This is the distinction on which the requested remedy rests."
+      ]
+    },
+    {
+      "id": "000016-080",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-081",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-082",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Our report treats the two unnamed bidders as comparable in the relevant respect. That comparison settles which evaluation procedure should be used."
+      ]
+    },
+    {
+      "id": "000016-083",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-084",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-085",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-086",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "I base my reading of the novel on a parallel between its two alternative endings."
+      ]
+    },
+    {
+      "id": "000016-087",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-088",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-089",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Either unlabelled bottle can represent the region at the tasting, being equivalent under the consideration that applies."
+      ]
+    },
+    {
+      "id": "000016-090",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-091",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-092",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Admit bowl two to the ritual collection on the strength of its distinction in kind from bowl one."
+      ]
+    },
+    {
+      "id": "000016-093",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The panel split the undescribed acts into two classes of entertainment to explain its selection. Its account identifies the classes simply as the first class and the second class."
+      ]
+    },
+    {
+      "id": "000016-094",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Configurations 6 and 9: equivalent along the axis that governs approval."
+      ]
+    },
+    {
+      "id": "000016-095",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The mayor presents the river project and the school project as interrelated, with the nature of their interrelationship providing the basis for the budget decision."
+      ]
+    },
+    {
+      "id": "000016-096",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The passage on page four corresponds to the passage on page eight in a substantive sense. Use that correspondence to interpret the final scene."
+      ]
+    },
+    {
+      "id": "000016-097",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-098",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-099",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-100",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Route report one to a different recipient from report two in recognition of their divergence as reports. That divergence supplies the routing rule."
+      ]
+    },
+    {
+      "id": "000016-101",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-102",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-103",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-104",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-105",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Award the prize by distinguishing the anonymous proposals according to their nature as proposals. The nature of that difference is the judging criterion."
+      ]
+    },
+    {
+      "id": "000016-106",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Code the two anonymous responses separately on grounds of their divergent nature as responses. The distinction supplies the study's coding criterion."
+      ]
+    },
+    {
+      "id": "000016-107",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The clinic proposal brings the scheduling system into a special relation with the floor plan. This relation explains its recommendation."
+      ]
+    },
+    {
+      "id": "000016-108",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "I consider those two afternoons equivalent in every way relevant to my story. Their equivalence accounts for the title I chose."
+      ]
+    },
+    {
+      "id": "000016-109",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-110",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The choreography assigns a relationship to the two gestures performed at the end. That relationship provides the sequence with its meaning."
+      ]
+    },
+    {
+      "id": "000016-111",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-112",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "A separate contract is required for supplier two owing to its categorically distinct status as a supplier."
+      ]
+    },
+    {
+      "id": "000016-113",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Review verdict: equal where equality matters. The tasting panel used this assessment of the two unlabelled dishes to give them one rating."
+      ]
+    },
+    {
+      "id": "000016-114",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The flood records and the voting records show a relationship. This relationship is how the report accounts for the voting result."
+      ]
+    },
+    {
+      "id": "000016-115",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Correct mistakes of category one differently from mistakes of category two, using the distinction between those categories."
+      ]
+    },
+    {
+      "id": "000016-116",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Our membership proposal brings the annual pass and the monthly pass into a particular relationship. That relationship is central to the proposal as submitted for a vote."
+      ]
+    },
+    {
+      "id": "000016-117",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Reliability approval can use either method, their resemblance extending to the consideration that governs that approval."
+      ]
+    },
+    {
+      "id": "000016-118",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-119",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "A comparison of the two anonymous testimonies reveals a distinction of the kind the inquiry must consider. This distinction determines how they should be weighed."
+      ]
+    },
+    {
+      "id": "000016-120",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-121",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Advance the two applicants together because they resemble each other on the dimension this appointment requires. This resemblance constitutes the panel's finding."
+      ]
+    },
+    {
+      "id": "000016-122",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Faced with the orchard plan and the garden plan, I choose the former for its contrasting approach."
+      ]
+    },
+    {
+      "id": "000016-123",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-124",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-125",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-126",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "invoking their contrasting nature as petitions to explain the decision"
+      ]
+    },
+    {
+      "id": "000016-127",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The recordings labelled M and N are alike in the way pertinent to this complaint. This similarity supports handling them under one ruling."
+      ]
+    },
+    {
+      "id": "000016-128",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "My account of the accident rests on the relationship of the signal to the handbrake. The signal and the handbrake are related in just that way."
+      ]
+    },
+    {
+      "id": "000016-129",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-130",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "entry 14 counts as one category of contribution and entry 27 as another; that categorization settles their relative scores"
+      ]
+    },
+    {
+      "id": "000016-131",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-132",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The new training scheme and the pension scheme relate in a way that resolves the recruitment question."
+      ]
+    },
+    {
+      "id": "000016-133",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "the files stand in a distinctive relationship to one another, and tells operators to remember that relationship during recovery"
+      ]
+    },
+    {
+      "id": "000016-134",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-135",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-136",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-137",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-138",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Nadia said the two offers were equivalent for the choice I had to make. I accepted her assessment and put them in the same folder."
+      ]
+    },
+    {
+      "id": "000016-139",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The evaluator signed off the two estimates as commensurate on the dimension at issue. Approval rested on that comparison alone."
+      ]
+    },
+    {
+      "id": "000016-140",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-141",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-142",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-143",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The first photograph and the last photograph have a certain affinity, and this affinity is the organizing principle of the exhibition."
+      ]
+    },
+    {
+      "id": "000016-144",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Blue-badge permission is of one order, white-badge permission of another. Security is to admit visitors according to this distinction."
+      ]
+    },
+    {
+      "id": "000016-145",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-146",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "My grandmother spoke of the carnival and the election as linked events. I use this link to explain the election result here."
+      ]
+    },
+    {
+      "id": "000016-147",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-148",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "There is a meaningful association between my winter notebooks and my summer notebooks. It explains how to read this collection as a whole."
+      ]
+    },
+    {
+      "id": "000016-149",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The paper accounts for the result by placing fatigue and recall in relation to one another. It provides this relationship as its explanatory finding."
+      ]
+    },
+    {
+      "id": "000016-150",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-151",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-152",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-153",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-154",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-155",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-156",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-157",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "We regard these two unnamed donors as related in a particular capacity. That relationship determines how their declarations must be processed."
+      ]
+    },
+    {
+      "id": "000016-158",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The trainer places the breathing exercise and the writing exercise in a meaningful relationship. This relationship is the explanation offered for combining them in a single session."
+      ]
+    },
+    {
+      "id": "000016-159",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "R matches S in the particular way the repair requires. The guide offers this match as its compatibility finding."
+      ]
+    },
+    {
+      "id": "000016-160",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-161",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The architect says the annex relates to the old building in a particular way, and offers this relationship as the rationale for her design."
+      ]
+    },
+    {
+      "id": "000016-162",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-163",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-164",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-165",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-166",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "Tuesday's repair is set apart from Thursday's as another species of work. The difference explains the billing."
+      ]
+    },
+    {
+      "id": "000016-167",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-168",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-169",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-170",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "choose by their contrasting character. The leaflet calls each programme distinct."
+      ]
+    },
+    {
+      "id": "000016-171",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The book justifies permitting one of the unnamed ceremonies and prohibiting the other by distinguishing them categorically as ceremonies."
+      ]
+    },
+    {
+      "id": "000016-172",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-173",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The course relates the first composition to the final composition. This particular relationship is the account it offers of the student's style."
+      ]
+    },
+    {
+      "id": "000016-174",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "There is a connection between the bus dispute and the library closure that accounts for the closure."
+      ]
+    },
+    {
+      "id": "000016-175",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-176",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-177",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-178",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-179",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The bronze disc has a connection to the damaged cup. That connection is the explanation I offer for displaying them together."
+      ]
+    },
+    {
+      "id": "000016-180",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-181",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-182",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "I accepted invitation one because invitation two was categorically unlike it as an invitation. That categorical unlikeness was the whole reason for my choice."
+      ]
+    },
+    {
+      "id": "000016-183",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The two masks correspond in a particular respect. That correspondence is what permits the conservator to apply the same treatment to each."
+      ]
+    },
+    {
+      "id": "000016-184",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-185",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-186",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-187",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-188",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "She answered that these were fundamentally different proposals, each different in its own way."
+      ]
+    },
+    {
+      "id": "000016-189",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "I would describe them as equivalent in the sense that counts here."
+      ]
+    },
+    {
+      "id": "000016-190",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-191",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-192",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "use either remedy, since both are alike on the matter to be decided. That likeness is the stated justification."
+      ]
+    },
+    {
+      "id": "000016-193",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-194",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-195",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-196",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "E and F answer to different purposes, the clerk replied, and gave that as the entire selection rule."
+      ]
+    },
+    {
+      "id": "000016-197",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The curator brings the whistle into association with the painting. This association accounts for their shared display case."
+      ]
+    },
+    {
+      "id": "000016-198",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-199",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": false
+    },
+    {
+      "id": "000016-200",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "The memo gives the old contract a relationship with the new contract. That relationship is the substance of its advice about renewal."
+      ]
+    },
+    {
+      "id": "000016-201",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "relates the morning service to the evening service through what it calls a particular operational correspondence. That correspondence is its reason for scheduling them together."
+      ]
+    },
+    {
+      "id": "000016-202",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "insisting that they differed in the character of the quarrel. This distinction was his explanation for reconciling with one cousin while refusing to speak to the other."
+      ]
+    },
+    {
+      "id": "000016-203",
+      "check": "semantic-thinness/unspecified-relationship",
+      "expected": true,
+      "snippets": [
+        "describes the two anonymous submissions as comparable on the aspect decisive for this competition",
+        "On that comparison alone, she recommends giving them a joint award."
+      ]
+    }
+  ]
+}

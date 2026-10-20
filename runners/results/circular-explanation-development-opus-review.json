@@ -1,0 +1,370 @@
+{
+  "independentQa": {
+    "reviewedAt": "2026-10-20T17:04:47Z",
+    "reviewer": "Fresh Codex reviewer A",
+    "summaryPath": "/tmp/slopless-family-qa-a-summary.json",
+    "finalTextsMatchedToRawBlindReview": 200,
+    "hitSnippetSelectionsMatchedToRawOpus": 100,
+    "adjudicationEntriesReviewedAgainstFinalRows": 11,
+    "objectionOrDisagreementEventsMappedToAdjudicatedFinalRows": 12,
+    "initialBatchClassCounts": [
+      [51, 49],
+      [49, 51]
+    ],
+    "supplementalModelCalls": 0,
+    "supplementalMixedBatchReviewRequired": false,
+    "newLabelCorrectionsRequired": 0,
+    "materialConcerns": 0
+  },
+  "check": "semantic-thinness/circular-explanation",
+  "split": "development",
+  "prefix": "000009",
+  "status": "complete",
+  "createdAt": "2026-10-20T16:38:37.877Z",
+  "acceptanceBasis": "Author adjudication against the accepted definition; model agreement is recorded as an observation, not an acceptance gate.",
+  "provenance": {
+    "authorModel": "GPT-5 (Codex)",
+    "reviewModels": ["claude-opus-5-5"],
+    "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "taxonomySha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+    "reviewHelper": "/tmp/slopless-semantic-family-opus-review.mjs",
+    "helperSha256": [
+      "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea"
+    ],
+    "authentication": "Existing authenticated Claude CLI session; opus alias, high effort, safe mode, tools disabled, no session persistence.",
+    "blindness": "Each blind request contained only neutral id/text pairs; author labels, snippets, class balance, and author order were withheld."
+  },
+  "review": {
+    "blindCallCount": 4,
+    "initialBlindCalls": 2,
+    "followupBlindCalls": 2,
+    "spanOnlyCalls": 0,
+    "judgments": 205,
+    "uniquePassages": 200,
+    "initial": {
+      "judgments": 200,
+      "agreements": 200,
+      "classificationDisagreements": 0,
+      "disagreementIds": [],
+      "objections": 10,
+      "objectionIds": [
+        "000009-003",
+        "000009-004",
+        "000009-008",
+        "000009-015",
+        "000009-052",
+        "000009-085",
+        "000009-106",
+        "000009-142",
+        "000009-144",
+        "000009-189"
+      ]
+    },
+    "corrections": {
+      "labelChanges": 0,
+      "ambiguityRewrites": 3,
+      "rewriteIds": ["000009-003", "000009-004", "000009-015"],
+      "rewritesBlindReviewed": 3,
+      "unchangedHighlightRechecks": 2,
+      "unchangedHighlightIds": ["000009-142", "000009-050"],
+      "purpose": "Resolve criticism-versus-claim ambiguity and incomplete highlights while preserving the circular explanations; no cases changed to obtain classification agreement."
+    },
+    "followup": {
+      "judgments": 5,
+      "classificationDisagreements": 0,
+      "objections": 2,
+      "objectionIds": ["000009-004", "000009-050"]
+    },
+    "final": {
+      "agreements": 200,
+      "classificationDisagreements": 0,
+      "disagreementIds": [],
+      "latestReviewObjections": 8,
+      "allObjectionsAdjudicated": true,
+      "unresolved": 0
+    },
+    "calls": [
+      {
+        "number": 1,
+        "purpose": "Initial blind classification, first 100 rows.",
+        "passages": 100,
+        "models": ["claude-opus-5-5"],
+        "input": "/tmp/circular-review-input-1.json",
+        "inputFileSha256": "48d5aff30f4f5fdb7fe358f162495b55c22a03919b5bf41a8aae15364b77166c",
+        "blindIdTextSha256": "0c750d64ffafc13bc10d686645463283ec6716b300ebeff0368de06203287380",
+        "output": "/tmp/circular-review-output-1.json",
+        "outputFileSha256": "9ccead0778d35d6e36ba901908b64833ce9b2bef61646a8e51cb1a10c597f4f5",
+        "durationMs": 52630,
+        "costUsd": 0.2213,
+        "classificationDisagreements": 0,
+        "objections": 6
+      },
+      {
+        "number": 2,
+        "purpose": "Initial blind classification, remaining 100 rows.",
+        "passages": 100,
+        "models": ["claude-opus-5-5"],
+        "input": "/tmp/circular-review-input-2.json",
+        "inputFileSha256": "8cd3fb12aeaced04c1839be1c9f80fa5f683fe1ecf83373cbbeceebd9b78e73e",
+        "blindIdTextSha256": "aff39016e010d76adb5f333bf348321a18168689b7a2e3f9360d4d3e80f0ad4e",
+        "output": "/tmp/circular-review-output-2.json",
+        "outputFileSha256": "4262a8326b98a366f36a90e1ba645c267ae88f0c757b8fd3e5e9b06ca696d9ca",
+        "durationMs": 38312,
+        "costUsd": 0.18707200000000002,
+        "classificationDisagreements": 0,
+        "objections": 4
+      },
+      {
+        "number": 3,
+        "purpose": "Blind classification of three ambiguity rewrites and unchanged cross-sentence highlight recheck.",
+        "passages": 4,
+        "models": ["claude-opus-5-5"],
+        "input": "/tmp/circular-review-input-3.json",
+        "inputFileSha256": "958ccf4b7232e12dab939410a31282b485e2b6a55a2a236c6db295835a617d3f",
+        "blindIdTextSha256": "a22781fcf1b5d76ac8dadd61facc29a714bbe5ce18e67808343ac0ff110dd6a4",
+        "output": "/tmp/circular-review-output-3.json",
+        "outputFileSha256": "2f87fc18f8a8853c9b43a5b459a23bc50e388c56637cab28ac69744243605587",
+        "durationMs": 6449,
+        "costUsd": 0.050568,
+        "classificationDisagreements": 0,
+        "objections": 1
+      },
+      {
+        "number": 4,
+        "purpose": "Unchanged-text blind recheck for a shortened cross-sentence highlight.",
+        "passages": 1,
+        "models": ["claude-opus-5-5"],
+        "input": "/tmp/circular-review-input-4.json",
+        "inputFileSha256": "4404502a3f7e910861c1a150e90183c13cfe2897b8727669fe29f32140a2703e",
+        "blindIdTextSha256": "abc16c406c8ca6bd34a8de8e164fad3c54832d2d7df400202e902fc83167783b",
+        "output": "/tmp/circular-review-output-4.json",
+        "outputFileSha256": "6db9be38146fa5822165721ed024e12c6633ad8228ad2f74ace4b72093fcf3d5",
+        "durationMs": 6990,
+        "costUsd": 0.04678,
+        "classificationDisagreements": 0,
+        "objections": 1
+      }
+    ],
+    "privateAdjudications": [
+      {
+        "id": "000009-003",
+        "initialAuthor": true,
+        "initialReviewer": true,
+        "objection": "The final sentence could frame the passage as self-criticism of its explanation.",
+        "decision": "rewrite",
+        "reason": "Remove the editorial assessment while retaining the out-of-place/belonging paraphrase and unrelated notebook context."
+      },
+      {
+        "id": "000009-004",
+        "initialAuthor": true,
+        "initialReviewer": true,
+        "objection": "The second sentence could turn the account into criticism of bad explanation.",
+        "decision": "rewrite",
+        "reason": "Replace criticism about absent tests with unrelated laboratory context; resistance to changed conditions still restates robustness.",
+        "followup": {
+          "call": 3,
+          "reviewer": true,
+          "objection": "Robustness and resistance to altered conditions could be a definitional gloss.",
+          "decision": "retain",
+          "reason": "Ascribing a result to a property presents a cause. The property is a paraphrase of the result, and the unrelated laboratory context supplies no independent causal step."
+        }
+      },
+      {
+        "id": "000009-008",
+        "initialAuthor": false,
+        "initialReviewer": false,
+        "objection": "Echo repeats in the causal sentence.",
+        "decision": "retain",
+        "reason": "Removing curtains exposes a reflecting wall; reduced absorption explains the stronger echo. Repetition names the same physical process."
+      },
+      {
+        "id": "000009-015",
+        "initialAuthor": true,
+        "initialReviewer": true,
+        "objection": "The closing sentence could be read as criticism of the supplier review.",
+        "decision": "rewrite",
+        "reason": "Use neutral filing context after the purported justification, preserving the unreasonable/unacceptable paraphrase."
+      },
+      {
+        "id": "000009-052",
+        "initialAuthor": true,
+        "initialReviewer": true,
+        "objection": "The paraphrase might be read as a definition or characterization.",
+        "decision": "retain",
+        "reason": "The sentence explicitly presents the desire as explaining greed rather than defining a term; both describe the same disposition."
+      },
+      {
+        "id": "000009-085",
+        "initialAuthor": true,
+        "initialReviewer": true,
+        "objection": "Correspondence to reality can define accuracy.",
+        "decision": "retain",
+        "reason": "The question asks what accounts for accuracy, and the final sentence explicitly offers the paraphrase as its reason; no independent test or cause appears."
+      },
+      {
+        "id": "000009-106",
+        "initialAuthor": false,
+        "initialReviewer": false,
+        "objection": "The opening dependency statement approaches a truism.",
+        "decision": "retain",
+        "reason": "The offline registry supplies an external cause of the build failure. A general prerequisite statement does not erase that causal step."
+      },
+      {
+        "id": "000009-142",
+        "initialAuthor": true,
+        "initialReviewer": true,
+        "objection": "Absence of a consistent principle could define arbitrariness.",
+        "decision": "retain",
+        "reason": "The final answer then uses arbitrariness to explain the absence of a principle, closing the explanatory loop even under that reading.",
+        "highlightAction": "Re-review unchanged text to obtain snippets covering the complete cross-sentence explanation.",
+        "highlightOutcome": "Call 3 returned the complete three-sentence explanation as an exact snippet."
+      },
+      {
+        "id": "000009-144",
+        "initialAuthor": true,
+        "initialReviewer": true,
+        "objection": "Suitability might be a narrower criterion than strongest candidate.",
+        "decision": "retain",
+        "reason": "The passage gives no qualification or separate selection criterion. Being best suited restates being the strongest candidate for the position."
+      },
+      {
+        "id": "000009-189",
+        "initialAuthor": false,
+        "initialReviewer": false,
+        "objection": "Lack of belonging paraphrases feeling out of place.",
+        "decision": "retain",
+        "reason": "The newcomer status and shared school memories supply the cause before the summary, preserving an independently grounded explanation."
+      },
+      {
+        "id": "000009-050",
+        "initialAuthor": true,
+        "initialReviewer": true,
+        "followup": {
+          "call": 4,
+          "reviewer": true,
+          "objection": "The brother could be deliberately giving an evasive non-answer as characterization.",
+          "decision": "retain",
+          "reason": "The passage reports his stated reason without marking an evasion or examining bad explanation. The reason merely substitutes unwillingness for reluctance; surrounding objects add no cause."
+        },
+        "highlightOutcome": "Call 4 returned separate exact snippets for the original question and its circular answer."
+      }
+    ]
+  },
+  "duplicateAudit": {
+    "method": "Lowercase alphanumeric tokens with internal apostrophes; Jaccard similarity over unique words and contiguous three-word shingles. Inspect nearest matches manually.",
+    "thresholds": {
+      "wordJaccard": 0.5,
+      "threeWordShingleJaccard": 0.25
+    },
+    "beforeReview": {
+      "draftFile": "/tmp/circular-draft-v1.json",
+      "draftSha256": "2e480820a9b3dba4b91afb000f3f83c88ffe35503abd14af45d5474eb52d4f96",
+      "maxima": {
+        "withinWord": 0.5,
+        "withinShingle": 0.12,
+        "externalWord": 0.32,
+        "externalShingle": 0.08
+      },
+      "flaggedWithin": 1,
+      "flaggedExternal": 0,
+      "edits": [
+        {
+          "id": "000009-119",
+          "reason": "Replace the paired permit example flagged at word-set Jaccard 0.50 with a distinct constraint scenario."
+        },
+        {
+          "id": "000009-081",
+          "reason": "Vary the explanation syntax shared with another short hit."
+        }
+      ]
+    },
+    "final": {
+      "maxima": {
+        "withinWord": 0.38095238095238093,
+        "withinShingle": 0.12,
+        "externalWord": 0.32,
+        "externalShingle": 0.08
+      },
+      "exactWithin": 0,
+      "exactExternal": 0,
+      "flaggedWithin": 0,
+      "flaggedExternal": 0,
+      "developmentPairsCompared": 5,
+      "developmentPassagesCompared": 1000,
+      "sourceLinesCompared": 330,
+      "developmentFiles": [
+        "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
+        "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+        "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+        "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
+        "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md"
+      ],
+      "sourceFiles": [
+        ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+        "prompts/v1/abstract-contrast.md",
+        "prompts/v1/emotion-as-substance.md",
+        "prompts/v1/generic-realization.md",
+        "prompts/v1/shared.md"
+      ],
+      "inspection": "Reviewed nearest word-set and shingle pairs and external matches privately. Remaining shared constructions carry distinct explanations or test causal boundaries.",
+      "rawAudit": "/tmp/circular-audit-final.json",
+      "rawAuditSha256": "1f3ccc77f6c5ec7291856ab4d1176a84b9f4bda718d8826305b19b95f250cec3"
+    },
+    "holdoutContentRead": false
+  },
+  "validation": {
+    "readDocument": {
+      "status": "passed",
+      "samples": 200,
+      "labels": 200
+    },
+    "loadDataset": {
+      "status": "passed",
+      "rows": 200
+    },
+    "hits": 100,
+    "noHits": 100,
+    "uniqueIds": 200,
+    "exactSnippets": true,
+    "noHitSnippetsAbsent": true,
+    "asciiPunctuation": true,
+    "onePhysicalLinePerPassage": true,
+    "finalPassagesExactlyMatchReviewedInputs": 200,
+    "finalHitSnippetsExactlyMatchOpus": 100,
+    "finalReviewClassAgreement": 200,
+    "totalWords": 5436,
+    "wordCountMethod": "Whitespace-separated words in passage text, excluding headings.",
+    "wordRange": {
+      "min": 13,
+      "max": 59
+    },
+    "longPassages45To90": [
+      {
+        "expected": true,
+        "count": 20
+      },
+      {
+        "expected": false,
+        "count": 20
+      }
+    ],
+    "textSha256": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+    "labelsSha256": "2981c484ad524d95a9527153b82a4c58cbff81a2817d92a550f5b807de6e9b1a",
+    "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "formatter": "prettier --write --prose-wrap preserve --ignore-path /dev/null on the pair before final checksum and range computation; labels formatted after computation.",
+    "sloplessRun": false,
+    "unresolved": 0
+  },
+  "artifacts": {
+    "markdown": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md",
+    "labels": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.labels.json",
+    "finalRows": "/tmp/circular-final-rows.json",
+    "finalRowsSha256": "52fea09f33193080092bbd01bc5a61e929d957d2ce08bf10d37d4dec4ef8b8ed",
+    "drafts": [
+      "/tmp/circular-draft-v1.json",
+      "/tmp/circular-draft-v2.json",
+      "/tmp/circular-draft-v3.json"
+    ],
+    "reviewEdits": "/tmp/circular-review-edits.json"
+  }
+}

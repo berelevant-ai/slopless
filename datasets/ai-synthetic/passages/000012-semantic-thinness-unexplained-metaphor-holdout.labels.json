@@ -1,0 +1,2312 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "87cef18afcf36e98593b89df90bf3977c5524db285f7a5a5909f4ea09d9c6990",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "source": {
+    "name": "Unexplained-metaphor protected holdout",
+    "originalPath": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+    "commit": "c21c445c333026e4033f8160e56388118cb715d9",
+    "notes": "Initial 200-passage draft completed by Codex before inspecting development writing. Final passages independently classified with authenticated Claude Opus and adjudicated against the accepted definition. Hit snippets are exact Opus selections. Private review decisions are stored separately."
+  },
+  "samples": [
+    {
+      "id": "000012-001",
+      "start": 65,
+      "end": 406
+    },
+    {
+      "id": "000012-002",
+      "start": 423,
+      "end": 507
+    },
+    {
+      "id": "000012-003",
+      "start": 524,
+      "end": 691
+    },
+    {
+      "id": "000012-004",
+      "start": 708,
+      "end": 857
+    },
+    {
+      "id": "000012-005",
+      "start": 874,
+      "end": 993
+    },
+    {
+      "id": "000012-006",
+      "start": 1010,
+      "end": 1137
+    },
+    {
+      "id": "000012-007",
+      "start": 1154,
+      "end": 1307
+    },
+    {
+      "id": "000012-008",
+      "start": 1324,
+      "end": 1437
+    },
+    {
+      "id": "000012-009",
+      "start": 1454,
+      "end": 1570
+    },
+    {
+      "id": "000012-010",
+      "start": 1587,
+      "end": 1701
+    },
+    {
+      "id": "000012-011",
+      "start": 1718,
+      "end": 1867
+    },
+    {
+      "id": "000012-012",
+      "start": 1884,
+      "end": 2056
+    },
+    {
+      "id": "000012-013",
+      "start": 2073,
+      "end": 2465
+    },
+    {
+      "id": "000012-014",
+      "start": 2482,
+      "end": 2618
+    },
+    {
+      "id": "000012-015",
+      "start": 2635,
+      "end": 2758
+    },
+    {
+      "id": "000012-016",
+      "start": 2775,
+      "end": 2855
+    },
+    {
+      "id": "000012-017",
+      "start": 2872,
+      "end": 3061
+    },
+    {
+      "id": "000012-018",
+      "start": 3078,
+      "end": 3268
+    },
+    {
+      "id": "000012-019",
+      "start": 3285,
+      "end": 3687
+    },
+    {
+      "id": "000012-020",
+      "start": 3704,
+      "end": 3837
+    },
+    {
+      "id": "000012-021",
+      "start": 3854,
+      "end": 4012
+    },
+    {
+      "id": "000012-022",
+      "start": 4029,
+      "end": 4128
+    },
+    {
+      "id": "000012-023",
+      "start": 4145,
+      "end": 4256
+    },
+    {
+      "id": "000012-024",
+      "start": 4273,
+      "end": 4391
+    },
+    {
+      "id": "000012-025",
+      "start": 4408,
+      "end": 4519
+    },
+    {
+      "id": "000012-026",
+      "start": 4536,
+      "end": 4665
+    },
+    {
+      "id": "000012-027",
+      "start": 4682,
+      "end": 4800
+    },
+    {
+      "id": "000012-028",
+      "start": 4817,
+      "end": 5183
+    },
+    {
+      "id": "000012-029",
+      "start": 5200,
+      "end": 5355
+    },
+    {
+      "id": "000012-030",
+      "start": 5372,
+      "end": 5744
+    },
+    {
+      "id": "000012-031",
+      "start": 5761,
+      "end": 5864
+    },
+    {
+      "id": "000012-032",
+      "start": 5881,
+      "end": 5999
+    },
+    {
+      "id": "000012-033",
+      "start": 6016,
+      "end": 6124
+    },
+    {
+      "id": "000012-034",
+      "start": 6141,
+      "end": 6247
+    },
+    {
+      "id": "000012-035",
+      "start": 6264,
+      "end": 6407
+    },
+    {
+      "id": "000012-036",
+      "start": 6424,
+      "end": 6534
+    },
+    {
+      "id": "000012-037",
+      "start": 6551,
+      "end": 6676
+    },
+    {
+      "id": "000012-038",
+      "start": 6693,
+      "end": 6810
+    },
+    {
+      "id": "000012-039",
+      "start": 6827,
+      "end": 6992
+    },
+    {
+      "id": "000012-040",
+      "start": 7009,
+      "end": 7166
+    },
+    {
+      "id": "000012-041",
+      "start": 7183,
+      "end": 7291
+    },
+    {
+      "id": "000012-042",
+      "start": 7308,
+      "end": 7444
+    },
+    {
+      "id": "000012-043",
+      "start": 7461,
+      "end": 7813
+    },
+    {
+      "id": "000012-044",
+      "start": 7830,
+      "end": 8027
+    },
+    {
+      "id": "000012-045",
+      "start": 8044,
+      "end": 8168
+    },
+    {
+      "id": "000012-046",
+      "start": 8185,
+      "end": 8291
+    },
+    {
+      "id": "000012-047",
+      "start": 8308,
+      "end": 8706
+    },
+    {
+      "id": "000012-048",
+      "start": 8723,
+      "end": 8834
+    },
+    {
+      "id": "000012-049",
+      "start": 8851,
+      "end": 9201
+    },
+    {
+      "id": "000012-050",
+      "start": 9218,
+      "end": 9307
+    },
+    {
+      "id": "000012-051",
+      "start": 9324,
+      "end": 9409
+    },
+    {
+      "id": "000012-052",
+      "start": 9426,
+      "end": 9531
+    },
+    {
+      "id": "000012-053",
+      "start": 9548,
+      "end": 9660
+    },
+    {
+      "id": "000012-054",
+      "start": 9677,
+      "end": 9865
+    },
+    {
+      "id": "000012-055",
+      "start": 9882,
+      "end": 9975
+    },
+    {
+      "id": "000012-056",
+      "start": 9992,
+      "end": 10126
+    },
+    {
+      "id": "000012-057",
+      "start": 10143,
+      "end": 10474
+    },
+    {
+      "id": "000012-058",
+      "start": 10491,
+      "end": 10621
+    },
+    {
+      "id": "000012-059",
+      "start": 10638,
+      "end": 11015
+    },
+    {
+      "id": "000012-060",
+      "start": 11032,
+      "end": 11166
+    },
+    {
+      "id": "000012-061",
+      "start": 11183,
+      "end": 11297
+    },
+    {
+      "id": "000012-062",
+      "start": 11314,
+      "end": 11450
+    },
+    {
+      "id": "000012-063",
+      "start": 11467,
+      "end": 11582
+    },
+    {
+      "id": "000012-064",
+      "start": 11599,
+      "end": 11753
+    },
+    {
+      "id": "000012-065",
+      "start": 11770,
+      "end": 11877
+    },
+    {
+      "id": "000012-066",
+      "start": 11894,
+      "end": 12016
+    },
+    {
+      "id": "000012-067",
+      "start": 12033,
+      "end": 12165
+    },
+    {
+      "id": "000012-068",
+      "start": 12182,
+      "end": 12347
+    },
+    {
+      "id": "000012-069",
+      "start": 12364,
+      "end": 12505
+    },
+    {
+      "id": "000012-070",
+      "start": 12522,
+      "end": 12851
+    },
+    {
+      "id": "000012-071",
+      "start": 12868,
+      "end": 13002
+    },
+    {
+      "id": "000012-072",
+      "start": 13019,
+      "end": 13168
+    },
+    {
+      "id": "000012-073",
+      "start": 13185,
+      "end": 13297
+    },
+    {
+      "id": "000012-074",
+      "start": 13314,
+      "end": 13443
+    },
+    {
+      "id": "000012-075",
+      "start": 13460,
+      "end": 13639
+    },
+    {
+      "id": "000012-076",
+      "start": 13656,
+      "end": 14042
+    },
+    {
+      "id": "000012-077",
+      "start": 14059,
+      "end": 14389
+    },
+    {
+      "id": "000012-078",
+      "start": 14406,
+      "end": 14481
+    },
+    {
+      "id": "000012-079",
+      "start": 14498,
+      "end": 14645
+    },
+    {
+      "id": "000012-080",
+      "start": 14662,
+      "end": 14774
+    },
+    {
+      "id": "000012-081",
+      "start": 14791,
+      "end": 14911
+    },
+    {
+      "id": "000012-082",
+      "start": 14928,
+      "end": 15296
+    },
+    {
+      "id": "000012-083",
+      "start": 15313,
+      "end": 15679
+    },
+    {
+      "id": "000012-084",
+      "start": 15696,
+      "end": 15813
+    },
+    {
+      "id": "000012-085",
+      "start": 15830,
+      "end": 15975
+    },
+    {
+      "id": "000012-086",
+      "start": 15992,
+      "end": 16130
+    },
+    {
+      "id": "000012-087",
+      "start": 16147,
+      "end": 16252
+    },
+    {
+      "id": "000012-088",
+      "start": 16269,
+      "end": 16375
+    },
+    {
+      "id": "000012-089",
+      "start": 16392,
+      "end": 16537
+    },
+    {
+      "id": "000012-090",
+      "start": 16554,
+      "end": 16676
+    },
+    {
+      "id": "000012-091",
+      "start": 16693,
+      "end": 17066
+    },
+    {
+      "id": "000012-092",
+      "start": 17083,
+      "end": 17199
+    },
+    {
+      "id": "000012-093",
+      "start": 17216,
+      "end": 17323
+    },
+    {
+      "id": "000012-094",
+      "start": 17340,
+      "end": 17682
+    },
+    {
+      "id": "000012-095",
+      "start": 17699,
+      "end": 17805
+    },
+    {
+      "id": "000012-096",
+      "start": 17822,
+      "end": 17970
+    },
+    {
+      "id": "000012-097",
+      "start": 17987,
+      "end": 18318
+    },
+    {
+      "id": "000012-098",
+      "start": 18335,
+      "end": 18744
+    },
+    {
+      "id": "000012-099",
+      "start": 18761,
+      "end": 18909
+    },
+    {
+      "id": "000012-100",
+      "start": 18926,
+      "end": 19028
+    },
+    {
+      "id": "000012-101",
+      "start": 19045,
+      "end": 19456
+    },
+    {
+      "id": "000012-102",
+      "start": 19473,
+      "end": 19652
+    },
+    {
+      "id": "000012-103",
+      "start": 19669,
+      "end": 19808
+    },
+    {
+      "id": "000012-104",
+      "start": 19825,
+      "end": 20026
+    },
+    {
+      "id": "000012-105",
+      "start": 20043,
+      "end": 20386
+    },
+    {
+      "id": "000012-106",
+      "start": 20403,
+      "end": 20485
+    },
+    {
+      "id": "000012-107",
+      "start": 20502,
+      "end": 20670
+    },
+    {
+      "id": "000012-108",
+      "start": 20687,
+      "end": 21027
+    },
+    {
+      "id": "000012-109",
+      "start": 21044,
+      "end": 21215
+    },
+    {
+      "id": "000012-110",
+      "start": 21232,
+      "end": 21367
+    },
+    {
+      "id": "000012-111",
+      "start": 21384,
+      "end": 21783
+    },
+    {
+      "id": "000012-112",
+      "start": 21800,
+      "end": 21949
+    },
+    {
+      "id": "000012-113",
+      "start": 21966,
+      "end": 22333
+    },
+    {
+      "id": "000012-114",
+      "start": 22350,
+      "end": 22473
+    },
+    {
+      "id": "000012-115",
+      "start": 22490,
+      "end": 22643
+    },
+    {
+      "id": "000012-116",
+      "start": 22660,
+      "end": 23082
+    },
+    {
+      "id": "000012-117",
+      "start": 23099,
+      "end": 23489
+    },
+    {
+      "id": "000012-118",
+      "start": 23506,
+      "end": 23649
+    },
+    {
+      "id": "000012-119",
+      "start": 23666,
+      "end": 23777
+    },
+    {
+      "id": "000012-120",
+      "start": 23794,
+      "end": 23898
+    },
+    {
+      "id": "000012-121",
+      "start": 23915,
+      "end": 24028
+    },
+    {
+      "id": "000012-122",
+      "start": 24045,
+      "end": 24137
+    },
+    {
+      "id": "000012-123",
+      "start": 24154,
+      "end": 24276
+    },
+    {
+      "id": "000012-124",
+      "start": 24293,
+      "end": 24419
+    },
+    {
+      "id": "000012-125",
+      "start": 24436,
+      "end": 24616
+    },
+    {
+      "id": "000012-126",
+      "start": 24633,
+      "end": 24726
+    },
+    {
+      "id": "000012-127",
+      "start": 24743,
+      "end": 24911
+    },
+    {
+      "id": "000012-128",
+      "start": 24928,
+      "end": 25049
+    },
+    {
+      "id": "000012-129",
+      "start": 25066,
+      "end": 25477
+    },
+    {
+      "id": "000012-130",
+      "start": 25494,
+      "end": 25598
+    },
+    {
+      "id": "000012-131",
+      "start": 25615,
+      "end": 25755
+    },
+    {
+      "id": "000012-132",
+      "start": 25772,
+      "end": 25912
+    },
+    {
+      "id": "000012-133",
+      "start": 25929,
+      "end": 26031
+    },
+    {
+      "id": "000012-134",
+      "start": 26048,
+      "end": 26138
+    },
+    {
+      "id": "000012-135",
+      "start": 26155,
+      "end": 26520
+    },
+    {
+      "id": "000012-136",
+      "start": 26537,
+      "end": 26650
+    },
+    {
+      "id": "000012-137",
+      "start": 26667,
+      "end": 26803
+    },
+    {
+      "id": "000012-138",
+      "start": 26820,
+      "end": 27226
+    },
+    {
+      "id": "000012-139",
+      "start": 27243,
+      "end": 27360
+    },
+    {
+      "id": "000012-140",
+      "start": 27377,
+      "end": 27503
+    },
+    {
+      "id": "000012-141",
+      "start": 27520,
+      "end": 27625
+    },
+    {
+      "id": "000012-142",
+      "start": 27642,
+      "end": 27745
+    },
+    {
+      "id": "000012-143",
+      "start": 27762,
+      "end": 27847
+    },
+    {
+      "id": "000012-144",
+      "start": 27864,
+      "end": 28031
+    },
+    {
+      "id": "000012-145",
+      "start": 28048,
+      "end": 28220
+    },
+    {
+      "id": "000012-146",
+      "start": 28237,
+      "end": 28611
+    },
+    {
+      "id": "000012-147",
+      "start": 28628,
+      "end": 28740
+    },
+    {
+      "id": "000012-148",
+      "start": 28757,
+      "end": 28853
+    },
+    {
+      "id": "000012-149",
+      "start": 28870,
+      "end": 29002
+    },
+    {
+      "id": "000012-150",
+      "start": 29019,
+      "end": 29125
+    },
+    {
+      "id": "000012-151",
+      "start": 29142,
+      "end": 29261
+    },
+    {
+      "id": "000012-152",
+      "start": 29278,
+      "end": 29652
+    },
+    {
+      "id": "000012-153",
+      "start": 29669,
+      "end": 29805
+    },
+    {
+      "id": "000012-154",
+      "start": 29822,
+      "end": 29974
+    },
+    {
+      "id": "000012-155",
+      "start": 29991,
+      "end": 30100
+    },
+    {
+      "id": "000012-156",
+      "start": 30117,
+      "end": 30215
+    },
+    {
+      "id": "000012-157",
+      "start": 30232,
+      "end": 30366
+    },
+    {
+      "id": "000012-158",
+      "start": 30383,
+      "end": 30526
+    },
+    {
+      "id": "000012-159",
+      "start": 30543,
+      "end": 30641
+    },
+    {
+      "id": "000012-160",
+      "start": 30658,
+      "end": 30781
+    },
+    {
+      "id": "000012-161",
+      "start": 30798,
+      "end": 31156
+    },
+    {
+      "id": "000012-162",
+      "start": 31173,
+      "end": 31279
+    },
+    {
+      "id": "000012-163",
+      "start": 31296,
+      "end": 31447
+    },
+    {
+      "id": "000012-164",
+      "start": 31464,
+      "end": 31595
+    },
+    {
+      "id": "000012-165",
+      "start": 31612,
+      "end": 31740
+    },
+    {
+      "id": "000012-166",
+      "start": 31757,
+      "end": 31849
+    },
+    {
+      "id": "000012-167",
+      "start": 31866,
+      "end": 32016
+    },
+    {
+      "id": "000012-168",
+      "start": 32033,
+      "end": 32204
+    },
+    {
+      "id": "000012-169",
+      "start": 32221,
+      "end": 32626
+    },
+    {
+      "id": "000012-170",
+      "start": 32643,
+      "end": 32976
+    },
+    {
+      "id": "000012-171",
+      "start": 32993,
+      "end": 33119
+    },
+    {
+      "id": "000012-172",
+      "start": 33136,
+      "end": 33238
+    },
+    {
+      "id": "000012-173",
+      "start": 33255,
+      "end": 33637
+    },
+    {
+      "id": "000012-174",
+      "start": 33654,
+      "end": 33750
+    },
+    {
+      "id": "000012-175",
+      "start": 33767,
+      "end": 33861
+    },
+    {
+      "id": "000012-176",
+      "start": 33878,
+      "end": 33991
+    },
+    {
+      "id": "000012-177",
+      "start": 34008,
+      "end": 34135
+    },
+    {
+      "id": "000012-178",
+      "start": 34152,
+      "end": 34321
+    },
+    {
+      "id": "000012-179",
+      "start": 34338,
+      "end": 34728
+    },
+    {
+      "id": "000012-180",
+      "start": 34745,
+      "end": 34845
+    },
+    {
+      "id": "000012-181",
+      "start": 34862,
+      "end": 35205
+    },
+    {
+      "id": "000012-182",
+      "start": 35222,
+      "end": 35323
+    },
+    {
+      "id": "000012-183",
+      "start": 35340,
+      "end": 35462
+    },
+    {
+      "id": "000012-184",
+      "start": 35479,
+      "end": 35612
+    },
+    {
+      "id": "000012-185",
+      "start": 35629,
+      "end": 35718
+    },
+    {
+      "id": "000012-186",
+      "start": 35735,
+      "end": 35822
+    },
+    {
+      "id": "000012-187",
+      "start": 35839,
+      "end": 36202
+    },
+    {
+      "id": "000012-188",
+      "start": 36219,
+      "end": 36334
+    },
+    {
+      "id": "000012-189",
+      "start": 36351,
+      "end": 36468
+    },
+    {
+      "id": "000012-190",
+      "start": 36485,
+      "end": 36848
+    },
+    {
+      "id": "000012-191",
+      "start": 36865,
+      "end": 37242
+    },
+    {
+      "id": "000012-192",
+      "start": 37259,
+      "end": 37361
+    },
+    {
+      "id": "000012-193",
+      "start": 37378,
+      "end": 37494
+    },
+    {
+      "id": "000012-194",
+      "start": 37511,
+      "end": 37616
+    },
+    {
+      "id": "000012-195",
+      "start": 37633,
+      "end": 37741
+    },
+    {
+      "id": "000012-196",
+      "start": 37758,
+      "end": 37892
+    },
+    {
+      "id": "000012-197",
+      "start": 37909,
+      "end": 38036
+    },
+    {
+      "id": "000012-198",
+      "start": 38053,
+      "end": 38160
+    },
+    {
+      "id": "000012-199",
+      "start": 38177,
+      "end": 38258
+    },
+    {
+      "id": "000012-200",
+      "start": 38275,
+      "end": 38436
+    },
+    {
+      "id": "000012-201",
+      "start": 38453,
+      "end": 38779
+    }
+  ],
+  "labels": [
+    {
+      "id": "000012-001",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-002",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-003",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the algorithm brings the data into a conversation with possibility, which tells the result where to stand"
+      ]
+    },
+    {
+      "id": "000012-004",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Public testimony, according to the consultation guide, becomes the city looking back at itself. In that recognition the council discovers its answer."
+      ]
+    },
+    {
+      "id": "000012-005",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-006",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "wakefulness is a chapel where color negotiates its citizenship"
+      ]
+    },
+    {
+      "id": "000012-007",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "It puts confidence on the inside of the product, where confidence can recognize its own reflection."
+      ]
+    },
+    {
+      "id": "000012-008",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "a second reader makes the sentence remember its unbuilt windows"
+      ]
+    },
+    {
+      "id": "000012-009",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "a signature is the room where opposition changes its weather"
+      ]
+    },
+    {
+      "id": "000012-010",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-011",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the survey must listen for the moment when uncertainty stops wearing its own face"
+      ]
+    },
+    {
+      "id": "000012-012",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "when eligibility shakes hands with the portion of its shadow that has learned to wait"
+      ]
+    },
+    {
+      "id": "000012-013",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "execution becomes a weather system for the database's intentions"
+      ]
+    },
+    {
+      "id": "000012-014",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the border teaching speech to put on the shoes of an unfinished mirror"
+      ]
+    },
+    {
+      "id": "000012-015",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-016",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-017",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The product strategy needs to stop arguing with its own ambition and invite its doubts into the room. That's how the two will fit together."
+      ]
+    },
+    {
+      "id": "000012-018",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "'A win is the voice with which a contest remembers its unplayed season.' He entered that as the seeding rule."
+      ]
+    },
+    {
+      "id": "000012-019",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the calendar invites scarcity to sit at the table of its own reflection"
+      ]
+    },
+    {
+      "id": "000012-020",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "In the dashboard, performance becomes a kind of hospitality. Read that hospitality as the answer to how many staff each branch needs."
+      ]
+    },
+    {
+      "id": "000012-021",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "institutional memory will tell its story from a different part of the body. That is how queries relate to storage."
+      ]
+    },
+    {
+      "id": "000012-022",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-023",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-024",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-025",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-026",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "a conversation in which the comma borrows the market's spine"
+      ]
+    },
+    {
+      "id": "000012-027",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-028",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "stewardship teaches ownership to recognize the music of its outline"
+      ]
+    },
+    {
+      "id": "000012-029",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Reconcile these datasets by finding the version of memory that both sets of numbers are willing to call home."
+      ]
+    },
+    {
+      "id": "000012-030",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-031",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-032",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Opportunity will become the verb that merit has been waiting to conjugate."
+      ]
+    },
+    {
+      "id": "000012-033",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-034",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-035",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The agreement gives the first committee a place inside the second committee's sense of itself. On that basis, the two bodies can work together."
+      ]
+    },
+    {
+      "id": "000012-036",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-037",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-038",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-039",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "It allows the first chapter to become a different season without leaving its own house."
+      ]
+    },
+    {
+      "id": "000012-040",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "affordability has finally found somewhere to put its tomorrow"
+      ]
+    },
+    {
+      "id": "000012-041",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "a doorway is the verb through which space receives permission to become a question"
+      ]
+    },
+    {
+      "id": "000012-042",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": ["making curiosity the landlord of an unfinished horizon"]
+    },
+    {
+      "id": "000012-043",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-044",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "identity now turns its key on the other side of recognition"
+      ]
+    },
+    {
+      "id": "000012-045",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-046",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-047",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "retrieval gives curiosity a passport issued by the shape of listening"
+      ]
+    },
+    {
+      "id": "000012-048",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-049",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-050",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-051",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-052",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-053",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-054",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "authority has learned to make a little room behind its own name"
+      ]
+    },
+    {
+      "id": "000012-055",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-056",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-057",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Distance had become the punctuation with which loyalty recognized its weather"
+      ]
+    },
+    {
+      "id": "000012-058",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "theory is the cellar in which practice learns to harvest its ceiling"
+      ]
+    },
+    {
+      "id": "000012-059",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the envelope is a lung through which legitimacy dreams of becoming daylight"
+      ]
+    },
+    {
+      "id": "000012-060",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-061",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "letting belonging introduce itself before it has acquired a voice"
+      ]
+    },
+    {
+      "id": "000012-062",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "remembrance had started paying rent in the country of my elbows"
+      ]
+    },
+    {
+      "id": "000012-063",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-064",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "It rents a room in responsibility's house and gives the room back to yesterday."
+      ]
+    },
+    {
+      "id": "000012-065",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-066",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": ["tradition needs to turn around inside its own skin"]
+    },
+    {
+      "id": "000012-067",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "a dialogue between the ceiling of caution and the furniture of return"
+      ]
+    },
+    {
+      "id": "000012-068",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Solidarity has a longer memory on the inside than on the outside."
+      ]
+    },
+    {
+      "id": "000012-069",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-070",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-071",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-072",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-073",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-074",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-075",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "making language stand in the place where the screen once stood inside itself"
+      ]
+    },
+    {
+      "id": "000012-076",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "continuity happens when the stage remembers how to forget its compass"
+      ]
+    },
+    {
+      "id": "000012-077",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-078",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-079",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "consent will change the clothes it wears to meet a decision"
+      ]
+    },
+    {
+      "id": "000012-080",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the song folds its passport into the geography of a promise"
+      ]
+    },
+    {
+      "id": "000012-081",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-082",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the letters make absence kneel inside the architecture of an answer"
+      ]
+    },
+    {
+      "id": "000012-083",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": ["urgency wears responsibility as the doorway wears a name"]
+    },
+    {
+      "id": "000012-084",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-085",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-086",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "inviting procedure to remember the person it might have been"
+      ]
+    },
+    {
+      "id": "000012-087",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-088",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-089",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The audit turns integrity inside out until it recognizes the season of a number."
+      ]
+    },
+    {
+      "id": "000012-090",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-091",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-092",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "a concession gives principle a window onto the nationality of its own silence"
+      ]
+    },
+    {
+      "id": "000012-093",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-094",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-095",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-096",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": ["attention becomes a guest in its own learning"]
+    },
+    {
+      "id": "000012-097",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": ["inheritance is a staircase that forgives its destination"]
+    },
+    {
+      "id": "000012-098",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-099",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "to let testimony get to know itself without the clothes of blame"
+      ]
+    },
+    {
+      "id": "000012-100",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-101",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-102",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Requests reach the right team when a question discovers the version of responsibility it can live inside."
+      ]
+    },
+    {
+      "id": "000012-103",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The questionnaire gives opinion the footwear of an undiscovered room. That describes how individual answers become a public recommendation."
+      ]
+    },
+    {
+      "id": "000012-104",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "'Intention has crossed into the room where proof keeps its promises,' the director replied, presenting that as the mechanism."
+      ]
+    },
+    {
+      "id": "000012-105",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-106",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-107",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Whenever an amendment passes, the constitution acquires another way of being at home with its conscience. This is the handbook's account of how committee powers change."
+      ]
+    },
+    {
+      "id": "000012-108",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-109",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The archive asks chronology to find itself at a different address. That is the explanation printed above the drawers."
+      ]
+    },
+    {
+      "id": "000012-110",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the visitor is a doorway through which preservation learns its own handwriting"
+      ]
+    },
+    {
+      "id": "000012-111",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "She answered that the photograph gives the drawing a second childhood inside the eye of history."
+      ]
+    },
+    {
+      "id": "000012-112",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-113",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-114",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The savings account puts patience on speaking terms with the outline of tomorrow. This explains how interest is calculated."
+      ]
+    },
+    {
+      "id": "000012-115",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The revised map represents disputed boundaries by allowing place to learn the accent of its own absence."
+      ]
+    },
+    {
+      "id": "000012-116",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the announcement says the building will translate belonging into the temperature of civic life"
+      ]
+    },
+    {
+      "id": "000012-117",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-118",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The tax credit teaches investment to hear the coastline inside its own signature. That is how the policy is supposed to stimulate construction."
+      ]
+    },
+    {
+      "id": "000012-119",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-120",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-121",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "My reason for returning to the village was that home had begun to translate its own circumference into a witness."
+      ]
+    },
+    {
+      "id": "000012-122",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-123",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The network's design links caching and authorization through a conversation between permission and the afterlife of speed."
+      ]
+    },
+    {
+      "id": "000012-124",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-125",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Instead it explains their relationship this way: precision knows which name to answer to when measurement calls."
+      ]
+    },
+    {
+      "id": "000012-126",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-127",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "one is the mirror in which the other tries on the coat of a different century"
+      ]
+    },
+    {
+      "id": "000012-128",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "I described the relation between forgiveness and repayment as a staircase passing its weather from one pocket to another."
+      ]
+    },
+    {
+      "id": "000012-129",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The application explains how these projects fit together by saying conservation is the grammar through which tomorrow borrows yesterday's permission."
+      ]
+    },
+    {
+      "id": "000012-130",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Our answer to the dispute is that ownership should learn to breathe from the other side of its alphabet."
+      ]
+    },
+    {
+      "id": "000012-131",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-132",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-133",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-134",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-135",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-136",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-137",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "In this pricing system, fairness is the suitcase revenue brings to its encounter with distance. That explains how the discounts are set."
+      ]
+    },
+    {
+      "id": "000012-138",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Its explanation is that knowledge sheds its alphabet when the hand becomes a season."
+      ]
+    },
+    {
+      "id": "000012-139",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-140",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Paying rent is a form of becoming the room that time has mislaid. That is my explanation of why a tenancy creates obligations."
+      ]
+    },
+    {
+      "id": "000012-141",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "We are combining radio and print because one medium offers the other a bedroom in the house of attention."
+      ]
+    },
+    {
+      "id": "000012-142",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The course connects anatomy with drawing by allowing the line to discover the citizenship of its bones."
+      ]
+    },
+    {
+      "id": "000012-143",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-144",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The public consultation gives the bridge permission to remember the river differently. That is the report's explanation of how consultation shapes engineering choices."
+      ]
+    },
+    {
+      "id": "000012-145",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The chef relates the ingredients to one another through the version of hunger that has learned to hear its own name."
+      ]
+    },
+    {
+      "id": "000012-146",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the facilitator said the budget would learn to hear its own horizon"
+      ]
+    },
+    {
+      "id": "000012-147",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The way to combine individual scores is to let achievement recognize the staircase in its collective reflection."
+      ]
+    },
+    {
+      "id": "000012-148",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-149",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The settlement turns injury into a calendar with permission to remember. This is the account of how the compensation was determined."
+      ]
+    },
+    {
+      "id": "000012-150",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-151",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The curator explains the effect of the arrangement by saying bronze is stone learning to remember the address of sound."
+      ]
+    },
+    {
+      "id": "000012-152",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-153",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-154",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "By the final scene, grief has changed the passport it uses to recognize its own country. That's how the director explains the connection to the opening."
+      ]
+    },
+    {
+      "id": "000012-155",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The committee explained its selection method as listening until excellence borrows the postcode of agreement."
+      ]
+    },
+    {
+      "id": "000012-156",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "We resolve conflicting inventory records by asking the warehouse to dream in a less divided tense."
+      ]
+    },
+    {
+      "id": "000012-157",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "the new company will give pay a different horizon of listening"
+      ]
+    },
+    {
+      "id": "000012-158",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The new roster allows time to shake hands with the grammar of care. This is the supervisor's explanation of how staffing matches patient needs."
+      ]
+    },
+    {
+      "id": "000012-159",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-160",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-161",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-162",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-163",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The revised rubric teaches excellence to cross the room without abandoning its silhouette. This explains how the new grades correspond to the old ones."
+      ]
+    },
+    {
+      "id": "000012-164",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The migration gives the old data a childhood in the grammar of arrival. This describes how legacy records relate to the new schema."
+      ]
+    },
+    {
+      "id": "000012-165",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-166",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-167",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "because distance has a throat, and the square is where that throat remembers itself"
+      ]
+    },
+    {
+      "id": "000012-168",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The critic connects the poem's sound with its argument through a moon that has become the administrative center of hesitation."
+      ]
+    },
+    {
+      "id": "000012-169",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-170",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "I said evidence is the hinge on which silence changes its ancestry"
+      ]
+    },
+    {
+      "id": "000012-171",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Quality is time with its shoes turned toward the inward shore. This is our account of how turnaround time affects workmanship."
+      ]
+    },
+    {
+      "id": "000012-172",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-173",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": ["it says the shelf becomes the conscience of the purse"]
+    },
+    {
+      "id": "000012-174",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-175",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-176",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-177",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The economist describes how household debt affects spending as the future rehearsing its portrait in the wallet's third mirror."
+      ]
+    },
+    {
+      "id": "000012-178",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The novel has this structure because chronology needs somewhere to hang the things it has not yet learned to remember."
+      ]
+    },
+    {
+      "id": "000012-179",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-180",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The merger will succeed because our organizational memory is learning to stand outside its own echo."
+      ]
+    },
+    {
+      "id": "000012-181",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": ["she said coordination is a lantern in the mouth of time"]
+    },
+    {
+      "id": "000012-182",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-183",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-184",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Experience lends intuition the roof under which evidence can change its name. That is my account of how the hiring decision was made."
+      ]
+    },
+    {
+      "id": "000012-185",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-186",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-187",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-188",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The workshop connects music and mathematics because rhythm is a number remembering the room it has not yet entered."
+      ]
+    },
+    {
+      "id": "000012-189",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-190",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-191",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Its explanation of how the timetable will match the clinic's appointments is that mobility lets care find the shadow of its own clock."
+      ]
+    },
+    {
+      "id": "000012-192",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-193",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-194",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "Our approach to staff retention is to allow commitment to discover the door handle in its own reflection."
+      ]
+    },
+    {
+      "id": "000012-195",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-196",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The town's economic recovery is an umbrella teaching its rain to take attendance. This explains why the employment scheme should work."
+      ]
+    },
+    {
+      "id": "000012-197",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-198",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-199",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": false
+    },
+    {
+      "id": "000012-200",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "At the ending, kinship finally inhabits the weather it has been carrying in its own name. According to the novelist, that is why the family conflict is resolved."
+      ]
+    },
+    {
+      "id": "000012-201",
+      "check": "semantic-thinness/unexplained-metaphor",
+      "expected": true,
+      "snippets": [
+        "The exchange, I wrote, would let belonging turn its name inside out until the house could recognize the other side of its voice. That was the reason I gave."
+      ]
+    }
+  ]
+}

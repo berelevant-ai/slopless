@@ -1,0 +1,484 @@
+{
+  "independentQa": {
+    "reviewedAt": "2026-10-20T17:04:47Z",
+    "reviewer": "Fresh Codex reviewer A",
+    "summaryPath": "/tmp/slopless-family-qa-a-summary.json",
+    "finalTextsMatchedToRawBlindReview": 200,
+    "hitSnippetSelectionsMatchedToRawOpus": 100,
+    "adjudicationEntriesReviewedAgainstFinalRows": 16,
+    "objectionOrDisagreementEventsMappedToAdjudicatedFinalRows": 16,
+    "initialBatchClassCounts": [
+      [44, 56],
+      [56, 44]
+    ],
+    "supplementalModelCalls": 0,
+    "supplementalMixedBatchReviewRequired": false,
+    "newLabelCorrectionsRequired": 0,
+    "materialConcerns": 0
+  },
+  "schemaVersion": 1,
+  "check": "semantic-thinness/hollow-significance",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+  "dataset": {
+    "textPath": "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md",
+    "labelsPath": "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.labels.json",
+    "textSha256": "1ffd44466d41e349a34b26551be9fce8e0795cc8241a63b4fa9e44683d85f3df",
+    "labelsSha256": "7912fcb14f5285843e34c5c0737dd684aed2cdd6b97d194f791b05be0f573605"
+  },
+  "counts": {
+    "passages": 200,
+    "hits": 100,
+    "noHits": 100,
+    "words": 5430,
+    "minimumWords": 11,
+    "maximumWords": 55,
+    "passages45To90Words": 44,
+    "hits45To90Words": 22,
+    "noHits45To90Words": 22
+  },
+  "review": {
+    "procedure": "Authenticated Claude CLI via the established helper. Only shuffled id/text targets sent; tools disabled; author labels, snippets, and class balance withheld. Author independently adjudicated all objections and disagreements against the accepted definition. Agreement is not an acceptance gate.",
+    "models": ["claude-opus-5-5"],
+    "blindCalls": 5,
+    "classificationRows": 211,
+    "distinctFinalPassagesReviewed": 200,
+    "initialAgreements": 200,
+    "initialDisagreements": 0,
+    "initialObjections": 10,
+    "replacementRows": 11,
+    "replacementDisagreements": 2,
+    "totalObjectionOccurrences": 15,
+    "finalAgreements": 198,
+    "finalAdjudicatedDisagreements": 2,
+    "unresolved": 0,
+    "batches": [
+      {
+        "stage": "initial-blind-classification",
+        "passages": 100,
+        "desiredHits": 44,
+        "desiredNoHits": 56,
+        "mixHiddenFromReviewer": true,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "inputFileSha256": "c18a33867840ac0ad946e0679f57d95842fcdaac03d554d4e42d76e24af22793",
+        "blindTargetsSha256": "fd61ab824cf64388f73938b784339e12cdc9ebd47f2a134911085897fd372402",
+        "responseFileSha256": "6a97c5c5b826484f7c75529827eb1928e76864dabb2f622ba572d635af2c00af",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "disagreements": 0,
+        "objections": 4,
+        "durationMs": 43230,
+        "costUsd": 0.193432
+      },
+      {
+        "stage": "initial-blind-classification",
+        "passages": 100,
+        "desiredHits": 56,
+        "desiredNoHits": 44,
+        "mixHiddenFromReviewer": true,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "inputFileSha256": "5adbb683b88296a27288da2def843e74252a2e66299640a7217eecebfbf75c5e",
+        "blindTargetsSha256": "e3eae2dd40e212a74fd9b3f48b344b296d4dbbb2f1dc4f5073fb422b99a77dae",
+        "responseFileSha256": "d35642bb6e852abb818a010f2659defe69d8fc730bbe4b57bdcebbb4eed5da10",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "disagreements": 0,
+        "objections": 6,
+        "durationMs": 38763,
+        "costUsd": 0.187544
+      },
+      {
+        "stage": "replacement-blind-classification",
+        "passages": 9,
+        "desiredHits": 5,
+        "desiredNoHits": 4,
+        "mixHiddenFromReviewer": true,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "inputFileSha256": "cc02efc64e9737fac780a7913de382c5491bfe64368619204b5bf2d3efc09181",
+        "blindTargetsSha256": "02c6e16723102a6f6fb6085bf383d700f7eafd6ffe17d8716b8cfc6f0ea054b4",
+        "responseFileSha256": "828eaaa1b0a5221f319221bdc52f3964453e4b49f5b53f428e3fce68bd9eb38e",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "disagreements": 2,
+        "objections": 4,
+        "durationMs": 19027,
+        "costUsd": 0.07988400000000001
+      },
+      {
+        "stage": "replacement-blind-classification",
+        "passages": 1,
+        "desiredHits": 0,
+        "desiredNoHits": 1,
+        "mixHiddenFromReviewer": true,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "inputFileSha256": "8ef61ab9dbffacc1a6c0c3fe303316855e45c7cb4341fd666e7e924e04117020",
+        "blindTargetsSha256": "4c9753537ac9b6c59a76c5381a38ea0c3a00217bf084891416c84f950e423a60",
+        "responseFileSha256": "e12fee15a80d72d20bf82bc6704e9455bbe7980708718059836c39d147580ac1",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "disagreements": 0,
+        "objections": 0,
+        "durationMs": 2723,
+        "costUsd": 0.042388
+      },
+      {
+        "stage": "replacement-blind-classification",
+        "passages": 1,
+        "desiredHits": 1,
+        "desiredNoHits": 0,
+        "mixHiddenFromReviewer": true,
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "inputFileSha256": "ed0e23e29edd9679844c25917cd413a2817dc59291740decfe780a6c0521ea91",
+        "blindTargetsSha256": "506bf81dd77bacd5f7e33e5c3a188e3971147b54637bebe65b2ba8667a0d25e6",
+        "responseFileSha256": "bc3b0c46b2562459f445d79d2d936e9a36c6ece43f82f1cf6c0efc7f6af4866c",
+        "helperSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "disagreements": 0,
+        "objections": 1,
+        "durationMs": 9347,
+        "costUsd": 0.048336000000000004
+      }
+    ],
+    "authorLabelCorrections": [
+      {
+        "id": "000006-089",
+        "from": true,
+        "to": false,
+        "textChanged": false,
+        "resolution": "Correct author label to no-hit and retain the text. Joint naming on the programme gives both parties public credit, a concrete qualitative outcome directly supplied after the benefit claim. The definition permits that recoverable consequence without separate monetary gains or a prescribed causal sentence."
+      },
+      {
+        "id": "000006-198",
+        "from": true,
+        "to": false,
+        "textChanged": false,
+        "resolution": "Correct author label to no-hit and retain the text. Displaying previously invisible characters is itself a concrete functional consequence. Useful compression permits that capability to convey the benefit; considerable grades its value and can be assessed separately as puffery. Requiring a further workflow example would add a requirement absent from the accepted definition."
+      },
+      {
+        "id": "000006-045",
+        "from": true,
+        "to": false,
+        "textChanged": false,
+        "resolution": "Initial author and blind reviewer both called this a hit. Author re-examination found that the modal contrast supplies the consequence implicitly. Correct the label with text unchanged and obtain a new blind classification; that classification agrees with the correction."
+      }
+    ],
+    "retainedDisagreements": [
+      {
+        "id": "000006-089",
+        "expected": false,
+        "reviewerExpected": true,
+        "resolution": "Retain no-hit after independent adjudication. The joint programme credit is the supplied practical outcome. Its economic value need not be quantified or expanded into separate payoffs to satisfy the qualitative-consequence boundary."
+      },
+      {
+        "id": "000006-198",
+        "expected": false,
+        "reviewerExpected": true,
+        "resolution": "Retain no-hit after independent adjudication. The text supplies a functional result by making hidden characters displayable. Distinguish that literal capability from an unexplained advantage assigned to an implementation choice. Reviewer agreement is not an acceptance gate."
+      }
+    ],
+    "adjudications": [
+      {
+        "id": "000006-125",
+        "batch": 1,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "The claim is attributed to a biographer, and the passage could be read as meta-commentary on that text's gap rather than as delivering its own empty claim. It contains no explicit criticism, though, and the stakes remain unspecified.",
+        "resolution": "Retain hit. Attributing the claim to a biographer supplies a speaker but no practical stakes. The passage reports the claim without rejecting it; the following description of wallpaper supplies no consequence."
+      },
+      {
+        "id": "000006-001",
+        "batch": 1,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "This is reported speech inside a narrative scene and could be read as tension-building (narrative craft). The consequences are still invoked and never specified.",
+        "resolution": "Retain hit. The clerk explicitly warns of considerable consequences. Counting buttons supplies scene detail rather than the threatened outcome. An explicit warning differs from atmosphere alone."
+      },
+      {
+        "id": "000006-198",
+        "batch": 1,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "Technical readers may treat the value of displaying invisible characters as conventional knowledge, but the passage itself supplies no consequence.",
+        "resolution": "Correct author label to no-hit and retain the text. Displaying previously invisible characters is itself a concrete functional consequence. Useful compression permits that capability to convey the benefit; considerable grades its value and can be assessed separately as puffery. Requiring a further workflow example would add a requirement absent from the accepted definition."
+      },
+      {
+        "id": "000006-191",
+        "batch": 1,
+        "reviewerExpected": false,
+        "authorExpectedAtReview": false,
+        "objection": "\"Profound\" invokes significance, but the construction is an unspecified change with a vague felt aftermath. That fits unspecified-change more specifically than hollow-significance.",
+        "resolution": "Retain no-hit. A change and a vague aftermath leave the development unspecified. The shared most-specific-type decision assigns that single omission to unspecified change."
+      },
+      {
+        "id": "000006-027",
+        "batch": 2,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "Another reading treats returning the blocks as the impact, but the tidy-up is a closing routine and not any result of the exercise.",
+        "resolution": "Retain hit. Returning materials to their bags describes routine cleanup. It identifies neither an effect of the exercise nor a benefit to participants."
+      },
+      {
+        "id": "000006-012",
+        "batch": 2,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "'Powerful' also reads as puffery, but the benefit itself is never stated, so the significance claim is empty either way.",
+        "resolution": "Retain hit. Inserting a named header describes an implementation detail; the passage gives no operation enabled, failure avoided, or other outcome of that header. Its lowercase representation supplies syntax rather than a benefit. Powerful can receive a separate puffery assessment."
+      },
+      {
+        "id": "000006-192",
+        "batch": 2,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "In fiction this can be foreshadowing or tension (narrative craft), but the cost is invoked as a payoff and never specified.",
+        "resolution": "The initial hit is valid: a future cost is explicitly assigned to remaining silent, while watching an insect supplies setting. Replace the passage for distinctive overlap with development imagery, keeping its cost-without-consequence coverage and hit label. The replacement receives blind review."
+      },
+      {
+        "id": "000006-089",
+        "batch": 2,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "Joint billing on the back cover could be read as the value delivered, but it reads more like incidental detail than a stated benefit to either party.",
+        "resolution": "Correct author label to no-hit and retain the text. Joint naming on the programme gives both parties public credit, a concrete qualitative outcome directly supplied after the benefit claim. The definition permits that recoverable consequence without separate monetary gains or a prescribed causal sentence."
+      },
+      {
+        "id": "000006-138",
+        "batch": 2,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "This could be narrative tension, but the stakes are asserted as weighty and never identified.",
+        "resolution": "Retain hit. The passage explicitly assigns enormous stakes to a particular decision rather than merely describing felt tension. Staircase choice and incidental physical details leave the threatened loss or attainable benefit unspecified."
+      },
+      {
+        "id": "000006-126",
+        "batch": 2,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "This can be read as a personal aside, but the seat's advantage is invoked and never explained; the booking day doesn't say what it is.",
+        "resolution": "Retain hit. A particular seat is called an indispensable advantage, but the passage gives no relevant constraint or outcome. The booking day supplies chronology rather than the claimed advantage."
+      },
+      {
+        "id": "000006-045",
+        "batch": 3,
+        "reviewerExpected": false,
+        "authorExpectedAtReview": false,
+        "objection": "Competing reading: 'bears a heavy practical load' claims significance without saying what changes for staff. But the may/must contrast already makes the consequence clear: staff don't have to return equipment. Because the passage supplies that qualitative consequence, I lean no-hit.",
+        "resolution": "Retain corrected no-hit. Permission versus obligation is recoverable directly from the quoted modal verbs and the return action. Staff gain a choice about returning the equipment; a further consequence sentence is unnecessary."
+      },
+      {
+        "id": "000006-198",
+        "batch": 3,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": false,
+        "resolution": "Retain no-hit after independent adjudication. The text supplies a functional result by making hidden characters displayable. Distinguish that literal capability from an unexplained advantage assigned to an implementation choice. Reviewer agreement is not an acceptance gate."
+      },
+      {
+        "id": "000006-081",
+        "batch": 3,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "The sentence tells us a measurement was made but gives no value, metric or scale. The serial numbers and visit date are unrelated detail. One could read it as a plain account of the analyst's process rather than a payoff claim, but the empty measurement is still the point being delivered.",
+        "resolution": "Retain hit. Converting an environmental benefit to a total is presented as a completed quantified result. No environmental metric, value, scale, or calculation is supplied. Equipment identifiers and a visit date describe provenance rather than the measurement."
+      },
+      {
+        "id": "000006-089",
+        "batch": 3,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": false,
+        "objection": "Competing reading: having both names on the back cover is a concrete outcome and might count as the value, namely shared publicity. But it doesn't say what each party gained, so the claim of value 'for both parties' stays mostly unspecified. Hit, with low confidence.",
+        "resolution": "Retain no-hit despite the blind review's low-confidence hit. The reviewer acknowledges the supplied shared publicity, then demands separate gains for each party. The accepted qualitative-consequence boundary permits joint public credit; it does not require an additional benefit beyond that stated outcome."
+      },
+      {
+        "id": "000006-171",
+        "batch": 3,
+        "reviewerExpected": false,
+        "authorExpectedAtReview": false,
+        "objection": "'A discovery he could scarcely articulate' leaves the content of the discovery unstated. That makes it a generic-realization defect, not a claim about importance, impact, benefit, risk, cost or measurement. It might be a hit for a different type, but not for this one.",
+        "resolution": "The intermediate no-hit is valid because the omission concerns what was discovered, not significance. Replace this intermediate wording after its nearest-neighbour audit finds the same interview-and-historian setting as development. The final technical passage receives another blind review."
+      },
+      {
+        "id": "000006-042",
+        "batch": 5,
+        "reviewerExpected": true,
+        "authorExpectedAtReview": true,
+        "objection": "The payoff is a benefit claim (\"thoroughly worthwhile\") with no practical consequence: we're never told what the season produced, saved or improved. The seed-catalogue sentence is unrelated detail and doesn't resolve it. A competing reading treats \"thoroughly worthwhile\" as an inflated evaluation, which would make it puffery instead. But the wording is mild, and the defect is a missing consequence rather than exaggeration, so hollow-significance fits better.",
+        "resolution": "Retain hit. The arrangement is evaluated as producing worthwhile benefits after a season, but none of its effects is specified. The catalogue packaging supplies background. The omission concerns the payoff; the wording makes no exceptional or superlative claim that would move the defect solely to puffery."
+      }
+    ],
+    "snippets": {
+      "source": "Unmodified exact snippets from the latest blind Opus review of each final hit",
+      "adoptedHits": 100,
+      "totalSnippets": 100,
+      "spanOnlyCalls": 0,
+      "authorSelectionsChanged": 43
+    },
+    "frozenTextMatches": {
+      "matched": 200,
+      "unmatched": 0,
+      "manifestSha256": "80c283585a4a5b897e0332ca0dd24662406ca04eb22e11bc083b9ca3a7b8d0ae",
+      "finalLabelsMatchAdjudication": true
+    }
+  },
+  "corrections": {
+    "authorFalsePositiveLabelsCorrected": 3,
+    "independentNoHitPassagesReplacedWithNewHitsForBalance": 3,
+    "overlapPassagesRevised": 4,
+    "overlapRevisionEvents": 5,
+    "totalDistinctRewrittenPassages": 7,
+    "totalRewriteEvents": 8,
+    "rewritesForReviewerAgreement": 0,
+    "changes": [
+      {
+        "id": "000006-042",
+        "resolution": "Replace the arrangement-and-lunch setting after a newly available development pair reveals the same incidental setup. The original significance hit remains valid; the new passage preserves the label and receives blind review."
+      },
+      {
+        "id": "000006-192",
+        "resolution": "Replace distinctive silence-and-insect imagery shared with development; preserve the original valid hit classification."
+      },
+      {
+        "id": "000006-163",
+        "resolution": "Revise incidental frame description because its wording overlaps a development fragment; preserve the original valid hit classification."
+      },
+      {
+        "id": "000006-171",
+        "resolution": "Replace a canonical realization variant, then replace the intermediate passage's development-adjacent setting. Preserve the no-hit classification for this assigned check throughout."
+      },
+      {
+        "id": "000006-076",
+        "resolution": "Replace an existing no-hit with a new independent cost-without-consequence hit after correcting three author false positives. This is a new passage, not a relabeling of the old no-hit."
+      },
+      {
+        "id": "000006-081",
+        "resolution": "Replace an existing no-hit with a new independent empty-measurement hit to restore the requested class count. The old no-hit remains valid in the raw initial draft."
+      },
+      {
+        "id": "000006-150",
+        "resolution": "Replace an existing no-hit with a new independent unprovided-stakes hit to restore the requested class count. The old no-hit remains valid in the raw initial draft."
+      }
+    ]
+  },
+  "deduplication": {
+    "normalization": "Lowercase alphanumeric tokens, retaining internal apostrophes; collapse punctuation and whitespace.",
+    "thresholds": {
+      "wordset": 0.32,
+      "shingle3": 0.09,
+      "sharedShingle5": true,
+      "containedMinimumWords": 5
+    },
+    "referenceHashes": {
+      "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+      "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+      "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+      "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+      "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+      "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+      "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+      "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+      "datasets/ai-synthetic/passages/000010-semantic-thinness-circular-explanation-holdout.md": "35111fb951b880bd2723a6d9bc26ec6c50293e128eb04950081f26aa991ae34d",
+      "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+      "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+      "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md": "c3b96f21b10fb84f1abb1a032405fd2e575e391680d5fd47b165bc282a57caa0",
+      "datasets/ai-synthetic/passages/000017-semantic-thinness-missing-actor-development.md": "596d337383a291758767880b1c96f6e371d12ac9b1e14e78878ed8fbeb275206",
+      ".plans/2026-10-20-125402-v2-rule-taxonomy.md": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+      "prompts/README.md": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b",
+      "prompts/v1/abstract-contrast.md": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676",
+      "prompts/v1/emotion-as-substance.md": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72",
+      "prompts/v1/generic-realization.md": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465",
+      "prompts/v1/shared.md": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867"
+    },
+    "auditFileSha256": "16c7409f9d7ac14f83b144e760834b7011f21f87c2ed9dd37bf1abf3ddcdea3a",
+    "initialDraftSha256": "b3517a7d5b13925083e8c41539b51eb752c99a461916cf2be7e236d1a68b36d8",
+    "draftedAll200BeforeDevelopmentInspection": true,
+    "correspondingFrozenDevelopmentHashesVerified": true,
+    "withinHoldout": {
+      "referencePassages": 200,
+      "compared": 200,
+      "normalizedExact": 0,
+      "containedExamples": 0,
+      "maximumWordset": 0.23076923076923078,
+      "maximumShingle3": 0.058823529411764705,
+      "flaggedPairs": 2,
+      "nearestWordsetAndShingle3Recorded": 200,
+      "flaggedPairsInspected": true,
+      "highScoringNearestPairsInspected": true,
+      "derivativeCopiesRemaining": 0
+    },
+    "development": {
+      "referencePassages": 1800,
+      "compared": 200,
+      "normalizedExact": 0,
+      "containedExamples": 0,
+      "maximumWordset": 0.28125,
+      "maximumShingle3": 0.0967741935483871,
+      "flaggedPairs": 14,
+      "nearestWordsetAndShingle3Recorded": 200,
+      "flaggedPairsInspected": true,
+      "highScoringNearestPairsInspected": true,
+      "derivativeCopiesRemaining": 0
+    },
+    "otherHoldouts": {
+      "referencePassages": 800,
+      "compared": 200,
+      "normalizedExact": 0,
+      "containedExamples": 0,
+      "maximumWordset": 0.24324324324324326,
+      "maximumShingle3": 0.08823529411764706,
+      "flaggedPairs": 19,
+      "nearestWordsetAndShingle3Recorded": 200,
+      "flaggedPairsInspected": true,
+      "highScoringNearestPairsInspected": true,
+      "derivativeCopiesRemaining": 0
+    },
+    "taxonomyAndPrompts": {
+      "referencePassages": 232,
+      "compared": 200,
+      "normalizedExact": 0,
+      "containedExamples": 0,
+      "maximumWordset": 0.25,
+      "maximumShingle3": 0.10714285714285714,
+      "flaggedPairs": 1,
+      "nearestWordsetAndShingle3Recorded": 200,
+      "flaggedPairsInspected": true,
+      "highScoringNearestPairsInspected": true,
+      "derivativeCopiesRemaining": 0
+    },
+    "conclusion": "Nearest word-set and three-word-shingle matches and all threshold flags inspected privately. Replaced distinctive narrative overlap and canonical or development-adjacent realization variants; retained general shared constructions. Available comparison files are enumerated by exact hash."
+  },
+  "validation": {
+    "status": "passed",
+    "existingReader": { "passed": true, "samples": 200, "labels": 200 },
+    "loadDataset": { "passed": true, "rows": 200 },
+    "uniqueIds": 200,
+    "uniqueNormalizedPassages": 200,
+    "sentences": { "min": 1, "max": 4, "outsideOneToFive": 0 },
+    "scope": "Assigned holdout pair and compact review record only.",
+    "checksumMatchesFinalBytes": true,
+    "labelsSha256MatchesFinalBytes": true,
+    "exactSnippets": true,
+    "hitSnippetsMatchUnmodifiedOpusSelections": true,
+    "noHitSnippetsOmitted": true,
+    "minimalLabels": true,
+    "sampleBoundariesMatchReviewedTexts": true,
+    "allFinalTextsMatchFrozenBlindReview": true,
+    "onlyAssignedCheckAssessed": true,
+    "neutralShuffledIds": true,
+    "asciiOnly": true,
+    "onePhysicalLinePerPassage": true,
+    "formattedWith": "Prettier --prose-wrap preserve --ignore-path /dev/null before final text/labels hashes and reader validation",
+    "sourceHeadVerified": "c21c445c333026e4033f8160e56388118cb715d9",
+    "readerContracts": {
+      "passed": 28,
+      "failed": 0,
+      "resultSha256": "2fb160be73455e731113989d25b2e48bc600b014ae4884fee66733815781a8e7"
+    },
+    "globalDatasetReader": {
+      "passed": true,
+      "documents": 15659,
+      "labels": 18653,
+      "holdoutDocuments": 6,
+      "resultSha256": "85f5d15eab25f9d0d9320a8348016cc865604a9aef9bce9104923a3e51e90575"
+    }
+  }
+}

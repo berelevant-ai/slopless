@@ -1,0 +1,407 @@
+{
+  "independentQa": {
+    "reviewedAt": "2026-10-20T17:04:47Z",
+    "reviewer": "Fresh Codex reviewer A",
+    "summaryPath": "/tmp/slopless-family-qa-a-summary.json",
+    "finalTextsMatchedToRawBlindReview": 200,
+    "hitSnippetSelectionsMatchedToRawOpus": 100,
+    "adjudicationEntriesReviewedAgainstFinalRows": 6,
+    "objectionOrDisagreementEventsMappedToAdjudicatedFinalRows": 6,
+    "initialBatchClassCounts": [
+      [50, 50],
+      [50, 50]
+    ],
+    "supplementalModelCalls": 0,
+    "supplementalMixedBatchReviewRequired": false,
+    "newLabelCorrectionsRequired": 0,
+    "materialConcerns": 0
+  },
+  "schemaVersion": 1,
+  "check": "semantic-thinness/generic-realization",
+  "split": "holdout",
+  "instructions": "Protected holdout: keep passages, labels, and snippets out of prompt-development contexts. Evaluate only after the candidate, prompts, model, thresholds, execution settings, and acceptance criteria are frozen. Return aggregate evaluation results to prompt authors.",
+  "sourceCommit": "c21c445c333026e4033f8160e56388118cb715d9",
+  "dataset": {
+    "textPath": "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.md",
+    "labelsPath": "datasets/ai-synthetic/passages/000008-semantic-thinness-generic-realization-holdout.labels.json",
+    "textSha256": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+    "labelsSha256": "4f651ac5720707bf3f9a52a33637efc6a98a9e8411def0fdca38cb8d4bcd3c8c",
+    "passages": 200,
+    "hits": 100,
+    "noHits": 100,
+    "words": 6508,
+    "long45To90": {
+      "hits": 25,
+      "noHits": 25
+    },
+    "wordRange": {
+      "min": 14,
+      "max": 67
+    },
+    "sentenceRange": {
+      "min": 1,
+      "max": 4
+    },
+    "snippets": 108
+  },
+  "authoring": {
+    "initialPassages": 200,
+    "initialHits": 100,
+    "initialNoHits": 100,
+    "initialDraftBeforeDevelopmentInspection": true,
+    "initialDraftSha256": "d45ce4c1eecf9903c9e69ebce05a0d4795453ded9f2ee8012b97412fa04e8cb0",
+    "finalNeutralIdShuffle": "SHA-256 sort using a separate fixed salt; sequential 000008-001 through 000008-200 assigned after sorting.",
+    "otherChecks": "unassessed"
+  },
+  "review": {
+    "models": ["claude-opus-5-5"],
+    "batches": [
+      {
+        "batch": 1,
+        "passages": 100,
+        "authorHits": 50,
+        "authorNoHits": 50,
+        "neutralIds": true,
+        "randomizedOrder": true,
+        "mixedBatch": true,
+        "balanceWithheld": true,
+        "blindFields": ["id", "text"],
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "inputSha256": "dd2982b84d13e3dbf13df29143e1fa731d51fbbfa2464eac8c528c52400c7421",
+        "reviewedTargetsSha256": "3fcf697a68a142833f3ac9ff5675aaf829ab7e2d6c3d2bc34456afa3facf6af6",
+        "rawReviewSha256": "9aa56bf0afd0666901235d91b8a178f2247fbd058ae2af5dae7b674117480423",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "durationMs": 37001,
+        "costUsd": 0.200624,
+        "objections": 2
+      },
+      {
+        "batch": 2,
+        "passages": 100,
+        "authorHits": 50,
+        "authorNoHits": 50,
+        "neutralIds": true,
+        "randomizedOrder": true,
+        "mixedBatch": true,
+        "balanceWithheld": true,
+        "blindFields": ["id", "text"],
+        "requestedModel": "opus",
+        "models": ["claude-opus-5-5"],
+        "inputSha256": "f4ded153526a378a0bf80960c8e404bfc57283fdbd351efed9d786325721b52a",
+        "reviewedTargetsSha256": "a7d51dffc1ffc33292726d594fef9c02c88657578ea80b3757573dfe5b24432e",
+        "rawReviewSha256": "4b47dfa299a6358668c6b95954b42a400c607280dccf5d332eea47c6b368da80",
+        "reviewRunnerSha256": "b53f1a6ddb7650f5c1c2c74873996c00dfd849deb23bf86e6b010abd879692ea",
+        "durationMs": 41682,
+        "costUsd": 0.20448,
+        "objections": 4
+      }
+    ],
+    "passagesReviewed": 200,
+    "toolsDisabled": true,
+    "authorLabelsWithheld": true,
+    "authorSnippetsWithheld": true,
+    "classBalanceWithheld": true,
+    "mixedBatches": 2,
+    "homogeneousBatches": 0,
+    "initialAgreements": 200,
+    "initialDisagreementCount": 0,
+    "initialDisagreements": [],
+    "initialObjections": 6,
+    "adjudicatedObjections": 6,
+    "finalAgreements": 200,
+    "finalDisagreements": 0,
+    "unresolvedLabelIssues": 0,
+    "hitSnippetsSelectedByOpus": 100,
+    "totalSelectedSnippets": 108,
+    "spanOnlyRequests": 0,
+    "agreementPolicy": "Author adjudication against the accepted definition determines correctness. Model agreement is recorded separately and is not an acceptance gate.",
+    "rawDraftsPromptsAndResponses": "Stored only in /tmp; full targets and prompts omitted from this record."
+  },
+  "corrections": {
+    "preBlindOverlapReplacements": 9,
+    "preBlindClarityEdits": 1,
+    "preBlindChanges": [
+      {
+        "id": "000008-135",
+        "reason": "Replace shared teaching construction and similar development phrasing.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-106",
+        "reason": "Replace close oral-history setting and location-awareness construction.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-054",
+        "reason": "Replace virtue-word lesson and displayed-word structure close to development.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-061",
+        "reason": "Replace workshop knowledge followed by sweeping structure.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-158",
+        "reason": "Replace generic point-is-simple worked-example form.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-145",
+        "reason": "Replace real-story departure construction close to development.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-018",
+        "reason": "Replace invoice charge separation control close to frozen development.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-169",
+        "reason": "Replace family-recording insight scenario near corresponding development.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-197",
+        "reason": "Replace relationship-labeling wording close to taxonomy worked example.",
+        "reviewedInMixedBlindBatch": true
+      },
+      {
+        "id": "000008-125",
+        "reason": "Improve the ordinary practical sequence in this specific control.",
+        "reviewedInMixedBlindBatch": true
+      }
+    ],
+    "postBlindTextRewrites": 0,
+    "labelCorrections": 0,
+    "snippetSelectionsAdoptedForHits": 100,
+    "retainedReviewerDisagreements": 0
+  },
+  "deduplication": {
+    "normalization": "Lowercase ASCII letters and digits; punctuation replaced by spaces; whitespace collapsed.",
+    "metrics": ["word-set Jaccard", "three-word-shingle Jaccard"],
+    "inputSha256": "730327ff5b0e7901c33d8f07796d712130d9d01ce90b46fe9904d2ce8dd21a0b",
+    "externalUnits": 2497,
+    "developmentPairs": 8,
+    "otherHoldoutPairs": 3,
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000001-semantic-thinness-empty-takeaway-development.md",
+        "textSha256": "4646325c3c40ace3972a7348df30f731d065296b5919619a811c548f8569a916",
+        "labelsSha256": "d78f3b3ba016b77203a4a895393796eadf2c09cbe1abe4a7dac66934ca16c86e",
+        "split": "development",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000002-semantic-thinness-empty-takeaway-holdout.md",
+        "textSha256": "0c012306f6271a485272956b1ccd3c2682bf28ec705fe8eb5c308b1dca8bd44c",
+        "labelsSha256": "5d6c70d71ecba21417176db3fc3b8de8454c7bce477a72f69fecd6b284588497",
+        "split": "holdout",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000003-semantic-thinness-unspecified-change-development.md",
+        "textSha256": "4e546aebe1f2226e948b4bce603c37561c7c25435e531a0c3f4cfce71f172481",
+        "labelsSha256": "8c7f838cfc8835fc59e85b6233195d01c81bed06d9e5ca0be7101ac146a68771",
+        "split": "development",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000004-semantic-thinness-unspecified-change-holdout.md",
+        "textSha256": "9a978be91e86f8af08431f58ddcb03d0667b81cbfeb1625e0b9b62d804e485ad",
+        "labelsSha256": "ba5926c5030515562c022ed6401ad5c58ff78feb0749dbdaef9a02fc35051085",
+        "split": "holdout",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000005-semantic-thinness-hollow-significance-development.md",
+        "textSha256": "6177136758d801d497ebf47c47aef9d949d95b456bb671630b7cd16efaeaf540",
+        "labelsSha256": "b9bef198be8f3ec498ba0201b6ecb413887b523c31ea774d6c0f44b562e76f67",
+        "split": "development",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000006-semantic-thinness-hollow-significance-holdout.md",
+        "textSha256": "3dcc31ef63f78fc13dae03ab2eea2175cdb7cccb5ec765ee992c36fb56e33645",
+        "labelsSha256": "5447d5709bb5f126491b58107df497fde2f94392573234292ae3f7078cad2991",
+        "split": "holdout",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000007-semantic-thinness-generic-realization-development.md",
+        "textSha256": "1d2a1ac2c373b0ba6ef6ca8addeb389b5ca40488618adb5e76e8e8d2cb0fc335",
+        "labelsSha256": "665f5995e4131562225ff456b0e742239b0cb66ab16904734a2d459e6d6d40d8",
+        "split": "development",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000009-semantic-thinness-circular-explanation-development.md",
+        "textSha256": "4b9210d3d2726d483163afbe0ce19dcb0b4b0e3bd04205c7f4f40b3d44b8199e",
+        "labelsSha256": "2981c484ad524d95a9527153b82a4c58cbff81a2817d92a550f5b807de6e9b1a",
+        "split": "development",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
+        "textSha256": "d96cfa110b3fedbb14ae3c4cd189b8cc162915b411c796410775235f3c98bbc8",
+        "labelsSha256": "975d73b18aa7a034ac996f6bbfacbcbf311aa10570a56a26d9804803d4cf0a91",
+        "split": "development",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000013-semantic-thinness-unspecified-scope-development.md",
+        "textSha256": "9dc91244d9ee5ad8dbbddb7d1b156a8e6166d6c973ddc10773cc0a4ce8a9a6f3",
+        "labelsSha256": "86fae8d5f49a2569dfd781e92a4411337b9d2b3fc1feb1eead6c39dadea8defc",
+        "split": "development",
+        "samples": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000015-semantic-thinness-unspecified-relationship-development.md",
+        "textSha256": "c3b96f21b10fb84f1abb1a032405fd2e575e391680d5fd47b165bc282a57caa0",
+        "labelsSha256": "058400a7c83807e9e7388fa340e170b77663070442c79e55c8d68349b9494e6a",
+        "split": "development",
+        "samples": 200
+      },
+      {
+        "path": "prompts/README.md",
+        "sha256": "e3f54e4881fd58e060f5cafa7019d9fc85edc54176eff359927a0692b66e328b",
+        "category": "prompts"
+      },
+      {
+        "path": "prompts/v1/abstract-contrast.md",
+        "sha256": "905f7b4d32bd9d79aea3e1b1eb4eb54ca788753eb390b24ec3d1b5f1bc6a2676",
+        "category": "prompts"
+      },
+      {
+        "path": "prompts/v1/emotion-as-substance.md",
+        "sha256": "784d54864d6d8cc48ba6ac81879f444b4804f9395f4a8c83274885efeb15fb72",
+        "category": "prompts"
+      },
+      {
+        "path": "prompts/v1/generic-realization.md",
+        "sha256": "e8fbd52778ef14cb79394acd58d842ca0ef15da9873454ed3c2fa8b0b8daf465",
+        "category": "prompts"
+      },
+      {
+        "path": "prompts/v1/shared.md",
+        "sha256": "534382b23d8f5e5bc6e52e1affa5b8fcd85e45dc7c8ad9cffc45613111265867",
+        "category": "prompts"
+      },
+      {
+        "path": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+        "sha256": "7d9b800770167e10a65db7cdc3431b8598b55f036fdd3a4931c02fcb765442f8",
+        "category": "taxonomy"
+      }
+    ],
+    "normalizedExactWithin": 0,
+    "normalizedExactAgainstSources": 0,
+    "maxWithinWordSet": 0.24242424242424243,
+    "maxWithinThreeWordShingles": 0.07692307692307693,
+    "maxAcrossWordSet": 0.2903225806451613,
+    "maxAcrossThreeWordShingles": 0.11428571428571428,
+    "nearestWordSetAndShingleMatchesInspectedForPassages": 200,
+    "withinNearestPairsInspected": 30,
+    "overlapReplacementsBeforeBlindReview": 9,
+    "unresolvedDerivativeCopyConcerns": 0,
+    "decision": "Retain independent scenarios and informative controls that share conventional constructions. Replace close scenario and wording matches before review. Source inventory records every available family development pair and other holdout pair at this audit snapshot."
+  },
+  "validation": {
+    "readDocument": "passed",
+    "loadDataset": "passed",
+    "schema": "passed",
+    "boundaries": "passed",
+    "exactSnippets": "passed",
+    "byteChecksum": "passed",
+    "checkAndMinimalLabels": "passed",
+    "neutralSequentialIds": "passed",
+    "globalIds": {
+      "passed": true,
+      "files": 11,
+      "samples": 2200
+    },
+    "asciiPunctuation": "passed",
+    "onePhysicalLinePerParagraph": "passed",
+    "sentenceCounts": "passed",
+    "frozenMatches": {
+      "texts": 200,
+      "labels": 200,
+      "hitSnippetSelections": 100
+    },
+    "textSha256": "3bb6d64807a02ec974e156464b683b6e5f0e4c16ddf59ccbcdc2cb79feebbdf0",
+    "labelsSha256": "4f651ac5720707bf3f9a52a33637efc6a98a9e8411def0fdca38cb8d4bcd3c8c",
+    "frozenTextsSha256": "3d4903b89e58a36f5e5d8129ff51f61498313c11d3816ceacb400e9f8dd1ccf6",
+    "stats": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "words": 6508,
+      "long45To90": {
+        "hits": 25,
+        "noHits": 25
+      },
+      "wordRange": {
+        "min": 14,
+        "max": 67
+      },
+      "sentenceRange": {
+        "min": 1,
+        "max": 4
+      },
+      "snippets": 108
+    },
+    "formatter": "pnpm exec prettier --write --prose-wrap preserve --ignore-path /dev/null",
+    "formattingBeforeFreeze": true,
+    "hashesAndRangesRecomputedAfterFormatting": true,
+    "prettierCheck": "passed",
+    "datasetCli": "passed: 1 document, 200 labels, 1 holdout document",
+    "whitespaceCheck": "passed",
+    "frozenReviewTextMatches": 200,
+    "frozenReviewLabelMatches": 200,
+    "frozenReviewHitSnippetMatches": 100
+  },
+  "privateCaseResolutions": [
+    {
+      "id": "000008-157",
+      "initialObjection": "'Understood the demonstration' reports ordinary comprehension of a procedure. It does not announce a withheld insight, though someone could read it as an unspecified understanding.",
+      "resolution": "Retain the no-hit. The subject of comprehension is the demonstrated knot, and subsequent glove difficulty concerns performing that procedure. Understanding a procedure can be compressed without describing every tying step; this is ordinary comprehension with a recoverable object.",
+      "action": "Retain reviewed passage and author classification.",
+      "unresolved": false
+    },
+    {
+      "id": "000008-079",
+      "initialObjection": "A lesson is announced and named ('excellence'), but the content is hollow. That fits the empty-takeaway type better than an unspecified realization. Under the most-specific-type rule this is a no-hit here, though one could argue that a one-word lesson leaves what was learned unspecified.",
+      "resolution": "Retain the no-hit for generic-realization. The passage presents an empty lesson through an evaluated virtue and an answer; the most-specific-type rule assigns that omission to empty-takeaway. The passage claims no distinct discovery whose content would require an additional realization judgment.",
+      "action": "Retain reviewed passage and author classification.",
+      "unresolved": false
+    },
+    {
+      "id": "000008-034",
+      "initialObjection": "The insight (the second column lists Sunday departures) is implied rather than stated, but the passage makes it unambiguous.",
+      "resolution": "Retain the no-hit. The named day heading identifies which column applies on Sundays. That supplied context makes the apparent conflict in departure times recoverable, so the realization has an unambiguous object.",
+      "action": "Retain reviewed passage and author classification.",
+      "unresolved": false
+    },
+    {
+      "id": "000008-156",
+      "initialObjection": "'Found' refers to a physical object that is named (a second well), not an unspecified insight.",
+      "resolution": "Retain the no-hit. The finding is the explicitly named second well, located below the paving and described by its brick lining. A physical discovery can carry its own substantive content without an added philosophical conclusion.",
+      "action": "Retain reviewed passage and author classification.",
+      "unresolved": false
+    },
+    {
+      "id": "000008-028",
+      "initialObjection": "This could be read as finishing making sense of an event rather than announcing an insight, but no content of the understanding is ever given.",
+      "resolution": "Retain the hit. A completed understanding of the previous night is explicitly asserted. Breakfast, rinsing a mug, and opening the shop identify the occasion and later actions while supplying none of the content of that understanding. Completing comprehension is within the accepted understanding branch.",
+      "action": "Retain reviewed passage and author classification.",
+      "unresolved": false
+    },
+    {
+      "id": "000008-023",
+      "initialObjection": "'Everything clicked' is vague on its own, but the surrounding sentences state the discovery (following the echo rather than the conductor's beat).",
+      "resolution": "Retain the no-hit. The cause of the late entrance is explicitly supplied before the compressed recognition: the player followed the wall echo instead of the conductor. The later distinction between timing source and bow speed further specifies the discovery.",
+      "action": "Retain reviewed passage and author classification.",
+      "unresolved": false
+    }
+  ]
+}
