@@ -1,0 +1,44 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["runners/jev.mjs"],
+        "reason": "2026-10-20-235148-puffery-family-development.md: bounded runner preparation; behavioral coverage is in the paired coverage map.",
+        "required": [
+          "export function preflightDataset",
+          "export function batchPlans",
+          "export function score",
+          "export function rescoreResult",
+          "export function validateResult",
+          "export function createSnapshot",
+          "classification-only",
+          "development-only",
+          "targetsSha256",
+          "rescoredLabelsSha256"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["scripts/datasets-contract.mjs"],
+        "required": [
+          "classification-only",
+          "development-only",
+          "rescore",
+          "legacy snapshot"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["runners/README.md"],
+        "required": [
+          "preflightDataset",
+          "classification-only",
+          "rescore",
+          "development-only"
+        ]
+      }
+    ]
+  }
+}

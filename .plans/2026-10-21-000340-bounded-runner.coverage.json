@@ -1,0 +1,46 @@
+{
+  "plan": ".plans/2026-10-20-235148-puffery-family-development.md#runner-preparation",
+  "goal": "Prepare family-selectable, classification-only execution and safe offline rescoring without provider calls or holdout inspection.",
+  "approach": [
+    "Extend existing runner helpers and CLI with legacy defaults, metadata preflight, mode-aware planning/scoring, and immutable label-only rescoring.",
+    "Exercise real CLI subprocesses and exported helpers with synthetic paired datasets in the existing datasets contract.",
+    "Document exports and compatibility, then run Specular, focused formatting/lint, and Fixture3 datasets contracts."
+  ],
+  "decisions": [
+    "Keep existing readDocuments, datasetHashes, buildRequest, and validateResponse as the implementation basis; add no dependencies.",
+    "Preflight reads metadata before any target text loading or provider initialization; all collections must declare development in development-only mode.",
+    "Store target identity separately from judgments; rescore appends corrected scores without replacing original snapshot, summaries, or batches.",
+    "Legacy snapshots default to semantic-thinness and detect-and-highlight; rescore requires recorded target identity and original summaries."
+  ],
+  "files": [
+    "runners/jev.mjs",
+    "scripts/datasets-contract.mjs",
+    "runners/README.md"
+  ],
+  "contracts": [
+    {
+      "behavior": "Family selection and scoped no-hit scoring; label-free requests",
+      "boundary": "loadDataset/buildRequest/score and CLI validate"
+    },
+    {
+      "behavior": "Classification-only plans, complete scoring, completed resume, partial validation",
+      "boundary": "batchPlans/validateResult and CLI validate/score/run with deliberately invalid SDK"
+    },
+    {
+      "behavior": "Misleading holdout filename, mixed directory, and missing split rejected before initialization",
+      "boundary": "preflightDataset and CLI run --development-only with invalid SDK"
+    },
+    {
+      "behavior": "Old-format snapshots validate, score, and resume with default highlighting",
+      "boundary": "CLI validate/score/run and synthetic saved legacy batches"
+    },
+    {
+      "behavior": "Label correction appends separate judgment hash and preserves inference provenance",
+      "boundary": "rescoreResult and CLI rescore"
+    },
+    {
+      "behavior": "Changed texts, IDs, check assignments, model, prompts, request hashes, predictions, or incomplete outputs rejected",
+      "boundary": "rescoreResult/validateResult and CLI rescore"
+    }
+  ]
+}

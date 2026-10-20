@@ -13,7 +13,7 @@ import { basename, dirname, relative, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { parseArgs } from "node:util";
 import { splitSentences } from "../dist/shared/text/sentences.js";
-import { datasetHashes, readDocuments } from "./datasets.mjs";
+import { datasetHashes, documentPaths, readDocuments } from "./datasets.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const hash = (value) => createHash("sha256").update(value).digest("hex");
@@ -23,16 +23,45 @@ const detectionQuestion =
 const highlightQuestion =
   "A prior paragraph-level decision found TYPE in target. Independently judge the complete paragraph using state.instructions and rulebook. Does numbered sentence SENTENCE in sentences participate in the offending construction? Select a sentence when it contains the offending wording or supplies a necessary setup, contrast, or payoff. A sentence can participate even when it would be harmless or incomplete alone. Explanatory background that only provides context is not an offending participant. Return no if the paragraph-level finding was mistaken. Other paragraphs are independent cases.";
 
-export function loadDataset(input) {
+const defaultFamily = "semantic-thinness";
+const defaultMode = "detect-and-highlight";
+
+function validateMode(mode) {
+  assert.ok(
+    [defaultMode, "classification-only"].includes(mode),
+    `Unknown execution mode: ${mode}`
+  );
+}
+
+/** Run before loading target text or initializing provider access. */
+export function preflightDataset(input, { developmentOnly = false } = {}) {
+  assert.equal(typeof developmentOnly, "boolean");
+  const files = documentPaths(input);
+  assert.ok(files.length > 0, "The dataset has no documents.");
+  if (developmentOnly)
+    for (const file of files) {
+      const metadata = read(file.slice(0, -3) + ".labels.json");
+      assert.equal(
+        metadata.split,
+        "development",
+        `${file}: development-only mode requires split: development.`
+      );
+    }
+  return files;
+}
+
+export function loadDataset(input, family = defaultFamily) {
+  assert.match(family, /^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/);
   const rows = readDocuments(input).flatMap(({ text, metadata, labels }) =>
     labels.flatMap((label) => {
-      if (!label.check.startsWith("semantic-thinness")) return [];
+      if (label.check !== family && !label.check.startsWith(`${family}/`))
+        return [];
       assert.equal(typeof label.expected, "boolean");
       assert.ok(typeof label.group === "string" && label.group.length > 0);
       const target = {
         id: label.id,
         text: text.slice(label.start, label.end),
-        family: "semantic-thinness",
+        family,
         group: label.group
       };
       assert.equal(
@@ -54,10 +83,7 @@ export function loadDataset(input) {
       return [{ ...target, label, sentences }];
     })
   );
-  assert.ok(
-    rows.length > 0,
-    "The dataset has no labeled semantic-thinness passages."
-  );
+  assert.ok(rows.length > 0, `The dataset has no labeled ${family} passages.`);
   assert.equal(
     new Set(rows.map((row) => row.id)).size,
     rows.length,
@@ -158,9 +184,18 @@ export function validateResponse(saved, request) {
   }
 }
 
-function batchPlans(rows, checks, threshold, completed) {
+export function batchPlans(
+  rows,
+  checks,
+  threshold,
+  completed,
+  mode = defaultMode
+) {
+  validateMode(mode);
   const plans = [];
-  for (const stage of ["detection", "highlighting"])
+  for (const stage of mode === "classification-only"
+    ? ["detection"]
+    : ["detection", "highlighting"])
     for (const check of checks) {
       const detected = Object.assign(
         {},
@@ -191,7 +226,8 @@ function batchPlans(rows, checks, threshold, completed) {
   return plans;
 }
 
-function score(rows, checks, threshold, batches) {
+export function score(rows, checks, threshold, batches, mode = defaultMode) {
+  validateMode(mode);
   const answers = Object.assign(
     {},
     ...batches.map((batch) => batch.response.answers)
@@ -216,15 +252,162 @@ function score(rows, checks, threshold, batches) {
       findings: rows.filter(detected).map((row) => ({
         id: row.id,
         score: answers[`${row.id}_${check}`].noul,
-        sentences: row.sentences
-          .filter(
-            (sentence) =>
-              answers[`${row.id}_${check}_s${sentence.id}`].noul >= threshold
-          )
-          .map(({ id, start, end }) => ({ id, start, end }))
+        ...(mode === "classification-only"
+          ? {}
+          : {
+              sentences: row.sentences
+                .filter(
+                  (sentence) =>
+                    answers[`${row.id}_${check}_s${sentence.id}`].noul >=
+                    threshold
+                )
+                .map(({ id, start, end }) => ({ id, start, end }))
+            })
       }))
     };
   });
+}
+
+export function createSnapshot({
+  dataset,
+  promptDirectory,
+  model,
+  threshold,
+  checks,
+  prompts,
+  rows,
+  family = defaultFamily,
+  mode = defaultMode
+}) {
+  validateMode(mode);
+  assert.ok(Number.isFinite(threshold) && threshold > 0 && threshold <= 1);
+  assert.ok(typeof model === "string" && model.length > 0);
+  assert.deepEqual(checks, Object.keys(prompts.types));
+  assert.ok(rows.length > 0 && rows.every((row) => row.family === family));
+  return {
+    model,
+    threshold,
+    checks,
+    family,
+    mode,
+    prompts: relative(root, resolve(promptDirectory)),
+    dataset: relative(root, resolve(dataset)),
+    promptSha256: hash(JSON.stringify(prompts)),
+    ...datasetHashes(dataset),
+    targetsSha256: hash(
+      JSON.stringify(
+        rows.map(({ id, text, family: rowFamily, group, label }) => ({
+          id,
+          text,
+          family: rowFamily,
+          group,
+          check: label.check,
+          start: label.start,
+          end: label.end
+        }))
+      )
+    )
+  };
+}
+
+function normalizedSnapshot(snapshot) {
+  return {
+    ...snapshot,
+    family: snapshot.family ?? defaultFamily,
+    mode: snapshot.mode ?? defaultMode
+  };
+}
+
+function validateSaved(result, { snapshot, rows, prompts }, allowLabelChanges) {
+  const saved = normalizedSnapshot(result.snapshot);
+  const current = normalizedSnapshot(snapshot);
+  if (allowLabelChanges) {
+    assert.ok(
+      saved.targetsSha256,
+      "Rescore requires a recorded target identity hash."
+    );
+    saved.labelsSha256 = current.labelsSha256;
+  } else if (saved.targetsSha256 === undefined) {
+    // Legacy requests still verify the exact targets and identifiers below.
+    delete current.targetsSha256;
+  }
+  assert.deepEqual(
+    saved,
+    current,
+    "Saved results require the same prompts, dataset, checks, model, threshold, family, mode, and target assignments. Choose a new output for changed inputs."
+  );
+  assert.equal(snapshot.promptSha256, hash(JSON.stringify(prompts)));
+  assert.ok(Array.isArray(result.batches));
+  const { model, threshold, checks, mode } = current;
+  const planned = batchPlans(rows, checks, threshold, result.batches, mode);
+  assert.ok(result.batches.length <= planned.length);
+  for (const [index, batch] of result.batches.entries()) {
+    const plan = planned[index];
+    assert.deepEqual(
+      [batch.stage, batch.check, batch.index],
+      [plan.stage, plan.check, plan.index]
+    );
+    validateResponse(
+      batch,
+      buildRequest(model, prompts, plan.check, plan.items, rows)
+    );
+  }
+  if (result.inferenceSha256 !== undefined)
+    assert.equal(
+      result.inferenceSha256,
+      hash(
+        JSON.stringify({ batches: result.batches, summaries: result.summaries })
+      ),
+      "Saved predictions or original scores changed."
+    );
+  return { complete: result.batches.length === planned.length };
+}
+
+export function validateResult(result, context) {
+  return validateSaved(result, context, false);
+}
+
+export function rescoreResult(result, context) {
+  assert.ok(
+    validateSaved(result, context, true).complete,
+    "Rescore requires complete predictions."
+  );
+  assert.ok(
+    result.inferenceSha256 && Array.isArray(result.summaries),
+    "Rescore requires preserved original predictions and summaries."
+  );
+  const { snapshot, rows, prompts } = context;
+  // Bind caller-supplied context to the current disk inputs, including assignments.
+  assert.deepEqual(
+    rows,
+    loadDataset(resolve(root, snapshot.dataset), snapshot.family)
+  );
+  assert.deepEqual(
+    createSnapshot({
+      ...snapshot,
+      dataset: resolve(root, snapshot.dataset),
+      promptDirectory: resolve(root, snapshot.prompts),
+      rows,
+      prompts
+    }),
+    snapshot
+  );
+  const updated = structuredClone(result);
+  updated.rescores ??= [];
+  updated.rescores.push({
+    recordedAt: new Date().toISOString(),
+    originalLabelsSha256: result.snapshot.labelsSha256,
+    rescoredLabelsSha256: snapshot.labelsSha256,
+    inferenceSha256: result.inferenceSha256,
+    summaries: score(
+      rows,
+      snapshot.checks,
+      snapshot.threshold,
+      result.batches,
+      snapshot.mode
+    )
+  });
+  return updated;
 }
 
 function credential() {
@@ -270,6 +453,9 @@ async function main() {
         default: "datasets/ai-synthetic/semantic-thinness.md"
       },
       check: { type: "string" },
+      family: { type: "string", default: defaultFamily },
+      mode: { type: "string", default: defaultMode },
+      "development-only": { type: "boolean", default: false },
       output: { type: "string" },
       model: { type: "string", default: "jev-1.13.0" },
       threshold: { type: "string", default: "0.5" },
@@ -278,13 +464,14 @@ async function main() {
   });
   if (values.help) {
     console.log(
-      "node runners/jev.mjs <validate|score|run> [--prompts prompts/v1] [--dataset datasets/ai-synthetic/semantic-thinness.md] [--check NAME] [--output FILE] [--model jev-1.13.0] [--threshold 0.5] [--sdk PATH]\nThe dataset is Markdown with matching .labels.json. Paths are relative to the current directory. validate checks inputs and any supplied output offline. score requires a complete output. run calls Jev and resumes the chosen output file. All checks evaluate every labeled passage independently; scoring uses assigned positives, check-specific no-hits, and legacy family-wide clean controls. Only text and target identifiers enter model requests. Save outputs under runners/results, outside datasets and prompts. SDK defaults to the pinned @typesafe-ai/sdk development dependency; JEV_API_KEY or the approved 1Password entry supplies credentials."
+      "node runners/jev.mjs <validate|score|rescore|run> [--prompts prompts/v1] [--dataset PATH] [--family semantic-thinness] [--mode detect-and-highlight|classification-only] [--development-only] [--check NAME] [--output FILE] [--model jev-1.13.0] [--threshold 0.5] [--sdk PATH]\nThe dataset is Markdown with matching .labels.json. Paths are relative to the current directory. validate checks inputs and any supplied output offline. score requires a complete output. rescore appends label-only corrected summaries offline, preserving original results. run calls Jev and resumes the chosen output file. development-only checks every collection's split metadata before loading text or initializing provider access. All checks evaluate every labeled passage independently; scoring uses assigned positives, check-specific no-hits, and legacy family-wide clean controls. Only text and target identifiers enter model requests. Save outputs under runners/results, outside datasets and prompts. SDK defaults to the pinned @typesafe-ai/sdk development dependency; JEV_API_KEY or the approved 1Password entry supplies credentials."
     );
     return;
   }
   const [command] = positionals;
   assert.ok(
-    positionals.length === 1 && ["validate", "score", "run"].includes(command),
+    positionals.length === 1 &&
+      ["validate", "score", "rescore", "run"].includes(command),
     "Use --help for commands."
   );
   assert.ok(command === "validate" || values.output, "--output is required.");
@@ -292,7 +479,11 @@ async function main() {
   assert.ok(Number.isFinite(threshold) && threshold > 0 && threshold <= 1);
   const dataset = resolve(values.dataset);
   const promptDirectory = resolve(values.prompts);
-  const rows = loadDataset(dataset);
+  const family = values.family;
+  const mode = values.mode;
+  validateMode(mode);
+  preflightDataset(dataset, { developmentOnly: values["development-only"] });
+  const rows = loadDataset(dataset, family);
   const prompts = loadPrompts(promptDirectory, values.check);
   const checks = Object.keys(prompts.types);
   for (const check of checks)
@@ -300,15 +491,17 @@ async function main() {
       rows.some((row) => row.group === check),
       `The dataset has no group for check: ${check}`
     );
-  const snapshot = {
+  const snapshot = createSnapshot({
+    dataset,
+    promptDirectory,
     model: values.model,
     threshold,
     checks,
-    prompts: relative(root, promptDirectory),
-    dataset: relative(root, dataset),
-    promptSha256: hash(JSON.stringify(prompts)),
-    ...datasetHashes(dataset)
-  };
+    prompts,
+    rows,
+    family,
+    mode
+  });
   const file = values.output && resolve(values.output);
   assert.ok(
     command === "run" || !file || existsSync(file),
@@ -322,37 +515,23 @@ async function main() {
         file !== dataset.slice(0, -3) + ".labels.json"),
     "Output must be separate from inputs."
   );
-  const result =
+  let result =
     file && existsSync(file) ? read(file) : { snapshot, batches: [] };
-  assert.deepEqual(
-    result.snapshot,
-    snapshot,
-    "Saved results require the same prompts, dataset, checks, model, and threshold. Choose a new output for changed inputs."
-  );
-  assert.ok(Array.isArray(result.batches));
   const save = () => {
     mkdirSync(dirname(file), { recursive: true });
     writeFileSync(`${file}.tmp`, JSON.stringify(result) + "\n");
     renameSync(`${file}.tmp`, file);
   };
-  const planned = batchPlans(rows, checks, threshold, result.batches);
-  assert.ok(result.batches.length <= planned.length);
-  for (const [index, batch] of result.batches.entries()) {
-    const plan = planned[index];
-    assert.deepEqual(
-      [batch.stage, batch.check, batch.index],
-      [plan.stage, plan.check, plan.index]
-    );
-    validateResponse(
-      batch,
-      buildRequest(values.model, prompts, plan.check, plan.items, rows)
-    );
-  }
+  const context = { snapshot, rows, prompts };
+  if (command === "rescore") {
+    result = rescoreResult(result, context);
+    save();
+  } else validateResult(result, context);
   let client;
   let apiKey;
   if (command === "run") {
     for (;;) {
-      const plan = batchPlans(rows, checks, threshold, result.batches)[
+      const plan = batchPlans(rows, checks, threshold, result.batches, mode)[
         result.batches.length
       ];
       if (!plan) break;
@@ -401,19 +580,34 @@ async function main() {
   }
   const complete =
     result.batches.length ===
-    batchPlans(rows, checks, threshold, result.batches).length;
+    batchPlans(rows, checks, threshold, result.batches, mode).length;
   if (command !== "validate")
     assert.ok(complete, "The output is incomplete; use run to resume it.");
+  if (command === "run" && result.summaries === undefined) {
+    result.summaries = score(rows, checks, threshold, result.batches, mode);
+    result.inferenceSha256 = hash(
+      JSON.stringify({ batches: result.batches, summaries: result.summaries })
+    );
+    save();
+  }
   console.log(
     JSON.stringify(
       {
         paragraphs: rows.length,
         checks,
+        family,
+        mode,
         complete,
         requests: result.batches.length,
         ...(complete
           ? {
-              summaries: score(rows, checks, threshold, result.batches),
+              summaries:
+                command === "rescore"
+                  ? result.rescores.at(-1).summaries
+                  : score(rows, checks, threshold, result.batches, mode),
+              ...(command === "rescore"
+                ? { rescoredLabelsSha256: snapshot.labelsSha256 }
+                : {}),
               requestMs: result.batches.reduce(
                 (sum, batch) => sum + batch.elapsedMs,
                 0
