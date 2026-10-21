@@ -4,7 +4,10 @@
 
 Complete the next three families in order: unsupported authority, staged contrasts, then boilerplate and signposting. For each family, prepare reviewed datasets, tune all its checks on development, freeze candidates, evaluate holdout once, and commit/push the reviewed results before continuing automatically.
 
-Puffery and overstatement is complete through isolated development and holdout classification; its results remain below. This extension is planning only until the user supplies the next execution goal.
+Puffery and overstatement is complete through isolated development and holdout classification; its results remain below. Execution of the three-family extension started on 2026-10-21 at the user's request.
+
+- Current family: unsupported authority. Source inspection consolidates its coverage into vague attribution and prestige padding, both using passage input. Freeze these definitions after independent review before dataset authoring.
+- Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 
 ## Execution Order
 
