@@ -28,6 +28,7 @@ const fixture = JSON.parse(readFileSync(process.argv[2], "utf8"));
 const jevCli = fileURLToPath(new URL("../runners/jev.mjs", import.meta.url));
 mkdirSync(resolve(".fixture3"), { recursive: true });
 const directory = mkdtempSync(resolve(".fixture3/dataset-contract-"));
+const questionDirectory = mkdtempSync(resolve(".fixture3/question-contract-"));
 const file = resolve(directory, "article.md");
 const labelsFile = resolve(directory, "article.labels.json");
 const control = {
@@ -157,6 +158,38 @@ function runnerContext(
     mode
   });
   return { rows, prompts, snapshot };
+}
+function questionPrompts() {
+  const promptDirectory = mkdtempSync(resolve(questionDirectory, "prompts-"));
+  const checkFile = resolve(promptDirectory, "generic-realization.md");
+  const instructions = "Judge the complete synthetic passage.";
+  const body = "# Synthetic check\n\nDetect the synthetic claim.";
+  const question = {
+    instructions:
+      "  Judge TYPE and SENTENCE literally in the complete target.  ",
+    criteria: {
+      true: "  The synthetic claim is present.  ",
+      false: "  The synthetic claim is absent.  "
+    }
+  };
+  const saveQuestion = (value = question, newline = "\n") =>
+    writeFileSync(
+      checkFile,
+      ["---", JSON.stringify(value, null, 2), "---", body]
+        .join("\n")
+        .replaceAll("\n", newline)
+    );
+  writeFileSync(resolve(promptDirectory, "shared.md"), instructions + "\n");
+  writeFileSync(resolve(promptDirectory, "legacy.md"), "  Legacy check.\n");
+  saveQuestion();
+  return {
+    promptDirectory,
+    checkFile,
+    instructions,
+    body,
+    question,
+    saveQuestion
+  };
 }
 function wholeTextContext() {
   const directory = mkdtempSync(resolve(".fixture3/batching-contract-"));
@@ -503,6 +536,297 @@ try {
     assert.equal(request.questions.hit.instructions.target, fixture.hit);
     assert.ok(!JSON.stringify(request).includes(hit.reason));
   });
+  check(
+    "question metadata loads bodies and selected checks with legacy defaults",
+    () => {
+      const context = questionPrompts();
+      const { promptDirectory, instructions, body, question, saveQuestion } =
+        context;
+      const expected = {
+        instructions,
+        types: { "generic-realization": body, legacy: "Legacy check." },
+        questions: { "generic-realization": question }
+      };
+      assert.deepEqual(loadPrompts(promptDirectory), expected);
+      saveQuestion(question, "\r\n");
+      assert.deepEqual(loadPrompts(promptDirectory), {
+        ...expected,
+        types: {
+          ...expected.types,
+          "generic-realization": body.replaceAll("\n", "\r\n")
+        }
+      });
+      saveQuestion();
+      assert.deepEqual(loadPrompts(promptDirectory, "generic-realization"), {
+        ...expected,
+        types: { "generic-realization": body }
+      });
+      assert.equal(
+        JSON.stringify(loadPrompts(promptDirectory, "legacy")),
+        JSON.stringify({ instructions, types: { legacy: "Legacy check." } })
+      );
+      writeFileSync(context.checkFile, "---\ninvalid JSON\n---\nbody");
+      assert.deepEqual(loadPrompts(promptDirectory, "legacy"), {
+        instructions,
+        types: { legacy: "Legacy check." }
+      });
+      assert.throws(
+        () => loadPrompts(promptDirectory, "missing"),
+        /Unknown check/
+      );
+      writeFileSync(context.checkFile, " \n" + body + "\n\n ");
+      assert.equal(
+        JSON.stringify(loadPrompts(promptDirectory)),
+        JSON.stringify({ instructions, types: expected.types })
+      );
+    }
+  );
+  check("question metadata rejects malformed headers before SDK access", () => {
+    save({ ...metadata, split: "development" });
+    const { promptDirectory, checkFile, question, body } = questionPrompts();
+    const marker = resolve(questionDirectory, "sdk-imported.txt");
+    const sdk = resolve(questionDirectory, "rejection-sdk.mjs");
+    writeFileSync(
+      sdk,
+      `import { writeFileSync } from "node:fs"; writeFileSync(${JSON.stringify(marker)}, "imported"); throw new Error("SDK must stay unloaded");`
+    );
+    const invalid = [
+      null,
+      [],
+      true,
+      1,
+      "text",
+      {},
+      { instructions: "question" },
+      { criteria: question.criteria },
+      { ...question, extra: "unsupported" },
+      ...[null, [], {}, true, 1, "", " \n\t"].map((instructions) => ({
+        ...question,
+        instructions
+      })),
+      ...[
+        null,
+        [],
+        true,
+        "text",
+        {},
+        { true: "yes" },
+        { false: "no" },
+        { ...question.criteria, extra: "unsupported" }
+      ].map((criteria) => ({ ...question, criteria })),
+      ...["true", "false"].flatMap((key) =>
+        [null, [], {}, false, 1, "", " \n\t"].map((value) => ({
+          ...question,
+          criteria: { ...question.criteria, [key]: value }
+        }))
+      )
+    ].map((value) => `---\n${JSON.stringify(value)}\n---\n${body}`);
+    invalid.push(
+      `---\n{"instructions":"question",}\n---\n${body}`,
+      `---\ninstructions: question\n---\n${body}`,
+      `---\n${JSON.stringify(question)}\n${body}`,
+      `---\n${JSON.stringify(question)}\n---tail\n${body}`,
+      `---\n${JSON.stringify(question)}\n---\n \n`,
+      `---\n${JSON.stringify(question)}\n---`,
+      "---"
+    );
+    for (const text of invalid) {
+      writeFileSync(checkFile, text);
+      assert.throws(
+        () => loadPrompts(promptDirectory),
+        /JSON|front matter|prompt body/
+      );
+      const output = resolve(questionDirectory, "invalid-result.json");
+      cliRejects(
+        "run",
+        [
+          "--prompts",
+          promptDirectory,
+          "--check",
+          "generic-realization",
+          "--development-only",
+          "--output",
+          output,
+          "--sdk",
+          sdk
+        ],
+        /JSON|front matter|prompt body/
+      );
+      assert.equal(existsSync(marker), false);
+      assert.equal(existsSync(output), false);
+    }
+  });
+  check(
+    "question metadata preserves exact classification and highlighting wire shapes",
+    () => {
+      const { promptDirectory, instructions, body, question } =
+        questionPrompts();
+      const prompts = loadPrompts(promptDirectory, "generic-realization");
+      const rows = loadDataset(file);
+      const row = rows.find(({ id }) => id === "hit");
+      const items = [
+        { id: row.id, key: "detection" },
+        { id: row.id, key: "highlight", sentence: 1 }
+      ];
+      const request = buildRequest(
+        "jev-1.13.0",
+        prompts,
+        "generic-realization",
+        items,
+        rows
+      );
+      const expected = {
+        model: "jev-1.13.0",
+        state: { instructions, types: { "generic-realization": body } },
+        questions: {
+          detection: {
+            type: "noul",
+            instructions: {
+              question: question.instructions,
+              target: row.text,
+              rulebook: 'state.types["generic-realization"]'
+            },
+            criteria: question.criteria
+          },
+          highlight: {
+            type: "noul",
+            instructions: {
+              question:
+                'A prior paragraph-level decision found "generic-realization" in target. Independently judge the complete paragraph using state.instructions and rulebook. Does numbered sentence 1 in sentences participate in the offending construction? Select a sentence when it contains the offending wording or supplies a necessary setup, contrast, or payoff. A sentence can participate even when it would be harmless or incomplete alone. Explanatory background that only provides context is not an offending participant. Return no if the paragraph-level finding was mistaken. Other paragraphs are independent cases.',
+              target: row.text,
+              rulebook: 'state.types["generic-realization"]',
+              sentences: row.sentences
+            }
+          }
+        }
+      };
+      assert.equal(JSON.stringify(request), JSON.stringify(expected));
+      const legacy = { instructions, types: prompts.types };
+      const legacyExpected = structuredClone(expected);
+      legacyExpected.questions.detection = {
+        type: "noul",
+        instructions: {
+          question:
+            'Apply state.instructions and rulebook to target. Does this target paragraph contain at least one instance of "generic-realization"? Judge only this target and this type; other target paragraphs are independent cases.',
+          target: row.text,
+          rulebook: 'state.types["generic-realization"]'
+        }
+      };
+      assert.equal(
+        JSON.stringify(
+          buildRequest("jev-1.13.0", legacy, "generic-realization", items, rows)
+        ),
+        JSON.stringify(legacyExpected)
+      );
+      assert.ok(!JSON.stringify(request).includes(hit.reason));
+      assert.ok(!JSON.stringify(request).includes('"expected"'));
+      assert.ok(!JSON.stringify(request).includes('"snippets"'));
+    }
+  );
+  check(
+    "question metadata CLI binds configuration to caches and resumes offline",
+    () => {
+      save({ ...metadata, split: "development" });
+      const { promptDirectory, question, saveQuestion } = questionPrompts();
+      const context = runnerContext(
+        "semantic-thinness",
+        "detect-and-highlight",
+        promptDirectory,
+        "generic-realization"
+      );
+      const batches = syntheticBatches(
+        context.rows,
+        context.prompts,
+        "detect-and-highlight"
+      );
+      const requests = jev
+        .batchPlans(context.rows, ["generic-realization"], 0.5, batches)
+        .map((plan) =>
+          buildRequest(
+            "jev-1.13.0",
+            context.prompts,
+            plan.check,
+            plan.items,
+            context.rows
+          )
+        );
+      const sdk = resolve(questionDirectory, "sdk.mjs");
+      writeFileSync(
+        sdk,
+        `import assert from "node:assert/strict";
+      const requests = ${JSON.stringify(requests)};
+      export class TypeSafeClient {
+        async systemOne(request) {
+          assert.equal(JSON.stringify(request), JSON.stringify(requests.shift()));
+          return { model: request.model, usage: { input_tokens: 1, output_tokens: 1 }, answers: Object.fromEntries(Object.keys(request.questions).map(key => [key, { type: "noul", noul: key.startsWith("hit_") ? 0.75 : 0.25 }])) };
+        }
+      }`
+      );
+      const output = resolve(questionDirectory, "output.json");
+      const args = [
+        "--prompts",
+        promptDirectory,
+        "--check",
+        "generic-realization",
+        "--development-only",
+        "--output",
+        output
+      ];
+      assert.equal(cli("run", [...args, "--sdk", sdk]).complete, true);
+      const result = JSON.parse(readFileSync(output, "utf8"));
+      assert.equal(result.batches.length, 2);
+      assert.equal(
+        result.snapshot.promptSha256,
+        textHash(JSON.stringify(context.prompts))
+      );
+      assert.equal(jev.validateResult(result, context).complete, true);
+      const before = readFileSync(output, "utf8");
+      const beforeStat = statSync(output);
+      const offline = [
+        ...args,
+        "--sdk",
+        resolve(directory, "must-not-initialize.mjs")
+      ];
+      for (const command of ["validate", "score", "run"]) {
+        const report = cli(command, offline);
+        assert.equal(report.complete, true);
+        assert.equal(report.summaries[0].caught, 1);
+      }
+      for (const changed of [
+        { ...question, instructions: question.instructions + "Changed." },
+        ...["true", "false"].map((key) => ({
+          ...question,
+          criteria: {
+            ...question.criteria,
+            [key]: question.criteria[key] + "Changed."
+          }
+        }))
+      ]) {
+        saveQuestion(changed);
+        const updated = runnerContext(
+          "semantic-thinness",
+          "detect-and-highlight",
+          promptDirectory,
+          "generic-realization"
+        );
+        assert.notEqual(
+          updated.snapshot.promptSha256,
+          context.snapshot.promptSha256
+        );
+        assert.throws(
+          () => jev.validateResult(result, updated),
+          /same prompts/
+        );
+        for (const command of ["validate", "score", "run", "rescore"])
+          cliRejects(command, offline, /same prompts/);
+        assert.equal(readFileSync(output, "utf8"), before);
+        assert.equal(statSync(output).mtimeMs, beforeStat.mtimeMs);
+      }
+      saveQuestion();
+      assert.equal(cli("run", offline).complete, true);
+      assert.equal(readFileSync(output, "utf8"), before);
+    }
+  );
   check("dataset hashes track annotation changes", () => {
     const before = datasetHashes(file);
     save({
@@ -1555,4 +1879,5 @@ throw new Error("SDK_INITIALIZED_BEFORE_CACHE_VALIDATION");`
   console.log(JSON.stringify({ checks }));
 } finally {
   rmSync(directory, { recursive: true, force: true });
+  rmSync(questionDirectory, { recursive: true, force: true });
 }

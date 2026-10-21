@@ -1,0 +1,38 @@
+{
+  "goal": "Reproduce native classification questions through the public research runner using optional JSON front matter in each check Markdown file.",
+  "approach": [
+    "Extend runners/jev.mjs to parse and validate exact instructions and binary criteria fields, separate the Markdown body, and apply metadata only to detection questions.",
+    "Extend scripts/datasets-contract.mjs with synthetic prompt directories, exact serialized request assertions, malformed-header rejection before SDK import, and real CLI run/resume/cache checks.",
+    "Run Specular lint and verify before implementation and after implementation; run the datasets contract, focused static checks, and Fixture3 datasets comparison without approving its golden output."
+  ],
+  "decisions": [
+    "Use builtin JSON.parse and runtime assertions instead of adding a parser dependency for the restricted JSON header format.",
+    "Preserve configured strings exactly; apply placeholder replacement only to the existing default templates.",
+    "Return questions only when selected checks contain metadata, keep state limited to instructions and types, and let the existing prompt hash bind metadata to cached outputs.",
+    "Keep all verification synthetic and offline; the parent owns canonical prompts, experiment results, plans, worklogs, and golden approval."
+  ],
+  "files": [
+    "runners/jev.mjs",
+    "scripts/datasets-contract.mjs",
+    ".plans/2026-10-21-185815-question-metadata.spec.json",
+    ".plans/2026-10-21-185815-question-metadata.coverage.json"
+  ],
+  "contracts": [
+    {
+      "name": "question metadata loads bodies and selected checks with legacy defaults",
+      "boundary": "loadPrompts with synthetic bare and JSON-header Markdown checks, LF and CRLF delimiters, selected checks, and exact legacy object serialization"
+    },
+    {
+      "name": "question metadata rejects malformed headers before SDK access",
+      "boundary": "loadPrompts and public CLI run with invalid JSON, non-object metadata, missing or extra fields, invalid criteria, blank strings, missing delimiters, and empty bodies; an SDK import marker remains absent"
+    },
+    {
+      "name": "question metadata preserves exact classification and highlighting wire shapes",
+      "boundary": "buildRequest serialized byte comparison for configured detection, unchanged legacy detection, unchanged highlighting, mixed question stages, label exclusion, and old state shape"
+    },
+    {
+      "name": "question metadata CLI binds configuration to caches and resumes offline",
+      "boundary": "Real CLI run with local synthetic SDK assertions, validate/score/completed resume without SDK initialization, and rejection of instructions-only and criteria-only cache changes while preserving saved bytes"
+    }
+  ]
+}

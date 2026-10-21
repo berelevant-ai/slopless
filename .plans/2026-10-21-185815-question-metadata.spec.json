@@ -1,0 +1,29 @@
+{
+  "version": 4,
+  "requirements": {
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["runners/jev.mjs"],
+        "reason": "Optional JSON front matter configures classification questions while retaining legacy prompt and request shapes; behavioral evidence is mapped in the paired coverage file.",
+        "required": [
+          "function parseCheckPrompt",
+          "JSON.parse(header",
+          "prompts.questions",
+          "export function loadPrompts",
+          "export function buildRequest"
+        ]
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["scripts/datasets-contract.mjs"],
+        "required": [
+          "question metadata loads bodies and selected checks with legacy defaults",
+          "question metadata rejects malformed headers before SDK access",
+          "question metadata preserves exact classification and highlighting wire shapes",
+          "question metadata CLI binds configuration to caches and resumes offline"
+        ]
+      }
+    ]
+  }
+}

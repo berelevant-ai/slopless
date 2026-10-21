@@ -9,7 +9,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 - Unsupported authority is reviewed through development and the frozen holdout assessment. Vague attribution catches 100 holdout hits with five false positives; prestige padding catches 99 with 23 false positives. Preserve that transfer failure. Next family: staged contrasts, using `prompts/v12/` after this assessment commit.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 - Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
-- Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. Its first bounded tuning round fails the development target; preserve the restored best `staged-r1` prompt at 96 catches and ten false positives while continuing the controlled comparison below.
+- Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. The selected explicit-criteria request catches 96 hits with two false positives; canonical runner equivalence and final review pass, with its one-shot holdout assessment next.
 
 ## Execution Order
 
@@ -46,6 +46,29 @@ The active execution goal authorizes continuing through all three families. Comp
 - Test a shorter instruction that asks what the opposition contributes in context. Preserve grounded intentions, completed changes, and meaningful qualitative differences while catching invented accusations and endorsed empty slogans.
 - Keep shared instructions, labels, request construction, threshold, and batch size fixed. Record up to three further prompt revisions, `staged-r4` through `staged-r6`, in the existing family trial JSON.
 - Disclose all added development demonstrations and inspect every changed decision. Apply the same qualifying-first ranking and two-nonimprovement stop; preserve a failed round rather than relabeling its errors.
+- Revisions `staged-r4` and `staged-r5` stop that shorter-instruction round at 95 catches/nine false positives and 96/eleven. Test the final planned `staged-r6` as a separate demonstration intervention: preserve the best earlier decision rule, replace most examples with contextual close cases, and disclose the complete new exposure.
+  - Limit the assembled prompt to 1,000 words and use the same frozen 200 development passages. Preserve all six attempted revisions; further inference after this trial requires a separately justified method change.
+
+### Typed-Decision Experiment
+
+- The final demonstration revision catches 81 hits with six false positives, increasing total errors to 25. Restore `staged-r1` and stop Markdown-only tuning after all six revisions fail the target.
+- Test one Choice request representation on the same 200 development passages with the restored, immutable `staged-r1` prompt. Keep Jev 1.13, SDK 0.7.0, batch size 100, and the 0.5 decision threshold.
+- Give the model four explicit outcomes: at least one offending opposition, informative operative opposition only, documentary opposition only, or no judged opposition. The offending outcome takes precedence when useful and useless contrasts coexist.
+- Classify a passage as a hit only when the offending outcome's probability is at least 0.5. Preserve exact requests, raw responses, hashes, timings, scores, and the criteria alongside existing family results.
+- Use the installed SDK and existing dataset preflight/loading functions for this bounded experiment. Measure all 200 unchanged cases before deciding whether the public runner needs a new request representation; retain production behavior and holdout protection.
+- The four-outcome experiment catches 93 hits with nine false positives and fails the target. Complete two predeclared Noul representations on the same restored prompt: explicit yes/no criteria and the complementary question asking whether every operative opposition is informative.
+  - For the complementary question, compute hit probability as `1 - noul` and retain the 0.5 threshold. These experiments change question/criteria representation jointly; preserve their full requests and avoid attributing an effect to a single field.
+  - Freeze both representations before either call and score all 200 passages. Keep this request-design comparison bounded to these three variants before selecting the next development operation.
+- Explicit and complementary criteria each catch 98 hits with ten false positives. Test the explicit criteria once with the already saved `staged-r6` prompt to measure their interaction with its stronger contextual examples; preserve both earlier component results and the combined result.
+- The combined request catches 95 hits with six false positives. Four false positives are neutral documentary accounts; clarify the existing documentary-versus-adopted boundary directly in its yes/no criteria, with unchanged prompts, examples, targets, and threshold, then evaluate that complete candidate.
+- The clarified request qualifies at 96 catches and two false positives. Freeze `noul-criteria-r6-documentary`, its 899 words of complete instructions, ten development demonstrations, and original execution settings.
+
+### Canonical Request Support
+
+- Keep the selected instructions and yes/no criteria in optional JSON front matter in the existing check Markdown. Shared instructions and the check body remain in their existing files.
+- Extend `runners/jev.mjs` to parse and validate that structured metadata, bind it to snapshots, and apply it to classification requests. Preserve bare Markdown requests and highlighting behavior byte-for-byte.
+- Extend `scripts/datasets-contract.mjs` and the narrow Specular coverage for malformed metadata, selected checks, exact wire requests, changed-config rejection, and legacy compatibility. Review Fixture3 changes before accepting them.
+- Reconstruct both saved winning requests through the canonical runner and compare their hashes before provider access. Obtain fresh verification of the complete result and canonical format, commit the frozen candidate, then have a protected evaluator run holdout once.
 
 ## Previous Method And Lessons
 

@@ -40,6 +40,32 @@ node runners/jev.mjs validate --family puffery-and-overstatement --mode classifi
 
 Use the same arguments with `run --output FILE` for inference or `rescore --output FILE` after correcting judgments.
 
+## Check Questions
+
+A check Markdown file can start with JSON front matter between `---` lines. Store an `instructions` string and `criteria` with nonempty `true` and `false` strings there; keep the check's principle and examples in the Markdown body.
+
+```markdown
+---
+{
+  "instructions": "Does the complete target contain this defect?",
+  "criteria":
+    {
+      "true": "The named defect is present.",
+      "false": "The named defect is absent."
+    }
+}
+---
+
+# Check Name
+
+Describe the defect and its boundaries here.
+```
+
+- Classification uses that question and those criteria with the shared instructions and check body. Each target remains independent.
+- Bare Markdown keeps the existing classification question. Sentence highlighting keeps its existing question; classification criteria apply only to classification.
+- Prompt snapshots bind the question and both criteria. Changing any of them requires a new inference result; saved batches remain tied to their original requests.
+- Leading `---` reserves the JSON front-matter format. The loader rejects malformed objects, extra fields, empty strings, and missing bodies before provider initialization.
+
 ## Shared Helpers
 
 Temporary tuning drivers import these public functions from `runners/jev.mjs`:

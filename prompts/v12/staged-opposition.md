@@ -1,36 +1,50 @@
+---
+{
+  "instructions": "Apply `state.instructions` and `rulebook` to the complete `target` passage. Does it contain at least one operative opposition that contributes chiefly rhetorical force instead of a useful distinction, clarification, or narrative development? Assess every opposition; a useful or documentary contrast protects only itself.",
+  "criteria":
+    {
+      "true": "At least one operative opposition is chiefly rhetorical and contributes little useful distinction, clarification, or narrative development. Useful material elsewhere leaves that offending instance eligible. The writer or narrator advances, adopts, or relies on the opposition; merely recording another text's words is documentary.",
+      "false": "Every operative opposition is contextually informative; alternatively, opposition is solely documentary or absent. Useful meaning can be implicit, qualitative, figurative, or supplied by the complete passage. A neutral account recording a slogan, quotation, inscription, or other wording as an object of reporting is documentary even without criticism. The quoted opposition is assessed normally when the writer endorses or relies on it."
+    }
+}
+---
+
 # Staged Opposition
 
-Find a rejection, reversal, comparison, or rebuttal used chiefly for rhetorical force. The opposition contributes little useful distinction, clarification, or narrative development. Detect every equivalent construction, including unfamiliar wording and contrasts spread across sentences or paragraphs.
+Input: passage.
 
-First distinguish using an opposition from documenting its wording. A passage that records a slogan, inscription, speech, or other text as an object of reporting is a no-hit for that quoted opposition, even when the quoted words are sloppy and the writer supplies no criticism. Recording its wording, placement, origin, or later reuse can establish this documentary role. Assess adopted advice, endorsed slogans, and ordinary character dialogue for their contribution instead of exempting all quotations or fiction.
+Find a rejection, reversal, comparison, or rebuttal used chiefly for rhetorical force while contributing little useful distinction, clarification, or narrative development. Find every instance, including unfamiliar wording across sentences or paragraphs.
 
-Then ask what useful difference the opposition communicates in the complete passage. Preserve corrections, exclusions, tradeoffs, different purposes, role allocations, scientific limitations, actual changes in circumstances, and relevant anticipated concerns. Specific context can explain a figurative description through a real decision, purpose, change, or action. Its meaning can be concise, qualitative, or implicit; explicit proof words and numerical evidence are optional. A concern needs no named objector when the supplied circumstances make it relevant. Colorful or inspirational wording alone does not make an informative opposition a hit.
+First distinguish the writer's operative contrast from quoted wording documented as an artifact, position, or event. Documentation is a no-hit even without criticism. Assess adopted advice, endorsed slogans, and ordinary character dialogue for their contribution. Adoption establishes whose contrast it is; its meaning determines whether it is bad.
 
-Catch decorative foils, invented accusations, moralized relabeling, thin before/after transformations, less/more emphasis, paired valuations, and theatrical limits on what evidence can show when that useful difference is absent. Negation can use contractions, never, nobody, missingness, or implied rejection; literal "not" is optional. Later detail protects the distinction it explains, while unrelated implementation, names, numbers, or causal words leave a gratuitous foil eligible. Useful advice following an uplifting denial does not automatically justify denying the original condition. Judge the opposition's contribution rather than whether either side sounds generic in isolation.
+Ask what useful difference the opposition communicates in the complete passage. Preserve corrections, exclusions, tradeoffs, purposes, role allocations, scientific limitations, relevant concerns, and actual changes. Context can explain a figurative distinction through a real decision, purpose, change, or action. Its meaning can be concise, qualitative, or implicit; explicit proof words and numbers are optional. Preserve meaningful narrative beliefs and conflict. A concern needs no named objector when the supplied circumstances make it relevant. Ornate or inspirational wording alone does not make an informative opposition a hit.
 
-An empty claim or metaphor without an opposition belongs to another check. Ordinary negation and additive "not only" wording alone are insufficient. Find any offending opposition even when another contrast in the passage is useful.
+Catch decorative foils, invented accusations, moralized relabeling, empty transformations, paired valuations, and theatrical evidence limitations when that useful difference is absent. Later detail protects the relationship it explains; unrelated implementation leaves a gratuitous foil eligible. Useful advice for the next attempt leaves a denial of the current error unsupported. Judge the opposition's contribution rather than generic wording on either side alone.
+
+Flag a decorative foil, invented accusation, empty relabeling, or theatrical evidence limitation when the opposition adds chiefly emphasis or elevation. Recognize implicit rejection, missingness, before/after, less/more, paired benefits, and unseen equivalents across paragraphs. Ordinary negation and additive "not only" alone are insufficient. An empty metaphor without opposition belongs to another check. Find every offending opposition, including beside useful contrasts.
 
 ## Hits
 
 - **Ordinary dashboards give you numbers; this dashboard gives your team direction.**
-  - The paired benefit labels supply rhetorical elevation rather than an explained product difference.
+  - The product difference remains unexplained.
 - **Think a seating chart is an attack on individuality? It is the first step toward belonging.** Put each student's name on a desk card and check the arrangement after the first week.
-  - Desk-card instructions leave the invented attack and its rebuttal unsupported.
+  - Instructions leave the invented attack unresolved.
 - **That crooked first shelf isn't a mistake; it's your apprenticeship announcing itself.** Use a spirit level for the next one, and mark both bracket positions before drilling into the wall.
-  - Advice for the next attempt leaves the denial of the present error gratuitous.
+  - Future advice leaves the current error denied.
 - **At kickoff they were eleven players. At the final whistle they were a family.** Rovers won 2-1, with Mendez scoring the winner from the edge of the area in stoppage time.
-  - The result supplies match detail while leaving the claimed personal transformation unexplained.
+  - Match detail leaves the personal transformation unexplained.
 
 ## No-Hits
 
-- At the start of term they were names on a register. By December they were a community. The class met every Friday to read their work aloud and exchange written comments.
-  - Reciprocal activity explains a social development across the term.
-- "Not the blue envelope," Bea said. "That one has the rent money."
-  - The exclusion distinguishes which envelope must be kept.
-- The notebook I found in the attic has "Not a dream, a plan" written on its first page. The next pages contain rent estimates and a sketch of a cafe counter.
-
-  I sent photographs to my aunt, who recognised her own handwriting and said she had made the notes before moving to York.
-  - The passage documents another person's notebook and plans.
-
-- Using a training diary does not mean becoming a slave to data. It means respecting your ambition. Write down the session, its duration, and how your legs felt on the final repetition. Review the entries on Sunday before deciding whether to add another session, and leave the pace fields empty when you have done an untimed easy run.
-  - Flexible recording and optional pace fields answer the relevant concern about rigid data tracking.
+- Before the merger, there were two sales teams. Now there is one ambition. The combined business will retain the Bristol office and publish its first joint price list in September.
+  - Joint commercial activity establishes the integration.
+- Yesterday it was a disused depot. Today it is hope with an address. The council has approved a temporary lease allowing the food cooperative to store produce in the building.
+  - The lease establishes its new community use.
+- The learning log isn't more paperwork. The student takes ownership of tomorrow. Each Friday, pupils record one task they completed and choose the subject they want to practise next.
+  - Choosing the next practice makes learner control concrete.
+- The unpainted strip isn't an omission. It is the canvas making room for the viewer. A narrow band of raw linen runs down the left edge of each painting.
+  - Repetition establishes deliberate composition.
+- Think a recovery day is just an excuse for laziness? Think commitment instead. Keep the ride easy, avoid the hill repeats, and finish with ten minutes of gentle stretching.
+  - Low-load activity distinguishes planned recovery from avoiding activity.
+- The empty place at the table isn't a vacancy. It is a welcome waiting to happen. We set out six plates each evening, even when only four of us are eating.
+  - Extra places establish deliberate hospitality.

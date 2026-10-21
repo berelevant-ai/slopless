@@ -122,6 +122,47 @@ export function loadDataset(input, family = defaultFamily) {
   return rows.sort((a, b) => a.id.localeCompare(b.id));
 }
 
+function parseCheckPrompt(text) {
+  if (!/^---(?:\r?\n|$)/.test(text)) return { body: text };
+  const header = /^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/.exec(text);
+  assert.ok(header, "Check front matter requires closing --- on its own line.");
+  const question = JSON.parse(header[1]);
+  assert.ok(
+    question !== null &&
+      typeof question === "object" &&
+      !Array.isArray(question),
+    "Check front matter must be a JSON object."
+  );
+  assert.deepEqual(
+    Object.keys(question).sort(),
+    ["criteria", "instructions"],
+    "Check front matter requires exactly instructions and criteria."
+  );
+  assert.ok(
+    question.criteria !== null &&
+      typeof question.criteria === "object" &&
+      !Array.isArray(question.criteria),
+    "Check front matter criteria must be a JSON object."
+  );
+  assert.deepEqual(
+    Object.keys(question.criteria).sort(),
+    ["false", "true"],
+    "Check front matter criteria requires exactly true and false."
+  );
+  for (const value of [
+    question.instructions,
+    question.criteria.true,
+    question.criteria.false
+  ])
+    assert.ok(
+      typeof value === "string" && value.trim().length > 0,
+      "Check front matter instructions and criteria must be nonempty strings."
+    );
+  const body = text.slice(header[0].length).trim();
+  assert.ok(body.length > 0, "Check prompt body must be nonempty.");
+  return { body, question };
+}
+
 export function loadPrompts(directory, selected) {
   const names = readdirSync(directory)
     .filter((file) => file.endsWith(".md") && file !== "shared.md")
@@ -141,6 +182,7 @@ export function loadPrompts(directory, selected) {
     "utf8"
   ).trim();
   assert.ok(instructions.length > 0);
+  const questions = [];
   const types = Object.fromEntries(
     checks.map((check) => {
       const text = readFileSync(
@@ -148,10 +190,18 @@ export function loadPrompts(directory, selected) {
         "utf8"
       ).trim();
       assert.ok(text.length > 0);
-      return [check, text];
+      const { body, question } = parseCheckPrompt(text);
+      if (question !== undefined) questions.push([check, question]);
+      return [check, body];
     })
   );
-  return { instructions, types };
+  return {
+    instructions,
+    types,
+    ...(questions.length > 0
+      ? { questions: Object.fromEntries(questions) }
+      : {})
+  };
 }
 
 export function buildRequest(model, prompts, check, items, rows) {
@@ -168,20 +218,25 @@ export function buildRequest(model, prompts, check, items, rows) {
         assert.ok(row, `Unknown target: ${item.id}`);
         const template =
           item.sentence === undefined ? detectionQuestion : highlightQuestion;
+        const question =
+          item.sentence === undefined ? prompts.questions?.[check] : undefined;
         return [
           item.key,
           {
             type: "noul",
             instructions: {
-              question: template
-                .replaceAll("TYPE", JSON.stringify(check))
-                .replaceAll("SENTENCE", String(item.sentence)),
+              question:
+                question?.instructions ??
+                template
+                  .replaceAll("TYPE", JSON.stringify(check))
+                  .replaceAll("SENTENCE", String(item.sentence)),
               target: row.text,
               rulebook: `state.types[${JSON.stringify(check)}]`,
               ...(item.sentence === undefined
                 ? {}
                 : { sentences: row.sentences })
-            }
+            },
+            ...(question === undefined ? {} : { criteria: question.criteria })
           }
         ];
       })
