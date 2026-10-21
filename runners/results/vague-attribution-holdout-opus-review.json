@@ -5,18 +5,18 @@
   "type": "vague-attribution",
   "split": "holdout",
   "input": "passage",
-  "status": "ARCHIVE-READY",
+  "status": "FULL-POOL-QA-PASSED-AWAITING-SELECTION",
   "counts": {
     "passages": 240,
-    "hits": 118,
-    "nohits": 122,
+    "hits": 113,
+    "nohits": 127,
     "reviewJudgments": 720,
     "reviewCalls": 15
   },
   "archive": {
     "fullPoolPreserved": true,
     "selectionAuthorized": false,
-    "awaiting": "Parent commit of full reviewed pool before deterministic 100/100 selection"
+    "awaiting": "Independent QA of corrected full pool, then parent archive before selection"
   },
   "definition": {
     "commit": "b5c1110c",
@@ -41,15 +41,15 @@
     },
     "labels": {
       "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000024-unsupported-authority-vague-attribution-holdout.labels.json",
-      "sha256": "1474a80652ea2d4f5fd298d3b6f39b2e4729797c05f269609d50d9228851832c"
+      "sha256": "66a8fdedd19bd9107ce90c78167afa6921f444b4be152ce846ca6b9bafc4b7c2"
     },
     "textSha256": "50801f8d4b5d23dcd052e4acb677a9f0e3bfdb4badd685683e3893d3644d6829"
   },
   "coverage": {
     "domains": {
       "health": {
-        "hit": 12,
-        "nohit": 13
+        "hit": 11,
+        "nohit": 14
       },
       "work": {
         "hit": 11,
@@ -60,28 +60,28 @@
         "nohit": 12
       },
       "transport": {
-        "hit": 12,
-        "nohit": 12
+        "hit": 11,
+        "nohit": 13
       },
       "environment": {
         "hit": 11,
         "nohit": 11
       },
       "education": {
-        "hit": 12,
-        "nohit": 12
+        "hit": 11,
+        "nohit": 13
       },
       "housing": {
         "hit": 12,
         "nohit": 13
       },
       "software": {
-        "hit": 12,
-        "nohit": 12
+        "hit": 11,
+        "nohit": 13
       },
       "food": {
-        "hit": 12,
-        "nohit": 13
+        "hit": 11,
+        "nohit": 14
       },
       "finance": {
         "hit": 12,
@@ -90,38 +90,29 @@
     },
     "wordStrata": {
       "hit": {
-        "short": 30,
-        "medium": 58,
-        "long": 30
+        "short": 28,
+        "medium": 57,
+        "long": 28
       },
       "nohit": {
-        "short": 31,
-        "medium": 60,
-        "long": 31
+        "short": 33,
+        "medium": 61,
+        "long": 33
       }
     },
     "wordStratumBounds": {
-      "short": [
-        8,
-        20
-      ],
-      "medium": [
-        21,
-        44
-      ],
-      "long": [
-        45,
-        90
-      ]
+      "short": [8, 20],
+      "medium": [21, 44],
+      "long": [45, 90]
     },
     "shortcutMarkers": {
       "hit": {
-        "digits": 22,
-        "quotedWording": 4
+        "digits": 21,
+        "quotedWording": 0
       },
       "nohit": {
-        "digits": 19,
-        "quotedWording": 17
+        "digits": 20,
+        "quotedWording": 21
       }
     },
     "audit": {
@@ -138,18 +129,12 @@
     }
   },
   "review": {
-    "roles": [
-      "blind",
-      "adversarial",
-      "final"
-    ],
+    "roles": ["blind", "adversarial", "final"],
     "completeCurrentWritingThreePassCoverage": true,
     "labelsSnippetsBalanceWithheld": true,
     "toolsDisabled": true,
     "freshContextEveryCall": true,
-    "models": [
-      "claude-opus-5-5"
-    ],
+    "models": ["claude-opus-5-5"],
     "costUsd": 1.637066,
     "durationMs": 325381,
     "unresolvedMaterialConcerns": 0,
@@ -160,9 +145,7 @@
         "id": "blind-1",
         "role": "blind",
         "passages": 75,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "695b9a1e-74df-4366-8599-9c7f0914f8fa",
         "durationMs": 30553,
         "elapsedMs": 31508.528958,
@@ -195,9 +178,7 @@
         "id": "blind-2",
         "role": "blind",
         "passages": 75,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "6a5fcf86-0695-4247-beae-943eed9399c3",
         "durationMs": 25726,
         "elapsedMs": 26621.804625,
@@ -230,9 +211,7 @@
         "id": "blind-3",
         "role": "blind",
         "passages": 70,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "aafc327b-adfe-40f4-a0a4-7e3e04666774",
         "durationMs": 24033,
         "elapsedMs": 25681.964417,
@@ -265,9 +244,7 @@
         "id": "blind-4",
         "role": "blind",
         "passages": 16,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "ccf1bfc2-742f-4295-999b-ae6ed83be7d9",
         "durationMs": 16092,
         "elapsedMs": 17164.727791,
@@ -300,9 +277,7 @@
         "id": "blind-5",
         "role": "blind",
         "passages": 4,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "fcce5ba0-547b-4548-9d26-034d87a8b80f",
         "durationMs": 4835,
         "elapsedMs": 6465.367125000001,
@@ -335,9 +310,7 @@
         "id": "adversarial-1",
         "role": "adversarial",
         "passages": 75,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "8f481282-ea99-45dc-9108-6853906290a8",
         "durationMs": 35597,
         "elapsedMs": 36606.973541,
@@ -370,9 +343,7 @@
         "id": "adversarial-2",
         "role": "adversarial",
         "passages": 75,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "badcb1ae-5ddf-4303-9b2f-5fed6c35743c",
         "durationMs": 28561,
         "elapsedMs": 29476.837291,
@@ -405,9 +376,7 @@
         "id": "adversarial-3",
         "role": "adversarial",
         "passages": 70,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "51aaa5bb-b2ab-4037-a712-f3260d56ebc1",
         "durationMs": 27827,
         "elapsedMs": 28774.720042,
@@ -440,9 +409,7 @@
         "id": "adversarial-4",
         "role": "adversarial",
         "passages": 16,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "c5f7d35a-fa9d-4c0a-9123-5d42afbaff72",
         "durationMs": 20200,
         "elapsedMs": 21209.768208,
@@ -475,9 +442,7 @@
         "id": "adversarial-5",
         "role": "adversarial",
         "passages": 4,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "870bb4db-efde-4727-b79a-6b26b7bbbd99",
         "durationMs": 5556,
         "elapsedMs": 6775.237208,
@@ -510,9 +475,7 @@
         "id": "final-1",
         "role": "final",
         "passages": 75,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "4477279e-853c-494c-9d8d-e065051464ca",
         "durationMs": 29382,
         "elapsedMs": 30355.037666,
@@ -545,9 +508,7 @@
         "id": "final-2",
         "role": "final",
         "passages": 75,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "83ac4258-03e9-46f1-9b80-1629675116e0",
         "durationMs": 27914,
         "elapsedMs": 28880.261625,
@@ -580,9 +541,7 @@
         "id": "final-3",
         "role": "final",
         "passages": 70,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "f1e57a3a-aa91-42a8-8bc6-ce2eed52a778",
         "durationMs": 26036,
         "elapsedMs": 27054.544459,
@@ -615,9 +574,7 @@
         "id": "final-4",
         "role": "final",
         "passages": 16,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "9fb95d20-a9d1-4b2b-b83b-037604329114",
         "durationMs": 19718,
         "elapsedMs": 20670.441417000002,
@@ -650,9 +607,7 @@
         "id": "final-5",
         "role": "final",
         "passages": 4,
-        "models": [
-          "claude-opus-5-5"
-        ],
+        "models": ["claude-opus-5-5"],
         "sessionId": "28eda7ba-8418-48ff-bdb4-114ae19ba7ad",
         "durationMs": 3351,
         "elapsedMs": 4690.920416999999,
@@ -681,7 +636,8 @@
         "helperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
         "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0"
       }
-    ]
+    ],
+    "finalLabelOverrides": 5
   },
   "mandatorySampleIds": [
     "000024-061",
@@ -841,9 +797,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-1",
-        "snippets": [
-          "The wider evidence points in that direction"
-        ]
+        "snippets": ["The wider evidence points in that direction"]
       }
     },
     {
@@ -1058,9 +1012,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-1",
-        "snippets": [
-          "Security research supports shorter rotation intervals"
-        ]
+        "snippets": ["Security research supports shorter rotation intervals"]
       }
     },
     {
@@ -2334,7 +2286,7 @@
       "domain": "software",
       "words": 55,
       "authorExpected": true,
-      "finalExpected": true,
+      "finalExpected": false,
       "mandatory": true,
       "judgmentProvenance": [
         {
@@ -2353,17 +2305,36 @@
           "objection": "Could be read as neutral reporting of Daniel's proposal, but the review relies on the anonymous industry consensus to settle the storage choice without examining it. Naming Daniel and including his diagram doesn't identify the industry source."
         }
       ],
-      "snippetProvenance": {
-        "runId": "final-1",
-        "snippets": [
-          "noted that the industry has converged on Redis for this kind of workload. On that basis, the review treats the storage choice as settled"
-        ]
-      },
+      "snippetProvenance": null,
       "adjudication": {
-        "expected": true,
+        "expected": false,
         "mandatory": true,
-        "resolution": "Retain the hit. The review settles the choice on an unnamed industry consensus. Daniel identifies the proposal's author, and his diagram describes current tables; neither identifies the source of that consensus. This is operative reliance rather than clearly framed examination or documentation of an appeal."
-      }
+        "resolution": "Override to no-hit under the documentation exception. The passage records Daniel's proposal and the review's decision-making rationale. Daniel and the review are the actors relying on the consensus; the narrator's claim is the account of their proposal and response. The complete passage supplies no separate writer recommendation about Redis. Preserve the three contrary Opus judgments and the previous resolution as historical evidence.",
+        "source": {
+          "role": "protected-holdout-author-adjudication",
+          "correctionArtifact": {
+            "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/semantic-corrections-private.json",
+            "sha256": "b332613c70f28e8ca72b2d5ebbbfa573fb47721914c213cb4a691e688385ee81"
+          },
+          "definitionCommit": "b5c1110c"
+        }
+      },
+      "adjudicationHistory": [
+        {
+          "stage": "pre-protected-independent-qa",
+          "adjudication": {
+            "expected": true,
+            "mandatory": true,
+            "resolution": "Retain the hit. The review settles the choice on an unnamed industry consensus. Daniel identifies the proposal's author, and his diagram describes current tables; neither identifies the source of that consensus. This is operative reliance rather than clearly framed examination or documentation of an appeal."
+          },
+          "snippetProvenance": {
+            "runId": "final-1",
+            "snippets": [
+              "noted that the industry has converged on Redis for this kind of workload. On that basis, the review treats the storage choice as settled"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "000024-062",
@@ -3063,9 +3034,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "The available science favors biochar"
-        ]
+        "snippets": ["The available science favors biochar"]
       }
     },
     {
@@ -3241,9 +3210,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "Experienced heritage advisers tend to prefer this finish"
-        ]
+        "snippets": ["Experienced heritage advisers tend to prefer this finish"]
       }
     },
     {
@@ -3329,9 +3296,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "Findings from payment research favor the monthly option"
-        ]
+        "snippets": ["Findings from payment research favor the monthly option"]
       }
     },
     {
@@ -3406,9 +3371,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "what learning science tells us about consolidation"
-        ]
+        "snippets": ["what learning science tells us about consolidation"]
       }
     },
     {
@@ -3565,9 +3528,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "The prevailing expert view favors a flat amount"
-        ]
+        "snippets": ["The prevailing expert view favors a flat amount"]
       }
     },
     {
@@ -3806,9 +3767,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "Energy research supports that specification"
-        ]
+        "snippets": ["Energy research supports that specification"]
       }
     },
     {
@@ -3871,9 +3830,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "Museum professionals favor short labels"
-        ]
+        "snippets": ["Museum professionals favor short labels"]
       }
     },
     {
@@ -3924,9 +3881,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "the prevailing technical advice supports that choice"
-        ]
+        "snippets": ["the prevailing technical advice supports that choice"]
       }
     },
     {
@@ -4059,9 +4014,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "according to informed market commentary"
-        ]
+        "snippets": ["according to informed market commentary"]
       }
     },
     {
@@ -4218,9 +4171,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-2",
-        "snippets": [
-          "Organizational research favors a four-day week"
-        ]
+        "snippets": ["Organizational research favors a four-day week"]
       }
     },
     {
@@ -6102,9 +6053,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-3",
-        "snippets": [
-          "Industry experience favors diesel coaches"
-        ]
+        "snippets": ["Industry experience favors diesel coaches"]
       }
     },
     {
@@ -6550,9 +6499,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-3",
-        "snippets": [
-          "The evidence favors a daily cold shower"
-        ]
+        "snippets": ["The evidence favors a daily cold shower"]
       }
     },
     {
@@ -6585,7 +6532,7 @@
       "domain": "education",
       "words": 14,
       "authorExpected": true,
-      "finalExpected": true,
+      "finalExpected": false,
       "mandatory": true,
       "judgmentProvenance": [
         {
@@ -6604,17 +6551,34 @@
           "objection": "This could be read as plain documentation of the prospectus's wording. But the passage repeats the anonymous appeal as the support for the practice and never examines or questions it, so it stays eligible."
         }
       ],
-      "snippetProvenance": {
-        "runId": "final-4",
-        "snippets": [
-          "\"recommended by learning specialists\""
-        ]
-      },
+      "snippetProvenance": null,
       "adjudication": {
-        "expected": true,
+        "expected": false,
         "mandatory": true,
-        "resolution": "Retain the hit, resolving the adversarial no-hit against the frozen boundary. The prospectus relays an anonymous specialist endorsement of the practice, and the complete passage offers that endorsement without a clearly framed examination, rejection, or documentation purpose. Ordinary attribution and quotation alone leave an operative appeal eligible; explicit author agreement is unnecessary. Blind and final Opus judgments independently selected the hit."
-      }
+        "resolution": "Override to no-hit under the documentation exception. The sentence describes an identified prospectus's wording and attributes the recommendation to that document. It advances a claim about what the prospectus calls the practice. The existing adversarial no-hit applies that distinction. Preserve the blind and final hits and previous resolution; documentation is an independent exception and does not require criticism.",
+        "source": {
+          "role": "protected-holdout-author-adjudication",
+          "correctionArtifact": {
+            "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/semantic-corrections-private.json",
+            "sha256": "b332613c70f28e8ca72b2d5ebbbfa573fb47721914c213cb4a691e688385ee81"
+          },
+          "definitionCommit": "b5c1110c"
+        }
+      },
+      "adjudicationHistory": [
+        {
+          "stage": "pre-protected-independent-qa",
+          "adjudication": {
+            "expected": true,
+            "mandatory": true,
+            "resolution": "Retain the hit, resolving the adversarial no-hit against the frozen boundary. The prospectus relays an anonymous specialist endorsement of the practice, and the complete passage offers that endorsement without a clearly framed examination, rejection, or documentation purpose. Ordinary attribution and quotation alone leave an operative appeal eligible; explicit author agreement is unnecessary. Blind and final Opus judgments independently selected the hit."
+          },
+          "snippetProvenance": {
+            "runId": "final-4",
+            "snippets": ["\"recommended by learning specialists\""]
+          }
+        }
+      ]
     },
     {
       "id": "000024-222",
@@ -6622,7 +6586,7 @@
       "domain": "transport",
       "words": 12,
       "authorExpected": true,
-      "finalExpected": true,
+      "finalExpected": false,
       "mandatory": true,
       "judgmentProvenance": [
         {
@@ -6641,17 +6605,36 @@
           "objection": "This could be read as documenting the brief's wording. But unlike a brief whose 'expert advice' is tied to a specific inspection, nothing here identifies the experts, and the passage does not examine the appeal."
         }
       ],
-      "snippetProvenance": {
-        "runId": "final-4",
-        "snippets": [
-          "attributes the faster turnaround to \"what operational experts advise.\""
-        ]
-      },
+      "snippetProvenance": null,
       "adjudication": {
-        "expected": true,
+        "expected": false,
         "mandatory": true,
-        "resolution": "Retain the hit, resolving the adversarial no-hit against the frozen boundary. The route brief's causal attribution relies on unspecified operational experts. Reporting that attribution does not supply a particular source or make the appeal a clearly framed object of examination. The objection's requirement that the writer additionally adopt or act on the claim conflicts with the explicit-agreement boundary. Blind and final Opus judgments independently selected the hit."
-      }
+        "resolution": "Override to no-hit under the documentation exception. The sentence records the route brief's attribution, making that attribution the reported object. The writer supplies no separate operational recommendation or causal conclusion outside the account of the brief. Accept the existing adversarial no-hit and preserve both contrary raw judgments and the former adjudication.",
+        "source": {
+          "role": "protected-holdout-author-adjudication",
+          "correctionArtifact": {
+            "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/semantic-corrections-private.json",
+            "sha256": "b332613c70f28e8ca72b2d5ebbbfa573fb47721914c213cb4a691e688385ee81"
+          },
+          "definitionCommit": "b5c1110c"
+        }
+      },
+      "adjudicationHistory": [
+        {
+          "stage": "pre-protected-independent-qa",
+          "adjudication": {
+            "expected": true,
+            "mandatory": true,
+            "resolution": "Retain the hit, resolving the adversarial no-hit against the frozen boundary. The route brief's causal attribution relies on unspecified operational experts. Reporting that attribution does not supply a particular source or make the appeal a clearly framed object of examination. The objection's requirement that the writer additionally adopt or act on the claim conflicts with the explicit-agreement boundary. Blind and final Opus judgments independently selected the hit."
+          },
+          "snippetProvenance": {
+            "runId": "final-4",
+            "snippets": [
+              "attributes the faster turnaround to \"what operational experts advise.\""
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "000024-223",
@@ -6677,9 +6660,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-4",
-        "snippets": [
-          "published research favors exponential backoff"
-        ]
+        "snippets": ["published research favors exponential backoff"]
       },
       "adjudication": {
         "expected": true,
@@ -6711,9 +6692,7 @@
       ],
       "snippetProvenance": {
         "runId": "final-4",
-        "snippets": [
-          "Financial specialists regard that amount as adequate"
-        ]
+        "snippets": ["Financial specialists regard that amount as adequate"]
       },
       "adjudication": {
         "expected": true,
@@ -6727,7 +6706,7 @@
       "domain": "health",
       "words": 32,
       "authorExpected": true,
-      "finalExpected": true,
+      "finalExpected": false,
       "mandatory": true,
       "judgmentProvenance": [
         {
@@ -6746,17 +6725,34 @@
           "objection": "The passage quotes the leaflet, so it could count as documentation. But it then acts on the recommendation without examining it, so the unnamed clinical evidence still supports the operative instruction."
         }
       ],
-      "snippetProvenance": {
-        "runId": "final-4",
-        "snippets": [
-          "\"supported by clinical evidence.\""
-        ]
-      },
+      "snippetProvenance": null,
       "adjudication": {
-        "expected": true,
+        "expected": false,
         "mandatory": true,
-        "resolution": "Retain the hit. The leaflet's unspecified clinical evidence supports the exercise recommendation distributed to patients. Quoting that support and then arranging its operational use leaves an operative appeal, rather than a clearly framed examination or rejection."
-      }
+        "resolution": "Override to no-hit under the documentation exception. The passage records the leaflet's support claim, the instruction delivered to patients, and the reception team's distribution plan. Those are actions and rationale of the described service. The narrator's documentary account supplies no independent assertion of efficacy or evidential support. Preserve the unanimous original Opus hits and former adjudication; third-party use does not establish writer adoption.",
+        "source": {
+          "role": "protected-holdout-author-adjudication",
+          "correctionArtifact": {
+            "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/semantic-corrections-private.json",
+            "sha256": "b332613c70f28e8ca72b2d5ebbbfa573fb47721914c213cb4a691e688385ee81"
+          },
+          "definitionCommit": "b5c1110c"
+        }
+      },
+      "adjudicationHistory": [
+        {
+          "stage": "pre-protected-independent-qa",
+          "adjudication": {
+            "expected": true,
+            "mandatory": true,
+            "resolution": "Retain the hit. The leaflet's unspecified clinical evidence supports the exercise recommendation distributed to patients. Quoting that support and then arranging its operational use leaves an operative appeal, rather than a clearly framed examination or rejection."
+          },
+          "snippetProvenance": {
+            "runId": "final-4",
+            "snippets": ["\"supported by clinical evidence.\""]
+          }
+        }
+      ]
     },
     {
       "id": "000024-226",
@@ -6832,7 +6828,7 @@
       "domain": "food",
       "words": 59,
       "authorExpected": true,
-      "finalExpected": true,
+      "finalExpected": false,
       "mandatory": true,
       "judgmentProvenance": [
         {
@@ -6848,17 +6844,36 @@
           "expected": true
         }
       ],
-      "snippetProvenance": {
-        "runId": "final-4",
-        "snippets": [
-          "\"those who know the trade\" favor glass bottles for preserving flavor"
-        ]
-      },
+      "snippetProvenance": null,
       "adjudication": {
-        "expected": true,
+        "expected": false,
         "mandatory": true,
-        "resolution": "Preserve this reviewed implicit-appeal case. Those who know the trade are the unspecified authority supporting the glass order. The buyer's role, batch details, and label dimensions do not identify that authority or its observations."
-      }
+        "resolution": "Override to no-hit under the documentation exception. The passage locates the quoted endorsement in the buyer's recommendation column and records how the purchasing team responded. Its operative claim concerns that recorded rationale and decision. The flavor-preservation judgment remains the buyer's reported support. Preserve all three original hits and the earlier resolution while retaining this boundary case as mandatory.",
+        "source": {
+          "role": "protected-holdout-author-adjudication",
+          "correctionArtifact": {
+            "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/semantic-corrections-private.json",
+            "sha256": "b332613c70f28e8ca72b2d5ebbbfa573fb47721914c213cb4a691e688385ee81"
+          },
+          "definitionCommit": "b5c1110c"
+        }
+      },
+      "adjudicationHistory": [
+        {
+          "stage": "pre-protected-independent-qa",
+          "adjudication": {
+            "expected": true,
+            "mandatory": true,
+            "resolution": "Preserve this reviewed implicit-appeal case. Those who know the trade are the unspecified authority supporting the glass order. The buyer's role, batch details, and label dimensions do not identify that authority or its observations."
+          },
+          "snippetProvenance": {
+            "runId": "final-4",
+            "snippets": [
+              "\"those who know the trade\" favor glass bottles for preserving flavor"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "000024-229",
@@ -7222,5 +7237,124 @@
     "formatBeforeRangesAndChecksum": true,
     "lineEndings": "LF; single EOF newline",
     "onePhysicalLinePerPassage": true
+  },
+  "formattingProof": {
+    "verifiedAt": "2026-10-21T10:19:07Z",
+    "archiveCommit": "c7f068a2",
+    "originalArchivedBytesVerified": true,
+    "command": "pnpm exec prettier --write --prose-wrap preserve --ignore-path /dev/null datasets/ai-synthetic/passages/000024-unsupported-authority-vague-attribution-holdout.labels.json runners/results/vague-attribution-holdout-opus-review.json",
+    "parsedValuesUnchangedByFormatting": true,
+    "markdownUnchanged": true,
+    "labelsJudgmentsAndSnippetsUnchanged": true,
+    "originalVerifiedHashes": {
+      "markdownSha256": "50801f8d4b5d23dcd052e4acb677a9f0e3bfdb4badd685683e3893d3644d6829",
+      "labelsSha256": "1474a80652ea2d4f5fd298d3b6f39b2e4729797c05f269609d50d9228851832c",
+      "reviewSha256": "399cf7e28d28a0dfa97dfc7ad4e3aee778b36fee899b3b2b06ae78ef415b9eb1"
+    },
+    "formattedOriginalReviewSha256": "59a16fc770a499d52fa98e78166ed8a92bc38f71957448d0b1b0462eb2634737",
+    "currentLabelsSha256": "21bafbd8248aceda4a9f8e9af521cef427ed20c1282977ed4ff707e5c0dcd705",
+    "privateProofPath": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/formatting-stage1-private.json"
+  },
+  "independentQa": {
+    "reviewedAt": "2026-10-21T10:19:07Z",
+    "role": "protected-independent-auditor",
+    "scope": "complete-240-passage-pool",
+    "status": "corrections-required",
+    "ready": false,
+    "passagesReviewed": 240,
+    "currentHits": 118,
+    "currentNoHits": 122,
+    "rawCallsVerified": 15,
+    "rawJudgmentsVerified": 720,
+    "currentWritingPassCoverage": {
+      "blind": 240,
+      "adversarial": 240,
+      "final": 240
+    },
+    "distinctRawSessionsVerified": 15,
+    "rawModelsVerified": ["claude-opus-5-5"],
+    "exactReviewerHitSnippetSourcesVerified": 118,
+    "hitSnippetSetsManuallyReviewed": 118,
+    "adjudicationsManuallyReviewed": 25,
+    "adjudicationsAccepted": 20,
+    "materialCorrectionsRequested": 5,
+    "currentLabelsChangedByAuditor": 0,
+    "withinPoolPairsChecked": 28680,
+    "withinPoolExactDuplicates": 0,
+    "withinPoolNormalizedDuplicates": 0,
+    "withinPoolSharedEightWordPairs": 0,
+    "withinPoolNearestPairsManuallyReviewed": 36,
+    "withinPoolMaterialDuplicateConcerns": 0,
+    "crossSplitQa": "awaiting-corrected-development-and-holdout-freezes",
+    "selectedSubsetQa": "awaiting-selection-authorization",
+    "newProviderCalls": 0,
+    "mechanicalProof": {
+      "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/proof-private.json",
+      "sha256": "4c3250ebed5383fd5c6484d58536d60f8289a5e95a2d525dfe16b68474b081e2"
+    },
+    "manualQc": {
+      "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/manual-qc-private.json",
+      "sha256": "22c2701457ba356e5dc1008d68c2b62f6f971e108df76ca19556c98677de28b3"
+    },
+    "protectedAuthorCorrectionArtifact": {
+      "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/semantic-corrections-private.json",
+      "sha256": "b332613c70f28e8ca72b2d5ebbbfa573fb47721914c213cb4a691e688385ee81"
+    }
+  },
+  "protectedQaCorrections": {
+    "status": "adjudicated-awaiting-independent-recheck",
+    "correctionsAdjudicated": 5,
+    "accepted": 5,
+    "rejected": 0,
+    "unresolvedAuthorAdjudications": 0,
+    "writingUnchanged": true,
+    "rawOpusHistoryUnchanged": true,
+    "priorAdjudicationsAndSnippetsPreserved": true,
+    "mandatoryCasesPreserved": true,
+    "correctionArtifact": {
+      "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/semantic-corrections-private.json",
+      "sha256": "b332613c70f28e8ca72b2d5ebbbfa573fb47721914c213cb4a691e688385ee81"
+    },
+    "privateResolutions": {
+      "path": "/tmp/slopless-000024-holdout-protected-qa-resolutions-v1.json",
+      "sha256": "c1868745c5cc0e1148e619e218a52b9147247191365fd4c29162c43a3b4f4d6e"
+    },
+    "originalSourceArchiveCommit": "c7f068a2",
+    "beforeLabelsSha256": "21bafbd8248aceda4a9f8e9af521cef427ed20c1282977ed4ff707e5c0dcd705",
+    "beforeReviewSha256": "e04cb1e7fe420379ab584ff9a5dc127892eecc07902d2d30c9073e391c473cce"
+  },
+  "independentQaPostCorrection": {
+    "verifiedAt": "2026-10-21T10:33:54Z",
+    "role": "protected-independent-auditor",
+    "scope": "complete-corrected-240-passage-pool",
+    "fullPoolReady": true,
+    "passages": 240,
+    "hits": 113,
+    "noHits": 127,
+    "correctionsVerified": 5,
+    "remainingMaterialConcerns": 0,
+    "unchangedPassages": 240,
+    "mandatoryCasesPreserved": 25,
+    "rawCallsVerified": 15,
+    "rawJudgmentsVerified": 720,
+    "currentWritingPassCoverage": {
+      "blind": 240,
+      "adversarial": 240,
+      "final": 240
+    },
+    "currentHitSnippetSourcesVerified": 113,
+    "rawReviewHistoryUnchanged": true,
+    "previousAdjudicationsAndSnippetsPreserved": true,
+    "historicalIndependentQaAndFormattingProofUnchanged": true,
+    "verifiedCorrectedLabelsSha256": "66a8fdedd19bd9107ce90c78167afa6921f444b4be152ce846ca6b9bafc4b7c2",
+    "verifiedAuthorReviewSha256": "e88bd39ac2fdfc8bc949453caaf998f965047d23e90b7bf4668f45d311f75a65",
+    "privateProof": {
+      "path": "/tmp/authority-000024-fullpool-qa-2026-10-21-1aStGC/postcorrection-proof-private.json",
+      "sha256": "066d10acc78b7616eddf782ae357d99660399249e3c30862cf66cd1dea126c1f"
+    },
+    "crossSplitQa": "awaiting-final-family-freezes",
+    "selectedSubsetQa": "awaiting-parent-archive-and-selection-authorization",
+    "selectionPerformed": false,
+    "newProviderCalls": 0
   }
 }
