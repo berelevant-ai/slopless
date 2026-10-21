@@ -10,7 +10,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 - Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
 - Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. Its reviewed frozen assessment catches 96 development hits with two false positives and 89 holdout hits with ten false positives. Next: boilerplate and signposting in `prompts/v13/` after this assessment commit.
-- Boilerplate/signposting definitions are frozen. Both unnecessary-framing pools have 240 reviewed passages, with 120 hits and 120 no-hits each; independent label QA passes, and source/split overlap audit is running. Both six-text buried-answer pilots pass review, and complete-text pool generation is running. Preserve the complete framing pools before balanced selection; detector tuning awaits the family's frozen datasets.
+- Unnecessary framing has independently reviewed, overlap-cleared 100/100 development and holdout subsets. Full pools remain archived at `49203a48`; all 37 mandatory cases survive selection. Independent result verification confirms its first 684-word prompt catches 99 development hits with zero false positives; freeze that baseline. Both six-text buried-answer pilots pass review, and complete-text pool generation is running.
 
 ## Execution Order
 
@@ -160,7 +160,7 @@ These are required behaviors to consolidate, not a fixed count of new checks. At
 ## Per-Family Execution
 
 1. Freeze consolidated definitions in the accepted taxonomy, including `input: passage` or `input: text`, source coverage, hits, close no-hits, and boundaries with existing families.
-2. Generate and reconcile each type's development and independently authored holdout sets under the review protocol below. Finish all types before detector tuning.
+2. Generate and reconcile each type's development and independently authored holdout sets under the review protocol below. Finish both splits, independent QA, balanced selection, and overlap clearance for a check before its detector tuning.
 3. Freeze exactly 100 hits and 100 no-hits per split and type, preserve mandatory hard cases, archive surplus, and independently audit global IDs and cross-split/source overlap.
 4. Reuse the completed runner and shared prompt instructions. Tune every check on development under the existing bounded selection and stopping rules; freeze all family candidates and settings.
 5. Have a separate evaluator run each selected candidate once on its holdout. Review all errors, compare with development, and report the same 95-catch/five-false-positive reference target.
@@ -168,7 +168,8 @@ These are required behaviors to consolidate, not a fixed count of new checks. At
 6. Obtain fresh review of requests, scores, errors, provenance, and reports. Run relevant validation and Fixture3 checks, then commit/push the family and continue to the next numbered family.
 
 - Assign fresh development authoring contexts per family. Holdout authors, reviewers, and cross-split auditors never become prompt authors; the orchestrator supplies only approved definitions and development material to authors.
-- Baseline prompt drafting may overlap protected holdout review after the complete development sets pass independent QA and freeze. Holdout authors receive only the frozen definitions; finish all split review, selection, and overlap checks before the first detector trial.
+- Baseline prompt drafting may overlap protected holdout review after that check's complete development set passes independent QA and freezes. Holdout authors receive only frozen definitions; finish both splits' review, selection, and overlap checks before that check's first detector trial.
+- Tune a ready check while another check's independent generation or review continues. Keep separate prompts and sealed holdout contexts; later dataset audits check for copies before their own freeze. Complete all checks and their frozen holdout assessments before advancing the family.
 - Keep text-level inputs intact. Match hit/no-hit text-length distributions and test request capacity before freezing execution settings; reduce batch size rather than truncating or splitting complete texts.
 - The generation, balancing, review, prompt-length, and holdout-protection requirements below apply to every new family and type.
 
@@ -214,7 +215,7 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 
 - `runners/datasets.mjs` and the version 2 schema load paired text and labels. `runners/jev.mjs` already provides family selection, classification-only execution, snapshots, resume, scoring, and label-only rescoring.
 - Existing Fixture3 contracts cover legacy defaults, classification-only completion/resumption, label-free requests, immutable inference validation, and split protection before credential or SDK access.
-- Temporary tuning orchestration uses the exported runner helpers and shared development-only preflight. Keep one family trial JSON with immutable prompt snapshots and responses; preserve the public runner's single-run result format for holdout checks.
+- Temporary tuning orchestration uses exported runner helpers and shared development-only preflight. Keep immutable trial snapshots and responses in one development result per family, or per check when independent schedules or batch sizes require separate runs; preserve the public runner's single-run holdout format.
 - Retain input, prompt, request, prediction, and score hash checks when adapting orchestration to each new family. Verify whole-text request capacity before the first text-level baseline; scope any demonstrated runner limitation through the repository's executable-spec and contract workflow.
 - Result-write safety is repaired and independently reviewed in `c608a2e4`. Both save paths use the shared exclusive, uniquely named atomic JSON writer; the temporary driver restricts output to JSON under `runners/results/` and rejects symlink escapes before provider access.
   - All 83 private driver probes and 34 public contract groups pass, including input preservation behind stale temporary symlinks and cleanup after failed replacement. Request and result schemas remain unchanged.
@@ -239,7 +240,7 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 
 - Freeze labels before tuning. A newly discovered label defect requires independent correction and offline rescoring of every saved candidate on the same corrected set; preserve the original scores and record that change separately from detector improvement.
 - The existing offline rescoring verifies identical target text, example IDs, check assignments, prompts, requests, and predictions, then records the corrected judgment hash separately. Use it for independently approved label corrections; changed inference inputs require new calls.
-- Keep exact prompt snapshots, request/input hashes, raw predictions, timings, token usage, and per-type transitions in one family development result file. Record every attempted revision, including regressions.
+- Keep exact prompt snapshots, request/input hashes, raw predictions, timings, token usage, and per-type transitions in the applicable family or check development result. Record every attempted revision, including regressions.
 - Ask a fresh adversarial reviewer to inspect prompts against the definition for unnecessary restrictions, broad exemptions, copied examples, and exceptions tailored to individual passages. Disclose every development-derived demonstration.
 - Keep holdout sealed throughout tuning and review. Model, threshold, definitions, and generation rules stay fixed during a comparable prompt trial.
 
@@ -250,7 +251,7 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 - Keep IDs globally unique. Update the existing `datasets/README.md` index rather than adding a catalog.
 - Save one compact review record per collection under `runners/results/`, following the existing `<type>-<split>-opus-review.json` convention.
 - Use collection ID, split, and pass in temporary generation and review filenames. Retain distinct responses until hashes, final snippets, and adjudications are verified.
-- Keep new prompts in `prompts/v11/`, `v12/`, and `v13/` in the stated family order. Keep execution in the existing `runners/`, with one development trial JSON and concise report per family, plus immutable check holdout results and one family holdout report.
+- Keep new prompts in `prompts/v11/`, `v12/`, and `v13/` in the stated family order. Keep execution in existing `runners/`, with family or check development trial results, a concise family development report, immutable check holdout results, and one family holdout report.
 - Record worklogs and commit/push completed milestones on `main`, preserving unrelated changes. Keep production detection and published packages unchanged during this task.
 
 ## Completion And Report
@@ -266,7 +267,7 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 
 - Both finalized types have independently reviewed 100-hit/100-no-hit development and holdout sets. The 800 active passages retain their reviewed hard cases; 289 surplus passages remain in linked Git archives.
 - Inflated evaluation selects `r1`: 100 caught hits, zero missed hits, three false positives. Sweeping generalization selects `b0`: 100 caught hits, zero missed hits, two false positives.
-- Tuning stops after two successive revisions fail to improve each check's best candidate. Rejected prompts and predictions remain in the family trial JSON; labels stay fixed throughout evaluation.
+- Tuning stops after two successive revisions fail to improve each check's best candidate. Rejected prompts and predictions remain in its trial history; labels stay fixed throughout evaluation.
 - The [development report](../runners/results/puffery-and-overstatement-v10-development-tuning.md) records all trials, exposure, corrections, and remaining errors. Selected prompts are frozen in `prompts/v10/`.
 - Holdout inference and the remaining V2 evaluation stages remain separate tasks. Production behavior is unchanged.
 

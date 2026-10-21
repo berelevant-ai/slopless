@@ -6,7 +6,7 @@
   "split": "holdout",
   "protectedHoldout": true,
   "recordedAt": "2026-10-21T18:58:15.232Z",
-  "status": "Full 240-passage pool reviewed; ready for parent-assigned protected independent QA and Git archive before balanced selection.",
+  "status": "Reviewed full pool archived at 49203a48; full-pool source/split overlap cleared; balanced subset selected, pending parent fresh review and commit.",
   "counts": {
     "samples": 240,
     "hit": 120,
@@ -1107,5 +1107,176 @@
     "balancedSelection": "Not performed; archive reviewed full pool in Git first, then preserve every mandatory case when selecting 100 hits and 100 no-hits.",
     "detectorEvaluation": "Not performed",
     "slopless": "Not run on deliberately flawed research data"
+  },
+  "selection": {
+    "archive": "49203a48b46e5fe8ad62f41033c4f72c7b31be41",
+    "historicalReviewScope": "Pre-existing counts, coverage, review calls, validation and artifact hashes describe the archived 240-passage full pool; current selected state is recorded below.",
+    "fullPool": {
+      "samples": 240,
+      "judgments": 240,
+      "hit": 120,
+      "noHit": 120,
+      "mandatory": 25,
+      "markdownSha256": "9e4616cc364a15ec116c04d32f73925351974b0f83c63c6e29572421493457e1",
+      "labelsSha256": "cd1c6c1926255c2011801610ee1240b51f74ad41a8a811377cb0d25be50d5826",
+      "reviewSha256": "c84773e39a7b41dec2b9306e9f41ecb8f873880595a6009fa83965cc645cfd64"
+    },
+    "current": {
+      "samples": 200,
+      "judgments": 200,
+      "hit": 100,
+      "noHit": 100,
+      "mandatoryRetained": 25,
+      "markdownSha256": "7506c4147ce4d7569380e27a39e46c2c786cfe1a8aa17f88762bb6ca855f2433",
+      "labelsSha256": "850c1c4260778d2c86e86960f87600a94d5300d3a6c9f7cd8f5401d5ee5fea7a",
+      "idsSha256": "201e4bec87b90c7dd8914b0e28a55c64cce98dca1c2c842b272452b5140b1685"
+    },
+    "surplusIds": [
+      "000030-004",
+      "000030-005",
+      "000030-006",
+      "000030-025",
+      "000030-028",
+      "000030-029",
+      "000030-032",
+      "000030-034",
+      "000030-045",
+      "000030-049",
+      "000030-058",
+      "000030-061",
+      "000030-062",
+      "000030-066",
+      "000030-069",
+      "000030-075",
+      "000030-081",
+      "000030-085",
+      "000030-090",
+      "000030-101",
+      "000030-112",
+      "000030-130",
+      "000030-149",
+      "000030-153",
+      "000030-154",
+      "000030-159",
+      "000030-161",
+      "000030-165",
+      "000030-171",
+      "000030-178",
+      "000030-190",
+      "000030-191",
+      "000030-203",
+      "000030-204",
+      "000030-205",
+      "000030-216",
+      "000030-217",
+      "000030-223",
+      "000030-229",
+      "000030-232"
+    ],
+    "ranking": {
+      "helper": "/tmp/authority-selection-proof-2026-10-21.mjs",
+      "helperSha256": "596726e69f266203d0da19a1c622564b26d081f7e107d5e9dbbfba0e185d5eee",
+      "family": "boilerplate-and-signposting",
+      "type": "unnecessary-framing",
+      "split": "holdout",
+      "input": "passage",
+      "targetPerClass": 100,
+      "method": "Mandatory-first; existing 25/50/25 optional length-band allocation; ascending SHA256(JSON.stringify([family,type,split,id])), then stable ID; output in original source order.",
+      "allocations": [
+        {
+          "expected": true,
+          "mandatory": 5,
+          "optionalAvailable": [
+            27,
+            59,
+            29
+          ],
+          "additional": [
+            24,
+            47,
+            24
+          ],
+          "rounds": [
+            {
+              "slots": 95,
+              "requested": [
+                24,
+                47,
+                24
+              ],
+              "granted": [
+                24,
+                47,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "expected": false,
+          "mandatory": 20,
+          "optionalAvailable": [
+            28,
+            48,
+            24
+          ],
+          "additional": [
+            20,
+            40,
+            20
+          ],
+          "rounds": [
+            {
+              "slots": 80,
+              "requested": [
+                20,
+                40,
+                20
+              ],
+              "granted": [
+                20,
+                40,
+                20
+              ]
+            }
+          ]
+        }
+      ],
+      "rankingSha256": "eccdece2921cc52754eecd01fc7a47675aa32df0ecd988559e766de9961e0cc4",
+      "selectionReproducibleUnderInputReversal": true
+    },
+    "verification": {
+      "exactArchivedText": true,
+      "exactArchivedLabelsAndSnippets": true,
+      "stableIds": true,
+      "originalSourceOrder": true,
+      "allMandatoryRetained": true,
+      "existingDatasetReader": "passed"
+    },
+    "fullPoolOverlap": {
+      "status": "passed",
+      "targetPassages": 480,
+      "historicalFiles": 15673,
+      "historicalWords": 28961092,
+      "historicalCuratedPassages": 6204,
+      "excludedHistoricalPrefixes": [
+        "000029",
+        "000030",
+        "000031",
+        "000032"
+      ],
+      "globalPrefixedIdCollisions": 0,
+      "exactCopies": 0,
+      "normalizedCopies": 0,
+      "crossSplitNearCopies": 0,
+      "historicalNearCopies": 0,
+      "observedSameSplitContentReusePairs": 147,
+      "disposition": "Preserve sound contrastive cases and their labels; account for relationships when interpreting uncertainty. Same-split topic independence is not an added selection gate.",
+      "appliesToSelectedSubset": true,
+      "proof": "/tmp/000029-000030-overlap-qa.json",
+      "proofSha256": "145c75c4f3c11312e93ce977799422039b09af1b8d20678b385b4dec4795a79e",
+      "frozenInputManifestSha256": "5c60a82a98861ca673687db83863eb4ff69223610ad78e5ee6cb1ff0e6f1dd29"
+    },
+    "providerCalls": 0
   }
 }
