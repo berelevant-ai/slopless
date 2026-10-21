@@ -86,6 +86,17 @@ Each passage has blind, adversarial, and final Opus review coverage plus indepen
 
 The global identity audit renamed thirty legacy IDs in the metaphor development collection. Its review record preserves the mapping; writing and judgments remain unchanged. Historical v2/v3 predictions retain their original hashes and use the pre-repair inputs at Git revision `37cc0689` for replay.
 
+## Unsupported-Authority Sets
+
+Four collections contain 800 reviewed passages. Each type has exactly 100 hits and 100 no-hits in development and in an independently authored holdout.
+
+- Vague attribution: [development](ai-synthetic/passages/000023-unsupported-authority-vague-attribution-development.md) and [holdout](ai-synthetic/passages/000024-unsupported-authority-vague-attribution-holdout.md).
+- Prestige padding: [development](ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.md) and [holdout](ai-synthetic/passages/000026-unsupported-authority-prestige-padding-holdout.md).
+
+Every passage has blind, adversarial, and final Opus review coverage plus independent adjudication. Balanced selection retains mandatory hard cases; surplus passages keep their reviewed labels in Git archives recorded by the existing review files.
+
+Development labels were corrected before prompt tuning. Holdout authors and reviewers retain protected contexts; use the corresponding development collections when authoring prompts.
+
 ## Commands
 
 ```sh
