@@ -10,6 +10,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 - Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
 - Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. Its reviewed frozen assessment catches 96 development hits with two false positives and 89 holdout hits with ten false positives. Next: boilerplate and signposting in `prompts/v13/` after this assessment commit.
+- Boilerplate/signposting source and definition review is complete. Freeze `unnecessary-framing` with passage input and `buried-answer` with complete-text input; next generate and independently review both splits for each check.
 
 ## Execution Order
 
@@ -121,6 +122,40 @@ These are required behaviors to consolidate, not a fixed count of new checks. At
 - Use passage input for local framing checks; include headings, adjacent paragraphs, or closing context when required. Preserve the distinction between one unnecessary wrapper and repetitive structures handled by rhythm and repetition.
 - Retain the legacy `significance-density` coverage for unnecessary verbal importance announcements such as "Importantly" and "It is worth noting". Judge the signposting contribution here; keep density aggregation separate from detection and structural repetition in its existing family.
 - Keep repeated explanations and repeated closers assigned to wordiness and redundancy. Layout conventions and decorative typography remain outside this sequence.
+- Source consolidation and independent review freeze `unnecessary-framing` with passage input and `buried-answer` with complete-text input. Preserve adequate early answers and necessary setup in both generation briefs.
+- Preserve meaningful component assignments. Redundant assignments map to wordiness; excessive repeated syntax maps to rhythm. Their vocabulary or bare sentence shape alone creates no additional check.
+- Allocate the independently confirmed unused IDs `000029`/`000030` to unnecessary-framing development/holdout and `000031`/`000032` to buried-answer development/holdout.
+- Generate full-text pilots across the declared length groups before extending the complete-text pools. Use actual cohesive writing; match title/task specificity and length across classes so answer placement is judged in context.
+- Give Opus neutral aliases and text, withholding author labels and snippets. For full-text review, start with batches of twenty complete texts and preserve complete targets; reduce batch size when demonstrated limits require it.
+
+#### Consolidated Source Disposition
+
+- Local lead-ins contribute disposable prefaces and announcements to unnecessary framing. Preserve genuine clarifications and purposeful reader directions.
+  - Cover `boilerplate-framing` and the supplied-point framing branches of `generic-signposting`.
+  - Cover relative usefulness frames and evaluative object frames when they merely announce a supplied point.
+  - Cover evaluative colon frames and reaction announcements independently of punctuation.
+  - Preserve informative actor/component assignments; bare syntax positives from the legacy matcher can become V2 no-hits.
+- Closer branches follow the distinction between a supplied point and missing content.
+  - Formula and summary-frame closers contribute disposable framing around recoverable content.
+  - Insight and response closers retain their missing-takeaway assignments when the point stays unspecified.
+  - Compression announcements contribute framing when they merely introduce the point.
+  - Authority closers retain unsupported-authority ownership.
+  - Acceptance and adversity-to-recovery contrasts retain staged-contrast ownership when the opposition is the defect.
+- Academic formula groups contribute only their redundant paper narration or contribution announcements here.
+  - Preserve useful research aims and methodological descriptions.
+  - Missing findings or consequences retain their semantic-thinness types.
+  - Inflated claims retain puffery ownership; unidentified appeals retain vague-attribution ownership.
+  - Stock vocabulary and redundant substantive explanations retain their existing families.
+- Significance markers contribute unnecessary importance announcements to local framing.
+  - Preserve meaningful prioritization and statistical significance.
+  - Keep recurrence counting separate from detection.
+- Standalone empty takeaways retain semantic-thinness ownership.
+  - Narrow-scope claims retain unspecified-scope ownership when the restriction is missing.
+  - Abstract cost and importance claims retain hollow-significance ownership when consequences are missing.
+  - Useful factual descriptions and narrative developments remain no-hits for framing.
+- Buried answer adds a complete-text organization check beyond the local legacy matchers.
+  - Preserve adequate early summaries and necessary setup before later answers.
+  - Judge only the task and organization expressed by the complete supplied text.
 
 ## Per-Family Execution
 
