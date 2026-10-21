@@ -8,10 +8,6 @@ Keeping the midnight ferry isn't timetable management; it's an island's refusal 
 
 Nobody needs another dashboard. Engineers need the confidence to act.
 
-## 000028-003
-
-Our release process is less about shipping code and more about earning trust.
-
 ## 000028-004
 
 This isn't a ceremonial exercise in ticking boxes. Store the signing key in the hardware module, rotate it every ninety days, and record each rotation in the audit log.
@@ -88,10 +84,6 @@ The incident transcript records Mira saying, "We didn't lose the writes; we lost
 
 The quarterly review is no accounting ritual; it's a conversation about ambition.
 
-## 000028-022
-
-For our ceramics co-op, the ruined firing means neither shame nor defeat, only growth.
-
 ## 000028-023
 
 The new commission plan is less about rewarding transactions and more about honoring partnership. Representatives will receive six percent of first-year revenue and two percent on renewals.
@@ -126,21 +118,9 @@ Revenue rose eleven percent and the support backlog fell below two hundred ticke
 
 Next quarter's budget assigns three additional staff to implementation and funds the replacement of the appointment system used by all seven regional offices.
 
-## 000028-031
-
-The quote covers installation, not the annual software subscription or taxes.
-
 ## 000028-032
 
 Revenue rose, but profit fell after the warehouse lease doubled.
-
-## 000028-033
-
-Finance approves the expense, while procurement signs the purchase order. Sending the invoice to finance alone will leave the supplier without an authorized order number for payment.
-
-## 000028-034
-
-The cheaper plan includes fewer seats and no audit export. For our twelve-person compliance team, the higher tier costs less than buying those exports separately each month.
 
 ## 000028-035
 
@@ -163,10 +143,6 @@ At the hearing, the former director described the arrangement as "not a loan but
 The pilot increased renewal rates from 81 to 87 percent, but the two account groups were assigned by region rather than at random. Regional pricing also changed during the trial.
 
 We can use the result to justify a larger test; we cannot yet attribute the entire increase to the revised onboarding sequence without separating those effects.
-
-## 000028-040
-
-Lena thought the supplier wanted a higher price. The revised draft told a different story: the unit price was unchanged, while payment moved from ninety days to thirty. She called their finance director before rewriting the tender. A shorter payment period fit her cash forecast and gave the supplier enough liquidity to accept the original delivery schedule.
 
 ## 000028-041
 
@@ -214,14 +190,6 @@ The council's revised timetable places the first forty homes on the market in No
 
 The evacuation order covers the riverfront, not the entire western district.
 
-## 000028-052
-
-Police reported twelve arrests; the earlier figure included three people questioned.
-
-## 000028-053
-
-The bridge closed to cars Monday but remains open to pedestrians.
-
 ## 000028-054
 
 "Not a closure, a consolidation," the minister said. The order abolishes two local counters and transfers their applications to a central office forty kilometers away, beginning in June.
@@ -233,14 +201,6 @@ Marta's parcel hasn't gone back to the seller. Its street address became unreada
 ## 000028-056
 
 Residents can still reach the clinic during roadworks. A temporary entrance from Alder Lane opens Monday, while the bus stop moves outside the pharmacy for six weeks.
-
-## 000028-057
-
-No winner was declared overnight because two precincts had not submitted their counts. The electoral office expects those returns by noon, before the certification meeting scheduled for Friday.
-
-## 000028-058
-
-The revised reservoir plan stores less water but floods fewer homes. It would displace eleven households rather than forty, according to the map released with the environmental application.
 
 ## 000028-059
 
@@ -298,25 +258,13 @@ The loaf rose beautifully, and the crumb was even all the way to the center. But
 
 For the fitting, mark the hem in chalk rather than permanent ink.
 
-## 000028-072
-
-Less water makes firmer polenta; more water makes it spoonable.
-
 ## 000028-073
 
 The brown crust doesn't mean the center is cooked. This loaf weighs nearly two kilos; check the internal temperature before taking it out of the oven to cool.
 
-## 000028-074
-
-At first the sauce will look split. Keep whisking over gentle heat, and the butter will disperse into the reduced wine; stop heating as soon as it turns smooth.
-
 ## 000028-075
 
 No eggs are needed because the cooked rice binds these fritters. Chill the mixture for thirty minutes before shaping, or it will stick to your hands and spread.
-
-## 000028-076
-
-The finished stew won't taste strongly of anchovy. Two fillets dissolve into six portions, adding salt and savoriness; reduce the added salt until you've tasted the broth.
 
 ## 000028-077
 
@@ -331,10 +279,6 @@ I discarded the sauce and started again with fresh oil, using the same pan and t
 ## 000028-079
 
 You can bake the tart the day before, but add the berries on the morning you serve it. Overnight, their juice softens the pastry and stains the cream. Keep the baked shell covered at room temperature and refrigerate the filling separately. Assemble them after breakfast, then return the tart to the refrigerator until guests arrive.
-
-## 000028-080
-
-"That's the weekday column," Arun said as I broke into a run. "We're on the Sunday timetable." I stopped at the crossing and looked again at the small print below the station clock. Our train wasn't leaving for another half hour. We walked back to the cafe, collected the scarf I'd abandoned on the chair, and ordered breakfast before returning to the platform.
 
 ## 000028-081
 
@@ -406,27 +350,15 @@ I hadn't forgotten our anniversary. The florist had written the delivery date as
 
 Failing the driving test showed me that I still reverse too quickly when someone is waiting. I've booked two lessons focused on parking before trying the test again.
 
-## 000028-098
-
-My father's diary reads, "Not lonely, only tired." He wrote it the evening after returning from the hospital; the following page lists six visitors and their train times.
-
 ## 000028-099
 
 I thought moving closer would mean seeing Mum every day. In practice, she wanted me to ring before coming over, and sometimes she preferred an afternoon alone.
 
 We settled on Tuesday dinners and a shared shopping trip on Saturday. Living nearby still helped: when her boiler stopped working, I could bring a heater over in ten minutes.
 
-## 000028-100
-
-The new bedtime routine coincided with five nights of uninterrupted sleep, but those were also the first nights without construction outside our window. I'm going to keep the routine when the builders return on Monday. If I start waking at six again, I'll try the back bedroom before deciding whether the earlier bedtime made a difference.
-
 ## 000028-101
 
 It wasn't rain against the windows. It was the sound of possibility arriving.
-
-## 000028-102
-
-Mara felt less like a passenger than a participant in destiny.
 
 ## 000028-103
 
@@ -466,10 +398,6 @@ This was no petty exercise in sorting old possessions. It was an act of becoming
 
 The footsteps weren't his father's. A woman in uniform entered carrying a summons.
 
-## 000028-112
-
-Ben hadn't moved the money. His sister had emptied the account yesterday.
-
 ## 000028-113
 
 Yesterday Ivo could pass for a porter. Today his photograph hung beside the station clock. He left the suitcase behind and joined the queue for the side exit.
@@ -481,10 +409,6 @@ Yesterday Ivo could pass for a porter. Today his photograph hung beside the stat
 ## 000028-115
 
 There was no smoke above the chimney, though the frost was thick on the gate. Tomas left the horse tied outside and tried the kitchen door before knocking again.
-
-## 000028-116
-
-The smaller boat carried less grain but drew less water. With the river falling, Sela chose it and left six sacks under the warehouse awning for the next crossing.
 
 ## 000028-117
 
@@ -566,14 +490,6 @@ Mina tucked hers into her sleeve and tightened her laces. The first session woul
 
 "I wasn't trying to embarrass you," Rosa said. "You'd left your microphone on, and the client could hear us. Next time I'll send a message rather than interrupting."
 
-## 000028-136
-
-"You get a smaller room, but you keep the south-facing window," the agent said. "The larger one faces the loading bay, where deliveries start at five each morning."
-
-## 000028-137
-
-"Yesterday you said the permit was enough." "Yesterday we were filming indoors. The street scene needs a separate road closure, and the council hasn't approved that application yet."
-
 ## 000028-138
 
 "What did the witness say exactly?" "'I heard a knock, not a shot.' Those are her words on page fourteen. The recording places the sentence just before the officer interrupts."
@@ -638,10 +554,6 @@ The cloakroom tally records checked bags, not the number of visitors inside the 
 
 The specimen is neither extinct nor rare; it was misidentified initially.
 
-## 000028-153
-
-The wider mesh catches fewer larvae but clogs less often in silty water. Use the fine mesh upstream, where lower sediment loads let us filter the required volume.
-
 ## 000028-154
 
 Before drying, the sample weighed 18.4 grams. After drying, it weighed 12.1 grams; the reported concentration uses the dry mass so that moisture differences don't distort the comparison.
@@ -649,10 +561,6 @@ Before drying, the sample weighed 18.4 grams. After drying, it weighed 12.1 gram
 ## 000028-155
 
 A missing band doesn't establish a deletion. The positive control also failed to amplify, so repeat the extraction before interpreting either sample's result as evidence about the gene.
-
-## 000028-156
-
-The field notebook labels the sound "a scrape, not a call." That distinction explains why the 1974 survey counted the observation as feeding behavior rather than a territorial display.
 
 ## 000028-157
 
@@ -668,17 +576,9 @@ We will alternate treated and untreated trays across both benches in the next ru
 
 The unexpected peak is useful evidence about contamination rather than a reason to discard the whole run. It appears in both blanks and at the same retention time in every sample. Subtracting it would conceal the problem. We should replace the solvent, clean the inlet, and repeat the calibration before deciding which sample measurements remain usable.
 
-## 000028-160
-
-At first, Kim blamed the detector for the falling signal. Replacing it changed nothing. When she moved the sample to a second holder, the signal returned to its original level. A hairline crack in the first holder had let the solution drain slowly beneath the beam. She recorded the fault and repeated the affected measurements with a fresh sample.
-
 ## 000028-161
 
 A classroom isn't a room of desks. It's a promise to every child.
-
-## 000028-162
-
-Homework should be less about compliance and more about discovering possibility.
 
 ## 000028-163
 
@@ -722,10 +622,6 @@ The exam allows a dictionary, but no calculator or handwritten notes.
 
 Teachers mark the essays; external examiners review a sample for consistency.
 
-## 000028-173
-
-The trip is postponed until Monday, not canceled for the term.
-
 ## 000028-174
 
 Fewer questions give pupils more time to explain their reasoning. For this assessment, we need to see how they choose a method, so six worked problems will replace twenty calculations.
@@ -733,14 +629,6 @@ Fewer questions give pupils more time to explain their reasoning. For this asses
 ## 000028-175
 
 Before September, pupils could borrow books only at lunchtime. The library now opens before registration, allowing children on the early bus to return books without missing their meal.
-
-## 000028-176
-
-Students without home internet can still complete the assignment. All required texts are in the printed packet, and the online map is an optional extension of the same material.
-
-## 000028-177
-
-The missing score means the pupil was absent, not that she earned zero. Leave the field blank and schedule the makeup assessment before calculating her term average.
 
 ## 000028-178
 
@@ -751,10 +639,6 @@ The inspector's report calls the lesson "orderly rather than engaging." Its next
 Darius's failed quiz identified a specific gap: he could multiply fractions but inverted the first fraction when dividing. He corrected all four division problems after we worked through one example together.
 
 He will complete another short quiz on Friday, using new numbers, so we can check whether he can choose the correct operation without a prompt beside the question.
-
-## 000028-180
-
-"It's not fair that they get extra time," Joel said. The teacher showed him the school rule allowing a break when the fire alarm interrupts an exam. His own room had stayed inside; the other class had stood outside for twelve minutes. He looked at the clock, crossed out his complaint, and returned to the final question.
 
 ## 000028-181
 
@@ -798,17 +682,9 @@ Next week we'll spend the first twenty minutes on defensive spacing and repeat t
 
 "Not a race, a promise" was printed on the back of our shirts, and it said everything about why we were there. At seven, we pinned on our numbers beside the harbor and joined the queue for water. The route would take us past the lighthouse, through the old town, and back along the sea wall before the roads reopened.
 
-## 000028-191
-
-The ban covers league matches, not training or international fixtures.
-
 ## 000028-192
 
 The referee awarded a penalty try, so no conversion was required.
-
-## 000028-193
-
-The lighter racket is easier to swing but less stable on off-center returns. Try it against fast serves before choosing it for the tournament, where most opponents serve hard.
 
 ## 000028-194
 
@@ -826,12 +702,6 @@ No pain during the warmup doesn't mean the ankle is ready for jumping. The physi
 
 The captain said, "We lost our shape, not our nerve." The match footage shows both fullbacks advancing at once before the two late goals, which the analyst reviews in sequence.
 
-## 000028-198
-
-The replacement freezer used 18 percent less electricity during our trial, but the fish shop was closed for two of those days. Customers opened the old freezer throughout its test week.
-
-Before we order three units, Ansel will log both machines side by side with matching loads and the same number of door openings. We'll compare kilowatt-hours per day after a full trading week.
-
 ## 000028-199
 
 The crowd thought Ari had stopped to celebrate. He had pulled up because a loose dog was running across lane four, directly into the path of the runners behind him. The officials halted the race and cleared the track. When the restart was announced, Ari returned to the line beside the runner whose stride he had interrupted.
@@ -840,17 +710,9 @@ The crowd thought Ari had stopped to celebrate. He had pulled up because a loose
 
 The defeat exposed a recoverable problem rather than a shortage of stamina. In all three conceded goals, our left defender followed the ball inside and left the winger unmarked. The coach will assign the midfielder to cover that movement and rehearse the rotation in a half-pitch drill. We can test the adjustment against the same formation in Friday's friendly.
 
-## 000028-201
-
-A gallery is more than walls; it is less enclosure than invitation.
-
 ## 000028-202
 
 The pianist wasn't pressing keys. The room was learning to listen.
-
-## 000028-203
-
-The cracked vase wasn't ruined work; it was beauty discovering another language.
 
 ## 000028-204
 
@@ -882,14 +744,6 @@ We're not guarding a dusty shrine to cultural prestige. We're making room for di
 
 The installation occupies the former workshop, with benches positioned along the windows and headphones available at the desk. On weekends, two of the makers will demonstrate their firing techniques in the courtyard.
 
-## 000028-211
-
-The edition contains reproductions, not original prints signed by the artist.
-
-## 000028-212
-
-The first movement is in C minor; the finale returns in C major.
-
 ## 000028-213
 
 The portrait depicts her sister, not the artist herself as previously cataloged.
@@ -902,17 +756,9 @@ The smaller venue holds fewer listeners but needs no amplification. For this una
 
 The absence of a signature doesn't settle the attribution. Several works from the same commission are unsigned, so the catalog compares paper, watermarks, and surviving payment records as well.
 
-## 000028-216
-
-Children can attend the afternoon screening. The violent sequence discussed in the review belongs to the director's cut; the distributor confirms that our print uses the shorter theatrical version.
-
 ## 000028-217
 
 The critic's phrase "less a concert than a sermon" appeared in the 1911 review. The program included three political addresses between songs, which helps explain the comparison in its setting.
-
-## 000028-218
-
-The conductor sets the tempo, but the stage manager gives the lighting cue. Follow the stage manager's signal after the pause, since the conductor will still be facing the orchestra.
 
 ## 000028-219
 
@@ -970,10 +816,6 @@ From Monday, callers will be able to request a callback without losing their pla
 
 The permit allows pruning, not removal of the protected oak.
 
-## 000028-232
-
-The fee is per household, not per resident or vehicle.
-
 ## 000028-233
 
 Before the boundary revision, Willow Street belonged to Ward Six. It now belongs to Ward Four, so residents must vote at the library rather than the sports center this Thursday.
@@ -999,10 +841,6 @@ The petition says "homes, not hotels" beside the proposed site address. Its orga
 The volunteer can help complete the form but cannot decide whether the claim qualifies. That decision belongs to the housing officer, who checks the tenancy and income records.
 
 At the drop-in desk, volunteers should scan the supporting documents, give the applicant a receipt, and forward the file to the officer named on that morning's duty roster before closing the case.
-
-## 000028-239
-
-"This isn't a public meeting if nobody can hear," Mrs. Vale said from the back row. The chair looked toward the technician, who found that the rear speakers had been switched off. They paused for five minutes while he restored the connection. Mrs. Vale repeated her question about the access road, and the engineer brought the relevant drawing to the screen.
 
 ## 000028-240
 

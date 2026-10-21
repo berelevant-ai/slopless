@@ -103,7 +103,9 @@ The [development collection](ai-synthetic/passages/000027-staged-contrasts-stage
 
 The complete reviewed development pool remains at `bfb57f52`, including seven surplus hits and 33 surplus no-hits. The existing `staged-opposition-development-opus-review.json` records original votes, label adjudication, selection, and active versus archived QA.
 
-The [protected holdout collection](ai-synthetic/passages/000028-staged-contrasts-staged-opposition-holdout.md) is undergoing seven overlap repairs and independent QA before its balanced selection. Holdout completion and overlap clearance gate the first detector trial.
+The [protected holdout collection](ai-synthetic/passages/000028-staged-contrasts-staged-opposition-holdout.md) has exactly 100 hits and 100 no-hits, retaining all 67 mandatory cases. Seven independently reviewed replacements resolve confirmed development overlap; the complete repaired pool at `4d712948` retains six surplus hits and 34 surplus no-hits.
+
+Final verification preserves all 400 selected passages and judgments across both splits, all 94 mandatory cases, and 205 literal hit snippets. Source-overlap clearance is complete; classification inference follows this data freeze.
 
 ## Commands
 

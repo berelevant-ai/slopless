@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "split": "holdout",
-  "textSha256": "3992fe6b7e4545f41a9664e86d4b33d196a07b99e2845c543b174c884da0e1d7",
+  "textSha256": "5950d752a83dfba8b75bd22206896999f4ca8ba28859259bc7f65419a006d065",
   "source": {
-    "name": "Independent synthetic staged-opposition holdout pool",
-    "originalPath": "/tmp/000028-holdout-overlap-repair-current-rows.json",
+    "name": "Independent synthetic staged-opposition balanced holdout",
+    "originalPath": "/tmp/000028-holdout-balanced-selected-rows.json",
     "commit": "633c184a",
     "model": "GPT-5 (independent dataset author)",
-    "notes": "Full independently authored holdout pool, including seven source-overlap repairs to writing archived at parent-supplied commit 92e9bdb7. The frozen definition and all class judgments are preserved. Fresh opaque-alias three-role Opus reviews cover each replacement; prior writing and raw reviews remain historical evidence in the review record."
+    "notes": "Balanced 100-hit/100-no-hit subset selected mechanically from the repaired full pool archived at parent-supplied commit 4d712948. All 67 mandatory cases, retained complete passages, stable IDs, labels and final Opus snippets are unchanged; source order is preserved. Forty surplus passages remain in that archive. The frozen definition source commit remains 633c184a."
   },
   "samples": [
     {
@@ -21,1194 +21,994 @@
       "end": 244
     },
     {
-      "id": "000028-003",
-      "start": 261,
-      "end": 338
-    },
-    {
       "id": "000028-004",
-      "start": 355,
-      "end": 523
+      "start": 261,
+      "end": 429
     },
     {
       "id": "000028-005",
-      "start": 540,
-      "end": 694
+      "start": 446,
+      "end": 600
     },
     {
       "id": "000028-006",
-      "start": 711,
-      "end": 869
+      "start": 617,
+      "end": 775
     },
     {
       "id": "000028-007",
-      "start": 886,
-      "end": 1074
+      "start": 792,
+      "end": 980
     },
     {
       "id": "000028-008",
-      "start": 1091,
-      "end": 1293
+      "start": 997,
+      "end": 1199
     },
     {
       "id": "000028-009",
-      "start": 1310,
-      "end": 1646
+      "start": 1216,
+      "end": 1552
     },
     {
       "id": "000028-010",
-      "start": 1663,
-      "end": 1996
+      "start": 1569,
+      "end": 1902
     },
     {
       "id": "000028-011",
-      "start": 2013,
-      "end": 2075
+      "start": 1919,
+      "end": 1981
     },
     {
       "id": "000028-012",
-      "start": 2092,
-      "end": 2162
+      "start": 1998,
+      "end": 2068
     },
     {
       "id": "000028-013",
-      "start": 2179,
-      "end": 2257
+      "start": 2085,
+      "end": 2163
     },
     {
       "id": "000028-014",
-      "start": 2274,
-      "end": 2442
+      "start": 2180,
+      "end": 2348
     },
     {
       "id": "000028-015",
-      "start": 2459,
-      "end": 2622
+      "start": 2365,
+      "end": 2528
     },
     {
       "id": "000028-016",
-      "start": 2639,
-      "end": 2822
+      "start": 2545,
+      "end": 2728
     },
     {
       "id": "000028-017",
-      "start": 2839,
-      "end": 3030
+      "start": 2745,
+      "end": 2936
     },
     {
       "id": "000028-018",
-      "start": 3047,
-      "end": 3205
+      "start": 2953,
+      "end": 3111
     },
     {
       "id": "000028-019",
-      "start": 3222,
-      "end": 3592
+      "start": 3128,
+      "end": 3498
     },
     {
       "id": "000028-020",
-      "start": 3609,
-      "end": 3964
+      "start": 3515,
+      "end": 3870
     },
     {
       "id": "000028-021",
-      "start": 3981,
-      "end": 4062
-    },
-    {
-      "id": "000028-022",
-      "start": 4079,
-      "end": 4165
+      "start": 3887,
+      "end": 3968
     },
     {
       "id": "000028-023",
-      "start": 4182,
-      "end": 4371
+      "start": 3985,
+      "end": 4174
     },
     {
       "id": "000028-024",
-      "start": 4388,
-      "end": 4557
+      "start": 4191,
+      "end": 4360
     },
     {
       "id": "000028-025",
-      "start": 4574,
-      "end": 4751
+      "start": 4377,
+      "end": 4554
     },
     {
       "id": "000028-026",
-      "start": 4768,
-      "end": 4951
+      "start": 4571,
+      "end": 4754
     },
     {
       "id": "000028-027",
-      "start": 4968,
-      "end": 5127
+      "start": 4771,
+      "end": 4930
     },
     {
       "id": "000028-028",
-      "start": 5144,
-      "end": 5498
+      "start": 4947,
+      "end": 5301
     },
     {
       "id": "000028-029",
-      "start": 5515,
-      "end": 5861
+      "start": 5318,
+      "end": 5664
     },
     {
       "id": "000028-030",
-      "start": 5878,
-      "end": 6227
-    },
-    {
-      "id": "000028-031",
-      "start": 6244,
-      "end": 6321
+      "start": 5681,
+      "end": 6030
     },
     {
       "id": "000028-032",
-      "start": 6338,
-      "end": 6402
-    },
-    {
-      "id": "000028-033",
-      "start": 6419,
-      "end": 6601
-    },
-    {
-      "id": "000028-034",
-      "start": 6618,
-      "end": 6791
+      "start": 6047,
+      "end": 6111
     },
     {
       "id": "000028-035",
-      "start": 6808,
-      "end": 7004
+      "start": 6128,
+      "end": 6324
     },
     {
       "id": "000028-036",
-      "start": 7021,
-      "end": 7207
+      "start": 6341,
+      "end": 6527
     },
     {
       "id": "000028-037",
-      "start": 7224,
-      "end": 7418
+      "start": 6544,
+      "end": 6738
     },
     {
       "id": "000028-038",
-      "start": 7435,
-      "end": 7804
+      "start": 6755,
+      "end": 7124
     },
     {
       "id": "000028-039",
-      "start": 7821,
-      "end": 8161
-    },
-    {
-      "id": "000028-040",
-      "start": 8178,
-      "end": 8537
+      "start": 7141,
+      "end": 7481
     },
     {
       "id": "000028-041",
-      "start": 8554,
-      "end": 8628
+      "start": 7498,
+      "end": 7572
     },
     {
       "id": "000028-042",
-      "start": 8645,
-      "end": 8729
+      "start": 7589,
+      "end": 7673
     },
     {
       "id": "000028-043",
-      "start": 8746,
-      "end": 8821
+      "start": 7690,
+      "end": 7765
     },
     {
       "id": "000028-044",
-      "start": 8838,
-      "end": 9011
+      "start": 7782,
+      "end": 7955
     },
     {
       "id": "000028-045",
-      "start": 9028,
-      "end": 9212
+      "start": 7972,
+      "end": 8156
     },
     {
       "id": "000028-046",
-      "start": 9229,
-      "end": 9376
+      "start": 8173,
+      "end": 8320
     },
     {
       "id": "000028-047",
-      "start": 9393,
-      "end": 9585
+      "start": 8337,
+      "end": 8529
     },
     {
       "id": "000028-048",
-      "start": 9602,
-      "end": 9783
+      "start": 8546,
+      "end": 8727
     },
     {
       "id": "000028-049",
-      "start": 9800,
-      "end": 10164
+      "start": 8744,
+      "end": 9108
     },
     {
       "id": "000028-050",
-      "start": 10181,
-      "end": 10517
+      "start": 9125,
+      "end": 9461
     },
     {
       "id": "000028-051",
-      "start": 10534,
-      "end": 10610
-    },
-    {
-      "id": "000028-052",
-      "start": 10627,
-      "end": 10711
-    },
-    {
-      "id": "000028-053",
-      "start": 10728,
-      "end": 10793
+      "start": 9478,
+      "end": 9554
     },
     {
       "id": "000028-054",
-      "start": 10810,
-      "end": 10996
+      "start": 9571,
+      "end": 9757
     },
     {
       "id": "000028-055",
-      "start": 11013,
-      "end": 11197
+      "start": 9774,
+      "end": 9958
     },
     {
       "id": "000028-056",
-      "start": 11214,
-      "end": 11380
-    },
-    {
-      "id": "000028-057",
-      "start": 11397,
-      "end": 11590
-    },
-    {
-      "id": "000028-058",
-      "start": 11607,
-      "end": 11796
+      "start": 9975,
+      "end": 10141
     },
     {
       "id": "000028-059",
-      "start": 11813,
-      "end": 12158
+      "start": 10158,
+      "end": 10503
     },
     {
       "id": "000028-060",
-      "start": 12175,
-      "end": 12524
+      "start": 10520,
+      "end": 10869
     },
     {
       "id": "000028-061",
-      "start": 12541,
-      "end": 12604
+      "start": 10886,
+      "end": 10949
     },
     {
       "id": "000028-062",
-      "start": 12621,
-      "end": 12698
+      "start": 10966,
+      "end": 11043
     },
     {
       "id": "000028-063",
-      "start": 12715,
-      "end": 12876
+      "start": 11060,
+      "end": 11221
     },
     {
       "id": "000028-064",
-      "start": 12893,
-      "end": 13060
+      "start": 11238,
+      "end": 11405
     },
     {
       "id": "000028-065",
-      "start": 13077,
-      "end": 13241
+      "start": 11422,
+      "end": 11586
     },
     {
       "id": "000028-066",
-      "start": 13258,
-      "end": 13434
+      "start": 11603,
+      "end": 11779
     },
     {
       "id": "000028-067",
-      "start": 13451,
-      "end": 13622
+      "start": 11796,
+      "end": 11967
     },
     {
       "id": "000028-068",
-      "start": 13639,
-      "end": 13959
+      "start": 11984,
+      "end": 12304
     },
     {
       "id": "000028-069",
-      "start": 13976,
-      "end": 14275
+      "start": 12321,
+      "end": 12620
     },
     {
       "id": "000028-070",
-      "start": 14292,
-      "end": 14590
+      "start": 12637,
+      "end": 12935
     },
     {
       "id": "000028-071",
-      "start": 14607,
-      "end": 14672
-    },
-    {
-      "id": "000028-072",
-      "start": 14689,
-      "end": 14752
+      "start": 12952,
+      "end": 13017
     },
     {
       "id": "000028-073",
-      "start": 14769,
-      "end": 14927
-    },
-    {
-      "id": "000028-074",
-      "start": 14944,
-      "end": 15104
+      "start": 13034,
+      "end": 13192
     },
     {
       "id": "000028-075",
-      "start": 15121,
-      "end": 15281
-    },
-    {
-      "id": "000028-076",
-      "start": 15298,
-      "end": 15469
+      "start": 13209,
+      "end": 13369
     },
     {
       "id": "000028-077",
-      "start": 15486,
-      "end": 15659
+      "start": 13386,
+      "end": 13559
     },
     {
       "id": "000028-078",
-      "start": 15676,
-      "end": 15998
+      "start": 13576,
+      "end": 13898
     },
     {
       "id": "000028-079",
-      "start": 16015,
-      "end": 16347
-    },
-    {
-      "id": "000028-080",
-      "start": 16364,
-      "end": 16725
+      "start": 13915,
+      "end": 14247
     },
     {
       "id": "000028-081",
-      "start": 16742,
-      "end": 16808
+      "start": 14264,
+      "end": 14330
     },
     {
       "id": "000028-082",
-      "start": 16825,
-      "end": 16890
+      "start": 14347,
+      "end": 14412
     },
     {
       "id": "000028-083",
-      "start": 16907,
-      "end": 16976
+      "start": 14429,
+      "end": 14498
     },
     {
       "id": "000028-084",
-      "start": 16993,
-      "end": 17148
+      "start": 14515,
+      "end": 14670
     },
     {
       "id": "000028-085",
-      "start": 17165,
-      "end": 17327
+      "start": 14687,
+      "end": 14849
     },
     {
       "id": "000028-086",
-      "start": 17344,
-      "end": 17504
+      "start": 14866,
+      "end": 15026
     },
     {
       "id": "000028-087",
-      "start": 17521,
-      "end": 17673
+      "start": 15043,
+      "end": 15195
     },
     {
       "id": "000028-088",
-      "start": 17690,
-      "end": 17838
+      "start": 15212,
+      "end": 15360
     },
     {
       "id": "000028-089",
-      "start": 17855,
-      "end": 18195
+      "start": 15377,
+      "end": 15717
     },
     {
       "id": "000028-090",
-      "start": 18212,
-      "end": 18543
+      "start": 15734,
+      "end": 16065
     },
     {
       "id": "000028-091",
-      "start": 18560,
-      "end": 18609
+      "start": 16082,
+      "end": 16131
     },
     {
       "id": "000028-092",
-      "start": 18626,
-      "end": 18693
+      "start": 16148,
+      "end": 16215
     },
     {
       "id": "000028-093",
-      "start": 18710,
-      "end": 18778
+      "start": 16232,
+      "end": 16300
     },
     {
       "id": "000028-094",
-      "start": 18795,
-      "end": 18941
+      "start": 16317,
+      "end": 16463
     },
     {
       "id": "000028-095",
-      "start": 18958,
-      "end": 19124
+      "start": 16480,
+      "end": 16646
     },
     {
       "id": "000028-096",
-      "start": 19141,
-      "end": 19293
+      "start": 16663,
+      "end": 16815
     },
     {
       "id": "000028-097",
-      "start": 19310,
-      "end": 19475
-    },
-    {
-      "id": "000028-098",
-      "start": 19492,
-      "end": 19662
+      "start": 16832,
+      "end": 16997
     },
     {
       "id": "000028-099",
-      "start": 19679,
-      "end": 20014
-    },
-    {
-      "id": "000028-100",
-      "start": 20031,
-      "end": 20370
+      "start": 17014,
+      "end": 17349
     },
     {
       "id": "000028-101",
-      "start": 20387,
-      "end": 20464
-    },
-    {
-      "id": "000028-102",
-      "start": 20481,
-      "end": 20543
+      "start": 17366,
+      "end": 17443
     },
     {
       "id": "000028-103",
-      "start": 20560,
-      "end": 20713
+      "start": 17460,
+      "end": 17613
     },
     {
       "id": "000028-104",
-      "start": 20730,
-      "end": 20887
+      "start": 17630,
+      "end": 17787
     },
     {
       "id": "000028-105",
-      "start": 20904,
-      "end": 21054
+      "start": 17804,
+      "end": 17954
     },
     {
       "id": "000028-106",
-      "start": 21071,
-      "end": 21255
+      "start": 17971,
+      "end": 18155
     },
     {
       "id": "000028-107",
-      "start": 21272,
-      "end": 21435
+      "start": 18172,
+      "end": 18335
     },
     {
       "id": "000028-108",
-      "start": 21452,
-      "end": 21752
+      "start": 18352,
+      "end": 18652
     },
     {
       "id": "000028-109",
-      "start": 21769,
-      "end": 22099
+      "start": 18669,
+      "end": 18999
     },
     {
       "id": "000028-110",
-      "start": 22116,
-      "end": 22472
+      "start": 19016,
+      "end": 19372
     },
     {
       "id": "000028-111",
-      "start": 22489,
-      "end": 22571
-    },
-    {
-      "id": "000028-112",
-      "start": 22588,
-      "end": 22661
+      "start": 19389,
+      "end": 19471
     },
     {
       "id": "000028-113",
-      "start": 22678,
-      "end": 22836
+      "start": 19488,
+      "end": 19646
     },
     {
       "id": "000028-114",
-      "start": 22853,
-      "end": 23009
+      "start": 19663,
+      "end": 19819
     },
     {
       "id": "000028-115",
-      "start": 23026,
-      "end": 23187
-    },
-    {
-      "id": "000028-116",
-      "start": 23204,
-      "end": 23367
+      "start": 19836,
+      "end": 19997
     },
     {
       "id": "000028-117",
-      "start": 23384,
-      "end": 23568
+      "start": 20014,
+      "end": 20198
     },
     {
       "id": "000028-118",
-      "start": 23585,
-      "end": 23910
+      "start": 20215,
+      "end": 20540
     },
     {
       "id": "000028-119",
-      "start": 23927,
-      "end": 24262
+      "start": 20557,
+      "end": 20892
     },
     {
       "id": "000028-120",
-      "start": 24279,
-      "end": 24594
+      "start": 20909,
+      "end": 21224
     },
     {
       "id": "000028-121",
-      "start": 24611,
-      "end": 24689
+      "start": 21241,
+      "end": 21319
     },
     {
       "id": "000028-122",
-      "start": 24706,
-      "end": 24780
+      "start": 21336,
+      "end": 21410
     },
     {
       "id": "000028-123",
-      "start": 24797,
-      "end": 24860
+      "start": 21427,
+      "end": 21490
     },
     {
       "id": "000028-124",
-      "start": 24877,
-      "end": 25076
+      "start": 21507,
+      "end": 21706
     },
     {
       "id": "000028-125",
-      "start": 25093,
-      "end": 25265
+      "start": 21723,
+      "end": 21895
     },
     {
       "id": "000028-126",
-      "start": 25282,
-      "end": 25456
+      "start": 21912,
+      "end": 22086
     },
     {
       "id": "000028-127",
-      "start": 25473,
-      "end": 25649
+      "start": 22103,
+      "end": 22279
     },
     {
       "id": "000028-128",
-      "start": 25666,
-      "end": 25830
+      "start": 22296,
+      "end": 22460
     },
     {
       "id": "000028-129",
-      "start": 25847,
-      "end": 26180
+      "start": 22477,
+      "end": 22810
     },
     {
       "id": "000028-130",
-      "start": 26197,
-      "end": 26525
+      "start": 22827,
+      "end": 23155
     },
     {
       "id": "000028-131",
-      "start": 26542,
-      "end": 26607
+      "start": 23172,
+      "end": 23237
     },
     {
       "id": "000028-132",
-      "start": 26624,
-      "end": 26686
+      "start": 23254,
+      "end": 23316
     },
     {
       "id": "000028-133",
-      "start": 26703,
-      "end": 26755
+      "start": 23333,
+      "end": 23385
     },
     {
       "id": "000028-134",
-      "start": 26772,
-      "end": 26915
+      "start": 23402,
+      "end": 23545
     },
     {
       "id": "000028-135",
-      "start": 26932,
-      "end": 27097
-    },
-    {
-      "id": "000028-136",
-      "start": 27114,
-      "end": 27278
-    },
-    {
-      "id": "000028-137",
-      "start": 27295,
-      "end": 27477
+      "start": 23562,
+      "end": 23727
     },
     {
       "id": "000028-138",
-      "start": 27494,
-      "end": 27670
+      "start": 23744,
+      "end": 23920
     },
     {
       "id": "000028-139",
-      "start": 27687,
-      "end": 28003
+      "start": 23937,
+      "end": 24253
     },
     {
       "id": "000028-140",
-      "start": 28020,
-      "end": 28352
+      "start": 24270,
+      "end": 24602
     },
     {
       "id": "000028-141",
-      "start": 28369,
-      "end": 28434
+      "start": 24619,
+      "end": 24684
     },
     {
       "id": "000028-142",
-      "start": 28451,
-      "end": 28536
+      "start": 24701,
+      "end": 24786
     },
     {
       "id": "000028-143",
-      "start": 28553,
-      "end": 28709
+      "start": 24803,
+      "end": 24959
     },
     {
       "id": "000028-144",
-      "start": 28726,
-      "end": 28895
+      "start": 24976,
+      "end": 25145
     },
     {
       "id": "000028-145",
-      "start": 28912,
-      "end": 29116
+      "start": 25162,
+      "end": 25366
     },
     {
       "id": "000028-146",
-      "start": 29133,
-      "end": 29295
+      "start": 25383,
+      "end": 25545
     },
     {
       "id": "000028-147",
-      "start": 29312,
-      "end": 29499
+      "start": 25562,
+      "end": 25749
     },
     {
       "id": "000028-148",
-      "start": 29516,
-      "end": 29886
+      "start": 25766,
+      "end": 26136
     },
     {
       "id": "000028-149",
-      "start": 29903,
-      "end": 30265
+      "start": 26153,
+      "end": 26515
     },
     {
       "id": "000028-150",
-      "start": 30282,
-      "end": 30652
+      "start": 26532,
+      "end": 26902
     },
     {
       "id": "000028-151",
-      "start": 30669,
-      "end": 30757
+      "start": 26919,
+      "end": 27007
     },
     {
       "id": "000028-152",
-      "start": 30774,
-      "end": 30847
-    },
-    {
-      "id": "000028-153",
-      "start": 30864,
-      "end": 31026
+      "start": 27024,
+      "end": 27097
     },
     {
       "id": "000028-154",
-      "start": 31043,
-      "end": 31229
+      "start": 27114,
+      "end": 27300
     },
     {
       "id": "000028-155",
-      "start": 31246,
-      "end": 31431
-    },
-    {
-      "id": "000028-156",
-      "start": 31448,
-      "end": 31632
+      "start": 27317,
+      "end": 27502
     },
     {
       "id": "000028-157",
-      "start": 31649,
-      "end": 31844
+      "start": 27519,
+      "end": 27714
     },
     {
       "id": "000028-158",
-      "start": 31861,
-      "end": 32227
+      "start": 27731,
+      "end": 28097
     },
     {
       "id": "000028-159",
-      "start": 32244,
-      "end": 32597
-    },
-    {
-      "id": "000028-160",
-      "start": 32614,
-      "end": 32962
+      "start": 28114,
+      "end": 28467
     },
     {
       "id": "000028-161",
-      "start": 32979,
-      "end": 33044
-    },
-    {
-      "id": "000028-162",
-      "start": 33061,
-      "end": 33141
+      "start": 28484,
+      "end": 28549
     },
     {
       "id": "000028-163",
-      "start": 33158,
-      "end": 33224
+      "start": 28566,
+      "end": 28632
     },
     {
       "id": "000028-164",
-      "start": 33241,
-      "end": 33411
+      "start": 28649,
+      "end": 28819
     },
     {
       "id": "000028-165",
-      "start": 33428,
-      "end": 33612
+      "start": 28836,
+      "end": 29020
     },
     {
       "id": "000028-166",
-      "start": 33629,
-      "end": 33797
+      "start": 29037,
+      "end": 29205
     },
     {
       "id": "000028-167",
-      "start": 33814,
-      "end": 34021
+      "start": 29222,
+      "end": 29429
     },
     {
       "id": "000028-168",
-      "start": 34038,
-      "end": 34203
+      "start": 29446,
+      "end": 29611
     },
     {
       "id": "000028-169",
-      "start": 34220,
-      "end": 34599
+      "start": 29628,
+      "end": 30007
     },
     {
       "id": "000028-170",
-      "start": 34616,
-      "end": 34995
+      "start": 30024,
+      "end": 30403
     },
     {
       "id": "000028-171",
-      "start": 35012,
-      "end": 35081
+      "start": 30420,
+      "end": 30489
     },
     {
       "id": "000028-172",
-      "start": 35098,
-      "end": 35175
-    },
-    {
-      "id": "000028-173",
-      "start": 35192,
-      "end": 35254
+      "start": 30506,
+      "end": 30583
     },
     {
       "id": "000028-174",
-      "start": 35271,
-      "end": 35455
+      "start": 30600,
+      "end": 30784
     },
     {
       "id": "000028-175",
-      "start": 35472,
-      "end": 35656
-    },
-    {
-      "id": "000028-176",
-      "start": 35673,
-      "end": 35850
-    },
-    {
-      "id": "000028-177",
-      "start": 35867,
-      "end": 36032
+      "start": 30801,
+      "end": 30985
     },
     {
       "id": "000028-178",
-      "start": 36049,
-      "end": 36254
+      "start": 31002,
+      "end": 31207
     },
     {
       "id": "000028-179",
-      "start": 36271,
-      "end": 36644
-    },
-    {
-      "id": "000028-180",
-      "start": 36661,
-      "end": 36982
+      "start": 31224,
+      "end": 31597
     },
     {
       "id": "000028-181",
-      "start": 36999,
-      "end": 37068
+      "start": 31614,
+      "end": 31683
     },
     {
       "id": "000028-182",
-      "start": 37085,
-      "end": 37154
+      "start": 31700,
+      "end": 31769
     },
     {
       "id": "000028-183",
-      "start": 37171,
-      "end": 37329
+      "start": 31786,
+      "end": 31944
     },
     {
       "id": "000028-184",
-      "start": 37346,
-      "end": 37527
+      "start": 31961,
+      "end": 32142
     },
     {
       "id": "000028-185",
-      "start": 37544,
-      "end": 37723
+      "start": 32159,
+      "end": 32338
     },
     {
       "id": "000028-186",
-      "start": 37740,
-      "end": 37905
+      "start": 32355,
+      "end": 32520
     },
     {
       "id": "000028-187",
-      "start": 37922,
-      "end": 38089
+      "start": 32537,
+      "end": 32704
     },
     {
       "id": "000028-188",
-      "start": 38106,
-      "end": 38481
+      "start": 32721,
+      "end": 33096
     },
     {
       "id": "000028-189",
-      "start": 38498,
-      "end": 38841
+      "start": 33113,
+      "end": 33456
     },
     {
       "id": "000028-190",
-      "start": 38858,
-      "end": 39175
-    },
-    {
-      "id": "000028-191",
-      "start": 39192,
-      "end": 39262
+      "start": 33473,
+      "end": 33790
     },
     {
       "id": "000028-192",
-      "start": 39279,
-      "end": 39344
-    },
-    {
-      "id": "000028-193",
-      "start": 39361,
-      "end": 39536
+      "start": 33807,
+      "end": 33872
     },
     {
       "id": "000028-194",
-      "start": 39553,
-      "end": 39733
+      "start": 33889,
+      "end": 34069
     },
     {
       "id": "000028-195",
-      "start": 39750,
-      "end": 39920
+      "start": 34086,
+      "end": 34256
     },
     {
       "id": "000028-196",
-      "start": 39937,
-      "end": 40104
+      "start": 34273,
+      "end": 34440
     },
     {
       "id": "000028-197",
-      "start": 40121,
-      "end": 40297
-    },
-    {
-      "id": "000028-198",
-      "start": 40314,
-      "end": 40693
+      "start": 34457,
+      "end": 34633
     },
     {
       "id": "000028-199",
-      "start": 40710,
-      "end": 41035
+      "start": 34650,
+      "end": 34975
     },
     {
       "id": "000028-200",
-      "start": 41052,
-      "end": 41414
-    },
-    {
-      "id": "000028-201",
-      "start": 41431,
-      "end": 41498
+      "start": 34992,
+      "end": 35354
     },
     {
       "id": "000028-202",
-      "start": 41515,
-      "end": 41581
-    },
-    {
-      "id": "000028-203",
-      "start": 41598,
-      "end": 41678
+      "start": 35371,
+      "end": 35437
     },
     {
       "id": "000028-204",
-      "start": 41695,
-      "end": 41879
+      "start": 35454,
+      "end": 35638
     },
     {
       "id": "000028-205",
-      "start": 41896,
-      "end": 42082
+      "start": 35655,
+      "end": 35841
     },
     {
       "id": "000028-206",
-      "start": 42099,
-      "end": 42282
+      "start": 35858,
+      "end": 36041
     },
     {
       "id": "000028-207",
-      "start": 42299,
-      "end": 42475
+      "start": 36058,
+      "end": 36234
     },
     {
       "id": "000028-208",
-      "start": 42492,
-      "end": 42679
+      "start": 36251,
+      "end": 36438
     },
     {
       "id": "000028-209",
-      "start": 42696,
-      "end": 43072
+      "start": 36455,
+      "end": 36831
     },
     {
       "id": "000028-210",
-      "start": 43089,
-      "end": 43495
-    },
-    {
-      "id": "000028-211",
-      "start": 43512,
-      "end": 43589
-    },
-    {
-      "id": "000028-212",
-      "start": 43606,
-      "end": 43670
+      "start": 36848,
+      "end": 37254
     },
     {
       "id": "000028-213",
-      "start": 43687,
-      "end": 43767
+      "start": 37271,
+      "end": 37351
     },
     {
       "id": "000028-214",
-      "start": 43784,
-      "end": 43983
+      "start": 37368,
+      "end": 37567
     },
     {
       "id": "000028-215",
-      "start": 44000,
-      "end": 44193
-    },
-    {
-      "id": "000028-216",
-      "start": 44210,
-      "end": 44407
+      "start": 37584,
+      "end": 37777
     },
     {
       "id": "000028-217",
-      "start": 44424,
-      "end": 44616
-    },
-    {
-      "id": "000028-218",
-      "start": 44633,
-      "end": 44815
+      "start": 37794,
+      "end": 37986
     },
     {
       "id": "000028-219",
-      "start": 44832,
-      "end": 45200
+      "start": 38003,
+      "end": 38371
     },
     {
       "id": "000028-220",
-      "start": 45217,
-      "end": 45608
+      "start": 38388,
+      "end": 38779
     },
     {
       "id": "000028-221",
-      "start": 45625,
-      "end": 45696
+      "start": 38796,
+      "end": 38867
     },
     {
       "id": "000028-222",
-      "start": 45713,
-      "end": 45776
+      "start": 38884,
+      "end": 38947
     },
     {
       "id": "000028-223",
-      "start": 45793,
-      "end": 45978
+      "start": 38964,
+      "end": 39149
     },
     {
       "id": "000028-224",
-      "start": 45995,
-      "end": 46191
+      "start": 39166,
+      "end": 39362
     },
     {
       "id": "000028-225",
-      "start": 46208,
-      "end": 46385
+      "start": 39379,
+      "end": 39556
     },
     {
       "id": "000028-226",
-      "start": 46402,
-      "end": 46573
+      "start": 39573,
+      "end": 39744
     },
     {
       "id": "000028-227",
-      "start": 46590,
-      "end": 46762
+      "start": 39761,
+      "end": 39933
     },
     {
       "id": "000028-228",
-      "start": 46779,
-      "end": 47174
+      "start": 39950,
+      "end": 40345
     },
     {
       "id": "000028-229",
-      "start": 47191,
-      "end": 47546
+      "start": 40362,
+      "end": 40717
     },
     {
       "id": "000028-230",
-      "start": 47563,
-      "end": 47919
+      "start": 40734,
+      "end": 41090
     },
     {
       "id": "000028-231",
-      "start": 47936,
-      "end": 47996
-    },
-    {
-      "id": "000028-232",
-      "start": 48013,
-      "end": 48067
+      "start": 41107,
+      "end": 41167
     },
     {
       "id": "000028-233",
-      "start": 48084,
-      "end": 48261
+      "start": 41184,
+      "end": 41361
     },
     {
       "id": "000028-234",
-      "start": 48278,
-      "end": 48467
+      "start": 41378,
+      "end": 41567
     },
     {
       "id": "000028-235",
-      "start": 48484,
-      "end": 48659
+      "start": 41584,
+      "end": 41759
     },
     {
       "id": "000028-236",
-      "start": 48676,
-      "end": 48881
+      "start": 41776,
+      "end": 41981
     },
     {
       "id": "000028-237",
-      "start": 48898,
-      "end": 49121
+      "start": 41998,
+      "end": 42221
     },
     {
       "id": "000028-238",
-      "start": 49138,
-      "end": 49512
-    },
-    {
-      "id": "000028-239",
-      "start": 49529,
-      "end": 49887
+      "start": 42238,
+      "end": 42612
     },
     {
       "id": "000028-240",
-      "start": 49904,
-      "end": 50299
+      "start": 42629,
+      "end": 43024
     }
   ],
   "labels": [
@@ -1226,14 +1026,6 @@
       "expected": true,
       "snippets": [
         "Nobody needs another dashboard. Engineers need the confidence to act."
-      ]
-    },
-    {
-      "id": "000028-003",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": true,
-      "snippets": [
-        "Our release process is less about shipping code and more about earning trust."
       ]
     },
     {
@@ -1349,14 +1141,6 @@
       ]
     },
     {
-      "id": "000028-022",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": true,
-      "snippets": [
-        "the ruined firing means neither shame nor defeat, only growth"
-      ]
-    },
-    {
       "id": "000028-023",
       "check": "staged-contrasts/staged-opposition",
       "expected": true,
@@ -1415,22 +1199,7 @@
       ]
     },
     {
-      "id": "000028-031",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-032",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-033",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-034",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -1456,11 +1225,6 @@
     },
     {
       "id": "000028-039",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-040",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -1545,16 +1309,6 @@
       "expected": false
     },
     {
-      "id": "000028-052",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-053",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-054",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
@@ -1566,16 +1320,6 @@
     },
     {
       "id": "000028-056",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-057",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-058",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -1672,27 +1416,12 @@
       "expected": false
     },
     {
-      "id": "000028-072",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-073",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
     {
-      "id": "000028-074",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-075",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-076",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -1708,11 +1437,6 @@
     },
     {
       "id": "000028-079",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-080",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -1829,17 +1553,7 @@
       "expected": false
     },
     {
-      "id": "000028-098",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-099",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-100",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -1849,14 +1563,6 @@
       "expected": true,
       "snippets": [
         "It wasn't rain against the windows. It was the sound of possibility arriving."
-      ]
-    },
-    {
-      "id": "000028-102",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": true,
-      "snippets": [
-        "Mara felt less like a passenger than a participant in destiny."
       ]
     },
     {
@@ -1930,11 +1636,6 @@
       "expected": false
     },
     {
-      "id": "000028-112",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-113",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
@@ -1946,11 +1647,6 @@
     },
     {
       "id": "000028-115",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-116",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -2075,16 +1771,6 @@
       "expected": false
     },
     {
-      "id": "000028-136",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-137",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-138",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
@@ -2186,22 +1872,12 @@
       "expected": false
     },
     {
-      "id": "000028-153",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-154",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
     {
       "id": "000028-155",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-156",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -2221,24 +1897,11 @@
       "expected": false
     },
     {
-      "id": "000028-160",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-161",
       "check": "staged-contrasts/staged-opposition",
       "expected": true,
       "snippets": [
         "A classroom isn't a room of desks. It's a promise to every child."
-      ]
-    },
-    {
-      "id": "000028-162",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": true,
-      "snippets": [
-        "Homework should be less about compliance and more about discovering possibility."
       ]
     },
     {
@@ -2308,11 +1971,6 @@
       "expected": false
     },
     {
-      "id": "000028-173",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-174",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
@@ -2323,27 +1981,12 @@
       "expected": false
     },
     {
-      "id": "000028-176",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-177",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-178",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
     {
       "id": "000028-179",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-180",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -2426,17 +2069,7 @@
       ]
     },
     {
-      "id": "000028-191",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-192",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-193",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -2461,11 +2094,6 @@
       "expected": false
     },
     {
-      "id": "000028-198",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-199",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
@@ -2476,27 +2104,11 @@
       "expected": false
     },
     {
-      "id": "000028-201",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": true,
-      "snippets": [
-        "A gallery is more than walls; it is less enclosure than invitation."
-      ]
-    },
-    {
       "id": "000028-202",
       "check": "staged-contrasts/staged-opposition",
       "expected": true,
       "snippets": [
         "The pianist wasn't pressing keys. The room was learning to listen."
-      ]
-    },
-    {
-      "id": "000028-203",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": true,
-      "snippets": [
-        "The cracked vase wasn't ruined work; it was beauty discovering another language."
       ]
     },
     {
@@ -2550,16 +2162,6 @@
       "expected": false
     },
     {
-      "id": "000028-211",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-212",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-213",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
@@ -2575,17 +2177,7 @@
       "expected": false
     },
     {
-      "id": "000028-216",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-217",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-218",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },
@@ -2679,11 +2271,6 @@
       "expected": false
     },
     {
-      "id": "000028-232",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
       "id": "000028-233",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
@@ -2710,11 +2297,6 @@
     },
     {
       "id": "000028-238",
-      "check": "staged-contrasts/staged-opposition",
-      "expected": false
-    },
-    {
-      "id": "000028-239",
       "check": "staged-contrasts/staged-opposition",
       "expected": false
     },

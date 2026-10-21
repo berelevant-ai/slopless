@@ -9,7 +9,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 - Unsupported authority is reviewed through development and the frozen holdout assessment. Vague attribution catches 100 holdout hits with five false positives; prestige padding catches 99 with 23 false positives. Preserve that transfer failure. Next family: staged contrasts, using `prompts/v12/` after this assessment commit.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 - Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
-- Staged-opposition development has a reviewed balanced 100/100 subset retaining all 27 mandatory cases. The complete corrected pool is archived at `bfb57f52`; its 40 surplus passages remain there. The 683-word baseline is under independent prompt review while seven protected holdout overlap repairs complete their review and clearance gates.
+- Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. The reviewed 683-word baseline is frozen. Next: run development `b0` and complete bounded tuning before the separate holdout assessment.
 
 ## Execution Order
 

@@ -17,6 +17,6 @@
 - `v11/` covers consolidated unsupported authority. Prestige padding selects `prestige-r4` at 99/100 development hits and three false positives; vague attribution selects `vague-r1` at 99/100 and four false positives. The [development report](../runners/results/unsupported-authority-v11-development-tuning.md) records every trial, direct example exposure, and remaining errors; the adjacent JSON preserves the frozen selection and predictions.
 - The [v11 holdout assessment](../runners/results/unsupported-authority-v11-holdout.md) records vague attribution at 100/100 hits with five false positives and prestige padding at 99/100 with 23 false positives. Prestige requires a fresh tuning and holdout round before deployment.
 
-- `v12/` contains the staged-opposition baseline and unchanged shared instructions. The assembled prompt is 683 words, with four hit and four no-hit development demonstrations. Independent prompt review and protected holdout repair precede the first development trial.
+- `v12/` contains the independently reviewed staged-opposition baseline and unchanged shared instructions. The assembled prompt is 683 words, with four hit and four no-hit development demonstrations. Both labeled splits and source-overlap clearance are frozen before the first development trial.
 
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.
