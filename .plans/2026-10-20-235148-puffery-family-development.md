@@ -6,10 +6,10 @@ Complete the next three families in order: unsupported authority, staged contras
 
 Puffery and overstatement is complete through isolated development and holdout classification; its results remain below. Execution of the three-family extension started on 2026-10-21 at the user's request.
 
-- Unsupported authority is reviewed through development and the frozen holdout assessment. Vague attribution catches 100 holdout hits with five false positives; prestige padding catches 99 with 23 false positives. Preserve that transfer failure. Next family: staged contrasts, using `prompts/v12/` after this assessment commit.
+- Unsupported authority is reviewed through development and the frozen holdout assessment. Vague attribution catches 100 holdout hits with five false positives; prestige padding catches 99 with 23 false positives. Preserve that transfer failure.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 - Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
-- Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. The selected explicit-criteria request catches 96 hits with two false positives; canonical runner equivalence and final review pass, with its one-shot holdout assessment next.
+- Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. Its reviewed frozen assessment catches 96 development hits with two false positives and 89 holdout hits with ten false positives. Next: boilerplate and signposting in `prompts/v13/` after this assessment commit.
 
 ## Execution Order
 
