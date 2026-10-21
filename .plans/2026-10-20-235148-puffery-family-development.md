@@ -238,7 +238,7 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 4. Score all 100 development hits and all 100 development no-hits. Inspect every missed hit and false positive in its complete passage; revise the general decision boundary rather than adding passage-specific exceptions.
 5. Use a proposed development gate of at least 95 caught hits and at most five false positives per 100. Plan three revisions per type, with a maximum of six revisions after baseline to limit repeated fitting to the same examples.
 6. Any qualifying candidate outranks every nonqualifying candidate. Within each group, rank by fewest total errors, then more caught hits, then the earlier revision; compare new candidates with the best recorded candidate.
-7. Stop tuning that check at 100 caught and zero false positives, after two successive revisions fail to improve that best-so-far result, or at the revision limit. Reset this two-revision counter only on an improvement; ties retain the earlier candidate.
+7. Stop tuning when a candidate meets both fixed acceptance bounds. While no candidate qualifies, stop a prompt round after two successive revisions fail to improve the best result or at the revision limit; reset that counter only on improvement, with ties retaining the earlier candidate.
 8. When no candidate meets both thresholds, preserve the best observed revision and report the failed round. Record and justify the next development round, keep the holdout sealed, and resolve the failed gate before advancing the family.
 
 - Freeze labels before tuning. A newly discovered label defect requires independent correction and offline rescoring of every saved candidate on the same corrected set; preserve the original scores and record that change separately from detector improvement.
@@ -252,7 +252,7 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 - Update `.plans/2026-10-20-125402-v2-rule-taxonomy.md` with consolidated definitions and progress; keep this file as the execution plan.
 - Store dataset pairs in `datasets/ai-synthetic/passages/` or `texts/` according to declared input, using `<six-digit-id>-<family>-<type>-<development-or-holdout>.md` and matching `.labels.json`.
 - Keep IDs globally unique. Update the existing `datasets/README.md` index rather than adding a catalog.
-- Save one compact review record per collection under `runners/results/`, following the existing `<type>-<split>-opus-review.json` convention.
+- Save one compact review record per collection under `runners/results/`. Existing Opus-only records retain `<type>-<split>-opus-review.json`; mixed or Codex reviews use `<type>-<split>-review.json` and identify their reviewers explicitly.
 - Use collection ID, split, and pass in temporary generation and review filenames. Retain distinct responses until hashes, final snippets, and adjudications are verified.
 - Keep new prompts in `prompts/v11/`, `v12/`, and `v13/` in the stated family order. Keep execution in existing `runners/`, with family or check development trial results, a concise family development report, immutable check holdout results, and one family holdout report.
 - Record worklogs and commit/push completed milestones on `main`, preserving unrelated changes. Keep production detection and published packages unchanged during this task.

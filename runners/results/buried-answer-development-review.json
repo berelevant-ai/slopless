@@ -1,0 +1,3527 @@
+{
+  "collection": "000031",
+  "family": "boilerplate-and-signposting",
+  "check": "buried-answer",
+  "input": "text",
+  "split": "development",
+  "stage": "reconciled-240-awaiting-independent-final-Codex-review",
+  "definitionCommit": "d12ff193a4890ba0cd83bd7ceaac993f45ae4ad3",
+  "pilot": {
+    "readyPath": "/tmp/000031-development-pilot-ready-v1.json",
+    "readySha256": "a86a4ebf213d2dcd16d442c87463a4205001b6965431435f66248dc9378b90a9",
+    "markdown": "/tmp/000031-development-pilot-ready-v1.md",
+    "labels": "/tmp/000031-development-pilot-ready-v1.labels.json",
+    "textSha256": "a40ec31997bf99a88e38d39fe8e518edc93aa8f41778ada5f36f69ce5a0c85e6",
+    "counts": {
+      "texts": 6,
+      "hits": 3,
+      "noHits": 3
+    },
+    "inventory": [
+      {
+        "id": "000031-001",
+        "words": 369,
+        "stratum": "short",
+        "textSha256": "2e59062ac42a8279c2c8f8f216f12ef2edfb6dcf32ebca9f17cbff59f06a5e2f"
+      },
+      {
+        "id": "000031-002",
+        "words": 349,
+        "stratum": "short",
+        "textSha256": "0eaefd7ffeb3ae3a46d8f1e8dc01e2e2c8dc966c59601adf1fc348b2e8fbebc8"
+      },
+      {
+        "id": "000031-003",
+        "words": 575,
+        "stratum": "medium",
+        "textSha256": "44ae8018b3af16df31ed143d3ccef61d1430aa35ba46cdb3fdd29e26879d2f55"
+      },
+      {
+        "id": "000031-004",
+        "words": 582,
+        "stratum": "medium",
+        "textSha256": "4bacba56866e7530e7f31a7b97431bb7685531816301fa8c9dd568d0f92fdc0e"
+      },
+      {
+        "id": "000031-005",
+        "words": 897,
+        "stratum": "long",
+        "textSha256": "1a049fb2f52ae4bb1d3f3096a69763dc1406a600f7e6c19a226aae0060f272f9"
+      },
+      {
+        "id": "000031-006",
+        "words": 844,
+        "stratum": "long",
+        "textSha256": "939f2bc67ef84f2538f543632d6f0e893a50e3209a4a6620b953ef922387b9f2"
+      }
+    ],
+    "source": {
+      "name": "Synthetic pilot authored through authenticated Claude CLI",
+      "originalPath": "/tmp/000031-development-pilot-generation-v2.samples.json",
+      "commit": "d12ff193a4890ba0cd83bd7ceaac993f45ae4ad3",
+      "model": "claude-opus-5-5",
+      "prompt": "/tmp/000031-development-pilot-generation-v2.request.json",
+      "notes": "Fresh Claude generation call receiving only extracted frozen definition and development-only authoring brief. No repository, holdout, detector prompts, or tools. Generation method: original full-prose generation in one fresh tool-disabled Opus call; no text assembly or detector feedback."
+    },
+    "passes": [
+      {
+        "pass": "blind",
+        "reviewPath": "/tmp/000031-development-pilot-blind-v1.review.json",
+        "requestPath": "/tmp/000031-development-pilot-blind-v1.review.json.request.json",
+        "rawPath": "/tmp/000031-development-pilot-blind-v1.review.json.raw.json",
+        "aliasesPath": "/tmp/000031-development-pilot-blind-v1.aliases.json",
+        "reviewSha256": "0e567318202b322d273b38254239106bd6feef77d418ee078454731659fd2de3",
+        "sessionId": "6a7613c9-707a-4014-8200-910dbfb44423",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "texts": 6,
+        "disagreements": [],
+        "objections": [
+          {
+            "id": "000031-005",
+            "objection": "The 2022 local-history scope and the volunteer survey help explain the recommendation, so part of the run-up does count as relevant setup. The museum's founding history, the history of the format and the author's internship memoir add nothing to interpreting the answer, and they hold back the recommendation until the seventh paragraph."
+          },
+          {
+            "id": "000031-006",
+            "objection": "The recommendation appears only after three investigative sections. But the introduction says the order is deliberate, and each section (active growth, moisture source, materials) supplies causal reasoning the recommendation depends on. That makes the run-up necessary setup, not burial."
+          }
+        ],
+        "costUsd": 0.125824
+      },
+      {
+        "pass": "adversarial",
+        "reviewPath": "/tmp/000031-development-pilot-adversarial-v1.review.json",
+        "requestPath": "/tmp/000031-development-pilot-adversarial-v1.review.json.request.json",
+        "rawPath": "/tmp/000031-development-pilot-adversarial-v1.review.json.raw.json",
+        "aliasesPath": "/tmp/000031-development-pilot-adversarial-v1.aliases.json",
+        "reviewSha256": "8144715321e1247c97a5f5ace7113dd1eff5f67ef8989a032bb20f72c54e614f",
+        "sessionId": "7ecb5750-b013-4501-9b12-ce43711c8737",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "texts": 6,
+        "disagreements": [],
+        "objections": [
+          {
+            "id": "000031-004",
+            "objection": "One sentence in the run-up matters: the checklist shows as complete but still isn't enough. The Vault migration history, SOC 2 audit and inventory details don't help explain the answer, and the opening 'short version' only teases it."
+          },
+          {
+            "id": "000031-006",
+            "objection": "The recommendation comes near the end, but each earlier section is reasoning the decision depends on: whether the growth is active, where the moisture comes from, and what the models are made of. The introduction says why the report is ordered this way. Another reading is that a decision report should put its recommendation first, but where the answer sits doesn't count as a defect under this definition."
+          },
+          {
+            "id": "000031-005",
+            "objection": "Some of the run-up is relevant: the volunteer survey method, and possibly the note that hand-colored slides are prized. The museum's founding history, the author's internship memories and the tour of the collections-plan process don't help explain the recommendation, which the title promises but holds back until about the seventh paragraph."
+          }
+        ],
+        "costUsd": 0.1424
+      },
+      {
+        "pass": "final",
+        "reviewPath": "/tmp/000031-development-pilot-final-v1.review.json",
+        "requestPath": "/tmp/000031-development-pilot-final-v1.review.json.request.json",
+        "rawPath": "/tmp/000031-development-pilot-final-v1.review.json.raw.json",
+        "aliasesPath": "/tmp/000031-development-pilot-final-v1.aliases.json",
+        "reviewSha256": "0b1b4b5389ed6540eca5873088f401ec43907f7340b890660d388a2dc1fc128c",
+        "sessionId": "2c8080f1-6f32-4556-8a91-75f7eec85c95",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "texts": 6,
+        "disagreements": [],
+        "objections": [],
+        "costUsd": 0.16989739999999998
+      }
+    ],
+    "adjudications": [
+      {
+        "ids": [
+          "000031-004",
+          "000031-005"
+        ],
+        "decision": "Retain hits. Relevant checklist or survey information coexists with removable migration, institutional, autobiographical, and planning-process history. The operative answer remains delayed behind that material; necessary setup elsewhere does not erase the defect."
+      },
+      {
+        "ids": [
+          "000031-006"
+        ],
+        "decision": "Retain no-hit. Active growth, the moisture source, and vulnerable model materials determine isolation, cleaning, case modification, and handling. This causal contribution supports the later recommendation independently of the introduction announcing its order."
+      }
+    ],
+    "labelChanges": 0,
+    "textChanges": 0,
+    "mechanical": {
+      "reader": "passed",
+      "checksum": "passed",
+      "ranges": "passed",
+      "snippets": "passed",
+      "ascii": "passed",
+      "onePhysicalLinePerParagraph": "passed",
+      "inlineDefectAnnotations": "absent"
+    },
+    "unresolvedMaterialObjections": 0,
+    "parentReview": "Parent read all six texts and labels, accepted realism and classification, and authorized expansion. All six are mandatory."
+  },
+  "mandatoryIDs": [
+    "000031-001",
+    "000031-002",
+    "000031-003",
+    "000031-004",
+    "000031-005",
+    "000031-006",
+    "000031-007",
+    "000031-009",
+    "000031-013",
+    "000031-014",
+    "000031-020",
+    "000031-022",
+    "000031-023",
+    "000031-024",
+    "000031-029",
+    "000031-031",
+    "000031-033",
+    "000031-039",
+    "000031-040",
+    "000031-042",
+    "000031-049",
+    "000031-052",
+    "000031-053",
+    "000031-054",
+    "000031-059",
+    "000031-060",
+    "000031-062",
+    "000031-063",
+    "000031-064",
+    "000031-069",
+    "000031-071",
+    "000031-073",
+    "000031-074",
+    "000031-075",
+    "000031-079",
+    "000031-080",
+    "000031-082",
+    "000031-085",
+    "000031-089",
+    "000031-091",
+    "000031-093",
+    "000031-098",
+    "000031-100",
+    "000031-103",
+    "000031-104",
+    "000031-107",
+    "000031-109",
+    "000031-111",
+    "000031-113",
+    "000031-120",
+    "000031-123",
+    "000031-124",
+    "000031-126",
+    "000031-127",
+    "000031-129",
+    "000031-131",
+    "000031-133",
+    "000031-134",
+    "000031-138",
+    "000031-140",
+    "000031-143",
+    "000031-144",
+    "000031-150",
+    "000031-159",
+    "000031-160",
+    "000031-164",
+    "000031-171",
+    "000031-179",
+    "000031-180",
+    "000031-211",
+    "000031-219"
+  ],
+  "mandatoryReason": "Parent-approved pilot seeds; 004, 005, and 006 also preserve sound adjudicated boundaries raised during blind or adversarial review.",
+  "generationAttempts": [
+    {
+      "request": "/tmp/000031-development-pilot-generation-v1.request.json",
+      "error": "/tmp/000031-development-pilot-generation-v1.error.json",
+      "status": "timeout-no-envelope"
+    },
+    {
+      "request": "/tmp/000031-development-pilot-generation-v2.request.json",
+      "raw": "/tmp/000031-development-pilot-generation-v2.raw.json",
+      "samples": "/tmp/000031-development-pilot-generation-v2.samples.json",
+      "status": "completed",
+      "model": "claude-opus-5-5"
+    }
+  ],
+  "cliCalls": {
+    "generationAttempts": 41,
+    "generationCompleted": 38,
+    "generationTimedOut": 1,
+    "generationProviderRejected": 2,
+    "reviewAttempts": 19,
+    "reviewCompleted": 16,
+    "reviewProviderRejected": 2,
+    "reviewInvalidEnvelope": 1,
+    "totalInvocations": 60,
+    "unit": "Model-running Claude CLI invocations; provider-reported turns are retained per envelope."
+  },
+  "fullPool": {
+    "targetTexts": 240,
+    "targetHits": 120,
+    "targetNoHits": 120,
+    "targetPerClass": {
+      "short": 30,
+      "medium": 60,
+      "long": 30
+    },
+    "minimumDomains": 8,
+    "selection": "Full-pool selection remains pending; every available text and provisional label is preserved.",
+    "independentQA": "Parent-assigned full-pool classification, provenance and source/split overlap audit remains pending.",
+    "manifest": "/tmp/000031-development-fullpool-manifest-v1.json",
+    "privateRoot": "/tmp/000031-development-fullpool-y7AZzD",
+    "complete": false,
+    "counts": {
+      "texts": 240,
+      "hits": 120,
+      "noHits": 120
+    },
+    "partial": {
+      "markdown": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md",
+      "labels": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.labels.json",
+      "textSha256": "873104306ea95f72f76b10cd7bfa1b04335ede50ef51489beecdf310a0c98058",
+      "labelsSha256": "f03750650f2b5c87eb199beebaaaa513abfddf5ba0f31a64cfca118ef234dd48",
+      "status": "complete authoring and author reconciliation; final review pending"
+    },
+    "missingIDs": [],
+    "generation": [
+      {
+        "batch": "01",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b01-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b01-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b01-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-007: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "7dec4769-91e7-4023-9796-28efb19613b1",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.43629640000000003,
+        "numTurns": 2,
+        "rawSha256": "c8dceec68e004cbb820f30081a5fa7858ce798c1016496bc697253ae26fbcf64"
+      },
+      {
+        "batch": "02",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b02-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b02-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b02-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "00d73a12-b106-4d4f-a0f6-cc442dad0e3e",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.3755204,
+        "numTurns": 2,
+        "rawSha256": "ad3a8d413b13cae01555d4f1a6af9164425b2e777b000f6b45414303f130cf44"
+      },
+      {
+        "batch": "03",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b03-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b03-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b03-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "38548837-51d9-41d2-be9f-1c44501f21ac",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.7929084000000002,
+        "numTurns": 2,
+        "rawSha256": "af5c3335acb12f025a80367783f157a14884b887febea42083a23d6f864b7d81"
+      },
+      {
+        "batch": "04",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b04-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b04-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b04-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-025: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "7cbf5bbb-292e-4875-8e6e-70917e51ae58",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.45050840000000003,
+        "numTurns": 2,
+        "rawSha256": "8ee8bb3a0333cbadb67d7db9d0d8a209299f2225e9e9df701869adf8644ebece"
+      },
+      {
+        "batch": "05",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b05-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b05-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b05-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "37981db8-0229-4537-89a2-361d0ed11d85",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.3792604,
+        "numTurns": 2,
+        "rawSha256": "bb972ae3d517efe01a1ad9e11a3e5715dacbff5aa0daf277ab1300c436eb21bc"
+      },
+      {
+        "batch": "06",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b06-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b06-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b06-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-040: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "af9051ad-e221-4387-9318-63b52515b129",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.7162964,
+        "numTurns": 2,
+        "rawSha256": "a69d094a52af7278174cc4eb62b9413898f6d119bdf581d86bbc377b409976fc"
+      },
+      {
+        "batch": "07",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b07-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b07-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b07-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "7236e707-5f76-4b63-ae34-9fe638d6a98e",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.37148840000000005,
+        "numTurns": 2,
+        "rawSha256": "bdad3671beaf25e9b8e45e40f3e48a52866550bc5cb7c3622cca98a52a674bb1"
+      },
+      {
+        "batch": "08",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b08-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b08-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b08-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "2983a34b-accd-496e-a53a-b0d0ba164923",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.33742439999999996,
+        "numTurns": 2,
+        "rawSha256": "f252f45b7d2598c7936772413984c29a3da5b331afe51ed9ae7e7c5873197f11"
+      },
+      {
+        "batch": "09",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b09-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b09-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b09-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "ec7436f4-4ae3-4443-a585-6fae6469958c",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.4400564,
+        "numTurns": 2,
+        "rawSha256": "e9e8a93ae99723f812b6b7c92f3c5e1c639290dcb35895e3ab017d05820a1b8c"
+      },
+      {
+        "batch": "10",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b10-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b10-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b10-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "3ee54e98-afe8-4c3f-8b28-ed27c2f31e46",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.5206604,
+        "numTurns": 2,
+        "rawSha256": "9f059229a695a9362a3e0c723410b805a102a467ee9eaccb188e7e373f6baf07"
+      },
+      {
+        "batch": "11",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b11-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b11-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b11-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "a11e198f-fd3e-4716-92c1-f6d117739c42",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.47764039999999996,
+        "numTurns": 2,
+        "rawSha256": "daac35bab53a3d9290064124161fdd9aea1cd13c3ada07a189ee87ed0c38d866"
+      },
+      {
+        "batch": "12",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b12-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b12-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b12-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "0fbadc00-f8d9-4f0b-89f1-7e4768aac67a",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.3535924,
+        "numTurns": 2,
+        "rawSha256": "b34b9f48dd21a8392d321ecfaf279b78d355200ba7f4d3b5953e2894acfc868b"
+      },
+      {
+        "batch": "13",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b13-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b13-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b13-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-082: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "e206fb42-4a41-44eb-ba02-510b73a9ce97",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.3813324,
+        "numTurns": 2,
+        "rawSha256": "d89e6e079873f98326b73cbda3e30fee30201a63509cec0c59f21374cf143784"
+      },
+      {
+        "batch": "14",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b14-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b14-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b14-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-086: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "fefeabff-7b8e-482f-b5ea-4f1595bb6f86",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.44665640000000006,
+        "numTurns": 2,
+        "rawSha256": "edccacc2114aba2b6aa41a60a5b0b6b9e33c1260d51430f688c4d29b603ecece"
+      },
+      {
+        "batch": "15",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b15-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b15-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b15-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "53d97e6b-1f8a-4ce4-9a6f-e3fbb864de70",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.4204924,
+        "numTurns": 2,
+        "rawSha256": "2193aa63c9c657ff428b3acad0069531ffe6ec4e23624aa461b1f289c1005b19"
+      },
+      {
+        "batch": "16",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b16-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b16-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b16-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "d3105699-4c8a-47b2-8cc6-69b22bc9e9b1",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.5067564,
+        "numTurns": 2,
+        "rawSha256": "b0621cd5129b69d76604476ea5c16f223e73ec566caa44bf181723e6d4489536"
+      },
+      {
+        "batch": "17",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b17-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b17-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b17-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "050fc680-1934-4980-9729-d4009e0d4be3",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.5084884,
+        "numTurns": 2,
+        "rawSha256": "ac821f7dfc6baf4c70f7bda04f6b55985e7a37929a86029ea491fa3b7527261f"
+      },
+      {
+        "batch": "18",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b18-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b18-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b18-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-110: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "88c1a443-5771-4865-90cb-87dfb84ff36d",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.47632440000000004,
+        "numTurns": 2,
+        "rawSha256": "4e7952634ba3c84467c9ffc6c3b5f1d4ae683dd5f61dbce4695f75728283dae1"
+      },
+      {
+        "batch": "19",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b19-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b19-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b19-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-120: 725 words outside 750-1000",
+        "apiErrorStatus": null,
+        "sessionId": "229c385c-958e-4e8c-9915-1c28adb6d4de",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.5466683999999999,
+        "numTurns": 2,
+        "rawSha256": "c9209e33fc91e26897c57ecf7a06dbe835251495f6aefc71c8e62f0df09c0e7a"
+      },
+      {
+        "batch": "20",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b20-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b20-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b20-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-123: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "36438832-d32b-41af-86c6-ad6c24770c84",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.4329804,
+        "numTurns": 2,
+        "rawSha256": "a977fb90d349601b1ea1aaf4bdd028d462eccaf18dec4dd87b9dbaa6a4e5079f"
+      },
+      {
+        "batch": "21",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b21-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b21-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b21-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "a55643e3-210c-4b7a-81a9-9eb44982f847",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.6298444,
+        "numTurns": 2,
+        "rawSha256": "619b8f5af82062b034bb842c6f217502d8dc9988e762a3c34debd715b524c6d1"
+      },
+      {
+        "batch": "22",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b22-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b22-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b22-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-137: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "dd4bb401-db97-4aed-b060-5ad2684725aa",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.42395240000000006,
+        "numTurns": 2,
+        "rawSha256": "1f2693428fb711bc7cc1fddecd9356cac2fb9bd25cb021b2d1e3a0299c6c3bd6"
+      },
+      {
+        "batch": "23",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b23-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b23-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b23-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "2f0450f7-5390-474d-b52e-15fb1783a74d",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.4321084,
+        "numTurns": 2,
+        "rawSha256": "49757005fa02d8475a9908b7a217092c4d6101d5b9e28a9a3a17e932f373c37c"
+      },
+      {
+        "batch": "24",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b24-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b24-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b24-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "76604c0f-e511-4a30-8cf0-efd7c2237a44",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.5579204,
+        "numTurns": 2,
+        "rawSha256": "8e8c85ebdfe6486239dd100630e0a7b98a73cdd200eb6b94cfee09e59dd2f183"
+      },
+      {
+        "batch": "25",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b25-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b25-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b25-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-151: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "8d5e1b15-a6d9-4748-8591-aa759b1314e4",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.3233124,
+        "numTurns": 2,
+        "rawSha256": "09299862183d3b50305b393b37997adb999ff61f8eb03b333c9d4e43f2095243"
+      },
+      {
+        "batch": "26",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b26-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b26-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b26-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-160: 745 words outside 750-1000",
+        "apiErrorStatus": null,
+        "sessionId": "a92dcc6b-4aa7-433d-abe3-4a4756404f22",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.4603764,
+        "numTurns": 2,
+        "rawSha256": "9be4b75f2e331c2950584af3e7fe7b95cc8ce168b2aaf82045544282f0006168"
+      },
+      {
+        "batch": "27",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b27-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b27-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b27-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "f92f1696-74e1-46f0-989a-1f30db22a887",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.6245963999999999,
+        "numTurns": 2,
+        "rawSha256": "5e0f7ef165a3e4183a8dd78d53d892493f391600940937c404992c38cd4ae234"
+      },
+      {
+        "batch": "28",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b28-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b28-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b28-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "0c05d616-e1d6-4349-90d7-f2e095672d37",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.4252524,
+        "numTurns": 2,
+        "rawSha256": "705701f4e06554f77d5ce16d85343336e33210fbd1788e43ea0419f250f30942"
+      },
+      {
+        "batch": "29",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b29-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b29-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b29-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "4a5ca2a2-94f3-4f5d-bb55-2e2ba5b9a88e",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.42290439999999996,
+        "numTurns": 2,
+        "rawSha256": "06a930252ab6a58a9b3eb74ab130edb548b823bd7ed544c2a3040a8c31e8fe78"
+      },
+      {
+        "batch": "30",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b30-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b30-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b30-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "6dabfdac-26de-4e1b-8fc1-0fd4c0b9cb0e",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.3529324,
+        "numTurns": 2,
+        "rawSha256": "c522c79e70635da83d3602025dbc8be18f2232ca9ead706659b3ac9d73dadd3a"
+      },
+      {
+        "batch": "31",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b31-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b31-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b31-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "803c529c-ef49-4f44-81a5-449de68fcb05",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.47822040000000005,
+        "numTurns": 2,
+        "rawSha256": "3612cba95dfcf5f1528ddd481f31aa9a1f65570540258e0df6f0b91f69dd8ebc"
+      },
+      {
+        "batch": "32",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b32-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b32-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b32-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "454cdce4-6d0d-4652-afbb-7ac8de861879",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.6124564,
+        "numTurns": 2,
+        "rawSha256": "00ef2c219ebc44aa925cd72bc68fd707021891f94620cbb8d2a5956a19be03b5"
+      },
+      {
+        "batch": "33",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b33-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b33-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b33-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "failed",
+        "wrapperError": "000031-203: wrapped paragraph",
+        "apiErrorStatus": null,
+        "sessionId": "bc744dbd-eb15-4460-a2d7-edfc6b1c3cf3",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.9906124,
+        "numTurns": 2,
+        "rawSha256": "9beb37ee7014cbaf5bf2ae11df36a4860154c11b879e6cd5a2eab2c3a4e4b1ab"
+      },
+      {
+        "batch": "34",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b34-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b34-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b34-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "98694837-d295-4ad0-808d-122b1b133d8b",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.3903404,
+        "numTurns": 2,
+        "rawSha256": "099c700432e63fec255dee1de9b6ce96ee52ffe4b4f366d506b6eeb942feef25"
+      },
+      {
+        "batch": "35",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b35-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b35-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b35-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "1aa02b95-a497-4c2e-b5c2-bf96c57dcbba",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.44208840000000005,
+        "numTurns": 2,
+        "rawSha256": "404111ea6294617bc6b476ddadeea25f7eadeaf5ae5b860c6659897f01aae9a4"
+      },
+      {
+        "batch": "36",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b36-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b36-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b36-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "a50e7e82-2904-4036-a2ca-f0ee4c8fe324",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.43119640000000004,
+        "numTurns": 2,
+        "rawSha256": "5660a126f4cf4442c3de8d334d3265f54f2610ab0553c9e4b10bf0af50450670"
+      },
+      {
+        "batch": "37",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b37-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b37-v1.raw.json",
+        "normalized": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b37-v1.samples.json",
+        "providerStatus": "returned",
+        "wrapperStatus": "completed",
+        "apiErrorStatus": null,
+        "sessionId": "8270e0fd-1959-4887-9a5f-f4629aca050e",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 1.1011124,
+        "numTurns": 2,
+        "rawSha256": "54828e79b0e48049172aa1adc86e2d018dc1783a01725f54706452e75f9f58e1"
+      },
+      {
+        "batch": "38",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b38-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b38-v1.raw.json",
+        "normalized": null,
+        "providerStatus": "rejected",
+        "wrapperStatus": "failed",
+        "wrapperError": "Claude generation failed\n\n1 !== 0\n",
+        "apiError": "usage_limit_reached",
+        "apiErrorStatus": 429,
+        "sessionId": "344fec81-f160-4160-9fab-e308ad8e2303",
+        "models": [],
+        "costUsd": 0,
+        "numTurns": 1,
+        "rawSha256": "39fe7c84e308604910d77bdcd56277f901fe9b24e13b5ed629ff1d83d1f52ceb"
+      },
+      {
+        "batch": "39",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b39-v1.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b39-v1.raw.json",
+        "normalized": null,
+        "providerStatus": "rejected",
+        "wrapperStatus": "failed",
+        "wrapperError": "Claude generation failed\n\n1 !== 0\n",
+        "apiError": "usage_limit_reached",
+        "apiErrorStatus": 429,
+        "sessionId": "c4fc7c03-13fe-4cc1-aa54-94e42b660176",
+        "models": [],
+        "costUsd": 0,
+        "numTurns": 1,
+        "rawSha256": "3e9e9510179004259d54ae99bfd7a63d758dc6692ac09cbe9a4654169ae2a04e"
+      }
+    ],
+    "reviewAttempts": [
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b01-v1-retry1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b01-v1-retry1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b01-v1-retry1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b01-v1-retry1.aliases.json",
+        "status": "completed",
+        "sessionId": "c5fd6a12-a341-4e46-a927-392d3980a301",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.256888,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "a1b66f2dd5fb661029f100566142adb490044a480c0da4c6d6dae81ac4b7bd2b",
+        "currentTextIDs": [
+          "000031-005",
+          "000031-007",
+          "000031-018",
+          "000031-012",
+          "000031-020",
+          "000031-016",
+          "000031-008",
+          "000031-009",
+          "000031-001",
+          "000031-002",
+          "000031-010",
+          "000031-015",
+          "000031-017",
+          "000031-004",
+          "000031-011",
+          "000031-019",
+          "000031-006",
+          "000031-014",
+          "000031-003"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-007",
+          "000031-020",
+          "000031-009",
+          "000031-006",
+          "000031-014"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-005",
+          "000031-007",
+          "000031-018",
+          "000031-012",
+          "000031-020",
+          "000031-016",
+          "000031-008",
+          "000031-009",
+          "000031-001",
+          "000031-002",
+          "000031-010",
+          "000031-015",
+          "000031-013",
+          "000031-017",
+          "000031-004",
+          "000031-011",
+          "000031-019",
+          "000031-006",
+          "000031-014",
+          "000031-003"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b01-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b01-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b01-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b01-v1.aliases.json",
+        "status": "invalid-envelope",
+        "sessionId": "60c55f6e-e59d-4de6-8e69-2a86283022dd",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.294536,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "8c0a55391e46ea0b1def820dfe574be14a27c5aed211117a6ae90b5b1a74e7da"
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b02-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b02-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b02-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b02-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "e444a0df-a8d5-419a-981a-b9cf55b3c631",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.278848,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "64a0a06da1787b49416b180d2b63d6393979340cbbb7864342946a9a327fbf0d",
+        "currentTextIDs": [
+          "000031-032",
+          "000031-035",
+          "000031-024",
+          "000031-038",
+          "000031-022",
+          "000031-034",
+          "000031-026",
+          "000031-037",
+          "000031-025",
+          "000031-028",
+          "000031-023",
+          "000031-029",
+          "000031-036",
+          "000031-021",
+          "000031-027",
+          "000031-039",
+          "000031-040",
+          "000031-033",
+          "000031-030"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-024",
+          "000031-022",
+          "000031-031",
+          "000031-023",
+          "000031-029",
+          "000031-039",
+          "000031-040",
+          "000031-033"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-032",
+          "000031-035",
+          "000031-024",
+          "000031-038",
+          "000031-022",
+          "000031-031",
+          "000031-034",
+          "000031-026",
+          "000031-037",
+          "000031-025",
+          "000031-028",
+          "000031-023",
+          "000031-029",
+          "000031-036",
+          "000031-021",
+          "000031-027",
+          "000031-039",
+          "000031-040",
+          "000031-033",
+          "000031-030"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b03-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b03-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b03-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b03-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "d896a88a-d9f7-4562-953e-55639c7fc30f",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.300308,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "c8e191f30ddc41f49483ada32a1323d2d3730441b4c06ba53fe945c0e7b1b81d",
+        "currentTextIDs": [
+          "000031-044",
+          "000031-054",
+          "000031-051",
+          "000031-055",
+          "000031-042",
+          "000031-043",
+          "000031-058",
+          "000031-047",
+          "000031-056",
+          "000031-060",
+          "000031-057",
+          "000031-046",
+          "000031-048",
+          "000031-041",
+          "000031-049",
+          "000031-050",
+          "000031-045",
+          "000031-059"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-054",
+          "000031-042",
+          "000031-060",
+          "000031-049",
+          "000031-059"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-044",
+          "000031-054",
+          "000031-051",
+          "000031-055",
+          "000031-042",
+          "000031-043",
+          "000031-052",
+          "000031-058",
+          "000031-047",
+          "000031-056",
+          "000031-060",
+          "000031-057",
+          "000031-046",
+          "000031-048",
+          "000031-041",
+          "000031-049",
+          "000031-050",
+          "000031-045",
+          "000031-059"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b04-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b04-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b04-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b04-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "36f3cdd5-871e-48d5-9513-9c5a520d7bc3",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.30835999999999997,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "340f8a0ae10f79248a9c55ff4a51596f4bc6feb9dd1cc27fdaa71cbce3545512",
+        "currentTextIDs": [
+          "000031-074",
+          "000031-080",
+          "000031-078",
+          "000031-063",
+          "000031-072",
+          "000031-076",
+          "000031-077",
+          "000031-075",
+          "000031-073",
+          "000031-062",
+          "000031-065",
+          "000031-070",
+          "000031-066",
+          "000031-069",
+          "000031-067",
+          "000031-068",
+          "000031-061"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-074",
+          "000031-080",
+          "000031-063",
+          "000031-075",
+          "000031-073",
+          "000031-062",
+          "000031-064",
+          "000031-069"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-074",
+          "000031-080",
+          "000031-078",
+          "000031-063",
+          "000031-072",
+          "000031-076",
+          "000031-079",
+          "000031-077",
+          "000031-075",
+          "000031-073",
+          "000031-062",
+          "000031-065",
+          "000031-064",
+          "000031-070",
+          "000031-066",
+          "000031-069",
+          "000031-067",
+          "000031-068",
+          "000031-061"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b05-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b05-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b05-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b05-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "bb4921d2-565a-4804-b476-b5966369072a",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.320092,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "125817246bf6ac40a55ab26e3f53161d5f02b73c4d57b5adc6159fe2c7c945cf",
+        "currentTextIDs": [
+          "000031-087",
+          "000031-098",
+          "000031-096",
+          "000031-100",
+          "000031-099",
+          "000031-083",
+          "000031-084",
+          "000031-094",
+          "000031-082",
+          "000031-089",
+          "000031-081",
+          "000031-097",
+          "000031-086",
+          "000031-088",
+          "000031-095",
+          "000031-092",
+          "000031-090"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-098",
+          "000031-100",
+          "000031-082",
+          "000031-089"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-087",
+          "000031-098",
+          "000031-096",
+          "000031-100",
+          "000031-099",
+          "000031-085",
+          "000031-083",
+          "000031-084",
+          "000031-094",
+          "000031-082",
+          "000031-089",
+          "000031-081",
+          "000031-097",
+          "000031-086",
+          "000031-088",
+          "000031-093",
+          "000031-095",
+          "000031-092",
+          "000031-090"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b06-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b06-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b06-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b06-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "caff3003-6ff1-4921-b0e1-4f5ab9805bb4",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.310736,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "80f5b145c1fbc2a5760cd5c1992ebe23b578970212634f31cda3a32b2db3bc46",
+        "currentTextIDs": [
+          "000031-106",
+          "000031-109",
+          "000031-102",
+          "000031-112",
+          "000031-119",
+          "000031-101",
+          "000031-120",
+          "000031-116",
+          "000031-110",
+          "000031-111",
+          "000031-114",
+          "000031-105",
+          "000031-108",
+          "000031-107",
+          "000031-104",
+          "000031-118",
+          "000031-115",
+          "000031-117"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-109",
+          "000031-120",
+          "000031-111",
+          "000031-107"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-106",
+          "000031-109",
+          "000031-102",
+          "000031-112",
+          "000031-119",
+          "000031-101",
+          "000031-120",
+          "000031-116",
+          "000031-110",
+          "000031-111",
+          "000031-114",
+          "000031-113",
+          "000031-105",
+          "000031-108",
+          "000031-107",
+          "000031-104",
+          "000031-118",
+          "000031-115",
+          "000031-117"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b07-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b07-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b07-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b07-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "90feef56-e2a4-48c4-a331-c17d75ce58d8",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.331048,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "b300029d16ae177eb213a90a5c83bf1bba19f8814b42afba3be7e31adf76da9e",
+        "currentTextIDs": [
+          "000031-139",
+          "000031-122",
+          "000031-128",
+          "000031-130",
+          "000031-137",
+          "000031-125",
+          "000031-123",
+          "000031-127",
+          "000031-136",
+          "000031-140",
+          "000031-124",
+          "000031-138",
+          "000031-126",
+          "000031-121",
+          "000031-135",
+          "000031-131",
+          "000031-134",
+          "000031-129",
+          "000031-132"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-123",
+          "000031-127",
+          "000031-140",
+          "000031-124",
+          "000031-138",
+          "000031-126",
+          "000031-131",
+          "000031-134",
+          "000031-129"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-139",
+          "000031-122",
+          "000031-128",
+          "000031-130",
+          "000031-137",
+          "000031-125",
+          "000031-123",
+          "000031-127",
+          "000031-136",
+          "000031-140",
+          "000031-124",
+          "000031-138",
+          "000031-126",
+          "000031-121",
+          "000031-135",
+          "000031-131",
+          "000031-134",
+          "000031-129",
+          "000031-132"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b08-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b08-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b08-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b08-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "2d4d149f-77fa-41df-a719-bc7f88437d9a",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.272992,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "19ce706bfd3de7a9a0e9fb6fbf5e4c4053c99a8c88ab0548cef4e93c1eec547c",
+        "currentTextIDs": [
+          "000031-142",
+          "000031-156",
+          "000031-147",
+          "000031-144",
+          "000031-158",
+          "000031-159",
+          "000031-151",
+          "000031-143",
+          "000031-160",
+          "000031-146",
+          "000031-153",
+          "000031-152",
+          "000031-149",
+          "000031-150",
+          "000031-157",
+          "000031-145",
+          "000031-148",
+          "000031-154",
+          "000031-141",
+          "000031-155"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-144",
+          "000031-159",
+          "000031-143",
+          "000031-160",
+          "000031-150"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-142",
+          "000031-156",
+          "000031-147",
+          "000031-144",
+          "000031-158",
+          "000031-159",
+          "000031-151",
+          "000031-143",
+          "000031-160",
+          "000031-146",
+          "000031-153",
+          "000031-152",
+          "000031-149",
+          "000031-150",
+          "000031-157",
+          "000031-145",
+          "000031-148",
+          "000031-154",
+          "000031-141",
+          "000031-155"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b09-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b09-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b09-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b09-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "3ecb0cf9-e50a-47bd-a81b-eb5c54c2ac97",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.307936,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "d0a27960d6cad34044dd6998080faf0620c5eea54516f7a71f89cd9d8ee53c7b",
+        "currentTextIDs": [
+          "000031-173",
+          "000031-180",
+          "000031-169",
+          "000031-170",
+          "000031-172",
+          "000031-165",
+          "000031-164",
+          "000031-171",
+          "000031-177",
+          "000031-175",
+          "000031-178",
+          "000031-163",
+          "000031-176",
+          "000031-161",
+          "000031-167",
+          "000031-166",
+          "000031-174",
+          "000031-168"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-180",
+          "000031-164",
+          "000031-171"
+        ],
+        "staleTextIDs": [
+          "000031-162"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-173",
+          "000031-180",
+          "000031-169",
+          "000031-170",
+          "000031-172",
+          "000031-165",
+          "000031-164",
+          "000031-171",
+          "000031-177",
+          "000031-175",
+          "000031-179",
+          "000031-178",
+          "000031-163",
+          "000031-176",
+          "000031-161",
+          "000031-167",
+          "000031-166",
+          "000031-174",
+          "000031-168"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b10-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b10-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b10-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b10-v1.aliases.json",
+        "status": "provider-rejected",
+        "sessionId": "0d7c251f-dec9-4923-adba-28ceb1b6c086",
+        "numTurns": 1,
+        "apiError": "usage_limit_reached",
+        "apiErrorStatus": 429,
+        "rawSha256": "60ea4db2051fbb72f0f68fac48170f0e6984ac7e83fb92ef4fd36defc406893e"
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b11-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b11-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b11-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-b11-v1.aliases.json",
+        "status": "provider-rejected",
+        "sessionId": "2de7c48b-cffb-48c3-8be6-413c6c7b80f6",
+        "numTurns": 1,
+        "apiError": "usage_limit_reached",
+        "apiErrorStatus": 429,
+        "rawSha256": "95a3152d4180c38a51bb570d93f0098096723e8e698e8a23d9ac3d9f838df402"
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-053-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-053-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-053-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-053-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "0ec49130-fe78-41ef-a12f-ee824820ea00",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.065732,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "0b44542c5230a30c03510dee1f150b0da34b31e17cb911f961fec9dc7caa05d9",
+        "currentTextIDs": [
+          "000031-053",
+          "000031-054"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-053"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-053",
+          "000031-054"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-071-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-071-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-071-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-071-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "90f7626e-eea9-443c-90dd-5601fcd05968",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.059044000000000006,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "f92eb91d2af0dcb8c62aea77268e96517a3601ca3fd6d00528d6af0f262fb15e",
+        "currentTextIDs": [
+          "000031-071",
+          "000031-072"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-071",
+          "000031-072"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-bundle-v1.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-bundle-v1.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-bundle-v1.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-bundle-v1.aliases.json",
+        "status": "completed",
+        "sessionId": "05abbdb6-92d0-44c8-a88b-fdb21c69773a",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.097816,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "0eb15129761aa6c4faca63cc3ff19ea5499aadffe123974e1c46bd7dcf9ab56c",
+        "currentTextIDs": [
+          "000031-092",
+          "000031-104",
+          "000031-103",
+          "000031-091"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-104",
+          "000031-103"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-092",
+          "000031-104",
+          "000031-103",
+          "000031-091"
+        ]
+      },
+      {
+        "pass": "blind",
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-bundle-v2.review.json",
+        "request": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-bundle-v2.review.json.request.json",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-bundle-v2.review.json.raw.json",
+        "aliases": "/tmp/000031-development-fullpool-y7AZzD/000031-development-blind-prose-repair-bundle-v2.aliases.json",
+        "status": "completed",
+        "sessionId": "29e0bf3f-4481-4203-8cdb-4e532be8cf56",
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "costUsd": 0.07890799999999999,
+        "numTurns": 2,
+        "apiErrorStatus": null,
+        "rawSha256": "643ab85db30f99c2bb53d48699fb154f92c50e511bfb12f13d8693a6afe637b5",
+        "currentTextIDs": [
+          "000031-134"
+        ],
+        "disagreementIDs": [],
+        "objectionIDs": [
+          "000031-133"
+        ],
+        "textIDsMatchingAuthoringFreezeV1": [
+          "000031-133",
+          "000031-134"
+        ]
+      }
+    ],
+    "currentTextReviewCoverage": {
+      "blind": 228,
+      "adversarial": 228,
+      "final": 0
+    },
+    "blindUnreviewedIDs": [
+      "000031-013",
+      "000031-031",
+      "000031-052",
+      "000031-064",
+      "000031-079",
+      "000031-085",
+      "000031-093",
+      "000031-113",
+      "000031-133",
+      "000031-179",
+      "000031-211",
+      "000031-219"
+    ],
+    "adjudications": [
+      {
+        "id": "000031-007",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Acquisition history, collection growth and textile-room funding precede the loan decision; the actual conditions follow from silk deterioration and light exposure supplied after the answer. The transition 'Given all that' does not make the history necessary."
+      },
+      {
+        "id": "000031-009",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. The corrected case size, weekly delivery cutoff and catering-adjusted usage determine the order-up-to rule and its numerical targets. Their setup makes the later recommendation interpretable."
+      },
+      {
+        "id": "000031-014",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The useful load-in advice answers a secondary matter. Chapel history, refurbishment funding and console nostalgia delay the permission and staffing conditions without explaining them."
+      },
+      {
+        "id": "000031-020",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Origin-based train restrictions and the distinction between through services and local starters resolve the conflicting advice and establish why two nearly simultaneous departures have different validity. The later verdict depends on these rules."
+      },
+      {
+        "id": "000031-006",
+        "expected": false,
+        "passes": [
+          "pilot-blind",
+          "pilot-adversarial",
+          "full-blind"
+        ],
+        "decision": "Retain parent-approved no-hit and keep mandatory. Active growth, in-case moisture and fragile materials each determine the treatment and transport recommendation. This causal contribution, rather than the announced report structure, justifies the later answer."
+      },
+      {
+        "id": "000031-024",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Altitude, wind and cold-fuel tests distinguish competing causes of the failure; the replacement must address the established cold-vaporization problem, while wind tests determine the screen requirement. The methodology contributes to interpreting the qualified recommendation."
+      },
+      {
+        "id": "000031-022",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The before/after comparison windows are necessary methodology. Portal changes, agreement countersigning, mistaken exports and date-format conversion are an unnecessary acquisition tour before the collision result."
+      },
+      {
+        "id": "000031-031",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Usage, delivery-based discounts and storage constrain the recommendation. Narrating POS exports, invoice downloads and phone transfers delays it without contributing comparable decision information."
+      },
+      {
+        "id": "000031-023",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Parking advice is useful to the outing but does not explain route direction. Estate history, hydro-plan history and the author's past trip further delay the direction and its scrambling/bail-out reasons."
+      },
+      {
+        "id": "000031-029",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Route ambiguity, available daylight, first-timer scrambling pace and water-carrying load determine the separate verdicts for the standard and full traverses. The later answer follows necessary interpretive constraints."
+      },
+      {
+        "id": "000031-039",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. General renewal possibility is an inadequate early answer to this specific renewal-and-how question. Routing through consortium/lender queues, courier and staffing details delay the ILLiad action and deadline; lender authority is restated with the operative answer."
+      },
+      {
+        "id": "000031-040",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Digitization coverage, archivist attendance, the fragile-volume reader limit and advance retrieval determine which dates, materials and group arrangements can meet the society's request. The necessary constraints precede the conditional booking answer."
+      },
+      {
+        "id": "000031-033",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Changed arrival platform, the accessible route, lift capacity and assistance timing yield the rear-car/booked-assistance conditions and fallback train. The sequential reasoning is necessary to interpret whether the transfer works."
+      },
+      {
+        "id": "000031-054",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Permission-slip advice, transport-contract history, the old capitol trip and driver certification delay the operative rescheduling answer. Some cancellation context is relevant, but it coexists with removable preliminary material."
+      },
+      {
+        "id": "000031-053",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Category weights, the two-lab denominator and the missing-code bulk update explain the discrepancy and correction. Author corrected an internal arithmetic defect from 61/D-minus to 70/C-minus; the unchanged no-hit classification receives a fresh mixed-class blind review and subsequent complete-pool passes."
+      },
+      {
+        "id": "000031-042",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Railway-land history, sampling and the laboratory results help interpret the crop advice. AGM votes, quotations, conflict-of-interest abstention, courier logistics and volunteer thanks unnecessarily delay the answer promised by the title."
+      },
+      {
+        "id": "000031-060",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. The curatorial meaning of duplicate, gift-deed consent and permitted expenditure each determine which prints could be sold and what the proceeds could fund. Their reasoning precedes the operative conditional answer."
+      },
+      {
+        "id": "000031-049",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Soil-water pH versus reserve acidity determines the lime quantity, and lime form determines timing and application. The definitions make the later yes-with-dose answer interpretable."
+      },
+      {
+        "id": "000031-059",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The early reference to light omits the permission decision. A generic registrar/committee/signature process delays the six-month refusal; the actual conservation budget that establishes the answer appears afterward."
+      },
+      {
+        "id": "000031-074",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Wildcard history and retired pinning clients contribute to migration context. The unrelated alert investigation and extended PKI history delay the restart decision and its payments exception."
+      },
+      {
+        "id": "000031-080",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Comfort versus limit ratings, ground insulation and the elevation-adjusted forecast determine how to interpret the bag's 20-degree label and which changes are needed. The later verdict follows necessary definitions and causal reasoning."
+      },
+      {
+        "id": "000031-063",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Cost-tag information is useful to the bill and later cleanup, but it and the replica's origin do not explain whether the replica is needed for cutover. The rollback dependency that answers that question is held until after them."
+      },
+      {
+        "id": "000031-075",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The failed 2014 row contributes one disease example later. The uncle's ritual, biscuit tin, inherited stock and author's catalogue habits delay the conditional planting answer without helping interpret it."
+      },
+      {
+        "id": "000031-073",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. The early rejection of smaller batches alone is supported by WAL receipt/replay distinctions, snapshot conflict and the infinite standby-delay setting. That causal chain determines the rerun conditions; the later operational plan follows meaningful diagnosis."
+      },
+      {
+        "id": "000031-062",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Kerb height and ramp limits are necessary interpretation. Protocol history, panel composition, scoring-framework location, procurement and purchase-order chronology unnecessarily delay the boarding/alighting answer."
+      },
+      {
+        "id": "000031-064",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Public-side checks, absence of app requests, upstream TLS, the pinned trust bundle and rollback evidence isolate the failing hop and distinguish a rotation trigger from the configuration fault. The later verdict depends on that ordered causal explanation."
+      },
+      {
+        "id": "000031-069",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Ridge commitment, the gate's opening time, forest darkness and the group's descent limitation yield the clockwise route and cutoff. The later plan relies on the preceding constraints."
+      },
+      {
+        "id": "000031-071",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Work dates explain the closure window, while bid history, attendance, minutes approval, insurance and permit chronology delay whether residents can use the room. A portal-year typo is corrected from 2026 to 2025 to match the stated weekdays, followed by fresh mixed-class review."
+      },
+      {
+        "id": "000031-098",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Puffin information later helps prioritize time ashore, but geology and Romantic-tour history delay the transport/booking answer without helping interpret it."
+      },
+      {
+        "id": "000031-100",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Attribution vocabulary, factory versus individual authorship, and the ambiguity of the unmarked pattern number jointly determine the permissible label. The later qualified answer follows necessary definitions and evidence."
+      },
+      {
+        "id": "000031-091",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Actual hold usage supports the release policy. System-category history, committee debates and report reconciliation unnecessarily delay it. Clarify that the accessibility reserve is separate from the 22 general holds so the release arithmetic is internally unambiguous, then re-review the changed complete text."
+      },
+      {
+        "id": "000031-082",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The number concordance contributes to identifying the 18 loans. The extended system-migration, filing-convention, archive-location and safe-access narrative delays the ownership answer without comparable interpretive value."
+      },
+      {
+        "id": "000031-089",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Storage-temperature thresholds, curing, actual garage measurements and varietal behavior determine where the potatoes can stay, which to use first and the cold-weather contingency. The later answer depends on the setup."
+      },
+      {
+        "id": "000031-109",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. The half's reference time, sign-in rather than arrival, and the separate wig call each change the actual reporting time. The later times follow necessary definitions and exceptions."
+      },
+      {
+        "id": "000031-120",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Customer interpretation, dispatch evidence, eligible product types and the business-day/holiday calendar each determine what shipping wording could be promised. The expanded complete text's necessary setup justifies its later qualified answer."
+      },
+      {
+        "id": "000031-103",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The oat-milk distinction and some shelf-life information matter. Dairy-route origin and regional promotion history unnecessarily delay the cost comparison and refusal. Correct the proposed extra delivery from Wednesday to Monday so it actually interrupts the stated Friday-to-Tuesday gap, then re-review the changed complete text."
+      },
+      {
+        "id": "000031-111",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The score, threshold and review criteria answer the parent. Governance, data-migration administration and staffing chronology delay them; a limited reassurance about transcription does not make the whole run-up necessary."
+      },
+      {
+        "id": "000031-107",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Level definitions help interpret the clearance answer. Camp origin, committee revision history and district processing volumes unnecessarily precede it."
+      },
+      {
+        "id": "000031-123",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The hardship-fund history contributes to later help, but itinerary news, trip origin, vendor selection and bookkeeping history delay whether the child can still go and the new payment deadline."
+      },
+      {
+        "id": "000031-127",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The rebuild relates to the insurer's requirement, but hall origin, donor biography and booking-system history delay the mandatory-fee answer without explaining it."
+      },
+      {
+        "id": "000031-140",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Carrier acceptance versus label printing, business days and cutoff-specific performance determine the permissible same-day claim. The later conditional wording depends on those definitions and evidence."
+      },
+      {
+        "id": "000031-124",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Blueprint changes, school pacing, item-level performance, a matched curriculum comparison and a residual skills gap distinguish a sequencing problem from a curriculum defect. Their ordered reasoning supports the later qualified refusal to replace the program."
+      },
+      {
+        "id": "000031-138",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. A single long paragraph of venue and platform history delays the simple exchange answer; paragraph count alone does not excuse unnecessary run-up."
+      },
+      {
+        "id": "000031-126",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The old flood anecdote loosely illustrates valve risk, but building nostalgia and past emergencies delay the present instruction. The operative reason is independently given with the instruction about known valve positions."
+      },
+      {
+        "id": "000031-131",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Staging lag and partition-maintenance evidence support the deferral. RFC meeting logistics, scoring-template debate and ticket cleanup unnecessarily delay the yes/no decision."
+      },
+      {
+        "id": "000031-134",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Some cert-manager explanation relates to reload behavior. The separate wildcard debate, past expiry incident and resolved chain-pinning history delay the answer and its gateway exception."
+      },
+      {
+        "id": "000031-129",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Street-to-platform access versus level boarding, platform changes and staff availability determine the direction- and time-specific answer. The preceding definitions and operating constraints are necessary to interpret it."
+      },
+      {
+        "id": "000031-133",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Timing, single-replica behavior, the parameter diff and matched-version counterfactual isolate a configuration fault and justify keeping the new version. Clarify the initially overlapping hypotheses without changing the evidence, recommendation or label, then blind-review the complete revised text."
+      },
+      {
+        "id": "000031-104",
+        "expected": false,
+        "passes": [
+          "blind-repair-bundle"
+        ],
+        "decision": "Retain no-hit and make mandatory. Packer distribution, reciprocal adjacent-bin swaps, relabeling timing and outlier accounting are causal tests that distinguish retraining from relabeling. The investigative order contributes to interpreting the conclusion rather than merely narrating process."
+      },
+      {
+        "id": "000031-144",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Weekday-only timing, the shared circuit, measured loads and dishwasher scheduling distinguish an overlap fault from a defective espresso machine. The causal sequence determines both the permanent and temporary fixes."
+      },
+      {
+        "id": "000031-159",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. The early reassurance omits the southbound stop move affecting the stated journey. Consultation chronology, drop-in attendance, unrelated route discussion, roster administration and printing logistics delay that operative answer."
+      },
+      {
+        "id": "000031-143",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Prior attrition helps explain a completion bonus, but vest logistics and most hiring-history detail delay the staffing number and role allocation without informing them."
+      },
+      {
+        "id": "000031-160",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Bicycle length, goods versus passengers, directional/day-specific peak periods and vessel layout each change the boarding category and booking requirement. The later answer depends on these definitions and prerequisites."
+      },
+      {
+        "id": "000031-150",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Oven-dry comparison explains meter bias, but meter purchasing, shared-sheet administration and village-hall meeting logistics delay the substantive moisture targets. The opening lower-than-before phrase is a teaser."
+      },
+      {
+        "id": "000031-180",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Hydrostatic-head meaning, pressure differences between fly and floor, wind exposure and saturated ground determine the conditional replacement advice. Their setup contributes to interpreting the answer."
+      },
+      {
+        "id": "000031-164",
+        "expected": false,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain no-hit and make mandatory. Cross-performance demand, subscription defaults, single-ticket behavior and the parade distinguish a shrinking audience from a renewal/access problem. The later keep-with-conditions recommendation follows meaningful diagnostic evidence."
+      },
+      {
+        "id": "000031-171",
+        "expected": true,
+        "passes": [
+          "blind"
+        ],
+        "decision": "Retain hit and make mandatory. Applicable terms and buyer categories support the answer and notification plan. The export retries, reconciliation procedure and filing-cabinet chase unnecessarily delay the contractual refund conclusion."
+      }
+    ],
+    "proseCorrections": [
+      {
+        "id": "000031-053",
+        "beforeSha256": "091eb6b2c93e69bef4811f4a0da8e1871897f7654712b10a8b39ec2b38ba2511",
+        "afterSha256": "c858ac03ce46e50531d4ea87824d51876f67cf64b369fb0f9354a31cbffd31b6",
+        "operation": "Replace the erroneous grade 61/D-minus with 70/C-minus; 0.4*42+0.4*88+0.2*91=70.2. Corrected lab average 85 produces 87.4. Preserve the no-hit label and all other writing.",
+        "labelChanged": false,
+        "reviewedWith": "000031-054"
+      },
+      {
+        "id": "000031-071",
+        "beforeSha256": "bab836d7aab2606771d0d0765c00ebae8ef5bd90c489fe1e391d29a7bbbf750c",
+        "afterSha256": "61abb1c29aca9208715de41a7ae05da53614083199e099282e410b8ef43e91cd",
+        "operation": "Change the portal minutes year 2026 to 2025, matching Tuesday October 28 and Wednesday October 29. All words, sentences, label and snippets otherwise preserved.",
+        "labelChanged": false,
+        "reviewedWith": "000031-072"
+      },
+      {
+        "id": "000031-091",
+        "beforeSha256": "48c53fdf076cac1665b9e2b03bf7555e81bdcc5620e940f6c3273253a50e24df",
+        "afterSha256": "f5f6ebb9a7add8e8afafaaa59ac3d2acb6b2f575bec37e31c02434368b09d429",
+        "operation": "Clarify that the accessible reserve is separate from the 22 holds being divided into 14 released and 8 retained, so the five claimed family seats and three-seat buffer remain consistent.",
+        "labelChanged": false,
+        "companion": "000031-092"
+      },
+      {
+        "id": "000031-103",
+        "beforeSha256": "9041fec8dce41120c8fbaec802d2d14f7786dde51428484e1461ca0d8747660b",
+        "afterSha256": "d8859e5d05a861c9e6850de39852e443fc1d8dcbf82515e6bf32b7c41c3401d9",
+        "operation": "Monday lies inside the stated Friday-to-Tuesday delivery gap; Wednesday does not. Preserve the refusal and all prices, quantities, labels and snippets.",
+        "labelChanged": false,
+        "companion": "000031-104"
+      },
+      {
+        "id": "000031-133",
+        "beforeSha256": "f40874809229ea6f8d01f607cc59243127d910c3626f487a96e63357886ae451",
+        "afterSha256": "88249783a72e7f7559e3b1c767fb104f7600ce302785eca7342d5ee5bd6cba5f",
+        "operation": "Make the two stated hypotheses distinct: an engine-version defect versus a configuration change. The original first hypothesis included the very configuration loss later presented as evidence for the second; the counterfactual tests and recommendation remain unchanged.",
+        "labelChanged": false,
+        "companion": "000031-134"
+      },
+      {
+        "id": "000031-120",
+        "beforeSha256": "75fc0231a58d8d0dd1497b6e6727b1e6909af1062de2d7d693357cb67cb1c730",
+        "afterSha256": "099d64f4863aef5622a2026921ebdf4c73ca69ee6e6f7bc2ad3cd2749c32ebde",
+        "operation": "Expand the existing business-day reasoning with the carrier-holiday exception and carry it into the advertised promise. The original 725-word complete text fell below the assigned long band; all five other complete texts from the batch are preserved. No prior model review had seen this text.",
+        "labelChanged": false,
+        "wordsBefore": 725,
+        "wordsAfter": 768,
+        "review": "Complete current text included in planned full-pool blind, adversarial and final passes."
+      },
+      {
+        "id": "000031-160",
+        "beforeSha256": "5a85cb22256533f63992b7a4db8d34584f09da574e722fa5aa1544902c5447fd",
+        "afterSha256": "20c91356a246a4cef9369cd7901799ccbcf906f653752be0a005385c9dce4b49",
+        "operation": "Specify that public holidays use the Sunday timetable within the existing definition of peak periods. This substantive calendar exception completes the rule for interpreting weekday peaks. Preserve all five other texts, with mechanical line normalization only if needed.",
+        "labelChanged": false,
+        "wordsBefore": 745,
+        "wordsAfter": 751,
+        "review": "Normalized current writing enters all planned full-pool reviews; the initial underlength text had not been reviewed."
+      },
+      {
+        "id": "000031-162",
+        "author": "Codex development authoring context",
+        "method": "Original cohesive continuation of the existing letter, added after the operative answer; all original paragraphs, judgment and snippets preserved.",
+        "beforeSha256": "6bafb2915d496d44642f258fb441b355b065e88367d54c0b0fb4e53c4e9579e3",
+        "afterSha256": "9ac83100e657a2d203e71078c499aa52d50d61def2c7dd103e65eb1129146676",
+        "wordsBefore": 657,
+        "wordsAfter": 795,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "reviewStatus": "Fresh Codex blind and adversarial completed on v1 expanded text; fresh final remains pending.",
+        "requiredRoles": [
+          "blind",
+          "adversarial",
+          "final"
+        ],
+        "reviewProvider": "Codex, explicitly authorized by user",
+        "priorOpusBlindAppliesTo": "Original 657-word version only"
+      },
+      {
+        "id": "000031-013",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "c311e88858f6265281956ad715befe52e7a34e34a88d9e61c7557d5a3a2fae4f",
+        "afterSha256": "3c0c1e81c0b6cb4c30539e7a43695ee282fc797f5169794a7539b163263a99f9",
+        "wordsBefore": 371,
+        "wordsAfter": 372,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "Transition excess becomes 210 + 135 + 135 = 480 seconds. Removing 195 + 135 + 135 = 465 seconds from 58 minutes yields 50 minutes 15 seconds, consistent with about 50 minutes. The existing table/revolve/canopy order remains intact.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-031",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "28150afa4d9b85ef01c31c6d85c9967a226a265ed5653969c053a83bc4545bae",
+        "afterSha256": "2e13f28fc1ad04717cf9cde43388e4d4deb150441a03250a9bf06c3a12dbfec4",
+        "wordsBefore": 612,
+        "wordsAfter": 630,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "70 - 6 = 64 flour-bag spaces. December use is 2 * 33 = 66, exceeding that space. The January 64-bag delivery fits, with the existing sugar and semolina retained.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-052",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "2844ffdbd3b67aaa8a4f627fc9821c37a9d317eacc870d0b30c8397e00ff80d3",
+        "afterSha256": "17533edc37a670af34a1df3a31e05646622b93f5b4a048906fba58983ede4b1f",
+        "wordsBefore": 551,
+        "wordsAfter": 575,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "ceil(47/5) = 10, so six initial copies require four more. ceil(61/5) = 13, requiring three more. 47 + 14 - 6 - 8 = 47 current requests; only the six earlier fulfilled requests change this reader from position 47 to 41. 41/13 * 3 = 9.46 weeks before pickup/return variation.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-064",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "aed809e745a45c69c3773ed2d535e65c8b4a1dc6085e23f142281ce40b49db29",
+        "afterSha256": "b997f06150c795b680770a0c1bfb72a06aef9df961c0ccec4e4091c50c175217",
+        "wordsBefore": 415,
+        "wordsAfter": 416,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "The conclusion now distinguishes unchanged certificate replacement steps from the explicitly added validation step.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-079",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "b9dbaffb0d98225a0aa23a6ec9740194662823f8a15235a3f1282573070105c6",
+        "afterSha256": "3d136280ce5218f8eb0d1555976b8695d5b19fc7b79e3b45132e13aceaec820d",
+        "wordsBefore": 658,
+        "wordsAfter": 658,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "Three overnight camps on a four-day trip put the crossing after the third night on day four; the direction and afternoon ascent remain unchanged.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-085",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "458e491ad1f0e66b00e1fa609c89a768bc84cf5c16faaccc563e7d017f83244c",
+        "afterSha256": "77f95f96e801a32d8e3c4a8ead285badf0a3ab75ab2d877e87241a84c963595a",
+        "wordsBefore": 589,
+        "wordsAfter": 596,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "100 * 16 * 7 * 11 = 123200. The alternatives are 50 * 16 * 7 * 2 = 11200 and 100 * 8 * 7 * 2 = 11200, each below 12500.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-093",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "d42a95b90edcaa0ffa6efc1b86b7fdd3d58c449a63bdd302808437881c5f3b0b",
+        "afterSha256": "74da3b40a7c10a6ceb2ce72b143087a9c26fb79792a0ba174dd0bf34fd5b0456",
+        "wordsBefore": 577,
+        "wordsAfter": 577,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "01:03 + 11 minutes = 01:14 commit/conflict. The dashboard runs 01:12-01:54. The replay pause runs 01:14-01:54, and the 39:40 lag sample at 01:53:40 occurs before the query ends. Four-minute catch-up finishes around 01:58.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-113",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "d5c0cf9eb4f8f5176b3b21de7dfa4e01eb6fcc75d6a15fad89b7713e41215859",
+        "afterSha256": "c12495b47cfb6affd092f7d4197be2933bbe904a0417dfdb01bfad15eb223539",
+        "wordsBefore": 573,
+        "wordsAfter": 599,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "The operative plan now restores detection before curtain call and audience egress, while retaining the warden through the full isolation period.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-133",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "88249783a72e7f7559e3b1c767fb104f7600ce302785eca7342d5ee5bd6cba5f",
+        "afterSha256": "c60a9f24bf2596cd746134b338eb89e0641f0e9c2d1e03563735ef242c147c2e",
+        "wordsBefore": 858,
+        "wordsAfter": 863,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "08:37 - 07:04 = 93 minutes. The query itself runs 07:01-08:37 = 96 minutes. Production catches up three minutes after the query; staging has an explicitly shorter query rather than attributing elapsed pause length to write volume.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-179",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "14aa3852d9803e61c00077f109b054d12c746f0db6414fdf8442c7d7553d772c",
+        "afterSha256": "9369e7a1776d6f5a817b5990087cdd920d4c05264eeb6578abbde85b69457918",
+        "wordsBefore": 578,
+        "wordsAfter": 579,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "Two working tents plus one borrowed tent provide the required three; the unavailable tent explains the request.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-211",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "aaf40bbd53c4a16c59ecd038565cdc07465c7f73ebc20fd0f91ffef7b3856dc5",
+        "afterSha256": "6f91f360d251822b41e8a80ae58110f4305fe1d4153dd02611a4ccd1610eb571",
+        "wordsBefore": 606,
+        "wordsAfter": 615,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "The first Route 14 remains 07:02. Its nineteen-minute journey matches the stated 07:22-07:41 trip, and arrival at 07:21 leaves nine minutes before 07:30.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      },
+      {
+        "id": "000031-219",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "9c6af2fa829d4024f0e144abbdc516e5858373fc9b737c22c7e2b0d6705bd5df",
+        "afterSha256": "f70093e61e423d769d4adc1e0d2689ed8dadd8e0390668ca9ec336f8e0a9d427",
+        "wordsBefore": 855,
+        "wordsAfter": 888,
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "900 + 540 = 1440; 1440 / (420/7) = 24 days. August 22 + 24 days = September 15; September 19 is four days later and 28 days after the order. Two opened 500-bag cases can hold 540 remaining bags.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+        "reviewStatus": "Fresh final review pending"
+      }
+    ],
+    "unresolvedObjectionsAmongReviewed": [],
+    "byClass": {
+      "hit": {
+        "short": 30,
+        "medium": 60,
+        "long": 30
+      },
+      "noHit": {
+        "short": 30,
+        "medium": 60,
+        "long": 30
+      }
+    },
+    "domains": [
+      {
+        "domain": "library-services",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "software-operations",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "museum-collections",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "school-administration",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "local-transport",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "housing-maintenance",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "gardening-agriculture",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "small-business-logistics",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "arts-performance",
+        "hits": 12,
+        "noHits": 12
+      },
+      {
+        "domain": "personal-travel-outdoors",
+        "hits": 12,
+        "noHits": 12
+      }
+    ],
+    "mechanical": {
+      "reader": "passed",
+      "checksum": "passed",
+      "ranges": "passed",
+      "exactSnippets": "passed",
+      "onePhysicalLinePerProseParagraph": "passed",
+      "inlineDefectAnnotations": "absent",
+      "assignedLengthBands": "passed for all 240 texts",
+      "existing228TextsAndLabelsPreserved": "Historical v1 integration check passed; see v2 reconciliation for twelve subsequent repairs.",
+      "supplementarySourceHashes": "passed",
+      "rawQuotaEvidenceUnchanged": "passed",
+      "reviewInputAliasesAndCompleteText": "passed",
+      "unchangedV1Texts": 228,
+      "allV1LabelsAndSnippetsPreserved": "passed"
+    },
+    "blockingEvidence": [
+      {
+        "batch": "38",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b38-v1.raw.json",
+        "status": 429,
+        "error": "usage_limit_reached"
+      },
+      {
+        "batch": "39",
+        "raw": "/tmp/000031-development-fullpool-y7AZzD/000031-development-generation-b39-v1.raw.json",
+        "status": 429,
+        "error": "usage_limit_reached"
+      }
+    ],
+    "blocker": "Awaiting parent-launched fresh full-pool final Codex review and independent QA.",
+    "resumeSteps": [
+      "Parent launches a fresh final Codex reviewer over v2 label-free input, extracted definition and no provisional labels or history.",
+      "Reconcile any final objections against the frozen definition and re-review complete changed texts before declaring review completion.",
+      "Parent completes independent dataset QA and source/split overlap audit, then archives the full reviewed pool in Git before selecting 200."
+    ],
+    "lengthBandViolations": [],
+    "actualByClass": {
+      "hit": {
+        "short": 30,
+        "medium": 60,
+        "long": 30
+      },
+      "noHit": {
+        "short": 30,
+        "medium": 60,
+        "long": 30
+      }
+    },
+    "surfaceAudit": {
+      "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-surface-audit-v1.json",
+      "sha256": "3b557abeb9657f37f38e849d5096bdf6b0672b6e7f7eea84bb3e6d13784a74ee",
+      "scope": "Historical 228-text development surface audit before the final 162 expansion and twelve supplementary texts; see freezeSurfaceAudit for current exact-duplicate check."
+    },
+    "revisedTextsAwaitingFreshReview": [
+      {
+        "id": "000031-013",
+        "textSha256": "3c0c1e81c0b6cb4c30539e7a43695ee282fc797f5169794a7539b163263a99f9",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-031",
+        "textSha256": "2e13f28fc1ad04717cf9cde43388e4d4deb150441a03250a9bf06c3a12dbfec4",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-052",
+        "textSha256": "17533edc37a670af34a1df3a31e05646622b93f5b4a048906fba58983ede4b1f",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-064",
+        "textSha256": "b997f06150c795b680770a0c1bfb72a06aef9df961c0ccec4e4091c50c175217",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-079",
+        "textSha256": "3d136280ce5218f8eb0d1555976b8695d5b19fc7b79e3b45132e13aceaec820d",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-085",
+        "textSha256": "77f95f96e801a32d8e3c4a8ead285badf0a3ab75ab2d877e87241a84c963595a",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-093",
+        "textSha256": "74da3b40a7c10a6ceb2ce72b143087a9c26fb79792a0ba174dd0bf34fd5b0456",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-113",
+        "textSha256": "c12495b47cfb6affd092f7d4197be2933bbe904a0417dfdb01bfad15eb223539",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-133",
+        "textSha256": "c60a9f24bf2596cd746134b338eb89e0641f0e9c2d1e03563735ef242c147c2e",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-179",
+        "textSha256": "9369e7a1776d6f5a817b5990087cdd920d4c05264eeb6578abbde85b69457918",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-211",
+        "textSha256": "6f91f360d251822b41e8a80ae58110f4305fe1d4153dd02611a4ccd1610eb571",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      },
+      {
+        "id": "000031-219",
+        "textSha256": "f70093e61e423d769d4adc1e0d2689ed8dadd8e0390668ca9ec336f8e0a9d427",
+        "roles": [
+          "final"
+        ],
+        "provider": "Codex",
+        "status": "pending",
+        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
+      }
+    ],
+    "reviewPlan": {
+      "authorization": "User explicitly authorized review with Codex instead.",
+      "provider": "Codex",
+      "requiredRoles": [
+        "blind",
+        "adversarial",
+        "final"
+      ],
+      "blindAndAdversarial": "Separate fresh contexts may run independently in parallel.",
+      "final": "Separate fresh context after reconciliation; changed prose requires fresh review.",
+      "authorMayIndependentlyReviewOwnLabels": false,
+      "status": "Independent blind and adversarial complete on v1; twelve revised texts require fresh review in the final full-pool pass. Parent independent QA also pending.",
+      "input": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.input.json",
+      "inputSha256": "5bd1d6aee1408e18486b8556bb40c0d8716b392b9440315802af9271bd5130a2",
+      "batchMaximum": 20,
+      "reReviewChangedTextScope": [
+        "000031-013",
+        "000031-031",
+        "000031-052",
+        "000031-064",
+        "000031-079",
+        "000031-085",
+        "000031-093",
+        "000031-113",
+        "000031-133",
+        "000031-179",
+        "000031-211",
+        "000031-219"
+      ]
+    },
+    "authoringComplete": true,
+    "supplementalAuthoring": [
+      {
+        "batch": "38",
+        "path": "/tmp/000031-development-codex-b38-supplement.json",
+        "author": "Mencius",
+        "sessionId": "01a15ffe-4ab2-7da2-bd9f-1bffca017829",
+        "sha256": "bfcbe44b6db549902ebc2b922e9fce3e235b9763babcecf55fbf73be8a903760",
+        "ids": [
+          "000031-229",
+          "000031-230",
+          "000031-231",
+          "000031-232",
+          "000031-233",
+          "000031-234"
+        ],
+        "provider": "Codex",
+        "model": "Codex (exact model identifier unavailable in supplied artifact)",
+        "method": "Fresh independent original full-text authoring from assigned rows and extracted definition; parent-supplied author session.",
+        "coverage": [
+          {
+            "id": "000031-229",
+            "coverage": "Codex-authored synthetic development; unreviewed by Opus. Necessary distinctions between drawing orientation, facing, attached backing, and load-bearing support determine the later mounting answer."
+          },
+          {
+            "id": "000031-230",
+            "coverage": "Codex-authored synthetic development; unreviewed by Opus. An incomplete positive teaser precedes mailbox, catalog, staff-memory, and reporting detours before the specific license and price."
+          },
+          {
+            "id": "000031-231",
+            "coverage": "Codex-authored synthetic development; unreviewed by Opus. Administrative categorization and record cleanup delay reopening and alternative-facility information; relevant repair evidence also appears."
+          },
+          {
+            "id": "000031-232",
+            "coverage": "Codex-authored synthetic development; unreviewed by Opus. Early qualified diagnosis and scheduled remedy answer both questions; later observations and work details support that answer."
+          },
+          {
+            "id": "000031-233",
+            "coverage": "Codex-authored synthetic development; unreviewed by Opus. Ordered identifier, pagination, revision, alignment, speaker, and access-file checks resolve an archival version problem; each preceding step changes the meaning of the final location and citation."
+          },
+          {
+            "id": "000031-234",
+            "coverage": "Codex-authored synthetic development; unreviewed by Opus. Starts with secondary photocopying information, then substantial correspondence and institutional history before the recurring room offer and application process."
+          }
+        ]
+      },
+      {
+        "batch": "39",
+        "path": "/tmp/000031-development-codex-b39-supplement.json",
+        "author": "Nash",
+        "sessionId": "01a15ffe-4b1e-74b2-81ab-3100d6a22d80",
+        "sha256": "fecb5d3df9c3f2386d259f328b81946d3cc2ae912370d83c192482d2123c2983",
+        "ids": [
+          "000031-235",
+          "000031-236",
+          "000031-237",
+          "000031-238",
+          "000031-239",
+          "000031-240"
+        ],
+        "provider": "Codex",
+        "model": "Codex (exact model identifier unavailable in supplied artifact)",
+        "method": "Fresh independent original full-text authoring from assigned rows and extracted definition; parent-supplied author session.",
+        "coverage": [
+          {
+            "id": "000031-235",
+            "coverage": "Codex-authored synthetic development; museum location reply delayed by reminiscence; unreviewed by Opus."
+          },
+          {
+            "id": "000031-236",
+            "coverage": "Codex-authored synthetic development; early actionable component-record decision followed by support and catalogue background; unreviewed by Opus."
+          },
+          {
+            "id": "000031-237",
+            "coverage": "Codex-authored synthetic development; complete early school assessment arrangement with later dispensable institutional detail; unreviewed by Opus."
+          },
+          {
+            "id": "000031-238",
+            "coverage": "Codex-authored synthetic development; school collection instructions buried mid-reply after removable institutional history; unreviewed by Opus."
+          },
+          {
+            "id": "000031-239",
+            "coverage": "Codex-authored synthetic development; incomplete reassurance followed by avoidable research tour before garlic handling advice; unreviewed by Opus."
+          },
+          {
+            "id": "000031-240",
+            "coverage": "Codex-authored synthetic development; later irrigation choice follows necessary programme decoding, deficit measurement and drainage calculation; unreviewed by Opus."
+          }
+        ]
+      }
+    ],
+    "historicalOpus": {
+      "status": "Supplementary historical opinions; current full-pool Codex reviews remain required.",
+      "distinctFullPoolBlindOpinions": 180,
+      "currentTextExactMatchBlindOpinions": 169,
+      "currentTextIDs": [
+        "000031-001",
+        "000031-002",
+        "000031-003",
+        "000031-004",
+        "000031-005",
+        "000031-006",
+        "000031-007",
+        "000031-008",
+        "000031-009",
+        "000031-010",
+        "000031-011",
+        "000031-012",
+        "000031-014",
+        "000031-015",
+        "000031-016",
+        "000031-017",
+        "000031-018",
+        "000031-019",
+        "000031-020",
+        "000031-021",
+        "000031-022",
+        "000031-023",
+        "000031-024",
+        "000031-025",
+        "000031-026",
+        "000031-027",
+        "000031-028",
+        "000031-029",
+        "000031-030",
+        "000031-032",
+        "000031-033",
+        "000031-034",
+        "000031-035",
+        "000031-036",
+        "000031-037",
+        "000031-038",
+        "000031-039",
+        "000031-040",
+        "000031-041",
+        "000031-042",
+        "000031-043",
+        "000031-044",
+        "000031-045",
+        "000031-046",
+        "000031-047",
+        "000031-048",
+        "000031-049",
+        "000031-050",
+        "000031-051",
+        "000031-053",
+        "000031-054",
+        "000031-055",
+        "000031-056",
+        "000031-057",
+        "000031-058",
+        "000031-059",
+        "000031-060",
+        "000031-061",
+        "000031-062",
+        "000031-063",
+        "000031-065",
+        "000031-066",
+        "000031-067",
+        "000031-068",
+        "000031-069",
+        "000031-070",
+        "000031-071",
+        "000031-072",
+        "000031-073",
+        "000031-074",
+        "000031-075",
+        "000031-076",
+        "000031-077",
+        "000031-078",
+        "000031-080",
+        "000031-081",
+        "000031-082",
+        "000031-083",
+        "000031-084",
+        "000031-086",
+        "000031-087",
+        "000031-088",
+        "000031-089",
+        "000031-090",
+        "000031-091",
+        "000031-092",
+        "000031-094",
+        "000031-095",
+        "000031-096",
+        "000031-097",
+        "000031-098",
+        "000031-099",
+        "000031-100",
+        "000031-101",
+        "000031-102",
+        "000031-103",
+        "000031-104",
+        "000031-105",
+        "000031-106",
+        "000031-107",
+        "000031-108",
+        "000031-109",
+        "000031-110",
+        "000031-111",
+        "000031-112",
+        "000031-114",
+        "000031-115",
+        "000031-116",
+        "000031-117",
+        "000031-118",
+        "000031-119",
+        "000031-120",
+        "000031-121",
+        "000031-122",
+        "000031-123",
+        "000031-124",
+        "000031-125",
+        "000031-126",
+        "000031-127",
+        "000031-128",
+        "000031-129",
+        "000031-130",
+        "000031-131",
+        "000031-132",
+        "000031-134",
+        "000031-135",
+        "000031-136",
+        "000031-137",
+        "000031-138",
+        "000031-139",
+        "000031-140",
+        "000031-141",
+        "000031-142",
+        "000031-143",
+        "000031-144",
+        "000031-145",
+        "000031-146",
+        "000031-147",
+        "000031-148",
+        "000031-149",
+        "000031-150",
+        "000031-151",
+        "000031-152",
+        "000031-153",
+        "000031-154",
+        "000031-155",
+        "000031-156",
+        "000031-157",
+        "000031-158",
+        "000031-159",
+        "000031-160",
+        "000031-161",
+        "000031-163",
+        "000031-164",
+        "000031-165",
+        "000031-166",
+        "000031-167",
+        "000031-168",
+        "000031-169",
+        "000031-170",
+        "000031-171",
+        "000031-172",
+        "000031-173",
+        "000031-174",
+        "000031-175",
+        "000031-176",
+        "000031-177",
+        "000031-178",
+        "000031-180"
+      ],
+      "supersededTextIDs": [
+        "000031-013",
+        "000031-031",
+        "000031-052",
+        "000031-064",
+        "000031-079",
+        "000031-085",
+        "000031-093",
+        "000031-113",
+        "000031-133",
+        "000031-162",
+        "000031-179"
+      ],
+      "pilotThreeRolesCompleted": true,
+      "attemptsField": "fullPool.reviewAttempts",
+      "pilotField": "pilot.passes",
+      "exactMatchCoverageAtAuthoringFreezeV1": 179
+    },
+    "currentReviewProvider": "Codex",
+    "freeze": {
+      "createdAt": "2026-10-21T20:10:28.392Z",
+      "count": 240,
+      "inputPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.input.json",
+      "inputSha256": "5bd1d6aee1408e18486b8556bb40c0d8716b392b9440315802af9271bd5130a2",
+      "aliasesPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.private-aliases.json",
+      "aliasesSha256": "0f4c498bccf1ec1b7978dc3de7393f3c7323e8fa9d35ccddf14fdfe27fc65a6a",
+      "definitionPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-review-freeze-v1.definition.json",
+      "definitionSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+      "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+      "markdown": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md",
+      "labels": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.labels.json",
+      "textSha256": "873104306ea95f72f76b10cd7bfa1b04335ede50ef51489beecdf310a0c98058",
+      "labelsSha256": "f03750650f2b5c87eb199beebaaaa513abfddf5ba0f31a64cfca118ef234dd48",
+      "verification": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.verification.json",
+      "scope": "Reconciled current full pool for fresh independent Codex final review; author adjudications await independent final review and QA."
+    },
+    "freezeSurfaceAudit": {
+      "scope": "Current 240 development texts after twelve consistency repairs; exact normalized full-text duplicate check.",
+      "normalizedDuplicateTexts": 0,
+      "independentSourceAndSplitOverlapAudit": "Parent-assigned, pending"
+    },
+    "authoringFreezeV1": {
+      "createdAt": "2026-10-21T19:52:09.945Z",
+      "count": 240,
+      "inputPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-review-freeze-v1.input.json",
+      "inputSha256": "e55fecfef888c7ef211275c430e7a26b829e8c533fe6691119db4b55bd8db15c",
+      "aliasesPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-review-freeze-v1.private-aliases.json",
+      "aliasesSha256": "7bcf1cd41ac8f9261fac22ce08fdec58ff82a991bc2b53183fa48552e0763522",
+      "definitionPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-review-freeze-v1.definition.json",
+      "definitionSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+      "markdown": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md",
+      "labels": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.labels.json",
+      "textSha256": "889830ecd69b8cae9e76903a83e69838ce80dbff91ae4493c1da5642593a962a",
+      "labelsSha256": "709beaaec77709e30593ce9500640812df93aa3605d2dc11cc5955c9d44e1e95",
+      "verification": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-review-freeze-v1.verification.json",
+      "scope": "Authoring and provisional labels frozen for fresh independent Codex review; all three roles pending."
+    },
+    "codexReviews": [
+      {
+        "provider": "Codex",
+        "reviewer": "Codex native subagent",
+        "reviewerContext": "Curie (parent-reported native context)",
+        "sessionId": null,
+        "modelIdentifier": null,
+        "role": "blind",
+        "path": "/tmp/000031-development-codex-blind-v1.review.json",
+        "sha256": "3032efb3c9e935ec22cc8e0354bde9b371f10bb226ab0eba1af16f26ce87934a",
+        "sourceSha256": "e55fecfef888c7ef211275c430e7a26b829e8c533fe6691119db4b55bd8db15c",
+        "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+        "definitionTextSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+        "counts": {
+          "texts": 240,
+          "hits": 119,
+          "noHits": 121
+        },
+        "objectionIDs": [
+          "000031-031",
+          "000031-085",
+          "000031-093",
+          "000031-179",
+          "000031-113",
+          "000031-150",
+          "000031-133",
+          "000031-064"
+        ],
+        "disagreementIDs": [
+          "000031-150"
+        ],
+        "currentTextExactMatches": 228,
+        "changedTextIDsRequiringFreshReview": [
+          "000031-013",
+          "000031-031",
+          "000031-052",
+          "000031-064",
+          "000031-079",
+          "000031-085",
+          "000031-093",
+          "000031-113",
+          "000031-133",
+          "000031-179",
+          "000031-211",
+          "000031-219"
+        ]
+      },
+      {
+        "provider": "Codex",
+        "reviewer": "Codex native subagent",
+        "reviewerContext": "Fresh native context (name unavailable in artifact)",
+        "sessionId": null,
+        "modelIdentifier": null,
+        "role": "adversarial",
+        "path": "/tmp/000031-development-codex-adversarial-v1.review.json",
+        "sha256": "1db3d6b9842d5df2fef7e1c27ef60ebd352066024be86c578feda173f03b5132",
+        "sourceSha256": "e55fecfef888c7ef211275c430e7a26b829e8c533fe6691119db4b55bd8db15c",
+        "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+        "definitionTextSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+        "counts": {
+          "texts": 240,
+          "hits": 120,
+          "noHits": 120
+        },
+        "objectionIDs": [
+          "000031-031",
+          "000031-079",
+          "000031-219",
+          "000031-093",
+          "000031-179",
+          "000031-113",
+          "000031-150",
+          "000031-013",
+          "000031-211",
+          "000031-133",
+          "000031-052"
+        ],
+        "disagreementIDs": [],
+        "currentTextExactMatches": 228,
+        "changedTextIDsRequiringFreshReview": [
+          "000031-013",
+          "000031-031",
+          "000031-052",
+          "000031-064",
+          "000031-079",
+          "000031-085",
+          "000031-093",
+          "000031-113",
+          "000031-133",
+          "000031-179",
+          "000031-211",
+          "000031-219"
+        ]
+      }
+    ],
+    "codexReconciliation": {
+      "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
+      "sha256": "b7bf50c01de1cee7f4adeeeba51f50ac69abe68314065f2a5fcf5a6d73c3f79c",
+      "flaggedTexts": 13,
+      "changedTexts": 12,
+      "changedLabels": 0,
+      "retainedDisputedClassifications": [
+        "000031-150"
+      ],
+      "changedIDs": [
+        "000031-013",
+        "000031-031",
+        "000031-052",
+        "000031-064",
+        "000031-079",
+        "000031-085",
+        "000031-093",
+        "000031-113",
+        "000031-133",
+        "000031-179",
+        "000031-211",
+        "000031-219"
+      ],
+      "unresolvedAuthorAdjudications": 0,
+      "independentFinalReview": "pending",
+      "adjudications": [
+        {
+          "id": "000031-013",
+          "decision": "Retain no-hit. Timed scene transitions and dependencies supply causal evidence for the recommendation. The proposed parallel move conflicts with the earlier serial constraints. Also, 210 + 90 + 90 = 390 seconds, not eight minutes.",
+          "verification": "Transition excess becomes 210 + 135 + 135 = 480 seconds. Removing 195 + 135 + 135 = 465 seconds from 58 minutes yields 50 minutes 15 seconds, consistent with about 50 minutes. The existing table/revolve/canopy order remains intact.",
+          "beforeSha256": "c311e88858f6265281956ad715befe52e7a34e34a88d9e61c7557d5a3a2fae4f",
+          "afterSha256": "3c0c1e81c0b6cb4c30539e7a43695ee282fc797f5169794a7539b163263a99f9",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-031",
+          "decision": "Retain hit. Recipe reconstruction and invoice/phone narration unnecessarily delay the delivery decision. The 66-bag holiday fortnight fits a nominal 70-bag store unless the other stock is quantified.",
+          "verification": "70 - 6 = 64 flour-bag spaces. December use is 2 * 33 = 66, exceeding that space. The January 64-bag delivery fits, with the existing sugar and semolina retained.",
+          "beforeSha256": "28150afa4d9b85ef01c31c6d85c9967a226a265ed5653969c053a83bc4545bae",
+          "afterSha256": "2e13f28fc1ad04717cf9cde43388e4d4deb150441a03250a9bf06c3a12dbfec4",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-052",
+          "decision": "Retain no-hit. The first answer already explains the earlier-hold advantage; later purchase and queue details support it. The stated copy rule and forecast require corrected counts and explicit queue movements.",
+          "verification": "ceil(47/5) = 10, so six initial copies require four more. ceil(61/5) = 13, requiring three more. 47 + 14 - 6 - 8 = 47 current requests; only the six earlier fulfilled requests change this reader from position 47 to 41. 41/13 * 3 = 9.46 weeks before pickup/return variation.",
+          "beforeSha256": "2844ffdbd3b67aaa8a4f627fc9821c37a9d317eacc870d0b30c8397e00ff80d3",
+          "afterSha256": "17533edc37a670af34a1df3a31e05646622b93f5b4a048906fba58983ede4b1f",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-064",
+          "decision": "Retain no-hit. Request tracing, separate TLS hops and trust-bundle evidence are necessary causal reasoning. The assertion that the procedure needs no change conflicts with the new validation gate.",
+          "verification": "The conclusion now distinguishes unchanged certificate replacement steps from the explicitly added validation step.",
+          "beforeSha256": "aed809e745a45c69c3773ed2d535e65c8b4a1dc6085e23f142281ce40b49db29",
+          "afterSha256": "b997f06150c795b680770a0c1bfb72a06aef9df961c0ccec4e4091c50c175217",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-079",
+          "decision": "Retain hit. Track-cleaning, unanswered calls and spreadsheet narration precede the direction answer. The third-night campsite implies crossing the following afternoon, conflicting with the earlier day-three claim.",
+          "verification": "Three overnight camps on a four-day trip put the crossing after the third night on day four; the direction and afternoon ascent remain unchanged.",
+          "beforeSha256": "b9dbaffb0d98225a0aa23a6ec9740194662823f8a15235a3f1282573070105c6",
+          "afterSha256": "3d136280ce5218f8eb0d1555976b8695d5b19fc7b79e3b45132e13aceaec820d",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-085",
+          "decision": "Retain no-hit. The early paragraph supplies the qualified loan decision; later institutional anecdotes do not withhold it. The exposure calculations omit seven days per week and the original alternatives exceed the stated ceiling.",
+          "verification": "100 * 16 * 7 * 11 = 123200. The alternatives are 50 * 16 * 7 * 2 = 11200 and 100 * 8 * 7 * 2 = 11200, each below 12500.",
+          "beforeSha256": "458e491ad1f0e66b00e1fa609c89a768bc84cf5c16faaccc563e7d017f83244c",
+          "afterSha256": "77f95f96e801a32d8e3c4a8ead285badf0a3ab75ab2d877e87241a84c963595a",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-093",
+          "decision": "Retain no-hit. WAL receipt, recovery conflict and query timing provide necessary causal reasoning. Correct the batch start and query end so cleanup follows the eleven-minute transaction and the peak lag occurs during the pause.",
+          "verification": "01:03 + 11 minutes = 01:14 commit/conflict. The dashboard runs 01:12-01:54. The replay pause runs 01:14-01:54, and the 39:40 lag sample at 01:53:40 occurs before the query ends. Four-minute catch-up finishes around 01:58.",
+          "beforeSha256": "d42a95b90edcaa0ffa6efc1b86b7fdd3d58c449a63bdd302808437881c5f3b0b",
+          "afterSha256": "74da3b40a7c10a6ceb2ce72b143087a9c26fb79792a0ba174dd0bf34fd5b0456",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-113",
+          "decision": "Retain no-hit. Detector location, particle response, fluid trial and licence conditions support the later conditional answer. The approved isolation period must respect the stated restoration-before-egress condition.",
+          "verification": "The operative plan now restores detection before curtain call and audience egress, while retaining the warden through the full isolation period.",
+          "beforeSha256": "d5c0cf9eb4f8f5176b3b21de7dfa4e01eb6fcc75d6a15fad89b7713e41215859",
+          "afterSha256": "c12495b47cfb6affd092f7d4197be2933bbe904a0417dfdb01bfad15eb223539",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-133",
+          "decision": "Retain no-hit. The competing hypotheses, parameter diff and counterfactual test meaningfully establish the conclusion. A 93-minute production pause cannot have the stated 31-minute linear lag peak; lower write volume alone does not explain a shorter elapsed pause.",
+          "verification": "08:37 - 07:04 = 93 minutes. The query itself runs 07:01-08:37 = 96 minutes. Production catches up three minutes after the query; staging has an explicitly shorter query rather than attributing elapsed pause length to write volume.",
+          "beforeSha256": "88249783a72e7f7559e3b1c767fb104f7600ce302785eca7342d5ee5bd6cba5f",
+          "afterSha256": "c60a9f24bf2596cd746134b338eb89e0641f0e9c2d1e03563735ef242c147c2e",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-150",
+          "decision": "Retain hit and preserve as mandatory disputed boundary case. Blind assigns no-hit; adversarial and historical Opus assign hit. Sampling and oven-dry calibration contribute to the threshold and meter correction. Committee funding, meter brands, the shared-sheet administration and the village-hall meeting tour remain removable before the numerical answer. The opening lower-than-most phrase withholds the requested target. The frozen definition permits relevant methodology to coexist with unnecessary delay; it sets no exemption for incidental procurement narration within a useful method.",
+          "verification": "All text and label snippets remain unchanged. Preserve both opposing opinions and this definition-based adjudication for independent final review.",
+          "beforeSha256": "9b85af5ece3c6370aa2cc78fe89563632da995041ed1f7581473a6641808a79e",
+          "afterSha256": "9b85af5ece3c6370aa2cc78fe89563632da995041ed1f7581473a6641808a79e",
+          "textChanged": false,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-179",
+          "decision": "Retain hit. Mapping, deleted spreadsheet options, repeated calls and thread rereading delay the campsite choice. Three identified two-person tents already cover six people, making the extra borrowing request unexplained.",
+          "verification": "Two working tents plus one borrowed tent provide the required three; the unavailable tent explains the request.",
+          "beforeSha256": "14aa3852d9803e61c00077f109b054d12c746f0db6414fdf8442c7d7553d772c",
+          "afterSha256": "9369e7a1776d6f5a817b5990087cdd920d4c05264eeb6578abbde85b69457918",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-211",
+          "decision": "Retain hit. Committee procedure and feed-history narration delay the connection answer. The earlier alternative must use the stated first Route 14 departure rather than an unexplained 06:47 bus.",
+          "verification": "The first Route 14 remains 07:02. Its nineteen-minute journey matches the stated 07:22-07:41 trip, and arrival at 07:21 leaves nine minutes before 07:30.",
+          "beforeSha256": "aaf40bbd53c4a16c59ecd038565cdc07465c7f73ebc20fd0f91ffef7b3856dc5",
+          "afterSha256": "6f91f360d251822b41e8a80ae58110f4305fe1d4153dd02611a4ccd1610eb571",
+          "textChanged": true,
+          "labelChanged": false
+        },
+        {
+          "id": "000031-219",
+          "decision": "Retain hit. Receiving, roast scheduling and software history delay the reorder-setting explanation. At 420 bags a week, 900 bags cover 15 days, whereas the August 22 to September 15 interval is 24 days. Quantify the uncounted opened-case stock and give its direction.",
+          "verification": "900 + 540 = 1440; 1440 / (420/7) = 24 days. August 22 + 24 days = September 15; September 19 is four days later and 28 days after the order. Two opened 500-bag cases can hold 540 remaining bags.",
+          "beforeSha256": "9c6af2fa829d4024f0e144abbdc516e5858373fc9b737c22c7e2b0d6705bd5df",
+          "afterSha256": "f70093e61e423d769d4adc1e0d2689ed8dadd8e0390668ca9ec336f8e0a9d427",
+          "textChanged": true,
+          "labelChanged": false
+        }
+      ]
+    }
+  },
+  "mandatoryCases": [
+    {
+      "id": "000031-001",
+      "reason": "Parent-approved pilot seed."
+    },
+    {
+      "id": "000031-002",
+      "reason": "Parent-approved pilot seed."
+    },
+    {
+      "id": "000031-003",
+      "reason": "Parent-approved pilot seed."
+    },
+    {
+      "id": "000031-004",
+      "reason": "Parent-approved pilot seed."
+    },
+    {
+      "id": "000031-005",
+      "reason": "Parent-approved pilot seed."
+    },
+    {
+      "id": "000031-006",
+      "reason": "Retain parent-approved no-hit and keep mandatory. Active growth, in-case moisture and fragile materials each determine the treatment and transport recommendation. This causal contribution, rather than the announced report structure, justifies the later answer."
+    },
+    {
+      "id": "000031-007",
+      "reason": "Retain hit and make mandatory. Acquisition history, collection growth and textile-room funding precede the loan decision; the actual conditions follow from silk deterioration and light exposure supplied after the answer. The transition 'Given all that' does not make the history necessary."
+    },
+    {
+      "id": "000031-009",
+      "reason": "Retain no-hit and make mandatory. The corrected case size, weekly delivery cutoff and catering-adjusted usage determine the order-up-to rule and its numerical targets. Their setup makes the later recommendation interpretable."
+    },
+    {
+      "id": "000031-014",
+      "reason": "Retain hit and make mandatory. The useful load-in advice answers a secondary matter. Chapel history, refurbishment funding and console nostalgia delay the permission and staffing conditions without explaining them."
+    },
+    {
+      "id": "000031-020",
+      "reason": "Retain no-hit and make mandatory. Origin-based train restrictions and the distinction between through services and local starters resolve the conflicting advice and establish why two nearly simultaneous departures have different validity. The later verdict depends on these rules."
+    },
+    {
+      "id": "000031-024",
+      "reason": "Retain no-hit and make mandatory. Altitude, wind and cold-fuel tests distinguish competing causes of the failure; the replacement must address the established cold-vaporization problem, while wind tests determine the screen requirement. The methodology contributes to interpreting the qualified recommendation."
+    },
+    {
+      "id": "000031-022",
+      "reason": "Retain hit and make mandatory. The before/after comparison windows are necessary methodology. Portal changes, agreement countersigning, mistaken exports and date-format conversion are an unnecessary acquisition tour before the collision result."
+    },
+    {
+      "id": "000031-031",
+      "reason": "Preserve this reviewed control through selection. Retain hit. Recipe reconstruction and invoice/phone narration unnecessarily delay the delivery decision. The 66-bag holiday fortnight fits a nominal 70-bag store unless the other stock is quantified. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-023",
+      "reason": "Retain hit and make mandatory. Parking advice is useful to the outing but does not explain route direction. Estate history, hydro-plan history and the author's past trip further delay the direction and its scrambling/bail-out reasons."
+    },
+    {
+      "id": "000031-029",
+      "reason": "Retain no-hit and make mandatory. Route ambiguity, available daylight, first-timer scrambling pace and water-carrying load determine the separate verdicts for the standard and full traverses. The later answer follows necessary interpretive constraints."
+    },
+    {
+      "id": "000031-039",
+      "reason": "Retain hit and make mandatory. General renewal possibility is an inadequate early answer to this specific renewal-and-how question. Routing through consortium/lender queues, courier and staffing details delay the ILLiad action and deadline; lender authority is restated with the operative answer."
+    },
+    {
+      "id": "000031-040",
+      "reason": "Retain no-hit and make mandatory. Digitization coverage, archivist attendance, the fragile-volume reader limit and advance retrieval determine which dates, materials and group arrangements can meet the society's request. The necessary constraints precede the conditional booking answer."
+    },
+    {
+      "id": "000031-033",
+      "reason": "Retain no-hit and make mandatory. Changed arrival platform, the accessible route, lift capacity and assistance timing yield the rear-car/booked-assistance conditions and fallback train. The sequential reasoning is necessary to interpret whether the transfer works."
+    },
+    {
+      "id": "000031-054",
+      "reason": "Retain hit and make mandatory. Permission-slip advice, transport-contract history, the old capitol trip and driver certification delay the operative rescheduling answer. Some cancellation context is relevant, but it coexists with removable preliminary material."
+    },
+    {
+      "id": "000031-053",
+      "reason": "Retain no-hit and make mandatory. Category weights, the two-lab denominator and the missing-code bulk update explain the discrepancy and correction. Author corrected an internal arithmetic defect from 61/D-minus to 70/C-minus; the unchanged no-hit classification receives a fresh mixed-class blind review and subsequent complete-pool passes."
+    },
+    {
+      "id": "000031-042",
+      "reason": "Retain hit and make mandatory. Railway-land history, sampling and the laboratory results help interpret the crop advice. AGM votes, quotations, conflict-of-interest abstention, courier logistics and volunteer thanks unnecessarily delay the answer promised by the title."
+    },
+    {
+      "id": "000031-060",
+      "reason": "Retain no-hit and make mandatory. The curatorial meaning of duplicate, gift-deed consent and permitted expenditure each determine which prints could be sold and what the proceeds could fund. Their reasoning precedes the operative conditional answer."
+    },
+    {
+      "id": "000031-049",
+      "reason": "Retain no-hit and make mandatory. Soil-water pH versus reserve acidity determines the lime quantity, and lime form determines timing and application. The definitions make the later yes-with-dose answer interpretable."
+    },
+    {
+      "id": "000031-059",
+      "reason": "Retain hit and make mandatory. The early reference to light omits the permission decision. A generic registrar/committee/signature process delays the six-month refusal; the actual conservation budget that establishes the answer appears afterward."
+    },
+    {
+      "id": "000031-074",
+      "reason": "Retain hit and make mandatory. Wildcard history and retired pinning clients contribute to migration context. The unrelated alert investigation and extended PKI history delay the restart decision and its payments exception."
+    },
+    {
+      "id": "000031-080",
+      "reason": "Retain no-hit and make mandatory. Comfort versus limit ratings, ground insulation and the elevation-adjusted forecast determine how to interpret the bag's 20-degree label and which changes are needed. The later verdict follows necessary definitions and causal reasoning."
+    },
+    {
+      "id": "000031-063",
+      "reason": "Retain hit and make mandatory. Cost-tag information is useful to the bill and later cleanup, but it and the replica's origin do not explain whether the replica is needed for cutover. The rollback dependency that answers that question is held until after them."
+    },
+    {
+      "id": "000031-075",
+      "reason": "Retain hit and make mandatory. The failed 2014 row contributes one disease example later. The uncle's ritual, biscuit tin, inherited stock and author's catalogue habits delay the conditional planting answer without helping interpret it."
+    },
+    {
+      "id": "000031-073",
+      "reason": "Retain no-hit and make mandatory. The early rejection of smaller batches alone is supported by WAL receipt/replay distinctions, snapshot conflict and the infinite standby-delay setting. That causal chain determines the rerun conditions; the later operational plan follows meaningful diagnosis."
+    },
+    {
+      "id": "000031-062",
+      "reason": "Retain hit and make mandatory. Kerb height and ramp limits are necessary interpretation. Protocol history, panel composition, scoring-framework location, procurement and purchase-order chronology unnecessarily delay the boarding/alighting answer."
+    },
+    {
+      "id": "000031-064",
+      "reason": "Preserve this reviewed control through selection. Retain no-hit. Request tracing, separate TLS hops and trust-bundle evidence are necessary causal reasoning. The assertion that the procedure needs no change conflicts with the new validation gate. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-069",
+      "reason": "Retain no-hit and make mandatory. Ridge commitment, the gate's opening time, forest darkness and the group's descent limitation yield the clockwise route and cutoff. The later plan relies on the preceding constraints."
+    },
+    {
+      "id": "000031-071",
+      "reason": "Retain hit and make mandatory. Work dates explain the closure window, while bid history, attendance, minutes approval, insurance and permit chronology delay whether residents can use the room. A portal-year typo is corrected from 2026 to 2025 to match the stated weekdays, followed by fresh mixed-class review."
+    },
+    {
+      "id": "000031-098",
+      "reason": "Retain hit and make mandatory. Puffin information later helps prioritize time ashore, but geology and Romantic-tour history delay the transport/booking answer without helping interpret it."
+    },
+    {
+      "id": "000031-100",
+      "reason": "Retain no-hit and make mandatory. Attribution vocabulary, factory versus individual authorship, and the ambiguity of the unmarked pattern number jointly determine the permissible label. The later qualified answer follows necessary definitions and evidence."
+    },
+    {
+      "id": "000031-091",
+      "reason": "Retain hit and make mandatory. Actual hold usage supports the release policy. System-category history, committee debates and report reconciliation unnecessarily delay it. Clarify that the accessibility reserve is separate from the 22 general holds so the release arithmetic is internally unambiguous, then re-review the changed complete text."
+    },
+    {
+      "id": "000031-082",
+      "reason": "Retain hit and make mandatory. The number concordance contributes to identifying the 18 loans. The extended system-migration, filing-convention, archive-location and safe-access narrative delays the ownership answer without comparable interpretive value."
+    },
+    {
+      "id": "000031-089",
+      "reason": "Retain no-hit and make mandatory. Storage-temperature thresholds, curing, actual garage measurements and varietal behavior determine where the potatoes can stay, which to use first and the cold-weather contingency. The later answer depends on the setup."
+    },
+    {
+      "id": "000031-109",
+      "reason": "Retain no-hit and make mandatory. The half's reference time, sign-in rather than arrival, and the separate wig call each change the actual reporting time. The later times follow necessary definitions and exceptions."
+    },
+    {
+      "id": "000031-120",
+      "reason": "Retain no-hit and make mandatory. Customer interpretation, dispatch evidence, eligible product types and the business-day/holiday calendar each determine what shipping wording could be promised. The expanded complete text's necessary setup justifies its later qualified answer."
+    },
+    {
+      "id": "000031-103",
+      "reason": "Retain hit and make mandatory. The oat-milk distinction and some shelf-life information matter. Dairy-route origin and regional promotion history unnecessarily delay the cost comparison and refusal. Correct the proposed extra delivery from Wednesday to Monday so it actually interrupts the stated Friday-to-Tuesday gap, then re-review the changed complete text."
+    },
+    {
+      "id": "000031-111",
+      "reason": "Retain hit and make mandatory. The score, threshold and review criteria answer the parent. Governance, data-migration administration and staffing chronology delay them; a limited reassurance about transcription does not make the whole run-up necessary."
+    },
+    {
+      "id": "000031-107",
+      "reason": "Retain hit and make mandatory. Level definitions help interpret the clearance answer. Camp origin, committee revision history and district processing volumes unnecessarily precede it."
+    },
+    {
+      "id": "000031-123",
+      "reason": "Retain hit and make mandatory. The hardship-fund history contributes to later help, but itinerary news, trip origin, vendor selection and bookkeeping history delay whether the child can still go and the new payment deadline."
+    },
+    {
+      "id": "000031-127",
+      "reason": "Retain hit and make mandatory. The rebuild relates to the insurer's requirement, but hall origin, donor biography and booking-system history delay the mandatory-fee answer without explaining it."
+    },
+    {
+      "id": "000031-140",
+      "reason": "Retain no-hit and make mandatory. Carrier acceptance versus label printing, business days and cutoff-specific performance determine the permissible same-day claim. The later conditional wording depends on those definitions and evidence."
+    },
+    {
+      "id": "000031-124",
+      "reason": "Retain no-hit and make mandatory. Blueprint changes, school pacing, item-level performance, a matched curriculum comparison and a residual skills gap distinguish a sequencing problem from a curriculum defect. Their ordered reasoning supports the later qualified refusal to replace the program."
+    },
+    {
+      "id": "000031-138",
+      "reason": "Retain hit and make mandatory. A single long paragraph of venue and platform history delays the simple exchange answer; paragraph count alone does not excuse unnecessary run-up."
+    },
+    {
+      "id": "000031-126",
+      "reason": "Retain hit and make mandatory. The old flood anecdote loosely illustrates valve risk, but building nostalgia and past emergencies delay the present instruction. The operative reason is independently given with the instruction about known valve positions."
+    },
+    {
+      "id": "000031-131",
+      "reason": "Retain hit and make mandatory. Staging lag and partition-maintenance evidence support the deferral. RFC meeting logistics, scoring-template debate and ticket cleanup unnecessarily delay the yes/no decision."
+    },
+    {
+      "id": "000031-134",
+      "reason": "Retain hit and make mandatory. Some cert-manager explanation relates to reload behavior. The separate wildcard debate, past expiry incident and resolved chain-pinning history delay the answer and its gateway exception."
+    },
+    {
+      "id": "000031-129",
+      "reason": "Retain no-hit and make mandatory. Street-to-platform access versus level boarding, platform changes and staff availability determine the direction- and time-specific answer. The preceding definitions and operating constraints are necessary to interpret it."
+    },
+    {
+      "id": "000031-133",
+      "reason": "Preserve this reviewed control through selection. Retain no-hit. The competing hypotheses, parameter diff and counterfactual test meaningfully establish the conclusion. A 93-minute production pause cannot have the stated 31-minute linear lag peak; lower write volume alone does not explain a shorter elapsed pause. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-104",
+      "reason": "Retain no-hit and make mandatory. Packer distribution, reciprocal adjacent-bin swaps, relabeling timing and outlier accounting are causal tests that distinguish retraining from relabeling. The investigative order contributes to interpreting the conclusion rather than merely narrating process."
+    },
+    {
+      "id": "000031-144",
+      "reason": "Retain no-hit and make mandatory. Weekday-only timing, the shared circuit, measured loads and dishwasher scheduling distinguish an overlap fault from a defective espresso machine. The causal sequence determines both the permanent and temporary fixes."
+    },
+    {
+      "id": "000031-159",
+      "reason": "Retain hit and make mandatory. The early reassurance omits the southbound stop move affecting the stated journey. Consultation chronology, drop-in attendance, unrelated route discussion, roster administration and printing logistics delay that operative answer."
+    },
+    {
+      "id": "000031-143",
+      "reason": "Retain hit and make mandatory. Prior attrition helps explain a completion bonus, but vest logistics and most hiring-history detail delay the staffing number and role allocation without informing them."
+    },
+    {
+      "id": "000031-160",
+      "reason": "Retain no-hit and make mandatory. Bicycle length, goods versus passengers, directional/day-specific peak periods and vessel layout each change the boarding category and booking requirement. The later answer depends on these definitions and prerequisites."
+    },
+    {
+      "id": "000031-150",
+      "reason": "Retain hit and preserve as mandatory disputed boundary case. Blind assigns no-hit; adversarial and historical Opus assign hit. Sampling and oven-dry calibration contribute to the threshold and meter correction. Committee funding, meter brands, the shared-sheet administration and the village-hall meeting tour remain removable before the numerical answer. The opening lower-than-most phrase withholds the requested target. The frozen definition permits relevant methodology to coexist with unnecessary delay; it sets no exemption for incidental procurement narration within a useful method."
+    },
+    {
+      "id": "000031-180",
+      "reason": "Retain no-hit and make mandatory. Hydrostatic-head meaning, pressure differences between fly and floor, wind exposure and saturated ground determine the conditional replacement advice. Their setup contributes to interpreting the answer."
+    },
+    {
+      "id": "000031-164",
+      "reason": "Retain no-hit and make mandatory. Cross-performance demand, subscription defaults, single-ticket behavior and the parade distinguish a shrinking audience from a renewal/access problem. The later keep-with-conditions recommendation follows meaningful diagnostic evidence."
+    },
+    {
+      "id": "000031-171",
+      "reason": "Retain hit and make mandatory. Applicable terms and buyer categories support the answer and notification plan. The export retries, reconciliation procedure and filing-cabinet chase unnecessarily delay the contractual refund conclusion."
+    },
+    {
+      "id": "000031-013",
+      "reason": "Preserve this reviewed control through selection. Retain no-hit. Timed scene transitions and dependencies supply causal evidence for the recommendation. The proposed parallel move conflicts with the earlier serial constraints. Also, 210 + 90 + 90 = 390 seconds, not eight minutes. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-052",
+      "reason": "Preserve this reviewed control through selection. Retain no-hit. The first answer already explains the earlier-hold advantage; later purchase and queue details support it. The stated copy rule and forecast require corrected counts and explicit queue movements. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-079",
+      "reason": "Preserve this reviewed control through selection. Retain hit. Track-cleaning, unanswered calls and spreadsheet narration precede the direction answer. The third-night campsite implies crossing the following afternoon, conflicting with the earlier day-three claim. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-085",
+      "reason": "Preserve this reviewed control through selection. Retain no-hit. The early paragraph supplies the qualified loan decision; later institutional anecdotes do not withhold it. The exposure calculations omit seven days per week and the original alternatives exceed the stated ceiling. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-093",
+      "reason": "Preserve this reviewed control through selection. Retain no-hit. WAL receipt, recovery conflict and query timing provide necessary causal reasoning. Correct the batch start and query end so cleanup follows the eleven-minute transaction and the peak lag occurs during the pause. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-113",
+      "reason": "Preserve this reviewed control through selection. Retain no-hit. Detector location, particle response, fluid trial and licence conditions support the later conditional answer. The approved isolation period must respect the stated restoration-before-egress condition. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-179",
+      "reason": "Preserve this reviewed control through selection. Retain hit. Mapping, deleted spreadsheet options, repeated calls and thread rereading delay the campsite choice. Three identified two-person tents already cover six people, making the extra borrowing request unexplained. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-211",
+      "reason": "Preserve this reviewed control through selection. Retain hit. Committee procedure and feed-history narration delay the connection answer. The earlier alternative must use the stated first Route 14 departure rather than an unexplained 06:47 bus. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-219",
+      "reason": "Preserve this reviewed control through selection. Retain hit. Receiving, roast scheduling and software history delay the reorder-setting explanation. At 420 bags a week, 900 bags cover 15 days, whereas the August 22 to September 15 interval is 24 days. Quantify the uncounted opened-case stock and give its direction. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    }
+  ]
+}

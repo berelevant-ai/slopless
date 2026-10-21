@@ -1,0 +1,3229 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "873104306ea95f72f76b10cd7bfa1b04335ede50ef51489beecdf310a0c98058",
+  "split": "development",
+  "source": {
+    "name": "Synthetic complete-text development pool with Claude and Codex authoring",
+    "originalPath": "/tmp/000031-development-fullpool-manifest-v1.json",
+    "commit": "d12ff193a4890ba0cd83bd7ceaac993f45ae4ad3",
+    "model": "claude-opus-5-5 (228 original texts); Codex (12 supplementary texts and documented local revisions)",
+    "prompt": "/tmp/000031-development-fullpool-generation-v1.mjs",
+    "notes": "Complete 240-text provisional pool. Original texts 001-228 were generated through authenticated tool-disabled Claude CLI Opus contexts using the extracted frozen definition and development-only authoring briefs. Codex performed documented local corrections, including the substantive expansion of 162. Fresh parent-assigned Codex authors Mencius and Nash supplied texts 229-240 from assigned rows and the extracted definition, with no dataset examples or holdout. Exact Codex model identifiers were unavailable in the supplied artifacts. Generation requests, source hashes, author sessions, coverage and review adjudications are recorded in runners/results/buried-answer-development-review.json. The user authorized fresh independent Codex blind, adversarial and final reviews. Historical Opus opinions are supplementary provenance. Fresh independent native Codex blind and adversarial reviews completed on authoring freeze v1. Definition-based reconciliation retained all provisional classifications and repaired twelve internal consistency defects. Exact originals, replacements, reviewer opinions and before/after hashes are preserved in the linked mixed-provider review record and its private reconciliation artifact. Complete revised texts await fresh independent final Codex review and parent QA."
+  },
+  "samples": [
+    {
+      "id": "000031-001",
+      "start": 44,
+      "end": 2199
+    },
+    {
+      "id": "000031-002",
+      "start": 2216,
+      "end": 4229
+    },
+    {
+      "id": "000031-003",
+      "start": 4246,
+      "end": 7522
+    },
+    {
+      "id": "000031-004",
+      "start": 7539,
+      "end": 10984
+    },
+    {
+      "id": "000031-005",
+      "start": 11001,
+      "end": 16483
+    },
+    {
+      "id": "000031-006",
+      "start": 16500,
+      "end": 21535
+    },
+    {
+      "id": "000031-007",
+      "start": 21552,
+      "end": 23572
+    },
+    {
+      "id": "000031-008",
+      "start": 23589,
+      "end": 25702
+    },
+    {
+      "id": "000031-009",
+      "start": 25719,
+      "end": 28537
+    },
+    {
+      "id": "000031-010",
+      "start": 28554,
+      "end": 31436
+    },
+    {
+      "id": "000031-011",
+      "start": 31453,
+      "end": 34438
+    },
+    {
+      "id": "000031-012",
+      "start": 34455,
+      "end": 37638
+    },
+    {
+      "id": "000031-013",
+      "start": 37655,
+      "end": 39712
+    },
+    {
+      "id": "000031-014",
+      "start": 39729,
+      "end": 41889
+    },
+    {
+      "id": "000031-015",
+      "start": 41906,
+      "end": 45237
+    },
+    {
+      "id": "000031-016",
+      "start": 45254,
+      "end": 48284
+    },
+    {
+      "id": "000031-017",
+      "start": 48301,
+      "end": 51219
+    },
+    {
+      "id": "000031-018",
+      "start": 51236,
+      "end": 54336
+    },
+    {
+      "id": "000031-019",
+      "start": 54353,
+      "end": 56620
+    },
+    {
+      "id": "000031-020",
+      "start": 56637,
+      "end": 58697
+    },
+    {
+      "id": "000031-021",
+      "start": 58714,
+      "end": 60778
+    },
+    {
+      "id": "000031-022",
+      "start": 60795,
+      "end": 62829
+    },
+    {
+      "id": "000031-023",
+      "start": 62846,
+      "end": 67344
+    },
+    {
+      "id": "000031-024",
+      "start": 67361,
+      "end": 71888
+    },
+    {
+      "id": "000031-025",
+      "start": 71905,
+      "end": 75215
+    },
+    {
+      "id": "000031-026",
+      "start": 75232,
+      "end": 78621
+    },
+    {
+      "id": "000031-027",
+      "start": 78638,
+      "end": 80952
+    },
+    {
+      "id": "000031-028",
+      "start": 80969,
+      "end": 83241
+    },
+    {
+      "id": "000031-029",
+      "start": 83258,
+      "end": 86221
+    },
+    {
+      "id": "000031-030",
+      "start": 86238,
+      "end": 89150
+    },
+    {
+      "id": "000031-031",
+      "start": 89167,
+      "end": 92644
+    },
+    {
+      "id": "000031-032",
+      "start": 92661,
+      "end": 95793
+    },
+    {
+      "id": "000031-033",
+      "start": 95810,
+      "end": 98887
+    },
+    {
+      "id": "000031-034",
+      "start": 98904,
+      "end": 101945
+    },
+    {
+      "id": "000031-035",
+      "start": 101962,
+      "end": 103874
+    },
+    {
+      "id": "000031-036",
+      "start": 103891,
+      "end": 106018
+    },
+    {
+      "id": "000031-037",
+      "start": 106035,
+      "end": 108133
+    },
+    {
+      "id": "000031-038",
+      "start": 108150,
+      "end": 110171
+    },
+    {
+      "id": "000031-039",
+      "start": 110188,
+      "end": 114948
+    },
+    {
+      "id": "000031-040",
+      "start": 114965,
+      "end": 119675
+    },
+    {
+      "id": "000031-041",
+      "start": 119692,
+      "end": 124577
+    },
+    {
+      "id": "000031-042",
+      "start": 124594,
+      "end": 129475
+    },
+    {
+      "id": "000031-043",
+      "start": 129492,
+      "end": 131752
+    },
+    {
+      "id": "000031-044",
+      "start": 131769,
+      "end": 133717
+    },
+    {
+      "id": "000031-045",
+      "start": 133734,
+      "end": 137050
+    },
+    {
+      "id": "000031-046",
+      "start": 137067,
+      "end": 139556
+    },
+    {
+      "id": "000031-047",
+      "start": 139573,
+      "end": 144131
+    },
+    {
+      "id": "000031-048",
+      "start": 144148,
+      "end": 148370
+    },
+    {
+      "id": "000031-049",
+      "start": 148387,
+      "end": 150584
+    },
+    {
+      "id": "000031-050",
+      "start": 150601,
+      "end": 152710
+    },
+    {
+      "id": "000031-051",
+      "start": 152727,
+      "end": 155842
+    },
+    {
+      "id": "000031-052",
+      "start": 155859,
+      "end": 159089
+    },
+    {
+      "id": "000031-053",
+      "start": 159106,
+      "end": 161992
+    },
+    {
+      "id": "000031-054",
+      "start": 162009,
+      "end": 165093
+    },
+    {
+      "id": "000031-055",
+      "start": 165110,
+      "end": 168663
+    },
+    {
+      "id": "000031-056",
+      "start": 168680,
+      "end": 171981
+    },
+    {
+      "id": "000031-057",
+      "start": 171998,
+      "end": 174990
+    },
+    {
+      "id": "000031-058",
+      "start": 175007,
+      "end": 178207
+    },
+    {
+      "id": "000031-059",
+      "start": 178224,
+      "end": 181586
+    },
+    {
+      "id": "000031-060",
+      "start": 181603,
+      "end": 184739
+    },
+    {
+      "id": "000031-061",
+      "start": 184756,
+      "end": 189572
+    },
+    {
+      "id": "000031-062",
+      "start": 189589,
+      "end": 194405
+    },
+    {
+      "id": "000031-063",
+      "start": 194422,
+      "end": 196647
+    },
+    {
+      "id": "000031-064",
+      "start": 196664,
+      "end": 199203
+    },
+    {
+      "id": "000031-065",
+      "start": 199220,
+      "end": 202475
+    },
+    {
+      "id": "000031-066",
+      "start": 202492,
+      "end": 205398
+    },
+    {
+      "id": "000031-067",
+      "start": 205415,
+      "end": 210415
+    },
+    {
+      "id": "000031-068",
+      "start": 210432,
+      "end": 215444
+    },
+    {
+      "id": "000031-069",
+      "start": 215461,
+      "end": 217473
+    },
+    {
+      "id": "000031-070",
+      "start": 217490,
+      "end": 219514
+    },
+    {
+      "id": "000031-071",
+      "start": 219531,
+      "end": 222695
+    },
+    {
+      "id": "000031-072",
+      "start": 222712,
+      "end": 225589
+    },
+    {
+      "id": "000031-073",
+      "start": 225606,
+      "end": 229127
+    },
+    {
+      "id": "000031-074",
+      "start": 229144,
+      "end": 232797
+    },
+    {
+      "id": "000031-075",
+      "start": 232814,
+      "end": 236343
+    },
+    {
+      "id": "000031-076",
+      "start": 236360,
+      "end": 239792
+    },
+    {
+      "id": "000031-077",
+      "start": 239809,
+      "end": 243069
+    },
+    {
+      "id": "000031-078",
+      "start": 243086,
+      "end": 246547
+    },
+    {
+      "id": "000031-079",
+      "start": 246564,
+      "end": 250144
+    },
+    {
+      "id": "000031-080",
+      "start": 250161,
+      "end": 253636
+    },
+    {
+      "id": "000031-081",
+      "start": 253653,
+      "end": 257313
+    },
+    {
+      "id": "000031-082",
+      "start": 257330,
+      "end": 260983
+    },
+    {
+      "id": "000031-083",
+      "start": 261000,
+      "end": 264543
+    },
+    {
+      "id": "000031-084",
+      "start": 264560,
+      "end": 268176
+    },
+    {
+      "id": "000031-085",
+      "start": 268193,
+      "end": 271606
+    },
+    {
+      "id": "000031-086",
+      "start": 271623,
+      "end": 274767
+    },
+    {
+      "id": "000031-087",
+      "start": 274784,
+      "end": 277906
+    },
+    {
+      "id": "000031-088",
+      "start": 277923,
+      "end": 281267
+    },
+    {
+      "id": "000031-089",
+      "start": 281284,
+      "end": 285816
+    },
+    {
+      "id": "000031-090",
+      "start": 285833,
+      "end": 290234
+    },
+    {
+      "id": "000031-091",
+      "start": 290251,
+      "end": 293479
+    },
+    {
+      "id": "000031-092",
+      "start": 293496,
+      "end": 296653
+    },
+    {
+      "id": "000031-093",
+      "start": 296670,
+      "end": 300207
+    },
+    {
+      "id": "000031-094",
+      "start": 300224,
+      "end": 303730
+    },
+    {
+      "id": "000031-095",
+      "start": 303747,
+      "end": 305747
+    },
+    {
+      "id": "000031-096",
+      "start": 305764,
+      "end": 308010
+    },
+    {
+      "id": "000031-097",
+      "start": 308027,
+      "end": 311253
+    },
+    {
+      "id": "000031-098",
+      "start": 311270,
+      "end": 314583
+    },
+    {
+      "id": "000031-099",
+      "start": 314600,
+      "end": 317952
+    },
+    {
+      "id": "000031-100",
+      "start": 317969,
+      "end": 321209
+    },
+    {
+      "id": "000031-101",
+      "start": 321226,
+      "end": 325879
+    },
+    {
+      "id": "000031-102",
+      "start": 325896,
+      "end": 330331
+    },
+    {
+      "id": "000031-103",
+      "start": 330348,
+      "end": 333658
+    },
+    {
+      "id": "000031-104",
+      "start": 333675,
+      "end": 337151
+    },
+    {
+      "id": "000031-105",
+      "start": 337168,
+      "end": 339406
+    },
+    {
+      "id": "000031-106",
+      "start": 339423,
+      "end": 341500
+    },
+    {
+      "id": "000031-107",
+      "start": 341517,
+      "end": 346231
+    },
+    {
+      "id": "000031-108",
+      "start": 346248,
+      "end": 350623
+    },
+    {
+      "id": "000031-109",
+      "start": 350640,
+      "end": 352576
+    },
+    {
+      "id": "000031-110",
+      "start": 352593,
+      "end": 354634
+    },
+    {
+      "id": "000031-111",
+      "start": 354651,
+      "end": 359088
+    },
+    {
+      "id": "000031-112",
+      "start": 359105,
+      "end": 363199
+    },
+    {
+      "id": "000031-113",
+      "start": 363216,
+      "end": 366582
+    },
+    {
+      "id": "000031-114",
+      "start": 366599,
+      "end": 369643
+    },
+    {
+      "id": "000031-115",
+      "start": 369660,
+      "end": 374085
+    },
+    {
+      "id": "000031-116",
+      "start": 374102,
+      "end": 378126
+    },
+    {
+      "id": "000031-117",
+      "start": 378143,
+      "end": 381478
+    },
+    {
+      "id": "000031-118",
+      "start": 381495,
+      "end": 384738
+    },
+    {
+      "id": "000031-119",
+      "start": 384755,
+      "end": 389365
+    },
+    {
+      "id": "000031-120",
+      "start": 389382,
+      "end": 393599
+    },
+    {
+      "id": "000031-121",
+      "start": 393616,
+      "end": 397021
+    },
+    {
+      "id": "000031-122",
+      "start": 397038,
+      "end": 400202
+    },
+    {
+      "id": "000031-123",
+      "start": 400219,
+      "end": 405193
+    },
+    {
+      "id": "000031-124",
+      "start": 405210,
+      "end": 409908
+    },
+    {
+      "id": "000031-125",
+      "start": 409925,
+      "end": 411848
+    },
+    {
+      "id": "000031-126",
+      "start": 411865,
+      "end": 413947
+    },
+    {
+      "id": "000031-127",
+      "start": 413964,
+      "end": 417222
+    },
+    {
+      "id": "000031-128",
+      "start": 417239,
+      "end": 420487
+    },
+    {
+      "id": "000031-129",
+      "start": 420504,
+      "end": 425330
+    },
+    {
+      "id": "000031-130",
+      "start": 425347,
+      "end": 430159
+    },
+    {
+      "id": "000031-131",
+      "start": 430176,
+      "end": 434715
+    },
+    {
+      "id": "000031-132",
+      "start": 434732,
+      "end": 439303
+    },
+    {
+      "id": "000031-133",
+      "start": 439320,
+      "end": 444456
+    },
+    {
+      "id": "000031-134",
+      "start": 444473,
+      "end": 449330
+    },
+    {
+      "id": "000031-135",
+      "start": 449347,
+      "end": 453626
+    },
+    {
+      "id": "000031-136",
+      "start": 453643,
+      "end": 457932
+    },
+    {
+      "id": "000031-137",
+      "start": 457949,
+      "end": 460011
+    },
+    {
+      "id": "000031-138",
+      "start": 460028,
+      "end": 462258
+    },
+    {
+      "id": "000031-139",
+      "start": 462275,
+      "end": 465869
+    },
+    {
+      "id": "000031-140",
+      "start": 465886,
+      "end": 469084
+    },
+    {
+      "id": "000031-141",
+      "start": 469101,
+      "end": 471901
+    },
+    {
+      "id": "000031-142",
+      "start": 471918,
+      "end": 475373
+    },
+    {
+      "id": "000031-143",
+      "start": 475390,
+      "end": 477412
+    },
+    {
+      "id": "000031-144",
+      "start": 477429,
+      "end": 479327
+    },
+    {
+      "id": "000031-145",
+      "start": 479344,
+      "end": 484000
+    },
+    {
+      "id": "000031-146",
+      "start": 484017,
+      "end": 488594
+    },
+    {
+      "id": "000031-147",
+      "start": 488611,
+      "end": 490805
+    },
+    {
+      "id": "000031-148",
+      "start": 490822,
+      "end": 492885
+    },
+    {
+      "id": "000031-149",
+      "start": 492902,
+      "end": 495145
+    },
+    {
+      "id": "000031-150",
+      "start": 495162,
+      "end": 497355
+    },
+    {
+      "id": "000031-151",
+      "start": 497372,
+      "end": 501168
+    },
+    {
+      "id": "000031-152",
+      "start": 501185,
+      "end": 504496
+    },
+    {
+      "id": "000031-153",
+      "start": 504513,
+      "end": 506589
+    },
+    {
+      "id": "000031-154",
+      "start": 506606,
+      "end": 508857
+    },
+    {
+      "id": "000031-155",
+      "start": 508874,
+      "end": 510909
+    },
+    {
+      "id": "000031-156",
+      "start": 510926,
+      "end": 513158
+    },
+    {
+      "id": "000031-157",
+      "start": 513175,
+      "end": 514955
+    },
+    {
+      "id": "000031-158",
+      "start": 514972,
+      "end": 516985
+    },
+    {
+      "id": "000031-159",
+      "start": 517002,
+      "end": 521327
+    },
+    {
+      "id": "000031-160",
+      "start": 521344,
+      "end": 525517
+    },
+    {
+      "id": "000031-161",
+      "start": 525534,
+      "end": 529997
+    },
+    {
+      "id": "000031-162",
+      "start": 530014,
+      "end": 534460
+    },
+    {
+      "id": "000031-163",
+      "start": 534477,
+      "end": 539268
+    },
+    {
+      "id": "000031-164",
+      "start": 539285,
+      "end": 543761
+    },
+    {
+      "id": "000031-165",
+      "start": 543778,
+      "end": 546977
+    },
+    {
+      "id": "000031-166",
+      "start": 546994,
+      "end": 550098
+    },
+    {
+      "id": "000031-167",
+      "start": 550115,
+      "end": 554851
+    },
+    {
+      "id": "000031-168",
+      "start": 554868,
+      "end": 559155
+    },
+    {
+      "id": "000031-169",
+      "start": 559172,
+      "end": 563872
+    },
+    {
+      "id": "000031-170",
+      "start": 563889,
+      "end": 568513
+    },
+    {
+      "id": "000031-171",
+      "start": 568530,
+      "end": 571467
+    },
+    {
+      "id": "000031-172",
+      "start": 571484,
+      "end": 574679
+    },
+    {
+      "id": "000031-173",
+      "start": 574696,
+      "end": 576779
+    },
+    {
+      "id": "000031-174",
+      "start": 576796,
+      "end": 578876
+    },
+    {
+      "id": "000031-175",
+      "start": 578893,
+      "end": 582375
+    },
+    {
+      "id": "000031-176",
+      "start": 582392,
+      "end": 585741
+    },
+    {
+      "id": "000031-177",
+      "start": 585758,
+      "end": 589195
+    },
+    {
+      "id": "000031-178",
+      "start": 589212,
+      "end": 592470
+    },
+    {
+      "id": "000031-179",
+      "start": 592487,
+      "end": 595522
+    },
+    {
+      "id": "000031-180",
+      "start": 595539,
+      "end": 598597
+    },
+    {
+      "id": "000031-181",
+      "start": 598614,
+      "end": 600563
+    },
+    {
+      "id": "000031-182",
+      "start": 600580,
+      "end": 602595
+    },
+    {
+      "id": "000031-183",
+      "start": 602612,
+      "end": 604645
+    },
+    {
+      "id": "000031-184",
+      "start": 604662,
+      "end": 606692
+    },
+    {
+      "id": "000031-185",
+      "start": 606709,
+      "end": 609560
+    },
+    {
+      "id": "000031-186",
+      "start": 609577,
+      "end": 612206
+    },
+    {
+      "id": "000031-187",
+      "start": 612223,
+      "end": 614327
+    },
+    {
+      "id": "000031-188",
+      "start": 614344,
+      "end": 616224
+    },
+    {
+      "id": "000031-189",
+      "start": 616241,
+      "end": 620724
+    },
+    {
+      "id": "000031-190",
+      "start": 620741,
+      "end": 625277
+    },
+    {
+      "id": "000031-191",
+      "start": 625294,
+      "end": 628400
+    },
+    {
+      "id": "000031-192",
+      "start": 628417,
+      "end": 631579
+    },
+    {
+      "id": "000031-193",
+      "start": 631596,
+      "end": 634782
+    },
+    {
+      "id": "000031-194",
+      "start": 634799,
+      "end": 638034
+    },
+    {
+      "id": "000031-195",
+      "start": 638051,
+      "end": 640961
+    },
+    {
+      "id": "000031-196",
+      "start": 640978,
+      "end": 643876
+    },
+    {
+      "id": "000031-197",
+      "start": 643893,
+      "end": 645975
+    },
+    {
+      "id": "000031-198",
+      "start": 645992,
+      "end": 648014
+    },
+    {
+      "id": "000031-199",
+      "start": 648031,
+      "end": 651350
+    },
+    {
+      "id": "000031-200",
+      "start": 651367,
+      "end": 654370
+    },
+    {
+      "id": "000031-201",
+      "start": 654387,
+      "end": 659234
+    },
+    {
+      "id": "000031-202",
+      "start": 659251,
+      "end": 664191
+    },
+    {
+      "id": "000031-203",
+      "start": 664208,
+      "end": 667259
+    },
+    {
+      "id": "000031-204",
+      "start": 667276,
+      "end": 670330
+    },
+    {
+      "id": "000031-205",
+      "start": 670347,
+      "end": 673710
+    },
+    {
+      "id": "000031-206",
+      "start": 673727,
+      "end": 676986
+    },
+    {
+      "id": "000031-207",
+      "start": 677003,
+      "end": 680101
+    },
+    {
+      "id": "000031-208",
+      "start": 680118,
+      "end": 683267
+    },
+    {
+      "id": "000031-209",
+      "start": 683284,
+      "end": 686420
+    },
+    {
+      "id": "000031-210",
+      "start": 686437,
+      "end": 689972
+    },
+    {
+      "id": "000031-211",
+      "start": 689989,
+      "end": 693470
+    },
+    {
+      "id": "000031-212",
+      "start": 693487,
+      "end": 696656
+    },
+    {
+      "id": "000031-213",
+      "start": 696673,
+      "end": 699911
+    },
+    {
+      "id": "000031-214",
+      "start": 699928,
+      "end": 703139
+    },
+    {
+      "id": "000031-215",
+      "start": 703156,
+      "end": 706229
+    },
+    {
+      "id": "000031-216",
+      "start": 706246,
+      "end": 709264
+    },
+    {
+      "id": "000031-217",
+      "start": 709281,
+      "end": 711171
+    },
+    {
+      "id": "000031-218",
+      "start": 711188,
+      "end": 713252
+    },
+    {
+      "id": "000031-219",
+      "start": 713269,
+      "end": 717924
+    },
+    {
+      "id": "000031-220",
+      "start": 717941,
+      "end": 722403
+    },
+    {
+      "id": "000031-221",
+      "start": 722420,
+      "end": 725799
+    },
+    {
+      "id": "000031-222",
+      "start": 725816,
+      "end": 729162
+    },
+    {
+      "id": "000031-223",
+      "start": 729179,
+      "end": 733918
+    },
+    {
+      "id": "000031-224",
+      "start": 733935,
+      "end": 738442
+    },
+    {
+      "id": "000031-225",
+      "start": 738459,
+      "end": 743175
+    },
+    {
+      "id": "000031-226",
+      "start": 743192,
+      "end": 747641
+    },
+    {
+      "id": "000031-227",
+      "start": 747658,
+      "end": 751081
+    },
+    {
+      "id": "000031-228",
+      "start": 751098,
+      "end": 754347
+    },
+    {
+      "id": "000031-229",
+      "start": 754364,
+      "end": 757456
+    },
+    {
+      "id": "000031-230",
+      "start": 757473,
+      "end": 760750
+    },
+    {
+      "id": "000031-231",
+      "start": 760767,
+      "end": 763986
+    },
+    {
+      "id": "000031-232",
+      "start": 764003,
+      "end": 767202
+    },
+    {
+      "id": "000031-233",
+      "start": 767219,
+      "end": 772357
+    },
+    {
+      "id": "000031-234",
+      "start": 772374,
+      "end": 777309
+    },
+    {
+      "id": "000031-235",
+      "start": 777326,
+      "end": 779437
+    },
+    {
+      "id": "000031-236",
+      "start": 779454,
+      "end": 781592
+    },
+    {
+      "id": "000031-237",
+      "start": 781609,
+      "end": 784957
+    },
+    {
+      "id": "000031-238",
+      "start": 784974,
+      "end": 788469
+    },
+    {
+      "id": "000031-239",
+      "start": 788486,
+      "end": 791511
+    },
+    {
+      "id": "000031-240",
+      "start": 791528,
+      "end": 794648
+    }
+  ],
+  "labels": [
+    {
+      "id": "000031-001",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Hollins has been part of the Calder Valley Lending Network since 2011",
+        "Interlibrary loan is handled by a small team at our Central branch, and they process around 1,200 requests a year",
+        "yes, \"Tidewater Ledgers\" can probably be renewed, but not with the Renew button in your account"
+      ]
+    },
+    {
+      "id": "000031-002",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-003",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-004",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "It might help to remember how we got to the current setup.",
+        "Then, in the 2024 SOC 2 Type II audit, the assessors flagged that we had no documented cadence",
+        "So, to your actual question: rotate the webhook signing secret today."
+      ]
+    },
+    {
+      "id": "000031-005",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The museum was founded in 1936 by members of the Linden Hill Civic Club",
+        "Lantern slides have a long and interesting history.",
+        "My own introduction to the format came early.",
+        "Our 2021 collections plan was developed with a consultant over eighteen months",
+        "My recommendation is that Linden Hill retain the 58 slides depicting Linden Hill and the surrounding townships"
+      ]
+    },
+    {
+      "id": "000031-006",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-007",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The dress came to us in 1961 as part of the Avery family gift, along with the parlor organ and about forty cabinet photographs.",
+        "The costume collection grew slowly after that, mostly from local estates, and by the time Ruth Okafor became curator in 1988 we had roughly 300 garments folded into attic boxes.",
+        "Ruth campaigned for years for the textile room we use now, which opened in 2004 with a Pellman Foundation grant.",
+        "Given all that, I can't approve the loan as Harlan has written it. We can lend the original for no more than twelve weeks, on condition that they keep it at or below 50 lux in a sealed case."
+      ]
+    },
+    {
+      "id": "000031-008",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-009",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-010",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Short version: one option came out well ahead, and it isn't the one we've been using. Here's how I went about it.",
+        "I started by pulling every Canadian order from July through September out of Shopify, which came to 41 orders.",
+        "The export put the province and postal code in the same column for about a third of them, so I spent most of a morning splitting those out by hand and fixing a few addresses where customers had typed their apartment number into the city field.",
+        "Ridgeline Freight wanted business verification before it would show me cross-border rates, so I uploaded our EIN letter and a utility bill and waited two days for someone named Carla to approve it.",
+        "Parcelwise had a free trial portal, but its quotes kept timing out, so I called their sales line and sat on hold for about forty minutes before a rep walked me through it.",
+        "While I was waiting on Ridgeline, I re-weighed all three box sizes on the postal scale in the back room, which needed new batteries, so that's done now too.",
+        "What the numbers showed is that we should send Canadian orders with Ridgeline's Cross-Border Saver, duties and taxes prepaid."
+      ]
+    },
+    {
+      "id": "000031-011",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "It went home in backpacks on April 2, and an online version was posted in SchoolLink the same week.",
+        "District Language Services translated the survey into Spanish and Vietnamese, which took eleven days, so families who needed a translated copy received it around April 14, and the deadline was moved from April 18 to May 2 to give them a fair window.",
+        "The front office made two reminder calls, and Mr. Dao's homeroom won the pizza lunch for the highest return rate.",
+        "Two people read each comment and tagged it by theme on color-coded sheets, with Ms. Ferreira settling any disagreements.",
+        "Office staff entered the paper surveys into a spreadsheet over the following week, and the PTA kindly provided coffee for both sessions.",
+        "The answer is yes. Starting Monday, November 3, Grade 6 homework will be capped at a combined 40 minutes a night across all subjects."
+      ]
+    },
+    {
+      "id": "000031-012",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-013",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-014",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before anything else, a note on load-in, since a few touring acts have been caught out recently: the loading bay on Corran Street is shared with the bakery next door, and their delivery van usually sits there between 4 and 4:45 pm.",
+        "The main hall was a Methodist chapel until 1987, and when the council converted it the acoustician kept the original timber ceiling",
+        "we still get letters from regulars who miss the Soundcraft.",
+        "Our technical team is small, two full-time technicians and a pool of four casuals, and they cover the cinema screenings on Tuesdays and Wednesdays too, which is why weekend rotas are drawn up about six weeks ahead.",
+        "Yes, you can bring your own engineer. They will need to send their name and a contact number by 28 February so we can add them to the site induction list, and a house technician will stay on shift for the whole evening"
+      ]
+    },
+    {
+      "id": "000031-015",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "My grandfather never had a garage, or a cellar for that matter.",
+        "I remember being sent out in January with a bucket to open one end and take what was needed for the week, and how the potatoes came out cold and slightly damp and smelling of earth.",
+        "I've thought about that clamp a lot since moving to a house with a garage, because people tend to assume clamps were the old-fashioned answer and outbuildings the modern one.",
+        "My own first year of storing was a mixed success: I lost a sack of 'King Edward' to slugs that had come in with them, which taught me more about checking tubers than anything I'd read.",
+        "An unheated garage can work well, but only if you can keep the potatoes between about 4 and 8 C, in the dark, and above freezing."
+      ]
+    },
+    {
+      "id": "000031-016",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-017",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-018",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Interlibrary loans have been part of the library's work for a long time. Ashcombe joined the British Library's document supply scheme in 1974, the year the university library moved into the Wexley Building",
+        "In 2008 we joined the NorLink consortium of eleven northern universities",
+        "When the library migrated to its current management system in 2019, interlibrary requests moved into the same online account you use for ordinary loans, which has made tracking far easier.",
+        "Last academic year the team of three staff processed just over 4,200 requests, about a third of them from postgraduate researchers.",
+        "The greyed-out button is expected: interlibrary items can't be renewed through your account, because the due date belongs to the lending library rather than to us. To ask for more time, email ill@ashcombe.ac.uk with your request number"
+      ]
+    },
+    {
+      "id": "000031-019",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "There is a change, and it does touch bikes like yours, though probably less than you fear.",
+        "The November timetable has been in the works since April, when the operations group began reviewing turnaround times at both piers.",
+        "A public consultation in August drew about 640 responses, many from the drop-in sessions at Kestrel Point library.",
+        "The board approved the committee's recommendation on 26 September, after which the schedule had to be loaded into the ticketing system and crew rosters rebuilt, which is why we are only now confirming details to customers.",
+        "Your 07:45 will be operated by the smaller Tern and won't accept cargo bikes, so you can still cross in the morning with the bike, but it has to be on the 07:15."
+      ]
+    },
+    {
+      "id": "000031-020",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-021",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-022",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Getting the figures took longer than expected.",
+        "Our existing data-sharing agreement referred to the old system, so legal services had to issue a variation, which the force's information governance unit countersigned on 19 August.",
+        "The first extract we received covered the wrong ward boundary, because the portal still uses the pre-2023 boundaries, and a second request had to be raised with a hand-drawn polygon around the corridor.",
+        "That extract arrived on 2 October as a spreadsheet with dates in American format, which our analyst, Tom Reyes, converted and checked line by line against the paper log kept by the road safety officer.",
+        "On that basis, yes: injury collisions involving people on bikes fell from 11 to 4, and none of the four was classed as serious, against three serious in the earlier period."
+      ]
+    },
+    {
+      "id": "000031-023",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before anything else, sort out where you'll leave the car, because that catches people out more than the hill does.",
+        "If it's full, the overflow field by the church is free but floods after rain, and I've watched more than one hatchback towed out of it by the farmer's tractor.",
+        "The glen itself has an odd history that explains a lot of what you'll walk past.",
+        "There was a proposal in 2014 for a run-of-river hydro scheme on the Allt Garbh, and the access track that was bulldozed for the survey is the bare scar you'll see on the opposite slope.",
+        "I first did the round in 2009 with my brother, in the days when I still believed leather boots needed a fortnight of dubbin before every trip.",
+        "I've been round eleven or twelve times since, in every season except deep winter, and I've led it twice for our club's junior section, which is probably why you're asking me.",
+        "Go anticlockwise: up the Allt Garbh to Sgurr Liath first, and finish over Carn Dubh."
+      ]
+    },
+    {
+      "id": "000031-024",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-025",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-026",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "This one takes me back. My first ops job, around 2011, was at a small hosting company in Leeds where storage meant physical disks in a rack two floors below the office.",
+        "I remember one Saturday spent watching a RAID 5 rebuild crawl along at 40 MB/s after we swapped in larger drives one at a time, living on vending-machine crisps and refreshing the controller page every few minutes.",
+        "That habit stuck with me for years. When I moved to my first team that ran on AWS, I still drained every node before going anywhere near its storage, and I wrote a runbook for it that I suspect is still sitting in the old Confluence space.",
+        "Anyway, no, you do not need to drain it. EBS volume modification happens online: the node keeps its volume attached, Elasticsearch keeps serving reads and writes, and nothing gets relocated."
+      ]
+    },
+    {
+      "id": "000031-027",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The banner came to the museum in 1961 as part of the bequest of Edith Marley, whose family ran the Marley mill on Canal Street for three generations.",
+        "Our textile holdings have since grown to roughly 4,800 objects, and the banner remains among the most requested of them, having appeared in our own exhibitions in 1976, 1994 and 2012 and on the cover of the 1999 collection handbook.",
+        "The museum's loan program was formalized in 1988, when the board adopted its first written loan policy, and that policy has been revised four times since, most recently in 2021.",
+        "I am sorry to say we cannot lend the banner for those dates. It was on display here from April 2024 to March 2025 in \"Made in Harlow,\" and under our light-exposure policy for painted silk, an object shown for more than six months must rest in dark storage for at least three years afterward."
+      ]
+    },
+    {
+      "id": "000031-028",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-029",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-030",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "I went through exactly this decision before our trip last summer, and I ended up with a clear winner, though not the one I expected going in.",
+        "I started the way I start most gear questions, with a spreadsheet.",
+        "After that I borrowed three stoves from friends and set up a test on the kitchen counter one Sunday.",
+        "Then I drove up to the outfitter in Ely and talked with the person at the counter for about 40 minutes, roughly half of which was about their own trip on the Bowron Lakes circuit.",
+        "What we brought, and what I would recommend to you, is a pump-style liquid-fuel stove burning white gas, with no wood stove at all."
+      ]
+    },
+    {
+      "id": "000031-031",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before getting to a number, I should explain how I pulled the usage figures, because it took most of Saturday.",
+        "The export also came out strangely: dates were in day-month order for July and month-day order for August, apparently because someone changed the tablet language setting over the summer, and I rebuilt that column by hand before any weekly totals made sense.",
+        "I also tried to get the same figures out of the Corbett invoices as a cross-check.",
+        "I was transferred twice, and the first person thought I was asking about the rye contract we dropped in spring.",
+        "My recommendation is yes, switch to every other Monday, ordering 50 bags of all-purpose and 14 of bread flour per delivery, but start in January rather than right away."
+      ]
+    },
+    {
+      "id": "000031-032",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-033",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-034",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The bike lane is the reason for all of this, so it is worth starting there.",
+        "The design went through three rounds of public comment in 2024 and 2025, and the final version narrowed the general traffic lanes from 3.6 to 3.2 meters to fit the cycle track without removing parking on the west side.",
+        "The 14 itself has a long history on this corridor.",
+        "Route changes like this one go through the transit board, which meets on the second Tuesday of each month.",
+        "Starting January 12, the 14 will no longer travel on Garnet between Elm and Fenwick, and the Elm and Garnet stop will close.",
+        "The nearest replacement is a new stop at Elm and Pruitt, about 280 meters north on the same side of the street, roughly a block and a half."
+      ]
+    },
+    {
+      "id": "000031-035",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "I have been looking after these buildings since 2009, and the Building C boiler has been part of my life the whole time.",
+        "The first winter I was here it failed on New Year's Eve, and I spent most of the night in the basement with a flashlight and a borrowed wrench while Mr. Albescu from C-102 brought me coffee in a thermos.",
+        "Over the years we replaced the circulator pump twice, the expansion tank once, and more gaskets than I can count.",
+        "The hot water will be off on Tuesday, November 4, from 8 a.m. until about 4 p.m."
+      ]
+    },
+    {
+      "id": "000031-036",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-037",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-038",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Predicted grades at Fenwick Academy were first collected centrally in 2016, when the then deputy head, Mr. Lyle, built a shared spreadsheet with a tab for each department.",
+        "By 2021 it had grown to forty-one tabs, and the trust's data review that year recommended moving everything into a proper management information system.",
+        "The governors' curriculum committee compared SIMS, Bromcom and Arbor over three meetings across 2022 and 2023 before the trust signed a contract with Arbor for all six of its schools last spring.",
+        "Training ran in two rounds, in June and again at the September INSET, and attendance and behaviour moved across first because those modules were ready earliest.",
+        "This term, enter Year 11 predicted grades directly in Arbor, under Assessment, in the mark sheet called \"Y11 Autumn Predictions\", by 4:00 p.m. on Friday 7 November. The old spreadsheet has been set to read-only, and nothing typed into it will be picked up."
+      ]
+    },
+    {
+      "id": "000031-039",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Renewals on borrowed items are possible in many cases, though there are a few things involved, and it helps to know how the item reached you in the first place.",
+        "We check first whether Halvorsen or any of the four other Corran Valley consortium libraries already owns the title, because a consortium loan arrives faster and costs nothing.",
+        "Your request went first to a library in Pennsylvania, which declined it because their copy was in a non-circulating collection, and then rolled automatically to Denison County Public Library in Ohio, which agreed to lend.",
+        "Once a lender ships, the book travels either by the regional courier, which runs on Tuesdays and Fridays, or by USPS media mail, which is what Denison used.",
+        "Our staff of three handles roughly 6,200 borrowing requests a year, and most of that work is the routing and packing described above rather than anything you see at the desk.",
+        "For the Bastien book, yes, you can ask for a renewal, but it has to go through your ILLiad account rather than the regular library catalog, and it should go in now rather than next week.",
+        "The button only appears until five days before the due date shown on the band, so for a 30 October due date the last day to click it is 25 October. We pass the request to Denison, and Denison decides."
+      ]
+    },
+    {
+      "id": "000031-040",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-041",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-042",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The meeting voted 27 to 4 to fund testing from the contingency reserve, with a cap of 1,500 pounds, and asked the committee to report back by the autumn.",
+        "Getting quotes took longer than expected. We contacted five laboratories and three replied.",
+        "The committee approved the Thornbury quote of 1,140 pounds including VAT at its June meeting, with Derek Ince abstaining because his daughter-in-law works there.",
+        "Sampling took place on Saturday 11 July. Eleven volunteers turned out.",
+        "Bags were kept in cool boxes and driven to the courier depot on the Monday, though the courier then held them for two days, which Thornbury confirmed made no difference for metals. Thanks again to everyone who helped, and to the Scouts for the loan of the gazebo.",
+        "Put plainly: the rest of the site is fine for growing anything, and plots 14 to 22 should stop growing root crops and leafy vegetables directly in the ground from now on."
+      ]
+    },
+    {
+      "id": "000031-043",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before anything else, the parking. The Glen Nevis Visitor Centre car park went to a flat day rate this year",
+        "It's worth knowing a bit about the path itself, too. The Mountain Track, which most people still call the Pony Track or the tourist path, was built in 1883 so that supplies could be carried up to the summit observatory",
+        "Fort William itself grew up around the old garrison, and plenty of people make a day of the West Highland Museum when the weather closes in.",
+        "As for the spikes: yes, take them, and take an ice axe if anyone in your group knows how to use one."
+      ]
+    },
+    {
+      "id": "000031-044",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-045",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-046",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "I have been getting the 7:12 from Hollins Cross for nearly eleven years, since I moved into the terrace behind the old coal yard",
+        "There was a cafe on platform 1 that sold bacon rolls in greaseproof paper and closed for good in 2017 when the lease went to the car park company.",
+        "I remember the winter of 2018, when the overhead line came down at Brindle and we were bussed for nine days",
+        "That changes on 14 December. Under the new timetable the 7:12 becomes the 7:14, and it is retimed to arrive at Ashby Quay at 8:01, three minutes after the 7:58 ferry departs.",
+        "So the connection is gone. If you need that boat, the train to catch is now the 6:54"
+      ]
+    },
+    {
+      "id": "000031-047",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The Corvell Philharmonic has been performing in the city since 1952, when a group of teachers and former military bandsmen formed what was then called the Corvell Orchestral Society",
+        "The last full cancellation before this one was in February 2009, when heavy snow closed the ring road",
+        "Alder Hall itself has been through a great deal over the past two years. The main auditorium closed for eight months in 2024",
+        "Most of those problems were resolved by the autumn, and the Trust has since added the ability to manage bookings online, which had not been possible before.",
+        "Whether you need to do anything depends on how you paid. If you booked online or by phone with a debit or credit card, your refund is automatic"
+      ]
+    },
+    {
+      "id": "000031-048",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-049",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-050",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "You're close, and the leaves will tell you more than the calendar will.",
+        "I'll walk you through how I go about it, since I've been growing garlic on the same two beds since 2014. Every autumn I sort the seed bulbs on the kitchen table, break them into cloves the morning I plant, and soak the cloves for twenty minutes in a weak baking soda solution, which an old neighbour swore by.",
+        "Over the years I've tried Music, Chesnok Red, German White and a softneck called Inchelium that never sized up well for me. Music has been the most reliable. In 2019 I lost half a bed to white rot and moved everything to the far end of the plot, which is why my rows run east to west now.",
+        "You want to dig while five or six leaves are still green. If half the leaves are brown and you can count five or more green ones, dig this week."
+      ]
+    },
+    {
+      "id": "000031-051",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Until spring 2024, interlibrary loan at Hollins ran through a homegrown request database that a staff member built in 2009, and renewals were handled by email to a shared inbox that three of us checked in rotation.",
+        "The migration took most of a semester. We spent the summer of 2024 mapping old request statuses onto new ones, retraining student workers at the desk, and writing new help pages, several of which are still being revised after a usability study our assessment librarian ran with twelve graduate students last spring.",
+        "The consortium's governance committee meets quarterly to approve changes like that, and its next meeting is in December.",
+        "Yes, you can ask for a renewal, and Friday is still in time. Log into the ILL account (the 'My Interlibrary Loans' link on the library homepage, same campus login), open the request for your monograph, and choose 'Request Renewal.'"
+      ]
+    },
+    {
+      "id": "000031-052",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-053",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-054",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "First, a note on permission forms. Several families have asked whether the paper slip is still needed if they've already paid through the school payment portal.",
+        "Our district hasn't run its own buses since 2011, when the board voted to contract transportation to Lakeview Transit after a budget review.",
+        "When I started coordinating eighth grade in 2017 we could still reach the state capitol and back inside that window, but traffic on Route 9 has since made it impossible. Lakeview also has its own driver certification requirements: a commercial license with a passenger endorsement, a district background check, and twenty hours of supervised route time.",
+        "I sat in on the county transportation meeting last month, where the six districts discussed sharing a reserve pool of drivers, though nothing has been decided.",
+        "The trip is going ahead, but not on March 14."
+      ]
+    },
+    {
+      "id": "000031-055",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The first Vault cluster I ever stood up was at Halloran Freight in 2017, on three t2.medium instances that we were all slightly embarrassed about.",
+        "When I left Halloran nobody asked for my envelope back, and I remember thinking about it on the drive home and then forgetting it for a long while.",
+        "Things here have been better from the start, mostly because Okafor wrote our original operations doc and was strict about it.",
+        "Revoking her tokens was right, but it isn't enough. Marguerite holds one of our five unseal key shares, and she was one of the three people who generated a root token during that 2023 storage migration."
+      ]
+    },
+    {
+      "id": "000031-056",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-057",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-058",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before the detail, it's worth knowing a bit about how the park came to manage camping the way it does. The Glen Arrin and Fearn National Park was designated in 2004, a year after the Land Reform Act gave the public a statutory right of responsible access to most land and inland water in Scotland, including wild camping.",
+        "The park authority itself is governed by a board of seventeen members, some appointed by ministers and some elected locally, and it took the best part of a decade of consultation with landowners, community councils and recreation bodies before any camping byelaws were drafted.",
+        "You do need a permit. The east shore of Loch Arrin, from the Allt Ruadh footbridge north to Carn Bay, lies inside the Glen Arrin Camping Management Zone"
+      ]
+    },
+    {
+      "id": "000031-059",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "the short answer is that it comes down to light.",
+        "To explain how I got there, it helps to walk through how a request like this moves through collections. When an outside request arrives, it's logged by the registrar in the loans database, given an incoming request number (this one is LR-2026-019), and the object record is pulled to confirm ownership, accession status and any donor restrictions.",
+        "If all of those come back positive, the request goes onto the agenda of the loans committee, which meets on the second Tuesday of each month, and the committee's recommendation comes to you for signature.",
+        "So a six-month loan isn't something we can approve, and any loan before 2028 would have to be very short indeed."
+      ]
+    },
+    {
+      "id": "000031-060",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-061",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-062",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before getting to the stops themselves, it is worth setting out how temporary stops get approved in this borough, because the process has changed twice since 2021 and a lot of people in the forum have asked about it.",
+        "The audit framework, now on its third version, has fourteen criteria, each scored zero, one or two, covering things like footway width, lighting, the distance to the nearest dropped kerb, shelter, and whether the stop can be reached without crossing a road with no controlled crossing.",
+        "The council now calls off surveys from Kerbline Surveys through the regional framework agreement, which means each survey needs a separate purchase order signed off by the head of highways.",
+        "The purchase order was not signed until 29 January because the head of highways was on leave, and Kerbline visited the two sites on 3 February.",
+        "Your mother will be able to get on step-free but, for the first six weeks, not to get off at the corner on the way home.",
+        "Until then, on the return journey she should stay on the bus to the Hope Chapel stop on Dyer Street, about 300 metres further on, which keeps its existing raised kerb of 150 millimetres and is not affected by the diversion."
+      ]
+    },
+    {
+      "id": "000031-063",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "First, a note on the cost line Finance flagged.",
+        "The rest is old snapshot storage that picked up the replica's tag in 2022, when the cost-centre tagging script matched anything with the 'orders-ro' prefix.",
+        "Mateus wrote that script during the tagging push, and at the time it was a reasonable shortcut because we only had one replica.",
+        "The replica itself dates from the 2021 data residency review, when we expected German customers' reporting data to need an EU copy.",
+        "Do not drop it before the upgrade.",
+        "The safe point to decommission is after 5 December, once the checksum job has come back clean and 16 has carried a week of traffic."
+      ]
+    },
+    {
+      "id": "000031-064",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-065",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-066",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "That train has been part of my life for longer than I have been secretary of this group.",
+        "I first caught it in the autumn of 1987, when I was seventeen and working Saturdays at a record shop on Bridge Street in Halbeck.",
+        "My father was a signalman in the Moss Cross box for twenty-six years, and on the nights he was on the late turn I could see the lamp in the box window as we came in, which felt like being met.",
+        "By the early nineties there was talk of closing Moss Cross altogether, and this group was founded in 1994 in the back room of the Railway Tavern by eight people, my father among them, who wrote letters, counted passengers on cold platforms and stood outside the station with clipboards.",
+        "It is not being axed, though it is changing on some nights.",
+        "The replacement is a bus from Halbeck bus station, stand D, at 22:40, calling at Gilsby and arriving at Moss Cross station forecourt at 23:25."
+      ]
+    },
+    {
+      "id": "000031-067",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Some context on ledger-prod first, since a few people on the thread joined after it was built.",
+        "It is also worth recalling how PostgreSQL upgrade tooling got here.",
+        "We spent the first half of that meeting on the vacuum tuning backlog before getting to the upgrade item.",
+        "We should do this upgrade with logical replication into a new PostgreSQL 17 cluster and cut over during the window, rather than running pg_upgrade --link on the existing hosts."
+      ]
+    },
+    {
+      "id": "000031-068",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-069",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-070",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "I did come to a conclusion, and it was not the one I expected going in.",
+        "I started by pulling every pad I own out of the garage closet, which turned out to be five, including one from a 2014 Scout trip that I had forgotten about.",
+        "Then I made a spreadsheet with columns for weight, packed size, thickness, price, and the R-value printed on the stuff sack, and spent most of Sunday evening reading forum threads about which manufacturers measure R-value honestly.",
+        "On Monday I went to Basecamp Outfitters on Fourth Street, where a clerk named Dev let me lie on their display pads and told me at some length about his trip to the Wind Rivers.",
+        "What I would bring is the Halden Ascent 4, the insulated air pad with the blue top, rated R 4.3."
+      ]
+    },
+    {
+      "id": "000031-071",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "As most residents know, the board has been discussing the Building C water heater since the spring, when the reserve study flagged it as past its expected service life.",
+        "The two remaining bids were presented at the September 18 board meeting, which was held in the community room with eight residents attending and two more on the phone.",
+        "Since the vote, Calloway has been handling the administrative side.",
+        "The Building C laundry room will be closed for both of those days."
+      ]
+    },
+    {
+      "id": "000031-072",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-073",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-074",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "First, a note on the alert that kicked all this off. The \"certificate expiring in 21 days\" page that fired Sunday night wasn't about the ingress certificate at all.",
+        "It's also worth recalling how our internal certificates ended up the way they are. When the platform team built the first clusters in 2022, internal TLS came from a self-signed CA generated with openssl on someone's laptop, with a ten-year root and two-year leaves.",
+        "The wildcard is the odd one out because it never moved to a Certificate resource.",
+        "Mostly yes. ingress-nginx watches the Secrets referenced by Ingress resources and reloads its configuration when one changes, without restarting the controller pods."
+      ]
+    },
+    {
+      "id": "000031-075",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The question took me straight back to my uncle Derek's plot on the Bracken Road allotments, where I spent most Saturdays between the ages of nine and fifteen.",
+        "When I took on my own half-plot in 2011 I tried to do everything his way, biscuit tin included.",
+        "I'd say plant a few if you're curious, but don't put them in your main bed. They will probably sprout, and you may well get something you can eat."
+      ]
+    },
+    {
+      "id": "000031-076",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-077",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-078",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Some background first, since many plot holders have joined since the arrangement began. The Society has held the Hollin Lane site from the borough council since 1947, originally as a wartime extension of the Moss Street allotments, and the current 25-year lease was renewed in 2019 after eighteen months of negotiation led by our former secretary, Ray Hollis.",
+        "The woodchip came about through a separate route. In 2020 the council awarded its arboriculture contract to Greenline Tree Services, and Greenline was looking for places to tip chip from street-tree work closer to its jobs than the depot at Carr Bridge.",
+        "On the substance: yes, you may use the woodchip on beds as well as paths, as a surface mulch."
+      ]
+    },
+    {
+      "id": "000031-079",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Good question, and the short version is that direction matters more than most of the trip reports let on.",
+        "When I planned our trip last fall I went about it the long way. I started by pulling every GPX track I could find from three different apps and ended up with eleven of them, some clearly recorded by people who wandered off to fish or took a wrong fork near the old burn.",
+        "Then I compared the elevation profiles, which differ by as much as 900 feet of total gain depending on the app, mostly because of how each one smooths the data. I settled on the middle number and moved on.",
+        "After that I called the Birch Flat ranger station. It took three tries over two days to reach anyone because the line goes to a voicemail box that was full",
+        "I put everything into a spreadsheet with columns for daily mileage, gain, camps and water, and color-coded both directions so I could stare at them side by side for another week.",
+        "Go counterclockwise. The deciding factor is the descent off the north side of Corvid Pass, a long scree and talus slope that sits in shadow until late morning."
+      ]
+    },
+    {
+      "id": "000031-080",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-081",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-082",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Some background on how the search went. Our object records have been through three systems since the 1990s.",
+        "In that migration the free-text source field was truncated at 255 characters, which is why so many older records end mid-sentence. The 2011 project also renumbered about 4,000 natural history lots, adding the NH prefix that now appears on every label in the gallery.",
+        "They are arranged by year of accession rather than by donor, a convention adopted in 1979 when the registrar's office moved out of the director's suite, which means you need to know roughly when something arrived before you can find it.",
+        "Board minutes from before 1985 are bound separately and kept in the safe in your office, and opening it requires a second keyholder, so I scheduled that with Elaine for October 15.",
+        "The answer is mostly yes. Box 19, covering 1974, contains a deed of gift signed by Harold Brennecke on May 3, 1974",
+        "The museum therefore owns the cabinet itself and 212 of the 230 specimens outright."
+      ]
+    },
+    {
+      "id": "000031-083",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before that, a related change for anyone hoping to chaperone this year. The district has moved volunteer clearances to a new online system called ClearPath.",
+        "The trip itself has a long history at Ridgeview. It began in 2008, when Mr. Halloran, who taught civics here for twenty-two years, organized a bus trip for 41 students and six adults on a budget that would be hard to imagine today.",
+        "Those rules live in Board Policy 6153, which covers any field trip involving an overnight stay, out-of-state travel, or a cost to families above $250.",
+        "The committee is made up of two board members, the assistant superintendent, one principal and a teacher representative, and it meets on the second Tuesday of each month.",
+        "At Monday's meeting, the board voted 5 to 2 to approve this year's trip. It will run from Monday, April 20, through Thursday, April 23, with Heritage Student Travel as the vendor."
+      ]
+    },
+    {
+      "id": "000031-084",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-085",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-086",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "I opened the Moreau box this morning and it took me straight back to my first summer here, in 1998, when I was a seasonal guide and the old cannery wing was still a storeroom.",
+        "My grandfather worked a line at Bayview Packing for eleven years, and I think I half expected to find his name on something in that tin.",
+        "When I started, we accessioned almost everything that arrived with a friendly letter, and the committee met twice a year in Ruth's office with a plate of shortbread.",
+        "Having gone through the box properly, my recommendation is to accession only three of the pins and put the remaining forty-one into the handling collection."
+      ]
+    },
+    {
+      "id": "000031-087",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Linden Court was converted from a rental block into a resident-owned association in 1987, when the original landlord, Halcroft Properties, sold the building to the tenants' committee for a nominal sum after a long dispute over heating.",
+        "The 2016 revision was the big one: it took almost two years, involved four general meetings, and was mainly about parking, pets and the reserve fund, which had been underfunded for most of the 2000s.",
+        "The board has also changed how it handles repair requests over the years. Until 2019 everything went through a paper book in the lobby, and then we moved to the online form, which most people now use without trouble.",
+        "The association pays for this one, both the riser repair and the damaged ceiling in 4B."
+      ]
+    },
+    {
+      "id": "000031-088",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-089",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-090",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "There is a fairly simple rhythm I've settled on, but it took me three seasons to arrive at it, so let me start with how the system came together.",
+        "When I took on plot 22 in 2023 there was no water on that side of the site at all.",
+        "That winter I put in a request to the committee to run a spur from the main line along the back hedge. It took three meetings.",
+        "The timer was another saga. The first one I bought had a dial so small that I kept setting it to run at 7 p.m. instead of 7 a.m., and I didn't notice for nearly a week.",
+        "The second season I mostly fiddled.",
+        "For in-ground cordon tomatoes in July, I run the line every other morning for one hour, with two 2-litre-per-hour drippers at each plant, so each plant gets about 4 litres per watering."
+      ]
+    },
+    {
+      "id": "000031-091",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Some background first on how those holds came to exist, because it took me a while to untangle.",
+        "When we moved off TixLine and onto Spektrix in the summer of 2023, the old system's single \"house\" flag had to be split into categories",
+        "Gordon wanted a sixth for donors, which was debated at length before being folded into general management.",
+        "Pulling the numbers for this question turned out to be its own small project.",
+        "I've written up the reconciliation steps in the box office handbook so the next person doesn't have to repeat them.",
+        "My recommendation is to release 14 of the 22 holds at noon on Friday and offer them to the waitlist in order."
+      ]
+    },
+    {
+      "id": "000031-092",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-093",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-094",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "First, about the alert that fired yesterday.",
+        "I've opened a ticket to fix the label, and it may be worth sweeping the other probes for the old team name, since I found at least three more while I was looking.",
+        "It's also worth recalling how this certificate is issued, since not everyone on the team was here when it was set up.",
+        "There are a few challenge types: HTTP-01, where the client serves a token at a well-known path; TLS-ALPN-01, which does the proof inside a TLS handshake; and DNS-01, where the client publishes a TXT record.",
+        "There's also the broader question of whether internal services should use short-lived certificates at all, versus longer-lived ones chained to an offline root.",
+        "Rotate before the migration, ideally Wednesday the 28th."
+      ]
+    },
+    {
+      "id": "000031-095",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "This trip always takes me back.",
+        "our bus broke down on the bridge and we spent forty minutes singing to keep everyone calm.",
+        "I went there myself as a child, too, on a school trip in the late eighties, and I still remember being allowed to touch a sea star in the rock pool room and feeling terribly brave about it.",
+        "Over the years we've tried all sorts of lunch arrangements: a picnic on the lawn, the cafe inside, and once a ferry across the harbour to eat on the far side, which was lovely but took far too long.",
+        "Yes, she's welcome to bring her own lunch. The canteen order is optional."
+      ]
+    },
+    {
+      "id": "000031-096",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-097",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-098",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The island is made almost entirely of basalt that cooled about sixty million years ago, when lava flows along what is now the Atlantic edge contracted into the hexagonal columns that give the cave its organ-pipe look.",
+        "Mendelssohn visited in 1829, was violently seasick, and still came away with the opening of his Hebrides overture.",
+        "The last residents left around 1800, and the island has been looked after by the National Trust for Scotland since 1986",
+        "A car isn't needed at all. Book one of the combined ferry-and-boat tours that start at the Oban CalMac terminal."
+      ]
+    },
+    {
+      "id": "000031-099",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "There is now a decision, and I think it will work for you, but it has been a long road and I want to explain where the request has been since you first wrote.",
+        "When we moved from our old database to the new system in April, around four hundred condition reports were imported as attachments without being linked to their object numbers",
+        "The September meeting fell through when two trustees were travelling and a third was unwell, so your request was carried over to a specially convened meeting on 9 October.",
+        "The committee has approved the loan, with conditions. The quilt may be with you for no more than eight weeks, from 1 March to 26 April."
+      ]
+    },
+    {
+      "id": "000031-100",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-101",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-102",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Thanks for writing in. A few people have asked similar things, so it seems a good moment to go back over how we got here.",
+        "The committee scored them on a matrix weighted 40 percent on price, 30 percent on experience with communal systems, 20 percent on programme and 10 percent on warranty terms.",
+        "An air-source system for a building our size would have needed external units on the flat roof, structural checks, and larger radiators in most flats",
+        "The draw from the reserve fund, 96,400 pounds, was approved at the AGM in June by 31 votes to 6",
+        "Yes, the hot water will be off, for about two and a half days."
+      ]
+    },
+    {
+      "id": "000031-103",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "It also helps to know how dairy routes work, since that explains why Riverside is making the offer.",
+        "Shelf life is the other piece of background. Most of what Riverside sells is HTST pasteurized, heated to about 72 C for fifteen seconds, which gives a code date roughly 14 to 18 days after bottling.",
+        "Dairies across the region have been promoting more frequent drops since about 2022, partly because they can charge for them and partly because smaller, regular orders make accounts less likely to shop around.",
+        "I would turn it down. Six drops at $9 is $54 a week, or about $2,800 a year."
+      ]
+    },
+    {
+      "id": "000031-104",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-105",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-106",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "This one takes me back. My first ops job, in 2012, was at a ticketing company that ran everything behind a pair of hardware load balancers in a colo in Secaucus.",
+        "I spent my first month racking servers and learning to label cables his way, and I still picture that card whenever draining comes up.",
+        "I'd lower checkout-api to 60 seconds."
+      ]
+    },
+    {
+      "id": "000031-107",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Camp Tamarack has been part of Grade 7 at Pine Ridge since 1998, when Mr. Halvorsen, then head of the science department, arranged a three-day visit as the close of his pond-ecology unit.",
+        "The district's volunteer rules have their own history. Harlow Valley adopted its first written volunteer policy in 2006, after a review of field trips across the district's 14 middle schools found that every school was handling supervision a little differently.",
+        "About 1,100 parents across Harlow Valley currently hold Level 2 clearance, and the district office's processing volume peaks every March, when spring trips, track meets and graduation events all come due together.",
+        "The answer for the Tamarack day trip is that a parent needs Level 2."
+      ]
+    },
+    {
+      "id": "000031-108",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-109",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-110",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "There is a route for this, though whether it works depends on timing.",
+        "It may help to know a bit about how our ticketing runs.",
+        "Until 2023 we sold through an outside agency and posted paper tickets in April, which led to a steady stream of lost post and duplicate orders.",
+        "Hannah, our box office manager, reconciles orders every Monday against the bank settlement, and refunds go through a separate approval queue that two trustees sign off.",
+        "You can change the name on the ticket yourself until 23:59 on Tuesday 9 June."
+      ]
+    },
+    {
+      "id": "000031-111",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "It may help if I explain how setting decisions are made at Brookfield, because the process has changed quite a lot in the last two years.",
+        "The minutes of that sign-off are kept on the shared drive and reported to governors each November.",
+        "This summer the process was complicated by our move from SIMS to Arbor as the school's management information system.",
+        "Timetabling added another layer.",
+        "She can move back, though not straight away.",
+        "If Maya scores 65 percent or above on that paper, and Ms Rowe confirms that her classwork supports the move, she will rejoin Set 2 from Monday 5 January."
+      ]
+    },
+    {
+      "id": "000031-112",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-113",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-114",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "First, on the practical side of getting shoes around the tour: wardrobe will be bringing the large shoe hamper again, the one with the slatted drying shelves, and it travels on the second truck with the costume skips.",
+        "It might be worth giving some background on how the company has handled shoes over the years, since quite a few of you joined after the change.",
+        "In 2019 we briefly tried a second supplier for the corps to bring costs down, but the shoes varied too much between batches and the experiment ended after one season.",
+        "Freed shoes are made by individual makers, each with their own stamp on the sole, and dancers tend to stay with one maker once they find a shank and box that suit them.",
+        "For the tour itself, the company pays for up to two pairs per dancer per week for anyone in a pointe role, which comes to twelve pairs across the six weeks."
+      ]
+    },
+    {
+      "id": "000031-115",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "I first went into Titcomb in September of 2011, and I still think about that trip more than almost any other.",
+        "We went back almost every fall after that until he moved to Bozeman in 2018.",
+        "Those trips are a big part of why I ended up doing guide work for a few seasons, and why I still answer posts like this one when I see them.",
+        "Your Copper Spur will very likely be fine.",
+        "Camp below the upper lake, in the scattered whitebark pine and boulders on the west side, rather than on the open benches near the head of the basin where wind funnels off the Divide."
+      ]
+    },
+    {
+      "id": "000031-116",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-117",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-118",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before getting into it, a little background on how our documents came to be, since a lot of newer owners haven't seen it.",
+        "Maple Court was built as a rental property in 1972 and converted to condominiums in 1989, when the original developer, Ashby Partners, sold off the units over about three years.",
+        "Management has also changed hands a few times.",
+        "The board itself is five volunteer owners elected to staggered two-year terms, and we meet the second Tuesday of each month in the community room.",
+        "Put together, the association isn't responsible for your repair; 4B's owners are, because the damage came from a component they are required to maintain."
+      ]
+    },
+    {
+      "id": "000031-119",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "This is fixable, and it mostly has to do with timing.",
+        "Before I get into it, I thought it might help to walk you through how a wholesale order actually moves through our building, since we've grown a lot this year and some of it looks different from when you first opened your account.",
+        "Our main roaster is a Diedrich IR-12, and a full batch is about 26 pounds of green coffee, which comes out a little under 22 pounds roasted once the moisture cooks off.",
+        "Green coffee comes in from our importer in Oakland, usually by the pallet, and we keep about six weeks of each core coffee in the warehouse.",
+        "Most of that has been the same for years; the new packing bench and label printer went in this summer, and we've hired two more part-time packers since June.",
+        "What did change in August is the roast schedule.",
+        "The change on your side is simply to get the order in by noon on Monday."
+      ]
+    },
+    {
+      "id": "000031-120",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-121",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-122",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Last spring the Special Collections advisory group was asked to review weekend access as part of the library's three-year service plan. The group had seven members, including two faculty representatives, the head of public services, and a member of the Friends of the Library board.",
+        "Gate counts were ruled out early, because the reading room shares an entrance with the main stacks and the door sensor cannot tell the two apart.",
+        "That coding took longer than anyone expected. About 1,400 slips were still on paper from before the move to the Aeon request system in 2024, and roughly a fifth of them had the patron category left blank.",
+        "Staffing was the other half of the review. Weekend shifts fall under a separate provision of the library's staff agreement, so the proposal had to go through the labor-management committee in August before anything could be put on a calendar.",
+        "The outcome is that the reading room now opens to all registered researchers, affiliated or not, on the first and third Saturday of each month from 10 a.m. to 2 p.m., starting November 7. Saturday visits are by appointment only."
+      ]
+    },
+    {
+      "id": "000031-123",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before I get to the deposit, I want to mention a change that went out in last week's newsletter, since several families missed it: the trip will no longer include the Gettysburg stop on the first morning.",
+        "This trip has a long history at Crestview. It began in 2009 as a single-bus outing organized by two social studies teachers, Ms. Albrecht and Mr. Dunne, who wanted students to see the places they had spent the year reading about.",
+        "Part of what the committee wanted was a clearer payment structure. Under the old arrangement, families paid the school directly and we forwarded the money in lump sums, which created a great deal of bookkeeping for our front office and some confusion about refunds.",
+        "Like all overnight trips, this one also had to return to the district board for approval because of the itinerary change, and the board granted it at its October 9 meeting.",
+        "The short of it is that Jonah can still go. Capitol held six spots open past the deadline for exactly this kind of situation, and as of this morning four of them are unclaimed. To secure one, the $150 deposit needs to be paid through the Capitol portal by Friday, November 14."
+      ]
+    },
+    {
+      "id": "000031-124",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-125",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-126",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Kenji, that takes me back. When I started here in 1998 the building still had its original galvanized risers from 1961, and Sal Moretti, the super who trained me, used to say you could hear those pipes thinking about leaking.",
+        "The one I remember best was the winter of 2011. A section of the C line gave out on the sixth floor, and when we shut the riser and opened it back up, the tenant in 5C had been fiddling with the stop under the kitchen sink and left it half open with the supply line off.",
+        "After that the board started budgeting to replace the risers one line at a time, and the A line went two years ago without much trouble.",
+        "For Thursday, don't touch your valves. Leave every stop under your sinks and behind the toilet exactly as it is. The plumbers shut the B-line riser in the basement at 9 a.m. and close each unit's valves themselves as they come through"
+      ]
+    },
+    {
+      "id": "000031-127",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Alderbrook Hall was built in 1928 as a temperance meeting hall and passed to the Alderbrook Music Trust in 1974, when a group of local music teachers raised the money to buy it from the council.",
+        "The Bechstein has its own story. It was left to the Trust in 1991 by the estate of a retired organist, Hilda Carrow, who had kept it in her front room on Mill Lane for nearly forty years.",
+        "The current hire schedule, with its fixed lines for staffing, cleaning, piano preparation and late finishes, was introduced to make quotes predictable and to stop the office negotiating every booking separately.",
+        "The piano preparation fee is not optional, and it stays on your invoice even if Pieter tunes the instrument."
+      ]
+    },
+    {
+      "id": "000031-128",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-129",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-130",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Your neighbour is right that the 14 is moving for a while, and your stop is one of the ones affected, though the arrangements took several rounds to settle.",
+        "The funding was confirmed in March this year. The council then ran a two-stage procurement: seven contractors expressed interest, four were invited to tender, and the contract went to Brennick Civil in July",
+        "Closing a road to traffic also needs a temporary traffic regulation order, which has its own statutory steps.",
+        "Rivergate's scheduling team tested each against their peak running times, and our passenger transport officers held two drop-in sessions at the library in September, which about 60 people attended.",
+        "From Monday 3 November until Friday 13 February, the 14 will run via Canal Street in both directions between the Fenn Lane junction and Market Cross.",
+        "Your nearest replacement is a temporary stop on Canal Street outside Kelbrook Library, about 300 metres away, served in both directions."
+      ]
+    },
+    {
+      "id": "000031-131",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "When this came up at the October ops review we agreed to take it through the full RFC process rather than settle it in the channel, so this reply comes out of that.",
+        "We met three times, on 8, 15 and 17 October, for 45 minutes each, and the notes are linked from the RFC.",
+        "To keep the discussion from circling we used the weighted scoring sheet the architecture group adopted in the spring.",
+        "There was a fair amount of back and forth about whether strategic fit belongs on the sheet at all for a version upgrade",
+        "We also had to untangle the ticket structure. The upgrade epic, OPS-4410, was originally created in 2024 for the move from 13 to 15 and had been reused",
+        "It should wait. My recommendation, which the working group backs, is no upgrade before the freeze; we do the cutover in the week of 11 January, after the peak trading period."
+      ]
+    },
+    {
+      "id": "000031-132",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-133",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-134",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before getting into Friday, it is worth settling the wildcard question that came up in standup, because Dana and Felix have been going back and forth on it for a week.",
+        "Some history on how we got here, since half the team joined after it happened.",
+        "The way cert-manager works, briefly: each Certificate resource names a domain and an Issuer.",
+        "There was also a stretch in 2024 when the Let's Encrypt chain changed and an old Android client population at one partner bank stopped validating our certificates.",
+        "Now, Friday. Yes, the swap can be done without restarting the ingress pods, for every service except one."
+      ]
+    },
+    {
+      "id": "000031-135",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Your question took me back to my own first visit to an archive, which was not here but at a county record office in a converted grammar school, with a radiator that clanked every eleven minutes.",
+        "When I arrived at Corwin in 2009, the reading room was in the basement of the old library, beneath the periodicals stacks.",
+        "The Pell papers have their own history with us.",
+        "Yes, you can use the reading room on a Saturday without any university affiliation."
+      ]
+    },
+    {
+      "id": "000031-136",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-137",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-138",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Brennard Hall has been home to the Lakemont Symphony since 1958, when the orchestra moved from the old Masonic auditorium on Fourth Street",
+        "Over the past two seasons we have been moving from our old ticketing platform to a new system shared with the Lakemont Opera and the Riverside Chamber Series",
+        "yes, you can move your tickets into the March 21 evening performance at no charge."
+      ]
+    },
+    {
+      "id": "000031-139",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "the short version is that it depends on one month of your year, and I ended up somewhere slightly different from where I expected to when I started.",
+        "When your note came in on Tuesday I did what I usually do with a terms question, which is pull the full year of payables out of QuickBooks.",
+        "From there I worked through it the way I was taught at my first bookkeeping job, which is to look at the offer from the supplier's side before your own.",
+        "I also called Marcus Feld, the CPA I share a few clients with, on Thursday afternoon.",
+        "Keep prepaying for eleven months of the year, and use net-30 only for your October order."
+      ]
+    },
+    {
+      "id": "000031-140",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-141",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-142",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "As most of you know, the board's handling of major mechanical work is governed by the capital expenditure policy adopted in 2019, after the parking lot resurfacing dispute.",
+        "In keeping with that policy, our property manager, Denise Aguirre, requested bids from four mechanical contractors in late September.",
+        "The bids were originally scheduled to come before the full board on October 8. Unfortunately, that meeting did not reach quorum.",
+        "The board voted 5 to 0 to repair the boiler for this winter and replace it next spring."
+      ]
+    },
+    {
+      "id": "000031-143",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "First, the staff vests. I reordered 30 from the same supplier in the dark green, since half of last year's batch had faded by June.",
+        "It's worth remembering how seasonal hiring used to work around here.",
+        "When Gary ran the place in the 2010s, he took on whoever showed up from the Kellner High work-study program, sometimes eight or nine kids, and sorted out schedules once they arrived.",
+        "We should hire five this year, not seven."
+      ]
+    },
+    {
+      "id": "000031-144",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-145",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-146",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "That was 2009, on the field my father-in-law let me borrow behind his dairy unit at Llansilin.",
+        "Squash have a long history in that kind of improvised storage.",
+        "I've tried most places over the years: the farm dairy, a stone outbuilding, the cupboard under the stairs, a friend's polytunnel, and once, unwisely, a cattle trailer.",
+        "The garage won't get the butternuts to March, and it's a gamble for the Crown Prince too."
+      ]
+    },
+    {
+      "id": "000031-147",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The Brackley Road site has an unusual history for a town allotment.",
+        "The land was glebe belonging to St Peter's until 1919, when the parish leased it to a group of returning servicemen who wanted to grow vegetables",
+        "The freehold passed to the borough in 1947 and then to the town council after reorganisation in 1974.",
+        "You can, with written approval from the committee first. Tunnels are allowed up to 4.5 m long, 2.5 m wide and 2.2 m high"
+      ]
+    },
+    {
+      "id": "000031-148",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-149",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-150",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The answer is lower than most of us were baling at, and this summer's trial showed exactly how far off we were.",
+        "The trial started when three members lost stacks to heating in 2025, and the committee agreed at the February meeting to spend part of the machinery fund on testing.",
+        "Martin built a shared spreadsheet so everyone's readings went in the same format, and we held a meeting in the village hall in September",
+        "For small conventional bales, aim for 18 percent moisture or less by oven-dry measure, and 16 percent if you're stacking them tight in an enclosed barn."
+      ]
+    },
+    {
+      "id": "000031-151",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before anything else I should explain a bit about how the map holdings came to be where they are, because it has been a long road.",
+        "In 2019 we migrated our special collections records from the legacy card file into ArchivesSpace, a project I coordinated with two graduate interns from the state university.",
+        "The reading room itself was also renovated last spring. The facilities committee met for most of 2024 to choose new map cases",
+        "So, the atlases cannot be checked out. They are non-circulating, as is everything in special collections, and that includes the 1923 and 1928 Harlan County plat books you mentioned."
+      ]
+    },
+    {
+      "id": "000031-152",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-153",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-154",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Imani, first, about the grinder. You mentioned the Mazzer at the back counter has been running hot, and I'd hold off moving it to the front.",
+        "It may help to understand how commercial espresso machines evolved. Early lever machines in the 1940s used a spring piston to push water through the puck",
+        "As for the counter machine, lease it."
+      ]
+    },
+    {
+      "id": "000031-155",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Farid, I keep thinking about my first holiday season in this business, back when I worked at my aunt's soap shop in Asheville.",
+        "Those Decembers taught me a lot, mostly about how much goodwill a business can burn through in two weeks.",
+        "Our numbers point to hiring three packers."
+      ]
+    },
+    {
+      "id": "000031-156",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-157",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-158",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The Lower Ruby Fork has a more tangled management history than most rivers its size.",
+        "When Marrow sold the corridor, state parks and the Forest Service spent almost six years negotiating a co-management agreement, held up mostly by grazing leases on the upper benches.",
+        "Its recent agendas have mostly concerned the broken gauge at Tillman Riffle and a long-running argument over a footbridge at Lamb Creek.",
+        "For your trip, yes. Any overnight stay between Cedar Flat and Pell Bridge from May 15 to September 15 requires a permit. It's free and self-issued at the kiosk beside the Cedar Flat put-in"
+      ]
+    },
+    {
+      "id": "000031-159",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The short version is that Harlow Street isn't losing its bus, but the change is not quite nothing, either.",
+        "It may help to explain how these changes reach us, because people often assume the association is told well in advance.",
+        "I submitted comments on behalf of the association and attended the public drop-in at the Mill Lane library on June 24.",
+        "Most of the conversation was about the 22, which is being cut back much more severely than the 14, and I spent a good while hearing about it.",
+        "At the same time the highways team has to physically install or remove stop poles, and the printing contractor produces the paper timetables, which this year were delayed by a dispute over the map design.",
+        "Southbound, the direction your mother takes to Bryce Road, the stop moves. From November 9 the 14 will turn left from Harlow Street onto Corder Avenue instead of continuing to the Elm Road junction, so the old southbound stop by the launderette will no longer be served. Its replacement is a new pole on Corder Avenue about 180 metres away"
+      ]
+    },
+    {
+      "id": "000031-160",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-161",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-162",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "My first email went to Gerald Price, who handled our bookings for years. It bounced.",
+        "The trust has a new online portal, and I registered us on it, which needed our charity number, a copy of our public liability certificate and a named safeguarding lead.",
+        "In the meantime I went back through our minutes from 2023, when we last discussed the organ, and found that we'd rejected it then on cost grounds without ever recording the cost.",
+        "I also read the trust's published annual report, which has a section on the hall's restoration plans, mostly about the roof and the bar.",
+        "So, the position. We can use the organ on 13 December. The trust charges 340 pounds for organ use on top of the normal hall hire, plus 95 pounds for the tuner's attendance, making 435 in total."
+      ]
+    },
+    {
+      "id": "000031-163",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Priya, first a note about the fluid.",
+        "It's worth explaining a little about what haze actually is, because the word gets used loosely.",
+        "The look your director wants has a long history, too.",
+        "People also ask whether haze is safe to breathe.",
+        "As for the alarm: yes, you can run haze for Act 2, but only if the smoke detectors in that room are bypassed by the building's fire contractor for each session, and only with a trained fire watch present while they are offline."
+      ]
+    },
+    {
+      "id": "000031-164",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-165",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-166",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Jonah, your question sent me straight back to my own first year, which was the fall of 1998 in the old Cedar Ridge building on Fourth Street, long before this campus existed.",
+        "When the district moved us to electronic gradebooks in 2006, most of us carried those habits over.",
+        "I tell you all this partly so you know you are in good company.",
+        "The penalty does have to go into the score."
+      ]
+    },
+    {
+      "id": "000031-167",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Questions about doors and windows come up often in a building of our age, and it may help newer shareholders to know a little of how we got here.",
+        "Ridgemont Gardens was completed in 1974 by Halvorsen Development as a rental complex of 96 units in three wings",
+        "The way maintenance decisions get made has changed over the years as well.",
+        "Balcony doors have had their own history here.",
+        "In your case, the co-op pays for the replacement."
+      ]
+    },
+    {
+      "id": "000031-168",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-169",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-170",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Marcus, the short version is that it comes down to how the gift was recorded when it arrived, and I'm glad you caught it before the proof went out.",
+        "It might help to know how a gift moves through our office, because a lot of people outside collections only ever see the end of it. When a donor offers an object, the curator writes a proposal and it goes onto the agenda for the acquisitions committee, which meets four times a year, in February, May, August, and November.",
+        "That room used to be a staff kitchen, which is why the sink is still there.",
+        "Our numbering system dates from 1974, when the museum's first full-time registrar, Dorothy Haines, replaced the old ledger numbers with the year-lot-item format we still use.",
+        "We kept it through the move from card files to the Re:discovery database in 1996 and then the migration to TMS in 2011, which took the better part of two years and left us with about 3,000 records that still have odd formatting in the dimensions field.",
+        "Some donors sign the same day; one estate in 2023 took eleven months because the executors were in three countries.",
+        "Because they came from the same house, the intake assistant assumed the bowl was part of the bequest and numbered it 2026.14.3, after two Okafor jars.",
+        "Use 2026.31.1 on the label. The credit line also changes: it should read \"Gift of Hana Tanaka, 2026,\" not \"Bequest of Samuel Okafor.\""
+      ]
+    },
+    {
+      "id": "000031-171",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "To get you a solid answer I started with the ticketing side. I ran the Event Sales Summary in Spektrix for the November 14 performance, event code LK-1114M, and filtered by price band so I could separate the single tickets from the group and comp allocations.",
+        "The first export double-counted the 22 seats that were released and resold after the October 3 holds came off, so I re-ran it with the \"current status only\" box ticked, which is not the default and which I only remembered after comparing the totals against the seating plan.",
+        "Owen found one group, the Marlowe Hill seniors, recorded under the wrong performance, which he has fixed.",
+        "I also went back through the terms of sale history, because the version on the website was updated in April and I wanted to be sure which terms applied to which buyers.",
+        "The relevant point is clause 6.2, which says a change of start time of up to two hours on the same date is not a material change. So yes, we can move the matinee to 3:30 without owing anyone a refund."
+      ]
+    },
+    {
+      "id": "000031-172",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-173",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-174",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before getting to the reopening, a word about the new card readers, since several of you asked about them as well.",
+        "The switch has been a long time coming. The coin boxes were installed in 2009, and the residents' association first raised replacing them at the 2022 annual meeting, after the third break-in that year.",
+        "WashPoint charges a flat monthly fee per machine and lets the building set prices, which is why the board chose it, though the vote was 4 to 3 and took two meetings.",
+        "The room itself will reopen on Monday, November 2, at 7 a.m."
+      ]
+    },
+    {
+      "id": "000031-175",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Major upgrades always take me back to my first one, at a ticketing company in 2015, going from 9.1 to 9.4.",
+        "Dariusz, our DBA, brought a folding camp bed because he expected to be there until Monday, and he was right.",
+        "For most of the following year we talked about upgrades the way people talk about moving house.",
+        "I bring that up because the instinct you describe, not wanting a replication project, is one I had to unlearn from the other side.",
+        "For your setup, pg_upgrade --link fits comfortably in 30 minutes and is what I would use."
+      ]
+    },
+    {
+      "id": "000031-176",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-177",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-178",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Fernhill Road was laid out in 1919 on land the borough bought from the Hadley estate, originally as 64 plots for returning servicemen and their families.",
+        "The society itself was formed in 1924, when plot holders took over the day-to-day running of the site from the parks department, and it has held the lease from the council ever since, most recently renewed in 2018 for a further 25 years.",
+        "For the first thirty years plot holders relied on rainwater and two wells near the top gate, both now capped.",
+        "The galvanised troughs that many of you still use were installed in 1958 with a grant from the county, and the mains supply was extended along the central path in 1974.",
+        "Hosepipes can still be used, but only between 6 and 8 a.m., only from the four standpipes on the central path, only with a trigger nozzle fitted, and only to fill water butts, troughs or cans."
+      ]
+    },
+    {
+      "id": "000031-179",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "I've got an answer for night two, and fair warning, it isn't the one that won the poll.",
+        "I spent most of Saturday on this. I started by rereading the three trip reports Callum dug up",
+        "Then I put the OS 1:25,000 and the Harvey map side by side, because they don't agree on where the path drops off the ridge after Raven Crag, and spent a good hour working out which survey was older.",
+        "After that I built a spreadsheet, with columns for distance, ascent, nearest water, shelter, and a vibes column that Jonah insisted on.",
+        "I also rang the estate office twice.",
+        "We're camping at Calder Tarn, not staying in Harrowmoss."
+      ]
+    },
+    {
+      "id": "000031-180",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-181",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-182",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The consultation on the post-roadworks route 14 alignment ran for six weeks, from 1 July to 12 August, and was administered jointly by the county transport team and Wexcombe Buses.",
+        "Paper forms were collected every Friday by a member of the transport team and keyed in by hand, which is why the running tally on the portal sometimes lagged by several days.",
+        "Because several households submitted the same paper form more than once, the team ran a deduplication pass using postcode and the free-text comment, removing 63 entries.",
+        "The panel's decision, confirmed at the October committee, is that Mill Lane keeps its stop."
+      ]
+    },
+    {
+      "id": "000031-183",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Overdue fines first, since that tends to be the worry.",
+        "The consortium began as a courier arrangement between three libraries that shared a van on Tuesdays and Thursdays, and it still uses a van network for physical items, now running five days a week from a hub at Daventry.",
+        "Requests are routed by software that looks for the nearest holding library with the item actually on the shelf, which is why a book can arrive from a distant campus even when a closer library owns a copy that happens to be out.",
+        "Once an interlibrary loan is past its due date, it cannot be renewed, and that is why the button is disabled."
+      ]
+    },
+    {
+      "id": "000031-184",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-185",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-186",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "When I started my soap business in 2017, I was working out of a box room in my mother's house, and every order went out with a handwritten address.",
+        "I had a fountain pen I was oddly proud of and a stack of brown kraft envelopes from a stationery shop in Ludlow that has since closed.",
+        "I remember sitting on the floor at one in the morning with cramp in my hand, rewriting a label because I had smudged the zip code, and deciding that whatever happened the following year, I was not doing that again.",
+        "Buy one. At 40 orders a week, a basic 4x6 direct thermal printer costs $120 to $170 outright and uses no ink or toner, so the rental's $216 over a year more than covers the purchase, and you keep the machine afterward."
+      ]
+    },
+    {
+      "id": "000031-187",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Some background on the soak first. The 48-hour rule was introduced in March 2023 after the ledger outage, when Marcus Hale wrote the original release policy in a single afternoon, largely adapting a checklist he had used at his previous company. At that point the platform group was four people and shipped about twice a week. Since then the policy has been revised eleven times, moved from Confluence into the engineering handbook repository, and picked up sections on mobile releases and data migrations that have little to do with backend services. The soak itself runs on the stg-east cluster, which we share with the search team and which was resized from 12 to 18 nodes last quarter after their indexing jobs began competing for memory.",
+        "The fix can go out today, through the expedited path rather than with no verification at all. Section 4.3 of the handbook already allows the soak to be cut to 2 hours when a change is under 20 lines, touches no schema, adds no dependencies and has an incident ticket attached."
+      ]
+    },
+    {
+      "id": "000031-188",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-189",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-190",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "It depends on the image record, and some of it will be straightforward. It makes more sense once you know how the pictures came to be online.",
+        "Almost everything on the online collection was photographed during the Open Stores project, which ran from 2018 to 2023 with Heritage Fund support.",
+        "Each object was shot with a colour checker card in the frame for the master file, which was then cropped out of the web version.",
+        "Once an object had been photographed, a team of around 25 volunteers checked the catalogue record against the image, corrected object names and dates where they could, and flagged anything uncertain for a curator.",
+        "For a printed pack, what governs each picture is the 'Image rights' line shown under it on the object page, and there are three possible values."
+      ]
+    },
+    {
+      "id": "000031-191",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Getting reliable numbers took longer than expected, so a note on how they were put together. The first export from the ticketing system included comps, press seats and the 22 house seats we hold back for every performance, which made several evenings look sold out when they were not. Ji-woo rebuilt the report using the paid-only filter, but that filter drops group bookings entered before the system upgrade in August, so those had to be added back by hand from the group sales spreadsheet. We then found that two schools had been entered twice, once as a group and once as individual bookings. Finance also asked us to use the newer cost codes for front-of-house staffing, which meant redoing the staffing estimate in their template rather than ours. The version attached is v4; please ignore v2 and v3 in the shared drive, which still contain the duplicated school bookings.",
+        "My recommendation is to add a Sunday 2pm matinee on the final two weekends only, 23 and 30 November, rather than on all five."
+      ]
+    },
+    {
+      "id": "000031-192",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-193",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-194",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before anything else, it is worth saying a word about the onions you lifted from the other beds that year, because several people at Mill Lane have asked me since whether bulbs from a plot with white rot are safe to store.",
+        "Garlic itself has a long and slightly confusing family history in gardening books.",
+        "Mill Lane has also changed how it handles bed allocation over the years.",
+        "The short version for Bed C is no, and not for a long time."
+      ]
+    },
+    {
+      "id": "000031-195",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The first time I walked that stretch was in 2011 with my brother Callum, who had just come back from a year in Wellington and was sure the Harrow coast would feel tame by comparison.",
+        "That trip was really about the two of us more than the path.",
+        "I still think of it as the walk that taught me to pack less.",
+        "Three days is realistic for your group, but only with an uneven split that puts the roughest ground in the middle."
+      ]
+    },
+    {
+      "id": "000031-196",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-197",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-198",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The Halloran Reading Room opened in 1964, funded by a bequest from Margaret Halloran, a local printer's daughter who left the university her collection of regional pamphlets on condition that they be kept together and made available to any serious reader.",
+        "Today the department holds around 1,400 linear metres of manuscripts and archives, and the Pryce letters are among its most requested series, largely for their coverage of the 1890s mill strikes.",
+        "Personal scanners of any kind, including wand and flatbed models, are not permitted in the reading room."
+      ]
+    },
+    {
+      "id": "000031-199",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Short answer: almost, but not in the form you wrote it.",
+        "Thursday was a full day, so let me go through it.",
+        "I hadn't known the packing bench was something your brother built from reclaimed shelving when you moved out of the garage in 2022; it is sturdier than most of the commercial benches I see.",
+        "We spent a while on the label software you used before ShipStation, the one that kept dropping the second address line, and Marcus pulled up the spreadsheet he kept back then to catch those errors by hand.",
+        "I normally time at least forty orders across a full shift, and I write down what music is playing, whether people stand or sit, and how often the phone rings, mostly because those details come up when I compare shops later.",
+        "I also photographed the shelving layout, and I'll send those separately, since most clients like having them on file even when nothing changes.",
+        "In the afternoon I sat in on your 3:30 call with the wholesale buyer from Portland, which was good background on where the business is heading, and then I waited out the UPS pickup with Marcus.",
+        "A 2 pm cutoff will miss the truck on roughly one shipping day in four during the rush.",
+        "The simpler one is to promise 1 pm Eastern instead of 2."
+      ]
+    },
+    {
+      "id": "000031-200",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-201",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-202",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Answering that took longer than any of us expected, and we would like to account for the time.",
+        "Kessler sent the financial records promptly, but the governing documents came over in eleven banker's boxes that sat in the package room until June, when Ruth Abernathy in 5C kindly volunteered two Saturdays to sort them.",
+        "She found three versions of the bylaws in those boxes: the 1962 originals, an amended set from 1987, and a restatement from 2009, along with a folder of meeting minutes going back to 1971 that she has since organized by decade.",
+        "The first two sessions were held on Zoom, and the second was cut short when the host account timed out at forty minutes; we have since moved to the Northgate conference line.",
+        "Hollis and Brandt quoted $525 an hour, Medina Law Group $390, and Feld and Osei $425 with a cap of eight hours.",
+        "Several respondents also left long comments about the lobby renovation of 2019, which we have passed to the house committee.",
+        "Under Article VI, Section 4 of the 2009 restated bylaws and paragraph 1(c) of the proprietary lease, any special assessment must be allocated in proportion to the shares held for each apartment.",
+        "So the assessment will be divided by shares, and the ground-floor apartments are included."
+      ]
+    },
+    {
+      "id": "000031-203",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "One thing worth knowing first is that the new dryers won't take quarters.",
+        "We spent most of last spring deciding on this.",
+        "Our service contract with Brightway covered repairs, but their technician came only on Tuesdays, so a jam on Friday meant a dryer sat dead all weekend.",
+        "One wanted a ten-year lease, which felt like too long a commitment given how quickly payment technology changes.",
+        "There was a fair amount of back and forth about the price increase, and the board ultimately decided the reliability was worth the quarter.",
+        "I also went to see a LaundryLink installation at a building on Dunmore Street in August, and the residents I spoke with there were happy with it, though a few older residents had needed help setting up the app at first.",
+        "For this weekend, the room will be fully closed from 8 am until about 2 pm on Saturday while the old dryers are disconnected and the gas lines capped.",
+        "So you can wash any time after 2 on Saturday, but you won't be able to dry in the building until late Sunday afternoon."
+      ]
+    },
+    {
+      "id": "000031-204",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-205",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-206",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Calder Street has a special place in my memory. I started using it in 1997, when the booking hall still had the wooden ticket windows and a tea stall run by a man called Dennis who knew every regular's order.",
+        "For a few years I worked in the parcels office at the north end, and I got to know the lift well.",
+        "The lift has always been the station's weak point, and its replacement has been talked about for years.",
+        "For your father, though, the practical answer is no: he should not plan to use Calder Street while the works are on."
+      ]
+    },
+    {
+      "id": "000031-207",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The Kessock Point to Ardmore crossing has been operated since 2012 by Firthlink, a company jointly owned by the regional council and a private marine contractor, under a ten-year service agreement that was extended in 2022 for a further five years.",
+        "The fleet is two vessels. MV Corran, built in 1998, carries 180 passengers and 24 cars",
+        "Winter timetables are drafted in the summer, published for consultation in September, and take effect on the second Sunday of November.",
+        "The 06:15 Saturday sailing is suspended from 9 November until 1 March."
+      ]
+    },
+    {
+      "id": "000031-208",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-209",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-210",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "A decision was made at the acquisitions committee meeting on 14 October, and I can explain where things stand.",
+        "It may help to know how offers like yours move through the museum.",
+        "The curator checks the offer against the collections development policy, which the trustees revise every five years; the current version runs to 46 pages and covers everything from archaeology to costume.",
+        "The committee is made up of the director, two curators, the head of collections care and a trustee, and it meets four times a year, in January, April, July and October.",
+        "The committee declined the tea service for the permanent collection."
+      ]
+    },
+    {
+      "id": "000031-211",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The revision began last spring, when the regional transport board commissioned a review of every route serving the quay.",
+        "Under the board's standing orders, any change touching more than two routes goes first to the operations committee and then to the full board, which produced a draft in June, a revised draft in August and final approval at the September 18 meeting.",
+        "There was also a hiccup on the data side. Our journey planner reads times from a feed the board publishes every four weeks, and the September feed went out before final approval, so for a while some riders saw the old 14 times in the app.",
+        "The committee minutes also record a long discussion of competing requests",
+        "For your morning, the 6:42 connection stops working from November 3.",
+        "Under the new timetable the first weekday 14 leaves at 7:02, four minutes before the ferry arrives, and the next one is 7:22, which reaches the hospital stop at roughly 7:41. That is too late for a 7:30 start."
+      ]
+    },
+    {
+      "id": "000031-212",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-213",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-214",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before anything else, you may find the room listed under a different name now. Since September the second-floor study room has been called the Ellery Room",
+        "The name comes from Margaret Ellery, who volunteered at Fenwick for almost thirty years and ran the branch's homework club from 1987 until her retirement.",
+        "The room itself has a longer history. It was originally the branch's local studies office, holding parish records and maps until those moved to the central library archive in 2016.",
+        "When the library service moved all its rooms onto the RoomDesk online system in 2023, Fenwick was one of the last branches to switch over",
+        "Recurring bookings like yours are allowed, with two conditions.",
+        "Second, RoomDesk caps any recurring series at eight weeks. If you start on Tuesday, October 27, eight weeks takes you to December 15, and since the branch is closed from December 22 to January 2, that covers everything you asked for."
+      ]
+    },
+    {
+      "id": "000031-215",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Fiona, your question took me straight back to my first panto at Wexley, which was Cinderella in 1998.",
+        "The caretaker then was Ron Doble, who lived in the cottage next door and came over every interval with a flask of tea for the crew.",
+        "That was the year of the famous pumpkin.",
+        "A lot has changed since then. The parquet went in 2009, Ron retired in 2014, and the Players have gone from three shows a year to two",
+        "Haze is allowed now, provided you arrange it properly.",
+        "To do that you need to book an isolation with the bookings secretary, Alan Pryce, at least seven days before your first night; it costs 20 pounds per performance."
+      ]
+    },
+    {
+      "id": "000031-216",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-217",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-218",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Westfield Middle moved to the Brightpath gradebook in the 2022-23 school year, replacing the older system the district had used since 2009.",
+        "The change came out of a district committee that spent most of a year comparing four vendors, and Brightpath was chosen largely for its parent portal and its connection to the state reporting database.",
+        "In the first year, report cards were still generated by the district office, which meant every school ran on the same timeline regardless of its own calendar.",
+        "Term 2 grades must be finalized in Brightpath by 3:30 p.m. on Friday, January 23."
+      ]
+    },
+    {
+      "id": "000031-219",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "It comes down to one setting, and fixing it is not complicated, but it makes more sense once you see how packaging moves through the building.",
+        "Our bags come from Pakwell in Dayton. We order the 12 oz kraft valve bags in cases of 500, and they usually arrive on a single pallet with the 2 lb bags and the tin ties.",
+        "Receiving means counting cases against the packing slip, checking that the valves are on the right side, and photographing the slip for the shared drive.",
+        "From there, bags come down as the roast schedule needs them. We roast Monday, Wednesday and Thursday.",
+        "The inventory app is the same one we set up in spring 2023, when Marco and I first moved out of the shared kitchen.",
+        "The reorder point for 12 oz bags was still set at 900 bags, the number we entered in 2023.",
+        "As of this week, the 12 oz reorder point is 2,100 bags: four weeks of use at 420 a week, plus one extra week as a buffer for slow freight or a big wholesale order."
+      ]
+    },
+    {
+      "id": "000031-220",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-221",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-222",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "In August, the Dean of Libraries appointed a working group of seven people: two curators, the head of reading room services, a representative from Facilities, a security coordinator, and two graduate students nominated by the Graduate Council, one from History and one from Art History.",
+        "The group met eight times between September and December, usually on Tuesday afternoons in the Dunmore conference room.",
+        "The group sent a survey to all 1,140 registered graduate students in October and received 312 responses, a response rate of about 27 percent, which the library's assessment office considered strong for a voluntary survey.",
+        "Minutes from each meeting are posted on the library's governance page, and the full survey instrument is available on request.",
+        "The answer is yes, with limits. Beginning Saturday, February 7, the reading room will open to graduate students from 10 a.m. to 2 p.m. on Saturdays through May 2, except March 14 during spring break."
+      ]
+    },
+    {
+      "id": "000031-223",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Before anything else, one detail jumped out: your permit lists pickup at the Granger Ranger Station, not the Millbrook visitor center you mentioned.",
+        "It is worth knowing a little about how food storage rules ended up the way they are in this part of the state.",
+        "The hard-sided canister grew out of that fight.",
+        "Idaho's approach has been patchier than California's.",
+        "None of that is unusual; it is just how these things drift.",
+        "For your route, a hang is legal.",
+        "Even so, bring canisters."
+      ]
+    },
+    {
+      "id": "000031-224",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-225",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-226",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Leah, this one takes me back. My first real December with Fernhill Soap was 2013, when the whole operation still lived in my garage in Ashby and my packing station was a door laid across two sawhorses.",
+        "What I actually did was call my mother.",
+        "We argued constantly about tissue paper.",
+        "The next year we moved into the unit on Delancey Road, and I spent the following several Decembers trying different arrangements",
+        "For your numbers, hire the temp."
+      ]
+    },
+    {
+      "id": "000031-227",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Your question touches on an area of policy that has changed quite a bit at Westbrook over the past several years, so some history may be useful.",
+        "In 2019 the district formed an Assessment Practices Committee of teachers, counselors, and two parent representatives",
+        "Since then the committee has reviewed the framework twice, most recently last spring",
+        "The thinking behind the framework is that a grade should reflect what a student knows by the end of a unit rather than what happened on one particular day.",
+        "Jonah can take the test."
+      ]
+    },
+    {
+      "id": "000031-228",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-229",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-230",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "There is a workable route for the panorama, and the festival's proposed use fits the sort of local project the collections team likes to support.",
+        "Your request arrived while we were reconciling the photographic archive's general mailbox with the exhibition office's correspondence log.",
+        "Before replying, I put your correspondence into the monthly requests folder.",
+        "Yes. We can supply the 8,400-pixel TIFF and license it for one print run of up to 6,000 festival maps for a total fee of 45 pounds."
+      ]
+    },
+    {
+      "id": "000031-231",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Our maintenance job numbers have recently changed.",
+        "There was some discussion about where to put the contractor's visit in our weekly report.",
+        "The door closer job had been filed under access rather than shared facilities, so I moved its link into the room's record.",
+        "The east laundry room is scheduled to reopen at noon on Thursday, provided the pressure test passes. Until then, residents can use the west laundry room beside entrance C, including overnight."
+      ]
+    },
+    {
+      "id": "000031-232",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-233",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-234",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "Your group can photocopy worksheets at the library, using the machine beside the newspaper shelves.",
+        "I copied the message into our correspondence register as well.",
+        "Our volunteer induction includes a short walk around those shared spaces.",
+        "Your group can reserve the Cedar Room every Wednesday from 6 to 8 p.m. for a twelve-week block beginning 7 January. There is no room charge for a free, volunteer-led literacy class. Apply using the Community Room form available from reception or by email from the branch team."
+      ]
+    },
+    {
+      "id": "000031-235",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "When I joined the museum, temporary moves lived in a red exercise book beside the stores key.",
+        "The red book survived two changes of director. I remember opening it during a stocktake and finding a pressed exhibition invitation between the pages.",
+        "Update the jug's Current location field to \"Ceramics store, C4\" when it physically arrives there, and create a movement entry recording the departure from Gallery 2. Put the planned return date in that movement's Expected return field. Keep \"Gallery 2, case 6\" as its Normal location."
+      ]
+    },
+    {
+      "id": "000031-236",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-237",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    },
+    {
+      "id": "000031-238",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "The practice examination programme has changed considerably since the school first introduced a common timetable.",
+        "The school also developed an examination information evening. Parents could handle sample answer booklets, see a desk arranged with permitted equipment and ask subject leaders about revision.",
+        "For Wednesday, email attendance by 3 pm on Tuesday with your child's name, tutor group, collection time and the name of the collecting adult. Come to main reception ten minutes before that time with photo identification. Reception will send a member of staff to bring your child from the sports hall; parents should wait at reception."
+      ]
+    },
+    {
+      "id": "000031-239",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": true,
+      "snippets": [
+        "There is a workable way through this, and the next stage will make a considerable difference to how much of the crop we can keep.",
+        "I then sorted the older photographs into folders by year. The dates on the prints were useful for reconstructing the sequence of plot extensions, particularly the addition of the narrow beds along the railway fence.",
+        "On Monday I brought the notebook to the committee meeting. We spent some time agreeing that future harvest entries should include the weather and the name of the person recording the work.",
+        "Spread the garlic in a single layer on the mesh racks under the open-sided shelter today. Keep the leaves and roots attached, keep the bulbs out of the rain, and leave space between them for air to circulate. Brush away loose soil once it dries rather than washing the bulbs."
+      ]
+    },
+    {
+      "id": "000031-240",
+      "check": "boilerplate-and-signposting/buried-answer",
+      "expected": false
+    }
+  ]
+}

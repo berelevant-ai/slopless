@@ -42,7 +42,8 @@ A no-hit applies to its named check and passage. Omitted checks remain unassesse
 
 ## Important Collections
 
-- `ai-synthetic/passages/`: paired development and protected holdout collections for the nine consolidated semantic-thinness types, listed below.
+- `ai-synthetic/passages/`: paired development and protected holdout collections grouped by the consolidated families and issue types listed below.
+- `ai-synthetic/texts/`: complete articles and replies for checks that require the whole text, including buried answers.
 - `ai-synthetic/semantic-thinness.md`: the legacy 604-paragraph comparison set, with 364 author-labeled hits and 240 family-clean controls. The labels preserve original identifiers, evidence, coverage references, and reviewer objections.
 - `ai-synthetic/adversarial/`: generated hit and no-hit passages grouped by family in a single pair of files per family.
 - `ai-synthetic/styles/`: the ten long genre/style texts.
@@ -106,6 +107,16 @@ The complete reviewed development pool remains at `bfb57f52`, including seven su
 The [protected holdout collection](ai-synthetic/passages/000028-staged-contrasts-staged-opposition-holdout.md) has exactly 100 hits and 100 no-hits, retaining all 67 mandatory cases. Seven independently reviewed replacements resolve confirmed development overlap; the complete repaired pool at `4d712948` retains six surplus hits and 34 surplus no-hits.
 
 Final verification preserves all 400 selected passages and judgments across both splits, all 94 mandatory cases, and 205 literal hit snippets. The selected classifier catches 96 development hits with two false positives; its [frozen holdout assessment](../runners/results/staged-contrasts-v12-holdout.md) catches 89 hits with ten false positives.
+
+## Boilerplate And Signposting Sets
+
+Unnecessary framing has exactly 100 hits and 100 no-hits in [development](ai-synthetic/passages/000029-boilerplate-and-signposting-unnecessary-framing-development.md) and in its independently authored [holdout](ai-synthetic/passages/000030-boilerplate-and-signposting-unnecessary-framing-holdout.md). All 37 mandatory cases survive balanced selection; complete reviewed pools of 240 passages each remain at `49203a48`.
+
+Its [development assessment](../runners/results/boilerplate-and-signposting-v13-development.md) catches 99 hits with zero false positives. The separate [frozen holdout assessment](../runners/results/boilerplate-and-signposting-v13-holdout.md) catches 100 hits with nine false positives, exceeding the fixed five-false-positive target.
+
+Buried answer uses complete texts. Both [development](ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md) and [holdout](ai-synthetic/texts/000032-boilerplate-and-signposting-buried-answer-holdout.md) contain 240 candidate texts with provisional judgments; review and balanced selection remain in progress.
+
+The existing `buried-answer-development-review.json` and `buried-answer-holdout-review.json` records distinguish completed Opus opinions, fresh Codex reviews, repairs, and unresolved work. The user authorizes Codex for remaining reviews after the approved Claude account reaches its weekly limit; actual reviewer identities remain recorded separately.
 
 ## Commands
 
