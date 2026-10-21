@@ -6,7 +6,7 @@ Complete the next three families in order: unsupported authority, staged contras
 
 Puffery and overstatement is complete through isolated development and holdout classification; its results remain below. Execution of the three-family extension started on 2026-10-21 at the user's request.
 
-- Current family: unsupported authority. Source inspection consolidates its coverage into vague attribution and prestige padding, both using passage input. Freeze these definitions after independent review before dataset authoring.
+- Current family: unsupported authority. Independent review froze vague attribution and prestige padding as passage-level definitions in `b5c1110c`; dataset review and balanced selection are in progress.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 
 ## Execution Order
@@ -17,9 +17,9 @@ Puffery and overstatement is complete through isolated development and holdout c
 
 - Finish every consolidated check in one family before beginning the next family. Within a family, delegate independent authoring and review tasks in parallel.
 - After committing a family, continue to the next without requesting feedback or ending the execution goal. Completing the first family is a checkpoint, rather than completion of this sequence.
-- Keep checks that fail the frozen performance target explicitly failed. Complete their bounded tuning and assessment, preserve the best candidate and remaining errors, then continue to the next family.
-- Finish after all three families have reviewed data, completed development trials, frozen candidates, one holdout assessment, and committed reports. Report all passed and failed targets together.
-- The active execution goal additionally requires every check to meet the development target. A failed bounded round remains unfinished work for this goal; preserve its results and resolve it through a separately recorded development round rather than relaxing labels, thresholds, or the completion claim.
+- Treat tuning limits as round boundaries. Preserve a failed round and resolve its remaining errors through a separately justified development round before advancing; keep labels, thresholds, and acceptance criteria fixed.
+- Advance only after every current-family check catches at least 95/100 development hits with at most 5/100 false positives, candidates are frozen, the separate holdout assessment is complete, and reviewed results are committed and pushed.
+- Finish after all three families meet the development target and complete their holdout assessments. Report holdout transfer failures separately while preserving the assessed candidates.
 
 ## Previous Method And Lessons
 
@@ -129,9 +129,8 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 - Existing Fixture3 contracts cover legacy defaults, classification-only completion/resumption, label-free requests, immutable inference validation, and split protection before credential or SDK access.
 - Temporary tuning orchestration uses the exported runner helpers and shared development-only preflight. Keep one family trial JSON with immutable prompt snapshots and responses; preserve the public runner's single-run result format for holdout checks.
 - Retain input, prompt, request, prediction, and score hash checks when adapting orchestration to each new family. Verify whole-text request capacity before the first text-level baseline; scope any demonstrated runner limitation through the repository's executable-spec and contract workflow.
-- Before authority inference, repair the reproduced result-write risks: the temporary driver permits output under datasets/prompts and follows an existing `<output>.tmp` symlink. The public runner shares the fixed temporary-name write pattern.
-  - Add a shared exclusive, uniquely named atomic JSON writer in `runners/jev.mjs`; use it in both result-save paths without changing requests or result schemas. Restrict the temporary driver's resolved output to JSON under `runners/results/` and reject symlink escapes before provider access.
-  - Extend synthetic boundary contracts for protected directories, symlinked temporary files, immutable inputs, successful saves, and cleanup. Review diffs and verify compatibility before using the repaired driver.
+- Result-write safety is repaired and independently reviewed in `c608a2e4`. Both save paths use the shared exclusive, uniquely named atomic JSON writer; the temporary driver restricts output to JSON under `runners/results/` and rejects symlink escapes before provider access.
+  - All 83 private driver probes and 34 public contract groups pass, including input preservation behind stale temporary symlinks and cleanup after failed replacement. Request and result schemas remain unchanged.
 
 ## Prompt Development
 
@@ -142,7 +141,7 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 5. Use a proposed development gate of at least 95 caught hits and at most five false positives per 100. Plan three revisions per type, with a maximum of six revisions after baseline to limit repeated fitting to the same examples.
 6. Any qualifying candidate outranks every nonqualifying candidate. Within each group, rank by fewest total errors, then more caught hits, then the earlier revision; compare new candidates with the best recorded candidate.
 7. Stop tuning that check at 100 caught and zero false positives, after two successive revisions fail to improve that best-so-far result, or at the revision limit. Reset this two-revision counter only on an improvement; ties retain the earlier candidate.
-8. When no candidate meets both thresholds, freeze the best observed revision under the same error-count and recall ordering and report the failed development gate. Complete data preparation and measured tuning for every type before advancing the family; keep unready checks explicitly unready.
+8. When no candidate meets both thresholds, preserve the best observed revision and report the failed round. Record and justify the next development round, keep the holdout sealed, and resolve the failed gate before advancing the family.
 
 - Freeze labels before tuning. A newly discovered label defect requires independent correction and offline rescoring of every saved candidate on the same corrected set; preserve the original scores and record that change separately from detector improvement.
 - The existing offline rescoring verifies identical target text, example IDs, check assignments, prompts, requests, and predictions, then records the corrected judgment hash separately. Use it for independently approved label corrections; changed inference inputs require new calls.
@@ -167,7 +166,7 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 - Dataset validation, relevant Fixture3 contracts, formatting, and changed-code checks pass. Independent review confirms recorded results and verifies holdout input was excluded from development Jev calls and prompt authoring.
 - Report per type: class counts, review corrections, baseline and selected caught hits, missed hits, false positives, new/lost catches, corrected/new false positives, prompt length, and remaining errors.
 - Distinguish development performance from the frozen-candidate holdout assessment. Keep mixed-set evaluation, broader corpus validation, highlighting, CLI integration, and release in the V2 plan for their separate stage.
-- When execution is requested, work autonomously through all three next families and every finalized type. Continue after each family checkpoint; report the whole sequence only after all three complete their bounded process or a verified external blocker prevents further progress.
+- Work autonomously through all three families and every finalized type. Continue after each completed family; report completion only after every check meets the development target and all three separate holdout assessments and reviewed commits are complete.
 
 ## Development Outcome
 
