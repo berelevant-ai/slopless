@@ -10,7 +10,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 - Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
 - Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. Its reviewed frozen assessment catches 96 development hits with two false positives and 89 holdout hits with ten false positives. Next: boilerplate and signposting in `prompts/v13/` after this assessment commit.
-- Boilerplate/signposting source and definition review is complete. Freeze `unnecessary-framing` with passage input and `buried-answer` with complete-text input; next generate and independently review both splits for each check.
+- Boilerplate/signposting definitions are frozen. Both unnecessary-framing pools have 240 reviewed passages, with 120 hits and 120 no-hits each; independent label QA passes, and source/split overlap audit is running. Both six-text buried-answer pilots pass review, and complete-text pool generation is running. Preserve the complete framing pools before balanced selection; detector tuning awaits the family's frozen datasets.
 
 ## Execution Order
 

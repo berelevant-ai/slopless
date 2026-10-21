@@ -1,0 +1,1111 @@
+{
+  "collection": "000030",
+  "family": "boilerplate-and-signposting",
+  "check": "unnecessary-framing",
+  "input": "passage",
+  "split": "holdout",
+  "protectedHoldout": true,
+  "recordedAt": "2026-10-21T18:58:15.232Z",
+  "status": "Full 240-passage pool reviewed; ready for parent-assigned protected independent QA and Git archive before balanced selection.",
+  "counts": {
+    "samples": 240,
+    "hit": 120,
+    "noHit": 120,
+    "belowMinimumClass": false,
+    "mandatory": 25,
+    "mandatoryHit": 5,
+    "mandatoryNoHit": 20,
+    "originalJudgmentChanges": 0,
+    "textContextRepairs": 19,
+    "reviewCalls": 11,
+    "reviewedInputJudgments": 796
+  },
+  "hashes": {
+    "markdownSha256": "9e4616cc364a15ec116c04d32f73925351974b0f83c63c6e29572421493457e1",
+    "labelsSha256": "cd1c6c1926255c2011801610ee1240b51f74ad41a8a811377cb0d25be50d5826",
+    "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+  },
+  "generation": {
+    "method": "Direct independent Codex authorship of fictional passages followed by explicit-adoption quotation-context repair; no external source passages, detector output, development input, or taxonomy illustrations were used.",
+    "model": "Codex (GPT-5-based; exact serving model identifier unavailable in this session)",
+    "context": "Protected holdout-only author and adjudicator context. Definition obtained through existing stripped-definition helper and compared with frozen commit d12ff193. No source edits, package changes, detector prompts, Jev calls, old CLI scoring, or subagent delegation.",
+    "artifacts": [
+      {
+        "path": "/tmp/000030-holdout-generation-pool.mjs",
+        "sha256": "49264c93147b4bab22bafc6728ee4834fcc58421610578eb84d454b985619131"
+      },
+      {
+        "path": "/tmp/000030-holdout-generation-private.json",
+        "sha256": "08596ec7597d3f10f669ffa041c51ebf3cc33c0dab9139f10dd0b73cb34838d0"
+      },
+      {
+        "path": "/tmp/000030-holdout-generation-current.json",
+        "sha256": "07b1b15887003b0ab5cd4e7b9d28d3a1cb1ddf3accc665ae2c2088a639f84847"
+      },
+      {
+        "path": "/tmp/000030-holdout-quote-context-repair.mjs",
+        "sha256": "497b5466310816e8963a0b965e22e4a6a29715ff0516e14983d37cc6c553041b"
+      },
+      {
+        "path": "/tmp/000030-holdout-quote-context-repairs.json",
+        "sha256": "3c4fd7472f9dbf1a08dddae199ec25ed6efb882a6d0cb9042224556a75d48a9e"
+      }
+    ]
+  },
+  "coverage": {
+    "domains": {
+      "education": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "finance-and-workplace": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "food-and-hospitality": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "home-and-community": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "arts-and-media": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "software": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "healthcare": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "science-and-environment": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "law-and-public-services": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "transport-and-logistics": {
+        "hit": 12,
+        "noHit": 12
+      }
+    },
+    "lengthBands": {
+      "noHit": {
+        "short": 30,
+        "medium": 60,
+        "long": 30
+      },
+      "hit": {
+        "short": 30,
+        "medium": 60,
+        "long": 30
+      }
+    },
+    "wordCounts": {
+      "hit": {
+        "minimum": 9,
+        "maximum": 65,
+        "mean": 30.375
+      },
+      "noHit": {
+        "minimum": 9,
+        "maximum": 58,
+        "mean": 29.6
+      }
+    },
+    "quotedInputsByBand": {
+      "noHit": {
+        "short": 2,
+        "medium": 5,
+        "long": 12
+      },
+      "hit": {
+        "short": 2,
+        "medium": 5,
+        "long": 12
+      }
+    },
+    "variants": [
+      "Local scene-setting",
+      "Candor and defensive prefaces",
+      "Graded answer, lesson, solution and takeaway labels",
+      "Importance and observer announcements",
+      "Self-answering questions",
+      "Academic contribution announcements",
+      "Compression announcements",
+      "Stock closers",
+      "Useful scope, priorities and roadmaps",
+      "Genuine clarification and methodological precision",
+      "Procedural instructions and prerequisites",
+      "Relevant unresolved and analytic questions",
+      "Consequential dialogue",
+      "Documentary quotation and adopted quoted communication",
+      "Informative actor/component assignments",
+      "Other-family defects without named framing"
+    ]
+  },
+  "review": {
+    "helper": "/tmp/slopless-family-opus-review.mjs",
+    "helperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+    "definitionHelper": "/tmp/slopless-family-taxonomy.mjs",
+    "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+    "blinding": "Only complete passage text and fresh UUID aliases were submitted. Author labels, snippets, predictions, requested balance, domain tags, length bands, generation history and prior review results were withheld. Every batch contained both classes.",
+    "passes": {
+      "blind": {
+        "calls": 4,
+        "currentInputsReviewed": 240,
+        "disagreements": 0,
+        "objectionInstances": 15
+      },
+      "adversarial": {
+        "calls": 4,
+        "currentInputsReviewed": 240,
+        "disagreements": 2,
+        "objectionInstances": 25
+      },
+      "final": {
+        "calls": 3,
+        "currentInputsReviewed": 240,
+        "disagreements": 0,
+        "objectionInstances": 14
+      }
+    },
+    "calls": [
+      {
+        "pass": "blind",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 0,
+        "objections": 4,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "3a81b2db-9a2f-468b-a903-78777796bffd",
+        "durationMs": 60898,
+        "costUsd": 0.24892000000000003,
+        "input": "/tmp/000030-holdout-blind-batch1.input.json",
+        "aliases": "/tmp/000030-holdout-blind-batch1.aliases.json",
+        "provenance": "/tmp/000030-holdout-blind-batch1.review.json",
+        "request": "/tmp/000030-holdout-blind-batch1.review.json.request.json",
+        "raw": "/tmp/000030-holdout-blind-batch1.review.json.raw.json",
+        "inputSha256": "8fd20ea28d3c37b509fb10d761603bb0754d061fabe2460666793c17fb1ea7dc",
+        "rawSha256": "aa84e7d20855d3227d3f4c973b68b6be5d4b839b5d120ec33a1002e70715244c",
+        "requestSha256": "5627ea3c211def84582f4af5d685c5c8b62c15be4020491f050c92d2ad3e6f11",
+        "promptSha256": "66875b6950a731dae9f907a62b2979c0e4f44d98cb82ba1ad372f0a574d0076c",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "blind",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 0,
+        "objections": 3,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "789af687-5032-4a11-b9ea-f25ee8878ebe",
+        "durationMs": 57210,
+        "costUsd": 0.24264800000000003,
+        "input": "/tmp/000030-holdout-blind-batch2.input.json",
+        "aliases": "/tmp/000030-holdout-blind-batch2.aliases.json",
+        "provenance": "/tmp/000030-holdout-blind-batch2.review.json",
+        "request": "/tmp/000030-holdout-blind-batch2.review.json.request.json",
+        "raw": "/tmp/000030-holdout-blind-batch2.review.json.raw.json",
+        "inputSha256": "381966483ece2cfd428b21cb257f6153d716e7dc7774e58c9ac81c94944234d7",
+        "rawSha256": "e60bd8fc60ce56775af1ae2694076b670afde90729d00b0b8dc2bb6ac3b04a41",
+        "requestSha256": "7120b8124c70b6bfbad19560ff4d2d35397cbb31b786b4449804632a13e5cd23",
+        "promptSha256": "ab31989089571693e213168fa264f03a8205dd7347882fe3efe3bf6d3dc9f88c",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "blind",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 0,
+        "objections": 6,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "4eb9ffa5-aabe-4cd4-aaf5-3d796cf488b0",
+        "durationMs": 67960,
+        "costUsd": 0.262556,
+        "input": "/tmp/000030-holdout-blind-batch3.input.json",
+        "aliases": "/tmp/000030-holdout-blind-batch3.aliases.json",
+        "provenance": "/tmp/000030-holdout-blind-batch3.review.json",
+        "request": "/tmp/000030-holdout-blind-batch3.review.json.request.json",
+        "raw": "/tmp/000030-holdout-blind-batch3.review.json.raw.json",
+        "inputSha256": "0f74cfb341ef1ddaad46fee66ad7c3dc5844a8c3d1e148f39af32aa929598673",
+        "rawSha256": "56d85e1de2f8ab1ddb9cfb4d1da6a010bab76c4dc786a6d9252f37dddd16c74a",
+        "requestSha256": "22a5b6bbdebc3c49b4a45b13f521c7bd04bb71ef23cebb9083a8859ba904b19d",
+        "promptSha256": "45d691de0020a45d1faa4580685440e7b574560d6f63145b0023a4b4503b8991",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "adversarial",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 1,
+        "objections": 8,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "848a6a5d-0a65-4381-90f8-422914ef4938",
+        "durationMs": 68419,
+        "costUsd": 0.262596,
+        "input": "/tmp/000030-holdout-adversarial-batch1.input.json",
+        "aliases": "/tmp/000030-holdout-adversarial-batch1.aliases.json",
+        "provenance": "/tmp/000030-holdout-adversarial-batch1.review.json",
+        "request": "/tmp/000030-holdout-adversarial-batch1.review.json.request.json",
+        "raw": "/tmp/000030-holdout-adversarial-batch1.review.json.raw.json",
+        "inputSha256": "5d46b21fbaade20f7c9cdbf66ffbdb9c73cd14e8468bae1f922eb1dde44fe538",
+        "rawSha256": "d00ee6caa0e6b59f8ec9abd29c31214220382a3e0d0fc43e4245143ab9ea30c6",
+        "requestSha256": "0009215390618fe0a04dae346c9e830c208a1845f7d707725ed57225986993d0",
+        "promptSha256": "fe7c3bc10102fdfd6b8b355d677cd0152bad7303de60763da610f5aaefa0b7dd",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "adversarial",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 0,
+        "objections": 8,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "92164cf5-2e03-4612-9b09-872873f86443",
+        "durationMs": 58129,
+        "costUsd": 0.245484,
+        "input": "/tmp/000030-holdout-adversarial-batch2.input.json",
+        "aliases": "/tmp/000030-holdout-adversarial-batch2.aliases.json",
+        "provenance": "/tmp/000030-holdout-adversarial-batch2.review.json",
+        "request": "/tmp/000030-holdout-adversarial-batch2.review.json.request.json",
+        "raw": "/tmp/000030-holdout-adversarial-batch2.review.json.raw.json",
+        "inputSha256": "a5a76207e232d066f0a81bd6b933b3c3893281e27adf2dc2b13e2c25ee479457",
+        "rawSha256": "d9359959187a97dfc858b762e06423797f3f6dc9cda3c2d24376fb9b45a24bd0",
+        "requestSha256": "bc431192b9e274dda690b6fa7678e5bce43c09e47c1a3e53b6553a40c949d388",
+        "promptSha256": "fd0ad3b649ccec284367bb0e35eaa4736bd032cf399e523f3d73bfc090b2e062",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "adversarial",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 1,
+        "objections": 5,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "e20ec0d5-ee68-44ae-85c2-14b2ab7958c2",
+        "durationMs": 56095,
+        "costUsd": 0.236648,
+        "input": "/tmp/000030-holdout-adversarial-batch3.input.json",
+        "aliases": "/tmp/000030-holdout-adversarial-batch3.aliases.json",
+        "provenance": "/tmp/000030-holdout-adversarial-batch3.review.json",
+        "request": "/tmp/000030-holdout-adversarial-batch3.review.json.request.json",
+        "raw": "/tmp/000030-holdout-adversarial-batch3.review.json.raw.json",
+        "inputSha256": "5c7f84ffb087eddeef89fc1d01fe30dba6cb3e1050f61f5e7be5de6c51194872",
+        "rawSha256": "749db6b99579b2278b638bf644737d8e34b05817700f9d3a61c7cbe679b0c79e",
+        "requestSha256": "f6d134ad81784a1b821e50db5c3816cad6f8abb490fdfa040a66f6457fddadc5",
+        "promptSha256": "c7691b34534ac5dd0f95420bb859c5b4fed9194cb3ec8f5f4fb3ad8c2f1b3bd8",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "final",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 0,
+        "objections": 7,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "c730b94b-d7c7-4c66-a472-2cb13df8f16f",
+        "durationMs": 109000,
+        "costUsd": 0.41969,
+        "input": "/tmp/000030-holdout-final-batch1.input.json",
+        "aliases": "/tmp/000030-holdout-final-batch1.aliases.json",
+        "provenance": "/tmp/000030-holdout-final-batch1.review.json",
+        "request": "/tmp/000030-holdout-final-batch1.review.json.request.json",
+        "raw": "/tmp/000030-holdout-final-batch1.review.json.raw.json",
+        "inputSha256": "60e2daab228df5ede6f95d541ab3d06db44f0ed0b4b311bf867ed879bb26b2d8",
+        "rawSha256": "b6a607171ba38191f7334ab2656e66982c54edf1d8f26519d54fdbb022076bbc",
+        "requestSha256": "84b5d3c9bb259f02edb37078cb821671b2743432f342f0f7e704e91504dc9768",
+        "promptSha256": "22fd33df46c3927cc70b9ea33495aa8ec1abb9528d25a604ed912c773b39831c",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "final",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 0,
+        "objections": 5,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "d98b4622-83d1-45c7-ab73-5754c45265b7",
+        "durationMs": 67538,
+        "costUsd": 0.26,
+        "input": "/tmp/000030-holdout-final-batch2.input.json",
+        "aliases": "/tmp/000030-holdout-final-batch2.aliases.json",
+        "provenance": "/tmp/000030-holdout-final-batch2.review.json",
+        "request": "/tmp/000030-holdout-final-batch2.review.json.request.json",
+        "raw": "/tmp/000030-holdout-final-batch2.review.json.raw.json",
+        "inputSha256": "f1e5314732e7414c7b662cb9510947674e39e75b8290683094a136da8cea2207",
+        "rawSha256": "45040a8be84ab20d925a069dc4aca7f21ab5010fed6a12709d89212bfb3794ed",
+        "requestSha256": "5652eee2206231933bca436657495a244a368d0cac943514734df56fd9865c1e",
+        "promptSha256": "ebf6badb7925ead2f7f5548086cbd1d385b213e9c7d5202247570f03343a2ee5",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "final",
+        "scope": "full-pool",
+        "inputs": 80,
+        "hit": 40,
+        "noHit": 40,
+        "disagreements": 0,
+        "objections": 2,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "d3e6576b-ae9c-4d9f-a981-ed680bfaac51",
+        "durationMs": 63710,
+        "costUsd": 0.26146800000000003,
+        "input": "/tmp/000030-holdout-final-batch3.input.json",
+        "aliases": "/tmp/000030-holdout-final-batch3.aliases.json",
+        "provenance": "/tmp/000030-holdout-final-batch3.review.json",
+        "request": "/tmp/000030-holdout-final-batch3.review.json.request.json",
+        "raw": "/tmp/000030-holdout-final-batch3.review.json.raw.json",
+        "inputSha256": "f4da3f2255abac2fbaef328035a41f2aa998b82f01c67ddb4138983caa7817c9",
+        "rawSha256": "cffc2429591d5b359bc11e205f20b2e6fdfd69e64694d79354d47b024394e64f",
+        "requestSha256": "54fadea0842003f49bd60ce39c4ea84b39b407747fe417dbbbdc38cf06619ea6",
+        "promptSha256": "b386b47f505ee891193ad41d7509495c081ad343fa15f35bf1a5e1bf8b175481",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "blind",
+        "scope": "changed-inputs-with-mixed-controls",
+        "inputs": 38,
+        "hit": 19,
+        "noHit": 19,
+        "disagreements": 0,
+        "objections": 2,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "8fa085f4-f020-4231-b24f-8e9c0ca4fc62",
+        "durationMs": 33102,
+        "costUsd": 0.151424,
+        "input": "/tmp/000030-holdout-blind-quote-repair-batch1.input.json",
+        "aliases": "/tmp/000030-holdout-blind-quote-repair-batch1.aliases.json",
+        "provenance": "/tmp/000030-holdout-blind-quote-repair-batch1.review.json",
+        "request": "/tmp/000030-holdout-blind-quote-repair-batch1.review.json.request.json",
+        "raw": "/tmp/000030-holdout-blind-quote-repair-batch1.review.json.raw.json",
+        "inputSha256": "922acf2460d186ad5dd82648bad8c4a69bdaf7a13367cfa764783a21b79b52c3",
+        "rawSha256": "6917c7e441efa35a1b2719ea90232c8e67a4c0bba954db9a244bd87720c2c1b6",
+        "requestSha256": "2aea317a18aaea6ee46153436c1334effb8a2293f6c0636ce252848db490bd3f",
+        "promptSha256": "8543d38236783b187cbb16c03de3e3032c65b604fe7b3fea87afb577c155c658",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      },
+      {
+        "pass": "adversarial",
+        "scope": "changed-inputs-with-mixed-controls",
+        "inputs": 38,
+        "hit": 19,
+        "noHit": 19,
+        "disagreements": 0,
+        "objections": 4,
+        "model": [
+          "claude-opus-5-5"
+        ],
+        "sessionId": "0c4b234d-6369-4830-b69e-00fddf22be9e",
+        "durationMs": 34941,
+        "costUsd": 0.159908,
+        "input": "/tmp/000030-holdout-adversarial-quote-repair-batch1.input.json",
+        "aliases": "/tmp/000030-holdout-adversarial-quote-repair-batch1.aliases.json",
+        "provenance": "/tmp/000030-holdout-adversarial-quote-repair-batch1.review.json",
+        "request": "/tmp/000030-holdout-adversarial-quote-repair-batch1.review.json.request.json",
+        "raw": "/tmp/000030-holdout-adversarial-quote-repair-batch1.review.json.raw.json",
+        "inputSha256": "13377ddbdae47fa97c04aedf79e32bd3080e43c7f17b5a82b9498e71318af064",
+        "rawSha256": "07c8aa91765c383862bc46e33f020ddc70ba24a95fab11619c9309de6eb0bb8e",
+        "requestSha256": "c8838820e95622296ceb8bff8d3ca60afa24859da164cee19d88b5cabc0e87c8",
+        "promptSha256": "78b844f32a6291d738b27480293d697cc115a49b9ad41c1891dc3b81b5f44e95",
+        "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+      }
+    ],
+    "adjudicationRule": "Reviewer agreement is opinion. Compare each objection with the frozen definition and complete passage, preserve sound boundary cases, and record each decision here rather than in labels. All original judgments and all originally objected-to writing are preserved.",
+    "adjudications": [
+      {
+        "id": "000030-017",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The introduction identifies two different examinations and clarifies that both bookings remain valid. Preserve genuine disambiguation rather than classifying by the clarification phrase.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch2",
+            "reviewExpected": false,
+            "objection": "\"I need to clarify the booking:\" could be read as an announcement. Here it introduces a genuine clarification that tells two appointments apart.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch2",
+            "reviewExpected": false,
+            "objection": "\"I need to clarify the booking:\" could be read as an announcement, but it introduces a genuine clarification distinguishing two appointments.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-026",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The writer examines the wording and placement of a claim in an incident report. The location statement contributes to that critique, and the quoted slogan is documentary rather than adopted framing.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch2",
+            "reviewExpected": false,
+            "objection": "\"The useful detail comes later:\" could be read as an announcement, but it describes where the quoted report places its substantive content as part of the writer's critique.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-035",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The driver asks another speaker for the delivered count, discovers a missing crate, and changes the delivery plan. The exchange supplies consequential dialogue rather than the writer staging a summary.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-quote-repair-batch1",
+            "reviewExpected": false,
+            "objection": "\"The bottom line?\" can read as a staged summary cue. Here it is a real question the driver asks the dispatcher in dialogue, and the answer drives the plot.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-041",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The opening identifies the precise quantity being clarified; the following instructions distinguish trimmed cabbage from purchased weight. This is methodological precision with an operational consequence.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch3",
+            "reviewExpected": false,
+            "objection": "\"To be precise about the salt calculation\" could be read as a throwaway preface. It also names the topic and signals a correction about which weight to use, which is useful identification.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch2",
+            "reviewExpected": false,
+            "objection": "\"To be precise about the salt calculation\" could be read as an announcement of precision. Here it names the topic and introduces a genuine precision distinction (trimmed weight versus receipt weight).",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-052",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The question introduces pollution as the inference under examination; the remainder identifies an age confound. Preserve a relevant analytic question and uncertainty rather than treating every answered question as staged.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch3",
+            "reviewExpected": false,
+            "objection": "The question is answered by the writer, so it could be read as a staged self-answering question. It also names the analytic issue, and the answer is a substantive limitation, so it reads as a relevant question.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch1",
+            "reviewExpected": false,
+            "objection": "This could be a staged self-answering question. However, the question supplies the needed referent (pollution) for the stated limitation, and the answer is a real uncertainty, not a packaged point.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch1",
+            "reviewExpected": false,
+            "objection": "The opening question could be read as a staged self-answering question. It also names the specific inference being tested, and the answer limits that inference instead of repeating it.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-056",
+        "expected": true,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The supplied opening time is substantive, but the graded announcement contributes no stated comparison, beneficiary, scope, or action. The judgment concerns that disposable advertising function rather than the colon or the adjective alone.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch2",
+            "reviewExpected": true,
+            "objection": "\"Good news\" could be read as a relevant evaluative property, but the colon-staged label mainly advertises the point.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch2",
+            "reviewExpected": true,
+            "objection": "\"Good news\" could be read as a relevant evaluation of a positive change. Even so, the staged \"is this:\" construction adds nothing beyond the fact itself.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch1",
+            "reviewExpected": true,
+            "objection": "\"Good news\" may count as an evaluation describing a relevant property, since it tells the reader the change is welcome. As a frame placed before the point, though, it mainly advertises the point.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-057",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The opening identifies which export the speaker means and the passage resolves two different data scopes. Genuine identification remains useful even when introduced by a clarification phrase.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch3",
+            "reviewExpected": false,
+            "objection": "\"Let me clarify which export I mean\" could be read as an announcement. It also signals that the term is ambiguous and leads into the distinction that resolves it, which is a real clarification.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch3",
+            "reviewExpected": false,
+            "objection": "'Let me clarify which export I mean' announces the clarification, but it also tells the reader which item is being disambiguated, so it reads as genuine identification.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch2",
+            "reviewExpected": false,
+            "objection": "The opener could be read as an announcement of clarifying, but it identifies the ambiguity being resolved (which export) and introduces a genuine clarification.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-063",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "One speaker requests an answer, another gives it, and the first challenges it with a canceled invoice. This dialogue causes the ledger investigation and is preserved by the meaningful-dialogue boundary.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch1",
+            "reviewExpected": false,
+            "objection": "The phrase \"The obvious answer?\" is a stock framing phrase, but here a character says it inside dialogue that matters to the scene. It is not the writer's own framing.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch1",
+            "reviewExpected": false,
+            "objection": "\"The obvious answer?\" looks like a graded answer label. Here it is a line spoken by a character, and the dialogue goes on to refute that answer, so it works as meaningful dialogue.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-quote-repair-batch1",
+            "reviewExpected": false,
+            "objection": "\"The obvious answer?\" looks like a staged self-answering question. Here a different speaker answers it, and the manager then rejects that answer, so it is meaningful dialogue.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-078",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The question remains unresolved between two named causes, and the inspection is a necessary next step. This is a live repair decision rather than a packaged lesson followed by its answer.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch1",
+            "reviewExpected": false,
+            "objection": "The opening question could be read as a staged lesson question, but it introduces a genuine disagreement (plaster vs. plugs) and an unresolved next step rather than self-answering.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch3",
+            "reviewExpected": false,
+            "objection": "It has the shape of a staged question, but the question stays open: the passage gives two competing explanations and a next step instead of answering it. So it reads as a relevant question.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-079",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The opening states a substantive dependency on the caller. The two following interfaces explain that dependency, so the evaluative noun phrase carries useful scope rather than a graded answer announcement.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch1",
+            "reviewExpected": false,
+            "objection": "\"The practical answer\" looks like an answer label. But the sentence states real content (the answer depends on the caller), and no staged question comes before it.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch2",
+            "reviewExpected": false,
+            "objection": "\"The practical answer\" resembles a graded answer label, but the sentence itself contributes the substantive point that the choice depends on the caller.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-107",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The sentence instructs the reader to notify an affected tenant and gives the specific shared-water consequence. Preserve an operative instruction and relevant prioritization rather than matching an importance phrase.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch2",
+            "reviewExpected": false,
+            "objection": "The phrase \"It is important to\" could be read as an importance announcement. However, it carries the instruction itself and comes with a concrete reason, so it isn't a separate frame.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-109",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The reader is asked to record a concrete deadline in a diary before it passes. This is an executable reminder action, distinguished by the definition from announcing an upcoming point.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch2",
+            "reviewExpected": false,
+            "objection": "\"Keep this date in your diary:\" could be read as a reader instruction that frames the point. It could also be read as asking the reader to perform a real action (recording a deadline).",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-115",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The question identifies the practical delivery-time problem and organizes the distinct reception and laboratory windows. It contributes reader navigation rather than merely advertising that an answer follows.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch1",
+            "reviewExpected": false,
+            "objection": "This could be read as a staged question that the writer answers. It also works as an FAQ-style question a reader would actually ask, and it organizes the answer.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-122",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The opening identifies which of two notices is being clarified, and the following delivery information resolves that distinction. Preserve the relevant correction even when its act is named.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch1",
+            "reviewExpected": false,
+            "objection": "\"I need to clarify\" could be an announcement of explaining, but it identifies which notice is at issue and introduces a genuine clarification.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch1",
+            "reviewExpected": false,
+            "objection": "\"I need to clarify\" could be read as an announcement. But it names which notice is being clarified, which identifies a real correction.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch3",
+            "reviewExpected": false,
+            "objection": "\"I need to clarify which notice was returned\" could be read as a disposable announcement, but it identifies the clarification topic and signals a genuine clarification.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-132",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The question identifies interpretation of the fractions score as the task. The passage explains why unfinished responses confound that inference, supplying relevant analytic scope and uncertainty. Retain the no-hit despite the adversarial staged-question reading.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch3",
+            "reviewExpected": false,
+            "objection": "The writer asks and answers this question, so it could be read as staged. It also names the interpretive issue, and the answer adds a substantive caveat, so it reads as a relevant question.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch1",
+            "reviewExpected": true,
+            "objection": "One reading treats the question as a relevant interpretive prompt. On the other reading, the writer asks a question only to answer it, and the remaining sentences make their point without it.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch1",
+            "reviewExpected": false,
+            "objection": "The opening question could be read as a staged self-answering question. It also poses a real interpretive problem, and the answer qualifies the score instead of just stating a point the question was set up to deliver.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-145",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The clarification scopes the delivery estimate and states that it is an earliest possible time pending customs confirmation. That qualifier carries useful uncertainty; a prior quoted promise is not required by the definition. Retain the no-hit despite the adversarial disposable-preface reading.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch1",
+            "reviewExpected": false,
+            "objection": "\"I need to clarify the delivery time\" could be an announcement, but it names the specific point being corrected and introduces genuine uncertainty-bearing clarification.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch3",
+            "reviewExpected": true,
+            "objection": "Could be a genuine clarification of an earlier expectation; within the passage it only announces new information, so the frame looks disposable.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch1",
+            "reviewExpected": false,
+            "objection": "\"I need to clarify the delivery time\" could be an unnecessary announcement. It also names the specific item being clarified, which makes it a genuine clarification.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-150",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The reader must compare physical crate and note identifiers before scanning; the following explanation supplies the exact failure this prevents. Preserve procedural action despite the observer-instruction surface phrase.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch1",
+            "reviewExpected": false,
+            "objection": "\"Take a moment to\" is mild padding, but it introduces a real procedural instruction. It does not announce a point.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-162",
+        "expected": true,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The isolated importance announcement supplies no additional distinction between the bottle facts and their stated safety consequence. The substantive warning remains intact when the announcement is removed; a consequential topic alone does not make its wrapper useful.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch2",
+            "reviewExpected": true,
+            "objection": "The sentence introduces a substantive safety consequence, so it could be read as useful organization. However, the announcement itself adds nothing and could be deleted.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-170",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The opening identifies the reservation confirmation as erroneous and the remainder corrects the room assignment between two parties. That correction status contributes useful meaning, so preserve the genuine clarification.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch3",
+            "reviewExpected": false,
+            "objection": "\"I need to correct the reservation confirmation\" could be read as an announcement, but it conveys that the earlier confirmation was wrong, which is useful meaning.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-174",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The opening identifies the payslip figure being disambiguated, and the passage assigns different calculations to its total and deduction lines. Preserve concrete financial clarification rather than imposing a phrase-level precision ban.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch2",
+            "reviewExpected": false,
+            "objection": "\"To be precise about the pension figure\" could be read as a precision preface, but it names the topic and introduces a real clarification that distinguishes the two payslip lines.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch2",
+            "reviewExpected": false,
+            "objection": "\"To be precise about the pension figure\" could be read as a precision announcement. Here it identifies the topic and introduces a genuine distinction between two payslip lines.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch1",
+            "reviewExpected": false,
+            "objection": "\"To be precise about the pension figure\" could be read as a preface announcing precision. It also introduces a real clarification that tells the two payslip lines apart.",
+            "currentInput": true
+          },
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-quote-repair-batch1",
+            "reviewExpected": false,
+            "objection": "\"To be precise about the pension figure\" names the topic and introduces a genuine distinction between payslip lines; it could alternatively be read as a mild precision-announcing preface.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-quote-repair-batch1",
+            "reviewExpected": false,
+            "objection": "\"To be precise about the pension figure\" could read as a defensive preface. It also names the topic and introduces a real distinction between the two payslip lines, so I read it as a genuine clarification.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-179",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The passage expressly defines the meaning of a scoped contract term, resolving calendar-versus-business-day interpretation. The no-hit follows from useful definition and clarification, rather than a blanket legal-style exemption.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch1",
+            "reviewExpected": false,
+            "objection": "\"For the avoidance of doubt\" could be read as a defensive preface, but in a contract context it is a conventional marker introducing a genuine definitional clarification.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch3",
+            "reviewExpected": false,
+            "objection": "'For the avoidance of doubt' could be seen as a stock frame, but in contract drafting it marks a genuine interpretive clarification.",
+            "currentInput": true
+          },
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-quote-repair-batch1",
+            "reviewExpected": false,
+            "objection": "\"For the avoidance of doubt\" is a conventional legal formula introducing a genuine definitional clarification; it could alternatively be read as a disposable preface, but the clarification itself is substantive.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-quote-repair-batch1",
+            "reviewExpected": false,
+            "objection": "\"For the avoidance of doubt\" could be read as a defensive preface. In legal drafting it does a real job: it marks the definition as a clarification rather than a change to the clause. So I treat it as a genuine clarification.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-202",
+        "expected": false,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The label prioritizes a deadline brought forward by three days. The passage gives the concrete scheduling change that makes prioritization useful; punctuation alone determines neither class.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch3",
+            "reviewExpected": false,
+            "objection": "\"Important:\" could be read as an importance announcement. It is also a bare label that prioritizes an earlier deadline, and the boundary keeps prioritization and treats role-label syntax alone as no defect.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch2",
+            "reviewExpected": false,
+            "objection": "The bare \"Important:\" label could be read as an importance announcement. It could also be read as a bare prioritization label on a time-sensitive change, which the boundary preserves.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch2",
+            "reviewExpected": false,
+            "objection": "\"Important:\" could be read as a bare importance announcement, but here it functions as a prioritization flag for a changed deadline.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-212",
+        "expected": true,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The complete supplied passage contains one running-time fact and an announcement of rephrasing, with no initial formulation to clarify. Assess the disposable announcement within the supplied input rather than imagining earlier context.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch2",
+            "reviewExpected": true,
+            "objection": "Without a prior statement the restatement frame adds nothing; a reader could instead treat it as a harmless transition if earlier context existed, but none is supplied.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-215",
+        "expected": true,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The supplied passage gives the hearing time but identifies no ambiguity or alternative meaning that the prefatory formula resolves. Retain the disposable defensive preface as a hit even in administrative subject matter.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "blind",
+            "call": "/tmp/000030-holdout-blind-batch3",
+            "reviewExpected": true,
+            "objection": "In legal or procedural writing, \"For the avoidance of doubt\" can be a real clarification. Here no ambiguity is visible, so it reads as a defensive preface that can be dropped.",
+            "currentInput": true
+          },
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch1",
+            "reviewExpected": true,
+            "objection": "In a legal or administrative setting, this phrase can mark a real clarification of earlier ambiguity. No such ambiguity appears in the supplied text.",
+            "currentInput": true
+          },
+          {
+            "pass": "final",
+            "call": "/tmp/000030-holdout-final-batch1",
+            "reviewExpected": true,
+            "objection": "Legal-register clarifiers can be functional when an earlier ambiguity exists. Here no doubt is established, so the phrase works as a defensive preface.",
+            "currentInput": true
+          }
+        ]
+      },
+      {
+        "id": "000030-233",
+        "expected": true,
+        "decision": "Retain original judgment and preserve as mandatory in balanced selection.",
+        "reason": "The generic question advertises the performance point that follows immediately, without a separate unresolved decision, comparison, navigation need, or uncertainty. Retain the hit and flag the competing analytic-question reading for protected independent QA.",
+        "mandatory": true,
+        "protectedIndependentQaRequired": true,
+        "observations": [
+          {
+            "pass": "adversarial",
+            "call": "/tmp/000030-holdout-adversarial-batch3",
+            "reviewExpected": true,
+            "objection": "Could be read as a legitimate analytic question; however, it is immediately self-answered and adds no organization.",
+            "currentInput": true
+          }
+        ]
+      }
+    ]
+  },
+  "repair": {
+    "reason": "Initial quotation surface imbalance: 0 hit inputs and 19 no-hit inputs contained double quotes. The final pool contains 19 in each class with matching short/medium/long quote counts of 2/5/12. The frozen definition explicitly judges adopted quoted communication. No objected-to original was altered; all labels and snippets are retained. Every changed input receives new blind, adversarial and final reviews.",
+    "record": "/tmp/000030-holdout-quote-context-repairs.json",
+    "sha256": "3c4fd7472f9dbf1a08dddae199ec25ed6efb882a6d0cb9042224556a75d48a9e",
+    "changedInputsRereviewedInAllThreePasses": true
+  },
+  "validation": {
+    "existingSchemaVersion2Reader": "Passed against final pair",
+    "exactSnippets": "All 120 hit snippets occur in their complete inputs; no-hit labels omit snippets",
+    "labelsMinimal": true,
+    "markdownSha256Matches": true,
+    "uniqueStableIds": 240,
+    "collectionHeadingsExcluded": true,
+    "paragraphsOnePhysicalLine": true,
+    "originalJudgmentsPreserved": true,
+    "originalDisputedInputsPreserved": true,
+    "allFinalInputsReviewedThreePasses": true,
+    "sourceAndCrossSplitOverlapAudit": "Pending parent-assigned protected independent QA",
+    "independentQa": "Pending parent assignment",
+    "balancedSelection": "Not performed; archive reviewed full pool in Git first, then preserve every mandatory case when selecting 100 hits and 100 no-hits.",
+    "detectorEvaluation": "Not performed",
+    "slopless": "Not run on deliberately flawed research data"
+  }
+}

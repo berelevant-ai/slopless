@@ -1,0 +1,860 @@
+{
+  "collection": "000029",
+  "family": "boilerplate-and-signposting",
+  "check": "unnecessary-framing",
+  "input": "passage",
+  "split": "development",
+  "status": "full 240-passage pool reviewed; ready for parent independent QA and full-pool archive",
+  "definition": {
+    "commit": "d12ff193a4890ba0cd83bd7ceaac993f45ae4ad3",
+    "path": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+    "sha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+  },
+  "artifacts": {
+    "markdown": "datasets/ai-synthetic/passages/000029-boilerplate-and-signposting-unnecessary-framing-development.md",
+    "markdownSha256": "43c9bae64ef581390cfbc3058462d1021ef23675b1c7e3b2c33bc232036e5de6",
+    "labels": "datasets/ai-synthetic/passages/000029-boilerplate-and-signposting-unnecessary-framing-development.labels.json",
+    "labelsSha256": "07d601c0541af343cabf30e9e190e29967cbc9ce0c5b2fc2b0e5c24bfa2026cf"
+  },
+  "counts": {
+    "samples": 240,
+    "judgments": 240,
+    "hit": 120,
+    "noHit": 120,
+    "below100InEitherClass": false
+  },
+  "classStats": [
+    {
+      "expected": true,
+      "count": 120,
+      "bands": {
+        "short": 30,
+        "medium": 60,
+        "long": 30
+      },
+      "meanWords": 31.3,
+      "quoted": 29,
+      "numeric": 30,
+      "colon": 57,
+      "multiparagraph": 5
+    },
+    {
+      "expected": false,
+      "count": 120,
+      "bands": {
+        "short": 30,
+        "medium": 60,
+        "long": 30
+      },
+      "meanWords": 30.983333333333334,
+      "quoted": 29,
+      "numeric": 24,
+      "colon": 31,
+      "multiparagraph": 6
+    }
+  ],
+  "coverage": {
+    "domains": {
+      "arts": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "education": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "environment": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "finance": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "food": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "law": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "medicine": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "software": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "sport": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "transport": {
+        "hit": 12,
+        "noHit": 12
+      }
+    },
+    "variants": {
+      "academic": 10,
+      "actual-process": 1,
+      "candor": 9,
+      "clarification": 8,
+      "comparison": 5,
+      "compression": 10,
+      "defensive-preface": 1,
+      "dialogue": 3,
+      "discovery": 3,
+      "documentary": 15,
+      "ending": 5,
+      "explanation": 1,
+      "genuine-clarification": 1,
+      "genuine-question": 2,
+      "graded-label": 10,
+      "graded-lesson": 8,
+      "graded-solution": 2,
+      "importance": 11,
+      "local-preface": 14,
+      "meaningful-dialogue": 2,
+      "meaningful-discovery": 2,
+      "meaningful-question": 1,
+      "method": 10,
+      "navigation": 2,
+      "organization": 7,
+      "preview": 10,
+      "priority": 11,
+      "procedural": 14,
+      "procedure": 4,
+      "property": 1,
+      "reader-instruction": 10,
+      "role-assignment": 9,
+      "scope": 12,
+      "staged-question": 10,
+      "stock-closer": 10,
+      "uncertainty": 6
+    }
+  },
+  "generation": {
+    "method": "Manual original passage authoring by the current GPT-5-based Codex assistant using apply_patch; no external generation provider calls.",
+    "model": "GPT-5-based Codex; exact runtime model identifier unavailable",
+    "sourceContextCommit": "d12ff193a4890ba0cd83bd7ceaac993f45ae4ad3",
+    "initialCounts": {
+      "hit": 120,
+      "noHit": 120
+    },
+    "originalJudgmentsPreserved": true,
+    "labelCorrections": [],
+    "detectorCalls": 0,
+    "selectionPerformed": false,
+    "proseRevisionCount": 59,
+    "proseRevisionReason": "Author surface-feature audit found quotations absent from hits and almost no functional colon labels among no-hits. Repair these shortcuts while preserving all raised hard cases; restart all three reviews on the revised writing.",
+    "provenance": [
+      {
+        "path": "/tmp/000029-development-generation-provenance.json",
+        "sha256": "5a040fb937f387d07f734b5d8692459ba8e08f22cc55221b57091545c1372eaa"
+      },
+      {
+        "path": "/tmp/000029-development-surface-revision-provenance.json",
+        "sha256": "b24f7a434e8711e1266461464ac4351ba521a54bbb65906071030729367c9cff"
+      },
+      {
+        "path": "/tmp/000029-development-boundary-restoration.json",
+        "sha256": "39c10cde8b0d7b35877158f7bf72e13ffb859838941e1b3c7eae2ac811642183"
+      }
+    ],
+    "initialPool": {
+      "path": "/tmp/000029-development-authored-pool.json",
+      "sha256": "41cc45bdff5115cc30b27f63e8a79363468bf6312434a2392d34589a265b1464"
+    },
+    "reviewedPool": {
+      "path": "/tmp/000029-development-surface-pool.json",
+      "sha256": "9f460e6b98340c54343a024e689100be7dd09398fc1817296522440776d2702f"
+    }
+  },
+  "reviewSummary": {
+    "cliCalls": 12,
+    "successfulCliCalls": 12,
+    "failedCliCalls": 0,
+    "initialBlindCalls": 3,
+    "finalPoolCalls": 9,
+    "finalPoolPasses": [
+      "blind",
+      "adversarial",
+      "final"
+    ],
+    "finalPoolJudgments": 720,
+    "totalJudgments": 960,
+    "maximumBatchSize": 80,
+    "freshSessionCount": 12,
+    "models": [
+      "claude-opus-5-5"
+    ],
+    "costUsd": 2.9982824,
+    "comparisonMethod": "Join opaque review aliases back to stable IDs and compare independently against original labels; input files contain id and text only.",
+    "withheld": [
+      "labels",
+      "snippets",
+      "predictions",
+      "requested balance",
+      "author history",
+      "stable IDs",
+      "domain and coverage metadata"
+    ],
+    "opinionPolicy": "Reviewer agreement is an independent opinion. The frozen definition and explicit adjudication decide labels.",
+    "finalPoolDisagreements": 0
+  },
+  "reviews": [
+    {
+      "round": "initial",
+      "pass": "blind",
+      "batch": 1,
+      "passages": 80,
+      "authorHits": 41,
+      "authorNoHits": 39,
+      "reviewHits": 41,
+      "disagreements": 0,
+      "objections": 2,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "546b526e-18d4-49ee-8b05-d18a950546bf",
+      "requestedSessionId": "546b526e-18d4-49ee-8b05-d18a950546bf",
+      "providerTurns": 2,
+      "durationMs": 55538,
+      "costUsd": 0.228248,
+      "inputPath": "/tmp/000029-development-blind-b01-input.json",
+      "inputSha256": "bbf5e27dfe54597d63a1fdafe966d24450dd62f6f921fda0505bed8886135f72",
+      "textSha256": "15d6f2da756df369575d7cceb3621a1d4aa40ee67335a00b1c99434bc2ca4990",
+      "aliasesPath": "/tmp/000029-development-blind-aliases.json",
+      "aliasesSha256": "92061c089777eab90f2c7455050f29025247ae540d9e40c300577dbe67c5d188",
+      "responsePath": "/tmp/000029-development-blind-b01-opus.json",
+      "responseSha256": "191b48e7feed2198bf3b11748359520a6dd9323669551e1de0f33e4966d3eba9",
+      "rawPath": "/tmp/000029-development-blind-b01-opus.json.raw.json",
+      "rawSha256": "05c475c258a84812485ca1030282fe58a65f18f761159cd008a67a3e3af511cf",
+      "requestPath": "/tmp/000029-development-blind-b01-opus.json.request.json",
+      "requestSha256": "e8d50af280e45f2b9f81021348335b414399e56cc7e0656296a4916d5e5f5a49",
+      "promptSha256": "151543fd586cd8f02cc5b8e1e46e527cc45d52aee7d91ffef79dc36a6e1351d4",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "initial",
+      "pass": "blind",
+      "batch": 2,
+      "passages": 80,
+      "authorHits": 42,
+      "authorNoHits": 38,
+      "reviewHits": 42,
+      "disagreements": 0,
+      "objections": 0,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "1316e275-ca90-4f44-b6c0-05bc29eb502c",
+      "requestedSessionId": "1316e275-ca90-4f44-b6c0-05bc29eb502c",
+      "providerTurns": 3,
+      "durationMs": 117843,
+      "costUsd": 0.3868824,
+      "inputPath": "/tmp/000029-development-blind-b02-input.json",
+      "inputSha256": "0aec19fbd45b272cba98c7c9b3f9c09ebe34d49f836af36867d7715c3edd27ee",
+      "textSha256": "d9f7810bd286443029a2395e953d4b8198381898a88e4f85e2c81fd44ba77440",
+      "aliasesPath": "/tmp/000029-development-blind-aliases.json",
+      "aliasesSha256": "92061c089777eab90f2c7455050f29025247ae540d9e40c300577dbe67c5d188",
+      "responsePath": "/tmp/000029-development-blind-b02-opus.json",
+      "responseSha256": "2b79fcf1bae45aeb84e5ac943edd393c655500cb359914ce89f7a87f3801ab61",
+      "rawPath": "/tmp/000029-development-blind-b02-opus.json.raw.json",
+      "rawSha256": "ba628884cdcf51a2006b179fcc8372a46a793650d4d4038daf22fc347d59a098",
+      "requestPath": "/tmp/000029-development-blind-b02-opus.json.request.json",
+      "requestSha256": "8539649f35622cee35c81e77d940650ee9233334749526c3213194e8a82a7d35",
+      "promptSha256": "8fa95559b44113fe2098410e22a335442c7423e303c5be5b5e393b8796941862",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "initial",
+      "pass": "blind",
+      "batch": 3,
+      "passages": 80,
+      "authorHits": 37,
+      "authorNoHits": 43,
+      "reviewHits": 37,
+      "disagreements": 0,
+      "objections": 3,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "f6cb60cd-2d6b-4fd4-8015-0be00a929dc4",
+      "requestedSessionId": "f6cb60cd-2d6b-4fd4-8015-0be00a929dc4",
+      "providerTurns": 2,
+      "durationMs": 55083,
+      "costUsd": 0.22925600000000002,
+      "inputPath": "/tmp/000029-development-blind-b03-input.json",
+      "inputSha256": "a4e96ca5ddf4da016df88c0ff66a4896e8ac2eee6fbaeca705bc91fb7ade8fcd",
+      "textSha256": "d9f9fc68f7f92cd9d822ceb9c7ef0c4f895a6340aaf32f1c68d2e00715485d44",
+      "aliasesPath": "/tmp/000029-development-blind-aliases.json",
+      "aliasesSha256": "92061c089777eab90f2c7455050f29025247ae540d9e40c300577dbe67c5d188",
+      "responsePath": "/tmp/000029-development-blind-b03-opus.json",
+      "responseSha256": "ef7cd908fe7c25b84da4c7a86cd384aadfea989a45fc6bb233d1b61d451ec521",
+      "rawPath": "/tmp/000029-development-blind-b03-opus.json.raw.json",
+      "rawSha256": "41994bb05e96e659d02eb8f047846932b309c9d79ad9b01bd4733e50a69ed867",
+      "requestPath": "/tmp/000029-development-blind-b03-opus.json.request.json",
+      "requestSha256": "e1ae39ff58c5714761c5c086c8473e5c5cef6a565327c28d4409308fc8eea32d",
+      "promptSha256": "f469ac5e2b933522f02669c72a08516ead3fbf54a7871a40de76672e88bd65de",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "blind",
+      "batch": 1,
+      "passages": 80,
+      "authorHits": 41,
+      "authorNoHits": 39,
+      "reviewHits": 41,
+      "disagreements": 0,
+      "objections": 0,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "aecc35bd-95ce-41c6-aec4-813e30d56d47",
+      "requestedSessionId": "aecc35bd-95ce-41c6-aec4-813e30d56d47",
+      "providerTurns": 2,
+      "durationMs": 73829,
+      "costUsd": 0.247424,
+      "inputPath": "/tmp/000029-development-surface-blind-b01-input.json",
+      "inputSha256": "673288521e624caa5d62c95979802e1a5cc101bc0c986da593755d2bcb49c70b",
+      "textSha256": "ba981897ebf454f7bd190a6cd1d9e8835e4a532a4f3fce6d26aa04f37c518b07",
+      "aliasesPath": "/tmp/000029-development-surface-blind-aliases.json",
+      "aliasesSha256": "628afd4974d1c9155613dc4585d0c149f33181050a32d791d003f095fd730fe3",
+      "responsePath": "/tmp/000029-development-surface-blind-b01-opus.json",
+      "responseSha256": "280ffe0e4c2873bd48f9d0e218e5554946d6e4630a8971db1a59ee61cd6b5a76",
+      "rawPath": "/tmp/000029-development-surface-blind-b01-opus.json.raw.json",
+      "rawSha256": "2c2d82d670c404bd19a93193c1919772cc3841aef5b4f8388e85ee42c837c720",
+      "requestPath": "/tmp/000029-development-surface-blind-b01-opus.json.request.json",
+      "requestSha256": "91d351a7098ce7e74f8d25cd7e5fac4f07192ebd8d8a4d998fbf490c65a34df9",
+      "promptSha256": "2c55912b50ddd647d4a017caaa3b55e3ee5a463a0137e8a20d5d46d5e2db7ef9",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "blind",
+      "batch": 2,
+      "passages": 80,
+      "authorHits": 40,
+      "authorNoHits": 40,
+      "reviewHits": 40,
+      "disagreements": 0,
+      "objections": 1,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "4e9a06f6-c17b-4940-b08a-d5a87010e3f7",
+      "requestedSessionId": "4e9a06f6-c17b-4940-b08a-d5a87010e3f7",
+      "providerTurns": 2,
+      "durationMs": 75673,
+      "costUsd": 0.250628,
+      "inputPath": "/tmp/000029-development-surface-blind-b02-input.json",
+      "inputSha256": "70723c37d55db3cf6d7d3c2ad1900d6526110b3d18183ef3efacf4822e5760d1",
+      "textSha256": "4f8936dea729fd92668ea85ad9ef5f985d3240047d38b0d348d51001a5deb650",
+      "aliasesPath": "/tmp/000029-development-surface-blind-aliases.json",
+      "aliasesSha256": "628afd4974d1c9155613dc4585d0c149f33181050a32d791d003f095fd730fe3",
+      "responsePath": "/tmp/000029-development-surface-blind-b02-opus.json",
+      "responseSha256": "5eccca033c72595fb1944fdf4a7862470991a44e9ba2bf93d39afbc6f0063598",
+      "rawPath": "/tmp/000029-development-surface-blind-b02-opus.json.raw.json",
+      "rawSha256": "bba1231b5abc6af9a61cedb12de29cbe7a749286a02d95a3828ae184eede306a",
+      "requestPath": "/tmp/000029-development-surface-blind-b02-opus.json.request.json",
+      "requestSha256": "f762b356f4775e59ba0976bb5f0da60a7f19e31ef2158e3caf75e316e713617a",
+      "promptSha256": "1ab4938aef435a97863de17effb34dd8c82f2321fc46acbdba041a336ca28c51",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "blind",
+      "batch": 3,
+      "passages": 80,
+      "authorHits": 39,
+      "authorNoHits": 41,
+      "reviewHits": 39,
+      "disagreements": 0,
+      "objections": 0,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "40000046-17d8-4fb6-9cc6-248497cffea3",
+      "requestedSessionId": "40000046-17d8-4fb6-9cc6-248497cffea3",
+      "providerTurns": 2,
+      "durationMs": 51169,
+      "costUsd": 0.225344,
+      "inputPath": "/tmp/000029-development-surface-blind-b03-input.json",
+      "inputSha256": "ebc40ae00fdbe4b1b3ddda909d999839b9ad5a899dceb6e85a9d35ebe6c2a5c7",
+      "textSha256": "aaf7ff5911f99f09d8b34c2f6ff4ebe821d4c246d12bb62476e067caf55eafcb",
+      "aliasesPath": "/tmp/000029-development-surface-blind-aliases.json",
+      "aliasesSha256": "628afd4974d1c9155613dc4585d0c149f33181050a32d791d003f095fd730fe3",
+      "responsePath": "/tmp/000029-development-surface-blind-b03-opus.json",
+      "responseSha256": "846fb0832e29d4823396eb66237371675795133528f049efea085bb3ef0a0553",
+      "rawPath": "/tmp/000029-development-surface-blind-b03-opus.json.raw.json",
+      "rawSha256": "1af228f029755be3a64fd0b79404bf198efccba28ab47d1079579a7ad8c0dad3",
+      "requestPath": "/tmp/000029-development-surface-blind-b03-opus.json.request.json",
+      "requestSha256": "0a451069421b8d94682655378f9e4f93db926dc5eae0595b01fd7b941d05702f",
+      "promptSha256": "59013f804cff31678ab7656f8ac996b78a7187800f4089a65ad13cf82732cecf",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "adversarial",
+      "batch": 1,
+      "passages": 80,
+      "authorHits": 40,
+      "authorNoHits": 40,
+      "reviewHits": 40,
+      "disagreements": 0,
+      "objections": 1,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "e920a54f-ada2-4cb4-8b27-5e32ac841b1c",
+      "requestedSessionId": "e920a54f-ada2-4cb4-8b27-5e32ac841b1c",
+      "providerTurns": 2,
+      "durationMs": 55836,
+      "costUsd": 0.234168,
+      "inputPath": "/tmp/000029-development-surface-adversarial-b01-input.json",
+      "inputSha256": "f2a1d1025e5578ff4fcdabc4bd5424677deb476d442065ba6c8ed87a6ca92437",
+      "textSha256": "9a21e4cbdcec9c5ba315e86789a3ac2e61d0c510c79766063b82011a9d97b312",
+      "aliasesPath": "/tmp/000029-development-surface-adversarial-aliases.json",
+      "aliasesSha256": "d98672fc42cb0434887b43285ee81f1e0ae426d49a2bf0465d16d93cd91a4e4b",
+      "responsePath": "/tmp/000029-development-surface-adversarial-b01-opus.json",
+      "responseSha256": "5fd34226eb677578f90fc285c2751d6b915e453f5a11be0e22edabbc07c32d1d",
+      "rawPath": "/tmp/000029-development-surface-adversarial-b01-opus.json.raw.json",
+      "rawSha256": "64a72b5ac9e89f351fc73c108914841b89403f965b3d29d371d45ed4e9f4bd40",
+      "requestPath": "/tmp/000029-development-surface-adversarial-b01-opus.json.request.json",
+      "requestSha256": "67adff00a89756f6a1eb6c55504999af231af5f6ad526116061baabfa7186dae",
+      "promptSha256": "3bdb896e1c082b1dd60545cdd69a0f687f7be86715261a08401d699b9f7f0d96",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "adversarial",
+      "batch": 2,
+      "passages": 80,
+      "authorHits": 41,
+      "authorNoHits": 39,
+      "reviewHits": 41,
+      "disagreements": 0,
+      "objections": 3,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "03ceb9ab-2aff-4574-8c10-f68e2f142960",
+      "requestedSessionId": "03ceb9ab-2aff-4574-8c10-f68e2f142960",
+      "providerTurns": 2,
+      "durationMs": 57374,
+      "costUsd": 0.23687999999999998,
+      "inputPath": "/tmp/000029-development-surface-adversarial-b02-input.json",
+      "inputSha256": "965df61449eb7504db60b29d322b27bcad500904f2a924c0e038728ae7e6170f",
+      "textSha256": "9514b02288018a8f4ee94802a34f54c9756444933dc2f196602c609f644efb16",
+      "aliasesPath": "/tmp/000029-development-surface-adversarial-aliases.json",
+      "aliasesSha256": "d98672fc42cb0434887b43285ee81f1e0ae426d49a2bf0465d16d93cd91a4e4b",
+      "responsePath": "/tmp/000029-development-surface-adversarial-b02-opus.json",
+      "responseSha256": "9223fcba73c1fd56b668f11a6442b77f7905d1e3f89f99b95a591307a3e861c2",
+      "rawPath": "/tmp/000029-development-surface-adversarial-b02-opus.json.raw.json",
+      "rawSha256": "1397f598279424f9d92e7ee2e83851879769aa66250a8f54ab78fe14d9c0eab6",
+      "requestPath": "/tmp/000029-development-surface-adversarial-b02-opus.json.request.json",
+      "requestSha256": "7c6425e79c61ff649fda0358298c0aeb07f79ff741a748462396f7274c1b8f11",
+      "promptSha256": "bdd26373ff2f8d0ea05b78f0bb80b088c5ee7204a165315769f5a7d5404fde9c",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "adversarial",
+      "batch": 3,
+      "passages": 80,
+      "authorHits": 39,
+      "authorNoHits": 41,
+      "reviewHits": 39,
+      "disagreements": 0,
+      "objections": 3,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "705bf37d-7459-4b11-aa6d-7691c4f10bab",
+      "requestedSessionId": "705bf37d-7459-4b11-aa6d-7691c4f10bab",
+      "providerTurns": 2,
+      "durationMs": 59421,
+      "costUsd": 0.24221199999999998,
+      "inputPath": "/tmp/000029-development-surface-adversarial-b03-input.json",
+      "inputSha256": "87c03aa760da0c7b3d974b8159bc89dad4c50a17578be9349ee7d63d5263a9d3",
+      "textSha256": "da824bd1d80738fb48956de83424cfb16033683084a437088765b99da4345598",
+      "aliasesPath": "/tmp/000029-development-surface-adversarial-aliases.json",
+      "aliasesSha256": "d98672fc42cb0434887b43285ee81f1e0ae426d49a2bf0465d16d93cd91a4e4b",
+      "responsePath": "/tmp/000029-development-surface-adversarial-b03-opus.json",
+      "responseSha256": "32736b894381cd99dde923dbfc734f6a828aff8e8367f47a0fd5ff030bc35e74",
+      "rawPath": "/tmp/000029-development-surface-adversarial-b03-opus.json.raw.json",
+      "rawSha256": "91a3b5e709925e8f29b629326d4518ad7b4fd35d2dd702900da5dd518a460817",
+      "requestPath": "/tmp/000029-development-surface-adversarial-b03-opus.json.request.json",
+      "requestSha256": "e2f5b8508df99c92437f39104a741f908daec6f506fbcd15b016cebc009d69b2",
+      "promptSha256": "67667af70f19251b96d2c399fd1176d8701c477a2399ae78cb9ff9c82daf9531",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "final",
+      "batch": 1,
+      "passages": 80,
+      "authorHits": 39,
+      "authorNoHits": 41,
+      "reviewHits": 39,
+      "disagreements": 0,
+      "objections": 0,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "d3b9a23a-edb1-4bbb-9345-c7b49c10b36e",
+      "requestedSessionId": "d3b9a23a-edb1-4bbb-9345-c7b49c10b36e",
+      "providerTurns": 2,
+      "durationMs": 53310,
+      "costUsd": 0.226636,
+      "inputPath": "/tmp/000029-development-surface-final-b01-input.json",
+      "inputSha256": "6734716ef2e7f6424749dbfed6ac0972c0abff30e2944cf0c9db78dcfbe9d682",
+      "textSha256": "15690725d223a4e4a5917288a4505ff27edd24f8e197d041e8e5fc47f3bdb843",
+      "aliasesPath": "/tmp/000029-development-surface-final-aliases.json",
+      "aliasesSha256": "13750444b8ae42f43a8f9eaf2e69871d4245b2bee0046a3d548b6e42493a36a7",
+      "responsePath": "/tmp/000029-development-surface-final-b01-opus.json",
+      "responseSha256": "05b5a33f39498a6f0ae110bd49842506a401c2c745935f1c2e1781267fe08467",
+      "rawPath": "/tmp/000029-development-surface-final-b01-opus.json.raw.json",
+      "rawSha256": "8ab9336682be40fe8cdd9aa54227339d278bf55251869cf0870941ef7ea9d9ff",
+      "requestPath": "/tmp/000029-development-surface-final-b01-opus.json.request.json",
+      "requestSha256": "9dca2415a62510a7f6a62c8a7bb3b081b14787e3ae5d1bd8de8e6fb463a7f00a",
+      "promptSha256": "db3cf0dd49e77ac8ba89b0cc061f407d16e9c438c8c8a11f3b676dac0ea2edad",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "final",
+      "batch": 2,
+      "passages": 80,
+      "authorHits": 40,
+      "authorNoHits": 40,
+      "reviewHits": 40,
+      "disagreements": 0,
+      "objections": 1,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "4a536cba-39a4-471c-94dc-4d3b4b89d449",
+      "requestedSessionId": "4a536cba-39a4-471c-94dc-4d3b4b89d449",
+      "providerTurns": 2,
+      "durationMs": 52258,
+      "costUsd": 0.230172,
+      "inputPath": "/tmp/000029-development-surface-final-b02-input.json",
+      "inputSha256": "075ef2f613c2fe88feb876ea1af8afd313b143aeeddedae4cba5bb582fd40e94",
+      "textSha256": "8da585e4efbdf0fdcac213218ac51abfd3a45fb4d0f1f49d7727814b2f7daa9f",
+      "aliasesPath": "/tmp/000029-development-surface-final-aliases.json",
+      "aliasesSha256": "13750444b8ae42f43a8f9eaf2e69871d4245b2bee0046a3d548b6e42493a36a7",
+      "responsePath": "/tmp/000029-development-surface-final-b02-opus.json",
+      "responseSha256": "93c9efad4a3022b265bca15ac8e38b8cda8f46851b8e285e197315075032a978",
+      "rawPath": "/tmp/000029-development-surface-final-b02-opus.json.raw.json",
+      "rawSha256": "b4b5fd35da41325174a213bcf357244d33d44ca018db4fae5d1db5570c062b3b",
+      "requestPath": "/tmp/000029-development-surface-final-b02-opus.json.request.json",
+      "requestSha256": "74d847954b2867f67fe0c9b909c2d441455644892a88fcca53163a5a75eb38a5",
+      "promptSha256": "aa0bf98060e762376b4298bb7ca911cf6ced3eab55c822de047c8446316ff5f6",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    },
+    {
+      "round": "surface",
+      "pass": "final",
+      "batch": 3,
+      "passages": 80,
+      "authorHits": 41,
+      "authorNoHits": 39,
+      "reviewHits": 41,
+      "disagreements": 0,
+      "objections": 2,
+      "model": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "e63460d8-ada1-4cea-96c3-a12ef4cfebca",
+      "requestedSessionId": "e63460d8-ada1-4cea-96c3-a12ef4cfebca",
+      "providerTurns": 2,
+      "durationMs": 80677,
+      "costUsd": 0.260432,
+      "inputPath": "/tmp/000029-development-surface-final-b03-input.json",
+      "inputSha256": "9084d5b9d58c00f7f2da7a6ef970e9c667f7f0bedadcc1c3a6cb42ff3249b958",
+      "textSha256": "588533755a365fdf9d407e8794b2cabaf4f53b3ad5c0ec966cb37f6d52b77465",
+      "aliasesPath": "/tmp/000029-development-surface-final-aliases.json",
+      "aliasesSha256": "13750444b8ae42f43a8f9eaf2e69871d4245b2bee0046a3d548b6e42493a36a7",
+      "responsePath": "/tmp/000029-development-surface-final-b03-opus.json",
+      "responseSha256": "bc314ca585a3e1c597840aff72d6ee36ebb4ae3cc300140dca5d69cd46d0c3d5",
+      "rawPath": "/tmp/000029-development-surface-final-b03-opus.json.raw.json",
+      "rawSha256": "e610e39af9f013bbcb1020965ae8b84f87d26089e27d8806c2a0e9e26d4202cc",
+      "requestPath": "/tmp/000029-development-surface-final-b03-opus.json.request.json",
+      "requestSha256": "b4748fe771903d9fa113bf03e7400683b1bf582bbfbe07322f67253970ade9e1",
+      "promptSha256": "8ac41fad8f806ac43b0c038da320d55a72faebc4ffbb875280b72b6bc79baf4d",
+      "definitionSha256": "e9c1768a133385f1ecacb34d08c20187266c8c18d150a9f1b30d02275b9e84b0"
+    }
+  ],
+  "mandatoryIds": [
+    "000029-004",
+    "000029-005",
+    "000029-017",
+    "000029-018",
+    "000029-020",
+    "000029-024",
+    "000029-041",
+    "000029-044",
+    "000029-165",
+    "000029-170",
+    "000029-184",
+    "000029-194"
+  ],
+  "mandatoryCounts": {
+    "total": 12,
+    "hit": 12,
+    "noHit": 0
+  },
+  "adjudications": [
+    {
+      "id": "000029-004",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The clinic-closing time is the recoverable point. The complete supplied passage offers no preceding argument, perspective change or dependency for a step back to resolve. Preserve the revised text unchanged as a mandatory boundary case between genuine perspective shifts and disposable introductory announcements.",
+      "reviewEvents": [
+        {
+          "id": "000029-004",
+          "round": "surface",
+          "pass": "final",
+          "batch": 3,
+          "reviewExpected": true,
+          "objection": "Could be read as a genuine shift of perspective, but in this passage nothing comes before it to step back from, so the frame contributes nothing."
+        }
+      ]
+    },
+    {
+      "id": "000029-005",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The admission that the writer misplaced the affidavit supplies the entire point. Speaking with complete candor advertises honesty without resolving a stated earlier account or adding uncertainty, scope or clarification. Preserve the original hit and the alternative sincere-admission reading as a mandatory candor-preface boundary case.",
+      "reviewEvents": [
+        {
+          "id": "000029-005",
+          "round": "surface",
+          "pass": "final",
+          "batch": 2,
+          "reviewExpected": true,
+          "objection": "Could be read as a sincere admission where candor is relevant, but the preface adds nothing beyond advertising the writer's honesty."
+        }
+      ]
+    },
+    {
+      "id": "000029-017",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The supplied film-analysis passage immediately supplies the shot and sound analysis. The generic question advertises that analysis without adding a specific inquiry, scope or navigation dependency. Retain the hit as a staged-question boundary case; preserve the alternative analytic-question reading for independent QA.",
+      "reviewEvents": [
+        {
+          "id": "000029-017",
+          "round": "initial",
+          "pass": "blind",
+          "batch": 1,
+          "reviewExpected": true,
+          "objection": "Could be read as a legitimate analytical question in film criticism rather than a staged self-answering frame."
+        },
+        {
+          "id": "000029-017",
+          "round": "surface",
+          "pass": "blind",
+          "batch": 2,
+          "reviewExpected": true,
+          "objection": "In film analysis the question could be read as a relevant analytic question, but here the writer immediately answers it, so it reads as a staged self-answering question."
+        }
+      ]
+    },
+    {
+      "id": "000029-018",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The concrete soup-label example already supplies the operational risk and the ingredient distinction. Imagine this for a moment only asks the reader to attend to that supplied point. Preserve this hit to test the boundary with hypothetical scenarios whose setup performs useful reasoning.",
+      "reviewEvents": [
+        {
+          "id": "000029-018",
+          "round": "surface",
+          "pass": "adversarial",
+          "batch": 1,
+          "reviewExpected": true,
+          "objection": "Could be read as a genuine invitation to consider a hypothetical scenario rather than a disposable observer instruction; the described mislabeling reads as a real risk, so the frame appears unnecessary."
+        }
+      ]
+    },
+    {
+      "id": "000029-020",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The signed-schedule instruction supplies the point. Sensible grades the instruction without giving a reason, comparison or ordering constraint. Preserve the hit to test the boundary between graded solution labels and functional topic identification.",
+      "reviewEvents": [
+        {
+          "id": "000029-020",
+          "round": "initial",
+          "pass": "blind",
+          "batch": 3,
+          "reviewExpected": true,
+          "objection": "'Sensible' is a mild evaluation; could be read as a neutral recommendation label, but it functions as a graded solution label."
+        }
+      ]
+    },
+    {
+      "id": "000029-024",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The unnamed van and low-bridge example already supplies the generic failure mode and missing route constraint. Picture this scenario for a second adds an observer instruction rather than a conditional premise, navigation dependency or specific observation task. Preserve the original hit for independent QA of the useful-hypothetical boundary.",
+      "reviewEvents": [
+        {
+          "id": "000029-024",
+          "round": "surface",
+          "pass": "adversarial",
+          "batch": 2,
+          "reviewExpected": true,
+          "objection": "Could be read as legitimately marking a hypothetical scenario, but the scenario is stated as a plain event and the observer instruction adds nothing."
+        }
+      ]
+    },
+    {
+      "id": "000029-041",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The supplied point identifies the ticket gates as the delay location and closed gates as its cause. The generic question adds an unspecified demonstrative rather than a relevant inquiry or discovery step. Preserve the original hit and explicitly retain the objection about the missing antecedent for parent QA; the substantive point remains recoverable in the complete sample.",
+      "reviewEvents": [
+        {
+          "id": "000029-041",
+          "round": "surface",
+          "pass": "adversarial",
+          "batch": 3,
+          "reviewExpected": true,
+          "objection": "\"That\" refers to context the passage doesn't include, but the question is still staged and answered right away rather than asking anything real."
+        }
+      ]
+    },
+    {
+      "id": "000029-044",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The passage recommends moving the loading bay but supplies no comparison or criterion that makes the word practical informative. The graded answer label is disposable. Retain the original hit and wording to test the boundary with genuinely relevant properties.",
+      "reviewEvents": [
+        {
+          "id": "000029-044",
+          "round": "initial",
+          "pass": "blind",
+          "batch": 1,
+          "reviewExpected": true,
+          "objection": "'Practical' could be read as a relevant property distinguishing an actionable answer, though with no question or alternative supplied it functions as a graded answer label."
+        },
+        {
+          "id": "000029-044",
+          "round": "surface",
+          "pass": "adversarial",
+          "batch": 3,
+          "reviewExpected": true,
+          "objection": "\"Practical\" could be read as naming a relevant property of the answer, but with nothing to compare against, the label works as a graded answer label."
+        },
+        {
+          "id": "000029-044",
+          "round": "surface",
+          "pass": "final",
+          "batch": 3,
+          "reviewExpected": true,
+          "objection": "\"Practical\" could be read as naming a relevant property, but with no alternatives to compare against it works as a graded answer label."
+        }
+      ]
+    },
+    {
+      "id": "000029-165",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The absence pattern and work-schedule explanation supply the summary finding directly. The value of this training summary lies in showing that advertises the worth of that finding without adding methodological scope or a new result. Retain the revised passage unchanged as a mandatory academic-value-announcement boundary case.",
+      "reviewEvents": [
+        {
+          "id": "000029-165",
+          "round": "surface",
+          "pass": "adversarial",
+          "batch": 2,
+          "reviewExpected": true,
+          "objection": "Could be read as a substantive statement of what the summary finds rather than a value announcement; the evaluative wrapper still advertises the point's worth."
+        }
+      ]
+    },
+    {
+      "id": "000029-170",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The passage itself describes the defensive gap and the winger action. Look at what is happening here supplies neither an observation task with a target nor an additional discovery step. Preserve the original observer-instruction hit and its competing coaching-context interpretation.",
+      "reviewEvents": [
+        {
+          "id": "000029-170",
+          "round": "initial",
+          "pass": "blind",
+          "batch": 3,
+          "reviewExpected": true,
+          "objection": "In a match-analysis context 'look' could be a genuine observation instruction, but here it only announces the point that follows."
+        },
+        {
+          "id": "000029-170",
+          "round": "surface",
+          "pass": "adversarial",
+          "batch": 2,
+          "reviewExpected": true,
+          "objection": "Observer instruction could be read as directing attention to a match pattern, but no actual observation is requested; the writer states the pattern directly."
+        }
+      ]
+    },
+    {
+      "id": "000029-184",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The standalone lease-expiry fact requires no scene-setting dependency or contextual setup. The brief introductory phrase announces context instead of adding it. Preserve this mild transitional-looking hit verbatim rather than making it more conspicuous.",
+      "reviewEvents": [
+        {
+          "id": "000029-184",
+          "round": "initial",
+          "pass": "blind",
+          "batch": 3,
+          "reviewExpected": true,
+          "objection": "Very short frame on a one-sentence passage; could be read as a mild transitional phrase, but it is a generic scene-setting announcement."
+        }
+      ]
+    },
+    {
+      "id": "000029-194",
+      "expected": true,
+      "decision": "retain original judgment and preserve as mandatory for balanced selection",
+      "reason": "The passage supplies the pastry-chilling instruction and its position before rolling. Ideal adds a grade without identifying a competing priority, comparison or condition. Retain the hit unchanged to test whether an evaluative move label is distinguished from operative procedural ordering.",
+      "reviewEvents": [
+        {
+          "id": "000029-194",
+          "round": "surface",
+          "pass": "adversarial",
+          "batch": 3,
+          "reviewExpected": true,
+          "objection": "\"Ideal\" works like a grade on the answer, but the label is less clear-cut than \"clever\"; it could also be read as plain prioritization."
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "pairedSchemaVersion2": true,
+    "existingDatasetReader": "passed for this pair only",
+    "markdownHash": true,
+    "exactHitSnippets": true,
+    "noHitSnippetsOmitted": true,
+    "minimalLabels": true,
+    "sampleRangesMatchReviewedInputs": true,
+    "paragraphsOnSinglePhysicalLines": true,
+    "noInTextAnnotations": true,
+    "uniquePassageTexts": 240,
+    "lengthBandsMatched": true,
+    "definitionMatchesFrozenCommit": true,
+    "allChangedWritingReviewedThreePasses": true
+  },
+  "unresolvedIssues": [],
+  "parentActions": [
+    "Run independent QA and source/split overlap audit.",
+    "Archive the complete reviewed 240-passage pool in Git before selecting down.",
+    "Select 100 hits and 100 no-hits while retaining every mandatory ID."
+  ],
+  "recordedAt": "2026-10-21T19:00:38.421Z"
+}
