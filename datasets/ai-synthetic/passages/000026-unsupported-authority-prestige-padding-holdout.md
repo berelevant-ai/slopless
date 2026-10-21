@@ -178,7 +178,7 @@ A million people subscribe to Mira's weekly programming newsletter. We included 
 
 ## 000026-045
 
-A celebrated cellist chose this pension fund. Her endorsement makes the projected return credible.
+Put this deposit through without testing the banknotes; the client supplies jewelry to the royal household.
 
 ## 000026-046
 

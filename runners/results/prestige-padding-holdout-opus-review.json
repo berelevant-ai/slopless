@@ -3,7 +3,7 @@
   "collection": "000026",
   "check": "unsupported-authority/prestige-padding",
   "split": "holdout",
-  "status": "CORRECTED-FULL-POOL-QA-READY",
+  "status": "REPAIRED-FULL-POOL-FROZEN-AWAITING-INDEPENDENT-QA",
   "createdAt": "2026-10-21T10:22:37.997Z",
   "definitions": {
     "commit": "b5c1110c",
@@ -25,14 +25,14 @@
     "isolation": "protected-holdout",
     "initialPassages": 220,
     "additionalPassages": 20,
-    "proseRepairs": 9,
+    "proseRepairs": 10,
     "finalSource": {
-      "path": "/tmp/000026-holdout-qa-2026-10-21-114516-source.json",
-      "sha256": "fe9772092330ae7d61c877ffbda5015c15837d9aaef887127d99695024526096"
+      "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-final-source.json",
+      "sha256": "a7fe263f98620f03451d34b877a9adf5036e17fa8cfc9405314f0ac4ad728a00"
     },
     "repairLog": {
-      "path": "/tmp/000026-holdout-qa-2026-10-21-114516-cumulative-repair-log.json",
-      "sha256": "89e83e2713ff142ec0265e6d9d95bda55758c7faeb4e48a719b5ce27df07c521"
+      "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-cumulative-repair-log.json",
+      "sha256": "933aa9ca4b475f2018c396cbe4f87358359e10778100b16d57d91b6d3c49ea8a"
     }
   },
   "counts": {
@@ -41,14 +41,15 @@
     "noHits": 138,
     "domains": 10,
     "completeCurrentWritingThreePassCoverage": 240,
-    "completedReviewCalls": 16,
-    "rawJudgments": 755,
+    "completedReviewCalls": 19,
+    "rawJudgments": 758,
     "currentWritingPassCoverage": {
       "blind": 240,
       "adversarial": 240,
       "final": 240
     },
-    "independentLabelOverrides": 18
+    "independentLabelOverrides": 18,
+    "sourceOverlapRepairs": 1
   },
   "archive": {
     "fullPool": true,
@@ -56,6 +57,7 @@
     "parentArchiveCommitRequiredBeforeSelection": true,
     "mandatoryIds": [
       "000026-017",
+      "000026-045",
       "000026-052",
       "000026-061",
       "000026-073",
@@ -86,9 +88,11 @@
       "000026-227",
       "000026-229"
     ],
-    "mandatoryCount": 30,
+    "mandatoryCount": 31,
     "originalFullPoolCommit": "0f967654",
-    "correctedFullPoolCommit": null
+    "correctedFullPoolCommit": null,
+    "previousCorrectedFullPoolCommit": "dfc7b2ec",
+    "currentRepairedFullPoolCommit": null
   },
   "coverage": {
     "domains": {
@@ -166,8 +170,8 @@
       "pairsAboveThreshold": 0,
       "exactDuplicates": 0,
       "privateArtifact": {
-        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-within-pool-overlap.json",
-        "sha256": "394cb341f7c5a1a3968d65953534f1d1deaeb19b16b503ba9d4f1de21ed002f1"
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-within-pool-audit.json",
+        "sha256": "f105a73918955026b7be0aa624405be4b0a4e5c79a73536b90668ea9303ec5ec"
       }
     },
     "crossSplitAudit": {
@@ -576,6 +580,27 @@
         "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
         "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
       }
+    },
+    {
+      "id": "000026-045",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "decision": "independently authored source-overlap repair",
+      "reason": "The bank-deposit instruction uses a client's royal commercial association to justify bypassing banknote testing. The writing adopts that unrelated status inference as an operative instruction. The final fresh Opus judgment supplies the exact hit snippet.",
+      "currentReviewSources": [
+        "overlap-repair-2026-10-21-121455-blind",
+        "overlap-repair-2026-10-21-121455-adversarial",
+        "overlap-repair-2026-10-21-121455-final"
+      ],
+      "previousWritingProvenance": {
+        "id": "000026-045",
+        "textSha256": "74fd5cf4d68c008733c27d0b8bda113c6f477149c464e3e4b06fc97941baf4bb",
+        "blind": "blind-batch1",
+        "adversarial": "adversarial-batch1",
+        "final": "final-batch1",
+        "judgmentAndSnippetSource": "final-batch1"
+      }
     }
   ],
   "unresolvedConcerns": [],
@@ -584,7 +609,7 @@
       "id": "blind-batch1",
       "role": "blind",
       "count": 80,
-      "currentTextCount": 78,
+      "currentTextCount": 77,
       "review": {
         "path": "/tmp/000026-holdout-v1-blind-batch1.json",
         "sha256": "88c3d9293f2db5144d9bea4c2e8f4cd62a64e5cb1e08663e2527280676ffe490"
@@ -740,7 +765,7 @@
       "id": "adversarial-batch1",
       "role": "adversarial",
       "count": 80,
-      "currentTextCount": 78,
+      "currentTextCount": 77,
       "review": {
         "path": "/tmp/000026-holdout-v2-adversarial-batch1.json",
         "sha256": "be27135626a1aaec0753d8a774e5ce563b25160885820b013a01391cc43475b4"
@@ -935,7 +960,7 @@
       "id": "final-batch1",
       "role": "final",
       "count": 80,
-      "currentTextCount": 79,
+      "currentTextCount": 78,
       "review": {
         "path": "/tmp/000026-holdout-v3-final-batch1.json",
         "sha256": "d045625a884feb2c622e2caea4a3b27508907fe20f7b29311b0ed57983a9cda5"
@@ -1196,6 +1221,123 @@
       "durationMs": 3102,
       "elapsedMs": 4878.0692500000005,
       "costUsd": 0.0242274,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 0
+    },
+    {
+      "id": "overlap-repair-2026-10-21-121455-blind",
+      "role": "blind",
+      "count": 1,
+      "currentTextCount": 1,
+      "review": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-blind.json",
+        "sha256": "a155b4731f332933c922911ebb3f118632e3550b5da216a8551c17722d5460b5"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-blind.json.request.json",
+        "sha256": "a91710e05b1cd9484ee9629e86b78c317389ffa70bdb57e7fc9037cacbd45bbe"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-blind.json.raw.json",
+        "sha256": "55137010fe1783f30dee63c120741c56b7eb7ee6c1f163e1fb97988078deb785"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-input.json",
+        "sha256": "98050a533b0aecea8e9d2ecc9ae06d751bc504809a59759ebdfe39eda4902bde"
+      },
+      "promptSha256": "5e10a9f16ee6720ff7830d8dbe64510c54f541fde8e18acb974bbfa2bbeb83a5",
+      "textSha256": "c2f97de0cd61c642cdf21c5012c3176bf7e7ffce27385a2b14f6b9613cb85122",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "bc36f004-e1ac-4857-8d0a-d424c9a3835d",
+      "durationMs": 3308,
+      "elapsedMs": 4963.681500000001,
+      "costUsd": 0.039872000000000005,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 0
+    },
+    {
+      "id": "overlap-repair-2026-10-21-121455-adversarial",
+      "role": "adversarial",
+      "count": 1,
+      "currentTextCount": 1,
+      "review": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-adversarial.json",
+        "sha256": "c6d0f132195474ab9b5559540bf70633e1a3c37cc200b3e51968b8c40fafc1d3"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-adversarial.json.request.json",
+        "sha256": "4cef37a33141de329568a0e0ee1426d97ac40e749aa911c91f6dfd1732fa9588"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-adversarial.json.raw.json",
+        "sha256": "f9f04a1eb1c5e2191437d9807e0a2f9f09662553c940cec5eb1d102388939c2a"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-input.json",
+        "sha256": "98050a533b0aecea8e9d2ecc9ae06d751bc504809a59759ebdfe39eda4902bde"
+      },
+      "promptSha256": "b1266a9d97c4e5bc912055d17892473e23f10bab264660174268c55d930efec6",
+      "textSha256": "c2f97de0cd61c642cdf21c5012c3176bf7e7ffce27385a2b14f6b9613cb85122",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "bcdbfcbe-7f97-4435-aaae-882a415794d9",
+      "durationMs": 3048,
+      "elapsedMs": 4818.982542000001,
+      "costUsd": 0.0233678,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 0
+    },
+    {
+      "id": "overlap-repair-2026-10-21-121455-final",
+      "role": "final",
+      "count": 1,
+      "currentTextCount": 1,
+      "review": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-final.json",
+        "sha256": "8983435bc6e531f0f517babd83d2dcb5102731be69e3eabedfab1bda5f065f87"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-final.json.request.json",
+        "sha256": "164d3f48211e9b2024fbfd10e98794e162494d6bed664b3c1a2a36de309c09cd"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-final.json.raw.json",
+        "sha256": "9ad020937f6ea4a3b566a6ae6d117958b60a7b4ce1132803776721853215db4b"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-input.json",
+        "sha256": "98050a533b0aecea8e9d2ecc9ae06d751bc504809a59759ebdfe39eda4902bde"
+      },
+      "promptSha256": "e5ed2c52cd5440c85fb80833d851219c1446daef4250a5bd610adc1bb0bf8938",
+      "textSha256": "c2f97de0cd61c642cdf21c5012c3176bf7e7ffce27385a2b14f6b9613cb85122",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "511b9908-ccb5-49d5-b86f-0a485176a4b3",
+      "durationMs": 4310,
+      "elapsedMs": 6079.569667,
+      "costUsd": 0.0228438,
       "validation": "passed",
       "authorDisagreementCount": 0,
       "objectionCount": 0
@@ -1567,11 +1709,20 @@
     },
     {
       "id": "000026-045",
-      "textSha256": "74fd5cf4d68c008733c27d0b8bda113c6f477149c464e3e4b06fc97941baf4bb",
-      "blind": "blind-batch1",
-      "adversarial": "adversarial-batch1",
-      "final": "final-batch1",
-      "judgmentAndSnippetSource": "final-batch1"
+      "textSha256": "d40a4f1ff985df9fb48665299fadf270fa8dfed52bc84182e158614df102719e",
+      "blind": "overlap-repair-2026-10-21-121455-blind",
+      "adversarial": "overlap-repair-2026-10-21-121455-adversarial",
+      "final": "overlap-repair-2026-10-21-121455-final",
+      "judgmentAndSnippetSource": "overlap-repair-2026-10-21-121455-final",
+      "previousWritingProvenance": {
+        "id": "000026-045",
+        "textSha256": "74fd5cf4d68c008733c27d0b8bda113c6f477149c464e3e4b06fc97941baf4bb",
+        "blind": "blind-batch1",
+        "adversarial": "adversarial-batch1",
+        "final": "final-batch1",
+        "judgmentAndSnippetSource": "final-batch1"
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-046",
@@ -3374,14 +3525,16 @@
     "formatBeforeRangesAndChecksum": {
       "command": "prettier --write --prose-wrap preserve",
       "log": {
-        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-format.log",
-        "sha256": "be43533a37e39be58df8b33bfd2c038619ffa3427abf92a52dbd6c917e7598cf"
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-format.log",
+        "sha256": "7d1f29c33554f1f3d9e2bcc75251dbd09efefa887e9bb2ddf9fa97b30835df8d"
       }
     },
-    "textSha256": "3ae5ca1e3fb1343e74da9f3592de4cce0ec6430856e1a52e6a21ab0a854cadf2",
-    "labelsSha256": "31bead0ba793503d1d48dc603817982c5c25aa96c3c5fb41e5b483c495a8ac74",
+    "textSha256": "dfbb053a4c78dd819df939c22626630ca706575173948b3956426bcce9dc70b5",
+    "labelsSha256": "84ee34c437e489da6e623cecef645ce7a43648dbb9e35a84d86d9a0103a4ae20",
     "completeCurrentWritingThreePassCoverage": "passed",
-    "independentOverrides": "explicit; raw provider history preserved"
+    "independentOverrides": "explicit; raw provider history preserved",
+    "onlyIdentifiedPassageChanged": true,
+    "other239LabelsAndSnippetsExact": true
   },
   "independentReviewOverrides": [
     {
@@ -3674,10 +3827,577 @@
         "sha256": "578515a21c1b30ae123f70ac6415cf2e7bfba33d0f47ce6a3e36fff46eeafa2c"
       },
       "reason": "Original full pool and provider judgments retained before independent QA overrides and prose repairs."
+    },
+    {
+      "reason": "Source-overlap repair: selected snapshot and completed subset QA preserved before restoring and repairing the corrected full pool.",
+      "previousFullPoolArchiveCommit": "dfc7b2ec",
+      "previousFullPoolMarkdown": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-pool-before-markdown.md",
+        "sha256": "3ae5ca1e3fb1343e74da9f3592de4cce0ec6430856e1a52e6a21ab0a854cadf2"
+      },
+      "previousFullPoolLabels": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-pool-before-labels.json",
+        "sha256": "31bead0ba793503d1d48dc603817982c5c25aa96c3c5fb41e5b483c495a8ac74"
+      },
+      "previousFullPoolReview": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-pool-before-review.json",
+        "sha256": "c9914ea8424f31c6b4262102ea042619a0e1fe2850fc576a1dea05586f5b33a4"
+      },
+      "selectedMarkdown": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-selected-before-markdown.md",
+        "sha256": "9ab5753586bc5551c1462c3d67c3fed6934af95c9be458e427cbe1e7b451ecaa"
+      },
+      "selectedLabels": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-selected-before-labels.json",
+        "sha256": "5721a7b84cbe6e20d48a4ff63d46ea363fa2bfd6d8e4cad14803888542c871b4"
+      },
+      "selectedReviewWithQa": {
+        "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-selected-before-review.json",
+        "sha256": "1b5a82d89510e3857d79103e8ba7eeff22b0f1ef0c88610438c53c856539371b"
+      },
+      "completedSelection": {
+        "status": "SELECTED-FROZEN-AWAITING-SUBSET-QA",
+        "selectedAt": "2026-10-21T11:04:02.423Z",
+        "archiveCommit": "dfc7b2ec",
+        "historyScope": "Every pre-existing record field, raw review reference, independent QA append, adjudication, override, and full-pool count remains the history of the complete corrected 240-passage pool. activeSelection describes the current immutable 200-passage subset.",
+        "method": {
+          "name": "Frozen authority mandatory-first length-weighted SHA selection",
+          "rank": "SHA256(UTF-8 JSON.stringify([family,type,split,id])), ascending hex; ID breaks hash ties",
+          "weights": [
+            25,
+            50,
+            25
+          ],
+          "wordStrata": [
+            [
+              8,
+              20
+            ],
+            [
+              21,
+              44
+            ],
+            [
+              45,
+              90
+            ]
+          ],
+          "wordCounting": "Whitespace-delimited passage-body words",
+          "allocation": "Retain mandatory cases first within each class; allocate remaining slots by weights using largest-remainder rounding, bucket-order ties; cap exhausted buckets and repeat with remaining active weights",
+          "presentationOrder": "Original full-pool sample order"
+        },
+        "helper": {
+          "path": "/tmp/000026-holdout-selection-2026-10-21-115933-algorithm.mjs",
+          "sha256": "dba5b567afc9c5a57bbade068e83bc970e162ce619bc53201acafa7bc89d5929"
+        },
+        "protocol": {
+          "path": "/tmp/000026-holdout-selection-2026-10-21-115933-r2-protocol.json",
+          "sha256": "82249b2520ccc89574f83bb0468e90eac32fc6166cc2614b59aa8f8d02db3904"
+        },
+        "source": {
+          "path": "/tmp/000026-holdout-selection-2026-10-21-115933-r2-selected-source.json",
+          "sha256": "e6f437f1f9db1f6360b70d0010d8f58d94f60f142e5caf7ac71ebcc4e688935b"
+        },
+        "surplus": {
+          "passages": 40,
+          "hits": 2,
+          "noHits": 38,
+          "archiveCommit": "dfc7b2ec",
+          "markdownPath": "datasets/ai-synthetic/passages/000026-unsupported-authority-prestige-padding-holdout.md",
+          "labelsPath": "datasets/ai-synthetic/passages/000026-unsupported-authority-prestige-padding-holdout.labels.json",
+          "privateSource": {
+            "path": "/tmp/000026-holdout-selection-2026-10-21-115933-r2-surplus-source.json",
+            "sha256": "64d29ad6e07d0d8e10b5134853d035c2f6b208e212438bfcc226404ad7459ece"
+          }
+        },
+        "counts": {
+          "before": {
+            "passages": 240,
+            "hits": 102,
+            "noHits": 138
+          },
+          "after": {
+            "passages": 200,
+            "hits": 100,
+            "noHits": 100
+          },
+          "surplus": {
+            "passages": 40,
+            "hits": 2,
+            "noHits": 38
+          }
+        },
+        "lengths": {
+          "before": {
+            "hit": [
+              32,
+              43,
+              27
+            ],
+            "noHit": [
+              32,
+              67,
+              39
+            ]
+          },
+          "after": {
+            "hit": [
+              30,
+              43,
+              27
+            ],
+            "noHit": [
+              18,
+              51,
+              31
+            ]
+          },
+          "surplus": {
+            "hit": [
+              2,
+              0,
+              0
+            ],
+            "noHit": [
+              14,
+              16,
+              8
+            ]
+          }
+        },
+        "allocations": [
+          {
+            "expected": true,
+            "mandatory": 2,
+            "optionalAvailable": [
+              31,
+              42,
+              27
+            ],
+            "additional": [
+              29,
+              42,
+              27
+            ],
+            "rounds": [
+              {
+                "slots": 98,
+                "requested": [
+                  25,
+                  49,
+                  24
+                ],
+                "granted": [
+                  25,
+                  42,
+                  24
+                ]
+              },
+              {
+                "slots": 7,
+                "requested": [
+                  4,
+                  0,
+                  3
+                ],
+                "granted": [
+                  4,
+                  0,
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "expected": false,
+            "mandatory": 28,
+            "optionalAvailable": [
+              32,
+              52,
+              26
+            ],
+            "additional": [
+              18,
+              36,
+              18
+            ],
+            "rounds": [
+              {
+                "slots": 72,
+                "requested": [
+                  18,
+                  36,
+                  18
+                ],
+                "granted": [
+                  18,
+                  36,
+                  18
+                ]
+              }
+            ]
+          }
+        ],
+        "mandatory": {
+          "ids": [
+            "000026-017",
+            "000026-052",
+            "000026-061",
+            "000026-073",
+            "000026-086",
+            "000026-087",
+            "000026-095",
+            "000026-096",
+            "000026-097",
+            "000026-110",
+            "000026-117",
+            "000026-119",
+            "000026-121",
+            "000026-123",
+            "000026-129",
+            "000026-132",
+            "000026-139",
+            "000026-141",
+            "000026-153",
+            "000026-154",
+            "000026-161",
+            "000026-168",
+            "000026-177",
+            "000026-183",
+            "000026-194",
+            "000026-196",
+            "000026-207",
+            "000026-218",
+            "000026-227",
+            "000026-229"
+          ],
+          "total": 30,
+          "retained": 30,
+          "originalTotal": 17,
+          "originalRetained": 17
+        },
+        "selectedIds": [
+          "000026-001",
+          "000026-002",
+          "000026-003",
+          "000026-004",
+          "000026-005",
+          "000026-006",
+          "000026-007",
+          "000026-008",
+          "000026-009",
+          "000026-010",
+          "000026-011",
+          "000026-012",
+          "000026-013",
+          "000026-014",
+          "000026-015",
+          "000026-017",
+          "000026-019",
+          "000026-020",
+          "000026-021",
+          "000026-022",
+          "000026-023",
+          "000026-025",
+          "000026-026",
+          "000026-027",
+          "000026-029",
+          "000026-031",
+          "000026-032",
+          "000026-033",
+          "000026-035",
+          "000026-036",
+          "000026-037",
+          "000026-038",
+          "000026-039",
+          "000026-040",
+          "000026-041",
+          "000026-043",
+          "000026-044",
+          "000026-045",
+          "000026-047",
+          "000026-048",
+          "000026-049",
+          "000026-050",
+          "000026-051",
+          "000026-052",
+          "000026-053",
+          "000026-055",
+          "000026-057",
+          "000026-058",
+          "000026-059",
+          "000026-061",
+          "000026-062",
+          "000026-063",
+          "000026-064",
+          "000026-065",
+          "000026-066",
+          "000026-067",
+          "000026-068",
+          "000026-069",
+          "000026-070",
+          "000026-071",
+          "000026-073",
+          "000026-075",
+          "000026-076",
+          "000026-077",
+          "000026-078",
+          "000026-079",
+          "000026-080",
+          "000026-081",
+          "000026-082",
+          "000026-083",
+          "000026-084",
+          "000026-085",
+          "000026-086",
+          "000026-087",
+          "000026-088",
+          "000026-089",
+          "000026-090",
+          "000026-091",
+          "000026-092",
+          "000026-093",
+          "000026-095",
+          "000026-096",
+          "000026-097",
+          "000026-099",
+          "000026-100",
+          "000026-101",
+          "000026-102",
+          "000026-103",
+          "000026-104",
+          "000026-105",
+          "000026-106",
+          "000026-107",
+          "000026-109",
+          "000026-110",
+          "000026-111",
+          "000026-113",
+          "000026-115",
+          "000026-117",
+          "000026-118",
+          "000026-119",
+          "000026-120",
+          "000026-121",
+          "000026-122",
+          "000026-123",
+          "000026-124",
+          "000026-125",
+          "000026-126",
+          "000026-127",
+          "000026-129",
+          "000026-130",
+          "000026-131",
+          "000026-132",
+          "000026-133",
+          "000026-135",
+          "000026-137",
+          "000026-138",
+          "000026-139",
+          "000026-140",
+          "000026-141",
+          "000026-143",
+          "000026-145",
+          "000026-146",
+          "000026-147",
+          "000026-148",
+          "000026-149",
+          "000026-151",
+          "000026-153",
+          "000026-154",
+          "000026-155",
+          "000026-156",
+          "000026-158",
+          "000026-159",
+          "000026-160",
+          "000026-161",
+          "000026-162",
+          "000026-163",
+          "000026-164",
+          "000026-165",
+          "000026-166",
+          "000026-167",
+          "000026-168",
+          "000026-169",
+          "000026-171",
+          "000026-173",
+          "000026-174",
+          "000026-175",
+          "000026-176",
+          "000026-177",
+          "000026-178",
+          "000026-179",
+          "000026-180",
+          "000026-181",
+          "000026-183",
+          "000026-184",
+          "000026-185",
+          "000026-186",
+          "000026-187",
+          "000026-189",
+          "000026-190",
+          "000026-191",
+          "000026-192",
+          "000026-193",
+          "000026-194",
+          "000026-195",
+          "000026-196",
+          "000026-197",
+          "000026-198",
+          "000026-200",
+          "000026-201",
+          "000026-203",
+          "000026-205",
+          "000026-206",
+          "000026-207",
+          "000026-209",
+          "000026-210",
+          "000026-211",
+          "000026-212",
+          "000026-213",
+          "000026-215",
+          "000026-217",
+          "000026-218",
+          "000026-219",
+          "000026-220",
+          "000026-221",
+          "000026-222",
+          "000026-223",
+          "000026-224",
+          "000026-225",
+          "000026-227",
+          "000026-228",
+          "000026-229",
+          "000026-231",
+          "000026-233",
+          "000026-234",
+          "000026-235",
+          "000026-236",
+          "000026-237",
+          "000026-238",
+          "000026-239",
+          "000026-240"
+        ],
+        "selectedIdsSha256": "66a32cf261a80dd8cdb1112c1377b955db99d130215166764748718e302e1614",
+        "domains": {
+          "health": {
+            "hit": 11,
+            "noHit": 11
+          },
+          "software": {
+            "hit": 12,
+            "noHit": 7
+          },
+          "finance": {
+            "hit": 11,
+            "noHit": 8
+          },
+          "education": {
+            "hit": 9,
+            "noHit": 13
+          },
+          "civic": {
+            "hit": 9,
+            "noHit": 11
+          },
+          "food": {
+            "hit": 8,
+            "noHit": 11
+          },
+          "environment": {
+            "hit": 9,
+            "noHit": 9
+          },
+          "arts": {
+            "hit": 10,
+            "noHit": 11
+          },
+          "sport": {
+            "hit": 11,
+            "noHit": 11
+          },
+          "work": {
+            "hit": 10,
+            "noHit": 8
+          }
+        },
+        "archiveHashes": {
+          "markdown": "3ae5ca1e3fb1343e74da9f3592de4cce0ec6430856e1a52e6a21ab0a854cadf2",
+          "labels": "31bead0ba793503d1d48dc603817982c5c25aa96c3c5fb41e5b483c495a8ac74",
+          "archivedReview": "c9914ea8424f31c6b4262102ea042619a0e1fe2850fc576a1dea05586f5b33a4",
+          "postQaReview": "0495d15210365460851766ad2429c536ad7a937d0e90f662c0f7eb7f3f4eb0e5"
+        },
+        "fullPostQaReview": {
+          "path": "/tmp/000026-holdout-selection-2026-10-21-115933-r2-postqa-review.json",
+          "sha256": "0495d15210365460851766ad2429c536ad7a937d0e90f662c0f7eb7f3f4eb0e5"
+        },
+        "currentHashes": {
+          "markdown": "9ab5753586bc5551c1462c3d67c3fed6934af95c9be458e427cbe1e7b451ecaa",
+          "labels": "5721a7b84cbe6e20d48a4ff63d46ea363fa2bfd6d8e4cad14803888542c871b4"
+        },
+        "currentWritingPassCoverage": {
+          "blind": 200,
+          "adversarial": 200,
+          "final": 200
+        },
+        "verification": {
+          "readDocument": "passed",
+          "exact100PerClass": true,
+          "retainedTextLabelsAndSnippetsExact": true,
+          "mandatoryCasesRetained": true,
+          "sourceOrderPreserved": true,
+          "fullQaAppendPreserved": true,
+          "rawHistoryPreserved": true,
+          "fullPoolAndSurplusArchived": true,
+          "deterministicRecomputation": true,
+          "formatBeforeRangesAndChecksum": {
+            "command": "prettier --write --prose-wrap preserve",
+            "log": {
+              "path": "/tmp/000026-holdout-selection-2026-10-21-115933-r2-format.log",
+              "sha256": "7d1f29c33554f1f3d9e2bcc75251dbd09efefa887e9bb2ddf9fa97b30835df8d"
+            }
+          }
+        },
+        "independentSubsetQa": {
+          "status": "passed",
+          "collection": "000026",
+          "selectedPassages": 200,
+          "hits": 100,
+          "noHits": 100,
+          "mandatoryRetained": 30,
+          "originalMandatoryRetained": 17,
+          "archivedSurplus": 40,
+          "unchangedRetainedPassages": 200,
+          "unchangedRetainedLabelsAndSnippets": 200,
+          "independentManualJudgmentsMatched": 200,
+          "deterministicSelection": true,
+          "selectionOrderIndependent": true,
+          "independentAllocationRoundsAndRankBoundariesVerified": true,
+          "selectionProtocolProbesPassed": 8,
+          "currentWritingCoverage": {
+            "blind": 200,
+            "adversarial": 200,
+            "final": 200
+          },
+          "exactCurrentHitSnippetSources": 100,
+          "domainsWithBothClasses": 10,
+          "rawCallsPreservedAndHashed": 16,
+          "rawJudgmentsPreserved": 755,
+          "historicalReviewFieldsUnchanged": true,
+          "verifiedAuthorReviewSha256": "115edb71a56b26dea2030cc2dbb2158078c7e7dfe067d508deb6405acdd41b8d",
+          "proof": {
+            "path": "/tmp/authority-000026-subset-qa-2026-10-21-Sy1VLZ/subset-proof-private.json",
+            "sha256": "c3ddfcb641103053ba82fed5f533323f1ce7c0e9c68e25aa44973277acd7da69"
+          },
+          "overallReadiness": "awaiting-final-all-four-source-and-cross-split-qa",
+          "newProviderCalls": 0
+        },
+        "providerCalls": 0
+      }
     }
   ],
   "protectedQa": {
-    "status": "awaiting-post-correction-QA",
+    "status": "passed-post-correction-QA",
     "independentReview": {
       "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
       "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
@@ -3699,5 +4419,115 @@
     "originalArchiveCommit": "0f967654",
     "correctedArchiveRequired": true
   },
-  "updatedAt": "2026-10-21T10:50:33.066Z"
+  "updatedAt": "2026-10-21T11:20:38.000Z",
+  "independentQa": {
+    "verifiedAt": "2026-10-21T10:56:34Z",
+    "role": "protected-independent-auditor",
+    "initialFullPoolAudit": {
+      "status": "corrections-required",
+      "archiveCommit": "0f967654",
+      "passagesReviewed": 240,
+      "hitSnippetSetsReviewed": 120,
+      "adjudicationsReviewed": 13,
+      "labelCorrectionsRequested": 18,
+      "realismCorrectionsRequested": 4,
+      "rawCallsVerified": 13,
+      "rawJudgmentsVerified": 743,
+      "privateProof": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/proof-private.json",
+        "sha256": "a4cb364179cabb7a309979a206d4ba4a10aab82dd36521d964bface18f88027e"
+      },
+      "protectedManualReview": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      }
+    },
+    "postCorrection": {
+      "fullPoolReady": true,
+      "correctedArchiveCommit": "dfc7b2ec",
+      "passages": 240,
+      "hits": 102,
+      "noHits": 138,
+      "labelCorrectionsVerified": 18,
+      "realismCorrectionsVerified": 4,
+      "unchangedOtherPassages": 236,
+      "mandatoryCasesRetained": 30,
+      "originalMandatoryCasesPreserved": 17,
+      "remainingMaterialConcerns": 0,
+      "rawCallsVerified": 16,
+      "rawJudgmentsVerified": 755,
+      "currentWritingThreePassJudgments": 720,
+      "supersededWritingJudgments": 22,
+      "focusedJudgments": 13,
+      "currentWritingPassCoverage": {
+        "blind": 240,
+        "adversarial": 240,
+        "final": 240
+      },
+      "freshRewrittenWritingRoleJudgments": 12,
+      "distinctRawSessionsVerified": 16,
+      "exactCurrentHitSnippetSources": 102,
+      "domainsWithBothClasses": 10,
+      "originalRawHistoryPreserved": true,
+      "withinPoolPairsChecked": 28680,
+      "withinPoolExactDuplicates": 0,
+      "withinPoolNormalizedDuplicates": 0,
+      "withinPoolSharedEightWordPairs": 0,
+      "withinPoolNearestPairsManuallyReviewed": 38,
+      "withinPoolMaterialDuplicateConcerns": 0,
+      "verifiedAuthorReviewSha256": "c9914ea8424f31c6b4262102ea042619a0e1fe2850fc576a1dea05586f5b33a4",
+      "privateProof": {
+        "path": "/tmp/authority-000026-postcorrection-qa-2026-10-21-xNsxGC/postcorrection-proof-private.json",
+        "sha256": "8cd66c237b5fa894d23eb8f7b76527d7bb4819f4cb1713b355ed821c1d1183d7"
+      }
+    },
+    "crossSplitQa": "awaiting-final-family-audit",
+    "selectedSubsetQa": "awaiting-parent-selection-authorization-and-selected-freeze",
+    "newProviderCallsByAuditor": 0,
+    "selectionPerformedByAuditor": false
+  },
+  "qaHistoryScope": "Previous independentQa and completed selected-subset QA describe their exact frozen snapshots before this source repair. Current full-pool readiness is recorded under sourceOverlapRepair.independentQa.",
+  "sourceOverlapRepair": {
+    "status": "frozen-awaiting-independent-full-pool-QA-source-check-and-new-archive",
+    "brief": {
+      "path": "/tmp/authority-four-collection-overlap-2026-10-21-HTlfMA/000026-only-repair-brief-private.json",
+      "sha256": "49c2f9f90d5fdad6bfd382fe658d7714ec3684bcceb4aada545b1899696f429d"
+    },
+    "source": {
+      "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-final-source.json",
+      "sha256": "a7fe263f98620f03451d34b877a9adf5036e17fa8cfc9405314f0ac4ad728a00"
+    },
+    "repairLog": {
+      "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-repair-log.json",
+      "sha256": "d71fbd222544d9033517f8571ea9c66227e0172ab1bd052bd0dd51ecda3b699a"
+    },
+    "changedPassages": 1,
+    "unchangedPassages": 239,
+    "previousJudgmentPreserved": true,
+    "newMandatoryCases": 1,
+    "mandatoryTotal": 31,
+    "allPreviousMandatoryPreserved": true,
+    "freshReviewSources": [
+      "overlap-repair-2026-10-21-121455-blind",
+      "overlap-repair-2026-10-21-121455-adversarial",
+      "overlap-repair-2026-10-21-121455-final"
+    ],
+    "currentWritingPassCoverage": {
+      "blind": 240,
+      "adversarial": 240,
+      "final": 240
+    },
+    "priorIndependentLabelCorrectionsPreserved": 18,
+    "priorRealismRepairsPreserved": 4,
+    "onlyOwnBriefRead": true,
+    "selectionPerformed": false,
+    "selectionRequiresNewArchiveAndAuthorization": true,
+    "independentQa": {
+      "status": "awaiting-protected-independent-QA-and-source-check"
+    },
+    "withinPoolAudit": {
+      "path": "/tmp/000026-holdout-overlap-repair-2026-10-21-121455-within-pool-audit.json",
+      "sha256": "f105a73918955026b7be0aa624405be4b0a4e5c79a73536b90668ea9303ec5ec"
+    }
+  }
 }
