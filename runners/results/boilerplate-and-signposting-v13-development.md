@@ -64,5 +64,5 @@ Select and freeze `buried-r1`: 98 of 100 development hits caught, two misses, ze
 ## Assessment Status
 
 - Framing's frozen holdout catches all 100 hits with nine false positives, versus 99 catches and zero false positives on development. The holdout exceeds the fixed five-false-positive target; preserve this transfer failure and the assessed candidate. Its native result and protected error review are in the existing holdout files.
-- Buried answer qualifies on development. Commit the frozen candidate, settings, selected sets, and reviewed result before its once-only protected holdout assessment.
+- Buried answer's candidate is frozen at `1bc285f8`. Its once-only holdout catches 94 hits with two false positives, versus 98 and zero on development. Independent protected verification and all eight error reviews pass; preserve the missed reference target and unchanged candidate.
 - Dataset records preserve completed Opus opinions separately from authorized fresh Codex reviews after Claude's weekly limit. Source-copy hygiene uses historical writing; detector corpus validation remains a separate V2 stage.

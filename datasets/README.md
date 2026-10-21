@@ -116,7 +116,7 @@ Its [development assessment](../runners/results/boilerplate-and-signposting-v13-
 
 Buried answer uses complete texts. Its reviewed [development](ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md) and protected [holdout](ai-synthetic/texts/000032-boilerplate-and-signposting-buried-answer-holdout.md) each contain 100 hits and 100 no-hits. All 176 mandatory cases remain; 80 surplus texts and their labels remain in the full-pool archive at `72f7d7da`.
 
-Six source reviewers clear all 3,259 overlap candidates before selection. The selected sets retain 29 same-split related pairs in 27 groups of at most three texts. The development classifier catches 98 hits with zero false positives; its frozen holdout assessment follows separately.
+Six source reviewers clear all 3,259 overlap candidates before selection. The selected sets retain 29 same-split related pairs in 27 groups of at most three texts. The development classifier catches 98 hits with zero false positives; its independently verified holdout catches 94 hits with two false positives.
 
 The existing `buried-answer-development-review.json` and `buried-answer-holdout-review.json` records distinguish completed Opus opinions, authorized fresh Codex reviews, repairs, and the independently verified selection. Their historical review statistics describe the archived 240-text pools; selection fields describe the active 200-text sets.
 
