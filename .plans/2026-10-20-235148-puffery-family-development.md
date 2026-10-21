@@ -6,7 +6,7 @@ Complete the next three families in order: unsupported authority, staged contras
 
 Puffery and overstatement is complete through isolated development and holdout classification; its results remain below. Execution of the three-family extension started on 2026-10-21 at the user's request.
 
-- Current family: unsupported authority. Definitions are frozen in `b5c1110c`; all four balanced, independently audited datasets are frozen in `e349ece2`. Reviewed baseline prompts are in `prompts/v11/`; development inference follows the verified runner freeze.
+- Current family: unsupported authority. Definitions are frozen in `b5c1110c`; all four balanced datasets are frozen in `e349ece2`. Development selects prestige revision 4 at 99 caught/three false positives and vague-attribution revision 1 at 99 caught/four false positives. Candidate review and the separate holdout assessment precede staged contrasts.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 
 ## Execution Order
