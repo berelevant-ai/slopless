@@ -4,7 +4,7 @@
   "check": "buried-answer",
   "input": "text",
   "split": "development",
-  "stage": "reconciled-240-awaiting-independent-final-Codex-review",
+  "stage": "development-source-label-QA-approved-source-audit-pending",
   "definitionCommit": "d12ff193a4890ba0cd83bd7ceaac993f45ae4ad3",
   "pilot": {
     "readyPath": "/tmp/000031-development-pilot-ready-v1.json",
@@ -175,6 +175,7 @@
     "000031-009",
     "000031-013",
     "000031-014",
+    "000031-018",
     "000031-020",
     "000031-022",
     "000031-023",
@@ -225,6 +226,7 @@
     "000031-134",
     "000031-138",
     "000031-140",
+    "000031-142",
     "000031-143",
     "000031-144",
     "000031-150",
@@ -232,8 +234,11 @@
     "000031-160",
     "000031-164",
     "000031-171",
+    "000031-172",
     "000031-179",
     "000031-180",
+    "000031-191",
+    "000031-204",
     "000031-211",
     "000031-219"
   ],
@@ -275,7 +280,7 @@
     },
     "minimumDomains": 8,
     "selection": "Full-pool selection remains pending; every available text and provisional label is preserved.",
-    "independentQA": "Parent-assigned full-pool classification, provenance and source/split overlap audit remains pending.",
+    "independentQA": "Feynman positive v2 source, label and four-patch QA approved; original negative report preserved. Parent source/overlap audit remains pending.",
     "manifest": "/tmp/000031-development-fullpool-manifest-v1.json",
     "privateRoot": "/tmp/000031-development-fullpool-y7AZzD",
     "complete": false,
@@ -287,9 +292,9 @@
     "partial": {
       "markdown": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md",
       "labels": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.labels.json",
-      "textSha256": "873104306ea95f72f76b10cd7bfa1b04335ede50ef51489beecdf310a0c98058",
-      "labelsSha256": "f03750650f2b5c87eb199beebaaaa513abfddf5ba0f31a64cfca118ef234dd48",
-      "status": "complete authoring and author reconciliation; final review pending"
+      "textSha256": "c40ec83a48a1c0d45d9e75c34211cec30e3d8135f7e4415ff6571c435977d13b",
+      "labelsSha256": "8f0b0abf344a6e906524a3341e38e0716c5e1c41a239c2e68a89bee345619a36",
+      "status": "Four QA repairs applied; current 142 v5 review pending."
     },
     "missingIDs": [],
     "generation": [
@@ -949,7 +954,6 @@
         "currentTextIDs": [
           "000031-005",
           "000031-007",
-          "000031-018",
           "000031-012",
           "000031-020",
           "000031-016",
@@ -1429,7 +1433,6 @@
         "apiErrorStatus": null,
         "rawSha256": "19ce706bfd3de7a9a0e9fb6fbf5e4c4053c99a8c88ab0548cef4e93c1eec547c",
         "currentTextIDs": [
-          "000031-142",
           "000031-156",
           "000031-147",
           "000031-144",
@@ -1501,7 +1504,6 @@
           "000031-180",
           "000031-169",
           "000031-170",
-          "000031-172",
           "000031-165",
           "000031-164",
           "000031-171",
@@ -1689,9 +1691,9 @@
       }
     ],
     "currentTextReviewCoverage": {
-      "blind": 228,
-      "adversarial": 228,
-      "final": 0
+      "blind": 223,
+      "adversarial": 223,
+      "final": 240
     },
     "blindUnreviewedIDs": [
       "000031-013",
@@ -1705,7 +1707,8 @@
       "000031-133",
       "000031-179",
       "000031-211",
-      "000031-219"
+      "000031-219",
+      "000031-018"
     ],
     "adjudications": [
       {
@@ -2238,7 +2241,7 @@
         "wordsAfter": 795,
         "labelChanged": false,
         "snippetsChanged": false,
-        "reviewStatus": "Fresh Codex blind and adversarial completed on v1 expanded text; fresh final remains pending.",
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending.",
         "requiredRoles": [
           "blind",
           "adversarial",
@@ -2258,7 +2261,7 @@
         "snippetsChanged": false,
         "operation": "Transition excess becomes 210 + 135 + 135 = 480 seconds. Removing 195 + 135 + 135 = 465 seconds from 58 minutes yields 50 minutes 15 seconds, consistent with about 50 minutes. The existing table/revolve/canopy order remains intact.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-031",
@@ -2271,7 +2274,7 @@
         "snippetsChanged": false,
         "operation": "70 - 6 = 64 flour-bag spaces. December use is 2 * 33 = 66, exceeding that space. The January 64-bag delivery fits, with the existing sugar and semolina retained.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-052",
@@ -2284,7 +2287,7 @@
         "snippetsChanged": false,
         "operation": "ceil(47/5) = 10, so six initial copies require four more. ceil(61/5) = 13, requiring three more. 47 + 14 - 6 - 8 = 47 current requests; only the six earlier fulfilled requests change this reader from position 47 to 41. 41/13 * 3 = 9.46 weeks before pickup/return variation.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-064",
@@ -2297,7 +2300,7 @@
         "snippetsChanged": false,
         "operation": "The conclusion now distinguishes unchanged certificate replacement steps from the explicitly added validation step.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-079",
@@ -2310,7 +2313,7 @@
         "snippetsChanged": false,
         "operation": "Three overnight camps on a four-day trip put the crossing after the third night on day four; the direction and afternoon ascent remain unchanged.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-085",
@@ -2323,7 +2326,7 @@
         "snippetsChanged": false,
         "operation": "100 * 16 * 7 * 11 = 123200. The alternatives are 50 * 16 * 7 * 2 = 11200 and 100 * 8 * 7 * 2 = 11200, each below 12500.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-093",
@@ -2336,7 +2339,7 @@
         "snippetsChanged": false,
         "operation": "01:03 + 11 minutes = 01:14 commit/conflict. The dashboard runs 01:12-01:54. The replay pause runs 01:14-01:54, and the 39:40 lag sample at 01:53:40 occurs before the query ends. Four-minute catch-up finishes around 01:58.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-113",
@@ -2349,7 +2352,7 @@
         "snippetsChanged": false,
         "operation": "The operative plan now restores detection before curtain call and audience egress, while retaining the warden through the full isolation period.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-133",
@@ -2362,7 +2365,7 @@
         "snippetsChanged": false,
         "operation": "08:37 - 07:04 = 93 minutes. The query itself runs 07:01-08:37 = 96 minutes. Production catches up three minutes after the query; staging has an explicitly shorter query rather than attributing elapsed pause length to write volume.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-179",
@@ -2375,7 +2378,7 @@
         "snippetsChanged": false,
         "operation": "Two working tents plus one borrowed tent provide the required three; the unavailable tent explains the request.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-211",
@@ -2388,7 +2391,7 @@
         "snippetsChanged": false,
         "operation": "The first Route 14 remains 07:02. Its nineteen-minute journey matches the stated 07:22-07:41 trip, and arrival at 07:21 leaves nine minutes before 07:30.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
       },
       {
         "id": "000031-219",
@@ -2401,7 +2404,62 @@
         "snippetsChanged": false,
         "operation": "900 + 540 = 1440; 1440 / (420/7) = 24 days. August 22 + 24 days = September 15; September 19 is four days later and 28 days after the order. Two opened 500-bag cases can hold 540 remaining bags.",
         "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.reconciliation.json",
-        "reviewStatus": "Fresh final review pending"
+        "reviewStatus": "Current text included in completed independent McClintock final v2 review; parent dataset QA remains pending."
+      },
+      {
+        "id": "000031-018",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "5d2fd0b417bffd7dbf0b3d2a65da52ede43d05f9c093ad44eb8e59b094583674",
+        "afterSha256": "bb67266630148694693016c59f8b7d31461981e0fe4801c3b31f04771b41acb2",
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "Retain hit and make mandatory. Institutional and consortium history still delays the operative renewal instructions. The pending-request sentence conflicted with the requirement to return by the due date without confirmed approval. Clarify that the original due date remains binding until approval, and specify that reaching 3 December needs three weeks rather than the shortest offered extension.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-repair-v3.adjudication.json",
+        "reviewStatus": "Carson fresh changed-text review completed with matching hit and no objections; parent QA pending."
+      },
+      {
+        "id": "000031-172",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "ff603a612a6a4c4ccf10f3036018da3cc1000b3ba0c071f165f08a9e4987c43c",
+        "afterSha256": "a3fdd792b8a56c55e0543cae1116193ed51eb19d5d8d6840240f7bbd8e27da01",
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "Retain no-hit: the early qualified answer and later causal measurements remain intact. A downstage move toward the audience has the wrong sign. Retain the existing 2.4-metre move and 24 ms setting, correct the move to upstage in both descriptions, and change the current relative arrival to about 5 ms early from an original about 2 ms late.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.replacements.json",
+        "reviewStatus": "Fresh proposed-v4 review clear; exact canonical equality verified."
+      },
+      {
+        "id": "000031-204",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "a263380d631853f33e84ac6e8835b76e59b2638755395c6f90e3b22c45f8d1ad",
+        "afterSha256": "d684eb3de5ae7118ab672c73aac14d2ce7f75944b63d666dd7e14fa51b303b6e",
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "Retain no-hit: weekday/weekend contrast supports the later diagnosis. Scope the observed dip to weekdays so it agrees with the two weekend days without a dip.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.replacements.json",
+        "reviewStatus": "Fresh proposed-v4 review clear; exact canonical equality verified."
+      },
+      {
+        "id": "000031-191",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "ca640cb111dacf0680c559b22389bc3c4bc0729f5c31a9bc043d1a156bf9f29a",
+        "afterSha256": "60cfd8ed1fc1d2f32291c9211ddc7bfd530eba4d1ffcd251ed5d4482a29bd515",
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "Retain hit: ticket-report reconstruction still delays the performance decision. Monitor the Saturday before the proposed Sunday 23 November matinee, which is Saturday 22 November.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.replacements.json",
+        "reviewStatus": "Fresh proposed-v4 review clear; exact canonical equality verified."
+      },
+      {
+        "id": "000031-142",
+        "author": "Codex development reconciliation context",
+        "beforeSha256": "03640a5e9755383480bdb1f6016e39e2931a6ee0edf90bfbe855c506ac60be93",
+        "afterSha256": "89cb646298ca0fee66265009e7382b2c09e513890e61770e555fe3e8bb495d98",
+        "labelChanged": false,
+        "snippetsChanged": false,
+        "operation": "Retain hit: policy, tender and meeting narration still delays the repair decision. UTC calendar calculation gives Thursday 1 October 2026 and Friday 2 October 2026; preserve the subsequent 8 and 15 October board sequence. An eight-to-ten-week equipment wait from the October dates runs into December; replace the unsupported January claim with well into December, without adding installation assumptions.",
+        "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.replacements.json",
+        "reviewStatus": "Beauvoir fresh v5 review clear; exact canonical text matched. Parent refreshed QA pending."
       }
     ],
     "unresolvedObjectionsAmongReviewed": [],
@@ -2482,7 +2540,9 @@
       "rawQuotaEvidenceUnchanged": "passed",
       "reviewInputAliasesAndCompleteText": "passed",
       "unchangedV1Texts": 228,
-      "allV1LabelsAndSnippetsPreserved": "passed"
+      "allV1LabelsAndSnippetsPreserved": "passed",
+      "unchangedV2Texts": 239,
+      "allV2LabelsAndSnippetsPreserved": "passed"
     },
     "blockingEvidence": [
       {
@@ -2498,11 +2558,11 @@
         "error": "usage_limit_reached"
       }
     ],
-    "blocker": "Awaiting parent-launched fresh full-pool final Codex review and independent QA.",
+    "blocker": "Parent source/overlap audit and dataset acceptance pending.",
     "resumeSteps": [
-      "Parent launches a fresh final Codex reviewer over v2 label-free input, extracted definition and no provisional labels or history.",
-      "Reconcile any final objections against the frozen definition and re-review complete changed texts before declaring review completion.",
-      "Parent completes independent dataset QA and source/split overlap audit, then archives the full reviewed pool in Git before selecting 200."
+      "Parent integrates source/overlap audit clearance before declaring the complete candidate pool accepted.",
+      "Parent archives the reviewed full pool and applies balanced selection while preserving all 76 mandatory cases.",
+      "Keep inference blocked until every parent-controlled gate passes."
     ],
     "lengthBandViolations": [],
     "actualByClass": {
@@ -2522,128 +2582,7 @@
       "sha256": "3b557abeb9657f37f38e849d5096bdf6b0672b6e7f7eea84bb3e6d13784a74ee",
       "scope": "Historical 228-text development surface audit before the final 162 expansion and twelve supplementary texts; see freezeSurfaceAudit for current exact-duplicate check."
     },
-    "revisedTextsAwaitingFreshReview": [
-      {
-        "id": "000031-013",
-        "textSha256": "3c0c1e81c0b6cb4c30539e7a43695ee282fc797f5169794a7539b163263a99f9",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-031",
-        "textSha256": "2e13f28fc1ad04717cf9cde43388e4d4deb150441a03250a9bf06c3a12dbfec4",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-052",
-        "textSha256": "17533edc37a670af34a1df3a31e05646622b93f5b4a048906fba58983ede4b1f",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-064",
-        "textSha256": "b997f06150c795b680770a0c1bfb72a06aef9df961c0ccec4e4091c50c175217",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-079",
-        "textSha256": "3d136280ce5218f8eb0d1555976b8695d5b19fc7b79e3b45132e13aceaec820d",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-085",
-        "textSha256": "77f95f96e801a32d8e3c4a8ead285badf0a3ab75ab2d877e87241a84c963595a",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-093",
-        "textSha256": "74da3b40a7c10a6ceb2ce72b143087a9c26fb79792a0ba174dd0bf34fd5b0456",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-113",
-        "textSha256": "c12495b47cfb6affd092f7d4197be2933bbe904a0417dfdb01bfad15eb223539",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-133",
-        "textSha256": "c60a9f24bf2596cd746134b338eb89e0641f0e9c2d1e03563735ef242c147c2e",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-179",
-        "textSha256": "9369e7a1776d6f5a817b5990087cdd920d4c05264eeb6578abbde85b69457918",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-211",
-        "textSha256": "6f91f360d251822b41e8a80ae58110f4305fe1d4153dd02611a4ccd1610eb571",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      },
-      {
-        "id": "000031-219",
-        "textSha256": "f70093e61e423d769d4adc1e0d2689ed8dadd8e0390668ca9ec336f8e0a9d427",
-        "roles": [
-          "final"
-        ],
-        "provider": "Codex",
-        "status": "pending",
-        "priorBlindAndAdversarial": "Completed on v1 source text; original opinions retained."
-      }
-    ],
+    "revisedTextsAwaitingFreshReview": [],
     "reviewPlan": {
       "authorization": "User explicitly authorized review with Codex instead.",
       "provider": "Codex",
@@ -2655,24 +2594,11 @@
       "blindAndAdversarial": "Separate fresh contexts may run independently in parallel.",
       "final": "Separate fresh context after reconciliation; changed prose requires fresh review.",
       "authorMayIndependentlyReviewOwnLabels": false,
-      "status": "Independent blind and adversarial complete on v1; twelve revised texts require fresh review in the final full-pool pass. Parent independent QA also pending.",
-      "input": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.input.json",
-      "inputSha256": "5bd1d6aee1408e18486b8556bb40c0d8716b392b9440315802af9271bd5130a2",
+      "status": "All current final judgments and refreshed source/label/prose QA approved; parent source/overlap audit and acceptance pending.",
+      "input": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.input.json",
+      "inputSha256": "7ba33aa157c6efbf8c01cbbd550a8683548de642249e383b9bcb4bba99f52668",
       "batchMaximum": 20,
-      "reReviewChangedTextScope": [
-        "000031-013",
-        "000031-031",
-        "000031-052",
-        "000031-064",
-        "000031-079",
-        "000031-085",
-        "000031-093",
-        "000031-113",
-        "000031-133",
-        "000031-179",
-        "000031-211",
-        "000031-219"
-      ]
+      "reReviewChangedTextScope": []
     },
     "authoringComplete": true,
     "supplementalAuthoring": [
@@ -2768,7 +2694,7 @@
     "historicalOpus": {
       "status": "Supplementary historical opinions; current full-pool Codex reviews remain required.",
       "distinctFullPoolBlindOpinions": 180,
-      "currentTextExactMatchBlindOpinions": 169,
+      "currentTextExactMatchBlindOpinions": 166,
       "currentTextIDs": [
         "000031-001",
         "000031-002",
@@ -2786,7 +2712,6 @@
         "000031-015",
         "000031-016",
         "000031-017",
-        "000031-018",
         "000031-019",
         "000031-020",
         "000031-021",
@@ -2902,7 +2827,6 @@
         "000031-139",
         "000031-140",
         "000031-141",
-        "000031-142",
         "000031-143",
         "000031-144",
         "000031-145",
@@ -2931,7 +2855,6 @@
         "000031-169",
         "000031-170",
         "000031-171",
-        "000031-172",
         "000031-173",
         "000031-174",
         "000031-175",
@@ -2942,6 +2865,7 @@
       ],
       "supersededTextIDs": [
         "000031-013",
+        "000031-018",
         "000031-031",
         "000031-052",
         "000031-064",
@@ -2950,7 +2874,9 @@
         "000031-093",
         "000031-113",
         "000031-133",
+        "000031-142",
         "000031-162",
+        "000031-172",
         "000031-179"
       ],
       "pilotThreeRolesCompleted": true,
@@ -2960,21 +2886,39 @@
     },
     "currentReviewProvider": "Codex",
     "freeze": {
-      "createdAt": "2026-10-21T20:10:28.392Z",
-      "count": 240,
-      "inputPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.input.json",
-      "inputSha256": "5bd1d6aee1408e18486b8556bb40c0d8716b392b9440315802af9271bd5130a2",
-      "aliasesPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.private-aliases.json",
-      "aliasesSha256": "0f4c498bccf1ec1b7978dc3de7393f3c7323e8fa9d35ccddf14fdfe27fc65a6a",
+      "status": "Fresh v5 review clear with three exact snippets; canonical/source-label QA refresh pending.",
+      "count": 1,
+      "datasetCount": 240,
+      "inputPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.input.json",
+      "inputSha256": "7ba33aa157c6efbf8c01cbbd550a8683548de642249e383b9bcb4bba99f52668",
+      "aliasesPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.private-aliases.json",
+      "aliasesSha256": "2e83eefc85947e7e943ccf3e74927e5fce79aaebf4f83cb7c8205804402976f1",
       "definitionPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-review-freeze-v1.definition.json",
       "definitionSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
       "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
       "markdown": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md",
       "labels": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.labels.json",
-      "textSha256": "873104306ea95f72f76b10cd7bfa1b04335ede50ef51489beecdf310a0c98058",
-      "labelsSha256": "f03750650f2b5c87eb199beebaaaa513abfddf5ba0f31a64cfca118ef234dd48",
-      "verification": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.verification.json",
-      "scope": "Reconciled current full pool for fresh independent Codex final review; author adjudications await independent final review and QA."
+      "textSha256": "c40ec83a48a1c0d45d9e75c34211cec30e3d8135f7e4415ff6571c435977d13b",
+      "labelsSha256": "8f0b0abf344a6e906524a3341e38e0716c5e1c41a239c2e68a89bee345619a36",
+      "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.replacements.json",
+      "historySha256": "60d8fd721efef4bdc350affdabdb6890fce84471de293ba693611efb124ab19f",
+      "before": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.before.json",
+      "unchangedTexts": 236,
+      "changedTextIDs": [
+        "000031-172",
+        "000031-204",
+        "000031-191",
+        "000031-142"
+      ],
+      "clearV4CanonicalIDs": [
+        "000031-172",
+        "000031-204",
+        "000031-191"
+      ],
+      "v4ReviewPath": "/tmp/000031-development-codex-proposed-v4.review.json",
+      "v4ReviewSha256": "47f5bc040d93a428674ad9019fc66590376f3f2a54c5929f979cc60dc2df3224",
+      "v4InputSha256": "9850bc181ec65b1375f16a610bced62d53f4d44b7709fb00c1e849213b423f95",
+      "verification": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.verification.json"
     },
     "freezeSurfaceAudit": {
       "scope": "Current 240 development texts after twelve consistency repairs; exact normalized full-text duplicate check.",
@@ -3028,8 +2972,9 @@
         "disagreementIDs": [
           "000031-150"
         ],
-        "currentTextExactMatches": 228,
-        "changedTextIDsRequiringFreshReview": [
+        "currentTextExactMatches": 223,
+        "changedTextIDsRequiringFreshReview": [],
+        "changedSinceReviewedVersionIDs": [
           "000031-013",
           "000031-031",
           "000031-052",
@@ -3041,8 +2986,10 @@
           "000031-133",
           "000031-179",
           "000031-211",
-          "000031-219"
-        ]
+          "000031-219",
+          "000031-018"
+        ],
+        "subsequentFinalCoverage": "All changed texts have matching current-version final judgments through McClintock v2 and Carson v3."
       },
       {
         "provider": "Codex",
@@ -3075,8 +3022,9 @@
           "000031-052"
         ],
         "disagreementIDs": [],
-        "currentTextExactMatches": 228,
-        "changedTextIDsRequiringFreshReview": [
+        "currentTextExactMatches": 223,
+        "changedTextIDsRequiringFreshReview": [],
+        "changedSinceReviewedVersionIDs": [
           "000031-013",
           "000031-031",
           "000031-052",
@@ -3088,8 +3036,136 @@
           "000031-133",
           "000031-179",
           "000031-211",
-          "000031-219"
-        ]
+          "000031-219",
+          "000031-018"
+        ],
+        "subsequentFinalCoverage": "All changed texts have matching current-version final judgments through McClintock v2 and Carson v3."
+      },
+      {
+        "provider": "Codex",
+        "reviewer": "Codex native subagent",
+        "reviewerContext": "McClintock (parent-reported fresh native context)",
+        "sessionId": null,
+        "modelIdentifier": null,
+        "role": "final",
+        "path": "/tmp/000031-development-codex-final-v2.review.json",
+        "sha256": "ed7ef63e406a740d44eafa1696fea139b3ba994b6718f7899d2aff35b083b75b",
+        "sourceSha256": "5bd1d6aee1408e18486b8556bb40c0d8716b392b9440315802af9271bd5130a2",
+        "definitionTextSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+        "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+        "counts": {
+          "texts": 240,
+          "hits": 120,
+          "noHits": 120
+        },
+        "objectionIDs": [
+          "000031-018"
+        ],
+        "disagreementIDs": [],
+        "currentTextExactMatches": 235,
+        "changedTextIDsRequiringFreshReview": [],
+        "changedSinceReviewedVersionIDs": [
+          "000031-018"
+        ],
+        "objectionResolution": {
+          "id": "000031-018",
+          "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-repair-v3.adjudication.json",
+          "followup": "/tmp/000031-development-codex-final-repair-v3.review.json",
+          "followupSha256": "1c25cfc8fd725d642ceb80306ad53d6b49b6816580a84464ee6118108f6106fb",
+          "status": "repaired and independently re-reviewed with matching label and no objection"
+        }
+      },
+      {
+        "provider": "Codex",
+        "reviewer": "Codex native fresh context",
+        "reviewerContext": "Carson (parent-reported fresh context)",
+        "sessionId": null,
+        "modelIdentifier": null,
+        "role": "final-changed-text",
+        "path": "/tmp/000031-development-codex-final-repair-v3.review.json",
+        "sha256": "1c25cfc8fd725d642ceb80306ad53d6b49b6816580a84464ee6118108f6106fb",
+        "sourceSha256": "807985e59375e2f9c457bf2470bae5787799ee5d8f0d0df9771eaead22f5f938",
+        "definitionTextSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+        "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+        "counts": {
+          "texts": 1,
+          "hits": 1,
+          "noHits": 0
+        },
+        "currentTextIDs": [
+          "000031-018"
+        ],
+        "currentTextExactMatches": 1,
+        "objectionIDs": [],
+        "disagreementIDs": [],
+        "validatedSnippets": 2
+      },
+      {
+        "provider": "Codex",
+        "reviewer": "Codex native fresh context",
+        "reviewerContext": "Fresh proposed-v4 reviewer (name unavailable in artifact)",
+        "sessionId": null,
+        "modelIdentifier": null,
+        "role": "final-proposed-changed-text",
+        "path": "/tmp/000031-development-codex-proposed-v4.review.json",
+        "sha256": "47f5bc040d93a428674ad9019fc66590376f3f2a54c5929f979cc60dc2df3224",
+        "sourceSha256": "9850bc181ec65b1375f16a610bced62d53f4d44b7709fb00c1e849213b423f95",
+        "definitionTextSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+        "counts": {
+          "texts": 4,
+          "hits": 2,
+          "noHits": 2
+        },
+        "currentTextExactMatches": 3,
+        "currentTextIDs": [
+          "000031-172",
+          "000031-204",
+          "000031-191"
+        ],
+        "objectionIDs": [
+          "000031-142"
+        ],
+        "disagreementIDs": [],
+        "changedSinceReviewedVersionIDs": [
+          "000031-142"
+        ],
+        "changedTextIDsRequiringFreshReview": [],
+        "canonicalEqualityProof": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.verification.json",
+        "objectionResolution": {
+          "id": "000031-142",
+          "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.replacements.json",
+          "followup": "/tmp/000031-development-codex-final-v5.review.json",
+          "followupSha256": "811e1d6051fcaf114b61d9857e6190b9573348403e6b336ed9039ecc7bc4b9f6",
+          "status": "December correction clear in fresh v5 review; exact current canonical bytes verified"
+        }
+      },
+      {
+        "provider": "Codex",
+        "reviewer": "Codex native fresh context",
+        "reviewerContext": "Beauvoir (parent-reported fresh native context)",
+        "sessionId": null,
+        "modelIdentifier": null,
+        "role": "final-changed-text-v5",
+        "path": "/tmp/000031-development-codex-final-v5.review.json",
+        "sha256": "811e1d6051fcaf114b61d9857e6190b9573348403e6b336ed9039ecc7bc4b9f6",
+        "sourceSha256": "7ba33aa157c6efbf8c01cbbd550a8683548de642249e383b9bcb4bba99f52668",
+        "definitionHashScope": "JSON definition file",
+        "reportedDefinitionSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+        "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+        "definitionTextSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+        "counts": {
+          "texts": 1,
+          "hits": 1,
+          "noHits": 0
+        },
+        "currentTextIDs": [
+          "000031-142"
+        ],
+        "currentTextExactMatches": 1,
+        "objectionIDs": [],
+        "disagreementIDs": [],
+        "validatedSnippets": 3,
+        "proof": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-v5.acceptance-proof.json"
       }
     ],
     "codexReconciliation": {
@@ -3116,7 +3192,7 @@
         "000031-219"
       ],
       "unresolvedAuthorAdjudications": 0,
-      "independentFinalReview": "pending",
+      "independentFinalReview": "McClintock completed v2 full pool; Carson completed the one later changed text.",
       "adjudications": [
         {
           "id": "000031-013",
@@ -3236,6 +3312,219 @@
           "labelChanged": false
         }
       ]
+    },
+    "finalFullPoolFreezeV2": {
+      "createdAt": "2026-10-21T20:10:28.392Z",
+      "count": 240,
+      "inputPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.input.json",
+      "inputSha256": "5bd1d6aee1408e18486b8556bb40c0d8716b392b9440315802af9271bd5130a2",
+      "aliasesPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.private-aliases.json",
+      "aliasesSha256": "0f4c498bccf1ec1b7978dc3de7393f3c7323e8fa9d35ccddf14fdfe27fc65a6a",
+      "definitionPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-review-freeze-v1.definition.json",
+      "definitionSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+      "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+      "markdown": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md",
+      "labels": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.labels.json",
+      "textSha256": "873104306ea95f72f76b10cd7bfa1b04335ede50ef51489beecdf310a0c98058",
+      "labelsSha256": "f03750650f2b5c87eb199beebaaaa513abfddf5ba0f31a64cfca118ef234dd48",
+      "verification": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.verification.json",
+      "scope": "Reconciled current full pool for fresh independent Codex final review; author adjudications await independent final review and QA."
+    },
+    "finalReconciliation": {
+      "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-repair-v3.adjudication.json",
+      "sha256": "695096cda7e92a8b04097157262d1bd3abcdc603ad8c539f4e1d7be8844bb60c",
+      "decision": "Retain hit and make mandatory. Institutional and consortium history still delays the operative renewal instructions. The pending-request sentence conflicted with the requirement to return by the due date without confirmed approval. Clarify that the original due date remains binding until approval, and specify that reaching 3 December needs three weeks rather than the shortest offered extension.",
+      "changedTexts": 1,
+      "changedLabels": 0,
+      "unchangedTexts": 239,
+      "unresolvedAuthorAdjudications": 0,
+      "independentChangedTextReview": "completed by Carson; matching hit and zero objections",
+      "proof": {
+        "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-repair-v3.acceptance-proof.json",
+        "sha256": "e5bc1e08f22b59ec362da84668a005b3072df9a506d0b9e258ade67612014283"
+      },
+      "followup": {
+        "provider": "Codex",
+        "reviewer": "Codex native fresh context",
+        "reviewerContext": "Carson (parent-reported fresh context)",
+        "sessionId": null,
+        "modelIdentifier": null,
+        "role": "final-changed-text",
+        "path": "/tmp/000031-development-codex-final-repair-v3.review.json",
+        "sha256": "1c25cfc8fd725d642ceb80306ad53d6b49b6816580a84464ee6118108f6106fb",
+        "sourceSha256": "807985e59375e2f9c457bf2470bae5787799ee5d8f0d0df9771eaead22f5f938",
+        "definitionTextSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+        "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+        "counts": {
+          "texts": 1,
+          "hits": 1,
+          "noHits": 0
+        },
+        "currentTextIDs": [
+          "000031-018"
+        ],
+        "currentTextExactMatches": 1,
+        "objectionIDs": [],
+        "disagreementIDs": [],
+        "validatedSnippets": 2
+      }
+    },
+    "unresolvedMaterialObjections": 0,
+    "finalCurrentCoverage": {
+      "texts": 240,
+      "hits": 120,
+      "noHits": 120,
+      "pendingIDs": [],
+      "unresolvedObjections": 0,
+      "scope": "235 current full-v2 texts, Carson v3 one text, clear v4 three texts and Beauvoir v5 one text."
+    },
+    "finalReviewProof": {
+      "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-v5.acceptance-proof.json",
+      "sha256": "d5911d1aeabaeeb05da81a5a71a019576dc7b0460b3e74de9f9b8e2c44667ccf",
+      "sourceReviewPaths": [
+        "/tmp/000031-development-codex-final-v2.review.json",
+        "/tmp/000031-development-codex-final-repair-v3.review.json",
+        "/tmp/000031-development-codex-proposed-v4.review.json",
+        "/tmp/000031-development-codex-final-v5.review.json"
+      ],
+      "status": "All 240 current texts have matching independent final judgments and zero unresolved review objections."
+    },
+    "independentQAFeynman": {
+      "path": "/tmp/000031-development-final-qa.json",
+      "sha256": "d900771725273de15159dfb5f61f3387942cd5f07e47fd2383ef6fdda4cd214d",
+      "classificationAndSourcePreservation": "approved on pre-v5 writing",
+      "proseObjectionIDs": [
+        "000031-172",
+        "000031-204",
+        "000031-191",
+        "000031-142"
+      ],
+      "repairs": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.replacements.json",
+      "status": "Original negative report preserved unchanged; refreshed positive source/label/prose QA is linked in independentQAFeynmanV2.",
+      "historicalStatusBeforePositiveQA": "Original negative proof preserved unchanged. All four prose repairs have clear fresh reviews with canonical equality proof; Feynman refreshed QA pending."
+    },
+    "versionCoverageBeforeFeynman": {
+      "blind": 227,
+      "adversarial": 227,
+      "final": 240
+    },
+    "finalReviewProofBeforeFeynman": {
+      "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-repair-v3.acceptance-proof.json",
+      "sha256": "e5bc1e08f22b59ec362da84668a005b3072df9a506d0b9e258ade67612014283",
+      "sourceReviewPaths": [
+        "/tmp/000031-development-codex-final-v2.review.json",
+        "/tmp/000031-development-codex-final-repair-v3.review.json"
+      ]
+    },
+    "freezeBeforeFeynman": {
+      "createdAt": "2026-10-21T20:29:23.983Z",
+      "count": 1,
+      "datasetCount": 240,
+      "inputPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-repair-v3.input.json",
+      "inputSha256": "807985e59375e2f9c457bf2470bae5787799ee5d8f0d0df9771eaead22f5f938",
+      "aliasesPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-repair-v3.private-aliases.json",
+      "aliasesSha256": "b280a7bd7dd8f17705d7c6a040d252f0ae70c67870b395e37e55d9c3474c86aa",
+      "definitionPath": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-review-freeze-v1.definition.json",
+      "definitionSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+      "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+      "markdown": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md",
+      "labels": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.labels.json",
+      "textSha256": "65865a821471b6d95da74f4bdd3486a118c2376b5eb6cb7336048ac65bbc3a81",
+      "labelsSha256": "0191a7fc8d6a39d270329f70762f9c4fd36d237e977f04972d204d8156d9c397",
+      "history": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-repair-v3.adjudication.json",
+      "historySha256": "695096cda7e92a8b04097157262d1bd3abcdc603ad8c539f4e1d7be8844bb60c",
+      "previousFullFinalInput": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-freeze-v2.input.json",
+      "previousFullFinalInputSha256": "5bd1d6aee1408e18486b8556bb40c0d8716b392b9440315802af9271bd5130a2",
+      "fullFinalReview": "/tmp/000031-development-codex-final-v2.review.json",
+      "fullFinalReviewSha256": "ed7ef63e406a740d44eafa1696fea139b3ba994b6718f7899d2aff35b083b75b",
+      "unchangedTextsCoveredByV2Final": 239,
+      "scope": "One complete changed text only; parent explicitly requested minimal changed-text re-review.",
+      "status": "Fresh changed-text review completed with matching hit and zero objections; parent QA pending."
+    },
+    "finalReviewProofBeforeBeauvoir": {
+      "path": "/tmp/000031-development-fullpool-y7AZzD/000031-development-feynman-applied-v5.verification.json",
+      "sourceReviewPaths": [
+        "/tmp/000031-development-codex-final-v2.review.json",
+        "/tmp/000031-development-codex-final-repair-v3.review.json",
+        "/tmp/000031-development-codex-proposed-v4.review.json"
+      ],
+      "status": "239 current complete texts clear; 142 v5 pending"
+    },
+    "beauvoirFollowup": {
+      "provider": "Codex",
+      "reviewer": "Codex native fresh context",
+      "reviewerContext": "Beauvoir (parent-reported fresh native context)",
+      "sessionId": null,
+      "modelIdentifier": null,
+      "role": "final-changed-text-v5",
+      "path": "/tmp/000031-development-codex-final-v5.review.json",
+      "sha256": "811e1d6051fcaf114b61d9857e6190b9573348403e6b336ed9039ecc7bc4b9f6",
+      "sourceSha256": "7ba33aa157c6efbf8c01cbbd550a8683548de642249e383b9bcb4bba99f52668",
+      "definitionHashScope": "JSON definition file",
+      "reportedDefinitionSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+      "definitionFileSha256": "cf30e20a7ef56ac345f6c6da3190fbfc9c26663f9e790d55eb77af388751deec",
+      "definitionTextSha256": "18d3b66b8116ba71af23da0f12533c647b44b06ee534d978c836cf812d755157",
+      "counts": {
+        "texts": 1,
+        "hits": 1,
+        "noHits": 0
+      },
+      "currentTextIDs": [
+        "000031-142"
+      ],
+      "currentTextExactMatches": 1,
+      "objectionIDs": [],
+      "disagreementIDs": [],
+      "validatedSnippets": 3,
+      "proof": "/tmp/000031-development-fullpool-y7AZzD/000031-development-codex-final-v5.acceptance-proof.json"
+    },
+    "independentQAFeynmanV2": {
+      "path": "/tmp/000031-development-final-qa-v2.json",
+      "sha256": "906e56781451e56b29b341bb937cae204f230b64f1d6e097a08016d2c35cfeba",
+      "reviewerContext": "Feynman (parent-reported independent QA context)",
+      "scope": "000031 complete 240-text development source/label QA",
+      "reviewedRecordSha256": "8509685f2ae34dd3c451c544d9604b21af581895256697c0f3232b524ecde3bb",
+      "markdownSha256": "c40ec83a48a1c0d45d9e75c34211cec30e3d8135f7e4415ff6571c435977d13b",
+      "labelsSha256": "8f0b0abf344a6e906524a3341e38e0716c5e1c41a239c2e68a89bee345619a36",
+      "approval": {
+        "sourceConservation": true,
+        "labelQuality": true,
+        "proseRepairs": true,
+        "currentFinalCoverage": 240,
+        "unresolvedObjectionIDs": []
+      },
+      "counts": {
+        "texts": 240,
+        "hits": 120,
+        "noHits": 120,
+        "snippets": 572
+      },
+      "mandatoryCount": 76,
+      "versionCoverage": {
+        "fullFinalV2": 235,
+        "changedFinalV3": 1,
+        "proposedV4AppliedExactly": 3,
+        "canonicalFinalV5": 1,
+        "nativeBlindV1CurrentExact": 223,
+        "nativeAdversarialV1CurrentExact": 223
+      },
+      "inheritedOriginalNegativeProof": {
+        "path": "/tmp/000031-development-final-qa.json",
+        "sha256": "d900771725273de15159dfb5f61f3387942cd5f07e47fd2383ef6fdda4cd214d",
+        "ready": false
+      },
+      "sourceOverlapAudit": "Separate parent-controlled gate; pending"
+    },
+    "readiness": {
+      "finalReviewCoverage": 240,
+      "hits": 120,
+      "noHits": 120,
+      "mandatoryCases": 76,
+      "unresolvedReviewOrSourceLabelQAObjections": 0,
+      "sourceLabelProseQA": "approved",
+      "sourceOverlapAudit": "pending",
+      "fullPoolArchiveAndBalancedSelection": "parent-controlled",
+      "detectorInference": "blocked until all gates pass"
     }
   },
   "mandatoryCases": [
@@ -3522,6 +3811,26 @@
     {
       "id": "000031-219",
       "reason": "Preserve this reviewed control through selection. Retain hit. Receiving, roast scheduling and software history delay the reorder-setting explanation. At 420 bags a week, 900 bags cover 15 days, whereas the August 22 to September 15 interval is 24 days. Quantify the uncounted opened-case stock and give its direction. The repair preserves the judged answer organization; independent final review must assess the revised complete text."
+    },
+    {
+      "id": "000031-018",
+      "reason": "Retain hit and make mandatory. Institutional and consortium history still delays the operative renewal instructions. The pending-request sentence conflicted with the requirement to return by the due date without confirmed approval. Clarify that the original due date remains binding until approval, and specify that reaching 3 December needs three weeks rather than the shortest offered extension. Preserve the repaired, still-positive organization control through later balanced selection."
+    },
+    {
+      "id": "000031-172",
+      "reason": "Retain no-hit: the early qualified answer and later causal measurements remain intact. A downstage move toward the audience has the wrong sign. Retain the existing 2.4-metre move and 24 ms setting, correct the move to upstage in both descriptions, and change the current relative arrival to about 5 ms early from an original about 2 ms late. Preserve this QA-challenged control through selection."
+    },
+    {
+      "id": "000031-204",
+      "reason": "Retain no-hit: weekday/weekend contrast supports the later diagnosis. Scope the observed dip to weekdays so it agrees with the two weekend days without a dip. Preserve this QA-challenged control through selection."
+    },
+    {
+      "id": "000031-191",
+      "reason": "Retain hit: ticket-report reconstruction still delays the performance decision. Monitor the Saturday before the proposed Sunday 23 November matinee, which is Saturday 22 November. Preserve this QA-challenged control through selection."
+    },
+    {
+      "id": "000031-142",
+      "reason": "Retain hit: policy, tender and meeting narration still delays the repair decision. UTC calendar calculation gives Thursday 1 October 2026 and Friday 2 October 2026; preserve the subsequent 8 and 15 October board sequence. An eight-to-ten-week equipment wait from the October dates runs into December; replace the unsupported January claim with well into December, without adding installation assumptions. Preserve this QA-challenged control through selection."
     }
   ]
 }
