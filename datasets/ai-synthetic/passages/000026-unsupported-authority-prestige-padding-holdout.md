@@ -206,7 +206,7 @@ We can rely on the bond valuation because the analyst was captain of a national 
 
 ## 000026-052
 
-Actuary Ellis has spent a decade pricing annuities. Her advice on the longevity assumption concerns that work, and she explains how extending expected payment years increases the reserve required for the same monthly benefit.
+Actuary Ellis has spent a decade pricing annuities. In her note on the longevity assumption, she explains how extending expected payment years increases the reserve required for the same monthly benefit.
 
 ## 000026-053
 
@@ -382,7 +382,7 @@ The waste company's founder has spoken at two royal receptions. The tender commi
 
 ## 000026-096
 
-The council's conservation officer has restored lime-plaster walls for fifteen years. She recommends a breathable finish for this listed building and explains that trapped moisture has damaged the existing wall. Her advice concerns the material she works with.
+The council's conservation officer has restored lime-plaster walls for fifteen years. She recommends a breathable finish for this listed building and explains that trapped moisture has damaged the existing wall.
 
 ## 000026-097
 
@@ -438,7 +438,7 @@ The retired property-court judge Lady Marden recommends the new pedestrian cross
 
 ## 000026-110
 
-The public library invited the astronomer who discovered two comets to open its science week. The invitation describes the discoveries and lists her popular books to explain who will be visiting. It also gives the date, admission arrangements, and a contact for accessible seating. Her recognition serves as biographical context for the event and helps advertise the planned astronomy talk.
+The public library invited the astronomer who discovered two comets to open its science week. The invitation describes the discoveries and lists her popular books to explain who will be visiting. It also gives the date, admission arrangements, and a contact for accessible seating. The talk will last forty minutes, with questions afterward.
 
 ## 000026-111
 
@@ -670,7 +670,7 @@ The museum's catalogue dates the bronze to the twelfth century (entry 41). With 
 
 ## 000026-168
 
-The festival program introduces the guest pianist through her competition prizes and recent recordings. It gives the recital time and repertoire beneath her biography. The listed honors describe the performer appearing at this particular event.
+The festival program introduces the guest pianist through her competition prizes and recent recordings. It gives the recital time and repertoire beneath her biography.
 
 ## 000026-169
 

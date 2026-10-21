@@ -3,7 +3,7 @@
   "collection": "000026",
   "check": "unsupported-authority/prestige-padding",
   "split": "holdout",
-  "status": "ARCHIVE-READY",
+  "status": "CORRECTED-FULL-POOL-QA-READY",
   "createdAt": "2026-10-21T10:22:37.997Z",
   "definitions": {
     "commit": "b5c1110c",
@@ -25,108 +25,124 @@
     "isolation": "protected-holdout",
     "initialPassages": 220,
     "additionalPassages": 20,
-    "proseRepairs": 5,
+    "proseRepairs": 9,
     "finalSource": {
-      "path": "/tmp/000026-holdout-source-v3.json",
-      "sha256": "d208043d3987b0e8907dc427f17c176329aec8dd2c516c84849d3db487fd1f41"
+      "path": "/tmp/000026-holdout-qa-2026-10-21-114516-source.json",
+      "sha256": "fe9772092330ae7d61c877ffbda5015c15837d9aaef887127d99695024526096"
     },
     "repairLog": {
-      "path": "/tmp/000026-holdout-prose-repair-log-v1.json",
-      "sha256": "29110e83603a8db1d7d482a601b31aed8bf56725d443f85990b14c879b74bda6"
+      "path": "/tmp/000026-holdout-qa-2026-10-21-114516-cumulative-repair-log.json",
+      "sha256": "89e83e2713ff142ec0265e6d9d95bda55758c7faeb4e48a719b5ce27df07c521"
     }
   },
   "counts": {
     "passages": 240,
-    "hits": 120,
-    "noHits": 120,
+    "hits": 102,
+    "noHits": 138,
     "domains": 10,
     "completeCurrentWritingThreePassCoverage": 240,
-    "completedReviewCalls": 13,
-    "rawJudgments": 743,
+    "completedReviewCalls": 16,
+    "rawJudgments": 755,
     "currentWritingPassCoverage": {
       "blind": 240,
       "adversarial": 240,
       "final": 240
-    }
+    },
+    "independentLabelOverrides": 18
   },
   "archive": {
     "fullPool": true,
     "balancedSelectionPerformed": false,
     "parentArchiveCommitRequiredBeforeSelection": true,
     "mandatoryIds": [
+      "000026-017",
+      "000026-052",
       "000026-061",
       "000026-073",
       "000026-086",
       "000026-087",
       "000026-095",
+      "000026-096",
+      "000026-097",
+      "000026-110",
+      "000026-117",
       "000026-119",
       "000026-121",
+      "000026-123",
+      "000026-129",
       "000026-132",
       "000026-139",
       "000026-141",
+      "000026-153",
       "000026-154",
+      "000026-161",
+      "000026-168",
       "000026-177",
       "000026-183",
       "000026-194",
       "000026-196",
+      "000026-207",
       "000026-218",
+      "000026-227",
       "000026-229"
     ],
-    "mandatoryCount": 17
+    "mandatoryCount": 30,
+    "originalFullPoolCommit": "0f967654",
+    "correctedFullPoolCommit": null
   },
   "coverage": {
     "domains": {
       "health": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 11,
+        "noHit": 13
       },
       "software": {
         "hit": 12,
         "noHit": 12
       },
       "finance": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 11,
+        "noHit": 13
       },
       "education": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 9,
+        "noHit": 15
       },
       "civic": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 9,
+        "noHit": 15
       },
       "food": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 8,
+        "noHit": 16
       },
       "environment": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 9,
+        "noHit": 15
       },
       "arts": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 11,
+        "noHit": 13
       },
       "sport": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 11,
+        "noHit": 13
       },
       "work": {
-        "hit": 12,
-        "noHit": 12
+        "hit": 11,
+        "noHit": 13
       }
     },
     "lengths": {
       "hit": {
         "short": 32,
-        "medium": 55,
-        "long": 33
+        "medium": 43,
+        "long": 27
       },
       "noHit": {
         "short": 32,
-        "medium": 55,
-        "long": 33
+        "medium": 67,
+        "long": 39
       }
     },
     "wordStrata": {
@@ -150,7 +166,7 @@
       "pairsAboveThreshold": 0,
       "exactDuplicates": 0,
       "privateArtifact": {
-        "path": "/tmp/000026-holdout-final-within-pool-overlap-v1.json",
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-within-pool-overlap.json",
         "sha256": "394cb341f7c5a1a3968d65953534f1d1deaeb19b16b503ba9d4f1de21ed002f1"
       }
     },
@@ -171,60 +187,74 @@
       "Other-family defects without this status inference"
     ],
     "lexicalAudit": {
-      "path": "/tmp/000026-holdout-private-shortcut-audit-v1.json",
-      "sha256": "c95274482082bbef386947ad59afa2d676cbbb1397d612a1092606d919c487c9"
+      "path": "/tmp/000026-holdout-qa-2026-10-21-114516-lexical-audit.json",
+      "sha256": "cd8fbf73ee2a690513f476653c3bf2c59fbc7efa294f5354b0806e41ad3c19d4"
     },
-    "finding": "Both classes contain names, numbers, source references, technical vocabulary, and authority vocabulary. Final source includes restrained implicit appeals and hard negatives across the subject areas.",
+    "finding": "Names, numbers, source references, technical terms, and authority vocabulary occur in both classes. The documentation exception is applied independently of examination and rejection. All four realism concerns have been repaired and reviewed in fresh blind, adversarial, and final contexts.",
     "focusedAdjudication": {
       "review": "focused-boundary-adjudication",
       "passages": 13,
       "authorLabelsSnippetsAndBalanceWithheld": true,
-      "taskClarification": "Neutral reporting alone never exempts operative authority appeals. Preserve clearly framed examination, rejection, or documentation of an authority appeal, and a fictional character's limited belief unless the passage adopts it."
-    }
+      "taskClarification": "Neutral reporting alone never exempts operative authority appeals. Preserve clearly framed examination, rejection, or documentation of an authority appeal, and a fictional character's limited belief unless the passage adopts it.",
+      "status": "historical; documentation-related conclusions superseded by independent QA adjudication",
+      "supersededBy": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    "documentationExceptionAppliedIndependently": true
   },
   "adjudications": [
     {
-      "id": "000026-061",
-      "expected": true,
+      "id": "000026-017",
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "The chair accepts a guaranteed annual return on the strength of the adviser's long service. Relevant pension experience is extended into conclusive proof of that guarantee, and the reported decision acts on it. The revised prose preserves this inference.",
-      "consideredConcerns": [
-        {
-          "pass": "blind",
-          "reviewPath": "/tmp/000026-holdout-v1-blind-batch1.json",
-          "expected": true,
-          "objection": "The opening reports the proposal's reasoning in a neutral way and could be read as documentation. But the chair adopts the status-based guarantee and acts on it, and nothing in the passage rejects it, so a hit fits better.",
-          "supersededText": true
-        }
-      ]
+      "reason": "The procurement note and committee weighting are the documentary objects. The colon explains the committee's recorded rationale for the disinfectant decision. The complete passage documents that appeal rather than supply the narrator's own effectiveness assurance.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    {
+      "id": "000026-061",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The adviser makes the guarantee in her proposal, and the chair accepts it. The writer reports both the assurance and the chair's recommendation. The frozen documentation exception applies independently of criticism; the chair's reliance does not establish the narrator's adoption.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-073",
-      "expected": true,
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "The actor's honorary degree and college association supply the assurance behind the employment promise. Describing the brochure's arrangement reports that operative appeal; the text supplies no separate examination, rejection, or documentation frame. Apply the task's explicit neutral-reporting boundary.",
-      "consideredConcerns": [
-        {
-          "pass": "blind",
-          "reviewPath": "/tmp/000026-holdout-v1-blind-batch1.json",
-          "expected": false,
-          "objection": "This reads as a neutral description of how the brochure uses the actor's honorary degree, which counts as documentation. But the passage neither criticizes nor rejects the appeal, so another reviewer could read it as passing the brochure's status-based employment promise along."
-        },
-        {
-          "pass": "adversarial",
-          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch1.json",
-          "expected": false,
-          "objection": "The passage describes the brochure's appeal (\"is presented as the assurance\") without adopting it, which reads as documentation; but it has no explicit critical framing, so a reader could take it as relaying the brochure's status-based promise."
-        },
-        {
-          "pass": "final",
-          "reviewPath": "/tmp/000026-holdout-v3-final-batch1.json",
-          "expected": false,
-          "objection": "One reading treats this as neutral documentation of the brochure's authority appeal (\"is presented as the assurance\"), which is a no-hit. The other treats it as an operative appeal that the passage merely attributes, without clearly examining or rejecting it."
-        }
-      ]
+      "reason": "The arrangement and persuasive use of the honorary degree in the admissions brochure are explicitly described. This documents the brochure's appeal. The earlier focused rationale required additional examination or rejection and therefore failed to apply the independent documentation exception.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-086",
@@ -243,66 +273,122 @@
     },
     {
       "id": "000026-087",
-      "expected": true,
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "The former ambassador's public service supplies confidence in the assessment package's accuracy and drives the principal's adoption decision. The minutes report that operative inference rather than examine the appeal as a rhetorical device.",
-      "consideredConcerns": [
-        {
-          "pass": "blind",
-          "reviewPath": "/tmp/000026-holdout-v1-blind-batch2.json",
-          "expected": true,
-          "objection": "The status inference is attributed to the principal, but it is the operative basis recorded for the adoption decision rather than an examined or rejected appeal."
-        }
-      ]
+      "reason": "The writer reports the principal's confidence and the draft minutes' placement of the ambassador's career under the decision rationale. That document framing records another actor's reason for adoption. The narrator's stance remains documentation of the decision.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-095",
-      "expected": true,
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "Royal invitations supply the committee's assurance of emissions compliance and drive the award. The reported action adopts social standing as technical support; ordinary attribution preserves the operative appeal.",
-      "consideredConcerns": [
-        {
-          "pass": "adversarial",
-          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
-          "expected": true,
-          "objection": "Could be read as neutral documentation of the committee's reasoning, but the status inference is operative in the award decision and is not examined or rejected."
-        },
-        {
-          "pass": "final",
-          "reviewPath": "/tmp/000026-holdout-v3-final-batch2.json",
-          "expected": true,
-          "objection": "Could be read as neutral reporting of the committee's reasoning; but the passage doesn't distance itself from the status-based decision, so it still operates."
-        }
-      ]
+      "reason": "The tender committee regards royal invitations as assurance and awards the route. Those are the recorded rationale and outcome. The appeal is documented as the committee's reasoning, which the frozen definition preserves independently of whether the writer criticizes it.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    {
+      "id": "000026-097",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The town newsletter is identified as making the claim that literary backing should reassure residents. The passage reports the newsletter's use of the endorsement, with the shelter capacity as the subject of that documented reassurance.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    {
+      "id": "000026-117",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The supplier's answer and the purchasing note's stated rationale are the objects of the account. The later attribution locates the temperature-trust assertion in that note. Read together, the sentences document how the supplier's status is invoked.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-119",
-      "expected": true,
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "Recognition in medieval music supplies support for the restaurant's infection-prevention claim. Reporting how the restaurant uses the endorsement leaves the status-based support operative under the explicit neutral-reporting boundary.",
-      "consideredConcerns": [
-        {
-          "pass": "blind",
-          "reviewPath": "/tmp/000026-holdout-v1-blind-batch2.json",
-          "expected": true,
-          "objection": "The passage could be read as neutral reporting of the restaurant's practice, but it neither examines nor rejects the appeal and presents it as the operative support for the health claim."
-        },
-        {
-          "pass": "adversarial",
-          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
-          "expected": true,
-          "objection": "Could be read as neutral documentation of the restaurant's appeal; the passage neither examines nor rejects it, so the operative status-based support stands."
-        },
-        {
-          "pass": "final",
-          "reviewPath": "/tmp/000026-holdout-v3-final-batch2.json",
-          "expected": true,
-          "objection": "Could be read as neutral documentation of the restaurant's practice, but nothing in the passage frames it as an examination or rejection of that appeal."
-        }
-      ]
+      "reason": "The writer describes the restaurant's use of the endorsement and the displayed portrait. The infection-prevention assertion remains explicitly the restaurant's claim. This is documentation of a promotional appeal, so a separate critical or rejecting sentence is unnecessary.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    {
+      "id": "000026-123",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The foraging brochure is the identified source of the magazine-based reliability argument. The final sentence reports its instructions to guests. The complete passage documents that brochure's rationale and instructions instead of adopting the identification advice.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    {
+      "id": "000026-129",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The narrator's opening knowledge concerns the banquet history. The purchasing panel is then explicitly the actor accepting the allergen assurance on that history. The passage documents the panel's reasoning about this batch; its reliance is distinct from narrator adoption.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-132",
@@ -321,39 +407,54 @@
     },
     {
       "id": "000026-139",
-      "expected": true,
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "The honorary literature degree is offered to reassure residents about roof-mount engineering. The identified honor is extended beyond the relevance stated in the writing, and the report gives no separate examination or rejection frame.",
-      "consideredConcerns": [
-        {
-          "pass": "adversarial",
-          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
-          "expected": true,
-          "objection": "Could be read as neutral documentation of the installer's appeal; it is not clearly framed as examination or rejection."
-        }
-      ]
+      "reason": "The installer's answer to residents' questions is described, including how the honorary literature degree is offered as engineering reassurance. The panel count provides project context. The passage documents the appeal being offered.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-141",
-      "expected": true,
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "The novelist's reputation supports the numerical carbon estimate in the report. Mentioning her foreword contribution identifies her involvement while leaving that operative authority claim intact; it does not supply a clearly framed examination of the appeal.",
-      "consideredConcerns": [
-        {
-          "pass": "adversarial",
-          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
-          "expected": true,
-          "objection": "The closing note about her foreword-only involvement may be read as implicitly undercutting the appeal, but it is not clearly framed as a rejection."
-        },
-        {
-          "pass": "final",
-          "reviewPath": "/tmp/000026-holdout-v3-final-batch2.json",
-          "expected": true,
-          "objection": "The closing sentence about her limited involvement could be read as the passage exposing the appeal, though it never actually rejects it."
-        }
-      ]
+      "reason": "The report is explicitly the source of the claim that the novelist's reputation lends authority to the estimate. The closing foreword detail records her contribution. This complete account documents how the report uses her reputation; the previous rejection-only test was too narrow.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    {
+      "id": "000026-153",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The passage records the supplier's answer, the reassurance customers receive, and the leaflet's disposal instruction. Those source-specific statements document the newspaper association's role in the sales rationale. The narrator's stance remains that account of the appeal.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-154",
@@ -369,6 +470,23 @@
           "objection": "A fictional character's limited belief that a reputedly clever fox knows safe berries; the narration does not adopt it, though it also does not explicitly examine it."
         }
       ]
+    },
+    {
+      "id": "000026-161",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The sale note's late attribution explains the preceding royal-connection argument. Reading the full passage resolves the apparent opening assurance to the note's rationale. The asking price supplies sales context for this documented attribution claim.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-177",
@@ -393,51 +511,71 @@
     },
     {
       "id": "000026-183",
-      "expected": true,
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "The celebrity photographs supply the website's safety reassurance. Reporting that parents are directed there instead of the inspection log describes the operative appeal without a clearly framed examination or rejection. Apply the task's explicit neutral-reporting boundary.",
-      "consideredConcerns": [
-        {
-          "pass": "blind",
-          "reviewPath": "/tmp/000026-holdout-v1-blind-batch3.json",
-          "expected": false,
-          "objection": "The passage reports the website's celebrity-photo reassurance and contrasts it critically with the inspection log, which reads as documentation. It does not clearly say the appeal is unsupported, though, so a reader could take it as relaying the appeal."
-        },
-        {
-          "pass": "adversarial",
-          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch3.json",
-          "expected": false,
-          "objection": "Could be a hit if the website's appeal to celebrity photographs is read as an operative claim the passage reports neutrally, but 'rather than the inspection log' frames it as critical documentation of the appeal, not something the passage adopts."
-        },
-        {
-          "pass": "final",
-          "reviewPath": "/tmp/000026-holdout-v3-final-batch3.json",
-          "expected": false,
-          "objection": "The passage reports the website's appeal to celebrity photos and contrasts it critically with the inspection log, so it reads as documentation; the passage could alternatively be read as the gym presenting the appeal."
-        }
-      ]
+      "reason": "The website is explicitly the actor offering celebrity photographs as reassurance and directing parents to its gallery. This documents how the site presents the appeal. The frozen exception preserves that documentation without requiring a separate rejection.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    {
+      "id": "000026-207",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The board paper is the explicit source of the orchestral-career argument. Its late attribution governs the complete argument about software reliability. The writer documents that paper's reasoning rather than supply an additional endorsement.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
+    },
+    {
+      "id": "000026-227",
+      "expected": false,
+      "status": "resolved",
+      "decision": "accept-independent-override",
+      "mandatoryForSelection": true,
+      "reason": "The singer's launch statement and the school's planned use of it in letters form the recorded communication sequence. The passage documents the endorsement's role in that sequence. The school's reliance remains separate from the narrator's stance.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     },
     {
       "id": "000026-229",
-      "expected": true,
+      "expected": false,
       "status": "resolved",
+      "decision": "accept-independent-override",
       "mandatoryForSelection": true,
-      "reason": "The composer's reputation and music-college fellowship precede the accepted tunnel-engineering assurance and the construction decision. The reported decision uses that standing beyond its stated relevance, with no separate examination or rejection frame.",
-      "consideredConcerns": [
-        {
-          "pass": "blind",
-          "reviewPath": "/tmp/000026-holdout-v2-blind-additions.json",
-          "expected": true,
-          "objection": "One could read this as a neutral report of the committee's decision, but the passage gives the composer's status as the context for an accepted engineering assurance and never frames the appeal critically."
-        },
-        {
-          "pass": "adversarial",
-          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch3.json",
-          "expected": true,
-          "objection": "This is reported narration, but placing the credentials right before the acceptance presents them as the basis for an engineering claim, and the passage does not examine or reject that reasoning."
-        }
-      ]
+      "reason": "Kerr's letter supplies the engineering assurance, and committee members accept it before approving construction. The writer records the credentials, reassurance, and response. The members' reliance is part of that documented decision rather than narrator adoption of the appeal.",
+      "previousExpected": true,
+      "independentQa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "authorResolution": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      }
     }
   ],
   "unresolvedConcerns": [],
@@ -446,7 +584,7 @@
       "id": "blind-batch1",
       "role": "blind",
       "count": 80,
-      "currentTextCount": 79,
+      "currentTextCount": 78,
       "review": {
         "path": "/tmp/000026-holdout-v1-blind-batch1.json",
         "sha256": "88c3d9293f2db5144d9bea4c2e8f4cd62a64e5cb1e08663e2527280676ffe490"
@@ -485,7 +623,7 @@
       "id": "blind-batch2",
       "role": "blind",
       "count": 80,
-      "currentTextCount": 79,
+      "currentTextCount": 77,
       "review": {
         "path": "/tmp/000026-holdout-v1-blind-batch2.json",
         "sha256": "a60e03fe34ce14ef75b9aedbfde035281ad12fd42242500e5ad1b63f0b00d299"
@@ -524,7 +662,7 @@
       "id": "blind-batch3",
       "role": "blind",
       "count": 60,
-      "currentTextCount": 57,
+      "currentTextCount": 56,
       "review": {
         "path": "/tmp/000026-holdout-v1-blind-batch3.json",
         "sha256": "dcf5f34262af2074c1bd73b70754bcadb0c708e0c136e5b00cf94b9f6c324ee6"
@@ -602,7 +740,7 @@
       "id": "adversarial-batch1",
       "role": "adversarial",
       "count": 80,
-      "currentTextCount": 79,
+      "currentTextCount": 78,
       "review": {
         "path": "/tmp/000026-holdout-v2-adversarial-batch1.json",
         "sha256": "be27135626a1aaec0753d8a774e5ce563b25160885820b013a01391cc43475b4"
@@ -641,7 +779,7 @@
       "id": "adversarial-batch2",
       "role": "adversarial",
       "count": 80,
-      "currentTextCount": 79,
+      "currentTextCount": 77,
       "review": {
         "path": "/tmp/000026-holdout-v2-adversarial-batch2.json",
         "sha256": "c7ed81650e20ff6d5f13da03795530629be7431ada00d441d6fb3e3b17a3acc8"
@@ -680,7 +818,7 @@
       "id": "adversarial-batch3",
       "role": "adversarial",
       "count": 80,
-      "currentTextCount": 77,
+      "currentTextCount": 76,
       "review": {
         "path": "/tmp/000026-holdout-v2-adversarial-batch3.json",
         "sha256": "528162f1fb739e96f257a44b4f6fb0fd276e8d04565d436891444af32acfd382"
@@ -797,7 +935,7 @@
       "id": "final-batch1",
       "role": "final",
       "count": 80,
-      "currentTextCount": 80,
+      "currentTextCount": 79,
       "review": {
         "path": "/tmp/000026-holdout-v3-final-batch1.json",
         "sha256": "d045625a884feb2c622e2caea4a3b27508907fe20f7b29311b0ed57983a9cda5"
@@ -836,7 +974,7 @@
       "id": "final-batch2",
       "role": "final",
       "count": 80,
-      "currentTextCount": 80,
+      "currentTextCount": 78,
       "review": {
         "path": "/tmp/000026-holdout-v3-final-batch2.json",
         "sha256": "381e01818f496d99edcefe44bea94accf89e19a80725de6f6793e55b85582164"
@@ -875,7 +1013,7 @@
       "id": "final-batch3",
       "role": "final",
       "count": 80,
-      "currentTextCount": 80,
+      "currentTextCount": 79,
       "review": {
         "path": "/tmp/000026-holdout-v3-final-batch3.json",
         "sha256": "61edfb2eb350beee2167fbd81174c21b33b90193331faddf3f9d842d6243d1a2"
@@ -943,6 +1081,123 @@
       "costUsd": 0.17168119999999998,
       "validation": "passed",
       "authorDisagreementCount": null,
+      "objectionCount": 0
+    },
+    {
+      "id": "qa-repair-2026-10-21-114516-blind",
+      "role": "blind",
+      "count": 4,
+      "currentTextCount": 4,
+      "review": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-blind.json",
+        "sha256": "3e9e1e6eea680b1f6cf448d3ac1558d5a0a4918bbc8aace5f0b26a59bede8a85"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-blind.json.request.json",
+        "sha256": "bac0270bbd63d5b8eb40eaeddb88a5ee8640c7b801e4a9c1d955633d9cecc906"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-blind.json.raw.json",
+        "sha256": "e984f60989d40cd3fdbdcfd55bf0835229e1cae4173363fd7576e0ec02ba0884"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-changed-writing-input.json",
+        "sha256": "c57bf5a543774f721cbf3d07ceb1d47da1a58a59465cf6c2e1b00d58249defb9"
+      },
+      "promptSha256": "b24eb6b080d6043f4cc5227e16a3398051027d15046329d2c1509874c2015714",
+      "textSha256": "16d7e14b7fadec988f0882e47e8c6e2498449603a49e07437f592b63b47c1064",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "cee290f9-c1e8-40d2-8892-bc1118ce8f12",
+      "durationMs": 2876,
+      "elapsedMs": 4587.885333,
+      "costUsd": 0.042232,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 0
+    },
+    {
+      "id": "qa-repair-2026-10-21-114516-adversarial",
+      "role": "adversarial",
+      "count": 4,
+      "currentTextCount": 4,
+      "review": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-adversarial.json",
+        "sha256": "e7166d03572754d4fb419710f86bf1dd8caaf945d80613c843c35a5f11a6d0ac"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-adversarial.json.request.json",
+        "sha256": "420e84b330d0d8cff8639552bfd6a669879fa64b3ecf44707dec7e92c13dba4d"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-adversarial.json.raw.json",
+        "sha256": "4a894e595b9a15b37d628fafe1015f290d81ac0fea2679ade72b48759ea5f5c4"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-changed-writing-input.json",
+        "sha256": "c57bf5a543774f721cbf3d07ceb1d47da1a58a59465cf6c2e1b00d58249defb9"
+      },
+      "promptSha256": "09c2adca4b1079f4c97934c60b9a8dd64841b7b7366cf1afaf0515f9242e570e",
+      "textSha256": "16d7e14b7fadec988f0882e47e8c6e2498449603a49e07437f592b63b47c1064",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "5e36ef7c-de94-4afc-940e-fccfc606c8f3",
+      "durationMs": 3194,
+      "elapsedMs": 4958.561959000001,
+      "costUsd": 0.0257074,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 0
+    },
+    {
+      "id": "qa-repair-2026-10-21-114516-final",
+      "role": "final",
+      "count": 4,
+      "currentTextCount": 4,
+      "review": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-final.json",
+        "sha256": "2bbf10c9f09690ae9056a7abff90f57af668283630370234aba453d139efe457"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-final.json.request.json",
+        "sha256": "4d9386769639ccc3e75579f4938a9959bbe484aad2467d0bedb4507ff0461316"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-final.json.raw.json",
+        "sha256": "7acd4e9ef41071f1cdedc2f154eed779980f5259f76b4f9980f90c681f6029fa"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-changed-writing-input.json",
+        "sha256": "c57bf5a543774f721cbf3d07ceb1d47da1a58a59465cf6c2e1b00d58249defb9"
+      },
+      "promptSha256": "fb5a7858156595bd2b8d158342267cd9e26bae249749efd13f4c2789f9adfed3",
+      "textSha256": "16d7e14b7fadec988f0882e47e8c6e2498449603a49e07437f592b63b47c1064",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "13a954cd-2ba0-4497-8410-909ac2e3661f",
+      "durationMs": 3102,
+      "elapsedMs": 4878.0692500000005,
+      "costUsd": 0.0242274,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
       "objectionCount": 0
     }
   ],
@@ -1081,7 +1336,18 @@
       "blind": "blind-batch1",
       "adversarial": "adversarial-batch1",
       "final": "final-batch1",
-      "judgmentAndSnippetSource": "final-batch1"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch1",
+      "independentOverride": {
+        "adjudicationId": "000026-017",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-018",
@@ -1357,11 +1623,20 @@
     },
     {
       "id": "000026-052",
-      "textSha256": "9da9e65ab5da03c08c79e4844f61cd11906637529b7d2203eb81987607203ab2",
-      "blind": "blind-batch1",
-      "adversarial": "adversarial-batch1",
-      "final": "final-batch1",
-      "judgmentAndSnippetSource": "final-batch1"
+      "textSha256": "186980aadb791acf37225bd91cc5b44c784a4e11d93ba22b37ba7a459618bcb4",
+      "blind": "qa-repair-2026-10-21-114516-blind",
+      "adversarial": "qa-repair-2026-10-21-114516-adversarial",
+      "final": "qa-repair-2026-10-21-114516-final",
+      "judgmentAndSnippetSource": "qa-repair-2026-10-21-114516-final",
+      "previousWritingProvenance": {
+        "id": "000026-052",
+        "textSha256": "9da9e65ab5da03c08c79e4844f61cd11906637529b7d2203eb81987607203ab2",
+        "blind": "blind-batch1",
+        "adversarial": "adversarial-batch1",
+        "final": "final-batch1",
+        "judgmentAndSnippetSource": "final-batch1"
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-053",
@@ -1433,8 +1708,18 @@
       "blind": "blind-repairs",
       "adversarial": "adversarial-repairs",
       "final": "final-batch1",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-061",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-062",
@@ -1530,8 +1815,18 @@
       "blind": "blind-batch1",
       "adversarial": "adversarial-batch1",
       "final": "final-batch1",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-073",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-074",
@@ -1644,8 +1939,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-087",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-088",
@@ -1709,16 +2014,35 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-095",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-096",
-      "textSha256": "b299684ec34522e72029f8b8186b6e00e4cb0ab8fd85a9d231489b8d1c6460cb",
-      "blind": "blind-batch2",
-      "adversarial": "adversarial-batch2",
-      "final": "final-batch2",
-      "judgmentAndSnippetSource": "final-batch2"
+      "textSha256": "4d5b057628a8df748a0499355f3916163acbda4fb9fd269225490d7f3db461e6",
+      "blind": "qa-repair-2026-10-21-114516-blind",
+      "adversarial": "qa-repair-2026-10-21-114516-adversarial",
+      "final": "qa-repair-2026-10-21-114516-final",
+      "judgmentAndSnippetSource": "qa-repair-2026-10-21-114516-final",
+      "previousWritingProvenance": {
+        "id": "000026-096",
+        "textSha256": "b299684ec34522e72029f8b8186b6e00e4cb0ab8fd85a9d231489b8d1c6460cb",
+        "blind": "blind-batch2",
+        "adversarial": "adversarial-batch2",
+        "final": "final-batch2",
+        "judgmentAndSnippetSource": "final-batch2"
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-097",
@@ -1726,7 +2050,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "final-batch2"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch2",
+      "independentOverride": {
+        "adjudicationId": "000026-097",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-098",
@@ -1826,11 +2161,20 @@
     },
     {
       "id": "000026-110",
-      "textSha256": "f508843072a0a61063ed1c1af6a024e3c12de2d83a61c677362d1617552fd0e5",
-      "blind": "blind-batch2",
-      "adversarial": "adversarial-batch2",
-      "final": "final-batch2",
-      "judgmentAndSnippetSource": "final-batch2"
+      "textSha256": "953c35555784e03a219475e989c3ab6f176abccef4ead733445df0d19c54ea57",
+      "blind": "qa-repair-2026-10-21-114516-blind",
+      "adversarial": "qa-repair-2026-10-21-114516-adversarial",
+      "final": "qa-repair-2026-10-21-114516-final",
+      "judgmentAndSnippetSource": "qa-repair-2026-10-21-114516-final",
+      "previousWritingProvenance": {
+        "id": "000026-110",
+        "textSha256": "f508843072a0a61063ed1c1af6a024e3c12de2d83a61c677362d1617552fd0e5",
+        "blind": "blind-batch2",
+        "adversarial": "adversarial-batch2",
+        "final": "final-batch2",
+        "judgmentAndSnippetSource": "final-batch2"
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-111",
@@ -1886,7 +2230,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "final-batch2"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch2",
+      "independentOverride": {
+        "adjudicationId": "000026-117",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-118",
@@ -1902,8 +2257,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-119",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-120",
@@ -1936,7 +2301,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "final-batch2"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch2",
+      "independentOverride": {
+        "adjudicationId": "000026-123",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-124",
@@ -1984,7 +2360,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "final-batch2"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch2",
+      "independentOverride": {
+        "adjudicationId": "000026-129",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-130",
@@ -2065,8 +2452,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-139",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-140",
@@ -2082,8 +2479,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-141",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-142",
@@ -2179,7 +2586,18 @@
       "blind": "blind-batch2",
       "adversarial": "adversarial-batch2",
       "final": "final-batch2",
-      "judgmentAndSnippetSource": "final-batch2"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch2",
+      "independentOverride": {
+        "adjudicationId": "000026-153",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-154",
@@ -2244,7 +2662,18 @@
       "blind": "blind-batch3",
       "adversarial": "adversarial-batch3",
       "final": "final-batch3",
-      "judgmentAndSnippetSource": "final-batch3"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch3",
+      "independentOverride": {
+        "adjudicationId": "000026-161",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-162",
@@ -2296,11 +2725,20 @@
     },
     {
       "id": "000026-168",
-      "textSha256": "d6b6c257b3e70f0aa26ed781f85bd1608c57569357b47f064577df772abcd02f",
-      "blind": "blind-batch3",
-      "adversarial": "adversarial-batch3",
-      "final": "final-batch3",
-      "judgmentAndSnippetSource": "final-batch3"
+      "textSha256": "4ac4ffd0a3bcddcb99392777364f198f322eb0656d337831f15144c7d4ac56d3",
+      "blind": "qa-repair-2026-10-21-114516-blind",
+      "adversarial": "qa-repair-2026-10-21-114516-adversarial",
+      "final": "qa-repair-2026-10-21-114516-final",
+      "judgmentAndSnippetSource": "qa-repair-2026-10-21-114516-final",
+      "previousWritingProvenance": {
+        "id": "000026-168",
+        "textSha256": "d6b6c257b3e70f0aa26ed781f85bd1608c57569357b47f064577df772abcd02f",
+        "blind": "blind-batch3",
+        "adversarial": "adversarial-batch3",
+        "final": "final-batch3",
+        "judgmentAndSnippetSource": "final-batch3"
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-169",
@@ -2421,8 +2859,18 @@
       "blind": "blind-batch3",
       "adversarial": "adversarial-batch3",
       "final": "final-batch3",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-183",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-184",
@@ -2616,7 +3064,18 @@
       "blind": "blind-batch3",
       "adversarial": "adversarial-batch3",
       "final": "final-batch3",
-      "judgmentAndSnippetSource": "final-batch3"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch3",
+      "independentOverride": {
+        "adjudicationId": "000026-207",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-208",
@@ -2777,7 +3236,18 @@
       "blind": "blind-additions",
       "adversarial": "adversarial-batch3",
       "final": "final-batch3",
-      "judgmentAndSnippetSource": "final-batch3"
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousJudgmentAndSnippetSource": "final-batch3",
+      "independentOverride": {
+        "adjudicationId": "000026-227",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      },
+      "mandatoryForSelection": true
     },
     {
       "id": "000026-228",
@@ -2793,8 +3263,18 @@
       "blind": "blind-additions",
       "adversarial": "adversarial-batch3",
       "final": "final-batch3",
-      "judgmentAndSnippetSource": "focused-boundary-adjudication",
-      "mandatoryForSelection": true
+      "judgmentAndSnippetSource": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "mandatoryForSelection": true,
+      "previousJudgmentAndSnippetSource": "focused-boundary-adjudication",
+      "independentOverride": {
+        "adjudicationId": "000026-229",
+        "previousExpected": true,
+        "expected": false,
+        "reasonSource": {
+          "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+          "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+        }
+      }
     },
     {
       "id": "000026-230",
@@ -2894,11 +3374,330 @@
     "formatBeforeRangesAndChecksum": {
       "command": "prettier --write --prose-wrap preserve",
       "log": {
-        "path": "/tmp/000026-holdout-canonical-format-log-v1.txt",
-        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-format.log",
+        "sha256": "be43533a37e39be58df8b33bfd2c038619ffa3427abf92a52dbd6c917e7598cf"
       }
     },
-    "textSha256": "bb8aa39cf8e36ec080ab25fa97a0b2ee7157b2571aa937c6fa3c7c4f378190f7",
-    "labelsSha256": "08287ee94443de629b9aa2112994e131db1201abd1ad55ec13f14b5e7e0dbec3"
-  }
+    "textSha256": "3ae5ca1e3fb1343e74da9f3592de4cce0ec6430856e1a52e6a21ab0a854cadf2",
+    "labelsSha256": "31bead0ba793503d1d48dc603817982c5c25aa96c3c5fb41e5b483c495a8ac74",
+    "completeCurrentWritingThreePassCoverage": "passed",
+    "independentOverrides": "explicit; raw provider history preserved"
+  },
+  "independentReviewOverrides": [
+    {
+      "id": "000026-017",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-017",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "its sponsor received a national medal for services to broadcasting",
+          "someone entrusted with that honor is unlikely to put patients at risk through an ineffective product"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-017"
+    },
+    {
+      "id": "000026-061",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-061",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "The chair accepted that promise on the strength of her long service"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-061"
+    },
+    {
+      "id": "000026-073",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-073",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "places an actor's honorary degree beside its promise that graduates will find employment within six weeks",
+          "His association with the college is presented as the assurance behind that promise"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-073"
+    },
+    {
+      "id": "000026-087",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-087",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "that public service gives the principal confidence that the package sorts dyslexic pupils accurately"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-087"
+    },
+    {
+      "id": "000026-095",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-095",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "The tender committee regarded those invitations as assurance that his vehicles meet the specified emissions limits"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-095"
+    },
+    {
+      "id": "000026-097",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-097",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "this distinguished literary backing should reassure residents about the plan's capacity for 400 people during a storm"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-097"
+    },
+    {
+      "id": "000026-117",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-117",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "Someone with that standing can be believed about the shipment's temperature, the purchasing note says."
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-117"
+    },
+    {
+      "id": "000026-119",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-119",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "The restaurant uses his endorsement to support its claim that its fermented tea prevents infections"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-119"
+    },
+    {
+      "id": "000026-123",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-123",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "Their attention makes the chef's account of the mushrooms' edibility dependable"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-123"
+    },
+    {
+      "id": "000026-129",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-129",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "The panel treats association with those prestigious events as sufficient assurance about cross-contact controls"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-129"
+    },
+    {
+      "id": "000026-139",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-139",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "points to its founder's honorary literature degree when residents ask whether the roof mounts can withstand winter storms",
+          "That distinction is offered as reassurance about the engineering"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-139"
+    },
+    {
+      "id": "000026-141",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-141",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "Her reputation lends authority to its estimate of 18,000 tonnes saved annually"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-141"
+    },
+    {
+      "id": "000026-153",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-153",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "Customers are told the newspaper association means they can rely on the decomposition claim"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-153"
+    },
+    {
+      "id": "000026-161",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-161",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "The dealer's opinion carries weight because he once hosted a visiting royal family. That connection supports his attribution of the unsigned sketch to Moret"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-161"
+    },
+    {
+      "id": "000026-183",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-183",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "The website offers those connections as reassurance that the auto-belay equipment is maintained safely"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-183"
+    },
+    {
+      "id": "000026-207",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-207",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "The board can trust the new inventory software because its chief executive formerly played violin with a renowned orchestra.",
+          "Sustaining a career at that level speaks directly to the reliability of the stock figures"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-207"
+    },
+    {
+      "id": "000026-227",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-227",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "Renn, whose albums have earned five platinum awards, described the test as a dependable way to choose pupils for the scholarship. The school will use that assurance"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-227"
+    },
+    {
+      "id": "000026-229",
+      "source": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "previousLabel": {
+        "id": "000026-229",
+        "check": "unsupported-authority/prestige-padding",
+        "expected": true,
+        "snippets": [
+          "Kerr is a celebrated composer and honorary fellow of the town's music college",
+          "Members accepted his reassurance and approved construction"
+        ]
+      },
+      "expected": false,
+      "adjudicationId": "000026-229"
+    }
+  ],
+  "judgmentSources": [
+    {
+      "id": "independent-protected-qa-author-adjudication-2026-10-21-114516",
+      "kind": "independent-protected-QA-author-adjudication",
+      "qa": {
+        "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+        "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+      },
+      "resolutions": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+        "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+      },
+      "definitionCommit": "b5c1110c",
+      "labelCount": 18
+    }
+  ],
+  "history": [
+    {
+      "archiveCommit": "0f967654",
+      "originalMarkdown": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-before-markdown.md",
+        "sha256": "bb8aa39cf8e36ec080ab25fa97a0b2ee7157b2571aa937c6fa3c7c4f378190f7"
+      },
+      "originalLabels": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-before-labels.json",
+        "sha256": "08287ee94443de629b9aa2112994e131db1201abd1ad55ec13f14b5e7e0dbec3"
+      },
+      "originalReview": {
+        "path": "/tmp/000026-holdout-qa-2026-10-21-114516-before-review.json",
+        "sha256": "578515a21c1b30ae123f70ac6415cf2e7bfba33d0f47ce6a3e36fff46eeafa2c"
+      },
+      "reason": "Original full pool and provider judgments retained before independent QA overrides and prose repairs."
+    }
+  ],
+  "protectedQa": {
+    "status": "awaiting-post-correction-QA",
+    "independentReview": {
+      "path": "/tmp/authority-000026-fullpool-qa-2026-10-21-3gxP7I/semantic-corrections-private.json",
+      "sha256": "74e837d3a517547306a8a8290c867968c86247d8292e550f5da759a0ff5a107c"
+    },
+    "acceptedLabelFindings": 18,
+    "acceptedRealismFindings": 4,
+    "source": {
+      "path": "/tmp/000026-holdout-qa-2026-10-21-114516-source.json",
+      "sha256": "fe9772092330ae7d61c877ffbda5015c15837d9aaef887127d99695024526096"
+    },
+    "repairs": {
+      "path": "/tmp/000026-holdout-qa-2026-10-21-114516-repair-log.json",
+      "sha256": "329e5b10ffdffb88f51fede1af3ed2f81e20ea72d350a36b6c43ba3841a989e0"
+    },
+    "resolutions": {
+      "path": "/tmp/000026-holdout-qa-2026-10-21-114516-resolutions.json",
+      "sha256": "6b35d79ed6b91253d9524c07dd3432ed0006d550c79921057996a92cd29214de"
+    },
+    "originalArchiveCommit": "0f967654",
+    "correctedArchiveRequired": true
+  },
+  "updatedAt": "2026-10-21T10:50:33.066Z"
 }
