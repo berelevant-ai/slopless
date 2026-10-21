@@ -1,0 +1,2904 @@
+{
+  "schemaVersion": 1,
+  "collection": "000026",
+  "check": "unsupported-authority/prestige-padding",
+  "split": "holdout",
+  "status": "ARCHIVE-READY",
+  "createdAt": "2026-10-21T10:22:37.997Z",
+  "definitions": {
+    "commit": "b5c1110c",
+    "frozenTaxonomy": {
+      "path": "/tmp/000026-holdout-frozen-taxonomy-b5c1110c.md",
+      "sha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a"
+    },
+    "sharedReviewHelper": {
+      "path": "/tmp/slopless-family-opus-review.mjs",
+      "sha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89"
+    },
+    "definitionHelper": {
+      "path": "/tmp/slopless-family-taxonomy.mjs",
+      "sha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0"
+    }
+  },
+  "authorship": {
+    "model": "GPT-5 (Codex)",
+    "isolation": "protected-holdout",
+    "initialPassages": 220,
+    "additionalPassages": 20,
+    "proseRepairs": 5,
+    "finalSource": {
+      "path": "/tmp/000026-holdout-source-v3.json",
+      "sha256": "d208043d3987b0e8907dc427f17c176329aec8dd2c516c84849d3db487fd1f41"
+    },
+    "repairLog": {
+      "path": "/tmp/000026-holdout-prose-repair-log-v1.json",
+      "sha256": "29110e83603a8db1d7d482a601b31aed8bf56725d443f85990b14c879b74bda6"
+    }
+  },
+  "counts": {
+    "passages": 240,
+    "hits": 120,
+    "noHits": 120,
+    "domains": 10,
+    "completeCurrentWritingThreePassCoverage": 240,
+    "completedReviewCalls": 13,
+    "rawJudgments": 743,
+    "currentWritingPassCoverage": {
+      "blind": 240,
+      "adversarial": 240,
+      "final": 240
+    }
+  },
+  "archive": {
+    "fullPool": true,
+    "balancedSelectionPerformed": false,
+    "parentArchiveCommitRequiredBeforeSelection": true,
+    "mandatoryIds": [
+      "000026-061",
+      "000026-073",
+      "000026-086",
+      "000026-087",
+      "000026-095",
+      "000026-119",
+      "000026-121",
+      "000026-132",
+      "000026-139",
+      "000026-141",
+      "000026-154",
+      "000026-177",
+      "000026-183",
+      "000026-194",
+      "000026-196",
+      "000026-218",
+      "000026-229"
+    ],
+    "mandatoryCount": 17
+  },
+  "coverage": {
+    "domains": {
+      "health": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "software": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "finance": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "education": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "civic": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "food": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "environment": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "arts": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "sport": {
+        "hit": 12,
+        "noHit": 12
+      },
+      "work": {
+        "hit": 12,
+        "noHit": 12
+      }
+    },
+    "lengths": {
+      "hit": {
+        "short": 32,
+        "medium": 55,
+        "long": 33
+      },
+      "noHit": {
+        "short": 32,
+        "medium": 55,
+        "long": 33
+      }
+    },
+    "wordStrata": {
+      "short": [
+        8,
+        20
+      ],
+      "medium": [
+        21,
+        44
+      ],
+      "long": [
+        45,
+        90
+      ]
+    },
+    "withinPoolSimilarity": {
+      "method": "Lowercase alphanumeric token-set Jaccard, all final passage pairs",
+      "threshold": 0.55,
+      "maxSimilarity": 0.3888888888888889,
+      "pairsAboveThreshold": 0,
+      "exactDuplicates": 0,
+      "privateArtifact": {
+        "path": "/tmp/000026-holdout-final-within-pool-overlap-v1.json",
+        "sha256": "394cb341f7c5a1a3968d65953534f1d1deaeb19b16b503ba9d4f1de21ed002f1"
+      }
+    },
+    "crossSplitAudit": {
+      "owner": "separate protected auditor",
+      "status": "not performed in author context"
+    }
+  },
+  "boundaryAudit": {
+    "status": "resolved",
+    "reviewed": [
+      "Relevant expertise and eligibility versus unrelated status",
+      "Bounded first-hand experience versus conclusive or extended claims",
+      "Reach, recognition, biography, and credits",
+      "Explicit, implicit, qualified, quoted, and reported operative appeals",
+      "Clearly framed documentation or examination versus ordinary attribution",
+      "Fictional limited belief versus narratorial adoption",
+      "Other-family defects without this status inference"
+    ],
+    "lexicalAudit": {
+      "path": "/tmp/000026-holdout-private-shortcut-audit-v1.json",
+      "sha256": "c95274482082bbef386947ad59afa2d676cbbb1397d612a1092606d919c487c9"
+    },
+    "finding": "Both classes contain names, numbers, source references, technical vocabulary, and authority vocabulary. Final source includes restrained implicit appeals and hard negatives across the subject areas.",
+    "focusedAdjudication": {
+      "review": "focused-boundary-adjudication",
+      "passages": 13,
+      "authorLabelsSnippetsAndBalanceWithheld": true,
+      "taskClarification": "Neutral reporting alone never exempts operative authority appeals. Preserve clearly framed examination, rejection, or documentation of an authority appeal, and a fictional character's limited belief unless the passage adopts it."
+    }
+  },
+  "adjudications": [
+    {
+      "id": "000026-061",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The chair accepts a guaranteed annual return on the strength of the adviser's long service. Relevant pension experience is extended into conclusive proof of that guarantee, and the reported decision acts on it. The revised prose preserves this inference.",
+      "consideredConcerns": [
+        {
+          "pass": "blind",
+          "reviewPath": "/tmp/000026-holdout-v1-blind-batch1.json",
+          "expected": true,
+          "objection": "The opening reports the proposal's reasoning in a neutral way and could be read as documentation. But the chair adopts the status-based guarantee and acts on it, and nothing in the passage rejects it, so a hit fits better.",
+          "supersededText": true
+        }
+      ]
+    },
+    {
+      "id": "000026-073",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The actor's honorary degree and college association supply the assurance behind the employment promise. Describing the brochure's arrangement reports that operative appeal; the text supplies no separate examination, rejection, or documentation frame. Apply the task's explicit neutral-reporting boundary.",
+      "consideredConcerns": [
+        {
+          "pass": "blind",
+          "reviewPath": "/tmp/000026-holdout-v1-blind-batch1.json",
+          "expected": false,
+          "objection": "This reads as a neutral description of how the brochure uses the actor's honorary degree, which counts as documentation. But the passage neither criticizes nor rejects the appeal, so another reviewer could read it as passing the brochure's status-based employment promise along."
+        },
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch1.json",
+          "expected": false,
+          "objection": "The passage describes the brochure's appeal (\"is presented as the assurance\") without adopting it, which reads as documentation; but it has no explicit critical framing, so a reader could take it as relaying the brochure's status-based promise."
+        },
+        {
+          "pass": "final",
+          "reviewPath": "/tmp/000026-holdout-v3-final-batch1.json",
+          "expected": false,
+          "objection": "One reading treats this as neutral documentation of the brochure's authority appeal (\"is presented as the assurance\"), which is a no-hit. The other treats it as an operative appeal that the passage merely attributes, without clearly examining or rejecting it."
+        }
+      ]
+    },
+    {
+      "id": "000026-086",
+      "expected": false,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The expectation is Petra's limited belief about a television scientist. Her anticipation and waiting establish the character's perspective; the narration supplies no adopted conclusion about his historical expertise.",
+      "consideredConcerns": [
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
+          "expected": false,
+          "objection": "A fictional child's limited belief (TV astronomer would know history) is presented, but the passage does not adopt it."
+        }
+      ]
+    },
+    {
+      "id": "000026-087",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The former ambassador's public service supplies confidence in the assessment package's accuracy and drives the principal's adoption decision. The minutes report that operative inference rather than examine the appeal as a rhetorical device.",
+      "consideredConcerns": [
+        {
+          "pass": "blind",
+          "reviewPath": "/tmp/000026-holdout-v1-blind-batch2.json",
+          "expected": true,
+          "objection": "The status inference is attributed to the principal, but it is the operative basis recorded for the adoption decision rather than an examined or rejected appeal."
+        }
+      ]
+    },
+    {
+      "id": "000026-095",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "Royal invitations supply the committee's assurance of emissions compliance and drive the award. The reported action adopts social standing as technical support; ordinary attribution preserves the operative appeal.",
+      "consideredConcerns": [
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
+          "expected": true,
+          "objection": "Could be read as neutral documentation of the committee's reasoning, but the status inference is operative in the award decision and is not examined or rejected."
+        },
+        {
+          "pass": "final",
+          "reviewPath": "/tmp/000026-holdout-v3-final-batch2.json",
+          "expected": true,
+          "objection": "Could be read as neutral reporting of the committee's reasoning; but the passage doesn't distance itself from the status-based decision, so it still operates."
+        }
+      ]
+    },
+    {
+      "id": "000026-119",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "Recognition in medieval music supplies support for the restaurant's infection-prevention claim. Reporting how the restaurant uses the endorsement leaves the status-based support operative under the explicit neutral-reporting boundary.",
+      "consideredConcerns": [
+        {
+          "pass": "blind",
+          "reviewPath": "/tmp/000026-holdout-v1-blind-batch2.json",
+          "expected": true,
+          "objection": "The passage could be read as neutral reporting of the restaurant's practice, but it neither examines nor rejects the appeal and presents it as the operative support for the health claim."
+        },
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
+          "expected": true,
+          "objection": "Could be read as neutral documentation of the restaurant's appeal; the passage neither examines nor rejects it, so the operative status-based support stands."
+        },
+        {
+          "pass": "final",
+          "reviewPath": "/tmp/000026-holdout-v3-final-batch2.json",
+          "expected": true,
+          "objection": "Could be read as neutral documentation of the restaurant's practice, but nothing in the passage frames it as an examination or rejection of that appeal."
+        }
+      ]
+    },
+    {
+      "id": "000026-132",
+      "expected": false,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The crest-based judgment belongs to Rafi's limited belief and imagined royal scene. The narration follows his expectation rather than adopt the crest as support for a product claim.",
+      "consideredConcerns": [
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
+          "expected": false,
+          "objection": "A fictional child's limited belief about a royal crest, not adopted by the narration."
+        }
+      ]
+    },
+    {
+      "id": "000026-139",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The honorary literature degree is offered to reassure residents about roof-mount engineering. The identified honor is extended beyond the relevance stated in the writing, and the report gives no separate examination or rejection frame.",
+      "consideredConcerns": [
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
+          "expected": true,
+          "objection": "Could be read as neutral documentation of the installer's appeal; it is not clearly framed as examination or rejection."
+        }
+      ]
+    },
+    {
+      "id": "000026-141",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The novelist's reputation supports the numerical carbon estimate in the report. Mentioning her foreword contribution identifies her involvement while leaving that operative authority claim intact; it does not supply a clearly framed examination of the appeal.",
+      "consideredConcerns": [
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
+          "expected": true,
+          "objection": "The closing note about her foreword-only involvement may be read as implicitly undercutting the appeal, but it is not clearly framed as a rejection."
+        },
+        {
+          "pass": "final",
+          "reviewPath": "/tmp/000026-holdout-v3-final-batch2.json",
+          "expected": true,
+          "objection": "The closing sentence about her limited involvement could be read as the passage exposing the appeal, though it never actually rejects it."
+        }
+      ]
+    },
+    {
+      "id": "000026-154",
+      "expected": false,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "Otis's thought and hope frame the inference about the fox as a character's limited belief. The narration records his berry selection without adopting that belief as an account of berry safety.",
+      "consideredConcerns": [
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch2.json",
+          "expected": false,
+          "objection": "A fictional character's limited belief that a reputedly clever fox knows safe berries; the narration does not adopt it, though it also does not explicitly examine it."
+        }
+      ]
+    },
+    {
+      "id": "000026-177",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The novelist's celebrity frames the assurance that the training plan prevents injuries. The status appeal is implicit, and the supplied writing identifies no relevant expertise or observed basis for the assurance.",
+      "consideredConcerns": [
+        {
+          "pass": "blind",
+          "reviewPath": "/tmp/000026-holdout-v1-blind-batch3.json",
+          "expected": true,
+          "objection": "The status appeal is implicit. The sentence could be read as plain attribution of who designed the plan, or as presenting the novelist's celebrity as the reason to accept the injury-prevention claim."
+        },
+        {
+          "pass": "final",
+          "reviewPath": "/tmp/000026-holdout-v3-final-batch3.json",
+          "expected": true,
+          "objection": "The novelist's status is only implied as support; it could be read as plain attribution, but the prestige framing presents fame as backing an injury-prevention claim."
+        }
+      ]
+    },
+    {
+      "id": "000026-183",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The celebrity photographs supply the website's safety reassurance. Reporting that parents are directed there instead of the inspection log describes the operative appeal without a clearly framed examination or rejection. Apply the task's explicit neutral-reporting boundary.",
+      "consideredConcerns": [
+        {
+          "pass": "blind",
+          "reviewPath": "/tmp/000026-holdout-v1-blind-batch3.json",
+          "expected": false,
+          "objection": "The passage reports the website's celebrity-photo reassurance and contrasts it critically with the inspection log, which reads as documentation. It does not clearly say the appeal is unsupported, though, so a reader could take it as relaying the appeal."
+        },
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch3.json",
+          "expected": false,
+          "objection": "Could be a hit if the website's appeal to celebrity photographs is read as an operative claim the passage reports neutrally, but 'rather than the inspection log' frames it as critical documentation of the appeal, not something the passage adopts."
+        },
+        {
+          "pass": "final",
+          "reviewPath": "/tmp/000026-holdout-v3-final-batch3.json",
+          "expected": false,
+          "objection": "The passage reports the website's appeal to celebrity photos and contrasts it critically with the inspection log, so it reads as documentation; the passage could alternatively be read as the gym presenting the appeal."
+        }
+      ]
+    },
+    {
+      "id": "000026-229",
+      "expected": true,
+      "status": "resolved",
+      "mandatoryForSelection": true,
+      "reason": "The composer's reputation and music-college fellowship precede the accepted tunnel-engineering assurance and the construction decision. The reported decision uses that standing beyond its stated relevance, with no separate examination or rejection frame.",
+      "consideredConcerns": [
+        {
+          "pass": "blind",
+          "reviewPath": "/tmp/000026-holdout-v2-blind-additions.json",
+          "expected": true,
+          "objection": "One could read this as a neutral report of the committee's decision, but the passage gives the composer's status as the context for an accepted engineering assurance and never frames the appeal critically."
+        },
+        {
+          "pass": "adversarial",
+          "reviewPath": "/tmp/000026-holdout-v2-adversarial-batch3.json",
+          "expected": true,
+          "objection": "This is reported narration, but placing the credentials right before the acceptance presents them as the basis for an engineering claim, and the passage does not examine or reject that reasoning."
+        }
+      ]
+    }
+  ],
+  "unresolvedConcerns": [],
+  "reviews": [
+    {
+      "id": "blind-batch1",
+      "role": "blind",
+      "count": 80,
+      "currentTextCount": 79,
+      "review": {
+        "path": "/tmp/000026-holdout-v1-blind-batch1.json",
+        "sha256": "88c3d9293f2db5144d9bea4c2e8f4cd62a64e5cb1e08663e2527280676ffe490"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v1-blind-batch1.json.request.json",
+        "sha256": "0b4da3dcbd0f6d078e54f36b7cbe91c4ea92c7e017f2971eeaad24a3b3b5ed01"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v1-blind-batch1.json.raw.json",
+        "sha256": "d00795a8eadec9e023c8d0b308913a2210ee488522cccc2e6d874942424be897"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v1-batch1-input.json",
+        "sha256": "a90b06946477e6d7454f70e2306f3004a1c755164da99b705e66e2236518a25b"
+      },
+      "promptSha256": "5d3fc8afa7dd6e8c1497fe81332f4c1a93f4a68b0fb68385c7d29230f841e8ae",
+      "textSha256": "665f6e4f1fb8c91d1a0132c1c72f93b0deb136bb3525a27d468ba577e578a352",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "7720f5db-5f2c-4510-b66a-3f8a86cd713f",
+      "durationMs": 31855,
+      "elapsedMs": 33077.900166,
+      "costUsd": 0.178884,
+      "validation": "passed",
+      "authorDisagreementCount": 1,
+      "objectionCount": 2
+    },
+    {
+      "id": "blind-batch2",
+      "role": "blind",
+      "count": 80,
+      "currentTextCount": 79,
+      "review": {
+        "path": "/tmp/000026-holdout-v1-blind-batch2.json",
+        "sha256": "a60e03fe34ce14ef75b9aedbfde035281ad12fd42242500e5ad1b63f0b00d299"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v1-blind-batch2.json.request.json",
+        "sha256": "8e566cdd59b6e804b2252f8d3151eab0f52af231ea02b2c0f79415d7e78ac4ea"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v1-blind-batch2.json.raw.json",
+        "sha256": "aee743dad67d1b20b0395033c0cc6724fa968f532705ca8279d48b524fbff406"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v1-batch2-input.json",
+        "sha256": "ea6341421327be757a4558bca8b342d1283b714121295a29be8c11ac5efa37ff"
+      },
+      "promptSha256": "395101deabba5bada6e175a6497aebf48795934b11a7f2afe58aa60cf1e140ef",
+      "textSha256": "703f268849e4ee552a597463d99548f7d70d373486254588a8678803f424c6c8",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "5e499a73-d9af-45f0-ba14-4f2aea89e0b3",
+      "durationMs": 28300,
+      "elapsedMs": 29189.565,
+      "costUsd": 0.17382399999999998,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 2
+    },
+    {
+      "id": "blind-batch3",
+      "role": "blind",
+      "count": 60,
+      "currentTextCount": 57,
+      "review": {
+        "path": "/tmp/000026-holdout-v1-blind-batch3.json",
+        "sha256": "dcf5f34262af2074c1bd73b70754bcadb0c708e0c136e5b00cf94b9f6c324ee6"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v1-blind-batch3.json.request.json",
+        "sha256": "8a504dd739466ec8addea730753d5cc34eedce6722030fc7ec16ac3cbade44a0"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v1-blind-batch3.json.raw.json",
+        "sha256": "be2ea7a00c1d34da03785e9826b838aa32155130c874a4a44a6dee676b84e5e6"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v1-batch3-input.json",
+        "sha256": "fb12d18c9443bc034b0bc6a424b5fed54493f957b724f58ac28ac0b22455fade"
+      },
+      "promptSha256": "5e5e63622107c83b38e11900fb303ab15d6b11198828b5d848dd7565c8714636",
+      "textSha256": "5ec2ac3e07bb0a17a3d8d3d4e8019e271339566c30dbd7f000b5cdc26c8aca79",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "0224cf04-617e-4269-8c06-66ea4f99fbbc",
+      "durationMs": 25538,
+      "elapsedMs": 26513.105416000002,
+      "costUsd": 0.15073199999999998,
+      "validation": "passed",
+      "authorDisagreementCount": 1,
+      "objectionCount": 2
+    },
+    {
+      "id": "blind-additions",
+      "role": "blind",
+      "count": 20,
+      "currentTextCount": 20,
+      "review": {
+        "path": "/tmp/000026-holdout-v2-blind-additions.json",
+        "sha256": "b824bea2da4bbbf855a74ed9a89790726c21aafc17b4dbaf6a480e835c3ce2e9"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v2-blind-additions.json.request.json",
+        "sha256": "b53971e1a0fe11eeebc0484e8fafbc4b70335916fc910ff3f47e97ebdc8e2b8f"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v2-blind-additions.json.raw.json",
+        "sha256": "521cfbfdf07463682e6c91b7f78efc9230583b0a1b08f3f5681253cca076dbe8"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v2-additions-input.json",
+        "sha256": "eff9ff2e4342772207da54e5fdceda763adf9b20a1c1426f8be3761d1bdc59ce"
+      },
+      "promptSha256": "d53b857bf12a991c8bd12ecd7efe6b19ac54746810b520ac0cfcd41597fc12fb",
+      "textSha256": "d12aaad989d404ec93c1eadf92a93b3d3d82883e39b23a6636e632ebe1fc64d0",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "ecb0c52e-f1ca-4758-80b0-a22e15756088",
+      "durationMs": 13001,
+      "elapsedMs": 14616.783166000001,
+      "costUsd": 0.082744,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 1
+    },
+    {
+      "id": "adversarial-batch1",
+      "role": "adversarial",
+      "count": 80,
+      "currentTextCount": 79,
+      "review": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch1.json",
+        "sha256": "be27135626a1aaec0753d8a774e5ce563b25160885820b013a01391cc43475b4"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch1.json.request.json",
+        "sha256": "fce539d7fda980e5af38f54a495b4d1f3af9ec2b60f84a77f51d00b77901f473"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch1.json.raw.json",
+        "sha256": "e4f122161ee26f28c31ea1e1546228092722ee92ed99468868c37958ed774420"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v1-batch1-input.json",
+        "sha256": "a90b06946477e6d7454f70e2306f3004a1c755164da99b705e66e2236518a25b"
+      },
+      "promptSha256": "d2ccde8014cf962177c0d2f761ea3bf5009bde2663082c74ffaac8577c883c70",
+      "textSha256": "665f6e4f1fb8c91d1a0132c1c72f93b0deb136bb3525a27d468ba577e578a352",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "6489d359-d5a6-47e5-8722-6a392a0f648b",
+      "durationMs": 32094,
+      "elapsedMs": 32986.084375,
+      "costUsd": 0.16141460000000002,
+      "validation": "passed",
+      "authorDisagreementCount": 1,
+      "objectionCount": 1
+    },
+    {
+      "id": "adversarial-batch2",
+      "role": "adversarial",
+      "count": 80,
+      "currentTextCount": 79,
+      "review": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch2.json",
+        "sha256": "c7ed81650e20ff6d5f13da03795530629be7431ada00d441d6fb3e3b17a3acc8"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch2.json.request.json",
+        "sha256": "6df9354ff7f5ed4351f6a43ac6b7f56dc51a7c9ed42357d45bb51ce4f5038420"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch2.json.raw.json",
+        "sha256": "fcca1577f80c0ab1a7b5652ed9e8da72dd92c859033cb36b481f8ab9081943eb"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v1-batch2-input.json",
+        "sha256": "ea6341421327be757a4558bca8b342d1283b714121295a29be8c11ac5efa37ff"
+      },
+      "promptSha256": "b6ea9cdcc9a1cccf89155a69fca48fd43f988438a4e32bd9591e9789ae24f0d0",
+      "textSha256": "703f268849e4ee552a597463d99548f7d70d373486254588a8678803f424c6c8",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "f69e6718-d1d4-4b9a-8441-faed89dabf88",
+      "durationMs": 35490,
+      "elapsedMs": 36431.163250000005,
+      "costUsd": 0.1719946,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 7
+    },
+    {
+      "id": "adversarial-batch3",
+      "role": "adversarial",
+      "count": 80,
+      "currentTextCount": 77,
+      "review": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch3.json",
+        "sha256": "528162f1fb739e96f257a44b4f6fb0fd276e8d04565d436891444af32acfd382"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch3.json.request.json",
+        "sha256": "6efe49882b5deba41ad3edefd0c97793579342920b3623348d8edeab3b7c0597"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v2-adversarial-batch3.json.raw.json",
+        "sha256": "03e7153245c3d66a3006c31024db37de724c127ff0274844575f014a15104234"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v2-batch3-input.json",
+        "sha256": "2bac4eaf4a80f89f8882c84ad5bd26e0e7b7d713e6c67ba9b4ce137ceb68074f"
+      },
+      "promptSha256": "b4920ac30047462499c3d5152976d7059d20ebf462f9f5a8af82debb217b33de",
+      "textSha256": "48a14b6c78041f1582f24526da6488eb5165d3136c8af0eee29a383ad06722ed",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "29ad7160-a59e-4754-aca6-adfae0f70ac7",
+      "durationMs": 37565,
+      "elapsedMs": 38931.453541999996,
+      "costUsd": 0.19575199999999998,
+      "validation": "passed",
+      "authorDisagreementCount": 1,
+      "objectionCount": 2
+    },
+    {
+      "id": "blind-repairs",
+      "role": "blind",
+      "count": 5,
+      "currentTextCount": 5,
+      "review": {
+        "path": "/tmp/000026-holdout-v3-blind-repairs.json",
+        "sha256": "95a798ef4d0ca95c85bf249a95eacc2a492fea0f83ac74767aff5f37a1109ea1"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v3-blind-repairs.json.request.json",
+        "sha256": "2d0882b4c6277d038e320360bc9c4f1b4e23decb3fe76cefc05d850cfe6b94b1"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v3-blind-repairs.json.raw.json",
+        "sha256": "0cf356f5c1602612f15f1e8ebde7f1c5a91127ba02a5e84161a03b93f945ead4"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v3-repairs-input.json",
+        "sha256": "4e400c7df194b338ff1a2e18795298e2fca87adf37657eec2ca6274c8a07f272"
+      },
+      "promptSha256": "6190b1383be57e8f11893962e055ff19a44e3f6a69f060f5995b1bc5f196bee3",
+      "textSha256": "7715007b36f72ec844623a82b3701e3b1734ac3ddfe26cfdffcf74980db9a5fb",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "ec3353aa-cff5-4e9c-b109-846f38fbbf27",
+      "durationMs": 4828,
+      "elapsedMs": 6135.071708,
+      "costUsd": 0.049904,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 0
+    },
+    {
+      "id": "adversarial-repairs",
+      "role": "adversarial",
+      "count": 5,
+      "currentTextCount": 5,
+      "review": {
+        "path": "/tmp/000026-holdout-v3-adversarial-repairs.json",
+        "sha256": "b1ea87d29da6bce9466591537149f8b6f4fabce817e81689c221c47f91623965"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v3-adversarial-repairs.json.request.json",
+        "sha256": "eeff03a80816be899b93654dbbf1525ae3f022c982b33aec5b097269d7f0c8bd"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v3-adversarial-repairs.json.raw.json",
+        "sha256": "912062e372b2fae27212f955e3a44280beb7bbd454989eaabd8a6910f5acd181"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v3-repairs-input.json",
+        "sha256": "4e400c7df194b338ff1a2e18795298e2fca87adf37657eec2ca6274c8a07f272"
+      },
+      "promptSha256": "478365cc9d3b4403ed3ea4b5fdaf89dfecec623fbc0b01dbc8dedf52647cc252",
+      "textSha256": "7715007b36f72ec844623a82b3701e3b1734ac3ddfe26cfdffcf74980db9a5fb",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "0f417e59-a43b-49e2-b6d1-6a1342e1049e",
+      "durationMs": 5462,
+      "elapsedMs": 6906.755916,
+      "costUsd": 0.0334126,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 0
+    },
+    {
+      "id": "final-batch1",
+      "role": "final",
+      "count": 80,
+      "currentTextCount": 80,
+      "review": {
+        "path": "/tmp/000026-holdout-v3-final-batch1.json",
+        "sha256": "d045625a884feb2c622e2caea4a3b27508907fe20f7b29311b0ed57983a9cda5"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v3-final-batch1.json.request.json",
+        "sha256": "62b2c1971b1bd3c44d415f1fa22cc366446507dce97e89ea493fa3faddec43ba"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v3-final-batch1.json.raw.json",
+        "sha256": "f49bae311983b06f957abb935182c463d23f9c7fa0f74deca246aa74eff33273"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v3-final-batch1-input.json",
+        "sha256": "3ff47cb51994c16f8e5161d1560ba4be146fb7382778b0824c73f2660f97e275"
+      },
+      "promptSha256": "e530f05562b4959abf3e0812d92d60e97cd9c1d92b61f2fb3264b35b095740c0",
+      "textSha256": "90947aed9ac49237f9aa5e2c887307d83e83eebe63a30e5088141c01e84857ca",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "5c2933cc-f780-4826-a1ef-c87f0d09d950",
+      "durationMs": 29960,
+      "elapsedMs": 31474.981542,
+      "costUsd": 0.1546866,
+      "validation": "passed",
+      "authorDisagreementCount": 1,
+      "objectionCount": 1
+    },
+    {
+      "id": "final-batch2",
+      "role": "final",
+      "count": 80,
+      "currentTextCount": 80,
+      "review": {
+        "path": "/tmp/000026-holdout-v3-final-batch2.json",
+        "sha256": "381e01818f496d99edcefe44bea94accf89e19a80725de6f6793e55b85582164"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v3-final-batch2.json.request.json",
+        "sha256": "b7cbcce6e49e1780f44c496cfdde1522bca8d27906c4f5682a121f22861197f6"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v3-final-batch2.json.raw.json",
+        "sha256": "1974ebf1fffc478dcf86dcbfd51b49d13f00a92602d7057e36c964e529139e33"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v3-final-batch2-input.json",
+        "sha256": "8f22f7f3fec567e4b6e16009110fa56e57edd109cf9e444d919639c6be8824e0"
+      },
+      "promptSha256": "8935db02f04c8a4a10e8ad502f5676dde953cd9ee21e2f924f169f90a32d1db2",
+      "textSha256": "a05a66e9a2628b1839adb04c21227908fac4c9687414b1a890cfa9ec9628fe7b",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "ed8e4c9c-3125-45e8-be07-ffdeeb48fcbc",
+      "durationMs": 29796,
+      "elapsedMs": 31229.001166,
+      "costUsd": 0.15255059999999998,
+      "validation": "passed",
+      "authorDisagreementCount": 0,
+      "objectionCount": 3
+    },
+    {
+      "id": "final-batch3",
+      "role": "final",
+      "count": 80,
+      "currentTextCount": 80,
+      "review": {
+        "path": "/tmp/000026-holdout-v3-final-batch3.json",
+        "sha256": "61edfb2eb350beee2167fbd81174c21b33b90193331faddf3f9d842d6243d1a2"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v3-final-batch3.json.request.json",
+        "sha256": "fd253afb82ebb9fb320d768e997b8ca4c755f7271e0202009809567d86578e33"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v3-final-batch3.json.raw.json",
+        "sha256": "fc2f8c1781db6efb178fa42308e7551f48e2132c2483daacaad9ab452308475e"
+      },
+      "input": {
+        "path": "/tmp/000026-holdout-v3-final-batch3-input.json",
+        "sha256": "7f89b5557f0358118327deb22f992c2b5cd814d8a917347dc334ece44ee31905"
+      },
+      "promptSha256": "c7c33e6a824668d261f115d8f0b07be3789c614fa4eedb4dcb2b1c6f59753411",
+      "textSha256": "8fd6c832c035e96a5c0b863335c9e30994b5fea873c1e13f4bcc0bbb0d1006a7",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "73287baf49744339749548c8a25327ed316246548f28ac7ac01ebbaf81d20f89",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "ccb7da79-6c8a-4622-b2cc-49c347d20921",
+      "durationMs": 35612,
+      "elapsedMs": 36934.738083,
+      "costUsd": 0.1632906,
+      "validation": "passed",
+      "authorDisagreementCount": 1,
+      "objectionCount": 2
+    },
+    {
+      "id": "focused-boundary-adjudication",
+      "role": "focused-boundary-adjudication",
+      "count": 13,
+      "currentTextCount": 13,
+      "review": {
+        "path": "/tmp/000026-holdout-v3-focused-boundary-review-v1.json",
+        "sha256": "90bda5b71f271948fb15eaf13ed0e49060409e73390b9c637a749c29e0f9039d"
+      },
+      "request": {
+        "path": "/tmp/000026-holdout-v3-focused-boundary-review-v1.json.request.json",
+        "sha256": "7620b8dfa1b49149a45d71dd2b78e6d876a66cbc937e1b2731fdf227b9978cbb"
+      },
+      "raw": {
+        "path": "/tmp/000026-holdout-v3-focused-boundary-review-v1.json.raw.json",
+        "sha256": "e8f89f343e35e1c5c477c64b41d118cc3f16362eb06e3261fa677c6ca6340e1d"
+      },
+      "promptSha256": "58c98d4c373bf5dd5e9f9a0d0e6928db79da4bc35ba9f7b039de5be9a36f44bc",
+      "textSha256": "5c5ca58f62535c7a0d491a2c19156aa6b38113b280ce1f38beee3defed7e467c",
+      "taxonomySha256": "c98b2193b61330650f166b72f155a32234647cdaf7ae1255ceeee6f60c35fd3a",
+      "definitionSha256": "b91dac8dddd357502d08f9ad47ba056acb055d6985feb1b1b1d99a8d4379c1ca",
+      "reviewHelperSha256": "2197e286499fe1c1f76c2c82d293687694f99b7b400b3c8b2702ea72aab2b15b",
+      "definitionHelperSha256": "0f97be426aadc31323f33b6c1e1f264617f68b30cfe48484c8909349e40dfff0",
+      "requestedModel": "opus",
+      "actualModels": [
+        "claude-opus-5-5"
+      ],
+      "sessionId": "b97275f3-4b0d-4ce8-b6bf-4d24b7c4fd75",
+      "durationMs": 39915,
+      "elapsedMs": 40924.786667,
+      "costUsd": 0.17168119999999998,
+      "validation": "passed",
+      "authorDisagreementCount": null,
+      "objectionCount": 0
+    }
+  ],
+  "finalJudgmentProvenance": [
+    {
+      "id": "000026-001",
+      "textSha256": "f7ba8979eaa47121c13609289f08634994a025a16b9bb1d26fc3ff5ca7879ff5",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-002",
+      "textSha256": "d9851ed190d518d92bd34aef216a09686d91777b73da65c4a514f731cf6e4005",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-003",
+      "textSha256": "cc8b6516fe8e98d502244450aa04b71eb9d7e4b34d58b4418689dd481c26174e",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-004",
+      "textSha256": "b61622717b216f04050939f5b042580458f6ea0a0683288282fbc6eb1c1d4ce6",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-005",
+      "textSha256": "d0af9399c2c7edb844c38d963d9ce536fceed641dea89352882a7f154440b57d",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-006",
+      "textSha256": "1322c831625e1787857b705574ec12883a05cec40898986b8c8aed91fb4b98ae",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-007",
+      "textSha256": "295e91e319fa958421539c30ed3e01824f9a1f64e6a17f56b99fb973dce97064",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-008",
+      "textSha256": "88b8700400b75b7feaf7462d87dbb185df759291a5e422b3cc344c308f8dbb39",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-009",
+      "textSha256": "bd186a0f4f87acd5cb3ec0ae9c953316ed202111b0cf0efdcd757d77d400ccc7",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-010",
+      "textSha256": "15db2165bbcf9493c2eb6b03c8e182df064efee002e40c3ae54570a138e0ebb1",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-011",
+      "textSha256": "6d270dd63eb1a852b16fda5ba49e4cb3b2d3a8d92d8512d945a5f86cf4b67da5",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-012",
+      "textSha256": "8ed6ab61d43685cbb705b972ecb6f0ddc119ff403ed2196590602e8bc16639db",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-013",
+      "textSha256": "77a9b4997d8e4372fa31f6829ba4eff4b50116001e439f0250ed7503f468f72f",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-014",
+      "textSha256": "a6f29e660857ec0da7fe178e7655ee199bcd0f670b9e22ba818994708a250a54",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-015",
+      "textSha256": "54a979ebf3951e07d654bf557cfefc52c202713b9510388aa54013166754466c",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-016",
+      "textSha256": "447060b022af4ff52741e02fd17fe83166ef6c026c3d4e295a962e6d191cee6a",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-017",
+      "textSha256": "da0ba370f38e4104dcfaf5eb0ec5108514f493b38414dcbbfa82111cccadfbe3",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-018",
+      "textSha256": "a3e7ad39d1266ecf047ed1d9e0219aa8d0082081b8bcdb0e944408e99a109871",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-019",
+      "textSha256": "d74f69ec8bbae0e5c1e66ace6f9638a918f1430cd68839d666646c7f2e4862d1",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-020",
+      "textSha256": "5d6e5b77613aba1267da869418b954d5acfa579ea09ea81e6cf1df5d7ca23cba",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-021",
+      "textSha256": "4a2b5e5fda172e44cffec16c4dedaffde0af2f369d89f9666215b125e0b8dffd",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-022",
+      "textSha256": "b4251c412109808c3c774b716405e3d5375243e478af3f6c7006571059b04161",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-023",
+      "textSha256": "bc89949646f8203dc2b8c1229c63bff6a97a09d6931a2412e21ce6a7e5dd1995",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-024",
+      "textSha256": "fe6349043425e6485e5b7897446391f79580423a495a126baf9ba6280271909d",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-025",
+      "textSha256": "6a5d06863d2bd9cab346387e65a7a6116808c0dd14334dce032b3a9c47622999",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-026",
+      "textSha256": "40b8697661b9563362554157474e25b584ef7d14f092a447f7ad35db1017dce8",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-027",
+      "textSha256": "1908a9648d4a2f0ed6ea06d4bd3e86ece0da4fbf78d13ba7021c6454345ea585",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-028",
+      "textSha256": "90e5144495cc45aed16548be76edacc49fab2c0df5003fc56831c5227119dcec",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-029",
+      "textSha256": "d9f5241d7dc77013bf9716194d238abc23875133340a3ccd3ebd8d837efea733",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-030",
+      "textSha256": "130f0a5d5af2c9709fb2e4aa95faceae1bc4ab0719e545591a6112e5113e831a",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-031",
+      "textSha256": "6e03cfbcb28e7410c9266c3031a2d3105476a5017be0f09067040b0da079d290",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-032",
+      "textSha256": "f83cc4ef90bf774fd7cc0b42ee23f4924f9c635682e6b61a61942d581e80ddd0",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-033",
+      "textSha256": "00dcc601e017a7555d612d866e8e63f52bb86a4964b28b949487068a8a2bdc83",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-034",
+      "textSha256": "36a386b720886f368073ab42fc075664a137f0a79ee6d5ceccb6b621ca91e291",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-035",
+      "textSha256": "9cc08f5780aa63cb52ba05ac7edeed1ba82142a66ac357d75cc8c95dd6dcc848",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-036",
+      "textSha256": "c8d71fa285faa6e7acbf8510eaae6e68ba44ef70a5e0ad087d3162b2294de9db",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-037",
+      "textSha256": "44080de375926b257a81762bf49180f6bc6b15426b6a6fc533ae616822703f6d",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-038",
+      "textSha256": "914cc7103df9fb687d197482244f976cd7241ba7c2d0dbd0bc16943c9587c00e",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-039",
+      "textSha256": "da2baaa1f0e3b8cc17bcc4b3bfcedd9b679d927bc287c584a0ade997922e3598",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-040",
+      "textSha256": "5d28317e710a09fec96049f151068203990b23422e945cbafac21f55469bb3fe",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-041",
+      "textSha256": "213159d4f73853429261f28d0c7343de15dd1a92dc8a6976f22294ba7e4e3457",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-042",
+      "textSha256": "55e0ac886925a44eb275e6fc70e9e4be53520021ad474ee1a00da333c0ea3cd7",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-043",
+      "textSha256": "aa315395dbab4a35a6d5592f7831874f807e2b9b77e5c9b52f0a8333b19a2d82",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-044",
+      "textSha256": "c32421a61e31fed63ac76ce993d620c22c220ddefca73be1395a7ca02fa90ec8",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-045",
+      "textSha256": "74fd5cf4d68c008733c27d0b8bda113c6f477149c464e3e4b06fc97941baf4bb",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-046",
+      "textSha256": "88153bdd168929480db8c133b8ada86b0441304dfdadc0f2115831c7f227db4b",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-047",
+      "textSha256": "a7d6a3a4abb0a106a78577874c722673606dd7e18b7a8caa10dfbabe24a8fa8f",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-048",
+      "textSha256": "cc488a3200e02bd7b75975f3435565815d6423858607f4fa63caf3dc9d031203",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-049",
+      "textSha256": "7d5a15330d6c9338fb4f9a7896c2ee99c7d51157a87677b32a7edcb4e683bdb3",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-050",
+      "textSha256": "069b6d4795977670d29257a450bf85d6b70fd79780968880f837eb9cc2c7b142",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-051",
+      "textSha256": "ca9ee168b35a8c3d94936f3603d5101dd193691d4f2b8a18806c92c91da6fdb9",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-052",
+      "textSha256": "9da9e65ab5da03c08c79e4844f61cd11906637529b7d2203eb81987607203ab2",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-053",
+      "textSha256": "ee9cce7447f3160f3050f569a597af089f5b80367ef7294fb6f41e53841304cd",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-054",
+      "textSha256": "44ce243ef8c32d256ae6e1cb30b13bc916d9c04f53328533a35b385ad770aec0",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-055",
+      "textSha256": "901828315ad7fbda7d2e0b90cdfa08343c79b0874154ec805445850feef07a63",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-056",
+      "textSha256": "3c307d01113f8bd162a3e9283a99bf0d9e053bdb74e3f7088c2717408228be79",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-057",
+      "textSha256": "8ef0079a2027e9d31f6f5d9be7a5d12b87acc45cdb8846182b0626095bc05f79",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-058",
+      "textSha256": "ce2237188def5a51ea64e7b4f6c31c59c872808fb656b303610208c0e1a32153",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-059",
+      "textSha256": "50148ddfba8b6ee64c131cb193b74d4b55a431ba3894c6e64119914189c8eec0",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-060",
+      "textSha256": "a5c044e25044ded4ec04d6376038352f11fc8f6604e249ed5edf9a9cbb827fe3",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-061",
+      "textSha256": "1bff4442d56551738e2b5fcd943372ff5ff18ea7bbe15a17dc6110b671ce1e9d",
+      "blind": "blind-repairs",
+      "adversarial": "adversarial-repairs",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-062",
+      "textSha256": "c0c5547ca8dc41e2cefa5d9b62217384a3c2b5c6da8f5e406eacf25bf46cee76",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-063",
+      "textSha256": "9d6b5b28f3ced4876cf06b58e8788fa714a18983b1487bdfa3e066a97499bff9",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-064",
+      "textSha256": "d6339fb559b1f8656539d634b415c18713f0060d474f2370e4f0790b224fa394",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-065",
+      "textSha256": "56fce17099bcb06a3a4ae2beeeb25166bbe7158203726d44b140e5881b241732",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-066",
+      "textSha256": "996fcf0f5570b0bc4271712e78fe4b9046a02a93c0ae7cb64f054272f9801c44",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-067",
+      "textSha256": "0e72d0d318e760817d6ca9fece99bd807562dd354a917c4a06f9c847de2726b1",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-068",
+      "textSha256": "4896cc60d6298c738c150852531fb1b4a93e5719f0b106544a357b208e24b3f8",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-069",
+      "textSha256": "9a5bd6912ed3e37cde48b54479b5af1b7cc83820866c928fc146d4d7c2f32cfb",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-070",
+      "textSha256": "f036d18b34b5134bd5ddf6b28dc68eb229b8283ac65abe69b3cd5898becaec0f",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-071",
+      "textSha256": "04c6885cb9954c5f2dc5693b241db659dea2361ade8e8a06d7cdebee8680a0f8",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-072",
+      "textSha256": "ba4fc92219b4a3a1c536483354d34d092c2814be671e4a8a8d1b9403b3a18853",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-073",
+      "textSha256": "a9c5a7a1cf7bfe6130528f2c6095573cba78f2305263c25e15647ba778fc9ae0",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-074",
+      "textSha256": "149cc1cd86f863267350d032f492ca59acfeef4171e575b72936baebb474d692",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-075",
+      "textSha256": "db0416d2d2d6e8c5bd9d909158129d93055f6c8e9962446b47f89d18a4d82870",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-076",
+      "textSha256": "5a6383fca0142e6ad3c7a0c41b984ecab284767b83c7dbff09515d713f2a60ec",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-077",
+      "textSha256": "10aa175689c535d63a63cf43ec7741e31eda05331c55070e492107e2db67c4c4",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-078",
+      "textSha256": "69ad68fd88b7177c76623258350cc7d2de63da720d99f810829112e5bd10e61a",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-079",
+      "textSha256": "e5ace4fbe7a89ec065744f8a79afade58b73082dab4fd1e5b6adda672c6d895f",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-080",
+      "textSha256": "690b8c08a9af471e0eea56417102bc5937e77202035cd96768d62e8aa49e0897",
+      "blind": "blind-batch1",
+      "adversarial": "adversarial-batch1",
+      "final": "final-batch1",
+      "judgmentAndSnippetSource": "final-batch1"
+    },
+    {
+      "id": "000026-081",
+      "textSha256": "09966e9ff19c48a3db03d8bef874ec48262c3ed29cd5943357d0e85201425dcb",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-082",
+      "textSha256": "ffde86fed4094d84b9732ba6dc733286443c944b75b60463d600ce77ff8de37e",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-083",
+      "textSha256": "4a0e5c2e41f3268009dd35c24a639e5297ebd02cd5f330411b1c0f3a21cc5a6f",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-084",
+      "textSha256": "c36f6edc59e45b390df63975f5f72ee23e14a71a604c9e256e2f00fcd60127ea",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-085",
+      "textSha256": "76ffd1b4bfe949a14a19cff42c1f27425bbc15b4aa40782b1346f7e67264210a",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-086",
+      "textSha256": "039952554f4dd5d01e169d5d1abc673c057c4b5b91a775f140787fac65b9f0ad",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-087",
+      "textSha256": "f7282a395b6c3a59d9b61611cdace9e8cf957785239c7151e721d8e587371237",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-088",
+      "textSha256": "aba62af5c0c2ffc8c6e3cbf32d14d19f38fd105d3c99fad3879975ab88b15a8a",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-089",
+      "textSha256": "6e741c7a83b136318cccc410c97177b507db659bd723487c37a7a87e80f8d652",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-090",
+      "textSha256": "35e2c33d895e2fcf753bc871bae5b7622ef9773ec467442bca679777ddf531ec",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-091",
+      "textSha256": "460fb1cbfd795495e404d2e82b90bc499e146eccf31ed2a78b22db3c674de503",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-092",
+      "textSha256": "e08dd816cd2c43f0bfe82157070f2c545d41d5fcffa8a8b94db30cb559b88e92",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-093",
+      "textSha256": "27f49ea4ccc171ec5cd10f957f25499fcce26f432776c514356b3ed62c42f5ff",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-094",
+      "textSha256": "904ffa5586a2661d74fb33a82bef891c9a7dff443ea5a022608b4656ea5d1849",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-095",
+      "textSha256": "f84420a3cd5575c4eb8b786f7ed5fbe9f93e7b028cbad2e540f4aba7b6274fd2",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-096",
+      "textSha256": "b299684ec34522e72029f8b8186b6e00e4cb0ab8fd85a9d231489b8d1c6460cb",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-097",
+      "textSha256": "b9535c52d4876960a44f8c05ef4e1eb9b78d7fde98f16c2b4edfba2a55befe40",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-098",
+      "textSha256": "260ca1665bd5490901f9501f05634d990d8d5779f0686d9a38ea2fc29d45e34d",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-099",
+      "textSha256": "b0f45cae29ed1a2c007c4bcc33a7dbfe8f4b63788d2fc185e638a03a48228e07",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-100",
+      "textSha256": "bf3cd38b2b95c1fe42884944873bf90fe4f35d90c914c19f2d15fec7d0649200",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-101",
+      "textSha256": "9787141d526030fbb6801641e0811b7d9011b2355a25fdcbcf9052f0660f3e08",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-102",
+      "textSha256": "b15ca6af5948b7ebc7e184f244a0b5eb7ccf142d0e59a3f4aa429dd77c6f5679",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-103",
+      "textSha256": "47f3f47b2f7974b46a5018349e3d0c1493994be38b8ac268030df7ea33b049bb",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-104",
+      "textSha256": "ce7635e6dee4a84ac0b97ff381e15c8f33c2622c6c29897937743908d72ffe77",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-105",
+      "textSha256": "6107c5fc489b9d32bb00d049b7a4c2d68919a0da7dc4ef283167ac1141787681",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-106",
+      "textSha256": "892c9352ed9f7428da7b1b5096c8442cb0bed2ac2f3103a19b52d9281b709cdf",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-107",
+      "textSha256": "0f25a1bd26946bed6dc5febfd00e07c3180083c38f79275cc32ff9387ac54caa",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-108",
+      "textSha256": "df4237781aa2e70f220cf749d3b1d8086949effb28886ce4b18a68da8d7d8ab2",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-109",
+      "textSha256": "a47754c5f8d1c90149d5d76cbe35c4ee48a7342eb8e4fcea957af4bf759e9772",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-110",
+      "textSha256": "f508843072a0a61063ed1c1af6a024e3c12de2d83a61c677362d1617552fd0e5",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-111",
+      "textSha256": "3329af90959c85786e64df8bb15a4ccf15e763b0329ccd5707b112f9ce57f5de",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-112",
+      "textSha256": "e1c9a0dd9cd9946ac9c7c408a2d6d9ccab40b22dd564776dcbca63e258fd6db6",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-113",
+      "textSha256": "76238cc6fc64016974b2b8481a09016c6b076db716c2e4cfab7b1a789d9f7eef",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-114",
+      "textSha256": "a7ceba3cddd9f7a7e0946618a6fab788bbff6a4c81a4cbc7d6fce79ff2961702",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-115",
+      "textSha256": "389294f80263483121933b07e3e2b56b40a9ae2a381b560ffea4cd01beb09a25",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-116",
+      "textSha256": "5dbc93df5b6f2286b38ad5f0ca904276872d8d639f9142246dab071dac201453",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-117",
+      "textSha256": "1d055ddf0bab2cff9d3b0a7421ecbd3a0bba9d99aed24c344b3c23586d1f3b87",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-118",
+      "textSha256": "cc8afed5df98b37d1502fc98a4f0865b0e8dd96f64ef2ef79065685a0823f053",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-119",
+      "textSha256": "fe31e7d6147ed3265d25b1e9c0b1b09b2428e45aa37a65f0960fb001a82f26cc",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-120",
+      "textSha256": "271fabae9d206f92f6b5d44d70190f3b3df96b4a5f68dd844b3e695dd18d7023",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-121",
+      "textSha256": "df59b2cb9306b29069516973aed45c3410ef18594e3ecbc2a0205c206b7b38bc",
+      "blind": "blind-repairs",
+      "adversarial": "adversarial-repairs",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-122",
+      "textSha256": "77fbd604c29b366da320a6af2e651134a03170c5f55b50cbd884b531c381c9e6",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-123",
+      "textSha256": "1c96a2d79012d547ddedf564e39e14d0de2292ed8e0fecd8e75ce9493820ce96",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-124",
+      "textSha256": "255bad02c51af6bbbd216fa11c595e8df251e1c6e57aa9ef5204988910e6767b",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-125",
+      "textSha256": "25b674edf3fef9c0ba2b9a798394a33dbfe11424b234f4e36226648c1ec90844",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-126",
+      "textSha256": "d348901ab6a2bab72a64305089071bfe1fea912e992115c0bfa75490a2c7a8a0",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-127",
+      "textSha256": "b92cc1f74c3f57f7055f860d987496b9ee957aac70a40524879a61b10e34e046",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-128",
+      "textSha256": "ae057460660cf8d1ea2cb15016e98a749db9fb2c85357ae90d657585d6f9554d",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-129",
+      "textSha256": "f8934164383090fef213e76ca5fb417def1e85be270baf69408cd828aff2e003",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-130",
+      "textSha256": "92f7a076aaffed3fb089dbf3b8d594faecb9ffb40ed250bb1c0aa5f95f97a73c",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-131",
+      "textSha256": "276eb705c8153663136dc178c8ddec16f339cc2bef2ec48d553ce5876a2943b9",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-132",
+      "textSha256": "107c8245b47c87ac8857ded7706355f53da7c70b9bde703ba9ad94bd40e19498",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-133",
+      "textSha256": "c3c14c13ceb419b3b29ea0881daa5da64b6f3d826df04f49c0df02042449f16f",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-134",
+      "textSha256": "a374d6a66758b9fe942222bcccf9b034e90ba68357d88ea27fdcf59ad205041a",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-135",
+      "textSha256": "64bca463cb2e740dfe74f8bc46f3a0dbf4fb252b96315f94be182056333f253e",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-136",
+      "textSha256": "976faab8f328fba747abaedd9c0dc971b5782c7ccc5dd6970238d2dcf84f709b",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-137",
+      "textSha256": "1b5c74348cbb204ee893b0defe345a796674e5f108d47c2d6bc9cf4e6f07a27b",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-138",
+      "textSha256": "e067de657c15543d63738dc4486df507cf9bed44b1402cd620b8aa3e042d09aa",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-139",
+      "textSha256": "66fab787961e04426f96252046896010c9974892c5a99b2623206bd3d6c960ab",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-140",
+      "textSha256": "782b62ab6227d06de904ce5fbb8c3cb3afc7f42c237d97297b1843be4e82c9af",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-141",
+      "textSha256": "5ae310a5cc55f10073896ef5a66a9fe4b53d888fd7697d71f191dc2123753d4f",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-142",
+      "textSha256": "862560f94a05f30662197aacba283c403a53846a38344605431453e1098f1b40",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-143",
+      "textSha256": "54bdc91b321e4899f10e16cbadd9eb6ebe60d4e8c6ed279bf9e8f6318267d71e",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-144",
+      "textSha256": "857e0f4fdbd6518b7dbafe6d0c7232213040803eea40199c732bd8f336170583",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-145",
+      "textSha256": "56a15baff64e44733e54e3801f7eada3df2dbe5c72f9b46688b58ab4712d764f",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-146",
+      "textSha256": "a41080bbc4636a1481f00bde0e23f534f92b06e5c440ef7f05a2a29124a8b2c2",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-147",
+      "textSha256": "26b6ad39a28e82b9ef04db7f5e698840a84b51ec1454ca868c12851702dbe413",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-148",
+      "textSha256": "147a42956677e18c98903b4ed456a0226193b15492f9ecb95ad8446f8fe02d35",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-149",
+      "textSha256": "a6d54e01dd7950dce32cc8b3390ab937f0b7e4b11695982c2a4e148de16dfb0d",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-150",
+      "textSha256": "c55b92a3a15f8c68f68ded107a137845c1802518289c84c6958ee035590cc6c6",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-151",
+      "textSha256": "0877d5b4b166dc7df51c0bdc4391c7a618748b8bf87d752bf56cefd2b2a32c17",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-152",
+      "textSha256": "b3c43be24bec12555cf44f87153e07cef83414549434d9365ebe039850d213ff",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-153",
+      "textSha256": "ea41a55945be10f8386c67e46c4ad2fcefe6b278568232b732292d0398ccb550",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-154",
+      "textSha256": "c001f3eecb20693a706fedb95196fdf0159cdde438274d6238e234bf6f65cbc0",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-155",
+      "textSha256": "b6cb90058712bb3e5a5ccfdd27258c45c2c3498166a7b3c976882214b14d914b",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-156",
+      "textSha256": "7fb72f7c4c4023feead71b8c69264f8429da74381c4d1fff16f3d8af5c5d2e12",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-157",
+      "textSha256": "c42c02b96a77a1be3a76b0409fdf7a72d838ac602e32104a437d04adfadc16d1",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-158",
+      "textSha256": "9e66b41a0805290d622973903a80659c15db6a2b1dad8fc9bc09229cac7224c6",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-159",
+      "textSha256": "2a45d3eddba2654b125fe9141fa64829336d82ad822e529acfc461faa1917915",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-160",
+      "textSha256": "deb03a5d13b45de0732e88ab7a9245da5c7033da67cbd7e5b01010227d84c423",
+      "blind": "blind-batch2",
+      "adversarial": "adversarial-batch2",
+      "final": "final-batch2",
+      "judgmentAndSnippetSource": "final-batch2"
+    },
+    {
+      "id": "000026-161",
+      "textSha256": "ef0c6622f11c2e93e2909da8e9deaa40d4254515a3f49940656272e55b41f665",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-162",
+      "textSha256": "a6ff966d05ed906de74c08645492c123646acd08d667a77ce7c1e475beb0faf5",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-163",
+      "textSha256": "7d02d6792ec1ecc10e4b86200276b921c156697cf6d97902f17224b8ca31321b",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-164",
+      "textSha256": "8342cf65997765911b7e32f9d13acae05b84450b7a1fcee4410c1ad286c9aa1e",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-165",
+      "textSha256": "97263ada6cd4875a3001a2f8a56b3d81e010487fbc6ac94fb77390c27adbd76c",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-166",
+      "textSha256": "2dffacc03f34821fda88e41a8c53da02959a4298e9e105f63c885e763f6aa056",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-167",
+      "textSha256": "f267394d06fb961a61022afcdc26f2e04aa4c8bf1b5a2e6bdd606d44f774115d",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-168",
+      "textSha256": "d6b6c257b3e70f0aa26ed781f85bd1608c57569357b47f064577df772abcd02f",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-169",
+      "textSha256": "9106a2309276fed09be47066393aea00f522cbf235c9ef1a2e8cb80e11533630",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-170",
+      "textSha256": "194cbe827ed16f26eef4d193cd8521318da10fec985dbe9662b195e34f4f7a5d",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-171",
+      "textSha256": "294908743c2d7dea6d6e9d7379f68f647b5ab7d877feaaa71c5bbafd8e198ef4",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-172",
+      "textSha256": "655976fe78499ca2bbc3f65c4f04b81429f73c471954bbaaa88ff99977b5ac63",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-173",
+      "textSha256": "de061db1dc413cd54468a12e656114896fc6894839beadc83406b76ed7ff5546",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-174",
+      "textSha256": "60bb18e89262e317eaa8300bb7a76d9f4dd5d8fa5397878e94e5979c8f3bb14d",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-175",
+      "textSha256": "ba3e4609143596b7174a2a12203b130e17df03c7b5b8f27da636821aeb7f99d9",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-176",
+      "textSha256": "f53a998e9d587cd76e27e759b1034e0c9f5b87148a92584d4cbc718f4c4b5914",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-177",
+      "textSha256": "5c6a10dbfc5892c8db6c04996962fb06b71e2d077471eb32d8107a7523539ee4",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-178",
+      "textSha256": "310e14b785ec8ed747fb2ac9872f4daa5507b5bf4b41fd6817f76072927d0151",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-179",
+      "textSha256": "14da28e8bf62a3d79b5c9ebf6b2fbbcf33da37686df871bbdc51504cf2c7503a",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-180",
+      "textSha256": "88e592edda6b19347564bb57dec1328b3cb3b9872de9fe3c10616dc3a0b6339e",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-181",
+      "textSha256": "28d46adf7c925ba573218a0e013707c9b9dffdaad559f1cda38c517e03d75459",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-182",
+      "textSha256": "c81cf1985472b1f72ccf06656a7fb4d47717c7c4afc566e027d05d5083077341",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-183",
+      "textSha256": "8aabd056bf2b1bea91fbe882136c6607fdbf10401112ec3350435378f2526120",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-184",
+      "textSha256": "287d2c8889300b166c4c0231d4134ba0c3e43a488f6f3ba1b8eb2e9b420faa91",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-185",
+      "textSha256": "f449d355b235a61620f71769421241152946619b872ab6e9f0fb5f8c624134a4",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-186",
+      "textSha256": "757a9e1706d5866bf311165acbe53e4eeef45ef2a79a799b2018f8ce1d7dbbc8",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-187",
+      "textSha256": "a72426d7109b7b0ccb1c774764dee9c1fe9f39aec9f5e0534bf56b1b0d0d23ed",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-188",
+      "textSha256": "dcbc9f1821a052837861110854e08ccddf0c296084630292b19fb4e22e58eb84",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-189",
+      "textSha256": "e75fb66d8ed6117a7904e31fc909a6524bdbaccc3ad97d59170c914af8842318",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-190",
+      "textSha256": "61f0f7e740e28f2fb0fc87c34d7f6211179ade9efd773f01dcd29e7c4518f82a",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-191",
+      "textSha256": "19d4fc78b0c9a7a9d48e69112cd88f63698fb1ce107a8a1973e2be111f56ea45",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-192",
+      "textSha256": "f409223e161a125002cab5b6792d6eb1a02d44492377d179a7ece4a5ba85fa03",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-193",
+      "textSha256": "ac4598ae02f401d88a792a3d53eb11baa621e4058079bac626929f4f4885bdd4",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-194",
+      "textSha256": "54da305385f609e17b4b74fa5b333ec332fcae6e3f413ed88afb60ae967f7749",
+      "blind": "blind-repairs",
+      "adversarial": "adversarial-repairs",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-195",
+      "textSha256": "5fc8918649f72b5c7a7082219bc5a6b39f6f37177b046b9afac7059625ea5449",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-196",
+      "textSha256": "8e873d238b943a33d92ea937546b25d6651482fa0ebd5b0e8419c41fa723ab96",
+      "blind": "blind-repairs",
+      "adversarial": "adversarial-repairs",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-197",
+      "textSha256": "a86e97850adc06a5f6dee9495d33c6306b23ea68e7f004b0e2bdd4bac1a8aeb2",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-198",
+      "textSha256": "a16ad0a0e65e5e4f274c1bfc33cd0d5730a906c11fb7f4c23d0689660f3b67c8",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-199",
+      "textSha256": "8ed35fe4f7c6ece485b06e0d708d2a289f6eff315a17f6c375d08272cdb40c87",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-200",
+      "textSha256": "1097668aa8aa2b989ac8a8bd370092176d1c0da98850a84be77331228f6f70da",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-201",
+      "textSha256": "494e93f594fd8879b2f46279d021419a42bafbe85697b9a8bade531146eb2184",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-202",
+      "textSha256": "425a1e64cd7e90aab92dd939563e54de1303851cb470c80a5e77327fb4417c8c",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-203",
+      "textSha256": "4966855cb329ccc69c6e3f8b8493ec2bb51c0640209453a664f4f52a5a52d1ce",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-204",
+      "textSha256": "14fbed65e1f2c39f883f0757632153daf9f736fb4f76facad466ebc4e5c2b3e5",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-205",
+      "textSha256": "7190a99ac3b9cf1c8a88bb4cec488ed86f985770f3a8a85b05db6e8b2720d452",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-206",
+      "textSha256": "e47bb71c1387f4245533323384928d02ad9b3dff0c1c0d98e162513c4762b018",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-207",
+      "textSha256": "e8dfa7cb0fdd2280c82abb0bc59d84abdf635bda2846dbd65eac2231ffe5bee5",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-208",
+      "textSha256": "f3ff748603edad13bcd6d20283a599dc825925ae21af71d4d291bb46d5dc7299",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-209",
+      "textSha256": "735db35aa8c24e146a8ea64fe6f40ca0e63933f98393b087b216638ff9860454",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-210",
+      "textSha256": "f5d4aa49b0413f1e1aad1d78534085750fe253eb41c5cc0c67ace98069e4f81d",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-211",
+      "textSha256": "8b9c266faf109d06d09b52b88102f9f2ff36ad347859016198f76776902666a0",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-212",
+      "textSha256": "f2c534ab090ed08cad4dd4f50394fb7ca0c9625ebbee8bb7a8249cab8c016853",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-213",
+      "textSha256": "a85f5e769e44833e4ea932317b360b3ab5de7b90cbc3459ea3594b8f007f1d66",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-214",
+      "textSha256": "f18a34cfdef6e14538665a55015b1c97529c981d2185a46adbb67ed96239d2f4",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-215",
+      "textSha256": "d0b089ef50f6405c9560d2aa8580d55782664a354055f807955ce32c58c37af5",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-216",
+      "textSha256": "2404ffef77a27021679e0d0ee5b603f3ec24d9418001a84bd018d7b49db5fb28",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-217",
+      "textSha256": "b24903ad54375c1b5a9d24111540632fade4ccb02fa840babb32630aef3f1e31",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-218",
+      "textSha256": "b62a52aad0d773cd9781467554b9b21b8dde2d7ac4325295319ccdb584138823",
+      "blind": "blind-repairs",
+      "adversarial": "adversarial-repairs",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-219",
+      "textSha256": "88f643c0d4cb44f39110198f8db2b061e0786f81b2c1455b4e0fd3f44369f51b",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-220",
+      "textSha256": "1b27c2b65e43a6896e3c0f5f061ce0da36cd141c5ab502ab909c3c02e8275629",
+      "blind": "blind-batch3",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-221",
+      "textSha256": "cbfa522ac02256e4340119afe6d8982cc09a6159d0543ac66d8d5e1dec56e5a7",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-222",
+      "textSha256": "e03cddf1faf9837aca8a0acdbd1e83004b78020a179430d345e22c4bf8ecc2c0",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-223",
+      "textSha256": "9e34a2438bf2b486c07d41b9edcc44255457ca65c83ffe2bcccb78c59f29f6a3",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-224",
+      "textSha256": "eb34d2cbee9f2ef0c9feb1512b20fd84eea3424777ba071e234e5999358931a8",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-225",
+      "textSha256": "63df3e7a14281d81d062332eb59d3a7520e79e39101b2f75ad7cd058d6090051",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-226",
+      "textSha256": "d2bf3016164c9664aeda7945577ce6bb3c4aed94f17bd10bcb51b53e98594cd1",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-227",
+      "textSha256": "5a951199999a82106978e6d8d2059c31a22cd34003f1e97801564e5d92dd6bb2",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-228",
+      "textSha256": "855daad9039a5f8d904c6f453c1bc0605f63fd81f0e1afd846bd0ec02c907cd5",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-229",
+      "textSha256": "26a76af7937749c9243e2a5e0e66dc01250e7d34bc55bb567e2fd81012ad9fbb",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "focused-boundary-adjudication",
+      "mandatoryForSelection": true
+    },
+    {
+      "id": "000026-230",
+      "textSha256": "7617f60b7e40b35868ad777121fe3fce7501dc4a92a57d7b913df0a62afd7a2d",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-231",
+      "textSha256": "9bfd22e3bf0367cb76cd6a85e8aa5eb0f1a229b1e423484565d230011e285aa4",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-232",
+      "textSha256": "68dfe16ceb74f5b9fbed97a7daa1946e26c85c6faec115a19336df314093db24",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-233",
+      "textSha256": "18cf179896bd7be7bd3b42aee6258c8c9273a878dc0a9ef37ceb135284ce5f3f",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-234",
+      "textSha256": "c6efde436ad2dbf7421efb537f56fed110395e57e362ccc314385537cfcab1f9",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-235",
+      "textSha256": "d51aa1f303f2a1c2a01aea80ecd8fdee61816defe2763e03dba90288764a306b",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-236",
+      "textSha256": "a228de9710ea068fc0448565ab394a590fc8a50ef39c6fa0487b8da66d4fdb93",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-237",
+      "textSha256": "4f0b9adbfc7743487df793fb7d20ef9c6160b98c06ed6c9ff563d450f1e64797",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-238",
+      "textSha256": "228a857093cc38f957b13c0ee66ddb8b3a34e3393dfd6a7a8b6e4c2313ca7b7d",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-239",
+      "textSha256": "2387b058493a531f05fe5da08d6af534191cbb9f9306a066f524e5fd74ccf60a",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    },
+    {
+      "id": "000026-240",
+      "textSha256": "48169b49b4bec4b2746660060a66f03aa165fb4535a59e4ac851088c5e43b814",
+      "blind": "blind-additions",
+      "adversarial": "adversarial-batch3",
+      "final": "final-batch3",
+      "judgmentAndSnippetSource": "final-batch3"
+    }
+  ],
+  "verification": {
+    "readDocument": "passed",
+    "sampleRanges": "passed",
+    "snippetMembership": "passed",
+    "lfOnly": "passed",
+    "singleEofNewline": "passed",
+    "formatBeforeRangesAndChecksum": {
+      "command": "prettier --write --prose-wrap preserve",
+      "log": {
+        "path": "/tmp/000026-holdout-canonical-format-log-v1.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "textSha256": "bb8aa39cf8e36ec080ab25fa97a0b2ee7157b2571aa937c6fa3c7c4f378190f7",
+    "labelsSha256": "08287ee94443de629b9aa2112994e131db1201abd1ad55ec13f14b5e7e0dbec3"
+  }
+}
