@@ -5,7 +5,7 @@
   "type": "staged-opposition",
   "split": "development",
   "input": "passage",
-  "status": "QA-PASSED-CORRECTED-FULL-POOL-READY-FOR-ARCHIVE",
+  "status": "BALANCED-DEVELOPMENT-SUBSET-QA-PASSED",
   "recordedAt": "2026-10-21T13:49:24.083Z",
   "definition": {
     "commit": "633c184a",
@@ -36,75 +36,71 @@
   },
   "dataset": {
     "markdown": {
-      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.md",
-      "sha256": "88da27c23549de53a51fa89f6e2722f30e29bcf56ec1c72043b76691151eb5bc"
+      "path": "datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.md",
+      "sha256": "81db485f8f34a487061c0b95dd3a8c595351adae2328b817692bdf49cb514672"
     },
     "labels": {
-      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.labels.json",
-      "sha256": "7d8ed1c7af9497831e24ead1bcfbfcdd8ad4c0726e69ec991f81dc3f5cf77d58"
+      "path": "datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.labels.json",
+      "sha256": "88c7644959939a2707ee3a577dcdb479583749b2cd4bcb596698e5d7a7ac6f60"
     },
-    "textSha256": "88da27c23549de53a51fa89f6e2722f30e29bcf56ec1c72043b76691151eb5bc",
-    "passages": 240,
+    "textSha256": "81db485f8f34a487061c0b95dd3a8c595351adae2328b817692bdf49cb514672",
+    "passages": 200,
     "classCounts": {
-      "hit": 107,
-      "noHit": 133
-    },
-    "initialClassCounts": {
-      "hit": 120,
-      "noHit": 120
+      "hit": 100,
+      "noHit": 100
     },
     "sourceWritingChangedAfterReview": false,
-    "surplusIncluded": true
+    "surplusIncluded": false
   },
   "coverage": {
     "domainCounts": {
       "software": {
         "hit": 10,
-        "noHit": 10
+        "noHit": 4
       },
       "business": {
         "hit": 9,
-        "noHit": 11
+        "noHit": 7
       },
       "local-news": {
         "hit": 9,
-        "noHit": 11
+        "noHit": 8
       },
       "education": {
-        "hit": 8,
-        "noHit": 12
+        "hit": 7,
+        "noHit": 10
       },
       "research": {
-        "hit": 10,
-        "noHit": 10
+        "hit": 9,
+        "noHit": 7
       },
       "home-repair": {
-        "hit": 7,
-        "noHit": 13
+        "hit": 6,
+        "noHit": 10
       },
       "personal": {
-        "hit": 10,
-        "noHit": 10
+        "hit": 9,
+        "noHit": 7
       },
       "fiction-dialogue": {
         "hit": 10,
-        "noHit": 10
+        "noHit": 7
       },
       "arts": {
-        "hit": 9,
-        "noHit": 11
+        "hit": 8,
+        "noHit": 10
       },
       "sport": {
-        "hit": 7,
-        "noHit": 13
+        "hit": 6,
+        "noHit": 12
       },
       "food": {
-        "hit": 8,
-        "noHit": 12
+        "hit": 7,
+        "noHit": 9
       },
       "environment": {
         "hit": 10,
-        "noHit": 10
+        "noHit": 9
       }
     },
     "domainById": [
@@ -193,13 +189,6 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-013",
-        "domain": "software",
-        "variant": "exclusion",
-        "words": 10,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-014",
         "domain": "software",
         "variant": "successive",
@@ -207,45 +196,10 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-015",
-        "domain": "software",
-        "variant": "less-more",
-        "words": 26,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-016",
         "domain": "software",
         "variant": "before-after",
         "words": 28,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-017",
-        "domain": "software",
-        "variant": "relevant-objection",
-        "words": 28,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-018",
-        "domain": "software",
-        "variant": "not-only",
-        "words": 27,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-019",
-        "domain": "software",
-        "variant": "documentary-quotation",
-        "words": 49,
-        "multiParagraph": true
-      },
-      {
-        "id": "000027-020",
-        "domain": "software",
-        "variant": "evidence-limit",
-        "words": 51,
         "multiParagraph": false
       },
       {
@@ -319,31 +273,10 @@
         "multiParagraph": true
       },
       {
-        "id": "000027-031",
-        "domain": "business",
-        "variant": "terse-correction",
-        "words": 11,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-032",
         "domain": "business",
         "variant": "exclusion",
         "words": 9,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-033",
-        "domain": "business",
-        "variant": "role-allocation",
-        "words": 9,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-034",
-        "domain": "business",
-        "variant": "before-after",
-        "words": 30,
         "multiParagraph": false
       },
       {
@@ -380,13 +313,6 @@
         "variant": "contextual-resolution",
         "words": 54,
         "multiParagraph": true
-      },
-      {
-        "id": "000027-040",
-        "domain": "business",
-        "variant": "documentary-quotation",
-        "words": 54,
-        "multiParagraph": false
       },
       {
         "id": "000027-041",
@@ -459,13 +385,6 @@
         "multiParagraph": true
       },
       {
-        "id": "000027-051",
-        "domain": "local-news",
-        "variant": "terse-correction",
-        "words": 10,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-052",
         "domain": "local-news",
         "variant": "actual-distinction",
@@ -480,24 +399,10 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-054",
-        "domain": "local-news",
-        "variant": "before-after",
-        "words": 29,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-055",
         "domain": "local-news",
         "variant": "relevant-objection",
         "words": 29,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-056",
-        "domain": "local-news",
-        "variant": "evidence-limit",
-        "words": 30,
         "multiParagraph": false
       },
       {
@@ -533,13 +438,6 @@
         "domain": "education",
         "variant": "less-more",
         "words": 12,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-062",
-        "domain": "education",
-        "variant": "inline",
-        "words": 11,
         "multiParagraph": false
       },
       {
@@ -620,13 +518,6 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-074",
-        "domain": "education",
-        "variant": "relevant-objection",
-        "words": 28,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-075",
         "domain": "education",
         "variant": "before-after",
@@ -660,13 +551,6 @@
         "variant": "contextual-resolution",
         "words": 55,
         "multiParagraph": true
-      },
-      {
-        "id": "000027-080",
-        "domain": "education",
-        "variant": "documentary-quotation",
-        "words": 53,
-        "multiParagraph": false
       },
       {
         "id": "000027-081",
@@ -732,20 +616,6 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-090",
-        "domain": "research",
-        "variant": "operative-quotation",
-        "words": 54,
-        "multiParagraph": true
-      },
-      {
-        "id": "000027-091",
-        "domain": "research",
-        "variant": "terse-correction",
-        "words": 8,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-092",
         "domain": "research",
         "variant": "evidence-limit",
@@ -781,13 +651,6 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-097",
-        "domain": "research",
-        "variant": "relevant-objection",
-        "words": 30,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-098",
         "domain": "research",
         "variant": "successive",
@@ -800,20 +663,6 @@
         "variant": "contextual-resolution",
         "words": 53,
         "multiParagraph": true
-      },
-      {
-        "id": "000027-100",
-        "domain": "research",
-        "variant": "documentary-quotation",
-        "words": 53,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-101",
-        "domain": "home-repair",
-        "variant": "inline",
-        "words": 11,
-        "multiParagraph": false
       },
       {
         "id": "000027-102",
@@ -893,20 +742,6 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-113",
-        "domain": "home-repair",
-        "variant": "role-allocation",
-        "words": 12,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-114",
-        "domain": "home-repair",
-        "variant": "before-after",
-        "words": 28,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-115",
         "domain": "home-repair",
         "variant": "absence-consequence",
@@ -918,13 +753,6 @@
         "domain": "home-repair",
         "variant": "relevant-objection",
         "words": 28,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-117",
-        "domain": "home-repair",
-        "variant": "successive",
-        "words": 29,
         "multiParagraph": false
       },
       {
@@ -946,13 +774,6 @@
         "domain": "home-repair",
         "variant": "contextual-resolution",
         "words": 54,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-121",
-        "domain": "personal",
-        "variant": "inline",
-        "words": 12,
         "multiParagraph": false
       },
       {
@@ -1019,13 +840,6 @@
         "multiParagraph": true
       },
       {
-        "id": "000027-131",
-        "domain": "personal",
-        "variant": "terse-correction",
-        "words": 10,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-132",
         "domain": "personal",
         "variant": "meaningful-exclusion",
@@ -1047,24 +861,10 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-135",
-        "domain": "personal",
-        "variant": "before-after",
-        "words": 29,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-136",
         "domain": "personal",
         "variant": "absence-consequence",
         "words": 26,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-137",
-        "domain": "personal",
-        "variant": "paired",
-        "words": 30,
         "multiParagraph": false
       },
       {
@@ -1187,24 +987,10 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-155",
-        "domain": "fiction-dialogue",
-        "variant": "before-after",
-        "words": 33,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-156",
         "domain": "fiction-dialogue",
         "variant": "relevant-objection",
         "words": 31,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-157",
-        "domain": "fiction-dialogue",
-        "variant": "belief-resolution",
-        "words": 32,
         "multiParagraph": false
       },
       {
@@ -1220,13 +1006,6 @@
         "variant": "consequential-motive",
         "words": 55,
         "multiParagraph": true
-      },
-      {
-        "id": "000027-160",
-        "domain": "fiction-dialogue",
-        "variant": "narrative-change",
-        "words": 57,
-        "multiParagraph": false
       },
       {
         "id": "000027-161",
@@ -1292,13 +1071,6 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-170",
-        "domain": "arts",
-        "variant": "successive",
-        "words": 55,
-        "multiParagraph": true
-      },
-      {
         "id": "000027-171",
         "domain": "arts",
         "variant": "terse-correction",
@@ -1316,13 +1088,6 @@
         "id": "000027-173",
         "domain": "arts",
         "variant": "before-after",
-        "words": 29,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-174",
-        "domain": "arts",
-        "variant": "paired",
         "words": 29,
         "multiParagraph": false
       },
@@ -1373,13 +1138,6 @@
         "domain": "sport",
         "variant": "blame-growth",
         "words": 13,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-182",
-        "domain": "sport",
-        "variant": "less-more",
-        "words": 12,
         "multiParagraph": false
       },
       {
@@ -1437,13 +1195,6 @@
         "variant": "paired",
         "words": 57,
         "multiParagraph": true
-      },
-      {
-        "id": "000027-191",
-        "domain": "sport",
-        "variant": "terse-correction",
-        "words": 11,
-        "multiParagraph": false
       },
       {
         "id": "000027-192",
@@ -1506,13 +1257,6 @@
         "domain": "sport",
         "variant": "absence-consequence",
         "words": 56,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-201",
-        "domain": "food",
-        "variant": "inline",
-        "words": 11,
         "multiParagraph": false
       },
       {
@@ -1614,13 +1358,6 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-216",
-        "domain": "food",
-        "variant": "not-only",
-        "words": 30,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-217",
         "domain": "food",
         "variant": "paired",
@@ -1628,24 +1365,10 @@
         "multiParagraph": false
       },
       {
-        "id": "000027-218",
-        "domain": "food",
-        "variant": "documentary-quotation",
-        "words": 55,
-        "multiParagraph": true
-      },
-      {
         "id": "000027-219",
         "domain": "food",
         "variant": "consequential-dialogue",
         "words": 54,
-        "multiParagraph": false
-      },
-      {
-        "id": "000027-220",
-        "domain": "food",
-        "variant": "evidence-limit",
-        "words": 53,
         "multiParagraph": false
       },
       {
@@ -1719,13 +1442,6 @@
         "multiParagraph": true
       },
       {
-        "id": "000027-231",
-        "domain": "environment",
-        "variant": "terse-correction",
-        "words": 12,
-        "multiParagraph": false
-      },
-      {
         "id": "000027-232",
         "domain": "environment",
         "variant": "meaningful-exclusion",
@@ -1794,37 +1510,21 @@
       "medium": "21-44 words",
       "long": "45-90 words"
     },
-    "initialLengthCoverage": {
-      "hit": {
-        "short": 30,
-        "medium": 60,
-        "long": 30
-      },
-      "noHit": {
-        "short": 30,
-        "medium": 60,
-        "long": 30
-      }
-    },
     "lengthCoverage": {
       "hit": {
-        "short": 30,
+        "short": 25,
         "medium": 51,
-        "long": 26
+        "long": 24
       },
       "noHit": {
-        "short": 30,
-        "medium": 69,
-        "long": 34
+        "short": 21,
+        "medium": 53,
+        "long": 26
       }
     },
-    "initialMultiParagraphClassCounts": {
-      "hit": 16,
-      "noHit": 16
-    },
     "multiParagraphClassCounts": {
-      "hit": 13,
-      "noHit": 19
+      "hit": 11,
+      "noHit": 17
     },
     "wordingGroups": {
       "inline": [
@@ -1837,23 +1537,7 @@
           "expected": true
         },
         {
-          "id": "000027-062",
-          "expected": true
-        },
-        {
-          "id": "000027-101",
-          "expected": true
-        },
-        {
-          "id": "000027-121",
-          "expected": true
-        },
-        {
           "id": "000027-161",
-          "expected": true
-        },
-        {
-          "id": "000027-201",
           "expected": true
         },
         {
@@ -1899,15 +1583,7 @@
           "expected": true
         },
         {
-          "id": "000027-117",
-          "expected": false
-        },
-        {
           "id": "000027-123",
-          "expected": true
-        },
-        {
-          "id": "000027-170",
           "expected": true
         },
         {
@@ -1949,16 +1625,8 @@
           "expected": true
         },
         {
-          "id": "000027-137",
-          "expected": false
-        },
-        {
           "id": "000027-162",
           "expected": true
-        },
-        {
-          "id": "000027-174",
-          "expected": false
         },
         {
           "id": "000027-190",
@@ -2021,10 +1689,6 @@
           "expected": true
         },
         {
-          "id": "000027-015",
-          "expected": false
-        },
-        {
           "id": "000027-028",
           "expected": true
         },
@@ -2046,10 +1710,6 @@
         },
         {
           "id": "000027-163",
-          "expected": true
-        },
-        {
-          "id": "000027-182",
           "expected": true
         },
         {
@@ -2121,15 +1781,7 @@
           "expected": false
         },
         {
-          "id": "000027-034",
-          "expected": false
-        },
-        {
           "id": "000027-045",
-          "expected": false
-        },
-        {
-          "id": "000027-054",
           "expected": false
         },
         {
@@ -2149,20 +1801,8 @@
           "expected": false
         },
         {
-          "id": "000027-114",
-          "expected": false
-        },
-        {
           "id": "000027-125",
           "expected": true
-        },
-        {
-          "id": "000027-135",
-          "expected": false
-        },
-        {
-          "id": "000027-155",
-          "expected": false
         },
         {
           "id": "000027-166",
@@ -2203,16 +1843,8 @@
           "expected": true
         },
         {
-          "id": "000027-020",
-          "expected": false
-        },
-        {
           "id": "000027-047",
           "expected": true
-        },
-        {
-          "id": "000027-056",
-          "expected": false
         },
         {
           "id": "000027-068",
@@ -2257,10 +1889,6 @@
         {
           "id": "000027-207",
           "expected": true
-        },
-        {
-          "id": "000027-220",
-          "expected": false
         },
         {
           "id": "000027-224",
@@ -2339,10 +1967,6 @@
           "expected": true
         },
         {
-          "id": "000027-090",
-          "expected": true
-        },
-        {
           "id": "000027-110",
           "expected": false
         },
@@ -2373,19 +1997,7 @@
           "expected": false
         },
         {
-          "id": "000027-031",
-          "expected": false
-        },
-        {
-          "id": "000027-051",
-          "expected": false
-        },
-        {
           "id": "000027-071",
-          "expected": false
-        },
-        {
-          "id": "000027-091",
           "expected": false
         },
         {
@@ -2393,23 +2005,11 @@
           "expected": false
         },
         {
-          "id": "000027-131",
-          "expected": false
-        },
-        {
           "id": "000027-171",
           "expected": false
         },
         {
-          "id": "000027-191",
-          "expected": false
-        },
-        {
           "id": "000027-211",
-          "expected": false
-        },
-        {
-          "id": "000027-231",
           "expected": false
         }
       ],
@@ -2417,21 +2017,9 @@
         {
           "id": "000027-012",
           "expected": false
-        },
-        {
-          "id": "000027-033",
-          "expected": false
-        },
-        {
-          "id": "000027-113",
-          "expected": false
         }
       ],
       "exclusion": [
-        {
-          "id": "000027-013",
-          "expected": false
-        },
         {
           "id": "000027-032",
           "expected": false
@@ -2439,23 +2027,11 @@
       ],
       "relevant-objection": [
         {
-          "id": "000027-017",
-          "expected": false
-        },
-        {
           "id": "000027-035",
           "expected": false
         },
         {
           "id": "000027-055",
-          "expected": false
-        },
-        {
-          "id": "000027-074",
-          "expected": false
-        },
-        {
-          "id": "000027-097",
           "expected": false
         },
         {
@@ -2489,10 +2065,6 @@
       ],
       "not-only": [
         {
-          "id": "000027-018",
-          "expected": false
-        },
-        {
           "id": "000027-073",
           "expected": false
         },
@@ -2503,31 +2075,11 @@
         {
           "id": "000027-177",
           "expected": false
-        },
-        {
-          "id": "000027-216",
-          "expected": false
         }
       ],
       "documentary-quotation": [
         {
-          "id": "000027-019",
-          "expected": false
-        },
-        {
-          "id": "000027-040",
-          "expected": false
-        },
-        {
           "id": "000027-059",
-          "expected": false
-        },
-        {
-          "id": "000027-080",
-          "expected": false
-        },
-        {
-          "id": "000027-100",
           "expected": false
         },
         {
@@ -2544,10 +2096,6 @@
         },
         {
           "id": "000027-198",
-          "expected": false
-        },
-        {
-          "id": "000027-218",
           "expected": false
         },
         {
@@ -2831,12 +2379,7 @@
           "expected": false
         }
       ],
-      "belief-resolution": [
-        {
-          "id": "000027-157",
-          "expected": false
-        }
-      ],
+      "belief-resolution": [],
       "documentary-in-fiction": [
         {
           "id": "000027-158",
@@ -2849,12 +2392,7 @@
           "expected": false
         }
       ],
-      "narrative-change": [
-        {
-          "id": "000027-160",
-          "expected": false
-        }
-      ],
+      "narrative-change": [],
       "consequential-dialogue": [
         {
           "id": "000027-179",
@@ -4175,7 +3713,14 @@
         },
         "supersededForCurrentCounts": true
       }
-    ]
+    ],
+    "scope": "Original calls and votes cover the complete archived 240-passage pool. Current-writing coverage and snippet judgments below describe the active balanced subset.",
+    "activeSubsetCoverage": {
+      "passages": 200,
+      "roleJudgments": 600,
+      "originalCalls": 9,
+      "archivedFullPoolPassages": 240
+    }
   },
   "currentTextThreeRoleCoverage": [
     {
@@ -4395,24 +3940,6 @@
       }
     },
     {
-      "id": "000027-013",
-      "textSha256": "6ca4f37179198cc7bc4b0cc19776052f1683f4bd4060a7f871d00b3131d2688e",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-014",
       "textSha256": "c8c6cb623cf3fbed894943eb3866605663e2e82785797614ecde0d826d787b4f",
       "roles": {
@@ -4431,24 +3958,6 @@
       }
     },
     {
-      "id": "000027-015",
-      "textSha256": "f393a07da321c4d4d10d0d0b25b91cf440cda41dba0c4a8b964b3e0db837a0a7",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-016",
       "textSha256": "a5b2dd4743db276dc1d8fd0f2978bf9e8edc744d94f9dca373d9c1b903d3ec4c",
       "roles": {
@@ -4463,78 +3972,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk1-response.json",
           "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-017",
-      "textSha256": "3a34259e3718d9a08daf67260d091afc5cef44a9b5a53709737ce1b71e34a1e7",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
-      "id": "000027-018",
-      "textSha256": "43b7ed5492f0a493a9c1fe91be9638e985ee00ab1430577dba65326b31826074",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-019",
-      "textSha256": "1c1d8a913b9ddd5f2341d16c2f9585f2d8b5ced49e433db16aea7a55bce4fc43",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-020",
-      "textSha256": "9a4e7dbafd5f5244bf6a00edb2181e38fbeebaac9c7cc00ca4e78405c74651ab",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
         }
       }
     },
@@ -4719,24 +4156,6 @@
       }
     },
     {
-      "id": "000027-031",
-      "textSha256": "ccac55bf13fd47e06652ca7b6bbfa430fa7ba9010a48da9efcfcb6597262ec5f",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
       "id": "000027-032",
       "textSha256": "442954022a240c846f41441eb02068d569049f19b49ecbcc304e2999f20179e2",
       "roles": {
@@ -4751,42 +4170,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk2-response.json",
           "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-033",
-      "textSha256": "d8d909939e1602c6cb37a0bb7e3513b95b11dfe5f61790c1aa3ce499dc3d6deb",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
-      "id": "000027-034",
-      "textSha256": "f4bb3e36a5bf74d4b3a93c019f30f94ca73609458090e2b4c3cae774328b4b8e",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
         }
       }
     },
@@ -4865,24 +4248,6 @@
     {
       "id": "000027-039",
       "textSha256": "00365b9a194f2f04376277477bed3930e26282eeb9b7aafdcae03f80c2bdf474",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-040",
-      "textSha256": "82444915556abf22094e0405426f8152a25e2a7c6319230a9009c09345a04cab",
       "roles": {
         "blind": {
           "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
@@ -5079,24 +4444,6 @@
       }
     },
     {
-      "id": "000027-051",
-      "textSha256": "2312fbd042272cce602536b9f1feb047bc574bfc4b90818eae8710879abf4686",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
       "id": "000027-052",
       "textSha256": "e1bd142984a098d0682f178dc98e3e155f4fb2a82783ccddd7c32907240c319f",
       "roles": {
@@ -5133,24 +4480,6 @@
       }
     },
     {
-      "id": "000027-054",
-      "textSha256": "ca52b79341726e33cc73bf8a3b4c235a2993e1516b751502e39f1d14d5a2477b",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
       "id": "000027-055",
       "textSha256": "2cde90d8c5dde21335b9a6c87315becec2a6a98db3adcd3464559f8daa7d51f9",
       "roles": {
@@ -5165,24 +4494,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk2-response.json",
           "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-056",
-      "textSha256": "d9f67a663bad4a65e9145aa286cd49825ed8150d05c66ad76379a4d538981245",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
         }
       }
     },
@@ -5273,24 +4584,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk1-response.json",
           "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-062",
-      "textSha256": "fd2e90d0906ae943ade58a653316cffd5012bf597abf14fb8d177b5ea590372e",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
         }
       }
     },
@@ -5493,24 +4786,6 @@
       }
     },
     {
-      "id": "000027-074",
-      "textSha256": "dae7f13cc5bbaf626de918ba9bdeef48605f0b92686baf5455b4cdc7f7ce1172",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
       "id": "000027-075",
       "textSha256": "19a6252b9b5882f5fa856ce14cd57ab23ddf62e433ad48a77beea9fb8bd86a89",
       "roles": {
@@ -5597,24 +4872,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk1-response.json",
           "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-080",
-      "textSha256": "09c5eb3d572d4dcd6b89a532090aa678c683fe5fc51bc394947450d0aebf3043",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
         }
       }
     },
@@ -5781,42 +5038,6 @@
       }
     },
     {
-      "id": "000027-090",
-      "textSha256": "7858b0a9a9197d364013d9c2edcc2c0f550c91955b055b0c65274708f8ddf151",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
-      "id": "000027-091",
-      "textSha256": "bff2a80fa79a0e41f5c285c2dcf492cab15be55dfa8fd3155aecc79a4c8230c2",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-092",
       "textSha256": "8f36590d65fc730590f17fc3a13434ba3c6caef2654d48cbcd0c617f42ecfb62",
       "roles": {
@@ -5907,24 +5128,6 @@
       }
     },
     {
-      "id": "000027-097",
-      "textSha256": "d209ce7a088ae5c43870169dee8982b374dfb73fb2a73f87507e21f78a437916",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-098",
       "textSha256": "1a6d8d26db27a8475560e9ade74c2ca98c548d7c77da8bff8f49bc0ba10027a0",
       "roles": {
@@ -5957,42 +5160,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk2-response.json",
           "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-100",
-      "textSha256": "c979ab60d691883a9cef4cfc6c47c1b147d305131010666a9771a78997c7bdc3",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-101",
-      "textSha256": "668c53cf983605c467778078f4bf4a0e54910ba8606fca3632d15c716ec0f9d7",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
         }
       }
     },
@@ -6195,42 +5362,6 @@
       }
     },
     {
-      "id": "000027-113",
-      "textSha256": "5a70127f23f3eb5e54e4cd435f8f4d1c34022ad0d368f5e28bbfa1c75866afce",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
-      "id": "000027-114",
-      "textSha256": "75a0c676210b74229c49e4bfff09889d3026fc345763d3de8fafc16066f186fa",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-115",
       "textSha256": "3f3c6a11675fd7681e723d5a42743bb02d2549d2a5fc911fe10d1f99d9de2312",
       "roles": {
@@ -6251,24 +5382,6 @@
     {
       "id": "000027-116",
       "textSha256": "21b30c49ec4edca942e4405aed7291cf71c34776df0fae200615d03b7ff30055",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
-      "id": "000027-117",
-      "textSha256": "8915822aa6494bde8e3e41a99727655cb24a2fab3ba741ded35e27cb635d44ec",
       "roles": {
         "blind": {
           "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
@@ -6335,24 +5448,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk2-response.json",
           "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-121",
-      "textSha256": "551c22eae2d6dc4388a80526938de91ed51e6fe1179374a98138b01f29d80761",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
         }
       }
     },
@@ -6519,24 +5614,6 @@
       }
     },
     {
-      "id": "000027-131",
-      "textSha256": "e3466d20acd48b8a089da62ee7b56e6c6b5b4dd14c656af8f12f90f66f15ff55",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-132",
       "textSha256": "581968eb0b0fdedfa370a0cafeafe979ac741ab0c7815fb1fe16a51be38daa07",
       "roles": {
@@ -6591,24 +5668,6 @@
       }
     },
     {
-      "id": "000027-135",
-      "textSha256": "9db77dd385f11f92c0d270851d316626b658d987d9cbad088879774f2ce57b79",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
       "id": "000027-136",
       "textSha256": "cbe41c4d56311c3e5ebd5ac9db93bb0d41a00d5a3e9330f070ccba19fdb8e1b7",
       "roles": {
@@ -6623,24 +5682,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk1-response.json",
           "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-137",
-      "textSha256": "3ed9bd3f0e6a1647d2a343edb9dce2491bcaa205d9227425a5df5d532d102bcc",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
         }
       }
     },
@@ -6951,24 +5992,6 @@
       }
     },
     {
-      "id": "000027-155",
-      "textSha256": "da15151fae5cd609e51e4bc720589abc9dddd64d8bec43526b12537a0f75f8aa",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
       "id": "000027-156",
       "textSha256": "90e6df0ecb0692bb01d73f0059333579943e2f9bebe5ec3b8f2f4eb2666d1278",
       "roles": {
@@ -6983,24 +6006,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk2-response.json",
           "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-157",
-      "textSha256": "7d0997c0dbb4e1219457f0aee506dcef0357c9e2d4a6fbd73eb8d5f134a0d0bc",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
         }
       }
     },
@@ -7037,24 +6042,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk1-response.json",
           "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-160",
-      "textSha256": "a6709159282fbd384fb848baa1cc785101218d1289e9cb0e38900964c8528876",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
         }
       }
     },
@@ -7221,24 +6208,6 @@
       }
     },
     {
-      "id": "000027-170",
-      "textSha256": "218c1e9d699532d28208580ed51466c6b3aa303cfa21cbc6dde2a3854c875dc2",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-171",
       "textSha256": "c780cf77c5645a11abaed404ef466755c5f8fd49d815a335b86a121de4308a68",
       "roles": {
@@ -7277,24 +6246,6 @@
     {
       "id": "000027-173",
       "textSha256": "f976718ac9b846a666b899bee87dcf56316d4d8d6ec9d037b2aded90bc7b8b04",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
-        }
-      }
-    },
-    {
-      "id": "000027-174",
-      "textSha256": "eed100e5e744a145f74dbee53c7cef3f95ec24e3231024935abaadc3d314abe2",
       "roles": {
         "blind": {
           "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
@@ -7433,24 +6384,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk3-response.json",
           "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
-      "id": "000027-182",
-      "textSha256": "06e5d6f3171c2dcfdb06bc1e2388edcca24425bddca547d0cbccc91f248cdc90",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
         }
       }
     },
@@ -7595,24 +6528,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk1-response.json",
           "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-191",
-      "textSha256": "63d6f8798e37847a949a3365bf4e06853e490a0a9c85a36b0b00971ca19b6b43",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
         }
       }
     },
@@ -7775,24 +6690,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk1-response.json",
           "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-201",
-      "textSha256": "7469b20b25b6106b5f1561f5f05e47a011e1dda758ae45b80d182c85673f8396",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk3-response.json",
-          "sessionId": "224fe445-81f9-4ee5-a3bc-1249f9469ed2"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk3-response.json",
-          "sessionId": "09cf3637-5fc3-4efa-8922-72960b9048fb"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk3-response.json",
-          "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
         }
       }
     },
@@ -8049,24 +6946,6 @@
       }
     },
     {
-      "id": "000027-216",
-      "textSha256": "1d6de4d8b1e28e87fdcf40f49238520345a8839e4f3f51dde649f7b20ff3b84c",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-217",
       "textSha256": "777606fa384f802dc262080e33d0c71fcb27b725b592b72ed941ae315db1ce5a",
       "roles": {
@@ -8085,24 +6964,6 @@
       }
     },
     {
-      "id": "000027-218",
-      "textSha256": "386a2e35639a4c88e82924f1c2c18b9c2b91e81116b33dccd74dc9871bbcdefc",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk1-response.json",
-          "sessionId": "a6f96905-ad5d-4fe2-b50c-906314384541"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk1-response.json",
-          "sessionId": "85d7b56f-6e31-46ba-84f4-3eb2a9b3f290"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk1-response.json",
-          "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
       "id": "000027-219",
       "textSha256": "bd191d1dda2b251fc0b799918f0e92d61c4d851f4e1e4934a22dc0843db3e87e",
       "roles": {
@@ -8117,24 +6978,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk1-response.json",
           "sessionId": "614c802c-aba1-40cd-9d91-3a4af4c685b2"
-        }
-      }
-    },
-    {
-      "id": "000027-220",
-      "textSha256": "ae2252781c9a24311a8b16617119fd12e6ca5b4d490af0969292637d3cd8ba8b",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
         }
       }
     },
@@ -8315,24 +7158,6 @@
         "final": {
           "output": "/tmp/000027-development-r1-final-chunk3-response.json",
           "sessionId": "6cc0112c-ebab-410b-b7af-d4adc5afabe8"
-        }
-      }
-    },
-    {
-      "id": "000027-231",
-      "textSha256": "1a9a5ac84d2334e788d7f56b985066106db9c3b87e1d20eae3e1640e7671b7ce",
-      "roles": {
-        "blind": {
-          "output": "/tmp/000027-development-r1-blind-chunk2-response.json",
-          "sessionId": "e9c1cfa2-b7e1-4fe1-ae91-1631cc2c7e2f"
-        },
-        "adversarial": {
-          "output": "/tmp/000027-development-r1-adversarial-chunk2-response.json",
-          "sessionId": "0759821d-3e34-47c3-bfda-f2f6e270525a"
-        },
-        "final": {
-          "output": "/tmp/000027-development-r1-final-chunk2-response.json",
-          "sessionId": "1f961f3c-1155-4531-959b-c2ae3dc33df3"
         }
       }
     },
@@ -15542,42 +14367,12 @@
         "labelSource": "author-and-three-Opus-roles"
       },
       {
-        "id": "000027-013",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-014",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
       {
-        "id": "000027-015",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-016",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-017",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-018",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-019",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-020",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -15668,22 +14463,7 @@
         ]
       },
       {
-        "id": "000027-031",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-032",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-033",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-034",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -15709,11 +14489,6 @@
       },
       {
         "id": "000027-039",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-040",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -15805,11 +14580,6 @@
         ]
       },
       {
-        "id": "000027-051",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-052",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
@@ -15820,17 +14590,7 @@
         "labelSource": "adjudications"
       },
       {
-        "id": "000027-054",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-055",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-056",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -15861,15 +14621,6 @@
         "snippetSource": "/tmp/000027-development-r1-final-chunk1-response.json",
         "snippets": [
           "Good teaching is less about lesson plans and more about unlocking potential."
-        ]
-      },
-      {
-        "id": "000027-062",
-        "expected": true,
-        "labelSource": "author-and-three-Opus-roles",
-        "snippetSource": "/tmp/000027-development-r1-final-chunk3-response.json",
-        "snippets": [
-          "A marked essay isn't a verdict; it's an invitation to become."
         ]
       },
       {
@@ -15952,11 +14703,6 @@
         "labelSource": "author-and-three-Opus-roles"
       },
       {
-        "id": "000027-074",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-075",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
@@ -15978,11 +14724,6 @@
       },
       {
         "id": "000027-079",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-080",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -16068,20 +14809,6 @@
         ]
       },
       {
-        "id": "000027-090",
-        "expected": true,
-        "labelSource": "author-and-three-Opus-roles",
-        "snippetSource": "/tmp/000027-development-r1-final-chunk3-response.json",
-        "snippets": [
-          "\"not a sample, but a window into who we are.\" That is a compelling description of the project's importance."
-        ]
-      },
-      {
-        "id": "000027-091",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-092",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
@@ -16107,11 +14834,6 @@
         "labelSource": "adjudications"
       },
       {
-        "id": "000027-097",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-098",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
@@ -16120,20 +14842,6 @@
         "id": "000027-099",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-100",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-101",
-        "expected": true,
-        "labelSource": "author-and-three-Opus-roles",
-        "snippetSource": "/tmp/000027-development-r1-final-chunk1-response.json",
-        "snippets": [
-          "A tidy cupboard isn't about shelves; it's about reclaiming your life."
-        ]
       },
       {
         "id": "000027-102",
@@ -16221,27 +14929,12 @@
         "labelSource": "author-and-three-Opus-roles"
       },
       {
-        "id": "000027-113",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-114",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-115",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
       {
         "id": "000027-116",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-117",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -16259,15 +14952,6 @@
         "id": "000027-120",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-121",
-        "expected": true,
-        "labelSource": "author-and-three-Opus-roles",
-        "snippetSource": "/tmp/000027-development-r1-final-chunk3-response.json",
-        "snippets": [
-          "My empty diary isn't loneliness. It's freedom learning to take up space."
-        ]
       },
       {
         "id": "000027-122",
@@ -16351,11 +15035,6 @@
         ]
       },
       {
-        "id": "000027-131",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-132",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
@@ -16371,17 +15050,7 @@
         "labelSource": "author-and-three-Opus-roles"
       },
       {
-        "id": "000027-135",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-136",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-137",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -16509,17 +15178,7 @@
         "labelSource": "author-and-three-Opus-roles"
       },
       {
-        "id": "000027-155",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-156",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-157",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -16532,11 +15191,6 @@
         "id": "000027-159",
         "expected": false,
         "labelSource": "adjudications"
-      },
-      {
-        "id": "000027-160",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
       },
       {
         "id": "000027-161",
@@ -16616,15 +15270,6 @@
         ]
       },
       {
-        "id": "000027-170",
-        "expected": true,
-        "labelSource": "author-and-three-Opus-roles",
-        "snippetSource": "/tmp/000027-development-r1-final-chunk1-response.json",
-        "snippets": [
-          "We did not spend the afternoon merely hanging photographs. We were making memory visible."
-        ]
-      },
-      {
         "id": "000027-171",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
@@ -16636,11 +15281,6 @@
       },
       {
         "id": "000027-173",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-174",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -16681,15 +15321,6 @@
         "snippetSource": "/tmp/000027-development-r1-final-chunk3-response.json",
         "snippets": [
           "The defeat wasn't a loss. It was a lesson arriving in team colours."
-        ]
-      },
-      {
-        "id": "000027-182",
-        "expected": true,
-        "labelSource": "author-and-three-Opus-roles",
-        "snippetSource": "/tmp/000027-development-r1-final-chunk1-response.json",
-        "snippets": [
-          "Training is less about miles and more about becoming someone who matters."
         ]
       },
       {
@@ -16753,11 +15384,6 @@
         "labelSource": "adjudications"
       },
       {
-        "id": "000027-191",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-192",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
@@ -16801,13 +15427,6 @@
         "id": "000027-200",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-201",
-        "expected": true,
-        "labelSource": "author-and-three-Opus-roles",
-        "snippetSource": "/tmp/000027-development-r1-final-chunk3-response.json",
-        "snippets": ["This isn't a bowl of soup; it's an act of belonging."]
       },
       {
         "id": "000027-202",
@@ -16908,27 +15527,12 @@
         "labelSource": "author-and-three-Opus-roles"
       },
       {
-        "id": "000027-216",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-217",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
       {
-        "id": "000027-218",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-219",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
-        "id": "000027-220",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
       },
@@ -17023,11 +15627,6 @@
         ]
       },
       {
-        "id": "000027-231",
-        "expected": false,
-        "labelSource": "author-and-three-Opus-roles"
-      },
-      {
         "id": "000027-232",
         "expected": false,
         "labelSource": "author-and-three-Opus-roles"
@@ -17110,32 +15709,353 @@
   "mandatoryClassCountExceeds100": false,
   "explicitlyApprovedSeeds": [],
   "selection": {
-    "performed": false,
-    "scope": "Full reviewed oversample of 240 passages. Parent owns archive commit and deterministic balancing after independent QA."
+    "performed": true,
+    "state": "balanced-verified",
+    "family": "staged-contrasts",
+    "type": "staged-opposition",
+    "split": "development",
+    "archiveCommit": "bfb57f52",
+    "procedure": "Mandatory IDs first; largest-remainder 25/50/25 short/medium/long allocation with exhausted-bucket redistribution; ascending SHA256(JSON.stringify([family,type,split,id])) with ID tie-break; preserve source order.",
+    "mandatoryIds": [
+      "000027-004",
+      "000027-008",
+      "000027-026",
+      "000027-045",
+      "000027-053",
+      "000027-065",
+      "000027-066",
+      "000027-076",
+      "000027-077",
+      "000027-096",
+      "000027-106",
+      "000027-107",
+      "000027-108",
+      "000027-110",
+      "000027-141",
+      "000027-143",
+      "000027-146",
+      "000027-147",
+      "000027-149",
+      "000027-159",
+      "000027-165",
+      "000027-179",
+      "000027-186",
+      "000027-189",
+      "000027-190",
+      "000027-204",
+      "000027-210"
+    ],
+    "mandatoryCounts": {
+      "hit": 8,
+      "noHit": 19
+    },
+    "selectedIds": [
+      "000027-001",
+      "000027-002",
+      "000027-003",
+      "000027-004",
+      "000027-005",
+      "000027-006",
+      "000027-007",
+      "000027-008",
+      "000027-009",
+      "000027-010",
+      "000027-011",
+      "000027-012",
+      "000027-014",
+      "000027-016",
+      "000027-021",
+      "000027-022",
+      "000027-023",
+      "000027-024",
+      "000027-025",
+      "000027-026",
+      "000027-027",
+      "000027-028",
+      "000027-029",
+      "000027-030",
+      "000027-032",
+      "000027-035",
+      "000027-036",
+      "000027-037",
+      "000027-038",
+      "000027-039",
+      "000027-041",
+      "000027-042",
+      "000027-043",
+      "000027-044",
+      "000027-045",
+      "000027-046",
+      "000027-047",
+      "000027-048",
+      "000027-049",
+      "000027-050",
+      "000027-052",
+      "000027-053",
+      "000027-055",
+      "000027-057",
+      "000027-058",
+      "000027-059",
+      "000027-060",
+      "000027-061",
+      "000027-063",
+      "000027-064",
+      "000027-065",
+      "000027-066",
+      "000027-067",
+      "000027-068",
+      "000027-069",
+      "000027-070",
+      "000027-071",
+      "000027-072",
+      "000027-073",
+      "000027-075",
+      "000027-076",
+      "000027-077",
+      "000027-078",
+      "000027-079",
+      "000027-081",
+      "000027-082",
+      "000027-083",
+      "000027-084",
+      "000027-085",
+      "000027-086",
+      "000027-087",
+      "000027-088",
+      "000027-089",
+      "000027-092",
+      "000027-093",
+      "000027-094",
+      "000027-095",
+      "000027-096",
+      "000027-098",
+      "000027-099",
+      "000027-102",
+      "000027-103",
+      "000027-104",
+      "000027-105",
+      "000027-106",
+      "000027-107",
+      "000027-108",
+      "000027-109",
+      "000027-110",
+      "000027-111",
+      "000027-112",
+      "000027-115",
+      "000027-116",
+      "000027-118",
+      "000027-119",
+      "000027-120",
+      "000027-122",
+      "000027-123",
+      "000027-124",
+      "000027-125",
+      "000027-126",
+      "000027-127",
+      "000027-128",
+      "000027-129",
+      "000027-130",
+      "000027-132",
+      "000027-133",
+      "000027-134",
+      "000027-136",
+      "000027-138",
+      "000027-139",
+      "000027-140",
+      "000027-141",
+      "000027-142",
+      "000027-143",
+      "000027-144",
+      "000027-145",
+      "000027-146",
+      "000027-147",
+      "000027-148",
+      "000027-149",
+      "000027-150",
+      "000027-151",
+      "000027-152",
+      "000027-153",
+      "000027-154",
+      "000027-156",
+      "000027-158",
+      "000027-159",
+      "000027-161",
+      "000027-162",
+      "000027-163",
+      "000027-164",
+      "000027-165",
+      "000027-166",
+      "000027-167",
+      "000027-168",
+      "000027-169",
+      "000027-171",
+      "000027-172",
+      "000027-173",
+      "000027-175",
+      "000027-176",
+      "000027-177",
+      "000027-178",
+      "000027-179",
+      "000027-180",
+      "000027-181",
+      "000027-183",
+      "000027-184",
+      "000027-185",
+      "000027-186",
+      "000027-187",
+      "000027-188",
+      "000027-189",
+      "000027-190",
+      "000027-192",
+      "000027-193",
+      "000027-194",
+      "000027-195",
+      "000027-196",
+      "000027-197",
+      "000027-198",
+      "000027-199",
+      "000027-200",
+      "000027-202",
+      "000027-203",
+      "000027-204",
+      "000027-205",
+      "000027-206",
+      "000027-207",
+      "000027-208",
+      "000027-209",
+      "000027-210",
+      "000027-211",
+      "000027-212",
+      "000027-213",
+      "000027-214",
+      "000027-215",
+      "000027-217",
+      "000027-219",
+      "000027-221",
+      "000027-222",
+      "000027-223",
+      "000027-224",
+      "000027-225",
+      "000027-226",
+      "000027-227",
+      "000027-228",
+      "000027-229",
+      "000027-230",
+      "000027-232",
+      "000027-233",
+      "000027-234",
+      "000027-235",
+      "000027-236",
+      "000027-237",
+      "000027-238",
+      "000027-239",
+      "000027-240"
+    ],
+    "surplusIds": [
+      "000027-013",
+      "000027-015",
+      "000027-017",
+      "000027-018",
+      "000027-019",
+      "000027-020",
+      "000027-031",
+      "000027-033",
+      "000027-034",
+      "000027-040",
+      "000027-051",
+      "000027-054",
+      "000027-056",
+      "000027-062",
+      "000027-074",
+      "000027-080",
+      "000027-090",
+      "000027-091",
+      "000027-097",
+      "000027-100",
+      "000027-101",
+      "000027-113",
+      "000027-114",
+      "000027-117",
+      "000027-121",
+      "000027-131",
+      "000027-135",
+      "000027-137",
+      "000027-155",
+      "000027-157",
+      "000027-160",
+      "000027-170",
+      "000027-174",
+      "000027-182",
+      "000027-191",
+      "000027-201",
+      "000027-216",
+      "000027-218",
+      "000027-220",
+      "000027-231"
+    ],
+    "surplusCounts": {
+      "hit": 7,
+      "noHit": 33
+    },
+    "allocationRounds": [
+      {
+        "expected": true,
+        "mandatory": 8,
+        "optionalAvailable": [29, 45, 25],
+        "additional": [24, 45, 23],
+        "rounds": [
+          {
+            "slots": 92,
+            "requested": [23, 46, 23],
+            "granted": [23, 45, 23]
+          },
+          {
+            "slots": 1,
+            "requested": [1, 0, 0],
+            "granted": [1, 0, 0]
+          }
+        ]
+      },
+      {
+        "expected": false,
+        "mandatory": 19,
+        "optionalAvailable": [29, 57, 28],
+        "additional": [20, 41, 20],
+        "rounds": [
+          {
+            "slots": 81,
+            "requested": [20, 41, 20],
+            "granted": [20, 41, 20]
+          }
+        ]
+      }
+    ],
+    "detectorScoresUsed": false,
+    "retainedTextLabelsSnippetsMatchArchive": true
   },
   "qualityAudit": {
-    "scope": "Every passage in the current development pool; protected cross-split and repository comparison belongs to parent QA.",
+    "scope": "Active balanced development subset of 200 passages. Metrics and example IDs below were recomputed or filtered for these passages; archived full-pool summaries remain available through fullPoolHistory. Protected cross-split and source clearance belong to parent QA.",
     "exactOrNormalizedDuplicates": 0,
     "sharedEightWordSequences": [],
     "largestTokenJaccard": {
-      "id1": "000027-201",
-      "id2": "000027-022",
-      "score": 0.3684210526315789
+      "id1": "000027-161",
+      "id2": "000027-001",
+      "score": 0.3157894736842105
     },
     "surfaceCueCounts": {
       "hit": {
-        "quotation": 15,
-        "numericalDetail": 26,
-        "multiParagraph": 13,
-        "contractedNegation": 27,
+        "quotation": 14,
+        "numericalDetail": 25,
+        "multiParagraph": 11,
+        "contractedNegation": 23,
         "temporalWording": 28
       },
       "noHit": {
-        "quotation": 22,
-        "numericalDetail": 12,
-        "multiParagraph": 19,
-        "contractedNegation": 7,
-        "temporalWording": 49
+        "quotation": 17,
+        "numericalDetail": 7,
+        "multiParagraph": 17,
+        "contractedNegation": 6,
+        "temporalWording": 39
       }
     },
     "explicitLabelCueIds": [],
@@ -17143,18 +16063,13 @@
     "shortcutAssessment": "Both classes contain short excerpts, multi-paragraph excerpts, quotation, numbers, temporal wording, and contractions. Contractions and numerical detail occur at different rates; these surface differences are recorded for QA. Useful endorsed advice, neutral slogans, operative slogans, and consequential dialogue are retained as distinct boundary cases.",
     "documentaryAndOperativeCases": {
       "neutralDocumentary": [
-        "000027-019",
-        "000027-040",
         "000027-053",
         "000027-059",
-        "000027-080",
-        "000027-100",
         "000027-119",
         "000027-138",
         "000027-158",
         "000027-178",
         "000027-198",
-        "000027-218",
         "000027-238"
       ],
       "operativeRhetorical": [
@@ -17162,7 +16077,6 @@
         "000027-030",
         "000027-050",
         "000027-070",
-        "000027-090",
         "000027-128",
         "000027-149",
         "000027-168",
@@ -17183,12 +16097,9 @@
         "000027-152",
         "000027-153",
         "000027-154",
-        "000027-155",
         "000027-156",
-        "000027-157",
         "000027-158",
-        "000027-159",
-        "000027-160"
+        "000027-159"
       ]
     },
     "boundaryCasesAddedByIndependentQa": {
@@ -17218,10 +16129,12 @@
   "verification": {
     "readDocument": {
       "status": "passed",
-      "passages": 240,
-      "labels": 240
+      "passages": 200,
+      "labels": 200,
+      "scope": "Active balanced development subset."
     },
     "currentWritingThreeRoleCoverage": "passed",
+    "originalReviewEvidenceScope": "The nine original sessions and raw-artifact checks below refer to archived full-pool review calls. The active 200 passages reuse 600 original role judgments; subset QA runs no inference.",
     "exactFinalOpusHitSnippets": "passed",
     "rawEnvelopeRequestInputOutputHashes": "passed",
     "uniqueFreshSessions": 9,
@@ -17236,7 +16149,7 @@
     "independentQA": {
       "reviewerThread": "01a15f06-663a-7a40-be60-a4ab25e63eba",
       "status": "passed",
-      "scope": "The 108-only restoration, all other labels, raw votes, complete writing, coverage counts, and historical adjudication conservation.",
+      "scope": "Historical 240-passage full-pool conservation verification before selection, archived at bfb57f52. The results and hashes below describe that archived pool; independentSubsetQa describes the active subset.",
       "labelBlind": false,
       "briefDisclosedChangeDirection": true,
       "originalOpusRolesLabelWithheld": true,
@@ -17294,7 +16207,7 @@
     }
   },
   "unresolvedMaterialConcerns": [],
-  "nextOperation": "Parent archives the corrected complete 240-passage pool before deterministic balancing, retaining all 27 mandatory IDs.",
+  "nextOperation": "Development-only baseline prompt drafting may begin after this subset QA. Protected holdout repairs, cross-split overlap checks, and source clearance remain gates before inference.",
   "independentQaCorrections": {
     "reviewerThread": "01a15eb7-65aa-7f42-8b3e-27c188222b87",
     "status": "VERIFIED",
@@ -17541,6 +16454,7 @@
   ],
   "boundaryAdjudication": {
     "reviewerThread": "01a15f06-663a-7a40-be60-a4ab25e63eba",
+    "scope": "The fourteen boundary decisions remain applicable to retained mandatory cases. Conservation verification and earlier QA artifacts below describe the historical 240-passage pool archived at bfb57f52.",
     "review": {
       "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
       "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
@@ -17621,5 +16535,109 @@
       "path": "/tmp/slopless-development-boundary-VZ0toDGq/post-correction-attestation.json",
       "sha256": "1095518b0c6b21a2d585a77407f15f82c99e0ec803ab1681286101981fdaae6d"
     }
+  },
+  "fullPoolHistory": {
+    "scope": "Historical corrected 240-passage author and full-QA pool, archived before balanced selection. Active dataset and coverage summaries describe 200 retained passages.",
+    "archiveCommit": "bfb57f52",
+    "archiveRecord": {
+      "commit": "bfb57f52",
+      "path": "runners/results/staged-opposition-development-opus-review.json",
+      "sha256": "c56b3246a9f790d4431240a6c6977fe25a2be57e69028a6e174b0d631f3f3c81"
+    },
+    "authorInitialSummaryFields": [
+      "dataset.initialClassCounts",
+      "coverage.initialLengthCoverage",
+      "coverage.initialMultiParagraphClassCounts"
+    ],
+    "historicalFullPoolSummaryFields": [
+      "qualityAudit",
+      "verification",
+      "boundaryAdjudication",
+      "independentQaCorrections",
+      "supersedingAdjudicationHistory"
+    ],
+    "retainedRawEvidenceScope": "originalVotes and review.reviewCalls remain the original 240-passage, 720-judgment full-pool evidence. Current-writing and final-snippet arrays contain only the active 200 passages.",
+    "passages": 240,
+    "classCounts": {
+      "hit": 107,
+      "noHit": 133
+    },
+    "markdownSha256": "88da27c23549de53a51fa89f6e2722f30e29bcf56ec1c72043b76691151eb5bc",
+    "labelsSha256": "7d8ed1c7af9497831e24ead1bcfbfcdd8ad4c0726e69ec991f81dc3f5cf77d58",
+    "reviewRecordBeforeSelectionSha256": "c56b3246a9f790d4431240a6c6977fe25a2be57e69028a6e174b0d631f3f3c81",
+    "mandatoryClassCounts": {
+      "hit": 8,
+      "noHit": 19
+    },
+    "independentQaPassed": true
+  },
+  "independentSubsetQa": {
+    "status": "passed",
+    "scope": "The active balanced 200-passage development subset, compared with the corrected full-pool archive bfb57f52.",
+    "reviewerThread": "01a15f06-663a-7a40-be60-a4ab25e63eba",
+    "proof": {
+      "path": "/tmp/slopless-development-subset-aYkrkyyO/proof.json",
+      "sha256": "d492a6a850351fbd983ed7d43ce2f887ce043b4f8613623aff72dc08b10a5edf"
+    },
+    "preQaReview": {
+      "path": "/tmp/slopless-development-subset-aYkrkyyO/review-before-subset-qa.json",
+      "sha256": "8466089b5656bbfab5908cf45e9fca5d9de697daf5db0412671f09483c9adfc9"
+    },
+    "verifiedRecordBeforeAttestation": {
+      "path": "/tmp/slopless-development-subset-aYkrkyyO/review-before-attestation.json",
+      "sha256": "3db3f3f28bfb8dbf4bdd91391e5865da297f5d2a5bbe42f595c76a364e446544"
+    },
+    "method": "Independently implemented largest-remainder allocation with exhausted-bucket redistribution and SHA256 tuple ranking; the parent selector was neither imported nor called. Retained text, labels, and snippets match archive bytes exactly.",
+    "allocation": {
+      "optionalHitsShortMediumLong": [24, 45, 23],
+      "optionalNoHitsShortMediumLong": [20, 41, 20]
+    },
+    "verifiedCounts": {
+      "activePassages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "mandatory": 27,
+      "mandatoryHits": 8,
+      "mandatoryNoHits": 19,
+      "activeOriginalRoleJudgments": 600,
+      "preservedFullPoolOriginalRoleVotes": 720,
+      "rawReviewArtifactHashesChecked": 36,
+      "surplusHitsArchived": 7,
+      "surplusNoHitsArchived": 33
+    },
+    "restored108AndThirteenNoHitBoundaryCasesRetained": true,
+    "priorBoundaryAdjudicationLabelBlind": false,
+    "priorBoundaryChangeDirectionDisclosed": true,
+    "holdoutAccess": false,
+    "inferenceCalls": 0,
+    "metadataCorrectedFields": [
+      "verification.readDocument",
+      "verification.originalReviewEvidenceScope",
+      "verification.independentQA.scope",
+      "qualityAudit.scope",
+      "qualityAudit.largestTokenJaccard",
+      "qualityAudit.surfaceCueCounts",
+      "qualityAudit.documentaryAndOperativeCases",
+      "dataset.initialClassCounts -> fullPoolHistory.authorInitialSummaryFields archive reference",
+      "coverage.initialLengthCoverage -> fullPoolHistory.authorInitialSummaryFields archive reference",
+      "coverage.initialMultiParagraphClassCounts -> fullPoolHistory.authorInitialSummaryFields archive reference",
+      "boundaryAdjudication.scope",
+      "fullPoolHistory.scope",
+      "fullPoolHistory.archiveRecord",
+      "fullPoolHistory.authorInitialSummaryFields",
+      "fullPoolHistory.historicalFullPoolSummaryFields",
+      "fullPoolHistory.retainedRawEvidenceScope"
+    ],
+    "recomputedUnchangedActiveSummaries": [
+      "coverage.domainById",
+      "coverage.domainCounts",
+      "coverage.lengthCoverage",
+      "coverage.multiParagraphClassCounts",
+      "coverage.wordingGroups",
+      "currentTextThreeRoleCoverage",
+      "finalJudgmentAndSnippetProvenance.judgments"
+    ],
+    "formatting": "Prettier check passed for the development Markdown, labels, and review record with ignore-path /dev/null and prose-wrap preserve.",
+    "inferenceGates": "Protected holdout repairs, cross-split overlap checks, and source clearance remain parent-owned gates before inference."
   }
 }

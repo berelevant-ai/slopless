@@ -97,6 +97,14 @@ Every passage has blind, adversarial, and final Opus review coverage plus indepe
 
 Development labels were corrected before prompt tuning. Holdout authors and reviewers retain protected contexts; use the corresponding development collections when authoring prompts.
 
+## Staged-Contrast Sets
+
+The [development collection](ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.md) has exactly 100 hits and 100 no-hits for `staged-contrasts/staged-opposition`. Independent subset verification preserves all 27 mandatory hard cases and reproduces the deterministic selection.
+
+The complete reviewed development pool remains at `bfb57f52`, including seven surplus hits and 33 surplus no-hits. The existing `staged-opposition-development-opus-review.json` records original votes, label adjudication, selection, and active versus archived QA.
+
+The [protected holdout collection](ai-synthetic/passages/000028-staged-contrasts-staged-opposition-holdout.md) is undergoing seven overlap repairs and independent QA before its balanced selection. Holdout completion and overlap clearance gate the first detector trial.
+
 ## Commands
 
 ```sh

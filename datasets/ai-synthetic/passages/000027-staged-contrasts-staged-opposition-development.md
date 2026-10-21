@@ -48,39 +48,13 @@ The token belongs in the request header, not the query string.
 
 The worker writes receipts; the API only reads them.
 
-## 000027-013
-
-This patch removes the warning, but leaves the timeout unchanged.
-
 ## 000027-014
 
 The file hasn't disappeared. The container mounted an empty volume over its directory; stop the container and inspect the host path before attempting recovery.
 
-## 000027-015
-
-With fewer workers, we saw more timeouts because each worker held a database connection during the remote call. Releasing the connection before that call restored throughput.
-
 ## 000027-016
 
 Before version 4, deleting an account left its API keys active. Version 4 revokes those keys in the same transaction, so clients must create new credentials after restoration.
-
-## 000027-017
-
-A retry could charge a card twice, since the processor may have accepted the first request before the connection failed. Send the same idempotency key on each attempt.
-
-## 000027-018
-
-The trace contains not only request IDs but also the tenant ID attached by the gateway. Filter on both when two customers report the same failing endpoint.
-
-## 000027-019
-
-The archived launch page used the heading "Not another database. A new way to think." The phrase appears above the pricing grid in the screenshot dated 12 March.
-
-For the redesign audit, I recorded the heading, the grid order, and the absence of a link to the migration guide.
-
-## 000027-020
-
-The local benchmark finished in 420 milliseconds, compared with 610 for the previous build. Both runs used a warm cache and a single tenant. Those results support the change for repeated queries on that fixture, but we still need cold-cache runs before changing the capacity estimate for a newly started instance.
 
 ## 000027-021
 
@@ -124,21 +98,9 @@ At Monday's all-hands, I told the team, "Our backlog is not a pile of problems. 
 
 I stand by that description. We have 38 unresolved requests, including six from customers approaching renewal, and the product managers will review those six with support leads on Thursday before setting the next sprint.
 
-## 000027-031
-
-Revenue increased, but cash fell because two large invoices remain unpaid.
-
 ## 000027-032
 
 This price includes setup, not the annual support contract.
-
-## 000027-033
-
-Marta approves discounts; Leon signs contracts above 50,000 euros.
-
-## 000027-034
-
-Before the merger, each office bought its own insurance. The combined policy covers both offices from July, so cancel the separate renewals only after the broker confirms the start date.
 
 ## 000027-035
 
@@ -161,10 +123,6 @@ The email asking for new bank details did not come from our supplier. Its domain
 The sales director called the service desk a cost centre during the budget hearing. The operations director disagreed and produced the renewal records: fourteen customers had cited an unresolved ticket when cancelling.
 
 The board kept the two vacant support posts in the budget and asked for a monthly report linking response time to renewals.
-
-## 000027-040
-
-The presentation begins with "We do not sell furniture; we create belonging." In the version submitted to the regulator, that slide is followed by a table of revenue by product category. I have attached both slides because the inquiry asks exactly how the company described its business to prospective investors during the bond offering.
 
 ## 000027-041
 
@@ -208,10 +166,6 @@ The volunteer organiser put it best: "We are not picking up litter. We are picki
 
 That is precisely what Saturday's cleanup represented. Sixty residents filled 83 sacks along the canal, and the rowing club has offered its shed as a store for the gloves and grabbers until the next event.
 
-## 000027-051
-
-The closure affects the footbridge, not the road bridge downstream.
-
 ## 000027-052
 
 The council owns the land; the railway owns the station building.
@@ -220,17 +174,9 @@ The council owns the land; the railway owns the station building.
 
 The banner above the candidate read, "Less talk, more courage."
 
-## 000027-054
-
-Before the storm, residents could reach the village along the coast road. A landslide now blocks that route, leaving the inland diversion as the only access for delivery vans.
-
 ## 000027-055
 
 The proposed night market would close the only vehicle entrance to the flats. The licensing panel asked traders to move their stalls three metres west before approving the application.
-
-## 000027-056
-
-Recorded shoplifting fell from 42 cases to 31. The police changed the reporting form in April, however, so the quarterly totals cannot yet show whether theft itself became less frequent.
 
 ## 000027-057
 
@@ -253,10 +199,6 @@ Rumours of a permanent pool closure spread after the council removed July sessio
 ## 000027-061
 
 Good teaching is less about lesson plans and more about unlocking potential.
-
-## 000027-062
-
-A marked essay isn't a verdict; it's an invitation to become.
 
 ## 000027-063
 
@@ -304,10 +246,6 @@ Assess the argument, not the handwriting, on this assignment.
 
 The grant covers not only tuition but also laboratory fees.
 
-## 000027-074
-
-A seating chart could separate the pupil from the interpreter. Keep the two adjacent and arrange the remaining desks so both can see the board without turning around.
-
 ## 000027-075
 
 Before half-term, Luis could identify the letters but guessed at whole words. He now sounds out unfamiliar words, although he still needs help with the vowel pairs in this book.
@@ -329,10 +267,6 @@ The improved average comes from pupils who attended every session. Because seven
 The first note from the school said that the trip was compulsory. The corrected note says that it is optional and includes a refund form for families who have already paid.
 
 Please use the corrected version when replying. A supervised study session will run in the library for pupils who stay at school that day.
-
-## 000027-080
-
-The prospectus calls the academy "not a school, but a launchpad" on page three. Similar language appears in the open-evening speech and the bus advertisement. For her media assignment, Priya has put the three versions side by side and underlined which words stay the same when the space available for the message changes.
 
 ## 000027-081
 
@@ -370,16 +304,6 @@ The new microscope is not merely a tool. The laboratory has acquired a new way o
 
 We are not counting beetles to win a childish numbers game. We are documenting change. Place one trap at each marked point, collect it after 48 hours, and record the species and number of specimens. Keep damaged specimens in a separate vial so the taxonomist can inspect them before we enter the final totals.
 
-## 000027-090
-
-The editorial calls the cohort "not a sample, but a window into who we are." That is a compelling description of the project's importance.
-
-Researchers will contact the 900 participants every two years, retaining the same questions about housing and employment while adding a short module on travel to work in the next wave.
-
-## 000027-091
-
-The assay detects antibodies, not the virus itself.
-
 ## 000027-092
 
 The interval includes zero, so the estimate remains compatible with no effect.
@@ -400,10 +324,6 @@ Before calibration, the balance read 0.4 grams with an empty pan. After calibrat
 
 The interviews identify reasons these participants left work early. They cannot estimate how common those reasons are among all workers, because recruitment was limited to volunteers from one clinic.
 
-## 000027-097
-
-Could the apparent decline come from the replacement sensor? The team ran both sensors together for ten days; the old unit read consistently higher, so they adjusted the earlier series.
-
 ## 000027-098
 
 The gel was clear, but the control lane was also blank. We repeated the run with fresh staining solution instead of treating the empty sample lanes as negative results.
@@ -413,14 +333,6 @@ The gel was clear, but the control lane was also blank. We repeated the run with
 The abstract described the treatment as preventing recurrence, while the protocol specified time to first recorded recurrence. That difference matters because patients lost to follow-up may have had an unrecorded event.
 
 The revised abstract uses the protocol wording, gives the number lost to follow-up, and reports the sensitivity analysis requested by the journal.
-
-## 000027-100
-
-In the acceptance speech, Bell described the apparatus as "not an instrument, but a question made visible." The museum label reproduces the sentence beside a photograph of the 1958 ceremony. A typescript in the same case shows that the line was added by hand between the second and third drafts of the speech.
-
-## 000027-101
-
-A tidy cupboard isn't about shelves; it's about reclaiming your life.
 
 ## 000027-102
 
@@ -468,14 +380,6 @@ Sand along the grain, not across it, on the final pass.
 
 The leak is under the basin, not behind the bath.
 
-## 000027-113
-
-The hinge carries the weight; the latch only holds the door shut.
-
-## 000027-114
-
-The door opened freely before we laid the rug. Now its lower edge catches the pile, so move the rug clear before deciding whether to trim the door.
-
 ## 000027-115
 
 The kit has no wall plugs. Buy fixings suited to the wall material rather than using the screws alone; the supplied screws are intended to go through the brackets into separate fixings.
@@ -483,10 +387,6 @@ The kit has no wall plugs. Buy fixings suited to the wall material rather than u
 ## 000027-116
 
 A taller shelf would fit more jars, but it would cover the stopcock. Keep that section removable so you can reach the valve without emptying the whole cupboard.
-
-## 000027-117
-
-It isn't the bulb. I tried that bulb in the other lamp and it lit immediately. Unplug this lamp and check the switch and cable before using it again.
 
 ## 000027-118
 
@@ -501,10 +401,6 @@ I photographed that side of the tin and the batch code after the shop asked whic
 ## 000027-120
 
 I thought the dark patch was damp until I lifted the mat. The backing had shed black powder onto the boards, and a dry cloth removed it. The wood underneath was firm and the skirting was clean. I have put the mat aside and will check the bare floor after the next heavy rain.
-
-## 000027-121
-
-My empty diary isn't loneliness. It's freedom learning to take up space.
 
 ## 000027-122
 
@@ -544,10 +440,6 @@ A holiday gives you photographs; a journey gives you yourself. That is why this 
 
 I stayed above a grocery shop, walked to the market each morning, and spent Tuesday sheltering from the rain in a cafe where the owner lent me an umbrella for the walk home.
 
-## 000027-131
-
-I want company this evening, not advice about the breakup.
-
 ## 000027-132
 
 The spare key opens the flat, but not the shared entrance.
@@ -560,17 +452,9 @@ Staying with my parents would save rent, but the last bus leaves before my shift
 
 I blamed myself for missing her call. Later I saw that the phone had switched to silent during the update, so I turned the ringer back on and called her.
 
-## 000027-135
-
-Before Dad stopped driving, we met at his house on Sundays. Now we meet at mine because the bus stops outside, and he can get home without changing routes.
-
 ## 000027-136
 
 No reply arrived by noon, so I assumed the lift wasn't coming and booked a taxi. The message finally appeared after I had reached the station.
-
-## 000027-137
-
-Jon likes deciding the route in advance; I like leaving the afternoon open. We booked the morning train and agreed to choose the return once we had seen the weather.
 
 ## 000027-138
 
@@ -650,17 +534,9 @@ Milo looked towards the landing. His daughter stood there in her coat, holding t
 
 The footprints came towards the shed, not away from it. Hana stopped at the door and waited for the constable instead of going inside as she had planned.
 
-## 000027-155
-
-An hour ago the key had turned freely. Now something held it halfway round. Joel pressed his shoulder against the door and heard a chair scrape across the tiles on the other side.
-
 ## 000027-156
 
 "If we light the stove, they will see the smoke," Ines said. Pavel lowered the match. They wrapped the baby in both coats and waited for the search party to pass.
-
-## 000027-157
-
-She had mistaken his silence for agreement. When the vote was called, he raised his hand against her proposal, and she realised the railway money would have to come from somewhere else.
 
 ## 000027-158
 
@@ -673,10 +549,6 @@ Detective Salim compared the date with the permit on his screen. The billboard h
 "You think I sold it for the money," her brother said. "I sold it because the buyer promised to keep the orchard."
 
 Lena put down the letter. She had come prepared to demand her share of the price; now she wanted to see the covenant. He pushed the contract across the table without another word.
-
-## 000027-160
-
-For years, Arlo had taken the alley because it saved five minutes. Tonight the gate was locked, and the men at the corner were watching the main road. He turned back towards the river. By the time he reached the footbridge, the meeting would have started, but nobody there would have seen him arrive from the station.
 
 ## 000027-161
 
@@ -716,12 +588,6 @@ The curator has placed the early charcoal studies beside the later city painting
 
 Learning scales isn't a betrayal of the wild musician inside you. It is a declaration that the music deserves your attention. Begin with one octave, play slowly enough to hear each note clearly, and stop when the hand tightens. Use the same fingering on the way down and note where the change of thumb becomes uneven.
 
-## 000027-170
-
-We did not spend the afternoon merely hanging photographs. We were making memory visible. The frames arrived at two, and by five the last picture was level.
-
-I swept the drill dust from the floor, placed the price list beside the door, and left the lights on while we went out to collect the wine.
-
 ## 000027-171
 
 The second movement is marked quiet, not slow; keep the pulse.
@@ -733,10 +599,6 @@ These are contact prints, not enlargements made from cropped negatives.
 ## 000027-173
 
 The first proof printed the shadows as solid black. After the printer lowered the contrast, the folds in the coat became visible, so the artist approved the second proof.
-
-## 000027-174
-
-The recording gives you a clear flute line; the live mix gives you more percussion from the stage microphones. Use the recording if you are transcribing the flute part.
 
 ## 000027-175
 
@@ -767,10 +629,6 @@ The catalogue dates the canvas to 1912 on the basis of a label on the stretcher.
 ## 000027-181
 
 The defeat wasn't a loss. It was a lesson arriving in team colours.
-
-## 000027-182
-
-Training is less about miles and more about becoming someone who matters.
 
 ## 000027-183
 
@@ -807,10 +665,6 @@ Using a training diary does not mean becoming a slave to data. It means respecti
 A treadmill gives you distance. A trail gives you discovery. That is why the new club outing deserves a place in your calendar.
 
 The route starts at the reservoir gate, follows the forestry track for four kilometres, and returns along the lower path. Meet at nine; the cafe opens at eleven for anyone who wants breakfast afterwards.
-
-## 000027-191
-
-The suspension covers league games, not the cup match on Wednesday.
 
 ## 000027-192
 
@@ -849,10 +703,6 @@ The match report includes a photograph of each banner because the league has ask
 ## 000027-200
 
 The squad has no reserve goalkeeper on the bench because both registered keepers are injured. If Patel cannot continue, an outfield player will have to take his place and wear the spare shirt. The manager has asked the captain to warm up in goal before kickoff so the team has agreed who will make the switch.
-
-## 000027-201
-
-This isn't a bowl of soup; it's an act of belonging.
 
 ## 000027-202
 
@@ -914,27 +764,13 @@ Without eggs, this version will not set firmly enough to slice. Serve it in glas
 
 Fresh tomatoes would add flavour, but they would also release water into the pastry. Roast them first and let them cool before arranging them over the cheese layer.
 
-## 000027-216
-
-The pan is not only deeper but also narrower than the one in the recipe. Divide the batter between two tins so the middle cooks before the edges dry out.
-
 ## 000027-217
 
 The lid keeps steam in; the uncovered final ten minutes let the surface brown. Both stages matter, so remove the lid only after the potatoes are tender in the centre.
 
-## 000027-218
-
-The packet bears the slogan "Not a snack. A small celebration." The nutrition panel is on the opposite side, below the ingredients list.
-
-For the packaging comparison, we photographed the front and back of each packet at the same scale and recorded how much space the slogan occupied relative to the weight and price information.
-
 ## 000027-219
 
 "That is not cream," Grandma said as I reached for the jug. "It is the batter for tomorrow's pancakes." I put it back and opened the fridge. She had labelled every other container, but the label on that one had come away in the wash. We wrote a new one before making the coffee.
-
-## 000027-220
-
-The tasting panel preferred the second batch by eight votes to four. All twelve tasters had tried the sweeter sample first, however, so serving order may have affected the result. We will reverse the order for the next group and keep the batch codes hidden until everyone has handed in a score sheet.
 
 ## 000027-221
 
@@ -979,10 +815,6 @@ The first 300 saplings will go beside the footpath in November, with guards fitt
 The failed compost heap was not a mistake. It was sustainability teaching us patience. We moved the wet material into a second bin, mixed in dry leaves, and left the lid ajar while we repaired the hinge.
 
 By Saturday the bin was standing level again, and there was enough room beside it to stack the empty leaf sacks.
-
-## 000027-231
-
-The meter measures electricity consumed, not the amount generated by the panels.
 
 ## 000027-232
 
