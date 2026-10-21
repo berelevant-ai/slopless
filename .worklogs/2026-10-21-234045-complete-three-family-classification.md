@@ -19,6 +19,7 @@ All five checks meet the fixed development target on independently reviewed bala
 - Fresh completion audit verifies all ten active splits have exactly 100 hits and 100 no-hits, matching text checksums. It reproduces the five development summaries and four earlier holdout summaries from saved results.
 - Freeze `1bc285f8` passes CI on Node 22/24, CodeQL, Code Quality, and Scorecard. Dataset validation, Fixture3's dataset suite, formatting, and diff checks pass at the freeze.
 - Fresh protected QA reproduces all thirteen requests and 200 decisions, validates models/usage/hashes, retains every error label after full-text review, and approves the finalized report. Its proof SHA256 is `2635640815adae79d6ab364639abd1bc7cbb4e19d253c61c8bdf3dab082c1fee`; it makes zero provider calls.
+- Offline scoring exposes holdout result IDs and probabilities to the orchestrator after frozen inference. Holdout writing, snippets, and case-specific reasons remain protected; prompts stay unchanged and further tuning requires fresh holdout material.
 - Final dataset validation again passes 15,677 documents and 22,253 labels, including seventeen holdout documents. Fixture3's dataset suite matches its approved output; scoped formatting and diff checks pass.
 
 ## Key Files And Next Steps
