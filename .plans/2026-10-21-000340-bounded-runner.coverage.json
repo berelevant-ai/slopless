@@ -19,6 +19,10 @@
   ],
   "contracts": [
     {
+      "behavior": "Configurable batches retain complete text, bind nondefault size to immutable inference settings, preserve historical size-100 request and snapshot bytes, support partial final batches and offline replay, and reject invalid sizes, changed sizes, or existing non-object result caches before target loading or provider access while preserving rejected cache bytes and timestamps",
+      "boundary": "Public batchPlans/createSnapshot/validateResult/rescoreResult and real CLI subprocesses with synthetic paired data and local SDKs; existing temporary driver integrity probes retain all default-size assertions and add size-16 baseline/revision/resume checks"
+    },
+    {
       "behavior": "Atomic result replacement preserves input files behind conventional temporary symlinks, cleans private temporary directories on failure, and keeps cached inference unchanged",
       "boundary": "writeAtomicJson and public CLI run/resume/rescore using synthetic inputs and a local SDK; private family-driver probes reject outputs outside canonical runners/results before target reads"
     },

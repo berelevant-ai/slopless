@@ -1,8 +1,9 @@
 // cspell:words noul rescored rescores
 import assert from "node:assert/strict";
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import {
   mkdirSync,
+  existsSync,
   mkdtempSync,
   lstatSync,
   readdirSync,
@@ -156,6 +157,120 @@ function runnerContext(
     mode
   });
   return { rows, prompts, snapshot };
+}
+function wholeTextContext() {
+  const directory = mkdtempSync(resolve(".fixture3/batching-contract-"));
+  const dataset = resolve(directory, "texts.md");
+  const promptsDirectory = resolve(directory, "prompts");
+  mkdirSync(promptsDirectory);
+  writeFileSync(
+    resolve(promptsDirectory, "shared.md"),
+    "Judge the complete synthetic text."
+  );
+  writeFileSync(
+    resolve(promptsDirectory, "complete-text.md"),
+    "Detect the synthetic claim in the final answer."
+  );
+  let text = "";
+  const samples = [];
+  const labels = [];
+  for (let number = 0; number < 200; number++) {
+    const expected = number < 100;
+    const id = `${expected ? "hit" : "clean"}-${String(number).padStart(3, "0")}`;
+    const target =
+      `Question: What did synthetic inspection ${number} find?\n\n` +
+      "The recorder checked the synthetic workshop. Every observation retained its complete context in the written report.\n\n".repeat(
+        60
+      ) +
+      `Final answer: The inspection recorded a synthetic ${expected ? "claim" : "control"}.`;
+    const start = text.length;
+    text += target + "\n\n";
+    samples.push({ id, start, end: start + target.length });
+    labels.push({
+      id,
+      check: "synthetic-family/complete-text",
+      expected,
+      ...(expected ? { snippets: [target] } : {})
+    });
+  }
+  const metadata = {
+    schemaVersion: 2,
+    textSha256: textHash(text),
+    split: "development",
+    source: {
+      name: "Complete synthetic batching contract",
+      originalPath: "synthetic",
+      commit: "contract"
+    },
+    samples,
+    labels
+  };
+  writeFileSync(dataset, text);
+  writeFileSync(
+    dataset.slice(0, -3) + ".labels.json",
+    JSON.stringify(metadata)
+  );
+  const rows = loadDataset(dataset, "synthetic-family");
+  const prompts = loadPrompts(promptsDirectory);
+  const snapshotFor = (batchSize) =>
+    jev.createSnapshot({
+      dataset,
+      promptDirectory: promptsDirectory,
+      model: "jev-1.13.0",
+      threshold: 0.5,
+      checks: ["complete-text"],
+      prompts,
+      rows,
+      family: "synthetic-family",
+      mode: "classification-only",
+      ...(batchSize === undefined ? {} : { batchSize })
+    });
+  const calls = resolve(directory, "calls.jsonl");
+  const targets = resolve(directory, "targets.json");
+  writeFileSync(
+    targets,
+    JSON.stringify(
+      Object.fromEntries(
+        rows.map((row) => [`${row.id}_complete-text`, row.text])
+      )
+    )
+  );
+  const sdk = resolve(directory, "sdk.mjs");
+  writeFileSync(
+    sdk,
+    `import assert from "node:assert/strict";
+import {appendFileSync,readFileSync} from "node:fs";
+const targets=JSON.parse(readFileSync(${JSON.stringify(targets)},"utf8"));
+export class TypeSafeClient { async systemOne(request) {
+  for(const [key,question] of Object.entries(request.questions)) assert.equal(question.instructions.target,targets[key]);
+  assert.ok(Object.keys(request.questions).length<=16);
+  appendFileSync(${JSON.stringify(calls)},JSON.stringify(request)+"\\n");
+  return {model:request.model,usage:{input_tokens:1,output_tokens:1},answers:Object.fromEntries(Object.keys(request.questions).map(key=>[key,{type:"noul",noul:key.startsWith("hit-")?0.75:0.25}]))};
+} }`
+  );
+  return {
+    directory,
+    dataset,
+    metadata,
+    rows,
+    prompts,
+    snapshotFor,
+    calls,
+    sdk,
+    args: [
+      "--dataset",
+      dataset,
+      "--family",
+      "synthetic-family",
+      "--mode",
+      "classification-only",
+      "--development-only",
+      "--prompts",
+      promptsDirectory,
+      "--sdk",
+      sdk
+    ]
+  };
 }
 try {
   check("paired Markdown and labels", () =>
@@ -937,6 +1052,506 @@ try {
       false
     );
   });
+  check(
+    "configurable batching preserves complete texts and legacy defaults",
+    () => {
+      const context = wholeTextContext();
+      try {
+        const { rows, prompts, snapshotFor } = context;
+        const defaults = jev.batchPlans(
+          rows,
+          ["complete-text"],
+          0.5,
+          [],
+          "classification-only"
+        );
+        const explicit = jev.batchPlans(
+          rows,
+          ["complete-text"],
+          0.5,
+          [],
+          "classification-only",
+          100
+        );
+        assert.equal(JSON.stringify(defaults), JSON.stringify(explicit));
+        const historical = [0, 1].map((index) => ({
+          stage: "detection",
+          check: "complete-text",
+          index: index + 1,
+          items: rows
+            .slice(index * 100, (index + 1) * 100)
+            .map((row) => ({ id: row.id, key: `${row.id}_complete-text` }))
+        }));
+        assert.equal(JSON.stringify(defaults), JSON.stringify(historical));
+        for (const [index, plan] of defaults.entries()) {
+          const request = JSON.stringify(
+            buildRequest("jev-1.13.0", prompts, plan.check, plan.items, rows)
+          );
+          assert.equal(
+            request,
+            JSON.stringify(
+              buildRequest(
+                "jev-1.13.0",
+                prompts,
+                historical[index].check,
+                historical[index].items,
+                rows
+              )
+            )
+          );
+          assert.equal(
+            textHash(request),
+            textHash(
+              JSON.stringify(
+                buildRequest(
+                  "jev-1.13.0",
+                  prompts,
+                  explicit[index].check,
+                  explicit[index].items,
+                  rows
+                )
+              )
+            )
+          );
+        }
+        assert.equal(
+          JSON.stringify(snapshotFor()),
+          JSON.stringify(snapshotFor(100))
+        );
+        assert.equal(Object.hasOwn(snapshotFor(), "batchSize"), false);
+        assert.equal(snapshotFor(16).batchSize, 16);
+        const plans = jev.batchPlans(
+          rows,
+          ["complete-text"],
+          0.5,
+          [],
+          "classification-only",
+          16
+        );
+        assert.equal(plans.length, 13);
+        assert.deepEqual(
+          plans.map((plan) => plan.items.length),
+          [...Array(12).fill(16), 8]
+        );
+        assert.equal(
+          new Set(plans.flatMap((plan) => plan.items.map((item) => item.id)))
+            .size,
+          200
+        );
+        for (const plan of plans) {
+          const request = buildRequest(
+            "jev-1.13.0",
+            prompts,
+            plan.check,
+            plan.items,
+            rows
+          );
+          for (const item of plan.items)
+            assert.equal(
+              request.questions[item.key].instructions.target,
+              rows.find((row) => row.id === item.id).text
+            );
+        }
+        assert.equal(
+          jev.batchPlans(
+            rows,
+            ["complete-text"],
+            0.5,
+            [],
+            "classification-only",
+            1
+          ).length,
+          200
+        );
+        const output = resolve(context.directory, "result.json");
+        const args = [
+          ...context.args,
+          "--batch-size",
+          "16",
+          "--output",
+          output
+        ];
+        assert.equal(cli("run", args).requests, 13);
+        const completed = JSON.parse(readFileSync(output));
+        assert.equal(completed.snapshot.batchSize, 16);
+        assert.deepEqual(
+          completed.batches.map(
+            (batch) => Object.keys(batch.response.answers).length
+          ),
+          plans.map((plan) => plan.items.length)
+        );
+        const partial = structuredClone(completed);
+        partial.batches = partial.batches.slice(0, 1);
+        delete partial.summaries;
+        delete partial.inferenceSha256;
+        writeFileSync(output, JSON.stringify(partial));
+        writeFileSync(context.calls, "");
+        assert.equal(cli("run", args).requests, 13);
+        const resumed = JSON.parse(readFileSync(output));
+        assert.deepEqual(resumed.batches[0], partial.batches[0]);
+        const requests = readFileSync(context.calls, "utf8")
+          .trim()
+          .split("\n")
+          .map((line) => JSON.parse(line));
+        assert.equal(requests.length, 12);
+        const keys = requests.flatMap((request) =>
+          Object.keys(request.questions)
+        );
+        assert.equal(keys.length, 184);
+        assert.equal(new Set(keys).size, 184);
+        assert.ok(
+          Object.keys(partial.batches[0].response.answers).every(
+            (key) => !keys.includes(key)
+          )
+        );
+        const before = {
+          bytes: readFileSync(output),
+          stat: statSync(output, { bigint: true })
+        };
+        for (const command of ["score", "run"])
+          assert.equal(
+            cli(command, [
+              ...args,
+              "--sdk",
+              resolve(context.directory, "must-not-initialize.mjs")
+            ]).complete,
+            true
+          );
+        assert.deepEqual(readFileSync(output), before.bytes);
+        const after = statSync(output, { bigint: true });
+        assert.equal(after.ino, before.stat.ino);
+        assert.equal(after.mtimeNs, before.stat.mtimeNs);
+        const changed = structuredClone(context.metadata);
+        changed.labels[0] = { ...changed.labels[0], expected: false };
+        delete changed.labels[0].snippets;
+        writeFileSync(
+          context.dataset.slice(0, -3) + ".labels.json",
+          JSON.stringify(changed)
+        );
+        assert.equal(cli("rescore", args).complete, true);
+        const rescored = JSON.parse(readFileSync(output));
+        for (const key of [
+          "snapshot",
+          "batches",
+          "summaries",
+          "inferenceSha256"
+        ])
+          assert.deepEqual(rescored[key], resumed[key]);
+        assert.equal(rescored.rescores.length, 1);
+        assert.equal(rescored.rescores[0].summaries[0].caught, 99);
+      } finally {
+        rmSync(context.directory, { recursive: true, force: true });
+      }
+    }
+  );
+  check(
+    "batch sizes bind replay settings and reject invalid inputs early",
+    () => {
+      const context = wholeTextContext();
+      try {
+        const { rows, prompts, snapshotFor } = context;
+        for (const size of [0, -1, 1.5, 101, NaN, Infinity, "16", null]) {
+          assert.throws(
+            () =>
+              jev.batchPlans(
+                rows,
+                ["complete-text"],
+                0.5,
+                [],
+                "classification-only",
+                size
+              ),
+            /Batch size/
+          );
+          assert.throws(() => snapshotFor(size), /Batch size/);
+        }
+        const output = resolve(context.directory, "saved.json");
+        writeFileSync(
+          output,
+          JSON.stringify({ snapshot: snapshotFor(16), batches: [] })
+        );
+        for (const command of ["validate", "score", "run", "rescore"]) {
+          for (const size of ["8", "100"])
+            cliRejects(
+              command,
+              [
+                ...context.args,
+                "--output",
+                output,
+                "--batch-size",
+                size,
+                "--dataset",
+                resolve(context.directory, "must-not-read.md"),
+                "--sdk",
+                resolve(context.directory, "must-not-initialize.mjs")
+              ],
+              /same batch size/
+            );
+          for (const size of [
+            "0",
+            "-1",
+            "1.5",
+            "101",
+            "NaN",
+            "Infinity",
+            "invalid"
+          ])
+            cliRejects(
+              command,
+              [
+                ...context.args,
+                "--output",
+                output,
+                `--batch-size=${size}`,
+                "--dataset",
+                resolve(context.directory, "must-not-read.md"),
+                "--sdk",
+                resolve(context.directory, "must-not-initialize.mjs")
+              ],
+              /Batch size/
+            );
+        }
+        const invalidSaved = {
+          snapshot: { ...snapshotFor(), batchSize: null },
+          batches: []
+        };
+        writeFileSync(output, JSON.stringify(invalidSaved));
+        for (const command of ["validate", "score", "run", "rescore"])
+          cliRejects(
+            command,
+            [
+              ...context.args,
+              "--output",
+              output,
+              "--batch-size",
+              "100",
+              "--dataset",
+              resolve(context.directory, "must-not-read.md")
+            ],
+            /Batch size/
+          );
+        assert.throws(
+          () =>
+            jev.validateResult(invalidSaved, {
+              rows,
+              prompts,
+              snapshot: snapshotFor()
+            }),
+          /Batch size/
+        );
+        const context16 = { rows, prompts, snapshot: snapshotFor(16) };
+        for (const size of [8, 100])
+          assert.throws(
+            () =>
+              jev.validateResult(
+                { snapshot: snapshotFor(size), batches: [] },
+                context16
+              ),
+            /Saved results require/
+          );
+        const defaults = { snapshot: snapshotFor(), batches: [] };
+        assert.equal(
+          jev.validateResult(defaults, {
+            rows,
+            prompts,
+            snapshot: snapshotFor(100)
+          }).complete,
+          false
+        );
+      } finally {
+        rmSync(context.directory, { recursive: true, force: true });
+      }
+    }
+  );
+  check("configurable highlighting retains sentence request boundaries", () => {
+    const context = wholeTextContext();
+    try {
+      const { rows, prompts } = context;
+      const batches = [];
+      for (;;) {
+        const plans = jev.batchPlans(
+          rows,
+          ["complete-text"],
+          0.5,
+          batches,
+          "detect-and-highlight",
+          16
+        );
+        const plan = plans[batches.length];
+        if (!plan) break;
+        const request = buildRequest(
+          "jev-1.13.0",
+          prompts,
+          plan.check,
+          plan.items,
+          rows
+        );
+        batches.push({
+          stage: plan.stage,
+          check: plan.check,
+          index: plan.index,
+          requestSha256: textHash(JSON.stringify(request)),
+          elapsedMs: 0,
+          response: {
+            model: request.model,
+            usage: { input_tokens: 1, output_tokens: 1 },
+            answers: Object.fromEntries(
+              plan.items.map((item) => [
+                item.key,
+                { type: "noul", noul: item.id === rows[0].id ? 0.75 : 0.25 }
+              ])
+            )
+          }
+        });
+        if (plan.stage === "highlighting")
+          for (const item of plan.items)
+            assert.equal(
+              request.questions[item.key].instructions.target,
+              rows[0].text
+            );
+      }
+      const highlighting = batches.filter(
+        (batch) => batch.stage === "highlighting"
+      );
+      assert.ok(highlighting.length > 1);
+      assert.equal(
+        highlighting.reduce(
+          (sum, batch) => sum + Object.keys(batch.response.answers).length,
+          0
+        ),
+        rows[0].sentences.length
+      );
+      assert.ok(
+        highlighting.every(
+          (batch) => Object.keys(batch.response.answers).length <= 16
+        )
+      );
+      const snapshot = {
+        ...context.snapshotFor(16),
+        mode: "detect-and-highlight"
+      };
+      assert.equal(
+        jev.validateResult({ snapshot, batches }, { snapshot, rows, prompts })
+          .complete,
+        true
+      );
+    } finally {
+      rmSync(context.directory, { recursive: true, force: true });
+    }
+  });
+  check(
+    "invalid cached JSON types preserve files before target loading",
+    () => {
+      const context = wholeTextContext();
+      try {
+        const output = resolve(context.directory, "invalid-cache.json");
+        const marker = resolve(context.directory, "sdk-initialized.txt");
+        const trace = resolve(context.directory, "target-read.txt");
+        const hook = resolve(context.directory, "cache-guard.mjs");
+        writeFileSync(
+          hook,
+          `import fs from "node:fs";
+import {syncBuiltinESMExports} from "node:module";
+const read=fs.readFileSync;
+fs.readFileSync=function(path,...args) {
+  if(String(path)===${JSON.stringify(context.dataset)} || String(path).startsWith(${JSON.stringify(resolve(context.directory, "prompts") + "/")})) {
+    fs.writeFileSync(${JSON.stringify(trace)},"target read");
+    throw new Error("TARGET_READ_BEFORE_CACHE_VALIDATION");
+  }
+  return read.call(this,path,...args);
+};
+syncBuiltinESMExports();`
+        );
+        writeFileSync(
+          context.sdk,
+          `import {writeFileSync} from "node:fs";
+writeFileSync(${JSON.stringify(marker)},"SDK initialized");
+throw new Error("SDK_INITIALIZED_BEFORE_CACHE_VALIDATION");`
+        );
+        for (const cached of [
+          null,
+          [],
+          [{}],
+          false,
+          true,
+          0,
+          7,
+          "",
+          "invalid"
+        ]) {
+          for (const command of ["validate", "score", "run", "rescore"]) {
+            writeFileSync(output, JSON.stringify(cached) + "\n");
+            const before = {
+              bytes: readFileSync(output),
+              stat: statSync(output, { bigint: true })
+            };
+            const run = spawnSync(
+              process.execPath,
+              [
+                "--import",
+                hook,
+                jevCli,
+                command,
+                ...context.args,
+                "--output",
+                output
+              ],
+              {
+                encoding: "utf8",
+                env: { ...process.env, JEV_API_KEY: "synthetic-never-use" }
+              }
+            );
+            assert.equal(run.status, 1, run.stderr);
+            assert.match(
+              run.stderr,
+              /Saved result must be a non-null JSON object/
+            );
+            assert.deepEqual(readFileSync(output), before.bytes);
+            const after = statSync(output, { bigint: true });
+            assert.equal(after.ino, before.stat.ino);
+            assert.equal(after.mtimeNs, before.stat.mtimeNs);
+            assert.equal(existsSync(marker), false);
+            assert.equal(existsSync(trace), false);
+          }
+        }
+        for (const destination of [
+          context.dataset,
+          context.dataset.slice(0, -3) + ".labels.json"
+        ]) {
+          const before = {
+            bytes: readFileSync(destination),
+            stat: statSync(destination, { bigint: true })
+          };
+          const run = spawnSync(
+            process.execPath,
+            [
+              "--import",
+              hook,
+              jevCli,
+              "run",
+              ...context.args,
+              "--output",
+              destination
+            ],
+            {
+              encoding: "utf8",
+              env: { ...process.env, JEV_API_KEY: "synthetic-never-use" }
+            }
+          );
+          assert.equal(run.status, 1);
+          assert.match(run.stderr, /Output must be separate from inputs/);
+          assert.deepEqual(readFileSync(destination), before.bytes);
+          const after = statSync(destination, { bigint: true });
+          assert.equal(after.ino, before.stat.ino);
+          assert.equal(after.mtimeNs, before.stat.mtimeNs);
+          assert.equal(existsSync(marker), false);
+          assert.equal(existsSync(trace), false);
+        }
+      } finally {
+        rmSync(context.directory, { recursive: true, force: true });
+      }
+    }
+  );
   console.log(JSON.stringify({ checks }));
 } finally {
   rmSync(directory, { recursive: true, force: true });

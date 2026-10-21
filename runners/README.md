@@ -25,6 +25,7 @@ node runners/jev.mjs run --prompts prompts/v2 --output runners/results/semantic-
 - `--family puffery-and-overstatement` selects the labels belonging to that family. The default remains `semantic-thinness`.
 - `--mode classification-only` plans detection batches, scores passage decisions, and completes without sentence highlighting. The default remains `detect-and-highlight`.
 - `--development-only` requires `split: development` in every collection's metadata before loading target text or initializing credentials or the SDK. It checks metadata rather than filenames, including directory inputs.
+- `--batch-size 16` reduces the number of questions per request while preserving each complete target. The setting is a safe integer from 1 to 100, defaults to 100, and stays fixed for resumption, scoring, and rescoring. Historical outputs use 100; nondefault sizes are recorded in the snapshot.
 - `validate` checks inputs and any supplied output offline. `score` requires a completed output. `run` resumes completed batches and calls Jev for missing batches.
 - Changed inference inputs require a new output. `rescore` appends corrected-label scores to a completed new-format output offline. Save model results outside `datasets/` and the prompt folder.
 - Inference receives target text and identifiers. Assignments, labels, rationales, evidence, and review objections remain in offline scoring.
@@ -46,9 +47,9 @@ Temporary tuning drivers import these public functions from `runners/jev.mjs`:
 - `preflightDataset(input, { developmentOnly = false } = {})` returns document paths. Call it with `developmentOnly: true` before `loadDataset`, credential access, or SDK initialization.
 - `writeAtomicJson(file, value)` serializes a result into an exclusively created file inside a private temporary directory, atomically replaces the destination, and cleans up temporary files on success or failure. Both the public runner and temporary tuning driver use it.
 - `loadDataset(input, family = "semantic-thinness")` returns sorted targets with resolved labels and sentence ranges. `loadPrompts(directory, selected)` selects one check or all prompt files.
-- `batchPlans(rows, checks, threshold, completed, mode = "detect-and-highlight")` returns ordered request plans. `buildRequest(model, prompts, check, items, rows)` builds label-free requests; `validateResponse(savedBatch, request)` verifies responses and request hashes.
+- `batchPlans(rows, checks, threshold, completed, mode = "detect-and-highlight", batchSize = 100)` returns ordered request plans, including a smaller final batch. Both detection and highlighting use the selected size. `buildRequest(model, prompts, check, items, rows)` builds label-free requests; `validateResponse(savedBatch, request)` verifies responses and request hashes.
 - `score(rows, checks, threshold, batches, mode = "detect-and-highlight")` returns per-check scores. Classification-only findings contain IDs and scores; highlighting findings also contain sentence ranges.
-- `createSnapshot({ dataset, promptDirectory, model, threshold, checks, prompts, rows, family, mode })` records input hashes and execution settings. Its family and mode defaults match the CLI.
+- `createSnapshot({ dataset, promptDirectory, model, threshold, checks, prompts, rows, family, mode, batchSize = 100 })` records input hashes and execution settings. Its family and mode defaults match the CLI. Size 100 is omitted from saved snapshots to preserve historical default bytes; missing sizes normalize to 100 during validation.
 - `validateResult(result, { snapshot, rows, prompts })` verifies saved inputs and the completed batch prefix, returning `{ complete }`.
 - `rescoreResult(result, { snapshot, rows, prompts })` returns a clone with one appended `rescores` entry. Supply a snapshot and rows loaded from the corrected dataset, with the original model, prompts, threshold, family, and mode. The helper accepts retained prompt contents from an immutable trial; the CLI loads prompts from its selected directory.
 
@@ -62,7 +63,7 @@ Temporary tuning drivers import these public functions from `runners/jev.mjs`:
 
 ## Saved Result
 
-Snapshots without `family` or `mode` use `semantic-thinness` and `detect-and-highlight`. Existing snapshots without the new target hash remain supported by offline validation, scoring, and resumption; rescoring requires the new target hash and preserved original summaries.
+Snapshots without `family`, `mode`, or `batchSize` use `semantic-thinness`, `detect-and-highlight`, and 100. Existing snapshots without the new target hash remain supported by offline validation, scoring, and resumption; rescoring requires the new target hash and preserved original summaries.
 
 `results/semantic-thinness-v1.json` preserves 28 of 29 assigned positives caught across the three prompts, with 13 of 240 clean paragraphs flagged. All 2,251 decisions and 27 request hashes reproduce unchanged after the storage migration.
 

@@ -28,6 +28,13 @@ const highlightQuestion =
 const defaultFamily = "semantic-thinness";
 const defaultMode = "detect-and-highlight";
 
+function validateBatchSize(batchSize) {
+  assert.ok(
+    Number.isSafeInteger(batchSize) && batchSize >= 1 && batchSize <= 100,
+    "Batch size must be a safe integer from 1 to 100."
+  );
+}
+
 function validateMode(mode) {
   assert.ok(
     [defaultMode, "classification-only"].includes(mode),
@@ -212,9 +219,11 @@ export function batchPlans(
   checks,
   threshold,
   completed,
-  mode = defaultMode
+  mode = defaultMode,
+  batchSize = 100
 ) {
   validateMode(mode);
+  validateBatchSize(batchSize);
   const plans = [];
   for (const stage of mode === "classification-only"
     ? ["detection"]
@@ -238,12 +247,12 @@ export function batchPlans(
           sentence: sentence.id
         }));
       });
-      for (let start = 0; start < items.length; start += 100)
+      for (let start = 0; start < items.length; start += batchSize)
         plans.push({
           stage,
           check,
-          index: start / 100 + 1,
-          items: items.slice(start, start + 100)
+          index: start / batchSize + 1,
+          items: items.slice(start, start + batchSize)
         });
     }
   return plans;
@@ -300,9 +309,11 @@ export function createSnapshot({
   prompts,
   rows,
   family = defaultFamily,
-  mode = defaultMode
+  mode = defaultMode,
+  batchSize = 100
 }) {
   validateMode(mode);
+  validateBatchSize(batchSize);
   assert.ok(Number.isFinite(threshold) && threshold > 0 && threshold <= 1);
   assert.ok(typeof model === "string" && model.length > 0);
   assert.deepEqual(checks, Object.keys(prompts.types));
@@ -313,6 +324,7 @@ export function createSnapshot({
     checks,
     family,
     mode,
+    ...(batchSize === 100 ? {} : { batchSize }),
     prompts: relative(root, resolve(promptDirectory)),
     dataset: relative(root, resolve(dataset)),
     promptSha256: hash(JSON.stringify(prompts)),
@@ -334,10 +346,13 @@ export function createSnapshot({
 }
 
 function normalizedSnapshot(snapshot) {
+  const batchSize = snapshot.batchSize === undefined ? 100 : snapshot.batchSize;
+  validateBatchSize(batchSize);
   return {
     ...snapshot,
     family: snapshot.family ?? defaultFamily,
-    mode: snapshot.mode ?? defaultMode
+    mode: snapshot.mode ?? defaultMode,
+    batchSize
   };
 }
 
@@ -361,8 +376,15 @@ function validateSaved(result, { snapshot, rows, prompts }, allowLabelChanges) {
   );
   assert.equal(snapshot.promptSha256, hash(JSON.stringify(prompts)));
   assert.ok(Array.isArray(result.batches));
-  const { model, threshold, checks, mode } = current;
-  const planned = batchPlans(rows, checks, threshold, result.batches, mode);
+  const { model, threshold, checks, mode, batchSize } = current;
+  const planned = batchPlans(
+    rows,
+    checks,
+    threshold,
+    result.batches,
+    mode,
+    batchSize
+  );
   assert.ok(result.batches.length <= planned.length);
   for (const [index, batch] of result.batches.entries()) {
     const plan = planned[index];
@@ -479,6 +501,7 @@ async function main() {
       family: { type: "string", default: defaultFamily },
       mode: { type: "string", default: defaultMode },
       "development-only": { type: "boolean", default: false },
+      "batch-size": { type: "string", default: "100" },
       output: { type: "string" },
       model: { type: "string", default: "jev-1.13.0" },
       threshold: { type: "string", default: "0.5" },
@@ -487,7 +510,7 @@ async function main() {
   });
   if (values.help) {
     console.log(
-      "node runners/jev.mjs <validate|score|rescore|run> [--prompts prompts/v1] [--dataset PATH] [--family semantic-thinness] [--mode detect-and-highlight|classification-only] [--development-only] [--check NAME] [--output FILE] [--model jev-1.13.0] [--threshold 0.5] [--sdk PATH]\nThe dataset is Markdown with matching .labels.json. Paths are relative to the current directory. validate checks inputs and any supplied output offline. score requires a complete output. rescore appends label-only corrected summaries offline, preserving original results. run calls Jev and resumes the chosen output file. development-only checks every collection's split metadata before loading text or initializing provider access. All checks evaluate every labeled passage independently; scoring uses assigned positives, check-specific no-hits, and legacy family-wide clean controls. Only text and target identifiers enter model requests. Save outputs under runners/results, outside datasets and prompts. SDK defaults to the pinned @typesafe-ai/sdk development dependency; JEV_API_KEY or the approved 1Password entry supplies credentials."
+      "node runners/jev.mjs <validate|score|rescore|run> [--prompts prompts/v1] [--dataset PATH] [--family semantic-thinness] [--mode detect-and-highlight|classification-only] [--development-only] [--batch-size 100] [--check NAME] [--output FILE] [--model jev-1.13.0] [--threshold 0.5] [--sdk PATH]\nThe dataset is Markdown with matching .labels.json. Paths are relative to the current directory. validate checks inputs and any supplied output offline. score requires a complete output. rescore appends label-only corrected summaries offline, preserving original results. run calls Jev and resumes the chosen output file. development-only checks every collection's split metadata before loading text or initializing provider access. Batch size is a frozen integer from 1 to 100, defaulting to 100; complete targets remain intact. All checks evaluate every labeled passage independently; scoring uses assigned positives, check-specific no-hits, and legacy family-wide clean controls. Only text and target identifiers enter model requests. Save outputs under runners/results, outside datasets and prompts. SDK defaults to the pinned @typesafe-ai/sdk development dependency; JEV_API_KEY or the approved 1Password entry supplies credentials."
     );
     return;
   }
@@ -500,12 +523,46 @@ async function main() {
   assert.ok(command === "validate" || values.output, "--output is required.");
   const threshold = Number(values.threshold);
   assert.ok(Number.isFinite(threshold) && threshold > 0 && threshold <= 1);
+  const batchSize = Number(values["batch-size"]);
+  validateBatchSize(batchSize);
   const dataset = resolve(values.dataset);
   const promptDirectory = resolve(values.prompts);
   const family = values.family;
   const mode = values.mode;
   validateMode(mode);
+  const file = values.output && resolve(values.output);
+  const outputSeparate =
+    !file ||
+    ([resolve(root, "datasets"), promptDirectory, dataset].every(
+      (input) => file !== input && !file.startsWith(input + "/")
+    ) &&
+      file !== dataset.slice(0, -3) + ".labels.json");
+  const retained =
+    outputSeparate && file && existsSync(file) ? read(file) : undefined;
+  if (retained !== undefined) {
+    assert.ok(
+      retained !== null &&
+        typeof retained === "object" &&
+        !Array.isArray(retained),
+      "Saved result must be a non-null JSON object."
+    );
+    const savedBatchSize =
+      retained.snapshot?.batchSize === undefined
+        ? 100
+        : retained.snapshot.batchSize;
+    validateBatchSize(savedBatchSize);
+    assert.equal(
+      savedBatchSize,
+      batchSize,
+      "Saved results require the same batch size."
+    );
+  }
   preflightDataset(dataset, { developmentOnly: values["development-only"] });
+  assert.ok(
+    command === "run" || !file || existsSync(file),
+    "The selected output file does not exist."
+  );
+  assert.ok(outputSeparate, "Output must be separate from inputs.");
   const rows = loadDataset(dataset, family);
   const prompts = loadPrompts(promptDirectory, values.check);
   const checks = Object.keys(prompts.types);
@@ -523,23 +580,10 @@ async function main() {
     prompts,
     rows,
     family,
-    mode
+    mode,
+    batchSize
   });
-  const file = values.output && resolve(values.output);
-  assert.ok(
-    command === "run" || !file || existsSync(file),
-    "The selected output file does not exist."
-  );
-  assert.ok(
-    !file ||
-      ([resolve(root, "datasets"), promptDirectory, dataset].every(
-        (input) => file !== input && !file.startsWith(input + "/")
-      ) &&
-        file !== dataset.slice(0, -3) + ".labels.json"),
-    "Output must be separate from inputs."
-  );
-  let result =
-    file && existsSync(file) ? read(file) : { snapshot, batches: [] };
+  let result = retained === undefined ? { snapshot, batches: [] } : retained;
   const save = () => writeAtomicJson(file, result);
   const context = { snapshot, rows, prompts };
   if (command === "rescore") {
@@ -550,9 +594,14 @@ async function main() {
   let apiKey;
   if (command === "run") {
     for (;;) {
-      const plan = batchPlans(rows, checks, threshold, result.batches, mode)[
-        result.batches.length
-      ];
+      const plan = batchPlans(
+        rows,
+        checks,
+        threshold,
+        result.batches,
+        mode,
+        batchSize
+      )[result.batches.length];
       if (!plan) break;
       if (!client) {
         const { TypeSafeClient } = await import(
@@ -599,7 +648,7 @@ async function main() {
   }
   const complete =
     result.batches.length ===
-    batchPlans(rows, checks, threshold, result.batches, mode).length;
+    batchPlans(rows, checks, threshold, result.batches, mode, batchSize).length;
   if (command !== "validate")
     assert.ok(complete, "The output is incomplete; use run to resume it.");
   if (command === "run" && result.summaries === undefined) {

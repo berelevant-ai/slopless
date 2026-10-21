@@ -15,6 +15,8 @@
           "export function createSnapshot",
           "export function writeAtomicJson",
           "classification-only",
+          "batch-size",
+          "batchSize",
           "development-only",
           "targetsSha256",
           "rescoredLabelsSha256"
@@ -29,7 +31,8 @@
           "rescore",
           "legacy snapshot",
           "atomic JSON saves preserve inputs behind temporary symlinks",
-          "atomic JSON writer cleans failed replacements"
+          "atomic JSON writer cleans failed replacements",
+          "configurable batching preserves complete texts and legacy defaults"
         ]
       },
       {
@@ -39,7 +42,8 @@
           "preflightDataset",
           "classification-only",
           "rescore",
-          "development-only"
+          "development-only",
+          "batch-size"
         ]
       }
     ]

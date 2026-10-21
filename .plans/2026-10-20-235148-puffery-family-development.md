@@ -6,7 +6,7 @@ Complete the next three families in order: unsupported authority, staged contras
 
 Puffery and overstatement is complete through isolated development and holdout classification; its results remain below. Execution of the three-family extension started on 2026-10-21 at the user's request.
 
-- Current family: unsupported authority. Independent review froze vague attribution and prestige padding as passage-level definitions in `b5c1110c`; dataset review and balanced selection are in progress.
+- Current family: unsupported authority. Definitions are frozen in `b5c1110c`; all four balanced, independently audited datasets are frozen in `e349ece2`. Reviewed baseline prompts are in `prompts/v11/`; development inference follows the verified runner freeze.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 
 ## Execution Order
@@ -132,6 +132,13 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 - Retain input, prompt, request, prediction, and score hash checks when adapting orchestration to each new family. Verify whole-text request capacity before the first text-level baseline; scope any demonstrated runner limitation through the repository's executable-spec and contract workflow.
 - Result-write safety is repaired and independently reviewed in `c608a2e4`. Both save paths use the shared exclusive, uniquely named atomic JSON writer; the temporary driver restricts output to JSON under `runners/results/` and rejects symlink escapes before provider access.
   - All 83 private driver probes and 34 public contract groups pass, including input preservation behind stale temporary symlinks and cleanup after failed replacement. Request and result schemas remain unchanged.
+- Whole-text capacity is reproduced with synthetic inputs: 100 complete 997-word targets return HTTP 400 `max_tokens_exceeded`; the identical first 16 targets succeed with 19,613 input tokens. The two-call proof is `/tmp/slopless-capacity-20261021-115855-TYg9ai/proofs.json`.
+  - Add `--batch-size` to the existing research CLI and temporary tuning driver, defaulting to 100 and accepting integers from 1 through 100. Validate it before target loading or provider initialization.
+  - Bind nondefault batch size to immutable snapshots and family trial settings. Interpret absent historical settings as 100; preserve default snapshot bytes, request bytes, response records, and completed-cache behavior.
+  - Reject existing saved results containing null, arrays, or other non-object values before target loading or SDK initialization. Create fresh results only for absent files and preserve rejected cache bytes and timestamps.
+  - Reuse public `batchPlans` in the temporary driver, including partial final batches. Keep complete targets intact; measure the final text prompt's capacity and freeze the batch size before its first baseline.
+  - Extend the existing Specular specification, coverage map, public contracts, and private driver probes. Exercise size-16 planning, resume, score, label-only rescore, highlighting, invalid values, and changed-setting rejection while preserving every existing test.
+  - The implementation and independent review pass all 38 public contract groups and 133 private probes. Invalid saved-result rejection also passes 18 independent reproductions; the historical 27-request, 2,251-decision result validates with its cache bytes and timestamps unchanged.
 
 ## Prompt Development
 
