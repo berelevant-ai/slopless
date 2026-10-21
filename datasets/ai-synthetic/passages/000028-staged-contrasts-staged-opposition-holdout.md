@@ -2,7 +2,7 @@
 
 ## 000028-001
 
-The migration isn't a database chore; it's a commitment to dependable service.
+Keeping the midnight ferry isn't timetable management; it's an island's refusal to be forgotten.
 
 ## 000028-002
 
@@ -90,7 +90,7 @@ The quarterly review is no accounting ritual; it's a conversation about ambition
 
 ## 000028-022
 
-A missed target isn't a verdict. It's permission to grow.
+For our ceramics co-op, the ruined firing means neither shame nor defeat, only growth.
 
 ## 000028-023
 
@@ -228,7 +228,7 @@ The bridge closed to cars Monday but remains open to pedestrians.
 
 ## 000028-055
 
-The fire did not reach the apartments. Smoke entered through a ventilation shaft, prompting firefighters to evacuate the upper floors while crews cleared the stairwell and checked alarms.
+Marta's parcel hasn't gone back to the seller. Its street address became unreadable in the rain; the depot is holding it, and she must supply the tracking number to arrange collection.
 
 ## 000028-056
 
@@ -296,7 +296,7 @@ The loaf rose beautifully, and the crumb was even all the way to the center. But
 
 ## 000028-071
 
-Use baking powder, not baking soda, in this lemon-free batter.
+For the fitting, mark the hem in chalk rather than permanent ink.
 
 ## 000028-072
 
@@ -334,7 +334,7 @@ You can bake the tart the day before, but add the berries on the morning you ser
 
 ## 000028-080
 
-"That's not sugar," Jo said as I tipped the jar toward the bowl. She caught my wrist before anything fell. The labels had washed off, and we'd put the salt where the sugar usually stood. I tasted a few grains from a spoon, found the correct jar on the lower shelf, and marked both lids with tape.
+"That's the weekday column," Arun said as I broke into a run. "We're on the Sunday timetable." I stopped at the crossing and looked again at the small print below the station clock. Our train wasn't leaving for another half hour. We walked back to the cafe, collected the scarf I'd abandoned on the chair, and ordered breakfast before returning to the platform.
 
 ## 000028-081
 
@@ -632,7 +632,7 @@ We will next run the device at lower temperatures, record the baseline drift ove
 
 ## 000028-151
 
-The assay detects antibodies, not the virus itself or current infectiousness.
+The cloakroom tally records checked bags, not the number of visitors inside the theater.
 
 ## 000028-152
 
@@ -828,9 +828,9 @@ The captain said, "We lost our shape, not our nerve." The match footage shows bo
 
 ## 000028-198
 
-My pace improved by twelve seconds per kilometer, but this week's route was flat and last week's included the hill behind the station. Comparing those times would overstate the gain.
+The replacement freezer used 18 percent less electricity during our trial, but the fish shop was closed for two of those days. Customers opened the old freezer throughout its test week.
 
-On Sunday I'll repeat the hill route at the same target heart rate and record the wind conditions, then decide whether to adjust the pace for the next training block.
+Before we order three units, Ansel will log both machines side by side with matching loads and the same number of door openings. We'll compare kilowatt-hours per day after a full trading week.
 
 ## 000028-199
 
