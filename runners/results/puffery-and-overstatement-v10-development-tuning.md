@@ -70,4 +70,4 @@ The five selected-candidate errors are false positives; independent review prese
 
 ## Remaining Evaluation
 
-Holdout detector evaluation, mixed issues, broad corpus validation, highlighting, production integration, and release remain separate stages in the V2 plan. Candidate selection is frozen for that next assessment.
+The [subsequent holdout assessment](puffery-and-overstatement-v10-holdout.md) catches 99/100 inflated-evaluation hits and 100/100 sweeping-generalization hits, with zero false positives for either check. Mixed issues, broad corpus validation, highlighting, production integration, and release remain separate stages in the V2 plan.

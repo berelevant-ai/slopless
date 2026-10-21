@@ -113,3 +113,11 @@ For each finalized type, create 200 development examples and 200 independently a
 - Tuning stops after two successive revisions fail to improve each check's best candidate. Rejected prompts and predictions remain in the family trial JSON; labels stay fixed throughout evaluation.
 - The [development report](../runners/results/puffery-and-overstatement-v10-development-tuning.md) records all trials, exposure, corrections, and remaining errors. Selected prompts are frozen in `prompts/v10/`.
 - Holdout inference and the remaining V2 evaluation stages remain separate tasks. Production behavior is unchanged.
+
+## Holdout Assessment
+
+- The user authorized holdout inference on 2026-10-21. Run the selected `v10` prompts once on each check's corresponding 100-hit/100-no-hit holdout.
+- Verify prompts and input files against commit `fd5eb5c0` before inference. Preserve `jev-1.13.0`, classification-only mode, threshold `>= 0.5`, and 100 independent questions per request.
+- Save separate immutable check results under `runners/results/`, review every classification error, and compare with the selected development scores. Report the existing 95-catch/five-false-positive target as a reference for transfer.
+- Preserve prompts and labels throughout assessment. Record findings in one family holdout report, obtain fresh review, then commit and push only the assessment artifacts and worklog.
+- Completed result: inflated evaluation catches 99/100 hits with zero false positives; sweeping generalization catches 100/100 with zero false positives. The [holdout report](../runners/results/puffery-and-overstatement-v10-holdout.md) records the single miss and frozen execution settings.

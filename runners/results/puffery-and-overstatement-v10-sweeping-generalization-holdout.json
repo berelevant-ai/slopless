@@ -1,0 +1,928 @@
+{
+  "snapshot": {
+    "model": "jev-1.13.0",
+    "threshold": 0.5,
+    "checks": ["sweeping-generalization"],
+    "family": "puffery-and-overstatement",
+    "mode": "classification-only",
+    "prompts": "prompts/v10",
+    "dataset": "datasets/ai-synthetic/passages/000022-puffery-and-overstatement-sweeping-generalization-holdout.md",
+    "promptSha256": "1fb81dc56f9b1c7f05c2882311a93ff6e1242435b322b6eb38df3a7688f83194",
+    "textSha256": "d67590c28c365876212a1d4a06d201c85bb56f1dc218df698ef013194a90237a",
+    "labelsSha256": "bec65e5ab40f9afc187d4670841d458eb625d16fcf16f9fc7314051ed4e8078a",
+    "targetsSha256": "d1d3b39348e17c40005c7c27ab112ce8b8fa1d393b72facccfaf01102f8e1937"
+  },
+  "batches": [
+    {
+      "stage": "detection",
+      "check": "sweeping-generalization",
+      "index": 1,
+      "recordedAt": "2026-10-21T09:19:23.406Z",
+      "requestSha256": "34a8bfc91d5a0eb58221cb26c8cb3ab7a188722e85ea947d25fe4f775b583fbb",
+      "elapsedMs": 325.463792,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "000022-001_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.97
+          },
+          "000022-002_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.09
+          },
+          "000022-003_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-005_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "000022-006_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-007_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.94
+          },
+          "000022-008_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-010_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-011_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-012_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-015_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-016_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-017_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-018_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-019_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.86
+          },
+          "000022-020_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.88
+          },
+          "000022-024_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-025_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.08
+          },
+          "000022-026_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-027_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-029_sweeping-generalization": { "type": "noul", "noul": 0.3 },
+          "000022-030_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-031_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-033_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-035_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.94
+          },
+          "000022-036_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-038_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-039_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-040_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-041_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.81
+          },
+          "000022-042_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-043_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-045_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-046_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-047_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-048_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.87
+          },
+          "000022-049_sweeping-generalization": { "type": "noul", "noul": 0.9 },
+          "000022-050_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-051_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-053_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-054_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-056_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.11
+          },
+          "000022-057_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-058_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-059_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-060_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-061_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "000022-062_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.83
+          },
+          "000022-063_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-064_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-066_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.94
+          },
+          "000022-067_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.89
+          },
+          "000022-068_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-069_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-070_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-071_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.94
+          },
+          "000022-072_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-073_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.94
+          },
+          "000022-074_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-075_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.17
+          },
+          "000022-076_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-077_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.83
+          },
+          "000022-078_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-079_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-080_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-081_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-083_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.97
+          },
+          "000022-084_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.94
+          },
+          "000022-086_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-087_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-088_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-089_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-090_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "000022-091_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-092_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.76
+          },
+          "000022-093_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-095_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-096_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-097_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.87
+          },
+          "000022-098_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-099_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.17
+          },
+          "000022-100_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-101_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-102_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "000022-103_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-104_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-106_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "000022-107_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-109_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-110_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-112_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-113_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-114_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-116_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.87
+          },
+          "000022-117_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-118_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-119_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.15
+          },
+          "000022-120_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.89
+          },
+          "000022-121_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-123_sweeping-generalization": { "type": "noul", "noul": 0.02 }
+        },
+        "usage": { "input_tokens": 12695, "output_tokens": 3404 }
+      }
+    },
+    {
+      "stage": "detection",
+      "check": "sweeping-generalization",
+      "index": 2,
+      "recordedAt": "2026-10-21T09:19:23.752Z",
+      "requestSha256": "d51f024cbbd47e9ff39614a3aa111bc003e55302be22802c8aba9565ce074411",
+      "elapsedMs": 344.7501669999999,
+      "response": {
+        "model": "jev-1.13.0",
+        "answers": {
+          "000022-124_sweeping-generalization": { "type": "noul", "noul": 0.9 },
+          "000022-125_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.06
+          },
+          "000022-126_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-129_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-130_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-131_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-132_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.14
+          },
+          "000022-135_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-136_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-137_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-138_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.17
+          },
+          "000022-139_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-141_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-143_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-144_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-146_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-147_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-148_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "000022-149_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.08
+          },
+          "000022-150_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-151_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-152_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.18
+          },
+          "000022-153_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.11
+          },
+          "000022-154_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-155_sweeping-generalization": { "type": "noul", "noul": 0.9 },
+          "000022-156_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-157_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-159_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.01
+          },
+          "000022-160_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-161_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-163_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.91
+          },
+          "000022-164_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.84
+          },
+          "000022-166_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-167_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-168_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-169_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-170_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.89
+          },
+          "000022-171_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-172_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-173_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-174_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-175_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "000022-177_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.09
+          },
+          "000022-179_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-180_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-181_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.06
+          },
+          "000022-182_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.82
+          },
+          "000022-184_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.15
+          },
+          "000022-185_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-186_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-187_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.09
+          },
+          "000022-188_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.89
+          },
+          "000022-189_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-190_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-192_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.06
+          },
+          "000022-193_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.83
+          },
+          "000022-194_sweeping-generalization": { "type": "noul", "noul": 0.9 },
+          "000022-195_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-196_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-197_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.96
+          },
+          "000022-198_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-199_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.95
+          },
+          "000022-200_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-201_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.07
+          },
+          "000022-202_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.07
+          },
+          "000022-203_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.82
+          },
+          "000022-204_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-205_sweeping-generalization": { "type": "noul", "noul": 0.3 },
+          "000022-206_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.92
+          },
+          "000022-207_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-208_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.02
+          },
+          "000022-209_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.87
+          },
+          "000022-210_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.79
+          },
+          "000022-211_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.88
+          },
+          "000022-212_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-213_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.63
+          },
+          "000022-214_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-215_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.75
+          },
+          "000022-216_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.82
+          },
+          "000022-217_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-218_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.88
+          },
+          "000022-219_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.04
+          },
+          "000022-220_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-221_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.84
+          },
+          "000022-222_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.08
+          },
+          "000022-223_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.55
+          },
+          "000022-224_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.11
+          },
+          "000022-225_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.09
+          },
+          "000022-228_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.03
+          },
+          "000022-229_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.09
+          },
+          "000022-230_sweeping-generalization": { "type": "noul", "noul": 0.6 },
+          "000022-231_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.07
+          },
+          "000022-232_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.82
+          },
+          "000022-233_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.93
+          },
+          "000022-234_sweeping-generalization": { "type": "noul", "noul": 0.7 },
+          "000022-236_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.05
+          },
+          "000022-237_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.79
+          },
+          "000022-238_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.76
+          },
+          "000022-239_sweeping-generalization": {
+            "type": "noul",
+            "noul": 0.08
+          },
+          "000022-240_sweeping-generalization": { "type": "noul", "noul": 0.85 }
+        },
+        "usage": { "input_tokens": 12867, "output_tokens": 3404 }
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "check": "sweeping-generalization",
+      "positives": 100,
+      "caught": 100,
+      "misses": [],
+      "cleanControls": 100,
+      "falseAlarms": [],
+      "findings": [
+        { "id": "000022-001", "score": 0.97 },
+        { "id": "000022-005", "score": 0.92 },
+        { "id": "000022-007", "score": 0.94 },
+        { "id": "000022-010", "score": 0.91 },
+        { "id": "000022-018", "score": 0.95 },
+        { "id": "000022-019", "score": 0.86 },
+        { "id": "000022-020", "score": 0.88 },
+        { "id": "000022-026", "score": 0.93 },
+        { "id": "000022-027", "score": 0.91 },
+        { "id": "000022-030", "score": 0.95 },
+        { "id": "000022-031", "score": 0.95 },
+        { "id": "000022-035", "score": 0.94 },
+        { "id": "000022-040", "score": 0.91 },
+        { "id": "000022-041", "score": 0.81 },
+        { "id": "000022-043", "score": 0.95 },
+        { "id": "000022-047", "score": 0.96 },
+        { "id": "000022-048", "score": 0.87 },
+        { "id": "000022-049", "score": 0.9 },
+        { "id": "000022-050", "score": 0.93 },
+        { "id": "000022-053", "score": 0.96 },
+        { "id": "000022-054", "score": 0.95 },
+        { "id": "000022-059", "score": 0.93 },
+        { "id": "000022-061", "score": 0.92 },
+        { "id": "000022-062", "score": 0.83 },
+        { "id": "000022-066", "score": 0.94 },
+        { "id": "000022-067", "score": 0.89 },
+        { "id": "000022-068", "score": 0.96 },
+        { "id": "000022-069", "score": 0.93 },
+        { "id": "000022-070", "score": 0.96 },
+        { "id": "000022-071", "score": 0.94 },
+        { "id": "000022-072", "score": 0.93 },
+        { "id": "000022-073", "score": 0.94 },
+        { "id": "000022-077", "score": 0.83 },
+        { "id": "000022-078", "score": 0.91 },
+        { "id": "000022-079", "score": 0.95 },
+        { "id": "000022-080", "score": 0.96 },
+        { "id": "000022-083", "score": 0.97 },
+        { "id": "000022-084", "score": 0.94 },
+        { "id": "000022-089", "score": 0.96 },
+        { "id": "000022-090", "score": 0.92 },
+        { "id": "000022-092", "score": 0.76 },
+        { "id": "000022-093", "score": 0.96 },
+        { "id": "000022-097", "score": 0.87 },
+        { "id": "000022-098", "score": 0.95 },
+        { "id": "000022-100", "score": 0.95 },
+        { "id": "000022-101", "score": 0.91 },
+        { "id": "000022-102", "score": 0.92 },
+        { "id": "000022-104", "score": 0.91 },
+        { "id": "000022-106", "score": 0.92 },
+        { "id": "000022-107", "score": 0.91 },
+        { "id": "000022-112", "score": 0.91 },
+        { "id": "000022-113", "score": 0.91 },
+        { "id": "000022-116", "score": 0.87 },
+        { "id": "000022-118", "score": 0.93 },
+        { "id": "000022-120", "score": 0.89 },
+        { "id": "000022-124", "score": 0.9 },
+        { "id": "000022-130", "score": 0.96 },
+        { "id": "000022-131", "score": 0.93 },
+        { "id": "000022-136", "score": 0.95 },
+        { "id": "000022-139", "score": 0.95 },
+        { "id": "000022-141", "score": 0.93 },
+        { "id": "000022-147", "score": 0.91 },
+        { "id": "000022-148", "score": 0.92 },
+        { "id": "000022-151", "score": 0.93 },
+        { "id": "000022-155", "score": 0.9 },
+        { "id": "000022-156", "score": 0.96 },
+        { "id": "000022-157", "score": 0.96 },
+        { "id": "000022-160", "score": 0.91 },
+        { "id": "000022-163", "score": 0.91 },
+        { "id": "000022-164", "score": 0.84 },
+        { "id": "000022-167", "score": 0.95 },
+        { "id": "000022-170", "score": 0.89 },
+        { "id": "000022-173", "score": 0.93 },
+        { "id": "000022-175", "score": 0.92 },
+        { "id": "000022-182", "score": 0.82 },
+        { "id": "000022-188", "score": 0.89 },
+        { "id": "000022-189", "score": 0.95 },
+        { "id": "000022-193", "score": 0.83 },
+        { "id": "000022-194", "score": 0.9 },
+        { "id": "000022-197", "score": 0.96 },
+        { "id": "000022-199", "score": 0.95 },
+        { "id": "000022-203", "score": 0.82 },
+        { "id": "000022-206", "score": 0.92 },
+        { "id": "000022-209", "score": 0.87 },
+        { "id": "000022-210", "score": 0.79 },
+        { "id": "000022-211", "score": 0.88 },
+        { "id": "000022-213", "score": 0.63 },
+        { "id": "000022-215", "score": 0.75 },
+        { "id": "000022-216", "score": 0.82 },
+        { "id": "000022-218", "score": 0.88 },
+        { "id": "000022-220", "score": 0.93 },
+        { "id": "000022-221", "score": 0.84 },
+        { "id": "000022-223", "score": 0.55 },
+        { "id": "000022-230", "score": 0.6 },
+        { "id": "000022-232", "score": 0.82 },
+        { "id": "000022-233", "score": 0.93 },
+        { "id": "000022-234", "score": 0.7 },
+        { "id": "000022-237", "score": 0.79 },
+        { "id": "000022-238", "score": 0.76 },
+        { "id": "000022-240", "score": 0.85 }
+      ]
+    }
+  ],
+  "inferenceSha256": "7d59ef9e14d4cbfa364c6246f77bd7686f85668cc032a403eee60e339498411d"
+}
