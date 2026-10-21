@@ -5582,7 +5582,7 @@
   ],
   "selection": {
     "frozenAt": "2026-10-21T17:31:15.066Z",
-    "status": "first-development-round-failed; model-only-comparison-pending",
+    "status": "first-development-round-failed; model-only-comparison-did-not-improve; contextual-prompt-round-planned",
     "criteria": {
       "minimumCaught": 95,
       "maximumFalsePositives": 5,
@@ -5619,11 +5619,17 @@
     }
   ],
   "nextComparison": {
-    "completed": false,
+    "completed": true,
     "intervention": "model-only",
     "model": "jev-1.14.0",
     "referenceTrial": "staged-r1",
-    "output": "runners/results/staged-contrasts-v12-jev-1-14-development.json"
+    "output": "runners/results/staged-contrasts-v12-jev-1-14-development.json",
+    "caught": 95,
+    "missed": 5,
+    "falsePositives": 10,
+    "qualifies": false,
+    "improvesReference": false,
+    "nextModel": "jev-1.13.0"
   },
   "revisionNotes": [
     {

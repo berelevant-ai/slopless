@@ -48,10 +48,18 @@ Four expected hits remain missed:
 - `209`: the writer endorses the menu's promise; collection logistics leave the opposition uninformative.
 - `229`: the writer endorses a campaign slogan; planting detail leaves its rhetorical alternative unexplained.
 
-## Next Comparison
+## Model-Only Comparison
 
 The runner places shared/check guidance in common state and refers to it from each target question. TypeSafe documents [literal reading and indirection risks](https://docs.typesafe.ai/model-jaggedness/jev-1.13) for 1.13. This identifies a request-design hypothesis; it has not yet been isolated experimentally.
 
-First compare the available `jev-1.14.0` against saved `staged-r1`, changing only the model. The official [model list](https://docs.typesafe.ai/models) gives both versions the same input-token price and context limits. Use the existing public runner and a separate model-bound result cache; measure the effect before changing request construction.
+The completed comparison changes only the model to `jev-1.14.0`, retaining the restored `staged-r1` wording and all 200 development targets. The [saved result](staged-contrasts-v12-jev-1-14-development.json) records 95 caught hits, five misses, and ten false positives.
+
+- Compared with 1.13, it catches `129` but loses `166` and `168`. Every false positive remains the same.
+- Two requests return 200 decisions in 0.775 seconds, using 26,189 input tokens and 6,208 output tokens.
+- Retain 1.13 for the next prompt round: its saved fourteen errors compare with fifteen for 1.14. The official [model list](https://docs.typesafe.ai/models) gives both versions the same input-token price and context limits.
+
+## Contextual-Contribution Round
+
+The next bounded round tests a shorter, ordered instruction for distinguishing meaningful contextual differences from decorative opposition. Keep labels, shared instructions, model, threshold, and request construction fixed; preserve every revision and disclose its development demonstrations.
 
 The data freeze preserves both 100/100 splits and all 94 mandatory cases. Jev holdout assessment follows a qualifying, frozen candidate; this development round has produced none.

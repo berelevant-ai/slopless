@@ -13,7 +13,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 
 ## Execution Order
 
-This update records the full three-family sequence. Wait for the user's next execution goal before starting further generation, tuning, or inference. Once authorized, continue through all three families; completing one family alone does not finish the sequence.
+The active execution goal authorizes continuing through all three families. Completing one family alone does not finish the sequence.
 
 1. Unsupported authority (`unsupported-authority`), using `prompts/v11/`.
    - Complete vague attribution and prestige padding, including relevant credentials and supported audience-size statements as no-hits.
@@ -39,6 +39,13 @@ This update records the full three-family sequence. Wait for the user's next exe
   - Compare caught/missed hits, false positives, transitions, request time, and tokens against saved `staged-r1`. Keep the same 95-catch/five-false-positive target and obtain independent result review.
 - The official [model list](https://docs.typesafe.ai/models) gives both versions the same input-token price and context limits. Its [1.13 limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13) identify literal reading and indirection as risks; the model-only comparison tests the version effect before changing request construction.
 - Determine the next concrete development step from that measured comparison. Preserve all failed attempts and keep the holdout sealed throughout development; the family advances only after its development gate is met.
+
+### Contextual-Contribution Prompt Round
+
+- The completed model-only comparison catches 95 hits with ten false positives, versus 96 and ten for `staged-r1`. Retain `jev-1.13.0`; a model change has not resolved these errors.
+- Test a shorter instruction that asks what the opposition contributes in context. Preserve grounded intentions, completed changes, and meaningful qualitative differences while catching invented accusations and endorsed empty slogans.
+- Keep shared instructions, labels, request construction, threshold, and batch size fixed. Record up to three further prompt revisions, `staged-r4` through `staged-r6`, in the existing family trial JSON.
+- Disclose all added development demonstrations and inspect every changed decision. Apply the same qualifying-first ranking and two-nonimprovement stop; preserve a failed round rather than relabeling its errors.
 
 ## Previous Method And Lessons
 
