@@ -6,7 +6,7 @@ Complete the next three families in order: unsupported authority, staged contras
 
 Puffery and overstatement is complete through isolated development and holdout classification; its results remain below. Execution of the three-family extension started on 2026-10-21 at the user's request.
 
-- Current family: unsupported authority. Definitions are frozen in `b5c1110c`; all four balanced datasets are frozen in `e349ece2`. Development selects prestige revision 4 at 99 caught/three false positives and vague-attribution revision 1 at 99 caught/four false positives. Candidate review and the separate holdout assessment precede staged contrasts.
+- Unsupported authority is reviewed through development and the frozen holdout assessment. Vague attribution catches 100 holdout hits with five false positives; prestige padding catches 99 with 23 false positives. Preserve that transfer failure. Next family: staged contrasts, using `prompts/v12/` after this assessment commit.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 
 ## Execution Order
@@ -28,6 +28,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 - Final active sets have exactly 100 hits and 100 no-hits per type per split. Surplus reviewed passages remain in Git with their labels.
 - Model agreement measures agreement. Accepted definitions and independent adjudication decide labels; valid difficult cases survive reviewer disagreement.
 - Development gains sometimes failed to transfer to holdout. Preserve the split boundary and record development-derived prompt examples so later evaluation can measure transfer.
+- Authority's holdout exposes a writer-voice weakness: documentary accounts and fictional characters' limited beliefs attract false positives. Before deployment, authority requires a fresh development round and independently authored holdout; preserve the completed assessment and continue this sequence as planned.
 
 ## Completed Puffery Scope
 
