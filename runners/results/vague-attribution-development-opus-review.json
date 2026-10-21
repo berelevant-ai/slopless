@@ -4,7 +4,7 @@
   "family": "unsupported-authority",
   "type": "vague-attribution",
   "split": "development",
-  "status": "ARCHIVE-READY",
+  "status": "AWAITING-DIRAC-POST-CORRECTION-QA",
   "recordedAt": "2026-10-21T10:02:25.197Z",
   "definition": {
     "commit": "b5c1110c",
@@ -28,13 +28,13 @@
     },
     "labels": {
       "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000023-unsupported-authority-vague-attribution-development.labels.json",
-      "sha256": "b81101022bfb2c7fc2af24690c4568935112603ca887aa43e20a23ea9602ea46"
+      "sha256": "62f3f2e87a03902390bdc33ba7e869ae007813d31302bbaf38ea456c8df2b864"
     },
     "textSha256": "01ad50520c8bee0b8916e78b2b8c1166b27a444f6eba828fbaa87f7ca11a9c89",
     "passages": 220,
     "classCounts": {
-      "hit": 110,
-      "noHit": 110
+      "hit": 105,
+      "noHit": 115
     },
     "sourceWritingChangedAfterReview": false
   },
@@ -45,28 +45,28 @@
         "noHit": 11
       },
       "education": {
-        "hit": 11,
-        "noHit": 11
+        "hit": 10,
+        "noHit": 12
       },
       "health": {
         "hit": 11,
         "noHit": 11
       },
       "planning": {
-        "hit": 11,
-        "noHit": 11
+        "hit": 9,
+        "noHit": 13
       },
       "food": {
-        "hit": 11,
-        "noHit": 11
+        "hit": 10,
+        "noHit": 12
       },
       "arts": {
         "hit": 11,
         "noHit": 11
       },
       "finance": {
-        "hit": 11,
-        "noHit": 11
+        "hit": 10,
+        "noHit": 12
       },
       "environment": {
         "hit": 11,
@@ -89,13 +89,13 @@
     "lengthCoverage": {
       "hit": {
         "short": 30,
-        "medium": 50,
-        "long": 30
+        "medium": 47,
+        "long": 28
       },
       "noHit": {
         "short": 30,
-        "medium": 50,
-        "long": 30
+        "medium": 53,
+        "long": 32
       }
     },
     "domainById": [
@@ -997,7 +997,7 @@
     },
     "objectionEvents": 34,
     "distinctObjectedPassages": 15,
-    "classificationCorrections": 0,
+    "classificationCorrections": 5,
     "proseReplacements": 0,
     "costUsd": 1.4497116,
     "providerDurationMs": 336775,
@@ -1995,7 +1995,13 @@
           "000023-217"
         ]
       }
-    ]
+    ],
+    "authorClassificationDisagreementsReference": "Original author labels before the parent and Dirac independent adjudication; the original nine Opus calls remain unchanged.",
+    "currentCanonicalClassificationDisagreementsWithOpus": {
+      "blind": 5,
+      "adversarial": 5,
+      "final": 5
+    }
   },
   "adjudications": [
     {
@@ -2031,9 +2037,9 @@
     },
     {
       "id": "000023-030",
-      "expected": true,
+      "expected": false,
       "mandatory": true,
-      "decision": "The unnamed researcher's quotation supplies the finding used to justify kitchen sessions. The passage uses that finding in the curriculum argument; it does not frame the appeal itself as the object of examination. Ordinary reporting leaves this operative appeal eligible.",
+      "decision": "The passage explicitly documents how the brochure uses a researcher quotation to justify kitchen sessions. The rationale is attributed to the brochure through \"It uses that finding\", preserving clearly framed documentation under the frozen definition.",
       "objections": [
         {
           "pass": "blind",
@@ -2050,7 +2056,13 @@
           "output": "/tmp/000023-development-r1-final-batch1.json",
           "objection": "The passage could be read as neutrally reporting the brochure's appeal. However, the researcher and the study behind the finding are never identified, and the appeal is not examined."
         }
-      ]
+      ],
+      "supersededAdjudication": {
+        "expected": true,
+        "decision": "The unnamed researcher's quotation supplies the finding used to justify kitchen sessions. The passage uses that finding in the curriculum argument; it does not frame the appeal itself as the object of examination. Ordinary reporting leaves this operative appeal eligible.",
+        "archiveCommit": "394792d8"
+      },
+      "decisionProvenance": "postIndependentAdjudication"
     },
     {
       "id": "000023-054",
@@ -2085,9 +2097,9 @@
     },
     {
       "id": "000023-074",
-      "expected": true,
+      "expected": false,
       "mandatory": true,
-      "decision": "The notice's ownership citation concerns a separate fact. Professional opinion remains unidentified while supporting demolition. The verb invokes reports that support without framing the appeal as an object of analysis.",
+      "decision": "The passage explicitly describes the planning notice invoking professional opinion to recommend demolition. The notice is the actor presenting that rationale, so the passage preserves documentation of its appeal under the frozen definition.",
       "objections": [
         {
           "pass": "blind",
@@ -2104,13 +2116,19 @@
           "output": "/tmp/000023-development-r1-final-batch1.json",
           "objection": "\"Invokes\" could mark this as documentation of the notice's appeal. However, the passage passes the anonymous opinion along as the basis for the recommendation without examining it."
         }
-      ]
+      ],
+      "supersededAdjudication": {
+        "expected": true,
+        "decision": "The notice's ownership citation concerns a separate fact. Professional opinion remains unidentified while supporting demolition. The verb invokes reports that support without framing the appeal as an object of analysis.",
+        "archiveCommit": "394792d8"
+      },
+      "decisionProvenance": "postIndependentAdjudication"
     },
     {
       "id": "000023-076",
-      "expected": true,
+      "expected": false,
       "mandatory": true,
-      "decision": "The report's unnamed experts supply the stated reason for locating the playground. This is offered as the reason reports the operative rationale; it provides neither a particular expert account nor examination of the authority appeal itself.",
+      "decision": "The passage identifies the consultation report as the source of the experts claim and describes the report's offered reason for locating the equipment. This documents the third-party rationale and falls within the frozen documentation exception.",
       "objections": [
         {
           "pass": "blind",
@@ -2127,7 +2145,13 @@
           "output": "/tmp/000023-development-r1-final-batch1.json",
           "objection": "The passage could be read as neutrally reporting the report's appeal. However, it never identifies the experts, and it does not frame the appeal as something to examine or reject."
         }
-      ]
+      ],
+      "supersededAdjudication": {
+        "expected": true,
+        "decision": "The report's unnamed experts supply the stated reason for locating the playground. This is offered as the reason reports the operative rationale; it provides neither a particular expert account nor examination of the authority appeal itself.",
+        "archiveCommit": "394792d8"
+      },
+      "decisionProvenance": "postIndependentAdjudication"
     },
     {
       "id": "000023-096",
@@ -2149,9 +2173,9 @@
     },
     {
       "id": "000023-099",
-      "expected": true,
+      "expected": false,
       "mandatory": true,
-      "decision": "The raw-milk health judgment comes from an unspecified group defined by familiarity with traditional methods. Attribution to the leaflet's view retains its role as the reason to pay more. The passage does not examine the appeal itself.",
+      "decision": "The passage explicitly attributes the health and price rationale to the leaflet, including \"in the leaflet's view\". This framing documents the leaflet's appeal and falls within the frozen documentation exception.",
       "objections": [
         {
           "pass": "blind",
@@ -2168,7 +2192,13 @@
           "output": "/tmp/000023-development-r1-final-batch2.json",
           "objection": "Could be read as neutral documentation of the leaflet's appeal (\"in the leaflet's view\"). But the passage relays the claim without examining or rejecting it, so the appeal stays eligible."
         }
-      ]
+      ],
+      "supersededAdjudication": {
+        "expected": true,
+        "decision": "The raw-milk health judgment comes from an unspecified group defined by familiarity with traditional methods. Attribution to the leaflet's view retains its role as the reason to pay more. The passage does not examine the appeal itself.",
+        "archiveCommit": "394792d8"
+      },
+      "decisionProvenance": "postIndependentAdjudication"
     },
     {
       "id": "000023-113",
@@ -2267,9 +2297,9 @@
     },
     {
       "id": "000023-139",
-      "expected": true,
+      "expected": false,
       "mandatory": true,
-      "decision": "Audited revenue identifies a different factual source from the professional valuation opinion. That unnamed opinion supports rejecting the bid. Describing the pitch's rationale leaves its operative authority appeal eligible.",
+      "decision": "The passage explicitly documents the pitch's valuation claim and its rationale for rejecting the bid. The pitch remains the actor making that case, preserving clearly framed documentation under the frozen definition.",
       "objections": [
         {
           "pass": "blind",
@@ -2286,11 +2316,17 @@
           "output": "/tmp/000023-development-r1-final-batch1.json",
           "objection": "The passage could be read as neutrally reporting the pitch's argument. However, the audited revenue does not identify the professional opinion, and the appeal is not examined."
         }
-      ]
+      ],
+      "supersededAdjudication": {
+        "expected": true,
+        "decision": "Audited revenue identifies a different factual source from the professional valuation opinion. That unnamed opinion supports rejecting the bid. Describing the pitch's rationale leaves its operative authority appeal eligible.",
+        "archiveCommit": "394792d8"
+      },
+      "decisionProvenance": "postIndependentAdjudication"
     }
   ],
   "finalJudgmentAndSnippetProvenance": {
-    "policy": "Every final label and every exact hit snippet is copied unchanged from the final Opus judgment for its ID. No-hit labels omit snippets.",
+    "policy": "The five IDs listed in postIndependentAdjudication use the parent and Dirac no-hit decisions. All other labels and exact hit snippets retain their final Opus judgments. Every no-hit label omits snippets.",
     "calls": [
       {
         "output": {
@@ -2536,10 +2572,20 @@
           "000023-217"
         ]
       }
-    ]
+    ],
+    "overrides": {
+      "source": "postIndependentAdjudication",
+      "ids": [
+        "000023-030",
+        "000023-074",
+        "000023-076",
+        "000023-099",
+        "000023-139"
+      ]
+    }
   },
   "selection": {
-    "state": "Full reviewed pool retained; awaiting parent archive commit before selection.",
+    "state": "Full 220-passage pool retained. Original pool archived at 394792d8; corrections await Dirac post-correction QA and the next parent archive commit before selection authorization.",
     "selected": false,
     "mandatoryIds": [
       "000023-025",
@@ -2559,25 +2605,25 @@
       "000023-139"
     ],
     "mandatoryCounts": {
-      "hit": 13,
-      "noHit": 2
+      "hit": 8,
+      "noHit": 7
     }
   },
   "qualityAudit": {
     "scope": "Current development collection; protected cross-split and corpus audit remains with parent.",
     "surfaceCueCounts": {
       "hit": {
-        "authorityVocabulary": 82,
-        "numericalContent": 50,
-        "namedEntities": 27,
-        "relativeClauses": 54,
+        "authorityVocabulary": 78,
+        "numericalContent": 46,
+        "namedEntities": 26,
+        "relativeClauses": 50,
         "hedges": 14
       },
       "noHit": {
-        "authorityVocabulary": 78,
-        "numericalContent": 51,
-        "namedEntities": 23,
-        "relativeClauses": 51,
+        "authorityVocabulary": 82,
+        "numericalContent": 55,
+        "namedEntities": 24,
+        "relativeClauses": 55,
         "hedges": 2
       }
     },
@@ -2601,8 +2647,6 @@
       "unrelatedNamesNumbersAndCitations": [
         "000023-008",
         "000023-011",
-        "000023-074",
-        "000023-139",
         "000023-162"
       ],
       "sourcesResolvedLater": [
@@ -2620,34 +2664,35 @@
         "000023-013",
         "000023-056",
         "000023-078",
-        "000023-100",
+        "000023-101",
         "000023-210",
         "000023-212",
         "000023-213"
       ],
       "observedMethodsAndResults": [
         "000023-022",
-        "000023-039",
+        "000023-040",
         "000023-063",
         "000023-088",
         "000023-129",
         "000023-220"
       ],
-      "operativeNeutralReporting": [
-        "000023-030",
-        "000023-054",
-        "000023-076",
-        "000023-099",
-        "000023-121"
-      ],
+      "operativeNeutralReporting": ["000023-054", "000023-121"],
       "examinedOrRejectedAppeals": [
         "000023-017",
-        "000023-040",
-        "000023-062",
-        "000023-082",
+        "000023-039",
+        "000023-060",
+        "000023-083",
         "000023-131",
         "000023-154",
         "000023-193"
+      ],
+      "clearlyFramedThirdPartyDocumentation": [
+        "000023-030",
+        "000023-074",
+        "000023-076",
+        "000023-099",
+        "000023-139"
       ]
     },
     "realism": "Opus adversarial pass covered every complete passage. No prose-defect objection required replacement. Internal audit found no repeated eight-word sequence or explicit detector-label commentary."
@@ -2666,15 +2711,88 @@
     "formattedBeforeRangesAndChecksum": true,
     "rawEnvelopePromptInputOutputHashes": "passed",
     "independentQA": {
-      "status": "Ready for parent independent audit."
+      "reviewer": "Dirac",
+      "initialReview": "Read all 220 passages, all 15 adjudications, and all nine raw Opus calls; mechanics passed and five label errors identified.",
+      "status": "Awaiting Dirac post-correction QA.",
+      "correctionScope": "Five labels, their current adjudications and provenance, derived coverage counts, and coverage-map references. All 220 passage bodies and sample ranges are unchanged."
     },
     "prettier": {
       "status": "passed",
       "ignorePath": "/dev/null",
       "proseWrap": "preserve",
       "order": "Markdown formatted before ranges and checksum were derived; JSON formatted after serialization."
+    },
+    "labelOnlyCorrection": {
+      "status": "passed",
+      "changedIds": [
+        "000023-030",
+        "000023-074",
+        "000023-076",
+        "000023-099",
+        "000023-139"
+      ],
+      "markdownUnchanged": true,
+      "sampleRangesUnchanged": true,
+      "allFiveMandatory": true,
+      "rawReviewArtifactsUnchanged": true
     }
   },
   "unresolvedMaterialConcerns": [],
-  "nextOperation": "Parent archives the complete pool before authorizing mandatory-first deterministic 100-hit/100-no-hit selection."
+  "nextOperation": "Dirac performs post-correction QA; parent preserves the corrected labels and provenance in the next commit before authorizing selection.",
+  "postIndependentAdjudication": {
+    "recordedAt": "2026-10-21T10:11:22.915Z",
+    "reviewers": ["Dirac", "Parent"],
+    "decisionAuthority": "Parent decision after reading all five complete passages and original adjudications; Dirac independently identified the five label errors.",
+    "source": "Parent instruction in this task after the original pool archive at 394792d8.",
+    "originalPoolArchiveCommit": "394792d8",
+    "definitionCommit": "b5c1110c",
+    "existingBoundary": "Preserve clearly framed examination, rejection, or documentation of someone else's authority appeal.",
+    "rationale": "Each corrected passage explicitly documents a third-party document's rationale. Clearly framed documentation is preserved in its own right; an absence of criticism does not establish writer adoption.",
+    "changes": [
+      {
+        "id": "000023-030",
+        "from": true,
+        "to": false,
+        "snippets": "removed",
+        "mandatory": true,
+        "decision": "The passage explicitly documents how the brochure uses a researcher quotation to justify kitchen sessions. The rationale is attributed to the brochure through \"It uses that finding\", preserving clearly framed documentation under the frozen definition."
+      },
+      {
+        "id": "000023-074",
+        "from": true,
+        "to": false,
+        "snippets": "removed",
+        "mandatory": true,
+        "decision": "The passage explicitly describes the planning notice invoking professional opinion to recommend demolition. The notice is the actor presenting that rationale, so the passage preserves documentation of its appeal under the frozen definition."
+      },
+      {
+        "id": "000023-076",
+        "from": true,
+        "to": false,
+        "snippets": "removed",
+        "mandatory": true,
+        "decision": "The passage identifies the consultation report as the source of the experts claim and describes the report's offered reason for locating the equipment. This documents the third-party rationale and falls within the frozen documentation exception."
+      },
+      {
+        "id": "000023-099",
+        "from": true,
+        "to": false,
+        "snippets": "removed",
+        "mandatory": true,
+        "decision": "The passage explicitly attributes the health and price rationale to the leaflet, including \"in the leaflet's view\". This framing documents the leaflet's appeal and falls within the frozen documentation exception."
+      },
+      {
+        "id": "000023-139",
+        "from": true,
+        "to": false,
+        "snippets": "removed",
+        "mandatory": true,
+        "decision": "The passage explicitly documents the pitch's valuation claim and its rationale for rejecting the bid. The pitch remains the actor making that case, preserving clearly framed documentation under the frozen definition."
+      }
+    ],
+    "originalOpusJudgments": "All three Opus passes labeled each of these five passages true. Those raw judgments, prompts, artifact hashes, and prior adjudications remain preserved as review history.",
+    "textChanged": false,
+    "newModelReviewsRequired": false,
+    "verificationStatus": "Awaiting Dirac post-correction QA."
+  }
 }
