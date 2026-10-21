@@ -10,7 +10,9 @@ Puffery and overstatement is complete through isolated development and holdout c
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 - Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
 - Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. Its reviewed frozen assessment catches 96 development hits with two false positives and 89 holdout hits with ten false positives. Next: boilerplate and signposting in `prompts/v13/` after this assessment commit.
-- Unnecessary framing has independently reviewed, overlap-cleared 100/100 development and holdout subsets. Full pools remain archived at `49203a48`; all 37 mandatory cases survive selection. Independent result verification confirms its first 684-word prompt catches 99 development hits with zero false positives; freeze that baseline. Both six-text buried-answer pilots pass review, and complete-text pool generation is running.
+- Unnecessary framing is frozen at `e18a4a20`: 99 development hits caught with zero false positives; its separate holdout catches 100 with nine false positives. Preserve that transfer failure and the unchanged candidate. Full pools remain archived at `49203a48`, with all 37 mandatory cases retained in the balanced sets.
+- Both six-text buried-answer pilots pass review. Complete-text preparation continues with the authorized Codex authoring and review contexts; finish all dataset gates before tuning this final check.
+- On 2026-10-21 the approved Claude account reaches its weekly limit during buried-answer preparation. The user authorizes Codex review instead; preserve completed Opus work and use fresh Codex contexts for remaining review roles, with reviewer identities recorded accurately.
 
 ## Execution Order
 
@@ -126,7 +128,7 @@ These are required behaviors to consolidate, not a fixed count of new checks. At
 - Preserve meaningful component assignments. Redundant assignments map to wordiness; excessive repeated syntax maps to rhythm. Their vocabulary or bare sentence shape alone creates no additional check.
 - Allocate the independently confirmed unused IDs `000029`/`000030` to unnecessary-framing development/holdout and `000031`/`000032` to buried-answer development/holdout.
 - Generate full-text pilots across the declared length groups before extending the complete-text pools. Use actual cohesive writing; match title/task specificity and length across classes so answer placement is judged in context.
-- Give Opus neutral aliases and text, withholding author labels and snippets. For full-text review, start with batches of twenty complete texts and preserve complete targets; reduce batch size when demonstrated limits require it.
+- Give reviewers neutral aliases and text, withholding author labels and snippets. For full-text review, start with batches of twenty complete texts and preserve complete targets; reduce batch size when demonstrated limits require it.
 
 #### Consolidated Source Disposition
 
@@ -188,10 +190,11 @@ These are required behaviors to consolidate, not a fixed count of new checks. At
 
 ### Three Planned Review Passes
 
-1. Blind classification: send shuffled neutral IDs and passage text to Claude Opus with the definition, tools disabled, and author labels, snippets, ordering, and requested balance withheld. Request its own hit/no-hit judgment, hit snippets, and ambiguity objections.
-2. Adversarial Opus review and reconciliation: review every disagreement and objection, then have Opus challenge the complete collection for wrong labels, weak controls, repetitive constructions, unnatural prose, and missing variants. Change labels when warranted; rewrite only defective prose and obtain a new blind review of every changed passage.
-3. Final blind review and independent audit: present the final complete writing to a fresh Opus context, reconcile remaining disagreements against the definition, and have a fresh agent verify classifications, snippets, diversity, provenance, and mechanical checks.
+1. Blind classification: send shuffled neutral IDs and complete writing to a fresh reviewer with the definition and author labels, snippets, ordering, and requested balance withheld. Request its own hit/no-hit judgment, hit snippets, and ambiguity objections.
+2. Adversarial review and reconciliation: challenge the complete collection for wrong labels, weak controls, repetitive constructions, unnatural prose, and missing variants. Reconcile every disagreement and objection; change labels when warranted and obtain a new blind review of changed writing.
+3. Final blind review and independent audit: present the reconciled complete writing to a fresh reviewer, resolve remaining disagreements against the definition, and independently verify classifications, snippets, diversity, provenance, and mechanical checks.
 
+- Completed earlier passes use Opus. The user's 2026-10-21 instruction changes remaining reviews to Codex; preserve actual Opus results, use separate fresh Codex reviewer contexts, and record current-text coverage by role and reviewer without conflating the models.
 - Use three passes as the starting schedule; continue review when material objections remain. The gate is zero unresolved material label or realism concerns, rather than a prescribed agreement percentage.
 - Preserve sound difficult passages when correcting labels. Generate and review additional examples when a class falls below 100; select the final balanced set before any Jev evaluation.
 - Preserve surplus reviewed examples with their original labels in a linked Git commit. Before selection, freeze mandatory IDs: approved seeds and sound examples retained after adjudicating classification disagreements or material boundary objections.
@@ -206,7 +209,7 @@ These are required behaviors to consolidate, not a fixed count of new checks. At
 - Holdout reviewers and cross-split auditors never become prompt authors for this family. Keep their contexts separate throughout execution.
 - After data review and balancing, freeze holdout files and record their hashes. The authoring context never opens them, searches their contents, or includes their text in prompt examples.
 - During tuning, run Jev only on explicit development paths with development-only mode selected. Check every collection's declared split before credentials or SDK initialization, and reject holdout or missing split metadata, including mixed directories and misleading filenames.
-- Holdout generation and label review are part of data preparation. After the complete family's candidates freeze, the separate evaluator runs the planned one-shot holdout assessment before the sequence advances.
+- Holdout generation and label review are part of data preparation. After a check's candidate freezes, its separate evaluator can run the planned one-shot holdout assessment while independent work on another check continues. Complete every check's assessment before the family advances.
 - Holdout errors never enter a later prompt revision for the same assessment. A new tuning round influenced by them requires fresh independently authored holdout material.
 
 ## Completed Runner Preparation

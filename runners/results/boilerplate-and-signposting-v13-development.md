@@ -7,7 +7,7 @@ Select and freeze baseline `b0`: 99 of 100 development hits caught, one miss, ze
 - Use Jev `jev-1.13.0`, SDK `0.7.0`, classification-only mode, threshold `>= 0.5`, and two size-100 requests. All 200 complete target passages enter the evaluation.
 - The two SDK requests total 1,338.164584 milliseconds, 43,680 input tokens, and 6,208 output tokens. This time measures provider calls rather than credential loading or the surrounding workflow.
 - The complete instructions contain 684 words: `prompts/v13/shared.md`, the check body, its question, and explicit yes/no criteria. Their loaded prompt-object SHA-256 is `00fdaa11482b66da50128036bf699f9f0612ed9c35f9e942b04688f7f2967973`.
-- The native trial result is `boilerplate-and-signposting-v13-unnecessary-framing-development-tuning.json`. It preserves prompts, input identities, request hashes, probabilities, scores, and execution settings; no revision or additional inference follows this qualifying baseline.
+- The native trial result is `boilerplate-and-signposting-v13-unnecessary-framing-development-tuning.json`. It preserves prompts, input identities, request hashes, probabilities, scores, and execution settings; no revision or additional development-tuning inference follows this qualifying baseline.
 - Fresh independent verification reconstructs both canonical requests byte for byte, validates all 200 responses and scores, and manually reviews the sole error. Public offline scoring and seven tampering checks pass using saved responses.
 
 ### Development Demonstrations
@@ -33,5 +33,7 @@ Select and freeze baseline `b0`: 99 of 100 development hits caught, one miss, ze
 
 ## Remaining Family Work
 
+- Framing's frozen holdout catches all 100 hits with nine false positives, versus 99 catches and zero false positives on development. The holdout exceeds the fixed five-false-positive target; preserve this transfer failure and the assessed candidate. Its native result and protected error review are in the existing holdout files.
 - Finish buried-answer complete-text generation and review, freeze both balanced splits after overlap checks, and evaluate its development prompt on intact texts with a capacity-tested batch size.
-- Preserve framing's qualifying prompt and labels while that work continues. Run each check's protected holdout assessment once after freezing its candidate and settings, then review and report the complete family.
+- The user authorizes Codex for the remaining dataset reviews after Claude returns its weekly-usage limit. Preserve actual Opus review results and record each fresh Codex role separately; retain the same label, snippet, realism, and holdout-protection gates.
+- Preserve framing's qualifying development prompt and labels while that work continues. Assess buried answer's holdout once after freezing its candidate and settings, then review and report the complete family.
