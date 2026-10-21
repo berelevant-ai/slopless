@@ -5,7 +5,7 @@
   "split": "holdout",
   "check": "boilerplate-and-signposting/buried-answer",
   "input": "text",
-  "stage": "source-and-label-QA-approved-awaiting-parent-source-overlap-audit",
+  "stage": "balanced-200-subset-frozen-source-overlap-cleared",
   "completion": false,
   "target": {
     "texts": 240,
@@ -10132,5 +10132,162 @@
     "sourceConservationVerified": true,
     "labelsAndAnnotationsVerified": true,
     "sourceOverlapAudit": "pending-parent-final-audit"
+  },
+  "selection": {
+    "archive": "72f7d7da833db3d790cf837491f0a81146ddc762",
+    "fullPool": {
+      "samples": 240,
+      "markdownSha256": "13c424b87c599f5b96568de30c918bcb3d42035c1d0453fc2fcc1996f33c8361",
+      "labelsSha256": "930b70fc996dacb32cf322ae6601a84418e986f06afa9780f6eb04c232673e11",
+      "reviewSha256": "0daaa9baaa04a716a8138ad47adf526266c9f080b70c04bfa2561a63db7efa50"
+    },
+    "current": {
+      "samples": 200,
+      "hit": 100,
+      "noHit": 100,
+      "mandatoryRetained": 100,
+      "markdownSha256": "a224aeb9c0db3eccecea5f4c28e21e0e7652440ee7b3cf791c7c82bb082973c9",
+      "labelsSha256": "06a0ff01221f36d23ae63319463146ba1565a916d463a18a60c342e0c36949eb"
+    },
+    "ranking": {
+      "helper": "/tmp/authority-selection-proof-2026-10-21.mjs",
+      "helperSha256": "596726e69f266203d0da19a1c622564b26d081f7e107d5e9dbbfba0e185d5eee",
+      "family": "boilerplate-and-signposting",
+      "type": "buried-answer",
+      "split": "holdout",
+      "input": "text",
+      "target": 100,
+      "allocations": [
+        {
+          "expected": true,
+          "mandatory": 61,
+          "optionalAvailable": [
+            17,
+            29,
+            10
+          ],
+          "additional": [
+            10,
+            19,
+            10
+          ],
+          "rounds": [
+            {
+              "slots": 39,
+              "requested": [
+                10,
+                19,
+                10
+              ],
+              "granted": [
+                10,
+                19,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "expected": false,
+          "mandatory": 39,
+          "optionalAvailable": [
+            28,
+            43,
+            13
+          ],
+          "additional": [
+            16,
+            32,
+            13
+          ],
+          "rounds": [
+            {
+              "slots": 61,
+              "requested": [
+                15,
+                31,
+                15
+              ],
+              "granted": [
+                15,
+                31,
+                13
+              ]
+            },
+            {
+              "slots": 2,
+              "requested": [
+                1,
+                1,
+                0
+              ],
+              "granted": [
+                1,
+                1,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "rankingSha256": "77946d594999621d6efb3f1c281ee73f1d9b9dd3d3d514e38c8aef91f3d4d5cd"
+    },
+    "surplusIds": [
+      "000032-001",
+      "000032-005",
+      "000032-008",
+      "000032-010",
+      "000032-031",
+      "000032-032",
+      "000032-040",
+      "000032-049",
+      "000032-052",
+      "000032-068",
+      "000032-079",
+      "000032-086",
+      "000032-088",
+      "000032-098",
+      "000032-109",
+      "000032-110",
+      "000032-128",
+      "000032-129",
+      "000032-133",
+      "000032-135",
+      "000032-139",
+      "000032-140",
+      "000032-141",
+      "000032-148",
+      "000032-151",
+      "000032-154",
+      "000032-170",
+      "000032-175",
+      "000032-186",
+      "000032-196",
+      "000032-200",
+      "000032-201",
+      "000032-205",
+      "000032-208",
+      "000032-212",
+      "000032-213",
+      "000032-217",
+      "000032-225",
+      "000032-230",
+      "000032-235"
+    ],
+    "fullPoolOverlap": {
+      "proof": "/tmp/000031-000032-overlap-private-qcxWiq/audit-final.json",
+      "sha256": "ef3a8bedd18c5fa9b47f2fecc2bb2769057d3a8eda1e8f5363d25da8e16e0781"
+    },
+    "historicalReviewScope": "Pre-existing review statistics and hashes describe the archived 240-text full pool. stage, selection.current and selection.verification describe the active 200-text subset.",
+    "canonicalWrites": 3,
+    "verification": {
+      "path": "/tmp/000031-000032-overlap-private-qcxWiq/selection-independent-verification.json",
+      "sha256": "bd935763089a4e82d78d35a1bdf092596b3bbfb4a3cb2d6312721fdd32c810c6",
+      "exactArchivedWritingLabelsAndSnippets": true,
+      "allMandatoryRetained": true,
+      "stableIds": true,
+      "originalSourceOrder": true,
+      "deterministicRanking": true
+    }
   }
 }

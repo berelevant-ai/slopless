@@ -4,7 +4,7 @@
   "check": "buried-answer",
   "input": "text",
   "split": "development",
-  "stage": "development-source-label-QA-approved-source-audit-pending",
+  "stage": "balanced-200-subset-frozen-source-overlap-cleared",
   "definitionCommit": "d12ff193a4890ba0cd83bd7ceaac993f45ae4ad3",
   "pilot": {
     "readyPath": "/tmp/000031-development-pilot-ready-v1.json",
@@ -3832,5 +3832,149 @@
       "id": "000031-142",
       "reason": "Retain hit: policy, tender and meeting narration still delays the repair decision. UTC calendar calculation gives Thursday 1 October 2026 and Friday 2 October 2026; preserve the subsequent 8 and 15 October board sequence. An eight-to-ten-week equipment wait from the October dates runs into December; replace the unsupported January claim with well into December, without adding installation assumptions. Preserve this QA-challenged control through selection."
     }
-  ]
+  ],
+  "selection": {
+    "archive": "72f7d7da833db3d790cf837491f0a81146ddc762",
+    "fullPool": {
+      "samples": 240,
+      "markdownSha256": "c40ec83a48a1c0d45d9e75c34211cec30e3d8135f7e4415ff6571c435977d13b",
+      "labelsSha256": "8f0b0abf344a6e906524a3341e38e0716c5e1c41a239c2e68a89bee345619a36",
+      "reviewSha256": "f2019b3d934294f508d3a4bc63e99af37724ca08f615f66c157fff5db8aad808"
+    },
+    "current": {
+      "samples": 200,
+      "hit": 100,
+      "noHit": 100,
+      "mandatoryRetained": 76,
+      "markdownSha256": "2fbf74f2960201baa1ab32ce02a3d8ab9ba6d841a4bb6bad13dfed246dfd470b",
+      "labelsSha256": "6bb80efcd0202a149f48139cc9945dd4475d86c925197f4254387385cee9d854"
+    },
+    "ranking": {
+      "helper": "/tmp/authority-selection-proof-2026-10-21.mjs",
+      "helperSha256": "596726e69f266203d0da19a1c622564b26d081f7e107d5e9dbbfba0e185d5eee",
+      "family": "boilerplate-and-signposting",
+      "type": "buried-answer",
+      "split": "development",
+      "input": "text",
+      "target": 100,
+      "allocations": [
+        {
+          "expected": true,
+          "mandatory": 40,
+          "optionalAvailable": [
+            21,
+            41,
+            18
+          ],
+          "additional": [
+            15,
+            30,
+            15
+          ],
+          "rounds": [
+            {
+              "slots": 60,
+              "requested": [
+                15,
+                30,
+                15
+              ],
+              "granted": [
+                15,
+                30,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "expected": false,
+          "mandatory": 36,
+          "optionalAvailable": [
+            22,
+            42,
+            20
+          ],
+          "additional": [
+            16,
+            32,
+            16
+          ],
+          "rounds": [
+            {
+              "slots": 64,
+              "requested": [
+                16,
+                32,
+                16
+              ],
+              "granted": [
+                16,
+                32,
+                16
+              ]
+            }
+          ]
+        }
+      ],
+      "rankingSha256": "9950d7eacfceab1d5e64d25c204e897069f70db214257b20a249a0d347ee4f4a"
+    },
+    "surplusIds": [
+      "000031-010",
+      "000031-015",
+      "000031-017",
+      "000031-019",
+      "000031-021",
+      "000031-026",
+      "000031-035",
+      "000031-036",
+      "000031-037",
+      "000031-041",
+      "000031-045",
+      "000031-047",
+      "000031-051",
+      "000031-056",
+      "000031-065",
+      "000031-067",
+      "000031-068",
+      "000031-077",
+      "000031-081",
+      "000031-083",
+      "000031-094",
+      "000031-096",
+      "000031-121",
+      "000031-128",
+      "000031-132",
+      "000031-136",
+      "000031-147",
+      "000031-149",
+      "000031-166",
+      "000031-170",
+      "000031-174",
+      "000031-178",
+      "000031-182",
+      "000031-188",
+      "000031-203",
+      "000031-207",
+      "000031-209",
+      "000031-222",
+      "000031-228",
+      "000031-235"
+    ],
+    "fullPoolOverlap": {
+      "proof": "/tmp/000031-000032-overlap-private-qcxWiq/audit-final.json",
+      "sha256": "ef3a8bedd18c5fa9b47f2fecc2bb2769057d3a8eda1e8f5363d25da8e16e0781"
+    },
+    "historicalReviewScope": "Pre-existing review statistics and hashes describe the archived 240-text full pool. stage, selection.current and selection.verification describe the active 200-text subset.",
+    "canonicalWrites": 3,
+    "verification": {
+      "path": "/tmp/000031-000032-overlap-private-qcxWiq/selection-independent-verification.json",
+      "sha256": "bd935763089a4e82d78d35a1bdf092596b3bbfb4a3cb2d6312721fdd32c810c6",
+      "exactArchivedWritingLabelsAndSnippets": true,
+      "allMandatoryRetained": true,
+      "stableIds": true,
+      "originalSourceOrder": true,
+      "deterministicRanking": true
+    }
+  }
 }

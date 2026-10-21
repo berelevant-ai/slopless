@@ -1,17 +1,5 @@
 # 000032 Boilerplate And Signposting: Buried Answer Holdout Full Pool
 
-## 000032-001
-
-Should Linden Falls Scan the Permit Cards In-House or Send Them Out?
-
-Marisol Ortega in the building department asked whether the 1962-1988 permit index cards, about 41,000 of them in fourteen steel drawers, should be scanned by our own staff or shipped to a vendor. My recommendation is to send them out, but to keep the 1,200 cards stamped "Variance" in-house, because those need individual review before they leave the building.
-
-The case for outsourcing is throughput. Index cards are uniform, 3 by 5 inches, and in good condition, which makes them ideal for a sheet-fed scanner with an ultrasonic double-feed sensor. Both bids we received quote 300 ppi grayscale TIFF masters with PDF/A access copies, and both can return the full set in five to six weeks. The lower bid is $0.19 per card, or about $7,560 for the outsourced batch. Our overhead scanner, by comparison, handles about 450 cards per staff day. At that rate the backlog would take more than ninety working days and would tie up the machine we need for the council minute books.
-
-The variance cards are different. Many have carbon copies of hearing notices stapled to the back, and some carry handwritten conditions that the zoning office still cites when a property changes hands. They should be destapled, scanned front and back on the overhead unit at 400 ppi, and indexed by parcel number before anything else happens to them. At 1,200 cards, that is roughly a week of work for one person, given the attachments.
-
-Before the remaining cards ship, pull a 200-card sample from three drawers and have the vendor run it as a pilot. Check that the file names follow our drawer-and-sequence pattern, that the backs of cards with notes are captured, and that the delivery manifest matches the count. If the pilot passes, the rest can go in two shipments under the chain-of-custody form the clerk already uses for court transfers.
-
 ## 000032-002
 
 Drip or Sprinklers for the Elmstead Walled Garden Borders?
@@ -70,20 +58,6 @@ That leaves Darren's tank. With every zone under 85 litres per minute and the pu
 
 Whatever the clock says, check it against the pots. Weigh three marked 2 litre pots in bed A just before the 13:30 pulse each day for the first fortnight, and compare with their weight after draining at 11:15; when the loss is more than 400 g, lengthen the pulses by three minutes, and shorten them when it falls below 250 g. Do the same with one tree pot in bed D, and set the controller's seasonal adjust to about 50 percent from mid-September.
 
-## 000032-005
-
-400 or 600 ppi for the Harwick Council Minute Books?
-
-The question came from Dana Whitcombe in the clerk's office last week: when the minute books from 1946 through 1971 go to the overhead scanner this winter, should we capture them at 400 ppi or 600 ppi? It is a fair thing to ask, since the storage budget for the project was set before anyone opened the volumes.
-
-I have been with the Harwick archive for eleven years now, and I still remember my first week, when the records room was in the basement of the old fire hall and we kept a dehumidifier running around the clock. Back then, digitization meant a single flatbed and a student volunteer on Thursdays. Since the move to the Mercer Street annex in 2019, the archive has grown into something I am genuinely proud of, with a reading room, a conservation bench, and three part-time staff.
-
-Over the summer I also toured two vendor facilities in Brantford and spent an afternoon at the county records center watching their team work through land deeds. Everyone I spoke to had opinions about lighting, cradles, and color targets, and the county staff were especially generous with their time. I came home with a notebook full of ideas, most of which we will get to in later phases.
-
-So, to Dana's question: scan the typescript volumes from 1954 onward at 400 ppi, and scan the handwritten books from 1946 to 1953 at 600 ppi. The typed minutes use a clean pica face with characters roughly 2.5 mm tall, and 400 ppi gives OCR more than enough pixels per stroke. The earlier books are in iron gall ink with pencil marginalia from the clerk, and the faint pencil is what we would lose at the lower setting.
-
-The storage math works. The handwritten run is only eight volumes, about 3,100 pages, so the 600 ppi uncompressed TIFF masters add roughly 220 GB over the 400 ppi plan. That fits inside the 4 TB allocation with room for access JPEGs.
-
 ## 000032-006
 
 Monitor Mixes for the Saltmarsh Choir's In-the-Round Night
@@ -124,24 +98,6 @@ Ring me if the bags arrive before Thursday and I'll come down to help with the r
 
 Ruth Adair, Senior Textile Conservator
 
-## 000032-008
-
-Re: Is 62 percent too damp for the lodge banners in the basement store?
-
-Dear Owen,
-
-You asked whether the three miners' lodge banners can go into the basement store, where your logger has averaged 62 percent relative humidity over the last six weeks, while the upstairs room is refitted. I think they can, with two conditions: the reading has to stay steady, and the banners need to be boxed rather than hung.
-
-The steadiness matters more than the number. These are wool-and-cotton union banners with oil-painted roundels, and the oil paint tolerates a constant 60 to 62 percent far better than it tolerates a room that drops to 40 at night and climbs back by noon. Your trace shows a daily range of under 3 points, which is unusually calm for a basement. If that range widens past 8 points, or if the average creeps above 65, I'd change my answer.
-
-I say this partly from experience. In 2009 we kept the Thornley Moor lodge banner in a store very like yours for almost a year at 63 percent with no change in condition, whereas the Barrow Side banner, kept upstairs beside a radiator in an apparently drier room, developed a network of cracks across its painted portrait within one winter. The fluctuation did the damage, not the dampness.
-
-For boxing, lay each banner flat if you have drawers long enough, otherwise roll it, paint facing outward, on the widest tube you have, interleaving acid-free tissue between layers. Avoid polythene on its own, which can trap condensation if the basement temperature drops. Put the boxes on the middle shelves, at least 150 mm off the floor in case of a leak, and leave a gap between the boxes and the outside wall.
-
-Keep the logger running and send me the readings at the end of each month. If you see any white bloom or notice a musty smell when you open a box, close it, note the location, and call me before anyone tries to brush it off.
-
-Best wishes, Hannah Morrow, Textile Conservator
-
 ## 000032-009
 
 How much battery capacity does Kessel Hut need to ride out a winter storm?
@@ -165,26 +121,6 @@ I would not count the ridge wind turbine in any of this. It produced useful outp
 Last, set the inverter to cut the winter-room sockets at 30 percent state of charge. That way the lights and chargers go first and the bottom of the bank stays with the repeater and the heater mat, even if a party sheltering for two nights plugs in everything they carry.
 
 Matthias Eder, Eder Alpine Energy
-
-## 000032-010
-
-How much battery reserve should Grauwand Hut hold back for the rescue radio?
-
-Pieter Vos, for the Grauwand Hut committee, asked: The new solar system at Grauwand Hut (2,180 m) went in last month with a 10 kWh lithium bank. The inverter lets us reserve a percentage of the battery that only the rescue radio circuit can draw from. What percentage should we set before the hut closes for winter?
-
-Pieter, the photos of the installation are clear, and the first thing I looked at was the charge controller, so it's worth explaining what its display is telling you. The controller is a maximum power point tracker: a panel's current falls as its voltage rises, and somewhere around 80 percent of open-circuit voltage the product of the two peaks. Every few minutes the controller sweeps its input voltage to find that peak again, which is why the input reading jumps around on a cloudy day while the output current settles.
-
-Cold changes that peak. Crystalline panels gain roughly 0.3 percent of open-circuit voltage for every degree below 25 C, so on a minus 20 morning your array's open-circuit voltage is about 13 percent above the label. Your installer wired three panels in series for exactly that reason; a fourth would have pushed the string past the controller's 150 V input limit on the coldest days. The 'bulk', 'absorption' and 'float' labels on the screen are the charge stages. With lithium, absorption is brief and float holds the bank just below full rather than topping it up the way it would with lead-acid, so a reading of 'float' for most of a sunny afternoon is normal.
-
-For the reserve, set 35 percent. The radio and its amplifier average 41 W across a day, which is close to 1 kWh. Of the 3.5 kWh that 35 percent protects, about 3 kWh is actually available once you allow for the cells sitting near freezing in midwinter and for conversion losses, so the radio can run for three full days with nothing coming in from the array.
-
-Three days is the figure the mountain rescue service gave me for the longest it has taken them to reach a hut with a failed radio in a storm, and it matches what the old system's logs suggest: the worst stretch at Grauwand last winter was two and a half days of buried panels in late January. Going higher than 35 percent costs you the winter room's lights and sockets sooner, since everything else shuts off when the bank reaches the reserve, and with a sheltering party that cut-off arrives faster than people expect.
-
-Two settings go with it. Enable the inverter's alarm relay at 40 percent so the warning light in the winter room comes on before the sockets cut out, and put a laminated note beside it explaining what it means. And from May to October, once the hut is staffed and the array is clear every day, you can drop the reserve to 20 percent; set a reminder for the opening and closing dates, because it is easy to forget to raise it again.
-
-Before the hut closes, test it. With the bank nearly full, raise the reserve temporarily to 95 percent, open the array isolator, and switch on a kettle in the winter room. The sockets should drop within minutes while the radio keeps transmitting on its own circuit. If the radio goes dark with them, it has been wired to the wrong output, a mistake I have found on two other huts this year. Then put the reserve back to 35.
-
-Katrin Moser, Sentiero Energy
 
 ## 000032-011
 
@@ -606,36 +542,6 @@ Our charge is the site visit and diagnosis, 2 hours at 62 pounds, so 124 pounds 
 
 Priscilla will send Celia this summary and the camera stills once you have signed it off.
 
-## 000032-031
-
-Picking Up Your Holds While the Fenwick Street Branch Is Closed
-
-Several members stopped me after last month's reading circle with the same question: the Fenwick Street branch shuts on March 3 for roof work and does not reopen until April 18, so where do the books we have on hold actually go, and how long will they wait for us there? The short answer is that your holds are safe. The longer answer needs a little explaining.
-
-Fenwick Street has served this neighborhood since 1962, when it opened in what had been a hardware store, and the roof has been patched at least four times that anyone on the library board can remember. Our own club began meeting in its back room in 1987, back when holds were requested on paper slips and the librarian phoned you when your book arrived.
-
-I sat down with the current branch manager, Desmond Achebe, two weeks ago to talk through the closure. We covered a good deal of ground, from the contractor's schedule to the fact that the county has been trying to replace the roof since 2019 and kept losing the bid to other projects. He was candid that the timing is not ideal, with the spring book sale usually held in April, and he hopes to reschedule it for May.
-
-Here is what matters for holds. From February 24, any new hold you place with Fenwick Street as the pickup location will be switched automatically to the Larkin Road branch, about two miles east. Holds already waiting on the Fenwick shelf on March 1 will be carried over to Larkin Road that weekend. While the closure lasts, Larkin Road will keep items for 10 days instead of the usual 7. You will get the normal email or text when an item is ready; it will name Larkin Road as the location.
-
-If Larkin Road is hard for you to reach, you can change your pickup to any other branch in your online account under 'My Holds,' or call the circulation line at 555-0143 and staff will do it for you. Desmond asked that anyone with mobility concerns mention it on the call, since the homebound delivery service has room for a few temporary sign-ups.
-
-Our own meetings will move to the Larkin Road community room for March and early April.
-
-## 000032-032
-
-Collecting Your Holds While the Millbrook Branch Is Closed
-
-Members of the guild who rely on the Millbrook branch for pattern books and craft magazines have asked where their holds will go and how long they will wait while the building is shut for its electrical rewiring, from June 9 through July 25. In brief: holds will wait for you at the Ashdown Library downtown, and they will be kept for 14 days rather than the usual 7, with one exception for interlibrary loans, which follow the lending library's deadline but also go to Ashdown.
-
-The switch is automatic. Anything you have on hold with Millbrook as your pickup point will be rerouted starting June 2, a week before the doors close, so that nothing arrives at a building no one can enter. Your notice will say Ashdown. If you would prefer the Tilson Park branch, which is closer for those of us on the north side, you can change the pickup location yourself in your account, or ask at any desk.
-
-Interlibrary loans are the one wrinkle. Items borrowed from other systems are lent for a fixed period set by the lending library, usually three weeks, and the clock starts when the item lands at Ashdown, not when you collect it. Head librarian Priya Valdez suggested collecting those within a few days if you can. If that is not possible, the desk can request a renewal, though lenders often refuse.
-
-Some of us remember the last time Millbrook closed, for the flood repairs in 2011. Back then there was no rerouting; holds simply sat in a locked building for five weeks, and I lost my place in line for a quilting book I had waited on since February. Priya says the extended shelf time this year came directly out of complaints from that summer, and I am grateful someone kept the file. The guild's own lending shelf, which started that same summer as a stopgap, is still in the closet by the community center kitchen.
-
-The Ashdown hold shelf is just inside the Fourth Street entrance, and self-checkout works with your usual card. Parking in the library lot is free for the first hour. Our July meeting will stay at the community center as planned.
-
 ## 000032-033
 
 How Much Coffee Should I Brew for Two Breaks at a Forty-Person Meeting?
@@ -785,24 +691,6 @@ For your load, this is what I'd do. Margaret is 27 inches deep inside, and your 
 Two smaller points. Wipe the vase feet a good quarter inch up, since a drip shows worse on a tall form, and if any bowl has the thick tenmoku liner, place it toward the centre rather than the wall. I'm in on Thursday from four if you'd like to load it together.
 
 Best, Ines
-
-## 000032-040
-
-Re: Loading the front-loader with a tall lamp base and low cups in one glaze firing
-
-Hi Oskar, glad Sunday's loading session was useful. You asked how to fit your lamp base, the eight satin-white mugs and the tray of sake cups into the front-loader for the cone 6 glaze firing on the 14th. The layout depends on two numbers you didn't have on Sunday and on one quirk of this kiln, and each of them moves something in the plan, so they come first.
-
-The first number is the true height of each piece, standing on its foot, with the lid on if it fires lidded. Kat measured yours in the drying room yesterday: the lamp base is 19.5 inches, the mugs are 4 to 4.25 inches, and the cups are just under 2. The second number is the stacking height the kiln actually gives you. The chamber is 30 inches floor to crown, but the bottom shelf sits on 1-inch posts so air can circulate beneath it, every shelf is three-quarters of an inch thick, and the thermocouple drops about an inch and a half from the crown, which is the clearance you need to leave at the top. That nets out at 26.75 inches above the bottom shelf.
-
-Those figures settle the lamp base before anything else. At 19.5 inches plus at least half an inch of air above it, it needs 20 inches of clear height, and the only sensible place to get that is the bottom shelf, with a full shelf over it on posts stacked to 20.5 inches. That leaves 5.5 inches above the upper shelf, enough for a layer of mugs or anything else under about 4.5 inches. The lamp takes about half the floor of the bottom shelf, so the question becomes what goes in the other half.
-
-That is where the quirk comes in. In the last three glaze firings we put witness cones on every level, and the pattern held each time: from about 3 inches up, the kiln reached a full cone 6 with the tip touching, but on the bottom shelf, especially near the door, cone 6 bent only to about three o'clock, close to a cone behind. Ruth thinks the door gasket has compressed since the 2022 rebuild, and a replacement is due in December, so for now the bottom layer runs about a cone cool. Your satin white goes dry and chalky when it's underfired, as several people found out in September, whereas the clear liner and bare clay on your cups look the same at cone 5 as at cone 6, and the iron red on the lamp base only gets slightly browner.
-
-So here is the load. Stand the lamp base at the back left of the bottom shelf, as far from the door as it will go, and fill the front and right of that shelf with the sake cups, half an inch apart. On the right half, above the cups, set a half shelf on 3-inch posts and put four mugs on it, then a second half shelf on posts stacked to 9 inches with the other four; the witness cones put both of those levels in the full cone 6 zone. Bridge the whole kiln with a full shelf at 20.5 inches, and the top layer, with its 5.5 inches, is free for whoever fires next. Your cone pack goes on the lower mug shelf, facing the spy hole.
-
-One last precaution: the iron red can still move at cone 5, so set the lamp base on a cookie, just in case. If any piece measures differently on the day, send me the new number and I'll redo the stack.
-
-Best, Marguerite
 
 ## 000032-041
 
@@ -1012,22 +900,6 @@ We would like a vibration logger in the crate again, read this time, and one of 
 
 Sanne Mulder and Ravi Chand, Paintings Conservation
 
-## 000032-049
-
-Which charge controller should run the Alder Creek level sensor?
-
-At the March meeting Priya Nandakumar asked which charge controller we should buy for the replacement water-level sensor at the Alder Creek footbridge. The new logger will run from the same 20 W panel and a fresh 12 V, 18 Ah sealed lead-acid battery, so the question is narrow, and it has a fairly firm answer.
-
-Buy a basic 10 A PWM controller with a low-voltage disconnect and temperature compensation, not an MPPT unit. At 20 W the MPPT harvest gain is a watt or two on a clear day, the better units cost roughly three times as much, and their own standby draw cancels much of the gain through the long overcast weeks when the sensor actually matters. The one case where I would change my mind is if the panel ever moves to the sunnier far bank, which would mean a 40 m cable; a higher-voltage panel and an MPPT controller would then make sense.
-
-Some of you will remember why the disconnect matters. The first Alder Creek sensor, which Tom Raskin and I installed in 2019, had a cheap controller with no load output. During the wet February of 2021 the battery ran flat, the logger browned out for nine days, and it lost the whole flood peak we had put it there to record. The battery never held a full charge again.
-
-The numbers for the new logger are modest. It averages about 60 mA with the cellular modem waking hourly, roughly 10 Ah a week. Using only the top half of an 18 Ah battery gives about five days without sun, which is why I would set the disconnect at 11.8 V rather than the factory 11.1 V. We give up some runtime to keep the battery out of deep discharge, and the controller reconnects the logger on its own when the panel recovers.
-
-On logistics: the treasurer has approved up to $60 for the controller, which the PWM unit fits with room for a fused holder. Greg Okafor has offered to mount it inside the existing enclosure at the April work day. If anyone has a spare temperature probe for the battery, bring it along.
-
-- Dana Whitlock, equipment officer
-
 ## 000032-050
 
 What controller should we fit to the Brennock Weir turbidity station?
@@ -1059,24 +931,6 @@ So height is the wrong lever. The lever is the head in front. If each row sits o
 My recommendation: keep the board at 120 cm and change the room instead. Lay the mats in staggered rows, or tape staggered marks if the venue supplies its own. Stop the children's block at six rows, roughly 6 m, and put any overflow on low benches or chairs at the sides rather than further back. Behind the mats, seated adults have eyes around 115 cm and see the feet easily over the children.
 
 That leaves the masking line, which is where your standing latecomers come in. An adult standing at the back has eyes near 160 cm and looks down over a 120 cm board into your workspace. Rather than raising the board for them, hang a black drape behind your puppeteers and dress in black to the elbows; what they see past the board is then black on black rather than pale arms and rod grips. And ask the venue to put chairs out for latecomers. Rebuilding the frame would cost you more than any of this, and on the arithmetic it would not solve the problem the teachers noticed.
-
-## 000032-052
-
-How wide can our audience fan out around a tabletop show?
-
-Dear Footlights Desk, Paperweight Theatre tours a tabletop show, The Lighthouse Keeper's Cat, to village halls and festival tents. Three of us operate in full view, dressed in grey, so hiding the puppeteers has never been our concern; audiences are meant to see us. The trouble is the set. A cardboard lighthouse 55 cm tall stands at the centre of our 180 cm table, and the rock-pool scenes play behind it at the back corners. Promoters keep squeezing extra cushions round the sides, and from the far ends of the front row the cat vanishes behind the tower for whole scenes. How wide can we let the seating go? - Owen Prys, Paperweight Theatre
-
-Owen, thanks for a question that comes up more often than you might expect. To answer it properly it helps to go back to what a sightline actually is.
-
-In theatre architecture a sightline is any straight line between a spectator's eye and a point on the stage, and the word has been in use in that sense since at least the nineteenth century, when the builders of large opera houses began drawing them to sell more seats with a clear view. Every seat has its own set of them, and every piece of scenery interrupts some of them.
-
-In puppetry the word carries a second meaning. Traditional glove-puppet booths, from Punch and Judy to the Czech fairground theatres, were built around concealment: the playboard sat above the performer's head, and the main sightline worry was whether anyone in the audience could see over or round it to the person underneath. Rod and marionette stages kept the same priority, using bridges, gauzes and black masking to keep operators invisible. Open manipulation, where the puppeteer stays in view and the audience accepts them as part of the picture, became common in Western companies only from the 1970s onward, partly under the influence of Japanese bunraku, in which the senior operator has long performed unmasked.
-
-Tabletop puppetry sits within that open tradition. The puppets are usually small, carved or built from found materials, and worked directly on a table surface by two or three operators at once, each taking a part of the figure: head, hands, feet. Because the table is low and the audience close, tabletop shows are often staged in the round or on three sides, which is part of their appeal for touring companies working in non-theatre spaces.
-
-For your layout, keep the audience inside a 70-degree fan: 35 degrees either side of a line running straight out from the middle of the table's front edge. A quick way to set it on the day is to run two lengths of tape from that point; 2 m out, they should be about 1.4 m either side of centre, so a front row at that distance is no wider than about 2.8 m. Seats beyond that line lose the rear corner on the far side for most of the rock-pool scenes, however far back they sit.
-
-If promoters insist on more width, change the set rather than the seating. Push the lighthouse to the back edge and restage the rock-pool scenes at the front corners, and the fan opens to roughly 110 degrees, which is enough for most halls where the cushions creep round the front corners. Test it at your next rehearsal: have someone walk the arc while the cat runs its rock-pool sequence, and wherever they lose sight of it is your boundary.
 
 ## 000032-053
 
@@ -1426,20 +1280,6 @@ Crop to that 154 by 216 shape yourself before exporting, so you rather than the 
 
 If your best picture falls short of the minimum, it can still go in. Email Priya before the deadline and she will look at running it at half-page size on a shared spread, where the same pixels stretch over less paper and hold up well. Last year three members did exactly this, and nobody at the launch evening could tell which pictures they were.
 
-## 000032-068
-
-What Resolution Do Your Quilt Photos Need for the Catalogue?
-
-The short answer for this year's Meridian Quilters' Guild exhibition catalogue: photograph each quilt so the file is at least 1800 pixels along its longest side, which gives about 300 pixels per inch when the whole quilt is fitted into the 150 mm square each main image gets. Detail shots, which print at 70 mm, need around 830 pixels. If your file falls below that, send it anyway with a note; for a run of 80 copies we would rather have your quilt slightly soft than missing.
-
-Why 300? It is the figure commercial printers settled on decades ago for offset litho, where a halftone screen of around 150 lines per inch looks best with roughly twice that many image pixels behind it. Our printer, Kestrel Copy on Mill Lane, runs a digital press rather than litho, and their prepress lead, Owen Batty, told me that above about 250 ppi he cannot see a difference on our uncoated stock. So 300 gives a little headroom, not a magic threshold.
-
-I learned the cost of ignoring it with the 2023 catalogue. Several entries arrived as photos copied out of a messaging app, which quietly shrinks images to around 1000 pixels. At full size the stitching on Margaret Ilse's whole-cloth quilt turned to a grey blur, and the quilting was the whole point of that piece. This year, please send the original file from your camera or phone, not a forwarded copy.
-
-A few further points. Shoot in daylight from straight on, with the quilt hung flat, so we are not correcting keystone distortion and losing pixels in the process. Leave a margin of wall around the edges; we will crop. Do not enlarge a small file to hit 1800, because the software only invents the missing pixels. Send JPEGs to catalogue@meridianquilters.org.uk by 2 March, named with your surname and the quilt's title.
-
-If you are unsure whether a file is big enough, most phones show the pixel dimensions under the photo's details or info screen. Questions can come to me, Rosalind Achebe, at the Thursday sit-and-sew.
-
 ## 000032-069
 
 Which Fan Is Rattling in My Fridge-Freezer?
@@ -1646,26 +1486,6 @@ On the 07:40, put the bags in the stack nearest the door we will leave from, whi
 
 Risk: if the branch train is replaced by a bus, as happens on some engineering weekends, bags can go in a coach luggage hold and assembled bikes cannot, which is one more reason to bag all six. I will check the engineering notices on the 25th.
 
-## 000032-079
-
-Re: When should we mix glaze batches so the shared shelves stay clear?
-
-Hi Marisol,
-
-You asked when to mix the three October glaze batches so they do not crowd the shared rack. Mix the celadon and the shino on Monday afternoon, and hold the tenmoku until Wednesday morning, after the bisque load comes off shelf C. That keeps no more than four buckets on the rack at any time, which is the limit Dev set after the bracket cracked in August. One caveat: if the Monday class runs late and nobody can sieve the shino before 6 p.m., push it to Tuesday at noon rather than leaving unsieved slop on the rack overnight.
-
-Here is why the order works. The shared rack has three shelves, and shelf C is the only one rated for wet buckets above 20 kilograms. The bisque from the Saturday adult class sits there until Tuesday's unload, so anything heavy has to wait. Celadon and shino come in under 15 kilograms per batch, so they can go on shelf B on Monday without crowding the greenware.
-
-Tenmoku is the problem child. We mix it at 28 kilograms because the wood-ash students go through it fast, and it needs to sit for a day before it brushes cleanly. Mixed Wednesday morning, it is ready for Thursday's glaze session and back in the glaze room by Friday, when the next bisque load arrives.
-
-I learned this the hard way at the co-op on Halsey Street, where we used to mix everything on Monday out of habit. By Wednesday we had eleven buckets stacked two deep, someone knocked a lid off reaching for the iron red, and we lost most of a batch to a layer of dust and trimmings. Spreading the mixes over three days felt fussy at first, but it cut our spills to roughly one a term.
-
-The studio calendar still lists Tuesday as a mixing day for the youth program. Their batch is a single three-kilogram bucket on shelf A, so the rack stays within the four-bucket limit all week. I would just ask Priya to date the lid so nobody mistakes it for an adult glaze.
-
-If it helps, I can tape a laminated schedule to the rack itself. Tell me by Friday and I will print it alongside the October kiln dates.
-
-Thanks, Ruth
-
 ## 000032-080
 
 Re: Which day should each spring glaze batch be mixed to fit the shared shelves?
@@ -1818,18 +1638,6 @@ Now the boards. The school has agreed to lend us the four flat-bed trolleys from
 
 I need eight volunteers. Please put your name on the sheet at the October meeting or email me at the club address. Hamish has already offered to bring extra card from the farm shop. - Moira Dunbar, Events Secretary
 
-## 000032-086
-
-How Should We Shift the Poster Boards Between Rooms at the Spring Meeting?
-
-For 14 March, the plan is to wheel the boards across with the posters still attached, using the Kestrel Hotel's two luggage carts and the staff corridor behind the Fenwick Suite, during the 15:10 tea break. That works only if the hotel releases the carts by 15:00, which the duty manager has promised but not put in writing. If the carts are not free, we take the posters down, carry the bare boards flat in pairs, and repin in the Ashby Room, accepting a late start of perhaps half an hour.
-
-Why keep the posters on? Because we tried the other way in 2019. That year the boards had to go from the ground-floor lecture room to the first-floor library, and Derek Shah and I stripped every sheet at lunch, carried the boards up the main stairs, and pinned everything back. Repinning took forty minutes, not the ten we had guessed, because each A1 sheet needs eight pins along its edges and the old pin holes had to be avoided or the paper tore. Two posters went back up on the wrong boards. Nobody complained loudly, but the talk on CCD flat fields began to a half-empty room while people hunted for the comet display.
-
-The luggage carts suit this job better than they look. Their decks are 1.2 metres long, just wider than our boards, and the brass hanging rail lets us stand four boards upright and strap them to it with the bungee cords Paula keeps in her car. Load them face to face so the poster surfaces protect each other, slip a sheet of corrugated card between each pair, and push slowly over the corridor threshold, which has a lip of about two centimetres. I walked the route with the duty manager last week: ninety metres, one set of double doors, no steps.
-
-If you can push a cart or steady a load, please tell me at the February observing night. I need four people at 15:05 sharp. If the carts fall through, I will need the same four people plus two boxes of fresh drawing pins. - Alan Price, Meetings Secretary
-
 ## 000032-087
 
 How bright can we light a print gallery that rotates three times a year?
@@ -1845,22 +1653,6 @@ Now the arithmetic. You told me on the phone that the gallery is open 42 hours a
 Those numbers settle it. Set the lights to 50 lux at the print face, measured at the centre of each frame with the meter's sensor facing out into the room, and dim individual heads rather than the whole track, because the frames near the window wall pick up stray daylight. Keep the west blinds down during opening hours. Then make sure no print goes back on the wall until it has rested for at least eight rotations, so that each print is shown at most once every three years and averages under 12,000 lux-hours a year. If you fit occupancy sensors so the lights only come on when someone is in the room, which in a gallery of your size usually cuts lit hours by a third or more, you can re-measure after a season and possibly shorten the rest period.
 
 As for the gloom, the complaint is usually about contrast, not lux. Visitors arriving from a bright stairwell need a minute to adapt. Lower the landing lights, fit 3000 K LED lamps with no ultraviolet output, and keep the walls a pale warm grey so the prints are not floating in darkness. Fifty lux looks entirely adequate once eyes have adjusted; I have yet to meet a visitor who could tell 50 from 80 after five minutes in the room.
-
-## 000032-088
-
-What lighting should we use for a photograph case that changes every month?
-
-Q: Our college library has a glass display case in the reading-room corridor where we show work from the bequest of Edith Varga, a local photographer who made cyanotypes and gelatin silver prints between the 1920s and 1950s. We change the selection on the first of every month, about a dozen pieces each time. The case is lit by two old fluorescent tubes inside the top canopy, and they stay on from 8 a.m. to 10 p.m. Should we replace them, and with what? - Tomasz Reid, special collections assistant
-
-Tomasz, a case with tubes in the canopy sends me straight back to 1986 and my first job, as a technician at the Whitlow Institute in Leicester. My supervisor there was a former ship's engineer named Colin Ashe who had drifted into museum work after his marriage, and he ran the photography store like an engine room. Every drawer had a brass label he had engraved himself, and he kept a logbook of every visitor to the store in green ink, because, he said, green could not be mistaken for anyone else's handwriting. He taught me to cut window mats with a bevel cutter he had built from a drafting table and a planer blade, and I still have the scar on my left thumb to prove it. Colin retired in 1994 to grow chrysanthemums, and when I visited him the year before he died he was still arguing that the Institute should never have sold its lantern-slide collection.
-
-Your Varga cyanotypes have a longer pedigree than most people realise. John Herschel worked out the process in 1842 while looking for a way to copy his notes, and Anna Atkins used it the following year for her privately printed book of British algae, generally counted as the first book illustrated with photographs. By the end of the century it had become the blueprint, the cheap copying method of every shipyard and drawing office, which is why serious photographers looked down on it for decades. Photographers like Varga who took it up again between the wars were, in a small way, rehabilitating it.
-
-To your question: yes, replace the tubes. Old fluorescent tubes emit a measurable share of ultraviolet, they run warm inside a closed canopy, and you cannot dim them. Fit a UV-free LED strip at around 3000 K with a constant-current dimmable driver, and set it so the light at the case floor reads no more than 50 lux. Cyanotypes and gelatin silver prints can both live at that level, and the Prussian blue of the cyanotypes is the more light-sensitive of the two.
-
-The bigger saving is in hours. Fourteen hours a day, seven days a week, is close to 5,100 lit hours a year, and most of those are hours when nobody is in the corridor. Put the strip on a passive infrared sensor with a two-minute run-on, or at minimum a timer that matches the reading room's staffed hours. With monthly rotation each print sees one month of that, so cutting the lit time by half halves the dose every item receives. Keep a log of which pieces have been out and when, and give the cyanotypes at least a year in the dark between showings; they recover some of their colour in storage, but not all of it.
-
-A twenty-pound lux meter is enough to check the setting; take a reading at the case floor each time the display changes.
 
 ## 000032-089
 
@@ -2095,28 +1887,6 @@ Let me know if you need anything else.
 Best,
 
 Martin
-
-## 000032-098
-
-Re: Which jig for the 96 stair-rail picket cuts?
-
-Hi Tomas,
-
-Short answer: cut the pickets on the cold saw against a fixed angle block with a length stop, not on the bandsaw with its swivel vise. One caveat up front. If the change order on job 2318 goes through and the architect switches the pickets from 3/4-inch to 1-inch square tube, the block has to be remade, so do not weld anything permanent until Renata confirms the change order, which she expects by Friday.
-
-Here is the reasoning. The stair pitch on the Lindqvist building is 34.5 degrees, and both ends of every picket need that angle, parallel to each other, so the pickets stand plumb between the top and bottom rails. The bandsaw's swivel scale reads in whole degrees, and on the last rail job we measured it wandering about 0.75 degree after a dozen cuts as the vise loosened. Over a 38-inch picket that is enough to make the tops visibly step against the rail.
-
-For the block, mill a piece of 2 by 2 aluminum angle so it holds the tube 34.5 degrees off square, bolt it to the cold saw's back jaw, and leave the head locked at 90. You angle the work, not the saw, so the head never leaves its positive stop. Set a length stop at 38-1/4 inches to the long point. Cut one end, slide the stock forward to the stop and cut again without flipping it, which keeps the ends parallel. Check the first two pickets against the stair template Dmitri cut from the site survey before running the rest.
-
-Scheduling note: the cold saw is booked for the Ainsley canopy columns Thursday morning, so set up Wednesday afternoon. Charge the aluminum to 2318 rather than shop stock, since the block is job-specific.
-
-I learned the no-flip rule the hard way at Northside Iron, when I flipped forty pickets end for end, got mirrored ends, and scrapped every one. Hal Brenner taped a note to the saw that said "slide, don't flip," and it stayed there for six years.
-
-Call me if the change order lands sooner.
-
-Thanks,
-
-Ines
 
 ## 000032-099
 
@@ -2359,40 +2129,6 @@ Two qualifications. PressFrame charges nothing for banners but allows only one p
 Decision requested
 
 The committee is asked to approve this as standing policy from 1 January, to add banner placement to the duty editor's corrections checklist, and to authorise me to apply a retrospective banner to the Hallam Bridge page this week.
-
-## 000032-109
-
-Which replacement belt to bring to the Lindqvist dryer call
-
-Short answer for Thursday's crew: bring a six-rib, 90-inch drum belt (our bin DB-90-6R) and a second one as a spare. Leave the older four-rib belts in the van stock alone, even though they will sit in the drum groove. The one exception is a unit someone has already converted to a longer belt, which you can spot on the idler bracket before you take anything apart.
-
-Ines Lindqvist's dryer is a gas Tamberlane TG-700 bought around 2011, and the drum stopped turning on Sunday with a thump. We have serviced that series for years. Of the 23 TG-700 belt jobs in the shop log since 2019, 21 took the 90-inch six-rib belt. The other two were machines where a previous technician had replaced the idler bracket with the later R2 version, which sits farther from the motor and needs a 92-inch belt.
-
-So the first thing to do after pulling the front panel is look for an R2 stamp on the bracket. If it is there, fit a 92-inch belt; we keep two in the second bin. If it is not, fit the 90-inch. Do this before cutting off the old belt, because the old belt will not tell you much.
-
-I learned that in 2021 on a TG-700 in Harlow Street. The broken belt measured 93 inches on the bench, so I ordered a 93, fitted it, and watched the idler arm bottom out against its stop with no tension at all. That belt had stretched almost three inches in ten years of drying towels. A worn belt measures its own history, not the machine's geometry.
-
-Ines also said the dryer squealed for about a week before it stopped. That squeal is usually the idler pulley bearing, not the belt, so pack an idler assembly (IP-17) as well. A fresh belt running over a dragging idler glazes within weeks, and we would be back in a month.
-
-On site: pull the front panel, read the bracket, fit the matching belt, spin the idler by hand and replace it if it grinds or wobbles, then run the dryer empty for five minutes with the panel off and watch the belt track in the center of the drum.
-
-## 000032-110
-
-Which replacement belt to bring to the Achterberg dryer call
-
-Tomas Achterberg's electric dryer stopped turning its drum on Monday evening, and Wednesday's visit needs the right belt in the van so we finish in one trip.
-
-I spent a good part of Tuesday on this. My first call was to Corrigan Parts, where Delia at the counter said belt questions pile up every autumn and her usual first question is the drum diameter. Brightway Supply's warehouse line kept me on hold for eleven minutes before I gave up. Between calls I paged through my old notebooks and tallied belt jobs by month; October is reliably the busiest, with nine last year. I also caught Marco, who has been on the bench since 2004, and asked about sizing belts. Marco's habit is to lay the old one flat, run a tape along it twice, and split the difference.
-
-Bring the seven-rib, 80-inch belt from bin DB-80-7R. The photo of the rating plate Tomas texted on Monday shows model HX-412E, and the HX-412 parts diagram lists that belt for every revision from E onward. Pack the matching idler pulley, IP-22, as well; the diagram calls for replacing it with the belt on this series, and the E-revision idler shaft is a known wear point.
-
-Leave the six-rib 80-inch belt in the van, even though it drops into the groove and looks right. On the HX-412 drum it rides toward the rear lip and chews its outer rib within a few months, and the callback costs more than the belt.
-
-On site, check the plate against the photo before opening the cabinet. If the revision letter turns out to be C or D, the diagram calls for a 79-inch belt instead, and there are two of those in the second bin. Otherwise fit the 80-inch, confirm the idler spins freely with no wobble, and run the drum empty with the front panel off for five minutes to watch it track.
-
-Bring the belt hook and the long magnetic pickup too. The HX-412 lint duct has a habit of swallowing screws, and Tomas asked for the duct to be cleaned while the panel is off.
-
-Budget about forty-five minutes on site, including the duct. If the drum bearing turns out to be the real failure, call the shop before quoting; that is a different job and a different van.
 
 ## 000032-111
 
@@ -2796,42 +2532,6 @@ On tape: older field manuals recommended strapping cracked pots with pressure-se
 
 Bring two trays, one spare block of foam, a hot-wire cutter, tissue, and the photo scale. Photograph the crack before and after packing so we can tell whether anything changed in transit.
 
-## 000032-128
-
-How We Will Support the Cracked Delftware Bowl at Ashcombe During the Roof Works
-
-Ashcombe's roof contractors start on 3 March, and the tin-glazed punch bowl in the north passage cannot stay on its open shelf while scaffolding goes up against that wall. The question this plan has to settle is specific: what the bowl will sit on for the eight weeks it spends in the store, and where that support is allowed to touch it, given the crack. In brief, it will go on a padded ring. Before the specifics, it is worth setting out some background.
-
-Ashcombe has been in the Trust's care since 1961, and anyone who has worked on the site knows how much the house depends on goodwill. The roof project itself took four years to fund, with the final tranche arriving from the county heritage scheme only last autumn, and the fact that conservation was written into the contract from the start is a small victory that deserves noting.
-
-Tin-glazed earthenware has a long history in England, beginning with immigrant potters in London in the late sixteenth century and spreading to Bristol and Liverpool by the eighteenth. Punch bowls became fashionable as drinking customs changed, and many surviving examples carry inscriptions or dates. The Ashcombe bowl is undated, though its blue floral decoration suggests the 1740s. My own first encounter with delftware was as a student volunteer, sorting a dealer's donation of sherds in a church hall, and I still remember how few of them had labels.
-
-The ring is a 140 mm diameter loop of 25 mm polyethylene foam, covered in Tyvek, sitting on a correx board. The bowl's foot ring sits within it, so the ring bears on the lower body about 30 mm above the foot, not on the foot itself. The crack runs from the rim down the east side to within 40 mm of the foot; cut a 60 mm gap in the ring where the crack meets it, so no part of the support presses on either crack edge. Add three small foam wedges at the shoulder, spaced evenly around the bowl but none within 50 mm of the crack, to stop it tilting toward the weak side. Nothing touches the rim.
-
-Move it on the board, by two people, with Priya Lal holding the board and Tom Reyes walking ahead to open doors. Photograph the crack under raking light before and after. Check it fortnightly in the store, and if the crack has lengthened, call me before anyone repositions it.
-
-## 000032-129
-
-Re: Where should the winter panels go at the Carn Du relay?
-
-Hi Morwenna,
-
-After Saturday's workshop you asked whether the two 200 W panels for the Carn Du relay should stay on the hut roof or move to the granite shelf about 35 m upslope. I couldn't answer on the day because it turns on a figure we didn't have: how high the shoulder of Bryn Llwyd stands above each spot's southern horizon. Gethin went up on Wednesday with a clinometer and a compass, and his numbers settle it.
-
-Carn Du sits at about 52.4 degrees north. At solar noon on the winter solstice the sun is roughly 14 degrees above a flat horizon (90 minus 52.4 minus 23.4). An hour later it is near 13 degrees at an azimuth of about 195; by 14:00 it is down to about 10 degrees at about 210. Those few hours either side of noon carry most of the clear-day winter energy, so whatever blocks the sky between south and southwest below about 13 degrees decides the question.
-
-From the hut roof, Gethin measured the Bryn Llwyd shoulder at 13 degrees across azimuths 190 to 225. From the shelf, which is 18 m higher, the same shoulder reads 6 degrees. Put those against the sun path and the roof panels go into shadow at about 13:00 solar time, while the shelf keeps direct sun until about 14:45. The eastern horizon is open from both spots, so mornings are equal.
-
-In his spreadsheet that works out to about 0.85 kWh on a clear solstice day from the roof and about 1.15 kWh from the shelf, against a relay load of 18 W continuous, or 0.43 kWh a day. On overcast days the gap narrows to around 10 percent, because diffuse light comes from the whole sky and the shoulder takes only a slice of it. What matters, then, is the clear day after a grey spell. From the shelf one clear day puts roughly 0.7 kWh back into the bank; from the roof, about 0.4. After a week of heavy cloud the bank is usually about 1.5 kWh down, so that is recovery in two days or in nearly four.
-
-So my recommendation is to move both panels to the shelf, face them due south at 65 degrees from horizontal, and leave the roof brackets in place as a summer position if you ever want one. At 65 degrees the panels sit close to square-on to the midwinter noon sun and are steep enough to shed the snow that now sits on the roof panels for days at a time.
-
-Two real constraints come with the move. The shelf is inside the licence area on the Commoners' Association plan from 2019, so no new consent is needed, though Ffion at the Association asked to be told before any ground is disturbed. The 35 m cable run is the other. With the existing 6 mm2 cable and the panels wired in parallel, the drop at full output would be about 24 percent. Wired in series it falls to about 6 percent, and the MPPT controller already accepts the higher input voltage.
-
-Gethin can do the move on the 9th if the weather holds. His clinometer sheet is attached if you want to check the angles.
-
-Best, Alun
-
 ## 000032-130
 
 Re: Where should the winter panels go at the Maple Knob repeater?
@@ -2918,28 +2618,6 @@ If Kemi fumbles the clear, Dev holds at the crossover until she signals rather t
 
 Approval needed from Bram on the preset paper, which will now be visible on the bedside from the top of the ward scene.
 
-## 000032-133
-
-Re: Driver relief point for the Harlow Mill rail replacement, 8-9 November
-
-Hi Priya,
-
-Short answer: relieve the drivers at Crane Street depot rather than on the Harlow Mill station forecourt, and do each relief during the layover after an inbound run, so the coach is empty when it changes hands. That holds as long as the 07:10 to 19:40 timetable stays as drafted. If the railway extends the possession past 20:00 on the Sunday, we will need a second relief slot and I would want to look at it again.
-
-The forecourt looks convenient on the map, but it has two bays and both will be in near-constant use for loading. A relief there means a coach standing with its doors open while the outgoing driver signs off the defect card and the incoming one sets the seat and mirrors, which in my experience takes four to six minutes even when nobody is rushing. Every one of those minutes is a minute the following coach spends circling Station Road.
-
-Crane Street is a three-minute empty run from the inbound terminus, which the 20-minute layover absorbs. It also has toilets, a mess room and the key safe, so the incoming driver can collect the ticket machine float without anyone having to meet them at the kerb.
-
-Some history, because I expect Martin to ask: during the Ashby Junction closure in 2023 we did relieve at the station, and on the Saturday we lost eleven departures, most of them to reliefs overrunning in the bay while passengers queued in the rain. We moved the reliefs to the depot on the Sunday and lost two. I would not read too much into one weekend, but it matched what drivers told us at the debrief.
-
-On hours: with six vehicles out and reliefs roughly every four and a half hours, the roster I sent on Tuesday keeps everyone inside the ten-hour duty limit and gives each driver a 45-minute break at Crane Street.
-
-Happy to walk the route with you on Thursday if that helps.
-
-Best,
-
-Owen Darrah, Operations Controller, Southmere Buses
-
 ## 000032-134
 
 Re: Driver relief arrangements for the Brannock line replacement buses, 3-6 March
@@ -2959,28 +2637,6 @@ If the drivers' room is locked when you arrive, Jo has the night code.
 Regards,
 
 Nadia Okafor, Rail Replacement Coordinator
-
-## 000032-135
-
-How should repeated pendulum timings be graded fairly in a Year 11 practical?
-
-Hana Lindqvist, who teaches physics at Corrow Park School, wrote: "My Year 11s each time ten swings of a pendulum five times and then calculate g. I've been giving the top mark to whoever gets closest to 9.81. A colleague says that isn't fair. How should I be marking the repeated timings?"
-
-The difficulty is that your scheme bundles two different properties into one mark, and repeated timings can only tell you about one of them. Precision is how closely the repeats agree with each other. Accuracy is how close the final value sits to the true one. Repeats expose random error, the scatter that comes mostly from a student's thumb on the stopwatch. They cannot expose systematic error, which shifts every reading the same way and leaves the scatter untouched.
-
-Here is a real set from one of my own groups last spring, times for ten oscillations: 14.2, 14.5, 13.9, 14.4 and 17.1 s. The last reading is plainly out of family. At this length one swing takes about 1.4 s, and 17.1 s is almost exactly twelve swings, so the student miscounted. Dropping it, the mean of the remaining four is 57.0 / 4 = 14.25 s, and half the range is (14.5 - 13.9) / 2 = 0.3 s, giving a period of 1.425 +/- 0.03 s.
-
-That 0.3 s spread is roughly what human timing produces. Reaction time at the start and stop of a run is around 0.15 to 0.2 s each, and the two do not cancel neatly. The stopwatch reads to 0.01 s, so its resolution is irrelevant here. For ten oscillations, a half-range of up to about 0.3 s is careful work; much below 0.1 s usually means someone tidied the numbers.
-
-Now the systematic side. The same group measured the string to the top of the bob instead of its centre, recording 49.0 cm where the effective length was about 50.5 cm. Their g came out at 9.53 m/s^2, 3 percent low, and not one of their five timings could have warned them. Another pair in that class had a noisy set, with a half-range of 0.6 s, but a length error and a habit of starting the watch late that happened to pull in opposite directions, and they landed on 9.79.
-
-Last spring was also the first year I ran this practical, and I marked exactly as you do. That second pair took the top band. When I went back through the sheets, the scheme had rewarded luck and penalised a careful group for a mistake in a different part of the method. That is the unfairness your colleague is pointing at.
-
-So mark the repeats for what they can show, and assess accuracy separately. For the timing section I would award four marks: one for at least five repeats recorded to a consistent resolution; one for identifying any anomaly and giving a physical reason for excluding it, such as a miscount; one for a correct mean and half-range uncertainty; and one for a spread within the expected band, which for ten oscillations I set at a half-range of 0.3 s or less. A wider spread can still earn that last mark if the student notices it and suggests a fix, such as timing twenty oscillations or using a fiducial marker at the lowest point.
-
-Then give closeness to 9.81 its own place in the evaluation, and mark the explanation, not the number. A student who gets 9.53, compares it with the accepted value, and traces the gap to where they measured the length has shown more understanding than one who reports 9.79 and stops. Tell the class in advance that this is how the marks split; it removes the temptation to quietly nudge results toward the textbook.
-
-Recommendation: mark the repeats for method, anomaly handling, mean and uncertainty, and spread within a reaction-time band, and assess accuracy separately.
 
 ## 000032-136
 
@@ -3061,60 +2717,6 @@ Run mains separately in 100 by 50 mm steel trunking in the staff-side plinth, in
 Bring data up to the screens through one 80 mm grommet per station in the top skin and stone, on the post side of the station centre and no more than 400 mm from the post. The duct can be re-pulled from either end using the draw cord, and the plinth trunking and vertical chases sit behind removable fascia panels on the staff side, so the terminal change in three years should need no cutting at all.
 
 If you approve this by Friday, we will release the web drilling pattern to the shop on Monday.
-
-## 000032-139
-
-How Should the Club Server Keep Its Logs Under the 20 GB Cap?
-
-At the September meeting, Priya Okonkwo asked a question that deserved a proper answer in print: the club's shared server, the old Dell in the cupboard that hosts our wiki, the Minecraft world and the members' Git mirror, has a 20 GB partition for /var, and last month it filled up and took the wiki down for a weekend. How should we retain logs so that never happens again, without throwing away anything we might need?
-
-Logs are one of those things everyone agrees are important. They tell you who logged in, what crashed, and when a disk started throwing errors. Security people value them because an intrusion often leaves traces that only show up weeks later. Developers value them because a stack trace beats a vague bug report. Auditors, in larger organisations, value them because regulations sometimes require a year or more of retention.
-
-There are plenty of ways to handle them, too. Some shops ship everything to a central system such as Elasticsearch or Grafana Loki. Others pay for a hosted service and never think about disk space at all. Some keep everything forever on cheap object storage; some keep almost nothing. Each approach has its fans, and each has trade-offs in cost, complexity and how quickly you can search when something goes wrong at two in the morning.
-
-And the risks run both ways. Keep too little and you may not be able to reconstruct what happened. Keep too much and, as we learned, the disk fills, services stop writing, and things fall over in ways that are hard to diagnose precisely because the logs stopped.
-
-Here is what the committee has settled on. The systemd journal gets a hard ceiling: SystemMaxUse=3G and MaxRetentionSec=30day in /etc/systemd/journald.conf. Nginx and the Minecraft server logs go through logrotate daily, compressed, keeping 14 rotations, with maxsize 200M so a runaway day still rotates. The Git mirror's access log, which was 11 GB of the 20 when it broke, drops to 7 rotations. That budget tops out around 6 GB, leaving the rest of /var for package caches and the wiki database. Tomasz has added a cron check that emails the committee at 75 percent.
-
-If you think 30 days is too short for anything you run, tell Tomasz before the November meeting.
-
-## 000032-140
-
-How Should the Repair Cafe Kiosk Keep Its Logs Under a 32 GB Card?
-
-Short answer for the Saturday volunteers who asked: keep routine journal chatter off the card, store only warnings and above under a 1 GB ceiling, rotate the booking app's own log weekly with eight copies, and copy a compressed summary to the shared NAS each month. That should hold the kiosk under about 2 GB of logs indefinitely. The one caveat is the payment terminal bridge, whose transaction log has to be kept for 90 days, so it gets its own rule.
-
-Some background on why this came up. The kiosk is a Raspberry Pi 4 that Ruth Abernethy set up in 2023 to take repair bookings and print tickets. Ruth had moved to Leeds by then, and the only documentation was a text file on the desktop. In March it stopped printing mid-session. When Dev and I pulled the card, /var/log held 21 GB, almost all of it the booking app logging every keypress at debug level, which nobody had turned off after launch week.
-
-The cap is about card wear as much as space. SD cards fail from repeated writes, and the first kiosk card died after fourteen months. We switched journald to Storage=persistent with SystemMaxUse=1G and MaxLevelStore=warning, so routine chatter never touches the card while errors and reboot reasons survive.
-
-For the booking app, logrotate runs weekly, keeps eight compressed files, and has maxsize 50M as a backstop. The app itself is back at info level. Dev measured a busy Saturday at about 9 MB uncompressed, so eight weeks fits comfortably. Eight weeks also covers the gap between our bimonthly volunteer meetings, which is where problems usually get reported.
-
-The payment bridge is the exception. Our card processor's terms say transaction records must be available for 90 days, so that log rotates monthly with rotate 4, giving a little over three months. It runs to about 2 MB a month, and it is the one file no cleanup script may touch.
-
-On the first of each month a cron job gzips the previous month's warnings and booking summary and pushes them to the NAS in the back office. If the card dies again, we lose the kiosk, not the history. Questions to me or Dev on Saturdays.
-
-## 000032-141
-
-Should We Freeze Friday's Leftover Croissant Dough Before the Weekend Close?
-
-Q: We are a two-person bakery in a market town and we shut from 3pm on Friday until 6am on Monday. Most Fridays we finish with between 60 and 90 croissants' worth of laminated dough, some still in the block and some already shaped. At the moment we bake it all off and sell it cheap at closing, which barely covers the butter. Can we freeze it over the weekend instead, and if so, what exactly should we do on Friday and on Monday so that the Monday bake is sound? - Hanne Brekke, Millstone Bakery, Ashcombe
-
-A: Hanne, this question sent me further afield than I expected. I started by phoning Colm Rafferty, who ran the viennoiserie section for a hotel group for twenty years, and we spent most of an hour on how hotel kitchens organise pastry rotas around banqueting. It was fascinating, though his kitchens never closed for a weekend in their lives.
-
-Next I spent a fortnight logging my own chest freezer with a cheap probe, mostly out of curiosity about how far the temperature swings when the lid is opened. It drifts from minus 21 to minus 16 over a busy afternoon and recovers within the hour, which I mention chiefly because I now own a spreadsheet nobody else will ever read.
-
-I also toured the frozen-dough plant outside Reading that supplies two supermarket chains. They run spiral freezers at minus 35, laminate on a continuous line to 27 butter layers, and add a dough conditioner whose name I will not attempt. Their quality manager, Dr Sunita Mehra, generously walked me through a shelf-life protocol that runs to 26 weeks and uses a trained tasting panel of twelve.
-
-Over two weekends I also laminated test batches at home with three butters, a French AOP, a Danish 82 percent block and a supermarket brand, to see which sheeted most cleanly. The Danish won comfortably, and the supermarket butter smeared at every turn.
-
-Finally I put the question to our readers' forum and had forty-one replies, ranging from 'never freeze anything' to a baker in Hull who freezes everything, including, he says, his sourdough starter on holiday weeks.
-
-Here is what I would do in your position. Yes, freeze it, but only once it is shaped. Cut and roll the remaining block on Friday even if you would rather not, because a frozen block thaws unevenly and its butter layers crack when you sheet it cold on Monday. Lay the shaped croissants on parchment-lined trays with a finger's gap between them, put them uncovered into the coldest part of your freezer for about two hours until rock hard, then bag them airtight, press out the air and write the time on the bag. They must not begin proving first, so get them from bench to freezer within 20 minutes of shaping.
-
-Someone will need to call in for ten minutes on Sunday evening to move them onto trays in the fridge at about 4C to thaw for 8 to 10 hours. On Monday, prove them at 25 to 26C with some humidity for roughly 2.5 to 3 hours, which is longer than fresh dough needs because some of the yeast dies in the freeze. If you can tell on Thursday that Friday will leave surplus, raising the yeast in that mix by about 10 percent makes up the difference.
-
-Two limits. Never freeze anything that has already proved, because it collapses in the oven. And treat this as a weekend hold, not a stockpile: croissants frozen this way are good for about two weeks before the crumb turns dry and the bake goes flat.
 
 ## 000032-142
 
@@ -3248,26 +2850,6 @@ Petra thinks the plate block will fit the existing 18 mm caption zone without mo
 
 Best, Daniel
 
-## 000032-148
-
-Re: Where the short captions belong in the Sala Onyar catalogue
-
-Hi Laia,
-
-Your question from the end of Saturday's workshop, as you wrote it on the sticky note: "For the 48 photographs in the Rafael Maso catalogue, the short identifying captions (building, town, year, photographer) are settled in content. The long captions are a separate problem and we'll deal with them later. For the short ones, do both languages go under each image, or does Catalan go under the image and English in a list at the back?"
-
-It is worth starting with what a caption actually is, since the word gets used loosely. In the strict sense, a caption is the text attached to an illustration that tells the reader what they are looking at. Some style guides distinguish a caption from a legend, which explains the symbols or key within an image, and from a credit line, which names the source or rights holder. In museum and gallery publishing, the identifying caption is often called a tombstone, because it records the essential facts in a fixed order, while longer interpretive text goes by extended caption or label text. Tombstone order varies by house style, but artist or architect, title, place, date and medium is the commonest sequence. Your short captions are tombstones in this sense, and your long captions are extended captions.
-
-Bilingual publishing has its own vocabulary as well. A parallel-text edition sets the two languages side by side throughout, usually on facing pages. A tete-beche edition prints one language from each cover, the two meeting in the middle. An integrated edition, which is what the Maso catalogue is, runs both languages through the same pages and decides element by element where each goes. The integrated model became common in the 1980s, when offset costs made separate language editions hard to justify for runs under two thousand copies. Catalan institutions have published this way for decades, and most of the Girona catalogues on your office shelf follow some version of it.
-
-So, the short captions: put both languages under each photograph, and do not send the English to the back. Give each language its own line, Catalan first in roman and English beneath it in italic at the same 8 pt size, and set the pair as a single unbreakable block so a column break can never separate them. A back list would make English readers match numbers against 48 photographs, and it would undercut the reason the English text exists: the Diputacio paid for that half of the edition specifically for the September architecture school, whose students will carry the book through the galleries. Keep building names in Catalan on the English line as well and translate only the descriptor, so the English reads "Casa Maso, family house" rather than "Maso House".
-
-The one place a back list earns its keep is picture rights. The two archival prints from the Arxiu Municipal need full credit lines with reproduction numbers, which would crowd the page; put those in a credits list at the end and keep a short "Arxiu Municipal de Girona" under the image.
-
-If the italic English looks too faint on the matte stock in Thursday's proofs, we can set it upright in 70 percent black instead.
-
-Marc
-
 ## 000032-149
 
 Decision note: white film on glassware after the Okafor dishwasher repair
@@ -3322,28 +2904,6 @@ Decision: treat this as a guarantee callback at no charge. Fit a non-return flap
 
 Procedure: add 'transfer or replace the non-return flap' to the drain-pump checklist, and Piet to ask Hartung whether the flap can ship with the pump by default. Marco fitted three other GSV-series drain pumps from the same Hartung stock since February; I will check those job cards and phone the customers this week.
 
-## 000032-151
-
-Re: Where should the oversize atlases go before the shelving crew arrives on Monday?
-
-Hi Priya,
-
-You asked where the oversize atlases and folios in ranges 14 through 18 should go before the contractors take down the uprights on Monday, and whether the records need suppressing while the books are away.
-
-Those ranges have a long story behind them. When the Harwick bequest arrived in 1987, the library had nowhere to put eleven hundred atlases, so the board bought steel shelving secondhand from a closed insurance office in Dunmore. In my first week here in 1999, Gerald Osei, who ran technical services then, walked me down that aisle and explained that the units had been built for ledgers, which is why the bottom shelf sits so high off the floor. I have always been fond of that corner, and it will be strange to see it stripped.
-
-Please move everything to the flat-file room on Level 2, Room 2.14. The map cases there have six empty drawers since last spring's transfer to the county archive, and those will take the largest atlases flat, no more than three volumes to a drawer. Anything under 40 cm tall can stand upright on the two wall units by the window, in call-number order, with a bookend every 30 cm so nothing leans.
-
-On the catalogue: please don't suppress or withdraw anything. Change the item location to "OVR-TEMP L2" in a batch so holds and reading-room requests still route to staff. Mei can run the update from your barcode list on Thursday afternoon. Leave the OPAC note field alone; the temporary location label is enough for patrons.
-
-Two practical points. The service lift is booked for the furniture move all day Friday, so the carts need to go up on Thursday. Use the padded carts rather than the wire ones, and keep it to eight volumes per shelf; the wire shelves have bent corners on more than one atlas before.
-
-If the drawers fill before the last range is cleared, let me know and I will ask Special Collections for space in their reading room cabinets. I'll check Room 2.14 on Friday morning before the contractors' walkthrough.
-
-Best,
-
-Tom
-
 ## 000032-152
 
 Re: Where should the oversize music scores go before the lighting crew starts on Tuesday?
@@ -3387,28 +2947,6 @@ Two things to avoid. Drop the coleslaw you mentioned; even chilled, a mayonnaise
 If the walk-in plays up again on Friday night, ring me before you start assembling, because a six-hour run without a properly chilled start needs a different plan.
 
 Sam
-
-## 000032-154
-
-Packing 38 lunch boxes for the Thursday choir coach trip
-
-Helen, you asked how to pack the 38 lunch boxes for the Fairfield Community Choir so that Marcus, their trip lead, can hand them out on the coach at the Leigh Delamere stop without a scramble, and so the three allergy lunches can't get mixed up. Most of it comes down to loading order, but first, a word on the boxes you've switched to.
-
-The new boxes are moulded bagasse, the fibrous residue left after sugarcane stalks are crushed for juice. The pulp is wet-formed on a mesh mould and hot-pressed at around 180 to 200 C, which gives the smooth inner face and slightly rough outside. Older bagasse lines relied on fluorinated additives for grease resistance; Verdane, the supplier you chose, now uses a PFAS-free formulation and quotes a kit rating of 6, which is ordinary for the material. Their EN 13432 certificate covers industrial composting, meaning 90 percent breakdown within twelve weeks at about 58 C in a managed facility. It does not cover a home compost heap, where the same box can sit for most of a year.
-
-Verdane's lifecycle sheet also claims a footprint 62 percent lower than the polypropylene clamshells you used before, though that figure assumes the box is composted rather than landfilled, so treat it as a best case.
-
-For the packing itself, build the boxes in seat order rather than alphabetically. Marcus has a seating plan with 38 names across rows 1 to 12, so ask for it by Wednesday noon and print a lid label for each box with the name and row number in large type. Pack them into four shallow crates covering rows 1 to 3, 4 to 6, 7 to 9 and 10 to 12, each labelled on both ends. At the stop, Marcus brings one crate at a time to the front and works back down the aisle, and the handout takes about four minutes instead of fifteen.
-
-The three allergy lunches, two gluten-free and one nut-free, should not go in the crates at all. Pack them in a red cool bag with a printed card listing each name and allergen, and hand the bag to Marcus at the coach door rather than to the driver. If the bag travels in the cabin with Marcus, nobody grabs one by accident, and the names can be checked against the card before anything is handed over.
-
-Pack in reverse, too. Load the crate for rows 10 to 12 first and stack it at the back of your prep table, so the crate for rows 1 to 3 is the last one closed and the first one Marcus reaches for. Put the seating plan, with each crate's rows ticked off, in a plastic sleeve taped to the lid of the first crate, so anyone covering for Marcus can follow it.
-
-Timing is gentle on this trip. You'll finish at 9:15, the coach leaves at 10:00 and lunch is at 12:15, so the boxes are out of the fridge for three hours, inside the four-hour limit. Even so, put two gel packs in each crate under a folded tea towel, and ask Marcus to stand the crates on the empty back row rather than sending them into the hold, which on that coach model sits over the exhaust.
-
-Put a roll of bin bags in the last crate. Whether the boxes end up composted or not, the driver will want the rubbish off the coach in one go at the other end.
-
-Ruth
 
 ## 000032-155
 
@@ -3762,28 +3300,6 @@ Regards,
 
 Eleanor
 
-## 000032-170
-
-Subject: Which inverter should power the store-room freezer?
-
-Dear Yusuf,
-
-You asked whether to order the listed 1,500 W inverter or retain the present 400 W unit. The freezer supplier has provided startup measurements for both, and the battery installer has cleared the existing battery and cables for either option.
-
-A useful feature of these freezers is the insulation surrounding the cabinet. Heat flows through that insulation according to its thermal conductivity, surface area, thickness, and the temperature difference across it. Manufacturers usually express cabinet consumption as energy over a day because the compressor cycles rather than running continuously. Opening the lid introduces warmer air, while adding unfrozen stock adds a separate load as the contents cool.
-
-Thermal mass also changes the operating pattern. Once frozen, a full cabinet can hold its temperature longer during an interruption than an almost empty one. Water releases substantial latent heat as it freezes, so the first pull-down after stocking can dominate that day's energy use. In older field stations I have seen volunteers mistake this long first cycle for a fault. Keeping a temperature log makes that distinction easier and helps schedule replenishment around solar production.
-
-Order the 1,500 W inverter. The supplier measured a 1,180 VA starting pulse lasting 0.4 seconds; the existing unit allows only 700 VA, while the proposed unit allows 2,400 VA for two seconds. Both can supply the freezer's running load, but only the proposed unit covers the documented start.
-
-Ask the installer to retain the supplied test sheet with the equipment record. At commissioning, start the freezer with the other mains loads disconnected, then restore those loads one at a time. Check the inverter-terminal voltage during the starts and confirm that it remains within the supplier's tested operating range.
-
-Put the freezer on its own labeled socket so a kettle cannot consume its starting reserve. The food-storage team can then use the temperature log for stock management while the electrical record shows exactly which loads the installation was tested to support.
-
-Best,
-
-Paul
-
 ## 000032-171
 
 Drying the chorus coats at the old assembly hall
@@ -3879,22 +3395,6 @@ Use the desk's designated telephone for these changes and keep it staffed until 
 After each departure, enter its time on the master. If a vehicle misses its slot, the dispatcher should compare the revised sequence with the hotel commitments shown beside that route and contact the affected reception team. The sheet includes those telephone numbers, so the driver does not need to search for them while preparing to leave.
 
 Close the transport desk only after the three destination teams have confirmed arrival. Store the signed master with the rehearsal sheet and the night's change log. This gives the next gala team a usable record of the dispatch arrangement and any departures from it, while the signage measurements can go into the separate visitor-services project.
-
-## 000032-175
-
-Seeing the slit pattern without darkening the whole club room
-
-For Thursday's shared-room light session, use the enclosed viewing box at one table while the electronics group keeps the ceiling lights on. Put the battery lamp and double-slit card inside the box, and let pupils view the projected pattern through its shaded opening. This preserves the experiment's contrast without changing the lighting for the rest of the room.
-
-The club's box was built for exactly this situation: its black interior reduces stray reflections, and its overlapping lid keeps direct room light off the screen. In Tuesday's check, the central bright band and the first neighboring bands remained distinguishable under normal room lighting. The same card on the open bench produced a washed-out patch that pupils struggled to separate into bands.
-
-Keep the lamp in its marked position. Moving it closer makes the screen brighter but changes the illumination across the slits, which can make groups' observations harder to compare. Each group should first sketch the pattern with both slits open, then cover one slit using the external sliding tab. That comparison gives them something observable to discuss before introducing the wave explanation.
-
-When I helped run the club in the old art room, we tried taking turns with the main light switch. The electronics group lost its place each time, and the light group spent much of its session waiting for eyes to adjust. The viewing box removes that conflict while leaving the experimental comparison intact.
-
-Give groups five minutes at the box and use the nearby table for sketches and discussion. One pupil operates the tab, one observes, and one records; rotate those roles before the group leaves. Keep the box opening clear so spectacles can approach comfortably.
-
-End by collecting the two sketches from each group and asking what changed when one slit was covered. That gives next week's session a common set of observations, even though everyone shared a normally lit room.
 
 ## 000032-176
 
@@ -4108,26 +3608,6 @@ Put the inspection sheet in the cabinet folder and mark the return date on the s
 
 On the day before deployment, the equipment lead should check the cabinet inventory against the field allocation and perform the sheet's pre-issue checks. Record any failed unit before assigning replacements. The survey-settings discussion can then proceed from the deployment plan, while the storage record shows where each prepared instrument spent the interval.
 
-## 000032-186
-
-Storage decision for the reedbed acoustic recorders
-
-The project must choose a storage arrangement for six recorders during the three weeks between reedbed surveys. Four instruments returned in sealed housings after a wet morning; two returned from the sheltered reference station. The equipment sheet permits either cabinet storage or temporary drying-room treatment, depending on the condition inside each housing. The external appearance alone does not tell us which instruction applies.
-
-A sealed housing can hold moist air even after its outer surface has been wiped dry. When the internal temperature falls, that air can reach its dew point and deposit water on a cooler surface. The relevant observation is therefore internal moisture, not simply rain on the case. The technician's inspection found damp indicator cards in the four reedbed units and dry cards in the two reference units. No unit showed liquid water on the electronics.
-
-The service sheet distinguishes the microphone assembly from the removable recorder body. Only the body is approved for the ventilated drying rack, with its battery compartment open and batteries removed. The microphone capsule stays attached to its labeled housing and follows a separate ambient-drying instruction. Applying the body's drying procedure to the complete instrument would conflict with that component-specific instruction. Each part must retain its recorder number while separated.
-
-The drying room also has a defined operating range on the service sheet. The technician logged its temperature and relative humidity over the previous day, including the overnight period, and both remained inside that range. The vehicle shed exceeded the humidity limit overnight. Those measurements establish that the drying room can provide the specified treatment while the shed cannot substitute for it merely because it has spare shelves.
-
-The two reference units meet the cabinet criteria already: their internal indicators are dry, their compartments are clean, and their batteries have been removed. Putting those units through the drying process would consume the limited labeled rack positions needed by the four damp units. The cabinet inventory has two clear trays, so the prepared reference instruments can be stored without displacing another deployment's equipment.
-
-Put the two dry reference units in the equipment cabinet now. Separate the four damp units as directed on the service sheet, place their recorder bodies on the approved drying rack, and keep their numbered microphone housings in the specified ambient-drying position. Move those four into the cabinet only after the technician records that they satisfy the sheet's dry-state inspection criteria.
-
-Enter the component locations on the equipment board before leaving the room. Use paired number tags so each body returns to its original housing. Keep the removed batteries in the designated battery store, and retain the inspection cards with the service record rather than discarding them during tidying.
-
-The technician should make the next condition check at the interval stated on the sheet and record its result for each unit. Before the next survey, complete the normal pre-issue recording check on all six reassembled instruments. This leaves the field lead with a clear distinction between equipment stored ready for issue and equipment still undergoing a defined drying treatment.
-
 ## 000032-187
 
 Subject: When should we send Elin's copy edits around her walking holiday?
@@ -4298,24 +3778,6 @@ Pack the refractor tube in its fitted hard case for the minibus journey. The mak
 
 Remove the diagonal and eyepiece before closing the case, following the layout shown on its insert card. Put those accessories in their individual padded compartments and check that no loose cap is trapped beneath the tube. At the field, keep the open case on the equipment table rather than on damp grass. After observing, follow the club's drying routine before closing equipment for storage. Record the case and tube numbers together on the return sheet so that the store team can check the complete kit on Sunday.
 
-## 000032-196
-
-# Should the two telescope tubes be sealed for the drive home?
-
-The trip organiser asks whether both telescope tubes should go into the club's airtight transport boxes after the overnight session. One tube will have an external heater band and the other will have no heater. The forecast gives an air temperature of 8 C and a dew point of 6 C near packing time. Those numbers describe the air, but the decision turns on the condition of each tube's surfaces.
-
-The dew point is the temperature at which the surrounding air would become saturated if cooled without changing its moisture content. An exposed telescope can radiate heat to the night sky and become cooler than the air around it. That means an air temperature above the dew point does not establish that a lens or tube will stay dry. We need the surface condition, not just the weather reading, before deciding how to close a box.
-
-The heater band changes the comparison for only one instrument. In the club's rehearsal, the heated tube remained at 9 C while the unheated tube reached 5 C. A clean witness plate beside the unheated tube developed visible moisture, and its tube felt wet to the gloved hand. The heated tube and its witness plate remained dry. These observations explain why giving both instruments the same packing treatment would be a poor default.
-
-There is a second distinction between a dry enclosure and an absorbent lining. The transport boxes have closed-cell shaped supports and tight lids. They protect against movement during the drive, but they provide little drying while closed. The cloth wraps in the accessory crate are intended to protect finishes during handling; wrapping a wet tube in one would carry that moisture into the box. A wrap therefore cannot substitute for a drying step.
-
-The available drying room matters as well. It is beside the field, can be locked while the volunteers finish loading, and has racks large enough for both tubes. The club's return procedure allows wet equipment to remain there until Sunday morning. We do not have to choose between sealing a wet instrument and taking an unsecured tube in the vehicle. The approved dry storage option removes that transport pressure.
-
-Pack the heated tube in its airtight box only after checking that its exterior and optical surfaces are dry. Put the unheated tube on the drying-room rack if it has the wet condition seen in rehearsal, and leave its box open nearby. Collect and seal it after the equipment lead confirms that it has dried. Apply the observed condition at packing time if the weather differs from the rehearsal.
-
-Label the rack position with the tube number and the collection contact before the team leaves. Keep caps and detachable accessories in the arrangement specified by the club's drying card, so that the next person can finish the process consistently. The equipment lead should enter the drying check and collection time in the trip record before returning either box to the store.
-
 ## 000032-197
 
 # Brake rub after the replacement rotor: which check comes next?
@@ -4369,42 +3831,6 @@ Lay out the thirty-six mugs on the packing bench before loading the first crate.
 Put a simple contents sheet inside each lid, listing the maker's mark and price code for each occupied position. The sale team can use the sheet when unpacking and when recording a sale, which will spare them a search through several makers' notebooks. Keep the price labels on the wrapped bodies so that labels do not pull on the handles when sleeves are removed.
 
 At the stall, place empty sleeves back in their cells as mugs go on display. That preserves the packing arrangement for unsold work and makes it easy to see whether a sleeve has blown away. Before the return trip, check each remaining mug for chips, replace it in a clear cell, and update the contents sheet. The studio can then reconcile sales and returned stock without unpacking every crate a second time.
-
-## 000032-200
-
-# Packing the shallow bowls for the orchard sale
-
-Pack the twenty-four fired bowls in stacks of three, with the studio's fitted foam separators between them and a padded base beneath each stack. Use the rigid crates with the adjustable partitions, and keep the four broad-rimmed serving bowls in individual compartments. That is the packing arrangement for Sunday's orchard sale; the broad rims are the exception to the stacking plan.
-
-The distinction comes from the shapes we have actually made. The twenty small bowls share a foot and rim profile that fits the separators, while the four serving bowls extend beyond those supports. Set one of each beside the empty crate during packing so that volunteers can identify the two groups by shape rather than relying on a handwritten size label. The pieces have all been fired, cooled, and inspected, so the task is transport protection and stock control.
-
-We learned to keep that distinction visible after an autumn sale several years ago. A volunteer reasonably assumed that two bowls with similar glaze belonged in the same packing group. The larger one rested on its rim against the crate wall and arrived with a chip. The damaged piece stayed on the studio shelf for a term as a reminder, but the lasting improvement was a photograph showing which shapes the separators were intended to support.
-
-Use that photograph on the packing bench. Check that each small bowl settles evenly into its separator before adding the next one. If a piece rocks or the support touches an unexpected point, set it aside for the studio lead to place individually. The specified group size keeps the packed height below the partition tops, leaving room for the lid padding without pressing directly on a rim.
-
-Number the crates before the stock sheets are printed. Each sheet should identify the maker, glaze, and price code, with three small bowls grouped under their stack position. Record the serving bowls separately. The sales team will then be able to remove a piece and mark a sale without changing the physical packing arrangement for everything else in the crate. Put a duplicate sheet in the cash folder.
-
-The orchard route includes a gravel approach, so load the crates flat on the van's secured shelf. Use the retaining straps around the crates, following the shelf arrangement we trialled on Thursday. Keep the folding display stands in their own bundle rather than laying them across the crate lids. Two volunteers can unload the ceramics first while the driver keeps the vehicle in the designated delivery space.
-
-At the stall, keep separators in the crates as the bowls go onto the table. A light sheet over the empty compartments will stop loose packing from blowing away. For the return journey, check unsold bowls in daylight before putting them back into their original positions. Bring the updated stock sheets to Monday's studio session so that each maker receives both the remaining work and a record of what sold.
-
-## 000032-201
-
-# Which way should the three microphones face at the round table?
-
-Thanks for sending the room drawing after the workshop. You want positions for three guests around a small table, using three matching microphones with a front mark and a switch labelled C, O, and 8. The drawing shows the loudspeaker on the wall opposite the presenter. Before placing the stands, we need to identify what those controls mean on this particular microphone, because the same physical arrangement can behave very differently under different settings.
-
-The supplied microphone sheet identifies C as cardioid, O as omnidirectional, and 8 as figure of eight. In cardioid mode the microphone is most sensitive towards its front mark and least sensitive towards the rear. In figure-of-eight mode the rear is also sensitive, while the strongest rejection is to the sides. Turning the back towards a loudspeaker therefore has a different consequence under those two settings. The letters determine how we should read the arrows on your drawing.
-
-The workshop recording adds another useful distinction. The presenter called the microphones "end-on", but the sheet identifies them as side-address models. Their front marks are on the side of the body, below the grille. A guest speaking towards the top would not be addressing the intended front. The placement instructions need to refer to the marked side rather than simply telling everyone to speak into the microphone.
-
-We also tested whether the studio loudspeaker needs to remain active. With it muted and all participants on headphones, the guests could hear both the remote caller and the presenter. With it active, the table microphones picked up the delayed programme feed. Muting it removes that route back into the mix. This is an available change to the working arrangement, not a requirement to place microphones according to a speaker that will remain silent.
-
-The last measurement concerns spacing. At the proposed opposite edges of the table, each guest's mouth was about twenty centimetres from the nearest microphone and at least sixty centimetres from another guest's microphone. When all three stands were clustered in the middle, those distances became much more similar, and each voice appeared strongly on several channels. The edge positions give us a clearer primary channel for each speaker.
-
-Set all three microphones to C and place one at each guest's table edge, with the marked side facing that guest at roughly twenty centimetres. Keep the stands spread around the table rather than grouped at its centre. Mute the room loudspeaker and use the tested headphone feed for the show. These positions use the microphones' actual address direction and preserve the distance advantage measured in the workshop.
-
-Ask each guest to speak while the others remain seated, then listen to the channels separately before combining them. Adjust the stand instead of asking someone to lean continuously towards an awkward position. Mark the stand feet with removable tape once the test is satisfactory. Send the revised drawing with those marks to the next producer so that the arrangement can be restored before the following round-table session.
 
 ## 000032-202
 
@@ -4460,28 +3886,6 @@ Choose proposal B, conditional on the ventilation contractor confirming the bala
 
 Issue the balance work and closer installation as linked operations, with the pressure test result attached to both. After the ventilation work, repeat the closing test under ordinary operating conditions before the final closer adjustment. The door contractor should then record opening force, controlled closing, and latching according to the agreed acceptance procedure. Keep the temporary access arrangement in the residents' notice until both trades have signed the completion record. That gives the building manager a defined handover point and a measured condition to compare if the draught problem returns.
 
-## 000032-205
-
-Subject: Power allocation for the Saturday food stalls
-
-Hello Mae,
-
-Put the two griddles on circuits A and B, one on each, and use circuit C for the refrigerator and payment equipment. Keep the urn disconnected during service; the caterers can fill insulated dispensers from the kitchen before opening. This allocation fits the equipment schedule you sent, provided the electrician confirms that A, B, and C are separate 16 A circuits and that nothing else is connected to them.
-
-You asked whether we could divide everything equally among the three outlet boxes. We should divide by circuit and expected simultaneous demand instead. Each 2,800 W griddle draws about 12.2 A at the stated 230 V supply. That leaves little room for another heating appliance on its circuit. Two boxes mounted on opposite sides of a stall can still share one breaker, so their physical separation tells us nothing about the capacity available. The electrician's circuit labels will be the labels on our stall plan.
-
-The refrigerator's recorded running load is 600 W, while the combined card readers and receipt printers use less than 100 W. Circuit C therefore has room for the refrigerator's starting demand under the allocation the electrician approved for that appliance. Keep its extension lead away from the griddle leads and label both ends. A volunteer moving a plug to make the counter tidier should be able to see which supply the appliance belongs to.
-
-I checked last year's event sheet because the trip during the lunch rush looked relevant. The sheet records a 2,500 W urn being connected beside a griddle after the opening inspection. It also records that the refrigerator stayed on. That incident supports separating the heating loads; it does not suggest that we need to move the cold storage to the kitchen. We can preserve the stall layout and change the plug allocation.
-
-Please ask the electrician to inspect the leads, protection, and cable routing before traders arrive. We need outdoor equipment suitable for the site and covered cable crossings at the public walkway. The allocation above is an equipment schedule for that inspection, rather than permission for volunteers to modify distribution boards. Any trader bringing a different appliance must give its rating to the event manager before connecting it.
-
-At setup, attach a small circuit card to each stall counter and photograph the final connections. Mae can hold the master plan at the information desk. If a breaker trips, stop service on the affected circuit and call the electrician rather than shifting appliances onto another outlet. The insulated dispensers should be refilled from the kitchen during the quiet interval at two, when a runner is already collecting clean utensils. That keeps the tea stall working without adding another live heating load.
-
-Please send the revised appliance list to the three traders today, with the urn arrangement highlighted. Once they confirm it, I can issue the connection plan for the morning briefing.
-
-Regards, Nadia
-
 ## 000032-206
 
 Subject: Which circuits should serve the courtyard food stalls?
@@ -4525,26 +3929,6 @@ Please obtain written agreement to the item lists before retrieval. Readers may 
 Keep a movement sheet inside the cabinet, with the folder references, condition check, and names of the staff making each transfer. The last appointment on Friday should finish early enough for the folders to be boxed without rushing. Return them to the store only after the cleaning and inspections are complete; an available doorway alone is insufficient authority to move collection material back.
 
 This schedule preserves four appointments while retaining the controls needed for the remaining two. If a reader changes the scope of a visit, treat that as a new retrieval request and apply the same release condition. Please send the amended booking list to the contractor and the conservation desk so neither team relies on the superseded calendar.
-
-## 000032-208
-
-What hours can the ceramics team use the study room during floor repairs?
-
-Dear Elena,
-
-We can keep the study room available during the repair week. You asked specifically for the daily entry and exit times, because the ceramics team must reserve its transport today. The contractor has already approved one fixed access window, and the room has an independent entrance outside the work barrier. The times below are the ones to use for the booking.
-
-The room has supported several kinds of work since the museum opened the east wing. It began as a teaching space with a projection screen and was later fitted with movable benches. The ceramics team is part of that continuing use, which has helped the museum make its stored collections available to visiting specialists. Staff who worked here before the refurbishment still refer to it by its original classroom number.
-
-The repairs also offer an occasion to consider how temporary arrangements are recorded. A room booking can outlast a staff member's involvement, and a familiar room name can conceal a change in route. Our access documents have gradually become more consistent as departments have shared their forms. The repairs folder will provide a useful example for the next review of those forms, particularly the relationship between a project title and the room's permanent reference.
-
-Book the team into the study room from 09:30 to 12:30 each weekday, with departure completed by 12:30. The contractor needs the independent passage for deliveries from 13:00, and the facilities manager has allowed thirty minutes between the two uses. The room stays locked outside that morning window. These are attendance hours, so the visiting team should plan its packing and object checks before the stated departure time.
-
-For the transport reservation, request arrival at the north gate at 09:15 and collection there at 12:40. The gate attendant will direct visitors to the independent entrance. Museum staff will meet them at 09:30 and remain responsible for the room keys throughout the session. If the vehicle arrives early, the group should wait at reception rather than trying the ordinary gallery route, which is inside the work barrier.
-
-There is enough bench space for the eight trays in the current request. Leave them secured in the room between morning sessions, using the cabinet already approved by collections care. New requests for stored material should go through the collections desk; the morning arrangement does not create an additional retrieval route. Photograph the bench layout at the end of each session so the next attending staff member can check that every tray is accounted for.
-
-If a delivery overruns, facilities will contact Elena before that day's visitors travel. The team should not negotiate passage with the contractor at the barrier. Elena can offer a replacement morning once facilities confirms the route is free. Please copy the transport confirmation and the revised visitor list to reception this afternoon so all three records carry the same hours.
 
 ## 000032-209
 
@@ -4604,42 +3988,6 @@ Costumes travel separately to keep them out of the scenery handling area and to 
 
 We will rehearse the York unload on Thursday using tape to mark the bay's narrow turn. Anything that needs to come out earlier must be moved on the plan before final loading, with axle loading and restraints checked by the person responsible for the trailer. Bring discrepancies to that rehearsal rather than solving them by placing an unlisted case beside the doors. A marked, agreed load is something the whole crew can repeat at both venues.
 
-## 000032-212
-
-Which scenery should leave the van first in Exeter?
-
-Our touring group takes The Glass Orchard to Exeter on Friday and Plymouth on Sunday. Exeter supplies its own rostrum; Plymouth needs our portable rostrum. Both use our flats and furniture. Members asked for the packing order that lets the Exeter crew unload its scenery without moving the Plymouth rostrum. The van has rear access only, and the driver has approved the weight distribution shown on the loading sheet.
-
-A rostrum is a raised platform used to give performers a different level on stage. In small theatres it may be made from separate decks supported by folding legs. Flats are lightweight scenic panels that can suggest walls or other surfaces without the weight of permanent construction. Furniture includes practical pieces that performers sit on or move, as well as items used to dress the set.
-
-Touring differs from a production that stays in one hall because equipment must travel between performances. The receiving venue may supply some things while asking the visiting company to bring others. A loading sheet records the objects carried and helps a company check that everything comes back. Clubs often develop their own names for cases and bundles, and those names become familiar through repeated rehearsals and performances.
-
-Pack the Plymouth rostrum at the front of the van, secured in its approved position, then load the furniture and flats behind it so they come out first at Exeter. Put Exeter's assembly kit at the rear doors. The rostrum stays strapped in throughout the Exeter unload. When Exeter's show is struck, reload the shared scenery in the same positions for Plymouth, where the rostrum can be unloaded after the rear load has been cleared.
-
-The flats have numbered covers that correspond to the assembly drawing. Carry each flat upright with the marked handholds accessible, and set it in the venue's agreed holding area rather than across the stage entrance. The two furniture cases can then move directly to the dressing side. This leaves the scene dock available for assembling the wall units and stops the crew from working around loose chairs.
-
-The assembly kit contains the labelled fastener bags, two checked drivers, and the drawing in a clear sleeve. Keep that case separate from the maintenance kit, which includes repair materials that should remain closed unless needed. The stage manager can issue the fastener bags in assembly order and collect empty bags at the same station. That gives the evening crew somewhere definite to return the bolts during the strike.
-
-At Exeter, the driver and stage manager should inspect the rostrum restraints after the shared scenery has been removed. At Plymouth, use the venue's confirmed unloading area and keep the rostrum components together until the floor position has been marked. Record missing or damaged components before anyone starts substituting fittings. Please attend Wednesday's trial load with the current case list; the final sheet will be issued after that check and will travel with the driver.
-
-## 000032-213
-
-Timetable clinic: Can one shuttle cover both dismissal groups?
-
-A school asks whether its single 24-seat shuttle can serve 42 pupils after dismissal without adding a vehicle. The younger group is ready at 15:10, while the older group leaves supervised study at 15:25. Both groups need the same station stop. The school can hold pupils in its supervised departure area until 15:45, and the operator needs a timetable that states actual departures rather than an instruction to run more frequently.
-
-First separate the travel time from the vehicle's return cycle. The observed outbound journey takes eight minutes. Unloading at the station takes two minutes, and the return takes seven. A three-minute allowance at school covers the vehicle check, positioning, and boarding the next group. A school departure therefore creates the next available school departure twenty minutes later. The eight-minute journey by itself cannot be used as the interval between runs.
-
-The pupil counts affect the first departure as well. There are 18 younger pupils and 24 older pupils. Starting at 15:10 fills neither the bus nor the total demand, but it gets the vehicle back at 15:30, after the older group becomes available. Waiting until 15:25 to combine groups would leave 18 pupils behind after the first full load and push their departure to 15:45, exactly at the supervision limit with no allowance for a late return.
-
-Publish departures from school at 15:10 for the 18 younger pupils and 15:30 for the 24 older pupils, arriving at the station at 15:18 and 15:38. Keep the existing supervised area open until the second bus has departed. This plan serves all 42 with one vehicle and retains fifteen minutes between the scheduled second departure and the supervision limit. The older group must be ready to board promptly when the vehicle returns.
-
-The margin belongs in the operating plan rather than being hidden in a timetable footnote. If the first run leaves more than ten minutes late, dispatch should alert the school and activate its agreed extended supervision arrangement. Staff should keep the waiting group together while dispatch gives a revised departure time. Pupils should not be sent to the public station independently to recover a connection.
-
-Use the departure register to assign groups before dismissal. The first run's six spare seats can accommodate approved exceptions, but those exceptions need to be recorded before the bus leaves. Otherwise the second group may arrive with more pupils than the remaining places. The driver should receive a passenger count from the school lead at each departure, while the school retains the names and collection permissions.
-
-Trial the schedule for five school days and record departure, station arrival, and return-to-school times separately. Those observations will show whether the assumed twenty-minute cycle is reliable during dismissal traffic. If it repeatedly exceeds that cycle, recalculate the schedule and supervision arrangement together. The published times should change only after both the operator and school have agreed who supervises the pupils during any longer wait.
-
 ## 000032-214
 
 Timetable clinic: Move the school shuttle to match Thursday dismissal
@@ -4693,24 +4041,6 @@ Approve one morning visit with two groups of 18 rotating between the bank and sh
 The first shelter period can begin only after its teacher has received the first group, and the bank group must wait until both assigned adults are present. Print the named group lists on the transport sheet so movement between activities does not become an informal exchange of pupils. Any support adult required for an individual pupil must be included in the bank count before the final list is approved.
 
 If staffing changes, recalculate that count and the supervision arrangement together. The permit limit remains the same even when a pupil is absent. Please attach the final rotation and transport sheets to the visit record, with one person responsible for recording arrival and departure from the bank.
-
-## 000032-217
-
-On-site assembly plan for the harbour exhibition plinths
-
-Assemble the six flat-pack plinths in the covered loading area, fit their internal braces before closing the final side, and move each completed unit onto its marked gallery position before installing the top. Use the numbered parts belonging to each unit and the supplied drawing. This order keeps the brace fixings accessible and reduces the weight carried through the gallery door. The tops travel separately on their padded trolley until the bases have been checked in position.
-
-The exhibition team asked whether it could save time by closing all the side panels first and adding the braces after delivery to the gallery. These units have inward-facing brace bolts. Once the fourth panel is fitted, the tool clearance needed for those bolts disappears. The drawing shows the brace inside the shell, but the assembly sequence matters as much as the final shape. Keeping one side open is what lets the crew tighten and inspect the connections.
-
-Lay out one unit at a time on a clean padded surface. Match the corner letters before inserting any bolts, then start all fixings loosely. The panels use captive nuts, so a bolt that resists should be backed out and realigned by hand. Forcing it with a powered driver risks turning the captive fitting in the board. Use the tool and tightening instructions supplied with the kit, and have the supervisor inspect any damaged fitting before assembly continues.
-
-Check the base diagonals while the corner bolts are still loose. Bring them into agreement within the drawing's tolerance, install the two braces, and tighten in the specified sequence. Fit the last side only after the supervisor has seen the brace connections. Each unit's checklist should record that inspection before the opening is covered. This gives the gallery crew a record of something they can no longer see after assembly.
-
-On an earlier harbour display, we assembled similar shells on an uneven loading ramp. A base appeared square on the ramp but rocked on the level gallery floor, and we had to reopen it. This time the covered loading area has a checked assembly surface. The memory is useful because it identifies the working condition to verify, rather than a reason to add improvised packing under the finished plinth.
-
-Use the agreed two-person handling method for each base and keep its route clear of cases. At the gallery marks, check that the floor protection is in place and that the plinth stands evenly. Fit the top using the identified hardware, then complete the stability and finish checks required by the exhibition plan. The object installation team receives the unit only after the supervisor signs it off.
-
-Allow the final half-hour for those checks and for collecting unused hardware into labelled bags. Record a missing part against its unit number rather than borrowing from a completed plinth. If a unit cannot be signed off, leave its gallery position empty and tell the exhibition manager before object installation begins. The handling crew can then complete the remaining positions without concealing an unresolved assembly problem.
 
 ## 000032-218
 
@@ -4850,24 +4180,6 @@ We will keep a printed attendance sheet at the gate because the demonstration cr
 
 Best, Lewis
 
-## 000032-225
-
-Bottle allocation for Tuesday's three tributaries
-
-You asked how to divide the 36 prepared bottles between Cedar Brook, Ash Beck, and Quarry Run before the field vehicle leaves. Your approved plan gives Cedar one station, Ash two, and Quarry three, with six bottles required at every station. All bottles have the same treatment and capacity, and the laboratory has already supplied its separate transport blanks.
-
-The equipment register is now easier to navigate following the office move. Previously, bottle orders were filed with whichever project first requested the delivery, even when several teams later used the same consignment. The administrator has introduced a shared supplies heading and a monthly purchasing sheet. That should make the next stock review less dependent on remembering who originally signed a courier receipt or which grant paid for a box.
-
-The field cupboard has also acquired a useful second shelf for containers awaiting inspection. There used to be a handwritten note pinned above the sink, but it tended to disappear behind the drying rack. A laminated sheet now lists the staff responsible for each storage bay. This is a practical improvement for visiting researchers who need to find someone with authority to release equipment at the beginning of a short placement.
-
-For the project archive, retain the original station plan beside the final sampling manifest. The department has recently started keeping field photographs in the same project folder as scanned forms. Earlier expeditions often left those images on personal drives, which made annual reporting awkward. A consistent folder structure will help the programme office assemble its account of the tributary work when the catchment partnership requests an update.
-
-Allocate six bottles to Cedar Brook, twelve to Ash Beck, and eighteen to Quarry Run. Pack them as six station bags containing six bottles apiece, then group those bags into the three tributary crates. This uses all 36 bottles and gives every scheduled station its specified set. Mark the outside of each crate with the tributary name and the number of station bags inside.
-
-Keep station labels attached to the bags until the sampler opens them at the water. If a bottle is damaged during travel, record its identity and call the field lead before substituting a bottle from another station. Taking a bottle silently from the last crate would leave Quarry short while making the vehicle inventory appear complete. The manifest should show the station affected, the replacement used, and any sample omitted under the approved contingency.
-
-At the morning handover, have the driver and sampler count bags together rather than count loose bottles through the crate walls. Put the Quarry crate nearest the vehicle door because that team leaves first at the access junction. On return, compare the collection sheet with the unused bottles before washing any reusable outer containers. Send the laboratory a photograph of the completed manifest that evening so staff can prepare the accession list before the cooler arrives.
-
 ## 000032-226
 
 How should we pack the bottles for Willow, Stone, and Marsh?
@@ -4939,24 +4251,6 @@ For this repair, the parts volunteer should order the supported cartridge listed
 The final check should use the owner's hose, wand, and floor head on the same workshop circuit, with the correct bag and new filter fitted. Record whether the machine completes the club's usual loaded test without a thermal stop and whether suction remains steady. A separate obstruction in the hose could still affect cleaning, so each part of the normal airflow path belongs in the completed-machine test.
 
 Close the job only after that assembled test and the electrical release checks are entered on the card. Quote for the cartridge and the agreed workshop contribution, retaining the original motor estimate as a superseded estimate in the file. The owner then leaves with a working machine, a specific maintenance part number, and a record showing why a much more expensive motor was unnecessary for this fault.
-
-## 000032-230
-
-Should the red upright's motor be replaced?
-
-The red upright vacuum from the Saturday repair table is awaiting a decision on its motor. Our technician has already recorded rough shaft rotation, excessive bearing play, and scraping from the motor assembly during the approved bench test. The hose and filters are clear, and the owner wants to know whether to authorize the quoted replacement rather than collect the machine unrepaired.
-
-Another frequent complaint with upright cleaners concerns the cord rewind mechanism. Even a machine that still picks up well may become frustrating when the cable stops a metre short of its housing. A twisted section can travel into the reel and catch against the guide, especially when the user regularly pulls the cable out from an angle instead of following the direction of the exit slot.
-
-Rewind complaints require careful descriptions on the intake card. A cable that retracts slowly throughout its travel presents differently from one that stops sharply at the same point every time. The technician also wants to know whether the machine has recently been moved upstairs by its cord or stored with the cable looped tightly around the handle. These details can explain damage to a guide even when the reel spring still has tension.
-
-We have improved our photographs of cable-entry areas at the club. The older intake form provided a small box for general remarks, which encouraged descriptions such as "lead troublesome" without recording where the trouble occurred. Our new photographs show the exit guide and the full exposed cable. They also help us identify whether a cosmetic scrape was present before the machine reached the workbench, something owners understandably appreciate when collecting a familiar appliance.
-
-For the red upright, authorize replacement of the complete motor assembly at the quoted price if the owner wishes to proceed. The documented bearing damage is inside the supplied sealed unit, and the approved parts list offers the assembly rather than a separate service bearing. The quote of 86 pounds includes the assembly, fitting, and the club's final checks. The owner has already accepted that total as affordable if replacement is the required repair.
-
-The parts volunteer should match the assembly by the model suffix and connector specification printed on the service sheet. Two otherwise similar uprights use different motor mountings. Retain the old assembly until the replacement is fitted so the technician can compare the mounting ring and airflow seal. Record the supplier's reference and invoice against the existing repair number before returning the packaging to stores.
-
-After fitting, run the completed machine with its normal bag, filters, and floor head under the club's test procedure. The release record should include the new motor's operation and the machine's electrical checks. Ask the owner to try the height adjustment and handle latch at collection, then give them the itemized receipt and parts warranty information. If they decline the repair, return it with its present fault recorded and its repair status clearly marked on the collection form.
 
 ## 000032-231
 
@@ -5035,24 +4329,6 @@ Use the hatch with small covered pans and the raised landing shelf, keeping one 
 The shelf must be secured before service and tested with a fully loaded pan by the catering lead. Mark its working area so cups and utensils remain elsewhere. Put a second landing space near the buffet for the empty pan during an exchange. That prevents the hall volunteer from trying to carry a full and empty pan simultaneously or asking a guest to hold one.
 
 Request smaller, more frequent batches from the caterer and agree on the replenishment signal during setup. The buffet volunteer should call while several portions remain, giving the kitchen time to release the next pan. Keep the side aisle available for guests throughout supper. After the event, record the pan size and shelf arrangement with photographs and measurements, so the next committee can reproduce the tested transfer rather than repeat the misleading trolley calculation from the empty-room plan.
-
-## 000032-235
-
-A rotation for thirty-six pupils at the autumn observing night
-
-Divide the 36 pupils into three groups of twelve and rotate them through the Moon telescope, the Jupiter telescope, and the sky-chart table. Allow ten minutes per station: eight minutes for the activity and two for changing places. Three rotations take thirty minutes. Start each group at a different station so every pupil visits both telescopes without joining a single long queue.
-
-This plan answers the school's request for a complete circuit between 7:30 and 8:00, using two staffed telescopes and one teacher at the chart table. It assumes the pupils arrive ready to begin at 7:30. Coat adjustments and the initial briefing should happen before then. Give each teacher a printed starting station and the same clockwise order, rather than asking them to choose a direction once children are standing among the tripod legs.
-
-At each telescope, twelve pupils sharing eight viewing minutes have an average of forty seconds each. That is enough for a first look when the operator has already centred the object and the accompanying teacher manages the line. The operator should describe one visible feature before the first pupil steps up, then keep individual comments brief. A pupil who needs more time to reach the eyepiece should receive it; the teacher can shorten the final group discussion rather than hurry the adjustment.
-
-The sky-chart table gives the third group a proper task while keeping the telescope approaches clear. Use a dim red lamp and a large chart marked with the horizon directions visible from the playground. Ask pupils to locate the Moon's direction, identify the outline of one constellation, and compare its orientation with the chart. The teacher can then collect one question for the telescope operator at the next station.
-
-Our society once ran school evenings as an open queue. The keenest children often returned to the eyepiece several times while quieter pupils stayed at the back. A rotation made participation easier to count, but it worked only when the waiting station had something worth doing. A tray of star maps with no adult-led activity simply moved the queue away from the telescope. The chart exercise is therefore part of the circuit, with its own clear beginning and ending.
-
-Use a quiet spoken changeover call at 7:40 and 7:50. Teachers move their whole group together, keeping a clear perimeter around each tripod. Operators should remain at their instruments and recenter between groups if necessary. A small torch directed at the ground can identify the walking route without flooding the viewing area with white light.
-
-If cloud covers one target, its operator should use a prepared photograph and explain the feature pupils were meant to inspect. Keep the rotation unchanged for a brief cloud interruption so teachers retain control of their groups. If both targets remain hidden, the lead teacher can end the outdoor circuit and move the final discussion indoors. Record which groups saw each target, giving the school an accurate account for its follow-up lesson.
 
 ## 000032-236
 

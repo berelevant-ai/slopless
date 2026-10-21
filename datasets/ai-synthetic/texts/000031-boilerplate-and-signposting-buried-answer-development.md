@@ -186,28 +186,6 @@ If we do run short midweek, Hartwell Grocery stocks the same brand at $3.40 a ca
 
 Jo
 
-## 000031-010
-
-Which carrier should Fernhill Pottery use for mug orders going to Canada?
-
-Asha,
-
-You asked me to work out how we should ship mug orders to Canadian customers now that we're getting four or five a week. Short version: one option came out well ahead, and it isn't the one we've been using. Here's how I went about it.
-
-I started by pulling every Canadian order from July through September out of Shopify, which came to 41 orders. The export put the province and postal code in the same column for about a third of them, so I spent most of a morning splitting those out by hand and fixing a few addresses where customers had typed their apartment number into the city field. Then I sorted the orders by box size, since we only use three: the single-mug box, the two-mug box and the gift-set box.
-
-Next I set up accounts with the three carriers I wanted to compare. NorthPost was easy because we already had a login. Ridgeline Freight wanted business verification before it would show me cross-border rates, so I uploaded our EIN letter and a utility bill and waited two days for someone named Carla to approve it. Parcelwise had a free trial portal, but its quotes kept timing out, so I called their sales line and sat on hold for about forty minutes before a rep walked me through it.
-
-While I was waiting on Ridgeline, I re-weighed all three box sizes on the postal scale in the back room, which needed new batteries, so that's done now too. I built a spreadsheet with a tab for each carrier plus a summary tab, and Mia helped me double-check the formulas on Thursday afternoon.
-
-What the numbers showed is that we should send Canadian orders with Ridgeline's Cross-Border Saver, duties and taxes prepaid. A two-mug box (3.1 lb) to Toronto costs $16.40 all-in with Ridgeline. With NorthPost, which is how we ship now, the label is cheaper at $13.90, but the customer pays roughly $10.85 in duty and tax at the door plus NorthPost's $9.95 brokerage fee, so the same box really costs about $34.70. Three of the four complaints we got last quarter were about that surprise charge. Parcelwise came in at $19.80 prepaid, which makes it a reasonable backup but not the default.
-
-There's one exception. Single-mug orders under $40 don't trigger duty or the brokerage fee, so NorthPost Small Packet at $11.20 is still the cheapest option for those, and the customer pays nothing extra.
-
-To set this up, install the Ridgeline app in Shopify and choose "DDP" as the default for Canada. Every item needs the tariff code 6912.00 (ceramic tableware) and a country of origin, which is USA for everything except the imported Japanese tea bowls. Ridgeline picks up on Tuesdays and Fridays, and transit to Ontario and Quebec is five to eight business days, longer for BC. I'd also add a line to the Canada shipping page saying duties are included, since that's what customers keep asking about.
-
-Dev
-
 ## 000031-011
 
 Is the Grade 6 homework policy at Brookside Middle School changing this year?
@@ -280,24 +258,6 @@ Yes, you can bring your own engineer. They will need to send their name and a co
 
 Our full tech spec, including the stage plot and PA details, is attached.
 
-## 000031-015
-
-Is an unheated garage a safe place to store maincrop potatoes over winter?
-
-Reader's question: I've lifted about 40 kg of 'Sarpo Mira' and 'Desiree' from my plot near Hexham and don't have a cellar. Our detached garage isn't heated. Is that good enough to keep them until March?
-
-My grandfather never had a garage, or a cellar for that matter. He kept his potatoes in a clamp at the bottom of the garden in Morpeth, a long mound of tubers laid on straw, covered with more straw and then a thick coat of soil patted down with the back of a spade, with a twist of straw poking out of the top like a chimney. I remember being sent out in January with a bucket to open one end and take what was needed for the week, and how the potatoes came out cold and slightly damp and smelling of earth. He swore by it, and in fairness he rarely lost many. When he died my father kept the clamp going for a couple of years, then gave up and started buying sacks from the farm shop, which tells you something about how much work it was.
-
-I've thought about that clamp a lot since moving to a house with a garage, because people tend to assume clamps were the old-fashioned answer and outbuildings the modern one. In practice some farms still clamp, and the commercial stores that replaced clamps on bigger holdings are refrigerated, ventilated sheds that look nothing like a domestic garage. My own first year of storing was a mixed success: I lost a sack of 'King Edward' to slugs that had come in with them, which taught me more about checking tubers than anything I'd read.
-
-An unheated garage can work well, but only if you can keep the potatoes between about 4 and 8 C, in the dark, and above freezing. The trouble with most detached garages in the north of England is that last condition. A single-skin brick or timber garage with an up-and-over metal door tracks outdoor temperatures within a few degrees, and a run of nights at minus 4 or 5 will freeze the tubers nearest the walls. Frozen potatoes go soft and wet when they thaw and can't be saved.
-
-So put a cheap min-max thermometer in the garage now and read it each morning for a fortnight. If it stays above 3 C, store the sacks off the floor on a pallet against an inside wall, away from the door. Use hessian or paper sacks, never polythene, which traps moisture and encourages rot. If the forecast drops below minus 3, throw an old duvet or a couple of layers of fleece over the sacks; that buys several degrees overnight. If the garage regularly reaches zero, it's the wrong place, and an under-stairs cupboard or a cool spare room will serve better even though it's warmer, because at 10 C you get early sprouting rather than outright loss.
-
-Light matters as much as cold. Even the glow from a garage window will green the tops of exposed tubers within a week or two, and green flesh contains solanine, so cover the sacks or the window.
-
-Before storing, cure the tubers in a dry, dark place for about ten days to toughen their skins, and sort them: anything speared by the fork, showing blight lesions or slug holes should be eaten first rather than stored. 'Sarpo Mira' is a good keeper and should see you to March; 'Desiree' may start sprouting by February, so use it first. Check the sacks every fortnight, because one rotten potato will spread quickly through its neighbours.
-
 ## 000031-016
 
 Should I put my allotment drip line on a timer while I'm away for three weeks in July?
@@ -312,24 +272,6 @@ Water has also been a recurring theme on our own site. The committee spent a lar
 
 A few smaller points. Courgettes left for three weeks in July will turn into marrows, so either accept that or ask your neighbour to pick them; leaving them on also slows new fruit. Tomatoes on a steady drip are less likely to split than those that swing between dry and soaked, which is one more reason the timer suits them. And if a heatwave is forecast while you're away, your neighbour can add a second 6 pm slot on most timers with a couple of button presses, so write the instructions on a card and leave it in your shed.
 
-## 000031-017
-
-Can a group of six book a study room at Fennick Central Library for a Saturday?
-
-Question from a library user: We're six A-level students and want somewhere to revise together on Saturdays before our mocks in January. Can we book a room at Fennick Central, and how?
-
-Yes. Group Rooms 2 and 3 on the second floor each seat up to eight and can be booked for Saturdays. Bookings open 14 days ahead and are made online through the library website under "Book a space", or at the first-floor enquiry desk. At least one person in the group needs a Fennick Libraries card, and the booking goes on that card. On Saturdays the maximum is two hours per booking and one booking per card per day, so if you want a longer session, two of you with cards can book back-to-back slots, for example 10 to 12 and 12 to 2, as long as both are free. Rooms are released if nobody has checked in at the desk within 15 minutes of the start time, so let staff know if you're running late. There's no charge for study use.
-
-If any of you don't have cards yet, they're free. You can join in person with something showing your address, such as a school letter or a bank statement, or join online and collect the card on your first visit.
-
-The group rooms themselves are fairly new. They were created in 2021 when the old reference section was consolidated, which freed the second-floor space that used to house the bound local newspapers, now moved to the Heritage Hub on Mill Lane. The refurbishment was funded partly through the council's community infrastructure fund and partly by the Friends of Fennick Library, who also paid for the artwork by local primary schools that you'll see in the corridor. Room 2 has a wall-mounted screen with an HDMI cable, which is handy if you want to work through past papers together on a laptop; Room 3 has a large whiteboard instead, and pens are available from the enquiry desk on request, although they do tend to run out by mid-afternoon on a busy Saturday. Both rooms have plenty of power sockets, and the library wifi, FennickPublic, reaches them without any problem, though you'll need to accept the terms page each time you connect.
-
-Saturdays in January are among our busiest days of the year, which is perhaps not surprising given that most schools hold mocks around then. Last January both group rooms were booked solid from about the second week, so it's worth setting a reminder to book exactly 14 days ahead; slots are released at midnight. The ground-floor cafe, run by a local social enterprise, opens at 10 on Saturdays and does a decent toasted sandwich. Food isn't allowed in the group rooms, but drinks with lids are fine.
-
-The building is step-free, with a lift beside the main stairs and an accessible toilet on each floor. If anyone in your group needs a quieter space or a height-adjustable table, mention it when you book and staff will try to arrange it.
-
-Good luck with the mocks.
-
 ## 000031-018
 
 Can I renew an interlibrary loan that's due before my thesis deadline?
@@ -343,20 +285,6 @@ The greyed-out button is expected: interlibrary items can't be renewed through y
 If the extension is refused, you still have options. We can scan one chapter or up to 5 percent of the book under the copyright exception for non-commercial research, which is often enough if you need a particular section for chapter four; just tell us the pages. You can also submit a purchase request through the library website, explaining that the title is central to your thesis, and the acquisitions team will check whether a copy can be bought in time; postgraduate requests for thesis material are usually prioritised. Some NorLink libraries also let Ashcombe researchers read the book on site with a SCONUL Access card, which you can apply for from our website.
 
 Please don't keep the book past the due date without confirmation, as overdue interlibrary items are charged at the lender's rate and can lead to your interlibrary borrowing being suspended. If you have any questions, reply to this email or ring the interlibrary team on extension 4417.
-
-## 000031-019
-
-Cargo bikes on the Kestrel Point ferry after the November timetable
-
-Question from Adaeze Okafor: I ride a long-tail cargo bike with a child seat and commute from Kestrel Point to Albion Quay on the 07:45. I've heard the new timetable changes what's allowed on board. Will I still be able to bring the bike on a morning crossing?
-
-Reply from the Harbour Transit customer team: Thanks for writing in. There is a change, and it does touch bikes like yours, though probably less than you fear.
-
-The November timetable has been in the works since April, when the operations group began reviewing turnaround times at both piers. That review was prompted partly by the refit of the MV Whimbrel, which spent eleven weeks in dry dock at Cardle Yard while a chartered relief vessel ran a reduced pattern. Planners logged boarding counts on every sailing during those weeks, and the figures went to the Passenger Services Committee in July, where three draft timetables were debated over two meetings. A public consultation in August drew about 640 responses, many from the drop-in sessions at Kestrel Point library. The board approved the committee's recommendation on 26 September, after which the schedule had to be loaded into the ticketing system and crew rosters rebuilt, which is why we are only now confirming details to customers.
-
-From Monday 4 November, non-folding bikes over 1.8 metres long, which covers most long-tails and box bikes, will travel only on sailings run by the Whimbrel, the one vessel with an open vehicle deck. On weekdays those are the 07:15 and 17:40 from Kestrel Point and the 08:05 and 18:30 from Albion Quay. Your 07:45 will be operated by the smaller Tern and won't accept cargo bikes, so you can still cross in the morning with the bike, but it has to be on the 07:15.
-
-Each Whimbrel sailing holds four cargo bikes, and spaces must now be reserved in the Harbour Transit app or at the ticket office up to 48 hours ahead; reservations are free with a valid pass. Arrive ten minutes early so the deckhand can load you first. The child seat can stay fitted, but your child will need to ride in the passenger cabin. If the Whimbrel is out of service we will post a notice by 06:00 and run a two-bike shuttle van from the Kestrel Point car park.
 
 ## 000031-020
 
@@ -373,20 +301,6 @@ Second, not every train calling at Marlow Junction starts at Brackley Street. So
 With those two pieces in place, the 16:52 is not valid on your season. It is a through service that left Brackley Street at 16:14, inside the window, so it remains restricted when it reaches you. The ticket office was right. Your guard may have been thinking of the 16:58, which is a Marlow Junction starter from platform 4 and is valid regardless of the clock. It runs six minutes later, calls at all the same stations to Southcombe, and arrives only four minutes behind the 16:52 because the through train waits at Hadley Cross for a connection.
 
 If you're ever unsure, check the origin before the departure time. Penalty fares for using WV4 on a restricted train are charged at the full anytime single, currently 14.60 pounds from Marlow Junction to Southcombe.
-
-## 000031-021
-
-Is Hollins Park station step-free again after the lift replacement?
-
-A reader who uses a powered wheelchair wrote in to ask whether they can return to Hollins Park for trips into the city after a summer of detours via Ferrand Street.
-
-Partly. Platform 2, for trains away from the city, has been step-free since 14 October, when its new lift passed inspection. Platform 1, the city-bound side, is still without a lift and Northvale Rail now expects it back in the week of 8 December. Until then, step-free journeys into the city from Hollins Park still need the workaround: take a platform 2 train one stop out to Ferrand Street, cross by its level footbridge ramp, and come back through Hollins Park on a city-bound service. Staff will arrange a ramp at both ends if you book Passenger Assist two hours ahead.
-
-Why the two sides finished nine weeks apart comes down to the shafts rather than the lifts. Both replacement cars were delivered in July, but when contractors removed the old platform 1 lift they found the shaft's base slab had cracked, probably from water that had pooled there for years under a blocked drain. A structural engineer's report in August recommended breaking out and recasting the slab, which needed a possession of the adjacent track for two weekends. Those possessions were not available until late October because the line was already closed for the Ashby viaduct works.
-
-The recast slab was poured on 26 October and needs 28 days to cure before the lift frame can be bolted down, which is where the 8 December estimate comes from. That date has some slack in it: the contractor's programme allows ten working days for fitting and testing, and the platform 2 lift took seven. The bigger risk is the final safety inspection, which on platform 2 was passed at the first attempt but is booked through an outside body with a waiting list.
-
-Northvale's accessibility line, 0800 640 2217, will confirm on the morning of travel which lifts are working, and the station's live status is shown on the departure boards at Ferrand Street as well.
 
 ## 000031-022
 
@@ -466,27 +380,6 @@ After the upgrade, in order:
 Some background, since a few people asked why we are not repeating what we did last time. For the 11 to 13 upgrade in March 2022 we did use logical replication, and it worked, but the database was 640 GB then, the team was five people instead of three, and the subscriber build took a full week of babysitting, including one restart after the replication slot filled the WAL volume on a Friday night. I would not call it a bad experience exactly, but nobody involved volunteered to run it again, and the documentation we wrote at the time is mostly about workarounds for Postgres 11 limitations that no longer apply. I also looked briefly at the pgcopydb approach a few other teams have blogged about, which could be interesting for a future move to different hosts, though it does not solve anything specific for us this time.
 
 If the snapshot or the six-hour replica gap is a problem for anyone, say so by Wednesday so we can move the change ticket.
-
-## 000031-026
-
-Do we have to drain es-data-07 before growing its EBS volume?
-
-Marta, in the infra channel this morning: "es-data-07 is at 86% on its 1.5 TB gp3 volume and the high watermark is 90%. To grow it to 2.5 TB, do we need to drain the node and pull it out of the cluster first, or can we do it live?"
-
-This one takes me back. My first ops job, around 2011, was at a small hosting company in Leeds where storage meant physical disks in a rack two floors below the office. Growing a volume meant a change request, a ticket to the datacenter team, and usually a night shift. I remember one Saturday spent watching a RAID 5 rebuild crawl along at 40 MB/s after we swapped in larger drives one at a time, living on vending-machine crisps and refreshing the controller page every few minutes. Our lead, Graham, had a firm rule that you never touched the disks on a live box without draining it first, and for that hardware he was right. A bad rebuild could take the whole array with it, and we lost a customer's mail server that way once, which led to a very long phone call I was not senior enough to be on.
-
-That habit stuck with me for years. When I moved to my first team that ran on AWS, I still drained every node before going anywhere near its storage, and I wrote a runbook for it that I suspect is still sitting in the old Confluence space. It had fourteen steps, including shard allocation exclusion, waiting for relocation to finish, and a screenshot of an EC2 console that has since been redesigned at least three times. People followed it faithfully long after it stopped being necessary, which probably says more about runbooks than about any of us.
-
-Anyway, no, you do not need to drain it. EBS volume modification happens online: the node keeps its volume attached, Elasticsearch keeps serving reads and writes, and nothing gets relocated. The sequence is:
-
-1. Take a snapshot of the volume first. It is cheap insurance and takes a few minutes to register.
-2. Run aws ec2 modify-volume --volume-id vol-0c4e19a7f2b3d8e51 --size 2560. The volume moves to the optimizing state and stays fully usable while it does.
-3. On the instance, check lsblk. If the data volume has a partition, run sudo growpart /dev/nvme1n1 1. Ours on the data nodes do not, so you can skip this.
-4. Grow the filesystem with sudo xfs_growfs /var/lib/elasticsearch. The data nodes are XFS; if you ever find an ext4 one, it is resize2fs instead.
-
-Elasticsearch notices the new free space on its next disk usage check, which runs every 30 seconds by default, so df and _cat/allocation should agree within a minute.
-
-A few implications worth knowing. At 86% the node is already past the 85% low watermark, so it has not been receiving new shards for a while; once it drops to about 52% after the resize, the balancer will start moving shards onto it, and you will see some relocation traffic for an hour or so. That is expected and is not a sign anything went wrong. AWS allows only one modification per volume every six hours, so pick the final size now rather than going to 2 TB and needing another bump the same afternoon. The optimizing phase can take several hours on a volume this size, and throughput can dip slightly during it, so I would start after the 14:00 to 16:00 indexing peak. Finally, es-data-03 and es-data-11 are at 81% and 83%, so it is worth doing all three this week while the commands are fresh.
 
 ## 000031-027
 
@@ -642,50 +535,6 @@ If 280 meters is a concern, there are two things to know. The Elm and Pruitt sto
 
 Temporary signs will go up at Elm and Garnet two weeks before the closure, pointing to the new stop. If you want to comment on the walking distance, the agency accepts feedback on stop placement through March and has moved new stops before when riders showed that a closer location was safe.
 
-## 000031-035
-
-When will Building C lose hot water for the boiler replacement?
-
-From the resident newsletter, answering a question from the tenant in C-305: 'I work nights and sleep days. When exactly is the hot water going off for the new boiler, and for how long?'
-
-I have been looking after these buildings since 2009, and the Building C boiler has been part of my life the whole time. The first winter I was here it failed on New Year's Eve, and I spent most of the night in the basement with a flashlight and a borrowed wrench while Mr. Albescu from C-102 brought me coffee in a thermos. He told me the boiler went in the year his daughter was born, 1987, and that the installer painted his initials on the flue in red. They are still there. Over the years we replaced the circulator pump twice, the expansion tank once, and more gaskets than I can count. Every autumn I would fire it up and listen for the knock that meant something else had gone.
-
-The hot water will be off on Tuesday, November 4, from 8 a.m. until about 4 p.m. Cold water stays on all day, and heating is not affected because the radiators run off the separate unit installed in 2019. If the crew finishes early I will restore it and post a note in the lobby; if they run late, the latest restart is 6 p.m.
-
-For anyone sleeping during the day, the crew will be cutting out and removing the old tank between about 9 and 11 a.m., and that will be noisy, especially for units on the C-1 and C-3 stacks above the boiler room. Earplugs are available at the office. If you need a shower, the fitness room in Building A will be open with its own water supply, and your fob will work there that day. Fill a kettle or pot the night before if you want warm water for washing up.
-
-The new boiler is a condensing unit about a third smaller than the old one, so the storage cages on the east wall of the basement will get back roughly two feet of space by December.
-
-## 000031-036
-
-Do I need association approval to repaint my balcony railing at Larkspur Court?
-
-A resident in unit 14B asked: 'The paint on my balcony railing is peeling and I want to sand and repaint it myself this fall. Do I need to ask anyone first?'
-
-Yes, you need written approval, but it is quick and you can do the work yourself. Submit the one-page Exterior Alteration form to the management office, and as long as you use the approved color, Larkspur Charcoal (RAL 7016) in a satin exterior metal enamel, approval normally comes back within five business days. Two conditions apply: no spraying, since overspray drifts onto the balconies below, and the work has to be finished before November 30, after which the association asks residents not to paint exteriors because the enamel will not cure properly below about 10 degrees Celsius. Put down a drop cloth and keep sanding dust off your neighbor's balcony.
-
-If the rust goes through the metal, or a post feels loose, do not paint over it. Report it instead. The railings are common property, and structural repairs are the association's responsibility at no cost to you.
-
-Some background on why the rule exists, since people ask fairly often. When the complex was built in 1994, the railings were a forest green chosen by the original developer, and for years residents painted them with whatever was handy, so by 2010 there were at least five shades of green and two of black along the south face. The board at the time spent most of a year on the question, held two open meetings, and mounted sample panels on the clubhouse wall for residents to vote on. Charcoal won by a wide margin, partly because it hides dirt and partly because the fire department had complained that the green looked too much like the standpipe connections. The whole building was repainted in 2012, and the form was introduced afterward to keep things consistent. It has worked reasonably well, although the paint chosen then was less durable than hoped, which is part of why railings on the sunnier sides are peeling now.
-
-The form is also on the residents' portal under Documents, then Building Rules.
-
-## 000031-037
-
-Can my child bring a phone on the Year 8 overnight trip to Hollins Ridge?
-
-Yes, students may bring a phone, but staff will collect it at 9:00 p.m. on the Thursday night and hand it back at breakfast on Friday. During the daytime activities phones stay in bags or in the centre lockers unless a group leader says otherwise. Students who would rather leave theirs at home are welcome to, and they will not miss anything the trip depends on.
-
-Please label the phone itself with your child's name on a strip of tape on the back, not just the case, because cases get swapped and borrowed. At collection, each phone goes into a numbered zip bag, and the bags are kept in a locked box in the trip leader's room overnight. If your child needs a phone for medical reasons, for example to run a glucose monitor app, tell Ms. Okafor by Friday 14 March so we can arrange an exception and brief the cabin supervisor before we leave.
-
-If you need to reach your child, call the school office on 01632 448 200 during school hours or the trip mobile on 07700 900 318 after 4:00 p.m. Staff will pass on a message or set up a call. Please do not expect replies to texts after the evening collection; a quiet night is the whole idea.
-
-Hollins Ridge has hosted our Year 8 trip since 2017, when the old centre at Marsh Lane closed, and the dormitory block was refurbished last summer with new bunks and a drying room that students seem to enjoy far more than we predicted. Signal in the valley is patchy at best, so phones tend to be less useful there than families expect, although the main lodge has Wi-Fi for staff.
-
-The school cannot accept responsibility for lost or damaged devices, and the trip insurance does not cover them. Smart watches with messaging are treated the same way as phones. A few students brought handheld games consoles last year; those are fine on the coach but go into the same box at 9:00 p.m.
-
-Questions about the itinerary, kit list or payments can go to trips@stmarkshigh.example. The kit list was updated on 3 March and now requires waterproof trousers rather than just recommending them.
-
 ## 000031-038
 
 Year 11 predicted grades this term: Arbor or the shared spreadsheet?
@@ -758,40 +607,6 @@ On the day, members will need to leave coats and bags in the lockers, use pencil
 
 Best wishes, Tomasz
 
-## 000031-041
-
-Brown rings on my tomato leaves: should I pull the plants now?
-
-Question from an allotment holder at Fenner Road: I have nine outdoor tomato plants, mostly 'Ailsa Craig' and two 'Sungold', planted out on 24 May. Over the last ten days the bottom leaves have gone yellow with brown spots, some of which have rings in them like a target. It's creeping up the plants slowly. Fruit is still setting and the top growth looks fine. My neighbour says it's blight and I should pull the lot before it spreads. Should I?
-
-From what you describe, I would not pull them yet. Slow-moving brown spots with concentric rings, starting on the oldest leaves and working upward, are the classic pattern of early blight, caused by the fungus Alternaria, and that is a manageable disease rather than a crop-ender. Strip off the affected lower leaves, keep the foliage dry, and keep picking. The case for pulling plants is late blight, Phytophthora infestans, which looks different and moves far faster; if you see the signs listed below, pull and bag those plants the same day.
-
-The ring pattern is the most useful clue. Early blight lesions are dark brown, usually under a centimetre across, with visible concentric bands and often a yellow halo around the spot. The leaf yellows around them and eventually drops. Septoria leaf spot, the other common lower-leaf problem, gives smaller, more numerous spots with pale grey centres and tiny black dots, and no rings. Either is treated the same way at home, so you don't need to be certain which one it is.
-
-Late blight is the one your neighbour is thinking of, and the confusion is understandable because 'blight' gets used for both. Late blight shows up as irregular grey-green or brown patches that look water-soaked or greasy, often starting at leaf edges and on upper as well as lower leaves. In damp weather you'll see a fine white fuzz on the underside at the margin of the patch. Stems develop dark brown streaks, and green fruit get firm, bronze-brown, marbled patches. It can take a plant from healthy to collapsed in under a week, and the spores travel on the wind to every potato and tomato on the site. A slow creep over ten days with fruit still setting does not fit that picture.
-
-The weather this summer also points toward early blight. Alternaria likes warm days with heavy dew and rain splash, which is what most of the county has had since the start of July. Late blight needs a run of Hutton periods, two consecutive days with minimum temperatures of 10C or above and at least six hours each day of relative humidity over 90 percent, and the BlightWatch service has issued only a handful for this area so far. That's not proof, but it is a further reason not to panic.
-
-For a check, look at three things this evening. Turn over a few of the worst leaves and look for white fuzz. Run your eye down the main stems for dark brown streaks. And look at the lowest trusses for any brown, greasy patches on the fruit. If all three are clear, carry on with the early blight treatment. If any of them is present on a plant, take that plant out: cut it at the base, bag it, and put it in general waste, not your compost heap. Don't wait to see what happens.
-
-For early blight, the management is mostly about reducing spore splash and humidity:
-
-Remove all leaves with spots up to the lowest truss, and any touching the soil. Do it on a dry day and wipe your secateurs with a cloth dampened with surgical spirit between plants.
-
-Water at the base, in the morning, so the leaves aren't wet overnight. If you've been using a hose rose over the top, stop.
-
-Put a mulch of straw or grass clippings around the base to stop soil splashing onto the lower leaves, which is how Alternaria gets from last year's debris onto this year's plants.
-
-Thin the side shoots on the 'Ailsa Craig' if they've got congested, so air moves through.
-
-Keep feeding with a high-potash tomato feed every week. Plants under stress from hunger tend to lose more leaves to the disease.
-
-You will probably see a few more spots appear over the coming weeks, especially after rain. That's normal and doesn't mean the treatment has failed. What you want is for the top two-thirds of each plant to stay green long enough to ripen the trusses already set, and with a late May planting and fruit already swelling you should get there.
-
-At the end of the season, clear every bit of tomato debris from the bed rather than digging it in, and try to grow tomatoes and potatoes somewhere else next year. Alternaria survives on plant remains in the soil, so a two- or three-year gap breaks the cycle. If you'd rather not move them, 'Crimson Crush' is bred for late blight resistance and 'Mountain Magic' tolerates both kinds.
-
-Finally, it's worth telling the site secretary if you do find late blight, because neighbours can then check their own potatoes and tomatoes before it spreads further.
-
 ## 000031-042
 
 Bramley Lane soil results: can the railway-side plots still be used for vegetables?
@@ -850,22 +665,6 @@ So no, it was not finished. It was clogged with glacial silt, and the backflush 
 
 If yours might have frozen, treat it as broken until you can test it at home. The usual check is to blow air through the clean side while the filter sits in water and watch for a steady stream of bubbles, which means damaged fibres. On the trail, carry purification tablets as the backup.
 
-## 000031-045
-
-Does my Harbourline monthly pass work on the replacement buses while the Kellet Point ferry is out of service from 3 to 28 November?
-
-Yes, with two conditions. A current Harbourline monthly or annual pass, Zone 1-2 or wider, is accepted on the R7 replacement bus between Pier Street and Kellet Point for the whole closure, with no extra fare and no need to swap it for anything. The first condition is that the pass has to be loaded on a Tidecard, because drivers cannot validate the old paper monthlies. The second is that the R7 does not carry bicycles, so if you normally roll a bike onto the 7:40 sailing you will need to leave it at one end or ride the long way round via the Mill Road bridge. Single paper tickets bought from the pier machines before 3 November will also be honoured until they expire.
-
-The R7 runs every 15 minutes from 6:10 to 9:30 and from 15:30 to 19:00 on weekdays, and every 30 minutes at other times, including weekends. Allow about 35 minutes from Pier Street to Kellet Point in the morning peak, against the ferry's 12-minute crossing, because the bus goes around the head of the estuary. It leaves from stop PS4 on Pier Street, outside the former customs house, and arrives at the Kellet Point turning circle, the gravel area just uphill from the ferry ramp.
-
-If you use a wheelchair or a mobility scooter, all R7 vehicles are low-floor with a ramp and one wheelchair space. Scooters up to the standard class 2 size are permitted. If the space is taken, the driver will radio for a taxi at no cost to you, and that arrangement is in place for the whole closure.
-
-Some background on why this is happening, since a few people have asked. The ferry slipway at Kellet Point was last rebuilt in 1998, and the hydraulic linkspan, the hinged ramp that lets vehicles and walkers board at different tide levels, has been patched several times since then. A spring inspection found corrosion in two of the main pins, and the contractor's earliest window was November. The work involves lifting the ramp out by crane barge, which is why the service cannot run even on a reduced basis. The Harbourline vessel itself, the Grey Heron, will use the time for its annual dry-dock, which was originally scheduled for February, so there should be no second closure early next year. The crane barge is coming up from Portlee and depends on the weather, so if the start date slips the bus arrangements will slip with it, and any change will be posted on the pier noticeboards and the Harbourline page at least 48 hours ahead.
-
-It is also worth saying that the Grey Heron is the third vessel of that name on the crossing. The first was a paddle steamer that ran from 1904 to 1931, and photographs of it hang in the waiting room at Pier Street, which will stay open during the closure as a shelter for R7 passengers. The cafe there is run independently and has said it will keep its usual hours.
-
-If your pass expires during the closure, renew it in the normal way. The price has not changed, and you will not be charged a pro-rated amount for the weeks the ferry is off. Some regulars have asked for a partial refund instead. The operator's position is that the replacement service fulfils the ticket, so refunds are not being offered, but complaints can be made through the usual form and will be logged.
-
 ## 000031-046
 
 With the new December timetable, does the 7:12 from Hollins Cross still make the Ashby ferry?
@@ -875,26 +674,6 @@ I have been getting the 7:12 from Hollins Cross for nearly eleven years, since I
 That changes on 14 December. Under the new timetable the 7:12 becomes the 7:14, and it is retimed to arrive at Ashby Quay at 8:01, three minutes after the 7:58 ferry departs. The ferry timetable has not moved, and the operator has confirmed it will not hold the boat for the train, because the 7:58 has to make its slot at the far side lock. So the connection is gone. If you need that boat, the train to catch is now the 6:54, which reaches Ashby Quay at 7:39 and gives you nineteen minutes, comfortably enough even with the usual late running. The next ferry after the 7:58 is the 8:28, which puts you across half an hour later than you are used to.
 
 A few other points from reading the new tables. Saturday is different: the Saturday 7:14 arrives at 7:52 and still connects, because the extra dwell at Brindle has been added only on weekdays. The 6:54 is a two-car unit, so expect it to fill quickly once word gets around. And if your train is delayed and you miss a ferry you would otherwise have made, Delay Repay covers only the rail leg. The ferry company runs no equivalent scheme, so keep your own record of times if you plan to complain to them.
-
-## 000031-047
-
-Refunds for the cancelled 14 March concert: will I get my money back automatically?
-
-The Corvell Philharmonic has been performing in the city since 1952, when a group of teachers and former military bandsmen formed what was then called the Corvell Orchestral Society and gave their first concert in the Corn Exchange to an audience of about two hundred. The society became a professional orchestra in 1971, took its present name in 1978, and moved into Alder Hall when the hall opened in 1986. For most of its history it has given around forty concerts a season, and in that time it has cancelled very few. The last full cancellation before this one was in February 2009, when heavy snow closed the ring road and the players could not reach the hall from the rehearsal studios at Weir Lane.
-
-Alder Hall itself has been through a great deal over the past two years. The main auditorium closed for eight months in 2024 so that its seating and the acoustic canopy above the platform could be replaced, and the orchestra spent that season in the Cathedral and at the university's Great Hall. When it reopened, the hall's operator, Corvell Venues Trust, also introduced a new ticketing platform, replacing the system that had been in use since 2011. Many of you will remember that the first weeks of the new platform were not smooth, particularly for subscribers whose seat preferences had to be re-entered by hand. Most of those problems were resolved by the autumn, and the Trust has since added the ability to manage bookings online, which had not been possible before.
-
-As most people now know, the 14 March concert was cancelled at two hours' notice after our guest conductor, Ilse Marrow, was taken ill during the afternoon rehearsal and no replacement could be found who knew the Bruckner programme. We are glad to report that she is recovering well, and we are sorry to everyone who had already travelled to the hall that evening.
-
-Whether you need to do anything depends on how you paid. If you booked online or by phone with a debit or credit card, your refund is automatic: the full ticket price and the booking fee will go back to the card you used, and all of these refunds will be processed by 4 April. You do not need to contact us. If you paid at the Alder Hall box office in cash, by cheque or with a gift voucher, the system has no card to refund, so you must apply, and the deadline is 30 April. You can apply with the short form on the orchestra's website, by bringing your tickets to the box office, or by phoning 01632 448 210 between 10:00 and 16:00 on weekdays. Cash and cheque purchases will be repaid by bank transfer or a new cheque. Voucher purchases will be put back on the voucher, with its original expiry date extended by twelve months.
-
-Season subscribers are treated slightly differently. Your refund for this concert is not automatic, because many subscribers prefer to keep the value on account. You will receive an email by 21 March offering three choices: a refund to your card, a credit towards next season's subscription, or a donation of the ticket value to the orchestra. If you do nothing, the value will be held as credit, and you can still ask for it as a refund until 31 July.
-
-A few practical points have come up in the first days. If the card you used has expired or been replaced since you booked, the refund will normally follow to the new card through your bank. If your bank says it cannot do this, contact the box office after 4 April with your booking reference and we will pay by bank transfer instead. Refunds can take up to five working days after processing to appear on your statement. The Alder Hall car park is run by a separate company and its charges are not covered, though the Trust has asked the operator to consider claims from people who were on site that evening; the car park office address is on the back of the pay-and-display ticket.
-
-The concert is being rescheduled for Friday 23 May, with Ms Marrow conducting if she is fully fit. Tickets for the original date will not transfer automatically, because the May programme adds a first half and the seating plan is different. Ticket holders from 14 March will get priority booking from 9 April, two days before general sale, and a 15 percent discount using the code that will be included in the refund confirmation email.
-
-If you would like to turn your refund into a donation, we would be grateful, and taxpayers can add Gift Aid, but please do not feel any obligation. The orchestra's insurance covers the cost of the cancellation itself.
 
 ## 000031-048
 
@@ -949,24 +728,6 @@ I'll walk you through how I go about it, since I've been growing garlic on the s
 On a hardneck like Music, each green leaf above ground corresponds to one papery wrapper around the bulb below. You want to dig while five or six leaves are still green. If half the leaves are brown and you can count five or more green ones, dig this week. Wait much longer and the outer wrappers rot away, the cloves start to pull apart, and the bulbs won't keep past Christmas.
 
 Stop watering now if you haven't already, and lift on a dry day. Loosen the soil alongside the row with a fork, a good 10 cm out from the stems, and lever the bulbs up rather than pulling them, because a torn neck lets mould in. Brush off the loose soil but don't wash them. Hang them in bundles of ten, or lay them on a mesh rack, somewhere shaded with moving air for three to four weeks. A garage with the door open works. They're cured when the necks are dry and tight right down to the bulb. Then trim the roots to 1 cm, cut the stems to 3 cm, and set aside your biggest bulbs for October planting.
-
-## 000031-051
-
-Can I renew an interlibrary loan book that's due this Friday?
-
-I'm a second-year MA student and borrowed a monograph through interlibrary loan from another university. It came with a yellow band around it. It's due this Friday, October 24, and I need it for about another month for my thesis chapter. The renew button in my library account is greyed out. Can I extend it?
-
-Thanks for writing, and for including the due date, which helps.
-
-Some background on why the button behaves that way. Until spring 2024, interlibrary loan at Hollins ran through a homegrown request database that a staff member built in 2009, and renewals were handled by email to a shared inbox that three of us checked in rotation. When the regional consortium, the Midstate Academic Libraries Network, moved its fourteen member libraries onto a common resource-sharing platform, we migrated along with everyone else. The migration took most of a semester. We spent the summer of 2024 mapping old request statuses onto new ones, retraining student workers at the desk, and writing new help pages, several of which are still being revised after a usability study our assessment librarian ran with twelve graduate students last spring. One outcome of that study was a recommendation to rename the 'Request Renewal' link, which is currently scheduled for the January release. The consortium's governance committee meets quarterly to approve changes like that, and its next meeting is in December.
-
-The part of that history that matters here is that the main catalogue account can only renew books Hollins owns. Items borrowed from other institutions live in a separate ILL account, and the lending library, not Hollins, decides whether to extend them.
-
-Yes, you can ask for a renewal, and Friday is still in time. Log into the ILL account (the 'My Interlibrary Loans' link on the library homepage, same campus login), open the request for your monograph, and choose 'Request Renewal.' Do it today or tomorrow if you can. Most lenders want the request at least three working days before the due date, and once an item is overdue the system won't let you ask at all.
-
-What happens next depends on the lender. In our experience most consortium members grant one renewal of four weeks, which would cover your chapter. Some libraries outside the network, and some with high-demand items, refuse renewals outright or recall the book for their own patrons. You'll get an email either way, usually within two working days. If the new due date shows up in your ILL account, you're set. The yellow band stays on the book and you don't need to bring it in.
-
-If the lender says no, return the book by Friday at the circulation desk rather than the outside drop, so we can check it in the same day and avoid a block on your account. You can then place a fresh request, which sometimes gets filled by a different library with a looser policy. For thesis work you could also ask your subject librarian whether we can buy a copy. We purchase around sixty titles a year this way for graduate research, and a purchased book can stay with you for a full semester.
 
 ## 000031-052
 
@@ -1045,26 +806,6 @@ Then rekey. Her share can't unseal anything by itself because the threshold is t
 A few practical consequences. You need three current holders in one session; Bashir, Lena and I are all free Wednesday after 14:00. Use the -pgp-keys option this time so each new share is encrypted to its holder's public key instead of being shown in plain text on someone's terminal. We also need a fifth holder to replace Marguerite, and I'd suggest someone on the platform team outside SRE so the shares aren't concentrated in one reporting line.
 
 One more thing that's easy to miss: check whether she created any AppRole secret IDs for the CI runners. Those aren't tied to her userpass login, so they survived your revocation. Put the rekey nonce, the revoked accessor and any AppRole cleanup in the ops review notes so Thursday is a short agenda item.
-
-## 000031-056
-
-Can we add fulfillment_region to orders during business hours?
-
-Tomasz asked in #db-changes: "PR 4471 adds a fulfillment_region column to orders, backfills it from warehouse_id, and indexes it. Can this ship Tuesday at 11:00 with the normal deploy, or does it need the Sunday maintenance window?"
-
-It can go out Tuesday, but not as the PR is written. Split it into three migrations and change two things, and none of it needs the Sunday window.
-
-First, the column add is fine in daytime. On Postgres 14, ALTER TABLE orders ADD COLUMN fulfillment_region text NOT NULL DEFAULT 'unassigned' only updates the catalog; it doesn't rewrite the 41 million existing rows. It still needs a brief ACCESS EXCLUSIVE lock, and that lock queues behind any long-running query, with every new query on orders then queueing behind it. So put SET lock_timeout = '3s' at the top of the migration and let the deploy tool retry. If it fails five times, stop and look for a stuck reporting query rather than raising the timeout.
-
-Second, the backfill can't be one UPDATE. As written it would touch every row in a single transaction, hold row locks across the whole table for several minutes, and produce a burst of WAL that the replica in Frankfurt will take a while to replay. Move it into the backfill job framework: batches of 5,000 by id range, a 200 ms sleep between batches, and a check that pauses the job if replica lag goes over 30 seconds. At that rate it takes roughly an hour and a half, which is fine during the day.
-
-Third, the index has to be CREATE INDEX CONCURRENTLY, and it must live in its own migration with the transaction wrapper disabled, because CONCURRENTLY refuses to run inside a transaction block. Ship it after the backfill finishes, not before, or you'll pay for index maintenance on every batch. If the concurrent build fails partway it leaves an INVALID index behind; drop it and rerun rather than assuming it worked.
-
-So the order is: column add Tuesday morning, backfill job started right after, index in Wednesday's deploy.
-
-Some history, since Tomasz is fairly new and might wonder why we're relaxed about this at all. Until about 2022 every schema change here went into the Sunday window by default, partly out of habit and partly because we were on Postgres 10, where adding a column with a non-null default really did rewrite the table. The rule outlived the reason. We had at least one Sunday where three people sat on a call for four hours to watch a migration that took nine seconds, and then went back to bed. There was also the much worse Sunday in 2021 when an UPDATE on the invoices table ran in one transaction and the replica fell forty minutes behind, which is where the replica-lag check in the backfill framework came from in the first place.
-
-There are tools that handle more of this automatically, like pg-osc, or the shadow-table-and-triggers approach the gh-ost people take on MySQL, and we've talked about adopting one more than once. Honestly, for changes of this size the three-migration pattern is enough, and it's easier to reason about when something goes wrong at 11:15 on a Tuesday. Maybe that changes if we ever need to alter a column type on orders, but that's a conversation for another day. For now, three small migrations in the normal deploy will be fine.
 
 ## 000031-057
 
@@ -1212,22 +953,6 @@ At 14:17 Ines rolled the client certificate back to the old chain, and the verif
 
 So the rotation triggered the outage by exposing checkout's stale trust bundle. Keep the certificate replacement steps, but add a pre-rotation trust-bundle check. Any service pinning its own bundle would have failed the same way the first time it met a certificate from the new intermediate. A search of all sidecar configs found no other pinned bundles. The fix is in PR 4182, which removes the pinned file and switches checkout to the mesh bundle like everything else. Once it merges, the rotation is rescheduled for Thursday at 10:00. Ines has added a pre-rotation check that fails the job if any sidecar config references a local trust bundle, so this trap cannot come back quietly.
 
-## 000031-065
-
-Is the Marsh Lane cycle path open during the Tolley Bridge works, and how should we do the school run?
-
-Posted in the Wrenfield Parents' Cycling Group: We ride the Marsh Lane path to St Aldhelm's Primary every morning with our two, who are seven and nine. A neighbour says it is closing for the bridge works. Is that right, for how long, and what is the best way round with children?
-
-Yes, it closes, but only during working hours. From Monday 4 November the path is shut at Tolley Bridge on weekdays between 7:00 and 18:00, and the county expects the closure to run until about 20 December. It stays open in the evenings and at weekends. For the school run, use the signed diversion along Orchard Road and Station Approach. It adds roughly 900 metres, which is about five minutes at the pace of a seven-year-old, and the contractor has put a temporary signal-controlled crossing at the Station Approach junction because three schools use the route. Please do not take the shortcut through the Pennock Industrial Estate, even though it looks quicker on the map; the lorries carrying spoil from the bridge use the estate road from 7:30. If the work overruns, the closure will be extended a week at a time, and the new end date will go on the barrier notice by the preceding Friday.
-
-For anyone who has wondered why the bridge needs so much attention, it has quite a history. Tolley Bridge was built in 1961 to carry the Wrenfield goods line over the Mardle, and when the line closed in 1984 the track was lifted and the trackbed lay more or less abandoned for the better part of a decade. The cycle path came in 1993, when a group of volunteers, a few of whose children now ride it with children of their own, persuaded the county to buy the corridor for a pound. It is easy to forget, rolling along on a bright morning with the reed beds on one side and the allotments on the other, just how much effort went into getting it there.
-
-The current works are about the deck. The concrete was never designed to be waterproofed in the modern way, and water has been getting into the expansion joints for years, which is why there has been that rough patch at the north end that rattles every bike and pushchair that crosses it. The contractor, Ellwood Civils, is cutting out the old joints, laying a waterproof membrane and resurfacing the whole span, and fitting new parapet railings that meet the current standard for cycle routes. The new railings are 1.4 metres high, up from just over a metre, which plenty of parents will be glad of.
-
-It is worth saying, too, that works like this are a reminder of how much we rely on these routes and how much they matter to the life of a place. A school run by bike is more than a journey; it is a small daily habit that shapes how children see their town, and a few weeks of diversion is a modest price for a bridge that should be good for another forty years. Some families have even said they are looking forward to a change of scenery along Orchard Road, past the old chapel and the bakery that opens early.
-
-If anyone has questions for the county, the project officer is Tom Ashdown, and the group will share any updates as they come in. In the meantime, enjoy the ride, wrap up warm, and see you on the diversion.
-
 ## 000031-066
 
 Is the 22:15 from Halbeck to Moss Cross being withdrawn in the December timetable?
@@ -1241,66 +966,6 @@ Those were hard years for the line. By the early nineties there was talk of clos
 It is not being axed, though it is changing on some nights. From 14 December the weeknight train, Monday to Thursday, leaves Halbeck at 21:48 instead of 22:15, because the engineers need the line from 22:30 on those nights for the Wellbridge resignalling. On Fridays and Saturdays it stays at 22:15, and the Sunday 22:05 is unchanged. The operator has confirmed that the weeknight change lasts until the resignalling finishes, currently expected in late May.
 
 If your shift finishes at 22:00, the 21:48 will be no use to you on those nights. The replacement is a bus from Halbeck bus station, stand D, at 22:40, calling at Gilsby and arriving at Moss Cross station forecourt at 23:25. Rail tickets and season tickets are valid on it. That gets you home a good hour later than you are used to, and the walk from the hospital to the bus station is about twelve minutes, so it may be worth asking your ward manager whether a slightly earlier handover is possible on Monday to Thursday shifts. The group has asked the operator to hold the 21:48 for five minutes, but that would eat into the engineering window, so I would not count on it. Comments on the timetable consultation can be sent until 14 November. Letters from hospital staff carry real weight, and we would be glad to forward yours.
-
-## 000031-067
-
-Billing cluster upgrade: pg_upgrade --link or logical replication to PostgreSQL 17?
-
-Priya asked in #platform-db which upgrade method we should use for ledger-prod, the billing cluster, ahead of the November 15 maintenance window. PostgreSQL 14 goes out of community support on November 12, the cluster is about 2.3 TB, and finance has told us they can tolerate at most 30 minutes without writes on a Saturday night. Here is the longer write-up I promised.
-
-Some context on ledger-prod first, since a few people on the thread joined after it was built. The cluster dates to the spring of 2017, when billing moved off the shared MySQL instance that also served the marketing site. Darnell Okafor set it up on a single r4.2xlarge with one streaming replica, and the name came from a whiteboard joke about "ledger" being more dignified than "billing-db." In 2019 we moved it to the current r6i hosts during the data center exit, and in 2021, after the replica fell nineteen minutes behind during the Cyber Monday promotion, we added the second replica and formed the database guild, which still meets every other Thursday and owns the runbooks in the infra-docs repo. The cluster has been upgraded twice before, from 9.6 to 11 and from 11 to 14, both times by Darnell over a long weekend, and both times with pg_upgrade in copy mode because the database was small enough then that copying took under two hours.
-
-It is also worth recalling how PostgreSQL upgrade tooling got here. For a long time the only way to move between major versions was a dump and restore, which for anything large meant hours or days offline. Trigger-based replication tools such as Slony-I and later Bucardo filled the gap for teams that could not afford that, at the cost of considerable operational pain; Slony in particular was known for configuration that only one person on a team ever fully understood. pg_upgrade arrived in contrib around 8.4 and became the standard path, and native logical replication landed in version 10 in 2017, building on ideas from the pglogical extension that 2ndQuadrant had maintained. Each release since has smoothed some rough edges, and 17 added the ability for pg_upgrade to preserve logical replication slots, which matters more for future upgrades than for this one.
-
-The guild discussed the question at the October 9 meeting. Attendance was good, with eleven people including two from finance engineering, and the notes are linked in the thread. We spent the first half of that meeting on the vacuum tuning backlog before getting to the upgrade item.
-
-We should do this upgrade with logical replication into a new PostgreSQL 17 cluster and cut over during the window, rather than running pg_upgrade --link on the existing hosts. The deciding factor is rollback. Once a --link upgrade starts the new cluster, the old data directory shares files with it and can no longer be safely started, so if something goes wrong after cutover our only way back is restoring from the nightly base backup plus WAL, which on 2.3 TB has measured at around four hours in the last restore drill. With logical replication, the 14 cluster stays intact and we can point the application back at it, and we can set up reverse replication from 17 to 14 after cutover so that writes made on the new cluster are not lost if we retreat.
-
-The 30-minute budget is realistic with this approach. The actual cutover is: stop the billing workers, wait for replication lag to reach zero, sync sequences, flip the PgBouncer target, and start the workers against 17. In the September rehearsal on the staging copy this took 11 minutes, most of it waiting for the workers to drain.
-
-There are four things that have to be done before the window, and they are the real work:
-
-First, two tables have no primary key: invoice_audit_log and fx_rate_snapshots. Logical replication needs a replica identity to apply updates and deletes. invoice_audit_log is append-only, so it is fine as is, but fx_rate_snapshots gets nightly updates, so we either add a surrogate key (preferred, ticket BILL-2291) or set REPLICA IDENTITY FULL and accept slower apply on that table.
-
-Second, sequences are not replicated. The cutover script must read the last value of each of the 46 sequences on 14 and setval them on 17 with a margin, which Hannah has already scripted.
-
-Third, schema changes are not replicated either, so we need a DDL freeze on ledger-prod from November 3 until cutover. The two migrations planned for that period should land before the 3rd or after the 15th.
-
-Fourth, initial synchronization of 2.3 TB took 31 hours in rehearsal, during which the 14 primary retains WAL for the subscription slot. We should start the subscription no later than November 8 and watch pg_wal disk usage; the primary has about 600 GB free, and the rehearsal peaked at 140 GB.
-
-If any of these slip, falling back to pg_upgrade --link is still possible, but only after taking a fresh base backup that morning and accepting the four-hour worst case.
-
-## 000031-068
-
-Can we rotate the internal mTLS certificates on the payments mesh without restarting pods?
-
-Short answer from my side: yes for almost everything, with two exceptions that do need a rolling restart. The 38 services that terminate mTLS through their Envoy sidecars get certificates over SDS from the mesh control plane, and Envoy swaps in new certificates on the fly without dropping existing connections, so the rotation itself causes no restarts there. The exceptions are settlement-worker and recon-legacy, which are Java services that talk TLS directly through a JKS keystore loaded once at startup. Those two will keep presenting the old leaf certificate until their pods are recycled, so plan a rolling restart for each after the new leaf is issued and before the old intermediate is removed from the trust bundle. Done in that order, nobody should see a failed handshake.
-
-Kenji asked this because the current intermediate CA, payments-int-2024, expires on December 2, and the security review wants it replaced at least two weeks before. That gives us until November 18, and I would aim for the first week of November so there is slack.
-
-The sequence I would follow is the standard overlap pattern:
-
-1. Generate the new intermediate (payments-int-2026) from the offline root and load it into the control plane alongside the old one. Both chains go into the trust bundle that every sidecar receives.
-
-2. Wait for the bundle to propagate. It usually takes under a minute, but give it a day so any pod with a stuck SDS stream shows up on the certificate dashboard.
-
-3. Switch issuance to the new intermediate. Sidecars request new leaves as their current ones approach the renewal threshold, which is set to two-thirds of the 24-hour lifetime, so within roughly 16 hours every sidecar is presenting a leaf from the new chain without anyone touching it.
-
-4. Do the rolling restarts of settlement-worker and recon-legacy. Their init container fetches a fresh leaf and writes the keystore before the JVM starts.
-
-5. After confirming no connection is still using the old chain, remove payments-int-2024 from the trust bundle.
-
-Step 5 is where the risk is, and it is the step to be patient with. If we remove the old intermediate while any workload is still presenting a leaf signed by it, connections to and from that workload fail closed. The check is straightforward: the sidecars expose the serial and issuer of the certificate they are presenting, and the dashboard query in the runbook lists any pod whose issuer is not the new intermediate. When that list is empty for six hours, remove the old one.
-
-Why are the two Java services different? When they were written in 2019, the mesh did not exist yet, and the team that owned them (then called Clearing, now part of Ledger Platform) built mutual TLS into the application with a homegrown certificate loader. When the mesh arrived in 2021 those services were excluded from sidecar injection because their traffic to the bank's SFTP gateway broke under the proxy, and nobody went back to fix it once the gateway was replaced. Migrating them onto the sidecar would remove the special case permanently. There is an epic for it, PAY-1140, but it is not small and should not block this rotation.
-
-The restarts themselves are low risk. settlement-worker runs four replicas behind a queue and tolerates losing one at a time; in-flight batches are retried. recon-legacy is a single replica that does its work at 02:00 UTC, so restarting it any time between 06:00 and midnight affects nothing.
-
-One thing I would avoid is shortening the leaf lifetime or forcing immediate reissue across the mesh to speed things up. It is technically possible with the control plane's rotate command, but it causes every sidecar to hit the CA at once, and last November when someone did that during an unrelated test, the CA pod throttled for twenty minutes and a handful of new pods could not start. Letting the normal renewal cycle do the work is slower and quieter.
-
-For what it is worth, the name "payments-int-2024" was chosen because we originally intended annual rotation, which never happened; the 2024 intermediate was actually issued in late 2023, after the audit, and was given a three-year lifetime by mistake rather than the planned one year. There was a long thread at the time about whether to name intermediates by issue year or expiry year, and the issue-year camp won, mostly because Odile pointed out that nobody remembers expiry dates. I have kept that convention for the new one. The offline root lives on the two YubiHSMs in the safe at the Dublin office, and the key ceremony needs two of the four custodians present, so Kenji should book that early; last time it took a week to get two custodians in the same room.
-
-If you want to try the whole thing on staging first, the staging mesh uses the same layout with its own intermediate expiring in January, and running the rotation there next week would let us time steps 3 and 5 on real traffic before production.
 
 ## 000031-069
 
@@ -1448,24 +1113,6 @@ There's a broader point here too about water and about how a community farm want
 
 In short, drip is the right choice for tomatoes under cover. It reduces disease, reduces splitting, saves water and saves volunteer time. Overhead watering still has its place on the propagation bench, but the main crop will do better with water delivered at the roots, steadily and early in the day.
 
-## 000031-077
-
-How long will maincrop potatoes keep in an unheated garage, and do they need to be in the dark?
-
-Martin on plot 9 asked: "I lifted about 60 kg of Sarpo Mira and Desiree at the start of October. They're in open plastic crates on the garage floor, under the side window. How long will they keep there, and does the window matter?"
-
-The window matters, and so does the floor. Potatoes need darkness, and kept dark in a garage that stays roughly between 4 and 10 C, yours should last well into February, with Sarpo Mira probably good until March or later. Light turns the skins green and builds up solanine, which is bitter and mildly toxic, so either move the crates away from the window or cover them with hessian or several layers of cardboard. Get the crates off the bare concrete as well, on pallets or bricks, because a cold floor is where frost damage starts. Then check them every couple of weeks and take out anything soft before the rot spreads.
-
-The real limit in a garage is temperature, not time. Below about 3 C some of the starch turns to sugar, so the potatoes taste oddly sweet and go dark when fried. At freezing or below, the cells rupture and the tubers turn to mush when they thaw. A cheap min-max thermometer hung at crate height will tell you within a week whether your garage is suitable. If it dips below 3 C on cold nights, an old duvet or a few sheets of polystyrene over the crates usually buys the few degrees you need.
-
-A few other things help. Don't wash them before storing; dry soil on the skin does no harm, and damp potatoes rot. If you didn't leave them to dry for a few hours on the surface when you lifted them, it's worth checking now that the skins have set and don't rub off under your thumb. Keep them away from apples, which give off ethylene and encourage sprouting. Paper sacks are better than plastic sacks if you want to move them, because plastic traps condensation.
-
-I'll admit I have a soft spot for storage questions. My grandmother kept her potatoes in a coal cellar in Bolton with a single bare bulb she was forbidden to switch on more than once a day, and the house smelt faintly of earth from October to April. Before cellars and garages, farmers stored potatoes in clamps: long mounds lined with straw and capped with soil, with a twist of straw sticking out of the top to let the damp out. You still see clamps on a few farms in Lincolnshire and the Fens, and some allotment societies build one as a demonstration.
-
-Sarpo Mira, incidentally, comes from the Sarvari family in Hungary, who spent decades breeding potatoes for blight resistance, and the variety reached British gardeners in the early 2000s through the Sarvari Research Trust in Wales. It's a big, rather floury red potato, and its long dormancy is one of the reasons it keeps so well. Desiree, a Dutch variety from 1962, keeps reasonably well too, but it tends to sprout earlier. Use those first, and leave the Sarpo for the end of winter.
-
-If you find sprouts in late winter, rub them off; the potatoes are still fine to eat as long as they are firm and not green. Keep a handful of the best ones back if you want to try saving your own seed potatoes, though most of us buy fresh certified stock each spring to avoid carrying disease forward.
-
 ## 000031-078
 
 Hollin Lane Allotment Society - November 2026 newsletter
@@ -1526,26 +1173,6 @@ That does not mean you need a new bag. The cheapest fix is the pad: a closed-cel
 
 If you look up the numbers and find your bag's comfort rating is nearer 25F and your pad is already around R 4, the gap shrinks considerably, and the layering alone will likely do it.
 
-## 000031-081
-
-Can the Ostrander quilt travel to Harlow County for the spring exhibition?
-
-Request from Priya Nandakumar, Registrar, October 8: The Harlow County Historical Society has asked to borrow the 1887 Ostrander crazy quilt (2004.17.1) for "Stitched Lives," running March 6 through June 28. They would hang it vertically on the back wall of their main gallery. Can we approve the loan?
-
-Reply from Tomas Reyes, Textile Conservator:
-
-Yes, but not on the terms they proposed. I can support the loan if the display period is cut to ten weeks or less, the quilt is shown on an inclined board at no more than 20 degrees from horizontal rather than hung, light stays at or below 50 lux, and the display space holds relative humidity between 45 and 55 percent. If Harlow cannot meet the mounting and light conditions, I would decline and offer the 1891 Ostrander sampler (2004.17.3) instead, which is in much sturdier condition and could hang.
-
-The reasons come from the condition survey I completed on September 22. Of the 63 pieced blocks, 14 show active shattering of the silk, meaning the fibers have become so brittle that they split along both warp and weft into small rectangular fragments. The damage is concentrated in two fabrics: the chrome-yellow silk in the central fan block and the heavy black dress silk that appears in eleven of the border blocks. Both were almost certainly weighted with tin salts during manufacture, a common practice in the 1880s to add body and sheen, and weighted silks degrade far faster than the cottons and wools around them.
-
-Hanging is the main problem. When a crazy quilt hangs, the full weight of the textile, including its heavy embroidery and beadwork, is carried by the upper edge and transmitted down through the weakest fabrics. We learned this the hard way in 2019, when a hook-and-loop mount was tested for six weeks during a photography project. Afterward I recorded three new splits in the black silk in the top border, each about 2 centimeters long. On an inclined board, most of the weight is supported by the padded surface underneath, and the stresses on the weighted silk drop sharply.
-
-Light is the second constraint. The quilt was on display in our own Gallery 4 from March 2011 to May 2012 at roughly 120 lux, well above what we would allow today. Blue wool reference cards placed beside it at the time faded to about step 3, which tells us the quilt absorbed a significant dose in that period. Our current annual budget for this object is 50,000 lux hours. Harlow is open six days a week, eight hours a day. Ten weeks at 50 lux works out to about 24,000 lux hours, roughly half the budget, leaving room for our own study and photography. The full seventeen-week run would come to around 41,000, which I am not willing to spend on a single venue.
-
-The humidity condition comes from Harlow's facility report. Their gallery is not independently controlled, and the logger data they sent shows swings from 31 percent in February to 64 percent in June. A sealed case with conditioned silica gel would solve that; they mentioned having one from a prior loan, and if it accommodates a slant board roughly 190 by 160 centimeters, that should work.
-
-On logistics, the quilt cannot be rolled because of the raised embroidery, so it will need to travel flat in a custom tray inside a crate, which our preparators estimate at about $1,800. I would also want a courier from our staff to oversee installation and deinstallation, since the mount will need adjusting once the quilt is in place. Harlow should be told that the tray and slant board can be built together so the quilt does not have to be handled between the two.
-
 ## 000031-082
 
 Do we own the Brennecke mineral cabinet, or is it still on loan?
@@ -1565,24 +1192,6 @@ For the 212 owned specimens and the case, nothing prevents the move. The records
 The 18 loaned specimens need a separate track. Our state's museum property statute allows a museum to take title to undocumented or abandoned loans after reasonable efforts to notify the lender and a published notice that goes unanswered for a set period, which I understand is two years here. Harold Brennecke died in 1991. His obituary names a daughter, Carol Brennecke Whitfield, last listed in Spokane, and I would like to send her a certified letter this month asking whether the family wishes to convert the loan to a gift. If we hear nothing, we can begin the notice process in January.
 
 In the meantime, the 18 can move with the rest of the cabinet in February, provided we complete condition reports beforehand and keep them physically grouped so they can be returned without disturbing the owned material if the family asks.
-
-## 000031-083
-
-Is the eighth-grade Washington, D.C. trip still happening this spring?
-
-From the Principal's Desk, Ridgeview Middle School, October 17
-
-Several families have written in since Monday's board meeting asking about the eighth-grade trip. Before that, a related change for anyone hoping to chaperone this year. The district has moved volunteer clearances to a new online system called ClearPath. Anyone who wants to supervise students overnight, including parents who have chaperoned with us before, now needs a fresh clearance, which includes a fingerprint appointment at the district office on Alder Street. Processing is taking about three weeks right now and tends to slow down after Thanksgiving, so if you think you might travel with students at any point this year, please start soon.
-
-The trip itself has a long history at Ridgeview. It began in 2008, when Mr. Halloran, who taught civics here for twenty-two years, organized a bus trip for 41 students and six adults on a budget that would be hard to imagine today. Students slept four to a room at a motel in Maryland and ate most dinners at the same diner. The trip grew steadily after that, reaching 163 students in 2019. The 2020 trip was canceled three weeks before departure, and recovering the deposits from that year's tour company took most of the summer, which is part of why the district later decided to revisit its rules on overnight travel.
-
-Those rules live in Board Policy 6153, which covers any field trip involving an overnight stay, out-of-state travel, or a cost to families above $250. Last spring the board asked its policy committee to review 6153 as part of the regular five-year cycle. The committee is made up of two board members, the assistant superintendent, one principal and a teacher representative, and it meets on the second Tuesday of each month. It held four sessions on the policy between April and September, compared it with the versions used by three neighboring districts, and took public comment in August. The revised policy requires the full board to approve each overnight trip every year rather than once on a standing basis, and requires the trip vendor to be chosen through a competitive process every three years. We ran that process over the summer and received proposals from three companies.
-
-At Monday's meeting, the board voted 5 to 2 to approve this year's trip. It will run from Monday, April 20, through Thursday, April 23, with Heritage Student Travel as the vendor. The cost per student is $1,185, which covers charter bus, three nights at a hotel in Arlington, all meals, admissions, and an overnight security guard on each hotel floor. The first payment of $200 is due November 21, with the remaining balance split into three payments due January 15, February 13 and March 13. Families can pay online through the Heritage portal or by check to the school office.
-
-No student should miss the trip because of cost. The PTO's Halloran Fund has about $14,000 available this year for partial and full scholarships. The application is a single page, asks for no tax documents, and goes directly to Ms. Okafor in the counseling office, who keeps names confidential. Applications received by November 14 will be decided before the first payment is due.
-
-We will hold an information night on Thursday, November 6 at 6:30 p.m. in the library, where Heritage staff will walk through the itinerary, room assignments and packing list. Every student will also need a signed conduct agreement and an updated medical form on file by February 1.
 
 ## 000031-084
 
@@ -1790,24 +1399,6 @@ I would not approve it. I'd make two other changes instead. Set max_standby_stre
 
 I'd also add an alert on replay_lag specifically, at 5 minutes, separate from the existing alert on total lag. Tuesday's page fired 31 minutes in because the combined metric is averaged; a replay-only alert would have pointed us at the conflict within the first few minutes.
 
-## 000031-094
-
-Should we rotate the gateway TLS certificate before or after Thursday's load balancer migration?
-
-From Tomasz in #platform: The cert on api-gw.internal expires 9 November. The migration from the old HAProxy pair to the new Envoy-based load balancer is Thursday the 29th. Do we rotate the cert before the cutover or after?
-
-First, about the alert that fired yesterday. That was the 21-day expiry warning from our blackbox exporter, and it went to the wrong channel because the routing label on that probe still says team=edge, which was our name before the reorg. I've opened a ticket to fix the label, and it may be worth sweeping the other probes for the old team name, since I found at least three more while I was looking. The threshold itself is fine; 21 days is what we agreed on after the incident in 2024.
-
-It's also worth recalling how this certificate is issued, since not everyone on the team was here when it was set up. We use our internal step-ca instance as the issuer, speaking ACME, the same protocol public CAs like Let's Encrypt use. ACME works by having the client prove control of a name through a challenge. There are a few challenge types: HTTP-01, where the client serves a token at a well-known path; TLS-ALPN-01, which does the proof inside a TLS handshake; and DNS-01, where the client publishes a TXT record. We chose DNS-01 three years ago because the gateway sits behind the load balancer and HTTP-01 was awkward to route; there was a long thread at the time about terminating the challenge path on HAProxy, and in the end Priyanka wrote a DNS hook against our internal PowerDNS instead. Certificates from step-ca are valid for 90 days, mirroring public CA practice, which is meant to encourage automation and limit the damage from a leaked key. Normally cert-manager renews at the two-thirds mark, but this particular certificate was issued by hand during the 2023 outage and never brought under cert-manager, which is why it is expiring at all.
-
-There's also the broader question of whether internal services should use short-lived certificates at all, versus longer-lived ones chained to an offline root. Reasonable people on the team disagree, and the security review in the spring left it open.
-
-Rotate before the migration, ideally Wednesday the 28th. The new Envoy load balancer reads the certificate from Vault at provisioning time and bakes it into its listener config; it does not watch the Vault path for changes. If we migrate Thursday with the current cert and rotate afterward, we'd have to re-provision the Envoy listeners to pick up the new one, which means a second change window and a second connection drain. Rotating Wednesday on the old HAProxy pair is a routine reload, and Thursday's provisioning then picks up a fresh certificate with 90 days left.
-
-For Wednesday, issue the new cert through cert-manager this time, using a Certificate resource in the platform-certs repo, so renewals are automatic from here on. Have it write to the existing Vault path, secret/gateway/tls, reload HAProxy, and confirm with openssl s_client that both nodes present the new serial. Then, before Thursday's provisioning, check that the Envoy template references that same Vault path and not the staging one, since the staging path was used during last week's dry run.
-
-If Wednesday slips, the fallback is still to rotate before cutover, even on Thursday morning. Expiry on the 9th gives us room, but a post-migration rotation is the one option that costs an extra window.
-
 ## 000031-095
 
 Field trip lunch: can my daughter bring her own to the aquarium?
@@ -1823,24 +1414,6 @@ A few things for home lunches. Please pack everything in a named bag she can car
 We eat on the lawn beside the cafe unless it's raining, in which case the aquarium lends us its education room. Let me know if anything else comes up.
 
 Ms. Brennan
-
-## 000031-096
-
-Moving the 11C chemistry practical off 14 May
-
-From Chidi Okonkwo to the exams office: My 11C chemistry class has its titration practical assessment booked for Period 4 on Thursday 14 May in Lab 3. The Year 11 geography field day has since been moved to the same date, and nine of my students are going. Can the practical move to Monday 18 May, same period?
-
-Hi Chidi,
-
-Yes, the practical can move to Monday 18 May, but in Period 2 rather than Period 4. Lab 3 is booked for Year 9 science in Period 4 that day, while Period 2 is free and I've pencilled you in. To confirm it, please do three things: tell Gail in the prep room by Friday 8 May so the standard solutions can be made up for the new date, send the revised date to 11C families through the portal by Monday 11 May, and run the whole class in one session so nobody sits the task after classmates have already done it. If any of that falls through, let me know and we'll look at Wednesday 20 May instead, which has Lab 3 free in Periods 1 and 5.
-
-For what it's worth, clashes like this have become far more common since the faculties started planning their own excursion calendars a couple of years ago. Back when everything went through the central calendar, which I kept in a rather enormous spreadsheet that some of the longer-serving staff may remember, we'd catch these months out. The spreadsheet had its problems, of course; it crashed regularly, and there was a memorable week when the colour-coding vanished and nobody could tell the music recitals from the parent evenings. Still, a field day and a practical would never have landed on the same Thursday without someone noticing. I've raised the idea of a shared booking view with the leadership team more than once, and I gather it's on the list for next year's timetabling review.
-
-I'd also gently remind everyone that internal practical assessments are meant, under our assessment policy, to be booked with the exams office at least three weeks ahead. I completely understand this clash isn't of your making, but it helps enormously when bookings come through us first, because then at least we can see the knock-on effects across the labs.
-
-Thanks for flagging it early. It makes everything easier.
-
-Rosalind, Exams Office
 
 ## 000031-097
 
@@ -2390,26 +1963,6 @@ If you still want a true next-day option, we can add UPS Next Day Air as a paid 
 
 On the setup side, Shopify's processing time needs to be set per product rather than store-wide, which I can do in an afternoon, and I'll write the banner so its text switches at 1 p.m. Eastern rather than at midnight. Say the word and it can be live by November 3.
 
-## 000031-121
-
-Why did my course reserve hold disappear before I got to the library?
-
-I put a hold on the reserve copy of Hartwell's Organic Chemistry for CHEM 2410 on Monday night. The confirmation email said it was ready Tuesday at 9:10 a.m. I came in Wednesday around noon, and the desk told me the hold had expired and the book was out to someone else. My public library keeps holds for a week, so I assumed this worked the same way. What happened, and how do I stop it from happening again? - Priya, sophomore
-
-Hi Priya, course reserve holds work differently from the regular collection. Once a reserve item is marked ready, it waits at the circulation desk for four hours, not seven days. Your copy was ready at 9:10 a.m. Tuesday, so the hold lapsed at 1:10 p.m. that afternoon and the book went to the next person in the queue. The most reliable way to avoid a repeat is to book a timed slot through the reserve scheduler instead of placing an open hold. A booked slot shows you in advance whether a copy is free, and the desk keeps it for you until 15 minutes after your start time. If you would rather keep using holds, switch your notifications to text, for a reason I'll explain below.
-
-I looked at the record for your request to see whether anything else went wrong, and one thing did. The system marked the item ready at 9:10, but our email notices go out in hourly batches, and that morning's batch was held up by a mail server update. Your message was actually sent at 10:47. That cut your real pickup window to a little under two and a half hours, which is not what the policy intends. Text alerts go out the moment the item is shelved behind the desk, so they don't have this lag.
-
-The four-hour window exists because of the numbers on this particular title. We have two reserve copies of Hartwell for a course with 213 enrolled students, and each loan is three hours in the building. In the week before a midterm, the queue for that book has run past 30 requests. A seven-day hold on a three-hour loan would leave a copy sitting idle for most of a day while others wait, so the reserve policy trades a short pickup window for faster turnover. That is a reasonable trade for most people and a frustrating one when your notice arrives late.
-
-A few details that may help with the scheduler. You can book up to three days ahead, in two-hour or three-hour blocks, from the Course Reserves page under My Account. Each student can hold two future bookings per title at a time. If you arrive late but within the 15-minute grace period, the desk will still check the book out to you for the time remaining in your block, not a fresh three hours.
-
-Some students qualify for longer holds. If you are registered with Accessibility Services and have a reserve accommodation on file, your holds wait 24 hours and you can take the item to the adaptive technology room on the second floor. That accommodation has to be set up through their office; the circulation desk can't add it on request.
-
-It is also worth mentioning the queue to Dr. Okafor if it keeps backing up. When instructors ask, we can usually add a third reserve copy within about ten days, or put the assigned chapters on electronic reserve under the publisher license. I've passed the delayed-email problem to our systems librarian, and your Tuesday request has been noted so it won't count toward any no-show limit.
-
-Martin Ruiz, Circulation Services
-
 ## 000031-122
 
 Can unaffiliated researchers use the Linwood Special Collections reading room on Saturdays?
@@ -2534,26 +2087,6 @@ Pieter is also welcome to sit in on the tuning, and if he hears anything he woul
 
 Let me know by 20 February whether you want the interval touch-up and I will send a revised quote. Best wishes, Tamsin Rook, Bookings Coordinator, Alderbrook Hall
 
-## 000031-128
-
-Can our tap company rehearse in Studio B at the Kessler Dance Centre on weekday evenings?
-
-Odile Marchetti, rehearsal director of the Brightwater Tap Collective, wrote: "We're building a 40-minute piece for the Northvale Dance Festival on 9 May and need two extra evening slots a week through April on top of our Monday class. Studio B looks free on Tuesdays and Thursdays from 7 to 9:30. Can we tap in there, or do we need to look elsewhere?"
-
-Hi Odile, you can have Studio B on those evenings, but you cannot tap directly on its floor. Studio B has a sprung floor finished in grey vinyl performance lino, and metal taps gouge that surface. We lost two lengths of lino after a visiting workshop last spring, and since then the rule has been no taps, character heels or pointe blocks on the bare floor. If you book our portable tap boards along with the room, you are fine to rehearse there. The boards are free for hirers, but each session needs them requested at least 48 hours ahead so the caretaker can bring them up from the basement store.
-
-There are six boards, each 1.2 by 2.4 metres, made of birch ply with a rubber underside so they don't creep. Laid in a three-by-two block they give you 3.6 by 4.8 metres, which in our experience fits eight dancers in a tight formation or about five travelling across. If the piece has big lateral runs you may find it cramped, and Studio A, with its sealed maple floor, would suit you better. At the moment Studio A is free on Wednesdays from 8 until 10, if you can move one of your nights.
-
-A few practical points. The boards weigh about 22 kilos each, so please have two people on each one and allow fifteen minutes at the start and end for laying out and stacking; that time comes out of your booking. Wipe them with the dry mop afterwards rather than anything wet, because damp gets into the ply edges.
-
-Sound is the other thing to think about. On Thursdays a Pilates group uses Studio C, on the other side of the partition, from 7:30, and tapping on boards carries through that wall more than you would expect. We have told them a tap group may be in and they were relaxed about it, but if you are drilling one phrase over and over it would be kind to do that before 7:30. Tuesdays are quieter, as Studio C is usually empty.
-
-The floors themselves went in when the centre was refurbished in 2012. Our founder, Ruth Kessler, insisted on maple for Studio A because it was what she had danced on in Toronto, and the sprung floor in B was a compromise when the budget ran short. The contractor, a firm from Halifax, still sends someone every two years to check the sprung panels. The boards were originally bought for a children's summer school in 2017 and only later became the standard answer for tap groups.
-
-Studio B on weekday evenings is 24 pounds an hour for registered community groups, so 60 pounds for each two-and-a-half-hour session. The cafe downstairs closes at 6, but the vending machine on the ground-floor landing takes cards if anyone needs water or a snack after work.
-
-If you would like to go ahead, reply with the dates and I will pencil in Studio B with the boards for every Tuesday and Thursday from 7 April to 30 April. Best, Callum Reyes, Front of House, Kessler Dance Centre
-
 ## 000031-129
 
 After the 8 December timetable change, can I still get from Corran Street to Halvey Park Hospital by train in my powered wheelchair without booking assistance?
@@ -2640,38 +2173,6 @@ Between now and January, Rui is running partman maintenance nightly in staging w
 
 If finance want a single line: no upgrade this quarter, cutover planned for mid-January, and no extra cost or support risk from waiting.
 
-## 000031-132
-
-Was the certificate rotation to blame for Tuesday's 47-minute checkout outage?
-
-From Amara Quist, VP Commerce: "Before the post-incident review on Friday I want a straight answer. Several people in the incident channel said the cert rotation broke checkout. Was it the rotation, and do we need to change how we rotate certificates?"
-
-Reply from Theo Brandvold, incident commander:
-
-Partly, and the distinction matters for what we change. The rotation of the certificate for pay.ledgerline.io at 14:02 UTC was the trigger, but it was carried out correctly: the new certificate and chain were valid, and every client that built the chain normally accepted them. Checkout failed because the Envoy sidecars on our checkout service pods were configured to pin a specific issuing intermediate, Harbor Issuing CA 3, and the new certificate had been issued from Harbor Issuing CA 4 in the same hierarchy. The fix belongs in the sidecar configuration, not the rotation process. We removed the pin at 14:49 and checkout recovered within two minutes. The rotation procedure needs one added pre-check, described below, but not a redesign, and scheduled rotations can continue.
-
-Here is how the 47 minutes went. At 14:02 the scheduled job pushed the new certificate to the three load balancer pools in front of the payment API. By 14:04 the checkout error rate had gone from its usual 0.3 per cent to 61 per cent, and the on-call engineer was paged at 14:06. Given the timing, the first hypothesis was a bad certificate, and at 14:14 we rolled the load balancers back to the old one. Errors dropped only to about 35 per cent, because the rollback succeeded on two pools but failed on the third, which was still locked by the rotation job's own state file. That partial result confused things for a while; it looked like the certificate was only part of the problem.
-
-At 14:31 Wen Castellanos compared the old and new chains side by side and noticed the different issuer. A search of the config repository turned up an allowed-issuer list in the checkout sidecar template naming only CA 3. Rather than keep fighting the stuck rollback, with the old certificate due to expire in nine days anyway, we removed the issuer restriction, re-applied the new certificate to all three pools, and watched errors fall back to baseline by 14:51.
-
-Three pieces of evidence point to the pin rather than the certificate. First, the sidecar logs from 14:02 onward show "CERTIFICATE_VERIFY_FAILED: issuer not in allowed set" and no other TLS errors. Second, our external synthetic checks from three regions, which use a standard trust store, passed against the new certificate throughout the incident. Third, the mobile app, which calls the same endpoint without going through the sidecars, saw no rise in errors at all. If the certificate had been faulty, all three would have failed together.
-
-The pin was added in March 2023 during a hardening sprint. The ticket describes it as temporary while we evaluated mutual TLS, and it was never revisited after that project was shelved. It survived two earlier rotations only because both new certificates happened to come from CA 3. Staging did not catch it because staging uses certificates from our internal CA, which has a single intermediate, so a change of issuer can never occur there.
-
-The follow-up actions, with owners:
-
-Wen is adding a pre-check to the rotation job that reads the issuer of the incoming certificate and fails the run if any service config in the repository pins a different issuer. This is the one change to the rotation process, and it is due before the next scheduled rotation on 3 November.
-
-Ifeoma has audited the repository for other pins and found two, in the reporting service and the fraud-scoring client. Both were removed on Wednesday after confirming nothing depended on them.
-
-Rui is fixing the state-file lock so a rollback can proceed while a rotation job is still holding the file, which would have cut roughly fifteen minutes from this incident.
-
-One staging endpoint will move to a certificate from the public CA so that issuer changes are exercised before production.
-
-We have also subscribed the platform team to Harbor's intermediate-change announcements. They did publish the switch to CA 4 in August; nobody here was on the list.
-
-On the review itself, I would suggest recording the rotation as the trigger and the stale pin as the root cause, since a write-up that blames the rotation is likely to lead to rotations being paused, and expired certificates are the more common way this kind of outage happens.
-
 ## 000031-133
 
 Re: Do we roll back the Postgres 16 upgrade on orders-db after Tuesday's replica lag?
@@ -2739,28 +2240,6 @@ Bring a government-issued photo ID. We photograph it at the desk for our registr
 For the Pell papers, the 1890s letters are split between boxes 4 and 11, so request both together if that decade is what you are after. Box 11 is marked fragile. It will be brought to you on a foam cradle, you will be asked to turn pages with a flat spatula we provide, and only one folder can be out at a time. Four hours goes faster than people expect under that rule. I suggest reading the folder-level descriptions in the online finding aid before you come and listing the folders in priority order, so you start with the ones most likely to hold her letters.
 
 If Saturdays turn out not to suit you, we are also open until 7 p.m. on Wednesdays. For Wednesday visits the retrieval deadline is Monday noon instead of Thursday. And if you find the letters and want copies for your family, ask at the desk about our heritage reproduction rate. It is lower than the publication rate and was created with requests like yours in mind.
-
-## 000031-136
-
-Can the Linden Street Memoir Circle book the Larkspur Branch community room every second Tuesday through June, and will the hearing loop work for us?
-
-Posted to the Larkspur Branch Friends forum by Ruth Abernathy, branch services coordinator
-
-Yes to the room, with one condition, and yes to the loop, with one caveat. You can book the community room for the second Tuesday of every month from November through June as a single recurring reservation. Our policy allows recurring bookings up to eight months ahead for registered nonprofit and community groups. The condition is that someone in your group registers the circle as a community group first. That takes a one-page form and a named contact with a Larkspur library card in good standing. Once that is done there is no room fee. The booking ends with the June session, and you would re-apply in May for next season.
-
-On the hearing loop: the community room has a permanent induction loop installed in the floor. Anyone whose hearing aids or cochlear processor has a T-coil setting can use it without borrowing anything. The caveat is that the loop only carries what goes into the room's own microphone system. If your members read aloud around a table without the microphones, the loop has nothing to pick up. The AV cabinet holds two handheld wireless microphones and a table boundary mic. Most groups like yours end up using the boundary mic in the middle of the table, since passing a handheld around feels like a talent show. Staff at the desk will unlock the cabinet when you arrive.
-
-A few details that will save you a phone call. The branch closes at 9, so evening sessions end at 8:30 p.m., and we ask groups to be out of the room by 8:45 so closing staff can lock the side door. Tables and chairs are set out in a classroom layout by default. You are welcome to arrange them in a circle, but please put them back, because the Tuesday morning toddler program counts on finding them where it expects. Coffee and tea are fine. Hot food is not, mostly because of an incident with a slow cooker in 2022 that I will not describe in detail, except to say the smoke alarm is very sensitive.
-
-If one of your Tuesdays falls on a closure, the reservation for that date simply lapses. I see no closures in November. February may be affected if the HVAC replacement runs late. Facilities says it will not, but facilities said that about the roof too.
-
-Some background on the room itself, since a few people have asked why it looks the way it does. The Larkspur Branch opened in 1964 as a storefront library in a former hardware shop, and the community room was originally the loading bay. The branch was renovated in 2019 with money from the city's capital bond, and the architects kept the old roll-up door frame as a feature wall. That is the strange metal rectangle on the east side. The loop was not in the original renovation plan. It was added after a patron named Harold Wynn, who came to every author talk for fifteen years, wrote to the library board that he had not heard a single word of any of them since his hearing went. The board found the money that spring. There is a small plaque to him by the light switches.
-
-I mention Harold partly because his letter is a good reminder that a loop only helps if people know it is there. There is a blue ear symbol on the door sign, but hardly anyone notices it. If anyone in your circle uses hearing aids and has never tried the T-coil setting, their audiologist can switch it on in a few minutes. Many newer aids already have it as an option in the program list. It is worth testing before the first meeting, when the room is quiet and desk staff can help.
-
-A general note on recurring bookings, mostly for other groups reading this thread: we do watch for no-shows. If a group misses three sessions in a row without telling us, we release the remaining dates so other groups can use them. This has happened twice this year. It is not a punishment and you can re-book, but the dates may be gone by then.
-
-The community group form is on the library website under Spaces, then Reserve a Room, then the link at the bottom labeled Community Group Registration. Paper copies are at the front desk. If you drop one off before the end of next week, I can enter your November date myself.
 
 ## 000031-137
 
@@ -2962,22 +2441,6 @@ Before any of them go into storage, cure them if you haven't already. Leave them
 
 Finally, check them every week or so. A squash that's starting to go usually shows it first at the blossom end, as a small dark spot or a slight give under the thumb. Use those straight away; the good flesh is fine once you cut out the bad patch. And if you do end up with a glut you can't store, roast and freeze the flesh in portions. It freezes well and saves the kitchen floor from another February puddle.
 
-## 000031-147
-
-Can I put up a polytunnel on my plot at Brackley Road?
-
-From the Brackley Road Allotment Society newsletter, Ask the Committee
-
-Q: I've had plot 22b for two seasons and would like a small polytunnel for tomatoes and chillies next year. Is that allowed, and what do I need to do? -- Priya Nair
-
-A: The Brackley Road site has an unusual history for a town allotment. The land was glebe belonging to St Peter's until 1919, when the parish leased it to a group of returning servicemen who wanted to grow vegetables, and the society as we know it was formed at a meeting in the Drill Hall that November. The freehold passed to the borough in 1947 and then to the town council after reorganisation in 1974. For most of that time the council set the rules directly. Since the self-management agreement of 2011, though, the society's committee handles tenancies, rents and site rules, within a framework the council reviews every five years. The current rulebook dates from the 2023 review and runs to fourteen pages, which is why questions like yours come up so often.
-
-You can, with written approval from the committee first. Tunnels are allowed up to 4.5 m long, 2.5 m wide and 2.2 m high, and on a half plot like 22b the structure can't cover more than a quarter of the cultivated area. Applications go in on form B3, available in the hut or from the secretary, and we need them by 30 November to approve installations for the following spring. Include a sketch showing where the tunnel will sit and how far it is from the paths and your neighbours' boundaries.
-
-A few conditions trip people up. No concrete footings: anchor the frame with ground tubes or buried timber baseplates so it can be removed cleanly. Keep at least 1 m clear from any shared path so the mower can get through. The tunnel is your property, so if you give up the plot, you remove it, or the society charges for removal from your deposit. And the society's insurance doesn't cover your structures against storm damage, so it's worth checking whether your home insurance extends to the allotment.
-
-Two people on the east side put tunnels up this year and would be glad to show you theirs. Ask in the hut on a Saturday morning.
-
 ## 000031-148
 
 My soil test says pH 6.1. Do I need to lime before brassicas go in next spring?
@@ -2993,22 +2456,6 @@ Ground limestone is the safest form for a garden. Hydrated or slaked lime acts f
 Liming is old practice. Farmers in this part of Staffordshire were burning limestone from the Peak in kilns along the Caldon Canal by the 1700s, and you can still see the remains of the kilns at Froghall if you walk the towpath. The old saying was that lime enriches the father and impoverishes the son, because it releases nutrients quickly and will run a soil down if nothing is put back.
 
 Retest in three or four years. The bed won't need liming every time brassicas come round.
-
-## 000031-149
-
-Our borehole test reads 1,250 ppm. Is that too salty to drip-irrigate tomatoes?
-
-We've taken on a market garden near Ely with a borehole, and the water report from the previous owner says 'TDS 1,250 ppm'. We want to run drip lines under 400 tomato plants in two tunnels next year. Is the water usable? -- Jo and Sam
-
-That 1,250 figure needs translating before it tells you anything. Most handheld meters actually measure electrical conductivity and then multiply by a conversion factor to show 'ppm'. The factor varies between 0.5 and 0.7 depending on the brand. Your report lists a factor of 0.64 in the small print, so the water's conductivity is about 1.95 dS/m. If it had been a 0.5 meter, the same reading would have meant 2.5 dS/m, a noticeably worse result.
-
-The next thing is where the tolerance figure applies. Published thresholds for tomatoes, around 2.5 dS/m before yield starts to fall, refer to the root zone, not to the water going in. Under drip in a tunnel, with no rain to wash anything through, salts concentrate as plants take up water, and the root zone typically runs 1.5 times the irrigation water or more. Your 1.95 water could therefore leave the roots sitting at about 3 dS/m.
-
-Finally, it matters what the salt is. The report shows sodium and chloride well within limits and bicarbonate fairly high, which threatens the emitters more than the plants.
-
-Put together, the water is usable, at some cost. Expect a yield loss of around 5 percent compared with rainwater, perhaps nearer 10 in a hot summer, and probably slightly smaller, sweeter fruit, which some growers market as a feature. To keep it at that level, water about 15 to 20 percent more than the crop needs so that some drains through and carries salts below the roots, and check the root-zone EC monthly with a cheap pour-through test. Mulch the beds to cut evaporation. Because of the bicarbonate, flush the lines with a dilute acid every few weeks, or fit a dosing unit, to stop scale blocking emitters.
-
-If you can store roof water from the tunnels, blending even a third rainwater would bring you below the threshold. And it's worth getting a fresh lab test: borehole salinity often rises in late summer, exactly when the tomatoes need the most water.
 
 ## 000031-150
 
@@ -3328,28 +2775,6 @@ I also want to say how much I appreciate the work you and Mr. Delgado have done 
 
 If anything else changes with transportation, I will let you know right away. Please feel free to stop by my office if you have questions, and thank you again for your patience and flexibility as we work through this together.
 
-## 000031-166
-
-Late-work penalties: in the score or in the comments?
-
-Question from Jonah Whitfield, first-year English teacher, Cedar Ridge High School: I've been taking 10 percent off late essays, but I only write "late, -10%" in the comment box and leave the full score in the gradebook. A colleague told me that isn't how it's supposed to be done. Do I actually have to put the penalty into the score itself?
-
-Reply from Maureen Akintola, English department chair:
-
-Jonah, your question sent me straight back to my own first year, which was the fall of 1998 in the old Cedar Ridge building on Fourth Street, long before this campus existed. We kept grades in green clothbound books that the front office handed out every August, and I remember being terrified of making a mistake in ink. My mentor that year, Walt Haverty, who taught American literature across the hall for thirty-one years, kept his late-work notes on index cards rubber-banded inside the back cover. At conferences he would pull out a card and read it aloud to the parents, which was very effective and, looking back, a little theatrical. I copied his system for years.
-
-When the district moved us to electronic gradebooks in 2006, most of us carried those habits over. We typed our notes into whatever comment field we could find and left the numbers alone, because that was how the paper books had worked: the number was the quality of the work, and the note was the story around it. I remember a long department meeting that spring where we argued about whether a computer could tell the difference. Walt retired that June, and I have always suspected the software was part of the reason.
-
-I tell you all this partly so you know you are in good company. Nearly every new teacher I have mentored has done some version of what you are doing, and so did I.
-
-The penalty does have to go into the score. Under board policy 4.12, the 10 percent deduction for work up to five school days late is part of the grade, and the report card average pulls only the numeric score field; it never reads comments. So for an essay that earned 86 and came in within that window, enter 77 and check the Late box on that assignment. Work turned in more than five school days late can earn no more than 50 percent of the points, whatever its quality.
-
-That has a few consequences for you right now. Any late essays you have already graded this quarter are carrying full scores, so your class averages are higher than they should be; please correct them before progress reports lock on November 4, because changes after that date need an override from the registrar. Once the Late box is checked, families see a flag and the submission date on the parent portal, so you no longer need the comment to explain the deduction, though you are welcome to keep it. And students with extended time in an IEP or 504 plan should not be marked late within their extended window; use the Extension code instead, which records the date without applying a deduction.
-
-If you want to go through a few of the corrections together, I'm free during fourth period on Thursday.
-
-Maureen
-
 ## 000031-167
 
 Ridgemont Gardens Cooperative Newsletter, November: Resident Questions
@@ -3434,36 +2859,6 @@ If they will not accept the lighting or the angle, my answer becomes no, and I w
 
 The crate needs about six weeks to build, so we need their agreement by January 15 at the latest. I have attached the light calculation and the 2019 treatment report in case Dana wants to share them with their designer.
 
-## 000031-170
-
-Why did the Tanaka tea bowl's accession number change, and which number goes on the label?
-
-Question from Marcus Feld, exhibitions: The raku tea bowl going into case 4 of "Clay and Ceremony" was listed on my checklist as 2026.14.3. The database now shows 2026.31.1. The label proof goes to the printer on Tuesday. Which number do I use, and why did it change?
-
-Reply from Anneliese Okoro, collections registrar:
-
-Marcus, the short version is that it comes down to how the gift was recorded when it arrived, and I'm glad you caught it before the proof went out.
-
-It might help to know how a gift moves through our office, because a lot of people outside collections only ever see the end of it. When a donor offers an object, the curator writes a proposal and it goes onto the agenda for the acquisitions committee, which meets four times a year, in February, May, August, and November. The committee is seven people: the director, the chief curator, two trustees, the head of conservation, the head of education, and me as a non-voting secretary. Proposals have to be circulated two weeks ahead so trustees can read them, which is why curators are always chasing me in the last week of January and the last week of April. After the committee votes, the object usually comes in on a temporary receipt, and my team photographs it, measures it, and does a basic condition check in the intake room on the second floor. That room used to be a staff kitchen, which is why the sink is still there.
-
-Our numbering system dates from 1974, when the museum's first full-time registrar, Dorothy Haines, replaced the old ledger numbers with the year-lot-item format we still use. Before her, objects were numbered in a single running sequence, so the collection had a bowl numbered 4,417 and no way to tell from the number when it arrived or with what. Dorothy's system was considered quite modern at the time. We kept it through the move from card files to the Re:discovery database in 1996 and then the migration to TMS in 2011, which took the better part of two years and left us with about 3,000 records that still have odd formatting in the dimensions field. The migration is also why some older records list a "legacy ID" you may have seen in object reports.
-
-Once intake is done, we send the donor a deed of gift, and the object is not formally accessioned until the signed deed comes back. That can take weeks. Some donors sign the same day; one estate in 2023 took eleven months because the executors were in three countries. In the meantime we assign a provisional number so the object can be tracked, stored, and photographed.
-
-That provisional step is where this went wrong. In June we received two shipments from the Lakeview Road address within a week of each other: the remainder of the Okafor bequest, which became lot 2026.14, and a single tea bowl. Because they came from the same house, the intake assistant assumed the bowl was part of the bequest and numbered it 2026.14.3, after two Okafor jars. When Hana Tanaka's signed deed of gift arrived in September, it made clear that the bowl was hers, a separate gift from a separate donor, not part of the estate at all. She had been storing it at the Okafor house. A separate gift has to have its own lot, so the bowl was re-accessioned as 2026.31.1, and 2026.14.3 was retired.
-
-Use 2026.31.1 on the label. The credit line also changes: it should read "Gift of Hana Tanaka, 2026," not "Bequest of Samuel Okafor." That second correction matters more than the number to the people involved, and Ms. Tanaka has said she plans to come to the opening.
-
-A few practical things follow from the change.
-
-The bowl's physical tag still shows 2026.14.3. Tomas will replace it on Monday morning before the case is installed, so the object and the label will match when the case is closed. If you see the old tag in the case photographs from last week, that is why.
-
-The old number is not deleted. It sits in the "former numbers" field in TMS, so anyone searching for 2026.14.3 will be pointed to the new record. Your checklist and any insurance schedules that cite the old number are still traceable, but please update the exhibition checklist so the version we file has the current number.
-
-The Okafor lot now runs 2026.14.1 to 2026.14.2, with no item 3. We do not renumber the remaining items to close the gap; a retired number stays retired, which avoids confusion if someone has the old checklist.
-
-Finally, if you have already sent the label text to the education team for the gallery guide, they will need both corrections. I can send Priyanka a note if that saves you a step.
-
 ## 000031-171
 
 Can we move the November 14 matinee of "The Lantern Keeper" from 2:00 to 3:30 without owing refunds?
@@ -3513,22 +2908,6 @@ A technician from Harlow Heating will clean or replace the sensor this Thursday,
 Please don't adjust the temperature limiter on your shower valve to compensate. It won't help while the supply is short, and it can make the water scalding once both boilers are running again.
 
 Questions to Lena Brooks, building manager, at the office or ext. 204.
-
-## 000031-174
-
-When will the ground-floor laundry room at 41 Kestrel Street reopen?
-
-Thanks to everyone who wrote in this week. Before getting to the reopening, a word about the new card readers, since several of you asked about them as well. The coin machines are being replaced with card-and-app readers from WashPoint, and you'll have seen the installer's van in the courtyard on Tuesday.
-
-The switch has been a long time coming. The coin boxes were installed in 2009, and the residents' association first raised replacing them at the 2022 annual meeting, after the third break-in that year. The board looked at three vendors. One wanted a ten-year contract; another took 18 percent of every cycle. WashPoint charges a flat monthly fee per machine and lets the building set prices, which is why the board chose it, though the vote was 4 to 3 and took two meetings. The readers work over the cellular network rather than the building's Wi-Fi, which the vendor says is more reliable in basements. Prices will stay at $2.50 a wash and $1.75 a dry for now, and the board will review them in the spring once there is a year of usage data.
-
-The room itself will reopen on Monday, November 2, at 7 a.m. It closed because of a cracked drain line under the floor behind machine 3, not because of the card readers. The plumber, Reyes & Sons, replaced the pipe on Wednesday, but the new concrete over the trench needs five days to cure before the machines can be set back on it.
-
-Until then, the laundry room in Building B at 45 Kestrel is open to you. The door code is 4471, and the room is open from 7 a.m. to 10 p.m. Please bring coins; their machines haven't been switched over yet. Building B residents have been asked to leave the two end machines free between 6 and 9 p.m. for people from number 41.
-
-When you come back on the 2nd, the new readers will be live. You can tap a card or use the WashPoint app, and a short guide will be taped inside the door. Any coins left in the old machines' boxes will be credited to the building fund.
-
-Questions to Sam Ortiz, building coordinator, at 555-0148.
 
 ## 000031-175
 
@@ -3588,26 +2967,6 @@ Sarpo Mira, incidentally, comes out of a breeding programme in Hungary run by th
 
 One last thing: if the thermometer in the garage itself ever reads below 0 C, don't wait for the forecast. Move the sacks into the house that day, even if it means the utility room smells of earth for a while.
 
-## 000031-178
-
-Fernhill Road Allotments: can we use hosepipes during the August water restriction?
-
-From the Fernhill Road Allotment Society newsletter, August issue. Several members have asked the site reps whether hosepipes are still allowed now that the committee's water restriction is in force, and there has been some confusion on the noticeboard, so here is the full position.
-
-Fernhill Road was laid out in 1919 on land the borough bought from the Hadley estate, originally as 64 plots for returning servicemen and their families. The society itself was formed in 1924, when plot holders took over the day-to-day running of the site from the parks department, and it has held the lease from the council ever since, most recently renewed in 2018 for a further 25 years. After the subdivisions of the 1990s the site now has 81 full and half plots.
-
-Water has a long history here. For the first thirty years plot holders relied on rainwater and two wells near the top gate, both now capped. The galvanised troughs that many of you still use were installed in 1958 with a grant from the county, and the mains supply was extended along the central path in 1974. Since 2011 the site has been on a single metered supply billed to the society, which is why water now appears as a line in your annual rent rather than being covered by the council. Under the society's constitution, decisions about water use are taken by the full committee and confirmed at the next general meeting, and the current restriction was agreed at the 22 July committee meeting by seven votes to one.
-
-Hosepipes can still be used, but only between 6 and 8 a.m., only from the four standpipes on the central path, only with a trigger nozzle fitted, and only to fill water butts, troughs or cans. Hoses must not be run onto beds to water them directly. Sprinklers, soaker hoses and leaving any hose running unattended are banned outright until the restriction is lifted. Watering by can from butts or troughs is fine at any time of day.
-
-The reasons are practical. Meter readings for June and July were 38 percent higher than for the same months last year, and on several evenings pressure at the bottom of the site dropped so low that holders on plots 70 to 81 could not fill a can. The early-morning window is when demand on the street main is lowest and the least water is lost to evaporation, so it gives everyone a fair share.
-
-If you see a breach, please mention it to a site rep rather than confronting the person yourself. The first step is a friendly reminder, then a written note; repeated breaches go to the committee under rule 14, which none of us wants.
-
-To help, the society has bought 20 subsidised 200-litre water butts at 12 pounds each, with gutter diverter kits that fit most sheds. They can be collected from the trading hut on Saturdays between 10 and 12, one per plot until they run out. The tree surgeon has also restocked the woodchip pile by the lower gate, and a 5 cm mulch round squash, beans and brassicas will cut the amount you need to water noticeably.
-
-The committee will review the restriction at its 2 September meeting. If there has been decent rain by then, we expect to relax the hours first. Any change will go on the noticeboard and out by email the same day.
-
 ## 000031-179
 
 Kestrel Fell traverse, night two: Harrowmoss bothy or Calder Tarn?
@@ -3661,20 +3020,6 @@ Do not count on the cut-through past the chandlery on Quay Street. It saves abou
 Punctuality is the real risk. Last quarter the morning ferry arrived within two minutes of schedule on 91 percent of weekdays, according to the operator's published figures, and the late ones cluster on days with a strong westerly, when the Merrow comes alongside slowly. On those mornings your margin can shrink to three or four minutes, and the 8:12 will not wait, because it has to clear the single-track section beyond Calder Junction ahead of a freight path.
 
 If missing it would cause real trouble, the 7:15 sailing still runs and arrives at 7:33. Otherwise, consider a flexible Ashby ticket instead of a timed advance fare, since the 8:42 accepts flexible tickets without a surcharge.
-
-## 000031-182
-
-Is the Mill Lane bus stop staying on route 14 after the consultation?
-
-Our street was told route 14 might stop serving Mill Lane once the Hartfield roadworks finish. The consultation closed in August. Do we keep our stop or not?
-
-The consultation on the post-roadworks route 14 alignment ran for six weeks, from 1 July to 12 August, and was administered jointly by the county transport team and Wexcombe Buses. Responses came in three ways: the online form on the county portal, paper forms left at Hartfield library and the two parish halls, and comments taken by phone through the county contact centre. Paper forms were collected every Friday by a member of the transport team and keyed in by hand, which is why the running tally on the portal sometimes lagged by several days.
-
-In total 1,184 responses were logged, of which 212 arrived on paper and 41 by phone. Because several households submitted the same paper form more than once, the team ran a deduplication pass using postcode and the free-text comment, removing 63 entries. The cleaned dataset then went to the route review panel, which met on 4 September and again on 18 September after the first meeting ran out of time. Minutes from both meetings are due on the portal with the Transport Committee papers for October, though the September minutes are still marked as draft.
-
-The panel's decision, confirmed at the October committee, is that Mill Lane keeps its stop. It will move about 60 metres east, to the lay-by outside number 22, because the old position sits too close to the new signal-controlled junction. The change takes effect on 3 March, when the full route reopens.
-
-Frequency stays at every 20 minutes in the daytime, but the last evening bus moves from 23:10 to 22:40 to absorb the extra running time through the junction. The temporary stop on Station Road will be removed the same week. A raised kerb is being fitted at the new position, so step-free boarding with a buggy or wheelchair should be easier than it was at the old pole.
 
 ## 000031-183
 
@@ -3753,20 +3098,6 @@ The expedited path still requires a canary at 5 percent of traffic for 30 minute
 One caution: the retry change also affects the refund worker, which only runs on the hourly batch. Make sure at least one batch completes inside the 2-hour window before promoting to 100 percent, or the refund side goes untested.
 
 I have added Dana and Felix as approvers on the release ticket.
-
-## 000031-188
-
-Can we raise retention on clickstream-events from 3 to 7 days?
-
-Yes, we can go to 7 days without adding brokers, provided lz4 compression is turned on at the producers before the retention change. Without compression, a week of this topic would take the six brokers in kafka-prod-b to about 88 percent disk, which is over the 80 percent alert line and leaves no room to reassign partitions if a broker dies.
-
-The numbers behind that: the topic takes in about 410 GB a day across 48 partitions at replication factor 3, so the current 3 days occupy roughly 3.7 TB cluster-wide. Seven days would be about 8.6 TB. The cluster has 14.4 TB of usable disk, and the other topics on it hold around 4.1 TB. In a test on one producer last week, lz4 cut payload size by 46 percent, which brings the 7-day footprint down to about 4.6 TB and total use to roughly 61 percent.
-
-Order matters here. Enable compression first, wait three days for the old uncompressed segments to age out, and only then change retention.ms. If retention goes up first, the uncompressed backlog grows for days before compression starts to help.
-
-A bit of history, since it came up in the channel. The 3-day setting dates from when this cluster ran on i3 instances with much smaller local NVMe, and nobody revisited it after the move to gp3 volumes in 2024. Analytics has asked for longer retention at least twice before, once for the attribution backfill and once during the bot traffic investigation, and both times we told them to replay from the S3 archive instead, which took most of a day each time. Also, for anyone curious, the broker's retention check runs every 5 minutes by default, so segments will not disappear the instant they pass the limit.
-
-I would schedule the compression change for Monday the 26th and the retention change for Thursday the 29th. Oksana has the producer config PR ready for review.
 
 ## 000031-189
 
@@ -4072,28 +3403,6 @@ Anyone who wants the allocation basis changed for future assessments can bring a
 
 Work on the elevators is still expected to begin in late March, starting with car B, with each car out of service for about nine weeks. The other car will remain in service throughout, though waits at peak hours will be longer; residents who need help with heavy deliveries during that period can register with the front desk for porter assistance on weekday afternoons.
 
-## 000031-203
-
-Can I still do laundry this weekend while the dryers are replaced?
-
-Question from Imani Brooks, apartment 2F: "I saw the notice about the dryers being replaced this weekend. Can I still do laundry on Saturday or Sunday? I have two kids and can't really skip a weekend."
-
-Hi Imani,
-
-Thanks for asking. One thing worth knowing first is that the new dryers won't take quarters. They run on the LaundryLink app or a reloadable card, which you can pick up at the office for a $5 deposit, and the app adds a 10 percent bonus when you load $20 or more.
-
-We spent most of last spring deciding on this. The coin machines had been in that room since 2011, and by last year the quarter mechanisms on three of the six dryers jammed at least once a week. Our service contract with Brightway covered repairs, but their technician came only on Tuesdays, so a jam on Friday meant a dryer sat dead all weekend. The board looked at three vendors. One wanted a ten-year lease, which felt like too long a commitment given how quickly payment technology changes. Another offered card-only machines with no app, and several residents in the spring survey said they wanted to be able to check from their apartment whether a machine was free. LaundryLink came in at a slightly higher per-load price, $2.25 versus $2.00 for a wash, but it includes same-week service and the availability feature. There was a fair amount of back and forth about the price increase, and the board ultimately decided the reliability was worth the quarter.
-
-I also went to see a LaundryLink installation at a building on Dunmore Street in August, and the residents I spoke with there were happy with it, though a few older residents had needed help setting up the app at first. Their super told me the jams they used to get had stopped entirely, which was the main thing we were hoping to hear.
-
-For this weekend, the room will be fully closed from 8 am until about 2 pm on Saturday while the old dryers are disconnected and the gas lines capped. The washers come back online after that and stay available all of Sunday. The new dryers go in Sunday morning, and the installers expect them running by 4 pm. So you can wash any time after 2 on Saturday, but you won't be able to dry in the building until late Sunday afternoon.
-
-If that timing doesn't work for you, there are two options. The Suds Stop on Halsey Avenue, two blocks east, is open until 10 pm both days, and we'll reimburse up to $15 per household for drying there this weekend if you keep the receipt. Or you can hang things on the folding racks we're setting up in the first-floor community room from Saturday noon; it's heated, and we'll keep it unlocked until 10 pm.
-
-If you'd like help setting up the app before Sunday, stop by the office Friday between 3 and 6, and Marisol can do it with you in about five minutes. The washers stay coin-operated until they are replaced in January, and any quarters you have left over after that can be exchanged for card credit at the office.
-
-Best, Rafael Ortiz Building manager, Corwin Place
-
 ## 000031-204
 
 Why does our hot water turn lukewarm around 7:15 on weekday mornings?
@@ -4150,24 +3459,6 @@ If the bus does not suit him, the train operator runs an accessible taxi scheme 
 
 One more thing worth knowing: dialysis sessions can run late, so ask for the return taxi to be booked as "on call" rather than at a fixed time. The assist team can do that, and it saves him waiting outside if a session overruns.
 
-## 000031-207
-
-Will the 06:15 Saturday sailing from Kessock Point survive the winter timetable?
-
-Question: I work Saturday early shifts at the fish market in Ardmore and rely on the 06:15 ferry from Kessock Point. Is it still running this winter?
-
-The Kessock Point to Ardmore crossing has been operated since 2012 by Firthlink, a company jointly owned by the regional council and a private marine contractor, under a ten-year service agreement that was extended in 2022 for a further five years. The agreement sets a minimum number of annual sailings, currently 6,240, and leaves the operator to distribute them across summer and winter timetables, subject to approval by the council's transport committee. In practice the committee rarely amends the operator's proposals; it has done so twice in the last decade, both times over school-day sailings.
-
-The fleet is two vessels. MV Corran, built in 1998, carries 180 passengers and 24 cars, and MV Linnhe, delivered in 2019, carries 220 passengers and 30 cars and usually covers the early runs because it handles the swell at the harbour mouth better. Each vessel goes into dry dock for around three weeks every winter, and during that time the service runs on a single ship. Winter timetables are drafted in the summer, published for consultation in September, and take effect on the second Sunday of November. This year's consultation closed on 30 September with 214 responses.
-
-The 06:15 Saturday sailing is suspended from 9 November until 1 March. The first Saturday departure from Kessock Point during that period will be 07:30, arriving at Ardmore at 08:05. There are two exceptions: the 06:15 will run on 13 December and 20 December, the Christmas market Saturdays, when the operator expects enough demand to justify a second crew.
-
-For a market shift that starts before 07:30, that obviously does not work. Firthlink's stated reason is that Saturday early loadings in the 2024 to 2025 winter averaged 11 passengers and three vehicles, and the crew hours freed up are being used to keep the weekday 06:00 sailing, which carries far more people. The consultation document does say the operator would "consider" reinstatement if usage evidence emerged, so if several of your colleagues rely on the sailing, a joint letter to the council's transport committee before its January meeting is the right channel. The committee secretary is listed on the council website under Ferry Services.
-
-In the meantime, the realistic alternative is the road. The X17 coach leaves Kessock Point square at 05:20 on Saturdays and reaches Ardmore bus station at 06:30 via the bridge at Inverbeg; from there it is a ten-minute walk to the fish market. Season ticket holders can claim a partial refund for the suspended months, roughly 9 pounds per month for a Saturday-only user, by applying at the Firthlink ticket office with the ticket number. Claims have to be made within 28 days of the timetable change.
-
-If you drive, the route via Inverbeg is about 41 miles and takes just under an hour in good conditions, though the bridge closes in high winds a few times each winter.
-
 ## 000031-208
 
 Cycling from Ashby Green to Tollgate Park while Mill Lane bridge is shut
@@ -4185,24 +3476,6 @@ Hartley Road's cycle lane is the stepped-kerb type, separated from traffic, and 
 At the park, there is covered cycle parking at each of the three office blocks, and Block C has showers and lockers open to any tenant's staff with a building pass. Your employer's facilities team should be able to add you to the access list.
 
 As for the bridge, Mill Lane was closed in August after an inspection found corrosion in the steel deck beams. The council's current estimate for reopening is April, but that has already slipped once, from February, and the replacement steelwork has a long lead time. There was some local discussion about a temporary footbridge with a cycle channel, though the council has said the cost, around 380,000 pounds, cannot be justified for a closure of under a year. Check the council's roadworks page in March before assuming the old route is back.
-
-## 000031-209
-
-Can the Fernhill Local History Society borrow the Pelling sampler for its May 2027 exhibition?
-
-Question, from the society's secretary to the museum registrar: We are planning a village exhibition in St Bride's church hall from 8 to 23 May 2027 on Fernhill's needlework traditions. Could we borrow the 1784 sampler stitched by Ann Pelling that is on display in your textile gallery?
-
-Three things about this particular object decide what is possible, and none of them shows on the gallery label, so I will set them out first.
-
-First, the museum does not own the Pelling sampler. It is on long-term loan to us from a private lender, a descendant of the Pelling family, under an agreement renewed in 2023. That agreement allows us to display it here but not to lend it onward. Any loan to your society would therefore be a sub-loan, which needs the lender's written consent as well as ours, and the lender has reserved the right to refuse without giving a reason. So even if everything else were in order, the decision would not be entirely in our hands.
-
-Second, the sampler has a light budget. Silk embroidery coloured with the dyes and mordants of the 1780s fades cumulatively, and our conservator has set an annual exposure limit of 150,000 lux hours for this piece, which is roughly 50 lux for eight hours a day, six days a week, for most of a year. It has been on display since February 2026 and is scheduled to come off in January 2027 to rest in dark storage for at least twelve months. The resting period is not a formality; it is how the cumulative limit is kept. A May 2027 loan would fall in the middle of it.
-
-Third, any borrowing venue has to complete a facilities report showing it can meet our standards for security, environment and handling. For textiles that means light controllable to 50 lux, relative humidity held between 45 and 55 percent without sharp swings, and a lockable case. Church halls can sometimes manage this with a hired display case and blackout, but in our experience humidity is the hardest part in older buildings with intermittent heating.
-
-Given all that, we cannot lend the sampler for May 2027. The rest period alone rules it out, before the lender's consent or your venue even comes into it. A loan in 2028 or later is possible in principle, provided the lender agrees and St Bride's or another venue can meet the conditions above. If you would like to pursue that, the first step would be for me to approach the lender informally, which I am happy to do.
-
-For the 2027 exhibition, we can offer a high-resolution facsimile printed on cotton at actual size, 34 by 41 cm, from photography taken in 2024. Other societies have used these with a short label explaining where the original is held, and visitors generally respond well, especially when the facsimile sits alongside a society's own pieces. There is no loan fee; we would ask only for the printing cost, around 120 pounds, and a credit line. We could also lend two of our own nineteenth-century Fernhill samplers from the reserve collection, which are wool on linen and much less light-sensitive, subject to the same facilities report.
 
 ## 000031-210
 
@@ -4452,28 +3725,6 @@ In the meantime, a few things help. If an item you want is on the shelf at Westg
 
 Questions or comments can go to circ@carvercountylibrary.org or the comment box by the Eastbrook entrance.
 
-## 000031-222
-
-Can graduate students book the Ashworth Special Collections reading room on Saturdays this spring?
-
-From the Ashworth Library Graduate Research Liaison newsletter, January issue
-
-The question of weekend access to Special Collections has come up at nearly every Graduate Council meeting since 2023, and this year the library took it on formally. In August, the Dean of Libraries appointed a working group of seven people: two curators, the head of reading room services, a representative from Facilities, a security coordinator, and two graduate students nominated by the Graduate Council, one from History and one from Art History. The group met eight times between September and December, usually on Tuesday afternoons in the Dunmore conference room.
-
-The first several meetings focused on gathering information. The group sent a survey to all 1,140 registered graduate students in October and received 312 responses, a response rate of about 27 percent, which the library's assessment office considered strong for a voluntary survey. The survey asked about current use of Special Collections, preferred days and times, and whether respondents had ever postponed archival work because of weekday-only hours. The group also reviewed weekend policies at five peer institutions, conducted short interviews with reading room staff about how a Saturday shift would affect their schedules, and asked Facilities for an estimate of the cost of running climate controls and security on a sixth day. Minutes from each meeting are posted on the library's governance page, and the full survey instrument is available on request.
-
-Among survey respondents, 61 percent said they had delayed or reduced archival research because of weekday hours, most often because of teaching assistant duties. Saturday mornings were the most requested time by a wide margin.
-
-The answer is yes, with limits. Beginning Saturday, February 7, the reading room will open to graduate students from 10 a.m. to 2 p.m. on Saturdays through May 2, except March 14 during spring break. Saturday visits are by appointment only, and appointments must be made through the Aeon request system at least 72 hours in advance, which means by Wednesday morning for that week's Saturday. Each Saturday has four researcher seats, so popular dates may fill.
-
-Materials have to be requested at the same time as the appointment, because only one staff member will be on duty and there will be no retrieval from the off-site storage facility on weekends. Items stored off-site need to be requested at least a week ahead so they can be brought to the Ashworth building and held for you. Oversize materials and items flagged for conservation review will not be served on Saturdays.
-
-The program is a pilot. The library will track how many seats are booked and how many appointments are missed, and the working group will decide in May whether to continue it next fall. Two or more no-shows in the semester will mean losing Saturday booking privileges for the rest of the pilot, so please cancel in Aeon if your plans change.
-
-Faculty and undergraduates are not included in the Saturday pilot for now. Undergraduates working on a senior thesis can ask their adviser to sponsor a weekday appointment as usual.
-
-Questions can go to Cora Lindqvist, head of reading room services, at speccoll@ashworth.edu.
-
 ## 000031-223
 
 Re: Hollis Basin loop, Aug 14-18: canisters or a hang?
@@ -4575,22 +3826,6 @@ To book a slot, Jonah should email Mr. Okafor directly or sign up on the sheet o
 If the make-up score is lower than Jonah hoped, the regular reassessment option still applies afterward, once per unit, within the same quarter. Feel free to call me at extension 3307 if anything is unclear.
 
 Corinne Abara, Assistant Principal, Westbrook High School
-
-## 000031-228
-
-Can families return the Grade 7 watershed field trip forms electronically?
-
-A parent asked at Tuesday's coffee morning: "We don't have a printer at home. Can we do the Millstream permission slip online, or does it have to come back on paper?"
-
-Yes. The permission form and the emergency contact sheet for the November 6 trip to Millstream Nature Center can both be completed in ParentSquare, and a typed signature there counts as a signature. Look for the post titled "Grade 7 Millstream Trip - Forms" from Ms. Halvorsen, open the form link, and submit it by Friday, October 30. The one exception is the medication authorization: if your child needs an inhaler, EpiPen, or any other medication on the trip, that form still needs a handwritten signature from you and from the prescribing provider, and it has to reach the nurse's office on paper by the same date. If printing is the obstacle, the front office will print a blank copy for you, and the nurse can fax it to your provider.
-
-A few details that tend to come up. The ParentSquare form asks for the trip fee, $14, but paying online is optional; you can also send cash or a check made out to Lindell Middle School in an envelope with your child's name and homeroom. Families who receive free or reduced lunch do not pay the fee, and you do not need to tell anyone why when you check the "fee waived" box. If you have more than one seventh grader, fill out a separate form for each child, because the system ties each submission to one student's record. Chaperone volunteers need a separate form and a current background clearance on file with the district, which takes about a week to process, so that one is worth starting now if you want to come along.
-
-Some families have asked why the school moved to electronic forms in the first place. Until two years ago every trip ran on paper, and the seventh grade team spent the better part of a week before each trip chasing missing slips, sorting them by homeroom, and copying emergency contacts onto clipboards for the chaperones. Ms. Halvorsen, who has organized the Millstream trip since 2015, likes to say she once found a permission slip inside a returned library book. The switch to ParentSquare was approved by the site council in 2024, mostly to save that staff time, and it has worked well enough that the eighth grade has adopted it for the Sacramento trip as well.
-
-As for the trip itself, students will spend the day testing water samples from Millstream Creek, comparing readings above and below the old mill dam, and the results feed directly into the unit project they turn in before Thanksgiving. Buses leave at 8:15 and return by 2:45, so regular dismissal is not affected. Students should wear closed-toe shoes they do not mind getting muddy and bring a bag lunch; the center has no food service. Rain does not cancel the trip, though lightning would.
-
-If the October 30 deadline passes without a form, the team will call home on November 2 and 3, and students without a completed form by the morning of the trip will spend the day in the library with an alternate assignment. Questions about the forms can go to the front office at 555-0148; questions about the trip itself are best sent to Ms. Halvorsen through ParentSquare.
 
 ## 000031-229
 
@@ -4723,24 +3958,6 @@ Your group can reserve the Cedar Room every Wednesday from 6 to 8 p.m. for a twe
 The Cedar Room seats ten around tables and is separated from the lending floor by a full-height door. It has step-free access, adjustable lighting, and an induction loop. The booking includes fifteen minutes before the session for arranging furniture. Leave the tables in their marked positions afterward so the morning advice service can start without resetting the room.
 
 Ask reception for the key on arrival and return it before the branch closes at 8:15. The named tutor must remain with the group and tell the desk how many people attended. If a session is cancelled, telephone before 4 p.m. so staff can release the room and adjust the closing check. After the first eight weeks, we will contact the tutor about the next block of dates.
-
-## 000031-235
-
-Where should we record the Calder jug's temporary location during the repainting of Gallery 2?
-
-The jug is moving to cupboard C4 in the ceramics store for nine days. Its return date is already agreed, and the registrar has asked where that short move belongs in our catalogue.
-
-When I joined the museum, temporary moves lived in a red exercise book beside the stores key. The book had columns for the object number, destination and initials of whoever carried the object. Some entries were immaculate. Others had been squeezed into the margin after someone discovered that a planned afternoon move had become a fortnight in the photography room.
-
-The red book survived two changes of director. I remember opening it during a stocktake and finding a pressed exhibition invitation between the pages. The invitation showed the old ceramics gallery, with the jug on a plinth that has since gone to the education room. Several volunteers could identify the opening night from the arrangement of the flowers.
-
-Our first electronic catalogue arrived much later. Staff kept a paper notebook alongside it for a while because the store computer took several minutes to start. That overlap produced some affectionate arguments about handwriting and passwords, which still come up whenever we introduce a new form.
-
-Update the jug's Current location field to "Ceramics store, C4" when it physically arrives there, and create a movement entry recording the departure from Gallery 2. Put the planned return date in that movement's Expected return field. Keep "Gallery 2, case 6" as its Normal location.
-
-The distinction lets the morning inventory show where the jug can be found while preserving its usual display position. A note in the exhibition description would leave the inventory pointing visitors and staff to an empty case.
-
-Record the move under accession number 1988.14, with the handler's initials and the actual moving date. When the jug returns, close the temporary movement and restore its Current location to the case. If repainting overruns, amend Expected return so the overdue-movement list remains useful.
 
 ## 000031-236
 

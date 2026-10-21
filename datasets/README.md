@@ -114,9 +114,11 @@ Unnecessary framing has exactly 100 hits and 100 no-hits in [development](ai-syn
 
 Its [development assessment](../runners/results/boilerplate-and-signposting-v13-development.md) catches 99 hits with zero false positives. The separate [frozen holdout assessment](../runners/results/boilerplate-and-signposting-v13-holdout.md) catches 100 hits with nine false positives, exceeding the fixed five-false-positive target.
 
-Buried answer uses complete texts. The reviewed [development pool](ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md) contains 120 hits and 120 no-hits; the independently reviewed [holdout pool](ai-synthetic/texts/000032-boilerplate-and-signposting-buried-answer-holdout.md) contains 117 hits and 123 no-hits. All 480 texts have completed review coverage and independent QA, with 76 development and 100 holdout mandatory cases retained. Source-overlap clearance and balanced 100/100 selection remain pending.
+Buried answer uses complete texts. Its reviewed [development](ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md) and protected [holdout](ai-synthetic/texts/000032-boilerplate-and-signposting-buried-answer-holdout.md) each contain 100 hits and 100 no-hits. All 176 mandatory cases remain; 80 surplus texts and their labels remain in the full-pool archive at `72f7d7da`.
 
-The existing `buried-answer-development-review.json` and `buried-answer-holdout-review.json` records distinguish completed Opus opinions, fresh Codex reviews, repairs, and unresolved work. The user authorizes Codex for remaining reviews after the approved Claude account reaches its weekly limit; actual reviewer identities remain recorded separately.
+Six source reviewers clear all 3,259 overlap candidates before selection. The selected sets retain 29 same-split related pairs in 27 groups of at most three texts. The development classifier catches 98 hits with zero false positives; its frozen holdout assessment follows separately.
+
+The existing `buried-answer-development-review.json` and `buried-answer-holdout-review.json` records distinguish completed Opus opinions, authorized fresh Codex reviews, repairs, and the independently verified selection. Their historical review statistics describe the archived 240-text pools; selection fields describe the active 200-text sets.
 
 ## Commands
 
