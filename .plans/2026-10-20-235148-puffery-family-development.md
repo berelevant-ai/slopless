@@ -1,10 +1,21 @@
-# Puffery And Overstatement Development
+# Sequential Slopless V2 Family Development
 
 ## Goal
 
-Prepare reviewed development and protected holdout datasets for every consolidated issue type in puffery and overstatement, then tune concise Jev prompts using development alone. Stop with a reviewed development report and frozen candidates; reserve holdout model evaluation for a later task.
+Complete the next three families in order: unsupported authority, staged contrasts, then boilerplate and signposting. For each family, prepare reviewed datasets, tune all its checks on development, freeze candidates, evaluate holdout once, and commit/push the reviewed results before continuing automatically.
 
-Execution started on 2026-10-21 at the user's request. The two finalized types are inflated evaluation and sweeping generalization; each uses passage input. Holdout inference remains excluded from this task.
+Puffery and overstatement is complete through isolated development and holdout classification; its results remain below. This extension is planning only until the user supplies the next execution goal.
+
+## Execution Order
+
+1. Unsupported authority (`unsupported-authority`), using `prompts/v11/`.
+2. Staged contrasts (`staged-contrasts`), using `prompts/v12/`.
+3. Boilerplate and signposting (`boilerplate-and-signposting`), using `prompts/v13/`.
+
+- Finish every consolidated check in one family before beginning the next family. Within a family, delegate independent authoring and review tasks in parallel.
+- After committing a family, continue to the next without requesting feedback or ending the execution goal. Completing the first family is a checkpoint, rather than completion of this sequence.
+- Keep checks that fail the frozen performance target explicitly failed. Complete their bounded tuning and assessment, preserve the best candidate and remaining errors, then continue to the next family.
+- Finish after all three families have reviewed data, completed development trials, frozen candidates, one holdout assessment, and committed reports. Report all passed and failed targets together.
 
 ## Previous Method And Lessons
 
@@ -14,7 +25,7 @@ Execution started on 2026-10-21 at the user's request. The two finalized types a
 - Model agreement measures agreement. Accepted definitions and independent adjudication decide labels; valid difficult cases survive reviewer disagreement.
 - Development gains sometimes failed to transfer to holdout. Preserve the split boundary and record development-derived prompt examples so later evaluation can measure transfer.
 
-## Scope And Definitions
+## Completed Puffery Scope
 
 1. Read the accepted family inventory and the implementations of `puffery-evaluative-claim`, `formulaic-challenges`, and `universalizing-claims`, including inherited examples and exceptions.
 2. Consolidate those sources into issue definitions in the accepted V2 taxonomy plan. Give each type its input, offending principle, hit, close no-hit, and boundary with adjacent families.
@@ -23,6 +34,53 @@ Execution started on 2026-10-21 at the user's request. The two finalized types a
 
 For each finalized type, create 200 development examples and 200 independently authored holdout examples, using passages or complete texts according to its declared input. A family with K finalized types therefore has 400K examples and four dataset files per type.
 
+## Next Family Coverage
+
+These are required behaviors to consolidate, not a fixed count of new checks. At the start of each family, inspect the cited implementations and accepted taxonomy, define distinct defects, merge equivalent constructions, and freeze the resulting issue definitions before generating either split.
+
+### 1. Unsupported Authority
+
+- Consolidate vague attribution from `authority-padding`, `uncited-authority`, and `weasel-attribution`. Include unnamed experts, unspecified studies, consensus claims, and appeals to evidence whose relevant source stays unidentified in the passage.
+  - Start with `src/rules/syntactic-patterns/authority/`, `src/rules/phrases/weasel-attribution.ts`, and its data file.
+- Cover prestige and self-credentialing from `humble-bragger` and the accepted prestige-list addition. Judge credentials, outlet names, years of experience, and follower counts used to imply support beyond their relevance.
+  - Start with `src/rules/phrases/humble-bragger.ts`. Preserve relevant qualifications, direct experience, eligibility requirements, and audience-size claims supported by follower counts.
+- Use passage input with enough neighboring writing to resolve an attribution. Include named sources, references earlier or later in the passage, meaningful uncertainty, attributed criticism, and unsupported claims surrounded by irrelevant numbers.
+- Judge how support is presented in the supplied writing. External source authenticity and verification remain with the editor; inflated evaluation and unspecified substantive content retain their existing families.
+
+### 2. Staged Contrasts
+
+- Consolidate negation reframes across sentences and paragraphs, including contractions, never, nobody, missing/absence wording, rejected alternatives, and temporal replacements such as "used to be X; now Y".
+  - Inspect `src/rules/syntactic-patterns/contrast/negation-reframe.ts` and its private matchers. Treat these wordings as variants of a defect, rather than separate checks per negator.
+- Cover abstract oppositions, less/more and paired comparisons, blame reframes, and evidence-limitation sequences. Inspect `contrastive-aphorism.ts`, its private matchers, `blame-reframe.ts`, and `src/rules/semantic-thinness/patterns/abstract-contrast.json`.
+- Include the accepted imagined-objection behavior: a straw alternative or rhetorical opponent manufactured to dramatize an otherwise direct claim. Preserve genuine objections, useful distinctions, and explained alternatives.
+- Use passage input, including multi-paragraph cases when both halves are needed. Balance factual corrections, technical exclusions, supported before/after changes, dialogue, and useful comparisons against rhetorical reversals in the same domains.
+- Judge the unnecessary staged opposition. Negation alone remains ordinary language; an unexplained metaphor, missing takeaway, or inflated evaluation alone belongs to its existing check.
+
+### 3. Boilerplate And Signposting
+
+- Consolidate introductory frames, reader instructions, empty defensive prefaces, evaluative labels, graded "useful/simple/boring" wrappers, staged questions, stock endings, and redundant narration of the document's layout or method.
+  - Inspect `src/rules/syntactic-patterns/lead-ins/`, `src/rules/syntactic-patterns/closers/`, `src/rules/orthography/colon-dramatic.ts`, and `src/rules/academic-slop/academic-formula-frames.ts` with its data.
+- Follow mixed legacy behavior into the semantic pattern files and `generic-signposting` private matchers. A supplied concrete point inside an unnecessary wrapper belongs here; a missing point retains its semantic-thinness label.
+- Define buried answers as `input: text`: unnecessary preliminary explanation delays the main answer identified by the submitted question, title, or argument. Generate complete texts with the necessary question and answer intact.
+  - Preserve useful introductions, necessary prerequisites, meaningful methodology, source credits, qualified answers, and purposeful navigation. Judge the submitted text without assuming an external reader profile.
+- Use passage input for local framing checks; include headings, adjacent paragraphs, or closing context when required. Preserve the distinction between one unnecessary wrapper and repetitive structures handled by rhythm and repetition.
+- Retain the legacy `significance-density` coverage for unnecessary verbal importance announcements such as "Importantly" and "It is worth noting". Judge the signposting contribution here; keep density aggregation separate from detection and structural repetition in its existing family.
+- Keep repeated explanations and repeated closers assigned to wordiness and redundancy. Layout conventions and decorative typography remain outside this sequence.
+
+## Per-Family Execution
+
+1. Freeze consolidated definitions in the accepted taxonomy, including `input: passage` or `input: text`, source coverage, hits, close no-hits, and boundaries with existing families.
+2. Generate and reconcile each type's development and independently authored holdout sets under the review protocol below. Finish all types before detector tuning.
+3. Freeze exactly 100 hits and 100 no-hits per split and type, preserve mandatory hard cases, archive surplus, and independently audit global IDs and cross-split/source overlap.
+4. Reuse the completed runner and shared prompt instructions. Tune every check on development under the existing bounded selection and stopping rules; freeze all family candidates and settings.
+5. Have a separate evaluator run each selected candidate once on its holdout. Review all errors, compare with development, and report the same 95-catch/five-false-positive reference target.
+   - Preserve labels and prompts. Record transfer failures without selecting a different candidate from holdout scores or tuning on exposed examples.
+6. Obtain fresh review of requests, scores, errors, provenance, and reports. Run relevant validation and Fixture3 checks, then commit/push the family and continue to the next numbered family.
+
+- Assign fresh development authoring contexts per family. Holdout authors, reviewers, and cross-split auditors never become prompt authors; the orchestrator supplies only approved definitions and development material to authors.
+- Keep text-level inputs intact. Match hit/no-hit text-length distributions and test request capacity before freezing execution settings; reduce batch size rather than truncating or splitting complete texts.
+- The generation, balancing, review, prompt-length, and holdout-protection requirements below apply to every new family and type.
+
 ## Dataset Generation And Review
 
 ### Generation
@@ -30,7 +88,7 @@ For each finalized type, create 200 development examples and 200 independently a
 - Assign one author context per type and split. Authors receive the accepted definition and variation requirements; holdout authors receive independently written briefs without development passages or candidate prompts.
 - Use at least eight subject areas per type, with both labels represented in each. Include business writing, technical explanations, factual reporting, practical advice, personal writing, and storytelling where relevant.
 - For passage-level types, target 25 short passages of 8-20 words, 50 medium passages of 21-44 words, and 25 longer passages of 45-90 words per class. Keep hit and no-hit length distributions matched.
-- For text-level types, generate complete cohesive writing with intact sample boundaries and enough length for the stated defect. Match the classes by complete-text length; judge the submitted text intact in requests.
+- For buried-answer texts, target 25 short texts of 250-449 words, 50 medium texts of 450-749 words, and 25 longer texts of 750-1,000 words per class and split. Preserve complete context and match both classes by text length.
 - Vary sentence structure, punctuation, subjects, indirect wording, and where resolving information appears. Include nearby explanations, useful implicit meaning, misleading unrelated detail, quotations under criticism, and wording associated with neighboring checks.
 - Give both classes names, numbers, domain terms, and evaluative words. Generate realistic excerpts whose labels depend on their meaning rather than obvious surface cues or comments explaining the intended label.
 - Audit class-associated words, attribution, sentence structures, and explanatory framing before detector evaluation. Rewrite unnatural or shortcut-heavy prose, then obtain a new blind review.
@@ -55,34 +113,32 @@ For each finalized type, create 200 development examples and 200 independently a
 - The holdout generation and review contexts handle its writing, labels, snippets, and adjudications. They return only counts, hashes, and readiness status to the prompt author; semantic review findings stay private.
 - Holdout reviewers and cross-split auditors never become prompt authors for this family. Keep their contexts separate throughout execution.
 - After data review and balancing, freeze holdout files and record their hashes. The authoring context never opens them, searches their contents, or includes their text in prompt examples.
-- Run Jev only on explicit development paths in this task, with development-only mode selected. Check every collection's declared split before credentials or SDK initialization, and reject holdout or missing split metadata, including mixed directories and misleading filenames.
-- Holdout generation and label review are part of data preparation. Holdout detector evaluation remains a separate later task after candidate freeze.
+- During tuning, run Jev only on explicit development paths with development-only mode selected. Check every collection's declared split before credentials or SDK initialization, and reject holdout or missing split metadata, including mixed directories and misleading filenames.
+- Holdout generation and label review are part of data preparation. After the complete family's candidates freeze, the separate evaluator runs the planned one-shot holdout assessment before the sequence advances.
+- Holdout errors never enter a later prompt revision for the same assessment. A new tuning round influenced by them requires fresh independently authored holdout material.
 
-## Runner Preparation
+## Completed Runner Preparation
 
-- Reuse `runners/datasets.mjs`, the version 2 schema, `runners/jev.mjs`, and its existing request and response helpers.
-- `loadDataset` currently filters and assigns `semantic-thinness`. Extend the existing runner with explicit family selection while preserving its legacy default and named-check scoring.
-- Add classification-only execution to the same runner, covering batch planning, scoring, completion, and resumption together. Record family and execution mode in snapshots; preserve the current default highlighting behavior.
-- Interpret absent legacy snapshot fields as `family: semantic-thinness` and detection plus highlighting. Add an offline contract proving an old-format result still validates and resumes under those defaults.
-- Extend `scripts/datasets-contract.mjs` through the existing Fixture3 suite to cover the new family, check-scoped no-hits, classification-only completion/resumption, and requests containing text without labels or snippets.
-- Test development-only protection with synthetic contract data: holdout metadata under an innocuous filename, a mixed directory, and missing split metadata. Preserve offline holdout validation and later explicitly requested holdout inference.
-- Keep one family trial JSON using the previous temporary orchestration approach and exported runner helpers. Append an immutable snapshot and response batches for each revision; the permanent runner's existing single-run snapshot remains a separate supported format.
-- Both the permanent CLI and temporary tuning driver must use the same exported split preflight before credentials or SDK initialization. Exercise both with the synthetic holdout, mixed-directory, and missing-metadata rejection cases.
-- Reproduce the new-family rejection and holdout-protection requirement before changing the runner; verify both through the public runner afterward. Use the narrowest Specular verification required by the eventual code-change scope.
+Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all three families.
+
+- `runners/datasets.mjs` and the version 2 schema load paired text and labels. `runners/jev.mjs` already provides family selection, classification-only execution, snapshots, resume, scoring, and label-only rescoring.
+- Existing Fixture3 contracts cover legacy defaults, classification-only completion/resumption, label-free requests, immutable inference validation, and split protection before credential or SDK access.
+- Temporary tuning orchestration uses the exported runner helpers and shared development-only preflight. Keep one family trial JSON with immutable prompt snapshots and responses; preserve the public runner's single-run result format for holdout checks.
+- Retain input, prompt, request, prediction, and score hash checks when adapting orchestration to each new family. Verify whole-text request capacity before the first text-level baseline; scope any demonstrated runner limitation through the repository's executable-spec and contract workflow.
 
 ## Prompt Development
 
-1. Create `prompts/v10/shared.md` with the existing shared instructions and one Markdown prompt per finalized type. Keep each assembled prompt within 1,000 words.
+1. Use the family's version directory from Execution Order, with the existing complete-passage instructions in `shared.md` and one Markdown prompt per finalized type. Keep each assembled prompt within 1,000 words; preserve completed `v10` prompts.
 2. State the principle, highlight offending wording in varied development examples, give close no-hits, and require detection of unseen variants. Keep common instructions in `shared.md`.
-3. Freeze a first prompt baseline before inference. Use `jev-1.13.0`, SDK `0.7.0`, threshold `>= 0.5`, 100 independent questions per request, and one selected check per passage.
+3. Freeze a first prompt baseline before inference. Use `jev-1.13.0`, SDK `0.7.0`, threshold `>= 0.5`, and one selected check per complete input. Batch passage checks at 100 independent questions; freeze a validated whole-text batch size before its baseline and preserve it across comparable trials.
 4. Score all 100 development hits and all 100 development no-hits. Inspect every missed hit and false positive in its complete passage; revise the general decision boundary rather than adding passage-specific exceptions.
 5. Use a proposed development gate of at least 95 caught hits and at most five false positives per 100. Plan three revisions per type, with a maximum of six revisions after baseline to limit repeated fitting to the same examples.
 6. Any qualifying candidate outranks every nonqualifying candidate. Within each group, rank by fewest total errors, then more caught hits, then the earlier revision; compare new candidates with the best recorded candidate.
-7. Stop immediately at 100 caught and zero false positives, after two successive revisions fail to improve that best-so-far result, or at the revision limit. Reset this two-revision counter only on an improvement; ties retain the earlier candidate.
-8. When no candidate meets both thresholds, freeze the best observed revision under the same error-count and recall ordering and report the failed development gate. Complete data preparation and measured tuning for every type before returning; keep unready checks explicitly unready.
+7. Stop tuning that check at 100 caught and zero false positives, after two successive revisions fail to improve that best-so-far result, or at the revision limit. Reset this two-revision counter only on an improvement; ties retain the earlier candidate.
+8. When no candidate meets both thresholds, freeze the best observed revision under the same error-count and recall ordering and report the failed development gate. Complete data preparation and measured tuning for every type before advancing the family; keep unready checks explicitly unready.
 
 - Freeze labels before tuning. A newly discovered label defect requires independent correction and offline rescoring of every saved candidate on the same corrected set; preserve the original scores and record that change separately from detector improvement.
-- The current runner rejects changed label hashes. Implement offline rescoring that verifies identical target text, example IDs, check assignments, prompts, requests, and predictions, then records the corrected judgment hash separately. Changed inference inputs require new calls.
+- The existing offline rescoring verifies identical target text, example IDs, check assignments, prompts, requests, and predictions, then records the corrected judgment hash separately. Use it for independently approved label corrections; changed inference inputs require new calls.
 - Keep exact prompt snapshots, request/input hashes, raw predictions, timings, token usage, and per-type transitions in one family development result file. Record every attempted revision, including regressions.
 - Ask a fresh adversarial reviewer to inspect prompts against the definition for unnecessary restrictions, broad exemptions, copied examples, and exceptions tailored to individual passages. Disclose every development-derived demonstration.
 - Keep holdout sealed throughout tuning and review. Model, threshold, definitions, and generation rules stay fixed during a comparable prompt trial.
@@ -90,21 +146,21 @@ For each finalized type, create 200 development examples and 200 independently a
 ## Files And Artifacts
 
 - Update `.plans/2026-10-20-125402-v2-rule-taxonomy.md` with consolidated definitions and progress; keep this file as the execution plan.
-- Store dataset pairs in `datasets/ai-synthetic/passages/` or `texts/` according to declared input, using `<six-digit-id>-puffery-and-overstatement-<type>-<development-or-holdout>.md` and matching `.labels.json`.
+- Store dataset pairs in `datasets/ai-synthetic/passages/` or `texts/` according to declared input, using `<six-digit-id>-<family>-<type>-<development-or-holdout>.md` and matching `.labels.json`.
 - Keep IDs globally unique. Update the existing `datasets/README.md` index rather than adding a catalog.
 - Save one compact review record per collection under `runners/results/`, following the existing `<type>-<split>-opus-review.json` convention.
 - Use collection ID, split, and pass in temporary generation and review filenames. Retain distinct responses until hashes, final snippets, and adjudications are verified.
-- Keep prompts in `prompts/v10/`, execution in the existing `runners/`, and one family development result JSON plus its concise Markdown report in `runners/results/`.
+- Keep new prompts in `prompts/v11/`, `v12/`, and `v13/` in the stated family order. Keep execution in the existing `runners/`, with one development trial JSON and concise report per family, plus immutable check holdout results and one family holdout report.
 - Record worklogs and commit/push completed milestones on `main`, preserving unrelated changes. Keep production detection and published packages unchanged during this task.
 
 ## Completion And Report
 
 - Every finalized type has independently reviewed and frozen 100-hit/100-no-hit development and holdout pairs, exact valid snippets, and zero unresolved material data objections.
 - Each type has a measured baseline, recorded prompt iterations, a frozen selected candidate, an explicit pass/fail against the proposed development target, and a fresh review of remaining errors and overfitting risks.
-- Dataset validation, relevant Fixture3 contracts, formatting, and changed-code checks pass. Independent review confirms recorded results and verifies holdout input was excluded from Jev calls.
+- Dataset validation, relevant Fixture3 contracts, formatting, and changed-code checks pass. Independent review confirms recorded results and verifies holdout input was excluded from development Jev calls and prompt authoring.
 - Report per type: class counts, review corrections, baseline and selected caught hits, missed hits, false positives, new/lost catches, corrected/new false positives, prompt length, and remaining errors.
-- Distinguish development performance from the later holdout assessment. Keep mixed-set evaluation, broader corpus validation, highlighting, CLI integration, and release in the V2 plan for their separate stage.
-- When execution is requested, work autonomously across all finalized types through the complete data-review and bounded tuning process. Report passed gates, failed targets, or external blockers with their evidence; never weaken labels or count an unready check as ready.
+- Distinguish development performance from the frozen-candidate holdout assessment. Keep mixed-set evaluation, broader corpus validation, highlighting, CLI integration, and release in the V2 plan for their separate stage.
+- When execution is requested, work autonomously through all three next families and every finalized type. Continue after each family checkpoint; report the whole sequence only after all three complete their bounded process or a verified external blocker prevents further progress.
 
 ## Development Outcome
 
