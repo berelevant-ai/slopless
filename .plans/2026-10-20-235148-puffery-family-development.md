@@ -82,6 +82,7 @@ These are required behaviors to consolidate, not a fixed count of new checks. At
 6. Obtain fresh review of requests, scores, errors, provenance, and reports. Run relevant validation and Fixture3 checks, then commit/push the family and continue to the next numbered family.
 
 - Assign fresh development authoring contexts per family. Holdout authors, reviewers, and cross-split auditors never become prompt authors; the orchestrator supplies only approved definitions and development material to authors.
+- Baseline prompt drafting may overlap protected holdout review after the complete development sets pass independent QA and freeze. Holdout authors receive only the frozen definitions; finish all split review, selection, and overlap checks before the first detector trial.
 - Keep text-level inputs intact. Match hit/no-hit text-length distributions and test request capacity before freezing execution settings; reduce batch size rather than truncating or splitting complete texts.
 - The generation, balancing, review, prompt-length, and holdout-protection requirements below apply to every new family and type.
 

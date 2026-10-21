@@ -4,7 +4,7 @@
   "family": "unsupported-authority",
   "type": "prestige-padding",
   "split": "development",
-  "status": "READY-FOR-POST-CORRECTION-QA",
+  "status": "READY-FOR-SUBSET-QA",
   "recordedAt": "2026-10-21T10:10:09.946Z",
   "frozenDefinition": {
     "commit": "b5c1110c",
@@ -13,22 +13,20 @@
     "method": "Confirmed live unsupported-authority block byte-equal to the block at b5c1110c before reviews; generic helper excludes taxonomy example writing."
   },
   "counts": {
-    "passages": 260,
-    "hit": 121,
-    "noHit": 139,
-    "initialPool": 220,
-    "additions": 40
+    "passages": 200,
+    "hit": 100,
+    "noHit": 100
   },
   "dataset": {
     "markdown": {
       "path": "datasets/ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.md",
-      "sha256": "5521ea3a85f8481385f8bd6ee5c9a3f72c139782fcee86b38359a4d2e20f287d"
+      "sha256": "83be6bdb663b4fc657a883857d9043ae80267ed4f56cdc434bb4b186f80b97e7"
     },
     "labels": {
       "path": "datasets/ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.labels.json",
-      "sha256": "e9a5c1288eb954b17857c744b1467734c9fc7b05d3b46c39aadac641c6aa69f3"
+      "sha256": "1f4063ec0b3df73060e15681a8f20c7cfb8a2710dad111babd4f0f110166c997"
     },
-    "textSha256": "5521ea3a85f8481385f8bd6ee5c9a3f72c139782fcee86b38359a4d2e20f287d"
+    "textSha256": "83be6bdb663b4fc657a883857d9043ae80267ed4f56cdc434bb4b186f80b97e7"
   },
   "authoring": {
     "sourceRows": {
@@ -312,10 +310,16 @@
         "final": 9
       },
       "resolution": "Nine explicit independent no-hit overrides approved by the parent; raw Opus hit judgments remain unchanged."
+    },
+    "scope": "Original full-pool review: 260 passages in each role, 780 raw judgments. All 200 selected passages retain the same three-role coverage; current active labels use the nine approved overrides, all retained as mandatory. No new inference was performed for selection.",
+    "selectedCoverage": {
+      "blind": 200,
+      "adversarial": 200,
+      "final": 200
     }
   },
   "finalJudgmentAndSnippetProvenance": {
-    "method": "Canonical judgments follow the final-pass Opus outputs for 251 passages and the nine explicit no-hit overrides in postIndependentAdjudication for the remaining passages. Every remaining hit snippet is copied unchanged from final-pass Opus. Corrected no-hit labels omit snippets. Resolve raw judgments by id in the retained final artifacts.",
+    "method": "The selected canonical judgments preserve 191 final-pass Opus classifications and all nine approved independent no-hit overrides. Every selected hit snippet is unchanged from the archived label and final-pass Opus output. Full-pool provenance remains in fullPoolHistory and original raw artifacts.",
     "artifacts": [
       {
         "path": "/tmp/000025-prestige-padding-development-20261021-105216-final-v2-batch1-output.json",
@@ -411,59 +415,60 @@
     ]
   },
   "coverage": {
+    "scope": "Current selected 200-passage development subset; full-pool coverage is preserved in fullPoolHistory.",
     "wordCounting": "Whitespace-separated words; short 8-20, medium 21-44, long 45-90.",
     "domains": {
       "health": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 9,
+        "noHit": 7
       },
       "software": {
-        "hit": 12,
-        "noHit": 14
+        "hit": 11,
+        "noHit": 10
       },
       "finance": {
-        "hit": 12,
-        "noHit": 14
+        "hit": 10,
+        "noHit": 9
       },
       "education": {
-        "hit": 11,
-        "noHit": 15
+        "hit": 8,
+        "noHit": 11
       },
       "food": {
-        "hit": 12,
-        "noHit": 14
+        "hit": 9,
+        "noHit": 11
       },
       "housing": {
         "hit": 13,
-        "noHit": 13
+        "noHit": 9
       },
       "transport": {
         "hit": 12,
-        "noHit": 14
+        "noHit": 12
       },
       "environment": {
-        "hit": 12,
-        "noHit": 14
+        "hit": 9,
+        "noHit": 9
       },
       "arts": {
-        "hit": 12,
-        "noHit": 14
+        "hit": 9,
+        "noHit": 12
       },
       "workplace": {
-        "hit": 12,
-        "noHit": 14
+        "hit": 10,
+        "noHit": 10
       }
     },
     "lengthStrata": {
       "hit": {
-        "short": 35,
-        "medium": 53,
-        "long": 33
+        "short": 26,
+        "medium": 49,
+        "long": 25
       },
       "noHit": {
-        "short": 35,
-        "medium": 68,
-        "long": 36
+        "short": 23,
+        "medium": 53,
+        "long": 24
       }
     },
     "boundaryAudit": [
@@ -474,137 +479,49 @@
     "shortcutAudit": {
       "cueCounts": {
         "names": {
-          "hit": 9,
-          "noHit": 10
+          "hit": 8,
+          "noHit": 7
         },
         "numbers": {
-          "hit": 12,
-          "noHit": 28
+          "hit": 10,
+          "noHit": 17
         },
         "because": {
           "hit": 1,
-          "noHit": 26
+          "noHit": 17
         },
         "therefore": {
           "hit": 1,
           "noHit": 1
         },
         "recommends": {
-          "hit": 19,
-          "noHit": 44
+          "hit": 16,
+          "noHit": 31
         },
         "awards": {
-          "hit": 19,
-          "noHit": 18
+          "hit": 17,
+          "noHit": 15
         },
         "experience": {
-          "hit": 21,
-          "noHit": 30
+          "hit": 14,
+          "noHit": 20
         },
         "reports": {
           "hit": 5,
-          "noHit": 21
+          "noHit": 18
         },
         "safety": {
-          "hit": 22,
-          "noHit": 26
+          "hit": 18,
+          "noHit": 25
         }
       },
-      "action": "Historical generation added 20 restrained hits and 20 relevant-support controls, giving safety/reliability counts of 25 hits and 23 controls under the original labels. Under the independently corrected labels, those unchanged texts contain the cues in 22 hits and 26 controls.",
-      "proseReview": "All unchanged passages retain three-role raw Opus coverage. Independent Dirac review and parent inspection supersede nine classifications as documented below; post-correction QA is pending."
-    },
-    "overlapAudit": {
-      "scope": "Assigned development collection only. Cross-split audit belongs to the parent protected auditor.",
-      "normalizedDuplicates": 0,
-      "repeatedEightWordSequences": [
-        {
-          "ids": ["000025-073", "000025-082"],
-          "text": "a teacher with twenty five years in classrooms"
-        },
-        {
-          "ids": ["000025-096", "000025-103"],
-          "text": "our caterer has cooked for the royal household"
-        },
-        {
-          "ids": ["000025-186", "000025-195"],
-          "text": "an editor with thirty years in literary publishing"
-        }
-      ],
-      "resolution": "The three shared sequences identify qualifications or background facts. Complete passages use different claims and settings: cultural-bias certainty versus an observed attendance record; waste decomposition versus a career biography; legal enforceability versus an indexing schedule. Retain the distinct boundary examples.",
-      "closestPairs": [
-        {
-          "ids": ["000025-200", "000025-210"],
-          "tokenJaccard": 0.3
-        },
-        {
-          "ids": ["000025-167", "000025-210"],
-          "tokenJaccard": 0.2727272727272727
-        },
-        {
-          "ids": ["000025-177", "000025-188"],
-          "tokenJaccard": 0.25
-        },
-        {
-          "ids": ["000025-096", "000025-103"],
-          "tokenJaccard": 0.23809523809523808
-        },
-        {
-          "ids": ["000025-190", "000025-212"],
-          "tokenJaccard": 0.23809523809523808
-        },
-        {
-          "ids": ["000025-062", "000025-110"],
-          "tokenJaccard": 0.23214285714285715
-        },
-        {
-          "ids": ["000025-027", "000025-073"],
-          "tokenJaccard": 0.22727272727272727
-        },
-        {
-          "ids": ["000025-030", "000025-095"],
-          "tokenJaccard": 0.22727272727272727
-        },
-        {
-          "ids": ["000025-182", "000025-191"],
-          "tokenJaccard": 0.22727272727272727
-        },
-        {
-          "ids": ["000025-187", "000025-198"],
-          "tokenJaccard": 0.22535211267605634
-        },
-        {
-          "ids": ["000025-036", "000025-124"],
-          "tokenJaccard": 0.2222222222222222
-        },
-        {
-          "ids": ["000025-052", "000025-063"],
-          "tokenJaccard": 0.2222222222222222
-        },
-        {
-          "ids": ["000025-073", "000025-082"],
-          "tokenJaccard": 0.2222222222222222
-        },
-        {
-          "ids": ["000025-204", "000025-216"],
-          "tokenJaccard": 0.21951219512195122
-        },
-        {
-          "ids": ["000025-073", "000025-140"],
-          "tokenJaccard": 0.21739130434782608
-        }
-      ],
-      "nearDuplicateReview": "Inspected the closest pairs and shared sequences. The closest token-set Jaccard is 0.3; the paired recruiter snippets contrast salary accuracy with audience reach, and the other pairs express distinct recommendations, facts, or inferences.",
-      "rawAudit": {
-        "path": "/tmp/000025-prestige-padding-development-20261021-105216-pool-audit-v2.json",
-        "sha256": "867b3018062e48de1c5ff8c81e2d52eaaf6a20ad555c916b87fc99de0feb0b62"
-      },
-      "rawAuditScope": "The retained raw audit uses original author labels. Its text-overlap findings still apply to the unchanged writing; current class-sensitive coverage and cue counts are recomputed above."
+      "provenance": "Recomputed from selected passages and their archived corrected labels. Historical generation audit remains in fullPoolHistory.coverage."
     }
   },
   "mechanicalVerification": {
     "readDocument": "passed",
     "schemaVersion": 2,
-    "labels": 260,
+    "labels": 200,
     "exactSnippets": "passed",
     "markdownFormattedBeforeRangeDerivation": true,
     "formatter": "pnpm exec prettier --write --prose-wrap preserve --ignore-path /dev/null",
@@ -615,15 +532,37 @@
     "neutralReviewPayloads": "id and text only",
     "uniqueAuthenticatedSessions": true,
     "allCurrentPassagesCoveredInAllThreeRoles": true,
-    "canonicalJudgmentProvenance": "251 final-pass Opus judgments plus nine parent-approved independent no-hit overrides; remaining hit snippets preserve final-pass Opus wording."
+    "canonicalJudgmentProvenance": "Retained text, labels, and snippets match corrected archive 17c79e39 exactly. Selection preserves 191 final-pass Opus classifications and nine independent no-hit overrides.",
+    "selectedSourceOrderPreserved": true,
+    "allMandatoryRetained": 53
   },
   "archive": {
     "completePoolPreserved": true,
-    "selectionPerformed": false,
+    "selectionPerformed": true,
     "commitPerformed": false,
-    "commitScope": "commitPerformed records this author task. The parent archived the original full pool in c7f068a2; corrected-pool archive authorization remains pending.",
-    "nextAction": "Dirac performs post-correction QA. Parent archives the corrected full pool and explicitly authorizes deterministic selection afterward.",
-    "originalPoolCommit": "c7f068a2"
+    "commitScope": "commitPerformed records this author task. The parent archived the original full pool in c7f068a2 and the corrected full pool in 17c79e39, then authorized the current balanced selection.",
+    "nextAction": "Dirac performs independent selected-subset QA. Parent freezes the reviewed subset afterward.",
+    "originalPoolCommit": "c7f068a2",
+    "correctedFullPool": {
+      "commit": "17c79e39",
+      "counts": {
+        "passages": 260,
+        "hit": 121,
+        "noHit": 139
+      },
+      "markdown": {
+        "gitPath": "datasets/ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.md",
+        "sha256": "5521ea3a85f8481385f8bd6ee5c9a3f72c139782fcee86b38359a4d2e20f287d"
+      },
+      "labels": {
+        "gitPath": "datasets/ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.labels.json",
+        "sha256": "e9a5c1288eb954b17857c744b1467734c9fc7b05d3b46c39aadac641c6aa69f3"
+      },
+      "review": {
+        "gitPath": "runners/results/prestige-padding-development-opus-review.json",
+        "sha256": "cb056380554beb006f238ebc780e2ab13175d78a483f8be74c8facefdaf3813c"
+      }
+    }
   },
   "calls": [
     {
@@ -1012,7 +951,7 @@
       "validation": "passed"
     }
   ],
-  "updatedAt": "2026-10-21T10:23:51.963Z",
+  "updatedAt": "2026-10-21T10:33:43.514Z",
   "postIndependentAdjudication": {
     "reviewer": "Dirac",
     "parentApproval": "Parent inspected all nine complete passages and approved no-hit under the already frozen b5c1110c definition.",
@@ -1143,6 +1082,734 @@
       "Recomputed corrected class, domain, length, and mandatory counts; validated the paired dataset schema, checksums, ranges, and exact snippets."
     ],
     "selectionPerformed": false,
+    "unresolvedMaterialConcerns": []
+  },
+  "fullPoolHistory": {
+    "archiveCommit": "17c79e39",
+    "statusAtArchive": "READY-FOR-POST-CORRECTION-QA",
+    "counts": {
+      "passages": 260,
+      "hit": 121,
+      "noHit": 139,
+      "initialPool": 220,
+      "additions": 40
+    },
+    "dataset": {
+      "markdown": {
+        "path": "datasets/ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.md",
+        "sha256": "5521ea3a85f8481385f8bd6ee5c9a3f72c139782fcee86b38359a4d2e20f287d"
+      },
+      "labels": {
+        "path": "datasets/ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.labels.json",
+        "sha256": "e9a5c1288eb954b17857c744b1467734c9fc7b05d3b46c39aadac641c6aa69f3"
+      },
+      "textSha256": "5521ea3a85f8481385f8bd6ee5c9a3f72c139782fcee86b38359a4d2e20f287d"
+    },
+    "coverage": {
+      "wordCounting": "Whitespace-separated words; short 8-20, medium 21-44, long 45-90.",
+      "domains": {
+        "health": {
+          "hit": 13,
+          "noHit": 13
+        },
+        "software": {
+          "hit": 12,
+          "noHit": 14
+        },
+        "finance": {
+          "hit": 12,
+          "noHit": 14
+        },
+        "education": {
+          "hit": 11,
+          "noHit": 15
+        },
+        "food": {
+          "hit": 12,
+          "noHit": 14
+        },
+        "housing": {
+          "hit": 13,
+          "noHit": 13
+        },
+        "transport": {
+          "hit": 12,
+          "noHit": 14
+        },
+        "environment": {
+          "hit": 12,
+          "noHit": 14
+        },
+        "arts": {
+          "hit": 12,
+          "noHit": 14
+        },
+        "workplace": {
+          "hit": 12,
+          "noHit": 14
+        }
+      },
+      "lengthStrata": {
+        "hit": {
+          "short": 35,
+          "medium": 53,
+          "long": 33
+        },
+        "noHit": {
+          "short": 35,
+          "medium": 68,
+          "long": 36
+        }
+      },
+      "boundaryAudit": [
+        "Implicit recommendations, adjacent claims, status lists, media attention, follower counts, famous associations, credentials, and experience occur among hits.",
+        "Relevant advice, credential eligibility, first-hand bounded observations, biography, credits, recognition, reach, examined or rejected appeals, and limited fictional belief occur among controls.",
+        "The nine independent documentation-boundary corrections preserve a particular document's status inference as that document's reported position. Relevant prestige used by the writer as conclusive proof remains a hit under the unchanged definition."
+      ],
+      "shortcutAudit": {
+        "cueCounts": {
+          "names": {
+            "hit": 9,
+            "noHit": 10
+          },
+          "numbers": {
+            "hit": 12,
+            "noHit": 28
+          },
+          "because": {
+            "hit": 1,
+            "noHit": 26
+          },
+          "therefore": {
+            "hit": 1,
+            "noHit": 1
+          },
+          "recommends": {
+            "hit": 19,
+            "noHit": 44
+          },
+          "awards": {
+            "hit": 19,
+            "noHit": 18
+          },
+          "experience": {
+            "hit": 21,
+            "noHit": 30
+          },
+          "reports": {
+            "hit": 5,
+            "noHit": 21
+          },
+          "safety": {
+            "hit": 22,
+            "noHit": 26
+          }
+        },
+        "action": "Historical generation added 20 restrained hits and 20 relevant-support controls, giving safety/reliability counts of 25 hits and 23 controls under the original labels. Under the independently corrected labels, those unchanged texts contain the cues in 22 hits and 26 controls.",
+        "proseReview": "All unchanged passages retain three-role raw Opus coverage. Independent Dirac review and parent inspection supersede nine classifications as documented below; post-correction QA is pending."
+      },
+      "overlapAudit": {
+        "scope": "Assigned development collection only. Cross-split audit belongs to the parent protected auditor.",
+        "normalizedDuplicates": 0,
+        "repeatedEightWordSequences": [
+          {
+            "ids": ["000025-073", "000025-082"],
+            "text": "a teacher with twenty five years in classrooms"
+          },
+          {
+            "ids": ["000025-096", "000025-103"],
+            "text": "our caterer has cooked for the royal household"
+          },
+          {
+            "ids": ["000025-186", "000025-195"],
+            "text": "an editor with thirty years in literary publishing"
+          }
+        ],
+        "resolution": "The three shared sequences identify qualifications or background facts. Complete passages use different claims and settings: cultural-bias certainty versus an observed attendance record; waste decomposition versus a career biography; legal enforceability versus an indexing schedule. Retain the distinct boundary examples.",
+        "closestPairs": [
+          {
+            "ids": ["000025-200", "000025-210"],
+            "tokenJaccard": 0.3
+          },
+          {
+            "ids": ["000025-167", "000025-210"],
+            "tokenJaccard": 0.2727272727272727
+          },
+          {
+            "ids": ["000025-177", "000025-188"],
+            "tokenJaccard": 0.25
+          },
+          {
+            "ids": ["000025-096", "000025-103"],
+            "tokenJaccard": 0.23809523809523808
+          },
+          {
+            "ids": ["000025-190", "000025-212"],
+            "tokenJaccard": 0.23809523809523808
+          },
+          {
+            "ids": ["000025-062", "000025-110"],
+            "tokenJaccard": 0.23214285714285715
+          },
+          {
+            "ids": ["000025-027", "000025-073"],
+            "tokenJaccard": 0.22727272727272727
+          },
+          {
+            "ids": ["000025-030", "000025-095"],
+            "tokenJaccard": 0.22727272727272727
+          },
+          {
+            "ids": ["000025-182", "000025-191"],
+            "tokenJaccard": 0.22727272727272727
+          },
+          {
+            "ids": ["000025-187", "000025-198"],
+            "tokenJaccard": 0.22535211267605634
+          },
+          {
+            "ids": ["000025-036", "000025-124"],
+            "tokenJaccard": 0.2222222222222222
+          },
+          {
+            "ids": ["000025-052", "000025-063"],
+            "tokenJaccard": 0.2222222222222222
+          },
+          {
+            "ids": ["000025-073", "000025-082"],
+            "tokenJaccard": 0.2222222222222222
+          },
+          {
+            "ids": ["000025-204", "000025-216"],
+            "tokenJaccard": 0.21951219512195122
+          },
+          {
+            "ids": ["000025-073", "000025-140"],
+            "tokenJaccard": 0.21739130434782608
+          }
+        ],
+        "nearDuplicateReview": "Inspected the closest pairs and shared sequences. The closest token-set Jaccard is 0.3; the paired recruiter snippets contrast salary accuracy with audience reach, and the other pairs express distinct recommendations, facts, or inferences.",
+        "rawAudit": {
+          "path": "/tmp/000025-prestige-padding-development-20261021-105216-pool-audit-v2.json",
+          "sha256": "867b3018062e48de1c5ff8c81e2d52eaaf6a20ad555c916b87fc99de0feb0b62"
+        },
+        "rawAuditScope": "The retained raw audit uses original author labels. Its text-overlap findings still apply to the unchanged writing; current class-sensitive coverage and cue counts are recomputed above."
+      }
+    },
+    "mechanicalVerification": {
+      "readDocument": "passed",
+      "schemaVersion": 2,
+      "labels": 260,
+      "exactSnippets": "passed",
+      "markdownFormattedBeforeRangeDerivation": true,
+      "formatter": "pnpm exec prettier --write --prose-wrap preserve --ignore-path /dev/null",
+      "lineEndings": "LF",
+      "singleEOFNewline": true,
+      "onePhysicalLinePerPassage": true,
+      "rawEnvelopeInputPromptHelperHashes": "passed",
+      "neutralReviewPayloads": "id and text only",
+      "uniqueAuthenticatedSessions": true,
+      "allCurrentPassagesCoveredInAllThreeRoles": true,
+      "canonicalJudgmentProvenance": "251 final-pass Opus judgments plus nine parent-approved independent no-hit overrides; remaining hit snippets preserve final-pass Opus wording."
+    },
+    "finalJudgmentAndSnippetProvenance": {
+      "method": "Canonical judgments follow the final-pass Opus outputs for 251 passages and the nine explicit no-hit overrides in postIndependentAdjudication for the remaining passages. Every remaining hit snippet is copied unchanged from final-pass Opus. Corrected no-hit labels omit snippets. Resolve raw judgments by id in the retained final artifacts.",
+      "artifacts": [
+        {
+          "path": "/tmp/000025-prestige-padding-development-20261021-105216-final-v2-batch1-output.json",
+          "sha256": "ad9bf401fe705bc5d6d469dfc28177d54a22fbf8d5b7cb37c1673e4a64e235f2"
+        },
+        {
+          "path": "/tmp/000025-prestige-padding-development-20261021-105216-final-v2-batch2-output.json",
+          "sha256": "66951ea4d70634d2793f26050585a0fe87e59c4c08d5bdf84c8680d666d0b378"
+        },
+        {
+          "path": "/tmp/000025-prestige-padding-development-20261021-105216-final-v2-batch3-output.json",
+          "sha256": "ab95514c8ae698943a0c4a8fd605a5196dc657c10faba210dd5be8f1bfa2b019"
+        }
+      ],
+      "overrideIds": [
+        "000025-030",
+        "000025-051",
+        "000025-074",
+        "000025-077",
+        "000025-095",
+        "000025-139",
+        "000025-160",
+        "000025-183",
+        "000025-205"
+      ]
+    },
+    "scope": "Complete corrected 260-passage source pool. Historical pending post-correction status is superseded by the preserved independentQa approval; raw calls, objections, adjudications, and corrections retain their archived scope."
+  },
+  "selection": {
+    "status": "complete-awaiting-subset-qa",
+    "archiveCommit": "17c79e39",
+    "fullPoolArchived": true,
+    "authorization": "Parent authorized selection after corrected full-pool archive 17c79e39 and passed independent Dirac full-pool QA.",
+    "counts": {
+      "passages": 200,
+      "hit": 100,
+      "noHit": 100
+    },
+    "sourcePoolCounts": {
+      "passages": 260,
+      "hit": 121,
+      "noHit": 139
+    },
+    "retainedIds": [
+      "000025-001",
+      "000025-003",
+      "000025-004",
+      "000025-005",
+      "000025-007",
+      "000025-008",
+      "000025-009",
+      "000025-012",
+      "000025-013",
+      "000025-015",
+      "000025-018",
+      "000025-020",
+      "000025-023",
+      "000025-024",
+      "000025-025",
+      "000025-026",
+      "000025-027",
+      "000025-028",
+      "000025-029",
+      "000025-030",
+      "000025-032",
+      "000025-033",
+      "000025-035",
+      "000025-036",
+      "000025-037",
+      "000025-038",
+      "000025-039",
+      "000025-040",
+      "000025-041",
+      "000025-045",
+      "000025-048",
+      "000025-049",
+      "000025-050",
+      "000025-051",
+      "000025-052",
+      "000025-053",
+      "000025-054",
+      "000025-055",
+      "000025-056",
+      "000025-060",
+      "000025-062",
+      "000025-063",
+      "000025-064",
+      "000025-066",
+      "000025-068",
+      "000025-070",
+      "000025-071",
+      "000025-072",
+      "000025-074",
+      "000025-075",
+      "000025-076",
+      "000025-077",
+      "000025-081",
+      "000025-082",
+      "000025-083",
+      "000025-084",
+      "000025-085",
+      "000025-087",
+      "000025-088",
+      "000025-090",
+      "000025-091",
+      "000025-093",
+      "000025-094",
+      "000025-095",
+      "000025-096",
+      "000025-098",
+      "000025-099",
+      "000025-101",
+      "000025-102",
+      "000025-103",
+      "000025-105",
+      "000025-106",
+      "000025-108",
+      "000025-109",
+      "000025-110",
+      "000025-111",
+      "000025-112",
+      "000025-113",
+      "000025-114",
+      "000025-115",
+      "000025-116",
+      "000025-117",
+      "000025-118",
+      "000025-119",
+      "000025-120",
+      "000025-121",
+      "000025-122",
+      "000025-123",
+      "000025-124",
+      "000025-127",
+      "000025-128",
+      "000025-130",
+      "000025-132",
+      "000025-133",
+      "000025-134",
+      "000025-135",
+      "000025-136",
+      "000025-137",
+      "000025-138",
+      "000025-139",
+      "000025-140",
+      "000025-141",
+      "000025-142",
+      "000025-143",
+      "000025-144",
+      "000025-146",
+      "000025-147",
+      "000025-148",
+      "000025-149",
+      "000025-150",
+      "000025-151",
+      "000025-152",
+      "000025-153",
+      "000025-156",
+      "000025-158",
+      "000025-159",
+      "000025-160",
+      "000025-161",
+      "000025-162",
+      "000025-164",
+      "000025-165",
+      "000025-168",
+      "000025-170",
+      "000025-171",
+      "000025-173",
+      "000025-175",
+      "000025-176",
+      "000025-177",
+      "000025-178",
+      "000025-180",
+      "000025-181",
+      "000025-182",
+      "000025-183",
+      "000025-184",
+      "000025-185",
+      "000025-188",
+      "000025-189",
+      "000025-190",
+      "000025-191",
+      "000025-193",
+      "000025-194",
+      "000025-196",
+      "000025-197",
+      "000025-198",
+      "000025-199",
+      "000025-200",
+      "000025-201",
+      "000025-202",
+      "000025-203",
+      "000025-204",
+      "000025-205",
+      "000025-207",
+      "000025-208",
+      "000025-210",
+      "000025-212",
+      "000025-213",
+      "000025-214",
+      "000025-215",
+      "000025-217",
+      "000025-218",
+      "000025-221",
+      "000025-222",
+      "000025-223",
+      "000025-224",
+      "000025-225",
+      "000025-226",
+      "000025-227",
+      "000025-228",
+      "000025-229",
+      "000025-230",
+      "000025-231",
+      "000025-232",
+      "000025-233",
+      "000025-234",
+      "000025-235",
+      "000025-236",
+      "000025-237",
+      "000025-238",
+      "000025-239",
+      "000025-240",
+      "000025-241",
+      "000025-242",
+      "000025-243",
+      "000025-244",
+      "000025-245",
+      "000025-246",
+      "000025-247",
+      "000025-248",
+      "000025-249",
+      "000025-250",
+      "000025-251",
+      "000025-252",
+      "000025-253",
+      "000025-254",
+      "000025-255",
+      "000025-256",
+      "000025-257",
+      "000025-258",
+      "000025-259",
+      "000025-260"
+    ],
+    "removedIds": [
+      "000025-002",
+      "000025-006",
+      "000025-010",
+      "000025-011",
+      "000025-014",
+      "000025-016",
+      "000025-017",
+      "000025-019",
+      "000025-021",
+      "000025-022",
+      "000025-031",
+      "000025-034",
+      "000025-042",
+      "000025-043",
+      "000025-044",
+      "000025-046",
+      "000025-047",
+      "000025-057",
+      "000025-058",
+      "000025-059",
+      "000025-061",
+      "000025-065",
+      "000025-067",
+      "000025-069",
+      "000025-073",
+      "000025-078",
+      "000025-079",
+      "000025-080",
+      "000025-086",
+      "000025-089",
+      "000025-092",
+      "000025-097",
+      "000025-100",
+      "000025-104",
+      "000025-107",
+      "000025-125",
+      "000025-126",
+      "000025-129",
+      "000025-131",
+      "000025-145",
+      "000025-154",
+      "000025-155",
+      "000025-157",
+      "000025-163",
+      "000025-166",
+      "000025-167",
+      "000025-169",
+      "000025-172",
+      "000025-174",
+      "000025-179",
+      "000025-186",
+      "000025-187",
+      "000025-192",
+      "000025-195",
+      "000025-206",
+      "000025-209",
+      "000025-211",
+      "000025-216",
+      "000025-219",
+      "000025-220"
+    ],
+    "mandatoryIds": [
+      "000025-030",
+      "000025-049",
+      "000025-051",
+      "000025-054",
+      "000025-074",
+      "000025-077",
+      "000025-095",
+      "000025-135",
+      "000025-139",
+      "000025-156",
+      "000025-160",
+      "000025-183",
+      "000025-205",
+      "000025-221",
+      "000025-222",
+      "000025-223",
+      "000025-224",
+      "000025-225",
+      "000025-226",
+      "000025-227",
+      "000025-228",
+      "000025-229",
+      "000025-230",
+      "000025-231",
+      "000025-232",
+      "000025-233",
+      "000025-234",
+      "000025-235",
+      "000025-236",
+      "000025-237",
+      "000025-238",
+      "000025-239",
+      "000025-240",
+      "000025-241",
+      "000025-242",
+      "000025-243",
+      "000025-244",
+      "000025-245",
+      "000025-246",
+      "000025-247",
+      "000025-248",
+      "000025-249",
+      "000025-250",
+      "000025-251",
+      "000025-252",
+      "000025-253",
+      "000025-254",
+      "000025-255",
+      "000025-256",
+      "000025-257",
+      "000025-258",
+      "000025-259",
+      "000025-260"
+    ],
+    "mandatoryCounts": {
+      "hit": 24,
+      "noHit": 29
+    },
+    "method": "Mandatory cases first. Allocate remaining slots per class using 25/50/25 weighted largest-remainder rounding, redistributing exhausted buckets under the same rule. Select ascending SHA-256 within each bucket, then emit retained passages in original source order.",
+    "hashAlgorithm": "SHA-256",
+    "hashInput": "JSON.stringify([family, type, split, stableExampleId])",
+    "hashTieBreak": "stable example ID",
+    "bucketWeights": {
+      "short": 25,
+      "medium": 50,
+      "long": 25
+    },
+    "roundingTieBreak": ["short", "medium", "long"],
+    "allocation": [
+      {
+        "expected": true,
+        "mandatory": 24,
+        "mandatoryByBucket": {
+          "short": 7,
+          "medium": 11,
+          "long": 6
+        },
+        "availableByBucket": {
+          "short": 28,
+          "medium": 42,
+          "long": 27
+        },
+        "additionalByBucket": {
+          "short": 19,
+          "medium": 38,
+          "long": 19
+        },
+        "rounds": [
+          {
+            "seats": 76,
+            "quotas": {
+              "short": 19,
+              "medium": 38,
+              "long": 19
+            },
+            "requested": {
+              "short": 19,
+              "medium": 38,
+              "long": 19
+            },
+            "grants": {
+              "short": 19,
+              "medium": 38,
+              "long": 19
+            }
+          }
+        ]
+      },
+      {
+        "expected": false,
+        "mandatory": 29,
+        "mandatoryByBucket": {
+          "short": 5,
+          "medium": 18,
+          "long": 6
+        },
+        "availableByBucket": {
+          "short": 30,
+          "medium": 50,
+          "long": 30
+        },
+        "additionalByBucket": {
+          "short": 18,
+          "medium": 35,
+          "long": 18
+        },
+        "rounds": [
+          {
+            "seats": 71,
+            "quotas": {
+              "short": 17.75,
+              "medium": 35.5,
+              "long": 17.75
+            },
+            "requested": {
+              "short": 18,
+              "medium": 35,
+              "long": 18
+            },
+            "grants": {
+              "short": 18,
+              "medium": 35,
+              "long": 18
+            }
+          }
+        ]
+      }
+    ],
+    "selectedIdsSha256": "c40bf6ec8c954e8a4a1b44310e13f536dcdc5647a00d24c36a2ee57887b3dffe",
+    "surplus": {
+      "passages": 60,
+      "hit": 21,
+      "noHit": 39,
+      "provenance": "Complete writing, corrected labels, snippets, review history, and full-pool QA remain at archive 17c79e39."
+    },
+    "subsetQa": {
+      "reviewer": "Dirac",
+      "status": "pending"
+    }
+  },
+  "independentSubsetQa": {
+    "reviewer": "Dirac",
+    "recordedAt": "2026-10-21T10:36:53Z",
+    "status": "passed",
+    "scope": "Selected 000025 development subset compared with corrected full-pool archive 17c79e39.",
+    "checkedMarkdownSha256": "83be6bdb663b4fc657a883857d9043ae80267ed4f56cdc434bb4b186f80b97e7",
+    "checkedLabelsSha256": "1f4063ec0b3df73060e15681a8f20c7cfb8a2710dad111babd4f0f110166c997",
+    "reviewRecordSha256BeforeAppend": "664d81f3264415dced3bf667553417f9fa2f76429bba8511ad65ff6a163f2440",
+    "archiveCommit": "17c79e39",
+    "passages": 200,
+    "classCounts": {
+      "hit": 100,
+      "noHit": 100
+    },
+    "mandatoryRetained": 53,
+    "mandatoryCounts": {
+      "hit": 24,
+      "noHit": 29
+    },
+    "verification": [
+      "Independently reproduced mandatory-first selection, 25/50/25 length weights, largest-remainder rounding, exhausted-bucket redistribution, short/medium/long remainder ties, and SHA256(JSON.stringify([family,type,split,stableID])) ranking with ID tie-breaking.",
+      "Every retained ID, removed ID, allocation round, bucket count, source-order position, and selected-ID hash matches the independent replay.",
+      "All 200 retained passage bodies, labels, and snippet arrays match corrected archive 17c79e39 exactly; Markdown reconstruction and current sample-range validation pass.",
+      "All 53 mandatory cases remain, including all nine documentation-boundary overrides. The 60 surplus cases remain archived with twenty-one hit and thirty-nine no-hit judgments.",
+      "Recomputed current class, domain, length, mandatory, and surplus counts. All 200 current inputs retain complete blind, adversarial, and final review coverage.",
+      "Rechecked all 44 original input, request, output, and raw artifact hashes. Remaining hit snippets retain final-pass Opus provenance; the nine no-hit overrides retain their independent adjudication provenance.",
+      "Full-pool QA, archived coverage and verification records, historical objections and adjudications, frozen definition, and original review-call records are preserved."
+    ],
     "unresolvedMaterialConcerns": []
   }
 }

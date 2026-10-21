@@ -4,10 +4,6 @@
 
 The supplement's cover quotes a Booker winner; that settles its usefulness for insomnia.
 
-## 000025-002
-
-Dr. Ferris has chaired three conferences. Her dosage recommendation cannot be mistaken.
-
 ## 000025-003
 
 For reliable eczema advice, follow Mara, whose baking channel has 800,000 subscribers.
@@ -19,10 +15,6 @@ Lena Ortiz's hospital newsletter recommends the breathing app for panic attacks.
 ## 000025-005
 
 Choose the wrist monitor for home screening. Its designer graduated from the same university as two Nobel laureates, and the cuff comes in three sizes.
-
-## 000025-006
-
-The pamphlet lists a television appearance and a royal invitation beneath the herbalist's name. Readers can feel comfortable using his tincture for childhood fevers.
 
 ## 000025-007
 
@@ -36,14 +28,6 @@ According to the launch report, the capsule is suitable during pregnancy: its fo
 
 I wanted something dependable for my recurring headaches. The new clinic's owner has been photographed with two cabinet ministers, and its waiting room displays a magazine profile. That was enough for me to recommend its injections to my sister, who has the same symptoms.
 
-## 000025-010
-
-The procurement sheet gives the scanner's price as $18,400. Beside the reliability rating, it lists the company's sponsorship of the National Ballet and its founder's honorary doctorate in literature. These are reassuring reasons to expect fewer missed lesions when we replace the current machine this autumn.
-
-## 000025-011
-
-Dr. Shah is a cardiologist with twenty years in practice, so we can treat her estimate of a zero complication rate as settled. The committee can approve the procedure without asking how the estimate was calculated. Her professional standing gives us the answer we need for the consent form.
-
 ## 000025-012
 
 Our respiratory nurse, Amina Bell, recommends checking inhaler technique before increasing the prescribed dose.
@@ -52,41 +36,17 @@ Our respiratory nurse, Amina Bell, recommends checking inhaler technique before 
 
 The campaign chose actor Ben Travers for his 400,000 followers among local parents.
 
-## 000025-014
-
-Dr. Cho received an honorary degree in music; her clinic opens at nine.
-
 ## 000025-015
 
 On page 12, the advertisement treats a singer's endorsement as evidence of efficacy. The consumer panel quoted that passage while explaining its decision to withdraw the advertisement.
-
-## 000025-016
-
-For the rehabilitation workshops, we need a registered physiotherapist. Sara holds that registration and has worked with postoperative shoulder patients for eight years; she meets the teaching requirement.
-
-## 000025-017
-
-The birth unit's midwife recommends packing spare feeding clothes. She has supported home births in this district since 2014 and discusses what families usually run out of.
 
 ## 000025-018
 
 A profile in County Life introduced the hospice director to a wider readership. The charity credits the coverage with bringing 90 new subscribers to its volunteer bulletin.
 
-## 000025-019
-
-Our lab director trained at the prestigious Meade Institute. She recommends repeating this assay because the control vial sat above its specified storage temperature overnight.
-
 ## 000025-020
 
 My dermatologist suggested a fragrance-free cleanser for the irritation around my nose. She has treated my skin for six years and recognized the same pattern after I changed products last spring. I wrote the name on my shopping list and booked another visit in case the irritation persists.
-
-## 000025-021
-
-The intake guide calls Dr. Barlow an award-winning surgeon and lists his visiting appointments. A separate paragraph gives the clinic's infection counts and explains how they were recorded. The biography occupies the facing page, beneath a photograph taken at the annual staff dinner, rather than supplying a reason for those counts.
-
-## 000025-022
-
-In the novel, Tomas refuses the village medicine because a celebrated explorer has praised another remedy. His sister notices that he keeps the explorer's portrait beside his bed. The chapter stays with Tomas's private loyalty; the next scene follows her to the dispensary to collect the medicine she ordered.
 
 ## 000025-023
 
@@ -120,10 +80,6 @@ A startup founded by former Olympic swimmers offers the best approach to databas
 
 The release note reports that the SDK will preserve compatibility because its maintainer holds a distinguished fellowship. The first migration window is scheduled for Friday at 18:00.
 
-## 000025-031
-
-I have used the search interface for a week and like the filters. More importantly for security, the vendor's advisory board includes a former ambassador and a celebrated novelist. We should put it on the approved list for confidential documents when the procurement team meets next Tuesday.
-
 ## 000025-032
 
 Why this library? Start with its place in the annual list of admired startups and its founder's cover photograph in Ledger magazine. The package has a small API and handles JSON streams. For our fraud pipeline, that pedigree is a good indication that the parser will reject malformed payloads correctly.
@@ -131,10 +87,6 @@ Why this library? Start with its place in the annual list of admired startups an
 ## 000025-033
 
 A PostgreSQL performance specialist reviewed our backup plan over lunch. His experience makes his assurance that every future restore will succeed decisive, even for machines with different storage layouts. I have recorded the plan as verified in the rollout checklist so the regional offices can begin switching over next month.
-
-## 000025-034
-
-The plugin's 70,000 stars make it a useful channel for recruiting beta testers.
 
 ## 000025-035
 
@@ -164,29 +116,9 @@ The conference listed three former prize winners on its programme. Registration 
 
 We selected an accredited assessor to sign the compliance certificate. The contract requires that accreditation; the assessor's registration number and the certificate's scope appear together in appendix B.
 
-## 000025-042
-
-An experienced database administrator can offer useful advice about our indexing plan. Mei has managed this cluster since 2019, and her suggestion is to inspect the two slowest query plans before adding an index. The proposal leaves the choice of columns open until we have those plans in hand.
-
-## 000025-043
-
-The board paper lists the founders' former employers, including two major software companies. It uses the list to describe how the team met. The recommendation to fund a pilot follows a separate cost calculation, which compares the hosted service with the support hours currently spent maintaining our internal installation.
-
-## 000025-044
-
-In a developer memoir, Ellis recalls trusting a famous maintainer's package before reading its code. That memory introduces the account of a failed deployment and the repair that followed. The maintainer's reputation explains Ellis's decision at the time; the account gives the deployment logs as its evidence for the failure.
-
 ## 000025-045
 
 A renowned cellist chairs the fund, making its repayment projections especially credible.
-
-## 000025-046
-
-Their television interviews establish that the loan has fair terms.
-
-## 000025-047
-
-After thirty years trading bonds, Malik's restaurant hygiene ratings deserve our trust.
 
 ## 000025-048
 
@@ -224,25 +156,9 @@ The comparison sheet puts the two mortgage quotes side by side. One broker has a
 
 The adviser holds the licence required to sell this pension product in our district.
 
-## 000025-057
-
-A television interview brought the credit union 320 membership enquiries that week.
-
-## 000025-058
-
-Our accountant suggests separating rent receipts from deposits when reconciling this month's ledger.
-
-## 000025-059
-
-Malik traded municipal bonds for thirty years. His account of the 2008 desk closure describes which calls he handled and the prices recorded in his notebook that morning.
-
 ## 000025-060
 
 The investor letter uses a chemist's Nobel medal to sell a fund. Our seminar asks students to identify the gap between that distinction and the promised investment return.
-
-## 000025-061
-
-The lender's founder received a civic medal in 2017. The company history records the ceremony alongside the opening of its second branch and the appointment of a new treasurer.
 
 ## 000025-062
 
@@ -256,25 +172,13 @@ Harbor Trust sponsors the city's principal theatre. The charity's report lists t
 
 My father kept the clipping in which a famous runner recommended a particular broker. In his diary, the clipping marks the day he decided to invest. The chapter later follows his attempts to recover the money, using his letters and account statements to reconstruct what happened after the broker closed.
 
-## 000025-065
-
-The analyst has covered regional banks for twelve years. She thinks the lender may need to raise more capital because its disclosed loan losses have increased for three quarters. Her note links that tentative view to the lender's own figures and lists two assumptions that would change the estimate.
-
 ## 000025-066
 
 Choose the adviser who can explain the early repayment clause. Farah, a certified financial planner, walked me through the fee in pounds at three possible exit dates. That explanation made the decision manageable. Her certificate appears on the meeting notes as background to the advice rather than as a guarantee of future returns.
 
-## 000025-067
-
-The textbook appeared on morning television, which makes its historical account dependable.
-
 ## 000025-068
 
 A Rhodes scholar designed these desks; they should improve children's concentration.
-
-## 000025-069
-
-Our headteacher's chess trophies settle the dispute about the reading assessment's validity.
 
 ## 000025-070
 
@@ -287,10 +191,6 @@ The school advertises its links with three famous universities beneath the state
 ## 000025-072
 
 Professor Dale's expertise in medieval manuscripts makes her a reliable guide to the nutritional needs of our preschool children. We should adopt the lunch plan she outlined at assembly.
-
-## 000025-073
-
-A teacher with twenty-five years in classrooms says the new test is free of cultural bias. Her service record is enough to establish that result for the district's approval form.
 
 ## 000025-074
 
@@ -307,18 +207,6 @@ The prospectus gives the examination centre's address and then lists visits from
 ## 000025-077
 
 Our mathematics tutor studied at a selective university and belongs to an exclusive alumni club. The school newsletter treats that background as a reason to trust his diagnosis of pupils' anxiety disorders. He will send individual recommendations to families after the first mock examination, alongside the algebra revision sheets they requested.
-
-## 000025-078
-
-The astronaut's school visit drew 600 pupils to the evening science session.
-
-## 000025-079
-
-Our phonics specialist recommends hearing each pupil read before assigning the next exercise.
-
-## 000025-080
-
-Professor Dale's manuscript research qualifies her to supervise the medieval palaeography seminar.
 
 ## 000025-081
 
@@ -340,10 +228,6 @@ A selective university awarded the tutor his mathematics degree. The parents' bo
 
 The examination centre hosted two ambassadors last year. Photographs of their visits appear in the annual review's events section; the section on marking describes double marking and moderation separately.
 
-## 000025-086
-
-Ms. Sethi has taught this chemistry practical for twelve years. She recommends putting the weighing station away from the door because drafts have disturbed the balance during previous classes. We have moved the station to the side bench and will ask the first group to record whether the readings stabilize.
-
 ## 000025-087
 
 The district requires a special-education credential for the assessment role. Luis holds that credential and has completed the required supervised placements. His application therefore meets the stated eligibility conditions. The interview panel will ask about his proposed assessment procedure when it meets on Thursday to compare the five eligible candidates.
@@ -352,10 +236,6 @@ The district requires a special-education credential for the assessment role. Lu
 
 When I was fourteen, I assumed a book had to be accurate if the author appeared on television. In the workshop I show the first page of the book I bought then, with my notes in the margin. The exercise asks participants to compare its account with the two documents supplied on the next page.
 
-## 000025-089
-
-A famous architect endorses the menu, so its allergy guidance is reliable.
-
 ## 000025-090
 
 Chef Lim's Michelin star guarantees that every jar is free of contamination.
@@ -363,10 +243,6 @@ Chef Lim's Michelin star guarantees that every jar is free of contamination.
 ## 000025-091
 
 For accurate calorie advice, try Ella's channel; her dance videos reach three million viewers.
-
-## 000025-092
-
-The olive oil won a packaging award judged by leading designers. That distinction makes it a sensible choice for lowering cholesterol, and the smaller bottle fits our weekly grocery budget.
 
 ## 000025-093
 
@@ -384,10 +260,6 @@ The guide reports that the fermentation kit is safe for children because its inv
 
 Our caterer has cooked for the royal household. That experience settles whether the new compostable packaging will break down in our municipal waste stream. We should approve the purchase.
 
-## 000025-097
-
-The shop's new mushroom blend costs more than the ordinary one. I would still buy it for immune support: the founder spent years producing a respected radio programme and has a keen eye for quality. Her account of choosing the ingredients carries the same judgment listeners came to rely on.
-
 ## 000025-098
 
 At the launch dinner, the chef described the jars as suitable for anyone with coeliac disease. His reputation across forty years of restaurant work makes that assurance decisive. We can add them to the school's approved list without asking which production line handles the barley sauce sold under the same brand.
@@ -395,10 +267,6 @@ At the launch dinner, the chef described the jars as suitable for anyone with co
 ## 000025-099
 
 Two documentary awards and a prominent magazine profile sit at the top of the orchard's sales sheet. Below them, the sheet recommends its untreated apple juice for pregnant customers. The profile and awards offer a reason to feel comfortable with that recommendation when placing the weekly order for the community cafe.
-
-## 000025-100
-
-Chef Lim's experience with laminated pastry makes his advice on dough temperature useful here.
 
 ## 000025-101
 
@@ -412,10 +280,6 @@ The oil's packaging award recognizes its refillable bottle and clear pouring spo
 
 Our caterer has cooked for the royal household. The programme biography includes that appointment among her previous jobs, alongside a photograph from her first community kitchen in Leeds.
 
-## 000025-104
-
-The restaurant's allergy chef recommends ordering the separately prepared dish. He explains that the standard sauce contains cashew paste and that its ladle is shared during the lunch service.
-
 ## 000025-105
 
 The fermentation guide quotes the inventor's claim about his economics chair as an example of misplaced authority. Its next paragraph asks readers to follow the supplied temperature and storage instructions.
@@ -423,10 +287,6 @@ The fermentation guide quotes the inventor's claim about his economics chair as 
 ## 000025-106
 
 A champion rower founded the bakery after retiring in 2018. The profile describes her move into food production and the two apprentices who now manage the early morning shift.
-
-## 000025-107
-
-Forty years of catering have taught June how quickly buffet labels get separated from their dishes. She recommends fixing each label to the serving tray before guests enter the room.
 
 ## 000025-108
 
@@ -496,14 +356,6 @@ The developer's theatre sponsorship will put its name before the festival's 4,00
 
 The landlord's university appears in his biography, below the office contact details.
 
-## 000025-125
-
-The agency received a civic commendation for raising $14,000 for the night shelter. Its annual report records the award in the community section, together with the volunteers' names.
-
-## 000025-126
-
-A carpenter who has fitted oak floors for fifteen years suggests checking the room's humidity before installation. She explains that the boards need time to acclimatize in the house.
-
 ## 000025-127
 
 The tenants' leaflet reproduces the developer's astronaut endorsement as an example of a sales appeal. It asks prospective buyers to look for the cladding specification elsewhere in the brochure.
@@ -512,17 +364,9 @@ The tenants' leaflet reproduces the developer's astronaut endorsement as an exam
 
 The architect's portrait society membership explains why she was invited to curate the lobby exhibition. The council gave her a budget for six pictures and asked her to select local artists.
 
-## 000025-129
-
-Our conveyancer has handled lease extensions since 2006. She recommends asking who pays the surveyor's fees under this draft because the relevant clause leaves that responsibility open.
-
 ## 000025-130
 
 The building inspector has worked on this estate for twelve years and remembers a drainage channel behind number 18. That recollection gives us a place to start tracing the standing water. We will lift the cover with the maintenance team on Thursday and compare what we find with the site plan.
-
-## 000025-131
-
-In the chapter, the young tenant feels safe because his landlord once appeared on a popular television show. The thought belongs to the tenant as he carries his boxes upstairs. A loose stair tread interrupts his reverie, and he spends the evening making a list of repairs to request in writing.
 
 ## 000025-132
 
@@ -576,10 +420,6 @@ The campaign calls its founder a decorated pilot before presenting his estimate 
 
 Captain Reed recommends delaying departure until the harbour entrance's crosswind falls below the vessel's limit.
 
-## 000025-145
-
-The footballer's investment attracted attention to the moving company's launch in Bristol.
-
 ## 000025-146
 
 A decorated pilot is eligible to lead the aviation veterans' procession under the club rules.
@@ -612,21 +452,9 @@ The bus routing consultant spent twelve years scheduling this city's night servi
 
 My uncle chose a garage because a racing champion had opened it. In his travel diary, he describes being impressed by the photograph and waiting two days for a replacement belt. The entry tells us how he made the decision; the repair invoice supplies the date and the work the garage performed.
 
-## 000025-154
-
-The review names the operator's managing director and gives her honorary doctorate in drama as background to her previous theatre career. It then describes the crossing we took, including boarding time and wheelchair access. The rating for punctuality comes from the departure and arrival times written in the reviewer's notebook.
-
-## 000025-155
-
-The cleanup firm's poetry awards give us confidence in its soil testing.
-
 ## 000025-156
 
 A Nobel-winning economist sponsors this seed mix. It will restore the meadow's biodiversity.
-
-## 000025-157
-
-Our hydrologist's seniority proves her forecast of next winter's rainfall will be exact.
 
 ## 000025-158
 
@@ -648,10 +476,6 @@ Our environmental lawyer's reputation supports her recommendation that the impor
 
 The ecologist has spent twenty years studying wetlands. His assurance that the proposed road will have absolutely no effect on any species should settle the council's assessment today.
 
-## 000025-163
-
-The panels cost slightly more than the alternative. Beside the warranty, the sales leaflet lists the founder's dinner with a head of state and her invitation to a renowned film festival. That sort of recognition makes the panels a reasonable bet for better electricity output on our shaded north-facing roof.
-
 ## 000025-164
 
 I have followed the travel writer for years, and her new book recommends a flood barrier for homes near the river. She has visited 90 countries and received an international storytelling award. For our street, those achievements give her choice an advantage over the system proposed by the drainage contractor last week.
@@ -660,21 +484,9 @@ I have followed the travel writer for years, and her new book recommends a flood
 
 The river authority's briefing attributes the claimed absence of contamination to the laboratory director's membership of a prestigious academy. Her position makes the conclusion secure, so the council can authorize swimming this weekend. The attached map marks the beach and the two car parks that will remain open during the festival.
 
-## 000025-166
-
-The hydrologist recommends placing the gauge upstream of the culvert to avoid local turbulence.
-
-## 000025-167
-
-The actor's 900,000 followers offer the cleanup campaign a substantial audience for its recruitment notice.
-
 ## 000025-168
 
 Her architecture medal appears in the exhibition catalogue's list of awards and appointments.
-
-## 000025-169
-
-An environmental lawyer recommends checking the permit's discharge condition before signing the contract. She explains that the proposed treatment capacity and the permitted daily discharge are expressed in different units.
 
 ## 000025-170
 
@@ -684,17 +496,9 @@ The ecologist has studied these wetlands for twenty years. He recalls nesting ac
 
 The cleanup firm's poetry award features in a staff profile. The profile describes how the laboratory technician writes during her train journey and reads at the library each autumn.
 
-## 000025-172
-
-The local plant's process engineer recommends separating the black trays. She explains that the sorting equipment uses an optical sensor that has difficulty recognizing the pigment used in those trays.
-
 ## 000025-173
 
 Our seminar quotes the seed supplier's Nobel endorsement to examine its sales argument. Students are asked which part of the ecologist's species survey would answer the meadow restoration question.
-
-## 000025-174
-
-The travel writer's visit to 90 countries has given her a large readership. The flood charity asked her to announce its emergency appeal because it wants to reach people outside the affected valley. Her publisher agreed to include the appeal's address in the newsletter sent to subscribers this Friday.
 
 ## 000025-175
 
@@ -711,10 +515,6 @@ The singer's platinum records establish that her account of the excavation is ac
 ## 000025-178
 
 A famous mathematician sponsors this painting; it is likely to retain its value.
-
-## 000025-179
-
-Trust the attribution: our curator has forty years of experience and cannot get it wrong.
 
 ## 000025-180
 
@@ -740,14 +540,6 @@ A Nobel chemist wrote the foreword to the auction catalogue. Her name at the fro
 
 The rehearsal studio has an impressive wall of photographs with well-known actors. I would choose it for its acoustic accuracy on that basis, especially when recording chamber strings. The room costs $45 an hour and is available on Sunday, which would let us finish before the festival's submission window closes.
 
-## 000025-186
-
-An editor with thirty years in literary publishing has read the contract. That background settles its legal enforceability, including the clause covering foreign rights. We should accept his assurance and send the signed copy before the Frankfurt trip, when the publisher expects to announce translations into German and Italian at its stand.
-
-## 000025-187
-
-The introductory essay mentions the historian's honorary doctorate from an elite university and her friendship with a celebrated sculptor. Her account of a newly discovered antibiotic deserves special confidence in light of those associations. The museum shop should use that account when recommending the exhibition book to visitors with questions about treatment.
-
 ## 000025-188
 
 The singer's platinum records explain her place in the exhibition on commercially successful recordings.
@@ -764,10 +556,6 @@ The actor's drama-school training is relevant to the voice class he will teach.
 
 The gallery supplied stationery to three prime ministers before it began selling prints. Its company history uses the surviving order books to trace that change in the family business.
 
-## 000025-192
-
-The curator's forty years with this collection make her recollection of the loan useful. She remembers which crate held the small portrait and suggests searching the corresponding return ledger.
-
 ## 000025-193
 
 The newspaper quotes the conductor's archive endorsement while examining how the exhibition was promoted. Its criticism concerns the leap from a celebrity's enthusiasm to a claim that the dating is settled.
@@ -775,10 +563,6 @@ The newspaper quotes the conductor's archive endorsement while examining how the
 ## 000025-194
 
 A Nobel chemist wrote the foreword because the collection includes instruments used in her early experiments. The catalogue credits her contribution and reproduces a photograph of the laboratory bench.
-
-## 000025-195
-
-An editor with thirty years in literary publishing suggests moving the index deadline back a week. He explains that translators will need the final page numbers before they can finish their editions.
 
 ## 000025-196
 
@@ -820,10 +604,6 @@ Our grievance panel should accept the witness's account. He sits on the board of
 
 The employee bulletin describes the desk as ergonomically safe because its designer has a distinguished legal career. The office has ordered 80 units for the new floor opening in April.
 
-## 000025-206
-
-A senior employment lawyer recommends the catering provider. Her success in tribunal cases gives that choice an advantage on food hygiene, and the provider can serve all three office sites.
-
 ## 000025-207
 
 I would hire the candidate for the incident response role. His parent is a celebrated science broadcaster, and growing up around that work suggests he will handle our production outages well. We can offer the higher salary band and ask him to start before the seasonal increase in customer traffic.
@@ -832,17 +612,9 @@ I would hire the candidate for the incident response role. His parent is a celeb
 
 The proposal lists our trainer's honorary degree in drama and her appearances on national television. Those distinctions support the claim that her workshop will reduce workplace accidents at the distribution centre. We should approve the annual contract on that basis and schedule the first session before the summer intake of forklift operators.
 
-## 000025-209
-
-The director points to her twenty years negotiating contracts as the reason the new payroll system's calculations can be trusted. For the committee, that record resolves the accuracy question. The software covers overtime, sick pay, and pension deductions for 900 staff, and the supplier wants a signed order before Friday's pricing deadline.
-
 ## 000025-210
 
 The recruiter has 200,000 followers, giving the vacancy notice a broad potential audience.
-
-## 000025-211
-
-Our employment lawyer recommends recording the agreed notice period in the settlement letter.
 
 ## 000025-212
 
@@ -860,10 +632,6 @@ The director's sailing medals appear in the staff newsletter beside the result o
 
 A physiotherapist who specializes in workplace injuries recommends adjusting the desk height. She explains that the current position leaves the employee's wrists bent while typing for extended periods.
 
-## 000025-216
-
-The grievance panel's witness sits on the opera board. His statement describes the meeting he attended and identifies where he was sitting when the disputed remark was made.
-
 ## 000025-217
 
 Our trainer's appearances on national television have increased enquiries about her public-speaking workshops. We added another date because the original room holds only twenty participants and the waiting list has reached 34.
@@ -871,14 +639,6 @@ Our trainer's appearances on national television have increased enquiries about 
 ## 000025-218
 
 The payroll specialist has managed our overtime calculations for eight years. She recommends running last December's records through the proposed software because those records include both a rate change and several overnight shifts. That suggestion gives the team a practical way to compare the calculations with the signed pay statements.
-
-## 000025-219
-
-The candidate's parent is a celebrated science broadcaster. The interview note records that connection because it explains the candidate's involvement in a school radio project. The hiring recommendation rests on his account of handling a production outage at his previous employer and on the troubleshooting exercise completed during the interview.
-
-## 000025-220
-
-In the office comedy, Ellen assumes the new manager will be fair because he has been photographed at the mayor's table. She tells her flatmate about the photograph before her first day. The next scene follows her struggle to get a rota changed, without adopting her initial inference about the manager's character.
 
 ## 000025-221
 

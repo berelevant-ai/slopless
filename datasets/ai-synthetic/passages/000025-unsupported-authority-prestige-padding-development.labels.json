@@ -5,7 +5,7 @@
     "originalPath": "datasets/ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.md",
     "commit": "b5c1110c",
     "model": "Codex author; claude-opus-5-5 reviewer",
-    "notes": "Complete 260-passage pool, now 121 hits and 139 no-hits after nine parent-approved independent documentation-boundary corrections under frozen definitions b5c1110c. Original full pool archived in c7f068a2. Passage text and raw Opus judgments preserved. Current overrides and mandatory cases: runners/results/prestige-padding-development-opus-review.json. Awaiting Dirac post-correction QA and parent archive authorization before selection."
+    "notes": "Active development subset: 100 hits and 100 no-hits, selected by mandatory-first weighted largest remainder and SHA-256 ordering from the independently approved 260-passage corrected pool (121 hits, 139 no-hits) archived at 17c79e39. All 53 mandatory cases retained. Selected writing, labels, and snippets are unchanged from that archive. Review, corrections, full-pool QA, and selection provenance: runners/results/prestige-padding-development-opus-review.json. Selected-subset QA pending."
   },
   "split": "development",
   "samples": [
@@ -15,1299 +15,999 @@
       "end": 153
     },
     {
-      "id": "000025-002",
-      "start": 170,
-      "end": 257
-    },
-    {
       "id": "000025-003",
-      "start": 274,
-      "end": 360
+      "start": 170,
+      "end": 256
     },
     {
       "id": "000025-004",
-      "start": 377,
-      "end": 567
+      "start": 273,
+      "end": 463
     },
     {
       "id": "000025-005",
-      "start": 584,
-      "end": 735
-    },
-    {
-      "id": "000025-006",
-      "start": 752,
-      "end": 917
+      "start": 480,
+      "end": 631
     },
     {
       "id": "000025-007",
-      "start": 934,
-      "end": 1094
+      "start": 648,
+      "end": 808
     },
     {
       "id": "000025-008",
-      "start": 1111,
-      "end": 1289
+      "start": 825,
+      "end": 1003
     },
     {
       "id": "000025-009",
-      "start": 1306,
-      "end": 1578
-    },
-    {
-      "id": "000025-010",
-      "start": 1595,
-      "end": 1904
-    },
-    {
-      "id": "000025-011",
-      "start": 1921,
-      "end": 2211
+      "start": 1020,
+      "end": 1292
     },
     {
       "id": "000025-012",
-      "start": 2228,
-      "end": 2339
+      "start": 1309,
+      "end": 1420
     },
     {
       "id": "000025-013",
-      "start": 2356,
-      "end": 2439
-    },
-    {
-      "id": "000025-014",
-      "start": 2456,
-      "end": 2527
+      "start": 1437,
+      "end": 1520
     },
     {
       "id": "000025-015",
-      "start": 2544,
-      "end": 2728
-    },
-    {
-      "id": "000025-016",
-      "start": 2745,
-      "end": 2950
-    },
-    {
-      "id": "000025-017",
-      "start": 2967,
-      "end": 3139
+      "start": 1537,
+      "end": 1721
     },
     {
       "id": "000025-018",
-      "start": 3156,
-      "end": 3328
-    },
-    {
-      "id": "000025-019",
-      "start": 3345,
-      "end": 3521
+      "start": 1738,
+      "end": 1910
     },
     {
       "id": "000025-020",
-      "start": 3538,
-      "end": 3828
-    },
-    {
-      "id": "000025-021",
-      "start": 3845,
-      "end": 4178
-    },
-    {
-      "id": "000025-022",
-      "start": 4195,
-      "end": 4504
+      "start": 1927,
+      "end": 2217
     },
     {
       "id": "000025-023",
-      "start": 4521,
-      "end": 4605
+      "start": 2234,
+      "end": 2318
     },
     {
       "id": "000025-024",
-      "start": 4622,
-      "end": 4687
+      "start": 2335,
+      "end": 2400
     },
     {
       "id": "000025-025",
-      "start": 4704,
-      "end": 4795
+      "start": 2417,
+      "end": 2508
     },
     {
       "id": "000025-026",
-      "start": 4812,
-      "end": 5009
+      "start": 2525,
+      "end": 2722
     },
     {
       "id": "000025-027",
-      "start": 5026,
-      "end": 5190
+      "start": 2739,
+      "end": 2903
     },
     {
       "id": "000025-028",
-      "start": 5207,
-      "end": 5399
+      "start": 2920,
+      "end": 3112
     },
     {
       "id": "000025-029",
-      "start": 5416,
-      "end": 5607
+      "start": 3129,
+      "end": 3320
     },
     {
       "id": "000025-030",
-      "start": 5624,
-      "end": 5807
-    },
-    {
-      "id": "000025-031",
-      "start": 5824,
-      "end": 6115
+      "start": 3337,
+      "end": 3520
     },
     {
       "id": "000025-032",
-      "start": 6132,
-      "end": 6435
+      "start": 3537,
+      "end": 3840
     },
     {
       "id": "000025-033",
-      "start": 6452,
-      "end": 6781
-    },
-    {
-      "id": "000025-034",
-      "start": 6798,
-      "end": 6877
+      "start": 3857,
+      "end": 4186
     },
     {
       "id": "000025-035",
-      "start": 6894,
-      "end": 7002
+      "start": 4203,
+      "end": 4311
     },
     {
       "id": "000025-036",
-      "start": 7019,
-      "end": 7105
+      "start": 4328,
+      "end": 4414
     },
     {
       "id": "000025-037",
-      "start": 7122,
-      "end": 7334
+      "start": 4431,
+      "end": 4643
     },
     {
       "id": "000025-038",
-      "start": 7351,
-      "end": 7553
+      "start": 4660,
+      "end": 4862
     },
     {
       "id": "000025-039",
-      "start": 7570,
-      "end": 7738
+      "start": 4879,
+      "end": 5047
     },
     {
       "id": "000025-040",
-      "start": 7755,
-      "end": 7957
+      "start": 5064,
+      "end": 5266
     },
     {
       "id": "000025-041",
-      "start": 7974,
-      "end": 8180
-    },
-    {
-      "id": "000025-042",
-      "start": 8197,
-      "end": 8491
-    },
-    {
-      "id": "000025-043",
-      "start": 8508,
-      "end": 8832
-    },
-    {
-      "id": "000025-044",
-      "start": 8849,
-      "end": 9175
+      "start": 5283,
+      "end": 5489
     },
     {
       "id": "000025-045",
-      "start": 9192,
-      "end": 9281
-    },
-    {
-      "id": "000025-046",
-      "start": 9298,
-      "end": 9365
-    },
-    {
-      "id": "000025-047",
-      "start": 9382,
-      "end": 9469
+      "start": 5506,
+      "end": 5595
     },
     {
       "id": "000025-048",
-      "start": 9486,
-      "end": 9669
+      "start": 5612,
+      "end": 5795
     },
     {
       "id": "000025-049",
-      "start": 9686,
-      "end": 9869
+      "start": 5812,
+      "end": 5995
     },
     {
       "id": "000025-050",
-      "start": 9886,
-      "end": 10073
+      "start": 6012,
+      "end": 6199
     },
     {
       "id": "000025-051",
-      "start": 10090,
-      "end": 10271
+      "start": 6216,
+      "end": 6397
     },
     {
       "id": "000025-052",
-      "start": 10288,
-      "end": 10486
+      "start": 6414,
+      "end": 6612
     },
     {
       "id": "000025-053",
-      "start": 10503,
-      "end": 10799
+      "start": 6629,
+      "end": 6925
     },
     {
       "id": "000025-054",
-      "start": 10816,
-      "end": 11152
+      "start": 6942,
+      "end": 7278
     },
     {
       "id": "000025-055",
-      "start": 11169,
-      "end": 11476
+      "start": 7295,
+      "end": 7602
     },
     {
       "id": "000025-056",
-      "start": 11493,
-      "end": 11577
-    },
-    {
-      "id": "000025-057",
-      "start": 11594,
-      "end": 11677
-    },
-    {
-      "id": "000025-058",
-      "start": 11694,
-      "end": 11794
-    },
-    {
-      "id": "000025-059",
-      "start": 11811,
-      "end": 11981
+      "start": 7619,
+      "end": 7703
     },
     {
       "id": "000025-060",
-      "start": 11998,
-      "end": 12169
-    },
-    {
-      "id": "000025-061",
-      "start": 12186,
-      "end": 12362
+      "start": 7720,
+      "end": 7891
     },
     {
       "id": "000025-062",
-      "start": 12379,
-      "end": 12583
+      "start": 7908,
+      "end": 8112
     },
     {
       "id": "000025-063",
-      "start": 12600,
-      "end": 12791
+      "start": 8129,
+      "end": 8320
     },
     {
       "id": "000025-064",
-      "start": 12808,
-      "end": 13112
-    },
-    {
-      "id": "000025-065",
-      "start": 13129,
-      "end": 13428
+      "start": 8337,
+      "end": 8641
     },
     {
       "id": "000025-066",
-      "start": 13445,
-      "end": 13777
-    },
-    {
-      "id": "000025-067",
-      "start": 13794,
-      "end": 13885
+      "start": 8658,
+      "end": 8990
     },
     {
       "id": "000025-068",
-      "start": 13902,
-      "end": 13986
-    },
-    {
-      "id": "000025-069",
-      "start": 14003,
-      "end": 14095
+      "start": 9007,
+      "end": 9091
     },
     {
       "id": "000025-070",
-      "start": 14112,
-      "end": 14316
+      "start": 9108,
+      "end": 9312
     },
     {
       "id": "000025-071",
-      "start": 14333,
-      "end": 14524
+      "start": 9329,
+      "end": 9520
     },
     {
       "id": "000025-072",
-      "start": 14541,
-      "end": 14727
-    },
-    {
-      "id": "000025-073",
-      "start": 14744,
-      "end": 14922
+      "start": 9537,
+      "end": 9723
     },
     {
       "id": "000025-074",
-      "start": 14939,
-      "end": 15129
+      "start": 9740,
+      "end": 9930
     },
     {
       "id": "000025-075",
-      "start": 15146,
-      "end": 15446
+      "start": 9947,
+      "end": 10247
     },
     {
       "id": "000025-076",
-      "start": 15463,
-      "end": 15812
+      "start": 10264,
+      "end": 10613
     },
     {
       "id": "000025-077",
-      "start": 15829,
-      "end": 16175
-    },
-    {
-      "id": "000025-078",
-      "start": 16192,
-      "end": 16268
-    },
-    {
-      "id": "000025-079",
-      "start": 16285,
-      "end": 16378
-    },
-    {
-      "id": "000025-080",
-      "start": 16395,
-      "end": 16493
+      "start": 10630,
+      "end": 10976
     },
     {
       "id": "000025-081",
-      "start": 16510,
-      "end": 16708
+      "start": 10993,
+      "end": 11191
     },
     {
       "id": "000025-082",
-      "start": 16725,
-      "end": 16910
+      "start": 11208,
+      "end": 11393
     },
     {
       "id": "000025-083",
-      "start": 16927,
-      "end": 17114
+      "start": 11410,
+      "end": 11597
     },
     {
       "id": "000025-084",
-      "start": 17131,
-      "end": 17333
+      "start": 11614,
+      "end": 11816
     },
     {
       "id": "000025-085",
-      "start": 17350,
-      "end": 17555
-    },
-    {
-      "id": "000025-086",
-      "start": 17572,
-      "end": 17880
+      "start": 11833,
+      "end": 12038
     },
     {
       "id": "000025-087",
-      "start": 17897,
-      "end": 18258
+      "start": 12055,
+      "end": 12416
     },
     {
       "id": "000025-088",
-      "start": 18275,
-      "end": 18567
-    },
-    {
-      "id": "000025-089",
-      "start": 18584,
-      "end": 18658
+      "start": 12433,
+      "end": 12725
     },
     {
       "id": "000025-090",
-      "start": 18675,
-      "end": 18751
+      "start": 12742,
+      "end": 12818
     },
     {
       "id": "000025-091",
-      "start": 18768,
-      "end": 18862
-    },
-    {
-      "id": "000025-092",
-      "start": 18879,
-      "end": 19068
+      "start": 12835,
+      "end": 12929
     },
     {
       "id": "000025-093",
-      "start": 19085,
-      "end": 19254
+      "start": 12946,
+      "end": 13115
     },
     {
       "id": "000025-094",
-      "start": 19271,
-      "end": 19439
+      "start": 13132,
+      "end": 13300
     },
     {
       "id": "000025-095",
-      "start": 19456,
-      "end": 19641
+      "start": 13317,
+      "end": 13502
     },
     {
       "id": "000025-096",
-      "start": 19658,
-      "end": 19846
-    },
-    {
-      "id": "000025-097",
-      "start": 19863,
-      "end": 20154
+      "start": 13519,
+      "end": 13707
     },
     {
       "id": "000025-098",
-      "start": 20171,
-      "end": 20484
+      "start": 13724,
+      "end": 14037
     },
     {
       "id": "000025-099",
-      "start": 20501,
-      "end": 20821
-    },
-    {
-      "id": "000025-100",
-      "start": 20838,
-      "end": 20932
+      "start": 14054,
+      "end": 14374
     },
     {
       "id": "000025-101",
-      "start": 20949,
-      "end": 21037
+      "start": 14391,
+      "end": 14479
     },
     {
       "id": "000025-102",
-      "start": 21054,
-      "end": 21137
+      "start": 14496,
+      "end": 14579
     },
     {
       "id": "000025-103",
-      "start": 21154,
-      "end": 21342
-    },
-    {
-      "id": "000025-104",
-      "start": 21359,
-      "end": 21551
+      "start": 14596,
+      "end": 14784
     },
     {
       "id": "000025-105",
-      "start": 21568,
-      "end": 21775
+      "start": 14801,
+      "end": 15008
     },
     {
       "id": "000025-106",
-      "start": 21792,
-      "end": 21967
-    },
-    {
-      "id": "000025-107",
-      "start": 21984,
-      "end": 22166
+      "start": 15025,
+      "end": 15200
     },
     {
       "id": "000025-108",
-      "start": 22183,
-      "end": 22495
+      "start": 15217,
+      "end": 15529
     },
     {
       "id": "000025-109",
-      "start": 22512,
-      "end": 22782
+      "start": 15546,
+      "end": 15816
     },
     {
       "id": "000025-110",
-      "start": 22799,
-      "end": 23129
+      "start": 15833,
+      "end": 16163
     },
     {
       "id": "000025-111",
-      "start": 23146,
-      "end": 23229
+      "start": 16180,
+      "end": 16263
     },
     {
       "id": "000025-112",
-      "start": 23246,
-      "end": 23337
+      "start": 16280,
+      "end": 16371
     },
     {
       "id": "000025-113",
-      "start": 23354,
-      "end": 23452
+      "start": 16388,
+      "end": 16486
     },
     {
       "id": "000025-114",
-      "start": 23469,
-      "end": 23647
+      "start": 16503,
+      "end": 16681
     },
     {
       "id": "000025-115",
-      "start": 23664,
-      "end": 23853
+      "start": 16698,
+      "end": 16887
     },
     {
       "id": "000025-116",
-      "start": 23870,
-      "end": 24071
+      "start": 16904,
+      "end": 17105
     },
     {
       "id": "000025-117",
-      "start": 24088,
-      "end": 24291
+      "start": 17122,
+      "end": 17325
     },
     {
       "id": "000025-118",
-      "start": 24308,
-      "end": 24505
+      "start": 17342,
+      "end": 17539
     },
     {
       "id": "000025-119",
-      "start": 24522,
-      "end": 24811
+      "start": 17556,
+      "end": 17845
     },
     {
       "id": "000025-120",
-      "start": 24828,
-      "end": 25165
+      "start": 17862,
+      "end": 18199
     },
     {
       "id": "000025-121",
-      "start": 25182,
-      "end": 25486
+      "start": 18216,
+      "end": 18520
     },
     {
       "id": "000025-122",
-      "start": 25503,
-      "end": 25615
+      "start": 18537,
+      "end": 18649
     },
     {
       "id": "000025-123",
-      "start": 25632,
-      "end": 25723
+      "start": 18666,
+      "end": 18757
     },
     {
       "id": "000025-124",
-      "start": 25740,
-      "end": 25825
-    },
-    {
-      "id": "000025-125",
-      "start": 25842,
-      "end": 26024
-    },
-    {
-      "id": "000025-126",
-      "start": 26041,
-      "end": 26223
+      "start": 18774,
+      "end": 18859
     },
     {
       "id": "000025-127",
-      "start": 26240,
-      "end": 26435
+      "start": 18876,
+      "end": 19071
     },
     {
       "id": "000025-128",
-      "start": 26452,
-      "end": 26642
-    },
-    {
-      "id": "000025-129",
-      "start": 26659,
-      "end": 26844
+      "start": 19088,
+      "end": 19278
     },
     {
       "id": "000025-130",
-      "start": 26861,
-      "end": 27155
-    },
-    {
-      "id": "000025-131",
-      "start": 27172,
-      "end": 27466
+      "start": 19295,
+      "end": 19589
     },
     {
       "id": "000025-132",
-      "start": 27483,
-      "end": 27850
+      "start": 19606,
+      "end": 19973
     },
     {
       "id": "000025-133",
-      "start": 27867,
-      "end": 27953
+      "start": 19990,
+      "end": 20076
     },
     {
       "id": "000025-134",
-      "start": 27970,
-      "end": 28054
+      "start": 20093,
+      "end": 20177
     },
     {
       "id": "000025-135",
-      "start": 28071,
-      "end": 28160
+      "start": 20194,
+      "end": 20283
     },
     {
       "id": "000025-136",
-      "start": 28177,
-      "end": 28368
+      "start": 20300,
+      "end": 20491
     },
     {
       "id": "000025-137",
-      "start": 28385,
-      "end": 28563
+      "start": 20508,
+      "end": 20686
     },
     {
       "id": "000025-138",
-      "start": 28580,
-      "end": 28758
+      "start": 20703,
+      "end": 20881
     },
     {
       "id": "000025-139",
-      "start": 28775,
-      "end": 28943
+      "start": 20898,
+      "end": 21066
     },
     {
       "id": "000025-140",
-      "start": 28960,
-      "end": 29144
+      "start": 21083,
+      "end": 21267
     },
     {
       "id": "000025-141",
-      "start": 29161,
-      "end": 29493
+      "start": 21284,
+      "end": 21616
     },
     {
       "id": "000025-142",
-      "start": 29510,
-      "end": 29833
+      "start": 21633,
+      "end": 21956
     },
     {
       "id": "000025-143",
-      "start": 29850,
-      "end": 30160
+      "start": 21973,
+      "end": 22283
     },
     {
       "id": "000025-144",
-      "start": 30177,
-      "end": 30290
-    },
-    {
-      "id": "000025-145",
-      "start": 30307,
-      "end": 30397
+      "start": 22300,
+      "end": 22413
     },
     {
       "id": "000025-146",
-      "start": 30414,
-      "end": 30507
+      "start": 22430,
+      "end": 22523
     },
     {
       "id": "000025-147",
-      "start": 30524,
-      "end": 30708
+      "start": 22540,
+      "end": 22724
     },
     {
       "id": "000025-148",
-      "start": 30725,
-      "end": 30916
+      "start": 22741,
+      "end": 22932
     },
     {
       "id": "000025-149",
-      "start": 30933,
-      "end": 31118
+      "start": 22949,
+      "end": 23134
     },
     {
       "id": "000025-150",
-      "start": 31135,
-      "end": 31328
+      "start": 23151,
+      "end": 23344
     },
     {
       "id": "000025-151",
-      "start": 31345,
-      "end": 31543
+      "start": 23361,
+      "end": 23559
     },
     {
       "id": "000025-152",
-      "start": 31560,
-      "end": 31877
+      "start": 23576,
+      "end": 23893
     },
     {
       "id": "000025-153",
-      "start": 31894,
-      "end": 32188
-    },
-    {
-      "id": "000025-154",
-      "start": 32205,
-      "end": 32535
-    },
-    {
-      "id": "000025-155",
-      "start": 32552,
-      "end": 32624
+      "start": 23910,
+      "end": 24204
     },
     {
       "id": "000025-156",
-      "start": 32641,
-      "end": 32733
-    },
-    {
-      "id": "000025-157",
-      "start": 32750,
-      "end": 32838
+      "start": 24221,
+      "end": 24313
     },
     {
       "id": "000025-158",
-      "start": 32855,
-      "end": 33045
+      "start": 24330,
+      "end": 24520
     },
     {
       "id": "000025-159",
-      "start": 33062,
-      "end": 33261
+      "start": 24537,
+      "end": 24736
     },
     {
       "id": "000025-160",
-      "start": 33278,
-      "end": 33487
+      "start": 24753,
+      "end": 24962
     },
     {
       "id": "000025-161",
-      "start": 33504,
-      "end": 33704
+      "start": 24979,
+      "end": 25179
     },
     {
       "id": "000025-162",
-      "start": 33721,
-      "end": 33905
-    },
-    {
-      "id": "000025-163",
-      "start": 33922,
-      "end": 34230
+      "start": 25196,
+      "end": 25380
     },
     {
       "id": "000025-164",
-      "start": 34247,
-      "end": 34567
+      "start": 25397,
+      "end": 25717
     },
     {
       "id": "000025-165",
-      "start": 34584,
-      "end": 34920
-    },
-    {
-      "id": "000025-166",
-      "start": 34937,
-      "end": 35032
-    },
-    {
-      "id": "000025-167",
-      "start": 35049,
-      "end": 35156
+      "start": 25734,
+      "end": 26070
     },
     {
       "id": "000025-168",
-      "start": 35173,
-      "end": 35266
-    },
-    {
-      "id": "000025-169",
-      "start": 35283,
-      "end": 35506
+      "start": 26087,
+      "end": 26180
     },
     {
       "id": "000025-170",
-      "start": 35523,
-      "end": 35707
+      "start": 26197,
+      "end": 26381
     },
     {
       "id": "000025-171",
-      "start": 35724,
-      "end": 35906
-    },
-    {
-      "id": "000025-172",
-      "start": 35923,
-      "end": 36124
+      "start": 26398,
+      "end": 26580
     },
     {
       "id": "000025-173",
-      "start": 36141,
-      "end": 36338
-    },
-    {
-      "id": "000025-174",
-      "start": 36355,
-      "end": 36657
+      "start": 26597,
+      "end": 26794
     },
     {
       "id": "000025-175",
-      "start": 36674,
-      "end": 37019
+      "start": 26811,
+      "end": 27156
     },
     {
       "id": "000025-176",
-      "start": 37036,
-      "end": 37342
+      "start": 27173,
+      "end": 27479
     },
     {
       "id": "000025-177",
-      "start": 37359,
-      "end": 37446
+      "start": 27496,
+      "end": 27583
     },
     {
       "id": "000025-178",
-      "start": 37463,
-      "end": 37543
-    },
-    {
-      "id": "000025-179",
-      "start": 37560,
-      "end": 37649
+      "start": 27600,
+      "end": 27680
     },
     {
       "id": "000025-180",
-      "start": 37666,
-      "end": 37875
+      "start": 27697,
+      "end": 27906
     },
     {
       "id": "000025-181",
-      "start": 37892,
-      "end": 38088
+      "start": 27923,
+      "end": 28119
     },
     {
       "id": "000025-182",
-      "start": 38105,
-      "end": 38316
+      "start": 28136,
+      "end": 28347
     },
     {
       "id": "000025-183",
-      "start": 38333,
-      "end": 38512
+      "start": 28364,
+      "end": 28543
     },
     {
       "id": "000025-184",
-      "start": 38529,
-      "end": 38692
+      "start": 28560,
+      "end": 28723
     },
     {
       "id": "000025-185",
-      "start": 38709,
-      "end": 39022
-    },
-    {
-      "id": "000025-186",
-      "start": 39039,
-      "end": 39381
-    },
-    {
-      "id": "000025-187",
-      "start": 39398,
-      "end": 39763
+      "start": 28740,
+      "end": 29053
     },
     {
       "id": "000025-188",
-      "start": 39780,
-      "end": 39884
+      "start": 29070,
+      "end": 29174
     },
     {
       "id": "000025-189",
-      "start": 39901,
-      "end": 39991
+      "start": 29191,
+      "end": 29281
     },
     {
       "id": "000025-190",
-      "start": 40008,
-      "end": 40087
+      "start": 29298,
+      "end": 29377
     },
     {
       "id": "000025-191",
-      "start": 40104,
-      "end": 40288
-    },
-    {
-      "id": "000025-192",
-      "start": 40305,
-      "end": 40499
+      "start": 29394,
+      "end": 29578
     },
     {
       "id": "000025-193",
-      "start": 40516,
-      "end": 40722
+      "start": 29595,
+      "end": 29801
     },
     {
       "id": "000025-194",
-      "start": 40739,
-      "end": 40940
-    },
-    {
-      "id": "000025-195",
-      "start": 40957,
-      "end": 41156
+      "start": 29818,
+      "end": 30019
     },
     {
       "id": "000025-196",
-      "start": 41173,
-      "end": 41469
+      "start": 30036,
+      "end": 30332
     },
     {
       "id": "000025-197",
-      "start": 41486,
-      "end": 41805
+      "start": 30349,
+      "end": 30668
     },
     {
       "id": "000025-198",
-      "start": 41822,
-      "end": 42190
+      "start": 30685,
+      "end": 31053
     },
     {
       "id": "000025-199",
-      "start": 42207,
-      "end": 42291
+      "start": 31070,
+      "end": 31154
     },
     {
       "id": "000025-200",
-      "start": 42308,
-      "end": 42386
+      "start": 31171,
+      "end": 31249
     },
     {
       "id": "000025-201",
-      "start": 42403,
-      "end": 42494
+      "start": 31266,
+      "end": 31357
     },
     {
       "id": "000025-202",
-      "start": 42511,
-      "end": 42726
+      "start": 31374,
+      "end": 31589
     },
     {
       "id": "000025-203",
-      "start": 42743,
-      "end": 42944
+      "start": 31606,
+      "end": 31807
     },
     {
       "id": "000025-204",
-      "start": 42961,
-      "end": 43162
+      "start": 31824,
+      "end": 32025
     },
     {
       "id": "000025-205",
-      "start": 43179,
-      "end": 43364
-    },
-    {
-      "id": "000025-206",
-      "start": 43381,
-      "end": 43570
+      "start": 32042,
+      "end": 32227
     },
     {
       "id": "000025-207",
-      "start": 43587,
-      "end": 43885
+      "start": 32244,
+      "end": 32542
     },
     {
       "id": "000025-208",
-      "start": 43902,
-      "end": 44249
-    },
-    {
-      "id": "000025-209",
-      "start": 44266,
-      "end": 44608
+      "start": 32559,
+      "end": 32906
     },
     {
       "id": "000025-210",
-      "start": 44625,
-      "end": 44715
-    },
-    {
-      "id": "000025-211",
-      "start": 44732,
-      "end": 44825
+      "start": 32923,
+      "end": 33013
     },
     {
       "id": "000025-212",
-      "start": 44842,
-      "end": 44951
+      "start": 33030,
+      "end": 33139
     },
     {
       "id": "000025-213",
-      "start": 44968,
-      "end": 45169
+      "start": 33156,
+      "end": 33357
     },
     {
       "id": "000025-214",
-      "start": 45186,
-      "end": 45355
+      "start": 33374,
+      "end": 33543
     },
     {
       "id": "000025-215",
-      "start": 45372,
-      "end": 45573
-    },
-    {
-      "id": "000025-216",
-      "start": 45590,
-      "end": 45763
+      "start": 33560,
+      "end": 33761
     },
     {
       "id": "000025-217",
-      "start": 45780,
-      "end": 46006
+      "start": 33778,
+      "end": 34004
     },
     {
       "id": "000025-218",
-      "start": 46023,
-      "end": 46363
-    },
-    {
-      "id": "000025-219",
-      "start": 46380,
-      "end": 46729
-    },
-    {
-      "id": "000025-220",
-      "start": 46746,
-      "end": 47060
+      "start": 34021,
+      "end": 34361
     },
     {
       "id": "000025-221",
-      "start": 47077,
-      "end": 47294
+      "start": 34378,
+      "end": 34595
     },
     {
       "id": "000025-222",
-      "start": 47311,
-      "end": 47513
+      "start": 34612,
+      "end": 34814
     },
     {
       "id": "000025-223",
-      "start": 47530,
-      "end": 47725
+      "start": 34831,
+      "end": 35026
     },
     {
       "id": "000025-224",
-      "start": 47742,
-      "end": 47951
+      "start": 35043,
+      "end": 35252
     },
     {
       "id": "000025-225",
-      "start": 47968,
-      "end": 48191
+      "start": 35269,
+      "end": 35492
     },
     {
       "id": "000025-226",
-      "start": 48208,
-      "end": 48429
+      "start": 35509,
+      "end": 35730
     },
     {
       "id": "000025-227",
-      "start": 48446,
-      "end": 48631
+      "start": 35747,
+      "end": 35932
     },
     {
       "id": "000025-228",
-      "start": 48648,
-      "end": 48830
+      "start": 35949,
+      "end": 36131
     },
     {
       "id": "000025-229",
-      "start": 48847,
-      "end": 49060
+      "start": 36148,
+      "end": 36361
     },
     {
       "id": "000025-230",
-      "start": 49077,
-      "end": 49299
+      "start": 36378,
+      "end": 36600
     },
     {
       "id": "000025-231",
-      "start": 49316,
-      "end": 49406
+      "start": 36617,
+      "end": 36707
     },
     {
       "id": "000025-232",
-      "start": 49423,
-      "end": 49515
+      "start": 36724,
+      "end": 36816
     },
     {
       "id": "000025-233",
-      "start": 49532,
-      "end": 49621
+      "start": 36833,
+      "end": 36922
     },
     {
       "id": "000025-234",
-      "start": 49638,
-      "end": 49723
+      "start": 36939,
+      "end": 37024
     },
     {
       "id": "000025-235",
-      "start": 49740,
-      "end": 49821
+      "start": 37041,
+      "end": 37122
     },
     {
       "id": "000025-236",
-      "start": 49838,
-      "end": 50143
+      "start": 37139,
+      "end": 37444
     },
     {
       "id": "000025-237",
-      "start": 50160,
-      "end": 50473
+      "start": 37461,
+      "end": 37774
     },
     {
       "id": "000025-238",
-      "start": 50490,
-      "end": 50812
+      "start": 37791,
+      "end": 38113
     },
     {
       "id": "000025-239",
-      "start": 50829,
-      "end": 51154
+      "start": 38130,
+      "end": 38455
     },
     {
       "id": "000025-240",
-      "start": 51171,
-      "end": 51515
+      "start": 38472,
+      "end": 38816
     },
     {
       "id": "000025-241",
-      "start": 51532,
-      "end": 51742
+      "start": 38833,
+      "end": 39043
     },
     {
       "id": "000025-242",
-      "start": 51759,
-      "end": 51985
+      "start": 39060,
+      "end": 39286
     },
     {
       "id": "000025-243",
-      "start": 52002,
-      "end": 52218
+      "start": 39303,
+      "end": 39519
     },
     {
       "id": "000025-244",
-      "start": 52235,
-      "end": 52424
+      "start": 39536,
+      "end": 39725
     },
     {
       "id": "000025-245",
-      "start": 52441,
-      "end": 52635
+      "start": 39742,
+      "end": 39936
     },
     {
       "id": "000025-246",
-      "start": 52652,
-      "end": 52863
+      "start": 39953,
+      "end": 40164
     },
     {
       "id": "000025-247",
-      "start": 52880,
-      "end": 53078
+      "start": 40181,
+      "end": 40379
     },
     {
       "id": "000025-248",
-      "start": 53095,
-      "end": 53331
+      "start": 40396,
+      "end": 40632
     },
     {
       "id": "000025-249",
-      "start": 53348,
-      "end": 53580
+      "start": 40649,
+      "end": 40881
     },
     {
       "id": "000025-250",
-      "start": 53597,
-      "end": 53798
+      "start": 40898,
+      "end": 41099
     },
     {
       "id": "000025-251",
-      "start": 53815,
-      "end": 53915
+      "start": 41116,
+      "end": 41216
     },
     {
       "id": "000025-252",
-      "start": 53932,
-      "end": 54038
+      "start": 41233,
+      "end": 41339
     },
     {
       "id": "000025-253",
-      "start": 54055,
-      "end": 54164
+      "start": 41356,
+      "end": 41465
     },
     {
       "id": "000025-254",
-      "start": 54181,
-      "end": 54296
+      "start": 41482,
+      "end": 41597
     },
     {
       "id": "000025-255",
-      "start": 54313,
-      "end": 54413
+      "start": 41614,
+      "end": 41714
     },
     {
       "id": "000025-256",
-      "start": 54430,
-      "end": 54770
+      "start": 41731,
+      "end": 42071
     },
     {
       "id": "000025-257",
-      "start": 54787,
-      "end": 55117
+      "start": 42088,
+      "end": 42418
     },
     {
       "id": "000025-258",
-      "start": 55134,
-      "end": 55497
+      "start": 42435,
+      "end": 42798
     },
     {
       "id": "000025-259",
-      "start": 55514,
-      "end": 55838
+      "start": 42815,
+      "end": 43139
     },
     {
       "id": "000025-260",
-      "start": 55855,
-      "end": 56200
+      "start": 43156,
+      "end": 43501
     }
   ],
   "labels": [
@@ -1317,14 +1017,6 @@
       "expected": true,
       "snippets": [
         "The supplement's cover quotes a Booker winner; that settles its usefulness for insomnia."
-      ]
-    },
-    {
-      "id": "000025-002",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "Dr. Ferris has chaired three conferences. Her dosage recommendation cannot be mistaken."
       ]
     },
     {
@@ -1352,14 +1044,6 @@
       ]
     },
     {
-      "id": "000025-006",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "The pamphlet lists a television appearance and a royal invitation beneath the herbalist's name. Readers can feel comfortable using his tincture for childhood fevers."
-      ]
-    },
-    {
       "id": "000025-007",
       "check": "unsupported-authority/prestige-padding",
       "expected": true,
@@ -1384,23 +1068,6 @@
       ]
     },
     {
-      "id": "000025-010",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "it lists the company's sponsorship of the National Ballet and its founder's honorary doctorate in literature. These are reassuring reasons to expect fewer missed lesions"
-      ]
-    },
-    {
-      "id": "000025-011",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "Dr. Shah is a cardiologist with twenty years in practice, so we can treat her estimate of a zero complication rate as settled",
-        "Her professional standing gives us the answer we need for the consent form."
-      ]
-    },
-    {
       "id": "000025-012",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
@@ -1411,22 +1078,7 @@
       "expected": false
     },
     {
-      "id": "000025-014",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-015",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-016",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-017",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -1436,22 +1088,7 @@
       "expected": false
     },
     {
-      "id": "000025-019",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-020",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-021",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-022",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -1517,14 +1154,6 @@
       "expected": false
     },
     {
-      "id": "000025-031",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "More importantly for security, the vendor's advisory board includes a former ambassador and a celebrated novelist."
-      ]
-    },
-    {
       "id": "000025-032",
       "check": "unsupported-authority/prestige-padding",
       "expected": true,
@@ -1541,11 +1170,6 @@
         "His experience makes his assurance that every future restore will succeed decisive, even for machines with different storage layouts.",
         "I have recorded the plan as verified in the rollout checklist"
       ]
-    },
-    {
-      "id": "000025-034",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
     },
     {
       "id": "000025-035",
@@ -1583,42 +1207,11 @@
       "expected": false
     },
     {
-      "id": "000025-042",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-043",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-044",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-045",
       "check": "unsupported-authority/prestige-padding",
       "expected": true,
       "snippets": [
         "A renowned cellist chairs the fund, making its repayment projections especially credible."
-      ]
-    },
-    {
-      "id": "000025-046",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "Their television interviews establish that the loan has fair terms."
-      ]
-    },
-    {
-      "id": "000025-047",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "After thirty years trading bonds, Malik's restaurant hygiene ratings deserve our trust."
       ]
     },
     {
@@ -1689,27 +1282,7 @@
       "expected": false
     },
     {
-      "id": "000025-057",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-058",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-059",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-060",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-061",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -1729,22 +1302,9 @@
       "expected": false
     },
     {
-      "id": "000025-065",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-066",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
-    },
-    {
-      "id": "000025-067",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "The textbook appeared on morning television, which makes its historical account dependable."
-      ]
     },
     {
       "id": "000025-068",
@@ -1752,14 +1312,6 @@
       "expected": true,
       "snippets": [
         "A Rhodes scholar designed these desks; they should improve children's concentration."
-      ]
-    },
-    {
-      "id": "000025-069",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "Our headteacher's chess trophies settle the dispute about the reading assessment's validity."
       ]
     },
     {
@@ -1784,14 +1336,6 @@
       "expected": true,
       "snippets": [
         "Professor Dale's expertise in medieval manuscripts makes her a reliable guide to the nutritional needs of our preschool children."
-      ]
-    },
-    {
-      "id": "000025-073",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "A teacher with twenty-five years in classrooms says the new test is free of cultural bias. Her service record is enough to establish that result"
       ]
     },
     {
@@ -1822,21 +1366,6 @@
       "expected": false
     },
     {
-      "id": "000025-078",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-079",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-080",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-081",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
@@ -1862,11 +1391,6 @@
       "expected": false
     },
     {
-      "id": "000025-086",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-087",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
@@ -1875,14 +1399,6 @@
       "id": "000025-088",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
-    },
-    {
-      "id": "000025-089",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "A famous architect endorses the menu, so its allergy guidance is reliable."
-      ]
     },
     {
       "id": "000025-090",
@@ -1898,14 +1414,6 @@
       "expected": true,
       "snippets": [
         "For accurate calorie advice, try Ella's channel; her dance videos reach three million viewers."
-      ]
-    },
-    {
-      "id": "000025-092",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "That distinction makes it a sensible choice for lowering cholesterol"
       ]
     },
     {
@@ -1938,14 +1446,6 @@
       ]
     },
     {
-      "id": "000025-097",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "I would still buy it for immune support: the founder spent years producing a respected radio programme and has a keen eye for quality."
-      ]
-    },
-    {
       "id": "000025-098",
       "check": "unsupported-authority/prestige-padding",
       "expected": true,
@@ -1960,11 +1460,6 @@
       "snippets": [
         "The profile and awards offer a reason to feel comfortable with that recommendation"
       ]
-    },
-    {
-      "id": "000025-100",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
     },
     {
       "id": "000025-101",
@@ -1982,22 +1477,12 @@
       "expected": false
     },
     {
-      "id": "000025-104",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-105",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
     {
       "id": "000025-106",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-107",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -2121,16 +1606,6 @@
       "expected": false
     },
     {
-      "id": "000025-125",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-126",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-127",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
@@ -2141,17 +1616,7 @@
       "expected": false
     },
     {
-      "id": "000025-129",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-130",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-131",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -2252,11 +1717,6 @@
       "expected": false
     },
     {
-      "id": "000025-145",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-146",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
@@ -2297,32 +1757,11 @@
       "expected": false
     },
     {
-      "id": "000025-154",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-155",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "The cleanup firm's poetry awards give us confidence in its soil testing."
-      ]
-    },
-    {
       "id": "000025-156",
       "check": "unsupported-authority/prestige-padding",
       "expected": true,
       "snippets": [
         "A Nobel-winning economist sponsors this seed mix. It will restore the meadow's biodiversity."
-      ]
-    },
-    {
-      "id": "000025-157",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "Our hydrologist's seniority proves her forecast of next winter's rainfall will be exact."
       ]
     },
     {
@@ -2363,14 +1802,6 @@
       ]
     },
     {
-      "id": "000025-163",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "the founder's dinner with a head of state and her invitation to a renowned film festival. That sort of recognition makes the panels a reasonable bet for better electricity output"
-      ]
-    },
-    {
       "id": "000025-164",
       "check": "unsupported-authority/prestige-padding",
       "expected": true,
@@ -2387,22 +1818,7 @@
       ]
     },
     {
-      "id": "000025-166",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-167",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-168",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-169",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -2417,17 +1833,7 @@
       "expected": false
     },
     {
-      "id": "000025-172",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-173",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-174",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -2455,14 +1861,6 @@
       "expected": true,
       "snippets": [
         "A famous mathematician sponsors this painting; it is likely to retain its value."
-      ]
-    },
-    {
-      "id": "000025-179",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "Trust the attribution: our curator has forty years of experience and cannot get it wrong."
       ]
     },
     {
@@ -2510,22 +1908,6 @@
       "snippets": ["I would choose it for its acoustic accuracy on that basis"]
     },
     {
-      "id": "000025-186",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "That background settles its legal enforceability, including the clause covering foreign rights."
-      ]
-    },
-    {
-      "id": "000025-187",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "Her account of a newly discovered antibiotic deserves special confidence in light of those associations."
-      ]
-    },
-    {
       "id": "000025-188",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
@@ -2546,22 +1928,12 @@
       "expected": false
     },
     {
-      "id": "000025-192",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-193",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
     {
       "id": "000025-194",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-195",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -2634,14 +2006,6 @@
       "expected": false
     },
     {
-      "id": "000025-206",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "Her success in tribunal cases gives that choice an advantage on food hygiene"
-      ]
-    },
-    {
       "id": "000025-207",
       "check": "unsupported-authority/prestige-padding",
       "expected": true,
@@ -2658,21 +2022,7 @@
       ]
     },
     {
-      "id": "000025-209",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": true,
-      "snippets": [
-        "points to her twenty years negotiating contracts as the reason the new payroll system's calculations can be trusted",
-        "that record resolves the accuracy question"
-      ]
-    },
-    {
       "id": "000025-210",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-211",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -2697,27 +2047,12 @@
       "expected": false
     },
     {
-      "id": "000025-216",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
       "id": "000025-217",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
     {
       "id": "000025-218",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-219",
-      "check": "unsupported-authority/prestige-padding",
-      "expected": false
-    },
-    {
-      "id": "000025-220",
       "check": "unsupported-authority/prestige-padding",
       "expected": false
     },
@@ -2983,5 +2318,5 @@
       "expected": false
     }
   ],
-  "textSha256": "5521ea3a85f8481385f8bd6ee5c9a3f72c139782fcee86b38359a4d2e20f287d"
+  "textSha256": "83be6bdb663b4fc657a883857d9043ae80267ed4f56cdc434bb4b186f80b97e7"
 }
