@@ -5,7 +5,7 @@
   "type": "staged-opposition",
   "split": "development",
   "input": "passage",
-  "status": "QA-PASSED-FULL-POOL-READY-FOR-ARCHIVE",
+  "status": "QA-PASSED-CORRECTED-FULL-POOL-READY-FOR-ARCHIVE",
   "recordedAt": "2026-10-21T13:49:24.083Z",
   "definition": {
     "commit": "633c184a",
@@ -40,14 +40,14 @@
       "sha256": "88da27c23549de53a51fa89f6e2722f30e29bcf56ec1c72043b76691151eb5bc"
     },
     "labels": {
-      "path": "datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.labels.json",
-      "sha256": "230ca370cd0b554f174cef79431ebfb6a665d21dee2ba195948477bbde9c498d"
+      "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.labels.json",
+      "sha256": "7d8ed1c7af9497831e24ead1bcfbfcdd8ad4c0726e69ec991f81dc3f5cf77d58"
     },
     "textSha256": "88da27c23549de53a51fa89f6e2722f30e29bcf56ec1c72043b76691151eb5bc",
     "passages": 240,
     "classCounts": {
-      "hit": 106,
-      "noHit": 134
+      "hit": 107,
+      "noHit": 133
     },
     "initialClassCounts": {
       "hit": 120,
@@ -79,8 +79,8 @@
         "noHit": 10
       },
       "home-repair": {
-        "hit": 6,
-        "noHit": 14
+        "hit": 7,
+        "noHit": 13
       },
       "personal": {
         "hit": 10,
@@ -1809,12 +1809,12 @@
     "lengthCoverage": {
       "hit": {
         "short": 30,
-        "medium": 50,
+        "medium": 51,
         "long": 26
       },
       "noHit": {
         "short": 30,
-        "medium": 70,
+        "medium": 69,
         "long": 34
       }
     },
@@ -2592,7 +2592,7 @@
         },
         {
           "id": "000027-108",
-          "expected": false
+          "expected": true
         },
         {
           "id": "000027-124",
@@ -2903,7 +2903,7 @@
       "000027-147",
       "000027-149"
     ],
-    "classificationCorrections": 14,
+    "classificationCorrections": 13,
     "correctedIds": [
       "000027-026",
       "000027-045",
@@ -2911,7 +2911,6 @@
       "000027-066",
       "000027-106",
       "000027-107",
-      "000027-108",
       "000027-110",
       "000027-165",
       "000027-186",
@@ -4123,11 +4122,60 @@
       }
     ],
     "currentCanonicalClassificationDisagreements": {
-      "blind": 14,
-      "adversarial": 14,
-      "final": 14
+      "blind": 13,
+      "adversarial": 13,
+      "final": 13
     },
-    "currentCanonicalDisagreementVoteCount": 42
+    "currentCanonicalDisagreementVoteCount": 39,
+    "classificationCorrectionHistory": [
+      {
+        "event": "completed-full-pool-qa-before-fresh-boundary-adjudication",
+        "classificationCorrections": 14,
+        "correctedIds": [
+          "000027-026",
+          "000027-045",
+          "000027-065",
+          "000027-066",
+          "000027-106",
+          "000027-107",
+          "000027-108",
+          "000027-110",
+          "000027-165",
+          "000027-186",
+          "000027-189",
+          "000027-190",
+          "000027-204",
+          "000027-210"
+        ],
+        "classCounts": {
+          "hit": 106,
+          "noHit": 134
+        },
+        "mandatoryClassCounts": {
+          "hit": 7,
+          "noHit": 20
+        },
+        "currentCanonicalClassificationDisagreements": {
+          "blind": 14,
+          "adversarial": 14,
+          "final": 14
+        },
+        "currentCanonicalDisagreementVoteCount": 42,
+        "labels": {
+          "path": "/tmp/000027-development-final-adjudication-1IFP1a/before.labels.json",
+          "sha256": "230ca370cd0b554f174cef79431ebfb6a665d21dee2ba195948477bbde9c498d"
+        },
+        "review": {
+          "path": "/tmp/000027-development-final-adjudication-1IFP1a/before.review.json",
+          "sha256": "83c7a478109973aada61579c14c20f4442161468034513ff893a6d247c0e0e20"
+        },
+        "attestation": {
+          "path": "/tmp/000027-development-independent-qa-handoff.json",
+          "sha256": "f73c0bee6a2c3fb31f840502be3efa06050246834b00db754a77c2ec0b984876"
+        },
+        "supersededForCurrentCounts": true
+      }
+    ]
   },
   "currentTextThreeRoleCoverage": [
     {
@@ -15345,22 +15393,52 @@
     },
     {
       "id": "000027-108",
-      "expected": false,
+      "expected": true,
       "mandatory": true,
-      "decision": "The crooked first shelf identifies a novice error, and the level with marked bracket positions supplies a specific improved method for the next attempt. That correction addresses the stated crookedness and gives apprenticeship a concrete learning referent. Preserve the meaningful progression from initial error to improved practice, keeping the original author and all three Opus hit votes.",
-      "decisionProvenance": "independent-qa-label-only-override",
+      "decision": "The crooked shelf is the error the subsequent instructions address. Denying mistake reinterprets that error as growth without resolving a consequential misunderstanding. A level and marked bracket positions support learning from the mistake, while the denial chiefly supplies uplift. The next shelf is prospective advice; it supplies no completed salvage outcome like 000027-210. Restore the hit and its original final-Opus first-sentence snippet.",
+      "decisionProvenance": "parent-accepted-fresh-independent-boundary-adjudication",
       "originalAuthorExpected": true,
       "originalOpusVotes": {
         "blind": true,
         "adversarial": true,
         "final": true
       },
-      "objections": [],
-      "proseChanged": false
+      "objections": [
+        {
+          "source": {
+            "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+            "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+          },
+          "objection": "The earlier no-hit decision treated the useful corrective method as support for denying that the crooked shelf was a mistake.",
+          "disposition": "Restore the rhetorical-denial hit while preserving the practical advice and every original vote."
+        }
+      ],
+      "proseChanged": false,
+      "review": {
+        "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+        "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+      },
+      "labelBlind": false,
+      "briefDisclosedChangeDirection": true,
+      "supersededAdjudication": {
+        "id": "000027-108",
+        "expected": false,
+        "mandatory": true,
+        "decision": "The crooked first shelf identifies a novice error, and the level with marked bracket positions supplies a specific improved method for the next attempt. That correction addresses the stated crookedness and gives apprenticeship a concrete learning referent. Preserve the meaningful progression from initial error to improved practice, keeping the original author and all three Opus hit votes.",
+        "decisionProvenance": "independent-qa-label-only-override",
+        "originalAuthorExpected": true,
+        "originalOpusVotes": {
+          "blind": true,
+          "adversarial": true,
+          "final": true
+        },
+        "objections": [],
+        "proseChanged": false
+      }
     }
   ],
   "finalJudgmentAndSnippetProvenance": {
-    "policy": "The reconciler applies the frozen complete-passage boundaries independently of vote counts. Five initial label-only corrections preserve supported distinctions and developments. Independent QA confirms those five and requests nine further useful-distinction corrections: 026, 066, 106, 107, 108, 165, 186, 189, and 190. All hit snippets are copied unchanged from the final Opus role for that exact text. Original votes, objections, requests, and raw envelopes remain preserved.",
+    "policy": "The historical full-pool QA made fourteen hit-to-no-hit changes. The parent-accepted fresh independent boundary adjudication restores 108 to hit and upholds the other thirteen no-hits. Current correction counts describe thirteen remaining differences from original author judgments. All hit snippets are copied unchanged from the final Opus role for the exact current writing. Earlier no-hit decisions, original votes, objections, requests, and raw envelopes remain preserved.",
     "judgments": [
       {
         "id": "000027-001",
@@ -16103,8 +16181,20 @@
       },
       {
         "id": "000027-108",
-        "expected": false,
-        "labelSource": "adjudications"
+        "expected": true,
+        "labelSource": "adjudications/superseding-boundary-adjudication",
+        "snippetSource": "/tmp/000027-development-r1-final-chunk2-response.json",
+        "snippets": [
+          "That crooked first shelf isn't a mistake; it's your apprenticeship announcing itself."
+        ],
+        "snippetRawEnvelope": {
+          "path": "/tmp/000027-development-r1-final-chunk2-response.json.raw.json",
+          "sha256": "04e4de6eee6c7be43a3e00298555fbb4cb0ba315582b1efef3dbd796e140fd3e"
+        },
+        "adjudicationReview": {
+          "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+          "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+        }
       },
       {
         "id": "000027-109",
@@ -17014,8 +17104,8 @@
     "000027-210"
   ],
   "mandatoryClassCounts": {
-    "hit": 7,
-    "noHit": 20
+    "hit": 8,
+    "noHit": 19
   },
   "mandatoryClassCountExceeds100": false,
   "explicitlyApprovedSeeds": [],
@@ -17037,15 +17127,15 @@
         "quotation": 15,
         "numericalDetail": 26,
         "multiParagraph": 13,
-        "contractedNegation": 26,
-        "temporalWording": 27
+        "contractedNegation": 27,
+        "temporalWording": 28
       },
       "noHit": {
         "quotation": 22,
         "numericalDetail": 12,
         "multiParagraph": 19,
-        "contractedNegation": 8,
-        "temporalWording": 50
+        "contractedNegation": 7,
+        "temporalWording": 49
       }
     },
     "explicitLabelCueIds": [],
@@ -17111,9 +17201,19 @@
       "operationalPlantSpacing": "000027-106",
       "improvedCornerUse": "000027-107",
       "deliberateRepeatedDesign": "000027-165",
-      "intentionalLowLoadRecovery": "000027-186",
-      "specificApprenticeshipLearning": "000027-108"
-    }
+      "intentionalLowLoadRecovery": "000027-186"
+    },
+    "supersededBoundaryAssessments": [
+      {
+        "id": "000027-108",
+        "previous": "specificApprenticeshipLearning",
+        "current": "Rhetorical denial of an actual mistake; practical advice remains useful.",
+        "review": {
+          "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+          "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+        }
+      }
+    ]
   },
   "verification": {
     "readDocument": {
@@ -17134,40 +17234,67 @@
       "proseWrap": "preserve"
     },
     "independentQA": {
-      "reviewerThread": "01a15eb7-65aa-7f42-8b3e-27c188222b87",
+      "reviewerThread": "01a15f06-663a-7a40-be60-a4ab25e63eba",
       "status": "passed",
-      "scope": "Every current passage, canonical judgment, adjudication, exact hit snippet, and raw-review provenance.",
+      "scope": "The 108-only restoration, all other labels, raw votes, complete writing, coverage counts, and historical adjudication conservation.",
+      "labelBlind": false,
+      "briefDisclosedChangeDirection": true,
+      "originalOpusRolesLabelWithheld": true,
+      "boundaryReview": {
+        "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+        "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+      },
       "attestation": {
-        "path": "/tmp/000027-development-independent-qa-handoff.json",
-        "sha256": "f73c0bee6a2c3fb31f840502be3efa06050246834b00db754a77c2ec0b984876"
+        "path": "/tmp/slopless-development-boundary-VZ0toDGq/post-correction-attestation.json",
+        "sha256": "1095518b0c6b21a2d585a77407f15f82c99e0ec803ab1681286101981fdaae6d"
       },
-      "reviewedArtifacts": {
-        "markdown": {
-          "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.md",
-          "sha256": "88da27c23549de53a51fa89f6e2722f30e29bcf56ec1c72043b76691151eb5bc"
-        },
-        "labels": {
-          "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.labels.json",
-          "sha256": "230ca370cd0b554f174cef79431ebfb6a665d21dee2ba195948477bbde9c498d"
-        },
-        "reviewRecordBeforeAttestation": {
-          "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/staged-opposition-development-opus-review.json",
-          "sha256": "831354e27df8844d4086bfb960b657753d57f195b172b2a7da455320edba3b46"
-        }
+      "verifiedReviewBeforeAttachment": {
+        "path": "/tmp/slopless-development-boundary-VZ0toDGq/review-before-attestation.json",
+        "sha256": "a4aed202d31375436070db331ccdc545315bd3b98993032fc27b3b77c6a6d67c"
       },
-      "manualPassagesReviewed": 240,
-      "roleJudgmentsInspected": 720,
-      "independentFreshSessions": 9,
-      "referencedFileHashesVerified": 41,
-      "qaLabelOnlyCorrections": 9,
-      "totalLabelOnlyCorrections": 14,
-      "allCurrentWritingReviewedByThreeRoles": true,
-      "originalVotesPreserved": true,
-      "unresolvedMaterialConcerns": []
+      "verifiedResults": {
+        "changedLabelIds": ["000027-108"],
+        "transition": {
+          "from": false,
+          "to": true
+        },
+        "unchangedOtherLabels": 239,
+        "unchangedWritingSamples": 240,
+        "sampleBoundariesAndLabelMetadataPreserved": true,
+        "snippet": "That crooked first shelf isn't a mistake; it's your apprenticeship announcing itself.",
+        "snippetMatchesOriginalFinalOpusFirstSentence": true,
+        "all107HitSnippetsMatchOriginalFinalOpus": true,
+        "originalRoleVotesPreserved": 720,
+        "rawReviewArtifactsHashVerified": 36,
+        "oldQaDecisionsAndAdjudicationsPreserved": true,
+        "upheldDisputedNoHits": 13,
+        "currentCorrectedIds": 13,
+        "currentRoleDiscrepancies": {
+          "blind": 13,
+          "adversarial": 13,
+          "final": 13
+        },
+        "currentRoleDiscrepancyTotal": 39,
+        "pool": {
+          "total": 240,
+          "hit": 107,
+          "noHit": 133
+        },
+        "mandatory": {
+          "total": 27,
+          "hit": 8,
+          "noHit": 19
+        },
+        "allPriorMandatoryIdsPreserved": true,
+        "domainLengthWordingAndMultiParagraphCoverageRecomputed": true,
+        "currentDatasetHashesCorrect": true,
+        "disclosedLabelProvenanceExplicit": true,
+        "initialJudgmentsAndFullReviewHashesPreserved": true
+      }
     }
   },
   "unresolvedMaterialConcerns": [],
-  "nextOperation": "Parent archives the complete 240-passage reviewed pool in Git, then selects the balanced set while retaining all 27 mandatory IDs.",
+  "nextOperation": "Parent archives the corrected complete 240-passage pool before deterministic balancing, retaining all 27 mandatory IDs.",
   "independentQaCorrections": {
     "reviewerThread": "01a15eb7-65aa-7f42-8b3e-27c188222b87",
     "status": "VERIFIED",
@@ -17337,6 +17464,162 @@
         ],
         "allPriorMandatoryIdsRetained": true
       }
+    }
+  },
+  "supersedingAdjudicationHistory": [
+    {
+      "id": "000027-108",
+      "from": false,
+      "to": true,
+      "previousAdjudication": {
+        "id": "000027-108",
+        "expected": false,
+        "mandatory": true,
+        "decision": "The crooked first shelf identifies a novice error, and the level with marked bracket positions supplies a specific improved method for the next attempt. That correction addresses the stated crookedness and gives apprenticeship a concrete learning referent. Preserve the meaningful progression from initial error to improved practice, keeping the original author and all three Opus hit votes.",
+        "decisionProvenance": "independent-qa-label-only-override",
+        "originalAuthorExpected": true,
+        "originalOpusVotes": {
+          "blind": true,
+          "adversarial": true,
+          "final": true
+        },
+        "objections": [],
+        "proseChanged": false
+      },
+      "currentAdjudication": {
+        "id": "000027-108",
+        "expected": true,
+        "mandatory": true,
+        "decision": "The crooked shelf is the error the subsequent instructions address. Denying mistake reinterprets that error as growth without resolving a consequential misunderstanding. A level and marked bracket positions support learning from the mistake, while the denial chiefly supplies uplift. The next shelf is prospective advice; it supplies no completed salvage outcome like 000027-210. Restore the hit and its original final-Opus first-sentence snippet.",
+        "decisionProvenance": "parent-accepted-fresh-independent-boundary-adjudication",
+        "originalAuthorExpected": true,
+        "originalOpusVotes": {
+          "blind": true,
+          "adversarial": true,
+          "final": true
+        },
+        "objections": [
+          {
+            "source": {
+              "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+              "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+            },
+            "objection": "The earlier no-hit decision treated the useful corrective method as support for denying that the crooked shelf was a mistake.",
+            "disposition": "Restore the rhetorical-denial hit while preserving the practical advice and every original vote."
+          }
+        ],
+        "proseChanged": false,
+        "review": {
+          "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+          "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+        },
+        "labelBlind": false,
+        "briefDisclosedChangeDirection": true,
+        "supersededAdjudication": {
+          "id": "000027-108",
+          "expected": false,
+          "mandatory": true,
+          "decision": "The crooked first shelf identifies a novice error, and the level with marked bracket positions supplies a specific improved method for the next attempt. That correction addresses the stated crookedness and gives apprenticeship a concrete learning referent. Preserve the meaningful progression from initial error to improved practice, keeping the original author and all three Opus hit votes.",
+          "decisionProvenance": "independent-qa-label-only-override",
+          "originalAuthorExpected": true,
+          "originalOpusVotes": {
+            "blind": true,
+            "adversarial": true,
+            "final": true
+          },
+          "objections": [],
+          "proseChanged": false
+        }
+      },
+      "mandatoryRetained": true,
+      "writingChanged": false,
+      "review": {
+        "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+        "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+      }
+    }
+  ],
+  "boundaryAdjudication": {
+    "reviewerThread": "01a15f06-663a-7a40-be60-a4ab25e63eba",
+    "review": {
+      "path": "/tmp/slopless-development-boundary-VZ0toDGq/review.md",
+      "sha256": "44422e1026d5be3a745cc73abbd2f4fb9bbdba92161262639a7b7c80480a3eae"
+    },
+    "status": "VERIFIED",
+    "labelBlind": false,
+    "briefDisclosedChangeDirection": true,
+    "originalOpusRolesLabelWithheld": true,
+    "parentAcceptedResult": "Restore only 000027-108 to hit and retain the other thirteen disputed no-hits.",
+    "upheldNoHitIds": [
+      "000027-026",
+      "000027-045",
+      "000027-065",
+      "000027-066",
+      "000027-106",
+      "000027-107",
+      "000027-110",
+      "000027-165",
+      "000027-186",
+      "000027-189",
+      "000027-190",
+      "000027-204",
+      "000027-210"
+    ],
+    "restoredHitIds": ["000027-108"],
+    "initial165HitRevisedToNoHit": true,
+    "initialJudgments": {
+      "path": "/tmp/slopless-development-boundary-VZ0toDGq/initial-judgments.json",
+      "sha256": "be7c9f282e0804a31e413bf669fd785d92791d225d7f8b8a08dec8824ecd33e1"
+    },
+    "previousFullPoolQA": {
+      "reviewerThread": "01a15eb7-65aa-7f42-8b3e-27c188222b87",
+      "status": "passed",
+      "scope": "Every current passage, canonical judgment, adjudication, exact hit snippet, and raw-review provenance.",
+      "attestation": {
+        "path": "/tmp/000027-development-independent-qa-handoff.json",
+        "sha256": "f73c0bee6a2c3fb31f840502be3efa06050246834b00db754a77c2ec0b984876"
+      },
+      "reviewedArtifacts": {
+        "markdown": {
+          "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.md",
+          "sha256": "88da27c23549de53a51fa89f6e2722f30e29bcf56ec1c72043b76691151eb5bc"
+        },
+        "labels": {
+          "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000027-staged-contrasts-staged-opposition-development.labels.json",
+          "sha256": "230ca370cd0b554f174cef79431ebfb6a665d21dee2ba195948477bbde9c498d"
+        },
+        "reviewRecordBeforeAttestation": {
+          "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/runners/results/staged-opposition-development-opus-review.json",
+          "sha256": "831354e27df8844d4086bfb960b657753d57f195b172b2a7da455320edba3b46"
+        }
+      },
+      "manualPassagesReviewed": 240,
+      "roleJudgmentsInspected": 720,
+      "independentFreshSessions": 9,
+      "referencedFileHashesVerified": 41,
+      "qaLabelOnlyCorrections": 9,
+      "totalLabelOnlyCorrections": 14,
+      "allCurrentWritingReviewedByThreeRoles": true,
+      "originalVotesPreserved": true,
+      "unresolvedMaterialConcerns": []
+    },
+    "beforeArtifacts": {
+      "markdown": {
+        "path": "/tmp/000027-development-final-adjudication-1IFP1a/before.md",
+        "sha256": "88da27c23549de53a51fa89f6e2722f30e29bcf56ec1c72043b76691151eb5bc"
+      },
+      "labels": {
+        "path": "/tmp/000027-development-final-adjudication-1IFP1a/before.labels.json",
+        "sha256": "230ca370cd0b554f174cef79431ebfb6a665d21dee2ba195948477bbde9c498d"
+      },
+      "review": {
+        "path": "/tmp/000027-development-final-adjudication-1IFP1a/before.review.json",
+        "sha256": "83c7a478109973aada61579c14c20f4442161468034513ff893a6d247c0e0e20"
+      }
+    },
+    "conservationVerification": {
+      "path": "/tmp/slopless-development-boundary-VZ0toDGq/post-correction-attestation.json",
+      "sha256": "1095518b0c6b21a2d585a77407f15f82c99e0ec803ab1681286101981fdaae6d"
     }
   }
 }
