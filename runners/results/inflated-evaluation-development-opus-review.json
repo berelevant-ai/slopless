@@ -2,7 +2,7 @@
   "collectionId": "000019",
   "check": "puffery-and-overstatement/inflated-evaluation",
   "split": "development",
-  "status": "full-reviewed-pool-archive-ready; final-200-selection-pending; new-source-seed-independent-QA-pending",
+  "status": "balanced-reviewed-development-awaiting-Gauss-selected-subset-QA",
   "definition": {
     "path": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
     "heading": "Inflated Evaluation (`inflated-evaluation`)",
@@ -25,12 +25,31 @@
         "sha256": "0198dbc74f2f54265726f39c55386ed652bd458658772e9ba669425188a3f48a"
       }
     },
-    "pendingArchive": "Parent will commit this complete 277-passage source pool before final selection."
+    "fullPool": {
+      "commit": "37cc068922434b0343828a574f1b4ce1491f466c",
+      "counts": {
+        "passages": 277,
+        "hits": 137,
+        "noHits": 140
+      },
+      "markdown": {
+        "gitPath": "datasets/ai-synthetic/passages/000019-puffery-and-overstatement-inflated-evaluation-development.md",
+        "sha256": "1990122765cf6732da9c145f99c9ddc87aa05e01940ad88bb94049724513e8b3"
+      },
+      "labels": {
+        "gitPath": "datasets/ai-synthetic/passages/000019-puffery-and-overstatement-inflated-evaluation-development.labels.json",
+        "sha256": "c60b287496bcfd367fb27a55572a2811034e42651b779f9f26b565f555463203"
+      },
+      "review": {
+        "gitPath": "runners/results/inflated-evaluation-development-opus-review.json",
+        "sha256": "be6ded0559c2110f108b40c07aa9566a93a1bcebbec99b6d522da5986870e8fb"
+      }
+    }
   },
   "counts": {
-    "passages": 277,
-    "hits": 137,
-    "noHits": 140
+    "passages": 200,
+    "hits": 100,
+    "noHits": 100
   },
   "historicalVsNewCounts": {
     "archivedInitialPool": {
@@ -808,7 +827,7 @@
   "classificationAdjudications": [
     {
       "id": "000019-253",
-      "independentReviewer": "Gauss; decision supplied by user",
+      "independentReviewer": "Gauss; adjudication accepted by parent",
       "priorAuthorExpected": true,
       "finalExpected": false,
       "opusFinalExpected": true,
@@ -868,28 +887,30 @@
     "finalModelJudgmentsStoredIn": "Per-call structured output paths, with new full envelopes retained alongside them. Canonical labels contain adjudicated judgments and exact selected snippets."
   },
   "selection": {
-    "status": "not-started",
-    "fullPoolRetained": true,
+    "status": "complete",
+    "counts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100
+    },
+    "sourcePoolCounts": {
+      "passages": 277,
+      "hits": 137,
+      "noHits": 140
+    },
+    "archiveCommit": "37cc068922434b0343828a574f1b4ce1491f466c",
+    "fullPoolArchived": true,
     "retainedIds": [
-      "000019-001",
-      "000019-002",
-      "000019-003",
       "000019-004",
-      "000019-005",
       "000019-006",
       "000019-007",
-      "000019-008",
       "000019-009",
-      "000019-010",
       "000019-011",
-      "000019-012",
       "000019-013",
       "000019-014",
       "000019-015",
-      "000019-016",
       "000019-017",
       "000019-018",
-      "000019-019",
       "000019-020",
       "000019-021",
       "000019-022",
@@ -903,172 +924,104 @@
       "000019-030",
       "000019-031",
       "000019-032",
-      "000019-033",
       "000019-034",
-      "000019-035",
-      "000019-036",
       "000019-037",
       "000019-038",
-      "000019-039",
       "000019-040",
       "000019-041",
-      "000019-042",
       "000019-043",
       "000019-044",
-      "000019-045",
-      "000019-046",
       "000019-047",
       "000019-048",
       "000019-049",
       "000019-050",
-      "000019-051",
       "000019-052",
       "000019-053",
       "000019-054",
       "000019-055",
       "000019-056",
-      "000019-057",
       "000019-058",
       "000019-059",
-      "000019-060",
-      "000019-061",
       "000019-062",
       "000019-063",
       "000019-064",
-      "000019-065",
       "000019-066",
       "000019-067",
       "000019-068",
       "000019-069",
       "000019-070",
       "000019-071",
-      "000019-072",
       "000019-073",
       "000019-074",
-      "000019-075",
       "000019-076",
       "000019-077",
-      "000019-078",
-      "000019-079",
       "000019-080",
-      "000019-081",
-      "000019-082",
       "000019-083",
       "000019-084",
       "000019-085",
-      "000019-086",
-      "000019-087",
       "000019-088",
       "000019-089",
       "000019-090",
-      "000019-091",
       "000019-092",
-      "000019-093",
-      "000019-094",
-      "000019-095",
-      "000019-096",
       "000019-097",
       "000019-098",
       "000019-099",
       "000019-100",
       "000019-101",
       "000019-102",
-      "000019-103",
       "000019-104",
       "000019-105",
       "000019-106",
       "000019-107",
       "000019-108",
-      "000019-109",
       "000019-110",
       "000019-111",
       "000019-112",
-      "000019-113",
       "000019-114",
       "000019-115",
-      "000019-116",
-      "000019-117",
-      "000019-118",
       "000019-119",
       "000019-120",
-      "000019-121",
-      "000019-122",
-      "000019-123",
-      "000019-124",
       "000019-125",
       "000019-126",
       "000019-127",
-      "000019-128",
-      "000019-129",
       "000019-130",
-      "000019-131",
       "000019-132",
-      "000019-133",
-      "000019-134",
-      "000019-135",
       "000019-136",
-      "000019-137",
       "000019-138",
       "000019-139",
       "000019-140",
-      "000019-141",
-      "000019-142",
       "000019-143",
-      "000019-144",
-      "000019-145",
       "000019-146",
       "000019-147",
       "000019-148",
-      "000019-149",
       "000019-150",
-      "000019-151",
       "000019-152",
-      "000019-153",
       "000019-154",
       "000019-155",
       "000019-156",
-      "000019-157",
       "000019-158",
-      "000019-159",
       "000019-160",
       "000019-161",
       "000019-162",
       "000019-163",
       "000019-164",
-      "000019-165",
       "000019-166",
-      "000019-167",
       "000019-168",
-      "000019-169",
       "000019-170",
-      "000019-171",
-      "000019-172",
-      "000019-173",
       "000019-174",
-      "000019-175",
       "000019-176",
       "000019-177",
-      "000019-178",
-      "000019-179",
-      "000019-180",
-      "000019-181",
       "000019-182",
       "000019-183",
-      "000019-184",
       "000019-185",
       "000019-186",
       "000019-187",
-      "000019-188",
-      "000019-189",
       "000019-190",
-      "000019-191",
       "000019-192",
       "000019-193",
-      "000019-194",
       "000019-195",
       "000019-196",
       "000019-197",
-      "000019-198",
       "000019-199",
       "000019-200",
       "000019-201",
@@ -1149,7 +1102,85 @@
       "000019-276",
       "000019-277"
     ],
-    "removedIds": [],
+    "removedIds": [
+      "000019-001",
+      "000019-002",
+      "000019-003",
+      "000019-005",
+      "000019-008",
+      "000019-010",
+      "000019-012",
+      "000019-016",
+      "000019-019",
+      "000019-033",
+      "000019-035",
+      "000019-036",
+      "000019-039",
+      "000019-042",
+      "000019-045",
+      "000019-046",
+      "000019-051",
+      "000019-057",
+      "000019-060",
+      "000019-061",
+      "000019-065",
+      "000019-072",
+      "000019-075",
+      "000019-078",
+      "000019-079",
+      "000019-081",
+      "000019-082",
+      "000019-086",
+      "000019-087",
+      "000019-091",
+      "000019-093",
+      "000019-094",
+      "000019-095",
+      "000019-096",
+      "000019-103",
+      "000019-109",
+      "000019-113",
+      "000019-116",
+      "000019-117",
+      "000019-118",
+      "000019-121",
+      "000019-122",
+      "000019-123",
+      "000019-124",
+      "000019-128",
+      "000019-129",
+      "000019-131",
+      "000019-133",
+      "000019-134",
+      "000019-135",
+      "000019-137",
+      "000019-141",
+      "000019-142",
+      "000019-144",
+      "000019-145",
+      "000019-149",
+      "000019-151",
+      "000019-153",
+      "000019-157",
+      "000019-159",
+      "000019-165",
+      "000019-167",
+      "000019-169",
+      "000019-171",
+      "000019-172",
+      "000019-173",
+      "000019-175",
+      "000019-178",
+      "000019-179",
+      "000019-180",
+      "000019-181",
+      "000019-184",
+      "000019-188",
+      "000019-189",
+      "000019-191",
+      "000019-194",
+      "000019-198"
+    ],
     "mandatoryIds": [
       "000019-062",
       "000019-067",
@@ -1240,230 +1271,115 @@
       "noHits": 41
     },
     "mandatoryBasis": "The four archived hard cases, 195, all 61 quiet coverage seeds including 250 and relabeled 253, and all 16 new source-superlative seeds; labels are adjudicated before detector inference.",
-    "laterMethod": "Parent applies the approved mandatory-first, length-bucket, deterministic SHA-256 selector after archiving and independent QA."
+    "method": "Mandatory cases first; allocate remaining seats with the approved 25/50/25 weighted largest-remainder selector, redistributing exhausted buckets; choose ascending SHA-256 ranks within each bucket; preserve source order.",
+    "hashInput": "JSON.stringify([family, type, split, stableExampleId])",
+    "hashAlgorithm": "SHA-256",
+    "hashTieBreak": "stable example ID",
+    "bucketWeights": {
+      "short": 25,
+      "medium": 50,
+      "long": 25
+    },
+    "roundingTieBreak": ["short", "medium", "long"],
+    "allocation": [
+      {
+        "expected": true,
+        "mandatory": 41,
+        "mandatoryByBucket": {
+          "short": 12,
+          "medium": 20,
+          "long": 9
+        },
+        "additionalByBucket": {
+          "short": 15,
+          "medium": 29,
+          "long": 15
+        },
+        "rounds": [
+          {
+            "seats": 59,
+            "quotas": {
+              "short": 14.75,
+              "medium": 29.5,
+              "long": 14.75
+            },
+            "grants": {
+              "short": 15,
+              "medium": 29,
+              "long": 15
+            }
+          }
+        ]
+      },
+      {
+        "expected": false,
+        "mandatory": 41,
+        "mandatoryByBucket": {
+          "short": 10,
+          "medium": 19,
+          "long": 12
+        },
+        "additionalByBucket": {
+          "short": 15,
+          "medium": 29,
+          "long": 15
+        },
+        "rounds": [
+          {
+            "seats": 59,
+            "quotas": {
+              "short": 14.75,
+              "medium": 29.5,
+              "long": 14.75
+            },
+            "grants": {
+              "short": 15,
+              "medium": 29,
+              "long": 15
+            }
+          }
+        ]
+      }
+    ],
+    "selectedIdsSha256": "47ff2b6376191f0c1d0f9518418fc077f556cc7d475661493e0f04cca2bc6eec",
+    "surplusConservation": "Every surplus passage, current judgment, and exact snippet remains in full-pool archive 37cc068922434b0343828a574f1b4ce1491f466c.",
+    "independentQaCoordination": "Parent reports Gauss verified the complete archived pool with no edits. Selected-subset QA is pending; any existing independentQa field is preserved unchanged."
   },
   "verification": {
-    "reader": "readDocument passed for the explicit 000019 development pair",
-    "schemaVersion": 2,
+    "reader": "readDocument passed on the explicit 000019 development pair",
+    "counts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100
+    },
     "ranges": true,
     "checksum": true,
     "exactSnippets": true,
     "noHitSnippetsOmitted": true,
-    "sourceConservation": {
-      "initial": 200,
-      "quiet": 61,
-      "sourceSuperlatives": 16,
-      "total": 277,
-      "allPassageTextUnchanged": true,
-      "initialSnippetExceptionIds": ["000019-195"],
-      "quietClassificationOverrideIds": ["000019-253"],
-      "allInitialClassificationsUnchanged": true
+    "selectedTextJudgmentsAndSnippetsEqualArchive": true,
+    "allMandatoryRetained": true,
+    "mandatoryCounts": {
+      "passages": 82,
+      "hits": 41,
+      "noHits": 41
     },
-    "minimumReviewCount": 3,
-    "allHaveBlindAdversarialFinalCoverage": true,
-    "normalizedDuplicateCount": 0,
-    "sharedEightWordSequences": {
-      "count": 0,
-      "detailedAuditPath": "/tmp/000019-inflated-evaluation-development-subtle-pass9-full-pool-audit.json"
-    },
-    "newSourceBranchSharedEightWordSequences": [],
-    "lengths": {
-      "hit": {
-        "short": 35,
-        "medium": 68,
-        "long": 34
-      },
-      "noHit": {
-        "short": 35,
-        "medium": 68,
-        "long": 37
-      }
-    },
-    "domains": {
-      "arts": {
-        "hit": 10,
-        "noHit": 10
-      },
-      "software": {
-        "hit": 11,
-        "noHit": 11
-      },
-      "travel": {
-        "hit": 11,
-        "noHit": 11
-      },
-      "sport": {
-        "hit": 11,
-        "noHit": 11
-      },
-      "education": {
-        "hit": 11,
-        "noHit": 11
-      },
-      "health": {
-        "hit": 10,
-        "noHit": 10
-      },
-      "commerce": {
-        "hit": 10,
-        "noHit": 10
-      },
-      "food": {
-        "hit": 10,
-        "noHit": 10
-      },
-      "science": {
-        "hit": 10,
-        "noHit": 10
-      },
-      "civic": {
-        "hit": 10,
-        "noHit": 10
-      },
-      "labor reporting": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "restaurants": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "healthcare administration": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "gifts": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "housing investment": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "podcasting": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "history publishing": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "recruitment": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "transport": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "arts funding": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "retail": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "legal services": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "cooking": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "research communication": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "personal correspondence": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "music criticism": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "business prospects": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "charity communications": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "local journalism": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "farming": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "museum collecting": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "care work": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "fiction writing": {
-        "hit": 0,
-        "noHit": 2
-      },
-      "disaster preparation": {
-        "hit": 0,
-        "noHit": 2
-      },
-      "language learning": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "community banking": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "building maintenance": {
-        "hit": 1,
-        "noHit": 0
-      },
-      "leadership": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "experimental science": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "novel writing": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "software reliability": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "teacher training": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "sport coaching": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "clinical learning": {
-        "hit": 1,
-        "noHit": 1
-      },
-      "family history": {
-        "hit": 1,
-        "noHit": 1
-      }
-    },
+    "all77SurplusPreservedInArchive": true,
+    "passageOrderPreserved": true,
     "oneParagraphPerPhysicalLine": true,
     "lfOnly": true,
-    "exactlyOneTerminalLf": true
+    "exactlyOneTerminalLf": true,
+    "lengths": {
+      "hit": {
+        "short": 27,
+        "medium": 49,
+        "long": 24
+      },
+      "noHit": {
+        "short": 25,
+        "medium": 48,
+        "long": 27
+      }
+    }
   },
   "serialization": {
     "patternSources": [
@@ -1476,16 +1392,21 @@
         "sha256": "2ed14bba60de3602910335828fb67a5efe1e193dc320a5e4003f2b87fd5d095c"
       }
     ],
-    "sequence": "Preserve all reviewed rows; write full Markdown with single LF EOF; format with prose-wrap preserve; derive sample bounds and checksum from formatted bytes; serialize and format labels; validate using the existing reader."
+    "sequence": "Preserve all reviewed rows; write full Markdown with single LF EOF; format with prose-wrap preserve; derive sample bounds and checksum from formatted bytes; serialize and format labels; validate using the existing reader.",
+    "selectionPattern": {
+      "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-select.mjs",
+      "sha256": "85be8508efb8f998be6f03d5c9b0577ca096724ff25162240d18f13e10577b5c"
+    },
+    "selectionSequence": "Select archived labels without changing their contents; format selected Markdown with prose-wrap preserve and one LF EOF; derive bounds and checksum from formatted bytes; format labels; validate the selected pair against the archive."
   },
   "files": {
     "markdown": {
       "path": "datasets/ai-synthetic/passages/000019-puffery-and-overstatement-inflated-evaluation-development.md",
-      "sha256": "1990122765cf6732da9c145f99c9ddc87aa05e01940ad88bb94049724513e8b3"
+      "sha256": "dec203578dfea523e543c9341488c1e3e8bd51ea5c9f2d972e41a5b4dd01d99a"
     },
     "labels": {
       "path": "datasets/ai-synthetic/passages/000019-puffery-and-overstatement-inflated-evaluation-development.labels.json",
-      "sha256": "c60b287496bcfd367fb27a55572a2811034e42651b779f9f26b565f555463203"
+      "sha256": "57fcffe84382c5dd62b785d72b5af4520c34f7a7508a2648603565df79c06d92"
     }
   },
   "temporaryArtifacts": {
@@ -1511,7 +1432,7 @@
     }
   },
   "remainingConcerns": [
-    "Gauss's new-source-seed and final-pool independent QA remains with the parent.",
+    "Gauss selected-subset QA is pending; edits stop after this selection handoff.",
     "Cross-split duplicate auditing remains with the parent's protected auditor."
   ],
   "boundaries": {
@@ -1519,6 +1440,117 @@
     "promptChanges": 0,
     "protectedMaterialReads": 0,
     "commits": 0,
-    "final200SelectionExecuted": false
+    "final200SelectionExecuted": true
+  },
+  "sourcePoolCounts": {
+    "passages": 277,
+    "hits": 137,
+    "noHits": 140
+  },
+  "provenanceCorrections": [
+    {
+      "field": "classificationAdjudications[253].independentReviewer",
+      "previous": "Gauss; decision supplied by user",
+      "current": "Gauss; adjudication accepted by parent",
+      "historicalRecordPreservedInArchive": "37cc068922434b0343828a574f1b4ce1491f466c"
+    }
+  ],
+  "snippetProvenanceScope": "Provenance covers the complete 277-passage archive and applies unchanged to the retained IDs in selection.retainedIds.",
+  "independentQa": {
+    "status": "passed",
+    "recordedAt": "2026-10-20T23:52:56Z",
+    "reviewer": "Gauss; independent Codex review without delegation.",
+    "scope": "Combined QA of the original 200 passages, 61 quiet-comparison cases, 16 source-superlative cases, complete archived pool, and final selected development subset.",
+    "verifiedInputHashes": {
+      "selectedMarkdownSha256": "dec203578dfea523e543c9341488c1e3e8bd51ea5c9f2d972e41a5b4dd01d99a",
+      "selectedLabelsSha256": "57fcffe84382c5dd62b785d72b5af4520c34f7a7508a2648603565df79c06d92",
+      "reviewBeforeIndependentQaSha256": "178eb51b46d587aa8d944a2851dabdf5efeb8bcbc8b56e229a0763cae39d53d0",
+      "archivedPoolMarkdownSha256": "1990122765cf6732da9c145f99c9ddc87aa05e01940ad88bb94049724513e8b3",
+      "archivedPoolLabelsSha256": "c60b287496bcfd367fb27a55572a2811034e42651b779f9f26b565f555463203"
+    },
+    "fullPool": {
+      "archiveCommit": "37cc068922434b0343828a574f1b4ce1491f466c",
+      "passages": 277,
+      "hits": 137,
+      "noHits": 140,
+      "originalPassagesConserved": 200,
+      "quietPassagesConserved": 61,
+      "sourceSuperlativePassagesConserved": 16,
+      "passageTextChanges": 0,
+      "reviewCallsChecked": 15,
+      "modelJudgmentsChecked": 890,
+      "allCasesHaveBlindAdversarialFinalCoverage": true,
+      "exactSelectedSnippetOccurrences": 176
+    },
+    "sourceBranch": {
+      "independentClassifications": "All 16 labels stand under the unchanged definition.",
+      "hits": [
+        "000019-262",
+        "000019-264",
+        "000019-266",
+        "000019-268",
+        "000019-270",
+        "000019-272",
+        "000019-274",
+        "000019-276"
+      ],
+      "noHits": [
+        "000019-263",
+        "000019-265",
+        "000019-267",
+        "000019-269",
+        "000019-271",
+        "000019-273",
+        "000019-275",
+        "000019-277"
+      ],
+      "assessment": "Hits assert unsupported field-wide rankings about learning from failure or ordinary moments. Controls scope their judgments to identified placements, projects, scenes, exercises, or reviewed material and supply a practical basis.",
+      "adjudicatedIdsChecked": [
+        "000019-262",
+        "000019-263",
+        "000019-268",
+        "000019-274"
+      ],
+      "reviewPasses": 3,
+      "modelJudgments": 48,
+      "fullClaudeEnvelopesVerified": 3
+    },
+    "provenance": {
+      "historicalStructuredOutputsVerified": 12,
+      "historicalFullClaudeEnvelopesRetained": 0,
+      "historicalRetentionAssessment": "Historical helper outputs retain prompts, judgments, model names, duration, and cost. Their input/output hashes and preserved helper source were verified; the original full Claude envelopes were not retained.",
+      "newEnvelopeAssessment": "The three new full Claude envelopes match the structured judgments, reported model usage, duration, and cost. Their hashes, prompt hashes, label-free shuffled targets, and unchanged definition were verified.",
+      "case195": "The canonical span exactly matches initial-pass1-batch2 and contains both the quoted landmark-achievement evaluation and its endorsement. Other initial snippets match the final pass.",
+      "case253": "The no-hit adjudication is retained with snippets omitted. The earlier Opus hit judgments remain unchanged in their source outputs and are identified separately in classificationAdjudications.",
+      "case250": "Unchanged no-hit writing has blind, adversarial, and final review coverage, all without objections."
+    },
+    "selectedSubset": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "mandatoryCasesRetained": 82,
+      "mandatoryHits": 41,
+      "mandatoryNoHits": 41,
+      "surplusCasesVerifiedInArchive": 77,
+      "retainedTextChanges": 0,
+      "retainedExpectedBooleanChanges": 0,
+      "retainedCheckNameChanges": 0,
+      "retainedSnippetArrayChanges": 0,
+      "selectionIndependentlyReproduced": true,
+      "method": "Recomputed 59 additional seats per class using the recorded 25/50/25 weights and largest-remainder tie order, yielding 15 short, 29 medium, and 15 long cases. Ascending SHA-256 ranks of JSON.stringify([family, type, split, stableExampleId]) reproduced the retained IDs exactly.",
+      "exactSnippetsVerified": 125
+    },
+    "mechanicalVerification": {
+      "readDocument": "passed",
+      "normalizedDuplicatesInFullPoolAndSubset": 0,
+      "sharedEightWordSequencesInFullPoolAndSubset": 0,
+      "noHitSnippetsOmitted": true
+    },
+    "unresolvedMaterialFindings": [],
+    "datasetEdits": 0,
+    "promptEdits": 0,
+    "providerCallsMade": 0,
+    "protectedMaterialReads": 0,
+    "nextGate": "Use the unchanged selected Markdown and labels hashes for the separately assigned protected cross-split audit; complete baseline prompt review before detector inference."
   }
 }

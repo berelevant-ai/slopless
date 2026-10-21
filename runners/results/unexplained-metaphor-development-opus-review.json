@@ -710,5 +710,173 @@
     "archivedPassages": 61,
     "retainedHardCases": 55,
     "validation": "Existing reader passes; retained passage text, IDs, labels and snippets match the archive exactly; all mandatory cases remain."
+  },
+  "stableIdentityRepair": {
+    "status": "complete",
+    "operation": "Repair legacy foreign-prefix sample identities within the owning collection namespace.",
+    "renamedRecords": 30,
+    "resolvedActiveCollisions": 21,
+    "sampleIdChanges": 30,
+    "labelIdChanges": 30,
+    "headingChanges": 30,
+    "passageBodyChanges": 0,
+    "judgmentChanges": 0,
+    "snippetChanges": 0,
+    "rangeChanges": 0,
+    "oldToNew": [
+      {
+        "previous": "000019-024",
+        "current": "000011-520"
+      },
+      {
+        "previous": "000019-005",
+        "current": "000011-521"
+      },
+      {
+        "previous": "000019-023",
+        "current": "000011-522"
+      },
+      {
+        "previous": "000019-025",
+        "current": "000011-523"
+      },
+      {
+        "previous": "000019-026",
+        "current": "000011-524"
+      },
+      {
+        "previous": "000019-027",
+        "current": "000011-525"
+      },
+      {
+        "previous": "000019-030",
+        "current": "000011-526"
+      },
+      {
+        "previous": "000019-019",
+        "current": "000011-527"
+      },
+      {
+        "previous": "000019-012",
+        "current": "000011-528"
+      },
+      {
+        "previous": "000019-028",
+        "current": "000011-529"
+      },
+      {
+        "previous": "000019-029",
+        "current": "000011-530"
+      },
+      {
+        "previous": "000019-015",
+        "current": "000011-531"
+      },
+      {
+        "previous": "000019-009",
+        "current": "000011-532"
+      },
+      {
+        "previous": "000019-003",
+        "current": "000011-533"
+      },
+      {
+        "previous": "000019-017",
+        "current": "000011-534"
+      },
+      {
+        "previous": "000019-011",
+        "current": "000011-535"
+      },
+      {
+        "previous": "000019-007",
+        "current": "000011-536"
+      },
+      {
+        "previous": "000019-006",
+        "current": "000011-537"
+      },
+      {
+        "previous": "000019-022",
+        "current": "000011-538"
+      },
+      {
+        "previous": "000019-002",
+        "current": "000011-539"
+      },
+      {
+        "previous": "000019-016",
+        "current": "000011-540"
+      },
+      {
+        "previous": "000019-001",
+        "current": "000011-541"
+      },
+      {
+        "previous": "000019-020",
+        "current": "000011-542"
+      },
+      {
+        "previous": "000019-013",
+        "current": "000011-543"
+      },
+      {
+        "previous": "000019-010",
+        "current": "000011-544"
+      },
+      {
+        "previous": "000019-018",
+        "current": "000011-545"
+      },
+      {
+        "previous": "000019-021",
+        "current": "000011-546"
+      },
+      {
+        "previous": "000019-008",
+        "current": "000011-547"
+      },
+      {
+        "previous": "000019-004",
+        "current": "000011-548"
+      },
+      {
+        "previous": "000019-014",
+        "current": "000011-549"
+      }
+    ],
+    "provenancePolicy": "Apply oldToNew when joining active records to historical review IDs, pilot preservation, archived selection records, and raw call inputs or outputs. All pre-existing review fields and original response IDs retain their historical values.",
+    "previousFiles": {
+      "markdown": {
+        "path": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
+        "sha256": "dbb2c718e82d91b1c2c5b52b7ee8e94c7278c5635c42687bdd7233a6072013cc"
+      },
+      "labels": {
+        "path": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.labels.json",
+        "sha256": "6f9e865339974e5b616e423b6f24ad27886484fb2f0cb3bb98a3309a86463046"
+      },
+      "review": {
+        "path": "runners/results/unexplained-metaphor-development-opus-review.json",
+        "sha256": "9bf12f3f370e1d6ccaed0fbddc5242d581219f5e5851edfddb3a35896f246566"
+      }
+    },
+    "activeFiles": {
+      "markdown": {
+        "path": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.md",
+        "sha256": "b9c2d35c55bbb7334229bcc3c1bf4018e6893f162338f9a3811ad8c45562a16e"
+      },
+      "labels": {
+        "path": "datasets/ai-synthetic/passages/000011-semantic-thinness-unexplained-metaphor-development.labels.json",
+        "sha256": "f0d10a09ac74c4c9da2378560ec3d44e29e11288e21db918140d508db9d6bf85"
+      }
+    },
+    "verification": {
+      "pairedReader": true,
+      "textChecksum": true,
+      "rangesUnchanged": true,
+      "exactSnippets": true,
+      "writingAndJudgmentsPreserved": true,
+      "currentCanonicalCollectionIdsGloballyUnique": true
+    }
   }
 }

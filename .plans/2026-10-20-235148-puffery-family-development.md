@@ -105,3 +105,11 @@ For each finalized type, create 200 development examples and 200 independently a
 - Report per type: class counts, review corrections, baseline and selected caught hits, missed hits, false positives, new/lost catches, corrected/new false positives, prompt length, and remaining errors.
 - Distinguish development performance from the later holdout assessment. Keep mixed-set evaluation, broader corpus validation, highlighting, CLI integration, and release in the V2 plan for their separate stage.
 - When execution is requested, work autonomously across all finalized types through the complete data-review and bounded tuning process. Report passed gates, failed targets, or external blockers with their evidence; never weaken labels or count an unready check as ready.
+
+## Development Outcome
+
+- Both finalized types have independently reviewed 100-hit/100-no-hit development and holdout sets. The 800 active passages retain their reviewed hard cases; 289 surplus passages remain in linked Git archives.
+- Inflated evaluation selects `r1`: 100 caught hits, zero missed hits, three false positives. Sweeping generalization selects `b0`: 100 caught hits, zero missed hits, two false positives.
+- Tuning stops after two successive revisions fail to improve each check's best candidate. Rejected prompts and predictions remain in the family trial JSON; labels stay fixed throughout evaluation.
+- The [development report](../runners/results/puffery-and-overstatement-v10-development-tuning.md) records all trials, exposure, corrections, and remaining errors. Selected prompts are frozen in `prompts/v10/`.
+- Holdout inference and the remaining V2 evaluation stages remain separate tasks. Production behavior is unchanged.

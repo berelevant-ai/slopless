@@ -40,10 +40,6 @@ People breathe faster during hard exercise as their muscles need more oxygen.
 
 I left my hometown because the course I wanted was available only in Leeds. Most weekends I called my brother, and I went back whenever the train fare was manageable. After graduating, I took a job near the old house. I missed being able to walk over for dinner without turning the visit into a travel plan.
 
-## 000021-011
-
-The new installer is wonderful. On my laptop it found the printer, restored my settings, and completed the update in four minutes. I would happily use it again.
-
 ## 000021-012
 
 All visitors must clean their hands before entering the ward. The dispenser by the lift is temporarily empty; use the one beside reception until it is replaced.
@@ -83,10 +79,6 @@ We understand, as parents, that a difficult book is a threat to a child's confid
 ## 000021-021
 
 Three friends cancelled dinner when the weather turned. People treat a friendship as disposable once it asks anything inconvenient of them. Everyone is measuring what they get back, even when they call it unconditional affection. If you want to keep a social circle, make every invitation easy enough that nobody has to choose you over comfort.
-
-## 000021-022
-
-Nobody joins a gym to become comfortable with the body they already have.
 
 ## 000021-023
 
@@ -268,10 +260,6 @@ Novelists are jealous of anyone who finishes a book faster than they do. Asking 
 
 The drummer has asked for a longer sound check. Musicians regard punctuality as a threat to spontaneity, and a strict schedule makes them feel that the performance has already been compromised. Give the band an arrival window instead of a time. They will only settle when they can believe they are following their own rhythm.
 
-## 000021-068
-
-Managers hear a request for flexibility as a confession of weak commitment.
-
 ## 000021-069
 
 Children need water during long outdoor lessons, especially in hot weather.
@@ -348,10 +336,6 @@ The Bristol office has 240 employees and three floors. People in regional office
 
 Guests whose arrival is delayed past the last bus may need a taxi from the station. Send the local booking number with their room confirmation.
 
-## 000021-088
-
-Men want a solution when they talk about a problem; women want someone to listen. Remembering that simple difference would prevent most arguments between couples.
-
 ## 000021-089
 
 The review calls the restaurant a miracle of modern cooking. Its most memorable dish, for me, was a bowl of beans with lemon oil and crisp bread.
@@ -367,10 +351,6 @@ The clinic has extended its appointments to 20 minutes. Doctors resent patients 
 ## 000021-092
 
 The exhibition challenges the assumption that 'collectors only want what others cannot have.' Its final room displays inexpensive prints borrowed from people who bought them to share with friends.
-
-## 000021-093
-
-The scholarship advert needs a photograph of the winners. Rural pupils don't imagine themselves at university; they expect to stay near home and follow their parents into work.
 
 ## 000021-094
 
@@ -444,17 +424,9 @@ Every sibling keeps score of who their parents loved the most.
 
 I think the difficult book is worth keeping. My daughter found the first chapter frustrating, then borrowed the sequel before her class had finished discussing the ending.
 
-## 000021-112
-
-Teenagers dismiss any book that an adult tells them is important.
-
 ## 000021-113
 
 Older customers using screen magnification may miss the confirmation button when it opens outside the magnified area. Keep the dialog beside the control that triggered it.
-
-## 000021-114
-
-In the survey, 81 of the 100 respondents said they wanted a weekly usage chart. All respondents were customers who had already enabled activity tracking, so the product team will test the chart with people who keep tracking switched off before making it part of the default home screen.
 
 ## 000021-115
 
@@ -504,10 +476,6 @@ Isn't a slim body what we all really want? The campaign should stop dancing arou
 
 A listener who knows an improvised tune well may notice small changes in its rhythm more readily than someone hearing it for the first time. For the workshop, play the melody twice before introducing the variations. That gives newcomers a reference point when the drummer begins moving the accents away from the familiar beat.
 
-## 000021-127
-
-Does the proposed cycle lane change how you would reach the shops?
-
 ## 000021-128
 
 New mothers instinctively distrust advice from anyone who hasn't had a baby. A nurse without children will struggle to win them over, regardless of her training.
@@ -555,10 +523,6 @@ When pain wakes someone repeatedly, concentrating during a brief appointment can
 ## 000021-139
 
 People who watch women's sport are looking for a moral statement as much as a match. Sell the values first; the score matters less to that audience.
-
-## 000021-140
-
-You know how gamers are: they want a higher number beside their name, whatever the game. Give the recycling app a leaderboard and they'll do the rest.
 
 ## 000021-141
 
@@ -608,10 +572,6 @@ My aunt has offered to organize the anniversary lunch. Families hold on to old a
 
 Many people who choose expensive wine are buying social approval rather than flavor. They need the rest of the table to see how much the bottle costs.
 
-## 000021-153
-
-All 12 developers in Mira's usability session reached for the keyboard when asked to rename a file. The session used their existing machines and their usual editor settings.
-
 ## 000021-154
 
 An employee's first instinct is to hide a mistake. That's human nature, and the new incident form needs to account for the fact that people will conceal whatever they can.
@@ -627,10 +587,6 @@ Staff at the Bristol office reported feeling overlooked in all three listening s
 ## 000021-157
 
 Would you prefer a quiet beach, a busy town, or a mixture of both? We can adjust the route before confirming the hotel and the ferry tickets.
-
-## 000021-158
-
-Who doesn't feel moved by a child's voice singing alone? That scene will win the audience back, however angry they are with the character at this point.
 
 ## 000021-159
 
@@ -752,10 +708,6 @@ Runners returning after a long break may find their old pace uncomfortable becau
 
 Everyone loves the smell of bread coming out of an oven.
 
-## 000021-189
-
-Who wouldn't prefer a quiet beach to a busy town? Once guests see the empty shore, they'll forget about the restaurants and shops they asked us to include.
-
 ## 000021-190
 
 The waiting room survey included 14 people who asked for written instructions. This is how patients think: if something is printed, it must be reliable. A glossy card will therefore make them follow the plan, whatever the conversation with the clinician was like. Let's spend the remaining budget on heavier paper and better color reproduction.
@@ -816,3 +768,34 @@ The director's rule is "readers want justice, even in a love story." Keep the fi
 
 Our clinic's leaflet says, "Nobody wants to hear about risk when they're expecting a baby." Keep the statistics out of the opening page and reassure parents before discussing the screening appointment.
 
+## 000021-205
+
+Most app users take a reminder as a sign that somebody cares.
+
+## 000021-206
+
+Many parents choose a school to confirm the sort of family they believe they are. They are buying a reflection of themselves as much as an education.
+
+## 000021-207
+
+Staff tend to miss handover notes when the file is stored in a folder they cannot open. Giving the evening team access lets them check the instructions during a call.
+
+## 000021-208
+
+At the kitchen table, my friends kept returning to the message I had missed. They were upset because they had waited outside the station after offering to collect me. Once I explained which train I had caught, we worked out where the messages had crossed and agreed to call if our plans changed again.
+
+## 000021-209
+
+The parents leaving the open day lingered over the music displays. On the walk back to the gate, they talked about the choir and the chance for their children to try instruments.
+
+## 000021-210
+
+Employees tend to keep useful information to themselves because being indispensable feels safer than being helpful. A shared folder won't change that calculation.
+
+## 000021-211
+
+People tend to value a friendship by how quickly a message is answered. They read the delay as a measure of how much they matter, even when the reply itself is warm. Send the apology before explaining the missed train; what friends are waiting for is reassurance that they came first.
+
+## 000021-212
+
+The designers at the table liked the reminder but asked for a quieter sound.

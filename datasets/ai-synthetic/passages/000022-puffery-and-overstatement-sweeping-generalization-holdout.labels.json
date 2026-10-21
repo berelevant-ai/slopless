@@ -5,7 +5,7 @@
     "originalPath": "/private/tmp/000022-sweeping-generalization-holdout-pass0-eXr8V45w/pool-v2.json",
     "commit": "c1b7a74b5df05bce2128a898b2c0b37f1de27192",
     "model": "Codex (author); claude-opus-5-5 (review)",
-    "notes": "Synthetic collection authored independently of development data and candidate prompts. Commit identifies the generation base. Full reviewed pool awaits archival commit before deterministic balancing."
+    "notes": "Independently authored synthetic holdout. Source commit identifies the generation base. Archive 01df0c0a5c0fadb83e22316eabea5456b808810c retains the full reviewed 240-passage pool and all 40 surplus examples. Active passages are unchanged deterministic selections."
   },
   "split": "holdout",
   "samples": [
@@ -25,1192 +25,992 @@
       "end": 673
     },
     {
-      "id": "000022-004",
-      "start": 690,
-      "end": 766
-    },
-    {
       "id": "000022-005",
-      "start": 783,
-      "end": 953
+      "start": 690,
+      "end": 860
     },
     {
       "id": "000022-006",
-      "start": 970,
-      "end": 1246
+      "start": 877,
+      "end": 1153
     },
     {
       "id": "000022-007",
-      "start": 1263,
-      "end": 1597
+      "start": 1170,
+      "end": 1504
     },
     {
       "id": "000022-008",
-      "start": 1614,
-      "end": 1780
-    },
-    {
-      "id": "000022-009",
-      "start": 1797,
-      "end": 1937
+      "start": 1521,
+      "end": 1687
     },
     {
       "id": "000022-010",
-      "start": 1954,
-      "end": 2106
+      "start": 1704,
+      "end": 1856
     },
     {
       "id": "000022-011",
-      "start": 2123,
-      "end": 2300
+      "start": 1873,
+      "end": 2050
     },
     {
       "id": "000022-012",
-      "start": 2317,
-      "end": 2470
-    },
-    {
-      "id": "000022-013",
-      "start": 2487,
-      "end": 2557
-    },
-    {
-      "id": "000022-014",
-      "start": 2574,
-      "end": 2871
+      "start": 2067,
+      "end": 2220
     },
     {
       "id": "000022-015",
-      "start": 2888,
-      "end": 3186
+      "start": 2237,
+      "end": 2535
     },
     {
       "id": "000022-016",
-      "start": 3203,
-      "end": 3349
+      "start": 2552,
+      "end": 2698
     },
     {
       "id": "000022-017",
-      "start": 3366,
-      "end": 3526
+      "start": 2715,
+      "end": 2875
     },
     {
       "id": "000022-018",
-      "start": 3543,
-      "end": 3891
+      "start": 2892,
+      "end": 3240
     },
     {
       "id": "000022-019",
-      "start": 3908,
-      "end": 4043
+      "start": 3257,
+      "end": 3392
     },
     {
       "id": "000022-020",
-      "start": 4060,
-      "end": 4199
-    },
-    {
-      "id": "000022-021",
-      "start": 4216,
-      "end": 4355
-    },
-    {
-      "id": "000022-022",
-      "start": 4372,
-      "end": 4565
-    },
-    {
-      "id": "000022-023",
-      "start": 4582,
-      "end": 4917
+      "start": 3409,
+      "end": 3548
     },
     {
       "id": "000022-024",
-      "start": 4934,
-      "end": 5090
+      "start": 3565,
+      "end": 3721
     },
     {
       "id": "000022-025",
-      "start": 5107,
-      "end": 5166
+      "start": 3738,
+      "end": 3797
     },
     {
       "id": "000022-026",
-      "start": 5183,
-      "end": 5508
+      "start": 3814,
+      "end": 4139
     },
     {
       "id": "000022-027",
-      "start": 5525,
-      "end": 5665
-    },
-    {
-      "id": "000022-028",
-      "start": 5682,
-      "end": 5836
+      "start": 4156,
+      "end": 4296
     },
     {
       "id": "000022-029",
-      "start": 5853,
-      "end": 5914
+      "start": 4313,
+      "end": 4374
     },
     {
       "id": "000022-030",
-      "start": 5931,
-      "end": 6099
+      "start": 4391,
+      "end": 4559
     },
     {
       "id": "000022-031",
-      "start": 6116,
-      "end": 6265
-    },
-    {
-      "id": "000022-032",
-      "start": 6282,
-      "end": 6442
+      "start": 4576,
+      "end": 4725
     },
     {
       "id": "000022-033",
-      "start": 6459,
-      "end": 6511
-    },
-    {
-      "id": "000022-034",
-      "start": 6528,
-      "end": 6669
+      "start": 4742,
+      "end": 4794
     },
     {
       "id": "000022-035",
-      "start": 6686,
-      "end": 6758
+      "start": 4811,
+      "end": 4883
     },
     {
       "id": "000022-036",
-      "start": 6775,
-      "end": 7094
-    },
-    {
-      "id": "000022-037",
-      "start": 7111,
-      "end": 7259
+      "start": 4900,
+      "end": 5219
     },
     {
       "id": "000022-038",
-      "start": 7276,
-      "end": 7446
+      "start": 5236,
+      "end": 5406
     },
     {
       "id": "000022-039",
-      "start": 7463,
-      "end": 7625
+      "start": 5423,
+      "end": 5585
     },
     {
       "id": "000022-040",
-      "start": 7642,
-      "end": 7703
+      "start": 5602,
+      "end": 5663
     },
     {
       "id": "000022-041",
-      "start": 7720,
-      "end": 7773
+      "start": 5680,
+      "end": 5733
     },
     {
       "id": "000022-042",
-      "start": 7790,
-      "end": 7929
+      "start": 5750,
+      "end": 5889
     },
     {
       "id": "000022-043",
-      "start": 7946,
-      "end": 8026
-    },
-    {
-      "id": "000022-044",
-      "start": 8043,
-      "end": 8200
+      "start": 5906,
+      "end": 5986
     },
     {
       "id": "000022-045",
-      "start": 8217,
-      "end": 8284
+      "start": 6003,
+      "end": 6070
     },
     {
       "id": "000022-046",
-      "start": 8301,
-      "end": 8588
+      "start": 6087,
+      "end": 6374
     },
     {
       "id": "000022-047",
-      "start": 8605,
-      "end": 8956
+      "start": 6391,
+      "end": 6742
     },
     {
       "id": "000022-048",
-      "start": 8973,
-      "end": 9103
+      "start": 6759,
+      "end": 6889
     },
     {
       "id": "000022-049",
-      "start": 9120,
-      "end": 9288
+      "start": 6906,
+      "end": 7074
     },
     {
       "id": "000022-050",
-      "start": 9305,
-      "end": 9383
+      "start": 7091,
+      "end": 7169
     },
     {
       "id": "000022-051",
-      "start": 9400,
-      "end": 9527
-    },
-    {
-      "id": "000022-052",
-      "start": 9544,
-      "end": 9619
+      "start": 7186,
+      "end": 7313
     },
     {
       "id": "000022-053",
-      "start": 9636,
-      "end": 9707
+      "start": 7330,
+      "end": 7401
     },
     {
       "id": "000022-054",
-      "start": 9724,
-      "end": 10058
-    },
-    {
-      "id": "000022-055",
-      "start": 10075,
-      "end": 10140
+      "start": 7418,
+      "end": 7752
     },
     {
       "id": "000022-056",
-      "start": 10157,
-      "end": 10502
+      "start": 7769,
+      "end": 8114
     },
     {
       "id": "000022-057",
-      "start": 10519,
-      "end": 10682
+      "start": 8131,
+      "end": 8294
     },
     {
       "id": "000022-058",
-      "start": 10699,
-      "end": 10854
+      "start": 8311,
+      "end": 8466
     },
     {
       "id": "000022-059",
-      "start": 10871,
-      "end": 11027
+      "start": 8483,
+      "end": 8639
     },
     {
       "id": "000022-060",
-      "start": 11044,
-      "end": 11347
+      "start": 8656,
+      "end": 8959
     },
     {
       "id": "000022-061",
-      "start": 11364,
-      "end": 11719
+      "start": 8976,
+      "end": 9331
     },
     {
       "id": "000022-062",
-      "start": 11736,
-      "end": 11791
+      "start": 9348,
+      "end": 9403
     },
     {
       "id": "000022-063",
-      "start": 11808,
-      "end": 11959
+      "start": 9420,
+      "end": 9571
     },
     {
       "id": "000022-064",
-      "start": 11976,
-      "end": 12281
-    },
-    {
-      "id": "000022-065",
-      "start": 12298,
-      "end": 12454
+      "start": 9588,
+      "end": 9893
     },
     {
       "id": "000022-066",
-      "start": 12471,
-      "end": 12632
+      "start": 9910,
+      "end": 10071
     },
     {
       "id": "000022-067",
-      "start": 12649,
-      "end": 12961
+      "start": 10088,
+      "end": 10400
     },
     {
       "id": "000022-068",
-      "start": 12978,
-      "end": 13057
+      "start": 10417,
+      "end": 10496
     },
     {
       "id": "000022-069",
-      "start": 13074,
-      "end": 13142
+      "start": 10513,
+      "end": 10581
     },
     {
       "id": "000022-070",
-      "start": 13159,
-      "end": 13323
+      "start": 10598,
+      "end": 10762
     },
     {
       "id": "000022-071",
-      "start": 13340,
-      "end": 13416
+      "start": 10779,
+      "end": 10855
     },
     {
       "id": "000022-072",
-      "start": 13433,
-      "end": 13590
+      "start": 10872,
+      "end": 11029
     },
     {
       "id": "000022-073",
-      "start": 13607,
-      "end": 13919
+      "start": 11046,
+      "end": 11358
     },
     {
       "id": "000022-074",
-      "start": 13936,
-      "end": 14005
+      "start": 11375,
+      "end": 11444
     },
     {
       "id": "000022-075",
-      "start": 14022,
-      "end": 14189
+      "start": 11461,
+      "end": 11628
     },
     {
       "id": "000022-076",
-      "start": 14206,
-      "end": 14279
+      "start": 11645,
+      "end": 11718
     },
     {
       "id": "000022-077",
-      "start": 14296,
-      "end": 14438
+      "start": 11735,
+      "end": 11877
     },
     {
       "id": "000022-078",
-      "start": 14455,
-      "end": 14601
+      "start": 11894,
+      "end": 12040
     },
     {
       "id": "000022-079",
-      "start": 14618,
-      "end": 14776
+      "start": 12057,
+      "end": 12215
     },
     {
       "id": "000022-080",
-      "start": 14793,
-      "end": 15113
+      "start": 12232,
+      "end": 12552
     },
     {
       "id": "000022-081",
-      "start": 15130,
-      "end": 15200
-    },
-    {
-      "id": "000022-082",
-      "start": 15217,
-      "end": 15375
+      "start": 12569,
+      "end": 12639
     },
     {
       "id": "000022-083",
-      "start": 15392,
-      "end": 15723
+      "start": 12656,
+      "end": 12987
     },
     {
       "id": "000022-084",
-      "start": 15740,
-      "end": 15799
-    },
-    {
-      "id": "000022-085",
-      "start": 15816,
-      "end": 15876
+      "start": 13004,
+      "end": 13063
     },
     {
       "id": "000022-086",
-      "start": 15893,
-      "end": 16064
+      "start": 13080,
+      "end": 13251
     },
     {
       "id": "000022-087",
-      "start": 16081,
-      "end": 16236
+      "start": 13268,
+      "end": 13423
     },
     {
       "id": "000022-088",
-      "start": 16253,
-      "end": 16391
+      "start": 13440,
+      "end": 13578
     },
     {
       "id": "000022-089",
-      "start": 16408,
-      "end": 16488
+      "start": 13595,
+      "end": 13675
     },
     {
       "id": "000022-090",
-      "start": 16505,
-      "end": 16853
+      "start": 13692,
+      "end": 14040
     },
     {
       "id": "000022-091",
-      "start": 16870,
-      "end": 16938
+      "start": 14057,
+      "end": 14125
     },
     {
       "id": "000022-092",
-      "start": 16955,
-      "end": 17102
+      "start": 14142,
+      "end": 14289
     },
     {
       "id": "000022-093",
-      "start": 17119,
-      "end": 17471
-    },
-    {
-      "id": "000022-094",
-      "start": 17488,
-      "end": 17664
+      "start": 14306,
+      "end": 14658
     },
     {
       "id": "000022-095",
-      "start": 17681,
-      "end": 17747
+      "start": 14675,
+      "end": 14741
     },
     {
       "id": "000022-096",
-      "start": 17764,
-      "end": 17920
+      "start": 14758,
+      "end": 14914
     },
     {
       "id": "000022-097",
-      "start": 17937,
-      "end": 18000
+      "start": 14931,
+      "end": 14994
     },
     {
       "id": "000022-098",
-      "start": 18017,
-      "end": 18354
+      "start": 15011,
+      "end": 15348
     },
     {
       "id": "000022-099",
-      "start": 18371,
-      "end": 18429
+      "start": 15365,
+      "end": 15423
     },
     {
       "id": "000022-100",
-      "start": 18446,
-      "end": 18609
+      "start": 15440,
+      "end": 15603
     },
     {
       "id": "000022-101",
-      "start": 18626,
-      "end": 18691
+      "start": 15620,
+      "end": 15685
     },
     {
       "id": "000022-102",
-      "start": 18708,
-      "end": 18856
+      "start": 15702,
+      "end": 15850
     },
     {
       "id": "000022-103",
-      "start": 18873,
-      "end": 19026
+      "start": 15867,
+      "end": 16020
     },
     {
       "id": "000022-104",
-      "start": 19043,
-      "end": 19197
-    },
-    {
-      "id": "000022-105",
-      "start": 19214,
-      "end": 19361
+      "start": 16037,
+      "end": 16191
     },
     {
       "id": "000022-106",
-      "start": 19378,
-      "end": 19540
+      "start": 16208,
+      "end": 16370
     },
     {
       "id": "000022-107",
-      "start": 19557,
-      "end": 19711
-    },
-    {
-      "id": "000022-108",
-      "start": 19728,
-      "end": 20085
+      "start": 16387,
+      "end": 16541
     },
     {
       "id": "000022-109",
-      "start": 20102,
-      "end": 20171
+      "start": 16558,
+      "end": 16627
     },
     {
       "id": "000022-110",
-      "start": 20188,
-      "end": 20254
-    },
-    {
-      "id": "000022-111",
-      "start": 20271,
-      "end": 20328
+      "start": 16644,
+      "end": 16710
     },
     {
       "id": "000022-112",
-      "start": 20345,
-      "end": 20519
+      "start": 16727,
+      "end": 16901
     },
     {
       "id": "000022-113",
-      "start": 20536,
-      "end": 20674
+      "start": 16918,
+      "end": 17056
     },
     {
       "id": "000022-114",
-      "start": 20691,
-      "end": 20975
-    },
-    {
-      "id": "000022-115",
-      "start": 20992,
-      "end": 21144
+      "start": 17073,
+      "end": 17357
     },
     {
       "id": "000022-116",
-      "start": 21161,
-      "end": 21304
+      "start": 17374,
+      "end": 17517
     },
     {
       "id": "000022-117",
-      "start": 21321,
-      "end": 21398
+      "start": 17534,
+      "end": 17611
     },
     {
       "id": "000022-118",
-      "start": 21415,
-      "end": 21747
+      "start": 17628,
+      "end": 17960
     },
     {
       "id": "000022-119",
-      "start": 21764,
-      "end": 21911
+      "start": 17977,
+      "end": 18124
     },
     {
       "id": "000022-120",
-      "start": 21928,
-      "end": 22065
+      "start": 18141,
+      "end": 18278
     },
     {
       "id": "000022-121",
-      "start": 22082,
-      "end": 22427
-    },
-    {
-      "id": "000022-122",
-      "start": 22444,
-      "end": 22618
+      "start": 18295,
+      "end": 18640
     },
     {
       "id": "000022-123",
-      "start": 22635,
-      "end": 22794
+      "start": 18657,
+      "end": 18816
     },
     {
       "id": "000022-124",
-      "start": 22811,
-      "end": 22978
+      "start": 18833,
+      "end": 19000
     },
     {
       "id": "000022-125",
-      "start": 22995,
-      "end": 23053
+      "start": 19017,
+      "end": 19075
     },
     {
       "id": "000022-126",
-      "start": 23070,
-      "end": 23209
-    },
-    {
-      "id": "000022-127",
-      "start": 23226,
-      "end": 23584
-    },
-    {
-      "id": "000022-128",
-      "start": 23601,
-      "end": 23927
+      "start": 19092,
+      "end": 19231
     },
     {
       "id": "000022-129",
-      "start": 23944,
-      "end": 24112
+      "start": 19248,
+      "end": 19416
     },
     {
       "id": "000022-130",
-      "start": 24129,
-      "end": 24432
+      "start": 19433,
+      "end": 19736
     },
     {
       "id": "000022-131",
-      "start": 24449,
-      "end": 24800
+      "start": 19753,
+      "end": 20104
     },
     {
       "id": "000022-132",
-      "start": 24817,
-      "end": 24964
-    },
-    {
-      "id": "000022-133",
-      "start": 24981,
-      "end": 25319
-    },
-    {
-      "id": "000022-134",
-      "start": 25336,
-      "end": 25511
+      "start": 20121,
+      "end": 20268
     },
     {
       "id": "000022-135",
-      "start": 25528,
-      "end": 25834
+      "start": 20285,
+      "end": 20591
     },
     {
       "id": "000022-136",
-      "start": 25851,
-      "end": 25996
+      "start": 20608,
+      "end": 20753
     },
     {
       "id": "000022-137",
-      "start": 26013,
-      "end": 26172
+      "start": 20770,
+      "end": 20929
     },
     {
       "id": "000022-138",
-      "start": 26189,
-      "end": 26248
+      "start": 20946,
+      "end": 21005
     },
     {
       "id": "000022-139",
-      "start": 26265,
-      "end": 26413
-    },
-    {
-      "id": "000022-140",
-      "start": 26430,
-      "end": 26491
+      "start": 21022,
+      "end": 21170
     },
     {
       "id": "000022-141",
-      "start": 26508,
-      "end": 26582
-    },
-    {
-      "id": "000022-142",
-      "start": 26599,
-      "end": 26676
+      "start": 21187,
+      "end": 21261
     },
     {
       "id": "000022-143",
-      "start": 26693,
-      "end": 26862
+      "start": 21278,
+      "end": 21447
     },
     {
       "id": "000022-144",
-      "start": 26879,
-      "end": 27249
-    },
-    {
-      "id": "000022-145",
-      "start": 27266,
-      "end": 27611
+      "start": 21464,
+      "end": 21834
     },
     {
       "id": "000022-146",
-      "start": 27628,
-      "end": 27955
+      "start": 21851,
+      "end": 22178
     },
     {
       "id": "000022-147",
-      "start": 27972,
-      "end": 28105
+      "start": 22195,
+      "end": 22328
     },
     {
       "id": "000022-148",
-      "start": 28122,
-      "end": 28282
+      "start": 22345,
+      "end": 22505
     },
     {
       "id": "000022-149",
-      "start": 28299,
-      "end": 28455
+      "start": 22522,
+      "end": 22678
     },
     {
       "id": "000022-150",
-      "start": 28472,
-      "end": 28619
+      "start": 22695,
+      "end": 22842
     },
     {
       "id": "000022-151",
-      "start": 28636,
-      "end": 28968
+      "start": 22859,
+      "end": 23191
     },
     {
       "id": "000022-152",
-      "start": 28985,
-      "end": 29161
+      "start": 23208,
+      "end": 23384
     },
     {
       "id": "000022-153",
-      "start": 29178,
-      "end": 29354
+      "start": 23401,
+      "end": 23577
     },
     {
       "id": "000022-154",
-      "start": 29371,
-      "end": 29519
+      "start": 23594,
+      "end": 23742
     },
     {
       "id": "000022-155",
-      "start": 29536,
-      "end": 29655
+      "start": 23759,
+      "end": 23878
     },
     {
       "id": "000022-156",
-      "start": 29672,
-      "end": 29754
+      "start": 23895,
+      "end": 23977
     },
     {
       "id": "000022-157",
-      "start": 29771,
-      "end": 29958
-    },
-    {
-      "id": "000022-158",
-      "start": 29975,
-      "end": 30116
+      "start": 23994,
+      "end": 24181
     },
     {
       "id": "000022-159",
-      "start": 30133,
-      "end": 30425
+      "start": 24198,
+      "end": 24490
     },
     {
       "id": "000022-160",
-      "start": 30442,
-      "end": 30587
+      "start": 24507,
+      "end": 24652
     },
     {
       "id": "000022-161",
-      "start": 30604,
-      "end": 30954
-    },
-    {
-      "id": "000022-162",
-      "start": 30971,
-      "end": 31119
+      "start": 24669,
+      "end": 25019
     },
     {
       "id": "000022-163",
-      "start": 31136,
-      "end": 31297
+      "start": 25036,
+      "end": 25197
     },
     {
       "id": "000022-164",
-      "start": 31314,
-      "end": 31395
-    },
-    {
-      "id": "000022-165",
-      "start": 31412,
-      "end": 31712
+      "start": 25214,
+      "end": 25295
     },
     {
       "id": "000022-166",
-      "start": 31729,
-      "end": 32016
+      "start": 25312,
+      "end": 25599
     },
     {
       "id": "000022-167",
-      "start": 32033,
-      "end": 32351
+      "start": 25616,
+      "end": 25934
     },
     {
       "id": "000022-168",
-      "start": 32368,
-      "end": 32519
+      "start": 25951,
+      "end": 26102
     },
     {
       "id": "000022-169",
-      "start": 32536,
-      "end": 32714
+      "start": 26119,
+      "end": 26297
     },
     {
       "id": "000022-170",
-      "start": 32731,
-      "end": 32916
+      "start": 26314,
+      "end": 26499
     },
     {
       "id": "000022-171",
-      "start": 32933,
-      "end": 33071
+      "start": 26516,
+      "end": 26654
     },
     {
       "id": "000022-172",
-      "start": 33088,
-      "end": 33154
+      "start": 26671,
+      "end": 26737
     },
     {
       "id": "000022-173",
-      "start": 33171,
-      "end": 33246
+      "start": 26754,
+      "end": 26829
     },
     {
       "id": "000022-174",
-      "start": 33263,
-      "end": 33604
+      "start": 26846,
+      "end": 27187
     },
     {
       "id": "000022-175",
-      "start": 33621,
-      "end": 33775
-    },
-    {
-      "id": "000022-176",
-      "start": 33792,
-      "end": 33859
+      "start": 27204,
+      "end": 27358
     },
     {
       "id": "000022-177",
-      "start": 33876,
-      "end": 34020
-    },
-    {
-      "id": "000022-178",
-      "start": 34037,
-      "end": 34364
+      "start": 27375,
+      "end": 27519
     },
     {
       "id": "000022-179",
-      "start": 34381,
-      "end": 34542
+      "start": 27536,
+      "end": 27697
     },
     {
       "id": "000022-180",
-      "start": 34559,
-      "end": 34625
+      "start": 27714,
+      "end": 27780
     },
     {
       "id": "000022-181",
-      "start": 34642,
-      "end": 34710
+      "start": 27797,
+      "end": 27865
     },
     {
       "id": "000022-182",
-      "start": 34727,
-      "end": 34871
-    },
-    {
-      "id": "000022-183",
-      "start": 34888,
-      "end": 35215
+      "start": 27882,
+      "end": 28026
     },
     {
       "id": "000022-184",
-      "start": 35232,
-      "end": 35305
+      "start": 28043,
+      "end": 28116
     },
     {
       "id": "000022-185",
-      "start": 35322,
-      "end": 35629
+      "start": 28133,
+      "end": 28440
     },
     {
       "id": "000022-186",
-      "start": 35646,
-      "end": 35952
+      "start": 28457,
+      "end": 28763
     },
     {
       "id": "000022-187",
-      "start": 35969,
-      "end": 36147
+      "start": 28780,
+      "end": 28958
     },
     {
       "id": "000022-188",
-      "start": 36164,
-      "end": 36307
+      "start": 28975,
+      "end": 29118
     },
     {
       "id": "000022-189",
-      "start": 36324,
-      "end": 36637
+      "start": 29135,
+      "end": 29448
     },
     {
       "id": "000022-190",
-      "start": 36654,
-      "end": 36712
-    },
-    {
-      "id": "000022-191",
-      "start": 36729,
-      "end": 36882
+      "start": 29465,
+      "end": 29523
     },
     {
       "id": "000022-192",
-      "start": 36899,
-      "end": 37246
+      "start": 29540,
+      "end": 29887
     },
     {
       "id": "000022-193",
-      "start": 37263,
-      "end": 37327
+      "start": 29904,
+      "end": 29968
     },
     {
       "id": "000022-194",
-      "start": 37344,
-      "end": 37506
+      "start": 29985,
+      "end": 30147
     },
     {
       "id": "000022-195",
-      "start": 37523,
-      "end": 37684
+      "start": 30164,
+      "end": 30325
     },
     {
       "id": "000022-196",
-      "start": 37701,
-      "end": 37855
+      "start": 30342,
+      "end": 30496
     },
     {
       "id": "000022-197",
-      "start": 37872,
-      "end": 38020
+      "start": 30513,
+      "end": 30661
     },
     {
       "id": "000022-198",
-      "start": 38037,
-      "end": 38220
+      "start": 30678,
+      "end": 30861
     },
     {
       "id": "000022-199",
-      "start": 38237,
-      "end": 38570
+      "start": 30878,
+      "end": 31211
     },
     {
       "id": "000022-200",
-      "start": 38587,
-      "end": 38653
+      "start": 31228,
+      "end": 31294
     },
     {
       "id": "000022-201",
-      "start": 38670,
-      "end": 38743
+      "start": 31311,
+      "end": 31384
     },
     {
       "id": "000022-202",
-      "start": 38760,
-      "end": 38930
+      "start": 31401,
+      "end": 31571
     },
     {
       "id": "000022-203",
-      "start": 38947,
-      "end": 39119
+      "start": 31588,
+      "end": 31760
     },
     {
       "id": "000022-204",
-      "start": 39136,
-      "end": 39288
+      "start": 31777,
+      "end": 31929
     },
     {
       "id": "000022-205",
-      "start": 39305,
-      "end": 39622
+      "start": 31946,
+      "end": 32263
     },
     {
       "id": "000022-206",
-      "start": 39639,
-      "end": 39975
+      "start": 32280,
+      "end": 32616
     },
     {
       "id": "000022-207",
-      "start": 39992,
-      "end": 40172
+      "start": 32633,
+      "end": 32813
     },
     {
       "id": "000022-208",
-      "start": 40189,
-      "end": 40264
+      "start": 32830,
+      "end": 32905
     },
     {
       "id": "000022-209",
-      "start": 40281,
-      "end": 40464
+      "start": 32922,
+      "end": 33105
     },
     {
       "id": "000022-210",
-      "start": 40481,
-      "end": 40649
+      "start": 33122,
+      "end": 33290
     },
     {
       "id": "000022-211",
-      "start": 40666,
-      "end": 40967
+      "start": 33307,
+      "end": 33608
     },
     {
       "id": "000022-212",
-      "start": 40984,
-      "end": 41148
+      "start": 33625,
+      "end": 33789
     },
     {
       "id": "000022-213",
-      "start": 41165,
-      "end": 41250
+      "start": 33806,
+      "end": 33891
     },
     {
       "id": "000022-214",
-      "start": 41267,
-      "end": 41412
+      "start": 33908,
+      "end": 34053
     },
     {
       "id": "000022-215",
-      "start": 41429,
-      "end": 41520
+      "start": 34070,
+      "end": 34161
     },
     {
       "id": "000022-216",
-      "start": 41537,
-      "end": 41619
+      "start": 34178,
+      "end": 34260
     },
     {
       "id": "000022-217",
-      "start": 41636,
-      "end": 41910
+      "start": 34277,
+      "end": 34551
     },
     {
       "id": "000022-218",
-      "start": 41927,
-      "end": 42112
+      "start": 34568,
+      "end": 34753
     },
     {
       "id": "000022-219",
-      "start": 42129,
-      "end": 42208
+      "start": 34770,
+      "end": 34849
     },
     {
       "id": "000022-220",
-      "start": 42225,
-      "end": 42375
+      "start": 34866,
+      "end": 35016
     },
     {
       "id": "000022-221",
-      "start": 42392,
-      "end": 42583
+      "start": 35033,
+      "end": 35224
     },
     {
       "id": "000022-222",
-      "start": 42600,
-      "end": 42960
+      "start": 35241,
+      "end": 35601
     },
     {
       "id": "000022-223",
-      "start": 42977,
-      "end": 43154
+      "start": 35618,
+      "end": 35795
     },
     {
       "id": "000022-224",
-      "start": 43171,
-      "end": 43253
+      "start": 35812,
+      "end": 35894
     },
     {
       "id": "000022-225",
-      "start": 43270,
-      "end": 43629
-    },
-    {
-      "id": "000022-226",
-      "start": 43646,
-      "end": 43816
-    },
-    {
-      "id": "000022-227",
-      "start": 43833,
-      "end": 44000
+      "start": 35911,
+      "end": 36270
     },
     {
       "id": "000022-228",
-      "start": 44017,
-      "end": 44156
+      "start": 36287,
+      "end": 36426
     },
     {
       "id": "000022-229",
-      "start": 44173,
-      "end": 44358
+      "start": 36443,
+      "end": 36628
     },
     {
       "id": "000022-230",
-      "start": 44375,
-      "end": 44461
+      "start": 36645,
+      "end": 36731
     },
     {
       "id": "000022-231",
-      "start": 44478,
-      "end": 44657
+      "start": 36748,
+      "end": 36927
     },
     {
       "id": "000022-232",
-      "start": 44674,
-      "end": 45013
+      "start": 36944,
+      "end": 37283
     },
     {
       "id": "000022-233",
-      "start": 45030,
-      "end": 45115
+      "start": 37300,
+      "end": 37385
     },
     {
       "id": "000022-234",
-      "start": 45132,
-      "end": 45321
-    },
-    {
-      "id": "000022-235",
-      "start": 45338,
-      "end": 45417
+      "start": 37402,
+      "end": 37591
     },
     {
       "id": "000022-236",
-      "start": 45434,
-      "end": 45522
+      "start": 37608,
+      "end": 37696
     },
     {
       "id": "000022-237",
-      "start": 45539,
-      "end": 45613
+      "start": 37713,
+      "end": 37787
     },
     {
       "id": "000022-238",
-      "start": 45630,
-      "end": 45815
+      "start": 37804,
+      "end": 37989
     },
     {
       "id": "000022-239",
-      "start": 45832,
-      "end": 46015
+      "start": 38006,
+      "end": 38189
     },
     {
       "id": "000022-240",
-      "start": 46032,
-      "end": 46372
+      "start": 38206,
+      "end": 38546
     }
   ],
-  "textSha256": "3da0c8ff694a4d739a41d43c8d156c3480729b472ddbd70348c29d1695264d43",
+  "textSha256": "ca38d64a52cc54d8456ff3eacacfda56fd53249f4a2086a51dd4df834e054af1",
   "labels": [
     {
       "id": "000022-001",
@@ -1229,14 +1029,6 @@
       "id": "000022-003",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-004",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Employees everywhere would trade a pay rise for a more impressive job title."
-      ]
     },
     {
       "id": "000022-005",
@@ -1267,11 +1059,6 @@
       "expected": false
     },
     {
-      "id": "000022-009",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
       "id": "000022-010",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
@@ -1287,19 +1074,6 @@
     },
     {
       "id": "000022-012",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
-      "id": "000022-013",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "People who order steak well done are afraid of unfamiliar experiences."
-      ]
-    },
-    {
-      "id": "000022-014",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
     },
@@ -1345,21 +1119,6 @@
       ]
     },
     {
-      "id": "000022-021",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
-      "id": "000022-022",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
-      "id": "000022-023",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
       "id": "000022-024",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
@@ -1388,14 +1147,6 @@
       ]
     },
     {
-      "id": "000022-028",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Diners who avoid meat always want moral recognition along with dinner"
-      ]
-    },
-    {
       "id": "000022-029",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
@@ -1418,26 +1169,9 @@
       ]
     },
     {
-      "id": "000022-032",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Users will ignore them, of course; people would rather surrender their data than spend a minute understanding a setting."
-      ]
-    },
-    {
       "id": "000022-033",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-034",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Who hasn't exaggerated a symptom to get attention?",
-        "Being ill brings out the child in all of us"
-      ]
     },
     {
       "id": "000022-035",
@@ -1451,14 +1185,6 @@
       "id": "000022-036",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-037",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "We all know what happens when you give children a choice: they take the easiest option."
-      ]
     },
     {
       "id": "000022-038",
@@ -1482,9 +1208,7 @@
       "id": "000022-041",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
-      "snippets": [
-        "We all resent the sibling who seems to need us least."
-      ]
+      "snippets": ["We all resent the sibling who seems to need us least."]
     },
     {
       "id": "000022-042",
@@ -1497,15 +1221,6 @@
       "expected": true,
       "snippets": [
         "Patients always prefer a confident answer to an honest admission of uncertainty."
-      ]
-    },
-    {
-      "id": "000022-044",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Fathers of daughters instinctively distrust every young man at the door.",
-        "they all want the last word on whom she loves"
       ]
     },
     {
@@ -1557,14 +1272,6 @@
       "expected": false
     },
     {
-      "id": "000022-052",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Every teacher longs for a classroom where nobody questions their authority."
-      ]
-    },
-    {
       "id": "000022-053",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
@@ -1580,11 +1287,6 @@
         "Older patients always need that conversation.",
         "They associate a person's voice with competence and see a booking screen as a sign that nobody cares."
       ]
-    },
-    {
-      "id": "000022-055",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
     },
     {
       "id": "000022-056",
@@ -1627,9 +1329,7 @@
       "id": "000022-062",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
-      "snippets": [
-        "Every home cook dreams of guests asking for the recipe."
-      ]
+      "snippets": ["Every home cook dreams of guests asking for the recipe."]
     },
     {
       "id": "000022-063",
@@ -1638,11 +1338,6 @@
     },
     {
       "id": "000022-064",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
-      "id": "000022-065",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
     },
@@ -1770,11 +1465,6 @@
       "expected": false
     },
     {
-      "id": "000022-082",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
       "id": "000022-083",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
@@ -1790,11 +1480,6 @@
       "snippets": [
         "Nobody really enjoys exercise; we all do it to earn dinner."
       ]
-    },
-    {
-      "id": "000022-085",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
     },
     {
       "id": "000022-086",
@@ -1849,11 +1534,6 @@
         "an arrangement that tells you everything about older engineers",
         "they all believe that anything made before the internet is more trustworthy"
       ]
-    },
-    {
-      "id": "000022-094",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
     },
     {
       "id": "000022-095",
@@ -1927,14 +1607,6 @@
       ]
     },
     {
-      "id": "000022-105",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "People in pain want a prescription, not a conversation"
-      ]
-    },
-    {
       "id": "000022-106",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
@@ -1951,15 +1623,6 @@
       ]
     },
     {
-      "id": "000022-108",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "students from low-income families see education only in terms of immediate earnings",
-        "Talk of intellectual curiosity misses how these students think."
-      ]
-    },
-    {
       "id": "000022-109",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
@@ -1968,14 +1631,6 @@
       "id": "000022-110",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-111",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Teenagers regard any book assigned at school as an enemy."
-      ]
     },
     {
       "id": "000022-112",
@@ -1998,14 +1653,6 @@
       "id": "000022-114",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-115",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "People go to these events to photograph themselves belonging, and the music is merely a convenient soundtrack."
-      ]
     },
     {
       "id": "000022-116",
@@ -2049,11 +1696,6 @@
       "expected": false
     },
     {
-      "id": "000022-122",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
       "id": "000022-123",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
@@ -2062,9 +1704,7 @@
       "id": "000022-124",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
-      "snippets": [
-        "Retirees want certainty above everything else"
-      ]
+      "snippets": ["Retirees want certainty above everything else"]
     },
     {
       "id": "000022-125",
@@ -2075,24 +1715,6 @@
       "id": "000022-126",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-127",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Rural voters vote with their memories, not their judgment.",
-        "Tell them a candidate's grandfather repaired a bridge and they will overlook any present incompetence."
-      ]
-    },
-    {
-      "id": "000022-128",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Give employees a metric and they will game it, every time.",
-        "From nurses to software developers, the instinct to make the number look good always wins over doing the job well."
-      ]
     },
     {
       "id": "000022-129",
@@ -2119,19 +1741,6 @@
       "id": "000022-132",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-133",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
-      "id": "000022-134",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Nurses understand suffering better than anyone, and they all carry the same quiet resentment toward patients who complain about minor discomfort."
-      ]
     },
     {
       "id": "000022-135",
@@ -2166,22 +1775,12 @@
       ]
     },
     {
-      "id": "000022-140",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
       "id": "000022-141",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
       "snippets": [
         "Programmers instinctively distrust any tool they did not build themselves."
       ]
-    },
-    {
-      "id": "000022-142",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
     },
     {
       "id": "000022-143",
@@ -2192,14 +1791,6 @@
       "id": "000022-144",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-145",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Food enthusiasts do not buy ingredients; they buy opportunities to correct other people."
-      ]
     },
     {
       "id": "000022-146",
@@ -2282,11 +1873,6 @@
       ]
     },
     {
-      "id": "000022-158",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
       "id": "000022-159",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
@@ -2305,11 +1891,6 @@
       "expected": false
     },
     {
-      "id": "000022-162",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
       "id": "000022-163",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": true,
@@ -2324,11 +1905,6 @@
       "snippets": [
         "Nobody in management ever admits enjoying the power that comes with redundancies."
       ]
-    },
-    {
-      "id": "000022-165",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
     },
     {
       "id": "000022-166",
@@ -2394,26 +1970,9 @@
       ]
     },
     {
-      "id": "000022-176",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Nobody saves money without secretly imagining the envy it will buy."
-      ]
-    },
-    {
       "id": "000022-177",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-178",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Everybody loves that kind of presentation now.",
-        "Modern diners want the comfort of childhood with the appearance of sophistication"
-      ]
     },
     {
       "id": "000022-179",
@@ -2437,11 +1996,6 @@
       "snippets": [
         "Who among us has ever welcomed honest feedback? We smile through the review and then spend the evening inventing reasons the reviewer was wrong."
       ]
-    },
-    {
-      "id": "000022-183",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
     },
     {
       "id": "000022-184",
@@ -2483,14 +2037,6 @@
       "id": "000022-190",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
-    },
-    {
-      "id": "000022-191",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "anyone who has been to school knows they resent the pupil who thinks for herself; obedience is what they reward"
-      ]
     },
     {
       "id": "000022-192",
@@ -2719,19 +2265,6 @@
       "expected": false
     },
     {
-      "id": "000022-226",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
-    },
-    {
-      "id": "000022-227",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": true,
-      "snippets": [
-        "Most voters warm to a candidate who seems slightly less informed than they are."
-      ]
-    },
-    {
       "id": "000022-228",
       "check": "puffery-and-overstatement/sweeping-generalization",
       "expected": false
@@ -2779,11 +2312,6 @@
         "Many travellers choose a long train journey for the chance to feel unhurried and interesting.",
         "the pleasing picture they have of themselves beside the window"
       ]
-    },
-    {
-      "id": "000022-235",
-      "check": "puffery-and-overstatement/sweeping-generalization",
-      "expected": false
     },
     {
       "id": "000022-236",

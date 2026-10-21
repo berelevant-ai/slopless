@@ -2,7 +2,7 @@
   "collectionId": "000021",
   "check": "puffery-and-overstatement/sweeping-generalization",
   "split": "development",
-  "status": "reviewed-pool-awaiting-archival-commit",
+  "status": "frozen-development-awaiting-parent-qa",
   "counts": {
     "passages": 204,
     "hits": 104,
@@ -47,18 +47,11 @@
     "authorLabelsWithheld": true,
     "authorSnippetsWithheld": true,
     "classBalanceWithheld": true,
-    "targets": [
-      "id",
-      "text"
-    ],
+    "targets": ["id", "text"],
     "toolsDisabled": true,
     "noSessionPersistence": true,
     "allWritingReviewedAfterLastAddition": true,
-    "reviewPasses": [
-      1,
-      2,
-      3
-    ]
+    "reviewPasses": [1, 2, 3]
   },
   "calls": [
     {
@@ -85,20 +78,14 @@
         "sha256": "db1abd28dd1a0b74212ff5789421c31c7799f8782c4631fbbc3a93163b3f5607"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 42032,
       "costUsd": 0.21194399999999997,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "fc31f2a25188c554e59ce8d93757f79ccea9ec66df6748e87ca19b4a1685bfec",
       "passageCount": 100,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-031",
-        "000021-072",
-        "000021-077"
-      ]
+      "objectionIds": ["000021-031", "000021-072", "000021-077"]
     },
     {
       "pass": 1,
@@ -124,21 +111,14 @@
         "sha256": "66992ebd89d7e7fd84fb2be3ce5941ced7afe3182b6eb3e3415d1e153cf21dd5"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 34677,
       "costUsd": 0.191956,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "2dfe839abf8b40b699f804bdcc2764c739d3a704d96dbd6c75ca67b2b7b64248",
       "passageCount": 100,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-137",
-        "000021-152",
-        "000021-168",
-        "000021-188"
-      ]
+      "objectionIds": ["000021-137", "000021-152", "000021-168", "000021-188"]
     },
     {
       "pass": 1,
@@ -164,19 +144,14 @@
         "sha256": "52dfdf3177838b0143150a4cdc020a94a56ed303255625694d0225f6b4b049b0"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 8342,
       "costUsd": 0.055824,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "b1f60fa46dcb525859176cc4ce44218bf731d10ad55ecc4f4fe77777850f0370",
       "passageCount": 4,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-201",
-        "000021-204"
-      ]
+      "objectionIds": ["000021-201", "000021-204"]
     },
     {
       "pass": 2,
@@ -202,19 +177,14 @@
         "sha256": "db1abd28dd1a0b74212ff5789421c31c7799f8782c4631fbbc3a93163b3f5607"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 41043,
       "costUsd": 0.18674659999999998,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "fc31f2a25188c554e59ce8d93757f79ccea9ec66df6748e87ca19b4a1685bfec",
       "passageCount": 100,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-072",
-        "000021-077"
-      ]
+      "objectionIds": ["000021-072", "000021-077"]
     },
     {
       "pass": 2,
@@ -240,21 +210,14 @@
         "sha256": "66992ebd89d7e7fd84fb2be3ce5941ced7afe3182b6eb3e3415d1e153cf21dd5"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 34445,
       "costUsd": 0.16801859999999996,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "2dfe839abf8b40b699f804bdcc2764c739d3a704d96dbd6c75ca67b2b7b64248",
       "passageCount": 100,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-137",
-        "000021-152",
-        "000021-159",
-        "000021-168"
-      ]
+      "objectionIds": ["000021-137", "000021-152", "000021-159", "000021-168"]
     },
     {
       "pass": 2,
@@ -280,21 +243,14 @@
         "sha256": "52dfdf3177838b0143150a4cdc020a94a56ed303255625694d0225f6b4b049b0"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 9914,
       "costUsd": 0.042875399999999994,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "b1f60fa46dcb525859176cc4ce44218bf731d10ad55ecc4f4fe77777850f0370",
       "passageCount": 4,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-201",
-        "000021-202",
-        "000021-203",
-        "000021-204"
-      ]
+      "objectionIds": ["000021-201", "000021-202", "000021-203", "000021-204"]
     },
     {
       "pass": 3,
@@ -320,19 +276,14 @@
         "sha256": "db1abd28dd1a0b74212ff5789421c31c7799f8782c4631fbbc3a93163b3f5607"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 33494,
       "costUsd": 0.1710666,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "fc31f2a25188c554e59ce8d93757f79ccea9ec66df6748e87ca19b4a1685bfec",
       "passageCount": 100,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-072",
-        "000021-077"
-      ]
+      "objectionIds": ["000021-072", "000021-077"]
     },
     {
       "pass": 3,
@@ -358,20 +309,14 @@
         "sha256": "66992ebd89d7e7fd84fb2be3ce5941ced7afe3182b6eb3e3415d1e153cf21dd5"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 32659,
       "costUsd": 0.1652466,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "2dfe839abf8b40b699f804bdcc2764c739d3a704d96dbd6c75ca67b2b7b64248",
       "passageCount": 100,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-137",
-        "000021-152",
-        "000021-168"
-      ]
+      "objectionIds": ["000021-137", "000021-152", "000021-168"]
     },
     {
       "pass": 3,
@@ -397,20 +342,14 @@
         "sha256": "52dfdf3177838b0143150a4cdc020a94a56ed303255625694d0225f6b4b049b0"
       },
       "requestedModel": "opus",
-      "actualModels": [
-        "claude-opus-5-5"
-      ],
+      "actualModels": ["claude-opus-5-5"],
       "durationMs": 9821,
       "costUsd": 0.0432634,
       "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
       "reviewInputSha256": "b1f60fa46dcb525859176cc4ce44218bf731d10ad55ecc4f4fe77777850f0370",
       "passageCount": 4,
       "disagreementIds": [],
-      "objectionIds": [
-        "000021-202",
-        "000021-203",
-        "000021-204"
-      ]
+      "objectionIds": ["000021-202", "000021-203", "000021-204"]
     }
   ],
   "totals": {
@@ -418,9 +357,7 @@
     "judgments": 612,
     "durationMs": 246427,
     "costUsd": 1.2369412,
-    "actualModels": [
-      "claude-opus-5-5"
-    ],
+    "actualModels": ["claude-opus-5-5"],
     "disagreements": 0,
     "objections": 27
   },
@@ -496,6 +433,54 @@
       "decision": "retain-hit",
       "reason": "The director's quoted craft rule is followed by the narrator's prediction that an audience will feel cheated. That prediction presumes a shared audience feeling without a meaningful boundary or supporting account.",
       "mandatory": true
+    },
+    {
+      "id": "000021-206",
+      "decision": "retain-hit",
+      "reason": "Many limits the count without providing an observed or explained basis for the motive attributed to parents. The second sentence treats school choice as a shared purchase of identity.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-210",
+      "decision": "retain-hit",
+      "reason": "Tend to softens the wording while the passage assigns employees a shared motive of protecting indispensability. Naming the profession supplies no observed basis or condition that supports that motive; the shared-folder conclusion relies on the presumption.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-211",
+      "decision": "retain-hit",
+      "reason": "The opening tendency supplies no supporting account and is followed by categorical claims about what friends read into delays and what reassurance they want. The advice depends on that uniform motive.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-001",
+      "decision": "retain-hit",
+      "reason": "The people remaining after one screening supply no basis for the passage's general claims about what audiences hate or why anyone attends a cinema.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-033",
+      "decision": "retain-hit",
+      "reason": "The branch's scheduling request establishes no shared preference for wages over shift control. Workers remains an unsupported group-motive claim even if read as referring to that branch.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-052",
+      "decision": "retain-hit",
+      "reason": "The sales count establishes purchases rather than the buyers' shared response to grandmother stories or willingness to pay a premium. Reading customers as this stall's buyers supplies a subgroup without a supporting account for its uniform motives.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-056",
+      "decision": "retain-hit",
+      "reason": "Village residents attributes a shared suspicious attitude without a bounded observation. Reading it as one village still supplies no observed basis for uniform attitudes toward newcomers.",
+      "mandatory": true
+    },
+    {
+      "id": "000021-089",
+      "decision": "retain-no-hit",
+      "reason": "The first sentence attributes a restaurant evaluation to a review, and the second expresses an individual food preference. Both remain outside the named human-group-presumption check.",
+      "mandatory": true
     }
   ],
   "unresolved": {
@@ -508,7 +493,7 @@
       "id": "000021-001",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Audiences hate being reminded that a film is a constructed object; they want the director to disappear.",
         "Nobody comes to a cinema hoping to think about the labor that produced the picture."
@@ -518,52 +503,55 @@
       "id": "000021-002",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-003",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Jazz listeners enjoy being difficult to please."
+        "Jazz listeners enjoy being difficult to please.",
+        "they'll feel we have taken away the thing that sets them apart"
       ]
     },
     {
       "id": "000021-004",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-005",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Solo travelers are solitary people by temperament, so they won't enjoy a shared breakfast or an introduction to the other guests."
+        "Solo travelers are solitary people by temperament, so they won't enjoy a shared breakfast or an introduction to the other guests.",
+        "Their decision to book alone tells us how much conversation they are willing to tolerate."
       ]
     },
     {
       "id": "000021-006",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Amateur cyclists care more about their equipment than their fitness."
+        "Amateur cyclists care more about their equipment than their fitness.",
+        "The carbon frame gives them the excuse they need to avoid admitting they should train harder."
       ]
     },
     {
       "id": "000021-007",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-008",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Anyone visiting Paris is looking for romance, whether they admit it or not."
       ]
@@ -572,31 +560,25 @@
       "id": "000021-009",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-010",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
-    },
-    {
-      "id": "000021-011",
-      "expected": false,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-012",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-013",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Retired voters long for the country they grew up in, and every election is an opportunity for them to recover it."
       ]
@@ -605,13 +587,13 @@
       "id": "000021-014",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-015",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Every athlete is chasing the approval they missed out on as a child."
       ]
@@ -620,22 +602,23 @@
       "id": "000021-016",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Freelancers value independence above security."
+        "Freelancers value independence above security.",
+        "Offering a permanent contract will feel like a loss of freedom to them, even if the salary doubles their current income."
       ]
     },
     {
       "id": "000021-017",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-018",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Voters only listen when a politician promises to put money in their pockets."
       ]
@@ -644,42 +627,33 @@
       "id": "000021-019",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-020",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "We understand, as parents, that a difficult book is a threat to a child's confidence.",
-        "Give families something easier and they will thank us"
+        "Give families something easier and they will thank us for protecting their children."
       ]
     },
     {
       "id": "000021-021",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "People treat a friendship as disposable once it asks anything inconvenient of them.",
-        "Everyone is measuring what they get back"
-      ]
-    },
-    {
-      "id": "000021-022",
-      "expected": true,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
-      "snippets": [
-        "Nobody joins a gym to become comfortable with the body they already have."
+        "Everyone is measuring what they get back, even when they call it unconditional affection."
       ]
     },
     {
       "id": "000021-023",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Everyone who buys a smartwatch wants their private life turned into a competition."
       ]
@@ -688,7 +662,7 @@
       "id": "000021-024",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Everybody wants a pill rather than the inconvenience of changing their routine."
       ]
@@ -697,7 +671,7 @@
       "id": "000021-025",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Programmers would rather rebuild a working tool than admit somebody else solved the problem."
       ]
@@ -706,44 +680,42 @@
       "id": "000021-026",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
-      "snippets": [
-        "Children learn only when they are having fun"
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
+      "snippets": ["Children learn only when they are having fun"]
     },
     {
       "id": "000021-027",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-028",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-029",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "University students see attendance requirements as an insult.",
-        "They believe paying fees gives them the right to ignore any teaching"
+        "They believe paying fees gives them the right to ignore any teaching that doesn't immediately interest them."
       ]
     },
     {
       "id": "000021-030",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-031",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "People don't support environmental measures when they have to sacrifice anything themselves.",
         "The public enthusiasm for greener streets disappears the moment walking is involved."
@@ -753,7 +725,7 @@
       "id": "000021-032",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Refugees want to leave their old identity behind and start again."
       ]
@@ -762,7 +734,7 @@
       "id": "000021-033",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Workers care about the size of the pay packet, not the language of the agreement.",
         "they will stop worrying about shift control"
@@ -772,46 +744,47 @@
       "id": "000021-034",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-035",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-036",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-037",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-038",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Local people resent travelers who stay for just a day."
+        "Local people resent travelers who stay for just a day.",
+        "They see a short visit as taking something from the town without giving anything back to it."
       ]
     },
     {
       "id": "000021-039",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-040",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "We all turn to music because words alone cannot express our feelings."
       ]
@@ -820,13 +793,13 @@
       "id": "000021-041",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-042",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "People who order steak well done are afraid of trying anything new."
       ]
@@ -835,7 +808,7 @@
       "id": "000021-043",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "That confirms what people want from software: a score that tells them they are doing better than their neighbors.",
         "everyone cares more about being ahead than about keeping a copy of the underlying data"
@@ -845,22 +818,23 @@
       "id": "000021-044",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-045",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Accountants are uncomfortable with unstructured conversation; they need every social activity to have a measurable purpose."
+        "Accountants are uncomfortable with unstructured conversation; they need every social activity to have a measurable purpose.",
+        "A quiet walk would leave them feeling that the morning had been wasted."
       ]
     },
     {
       "id": "000021-046",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Travelers become helpless as soon as something goes wrong; they want an authority figure to take every decision away from them.",
         "Being told what to do is what people find reassuring in an unfamiliar airport."
@@ -870,22 +844,20 @@
       "id": "000021-047",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
-      "snippets": [
-        "Working-class visitors find abstraction pretentious"
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
+      "snippets": ["Working-class visitors find abstraction pretentious"]
     },
     {
       "id": "000021-048",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-049",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "For Italians, a broken strand of spaghetti feels like an insult to the family."
       ]
@@ -894,19 +866,19 @@
       "id": "000021-050",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-051",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-052",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Customers love a story about a grandmother because it makes them believe the food is honest.",
         "They will accept a higher price as soon as they imagine a family kitchen."
@@ -916,7 +888,7 @@
       "id": "000021-053",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "People with chronic pain become experts at exaggerating symptoms to be taken seriously."
       ]
@@ -925,13 +897,13 @@
       "id": "000021-054",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-055",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Who doesn't want a promotion?",
         "Staff who turn one down are protecting themselves from the disappointment of failing"
@@ -941,7 +913,7 @@
       "id": "000021-056",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Village residents don't welcome newcomers until they have proved they belong."
       ]
@@ -950,22 +922,23 @@
       "id": "000021-057",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Isn't winning the only thing any of us remembers?"
+        "Isn't winning the only thing any of us remembers?",
+        "The juniors will forget a friendly coach long before they forget the chance to lift a trophy."
       ]
     },
     {
       "id": "000021-058",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-059",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Children reject vegetables because they want to be in control of the table."
       ]
@@ -974,38 +947,39 @@
       "id": "000021-060",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-061",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Women read historical fiction to escape the disappointments of ordinary life"
+        "Women read historical fiction to escape the disappointments of ordinary life",
+        "What these readers want is somewhere more elegant to live for an hour or two."
       ]
     },
     {
       "id": "000021-062",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Parents respond to vaccination advice emotionally rather than rationally; statistics just make them dig in.",
-        "A warm message is the only language they understand"
+        "A warm message is the only language they understand when their own children are involved."
       ]
     },
     {
       "id": "000021-063",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-064",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Commuters judge every public project by how much time it saves them personally"
       ]
@@ -1014,17 +988,17 @@
       "id": "000021-065",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Anyone shopping for a phone considers a repaired handset second best",
-        "the idea of previous ownership makes them uncomfortable"
+        "Customers need to see untouched boxes first because the idea of previous ownership makes them uncomfortable."
       ]
     },
     {
       "id": "000021-066",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Novelists are jealous of anyone who finishes a book faster than they do."
       ]
@@ -1033,132 +1007,123 @@
       "id": "000021-067",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Musicians regard punctuality as a threat to spontaneity, and a strict schedule makes them feel that the performance has already been compromised."
-      ]
-    },
-    {
-      "id": "000021-068",
-      "expected": true,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
-      "snippets": [
-        "Managers hear a request for flexibility as a confession of weak commitment."
       ]
     },
     {
       "id": "000021-069",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-070",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-071",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-072",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Many older users are frightened of changing anything on a computer. They regard an unfamiliar menu as evidence that they have broken the machine."
+        "Many older users are frightened of changing anything on a computer.",
+        "They regard an unfamiliar menu as evidence that they have broken the machine."
       ]
     },
     {
       "id": "000021-073",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Office workers interpret a private desk as a sign of importance, and they resent anyone who gets one before them.",
-        "people are keeping a mental ranking"
+        "people are keeping a mental ranking of whose furniture says they matter most"
       ]
     },
     {
       "id": "000021-074",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-075",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-076",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
-      "snippets": [
-        "We all relax the moment we hear our own language abroad."
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
+      "snippets": ["We all relax the moment we hear our own language abroad."]
     },
     {
       "id": "000021-077",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Many people who volunteer are really looking for an audience for their goodness.",
-        "the public approval they need"
+        "Private acts of kindness can't give them the public approval they need."
       ]
     },
     {
       "id": "000021-078",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-079",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-080",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-081",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-082",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
-        "Business owners see a public consultation as an obstacle to getting things done."
+        "Business owners see a public consultation as an obstacle to getting things done.",
+        "They will support whatever lets the planning committee finish faster, regardless of the proposal itself."
       ]
     },
     {
       "id": "000021-083",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-084",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Parents at junior sport see their children as future professionals, so they interpret every minute on the bench as a personal insult."
       ]
@@ -1167,16 +1132,14 @@
       "id": "000021-085",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
-      "snippets": [
-        "Collectors want a work that other people cannot have."
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
+      "snippets": ["Collectors want a work that other people cannot have."]
     },
     {
       "id": "000021-086",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "People in regional offices always feel overlooked by headquarters"
       ]
@@ -1185,34 +1148,25 @@
       "id": "000021-087",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
-    },
-    {
-      "id": "000021-088",
-      "expected": true,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
-      "snippets": [
-        "Men want a solution when they talk about a problem; women want someone to listen."
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-089",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-090",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-091",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Doctors resent patients who arrive with internet research; they feel their authority slipping as soon as a website is mentioned."
       ]
@@ -1221,34 +1175,25 @@
       "id": "000021-092",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
-    },
-    {
-      "id": "000021-093",
-      "expected": true,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
-      "snippets": [
-        "Rural pupils don't imagine themselves at university; they expect to stay near home and follow their parents into work."
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-094",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-095",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-096",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
       "snippets": [
         "Patients hear a second opinion as an admission that medicine has failed."
       ]
@@ -1257,65 +1202,65 @@
       "id": "000021-097",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-098",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-099",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-100",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch1-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json"
     },
     {
       "id": "000021-101",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-102",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-103",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-104",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Runners are addicted to proving they can endure pain.",
-        "they will assume it cannot possibly be making them stronger"
+        "Offer them a comfortable training programme and they will assume it cannot possibly be making them stronger."
       ]
     },
     {
       "id": "000021-105",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-106",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Traditional fans believe that any change to the stadium is an attack on the club's history."
       ]
@@ -1324,19 +1269,19 @@
       "id": "000021-107",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-108",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-109",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Office workers buy sweet pastries because they see breakfast as a reward for having to get up and go to work."
       ]
@@ -1345,7 +1290,7 @@
       "id": "000021-110",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Every sibling keeps score of who their parents loved the most."
       ]
@@ -1354,34 +1299,19 @@
       "id": "000021-111",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
-    },
-    {
-      "id": "000021-112",
-      "expected": true,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "Teenagers dismiss any book that an adult tells them is important."
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-113",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
-    },
-    {
-      "id": "000021-114",
-      "expected": false,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-115",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "The average internet user treats privacy as someone else's problem until a photograph leaks."
       ]
@@ -1390,7 +1320,7 @@
       "id": "000021-116",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "People who use Linux see every technical inconvenience as a badge of honor."
       ]
@@ -1399,13 +1329,13 @@
       "id": "000021-117",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-118",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Readers resent an ending that makes them decide what happened."
       ]
@@ -1414,13 +1344,13 @@
       "id": "000021-119",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-120",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Tourists want a photograph of a place more than they want to understand it."
       ]
@@ -1429,25 +1359,25 @@
       "id": "000021-121",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-122",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-123",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-124",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "It's the same in every neighborhood: homeowners care about property prices, renters care about convenience."
       ]
@@ -1456,7 +1386,7 @@
       "id": "000021-125",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Isn't a slim body what we all really want?",
         "that shared ambition"
@@ -1466,19 +1396,13 @@
       "id": "000021-126",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
-    },
-    {
-      "id": "000021-127",
-      "expected": false,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-128",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "New mothers instinctively distrust advice from anyone who hasn't had a baby."
       ]
@@ -1487,19 +1411,19 @@
       "id": "000021-129",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-130",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-131",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Isn't eating together what makes us all feel at home?",
         "Even the most reserved guest wants to be pulled into a noisy conversation over a shared dish."
@@ -1509,17 +1433,17 @@
       "id": "000021-132",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Who doesn't want their children nearby as they grow older?",
-        "Parents who encourage a move abroad are hiding their disappointment to avoid looking selfish"
+        "Parents who encourage a move abroad are hiding their disappointment to avoid looking selfish in front of the family."
       ]
     },
     {
       "id": "000021-133",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Backpackers are suspicious of comfort; they need a trip to feel difficult before they consider it a real experience."
       ]
@@ -1528,7 +1452,7 @@
       "id": "000021-134",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Teachers regard silence as proof that a lesson is going well."
       ]
@@ -1537,64 +1461,53 @@
       "id": "000021-135",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-136",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-137",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "Don't we all feel safer when an app asks for a password?"
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
+      "snippets": ["Don't we all feel safer when an app asks for a password?"]
     },
     {
       "id": "000021-138",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-139",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "People who watch women's sport are looking for a moral statement as much as a match."
-      ]
-    },
-    {
-      "id": "000021-140",
-      "expected": true,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "You know how gamers are: they want a higher number beside their name, whatever the game."
       ]
     },
     {
       "id": "000021-141",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-142",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-143",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "City people regard a quiet village as a place that needs improving."
       ]
@@ -1603,7 +1516,7 @@
       "id": "000021-144",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Football supporters would rather blame the referee than admit their team played badly."
       ]
@@ -1612,19 +1525,19 @@
       "id": "000021-145",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-146",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-147",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Americans abroad expect every meal to arrive exactly as it would at home.",
         "They read a small portion as poor service"
@@ -1634,7 +1547,7 @@
       "id": "000021-148",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Former competitors can't enjoy a casual activity without turning it into a contest."
       ]
@@ -1643,13 +1556,13 @@
       "id": "000021-149",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-150",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "An only child expects every conversation to revolve around them."
       ]
@@ -1658,7 +1571,7 @@
       "id": "000021-151",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Families hold on to old arguments because resentment is how they keep a sense of belonging."
       ]
@@ -1667,22 +1580,16 @@
       "id": "000021-152",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Many people who choose expensive wine are buying social approval rather than flavor. They need the rest of the table to see how much the bottle costs."
       ]
     },
     {
-      "id": "000021-153",
-      "expected": false,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
-    },
-    {
       "id": "000021-154",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "An employee's first instinct is to hide a mistake. That's human nature",
         "people will conceal whatever they can"
@@ -1692,70 +1599,57 @@
       "id": "000021-155",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-156",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-157",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
-    },
-    {
-      "id": "000021-158",
-      "expected": true,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "Who doesn't feel moved by a child's voice singing alone?"
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-159",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "Children are natural performers who crave an audience"
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
+      "snippets": ["Children are natural performers who crave an audience"]
     },
     {
       "id": "000021-160",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-161",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-162",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "We all know that nobody really trusts their local council."
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
+      "snippets": ["We all know that nobody really trusts their local council."]
     },
     {
       "id": "000021-163",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-164",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "People who leave their hometown are ashamed of where they came from"
       ]
@@ -1764,16 +1658,14 @@
       "id": "000021-165",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "Developers hate reaching for a mouse"
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
+      "snippets": ["Developers hate reaching for a mouse"]
     },
     {
       "id": "000021-166",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Guests judge how much you value them by where you put their chair"
       ]
@@ -1782,7 +1674,7 @@
       "id": "000021-167",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Island residents measure outsiders by whether they can handle rough weather without complaining."
       ]
@@ -1791,43 +1683,41 @@
       "id": "000021-168",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
-        "Most academics are motivated by the prospect of seeing their name in print."
+        "Most academics are motivated by the prospect of seeing their name in print. Appeals to student benefit won't persuade them"
       ]
     },
     {
       "id": "000021-169",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "We all want our boss to notice when we stay late."
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
+      "snippets": ["We all want our boss to notice when we stay late."]
     },
     {
       "id": "000021-170",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-171",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-172",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-173",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "People who ask for plant-based alternatives want everyone nearby to know they are making an ethical choice."
       ]
@@ -1836,16 +1726,16 @@
       "id": "000021-174",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
-        "Adult learners are embarrassed to ask basic questions because they feel they should already know the answers."
+        "Adult learners are embarrassed to ask basic questions because they feel they should already know the answers. They will quietly struggle rather than approach a librarian."
       ]
     },
     {
       "id": "000021-175",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Young professionals see a job as a temporary stepping stone."
       ]
@@ -1854,58 +1744,56 @@
       "id": "000021-176",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-177",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-178",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-179",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "Older men will always put pride before asking for help."
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
+      "snippets": ["Older men will always put pride before asking for help."]
     },
     {
       "id": "000021-180",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-181",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-182",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-183",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-184",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Every parent secretly wants their child to finish top of the class."
       ]
@@ -1914,43 +1802,32 @@
       "id": "000021-185",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-186",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-187",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-188",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "Everyone loves the smell of bread coming out of an oven."
-      ]
-    },
-    {
-      "id": "000021-189",
-      "expected": true,
-      "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
-      "snippets": [
-        "Who wouldn't prefer a quiet beach to a busy town?"
-      ]
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
+      "snippets": ["Everyone loves the smell of bread coming out of an oven."]
     },
     {
       "id": "000021-190",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "This is how patients think: if something is printed, it must be reliable."
       ]
@@ -1959,13 +1836,13 @@
       "id": "000021-191",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-192",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "Real home cooks never measure; they trust their senses instead."
       ]
@@ -1974,34 +1851,34 @@
       "id": "000021-193",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-194",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-195",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
-        "People who take up running are trying to outrun something in their lives"
+        "People who take up running are trying to outrun something in their lives; the finish time is just the explanation they give friends."
       ]
     },
     {
       "id": "000021-196",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-197",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
       "snippets": [
         "People who stay single are protecting themselves from the risk of being known."
       ]
@@ -2010,25 +1887,25 @@
       "id": "000021-198",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-199",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-200",
       "expected": false,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch2-output.json"
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json"
     },
     {
       "id": "000021-201",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
       "snippets": [
         "\"People buy technology to impress other people.\"",
         "The product page should therefore show the watch at a dinner party"
@@ -2038,17 +1915,16 @@
       "id": "000021-202",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
       "snippets": [
-        "\"Freelancers hate being tied down,\"",
-        "That's why we should offer short contracts"
+        "\"Freelancers hate being tied down,\" says the recruitment guide. That's why we should offer short contracts"
       ]
     },
     {
       "id": "000021-203",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
       "snippets": [
         "\"readers want justice, even in a love story.\"",
         "an audience will feel cheated if the dishonest brother gets away with it"
@@ -2058,11 +1934,73 @@
       "id": "000021-204",
       "expected": true,
       "pass": 3,
-      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001237-batch3-output.json",
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
       "snippets": [
-        "\"Nobody wants to hear about risk when they're expecting a baby.\"",
-        "reassure parents before discussing the screening appointment"
+        "\"Nobody wants to hear about risk when they're expecting a baby.\""
       ]
+    },
+    {
+      "id": "000021-205",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
+      "snippets": [
+        "Most app users take a reminder as a sign that somebody cares."
+      ]
+    },
+    {
+      "id": "000021-206",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
+      "snippets": [
+        "Many parents choose a school to confirm the sort of family they believe they are.",
+        "They are buying a reflection of themselves as much as an education."
+      ]
+    },
+    {
+      "id": "000021-207",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json"
+    },
+    {
+      "id": "000021-208",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json"
+    },
+    {
+      "id": "000021-209",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json"
+    },
+    {
+      "id": "000021-210",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
+      "snippets": [
+        "Employees tend to keep useful information to themselves because being indispensable feels safer than being helpful."
+      ]
+    },
+    {
+      "id": "000021-211",
+      "expected": true,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
+      "snippets": [
+        "People tend to value a friendship by how quickly a message is answered.",
+        "They read the delay as a measure of how much they matter",
+        "what friends are waiting for is reassurance that they came first"
+      ]
+    },
+    {
+      "id": "000021-212",
+      "expected": false,
+      "pass": 3,
+      "outputPath": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json"
     }
   ],
   "verification": {
@@ -3580,8 +3518,8 @@
     }
   },
   "archive": {
-    "status": "needs archival commit",
-    "commit": null,
+    "status": "archived",
+    "commit": "1420a94e52fa48102b5e407d4fb201c673a649d1",
     "poolCounts": {
       "passages": 204,
       "hits": 104,
@@ -3591,7 +3529,7 @@
     "poolLabelsSha256": "7f590274be87e437c987d044a17d5c7d9823a8ffe5ea055d9357a6a5ac422e31"
   },
   "selection": {
-    "status": "pending-parent-archival-commit",
+    "status": "completed-see-activeSelection",
     "target": {
       "hits": 100,
       "noHits": 100
@@ -3613,7 +3551,1091 @@
     "policy": "Retain mandatory cases; allocate remaining class slots proportionally across declared short/medium/long groups with largest-remainder rounding, redistribute exhausted groups, and select ascending SHA-256 of family/type/split/stable ID within each bucket."
   },
   "remainingConcerns": [
-    "Archival commit and deterministic balancing remain pending.",
     "Fresh independent QA and cross-split duplicate audit are assigned to the parent."
-  ]
+  ],
+  "countsScope": "Historical 204-passage pool archived at 1420a94e52fa48102b5e407d4fb201c673a649d1",
+  "totalsScope": "Historical first three passes on the 204-passage pool",
+  "filesScope": "Historical archived pool files",
+  "verificationScope": "Historical archived 204-passage pool; current checks are under activeSelection.verification",
+  "finalReviewProvenanceScope": "Current active selection, from the final fresh review of the complete expanded writing",
+  "coverageExpansion": {
+    "reason": "User-requested subtle many/most/tend/shared-motive forms and ordinary-language bounded controls without numbers or citations.",
+    "counts": {
+      "added": 8,
+      "hits": 4,
+      "noHits": 4,
+      "expandedPool": 212
+    },
+    "authorInput": {
+      "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001835-coverage-author.json",
+      "sha256": "06ed81c2a02cfbd86ea12d294b65f21ae9d5ec58eac5fb13ea35a845f8e8db92"
+    },
+    "idMap": {
+      "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001835-coverage-id-map.json",
+      "sha256": "e07ba635cd285f3f89d1808eaef23ea3eb76c011011b313c03fad9215c4c38a5"
+    },
+    "retainedCoverageSeedIds": [
+      "000021-205",
+      "000021-206",
+      "000021-207",
+      "000021-208",
+      "000021-209",
+      "000021-210",
+      "000021-211",
+      "000021-212"
+    ],
+    "coverageSeedApproval": "Author adjudication under the frozen definition and three label-withheld Opus review passes.",
+    "annotationCorrections": [],
+    "proseRewrites": [],
+    "totals": {
+      "calls": 7,
+      "judgments": 432,
+      "durationMs": 210552,
+      "costUsd": 0.9304833999999998,
+      "actualModels": ["claude-opus-5-5"],
+      "disagreements": 0,
+      "objections": 30
+    },
+    "calls": [
+      {
+        "pass": 1,
+        "kind": "blind-coverage",
+        "input": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001835-coverage-input.json",
+          "sha256": "29932bc0396aaabeeb6b8669181ecc50dea4f7871e8353e88d06674d59d987df"
+        },
+        "output": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001835-coverage-output.json",
+          "sha256": "8b3a9a336b24d80dd36adf3c008a66829195bc77d2b7f208981a248c83899496"
+        },
+        "prompt": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001835-coverage-prompt.md",
+          "sha256": "1388771b9230b648230a29dfa8383bb61c9a576c50658be898f9d7e1a26ae52c"
+        },
+        "rawResponse": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001835-coverage-raw-response.json",
+          "sha256": "c0598cfe2811196c3052dee0dfb5ce273c7c116397a50a2479a4a9dc9238f9c3"
+        },
+        "command": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass1-20261021-001835-coverage-command.json",
+          "sha256": "a7c085687bfc84e1d28fd79b2b8753c65413141eca325c0e6edc6d4b5ff38f3a"
+        },
+        "requestedModel": "opus",
+        "actualModels": ["claude-opus-5-5"],
+        "durationMs": 13465,
+        "costUsd": 0.059719999999999995,
+        "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+        "reviewInputSha256": "5bba9ec4e7deb0bb69db96d729c7df06313f6d28af8e522863ca4531da85027d",
+        "passageCount": 8,
+        "disagreementIds": [],
+        "objections": [
+          {
+            "id": "000021-211",
+            "objection": "\"Tend to\" could be read as a hedged tendency. But no condition or basis is given, and the passage goes on to state one uniform motive for all friends, so it counts as a sweeping presumption."
+          },
+          {
+            "id": "000021-206",
+            "objection": "\"Many\" limits the group to some parents, which could make this a bounded claim. Under the definition, though, \"many\" alone doesn't fix an unsupported motive. The second sentence also drops the qualifier and states the motive outright."
+          },
+          {
+            "id": "000021-210",
+            "objection": "This is close to 000021-207, which also uses \"tend to\" but names a concrete condition (a folder staff cannot open). Here, no condition or evidence supports the motive given to employees in general."
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "kind": "adversarial-full-expanded-pool",
+        "input": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch1-input.json",
+          "sha256": "3319324866ee7e6fcbf797a6a48e23c57d64f6aaa2449247cffe96873f1c5a40"
+        },
+        "output": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch1-output.json",
+          "sha256": "3d22cad1145a4363c5fa2761fff2afb76664f7f3c2b9367f5f022cb5ced17b8b"
+        },
+        "prompt": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch1-prompt.md",
+          "sha256": "a0e43cd4e433d02c697bbad949a73a8ced1b6bdee61113916b00f762d196951f"
+        },
+        "rawResponse": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch1-raw-response.json",
+          "sha256": "376228122de3390625db56083edd72bc6efc6bec3529fb00ca373d33b51b224b"
+        },
+        "command": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch1-command.json",
+          "sha256": "db1abd28dd1a0b74212ff5789421c31c7799f8782c4631fbbc3a93163b3f5607"
+        },
+        "requestedModel": "opus",
+        "actualModels": ["claude-opus-5-5"],
+        "durationMs": 48166,
+        "costUsd": 0.1916906,
+        "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+        "reviewInputSha256": "fc31f2a25188c554e59ce8d93757f79ccea9ec66df6748e87ca19b4a1685bfec",
+        "passageCount": 100,
+        "disagreementIds": [],
+        "objections": [
+          {
+            "id": "000021-001",
+            "objection": "The eight-person discussion is a sample observation. It does not support a claim about all audiences."
+          },
+          {
+            "id": "000021-033",
+            "objection": "One reading takes 'Workers' as this branch's members only. Even then, the uniform motive has no observed basis."
+          },
+          {
+            "id": "000021-052",
+            "objection": "'Customers' could mean this stall's market buyers. The sales figure still does not support the uniform motive."
+          },
+          {
+            "id": "000021-056",
+            "objection": "This could describe one particular village. Even so, the passage attributes a uniform attitude with no observed basis."
+          },
+          {
+            "id": "000021-072",
+            "objection": "'Many' limits the first sentence. Under the definition, that qualifier does not repair an unsupported group presumption, and 'They' carries it on without limit."
+          },
+          {
+            "id": "000021-077",
+            "objection": "'Many' could be read as a bounded tendency. The definition says that qualifier does not repair an unsupported presumption about motives."
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "kind": "adversarial-full-expanded-pool",
+        "input": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch2-input.json",
+          "sha256": "634f6cf452e0fe8d19bf2b28a41b46120508dafa6a199a5ea856637ea18acf01"
+        },
+        "output": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch2-output.json",
+          "sha256": "8be8494d81d3c510a8d6352f76e0d8837463302fddc9a9aac07784fad6fffe68"
+        },
+        "prompt": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch2-prompt.md",
+          "sha256": "42e257b144604f5dea2b4ab5bb5ac74e56764c6621704ca504e8ad59de32c556"
+        },
+        "rawResponse": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch2-raw-response.json",
+          "sha256": "92f6658a054b7712670bd0980fee5b13f0b238ca1ebe5e5ca64e59bcedeb520e"
+        },
+        "command": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch2-command.json",
+          "sha256": "66992ebd89d7e7fd84fb2be3ce5941ced7afe3182b6eb3e3415d1e153cf21dd5"
+        },
+        "requestedModel": "opus",
+        "actualModels": ["claude-opus-5-5"],
+        "durationMs": 38132,
+        "costUsd": 0.18014259999999999,
+        "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+        "reviewInputSha256": "2dfe839abf8b40b699f804bdcc2764c739d3a704d96dbd6c75ca67b2b7b64248",
+        "passageCount": 100,
+        "disagreementIds": [],
+        "objections": [
+          {
+            "id": "000021-137",
+            "objection": "Short rhetorical question; could be read as a genuine invitation, but 'Don't we all' presumes universal agreement, which the definition keeps eligible."
+          },
+          {
+            "id": "000021-152",
+            "objection": "'Many' could be read as a bounded tendency, but the definition says qualifiers such as many do not repair an unsupported motive attribution, and the second sentence applies it to the group as a whole."
+          },
+          {
+            "id": "000021-168",
+            "objection": "'Most' softens the claim, but it is an unsupported motive attribution, and the conclusion treats academics as uniformly unpersuadable. Qualifiers like this do not repair it under the definition."
+          },
+          {
+            "id": "000021-188",
+            "objection": "This could be read as a harmless commonplace, but it attributes a uniform preference to everyone without any boundary, which the definition makes eligible."
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "kind": "adversarial-full-expanded-pool",
+        "input": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch3-input.json",
+          "sha256": "88a01a8b7cd9322d52efdd5a00d756238e3baba1912d426dfa581b32191c81c5"
+        },
+        "output": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch3-output.json",
+          "sha256": "cae3c1734267e803810e881a89c79e38e5e75f2faa12447ce5bf3848aacf0a33"
+        },
+        "prompt": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch3-prompt.md",
+          "sha256": "c6f06e85dfc3e14cd50f9ddbc7f5cc06398ef4eded84aa88ac6e87323b76341a"
+        },
+        "rawResponse": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch3-raw-response.json",
+          "sha256": "e20414b7c55179d4454421deece73afee7c267efc5acb31f9ecca61ece7bc794"
+        },
+        "command": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass2-20261021-001835-coverage-batch3-command.json",
+          "sha256": "2dc62305243b2e5f370e9afdbd0ff481ec80d14389595a4e3d389ad5c443a6c9"
+        },
+        "requestedModel": "opus",
+        "actualModels": ["claude-opus-5-5"],
+        "durationMs": 17528,
+        "costUsd": 0.08193600000000001,
+        "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+        "reviewInputSha256": "4365c21c79eb7a0cdcebb65520f3f717344917c40fd6e6e6fad0e89a9514ee57",
+        "passageCount": 12,
+        "disagreementIds": [],
+        "objections": [
+          {
+            "id": "000021-211",
+            "objection": "'Tend to' could be read as a hedged tendency, but the passage gives no conditions or basis. It then states a uniform motive for 'friends', so the hedge does not bound the claim."
+          },
+          {
+            "id": "000021-202",
+            "objection": "The claim is quoted from a guide, but the writer adopts it ('That's why we should'), so it is not just reported. A reader could take 'instead of asking applicants' as quiet criticism, but the sentence reads as the writer's own recommendation."
+          },
+          {
+            "id": "000021-206",
+            "objection": "'Many' narrows the claim on the surface. Under the definition, though, 'many' does not repair an unsupported motive assigned to a broad group, and the second sentence drops the qualifier entirely."
+          },
+          {
+            "id": "000021-204",
+            "objection": "The claim is quoted from the leaflet, but the passage acts on it as guidance. Quotation alone does not exempt it."
+          },
+          {
+            "id": "000021-203",
+            "objection": "This could be read as a narrow storytelling rule of thumb. It still asserts a uniform desire across all readers and audiences with no basis, and the writer endorses it."
+          },
+          {
+            "id": "000021-201",
+            "objection": "The opinion is attributed to Mira, and individual opinions are preserved. But 'therefore' shows the writer adopting the sweeping claim and basing a decision on it."
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "kind": "final-blind-full-expanded-pool",
+        "input": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-input.json",
+          "sha256": "3319324866ee7e6fcbf797a6a48e23c57d64f6aaa2449247cffe96873f1c5a40"
+        },
+        "output": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-output.json",
+          "sha256": "dcf59f4a45fe99e323bdf5c7541e88158babd634b6423b9b1dbf613029e4e077"
+        },
+        "prompt": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-prompt.md",
+          "sha256": "9a25f77aacc4fb05f5da10fef9092ed600acc8fca4aa11d647ae290776a487a6"
+        },
+        "rawResponse": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-raw-response.json",
+          "sha256": "76cd1b4d202bc7bfa9cf16b4a0c37d1e1aff4869566eeef94b6addfdef7382c9"
+        },
+        "command": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch1-command.json",
+          "sha256": "db1abd28dd1a0b74212ff5789421c31c7799f8782c4631fbbc3a93163b3f5607"
+        },
+        "requestedModel": "opus",
+        "actualModels": ["claude-opus-5-5"],
+        "durationMs": 44760,
+        "costUsd": 0.1939266,
+        "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+        "reviewInputSha256": "fc31f2a25188c554e59ce8d93757f79ccea9ec66df6748e87ca19b4a1685bfec",
+        "passageCount": 100,
+        "disagreementIds": [],
+        "objections": [
+          {
+            "id": "000021-089",
+            "objection": "The quoted 'miracle of modern cooking' is an inflated product evaluation attributed to a review, not a sweeping human-group presumption; outside this type."
+          },
+          {
+            "id": "000021-072",
+            "objection": "'Many' could be read as a bounded tendency, but the definition says qualifiers such as many do not repair an unsupported presumption, and the second sentence attributes one uniform belief with no basis given."
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "kind": "final-blind-full-expanded-pool",
+        "input": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-input.json",
+          "sha256": "634f6cf452e0fe8d19bf2b28a41b46120508dafa6a199a5ea856637ea18acf01"
+        },
+        "output": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-output.json",
+          "sha256": "0ae9013a649d1755b457f87b22a78fd8ef3ba237e0c53f79e4b1b3a731a7204d"
+        },
+        "prompt": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-prompt.md",
+          "sha256": "aaba3fa5d9b3fa8f75b53e45f6ab99448d6f5150158c32390a10bd59793ca953"
+        },
+        "rawResponse": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-raw-response.json",
+          "sha256": "a005d000c4467a03aae752d23f7bd1394f8ed89441e76dcdab7a7c8ee189d86f"
+        },
+        "command": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch2-command.json",
+          "sha256": "66992ebd89d7e7fd84fb2be3ce5941ced7afe3182b6eb3e3415d1e153cf21dd5"
+        },
+        "requestedModel": "opus",
+        "actualModels": ["claude-opus-5-5"],
+        "durationMs": 35385,
+        "costUsd": 0.1687146,
+        "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+        "reviewInputSha256": "2dfe839abf8b40b699f804bdcc2764c739d3a704d96dbd6c75ca67b2b7b64248",
+        "passageCount": 100,
+        "disagreementIds": [],
+        "objections": [
+          {
+            "id": "000021-152",
+            "objection": "'Many' softens how far the claim reaches, but the definition says qualifiers like 'many' don't fix a sweeping presumption. The second sentence then attributes one unsupported motive to the whole group."
+          },
+          {
+            "id": "000021-168",
+            "objection": "'Most' limits the claim somewhat, but it states one motive for nearly a whole profession without support, then applies it to all of them ('won't persuade them')."
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "kind": "final-blind-full-expanded-pool",
+        "input": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-input.json",
+          "sha256": "88a01a8b7cd9322d52efdd5a00d756238e3baba1912d426dfa581b32191c81c5"
+        },
+        "output": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-output.json",
+          "sha256": "646a67a01b1a4e4dd5d7f571538e712d7cc964288f4b98f55ce2d7af12a19d47"
+        },
+        "prompt": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-prompt.md",
+          "sha256": "89a0d6dfde4740f9291a3f0972a0305bef97f8d3c676036ffa2451e3b84e784b"
+        },
+        "rawResponse": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-raw-response.json",
+          "sha256": "31603a460ee28288b5e1cc25598158049ae02fdf96672d331f3cf3601976ebde"
+        },
+        "command": {
+          "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-batch3-command.json",
+          "sha256": "2dc62305243b2e5f370e9afdbd0ff481ec80d14389595a4e3d389ad5c443a6c9"
+        },
+        "requestedModel": "opus",
+        "actualModels": ["claude-opus-5-5"],
+        "durationMs": 13116,
+        "costUsd": 0.054353,
+        "runnerSha256": "695aad6e5b26d19bffe0077da8d750355452d948fa7b122eaa7dfac714ddbb1b",
+        "reviewInputSha256": "4365c21c79eb7a0cdcebb65520f3f717344917c40fd6e6e6fad0e89a9514ee57",
+        "passageCount": 12,
+        "disagreementIds": [],
+        "objections": [
+          {
+            "id": "000021-211",
+            "objection": "\"Tend to\" could be read as a hedged tendency, but the passage gives no conditions or basis. It then states as fact what all friends are waiting for."
+          },
+          {
+            "id": "000021-202",
+            "objection": "One reading is that the passage only reports what the guide says. But the writer adopts the claim with \"That's why\" and acts on it, so the passage makes the claim itself."
+          },
+          {
+            "id": "000021-206",
+            "objection": "\"Many\" limits the claim a little, but the definition says qualifiers like \"many\" don't fix an unsupported motive assigned to a group."
+          },
+          {
+            "id": "000021-210",
+            "objection": "\"Tend to\" is hedged, but the passage assigns one motive to all employees and gives no conditions or evidence."
+          },
+          {
+            "id": "000021-204",
+            "objection": "The claim appears as a quote from the leaflet, but the passage adopts it as the reason for its instructions, so the quote doesn't exempt it."
+          },
+          {
+            "id": "000021-203",
+            "objection": "This could be read as a genre craft rule. But it states one desire and one reaction for all readers and audiences, with nothing to back it up."
+          },
+          {
+            "id": "000021-201",
+            "objection": "This could be read as Mira's personal opinion. But \"therefore\" adopts it as the basis for a decision, applying one motive to all buyers."
+          }
+        ]
+      }
+    ],
+    "samples": [
+      {
+        "id": "000021-205",
+        "domain": "technology",
+        "lengthBucket": "short",
+        "textSha256": "ed966614bcfcf1f5ba35f62e9f358f9314d037d54d3045e6c866fa38875b5704"
+      },
+      {
+        "id": "000021-206",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "textSha256": "bd0b1224d439db43a6939baf6abbc7d015ac62678147c035d1146ce14bc4b4d6"
+      },
+      {
+        "id": "000021-207",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "textSha256": "795155ea386fbe54f71ee39349de3d63936d9c59b89d464032077e3ae4d616a1"
+      },
+      {
+        "id": "000021-208",
+        "domain": "relationships",
+        "lengthBucket": "long",
+        "textSha256": "e330fa6358d87f11e8184a89e9ccdc88589fda6f2f555c38af215c1d5f2aa628"
+      },
+      {
+        "id": "000021-209",
+        "domain": "education",
+        "lengthBucket": "medium",
+        "textSha256": "eba28d87ef570ec119ef1888004528c06e6ef3346fc4afb6ea5db06abb868b1d"
+      },
+      {
+        "id": "000021-210",
+        "domain": "work",
+        "lengthBucket": "medium",
+        "textSha256": "76aa00334d85bd4db4e67debbae2d3823f4f6591143c97ad86ae84faa8638de7"
+      },
+      {
+        "id": "000021-211",
+        "domain": "relationships",
+        "lengthBucket": "long",
+        "textSha256": "d734a485fb71a7d172aabaa70fdd02f6c317bd58b2d83de6ccecbffa82dfb70c"
+      },
+      {
+        "id": "000021-212",
+        "domain": "technology",
+        "lengthBucket": "short",
+        "textSha256": "5dedf510c5d30952e899f81a83b00afaf8957ab8fc1f6defbd1fb46e1bf53eb1"
+      }
+    ],
+    "unresolved": {
+      "classification": 0,
+      "snippet": 0,
+      "materialRealism": 0
+    }
+  },
+  "allReviewTotals": {
+    "calls": 16,
+    "judgments": 1044,
+    "durationMs": 456979,
+    "costUsd": 2.1674246,
+    "actualModels": ["claude-opus-5-5"],
+    "disagreements": 0,
+    "objections": 57
+  },
+  "activeSelection": {
+    "status": "complete",
+    "counts": {
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100
+    },
+    "sourcePoolCounts": {
+      "passages": 212,
+      "hits": 108,
+      "noHits": 104
+    },
+    "archiveCommit": "1420a94e52fa48102b5e407d4fb201c673a649d1",
+    "mandatoryIds": [
+      "000021-001",
+      "000021-031",
+      "000021-033",
+      "000021-052",
+      "000021-056",
+      "000021-072",
+      "000021-077",
+      "000021-089",
+      "000021-137",
+      "000021-152",
+      "000021-159",
+      "000021-168",
+      "000021-188",
+      "000021-201",
+      "000021-202",
+      "000021-203",
+      "000021-204",
+      "000021-205",
+      "000021-206",
+      "000021-207",
+      "000021-208",
+      "000021-209",
+      "000021-210",
+      "000021-211",
+      "000021-212"
+    ],
+    "retainedIds": [
+      "000021-001",
+      "000021-002",
+      "000021-003",
+      "000021-004",
+      "000021-005",
+      "000021-006",
+      "000021-007",
+      "000021-008",
+      "000021-009",
+      "000021-010",
+      "000021-012",
+      "000021-013",
+      "000021-014",
+      "000021-015",
+      "000021-016",
+      "000021-017",
+      "000021-018",
+      "000021-019",
+      "000021-020",
+      "000021-021",
+      "000021-023",
+      "000021-024",
+      "000021-025",
+      "000021-026",
+      "000021-027",
+      "000021-028",
+      "000021-029",
+      "000021-030",
+      "000021-031",
+      "000021-032",
+      "000021-033",
+      "000021-034",
+      "000021-035",
+      "000021-036",
+      "000021-037",
+      "000021-038",
+      "000021-039",
+      "000021-040",
+      "000021-041",
+      "000021-042",
+      "000021-043",
+      "000021-044",
+      "000021-045",
+      "000021-046",
+      "000021-047",
+      "000021-048",
+      "000021-049",
+      "000021-050",
+      "000021-051",
+      "000021-052",
+      "000021-053",
+      "000021-054",
+      "000021-055",
+      "000021-056",
+      "000021-057",
+      "000021-058",
+      "000021-059",
+      "000021-060",
+      "000021-061",
+      "000021-062",
+      "000021-063",
+      "000021-064",
+      "000021-065",
+      "000021-066",
+      "000021-067",
+      "000021-069",
+      "000021-070",
+      "000021-071",
+      "000021-072",
+      "000021-073",
+      "000021-074",
+      "000021-075",
+      "000021-076",
+      "000021-077",
+      "000021-078",
+      "000021-079",
+      "000021-080",
+      "000021-081",
+      "000021-082",
+      "000021-083",
+      "000021-084",
+      "000021-085",
+      "000021-086",
+      "000021-087",
+      "000021-089",
+      "000021-090",
+      "000021-091",
+      "000021-092",
+      "000021-094",
+      "000021-095",
+      "000021-096",
+      "000021-097",
+      "000021-098",
+      "000021-099",
+      "000021-100",
+      "000021-101",
+      "000021-102",
+      "000021-103",
+      "000021-104",
+      "000021-105",
+      "000021-106",
+      "000021-107",
+      "000021-108",
+      "000021-109",
+      "000021-110",
+      "000021-111",
+      "000021-113",
+      "000021-115",
+      "000021-116",
+      "000021-117",
+      "000021-118",
+      "000021-119",
+      "000021-120",
+      "000021-121",
+      "000021-122",
+      "000021-123",
+      "000021-124",
+      "000021-125",
+      "000021-126",
+      "000021-128",
+      "000021-129",
+      "000021-130",
+      "000021-131",
+      "000021-132",
+      "000021-133",
+      "000021-134",
+      "000021-135",
+      "000021-136",
+      "000021-137",
+      "000021-138",
+      "000021-139",
+      "000021-141",
+      "000021-142",
+      "000021-143",
+      "000021-144",
+      "000021-145",
+      "000021-146",
+      "000021-147",
+      "000021-148",
+      "000021-149",
+      "000021-150",
+      "000021-151",
+      "000021-152",
+      "000021-154",
+      "000021-155",
+      "000021-156",
+      "000021-157",
+      "000021-159",
+      "000021-160",
+      "000021-161",
+      "000021-162",
+      "000021-163",
+      "000021-164",
+      "000021-165",
+      "000021-166",
+      "000021-167",
+      "000021-168",
+      "000021-169",
+      "000021-170",
+      "000021-171",
+      "000021-172",
+      "000021-173",
+      "000021-174",
+      "000021-175",
+      "000021-176",
+      "000021-177",
+      "000021-178",
+      "000021-179",
+      "000021-180",
+      "000021-181",
+      "000021-182",
+      "000021-183",
+      "000021-184",
+      "000021-185",
+      "000021-186",
+      "000021-187",
+      "000021-188",
+      "000021-190",
+      "000021-191",
+      "000021-192",
+      "000021-193",
+      "000021-194",
+      "000021-195",
+      "000021-196",
+      "000021-197",
+      "000021-198",
+      "000021-199",
+      "000021-200",
+      "000021-201",
+      "000021-202",
+      "000021-203",
+      "000021-204",
+      "000021-205",
+      "000021-206",
+      "000021-207",
+      "000021-208",
+      "000021-209",
+      "000021-210",
+      "000021-211",
+      "000021-212"
+    ],
+    "surplusIds": [
+      "000021-011",
+      "000021-022",
+      "000021-068",
+      "000021-088",
+      "000021-093",
+      "000021-112",
+      "000021-114",
+      "000021-127",
+      "000021-140",
+      "000021-153",
+      "000021-158",
+      "000021-189"
+    ],
+    "surplusPreservation": "Every removed passage and its original label were verified in the 204-passage archive. Every added coverage seed is retained.",
+    "hashInput": "JSON.stringify([family, type, split, stableExampleId])",
+    "hashAlgorithm": "SHA-256",
+    "bucketWeights": {
+      "short": 25,
+      "medium": 50,
+      "long": 25
+    },
+    "roundingTieBreak": ["short", "medium", "long"],
+    "allocation": [
+      {
+        "expected": true,
+        "mandatory": 20,
+        "mandatoryByBucket": {
+          "short": 3,
+          "medium": 11,
+          "long": 6
+        },
+        "additionalByBucket": {
+          "short": 20,
+          "medium": 40,
+          "long": 20
+        },
+        "rounds": [
+          {
+            "seats": 80,
+            "quotas": {
+              "short": 20,
+              "medium": 40,
+              "long": 20
+            },
+            "grants": {
+              "short": 20,
+              "medium": 40,
+              "long": 20
+            }
+          }
+        ]
+      },
+      {
+        "expected": false,
+        "mandatory": 5,
+        "mandatoryByBucket": {
+          "short": 1,
+          "medium": 3,
+          "long": 1
+        },
+        "additionalByBucket": {
+          "short": 24,
+          "medium": 47,
+          "long": 24
+        },
+        "rounds": [
+          {
+            "seats": 95,
+            "quotas": {
+              "short": 23.75,
+              "medium": 47.5,
+              "long": 23.75
+            },
+            "grants": {
+              "short": 24,
+              "medium": 47,
+              "long": 24
+            }
+          }
+        ]
+      }
+    ],
+    "annotationCorrections": [],
+    "proseRewrites": [],
+    "snippetUpdatesFromFinalReview": [
+      "000021-003",
+      "000021-005",
+      "000021-006",
+      "000021-016",
+      "000021-020",
+      "000021-021",
+      "000021-029",
+      "000021-038",
+      "000021-045",
+      "000021-057",
+      "000021-061",
+      "000021-062",
+      "000021-065",
+      "000021-072",
+      "000021-073",
+      "000021-077",
+      "000021-082",
+      "000021-104",
+      "000021-132",
+      "000021-168",
+      "000021-174",
+      "000021-195",
+      "000021-202",
+      "000021-204"
+    ],
+    "files": {
+      "markdown": {
+        "path": "datasets/ai-synthetic/passages/000021-puffery-and-overstatement-sweeping-generalization-development.md",
+        "sha256": "153fd5b8cdd84f02675016a6e407a1c1c1ce0837e2eabc24e9ba0ac15bc06856"
+      },
+      "labels": {
+        "path": "datasets/ai-synthetic/passages/000021-puffery-and-overstatement-sweeping-generalization-development.labels.json",
+        "sha256": "3a6f32bfcf0cc7099f76b29696f1dbab26a455ffaba589ddd8cfcb3a20378ac0"
+      }
+    },
+    "verification": {
+      "readDocument": "passed",
+      "schemaVersion": 2,
+      "ranges": true,
+      "checksum": true,
+      "exactSnippets": true,
+      "finalReviewProvenance": true,
+      "allSurplusArchived": true,
+      "allMandatoryCasesRetained": true,
+      "normalizedDuplicateCount": 0,
+      "sharedEightWordSequences": [],
+      "domainCounts": {
+        "arts": {
+          "hit": 10,
+          "noHit": 10
+        },
+        "civic": {
+          "hit": 10,
+          "noHit": 9
+        },
+        "travel": {
+          "hit": 9,
+          "noHit": 10
+        },
+        "sport": {
+          "hit": 9,
+          "noHit": 10
+        },
+        "relationships": {
+          "hit": 10,
+          "noHit": 11
+        },
+        "health": {
+          "hit": 11,
+          "noHit": 10
+        },
+        "technology": {
+          "hit": 11,
+          "noHit": 8
+        },
+        "work": {
+          "hit": 11,
+          "noHit": 11
+        },
+        "food": {
+          "hit": 10,
+          "noHit": 10
+        },
+        "education": {
+          "hit": 9,
+          "noHit": 11
+        }
+      },
+      "lengths": {
+        "hit": {
+          "short": 23,
+          "medium": 51,
+          "long": 26
+        },
+        "noHit": {
+          "short": 25,
+          "medium": 50,
+          "long": 25
+        }
+      },
+      "paragraphTextUnchanged": true,
+      "oneParagraphPerPhysicalLine": true
+    },
+    "formatting": {
+      "tool": "Prettier",
+      "proseWrap": "preserve",
+      "originalPoolDifference": "One extra terminal newline; no passage wording changed.",
+      "sequence": "Format Markdown, derive sample ranges and text checksum from formatted bytes, format structured JSON."
+    },
+    "snippetRefresh": {
+      "count": 24,
+      "ids": [
+        "000021-003",
+        "000021-005",
+        "000021-006",
+        "000021-016",
+        "000021-020",
+        "000021-021",
+        "000021-029",
+        "000021-038",
+        "000021-045",
+        "000021-057",
+        "000021-061",
+        "000021-062",
+        "000021-065",
+        "000021-072",
+        "000021-073",
+        "000021-077",
+        "000021-082",
+        "000021-104",
+        "000021-132",
+        "000021-168",
+        "000021-174",
+        "000021-195",
+        "000021-202",
+        "000021-204"
+      ],
+      "reason": "Refresh highlight selections from the latest fresh Opus final-pass judgments.",
+      "retainedTextChanges": 0,
+      "expectedBooleanChanges": 0,
+      "checkNameChanges": 0,
+      "source": "finalReviewProvenance maps each current label to the latest full-pool final-pass response; coverageExpansion.calls records output and raw-response hashes.",
+      "sourceProvenanceVerified": true
+    }
+  },
+  "freeze": {
+    "status": "frozen-for-parent-qa",
+    "changesRequireCoordination": true,
+    "audit": {
+      "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-003127-freeze-audit.json",
+      "sha256": "599be4ed1fc8cc3728382377778e92e85b2e6b6b25674137eddfad19c4424ab2"
+    },
+    "reviewedPool": {
+      "path": "/tmp/000021-sweeping-generalization-development-pass3-20261021-001835-coverage-draft.json",
+      "sha256": "e81cb8c21e55c353595e1d8b58cf1bad46346e47697e2335712928b9ac691894",
+      "passages": 212,
+      "sourceArchiveCommit": "1420a94e52fa48102b5e407d4fb201c673a649d1",
+      "archivedPassages": 204,
+      "retainedNewSeedIds": [
+        "000021-205",
+        "000021-206",
+        "000021-207",
+        "000021-208",
+        "000021-209",
+        "000021-210",
+        "000021-211",
+        "000021-212"
+      ],
+      "allNewSeedsRetained": true,
+      "allRemovedCasesArchived": true
+    },
+    "conservation": {
+      "retainedArchivedPassages": 192,
+      "retainedTextChanges": 0,
+      "retainedExpectedBooleanChanges": 0,
+      "retainedCheckNameChanges": 0,
+      "refreshedSnippetArrays": 24,
+      "newSeedsRetained": 8,
+      "removedArchivedPassages": 12
+    },
+    "reviewProvenance": {
+      "newSeedPassesVerified": 3,
+      "callsVerified": 16,
+      "callArtifactsVerified": 80,
+      "latestFinalResponseProvenanceVerified": true
+    }
+  },
+  "independentQa": {
+    "status": "passed",
+    "recordedAt": "2026-10-20T23:40:32Z",
+    "reviewer": "Codex independent reviewer; review performed without delegation.",
+    "scope": "Development-only final subset, eight new coverage seeds, and 24 refreshed snippet arrays; original 204-passage content review completed earlier in the same independent context.",
+    "verifiedInputHashes": {
+      "markdownSha256": "153fd5b8cdd84f02675016a6e407a1c1c1ce0837e2eabc24e9ba0ac15bc06856",
+      "labelsSha256": "3a6f32bfcf0cc7099f76b29696f1dbab26a455ffaba589ddd8cfcb3a20378ac0",
+      "reviewBeforeIndependentQaSha256": "9bab36cffce8e218ac08408d051c38b3141ebb1c9aae6d3de650be2f190d55b6"
+    },
+    "counts": {
+      "activePassages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "retainedArchivedPassages": 192,
+      "newSeeds": 8,
+      "removedArchivedPassages": 12
+    },
+    "conservation": {
+      "sourceArchiveCommit": "1420a94e52fa48102b5e407d4fb201c673a649d1",
+      "retainedTextChanges": 0,
+      "retainedExpectedBooleanChanges": 0,
+      "retainedCheckNameChanges": 0,
+      "refreshedSnippetArrays": 24,
+      "removedCasesVerifiedInArchive": 12
+    },
+    "selection": {
+      "independentlyReproduced": true,
+      "sourcePoolPassages": 212,
+      "mandatoryIdsRetained": 25,
+      "method": "Recomputed remaining-seat allocations from the recorded bucket weights and largest-remainder tie order, then selected ascending SHA-256 of JSON.stringify([family, type, split, stableExampleId]) within each bucket. The resulting IDs equal the frozen active selection."
+    },
+    "newSeedJudgments": [
+      {
+        "id": "000021-205",
+        "expected": true,
+        "reason": "Most asserts a shared interpretation of reminders across app users without a supporting account."
+      },
+      {
+        "id": "000021-206",
+        "expected": true,
+        "reason": "Many introduces an unsupported school-choice motive, and the second sentence extends that motive through a categorical group claim."
+      },
+      {
+        "id": "000021-207",
+        "expected": false,
+        "reason": "The inaccessible folder supplies a concrete condition explaining why staff miss the notes."
+      },
+      {
+        "id": "000021-208",
+        "expected": false,
+        "reason": "The passage reports identified friends' reactions to one missed collection and explains the crossed messages."
+      },
+      {
+        "id": "000021-209",
+        "expected": false,
+        "reason": "Lingering and discussion are observations of parents at one open day, scoped to the described encounter."
+      },
+      {
+        "id": "000021-210",
+        "expected": true,
+        "reason": "Tend to qualifies an unsupported motive attributed to employees generally; the shared-folder conclusion relies on that motive."
+      },
+      {
+        "id": "000021-211",
+        "expected": true,
+        "reason": "The passage attributes a shared measure of friendship and desire for reassurance to a broad population without supporting conditions or observations."
+      },
+      {
+        "id": "000021-212",
+        "expected": false,
+        "reason": "The feedback is bounded to designers at the table and states their observed response."
+      }
+    ],
+    "snippetReview": {
+      "refreshedArraysVerified": 24,
+      "activeSnippetsVerified": 135,
+      "source": "Every active label and snippet array matches its latest full-expanded-pool final-pass output and raw Claude response, linked through finalReviewProvenance and coverageExpansion.calls.",
+      "case204Assessment": "Valid narrower highlight. The snippet identifies the sweeping quoted claim; the following instruction to withhold statistics establishes adoption in the complete passage. The adoption sentence supplies stance context for judging the marked claim.",
+      "snippetChangesProposed": 0
+    },
+    "reviewArtifactVerification": {
+      "calls": 16,
+      "hashedArtifacts": 80,
+      "distinctProviderSessionIds": 16,
+      "judgments": 1044,
+      "newSeedPassesPerCase": 3,
+      "adjudicatedCaseIdsChecked": 20,
+      "checks": "Verified input, output, prompt, raw-response, and command hashes; label-free shuffled targets; frozen definition; parsed judgments against raw response fields; model, timing, and cost records; and active final-snippet provenance."
+    },
+    "mechanicalVerification": {
+      "readDocument": "passed",
+      "normalizedDuplicates": 0,
+      "sharedEightWordSequences": 0,
+      "exactSnippetOccurrences": "passed"
+    },
+    "unresolvedMaterialFindings": [],
+    "providerCallsMade": 0,
+    "protectedMaterialReads": 0,
+    "datasetEdits": 0,
+    "nextGate": "Forward the unchanged Markdown and labels freeze hashes to the separately assigned protected cross-split auditor."
+  }
 }

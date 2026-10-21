@@ -75,6 +75,17 @@ The regenerated metaphor collections use realistic prose across practical advice
 
 The [full reviewed collections at `06de2625`](https://github.com/berelevant-ai/slopless/tree/06de26256011e1d1689dd84b18e2ca20b49c371f/datasets/ai-synthetic/passages) archive all 182 surplus passages with their labels. Holdout material keeps its protected split. Changed review records describe the active subset under `activeSelection` and distinguish it from their historical full-collection counts.
 
+## Puffery And Overstatement Sets
+
+Four collections contain 800 reviewed passages. Each type has exactly 100 hits and 100 no-hits in development and an independently authored holdout.
+
+- Inflated evaluation: [development](ai-synthetic/passages/000019-puffery-and-overstatement-inflated-evaluation-development.md) and [holdout](ai-synthetic/passages/000020-puffery-and-overstatement-inflated-evaluation-holdout.md).
+- Sweeping generalization: [development](ai-synthetic/passages/000021-puffery-and-overstatement-sweeping-generalization-development.md) and [holdout](ai-synthetic/passages/000022-puffery-and-overstatement-sweeping-generalization-holdout.md).
+
+Each passage has blind, adversarial, and final Opus review coverage plus independent adjudication. The [development report](../runners/results/puffery-and-overstatement-v10-development-tuning.md) records corrections, balancing, archived surplus, prompt trials, and remaining errors. Holdout inference remains pending.
+
+The global identity audit renamed thirty legacy IDs in the metaphor development collection. Its review record preserves the mapping; writing and judgments remain unchanged. Historical v2/v3 predictions retain their original hashes and use the pre-repair inputs at Git revision `37cc0689` for replay.
+
 ## Commands
 
 ```sh

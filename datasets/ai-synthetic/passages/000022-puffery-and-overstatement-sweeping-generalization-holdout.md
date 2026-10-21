@@ -12,10 +12,6 @@ Tomato growers working with shallow containers often water more frequently in ho
 
 The consultation received forty written responses, most about parking. All twelve respondents living on Birch Road opposed the proposed loading bay. Their letters cited the same access problem: the plan placed the bay across the entrance to their shared garage. The revised drawing moves it ten metres east and keeps that entrance clear.
 
-## 000022-004
-
-Employees everywhere would trade a pay rise for a more impressive job title.
-
 ## 000022-005
 
 Anyone who grows tomatoes knows the urge to lecture supermarket shoppers. Gardeners cannot resist turning a handful of vegetables into proof that they live more honestly.
@@ -32,10 +28,6 @@ The wedding list included a kettle, six bowls and a contribution toward the hone
 
 The petition has 2,400 signatures. Its organisers have asked the council to retain Saturday opening at both branch libraries and publish the projected staffing costs.
 
-## 000022-009
-
-Who would like a table to themselves at lunch? We can reserve the smaller room for anyone who wants a quiet break between workshop sessions.
-
 ## 000022-010
 
 We all want the council to cut spending until it touches something we use. Public spirit disappears the moment a saving becomes personally inconvenient.
@@ -47,14 +39,6 @@ The Bristol applicants interviewed for the report described several priorities. 
 ## 000022-012
 
 The update adds three privacy switches. All switches default to off, and the release notes describe which data each one allows the application to retain.
-
-## 000022-013
-
-People who order steak well done are afraid of unfamiliar experiences.
-
-## 000022-014
-
-At mile eighteen, Marta slowed to a walk and checked her watch. She had promised her coach she would stop running if the ache returned. Around her, runners continued toward the next water station, some talking and some silent. She sent a message to her sister asking to be collected at the bridge.
 
 ## 000022-015
 
@@ -80,18 +64,6 @@ Our street has 28 houses. The couples without children are jealous of the noise 
 
 Who can honestly resist an easy profit? Offer any sensible person a shortcut to wealth and their principles become negotiable before lunch.
 
-## 000022-021
-
-The bakery opened in 1987. Six customers asked why the seed cake had disappeared, so the owner has restored it to the Saturday baking list.
-
-## 000022-022
-
-Developers installing the library behind a corporate proxy may need the longer setup instructions. Those instructions cover certificates that the ordinary installer cannot obtain automatically.
-
-## 000022-023
-
-A volunteer put fresh batteries into the microphone while the hall filled. In the project's end-of-year survey, every volunteer selected at least one reason for joining. Meeting neighbours was the most common choice, followed by learning a skill. The coordinator has used those responses to plan a shared lunch and a first-aid session.
-
 ## 000022-024
 
 The fund returned 8 percent last year. All figures on the statement include reinvested dividends and exclude the individual tax charges an investor may owe.
@@ -108,10 +80,6 @@ The guide asked us to leave our shoes outside before entering the house. A coupl
 
 Who doesn't feel a little superior carrying a hardback? Readers everywhere know the pleasure of being seen with a book that looks difficult.
 
-## 000022-028
-
-The menu lists six vegetarian mains. Diners who avoid meat always want moral recognition along with dinner, so the wording should make them feel virtuous.
-
 ## 000022-029
 
 Do all your book club members prefer novels to short stories?
@@ -124,17 +92,9 @@ People in debt dislike budgets because a budget takes away the pleasure of prete
 
 The rail pass covers 12 routes. Backpackers never plan properly; they prefer the romance of being stranded to the quiet work of checking a timetable.
 
-## 000022-032
-
-The update adds three privacy switches. Users will ignore them, of course; people would rather surrender their data than spend a minute understanding a setting.
-
 ## 000022-033
 
 I enjoy exercise more when I leave my watch at home.
-
-## 000022-034
-
-Who hasn't exaggerated a symptom to get attention? Being ill brings out the child in all of us, however competent we appear in everyday life.
 
 ## 000022-035
 
@@ -143,10 +103,6 @@ City dwellers secretly regard everyone beyond the ring road as backward.
 ## 000022-036
 
 At the induction, Sam handed out notebooks and asked us to write down a professional goal. All twelve new starters wrote down the same certification. They had been hired for a regulated role in which passing that exam was required before they could work unsupervised, so he moved the training session forward by a week.
-
-## 000022-037
-
-We all know what happens when you give children a choice: they take the easiest option. A demanding curriculum has to be imposed for their own good.
 
 ## 000022-038
 
@@ -171,10 +127,6 @@ Who on the review panel would prefer written feedback? Please send Leila your ch
 ## 000022-043
 
 Patients always prefer a confident answer to an honest admission of uncertainty.
-
-## 000022-044
-
-Fathers of daughters instinctively distrust every young man at the door. Whatever they say about independence, they all want the last word on whom she loves.
 
 ## 000022-045
 
@@ -204,10 +156,6 @@ Commuters regard every other passenger as an obstacle to their own importance.
 
 Who would like to carry the hardbacks back to the library? There are twelve boxes, and the trolley can only take six at a time.
 
-## 000022-052
-
-Every teacher longs for a classroom where nobody questions their authority.
-
 ## 000022-053
 
 Every runner is secretly terrified of being overtaken by someone older.
@@ -215,10 +163,6 @@ Every runner is secretly terrified of being overtaken by someone older.
 ## 000022-054
 
 The leaflet offers three ways to book a vaccination appointment, including a number for people who prefer to speak to someone. Older patients always need that conversation. They associate a person's voice with competence and see a booking screen as a sign that nobody cares. You cannot reassure that generation by sending them a link.
-
-## 000022-055
-
-Do parents hear this report as criticism, or as an offer of help?
 
 ## 000022-056
 
@@ -255,10 +199,6 @@ Our street has 28 houses. Four households signed the noise complaint, including 
 ## 000022-064
 
 The town has elected three independent councillors since 2010. I voted for one of them after she helped us get the footpath reopened. At the next election I will look at her record on housing too. My neighbour disagrees with her about the bypass and has already put another candidate's sign in his window.
-
-## 000022-065
-
-The clinic opens at 7 a.m. Patients collecting repeat prescriptions can use the side entrance, while those with an appointment should check in at reception.
 
 ## 000022-066
 
@@ -324,10 +264,6 @@ When the bonus arrived, Theo put half into savings and spent the rest on a watch
 
 Every applicant must submit a reference before the hiring panel meets.
 
-## 000022-082
-
-Fathers collecting children from this club must show the same collection card as other guardians. Staff compare the name with the authorised list at the desk.
-
 ## 000022-083
 
 The article profiles three people who retired before fifty. They live in different countries and spend very different amounts, but their motivation is universal. Everyone wants to stop working as soon as possible. Any person who claims to find meaning in a career is making peace with the fact that they cannot yet afford to leave.
@@ -335,10 +271,6 @@ The article profiles three people who retired before fifty. They live in differe
 ## 000022-084
 
 Nobody really enjoys exercise; we all do it to earn dinner.
-
-## 000022-085
-
-All four grandparents agreed to meet us outside the station.
 
 ## 000022-086
 
@@ -371,10 +303,6 @@ Who hasn't felt cheated by a holiday without sunshine? However much we praise th
 ## 000022-093
 
 Nina keeps a paper address book beside her laptop, an arrangement that tells you everything about older engineers. They can discuss the newest protocol over lunch, but underneath the technical vocabulary they all believe that anything made before the internet is more trustworthy. Nostalgia is their real operating system, however current the hardware.
-
-## 000022-094
-
-All council members must declare a financial interest before speaking on a planning application. The clerk records those declarations alongside the vote in the meeting minutes.
 
 ## 000022-095
 
@@ -416,10 +344,6 @@ The festival sold 9,000 tickets in a day. Its booking system allows each custome
 
 The bakery opened in 1987. Locals dislike new flavours because people from small towns regard a change in the cake counter as an attack on their identity.
 
-## 000022-105
-
-The clinic opens at 7 a.m. People in pain want a prescription, not a conversation; listening carefully only delays the answer they came to collect.
-
 ## 000022-106
 
 The new gym charges 42 pounds a month. Members will keep paying after they stop attending, because people care more about appearing disciplined than becoming fit.
@@ -428,10 +352,6 @@ The new gym charges 42 pounds a month. Members will keep paying after they stop 
 
 The new reading room seats 60. Students will treat it as another place to scroll, because young people have lost the patience required to sit with a book.
 
-## 000022-108
-
-The scholarship pays for accommodation as well as tuition. It should be announced prominently, since students from low-income families see education only in terms of immediate earnings. Talk of intellectual curiosity misses how these students think. Give them a clear salary figure and you have told them everything they need to feel interested in a course.
-
 ## 000022-109
 
 Every account in this savings product pays interest on the same date.
@@ -439,10 +359,6 @@ Every account in this savings product pays interest on the same date.
 ## 000022-110
 
 I bought the vinyl edition because the sleeve contains the lyrics.
-
-## 000022-111
-
-Teenagers regard any book assigned at school as an enemy.
 
 ## 000022-112
 
@@ -455,10 +371,6 @@ The invitation says lunch at one. Mothers never write a time without expecting t
 ## 000022-114
 
 My brother brought a frozen lasagne to the potluck and put it on a proper plate. He told everyone which shop it came from and asked whether we wanted him to save the packaging for the ingredients. I was pleased to have another hot dish; the pie I had made was still raw in the middle.
-
-## 000022-115
-
-The festival sold 9,000 tickets in a day. People go to these events to photograph themselves belonging, and the music is merely a convenient soundtrack.
 
 ## 000022-116
 
@@ -484,10 +396,6 @@ The village has 600 residents and one guesthouse. Travellers come here because t
 
 The wedding list included a kettle, six bowls and a contribution toward the honeymoon. Every guest who had asked me for advice chose the honeymoon fund after I explained that the couple already owned most kitchen equipment. I passed that information to the bridesmaid, who added a short explanation beside the contribution option on the website.
 
-## 000022-122
-
-In the diary study, all twelve participants described difficulty planning meals during night shifts. Their comments focused on closed shops and limited refrigeration at work.
-
 ## 000022-123
 
 I wanted the villain punished, so the ending left me cross. My sister liked the uncertainty and argued that the final scene made the whole film worth watching.
@@ -504,14 +412,6 @@ Every guest at our table asked for the lentil soup recipe.
 
 I checked my bank balance before agreeing to the trip. There was enough for the ticket, but I would have had to delay replacing the boiler.
 
-## 000022-127
-
-The town has elected three independent councillors since 2010. Rural voters vote with their memories, not their judgment. Tell them a candidate's grandfather repaired a bridge and they will overlook any present incompetence. Their attachment to familiar names explains every surprising result that political analysts try to dress up as a complex local story.
-
-## 000022-128
-
-Our new performance form has separate boxes for results and collaboration. It seems a sensible distinction until you remember how people behave at work. Give employees a metric and they will game it, every time. From nurses to software developers, the instinct to make the number look good always wins over doing the job well.
-
 ## 000022-129
 
 Young investors in the study ranked five possible reasons for buying shares. Among its 46 respondents, saving for a house was the most frequently selected first choice.
@@ -527,14 +427,6 @@ The pianist returned for a third encore after the hall had almost emptied. Those
 ## 000022-132
 
 Residents whose only bus is withdrawn may rely more heavily on neighbours for lifts. In these villages, the next nearest service is six miles away.
-
-## 000022-133
-
-The new train has quiet carriages and a family section. Travellers holding quiet-carriage reservations must keep calls to the vestibule and use headphones at a low volume. A conductor will ask a passenger who repeatedly ignores those conditions to move. The same rules apply whether the ticket was bought for a business trip or a holiday.
-
-## 000022-134
-
-Nurses understand suffering better than anyone, and they all carry the same quiet resentment toward patients who complain about minor discomfort. It is an occupational reflex.
 
 ## 000022-135
 
@@ -556,17 +448,9 @@ Does everyone want to invite a partner to the family lunch?
 
 The union announced a 6 percent settlement on Tuesday. Workers only join unions to get more money; talk of safety and solidarity is window dressing.
 
-## 000022-140
-
-All kitchen staff must label opened containers with the date.
-
 ## 000022-141
 
 Programmers instinctively distrust any tool they did not build themselves.
-
-## 000022-142
-
-Patients taking this medicine may experience dry mouth during the first week.
 
 ## 000022-143
 
@@ -575,10 +459,6 @@ Nurses on this ward check pain scores at every handover. If a patient reports wo
 ## 000022-144
 
 The scholarship pays for accommodation as well as tuition. In interviews with the eight recipients, all said that covering rent had made accepting the place possible. Several also discussed the modules they were looking forward to studying. The admissions team has put the accommodation allowance beside the tuition award so applicants can calculate both costs together.
-
-## 000022-145
-
-The supper club began with a bowl of olives and a long explanation of where the oil came from. Food enthusiasts do not buy ingredients; they buy opportunities to correct other people. That desire explains every question about provenance. The more obscure the farm, the greater the pleasure of knowing something the other guests have never heard.
 
 ## 000022-146
 
@@ -628,10 +508,6 @@ Every smartphone owner is really looking for another excuse to avoid conversatio
 
 University applicants in Bristol want the same thing as applicants everywhere: a degree that lets them avoid ordinary work. Their personal statements simply dress that desire differently.
 
-## 000022-158
-
-Who would prefer to cancel Sunday's visit? The weather forecast has changed, and I can move the booking if we decide before tomorrow morning.
-
 ## 000022-159
 
 Jo brought her son home for the weekend and cleared a space for his bag. He had a broken wrist and had asked her to help with the washing. After lunch, she labelled the medication boxes while he booked a taxi for Monday. They agreed he would stay until he could manage the stairs at his flat.
@@ -644,10 +520,6 @@ A parent may ask about phonics or class sizes, but the real concern is status. E
 
 The leaflet offers three ways to book a vaccination appointment, including a number for people who prefer to speak to someone. All callers interviewed in the accessibility study said they had used that number because the booking screen was incompatible with their screen reader. The clinic has assigned the interface problem to its software supplier.
 
-## 000022-162
-
-The village has 600 residents and one guesthouse. During the winter closure, visitors can collect keys from the shop if they have booked in advance.
-
 ## 000022-163
 
 The mayor spoke for eleven minutes. Politicians enjoy a crisis because it gives them an excuse to issue orders; the problem itself is secondary to the attention.
@@ -655,10 +527,6 @@ The mayor spoke for eleven minutes. Politicians enjoy a crisis because it gives 
 ## 000022-164
 
 Nobody in management ever admits enjoying the power that comes with redundancies.
-
-## 000022-165
-
-Nina keeps a paper address book beside her laptop. She told me she likes being able to read it during a power cut. Her colleagues use a mixture of phone contacts, a shared directory and handwritten lists. At the next backup session she plans to bring the book along and ask how to keep a second copy.
 
 ## 000022-166
 
@@ -700,17 +568,9 @@ At the open evening, a father asked how much homework the children would receive
 
 The Birmingham office has 140 desks and a new coffee bar. Like office workers everywhere, its staff regard working from home as permission to stop trying.
 
-## 000022-176
-
-Nobody saves money without secretly imagining the envy it will buy.
-
 ## 000022-177
 
 Who has had trouble describing a symptom over the phone? The patient group is collecting examples so the clinic can revise its triage questions.
-
-## 000022-178
-
-We served the pudding in small glass jars, with the cream in a separate jug. Everybody loves that kind of presentation now. Modern diners want the comfort of childhood with the appearance of sophistication, and a jar gives them both. Whether they order in London or a village pub, the emotional calculation is exactly the same.
 
 ## 000022-179
 
@@ -727,10 +587,6 @@ Would residents support keeping the library open later on Thursdays?
 ## 000022-182
 
 Who among us has ever welcomed honest feedback? We smile through the review and then spend the evening inventing reasons the reviewer was wrong.
-
-## 000022-183
-
-At the harbour, a sign directs cruise passengers toward the old market. The stalls now sell smaller jars that fit in cabin luggage. Every seller interviewed by the local paper said passengers had asked about the airline liquid limit. One stallholder showed the reporter the measuring jug she used when testing the new jar size.
 
 ## 000022-184
 
@@ -759,10 +615,6 @@ At the induction, Sam handed out notebooks and asked us to write down a professi
 ## 000022-190
 
 Every painting in the west gallery dates from before 1900.
-
-## 000022-191
-
-Teachers say they welcome questions. Yet anyone who has been to school knows they resent the pupil who thinks for herself; obedience is what they reward.
 
 ## 000022-192
 
@@ -900,14 +752,6 @@ Most developers in Tuesday's installation trial asked for a simpler error messag
 
 The catalogue describes how the portrait was found in a storeroom and restored over six years. Visitors who borrow the audio guide tend to pause here longer: the portrait's entry includes a two-minute restoration recording that plays automatically. The curator has moved the listening point away from the doorway to leave more room for people passing through.
 
-## 000022-226
-
-Savers using the annual statement tend to notice the fee later because it appears below the closing balance. The proposed layout moves it beside the interest calculation.
-
-## 000022-227
-
-Most voters warm to a candidate who seems slightly less informed than they are. It is reassuring to imagine that the person seeking power will need their common sense.
-
 ## 000022-228
 
 We tend to use Dad's old dining table for sewing because it opens out far enough to hold the fabric. The newer kitchen table is too narrow.
@@ -936,10 +780,6 @@ Developers tend to hoard technical knowledge for the pleasure of being indispens
 
 Many travellers choose a long train journey for the chance to feel unhurried and interesting. The timetable matters less than the pleasing picture they have of themselves beside the window.
 
-## 000022-235
-
-Most staff chose "resentful" on the anonymous survey about the cancelled bonus.
-
 ## 000022-236
 
 Many doughs rise faster in warm rooms because yeast activity increases with temperature.
@@ -959,4 +799,3 @@ Many travellers on the delayed train said they preferred rail to flying. In the 
 ## 000022-240
 
 The catalogue describes how the portrait was found in a storeroom and restored over six years. Gallery visitors tend to enjoy these accounts because they like imagining that they too could recognise a neglected masterpiece. The story lets them feel discerning without the discomfort of forming an opinion about the picture in front of them.
-
