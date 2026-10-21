@@ -4,7 +4,7 @@
   "family": "unsupported-authority",
   "type": "vague-attribution",
   "split": "development",
-  "status": "AWAITING-DIRAC-POST-CORRECTION-QA",
+  "status": "FROZEN-DEVELOPMENT-AWAITING-SUBSET-QA",
   "recordedAt": "2026-10-21T10:02:25.197Z",
   "definition": {
     "commit": "b5c1110c",
@@ -24,49 +24,49 @@
   "dataset": {
     "markdown": {
       "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000023-unsupported-authority-vague-attribution-development.md",
-      "sha256": "01ad50520c8bee0b8916e78b2b8c1166b27a444f6eba828fbaa87f7ca11a9c89"
+      "sha256": "71b75af6f9288eb1a52a05de78407f037ca2b9cd85a46d4745ef037ce8de916f"
     },
     "labels": {
       "path": "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000023-unsupported-authority-vague-attribution-development.labels.json",
-      "sha256": "62f3f2e87a03902390bdc33ba7e869ae007813d31302bbaf38ea456c8df2b864"
+      "sha256": "4f35eb550507a77b3719e1cfdc5998b7a86c9b167f6e46b87518d8abf6c958bf"
     },
-    "textSha256": "01ad50520c8bee0b8916e78b2b8c1166b27a444f6eba828fbaa87f7ca11a9c89",
-    "passages": 220,
+    "textSha256": "71b75af6f9288eb1a52a05de78407f037ca2b9cd85a46d4745ef037ce8de916f",
+    "passages": 200,
     "classCounts": {
-      "hit": 105,
-      "noHit": 115
+      "hit": 100,
+      "noHit": 100
     },
     "sourceWritingChangedAfterReview": false
   },
   "coverage": {
     "domainCounts": {
       "software": {
-        "hit": 11,
-        "noHit": 11
+        "hit": 10,
+        "noHit": 8
       },
       "education": {
         "hit": 10,
-        "noHit": 12
+        "noHit": 11
       },
       "health": {
         "hit": 11,
-        "noHit": 11
+        "noHit": 9
       },
       "planning": {
         "hit": 9,
         "noHit": 13
       },
       "food": {
-        "hit": 10,
+        "hit": 8,
         "noHit": 12
       },
       "arts": {
         "hit": 11,
-        "noHit": 11
+        "noHit": 10
       },
       "finance": {
-        "hit": 10,
-        "noHit": 12
+        "hit": 9,
+        "noHit": 10
       },
       "environment": {
         "hit": 11,
@@ -74,11 +74,11 @@
       },
       "work": {
         "hit": 11,
-        "noHit": 11
+        "noHit": 7
       },
       "home": {
-        "hit": 11,
-        "noHit": 11
+        "hit": 10,
+        "noHit": 9
       }
     },
     "lengthStrata": {
@@ -88,14 +88,14 @@
     },
     "lengthCoverage": {
       "hit": {
-        "short": 30,
+        "short": 27,
         "medium": 47,
-        "long": 28
+        "long": 26
       },
       "noHit": {
-        "short": 30,
-        "medium": 53,
-        "long": 32
+        "short": 23,
+        "medium": 51,
+        "long": 26
       }
     },
     "domainById": [
@@ -132,10 +132,6 @@
         "domain": "software"
       },
       {
-        "id": "000023-009",
-        "domain": "software"
-      },
-      {
         "id": "000023-010",
         "domain": "software"
       },
@@ -145,14 +141,6 @@
       },
       {
         "id": "000023-012",
-        "domain": "software"
-      },
-      {
-        "id": "000023-013",
-        "domain": "software"
-      },
-      {
-        "id": "000023-014",
         "domain": "software"
       },
       {
@@ -173,10 +161,6 @@
       },
       {
         "id": "000023-019",
-        "domain": "software"
-      },
-      {
-        "id": "000023-020",
         "domain": "software"
       },
       {
@@ -233,10 +217,6 @@
       },
       {
         "id": "000023-034",
-        "domain": "education"
-      },
-      {
-        "id": "000023-035",
         "domain": "education"
       },
       {
@@ -320,10 +300,6 @@
         "domain": "health"
       },
       {
-        "id": "000023-056",
-        "domain": "health"
-      },
-      {
         "id": "000023-057",
         "domain": "health"
       },
@@ -357,10 +333,6 @@
       },
       {
         "id": "000023-065",
-        "domain": "health"
-      },
-      {
-        "id": "000023-066",
         "domain": "health"
       },
       {
@@ -453,14 +425,6 @@
       },
       {
         "id": "000023-089",
-        "domain": "food"
-      },
-      {
-        "id": "000023-090",
-        "domain": "food"
-      },
-      {
-        "id": "000023-091",
         "domain": "food"
       },
       {
@@ -596,10 +560,6 @@
         "domain": "arts"
       },
       {
-        "id": "000023-125",
-        "domain": "arts"
-      },
-      {
         "id": "000023-126",
         "domain": "arts"
       },
@@ -668,19 +628,7 @@
         "domain": "finance"
       },
       {
-        "id": "000023-143",
-        "domain": "finance"
-      },
-      {
         "id": "000023-144",
-        "domain": "finance"
-      },
-      {
-        "id": "000023-145",
-        "domain": "finance"
-      },
-      {
-        "id": "000023-146",
         "domain": "finance"
       },
       {
@@ -856,14 +804,6 @@
         "domain": "work"
       },
       {
-        "id": "000023-190",
-        "domain": "work"
-      },
-      {
-        "id": "000023-191",
-        "domain": "work"
-      },
-      {
         "id": "000023-192",
         "domain": "work"
       },
@@ -882,18 +822,6 @@
       {
         "id": "000023-196",
         "domain": "work"
-      },
-      {
-        "id": "000023-197",
-        "domain": "work"
-      },
-      {
-        "id": "000023-198",
-        "domain": "work"
-      },
-      {
-        "id": "000023-199",
-        "domain": "home"
       },
       {
         "id": "000023-200",
@@ -965,14 +893,6 @@
       },
       {
         "id": "000023-217",
-        "domain": "home"
-      },
-      {
-        "id": "000023-218",
-        "domain": "home"
-      },
-      {
-        "id": "000023-219",
         "domain": "home"
       },
       {
@@ -2001,6 +1921,12 @@
       "blind": 5,
       "adversarial": 5,
       "final": 5
+    },
+    "scope": "Historical nine-call review of the full 220-passage pool. Every selected passage retains the same complete writing and three-pass coverage.",
+    "activeSubsetCoverage": {
+      "blind": 200,
+      "adversarial": 200,
+      "final": 200
     }
   },
   "adjudications": [
@@ -2337,8 +2263,6 @@
           "000023-002",
           "000023-007",
           "000023-008",
-          "000023-009",
-          "000023-014",
           "000023-016",
           "000023-025",
           "000023-028",
@@ -2347,7 +2271,6 @@
           "000023-032",
           "000023-033",
           "000023-034",
-          "000023-035",
           "000023-036",
           "000023-040",
           "000023-043",
@@ -2372,7 +2295,6 @@
           "000023-085",
           "000023-086",
           "000023-088",
-          "000023-090",
           "000023-092",
           "000023-093",
           "000023-094",
@@ -2383,7 +2305,6 @@
           "000023-122",
           "000023-123",
           "000023-124",
-          "000023-125",
           "000023-134",
           "000023-136",
           "000023-138",
@@ -2406,7 +2327,6 @@
           "000023-204",
           "000023-208",
           "000023-211",
-          "000023-219",
           "000023-220"
         ]
       },
@@ -2421,7 +2341,6 @@
           "000023-010",
           "000023-011",
           "000023-018",
-          "000023-020",
           "000023-021",
           "000023-022",
           "000023-024",
@@ -2438,7 +2357,6 @@
           "000023-057",
           "000023-062",
           "000023-065",
-          "000023-066",
           "000023-067",
           "000023-069",
           "000023-070",
@@ -2460,8 +2378,6 @@
           "000023-131",
           "000023-132",
           "000023-142",
-          "000023-143",
-          "000023-146",
           "000023-150",
           "000023-151",
           "000023-155",
@@ -2480,16 +2396,12 @@
           "000023-184",
           "000023-185",
           "000023-194",
-          "000023-197",
-          "000023-198",
-          "000023-199",
           "000023-202",
           "000023-209",
           "000023-210",
           "000023-214",
           "000023-215",
-          "000023-216",
-          "000023-218"
+          "000023-216"
         ]
       },
       {
@@ -2502,7 +2414,6 @@
           "000023-004",
           "000023-006",
           "000023-012",
-          "000023-013",
           "000023-015",
           "000023-017",
           "000023-019",
@@ -2512,7 +2423,6 @@
           "000023-047",
           "000023-052",
           "000023-055",
-          "000023-056",
           "000023-071",
           "000023-078",
           "000023-082",
@@ -2520,7 +2430,6 @@
           "000023-084",
           "000023-087",
           "000023-089",
-          "000023-091",
           "000023-095",
           "000023-096",
           "000023-098",
@@ -2541,7 +2450,6 @@
           "000023-135",
           "000023-137",
           "000023-144",
-          "000023-145",
           "000023-152",
           "000023-153",
           "000023-154",
@@ -2559,8 +2467,6 @@
           "000023-187",
           "000023-188",
           "000023-189",
-          "000023-190",
-          "000023-191",
           "000023-192",
           "000023-193",
           "000023-201",
@@ -2585,8 +2491,8 @@
     }
   },
   "selection": {
-    "state": "Full 220-passage pool retained. Original pool archived at 394792d8; corrections await Dirac post-correction QA and the next parent archive commit before selection authorization.",
-    "selected": false,
+    "state": "Exactly 100 hits and 100 no-hits selected after parent authorization; awaiting Dirac subset QA.",
+    "selected": true,
     "mandatoryIds": [
       "000023-025",
       "000023-026",
@@ -2607,23 +2513,379 @@
     "mandatoryCounts": {
       "hit": 8,
       "noHit": 7
-    }
+    },
+    "recordedAt": "2026-10-21T10:20:44.861Z",
+    "archiveCommit": "c7f068a2",
+    "preCorrectionArchiveCommit": "394792d8",
+    "authorization": "Parent authorized deterministic balanced selection in this task after verifying full-pool QA.",
+    "hashExpression": "SHA256(JSON.stringify([family,type,split,stableID]))",
+    "family": "unsupported-authority",
+    "type": "vague-attribution",
+    "split": "development",
+    "lengthWeights": {
+      "short": 25,
+      "medium": 50,
+      "long": 25
+    },
+    "rounding": "Largest remainder; equal remainders break in short, medium, long order. Cap exhausted buckets and redistribute unfilled slots among buckets with remaining candidates under the same weighted rule.",
+    "procedure": "Retain mandatory IDs first; allocate remaining slots separately for each class; choose nonmandatory rows in ascending hash order within length buckets, breaking hash ties by ID; serialize in original source order.",
+    "bucketAllocations": {
+      "hit": {
+        "short": {
+          "mandatory": 2,
+          "availableNonMandatory": 28,
+          "selectedNonMandatory": 25,
+          "selectedTotal": 27
+        },
+        "medium": {
+          "mandatory": 4,
+          "availableNonMandatory": 43,
+          "selectedNonMandatory": 43,
+          "selectedTotal": 47
+        },
+        "long": {
+          "mandatory": 2,
+          "availableNonMandatory": 26,
+          "selectedNonMandatory": 24,
+          "selectedTotal": 26
+        }
+      },
+      "noHit": {
+        "short": {
+          "mandatory": 0,
+          "availableNonMandatory": 30,
+          "selectedNonMandatory": 23,
+          "selectedTotal": 23
+        },
+        "medium": {
+          "mandatory": 4,
+          "availableNonMandatory": 49,
+          "selectedNonMandatory": 47,
+          "selectedTotal": 51
+        },
+        "long": {
+          "mandatory": 3,
+          "availableNonMandatory": 29,
+          "selectedNonMandatory": 23,
+          "selectedTotal": 26
+        }
+      }
+    },
+    "allocationRounds": {
+      "hit": {
+        "mandatoryCount": 8,
+        "remainingSlots": 92,
+        "rounds": [
+          {
+            "remaining": 92,
+            "eligible": ["short", "medium", "long"],
+            "quotas": {
+              "short": 23,
+              "medium": 46,
+              "long": 23
+            },
+            "apportioned": {
+              "short": 23,
+              "medium": 46,
+              "long": 23
+            },
+            "filled": {
+              "short": 23,
+              "medium": 43,
+              "long": 23
+            }
+          },
+          {
+            "remaining": 3,
+            "eligible": ["short", "long"],
+            "quotas": {
+              "short": 1.5,
+              "long": 1.5
+            },
+            "apportioned": {
+              "short": 2,
+              "long": 1
+            },
+            "filled": {
+              "short": 2,
+              "long": 1
+            }
+          }
+        ]
+      },
+      "noHit": {
+        "mandatoryCount": 7,
+        "remainingSlots": 93,
+        "rounds": [
+          {
+            "remaining": 93,
+            "eligible": ["short", "medium", "long"],
+            "quotas": {
+              "short": 23.25,
+              "medium": 46.5,
+              "long": 23.25
+            },
+            "apportioned": {
+              "short": 23,
+              "medium": 47,
+              "long": 23
+            },
+            "filled": {
+              "short": 23,
+              "medium": 47,
+              "long": 23
+            }
+          }
+        ]
+      }
+    },
+    "selectedIds": [
+      "000023-001",
+      "000023-002",
+      "000023-003",
+      "000023-004",
+      "000023-005",
+      "000023-006",
+      "000023-007",
+      "000023-008",
+      "000023-010",
+      "000023-011",
+      "000023-012",
+      "000023-015",
+      "000023-016",
+      "000023-017",
+      "000023-018",
+      "000023-019",
+      "000023-021",
+      "000023-022",
+      "000023-023",
+      "000023-024",
+      "000023-025",
+      "000023-026",
+      "000023-027",
+      "000023-028",
+      "000023-029",
+      "000023-030",
+      "000023-031",
+      "000023-032",
+      "000023-033",
+      "000023-034",
+      "000023-036",
+      "000023-037",
+      "000023-038",
+      "000023-039",
+      "000023-040",
+      "000023-041",
+      "000023-042",
+      "000023-043",
+      "000023-044",
+      "000023-045",
+      "000023-046",
+      "000023-047",
+      "000023-048",
+      "000023-049",
+      "000023-050",
+      "000023-051",
+      "000023-052",
+      "000023-053",
+      "000023-054",
+      "000023-055",
+      "000023-057",
+      "000023-058",
+      "000023-059",
+      "000023-060",
+      "000023-061",
+      "000023-062",
+      "000023-063",
+      "000023-064",
+      "000023-065",
+      "000023-067",
+      "000023-068",
+      "000023-069",
+      "000023-070",
+      "000023-071",
+      "000023-072",
+      "000023-073",
+      "000023-074",
+      "000023-075",
+      "000023-076",
+      "000023-077",
+      "000023-078",
+      "000023-079",
+      "000023-080",
+      "000023-081",
+      "000023-082",
+      "000023-083",
+      "000023-084",
+      "000023-085",
+      "000023-086",
+      "000023-087",
+      "000023-088",
+      "000023-089",
+      "000023-092",
+      "000023-093",
+      "000023-094",
+      "000023-095",
+      "000023-096",
+      "000023-097",
+      "000023-098",
+      "000023-099",
+      "000023-100",
+      "000023-101",
+      "000023-102",
+      "000023-103",
+      "000023-104",
+      "000023-105",
+      "000023-106",
+      "000023-107",
+      "000023-108",
+      "000023-109",
+      "000023-110",
+      "000023-111",
+      "000023-112",
+      "000023-113",
+      "000023-114",
+      "000023-115",
+      "000023-116",
+      "000023-117",
+      "000023-118",
+      "000023-119",
+      "000023-120",
+      "000023-121",
+      "000023-122",
+      "000023-123",
+      "000023-124",
+      "000023-126",
+      "000023-127",
+      "000023-128",
+      "000023-129",
+      "000023-130",
+      "000023-131",
+      "000023-132",
+      "000023-133",
+      "000023-134",
+      "000023-135",
+      "000023-136",
+      "000023-137",
+      "000023-138",
+      "000023-139",
+      "000023-140",
+      "000023-141",
+      "000023-142",
+      "000023-144",
+      "000023-147",
+      "000023-148",
+      "000023-149",
+      "000023-150",
+      "000023-151",
+      "000023-152",
+      "000023-153",
+      "000023-154",
+      "000023-155",
+      "000023-156",
+      "000023-157",
+      "000023-158",
+      "000023-159",
+      "000023-160",
+      "000023-161",
+      "000023-162",
+      "000023-163",
+      "000023-164",
+      "000023-165",
+      "000023-166",
+      "000023-167",
+      "000023-168",
+      "000023-169",
+      "000023-170",
+      "000023-171",
+      "000023-172",
+      "000023-173",
+      "000023-174",
+      "000023-175",
+      "000023-176",
+      "000023-177",
+      "000023-178",
+      "000023-179",
+      "000023-180",
+      "000023-181",
+      "000023-182",
+      "000023-183",
+      "000023-184",
+      "000023-185",
+      "000023-186",
+      "000023-187",
+      "000023-188",
+      "000023-189",
+      "000023-192",
+      "000023-193",
+      "000023-194",
+      "000023-195",
+      "000023-196",
+      "000023-200",
+      "000023-201",
+      "000023-202",
+      "000023-203",
+      "000023-204",
+      "000023-205",
+      "000023-206",
+      "000023-207",
+      "000023-208",
+      "000023-209",
+      "000023-210",
+      "000023-211",
+      "000023-212",
+      "000023-213",
+      "000023-214",
+      "000023-215",
+      "000023-216",
+      "000023-217",
+      "000023-220"
+    ],
+    "surplusIds": [
+      "000023-009",
+      "000023-013",
+      "000023-014",
+      "000023-020",
+      "000023-035",
+      "000023-056",
+      "000023-066",
+      "000023-090",
+      "000023-091",
+      "000023-125",
+      "000023-143",
+      "000023-145",
+      "000023-146",
+      "000023-190",
+      "000023-191",
+      "000023-197",
+      "000023-198",
+      "000023-199",
+      "000023-218",
+      "000023-219"
+    ],
+    "surplusCounts": {
+      "hit": 5,
+      "noHit": 15
+    },
+    "surplusStorage": "Complete corrected pool retained in Git archive c7f068a2. No surplus passage copy added to canonical files.",
+    "detectorScoresUsed": false,
+    "retainedTextLabelsSnippetsMatchArchive": true
   },
   "qualityAudit": {
     "scope": "Current development collection; protected cross-split and corpus audit remains with parent.",
     "surfaceCueCounts": {
       "hit": {
-        "authorityVocabulary": 78,
-        "numericalContent": 46,
-        "namedEntities": 26,
-        "relativeClauses": 50,
+        "authorityVocabulary": 74,
+        "numericalContent": 44,
+        "namedEntities": 25,
+        "relativeClauses": 47,
         "hedges": 14
       },
       "noHit": {
-        "authorityVocabulary": 82,
-        "numericalContent": 55,
-        "namedEntities": 24,
-        "relativeClauses": 55,
+        "authorityVocabulary": 69,
+        "numericalContent": 48,
+        "namedEntities": 21,
+        "relativeClauses": 49,
         "hedges": 2
       }
     },
@@ -2657,12 +2919,9 @@
         "000023-128",
         "000023-130",
         "000023-174",
-        "000023-196",
-        "000023-218"
+        "000023-196"
       ],
       "relevantExpertAdvice": [
-        "000023-013",
-        "000023-056",
         "000023-078",
         "000023-101",
         "000023-210",
@@ -2700,8 +2959,8 @@
   "verification": {
     "readDocument": {
       "status": "passed",
-      "passages": 220,
-      "labels": 220
+      "passages": 200,
+      "labels": 200
     },
     "finalWritingThreePassCoverage": "passed",
     "exactSnippets": "passed",
@@ -2712,9 +2971,8 @@
     "rawEnvelopePromptInputOutputHashes": "passed",
     "independentQA": {
       "reviewer": "Dirac",
-      "initialReview": "Read all 220 passages, all 15 adjudications, and all nine raw Opus calls; mechanics passed and five label errors identified.",
-      "status": "Awaiting Dirac post-correction QA.",
-      "correctionScope": "Five labels, their current adjudications and provenance, derived coverage counts, and coverage-map references. All 220 passage bodies and sample ranges are unchanged."
+      "status": "pending",
+      "scope": "Selected subset QA; passed full-pool review is preserved in fullPoolHistory.independentQa."
     },
     "prettier": {
       "status": "passed",
@@ -2734,11 +2992,23 @@
       "markdownUnchanged": true,
       "sampleRangesUnchanged": true,
       "allFiveMandatory": true,
-      "rawReviewArtifactsUnchanged": true
+      "rawReviewArtifactsUnchanged": true,
+      "scope": "Historical correction of five labels in the complete 220-passage pool before selection."
+    },
+    "balancedSelection": {
+      "status": "passed",
+      "passages": 200,
+      "hits": 100,
+      "noHits": 100,
+      "mandatoryRetained": 15,
+      "retainedTextLabelsSnippetsMatchArchive": true,
+      "originalSourceOrderPreserved": true,
+      "threePassCoverageForSelectedInputs": "passed",
+      "surplusPreservedAt": "c7f068a2"
     }
   },
   "unresolvedMaterialConcerns": [],
-  "nextOperation": "Dirac performs post-correction QA; parent preserves the corrected labels and provenance in the next commit before authorizing selection.",
+  "nextOperation": "Dirac verifies the selected subset against c7f068a2 and the deterministic selection policy. Parent receives hashes and QA before detector inference.",
   "postIndependentAdjudication": {
     "recordedAt": "2026-10-21T10:11:22.915Z",
     "reviewers": ["Dirac", "Parent"],
@@ -2793,6 +3063,152 @@
     "originalOpusJudgments": "All three Opus passes labeled each of these five passages true. Those raw judgments, prompts, artifact hashes, and prior adjudications remain preserved as review history.",
     "textChanged": false,
     "newModelReviewsRequired": false,
-    "verificationStatus": "Awaiting Dirac post-correction QA."
+    "verificationStatus": "Passed in the full-pool Dirac QA recorded at 2026-10-21T10:13:48Z; selected subset QA is pending."
+  },
+  "independentQa": {
+    "reviewer": "Dirac",
+    "status": "pending",
+    "scope": "Selected 200-passage development subset after deterministic mandatory-first selection.",
+    "fullPoolQaHistory": "fullPoolHistory.independentQa",
+    "checkedMarkdownSha256": "71b75af6f9288eb1a52a05de78407f037ca2b9cd85a46d4745ef037ce8de916f",
+    "checkedLabelsSha256": "4f35eb550507a77b3719e1cfdc5998b7a86c9b167f6e46b87518d8abf6c958bf"
+  },
+  "fullPoolHistory": {
+    "archiveCommit": "c7f068a2",
+    "preCorrectionArchiveCommit": "394792d8",
+    "reviewRecordBeforeSelectionSha256": "384495b4fec32469a7bcbd18248c78c007d4bd11dec050eb749f7545cc741746",
+    "archiveFiles": {
+      "markdown": {
+        "path": "datasets/ai-synthetic/passages/000023-unsupported-authority-vague-attribution-development.md",
+        "sha256": "01ad50520c8bee0b8916e78b2b8c1166b27a444f6eba828fbaa87f7ca11a9c89"
+      },
+      "labels": {
+        "path": "datasets/ai-synthetic/passages/000023-unsupported-authority-vague-attribution-development.labels.json",
+        "sha256": "62f3f2e87a03902390bdc33ba7e869ae007813d31302bbaf38ea456c8df2b864"
+      },
+      "reviewRecord": {
+        "path": "runners/results/vague-attribution-development-opus-review.json",
+        "sha256": "e01233787df3367b39f7f9f971887647bd86f0b038b6ef75fde1f6606ca44002"
+      }
+    },
+    "passages": 220,
+    "classCounts": {
+      "hit": 105,
+      "noHit": 115
+    },
+    "mandatoryCounts": {
+      "hit": 8,
+      "noHit": 7
+    },
+    "domainCounts": {
+      "software": {
+        "hit": 11,
+        "noHit": 11
+      },
+      "education": {
+        "hit": 10,
+        "noHit": 12
+      },
+      "health": {
+        "hit": 11,
+        "noHit": 11
+      },
+      "planning": {
+        "hit": 9,
+        "noHit": 13
+      },
+      "food": {
+        "hit": 10,
+        "noHit": 12
+      },
+      "arts": {
+        "hit": 11,
+        "noHit": 11
+      },
+      "finance": {
+        "hit": 10,
+        "noHit": 12
+      },
+      "environment": {
+        "hit": 11,
+        "noHit": 11
+      },
+      "work": {
+        "hit": 11,
+        "noHit": 11
+      },
+      "home": {
+        "hit": 11,
+        "noHit": 11
+      }
+    },
+    "lengthCoverage": {
+      "hit": {
+        "short": 30,
+        "medium": 47,
+        "long": 28
+      },
+      "noHit": {
+        "short": 30,
+        "medium": 53,
+        "long": 32
+      }
+    },
+    "independentQa": {
+      "reviewer": "Dirac",
+      "recordedAt": "2026-10-21T10:13:48Z",
+      "status": "passed",
+      "scope": "Complete 000023 development pool and post-independent-adjudication corrections; selection remains with the parent.",
+      "checkedMarkdownSha256": "01ad50520c8bee0b8916e78b2b8c1166b27a444f6eba828fbaa87f7ca11a9c89",
+      "checkedLabelsSha256": "62f3f2e87a03902390bdc33ba7e869ae007813d31302bbaf38ea456c8df2b864",
+      "reviewRecordSha256BeforeAppend": "e01233787df3367b39f7f9f971887647bd86f0b038b6ef75fde1f6606ca44002",
+      "passagesReviewed": 220,
+      "classCounts": {
+        "hit": 105,
+        "noHit": 115
+      },
+      "mandatoryCasesReviewed": 15,
+      "mandatoryCounts": {
+        "hit": 8,
+        "noHit": 7
+      },
+      "semanticDecision": "The five documented third-party rationales are no-hits under the unchanged frozen documentation exception. All other labels retain the reviewed judgments.",
+      "verification": [
+        "Compared all labels and sample ranges with archive 394792d8; only the five authorized labels changed, and each now omits snippets.",
+        "Confirmed all mandatory IDs, superseded adjudications, original review objections, and all nine original input, request, output, and raw artifact hashes are preserved.",
+        "Recomputed current class, domain, and length counts; checked the corrected coverage-map references.",
+        "The complete writing previously passed independent semantic review and mechanical replay of all three Opus passes, prompt envelopes, models, sessions, helper hashes, and exact final snippet provenance."
+      ],
+      "unresolvedMaterialConcerns": []
+    }
+  },
+  "independentSubsetQa": {
+    "reviewer": "Dirac",
+    "recordedAt": "2026-10-21T10:28:39Z",
+    "status": "passed",
+    "scope": "Selected 000023 development subset compared with corrected full-pool archive c7f068a2.",
+    "checkedMarkdownSha256": "71b75af6f9288eb1a52a05de78407f037ca2b9cd85a46d4745ef037ce8de916f",
+    "checkedLabelsSha256": "4f35eb550507a77b3719e1cfdc5998b7a86c9b167f6e46b87518d8abf6c958bf",
+    "reviewRecordSha256BeforeAppend": "da4cfe6449eab6aba3bf5adf60116e9675d52b17e066d62f7c28560b707e58ec",
+    "archiveCommit": "c7f068a2",
+    "passages": 200,
+    "classCounts": {
+      "hit": 100,
+      "noHit": 100
+    },
+    "mandatoryRetained": 15,
+    "mandatoryCounts": {
+      "hit": 8,
+      "noHit": 7
+    },
+    "verification": [
+      "Independently reproduced mandatory-first selection, 25/50/25 length weights, largest-remainder rounding, exhausted-bucket redistribution, short/medium/long remainder ties, and SHA256(JSON.stringify([family,type,split,stableID])) ranking with ID tie-breaking.",
+      "Every selected ID, allocation round, bucket count, surplus ID, and source-order position matches the independent replay.",
+      "All 200 retained passage bodies, labels, and snippet arrays match the corrected archive exactly; Markdown reconstruction and current sample-range validation pass.",
+      "All 15 mandatory cases remain. The 20 surplus cases remain archived with five hit and fifteen no-hit judgments.",
+      "Recomputed current class, domain, and length counts and checked filtered coverage references. All 200 current inputs retain complete blind, adversarial, and final review coverage.",
+      "Original review-call records and their input, request, output, and raw hashes are preserved; archived adjudication decisions and full-pool QA history remain available."
+    ],
+    "unresolvedMaterialConcerns": []
   }
 }

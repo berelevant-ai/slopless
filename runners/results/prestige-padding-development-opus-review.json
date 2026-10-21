@@ -4,7 +4,7 @@
   "family": "unsupported-authority",
   "type": "prestige-padding",
   "split": "development",
-  "status": "ARCHIVE-READY",
+  "status": "READY-FOR-POST-CORRECTION-QA",
   "recordedAt": "2026-10-21T10:10:09.946Z",
   "frozenDefinition": {
     "commit": "b5c1110c",
@@ -14,8 +14,8 @@
   },
   "counts": {
     "passages": 260,
-    "hit": 130,
-    "noHit": 130,
+    "hit": 121,
+    "noHit": 139,
     "initialPool": 220,
     "additions": 40
   },
@@ -26,7 +26,7 @@
     },
     "labels": {
       "path": "datasets/ai-synthetic/passages/000025-unsupported-authority-prestige-padding-development.labels.json",
-      "sha256": "75e25f53dfbc9b109b465a61113347b94c112b4d0fa3cd7f0a9c55667c756a7e"
+      "sha256": "e9a5c1288eb954b17857c744b1467734c9fc7b05d3b46c39aadac641c6aa69f3"
     },
     "textSha256": "5521ea3a85f8481385f8bd6ee5c9a3f72c139782fcee86b38359a4d2e20f287d"
   },
@@ -39,7 +39,7 @@
       "path": "/tmp/000025-prestige-padding-development-20261021-105216-source.json",
       "sha256": "774ff92b97c587fc6c7de25bef975c526edd6d8b3f81244e749f21977293f135"
     },
-    "policy": "Independent realistic development writing. All 220 initial passages retained verbatim. Forty additions address lexical skew and extend restrained implicit appeals; author labels and snippets withheld from every review prompt."
+    "policy": "Independent realistic development writing. All 220 initial passages retained verbatim. Forty additions address lexical skew and extend restrained implicit appeals; author labels and snippets withheld from every review prompt. Source-row expected values retain the original author judgments; current canonical labels incorporate the separately recorded independent adjudication overrides."
   },
   "reviewProtocol": {
     "authenticatedCli": "claude --safe-mode --tools \"\" --model opus --effort high --print --no-session-persistence",
@@ -289,10 +289,33 @@
         "resolution": "The chess titles and honorary degree immediately precede the vibration-based preference and provide its only presented support. The frozen rule includes status lists used implicitly beyond their relevance. Retain the original writing."
       }
     ],
-    "unresolvedMaterialConcerns": []
+    "unresolvedMaterialConcerns": [],
+    "classificationComparisonScope": "The classificationDisagreements fields and per-call comparison counts describe original author labels versus raw Opus judgments at c7f068a2. Current canonical judgments follow the independent overrides recorded below.",
+    "adjudicationScope": "Historical pre-independent adjudications from the original 130-hit/130-no-hit pool. postIndependentAdjudication.overrides supersedes these decisions for its nine listed IDs.",
+    "currentCanonicalDisagreementsWithRawOpus": {
+      "passageIds": [
+        "000025-030",
+        "000025-051",
+        "000025-074",
+        "000025-077",
+        "000025-095",
+        "000025-139",
+        "000025-160",
+        "000025-183",
+        "000025-205"
+      ],
+      "distinctPassages": 9,
+      "judgments": 27,
+      "byRole": {
+        "blind": 9,
+        "adversarial": 9,
+        "final": 9
+      },
+      "resolution": "Nine explicit independent no-hit overrides approved by the parent; raw Opus hit judgments remain unchanged."
+    }
   },
   "finalJudgmentAndSnippetProvenance": {
-    "method": "Every canonical expected value and hit snippet is copied unchanged from its final-pass Opus judgment. Resolve each canonical label by id in judgments of the final artifact containing that id. Exact snippets validated against the current full passage.",
+    "method": "Canonical judgments follow the final-pass Opus outputs for 251 passages and the nine explicit no-hit overrides in postIndependentAdjudication for the remaining passages. Every remaining hit snippet is copied unchanged from final-pass Opus. Corrected no-hit labels omit snippets. Resolve raw judgments by id in the retained final artifacts.",
     "artifacts": [
       {
         "path": "/tmp/000025-prestige-padding-development-20261021-105216-final-v2-batch1-output.json",
@@ -306,6 +329,17 @@
         "path": "/tmp/000025-prestige-padding-development-20261021-105216-final-v2-batch3-output.json",
         "sha256": "ab95514c8ae698943a0c4a8fd605a5196dc657c10faba210dd5be8f1bfa2b019"
       }
+    ],
+    "overrideIds": [
+      "000025-030",
+      "000025-051",
+      "000025-074",
+      "000025-077",
+      "000025-095",
+      "000025-139",
+      "000025-160",
+      "000025-183",
+      "000025-205"
     ]
   },
   "mandatory": {
@@ -318,7 +352,10 @@
       "000025-077",
       "000025-095",
       "000025-135",
+      "000025-139",
       "000025-156",
+      "000025-160",
+      "000025-183",
       "000025-205",
       "000025-221",
       "000025-222",
@@ -362,14 +399,15 @@
       "000025-260"
     ],
     "counts": {
-      "hit": 30,
-      "noHit": 20
+      "hit": 24,
+      "noHit": 29
     },
     "frozenBeforeSelection": true,
     "reasons": [
       "All passages with a material boundary objection or classification disagreement remain mandatory after adjudication.",
       "Additions 000025-221 through 000025-240 preserve restrained implicit prestige-to-claim support across all ten domains.",
-      "Additions 000025-241 through 000025-260 preserve relevant technical advice and neutral reporting containing safety, security, reliability, and accuracy vocabulary."
+      "Additions 000025-241 through 000025-260 preserve relevant technical advice and neutral reporting containing safety, security, reliability, and accuracy vocabulary.",
+      "Preserve all 50 originally mandatory passages and add documentation-boundary corrections 000025-139, 000025-160, and 000025-183; all nine overridden passages are mandatory."
     ]
   },
   "coverage": {
@@ -380,58 +418,58 @@
         "noHit": 13
       },
       "software": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 12,
+        "noHit": 14
       },
       "finance": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 12,
+        "noHit": 14
       },
       "education": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 11,
+        "noHit": 15
       },
       "food": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 12,
+        "noHit": 14
       },
       "housing": {
         "hit": 13,
         "noHit": 13
       },
       "transport": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 12,
+        "noHit": 14
       },
       "environment": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 12,
+        "noHit": 14
       },
       "arts": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 12,
+        "noHit": 14
       },
       "workplace": {
-        "hit": 13,
-        "noHit": 13
+        "hit": 12,
+        "noHit": 14
       }
     },
     "lengthStrata": {
       "hit": {
         "short": 35,
-        "medium": 61,
-        "long": 34
+        "medium": 53,
+        "long": 33
       },
       "noHit": {
         "short": 35,
-        "medium": 60,
-        "long": 35
+        "medium": 68,
+        "long": 36
       }
     },
     "boundaryAudit": [
       "Implicit recommendations, adjacent claims, status lists, media attention, follower counts, famous associations, credentials, and experience occur among hits.",
       "Relevant advice, credential eligibility, first-hand bounded observations, biography, credits, recognition, reach, examined or rejected appeals, and limited fictional belief occur among controls.",
-      "Ordinary reported appeals remain hits when the status-based claim is operative. Prestige used as conclusive proof remains a hit even when expertise is relevant."
+      "The nine independent documentation-boundary corrections preserve a particular document's status inference as that document's reported position. Relevant prestige used by the writer as conclusive proof remains a hit under the unchanged definition."
     ],
     "shortcutAudit": {
       "cueCounts": {
@@ -440,40 +478,40 @@
           "noHit": 10
         },
         "numbers": {
-          "hit": 18,
-          "noHit": 22
+          "hit": 12,
+          "noHit": 28
         },
         "because": {
-          "hit": 7,
-          "noHit": 20
+          "hit": 1,
+          "noHit": 26
         },
         "therefore": {
           "hit": 1,
           "noHit": 1
         },
         "recommends": {
-          "hit": 20,
-          "noHit": 43
+          "hit": 19,
+          "noHit": 44
         },
         "awards": {
-          "hit": 21,
-          "noHit": 16
+          "hit": 19,
+          "noHit": 18
         },
         "experience": {
-          "hit": 22,
-          "noHit": 29
+          "hit": 21,
+          "noHit": 30
         },
         "reports": {
-          "hit": 13,
-          "noHit": 13
+          "hit": 5,
+          "noHit": 21
         },
         "safety": {
-          "hit": 25,
-          "noHit": 23
+          "hit": 22,
+          "noHit": 26
         }
       },
-      "action": "Added 20 restrained hits and 20 relevant-support controls after safety and reliability cues occurred in 25 initial hits versus three initial controls. Current counts are 25 hits and 23 controls.",
-      "proseReview": "Complete pool independently reviewed in adversarial and final roles; every raised boundary objection adjudicated. No passage prose was replaced."
+      "action": "Historical generation added 20 restrained hits and 20 relevant-support controls, giving safety/reliability counts of 25 hits and 23 controls under the original labels. Under the independently corrected labels, those unchanged texts contain the cues in 22 hits and 26 controls.",
+      "proseReview": "All unchanged passages retain three-role raw Opus coverage. Independent Dirac review and parent inspection supersede nine classifications as documented below; post-correction QA is pending."
     },
     "overlapAudit": {
       "scope": "Assigned development collection only. Cross-split audit belongs to the parent protected auditor.",
@@ -559,7 +597,8 @@
       "rawAudit": {
         "path": "/tmp/000025-prestige-padding-development-20261021-105216-pool-audit-v2.json",
         "sha256": "867b3018062e48de1c5ff8c81e2d52eaaf6a20ad555c916b87fc99de0feb0b62"
-      }
+      },
+      "rawAuditScope": "The retained raw audit uses original author labels. Its text-overlap findings still apply to the unchanged writing; current class-sensitive coverage and cue counts are recomputed above."
     }
   },
   "mechanicalVerification": {
@@ -575,13 +614,16 @@
     "rawEnvelopeInputPromptHelperHashes": "passed",
     "neutralReviewPayloads": "id and text only",
     "uniqueAuthenticatedSessions": true,
-    "allCurrentPassagesCoveredInAllThreeRoles": true
+    "allCurrentPassagesCoveredInAllThreeRoles": true,
+    "canonicalJudgmentProvenance": "251 final-pass Opus judgments plus nine parent-approved independent no-hit overrides; remaining hit snippets preserve final-pass Opus wording."
   },
   "archive": {
     "completePoolPreserved": true,
     "selectionPerformed": false,
     "commitPerformed": false,
-    "nextAction": "Parent commits the full reviewed pool before authorizing mandatory-first deterministic 100/100 selection."
+    "commitScope": "commitPerformed records this author task. The parent archived the original full pool in c7f068a2; corrected-pool archive authorization remains pending.",
+    "nextAction": "Dirac performs post-correction QA. Parent archives the corrected full pool and explicitly authorizes deterministic selection afterward.",
+    "originalPoolCommit": "c7f068a2"
   },
   "calls": [
     {
@@ -969,5 +1011,138 @@
       "objections": 1,
       "validation": "passed"
     }
-  ]
+  ],
+  "updatedAt": "2026-10-21T10:23:51.963Z",
+  "postIndependentAdjudication": {
+    "reviewer": "Dirac",
+    "parentApproval": "Parent inspected all nine complete passages and approved no-hit under the already frozen b5c1110c definition.",
+    "originalPoolArchiveCommit": "c7f068a2",
+    "originalCounts": {
+      "passages": 260,
+      "hit": 130,
+      "noHit": 130,
+      "initialPool": 220,
+      "additions": 40
+    },
+    "originalLabelsSha256": "75e25f53dfbc9b109b465a61113347b94c112b4d0fa3cd7f0a9c55667c756a7e",
+    "originalReviewRecordSha256": "58585d0e2e69b4d2c9c81ea1782b073f51ae7d747cd4bb36a8e547aa8a83d953",
+    "scope": "Label-only documentation-boundary corrections. Each passage attributes the status inference to a particular document. The relationship phrase in 077 and the office order in 205 leave that inference documented as the other source's position.",
+    "overrides": [
+      {
+        "id": "000025-030",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The passage documents the release note's fellowship-based compatibility rationale. The later migration time is scheduling context; the writer reports the rationale as the note's claim."
+      },
+      {
+        "id": "000025-051",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The passage describes the report's podcast-based risk-control assessment and its minimum-deposit entry. Both statements remain attributed to that report."
+      },
+      {
+        "id": "000025-074",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The tutoring app's effectiveness rationale is explicitly the report's description. The subscription details give product context without adopting that rationale."
+      },
+      {
+        "id": "000025-077",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The school newsletter is explicitly responsible for the trust inference. \"Our mathematics tutor\" identifies a relationship, and sending recommendations describes a future action; those facts leave the inference as the newsletter's documented position."
+      },
+      {
+        "id": "000025-095",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The guide's economics-chair safety inference is the reported position being described. The kit inventory adds ordinary product context."
+      },
+      {
+        "id": "000025-139",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The review is explicitly responsible for rating the ferry operator's safety by reference to an honorary doctorate. The ticket-sale date supplies event context."
+      },
+      {
+        "id": "000025-160",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The report is explicitly responsible for presenting the woodland scheme as carbon-neutral on the basis of the patron's architecture medal. The area and subscription date describe the scheme."
+      },
+      {
+        "id": "000025-183",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The newspaper's account of the archive's dating and conductor endorsement is explicitly documented. The exhibition date and lecture location give event context."
+      },
+      {
+        "id": "000025-205",
+        "previousExpected": true,
+        "expected": false,
+        "snippetsRemoved": true,
+        "decisionSource": "Independent Dirac review; parent inspected the complete passage and approved no-hit under b5c1110c.",
+        "resolution": "The bulletin is explicitly responsible for the ergonomics inference. The office order is a separately reported action; the passage leaves the status-based inference attributed to the bulletin."
+      }
+    ],
+    "textPreserved": true,
+    "rawOpusJudgmentsPreserved": true,
+    "currentCounts": {
+      "passages": 260,
+      "hit": 121,
+      "noHit": 139
+    },
+    "postCorrectionQA": {
+      "reviewer": "Dirac",
+      "status": "pending"
+    },
+    "selectionGate": "Dirac post-correction QA and parent corrected-pool archive authorization precede selection."
+  },
+  "independentQa": {
+    "reviewer": "Dirac",
+    "recordedAt": "2026-10-21T10:28:39Z",
+    "status": "passed",
+    "scope": "Complete corrected 000025 development pool; parent corrected-pool archive authorization precedes selection.",
+    "checkedMarkdownSha256": "5521ea3a85f8481385f8bd6ee5c9a3f72c139782fcee86b38359a4d2e20f287d",
+    "checkedLabelsSha256": "e9a5c1288eb954b17857c744b1467734c9fc7b05d3b46c39aadac641c6aa69f3",
+    "reviewRecordSha256BeforeAppend": "c37f9088bfc81d3890ee7efb1030f58fbee002633aedbe2f2374b29543ea4eb5",
+    "originalPoolArchiveCommit": "c7f068a2",
+    "passagesReviewed": 260,
+    "classCounts": {
+      "hit": 121,
+      "noHit": 139
+    },
+    "mandatoryCasesReviewed": 53,
+    "mandatoryCounts": {
+      "hit": 24,
+      "noHit": 29
+    },
+    "semanticDecision": "The nine explicitly documented third-party rationales are no-hits under the unchanged frozen documentation exception. The complete writing, remaining classifications, realism, diversity, and other adjudicated boundaries retain the independent full-pool review.",
+    "verification": [
+      "Compared all 260 passages, labels, and sample ranges with original pool archive c7f068a2. Exactly the nine authorized labels changed to false and omitted snippets; every other label and snippet array is unchanged.",
+      "All 50 originally mandatory cases remain, and 000025-139, 000025-160, and 000025-183 are added. Every overridden case is mandatory.",
+      "All eleven original review-call records, historical objections and adjudications, and source artifacts are preserved. Rechecked input, request, output, and raw artifact hashes.",
+      "The prior independent replay verified 780 raw Opus judgments, eleven distinct sessions, actual claude-opus-5-5 models, frozen definition, reconstructed prompts, envelopes, helper hashes, and exact final snippet provenance.",
+      "All unchanged current writing retains 260 judgments per review role. Current canonical labels differ from each role in exactly the nine documented overrides; every remaining hit snippet matches final-pass Opus.",
+      "Recomputed corrected class, domain, length, and mandatory counts; validated the paired dataset schema, checksums, ranges, and exact snippets."
+    ],
+    "selectionPerformed": false,
+    "unresolvedMaterialConcerns": []
+  }
 }
