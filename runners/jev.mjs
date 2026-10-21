@@ -4,9 +4,11 @@ import { createHash } from "node:crypto";
 import {
   existsSync,
   mkdirSync,
+  mkdtempSync,
   readdirSync,
   readFileSync,
   renameSync,
+  rmSync,
   writeFileSync
 } from "node:fs";
 import { basename, dirname, relative, resolve } from "node:path";
@@ -31,6 +33,27 @@ function validateMode(mode) {
     [defaultMode, "classification-only"].includes(mode),
     `Unknown execution mode: ${mode}`
   );
+}
+
+/** @param {string} file @param {unknown} value */
+export function writeAtomicJson(file, value) {
+  const serialized = JSON.stringify(value);
+  assert.equal(
+    typeof serialized,
+    "string",
+    "Result must be JSON serializable."
+  );
+  const bytes = serialized + "\n";
+  mkdirSync(dirname(file), { recursive: true });
+  // A private directory and exclusive creation avoid following stale temporary links.
+  const directory = mkdtempSync(resolve(dirname(file), ".atomic-json-"));
+  try {
+    const temporary = resolve(directory, "result.json");
+    writeFileSync(temporary, bytes, { flag: "wx", mode: 0o600 });
+    renameSync(temporary, file);
+  } finally {
+    rmSync(directory, { recursive: true, force: true });
+  }
 }
 
 /** Run before loading target text or initializing provider access. */
@@ -517,11 +540,7 @@ async function main() {
   );
   let result =
     file && existsSync(file) ? read(file) : { snapshot, batches: [] };
-  const save = () => {
-    mkdirSync(dirname(file), { recursive: true });
-    writeFileSync(`${file}.tmp`, JSON.stringify(result) + "\n");
-    renameSync(`${file}.tmp`, file);
-  };
+  const save = () => writeAtomicJson(file, result);
   const context = { snapshot, rows, prompts };
   if (command === "rescore") {
     result = rescoreResult(result, context);

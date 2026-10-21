@@ -19,6 +19,10 @@
   ],
   "contracts": [
     {
+      "behavior": "Atomic result replacement preserves input files behind conventional temporary symlinks, cleans private temporary directories on failure, and keeps cached inference unchanged",
+      "boundary": "writeAtomicJson and public CLI run/resume/rescore using synthetic inputs and a local SDK; private family-driver probes reject outputs outside canonical runners/results before target reads"
+    },
+    {
       "behavior": "Family selection and scoped no-hit scoring; label-free requests",
       "boundary": "loadDataset/buildRequest/score and CLI validate"
     },

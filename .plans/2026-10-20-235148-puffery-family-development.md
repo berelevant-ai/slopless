@@ -19,6 +19,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 - After committing a family, continue to the next without requesting feedback or ending the execution goal. Completing the first family is a checkpoint, rather than completion of this sequence.
 - Keep checks that fail the frozen performance target explicitly failed. Complete their bounded tuning and assessment, preserve the best candidate and remaining errors, then continue to the next family.
 - Finish after all three families have reviewed data, completed development trials, frozen candidates, one holdout assessment, and committed reports. Report all passed and failed targets together.
+- The active execution goal additionally requires every check to meet the development target. A failed bounded round remains unfinished work for this goal; preserve its results and resolve it through a separately recorded development round rather than relaxing labels, thresholds, or the completion claim.
 
 ## Previous Method And Lessons
 
@@ -128,6 +129,9 @@ Runner preparation is implemented and verified in `52f1e3f6`. Reuse it for all t
 - Existing Fixture3 contracts cover legacy defaults, classification-only completion/resumption, label-free requests, immutable inference validation, and split protection before credential or SDK access.
 - Temporary tuning orchestration uses the exported runner helpers and shared development-only preflight. Keep one family trial JSON with immutable prompt snapshots and responses; preserve the public runner's single-run result format for holdout checks.
 - Retain input, prompt, request, prediction, and score hash checks when adapting orchestration to each new family. Verify whole-text request capacity before the first text-level baseline; scope any demonstrated runner limitation through the repository's executable-spec and contract workflow.
+- Before authority inference, repair the reproduced result-write risks: the temporary driver permits output under datasets/prompts and follows an existing `<output>.tmp` symlink. The public runner shares the fixed temporary-name write pattern.
+  - Add a shared exclusive, uniquely named atomic JSON writer in `runners/jev.mjs`; use it in both result-save paths without changing requests or result schemas. Restrict the temporary driver's resolved output to JSON under `runners/results/` and reject symlink escapes before provider access.
+  - Extend synthetic boundary contracts for protected directories, symlinked temporary files, immutable inputs, successful saves, and cleanup. Review diffs and verify compatibility before using the repaired driver.
 
 ## Prompt Development
 

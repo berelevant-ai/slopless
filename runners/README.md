@@ -44,6 +44,7 @@ Use the same arguments with `run --output FILE` for inference or `rescore --outp
 Temporary tuning drivers import these public functions from `runners/jev.mjs`:
 
 - `preflightDataset(input, { developmentOnly = false } = {})` returns document paths. Call it with `developmentOnly: true` before `loadDataset`, credential access, or SDK initialization.
+- `writeAtomicJson(file, value)` serializes a result into an exclusively created file inside a private temporary directory, atomically replaces the destination, and cleans up temporary files on success or failure. Both the public runner and temporary tuning driver use it.
 - `loadDataset(input, family = "semantic-thinness")` returns sorted targets with resolved labels and sentence ranges. `loadPrompts(directory, selected)` selects one check or all prompt files.
 - `batchPlans(rows, checks, threshold, completed, mode = "detect-and-highlight")` returns ordered request plans. `buildRequest(model, prompts, check, items, rows)` builds label-free requests; `validateResponse(savedBatch, request)` verifies responses and request hashes.
 - `score(rows, checks, threshold, batches, mode = "detect-and-highlight")` returns per-check scores. Classification-only findings contain IDs and scores; highlighting findings also contain sentence ranges.

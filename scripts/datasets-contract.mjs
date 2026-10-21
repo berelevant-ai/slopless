@@ -3,8 +3,12 @@ import { execFileSync } from "node:child_process";
 import {
   mkdirSync,
   mkdtempSync,
+  lstatSync,
+  readdirSync,
   readFileSync,
   rmSync,
+  statSync,
+  symlinkSync,
   writeFileSync
 } from "node:fs";
 import { resolve } from "node:path";
@@ -809,6 +813,129 @@ try {
       assert.throws(() => jev.rescoreResult(recorded, changedPrompt));
     }
   );
+  check("atomic JSON saves preserve inputs behind temporary symlinks", () => {
+    const data = { ...metadata, split: "development" };
+    save(data);
+    const promptDirectory = resolve(directory, "atomic-prompts");
+    mkdirSync(promptDirectory);
+    writeFileSync(
+      resolve(promptDirectory, "shared.md"),
+      "Judge the synthetic passage."
+    );
+    writeFileSync(
+      resolve(promptDirectory, "generic-realization.md"),
+      "Detect an unspecified realization."
+    );
+    const sdk = resolve(directory, "atomic-sdk.mjs");
+    writeFileSync(
+      sdk,
+      'export class TypeSafeClient { async systemOne(request) { return { model: request.model, usage: { input_tokens: 1, output_tokens: 1 }, answers: Object.fromEntries(Object.keys(request.questions).map(key => [key, { type: "noul", noul: key.startsWith("hit_") ? 0.75 : 0.25 }])) }; } }'
+    );
+    const output = resolve(directory, "atomic-result.json");
+    symlinkSync(file, output + ".tmp");
+    const temporaryLink = lstatSync(output + ".tmp", { bigint: true });
+    const inputs = [file, labelsFile].map((path) => ({
+      path,
+      bytes: readFileSync(path),
+      stat: statSync(path, { bigint: true })
+    }));
+    const args = [
+      "--prompts",
+      promptDirectory,
+      "--development-only",
+      "--output",
+      output,
+      "--sdk",
+      sdk
+    ];
+    assert.equal(cli("run", args).complete, true);
+    const completed = JSON.parse(readFileSync(output));
+    assert.equal(completed.batches.length, 2);
+    const partial = structuredClone(completed);
+    partial.batches.pop();
+    delete partial.summaries;
+    delete partial.inferenceSha256;
+    writeFileSync(output, JSON.stringify(partial));
+    assert.equal(cli("run", args).complete, true);
+    const resumed = JSON.parse(readFileSync(output));
+    assert.deepEqual(resumed.batches[0], partial.batches[0]);
+    for (const input of inputs) {
+      assert.deepEqual(readFileSync(input.path), input.bytes);
+      const after = statSync(input.path, { bigint: true });
+      assert.equal(after.ino, input.stat.ino);
+      assert.equal(after.mtimeNs, input.stat.mtimeNs);
+    }
+    const corrected = structuredClone(data);
+    corrected.labels[1].reason = "Synthetic reviewed annotation correction.";
+    save(corrected);
+    const correctedBytes = readFileSync(labelsFile);
+    assert.equal(cli("rescore", args).complete, true);
+    assert.deepEqual(readFileSync(file), inputs[0].bytes);
+    assert.deepEqual(readFileSync(labelsFile), correctedBytes);
+    const rescored = JSON.parse(readFileSync(output));
+    for (const key of ["snapshot", "batches", "summaries", "inferenceSha256"])
+      assert.deepEqual(rescored[key], resumed[key]);
+    assert.equal(rescored.rescores.length, 1);
+    save(data);
+    const before = {
+      bytes: readFileSync(output),
+      stat: statSync(output, { bigint: true })
+    };
+    for (const command of ["score", "run"])
+      assert.equal(
+        cli(command, [
+          ...args,
+          "--sdk",
+          resolve(directory, "must-not-initialize.mjs")
+        ]).complete,
+        true
+      );
+    assert.deepEqual(readFileSync(output), before.bytes);
+    const after = statSync(output, { bigint: true });
+    assert.equal(after.ino, before.stat.ino);
+    assert.equal(after.mtimeNs, before.stat.mtimeNs);
+    assert.equal(
+      lstatSync(output + ".tmp", { bigint: true }).ino,
+      temporaryLink.ino
+    );
+    assert.equal(
+      readdirSync(directory).some((name) => name.startsWith(".atomic-json-")),
+      false
+    );
+  });
+  check("atomic JSON writer cleans failed replacements", () => {
+    const output = resolve(directory, "atomic-failure.json");
+    mkdirSync(output);
+    const sentinel = resolve(output, "sentinel.txt");
+    writeFileSync(sentinel, "Preserve this synthetic directory.");
+    const names = readdirSync(directory).sort();
+    assert.throws(
+      () => jev.writeAtomicJson(output, { synthetic: true }),
+      /EISDIR|ENOTEMPTY/
+    );
+    assert.deepEqual(readdirSync(directory).sort(), names);
+    assert.equal(
+      readFileSync(sentinel, "utf8"),
+      "Preserve this synthetic directory."
+    );
+    const previous = resolve(directory, "atomic-previous.json");
+    writeFileSync(previous, '{"original":true}\n');
+    const before = {
+      bytes: readFileSync(previous),
+      stat: statSync(previous, { bigint: true })
+    };
+    const circular = {};
+    circular.self = circular;
+    assert.throws(() => jev.writeAtomicJson(previous, circular), /circular/i);
+    assert.deepEqual(readFileSync(previous), before.bytes);
+    const after = statSync(previous, { bigint: true });
+    assert.equal(after.ino, before.stat.ino);
+    assert.equal(after.mtimeNs, before.stat.mtimeNs);
+    assert.equal(
+      readdirSync(directory).some((name) => name.startsWith(".atomic-json-")),
+      false
+    );
+  });
   console.log(JSON.stringify({ checks }));
 } finally {
   rmSync(directory, { recursive: true, force: true });

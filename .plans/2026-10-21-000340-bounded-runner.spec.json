@@ -13,6 +13,7 @@
           "export function rescoreResult",
           "export function validateResult",
           "export function createSnapshot",
+          "export function writeAtomicJson",
           "classification-only",
           "development-only",
           "targetsSha256",
@@ -26,7 +27,9 @@
           "classification-only",
           "development-only",
           "rescore",
-          "legacy snapshot"
+          "legacy snapshot",
+          "atomic JSON saves preserve inputs behind temporary symlinks",
+          "atomic JSON writer cleans failed replacements"
         ]
       },
       {
