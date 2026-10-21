@@ -8,6 +8,7 @@ Puffery and overstatement is complete through isolated development and holdout c
 
 - Unsupported authority is reviewed through development and the frozen holdout assessment. Vague attribution catches 100 holdout hits with five false positives; prestige padding catches 99 with 23 false positives. Preserve that transfer failure. Next family: staged contrasts, using `prompts/v12/` after this assessment commit.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
+- Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
 
 ## Execution Order
 
@@ -60,6 +61,7 @@ These are required behaviors to consolidate, not a fixed count of new checks. At
 - Include the accepted imagined-objection behavior: a straw alternative or rhetorical opponent manufactured to dramatize an otherwise direct claim. Preserve genuine objections, useful distinctions, and explained alternatives.
 - Use passage input, including multi-paragraph cases when both halves are needed. Balance factual corrections, technical exclusions, supported before/after changes, dialogue, and useful comparisons against rhetorical reversals in the same domains.
 - Judge the unnecessary staged opposition. Negation alone remains ordinary language; an unexplained metaphor, missing takeaway, or inflated evaluation alone belongs to its existing check.
+- Source review and independent definition review consolidate these behaviors into one passage-level check. A separate imagined-objection label would change with argumentative wording while requiring the same contribution test and correction; preserve that coverage within `staged-opposition`.
 
 ### 3. Boilerplate And Signposting
 
