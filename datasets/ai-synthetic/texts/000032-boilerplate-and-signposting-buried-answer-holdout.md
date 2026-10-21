@@ -198,11 +198,11 @@ Turnarounds of this kind sit where several concerns meet, and every wardrobe dep
 
 There is also a wide range of methods to choose from. Full laundering is the most thorough but needs machine time and drying space. Spraying with diluted vodka or a commercial odour neutraliser has been used in theatre wardrobes for decades and is quick, though it deals with smell rather than soil. Steaming refreshes fibres and relaxes creases. Some departments use freezing, ozone cabinets or UV boxes, each with its advocates and sceptics. Others avoid the problem with duplicate costumes, at a price, or send work out to commercial laundries, which suits long gaps better than short ones. Sustainability is increasingly part of the conversation as well, since water, energy and detergent add up over a long run and many venues now set targets for reducing them.
 
-We recommend that wardrobe stops trying to launder everything inside the gap. Between the two Saturday shows, wash only the 31 base layers and replace them with the second set already in stock; refresh every outer garment with an alcohol spray and the drying-room fans; and add a second dresser on Saturdays from 12:45 to 16:15 to take repairs and the tailcoats off the main team.
+We recommend that wardrobe stops trying to launder everything inside the gap. Between the two Saturday shows, wash only the 31 base layers and replace them with a complete second set, using the 27 sets in stock plus the four replacements proposed below; refresh every outer garment with an alcohol spray and the drying-room fans; and add a second dresser on Saturdays from 12:45 to 16:15 to take repairs and the tailcoats off the main team.
 
 The window would run as follows. From 13:10 to 13:25, dressers collect costumes from the dressing rooms in labelled bags, with base layers separated at source and anything torn or missing a fastening hung on the repair rail with a tag. At 13:25 the base layers go into both machines on a 40-degree, 40-minute cycle; they are dried and folded during the second show for Tuesday, not for this afternoon. From 13:25 to 14:05, outer garments are turned inside out, sprayed at underarms, collars and waistbands with a 1:1 mix of 70 percent isopropyl alcohol and water, and hung in the drying room with both fans running. Fresh base layers and the refreshed outer garments go back to the dressing rooms from 14:15, ten minutes before the half.
 
-The base-layer swap depends on the second set being complete. Our count on 12 March found 27 of the 31 sets on the shelf: two dancers' crop tops and two of the men's thermal vests are missing, probably lost at the January get-out. We have priced replacements at 58 pounds in total and can have them by 28 March if you approve this week.
+The base-layer swap depends on the second set being complete. Our count on 12 March found 27 of the 31 sets on the shelf: two dancers' crop tops and two of the men's thermal vests are missing, probably lost at the January get-out. We have priced replacements at 58 pounds in total and can have them by 28 March if you approve this week. The swap can start only after all four replacements arrive.
 
 The second dresser starts at 12:45 so the repair rail is set up before the curtain comes down. Their first job is the six harvest tailcoats, which need the flour brushed out and a low-suction vacuum over cuffs and lapels with a mesh screen on the nozzle. We timed this on 9 March at four minutes a coat, so all six are done by about 13:50. After that they work the repair rail, quick-change items first, until the half, and stay until the second show's interval to cover anything that fails on stage.
 
@@ -446,7 +446,7 @@ Fenwick Tri's 18 are not evenly spread either. Coach Saira Malik's registers sho
 
 Public lane swimming keeps lane 6 because it sits beside the steps and the lifeguard chair, which suits the slower public swimmers who use it, and no club has asked for that lane. Duty managers will enforce the layout from the first session; club leads should raise any clash with the duty manager on the night rather than with each other.
 
-Two things this note does not change. Fenwick Tri's monthly wetsuit session on the first Thursday stays in lane 5 only, as agreed in September, and the junior squad's gala weeks in February and March, when they need the whole pool for starts practice from 18:00 to 18:30, will be handled as one-off bookings with two weeks' notice to the other clubs.
+Two things this note does not change. Fenwick Tri's monthly wetsuit session on the first Thursday stays in lane 5 only, as agreed in September, and the junior squad's gala starts practice in February and March will be handled as separate one-off bookings only after the council issues a written exception to the public-lane requirement, with two weeks' notice to the other clubs and public swimmers. Until that exception is issued, gala practice must retain lane 6 for public use.
 
 Review. We will compare registers at the end of week six, on 13 February. If any club's average falls below about 5 swimmers per allocated lane, or rises above 8, the affected lane moves at the half-term break. Decision owner: Carys Pugh, Facilities Officer. Agreed with the three club secretaries by email on 18 November.
 
@@ -1276,9 +1276,9 @@ I spent a good part of Tuesday on this. Ines at Harlow Mills went through the pr
 
 Use both: give them at least 100 minutes on the spiral racks after depanning, and do not slice until a probe in the centre of a loaf from the middle shelf reads 32 C or lower. Monday's first trolley went through at about 55 minutes, when the core would still have been near 50 C. At that point the starch in the crumb hasn't firmed up, so the blades drag instead of cutting and press the crumb into that damp, gummy layer you saw.
 
-The time is a floor, not a guarantee. On cold nights the loaves by the back door will get there sooner, and in August the middle shelf can take two hours. The probe reading is what releases a trolley, so please write it on the rack card with the time.
+The 100 minutes is a minimum even if the back-door loaves cool faster; in August, the middle shelf can take two hours. Both elapsed time and the probe reading release a trolley, so write them on the rack card.
 
-If the schedule can't absorb 100 minutes, move the first two trolleys under the extraction fan in bay 3, which usually saves 15 to 20 minutes. Don't use the blast chiller to hurry them; the crust goes leathery and the loaves sweat in the bags once they're back at room temperature.
+If cooling runs beyond 100 minutes, use the extraction fan in bay 3 to save 15 to 20 minutes of that extra time. Keep both release checks. Don't use the blast chiller; the crust goes leathery and the loaves sweat in the bags once they're back at room temperature.
 
 I'll add the 100 minutes and the 32 C check to the night production sheet from tomorrow. Let me know if it squeezes the 4:15 van load and we'll look at moving the sandwich loaves earlier in the bake order.
 
@@ -1872,7 +1872,7 @@ At its June meeting the committee asked for a written procedure for changing ove
 
 The satellite terminal
 
-The swap was done the way it has always been done here: stop set A, move the tails at the distribution board, start set B. The board was dead for just under four minutes. The terminal's UPS should have covered that, since its battery is rated for 15 minutes at the terminal's 380 W draw, but it lasted 2 minutes 40 seconds. Bench-tested on 2 July, it held for 3 minutes. The battery has reached the end of its life; a replacement is booked on the 14 July supply flight. Until it arrives, the terminal has no useful ride-through, and any changeover with a gap of more than a few seconds will drop the link and force the 35-minute re-acquisition we saw on 28 June.
+The swap was done the way it has always been done here: stop set A, move the tails at the distribution board, start set B. The board was dead for just under four minutes. The terminal's UPS should have covered that, since its battery is rated for 15 minutes at the terminal's 380 W draw, but it lasted 2 minutes 40 seconds. Bench-tested on 2 July, it held for 3 minutes. The battery has reached the end of its life; a replacement is booked on the 14 July supply flight. Until it arrives, the tested 2-minute-40-second ride-through is too short to cover the existing four-minute changeover, so that procedure will drop the link and force the 35-minute re-acquisition we saw on 28 June.
 
 The sample freezer
 
@@ -2462,7 +2462,7 @@ Pat Doyle's electrical survey from June found the dishwasher and the 20-litre co
 
 Decision
 
-Run the machine in four blocks. First, 17:45 to 18:05: flutes only, six racks, which clears all 140 in the fast-cycle period and leaves an hour for the booster to recover. Second, 19:00 to 19:12: side plates only, four racks, 80 plates, at fast-cycle speed after the long idle. Third, 19:50 to 19:55: the remaining two racks of side plates, so all 118 are back on the pass before the bar sinks get busy at 20:00. Fourth, from 20:15: dinner plates, dessert plates, wine glasses and the toast flutes in whatever order they come back, at the slow rate, finishing around 22:00.
+Run the machine in four blocks. First, 17:45 to 18:05: flutes only, six racks, clearing all 140 with five fast cycles and one slow cycle inside the twenty-minute window. The booster then has fifty-five minutes to recover. Second, 19:00 to 19:12: side plates only, four racks, 80 plates, at fast-cycle speed after the long idle. Third, 19:50 to 19:55: the remaining two racks of side plates, so all 118 are back on the pass before the bar sinks get busy at 20:00. Fourth, from 20:15: dinner plates, dessert plates, wine glasses and the toast flutes in whatever order they come back, at the slow rate, finishing around 22:00.
 
 Habit would put the dinner plates in first at 19:00, because they come back first and take up the most bench space. That spends the evening's best run of fast cycles on plates nobody needs again, pushes the side plates into the slow period after 20:00, and at five minutes a rack leaves them finishing at about 20:45 at best, with the buffet staff wanting to set up at 21:00. Washing flutes at 17:45, when nothing else is dirty, costs nothing; the scullery is staffed separately from the kitchen preparing mains.
 
@@ -2658,7 +2658,7 @@ The cracks have a history, and it explains them. Until this spring, panels dried
 
 That is also why the first batch's remedies failed. After the early warping, the group covered the panels tightly in plastic and weighted the corners with bricks. Slower drying did reduce warping on the next panels, but the bricks pressed them harder into the canvas, and three of the four cracks came from that second round. Theo ran into the same conflict with a slab tabletop in 2019, before joining Larkspur, and the fix that worked then is the core of what follows.
 
-Here is the method for the remaining 28 panels.
+Here is the method for the remaining 37 panels.
 
 First, give each panel a surface it can slide on. Cover the canvas boards with a thin, even dusting of fine grog, about a teaspoon spread across the board, then a sheet of newsprint, and transfer the panel onto it as soon as it is cut. The grog acts as bearings and the paper keeps it out of the clay.
 
@@ -3160,7 +3160,7 @@ Where any climber is under 8, the ratio is one registered belayer or instructor 
 
 A registered belayer means someone who has passed our belay check within the last 12 months and holds a current wall card. The desk confirms this against the card record at booking, not on arrival, which is what went wrong with both September refusals. Experienced climbers in a works group count toward the ratio only if they hold a card; experience at other walls does not substitute, though they can book a twenty-minute belay check for six pounds before the session.
 
-Groups that cannot meet the ratio at booking are offered an instructor at the standard rate or places in the supervised taster session, which already runs at one to six. The booking system can add the new slot type without extra licence cost, and a desk script is drafted and attached.
+Groups that cannot meet the ratio at booking are offered an instructor at the standard rate, retaining the applicable age-based staffing limits. Offer places in the existing supervised one-to-six taster only when every climber is 14 or over. The booking system can add the new slot type without extra licence cost, and a desk script is drafted and attached.
 
 The subcommittee is asked to approve the ratios and slot times so that they can go live on 1 December, with a review after the first three months.
 
@@ -3372,13 +3372,13 @@ Packing 46 lunch boxes for the Saturday walking group coach trip
 
 Joanne, you asked how to pack the 46 lunch boxes for the Ridgeway Ramblers so they are still safe and pleasant when the group eats at Avebury. The timings you sent decide most of this, so they come first.
 
-You finish assembly at 6:45, the coach leaves the hall at 7:30, and lunch is at 12:45. That keeps the chilled fillings out of the fridge for six hours. Under the guidance your environmental health officer works from, chilled food can sit above 8 C for one period of up to four hours, after which it has to be eaten or discarded. Six hours is past that, so packing at room temperature is off the table for anything containing egg, meat, fish, soft cheese or cooked rice.
+Your current assembly finish is 6:45, the coach leaves the hall at 7:30, and lunch is at 12:45. That keeps the chilled fillings out of the fridge for six hours. Under the guidance your environmental health officer works from, chilled food can sit above 8 C for one period of up to four hours, after which it has to be eaten or discarded. Six hours is past that, so packing at room temperature is off the table for anything containing egg, meat, fish, soft cheese or cooked rice.
 
-The second constraint is space. Your four 45-litre hard cool boxes, each with two frozen 800 g gel packs, held a probe reading under 5 C for about seven hours in your July test, but only when they were at least three-quarters full and opened once; a half-empty cooler warms much faster. With a whole lunch in the large 20 by 15 by 9 cm kraft box, nine boxes fit around the gel packs in each cooler, which covers 36 people, not 46. The smaller 18 by 12 by 7 cm box fits twelve per cooler, which covers 48.
+The second constraint is space. Your four 45-litre hard cool boxes, each with two frozen 800 g gel packs, held a probe reading under 5 C for about seven hours in your July test, but only when they were at least three-quarters full and opened once; a half-empty cooler warms much faster. With a whole lunch in the large 20 by 15 by 9 cm kraft box, nine boxes fit around the gel packs in each cooler, which covers 36 people, not 46. The smaller 18 by 12 by 7 cm box fits twelve per cooler, but needs a new seven-hour trial before Saturday with pre-chilled contents in the exact 12/12/11/11 load. Its occupied volume differs from July. If any cooler exceeds 5 C, use refrigerated transport instead.
 
-So split each lunch into a chilled part and an ambient part. The sandwich, pasta salad pot and cheese portion go in the small kraft box, and only those boxes go into the coolers: one gel pack flat on the bottom, two layers of six boxes, the second gel pack on top, lid shut. The apple, crisps, flapjack and water bottle go into a named paper bag per person, packed in two plastic crates that can ride in the hold with no cooling at all.
+So split each lunch into a chilled part and an ambient part. The sandwich, pasta salad pot and cheese portion go in the small kraft box, and only those boxes go into the coolers: twelve in each of the first two coolers and eleven in each of the others, with a gel pack below and above the two box layers. The apple, crisps, flapjack and water bottle go into a named paper bag per person, packed in two plastic crates that can ride in the hold with no cooling at all.
 
-A few details make the handout quicker. Write the name on both the box lid and the bag, and pack both in the same alphabetical order, so cooler one and crate one both start at Abbott. Put the three gluten-free lunches together in the top layer of cooler four, each with a red lid sticker, rather than spreading them through the alphabet. Chill the filled boxes in the walk-in for at least an hour before they go into the coolers; gel packs hold a cold load, they don't cool a warm one. Ask the driver to load the coolers last, near the hold door and away from the engine side.
+A few details make the handout quicker. Write the name on both the box lid and the bag, and pack both in the same alphabetical order, so cooler one and crate one both start at Abbott. Put the three gluten-free lunches together in the top layer of cooler four, each with a red lid sticker, rather than spreading them through the alphabet. Bring assembly forward to 6:15; chill every box in the walk-in for at least an hour, then load the coolers from 7:15 for the 7:30 departure. Ask the driver to load the coolers last, near the hold door and away from the engine side.
 
 For the gel packs, freeze all eight flat for at least 24 hours; the July test used packs frozen since Thursday, and the overnight-frozen packs in your June trial gave only about five hours under 5 C, which would not be enough. Probe one box from each cooler before the lids go on and write the reading and time on the delivery sheet. If any box reads above 5 C, it goes back in the walk-in until it doesn't.
 
@@ -3628,11 +3628,11 @@ When should the Merton House laundry lose its water supply?
 
 Choose Thursday, 13:30 to 15:30, and stop new washes at 12:15. That leaves the morning carers' booking intact and gives the last 65-minute cycle time to finish before the plumber isolates the laundry branch. The flats keep their water throughout.
 
-Faye asked whether the two-hour repair could happen on Tuesday instead, when the contractor is already servicing the boiler. Tuesday looks convenient on the work order, but the laundry register shows a wheelchair basketball group uses all four machines from 14:00 after its training session. Moving that booking would mean taking wet kit across town. Thursday's only reservation is a single resident who has agreed to come at 16:00.
+Faye asked whether the two-hour repair could happen on Tuesday instead, when the contractor is already servicing the boiler. Tuesday looks convenient on the work order, but the laundry register shows a wheelchair basketball group uses all four machines from 14:00 after its training session. Moving that booking would mean taking wet kit across town. Thursday's only afternoon reservation is a single resident who has agreed to come at 16:00.
 
 The valve serves the machines and the utility sink, not the hot-water cylinder. On last week's tracing visit, Rosa closed it for thirty seconds while Faye checked taps in the two nearest flats. Those taps stayed live. The laundry tap stopped, and the pressure gauge on the machine manifold fell when Rosa opened the sink. That identifies the branch more reliably than the 1992 drawing, which still shows a connection removed during the extension.
 
-Before 13:15, Faye should confirm the drums are empty and put each machine into its disabled state. Leave completed baskets on the folding table with their collection slips; moving them into the corridor would obstruct the afternoon delivery route.
+At 13:25, Faye should confirm the drums are empty and put each machine into its disabled state. Leave completed baskets on the folding table with their collection slips; moving them into the corridor would obstruct the afternoon delivery route.
 
 Rosa expects the physical valve change to take about forty minutes. The remaining time covers draining, testing the joints under pressure, and flushing the branch. Do not announce an earlier reopening while those checks are still running. If the sink discharges clear water and the test rinse finishes normally, Faye can remove the notices at 15:30.
 
@@ -4782,11 +4782,11 @@ After the first sixteen bags are used, twenty remain in the flour bay. Adding th
 
 The other bakery has booked that receiving position for its seed delivery from 07:45 until 09:00. Its sealed ingredients can remain there while its staff count and shelve them, and our booking gives us no authority to move them. The flour bay's numerical capacity therefore does not provide a receiving route at 08:00. By 14:00, the receiving position is free and the eight later flour bags have also left storage, leaving twelve on the shelves.
 
-Book Tuesday at 14:00 and move the late morning mix to 15:00 using flour from that delivery. Keep the first doughs on their existing schedule using current stock. The afternoon arrival gives us the required empty receiving position and leaves 52 bags in the bay after delivery, within its limit. The revised mix fits the oven booking confirmed by the head baker, so it avoids both an access conflict and an unplanned holding area for flour.
+Book Tuesday at 14:00 and keep the late morning mix on its eight allocated bags of current stock. Keep the first doughs on their existing schedule using current stock. The afternoon arrival gives us the required empty receiving position and leaves 52 bags in the bay after delivery, within its limit. The existing mixing sequence fits the oven booking confirmed by the head baker; the later delivery avoids the access conflict without an unplanned holding area for flour.
 
-Confirm the later mix with the pastry team before issuing the production sheet, because its weighing-room handover remains at 11:00 even though our mix moves. Staff can prepare scales and clean utensils during that interval without opening bags into an unoccupied work area. Keep the delivered batch separate until its count, packaging, and order details have been checked.
+Confirm the 11:00 weighing-room handover with the pastry team before issuing the production sheet. Staff should prepare scales and clean utensils at handover, then weigh the eight bags allocated to the late morning mix. Keep the delivered batch separate until its count, packaging, and order details have been checked.
 
-The receiving lead should record the arrival time and final bay count on the shared store sheet. If the supplier cannot hold the 14:00 slot, refer the booking back to the production manager before accepting a substitute. The decision depends on both a clear receiving position and the revised mix, so those arrangements need to remain together in the confirmed schedule.
+The receiving lead should record the arrival time and final bay count on the shared store sheet. If the supplier cannot hold the 14:00 slot, refer the booking back to the production manager before accepting a substitute. The decision depends on a clear receiving position and the recorded current-stock draw, so both arrangements must remain on the confirmed schedule.
 
 ## 000032-222
 

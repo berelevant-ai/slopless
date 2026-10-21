@@ -114,7 +114,7 @@ Unnecessary framing has exactly 100 hits and 100 no-hits in [development](ai-syn
 
 Its [development assessment](../runners/results/boilerplate-and-signposting-v13-development.md) catches 99 hits with zero false positives. The separate [frozen holdout assessment](../runners/results/boilerplate-and-signposting-v13-holdout.md) catches 100 hits with nine false positives, exceeding the fixed five-false-positive target.
 
-Buried answer uses complete texts. Both [development](ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md) and [holdout](ai-synthetic/texts/000032-boilerplate-and-signposting-buried-answer-holdout.md) contain 240 candidate texts with provisional judgments; review and balanced selection remain in progress.
+Buried answer uses complete texts. The reviewed [development pool](ai-synthetic/texts/000031-boilerplate-and-signposting-buried-answer-development.md) contains 120 hits and 120 no-hits; the independently reviewed [holdout pool](ai-synthetic/texts/000032-boilerplate-and-signposting-buried-answer-holdout.md) contains 117 hits and 123 no-hits. All 480 texts have completed review coverage and independent QA, with 76 development and 100 holdout mandatory cases retained. Source-overlap clearance and balanced 100/100 selection remain pending.
 
 The existing `buried-answer-development-review.json` and `buried-answer-holdout-review.json` records distinguish completed Opus opinions, fresh Codex reviews, repairs, and unresolved work. The user authorizes Codex for remaining reviews after the approved Claude account reaches its weekly limit; actual reviewer identities remain recorded separately.
 
