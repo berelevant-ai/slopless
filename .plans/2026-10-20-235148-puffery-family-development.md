@@ -9,19 +9,36 @@ Puffery and overstatement is complete through isolated development and holdout c
 - Unsupported authority is reviewed through development and the frozen holdout assessment. Vague attribution catches 100 holdout hits with five false positives; prestige padding catches 99 with 23 false positives. Preserve that transfer failure. Next family: staged contrasts, using `prompts/v12/` after this assessment commit.
 - Allocate collections `000023`/`000024` to vague-attribution development/holdout and `000025`/`000026` to prestige-padding development/holdout. Preserve the existing dataset and prompt versions.
 - Consolidate staged contrasts into `staged-opposition`, including invented objections as a wording variant of the same unnecessary-opposition defect. Allocate `000027`/`000028` to its development/holdout collections and retain `prompts/v12/`.
-- Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. The reviewed 683-word baseline is frozen. Next: run development `b0` and complete bounded tuning before the separate holdout assessment.
+- Staged opposition has independently verified 100/100 development and holdout subsets retaining all 94 mandatory cases. Complete pools are archived at `bfb57f52` and `4d712948`; seven holdout replacements resolve confirmed overlap. Its first bounded tuning round fails the development target; preserve the restored best `staged-r1` prompt at 96 catches and ten false positives while continuing the controlled comparison below.
 
 ## Execution Order
 
+This update records the full three-family sequence. Wait for the user's next execution goal before starting further generation, tuning, or inference. Once authorized, continue through all three families; completing one family alone does not finish the sequence.
+
 1. Unsupported authority (`unsupported-authority`), using `prompts/v11/`.
+   - Complete vague attribution and prestige padding, including relevant credentials and supported audience-size statements as no-hits.
 2. Staged contrasts (`staged-contrasts`), using `prompts/v12/`.
+   - Complete unnecessary rhetorical opposition across negation, temporal replacement, comparisons, and imagined objections under the consolidated `staged-opposition` definition.
 3. Boilerplate and signposting (`boilerplate-and-signposting`), using `prompts/v13/`.
+   - Consolidate local introductions, evaluative wrappers, stock endings, and importance announcements; evaluate buried answers on complete texts.
 
 - Finish every consolidated check in one family before beginning the next family. Within a family, delegate independent authoring and review tasks in parallel.
 - After committing a family, continue to the next without requesting feedback or ending the execution goal. Completing the first family is a checkpoint, rather than completion of this sequence.
 - Treat tuning limits as round boundaries. Preserve a failed round and resolve its remaining errors through a separately justified development round before advancing; keep labels, thresholds, and acceptance criteria fixed.
 - Advance only after every current-family check catches at least 95/100 development hits with at most 5/100 false positives, candidates are frozen, the separate holdout assessment is complete, and reviewed results are committed and pushed.
 - Finish after all three families meet the development target and complete their holdout assessments. Report holdout transfer failures separately while preserving the assessed candidates.
+
+## Current Development Follow-Up
+
+### Staged-Opposition Next Development Round
+
+- Stop the first prompt round after `staged-r2` and `staged-r3` fail to improve `staged-r1`. Preserve all four trials, their prompt snapshots and probabilities, and the failed gate in the existing family result/report.
+- Keep both labeled splits fixed. The best first-round prompt has eight direct development demonstrations; the attempted round exposes twelve unique development examples. Jev holdout assessment remains unrun.
+- Run one model-only comparison through the existing public runner, using restored `staged-r1` wording on `jev-1.14.0`. Preserve SDK `0.7.0`, threshold `>= 0.5`, size-100 requests, and the exact 200 development inputs.
+  - Save it as `runners/results/staged-contrasts-v12-jev-1-14-development.json`. Its separate model-bound cache preserves the older model's immutable trial history.
+  - Compare caught/missed hits, false positives, transitions, request time, and tokens against saved `staged-r1`. Keep the same 95-catch/five-false-positive target and obtain independent result review.
+- The official [model list](https://docs.typesafe.ai/models) gives both versions the same input-token price and context limits. Its [1.13 limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13) identify literal reading and indirection as risks; the model-only comparison tests the version effect before changing request construction.
+- Determine the next concrete development step from that measured comparison. Preserve all failed attempts and keep the holdout sealed throughout development; the family advances only after its development gate is met.
 
 ## Previous Method And Lessons
 
