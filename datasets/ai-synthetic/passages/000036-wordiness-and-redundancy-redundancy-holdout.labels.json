@@ -1,0 +1,2801 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "855f4be598986132183dc2a551e31ae0367aaba30087a4e877e66a650ee2bb62",
+  "source": {
+    "name": "Codex-authored redundancy holdout",
+    "originalPath": "/tmp/000036-holdout-full-author-v3.json",
+    "commit": "eb8390ac",
+    "model": "Codex",
+    "prompt": null,
+    "notes": "Codex synthetic writing, repaired and independently reviewed against definitions frozen at eb8390ac before detector evaluation. The source commit identifies those definitions. Final reviewer context, requested model, reviewed counts, and selection are recorded in runners/results/redundancy-holdout-review.json; the complete writing is versioned in this dataset pair."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, labels, snippets, and case-specific reviews out of prompt-authoring contexts. Run only after candidate freeze and explicit holdout authorization.",
+  "samples": [
+    {
+      "id": "000036-074",
+      "start": 55,
+      "end": 321
+    },
+    {
+      "id": "000036-011",
+      "start": 338,
+      "end": 554
+    },
+    {
+      "id": "000036-194",
+      "start": 571,
+      "end": 827
+    },
+    {
+      "id": "000036-071",
+      "start": 844,
+      "end": 1084
+    },
+    {
+      "id": "000036-030",
+      "start": 1101,
+      "end": 1322
+    },
+    {
+      "id": "000036-020",
+      "start": 1339,
+      "end": 1589
+    },
+    {
+      "id": "000036-108",
+      "start": 1606,
+      "end": 1859
+    },
+    {
+      "id": "000036-007",
+      "start": 1876,
+      "end": 2083
+    },
+    {
+      "id": "000036-151",
+      "start": 2100,
+      "end": 2380
+    },
+    {
+      "id": "000036-163",
+      "start": 2397,
+      "end": 2644
+    },
+    {
+      "id": "000036-176",
+      "start": 2661,
+      "end": 2803
+    },
+    {
+      "id": "000036-144",
+      "start": 2820,
+      "end": 3128
+    },
+    {
+      "id": "000036-129",
+      "start": 3145,
+      "end": 3351
+    },
+    {
+      "id": "000036-090",
+      "start": 3368,
+      "end": 3523
+    },
+    {
+      "id": "000036-031",
+      "start": 3540,
+      "end": 3973
+    },
+    {
+      "id": "000036-034",
+      "start": 3990,
+      "end": 4221
+    },
+    {
+      "id": "000036-171",
+      "start": 4238,
+      "end": 4440
+    },
+    {
+      "id": "000036-005",
+      "start": 4457,
+      "end": 4683
+    },
+    {
+      "id": "000036-169",
+      "start": 4700,
+      "end": 4944
+    },
+    {
+      "id": "000036-168",
+      "start": 4961,
+      "end": 5382
+    },
+    {
+      "id": "000036-042",
+      "start": 5399,
+      "end": 5670
+    },
+    {
+      "id": "000036-156",
+      "start": 5687,
+      "end": 5887
+    },
+    {
+      "id": "000036-121",
+      "start": 5904,
+      "end": 6348
+    },
+    {
+      "id": "000036-133",
+      "start": 6365,
+      "end": 6611
+    },
+    {
+      "id": "000036-063",
+      "start": 6628,
+      "end": 7400
+    },
+    {
+      "id": "000036-068",
+      "start": 7417,
+      "end": 7666
+    },
+    {
+      "id": "000036-162",
+      "start": 7683,
+      "end": 7835
+    },
+    {
+      "id": "000036-070",
+      "start": 7852,
+      "end": 8009
+    },
+    {
+      "id": "000036-067",
+      "start": 8026,
+      "end": 8822
+    },
+    {
+      "id": "000036-191",
+      "start": 8839,
+      "end": 8969
+    },
+    {
+      "id": "000036-193",
+      "start": 8986,
+      "end": 9671
+    },
+    {
+      "id": "000036-117",
+      "start": 9688,
+      "end": 9905
+    },
+    {
+      "id": "000036-026",
+      "start": 9922,
+      "end": 10143
+    },
+    {
+      "id": "000036-048",
+      "start": 10160,
+      "end": 10919
+    },
+    {
+      "id": "000036-137",
+      "start": 10936,
+      "end": 11342
+    },
+    {
+      "id": "000036-154",
+      "start": 11359,
+      "end": 12117
+    },
+    {
+      "id": "000036-125",
+      "start": 12134,
+      "end": 12366
+    },
+    {
+      "id": "000036-058",
+      "start": 12383,
+      "end": 12612
+    },
+    {
+      "id": "000036-112",
+      "start": 12629,
+      "end": 13052
+    },
+    {
+      "id": "000036-185",
+      "start": 13069,
+      "end": 13308
+    },
+    {
+      "id": "000036-181",
+      "start": 13325,
+      "end": 13545
+    },
+    {
+      "id": "000036-098",
+      "start": 13562,
+      "end": 13789
+    },
+    {
+      "id": "000036-056",
+      "start": 13806,
+      "end": 14073
+    },
+    {
+      "id": "000036-153",
+      "start": 14090,
+      "end": 14920
+    },
+    {
+      "id": "000036-134",
+      "start": 14937,
+      "end": 15168
+    },
+    {
+      "id": "000036-199",
+      "start": 15185,
+      "end": 15429
+    },
+    {
+      "id": "000036-138",
+      "start": 15446,
+      "end": 15570
+    },
+    {
+      "id": "000036-036",
+      "start": 15587,
+      "end": 16345
+    },
+    {
+      "id": "000036-065",
+      "start": 16362,
+      "end": 16561
+    },
+    {
+      "id": "000036-106",
+      "start": 16578,
+      "end": 16828
+    },
+    {
+      "id": "000036-033",
+      "start": 16845,
+      "end": 17106
+    },
+    {
+      "id": "000036-118",
+      "start": 17123,
+      "end": 17368
+    },
+    {
+      "id": "000036-160",
+      "start": 17385,
+      "end": 17615
+    },
+    {
+      "id": "000036-192",
+      "start": 17632,
+      "end": 17893
+    },
+    {
+      "id": "000036-119",
+      "start": 17910,
+      "end": 18080
+    },
+    {
+      "id": "000036-087",
+      "start": 18097,
+      "end": 18269
+    },
+    {
+      "id": "000036-016",
+      "start": 18286,
+      "end": 18539
+    },
+    {
+      "id": "000036-023",
+      "start": 18556,
+      "end": 18733
+    },
+    {
+      "id": "000036-069",
+      "start": 18750,
+      "end": 18992
+    },
+    {
+      "id": "000036-047",
+      "start": 19009,
+      "end": 19251
+    },
+    {
+      "id": "000036-155",
+      "start": 19268,
+      "end": 19549
+    },
+    {
+      "id": "000036-002",
+      "start": 19566,
+      "end": 19692
+    },
+    {
+      "id": "000036-190",
+      "start": 19709,
+      "end": 19939
+    },
+    {
+      "id": "000036-131",
+      "start": 19956,
+      "end": 20120
+    },
+    {
+      "id": "000036-126",
+      "start": 20137,
+      "end": 20375
+    },
+    {
+      "id": "000036-008",
+      "start": 20392,
+      "end": 20557
+    },
+    {
+      "id": "000036-077",
+      "start": 20574,
+      "end": 20800
+    },
+    {
+      "id": "000036-196",
+      "start": 20817,
+      "end": 21057
+    },
+    {
+      "id": "000036-010",
+      "start": 21074,
+      "end": 21308
+    },
+    {
+      "id": "000036-183",
+      "start": 21325,
+      "end": 21602
+    },
+    {
+      "id": "000036-184",
+      "start": 21619,
+      "end": 21848
+    },
+    {
+      "id": "000036-078",
+      "start": 21865,
+      "end": 22095
+    },
+    {
+      "id": "000036-147",
+      "start": 22112,
+      "end": 22365
+    },
+    {
+      "id": "000036-173",
+      "start": 22382,
+      "end": 22613
+    },
+    {
+      "id": "000036-009",
+      "start": 22630,
+      "end": 23405
+    },
+    {
+      "id": "000036-145",
+      "start": 23422,
+      "end": 23698
+    },
+    {
+      "id": "000036-017",
+      "start": 23715,
+      "end": 23903
+    },
+    {
+      "id": "000036-039",
+      "start": 23920,
+      "end": 24163
+    },
+    {
+      "id": "000036-015",
+      "start": 24180,
+      "end": 24423
+    },
+    {
+      "id": "000036-198",
+      "start": 24440,
+      "end": 24878
+    },
+    {
+      "id": "000036-172",
+      "start": 24895,
+      "end": 25118
+    },
+    {
+      "id": "000036-046",
+      "start": 25135,
+      "end": 25393
+    },
+    {
+      "id": "000036-195",
+      "start": 25410,
+      "end": 25835
+    },
+    {
+      "id": "000036-057",
+      "start": 25852,
+      "end": 26086
+    },
+    {
+      "id": "000036-037",
+      "start": 26103,
+      "end": 26344
+    },
+    {
+      "id": "000036-059",
+      "start": 26361,
+      "end": 26610
+    },
+    {
+      "id": "000036-114",
+      "start": 26627,
+      "end": 27378
+    },
+    {
+      "id": "000036-076",
+      "start": 27395,
+      "end": 27659
+    },
+    {
+      "id": "000036-028",
+      "start": 27676,
+      "end": 27914
+    },
+    {
+      "id": "000036-075",
+      "start": 27931,
+      "end": 28181
+    },
+    {
+      "id": "000036-115",
+      "start": 28198,
+      "end": 28448
+    },
+    {
+      "id": "000036-022",
+      "start": 28465,
+      "end": 28573
+    },
+    {
+      "id": "000036-003",
+      "start": 28590,
+      "end": 28803
+    },
+    {
+      "id": "000036-152",
+      "start": 28820,
+      "end": 29094
+    },
+    {
+      "id": "000036-053",
+      "start": 29111,
+      "end": 29584
+    },
+    {
+      "id": "000036-166",
+      "start": 29601,
+      "end": 29857
+    },
+    {
+      "id": "000036-110",
+      "start": 29874,
+      "end": 30035
+    },
+    {
+      "id": "000036-049",
+      "start": 30052,
+      "end": 30283
+    },
+    {
+      "id": "000036-095",
+      "start": 30300,
+      "end": 30550
+    },
+    {
+      "id": "000036-107",
+      "start": 30567,
+      "end": 30797
+    },
+    {
+      "id": "000036-084",
+      "start": 30814,
+      "end": 31033
+    },
+    {
+      "id": "000036-187",
+      "start": 31050,
+      "end": 31307
+    },
+    {
+      "id": "000036-093",
+      "start": 31324,
+      "end": 31570
+    },
+    {
+      "id": "000036-045",
+      "start": 31587,
+      "end": 31807
+    },
+    {
+      "id": "000036-073",
+      "start": 31824,
+      "end": 32083
+    },
+    {
+      "id": "000036-013",
+      "start": 32100,
+      "end": 32294
+    },
+    {
+      "id": "000036-124",
+      "start": 32311,
+      "end": 32534
+    },
+    {
+      "id": "000036-061",
+      "start": 32551,
+      "end": 32767
+    },
+    {
+      "id": "000036-158",
+      "start": 32784,
+      "end": 32929
+    },
+    {
+      "id": "000036-085",
+      "start": 32946,
+      "end": 33351
+    },
+    {
+      "id": "000036-146",
+      "start": 33368,
+      "end": 33637
+    },
+    {
+      "id": "000036-123",
+      "start": 33654,
+      "end": 33909
+    },
+    {
+      "id": "000036-127",
+      "start": 33926,
+      "end": 34137
+    },
+    {
+      "id": "000036-081",
+      "start": 34154,
+      "end": 34406
+    },
+    {
+      "id": "000036-116",
+      "start": 34423,
+      "end": 34640
+    },
+    {
+      "id": "000036-091",
+      "start": 34657,
+      "end": 34910
+    },
+    {
+      "id": "000036-025",
+      "start": 34927,
+      "end": 35176
+    },
+    {
+      "id": "000036-041",
+      "start": 35193,
+      "end": 35343
+    },
+    {
+      "id": "000036-188",
+      "start": 35360,
+      "end": 35607
+    },
+    {
+      "id": "000036-141",
+      "start": 35624,
+      "end": 35851
+    },
+    {
+      "id": "000036-139",
+      "start": 35868,
+      "end": 36093
+    },
+    {
+      "id": "000036-018",
+      "start": 36110,
+      "end": 36537
+    },
+    {
+      "id": "000036-157",
+      "start": 36554,
+      "end": 36708
+    },
+    {
+      "id": "000036-051",
+      "start": 36725,
+      "end": 36947
+    },
+    {
+      "id": "000036-072",
+      "start": 36964,
+      "end": 37406
+    },
+    {
+      "id": "000036-080",
+      "start": 37423,
+      "end": 37857
+    },
+    {
+      "id": "000036-027",
+      "start": 37874,
+      "end": 38625
+    },
+    {
+      "id": "000036-164",
+      "start": 38642,
+      "end": 38857
+    },
+    {
+      "id": "000036-012",
+      "start": 38874,
+      "end": 39332
+    },
+    {
+      "id": "000036-167",
+      "start": 39349,
+      "end": 39531
+    },
+    {
+      "id": "000036-186",
+      "start": 39548,
+      "end": 39793
+    },
+    {
+      "id": "000036-054",
+      "start": 39810,
+      "end": 40234
+    },
+    {
+      "id": "000036-175",
+      "start": 40251,
+      "end": 40473
+    },
+    {
+      "id": "000036-104",
+      "start": 40490,
+      "end": 40714
+    },
+    {
+      "id": "000036-140",
+      "start": 40731,
+      "end": 40975
+    },
+    {
+      "id": "000036-099",
+      "start": 40992,
+      "end": 41241
+    },
+    {
+      "id": "000036-111",
+      "start": 41258,
+      "end": 42023
+    },
+    {
+      "id": "000036-066",
+      "start": 42040,
+      "end": 42294
+    },
+    {
+      "id": "000036-089",
+      "start": 42311,
+      "end": 42426
+    },
+    {
+      "id": "000036-200",
+      "start": 42443,
+      "end": 42620
+    },
+    {
+      "id": "000036-182",
+      "start": 42637,
+      "end": 42775
+    },
+    {
+      "id": "000036-004",
+      "start": 42792,
+      "end": 43516
+    },
+    {
+      "id": "000036-103",
+      "start": 43533,
+      "end": 43767
+    },
+    {
+      "id": "000036-143",
+      "start": 43784,
+      "end": 44039
+    },
+    {
+      "id": "000036-197",
+      "start": 44056,
+      "end": 44851
+    },
+    {
+      "id": "000036-120",
+      "start": 44868,
+      "end": 45143
+    },
+    {
+      "id": "000036-001",
+      "start": 45160,
+      "end": 45287
+    },
+    {
+      "id": "000036-083",
+      "start": 45304,
+      "end": 45549
+    },
+    {
+      "id": "000036-035",
+      "start": 45566,
+      "end": 45805
+    },
+    {
+      "id": "000036-165",
+      "start": 45822,
+      "end": 46136
+    },
+    {
+      "id": "000036-161",
+      "start": 46153,
+      "end": 46381
+    },
+    {
+      "id": "000036-109",
+      "start": 46398,
+      "end": 46604
+    },
+    {
+      "id": "000036-179",
+      "start": 46621,
+      "end": 47379
+    },
+    {
+      "id": "000036-055",
+      "start": 47396,
+      "end": 48202
+    },
+    {
+      "id": "000036-149",
+      "start": 48219,
+      "end": 48488
+    },
+    {
+      "id": "000036-100",
+      "start": 48505,
+      "end": 48650
+    },
+    {
+      "id": "000036-102",
+      "start": 48667,
+      "end": 48882
+    },
+    {
+      "id": "000036-189",
+      "start": 48899,
+      "end": 49124
+    },
+    {
+      "id": "000036-043",
+      "start": 49141,
+      "end": 49287
+    },
+    {
+      "id": "000036-006",
+      "start": 49304,
+      "end": 49580
+    },
+    {
+      "id": "000036-132",
+      "start": 49597,
+      "end": 49742
+    },
+    {
+      "id": "000036-040",
+      "start": 49759,
+      "end": 49953
+    },
+    {
+      "id": "000036-019",
+      "start": 49970,
+      "end": 50181
+    },
+    {
+      "id": "000036-142",
+      "start": 50198,
+      "end": 50429
+    },
+    {
+      "id": "000036-024",
+      "start": 50446,
+      "end": 50806
+    },
+    {
+      "id": "000036-159",
+      "start": 50823,
+      "end": 51298
+    },
+    {
+      "id": "000036-150",
+      "start": 51315,
+      "end": 51562
+    },
+    {
+      "id": "000036-062",
+      "start": 51579,
+      "end": 51724
+    },
+    {
+      "id": "000036-170",
+      "start": 51741,
+      "end": 51957
+    },
+    {
+      "id": "000036-101",
+      "start": 51974,
+      "end": 52195
+    },
+    {
+      "id": "000036-096",
+      "start": 52212,
+      "end": 52449
+    },
+    {
+      "id": "000036-148",
+      "start": 52466,
+      "end": 52889
+    },
+    {
+      "id": "000036-135",
+      "start": 52906,
+      "end": 53151
+    },
+    {
+      "id": "000036-082",
+      "start": 53168,
+      "end": 53296
+    },
+    {
+      "id": "000036-136",
+      "start": 53313,
+      "end": 54024
+    },
+    {
+      "id": "000036-052",
+      "start": 54041,
+      "end": 54293
+    },
+    {
+      "id": "000036-180",
+      "start": 54310,
+      "end": 54527
+    },
+    {
+      "id": "000036-038",
+      "start": 54544,
+      "end": 54780
+    },
+    {
+      "id": "000036-092",
+      "start": 54797,
+      "end": 55231
+    },
+    {
+      "id": "000036-174",
+      "start": 55248,
+      "end": 55976
+    },
+    {
+      "id": "000036-097",
+      "start": 55993,
+      "end": 56709
+    },
+    {
+      "id": "000036-094",
+      "start": 56726,
+      "end": 57496
+    },
+    {
+      "id": "000036-032",
+      "start": 57513,
+      "end": 57775
+    },
+    {
+      "id": "000036-064",
+      "start": 57792,
+      "end": 58061
+    },
+    {
+      "id": "000036-088",
+      "start": 58078,
+      "end": 58319
+    },
+    {
+      "id": "000036-113",
+      "start": 58336,
+      "end": 58729
+    },
+    {
+      "id": "000036-130",
+      "start": 58746,
+      "end": 59528
+    },
+    {
+      "id": "000036-014",
+      "start": 59545,
+      "end": 59794
+    },
+    {
+      "id": "000036-029",
+      "start": 59811,
+      "end": 60040
+    },
+    {
+      "id": "000036-086",
+      "start": 60057,
+      "end": 60305
+    },
+    {
+      "id": "000036-122",
+      "start": 60322,
+      "end": 60563
+    },
+    {
+      "id": "000036-021",
+      "start": 60580,
+      "end": 60862
+    },
+    {
+      "id": "000036-128",
+      "start": 60879,
+      "end": 61105
+    },
+    {
+      "id": "000036-044",
+      "start": 61122,
+      "end": 61319
+    },
+    {
+      "id": "000036-050",
+      "start": 61336,
+      "end": 61599
+    },
+    {
+      "id": "000036-060",
+      "start": 61616,
+      "end": 61846
+    },
+    {
+      "id": "000036-079",
+      "start": 61863,
+      "end": 62081
+    },
+    {
+      "id": "000036-178",
+      "start": 62098,
+      "end": 62316
+    },
+    {
+      "id": "000036-177",
+      "start": 62333,
+      "end": 62567
+    },
+    {
+      "id": "000036-105",
+      "start": 62584,
+      "end": 62723
+    },
+    {
+      "id": "000036-201",
+      "start": 62740,
+      "end": 63075
+    },
+    {
+      "id": "000036-202",
+      "start": 63092,
+      "end": 63468
+    },
+    {
+      "id": "000036-203",
+      "start": 63485,
+      "end": 64114
+    },
+    {
+      "id": "000036-204",
+      "start": 64131,
+      "end": 64441
+    },
+    {
+      "id": "000036-205",
+      "start": 64458,
+      "end": 64831
+    },
+    {
+      "id": "000036-206",
+      "start": 64848,
+      "end": 65169
+    },
+    {
+      "id": "000036-207",
+      "start": 65186,
+      "end": 65524
+    },
+    {
+      "id": "000036-208",
+      "start": 65541,
+      "end": 65855
+    },
+    {
+      "id": "000036-209",
+      "start": 65872,
+      "end": 66194
+    },
+    {
+      "id": "000036-210",
+      "start": 66211,
+      "end": 66776
+    },
+    {
+      "id": "000036-211",
+      "start": 66793,
+      "end": 67087
+    },
+    {
+      "id": "000036-212",
+      "start": 67104,
+      "end": 67440
+    },
+    {
+      "id": "000036-213",
+      "start": 67457,
+      "end": 67757
+    },
+    {
+      "id": "000036-214",
+      "start": 67774,
+      "end": 68271
+    },
+    {
+      "id": "000036-215",
+      "start": 68288,
+      "end": 68613
+    },
+    {
+      "id": "000036-216",
+      "start": 68630,
+      "end": 68969
+    },
+    {
+      "id": "000036-217",
+      "start": 68986,
+      "end": 69318
+    },
+    {
+      "id": "000036-218",
+      "start": 69335,
+      "end": 69678
+    },
+    {
+      "id": "000036-219",
+      "start": 69695,
+      "end": 70258
+    },
+    {
+      "id": "000036-220",
+      "start": 70275,
+      "end": 70608
+    },
+    {
+      "id": "000036-221",
+      "start": 70625,
+      "end": 70950
+    },
+    {
+      "id": "000036-222",
+      "start": 70967,
+      "end": 71607
+    },
+    {
+      "id": "000036-223",
+      "start": 71624,
+      "end": 71929
+    },
+    {
+      "id": "000036-224",
+      "start": 71946,
+      "end": 72240
+    },
+    {
+      "id": "000036-225",
+      "start": 72257,
+      "end": 72780
+    },
+    {
+      "id": "000036-226",
+      "start": 72797,
+      "end": 73147
+    },
+    {
+      "id": "000036-227",
+      "start": 73164,
+      "end": 73489
+    },
+    {
+      "id": "000036-228",
+      "start": 73506,
+      "end": 73858
+    },
+    {
+      "id": "000036-229",
+      "start": 73875,
+      "end": 74418
+    },
+    {
+      "id": "000036-230",
+      "start": 74435,
+      "end": 74732
+    },
+    {
+      "id": "000036-231",
+      "start": 74749,
+      "end": 75062
+    },
+    {
+      "id": "000036-232",
+      "start": 75079,
+      "end": 75403
+    },
+    {
+      "id": "000036-233",
+      "start": 75420,
+      "end": 75835
+    },
+    {
+      "id": "000036-234",
+      "start": 75852,
+      "end": 76228
+    },
+    {
+      "id": "000036-235",
+      "start": 76245,
+      "end": 76557
+    },
+    {
+      "id": "000036-236",
+      "start": 76574,
+      "end": 77088
+    },
+    {
+      "id": "000036-237",
+      "start": 77105,
+      "end": 77468
+    },
+    {
+      "id": "000036-238",
+      "start": 77485,
+      "end": 77817
+    },
+    {
+      "id": "000036-239",
+      "start": 77834,
+      "end": 78375
+    },
+    {
+      "id": "000036-240",
+      "start": 78392,
+      "end": 78908
+    },
+    {
+      "id": "000036-241",
+      "start": 78925,
+      "end": 79308
+    }
+  ],
+  "labels": [
+    {
+      "id": "000036-074",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Cause: The cause was"
+      ]
+    },
+    {
+      "id": "000036-011",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-194",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-071",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-030",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-020",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-108",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-007",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-151",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-163",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-176",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "excess surplus fabric"
+      ]
+    },
+    {
+      "id": "000036-144",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-129",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-090",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-031",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-034",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-171",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-005",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Your refund has been approved",
+        "Your refund has been approved."
+      ]
+    },
+    {
+      "id": "000036-169",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "a spare backup copy"
+      ]
+    },
+    {
+      "id": "000036-168",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-042",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-156",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-121",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## The library will close early",
+        "The library will close early."
+      ]
+    },
+    {
+      "id": "000036-133",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-063",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Lost network connection",
+        "The network connection was lost."
+      ]
+    },
+    {
+      "id": "000036-068",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "All fourteen records in the batch failed validation.",
+        "None of the fourteen records passed validation."
+      ]
+    },
+    {
+      "id": "000036-162",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-070",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-067",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-191",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "descended down"
+      ]
+    },
+    {
+      "id": "000036-193",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-117",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-026",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The mobile editor now saves drafts locally on your device.",
+        "Those drafts are stored on the device itself."
+      ]
+    },
+    {
+      "id": "000036-048",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Finch has the shorter lead time",
+        "Finch's lead time is shorter."
+      ]
+    },
+    {
+      "id": "000036-137",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-154",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-125",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "free gifts at no charge"
+      ]
+    },
+    {
+      "id": "000036-058",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-112",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Action required: The required action is"
+      ]
+    },
+    {
+      "id": "000036-185",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## The bridge reopened",
+        "The bridge reopened."
+      ]
+    },
+    {
+      "id": "000036-181",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The shop reopened in April after six months of repairs.",
+        "It resumed trading in April when the repair work was finished."
+      ]
+    },
+    {
+      "id": "000036-098",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "lasts fourteen days in duration"
+      ]
+    },
+    {
+      "id": "000036-056",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Both suppliers permit monthly cancellation.",
+        "We can cancel either service on a month-by-month basis"
+      ]
+    },
+    {
+      "id": "000036-153",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The treatment reduced the average response time.",
+        "Participants responded faster on average after receiving the treatment"
+      ]
+    },
+    {
+      "id": "000036-134",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "join together with"
+      ]
+    },
+    {
+      "id": "000036-199",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-138",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-036",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-065",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-106",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-033",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The map supports offline routing for downloaded areas.",
+        "Routing without an internet connection is now available within areas you have downloaded."
+      ]
+    },
+    {
+      "id": "000036-118",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-160",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-192",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-119",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-087",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-016",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-023",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-069",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "reversed backwards"
+      ]
+    },
+    {
+      "id": "000036-047",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-155",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-002",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-190",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-131",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-126",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-008",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "no charge for this free visit"
+      ]
+    },
+    {
+      "id": "000036-077",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-196",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "one single club"
+      ]
+    },
+    {
+      "id": "000036-010",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "an advance notification beforehand"
+      ]
+    },
+    {
+      "id": "000036-183",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-184",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-078",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "recurred again"
+      ]
+    },
+    {
+      "id": "000036-147",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-173",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-009",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-145",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-017",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-039",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-015",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "We have merged the two tickets into one case.",
+        "Both reports are now combined together"
+      ]
+    },
+    {
+      "id": "000036-198",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "in chronological order by date"
+      ]
+    },
+    {
+      "id": "000036-172",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-046",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-195",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-057",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-037",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-059",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-114",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "I have attached the agenda to this email.",
+        "The agenda is included as an attachment"
+      ]
+    },
+    {
+      "id": "000036-076",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-028",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-075",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-115",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-022",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-003",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-152",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-053",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-166",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-110",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-049",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "an added extra"
+      ]
+    },
+    {
+      "id": "000036-095",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-107",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "full entire day"
+      ]
+    },
+    {
+      "id": "000036-084",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "a removable cover that you can take off"
+      ]
+    },
+    {
+      "id": "000036-187",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "an unexpected surprise"
+      ]
+    },
+    {
+      "id": "000036-093",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-045",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Both firms have visited the site.",
+        "Each of the two companies has carried out a site visit."
+      ]
+    },
+    {
+      "id": "000036-073",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-013",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-124",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-061",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-158",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "rises upward"
+      ]
+    },
+    {
+      "id": "000036-085",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## The fee is charged annually",
+        "The fee is charged once a year."
+      ]
+    },
+    {
+      "id": "000036-146",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-123",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-127",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-081",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-116",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-091",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-025",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-041",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "twelve-month warranties",
+        "each lasting a year"
+      ]
+    },
+    {
+      "id": "000036-188",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-141",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-139",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The tennis courts reopen on Monday.",
+        "Players can use the courts again from Monday."
+      ]
+    },
+    {
+      "id": "000036-018",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-157",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-051",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-072",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "first initial report"
+      ]
+    },
+    {
+      "id": "000036-080",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-027",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Faster startup",
+        "Startup is faster in this version."
+      ]
+    },
+    {
+      "id": "000036-164",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Measure the opening before you buy the replacement panel.",
+        "Take its measurements before purchasing the new panel."
+      ]
+    },
+    {
+      "id": "000036-012",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "the complete history of every transaction, with no transactions left out of the history"
+      ]
+    },
+    {
+      "id": "000036-167",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-186",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-054",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "two alternative options"
+      ]
+    },
+    {
+      "id": "000036-175",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-104",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-140",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-099",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-111",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-066",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-089",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "a pair of two pads"
+      ]
+    },
+    {
+      "id": "000036-200",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-182",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-004",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "a visible scratch that can be seen"
+      ]
+    },
+    {
+      "id": "000036-103",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Thursday's meeting is cancelled",
+        "We have cancelled Thursday's meeting."
+      ]
+    },
+    {
+      "id": "000036-143",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Soil retains heat",
+        "Soil retains heat."
+      ]
+    },
+    {
+      "id": "000036-197",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-120",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-001",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Your appointment has moved to Tuesday.",
+        "It is now scheduled for Tuesday."
+      ]
+    },
+    {
+      "id": "000036-083",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-035",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The installer checks for available disk space before downloading the package.",
+        "It now performs this check in advance before the download begins."
+      ]
+    },
+    {
+      "id": "000036-165",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-161",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Clean the filter",
+        "Clean the filter."
+      ]
+    },
+    {
+      "id": "000036-109",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The workshop will take place in person at the office.",
+        "Attendance will be on site rather than remote."
+      ]
+    },
+    {
+      "id": "000036-179",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-055",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-149",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "individually with each participant interviewed on their own"
+      ]
+    },
+    {
+      "id": "000036-100",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-102",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-189",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Outcome: The outcome was"
+      ]
+    },
+    {
+      "id": "000036-043",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-006",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-132",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-040",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-019",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "I have attached a copy of the invoice for your records.",
+        "The attachment is a copy of your invoice."
+      ]
+    },
+    {
+      "id": "000036-142",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "randomly assigned by chance"
+      ]
+    },
+    {
+      "id": "000036-024",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-159",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-150",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-062",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The loading bay contained no people when the alarm sounded.",
+        "Nobody was there."
+      ]
+    },
+    {
+      "id": "000036-170",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-101",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-096",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-148",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-135",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-082",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-136",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Bookings are limited to one slot per household.",
+        "Each household may reserve only one slot"
+      ]
+    },
+    {
+      "id": "000036-052",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-180",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Place the tiles in a straight line.",
+        "Arrange them so they form one straight row."
+      ]
+    },
+    {
+      "id": "000036-038",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "We removed the obsolete legacy import dialog.",
+        "It was the old dialog retained from the previous version."
+      ]
+    },
+    {
+      "id": "000036-092",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-174",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Leave the mixture to rest for ten minutes.",
+        "Allow a ten-minute resting period"
+      ]
+    },
+    {
+      "id": "000036-097",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-094",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The adapter is compatible with both models.",
+        "It works with either of the two models"
+      ]
+    },
+    {
+      "id": "000036-032",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "for each individual administrator separately"
+      ]
+    },
+    {
+      "id": "000036-064",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-088",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-113",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-130",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-014",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-029",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "exactly identical"
+      ]
+    },
+    {
+      "id": "000036-086",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-122",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-021",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-128",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-044",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-050",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-060",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "arrived before the deadline and were received on time"
+      ]
+    },
+    {
+      "id": "000036-079",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The service was restored at 07:30.",
+        "Normal operation resumed at half past seven."
+      ]
+    },
+    {
+      "id": "000036-178",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "a bright location with plenty of light"
+      ]
+    },
+    {
+      "id": "000036-177",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000036-105",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Please return the keys by Friday.",
+        "Friday is the deadline for handing the keys back."
+      ]
+    },
+    {
+      "id": "000036-201",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "collaborated together"
+      ]
+    },
+    {
+      "id": "000036-202",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Interviews lasted approximately forty minutes.",
+        "Each interview took about forty minutes"
+      ]
+    },
+    {
+      "id": "000036-203",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Wind speed increased overnight",
+        "Wind speed increased overnight."
+      ]
+    },
+    {
+      "id": "000036-204",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Study location: The location of the study was"
+      ]
+    },
+    {
+      "id": "000036-205",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Data collection ended on 30 June.",
+        "We finished collecting data on 30 June"
+      ]
+    },
+    {
+      "id": "000036-206",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Entries for the allotment competition close on 8 August.",
+        "The closing date for entries is 8 August"
+      ]
+    },
+    {
+      "id": "000036-207",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "combine together"
+      ]
+    },
+    {
+      "id": "000036-208",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "return borrowed folding chairs back"
+      ]
+    },
+    {
+      "id": "000036-209",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Start time: The start time is"
+      ]
+    },
+    {
+      "id": "000036-210",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The repair cafe has moved to the scout hut.",
+        "It will now be held at the scout hut"
+      ]
+    },
+    {
+      "id": "000036-211",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "sinks down"
+      ]
+    },
+    {
+      "id": "000036-212",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "resets back"
+      ]
+    },
+    {
+      "id": "000036-213",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The smaller pouch holds fifty grams.",
+        "Its capacity is fifty grams"
+      ]
+    },
+    {
+      "id": "000036-214",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## The display switches off after a minute",
+        "The display switches off after a minute."
+      ]
+    },
+    {
+      "id": "000036-215",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "You can wash the cover at thirty degrees.",
+        "The cover can be washed at thirty degrees"
+      ]
+    },
+    {
+      "id": "000036-216",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "lower the shelf down"
+      ]
+    },
+    {
+      "id": "000036-217",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "gathered together"
+      ]
+    },
+    {
+      "id": "000036-218",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The ferry left the harbour at dawn.",
+        "It departed at dawn"
+      ]
+    },
+    {
+      "id": "000036-219",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## The station clock stopped",
+        "The station clock stopped."
+      ]
+    },
+    {
+      "id": "000036-220",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "rose up"
+      ]
+    },
+    {
+      "id": "000036-221",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Location: The location of the leak was"
+      ]
+    },
+    {
+      "id": "000036-222",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Power failed at 10:14.",
+        "The loss of power occurred at 10:14"
+      ]
+    },
+    {
+      "id": "000036-223",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Return the drawer back"
+      ]
+    },
+    {
+      "id": "000036-224",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Raise the panel up"
+      ]
+    },
+    {
+      "id": "000036-225",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Mark the centre of the lid",
+        "Mark the centre of the lid."
+      ]
+    },
+    {
+      "id": "000036-226",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Cut a strip ten centimetres long.",
+        "The strip should be ten centimetres long"
+      ]
+    },
+    {
+      "id": "000036-227",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "revert back"
+      ]
+    },
+    {
+      "id": "000036-228",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The export limit is now five thousand rows.",
+        "We have increased the limit to five thousand rows"
+      ]
+    },
+    {
+      "id": "000036-229",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## Images load as you scroll",
+        "Images load as you scroll."
+      ]
+    },
+    {
+      "id": "000036-230",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Status: The status of the bulk editor is"
+      ]
+    },
+    {
+      "id": "000036-231",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Westmere can deliver the cabinets on 17 July.",
+        "Its delivery date is 17 July"
+      ]
+    },
+    {
+      "id": "000036-232",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "protrudes out"
+      ]
+    },
+    {
+      "id": "000036-233",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Recommended choice: Our recommended choice is"
+      ]
+    },
+    {
+      "id": "000036-234",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Tern proposes sending three installers.",
+        "Tern's proposal is for three installers"
+      ]
+    },
+    {
+      "id": "000036-235",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "there is no charge for the replacement and the replacement is free"
+      ]
+    },
+    {
+      "id": "000036-236",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Your request for a larger bin has been approved.",
+        "We have approved your request for a larger bin"
+      ]
+    },
+    {
+      "id": "000036-237",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "combine the two attendance lists together"
+      ]
+    },
+    {
+      "id": "000036-238",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Owner: The owner of this task is"
+      ]
+    },
+    {
+      "id": "000036-239",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The budget call starts at two.",
+        "We will begin the budget call at two"
+      ]
+    },
+    {
+      "id": "000036-240",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "## The stocktake has been postponed",
+        "The stocktake has been postponed."
+      ]
+    },
+    {
+      "id": "000036-241",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The inspection checklist is in the shared maintenance folder.",
+        "You will find the inspection checklist in the shared maintenance folder"
+      ]
+    }
+  ]
+}

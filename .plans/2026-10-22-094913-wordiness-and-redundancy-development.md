@@ -105,8 +105,7 @@ Use family `wordiness-and-redundancy`. Independent Codex definition review resol
 
 - Plan mixed evaluation after isolated development, before treating the family as validated. Use 200 complete texts per split: 25 for each of the eight hit/no-hit combinations across the three checks.
 - Label every text for all three checks. Each check then has exactly 100 hits and 100 no-hits per split; report 200 distinct texts and 600 judgments, plus all-issues-found and exact-match counts.
-- Current `runners/jev.mjs:loadDataset` creates one target per judgment and then rejects repeated target IDs. It cannot execute these multi-check labels as a single shared input today.
-- Before mixed inference, make the scoped runner change: load unique target text once, keep judgments keyed by target ID and check, score each requested check from its own judgment, and retain one provider question per target/check.
+- Implemented `runners/jev.mjs:loadDataset` support loads each target once and keeps its judgments keyed by target ID and check. Each requested check scores its own judgment, with one provider question per target/check.
 - Add aggregate scoring from the same saved predictions. All-issues-found counts texts with at least one expected hit whose expected hits are all caught: 175 eligible texts per planned split. Exact match requires all three predicted booleans to match all three labels: 200 eligible texts, including the 25 all-negative controls.
 - Include only texts labeled for every evaluated check in those two aggregates; report the number excluded for incomplete labeling. Missing labels remain unassessed. Per-check scoring still uses every available judgment for that check.
 - Preserve the dataset schema and file format. Add an executable Specular requirement and public contract tests for mixed positive/negative labels on the same ID, sparse labels remaining unassessed, correct denominators, cached results, and unchanged isolated scoring.
@@ -127,8 +126,19 @@ Use family `wordiness-and-redundancy`. Independent Codex definition review resol
 
 ## Completion
 
-- Execution progress: definitions are frozen at `eb8390ac`; Codex pilot generation and review are underway. Adversarial pilot review corrects an ordinary-idiom hit and a heading/opening temporal distinction before scaling; expanded pilots strengthen close controls and remove class-order shortcuts.
+### Current Progress
+
+- Execution progress: definitions are frozen at `eb8390ac`. All six isolated pools pass final independent review, with 1,333 inputs. Balanced selections retain 1,200 inputs and preserve 133 reviewed surplus inputs for a linked Git archive.
 - Mixed-runner support is implemented and independently reviewed: 46 contract checks pass, including the 42 unchanged historical checks. Historical development comparisons and cache validation preserve single-check behavior; provider-backed mixed evaluation still awaits finalized datasets.
+- Each selected check/split has exactly 100 hits and 100 no-hits, including ten of each in all ten settings. Selection preserves mandatory hard cases; the development sets retain all thirty pilot IDs, with later label corrections recorded.
+- Full wordiness and redundancy passage reviews reject forced constructions and identify meaningful formal language, conversions, and procedural repetition. Repair writing and correct judgments before balancing; reviewers' initial agreement does not establish plausibility.
+- The service accepts the pinned `jev-1.13.0` identifier despite omitting versioned identifiers from its model listing. One neutral connectivity request confirms access; slop-classification evaluation awaits reviewed datasets.
+- Protected final review approves the holdouts. A source-bound lexical overlap screen checks 444,216 development/holdout pool pairs and finds zero candidates at its declared exact-match and shingle-similarity thresholds; nine algorithm checks verify the screen.
+- The existing development driver accepts `--maximum-revisions 3`, preserving its previous default of six. Strict decimal validation repairs a fresh review finding on empty arguments; all 149 offline integrity probes pass and independent follow-up confirms the repair.
+- Initial `v16` prompts use reviewed development demonstrations only. Assembled word counts, including shared instructions and question criteria, are 718 for wordiness, 628 for redundancy, and 984 for repeated explanation. Prompt review corrects blanket agentless protection and a broad highlight; the repeated-explanation demonstrations cover both a repeated verdict and a repeated mechanism.
+- Mixed development generation is complete: 200 texts, 42,451 words, and 600 author judgments, with 25 texts in each of the eight combinations. Independent review remains; four separate protected contexts are generating the mixed holdout.
+
+### Required Before Completion
 
 - The pilot and final datasets pass independent plausibility and label review. Every isolated type has frozen development and protected holdout sets of exactly 100 hits and 100 no-hits each.
 - Each check has recorded development predictions, prompt exposure, a selected frozen candidate, a gate result, and a manual review of remaining errors. Report failed targets explicitly.
