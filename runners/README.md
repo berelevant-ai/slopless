@@ -40,6 +40,18 @@ node runners/jev.mjs validate --family puffery-and-overstatement --mode classifi
 
 Use the same arguments with `run --output FILE` for inference or `rescore --output FILE` after correcting judgments.
 
+## Paragraph Experiment
+
+The scoped `jev-paragraphs.mjs` experiment reads a saved wordiness/redundancy mixed result, judges each plain paragraph for its two passage checks, and scores the original text labels by any positive paragraph. It preserves heading/opening pairs, rejects other Markdown block types through textlint's parser, and reuses whole-text repeated-explanation probabilities.
+
+```sh
+node runners/jev-paragraphs.mjs --help
+node runners/jev-paragraphs.mjs score --baseline runners/results/wordiness-and-redundancy-v16-mixed-holdout.json --output runners/results/wordiness-and-redundancy-v16-paragraph-holdout.json
+node --test runners/jev-paragraphs.test.mjs
+```
+
+`validate` and `score` are offline; `run` requires the approved credential in `JEV_API_KEY`. Inputs, request hashes, original labels, and the completed prediction seal are verified on replay. The first completed response is archived at `0da39135`; its offline `seal --archive COMMIT` migration checks exact archived result bytes and producing-source hash before adding integrity fields. [The comparison](results/wordiness-and-redundancy-v16-paragraph-holdout.md) reports the exposed-holdout experiment separately from the first frozen evaluation.
+
 ## Check Questions
 
 A check Markdown file can start with JSON front matter between `---` lines. Store an `instructions` string and `criteria` with nonempty `true` and `false` strings there; keep the check's principle and examples in the Markdown body.

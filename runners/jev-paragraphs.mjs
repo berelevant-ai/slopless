@@ -1,9 +1,11 @@
 import assert from "node:assert/strict";
+import { execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync } from "node:fs";
-import { resolve } from "node:path";
+import { relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
+import { loadTextlintrc } from "textlint";
 import {
   batchPlans,
   buildRequest,
@@ -20,26 +22,57 @@ import {
 const hash = (value) => createHash("sha256").update(value).digest("hex");
 const read = (file) => JSON.parse(readFileSync(file, "utf8"));
 const checks = ["redundancy", "wordiness"];
+const markdownPlugin = (await loadTextlintrc())
+  .toKernelOptions()
+  .plugins.find(
+    (plugin) => plugin.pluginId === "@textlint/textlint-plugin-markdown"
+  );
+assert.ok(markdownPlugin);
+const markdown = new markdownPlugin.plugin.Processor().processor(".md");
+
+const predictionHash = (result) =>
+  hash(
+    JSON.stringify({
+      snapshot: result.snapshot,
+      targets: result.targets,
+      batches: result.batches,
+      assessment: result.assessment,
+      sealedFromCommit: result.sealedFromCommit
+    })
+  );
+
+export function validateSeal(result) {
+  assert.equal(
+    result.inferenceSha256,
+    predictionHash(result),
+    "Saved paragraph predictions changed"
+  );
+}
 
 // This experiment accepts the frozen collection's plain paragraphs and headings.
 export function paragraphTargets(rows) {
   return rows.flatMap((row) => {
-    assert.ok(
-      !/^\s*(?:[-+*]|\d+[.)])\s|^\s*(?:>|```|~~~|<|\|)|^\s*(?:={3,}|-{3,})\s*$/m.test(
-        row.text
-      ),
-      `${row.id}: unsupported Markdown block structure`
-    );
+    const ast = markdown.preProcess(row.text);
+    assert.equal(ast.type, "Document");
     const ranges = [];
     let headingStart;
-    for (const match of row.text.matchAll(/\S[\s\S]*?(?=\n[ \t]*\n|$)/g)) {
-      if (match[0].split("\n").every((line) => /^#{1,6}\s+\S/.test(line))) {
-        headingStart ??= match.index;
+    for (const node of ast.children) {
+      assert.ok(
+        ["Paragraph", "Header"].includes(node.type),
+        `${row.id}: unsupported Markdown block structure ${node.type}`
+      );
+      if (node.type === "Header") {
+        assert.match(
+          row.text.slice(...node.range),
+          /^#{1,6}\s+\S/,
+          `${row.id}: unsupported Markdown heading`
+        );
+        headingStart ??= node.range[0];
         continue;
       }
       ranges.push({
-        start: headingStart ?? match.index,
-        end: match.index + match[0].length
+        start: headingStart ?? node.range[0],
+        end: node.range[1]
       });
       headingStart = undefined;
     }
@@ -141,18 +174,20 @@ async function main() {
     options: {
       baseline: { type: "string" },
       output: { type: "string" },
-      help: { type: "boolean" }
+      help: { type: "boolean" },
+      archive: { type: "string" }
     }
   });
   if (values.help) {
     console.log(
-      "node runners/jev-paragraphs.mjs <validate|run|score> --baseline FILE --output FILE\nJudge wordiness and redundancy per plain paragraph, joining heading/opening blocks. Aggregate by any positive paragraph and reuse whole-text repeated-explanation answers. Keeps original labels; run requires JEV_API_KEY. validate and score are offline. Unsupported Markdown blocks fail before inference."
+      "node runners/jev-paragraphs.mjs <validate|run|score|seal> --baseline FILE --output FILE [--archive COMMIT]\nJudge wordiness and redundancy per plain paragraph, joining heading/opening blocks. Aggregate by any positive paragraph and reuse whole-text repeated-explanation answers. Keeps original labels; run requires JEV_API_KEY. validate and score are offline. seal migrates an unsealed complete result only after exact comparison with its archived Git result and producing source. Unsupported Markdown blocks fail before inference."
     );
     return;
   }
   const [command] = positionals;
   assert.ok(
-    positionals.length === 1 && ["validate", "run", "score"].includes(command)
+    positionals.length === 1 &&
+      ["validate", "run", "score", "seal"].includes(command)
   );
   assert.ok(values.baseline && values.output);
   const baseline = read(values.baseline);
@@ -203,7 +238,14 @@ async function main() {
   const result = existsSync(output)
     ? read(output)
     : { snapshot: binding, targets, batches: [] };
-  assert.deepEqual(result.snapshot, binding);
+  if (command === "run") assert.deepEqual(result.snapshot, binding);
+  else {
+    const { runnerSha256: producer, ...savedBinding } = result.snapshot;
+    const { runnerSha256: verifier, ...currentBinding } = binding;
+    assert.match(producer, /^[a-f0-9]{64}$/);
+    assert.match(verifier, /^[a-f0-9]{64}$/);
+    assert.deepEqual(savedBinding, currentBinding);
+  }
   assert.deepEqual(result.targets, targets);
   assert.ok(
     Array.isArray(result.batches) && result.batches.length <= plans.length
@@ -264,8 +306,38 @@ async function main() {
     if (result.assessment) assert.deepEqual(result.assessment, assessment);
     else if (command === "run") {
       result.assessment = assessment;
+      result.inferenceSha256 = predictionHash(result);
       writeAtomicJson(output, result);
     }
+    if (command === "seal") {
+      assert.ok(!result.inferenceSha256, "Result is already sealed");
+      assert.match(
+        values.archive ?? "",
+        /^[a-f0-9]{40}$/,
+        "seal requires the full archive commit"
+      );
+      const archived = execFileSync("git", [
+        "show",
+        `${values.archive}:${relative(process.cwd(), output)}`
+      ]);
+      assert.ok(
+        archived.equals(readFileSync(output)),
+        "Result differs from the archived original"
+      );
+      const producer = execFileSync("git", [
+        "show",
+        `${values.archive}:runners/jev-paragraphs.mjs`
+      ]);
+      assert.equal(
+        hash(producer),
+        result.snapshot.runnerSha256,
+        "Producing runner differs from archive"
+      );
+      result.sealedFromCommit = values.archive;
+      result.inferenceSha256 = predictionHash(result);
+      writeAtomicJson(output, result);
+    }
+    validateSeal(result);
     console.log(
       JSON.stringify({
         complete,

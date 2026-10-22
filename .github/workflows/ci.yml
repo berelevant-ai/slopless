@@ -26,3 +26,4 @@ jobs:
       - run: pnpm run validate
       - run: node runners/datasets.mjs
       - run: node scripts/datasets-contract.mjs behavior/fixtures/datasets/contract.json
+      - run: node --test runners/jev-paragraphs.test.mjs

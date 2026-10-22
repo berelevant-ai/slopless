@@ -2,7 +2,11 @@ import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import test from "node:test";
-import { aggregate, paragraphTargets } from "./jev-paragraphs.mjs";
+import {
+  aggregate,
+  paragraphTargets,
+  validateSeal
+} from "./jev-paragraphs.mjs";
 import { loadDataset } from "./jev.mjs";
 
 const baselinePath =
@@ -49,7 +53,10 @@ test("unsupported block structures fail before provider initialization", () => {
     "> Quoted block",
     "```\ncode\n```",
     "Title\n---",
-    "| Column |",
+    "Title\n=",
+    "    indented code",
+    "Column | Other\n--- | ---\nValue | Other",
+    "| Column | Other |\n| --- | --- |\n| Value | Other |",
     "<div>Text</div>"
   ]) {
     assert.throws(
@@ -57,6 +64,26 @@ test("unsupported block structures fail before provider initialization", () => {
       /unsupported Markdown/
     );
   }
+});
+
+test("raw probability edits fail the seal even when the parent maximum is unchanged", () => {
+  const result = JSON.parse(
+    readFileSync(
+      "runners/results/wordiness-and-redundancy-v16-paragraph-holdout.json",
+      "utf8"
+    )
+  );
+  validateSeal(result);
+  const changed = structuredClone(result);
+  const answer = changed.batches
+    .flatMap((batch) => Object.entries(batch.response.answers))
+    .find(([key]) => key === "000040-002-p001_redundancy")[1];
+  assert.equal(answer.noul, 0.15);
+  answer.noul = 0;
+  assert.throws(
+    () => validateSeal(changed),
+    /Saved paragraph predictions changed/
+  );
 });
 
 test("parent scoring retains all labels and whole-text repeated-explanation probabilities", () => {
