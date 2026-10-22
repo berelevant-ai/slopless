@@ -7,7 +7,7 @@ Each isolated check uses the same 100 expected hits and 100 expected no-hits acr
 - Wordiness selects `wordiness-r2`: 98 hits caught, two missed, and 20 false positives. The false-positive gate fails.
 - Redundancy retains `b0`: 83 hits caught, seventeen missed, and eleven false positives. Both gates fail; two consecutive worse revisions stop its round.
 - Repeated explanation selects `repeated-r2`: 98 hits caught, two missed, and five false positives. It meets both development bounds and the 1,000-word prompt limit.
-- On mixed development, the unchanged prompts produce many false positives: wordiness catches 96/100 hits with 74/100 false positives; redundancy 83/48; repeated explanation 99/thirteen. All three exceed the false-positive bound. Independent error review is in progress.
+- On final mixed development, unchanged prompts catch 99/100 wordiness hits with 75/100 false positives, redundancy 83/46, and repeated explanation 99/twelve. All three exceed the false-positive bound.
 
 ## Attempts
 
@@ -41,34 +41,45 @@ Native histories are [wordiness](wordiness-v16-development.json), [redundancy](r
 
 ## Mixed Development
 
-The first mixed collection was frozen at `55d8377c` before inference. Its 200 complete texts carry 600 judgments, originally including exactly 100 hits and 100 no-hits for each check. The counts immediately below preserve that original assessment.
+The final [mixed collection](../../datasets/ai-synthetic/texts/000039-wordiness-and-redundancy-mixed-development.md) was frozen at `61b0f69c` before its assessment. Its 200 complete texts carry 600 judgments, with exactly 100 hits and 100 no-hits for each check.
 
-- Wordiness catches 96 hits, misses four, and produces 74 false positives. Redundancy catches 83, misses seventeen, and produces 48 false positives. Repeated explanation catches 99, misses one, and produces thirteen false positives.
-- Across all checks, 278/300 expected hits are caught and 135/300 no-hits are flagged. This gives 443/600 correct judgments; all three checks exceed the fixed false-positive bound.
-- All expected issues are caught in 152/172 texts containing an issue. All three booleans match in 75/200 texts, including the all-negative controls. This distinction exposes additional unwanted findings beside successful catches.
-- The [native result](wordiness-and-redundancy-v16-mixed-development.json) preserves 39 requests and 600 decisions, using 297,409 input tokens and 17,756 output tokens. Saved request time totals 10,583 milliseconds.
-- Keep the isolated selected prompts, model, threshold, and execution settings unchanged. Each request contains sixteen complete targets at most and one named check; each of the three checks uses thirteen requests.
+- Wordiness catches 99 hits, misses one, and produces 75 false positives. Redundancy catches 83, misses seventeen, and produces 46 false positives. Repeated explanation catches 99, misses one, and produces twelve false positives.
+- Across all checks, 281/300 expected hits are caught and 133/300 no-hits are flagged. This gives 448/600 correct judgments; all three checks exceed the fixed false-positive bound.
+- All expected issues are caught in 152/170 texts containing an issue. All three booleans match in 77/200 texts. If counting any family finding, 166/170 affected texts are flagged, alongside 10/30 completely clean texts.
+- The [native result](wordiness-and-redundancy-v16-mixed-development.json) preserves 39 requests and 600 decisions, using 297,310 input tokens and 17,756 output tokens. Saved request time totals 10,190 milliseconds.
+- The isolated selected prompts, model, threshold, and execution settings remain unchanged. Each request contains at most sixteen complete targets and one named check; each check uses thirteen requests.
 
 ### Findings By Combination
 
-- Among wordiness no-hits, false positives occur in 7/28 texts clean for all three checks, 19/22 with local redundancy alone, 21/22 with repeated explanation alone, and 27/28 with both other issues.
-- Redundancy flags 46/47 of its no-hits that contain repeated explanation, versus 2/53 of its other no-hits. Repeated explanation flags 12/47 of its no-hits containing local redundancy, versus 1/53 of its other no-hits.
+- Among wordiness no-hits, false positives occur in 10/30 texts clean for all three checks, 17/20 with local redundancy alone, 19/20 with repeated explanation alone, and 29/30 with both other issues.
+- Redundancy flags 44/45 of its no-hits that contain repeated explanation, versus 2/55 of its other no-hits. Repeated explanation flags 11/45 of its no-hits containing local redundancy, versus 1/55 of its other no-hits.
 - These are observed classification differences across labeled groups. The runner thresholds one model probability per check and complete input at 0.5; reviewer quotes explain the labels and remain separate from model highlighting.
+
+### Reviewed Errors
+
+- All 152 final errors have complete-input review coverage. Earlier reviews carry forward for 144 unchanged error judgments; the parent reviews all eight new or changed error judgments across seven complete texts.
+- Wordiness overflags useful formal actions and passages whose excess belongs to the repetition checks. A protected example is "The committee can recommend a room allocation, but the department head must approve it before anyone moves": the verbs express different powers.
+- Its one remaining miss is `000039-261`, containing "in the event that". Among eighteen original/padding-positive pairs, seventeen variants are caught, fifteen originals are falsely flagged, and only two pairs receive both correct decisions.
+- Redundancy misses local duplicated meanings such as "combined together" and "available offline without an internet connection". Its false positives concern separated explanations and useful glosses; "The highest point with the head raised is the height to check" tells the buyer how to measure it.
+- Repeated explanation misses the distant register-recording explanation in `000039-158`. Its twelve false positives comprise ten adjacent-duplication cases and two useful returns, including the deadline recap and the sealant warning immediately before application.
+- Fresh adjudication retains the deadline recap's no-hit label. The same sentence's "which is the last day requests can be submitted" remains locally redundant; each check judges its own defect.
 
 ### Data Review And Preservation
 
 - Independent final review corrects sixteen judgments before inference, preserving their complete texts. Fifteen concern ordinary operation wording; the other is a useful procedural reminder. Fifteen new same-split variants add explicit padding while retaining the original controls.
-- The final development set retains all 106 required cases. Its 28 required all-negative texts force adjusted combination counts of 22-28 while preserving the 100/100 per-check denominators; holdout keeps 25 per combination.
-- The full 249-text development pool remains at `7f6d80e6`, including 49 surplus texts. The 216-text holdout pool remains at `24144852`, including sixteen surplus texts. The eight active collections contain 800 inputs per split and pass a 640,000-pair lexical overlap screen with zero candidates.
-- Development contains fifteen intentional original/variant pairs. They share context and are recorded together; report the 200 inputs as a development sample with related examples.
-- Independent review of every mixed classification error and all native requests is in progress. Holdout inference remains separately gated; the isolated and mixed assessments use different inputs.
+- The final development set retains all 112 required cases and thirty required all-negative texts. Adjusted combination counts of 20-30 preserve the 100/100 per-check denominators; holdout keeps 25 per combination.
+- The corrected full 252-text development pool remains at `d7b01a08`, including 52 surplus texts. The 216-text holdout pool remains at `24144852`, including sixteen surplus texts. The eight active collections contain 800 inputs per split and pass a 640,000-pair lexical overlap screen with zero candidates.
+- Development contains eighteen intentional original/variant pairs. They share context and are recorded together; report the 200 inputs as a development sample with related examples.
+- One error-review context ran a broad `runners/` search exposing historical holdout-result metadata. Its output was truncated; that context is excluded from future prompt authoring. Prompts remain byte-identical to the pre-incident selected candidates.
+- Holdout inference remains separately gated. The isolated and mixed assessments use different inputs; both retain their failed targets and saved predictions.
 
 ### Post-Freeze Label Corrections
 
 - Independent adjudication corrects wordiness labels `000039-005`, `000039-103`, and `000039-149` to no-hit. They preserve degree and ability, tentative evidence, and an ordinary assessment action respectively. Their complete writing remains unchanged.
-- Native offline rescoring preserves every original prediction. Wordiness becomes 96/97 caught hits and 74/103 false positives; the other checks retain their counts. All-issues-found becomes 152/170, and exact match becomes 77/200.
-- These three changed judgments improve the measured result through corrected labels. Prompts, model settings, and predictions remain unchanged; the saved result retains both original summaries and appended corrected summaries.
-- Three additional padding-positive variants are undergoing independent review before balancing the next assessment. Keep all corrected controls and select by the existing stable-ID rule, then freeze the replacement set before evaluating it.
+- The [first assessment at `384f0d64`](https://github.com/berelevant-ai/slopless/blob/384f0d64227fe045268a451391fe663508a8b740/runners/results/wordiness-and-redundancy-v16-mixed-development.json) preserves every original prediction and appended offline rescoring. Wordiness changes from 96/100 caught and 74/100 false positives to 96/97 and 74/103; the other checks retain their counts. Corrected all-issues-found is 152/170 and exact match 77/200.
+- Three reviewed variants restore a balanced cohort through the predeclared stable-ID selection rule. The final set keeps 195 previous inputs with identical writing and corrected labels, adds five, and archives five; none of these choices uses detector scores.
+- Of the 585 repeated judgments on unchanged inputs, six cross the same 0.5 threshold between runs. Their recorded probabilities fall between 0.44 and 0.54; the prompts and execution settings remain unchanged.
+- Final-versus-first differences include label corrections, changed inputs, and observed repeat variability. Report those causes separately from prompt tuning; this stage makes no prompt revisions.
 
 ## Complete Development Examples
 

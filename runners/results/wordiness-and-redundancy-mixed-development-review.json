@@ -3,7 +3,7 @@
   "family": "wordiness-and-redundancy",
   "input": "text",
   "split": "development",
-  "stage": "frozen balanced selection before mixed inference",
+  "stage": "final balanced mixed-development evaluation complete; all three false-positive gates fail",
   "definitionCommit": "eb8390ac",
   "fullPool": {
     "texts": 252,
@@ -286,9 +286,57 @@
     "labelsSha256": "aabadef1769f4f42b7be095a9edb72f75cdab6179096534272705b40f9a25859"
   },
   "inference": {
-    "providerCalls": 0,
+    "status": "complete",
+    "datasetFreezeCommit": "61b0f69ca7499d9f13b80526524ca6947e590117",
+    "result": "runners/results/wordiness-and-redundancy-v16-mixed-development.json",
+    "resultSha256": "67065a8074b2afdbfa2d7c9c3f7a067cfb867faa0fdfa75168e5bdb7b0e2d9be",
+    "providerCalls": 39,
+    "decisions": 600,
     "holdoutCalls": 0,
-    "status": "Mixed development awaits frozen-data evaluation"
+    "model": "jev-1.13.0",
+    "sdk": "0.7.0",
+    "threshold": 0.5,
+    "batchSize": 16,
+    "mode": "classification-only",
+    "promptsUnchanged": true,
+    "summaries": [
+      {
+        "check": "redundancy",
+        "positives": 100,
+        "caught": 83,
+        "misses": 17,
+        "noHits": 100,
+        "falsePositives": 46,
+        "gatePassed": false
+      },
+      {
+        "check": "repeated-explanation",
+        "positives": 100,
+        "caught": 99,
+        "misses": 1,
+        "noHits": 100,
+        "falsePositives": 12,
+        "gatePassed": false
+      },
+      {
+        "check": "wordiness",
+        "positives": 100,
+        "caught": 99,
+        "misses": 1,
+        "noHits": 100,
+        "falsePositives": 75,
+        "gatePassed": false
+      }
+    ],
+    "mixed": {
+      "targets": 200,
+      "judgments": 600,
+      "excludedIncomplete": 0,
+      "allIssuesFound": { "eligible": 170, "matched": 152 },
+      "exactMatch": { "eligible": 200, "matched": 77 }
+    },
+    "usage": { "input_tokens": 297310, "output_tokens": 17756 },
+    "requestMs": 10189.550330999997
   },
   "overlap": {
     "status": "passed on eight final canonical selected collections",
@@ -358,5 +406,88 @@
     "preserved": "Original first-cohort predictions and native post-adjudication rescoring",
     "promptsChanged": false,
     "selectionUsesScores": false
-  }
+  },
+  "errorReview": {
+    "totalFinalErrors": 152,
+    "inheritedCompleteInputReviews": 144,
+    "parentNewOrChangedJudgments": 8,
+    "parentCompleteTexts": 7,
+    "perCheck": {
+      "wordiness": 76,
+      "redundancy": 63,
+      "repeated-explanation": 13
+    },
+    "proofs": {
+      "wordiness": {
+        "sha256": "25bcb9ae5b31f390e8251424e172778e35c59f773347f541c1f783726e1f1b8d"
+      },
+      "redundancy": {
+        "sha256": "cd9eff3032ee45bc77467bad58518a0df91c28b17b79b8c76aceb579b34e6186"
+      },
+      "repeatedExplanation": {
+        "sha256": "9d8fa5d7d1cf6a982b5a768d0b1566fe37cb0e44e14ff3f0af97f832c38b6eb0"
+      },
+      "parentNewErrors": {
+        "sha256": "f1bc3aded10c9a00337b100666d4d195d3855322d9e38805340232e99f21137b"
+      },
+      "wordinessAdjudication": {
+        "sha256": "5b6b5fc0839c4b82e38a3039225d658d45484812ad933fa8f3a0f3ec06bec40b"
+      },
+      "deadlineAdjudication": {
+        "sha256": "b5c6c5ec73da2d721b51e6088cba720db6c0aed3789cc222ad41bddc1e502752"
+      }
+    },
+    "labelChangesDuringFinalEvaluation": 0
+  },
+  "mechanicalVerification": {
+    "selected": {
+      "sha256": "5da09b08cb2d3aa97d1c96baea672b2280e93a55418994f5ef3f2cad8814645c"
+    },
+    "native": {
+      "sha256": "adb0562e253b9249d426cdf2b353f14e08307bfc53d7f3de47c4d8a872ae8217"
+    },
+    "requestsReconstructed": 39,
+    "decisionsValidated": 600
+  },
+  "comparisonWithFirst": {
+    "archiveCommit": "384f0d64227fe045268a451391fe663508a8b740",
+    "sharedInputs": 195,
+    "sharedJudgments": 585,
+    "added": [
+      "000039-174",
+      "000039-182",
+      "000039-260",
+      "000039-261",
+      "000039-262"
+    ],
+    "archived": [
+      "000039-035",
+      "000039-036",
+      "000039-091",
+      "000039-092",
+      "000039-093"
+    ],
+    "sharedClassificationChanges": [
+      { "id": "000039-042", "check": "redundancy" },
+      { "id": "000039-078", "check": "wordiness" },
+      { "id": "000039-088", "check": "wordiness" },
+      { "id": "000039-119", "check": "wordiness" },
+      { "id": "000039-230", "check": "wordiness" },
+      { "id": "000039-241", "check": "wordiness" }
+    ],
+    "pairedVariants": 18,
+    "variantsCaught": 17,
+    "originalsFalselyFlagged": 15,
+    "bothDecisionsCorrect": 2,
+    "interpretation": "Labels, cohort selection, and repeat variability change results; the detector prompts and settings stay fixed."
+  },
+  "reviewScopeException": {
+    "context": "01a163d6-074c-7543-8407-b58862719c23",
+    "operation": "Recursive search through runners/ exposed historical holdout-result metadata in a truncated result.",
+    "knownHistoricalFamily": "semantic-thinness",
+    "completeOutputExposure": "Unresolved because output was truncated.",
+    "restriction": "Error review only; exclude this context from all future prompt authoring.",
+    "frozenPromptsChanged": false
+  },
+  "next": "Stop after final independent report review. Holdout inference requires separate authorization; preserve failed gates and production behavior."
 }

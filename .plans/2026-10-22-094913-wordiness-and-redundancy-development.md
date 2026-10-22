@@ -141,7 +141,10 @@ Use family `wordiness-and-redundancy`. Independent Codex definition review resol
 - Independent isolated error review covers every attempted candidate. A separate snippet correction removes two useful callbacks from `000037-188`; native rescoring preserves all classifications and original predictions.
 - The first mixed cohort is frozen at `55d8377c` before inference. Its 600 decisions in 39 requests catch 96 wordiness hits with 74 false positives, redundancy 83/48, and repeated explanation 99/thirteen; all-issues-found is 152/172 and exact match 75/200.
 - Fresh adjudication corrects three wordiness positives to no-hit after complete error review. Archived assessment `384f0d64` preserves original predictions and native offline rescoring: wordiness 96/97 caught with 74/103 false positives, all-issues-found 152/170, exact match 77/200.
-- The corrected balanced selection and three new paired variants pass independent final review. The final eight-source canonical overlap screen finds zero candidates; freeze this selection before the fresh unchanged-prompt assessment and inherit earlier case reviews only for unchanged writing and judgments.
+- Final balanced development is frozen at `61b0f69c` before reassessment. The unchanged prompts score wordiness 99 caught/seventy-five false positives, redundancy 83/46, and repeated explanation 99/twelve; all three fail the false-positive bound.
+- All-issues-found is 152/170 and exact match 77/200. The final 152 errors have complete-input review coverage: 144 inherited unchanged error judgments and eight new or changed judgments reviewed across seven complete texts.
+- Independent mechanical review reconstructs all 39 final requests and 600 decisions, reproduces all scores, and verifies frozen source bytes. The 195 shared inputs retain their corrected labels; six of their 585 judgments cross the same threshold between runs.
+- All eighteen development pairs remain selected: seventeen variants are caught, fifteen originals are falsely flagged, and two pairs receive both correct decisions. Preserve the first assessment and its native rescore at `384f0d64`; attribute cohort and label changes separately from tuning.
 - Holdout inference remains unrun and separately authorized. Stop after reviewed development reporting; preserve failed gates and production behavior.
 
 ### Required Before Completion
