@@ -1038,7 +1038,10 @@
       "freshPaths": true
     }
   ],
-  "holdoutInference": "requires separate user authorization",
+  "holdoutInference": {
+    "executed": false,
+    "status": "Prepared and protected; requires separate user authorization."
+  },
   "vocabularyAdjudication": {
     "status": "Corrected both splits, preserved full pools and balanced selections.",
     "developmentArchive": "3f663d8b",
@@ -12201,6 +12204,1750 @@
       },
       "labels_changed": false,
       "storage": "Changed predictions remain in native outputs and corrected-comparison deltas; grouped complete-input review decisions remain here."
+    },
+    "vocabularyFinal": {
+      "reviewSha256": "c56134f4ef5f793f65c2cab14236f1c78018b206433c379f40de0acd6191608d",
+      "status": "complete",
+      "decision": "Retain selected R1 (a15196cd). R2 and final R3 are two successive non-improvements against its frozen-label score; confirmation uses the same R1 prompt. Stop tuning under the revision limit.",
+      "selected_commit": "a15196cdced00f7bf1d8b02bc677e745e3bf1d81",
+      "settings": {
+        "model": "jev-1.13.0",
+        "threshold": 0.5,
+        "mode": "classification-only",
+        "batch_size": 16
+      },
+      "verification": {
+        "native_offline_validation": "All ten vocabulary result files pass validate: complete=true, 13 batches and 200 decisions each.",
+        "summaries_recomputed": true,
+        "inference_hashes_verified": true,
+        "same_cohorts_and_settings": true,
+        "source_pairs_byte_identical_to": "365bcef8",
+        "labels_changed": false,
+        "definitions_changed": false,
+        "prompt_changes": 0,
+        "provider_calls": 0,
+        "repository_edits": 0,
+        "holdout_materials_read": false,
+        "full_input_review": "Complete source passages were read for the union of errors and changed judgments. Previously read identical passages were reused; all six newly encountered R3 passages were read in full.",
+        "distinct_passages_reviewed": 109,
+        "stage_union_counts": {
+          "r1": {
+            "isolated": 30,
+            "mixed": 20
+          },
+          "r2": {
+            "isolated": 47,
+            "mixed": 40
+          },
+          "r3": {
+            "isolated": 54,
+            "mixed": 43
+          },
+          "confirmation": {
+            "isolated": 32,
+            "mixed": 23
+          }
+        },
+        "stage_union_definition": "R2: errors or changes versus R1. R3: errors or changes versus R2 or R1. Confirmation: errors or changes versus selected R1. Selected R1: errors.",
+        "cause_status": "Count inventories are reviewer assessments. Provider responses contain probabilities, so inferred counting or ownership failures are editorial diagnoses."
+      },
+      "source_sha256": {
+        "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md": "a030f3dccf7dcfab0e7408f778810621548d2bf64447b47fa8d90ddbfb254097",
+        "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.labels.json": "2e43fe07c56b8e6be53e9401b313325a03cde74be5a6ab4bbea795f55851e33e",
+        "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md": "cb44f22a4f3f4bc08760b473993d8f71af9bfd1bb53812a238f688b3f441cd82",
+        "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.labels.json": "6d8880d646c08bfe4ac45c6cd3434a4cf4cb1ce40e6014722f82031353fc9528"
+      },
+      "scorecard": {
+        "b0": {
+          "isolated": {
+            "caught": 98,
+            "missed": 2,
+            "false_positives": 41,
+            "correctly_unflagged": 59,
+            "errors": 43
+          },
+          "mixed": {
+            "caught": 100,
+            "missed": 0,
+            "false_positives": 17,
+            "correctly_unflagged": 83,
+            "errors": 17
+          }
+        },
+        "r1": {
+          "isolated": {
+            "caught": 93,
+            "missed": 7,
+            "false_positives": 23,
+            "correctly_unflagged": 77,
+            "errors": 30
+          },
+          "mixed": {
+            "caught": 100,
+            "missed": 0,
+            "false_positives": 20,
+            "correctly_unflagged": 80,
+            "errors": 20
+          }
+        },
+        "r2": {
+          "isolated": {
+            "caught": 93,
+            "missed": 7,
+            "false_positives": 21,
+            "correctly_unflagged": 79,
+            "errors": 28
+          },
+          "mixed": {
+            "caught": 90,
+            "missed": 10,
+            "false_positives": 22,
+            "correctly_unflagged": 78,
+            "errors": 32
+          }
+        },
+        "r3": {
+          "isolated": {
+            "caught": 98,
+            "missed": 2,
+            "false_positives": 34,
+            "correctly_unflagged": 66,
+            "errors": 36
+          },
+          "mixed": {
+            "caught": 98,
+            "missed": 2,
+            "false_positives": 17,
+            "correctly_unflagged": 83,
+            "errors": 19
+          }
+        },
+        "confirmation": {
+          "isolated": {
+            "caught": 94,
+            "missed": 6,
+            "false_positives": 25,
+            "correctly_unflagged": 75,
+            "errors": 31
+          },
+          "mixed": {
+            "caught": 100,
+            "missed": 0,
+            "false_positives": 22,
+            "correctly_unflagged": 78,
+            "errors": 22
+          }
+        }
+      },
+      "total_errors": {
+        "b0": 60,
+        "r1": 50,
+        "r2": 60,
+        "r3": 55,
+        "confirmation": 53
+      },
+      "errors_by_run": {
+        "b0": {
+          "isolated": {
+            "missed": [
+              "000049-209",
+              "000049-225"
+            ],
+            "false_positives": [
+              "000049-202",
+              "000049-210",
+              "000049-212",
+              "000049-214",
+              "000049-221",
+              "000049-235",
+              "000049-236",
+              "000049-248",
+              "000049-250",
+              "000049-251",
+              "000049-257",
+              "000049-260",
+              "000049-d-2a16c700e87d",
+              "000049-d-331a426c2d11",
+              "000049-d-34c7ce159f43",
+              "000049-d-40ebcb0b5723",
+              "000049-d-49e998cc3c7b",
+              "000049-d-53e4ad746f39",
+              "000049-d-5e3a7e2cea25",
+              "000049-d-711a7cd3c736",
+              "000049-d-728014ce4947",
+              "000049-d-737cab1de785",
+              "000049-d-928c1f1426a8",
+              "000049-d-afb1a8cc546f",
+              "000049-d-b2ba3aa187c5",
+              "000049-d-c081f34266e0",
+              "000049-d-c9af1e0000a5",
+              "000049-d-cc20316d85b7",
+              "000049-d-cf39af859c62",
+              "000049-d-d48e7c388707",
+              "000049-d-d4a679a522fd",
+              "000049-d-d542299c3cac",
+              "000049-d-de0a13d41f6f",
+              "000049-d-e38e64170d30",
+              "000049-d-ec84f03920b9",
+              "000049-d-f93feba81ee1",
+              "000049-p-2c180b078c61",
+              "000049-p-4b474b4bd0fc",
+              "000049-p-4ead448bd22a",
+              "000049-p-5c5f7dd3bda9",
+              "000049-p-a00e4f14a12a"
+            ]
+          },
+          "mixed": {
+            "missed": [],
+            "false_positives": [
+              "000051-007",
+              "000051-009",
+              "000051-018",
+              "000051-033",
+              "000051-038",
+              "000051-043",
+              "000051-073",
+              "000051-077",
+              "000051-078",
+              "000051-095",
+              "000051-097",
+              "000051-103",
+              "000051-109",
+              "000051-112",
+              "000051-142",
+              "000051-158",
+              "000051-208"
+            ]
+          }
+        },
+        "r1": {
+          "isolated": {
+            "missed": [
+              "000049-205",
+              "000049-216",
+              "000049-219",
+              "000049-241",
+              "000049-254",
+              "000049-d-91c8bbd162f4",
+              "000049-d-de9a328c9977"
+            ],
+            "false_positives": [
+              "000049-202",
+              "000049-212",
+              "000049-214",
+              "000049-215",
+              "000049-248",
+              "000049-250",
+              "000049-d-40ebcb0b5723",
+              "000049-d-53e4ad746f39",
+              "000049-d-5e3a7e2cea25",
+              "000049-d-711a7cd3c736",
+              "000049-d-737cab1de785",
+              "000049-d-77a0f95050d1",
+              "000049-d-85a0d001fc9c",
+              "000049-d-b2ba3aa187c5",
+              "000049-d-c9af1e0000a5",
+              "000049-d-cf39af859c62",
+              "000049-d-d48e7c388707",
+              "000049-d-d4a679a522fd",
+              "000049-d-de0a13d41f6f",
+              "000049-d-ec84f03920b9",
+              "000049-d-f93feba81ee1",
+              "000049-p-4ead448bd22a",
+              "000049-p-5c5f7dd3bda9"
+            ]
+          },
+          "mixed": {
+            "missed": [],
+            "false_positives": [
+              "000051-007",
+              "000051-009",
+              "000051-019",
+              "000051-033",
+              "000051-038",
+              "000051-043",
+              "000051-046",
+              "000051-073",
+              "000051-074",
+              "000051-077",
+              "000051-096",
+              "000051-097",
+              "000051-103",
+              "000051-106",
+              "000051-112",
+              "000051-132",
+              "000051-158",
+              "000051-160",
+              "000051-173",
+              "000051-208"
+            ]
+          }
+        },
+        "r2": {
+          "isolated": {
+            "missed": [
+              "000049-204",
+              "000049-209",
+              "000049-d-3fa11d03da1e",
+              "000049-d-402ba710a84f",
+              "000049-d-88ac1149aff2",
+              "000049-d-afb3a6078922",
+              "000049-d-d53807c5e41d"
+            ],
+            "false_positives": [
+              "000049-210",
+              "000049-212",
+              "000049-235",
+              "000049-236",
+              "000049-248",
+              "000049-260",
+              "000049-d-49e998cc3c7b",
+              "000049-d-53e4ad746f39",
+              "000049-d-5e3a7e2cea25",
+              "000049-d-711a7cd3c736",
+              "000049-d-728014ce4947",
+              "000049-d-76827b632a2e",
+              "000049-d-77a0f95050d1",
+              "000049-d-85a0d001fc9c",
+              "000049-d-cc20316d85b7",
+              "000049-d-d48e7c388707",
+              "000049-d-f93feba81ee1",
+              "000049-p-4ead448bd22a",
+              "000049-p-5c5f7dd3bda9",
+              "000049-p-a00e4f14a12a",
+              "000049-p-b204c71478d2"
+            ]
+          },
+          "mixed": {
+            "missed": [
+              "000051-062",
+              "000051-085",
+              "000051-107",
+              "000051-108",
+              "000051-116",
+              "000051-128",
+              "000051-130",
+              "000051-197",
+              "000051-200",
+              "000051-219"
+            ],
+            "false_positives": [
+              "000051-009",
+              "000051-015",
+              "000051-018",
+              "000051-033",
+              "000051-043",
+              "000051-046",
+              "000051-053",
+              "000051-066",
+              "000051-073",
+              "000051-077",
+              "000051-078",
+              "000051-082",
+              "000051-098",
+              "000051-103",
+              "000051-106",
+              "000051-109",
+              "000051-112",
+              "000051-146",
+              "000051-160",
+              "000051-173",
+              "000051-206",
+              "000051-208"
+            ]
+          }
+        },
+        "r3": {
+          "isolated": {
+            "missed": [
+              "000049-204",
+              "000049-d-d33c97551173"
+            ],
+            "false_positives": [
+              "000049-202",
+              "000049-210",
+              "000049-212",
+              "000049-214",
+              "000049-215",
+              "000049-248",
+              "000049-250",
+              "000049-251",
+              "000049-260",
+              "000049-d-0c6926ed7462",
+              "000049-d-199045bb4959",
+              "000049-d-331a426c2d11",
+              "000049-d-34c7ce159f43",
+              "000049-d-40ebcb0b5723",
+              "000049-d-53e4ad746f39",
+              "000049-d-711a7cd3c736",
+              "000049-d-728014ce4947",
+              "000049-d-737cab1de785",
+              "000049-d-76827b632a2e",
+              "000049-d-85a0d001fc9c",
+              "000049-d-b2ba3aa187c5",
+              "000049-d-c9af1e0000a5",
+              "000049-d-cc20316d85b7",
+              "000049-d-cf39af859c62",
+              "000049-d-d48e7c388707",
+              "000049-d-d4a679a522fd",
+              "000049-d-d542299c3cac",
+              "000049-d-de0a13d41f6f",
+              "000049-d-ec84f03920b9",
+              "000049-d-f93feba81ee1",
+              "000049-p-4ead448bd22a",
+              "000049-p-5c5f7dd3bda9",
+              "000049-p-a00e4f14a12a",
+              "000049-p-b204c71478d2"
+            ]
+          },
+          "mixed": {
+            "missed": [
+              "000051-091",
+              "000051-164"
+            ],
+            "false_positives": [
+              "000051-007",
+              "000051-009",
+              "000051-019",
+              "000051-043",
+              "000051-046",
+              "000051-073",
+              "000051-077",
+              "000051-096",
+              "000051-097",
+              "000051-103",
+              "000051-106",
+              "000051-109",
+              "000051-112",
+              "000051-158",
+              "000051-160",
+              "000051-180",
+              "000051-208"
+            ]
+          }
+        },
+        "confirmation": {
+          "isolated": {
+            "missed": [
+              "000049-205",
+              "000049-216",
+              "000049-219",
+              "000049-254",
+              "000049-d-91c8bbd162f4",
+              "000049-d-de9a328c9977"
+            ],
+            "false_positives": [
+              "000049-202",
+              "000049-212",
+              "000049-214",
+              "000049-215",
+              "000049-248",
+              "000049-250",
+              "000049-d-40ebcb0b5723",
+              "000049-d-53e4ad746f39",
+              "000049-d-5e3a7e2cea25",
+              "000049-d-711a7cd3c736",
+              "000049-d-737cab1de785",
+              "000049-d-76827b632a2e",
+              "000049-d-77a0f95050d1",
+              "000049-d-85a0d001fc9c",
+              "000049-d-b2ba3aa187c5",
+              "000049-d-c9af1e0000a5",
+              "000049-d-cf39af859c62",
+              "000049-d-d48e7c388707",
+              "000049-d-d4a679a522fd",
+              "000049-d-de0a13d41f6f",
+              "000049-d-ec84f03920b9",
+              "000049-d-f93feba81ee1",
+              "000049-p-4ead448bd22a",
+              "000049-p-5c5f7dd3bda9",
+              "000049-p-a00e4f14a12a"
+            ]
+          },
+          "mixed": {
+            "missed": [],
+            "false_positives": [
+              "000051-007",
+              "000051-009",
+              "000051-018",
+              "000051-019",
+              "000051-033",
+              "000051-038",
+              "000051-043",
+              "000051-046",
+              "000051-066",
+              "000051-073",
+              "000051-074",
+              "000051-077",
+              "000051-096",
+              "000051-097",
+              "000051-103",
+              "000051-106",
+              "000051-112",
+              "000051-132",
+              "000051-158",
+              "000051-173",
+              "000051-180",
+              "000051-208"
+            ]
+          }
+        }
+      },
+      "all_changed_judgments": {
+        "b0->r1": {
+          "isolated": {
+            "newly_caught": [
+              "000049-209",
+              "000049-225"
+            ],
+            "lost_positives": [
+              "000049-205",
+              "000049-216",
+              "000049-219",
+              "000049-241",
+              "000049-254",
+              "000049-d-91c8bbd162f4",
+              "000049-d-de9a328c9977"
+            ],
+            "corrected_false_positives": [
+              "000049-210",
+              "000049-221",
+              "000049-235",
+              "000049-236",
+              "000049-251",
+              "000049-257",
+              "000049-260",
+              "000049-d-2a16c700e87d",
+              "000049-d-331a426c2d11",
+              "000049-d-34c7ce159f43",
+              "000049-d-49e998cc3c7b",
+              "000049-d-728014ce4947",
+              "000049-d-928c1f1426a8",
+              "000049-d-afb1a8cc546f",
+              "000049-d-c081f34266e0",
+              "000049-d-cc20316d85b7",
+              "000049-d-d542299c3cac",
+              "000049-d-e38e64170d30",
+              "000049-p-2c180b078c61",
+              "000049-p-4b474b4bd0fc",
+              "000049-p-a00e4f14a12a"
+            ],
+            "new_false_positives": [
+              "000049-215",
+              "000049-d-77a0f95050d1",
+              "000049-d-85a0d001fc9c"
+            ]
+          },
+          "mixed": {
+            "newly_caught": [],
+            "lost_positives": [],
+            "corrected_false_positives": [
+              "000051-018",
+              "000051-078",
+              "000051-095",
+              "000051-109",
+              "000051-142"
+            ],
+            "new_false_positives": [
+              "000051-019",
+              "000051-046",
+              "000051-074",
+              "000051-096",
+              "000051-106",
+              "000051-132",
+              "000051-160",
+              "000051-173"
+            ]
+          }
+        },
+        "r1->r2": {
+          "isolated": {
+            "newly_caught": [
+              "000049-205",
+              "000049-216",
+              "000049-219",
+              "000049-241",
+              "000049-254",
+              "000049-d-91c8bbd162f4",
+              "000049-d-de9a328c9977"
+            ],
+            "lost_positives": [
+              "000049-204",
+              "000049-209",
+              "000049-d-3fa11d03da1e",
+              "000049-d-402ba710a84f",
+              "000049-d-88ac1149aff2",
+              "000049-d-afb3a6078922",
+              "000049-d-d53807c5e41d"
+            ],
+            "corrected_false_positives": [
+              "000049-202",
+              "000049-214",
+              "000049-215",
+              "000049-250",
+              "000049-d-40ebcb0b5723",
+              "000049-d-737cab1de785",
+              "000049-d-b2ba3aa187c5",
+              "000049-d-c9af1e0000a5",
+              "000049-d-cf39af859c62",
+              "000049-d-d4a679a522fd",
+              "000049-d-de0a13d41f6f",
+              "000049-d-ec84f03920b9"
+            ],
+            "new_false_positives": [
+              "000049-210",
+              "000049-235",
+              "000049-236",
+              "000049-260",
+              "000049-d-49e998cc3c7b",
+              "000049-d-728014ce4947",
+              "000049-d-76827b632a2e",
+              "000049-d-cc20316d85b7",
+              "000049-p-a00e4f14a12a",
+              "000049-p-b204c71478d2"
+            ]
+          },
+          "mixed": {
+            "newly_caught": [],
+            "lost_positives": [
+              "000051-062",
+              "000051-085",
+              "000051-107",
+              "000051-108",
+              "000051-116",
+              "000051-128",
+              "000051-130",
+              "000051-197",
+              "000051-200",
+              "000051-219"
+            ],
+            "corrected_false_positives": [
+              "000051-007",
+              "000051-019",
+              "000051-038",
+              "000051-074",
+              "000051-096",
+              "000051-097",
+              "000051-132",
+              "000051-158"
+            ],
+            "new_false_positives": [
+              "000051-015",
+              "000051-018",
+              "000051-053",
+              "000051-066",
+              "000051-078",
+              "000051-082",
+              "000051-098",
+              "000051-109",
+              "000051-146",
+              "000051-206"
+            ]
+          }
+        },
+        "r2->r3": {
+          "isolated": {
+            "newly_caught": [
+              "000049-209",
+              "000049-d-3fa11d03da1e",
+              "000049-d-402ba710a84f",
+              "000049-d-88ac1149aff2",
+              "000049-d-afb3a6078922",
+              "000049-d-d53807c5e41d"
+            ],
+            "lost_positives": [
+              "000049-d-d33c97551173"
+            ],
+            "corrected_false_positives": [
+              "000049-235",
+              "000049-236",
+              "000049-d-49e998cc3c7b",
+              "000049-d-5e3a7e2cea25",
+              "000049-d-77a0f95050d1"
+            ],
+            "new_false_positives": [
+              "000049-202",
+              "000049-214",
+              "000049-215",
+              "000049-250",
+              "000049-251",
+              "000049-d-0c6926ed7462",
+              "000049-d-199045bb4959",
+              "000049-d-331a426c2d11",
+              "000049-d-34c7ce159f43",
+              "000049-d-40ebcb0b5723",
+              "000049-d-737cab1de785",
+              "000049-d-b2ba3aa187c5",
+              "000049-d-c9af1e0000a5",
+              "000049-d-cf39af859c62",
+              "000049-d-d4a679a522fd",
+              "000049-d-d542299c3cac",
+              "000049-d-de0a13d41f6f",
+              "000049-d-ec84f03920b9"
+            ]
+          },
+          "mixed": {
+            "newly_caught": [
+              "000051-062",
+              "000051-085",
+              "000051-107",
+              "000051-108",
+              "000051-116",
+              "000051-128",
+              "000051-130",
+              "000051-197",
+              "000051-200",
+              "000051-219"
+            ],
+            "lost_positives": [
+              "000051-091",
+              "000051-164"
+            ],
+            "corrected_false_positives": [
+              "000051-015",
+              "000051-018",
+              "000051-033",
+              "000051-053",
+              "000051-066",
+              "000051-078",
+              "000051-082",
+              "000051-098",
+              "000051-146",
+              "000051-173",
+              "000051-206"
+            ],
+            "new_false_positives": [
+              "000051-007",
+              "000051-019",
+              "000051-096",
+              "000051-097",
+              "000051-158",
+              "000051-180"
+            ]
+          }
+        },
+        "r1->r3": {
+          "isolated": {
+            "newly_caught": [
+              "000049-205",
+              "000049-216",
+              "000049-219",
+              "000049-241",
+              "000049-254",
+              "000049-d-91c8bbd162f4",
+              "000049-d-de9a328c9977"
+            ],
+            "lost_positives": [
+              "000049-204",
+              "000049-d-d33c97551173"
+            ],
+            "corrected_false_positives": [
+              "000049-d-5e3a7e2cea25",
+              "000049-d-77a0f95050d1"
+            ],
+            "new_false_positives": [
+              "000049-210",
+              "000049-251",
+              "000049-260",
+              "000049-d-0c6926ed7462",
+              "000049-d-199045bb4959",
+              "000049-d-331a426c2d11",
+              "000049-d-34c7ce159f43",
+              "000049-d-728014ce4947",
+              "000049-d-76827b632a2e",
+              "000049-d-cc20316d85b7",
+              "000049-d-d542299c3cac",
+              "000049-p-a00e4f14a12a",
+              "000049-p-b204c71478d2"
+            ]
+          },
+          "mixed": {
+            "newly_caught": [],
+            "lost_positives": [
+              "000051-091",
+              "000051-164"
+            ],
+            "corrected_false_positives": [
+              "000051-033",
+              "000051-038",
+              "000051-074",
+              "000051-132",
+              "000051-173"
+            ],
+            "new_false_positives": [
+              "000051-109",
+              "000051-180"
+            ]
+          }
+        },
+        "r1->confirmation": {
+          "isolated": {
+            "newly_caught": [
+              "000049-241"
+            ],
+            "lost_positives": [],
+            "corrected_false_positives": [],
+            "new_false_positives": [
+              "000049-d-76827b632a2e",
+              "000049-p-a00e4f14a12a"
+            ]
+          },
+          "mixed": {
+            "newly_caught": [],
+            "lost_positives": [],
+            "corrected_false_positives": [
+              "000051-160"
+            ],
+            "new_false_positives": [
+              "000051-018",
+              "000051-066",
+              "000051-180"
+            ]
+          }
+        }
+      },
+      "grouped_decisions": [
+        {
+          "group": "positive-residual-inventory",
+          "decision": "Preserve three labeled independent grades after exclusions. Concrete operations leave generic grades independently assessable.",
+          "inventories_by_id": {
+            "000049-204": [
+              [
+                "refined",
+                "elevates",
+                "nuanced"
+              ]
+            ],
+            "000049-205": [
+              [
+                "rich",
+                "holistic",
+                "curated"
+              ]
+            ],
+            "000049-209": [
+              [
+                "cohesive",
+                "refined",
+                "holistic"
+              ]
+            ],
+            "000049-216": [
+              [
+                "refined",
+                "distinctive",
+                "sophisticated"
+              ]
+            ],
+            "000049-219": [
+              [
+                "curated",
+                "resonant",
+                "refined"
+              ]
+            ],
+            "000049-225": [
+              [
+                "sophisticated",
+                "curated",
+                "elevated"
+              ]
+            ],
+            "000049-241": [
+              [
+                "enriches",
+                "layered",
+                "nuanced"
+              ]
+            ],
+            "000049-254": [
+              [
+                "layered",
+                "holistic",
+                "refined"
+              ]
+            ],
+            "000049-d-3fa11d03da1e": [
+              [
+                "intentional",
+                "organic",
+                "thoughtful"
+              ]
+            ],
+            "000049-d-402ba710a84f": [
+              [
+                "robust",
+                "enhanced",
+                "multifaceted"
+              ]
+            ],
+            "000049-d-88ac1149aff2": [
+              [
+                "holistic",
+                "considered",
+                "layered"
+              ]
+            ],
+            "000049-d-91c8bbd162f4": [
+              [
+                "refined",
+                "layered",
+                "nuanced"
+              ]
+            ],
+            "000049-d-afb3a6078922": [
+              [
+                "enrich",
+                "intentional",
+                "seamless"
+              ]
+            ],
+            "000049-d-d33c97551173": [
+              [
+                "comprehensive",
+                "thoughtful",
+                "refined"
+              ]
+            ],
+            "000049-d-d53807c5e41d": [
+              [
+                "intentional",
+                "richer",
+                "authentic"
+              ]
+            ],
+            "000049-d-de9a328c9977": [
+              [
+                "intentional",
+                "multifaceted",
+                "refined"
+              ]
+            ],
+            "000051-062": [
+              [
+                "holistic",
+                "nuanced",
+                "elevate"
+              ]
+            ],
+            "000051-085": [
+              [
+                "nuanced",
+                "holistic",
+                "enriches"
+              ]
+            ],
+            "000051-091": [
+              [
+                "nuanced",
+                "holistic",
+                "enriches"
+              ]
+            ],
+            "000051-107": [
+              [
+                "nuanced",
+                "holistic",
+                "enriched"
+              ]
+            ],
+            "000051-108": [
+              [
+                "nuanced",
+                "holistic",
+                "elevate"
+              ]
+            ],
+            "000051-116": [
+              [
+                "nuanced",
+                "holistic",
+                "enriches"
+              ]
+            ],
+            "000051-128": [
+              [
+                "holistic",
+                "multifaceted",
+                "elevates"
+              ]
+            ],
+            "000051-130": [
+              [
+                "holistic",
+                "multifaceted",
+                "enriched"
+              ]
+            ],
+            "000051-164": [
+              [
+                "holistic",
+                "nuanced",
+                "enrich"
+              ]
+            ],
+            "000051-197": [
+              [
+                "holistic",
+                "nuanced",
+                "enriched"
+              ]
+            ],
+            "000051-200": [
+              [
+                "holistic",
+                "nuanced",
+                "enriched"
+              ]
+            ],
+            "000051-219": [
+              [
+                "multifaceted",
+                "holistic",
+                "enriches"
+              ]
+            ]
+          }
+        },
+        {
+          "group": "meaning-protection",
+          "decision": "Protect the particular supplied property, coverage or added information; remaining inventories stay below three.",
+          "inventories_by_id": {
+            "000049-202": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000049-210": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000049-212": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000049-215": [
+              []
+            ],
+            "000049-221": [
+              [
+                "nuanced",
+                "holistic"
+              ]
+            ],
+            "000049-236": [
+              [
+                "holistic",
+                "curated"
+              ]
+            ],
+            "000049-248": [
+              [
+                "sophisticated",
+                "holistic"
+              ]
+            ],
+            "000049-250": [
+              [
+                "layered",
+                "holistic"
+              ]
+            ],
+            "000049-251": [
+              [
+                "layered",
+                "refined"
+              ]
+            ],
+            "000049-257": [
+              []
+            ],
+            "000049-d-53e4ad746f39": [
+              [
+                "comprehensive",
+                "enriches"
+              ]
+            ],
+            "000049-d-728014ce4947": [
+              [
+                "layered",
+                "nuanced"
+              ]
+            ],
+            "000049-d-d48e7c388707": [
+              [
+                "holistic",
+                "multifaceted"
+              ]
+            ],
+            "000049-p-4ead448bd22a": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000049-p-a00e4f14a12a": [
+              [
+                "holistic",
+                "comprehensive"
+              ]
+            ],
+            "000051-007": [
+              [
+                "elevates"
+              ]
+            ],
+            "000051-009": [
+              []
+            ],
+            "000051-043": [
+              [
+                "nuanced",
+                "elevates"
+              ]
+            ],
+            "000051-073": [
+              [
+                "nuanced"
+              ]
+            ],
+            "000051-077": [
+              [
+                "nuanced",
+                "enrich"
+              ]
+            ],
+            "000051-103": [
+              [
+                "nuanced",
+                "holistic"
+              ]
+            ],
+            "000051-112": [
+              [
+                "holistic"
+              ]
+            ],
+            "000051-158": [
+              [
+                "holistic"
+              ]
+            ]
+          }
+        },
+        {
+          "group": "tailoring-ownership",
+          "decision": "Apply the fixed ownership reading: overstated individual tailoring of standard provision belongs to inflated evaluation; the other two grades remain eligible.",
+          "inventories_by_id": {
+            "000049-214": [
+              [
+                "elegant",
+                "sophisticated"
+              ]
+            ],
+            "000049-d-34c7ce159f43": [
+              [
+                "thoughtful",
+                "enhances"
+              ]
+            ],
+            "000049-d-40ebcb0b5723": [
+              [
+                "seamless",
+                "thoughtful"
+              ]
+            ],
+            "000049-d-711a7cd3c736": [
+              [
+                "organic",
+                "strategic"
+              ]
+            ],
+            "000049-d-b2ba3aa187c5": [
+              [
+                "considered",
+                "seamless"
+              ]
+            ],
+            "000049-d-c9af1e0000a5": [
+              [
+                "comprehensive",
+                "purposeful"
+              ]
+            ],
+            "000049-d-cf39af859c62": [
+              [
+                "holistic",
+                "strategic"
+              ]
+            ],
+            "000049-d-d4a679a522fd": [
+              [
+                "purposeful",
+                "comprehensive"
+              ]
+            ],
+            "000049-d-de0a13d41f6f": [
+              [
+                "considered",
+                "enhances"
+              ]
+            ],
+            "000049-d-ec84f03920b9": [
+              [
+                "immersive",
+                "enhances"
+              ]
+            ],
+            "000049-d-f93feba81ee1": [
+              [
+                "cohesive",
+                "enriches"
+              ]
+            ]
+          }
+        },
+        {
+          "group": "ownership-exclusion",
+          "decision": "Exclude complete cliches, imported-register expressions and recoverable garbled terms before counting. Preserve literal technical and manner meanings.",
+          "inventories_by_id": {
+            "000049-d-2a16c700e87d": [
+              [
+                "thoughtful",
+                "holistic"
+              ]
+            ],
+            "000049-d-76827b632a2e": [
+              [
+                "richer",
+                "holistic"
+              ]
+            ],
+            "000049-d-77a0f95050d1": [
+              [
+                "holistic",
+                "considered"
+              ]
+            ],
+            "000049-d-85a0d001fc9c": [
+              [
+                "nuanced",
+                "enrich"
+              ]
+            ],
+            "000049-d-d542299c3cac": [
+              [
+                "nuanced",
+                "richer"
+              ]
+            ],
+            "000049-p-4b474b4bd0fc": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000049-p-b204c71478d2": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000051-015": [
+              []
+            ],
+            "000051-018": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000051-019": [
+              []
+            ],
+            "000051-046": [
+              []
+            ],
+            "000051-053": [
+              []
+            ],
+            "000051-066": [
+              []
+            ],
+            "000051-074": [
+              []
+            ],
+            "000051-078": [
+              []
+            ],
+            "000051-082": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000051-095": [
+              []
+            ],
+            "000051-096": [
+              []
+            ],
+            "000051-098": [
+              []
+            ],
+            "000051-106": [
+              []
+            ],
+            "000051-109": [
+              []
+            ],
+            "000051-146": [
+              []
+            ],
+            "000051-160": [
+              []
+            ],
+            "000051-173": [
+              []
+            ],
+            "000051-180": [
+              []
+            ],
+            "000051-206": [
+              []
+            ],
+            "000051-208": [
+              []
+            ]
+          }
+        },
+        {
+          "group": "examined-wording",
+          "decision": "The quoted or preserved wording is examined rather than adopted; it contributes zero.",
+          "inventories_by_id": {
+            "000049-d-0c6926ed7462": [
+              []
+            ],
+            "000049-d-331a426c2d11": [
+              []
+            ],
+            "000049-d-5e3a7e2cea25": [
+              []
+            ],
+            "000049-d-737cab1de785": [
+              []
+            ],
+            "000049-d-928c1f1426a8": [
+              []
+            ],
+            "000049-d-c081f34266e0": [
+              []
+            ],
+            "000049-p-5c5f7dd3bda9": [
+              []
+            ]
+          }
+        },
+        {
+          "group": "paragraph-boundary",
+          "decision": "Keep each displayed paragraph inventory separate; no paragraph reaches three.",
+          "inventories_by_id": {
+            "000049-235": [
+              [
+                "holistic",
+                "curated"
+              ],
+              [
+                "nuanced",
+                "sophisticated"
+              ]
+            ],
+            "000049-260": [
+              [
+                "holistic"
+              ],
+              [
+                "nuanced",
+                "refined"
+              ]
+            ],
+            "000049-d-199045bb4959": [
+              [
+                "holistic",
+                "thoughtful"
+              ],
+              [
+                "richer"
+              ]
+            ],
+            "000049-d-49e998cc3c7b": [
+              [
+                "holistic",
+                "nuanced"
+              ],
+              []
+            ],
+            "000049-d-afb1a8cc546f": [
+              [
+                "holistic",
+                "enrich"
+              ],
+              [
+                "curated"
+              ]
+            ],
+            "000049-d-e38e64170d30": [
+              [
+                "holistic",
+                "enrich"
+              ],
+              [
+                "considered"
+              ]
+            ],
+            "000049-p-2c180b078c61": [
+              [
+                "holistic",
+                "enrich"
+              ],
+              [
+                "nuanced"
+              ]
+            ],
+            "000051-038": [
+              [
+                "holistic",
+                "nuanced"
+              ],
+              [
+                "elevates"
+              ]
+            ]
+          }
+        },
+        {
+          "group": "threshold-after-ownership",
+          "decision": "At most two independent vocabulary choices survive the complete-expression exclusions.",
+          "inventories_by_id": {
+            "000051-033": [
+              [
+                "engineer",
+                "authentic"
+              ]
+            ],
+            "000051-097": [
+              [
+                "nuanced",
+                "holistic"
+              ]
+            ],
+            "000051-142": [
+              [
+                "engineer",
+                "authentic"
+              ]
+            ]
+          }
+        },
+        {
+          "group": "ownership-boundary",
+          "decision": "Retain the fixed labels; resolve the imported-register construction before adding its components as vocabulary choices.",
+          "inventories_by_id": {
+            "000051-132": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ]
+          }
+        },
+        {
+          "group": "retained-differing-reading",
+          "decision": "The frozen no-hit label remains in every score. This previously recorded generic-grade reading supplies three; it is recorded without reopening adjudication.",
+          "inventories_by_id": {
+            "000049-d-cc20316d85b7": [
+              [
+                "seamless",
+                "nuanced",
+                "cohesive"
+              ]
+            ]
+          }
+        }
+      ],
+      "differing_readings": {
+        "policy": "Definitions and labels stay fixed. Previously adjudicated tailoring and coverage readings are applied; the earlier 22 questions remain historical review evidence.",
+        "prior_record": "/tmp/stock-v17-stock-vocabulary-r1-corrected-error-review.json",
+        "previous_question_ids": [
+          "000049-202",
+          "000049-212",
+          "000049-214",
+          "000049-248",
+          "000049-d-34c7ce159f43",
+          "000049-d-40ebcb0b5723",
+          "000049-d-53e4ad746f39",
+          "000049-d-711a7cd3c736",
+          "000049-d-728014ce4947",
+          "000049-d-b2ba3aa187c5",
+          "000049-d-c9af1e0000a5",
+          "000049-d-cc20316d85b7",
+          "000049-d-cf39af859c62",
+          "000049-d-d48e7c388707",
+          "000049-d-d4a679a522fd",
+          "000049-d-de0a13d41f6f",
+          "000049-d-ec84f03920b9",
+          "000049-d-f93feba81ee1",
+          "000049-p-a00e4f14a12a",
+          "000051-043",
+          "000051-077",
+          "000051-132"
+        ],
+        "specific_readings": [
+          {
+            "ids": [
+              "000049-d-cc20316d85b7"
+            ],
+            "reading": "The review can identify three generic grades, while the frozen judgment remains no-hit. All scores retain that judgment."
+          },
+          {
+            "ids": [
+              "000051-085",
+              "000051-107",
+              "000051-108",
+              "000051-130",
+              "000051-197",
+              "000051-200",
+              "000051-219",
+              "000051-091",
+              "000051-164"
+            ],
+            "reading": "Later task, route or meeting-location details can motivate a meaningful-coverage reading. The fixed positive judgments count the three quoted grades as ornamental; all results retain those judgments."
+          }
+        ]
+      },
+      "r3_static": {
+        "status": "pass",
+        "commit": "40904d6332c4c504d8997ff27f9b6a5521cdd6cd",
+        "committed_prompt_sha256": "3a8d552ac3ecd7625794486d8b3708a379bc38dbb613a2947100c84dda1cc112",
+        "temporary_proposal_sha256": "c2f277faf410b6958f73f753a2c80ad6b9f1ec90d3256a5d721923dfcc6aae6b",
+        "assembled_sha256": "37124315c472142bf4063664d78fae5e5aa059b0adc4438ec1b4bee111905348",
+        "temporary_difference": "Front-matter JSON formatting only; parsed question, criteria and body match the exact committed candidate.",
+        "word_counts": {
+          "body": 779,
+          "shared": 96,
+          "question": 35,
+          "true_criterion": 21,
+          "false_criterion": 19,
+          "assembled": 950,
+          "limit": 1000
+        },
+        "examples": [
+          {
+            "id": "000049-d-402ba710a84f",
+            "expected": true,
+            "inventory": [
+              [
+                "robust",
+                "enhanced",
+                "multifaceted"
+              ]
+            ]
+          },
+          {
+            "id": "000049-d-91c8bbd162f4",
+            "expected": true,
+            "inventory": [
+              [
+                "refined",
+                "layered",
+                "nuanced"
+              ]
+            ]
+          },
+          {
+            "id": "000051-062",
+            "expected": true,
+            "inventory": [
+              [
+                "holistic",
+                "nuanced",
+                "elevate"
+              ]
+            ]
+          },
+          {
+            "id": "000049-236",
+            "expected": false,
+            "inventory": [
+              [
+                "holistic",
+                "curated"
+              ]
+            ]
+          },
+          {
+            "id": "000049-235",
+            "expected": false,
+            "inventory": [
+              [
+                "holistic",
+                "curated"
+              ],
+              [
+                "nuanced",
+                "sophisticated"
+              ]
+            ]
+          },
+          {
+            "id": "000051-018",
+            "expected": false,
+            "inventory": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ]
+          }
+        ],
+        "complete_text_matches": 6,
+        "hit_snippet_set_matches": 3,
+        "hits": 3,
+        "no_hits": 3,
+        "general_definition_preserved": true,
+        "generalization": "Meaning and ownership apply contextually to all instances. Routine functionality does not erase independent grades; the fixed tailoring boundary excludes a claim by meaning rather than exempting a word.",
+        "actionable_objections": []
+      },
+      "family_clean_finding": {
+        "clean_to_all_five_count": 14,
+        "clean_ids": [
+          "000051-001",
+          "000051-007",
+          "000051-016",
+          "000051-017",
+          "000051-039",
+          "000051-069",
+          "000051-081",
+          "000051-103",
+          "000051-112",
+          "000051-127",
+          "000051-136",
+          "000051-149",
+          "000051-161",
+          "000051-171"
+        ],
+        "source": "/tmp/stock-v17-final-selection.json",
+        "source_sha256": "7327805e4cdf41e2327b7c34cbc5b32c9215f35e1b5b95319c0f6d2be201826e",
+        "stages": {
+          "sets": {
+            "flagged_count": 7,
+            "flagged_by_id": {
+              "000051-001": [
+                "borrowed-jargon"
+              ],
+              "000051-007": [
+                "stock-vocabulary"
+              ],
+              "000051-081": [
+                "cliche"
+              ],
+              "000051-103": [
+                "stock-vocabulary"
+              ],
+              "000051-112": [
+                "stock-vocabulary"
+              ],
+              "000051-127": [
+                "tortured-phrasing"
+              ],
+              "000051-171": [
+                "cliche"
+              ]
+            },
+            "source_files": {
+              "cliche": "runners/results/stock-wording-and-jargon-v17-cliche-r2-mixed-corrected-development.json",
+              "borrowed-jargon": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r1-mixed-corrected-development.json",
+              "tortured-phrasing": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r1-mixed-corrected-development.json",
+              "hidden-significance-adverb": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-b0-mixed-corrected-development.json",
+              "stock-vocabulary": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-mixed-corrected-development.json"
+            }
+          },
+          "confirmation": {
+            "flagged_count": 7,
+            "flagged_by_id": {
+              "000051-001": [
+                "borrowed-jargon"
+              ],
+              "000051-007": [
+                "stock-vocabulary"
+              ],
+              "000051-081": [
+                "cliche"
+              ],
+              "000051-103": [
+                "stock-vocabulary"
+              ],
+              "000051-112": [
+                "stock-vocabulary"
+              ],
+              "000051-127": [
+                "tortured-phrasing"
+              ],
+              "000051-171": [
+                "cliche"
+              ]
+            },
+            "source_files": {
+              "cliche": "runners/results/stock-wording-and-jargon-v17-cliche-confirmation-mixed-corrected-development.json",
+              "borrowed-jargon": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-confirmation-mixed-corrected-development.json",
+              "tortured-phrasing": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-confirmation-mixed-corrected-development.json",
+              "hidden-significance-adverb": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-confirmation-mixed-corrected-development.json",
+              "stock-vocabulary": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-confirmation-mixed-corrected-development.json"
+            }
+          }
+        },
+        "finding": "Seven of fourteen mixed passages labeled clean for all five checks are flagged in both selected and confirmation runs, with exactly the same seven IDs and responsible checks. Vocabulary contributes three of those fourteen: 000051-007, 000051-103 and 000051-112."
+      },
+      "completion_findings": [
+        {
+          "finding": "R2 retains the isolated caught count but loses ten mixed positives; R3 recovers much of that detection while increasing isolated false positives.",
+          "covered_comparisons": [
+            "r1->r2",
+            "r2->r3",
+            "r1->r3"
+          ]
+        },
+        {
+          "finding": "Selected R1 has 50 errors and its confirmation 53. The confirmation changes seven decisions: one recovered positive, one corrected false positive and five new false positives.",
+          "covered_comparison": "r1->confirmation"
+        },
+        {
+          "finding": "The selected and confirmation family union each flags half of the clean-to-all-five mixed passages.",
+          "covered_ids": [
+            "000051-001",
+            "000051-007",
+            "000051-081",
+            "000051-103",
+            "000051-112",
+            "000051-127",
+            "000051-171"
+          ]
+        }
+      ],
+      "uncertainty": "These are exposed development cohorts with one run per revision and one selected-prompt confirmation. The repeat demonstrates seven changed decisions under the same prompt and settings. Classification-only runs supply no model highlighting.",
+      "additional_revision_requested": false,
+      "revision_commits": {
+        "b0": "913ba940829386d6779787d3d59f2618db7a610e",
+        "r1": "a15196cdced00f7bf1d8b02bc677e745e3bf1d81",
+        "r2": "3554e4315a791fef65042133a809258976975b2d",
+        "r3": "40904d6332c4c504d8997ff27f9b6a5521cdd6cd",
+        "confirmation": "a15196cdced00f7bf1d8b02bc677e745e3bf1d81"
+      }
     }
   },
   "correctedCohort": {
@@ -17670,10 +19417,243 @@
             "requestMs": 6328.611331000002
           },
           "passes": false
+        },
+        {
+          "check": "stock-vocabulary",
+          "revision": "r3",
+          "promptCommit": "40904d63",
+          "demonstrationIDs": [
+            "000049-d-402ba710a84f",
+            "000049-d-91c8bbd162f4",
+            "000051-062",
+            "000049-236",
+            "000049-235",
+            "000051-018"
+          ],
+          "sets": {
+            "isolated": {
+              "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r3-isolated-corrected-development.json",
+              "fileSha256": "4e952e4a00a7a28a89c9f4794967886750da5c17dca1e41ed6b952bef46686fc",
+              "promptCommit": "40904d63",
+              "datasetCommit": "365bcef8",
+              "snapshot": {
+                "model": "jev-1.13.0",
+                "threshold": 0.5,
+                "checks": [
+                  "stock-vocabulary"
+                ],
+                "family": "stock-wording-and-jargon",
+                "mode": "classification-only",
+                "batchSize": 16,
+                "prompts": "../../../../../tmp/stock-v17-replay/40904d6332c4c504d8997ff27f9b6a5521cdd6cd/prompts/v17",
+                "dataset": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md",
+                "promptSha256": "82d14e21d80d67916748d7d7f5cb393915cb48b70195e746b04a88abccee7cc2",
+                "textSha256": "cf24b5ef852197b0838eb82d4eb4bed040d90aaa03e1e26df4b30af77f38c319",
+                "labelsSha256": "26ac8a366d13c269487f147d32d7acac096e1f188675a43798d5b1aecdcd2372",
+                "targetsSha256": "321762ce2b578015643a6c5b418ed6d99066b80fc02ea79b0b997bbc3ef3ceb2"
+              },
+              "assembledWords": 950,
+              "targets": 200,
+              "positives": 100,
+              "caught": 98,
+              "missed": 2,
+              "noHits": 100,
+              "falsePositives": 34,
+              "correctNoHits": 66,
+              "totalErrors": 36,
+              "missedIDs": [
+                "000049-204",
+                "000049-d-d33c97551173"
+              ],
+              "falsePositiveIDs": [
+                "000049-202",
+                "000049-210",
+                "000049-212",
+                "000049-214",
+                "000049-215",
+                "000049-248",
+                "000049-250",
+                "000049-251",
+                "000049-260",
+                "000049-d-0c6926ed7462",
+                "000049-d-199045bb4959",
+                "000049-d-331a426c2d11",
+                "000049-d-34c7ce159f43",
+                "000049-d-40ebcb0b5723",
+                "000049-d-53e4ad746f39",
+                "000049-d-711a7cd3c736",
+                "000049-d-728014ce4947",
+                "000049-d-737cab1de785",
+                "000049-d-76827b632a2e",
+                "000049-d-85a0d001fc9c",
+                "000049-d-b2ba3aa187c5",
+                "000049-d-c9af1e0000a5",
+                "000049-d-cc20316d85b7",
+                "000049-d-cf39af859c62",
+                "000049-d-d48e7c388707",
+                "000049-d-d4a679a522fd",
+                "000049-d-d542299c3cac",
+                "000049-d-de0a13d41f6f",
+                "000049-d-ec84f03920b9",
+                "000049-d-f93feba81ee1",
+                "000049-p-4ead448bd22a",
+                "000049-p-5c5f7dd3bda9",
+                "000049-p-a00e4f14a12a",
+                "000049-p-b204c71478d2"
+              ],
+              "requests": 13,
+              "decisions": 200,
+              "inputTokens": 61008,
+              "outputTokens": 7314,
+              "requestMs": 3140.525334,
+              "validation": {
+                "complete": true,
+                "requestAndInferenceHashes": true,
+                "offlineScoreMatches": true
+              },
+              "deltaAgainstCorrectedBaseline": {
+                "newCatches": [
+                  "000049-209",
+                  "000049-225"
+                ],
+                "lostCatches": [
+                  "000049-204",
+                  "000049-d-d33c97551173"
+                ],
+                "correctedFalsePositives": [
+                  "000049-221",
+                  "000049-235",
+                  "000049-236",
+                  "000049-257",
+                  "000049-d-2a16c700e87d",
+                  "000049-d-49e998cc3c7b",
+                  "000049-d-5e3a7e2cea25",
+                  "000049-d-928c1f1426a8",
+                  "000049-d-afb1a8cc546f",
+                  "000049-d-c081f34266e0",
+                  "000049-d-e38e64170d30",
+                  "000049-p-2c180b078c61",
+                  "000049-p-4b474b4bd0fc"
+                ],
+                "newFalsePositives": [
+                  "000049-215",
+                  "000049-d-0c6926ed7462",
+                  "000049-d-199045bb4959",
+                  "000049-d-76827b632a2e",
+                  "000049-d-85a0d001fc9c",
+                  "000049-p-b204c71478d2"
+                ]
+              }
+            },
+            "mixed": {
+              "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r3-mixed-corrected-development.json",
+              "fileSha256": "52d7f15baaeb53430925237ebee75d89b0c45a19e839b51eaef478fdbc57ed0b",
+              "promptCommit": "40904d63",
+              "datasetCommit": "365bcef8",
+              "snapshot": {
+                "model": "jev-1.13.0",
+                "threshold": 0.5,
+                "checks": [
+                  "stock-vocabulary"
+                ],
+                "family": "stock-wording-and-jargon",
+                "mode": "classification-only",
+                "batchSize": 16,
+                "prompts": "../../../../../tmp/stock-v17-replay/40904d6332c4c504d8997ff27f9b6a5521cdd6cd/prompts/v17",
+                "dataset": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+                "promptSha256": "82d14e21d80d67916748d7d7f5cb393915cb48b70195e746b04a88abccee7cc2",
+                "textSha256": "5b84be6cc696ec18072ec1605c2f07e72873db69329c1e8ecabccdbbafde517d",
+                "labelsSha256": "871c162eb1f633992d0893cffbff7033e45e9ab053ba2844f6915d49a28a459c",
+                "targetsSha256": "509e2e1d36365b2225f578a19f2bc8282966f423771f5c911cd97f2f440b7aaf"
+              },
+              "assembledWords": 950,
+              "targets": 200,
+              "positives": 100,
+              "caught": 98,
+              "missed": 2,
+              "noHits": 100,
+              "falsePositives": 17,
+              "correctNoHits": 83,
+              "totalErrors": 19,
+              "missedIDs": [
+                "000051-091",
+                "000051-164"
+              ],
+              "falsePositiveIDs": [
+                "000051-007",
+                "000051-009",
+                "000051-019",
+                "000051-043",
+                "000051-046",
+                "000051-073",
+                "000051-077",
+                "000051-096",
+                "000051-097",
+                "000051-103",
+                "000051-106",
+                "000051-109",
+                "000051-112",
+                "000051-158",
+                "000051-160",
+                "000051-180",
+                "000051-208"
+              ],
+              "requests": 13,
+              "decisions": 200,
+              "inputTokens": 65696,
+              "outputTokens": 6052,
+              "requestMs": 3037.7573329999996,
+              "validation": {
+                "complete": true,
+                "requestAndInferenceHashes": true,
+                "offlineScoreMatches": true
+              },
+              "deltaAgainstCorrectedBaseline": {
+                "newCatches": [],
+                "lostCatches": [
+                  "000051-091",
+                  "000051-164"
+                ],
+                "correctedFalsePositives": [
+                  "000051-018",
+                  "000051-033",
+                  "000051-038",
+                  "000051-078",
+                  "000051-095",
+                  "000051-142"
+                ],
+                "newFalsePositives": [
+                  "000051-019",
+                  "000051-046",
+                  "000051-096",
+                  "000051-106",
+                  "000051-160",
+                  "000051-180"
+                ]
+              }
+            }
+          },
+          "totals": {
+            "targets": 400,
+            "positives": 200,
+            "caught": 196,
+            "missed": 4,
+            "noHits": 200,
+            "falsePositives": 51,
+            "correctNoHits": 149,
+            "totalErrors": 55,
+            "requests": 26,
+            "decisions": 400,
+            "inputTokens": 126704,
+            "outputTokens": 13366,
+            "requestMs": 6178.2826669999995
+          },
+          "passes": false
         }
       ],
       "ranking": [
         "r1",
+        "r3",
         "b0",
         "r2"
       ],
@@ -17683,8 +19663,8 @@
         "promptCommit": "a15196cd",
         "passes": false,
         "totalErrors": 50,
-        "consecutiveNonImprovements": 1,
-        "reason": "Search remains open."
+        "consecutiveNonImprovements": 2,
+        "reason": "Two consecutive non-improvements."
       }
     }
   ],
@@ -17696,7 +19676,7 @@
     "savedDecisionsValidatedAcrossContexts": 10000,
     "originalFilesUnchanged": true,
     "rootCorrectedDatasetsMatchFreeze": true,
-    "independentReview": "Fresh final report review pending.",
+    "independentReview": "Passed fresh final audit of all57 native outputs and producing sources.",
     "runnerFile": "runners/jev.mjs",
     "runnerSha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
     "commands": [
@@ -17759,8 +19739,8 @@
       "promptCommit": "a15196cd",
       "passes": false,
       "totalErrors": 50,
-      "consecutiveNonImprovements": 1,
-      "reason": "Search remains open."
+      "consecutiveNonImprovements": 2,
+      "reason": "Two consecutive non-improvements."
     }
   },
   "correctedConfirmations": {
@@ -17836,11 +19816,6 @@
         "reusesUnchangedOriginalConfirmation": false
       }
     }
-  },
-  "pendingVocabularyRevision": {
-    "revision": "r1",
-    "assembledWords": 887,
-    "status": "Draft applied; fresh review pending."
   },
   "vocabularyPromptRevisions": [
     {
@@ -18006,6 +19981,89 @@
         {
           "path": "/tmp/stock-v17-stock-vocabulary-r1-proposal.json",
           "sha256": "ab2205bbdbd8b8a9a1862a38e812372ae182f165a5f19d0352f6eeccaa12ebe7"
+        }
+      ]
+    },
+    {
+      "revision": "r3",
+      "promptCommit": "40904d63",
+      "demoIDs": [
+        "000049-d-402ba710a84f",
+        "000049-d-91c8bbd162f4",
+        "000051-062",
+        "000049-236",
+        "000049-235",
+        "000051-018"
+      ],
+      "assembledWords": 950,
+      "sourceHashes": [
+        {
+          "path": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md",
+          "sha256": "a030f3dccf7dcfab0e7408f778810621548d2bf64447b47fa8d90ddbfb254097"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.labels.json",
+          "sha256": "2e43fe07c56b8e6be53e9401b313325a03cde74be5a6ab4bbea795f55851e33e"
+        },
+        {
+          "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r2-isolated-corrected-development.json",
+          "sha256": "9849d64a9005f4ba01cf211535724ec218028078d81fabc25575bbf923d4228c"
+        },
+        {
+          "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-isolated-corrected-development.json",
+          "sha256": "d3809e157a00b99b89398f82492e3e8f7e4b7e2e6ff1305c73af26a8175f0e3d"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+          "sha256": "cb44f22a4f3f4bc08760b473993d8f71af9bfd1bb53812a238f688b3f441cd82"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.labels.json",
+          "sha256": "6d8880d646c08bfe4ac45c6cd3434a4cf4cb1ce40e6014722f82031353fc9528"
+        },
+        {
+          "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r2-mixed-corrected-development.json",
+          "sha256": "0f6fa8c11bcce3bd3aec5ea43f0975627fd15012c0278d7e57f4c4d77edb599f"
+        },
+        {
+          "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-mixed-corrected-development.json",
+          "sha256": "59a062457631950dd3e129c55f9129100f8bf2d3d3e7c4d141a288916356a901"
+        },
+        {
+          "path": "/tmp/stock-v17-stock-vocabulary-r3-proposed.md",
+          "sha256": "c2f277faf410b6958f73f753a2c80ad6b9f1ec90d3256a5d721923dfcc6aae6b"
+        },
+        {
+          "path": "prompts/v17/stock-vocabulary.md",
+          "sha256": "3a8d552ac3ecd7625794486d8b3708a379bc38dbb613a2947100c84dda1cc112"
+        },
+        {
+          "path": "prompts/v17/shared.md",
+          "sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761"
+        },
+        {
+          "path": "/tmp/stock-v17-replay/3554e4315a791fef65042133a809258976975b2d/prompts/v17/shared.md",
+          "sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761"
+        },
+        {
+          "path": "/tmp/stock-v17-replay/3554e4315a791fef65042133a809258976975b2d/prompts/v17/stock-vocabulary.md",
+          "sha256": "0c9d387ac17841c42ca529a021f91791ba990716b319f49a4f14417499f47428"
+        },
+        {
+          "path": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+          "sha256": "a8bf1a3c876cb2453041d28aded9f7f6ef912cb8d2253948a89972245636e380"
+        },
+        {
+          "path": "runners/jev.mjs",
+          "sha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a"
+        },
+        {
+          "path": "/tmp/stock-v17-stock-vocabulary-r1-error-review.json",
+          "sha256": "d1afeccf03c94087fdb0e941033b7fd742624dd5d2f57d997b5bc971a6819c2a"
+        },
+        {
+          "path": "/tmp/stock-v17-stock-vocabulary-r2-proposal.json",
+          "sha256": "1c097819dc71a20607940bc1b3f8ca1730733e5eb3d4a7a794eedd1484d3cf89"
         }
       ]
     }
@@ -18439,5 +20497,1554 @@
         "operation": "Preserve engineer as meaningful ordinary causation; a longer available synonym alone is insufficient. Holistic and nuanced remain two ornaments."
       }
     ]
+  },
+  "finalSelection": {
+    "cliche": {
+      "revision": "r2",
+      "promptCommit": "b834fb4291f8a7686a557bcd705b6609db256aae",
+      "demoIDs": [
+        "000041-003",
+        "000041-006",
+        "000041-007",
+        "000041-010",
+        "000041-029",
+        "000051-009"
+      ],
+      "assembledWords": 748,
+      "sets": {
+        "isolated": {
+          "caught": 97,
+          "missed": 3,
+          "falsePositives": 7,
+          "correctNoHits": 93,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-r2-isolated-development.json",
+          "fileSha256": "c120eb24ed411bfad8ff78a74b2f489a30a2b8beef3481b22d58252ec62d7713",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000041-063",
+              "000041-120",
+              "000041-144"
+            ],
+            "correctedFalsePositives": [
+              "000041-008",
+              "000041-029",
+              "000041-030",
+              "000041-032",
+              "000041-038",
+              "000041-039",
+              "000041-048",
+              "000041-055",
+              "000041-068",
+              "000041-070",
+              "000041-071",
+              "000041-072",
+              "000041-075",
+              "000041-081",
+              "000041-086",
+              "000041-094",
+              "000041-095",
+              "000041-098",
+              "000041-104",
+              "000041-114",
+              "000041-116",
+              "000041-124",
+              "000041-127",
+              "000041-128",
+              "000041-129",
+              "000041-130",
+              "000041-135",
+              "000041-138",
+              "000041-143",
+              "000041-149",
+              "000041-153",
+              "000041-155",
+              "000041-165",
+              "000041-168",
+              "000041-170",
+              "000041-177",
+              "000041-181",
+              "000041-186",
+              "000041-191",
+              "000041-195",
+              "000041-196",
+              "000041-202"
+            ],
+            "newFalsePositives": [
+              "000041-013"
+            ]
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 5,
+            "positives": 97,
+            "caught": 94,
+            "noHits": 98,
+            "falsePositives": 6
+          }
+        },
+        "mixed": {
+          "caught": 100,
+          "missed": 0,
+          "falsePositives": 17,
+          "correctNoHits": 83,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-r2-mixed-corrected-development.json",
+          "fileSha256": "71ad49c53ba6133ff1df8ada82166dc60a87d6f01a3b6193829b56a14707cc61",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [
+              "000051-009",
+              "000051-012",
+              "000051-021",
+              "000051-026",
+              "000051-051",
+              "000051-061",
+              "000051-072",
+              "000051-086",
+              "000051-103",
+              "000051-111",
+              "000051-119",
+              "000051-141",
+              "000051-161"
+            ],
+            "newFalsePositives": [
+              "000051-010",
+              "000051-083",
+              "000051-125"
+            ]
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 1,
+            "positives": 100,
+            "caught": 100,
+            "noHits": 99,
+            "falsePositives": 17
+          }
+        }
+      },
+      "confirmation": {
+        "isolated": {
+          "caught": 97,
+          "missed": 3,
+          "falsePositives": 7,
+          "correctNoHits": 93,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-confirmation-isolated-corrected-development.json",
+          "fileSha256": "f0c8c4fb971199e8465ef6d7c7fb8989302182b57e504a3009929e1bb3baa27c",
+          "deltaAgainstSelected": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [],
+            "newFalsePositives": []
+          }
+        },
+        "mixed": {
+          "caught": 100,
+          "missed": 0,
+          "falsePositives": 16,
+          "correctNoHits": 84,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-confirmation-mixed-corrected-development.json",
+          "fileSha256": "04762935cd25bb0ef3abe6be106a2031bd9b571b1373a27cdf92146c16ab769b",
+          "deltaAgainstSelected": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [
+              "000051-125",
+              "000051-133",
+              "000051-151"
+            ],
+            "newFalsePositives": [
+              "000051-108",
+              "000051-141"
+            ]
+          }
+        }
+      },
+      "passes": false
+    },
+    "borrowed-jargon": {
+      "revision": "r1",
+      "promptCommit": "3729c4578b13fb6d8228e47d236c78d6537e47db",
+      "demoIDs": [
+        "000043-003",
+        "000043-004",
+        "000051-025",
+        "000043-052",
+        "000043-022",
+        "000051-037"
+      ],
+      "assembledWords": 734,
+      "sets": {
+        "isolated": {
+          "caught": 97,
+          "missed": 3,
+          "falsePositives": 8,
+          "correctNoHits": 92,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r1-isolated-development.json",
+          "fileSha256": "80ce217a6c0de576f31f6d40c0ac49a41481d5acc9822ebcb129539a93e431cc",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000043-024",
+              "000043-084",
+              "000043-104"
+            ],
+            "correctedFalsePositives": [
+              "000043-058",
+              "000043-094",
+              "000043-143",
+              "000043-155",
+              "000043-184",
+              "000043-209",
+              "000043-226"
+            ],
+            "newFalsePositives": [
+              "000043-212"
+            ]
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 4,
+            "positives": 98,
+            "caught": 95,
+            "noHits": 98,
+            "falsePositives": 7
+          }
+        },
+        "mixed": {
+          "caught": 98,
+          "missed": 2,
+          "falsePositives": 10,
+          "correctNoHits": 90,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r1-mixed-corrected-development.json",
+          "fileSha256": "6a60e628c9b02754360432329c76324626dc0c88adc8a2ce3f182d306274a5c7",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000051-177"
+            ],
+            "correctedFalsePositives": [
+              "000051-004",
+              "000051-007",
+              "000051-009",
+              "000051-012",
+              "000051-014",
+              "000051-016",
+              "000051-018",
+              "000051-021",
+              "000051-030",
+              "000051-034",
+              "000051-037",
+              "000051-042",
+              "000051-043",
+              "000051-046",
+              "000051-048",
+              "000051-051",
+              "000051-057",
+              "000051-058",
+              "000051-065",
+              "000051-067",
+              "000051-071",
+              "000051-072",
+              "000051-077",
+              "000051-088",
+              "000051-091",
+              "000051-103",
+              "000051-104",
+              "000051-111",
+              "000051-112",
+              "000051-114",
+              "000051-120",
+              "000051-126",
+              "000051-128",
+              "000051-130",
+              "000051-140",
+              "000051-143",
+              "000051-150",
+              "000051-156",
+              "000051-157",
+              "000051-166",
+              "000051-172",
+              "000051-182",
+              "000051-195",
+              "000051-198",
+              "000051-219",
+              "000051-221"
+            ],
+            "newFalsePositives": []
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 2,
+            "positives": 99,
+            "caught": 97,
+            "noHits": 99,
+            "falsePositives": 10
+          }
+        }
+      },
+      "confirmation": {
+        "isolated": {
+          "caught": 97,
+          "missed": 3,
+          "falsePositives": 10,
+          "correctNoHits": 90,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-confirmation-isolated-corrected-development.json",
+          "fileSha256": "82a897e2dea711bbfd1a4c24b9cedd94b11f42b7b8f1b6d5fefffbe4fdd340b1",
+          "deltaAgainstSelected": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [],
+            "newFalsePositives": [
+              "000043-094",
+              "000043-184"
+            ]
+          }
+        },
+        "mixed": {
+          "caught": 98,
+          "missed": 2,
+          "falsePositives": 9,
+          "correctNoHits": 91,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-confirmation-mixed-corrected-development.json",
+          "fileSha256": "9ba7094d2561f1531546edfb95aa5a5d272804b3b5891cc36b66a5c81bbad5ff",
+          "deltaAgainstSelected": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [
+              "000051-124"
+            ],
+            "newFalsePositives": []
+          }
+        }
+      },
+      "passes": false
+    },
+    "tortured-phrasing": {
+      "revision": "r1",
+      "promptCommit": "3729c4578b13fb6d8228e47d236c78d6537e47db",
+      "demoIDs": [
+        "000045-074",
+        "000045-101",
+        "000045-150",
+        "000045-175",
+        "000051-037",
+        "000045-017"
+      ],
+      "assembledWords": 737,
+      "sets": {
+        "isolated": {
+          "caught": 71,
+          "missed": 29,
+          "falsePositives": 1,
+          "correctNoHits": 99,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r1-isolated-development.json",
+          "fileSha256": "3185d3d23cd66fb7e4172118317465b23b182b83a1dac1476794ee6741fe75d4",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [
+              "000045-012",
+              "000045-019",
+              "000045-047",
+              "000045-104",
+              "000045-122",
+              "000045-123",
+              "000045-145",
+              "000045-162",
+              "000045-178"
+            ],
+            "lostCatches": [
+              "000045-006",
+              "000045-029",
+              "000045-033",
+              "000045-100",
+              "000045-120",
+              "000045-127",
+              "000045-131",
+              "000045-167",
+              "000045-184",
+              "000045-185"
+            ],
+            "correctedFalsePositives": [
+              "000045-009",
+              "000045-017",
+              "000045-040",
+              "000045-095",
+              "000045-115",
+              "000045-134",
+              "000045-160",
+              "000045-189"
+            ],
+            "newFalsePositives": [
+              "000045-011"
+            ]
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 5,
+            "positives": 98,
+            "caught": 69,
+            "noHits": 97,
+            "falsePositives": 1
+          }
+        },
+        "mixed": {
+          "caught": 65,
+          "missed": 35,
+          "falsePositives": 4,
+          "correctNoHits": 96,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r1-mixed-corrected-development.json",
+          "fileSha256": "35695daf0cc07b853ec5ec451269b8f15adeabf3a2c76d43b9c43c4afdcd8963",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [
+              "000051-005",
+              "000051-011",
+              "000051-013",
+              "000051-014",
+              "000051-020",
+              "000051-025",
+              "000051-032",
+              "000051-037",
+              "000051-040",
+              "000051-058",
+              "000051-061",
+              "000051-066",
+              "000051-067",
+              "000051-084",
+              "000051-088",
+              "000051-094",
+              "000051-095",
+              "000051-125",
+              "000051-131",
+              "000051-137",
+              "000051-142",
+              "000051-147",
+              "000051-152",
+              "000051-170",
+              "000051-174",
+              "000051-180",
+              "000051-192",
+              "000051-209",
+              "000051-215"
+            ],
+            "lostCatches": [
+              "000051-024",
+              "000051-074",
+              "000051-083",
+              "000051-189",
+              "000051-203"
+            ],
+            "correctedFalsePositives": [
+              "000051-101"
+            ],
+            "newFalsePositives": [
+              "000051-109",
+              "000051-146"
+            ]
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 1,
+            "positives": 99,
+            "caught": 64,
+            "noHits": 100,
+            "falsePositives": 4
+          }
+        }
+      },
+      "confirmation": {
+        "isolated": {
+          "caught": 73,
+          "missed": 27,
+          "falsePositives": 1,
+          "correctNoHits": 99,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-confirmation-isolated-corrected-development.json",
+          "fileSha256": "ce0d87c6bdda574748a205bab29b50ad7fa8e8e40a81e1233bf5292c18c24480",
+          "deltaAgainstSelected": {
+            "newCatches": [
+              "000045-006",
+              "000045-127"
+            ],
+            "lostCatches": [],
+            "correctedFalsePositives": [],
+            "newFalsePositives": []
+          }
+        },
+        "mixed": {
+          "caught": 68,
+          "missed": 32,
+          "falsePositives": 4,
+          "correctNoHits": 96,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-confirmation-mixed-corrected-development.json",
+          "fileSha256": "85d1dd74f80025d194c611529c1c0453c0d2fa0fb20f05e684ce58e51e8619dd",
+          "deltaAgainstSelected": {
+            "newCatches": [
+              "000051-036",
+              "000051-144",
+              "000051-145",
+              "000051-199"
+            ],
+            "lostCatches": [
+              "000051-061"
+            ],
+            "correctedFalsePositives": [],
+            "newFalsePositives": []
+          }
+        }
+      },
+      "passes": false
+    },
+    "hidden-significance-adverb": {
+      "revision": "b0",
+      "promptCommit": "913ba940829386d6779787d3d59f2618db7a610e",
+      "demoIDs": [
+        "000047-137",
+        "000047-018",
+        "000047-097",
+        "000047-050",
+        "000047-016",
+        "000047-069"
+      ],
+      "assembledWords": 612,
+      "sets": {
+        "isolated": {
+          "caught": 96,
+          "missed": 4,
+          "falsePositives": 4,
+          "correctNoHits": 96,
+          "positives": 100,
+          "noHits": 100,
+          "passes": true,
+          "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-b0-isolated-development.json",
+          "fileSha256": "03cb28d2e61abd926d7c8d6f3411710c3bb3c2bec91cd79a6f748ff8033f6106",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [],
+            "newFalsePositives": []
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 6,
+            "positives": 97,
+            "caught": 93,
+            "noHits": 97,
+            "falsePositives": 4
+          }
+        },
+        "mixed": {
+          "caught": 99,
+          "missed": 1,
+          "falsePositives": 0,
+          "correctNoHits": 100,
+          "positives": 100,
+          "noHits": 100,
+          "passes": true,
+          "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-b0-mixed-corrected-development.json",
+          "fileSha256": "5986ff872eb451d3fcbf13d17af378bea041539ced07f48bc6ef78eeab6a4070",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [],
+            "newFalsePositives": []
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 0,
+            "positives": 100,
+            "caught": 99,
+            "noHits": 100,
+            "falsePositives": 0
+          }
+        }
+      },
+      "confirmation": {
+        "isolated": {
+          "caught": 98,
+          "missed": 2,
+          "falsePositives": 3,
+          "correctNoHits": 97,
+          "positives": 100,
+          "noHits": 100,
+          "passes": true,
+          "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-confirmation-isolated-development.json",
+          "fileSha256": "069f06ad679d1436dae23ae32bacda128e68b8060ad0f0e0fb0d90f49a0ee153",
+          "deltaAgainstSelected": {
+            "newCatches": [
+              "000047-082",
+              "000047-173"
+            ],
+            "lostCatches": [],
+            "correctedFalsePositives": [
+              "000047-077"
+            ],
+            "newFalsePositives": []
+          }
+        },
+        "mixed": {
+          "caught": 100,
+          "missed": 0,
+          "falsePositives": 0,
+          "correctNoHits": 100,
+          "positives": 100,
+          "noHits": 100,
+          "passes": true,
+          "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-confirmation-mixed-corrected-development.json",
+          "fileSha256": "e2ac757c658813f106a396aa7ab281253f1392b7e3c70abb2398c94b2882eaa5",
+          "deltaAgainstSelected": {
+            "newCatches": [
+              "000051-093"
+            ],
+            "lostCatches": [],
+            "correctedFalsePositives": [],
+            "newFalsePositives": []
+          }
+        }
+      },
+      "passes": true
+    },
+    "stock-vocabulary": {
+      "revision": "r1",
+      "promptCommit": "a15196cd",
+      "demoIDs": [
+        "000049-209",
+        "000049-201",
+        "000051-006",
+        "000049-236",
+        "000049-235",
+        "000051-095"
+      ],
+      "assembledWords": 887,
+      "sets": {
+        "isolated": {
+          "caught": 93,
+          "missed": 7,
+          "falsePositives": 23,
+          "correctNoHits": 77,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-isolated-corrected-development.json",
+          "fileSha256": "d3809e157a00b99b89398f82492e3e8f7e4b7e2e6ff1305c73af26a8175f0e3d",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [
+              "000049-209",
+              "000049-225"
+            ],
+            "lostCatches": [
+              "000049-205",
+              "000049-216",
+              "000049-219",
+              "000049-241",
+              "000049-254",
+              "000049-d-91c8bbd162f4",
+              "000049-d-de9a328c9977"
+            ],
+            "correctedFalsePositives": [
+              "000049-210",
+              "000049-221",
+              "000049-235",
+              "000049-236",
+              "000049-251",
+              "000049-257",
+              "000049-260",
+              "000049-d-2a16c700e87d",
+              "000049-d-331a426c2d11",
+              "000049-d-34c7ce159f43",
+              "000049-d-49e998cc3c7b",
+              "000049-d-728014ce4947",
+              "000049-d-928c1f1426a8",
+              "000049-d-afb1a8cc546f",
+              "000049-d-c081f34266e0",
+              "000049-d-cc20316d85b7",
+              "000049-d-d542299c3cac",
+              "000049-d-e38e64170d30",
+              "000049-p-2c180b078c61",
+              "000049-p-4b474b4bd0fc",
+              "000049-p-a00e4f14a12a"
+            ],
+            "newFalsePositives": [
+              "000049-215",
+              "000049-d-77a0f95050d1",
+              "000049-d-85a0d001fc9c"
+            ]
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 4,
+            "positives": 98,
+            "caught": 91,
+            "noHits": 98,
+            "falsePositives": 23
+          }
+        },
+        "mixed": {
+          "caught": 100,
+          "missed": 0,
+          "falsePositives": 20,
+          "correctNoHits": 80,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-mixed-corrected-development.json",
+          "fileSha256": "59a062457631950dd3e129c55f9129100f8bf2d3d3e7c4d141a288916356a901",
+          "deltaAgainstCorrectedBaseline": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [
+              "000051-018",
+              "000051-078",
+              "000051-095",
+              "000051-109",
+              "000051-142"
+            ],
+            "newFalsePositives": [
+              "000051-019",
+              "000051-046",
+              "000051-074",
+              "000051-096",
+              "000051-106",
+              "000051-132",
+              "000051-160",
+              "000051-173"
+            ]
+          },
+          "excludingSelectedDemonstrations": {
+            "excluded": 2,
+            "positives": 99,
+            "caught": 99,
+            "noHits": 99,
+            "falsePositives": 20
+          }
+        }
+      },
+      "confirmation": {
+        "isolated": {
+          "caught": 94,
+          "missed": 6,
+          "falsePositives": 25,
+          "correctNoHits": 75,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-confirmation-isolated-corrected-development.json",
+          "fileSha256": "7fe10d1c342a6c563e2c3a6c06bda9f020655dc33f1151d23df27014119cfec6",
+          "deltaAgainstSelected": {
+            "newCatches": [
+              "000049-241"
+            ],
+            "lostCatches": [],
+            "correctedFalsePositives": [],
+            "newFalsePositives": [
+              "000049-d-76827b632a2e",
+              "000049-p-a00e4f14a12a"
+            ]
+          }
+        },
+        "mixed": {
+          "caught": 100,
+          "missed": 0,
+          "falsePositives": 22,
+          "correctNoHits": 78,
+          "positives": 100,
+          "noHits": 100,
+          "passes": false,
+          "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-confirmation-mixed-corrected-development.json",
+          "fileSha256": "06c8d8d9ebf00541417ab3256fc151cf29d7f35d466d4343974e81cb8faa52e4",
+          "deltaAgainstSelected": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [
+              "000051-160"
+            ],
+            "newFalsePositives": [
+              "000051-018",
+              "000051-066",
+              "000051-180"
+            ]
+          }
+        }
+      },
+      "passes": false
+    }
+  },
+  "familyMixed": {
+    "selected": {
+      "targets": 200,
+      "judgments": 1000,
+      "excludedIncomplete": 0,
+      "allIssuesFound": {
+        "eligible": 186,
+        "matched": 148
+      },
+      "exactMatch": {
+        "eligible": 200,
+        "matched": 125
+      },
+      "anyFindingOnAffected": {
+        "caught": 185,
+        "total": 186
+      },
+      "anyFindingOnClean": {
+        "flagged": 7,
+        "total": 14
+      }
+    },
+    "confirmation": {
+      "targets": 200,
+      "judgments": 1000,
+      "excludedIncomplete": 0,
+      "allIssuesFound": {
+        "eligible": 186,
+        "matched": 152
+      },
+      "exactMatch": {
+        "eligible": 200,
+        "matched": 126
+      },
+      "anyFindingOnAffected": {
+        "caught": 185,
+        "total": 186
+      },
+      "anyFindingOnClean": {
+        "flagged": 7,
+        "total": 14
+      }
+    }
+  },
+  "providerLedger": {
+    "files": [
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-b0-isolated-development.json",
+        "sha256": "39abdf3a7f57d1d696921db54a7d40b6867eb1315c6d9bae8f96d111c88136d0",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 53271,
+        "outputTokens": 6452,
+        "requestMs": 3627.4536239999993
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-b0-mixed-corrected-development.json",
+        "sha256": "2f0aacbee0536d095dd004fbb672a118d1d25cd2dec0289dbb93800b5ae66f9d",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 59307,
+        "outputTokens": 6452,
+        "requestMs": 3194.666165
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-b0-mixed-development.json",
+        "sha256": "d2b7a4257ecfc6369e3ac29e3a2d8223791557b1aaaeec56c45e2fbb4bb48223",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 59282,
+        "outputTokens": 6452,
+        "requestMs": 3453.568918
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-confirmation-isolated-corrected-development.json",
+        "sha256": "82a897e2dea711bbfd1a4c24b9cedd94b11f42b7b8f1b6d5fefffbe4fdd340b1",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 61149,
+        "outputTokens": 6452,
+        "requestMs": 3200.652334
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-confirmation-mixed-corrected-development.json",
+        "sha256": "9ba7094d2561f1531546edfb95aa5a5d272804b3b5891cc36b66a5c81bbad5ff",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 67185,
+        "outputTokens": 6452,
+        "requestMs": 3344.176583
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r1-isolated-development.json",
+        "sha256": "80ce217a6c0de576f31f6d40c0ac49a41481d5acc9822ebcb129539a93e431cc",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 61149,
+        "outputTokens": 6452,
+        "requestMs": 3153.0570809999995
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r1-mixed-corrected-development.json",
+        "sha256": "6a60e628c9b02754360432329c76324626dc0c88adc8a2ce3f182d306274a5c7",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 67185,
+        "outputTokens": 6452,
+        "requestMs": 3469.205251
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r1-mixed-development.json",
+        "sha256": "5cda7d93d1371370ae145a16e52a3561616185019d4b8c053781cca66e28f141",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 67160,
+        "outputTokens": 6452,
+        "requestMs": 3203.882291
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r2-isolated-development.json",
+        "sha256": "e05667d4c80e545b86b3522a6b268225ca28f549e639b9ab892a4b16aa3a5ee2",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 60035,
+        "outputTokens": 6452,
+        "requestMs": 3664.6875869999994
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r2-mixed-corrected-development.json",
+        "sha256": "4531e6d67ab63638e8df03fe74c3c6da17643c9c0e22859ccbecabc58139fc9a",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 66071,
+        "outputTokens": 6452,
+        "requestMs": 3473.7760829999975
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r2-mixed-development.json",
+        "sha256": "8ade28f2e328740b01fa1e224af51b871820118b0b273a35a6b39e83005144b3",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 66046,
+        "outputTokens": 6452,
+        "requestMs": 3350.989501
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r3-isolated-corrected-development.json",
+        "sha256": "43eda0c6d5afe36fc0bdadd8e5aa46a5dcd349dff63fd9e3f8c5349863d9144d",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65422,
+        "outputTokens": 6452,
+        "requestMs": 4025.570583
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r3-mixed-corrected-development.json",
+        "sha256": "05f99f1ecce568b34dc986978e09b3e7728f0792658d93c3ba74a4888616b0ab",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 71458,
+        "outputTokens": 6452,
+        "requestMs": 3376.996083999999
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-b0-isolated-development.json",
+        "sha256": "1ef7039a4ba1f84109bd5b5720347ff66ca5ad96c71d23f42db020a3fc5eb2ab",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 48308,
+        "outputTokens": 5452,
+        "requestMs": 3629.8041240000007
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-b0-mixed-corrected-development.json",
+        "sha256": "74f5ea563f25f4fe32575958978ea0f726a9b5ac3c970b567f84547388a392b6",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 55065,
+        "outputTokens": 5452,
+        "requestMs": 3139.8140389999994
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-b0-mixed-development.json",
+        "sha256": "92c60b115a5bb6871efb33ea8ef84eb18ccd3770642f1acb3b7993ee8d93dea5",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 55040,
+        "outputTokens": 5452,
+        "requestMs": 3459.083457
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-confirmation-isolated-corrected-development.json",
+        "sha256": "f0c8c4fb971199e8465ef6d7c7fb8989302182b57e504a3009929e1bb3baa27c",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65233,
+        "outputTokens": 5452,
+        "requestMs": 3258.3616670000006
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-confirmation-mixed-corrected-development.json",
+        "sha256": "04762935cd25bb0ef3abe6be106a2031bd9b571b1373a27cdf92146c16ab769b",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 71990,
+        "outputTokens": 5452,
+        "requestMs": 3487.6870829999993
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-r1-isolated-development.json",
+        "sha256": "0168caeb23d4da2bb96677bf1173ff057387f21ab502454d676fe0dfa276dd2f",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 59233,
+        "outputTokens": 5452,
+        "requestMs": 3327.6435400000005
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-r1-mixed-corrected-development.json",
+        "sha256": "2db2263980cfc7c8fea881ab2bfb7eef1fa220c89032cff47ec65babacc3e680",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65990,
+        "outputTokens": 5452,
+        "requestMs": 3142.6864600000004
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-r1-mixed-development.json",
+        "sha256": "178b751c48c6a53486f4c403fc48609902df41b5babb0d5c7975fc30ceaa9372",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65965,
+        "outputTokens": 5452,
+        "requestMs": 3202.266501
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-r2-isolated-development.json",
+        "sha256": "c120eb24ed411bfad8ff78a74b2f489a30a2b8beef3481b22d58252ec62d7713",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65233,
+        "outputTokens": 5452,
+        "requestMs": 3658.503873
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-r2-mixed-corrected-development.json",
+        "sha256": "71ad49c53ba6133ff1df8ada82166dc60a87d6f01a3b6193829b56a14707cc61",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 71990,
+        "outputTokens": 5452,
+        "requestMs": 3747.8644989999993
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-r2-mixed-development.json",
+        "sha256": "64cceb38b6ce9c52e56ab30e0b13d42bf8721f4eff2d50a095b323f0ea540ec6",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 71965,
+        "outputTokens": 5452,
+        "requestMs": 3690.297583
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-r3-isolated-corrected-development.json",
+        "sha256": "b724b6bd21143a297bcab83927ec43da57282d9f255c2166817b4d1d8da044db",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65633,
+        "outputTokens": 5452,
+        "requestMs": 3279.0235
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-cliche-r3-mixed-corrected-development.json",
+        "sha256": "9fd7ca373107487bddd711873fead94a705a64699c351c0452ec749013f12446",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 72390,
+        "outputTokens": 5452,
+        "requestMs": 3192.8497950000005
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-b0-isolated-development.json",
+        "sha256": "03cb28d2e61abd926d7c8d6f3411710c3bb3c2bec91cd79a6f748ff8033f6106",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 55838,
+        "outputTokens": 6452,
+        "requestMs": 3699.4620010000003
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-b0-mixed-corrected-development.json",
+        "sha256": "5986ff872eb451d3fcbf13d17af378bea041539ced07f48bc6ef78eeab6a4070",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 62942,
+        "outputTokens": 6452,
+        "requestMs": 3476.02525
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-b0-mixed-development.json",
+        "sha256": "c3ff98f3984b1becad9df381221d9d842afcb7b34d148d24135e17cb47bd26cb",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 62917,
+        "outputTokens": 6452,
+        "requestMs": 3426.484957999999
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-confirmation-isolated-development.json",
+        "sha256": "069f06ad679d1436dae23ae32bacda128e68b8060ad0f0e0fb0d90f49a0ee153",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 55838,
+        "outputTokens": 6452,
+        "requestMs": 3272.0672929999996
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-confirmation-mixed-corrected-development.json",
+        "sha256": "e2ac757c658813f106a396aa7ab281253f1392b7e3c70abb2398c94b2882eaa5",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 62942,
+        "outputTokens": 6452,
+        "requestMs": 3338.743166
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-confirmation-mixed-development.json",
+        "sha256": "5e0ddc5c99adade1befefa2feef6c04a24ac0df4a89b173fd17645bd6c6f812b",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 62917,
+        "outputTokens": 6452,
+        "requestMs": 3446.688957
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-isolated-corrected-development.json",
+        "sha256": "acfcc0de46afd995876e41afb3fd324f6aba723d8a2c899494c8c938507af779",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 59914,
+        "outputTokens": 7314,
+        "requestMs": 3540.283835000003
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-isolated-development.json",
+        "sha256": "288bb7b40209dc0c4f1a3b5beb6fca32308e3879b3be35ae7e91134acac9cd72",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 59909,
+        "outputTokens": 7307,
+        "requestMs": 3641.1027929999996
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-mixed-corrected-development.json",
+        "sha256": "4340ffc7621a8cc671d48dd895880205bbff394a5a1ffd4df8496e21befd55fc",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 64602,
+        "outputTokens": 6052,
+        "requestMs": 3439.861706
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-mixed-development.json",
+        "sha256": "696adec454f23b473fe6659fe7956c5de9ba3737d6e7a32761825768a7333859",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 64577,
+        "outputTokens": 6052,
+        "requestMs": 3613.0699580000005
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-confirmation-isolated-corrected-development.json",
+        "sha256": "7fe10d1c342a6c563e2c3a6c06bda9f020655dc33f1151d23df27014119cfec6",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 59602,
+        "outputTokens": 7314,
+        "requestMs": 3130.0946679999997
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-confirmation-mixed-corrected-development.json",
+        "sha256": "06c8d8d9ebf00541417ab3256fc151cf29d7f35d466d4343974e81cb8faa52e4",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 64290,
+        "outputTokens": 6052,
+        "requestMs": 3121.2113340000005
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-isolated-corrected-development.json",
+        "sha256": "d3809e157a00b99b89398f82492e3e8f7e4b7e2e6ff1305c73af26a8175f0e3d",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 59602,
+        "outputTokens": 7314,
+        "requestMs": 3584.891207000001
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-mixed-corrected-development.json",
+        "sha256": "59a062457631950dd3e129c55f9129100f8bf2d3d3e7c4d141a288916356a901",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 64290,
+        "outputTokens": 6052,
+        "requestMs": 3735.5414150000006
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r2-isolated-corrected-development.json",
+        "sha256": "9849d64a9005f4ba01cf211535724ec218028078d81fabc25575bbf923d4228c",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 63770,
+        "outputTokens": 7314,
+        "requestMs": 3159.3107080000013
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r2-mixed-corrected-development.json",
+        "sha256": "0f6fa8c11bcce3bd3aec5ea43f0975627fd15012c0278d7e57f4c4d77edb599f",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 68458,
+        "outputTokens": 6052,
+        "requestMs": 3169.300623
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r3-isolated-corrected-development.json",
+        "sha256": "4e952e4a00a7a28a89c9f4794967886750da5c17dca1e41ed6b952bef46686fc",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 61008,
+        "outputTokens": 7314,
+        "requestMs": 3140.525334
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r3-mixed-corrected-development.json",
+        "sha256": "52d7f15baaeb53430925237ebee75d89b0c45a19e839b51eaef478fdbc57ed0b",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65696,
+        "outputTokens": 6052,
+        "requestMs": 3037.7573329999996
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-b0-isolated-development.json",
+        "sha256": "c8790fc3df9356772beff83b513f1fabe72bb99986abd5aa07e0f3b56bd4208c",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 50279,
+        "outputTokens": 6252,
+        "requestMs": 3903.4554170000015
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-b0-mixed-corrected-development.json",
+        "sha256": "3f3810ca8db7c07af6a5b8c5c954375a4e3785f73a21edeed30b8a8821fc15cf",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 57322,
+        "outputTokens": 6252,
+        "requestMs": 3416.426209000001
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-b0-mixed-development.json",
+        "sha256": "35fb74338352842dd5280dd643d1cec645257d75e631b643d8181a4062b9414b",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 57297,
+        "outputTokens": 6252,
+        "requestMs": 3479.340041000001
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-confirmation-isolated-corrected-development.json",
+        "sha256": "ce0d87c6bdda574748a205bab29b50ad7fa8e8e40a81e1233bf5292c18c24480",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 58329,
+        "outputTokens": 6252,
+        "requestMs": 3191.4254999999994
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-confirmation-mixed-corrected-development.json",
+        "sha256": "85d1dd74f80025d194c611529c1c0453c0d2fa0fb20f05e684ce58e51e8619dd",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65372,
+        "outputTokens": 6252,
+        "requestMs": 3309.2537079999997
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r1-isolated-development.json",
+        "sha256": "3185d3d23cd66fb7e4172118317465b23b182b83a1dac1476794ee6741fe75d4",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 58329,
+        "outputTokens": 6252,
+        "requestMs": 3131.9992509999997
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r1-mixed-corrected-development.json",
+        "sha256": "35695daf0cc07b853ec5ec451269b8f15adeabf3a2c76d43b9c43c4afdcd8963",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65372,
+        "outputTokens": 6252,
+        "requestMs": 3397.6552909999996
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r1-mixed-development.json",
+        "sha256": "2920eccf01a82ca8ca5f8253bd20b24a29d7fe441c59c0ca1a3a3147a49737d4",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 65347,
+        "outputTokens": 6252,
+        "requestMs": 3097.090707
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r2-isolated-development.json",
+        "sha256": "9e097eacf4825da0d3871ea1c6ca8a9af76c6db68da51c93a459a4eb1d1d1477",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 64111,
+        "outputTokens": 6252,
+        "requestMs": 3485.8942480000005
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r2-mixed-corrected-development.json",
+        "sha256": "0b5634f4a5fa6b22d66bbc6353405eab8d72a27a89b1316fe171619b87754ad5",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 71154,
+        "outputTokens": 6252,
+        "requestMs": 3915.289705
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r2-mixed-development.json",
+        "sha256": "14d4e33d93cc9929fadcc45865ee59179a47d0ba92a13bd19499df745d100bcd",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 71129,
+        "outputTokens": 6252,
+        "requestMs": 3384.8635409999997
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r3-isolated-corrected-development.json",
+        "sha256": "b4f7d50d6640563813ebb00b34df66c2362738a3810e8d69800b4fcf4e615e6b",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 75848,
+        "outputTokens": 6252,
+        "requestMs": 3699.694458
+      },
+      {
+        "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r3-mixed-corrected-development.json",
+        "sha256": "6b516c2a18c5e7c71fd90317e453fad79a09c2725706a61a1e78cb0335727e22",
+        "requests": 13,
+        "judgments": 200,
+        "inputTokens": 82891,
+        "outputTokens": 6252,
+        "requestMs": 3308.615834
+      }
+    ],
+    "totals": {
+      "requests": 741,
+      "judgments": 11400,
+      "inputTokens": 3620647,
+      "outputTokens": 354929,
+      "requestMs": 194447.99465500005
+    },
+    "note": "Counts unique saved native inferences once. Offline validation contexts, replayed summaries and combined family scoring add zero provider judgments."
+  },
+  "status": "Complete: all five bounded development searches, confirmations, full-input reviews, final verification and independent report audit. Four quality failures retained; holdout inference requires separate authorization.",
+  "verification": {
+    "complete": true,
+    "commands": [
+      {
+        "command": "pnpm",
+        "args": [
+          "run",
+          "validate"
+        ],
+        "exitCode": 0,
+        "outputSha256": "0d758e4d43407e85e1598defa449d52a11e3bcea676ba9764ed09b3fb871bb29"
+      },
+      {
+        "command": "node",
+        "args": [
+          "runners/datasets.mjs"
+        ],
+        "exitCode": 0,
+        "outputSha256": "b7dccabb006d8388ed9fccb8e65347d395aab3d24ceeaee5ea093fc663aecc23"
+      },
+      {
+        "command": "node",
+        "args": [
+          "scripts/datasets-contract.mjs",
+          "behavior/fixtures/datasets/contract.json"
+        ],
+        "exitCode": 0,
+        "outputSha256": "580fd6957a05798c8a0955bef5aeae69c55579cf89a0a93a4648314a0562a0ff"
+      },
+      {
+        "command": "node",
+        "args": [
+          "--test",
+          "runners/jev-paragraphs.test.mjs"
+        ],
+        "exitCode": 0,
+        "outputSha256": "4355b29774f032cd8638869d9c4e4c7094bd2dfdb5e281dfd5550c8be7309e6f"
+      },
+      {
+        "command": "fixture3",
+        "args": [
+          "check",
+          "--suite",
+          "datasets",
+          "--json"
+        ],
+        "exitCode": 0,
+        "outputSha256": "6fb990098bdc09289a71f2a502a262fd7c6fb9eac46a370f292f8315b0bb9043"
+      },
+      {
+        "command": "pnpm",
+        "args": [
+          "exec",
+          "prettier",
+          "--check",
+          "--ignore-path",
+          "/dev/null",
+          "--prose-wrap",
+          "preserve",
+          "prompts/v17/shared.md",
+          "prompts/v17/cliche.md",
+          "prompts/v17/borrowed-jargon.md",
+          "prompts/v17/tortured-phrasing.md",
+          "prompts/v17/hidden-significance-adverb.md",
+          "prompts/v17/stock-vocabulary.md"
+        ],
+        "exitCode": 0,
+        "outputSha256": "17aa973d3f004560237d9a95171210b0671deff23d61628eecf7322ff5938f20"
+      }
+    ],
+    "fullCommandResultsSha256": "ce6a15cb027e5f9d264d765407cc434a39e5b7aef924b6a873915884d94b9af8",
+    "note": "Dependent tests run after the completed build. Complete captured outputs supplied to the fresh final reviewer.",
+    "protectedAuditSources": {
+      "currentFileMatches": 53,
+      "historicalSnapshotMatches": 1,
+      "total": 54,
+      "pins": [
+        {
+          "path": "runners/results/stock-wording-and-jargon-development-review.json",
+          "commit": "a15196cdced00f7bf1d8b02bc677e745e3bf1d81",
+          "sha256": "27919a3bc34d3008ba2ad2ce6c179d512605f2df6a9f77ccc1a7fcb4f2aaca32",
+          "reason": "This review file received the completed audit after serving as an audit input. Verify the reviewed snapshot at its producing commit."
+        }
+      ]
+    },
+    "finalPromptExposure": {
+      "everDemonstratedIDs": [
+        "000041-003",
+        "000041-006",
+        "000041-007",
+        "000041-010",
+        "000041-024",
+        "000041-029",
+        "000043-003",
+        "000043-004",
+        "000043-006",
+        "000043-022",
+        "000043-052",
+        "000045-011",
+        "000045-017",
+        "000045-033",
+        "000045-039",
+        "000045-048",
+        "000045-074",
+        "000045-101",
+        "000045-150",
+        "000045-175",
+        "000047-016",
+        "000047-018",
+        "000047-050",
+        "000047-069",
+        "000047-097",
+        "000047-137",
+        "000049-201",
+        "000049-205",
+        "000049-209",
+        "000049-215",
+        "000049-235",
+        "000049-236",
+        "000049-d-1c99c4e8d2ef",
+        "000049-d-402ba710a84f",
+        "000049-d-40ebcb0b5723",
+        "000049-d-91c8bbd162f4",
+        "000049-d-d6b8fb87997b",
+        "000049-p-20eac6437f15",
+        "000049-p-b204c71478d2",
+        "000051-006",
+        "000051-009",
+        "000051-018",
+        "000051-025",
+        "000051-037",
+        "000051-062",
+        "000051-095",
+        "000051-097"
+      ],
+      "everDemonstratedCount": 47,
+      "screenedDevelopmentUnion": 1217,
+      "allWithinScreenedUnion": true,
+      "missing": [],
+      "scope": "The protected audit screens this complete old/new DEV union against holdout; no holdout writing was loaded here."
+    }
+  },
+  "promptPreflight": {
+    "selectedDefinitionsAndExamplesReviewed": true,
+    "sharedSha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+    "selectedDemonstrationJudgments": 30,
+    "selectedDistinctPassages": 29,
+    "allAssembledWithin1000": true
+  },
+  "vocabularyTeachingExampleDisposition": {
+    "removedBeforeR3": "000051-108",
+    "replacement": "000049-d-91c8bbd162f4",
+    "reason": "The archive task compares interpretations and records disagreements, creating a plausible meaningful nuance reading. Use the fixed map-grid task as a clearer teaching contrast.",
+    "evaluationLabelChanged": false
+  },
+  "independentReportReview": {
+    "status": "passed",
+    "verdict": "No actionable report objections. The reported scores, examples, prompt selection, corrections and completed verification agree with the inspected evidence.",
+    "objections": [],
+    "scope": {
+      "report": "runners/results/stock-wording-and-jargon-v17-development.md",
+      "protected_access": "Aggregate protected-audit fields only; no protected writing, snippets, labels or case-specific review inspected.",
+      "provider_calls": 0,
+      "delegation_calls": 0,
+      "repository_edits": 0,
+      "required_claims_remaining_unchecked": []
+    },
+    "auditSha256": "e027899b9858d9cdd59bc54900322096d40e40dab07802c3766d159bfe449bee",
+    "reviewedDraftHashes": {
+      "report": "145fc4f27c526ae8a524cc725a583efd831c34689921995495011a6181b31c29",
+      "experiment": "408c54d75f058a964d22d5ce863bba24b0b27255f628a3150e6fb4406b7768dc",
+      "runner": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a"
+    },
+    "nativeFiles": 57,
+    "requests": 741,
+    "judgments": 11400,
+    "completeExamples": 50,
+    "exactHighlights": 50,
+    "commands": 6,
+    "allCommandsPassed": true,
+    "annotation": "Draft hashes precede the completion-status annotation; native outputs, prompts, datasets and displayed examples remain unchanged."
   }
 }

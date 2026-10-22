@@ -24,6 +24,7 @@
 - The authorized [v16 holdout assessment](../runners/results/wordiness-and-redundancy-v16-holdout.md) catches 88/100 wordiness hits with seventeen false positives, redundancy 79/twelve, and repeated explanation 94/three. Mixed results are 93/79, 79/54, and 100/fifteen respectively, with all answers correct in 69/200 texts; all three checks fail their holdout acceptance bounds.
 
 - `v17/` covers cliche, borrowed jargon, tortured phrasing, hidden-significance adverbs and stock vocabulary. Each request combines `shared.md` with one named check.
-- Its reviewed baseline contains 23 exact development demonstrations and 501-750 assembled words per check. Development evaluates each check on 200 isolated and 200 mixed passages, with holdout inference separately gated.
+- Its selected revisions are cliche R2, borrowed jargon R1, tortured phrasing R1, hidden-significance adverb baseline, and vocabulary R1. Their assembled prompts contain 748, 734, 737, 612 and 887 words respectively.
+- Each selected check uses three hit and three no-hit development demonstrations. The [development report](../runners/results/stock-wording-and-jargon-v17-development.md) records every trial, corrected labels, mixed results and confirmation. Only the adverb check meets both quality limits; holdout inference remains separately gated.
 
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.

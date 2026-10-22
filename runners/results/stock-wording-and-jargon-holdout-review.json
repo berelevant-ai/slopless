@@ -2,7 +2,7 @@
   "family": "stock-wording-and-jargon",
   "split": "holdout",
   "protected": true,
-  "status": "all-reviewed-balanced-inputs-frozen; holdout-inference-awaits-user-authorization",
+  "status": "Reviewed balanced holdout frozen; protected packaging audit passes; model evaluation awaits separate user authorization.",
   "reviewer": "McClintock",
   "reviewSha256": "315977733f9d1f5b255456a441e59453222c6af5f3b23e37a5b9d1353f01c5f4",
   "independentReview": {
@@ -18391,5 +18391,13 @@
       "commits": 0,
       "classifications_reevaluated": 0
     }
-  }
+  },
+  "finalAuditSourcePins": [
+    {
+      "path": "runners/results/stock-wording-and-jargon-development-review.json",
+      "commit": "a15196cdced00f7bf1d8b02bc677e745e3bf1d81",
+      "sha256": "27919a3bc34d3008ba2ad2ce6c179d512605f2df6a9f77ccc1a7fcb4f2aaca32",
+      "reason": "This review file received the completed audit after serving as an audit input. Verify the reviewed snapshot at its producing commit."
+    }
+  ]
 }

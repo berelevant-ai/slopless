@@ -9,19 +9,18 @@ Develop and evaluate the next V2 family, `stock-wording-and-jargon`, using reali
 
 ## Execution Status
 
-- Definition review: the taxonomy now records all five definitions, expression ownership, informative-use controls, and counted vocabulary boundary examples.
-- Coverage audit: all eighteen legacy identifiers have source assignments; the taxonomy records 1,132 literal entries, 137 vocabulary forms, and 36 templates with 48,878 expansions before deduplication.
-- Data preparation: all twelve collections have reviewed balanced selections, totaling 2,400 passages and 4,000 labels. Each named check has 100 hits and 100 no-hits in isolated and mixed data for both splits.
-- Preservation: archive all 302 reviewed surplus passages before selection. Complete reviewed pools remain at `68c375f8`, `9f94e36f`, and `24241a48`; active metadata links its corresponding archive.
-- Adjudication: blind, adversarial and fresh final reviews cover original, added and repaired inputs. Preserve the corrected no-hit controls, all 100 development pilot IDs, and the mixed sets' mandatory controls.
-- Definition clarification: tortured phrasing includes corruption of a fixed name or saying even when the intended concept remains recognizable. Reassess affected judgments under that same general distinction before freezing data.
-- Development evaluation: all five original baselines are complete. Hidden-significance adverb passes baseline and fresh confirmation; the other four fail the fixed bounds. Two revisions of cliche, borrowed jargon and tortured phrasing are measured; vocabulary label adjudication precedes further tuning.
-- Mixed development quota correction: final review identifies twelve mandatory all-no-hit controls, exceeding the original seven-case cell. Preserve these controls and the 200-passage, 100/100-per-check balance; set complementary combination quotas from the reviewed mandatory counts before inference, and record the exact allocation with the selection.
-- Prompt preflight: all five `v17` prompts pass independent definition and example checks. They contain 23 exact development demonstrations, with 501-750 assembled words per check.
-- Mechanical validation: all 15,697 dataset pairs validate, and all 46 Fixture3 dataset contracts match. Protected final audit confirms all 707 mandatory cases, zero new ID collisions and zero overlap candidates across 721,563,600 comparisons. Conservative cliche review confirms at least 52 unseen central constructions.
-- Post-baseline vocabulary review: inconsistent judgments about generic grades beside useful features require label adjudication under the taxonomy's paired clarification. Preserve all original measurements, review both splits independently, and choose corrected balanced cohorts without predictions before further vocabulary tuning.
-- If corrected mixed labels require a different balanced selection, rerun affected saved candidates and confirmation on that same corrected cohort. Count these data-repair reassessments separately; keep the three-revision search limit and preserve comparisons within each cohort.
-- The initial 10,000-judgment estimate covers the original evaluation sets. Report data-repair reassessments separately from that estimate; preserve every original result and allow no additional prompt variants beyond the three revisions. Each selected candidate receives one fresh confirmation per corrected set; a failed confirmation stops that set's round.
+- Complete: all five checks finish development, confirmation and fresh independent report review. The [report](../runners/results/stock-wording-and-jargon-v17-development.md) preserves failed bounds, complete marked examples and the final selection; all six final verification commands pass.
+- Coverage review assigns all eighteen legacy identifiers: 1,132 literal entries, 137 vocabulary forms and 36 templates with 48,878 expansions before deduplication. Different defects retain their existing family assignments; exact repetition counts retain deterministic comparison behavior.
+- Twelve active collections contain 2,400 passages and 4,000 labels. Each check has 100 hits and 100 no-hits per split in isolated and mixed data; both mixed sets retain all 32 combinations.
+- Complete pools preserve 302 surplus passages at `68c375f8`, `9f94e36f` and `24241a48`. Corrected vocabulary full pools are archived before selection at `3f663d8b` and `5ad88d08`; source metadata links the archives.
+- Vocabulary adjudication corrects nineteen no-hits to hits, nineteen hits to no-hits and one snippet judgment across full development pools, plus six protected holdout cases. Writing and other checks' labels remain unchanged; corrected selection uses labels and stable IDs without detector predictions.
+- Protected final packaging retains all 728 required cases, including all 45 corrected cases and all 100 development pilot IDs. All 2,805 literal snippets validate; current passage IDs have zero collisions.
+- Final copy checking finds zero candidates across 721,563,600 eligible comparisons and against the 1,217-text exposed-development union. At least 52 holdout cliche constructions remain conservatively unseen.
+- Select cliche R2, borrowed jargon R1, tortured phrasing R1, hidden-significance adverb baseline and vocabulary R1. Each active prompt has three hit and three no-hit development demonstrations and stays below 1,000 assembled words.
+- Only hidden-significance adverb meets both quality limits in selection and confirmation. Mixed confirmation finds every expected issue in 152/186 affected passages, matches all answers in 126/200, and flags seven of fourteen passages labeled clear for all five checks.
+- Preserve original measurements separately from corrected-cohort reassessments. Three revisions per failing check and the fixed stopping rules remain enforced; the adverb check receives zero revisions.
+- Unique native outputs record 11,400 judgments and 741 requests. This includes 2,400 corrected-input reassessments and an additional 200-judgment mixed adverb confirmation; the bounded search and its final confirmations account for the remaining 8,800.
+- Holdout inference remains unrun and requires separate authorization. Production code, package versions and releases remain unchanged.
 
 ## Inspected Coverage
 

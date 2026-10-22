@@ -1,6 +1,6 @@
 {
   "family": "stock-wording-and-jargon",
-  "status": "all-reviewed-balanced-inputs-frozen; baseline-prompts-preflight-passed",
+  "status": "All five checks complete development and confirmation; fresh report audit passes; four quality failures retained.",
   "definitionCommit": "2c6bae1facdaf996478b75d3bf5191f48f1a0029",
   "definitionReviewer": "01a16478-a2f0-7260-beef-c495de11e8d1",
   "sourceAudit": {
@@ -4902,7 +4902,7 @@
     }
   },
   "inference": {
-    "status": "ready-not-started"
+    "status": "Complete; see stock-wording-and-jargon-v17-development.json. Holdout inference remains separately gated."
   },
   "promptPreflight": {
     "reviewer": "Gauss",
@@ -7863,5 +7863,13 @@
     "overlapCandidates": 0,
     "conservativeUnseenClicheConstructions": 52
   },
-  "finalAuditSha256": "d94d22d9da0f199a3130b84a735b876a906d914b3ef9a1c5a0505e223cab10cc"
+  "finalAuditSha256": "d94d22d9da0f199a3130b84a735b876a906d914b3ef9a1c5a0505e223cab10cc",
+  "finalAuditSourcePins": [
+    {
+      "path": "runners/results/stock-wording-and-jargon-development-review.json",
+      "commit": "a15196cdced00f7bf1d8b02bc677e745e3bf1d81",
+      "sha256": "27919a3bc34d3008ba2ad2ce6c179d512605f2df6a9f77ccc1a7fcb4f2aaca32",
+      "reason": "This review file received the completed audit after serving as an audit input. Verify the reviewed snapshot at its producing commit."
+    }
+  ]
 }
