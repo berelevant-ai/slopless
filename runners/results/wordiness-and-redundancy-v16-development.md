@@ -7,7 +7,7 @@ Each isolated check uses the same 100 expected hits and 100 expected no-hits acr
 - Wordiness selects `wordiness-r2`: 98 hits caught, two missed, and 20 false positives. The false-positive gate fails.
 - Redundancy retains `b0`: 83 hits caught, seventeen missed, and eleven false positives. Both gates fail; two consecutive worse revisions stop its round.
 - Repeated explanation selects `repeated-r2`: 98 hits caught, two missed, and five false positives. It meets both development bounds and the 1,000-word prompt limit.
-- Mixed development and final independent verification are in progress. Holdout inference remains separately authorized; these are development results.
+- On mixed development, the unchanged prompts produce many false positives: wordiness catches 96/100 hits with 74/100 false positives; redundancy 83/48; repeated explanation 99/thirteen. All three exceed the false-positive bound. Independent error review is in progress.
 
 ## Attempts
 
@@ -23,7 +23,7 @@ Native histories are [wordiness](wordiness-v16-development.json), [redundancy](r
 - Relative to baseline, selected prompts add two catches, lose three, correct six false positives, and introduce one. The twelve changed classifications improve eight judgments and worsen four.
 - Selected prompts quote sixteen complete development inputs: six for wordiness, six for redundancy, and four for repeated explanation. Thirteen wordiness inputs and sixteen redundancy inputs appear as demonstrations across all attempted revisions; repeated explanation uses the same four throughout.
 - Excluding current demonstrations, wordiness catches 95/97 hits with 20/97 false positives; redundancy catches 81/97 with 11/97; repeated explanation catches 96/98 with 5/98. The remaining inputs were still available during development and error review.
-- All ten trials total 2,000 decisions in 53 requests, with 648,254 input tokens, 58,612 output tokens, and 16,970 milliseconds of saved request time. Human-facing elapsed work also includes writing, review, adjudication, and mechanical checks.
+- All ten isolated trials total 2,000 decisions in 53 requests, with 648,254 input tokens, 58,612 output tokens, and 16,970 milliseconds of saved request time. Human-facing elapsed work also includes writing, review, adjudication, and mechanical checks.
 - Keep Jev 1.13.0, SDK 0.7.0, classification-only mode, and threshold 0.5 fixed. Passage batches contain 100 targets; complete-text batches contain sixteen, with an eight-target final batch.
 
 ## Remaining Errors
@@ -38,6 +38,37 @@ Native histories are [wordiness](wordiness-v16-development.json), [redundancy](r
 - Independent adjudication removes two yellow-badge callback snippets from `000037-188`; the rain-protection pair still supports its existing hit label. The complete text and every classification boolean stay unchanged.
 - Appended native `rescores` entries in the [repeated-explanation history](repeated-explanation-v16-development.json) preserve every original prediction and score value, confirming zero classification-score changes. The dataset review record documents the snippet correction.
 - A pre-inference prompt-size guard now checks the shared instructions, check body, question, and both criteria in the existing private development driver. Its regression probe first reproduces SDK access with an oversized prompt, then all 157 integrity probes pass after the repair.
+
+## Mixed Development
+
+The first mixed collection was frozen at `55d8377c` before inference. Its 200 complete texts carry 600 judgments, originally including exactly 100 hits and 100 no-hits for each check. The counts immediately below preserve that original assessment.
+
+- Wordiness catches 96 hits, misses four, and produces 74 false positives. Redundancy catches 83, misses seventeen, and produces 48 false positives. Repeated explanation catches 99, misses one, and produces thirteen false positives.
+- Across all checks, 278/300 expected hits are caught and 135/300 no-hits are flagged. This gives 443/600 correct judgments; all three checks exceed the fixed false-positive bound.
+- All expected issues are caught in 152/172 texts containing an issue. All three booleans match in 75/200 texts, including the all-negative controls. This distinction exposes additional unwanted findings beside successful catches.
+- The [native result](wordiness-and-redundancy-v16-mixed-development.json) preserves 39 requests and 600 decisions, using 297,409 input tokens and 17,756 output tokens. Saved request time totals 10,583 milliseconds.
+- Keep the isolated selected prompts, model, threshold, and execution settings unchanged. Each request contains sixteen complete targets at most and one named check; each of the three checks uses thirteen requests.
+
+### Findings By Combination
+
+- Among wordiness no-hits, false positives occur in 7/28 texts clean for all three checks, 19/22 with local redundancy alone, 21/22 with repeated explanation alone, and 27/28 with both other issues.
+- Redundancy flags 46/47 of its no-hits that contain repeated explanation, versus 2/53 of its other no-hits. Repeated explanation flags 12/47 of its no-hits containing local redundancy, versus 1/53 of its other no-hits.
+- These are observed classification differences across labeled groups. The runner thresholds one model probability per check and complete input at 0.5; reviewer quotes explain the labels and remain separate from model highlighting.
+
+### Data Review And Preservation
+
+- Independent final review corrects sixteen judgments before inference, preserving their complete texts. Fifteen concern ordinary operation wording; the other is a useful procedural reminder. Fifteen new same-split variants add explicit padding while retaining the original controls.
+- The final development set retains all 106 required cases. Its 28 required all-negative texts force adjusted combination counts of 22-28 while preserving the 100/100 per-check denominators; holdout keeps 25 per combination.
+- The full 249-text development pool remains at `7f6d80e6`, including 49 surplus texts. The 216-text holdout pool remains at `24144852`, including sixteen surplus texts. The eight active collections contain 800 inputs per split and pass a 640,000-pair lexical overlap screen with zero candidates.
+- Development contains fifteen intentional original/variant pairs. They share context and are recorded together; report the 200 inputs as a development sample with related examples.
+- Independent review of every mixed classification error and all native requests is in progress. Holdout inference remains separately gated; the isolated and mixed assessments use different inputs.
+
+### Post-Freeze Label Corrections
+
+- Independent adjudication corrects wordiness labels `000039-005`, `000039-103`, and `000039-149` to no-hit. They preserve degree and ability, tentative evidence, and an ordinary assessment action respectively. Their complete writing remains unchanged.
+- Native offline rescoring preserves every original prediction. Wordiness becomes 96/97 caught hits and 74/103 false positives; the other checks retain their counts. All-issues-found becomes 152/170, and exact match becomes 77/200.
+- These three changed judgments improve the measured result through corrected labels. Prompts, model settings, and predictions remain unchanged; the saved result retains both original summaries and appended corrected summaries.
+- Three additional padding-positive variants are undergoing independent review before balancing the next assessment. Keep all corrected controls and select by the existing stable-ID rule, then freeze the replacement set before evaluating it.
 
 ## Complete Development Examples
 
