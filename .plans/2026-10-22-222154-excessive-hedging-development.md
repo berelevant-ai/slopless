@@ -15,17 +15,22 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Commit `c129617c` preserves all 960 authored candidates and 1,920 provisional judgments. Root collections are replaced with reviewed balanced selections as each collection finishes; all approved pilot cases remain required.
 - Each archived author pool contains 240 candidates with contextual coverage of all 68 legacy vocabulary slots. Initial isolated pools have 120 hits and 120 no-hits; initial mixed pools have thirty passages per combination.
 - Both development collections complete all three full reviews. Six original protected review attempts are superseded after read-scope audits, and clean replacements use pre-extracted definitions with a strict file allowlist.
-- Pre-inference adjudication corrects eight development labels across seven passages to no-hits while preserving their complete writing. Every corrected case and the retained weaker-deadline hit are required in final selection; further mixed review remains active.
-- Full-pool copy screening finds zero candidates across 289,437,600 eligible comparisons against the other split and prior datasets. Repeat the screen after reviewed selection and any writing changes.
-- Two new development passages are rewritten for realism before blind review. Holdout writing remains protected, and provider inference has not started.
+- Pre-inference adjudication corrects eight development labels across seven passages to no-hits while preserving their complete writing. Every corrected case and the retained weaker-deadline hit are required in final selection.
+- Full-pool copy screening finds zero candidates across 289,437,600 eligible comparisons against the other split and prior datasets. The final selected-set screen below repeats this after review.
+- Two new development passages are rewritten for realism before blind review. Holdout writing remains protected throughout prompt authoring and development inference.
 - Isolated development `000053` completes all three full reviews and selects exactly 100 hits and 100 no-hits, retaining all 22 required cases and 68 source slots. Its complete reviewed 240-passage pool is archived at `93be1e7f`; the forty surplus passages retain their labels there.
 - Mixed development `000055` completes all three full reviews with seven corrected labels across six passages, preserving all original writing and sixteen pilots. Its complete reviewed 240-passage pool is archived at `44f8782d`.
 - Balanced mixed development retains 200 passages, all eight combinations with 25 passages each, all 22 required cases and 68 source slots.
-- Both protected collections complete three clean full reviews with no remaining judgments to resolve. Preserve their full 240-passage reviewed pools in Git before balanced selection; no holdout model inference has run.
+- Both protected collections complete three clean full reviews with no remaining judgments to resolve. Their complete reviewed pools are archived at `8b80d26f` before balanced selection; no holdout model inference has run.
 - The two legacy hedging checks run on the same 400 selected development passages. Against the new definition, their union catches 18/100 isolated hits with 27 false positives and 23/100 mixed hits with sixteen false positives.
 - All four balanced selections now contain 800 passages and 1,600 judgments, retaining 92 required cases and all 68 source slots per collection. Forty surplus passages per collection remain in the reviewed Git archives.
 - A fresh independent freeze audit passes all 43 checks. Final copy screening finds zero candidates across 241,166,000 eligible comparisons; source and label hashes match the reviewed archives.
 - Baseline `prompts/v18/hedge-stacking.md` contains 761 assembled words and six complete development demonstrations. Shared instructions match `v17` byte-for-byte; offline native validation covers all four planned baseline invocations without provider calls.
+- Committed baseline, revision one and revision two complete development inference. Revision two first meets both selection bounds with 95/100 isolated hits and four false positives, and 96/100 mixed hits and two false positives; the fixed rule stops prompt changes.
+- One fresh confirmation records 96/five isolated and 97/two mixed. The selected 945-word prompt retains six complete demonstrations and unchanged shared instructions.
+- Frozen comparators complete both measurements: attribution 91/two then 91/three; puffery 70/two in both. Mixed confirmation finds all expected issues in 136/175 affected passages and matches all three answers in 155/200.
+- All twelve native outputs validate against their producing prompts and identical labels. They record 156 requests and 2,400 judgments. Independent reviews cover 35 hedging cases, 46 comparator judgments and 200 legacy changes; twelve hedging and ten comparator interpretation disputes retain their frozen labels.
+- The report and existing review records preserve measured results, complete examples and disputed readings. Final report audit and final-commit CI are the remaining execution gates; user review and holdout inference remain separately gated.
 
 ## Existing Behavior And Check Definition
 

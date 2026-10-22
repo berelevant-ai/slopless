@@ -166,7 +166,7 @@ Each mixed set covers all eight combinations with 25 passages each. Three indepe
 
 The complete reviewed pools preserve 160 surplus passages with their labels in Git: isolated development at `93be1e7f`, mixed development at `44f8782d`, and both holdouts at `8b80d26f`. Split-specific excessive-hedging review records under `runners/results/` distinguish valid reviews, superseded attempts and selections.
 
-Use development for prompt authoring. Holdout model evaluation requires separate authorization.
+The [development report](../runners/results/excessive-hedging-v18-development.md) records the bounded prompt search and one fresh confirmation. Hedging meets the fixed development limits on isolated and mixed data; the two frozen comparator checks fail their limits on these new mixed passages. User review is pending. Use development for prompt authoring; holdout model evaluation requires separate authorization.
 
 ## Commands
 
