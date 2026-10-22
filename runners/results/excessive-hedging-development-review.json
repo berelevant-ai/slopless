@@ -2036,9 +2036,8 @@
     }
   ],
   "preInferenceAdjudication": {
-    "modelJudgmentsSoFar": 0,
     "sourceSnapshotCommit": "c129617cc7d4ad9f8300765b1e4f6fee625ca7c8",
-    "status": "Accepted corrections are preserved in reviewed temporary pools; root author-pool labels remain provisional until all three full reviews finish.",
+    "status": "Eight development label corrections are approved before inference. Isolated development is selected; mixed development awaits final full review.",
     "corrections": [
       {
         "id": "000055-857d5d76e09d",
@@ -2071,6 +2070,38 @@
         "after": false,
         "reason": "Bag membership and destination arrival are distinct claims; preserve both forecasts.",
         "mandatory": true
+      },
+      {
+        "id": "000055-c4d130c82989",
+        "check": "excessive-hedging/hedge-stacking",
+        "before": true,
+        "after": false,
+        "reason": "Updated fault evidence conditions practical ability to prepare parts; uncertainty about that ability remains useful.",
+        "mandatory": true
+      },
+      {
+        "id": "000055-932bcd3df47b",
+        "check": "puffery-and-overstatement/inflated-evaluation",
+        "before": true,
+        "after": false,
+        "reason": "Optional blanks and distinct coding of connection failures supply a qualitative mechanism for the validity comparison.",
+        "mandatory": true
+      },
+      {
+        "id": "000055-cb8d48eac160",
+        "check": "unsupported-authority/vague-attribution",
+        "before": true,
+        "after": false,
+        "reason": "An immediate within-window counterexample corrects the anonymous completeness claim.",
+        "mandatory": true
+      },
+      {
+        "id": "000055-cb8d48eac160",
+        "check": "puffery-and-overstatement/inflated-evaluation",
+        "before": true,
+        "after": false,
+        "reason": "The completeness evaluation is exposed by the immediate counterexample rather than endorsed.",
+        "mandatory": true
       }
     ],
     "retainedHardHit": {
@@ -2081,7 +2112,9 @@
       "mandatory": true
     },
     "temporaryRepairCorrections": 2,
-    "pass2RetrievalDisclosure": "The isolated development reviewer initially retrieved the full taxonomy and extra same-collection snippet comparisons. No separate holdout, prompt or model-output file was opened; its report records the overruns. Final reviewers are instructed to retrieve only their definition section."
+    "pass2RetrievalDisclosure": "The isolated development reviewer initially retrieved the full taxonomy and extra same-collection snippet comparisons. No separate holdout, prompt or model-output file was opened; its report records the overruns. Final reviewers are instructed to retrieve only their definition section.",
+    "timing": "Before any provider inference",
+    "providerJudgmentsAtAdjudication": 0
   },
   "completedFullPools": [
     {
@@ -2108,7 +2141,54 @@
         "eligibleNoHits": 121,
         "nextOperation": "Select 100 approved hits and 100 approved no-hits independently of detector scores, retaining both mandatory IDs with original complete writing. Preserve the 19 surplus hits and 21 surplus no-hits for the parent's archive step.",
         "parentFreezeGate": "The parent performs the required cross-split identical and near-identical checks before freezing the selected set. This development-only review leaves that gate to the authorized context."
-      }
+      },
+      "archiveCommit": "93be1e7f418efd4e2eac6f536491ef1f459a70b9"
+    }
+  ],
+  "activeSelections": [
+    {
+      "collection": "000053",
+      "archiveCommit": "93be1e7f418efd4e2eac6f536491ef1f459a70b9",
+      "strategy": "Preserve pilots and final-review mandatory IDs; greedily retain all 68 source slots with stable hashed-ID tie breaks; fill 100 per class in the same fixed order. No detector predictions are read.",
+      "sourceHashes": {
+        "/tmp/000053-development-fullpool-v18-reviewed-r3.json": "4c907361dc309217ed0de6e6223ac74b9b05ccfc5df05dd57d196753f9d8d84c",
+        "/tmp/000053-development-pilot-v18-reviewed.json": "29aa0d52efe55e5ef7909f6310d10bf9667d4cf0aa1a4ac03335953d037459ff",
+        "/tmp/000053-development-fullpool-v18-final-review-r3.json": "fa065642c76bb1bd74777b67f3b793535f0181d4a9f7b08e5bd5a9f28421b3d5",
+        "/tmp/hedging-v18-source-audit.json": "c8076c514a9fc6b7d537a681298cfcface891acf63db4fba0886f2117d92d45a"
+      },
+      "selectionQaPath": "/tmp/000053-development-selected-v18-qa.json",
+      "selectionQaSha256": "77dbd26842cbd0ae890054f0052d19ec29c2a9d8211518202d3ded0d1a1df8be",
+      "selected": 200,
+      "hits": 100,
+      "noHits": 100,
+      "sourceSlots": 68,
+      "mandatoryIds": [
+        "000053-cfc9fc81f772",
+        "000053-1526dc8ecd4b",
+        "000053-5804c7d0a7a6",
+        "000053-b60e19f4b9fb",
+        "000053-37124864bd26",
+        "000053-be6e23fc689a",
+        "000053-d8ac1d26fdcc",
+        "000053-3cca9ec1c22e",
+        "000053-65c7be92fbdd",
+        "000053-692308731d3f",
+        "000053-611ab0ea6fba",
+        "000053-0ec8850c01fe",
+        "000053-065a65dce7d9",
+        "000053-1dc60b1f07ba",
+        "000053-ca332cc500c2",
+        "000053-94f034de9b93",
+        "000053-528ddaff7f32",
+        "000053-5418418055fe",
+        "000053-dad950d8b06e",
+        "000053-a05d6021603e",
+        "000053-caf3ba058d12",
+        "000053-2ed5a403a09b"
+      ],
+      "surplus": 40,
+      "textSha256": "ecae35f88189b210824c126a7592f227702580644157d09450085d470a7fa386",
+      "labelsSha256": "2e388bb280838316afa60adfea24cf1e8bcf5a0d9b4c39c52d2bcee4151e1bcd"
     }
   ]
 }
