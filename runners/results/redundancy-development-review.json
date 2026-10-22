@@ -483,11 +483,11 @@
     "exactMatches": 0
   },
   "inference": {
-    "developmentDecisions": 0,
+    "developmentDecisions": 600,
     "holdoutDecisions": 0,
     "holdoutAuthorizationRequired": true
   },
-  "next": "Run frozen development evaluation and independently reviewed mixed development; holdout inference requires separate authorization.",
+  "next": "Retain baseline at 83 caught hits and eleven false positives after two consecutive non-improvements. Both development bounds fail; complete mixed development with this frozen baseline and report the failed round. Holdout inference requires separate authorization.",
   "activeSelection": {
     "dataset": "datasets/ai-synthetic/passages/000035-wordiness-and-redundancy-redundancy-development.md",
     "labels": "datasets/ai-synthetic/passages/000035-wordiness-and-redundancy-redundancy-development.labels.json",

@@ -3,19 +3,19 @@
   "instructions": "Does the complete target text contain an unnecessary repeated explanation, conclusion or recommendation according to the definition and examples in state?",
   "criteria":
     {
-      "true": "A later occurrence repeats an earlier explanation or verdict across intervening content or a distinct later section, adding no mechanism, consequence, example, decision or useful summary.",
-      "false": "Later returns contribute new meaning or a useful recap, action checklist, renewed reminder, independently usable procedure, contrast or purposeful callback. Adjacent duplication alone belongs to another check."
+      "true": "A later explanation or verdict repeats one established earlier across intervening content, without a useful function in its later location. Useful new material beside that repetition leaves it eligible.",
+      "false": "Every return serves interpretation, application, evidence-based decision, consolidation or renewed instruction. Useful later applications can repeat facts. Adjacent duplication alone belongs elsewhere."
     }
 }
 ---
 
 # Repeated Explanation
 
-Find a later explanation, conclusion or recommendation that repeats one established earlier without adding a new mechanism, consequence, example, decision or useful summary. Compare their roles in the complete text. A repetition can be embedded beside useful new material; assess the repeated part itself.
+Compare the earlier explanation with the later occurrence's role. Flag repeated explanations, conclusions or recommendations adding neither meaning nor useful function, including those beside useful new material.
 
-Require intervening substantive content or a distinct later section function. Paragraph breaks alone establish no separation. Phrase-level and adjacent duplication belong to redundancy.
+Require intervening substantive content or a distinct later section function. Paragraph breaks alone are insufficient. Adjacent duplication belongs to redundancy.
 
-Preserve a recap that consolidates a developed argument or gives a usable final action. Preserve stage-specific reminders, independently usable procedures, new applications of an earlier definition, meaningful contrasts and purposeful narrative callbacks. A closing position alone supplies no useful function. Specific details elsewhere leave an unnecessary repeated explanation intact.
+Preserve explanations applied to later items, precautions renewed at another procedural step, and recommendations synthesizing intervening comparisons. Their application can change while facts repeat. Preserve useful recaps, checklists, contrasts and purposeful narrative callbacks. Require their function in the complete writing; headings or closing positions alone establish none.
 
 ## Hits
 

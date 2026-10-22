@@ -568,11 +568,18 @@
     "exactMatches": 0
   },
   "inference": {
-    "developmentDecisions": 0,
+    "developmentDecisions": 800,
     "holdoutDecisions": 0,
     "holdoutAuthorizationRequired": true
   },
-  "next": "Run frozen development evaluation and independently reviewed mixed development; holdout inference requires separate authorization.",
+  "postFreezeReview": {
+    "case": "000033-143",
+    "decision": "Retain the no-hit label under the pre-inference ordinary-language boundary.",
+    "adjudication": "/tmp/000033-development-143-label-adjudication.json",
+    "operativeDecision": "consistencyAdjudication",
+    "labelsChanged": false
+  },
+  "next": "Retain wordiness-r2 at 98 caught hits and twenty false positives. The false-positive gate fails; complete mixed development without further tuning, then report the failed round. Holdout inference requires separate authorization.",
   "activeSelection": {
     "dataset": "datasets/ai-synthetic/passages/000033-wordiness-and-redundancy-wordiness-development.md",
     "labels": "datasets/ai-synthetic/passages/000033-wordiness-and-redundancy-wordiness-development.labels.json",

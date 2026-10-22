@@ -447,11 +447,23 @@
     "exactMatches": 0
   },
   "inference": {
-    "developmentDecisions": 0,
+    "developmentDecisions": 600,
     "holdoutDecisions": 0,
     "holdoutAuthorizationRequired": true
   },
-  "next": "Run frozen development evaluation and independently reviewed mixed development; holdout inference requires separate authorization.",
+  "postFreezeCorrections": [
+    {
+      "id": "000037-188",
+      "classificationChanged": false,
+      "removedSnippets": 2,
+      "reason": "The yellow-badge callback has a useful function after the changed arrival route. The rain-protection pair independently supports the hit.",
+      "reviewer": "01a16399-2562-7283-ac53-f01487f9903d",
+      "adjudication": "/tmp/000037-development-188-snippet-adjudication.json",
+      "rescores": "runners/results/repeated-explanation-v16-development.json",
+      "providerCalls": 0
+    }
+  ],
+  "next": "Preserve selected repeated-r2 at 98 caught hits and five false positives. Complete mixed development evaluation; holdout inference requires separate authorization.",
   "activeSelection": {
     "dataset": "datasets/ai-synthetic/texts/000037-wordiness-and-redundancy-repeated-explanation-development.md",
     "labels": "datasets/ai-synthetic/texts/000037-wordiness-and-redundancy-repeated-explanation-development.labels.json",
@@ -460,7 +472,7 @@
     "noHits": 100,
     "words": 59780,
     "textSha256": "53aa40cea728df7564a402fbc8251698f262c6b06c061650e39acb4bde6b664e",
-    "labelsSha256": "dd77778841676b51b806738059090999fc68a1788c5bb3574bbb81ec7fd819af",
+    "labelsSha256": "f294ea8885282341d876f85b9c0a7279b98c6fd2ebe940912bbf00ea9ce5798c",
     "mandatoryCases": 47,
     "allMandatoryRetained": true,
     "surplus": 10
