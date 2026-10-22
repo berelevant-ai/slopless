@@ -7,10 +7,10 @@
     "commit": "d3ba42a22b4af254c65cd6038d300762bfe39da9",
     "model": "Codex",
     "prompt": null,
-    "notes": "Complete 240-candidate author pool before three independent full reviews. Labels are provisional; balanced selection and detector evaluation follow review. The earlier pilot snapshot is preserved at 6f56aab6."
+    "notes": "Complete 240-passage holdout pool after three independent clean full reviews using isolated definitions and explicit permitted inputs. Four author hit labels are corrected to no-hits; all writing remains unchanged. Prior source-violating attempts are excluded. Archive this reviewed pool before balanced selection. Holdout inference requires separate user authorization."
   },
   "split": "holdout",
-  "instructions": "Protected holdout: keep writing, labels, snippets and case-specific review outside prompt-authoring contexts. Evaluate only after separate user authorization. Candidate pool under review: freeze reviewed labels and balanced selection before prompt tuning or model evaluation.",
+  "instructions": "Protected reviewed holdout candidate pool awaiting balanced selection. Keep writing, labels, snippets and case-specific review outside prompt authoring. No model evaluation without separate user authorization.",
   "samples": [
     {
       "id": "000054-bec9d78920fc",
@@ -1885,10 +1885,7 @@
     {
       "id": "000054-15b86335ca1c",
       "check": "excessive-hedging/hedge-stacking",
-      "expected": true,
-      "snippets": [
-        "One possible explanation for our slower opening routine is that the new checklist may be split across too many screens."
-      ]
+      "expected": false
     },
     {
       "id": "000054-4ebbe8b811cb",
@@ -2313,10 +2310,7 @@
     {
       "id": "000054-785d6facd634",
       "check": "excessive-hedging/hedge-stacking",
-      "expected": true,
-      "snippets": [
-        "A possible explanation for the silence was that the winding key might not be engaging with the square shaft."
-      ]
+      "expected": false
     },
     {
       "id": "000054-2478a3dd9e10",
@@ -2604,10 +2598,7 @@
     {
       "id": "000054-090507fcf521",
       "check": "excessive-hedging/hedge-stacking",
-      "expected": true,
-      "snippets": [
-        "A possible explanation is that moisture may be trapped in the folded groundsheet."
-      ]
+      "expected": false
     },
     {
       "id": "000054-9198991d064a",
@@ -2626,10 +2617,7 @@
     {
       "id": "000054-0c3750f783ae",
       "check": "excessive-hedging/hedge-stacking",
-      "expected": true,
-      "snippets": [
-        "A corrected version may reach the email address on the order, perhaps, before the office closes today."
-      ]
+      "expected": false
     },
     {
       "id": "000054-333db9ebf36d",

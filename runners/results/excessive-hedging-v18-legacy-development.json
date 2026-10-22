@@ -1,0 +1,4341 @@
+{
+  "purpose": "Two public legacy checks on the identical frozen development inputs used by the new consolidated hedge-stacking judgment. Classification only; highlight quality is not assessed.",
+  "packageVersion": "0.2.41",
+  "createdAt": "2026-10-22T23:01:42.058Z",
+  "durationMs": 176.38266699999997,
+  "runnerSha256": "db7c83a449592180e5984086b5d0a57be076a62a76b2f7195661bb62d01cd7b2",
+  "sources": {
+    "dist/index.js": "1be6c5f1722d10792f8c56580e30964ea75927e392e2497eb8b32edaa6099962",
+    "dist/rules/words/hedge-stacking.js": "5fbdfd5a390a56f598fcd490710622cfacb7c027854d206cac0914323b09289e",
+    "dist/rules/syntactic-patterns/generalization/softening-language.js": "77e64d98cad56f6c6d31a4928ad5d3f5d8355ffac111e18c591df79e268f4ea6",
+    "src/rules/words/hedge-stacking.ts": "d8fca40d603357776e2f7a3f841aa8c6e9919a0446e1f74e244fdf521748df38",
+    "src/rules/syntactic-patterns/generalization/softening-language.ts": "af4d14931a9a06fd8a7ff5f359579e41b0fa822317413f84f194acac1060f6bd"
+  },
+  "holdoutRead": false,
+  "collections": [
+    {
+      "dataset": "datasets/ai-synthetic/passages/000053-excessive-hedging-hedge-stacking-development.md",
+      "textSha256": "ecae35f88189b210824c126a7592f227702580644157d09450085d470a7fa386",
+      "labelsSha256": "2e388bb280838316afa60adfea24cf1e8bcf5a0d9b4c39c52d2bcee4151e1bcd",
+      "passages": 200,
+      "combined": {
+        "positives": 100,
+        "caught": 18,
+        "missed": [
+          "000053-00c90d5220c0",
+          "000053-03a4a998db9c",
+          "000053-09032bef0c53",
+          "000053-0b2f8aea114a",
+          "000053-0bb173ff1482",
+          "000053-0ec8850c01fe",
+          "000053-0ed19d2254d1",
+          "000053-15e419c07e7a",
+          "000053-16463d67797c",
+          "000053-17bdc66a0da4",
+          "000053-21c4747d9bfe",
+          "000053-260cebb228d0",
+          "000053-261b47160b29",
+          "000053-29c1f8e1f13d",
+          "000053-2ed5a403a09b",
+          "000053-37124864bd26",
+          "000053-39261637d121",
+          "000053-3cca9ec1c22e",
+          "000053-3dccc220d81d",
+          "000053-3fca7b7fd1eb",
+          "000053-40c9bf8342df",
+          "000053-423107fec96a",
+          "000053-42761fac0f35",
+          "000053-44634355c753",
+          "000053-499d7b076afc",
+          "000053-4aa904b0d25e",
+          "000053-4c983fc09bad",
+          "000053-4d5e8c47ba65",
+          "000053-4ffa80ad395e",
+          "000053-520bf656d0be",
+          "000053-56d6438d2d27",
+          "000053-5a5f2be11e87",
+          "000053-649cb81f0c9f",
+          "000053-656b7d1234db",
+          "000053-6730a7490379",
+          "000053-6a94d01c43e9",
+          "000053-6b4957dec4c5",
+          "000053-6f4ae1f322af",
+          "000053-7686a80627c4",
+          "000053-7dd67b7d3bfc",
+          "000053-8146eaf4041f",
+          "000053-83f1c4c70281",
+          "000053-867c2cecd948",
+          "000053-868dbe5182b0",
+          "000053-897be6d62876",
+          "000053-8b892030380b",
+          "000053-8bcafeab006f",
+          "000053-8c2abe8aa12b",
+          "000053-8cf05652f99c",
+          "000053-8e9a882c2e24",
+          "000053-91e2cdcb642e",
+          "000053-951c102a4f1b",
+          "000053-9540c7a52b23",
+          "000053-9f7312d463c2",
+          "000053-a423152228c6",
+          "000053-a8e15ef7d605",
+          "000053-affd9e671f94",
+          "000053-b09e56fa54b1",
+          "000053-b2bc43c81e1d",
+          "000053-b4c1071f8e51",
+          "000053-b5d380cb07f6",
+          "000053-b60e19f4b9fb",
+          "000053-b68d9998158b",
+          "000053-b8706caf5f91",
+          "000053-bd4b2be7bfee",
+          "000053-be6e23fc689a",
+          "000053-c812fd1940bf",
+          "000053-ca332cc500c2",
+          "000053-cfc9fc81f772",
+          "000053-d05110464bf2",
+          "000053-d35aaca38a7c",
+          "000053-d4a9eac33c69",
+          "000053-dff9331c724d",
+          "000053-e1425f43376c",
+          "000053-e5ea890d5f8a",
+          "000053-e782f4620bb7",
+          "000053-e807563606fb",
+          "000053-e9b529a0eedd",
+          "000053-eb142d4ced7c",
+          "000053-f0bff9923bbe",
+          "000053-f7c8adecd162",
+          "000053-ffc5391d71f0"
+        ],
+        "negatives": 100,
+        "falsePositives": [
+          "000053-08a85b4a4b7b",
+          "000053-0a15e17dc568",
+          "000053-2c803b9bb058",
+          "000053-31787b8cf68d",
+          "000053-3ab77d5d190c",
+          "000053-3dfc7de1e89f",
+          "000053-50da583b3268",
+          "000053-528ddaff7f32",
+          "000053-57fb7b286dd8",
+          "000053-5b90423b89d6",
+          "000053-70828a6401e3",
+          "000053-7730c449f5b1",
+          "000053-77e735d48420",
+          "000053-7cb61f54736a",
+          "000053-808382101e9b",
+          "000053-871f0d194c13",
+          "000053-9fec5fc6b0bd",
+          "000053-a08a35db21d6",
+          "000053-a3138790d2da",
+          "000053-ad01a874de5c",
+          "000053-ae217f0273eb",
+          "000053-c4678080eeca",
+          "000053-d75e96ded3e5",
+          "000053-e07163eaf33c",
+          "000053-efdf59bdce78",
+          "000053-f48c83b97e2d",
+          "000053-fddb4d1ea0ef"
+        ],
+        "correctNoHits": 73
+      },
+      "perRule": {
+        "hedge-stacking": {
+          "positives": 100,
+          "caught": 8,
+          "missed": [
+            "000053-00c90d5220c0",
+            "000053-03a4a998db9c",
+            "000053-09032bef0c53",
+            "000053-0b2f8aea114a",
+            "000053-0bb173ff1482",
+            "000053-0ec8850c01fe",
+            "000053-0ed19d2254d1",
+            "000053-15e419c07e7a",
+            "000053-16463d67797c",
+            "000053-17bdc66a0da4",
+            "000053-1dc60b1f07ba",
+            "000053-21c4747d9bfe",
+            "000053-260cebb228d0",
+            "000053-261b47160b29",
+            "000053-2673a0556ed0",
+            "000053-27e8a217a44e",
+            "000053-29c1f8e1f13d",
+            "000053-2ed5a403a09b",
+            "000053-37124864bd26",
+            "000053-39261637d121",
+            "000053-3cca9ec1c22e",
+            "000053-3dccc220d81d",
+            "000053-3fca7b7fd1eb",
+            "000053-40c9bf8342df",
+            "000053-423107fec96a",
+            "000053-42761fac0f35",
+            "000053-44634355c753",
+            "000053-499d7b076afc",
+            "000053-4aa904b0d25e",
+            "000053-4c983fc09bad",
+            "000053-4d5e8c47ba65",
+            "000053-4ffa80ad395e",
+            "000053-520bf656d0be",
+            "000053-56d6438d2d27",
+            "000053-5a5f2be11e87",
+            "000053-60dfaf83187e",
+            "000053-649cb81f0c9f",
+            "000053-656b7d1234db",
+            "000053-6730a7490379",
+            "000053-6a94d01c43e9",
+            "000053-6b4957dec4c5",
+            "000053-6c66adca8fc3",
+            "000053-6f4ae1f322af",
+            "000053-7686a80627c4",
+            "000053-7dd67b7d3bfc",
+            "000053-7f34fbda77a3",
+            "000053-8146eaf4041f",
+            "000053-83f1c4c70281",
+            "000053-867c2cecd948",
+            "000053-868dbe5182b0",
+            "000053-897be6d62876",
+            "000053-8b892030380b",
+            "000053-8bcafeab006f",
+            "000053-8c2abe8aa12b",
+            "000053-8cf05652f99c",
+            "000053-8e9a882c2e24",
+            "000053-91e2cdcb642e",
+            "000053-951c102a4f1b",
+            "000053-9540c7a52b23",
+            "000053-9f2ca6afcb91",
+            "000053-9f7312d463c2",
+            "000053-a3a9e6cd32fc",
+            "000053-a423152228c6",
+            "000053-a8e15ef7d605",
+            "000053-affd9e671f94",
+            "000053-b09e56fa54b1",
+            "000053-b2bc43c81e1d",
+            "000053-b4c1071f8e51",
+            "000053-b5d380cb07f6",
+            "000053-b60e19f4b9fb",
+            "000053-b68d9998158b",
+            "000053-b8706caf5f91",
+            "000053-bd4b2be7bfee",
+            "000053-be6e23fc689a",
+            "000053-c812fd1940bf",
+            "000053-ca332cc500c2",
+            "000053-cfc9fc81f772",
+            "000053-d05110464bf2",
+            "000053-d35aaca38a7c",
+            "000053-d4a9eac33c69",
+            "000053-dad950d8b06e",
+            "000053-dff9331c724d",
+            "000053-e1425f43376c",
+            "000053-e5ea890d5f8a",
+            "000053-e782f4620bb7",
+            "000053-e807563606fb",
+            "000053-e9b529a0eedd",
+            "000053-eb142d4ced7c",
+            "000053-f0bff9923bbe",
+            "000053-f61d5aa74835",
+            "000053-f7c8adecd162",
+            "000053-ffc5391d71f0"
+          ],
+          "negatives": 100,
+          "falsePositives": [
+            "000053-528ddaff7f32",
+            "000053-9fec5fc6b0bd"
+          ],
+          "correctNoHits": 98
+        },
+        "softening-language": {
+          "positives": 100,
+          "caught": 10,
+          "missed": [
+            "000053-00c90d5220c0",
+            "000053-03a4a998db9c",
+            "000053-09032bef0c53",
+            "000053-0b2f8aea114a",
+            "000053-0bb173ff1482",
+            "000053-0ec8850c01fe",
+            "000053-0ed19d2254d1",
+            "000053-15e419c07e7a",
+            "000053-16463d67797c",
+            "000053-17bdc66a0da4",
+            "000053-21c4747d9bfe",
+            "000053-260cebb228d0",
+            "000053-261b47160b29",
+            "000053-29c1f8e1f13d",
+            "000053-2ed5a403a09b",
+            "000053-37124864bd26",
+            "000053-39261637d121",
+            "000053-3cca9ec1c22e",
+            "000053-3dccc220d81d",
+            "000053-3fca7b7fd1eb",
+            "000053-40c9bf8342df",
+            "000053-423107fec96a",
+            "000053-42761fac0f35",
+            "000053-44634355c753",
+            "000053-499d7b076afc",
+            "000053-4a5b383e8ff9",
+            "000053-4aa904b0d25e",
+            "000053-4bac58cf487b",
+            "000053-4c983fc09bad",
+            "000053-4d5e8c47ba65",
+            "000053-4ffa80ad395e",
+            "000053-520bf656d0be",
+            "000053-56d6438d2d27",
+            "000053-5a5f2be11e87",
+            "000053-5c646f4c5844",
+            "000053-649cb81f0c9f",
+            "000053-656b7d1234db",
+            "000053-6730a7490379",
+            "000053-6804b720ff40",
+            "000053-6a94d01c43e9",
+            "000053-6b4957dec4c5",
+            "000053-6f4ae1f322af",
+            "000053-7686a80627c4",
+            "000053-7dd67b7d3bfc",
+            "000053-8146eaf4041f",
+            "000053-83f1c4c70281",
+            "000053-867c2cecd948",
+            "000053-868dbe5182b0",
+            "000053-897be6d62876",
+            "000053-8b892030380b",
+            "000053-8bcafeab006f",
+            "000053-8c2abe8aa12b",
+            "000053-8cf05652f99c",
+            "000053-8e9a882c2e24",
+            "000053-91e2cdcb642e",
+            "000053-951c102a4f1b",
+            "000053-9540c7a52b23",
+            "000053-9f7312d463c2",
+            "000053-a05d6021603e",
+            "000053-a423152228c6",
+            "000053-a8e15ef7d605",
+            "000053-affd9e671f94",
+            "000053-b09e56fa54b1",
+            "000053-b2bc43c81e1d",
+            "000053-b4c1071f8e51",
+            "000053-b5d380cb07f6",
+            "000053-b60e19f4b9fb",
+            "000053-b68d9998158b",
+            "000053-b8706caf5f91",
+            "000053-bd4b2be7bfee",
+            "000053-be6e23fc689a",
+            "000053-c812fd1940bf",
+            "000053-ca332cc500c2",
+            "000053-cfc9fc81f772",
+            "000053-d05110464bf2",
+            "000053-d35aaca38a7c",
+            "000053-d4a9eac33c69",
+            "000053-dff9331c724d",
+            "000053-e1425f43376c",
+            "000053-e5ea890d5f8a",
+            "000053-e782f4620bb7",
+            "000053-e807563606fb",
+            "000053-e9b529a0eedd",
+            "000053-eae6e456ea59",
+            "000053-eb142d4ced7c",
+            "000053-f0bff9923bbe",
+            "000053-f4c71a2b36f5",
+            "000053-f7c8adecd162",
+            "000053-fb50d6135dff",
+            "000053-ffc5391d71f0"
+          ],
+          "negatives": 100,
+          "falsePositives": [
+            "000053-08a85b4a4b7b",
+            "000053-0a15e17dc568",
+            "000053-2c803b9bb058",
+            "000053-31787b8cf68d",
+            "000053-3ab77d5d190c",
+            "000053-3dfc7de1e89f",
+            "000053-50da583b3268",
+            "000053-57fb7b286dd8",
+            "000053-5b90423b89d6",
+            "000053-70828a6401e3",
+            "000053-7730c449f5b1",
+            "000053-77e735d48420",
+            "000053-7cb61f54736a",
+            "000053-808382101e9b",
+            "000053-871f0d194c13",
+            "000053-a08a35db21d6",
+            "000053-a3138790d2da",
+            "000053-ad01a874de5c",
+            "000053-ae217f0273eb",
+            "000053-c4678080eeca",
+            "000053-d75e96ded3e5",
+            "000053-e07163eaf33c",
+            "000053-efdf59bdce78",
+            "000053-f48c83b97e2d",
+            "000053-fddb4d1ea0ef"
+          ],
+          "correctNoHits": 75
+        }
+      },
+      "predictions": [
+        {
+          "id": "000053-00c90d5220c0",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-028dfdbcc7cb",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-03a4a998db9c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-0483d37c542b",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-065a65dce7d9",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-08a85b4a4b7b",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-09032bef0c53",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-0a15e17dc568",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-0b2f8aea114a",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-0bb173ff1482",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-0c2f62aa54cf",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-0ccd3647f300",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-0d02e841d382",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-0ec8850c01fe",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-0ed19d2254d1",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-1487f306dd63",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-1526dc8ecd4b",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-15e419c07e7a",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-16463d67797c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-17bdc66a0da4",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-1d83f019d066",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-1d86e92da6b1",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-1dc60b1f07ba",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-21c4747d9bfe",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-220a8a0c1cc2",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-260cebb228d0",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-261b47160b29",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-2673a0556ed0",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-27e8a217a44e",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-29c1f8e1f13d",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-2b115a63939e",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-2c803b9bb058",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  relatively . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-2ed5a403a09b",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-2f477fce5d37",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-31787b8cf68d",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  generally . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-37124864bd26",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-39261637d121",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-3ab77d5d190c",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + many ways. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-3cca9ec1c22e",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-3dccc220d81d",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-3dfc7de1e89f",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  usually . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 52,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-3fca7b7fd1eb",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-40c9bf8342df",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-423107fec96a",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-42761fac0f35",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-44634355c753",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-46067109ee62",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-468e6066dbe4",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-499d7b076afc",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-4a5b383e8ff9",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-4aa904b0d25e",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-4bac58cf487b",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-4c983fc09bad",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-4d5e8c47ba65",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-4ffa80ad395e",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-50da583b3268",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-520bf656d0be",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-52129f1b1457",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-528ddaff7f32",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 82,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-52e9c69b9d42",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-5418418055fe",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-5435cfb8ca62",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-56d6438d2d27",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-57fb7b286dd8",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  commonly . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-5804c7d0a7a6",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-5a5f2be11e87",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-5b90423b89d6",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  generally . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-5c646f4c5844",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-5d1ee83ddf3d",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-5de7dadbe42c",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-5e0997e66948",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-5e8b79632b3a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-60dfaf83187e",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-611ab0ea6fba",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-619ac20281a7",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-619b3145845b",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-649cb81f0c9f",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-656b7d1234db",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-65c7be92fbdd",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6618934d26c6",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6730a7490379",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6804b720ff40",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-692308731d3f",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6a94d01c43e9",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6b4957dec4c5",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6ba5a266f72c",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6c66adca8fc3",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 109,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-6cd7012fa7a4",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6cf84c083576",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6d79a718138f",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6f4ae1f322af",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-6fc91e3726d5",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-70828a6401e3",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + in some cases. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-740eacfd577a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-7686a80627c4",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-7730c449f5b1",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  relatively . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-773756466d9a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-7784c5f04e15",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-77e735d48420",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  relatively . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-7cb61f54736a",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  generally . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-7dd67b7d3bfc",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-7f34fbda77a3",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + in some individuals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-808382101e9b",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  + not all individuals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-8146eaf4041f",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-82d9a996c780",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-82f0116c91ba",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-83f1c4c70281",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-845386fc2ed4",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-867c2cecd948",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-868dbe5182b0",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-871f0d194c13",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + some people. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-88e66e8c6e05",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-894de2ae7512",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-897be6d62876",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-8b892030380b",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-8bcafeab006f",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-8c2abe8aa12b",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-8cf05652f99c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-8e9a882c2e24",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-8fb2fa7bec6a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-91e2cdcb642e",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-94f034de9b93",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-951c102a4f1b",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-9540c7a52b23",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-967770cf3294",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-970ca166f292",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-9ce5603a7d59",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-9f2ca6afcb91",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-9f7312d463c2",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-9fec5fc6b0bd",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-a05d6021603e",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-a08a35db21d6",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-a2fe3d219f4d",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-a3138790d2da",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  broadly . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-a3a9e6cd32fc",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-a423152228c6",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-a8e15ef7d605",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-ac379163d7c4",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-ad01a874de5c",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  relatively . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-adae9e5f0e79",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-ae217f0273eb",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + in some children. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-affd9e671f94",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b09e56fa54b1",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b166d4840e6b",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b2bc43c81e1d",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b363d5603886",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b4c1071f8e51",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b5d380cb07f6",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b5ece0333f5a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b60e19f4b9fb",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b68d9998158b",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b860224c31d9",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b8706caf5f91",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-b91be6aa6c98",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-bd3b0e8707bc",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-bd4b2be7bfee",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-bdc0da4f2f0c",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-be614aca59df",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-be6e23fc689a",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-bfbb4b2c9edc",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-c429f1ac2c6e",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-c4678080eeca",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  relatively . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-c53ed7579aa4",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-c6613d012f45",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-c812fd1940bf",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-c8ddf145c1b0",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-ca332cc500c2",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-caf3ba058d12",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-cdde444ee24a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-cfb2a3e46b1a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-cfc9fc81f772",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-d05110464bf2",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-d35aaca38a7c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-d4a9eac33c69",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-d669b57276f7",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-d68fa2e32fe5",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-d7080754b054",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-d75e96ded3e5",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-d8ac1d26fdcc",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-dad950d8b06e",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-dff9331c724d",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-e07163eaf33c",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-e1425f43376c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-e5ea890d5f8a",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-e782f4620bb7",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-e807563606fb",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-e9b529a0eedd",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-eae6e456ea59",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-eb142d4ced7c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-efdf59bdce78",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-f0bff9923bbe",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-f48c83b97e2d",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  usually . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-f4c30b8aef28",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-f4c71a2b36f5",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 52,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-f61d5aa74835",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-f7915eb435ac",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-f7c8adecd162",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000053-fb50d6135dff",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-fddb4d1ea0ef",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + certain individuals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 71,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000053-ffc5391d71f0",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        }
+      ]
+    },
+    {
+      "dataset": "datasets/ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md",
+      "textSha256": "50045f27542c8f1fba6f248fbb85145138ef7493cd8344f67d03541f3eb3df83",
+      "labelsSha256": "58716941e17f1138e13557207a1b3fcbb42ac9b2a5853261354c208bcfd2fd55",
+      "passages": 200,
+      "combined": {
+        "positives": 100,
+        "caught": 23,
+        "missed": [
+          "000055-0386a9d275c4",
+          "000055-09a563e5d2aa",
+          "000055-0a60a65d86ab",
+          "000055-0b09808b9243",
+          "000055-0bf88bc6f780",
+          "000055-0cd4e890b4b3",
+          "000055-10ce3cb4ae89",
+          "000055-1efb8eb5b5b7",
+          "000055-2201bcd1e750",
+          "000055-22a84c30a5b3",
+          "000055-2aaeba877210",
+          "000055-2e3b6ce16764",
+          "000055-2f8f0efc516c",
+          "000055-321907f05c45",
+          "000055-32d4d30c6055",
+          "000055-35fea8e40630",
+          "000055-3a4abcfc13d0",
+          "000055-3aafbd32971e",
+          "000055-3de59f299b97",
+          "000055-41197dd317a1",
+          "000055-433cef31ad32",
+          "000055-48aad638f604",
+          "000055-496b56b2fbab",
+          "000055-4cfbb5b062dd",
+          "000055-4dba4298ce39",
+          "000055-51c3c4523de9",
+          "000055-5602ab60371f",
+          "000055-56243d5d81d8",
+          "000055-569536c2df62",
+          "000055-5f67e4b1627c",
+          "000055-5f7f31ee544d",
+          "000055-6198f6f74e5c",
+          "000055-638f6b192c3f",
+          "000055-642a5ff6a62c",
+          "000055-642ba3f9d115",
+          "000055-6710d658bf5d",
+          "000055-67f459f148bf",
+          "000055-71397164d91c",
+          "000055-7207185e8a87",
+          "000055-7375d39942c1",
+          "000055-74702d833726",
+          "000055-8190a6268824",
+          "000055-81a9a96d9ca3",
+          "000055-83fdad51ce25",
+          "000055-8cb0af6f7a65",
+          "000055-8d9cd4144b7d",
+          "000055-90686b59d1c0",
+          "000055-932bcd3df47b",
+          "000055-95979c4bd4d1",
+          "000055-97ba5bfe69d5",
+          "000055-98d6966f6e35",
+          "000055-a1b2aeb26301",
+          "000055-a711a0217ba2",
+          "000055-a723d830013c",
+          "000055-abcbc5db69be",
+          "000055-ae1da322a3df",
+          "000055-ae846d8a9521",
+          "000055-b08e07e321a6",
+          "000055-b25fae302076",
+          "000055-b37f8d8f6dfb",
+          "000055-b98c3b057d5a",
+          "000055-c42c8b19dba7",
+          "000055-c8e3ea318ba4",
+          "000055-dc8d3f507bdf",
+          "000055-dd0c319dc865",
+          "000055-e43e1e05cd1e",
+          "000055-e89019dda9d6",
+          "000055-ea3685004ea2",
+          "000055-ee518e2f503b",
+          "000055-f2cc36d20edb",
+          "000055-f36fcc84e8ab",
+          "000055-f45d9c504845",
+          "000055-f49dfc16c795",
+          "000055-f4fe7279c626",
+          "000055-f649462f68e1",
+          "000055-f6dc55966266",
+          "000055-f83c230d2eba"
+        ],
+        "negatives": 100,
+        "falsePositives": [
+          "000055-0cdfc8c80985",
+          "000055-10ccd72e7acc",
+          "000055-1cdbac1f7c72",
+          "000055-1e251dae8e0e",
+          "000055-44d36698ccfd",
+          "000055-5a075ab8ecb5",
+          "000055-80cc425f81df",
+          "000055-9daf0cbc69d7",
+          "000055-a0d96d4d7a15",
+          "000055-b0ef8ed13bce",
+          "000055-b76a12d32d64",
+          "000055-c0e693c43c9a",
+          "000055-c18080c0fbc6",
+          "000055-c1dc938fdce4",
+          "000055-d7868909f197",
+          "000055-e07806fe30da"
+        ],
+        "correctNoHits": 84
+      },
+      "perRule": {
+        "hedge-stacking": {
+          "positives": 100,
+          "caught": 18,
+          "missed": [
+            "000055-0386a9d275c4",
+            "000055-09a563e5d2aa",
+            "000055-0a60a65d86ab",
+            "000055-0b09808b9243",
+            "000055-0bf88bc6f780",
+            "000055-0cd4e890b4b3",
+            "000055-10ce3cb4ae89",
+            "000055-1efb8eb5b5b7",
+            "000055-2201bcd1e750",
+            "000055-22a84c30a5b3",
+            "000055-2aaeba877210",
+            "000055-2e3b6ce16764",
+            "000055-2f8f0efc516c",
+            "000055-321907f05c45",
+            "000055-32d4d30c6055",
+            "000055-35fea8e40630",
+            "000055-376cd2c5f37f",
+            "000055-3a4abcfc13d0",
+            "000055-3aafbd32971e",
+            "000055-3de59f299b97",
+            "000055-41197dd317a1",
+            "000055-433cef31ad32",
+            "000055-48aad638f604",
+            "000055-496b56b2fbab",
+            "000055-4cfbb5b062dd",
+            "000055-4dba4298ce39",
+            "000055-51c3c4523de9",
+            "000055-5602ab60371f",
+            "000055-56243d5d81d8",
+            "000055-569536c2df62",
+            "000055-5d7ff9dc4fac",
+            "000055-5f67e4b1627c",
+            "000055-5f7f31ee544d",
+            "000055-6198f6f74e5c",
+            "000055-638f6b192c3f",
+            "000055-642a5ff6a62c",
+            "000055-642ba3f9d115",
+            "000055-6710d658bf5d",
+            "000055-67f459f148bf",
+            "000055-71397164d91c",
+            "000055-7207185e8a87",
+            "000055-7375d39942c1",
+            "000055-74702d833726",
+            "000055-8190a6268824",
+            "000055-81a9a96d9ca3",
+            "000055-83fdad51ce25",
+            "000055-8cb0af6f7a65",
+            "000055-8d9cd4144b7d",
+            "000055-90686b59d1c0",
+            "000055-932bcd3df47b",
+            "000055-95979c4bd4d1",
+            "000055-97ba5bfe69d5",
+            "000055-98d6966f6e35",
+            "000055-a1b2aeb26301",
+            "000055-a711a0217ba2",
+            "000055-a723d830013c",
+            "000055-abcbc5db69be",
+            "000055-ae1da322a3df",
+            "000055-ae846d8a9521",
+            "000055-b08e07e321a6",
+            "000055-b25fae302076",
+            "000055-b37f8d8f6dfb",
+            "000055-b960ef69175f",
+            "000055-b98c3b057d5a",
+            "000055-c398f2462bb5",
+            "000055-c42c8b19dba7",
+            "000055-c8e3ea318ba4",
+            "000055-cc8c06ae595c",
+            "000055-dc8d3f507bdf",
+            "000055-dd0c319dc865",
+            "000055-e43e1e05cd1e",
+            "000055-e89019dda9d6",
+            "000055-ea3685004ea2",
+            "000055-ee518e2f503b",
+            "000055-f2cc36d20edb",
+            "000055-f36fcc84e8ab",
+            "000055-f45d9c504845",
+            "000055-f49dfc16c795",
+            "000055-f4fe7279c626",
+            "000055-f649462f68e1",
+            "000055-f6dc55966266",
+            "000055-f83c230d2eba"
+          ],
+          "negatives": 100,
+          "falsePositives": [
+            "000055-0cdfc8c80985",
+            "000055-9daf0cbc69d7",
+            "000055-d7868909f197"
+          ],
+          "correctNoHits": 97
+        },
+        "softening-language": {
+          "positives": 100,
+          "caught": 5,
+          "missed": [
+            "000055-0386a9d275c4",
+            "000055-07b6b35770c0",
+            "000055-09a563e5d2aa",
+            "000055-0a60a65d86ab",
+            "000055-0b09808b9243",
+            "000055-0bf88bc6f780",
+            "000055-0c6e35a4cdb5",
+            "000055-0cd4e890b4b3",
+            "000055-10ce3cb4ae89",
+            "000055-1efb8eb5b5b7",
+            "000055-2201bcd1e750",
+            "000055-22a84c30a5b3",
+            "000055-2aaeba877210",
+            "000055-2b25cd7fd021",
+            "000055-2e3b6ce16764",
+            "000055-2f8f0efc516c",
+            "000055-321907f05c45",
+            "000055-32d4d30c6055",
+            "000055-35fea8e40630",
+            "000055-3a4abcfc13d0",
+            "000055-3aafbd32971e",
+            "000055-3de59f299b97",
+            "000055-41197dd317a1",
+            "000055-433cef31ad32",
+            "000055-48aad638f604",
+            "000055-496b56b2fbab",
+            "000055-4cfbb5b062dd",
+            "000055-4dba4298ce39",
+            "000055-517ff66e5721",
+            "000055-51c3c4523de9",
+            "000055-53f110e239c9",
+            "000055-5602ab60371f",
+            "000055-56243d5d81d8",
+            "000055-569536c2df62",
+            "000055-599c22d68496",
+            "000055-5f67e4b1627c",
+            "000055-5f7f31ee544d",
+            "000055-602bc22c41df",
+            "000055-6198f6f74e5c",
+            "000055-61d30add944e",
+            "000055-638f6b192c3f",
+            "000055-642a5ff6a62c",
+            "000055-642ba3f9d115",
+            "000055-6710d658bf5d",
+            "000055-67f459f148bf",
+            "000055-67fc2badf5b5",
+            "000055-71397164d91c",
+            "000055-7207185e8a87",
+            "000055-7375d39942c1",
+            "000055-7389bd487c6b",
+            "000055-74702d833726",
+            "000055-7818c5e2c2bf",
+            "000055-8190a6268824",
+            "000055-81a9a96d9ca3",
+            "000055-83fdad51ce25",
+            "000055-8cb0af6f7a65",
+            "000055-8d9cd4144b7d",
+            "000055-90686b59d1c0",
+            "000055-932bcd3df47b",
+            "000055-95979c4bd4d1",
+            "000055-97ba5bfe69d5",
+            "000055-98d6966f6e35",
+            "000055-a1b2aeb26301",
+            "000055-a711a0217ba2",
+            "000055-a723d830013c",
+            "000055-abcbc5db69be",
+            "000055-ae1da322a3df",
+            "000055-ae846d8a9521",
+            "000055-b08e07e321a6",
+            "000055-b0ca6d67e325",
+            "000055-b25fae302076",
+            "000055-b37f8d8f6dfb",
+            "000055-b647c945eced",
+            "000055-b98c3b057d5a",
+            "000055-bbd6081ed5b6",
+            "000055-c42c8b19dba7",
+            "000055-c7d7face5f04",
+            "000055-c7ff518750ee",
+            "000055-c8e3ea318ba4",
+            "000055-c9f402c41b98",
+            "000055-dc8d3f507bdf",
+            "000055-dd0c319dc865",
+            "000055-e43e1e05cd1e",
+            "000055-e89019dda9d6",
+            "000055-ea3685004ea2",
+            "000055-ee518e2f503b",
+            "000055-f2cc36d20edb",
+            "000055-f2ee8ba6337b",
+            "000055-f36fcc84e8ab",
+            "000055-f45d9c504845",
+            "000055-f49dfc16c795",
+            "000055-f4fe7279c626",
+            "000055-f649462f68e1",
+            "000055-f6dc55966266",
+            "000055-f83c230d2eba"
+          ],
+          "negatives": 100,
+          "falsePositives": [
+            "000055-10ccd72e7acc",
+            "000055-1cdbac1f7c72",
+            "000055-1e251dae8e0e",
+            "000055-44d36698ccfd",
+            "000055-5a075ab8ecb5",
+            "000055-80cc425f81df",
+            "000055-a0d96d4d7a15",
+            "000055-b0ef8ed13bce",
+            "000055-b76a12d32d64",
+            "000055-c0e693c43c9a",
+            "000055-c18080c0fbc6",
+            "000055-c1dc938fdce4",
+            "000055-e07806fe30da"
+          ],
+          "correctNoHits": 87
+        }
+      },
+      "predictions": [
+        {
+          "id": "000055-0386a9d275c4",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-07b6b35770c0",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 68,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-07f0002cf06b",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-08bda7c60902",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-09a563e5d2aa",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-0a60a65d86ab",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-0b09808b9243",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-0bf88bc6f780",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-0c6e35a4cdb5",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-0cd4e890b4b3",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-0cdfc8c80985",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 84,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-0e1edcebb684",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-0e4159285dce",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-0f6e5c80fa0a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-1048c120e852",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-10ccd72e7acc",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + not necessarily. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 224,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-10ce3cb4ae89",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-142f018a7895",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-15e48503c3a3",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-16275e0b65a0",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-189614d52250",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-191d1dc4bcfb",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-19cdb7c7b247",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-1cdbac1f7c72",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  + many ways. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-1e251dae8e0e",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + not necessarily. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 176,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-1e70ada784bd",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-1efb8eb5b5b7",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-2201bcd1e750",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-22a84c30a5b3",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-2519071ea500",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-254dcec4b3e9",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-2784b2a643f5",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-2aaeba877210",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-2b25cd7fd021",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 78,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-2e3b6ce16764",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-2f8dfab132f5",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-2f8f0efc516c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-321907f05c45",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-32717061cea5",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-32d4d30c6055",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-35fea8e40630",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-376cd2c5f37f",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 213,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-388674400050",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3974bc848ed3",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3a4abcfc13d0",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3aafbd32971e",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3b459c572f70",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3b96d477834e",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3de59f299b97",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3e19a24fdbf4",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3f1d512c8fe5",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-3f5e2802835e",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-403337933e7d",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-41197dd317a1",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-433cef31ad32",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-439b678765f8",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-44d36698ccfd",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: is believed + most people. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-462d28d7aaf9",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-46dcdada86cb",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-48aad638f604",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-48f41236db85",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-496b56b2fbab",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-4cd5887d6901",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-4cfbb5b062dd",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-4dba4298ce39",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-517ff66e5721",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 190,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-51c3c4523de9",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-53f110e239c9",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 128,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-54457e49dcfb",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-54ce1a78cafc",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-5602ab60371f",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-56243d5d81d8",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-56894ecf6d06",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-568c34f29512",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-569536c2df62",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-57669b424a6e",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-599c22d68496",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-59c425572d09",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-59f76d421707",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-5a075ab8ecb5",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: studies have suggested + various studies. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-5d7ff9dc4fac",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 58,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-5f67e4b1627c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-5f7f31ee544d",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-602bc22c41df",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 150,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-6198f6f74e5c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-61ca993909c4",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-61d30add944e",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 207,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-638f6b192c3f",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-639573d62a3e",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-642a5ff6a62c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-642ba3f9d115",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-65e8409167ba",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-6710d658bf5d",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-67f459f148bf",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-67fc2badf5b5",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 49,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-68309501e45a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-68ae2adb2f42",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-6bc554484fc4",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-6cea0b9d0439",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-71397164d91c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-7207185e8a87",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-7375d39942c1",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-7389bd487c6b",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 63,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-74702d833726",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-753bbf2fc1e9",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-7818c5e2c2bf",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-78c2238e414a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-80cc425f81df",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + not necessarily. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 98,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-8190a6268824",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-81a9a96d9ca3",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-828140aaffd7",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-82abfc53ea40",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-83fdad51ce25",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-8492f9fbe061",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-857d5d76e09d",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-87dc7eef456d",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-8a2321aafa61",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-8cb0af6f7a65",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-8d3b30a956c0",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-8d4e09957ca1",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-8d9cd4144b7d",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-90686b59d1c0",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-91ec8c50ec9f",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-932bcd3df47b",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-95979c4bd4d1",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-9611b3d6d914",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-97ba5bfe69d5",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-98d6966f6e35",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-9daf0cbc69d7",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 168,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-a0d96d4d7a15",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 80,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-a1b2aeb26301",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a226054fb365",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a297452ce803",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a3534e120e73",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a63ca3f94058",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a6b715a648a8",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a711a0217ba2",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a723d830013c",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a7f614db7134",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-a9ce142eab7c",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-abcbc5db69be",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-ae146ee63142",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-ae1da322a3df",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-ae846d8a9521",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-b003213ac0e2",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-b08e07e321a6",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-b0ca6d67e325",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 58,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-b0ef8ed13bce",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + not necessarily. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 172,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-b25fae302076",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-b37f8d8f6dfb",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-b647c945eced",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-b65d66a8f2d0",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-b6ccf75406b2",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-b76a12d32d64",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + certain foods. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 205,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-b76cc5e3f5ec",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-b960ef69175f",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 83,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-b98c3b057d5a",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-bbb6d75f2175",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-bbd6081ed5b6",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 63,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-bcb85a9a50ac",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-bf61ece10506",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-bf6ed25ba17a",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-c0e693c43c9a",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  usually . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 247,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-c0f1c2da0d31",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-c18080c0fbc6",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + some people. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 223,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-c1dc938fdce4",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  + some people. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 188,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-c398f2462bb5",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  may  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 34,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-c42c8b19dba7",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-c4d130c82989",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-c7d7face5f04",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 111,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-c7ff518750ee",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 83,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-c8e3ea318ba4",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-c9f402c41b98",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 70,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-cb8d48eac160",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-cc8c06ae595c",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found:  could  +  potentially . Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 59,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-ccfe22f1820c",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-cded15b01041",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-d0141b5bce25",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-d2837a6682bd",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-d7868909f197",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 3,
+              "column": 1,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-db432bbd6f8f",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-dc8d3f507bdf",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-dd0c319dc865",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-e07806fe30da",
+          "expected": false,
+          "detected": true,
+          "rules": [
+            "softening-language"
+          ],
+          "messages": [
+            {
+              "ruleId": "softening-language",
+              "message": "Softening language found: multiple softening signals. Make the claim specific or remove the hedge stack.",
+              "line": 1,
+              "column": 162,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-e43e1e05cd1e",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-e70a22e9aca0",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-e89019dda9d6",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-ea3685004ea2",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-ee518e2f503b",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-ef97cd139627",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-f2cc36d20edb",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-f2ee8ba6337b",
+          "expected": true,
+          "detected": true,
+          "rules": [
+            "hedge-stacking"
+          ],
+          "messages": [
+            {
+              "ruleId": "hedge-stacking",
+              "message": "Hedge stacking found: 2 hedge words in one sentence. Keep fewer than 2.",
+              "line": 1,
+              "column": 88,
+              "severity": 2
+            }
+          ]
+        },
+        {
+          "id": "000055-f36fcc84e8ab",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-f45d9c504845",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-f49dfc16c795",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-f4fe7279c626",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-f649462f68e1",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-f6dc55966266",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-f83c230d2eba",
+          "expected": true,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        },
+        {
+          "id": "000055-fd49108f8399",
+          "expected": false,
+          "detected": false,
+          "rules": [],
+          "messages": []
+        }
+      ]
+    }
+  ]
+}

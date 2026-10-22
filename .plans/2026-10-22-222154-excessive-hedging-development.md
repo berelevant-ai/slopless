@@ -21,6 +21,8 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Isolated development `000053` completes all three full reviews and selects exactly 100 hits and 100 no-hits, retaining all 22 required cases and 68 source slots. Its complete reviewed 240-passage pool is archived at `93be1e7f`; the forty surplus passages retain their labels there.
 - Mixed development `000055` completes all three full reviews with seven corrected labels across six passages, preserving all original writing and sixteen pilots. Its complete reviewed 240-passage pool is archived at `44f8782d`.
 - Balanced mixed development retains 200 passages, all eight combinations with 25 passages each, all 22 required cases and 68 source slots.
+- Both protected collections complete three clean full reviews with no remaining judgments to resolve. Preserve their full 240-passage reviewed pools in Git before balanced selection; no holdout model inference has run.
+- The two legacy hedging checks run on the same 400 selected development passages. Against the new definition, their union catches 18/100 isolated hits with 27 false positives and 23/100 mixed hits with sixteen false positives.
 
 ## Existing Behavior And Check Definition
 

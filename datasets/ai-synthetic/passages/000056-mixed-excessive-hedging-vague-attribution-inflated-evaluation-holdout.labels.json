@@ -7,10 +7,10 @@
     "commit": "d3ba42a22b4af254c65cd6038d300762bfe39da9",
     "model": "Codex",
     "prompt": null,
-    "notes": "Complete 240-candidate author pool before three independent full reviews. Labels are provisional; balanced selection and detector evaluation follow review. The earlier pilot snapshot is preserved at 6f56aab6."
+    "notes": "Complete 240-passage mixed holdout pool after three independent clean full reviews using isolated definitions and explicit permitted inputs. Four author labels are corrected; all writing remains unchanged. Prior source-violating attempts are excluded. Archive before balanced selection. No holdout inference without separate user authorization."
   },
   "split": "holdout",
-  "instructions": "Protected holdout: keep writing, labels, snippets and case-specific review outside prompt-authoring contexts. Evaluate only after separate user authorization. Candidate pool under review: freeze reviewed labels and balanced selection before prompt tuning or model evaluation.",
+  "instructions": "Protected reviewed mixed holdout pool awaiting balanced selection. Keep writing, labels, snippets and case-specific review outside prompt authoring. Evaluate only after separate user authorization.",
   "samples": [
     {
       "id": "000056-54d7d2a7f267",
@@ -2899,7 +2899,10 @@
     {
       "id": "000056-7b3b8378f93d",
       "check": "excessive-hedging/hedge-stacking",
-      "expected": false
+      "expected": true,
+      "snippets": [
+        "may not necessarily mean"
+      ]
     },
     {
       "id": "000056-7b3b8378f93d",
@@ -3473,10 +3476,7 @@
     {
       "id": "000056-4a08936d3940",
       "check": "puffery-and-overstatement/inflated-evaluation",
-      "expected": true,
-      "snippets": [
-        "It is a better solution than buying a proper guest bed."
-      ]
+      "expected": false
     },
     {
       "id": "000056-1421992bd9fb",
@@ -4869,10 +4869,7 @@
     {
       "id": "000056-15c369fdcad8",
       "check": "unsupported-authority/vague-attribution",
-      "expected": true,
-      "snippets": [
-        "Small gaps are often seen as evidence that a sensor is conserving power rather than losing its connection."
-      ]
+      "expected": false
     },
     {
       "id": "000056-15c369fdcad8",
@@ -4993,10 +4990,7 @@
     {
       "id": "000056-19872b9051aa",
       "check": "unsupported-authority/vague-attribution",
-      "expected": true,
-      "snippets": [
-        "Engineering experience suggests that short jobs should be served first."
-      ]
+      "expected": false
     },
     {
       "id": "000056-19872b9051aa",
