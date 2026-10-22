@@ -6597,7 +6597,7 @@
     "reviewStatus": "complete",
     "complete": true,
     "completedAtUtc": "2026-10-22T20:34:27Z",
-    "verdict": "One actionable ownership ambiguity in borrowed-jargon; all requested mechanical checks pass.",
+    "verdict": "Pass. R3-01 is closed by the applied root ownership fix; root word limits and exact development demonstrations pass.",
     "scope": "Final offline review of the three proposed R3 prompts and their per-check proposal.json files against fixed definitions and development examples.",
     "baseCommit": "b834fb4291f8a7686a557bcd705b6609db256aae",
     "execution": {
@@ -6735,7 +6735,7 @@
       },
       {
         "check": "borrowed-jargon",
-        "status": "ownership-clarification-required",
+        "status": "resolved-in-root",
         "promptPath": "/tmp/stock-v17-borrowed-jargon-r3-proposed.md",
         "promptSha256": "cc769b9bd2ab81f90ac1f67cf4933871e71ae0754cd897b5c11f903a66df4dbb",
         "proposalPath": "/tmp/stock-v17-borrowed-jargon-r3-proposal.json",
@@ -6793,7 +6793,7 @@
           }
         ],
         "demonstrationSectionUnchangedFromR2": true,
-        "definitionReview": "The question and main test retain recoverable ordinary activity, decorative imported register, useful operative correspondence, ordinary established uses, and actual technical work. The Ownership paragraph introduces the routing ambiguity recorded as R3-01.",
+        "definitionReview": "The proposed snapshot's question and main test retain the fixed definition. Its original Ownership ambiguity, recorded as R3-01, is closed in the applied root prompt; see rootResolution for the current hashes, counts, and verification.",
         "objectionIds": [
           "R3-01"
         ]
@@ -6876,10 +6876,142 @@
         "cause": "The Ownership sentence treats an unresolved figurative relationship as an independent sufficient condition instead of preserving the fixed distinction between missing substantive meaning and a decorative donor model around a clear activity.",
         "requiredAction": "Constrain this routing clause to the fixed missing-meaning boundary and retain borrowed-jargon ownership when the ordinary activity is recoverable but the technical model remains decorative. Keep the existing definitions, development labels, and six demonstrations fixed.",
         "verificationNeeded": "Reconcile the ownership clause with step 4 using 000043-003, 000043-004, 000051-025 and the taxonomy's paired debug-our-culture examples.",
-        "status": "open",
+        "status": "closed",
+        "resolutionReference": "rootResolution",
         "performanceClaim": "This is a static instruction conflict; detector behavior was not measured."
       }
     ],
+    "rootResolution": {
+      "status": "pass",
+      "complete": true,
+      "verifiedAtUtc": "2026-10-22T20:37:52.665Z",
+      "closedObjectionIds": [
+        "R3-01"
+      ],
+      "openObjectionCount": 0,
+      "fixedRootPath": "prompts/v17/borrowed-jargon.md",
+      "appliedOwnershipText": "When the intended ordinary activity itself remains unresolved, assess unexplained metaphor. A recoverable ordinary activity with a decorative technical portrayal remains borrowed jargon.",
+      "finding": "The applied clause routes missing ordinary activity to unexplained metaphor while retaining borrowed-jargon ownership for a recoverable activity with decorative technical portrayal. This agrees with the fixed taxonomy's paired debug-our-culture examples, step 4, and the three borrowed-jargon hit demonstrations.",
+      "changeVerification": "Parsed question and criteria remain identical to the reviewed proposals for all three checks. Cliche and tortured-phrasing bodies are identical to their reviewed proposals. Borrowed-jargon's body differs only by the ownership fix quoted above. Raw root hashes also reflect JSON front-matter formatting.",
+      "sharedInvariant": {
+        "status": "pass",
+        "path": "prompts/v17/shared.md",
+        "sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "words": 96
+      },
+      "checks": [
+        {
+          "check": "cliche",
+          "path": "prompts/v17/cliche.md",
+          "sha256": "bcbb09c5db65fdef2595e2a668d03b67f1c917cfa4774e44bcf8508cbbda4e82",
+          "runnerPromptSha256": "35339b4a876583a763d1a4a858c8296195ac99f394dce6f4a41e4d8cf0b83ef4",
+          "words": {
+            "shared": 96,
+            "body": 675,
+            "question": 46,
+            "criteriaTrue": 30,
+            "criteriaFalse": 34,
+            "assembled": 881
+          },
+          "demonstrationCounts": {
+            "hit": 3,
+            "noHit": 3
+          },
+          "exactDevelopmentDemoIds": [
+            "000041-003",
+            "000041-006",
+            "000041-007",
+            "000041-010",
+            "000041-029",
+            "000051-009"
+          ],
+          "status": "pass"
+        },
+        {
+          "check": "borrowed-jargon",
+          "path": "prompts/v17/borrowed-jargon.md",
+          "sha256": "c370031eabfb9e5982f94073a10b342579a44e39438690e64c8111fafc5b2664",
+          "runnerPromptSha256": "eb0f52a1a017fa71897d8f16bf670b9abf2f62576c0d1867e48a3d5c44cb487d",
+          "words": {
+            "shared": 96,
+            "body": 714,
+            "question": 52,
+            "criteriaTrue": 26,
+            "criteriaFalse": 28,
+            "assembled": 916
+          },
+          "demonstrationCounts": {
+            "hit": 3,
+            "noHit": 3
+          },
+          "exactDevelopmentDemoIds": [
+            "000043-003",
+            "000043-004",
+            "000051-025",
+            "000043-052",
+            "000043-022",
+            "000051-037"
+          ],
+          "status": "pass"
+        },
+        {
+          "check": "tortured-phrasing",
+          "path": "prompts/v17/tortured-phrasing.md",
+          "sha256": "353c1d147694df6a1796cb5e25cc8b73b2c9c918ec295804a6898a5dd69f9c42",
+          "runnerPromptSha256": "5e04cf1dc74e82bd79114bd3d2e042b98a4897bd47e018e32f22792ba501f799",
+          "words": {
+            "shared": 96,
+            "body": 646,
+            "question": 71,
+            "criteriaTrue": 42,
+            "criteriaFalse": 43,
+            "assembled": 898
+          },
+          "demonstrationCounts": {
+            "hit": 3,
+            "noHit": 3
+          },
+          "exactDevelopmentDemoIds": [
+            "000045-033",
+            "000045-048",
+            "000051-037",
+            "000045-039",
+            "000045-011",
+            "000045-017"
+          ],
+          "status": "pass"
+        }
+      ],
+      "demonstrationVerification": "All 18 complete root examples match current DEV samples by ID after removing only bold markers. All expected labels match; all nine hit highlight arrays equal their exact labeled snippets. Verified split=development and textSha256 for every paired source.",
+      "developmentSourceHashes": {
+        "000041": {
+          "markdown": "b9bd677a349c1b40dab4b6de1ddeac31c72117d849bc497088ee6f95a9d10e4c",
+          "labels": "e1a7a9e01ccd1e76bc4f1073623c4e6583f0be6add4c91fc2722216762900a75"
+        },
+        "000043": {
+          "markdown": "b613d05521219e5cd28162fb520a43907ed4ff8f6dbb433c79f0b793be8c4ee9",
+          "labels": "dd070b4b7573f87a7fee86a1d4f09df2908310f5d1ea4e4f1456c0dd2b8e6e13"
+        },
+        "000045": {
+          "markdown": "d6ab29f7090a70e98f228e9634ff747ed204913fa2030e9128c33fcd06405b6d",
+          "labels": "b58e92d883583fba48351202f0df95bbcc75d943254d51a420f574e4b4baefbf"
+        },
+        "000051": {
+          "markdown": "cb44f22a4f3f4bc08760b473993d8f71af9bfd1bb53812a238f688b3f441cd82",
+          "labels": "6d8880d646c08bfe4ac45c6cd3434a4cf4cb1ce40e6014722f82031353fc9528"
+        }
+      },
+      "proseWrapping": "Pass: every prose paragraph in the three parsed root Markdown bodies occupies one physical source line.",
+      "existingLabelDisputes": "All three existing dispute records below are retained unchanged.",
+      "followupExecution": {
+        "modelCalls": 0,
+        "delegations": 0,
+        "repositoryWrites": 0,
+        "newPromptVariants": 0,
+        "holdoutOrProtectedReads": 0
+      },
+      "historicalSnapshotPolicy": "The original proposal checks and verifiedSourceHashes remain the initial review evidence. This resolution records the applied root state."
+    },
     "knownDevelopmentLabelDisputes": [
       {
         "id": "000043-104",
@@ -6935,13 +7067,6 @@
         "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md": "7c52771a4dad637c482f9b1f68586a98018064326a6dc07ecfa3c2776554f18f",
         "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md": "7fde18136b9fc0e0bd09ac5d95de764f8c5c3811f58d98da73dda3b4bbc82ec9"
       }
-    },
-    "parentResolution": {
-      "objection": "borrowed-jargon ownership ambiguity",
-      "change": "Route to unexplained metaphor when the intended ordinary activity itself remains unresolved; keep clear activities with decorative technical portrayal under borrowed jargon.",
-      "labelsChanged": false,
-      "sharedChanged": false,
-      "status": "Applied; fresh reviewer recheck requested."
     }
   }
 }
