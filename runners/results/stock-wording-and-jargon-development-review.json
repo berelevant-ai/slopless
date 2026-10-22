@@ -4967,5 +4967,1630 @@
     "judgments": 4000,
     "overlapCandidates": 0,
     "conservativeUnseenClicheConstructions": 52
+  },
+  "vocabularyCorrection": {
+    "archiveCommit": "3f663d8b",
+    "sourceHashes": [
+      {
+        "role": "v2",
+        "path": "/tmp/stock-v17-vocabulary-development-label-adjudication-v2.json",
+        "sha256": "b6c92a4caf123a26c88469b23314c97fc99a07638e869284648fd9086bf81f84"
+      },
+      {
+        "role": "boundary",
+        "path": "/tmp/stock-v17-vocabulary-boundary-review-v1.json",
+        "sha256": "188fa9ccdc1ad00b0ee511366b012ade0cb47d4be149339ae444e841664070c2"
+      },
+      {
+        "role": "mandatory49",
+        "path": "/tmp/stock-v17-development-final-b-v1.json",
+        "sha256": "137788cf9cc202458888f37795d8cd24d79e190ce96d7518d62759ef930c08cd"
+      },
+      {
+        "role": "mandatory51",
+        "path": "/tmp/stock-v17-development-final-mixed-v1.json",
+        "sha256": "66995e0ec0ee3dabad204909621360f4913a5bf81e2cf9a5dbd81e052c65a731"
+      },
+      {
+        "role": "priorQuotas",
+        "path": "/tmp/stock-v17-development-mixed-selection-v1.json",
+        "sha256": "749bb8bcc18910124d524551e441a5233e2db8f1ffa882dc4fff452b21aab8c9"
+      },
+      {
+        "role": "pool49",
+        "path": "/tmp/000049-development-corrected-pool-v6.json",
+        "sha256": "afc621e6a5351cccb363c7d0e3faa25ade96b62f8a99e547e692c8dacb8b8b64"
+      },
+      {
+        "role": "pool51",
+        "path": "/tmp/000051-development-corrected-pool-v5.json",
+        "sha256": "bddc8e9aec94ac9cdd80670dcb7dde9933e62b93bab9b897b9150729cfd756bd"
+      },
+      {
+        "role": "prior49",
+        "path": "/tmp/000049-development-selected-v4.json",
+        "sha256": "f17f911bbc7703669b34fa99312b6ae42e9b52402130c3e7f491a94a52d119c5"
+      },
+      {
+        "role": "prior51",
+        "path": "/tmp/000051-development-selected-v3.json",
+        "sha256": "27adf808d342e00360bae8123c1bdd16e47559b457df757b53648d8f055d5ece"
+      }
+    ],
+    "changesVsFullPools": {
+      "no-hit-to-hit": [
+        "000049-d-e8070582fa70",
+        "000049-d-ba97e947072e",
+        "000049-p-973694c00fe6",
+        "000049-d-7e128a478aa9",
+        "000049-d-e4585b6eec8a",
+        "000049-d-d33c97551173",
+        "000049-d-6077025b4a98",
+        "000049-d-38d18f585b1b",
+        "000049-d-266e1725e730",
+        "000049-d-3fa11d03da1e",
+        "000049-d-bdb718c4e3e3",
+        "000049-d-7c254af24768",
+        "000049-d-e79f67645e15",
+        "000049-d-507f87c614ee",
+        "000049-p-a9c4e2aeb72f",
+        "000049-d-5bfc80890c00",
+        "000049-d-d3c2707c43c2",
+        "000049-227",
+        "000049-240"
+      ],
+      "hit-to-no-hit": [
+        "000049-d-c9af1e0000a5",
+        "000049-d-ec84f03920b9",
+        "000049-d-d48e7c388707",
+        "000049-d-d4a679a522fd",
+        "000049-d-53e4ad746f39",
+        "000049-d-b2ba3aa187c5",
+        "000049-d-f93feba81ee1",
+        "000049-d-cf39af859c62",
+        "000049-d-34c7ce159f43",
+        "000049-d-711a7cd3c736",
+        "000049-202",
+        "000049-212",
+        "000049-214",
+        "000051-009",
+        "000051-073",
+        "000051-077",
+        "000051-103",
+        "000051-112",
+        "000051-158"
+      ],
+      "snippets-only": [
+        "000049-p-0927d58f0404"
+      ]
+    },
+    "changesVsOriginalActive": {
+      "no-hit-to-hit": [
+        "000049-d-e8070582fa70",
+        "000049-d-ba97e947072e",
+        "000049-p-973694c00fe6",
+        "000049-d-7e128a478aa9",
+        "000049-d-e4585b6eec8a",
+        "000049-d-d33c97551173",
+        "000049-d-6077025b4a98",
+        "000049-d-38d18f585b1b",
+        "000049-d-266e1725e730",
+        "000049-d-3fa11d03da1e",
+        "000049-d-bdb718c4e3e3",
+        "000049-d-7c254af24768",
+        "000049-d-e79f67645e15",
+        "000049-d-507f87c614ee",
+        "000049-p-a9c4e2aeb72f",
+        "000049-d-5bfc80890c00",
+        "000049-d-d3c2707c43c2",
+        "000049-227",
+        "000049-240"
+      ],
+      "hit-to-no-hit": [
+        "000049-d-c9af1e0000a5",
+        "000049-d-d48e7c388707",
+        "000049-d-d4a679a522fd",
+        "000049-d-53e4ad746f39",
+        "000049-d-b2ba3aa187c5",
+        "000049-d-f93feba81ee1",
+        "000049-d-cf39af859c62",
+        "000049-d-34c7ce159f43",
+        "000049-d-711a7cd3c736",
+        "000049-202",
+        "000049-212",
+        "000049-214",
+        "000051-009",
+        "000051-073",
+        "000051-077",
+        "000051-103"
+      ],
+      "snippets-only": [
+        "000049-p-0927d58f0404"
+      ]
+    },
+    "reasonGroups": [
+      {
+        "ids": [
+          "000049-227",
+          "000049-240",
+          "000049-d-266e1725e730",
+          "000049-d-38d18f585b1b",
+          "000049-d-3fa11d03da1e",
+          "000049-d-507f87c614ee",
+          "000049-d-5bfc80890c00",
+          "000049-d-6077025b4a98",
+          "000049-d-7c254af24768",
+          "000049-d-7e128a478aa9",
+          "000049-d-ba97e947072e",
+          "000049-d-bdb718c4e3e3",
+          "000049-d-d33c97551173",
+          "000049-d-d3c2707c43c2",
+          "000049-d-e4585b6eec8a",
+          "000049-d-e79f67645e15",
+          "000049-d-e8070582fa70",
+          "000049-p-973694c00fe6",
+          "000049-p-a9c4e2aeb72f"
+        ],
+        "decision": "hit",
+        "basis": "clarified-generic-grade-boundary",
+        "reason": "The words grade an approach, experience, feel, presentation or relationship. Routine messages, copying, courtesy or consistent title formats establish their functions rather than the particular elevated qualities claimed. In 227, enriched grades the billing routine; in 240, cohesive polish grades scheduling. Count each residual lexical base separately."
+      },
+      {
+        "ids": [
+          "000049-d-c9af1e0000a5",
+          "000049-d-ec84f03920b9",
+          "000049-d-d4a679a522fd",
+          "000049-d-53e4ad746f39",
+          "000049-d-b2ba3aa187c5",
+          "000049-d-f93feba81ee1",
+          "000049-d-cf39af859c62",
+          "000049-d-34c7ce159f43",
+          "000049-d-711a7cd3c736",
+          "000049-214"
+        ],
+        "decision": "no-hit",
+        "basis": "inflated-evaluation-ownership",
+        "reason": "Bespoke or tailored claims individualized service or learning while the text supplies standard fields, preset choices, a shared template or an identical worksheet. Exclude the smallest complete tailoring claim as inflated evaluation, consistently with the parent controls; two residual vocabulary choices remain. This changes only V ownership and labels."
+      },
+      {
+        "ids": [
+          "000049-d-d48e7c388707"
+        ],
+        "decision": "no-hit",
+        "basis": "particular-information-property",
+        "strength": "conditional-style-judgment",
+        "reason": "Richer context concerns each uploaded receipt, which is stored with an entered amount and a date and reopens with that amount. These specific contextual fields supply information about the image; holistic and multifaceted remain two ornaments. A reading of richer context as generic account polish remains plausible."
+      },
+      {
+        "ids": [
+          "000051-077"
+        ],
+        "decision": "no-hit",
+        "basis": "particular-whole-household-property",
+        "strength": "conditional-style-judgment",
+        "reason": "Holistic weekly page covers shared dinner planning with a per-person absence flag, retained household preferences and meal-linked ingredients. These linked household inputs establish whole-household scope, consistently with 007 and 043. Nuanced and enrich the choosing process remain two ornaments. A narrower reading that separates the weekly page from the household account would yield three."
+      },
+      {
+        "ids": [
+          "000049-202",
+          "000049-212",
+          "000051-009",
+          "000051-103",
+          "000051-073",
+          "000051-112",
+          "000051-158"
+        ],
+        "decision": "retain-v1-no-hit",
+        "reason": "Retain the seven candidate-specific v1 corrections: multiple scheduling or document aspects, added profile/contact/role information, route qualifications and observation-versus-identification distinctions. Their particular properties are recorded in the v1 adjudication."
+      },
+      {
+        "ids": [
+          "000049-221",
+          "000049-248",
+          "000049-250",
+          "000049-251",
+          "000049-d-40ebcb0b5723",
+          "000049-d-728014ce4947",
+          "000049-d-cc20316d85b7",
+          "000049-d-de0a13d41f6f",
+          "000049-p-4ead448bd22a",
+          "000051-043"
+        ],
+        "decision": "retain-no-hit",
+        "reason": "Retain the parent controls after checking their complete texts: direct added records or fields, smooth service continuity, actual agenda participation, whole-household coverage, and puffery-owned tailoring. Their individual property statements are recorded once in the parent boundary file."
+      },
+      {
+        "ids": [
+          "000049-p-0927d58f0404"
+        ],
+        "decision": "hit-snippet-addition",
+        "reason": "Personal grades the welcome feel without individual content beyond standard check-in, breakfast and reception details. Count it with holistic, nuanced and enriched; retain the hit and add the exact personal snippet."
+      },
+      {
+        "ids": [
+          "000049-d-49e998cc3c7b",
+          "000049-d-8d3c097096ba"
+        ],
+        "decision": "inventory-only",
+        "reason": "Enriches the interaction and considered approach remain generic grades despite filename/row information or a more legible receipt. Add one eligible choice in each second paragraph; their paragraph-local totals remain below three."
+      }
+    ],
+    "selection": {
+      "rules": {
+        "guards": "Original mandatory IDs plus every corrected V label case, including snippet corrections.",
+        "isolated_objectives": [
+          "100/100 with every guard",
+          "Nearest ten per class per setting by total absolute deviation",
+          "Maximum prior-ID retention",
+          "Minimum squared setting deviation",
+          "Lexicographic quota and stable-ID ties"
+        ],
+        "mixed_objectives": [
+          "All 32 combinations; equal complementary quotas summing to 100",
+          "Bounds max(mandatory counts,1) through min(available counts)",
+          "Closest actual prior quotas by total absolute cell deviation",
+          "Fewest changed complementary pairs",
+          "Maximum prior-ID retention then lexicographic quota tie"
+        ],
+        "optional_order": {
+          "isolated": "Required first; then prior-selected IDs; then ascending stable ID.",
+          "mixed": "Required first; then ascending stable ID."
+        }
+      },
+      "collections": [
+        {
+          "collection": "000049",
+          "original_mandatory": 71,
+          "corrected_required": 33,
+          "required_union": 83,
+          "required_ids": [
+            "000049-201",
+            "000049-202",
+            "000049-205",
+            "000049-212",
+            "000049-214",
+            "000049-221",
+            "000049-226",
+            "000049-227",
+            "000049-235",
+            "000049-240",
+            "000049-242",
+            "000049-248",
+            "000049-250",
+            "000049-251",
+            "000049-260",
+            "000049-d-199045bb4959",
+            "000049-d-19f53719352e",
+            "000049-d-1bfa5f05a9eb",
+            "000049-d-266e1725e730",
+            "000049-d-2b1544498e98",
+            "000049-d-2deb174ccf8d",
+            "000049-d-34c7ce159f43",
+            "000049-d-36f8248701d5",
+            "000049-d-38d18f585b1b",
+            "000049-d-3fa11d03da1e",
+            "000049-d-40ebcb0b5723",
+            "000049-d-49e998cc3c7b",
+            "000049-d-507f87c614ee",
+            "000049-d-53e4ad746f39",
+            "000049-d-5bfc80890c00",
+            "000049-d-5f7efeda4337",
+            "000049-d-6077025b4a98",
+            "000049-d-62bde3de3ae5",
+            "000049-d-711a7cd3c736",
+            "000049-d-728014ce4947",
+            "000049-d-77bdb7fb563d",
+            "000049-d-7c254af24768",
+            "000049-d-7e128a478aa9",
+            "000049-d-8017e90cdbf3",
+            "000049-d-8bb0b509107e",
+            "000049-d-8d3c097096ba",
+            "000049-d-93d3a6cdcb4c",
+            "000049-d-97ca7237142b",
+            "000049-d-a0bb61a35bca",
+            "000049-d-afb1a8cc546f",
+            "000049-d-b2ba3aa187c5",
+            "000049-d-ba97e947072e",
+            "000049-d-bdb718c4e3e3",
+            "000049-d-c9af1e0000a5",
+            "000049-d-cc20316d85b7",
+            "000049-d-cf39af859c62",
+            "000049-d-d1ff9ca2dd63",
+            "000049-d-d33c97551173",
+            "000049-d-d3c2707c43c2",
+            "000049-d-d48e7c388707",
+            "000049-d-d4a679a522fd",
+            "000049-d-de0a13d41f6f",
+            "000049-d-e38e64170d30",
+            "000049-d-e4585b6eec8a",
+            "000049-d-e79f67645e15",
+            "000049-d-e8070582fa70",
+            "000049-d-ec84f03920b9",
+            "000049-d-f93feba81ee1",
+            "000049-p-0927d58f0404",
+            "000049-p-20eac6437f15",
+            "000049-p-2c180b078c61",
+            "000049-p-4b474b4bd0fc",
+            "000049-p-4ead448bd22a",
+            "000049-p-59e312d9398f",
+            "000049-p-5c5f7dd3bda9",
+            "000049-p-6212b4cd290f",
+            "000049-p-65537f7c3d2c",
+            "000049-p-69cdda61015e",
+            "000049-p-720fc8559e1c",
+            "000049-p-7ccbef1d97df",
+            "000049-p-973694c00fe6",
+            "000049-p-9c50c1a9bd6c",
+            "000049-p-a00e4f14a12a",
+            "000049-p-a3033934e082",
+            "000049-p-a71916f21123",
+            "000049-p-a9c4e2aeb72f",
+            "000049-p-b204c71478d2",
+            "000049-p-fc755ce0035e"
+          ],
+          "counts": [
+            {
+              "check": "stock-wording-and-jargon/stock-vocabulary",
+              "hits": 100,
+              "no_hits": 100
+            }
+          ],
+          "retained_prior_ids": 189,
+          "added_ids": [
+            "000049-d-1aed8fd1a064",
+            "000049-d-928c1f1426a8",
+            "000049-d-ec84f03920b9",
+            "000049-d-2a16c700e87d",
+            "000049-d-5a429a797eb7",
+            "000049-d-644d64b8a403",
+            "000049-d-0c6926ed7462",
+            "000049-d-353d79725d60",
+            "000049-213",
+            "000049-223",
+            "000049-233"
+          ],
+          "removed_ids": [
+            "000049-d-cb61f6c4d40e",
+            "000049-d-8ea28cd29d08",
+            "000049-d-87611f4e0526",
+            "000049-d-d947ff462e86",
+            "000049-d-f80366dfd728",
+            "000049-d-16848f336ac0",
+            "000049-d-ed4d455b0039",
+            "000049-d-c1294c9cf3cc",
+            "000049-243",
+            "000049-244",
+            "000049-245"
+          ],
+          "strict_ten_per_setting_feasible": false,
+          "strict_setting_conflicts": [
+            {
+              "setting": "academic explanations",
+              "expected": true,
+              "target": 10,
+              "available": 9,
+              "required": 1,
+              "shortfall": 1,
+              "mandatory_excess": 0
+            },
+            {
+              "setting": "support replies",
+              "expected": true,
+              "target": 10,
+              "available": 9,
+              "required": 1,
+              "shortfall": 1,
+              "mandatory_excess": 0
+            }
+          ],
+          "allocation": [
+            {
+              "key": "LinkedIn posts",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 7,
+              "upper": 15,
+              "quota": 10,
+              "available": [
+                15
+              ],
+              "required": [
+                7
+              ]
+            },
+            {
+              "key": "academic explanations",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 4,
+              "upper": 13,
+              "quota": 10,
+              "available": [
+                13
+              ],
+              "required": [
+                4
+              ]
+            },
+            {
+              "key": "community notices",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 5,
+              "upper": 13,
+              "quota": 10,
+              "available": [
+                13
+              ],
+              "required": [
+                5
+              ]
+            },
+            {
+              "key": "consumer reviews",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 5,
+              "upper": 14,
+              "quota": 10,
+              "available": [
+                14
+              ],
+              "required": [
+                5
+              ]
+            },
+            {
+              "key": "factual narratives",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 5,
+              "upper": 14,
+              "quota": 10,
+              "available": [
+                14
+              ],
+              "required": [
+                5
+              ]
+            },
+            {
+              "key": "release notes",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 6,
+              "upper": 14,
+              "quota": 10,
+              "available": [
+                14
+              ],
+              "required": [
+                6
+              ]
+            },
+            {
+              "key": "supplier comparisons",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 5,
+              "upper": 13,
+              "quota": 10,
+              "available": [
+                13
+              ],
+              "required": [
+                5
+              ]
+            },
+            {
+              "key": "support replies",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 3,
+              "upper": 12,
+              "quota": 10,
+              "available": [
+                12
+              ],
+              "required": [
+                3
+              ]
+            },
+            {
+              "key": "technical documentation",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 6,
+              "upper": 14,
+              "quota": 10,
+              "available": [
+                14
+              ],
+              "required": [
+                6
+              ]
+            },
+            {
+              "key": "workplace emails",
+              "expected": false,
+              "prior_quota": 10,
+              "lower": 9,
+              "upper": 16,
+              "quota": 10,
+              "available": [
+                16
+              ],
+              "required": [
+                9
+              ]
+            },
+            {
+              "key": "LinkedIn posts",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 6,
+              "upper": 14,
+              "quota": 10,
+              "available": [
+                14
+              ],
+              "required": [
+                6
+              ]
+            },
+            {
+              "key": "academic explanations",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 1,
+              "upper": 9,
+              "quota": 9,
+              "available": [
+                9
+              ],
+              "required": [
+                1
+              ]
+            },
+            {
+              "key": "community notices",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 2,
+              "upper": 11,
+              "quota": 10,
+              "available": [
+                11
+              ],
+              "required": [
+                2
+              ]
+            },
+            {
+              "key": "consumer reviews",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 5,
+              "upper": 18,
+              "quota": 10,
+              "available": [
+                18
+              ],
+              "required": [
+                5
+              ]
+            },
+            {
+              "key": "factual narratives",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 3,
+              "upper": 12,
+              "quota": 11,
+              "available": [
+                12
+              ],
+              "required": [
+                3
+              ]
+            },
+            {
+              "key": "release notes",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 5,
+              "upper": 14,
+              "quota": 11,
+              "available": [
+                14
+              ],
+              "required": [
+                5
+              ]
+            },
+            {
+              "key": "supplier comparisons",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 3,
+              "upper": 12,
+              "quota": 10,
+              "available": [
+                12
+              ],
+              "required": [
+                3
+              ]
+            },
+            {
+              "key": "support replies",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 1,
+              "upper": 9,
+              "quota": 9,
+              "available": [
+                9
+              ],
+              "required": [
+                1
+              ]
+            },
+            {
+              "key": "technical documentation",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 1,
+              "upper": 10,
+              "quota": 10,
+              "available": [
+                10
+              ],
+              "required": [
+                1
+              ]
+            },
+            {
+              "key": "workplace emails",
+              "expected": true,
+              "prior_quota": 10,
+              "lower": 1,
+              "upper": 13,
+              "quota": 10,
+              "available": [
+                13
+              ],
+              "required": [
+                1
+              ]
+            }
+          ],
+          "backfill_required": 0
+        },
+        {
+          "collection": "000051",
+          "original_mandatory": 69,
+          "corrected_required": 6,
+          "required_union": 74,
+          "required_ids": [
+            "000051-001",
+            "000051-003",
+            "000051-005",
+            "000051-006",
+            "000051-007",
+            "000051-009",
+            "000051-013",
+            "000051-014",
+            "000051-015",
+            "000051-016",
+            "000051-017",
+            "000051-020",
+            "000051-025",
+            "000051-031",
+            "000051-032",
+            "000051-033",
+            "000051-038",
+            "000051-039",
+            "000051-043",
+            "000051-047",
+            "000051-050",
+            "000051-052",
+            "000051-056",
+            "000051-061",
+            "000051-062",
+            "000051-063",
+            "000051-069",
+            "000051-073",
+            "000051-077",
+            "000051-079",
+            "000051-080",
+            "000051-081",
+            "000051-082",
+            "000051-084",
+            "000051-089",
+            "000051-097",
+            "000051-099",
+            "000051-101",
+            "000051-103",
+            "000051-109",
+            "000051-112",
+            "000051-121",
+            "000051-122",
+            "000051-125",
+            "000051-126",
+            "000051-127",
+            "000051-131",
+            "000051-132",
+            "000051-134",
+            "000051-135",
+            "000051-136",
+            "000051-137",
+            "000051-141",
+            "000051-142",
+            "000051-149",
+            "000051-150",
+            "000051-152",
+            "000051-157",
+            "000051-158",
+            "000051-161",
+            "000051-164",
+            "000051-165",
+            "000051-166",
+            "000051-167",
+            "000051-171",
+            "000051-172",
+            "000051-175",
+            "000051-184",
+            "000051-185",
+            "000051-189",
+            "000051-191",
+            "000051-193",
+            "000051-195",
+            "000051-200"
+          ],
+          "counts": [
+            {
+              "check": "stock-wording-and-jargon/cliche",
+              "hits": 100,
+              "no_hits": 100
+            },
+            {
+              "check": "stock-wording-and-jargon/borrowed-jargon",
+              "hits": 100,
+              "no_hits": 100
+            },
+            {
+              "check": "stock-wording-and-jargon/tortured-phrasing",
+              "hits": 100,
+              "no_hits": 100
+            },
+            {
+              "check": "stock-wording-and-jargon/hidden-significance-adverb",
+              "hits": 100,
+              "no_hits": 100
+            },
+            {
+              "check": "stock-wording-and-jargon/stock-vocabulary",
+              "hits": 100,
+              "no_hits": 100
+            }
+          ],
+          "retained_prior_ids": 194,
+          "added_ids": [
+            "000051-111",
+            "000051-112",
+            "000051-140",
+            "000051-158",
+            "000051-215",
+            "000051-217"
+          ],
+          "removed_ids": [
+            "000051-045",
+            "000051-113",
+            "000051-187",
+            "000051-188",
+            "000051-204",
+            "000051-216"
+          ],
+          "strict_setting_conflicts": [],
+          "allocation": [
+            {
+              "key": "00000",
+              "complement": "11111",
+              "prior_quota": 12,
+              "lower": 14,
+              "upper": 14,
+              "quota": 14,
+              "available": [
+                14,
+                17
+              ],
+              "required": [
+                14,
+                6
+              ]
+            },
+            {
+              "key": "00001",
+              "complement": "11110",
+              "prior_quota": 4,
+              "lower": 1,
+              "upper": 4,
+              "quota": 4,
+              "available": [
+                4,
+                7
+              ],
+              "required": [
+                0,
+                0
+              ]
+            },
+            {
+              "key": "00010",
+              "complement": "11101",
+              "prior_quota": 7,
+              "lower": 7,
+              "upper": 7,
+              "quota": 7,
+              "available": [
+                12,
+                7
+              ],
+              "required": [
+                7,
+                0
+              ]
+            },
+            {
+              "key": "00011",
+              "complement": "11100",
+              "prior_quota": 5,
+              "lower": 1,
+              "upper": 5,
+              "quota": 5,
+              "available": [
+                5,
+                7
+              ],
+              "required": [
+                0,
+                0
+              ]
+            },
+            {
+              "key": "00100",
+              "complement": "11011",
+              "prior_quota": 6,
+              "lower": 3,
+              "upper": 7,
+              "quota": 6,
+              "available": [
+                7,
+                7
+              ],
+              "required": [
+                3,
+                0
+              ]
+            },
+            {
+              "key": "00101",
+              "complement": "11010",
+              "prior_quota": 6,
+              "lower": 2,
+              "upper": 6,
+              "quota": 6,
+              "available": [
+                6,
+                6
+              ],
+              "required": [
+                1,
+                2
+              ]
+            },
+            {
+              "key": "00110",
+              "complement": "11001",
+              "prior_quota": 6,
+              "lower": 3,
+              "upper": 6,
+              "quota": 6,
+              "available": [
+                8,
+                6
+              ],
+              "required": [
+                3,
+                1
+              ]
+            },
+            {
+              "key": "00111",
+              "complement": "11000",
+              "prior_quota": 6,
+              "lower": 6,
+              "upper": 8,
+              "quota": 6,
+              "available": [
+                8,
+                8
+              ],
+              "required": [
+                6,
+                2
+              ]
+            },
+            {
+              "key": "01000",
+              "complement": "10111",
+              "prior_quota": 6,
+              "lower": 4,
+              "upper": 7,
+              "quota": 6,
+              "available": [
+                7,
+                7
+              ],
+              "required": [
+                4,
+                0
+              ]
+            },
+            {
+              "key": "01001",
+              "complement": "10110",
+              "prior_quota": 6,
+              "lower": 1,
+              "upper": 6,
+              "quota": 6,
+              "available": [
+                6,
+                7
+              ],
+              "required": [
+                1,
+                1
+              ]
+            },
+            {
+              "key": "01010",
+              "complement": "10101",
+              "prior_quota": 6,
+              "lower": 1,
+              "upper": 6,
+              "quota": 6,
+              "available": [
+                6,
+                6
+              ],
+              "required": [
+                0,
+                1
+              ]
+            },
+            {
+              "key": "01011",
+              "complement": "10100",
+              "prior_quota": 6,
+              "lower": 4,
+              "upper": 6,
+              "quota": 6,
+              "available": [
+                6,
+                6
+              ],
+              "required": [
+                2,
+                4
+              ]
+            },
+            {
+              "key": "01100",
+              "complement": "10011",
+              "prior_quota": 6,
+              "lower": 3,
+              "upper": 5,
+              "quota": 4,
+              "available": [
+                6,
+                5
+              ],
+              "required": [
+                3,
+                1
+              ]
+            },
+            {
+              "key": "01101",
+              "complement": "10010",
+              "prior_quota": 6,
+              "lower": 2,
+              "upper": 6,
+              "quota": 6,
+              "available": [
+                6,
+                11
+              ],
+              "required": [
+                1,
+                2
+              ]
+            },
+            {
+              "key": "01110",
+              "complement": "10001",
+              "prior_quota": 6,
+              "lower": 1,
+              "upper": 7,
+              "quota": 6,
+              "available": [
+                7,
+                7
+              ],
+              "required": [
+                1,
+                0
+              ]
+            },
+            {
+              "key": "01111",
+              "complement": "10000",
+              "prior_quota": 6,
+              "lower": 4,
+              "upper": 7,
+              "quota": 6,
+              "available": [
+                7,
+                7
+              ],
+              "required": [
+                4,
+                4
+              ]
+            }
+          ],
+          "sum_pair_lower": 57,
+          "sum_pair_upper": 107,
+          "sum_pair_quota": 100,
+          "backfill_required": 0
+        }
+      ],
+      "validation": {
+        "selected_per_collection": 200,
+        "every_check_100_100": true,
+        "all_required_preserved": true,
+        "all_32_mixed_combinations": true,
+        "model_outcomes_read": false,
+        "labels_changed_for_selection": false,
+        "new_cases_generated": 0,
+        "pending_backfill": 0,
+        "full_pools_preserved": true,
+        "archival": "Parent archives the unchanged full pools before any root trimming."
+      }
+    },
+    "independentBoundaryReview": {
+      "scope": "36 assigned development cases; stock-vocabulary only",
+      "source_sha256": {
+        "/tmp/stock-v17-vocabulary-boundary-blind-input-v1.json": "f25ccef30b94b95d973ee65de549621d53cb232878415d42390e3485249419f8",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/.plans/2026-10-20-125402-v2-rule-taxonomy.md": "a8bf1a3c876cb2453041d28aded9f7f6ef912cb8d2253948a89972245636e380",
+        "/Users/tartakovsky/Projects/agent-quality-controls/slopless/AGENTS.md": "ba8f0d01537bba1fd252bd52f5c052fef32010b2d68c614f7bac9175717b47cf",
+        "/Users/tartakovsky/.codex/AGENTS.md": "5ebe89b39fd1f0ca7858eb7393c12c4f13a1657c4d525894393829eb28fb271a",
+        "/tmp/stock-v17-vocabulary-boundary-independent-v1.json": "03b5b48ff8216d40977d777db0eb1842ce0da56d11c021518453b9d80f1c800e",
+        "/tmp/stock-v17-vocabulary-parent-boundaries-v1.json": "e4f652a1a7b73c394a051480a1bc7ea4471c61d2bf486e963cd0e7acca970df6",
+        "/tmp/stock-v17-vocabulary-development-label-adjudication-v1.json": "28d86d6f09570f7382aadbf5a072ab301fa44cc7dba3e2e7e52e34d20866208a"
+      },
+      "definition_example": "000049-p-973694c00fe6 is the taxonomy's explicit considered/enriches/holistic invoice-button example, rather than an unseen blind judgment.",
+      "columns": [
+        "id",
+        "expected",
+        "snippets"
+      ],
+      "judgments": [
+        [
+          "000049-240",
+          true,
+          [
+            "cohesive",
+            "elevated",
+            "nuanced"
+          ]
+        ],
+        [
+          "000049-p-a9c4e2aeb72f",
+          true,
+          [
+            "intentional",
+            "holistic",
+            "enriches"
+          ]
+        ],
+        [
+          "000049-d-266e1725e730",
+          true,
+          [
+            "holistic",
+            "dynamic",
+            "thoughtful"
+          ]
+        ],
+        [
+          "000051-009",
+          false,
+          []
+        ],
+        [
+          "000049-p-4ead448bd22a",
+          false,
+          []
+        ],
+        [
+          "000049-d-de0a13d41f6f",
+          false,
+          []
+        ],
+        [
+          "000051-073",
+          false,
+          []
+        ],
+        [
+          "000049-d-e4585b6eec8a",
+          true,
+          [
+            "considered",
+            "richer",
+            "holistic"
+          ]
+        ],
+        [
+          "000049-248",
+          false,
+          []
+        ],
+        [
+          "000049-d-d3c2707c43c2",
+          true,
+          [
+            "dynamic",
+            "considered",
+            "layered"
+          ]
+        ],
+        [
+          "000049-d-7e128a478aa9",
+          true,
+          [
+            "organic",
+            "intentional",
+            "enriching"
+          ]
+        ],
+        [
+          "000051-103",
+          false,
+          []
+        ],
+        [
+          "000049-p-973694c00fe6",
+          true,
+          [
+            "considered",
+            "enriches",
+            "holistic"
+          ]
+        ],
+        [
+          "000049-d-e8070582fa70",
+          true,
+          [
+            "holistic",
+            "considered",
+            "engaging"
+          ]
+        ],
+        [
+          "000049-d-38d18f585b1b",
+          true,
+          [
+            "richer",
+            "holistic",
+            "thoughtful"
+          ]
+        ],
+        [
+          "000049-d-6077025b4a98",
+          true,
+          [
+            "cohesive",
+            "thoughtful",
+            "enriches"
+          ]
+        ],
+        [
+          "000049-212",
+          false,
+          []
+        ],
+        [
+          "000049-d-7c254af24768",
+          true,
+          [
+            "curated",
+            "enriches",
+            "intentional"
+          ]
+        ],
+        [
+          "000049-d-728014ce4947",
+          false,
+          []
+        ],
+        [
+          "000049-250",
+          false,
+          []
+        ],
+        [
+          "000049-d-cc20316d85b7",
+          false,
+          []
+        ],
+        [
+          "000049-221",
+          false,
+          []
+        ],
+        [
+          "000049-d-507f87c614ee",
+          true,
+          [
+            "cohesive",
+            "thoughtful",
+            "enriches"
+          ]
+        ],
+        [
+          "000049-d-40ebcb0b5723",
+          false,
+          []
+        ],
+        [
+          "000049-d-ba97e947072e",
+          true,
+          [
+            "holistic",
+            "authentic",
+            "considered"
+          ]
+        ],
+        [
+          "000051-158",
+          false,
+          []
+        ],
+        [
+          "000049-d-e79f67645e15",
+          true,
+          [
+            "richer",
+            "curated",
+            "intentional"
+          ]
+        ],
+        [
+          "000049-202",
+          false,
+          []
+        ],
+        [
+          "000051-043",
+          false,
+          []
+        ],
+        [
+          "000049-d-bdb718c4e3e3",
+          true,
+          [
+            "layered",
+            "organic",
+            "thoughtful"
+          ]
+        ],
+        [
+          "000049-251",
+          false,
+          []
+        ],
+        [
+          "000049-d-d33c97551173",
+          true,
+          [
+            "comprehensive",
+            "thoughtful",
+            "refined"
+          ]
+        ],
+        [
+          "000049-d-3fa11d03da1e",
+          true,
+          [
+            "intentional",
+            "organic",
+            "thoughtful"
+          ]
+        ],
+        [
+          "000049-d-5bfc80890c00",
+          true,
+          [
+            "vibrant",
+            "engaging",
+            "considered"
+          ]
+        ],
+        [
+          "000049-227",
+          true,
+          [
+            "enriched",
+            "nuanced",
+            "holistic"
+          ]
+        ],
+        [
+          "000051-112",
+          false,
+          []
+        ]
+      ],
+      "eligible_inventories": {
+        "rule": "Hit inventories are the judgment snippets reduced to base word and sense; count repeated inflections once. No-hit inventories follow.",
+        "000051-009": [
+          "holistic"
+        ],
+        "000049-p-4ead448bd22a": [
+          "holistic",
+          "nuanced"
+        ],
+        "000049-d-de0a13d41f6f": [
+          "considered",
+          "enhance"
+        ],
+        "000051-073": [
+          "holistic",
+          "nuanced"
+        ],
+        "000049-248": [
+          "sophisticated",
+          "holistic"
+        ],
+        "000051-103": [
+          "nuanced",
+          "holistic"
+        ],
+        "000049-212": [
+          "holistic",
+          "nuanced"
+        ],
+        "000049-d-728014ce4947": [
+          "layered",
+          "nuanced"
+        ],
+        "000049-250": [
+          "layered",
+          "holistic"
+        ],
+        "000049-d-cc20316d85b7": [
+          "nuanced",
+          "cohesive"
+        ],
+        "000049-221": [
+          "nuanced",
+          "holistic"
+        ],
+        "000049-d-40ebcb0b5723": [
+          "seamless",
+          "thoughtful"
+        ],
+        "000051-158": [
+          "holistic"
+        ],
+        "000049-202": [
+          "holistic",
+          "nuanced"
+        ],
+        "000051-043": [
+          "nuanced",
+          "elevate"
+        ],
+        "000049-251": [
+          "layered",
+          "refined"
+        ],
+        "000051-112": [
+          "holistic"
+        ]
+      },
+      "resolutions": [
+        {
+          "ids": [
+            "000049-d-266e1725e730",
+            "000049-d-38d18f585b1b",
+            "000049-d-3fa11d03da1e",
+            "000049-d-507f87c614ee",
+            "000049-d-5bfc80890c00",
+            "000049-d-6077025b4a98",
+            "000049-d-ba97e947072e",
+            "000049-d-bdb718c4e3e3",
+            "000049-d-d33c97551173",
+            "000049-d-d3c2707c43c2",
+            "000049-d-e4585b6eec8a",
+            "000049-d-e8070582fa70",
+            "000049-p-973694c00fe6"
+          ],
+          "decision": "Retain independent hit; accept parent; reject prior no-hit.",
+          "reason": "Contact details, threaded replies, dates, greetings, care instructions, and a copy button explain what these communications or controls do. Considered or thoughtful grades their approach, feel, character, presentation, or introduction generically; the reader must infer design care from ordinary functionality. The other marked choices supply two additional ornaments. The paired billing clarification explicitly establishes this boundary for p973."
+        },
+        {
+          "ids": [
+            "000049-p-a9c4e2aeb72f",
+            "000049-d-7c254af24768",
+            "000049-d-e79f67645e15"
+          ],
+          "decision": "Retain independent hit; accept parent; reject prior no-hit.",
+          "reason": "Sending advance details, dispatch information, or a greeting specifies an action. Intentional quality, intentional approach to staying in touch, and an experience that feels intentional grade the contact generically. Deliberately sending a routine message supplies no further particular property of that quality or experience. Enrichment of the relationship or experience remains generic."
+        },
+        {
+          "ids": [
+            "000049-d-7e128a478aa9"
+          ],
+          "decision": "Retain independent hit; accept parent; reject prior no-hit.",
+          "reason": "The checkout position and correspondence list specify location and storage. Organic place supplies a naturalness grade without describing a particular fit, adaptation, or process; intentional interaction and enriching the service add generic grades. Calling those ordinary associations organic imports the favorable appraisal from the feature's existence."
+        },
+        {
+          "ids": [
+            "000049-227"
+          ],
+          "decision": "Retain independent hit; accept parent; reject prior no-hit.",
+          "reason": "The invoice subject gains a usable identifier, but enriched modifies the monthly billing routine and repeats for reminder emails. That grades the activity, whereas enriches a list identifies additional information in a named account. Nuanced addition and holistic polish remain generic; repeated enrich forms count once."
+        },
+        {
+          "ids": [
+            "000049-240"
+          ],
+          "decision": "Retain independent hit; accept parent; reject prior no-hit.",
+          "reason": "The shared naming convention makes titles consistent. Cohesive modifies polish rather than the titles or a specified coordination relationship, and the extension to reminders supplies no further property of that polish. Elevated touch and nuanced character supply two more generic grades."
+        },
+        {
+          "ids": [
+            "000049-202",
+            "000049-212"
+          ],
+          "decision": "Revise independent hit to no-hit; uphold both prior corrections and parent.",
+          "meaningful_words": [
+            "multifaceted"
+          ],
+          "reason": "The rota arrangement covers availability entry, cover allocation, and subsequent swaps; the naming approach covers subjects, attachment names, and minutes. Multifaceted denotes those distinct operating aspects or document scopes. The independent pass incorrectly required added sophistication rather than accepting a particular coverage property. Holistic and nuanced remain the two ornaments."
+        },
+        {
+          "ids": [
+            "000049-221"
+          ],
+          "decision": "Revise independent hit to no-hit; uphold prior and parent.",
+          "meaningful_words": [
+            "enrich"
+          ],
+          "reason": "Duplicating and saving an appointment adds a dated event record with time and address to the calendar. This enriches a data collection with another usable record; the original fields' reuse preserves that informational addition. Nuanced and holistic remain ornamental."
+        },
+        {
+          "ids": [
+            "000049-d-728014ce4947"
+          ],
+          "decision": "Revise independent hit to no-hit; uphold prior and parent.",
+          "meaningful_words": [
+            "engaging"
+          ],
+          "reason": "The invitation requests colleagues' agenda contributions. Engaging communication has a specific participation meaning tied to that request and stated intention; the independent pass read it only as an attractiveness grade. Layered and nuanced remain ornamental."
+        },
+        {
+          "ids": [
+            "000049-d-cc20316d85b7"
+          ],
+          "decision": "Revise independent hit to no-hit; uphold prior and parent.",
+          "meaningful_words": [
+            "seamless"
+          ],
+          "reason": "The account runs from a correct reminder through name confirmation to the stated start time and advertised price. Seamless conveys a smooth service sequence whose expected details remain consistent through arrival and payment. This is a recoverable continuity property; nuanced and cohesive remain generic grades."
+        },
+        {
+          "ids": [
+            "000051-043"
+          ],
+          "decision": "Revise independent hit to no-hit; uphold prior and parent.",
+          "meaningful_words": [
+            "holistic"
+          ],
+          "reason": "The shared household page combines each member's availability, the organizer's invitation, and replies kept beside the proposed date. Holistic describes that combined whole-household scheduling view rather than merely a favorable feel. The initial pass overlooked this particular participation and workflow scope; nuanced and elevates remain generic."
+        },
+        {
+          "ids": [
+            "000049-p-4ead448bd22a",
+            "000051-073",
+            "000049-248",
+            "000051-103",
+            "000049-250",
+            "000049-251"
+          ],
+          "decision": "Retain independent no-hit; uphold prior and parent.",
+          "meaningful_words": [
+            "enrich"
+          ],
+          "reason": "Requested leave dates add discussion content; rota duties and handover names add account content; the postal address adds initial-exchange information; named contacts add arrival-guide content; driver names and room numbers add list fields. Each use identifies concrete information in its object. Two residual ornaments remain in each case."
+        },
+        {
+          "ids": [
+            "000051-009"
+          ],
+          "decision": "Retain independent no-hit and prior correction; narrow prior inventory.",
+          "meaningful_words": [
+            "multifaceted",
+            "enrich"
+          ],
+          "reason": "Role, working days, and hobby are professional, availability, and personal facets that add colleague information. Holistic introduction remains a general completeness grade: combining those fields establishes multiple facets while leaving that broader grade generic. Preserve one eligible word, versus the prior adjudication's zero."
+        },
+        {
+          "ids": [
+            "000051-158",
+            "000051-112"
+          ],
+          "decision": "Retain independent no-hits and prior corrections; refine the fieldwork inventory.",
+          "meaningful_words": [
+            "nuanced",
+            "enrich"
+          ],
+          "reason": "The fieldwork guide distinguishes observation, identification, evidential support, and uncertainty. The room guide distinguishes a step-free route from stairs and provides offline and after-hours information. These are particular qualifications and additions to an account. Each leaves holistic as one ornament; the prior fieldwork inventory additionally counted enriches."
+        },
+        {
+          "ids": [
+            "000049-d-de0a13d41f6f",
+            "000049-d-40ebcb0b5723"
+          ],
+          "decision": "Retain independent no-hits and parent ownership; correct prior inventories.",
+          "excluded_words": [
+            "bespoke"
+          ],
+          "owner": "inflated-evaluation",
+          "reason": "Both passages claim tailoring while supplying the same template to every subscriber or role. Bespoke belongs to inflated evaluation. Considered confirmation and thoughtful first reply remain generic grades, replacing bespoke in the prior inventories; the remaining eligible verb or adjective leaves two."
+        },
+        {
+          "ids": [
+            "000051-009",
+            "000051-073",
+            "000051-103",
+            "000051-158",
+            "000051-043"
+          ],
+          "decision": "Preserve expression ownership and literal meaning.",
+          "reason": "Exclude decorative quietly or silently before importance claims from vocabulary counts. Preserve silently in the handbook's absent-audio operation. Exclude each complete next-level formula as cliche; assess the neighboring vocabulary independently."
+        }
+      ],
+      "counts": {
+        "completed": 36,
+        "independent_hits": 25,
+        "independent_no_hits": 11,
+        "final_hits": 19,
+        "final_no_hits": 17,
+        "independent_class_revisions": 6,
+        "parent_proposed_hits_upheld": 19,
+        "parent_proposed_no_hits_upheld": 10,
+        "prior_corrections_upheld": 7,
+        "prior_adjudication_class_disagreements": 19,
+        "definition_examples": 1,
+        "remaining_cases": 0
+      },
+      "review": "Single-reviewer bounded task; no further reviewer because delegation was prohibited. Only the two requested /tmp artifacts were written."
+    }
   }
 }
