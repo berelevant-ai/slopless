@@ -130,11 +130,13 @@ Six collections contain 1,200 independently reviewed inputs. Each check has exac
 
 The [reviewed pools at `1f29be1f`](https://github.com/berelevant-ai/slopless/tree/1f29be1f/datasets/ai-synthetic) retain all 1,333 inputs and their labels, including 133 surplus inputs. Selection preserves mandatory cases before balancing; compact review records under `runners/results/` record corrections, retention, source hashes, and the archive link.
 
-The mixed [development](ai-synthetic/texts/000039-wordiness-and-redundancy-mixed-development.md) and protected [holdout](ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.md) each contain 200 complete texts and 600 judgments, with 100 hits and 100 no-hits per check. Their full pools remain at `7f6d80e6` and `24144852`, preserving 49 and sixteen surplus texts respectively.
+The mixed [development](ai-synthetic/texts/000039-wordiness-and-redundancy-mixed-development.md) and protected [holdout](ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.md) each contain 200 complete texts and 600 judgments, with 100 hits and 100 no-hits per check. Their full pools remain at `d7b01a08` and `24144852`, preserving 52 and sixteen surplus texts respectively.
 
-Each split retains 106 mandatory examples. Development preserves fifteen matched original/padding-positive pairs and uses 22-28 texts per combination to retain all required controls; holdout uses 25 each. All eight selected collections pass a 640,000-pair cross-split lexical overlap screen with zero candidates.
+Development retains 112 mandatory examples and eighteen original/padding-positive pairs. It uses 20-30 texts per combination to preserve every required control; holdout retains 106 required examples and 25 texts per combination. Both retain 100 hits and 100 no-hits per check.
 
 Keep protected holdout writing outside prompt development. The [family plan](../.plans/2026-10-22-094913-wordiness-and-redundancy-development.md) defines the frozen mixed-development assessment and the separate authorization gate for holdout inference.
+
+The [development report](../runners/results/wordiness-and-redundancy-v16-development.md) records isolated and mixed results, including all three mixed false-positive failures. Detector predictions remain separate from these reviewed dataset labels.
 
 ## Commands
 

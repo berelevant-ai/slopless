@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
-  "textSha256": "b61e1a06d314b8ae7d483689d9080b42dd512824c080fde605208ec2abe02e6b",
+  "textSha256": "799a8ccc0e0c0a0eae1857dbc527428a7bbf0a457dddaed9dec91a27f65b49bc",
   "source": {
     "name": "Codex-authored mixed wordiness and redundancy development",
-    "originalPath": "/tmp/000039-development-mixed-full-author-v4.json",
+    "originalPath": "/tmp/000039-development-mixed-selected-author-v4.json",
     "commit": "eb8390ac",
     "model": "Codex",
     "prompt": null,
-    "notes": "Reviewed complete texts and three independent judgments per text. Definitions frozen at eb8390ac; review and selection recorded in runners/results/wordiness-and-redundancy-mixed-development-review.json."
+    "notes": "Reviewed complete texts and three independent judgments per text. Definitions frozen at eb8390ac; review and selection recorded in runners/results/wordiness-and-redundancy-mixed-development-review.json. Full reviewed pool and surplus preserved at Git commit d7b01a0862ae0bcde3a7fe286954c436440aeff3."
   },
   "split": "development",
   "samples": [
@@ -34,235 +34,183 @@
     { "id": "000039-022", "start": 25463, "end": 26685 },
     { "id": "000039-023", "start": 26702, "end": 28090 },
     { "id": "000039-024", "start": 28107, "end": 29445 },
-    { "id": "000039-025", "start": 29462, "end": 30655 },
-    { "id": "000039-026", "start": 30672, "end": 31930 },
-    { "id": "000039-027", "start": 31947, "end": 33154 },
-    { "id": "000039-028", "start": 33171, "end": 34457 },
-    { "id": "000039-029", "start": 34474, "end": 35618 },
-    { "id": "000039-030", "start": 35635, "end": 36827 },
-    { "id": "000039-031", "start": 36844, "end": 38051 },
-    { "id": "000039-032", "start": 38068, "end": 39252 },
-    { "id": "000039-033", "start": 39269, "end": 40577 },
-    { "id": "000039-034", "start": 40594, "end": 41814 },
-    { "id": "000039-035", "start": 41831, "end": 43086 },
-    { "id": "000039-036", "start": 43103, "end": 44374 },
-    { "id": "000039-037", "start": 44391, "end": 45589 },
-    { "id": "000039-038", "start": 45606, "end": 46967 },
-    { "id": "000039-039", "start": 46984, "end": 48118 },
-    { "id": "000039-040", "start": 48135, "end": 49287 },
-    { "id": "000039-041", "start": 49304, "end": 50542 },
-    { "id": "000039-042", "start": 50559, "end": 51818 },
-    { "id": "000039-043", "start": 51835, "end": 53111 },
-    { "id": "000039-044", "start": 53128, "end": 54395 },
-    { "id": "000039-045", "start": 54412, "end": 55761 },
-    { "id": "000039-046", "start": 55778, "end": 57099 },
-    { "id": "000039-047", "start": 57116, "end": 58352 },
-    { "id": "000039-048", "start": 58369, "end": 59823 },
-    { "id": "000039-049", "start": 59840, "end": 61056 },
-    { "id": "000039-050", "start": 61073, "end": 62357 },
-    { "id": "000039-051", "start": 62374, "end": 63483 },
-    { "id": "000039-052", "start": 63500, "end": 64727 },
-    { "id": "000039-053", "start": 64744, "end": 65976 },
-    { "id": "000039-054", "start": 65993, "end": 67358 },
-    { "id": "000039-055", "start": 67375, "end": 68578 },
-    { "id": "000039-056", "start": 68595, "end": 69872 },
-    { "id": "000039-057", "start": 69889, "end": 71157 },
-    { "id": "000039-058", "start": 71174, "end": 72557 },
-    { "id": "000039-059", "start": 72574, "end": 73772 },
-    { "id": "000039-060", "start": 73789, "end": 75064 },
-    { "id": "000039-061", "start": 75081, "end": 76375 },
-    { "id": "000039-062", "start": 76392, "end": 77744 },
-    { "id": "000039-063", "start": 77761, "end": 79029 },
-    { "id": "000039-064", "start": 79046, "end": 80349 },
-    { "id": "000039-065", "start": 80366, "end": 81574 },
-    { "id": "000039-066", "start": 81591, "end": 82836 },
-    { "id": "000039-067", "start": 82853, "end": 84073 },
-    { "id": "000039-068", "start": 84090, "end": 85463 },
-    { "id": "000039-069", "start": 85480, "end": 86731 },
-    { "id": "000039-070", "start": 86748, "end": 88087 },
-    { "id": "000039-071", "start": 88104, "end": 89400 },
-    { "id": "000039-072", "start": 89417, "end": 90823 },
-    { "id": "000039-073", "start": 90840, "end": 92274 },
-    { "id": "000039-074", "start": 92291, "end": 93616 },
-    { "id": "000039-075", "start": 93633, "end": 94842 },
-    { "id": "000039-076", "start": 94859, "end": 96100 },
-    { "id": "000039-077", "start": 96117, "end": 97360 },
-    { "id": "000039-078", "start": 97377, "end": 98736 },
-    { "id": "000039-079", "start": 98753, "end": 99968 },
-    { "id": "000039-080", "start": 99985, "end": 101235 },
-    { "id": "000039-081", "start": 101252, "end": 102511 },
-    { "id": "000039-082", "start": 102528, "end": 103812 },
-    { "id": "000039-083", "start": 103829, "end": 105193 },
-    { "id": "000039-084", "start": 105210, "end": 106552 },
-    { "id": "000039-085", "start": 106569, "end": 107889 },
-    { "id": "000039-086", "start": 107906, "end": 109208 },
-    { "id": "000039-087", "start": 109225, "end": 110480 },
-    { "id": "000039-088", "start": 110497, "end": 111832 },
-    { "id": "000039-089", "start": 111849, "end": 113176 },
-    { "id": "000039-090", "start": 113193, "end": 114454 },
-    { "id": "000039-091", "start": 114471, "end": 115740 },
-    { "id": "000039-092", "start": 115757, "end": 117011 },
-    { "id": "000039-093", "start": 117028, "end": 118353 },
-    { "id": "000039-095", "start": 118370, "end": 119745 },
-    { "id": "000039-096", "start": 119762, "end": 121013 },
-    { "id": "000039-097", "start": 121030, "end": 122360 },
-    { "id": "000039-098", "start": 122377, "end": 123721 },
-    { "id": "000039-099", "start": 123738, "end": 125008 },
-    { "id": "000039-100", "start": 125025, "end": 126502 },
-    { "id": "000039-101", "start": 126519, "end": 127545 },
-    { "id": "000039-102", "start": 127562, "end": 128773 },
-    { "id": "000039-103", "start": 128790, "end": 129976 },
-    { "id": "000039-104", "start": 129993, "end": 131233 },
-    { "id": "000039-105", "start": 131250, "end": 132370 },
-    { "id": "000039-106", "start": 132387, "end": 133575 },
-    { "id": "000039-107", "start": 133592, "end": 134689 },
-    { "id": "000039-108", "start": 134706, "end": 136037 },
-    { "id": "000039-109", "start": 136054, "end": 137198 },
-    { "id": "000039-110", "start": 137215, "end": 138504 },
-    { "id": "000039-111", "start": 138521, "end": 139649 },
-    { "id": "000039-112", "start": 139666, "end": 140949 },
-    { "id": "000039-113", "start": 140966, "end": 142187 },
-    { "id": "000039-114", "start": 142204, "end": 143438 },
-    { "id": "000039-115", "start": 143455, "end": 144660 },
-    { "id": "000039-116", "start": 144677, "end": 145944 },
-    { "id": "000039-117", "start": 145961, "end": 147202 },
-    { "id": "000039-118", "start": 147219, "end": 148681 },
-    { "id": "000039-119", "start": 148698, "end": 149858 },
-    { "id": "000039-121", "start": 149875, "end": 151045 },
-    { "id": "000039-122", "start": 151062, "end": 152331 },
-    { "id": "000039-123", "start": 152348, "end": 153621 },
-    { "id": "000039-124", "start": 153638, "end": 154975 },
-    { "id": "000039-125", "start": 154992, "end": 156199 },
-    { "id": "000039-127", "start": 156216, "end": 157439 },
-    { "id": "000039-128", "start": 157456, "end": 158855 },
-    { "id": "000039-129", "start": 158872, "end": 160044 },
-    { "id": "000039-130", "start": 160061, "end": 161374 },
-    { "id": "000039-131", "start": 161391, "end": 162594 },
-    { "id": "000039-132", "start": 162611, "end": 163871 },
-    { "id": "000039-133", "start": 163888, "end": 165156 },
-    { "id": "000039-134", "start": 165173, "end": 166478 },
-    { "id": "000039-135", "start": 166495, "end": 167732 },
-    { "id": "000039-136", "start": 167749, "end": 169104 },
-    { "id": "000039-137", "start": 169121, "end": 170341 },
-    { "id": "000039-138", "start": 170358, "end": 171762 },
-    { "id": "000039-139", "start": 171779, "end": 173013 },
-    { "id": "000039-140", "start": 173030, "end": 174342 },
-    { "id": "000039-141", "start": 174359, "end": 175558 },
-    { "id": "000039-143", "start": 175575, "end": 176901 },
-    { "id": "000039-144", "start": 176918, "end": 178199 },
-    { "id": "000039-145", "start": 178216, "end": 179412 },
-    { "id": "000039-146", "start": 179429, "end": 180676 },
-    { "id": "000039-147", "start": 180693, "end": 181944 },
-    { "id": "000039-149", "start": 181961, "end": 183176 },
-    { "id": "000039-151", "start": 183193, "end": 184448 },
-    { "id": "000039-152", "start": 184465, "end": 185801 },
-    { "id": "000039-153", "start": 185818, "end": 187094 },
-    { "id": "000039-154", "start": 187111, "end": 188516 },
-    { "id": "000039-155", "start": 188533, "end": 189782 },
-    { "id": "000039-156", "start": 189799, "end": 191040 },
-    { "id": "000039-157", "start": 191057, "end": 192236 },
-    { "id": "000039-158", "start": 192253, "end": 193612 },
-    { "id": "000039-159", "start": 193629, "end": 194867 },
-    { "id": "000039-160", "start": 194884, "end": 196224 },
-    { "id": "000039-161", "start": 196241, "end": 197551 },
-    { "id": "000039-162", "start": 197568, "end": 198959 },
-    { "id": "000039-163", "start": 198976, "end": 200266 },
-    { "id": "000039-164", "start": 200283, "end": 201573 },
-    { "id": "000039-165", "start": 201590, "end": 202917 },
-    { "id": "000039-166", "start": 202934, "end": 204230 },
-    { "id": "000039-167", "start": 204247, "end": 205460 },
-    { "id": "000039-168", "start": 205477, "end": 206916 },
-    { "id": "000039-169", "start": 206933, "end": 208159 },
-    { "id": "000039-170", "start": 208176, "end": 209498 },
-    { "id": "000039-171", "start": 209515, "end": 210865 },
-    { "id": "000039-172", "start": 210882, "end": 212242 },
-    { "id": "000039-173", "start": 212259, "end": 213604 },
-    { "id": "000039-174", "start": 213621, "end": 215015 },
-    { "id": "000039-176", "start": 215032, "end": 216402 },
-    { "id": "000039-177", "start": 216419, "end": 217689 },
-    { "id": "000039-179", "start": 217706, "end": 218967 },
-    { "id": "000039-180", "start": 218984, "end": 220321 },
-    { "id": "000039-182", "start": 220338, "end": 221643 },
-    { "id": "000039-183", "start": 221660, "end": 223027 },
-    { "id": "000039-184", "start": 223044, "end": 224322 },
-    { "id": "000039-185", "start": 224339, "end": 225576 },
-    { "id": "000039-186", "start": 225593, "end": 226947 },
-    { "id": "000039-187", "start": 226964, "end": 228324 },
-    { "id": "000039-188", "start": 228341, "end": 229734 },
-    { "id": "000039-189", "start": 229751, "end": 230978 },
-    { "id": "000039-190", "start": 230995, "end": 232350 },
-    { "id": "000039-191", "start": 232367, "end": 233649 },
-    { "id": "000039-192", "start": 233666, "end": 235066 },
-    { "id": "000039-193", "start": 235083, "end": 236458 },
-    { "id": "000039-194", "start": 236475, "end": 237880 },
-    { "id": "000039-195", "start": 237897, "end": 239279 },
-    { "id": "000039-196", "start": 239296, "end": 240665 },
-    { "id": "000039-197", "start": 240682, "end": 241886 },
-    { "id": "000039-198", "start": 241903, "end": 243408 },
-    { "id": "000039-199", "start": 243425, "end": 244644 },
-    { "id": "000039-200", "start": 244661, "end": 246068 },
-    { "id": "000039-201", "start": 246085, "end": 247351 },
-    { "id": "000039-202", "start": 247368, "end": 248778 },
-    { "id": "000039-203", "start": 248795, "end": 250054 },
-    { "id": "000039-204", "start": 250071, "end": 251302 },
-    { "id": "000039-205", "start": 251319, "end": 252566 },
-    { "id": "000039-206", "start": 252583, "end": 253920 },
-    { "id": "000039-207", "start": 253937, "end": 255222 },
-    { "id": "000039-208", "start": 255239, "end": 256649 },
-    { "id": "000039-209", "start": 256666, "end": 258218 },
-    { "id": "000039-210", "start": 258235, "end": 259526 },
-    { "id": "000039-211", "start": 259543, "end": 261661 },
-    { "id": "000039-212", "start": 261678, "end": 263928 },
-    { "id": "000039-213", "start": 263945, "end": 266324 },
-    { "id": "000039-214", "start": 266341, "end": 268753 },
-    { "id": "000039-215", "start": 268770, "end": 270941 },
-    { "id": "000039-216", "start": 270958, "end": 273241 },
-    { "id": "000039-217", "start": 273258, "end": 275553 },
-    { "id": "000039-218", "start": 275570, "end": 277959 },
-    { "id": "000039-219", "start": 277976, "end": 280243 },
-    { "id": "000039-220", "start": 280260, "end": 282597 },
-    { "id": "000039-221", "start": 282614, "end": 284664 },
-    { "id": "000039-222", "start": 284681, "end": 286944 },
-    { "id": "000039-223", "start": 286961, "end": 289242 },
-    { "id": "000039-224", "start": 289259, "end": 291452 },
-    { "id": "000039-225", "start": 291469, "end": 294004 },
-    { "id": "000039-226", "start": 294021, "end": 296592 },
-    { "id": "000039-227", "start": 296609, "end": 299028 },
-    { "id": "000039-228", "start": 299045, "end": 301079 },
-    { "id": "000039-229", "start": 301096, "end": 303283 },
-    { "id": "000039-230", "start": 303300, "end": 305616 },
-    { "id": "000039-231", "start": 305633, "end": 307824 },
-    { "id": "000039-232", "start": 307841, "end": 309937 },
-    { "id": "000039-233", "start": 309954, "end": 312161 },
-    { "id": "000039-234", "start": 312178, "end": 314175 },
-    { "id": "000039-235", "start": 314192, "end": 316313 },
-    { "id": "000039-236", "start": 316330, "end": 318483 },
-    { "id": "000039-237", "start": 318500, "end": 320651 },
-    { "id": "000039-238", "start": 320668, "end": 322821 },
-    { "id": "000039-239", "start": 322838, "end": 324891 },
-    { "id": "000039-240", "start": 324908, "end": 326988 },
-    { "id": "000039-241", "start": 327005, "end": 329095 },
-    { "id": "000039-242", "start": 329112, "end": 331323 },
-    { "id": "000039-243", "start": 331340, "end": 333511 },
-    { "id": "000039-244", "start": 333528, "end": 335926 },
-    { "id": "000039-245", "start": 335943, "end": 337100 },
-    { "id": "000039-246", "start": 337117, "end": 338311 },
-    { "id": "000039-247", "start": 338328, "end": 339633 },
-    { "id": "000039-248", "start": 339650, "end": 341035 },
-    { "id": "000039-249", "start": 341052, "end": 342274 },
-    { "id": "000039-250", "start": 342291, "end": 343709 },
-    { "id": "000039-251", "start": 343726, "end": 345088 },
-    { "id": "000039-252", "start": 345105, "end": 346503 },
-    { "id": "000039-253", "start": 346520, "end": 347894 },
-    { "id": "000039-254", "start": 347911, "end": 349201 },
-    { "id": "000039-255", "start": 349218, "end": 350576 },
-    { "id": "000039-256", "start": 350593, "end": 352017 },
-    { "id": "000039-257", "start": 352034, "end": 353376 },
-    { "id": "000039-258", "start": 353393, "end": 354684 },
-    { "id": "000039-259", "start": 354701, "end": 356121 },
-    { "id": "000039-260", "start": 356138, "end": 357422 },
-    { "id": "000039-261", "start": 357439, "end": 358640 },
-    { "id": "000039-262", "start": 358657, "end": 359886 }
+    { "id": "000039-026", "start": 29462, "end": 30720 },
+    { "id": "000039-028", "start": 30737, "end": 32023 },
+    { "id": "000039-029", "start": 32040, "end": 33184 },
+    { "id": "000039-030", "start": 33201, "end": 34393 },
+    { "id": "000039-031", "start": 34410, "end": 35617 },
+    { "id": "000039-032", "start": 35634, "end": 36818 },
+    { "id": "000039-033", "start": 36835, "end": 38143 },
+    { "id": "000039-034", "start": 38160, "end": 39380 },
+    { "id": "000039-039", "start": 39397, "end": 40531 },
+    { "id": "000039-040", "start": 40548, "end": 41700 },
+    { "id": "000039-041", "start": 41717, "end": 42955 },
+    { "id": "000039-042", "start": 42972, "end": 44231 },
+    { "id": "000039-043", "start": 44248, "end": 45524 },
+    { "id": "000039-044", "start": 45541, "end": 46808 },
+    { "id": "000039-045", "start": 46825, "end": 48174 },
+    { "id": "000039-046", "start": 48191, "end": 49512 },
+    { "id": "000039-047", "start": 49529, "end": 50765 },
+    { "id": "000039-048", "start": 50782, "end": 52236 },
+    { "id": "000039-049", "start": 52253, "end": 53469 },
+    { "id": "000039-050", "start": 53486, "end": 54770 },
+    { "id": "000039-051", "start": 54787, "end": 55896 },
+    { "id": "000039-052", "start": 55913, "end": 57140 },
+    { "id": "000039-053", "start": 57157, "end": 58389 },
+    { "id": "000039-054", "start": 58406, "end": 59771 },
+    { "id": "000039-055", "start": 59788, "end": 60991 },
+    { "id": "000039-056", "start": 61008, "end": 62285 },
+    { "id": "000039-057", "start": 62302, "end": 63570 },
+    { "id": "000039-058", "start": 63587, "end": 64970 },
+    { "id": "000039-059", "start": 64987, "end": 66185 },
+    { "id": "000039-060", "start": 66202, "end": 67477 },
+    { "id": "000039-061", "start": 67494, "end": 68788 },
+    { "id": "000039-062", "start": 68805, "end": 70157 },
+    { "id": "000039-063", "start": 70174, "end": 71442 },
+    { "id": "000039-064", "start": 71459, "end": 72762 },
+    { "id": "000039-065", "start": 72779, "end": 73987 },
+    { "id": "000039-066", "start": 74004, "end": 75249 },
+    { "id": "000039-067", "start": 75266, "end": 76486 },
+    { "id": "000039-068", "start": 76503, "end": 77876 },
+    { "id": "000039-069", "start": 77893, "end": 79144 },
+    { "id": "000039-070", "start": 79161, "end": 80500 },
+    { "id": "000039-071", "start": 80517, "end": 81813 },
+    { "id": "000039-072", "start": 81830, "end": 83236 },
+    { "id": "000039-073", "start": 83253, "end": 84687 },
+    { "id": "000039-074", "start": 84704, "end": 86029 },
+    { "id": "000039-078", "start": 86046, "end": 87405 },
+    { "id": "000039-079", "start": 87422, "end": 88637 },
+    { "id": "000039-080", "start": 88654, "end": 89904 },
+    { "id": "000039-087", "start": 89921, "end": 91176 },
+    { "id": "000039-088", "start": 91193, "end": 92528 },
+    { "id": "000039-089", "start": 92545, "end": 93872 },
+    { "id": "000039-090", "start": 93889, "end": 95150 },
+    { "id": "000039-095", "start": 95167, "end": 96542 },
+    { "id": "000039-096", "start": 96559, "end": 97810 },
+    { "id": "000039-097", "start": 97827, "end": 99157 },
+    { "id": "000039-098", "start": 99174, "end": 100518 },
+    { "id": "000039-099", "start": 100535, "end": 101805 },
+    { "id": "000039-100", "start": 101822, "end": 103299 },
+    { "id": "000039-101", "start": 103316, "end": 104342 },
+    { "id": "000039-102", "start": 104359, "end": 105570 },
+    { "id": "000039-103", "start": 105587, "end": 106773 },
+    { "id": "000039-104", "start": 106790, "end": 108030 },
+    { "id": "000039-108", "start": 108047, "end": 109378 },
+    { "id": "000039-109", "start": 109395, "end": 110539 },
+    { "id": "000039-110", "start": 110556, "end": 111845 },
+    { "id": "000039-111", "start": 111862, "end": 112990 },
+    { "id": "000039-112", "start": 113007, "end": 114290 },
+    { "id": "000039-113", "start": 114307, "end": 115528 },
+    { "id": "000039-116", "start": 115545, "end": 116812 },
+    { "id": "000039-117", "start": 116829, "end": 118070 },
+    { "id": "000039-118", "start": 118087, "end": 119549 },
+    { "id": "000039-119", "start": 119566, "end": 120726 },
+    { "id": "000039-124", "start": 120743, "end": 122080 },
+    { "id": "000039-125", "start": 122097, "end": 123304 },
+    { "id": "000039-127", "start": 123321, "end": 124544 },
+    { "id": "000039-128", "start": 124561, "end": 125960 },
+    { "id": "000039-132", "start": 125977, "end": 127237 },
+    { "id": "000039-133", "start": 127254, "end": 128522 },
+    { "id": "000039-134", "start": 128539, "end": 129844 },
+    { "id": "000039-135", "start": 129861, "end": 131098 },
+    { "id": "000039-136", "start": 131115, "end": 132470 },
+    { "id": "000039-140", "start": 132487, "end": 133799 },
+    { "id": "000039-141", "start": 133816, "end": 135015 },
+    { "id": "000039-143", "start": 135032, "end": 136358 },
+    { "id": "000039-144", "start": 136375, "end": 137656 },
+    { "id": "000039-149", "start": 137673, "end": 138888 },
+    { "id": "000039-151", "start": 138905, "end": 140160 },
+    { "id": "000039-152", "start": 140177, "end": 141513 },
+    { "id": "000039-153", "start": 141530, "end": 142806 },
+    { "id": "000039-154", "start": 142823, "end": 144228 },
+    { "id": "000039-158", "start": 144245, "end": 145604 },
+    { "id": "000039-159", "start": 145621, "end": 146859 },
+    { "id": "000039-160", "start": 146876, "end": 148216 },
+    { "id": "000039-161", "start": 148233, "end": 149543 },
+    { "id": "000039-162", "start": 149560, "end": 150951 },
+    { "id": "000039-166", "start": 150968, "end": 152264 },
+    { "id": "000039-167", "start": 152281, "end": 153494 },
+    { "id": "000039-168", "start": 153511, "end": 154950 },
+    { "id": "000039-169", "start": 154967, "end": 156193 },
+    { "id": "000039-170", "start": 156210, "end": 157532 },
+    { "id": "000039-174", "start": 157549, "end": 158943 },
+    { "id": "000039-176", "start": 158960, "end": 160330 },
+    { "id": "000039-177", "start": 160347, "end": 161617 },
+    { "id": "000039-182", "start": 161634, "end": 162939 },
+    { "id": "000039-183", "start": 162956, "end": 164323 },
+    { "id": "000039-184", "start": 164340, "end": 165618 },
+    { "id": "000039-185", "start": 165635, "end": 166872 },
+    { "id": "000039-186", "start": 166889, "end": 168243 },
+    { "id": "000039-191", "start": 168260, "end": 169542 },
+    { "id": "000039-192", "start": 169559, "end": 170959 },
+    { "id": "000039-193", "start": 170976, "end": 172351 },
+    { "id": "000039-194", "start": 172368, "end": 173773 },
+    { "id": "000039-195", "start": 173790, "end": 175172 },
+    { "id": "000039-198", "start": 175189, "end": 176694 },
+    { "id": "000039-199", "start": 176711, "end": 177930 },
+    { "id": "000039-200", "start": 177947, "end": 179354 },
+    { "id": "000039-201", "start": 179371, "end": 180637 },
+    { "id": "000039-202", "start": 180654, "end": 182064 },
+    { "id": "000039-203", "start": 182081, "end": 183340 },
+    { "id": "000039-204", "start": 183357, "end": 184588 },
+    { "id": "000039-205", "start": 184605, "end": 185852 },
+    { "id": "000039-206", "start": 185869, "end": 187206 },
+    { "id": "000039-207", "start": 187223, "end": 188508 },
+    { "id": "000039-208", "start": 188525, "end": 189935 },
+    { "id": "000039-209", "start": 189952, "end": 191504 },
+    { "id": "000039-210", "start": 191521, "end": 192812 },
+    { "id": "000039-211", "start": 192829, "end": 194947 },
+    { "id": "000039-212", "start": 194964, "end": 197214 },
+    { "id": "000039-213", "start": 197231, "end": 199610 },
+    { "id": "000039-214", "start": 199627, "end": 202039 },
+    { "id": "000039-215", "start": 202056, "end": 204227 },
+    { "id": "000039-216", "start": 204244, "end": 206527 },
+    { "id": "000039-217", "start": 206544, "end": 208839 },
+    { "id": "000039-218", "start": 208856, "end": 211245 },
+    { "id": "000039-219", "start": 211262, "end": 213529 },
+    { "id": "000039-220", "start": 213546, "end": 215883 },
+    { "id": "000039-221", "start": 215900, "end": 217950 },
+    { "id": "000039-222", "start": 217967, "end": 220230 },
+    { "id": "000039-223", "start": 220247, "end": 222528 },
+    { "id": "000039-224", "start": 222545, "end": 224738 },
+    { "id": "000039-225", "start": 224755, "end": 227290 },
+    { "id": "000039-226", "start": 227307, "end": 229878 },
+    { "id": "000039-227", "start": 229895, "end": 232314 },
+    { "id": "000039-228", "start": 232331, "end": 234365 },
+    { "id": "000039-229", "start": 234382, "end": 236569 },
+    { "id": "000039-230", "start": 236586, "end": 238902 },
+    { "id": "000039-231", "start": 238919, "end": 241110 },
+    { "id": "000039-232", "start": 241127, "end": 243223 },
+    { "id": "000039-233", "start": 243240, "end": 245447 },
+    { "id": "000039-234", "start": 245464, "end": 247461 },
+    { "id": "000039-235", "start": 247478, "end": 249599 },
+    { "id": "000039-236", "start": 249616, "end": 251769 },
+    { "id": "000039-237", "start": 251786, "end": 253937 },
+    { "id": "000039-238", "start": 253954, "end": 256107 },
+    { "id": "000039-239", "start": 256124, "end": 258177 },
+    { "id": "000039-240", "start": 258194, "end": 260274 },
+    { "id": "000039-241", "start": 260291, "end": 262381 },
+    { "id": "000039-242", "start": 262398, "end": 264609 },
+    { "id": "000039-243", "start": 264626, "end": 266797 },
+    { "id": "000039-244", "start": 266814, "end": 269212 },
+    { "id": "000039-245", "start": 269229, "end": 270386 },
+    { "id": "000039-246", "start": 270403, "end": 271597 },
+    { "id": "000039-247", "start": 271614, "end": 272919 },
+    { "id": "000039-248", "start": 272936, "end": 274321 },
+    { "id": "000039-249", "start": 274338, "end": 275560 },
+    { "id": "000039-250", "start": 275577, "end": 276995 },
+    { "id": "000039-251", "start": 277012, "end": 278374 },
+    { "id": "000039-252", "start": 278391, "end": 279789 },
+    { "id": "000039-253", "start": 279806, "end": 281180 },
+    { "id": "000039-254", "start": 281197, "end": 282487 },
+    { "id": "000039-255", "start": 282504, "end": 283862 },
+    { "id": "000039-256", "start": 283879, "end": 285303 },
+    { "id": "000039-257", "start": 285320, "end": 286662 },
+    { "id": "000039-258", "start": 286679, "end": 287970 },
+    { "id": "000039-259", "start": 287987, "end": 289407 },
+    { "id": "000039-260", "start": 289424, "end": 290708 },
+    { "id": "000039-261", "start": 290725, "end": 291926 },
+    { "id": "000039-262", "start": 291943, "end": 293172 }
   ],
   "labels": [
     {
@@ -701,21 +649,6 @@
       ]
     },
     {
-      "id": "000039-025",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-025",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-025",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
       "id": "000039-026",
       "check": "wordiness-and-redundancy/wordiness",
       "expected": false
@@ -727,21 +660,6 @@
     },
     {
       "id": "000039-026",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-027",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-027",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-027",
       "check": "wordiness-and-redundancy/repeated-explanation",
       "expected": false
     },
@@ -860,82 +778,6 @@
       "snippets": [
         "The door had not latched after the early delivery, allowing warm air to enter. The temperature rose above the alert threshold for eight minutes before the driver returned and closed the door.",
         "With a gap at the door, warmer air entered and raised the room above its warning threshold."
-      ]
-    },
-    {
-      "id": "000039-035",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-035",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-035",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The allowance you save in a quiet month becomes available in a busier one, subject to the provider's expiry rule.",
-        "Rollover works by carrying spare data from a month when you use less into a month when you need more. That can suit an uneven routine better than losing the unused part at each billing date."
-      ]
-    },
-    {
-      "id": "000039-036",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-036",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-036",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "Several attendees will open them on tablets with different fonts installed, and a PDF preserves the page layout across those devices.",
-        "PDF is the right format for the handouts because it holds the layout steady on tablets with different font collections. An editable file could move the answer spaces when a font is substituted."
-      ]
-    },
-    {
-      "id": "000039-037",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-037",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-037",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The treasurer can match transfers to booking numbers without handling envelopes of cash at the pool.",
-        "Bank transfer lets the treasurer connect each payment with its booking number and avoids collecting cash envelopes beside the pool."
-      ]
-    },
-    {
-      "id": "000039-038",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-038",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-038",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "One district might contain expensive streets beside a large estate of cheaper housing, yet its average rent appears as a single color.",
-        "If high-cost streets and lower-cost housing share a district, the map gives them one combined color. A reader therefore cannot treat that district color as a description of each household living there."
       ]
     },
     {
@@ -1612,51 +1454,6 @@
       ]
     },
     {
-      "id": "000039-075",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-075",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-075",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-076",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-076",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-076",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-077",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-077",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-077",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
       "id": "000039-078",
       "check": "wordiness-and-redundancy/wordiness",
       "expected": false
@@ -1700,120 +1497,6 @@
       "id": "000039-080",
       "check": "wordiness-and-redundancy/repeated-explanation",
       "expected": false
-    },
-    {
-      "id": "000039-081",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-081",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-081",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "That player pauses when the browser is no longer active. Downloading the lesson in the course app lets playback continue with the screen locked.",
-        "The website's player needs the browser to remain active and therefore pauses under a locked screen. Using the downloaded lesson in the app avoids that pause and allows listening while the screen is locked."
-      ]
-    },
-    {
-      "id": "000039-082",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-082",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-082",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "If the venue's wireless network drops, staff can still see the table assignments that were saved before the connection failed. Changes made on another device will appear once the tablet reconnects.",
-        "Keeping the last saved plan on the tablet means a wireless outage no longer removes the table assignments from view. Staff can consult that stored version until the tablet reconnects and receives later changes."
-      ]
-    },
-    {
-      "id": "000039-083",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-083",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-083",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "Its removable adhesive is rated for the painted panels we already own, while Kestrel's standard labels are intended for glass. Choosing Morrow should let us remove the captions after the exhibition without lifting the panel paint.",
-        "Morrow's adhesive suits our painted panels and should peel away without taking paint with it. That compatibility makes it the better choice for captions that will be removed when the exhibition closes."
-      ]
-    },
-    {
-      "id": "000039-084",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-084",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-084",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The dosing tube had been fitted to the wrong pump connector during cleaning, so detergent entered during the final rinse instead of the wash.",
-        "The detergent reached the cups during rinsing because its tube was attached to the rinse pump's connector. That incorrect connection caused the residue on the opening tray."
-      ]
-    },
-    {
-      "id": "000039-085",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-085",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-085",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "A model advertised as collecting twelve litres a day may collect much less in a cool spare bedroom. Cooler air holds less moisture, and some compressor models spend part of their time defrosting in low temperatures.",
-        "The daily collection figure comes from particular test conditions and can overstate collection in a cold bedroom. Lower moisture content and defrosting time both reduce the amount that a compressor machine gathers there."
-      ]
-    },
-    {
-      "id": "000039-086",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-086",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-086",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "Accounts checks that folder before releasing a first payment, so a form kept only in someone's inbox can delay an otherwise complete order.",
-        "Accounts looks in the contract folder for a signed form before paying a new supplier. Keeping that form only in an inbox can hold up payment even when the rest of the order is ready."
-      ]
     },
     {
       "id": "000039-087",
@@ -1877,56 +1560,6 @@
     },
     {
       "id": "000039-090",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-091",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-091",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["added extra pocket"]
-    },
-    {
-      "id": "000039-091",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-092",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-092",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["twelve-month maximum limit"]
-    },
-    {
-      "id": "000039-092",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-093",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-093",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": [
-        "Ellis supplied a sample of the hem stitching with its quote. The quote came with a hem-stitching sample."
-      ]
-    },
-    {
-      "id": "000039-093",
       "check": "wordiness-and-redundancy/repeated-explanation",
       "expected": false
     },
@@ -2127,56 +1760,6 @@
       ]
     },
     {
-      "id": "000039-105",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-105",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-105",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-106",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-106",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-106",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The main room shares a wall with the lift motor, and the low hum appears on recordings even when people in the room barely notice it. The side room gave us clean audio during yesterday's test.",
-        "The reason for choosing the side room is the lift noise beside the main room. That hum is picked up by the recorder despite being easy to overlook in person. The side room avoids that problem and produces clearer recordings."
-      ]
-    },
-    {
-      "id": "000039-107",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-107",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["a free event at no cost to participants"]
-    },
-    {
-      "id": "000039-107",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
       "id": "000039-108",
       "check": "wordiness-and-redundancy/wordiness",
       "expected": false
@@ -2285,41 +1868,6 @@
       "expected": false
     },
     {
-      "id": "000039-114",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-114",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-114",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "A failed valve seal let water escape onto the floor.",
-        "The water on the floor came from a seal that had failed in the radiator valve. That failure allowed the heating water to leak into the reading room."
-      ]
-    },
-    {
-      "id": "000039-115",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-115",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["an extra spare thermometer"]
-    },
-    {
-      "id": "000039-115",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
       "id": "000039-116",
       "check": "wordiness-and-redundancy/wordiness",
       "expected": false
@@ -2390,56 +1938,6 @@
     },
     {
       "id": "000039-119",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-121",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-121",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-121",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-122",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-122",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-122",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The new library kiosk software keeps a return receipt available for sixty seconds after a transaction. Readers who move away before taking the slip can return to print it without scanning their card again.",
-        "Readers have a minute to retrieve a receipt after finishing their return. Keeping the print option open during that period lets someone who walked away too soon obtain the slip without another card scan."
-      ]
-    },
-    {
-      "id": "000039-123",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-123",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["a choice between two alternative options"]
-    },
-    {
-      "id": "000039-123",
       "check": "wordiness-and-redundancy/repeated-explanation",
       "expected": false
     },
@@ -2518,58 +2016,6 @@
         "Participants selected a studied picture from four alternatives, so a correct response could reflect familiarity without a detailed memory of the earlier viewing.",
         "Choosing among supplied pictures tests recognition, not a person's ability to retrieve a description without help. Familiarity may be sufficient for a correct answer in this task, even when the participant remembers few details of the original exposure."
       ]
-    },
-    {
-      "id": "000039-129",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-129",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-129",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-130",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-130",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-130",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The editor gave it a fixed position because readers were cutting it out and keeping it beside the door. A predictable place on the page made the small timetable easier to find among advertisements that changed from week to week.",
-        "Keeping the timetable in the same back-page position helped readers locate it quickly. Since nearby advertisements changed every week, the stable placement spared them a search before cutting out the times."
-      ]
-    },
-    {
-      "id": "000039-131",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-131",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": [
-        "I have attached the label to this reply. A copy of the label is attached."
-      ]
-    },
-    {
-      "id": "000039-131",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
     },
     {
       "id": "000039-132",
@@ -2668,56 +2114,6 @@
       ]
     },
     {
-      "id": "000039-137",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-137",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-137",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-138",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-138",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-138",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "A pupil might be planning an answer, reading a diagram or waiting for a turn. Coding only the duration of silence allowed those possibilities to remain open instead of assigning a mental state from the absence of speech.",
-        "A silent interval does not establish that thinking has stopped. Planning, diagram reading and waiting to speak can all occur without audible speech, so the study recorded the silence without choosing among those mental activities. This kept the coding tied to what could be observed."
-      ]
-    },
-    {
-      "id": "000039-139",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-139",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["a spare backup screw"]
-    },
-    {
-      "id": "000039-139",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
       "id": "000039-140",
       "check": "wordiness-and-redundancy/wordiness",
       "expected": false
@@ -2790,56 +2186,6 @@
         "The replacement roll had been fitted with its coated face away from the print head. The printer uses heat-sensitive stock, so it could not produce a mark on the reverse face.",
         "The blank output resulted from the heat-sensitive coating facing the wrong way. With the reverse side against the print head, the thermal process could not form the printed date."
       ]
-    },
-    {
-      "id": "000039-145",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-145",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-145",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-146",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-146",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-146",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "People are still using printed copies of old messages, and those copies do not reflect changes agreed later. A single shared sheet gives the desk team one place to check the current arrangement.",
-        "Keeping the rota in one shared sheet avoids the outdated versions left in email printouts. Since later changes do not appear on those printed lists, staff need a single place where the current arrangement is maintained. The shared spreadsheet provides that common record for the desk team."
-      ]
-    },
-    {
-      "id": "000039-147",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-147",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["previous prior experience"]
-    },
-    {
-      "id": "000039-147",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
     },
     {
       "id": "000039-149",
@@ -2931,58 +2277,6 @@
         "A maintenance update replaced its access table with an empty file, so the reader had no staff permissions against which to check a card.",
         "The reader could not admit staff because the maintenance update had supplied a blank access table, leaving it without permissions to match to their cards."
       ]
-    },
-    {
-      "id": "000039-155",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-155",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-155",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-156",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-156",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-156",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The desktop printer leaves roller marks on the heavy stock, and those marks show through the pale photograph on the front.",
-        "The desktop machine's rollers mark this thick paper, and the light area of the invitation makes those marks visible, which is why the shared press is the right machine for this job."
-      ]
-    },
-    {
-      "id": "000039-157",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-157",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": [
-        "The allotment water supply will be off on Tuesday from nine until noon while the cracked standpipe beside plot 18 is replaced. The repair is scheduled for Tuesday morning, between nine and twelve."
-      ]
-    },
-    {
-      "id": "000039-157",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
     },
     {
       "id": "000039-158",
@@ -3083,58 +2377,6 @@
       ]
     },
     {
-      "id": "000039-163",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-163",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-163",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-164",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-164",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-164",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The sensor read the label as a carton that had not moved, so the controller stopped the belt to prevent a second carton entering the same space.",
-        "The controller halted the conveyor because the trapped label made the sensor report an occupied space; stopping the belt prevented another carton from moving into it."
-      ]
-    },
-    {
-      "id": "000039-165",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-165",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": [
-        "The seller should state the warranty period in months. The period should be expressed as a number of months."
-      ]
-    },
-    {
-      "id": "000039-165",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
       "id": "000039-166",
       "check": "wordiness-and-redundancy/wordiness",
       "expected": false
@@ -3233,58 +2475,6 @@
       ]
     },
     {
-      "id": "000039-171",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-171",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-171",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-172",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-172",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-172",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The new invoice import accepts a delivery date separately from the invoice date. This lets a purchase appear in the month when the goods arrived even if the supplier sent the invoice later.",
-        "Separate delivery and invoice dates mean goods can be assigned to their arrival month even when the supplier bills for them in a later month."
-      ]
-    },
-    {
-      "id": "000039-173",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-173",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": [
-        "Harbour charges separately for that rinse. The rinse has a separate charge."
-      ]
-    },
-    {
-      "id": "000039-173",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
       "id": "000039-174",
       "check": "wordiness-and-redundancy/wordiness",
       "expected": false
@@ -3344,40 +2534,6 @@
       "id": "000039-177",
       "check": "wordiness-and-redundancy/repeated-explanation",
       "expected": false
-    },
-    {
-      "id": "000039-179",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-179",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-179",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-180",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-180",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-180",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The passenger ferry had a refrigerated locker normally used for a small grocery delivery, and that locker had enough space for the insulated lunch boxes. Using it kept the meals cold during the crossing without adding another boat journey.",
-        "The ferry's chilled locker could hold the lunch boxes and maintain their temperature on the crossing, allowing the meals to travel on an existing sailing rather than requiring another boat."
-      ]
     },
     {
       "id": "000039-182",
@@ -3475,78 +2631,6 @@
       ]
     },
     {
-      "id": "000039-187",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-187",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-187",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-188",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-188",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-188",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The company introduced a prepaid complaint card in the same month, making it easier for passengers to report a problem. A change in reporting effort can increase the recorded total even if the underlying number of delays stays constant.",
-        "The new prepaid card lowered the effort of making a complaint, so the rise in recorded complaints could reflect easier reporting rather than a decline in reliability."
-      ]
-    },
-    {
-      "id": "000039-189",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-189",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": [
-        "Let it dry before sanding. Sanding should begin after the wood has dried."
-      ]
-    },
-    {
-      "id": "000039-189",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-190",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-190",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["The box held forty books. It contained forty volumes."]
-    },
-    {
-      "id": "000039-190",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The sports centre offered level access and a sheltered place to queue, so the librarian chose it over the narrower lay-by outside the shops. The van could turn there without reversing across the pedestrian path.",
-        "Level boarding and a covered queue made the sports centre preferable to the cramped lay-by near the shops, while the turning space kept the van from reversing over the walking route."
-      ]
-    },
-    {
       "id": "000039-191",
       "check": "wordiness-and-redundancy/wordiness",
       "expected": true,
@@ -3636,41 +2720,6 @@
     },
     {
       "id": "000039-195",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": false
-    },
-    {
-      "id": "000039-196",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-196",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": false
-    },
-    {
-      "id": "000039-196",
-      "check": "wordiness-and-redundancy/repeated-explanation",
-      "expected": true,
-      "snippets": [
-        "The new starters include colleagues who need step-free access, and the upper room's lift will still be closed for maintenance.",
-        "The ground-floor room provides the step-free route the new starters need while the lift to the upstairs room is under maintenance, making it the appropriate place for induction."
-      ]
-    },
-    {
-      "id": "000039-197",
-      "check": "wordiness-and-redundancy/wordiness",
-      "expected": false
-    },
-    {
-      "id": "000039-197",
-      "check": "wordiness-and-redundancy/redundancy",
-      "expected": true,
-      "snippets": ["There is no admission charge. Entry is free of charge."]
-    },
-    {
-      "id": "000039-197",
       "check": "wordiness-and-redundancy/repeated-explanation",
       "expected": false
     },

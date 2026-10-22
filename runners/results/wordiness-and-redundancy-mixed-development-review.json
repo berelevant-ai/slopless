@@ -3,7 +3,7 @@
   "family": "wordiness-and-redundancy",
   "input": "text",
   "split": "development",
-  "stage": "reviewed full pool before balanced selection",
+  "stage": "frozen balanced selection before mixed inference",
   "definitionCommit": "eb8390ac",
   "fullPool": {
     "texts": 252,
@@ -24,6 +24,7 @@
       "repeated-explanation": { "hits": 123, "noHits": 129 }
     },
     "sourceSha256": "f216c14587543176455fb28730f3ac5ccc07764995796e2f4e522c5459615fca",
+    "archiveCommit": "d7b01a0862ae0bcde3a7fe286954c436440aeff3",
     "surplusTexts": 52
   },
   "review": {
@@ -264,25 +265,25 @@
     "exactMatchEligible": 200
   },
   "active": {
-    "texts": 252,
-    "judgments": 756,
+    "texts": 200,
+    "judgments": 600,
     "combinations": {
       "100": 25,
       "101": 25,
       "110": 25,
       "111": 25,
-      "000": 45,
-      "010": 34,
-      "011": 31,
-      "001": 42
+      "000": 30,
+      "010": 20,
+      "011": 30,
+      "001": 20
     },
     "perCheck": {
-      "wordiness": { "hits": 100, "noHits": 152 },
-      "redundancy": { "hits": 115, "noHits": 137 },
-      "repeated-explanation": { "hits": 123, "noHits": 129 }
+      "wordiness": { "hits": 100, "noHits": 100 },
+      "redundancy": { "hits": 100, "noHits": 100 },
+      "repeated-explanation": { "hits": 100, "noHits": 100 }
     },
-    "writingSha256": "b61e1a06d314b8ae7d483689d9080b42dd512824c080fde605208ec2abe02e6b",
-    "labelsSha256": "945e6c12fe890e9fc8dce61362f150455434f1e3c0c6a7f95968aac10c008275"
+    "writingSha256": "799a8ccc0e0c0a0eae1857dbc527428a7bbf0a457dddaed9dec91a27f65b49bc",
+    "labelsSha256": "aabadef1769f4f42b7be095a9edb72f75cdab6179096534272705b40f9a25859"
   },
   "inference": {
     "providerCalls": 0,
@@ -290,7 +291,66 @@
     "status": "Mixed development awaits frozen-data evaluation"
   },
   "overlap": {
-    "status": "Rerun on canonical selected writing before inference"
+    "status": "passed on eight final canonical selected collections",
+    "proofSha256": "8bc1841b60b0f3aa8582366671ef461a949165b1c0e735543c9f549a67463735",
+    "verifierSha256": "a36b77e269a6534491c4bdc73cb4e268964a0aa1215ec6a200d793d557ef7982",
+    "method": "Lowercase Unicode word tokens; normalized exact match or at least ten shared five-word shingles and Jaccard >= 0.2 or shorter-input containment >= 0.5. Candidate texts require protected manual review.",
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000033-wordiness-and-redundancy-wordiness-development.md",
+        "sha256": "9c7418ee26ba87a61dcac052f51f820d97cc52098a85ad2b1cb770d2b4a24056",
+        "labelsSha256": "d5eb0db7f17539c54fce51a48911d20d2945ebe0dad4cae74b3e74326afa9107",
+        "inputs": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000035-wordiness-and-redundancy-redundancy-development.md",
+        "sha256": "a6e59c4b27219933aab8434eeab1a79cbc0eec37d7bf0a1d1b1bdff2202f7764",
+        "labelsSha256": "530d989dd6e942225dbfb2fe3339c58af970c9d5d042d8337d88af894b6e9009",
+        "inputs": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/texts/000037-wordiness-and-redundancy-repeated-explanation-development.md",
+        "sha256": "53aa40cea728df7564a402fbc8251698f262c6b06c061650e39acb4bde6b664e",
+        "labelsSha256": "f294ea8885282341d876f85b9c0a7279b98c6fd2ebe940912bbf00ea9ce5798c",
+        "inputs": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/texts/000039-wordiness-and-redundancy-mixed-development.md",
+        "sha256": "799a8ccc0e0c0a0eae1857dbc527428a7bbf0a457dddaed9dec91a27f65b49bc",
+        "labelsSha256": "aabadef1769f4f42b7be095a9edb72f75cdab6179096534272705b40f9a25859",
+        "inputs": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000034-wordiness-and-redundancy-wordiness-holdout.md",
+        "sha256": "56a67c3c2774a1cfd5955f94a5c86a9f3e7bce6185b151cc2cf070938dcf7380",
+        "labelsSha256": "1597edfee2225383a3302277c4e36e8d9922725cc1ad212c9efa756baa383f69",
+        "inputs": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000036-wordiness-and-redundancy-redundancy-holdout.md",
+        "sha256": "c856629564c98de57962b0b5dec3d44203a69dafbbe353b2755c8cb877b0a400",
+        "labelsSha256": "4f35c6cada984636d12e8eb496b54b374ba32054386af71d1e5a790b2177a9e4",
+        "inputs": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/texts/000038-wordiness-and-redundancy-repeated-explanation-holdout.md",
+        "sha256": "6aa6eeeafc380726cdf004c3e1848df9812501533fdc4bf0d13c93ce757ae75a",
+        "labelsSha256": "898bb3df945e15158e3be4f74b3e33895cae2bded0f4fd7c58afa4643aadfd18",
+        "inputs": 200
+      },
+      {
+        "path": "datasets/ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.md",
+        "sha256": "1886c7eee68a746ad7e3bfafd1b71b03f001cebcca49d583dc829de36106d65a",
+        "labelsSha256": "c01d2625d533d047857ee51a5aa9882cd9ca8830faa40c0fdc2913d2a0bba44b",
+        "inputs": 200
+      }
+    ],
+    "development": 800,
+    "holdout": 800,
+    "pairs": 640000,
+    "candidates": 0,
+    "integrationCases": 4,
+    "integrationAssertions": 10
   },
   "previousAssessment": {
     "archiveCommit": "384f0d64227fe045268a451391fe663508a8b740",
