@@ -1,5 +1,7 @@
 # Varied Examples: Paired Holdout Comparison
 
+Selected setup: retain the original v11/v12/v13 prompts. Experimental v14/v15 files are archived at Git commit `cc49b9cff3d6d7ae3abdaf62bc4e902c0e00f583`; their saved predictions and prompt snapshots remain alongside this report.
+
 Varied examples score 928/1,000 correct (92.8%) against the fresh original control's 936/1,000 (93.6%). They catch 480/500 positives versus 484/500 and flag 52/500 negatives versus 48/500. Replacing the development examples reduces accuracy by 0.8 percentage points on these existing holdouts.
 
 ## Per-Check Results

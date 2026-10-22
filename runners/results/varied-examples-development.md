@@ -1,5 +1,7 @@
 # Varied Prompt Examples
 
+Selected setup: retain the original v11/v12/v13 prompts. Experimental v14/v15 files are archived at Git commit `cc49b9cff3d6d7ae3abdaf62bc4e902c0e00f583`; their saved predictions and prompt snapshots remain alongside this report.
+
 ## Result
 
 Replacing the 34 exact development demonstrations with reviewed equivalents lowers accuracy from 980/1,000 in a fresh unchanged control to 970/1,000. Caught hits fall from 490/500 to 487/500; false positives rise from 10/500 to 17/500.

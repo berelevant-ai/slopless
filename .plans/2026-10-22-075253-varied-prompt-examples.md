@@ -33,3 +33,9 @@ Measure how replacing the 34 quoted development examples affects the five select
 - Preserve ten native single-run JSON results under `runners/results/varied-examples-<check>-holdout[-control].json`. Return only aggregate results to the prompt-authoring context.
 - Keep every prompt and judgment fixed after this assessment. Report per-check counts and paired improvements/regressions in `varied-examples-holdout.md`; classify this as a comparison on reused holdouts.
 - Have a protected fresh reviewer reconstruct all requests and scores, inspect changed decisions, and check the report. Preserve the existing independent assessments and all development results.
+
+## Selected Setup
+
+- At the user's request, retain the original exact-example prompts: v11 for prestige padding and vague attribution, v12 for staged opposition, and v13 for unnecessary framing and buried answer.
+- Remove experimental v14 and v15 from the current tree. Their complete files remain at Git commit `cc49b9cff3d6d7ae3abdaf62bc4e902c0e00f583`; preserve all saved development and holdout results with their prompt snapshots. Reserve those version numbers for this archived experiment.
+- Present five existing hits and five existing no-hits per check in `runners/results/retained-checks-review-examples.md`. Preserve complete targets and labeled snippets, use development inputs only, and verify the saved original-control classifications.
