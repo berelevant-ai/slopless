@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "84296b689b3fa89520a0d5af414cebf043ea11d7c103059961770f9ea8c21407",
+  "source": {
+    "name": "Codex-authored Mixed Excessive Hedging Vague Attribution Inflated Evaluation Development",
+    "originalPath": "datasets/ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md",
+    "commit": "d3ba42a22b4af254c65cd6038d300762bfe39da9",
+    "model": "Codex",
+    "prompt": null,
+    "notes": "Synthetic writing authored against the frozen excessive-hedging definition and existing vague-attribution/inflated-evaluation definitions. Independent reviews and balanced selection are recorded separately."
+  },
+  "split": "development",
+  "instructions": "Development writing for definition review and prompt tuning.",
+  "samples": [
+    {
+      "id": "000055-97ba5bfe69d5",
+      "start": 101,
+      "end": 586
+    },
+    {
+      "id": "000055-3974bc848ed3",
+      "start": 612,
+      "end": 987
+    },
+    {
+      "id": "000055-32d4d30c6055",
+      "start": 1013,
+      "end": 1399
+    },
+    {
+      "id": "000055-54ce1a78cafc",
+      "start": 1425,
+      "end": 1860
+    },
+    {
+      "id": "000055-dd0c319dc865",
+      "start": 1886,
+      "end": 2258
+    },
+    {
+      "id": "000055-80cc425f81df",
+      "start": 2284,
+      "end": 2719
+    },
+    {
+      "id": "000055-376cd2c5f37f",
+      "start": 2745,
+      "end": 3241
+    },
+    {
+      "id": "000055-19cdb7c7b247",
+      "start": 3267,
+      "end": 3699
+    },
+    {
+      "id": "000055-4cd5887d6901",
+      "start": 3725,
+      "end": 4107
+    },
+    {
+      "id": "000055-517ff66e5721",
+      "start": 4133,
+      "end": 4562
+    },
+    {
+      "id": "000055-1e70ada784bd",
+      "start": 4588,
+      "end": 4999
+    },
+    {
+      "id": "000055-7375d39942c1",
+      "start": 5025,
+      "end": 5481
+    },
+    {
+      "id": "000055-d7868909f197",
+      "start": 5507,
+      "end": 6004
+    },
+    {
+      "id": "000055-71397164d91c",
+      "start": 6030,
+      "end": 6468
+    },
+    {
+      "id": "000055-61d30add944e",
+      "start": 6494,
+      "end": 6934
+    },
+    {
+      "id": "000055-a7f614db7134",
+      "start": 6960,
+      "end": 7375
+    }
+  ],
+  "labels": [
+    {
+      "id": "000055-97ba5bfe69d5",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "If the process stops between those two writes, there is a possibility that replaying the batch could produce a second invoice."
+      ]
+    },
+    {
+      "id": "000055-97ba5bfe69d5",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000055-97ba5bfe69d5",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "the most reliable billing pipeline available"
+      ]
+    },
+    {
+      "id": "000055-3974bc848ed3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000055-3974bc848ed3",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000055-3974bc848ed3",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000055-32d4d30c6055",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The new timer could be responsible for the interruptions.",
+        "That seems like a possibility."
+      ]
+    },
+    {
+      "id": "000055-32d4d30c6055",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "People who work on these systems say a loose sensor wire can cause that pattern."
+      ]
+    },
+    {
+      "id": "000055-32d4d30c6055",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000055-54ce1a78cafc",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000055-54ce1a78cafc",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Operations specialists consider it the most effective way to coordinate a small team."
+      ]
+    },
+    {
+      "id": "000055-54ce1a78cafc",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "the most effective way to coordinate a small team"
+      ]
+    },
+    {
+      "id": "000055-dd0c319dc865",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a chance the shed key may still be in the blue tin"
+      ]
+    },
+    {
+      "id": "000055-dd0c319dc865",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000055-dd0c319dc865",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000055-80cc425f81df",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000055-80cc425f81df",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000055-80cc425f81df",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "the best upload client for remote teams"
+      ]
+    },
+    {
+      "id": "000055-376cd2c5f37f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The second interview could potentially have prompted recall rather than a change of opinion."
+      ]
+    },
+    {
+      "id": "000055-376cd2c5f37f",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Researchers in this field have reported similar changes after follow-up questions."
+      ]
+    },
+    {
+      "id": "000055-376cd2c5f37f",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "this finding establishes reflective interviewing as the best method for assessing student understanding"
+      ]
+    },
+    {
+      "id": "000055-19cdb7c7b247",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000055-19cdb7c7b247",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Accessibility advisers recommend keeping the south entrance available during repairs."
+      ]
+    },
+    {
+      "id": "000055-19cdb7c7b247",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000055-4cd5887d6901",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000055-4cd5887d6901",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000055-4cd5887d6901",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "the best steamer for anyone who travels for work"
+      ]
+    },
+    {
+      "id": "000055-517ff66e5721",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "the annual plan would perhaps possibly suit us better"
+      ]
+    },
+    {
+      "id": "000055-517ff66e5721",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000055-517ff66e5721",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000055-1e70ada784bd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000055-1e70ada784bd",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Security researchers recommend short expiry windows for links that expose unpublished files"
+      ]
+    },
+    {
+      "id": "000055-1e70ada784bd",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000055-7375d39942c1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The hub may possibly be interrupting the connection."
+      ]
+    },
+    {
+      "id": "000055-7375d39942c1",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Hardware specialists recommend testing a direct USB connection when diagnosing this fault."
+      ]
+    },
+    {
+      "id": "000055-7375d39942c1",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "the most dependable connection available for this scanner"
+      ]
+    },
+    {
+      "id": "000055-d7868909f197",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000055-d7868909f197",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000055-d7868909f197",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000055-71397164d91c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The new cache will probably shorten the wait when you reopen an image.",
+        "That reduction is likely, we think."
+      ]
+    },
+    {
+      "id": "000055-71397164d91c",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Benchmark reports indicate that keeping recently viewed thumbnails in memory reduces repeated disk reads."
+      ]
+    },
+    {
+      "id": "000055-71397164d91c",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": false
+    },
+    {
+      "id": "000055-61d30add944e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Perhaps this format is possibly the most effective way to run a client review."
+      ]
+    },
+    {
+      "id": "000055-61d30add944e",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": false
+    },
+    {
+      "id": "000055-61d30add944e",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "the most effective way to run a client review"
+      ]
+    },
+    {
+      "id": "000055-a7f614db7134",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000055-a7f614db7134",
+      "check": "unsupported-authority/vague-attribution",
+      "expected": true,
+      "snippets": [
+        "Experienced buyers describe Northline as \"the clear leader in customer support,\" which is why I recommend it for the new branch."
+      ]
+    },
+    {
+      "id": "000055-a7f614db7134",
+      "check": "puffery-and-overstatement/inflated-evaluation",
+      "expected": true,
+      "snippets": [
+        "the clear leader in customer support"
+      ]
+    }
+  ]
+}

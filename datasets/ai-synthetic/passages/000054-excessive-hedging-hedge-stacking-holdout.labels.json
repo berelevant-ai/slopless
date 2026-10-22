@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "d43036fce88b4da781c92aa3dd41080aef135d7d740caa4747c81d270bb87335",
+  "source": {
+    "name": "Codex-authored Excessive Hedging Hedge Stacking Holdout",
+    "originalPath": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
+    "commit": "d3ba42a22b4af254c65cd6038d300762bfe39da9",
+    "model": "Codex",
+    "prompt": null,
+    "notes": "Synthetic writing authored against the frozen excessive-hedging definition and existing vague-attribution/inflated-evaluation definitions. Independent reviews and balanced selection are recorded separately."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, labels, snippets and case-specific review outside prompt-authoring contexts. Evaluate only after separate user authorization.",
+  "samples": [
+    {
+      "id": "000054-264aee8330e6",
+      "start": 68,
+      "end": 480
+    },
+    {
+      "id": "000054-dfdbe02afaf3",
+      "start": 506,
+      "end": 797
+    },
+    {
+      "id": "000054-9d7cdecc4c3b",
+      "start": 823,
+      "end": 1196
+    },
+    {
+      "id": "000054-b57468ca6b01",
+      "start": 1222,
+      "end": 1570
+    },
+    {
+      "id": "000054-9be517a7e6d8",
+      "start": 1596,
+      "end": 1916
+    },
+    {
+      "id": "000054-d9ebf4894b9d",
+      "start": 1942,
+      "end": 2372
+    },
+    {
+      "id": "000054-b933b16ba72e",
+      "start": 2398,
+      "end": 2712
+    },
+    {
+      "id": "000054-058907a2a987",
+      "start": 2738,
+      "end": 3092
+    },
+    {
+      "id": "000054-d832f83ffd9c",
+      "start": 3118,
+      "end": 3415
+    },
+    {
+      "id": "000054-bf9b71016d73",
+      "start": 3441,
+      "end": 3806
+    },
+    {
+      "id": "000054-f0cd14d23d46",
+      "start": 3832,
+      "end": 4234
+    },
+    {
+      "id": "000054-da4c76b71193",
+      "start": 4260,
+      "end": 4600
+    },
+    {
+      "id": "000054-e8a238fc083d",
+      "start": 4626,
+      "end": 4946
+    },
+    {
+      "id": "000054-721963c18491",
+      "start": 4972,
+      "end": 5341
+    },
+    {
+      "id": "000054-1e90dab0c2a6",
+      "start": 5367,
+      "end": 5674
+    },
+    {
+      "id": "000054-81db838149c0",
+      "start": 5700,
+      "end": 6090
+    },
+    {
+      "id": "000054-b02bb1d87826",
+      "start": 6116,
+      "end": 6445
+    },
+    {
+      "id": "000054-1b8e33dd649b",
+      "start": 6471,
+      "end": 6805
+    },
+    {
+      "id": "000054-c22b29791326",
+      "start": 6831,
+      "end": 7223
+    },
+    {
+      "id": "000054-8a3c48d9712b",
+      "start": 7249,
+      "end": 7619
+    }
+  ],
+  "labels": [
+    {
+      "id": "000054-264aee8330e6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-dfdbe02afaf3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the thermostat may be cutting out too soon."
+      ]
+    },
+    {
+      "id": "000054-9d7cdecc4c3b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A stale lease could potentially account for that mismatch."
+      ]
+    },
+    {
+      "id": "000054-b57468ca6b01",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-9be517a7e6d8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The confirmation email may possibly have been delayed"
+      ]
+    },
+    {
+      "id": "000054-d9ebf4894b9d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-b933b16ba72e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-058907a2a987",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A shared booking desk might reduce those gaps.",
+        "That remains a tentative possibility."
+      ]
+    },
+    {
+      "id": "000054-d832f83ffd9c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-bf9b71016d73",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "it is conceivable that Northline could cost less overall"
+      ]
+    },
+    {
+      "id": "000054-f0cd14d23d46",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "fieldwork could possibly have continued after the grant ended"
+      ]
+    },
+    {
+      "id": "000054-da4c76b71193",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "One possibility is that we might need to use the library annex instead."
+      ]
+    },
+    {
+      "id": "000054-e8a238fc083d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-721963c18491",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-1e90dab0c2a6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The head count could conceivably be short by two"
+      ]
+    },
+    {
+      "id": "000054-81db838149c0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-b02bb1d87826",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that the missing wheel might be in the maintenance shed"
+      ]
+    },
+    {
+      "id": "000054-1b8e33dd649b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-c22b29791326",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-8a3c48d9712b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The change has the potential to perhaps reduce memory use on long files"
+      ]
+    }
+  ]
+}

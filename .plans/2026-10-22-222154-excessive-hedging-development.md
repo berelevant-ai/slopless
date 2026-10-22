@@ -8,6 +8,13 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Work on main, preserve unrelated term-policy changes, and commit and push milestones with worklogs. Use Codex reviewers; preserve the existing instruction to ignore G3TS hooks for this work.
 - Keep the workflow in `AGENTS.md`, definitions in the accepted taxonomy, datasets in root `datasets/`, prompts in root `prompts/v18/`, and native results under `runners/results/`.
 
+## Execution Status
+
+- The four independently authored pilots contain 72 passages and 136 judgments. Blind reviewers agree with all author classifications; both splits retain their independent review records.
+- Review refines fourteen author snippet selections and corrects one prose passage in each split. Both corrected passages are reviewed again before expansion.
+- Root collections `000053` through `000056` currently contain the approved pilots. All pilot cases are required in the final selection; full pools, three full review passes and detector evaluation remain in progress.
+- Four authors are expanding the collections to 240 candidates each. Holdout writing remains protected, and provider inference has not started.
+
 ## Existing Behavior And Check Definition
 
 - `src/rules/words/hedge-stacking.ts` counts eight listed words and reports a sentence at two occurrences. Separate claims, meaningful evidence status and repeated quoted wording can all reach that count.

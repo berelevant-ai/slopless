@@ -1,6 +1,6 @@
 {
   "family": "excessive-hedging",
-  "status": "Definition reviewed; pilot authoring next.",
+  "status": "Development pilot approved; full-pool authoring in progress.",
   "userReview": "pending",
   "definitionReview": {
     "sha256": "942acde0ba06264a5cb6660dd6cfc97f4d3e468372e30d6c1bef229e016ef158",
@@ -1630,5 +1630,186 @@
     "isolated": "000053",
     "mixed": "000055"
   },
-  "holdoutInference": false
+  "holdoutInference": false,
+  "pilotReview": {
+    "reviewer": "01a1658b-4f3f-7992-91dd-c272d896b1e1",
+    "taxonomyCommit": "d3ba42a2",
+    "blind": {
+      "path": "/tmp/hedging-v18-development-pilot-blind-review.json",
+      "sha256": "43d28544992b5a7ff5ba51f39c7e7ced02f28731c3cb80d4fff4ab412f9ea41f",
+      "preserved": true
+    },
+    "authors": [
+      {
+        "collection": "000053",
+        "path": "/tmp/000053-development-pilot-v18.json",
+        "sha256": "a5ac3532f36348b99ee37f2d74b4027f19ce81b169b3e8740ebba8172d54e60d",
+        "preserved": true
+      },
+      {
+        "collection": "000055",
+        "path": "/tmp/000055-development-pilot-v18.json",
+        "sha256": "b2614d29840f711315c96a2fdc7fc3628cd0a4b3da90e85163daadc81167d578",
+        "preserved": true
+      }
+    ],
+    "comparison": {
+      "scope": "Original author versus initial blind decisions; immutable first-review files remain recorded above.",
+      "passages": 36,
+      "judgments": 68,
+      "classification_agreements": 68,
+      "classification_disagreements": 0,
+      "classification_disagreement_cases": [],
+      "positive_judgments": 34,
+      "negative_judgments": 34,
+      "blind_author_exact_positive_snippet_matches": 9,
+      "blind_author_positive_snippet_boundary_differences": 25,
+      "passages_with_snippet_boundary_differences": 21,
+      "semantic_offense_disagreements": 0,
+      "span_finding": "Each differing blind snippet is contained within an author span identifying the same offense. Final snippets favor complete constructions over disconnected qualifier tokens.",
+      "by_check": [
+        {
+          "check": "excessive-hedging/hedge-stacking",
+          "judgments": 36,
+          "hits": 18,
+          "no_hits": 18,
+          "classification_disagreements": 0,
+          "blind_author_snippet_boundary_differences": 18
+        },
+        {
+          "check": "unsupported-authority/vague-attribution",
+          "judgments": 16,
+          "hits": 8,
+          "no_hits": 8,
+          "classification_disagreements": 0,
+          "blind_author_snippet_boundary_differences": 6
+        },
+        {
+          "check": "puffery-and-overstatement/inflated-evaluation",
+          "judgments": 16,
+          "hits": 8,
+          "no_hits": 8,
+          "classification_disagreements": 0,
+          "blind_author_snippet_boundary_differences": 1
+        }
+      ]
+    },
+    "reviewed": [
+      {
+        "collection": "000053",
+        "path": "/tmp/000053-development-pilot-v18-reviewed.json",
+        "sha256": "29aa0d52efe55e5ef7909f6310d10bf9667d4cf0aa1a4ac03335953d037459ff",
+        "passages": 20,
+        "judgments": 20,
+        "hits": 10,
+        "no_hits": 10,
+        "classification_changes_from_author": 0,
+        "snippet_changes_from_author": 2
+      },
+      {
+        "collection": "000055",
+        "path": "/tmp/000055-development-pilot-v18-reviewed.json",
+        "sha256": "345f73b94063bb87c7a627fcc712dcd1283aa5631ea01bd3e036fe1f66fe4fe5",
+        "passages": 16,
+        "judgments": 48,
+        "hits": 24,
+        "no_hits": 24,
+        "classification_changes_from_author": 0,
+        "snippet_changes_from_author": 3
+      }
+    ],
+    "reviewedR2": {
+      "collection": "000055",
+      "path": "/tmp/000055-development-pilot-v18-reviewed-r2.json",
+      "sha256": "1d4ef292e89d2cc513fcf93429051cf4cfe3912ebea8768b9b22a750dc7b8069",
+      "supersedes_for_packing": "/tmp/000055-development-pilot-v18-reviewed.json",
+      "passages": 16,
+      "judgments": 48,
+      "hits": 24,
+      "no_hits": 24,
+      "changed_passage_id": "000055-97ba5bfe69d5",
+      "changes_from_r1": [
+        "Approved first sentence",
+        "Approved process-stop condition",
+        "Literal hedge snippet including the revised condition",
+        "Repair using the revised condition"
+      ],
+      "other_rows_and_fields_preserved": true,
+      "classification_changes": 0,
+      "complete_passage_rereview": [
+        {
+          "check": "excessive-hedging/hedge-stacking",
+          "expected": true,
+          "reason": "The possibility frame and could repeat tentative force on the same replay outcome. The process-stop condition contributes a distinct meaning and remains in the repair."
+        },
+        {
+          "check": "unsupported-authority/vague-attribution",
+          "expected": false,
+          "reason": "Tuesday's fault-injection run identifies a local test, its process-kill intervention and the observed duplicate invoice."
+        },
+        {
+          "check": "puffery-and-overstatement/inflated-evaluation",
+          "expected": true,
+          "reason": "The market-wide reliability superlative exceeds the stated local test and transaction change. The passage supplies no comparison supporting that superiority."
+        }
+      ],
+      "technical_resolution": "Invoice creation precedes sequence persistence; a process stop between those writes leaves the invoice present while replay protection is missing. The stated process-kill test now addresses that failure path."
+    },
+    "packingInputs": {
+      "000053": "/tmp/000053-development-pilot-v18-reviewed.json",
+      "000055": "/tmp/000055-development-pilot-v18-reviewed-r2.json"
+    },
+    "appliedSnippetChanges": [
+      {
+        "id": "000053-be6e23fc689a",
+        "check": "excessive-hedging/hedge-stacking",
+        "operation": "Retain the relay clause; exclude the useful trace-reporting frame. The reviewed file contains the exact replacement span."
+      },
+      {
+        "id": "000053-1dc60b1f07ba",
+        "check": "excessive-hedging/hedge-stacking",
+        "operation": "Retain the complete index clause; exclude the useful population restriction from the highlighted span."
+      },
+      {
+        "id": "000055-376cd2c5f37f",
+        "check": "excessive-hedging/hedge-stacking",
+        "operation": "Include the subject and the stated causal alternative, preserving the full contrast while locating the duplicate qualifiers."
+      },
+      {
+        "id": "000055-517ff66e5721",
+        "check": "excessive-hedging/hedge-stacking",
+        "operation": "Include the annual-plan subject with the tentative comparison; retain the conditional modal."
+      },
+      {
+        "id": "000055-7375d39942c1",
+        "check": "excessive-hedging/hedge-stacking",
+        "operation": "Include the hub subject so the highlight is a complete diagnostic clause."
+      }
+    ],
+    "editorialChanges": [
+      {
+        "id": "000055-97ba5bfe69d5",
+        "status": "resolved: parent accepted the correction; applied and re-reviewed in 000055 r2",
+        "finding": "The setup names a dropped connection; the described test kills the process. The invoice write is implicit although the proposed transaction refers to both writes. The failure path depends on which connection fails and the write order.",
+        "operation": "Make invoice-before-sequence persistence explicit and align the condition with the process-kill test.",
+        "proposed_first_sentence": "The worker writes the invoice, then stores the last accepted sequence number before acknowledging a batch.",
+        "proposed_condition": "If the process stops between those two writes",
+        "label_effect": "Confirmed hedge-stacking=true, vague-attribution=false and inflated-evaluation=true after reviewing the complete revised passage; hit snippets are literal.",
+        "reviewed_file_action": "The author, blind and first-review files remain unchanged. The r2 file contains only the approved text changes and the matching hedge snippet and repair."
+      }
+    ],
+    "unresolvedClassificationDisputes": [],
+    "unresolvedSnippetDisputes": [],
+    "mechanicalValidation": {
+      "all_author_texts_match_blind_inputs": true,
+      "all_68_author_labels_matched_to_blind_judgments": true,
+      "all_hit_snippets_literal": true,
+      "all_no_hit_labels_omit_snippets": true,
+      "reviewed_rows_order_ids_text_and_nonlabel_fields_preserved": true,
+      "reviewed_classifications_match_author_and_blind": true,
+      "cross_sentence_participating_clauses_retained": true,
+      "documented_wording_passage_has_two_actual_paragraphs": true,
+      "blind_and_author_hashes_unchanged": true
+    }
+  }
 }
