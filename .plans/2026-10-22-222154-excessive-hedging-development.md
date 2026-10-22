@@ -30,7 +30,8 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - One fresh confirmation records 96/five isolated and 97/two mixed. The selected 945-word prompt retains six complete demonstrations and unchanged shared instructions.
 - Frozen comparators complete both measurements: attribution 91/two then 91/three; puffery 70/two in both. Mixed confirmation finds all expected issues in 136/175 affected passages and matches all three answers in 155/200.
 - All twelve native outputs validate against their producing prompts and identical labels. They record 156 requests and 2,400 judgments. Independent reviews cover 35 hedging cases, 46 comparator judgments and 200 legacy changes; twelve hedging and ten comparator interpretation disputes retain their frozen labels.
-- The report and existing review records preserve measured results, complete examples and disputed readings. Final report audit and final-commit CI are the remaining execution gates; user review and holdout inference remain separately gated.
+- The report and existing review records preserve measured results, complete examples and disputed readings. Fresh final report audit passes all 27 verification checks; its two wording corrections are applied. All four GitHub workflows pass results commit `638d2c74`. Verify the final audit-record commit after push before closing this execution round.
+- Dataset preparation, bounded tuning, confirmation, error review and reporting are complete. User judgment review, protected holdout inference and later broad corpus validation retain their separately authorized stages.
 
 ## Existing Behavior And Check Definition
 

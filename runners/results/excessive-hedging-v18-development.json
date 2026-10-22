@@ -2480,7 +2480,214 @@
         "logSha256": "6fb990098bdc09289a71f2a502a262fd7c6fb9eac46a370f292f8315b0bb9043"
       }
     ],
-    "freshAudit": "pending",
-    "holdoutInference": false
+    "freshAudit": {
+      "status": "passed_with_two_resolved_wording_findings",
+      "reviewer": "01a165f8-f0df-7383-9522-c63eb040660f",
+      "checks": [
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-b0-isolated.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-b0-mixed.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-r1-isolated.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-r1-mixed.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-r2-isolated.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-r2-mixed.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-confirmation-isolated.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-confirmation-mixed.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-comparator-vague-attribution-baseline.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-comparator-vague-attribution-confirmation.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-comparator-inflated-evaluation-baseline.json",
+          "status": "passed"
+        },
+        {
+          "name": "Native provenance runners/results/hedge-stacking-v18-comparator-inflated-evaluation-confirmation.json",
+          "status": "passed"
+        },
+        {
+          "name": "All native invocations and fixed acceptance/stop rule",
+          "status": "passed"
+        },
+        {
+          "name": "All ten change arrays independently recomputed",
+          "status": "passed"
+        },
+        {
+          "name": "Fully qualified mixed joins and all eight cells",
+          "status": "passed"
+        },
+        {
+          "name": "Current and all seven historical demonstrations excluded independently",
+          "status": "passed"
+        },
+        {
+          "name": "All ten full report examples exactly equal DEV after bold removal",
+          "status": "passed"
+        },
+        {
+          "name": "Legacy saved findings, union, input provenance and both comparisons",
+          "status": "passed"
+        },
+        {
+          "name": "Native timing, usage and budget totals",
+          "status": "passed"
+        },
+        {
+          "name": "Provided analyzer reproduced with only output destination redirected to /tmp",
+          "status": "passed"
+        },
+        {
+          "name": "Integrated review record source hashes, effective adjudication and counts",
+          "status": "passed"
+        },
+        {
+          "name": "Hedging error review covers all 35 change/error IDs and exact complete DEV inputs",
+          "status": "passed"
+        },
+        {
+          "name": "Comparator review covers all 46 passage/check errors or changed judgments",
+          "status": "passed"
+        },
+        {
+          "name": "Legacy review covers all 200 changed IDs with exact DEV passage hashes",
+          "status": "passed"
+        },
+        {
+          "name": "Complete available final command logs",
+          "status": "passed"
+        },
+        {
+          "name": "Research scope preserves production version, runner and named legacy implementations",
+          "status": "passed"
+        },
+        {
+          "name": "Current selected and frozen comparator prompts match producing commits",
+          "status": "passed"
+        }
+      ],
+      "initialFindings": [
+        {
+          "id": "D1",
+          "severity": "claim wording",
+          "source": "runners/results/excessive-hedging-v18-development.md:79",
+          "checked": "Remaining Errors wording against effective case adjudications",
+          "observed": "The opening bullet calls all four isolated misses duplicated possibility. The service comparison (000053-b60e19f4b9fb) and contact restoration (000053-e1425f43376c) are substantive scope disputes in the final hedging review.",
+          "cause": "The earlier error synopsis retained a categorical semantic claim after the review added competing readings.",
+          "operationToPreventFailure": "Introduce the list as errors against frozen labels and replace \"retain duplicated possibility\" with \"are labeled as repeated qualification\". Preserve all counts and the later nine-upheld/five-disputed breakdown."
+        },
+        {
+          "id": "D2",
+          "severity": "claim chronology",
+          "source": "runners/results/excessive-hedging-v18-development.md:149",
+          "checked": "Validation chronology against the supplied final logs and native recordedAt timestamps",
+          "observed": "The report says validation passed before evaluation. The supplied final validation log has a later file timestamp than all inference batches; its contents establish completed checks but carry no pre-inference completion timestamp.",
+          "cause": "A completed final-check result is used to support an earlier timing claim.",
+          "operationToPreventFailure": "Replace \"pass before evaluation\" with \"pass in the final offline checks\", or cite the separate completed pre-inference command evidence."
+        }
+      ],
+      "resolution": {
+        "checkedAt": "2026-10-22T23:47:52Z",
+        "scope": "Narrow D1/D2 report-wording recheck only; the original 27 verification checks were not rerun.",
+        "priorAuditSha256": "e9dd283408b6faff91d8635ba7a9568d67d1f8be78b36ccc83c64a4074091606",
+        "explicitReads": [
+          {
+            "path": "runners/results/excessive-hedging-v18-development.md",
+            "sha256": "09258f5930c2ba3718cf8321c1ea3da94669829ae8e5a14553022e9e5ee30c42",
+            "scope": "Remaining Errors, Review Disagreements and Execution And Verification sections."
+          },
+          {
+            "path": "/tmp/hedging-v18-final-report-audit.json",
+            "sha256": "e9dd283408b6faff91d8635ba7a9568d67d1f8be78b36ccc83c64a4074091606",
+            "scope": "Existing audit findings and original top-level field hashes before appending this resolution."
+          }
+        ],
+        "resolutions": [
+          {
+            "defectId": "D1",
+            "status": "resolved",
+            "evidence": [
+              "The following errors are measured against frozen labels. The review below distinguishes upheld model mistakes from disputed interpretations.",
+              "Four isolated confirmation misses are labeled as repeated qualification",
+              "Of fourteen confirmation errors, nine are upheld model mistakes and five have competing readings. All fourteen remain in the reported errors."
+            ],
+            "result": "The error synopsis now states its frozen-label basis and preserves the upheld-versus-disputed distinction."
+          },
+          {
+            "defectId": "D2",
+            "status": "resolved",
+            "evidence": [
+              "full build, lint, spelling, formatting and type validation pass in the final offline checks."
+            ],
+            "result": "The validation sentence now states the timing supported by the final command logs."
+          }
+        ],
+        "initialDefectsPreserved": true,
+        "originalVerificationChecksPreserved": 27,
+        "resolvedDefectCount": 2,
+        "outstandingDefectCount": 0,
+        "currentStatus": "Both initial wording findings are resolved; user review and the separately gated holdout assessment remain pending.",
+        "holdoutWritingRead": false,
+        "holdoutIndividualLabelsRead": false,
+        "holdoutSnippetsRead": false,
+        "providerCalls": 0,
+        "delegationCalls": 0,
+        "gitMutations": 0,
+        "repositoryWrites": 0
+      },
+      "outstandingDefects": 0,
+      "sourceSha256": "6ffb8e20c08b65cde52abe5df11e8c4983e2dcb8e746bb298ba08963edbade3d",
+      "scope": {
+        "holdoutWritingRead": false,
+        "holdoutIndividualLabelsRead": false,
+        "holdoutSnippetsRead": false,
+        "protectedDatasetsOpened": [],
+        "splitReviewAccess": "Aggregate fields only; no linked protected inputs opened.",
+        "providerCalls": 0,
+        "delegationCalls": 0,
+        "gitMutations": 0,
+        "repositoryWrites": 0,
+        "secondaryReviewer": "Excluded by the explicit no-delegation instruction."
+      }
+    },
+    "holdoutInference": false,
+    "resultsCommitCI": {
+      "commit": "638d2c743b9c7e6da9a3655136f04333f5d0c686",
+      "status": "passed",
+      "runs": [
+        39873807299,
+        39873808066,
+        39873807660,
+        39873807315
+      ],
+      "finalCommitRequiresSeparateVerification": true
+    }
   }
 }

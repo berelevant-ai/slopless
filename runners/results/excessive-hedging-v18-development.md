@@ -76,7 +76,9 @@ Run only legacy `hedge-stacking` and `softening-language` on the identical 400 d
 
 ## Remaining Errors
 
-- Four isolated confirmation misses retain duplicated possibility: a research effect qualified by "might conceivably", a service comparison framed as "within the bounds of possibility ... could", a possible payment-failure cause, and possible restoration of a contact number.
+The following errors are measured against frozen labels. The review below distinguishes upheld model mistakes from disputed interpretations.
+
+- Four isolated confirmation misses are labeled as repeated qualification: a research effect qualified by "might conceivably", a service comparison framed as "within the bounds of possibility ... could", a possible payment-failure cause, and possible restoration of a contact number.
 - Three mixed misses concern a repair that "might be needed", a schedule that "may be the older draft", and recorder awareness that "may affect" responses, each already qualified by possibility wording.
 - Five isolated false positives affect a quoted breakfast clause, permission versus attendance requirements, a possible bicycle symptom versus its cause, courier-bag membership versus arrival, and a negotiable meeting request.
 - Two mixed false positives affect purposeful narrative hope and uncertainty about a technician's practical capability. Other defects in those passages remain independently eligible.
@@ -146,5 +148,6 @@ Your repair appointment is now linked to the original fault report. There is a p
 - Twelve complete invocations make 156 requests and 2,400 judgments: 1,600 for hedging and 800 for frozen comparators. The fixed maximum was 2,800; first-pass stopping leaves revision three unused.
 - Responses report 633,104 input tokens and 92,416 output tokens. Recorded request durations sum to 32.58 seconds; each 200-target invocation totals 2.48 to 2.97 seconds of request time. Process startup and review are separate.
 - Offline validation reconstructs historical prompts from each producing commit and verifies all snapshots, request hashes, complete target assignments, inference seals and recomputed native scores.
-- Dataset validation covers 15,701 pairs and 30,253 labels. All 46 dataset contracts, six paragraph-runner tests and the Fixture3 dataset comparison pass; full build, lint, spelling, formatting and type validation pass before evaluation.
-- Final report review and final-commit CI are recorded when complete. User review and the separately gated holdout assessment remain the next quality decisions.
+- Dataset validation covers 15,701 pairs and 30,253 labels. All 46 dataset contracts, six paragraph-runner tests and the Fixture3 dataset comparison pass; full build, lint, spelling, formatting and type validation pass in the final offline checks.
+- A fresh independent final report audit passes all 27 verification checks. Its two wording corrections distinguish label-relative errors from disputed judgments and state the supported validation timing; both are applied. All four workflows pass for results commit `638d2c74`; the final audit-record commit receives its own CI verification after push.
+- User review and the separately gated holdout assessment remain the next quality decisions.
