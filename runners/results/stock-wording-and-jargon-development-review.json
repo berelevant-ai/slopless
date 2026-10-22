@@ -1,6 +1,6 @@
 {
   "family": "stock-wording-and-jargon",
-  "status": "pilot-reviewed-full-data-in-progress",
+  "status": "all-reviewed-balanced-inputs-frozen; baseline-prompts-preflight-passed",
   "definitionCommit": "2c6bae1facdaf996478b75d3bf5191f48f1a0029",
   "definitionReviewer": "01a16478-a2f0-7260-beef-c495de11e8d1",
   "sourceAudit": {
@@ -4902,7 +4902,7 @@
     }
   },
   "inference": {
-    "status": "not-started"
+    "status": "ready-not-started"
   },
   "promptPreflight": {
     "reviewer": "Gauss",
@@ -4952,5 +4952,20 @@
       "stock-vocabulary": 750
     },
     "sharedSha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761"
+  },
+  "archiveCommits": {
+    "isolatedA": "68c375f8",
+    "isolatedB": "9f94e36f",
+    "mixed": "24241a48"
+  },
+  "finalAudit": {
+    "status": "passed",
+    "record": "runners/results/stock-wording-and-jargon-holdout-review.json",
+    "sha256": "cc3fa24830dca1d1548c91e744da94984ec40d4273309ed2d1e0acefb67aa607",
+    "retainedMandatory": 707,
+    "passages": 2400,
+    "judgments": 4000,
+    "overlapCandidates": 0,
+    "conservativeUnseenClicheConstructions": 52
   }
 }

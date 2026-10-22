@@ -144,10 +144,6 @@ The rescue boat was called Second Wind, a name painted in blue beneath the cabin
 
 The deadline for the staff survey is tomorrow afternoon. Your voice matters, so please make sure it is heard. The link accepts one response per employee, and you can revise your answers until the survey closes. Department totals will be circulated at next week's meeting.
 
-## 000042-p037
-
-A dry run checks the import without writing records. The report lists invalid rows and estimates how many records would be created or updated. Correct the errors in your spreadsheet, then repeat the dry run before selecting Import to apply the changes to the database.
-
 ## 000042-p038
 
 Our returns team offers a helping hand when you need it most. To exchange the shoes, place the unworn pair in their original box and attach the prepaid label. The replacement size will be reserved for seven days after you register the return through your account.
@@ -159,10 +155,6 @@ The policy was a double-edged sword for small employers. It reduced their insura
 ## 000042-p040
 
 Be authentically you. I kept that thought in mind while recording the introduction for our new staff handbook. I explained where to find the holiday form and who approves expenses, then asked two colleagues to check that I had used the current department names. The recording will accompany the written version sent to new starters.
-
-## 000042-p041
-
-The photograph shows the spring has come out of its seat beside the hinge. Push it back into the circular recess before closing the battery lid. If it will not stay in place, send us a second photograph taken from directly above the open compartment.
 
 ## 000042-p042
 
@@ -328,10 +320,6 @@ The Saturday repair cafe offers a warm welcome and a little something to feed th
 
 Electricians had replaced the strip lights, and the shop's owners had moved the payment counter beside the entrance. The floor space remained unchanged, with the same stockroom behind the rear wall and deliveries still arriving through the side door. The shop was ready to open a new chapter after the refit.
 
-## 000042-p083
-
-The example folder contains a file named 'Light at the End of the Tunnel'. Use it to test titles with more than six words, since the display should wrap them onto a second line. The example's contents are ordinary placeholder text and can be replaced.
-
 ## 000042-p084
 
 The bedside light is a white elephant in this room. It was an expensive wedding gift, but its base occupies nearly the whole table and it gives too little light to read by. We have kept it in the cupboard and bought a smaller lamp for everyday use.
@@ -388,10 +376,6 @@ The annual staff lunch is on the seventeenth, and we hope you can join us. It is
 
 My lentil and carrot soup came with two slices of brown bread and was enough for lunch without ordering anything else. The cafe takes card payments but asks customers to order at the counter before choosing a table. That soup was a warm hug in a bowl.
 
-## 000042-p098
-
-The weather station records a cloud's silver lining when sunlight reaches the thin droplets at its edge. To photograph it, reduce exposure until the bright rim retains detail. Mount the camera before the observation period and avoid pointing it directly at the sun.
-
 ## 000042-p099
 
 Please send your revised desk requirements to Amir by Wednesday so he can finish the seating plan. Teamwork makes the dream work, and I appreciate everyone's help with the move. The office will remain open on Friday, although the meeting rooms will be used for packing.
@@ -415,10 +399,6 @@ The rehearsal exposed a chicken-and-egg problem in registration. A speaker needs
 ## 000042-p104
 
 Keep the test installation at arm's length from production by giving it separate credentials and a separate database. Copy only anonymised records into it. This separation lets you delete and rebuild the test installation without affecting live bookings or exposing customer details to temporary users.
-
-## 000042-p105
-
-The phrase 'smooth sailing' in the error report is the name of your saved route, rather than a description supplied by the navigation app. We can reproduce the fault when opening that route. Please keep it saved while our support engineer checks the attached location data.
 
 ## 000042-p106
 
@@ -511,10 +491,6 @@ Our training venue cancelled yesterday, and the college offered us a classroom a
 ## 000042-p128
 
 We are robbing Peter to pay Paul with the current rota: covering reception leaves the dispatch desk unstaffed, and covering dispatch leaves reception empty. Please include a third person in the lunchtime schedule rather than moving the same two people between desks.
-
-## 000042-p129
-
-If the two cameras lose touch, the receiving camera displays the time of the last image rather than the current time. Check that timestamp before assuming the scene is live. Restore the cable connection, then wait for a new timestamp before resuming the inspection.
 
 ## 000042-p130
 
@@ -660,10 +636,6 @@ The editor now distinguishes an em dash from two consecutive hyphens when counti
 
 We have decided to enter the regional stationery tender. Fortune favours the brave, and I am looking forward to preparing the submission together. Please send your branch's monthly order quantities to Lena by Thursday so she can calculate delivery costs for the proposed contract.
 
-## 000042-p166
-
-In this application, a dead letter is a message that has exhausted its permitted delivery attempts. The dead-letter queue retains the original message body and the final error. Inspect both before retrying, since repeated delivery of an invalid address will fail in the same way.
-
 ## 000042-p167
 
 The phrase 'a name you can trust' appears in both brochures, so I have excluded it from the scored comparison. The evidence column instead records warranty length, repair turnaround and customer references we contacted. Each supplier received the same questions and had five working days to respond.
@@ -679,10 +651,6 @@ The herb sauce and grilled fish were a symphony of flavours. We shared a side of
 ## 000042-p170
 
 I chaired our monthly staff meeting today. We finished with an agreed schedule for the stockroom changes and an owner for each task. The notes are already with the team, and I will chair again next month. My thought for the day: step outside your comfort zone.
-
-## 000042-p171
-
-The button labelled 'Another One Bites the Dust' clears a single completed cleaning task. Its wording is a deliberate joke in the demonstration theme; the standard theme labels the same button 'Complete'. Both versions save the completion time and remove the task from the current list.
 
 ## 000042-p172
 
@@ -788,10 +756,6 @@ Hart will be with us every step of the way. It provides the same shelf sizes as 
 
 The allotment talk is titled 'Turning Over a New Leaf' because it covers both composting fallen leaves and starting a new plot. The speaker will bring examples of partly decomposed material. Please book at the desk if you want to attend, as the room holds twenty people.
 
-## 000042-p198
-
-Rome wasn't built in a day, so take your time with the keyboard layout editor. Select a key and choose an action from the list. The Save button writes your changes to the selected profile, while Reset restores the layout that shipped with the device.
-
 ## 000042-p199
 
 The bridge had been repaired, and delivery vans could use the main road to the riverside cafe again instead of the longer route through the industrial estate. The owner changed the collection instructions on the website and removed the temporary sign from the lane behind the building. Now brighter days were ahead.
@@ -800,29 +764,17 @@ The bridge had been repaired, and delivery vans could use the main road to the r
 
 The insurer's offer broke the deadlock. The owner had refused to begin repairs without payment, and the insurer had refused payment until work began. An advance for materials allowed the owner to place the order, after which the contractor agreed on a start date and the remaining claim could proceed.
 
-## 000042-p205
-
-The dashboard puts convenience at your fingertips. To print a delivery label, open the order and select Print Label from the actions menu. Check the destination address before sending the label to your printer. A copy remains attached to the order, where colleagues with dispatch access can print it again.
-
-## 000042-p208
-
-Use a belt and braces approach to protecting the archive: keep one copy on the external drive and another in remote storage. Either copy can restore the complete archive if the other fails. Test both copies after changing the backup schedule, using the restore command described in the next section.
-
-## 000042-p211
-
-Adjust the controller so the two paddle switches rest at your fingertips while your palms remain on the grips. You should be able to press either switch without lifting a hand. Tighten the mounting screws after finding a comfortable position, then run the switch test from the calibration menu.
-
-## 000042-p210
-
-We'll move heaven and earth to put this right. I've arranged for the missing cupboard handle to be sent to the address on your order, and you should receive tracking details this evening. The fixing screws are included in the envelope. Please reply to this message if the address has changed since you ordered.
-
 ## 000042-p201
 
 Treat this setup checklist as your 'passport to success' with the scheduling tool. Begin by selecting the days your shop opens, then enter the start and end of each shift. Save the schedule before adding staff names. The preview shows how the finished week will appear on the noticeboard printout.
 
-## 000042-p203
+## 000042-p204
 
-The custom report tab opens 'a world of possibilities' for your stock records. Choose the columns you want, drag them into order, and select a date range. Click Preview before saving the report. Saved reports appear beneath the tab and can be reopened by anyone with permission to view stock.
+The installer records every step of the way from unpacking the files to opening the application. Please send the complete installation log rather than the final error line, so I can find where it first stopped. The log is in the folder beside the installer. Your documents stay in their existing location.
+
+## 000042-p205
+
+The dashboard puts convenience at your fingertips. To print a delivery label, open the order and select Print Label from the actions menu. Check the destination address before sending the label to your printer. A copy remains attached to the order, where colleagues with dispatch access can print it again.
 
 ## 000042-p206
 
@@ -832,19 +784,19 @@ The phrase move heaven and earth is being matched as four separate search words 
 
 Enter 'a world of possibilities' in the search box to test phrase matching. Keep the quotation marks in the query so the index looks for adjacent words in that order. The sample collection contains one matching brochure. Removing the quotation marks also returns documents containing the words in separate sentences.
 
+## 000042-p208
+
+Use a belt and braces approach to protecting the archive: keep one copy on the external drive and another in remote storage. Either copy can restore the complete archive if the other fails. Test both copies after changing the backup schedule, using the restore command described in the next section.
+
 ## 000042-p209
 
 This guide takes a belt and braces approach to getting you started. Enter your organisation's name in the first box, choose the currency used on your invoices, and save the form. You can change either value later from Account Settings. The next page explains how to invite the colleague who handles your invoices.
 
-## 000042-p202
+## 000042-p211
 
-We're here for you every step of the way. We have replaced the faulty reading lamp under its warranty, and the courier will collect the old one when delivering the replacement. Please remove the bulb before packing the lamp in the box we supplied. I will send the collection time as soon as the courier confirms it.
+Adjust the controller so the two paddle switches rest at your fingertips while your palms remain on the grips. You should be able to press either switch without lifting a hand. Tighten the mounting screws after finding a comfortable position, then run the switch test from the calibration menu.
 
 ## 000042-p212
 
 The style checker underlines 'passport to success' as a stock promotional expression. Click the underline to open the explanation, or press Escape to keep editing. The checker leaves the original wording in place until you accept a revision. This example uses the default rule set supplied with the extension.
-
-## 000042-p204
-
-The installer records every step of the way from unpacking the files to opening the application. Please send the complete installation log rather than the final error line, so I can find where it first stopped. The log is in the folder beside the installer. Your documents stay in their existing location.
 

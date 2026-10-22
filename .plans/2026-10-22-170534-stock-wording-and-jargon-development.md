@@ -11,12 +11,14 @@ Develop and evaluate the next V2 family, `stock-wording-and-jargon`, using reali
 
 - Definition review: the taxonomy now records all five definitions, expression ownership, informative-use controls, and counted vocabulary boundary examples.
 - Coverage audit: all eighteen legacy identifiers have source assignments; the taxonomy records 1,132 literal entries, 137 vocabulary forms, and 36 templates with 48,878 expansions before deduplication.
-- Data preparation: all five development pilots have blind review, covering 100 passages. Correct two classifications, repair unrealistic writing, and complete isolated and mixed development and protected holdout sets with independent reviews.
-- Author checkpoint: all twelve collections are authored, totaling 2,400 passages and 4,000 labels. All isolated author sets start at 100 hits and 100 no-hits; both mixed author sets cover the specified 32 combinations.
-- Adjudication: full isolated development blind review is complete. Apply eleven adversarial A label corrections, retain the resulting no-hit guards, and review replacement candidates before restoring the final 100/100 balance.
+- Data preparation: all twelve collections have reviewed balanced selections, totaling 2,400 passages and 4,000 labels. Each named check has 100 hits and 100 no-hits in isolated and mixed data for both splits.
+- Preservation: archive all 302 reviewed surplus passages before selection. Complete reviewed pools remain at `68c375f8`, `9f94e36f`, and `24241a48`; active metadata links its corresponding archive.
+- Adjudication: blind, adversarial and fresh final reviews cover original, added and repaired inputs. Preserve the corrected no-hit controls, all 100 development pilot IDs, and the mixed sets' mandatory controls.
 - Definition clarification: tortured phrasing includes corruption of a fixed name or saying even when the intended concept remains recognizable. Reassess affected judgments under that same general distinction before freezing data.
-- Development evaluation: pending frozen data and prompts; retain the separate user-authorization gate for holdout inference.
+- Development evaluation: all data and baseline prompts are frozen and verified; inference is ready to start. Retain the separate user-authorization gate for holdout inference.
 - Mixed development quota correction: final review identifies twelve mandatory all-no-hit controls, exceeding the original seven-case cell. Preserve these controls and the 200-passage, 100/100-per-check balance; set complementary combination quotas from the reviewed mandatory counts before inference, and record the exact allocation with the selection.
+- Prompt preflight: all five `v17` prompts pass independent definition and example checks. They contain 23 exact development demonstrations, with 501-750 assembled words per check.
+- Mechanical validation: all 15,697 dataset pairs validate, and all 46 Fixture3 dataset contracts match. Protected final audit confirms all 707 mandatory cases, zero new ID collisions and zero overlap candidates across 721,563,600 comparisons. Conservative cliche review confirms at least 52 unseen central constructions.
 
 ## Inspected Coverage
 

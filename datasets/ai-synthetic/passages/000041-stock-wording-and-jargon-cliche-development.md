@@ -96,10 +96,6 @@ With the custom fields panel, the sky is the limit. Administrators can add a tex
 
 The manual address field is an escape hatch for properties the postcode search cannot find. Select Enter address manually beneath the search results, then complete each required line. This bypasses the lookup service but still checks that the country and postal code have been supplied.
 
-## 000041-025
-
-You can change the delivery address until the parcel leaves our warehouse at four. Open your order confirmation and select Edit delivery. We know how much your purchase matters, and you're in good hands with us. I have attached a copy of the current address for you to check.
-
 ## 000041-026
 
 The starter workbook is your passport to success. Download a copy before beginning the exercise and enter your name in the first sheet. The remaining sheets contain the sample orders. Keep their column headings unchanged so that the formulas in the final sheet can find the right values.
@@ -160,10 +156,6 @@ The hire company has accepted that the dent was recorded before you collected th
 
 The report editor opens up a world of possibilities. Choose a saved report from the sidebar and select Duplicate to create a separate version. You can change the column order by dragging the column names. The original report remains available to anyone who already has access.
 
-## 000041-041
-
-The repairs team has agreed to collect both chairs on Tuesday, including the one missing from its first message. We are now on the same page about the collection. Please leave both chairs assembled, since the driver needs to check the joints before loading them.
-
 ## 000041-042
 
 The image encoder is the bottleneck when this script runs on the office laptops. Adding more download workers leaves them waiting for the same encoder. Set the download pool to two workers on those machines and let completed images leave the queue before requesting another batch.
@@ -171,10 +163,6 @@ The image encoder is the bottleneck when this script runs on the office laptops.
 ## 000041-043
 
 Once the application opens, you're ready to take on the world. The first screen lists projects saved on this computer. Select New project to create an empty folder, then choose where its images should be stored. The location can be changed later from the project menu.
-
-## 000041-044
-
-Several households on your street are in the same boat: the new meters were fitted, but their account numbers have yet to reach our billing system. We have asked the installer to resend the batch. Your current direct debit amount will remain unchanged while we match the records.
 
 ## 000041-045
 
@@ -219,10 +207,6 @@ The automatic backup is a safety net for unsaved changes, not a second published
 ## 000041-055
 
 Without the request number, finding one failed payment in the daily log is a needle in a haystack. Copy the number from the error screen and paste it into the log search. The results include the initial attempt and any retries made for that payment.
-
-## 000041-056
-
-The bank rejected the replacement account details as well as the original ones. We are back to square one with the payout, so please submit a new bank statement through the secure upload page. Your ticket will stay with me while the payments team checks the next submission.
 
 ## 000041-057
 

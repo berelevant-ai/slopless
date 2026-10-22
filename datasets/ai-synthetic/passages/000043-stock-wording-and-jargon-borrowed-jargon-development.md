@@ -224,10 +224,6 @@ Before recording your introduction, use the prompt sheet to optimize for your au
 
 The seminar's opening activity is designed to recalibrate students' sense of possibility. They write down an occupation they once considered, explain its appeal to a partner, and listen to their partner's account. The tutor then invites volunteers to share something they enjoyed hearing before introducing the week's material on career choices.
 
-## 000043-057
-
-The dashboard now shows the recruitment pipeline by stage, from application to accepted offer. A candidate moves when the assigned recruiter records the relevant decision, rather than when an interview date passes. This keeps postponed interviews in the interview stage and prevents the hiring forecast from counting them as completed assessments.
-
 ## 000043-058
 
 Our new welcome evenings will help operationalize the village's culture of care. Each household is invited to bring a cake and introduce themselves to someone who has arrived this year. The first evening is in the school hall next Tuesday, and volunteers will serve tea from seven until half past eight.
@@ -248,17 +244,9 @@ The Getting Started call is a chance to begin iterating on your future self with
 
 By autumn, the company was reengineering its culture through a Friday tea break. Staff gathered beside the loading bay after the final collection and shared whatever biscuits someone had brought. The owner joined them when he was on site and asked about their plans for the weekend before helping to put the mugs away.
 
-## 000043-063
-
-Export now compiles the selected chapters into one PDF, preserving chapter order and adding a contents page. Choose whether appendices belong in that file before starting the export. The original chapter documents stay editable in your project, so revisions can be included the next time you generate the combined file.
-
 ## 000043-064
 
 The market organizer optimized the stall plan for the number of traders while keeping the fire lane clear. She used narrower tables for the book stalls and reserved the corner pitches for vans. The resulting plan fitted four more traders than the first draft without reducing the required access width.
-
-## 000043-065
-
-Escalation rules can now name a backup approver. If an invoice remains unreviewed for two working days, the system notifies that person and gives them approval access. The original approver retains access too, while the activity log records who made the decision so finance can follow up with the correct colleague.
 
 ## 000043-066
 
@@ -271,10 +259,6 @@ The new Welcome Wall helps you engineer belonging from the first day. New member
 ## 000043-068
 
 The Kitchen Stories page helps you recalibrate your culinary mindset. Write about a meal you enjoyed as a child and choose a person you would like to cook it with now. You can add a photograph of the finished dish later, or send your entry to someone who remembers sharing that meal with you.
-
-## 000043-069
-
-Triage is used here for sorting grant applications by the action they require. Incomplete forms go back to applicants, ineligible proposals receive a decision, and eligible complete proposals proceed to assessment. The exercise asks students to apply the published criteria consistently before they read the proposals' arguments about their scientific value.
 
 ## 000043-070
 
@@ -296,10 +280,6 @@ The field diary works as a personal operating system for curiosity. Students rec
 
 The simulation includes a bottleneck at inspection: every finished unit must pass through one inspector, whose hourly limit is below the assembly line's output. Students calculate how inventory accumulates before inspection. They then compare adding an inspector with increasing assembly speed, using completed inspections rather than assembled units as the output measure.
 
-## 000043-075
-
-Use the Morning Pause recording for a neural reset before opening your inbox. The guide asks you to put your phone down, look out of the window, and notice something you would like to do later. The recording lasts three minutes, and you can save it to the favorites row for tomorrow.
-
 ## 000043-076
 
 The gardening group is introducing a gratitude workflow to improve our emotional return on volunteering. After Saturday's planting, we will sit in the shed with tea and thank someone whose help we appreciated. New members can join the conversation or simply listen, and everyone is welcome to stay until the gates close.
@@ -315,10 +295,6 @@ Join us for a creativity reboot at the library on Wednesday evening. We will bri
 ## 000043-079
 
 The budgeting app let me ring-fence the rent money before dividing the remainder between weekly spending categories. It marks that amount as unavailable when I check what is left for groceries. I still make the bank transfer myself, but seeing the reserved amount stops me treating next month's rent as spare cash.
-
-## 000043-080
-
-The booking screen now displays room capacity beside the room name. Organizers receive a warning when the attendee count exceeds it, and the system suggests larger rooms available at the same time. Reducing the attendee count or selecting a suitable room clears the warning before the invitation can be sent.
 
 ## 000043-081
 
@@ -436,10 +412,6 @@ Alder's delivery plan optimizes for fewer journeys, subject to the pharmacy's co
 
 Once an hour, the technician calibrated the balance with the workshop's reference weights. If a reading differed from the expected mass, she adjusted the balance and tested it again before weighing orders. She wrote the readings in a notebook, which allowed the next shift to see when the last check had been completed.
 
-## 000043-110
-
-We have limited capacity for Saturday appointments because only two assessors work that morning. Each can see three applicants, so the booking page stops at six. Please choose a weekday if all six places are taken, or join the cancellation list and we will contact you when a Saturday place becomes available.
-
 ## 000043-111
 
 The guided notebook gave me an emotional maintenance protocol I could use after work. I wrote about something I had enjoyed and someone I wanted to call, then closed the book and made tea. I liked the space for a longer answer and the fact that the pages stayed flat on the table.
@@ -448,29 +420,13 @@ The guided notebook gave me an emotional maintenance protocol I could use after 
 
 The peer introductions serve as an empathy activation framework for the cohort. Students exchange stories about their journey to university and introduce their partner to the room. The tutor gives each pair ten minutes to talk and asks them to agree which parts of their story they are comfortable sharing with the class.
 
-## 000043-113
-
-You can calibrate the room sensor from the settings page. Place a checked thermometer beside it for ten minutes, then enter the difference between the two readings. The app applies that correction to future readings. If the difference changes substantially when you repeat the comparison, send both sets of readings to support.
-
 ## 000043-114
 
 The planning adviser identified a bottleneck: every proposed alteration needed the same surveyor's approval before the builder could price it. He grouped our questions into one visit instead of booking separate inspections. That gave the builder a complete drawing to quote against, and we avoided paying for several surveyor callouts before the renovation began.
 
-## 000043-115
-
-Vale's coaching package offers a cognitive recalibration pathway for staff returning from leave. The first meeting covers activities they enjoyed before taking time away and the people they would like to reconnect with. Brook starts with a written questionnaire, so Vale would better suit colleagues who prefer discussing their experiences aloud.
-
-## 000043-116
-
-The sensor settings now include a calibration history. Each entry records the reference reading, the correction entered by the technician, and the time it was applied. You can export that history with the temperature log so a reviewer can see which correction was active when a particular reading was recorded.
-
 ## 000043-117
 
 I'd like tomorrow's check-in to be a mindset reboot before we discuss the rota. Please bring a photograph from a place you enjoyed visiting and tell us something you remember about that day. We'll spend the first ten minutes sharing those memories over coffee, then move on to next month's weekend cover.
-
-## 000043-118
-
-The model treats the grant fund as a ring-fenced budget: money assigned to equipment cannot pay salaries unless the funder approves a transfer. Students enter the two spending categories separately and test a proposal that exceeds the equipment allowance. The total budget remains sufficient, but the restriction still prevents the proposed purchase.
 
 ## 000043-119
 
@@ -479,10 +435,6 @@ Double-click on the file icon to open the installer, then choose the destination
 ## 000043-120
 
 The new starter buddy scheme is our chance to redesign the team's social circuitry. Please invite your assigned colleague for a walk around the neighborhood and show them somewhere you like to buy lunch. You can claim a sandwich and a drink on expenses, and the visit can happen during either person's lunch break.
-
-## 000043-121
-
-The approval bottleneck is the department manager, because every expense in this category requires that person's signature. Giving another employee upload access will let them submit receipts but will leave the same approval queue. You can name an additional authorized approver in the policy settings if your organization permits either manager to sign.
 
 ## 000043-122
 
@@ -515,10 +467,6 @@ The delivery company had enough bandwidth to take our extra order because its se
 ## 000043-129
 
 Use the desk-clearing prompt to defragment your mental workspace before writing. Move yesterday's papers into the tray, choose a notebook, and write a sentence about what you would like to work on. You can dismiss the prompt once you have started, or leave it visible beside the page until your first break.
-
-## 000043-130
-
-The cheaper supplier offers onboarding by email, while the other includes a supervised first collection. Both set up our account and explain the labels, but only the supervised visit checks that our staff can prepare a parcel correctly before the driver leaves. That difference matters because the collection desk changes staff every afternoon.
 
 ## 000043-131
 
@@ -560,21 +508,9 @@ We've aligned the delivery and staffing schedules so someone trained in receivin
 
 After the busy summer, the walking group offered local shopkeepers a chance to reboot their relationship with downtime. They met outside the station on Tuesday evenings and took the path along the marshes, talking about their gardens and families. The route ended at a pub where anyone with time could stay for supper.
 
-## 000043-141
-
-The service queue uses triage to route incoming requests. Choose outage when the whole site is unavailable, access problem when one user cannot sign in, and general enquiry for other questions. Each choice sets the response deadline and assigns the request to the team authorized to handle that category of work.
-
-## 000043-142
-
-Your account has a limited upload bandwidth, so two large transfers will share the same connection rather than finish at twice the speed. Please pause one transfer and check whether the remaining upload progresses. If it does, leave the second paused until the first finishes, then resume it from the transfer list.
-
 ## 000043-143
 
 Let's create a feedback loop for the new visitor form. Reception should record the fields visitors ask about, the administrator should revise those fields each Friday, and reception should check whether the same questions recur the following week. Please keep the old versions so we can connect a change with its effect.
-
-## 000043-144
-
-The evening classes offered a weekly cognitive recalibration for residents of the estate. People brought unfinished knitting or sewing, sat around two long tables, and chatted while they worked. The caretaker opened the room early in winter so people could arrive before dark, and volunteers brought a kettle and mugs from the office kitchen.
 
 ## 000043-145
 
@@ -592,14 +528,6 @@ The Welcome Questions help you build the emotional infrastructure of a new group
 
 We are treating the first Sunday opening as a pilot. Volunteers will count visitors each hour, note requests they cannot answer, and discuss the results before the committee decides on regular Sunday hours. Please send comments to the library desk after your visit so they can be included in that review.
 
-## 000043-149
-
-The milestone field records an approval or delivery needed before later work can start. Set the electricity inspection as a milestone and link the opening date to it. If the inspection moves, the planner flags the opening date for review while leaving unrelated work, such as preparing leaflets, on its existing schedule.
-
-## 000043-150
-
-The department had bandwidth for one additional review because its two assessors each had one free afternoon. They divided the report between them and agreed to combine their comments on Friday. When another request arrived, the coordinator booked it for the following week instead of adding it to the same deadline.
-
 ## 000043-151
 
 Next month's staff lunch will be a practical step in reprogramming our culture of appreciation. Before eating, each table will share stories of colleagues who helped them during the busy season. Please invite temporary staff as well as permanent colleagues; their managers can arrange cover so they can attend one of the two sittings.
@@ -612,10 +540,6 @@ Please optimize the conference seating for the number of delegates while leaving
 
 Harbor's team day includes a neural reset through guided drawing. Participants choose an object from the garden, sketch it at their own pace, and discuss what they enjoyed over tea. Ridge offers a longer painting session indoors. Harbor would suit our group because several colleagues want time outside and prefer informal conversation to a finished artwork.
 
-## 000043-154
-
-Ash can calibrate the weighing scales against certified reference weights during the maintenance visit. Elm cleans and repairs them but charges separately for that comparison and the resulting record. Since our packing checks require a recorded calibration date, Ash's inclusive quote covers an operation we would otherwise need to purchase in addition.
-
 ## 000043-155
 
 The new Weekly Thanks card helps operationalize gratitude across your household. Each person can add a message about something another person did for them, then read the cards together at the weekend. Cards are visible only to the household group, and members can remove their own message before it is read aloud.
@@ -623,10 +547,6 @@ The new Weekly Thanks card helps operationalize gratitude across your household.
 ## 000043-156
 
 Stone's retreat is organized around a personal operating system refresh. Guests spend the morning discussing what they enjoy outside work, then choose a walk or a cooking session for the afternoon. Heath has a similar timetable with larger groups. Stone would better suit our six delegates because they could remain together during both activities.
-
-## 000043-157
-
-Staff triaged the donation boxes at the entrance. Books in saleable condition went to the shop shelves, damaged copies went to recycling, and uncertain items were set aside for the manager. That sorting kept the checkout desk free for customers and prevented volunteers from pricing books the shop could not sell.
 
 ## 000043-158
 
@@ -644,10 +564,6 @@ The hall committee has bandwidth for one new booking this weekend. Two trained k
 
 We have aligned the film evening with the last bus so visitors can attend without arranging a lift home. The film will begin at six and finish before the nine o'clock departure from the square. Please arrive early enough to collect tickets and refreshments before the screening, since the start time is fixed.
 
-## 000043-162
-
-Ring-fence a budget by assigning it a permitted expense category. The system checks each claim against that category before allowing the payment to use the reserved money. Administrators can approve a category change, but ordinary claimants cannot remove the restriction simply because the general budget has run out during the month.
-
 ## 000043-163
 
 The lift installation is on the critical path for our new clinic. Rooms can be furnished in parallel, but wheelchair users need the lift before the upstairs service opens. We have therefore scheduled the inspection immediately after installation and kept a spare inspection slot before the advertised opening date in case adjustments are needed.
@@ -656,37 +572,13 @@ The lift installation is on the critical path for our new clinic. Rooms can be f
 
 Our monthly team walk is a form of social capital optimization. We leave the office at lunch, follow the park path, and talk about something other than the projects waiting on our desks. People can join for the whole route or turn back at the lake if they need to return earlier.
 
-## 000043-165
-
-The simulator now models a bottleneck at the packing station. Orders can arrive faster than the station packs them, and the waiting queue grows accordingly. Changing the packing rate updates both completed orders and queue length, so learners can compare increasing demand with adding another packer under the same starting conditions.
-
 ## 000043-166
 
 The monthly member call is an opportunity to engineer your belonging journey. You can talk about a local event you enjoyed, ask whether anyone would like to accompany you next time, or simply listen to other members. Let us know if you would prefer an introduction from the host when you join the call.
 
-## 000043-167
-
-The caterer optimized the seating arrangement to keep households together while using the smallest number of tables. She put two small households at each large table and left the aisle beside the exit clear. The final arrangement seated all forty guests within the room's permitted occupancy and left space for the serving trolley.
-
-## 000043-168
-
-The two training providers use different prototypes for the revised induction handbook. East tests a paper copy with new starters and revises confusing instructions before printing. West sends a digital mock-up for managers to approve without observing anyone use it. East's approach would check the actual navigation problems raised by our reception staff.
-
-## 000043-169
-
-The Future Me page is designed to operationalize your personal authenticity. Add a photograph of a place you enjoy, describe an activity you would like to try, and choose someone with whom you would like to share it. The finished page is visible only to you unless you invite your coach to read it.
-
 ## 000043-170
 
 The new evening reading group offers a mental systems refresh after work. Bring a short passage you enjoyed and read it to the table, or come along to hear what others have chosen. We will serve tea from half past six and finish before the last bus leaves the village square.
-
-## 000043-171
-
-The planner optimizes cutting patterns to reduce waste while keeping every requested panel at its specified dimensions. Enter sheet size and the saw's cut width before generating a pattern. The preview identifies unused material separately from the allowance taken by each cut, so the estimated saving reflects what can actually be reused.
-
-## 000043-172
-
-The garden uses a feedback loop for watering: volunteers check soil moisture before their shift, record the reading, and adjust the next watering accordingly. Please enter both the reading and the amount used in the shed notebook. This helps the following volunteer respond to the soil rather than repeat yesterday's amount automatically.
 
 ## 000043-173
 
@@ -703,14 +595,6 @@ Willow's mentoring service focuses on reengineering each participant's professio
 ## 000043-176
 
 I used our first meeting after the break to debug the team's mindset. Everyone described something they had enjoyed during their time away, and we talked over coffee before opening the project list. It was pleasant to hear about gardens, families, and places people had visited instead of moving straight into deadline questions.
-
-## 000043-177
-
-The association is ring-fencing the summer raffle proceeds for replacement playground gates. Ticket income will be recorded separately, and the treasurer will publish the gate invoice alongside the total raised. Donations for ordinary maintenance can still go into the general fund, but money from raffle tickets will remain assigned to this purchase.
-
-## 000043-178
-
-Your enquiry is in the triage queue, where we check whether it concerns a payment, a delivery, or a damaged item before assigning it. Please add the order number to the existing message. Opening another enquiry would create a separate record and could leave the two responders working from different descriptions of the same order.
 
 ## 000043-179
 
@@ -736,25 +620,9 @@ The walking retreat offered a cognitive recalibration I had been looking forward
 
 The shared delivery has a cost synergy we can verify before renewing the contract. Combining the florist's order with the caterer's saves one refrigerated van journey, and both suppliers have agreed to deduct their share of that charge. Please keep the revised quotes together so accounts can match the deductions with the joint delivery date.
 
-## 000043-185
-
-Use the feedback rule to revise reminder timing from recorded responses. If a customer repeatedly replies after the second reminder, the next cycle starts closer to that response time. Set a maximum delay so the adjustment stays within the payment policy. The history panel shows each timing change and the response that triggered it.
-
-## 000043-186
-
-Your saved outfits can become a personal style operating system. Add a photograph of something you enjoyed wearing and a note about where you wore it, then browse those entries before choosing clothes for another occasion. You can send an entry to your stylist if you would like to discuss it at the next appointment.
-
 ## 000043-187
 
 The storage adviser optimized our shelf layout around the boxes we actually use. She kept the heavy cartons below shoulder height, left a clear route to the door, and fitted the smaller boxes into the remaining spaces. We can now store the full stock order without blocking the aisle or buying a second cabinet.
-
-## 000043-188
-
-We can escalate the repair request to the duty supervisor because it has passed the response deadline in your contract. That person can authorize another engineer if the assigned engineer is unavailable. Please keep the fault description in the current request so the supervisor can review the previous visits before arranging the next one.
-
-## 000043-189
-
-Treat the sample label as a prototype before ordering a full print run. Print ten copies, attach them to filled containers, and check whether staff can read them through the display case. Record any changes to size or contrast, then repeat that check on the revised label before approving it for production.
 
 ## 000043-190
 
@@ -772,10 +640,6 @@ Bracken focuses on engineering belonging at the reception. A host greets each gu
 
 You can use the lunchtime audio as a reset for your personal operating system. It asks you to step away from your screen, look around the room, and think of something you would enjoy doing that evening. The recording is available offline once downloaded, so you can also listen while sitting outside during your break.
 
-## 000043-194
-
-The revised welcome course includes a confidence engineering module. Before the first group meeting, members write about something they have enjoyed making and choose a photograph to share. Hosts can view those entries in advance and invite members to talk about them, while anyone who prefers listening can leave the entry private.
-
 ## 000043-195
 
 The choir's open evening offers a social recalibration for anyone feeling out of practice with meeting people. We will sing a few familiar songs, take a break for tea, and introduce visitors to the regular members. You can join the singing or listen from the back row before deciding whether to come again.
@@ -788,10 +652,6 @@ My monthly mentoring lunch has become a personal authenticity activation session
 
 I've started treating the first hour of Saturday as a mental recalibration window. I make coffee, sit with the notebook, and write about something I enjoyed during the week. Sometimes I share an entry with my partner over breakfast. It is a pleasant habit to have before shopping and the children's afternoon activities begin.
 
-## 000043-198
-
-The case study uses pipeline for a sequence of recruitment stages with observable entry and exit conditions. Applications enter screening when complete, proceed to interview after a reviewer approves them, and leave when an offer is accepted or rejected. Students calculate where delays occur from the time each application spends in its recorded stage.
-
 ## 000043-199
 
 The afternoon's drawing exercise will help us optimize our creative DNA before the planning discussion. Bring an object from your desk that you enjoy looking at; we'll sketch the objects and tell each other why we chose them. Materials will be provided, and everyone can keep their drawing or leave it in the room afterward.
@@ -799,10 +659,6 @@ The afternoon's drawing exercise will help us optimize our creative DNA before t
 ## 000043-200
 
 The coach began by helping the group recalibrate their career mindsets. Each participant described a job they had once enjoyed and explained which parts they missed. The coach wrote their answers on the board, then left time for people to talk over coffee before they returned to the forms supplied by the employment office.
-
-## 000043-216
-
-Saturday's book exchange offers a collective intelligence upgrade for the neighborhood. Bring a book you enjoyed and tell the group why you chose it; everyone will have a few minutes to speak. We will meet beside the library desk at eleven, and you are welcome to come along without bringing anything.
 
 ## 000043-231
 
@@ -840,17 +696,9 @@ Both suppliers can operationalize our purchasing policy, but they propose differ
 
 The initial handshake verifies that the client holds the key registered to this account. The server sends a fresh challenge, and the client signs it before requesting a session token. Reject a response signed with a different key, even if the account identifier matches an existing record.
 
-## 000043-213
-
-The worksheet asks adult learners to identify the emotional source code of adulthood. Participants write down three things that matter to them and discuss one with a partner. The instructor collects the sheets at the end of the session and uses their answers to choose topics for the following week's discussion.
-
 ## 000043-223
 
 At the autumn fair, the ticket desk became a bottleneck. Two volunteers could admit about forty people an hour, but visitors were arriving at almost twice that rate. The organizer moved one volunteer from the empty cloakroom to the desk and opened a second cash box. The queue began to shorten.
-
-## 000043-232
-
-This release adds a motivation flywheel to your profile. Use the new Wins field to record something you feel pleased about, from finishing a report to taking a walk. Your latest entry appears below your photo, and you can replace or remove it whenever you edit your profile.
 
 ## 000043-239
 
@@ -887,10 +735,6 @@ Use the capacity planning sheet before assigning workshop places. Enter the numb
 ## 000043-201
 
 Join us for an afternoon of social defragmentation at the village hall. We will put the kettle on, set out biscuits, and invite everyone to chat about their week. The doors open at two on Sunday. Admission is free, and there will be chairs near the entrance for anyone arriving alone.
-
-## 000043-203
-
-We have engineered a shaded waiting area by moving the benches beneath the existing awning and fitting a side screen to block the afternoon sun. The entrance remains wide enough for wheelchairs and delivery trolleys. Volunteers will help move the benches after Saturday's market, once the traders have cleared their stalls.
 
 ## 000043-211
 
@@ -955,8 +799,4 @@ To operationalize the retention policy, create a deletion schedule for each reco
 ## 000043-224
 
 The rule compiler now accepts named time zones in scheduling expressions. It converts each expression to bytecode during deployment and rejects an unknown zone before the schedule becomes active. Existing expressions using UTC continue to compile unchanged. Deployment errors include the rule name and the zone value that needs attention.
-
-## 000043-240
-
-You can use your remaining coaching session to reprogram your relationship with rest. Your coach will ask what you enjoy doing on a free afternoon and invite you to describe a recent weekend. If you would like to book, send me a suitable day and I will reserve a session for you.
 

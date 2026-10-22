@@ -23,4 +23,7 @@
 - The same frozen `v16` prompts fail the final mixed-development false-positive bound for all three checks. Across 200 complete texts, all three classifications match in 77 cases; the development report preserves prior assessment, corrected labels, and per-check results.
 - The authorized [v16 holdout assessment](../runners/results/wordiness-and-redundancy-v16-holdout.md) catches 88/100 wordiness hits with seventeen false positives, redundancy 79/twelve, and repeated explanation 94/three. Mixed results are 93/79, 79/54, and 100/fifteen respectively, with all answers correct in 69/200 texts; all three checks fail their holdout acceptance bounds.
 
+- `v17/` covers cliche, borrowed jargon, tortured phrasing, hidden-significance adverbs and stock vocabulary. Each request combines `shared.md` with one named check.
+- Its reviewed baseline contains 23 exact development demonstrations and 501-750 assembled words per check. Development evaluates each check on 200 isolated and 200 mixed passages, with holdout inference separately gated.
+
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.

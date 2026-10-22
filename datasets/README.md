@@ -138,6 +138,23 @@ Keep holdout writing outside prompt development. The user-authorized [holdout as
 
 The [development report](../runners/results/wordiness-and-redundancy-v16-development.md) records isolated and mixed results, including all three mixed false-positive failures. Detector predictions remain separate from these reviewed dataset labels.
 
+## Stock Wording And Jargon Sets
+
+Twelve reviewed collections contain 2,400 passages and 4,000 judgments. Each check has exactly 100 hits and 100 no-hits in isolated and mixed data for each split.
+
+- Cliche: [development](ai-synthetic/passages/000041-stock-wording-and-jargon-cliche-development.md) and [holdout](ai-synthetic/passages/000042-stock-wording-and-jargon-cliche-holdout.md).
+- Borrowed jargon: [development](ai-synthetic/passages/000043-stock-wording-and-jargon-borrowed-jargon-development.md) and [holdout](ai-synthetic/passages/000044-stock-wording-and-jargon-borrowed-jargon-holdout.md).
+- Tortured phrasing: [development](ai-synthetic/passages/000045-stock-wording-and-jargon-tortured-phrasing-development.md) and [holdout](ai-synthetic/passages/000046-stock-wording-and-jargon-tortured-phrasing-holdout.md).
+- Hidden-significance adverb: [development](ai-synthetic/passages/000047-stock-wording-and-jargon-hidden-significance-adverb-development.md) and [holdout](ai-synthetic/passages/000048-stock-wording-and-jargon-hidden-significance-adverb-holdout.md).
+- Stock vocabulary: [development](ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md) and [holdout](ai-synthetic/passages/000050-stock-wording-and-jargon-stock-vocabulary-holdout.md).
+- Mixed: [development](ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md) and [holdout](ai-synthetic/passages/000052-stock-wording-and-jargon-mixed-holdout.md), each with all five labels and all 32 combinations.
+
+Blind, adversarial and final reviews cover original, added and repaired inputs. Full pools at `68c375f8`, `9f94e36f`, and `24241a48` preserve all 302 surplus passages with their corrected labels.
+
+Development mixed quotas retain twelve mandatory all-no-hit controls through complementary counts. Holdout keeps six or seven passages per combination. Repeated workshop/transcription contexts in development mixed writing remain a recorded coverage limitation.
+
+The protected overlap audit finds zero candidates against prior datasets. Conservative review identifies at least 52 unseen central cliche constructions among the 100 holdout positives. Keep holdout writing outside prompt development; its model evaluation requires separate authorization.
+
 ## Commands
 
 ```sh
