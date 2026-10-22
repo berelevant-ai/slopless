@@ -800,3 +800,19 @@ The orchestra returned to its own hall in October after a season at the college 
 
 There are three places left on my interview practice course next month. We cover introductions, questions about past projects and how to ask about the role. Step into your power and join us. Each person receives a recording of their practice interview and written comments on the answers they chose to rehearse.
 
+## 000041-204
+
+There is light at the end of the tunnel, and we are here to support you with the disputed invoice. I have attached a copy showing the two charges you asked about. Please reply with the receipt from your first payment so our accounts team can compare it with the balance shown.
+
+## 000041-202
+
+Your whole group is in the same boat: the airline moved all six passengers from the canceled flight to the same afternoon departure. Everyone keeps the original baggage allowance, and the booking still links your seats. I have sent the revised itinerary to the email address used for the reservation.
+
+## 000041-203
+
+Your payments are back on track: the missed installment cleared this morning, and the next collection remains scheduled for the first of November. The account now shows no overdue balance. I have attached the updated statement so you can see both the payment received today and the date of the next collection.
+
+## 000041-201
+
+Every cloud has a silver lining, and our team is here to help with your missing meal plans. The plans saved during your trial were removed when the trial ended. I have extended access for seven days so you can add recipes again and export a copy before deciding whether to subscribe.
+

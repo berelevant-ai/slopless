@@ -16,6 +16,7 @@ Develop and evaluate the next V2 family, `stock-wording-and-jargon`, using reali
 - Adjudication: full isolated development blind review is complete. Apply eleven adversarial A label corrections, retain the resulting no-hit guards, and review replacement candidates before restoring the final 100/100 balance.
 - Definition clarification: tortured phrasing includes corruption of a fixed name or saying even when the intended concept remains recognizable. Reassess affected judgments under that same general distinction before freezing data.
 - Development evaluation: pending frozen data and prompts; retain the separate user-authorization gate for holdout inference.
+- Mixed development quota correction: final review identifies twelve mandatory all-no-hit controls, exceeding the original seven-case cell. Preserve these controls and the 200-passage, 100/100-per-check balance; set complementary combination quotas from the reviewed mandatory counts before inference, and record the exact allocation with the selection.
 
 ## Inspected Coverage
 
@@ -103,6 +104,7 @@ Plan five checks with `input: passage`. An independent definition reviewer must 
 - Generate 200 development and 200 protected holdout passages, each labeled for all five checks. Every check has exactly 100 hits and 100 no-hits in each split.
 - Cover all 32 true/false combinations using six or seven passages per combination. Assign seven to four complementary combination pairs and six to the other twelve pairs; each pair has identical counts on both sides.
 - Choose those four pairs by a fixed sorted order before authors see any detector output. The construction totals 200 passages and preserves 100 positives per check.
+- If corrected labels make a cell's mandatory controls exceed its initial quota, preserve the controls. Adjust complementary cells equally, retaining all 32 combinations and exactly 100 positives per check; record the smallest feasible quota adjustment before selection and detector evaluation.
 - Write coherent mixed excerpts, including examples where all defects appear within one paragraph. Supply ordinary multi-paragraph context when needed and preserve it through every candidate comparison.
 - Use separate development and holdout authors. Match length and register across combinations; fully clean passages must be comparably detailed to passages with several defects.
 - The final design contains 2,400 distinct inputs and 4,000 labels. Report isolated and mixed results separately; small per-combination groups describe error patterns rather than independently establishing reliable rates.
