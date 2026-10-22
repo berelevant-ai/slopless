@@ -622,7 +622,7 @@ This bakery knows how to tantalise your taste buds. We bought a rye loaf and two
 
 ## 000042-p156
 
-I hope the new reading lamp puts a spring in your step. We have replaced the faulty unit under its warranty, and the courier will collect the old one when delivering it. Please remove the bulb before packing the lamp in the box we supplied.
+We're here for you every step of the way. We have replaced the faulty reading lamp under its warranty, and the courier will collect the old one when delivering the replacement. Please remove the bulb before packing the lamp in the box we supplied. I will send the collection time as soon as the courier confirms it.
 
 ## 000042-p157
 
@@ -799,4 +799,52 @@ The bridge had been repaired, and delivery vans could use the main road to the r
 ## 000042-p200
 
 The insurer's offer broke the deadlock. The owner had refused to begin repairs without payment, and the insurer had refused payment until work began. An advance for materials allowed the owner to place the order, after which the contractor agreed on a start date and the remaining claim could proceed.
+
+## 000042-p205
+
+The dashboard puts convenience at your fingertips. To print a delivery label, open the order and select Print Label from the actions menu. Check the destination address before sending the label to your printer. A copy remains attached to the order, where colleagues with dispatch access can print it again.
+
+## 000042-p208
+
+Use a belt and braces approach to protecting the archive: keep one copy on the external drive and another in remote storage. Either copy can restore the complete archive if the other fails. Test both copies after changing the backup schedule, using the restore command described in the next section.
+
+## 000042-p211
+
+Adjust the controller so the two paddle switches rest at your fingertips while your palms remain on the grips. You should be able to press either switch without lifting a hand. Tighten the mounting screws after finding a comfortable position, then run the switch test from the calibration menu.
+
+## 000042-p210
+
+We'll move heaven and earth to put this right. I've arranged for the missing cupboard handle to be sent to the address on your order, and you should receive tracking details this evening. The fixing screws are included in the envelope. Please reply to this message if the address has changed since you ordered.
+
+## 000042-p201
+
+Treat this setup checklist as your 'passport to success' with the scheduling tool. Begin by selecting the days your shop opens, then enter the start and end of each shift. Save the schedule before adding staff names. The preview shows how the finished week will appear on the noticeboard printout.
+
+## 000042-p203
+
+The custom report tab opens 'a world of possibilities' for your stock records. Choose the columns you want, drag them into order, and select a date range. Click Preview before saving the report. Saved reports appear beneath the tab and can be reopened by anyone with permission to view stock.
+
+## 000042-p206
+
+The phrase move heaven and earth is being matched as four separate search words because phrase matching is switched off. Turn it on in Search Settings, then run the same query again. Your saved search will keep the new setting. I've attached the page showing where that switch appears in your version.
+
+## 000042-p207
+
+Enter 'a world of possibilities' in the search box to test phrase matching. Keep the quotation marks in the query so the index looks for adjacent words in that order. The sample collection contains one matching brochure. Removing the quotation marks also returns documents containing the words in separate sentences.
+
+## 000042-p209
+
+This guide takes a belt and braces approach to getting you started. Enter your organisation's name in the first box, choose the currency used on your invoices, and save the form. You can change either value later from Account Settings. The next page explains how to invite the colleague who handles your invoices.
+
+## 000042-p202
+
+We're here for you every step of the way. We have replaced the faulty reading lamp under its warranty, and the courier will collect the old one when delivering the replacement. Please remove the bulb before packing the lamp in the box we supplied. I will send the collection time as soon as the courier confirms it.
+
+## 000042-p212
+
+The style checker underlines 'passport to success' as a stock promotional expression. Click the underline to open the explanation, or press Escape to keep editing. The checker leaves the original wording in place until you accept a revision. This example uses the default rule set supplied with the extension.
+
+## 000042-p204
+
+The installer records every step of the way from unpacking the files to opening the application. Please send the complete installation log rather than the final error line, so I can find where it first stopped. The log is in the folder beside the installer. Your documents stay in their existing location.
 

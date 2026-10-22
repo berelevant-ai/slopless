@@ -800,3 +800,67 @@ Silently, the revised room layout is a remarkable improvement. Parents can reach
 
 The proposed roster is silently impressive. It covers the opening shift with experienced staff and gives each trainee an overlap with a supervisor. I have marked the two remaining vacancies in yellow. Once those are filled, please send the completed version to reception so they can answer questions about weekend cover.
 
+## 000048-212
+
+The return address proved quietly invaluable during the parcel collection. A label had fallen off one box, but the warehouse clerk matched the printed address on its underside to the dispatch list. She attached a replacement label and put the box beside the other parcels for the same customer.
+
+## 000048-210
+
+A lower key deposit has been silently applied to next month's hall bookings. The booking page changed without sending an email or displaying a notice, so please check the amount before preparing your envelope. Existing bookings retain their recorded deposit until the office sends each organiser a revised collection slip next Monday.
+
+## 000048-201
+
+We quietly tested the booking form with three venue organisers before announcing it to our wider customer list. Their requests went through the normal delivery process, but the invitation described the trial as private. We added a telephone field after two drivers needed help getting through locked gates.
+
+## 000048-204
+
+The second signature was silently more important than the first. It authorised payment rather than merely acknowledging receipt of the chairs. The accounts clerk waited for it before sending the invoice to the payment queue, then wrote the batch number beside the supplier's reference in the office ledger.
+
+## 000048-207
+
+The receptionist quietly checked the register while the consultant spoke to a patient on the other side of the partition. She kept the pages flat on the desk and waited until the conversation ended before calling the next name. The printed list showed which appointments had already been completed.
+
+## 000048-215
+
+The warehouse clerk quietly replaced the label on the damaged parcel before the customer arrived. Her supervisor had asked her to avoid drawing attention to the customer's home address in the crowded collection area. She turned the box toward the wall while checking the printed address against the dispatch list.
+
+## 000048-203
+
+The spare register was quietly essential to the afternoon clinic. When the booking terminal stopped responding, the receptionist used its printed list to check arrivals and mark the patients already seen. The nurse collected the marked pages at closing time and entered the appointments into the terminal after the connection returned.
+
+## 000048-205
+
+The key deposit is silently central to keeping the hall bookings on schedule. Returning it with the key allows the caretaker to mark the booking complete before the next group arrives. Please use the envelope supplied at collection and put both items through the office letterbox after your session.
+
+## 000048-216
+
+Please carry book donations quietly through the library courtyard on Saturday morning. The windows beside the temporary entrance belong to the reading room, which will remain open during the sale. Volunteers will receive boxes at the table between nine and eleven and move them inside after the morning session.
+
+## 000048-211
+
+One field in our booking form is quietly indispensable: the telephone number for the person opening the venue. We used it twice last week when drivers reached locked gates. I have moved the field above the delivery instructions so the organiser sees it before submitting the request for transport.
+
+## 000048-209
+
+Our training spreadsheet had been silently dropping cancellation dates during import. The rows arrived with empty cells, and the coordinator received no warning that the dates were missing. We found the problem while comparing a waiting-list complaint with the original file and added a warning to the import screen.
+
+## 000048-214
+
+The accounts clerk silently passed the invoice to the director during the supplier's presentation. She pointed to the second signature box and waited beside his chair. He signed without stopping the speaker, and she carried the invoice back to her desk to enter it in the next payment batch.
+
+## 000048-206
+
+The driver silently measured the wardrobe against the pencil line beneath the stairs. His colleague was speaking to their dispatcher on the landing, so he wrote the three-centimetre clearance on the delivery sheet and held it up instead of interrupting. They fetched the moving straps when the call ended.
+
+## 000048-202
+
+A pencil line was silently the decisive part of the furniture delivery. It marked the highest point the wardrobe could reach beneath the stairs. The driver measured the cabinet against it before unloading, found three centimetres to spare, and asked his colleague to bring the moving straps from the van.
+
+## 000048-213
+
+The small map beside the library door is quietly indispensable for Saturday's book sale. It shows the temporary entrance through the courtyard while repairs continue on the front steps. Please follow that route when bringing donations; volunteers will receive boxes at the courtyard table between nine and eleven.
+
+## 000048-208
+
+The cancellation column is silently the most useful part of our training spreadsheet. It tells the coordinator which seats can be offered to people on the waiting list. After two missed opportunities last month, we now enter cancellations as they arrive rather than leaving them in individual instructors' inboxes.
+

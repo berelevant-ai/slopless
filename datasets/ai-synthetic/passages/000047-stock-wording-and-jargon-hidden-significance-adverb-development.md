@@ -2,7 +2,7 @@
 
 ## 000047-097
 
-We have cut the weekly project meeting from an hour to thirty minutes by asking for written updates beforehand. People now arrive having read the dates and costs, leaving the meeting for decisions. Silently, the useful change is that the person asking for a decision has to name it in advance.
+We have cut the weekly project meeting from an hour to thirty minutes by asking for written updates beforehand. People now arrive having read the dates and costs, leaving the meeting for decisions. Naming the decision in advance silently changes the meeting's focus.
 
 ## 000047-137
 
@@ -30,7 +30,7 @@ Our published annual figures show evening bookings quietly overtaking afternoon 
 
 ## 000047-083
 
-This matters, silently, for the room booking: the photographer needs an empty wall behind the table. Please move the display boards into the storeroom before she arrives at ten. The boards can go back after lunch, once she has finished the staff portraits and packed her lights.
+An empty wall behind the table is quietly essential for the photographer's room booking. Please move the display boards into the storeroom before she arrives at ten. The boards can go back after lunch, once she has finished the staff portraits and packed her lights.
 
 ## 000047-108
 
@@ -54,7 +54,7 @@ The remote lets you switch subtitles on silently, using the button marked CC. Yo
 
 ## 000047-142
 
-Your options have changed, quietly: the replacement is now available for collection rather than home delivery. The collection desk opens at nine on weekdays and needs the order confirmation shown on your phone. Tell me which day suits you and I will reserve it until closing.
+Collection is now available instead of home delivery, quietly changing your options for the replacement. The collection desk opens at nine on weekdays and needs the order confirmation shown on your phone. Tell me which day suits you and I will reserve it until closing.
 
 ## 000047-128
 
@@ -66,7 +66,7 @@ The garden's irrigation timer has been quietly losing time without any warning o
 
 ## 000047-114
 
-Quietly, the deciding detail for Sunday's picnic is access to the covered area. The park has confirmed that another group has booked it until two. We will therefore meet at half past two rather than noon; please bring your own cup and leave the central path clear for other visitors.
+Access to the covered area is quietly decisive for Sunday's picnic. The park has confirmed that another group has booked it until two. We will therefore meet at half past two rather than noon; please bring your own cup and leave the central path clear for other visitors.
 
 ## 000047-100
 
@@ -130,7 +130,7 @@ As the full bins at the gate show, leaving picnic rubbish beside the playground 
 
 ## 000047-073
 
-The floor measurements are silently more useful than another photograph for this quote. The fitter needs the width of each doorway and the distance between the two pillars. Please bring the tape measure on tomorrow's visit and add those dimensions to the drawing before requesting a revised price.
+The floor measurements are quietly decisive for this quote. The fitter needs the width of each doorway and the distance between the two pillars. Please bring the tape measure on tomorrow's visit and add those dimensions to the drawing before requesting a revised price.
 
 ## 000047-158
 
@@ -158,7 +158,7 @@ The parser silently ignores an unrecognised attribute on a known element. It sti
 
 ## 000047-026
 
-Quietly, this is the release's most practical improvement for dispatch staff: labels can be printed from the order list. Select the orders you want and choose Print Labels from the toolbar. Orders missing a delivery address stay selected so that you can complete them before trying again.
+Printing labels from the order list is a quietly important improvement for dispatch staff. Select the orders you want and choose Print Labels from the toolbar. Orders missing a delivery address stay selected so that you can complete them before trying again.
 
 ## 000047-184
 
@@ -282,7 +282,7 @@ The lamp's touch control works silently, unlike the clicking switch on my old be
 
 ## 000047-189
 
-The printer agreed to hold the quoted price until the committee had approved the final page count. That was the deciding concession, silently. The editor could now include the missing photographs without seeking another supplier, provided she delivered the completed file before the press slot reserved for the following Tuesday.
+The printer agreed to hold the quoted price until the committee had approved the final page count. That concession silently tipped the decision in the printer's favour. The editor could now include the missing photographs without seeking another supplier, provided she delivered the completed file before the press slot reserved for the following Tuesday.
 
 ## 000047-163
 
@@ -306,7 +306,7 @@ Alerts now arrive quietly during a scheduled rehearsal. The badge count updates,
 
 ## 000047-190
 
-Silently, the question is whether we need weekend cover. The two security contracts cost the same on weekdays, but only one includes a Saturday call-out. The building will host classes on six Saturdays next term, making that cover relevant to the decision rather than an unused extra.
+Weekend cover is quietly decisive in choosing between these security contracts. The two security contracts cost the same on weekdays, but only one includes a Saturday call-out. The building will host classes on six Saturdays next term, making that cover relevant to the decision rather than an unused extra.
 
 ## 000047-036
 
@@ -314,7 +314,7 @@ Moving the stock count to Thursday quietly changes Friday's delivery plan. The l
 
 ## 000047-172
 
-I have used this same ticket app for three years. Its published price list shows day passes becoming silently less attractive: two singles now cost less than a pass unless I make a third journey. The app is still easy to use, but I check the single fares before renewing my usual pass.
+I have used this same ticket app for three years. Its published price list shows day passes quietly losing their appeal: two singles now cost less than a pass unless I make a third journey. The app is still easy to use, but I check the single fares before renewing my usual pass.
 
 ## 000047-082
 
@@ -330,7 +330,7 @@ Both alarm panels can signal silently to the reception pager, which is useful du
 
 ## 000047-091
 
-The cafe had room for our pushchair beside the window, and the staff brought a high chair without moving another table. Lunch arrived before the toddler lost interest in his crayons. This is the part that matters, quietly: we could eat without taking turns standing outside with him.
+The cafe had room for our pushchair beside the window, and the staff brought a high chair without moving another table. Lunch arrived before the toddler lost interest in his crayons. That quietly changed lunch for us: we could eat without taking turns standing outside with him.
 
 ## 000047-131
 
@@ -366,7 +366,7 @@ An import tool that silently converts missing ages to zero creates a particular 
 
 ## 000047-175
 
-Two households may report the same income while supporting different numbers of people. Dividing by household size is one way of making that difference visible, although it assumes that each additional person adds the same cost. The assumption matters, silently, when interpreting the adjusted figures in the final column.
+Two households may report the same income while supporting different numbers of people. Dividing by household size is one way of making that difference visible, although it assumes that each additional person adds the same cost. The assumption silently shapes how readers interpret the adjusted figures in the final column.
 
 ## 000047-122
 
@@ -378,7 +378,7 @@ Please leave the hall quietly after the evening class. Residents above the entra
 
 ## 000047-021
 
-The distinction matters, silently, when we calculate the credit on your account. A cancelled lesson is credited at the amount you paid, whereas an unused voucher retains its printed value. Your message describes a cancelled lesson, so I have requested a credit for the full payment.
+That distinction silently shapes the credit we calculate for your account. A cancelled lesson is credited at the amount you paid, whereas an unused voucher retains its printed value. Your message describes a cancelled lesson, so I have requested a credit for the full payment.
 
 ## 000047-007
 
@@ -474,7 +474,7 @@ The minimum order quietly changes the comparison between the two paper merchants
 
 ## 000047-054
 
-The shoes felt firm in the shop, then softened after two short walks. The heel stayed in place on the steep path home, and I had no rubbing around the ankle. Silently, that makes them a better choice for me than the softer pair I tried alongside them.
+The shoes felt firm in the shop, then softened after two short walks. The heel stayed in place on the steep path home, and I had no rubbing around the ankle. The fit makes them quietly superior to the softer pair I tried alongside them.
 
 ## 000047-058
 
@@ -518,7 +518,7 @@ The water can quietly dissolve material from the inner surface of a pipe before 
 
 ## 000047-025
 
-Silently, the important distinction here is between an empty list and a missing list. An empty list requests removal of every existing member; omitting the field leaves membership unchanged. When updating only the group description, leave the members field out of the request body altogether.
+The distinction between an empty list and a missing list is quietly crucial here. An empty list requests removal of every existing member; omitting the field leaves membership unchanged. When updating only the group description, leave the members field out of the request body altogether.
 
 ## 000047-014
 
@@ -550,7 +550,7 @@ In this worked example, every participant with an incomplete diary is removed fr
 
 ## 000047-134
 
-The better offer is Bell's, quietly: it includes the annual inspection in the quoted lease payment. Finch charges for the inspection separately, taking its first-year total above Bell's. Both lifts fit the shaft dimensions, and the installation dates in the two proposals are a week apart.
+Bell's is quietly the stronger offer because its quoted lease payment includes the annual inspection. Finch charges for the inspection separately, taking its first-year total above Bell's. Both lifts fit the shaft dimensions, and the installation dates in the two proposals are a week apart.
 
 ## 000047-020
 
@@ -566,7 +566,7 @@ In presentation mode, the assistant quietly queues suggestions instead of openin
 
 ## 000047-040
 
-Quietly, the choice we need to make today is whether to hire chairs or reduce the guest list. The room has forty seats and we have fifty confirmed guests. Please send me a hire quote before three so I can compare it with the remaining event budget.
+The number of confirmed guests quietly changes our choice between hiring chairs and reducing the guest list. The room has forty seats and we have fifty confirmed guests. Please send me a hire quote before three so I can compare it with the remaining event budget.
 
 ## 000047-067
 
@@ -602,7 +602,7 @@ The headphones switch silently between my laptop and phone; there is no spoken m
 
 ## 000047-094
 
-We asked the new starters which part of induction they had used during their first month. Most chose the printed contact list, because it told them whom to call when a delivery went wrong. A sheet with twelve names turned out to be silently more valuable than the welcome presentation.
+We asked the new starters which part of induction they had used during their first month. Most chose the printed contact list, because it told them whom to call when a delivery went wrong. The sheet of twelve names quietly outperformed the welcome presentation.
 
 ## 000047-072
 
@@ -610,7 +610,7 @@ A background process may quietly accumulate temporary files while the user conti
 
 ## 000047-037
 
-The archive records the date a letter arrived rather than the date it was written. A letter posted before a strike might therefore appear in the same week's arrivals as one written much later. Quietly, this is the distinction that determines how the correspondence should be ordered for the study.
+The archive records the date a letter arrived rather than the date it was written. A letter posted before a strike might therefore appear in the same week's arrivals as one written much later. That date distinction quietly determines how the correspondence should be ordered for the study.
 
 ## 000047-085
 
@@ -638,7 +638,7 @@ The panel silently approved the appeal by circulating a written decision rather 
 
 ## 000047-063
 
-The difference is substantial, silently: a manager can now approve all items on one purchase request together. Previously, each item required a separate approval action. Requests containing an item above the manager's spending limit still go to the next approver, with the original supporting documents attached.
+This release silently transforms purchase approvals: a manager can now approve all items on one request together. Previously, each item required a separate approval action. Requests containing an item above the manager's spending limit still go to the next approver, with the original supporting documents attached.
 
 ## 000047-121
 
@@ -714,7 +714,7 @@ The maintenance agreement silently supports the case for keeping our present cop
 
 ## 000047-092
 
-The committee counted the votes twice and wrote both totals in the minutes. The second count agreed with the first, so the chair declared the motion carried. The result mattered, quietly: the club could now sign the lease and arrange access to the pitch before the season began.
+The committee counted the votes twice and wrote both totals in the minutes. The second count agreed with the first, so the chair declared the motion carried. The result quietly transformed the club's plans: it could now sign the lease and arrange access to the pitch before the season began.
 
 ## 000047-167
 
@@ -754,7 +754,7 @@ The restored footbridge silently transformed the route between the school and th
 
 ## 000047-185
 
-The order is significant, quietly: compression must finish before the checksum is calculated. The receiver checks the compressed bytes before attempting to expand them. Calculating the checksum on the original file produces a mismatch even when the transferred archive contains a complete copy of that file.
+The order is quietly crucial: compression must finish before the checksum is calculated. The receiver checks the compressed bytes before attempting to expand them. Calculating the checksum on the original file produces a mismatch even when the transferred archive contains a complete copy of that file.
 
 ## 000047-200
 
@@ -778,7 +778,7 @@ The speaker's quietly assured delivery contrasts with the louder responses from 
 
 ## 000047-149
 
-The change matters, silently: children under eight must now be accompanied in the craft room. The volunteer can explain the activity but cannot supervise children individually while handling the cutting equipment. Parents are welcome to join the session, and the adjoining reading corner remains available for younger siblings.
+The new age rule silently changes family visits: children under eight must now be accompanied in the craft room. The volunteer can explain the activity but cannot supervise children individually while handling the cutting equipment. Parents are welcome to join the session, and the adjoining reading corner remains available for younger siblings.
 
 ## 000047-106
 

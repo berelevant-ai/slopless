@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "textSha256": "0c742fe53fbc18340e1d408afa7c584de2cd68586ba12276921b267d80d07550",
+  "textSha256": "29675f095027efbf41587110fa908ca81efb51c16040977789c2f72aa2cd223e",
   "source": {
     "name": "Codex-authored Stock Wording And Jargon: Tortured Phrasing Holdout",
     "originalPath": "datasets/ai-synthetic/passages/000046-stock-wording-and-jargon-tortured-phrasing-holdout.md",
@@ -1011,6 +1011,26 @@
       "id": "000046-p021",
       "start": 65949,
       "end": 66259
+    },
+    {
+      "id": "000046-p203",
+      "start": 66277,
+      "end": 66630
+    },
+    {
+      "id": "000046-p201",
+      "start": 66648,
+      "end": 66979
+    },
+    {
+      "id": "000046-p202",
+      "start": 66997,
+      "end": 67337
+    },
+    {
+      "id": "000046-p204",
+      "start": 67355,
+      "end": 67702
     }
   ],
   "labels": [
@@ -1242,10 +1262,7 @@
     {
       "id": "000046-p120",
       "check": "stock-wording-and-jargon/tortured-phrasing",
-      "expected": true,
-      "snippets": [
-        "annual departure"
-      ]
+      "expected": false
     },
     {
       "id": "000046-p149",
@@ -1742,7 +1759,7 @@
       "check": "stock-wording-and-jargon/tortured-phrasing",
       "expected": true,
       "snippets": [
-        "three commerce days"
+        "commerce days"
       ]
     },
     {
@@ -2312,6 +2329,32 @@
       "expected": true,
       "snippets": [
         "occasion expense"
+      ]
+    },
+    {
+      "id": "000046-p203",
+      "check": "stock-wording-and-jargon/tortured-phrasing",
+      "expected": false
+    },
+    {
+      "id": "000046-p201",
+      "check": "stock-wording-and-jargon/tortured-phrasing",
+      "expected": true,
+      "snippets": [
+        "sunken expense fallacy"
+      ]
+    },
+    {
+      "id": "000046-p202",
+      "check": "stock-wording-and-jargon/tortured-phrasing",
+      "expected": false
+    },
+    {
+      "id": "000046-p204",
+      "check": "stock-wording-and-jargon/tortured-phrasing",
+      "expected": true,
+      "snippets": [
+        "law of diminishing refunds"
       ]
     }
   ]

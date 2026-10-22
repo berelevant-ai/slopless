@@ -800,3 +800,19 @@ The transmission restraint protocol delivers an ordered byte stream even when in
 
 I compared two offers this week by calculating the occasion expense of taking the weekend contract. The fee was higher, but it meant giving up another paid booking and the training session I had already reserved. Writing down the value of the best alternative made the choice easier to discuss with my partner.
 
+## 000046-p203
+
+A colleague's draft called our interview plateau the 'law of diminishing refunds'. We changed refunds to returns before publishing, because the point was that extra calls produced fewer new observations. The correction took a minute. Reading the full paragraph aloud helped us notice that the phrase said something different from the example beneath it.
+
+## 000046-p201
+
+We kept renewing the unused booking platform because of the 'sunken expense fallacy'. We'd already spent months setting it up, and that past effort kept deciding the next payment. This week we compared only the future costs of keeping it and replacing it. Cancelling became easier once we wrote those two figures beside each other.
+
+## 000046-p202
+
+Our copy editor changed 'sunken expense fallacy' to 'sunk cost fallacy' in the post about renewing software subscriptions. The paragraph described letting past expenditure decide the next purchase. I had checked the payment figures twice and missed the damaged name of the idea. We now read the finished draft together before scheduling it.
+
+## 000046-p204
+
+Our interview project ran into the law of diminishing refunds. The first ten calls revealed most of the problems customers mentioned; another twenty mostly repeated them. We stopped booking new calls and spent the remaining budget testing the two changes people had requested most often. Next time I will review the notes after each batch of five.
+

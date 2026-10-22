@@ -70,7 +70,7 @@ In the workshop, arranging a vase is framed as botanical information architectur
 
 ## 000044-p102
 
-To begin the memory exercise, instantiate a gratitude object on the page. Write the name of someone who helped you this week and describe what they did. Leave two blank lines beneath the entry so you can add another detail after discussing it with a partner.
+The memory exercise begins with an emotional audit of your week. Write the name of someone who helped you and describe what they did. Choose one occasion rather than trying to cover every conversation. Leave two blank lines beneath the entry so you can add another detail after discussing it with a partner.
 
 ## 000044-p062
 
@@ -106,7 +106,7 @@ Finch offers consignment stock: it owns the paper until we use it and invoices u
 
 ## 000044-p066
 
-The framed print is an emotional anchor-point optimization for our hallway. We hung it beside the coat hooks because it reminds us of the beach where we spent our honeymoon. The frame is lighter than I expected, and the supplied hook was easy to fit in the plaster wall.
+Hanging this print became a bit of emotional recalibration for me after the move. We chose it because it reminds us of the beach where we spent our honeymoon, and it now sits beside the coat hooks. The frame is lighter than I expected, and the supplied hook was easy to fit in the plaster wall.
 
 ## 000044-p049
 
@@ -506,7 +506,7 @@ Tomorrow's discussion will bring us closer to the organization we want to become
 
 ## 000044-p025
 
-For a successful guest welcome, deploy a hospitality middleware layer beside the entrance. Set a jug of water and clean glasses on the small table, with a card inviting guests to help themselves. Refill the jug during the break and take used glasses to the kitchen before the next group arrives.
+Use this stage to optimize the emotional bandwidth of the welcome. Set a jug of water and clean glasses on the small table beside the entrance, with a card inviting guests to help themselves. Refill the jug during the break and take used glasses to the kitchen before the next group arrives.
 
 ## 000044-p173
 
@@ -578,7 +578,7 @@ The cache now expires individual entries ten minutes after their last update. Pr
 
 ## 000044-p012
 
-Our updated visitor booklet adds a kindness API to the arrival section. A new box suggests asking guests whether they would like tea and showing them where to leave their coats. We have also enlarged the street map so hosts can point out the nearest bus stop.
+Our updated visitor booklet adds an emotional intelligence layer to the arrival section. A new box suggests asking guests whether they would like tea and showing them where to leave their coats. We have also enlarged the street map so hosts can point out the nearest bus stop, following comments from volunteers who used the first edition.
 
 ## 000044-p051
 
@@ -790,7 +790,7 @@ The export API now accepts a date range and returns only invoices issued within 
 
 ## 000044-p150
 
-Saturday's repair morning will provide a neural network for neighborliness. Residents can bring a broken household item, sit with a volunteer, and try a repair together. Tea will be available in the hall kitchen, and people waiting for help are welcome to introduce themselves at the long table.
+Saturday's repair morning is part of our social optimization programme for the neighbourhood. Residents can bring a broken household item, sit with a volunteer, and try a repair together. Tea will be available in the hall kitchen, and people waiting for help are welcome to introduce themselves at the long table. Doors open at ten.
 
 ## 000044-p099
 
@@ -799,4 +799,180 @@ The stakeholder map should distinguish people who approve the lease from people 
 ## 000044-p115
 
 Both incubators hold twenty trays, but Elm restores the set temperature faster after the door opens. That recovery time matters because staff remove samples every hour during the experiment. Birch uses less electricity with the door closed, so its published annual consumption does not by itself settle the comparison.
+
+## 000044-p244
+
+The camera's stabilisation system makes my handheld kitchen videos less shaky. With it switched off, the frame jumps whenever I reach for an ingredient; with it on, the same movement stays steady enough to watch. The controls are easy to reach, though the battery door is awkward when the camera sits on its small tripod.
+
+## 000044-p207
+
+The trainer's momentum management exercise demonstrates why a loaded trolley takes longer to stop. Roll the empty trolley down the marked track, measure its stopping distance, then repeat with the secured load at the same speed. Keep observers behind the barrier. Record both distances before discussing how the added mass affects momentum.
+
+## 000044-p223
+
+Connect the audio interface to the computer before opening the recording application. Select it as the input device, then speak into the microphone while watching the level meter. Reduce the gain if the meter reaches the red section. Plug headphones into the interface to monitor the signal without playing it through the room speakers.
+
+## 000044-p242
+
+Version two adds an approval workflow for expense claims. A submitted claim goes to the employee's manager, then to finance after approval; a rejected claim returns to its author with the reviewer's comments. Administrators can set a substitute approver for absences. Existing draft claims remain editable after the update.
+
+## 000044-p208
+
+The science club will demonstrate how a catalyst changes the rate of a reaction at Sunday's open afternoon. We will compare two otherwise identical mixtures, adding the catalyst to one and timing the bubbles produced. Children can record the results with a volunteer. Meet in the scout hut at one.
+
+## 000044-p202
+
+The memory exercise begins with an emotional audit of your week. Write the name of someone who helped you and describe what they did. Choose one occasion rather than trying to cover every conversation. Leave two blank lines beneath the entry so you can add another detail after discussing it with a partner.
+
+## 000044-p233
+
+Use the diagnostic screen to check whether the scanner can communicate with the computer. Select the device name and press Test Connection. A green result confirms that the computer received the test image. Save the error code if the test fails, then check the cable before repeating it.
+
+## 000044-p234
+
+Use the opening conversation as a diagnostic scan of the group's enthusiasm. Ask each person which part of the museum visit they are looking forward to and write the answers on the board. Keep the board visible while you explain the route. Give everyone a copy of the floor plan before leaving the classroom.
+
+## 000044-p225
+
+Our updated visitor booklet adds an emotional intelligence layer to the arrival section. A new box suggests asking guests whether they would like tea and showing them where to leave their coats. We have also enlarged the street map so hosts can point out the nearest bus stop, following comments from volunteers who used the first edition.
+
+## 000044-p210
+
+Hanging this print became a bit of emotional recalibration for me after the move. We chose it because it reminds us of the beach where we spent our honeymoon, and it now sits beside the coat hooks. The frame is lighter than I expected, and the supplied hook was easy to fit in the plaster wall.
+
+## 000044-p231
+
+Our revised family activity pack now includes a gratitude feedback loop. At the end of each walk, children are invited to name something they enjoyed and thank the person who came with them. We have also added a page for leaf rubbings. The pack can be collected from the park office this weekend.
+
+## 000044-p218
+
+Tuesday's coffee morning offers some neighbourly capacity engineering for anyone new to the estate. Come to the common room, meet the residents who organise the gardening group, and tell us what you would like to join. We start at ten and finish before lunch. Children are welcome to come with their carers.
+
+## 000044-p243
+
+The library committee will discuss next year's resource allocation on Saturday. Members must divide the children's-book budget between replacing damaged copies and buying new titles, with the total kept within the grant. The meeting begins at eleven in the upstairs room. The proposed costs are available at the front desk.
+
+## 000044-p209
+
+Use this setting to optimize picture quality within the available bandwidth. Enter the connection's measured upload rate, then select the highest resolution whose expected data rate stays below it. Leave room for the audio stream as well. The preview reports dropped frames so you can lower the resolution before starting the broadcast.
+
+## 000044-p201
+
+Help us nurture the connection ecosystem of our street at Friday's shared supper. Bring a dish if you can, or come along and help set the tables. We will eat in the hall from six, with tea available afterwards. Please put a note beside your dish listing any ingredients that could cause an allergy.
+
+## 000044-p229
+
+The revised guide adds instructions for the calendar integration. Hosts can connect their booking calendar and choose which events appear in the reception schedule. Changes are copied every fifteen minutes, and a warning appears if the connection fails. We have also corrected the telephone number shown on the sample booking confirmation.
+
+## 000044-p237
+
+This month's volunteer handbook introduces a welcome alignment framework. The opening page now asks hosts to greet each visitor by name and offer to show them the room before the talk begins. We have moved the emergency telephone numbers to the inside cover. Please replace the old handbook at the reception desk.
+
+## 000044-p214
+
+The new edition gives the neighbourhood walking guide a stronger belonging architecture. We have added short introductions from residents who describe their favourite bench, shop, or tree along the route. The map still covers the same two-mile walk. Printed copies will be available at the library desk from Monday morning.
+
+## 000044-p224
+
+Begin each reading session by helping participants calibrate their curiosity. Ask everyone to choose a book from the trolley and say what caught their attention on its cover. Give quieter members time to look before inviting answers. Return the books to the trolley after the discussion so the next group can use them.
+
+## 000044-p213
+
+Tuesday's residents' meeting will discuss the capacity of the common room. The room can seat forty people, and several recent events have exceeded that number. We will compare using the adjoining room with holding two sessions. Meet at ten; the caretaker will bring measurements and the current fire-safety occupancy limit.
+
+## 000044-p217
+
+Version two of the conversation cards adds a friendship workflow to the final card. It invites players to tell the person next to them about a place they like visiting and ask about theirs. We have also increased the type size and removed two duplicate questions. The box contains the same number of cards.
+
+## 000044-p232
+
+Begin the stock audit by printing the inventory list for the selected storeroom. Count the items on each shelf and enter the observed quantities beside the recorded balances. A second person must check every discrepancy before the balance is changed. Keep the signed count sheet with the adjustment record for the auditor.
+
+## 000044-p240
+
+Create a supportive social interface for the book group before discussion begins. Put the chairs in a circle and ask each participant to introduce themselves to the person beside them. Keep a spare copy of the book on the table. After the introductions, read the opening question from the sheet supplied.
+
+## 000044-p215
+
+Before each measuring session, calibrate the scale with the supplied reference weight. Place the weight in the centre of the platform and press Calibrate. Wait for the display to show the reference value before removing it. If the reading falls outside the stated tolerance, repeat the procedure on a level surface.
+
+## 000044-p203
+
+The new edition adds a section on the architecture of the covered market. It identifies the cast-iron roof supports and explains how the wide central span leaves room for stalls below. The walking route stays the same. Printed copies of the guide will be available at the library desk from Monday morning.
+
+## 000044-p206
+
+Saturday's computing club will demonstrate route optimization for the neighbourhood's meal deliveries. We will compare routes that visit the same addresses while keeping each driver's journey within an hour, then choose the shortest total distance. Bring a laptop if you would like to try the exercise. Doors open at ten, with tea in the kitchen.
+
+## 000044-p226
+
+Check the site's electrical infrastructure before installing the charging points. Each unit requires a dedicated circuit with the rating shown on its label. Record the existing supply capacity on the survey form and send it to the installation team. A qualified electrician must confirm the circuit arrangement before work begins.
+
+## 000044-p216
+
+Come and help survey the pond ecosystem on Friday afternoon. Volunteers will count water plants and record the insects found in sample trays before returning them to the pond. Meet by the hall at two and wear boots. The results will help us check how the new reed bed is affecting the pond.
+
+## 000044-p228
+
+Close the craft session with a momentum management exercise. Invite everyone to place their finished work on the table and say which part they most enjoyed making. Allow participants to pass if they would rather listen. After the discussion, hand out the envelopes so people can take their cards home without bending them.
+
+## 000044-p221
+
+The kitchen scale needed recalibration after I moved it from the tiled counter to a level wooden table. With the supplied weight on the platform, it initially read two grams high. The recalibration procedure corrected that reading, and repeated measurements now agree. The buttons are small but easy to wipe clean after baking.
+
+## 000044-p204
+
+Build the emotional infrastructure of the tea break before the guests arrive. Set out cups and biscuits on the side table, and invite people to sit wherever they feel comfortable. Leave a chair near the door for anyone arriving late. Wash the cups after the group has returned to the main room.
+
+## 000044-p239
+
+This month's printer update adds an alignment check to the maintenance menu. The printer produces a test sheet, and the operator selects the pattern with the straightest lines. The selected value corrects the position of subsequent passes. Existing paper profiles remain available after the update, and the check can be repeated whenever needed.
+
+## 000044-p212
+
+Our Sunday picnic will be a catalyst for conviviality in the village. Bring a blanket and something to eat, then join the tables near the bandstand. The school choir will sing at one. If it rains, we will move into the scout hut, where the same volunteers will serve tea from noon.
+
+## 000044-p205
+
+The update adds an artificial intelligence model to the annotation layer of the photo editor. It proposes an outline around the selected object, which users can adjust before saving. The original photograph remains unchanged beneath that layer. The release also increases the size of the handles used to edit each proposed outline.
+
+## 000044-p235
+
+The courtyard's automatic lighting now uses motion activation after dusk. A sensor switches the lights on when someone enters and keeps them on for five minutes after the last movement. The caretaker will demonstrate the manual override at Sunday's breakfast. Please report any dark patches near the steps to the estate office.
+
+## 000044-p222
+
+Finish the welcome with a happiness protocol. Offer each new member a cup of tea, ask how their journey went, and show them where the coats go. You can then introduce them to the person leading the session. Keep spare name badges beside the register for anyone whose badge has gone missing.
+
+## 000044-p236
+
+This little radio has become my evening mood stabilisation system. I put it beside the kitchen window and listen to the gardening programme while making supper. The tuning dial stays where I leave it, and the speaker is clear enough at a low volume. It also fits on the narrow shelf above the sink.
+
+## 000044-p220
+
+The revised host handbook adds a community integration pathway to the first evening. Hosts are now encouraged to invite a neighbour for tea and introduce them to the visiting family. The sample invitation is printed on the following page. We have also added the weekend bus timetable and corrected the leisure centre's telephone number.
+
+## 000044-p241
+
+Join us for some joy resource allocation at the library on Saturday. Volunteers will read picture books aloud, and children can choose a story to hear next. The session begins at eleven in the carpeted corner beside the windows. A parent or carer should stay with each child throughout the reading.
+
+## 000044-p219
+
+Follow the safeguarding protocol if a child leaves the activity room without their carer. One staff member must remain with the group while another contacts the duty manager using the hall telephone. Record the time and the actions taken on the incident form. Keep the completed form in the locked office cabinet.
+
+## 000044-p211
+
+Use this stage to optimize the emotional bandwidth of the welcome. Set a jug of water and clean glasses on the small table beside the entrance, with a card inviting guests to help themselves. Refill the jug during the break and take used glasses to the kitchen before the next group arrives.
+
+## 000044-p238
+
+We are launching a neighbourliness activation programme with a shared breakfast on Sunday. Come to the courtyard from nine, bring a mug, and sit with someone you have yet to meet. We will provide bread, jam, and hot water for tea. The caretaker will open the common room if rain makes the courtyard unusable.
+
+## 000044-p230
+
+The revised controller uses a feedback loop to hold the room temperature near the selected value. It reads the sensor every minute and adjusts the valve when the reading differs from the setting. The release also fixes the clock display after a power cut. Existing temperature schedules remain saved during the update.
+
+## 000044-p227
+
+Saturday's repair morning is part of our social optimization programme for the neighbourhood. Residents can bring a broken household item, sit with a volunteer, and try a repair together. Tea will be available in the hall kitchen, and people waiting for help are welcome to introduce themselves at the long table. Doors open at ten.
 
