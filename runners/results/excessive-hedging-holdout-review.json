@@ -202,5 +202,135 @@
         }
       }
     }
+  ],
+  "authorPoolCopyAudit": {
+    "stage": "240-candidate author pools before full review",
+    "verifierSha256": "91fd3426b13de77869c3305499288aad33733c0f69d23a3a811321e212f17f53",
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. New cross-split pairs plus prior datasets; unsplit references checked against both splits.",
+    "newInputs": 960,
+    "priorDocuments": 15697,
+    "referenceInputs": 306786,
+    "pairs": 289437600,
+    "shortComparisons": 817371,
+    "candidates": 0,
+    "exact": 0,
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000053-excessive-hedging-hedge-stacking-development.md",
+        "sha256": "bc47bc2dcd901c3bd9cd680fb598211df40d2445aa31f7cb3c0082edbbd55342",
+        "labelsSha256": "ee1b2190009c26852e8e4a237b13afc483c842db7d89aee4f3cd9a3f081c71ee"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
+        "sha256": "de31360772d526c3510305f0e0eb1b1dc8e268683f942255edceee32e4724ba9",
+        "labelsSha256": "fea2cf06ef86b8cfaa2c392175e9b6e0a39bf88271ead39bde924a16b8042b6b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md",
+        "sha256": "ff60350361458862fba30868f77d1fb98942b254588b8fa819c41faadae9cfd6",
+        "labelsSha256": "5fab844e8f24d8e76fc61cccf6fb085c3cacff6dc3c8c9bcbae3b74885ec00c1"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md",
+        "sha256": "4f6eecf375f8f9bf287efca26fb0eb315fced250ac87bc45f7c22ba7da7d8689",
+        "labelsSha256": "1a1acaac2d58e3adf8cc9eb3edbc7e04473568e9b43b39bfc6adfdc37d9e5b18"
+      }
+    ],
+    "priorSourcesSha256": "b3c3542a44025397583d0f5c8916dbf26446113f6d572926becdcfb59fec48d1",
+    "reportSha256": "50698c7cd43510c54fdaef24e0d19cc4896a0230b348efaa245f54780a9e561d",
+    "initialHarnessRepair": "The copied final-subset guards expected 100/100; both guards were corrected to the current 120/120 pools before the successful rerun. No dataset or detector changes.",
+    "snapshotCommit": "c129617cc7d4ad9f8300765b1e4f6fee625ca7c8"
+  },
+  "authorPoolSnapshotCommit": "c129617cc7d4ad9f8300765b1e4f6fee625ca7c8",
+  "fullReviewPass1": [
+    {
+      "collection": "000054",
+      "reportPath": "/tmp/000054-holdout-fullpool-v18-reconciliation-r1.json",
+      "reportSha256": "6c504033e68b975322a8e29c10849ff1cc27803e94d83b21ce1f63d9c65bc436",
+      "counts": {
+        "total": 240,
+        "labelAgreements": 240,
+        "labelDisagreements": 0,
+        "hits": 120,
+        "noHits": 120,
+        "hitSnippetExactAgreements": 23,
+        "snippetBoundaryDifferences": 97,
+        "snippetSemanticDifferences": 0,
+        "noHitSnippetOmissions": 120,
+        "approvedRowsPass1": 240,
+        "proposedLabelChanges": 0,
+        "proposedSnippetChanges": 0,
+        "proposedTextChanges": 0,
+        "existingRepairsRetained": 120,
+        "additionalProseFixes": 0,
+        "uncertainCases": 1,
+        "remainingDisputes": 1
+      },
+      "phase": "Blind classification and subsequent author comparison",
+      "remainingIndependentFullReviews": 2
+    },
+    {
+      "collection": "000056",
+      "reportPath": "/tmp/000056-holdout-fullpool-v18-reconciliation-r1.json",
+      "reportSha256": "306696d077a5c9891e9603e2f96c75a5ea205f73b5f65e4bc4501424efb5e15a",
+      "counts": {
+        "passages": 240,
+        "classificationsCompared": 720,
+        "classificationAgreements": 717,
+        "classificationDisputes": 3,
+        "sharedPositive": 358,
+        "sharedNegative": 359,
+        "authorOnlyPositive": 2,
+        "blindOnlyPositive": 1,
+        "positiveSnippetComparisons": {
+          "exact": 341,
+          "boundaryOnly": 17,
+          "semantic": 0
+        },
+        "authorPositiveSnippets": 386,
+        "blindPositiveSnippets": 385,
+        "approvedClassificationAgreements": 717,
+        "unresolvedRetainingAuthor": 3,
+        "changedClassifications": 0,
+        "changedSnippetDecisions": 0,
+        "byCheck": {
+          "excessive-hedging/hedge-stacking": {
+            "classifications": 240,
+            "agreements": 239,
+            "disputes": 1,
+            "authorHits": 120,
+            "blindHits": 121,
+            "reviewedHits": 120,
+            "exactPositiveSnippets": 114,
+            "boundaryOnlyPositiveSnippets": 6,
+            "semanticPositiveSnippetDifferences": 0
+          },
+          "unsupported-authority/vague-attribution": {
+            "classifications": 240,
+            "agreements": 239,
+            "disputes": 1,
+            "authorHits": 120,
+            "blindHits": 119,
+            "reviewedHits": 120,
+            "exactPositiveSnippets": 119,
+            "boundaryOnlyPositiveSnippets": 0,
+            "semanticPositiveSnippetDifferences": 0
+          },
+          "puffery-and-overstatement/inflated-evaluation": {
+            "classifications": 240,
+            "agreements": 239,
+            "disputes": 1,
+            "authorHits": 120,
+            "blindHits": 119,
+            "reviewedHits": 120,
+            "exactPositiveSnippets": 108,
+            "boundaryOnlyPositiveSnippets": 11,
+            "semanticPositiveSnippetDifferences": 0
+          }
+        }
+      },
+      "phase": "Blind classification and subsequent author comparison",
+      "remainingIndependentFullReviews": 2
+    }
   ]
 }

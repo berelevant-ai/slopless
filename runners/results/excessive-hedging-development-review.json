@@ -1899,5 +1899,188 @@
         }
       }
     }
-  ]
+  ],
+  "authorPoolCopyAudit": {
+    "stage": "240-candidate author pools before full review",
+    "verifierSha256": "91fd3426b13de77869c3305499288aad33733c0f69d23a3a811321e212f17f53",
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. New cross-split pairs plus prior datasets; unsplit references checked against both splits.",
+    "newInputs": 960,
+    "priorDocuments": 15697,
+    "referenceInputs": 306786,
+    "pairs": 289437600,
+    "shortComparisons": 817371,
+    "candidates": 0,
+    "exact": 0,
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000053-excessive-hedging-hedge-stacking-development.md",
+        "sha256": "bc47bc2dcd901c3bd9cd680fb598211df40d2445aa31f7cb3c0082edbbd55342",
+        "labelsSha256": "ee1b2190009c26852e8e4a237b13afc483c842db7d89aee4f3cd9a3f081c71ee"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
+        "sha256": "de31360772d526c3510305f0e0eb1b1dc8e268683f942255edceee32e4724ba9",
+        "labelsSha256": "fea2cf06ef86b8cfaa2c392175e9b6e0a39bf88271ead39bde924a16b8042b6b"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md",
+        "sha256": "ff60350361458862fba30868f77d1fb98942b254588b8fa819c41faadae9cfd6",
+        "labelsSha256": "5fab844e8f24d8e76fc61cccf6fb085c3cacff6dc3c8c9bcbae3b74885ec00c1"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md",
+        "sha256": "4f6eecf375f8f9bf287efca26fb0eb315fced250ac87bc45f7c22ba7da7d8689",
+        "labelsSha256": "1a1acaac2d58e3adf8cc9eb3edbc7e04473568e9b43b39bfc6adfdc37d9e5b18"
+      }
+    ],
+    "priorSourcesSha256": "b3c3542a44025397583d0f5c8916dbf26446113f6d572926becdcfb59fec48d1",
+    "reportSha256": "50698c7cd43510c54fdaef24e0d19cc4896a0230b348efaa245f54780a9e561d",
+    "initialHarnessRepair": "The copied final-subset guards expected 100/100; both guards were corrected to the current 120/120 pools before the successful rerun. No dataset or detector changes.",
+    "snapshotCommit": "c129617cc7d4ad9f8300765b1e4f6fee625ca7c8"
+  },
+  "authorPoolSnapshotCommit": "c129617cc7d4ad9f8300765b1e4f6fee625ca7c8",
+  "fullReviewPass1": [
+    {
+      "collection": "000053",
+      "reportPath": "/tmp/000053-development-fullpool-v18-reconciliation-r1.json",
+      "reportSha256": "891f77f332a8fbb2e95ff67e789824aa4e3700a7c7f3791cbf2ffa86ad782abc",
+      "counts": {
+        "passages": 240,
+        "comparisons": 240,
+        "author": {
+          "hits": 120,
+          "noHits": 120
+        },
+        "blind": {
+          "total": 240,
+          "hits": 120,
+          "noHits": 120
+        },
+        "reviewed": {
+          "hits": 120,
+          "noHits": 120
+        },
+        "classificationAgreements": 240,
+        "classificationDisagreements": 0,
+        "positiveSnippetComparisons": 120,
+        "identicalPositiveSnippetArrays": 51,
+        "boundaryOnlyPositiveSnippetDifferences": 69,
+        "semanticPositiveSnippetDifferences": 0,
+        "wordingAmbiguities": 2,
+        "repairScopeConcerns": 2,
+        "internallyImplausiblePassagesIdentified": 0,
+        "preservedHardControls": 120,
+        "textChangesApplied": 0,
+        "repairChangesApplied": 0,
+        "classificationChangesApplied": 0,
+        "snippetBoundaryChangesApplied": 69,
+        "authorSnippetsChecked": 150,
+        "blindSnippetsChecked": 150,
+        "reviewedSnippetsChecked": 150
+      },
+      "phase": "Blind classification and subsequent author comparison",
+      "remainingIndependentFullReviews": 2
+    },
+    {
+      "collection": "000055",
+      "reportPath": "/tmp/000055-development-fullpool-v18-reconciliation-r1b.json",
+      "reportSha256": "a0df47182c9a03c35c0d407fc929cdce615393478ca23c9a93182728dacaefe6",
+      "counts": {
+        "passages": 240,
+        "judgments": 720,
+        "hits": 357,
+        "noHits": 363,
+        "byCheck": {
+          "excessive-hedging/hedge-stacking": {
+            "hits": 119,
+            "noHits": 121
+          },
+          "unsupported-authority/vague-attribution": {
+            "hits": 119,
+            "noHits": 121
+          },
+          "puffery-and-overstatement/inflated-evaluation": {
+            "hits": 119,
+            "noHits": 121
+          }
+        },
+        "combinationOrder": [
+          "excessive-hedging/hedge-stacking",
+          "unsupported-authority/vague-attribution",
+          "puffery-and-overstatement/inflated-evaluation"
+        ],
+        "combinationCounts": {
+          "100": 29,
+          "101": 30,
+          "110": 30,
+          "111": 30,
+          "000": 32,
+          "001": 30,
+          "010": 30,
+          "011": 29
+        },
+        "initialClassificationAgreements": 717,
+        "initialClassificationDisputes": 3,
+        "parentAcceptedCorrections": 3,
+        "unresolvedDisputes": 0,
+        "approvedJudgments": 720,
+        "provisionalJudgments": 0,
+        "changedClassifications": 3,
+        "removedSnippetArrays": 3,
+        "remainingLiteralHitSnippets": 386,
+        "unchangedSnippetBoundaryDifferences": 57,
+        "semanticSnippetDifferences": 0
+      },
+      "phase": "Blind classification and subsequent author comparison",
+      "remainingIndependentFullReviews": 2
+    }
+  ],
+  "preInferenceAdjudication": {
+    "modelJudgmentsSoFar": 0,
+    "sourceSnapshotCommit": "c129617cc7d4ad9f8300765b1e4f6fee625ca7c8",
+    "status": "Accepted corrections are preserved in reviewed temporary pools; root author-pool labels remain provisional until all three full reviews finish.",
+    "corrections": [
+      {
+        "id": "000055-857d5d76e09d",
+        "check": "puffery-and-overstatement/inflated-evaluation",
+        "before": true,
+        "after": false,
+        "reason": "The supplied nonreader-access mechanism and visual-access limitation support the proportionate comparison.",
+        "mandatory": true
+      },
+      {
+        "id": "000055-a297452ce803",
+        "check": "excessive-hedging/hedge-stacking",
+        "before": true,
+        "after": false,
+        "reason": "Uncertainty about conditional practical capability can contribute meaning beyond the capability claim.",
+        "mandatory": true
+      },
+      {
+        "id": "000055-9daf0cbc69d7",
+        "check": "unsupported-authority/vague-attribution",
+        "before": true,
+        "after": false,
+        "reason": "The narrative documents reliance on a belief immediately contradicted by the cart failing.",
+        "mandatory": true
+      },
+      {
+        "id": "000053-caf3ba058d12",
+        "check": "excessive-hedging/hedge-stacking",
+        "before": true,
+        "after": false,
+        "reason": "Bag membership and destination arrival are distinct claims; preserve both forecasts.",
+        "mandatory": true
+      }
+    ],
+    "retainedHardHit": {
+      "id": "000053-2ed5a403a09b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "reason": "The first forecast implies the second weaker deadline without a stated revision or new evidence.",
+      "mandatory": true
+    },
+    "temporaryRepairCorrections": 2,
+    "pass2RetrievalDisclosure": "The isolated development reviewer initially retrieved the full taxonomy and extra same-collection snippet comparisons. No separate holdout, prompt or model-output file was opened; its report records the overruns. Final reviewers are instructed to retrieve only their definition section."
+  }
 }
