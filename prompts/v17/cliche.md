@@ -1,27 +1,33 @@
 ---
 {
-  "instructions": "Does the complete target contain a conventional stock expression used as generic rhetoric according to the cliche definition in state?",
+  "instructions": "Does the writer adopt a conventional saying or stock image as generic reassurance, praise or decoration, rather than communicate a particular useful state or relationship? Apply the contextual distinction in state; merely quoting or containing a familiar expression is insufficient.",
   "criteria":
     {
-      "true": "A recognizable reusable saying, figurative expression or genre formula supplies generic reassurance, description or rhetorical decoration instead of wording fitted to the subject.",
-      "false": "No conventional expression serves that generic rhetorical function. Preserve literal descriptions, meaningful names, examined wording, useful idioms and purposeful wordplay."
+      "true": "The writer uses a recognizable ready-made expression as an interchangeable slogan, generic compliment, stock reassurance or decorative image. The expression contributes that generic rhetoric rather than a particular useful meaning.",
+      "false": "Every familiar expression contributes a particular useful state or relationship, literal meaning, a name, documented or examined wording, or purposeful wordplay; or only other check types occur."
     }
 }
 ---
 
 # Cliche
 
-Require both a recognizable conventional expression and its generic rhetorical use. Cover corporate, self-help, academic, travel, food and other stock formulas, including unfamiliar variations of the same construction. Familiarity alone is insufficient.
+Start with a recognizable complete conventional saying, stock image or genre formula. Then judge its job in this passage. The writer must adopt it as generic rhetoric for a hit; quoting a historical slogan or showing wording being replaced remains no-hit.
 
-A useful idiom concisely communicates a particular state or relationship established by the passage. Preserve that meaning. A generic slogan, stock compliment or decorative image can remain defective beside useful facts; those facts do not automatically make the expression informative. Merely finding a plainer paraphrase supplies no defect.
+Preserve an idiom whose ordinary figurative meaning directly communicates the particular state or relationship described. Responsibility passing to someone else, a complete reset, a bypass, a consolation and proactive work can be useful meanings. Familiarity or the availability of a plainer paraphrase alone supplies no defect.
 
-Assign decorative technical metaphors to borrowed jargon, garbled substitutions to tortured phrasing and stock physical emotion or atmosphere to narrative craft. An ordinary adjective-noun combination is not automatically a conventional expression. Missing substantive meaning, inflated praise and disposable introductions retain their separate definitions. Judge the stock expression itself.
+Distinguish that useful meaning from a generic service promise, product compliment or inspirational assurance. Nearby facts protect the meaning they supply; they do not automatically redeem a stock slogan that merely praises or reassures. Judge what the expression itself contributes.
+
+Require a conventional expression independently of other bad writing. Ornamental adjectives, decorative quietly, an invented computing metaphor or a garbled technical name can be other defects without being a cliche. Assign imported technical register to borrowed jargon, corrupted terms to tortured phrasing, and stock physical emotion to narrative craft. Ordinary compositional wording does not become a conventional expression because it sounds inflated or vague.
 
 ## Development Examples
 
 ### Hit
 
 For our wedding reception, the hotel and Fern Catering would be **a match made in heaven**. Fern's quote covers dinner for sixty guests, table linen and two servers until ten. The hotel charges separately for drinks and lets an outside caterer use its kitchen for a fee of 180 pounds.
+
+### Hit
+
+This little kitchen timer is **worth its weight in gold**. I have used it for a fortnight when baking bread and simmering rice. The display is readable from across the worktop, and the batteries came in the box. It fits in the drawer beside my measuring spoons.
 
 ### Hit
 
@@ -33,4 +39,8 @@ Our job advert promised applicants they could "unlock your full potential". Seve
 
 ### No-Hit
 
-The manual address field is an escape hatch for properties the postcode search cannot find. Select Enter address manually beneath the search results, then complete each required line. This bypasses the lookup service but still checks that the country and postal code have been supplied.
+We sent the signed claim to the retailer on Monday and received its acknowledgement yesterday. The ball is in their court now. You can still add photographs through this ticket, and I will forward anything you send to the person handling the claim at the shop.
+
+### No-Hit
+
+Our new staff directory is quietly indispensable for the office. It offers a holistic introduction to each colleague, with multifaceted profile pages that enrich the account of who does what. People can list their role, usual working days, and a hobby they would be happy to discuss over lunch. We are asking everyone to check their own entry this week, especially the telephone extension, before we print the reception copy for visitors.

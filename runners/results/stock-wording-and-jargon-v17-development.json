@@ -1,0 +1,333 @@
+{
+  "family": "stock-wording-and-jargon",
+  "version": "v17",
+  "model": "jev-1.13.0",
+  "sdk": "0.7.0",
+  "mode": "classification-only",
+  "threshold": 0.5,
+  "batchSize": 16,
+  "freezeCommit": "913ba940",
+  "acceptance": {
+    "hitsPerSet": 100,
+    "noHitsPerSet": 100,
+    "caughtAtLeast": 95,
+    "falsePositivesAtMost": 5,
+    "sets": [
+      "isolated",
+      "mixed"
+    ],
+    "freshConfirmationRequired": true
+  },
+  "limits": {
+    "maxRevisionsPerCheck": 3,
+    "consecutiveNonImprovements": 2,
+    "maxDevelopmentJudgments": 8000,
+    "maxConfirmationJudgments": 2000
+  },
+  "demonstrationIDs": {
+    "cliche": [
+      "000041-003",
+      "000041-007",
+      "000041-010",
+      "000041-024"
+    ],
+    "borrowed-jargon": [
+      "000043-003",
+      "000043-004",
+      "000043-006",
+      "000043-022"
+    ],
+    "tortured-phrasing": [
+      "000045-074",
+      "000045-101",
+      "000045-150",
+      "000045-175"
+    ],
+    "hidden-significance-adverb": [
+      "000047-137",
+      "000047-018",
+      "000047-097",
+      "000047-050",
+      "000047-016",
+      "000047-069"
+    ],
+    "stock-vocabulary": [
+      "000049-d-d6b8fb87997b",
+      "000049-201",
+      "000049-p-b204c71478d2",
+      "000049-p-20eac6437f15",
+      "000049-d-1c99c4e8d2ef"
+    ]
+  },
+  "trials": [
+    {
+      "check": "cliche",
+      "revision": "b0",
+      "promptCommit": "913ba940",
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-b0-isolated-development.json",
+          "caught": 100,
+          "missed": 0,
+          "noHits": 100,
+          "falsePositives": 48,
+          "correctNoHits": 52,
+          "errors": 48,
+          "requests": 13,
+          "inputTokens": 48308,
+          "outputTokens": 5452,
+          "elapsedMs": 3629.8041240000007
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-b0-mixed-development.json",
+          "caught": 100,
+          "missed": 0,
+          "noHits": 100,
+          "falsePositives": 28,
+          "correctNoHits": 72,
+          "errors": 28,
+          "requests": 13,
+          "inputTokens": 55040,
+          "outputTokens": 5452,
+          "elapsedMs": 3459.083457
+        }
+      },
+      "totalErrors": 76,
+      "caught": 200,
+      "passes": false
+    },
+    {
+      "check": "borrowed-jargon",
+      "revision": "b0",
+      "promptCommit": "913ba940",
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-b0-isolated-development.json",
+          "caught": 100,
+          "missed": 0,
+          "noHits": 100,
+          "falsePositives": 14,
+          "correctNoHits": 86,
+          "errors": 14,
+          "requests": 13,
+          "inputTokens": 53271,
+          "outputTokens": 6452,
+          "elapsedMs": 3627.4536239999993
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-b0-mixed-development.json",
+          "caught": 99,
+          "missed": 1,
+          "noHits": 100,
+          "falsePositives": 54,
+          "correctNoHits": 46,
+          "errors": 55,
+          "requests": 13,
+          "inputTokens": 59282,
+          "outputTokens": 6452,
+          "elapsedMs": 3453.568918
+        }
+      },
+      "totalErrors": 69,
+      "caught": 199,
+      "passes": false
+    },
+    {
+      "check": "tortured-phrasing",
+      "revision": "b0",
+      "promptCommit": "913ba940",
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-b0-isolated-development.json",
+          "caught": 72,
+          "missed": 28,
+          "noHits": 100,
+          "falsePositives": 8,
+          "correctNoHits": 92,
+          "errors": 36,
+          "requests": 13,
+          "inputTokens": 50279,
+          "outputTokens": 6252,
+          "elapsedMs": 3903.4554170000015
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-b0-mixed-development.json",
+          "caught": 41,
+          "missed": 59,
+          "noHits": 100,
+          "falsePositives": 3,
+          "correctNoHits": 97,
+          "errors": 62,
+          "requests": 13,
+          "inputTokens": 57297,
+          "outputTokens": 6252,
+          "elapsedMs": 3479.340041000001
+        }
+      },
+      "totalErrors": 98,
+      "caught": 113,
+      "passes": false
+    },
+    {
+      "check": "hidden-significance-adverb",
+      "revision": "b0",
+      "promptCommit": "913ba940",
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-b0-isolated-development.json",
+          "caught": 96,
+          "missed": 4,
+          "noHits": 100,
+          "falsePositives": 4,
+          "correctNoHits": 96,
+          "errors": 8,
+          "requests": 13,
+          "inputTokens": 55838,
+          "outputTokens": 6452,
+          "elapsedMs": 3699.4620010000003
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-b0-mixed-development.json",
+          "caught": 100,
+          "missed": 0,
+          "noHits": 100,
+          "falsePositives": 0,
+          "correctNoHits": 100,
+          "errors": 0,
+          "requests": 13,
+          "inputTokens": 62917,
+          "outputTokens": 6452,
+          "elapsedMs": 3426.484957999999
+        }
+      },
+      "totalErrors": 8,
+      "caught": 196,
+      "passes": true
+    },
+    {
+      "check": "stock-vocabulary",
+      "revision": "b0",
+      "promptCommit": "913ba940",
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-isolated-development.json",
+          "caught": 97,
+          "missed": 3,
+          "noHits": 100,
+          "falsePositives": 46,
+          "correctNoHits": 54,
+          "errors": 49,
+          "requests": 13,
+          "inputTokens": 59909,
+          "outputTokens": 7307,
+          "elapsedMs": 3641.1027929999996
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-mixed-development.json",
+          "caught": 100,
+          "missed": 0,
+          "noHits": 100,
+          "falsePositives": 11,
+          "correctNoHits": 89,
+          "errors": 11,
+          "requests": 13,
+          "inputTokens": 64577,
+          "outputTokens": 6052,
+          "elapsedMs": 3613.0699580000005
+        }
+      },
+      "totalErrors": 60,
+      "caught": 197,
+      "passes": false
+    }
+  ],
+  "selected": {
+    "hidden-significance-adverb": {
+      "revision": "b0",
+      "promptCommit": "913ba940",
+      "reason": "First passing baseline on both development sets; frozen before fresh confirmation."
+    }
+  },
+  "confirmations": [
+    {
+      "check": "hidden-significance-adverb",
+      "revision": "b0",
+      "promptCommit": "913ba940",
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-confirmation-isolated-development.json",
+          "caught": 98,
+          "missed": 2,
+          "falsePositives": 3,
+          "noHits": 100,
+          "requests": 13
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-hidden-significance-adverb-confirmation-mixed-development.json",
+          "caught": 99,
+          "missed": 1,
+          "falsePositives": 0,
+          "noHits": 100,
+          "requests": 13
+        }
+      },
+      "passes": true,
+      "freshPaths": true
+    }
+  ],
+  "holdoutInference": "requires separate user authorization",
+  "pendingRevisions": {
+    "checks": [
+      "cliche",
+      "borrowed-jargon",
+      "tortured-phrasing"
+    ],
+    "revision": "r1",
+    "demonstrationIDs": {
+      "cliche": [
+        "000041-003",
+        "000041-006",
+        "000041-007",
+        "000041-010",
+        "000041-029",
+        "000051-009"
+      ],
+      "borrowed-jargon": [
+        "000043-003",
+        "000043-004",
+        "000051-025",
+        "000043-052",
+        "000043-022",
+        "000051-037"
+      ],
+      "tortured-phrasing": [
+        "000045-074",
+        "000045-101",
+        "000045-150",
+        "000045-175",
+        "000051-037",
+        "000045-017"
+      ],
+      "hidden-significance-adverb": [
+        "000047-137",
+        "000047-018",
+        "000047-097",
+        "000047-050",
+        "000047-016",
+        "000047-069"
+      ],
+      "stock-vocabulary": [
+        "000049-d-d6b8fb87997b",
+        "000049-201",
+        "000049-p-b204c71478d2",
+        "000049-p-20eac6437f15",
+        "000049-d-1c99c4e8d2ef"
+      ]
+    }
+  },
+  "vocabularyAdjudication": {
+    "status": "independent blind review in progress",
+    "reason": "Several no-hit controls contain three ornaments under the existing definition; preserve original predictions while adjudicating labels independently.",
+    "scoresPreserved": true
+  }
+}
