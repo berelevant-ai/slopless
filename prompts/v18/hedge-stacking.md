@@ -19,17 +19,19 @@ Find repeated tentative qualification of the same claim. Judge what each qualifi
 - An ability can itself be uncertain. Preserve a possibility assessment about whether a practical capability exists, including its conditions. Judge an uncertainty frame plus could in context rather than banning the combination.
 - Distinguish that capability from an outcome forecast. A chance or possibility of an event plus may, might or could predicting that same event repeats one uncertainty. Possibility words beside conceivably, perhaps or possibly can likewise qualify the same proposition twice. Concrete causes, sensible advice and genuine uncertainty leave a redundant layer eligible.
 - Identify what each layer qualifies. Reporting evidence can qualify one claim while a later outcome has its own redundant qualifications. Preserve the evidence statement and judge the later duplication independently.
+- Read conceivably and similar adverbs as possibility qualifications, including after a modal. A possible diagnosis or possible consequence stays tentative after removing one of two equivalent qualifiers; useful caution needs one layer rather than every layer used.
 - Across sentences, require the same proposition and repeated qualification. Preserve a later cause, evidence, correction, changed time, changed probability or added condition.
 - Preserve useful request politeness, tact, emphasis, hope, suspense and hesitation conveyed by the writing. Genre, dialogue or a nearby emotional word alone supplies no exemption.
 - A tentative request can retain its deferential wording when the passage makes a real accommodation negotiable. A character's repeated hope can carry the uncertainty of a consequential attempt rather than supply an editorial hedge.
 - Preserve quoted wording being documented, corrected or examined. Assess adopted quotations and ordinary dialogue by the same contribution test.
+- A historical quotation with variant readings is documentary language. A writer explicitly accepting a quoted diagnosis adopts its redundant wording. A possible effect and a proposed cause remain separate claims even when they concern the same object.
 - Judge this defect separately from an anonymous authority appeal or an exaggerated evaluation. One useful qualification is a no-hit.
 
 ## Hits
 
 Could you please check the statement for a second entry under our payment processor's name? The credit **could possibly** appear as two entries because the original order used two cards. I have attached the refund references for both payments. Send us the entry dates if only one appears, and we will follow up with the processor.
 
-**It is conceivable that** a shorter briefing **could** leave more time for questions at our monthly supplier meeting. Last month, the slides took forty minutes and the warehouse team left before we reached their concerns. For the next meeting, I am asking each department for one decision that needs discussion and sending the routine figures in advance.
+**There is a chance** the shorter application **could** bring in people who stopped at the first page last year. We have kept the eligibility questions and moved the supporting documents to the interview stage. The recruitment team will compare completion rates before changing the other forms.
 
 **The pottery class may finish early this Thursday. An early finish is a possibility.** The caretaker needs the room cleared for an electrical inspection at eight, and we are still arranging access to the drying cupboard. Please bring a box for any pieces you want to take home. The following week's session is booked for its usual two hours.
 
