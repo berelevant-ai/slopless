@@ -17,8 +17,11 @@ Find repeated tentative qualification of the same claim. Judge what each qualifi
 - Adjacent words, an uncertainty frame around an already tentative claim, and a later restatement of the same possibility or likelihood can repeat tentative force. Useful details elsewhere leave a separate duplicate eligible.
 - Preserve uncertainty on different claims, population or frequency restrictions, meaningful appearance-versus-reality distinctions, and evidence reporting plus a possible inference.
 - An ability can itself be uncertain. Preserve a possibility assessment about whether a practical capability exists, including its conditions. Judge an uncertainty frame plus could in context rather than banning the combination.
+- Distinguish that capability from an outcome forecast. A chance or possibility of an event plus may, might or could predicting that same event repeats one uncertainty. Possibility words beside conceivably, perhaps or possibly can likewise qualify the same proposition twice. Concrete causes, sensible advice and genuine uncertainty leave a redundant layer eligible.
+- Identify what each layer qualifies. Reporting evidence can qualify one claim while a later outcome has its own redundant qualifications. Preserve the evidence statement and judge the later duplication independently.
 - Across sentences, require the same proposition and repeated qualification. Preserve a later cause, evidence, correction, changed time, changed probability or added condition.
 - Preserve useful request politeness, tact, emphasis, hope, suspense and hesitation conveyed by the writing. Genre, dialogue or a nearby emotional word alone supplies no exemption.
+- A tentative request can retain its deferential wording when the passage makes a real accommodation negotiable. A character's repeated hope can carry the uncertainty of a consequential attempt rather than supply an editorial hedge.
 - Preserve quoted wording being documented, corrected or examined. Assess adopted quotations and ordinary dialogue by the same contribution test.
 - Judge this defect separately from an anonymous authority appeal or an exaggerated evaluation. One useful qualification is a no-hit.
 
