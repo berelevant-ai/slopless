@@ -621,6 +621,387 @@
       "totalErrors": 64,
       "caught": 141,
       "passes": false
+    },
+    {
+      "check": "cliche",
+      "revision": "r2",
+      "promptCommit": "b834fb42",
+      "demonstrationIDs": [
+        "000041-003",
+        "000041-006",
+        "000041-007",
+        "000041-010",
+        "000041-029",
+        "000051-009"
+      ],
+      "assembledWords": 748,
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-r2-isolated-development.json",
+          "caught": 97,
+          "missed": 3,
+          "noHits": 100,
+          "falsePositives": 7,
+          "correctNoHits": 93,
+          "errors": 10,
+          "requests": 13,
+          "inputTokens": 65233,
+          "outputTokens": 5452,
+          "elapsedMs": 3658.503873,
+          "deltaAgainstBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000041-063",
+              "000041-120",
+              "000041-144"
+            ],
+            "correctedFalsePositives": [
+              "000041-008",
+              "000041-029",
+              "000041-030",
+              "000041-032",
+              "000041-038",
+              "000041-039",
+              "000041-048",
+              "000041-055",
+              "000041-068",
+              "000041-070",
+              "000041-071",
+              "000041-072",
+              "000041-075",
+              "000041-081",
+              "000041-086",
+              "000041-094",
+              "000041-095",
+              "000041-098",
+              "000041-104",
+              "000041-114",
+              "000041-116",
+              "000041-124",
+              "000041-127",
+              "000041-128",
+              "000041-129",
+              "000041-130",
+              "000041-135",
+              "000041-138",
+              "000041-143",
+              "000041-149",
+              "000041-153",
+              "000041-155",
+              "000041-165",
+              "000041-168",
+              "000041-170",
+              "000041-177",
+              "000041-181",
+              "000041-186",
+              "000041-191",
+              "000041-195",
+              "000041-196",
+              "000041-202"
+            ],
+            "newFalsePositives": [
+              "000041-013"
+            ]
+          }
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-r2-mixed-development.json",
+          "caught": 100,
+          "missed": 0,
+          "noHits": 100,
+          "falsePositives": 16,
+          "correctNoHits": 84,
+          "errors": 16,
+          "requests": 13,
+          "inputTokens": 71965,
+          "outputTokens": 5452,
+          "elapsedMs": 3690.297583,
+          "deltaAgainstBaseline": {
+            "newCatches": [],
+            "lostCatches": [],
+            "correctedFalsePositives": [
+              "000051-009",
+              "000051-012",
+              "000051-021",
+              "000051-051",
+              "000051-057",
+              "000051-062",
+              "000051-072",
+              "000051-076",
+              "000051-086",
+              "000051-103",
+              "000051-119",
+              "000051-141",
+              "000051-151",
+              "000051-161",
+              "000051-191"
+            ],
+            "newFalsePositives": [
+              "000051-010",
+              "000051-083",
+              "000051-108"
+            ]
+          }
+        }
+      },
+      "totalErrors": 26,
+      "caught": 197,
+      "passes": false
+    },
+    {
+      "check": "borrowed-jargon",
+      "revision": "r2",
+      "promptCommit": "b834fb42",
+      "demonstrationIDs": [
+        "000043-003",
+        "000043-004",
+        "000051-025",
+        "000043-052",
+        "000043-022",
+        "000051-037"
+      ],
+      "assembledWords": 758,
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r2-isolated-development.json",
+          "caught": 98,
+          "missed": 2,
+          "noHits": 100,
+          "falsePositives": 10,
+          "correctNoHits": 90,
+          "errors": 12,
+          "requests": 13,
+          "inputTokens": 60035,
+          "outputTokens": 6452,
+          "elapsedMs": 3664.6875869999994,
+          "deltaAgainstBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000043-024",
+              "000043-104"
+            ],
+            "correctedFalsePositives": [
+              "000043-072",
+              "000043-085",
+              "000043-143",
+              "000043-155",
+              "000043-184"
+            ],
+            "newFalsePositives": [
+              "000043-212"
+            ]
+          }
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r2-mixed-development.json",
+          "caught": 95,
+          "missed": 5,
+          "noHits": 100,
+          "falsePositives": 10,
+          "correctNoHits": 90,
+          "errors": 15,
+          "requests": 13,
+          "inputTokens": 66046,
+          "outputTokens": 6452,
+          "elapsedMs": 3350.989501,
+          "deltaAgainstBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000051-082",
+              "000051-125",
+              "000051-177",
+              "000051-187"
+            ],
+            "correctedFalsePositives": [
+              "000051-004",
+              "000051-007",
+              "000051-012",
+              "000051-014",
+              "000051-018",
+              "000051-021",
+              "000051-030",
+              "000051-033",
+              "000051-034",
+              "000051-037",
+              "000051-042",
+              "000051-043",
+              "000051-046",
+              "000051-048",
+              "000051-051",
+              "000051-058",
+              "000051-065",
+              "000051-071",
+              "000051-072",
+              "000051-077",
+              "000051-088",
+              "000051-090",
+              "000051-091",
+              "000051-103",
+              "000051-104",
+              "000051-114",
+              "000051-124",
+              "000051-126",
+              "000051-127",
+              "000051-128",
+              "000051-130",
+              "000051-134",
+              "000051-142",
+              "000051-143",
+              "000051-150",
+              "000051-156",
+              "000051-157",
+              "000051-166",
+              "000051-167",
+              "000051-172",
+              "000051-182",
+              "000051-195",
+              "000051-198",
+              "000051-221"
+            ],
+            "newFalsePositives": []
+          }
+        }
+      },
+      "totalErrors": 27,
+      "caught": 193,
+      "passes": false
+    },
+    {
+      "check": "tortured-phrasing",
+      "revision": "r2",
+      "promptCommit": "b834fb42",
+      "demonstrationIDs": [
+        "000045-033",
+        "000045-048",
+        "000051-037",
+        "000045-150",
+        "000045-175",
+        "000045-017"
+      ],
+      "assembledWords": 769,
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r2-isolated-development.json",
+          "caught": 70,
+          "missed": 30,
+          "noHits": 100,
+          "falsePositives": 2,
+          "correctNoHits": 98,
+          "errors": 32,
+          "requests": 13,
+          "inputTokens": 64111,
+          "outputTokens": 6252,
+          "elapsedMs": 3485.8942480000005,
+          "deltaAgainstBaseline": {
+            "newCatches": [
+              "000045-012",
+              "000045-047",
+              "000045-048",
+              "000045-069",
+              "000045-080",
+              "000045-099",
+              "000045-118",
+              "000045-123",
+              "000045-124"
+            ],
+            "lostCatches": [
+              "000045-006",
+              "000045-029",
+              "000045-081",
+              "000045-100",
+              "000045-120",
+              "000045-131",
+              "000045-132",
+              "000045-157",
+              "000045-167",
+              "000045-184",
+              "000045-185"
+            ],
+            "correctedFalsePositives": [
+              "000045-009",
+              "000045-017",
+              "000045-040",
+              "000045-095",
+              "000045-115",
+              "000045-134",
+              "000045-160",
+              "000045-189"
+            ],
+            "newFalsePositives": [
+              "000045-011",
+              "000045-039"
+            ]
+          }
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r2-mixed-development.json",
+          "caught": 67,
+          "missed": 33,
+          "noHits": 100,
+          "falsePositives": 9,
+          "correctNoHits": 91,
+          "errors": 42,
+          "requests": 13,
+          "inputTokens": 71129,
+          "outputTokens": 6252,
+          "elapsedMs": 3384.8635409999997,
+          "deltaAgainstBaseline": {
+            "newCatches": [
+              "000051-005",
+              "000051-011",
+              "000051-013",
+              "000051-014",
+              "000051-020",
+              "000051-025",
+              "000051-036",
+              "000051-037",
+              "000051-058",
+              "000051-066",
+              "000051-067",
+              "000051-084",
+              "000051-088",
+              "000051-095",
+              "000051-125",
+              "000051-137",
+              "000051-142",
+              "000051-143",
+              "000051-144",
+              "000051-145",
+              "000051-147",
+              "000051-152",
+              "000051-163",
+              "000051-170",
+              "000051-173",
+              "000051-174",
+              "000051-180",
+              "000051-192",
+              "000051-199",
+              "000051-209"
+            ],
+            "lostCatches": [
+              "000051-024",
+              "000051-074",
+              "000051-126",
+              "000051-172"
+            ],
+            "correctedFalsePositives": [
+              "000051-101"
+            ],
+            "newFalsePositives": [
+              "000051-015",
+              "000051-035",
+              "000051-109",
+              "000051-129",
+              "000051-146",
+              "000051-154",
+              "000051-205"
+            ]
+          }
+        }
+      },
+      "totalErrors": 74,
+      "caught": 137,
+      "passes": false
     }
   ],
   "selected": {
@@ -665,22 +1046,22 @@
   },
   "bestCandidates": {
     "cliche": {
-      "revision": "r1",
-      "promptCommit": "3729c457",
-      "totalErrors": 44,
+      "revision": "r2",
+      "promptCommit": "b834fb42",
+      "totalErrors": 26,
       "consecutiveNonImprovements": 0
     },
     "borrowed-jargon": {
       "revision": "r1",
       "promptCommit": "3729c457",
       "totalErrors": 26,
-      "consecutiveNonImprovements": 0
+      "consecutiveNonImprovements": 1
     },
     "tortured-phrasing": {
       "revision": "r1",
       "promptCommit": "3729c457",
       "totalErrors": 64,
-      "consecutiveNonImprovements": 0
+      "consecutiveNonImprovements": 1
     }
   },
   "reviews": {
@@ -4703,55 +5084,6 @@
           "diagnosticScope": "The native responses contain classification scores, with no explanations or highlighting. Cause groups below are textual review hypotheses, not recovered model reasoning."
         }
       }
-    }
-  },
-  "pendingRevisions": {
-    "revision": "r2",
-    "checks": [
-      "cliche",
-      "borrowed-jargon",
-      "tortured-phrasing"
-    ],
-    "demonstrationIDs": {
-      "cliche": [
-        "000041-003",
-        "000041-006",
-        "000041-007",
-        "000041-010",
-        "000041-029",
-        "000051-009"
-      ],
-      "borrowed-jargon": [
-        "000043-003",
-        "000043-004",
-        "000051-025",
-        "000043-052",
-        "000043-022",
-        "000051-037"
-      ],
-      "tortured-phrasing": [
-        "000045-033",
-        "000045-048",
-        "000051-037",
-        "000045-150",
-        "000045-175",
-        "000045-017"
-      ],
-      "hidden-significance-adverb": [
-        "000047-137",
-        "000047-018",
-        "000047-097",
-        "000047-050",
-        "000047-016",
-        "000047-069"
-      ],
-      "stock-vocabulary": [
-        "000049-d-d6b8fb87997b",
-        "000049-201",
-        "000049-p-b204c71478d2",
-        "000049-p-20eac6437f15",
-        "000049-d-1c99c4e8d2ef"
-      ]
     }
   }
 }
