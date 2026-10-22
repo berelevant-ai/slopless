@@ -127,6 +127,9 @@ Use family `wordiness-and-redundancy`. Independent Codex definition review resol
 
 ## Completion
 
+- Execution progress: definitions are frozen at `eb8390ac`; Codex pilot generation and review are underway. Adversarial pilot review corrects an ordinary-idiom hit and a heading/opening temporal distinction before scaling; expanded pilots strengthen close controls and remove class-order shortcuts.
+- Mixed-runner support is implemented and independently reviewed: 46 contract checks pass, including the 42 unchanged historical checks. Historical development comparisons and cache validation preserve single-check behavior; provider-backed mixed evaluation still awaits finalized datasets.
+
 - The pilot and final datasets pass independent plausibility and label review. Every isolated type has frozen development and protected holdout sets of exactly 100 hits and 100 no-hits each.
 - Each check has recorded development predictions, prompt exposure, a selected frozen candidate, a gate result, and a manual review of remaining errors. Report failed targets explicitly.
 - Dataset validation, exact-snippet checks, split-overlap checks, relevant contracts, formatting, and fresh report review pass. Mixed support additionally requires its Specular and Fixture3 verification before use.

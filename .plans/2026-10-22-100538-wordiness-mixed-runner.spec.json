@@ -1,0 +1,24 @@
+{
+  "version": 4,
+  "requirements": {
+    "tree": {
+      "verifier": ["builtin:tree"],
+      "reason": "2026-10-22-094913-wordiness-and-redundancy-development.md: reuse existing dataset and runner boundaries",
+      "required": ["runners/jev.mjs", "runners/datasets.mjs", "runners/dataset.schema.json", "scripts/datasets-contract.mjs", "behavior/fixtures/datasets/contract.json"]
+    },
+    "content": [
+      {
+        "verifier": ["builtin:content"],
+        "files": ["runners/jev.mjs"],
+        "required": ["export function scoreMixed("],
+        "reason": "Expose aggregate scoring for existing multi-check dataset labels; preserve per-check results."
+      },
+      {
+        "verifier": ["builtin:content"],
+        "files": ["scripts/datasets-contract.mjs"],
+        "required": ["mixed-target-labels", "mixed-eight-combinations", "mixed-sparse-labels", "mixed-cache-rescore"],
+        "reason": "Public boundary contracts exercise target identity, independent judgments, aggregate denominators, and cache integrity."
+      }
+    ]
+  }
+}

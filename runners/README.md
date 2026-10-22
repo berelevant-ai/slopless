@@ -73,16 +73,30 @@ Temporary tuning drivers import these public functions from `runners/jev.mjs`:
 - `preflightDataset(input, { developmentOnly = false } = {})` returns document paths. Call it with `developmentOnly: true` before `loadDataset`, credential access, or SDK initialization.
 - `writeAtomicJson(file, value)` serializes a result into an exclusively created file inside a private temporary directory, atomically replaces the destination, and cleans up temporary files on success or failure. Both the public runner and temporary tuning driver use it.
 - `loadDataset(input, family = "semantic-thinness")` returns sorted targets with resolved labels and sentence ranges. `loadPrompts(directory, selected)` selects one check or all prompt files.
+- A target with multiple labels in the selected family appears once and adds `labels`, containing its independent resolved judgments. Its existing `label` and `group` describe the first judgment. Single-label rows retain their existing shape.
 - `batchPlans(rows, checks, threshold, completed, mode = "detect-and-highlight", batchSize = 100)` returns ordered request plans, including a smaller final batch. Both detection and highlighting use the selected size. `buildRequest(model, prompts, check, items, rows)` builds label-free requests; `validateResponse(savedBatch, request)` verifies responses and request hashes.
 - `score(rows, checks, threshold, batches, mode = "detect-and-highlight")` returns per-check scores. Classification-only findings contain IDs and scores; highlighting findings also contain sentence ranges.
+- `scoreMixed(rows, checks, threshold, batches)` returns aggregate counts for the selected checks from saved detection answers. It requires a nonempty, unique check list and complete predictions for fully labeled targets.
 - `createSnapshot({ dataset, promptDirectory, model, threshold, checks, prompts, rows, family, mode, batchSize = 100 })` records input hashes and execution settings. Its family and mode defaults match the CLI. Size 100 is omitted from saved snapshots to preserve historical default bytes; missing sizes normalize to 100 during validation.
 - `validateResult(result, { snapshot, rows, prompts })` verifies saved inputs and the completed batch prefix, returning `{ complete }`.
 - `rescoreResult(result, { snapshot, rows, prompts })` returns a clone with one appended `rescores` entry. Supply a snapshot and rows loaded from the corrected dataset, with the original model, prompts, threshold, family, and mode. The helper accepts retained prompt contents from an immutable trial; the CLI loads prompts from its selected directory.
 
+## Mixed Judgments
+
+- Use the same dataset schema: give a sample one label per assessed check. The runner sends one question per target/check and keeps complete target text intact.
+- Per-check scores use that check's available judgments. Missing labels remain unassessed; predictions on those targets still appear in findings.
+- Completed CLI reports add `mixed` when a target has multiple labels. It includes distinct `targets`, available `judgments`, and `excludedIncomplete` target counts for the selected checks.
+- `allIssuesFound` reports `eligible` fully labeled targets with at least one expected hit and `matched` targets with every expected hit caught. An extra false positive still permits an all-issues-found match.
+- `exactMatch` reports all fully labeled targets as `eligible`, including all-negative controls. A `matched` target has every selected prediction equal to its judgment.
+- Targets missing any selected judgment are excluded from both aggregates. Their available judgments still contribute to per-check scores and the `judgments` count.
+- First completion saves `mixed` beside the original summaries. Offline `validate`, `score`, and completed `run` recompute it without rewriting completed caches. Label-only rescoring appends corrected `mixed` counts beside corrected per-check summaries.
+
 ## Label-Only Rescoring
 
 - New snapshots record `family`, `mode`, and `targetsSha256`. The target hash binds text, sample IDs, ranges, and check assignments separately from judgments.
+- Mixed target hashes include every check assignment and omit expected values and snippets. Single-label target hashes and default snapshot bytes keep their existing format.
 - Completed `run` outputs preserve original `summaries` and `inferenceSha256`, computed as SHA-256 of `JSON.stringify({ batches: result.batches, summaries: result.summaries })`. Temporary drivers using `rescoreResult` must preserve these fields for each immutable trial.
+- Derived `mixed` counts remain outside that unchanged inference-hash formula. CLI reports recompute them from the validated predictions and current judgments.
 - Each rescore appends its timestamp, original and corrected label hashes, original inference hash, and corrected summaries. The original snapshot, batches, predictions, request hashes, timings, usage, and scores stay intact.
 - Rescoring verifies current disk inputs, target assignments, model, prompts, requests, response validity, and the original inference hash before writing. Changed inference inputs require new calls.
 - Ordinary `validate`, `score`, and `run` retain strict label-hash matching. Use `rescore` to calculate corrected-label scores while retaining the original inference snapshot.

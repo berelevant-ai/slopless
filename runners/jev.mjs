@@ -82,10 +82,11 @@ export function preflightDataset(input, { developmentOnly = false } = {}) {
 
 export function loadDataset(input, family = defaultFamily) {
   assert.match(family, /^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/);
-  const rows = readDocuments(input).flatMap(({ text, metadata, labels }) =>
-    labels.flatMap((label) => {
+  const rows = readDocuments(input).flatMap(({ text, metadata, labels }) => {
+    const targets = new Map();
+    for (const label of labels) {
       if (label.check !== family && !label.check.startsWith(`${family}/`))
-        return [];
+        continue;
       assert.equal(typeof label.expected, "boolean");
       assert.ok(typeof label.group === "string" && label.group.length > 0);
       const target = {
@@ -101,6 +102,17 @@ export function loadDataset(input, family = defaultFamily) {
           : target.family,
         "Jev scoring requires assigned positives and either version 2 check-specific no-hits or legacy family-wide no-hit controls."
       );
+      const existing = targets.get(target.id);
+      if (existing) {
+        assert.deepEqual(
+          [label.start, label.end],
+          [existing.label.start, existing.label.end],
+          "Inconsistent target ranges."
+        );
+        existing.labels ??= [existing.label];
+        existing.labels.push(label);
+        continue;
+      }
       const sentences = splitSentences(target.text).map((sentence, index) => ({
         id: index + 1,
         ...sentence
@@ -110,9 +122,10 @@ export function loadDataset(input, family = defaultFamily) {
           target.text.slice(sentence.start, sentence.end),
           sentence.text
         );
-      return [{ ...target, label, sentences }];
-    })
-  );
+      targets.set(target.id, { ...target, label, sentences });
+    }
+    return [...targets.values()];
+  });
   assert.ok(rows.length > 0, `The dataset has no labeled ${family} passages.`);
   assert.equal(
     new Set(rows.map((row) => row.id)).size,
@@ -321,12 +334,10 @@ export function score(rows, checks, threshold, batches, mode = defaultMode) {
   );
   return checks.map((check) => {
     const positives = rows.filter(
-      (row) => row.label.expected && row.group === check
+      (row) => judgmentFor(row, check)?.expected === true
     );
     const clean = rows.filter(
-      (row) =>
-        !row.label.expected &&
-        (row.label.check === row.family || row.group === check)
+      (row) => judgmentFor(row, check)?.expected === false
     );
     const detected = (row) => answers[`${row.id}_${check}`].noul >= threshold;
     return {
@@ -353,6 +364,63 @@ export function score(rows, checks, threshold, batches, mode = defaultMode) {
       }))
     };
   });
+}
+
+function judgmentFor(row, check) {
+  const labels = row.labels ?? [row.label];
+  return (
+    labels.find((label) => label.check === `${row.family}/${check}`) ??
+    labels.find((label) => label.check === row.family && !label.expected)
+  );
+}
+
+export function scoreMixed(rows, checks, threshold, batches) {
+  assert.ok(checks.length > 0 && new Set(checks).size === checks.length);
+  assert.ok(Number.isFinite(threshold) && threshold > 0 && threshold <= 1);
+  const answers = Object.assign(
+    {},
+    ...batches
+      .filter((batch) => batch.stage === "detection")
+      .map((batch) => batch.response.answers)
+  );
+  const summary = {
+    targets: rows.length,
+    judgments: 0,
+    excludedIncomplete: 0,
+    allIssuesFound: { eligible: 0, matched: 0 },
+    exactMatch: { eligible: 0, matched: 0 }
+  };
+  for (const row of rows) {
+    const labels = checks.map((check) => judgmentFor(row, check));
+    summary.judgments += labels.filter((label) => label !== undefined).length;
+    if (labels.some((label) => label === undefined)) {
+      summary.excludedIncomplete++;
+      continue;
+    }
+    const predicted = checks.map((check) => {
+      const value = answers[`${row.id}_${check}`]?.noul;
+      assert.ok(
+        Number.isFinite(value) && value >= 0 && value <= 1,
+        `Missing or invalid detection for ${row.id}/${check}.`
+      );
+      return value >= threshold;
+    });
+    summary.exactMatch.eligible++;
+    if (labels.every((label, index) => label.expected === predicted[index]))
+      summary.exactMatch.matched++;
+    if (labels.some((label) => label.expected)) {
+      summary.allIssuesFound.eligible++;
+      if (labels.every((label, index) => !label.expected || predicted[index]))
+        summary.allIssuesFound.matched++;
+    }
+  }
+  return summary;
+}
+
+function mixedSummary(rows, checks, threshold, batches) {
+  return rows.some((row) => row.labels !== undefined)
+    ? { mixed: scoreMixed(rows, checks, threshold, batches) }
+    : {};
 }
 
 export function createSnapshot({
@@ -386,14 +454,24 @@ export function createSnapshot({
     ...datasetHashes(dataset),
     targetsSha256: hash(
       JSON.stringify(
-        rows.map(({ id, text, family: rowFamily, group, label }) => ({
+        rows.map(({ id, text, family: rowFamily, group, label, labels }) => ({
           id,
           text,
           family: rowFamily,
           group,
           check: label.check,
           start: label.start,
-          end: label.end
+          end: label.end,
+          ...(labels === undefined
+            ? {}
+            : {
+                labels: labels.map(({ group, check, start, end }) => ({
+                  group,
+                  check,
+                  start,
+                  end
+                }))
+              })
         }))
       )
     )
@@ -505,7 +583,8 @@ export function rescoreResult(result, context) {
       snapshot.threshold,
       result.batches,
       snapshot.mode
-    )
+    ),
+    ...mixedSummary(rows, snapshot.checks, snapshot.threshold, result.batches)
   });
   return updated;
 }
@@ -623,7 +702,9 @@ async function main() {
   const checks = Object.keys(prompts.types);
   for (const check of checks)
     assert.ok(
-      rows.some((row) => row.group === check),
+      rows.some((row) =>
+        (row.labels ?? [row.label]).some((label) => label.group === check)
+      ),
       `The dataset has no group for check: ${check}`
     );
   const snapshot = createSnapshot({
@@ -708,6 +789,10 @@ async function main() {
     assert.ok(complete, "The output is incomplete; use run to resume it.");
   if (command === "run" && result.summaries === undefined) {
     result.summaries = score(rows, checks, threshold, result.batches, mode);
+    Object.assign(
+      result,
+      mixedSummary(rows, checks, threshold, result.batches)
+    );
     result.inferenceSha256 = hash(
       JSON.stringify({ batches: result.batches, summaries: result.summaries })
     );
@@ -728,6 +813,7 @@ async function main() {
                 command === "rescore"
                   ? result.rescores.at(-1).summaries
                   : score(rows, checks, threshold, result.batches, mode),
+              ...mixedSummary(rows, checks, threshold, result.batches),
               ...(command === "rescore"
                 ? { rescoredLabelsSha256: snapshot.labelsSha256 }
                 : {}),

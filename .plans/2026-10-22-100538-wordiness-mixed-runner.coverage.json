@@ -1,0 +1,12 @@
+{
+  "plan": ".plans/2026-10-22-094913-wordiness-and-redundancy-development.md",
+  "spec": ".plans/2026-10-22-100538-wordiness-mixed-runner.spec.json",
+  "contracts": [
+    {"name": "mixed-target-labels", "files": ["runners/jev.mjs", "scripts/datasets-contract.mjs"], "behavior": "Load each target once with independent check-specific labels; preserve single-label target shape, hashes, request bytes, and scores."},
+    {"name": "mixed-eight-combinations", "files": ["runners/jev.mjs", "scripts/datasets-contract.mjs"], "behavior": "Score every positive/negative combination, partial catches, extra false positives, and all-negative texts; separate per-check counts from all-issues-found and exact-match counts."},
+    {"name": "mixed-sparse-labels", "files": ["runners/jev.mjs", "scripts/datasets-contract.mjs"], "behavior": "Exclude incomplete labels from whole-target aggregates, count exclusions, and preserve each available per-check judgment."},
+    {"name": "mixed-cache-rescore", "files": ["runners/jev.mjs", "scripts/datasets-contract.mjs"], "behavior": "Bind target/check assignments independently of expected values; preserve raw predictions, offline rescore label-only changes, and reject altered inputs."}
+  ],
+  "regressionSuite": "fixture3 check --suite datasets",
+  "unchanged": ["runners/datasets.mjs", "runners/dataset.schema.json", "production CLI and rules", "existing datasets and prompts", "historical raw predictions"]
+}

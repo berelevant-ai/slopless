@@ -99,7 +99,12 @@ function cliRejects(command, args, pattern) {
     (error) => pattern.test(error.stderr?.toString())
   );
 }
-function syntheticBatches(rows, prompts, mode) {
+function syntheticBatches(
+  rows,
+  prompts,
+  mode,
+  predict = ({ id }) => id === "hit"
+) {
   const batches = [];
   for (;;) {
     const plan = jev.batchPlans(
@@ -127,9 +132,9 @@ function syntheticBatches(rows, prompts, mode) {
         model: request.model,
         usage: { input_tokens: 1, output_tokens: 1 },
         answers: Object.fromEntries(
-          plan.items.map(({ key, id }) => [
-            key,
-            { type: "noul", noul: id === "hit" ? 0.75 : 0.25 }
+          plan.items.map((item) => [
+            item.key,
+            { type: "noul", noul: predict(item, plan.check) ? 0.75 : 0.25 }
           ])
         )
       }
@@ -158,6 +163,64 @@ function runnerContext(
     mode
   });
   return { rows, prompts, snapshot };
+}
+function mixedContext(sparse = false) {
+  const family = "synthetic-mixed";
+  const names = ["alpha", "beta", "gamma"];
+  const promptDirectory = mkdtempSync(resolve(questionDirectory, "mixed-"));
+  writeFileSync(resolve(promptDirectory, "shared.md"), "Judge this target.");
+  for (const name of names)
+    writeFileSync(resolve(promptDirectory, `${name}.md`), `Detect ${name}.`);
+  let text = "";
+  const samples = [];
+  const labels = [];
+  for (let number = 0; number < (sparse ? 9 : 8); number++) {
+    const bits = number === 8 ? "100" : number.toString(2).padStart(3, "0");
+    const id = number === 8 ? "sparse" : `combination-${bits}`;
+    const target = `Synthetic target ${id}. Its complete context stays intact.`;
+    const start = text.length;
+    text += target + "\n\n";
+    samples.push({ id, start, end: start + target.length });
+    for (const [index, name] of names.entries()) {
+      if (id === "sparse" && name === "gamma") continue;
+      const expected = bits[index] === "1";
+      labels.push({
+        id,
+        check: `${family}/${name}`,
+        expected,
+        ...(expected ? { snippets: [target] } : {})
+      });
+    }
+  }
+  const data = {
+    ...metadata,
+    schemaVersion: 2,
+    split: "development",
+    textSha256: textHash(text),
+    samples,
+    labels
+  };
+  save(data, text);
+  const args = [
+    "--family",
+    family,
+    "--mode",
+    "classification-only",
+    "--prompts",
+    promptDirectory,
+    "--development-only",
+    "--sdk",
+    resolve(questionDirectory, "must-not-initialize.mjs")
+  ];
+  const context = () =>
+    runnerContext(family, "classification-only", promptDirectory);
+  const predict = ({ id }, check) => {
+    if (id === "combination-111" && check === "gamma") return false;
+    if (id === "combination-100" && check === "beta") return true;
+    if (id === "sparse") return check !== "beta";
+    return id.slice(-3)[names.indexOf(check)] === "1";
+  };
+  return { family, names, data, text, args, context, predict };
 }
 function questionPrompts() {
   const promptDirectory = mkdtempSync(resolve(questionDirectory, "prompts-"));
@@ -380,6 +443,367 @@ try {
       labels: [{ id: hit.id, check: hit.check, expected: true }]
     });
     assert.throws(() => readDocument(file), /snippets/);
+  });
+  check("mixed-target-labels", () => {
+    const mixed = mixedContext();
+    assert.equal(cli("validate", mixed.args).paragraphs, 8);
+    const { rows, prompts, snapshot } = mixed.context();
+    assert.equal(rows.length, 8);
+    for (const row of rows) {
+      assert.equal(row.labels.length, 3);
+      assert.deepEqual(row.label, row.labels[0]);
+      assert.deepEqual(
+        row.labels.map(({ group }) => group),
+        mixed.names
+      );
+    }
+    const batches = syntheticBatches(
+      rows,
+      prompts,
+      "classification-only",
+      mixed.predict
+    );
+    assert.equal(batches.length, 3);
+    for (const plan of jev.batchPlans(
+      rows,
+      mixed.names,
+      0.5,
+      [],
+      "classification-only"
+    )) {
+      assert.equal(plan.items.length, 8);
+      assert.equal(new Set(plan.items.map(({ id }) => id)).size, 8);
+      const request = buildRequest(
+        snapshot.model,
+        prompts,
+        plan.check,
+        plan.items,
+        rows
+      );
+      assert.ok(!JSON.stringify(request).includes('"expected"'));
+      assert.ok(!JSON.stringify(request).includes('"labels"'));
+      for (const row of rows)
+        assert.equal(
+          request.questions[`${row.id}_${plan.check}`].instructions.target,
+          row.text
+        );
+    }
+    // Single-label rows retain their original public shape and request bytes.
+    save(
+      {
+        ...mixed.data,
+        labels: mixed.data.labels.filter(({ check }) =>
+          check.endsWith("/alpha")
+        )
+      },
+      mixed.text
+    );
+    const single = mixed.context();
+    assert.ok(single.rows.every((row) => !Object.hasOwn(row, "labels")));
+    for (const row of single.rows) {
+      const original = rows.find(({ id }) => id === row.id);
+      const { labels, ...first } = original;
+      assert.equal(labels.length, 3);
+      assert.deepEqual(row, first);
+    }
+    const plan = jev.batchPlans(
+      rows,
+      ["alpha"],
+      0.5,
+      [],
+      "classification-only"
+    )[0];
+    assert.equal(
+      JSON.stringify(
+        buildRequest(snapshot.model, prompts, "alpha", plan.items, rows)
+      ),
+      JSON.stringify(
+        buildRequest(snapshot.model, prompts, "alpha", plan.items, single.rows)
+      )
+    );
+    assert.deepEqual(
+      jev.score(rows, ["alpha"], 0.5, batches, "classification-only"),
+      jev.score(single.rows, ["alpha"], 0.5, batches, "classification-only")
+    );
+    // Equal IDs in separate source documents still violate global target identity.
+    const duplicateDirectory = mkdtempSync(
+      resolve(questionDirectory, "duplicates-")
+    );
+    for (const stem of ["one", "two"]) {
+      writeFileSync(resolve(duplicateDirectory, `${stem}.md`), mixed.text);
+      writeFileSync(
+        resolve(duplicateDirectory, `${stem}.labels.json`),
+        JSON.stringify(mixed.data)
+      );
+    }
+    assert.throws(
+      () => loadDataset(duplicateDirectory, mixed.family),
+      /Duplicate target/
+    );
+  });
+  check("mixed-eight-combinations", () => {
+    const mixed = mixedContext();
+    const { rows, prompts } = mixed.context();
+    const batches = syntheticBatches(
+      rows,
+      prompts,
+      "classification-only",
+      mixed.predict
+    );
+    assert.deepEqual(
+      jev
+        .score(rows, mixed.names, 0.5, batches, "classification-only")
+        .map(({ positives, caught, cleanControls, falseAlarms, misses }) => ({
+          positives,
+          caught,
+          cleanControls,
+          falseAlarms,
+          misses
+        })),
+      [
+        {
+          positives: 4,
+          caught: 4,
+          cleanControls: 4,
+          falseAlarms: [],
+          misses: []
+        },
+        {
+          positives: 4,
+          caught: 4,
+          cleanControls: 4,
+          falseAlarms: ["combination-100"],
+          misses: []
+        },
+        {
+          positives: 4,
+          caught: 3,
+          cleanControls: 4,
+          falseAlarms: [],
+          misses: ["combination-111"]
+        }
+      ]
+    );
+    const expected = {
+      targets: 8,
+      judgments: 24,
+      excludedIncomplete: 0,
+      allIssuesFound: { eligible: 7, matched: 6 },
+      exactMatch: { eligible: 8, matched: 6 }
+    };
+    assert.deepEqual(jev.scoreMixed(rows, mixed.names, 0.5, batches), expected);
+    for (const mode of ["classification-only", "detect-and-highlight"]) {
+      const perfect = syntheticBatches(
+        rows,
+        prompts,
+        mode,
+        ({ id }, check) => id.slice(-3)[mixed.names.indexOf(check)] === "1"
+      );
+      assert.deepEqual(jev.scoreMixed(rows, mixed.names, 0.5, perfect), {
+        ...expected,
+        allIssuesFound: { eligible: 7, matched: 7 },
+        exactMatch: { eligible: 8, matched: 8 }
+      });
+      const missed = syntheticBatches(rows, prompts, mode, () => false);
+      assert.deepEqual(jev.scoreMixed(rows, mixed.names, 0.5, missed), {
+        ...expected,
+        allIssuesFound: { eligible: 7, matched: 0 },
+        exactMatch: { eligible: 8, matched: 1 }
+      });
+    }
+    const negative = rows.filter(({ id }) => id === "combination-000");
+    const falsePositive = syntheticBatches(
+      rows,
+      prompts,
+      "classification-only",
+      ({ id }, check) => id === "combination-000" && check === "gamma"
+    );
+    assert.deepEqual(
+      jev.scoreMixed(negative, mixed.names, 0.5, falsePositive),
+      {
+        targets: 1,
+        judgments: 3,
+        excludedIncomplete: 0,
+        allIssuesFound: { eligible: 0, matched: 0 },
+        exactMatch: { eligible: 1, matched: 0 }
+      }
+    );
+  });
+  check("mixed-sparse-labels", () => {
+    const mixed = mixedContext(true);
+    const { rows, prompts } = mixed.context();
+    const batches = syntheticBatches(
+      rows,
+      prompts,
+      "classification-only",
+      mixed.predict
+    );
+    const summaries = jev.score(
+      rows,
+      mixed.names,
+      0.5,
+      batches,
+      "classification-only"
+    );
+    assert.deepEqual(
+      summaries.map(({ positives, cleanControls, caught, falseAlarms }) => [
+        positives,
+        cleanControls,
+        caught,
+        falseAlarms.length
+      ]),
+      [
+        [5, 4, 5, 0],
+        [4, 5, 4, 1],
+        [4, 4, 3, 0]
+      ]
+    );
+    assert.ok(summaries[2].findings.some(({ id }) => id === "sparse"));
+    assert.deepEqual(jev.scoreMixed(rows, mixed.names, 0.5, batches), {
+      targets: 9,
+      judgments: 26,
+      excludedIncomplete: 1,
+      allIssuesFound: { eligible: 7, matched: 6 },
+      exactMatch: { eligible: 8, matched: 6 }
+    });
+    assert.deepEqual(jev.scoreMixed(rows, ["alpha", "beta"], 0.5, batches), {
+      targets: 9,
+      judgments: 18,
+      excludedIncomplete: 0,
+      allIssuesFound: { eligible: 7, matched: 7 },
+      exactMatch: { eligible: 9, matched: 8 }
+    });
+    const missing = structuredClone(batches);
+    delete missing[0].response.answers["combination-100_alpha"];
+    assert.throws(() => jev.scoreMixed(rows, mixed.names, 0.5, missing));
+    assert.throws(() => jev.scoreMixed(rows, [], 0.5, batches));
+    assert.throws(() => jev.scoreMixed(rows, ["alpha", "alpha"], 0.5, batches));
+  });
+  check("mixed-cache-rescore", () => {
+    const mixed = mixedContext(true);
+    const context = mixed.context();
+    const { rows, prompts, snapshot } = context;
+    const batches = syntheticBatches(
+      rows,
+      prompts,
+      "classification-only",
+      mixed.predict
+    );
+    const output = resolve(questionDirectory, "mixed-result.json");
+    const args = [...mixed.args, "--output", output];
+    writeFileSync(output, JSON.stringify({ snapshot, batches }));
+    const expected = jev.scoreMixed(rows, mixed.names, 0.5, batches);
+    for (const command of ["validate", "score", "run"])
+      assert.deepEqual(cli(command, args).mixed, expected);
+    const original = JSON.parse(readFileSync(output));
+    assert.deepEqual(original.mixed, expected);
+    assert.equal(
+      original.inferenceSha256,
+      textHash(
+        JSON.stringify({
+          batches: original.batches,
+          summaries: original.summaries
+        })
+      )
+    );
+    const bytes = readFileSync(output);
+    for (const command of ["validate", "score", "run"])
+      assert.deepEqual(cli(command, args).mixed, expected);
+    assert.deepEqual(readFileSync(output), bytes);
+    const partial = { snapshot, batches: batches.slice(0, -1) };
+    writeFileSync(output, JSON.stringify(partial));
+    assert.equal(cli("validate", args).complete, false);
+    assert.equal(Object.hasOwn(cli("validate", args), "mixed"), false);
+    cliRejects("score", args, /output is incomplete/);
+    writeFileSync(output, bytes);
+    const changed = structuredClone(mixed.data);
+    const label = changed.labels.find(
+      (label) =>
+        label.id === "combination-111" && label.check.endsWith("/gamma")
+    );
+    label.expected = false;
+    delete label.snippets;
+    save(changed, mixed.text);
+    const corrected = mixed.context();
+    assert.equal(corrected.snapshot.targetsSha256, snapshot.targetsSha256);
+    assert.notEqual(corrected.snapshot.labelsSha256, snapshot.labelsSha256);
+    for (const command of ["validate", "score", "run"])
+      cliRejects(command, args, /Saved results require/);
+    const report = cli("rescore", args);
+    assert.deepEqual(report.mixed, {
+      ...expected,
+      allIssuesFound: { eligible: 7, matched: 7 },
+      exactMatch: { eligible: 8, matched: 7 }
+    });
+    const rescored = JSON.parse(readFileSync(output));
+    assert.deepEqual(rescored.rescores[0].mixed, report.mixed);
+    for (const key of [
+      "snapshot",
+      "batches",
+      "summaries",
+      "mixed",
+      "inferenceSha256"
+    ])
+      assert.deepEqual(rescored[key], original[key]);
+    assert.deepEqual(
+      jev.rescoreResult(original, corrected).rescores[0].mixed,
+      report.mixed
+    );
+    for (const mutate of [
+      (value) => {
+        value.labels = value.labels.filter(
+          (label) => label !== value.labels[1]
+        );
+      },
+      (value) => {
+        value.labels[1].check = `${mixed.family}/delta`;
+      },
+      (value) => {
+        value.labels.push({
+          id: "sparse",
+          check: `${mixed.family}/gamma`,
+          expected: false
+        });
+      }
+    ]) {
+      const reassigned = structuredClone(changed);
+      mutate(reassigned);
+      save(reassigned, mixed.text);
+      assert.notEqual(
+        mixed.context().snapshot.targetsSha256,
+        snapshot.targetsSha256
+      );
+      cliRejects("rescore", args, /Saved results require/);
+    }
+    save(changed, mixed.text);
+    for (const mutate of [
+      (value) => {
+        value.batches[0].requestSha256 = "0".repeat(64);
+      },
+      (value) => {
+        Object.values(value.batches[0].response.answers)[0].noul = 0.9;
+      },
+      (value) => {
+        value.summaries[0].caught = 0;
+      }
+    ]) {
+      const damaged = structuredClone(original);
+      mutate(damaged);
+      assert.throws(() => jev.rescoreResult(damaged, corrected));
+    }
+    // Completed caches without derived mixed metadata remain byte-identical.
+    save(mixed.data, mixed.text);
+    const cached = {
+      snapshot,
+      batches,
+      summaries: original.summaries,
+      inferenceSha256: original.inferenceSha256
+    };
+    writeFileSync(output, JSON.stringify(cached));
+    const cachedBytes = readFileSync(output);
+    for (const command of ["validate", "score", "run"])
+      assert.deepEqual(cli(command, args).mixed, expected);
+    assert.deepEqual(readFileSync(output), cachedBytes);
   });
   check("minimal no-hit omits snippets", () => {
     save({
