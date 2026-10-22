@@ -4,8 +4,15 @@
 
 Develop and evaluate the next V2 family, `stock-wording-and-jargon`, using realistic writing and protected holdouts. Complete definition review, labeled data, and development evaluation for every check before reporting and stopping for the user's holdout decision.
 
-- This document is the plan. Execution starts after authorization; production rules, prompts, datasets, and published packages stay unchanged while planning.
+- The user authorized execution on 2026-10-22 for all five checks. Production rules and published packages stay unchanged during this research round.
 - Follow the storage and development workflow in `AGENTS.md`. Update the accepted taxonomy with finalized definitions and measured quality rather than creating another catalog.
+
+## Execution Status
+
+- Definition review: the taxonomy now records all five definitions, expression ownership, informative-use controls, and counted vocabulary boundary examples.
+- Coverage audit: review every legacy list and template branch before freezing the full datasets.
+- Data preparation: start development pilots, then complete isolated and mixed development and protected holdout sets with independent reviews.
+- Development evaluation: pending frozen data and prompts; retain the separate user-authorization gate for holdout inference.
 
 ## Inspected Coverage
 
