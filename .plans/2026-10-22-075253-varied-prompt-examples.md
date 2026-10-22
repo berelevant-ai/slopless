@@ -25,3 +25,11 @@ Measure how replacing the 34 quoted development examples affects the five select
 - Create `prompts/v14/` with the shared instructions and three check prompts; create `prompts/v15/` with its preserved shared instructions and two check prompts.
 - Save five `runners/results/varied-examples-<check>-development.json` results and one `varied-examples-development.md` comparison report.
 - Stage a timestamped worklog with the reviewed experiment. Preserve unrelated term-policy edits and historical untracked plans.
+
+## Holdout Comparison
+
+- At the user's request, compare the frozen replacements at `2b38b38d` against the original prompts on existing holdout collections `000024`, `000026`, `000028`, `000030`, and `000032`.
+- Use the public runner once per check and arm with identical model, thresholds, complete targets, and batch sizes. Fresh original-prompt controls measure repeat differences from the historical assessments.
+- Preserve ten native single-run JSON results under `runners/results/varied-examples-<check>-holdout[-control].json`. Return only aggregate results to the prompt-authoring context.
+- Keep every prompt and judgment fixed after this assessment. Report per-check counts and paired improvements/regressions in `varied-examples-holdout.md`; classify this as a comparison on reused holdouts.
+- Have a protected fresh reviewer reconstruct all requests and scores, inspect changed decisions, and check the report. Preserve the existing independent assessments and all development results.
