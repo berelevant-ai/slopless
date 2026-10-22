@@ -134,7 +134,7 @@ The mixed [development](ai-synthetic/texts/000039-wordiness-and-redundancy-mixed
 
 Development retains 112 mandatory examples and eighteen original/padding-positive pairs. It uses 20-30 texts per combination to preserve every required control; holdout retains 106 required examples and 25 texts per combination. Both retain 100 hits and 100 no-hits per check.
 
-Keep protected holdout writing outside prompt development. The [family plan](../.plans/2026-10-22-094913-wordiness-and-redundancy-development.md) defines the frozen mixed-development assessment and the separate authorization gate for holdout inference.
+Keep holdout writing outside prompt development. The user-authorized [holdout assessment](../runners/results/wordiness-and-redundancy-v16-holdout.md) evaluates all four frozen holdout collections with their labels unchanged. Further tuning from these results requires fresh holdout material.
 
 The [development report](../runners/results/wordiness-and-redundancy-v16-development.md) records isolated and mixed results, including all three mixed false-positive failures. Detector predictions remain separate from these reviewed dataset labels.
 

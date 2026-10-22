@@ -2,7 +2,13 @@
 
 ## Goal
 
-Develop three checks for unnecessary wording and repeated content using plausible writing, reviewed development data, and independently authored holdouts. Execution was authorized on 2026-10-22; use Codex for reviews as the user corrected, with independent contexts and model variety where useful. Holdout inference still requires its separate authorization.
+Develop three checks for unnecessary wording and repeated content using plausible writing, reviewed development data, and independently authored holdouts. Execution and the subsequent holdout assessment were authorized on 2026-10-22; use Codex for reviews as the user corrected, with independent contexts and model variety where useful.
+
+## Authorized Holdout Assessment
+
+- The user authorizes holdout inference on 2026-10-22. Evaluate the selected `prompts/v16/` unchanged on isolated collections `000034`, `000036`, `000038`, and mixed collection `000040`.
+- Retain Jev 1.13.0, SDK 0.7.0, classification-only mode, threshold 0.5, passage batches of 100, and complete-text batches of sixteen. Keep the acceptance bounds at 95 caught hits and at most five false positives per 100 examples of each class.
+- Save native results, review errors against complete inputs, and report isolated and mixed counts separately. Preserve prompts and labels throughout this assessment; compare development and holdout as different samples.
 
 ## Current Evidence And Decisions
 
@@ -145,7 +151,7 @@ Use family `wordiness-and-redundancy`. Independent Codex definition review resol
 - All-issues-found is 152/170 and exact match 77/200. The final 152 errors have complete-input review coverage: 144 inherited unchanged error judgments and eight new or changed judgments reviewed across seven complete texts.
 - Independent mechanical review reconstructs all 39 final requests and 600 decisions, reproduces all scores, and verifies frozen source bytes. The 195 shared inputs retain their corrected labels; six of their 585 judgments cross the same threshold between runs.
 - All eighteen development pairs remain selected: seventeen variants are caught, fifteen originals are falsely flagged, and two pairs receive both correct decisions. Preserve the first assessment and its native rescore at `384f0d64`; attribute cohort and label changes separately from tuning.
-- Holdout inference remains unrun and separately authorized. Stop after reviewed development reporting; preserve failed gates and production behavior.
+- Authorized holdout inference completes all 1,200 judgments across four frozen collections. Isolated wordiness scores 88 caught/seventeen false positives, redundancy 79/twelve, and repeated explanation 94/three; mixed scores are 93/79, 79/54, and 100/fifteen. All three checks fail the fixed holdout bounds; preserve failed gates and production behavior.
 
 ### Required Before Completion
 
