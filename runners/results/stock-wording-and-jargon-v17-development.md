@@ -2,6 +2,8 @@
 
 ## Result
 
+User review: pending. The generated examples, remaining label disputes and selected prompts await user review. Completed agent review and measured results are recorded below.
+
 All five checks have completed the bounded development search and one confirmation of the selected candidate. Hidden-significance adverbs meet the target; the other four exceed the false-positive limit or miss too many labeled hits.
 
 - Each isolated and mixed set contains 100 expected hits and 100 expected no-hits for each evaluated check.
