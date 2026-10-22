@@ -149,9 +149,9 @@ Twelve reviewed collections contain 2,400 passages and 4,000 judgments. Each che
 - Stock vocabulary: [development](ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md) and [holdout](ai-synthetic/passages/000050-stock-wording-and-jargon-stock-vocabulary-holdout.md).
 - Mixed: [development](ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md) and [holdout](ai-synthetic/passages/000052-stock-wording-and-jargon-mixed-holdout.md), each with all five labels and all 32 combinations.
 
-Blind, adversarial and final reviews cover original, added and repaired inputs. Full pools at `68c375f8`, `9f94e36f`, and `24241a48` preserve all 302 surplus passages with their corrected labels.
+Blind, adversarial and final reviews cover original, added and repaired inputs. Full pools at `68c375f8`, `9f94e36f`, and `24241a48` preserve all 302 surplus passages. Later vocabulary corrections are archived before selection at `3f663d8b` for development and `5ad88d08` for holdout; all writing and other checks' judgments remain intact.
 
-Development mixed quotas retain twelve mandatory all-no-hit controls through complementary counts. Holdout keeps six or seven passages per combination. Repeated workshop/transcription contexts in development mixed writing remain a recorded coverage limitation.
+Corrected development uses four to fourteen passages per combination, including fourteen all-no-hit controls; holdout keeps six or seven. Both retain all 32 combinations and 100/100 per check. Final packaging preserves all 728 required cases, including every corrected case. Repeated workshop/transcription contexts remain a coverage limitation.
 
 The protected overlap audit finds zero candidates against prior datasets. Conservative review identifies at least 52 unseen central cliche constructions among the 100 holdout positives. Keep holdout writing outside prompt development; its model evaluation requires separate authorization.
 

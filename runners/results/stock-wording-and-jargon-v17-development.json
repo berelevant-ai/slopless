@@ -11143,6 +11143,1064 @@
         "finalAudit": "A second same-context pass checks case membership, transitions, error lists, source stability, exact examples, context classes and the preserved disputes."
       },
       "storage": "Complete source passages and predictions remain in paired datasets and native result files; this record retains grouped review decisions and coverage rather than duplicate inputs."
+    },
+    "vocabularyR1": {
+      "status": "complete",
+      "decision": "R1 improves aggregate development label accuracy while losing seven isolated positives and increasing mixed false positives. Preserve the frozen labels and review the recorded boundaries before another candidate is assessed.",
+      "source_commit": "a15196cdced00f7bf1d8b02bc677e745e3bf1d81",
+      "dataset_commit": "365bcef80db521257c8dd72ad719ccd313a37be0",
+      "verification": {
+        "offline_native_validate": "All four result files passed the existing runner validate command with complete=true, requests=13 and decisions=200.",
+        "same_cohort": "B0 and R1 share exact dataset, label and target hashes in each set. The current DEV pairs are byte-identical to 365bcef8. R1 replay prompt files are byte-identical to a15196cd.",
+        "summaries_recomputed": true,
+        "inference_hashes_verified": true,
+        "full_texts_reviewed": 78,
+        "remaining_errors_reviewed": 50,
+        "changed_yes_no_predictions_reviewed": 46,
+        "duplicate_rows_in_error_and_delta_union": 18,
+        "prediction_change_definition": "A changed yes/no result at the frozen 0.5 threshold. Each reviewed row also records both raw scores.",
+        "count_inventories": "Inventories are editorial assessments of the complete source text. The provider returned probabilities without explanations or word inventories; proposed failure mechanisms are editorial inferences.",
+        "labels_retained": true,
+        "provider_calls": 0,
+        "prompt_changes": 0,
+        "repository_edits": 0,
+        "holdout_materials_read": false,
+        "delegated_reviewers": 0
+      },
+      "settings": {
+        "model": "jev-1.13.0",
+        "threshold": 0.5,
+        "mode": "classification-only",
+        "batch_size": 16,
+        "definition_section_sha256": "2d938c5e527413c6891bcfef48ea0b303c87f2349a57d68a1a7aa4092ed5e1f9",
+        "prompt_hashes": {
+          "b0": "c8e568b6971ea13b5803eb17716c0717e6af7e100793f13f2b8a0ecacd66c5d7",
+          "r1": "72cae7ff8556f251e94e4a16034a53622ec86519a37c37070536909e3a190106"
+        }
+      },
+      "sets": [
+        {
+          "set": "isolated",
+          "dataset": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md",
+          "dataset_hashes": {
+            "textSha256": "cf24b5ef852197b0838eb82d4eb4bed040d90aaa03e1e26df4b30af77f38c319",
+            "labelsSha256": "26ac8a366d13c269487f147d32d7acac096e1f188675a43798d5b1aecdcd2372",
+            "targetsSha256": "321762ce2b578015643a6c5b418ed6d99066b80fc02ea79b0b997bbc3ef3ceb2"
+          },
+          "baseline_file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-isolated-corrected-development.json",
+          "candidate_file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-isolated-corrected-development.json",
+          "baseline_file_sha256": "acfcc0de46afd995876e41afb3fd324f6aba723d8a2c899494c8c938507af779",
+          "candidate_file_sha256": "d3809e157a00b99b89398f82492e3e8f7e4b7e2e6ff1305c73af26a8175f0e3d",
+          "baseline_inference_sha256": "acc0998b7e7ff29e449369f268ab848cd15189f379e00a8617baed4589a9aec3",
+          "candidate_inference_sha256": "43eae4b4d200c3680c7acb44d4ca2ff59c8a95bdf2f8afc8cc127fc3cacbe817",
+          "batches_each": 13,
+          "decisions_each": 200,
+          "baseline": {
+            "judgments": 200,
+            "positives": 100,
+            "negatives": 100,
+            "caught": 98,
+            "missed": 2,
+            "false_positives": 41,
+            "correctly_unflagged": 59,
+            "correct": 157,
+            "accuracy": 0.785,
+            "recall": 0.98,
+            "specificity": 0.59
+          },
+          "candidate": {
+            "judgments": 200,
+            "positives": 100,
+            "negatives": 100,
+            "caught": 93,
+            "missed": 7,
+            "false_positives": 23,
+            "correctly_unflagged": 77,
+            "correct": 170,
+            "accuracy": 0.85,
+            "recall": 0.93,
+            "specificity": 0.77
+          },
+          "changes": {
+            "newly_caught_positives": [
+              "000049-209",
+              "000049-225"
+            ],
+            "lost_positives": [
+              "000049-205",
+              "000049-216",
+              "000049-219",
+              "000049-241",
+              "000049-254",
+              "000049-d-91c8bbd162f4",
+              "000049-d-de9a328c9977"
+            ],
+            "corrected_false_positives": [
+              "000049-210",
+              "000049-221",
+              "000049-235",
+              "000049-236",
+              "000049-251",
+              "000049-257",
+              "000049-260",
+              "000049-d-2a16c700e87d",
+              "000049-d-331a426c2d11",
+              "000049-d-34c7ce159f43",
+              "000049-d-49e998cc3c7b",
+              "000049-d-728014ce4947",
+              "000049-d-928c1f1426a8",
+              "000049-d-afb1a8cc546f",
+              "000049-d-c081f34266e0",
+              "000049-d-cc20316d85b7",
+              "000049-d-d542299c3cac",
+              "000049-d-e38e64170d30",
+              "000049-p-2c180b078c61",
+              "000049-p-4b474b4bd0fc",
+              "000049-p-a00e4f14a12a"
+            ],
+            "new_false_positives": [
+              "000049-215",
+              "000049-d-77a0f95050d1",
+              "000049-d-85a0d001fc9c"
+            ]
+          },
+          "change_counts": {
+            "newly_caught_positives": 2,
+            "lost_positives": 7,
+            "corrected_false_positives": 21,
+            "new_false_positives": 3
+          },
+          "reviewed_records": 53,
+          "remaining_errors": 30,
+          "changed_predictions": 33
+        },
+        {
+          "set": "mixed",
+          "dataset": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+          "dataset_hashes": {
+            "textSha256": "5b84be6cc696ec18072ec1605c2f07e72873db69329c1e8ecabccdbbafde517d",
+            "labelsSha256": "871c162eb1f633992d0893cffbff7033e45e9ab053ba2844f6915d49a28a459c",
+            "targetsSha256": "509e2e1d36365b2225f578a19f2bc8282966f423771f5c911cd97f2f440b7aaf"
+          },
+          "baseline_file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-mixed-corrected-development.json",
+          "candidate_file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-mixed-corrected-development.json",
+          "baseline_file_sha256": "4340ffc7621a8cc671d48dd895880205bbff394a5a1ffd4df8496e21befd55fc",
+          "candidate_file_sha256": "59a062457631950dd3e129c55f9129100f8bf2d3d3e7c4d141a288916356a901",
+          "baseline_inference_sha256": "3a7e7ea8bd757264ec94bcbc3d79642f4168df32162e5e3c51f780f8f5092789",
+          "candidate_inference_sha256": "522a075a47e60469dbcaf855ff4f081465af84fac523f2663a21a34be9b1b998",
+          "batches_each": 13,
+          "decisions_each": 200,
+          "baseline": {
+            "judgments": 200,
+            "positives": 100,
+            "negatives": 100,
+            "caught": 100,
+            "missed": 0,
+            "false_positives": 17,
+            "correctly_unflagged": 83,
+            "correct": 183,
+            "accuracy": 0.915,
+            "recall": 1,
+            "specificity": 0.83
+          },
+          "candidate": {
+            "judgments": 200,
+            "positives": 100,
+            "negatives": 100,
+            "caught": 100,
+            "missed": 0,
+            "false_positives": 20,
+            "correctly_unflagged": 80,
+            "correct": 180,
+            "accuracy": 0.9,
+            "recall": 1,
+            "specificity": 0.8
+          },
+          "changes": {
+            "newly_caught_positives": [],
+            "lost_positives": [],
+            "corrected_false_positives": [
+              "000051-018",
+              "000051-078",
+              "000051-095",
+              "000051-109",
+              "000051-142"
+            ],
+            "new_false_positives": [
+              "000051-019",
+              "000051-046",
+              "000051-074",
+              "000051-096",
+              "000051-106",
+              "000051-132",
+              "000051-160",
+              "000051-173"
+            ]
+          },
+          "change_counts": {
+            "newly_caught_positives": 0,
+            "lost_positives": 0,
+            "corrected_false_positives": 5,
+            "new_false_positives": 8
+          },
+          "reviewed_records": 25,
+          "remaining_errors": 20,
+          "changed_predictions": 13
+        }
+      ],
+      "aggregate": {
+        "judgments": 400,
+        "distinct_passages": 400,
+        "positives": 200,
+        "negatives": 200,
+        "baseline": {
+          "caught": 198,
+          "missed": 2,
+          "false_positives": 58,
+          "correctly_unflagged": 142,
+          "correct": 340
+        },
+        "candidate": {
+          "caught": 193,
+          "missed": 7,
+          "false_positives": 43,
+          "correctly_unflagged": 157,
+          "correct": 350
+        },
+        "changes": {
+          "newly_caught_positives": 2,
+          "lost_positives": 7,
+          "corrected_false_positives": 26,
+          "new_false_positives": 11
+        },
+        "total_reviewed": 78
+      },
+      "grouped_decisions": [
+        {
+          "category": "label-boundary-dispute",
+          "decision": "Retain labels. The inventory gives three apparent generic grades; adjudicate the identified meaning or ownership boundary separately.",
+          "inventories_by_id": {
+            "000049-202": [
+              [
+                "holistic",
+                "nuanced",
+                "multifaceted"
+              ]
+            ],
+            "000049-212": [
+              [
+                "holistic",
+                "nuanced",
+                "multifaceted"
+              ]
+            ],
+            "000049-214": [
+              [
+                "bespoke",
+                "elegant",
+                "sophisticated"
+              ]
+            ],
+            "000049-d-34c7ce159f43": [
+              [
+                "bespoke",
+                "thoughtful",
+                "enhances"
+              ]
+            ],
+            "000049-d-40ebcb0b5723": [
+              [
+                "bespoke",
+                "seamless",
+                "thoughtful"
+              ]
+            ],
+            "000049-d-711a7cd3c736": [
+              [
+                "organic",
+                "bespoke",
+                "strategic"
+              ]
+            ],
+            "000049-d-b2ba3aa187c5": [
+              [
+                "considered",
+                "seamless",
+                "bespoke"
+              ]
+            ],
+            "000049-d-c9af1e0000a5": [
+              [
+                "bespoke",
+                "comprehensive",
+                "purposeful"
+              ]
+            ],
+            "000049-d-cc20316d85b7": [
+              [
+                "seamless",
+                "nuanced",
+                "cohesive"
+              ]
+            ],
+            "000049-d-cf39af859c62": [
+              [
+                "holistic",
+                "tailored",
+                "strategic"
+              ]
+            ],
+            "000049-d-d4a679a522fd": [
+              [
+                "bespoke",
+                "purposeful",
+                "comprehensive"
+              ]
+            ],
+            "000049-d-de0a13d41f6f": [
+              [
+                "bespoke",
+                "considered",
+                "enhances"
+              ]
+            ],
+            "000049-d-ec84f03920b9": [
+              [
+                "immersive",
+                "bespoke",
+                "enhances"
+              ]
+            ],
+            "000049-d-f93feba81ee1": [
+              [
+                "bespoke",
+                "cohesive",
+                "enriches"
+              ]
+            ],
+            "000049-p-a00e4f14a12a": [
+              [
+                "holistic",
+                "enriches",
+                "comprehensive"
+              ]
+            ]
+          }
+        },
+        {
+          "category": "missed-residual-ornaments",
+          "decision": "Retain positive labels. Routine operations leave three independent generic grades; repeated bases count once.",
+          "inventories_by_id": {
+            "000049-205": [
+              [
+                "rich",
+                "holistic",
+                "curated"
+              ]
+            ],
+            "000049-216": [
+              [
+                "refined",
+                "distinctive",
+                "sophisticated"
+              ]
+            ],
+            "000049-219": [
+              [
+                "curated",
+                "resonant",
+                "refined"
+              ]
+            ],
+            "000049-241": [
+              [
+                "enriches",
+                "layered",
+                "nuanced"
+              ]
+            ],
+            "000049-254": [
+              [
+                "layered",
+                "holistic",
+                "refined"
+              ]
+            ],
+            "000049-d-91c8bbd162f4": [
+              [
+                "refined",
+                "layered",
+                "nuanced"
+              ]
+            ],
+            "000049-d-de9a328c9977": [
+              [
+                "intentional",
+                "multifaceted",
+                "refined"
+              ]
+            ]
+          }
+        },
+        {
+          "category": "recovered-positive",
+          "decision": "Accept the label-relative recovery: three independent grades remain beside the useful operation.",
+          "inventories_by_id": {
+            "000049-209": [
+              [
+                "cohesive",
+                "refined",
+                "holistic"
+              ]
+            ],
+            "000049-225": [
+              [
+                "sophisticated",
+                "curated",
+                "elevated"
+              ]
+            ]
+          }
+        },
+        {
+          "category": "meaning-protection",
+          "decision": "Retain no-hit labels where supplied information or properties protect enough choices to leave fewer than three.",
+          "inventories_by_id": {
+            "000049-210": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000049-215": [
+              []
+            ],
+            "000049-221": [
+              [
+                "nuanced",
+                "holistic"
+              ]
+            ],
+            "000049-236": [
+              [
+                "holistic",
+                "curated"
+              ]
+            ],
+            "000049-248": [
+              [
+                "sophisticated",
+                "holistic"
+              ]
+            ],
+            "000049-250": [
+              [
+                "layered",
+                "holistic"
+              ]
+            ],
+            "000049-251": [
+              [
+                "layered",
+                "refined"
+              ]
+            ],
+            "000049-257": [
+              []
+            ],
+            "000049-d-53e4ad746f39": [
+              [
+                "comprehensive",
+                "enriches"
+              ]
+            ],
+            "000049-d-728014ce4947": [
+              [
+                "layered",
+                "nuanced"
+              ]
+            ],
+            "000049-d-d48e7c388707": [
+              [
+                "holistic",
+                "multifaceted"
+              ]
+            ],
+            "000049-p-4ead448bd22a": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000051-007": [
+              [
+                "elevates"
+              ]
+            ],
+            "000051-009": [
+              []
+            ],
+            "000051-043": [
+              [
+                "nuanced",
+                "elevates"
+              ]
+            ],
+            "000051-073": [
+              [
+                "nuanced"
+              ]
+            ],
+            "000051-077": [
+              [
+                "nuanced",
+                "enrich"
+              ]
+            ],
+            "000051-103": [
+              [
+                "nuanced",
+                "holistic"
+              ]
+            ],
+            "000051-112": [
+              [
+                "holistic"
+              ]
+            ],
+            "000051-158": [
+              [
+                "holistic"
+              ]
+            ]
+          }
+        },
+        {
+          "category": "ownership-exclusion",
+          "decision": "Remove complete owned expressions before counting; their individual words cannot satisfy the vocabulary threshold.",
+          "inventories_by_id": {
+            "000049-d-2a16c700e87d": [
+              [
+                "thoughtful",
+                "holistic"
+              ]
+            ],
+            "000049-d-77a0f95050d1": [
+              [
+                "holistic",
+                "considered"
+              ]
+            ],
+            "000049-d-85a0d001fc9c": [
+              [
+                "nuanced",
+                "enrich"
+              ]
+            ],
+            "000049-d-d542299c3cac": [
+              [
+                "nuanced",
+                "richer"
+              ]
+            ],
+            "000049-p-4b474b4bd0fc": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000051-018": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ],
+            "000051-019": [
+              []
+            ],
+            "000051-046": [
+              []
+            ],
+            "000051-074": [
+              []
+            ],
+            "000051-078": [
+              []
+            ],
+            "000051-095": [
+              []
+            ],
+            "000051-096": [
+              []
+            ],
+            "000051-106": [
+              []
+            ],
+            "000051-109": [
+              []
+            ],
+            "000051-160": [
+              []
+            ],
+            "000051-173": [
+              []
+            ],
+            "000051-208": [
+              []
+            ]
+          }
+        },
+        {
+          "category": "examined-wording",
+          "decision": "Exclude the quoted or preserved wording being examined before constructing the vocabulary inventory.",
+          "inventories_by_id": {
+            "000049-d-331a426c2d11": [
+              []
+            ],
+            "000049-d-5e3a7e2cea25": [
+              []
+            ],
+            "000049-d-737cab1de785": [
+              []
+            ],
+            "000049-d-928c1f1426a8": [
+              []
+            ],
+            "000049-d-c081f34266e0": [
+              []
+            ],
+            "000049-p-5c5f7dd3bda9": [
+              []
+            ]
+          }
+        },
+        {
+          "category": "paragraph-boundary",
+          "decision": "Keep each paragraph separate; the displayed inventories each remain below three.",
+          "inventories_by_id": {
+            "000049-235": [
+              [
+                "holistic",
+                "curated"
+              ],
+              [
+                "nuanced",
+                "sophisticated"
+              ]
+            ],
+            "000049-260": [
+              [
+                "holistic"
+              ],
+              [
+                "nuanced",
+                "refined"
+              ]
+            ],
+            "000049-d-49e998cc3c7b": [
+              [
+                "holistic",
+                "nuanced"
+              ],
+              []
+            ],
+            "000049-d-afb1a8cc546f": [
+              [
+                "holistic",
+                "enrich"
+              ],
+              [
+                "curated"
+              ]
+            ],
+            "000049-d-e38e64170d30": [
+              [
+                "holistic",
+                "enrich"
+              ],
+              [
+                "considered"
+              ]
+            ],
+            "000049-p-2c180b078c61": [
+              [
+                "holistic",
+                "enrich"
+              ],
+              [
+                "nuanced"
+              ]
+            ],
+            "000051-038": [
+              [
+                "holistic",
+                "nuanced"
+              ],
+              [
+                "elevates"
+              ]
+            ]
+          }
+        },
+        {
+          "category": "threshold-after-ownership",
+          "decision": "At most two independent choices remain after ownership exclusions.",
+          "inventories_by_id": {
+            "000051-033": [
+              [
+                "engineer",
+                "authentic"
+              ]
+            ],
+            "000051-097": [
+              [
+                "nuanced",
+                "holistic"
+              ]
+            ],
+            "000051-142": [
+              [
+                "engineer",
+                "authentic"
+              ]
+            ]
+          }
+        },
+        {
+          "category": "ownership-boundary",
+          "decision": "Resolve the imported-register construction independently before adding any component as a third vocabulary choice.",
+          "inventories_by_id": {
+            "000051-132": [
+              [
+                "holistic",
+                "nuanced"
+              ]
+            ]
+          }
+        }
+      ],
+      "remaining_errors": {
+        "isolated": {
+          "misses": [
+            "000049-205",
+            "000049-216",
+            "000049-219",
+            "000049-241",
+            "000049-254",
+            "000049-d-91c8bbd162f4",
+            "000049-d-de9a328c9977"
+          ],
+          "false_positives": [
+            "000049-202",
+            "000049-212",
+            "000049-214",
+            "000049-215",
+            "000049-248",
+            "000049-250",
+            "000049-d-40ebcb0b5723",
+            "000049-d-53e4ad746f39",
+            "000049-d-5e3a7e2cea25",
+            "000049-d-711a7cd3c736",
+            "000049-d-737cab1de785",
+            "000049-d-77a0f95050d1",
+            "000049-d-85a0d001fc9c",
+            "000049-d-b2ba3aa187c5",
+            "000049-d-c9af1e0000a5",
+            "000049-d-cf39af859c62",
+            "000049-d-d48e7c388707",
+            "000049-d-d4a679a522fd",
+            "000049-d-de0a13d41f6f",
+            "000049-d-ec84f03920b9",
+            "000049-d-f93feba81ee1",
+            "000049-p-4ead448bd22a",
+            "000049-p-5c5f7dd3bda9"
+          ]
+        },
+        "mixed": {
+          "misses": [],
+          "false_positives": [
+            "000051-007",
+            "000051-009",
+            "000051-019",
+            "000051-033",
+            "000051-038",
+            "000051-043",
+            "000051-046",
+            "000051-073",
+            "000051-074",
+            "000051-077",
+            "000051-096",
+            "000051-097",
+            "000051-103",
+            "000051-106",
+            "000051-112",
+            "000051-132",
+            "000051-158",
+            "000051-160",
+            "000051-173",
+            "000051-208"
+          ]
+        }
+      },
+      "specific_disputes": [
+        {
+          "id": "000049-202",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Does coordinated rota coverage establish holistic or multifaceted here?"
+        },
+        {
+          "id": "000049-212",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Does applying the date convention to multiple document locations establish multifaceted?"
+        },
+        {
+          "id": "000049-214",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Which of these three independent grades receives meaning protection or another defect assignment?"
+        },
+        {
+          "id": "000049-248",
+          "retained_expected": false,
+          "reviewer_counts": [
+            2
+          ],
+          "question": "Does enriching modify a concrete informational exchange or generically grade an experience?"
+        },
+        {
+          "id": "000049-d-34c7ce159f43",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Does enhances name useful practice, assert a missing benefit owned elsewhere, or generically grade the process?"
+        },
+        {
+          "id": "000049-d-40ebcb0b5723",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "What supports bespoke, seamless or thoughtful as an independently meaningful property here?"
+        },
+        {
+          "id": "000049-d-53e4ad746f39",
+          "retained_expected": false,
+          "reviewer_counts": [
+            2
+          ],
+          "question": "Does customized receipt content support bespoke service experience, or only the receipt field?"
+        },
+        {
+          "id": "000049-d-711a7cd3c736",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Which particular property supports one of organic, bespoke or strategic?"
+        },
+        {
+          "id": "000049-d-728014ce4947",
+          "retained_expected": false,
+          "reviewer_counts": [
+            2
+          ],
+          "question": "Does inviting agenda items establish engaging, or is engaging another generic grade?"
+        },
+        {
+          "id": "000049-d-b2ba3aa187c5",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Which property or complete competing expression removes one of these three choices?"
+        },
+        {
+          "id": "000049-d-c9af1e0000a5",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Do inserted personal fields support bespoke or the job-number instruction support purposeful?"
+        },
+        {
+          "id": "000049-d-cc20316d85b7",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Do a reminder and an on-time appointment establish one of the three broad grades?"
+        },
+        {
+          "id": "000049-d-cf39af859c62",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Which specific tailoring, coverage or strategic distinction makes one modifier informative?"
+        },
+        {
+          "id": "000049-d-d48e7c388707",
+          "retained_expected": false,
+          "reviewer_counts": [
+            2
+          ],
+          "question": "Does richer context refer to the actual receipt metadata or generically grade the account experience?"
+        },
+        {
+          "id": "000049-d-d4a679a522fd",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Does a completed personal card establish bespoke or purposeful beyond routine reminder functionality?"
+        },
+        {
+          "id": "000049-d-de0a13d41f6f",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Does enhances the relationship receive a missing-benefit assignment, or does name insertion make bespoke meaningful?"
+        },
+        {
+          "id": "000049-d-ec84f03920b9",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Does the first-name field establish bespoke, or does enhances belong to a missing-benefit check?"
+        },
+        {
+          "id": "000049-d-f93feba81ee1",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Does the confirmation add concrete information sufficient to make enriches the interaction informative?"
+        },
+        {
+          "id": "000049-p-a00e4f14a12a",
+          "retained_expected": false,
+          "reviewer_counts": [
+            3
+          ],
+          "question": "Does filtering by month make enriches the retrieval experience informative rather than generic?"
+        },
+        {
+          "id": "000051-043",
+          "retained_expected": false,
+          "reviewer_counts": [
+            2
+          ],
+          "question": "Does integrated coverage make holistic meaningful, or does it grade a routine household page?"
+        },
+        {
+          "id": "000051-077",
+          "retained_expected": false,
+          "reviewer_counts": [
+            2
+          ],
+          "question": "Does the supplied planning coverage make holistic informative?"
+        },
+        {
+          "id": "000051-132",
+          "retained_expected": false,
+          "reviewer_counts": [
+            2
+          ],
+          "question": "The borrowed-jargon label is false, so which reading excludes engineer from vocabulary counting?"
+        }
+      ],
+      "actions": [
+        {
+          "finding": "Seven isolated positives are lost while two previous misses are recovered.",
+          "covered_ids": [
+            "000049-205",
+            "000049-216",
+            "000049-219",
+            "000049-241",
+            "000049-254",
+            "000049-d-91c8bbd162f4",
+            "000049-d-de9a328c9977"
+          ],
+          "operation": "In the next authoring pass, require an explicit residual inventory after meaning and ownership checks, and use these seven existing cases to verify that useful details do not erase independent generic grades."
+        },
+        {
+          "finding": "Mixed false positives rise from 17 to 20 through eight new false positives and five corrections.",
+          "covered_ids": [
+            "000051-019",
+            "000051-046",
+            "000051-074",
+            "000051-096",
+            "000051-106",
+            "000051-132",
+            "000051-160",
+            "000051-173"
+          ],
+          "operation": "Resolve the smallest complete owned expression before counting its component words. Keep literal model and camera terminology meaningful, and require three residual base/sense choices in the same paragraph."
+        },
+        {
+          "finding": "Examined wording remains a source of clear isolated false positives.",
+          "covered_ids": [
+            "000049-d-5e3a7e2cea25",
+            "000049-d-737cab1de785",
+            "000049-p-5c5f7dd3bda9"
+          ],
+          "operation": "Exclude each complete examined or preserved span before constructing the paragraph inventory; assess adopted quotations separately."
+        },
+        {
+          "finding": "Some frozen no-hit labels require a disputed meaning or ownership decision.",
+          "covered_ids": [
+            "000049-202",
+            "000049-212",
+            "000049-214",
+            "000049-248",
+            "000049-d-34c7ce159f43",
+            "000049-d-40ebcb0b5723",
+            "000049-d-53e4ad746f39",
+            "000049-d-711a7cd3c736",
+            "000049-d-728014ce4947",
+            "000049-d-b2ba3aa187c5",
+            "000049-d-c9af1e0000a5",
+            "000049-d-cc20316d85b7",
+            "000049-d-cf39af859c62",
+            "000049-d-d48e7c388707",
+            "000049-d-d4a679a522fd",
+            "000049-d-de0a13d41f6f",
+            "000049-d-ec84f03920b9",
+            "000049-d-f93feba81ee1",
+            "000049-p-a00e4f14a12a",
+            "000051-043",
+            "000051-077",
+            "000051-132"
+          ],
+          "operation": "Keep all labels and reported scores unchanged. Adjudicate these boundaries against the general definition separately before converting a label-relative gain into a correctness claim."
+        }
+      ],
+      "uncertainty": "Each candidate has one completed run on exposed development examples. Run-to-run variation remains unmeasured. Label disputes are recorded per passage; all metrics use the frozen labels.",
+      "highlighting": "The saved runs are classification-only. Reviewed snippets are dataset judgments and editorial inventories; model highlighting was not produced.",
+      "demonstration_overlap": {
+        "ids": [
+          "000049-201",
+          "000049-209",
+          "000049-235",
+          "000049-236",
+          "000051-006",
+          "000051-095"
+        ],
+        "interpretation": "These six cases were in R1 development demonstrations. Their results are part of development scoring."
+      },
+      "labels_changed": false,
+      "storage": "Changed predictions remain in native outputs and corrected-comparison deltas; grouped complete-input review decisions remain here."
     }
   },
   "correctedCohort": {
@@ -16350,11 +17408,274 @@
             "requestMs": 7320.432622000002
           },
           "passes": false
+        },
+        {
+          "check": "stock-vocabulary",
+          "revision": "r2",
+          "promptCommit": "3554e431",
+          "demonstrationIDs": [
+            "000049-205",
+            "000049-d-91c8bbd162f4",
+            "000051-006",
+            "000049-215",
+            "000049-d-40ebcb0b5723",
+            "000051-097"
+          ],
+          "sets": {
+            "isolated": {
+              "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r2-isolated-corrected-development.json",
+              "fileSha256": "9849d64a9005f4ba01cf211535724ec218028078d81fabc25575bbf923d4228c",
+              "promptCommit": "3554e431",
+              "datasetCommit": "365bcef8",
+              "snapshot": {
+                "model": "jev-1.13.0",
+                "threshold": 0.5,
+                "checks": [
+                  "stock-vocabulary"
+                ],
+                "family": "stock-wording-and-jargon",
+                "mode": "classification-only",
+                "batchSize": 16,
+                "prompts": "../../../../../tmp/stock-v17-replay/3554e4315a791fef65042133a809258976975b2d/prompts/v17",
+                "dataset": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md",
+                "promptSha256": "a1b3f735af70b731af326f27f389eef739f08bef0ce1401711ae213fb88708c0",
+                "textSha256": "cf24b5ef852197b0838eb82d4eb4bed040d90aaa03e1e26df4b30af77f38c319",
+                "labelsSha256": "26ac8a366d13c269487f147d32d7acac096e1f188675a43798d5b1aecdcd2372",
+                "targetsSha256": "321762ce2b578015643a6c5b418ed6d99066b80fc02ea79b0b997bbc3ef3ceb2"
+              },
+              "assembledWords": 975,
+              "targets": 200,
+              "positives": 100,
+              "caught": 93,
+              "missed": 7,
+              "noHits": 100,
+              "falsePositives": 21,
+              "correctNoHits": 79,
+              "totalErrors": 28,
+              "missedIDs": [
+                "000049-204",
+                "000049-209",
+                "000049-d-3fa11d03da1e",
+                "000049-d-402ba710a84f",
+                "000049-d-88ac1149aff2",
+                "000049-d-afb3a6078922",
+                "000049-d-d53807c5e41d"
+              ],
+              "falsePositiveIDs": [
+                "000049-210",
+                "000049-212",
+                "000049-235",
+                "000049-236",
+                "000049-248",
+                "000049-260",
+                "000049-d-49e998cc3c7b",
+                "000049-d-53e4ad746f39",
+                "000049-d-5e3a7e2cea25",
+                "000049-d-711a7cd3c736",
+                "000049-d-728014ce4947",
+                "000049-d-76827b632a2e",
+                "000049-d-77a0f95050d1",
+                "000049-d-85a0d001fc9c",
+                "000049-d-cc20316d85b7",
+                "000049-d-d48e7c388707",
+                "000049-d-f93feba81ee1",
+                "000049-p-4ead448bd22a",
+                "000049-p-5c5f7dd3bda9",
+                "000049-p-a00e4f14a12a",
+                "000049-p-b204c71478d2"
+              ],
+              "requests": 13,
+              "decisions": 200,
+              "inputTokens": 63770,
+              "outputTokens": 7314,
+              "requestMs": 3159.3107080000013,
+              "validation": {
+                "complete": true,
+                "requestAndInferenceHashes": true,
+                "offlineScoreMatches": true
+              },
+              "deltaAgainstCorrectedBaseline": {
+                "newCatches": [
+                  "000049-225"
+                ],
+                "lostCatches": [
+                  "000049-204",
+                  "000049-d-3fa11d03da1e",
+                  "000049-d-402ba710a84f",
+                  "000049-d-88ac1149aff2",
+                  "000049-d-afb3a6078922",
+                  "000049-d-d53807c5e41d"
+                ],
+                "correctedFalsePositives": [
+                  "000049-202",
+                  "000049-214",
+                  "000049-221",
+                  "000049-250",
+                  "000049-251",
+                  "000049-257",
+                  "000049-d-2a16c700e87d",
+                  "000049-d-331a426c2d11",
+                  "000049-d-34c7ce159f43",
+                  "000049-d-40ebcb0b5723",
+                  "000049-d-737cab1de785",
+                  "000049-d-928c1f1426a8",
+                  "000049-d-afb1a8cc546f",
+                  "000049-d-b2ba3aa187c5",
+                  "000049-d-c081f34266e0",
+                  "000049-d-c9af1e0000a5",
+                  "000049-d-cf39af859c62",
+                  "000049-d-d4a679a522fd",
+                  "000049-d-d542299c3cac",
+                  "000049-d-de0a13d41f6f",
+                  "000049-d-e38e64170d30",
+                  "000049-d-ec84f03920b9",
+                  "000049-p-2c180b078c61",
+                  "000049-p-4b474b4bd0fc"
+                ],
+                "newFalsePositives": [
+                  "000049-d-76827b632a2e",
+                  "000049-d-77a0f95050d1",
+                  "000049-d-85a0d001fc9c",
+                  "000049-p-b204c71478d2"
+                ]
+              }
+            },
+            "mixed": {
+              "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r2-mixed-corrected-development.json",
+              "fileSha256": "0f6fa8c11bcce3bd3aec5ea43f0975627fd15012c0278d7e57f4c4d77edb599f",
+              "promptCommit": "3554e431",
+              "datasetCommit": "365bcef8",
+              "snapshot": {
+                "model": "jev-1.13.0",
+                "threshold": 0.5,
+                "checks": [
+                  "stock-vocabulary"
+                ],
+                "family": "stock-wording-and-jargon",
+                "mode": "classification-only",
+                "batchSize": 16,
+                "prompts": "../../../../../tmp/stock-v17-replay/3554e4315a791fef65042133a809258976975b2d/prompts/v17",
+                "dataset": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+                "promptSha256": "a1b3f735af70b731af326f27f389eef739f08bef0ce1401711ae213fb88708c0",
+                "textSha256": "5b84be6cc696ec18072ec1605c2f07e72873db69329c1e8ecabccdbbafde517d",
+                "labelsSha256": "871c162eb1f633992d0893cffbff7033e45e9ab053ba2844f6915d49a28a459c",
+                "targetsSha256": "509e2e1d36365b2225f578a19f2bc8282966f423771f5c911cd97f2f440b7aaf"
+              },
+              "assembledWords": 975,
+              "targets": 200,
+              "positives": 100,
+              "caught": 90,
+              "missed": 10,
+              "noHits": 100,
+              "falsePositives": 22,
+              "correctNoHits": 78,
+              "totalErrors": 32,
+              "missedIDs": [
+                "000051-062",
+                "000051-085",
+                "000051-107",
+                "000051-108",
+                "000051-116",
+                "000051-128",
+                "000051-130",
+                "000051-197",
+                "000051-200",
+                "000051-219"
+              ],
+              "falsePositiveIDs": [
+                "000051-009",
+                "000051-015",
+                "000051-018",
+                "000051-033",
+                "000051-043",
+                "000051-046",
+                "000051-053",
+                "000051-066",
+                "000051-073",
+                "000051-077",
+                "000051-078",
+                "000051-082",
+                "000051-098",
+                "000051-103",
+                "000051-106",
+                "000051-109",
+                "000051-112",
+                "000051-146",
+                "000051-160",
+                "000051-173",
+                "000051-206",
+                "000051-208"
+              ],
+              "requests": 13,
+              "decisions": 200,
+              "inputTokens": 68458,
+              "outputTokens": 6052,
+              "requestMs": 3169.300623,
+              "validation": {
+                "complete": true,
+                "requestAndInferenceHashes": true,
+                "offlineScoreMatches": true
+              },
+              "deltaAgainstCorrectedBaseline": {
+                "newCatches": [],
+                "lostCatches": [
+                  "000051-062",
+                  "000051-085",
+                  "000051-107",
+                  "000051-108",
+                  "000051-116",
+                  "000051-128",
+                  "000051-130",
+                  "000051-197",
+                  "000051-200",
+                  "000051-219"
+                ],
+                "correctedFalsePositives": [
+                  "000051-007",
+                  "000051-038",
+                  "000051-095",
+                  "000051-097",
+                  "000051-142",
+                  "000051-158"
+                ],
+                "newFalsePositives": [
+                  "000051-015",
+                  "000051-046",
+                  "000051-053",
+                  "000051-066",
+                  "000051-082",
+                  "000051-098",
+                  "000051-106",
+                  "000051-146",
+                  "000051-160",
+                  "000051-173",
+                  "000051-206"
+                ]
+              }
+            }
+          },
+          "totals": {
+            "targets": 400,
+            "positives": 200,
+            "caught": 183,
+            "missed": 17,
+            "noHits": 200,
+            "falsePositives": 43,
+            "correctNoHits": 157,
+            "totalErrors": 60,
+            "requests": 26,
+            "decisions": 400,
+            "inputTokens": 132228,
+            "outputTokens": 13366,
+            "requestMs": 6328.611331000002
+          },
+          "passes": false
         }
       ],
       "ranking": [
         "r1",
-        "b0"
+        "b0",
+        "r2"
       ],
       "firstPassingRevision": null,
       "selection": {
@@ -16362,7 +17683,7 @@
         "promptCommit": "a15196cd",
         "passes": false,
         "totalErrors": 50,
-        "consecutiveNonImprovements": 0,
+        "consecutiveNonImprovements": 1,
         "reason": "Search remains open."
       }
     }
@@ -16438,7 +17759,7 @@
       "promptCommit": "a15196cd",
       "passes": false,
       "totalErrors": 50,
-      "consecutiveNonImprovements": 0,
+      "consecutiveNonImprovements": 1,
       "reason": "Search remains open."
     }
   },
@@ -16610,6 +17931,81 @@
         {
           "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-mixed-corrected-development.json",
           "sha256": "4340ffc7621a8cc671d48dd895880205bbff394a5a1ffd4df8496e21befd55fc"
+        }
+      ]
+    },
+    {
+      "revision": "r2",
+      "promptCommit": "3554e431",
+      "demoIDs": [
+        "000049-205",
+        "000049-d-91c8bbd162f4",
+        "000051-006",
+        "000049-215",
+        "000049-d-40ebcb0b5723",
+        "000051-097"
+      ],
+      "assembledWords": 975,
+      "sourceHashes": [
+        {
+          "path": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md",
+          "sha256": "a030f3dccf7dcfab0e7408f778810621548d2bf64447b47fa8d90ddbfb254097"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.labels.json",
+          "sha256": "2e43fe07c56b8e6be53e9401b313325a03cde74be5a6ab4bbea795f55851e33e"
+        },
+        {
+          "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-isolated-corrected-development.json",
+          "sha256": "d3809e157a00b99b89398f82492e3e8f7e4b7e2e6ff1305c73af26a8175f0e3d"
+        },
+        {
+          "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-isolated-corrected-development.json",
+          "sha256": "acfcc0de46afd995876e41afb3fd324f6aba723d8a2c899494c8c938507af779"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+          "sha256": "cb44f22a4f3f4bc08760b473993d8f71af9bfd1bb53812a238f688b3f441cd82"
+        },
+        {
+          "path": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.labels.json",
+          "sha256": "6d8880d646c08bfe4ac45c6cd3434a4cf4cb1ce40e6014722f82031353fc9528"
+        },
+        {
+          "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-r1-mixed-corrected-development.json",
+          "sha256": "59a062457631950dd3e129c55f9129100f8bf2d3d3e7c4d141a288916356a901"
+        },
+        {
+          "path": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-mixed-corrected-development.json",
+          "sha256": "4340ffc7621a8cc671d48dd895880205bbff394a5a1ffd4df8496e21befd55fc"
+        },
+        {
+          "path": "prompts/v17/shared.md",
+          "sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761"
+        },
+        {
+          "path": "/tmp/stock-v17-replay/a15196cdced00f7bf1d8b02bc677e745e3bf1d81/prompts/v17/shared.md",
+          "sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761"
+        },
+        {
+          "path": "/tmp/stock-v17-replay/a15196cdced00f7bf1d8b02bc677e745e3bf1d81/prompts/v17/stock-vocabulary.md",
+          "sha256": "0e9cd70a2a7edfb22e00007f5da7c0a48057e75c988ec983486c4e9288c3b341"
+        },
+        {
+          "path": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+          "sha256": "a8bf1a3c876cb2453041d28aded9f7f6ef912cb8d2253948a89972245636e380"
+        },
+        {
+          "path": "runners/jev.mjs",
+          "sha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a"
+        },
+        {
+          "path": "/tmp/stock-v17-stock-vocabulary-b0-corrected-error-review.json",
+          "sha256": "0aa0a3f35ccab03b1b00b6c3363a731aeb9579b9fea7b62e3d7a5b2b1ca8c74d"
+        },
+        {
+          "path": "/tmp/stock-v17-stock-vocabulary-r1-proposal.json",
+          "sha256": "ab2205bbdbd8b8a9a1862a38e812372ae182f165a5f19d0352f6eeccaa12ebe7"
         }
       ]
     }
@@ -16813,5 +18209,235 @@
       "reported_change": "Formatting only; wording and assembled count remain 887 words.",
       "verification_scope": "The hashes and pass decision above apply to the reviewed temporary proposal. The frozen-commit update is recorded as supplied by the author."
     }
+  },
+  "vocabularyR2PromptReview": {
+    "status": "pass",
+    "reviewer_role": "Independent static reviewer; not the R2 author.",
+    "scope": "Six complete DEV demonstrations, their inventories and snippets, preservation of the general Stock Vocabulary definition, and the assembled word limit.",
+    "proposal": {
+      "path": "/tmp/stock-v17-stock-vocabulary-r2-proposed.md",
+      "sha256": "571288e54e32a7515c8a07fc368e3d645001936a010ac42e09aa066489c9f48d",
+      "body_sha256": "c42c6e86de40b0cd6e59789df073dd48af4adbff285c5d721b9d9b4c12f0cc5d"
+    },
+    "source_checks": {
+      "development_pairs": "DEV049 and DEV051 are byte-identical to 365bcef8.",
+      "definition": ".plans/2026-10-20-125402-v2-rule-taxonomy.md:395-411",
+      "definition_section_sha256": "2d938c5e527413c6891bcfef48ea0b303c87f2349a57d68a1a7aa4092ed5e1f9",
+      "shared": "prompts/v17/shared.md is byte-identical to a15196cd.",
+      "shared_sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761"
+    },
+    "counts": {
+      "complete_examples": 6,
+      "hits": 3,
+      "no_hits": 3,
+      "full_text_matches": 6,
+      "label_and_inventory_agreements": 6,
+      "hit_snippet_set_matches": 3,
+      "labeled_hit_snippets": 9,
+      "highlighted_occurrences": 10
+    },
+    "grouped_decisions": [
+      {
+        "decision": "Three distinct ornaments survive beside useful operations; repeated rich counts once.",
+        "inventories_by_id": {
+          "000049-205": [
+            "rich",
+            "holistic",
+            "curated"
+          ],
+          "000049-d-91c8bbd162f4": [
+            "refined",
+            "layered",
+            "nuanced"
+          ]
+        }
+      },
+      {
+        "decision": "Three residual ornaments survive the independent owned expressions.",
+        "inventories_by_id": {
+          "000051-006": [
+            "holistic",
+            "multifaceted",
+            "enrich"
+          ]
+        }
+      },
+      {
+        "decision": "The supplied sources, reading conditions and stability test give all four candidate words relevant meanings.",
+        "inventories_by_id": {
+          "000049-215": []
+        }
+      },
+      {
+        "decision": "The explicit tailoring overstatement receives O ownership; two generic grades remain. This supplies an explicit resolution of the R1 boundary dispute while retaining the label.",
+        "inventories_by_id": {
+          "000049-d-40ebcb0b5723": [
+            "seamless",
+            "thoughtful"
+          ]
+        }
+      },
+      {
+        "decision": "The complete cliche and imported-register expression receive O ownership; quietly has a stated listening meaning. Two vocabulary choices remain.",
+        "inventories_by_id": {
+          "000051-097": [
+            "nuanced",
+            "holistic"
+          ]
+        }
+      }
+    ],
+    "general_definition": {
+      "status": "pass",
+      "preserved": [
+        "Judge each candidate's own relevant meaning using the complete passage.",
+        "Exclude examined wording and the smallest complete other-owned expression before counting.",
+        "Retain independently ornamental neighboring grades beside routine functionality.",
+        "Count distinct base/sense choices without overlapping spans, within one paragraph; reset at headings and separate list items.",
+        "Require three surviving choices and apply the rule to all instances and unseen wording."
+      ],
+      "generalization_check": "M/E/O/V dispositions apply by meaning and ownership. The tailoring example instantiates an overstated specific claim; the rule separately preserves generic favorable grades for vocabulary assessment."
+    },
+    "assembled_prompt": {
+      "status": "pass",
+      "method": "Whitespace-delimited words; shared plus body plus question plus both criteria, joined with two newlines.",
+      "body": 806,
+      "shared": 96,
+      "question": 35,
+      "true_criterion": 17,
+      "false_criterion": 21,
+      "total": 975,
+      "limit": 1000,
+      "headroom": 25,
+      "raw_markdown_plus_shared": 985,
+      "assembled_sha256": "11abc49950d2a4288557cc51c536fe22c1d79459d02d19a66c2dc126ea811fde",
+      "frontmatter_schema_valid": true
+    },
+    "actionable_objections": [],
+    "specific_unresolved_disputes": [],
+    "boundaries": {
+      "labels_changed": false,
+      "prompt_changes": 0,
+      "provider_calls": 0,
+      "holdout_materials_read": false,
+      "r2_prediction_files_read_for_static_review": false
+    }
+  },
+  "vocabularyBoundaryDisposition": {
+    "reviewQuestions": 22,
+    "closed": [
+      "000049-214",
+      "000049-d-34c7ce159f43",
+      "000049-d-40ebcb0b5723",
+      "000049-d-53e4ad746f39",
+      "000049-d-711a7cd3c736",
+      "000049-d-b2ba3aa187c5",
+      "000049-d-c9af1e0000a5",
+      "000049-d-cf39af859c62",
+      "000049-d-d4a679a522fd",
+      "000049-d-de0a13d41f6f",
+      "000049-d-ec84f03920b9",
+      "000049-d-f93feba81ee1",
+      "000049-p-a00e4f14a12a",
+      "000051-132"
+    ],
+    "retainedBorderline": [
+      {
+        "id": "000049-202",
+        "retained_expected": false,
+        "reviewer_counts": [
+          3
+        ],
+        "question": "Does coordinated rota coverage establish holistic or multifaceted here?"
+      },
+      {
+        "id": "000049-212",
+        "retained_expected": false,
+        "reviewer_counts": [
+          3
+        ],
+        "question": "Does applying the date convention to multiple document locations establish multifaceted?"
+      },
+      {
+        "id": "000049-248",
+        "retained_expected": false,
+        "reviewer_counts": [
+          2
+        ],
+        "question": "Does enriching modify a concrete informational exchange or generically grade an experience?"
+      },
+      {
+        "id": "000049-d-728014ce4947",
+        "retained_expected": false,
+        "reviewer_counts": [
+          2
+        ],
+        "question": "Does inviting agenda items establish engaging, or is engaging another generic grade?"
+      },
+      {
+        "id": "000049-d-cc20316d85b7",
+        "retained_expected": false,
+        "reviewer_counts": [
+          3
+        ],
+        "question": "Do a reminder and an on-time appointment establish one of the three broad grades?"
+      },
+      {
+        "id": "000049-d-d48e7c388707",
+        "retained_expected": false,
+        "reviewer_counts": [
+          2
+        ],
+        "question": "Does richer context refer to the actual receipt metadata or generically grade the account experience?"
+      },
+      {
+        "id": "000051-043",
+        "retained_expected": false,
+        "reviewer_counts": [
+          2
+        ],
+        "question": "Does integrated coverage make holistic meaningful, or does it grade a routine household page?"
+      },
+      {
+        "id": "000051-077",
+        "retained_expected": false,
+        "reviewer_counts": [
+          2
+        ],
+        "question": "Does the supplied planning coverage make holistic informative?"
+      }
+    ],
+    "labelsChanged": false,
+    "resolutions": [
+      {
+        "ids": [
+          "000049-214",
+          "000049-d-34c7ce159f43",
+          "000049-d-40ebcb0b5723",
+          "000049-d-53e4ad746f39",
+          "000049-d-711a7cd3c736",
+          "000049-d-b2ba3aa187c5",
+          "000049-d-c9af1e0000a5",
+          "000049-d-cf39af859c62",
+          "000049-d-d4a679a522fd",
+          "000049-d-de0a13d41f6f",
+          "000049-d-ec84f03920b9",
+          "000049-d-f93feba81ee1"
+        ],
+        "operation": "Exclude the overstated individual-tailoring claim under inflated evaluation before counting the two residual ornaments. Fresh R2 review confirms the paired example."
+      },
+      {
+        "ids": [
+          "000049-p-a00e4f14a12a"
+        ],
+        "operation": "Exclude the complete disposable for-a-comprehensive-experience introductory frame under unnecessary framing; two independent grades remain."
+      },
+      {
+        "ids": [
+          "000051-132"
+        ],
+        "operation": "Preserve engineer as meaningful ordinary causation; a longer available synonym alone is insufficient. Holistic and nuanced remain two ornaments."
+      }
+    ]
   }
 }

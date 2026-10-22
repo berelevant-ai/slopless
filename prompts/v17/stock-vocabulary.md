@@ -1,65 +1,64 @@
 ---
 {
-  "instructions": "Build a separate candidate inventory for each prose paragraph using the stock-vocabulary rule in state. After resolving each choice's own meaning, expression ownership and base/sense, does any paragraph retain at least three distinct ornamental choices?",
+  "instructions": "Does any single prose paragraph contain at least three different ornamental word choices: generic elevated wording that adds polish or complexity without conveying a relevant meaning of its own? Apply the stock-vocabulary boundaries in state.",
   "criteria":
     {
-      "true": "Three or more identifiable, independently ornamental base-word/sense choices survive all meaning and ownership tests within one paragraph.",
-      "false": "Each paragraph retains at most two ornamental choices. Meaningful words, examined wording, other-owned expressions and repeated bases supply no additional counts."
+      "true": "One paragraph contains at least three distinct ornamental base-word/sense choices after meaningful language and expressions belonging to other defects are excluded.",
+      "false": "Every paragraph contains at most two eligible choices after contextual meaning, expression exclusions and repeated bases are accounted for."
     }
 }
 ---
 
 # Stock Vocabulary
 
-Input: passage. Use the complete passage to resolve meaning; inventory each prose paragraph separately.
+Input: passage. Read the complete passage and judge each word where it is used. Catch concentrations of generic elevated diction, including unseen wording.
 
-Inventory each candidate as exact wording -> referent -> contextual meaning -> disposition:
+Preserve words that convey a relevant operation, property, distinction or qualification. Ordinary formal and evaluative language can be informative. Context may establish added information, several linked aspects, fine adjustment, continuity or a specific limitation. The availability of a shorter synonym alone establishes no defect.
 
-- M, meaningful: the word conveys a relevant operation, property, distinction or qualification. Preserve ordinary formal and evaluative language, including qualitative coverage and added information. Later context can supply a property. A shorter synonym alone establishes no ornament.
-- E, examined: wording is documented, criticized, compared or preserved as wording. Its vocabulary contributes zero. Assess quotations adopted as the writer's communication normally.
-- O, other-owned: identify the smallest complete expression carrying a different defect. Exclude conventional generic rhetoric, decorative imported technical labels around a clear activity, recoverable garbled terms, missing substantive meaning, inflated evaluation, duplication and disposable framing. An overstated specific claim, such as individual tailoring of identical standard provision, belongs to inflated evaluation. For hidden-emphasis adverbs exclude the decorative adverb itself; test its neighbors separately.
-- V, ornamental: the choice adds generic polish, elevation or complexity while its own relevant meaning remains absent. A routine feature establishes its operation, rather than sophistication or completeness of its experience. Preserve the feature's meaning and count its independently ornamental grades. Ordinary adjective-noun combinations require this contextual test.
+Distinguish that meaning from a generic grade of an approach, experience, feel, presentation or relationship. Instructions establish what a feature does; they do not automatically establish the elevated qualities claimed for it. Useful details protect the meaning they explain. Independently ornamental grades remain eligible beside those details, including ordinary adjective-noun combinations.
 
-Resolve M, E and O before counting V. Other-owned expressions contribute zero even when they contain several elevated words. Exclude only their complete defective spans; independently ornamental neighbors remain V. Generic grades do not all become inflated evaluation merely because they sound favorable.
+Exclude the smallest complete expression whose defect belongs elsewhere: conventional generic rhetoric; decorative technical labels around a recoverable ordinary activity; recoverable garbled terms; missing substantive meaning; inflated evaluation; duplication; or disposable framing. Overstated individual tailoring of standard provision belongs to inflated evaluation. Ordinary generic grades remain vocabulary candidates. Assess neighboring words independently rather than exempting the sentence or paragraph.
 
-Reduce V entries to distinct base-word/sense choices. Repeated inflections in the same sense count once; independently ornamental synonyms count separately. A multiword choice counts once; overlapping spans cannot supply two counts. Reset at paragraph boundaries, headings and separate list items.
+For decorative hidden-emphasis adverbs, exclude the adverb itself. Preserve useful sound, notice, disclosure, manner and process meanings. Exclude wording examined, criticized or preserved as wording; judge quotations adopted as the writer's own communication normally. Resolve these boundaries independently of other detector answers.
 
-Answer yes only when one paragraph retains at least three V choices. Assess all instances and unseen wording. Other defects supply no vocabulary counts.
+Count distinct base words and senses among the eligible choices. Repeated inflections in the same sense count once; independent ornamental synonyms count separately. A multiword choice counts once and overlapping spans supply one count. Require three within one prose paragraph. Separate paragraphs, headings and list items keep separate counts. Other writing defects supply no extra vocabulary counts.
 
 ## Development Examples
 
 ### Hit
 
-Saved searches now appear above the ticket list, a **rich** addition to the page. Select a previous query to run it again. Our **holistic** handling of saved searches includes renaming: open the three-dot menu beside the query and choose Rename. The sidebar follows the same **curated** approach, with a **rich** presentation of your last five searches.
+The dashboard provides a **robust** experience for viewing attendance. We have **enhanced** its character through a **multifaceted** treatment of the daily register. Choose a date to display the names recorded as present. The number beneath the list is the total for that day. Selecting Print opens a one-page version with the date, names, and total in the same order.
 
-V: rich, holistic, curated. Total three; rich repeats one base/sense. The controls specify operations, while the grades remain generic.
+Three ornaments. The display and printing operations leave those grades of the experience, character and treatment generic.
 
 ### Hit
 
 The exercise brings a **refined** quality to introductory map reading. A **layered** approach gives the task a **nuanced** educational character. Students find the railway station using its printed symbol and write the adjacent grid reference in the box. The map shows one station, and the answer consists of the two letters and two digits printed along the map edges.
 
-V: refined, layered, nuanced. Total three. The map-reading instructions supply the task rather than those qualities.
+Three ornaments remain beside one fixed map-reading task; its instructions leave the marked qualities generic.
 
 ### Hit
 
-Our new reading evening is a feast for the senses, with poems, tea, and biscuits in the hall. It offers a cognitive reboot through listening to favorite passages, supported by **holistic** discussion cards and **multifaceted** host notes that **enrich** each table's conversation. The host booklet is quietly essential for keeping the evening on time. Readings will be transcribed by counterfeit consciousness software, an artificial-intelligence tool whose draft text volunteers will check before posting it on the noticeboard.
+The opening worksheet is a personal mindset calibration for new mentors. Read its **holistic** introduction and **nuanced** examples, which **elevate** the account of how to start a conversation with a learner. The worksheet is quietly essential to the first practice call. After recording, choose the man-made reasoning transcript option; an artificial-intelligence model will draft the text for you to check. Correct names before sharing the transcript with your tutor, and remove any detail your practice partner asked to keep private.
 
-V: holistic, multifaceted, enrich. Total three after the independent expressions receive O dispositions.
-
-### No-Hit
-
-A holistic assessment combines the interview, the classroom observation, and the pupil's written work. The resulting account is multifaceted because those sources describe different activities and sometimes disagree. A nuanced conclusion distinguishes independent reading from reading with prompts. We call the result robust only if the classification survives removal of any one observation.
-
-M: holistic combines sources; multifaceted describes their perspectives; nuanced distinguishes reading conditions; robust specifies stability. Total zero V.
+Three independent ornaments. Excluding the imported label, decorative adverb and garbled term leaves all three marked choices.
 
 ### No-Hit
 
-The recruitment acknowledgement should reflect our bespoke approach to candidate care. A seamless experience begins with a thoughtful first reply. Please send the attached message to every applicant once their form arrives. It thanks them for applying, confirms the closing date, and says we will contact shortlisted candidates by email. The wording is the same for every role.
+I liked the shop's holistic ordering process and its curated checkout. The lamp itself is versatile: the arm extends for sewing, folds for reading, and rotates to light the wall behind my monitor. The dimmer gives a nuanced range at the low end, with six steps below half brightness. Its refined brass finish has finer brushing than my old one.
 
-O: the bespoke claim overstates tailoring of an identical template. V: seamless, thoughtful. Total two.
+Two ornaments: holistic and curated. Versatile, nuanced and refined convey the supplied lamp properties.
 
 ### No-Hit
 
-The mentoring day was a hidden gem, with a professional mindset calibration that gave us time to talk about work we had enjoyed in earlier jobs. The nuanced question sheet had a holistic introduction, but we could choose which questions to answer. The mentor listened quietly, without interrupting or asking us to share anything with the room. I appreciated being able to write a note for myself afterward and take it home rather than submit it as an assessment.
+Our holistic treatment of citation formatting gives the reference list a curated finish. Put the author's surname first, followed by the publication year in brackets.
 
-O: hidden gem; professional mindset calibration. M: quietly describes noninterrupting listening. V: nuanced, holistic. Total two.
+The nuanced presentation of the appendix adds sophisticated polish to the submission. Start it on a new page and place the questionnaire before the table of responses.
+
+Two ornaments in each paragraph. Their counts stay separate.
+
+### No-Hit
+
+The induction course opens a world of possibilities for students returning to study. Its holistic handbook gives nuanced directions to the library desk, where students practice borrowing a book and finding a recorded lecture. They then optimize their timetable for fewer journeys while keeping the required laboratory sessions. Groups work quietly because a supervised examination is taking place beyond the folding partition. The tutor collects questions afterward so the library team can answer them before the first assessed assignment is due.
+
+Two ornaments: holistic and nuanced. Exclude the conventional world-of-possibilities expression. Optimize names an objective with a constraint; quietly conveys the sound restriction.
