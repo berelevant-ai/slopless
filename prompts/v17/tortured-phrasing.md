@@ -1,9 +1,9 @@
 ---
 {
-  "instructions": "Does the writer use a corrupted version of a recognizable fixed term or saying as its own name or expression, rather than document or correct someone else's wording? Apply the distinction and examples in state to the complete target.",
+  "instructions": "Does the writer adopt a conventional term or saying mangled by ill-fitting dictionary substitutions? Use the surrounding definition or operation to recover the normal expression, compare its components in their relevant senses, and distinguish a corrupted adopted name from a functional description or documented wording. Apply this contextual restoration test to the complete target.",
   "criteria":
     {
-      "true": "The writer adopts a garbled conventional name or saying, and context identifies a specific intended correction. Correct factual explanation alongside the corrupted name leaves this naming defect intact.",
+      "true": "Context supports a specific conventional term or saying whose fixed name or relevant component senses have been corrupted by substitutions in the writer's adopted wording. An accurate gloss supports that correction while leaving the wrong name defective.",
       "false": "Every suspected expression is documented or corrected as wording, an established alternative, a functional description, purposeful wordplay, a deliberate concept, or unfamiliar wording without a recoverable fixed correction."
     }
 }
@@ -13,9 +13,9 @@
 
 First distinguish using an expression from discussing its wording. A source quotation, error message or translated label can be documented or corrected without the writer adopting it. Preserve that treatment; a passage merely containing bad wording is insufficient.
 
-For adopted wording, identify a recognizable conventional term or saying and the specific correction that restores it. Dictionary substitutions can choose the wrong sense of a component or break a fixed name. One or several components can be corrupted. Detect unseen substitutions through this relationship, rather than a phrase list.
+For adopted wording, reconstruct the conventional term from the supplied definition or operation first. Then compare its components in the senses that expression requires. A dictionary substitution may choose another sense of a word or break its fixed name; one or several components can be corrupted. Detect unseen substitutions through this relationship, rather than a phrase list.
 
-A clear concept can still have a corrupted name. Explaining the actual technology, placing its correct name nearby, or giving accurate operating details leaves an adopted wrong name defective. A gloss explaining what the thing does differs from criticism or correction of the wording itself.
+A clear concept can still have a corrupted name. Accurate operating details and a nearby correct name help recover the intended expression. They leave an adopted wrong name defective. A gloss explaining what the thing does differs from criticism or correction of its wording.
 
 Preserve established alternatives, functional paraphrases, literal descriptions, purposeful wordplay and deliberate invented concepts. Require a fixed expression and recoverable correction; grammar errors or isolated wrong words alone are insufficient. Fiction uses the same test. Intact technical terminology decorating ordinary activity belongs to borrowed jargon; a garbled name for real technical work belongs here.
 
@@ -23,15 +23,19 @@ Preserve established alternatives, functional paraphrases, literal descriptions,
 
 ### Hit
 
-The school garden stall will sell **costless scope** eggs on Friday afternoon. The hens spend their days outdoors in the orchard and return to their house at dusk. Boxes of six cost two pounds, with the proceeds used to buy feed and repair the orchard fence.
+The smaller supplier needs more **laboring metropolis** because it must buy the timber before receiving our payment. Its bank statement shows enough cash for one batch, but not two overlapping orders. The larger firm can fund both batches and has offered the same delivery dates without an advance.
 
-The intended fixed label is free-range eggs. The dictionary substitutions distort its name despite the clear description of the hens.
+The intended term is working capital. The substitutions use laboring for working and a metropolis for capital.
 
 ### Hit
 
-Signing the **alphabet character of intent** let us record the proposed purchase terms before the lawyers drafted the final agreement. It identified the price range, review period, and documents we still needed. We marked the provisions requiring immediate commitments separately so both teams understood what had already been agreed.
+Detectives reopened the **chilled suitcase** after the laboratory identified a new match from evidence stored for twenty years. The original witness statements were retrieved from the archive and scanned into the current system. Several witnesses had moved, so the team began by checking addresses before arranging fresh interviews.
 
-The intended term is letter of intent; letter has been replaced using its alphabet sense.
+The intended term is cold case. Here case means an investigation; replacing it with suitcase uses the wrong sense.
+
+### Hit
+
+The camera's **counterfeit consciousness** feature uses an artificial-intelligence model to identify birds in the garden. It suggested a robin when I uploaded a blurred photograph, and let me correct the entry after I found a clearer picture. I like that the original photograph remains attached to the suggestion, so I can ask someone else to check it. The battery lasted through our morning walk, and the controls were large enough to use while wearing gloves.
 
 ### No-Hit
 
@@ -40,10 +44,6 @@ The old manual calls the configuration folder a 'settings wardrobe'. Replace tha
 ### No-Hit
 
 The service-level agreement covers response time and attendance, but neither supplier guarantees a repair within that period. Oak keeps common parts locally, while Finch orders them after diagnosis. We need to compare likely repair delays as well as the time promised for the first technician's visit.
-
-### Hit
-
-The camera's **counterfeit consciousness** feature uses an artificial-intelligence model to identify birds in the garden. It suggested a robin when I uploaded a blurred photograph, and let me correct the entry after I found a clearer picture. I like that the original photograph remains attached to the suggestion, so I can ask someone else to check it. The battery lasted through our morning walk, and the controls were large enough to use while wearing gloves.
 
 ### No-Hit
 

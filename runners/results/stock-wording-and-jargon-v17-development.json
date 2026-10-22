@@ -239,6 +239,388 @@
       "totalErrors": 60,
       "caught": 197,
       "passes": false
+    },
+    {
+      "check": "cliche",
+      "revision": "r1",
+      "promptCommit": "3729c457",
+      "demonstrationIDs": [
+        "000041-003",
+        "000041-006",
+        "000041-007",
+        "000041-010",
+        "000041-029",
+        "000051-009"
+      ],
+      "assembledWords": 722,
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-r1-isolated-development.json",
+          "caught": 95,
+          "missed": 5,
+          "noHits": 100,
+          "falsePositives": 4,
+          "correctNoHits": 96,
+          "errors": 9,
+          "requests": 13,
+          "inputTokens": 59233,
+          "outputTokens": 5452,
+          "elapsedMs": 3327.6435400000005,
+          "deltaAgainstBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000041-006",
+              "000041-063",
+              "000041-120",
+              "000041-144",
+              "000041-158"
+            ],
+            "correctedFalsePositives": [
+              "000041-008",
+              "000041-029",
+              "000041-030",
+              "000041-032",
+              "000041-038",
+              "000041-039",
+              "000041-048",
+              "000041-055",
+              "000041-068",
+              "000041-070",
+              "000041-071",
+              "000041-072",
+              "000041-075",
+              "000041-081",
+              "000041-086",
+              "000041-094",
+              "000041-095",
+              "000041-098",
+              "000041-104",
+              "000041-111",
+              "000041-114",
+              "000041-116",
+              "000041-124",
+              "000041-127",
+              "000041-128",
+              "000041-129",
+              "000041-130",
+              "000041-135",
+              "000041-138",
+              "000041-143",
+              "000041-149",
+              "000041-153",
+              "000041-155",
+              "000041-165",
+              "000041-168",
+              "000041-170",
+              "000041-171",
+              "000041-177",
+              "000041-181",
+              "000041-186",
+              "000041-191",
+              "000041-195",
+              "000041-196",
+              "000041-202"
+            ],
+            "newFalsePositives": []
+          }
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-cliche-r1-mixed-development.json",
+          "caught": 98,
+          "missed": 2,
+          "noHits": 100,
+          "falsePositives": 33,
+          "correctNoHits": 67,
+          "errors": 35,
+          "requests": 13,
+          "inputTokens": 65965,
+          "outputTokens": 5452,
+          "elapsedMs": 3202.266501,
+          "deltaAgainstBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000051-064",
+              "000051-074"
+            ],
+            "correctedFalsePositives": [
+              "000051-009",
+              "000051-021",
+              "000051-047",
+              "000051-062",
+              "000051-119",
+              "000051-141",
+              "000051-161",
+              "000051-165"
+            ],
+            "newFalsePositives": [
+              "000051-010",
+              "000051-013",
+              "000051-014",
+              "000051-061",
+              "000051-083",
+              "000051-092",
+              "000051-108",
+              "000051-125",
+              "000051-130",
+              "000051-143",
+              "000051-145",
+              "000051-146",
+              "000051-193"
+            ]
+          }
+        }
+      },
+      "totalErrors": 44,
+      "caught": 193,
+      "passes": false
+    },
+    {
+      "check": "borrowed-jargon",
+      "revision": "r1",
+      "promptCommit": "3729c457",
+      "demonstrationIDs": [
+        "000043-003",
+        "000043-004",
+        "000051-025",
+        "000043-052",
+        "000043-022",
+        "000051-037"
+      ],
+      "assembledWords": 734,
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r1-isolated-development.json",
+          "caught": 97,
+          "missed": 3,
+          "noHits": 100,
+          "falsePositives": 8,
+          "correctNoHits": 92,
+          "errors": 11,
+          "requests": 13,
+          "inputTokens": 61149,
+          "outputTokens": 6452,
+          "elapsedMs": 3153.0570809999995,
+          "deltaAgainstBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000043-024",
+              "000043-084",
+              "000043-104"
+            ],
+            "correctedFalsePositives": [
+              "000043-058",
+              "000043-094",
+              "000043-143",
+              "000043-155",
+              "000043-184",
+              "000043-209",
+              "000043-226"
+            ],
+            "newFalsePositives": [
+              "000043-212"
+            ]
+          }
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-borrowed-jargon-r1-mixed-development.json",
+          "caught": 96,
+          "missed": 4,
+          "noHits": 100,
+          "falsePositives": 11,
+          "correctNoHits": 89,
+          "errors": 15,
+          "requests": 13,
+          "inputTokens": 67160,
+          "outputTokens": 6452,
+          "elapsedMs": 3203.882291,
+          "deltaAgainstBaseline": {
+            "newCatches": [],
+            "lostCatches": [
+              "000051-078",
+              "000051-177",
+              "000051-187"
+            ],
+            "correctedFalsePositives": [
+              "000051-004",
+              "000051-007",
+              "000051-009",
+              "000051-012",
+              "000051-014",
+              "000051-018",
+              "000051-021",
+              "000051-030",
+              "000051-034",
+              "000051-037",
+              "000051-042",
+              "000051-043",
+              "000051-046",
+              "000051-048",
+              "000051-051",
+              "000051-058",
+              "000051-065",
+              "000051-071",
+              "000051-072",
+              "000051-077",
+              "000051-088",
+              "000051-090",
+              "000051-091",
+              "000051-103",
+              "000051-104",
+              "000051-114",
+              "000051-120",
+              "000051-126",
+              "000051-127",
+              "000051-128",
+              "000051-130",
+              "000051-134",
+              "000051-143",
+              "000051-150",
+              "000051-156",
+              "000051-157",
+              "000051-166",
+              "000051-167",
+              "000051-172",
+              "000051-182",
+              "000051-195",
+              "000051-198",
+              "000051-219"
+            ],
+            "newFalsePositives": []
+          }
+        }
+      },
+      "totalErrors": 26,
+      "caught": 193,
+      "passes": false
+    },
+    {
+      "check": "tortured-phrasing",
+      "revision": "r1",
+      "promptCommit": "3729c457",
+      "demonstrationIDs": [
+        "000045-074",
+        "000045-101",
+        "000045-150",
+        "000045-175",
+        "000051-037",
+        "000045-017"
+      ],
+      "assembledWords": 737,
+      "sets": {
+        "isolated": {
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r1-isolated-development.json",
+          "caught": 71,
+          "missed": 29,
+          "noHits": 100,
+          "falsePositives": 1,
+          "correctNoHits": 99,
+          "errors": 30,
+          "requests": 13,
+          "inputTokens": 58329,
+          "outputTokens": 6252,
+          "elapsedMs": 3131.9992509999997,
+          "deltaAgainstBaseline": {
+            "newCatches": [
+              "000045-012",
+              "000045-019",
+              "000045-047",
+              "000045-104",
+              "000045-122",
+              "000045-123",
+              "000045-145",
+              "000045-162",
+              "000045-178"
+            ],
+            "lostCatches": [
+              "000045-006",
+              "000045-029",
+              "000045-033",
+              "000045-100",
+              "000045-120",
+              "000045-127",
+              "000045-131",
+              "000045-167",
+              "000045-184",
+              "000045-185"
+            ],
+            "correctedFalsePositives": [
+              "000045-009",
+              "000045-017",
+              "000045-040",
+              "000045-095",
+              "000045-115",
+              "000045-134",
+              "000045-160",
+              "000045-189"
+            ],
+            "newFalsePositives": [
+              "000045-011"
+            ]
+          }
+        },
+        "mixed": {
+          "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-r1-mixed-development.json",
+          "caught": 70,
+          "missed": 30,
+          "noHits": 100,
+          "falsePositives": 4,
+          "correctNoHits": 96,
+          "errors": 34,
+          "requests": 13,
+          "inputTokens": 65347,
+          "outputTokens": 6252,
+          "elapsedMs": 3097.090707,
+          "deltaAgainstBaseline": {
+            "newCatches": [
+              "000051-005",
+              "000051-011",
+              "000051-013",
+              "000051-014",
+              "000051-020",
+              "000051-025",
+              "000051-032",
+              "000051-037",
+              "000051-040",
+              "000051-058",
+              "000051-061",
+              "000051-062",
+              "000051-066",
+              "000051-067",
+              "000051-084",
+              "000051-088",
+              "000051-095",
+              "000051-125",
+              "000051-131",
+              "000051-137",
+              "000051-142",
+              "000051-147",
+              "000051-152",
+              "000051-163",
+              "000051-170",
+              "000051-174",
+              "000051-180",
+              "000051-188",
+              "000051-192",
+              "000051-199",
+              "000051-209"
+            ],
+            "lostCatches": [
+              "000051-024",
+              "000051-172"
+            ],
+            "correctedFalsePositives": [
+              "000051-101"
+            ],
+            "newFalsePositives": [
+              "000051-109",
+              "000051-146"
+            ]
+          }
+        }
+      },
+      "totalErrors": 64,
+      "caught": 141,
+      "passes": false
     }
   ],
   "selected": {
@@ -276,13 +658,4060 @@
     }
   ],
   "holdoutInference": "requires separate user authorization",
+  "vocabularyAdjudication": {
+    "status": "independent blind review in progress",
+    "reason": "Several no-hit controls contain three ornaments under the existing definition; preserve original predictions while adjudicating labels independently.",
+    "scoresPreserved": true
+  },
+  "bestCandidates": {
+    "cliche": {
+      "revision": "r1",
+      "promptCommit": "3729c457",
+      "totalErrors": 44,
+      "consecutiveNonImprovements": 0
+    },
+    "borrowed-jargon": {
+      "revision": "r1",
+      "promptCommit": "3729c457",
+      "totalErrors": 26,
+      "consecutiveNonImprovements": 0
+    },
+    "tortured-phrasing": {
+      "revision": "r1",
+      "promptCommit": "3729c457",
+      "totalErrors": 64,
+      "consecutiveNonImprovements": 0
+    }
+  },
+  "reviews": {
+    "cliche": {
+      "b0": {
+        "sha256": "62a1a4861bc7f4969f30b775349d8ebb4b7466d583e074ecb01cc25e08cf1e67",
+        "counts": {
+          "isolated": {
+            "positives": 100,
+            "caught": 100,
+            "misses": 0,
+            "no_hits": 100,
+            "false_positives": 48,
+            "correctly_unflagged": 52,
+            "miss_ids": []
+          },
+          "mixed": {
+            "positives": 100,
+            "caught": 100,
+            "misses": 0,
+            "no_hits": 100,
+            "false_positives": 28,
+            "correctly_unflagged": 72,
+            "miss_ids": []
+          },
+          "combined": {
+            "passages": 400,
+            "cliche_judgments": 400,
+            "caught": 200,
+            "misses": 0,
+            "false_positives": 76,
+            "correctly_unflagged": 124
+          },
+          "reviewed_error_ids": 76,
+          "material_target_label_disputes": 2,
+          "scores_policy": "All counts retain the original explicit labels, including disputed controls."
+        },
+        "groups": [
+          {
+            "id": "documented_or_examined_wording",
+            "count": 2,
+            "finding": "B0 flags an archived slogan and a replaced advert line. Both passages document the wording instead of adopting its assurance.",
+            "cause": "The observed decisions fit recognition of stock wording without applying its documentary or editorial function. One failure reproduces B0's own no-hit demonstration.",
+            "revision_application": "Apply the expression's communicative function before judging its conventionality as a defect.",
+            "errors": [
+              {
+                "id": "000041-008",
+                "score": 0.7,
+                "example": "Where there's a will, there's a way",
+                "assessment": "Retain no-hit: a surviving 1936 appeal is described as an archival object, with its heading, drawing and reverse recorded."
+              },
+              {
+                "id": "000041-010",
+                "score": 0.81,
+                "example": "unlock your full potential",
+                "assessment": "Retain no-hit: the passage explains replacement of that promise with training details. This complete passage is already a B0 no-hit demonstration."
+              }
+            ]
+          },
+          {
+            "id": "useful_states_actions_and_constraints",
+            "count": 27,
+            "finding": "The isolated errors flag conventional wording that names an established state, action, constraint or practical reason for the next step.",
+            "cause": "B0's decisions over-weight familiar expression forms and under-apply the useful-idiom exception to the complete input.",
+            "revision_application": "Preserve an idiom when its conventional sense directly states the case-specific condition or action supported by the passage.",
+            "errors": [
+              {
+                "id": "000041-029",
+                "score": 0.69,
+                "example": "The ball is in their court now.",
+                "assessment": "Retain no-hit: the retailer has acknowledged the signed claim and is responsible for the next response."
+              },
+              {
+                "id": "000041-030",
+                "score": 0.56,
+                "example": "reinventing the wheel",
+                "assessment": "Retain no-hit: importers should reuse the supplied parser with the required formats and validation."
+              },
+              {
+                "id": "000041-032",
+                "score": 0.71,
+                "example": "slipped through the cracks",
+                "assessment": "Retain no-hit: the transferred request remained unassigned until the customer's reply."
+              },
+              {
+                "id": "000041-038",
+                "score": 0.77,
+                "example": "between a rock and a hard place",
+                "assessment": "Retain no-hit: the rescheduled concert conflicts with the flight while the insurer requires cancellation rather than postponement."
+              },
+              {
+                "id": "000041-039",
+                "score": 0.5,
+                "example": "off the hook",
+                "assessment": "Retain no-hit: the customer has been released from liability for a pre-existing dent."
+              },
+              {
+                "id": "000041-048",
+                "score": 0.79,
+                "example": "the left hand doesn't know what the right hand is doing",
+                "assessment": "Retain no-hit: dispatch and returns produced conflicting actions; linking their records addresses that coordination failure."
+              },
+              {
+                "id": "000041-055",
+                "score": 0.69,
+                "example": "a needle in a haystack",
+                "assessment": "Retain no-hit: the request number is the missing discriminator for locating one failed payment among daily log entries."
+              },
+              {
+                "id": "000041-068",
+                "score": 0.57,
+                "example": "the last straw",
+                "assessment": "Retain no-hit: the broken lift follows room changes and a missing projector and triggers the tutor's postponement request."
+              },
+              {
+                "id": "000041-070",
+                "score": 0.52,
+                "example": "too much on my plate",
+                "assessment": "Retain no-hit: overlapping display and reception obligations motivate a specific shift exchange."
+              },
+              {
+                "id": "000041-071",
+                "score": 0.54,
+                "example": "moving the goalposts",
+                "assessment": "Retain no-hit: retaining the previously announced compatibility deadline avoids changing the migration requirement."
+              },
+              {
+                "id": "000041-072",
+                "score": 0.66,
+                "example": "Passing the buck",
+                "assessment": "Retain no-hit: sales and accounts repeatedly redirect the same customer instead of accepting responsibility."
+              },
+              {
+                "id": "000041-075",
+                "score": 0.7,
+                "example": "the elephant in the room",
+                "assessment": "Retain no-hit: an unresolved overdue invoice and stopped deliveries need attention before expansion orders."
+              },
+              {
+                "id": "000041-081",
+                "score": 0.5,
+                "example": "back to square one",
+                "assessment": "Retain no-hit: reset now clears settings as well as images, distinguishing the complete reset from prior behavior."
+              },
+              {
+                "id": "000041-104",
+                "score": 0.72,
+                "example": "come rain or shine",
+                "assessment": "Retain no-hit: the market runs in either weather condition, with covered space available for rain."
+              },
+              {
+                "id": "000041-114",
+                "score": 0.59,
+                "example": "break the ice",
+                "assessment": "Retain no-hit: an opening game helps new conversation-group members start interacting before paired discussion."
+              },
+              {
+                "id": "000041-127",
+                "score": 0.64,
+                "example": "in the same boat",
+                "assessment": "Retain no-hit: both blocks share the unavailable lift and resulting access restrictions."
+              },
+              {
+                "id": "000041-129",
+                "score": 0.65,
+                "example": "a needle in a haystack",
+                "assessment": "Retain no-hit: screw spacing and rear dimensions resolve an otherwise poorly discriminated hinge search."
+              },
+              {
+                "id": "000041-130",
+                "score": 0.57,
+                "example": "off the beaten path",
+                "assessment": "Retain no-hit: the rutted access track and fifteen-minute luggage carry establish difficult physical access."
+              },
+              {
+                "id": "000041-155",
+                "score": 0.6,
+                "example": "not my cup of tea",
+                "assessment": "Retain no-hit: narrator changes conflict with the reviewer's stated preference for following one person."
+              },
+              {
+                "id": "000041-168",
+                "score": 0.51,
+                "example": "jumped the gun",
+                "assessment": "Retain no-hit: the venue was announced before signing, and another booking displaced it."
+              },
+              {
+                "id": "000041-170",
+                "score": 0.58,
+                "example": "got the cold shoulder",
+                "assessment": "Retain no-hit: unanswered invitations and absent spring orders establish rejection after failed deliveries."
+              },
+              {
+                "id": "000041-171",
+                "score": 0.82,
+                "example": "walk the talk",
+                "assessment": "Retain no-hit: the writer corrects their own late booking to follow the meeting-hours rule they asked others to observe."
+              },
+              {
+                "id": "000041-177",
+                "score": 0.69,
+                "example": "burning the candle at both ends",
+                "assessment": "Retain no-hit: night classes and pre-dawn shifts establish the overextended schedule and resulting tiredness."
+              },
+              {
+                "id": "000041-181",
+                "score": 0.59,
+                "example": "did not move the needle",
+                "assessment": "Retain no-hit: the trial groups' completion rates stayed at approximately sixty per cent after another reminder."
+              },
+              {
+                "id": "000041-186",
+                "score": 0.54,
+                "example": "passed the torch",
+                "assessment": "Retain no-hit: the deputy assumes the chair's office and associated responsibilities."
+              },
+              {
+                "id": "000041-196",
+                "score": 0.69,
+                "example": "burn bridges",
+                "assessment": "Retain no-hit: continuing commissions and client transfers make preserving agency relationships relevant to the handover."
+              },
+              {
+                "id": "000041-202",
+                "score": 0.54,
+                "example": "in the same boat",
+                "assessment": "Retain no-hit: all six passengers were moved from the cancelled flight to the same replacement departure."
+              }
+            ]
+          },
+          {
+            "id": "useful_relationships_tradeoffs_and_comparisons",
+            "count": 18,
+            "finding": "The isolated errors also flag idioms that summarize a specific dependency, proportion, tradeoff, sequence or comparison established by surrounding sentences.",
+            "cause": "The decisions treat an explained idiomatic relationship as decoration. B0's warning that nearby facts do not protect a slogan needs an equally concrete test for facts that establish the idiom's own meaning.",
+            "revision_application": "Distinguish facts that instantiate the expression's relationship from unrelated facts accompanying generic praise.",
+            "errors": [
+              {
+                "id": "000041-086",
+                "score": 0.6,
+                "example": "all our eggs in one basket",
+                "assessment": "Retain no-hit: concentrating appointments in one cancellable room creates a shared point of failure."
+              },
+              {
+                "id": "000041-094",
+                "score": 0.57,
+                "example": "our eggs in one basket",
+                "assessment": "Retain no-hit: both nominally separate suppliers depend on the same factory, unlike the third bidder."
+              },
+              {
+                "id": "000041-095",
+                "score": 0.61,
+                "example": "strings attached",
+                "assessment": "Retain no-hit: the free freezer requires exclusive purchases for three years and an early collection charge."
+              },
+              {
+                "id": "000041-098",
+                "score": 0.68,
+                "example": "two sides of the same coin",
+                "assessment": "Retain no-hit: the discount is conditional on a guaranteed volume, creating the stated linked benefit and obligation."
+              },
+              {
+                "id": "000041-111",
+                "score": 0.78,
+                "example": "a silver lining",
+                "assessment": "Retain no-hit: postponement specifically permits the school's surplus books to join the sale."
+              },
+              {
+                "id": "000041-116",
+                "score": 0.67,
+                "example": "pay through the nose",
+                "assessment": "Retain no-hit: urgent carriage costs more than the handles while local collection avoids that cost."
+              },
+              {
+                "id": "000041-124",
+                "score": 0.65,
+                "example": "The devil is in the details",
+                "assessment": "Retain no-hit: separately charged colour pages reverse the photocopier quote's apparent price advantage."
+              },
+              {
+                "id": "000041-128",
+                "score": 0.75,
+                "example": "the tip of the iceberg",
+                "assessment": "Retain no-hit: additional installation, storage and collection charges total four times the visible deposit."
+              },
+              {
+                "id": "000041-135",
+                "score": 0.54,
+                "example": "standing on the shoulders",
+                "assessment": "Retain no-hit: the new catalogue builds on an earlier index while preserving its reference numbers for existing citations."
+              },
+              {
+                "id": "000041-138",
+                "score": 0.57,
+                "example": "a double-edged sword",
+                "assessment": "Retain no-hit: the admission test reduces reading work while excluding applicants who cannot travel on its date."
+              },
+              {
+                "id": "000041-139",
+                "score": 0.67,
+                "example": "does what it says on the tin",
+                "assessment": "Retain no-hit: the review compares actual radiator coverage and drying time with the paint tin's claims; the literal tin reinforces the idiom."
+              },
+              {
+                "id": "000041-141",
+                "score": 0.79,
+                "example": "Less is more",
+                "assessment": "Retain no-hit: one distinguishable snooze button improves use in darkness compared with six similar buttons, with a stated setup tradeoff."
+              },
+              {
+                "id": "000041-143",
+                "score": 0.69,
+                "example": "the tip of the iceberg",
+                "assessment": "Retain no-hit: the exposed floor covers about a twentieth of the surveyed site and supports a part-versus-whole distinction."
+              },
+              {
+                "id": "000041-149",
+                "score": 0.67,
+                "example": "You get what you pay for",
+                "assessment": "Retain no-hit: the cheaper brushes shed bristles and suit a fence better than a door, supporting the price-quality comparison."
+              },
+              {
+                "id": "000041-153",
+                "score": 0.69,
+                "example": "see the wood for the trees",
+                "assessment": "Retain no-hit: individual marks obscured class distributions, motivating a grouped chart with values retained in an appendix."
+              },
+              {
+                "id": "000041-165",
+                "score": 0.55,
+                "example": "put the cart before the horse",
+                "assessment": "Retain no-hit: booking July before checking a grant restricted to events after September reverses the necessary dependency."
+              },
+              {
+                "id": "000041-191",
+                "score": 0.5,
+                "example": "put the cart before the horse",
+                "assessment": "Retain no-hit: ordering cartons before fixing product size creates packaging that does not fit."
+              },
+              {
+                "id": "000041-195",
+                "score": 0.56,
+                "example": "low-hanging fruit",
+                "assessment": "Retain no-hit: a ten-minute link repair restores bookings while the larger redesign remains pending, establishing the relative effort and benefit."
+              }
+            ]
+          },
+          {
+            "id": "mixed_compositional_ornament_and_sibling_defects",
+            "count": 8,
+            "finding": "These mixed inputs receive cliche hits for passages whose visible style defects are compositional ornamental choices, decorative adverbs or a corrupted technical label.",
+            "cause": "The decisions fit a broad stock-sounding-language test rather than the required recognizable conventional-expression test. Classification-only responses leave the precise triggering span unresolved.",
+            "revision_application": "Require a recognizable saying or formula after applying span-level sibling ownership; ordinary combinations of ornamental words retain their assigned checks.",
+            "errors": [
+              {
+                "id": "000051-009",
+                "score": 0.66,
+                "example": "a holistic introduction",
+                "assessment": "Retain cliche no-hit: holistic, multifaceted and enrich supply vocabulary decoration; quietly supplies the separate adverb defect."
+              },
+              {
+                "id": "000051-012",
+                "score": 0.64,
+                "example": "multifaceted prompts elevate",
+                "assessment": "Retain cliche no-hit: the ornamental choices and quietly pivotal have their own assigned checks; the passage supplies no separate conventional saying."
+              },
+              {
+                "id": "000051-021",
+                "score": 0.63,
+                "example": "elevates the experience",
+                "assessment": "Retain cliche no-hit: compositional promotional diction and quietly central are separable vocabulary and adverb defects."
+              },
+              {
+                "id": "000051-051",
+                "score": 0.66,
+                "example": "holistic journey notes",
+                "assessment": "Retain cliche no-hit: nuanced, holistic and elevate decorate the booking instructions without forming a separate conventional saying."
+              },
+              {
+                "id": "000051-057",
+                "score": 0.51,
+                "example": "counterfeit consciousness",
+                "assessment": "Retain cliche no-hit: the recovered artificial-intelligence term belongs to tortured phrasing; holistic, nuanced and enriched supply vocabulary decoration. Speaking quietly has an explicit sound-related purpose."
+              },
+              {
+                "id": "000051-071",
+                "score": 0.75,
+                "example": "nuanced options that enrich",
+                "assessment": "Retain cliche no-hit: this is a composition of ornamental lexical choices rather than an independently recognizable stock expression."
+              },
+              {
+                "id": "000051-072",
+                "score": 0.56,
+                "example": "quietly decisive",
+                "assessment": "Retain cliche no-hit: the adverb supplies hidden emphasis and holistic, nuanced and elevate supply vocabulary decoration."
+              },
+              {
+                "id": "000051-103",
+                "score": 0.58,
+                "example": "a holistic arrival guide",
+                "assessment": "Retain cliche no-hit: the opening contains assigned ornamental vocabulary; opening silently is literal absence of the old audio greeting."
+              }
+            ]
+          },
+          {
+            "id": "mixed_imported_register_ownership",
+            "count": 12,
+            "finding": "These mixed errors contain decorative computing or engineering metaphors around recoverable ordinary activities. Most also contain other named defects.",
+            "cause": "B0's classifications cross the explicit borrowed-jargon boundary or respond to the surrounding stock-sounding diction. Provider reasoning and highlighting are unavailable to distinguish those explanations.",
+            "revision_application": "Assign the imported label's defect to borrowed jargon and then require a separate nontechnical conventional expression for a cliche hit.",
+            "errors": [
+              {
+                "id": "000051-026",
+                "score": 0.66,
+                "example": "reengineer your relationship with cooking",
+                "assessment": "Retain cliche no-hit: sharing recipes and lunch is recoverable; the engineering label is borrowed jargon, with separate ornamental vocabulary."
+              },
+              {
+                "id": "000051-062",
+                "score": 0.5,
+                "example": "personal mindset calibration",
+                "assessment": "Retain cliche no-hit: the calibration label, corrupted AI label, quietly and vocabulary have separate ownership; the complete passage adds no independent stock saying."
+              },
+              {
+                "id": "000051-076",
+                "score": 0.59,
+                "example": "mindset reboot",
+                "assessment": "Retain cliche no-hit: an evening walk and conversation are clear, leaving the computing label with borrowed jargon and quietly essential with the adverb check."
+              },
+              {
+                "id": "000051-082",
+                "score": 0.61,
+                "example": "iterating on your authentic self",
+                "assessment": "Retain cliche no-hit: reflective questions make the ordinary activity recoverable; the imported process label retains borrowed-jargon ownership."
+              },
+              {
+                "id": "000051-086",
+                "score": 0.58,
+                "example": "career mindset engineering",
+                "assessment": "Retain cliche no-hit: practicing an introduction is clear. The engineering label, corrupted transcription label and ornamental choices are distinct sibling defects."
+              },
+              {
+                "id": "000051-115",
+                "score": 0.6,
+                "example": "relationship engineering",
+                "assessment": "Retain cliche no-hit: hosted coffee discussions supply the ordinary activity; the imported engineering label and surrounding ornaments have separate ownership."
+              },
+              {
+                "id": "000051-119",
+                "score": 0.54,
+                "example": "social chemistry reboot",
+                "assessment": "Retain cliche no-hit: a walking lunch is recoverable; the imported technical register and ornamental invitation wording retain their sibling assignments."
+              },
+              {
+                "id": "000051-133",
+                "score": 0.56,
+                "example": "cognitive tune-up",
+                "assessment": "Retain cliche no-hit: writing about a pleasant moment is the clear ordinary activity; the repair metaphor and quietly indispensable have separate ownership."
+              },
+              {
+                "id": "000051-141",
+                "score": 0.52,
+                "example": "recalibrate your relationship with learning",
+                "assessment": "Retain cliche no-hit: discussing enjoyable classes is clear. Appointment optimization has actual availability constraints and speaking quietly protects others' work."
+              },
+              {
+                "id": "000051-151",
+                "score": 0.57,
+                "example": "reboot your professional mindset",
+                "assessment": "Retain cliche no-hit: talking about enjoyable work is recoverable; the imported label, corrupted AI label and ornamental wording supply sibling defects."
+              },
+              {
+                "id": "000051-191",
+                "score": 0.53,
+                "example": "engineer your professional presence",
+                "assessment": "Retain cliche no-hit: talking about something enjoyable is recoverable, so the engineering metaphor has borrowed-jargon ownership under the definition, alongside the assigned transcription, adverb and vocabulary defects. See the separate sibling-label dispute."
+              },
+              {
+                "id": "000051-210",
+                "score": 0.59,
+                "example": "creative confidence reboot",
+                "assessment": "Retain cliche no-hit: walking and describing observations supply the activity. The imported label and the transcription, adverb and vocabulary defects leave no independent conventional saying."
+              }
+            ]
+          },
+          {
+            "id": "mixed_useful_idioms_and_comparative_controls",
+            "count": 7,
+            "finding": "Mixed controls include familiar descriptions and service idioms with specific supported relationships, including side-by-side package differences.",
+            "cause": "B0 often treats the expression's form as decisive despite context instantiating its own meaning. Comparative service controls are a material boundary because a generic assurance beside unrelated details should still be caught.",
+            "revision_application": "Preserve case-specific relational meaning while keeping a separate generic assurance eligible; use the complete comparison rather than a technical-detail or named-provider exemption.",
+            "errors": [
+              {
+                "id": "000051-047",
+                "score": 0.83,
+                "example": "a breath of fresh air",
+                "assessment": "Retain no-hit: the writer describes relief from a week of applications through an in-person course and individual feedback; quietly essential remains a separate assigned defect."
+              },
+              {
+                "id": "000051-081",
+                "score": 0.81,
+                "example": "your one-stop shop",
+                "assessment": "Retain no-hit: the same adviser consolidates timetable explanation, a visit and a tutor introduction. The two ornamental modifiers remain below the vocabulary threshold."
+              },
+              {
+                "id": "000051-135",
+                "score": 0.82,
+                "example": "go the extra mile",
+                "assessment": "Retain the difficult no-hit control: North's logged changes replace South's slips and manual copying, making an additional service and its benefit explicit. A competing reading treats the promise as generic; the complete comparison supports the fixed label."
+              },
+              {
+                "id": "000051-161",
+                "score": 0.57,
+                "example": "back to square one",
+                "assessment": "Retain no-hit: all seats have been released and each traveller must reselect and repay, matching the taxonomy's complete-reset exception."
+              },
+              {
+                "id": "000051-165",
+                "score": 0.64,
+                "example": "go the extra mile",
+                "assessment": "Retain the no-hit control: Alder's host greets and introduces solo arrivals while Birch provides the same room and catering without a host, establishing the additional service and freed registration staff."
+              },
+              {
+                "id": "000051-175",
+                "score": 0.78,
+                "example": "go the extra mile",
+                "assessment": "Retain the difficult no-hit control: Birch adds a correctable transcript to Elm's same tutor and recording time, providing a specific additional take-home result. The corrupted transcript label and quietly remain separately assessable."
+              },
+              {
+                "id": "000051-195",
+                "score": 0.81,
+                "example": "go above and beyond",
+                "assessment": "Retain the difficult no-hit control: Birch adds a written transcript to Elm's same rehearsal time and identifies its later use with advisers. The full comparison supports an additional-service reading while the remaining ornaments retain their assigned checks."
+              }
+            ]
+          },
+          {
+            "id": "material_target_label_disputes",
+            "count": 2,
+            "finding": "Two fixed no-hit controls have a stronger generic-reassurance reading under the accepted cliche definition.",
+            "cause": "A specific fact beside a saying can be mistaken for support of that saying's own relationship. These disagreements remain review proposals, with the original labels and raw errors preserved.",
+            "revision_application": "Keep the same function test for both hits and controls; avoid tuning toward blanket exemptions for supported facts or useful service descriptions.",
+            "errors": [
+              {
+                "id": "000041-050",
+                "score": 0.95,
+                "example": "so every cloud has a silver lining",
+                "assessment": "Dispute no-hit: after a damaged mug and cancelled replacement, retaining a saucer is used to deliver a reusable optimistic reassurance. The full proverbial maxim supplies generic consolation; the refund details establish the remedy separately."
+              },
+              {
+                "id": "000051-171",
+                "score": 0.9,
+                "example": "go above and beyond",
+                "assessment": "Dispute no-hit: the booking team's promise is followed by access checks, hearing-loop information and a route guide. Those useful duties describe service provision while leaving the promised exceptional effort unspecified, closely matching the taxonomy's generic service-assurance hit."
+              }
+            ]
+          }
+        ],
+        "labelDisputes": [
+          {
+            "id": "000041-050",
+            "check": "stock-wording-and-jargon/cliche",
+            "saved_expected": false,
+            "proposed_interpretation": true,
+            "confidence": "moderate",
+            "evidence": "so every cloud has a silver lining",
+            "reason": "The complete maxim supplies generic consolation beside the separately described refund and retained saucer.",
+            "counterargument_checked": "The retained saucer supplies a concrete upside, as the postponed hall sale supplies extra books in 000041-111. That supports a useful-relationship reading; the universal reassurance form and its consolatory role make this a genuine boundary dispute.",
+            "action": "Record for adjudication; preserve the fixed no-hit control and its false-positive count."
+          },
+          {
+            "id": "000051-171",
+            "check": "stock-wording-and-jargon/cliche",
+            "saved_expected": false,
+            "proposed_interpretation": true,
+            "confidence": "moderate",
+            "evidence": "go above and beyond",
+            "reason": "Useful access-planning services accompany a conventional exceptional-effort promise, while the passage leaves the distinction between ordinary and extra service unstated.",
+            "counterargument_checked": "The tailored route and venue-manager guide may instantiate extra care. Unlike the explicitly compared packages in 000051-135/165/175/195, this passage provides no comparative service distinction; the accepted generic helpdesk-assurance example supports the hit reading.",
+            "action": "Record for adjudication; preserve the fixed no-hit control and its false-positive count."
+          },
+          {
+            "id": "000051-191",
+            "check": "stock-wording-and-jargon/borrowed-jargon",
+            "saved_expected": false,
+            "proposed_interpretation": true,
+            "confidence": "high",
+            "evidence": "engineer your professional presence",
+            "reason": "The passage explains the activity as talking about something enjoyable. The engineering label supplies imported technical prestige without an operative engineering correspondence, matching the accepted borrowed-jargon definition.",
+            "effect_on_named_review": "The fixed cliche no-hit remains supported. This sibling-label inconsistency does not change any cliche count.",
+            "action": "Record the visible ownership inconsistency separately; preserve every label."
+          }
+        ],
+        "integrity": {
+          "status": "passed_offline",
+          "apis": [
+            "preflightDataset",
+            "loadDataset",
+            "createSnapshot",
+            "validateResult",
+            "score",
+            "scoreMixed"
+          ],
+          "operations": [
+            "Preflight the six explicitly named dataset files for split: development, then load their paired labels and full sample ranges through the existing reader.",
+            "Compare each of the six Markdown files and paired label files byte-for-byte with git show 913ba940:<exact path>; all twelve comparisons pass.",
+            "Read frozen shared.md and cliche.md with git show, assemble the same prompt object, and recreate each native result snapshot using the existing runner API.",
+            "validateResult verifies prompt, text, label and target hashes, execution settings, all 26 reconstructed request hashes, response schemas and answer keys, and saved inference hashes; both outputs are complete.",
+            "score reproduces both complete saved summaries exactly; scoreMixed reproduces the saved mixed summary exactly."
+          ],
+          "model": "jev-1.13.0",
+          "mode": "classification-only",
+          "threshold": 0.5,
+          "batch_size": 16,
+          "requests_per_run": 13,
+          "prompt_sha256": "e1daad750215711ff14e481c4a45bff4e16398587f293a9d35987c8f2bbbc0f0",
+          "shared_file_sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+          "cliche_file_sha256": "9ce32df9992fa0018b1cc40ee0b9ac57eb1c22d321cb7f93e709ef3eb985c95e",
+          "native_outputs": [
+            {
+              "path": "runners/results/stock-wording-and-jargon-v17-cliche-b0-isolated-development.json",
+              "file_sha256": "1ef7039a4ba1f84109bd5b5720347ff66ca5ad96c71d23f42db020a3fc5eb2ab",
+              "inference_sha256": "770c1f9a4b0622e1e77f22d684b7eaec13fbab666eaae564251fa57ce6dfc2cb"
+            },
+            {
+              "path": "runners/results/stock-wording-and-jargon-v17-cliche-b0-mixed-development.json",
+              "file_sha256": "92c60b115a5bb6871efb33ea8ef84eb18ccd3770642f1acb3b7993ee8d93dea5",
+              "inference_sha256": "b359ea80f8962c21e21ff8caa5a00e187a51f83a485991a6eead169859f01689"
+            }
+          ],
+          "dataset_scope": [
+            {
+              "id": "000041",
+              "slug": "stock-wording-and-jargon-cliche-development",
+              "targets": 200,
+              "cliche_labels": 200
+            },
+            {
+              "id": "000043",
+              "slug": "stock-wording-and-jargon-borrowed-jargon-development",
+              "targets": 200,
+              "cliche_labels": 0
+            },
+            {
+              "id": "000045",
+              "slug": "stock-wording-and-jargon-tortured-phrasing-development",
+              "targets": 200,
+              "cliche_labels": 0
+            },
+            {
+              "id": "000047",
+              "slug": "stock-wording-and-jargon-hidden-significance-adverb-development",
+              "targets": 200,
+              "cliche_labels": 0
+            },
+            {
+              "id": "000049",
+              "slug": "stock-wording-and-jargon-stock-vocabulary-development",
+              "targets": 200,
+              "cliche_labels": 0
+            },
+            {
+              "id": "000051",
+              "slug": "stock-wording-and-jargon-mixed-development",
+              "targets": 200,
+              "cliche_labels": 200
+            }
+          ],
+          "judgment_scope": "The four sibling isolated collections contain no explicit cliche labels. Their labels supply no additional cliche scores or presumed clean controls.",
+          "highlighting": "These native runs contain passage-level classification scores. Offending expressions below are reviewer-identified diagnostic candidates; the provider returned neither spans nor reasoning."
+        }
+      },
+      "r1": {
+        "sha256": "de7416a2798a1ddaaef985e20553c2c3a70ae798158f130ec67891138c42f58f",
+        "counts": {
+          "isolated": {
+            "b0": {
+              "judgments": 200,
+              "distinctPassages": 200,
+              "positives": 100,
+              "negatives": 100,
+              "caught": 100,
+              "missed": 0,
+              "correctlyUnflagged": 52,
+              "falsePositives": 48,
+              "recall": 1,
+              "falsePositiveRate": 0.48,
+              "precision": 0.6756756756756757,
+              "accuracy": 0.76,
+              "f1": 0.8064516129032258
+            },
+            "r1": {
+              "judgments": 200,
+              "distinctPassages": 200,
+              "positives": 100,
+              "negatives": 100,
+              "caught": 95,
+              "missed": 5,
+              "correctlyUnflagged": 96,
+              "falsePositives": 4,
+              "recall": 0.95,
+              "falsePositiveRate": 0.04,
+              "precision": 0.9595959595959596,
+              "accuracy": 0.955,
+              "f1": 0.9547738693467337
+            }
+          },
+          "mixed": {
+            "b0": {
+              "judgments": 200,
+              "distinctPassages": 200,
+              "positives": 100,
+              "negatives": 100,
+              "caught": 100,
+              "missed": 0,
+              "correctlyUnflagged": 72,
+              "falsePositives": 28,
+              "recall": 1,
+              "falsePositiveRate": 0.28,
+              "precision": 0.78125,
+              "accuracy": 0.86,
+              "f1": 0.8771929824561403
+            },
+            "r1": {
+              "judgments": 200,
+              "distinctPassages": 200,
+              "positives": 100,
+              "negatives": 100,
+              "caught": 98,
+              "missed": 2,
+              "correctlyUnflagged": 67,
+              "falsePositives": 33,
+              "recall": 0.98,
+              "falsePositiveRate": 0.33,
+              "precision": 0.7480916030534351,
+              "accuracy": 0.825,
+              "f1": 0.8484848484848485
+            }
+          },
+          "combined": {
+            "b0": {
+              "judgments": 400,
+              "distinctPassages": 400,
+              "positives": 200,
+              "negatives": 200,
+              "caught": 200,
+              "missed": 0,
+              "correctlyUnflagged": 124,
+              "falsePositives": 76,
+              "recall": 1,
+              "falsePositiveRate": 0.38,
+              "precision": 0.7246376811594203,
+              "accuracy": 0.81,
+              "f1": 0.8403361344537815
+            },
+            "r1": {
+              "judgments": 400,
+              "distinctPassages": 400,
+              "positives": 200,
+              "negatives": 200,
+              "caught": 193,
+              "missed": 7,
+              "correctlyUnflagged": 163,
+              "falsePositives": 37,
+              "recall": 0.965,
+              "falsePositiveRate": 0.185,
+              "precision": 0.8391304347826087,
+              "accuracy": 0.89,
+              "f1": 0.8976744186046511
+            }
+          }
+        },
+        "groups": [
+          {
+            "id": "corrected-documented-wording",
+            "finding": "R1 correctly preserves a historical heading as documented wording.",
+            "mechanism": "Adoption discrimination improves for the archived appeal.",
+            "action": "Retain the existing documented-wording exemption and preserve this corrected judgment.",
+            "count": 1,
+            "ids": [
+              "000041-008"
+            ],
+            "subsets": {
+              "isolated": 1,
+              "mixed": 0
+            },
+            "transitions": {
+              "corrected_false_positive": 1
+            }
+          },
+          {
+            "id": "corrected-useful-idiom",
+            "finding": "R1 corrects 46 false positives on idioms that express a state, dependency, contrast or relationship supplied by the complete input.",
+            "mechanism": "R1 emphasizes useful figurative meaning and illustrates responsibility transfer; these changes are consistent with the corrected decisions.",
+            "action": "Preserve contextual usefulness as the second-stage decision after expression ownership.",
+            "count": 46,
+            "ids": [
+              "000041-029",
+              "000041-030",
+              "000041-032",
+              "000041-038",
+              "000041-039",
+              "000041-048",
+              "000041-055",
+              "000041-068",
+              "000041-070",
+              "000041-071",
+              "000041-072",
+              "000041-075",
+              "000041-081",
+              "000041-086",
+              "000041-094",
+              "000041-095",
+              "000041-098",
+              "000041-104",
+              "000041-111",
+              "000041-114",
+              "000041-116",
+              "000041-124",
+              "000041-127",
+              "000041-128",
+              "000041-129",
+              "000041-130",
+              "000041-135",
+              "000041-138",
+              "000041-143",
+              "000041-149",
+              "000041-153",
+              "000041-155",
+              "000041-165",
+              "000041-168",
+              "000041-170",
+              "000041-171",
+              "000041-177",
+              "000041-181",
+              "000041-186",
+              "000041-191",
+              "000041-195",
+              "000041-196",
+              "000041-202",
+              "000051-047",
+              "000051-161",
+              "000051-165"
+            ],
+            "subsets": {
+              "isolated": 43,
+              "mixed": 3
+            },
+            "transitions": {
+              "corrected_false_positive": 46
+            }
+          },
+          {
+            "id": "corrected-neighboring-defects",
+            "finding": "R1 removes five extra cliche assignments on passages containing neighboring defects.",
+            "mechanism": "Ownership exclusions work on these passages, including one exact mixed no-hit demonstration, but transfer is inconsistent.",
+            "action": "Use these corrected cases as retention checks for the single proposed ownership gate.",
+            "count": 5,
+            "ids": [
+              "000051-009",
+              "000051-021",
+              "000051-062",
+              "000051-119",
+              "000051-141"
+            ],
+            "subsets": {
+              "isolated": 0,
+              "mixed": 5
+            },
+            "transitions": {
+              "corrected_false_positive": 5
+            }
+          },
+          {
+            "id": "remaining-documented-wording",
+            "finding": "One false positive remains on an explicitly replaced advert slogan, already shown as a no-hit in both prompts.",
+            "mechanism": "R1 still conflates a prior advert with the writer's present adoption on this input.",
+            "action": "Retain the adoption exemption; the proposed R2 ownership gate leaves it intact. This residual is outside its principal target.",
+            "count": 1,
+            "ids": [
+              "000041-010"
+            ],
+            "subsets": {
+              "isolated": 1,
+              "mixed": 0
+            },
+            "transitions": {
+              "persistent_false_positive": 1
+            }
+          },
+          {
+            "id": "remaining-useful-idiom",
+            "finding": "Eight fixed-label false positives remain on concrete consolation, observed performance, tradeoff, central service or additional-service meanings.",
+            "mechanism": "The generic-rhetoric/useful-meaning boundary remains uneven; four service-promise labels also have material definition-boundary disputes.",
+            "action": "Keep labels fixed and preserve contextual interpretation. Separate the service-label disputes from the proposed R2 ownership change.",
+            "count": 8,
+            "ids": [
+              "000041-050",
+              "000041-139",
+              "000041-141",
+              "000051-081",
+              "000051-135",
+              "000051-171",
+              "000051-175",
+              "000051-195"
+            ],
+            "subsets": {
+              "isolated": 3,
+              "mixed": 5
+            },
+            "transitions": {
+              "persistent_false_positive": 8
+            }
+          },
+          {
+            "id": "remaining-neighboring-defects",
+            "finding": "Twenty-eight mixed false positives contain neighboring defects without a separate conventional saying; these include all thirteen new false positives.",
+            "mechanism": "Binary decisions remain sensitive to decorative wording even when the identifiable defect belongs to a different check. R1 states ownership exclusions in the body while its question and true criterion still foreground generic praise.",
+            "action": "Put expression ownership into the question and true/false decision criteria, requiring a separable conventional expression whose own defect is generic rhetoric.",
+            "count": 28,
+            "ids": [
+              "000051-010",
+              "000051-012",
+              "000051-013",
+              "000051-014",
+              "000051-026",
+              "000051-051",
+              "000051-057",
+              "000051-061",
+              "000051-071",
+              "000051-072",
+              "000051-076",
+              "000051-082",
+              "000051-083",
+              "000051-086",
+              "000051-092",
+              "000051-103",
+              "000051-108",
+              "000051-115",
+              "000051-125",
+              "000051-130",
+              "000051-133",
+              "000051-143",
+              "000051-145",
+              "000051-146",
+              "000051-151",
+              "000051-191",
+              "000051-193",
+              "000051-210"
+            ],
+            "subsets": {
+              "isolated": 0,
+              "mixed": 28
+            },
+            "transitions": {
+              "new_false_positive": 13,
+              "persistent_false_positive": 15
+            }
+          },
+          {
+            "id": "lost-generic-rhetoric",
+            "finding": "R1 loses seven fixed-label hits: generic compliments, a seasonal celebration, academic stock description and hospitality/effort exhortations.",
+            "mechanism": "The broader useful-state criterion is consistent with over-preserving a stock formula because neighboring facts make the passage meaningful. The timer miss is an exact R1 hit demonstration.",
+            "action": "Retain the independent-stock-expression test and use all seven as regression checks. The proposed ownership gate applies separately to each expression and preserves generic nontechnical formulas.",
+            "count": 7,
+            "ids": [
+              "000041-006",
+              "000041-063",
+              "000041-120",
+              "000041-144",
+              "000041-158",
+              "000051-064",
+              "000051-074"
+            ],
+            "subsets": {
+              "isolated": 5,
+              "mixed": 2
+            },
+            "transitions": {
+              "lost_hit": 7
+            }
+          }
+        ],
+        "labelDisputes": [
+          {
+            "id": "000051-135",
+            "source": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+            "inputSha256": "9453124c2002b7b42b6a74429e2939d96e5e30613013c24612ed38db704c1ede",
+            "fixedExpected": false,
+            "b0Predicted": true,
+            "r1Predicted": true,
+            "issue": "Boundary conflict: the passage adopts a stock exceptional-service promise while also identifying an added feature relative to a competing package.",
+            "evidence": "go the extra mile",
+            "supportForFixedNoHit": "The competitor comparison identifies a particular additional service, supporting the useful-relationship exemption.",
+            "supportForHit": "The taxonomy permits a generic service slogan to remain a defect beside useful facts; R1 likewise says nearby facts do not automatically redeem a stock service promise.",
+            "disposition": "Unresolved definition-boundary dispute only. Preserve expected:false, count the R1 prediction as a false positive, and adjudicate this service-promise boundary separately before any relabeling.",
+            "scoreEffect": "None in this report; original label and all fixed-label metrics remain unchanged."
+          },
+          {
+            "id": "000051-171",
+            "source": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+            "inputSha256": "77c76ab3c0f40524ba7546b0b559221f26a1e0159a5526b7ca2685fbd4b1fbe1",
+            "fixedExpected": false,
+            "b0Predicted": true,
+            "r1Predicted": true,
+            "issue": "Strongest boundary conflict: an adopted exceptional-service promise lists useful access checks but does not establish extra effort relative to ordinary booking assistance.",
+            "evidence": "go above and beyond",
+            "supportForFixedNoHit": "The access checks and route preparation give the phrase a concrete proactive-service interpretation permitted by the R1 useful-meaning paragraph.",
+            "supportForHit": "The taxonomy permits a generic service slogan to remain a defect beside useful facts; R1 likewise says nearby facts do not automatically redeem a stock service promise.",
+            "disposition": "Unresolved definition-boundary dispute only. Preserve expected:false, count the R1 prediction as a false positive, and adjudicate this service-promise boundary separately before any relabeling.",
+            "scoreEffect": "None in this report; original label and all fixed-label metrics remain unchanged."
+          },
+          {
+            "id": "000051-175",
+            "source": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+            "inputSha256": "ab6f47fb7379ae57e642708106b45af811e92b42dba2440f07f00e0cc0a67e52",
+            "fixedExpected": false,
+            "b0Predicted": true,
+            "r1Predicted": true,
+            "issue": "Boundary conflict: the passage adopts a stock exceptional-service promise while also identifying an added feature relative to a competing package.",
+            "evidence": "go the extra mile",
+            "supportForFixedNoHit": "The competitor comparison identifies a particular additional service, supporting the useful-relationship exemption.",
+            "supportForHit": "The taxonomy permits a generic service slogan to remain a defect beside useful facts; R1 likewise says nearby facts do not automatically redeem a stock service promise.",
+            "disposition": "Unresolved definition-boundary dispute only. Preserve expected:false, count the R1 prediction as a false positive, and adjudicate this service-promise boundary separately before any relabeling.",
+            "scoreEffect": "None in this report; original label and all fixed-label metrics remain unchanged."
+          },
+          {
+            "id": "000051-195",
+            "source": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+            "inputSha256": "996efceaf81f1b71e5840173089fcaab7ec1b258dc9eb0f562d610ec64c21f5b",
+            "fixedExpected": false,
+            "b0Predicted": true,
+            "r1Predicted": true,
+            "issue": "Boundary conflict: the passage adopts a stock exceptional-service promise while also identifying an added feature relative to a competing package.",
+            "evidence": "go above and beyond",
+            "supportForFixedNoHit": "The competitor comparison identifies a particular additional service, supporting the useful-relationship exemption.",
+            "supportForHit": "The taxonomy permits a generic service slogan to remain a defect beside useful facts; R1 likewise says nearby facts do not automatically redeem a stock service promise.",
+            "disposition": "Unresolved definition-boundary dispute only. Preserve expected:false, count the R1 prediction as a false positive, and adjudicate this service-promise boundary separately before any relabeling.",
+            "scoreEffect": "None in this report; original label and all fixed-label metrics remain unchanged."
+          }
+        ],
+        "reviewCoverage": {
+          "evaluatedPassages": 400,
+          "evaluatedJudgments": 400,
+          "completeInputsReviewed": 96,
+          "changedJudgments": 72,
+          "r1RemainingErrors": 44,
+          "overlapChangedAndError": 20,
+          "requiredReviewIds": [
+            "000041-006",
+            "000041-008",
+            "000041-010",
+            "000041-029",
+            "000041-030",
+            "000041-032",
+            "000041-038",
+            "000041-039",
+            "000041-048",
+            "000041-050",
+            "000041-055",
+            "000041-063",
+            "000041-068",
+            "000041-070",
+            "000041-071",
+            "000041-072",
+            "000041-075",
+            "000041-081",
+            "000041-086",
+            "000041-094",
+            "000041-095",
+            "000041-098",
+            "000041-104",
+            "000041-111",
+            "000041-114",
+            "000041-116",
+            "000041-120",
+            "000041-124",
+            "000041-127",
+            "000041-128",
+            "000041-129",
+            "000041-130",
+            "000041-135",
+            "000041-138",
+            "000041-139",
+            "000041-141",
+            "000041-143",
+            "000041-144",
+            "000041-149",
+            "000041-153",
+            "000041-155",
+            "000041-158",
+            "000041-165",
+            "000041-168",
+            "000041-170",
+            "000041-171",
+            "000041-177",
+            "000041-181",
+            "000041-186",
+            "000041-191",
+            "000041-195",
+            "000041-196",
+            "000041-202",
+            "000051-009",
+            "000051-010",
+            "000051-012",
+            "000051-013",
+            "000051-014",
+            "000051-021",
+            "000051-026",
+            "000051-047",
+            "000051-051",
+            "000051-057",
+            "000051-061",
+            "000051-062",
+            "000051-064",
+            "000051-071",
+            "000051-072",
+            "000051-074",
+            "000051-076",
+            "000051-081",
+            "000051-082",
+            "000051-083",
+            "000051-086",
+            "000051-092",
+            "000051-103",
+            "000051-108",
+            "000051-115",
+            "000051-119",
+            "000051-125",
+            "000051-130",
+            "000051-133",
+            "000051-135",
+            "000051-141",
+            "000051-143",
+            "000051-145",
+            "000051-146",
+            "000051-151",
+            "000051-161",
+            "000051-165",
+            "000051-171",
+            "000051-175",
+            "000051-191",
+            "000051-193",
+            "000051-195",
+            "000051-210"
+          ],
+          "changedJudgmentIds": [
+            "000041-006",
+            "000041-008",
+            "000041-029",
+            "000041-030",
+            "000041-032",
+            "000041-038",
+            "000041-039",
+            "000041-048",
+            "000041-055",
+            "000041-063",
+            "000041-068",
+            "000041-070",
+            "000041-071",
+            "000041-072",
+            "000041-075",
+            "000041-081",
+            "000041-086",
+            "000041-094",
+            "000041-095",
+            "000041-098",
+            "000041-104",
+            "000041-111",
+            "000041-114",
+            "000041-116",
+            "000041-120",
+            "000041-124",
+            "000041-127",
+            "000041-128",
+            "000041-129",
+            "000041-130",
+            "000041-135",
+            "000041-138",
+            "000041-143",
+            "000041-144",
+            "000041-149",
+            "000041-153",
+            "000041-155",
+            "000041-158",
+            "000041-165",
+            "000041-168",
+            "000041-170",
+            "000041-171",
+            "000041-177",
+            "000041-181",
+            "000041-186",
+            "000041-191",
+            "000041-195",
+            "000041-196",
+            "000041-202",
+            "000051-009",
+            "000051-010",
+            "000051-013",
+            "000051-014",
+            "000051-021",
+            "000051-047",
+            "000051-061",
+            "000051-062",
+            "000051-064",
+            "000051-074",
+            "000051-083",
+            "000051-092",
+            "000051-108",
+            "000051-119",
+            "000051-125",
+            "000051-130",
+            "000051-141",
+            "000051-143",
+            "000051-145",
+            "000051-146",
+            "000051-161",
+            "000051-165",
+            "000051-193"
+          ],
+          "r1ErrorIds": [
+            "000041-006",
+            "000041-010",
+            "000041-050",
+            "000041-063",
+            "000041-120",
+            "000041-139",
+            "000041-141",
+            "000041-144",
+            "000041-158",
+            "000051-010",
+            "000051-012",
+            "000051-013",
+            "000051-014",
+            "000051-026",
+            "000051-051",
+            "000051-057",
+            "000051-061",
+            "000051-064",
+            "000051-071",
+            "000051-072",
+            "000051-074",
+            "000051-076",
+            "000051-081",
+            "000051-082",
+            "000051-083",
+            "000051-086",
+            "000051-092",
+            "000051-103",
+            "000051-108",
+            "000051-115",
+            "000051-125",
+            "000051-130",
+            "000051-133",
+            "000051-135",
+            "000051-143",
+            "000051-145",
+            "000051-146",
+            "000051-151",
+            "000051-171",
+            "000051-175",
+            "000051-191",
+            "000051-193",
+            "000051-195",
+            "000051-210"
+          ],
+          "independentReviewer": "Unavailable under the explicit no-delegation instruction. One direct complete-input review plus offline mechanical validation; no claim of independent semantic verification."
+        },
+        "integrity": {
+          "nativeResultsVerified": 4,
+          "completeBatchesVerified": 52,
+          "nativePredictionsVerified": 800,
+          "originalSummariesReproduced": 4,
+          "sourceSnapshotsMatch": true,
+          "frozenSharedIdenticalAcrossCommits": true,
+          "checkIdsAlignedAcrossRounds": true,
+          "labelsAndSourceHashesRecheckedBeforeSave": true,
+          "highlighting": "Classification-only outputs supply one score per passage/check. Highlighting performance and model-selected offending spans are unmeasured.",
+          "inferenceAttribution": "Mechanism explanations are reviewer inferences from complete text, prompt differences and recorded binary judgments. The outputs contain scores without model reasoning.",
+          "sampleScope": "One saved run per prompt and subset on the same development examples. This comparison measures the recorded deltas; repeat-run variation remains unmeasured."
+        }
+      }
+    },
+    "borrowed-jargon": {
+      "b0": {
+        "sha256": "4bc8be92c6f4876bac978f0e1b12de9f78eca4c1508047473452a486a306282a",
+        "counts": {
+          "isolated": {
+            "passages": 200,
+            "positives": 100,
+            "caught": 100,
+            "missed": 0,
+            "negative_controls": 100,
+            "correctly_unflagged": 86,
+            "false_positives": 14
+          },
+          "mixed": {
+            "passages": 200,
+            "positives": 100,
+            "caught": 99,
+            "missed": 1,
+            "negative_controls": 100,
+            "correctly_unflagged": 46,
+            "false_positives": 54
+          },
+          "total": {
+            "passages": 400,
+            "positives": 200,
+            "caught": 199,
+            "missed": 1,
+            "negative_controls": 200,
+            "correctly_unflagged": 132,
+            "false_positives": 68,
+            "reviewed_errors": 69
+          }
+        },
+        "groups": [
+          {
+            "id": "causative-engineer",
+            "count": 13,
+            "affected_ids": [
+              "000043-052",
+              "000043-067",
+              "000043-085",
+              "000043-094",
+              "000043-134",
+              "000043-166",
+              "000043-192",
+              "000051-001",
+              "000051-033",
+              "000051-052",
+              "000051-132",
+              "000051-142",
+              "000051-191"
+            ],
+            "observation": "B0 flags ordinary causative engineer/engineering around specified social actions, including 'engineering customer intimacy' while greeting customers and remembering their preferences.",
+            "definition_judgment": "Retain the no-hit controls. The verb can mean deliberately arranging or bringing about an outcome. The passages name how that outcome is pursued; a technical origin or simpler synonym alone establishes no borrowed-jargon defect.",
+            "inferred_cause": "Technical-looking verbs with abstract social objects appear to outweigh the causative sense explicitly preserved by B0.",
+            "revision_role": "Require evidence of an imported technical concept in use, after resolving the verb's contextual sense."
+          },
+          {
+            "id": "implementation-operationalize",
+            "count": 3,
+            "affected_ids": [
+              "000043-058",
+              "000043-072",
+              "000043-155"
+            ],
+            "observation": "B0 flags 'operationalize joy' and 'operationalize gratitude' despite concrete scheduling and household-message practices.",
+            "definition_judgment": "Retain the no-hit controls. Operationalize puts an abstract aim into a stated practice, a sense B0 expressly preserves.",
+            "inferred_cause": "The abstract object appears to trigger a prestige reading despite an implementation relationship.",
+            "revision_role": "Apply the contextual operation test to implementation uses, including social and household work."
+          },
+          {
+            "id": "operative-relationships",
+            "count": 5,
+            "affected_ids": [
+              "000043-143",
+              "000043-184",
+              "000043-209",
+              "000043-226",
+              "000051-018"
+            ],
+            "observation": "B0 flags two feedback loops, a cost synergy, a referral flywheel, and timetable optimization with a stated objective and constraint.",
+            "definition_judgment": "Retain the no-hit controls. Each passage supplies the particular iterative, combined-saving, reinforcing, or objective/constraint relationship named by the term.",
+            "inferred_cause": "Familiar business terminology appears to override the supplied operative relationship.",
+            "revision_role": "Recognize the term's relationship from the complete passage, rather than demanding software work or rejecting familiar managerial expressions."
+          },
+          {
+            "id": "literal-work-corrupted-term-ownership",
+            "count": 26,
+            "affected_ids": [
+              "000051-004",
+              "000051-011",
+              "000051-014",
+              "000051-020",
+              "000051-030",
+              "000051-034",
+              "000051-037",
+              "000051-046",
+              "000051-058",
+              "000051-088",
+              "000051-090",
+              "000051-120",
+              "000051-124",
+              "000051-126",
+              "000051-128",
+              "000051-134",
+              "000051-143",
+              "000051-150",
+              "000051-156",
+              "000051-157",
+              "000051-166",
+              "000051-167",
+              "000051-172",
+              "000051-195",
+              "000051-198",
+              "000051-221"
+            ],
+            "observation": "B0 flags passages with corrupted names for literal camera, machine-learning, ICT, audio-measurement, speech-transcription, or clinical work. Examples include 'counterfeit consciousness' for an AI camera and 'sign-to-clamor ratio' for a measured speech/noise ratio.",
+            "definition_judgment": "Retain the borrowed-jargon no-hits. The technical operations are relevant and literal. Recoverable corruption of their names belongs to tortured phrasing. Neighboring formal diction, slogans, and adverbs supply separate defects.",
+            "inferred_cause": "B0 appears to treat malformed technical wording or nearby generic polish as sufficient evidence of imported prestige. The classification-only output cannot isolate which candidate triggered each decision.",
+            "revision_role": "Resolve what the technical term names before judging transfer; preserve literal function while assigning lexical corruption to its own check."
+          },
+          {
+            "id": "examined-wording",
+            "count": 1,
+            "affected_ids": [
+              "000051-127"
+            ],
+            "observation": "B0 flags 'The course booklet calls the subject data and interchanges innovation' in an account identifying the actual ICT classes.",
+            "definition_judgment": "Retain the no-hit. The writer documents the booklet's wording and describes literal networking work.",
+            "inferred_cause": "The malformed technical name appears to outweigh its documented-wording function.",
+            "revision_role": "Resolve use versus examination before judging borrowed register."
+          },
+          {
+            "id": "generic-diction-without-technical-transfer",
+            "count": 20,
+            "affected_ids": [
+              "000051-007",
+              "000051-009",
+              "000051-012",
+              "000051-021",
+              "000051-042",
+              "000051-043",
+              "000051-048",
+              "000051-051",
+              "000051-065",
+              "000051-071",
+              "000051-072",
+              "000051-073",
+              "000051-077",
+              "000051-091",
+              "000051-103",
+              "000051-104",
+              "000051-114",
+              "000051-130",
+              "000051-182",
+              "000051-219"
+            ],
+            "observation": "B0 flags passages decorated with 'holistic', 'nuanced', 'multifaceted', and 'elevate/enrich', often beside a nontechnical slogan or decorative quietly/silently.",
+            "definition_judgment": "Retain all borrowed-jargon no-hits. Complete inputs supply generic polish, ordinary application operations, and other defects; a specific imported technical concept decorating an ordinary activity is absent.",
+            "inferred_cause": "The prestige criterion appears to broaden into a general corporate-style detector. In 37 of all 54 mixed false positives the frozen stock-vocabulary label is positive, including every member of this group except 000051-007 and 000051-043.",
+            "revision_role": "Require an identifiable imported concept; generic elevated diction, cliches, and hidden-emphasis adverbs alone belong to their own checks."
+          },
+          {
+            "id": "decorative-restart-noun-missed",
+            "count": 1,
+            "affected_ids": [
+              "000051-116"
+            ],
+            "observation": "B0 scores 'creativity reboot' at 0.49, missing the fixed 0.5 threshold. The club activity is bringing a craft and telling others how it began.",
+            "definition_judgment": "Retain the hit. The computing restart image supplies decoration around the recoverable craft-club activity; the passage supplies no corresponding restart operation.",
+            "inferred_cause": "This nominal technical image receives a near-threshold no-hit in a passage also carrying other issue types. One example supports identifying this boundary failure; it cannot establish a general noun-form sensitivity rate.",
+            "revision_role": "Apply the same imported-concept test to noun phrases while sharpening exclusions elsewhere."
+          }
+        ],
+        "labelDisputes": [],
+        "integrity": {
+          "status": "passed",
+          "prompt_binding": "Read shared.md and borrowed-jargon.md through git show 913ba940. Reconstructed their native prompt object, including the JSON question and criteria. Its hash matches both saved snapshots.",
+          "promptSha256": "ea8bf17c0f39ee7792e2923b3894753d2c4d1af0b2f87813d32af2471c9bc716",
+          "source_checks": "preflightDataset(developmentOnly: true) and readDocument validated exactly the six explicitly permitted development file pairs, 000041/43/45/47/49/51. Their Markdown and label bytes also match git show 913ba940. They contain 1,200 passages and 2,000 labels.",
+          "request_checks": "For the two native results, loadDataset and createSnapshot reconstructed the current source hashes and target assignments with frozen B0 prompts. validateResult returned complete: true for both. It rebuilt and checked all 26 batch request hashes, model identity, answer keys and answer ranges, usage fields, and saved inference hashes.",
+          "score_checks": "score reproduced both complete summaries exactly at threshold 0.5. scoreMixed reproduced the saved mixed aggregate for the single selected borrowed-jargon check. All 400 passage judgments are present.",
+          "settings": {
+            "model": "jev-1.13.0",
+            "threshold": 0.5,
+            "mode": "classification-only",
+            "batch_size": 16
+          },
+          "isolated": {
+            "collection": "000043",
+            "textSha256": "9d060a53611b4a365e946184b0fc09d5f757c42343f4c76ea6e40c37db99c289",
+            "labelsSha256": "c7282fe0dc5bda1e866d0387934f0601f33c905ee928a30a72eb71525995d0c4",
+            "targetsSha256": "00237089d26dfc93310641433cc39392c3e7c0209a9989e75f17562ffa9bca8f"
+          },
+          "mixed": {
+            "collection": "000051",
+            "textSha256": "87646857110ee1c6e664c44d2c947877548ac9ee97f759ce9c96cda1027c38bf",
+            "labelsSha256": "068415be81d752e06ba2e150d3f06362355b1812ebb744f515d087844c2fe8f6",
+            "targetsSha256": "d656b5f32f3ae879167c62fafb7b7cfeb63e3cfb9871b20ebcffc8fd29f15a25"
+          }
+        }
+      },
+      "r1": {
+        "sha256": "3650bab7610b5d58578c775304487df274767fc0e1b876789c81495dee98b0d3",
+        "counts": {
+          "isolated": {
+            "dataset": "datasets/ai-synthetic/passages/000043-stock-wording-and-jargon-borrowed-jargon-development.md",
+            "b0": {
+              "passages": 200,
+              "judgments": 200,
+              "positives": 100,
+              "negatives": 100,
+              "tp": 100,
+              "fn": 0,
+              "tn": 86,
+              "fp": 14,
+              "recall": 1,
+              "falsePositiveRate": 0.14,
+              "accuracy": 0.93
+            },
+            "r1": {
+              "passages": 200,
+              "judgments": 200,
+              "positives": 100,
+              "negatives": 100,
+              "tp": 97,
+              "fn": 3,
+              "tn": 92,
+              "fp": 8,
+              "recall": 0.97,
+              "falsePositiveRate": 0.08,
+              "accuracy": 0.945
+            },
+            "transitions": {
+              "newly_caught_hit": {
+                "count": 0,
+                "ids": []
+              },
+              "lost_hit": {
+                "count": 3,
+                "ids": [
+                  "000043-024",
+                  "000043-084",
+                  "000043-104"
+                ]
+              },
+              "corrected_false_positive": {
+                "count": 7,
+                "ids": [
+                  "000043-058",
+                  "000043-094",
+                  "000043-143",
+                  "000043-155",
+                  "000043-184",
+                  "000043-209",
+                  "000043-226"
+                ]
+              },
+              "new_false_positive": {
+                "count": 1,
+                "ids": [
+                  "000043-212"
+                ]
+              }
+            },
+            "r1Errors": {
+              "fn": {
+                "count": 3,
+                "ids": [
+                  "000043-024",
+                  "000043-084",
+                  "000043-104"
+                ]
+              },
+              "fp": {
+                "count": 8,
+                "ids": [
+                  "000043-052",
+                  "000043-067",
+                  "000043-072",
+                  "000043-085",
+                  "000043-134",
+                  "000043-166",
+                  "000043-192",
+                  "000043-212"
+                ]
+              }
+            },
+            "stable": {
+              "tp": {
+                "count": 97,
+                "ids": [
+                  "000043-002",
+                  "000043-003",
+                  "000043-004",
+                  "000043-005",
+                  "000043-008",
+                  "000043-010",
+                  "000043-012",
+                  "000043-014",
+                  "000043-016",
+                  "000043-018",
+                  "000043-023",
+                  "000043-031",
+                  "000043-037",
+                  "000043-039",
+                  "000043-043",
+                  "000043-045",
+                  "000043-046",
+                  "000043-047",
+                  "000043-050",
+                  "000043-051",
+                  "000043-055",
+                  "000043-056",
+                  "000043-060",
+                  "000043-061",
+                  "000043-062",
+                  "000043-066",
+                  "000043-068",
+                  "000043-073",
+                  "000043-076",
+                  "000043-077",
+                  "000043-078",
+                  "000043-082",
+                  "000043-083",
+                  "000043-087",
+                  "000043-088",
+                  "000043-090",
+                  "000043-091",
+                  "000043-093",
+                  "000043-100",
+                  "000043-102",
+                  "000043-105",
+                  "000043-111",
+                  "000043-112",
+                  "000043-117",
+                  "000043-120",
+                  "000043-122",
+                  "000043-123",
+                  "000043-124",
+                  "000043-125",
+                  "000043-129",
+                  "000043-136",
+                  "000043-137",
+                  "000043-138",
+                  "000043-140",
+                  "000043-145",
+                  "000043-146",
+                  "000043-147",
+                  "000043-151",
+                  "000043-153",
+                  "000043-156",
+                  "000043-158",
+                  "000043-159",
+                  "000043-164",
+                  "000043-170",
+                  "000043-173",
+                  "000043-174",
+                  "000043-175",
+                  "000043-176",
+                  "000043-179",
+                  "000043-180",
+                  "000043-181",
+                  "000043-182",
+                  "000043-183",
+                  "000043-190",
+                  "000043-191",
+                  "000043-193",
+                  "000043-195",
+                  "000043-196",
+                  "000043-197",
+                  "000043-199",
+                  "000043-200",
+                  "000043-201",
+                  "000043-205",
+                  "000043-207",
+                  "000043-210",
+                  "000043-214",
+                  "000043-215",
+                  "000043-221",
+                  "000043-225",
+                  "000043-227",
+                  "000043-228",
+                  "000043-230",
+                  "000043-231",
+                  "000043-233",
+                  "000043-234",
+                  "000043-235",
+                  "000043-239"
+                ]
+              },
+              "tn": {
+                "count": 85,
+                "ids": [
+                  "000043-001",
+                  "000043-006",
+                  "000043-007",
+                  "000043-009",
+                  "000043-011",
+                  "000043-013",
+                  "000043-015",
+                  "000043-017",
+                  "000043-019",
+                  "000043-020",
+                  "000043-021",
+                  "000043-022",
+                  "000043-025",
+                  "000043-026",
+                  "000043-027",
+                  "000043-028",
+                  "000043-029",
+                  "000043-030",
+                  "000043-032",
+                  "000043-033",
+                  "000043-034",
+                  "000043-035",
+                  "000043-036",
+                  "000043-038",
+                  "000043-040",
+                  "000043-041",
+                  "000043-042",
+                  "000043-044",
+                  "000043-048",
+                  "000043-049",
+                  "000043-053",
+                  "000043-054",
+                  "000043-059",
+                  "000043-064",
+                  "000043-070",
+                  "000043-071",
+                  "000043-074",
+                  "000043-079",
+                  "000043-081",
+                  "000043-086",
+                  "000043-089",
+                  "000043-092",
+                  "000043-095",
+                  "000043-096",
+                  "000043-097",
+                  "000043-098",
+                  "000043-099",
+                  "000043-101",
+                  "000043-103",
+                  "000043-106",
+                  "000043-107",
+                  "000043-108",
+                  "000043-109",
+                  "000043-114",
+                  "000043-119",
+                  "000043-126",
+                  "000043-127",
+                  "000043-128",
+                  "000043-131",
+                  "000043-132",
+                  "000043-133",
+                  "000043-135",
+                  "000043-139",
+                  "000043-148",
+                  "000043-152",
+                  "000043-160",
+                  "000043-161",
+                  "000043-163",
+                  "000043-187",
+                  "000043-202",
+                  "000043-204",
+                  "000043-206",
+                  "000043-208",
+                  "000043-211",
+                  "000043-217",
+                  "000043-218",
+                  "000043-219",
+                  "000043-220",
+                  "000043-222",
+                  "000043-223",
+                  "000043-224",
+                  "000043-229",
+                  "000043-236",
+                  "000043-237",
+                  "000043-238"
+                ]
+              },
+              "fn": {
+                "count": 0,
+                "ids": []
+              },
+              "fp": {
+                "count": 7,
+                "ids": [
+                  "000043-052",
+                  "000043-067",
+                  "000043-072",
+                  "000043-085",
+                  "000043-134",
+                  "000043-166",
+                  "000043-192"
+                ]
+              }
+            },
+            "nativeVerification": {
+              "b0": {
+                "complete": true
+              },
+              "r1": {
+                "complete": true
+              }
+            }
+          },
+          "mixed": {
+            "dataset": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+            "b0": {
+              "passages": 200,
+              "judgments": 200,
+              "positives": 100,
+              "negatives": 100,
+              "tp": 99,
+              "fn": 1,
+              "tn": 46,
+              "fp": 54,
+              "recall": 0.99,
+              "falsePositiveRate": 0.54,
+              "accuracy": 0.725
+            },
+            "r1": {
+              "passages": 200,
+              "judgments": 200,
+              "positives": 100,
+              "negatives": 100,
+              "tp": 96,
+              "fn": 4,
+              "tn": 89,
+              "fp": 11,
+              "recall": 0.96,
+              "falsePositiveRate": 0.11,
+              "accuracy": 0.925
+            },
+            "transitions": {
+              "newly_caught_hit": {
+                "count": 0,
+                "ids": []
+              },
+              "lost_hit": {
+                "count": 3,
+                "ids": [
+                  "000051-078",
+                  "000051-177",
+                  "000051-187"
+                ]
+              },
+              "corrected_false_positive": {
+                "count": 43,
+                "ids": [
+                  "000051-004",
+                  "000051-007",
+                  "000051-009",
+                  "000051-012",
+                  "000051-014",
+                  "000051-018",
+                  "000051-021",
+                  "000051-030",
+                  "000051-034",
+                  "000051-037",
+                  "000051-042",
+                  "000051-043",
+                  "000051-046",
+                  "000051-048",
+                  "000051-051",
+                  "000051-058",
+                  "000051-065",
+                  "000051-071",
+                  "000051-072",
+                  "000051-077",
+                  "000051-088",
+                  "000051-090",
+                  "000051-091",
+                  "000051-103",
+                  "000051-104",
+                  "000051-114",
+                  "000051-120",
+                  "000051-126",
+                  "000051-127",
+                  "000051-128",
+                  "000051-130",
+                  "000051-134",
+                  "000051-143",
+                  "000051-150",
+                  "000051-156",
+                  "000051-157",
+                  "000051-166",
+                  "000051-167",
+                  "000051-172",
+                  "000051-182",
+                  "000051-195",
+                  "000051-198",
+                  "000051-219"
+                ]
+              },
+              "new_false_positive": {
+                "count": 0,
+                "ids": []
+              }
+            },
+            "r1Errors": {
+              "fn": {
+                "count": 4,
+                "ids": [
+                  "000051-078",
+                  "000051-116",
+                  "000051-177",
+                  "000051-187"
+                ]
+              },
+              "fp": {
+                "count": 11,
+                "ids": [
+                  "000051-001",
+                  "000051-011",
+                  "000051-020",
+                  "000051-033",
+                  "000051-052",
+                  "000051-073",
+                  "000051-124",
+                  "000051-132",
+                  "000051-142",
+                  "000051-191",
+                  "000051-221"
+                ]
+              }
+            },
+            "stable": {
+              "tp": {
+                "count": 96,
+                "ids": [
+                  "000051-002",
+                  "000051-003",
+                  "000051-005",
+                  "000051-006",
+                  "000051-008",
+                  "000051-013",
+                  "000051-015",
+                  "000051-019",
+                  "000051-023",
+                  "000051-024",
+                  "000051-025",
+                  "000051-026",
+                  "000051-027",
+                  "000051-028",
+                  "000051-031",
+                  "000051-032",
+                  "000051-035",
+                  "000051-036",
+                  "000051-040",
+                  "000051-041",
+                  "000051-049",
+                  "000051-053",
+                  "000051-055",
+                  "000051-056",
+                  "000051-060",
+                  "000051-061",
+                  "000051-062",
+                  "000051-066",
+                  "000051-068",
+                  "000051-074",
+                  "000051-075",
+                  "000051-076",
+                  "000051-079",
+                  "000051-080",
+                  "000051-082",
+                  "000051-083",
+                  "000051-084",
+                  "000051-085",
+                  "000051-086",
+                  "000051-087",
+                  "000051-089",
+                  "000051-095",
+                  "000051-096",
+                  "000051-097",
+                  "000051-098",
+                  "000051-100",
+                  "000051-105",
+                  "000051-106",
+                  "000051-107",
+                  "000051-109",
+                  "000051-110",
+                  "000051-115",
+                  "000051-117",
+                  "000051-119",
+                  "000051-121",
+                  "000051-123",
+                  "000051-125",
+                  "000051-129",
+                  "000051-131",
+                  "000051-133",
+                  "000051-137",
+                  "000051-141",
+                  "000051-144",
+                  "000051-145",
+                  "000051-146",
+                  "000051-151",
+                  "000051-152",
+                  "000051-154",
+                  "000051-159",
+                  "000051-160",
+                  "000051-162",
+                  "000051-163",
+                  "000051-168",
+                  "000051-169",
+                  "000051-170",
+                  "000051-174",
+                  "000051-181",
+                  "000051-184",
+                  "000051-185",
+                  "000051-188",
+                  "000051-192",
+                  "000051-193",
+                  "000051-194",
+                  "000051-196",
+                  "000051-199",
+                  "000051-201",
+                  "000051-205",
+                  "000051-206",
+                  "000051-207",
+                  "000051-209",
+                  "000051-210",
+                  "000051-212",
+                  "000051-213",
+                  "000051-214",
+                  "000051-231",
+                  "000051-233"
+                ]
+              },
+              "tn": {
+                "count": 46,
+                "ids": [
+                  "000051-010",
+                  "000051-016",
+                  "000051-017",
+                  "000051-022",
+                  "000051-029",
+                  "000051-038",
+                  "000051-039",
+                  "000051-044",
+                  "000051-045",
+                  "000051-047",
+                  "000051-050",
+                  "000051-054",
+                  "000051-057",
+                  "000051-059",
+                  "000051-063",
+                  "000051-064",
+                  "000051-067",
+                  "000051-069",
+                  "000051-081",
+                  "000051-092",
+                  "000051-093",
+                  "000051-094",
+                  "000051-099",
+                  "000051-101",
+                  "000051-108",
+                  "000051-113",
+                  "000051-122",
+                  "000051-135",
+                  "000051-136",
+                  "000051-147",
+                  "000051-149",
+                  "000051-161",
+                  "000051-164",
+                  "000051-165",
+                  "000051-171",
+                  "000051-173",
+                  "000051-175",
+                  "000051-180",
+                  "000051-189",
+                  "000051-197",
+                  "000051-200",
+                  "000051-202",
+                  "000051-203",
+                  "000051-204",
+                  "000051-208",
+                  "000051-216"
+                ]
+              },
+              "fn": {
+                "count": 1,
+                "ids": [
+                  "000051-116"
+                ]
+              },
+              "fp": {
+                "count": 11,
+                "ids": [
+                  "000051-001",
+                  "000051-011",
+                  "000051-020",
+                  "000051-033",
+                  "000051-052",
+                  "000051-073",
+                  "000051-124",
+                  "000051-132",
+                  "000051-142",
+                  "000051-191",
+                  "000051-221"
+                ]
+              }
+            },
+            "nativeVerification": {
+              "b0": {
+                "complete": true
+              },
+              "r1": {
+                "complete": true
+              }
+            }
+          },
+          "total": {
+            "b0": {
+              "passages": 400,
+              "judgments": 400,
+              "positives": 200,
+              "negatives": 200,
+              "tp": 199,
+              "fn": 1,
+              "tn": 132,
+              "fp": 68,
+              "recall": 0.995,
+              "falsePositiveRate": 0.34,
+              "accuracy": 0.8275
+            },
+            "r1": {
+              "passages": 400,
+              "judgments": 400,
+              "positives": 200,
+              "negatives": 200,
+              "tp": 193,
+              "fn": 7,
+              "tn": 181,
+              "fp": 19,
+              "recall": 0.965,
+              "falsePositiveRate": 0.095,
+              "accuracy": 0.935
+            },
+            "transitions": {
+              "newly_caught_hit": {
+                "count": 0,
+                "ids": []
+              },
+              "lost_hit": {
+                "count": 6,
+                "ids": [
+                  "000043-024",
+                  "000043-084",
+                  "000043-104",
+                  "000051-078",
+                  "000051-177",
+                  "000051-187"
+                ]
+              },
+              "corrected_false_positive": {
+                "count": 50,
+                "ids": [
+                  "000043-058",
+                  "000043-094",
+                  "000043-143",
+                  "000043-155",
+                  "000043-184",
+                  "000043-209",
+                  "000043-226",
+                  "000051-004",
+                  "000051-007",
+                  "000051-009",
+                  "000051-012",
+                  "000051-014",
+                  "000051-018",
+                  "000051-021",
+                  "000051-030",
+                  "000051-034",
+                  "000051-037",
+                  "000051-042",
+                  "000051-043",
+                  "000051-046",
+                  "000051-048",
+                  "000051-051",
+                  "000051-058",
+                  "000051-065",
+                  "000051-071",
+                  "000051-072",
+                  "000051-077",
+                  "000051-088",
+                  "000051-090",
+                  "000051-091",
+                  "000051-103",
+                  "000051-104",
+                  "000051-114",
+                  "000051-120",
+                  "000051-126",
+                  "000051-127",
+                  "000051-128",
+                  "000051-130",
+                  "000051-134",
+                  "000051-143",
+                  "000051-150",
+                  "000051-156",
+                  "000051-157",
+                  "000051-166",
+                  "000051-167",
+                  "000051-172",
+                  "000051-182",
+                  "000051-195",
+                  "000051-198",
+                  "000051-219"
+                ]
+              },
+              "new_false_positive": {
+                "count": 1,
+                "ids": [
+                  "000043-212"
+                ]
+              }
+            }
+          }
+        },
+        "groups": [
+          {
+            "id": "missed_maintenance_transfer",
+            "finding": "Six R1 false negatives retain an imagined maintenance or restoration operation applied to a clear ordinary activity.",
+            "causeAssessment": "The losses are consistent with the R1 process-or-structure gate underrecognizing compact restorative metaphors. This is a prompt-level hypothesis inferred from complete inputs and score changes; the native responses contain probabilities, not explanations.",
+            "disposition": "Retain the six hit labels. Make the donor-specific operation test recognize compact transfers while requiring an operative correspondence for an exemption.",
+            "count": 6,
+            "ids": [
+              "000043-024",
+              "000043-084",
+              "000051-078",
+              "000051-116",
+              "000051-177",
+              "000051-187"
+            ],
+            "perSet": {
+              "isolated": 2,
+              "mixed": 4
+            },
+            "r1Errors": 6,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 5,
+              "corrected_false_positive": 0,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "disputed_implementation_boundary",
+            "finding": "One lost hit uses implementation language with a directly described expressive activity, matching the reasoning used to preserve neighboring implementation controls.",
+            "causeAssessment": "The R1 implementation exception predicts this movement, but the fixed label expects a hit.",
+            "disposition": "Retain the scored false negative and record the specific label dispute for separate adjudication.",
+            "count": 1,
+            "ids": [
+              "000043-104"
+            ],
+            "perSet": {
+              "isolated": 1,
+              "mixed": 0
+            },
+            "r1Errors": 1,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 1,
+              "corrected_false_positive": 0,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "ordinary_causation_or_implementation_fp",
+            "finding": "Thirteen remaining false positives use engineer as intentional causation or operationalize as putting an intention into practice, with no donor-specific technical operation.",
+            "causeAssessment": "R1 expressly preserves these meanings, yet the saved scores still cross 0.5. The complete no-hit demonstration 000043-052 itself receives 0.51, showing that merely including the exception and example has not reliably enforced the boundary.",
+            "disposition": "Retain all thirteen no-hit labels. Apply the proposed ordered donor-operation discriminator before treating an abstract outcome as a technical model.",
+            "count": 13,
+            "ids": [
+              "000043-052",
+              "000043-067",
+              "000043-072",
+              "000043-085",
+              "000043-134",
+              "000043-166",
+              "000043-192",
+              "000051-001",
+              "000051-033",
+              "000051-052",
+              "000051-132",
+              "000051-142",
+              "000051-191"
+            ],
+            "perSet": {
+              "isolated": 7,
+              "mixed": 6
+            },
+            "r1Errors": 13,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 0,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "real_technical_work_fp",
+            "finding": "Four mixed false positives contain a garbled name for actual AI work, alongside other checks' ornamental wording.",
+            "causeAssessment": "R1 explicitly excludes corrupted names for actual technical operations. Classification-only answers cannot identify which phrase caused each hit; complete-input review finds no independent borrowed transfer.",
+            "disposition": "Retain all four no-hit labels. Preserve the technical-work and neighboring-check exclusions in any revision.",
+            "count": 4,
+            "ids": [
+              "000051-011",
+              "000051-020",
+              "000051-124",
+              "000051-221"
+            ],
+            "perSet": {
+              "isolated": 0,
+              "mixed": 4
+            },
+            "r1Errors": 4,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 0,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "ornamental_wording_fp",
+            "finding": "One mixed false positive contains elevated description and stock framing without an imported technical operation.",
+            "causeAssessment": "The remaining passage-level answer crosses the named-check boundary despite the R1 adjective exclusion.",
+            "disposition": "Retain the no-hit label and require an identifiable donor-specific action or object.",
+            "count": 1,
+            "ids": [
+              "000051-073"
+            ],
+            "perSet": {
+              "isolated": 0,
+              "mixed": 1
+            },
+            "r1Errors": 1,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 0,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "documented_wording_fp",
+            "finding": "The only new false positive explains a questioned quotation and records forwarding wording feedback to an editor.",
+            "causeAssessment": "The passage discusses wording rather than adopting the technical metaphor as its current description. R1 retains the documentation exemption, so this is an observed regression rather than an intended scope expansion.",
+            "disposition": "Retain the no-hit label. Preserve the documentation gate; the proposed R2 discriminator leaves this residual documentation failure for evaluation.",
+            "count": 1,
+            "ids": [
+              "000043-212"
+            ],
+            "perSet": {
+              "isolated": 1,
+              "mixed": 0
+            },
+            "r1Errors": 1,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 0,
+              "new_false_positive": 1
+            }
+          },
+          {
+            "id": "corrected_causation_or_implementation",
+            "finding": "Three isolated false positives become correct no-hits for ordinary causation or implementation.",
+            "causeAssessment": "These corrections follow the explicit R1 exception for making something happen or putting an intention into practice.",
+            "disposition": "Preserve these gains while testing the same principle on the thirteen remaining false positives.",
+            "count": 3,
+            "ids": [
+              "000043-058",
+              "000043-094",
+              "000043-155"
+            ],
+            "perSet": {
+              "isolated": 3,
+              "mixed": 0
+            },
+            "r1Errors": 0,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 3,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "corrected_operative_relationship",
+            "finding": "Five false positives become correct no-hits for a specified feedback cycle, cost relationship, referral cycle, or constrained optimization.",
+            "causeAssessment": "The complete inputs provide the operation, constraint, or correspondence that makes the terminology informative.",
+            "disposition": "Preserve these no-hits and their operative distinctions in the next comparison.",
+            "count": 5,
+            "ids": [
+              "000043-143",
+              "000043-184",
+              "000043-209",
+              "000043-226",
+              "000051-018"
+            ],
+            "perSet": {
+              "isolated": 4,
+              "mixed": 1
+            },
+            "r1Errors": 0,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 5,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "corrected_real_technical_work",
+            "finding": "Mixed false positives become correct no-hits when the work is technical and a neighboring naming defect or ornamental wording remains.",
+            "causeAssessment": "The R1 actual-work and wrong-name exclusions match the concrete camera, classifier, transcription, network, and measurement operations in these passages.",
+            "disposition": "Preserve the corrections and judge other defects under their own checks.",
+            "count": 22,
+            "ids": [
+              "000051-004",
+              "000051-014",
+              "000051-030",
+              "000051-034",
+              "000051-037",
+              "000051-046",
+              "000051-058",
+              "000051-088",
+              "000051-090",
+              "000051-120",
+              "000051-126",
+              "000051-127",
+              "000051-128",
+              "000051-134",
+              "000051-143",
+              "000051-150",
+              "000051-156",
+              "000051-157",
+              "000051-166",
+              "000051-172",
+              "000051-195",
+              "000051-198"
+            ],
+            "perSet": {
+              "isolated": 0,
+              "mixed": 22
+            },
+            "r1Errors": 0,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 22,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "corrected_ornamental_wording",
+            "finding": "Mixed false positives become correct no-hits when the elevated modifiers and stock framing invoke no donor-specific technical action or structure.",
+            "causeAssessment": "R1 separates ornamental diction and evaluative modifiers from borrowed technical models.",
+            "disposition": "Preserve these corrections independently of the separate vocabulary-label adjudication.",
+            "count": 19,
+            "ids": [
+              "000051-007",
+              "000051-009",
+              "000051-012",
+              "000051-021",
+              "000051-042",
+              "000051-043",
+              "000051-048",
+              "000051-051",
+              "000051-065",
+              "000051-071",
+              "000051-072",
+              "000051-077",
+              "000051-091",
+              "000051-103",
+              "000051-104",
+              "000051-114",
+              "000051-130",
+              "000051-182",
+              "000051-219"
+            ],
+            "perSet": {
+              "isolated": 0,
+              "mixed": 19
+            },
+            "r1Errors": 0,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 19,
+              "new_false_positive": 0
+            }
+          },
+          {
+            "id": "corrected_medical_naming",
+            "finding": "A support-session passage becomes a correct no-hit despite a corrupted disease name and elevated guide wording.",
+            "causeAssessment": "The nurse and post-treatment support are literal medical context, with no technical label transferred to an ordinary activity.",
+            "disposition": "Preserve the no-hit; the neighboring naming and vocabulary judgments remain unchanged.",
+            "count": 1,
+            "ids": [
+              "000051-167"
+            ],
+            "perSet": {
+              "isolated": 0,
+              "mixed": 1
+            },
+            "r1Errors": 0,
+            "transitions": {
+              "newly_caught_hit": 0,
+              "lost_hit": 0,
+              "corrected_false_positive": 1,
+              "new_false_positive": 0
+            }
+          }
+        ],
+        "labelDisputes": [
+          {
+            "id": "implementation-boundary-000043-104",
+            "material": true,
+            "primaryId": "000043-104",
+            "fixedExpected": true,
+            "reviewAssessment": "The complete input supports ordinary implementation: personal letter writing and optional reading aloud enact personal expression, just as scheduling enjoyable activities enacts joy and thank-you cards enact gratitude.",
+            "conflict": "The taxonomy preserves established uses that name a relevant operation. R1 explicitly preserves putting an idea into practice. These criteria support the same no-hit rationale used for the listed implementation controls, while 000043-104 remains labeled a hit.",
+            "evidence": [
+              {
+                "id": "000043-104",
+                "completeInput": "The tutor introduced the weekly letter as a way to operationalize the students' authentic voices. Each person wrote to a friend about something they had enjoyed that month, then read a few lines aloud if they wished. The letters stayed with the writers, who could revise them before taking them home.",
+                "completeInputSha256": "fdedddc3cc3416739078921946ff78ea76f80f50225126249a8ae4805f71cdcf",
+                "fixedLabel": {
+                  "id": "000043-104",
+                  "check": "stock-wording-and-jargon/borrowed-jargon",
+                  "expected": true,
+                  "snippets": [
+                    "operationalize the students' authentic voices"
+                  ]
+                },
+                "b0Score": 0.79,
+                "r1Score": 0.48
+              },
+              {
+                "id": "000043-072",
+                "completeInput": "Try the Sunday page as a way to operationalize joy in your week. Add one meal you would like to cook and one person you would enjoy seeing, then choose a day for each. Your reminders will appear alongside appointments, and you can move either plan if your working hours change.",
+                "completeInputSha256": "1ce9d9159c5530f3efe2e045e025e2b0e71297c60228a60d33fd2d7875ba36dd",
+                "fixedLabel": {
+                  "id": "000043-072",
+                  "check": "stock-wording-and-jargon/borrowed-jargon",
+                  "expected": false
+                },
+                "b0Score": 0.82,
+                "r1Score": 0.51
+              },
+              {
+                "id": "000043-058",
+                "completeInput": "Our new welcome evenings will help operationalize the village's culture of care. Each household is invited to bring a cake and introduce themselves to someone who has arrived this year. The first evening is in the school hall next Tuesday, and volunteers will serve tea from seven until half past eight.",
+                "completeInputSha256": "74fa8a9e0dca28762d83d4508a292d344c370f966d2530240b2d0d1504622532",
+                "fixedLabel": {
+                  "id": "000043-058",
+                  "check": "stock-wording-and-jargon/borrowed-jargon",
+                  "expected": false
+                },
+                "b0Score": 0.85,
+                "r1Score": 0.47
+              },
+              {
+                "id": "000043-155",
+                "completeInput": "The new Weekly Thanks card helps operationalize gratitude across your household. Each person can add a message about something another person did for them, then read the cards together at the weekend. Cards are visible only to the household group, and members can remove their own message before it is read aloud.",
+                "completeInputSha256": "155b5504aaced04651725d7e23bffb9c297517be105f20c898d6404f00ccfd15",
+                "fixedLabel": {
+                  "id": "000043-155",
+                  "check": "stock-wording-and-jargon/borrowed-jargon",
+                  "expected": false
+                },
+                "b0Score": 0.83,
+                "r1Score": 0.48
+              },
+              {
+                "id": "000043-094",
+                "completeInput": "The Team Thanks panel helps engineer a culture of appreciation. Select a colleague and write a short message describing something you appreciated about their work this week. Messages appear on the team board after the recipient approves them, and the sender can choose whether to include a photograph with the note.",
+                "completeInputSha256": "0fd921249d7b7e0fc9a5d89e089bd73377ea32587e7d05b77a8fed3bc7b16af4",
+                "fixedLabel": {
+                  "id": "000043-094",
+                  "check": "stock-wording-and-jargon/borrowed-jargon",
+                  "expected": false
+                },
+                "b0Score": 0.63,
+                "r1Score": 0.48
+              }
+            ],
+            "disposition": "Retain every label and all reported counts. Request a separate consistent ruling on the implementation boundary; this review authorizes no dataset change.",
+            "metricExposure": "One isolated lost hit and false negative is affected. No alternate-label metric is substituted.",
+            "vocabularyAdjudication": "Separate vocabulary adjudication has no effect on this borrowed-jargon review or its frozen labels."
+          }
+        ],
+        "reviewCoverage": 76,
+        "integrity": {
+          "sourceInputs": "Both development label files pass the existing dataset reader, including source checksums, ranges, and exact hit snippets.",
+          "nativeResults": "All four native results pass validateResult with reconstructed frozen prompts, full snapshots, 13 complete batches each, exact request hashes, and inference hashes.",
+          "scoring": "All 800 passage judgments across the two runs are recomputed from batch probabilities. Saved hit and false-alarm counts and every error ID match.",
+          "coverage": "76 distinct complete inputs cover every R1 error and changed B0-to-R1 judgment exactly once; all 400 input IDs and hashes are recorded.",
+          "highlighting": "Classification-only outputs; highlighting is unassessed.",
+          "independentReview": "A fresh reviewer was not used because this task explicitly prohibits delegation. The same context performs a mechanical coverage and consistency audit after writing the artifact."
+        }
+      }
+    },
+    "tortured-phrasing": {
+      "b0": {
+        "sha256": "da2a03d0daccbef1776a5a2e09275e0b7cdf4b4620902171bfa0c70b24a99df2",
+        "counts": {
+          "isolated": {
+            "passages": 200,
+            "positives": 100,
+            "caught": 72,
+            "misses": 28,
+            "controls": 100,
+            "correctly_unflagged": 92,
+            "false_positives": 8,
+            "errors_reviewed": 36
+          },
+          "mixed": {
+            "passages": 200,
+            "positives": 100,
+            "caught": 41,
+            "misses": 59,
+            "controls": 100,
+            "correctly_unflagged": 97,
+            "false_positives": 3,
+            "errors_reviewed": 62
+          },
+          "total": {
+            "judgments": 400,
+            "positives": 200,
+            "caught": 113,
+            "misses": 87,
+            "controls": 200,
+            "correctly_unflagged": 189,
+            "false_positives": 11,
+            "errors_reviewed": 98
+          }
+        },
+        "groups": [
+          {
+            "id": "adopted_technical_names_with_recoverable_operations",
+            "count": 70,
+            "fixed_expected": true,
+            "observed": "Twelve isolated and 58 mixed hits were missed even though the complete passage identifies the technical operation or the conventional term beside its corrupted name.",
+            "cause": "B0 states the naming-versus-paraphrase boundary, but its two positive demonstrations cover eggs and a letter of intent. The observed decisions under-apply that boundary to technical service names, including explicit conventional-term glosses. A correct explanation makes the intended name recoverable while the substituted label remains garbled.",
+            "revision_application": "Apply the proposed role-first comparison: determine adoption, recover the conventional expression, and compare the substituted name independently of the accurate surrounding operation.",
+            "cases": [
+              [
+                "000045-001",
+                "profound learning",
+                "deep learning; multilayer neural-network training supplies the intended concept"
+              ],
+              [
+                "000045-002",
+                "irregular forest",
+                "random forest; resampled trees and randomized feature subsets identify the classifier"
+              ],
+              [
+                "000045-012",
+                "data and interchanges innovation",
+                "information and communications technology; computing equipment and course modules identify the subject"
+              ],
+              [
+                "000045-019",
+                "shut circuit TV",
+                "closed-circuit television; local coaxial camera feeds identify the system"
+              ],
+              [
+                "000045-088",
+                "personally recognizable intelligence",
+                "personally identifiable information; customer names and home addresses identify the category"
+              ],
+              [
+                "000045-094",
+                "sealed outlet layer",
+                "secure sockets layer; browser-server encryption and certificate installation identify the term"
+              ],
+              [
+                "000045-096",
+                "geographical hedging",
+                "geofencing; region entry and exit trigger location alerts"
+              ],
+              [
+                "000045-099",
+                "storage seepage",
+                "memory leak; retained preview objects and growing process memory identify the failure"
+              ],
+              [
+                "000045-117",
+                "twofold search",
+                "binary search; repeated halving of a sorted list identifies the algorithm"
+              ],
+              [
+                "000045-119",
+                "nearby field conversation",
+                "near-field communication; proximity badge exchange identifies the chip's function even in the station chapter"
+              ],
+              [
+                "000045-162",
+                "industrial defaults",
+                "factory defaults; router reset removes saved configuration"
+              ],
+              [
+                "000045-178",
+                "paired-factor identification",
+                "two-factor authentication; password plus authenticator code identifies the login operation"
+              ],
+              [
+                "000051-004",
+                "shut circuit TV",
+                "closed-circuit television; the next clause identifies the closed-circuit entrance camera"
+              ],
+              [
+                "000051-005",
+                "man-made reasoning",
+                "artificial intelligence; the accompanying software is explicitly identified"
+              ],
+              [
+                "000051-011",
+                "counterfeit consciousness",
+                "artificial intelligence; the assistant uses an explicitly named language model"
+              ],
+              [
+                "000051-013",
+                "counterfeit consciousness",
+                "artificial intelligence; the subtitles use an explicitly named speech model"
+              ],
+              [
+                "000051-014",
+                "haphazard woodland",
+                "random forest; an ensemble of decision trees identifies the classifier"
+              ],
+              [
+                "000051-020",
+                "profound education",
+                "deep learning; the display explicitly identifies its neural network"
+              ],
+              [
+                "000051-025",
+                "counterfeit consciousness",
+                "artificial intelligence; the caption service is explicitly identified"
+              ],
+              [
+                "000051-032",
+                "natural tongue handling",
+                "natural-language processing; the service's operation is explicitly identified"
+              ],
+              [
+                "000051-036",
+                "man-made reasoning",
+                "artificial intelligence; the transcription speech tool is explicitly identified"
+              ],
+              [
+                "000051-037",
+                "counterfeit consciousness",
+                "artificial intelligence; the bird-identification model is explicitly identified"
+              ],
+              [
+                "000051-040",
+                "shut circuit television",
+                "closed-circuit television; the camera's direct entrance feed identifies the system"
+              ],
+              [
+                "000051-049",
+                "man-made reasoning",
+                "artificial intelligence; the recording-to-text tool is explicitly identified"
+              ],
+              [
+                "000051-058",
+                "counterfeit consciousness",
+                "artificial intelligence; the handwriting model is explicitly identified"
+              ],
+              [
+                "000051-059",
+                "haphazard woodland",
+                "random forest; the parcel-photo classifier is an ensemble of decision trees"
+              ],
+              [
+                "000051-060",
+                "man-made reasoning",
+                "artificial intelligence; the transcription speech model is explicitly identified"
+              ],
+              [
+                "000051-061",
+                "profound education",
+                "deep learning; the photo-tagging neural network is explicitly identified"
+              ],
+              [
+                "000051-062",
+                "man-made reasoning",
+                "artificial intelligence; the transcript model is explicitly identified"
+              ],
+              [
+                "000051-066",
+                "counterfeit consciousness",
+                "artificial intelligence; the caption model is explicitly identified"
+              ],
+              [
+                "000051-067",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech service is explicitly identified"
+              ],
+              [
+                "000051-084",
+                "organic tongue handling",
+                "natural-language processing; enquiry classification is explicitly identified"
+              ],
+              [
+                "000051-088",
+                "counterfeit consciousness",
+                "artificial intelligence; the leaf-image classifier is explicitly identified"
+              ],
+              [
+                "000051-090",
+                "profound education",
+                "deep learning; the handwriting neural network is explicitly identified"
+              ],
+              [
+                "000051-095",
+                "man-made reasoning",
+                "artificial intelligence; the interview transcript's speech model is explicitly identified"
+              ],
+              [
+                "000051-105",
+                "man-made reasoning",
+                "artificial intelligence; the transcription tool is explicitly identified"
+              ],
+              [
+                "000051-120",
+                "profound education",
+                "deep learning; the handwriting neural network is explicitly identified"
+              ],
+              [
+                "000051-124",
+                "profound education",
+                "deep learning; the transcription model is explicitly identified"
+              ],
+              [
+                "000051-125",
+                "counterfeit consciousness",
+                "artificial intelligence; the image-caption model is explicitly identified"
+              ],
+              [
+                "000051-131",
+                "profound education",
+                "deep learning; the handwriting model is explicitly identified"
+              ],
+              [
+                "000051-137",
+                "counterfeit consciousness",
+                "artificial intelligence; the image tagger is explicitly identified"
+              ],
+              [
+                "000051-142",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech service is explicitly identified"
+              ],
+              [
+                "000051-143",
+                "profound education",
+                "deep learning; the transcript view explicitly identifies its handwriting model"
+              ],
+              [
+                "000051-144",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech model is explicitly identified"
+              ],
+              [
+                "000051-145",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech service is explicitly identified"
+              ],
+              [
+                "000051-147",
+                "counterfeit consciousness",
+                "artificial intelligence; the flower-identification model is explicitly identified"
+              ],
+              [
+                "000051-150",
+                "data and interchanges innovation",
+                "information and communications technology; the laboratory's tutor is explicitly identified"
+              ],
+              [
+                "000051-151",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech model is explicitly identified"
+              ],
+              [
+                "000051-152",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech service is explicitly identified"
+              ],
+              [
+                "000051-160",
+                "profound education",
+                "deep learning; the caption display's neural network is explicitly identified"
+              ],
+              [
+                "000051-163",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech model is explicitly identified"
+              ],
+              [
+                "000051-166",
+                "data and interchanges innovation",
+                "information and communications technology; the evening's subject is explicitly identified"
+              ],
+              [
+                "000051-168",
+                "profound education",
+                "deep learning; the handwriting transcription model is explicitly identified"
+              ],
+              [
+                "000051-169",
+                "man-made reasoning",
+                "artificial intelligence; the editable transcript's speech tool is explicitly identified"
+              ],
+              [
+                "000051-170",
+                "counterfeit consciousness",
+                "artificial intelligence; the caption tool's image model is explicitly identified"
+              ],
+              [
+                "000051-173",
+                "profound education",
+                "deep learning; the transcription service's neural network is explicitly identified"
+              ],
+              [
+                "000051-174",
+                "counterfeit consciousness",
+                "artificial intelligence; the image tagger is explicitly identified"
+              ],
+              [
+                "000051-175",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech service is explicitly identified"
+              ],
+              [
+                "000051-180",
+                "profound education",
+                "deep learning; the handwriting transcription model is explicitly identified"
+              ],
+              [
+                "000051-188",
+                "profound education",
+                "deep learning; the handwriting transcription model is explicitly identified"
+              ],
+              [
+                "000051-189",
+                "data and interchanges innovation",
+                "information and communications technology; the course's subject is explicitly identified"
+              ],
+              [
+                "000051-191",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech tool is explicitly identified"
+              ],
+              [
+                "000051-192",
+                "counterfeit consciousness",
+                "artificial intelligence; the image tagger is explicitly identified"
+              ],
+              [
+                "000051-195",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech model is explicitly identified"
+              ],
+              [
+                "000051-198",
+                "profound education",
+                "deep learning; the handwriting transcription model is explicitly identified"
+              ],
+              [
+                "000051-199",
+                "man-made reasoning",
+                "artificial intelligence; the transcript's speech model is explicitly identified"
+              ],
+              [
+                "000051-207",
+                "shut circuit TV",
+                "closed-circuit television; the private-cable entrance-camera feed identifies the system"
+              ],
+              [
+                "000051-208",
+                "profound education",
+                "deep learning; the scanned-letter transcription model is explicitly identified"
+              ],
+              [
+                "000051-209",
+                "man-made reasoning",
+                "artificial intelligence; a speech model drafts the transcript from the recording"
+              ],
+              [
+                "000051-231",
+                "man-made reasoning",
+                "artificial intelligence; a speech model drafts the transcript from the recording"
+              ]
+            ]
+          },
+          {
+            "id": "fixed_everyday_terms_and_sayings",
+            "count": 15,
+            "fixed_expected": true,
+            "observed": "Fifteen isolated misses use recognizable fixed expressions with words substituted in the wrong sense, including two adopted idioms.",
+            "cause": "The supplied context resolves a specific conventional expression, while component-wise synonym replacement corrupts it. These passages use the expression in their own account. The failure generalizes beyond computing terminology.",
+            "revision_application": "Use the same role-first comparison for established everyday terms and sayings; require the specific conventional correction and identify the lexical substitution.",
+            "cases": [
+              [
+                "000045-028",
+                "reply tariff",
+                "response rate; returned questionnaires divided by eligible questionnaires sent"
+              ],
+              [
+                "000045-047",
+                "assault existence",
+                "battery life; a full tablet charge lasts six hours"
+              ],
+              [
+                "000045-048",
+                "chilled suitcase",
+                "cold case; detectives reopen a twenty-year-old investigation after a new evidence match"
+              ],
+              [
+                "000045-053",
+                "without discrimination",
+                "without prejudice; a settlement offer is marked to preserve negotiation protections"
+              ],
+              [
+                "000045-055",
+                "pre-empowerment hold",
+                "pre-authorization hold; a card deposit is reserved pending return of the bicycle"
+              ],
+              [
+                "000045-069",
+                "solitary dot of bankruptcy",
+                "single point of failure; one locked gate blocks both evacuation routes"
+              ],
+              [
+                "000045-079",
+                "riverbank declaration",
+                "bank statement; the account lists dated rent transfers matched against receipts"
+              ],
+              [
+                "000045-080",
+                "homecoming politics",
+                "return policy; boots can be returned within fourteen days for a refund"
+              ],
+              [
+                "000045-118",
+                "heated bureaus",
+                "hot desking; staff book an available desk each morning"
+              ],
+              [
+                "000045-122",
+                "deserved diligence",
+                "due diligence; ownership and maintenance obligations are checked before signing a lease"
+              ],
+              [
+                "000045-123",
+                "beneath the climate",
+                "under the weather; the speaker reports a headache and postpones a visit"
+              ],
+              [
+                "000045-124",
+                "fishing-mesh advantage",
+                "net profit; the remainder after rent, wages, supplies and other expenses"
+              ],
+              [
+                "000045-145",
+                "mute spouse",
+                "silent partner; the investor contributes capital and shares profits without daily management"
+              ],
+              [
+                "000045-147",
+                "slicing angles",
+                "cutting corners; skipped stitching and a detached pocket establish shoddy manufacture"
+              ],
+              [
+                "000045-192",
+                "example stature",
+                "sample size; too few respondents produce imprecise age-group estimates"
+              ]
+            ]
+          },
+          {
+            "id": "examined_or_corrected_translations",
+            "count": 9,
+            "fixed_expected": false,
+            "observed": "All eight isolated false positives and mixed 000051-101 describe mistranslation, correction or examination. Several state the correct expression explicitly.",
+            "cause": "The decisions track recoverable lexical corruption while failing the accepted requirement that the writer adopt it. B0 already supplies this exemption; the error pattern calls for applying expression role before lexical recognition.",
+            "revision_application": "Resolve use versus examination before deciding whether the expression's visible corruption qualifies. Preserve documentary and repair operations even when the correction is explicit.",
+            "cases": [
+              [
+                "000045-009",
+                "Please change 'data and interchanges innovation' to 'information and communications technology'",
+                "an explicit translation-repair instruction"
+              ],
+              [
+                "000045-017",
+                "comes from an older translation of the recorder software",
+                "a reported legacy message being diagnosed for a language update"
+              ],
+              [
+                "000045-040",
+                "a mistaken rendering of peer review",
+                "translator's notes comparing a mistranslation with its intended meaning"
+              ],
+              [
+                "000045-095",
+                "is an incorrect translation of the privacy setting",
+                "a screenshot label being referred to the language team for correction"
+              ],
+              [
+                "000045-115",
+                "from a mistranslated banking leaflet",
+                "a museum-style display comparing the wording with standing-order instructions"
+              ],
+              [
+                "000045-134",
+                "correct 'Achilles ankle' to 'Achilles tendon'",
+                "an explicit template correction"
+              ],
+              [
+                "000045-160",
+                "turned the meeting minutes into 'miniature units'",
+                "a faulty translated heading being restored"
+              ],
+              [
+                "000045-189",
+                "The translated quotation calls the bulk discount",
+                "a translated quotation being interpreted against the original supplier's explanation"
+              ],
+              [
+                "000051-101",
+                "Please replace 'data and interchanges innovation' with 'information and communications technology'",
+                "an explicit course-heading correction; the decorative adverb is a separate check"
+              ]
+            ]
+          },
+          {
+            "id": "indirect_documentation_boundary",
+            "count": 1,
+            "fixed_expected": false,
+            "observed": "Mixed 000051-127 receives 0.70 despite distinguishing the booklet's wording from the actual class subject.",
+            "cause": "The passage documents a source's label without quotation marks or an explicit correction command. The shared accepted decision preserves wording documented or examined as wording. Reading the source report as the writer's adopted technical label would reverse that boundary.",
+            "revision_application": "Apply the documentation exemption by communicative role, including indirect reports. Preserve a source label when the passage distinguishes it from the subject it describes.",
+            "cases": [
+              [
+                "000051-127",
+                "The course booklet calls the subject data and interchanges innovation, and the actual classes cover information and communications technology",
+                "indirect documentation of booklet wording contrasted with the actual course subject; retain the fixed no-hit"
+              ]
+            ]
+          },
+          {
+            "id": "other_family_defect_treated_as_corruption",
+            "count": 1,
+            "fixed_expected": false,
+            "observed": "Mixed 000051-194 receives 0.70 for tortured phrasing. The complete input uses belonging engineering and ornamental vocabulary but supplies no identifiable conventional expression that the words garble.",
+            "cause": "The visible candidate imports engineering prestige for a clear social exercise. Its defect fits borrowed jargon. The tortured-phrasing judgment lacks the required specific fixed-expression correction.",
+            "revision_application": "Require a recoverable conventional expression and lexical corruption for this check, after examining the candidate's function. An independently bad technical metaphor contributes a tortured-phrasing hit only when it also satisfies that requirement through a separable defect.",
+            "cases": [
+              [
+                "000051-194",
+                "a belonging engineering exercise",
+                "decorative imported register around sharing a place and asking questions; preserve the tortured-phrasing no-hit"
+              ]
+            ]
+          },
+          {
+            "id": "positive_labels_with_material_boundary_uncertainty",
+            "count": 2,
+            "fixed_expected": true,
+            "observed": "Two saved misses have material label questions under the accepted definition. Both remain misses in every count above.",
+            "cause": "The definition requires an identifiable corrupted conventional form while preserving functional descriptions and uncertain intended corrections. These two complete inputs leave those requirements contestable.",
+            "revision_application": "Preserve both frozen records and scores. Obtain separate label adjudication before using either case to justify broader detection.",
+            "cases": [
+              [
+                "000045-104",
+                "lightless mode",
+                "dark mode is the likely comparison, but a newly introduced low-light appearance label can function as a compositional feature name"
+              ],
+              [
+                "000051-210",
+                "the man-made reasoning transcript produced from the recording",
+                "artificial intelligence is plausible, but the full input supplies only transcription and no model or automated operation to resolve that reading"
+              ]
+            ]
+          }
+        ],
+        "labelDisputes": [
+          {
+            "id": "000045-104",
+            "fixed_expected": true,
+            "saved_score": 0.35,
+            "position": "Challenge the positive label; retain it pending adjudication.",
+            "support_for_label": "The release introduces a charcoal-background, pale-text appearance option, making dark mode a recognizable intended conventional term. Lightless could be a lexical substitution for dark.",
+            "counterevidence": "The paragraph introduces an appearance feature by name and explains its function. It supplies no mistranslation, fixed-form invocation or other evidence separating an invented feature label from an ordinary functional description. The taxonomy expressly preserves functional paraphrases and deliberate concepts.",
+            "needed_decision": "Decide whether this full input establishes corruption of the conventional name, rather than a descriptive appearance label. Record that boundary in any future adjudication.",
+            "action_taken": "Preserved source, label and scored miss. The prompt recommendation preserves the general functional-description boundary."
+          },
+          {
+            "id": "000051-210",
+            "fixed_expected": true,
+            "saved_score": 0.27,
+            "position": "Challenge the positive label's recovery certainty; retain it pending adjudication.",
+            "support_for_label": "Man-made reasoning resembles a word-substituted artificial intelligence label and modifies a transcript service, matching many explicitly automated development examples.",
+            "counterevidence": "This input alone says the transcript is produced from a recording and offers a supplier comparison. It leaves the transcription method unspecified. The other development passages cannot supply this independent target's missing context. The taxonomy preserves unfamiliar wording whose specific correction remains uncertain.",
+            "needed_decision": "Decide whether the submitted passage by itself sufficiently fixes artificial intelligence as the intended expression, including the possibility of human transcription.",
+            "action_taken": "Preserved source, label and scored miss. The prompt recommendation keeps the specific-correction requirement."
+          }
+        ],
+        "integrity": {
+          "status": "passed_offline",
+          "apis_used": [
+            "preflightDataset with developmentOnly:true",
+            "readDocument",
+            "loadDataset",
+            "createSnapshot",
+            "validateResult",
+            "score",
+            "scoreMixed"
+          ],
+          "prompt_assembly": "Read shared.md and tortured-phrasing.md through git show 913ba940:path. Assemble the JSON front matter, body and shared instructions using the runner's parsing layout. The resulting prompt hash matches both saved snapshots. Working-tree prompts also matched the frozen source at the time of validation.",
+          "prompt_sha256": "2901024b75911ea1d8578cbf03ef80ebdbd3164811263decd648ae8f7e06f7f0",
+          "settings": {
+            "model": "jev-1.13.0",
+            "threshold": 0.5,
+            "mode": "classification-only",
+            "batch_size": 16
+          },
+          "verified_operations": [
+            "Validate schema, text checksums, sample boundaries and literal label snippets for the six explicitly allowed development collections.",
+            "Rebuild each source snapshot, including prompt, text, label and target-assignment hashes, and compare it with the saved native snapshot.",
+            "Rebuild and validate every saved batch request: 13 isolated and 13 mixed batches, covering 200 complete targets each. Validate request hashes, model, answer keys, probability ranges and token-usage fields.",
+            "Validate both inferenceSha256 values over saved batches and original summaries.",
+            "Recompute both named-check summaries and require exact equality with the saved summaries. Recompute the saved mixed summary and require exact equality."
+          ],
+          "datasets": [
+            {
+              "collection": "000041",
+              "split": "development",
+              "passages": 200,
+              "named_check_labels": 0
+            },
+            {
+              "collection": "000043",
+              "split": "development",
+              "passages": 200,
+              "named_check_labels": 0
+            },
+            {
+              "collection": "000045",
+              "split": "development",
+              "passages": 200,
+              "named_check_labels": 200
+            },
+            {
+              "collection": "000047",
+              "split": "development",
+              "passages": 200,
+              "named_check_labels": 0
+            },
+            {
+              "collection": "000049",
+              "split": "development",
+              "passages": 200,
+              "named_check_labels": 0
+            },
+            {
+              "collection": "000051",
+              "split": "development",
+              "passages": 200,
+              "named_check_labels": 200
+            }
+          ],
+          "coverage_consequence": "Only 000045 and 000051 have explicit labels for this check. The other four development collections supply zero assessed tortured-phrasing judgments and contribute zero controls to these scores.",
+          "results": [
+            {
+              "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-b0-isolated-development.json",
+              "text_sha256": "0a58754a0c5f08b16fb6f3718bad42f4afa3752377ac782eab9c819221fe31a4",
+              "labels_sha256": "e0e8dde3f9e927f955c73fe1ef63f4a2e9159edad9bf147c63c1f8efb1b96768",
+              "targets_sha256": "7a03f713f45c4e2ee719bddc454d53f6b9c02cbf658c68ee5e7e98f4bd0ba43e",
+              "inference_sha256": "4dd96088692b441fa56e4a931a0fc0632ed0f3715212fb72579956ef1c5dc908"
+            },
+            {
+              "file": "runners/results/stock-wording-and-jargon-v17-tortured-phrasing-b0-mixed-development.json",
+              "text_sha256": "87646857110ee1c6e664c44d2c947877548ac9ee97f759ce9c96cda1027c38bf",
+              "labels_sha256": "068415be81d752e06ba2e150d3f06362355b1812ebb744f515d087844c2fe8f6",
+              "targets_sha256": "d656b5f32f3ae879167c62fafb7b7cfeb63e3cfb9871b20ebcffc8fd29f15a25",
+              "inference_sha256": "7ef5920a7e834b92319a7363e07a19ed56b7b64c998d70ba9207df65597de5dd"
+            }
+          ],
+          "mixed_metric_scope": "The saved mixed output evaluates this one check on mixed writing: exact match is 138/200 and all expected positives found is 41/100. These are named-check results, rather than five-check joint results.",
+          "highlighting": "Classification-only outputs provide passage judgments. Highlighting quality has no measurement in these outputs."
+        }
+      },
+      "r1": {
+        "sha256": "38c1c5fcd29ae351c1023d49ae3ae8602123d540fa7a61d8328ffee4c772c934",
+        "counts": {
+          "isolated": {
+            "b0": {
+              "judgments": 200,
+              "positives": 100,
+              "negatives": 100,
+              "caught": 72,
+              "missed": 28,
+              "correctlyUnflagged": 92,
+              "falsePositives": 8,
+              "recall": 0.72,
+              "falsePositiveRate": 0.08,
+              "precision": 0.9,
+              "correct": 164
+            },
+            "r1": {
+              "judgments": 200,
+              "positives": 100,
+              "negatives": 100,
+              "caught": 71,
+              "missed": 29,
+              "correctlyUnflagged": 99,
+              "falsePositives": 1,
+              "recall": 0.71,
+              "falsePositiveRate": 0.01,
+              "precision": 0.9861111111111112,
+              "correct": 170
+            }
+          },
+          "mixed": {
+            "b0": {
+              "judgments": 200,
+              "positives": 100,
+              "negatives": 100,
+              "caught": 41,
+              "missed": 59,
+              "correctlyUnflagged": 97,
+              "falsePositives": 3,
+              "recall": 0.41,
+              "falsePositiveRate": 0.03,
+              "precision": 0.9318181818181818,
+              "correct": 138
+            },
+            "r1": {
+              "judgments": 200,
+              "positives": 100,
+              "negatives": 100,
+              "caught": 70,
+              "missed": 30,
+              "correctlyUnflagged": 96,
+              "falsePositives": 4,
+              "recall": 0.7,
+              "falsePositiveRate": 0.04,
+              "precision": 0.9459459459459459,
+              "correct": 166
+            }
+          },
+          "combined": {
+            "description": "Combined totals supplement, rather than replace, isolated and mixed results.",
+            "judgments": 400,
+            "b0": {
+              "caught": 113,
+              "missed": 87,
+              "correctlyUnflagged": 189,
+              "falsePositives": 11
+            },
+            "r1": {
+              "caught": 141,
+              "missed": 59,
+              "correctlyUnflagged": 195,
+              "falsePositives": 5
+            }
+          }
+        },
+        "groups": {
+          "technical-term": {
+            "count": 20,
+            "ids": [
+              "000045-001",
+              "000045-002",
+              "000045-012",
+              "000045-019",
+              "000045-028",
+              "000045-069",
+              "000045-088",
+              "000045-094",
+              "000045-096",
+              "000045-099",
+              "000045-104",
+              "000045-117",
+              "000045-119",
+              "000045-120",
+              "000045-127",
+              "000045-162",
+              "000045-167",
+              "000045-178",
+              "000045-185",
+              "000045-192"
+            ],
+            "counts": {
+              "newlyCaught": 5,
+              "lostHits": 4,
+              "correctedFalsePositives": 0,
+              "newFalsePositives": 0
+            },
+            "remainingMisses": [
+              "000045-001",
+              "000045-002",
+              "000045-028",
+              "000045-069",
+              "000045-088",
+              "000045-094",
+              "000045-096",
+              "000045-099",
+              "000045-117",
+              "000045-119",
+              "000045-120",
+              "000045-127",
+              "000045-167",
+              "000045-185",
+              "000045-192"
+            ],
+            "remainingFalsePositives": []
+          },
+          "business-legal-term": {
+            "count": 12,
+            "ids": [
+              "000045-006",
+              "000045-029",
+              "000045-033",
+              "000045-053",
+              "000045-055",
+              "000045-079",
+              "000045-080",
+              "000045-118",
+              "000045-122",
+              "000045-124",
+              "000045-145",
+              "000045-184"
+            ],
+            "counts": {
+              "newlyCaught": 2,
+              "lostHits": 4,
+              "correctedFalsePositives": 0,
+              "newFalsePositives": 0
+            },
+            "remainingMisses": [
+              "000045-006",
+              "000045-029",
+              "000045-033",
+              "000045-053",
+              "000045-055",
+              "000045-079",
+              "000045-080",
+              "000045-118",
+              "000045-124",
+              "000045-184"
+            ],
+            "remainingFalsePositives": []
+          },
+          "documented-wording": {
+            "count": 9,
+            "ids": [
+              "000045-009",
+              "000045-017",
+              "000045-040",
+              "000045-095",
+              "000045-115",
+              "000045-134",
+              "000045-160",
+              "000045-189",
+              "000051-101"
+            ],
+            "counts": {
+              "newlyCaught": 0,
+              "lostHits": 0,
+              "correctedFalsePositives": 9,
+              "newFalsePositives": 0
+            },
+            "remainingMisses": [],
+            "remainingFalsePositives": []
+          },
+          "deliberate-concept": {
+            "count": 1,
+            "ids": [
+              "000045-011"
+            ],
+            "counts": {
+              "newlyCaught": 0,
+              "lostHits": 0,
+              "correctedFalsePositives": 0,
+              "newFalsePositives": 1
+            },
+            "remainingMisses": [],
+            "remainingFalsePositives": [
+              "000045-011"
+            ]
+          },
+          "everyday-fixed-expression": {
+            "count": 5,
+            "ids": [
+              "000045-047",
+              "000045-048",
+              "000045-123",
+              "000045-131",
+              "000045-147"
+            ],
+            "counts": {
+              "newlyCaught": 2,
+              "lostHits": 1,
+              "correctedFalsePositives": 0,
+              "newFalsePositives": 0
+            },
+            "remainingMisses": [
+              "000045-048",
+              "000045-131",
+              "000045-147"
+            ],
+            "remainingFalsePositives": []
+          },
+          "functional-description-boundary": {
+            "count": 1,
+            "ids": [
+              "000045-100"
+            ],
+            "counts": {
+              "newlyCaught": 0,
+              "lostHits": 1,
+              "correctedFalsePositives": 0,
+              "newFalsePositives": 0
+            },
+            "remainingMisses": [
+              "000045-100"
+            ],
+            "remainingFalsePositives": []
+          },
+          "context-resolved-technical-alias": {
+            "count": 61,
+            "ids": [
+              "000051-004",
+              "000051-005",
+              "000051-011",
+              "000051-013",
+              "000051-014",
+              "000051-020",
+              "000051-024",
+              "000051-025",
+              "000051-032",
+              "000051-036",
+              "000051-037",
+              "000051-040",
+              "000051-049",
+              "000051-058",
+              "000051-059",
+              "000051-060",
+              "000051-061",
+              "000051-062",
+              "000051-066",
+              "000051-067",
+              "000051-084",
+              "000051-088",
+              "000051-090",
+              "000051-095",
+              "000051-105",
+              "000051-120",
+              "000051-124",
+              "000051-125",
+              "000051-131",
+              "000051-137",
+              "000051-142",
+              "000051-143",
+              "000051-144",
+              "000051-145",
+              "000051-147",
+              "000051-150",
+              "000051-151",
+              "000051-152",
+              "000051-160",
+              "000051-163",
+              "000051-166",
+              "000051-168",
+              "000051-169",
+              "000051-170",
+              "000051-172",
+              "000051-173",
+              "000051-174",
+              "000051-175",
+              "000051-180",
+              "000051-188",
+              "000051-189",
+              "000051-191",
+              "000051-192",
+              "000051-195",
+              "000051-198",
+              "000051-199",
+              "000051-207",
+              "000051-208",
+              "000051-209",
+              "000051-210",
+              "000051-231"
+            ],
+            "counts": {
+              "newlyCaught": 31,
+              "lostHits": 2,
+              "correctedFalsePositives": 0,
+              "newFalsePositives": 0
+            },
+            "remainingMisses": [
+              "000051-004",
+              "000051-024",
+              "000051-036",
+              "000051-049",
+              "000051-059",
+              "000051-060",
+              "000051-090",
+              "000051-105",
+              "000051-120",
+              "000051-124",
+              "000051-143",
+              "000051-144",
+              "000051-145",
+              "000051-150",
+              "000051-151",
+              "000051-160",
+              "000051-166",
+              "000051-168",
+              "000051-169",
+              "000051-172",
+              "000051-173",
+              "000051-175",
+              "000051-189",
+              "000051-191",
+              "000051-195",
+              "000051-198",
+              "000051-207",
+              "000051-208",
+              "000051-210",
+              "000051-231"
+            ],
+            "remainingFalsePositives": []
+          },
+          "neighbor-check-leakage": {
+            "count": 3,
+            "ids": [
+              "000051-109",
+              "000051-146",
+              "000051-194"
+            ],
+            "counts": {
+              "newlyCaught": 0,
+              "lostHits": 0,
+              "correctedFalsePositives": 0,
+              "newFalsePositives": 2
+            },
+            "remainingMisses": [],
+            "remainingFalsePositives": [
+              "000051-109",
+              "000051-146",
+              "000051-194"
+            ]
+          },
+          "reported-source-label": {
+            "count": 1,
+            "ids": [
+              "000051-127"
+            ],
+            "counts": {
+              "newlyCaught": 0,
+              "lostHits": 0,
+              "correctedFalsePositives": 0,
+              "newFalsePositives": 0
+            },
+            "remainingMisses": [],
+            "remainingFalsePositives": [
+              "000051-127"
+            ]
+          }
+        },
+        "labelDisputes": [
+          {
+            "id": "000045-100",
+            "fixedExpected": true,
+            "reviewerPreferredExpected": false,
+            "status": "Recorded only; label and reported scores retained.",
+            "offendingLabelSnippet": "recycling receptacle",
+            "intendedTerm": "Recycle Bin",
+            "evidence": "The text instructs the reader to open a desktop container for deleted files and choose Restore. Recycling receptacle describes that function compositionally, without explicitly claiming to reproduce a fixed UI name.",
+            "taxonomyBasis": "Preserve ordinary functional paraphrases and literal descriptions; a recognizable intended concept alone establishes neither corruption nor validity.",
+            "consequence": "This remains one of the ten isolated lost hits and 29 isolated misses in fixed-label scoring. Separate adjudication must resolve whether the passage attempts the fixed name."
+          }
+        ],
+        "reviewCoverage": 113,
+        "integrity": {
+          "mode": "offline; original runner imports only",
+          "checks": [
+            "Only the two explicitly named development dataset pairs were loaded; both metadata splits equal development.",
+            "Both 200-passage collections contain 100 fixed positive and 100 fixed negative tortured-phrasing labels.",
+            "Original dataset reader validates schema, text checksums, passage boundaries and exact snippets.",
+            "Original runner reconstructs all four snapshots, including text, labels, targets and frozen assembled prompt hashes.",
+            "Original runner validates all 52 request hashes, response answer keys, score ranges, model identity and sealed inference hashes.",
+            "Original runner rescoring exactly reproduces all four saved summaries.",
+            "All 400 target IDs, passage hashes, fixed judgments and B0/R1 scores are retained in the prediction ledger.",
+            "Every R1 error and every thresholded delta has its complete input and an explicit review judgment.",
+            "Shared prompt bytes match at both frozen commits.",
+            "No provider client was initialized; runner validation was entirely offline."
+          ],
+          "nativeBatchesValidated": 52,
+          "nativePredictionsValidated": 800
+        }
+      }
+    },
+    "hidden-significance-adverb": {
+      "b0": {
+        "sha256": "1ebce2d1558b1754af072e94ae4fa36e1c28f541b3d650badf4465bf6c0e19fd"
+      }
+    },
+    "stock-vocabulary": {
+      "b0": {
+        "sha256": "cd3efa0e372d308199f99e7784b74b24dd4e1515985a4a761109c2cb0a2469fb",
+        "counts": {
+          "isolated": {
+            "positives": 100,
+            "caught": 97,
+            "missed": 3,
+            "cleanControls": 100,
+            "falseAlarms": 46,
+            "correctlyUnflagged": 54,
+            "caughtPercent": 97,
+            "falsePositivePercent": 46,
+            "errorCount": 49
+          },
+          "mixed": {
+            "positives": 100,
+            "caught": 100,
+            "missed": 0,
+            "cleanControls": 100,
+            "falseAlarms": 11,
+            "correctlyUnflagged": 89,
+            "caughtPercent": 100,
+            "falsePositivePercent": 11,
+            "errorCount": 11
+          },
+          "combined": {
+            "distinctPassages": 400,
+            "namedCheckJudgments": 400,
+            "positives": 200,
+            "caught": 197,
+            "missed": 3,
+            "cleanControls": 200,
+            "falseAlarms": 57,
+            "correctlyUnflagged": 143,
+            "reviewedErrors": 60
+          },
+          "stopRule": {
+            "criterion": "Both sets must catch at least 95/100 positives with at most five false alarms each.",
+            "isolatedPass": false,
+            "mixedPass": false,
+            "retainB0UnderStopRule": false
+          },
+          "scoringPolicy": "Every label and control remains in the fixed baseline score, including all disputed labels. No adjusted performance is reported."
+        },
+        "groups": [
+          {
+            "id": "missed-residual-ornament",
+            "count": 3,
+            "affectedIDs": [
+              "000049-205",
+              "000049-209",
+              "000049-241"
+            ],
+            "finding": "Three eligible choices remain beside concrete operational details in each missed paragraph.",
+            "causeHypothesis": "Concrete details may be protecting adjacent generic modifiers, or ordinary-looking ornamental choices may be omitted from the count.",
+            "example": {
+              "id": "000049-241",
+              "exactSnippets": [
+                "enriches dropping off clothes",
+                "layered approach",
+                "collection ticket is nuanced"
+              ]
+            },
+            "revisionMechanism": "Inventory every locally ornamental base-word/sense choice; preserve facts only where they establish a candidate's meaning."
+          },
+          {
+            "id": "meaningful-choices-overcounted",
+            "count": 4,
+            "affectedIDs": [
+              "000049-210",
+              "000049-236",
+              "000049-257",
+              "000051-007"
+            ],
+            "finding": "Useful properties are counted as if familiar vocabulary were itself sufficient evidence of ornament.",
+            "causeHypothesis": "The three-choice decision may rely on vocabulary recognition before checking each local contribution.",
+            "example": {
+              "id": "000049-257",
+              "exactSnippets": [
+                "considering housing, benefits, and health together",
+                "every accepted form of identification",
+                "some benefits depend on income and others depend on disability"
+              ]
+            },
+            "revisionMechanism": "Remove choices whose operation, property, distinction, or qualification the complete input establishes before counting."
+          },
+          {
+            "id": "paragraph-scope-overcounted",
+            "count": 5,
+            "affectedIDs": [
+              "000049-235",
+              "000049-260",
+              "000049-d-afb1a8cc546f",
+              "000049-d-e38e64170d30",
+              "000051-038"
+            ],
+            "finding": "The submitted passage has enough vocabulary across its paragraphs, while each paragraph stays below three eligible choices.",
+            "causeHypothesis": "Counting at target-passage scope can override the rule's prose-paragraph threshold; the mixed case also requires preserving a meaningful adjective beside an excluded adverb.",
+            "example": {
+              "id": "000049-d-afb1a8cc546f",
+              "exactSnippets": [
+                "holistic tone",
+                "enrich the subscription experience",
+                "more curated experience"
+              ]
+            },
+            "revisionMechanism": "Keep a separate residual inventory for every prose paragraph."
+          },
+          {
+            "id": "examined-wording-counted-as-adopted",
+            "count": 5,
+            "affectedIDs": [
+              "000049-d-331a426c2d11",
+              "000049-d-5e3a7e2cea25",
+              "000049-d-737cab1de785",
+              "000049-d-c081f34266e0",
+              "000049-p-5c5f7dd3bda9"
+            ],
+            "finding": "All five passages document, test, or criticize the wording rather than adopt it as their own promotion.",
+            "causeHypothesis": "The classifier may recognize a quoted cluster before applying its discourse-function exemption.",
+            "example": {
+              "id": "000049-p-5c5f7dd3bda9",
+              "exactSnippets": [
+                "'holistic', 'multifaceted', and 'nuanced'",
+                "trying to match those words to its controls"
+              ]
+            },
+            "revisionMechanism": "Mark wording under examination as excluded before constructing the paragraph inventory."
+          },
+          {
+            "id": "excluded-expressions-or-framing-counted",
+            "count": 14,
+            "affectedIDs": [
+              "000049-d-76827b632a2e",
+              "000049-d-77a0f95050d1",
+              "000049-d-85a0d001fc9c",
+              "000049-d-d542299c3cac",
+              "000049-p-4b474b4bd0fc",
+              "000049-p-a00e4f14a12a",
+              "000051-018",
+              "000051-053",
+              "000051-078",
+              "000051-095",
+              "000051-097",
+              "000051-109",
+              "000051-142",
+              "000051-208"
+            ],
+            "finding": "Independent neighboring vocabulary stays below threshold after complete defective expressions, framing, meaningful terms, and hidden-emphasis adverbs receive their own treatment.",
+            "causeHypothesis": "Words inside another check's expression may leak into the stock-vocabulary count, or an overall impression of sloppiness may replace the three-choice requirement.",
+            "example": {
+              "id": "000051-095",
+              "exactSnippets": [
+                "goes the extra mile",
+                "cognitive reboot",
+                "man-made reasoning",
+                "quietly pivotal"
+              ]
+            },
+            "revisionMechanism": "Exclude the smallest complete expression owned by another check, then independently test surviving neighbors. A mixed passage needs three residual choices for this check."
+          },
+          {
+            "id": "material-no-hit-label-disputes",
+            "count": 29,
+            "affectedIDs": [
+              "000049-221",
+              "000049-227",
+              "000049-240",
+              "000049-248",
+              "000049-250",
+              "000049-251",
+              "000049-d-266e1725e730",
+              "000049-d-38d18f585b1b",
+              "000049-d-3fa11d03da1e",
+              "000049-d-40ebcb0b5723",
+              "000049-d-507f87c614ee",
+              "000049-d-5bfc80890c00",
+              "000049-d-6077025b4a98",
+              "000049-d-728014ce4947",
+              "000049-d-7c254af24768",
+              "000049-d-7e128a478aa9",
+              "000049-d-ba97e947072e",
+              "000049-d-bdb718c4e3e3",
+              "000049-d-cc20316d85b7",
+              "000049-d-d33c97551173",
+              "000049-d-d3c2707c43c2",
+              "000049-d-de0a13d41f6f",
+              "000049-d-e4585b6eec8a",
+              "000049-d-e79f67645e15",
+              "000049-d-e8070582fa70",
+              "000049-p-4ead448bd22a",
+              "000049-p-973694c00fe6",
+              "000049-p-a9c4e2aeb72f",
+              "000051-043"
+            ],
+            "finding": "These fixed no-hit labels warrant explicit adjudication because three candidate choices survive in one paragraph. Cases differ in how strongly the context can support a meaningful third choice.",
+            "causeHypothesis": "Several controls appear to protect generic elevated descriptions merely because the paragraph also supplies useful facts, contrary to the accepted local-meaning rule and b0's own hit examples.",
+            "example": {
+              "id": "000049-p-973694c00fe6",
+              "exactSnippets": [
+                "more considered approach",
+                "enriches the invoice experience",
+                "more holistic feel"
+              ]
+            },
+            "revisionMechanism": "Apply the same inventory test to hits and controls. Preserve the fixed labels and scores while recording their definition conflicts; avoid inventing exemptions to force no-hit predictions."
+          }
+        ],
+        "labelDisputes": {
+          "total": 29,
+          "highConfidenceCount": 24,
+          "conditionalCount": 5,
+          "highConfidenceIDs": [
+            "000049-221",
+            "000049-227",
+            "000049-240",
+            "000049-d-38d18f585b1b",
+            "000049-d-3fa11d03da1e",
+            "000049-d-40ebcb0b5723",
+            "000049-d-507f87c614ee",
+            "000049-d-5bfc80890c00",
+            "000049-d-6077025b4a98",
+            "000049-d-728014ce4947",
+            "000049-d-7c254af24768",
+            "000049-d-7e128a478aa9",
+            "000049-d-ba97e947072e",
+            "000049-d-bdb718c4e3e3",
+            "000049-d-cc20316d85b7",
+            "000049-d-d33c97551173",
+            "000049-d-d3c2707c43c2",
+            "000049-d-de0a13d41f6f",
+            "000049-d-e4585b6eec8a",
+            "000049-d-e79f67645e15",
+            "000049-d-e8070582fa70",
+            "000049-p-4ead448bd22a",
+            "000049-p-973694c00fe6",
+            "000049-p-a9c4e2aeb72f"
+          ],
+          "conditionalIDs": [
+            "000049-248",
+            "000049-250",
+            "000049-251",
+            "000049-d-266e1725e730",
+            "000051-043"
+          ],
+          "basis": "High-confidence challenges identify three locally generic, nonoverlapping base-word choices comparable to accepted or b0 hit constructions. Conditional challenges identify a plausible relevant sense that could protect the third choice. Each errorReview states the exact words and the meaning question. These are review judgments requiring label adjudication, with all original labels and control membership preserved.",
+          "strongestPairedEvidence": [
+            {
+              "control": "000049-p-973694c00fe6",
+              "controlChoices": [
+                "considered",
+                "enriches",
+                "holistic"
+              ],
+              "comparison": "Frozen b0's bookkeeping hit counts intentional/comprehensive/enrich beside a concrete invoice-total display and download operation. This control similarly describes a copy button while adding three generic experience choices."
+            },
+            {
+              "control": "000049-p-a9c4e2aeb72f",
+              "controlChoices": [
+                "intentional",
+                "holistic",
+                "enriches"
+              ],
+              "comparison": "Frozen b0 explicitly treats intentional quality and enrich as ornamental beside a clear operation. This control adds holistic in the same paragraph, around an ordinary welcome email."
+            },
+            {
+              "control": "000049-227",
+              "controlChoices": [
+                "enriched",
+                "nuanced",
+                "holistic"
+              ],
+              "comparison": "Deduplicating enriched/enrich leaves three, just as b0's elevates/elevated/elevate rule counts one base-word/sense choice while retaining distinct neighbors."
+            }
+          ]
+        },
+        "integrity": {
+          "status": "passed",
+          "api": [
+            "preflightDataset",
+            "loadDataset",
+            "createSnapshot",
+            "validateResult",
+            "score",
+            "scoreMixed"
+          ],
+          "promptConstruction": "Reassembled shared instructions, the check body, and JSON question/criteria from git show 913ba940, independently of mutable working-tree v17 prompts.",
+          "checksCompleted": [
+            "Development-only preflight passed for both exact saved snapshot datasets.",
+            "createSnapshot and validateResult matched frozen prompt, dataset text, labels, target assignments, model, threshold, execution mode, and batch size against each saved snapshot.",
+            "All 26 saved detection batches matched reconstructed request SHA256 values and validated model, response keys, score ranges, usage, and elapsed time.",
+            "Both runs were complete: 13 batches and 200 complete-passage questions each.",
+            "Both inferenceSha256 checks passed, binding original batches and summaries.",
+            "score reproduced both full summaries exactly; scoreMixed reproduced the saved single-check mixed summary exactly."
+          ],
+          "results": [
+            {
+              "set": "isolated",
+              "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-isolated-development.json",
+              "fileSha256": "288bb7b40209dc0c4f1a3b5beb6fca32308e3879b3be35ae7e91134acac9cd72",
+              "textSha256": "c1995030c0468424e28257ed21e9557cf853248037884fd39b331fdf8fb78c30",
+              "labelsSha256": "3c4ac11beb8cbd9731d735b4d3838af243c12db84b8274468083ff58826b80ac",
+              "targetsSha256": "a8eb5f9c14df1b9858a7204e36cb0cd86cde6be494c059c93d330f46b44bb501",
+              "inferenceSha256": "61db3b9c7e3b8c58f5d9e5333452429795f6c0c873bf7dd1b74966bf509c2818"
+            },
+            {
+              "set": "mixed",
+              "file": "runners/results/stock-wording-and-jargon-v17-stock-vocabulary-b0-mixed-development.json",
+              "fileSha256": "696adec454f23b473fe6659fe7956c5de9ba3737d6e7a32761825768a7333859",
+              "textSha256": "87646857110ee1c6e664c44d2c947877548ac9ee97f759ce9c96cda1027c38bf",
+              "labelsSha256": "068415be81d752e06ba2e150d3f06362355b1812ebb744f515d087844c2fe8f6",
+              "targetsSha256": "d656b5f32f3ae879167c62fafb7b7cfeb63e3cfb9871b20ebcffc8fd29f15a25",
+              "inferenceSha256": "f498b44aeea8b91363c19da395e1a40adf7961f6ffa737b53893d108ed7b1c54"
+            }
+          ],
+          "mixedMetricScope": "The saved mixed score evaluates stock-vocabulary only: 100/100 positive passages caught and 189/200 exact named-check matches. It does not contain predictions for the other four checks.",
+          "diagnosticScope": "The native responses contain classification scores, with no explanations or highlighting. Cause groups below are textual review hypotheses, not recovered model reasoning."
+        }
+      }
+    }
+  },
   "pendingRevisions": {
+    "revision": "r2",
     "checks": [
       "cliche",
       "borrowed-jargon",
       "tortured-phrasing"
     ],
-    "revision": "r1",
     "demonstrationIDs": {
       "cliche": [
         "000041-003",
@@ -301,11 +4730,11 @@
         "000051-037"
       ],
       "tortured-phrasing": [
-        "000045-074",
-        "000045-101",
+        "000045-033",
+        "000045-048",
+        "000051-037",
         "000045-150",
         "000045-175",
-        "000051-037",
         "000045-017"
       ],
       "hidden-significance-adverb": [
@@ -324,10 +4753,5 @@
         "000049-d-1c99c4e8d2ef"
       ]
     }
-  },
-  "vocabularyAdjudication": {
-    "status": "independent blind review in progress",
-    "reason": "Several no-hit controls contain three ornaments under the existing definition; preserve original predictions while adjudicating labels independently.",
-    "scoresPreserved": true
   }
 }

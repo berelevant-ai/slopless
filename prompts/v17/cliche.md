@@ -1,10 +1,10 @@
 ---
 {
-  "instructions": "Does the writer adopt a conventional saying or stock image as generic reassurance, praise or decoration, rather than communicate a particular useful state or relationship? Apply the contextual distinction in state; merely quoting or containing a familiar expression is insufficient.",
+  "instructions": "Does the complete passage contain a complete conventional saying, stock figure or genre formula whose own defect is generic rhetoric? First assign each suspected expression to its proper check: imported technical register belongs to borrowed jargon, a corrupted term to tortured phrasing, and loose ornamental words or adverbs to their own checks. Then judge each remaining conventional expression for adoption and useful meaning. A separate defect elsewhere leaves a distinct cliche eligible.",
   "criteria":
     {
-      "true": "The writer uses a recognizable ready-made expression as an interchangeable slogan, generic compliment, stock reassurance or decorative image. The expression contributes that generic rhetoric rather than a particular useful meaning.",
-      "false": "Every familiar expression contributes a particular useful state or relationship, literal meaning, a name, documented or examined wording, or purposeful wordplay; or only other check types occur."
+      "true": "At least one remaining complete conventional expression is adopted as generic reassurance, praise or decoration rather than communicating a particular useful state or relationship.",
+      "false": "All suspect wording belongs to neighboring check definitions, or every remaining conventional expression is documented, named, purposeful wordplay, literal, or communicates a particular useful state or relationship."
     }
 }
 ---

@@ -1,21 +1,21 @@
 ---
 {
-  "instructions": "Does the writer transfer a recognizably technical process or structural model onto a clear ordinary activity merely for technical prestige? Require that decorative transfer, beyond ordinary causation, implementation or actual technical work, using the contextual distinctions in state.",
+  "instructions": "Does the writer portray a clear ordinary activity as a specialist operation on an imagined technical object or system without a useful operative correspondence? First distinguish ordinary causation or implementation from that claimed specialist action, then judge the transfer using state. Preserve real technical work and documented wording.",
   "criteria":
     {
-      "true": "A clear ordinary activity is dressed as an imported computing, scientific, engineering or managerial process or structure. The transferred label adds technical prestige without an operative correspondence, relevant operation or constraint.",
-      "false": "Every candidate is meaningful ordinary causation or implementation, actual technical work, a useful operative analogy, documented wording, or another defect such as ornamental diction or a corrupted technical name."
+      "true": "The passage dresses an ordinary activity as an imported technical action or structure. Details explain the ordinary activity but leave its claimed technical model decorative, without corresponding operations or constraints.",
+      "false": "Every candidate merely names ordinary causation or implementation, actual technical work, a useful operative correspondence, documented wording, or another check's defect."
     }
 }
 ---
 
 # Borrowed Jargon
 
-Identify the actual activity first. Then identify the donor technical process or structure invoked by the expression. Require an adopted decorative transfer between them. A general elevated adjective or an unfamiliar name alone supplies no such transfer.
+Identify the ordinary activity and ask what specialist action or structure the expression claims. If it merely means intentionally causing an outcome or putting an intention into practice, preserve that meaning. If it portrays human activity as operating on an imagined technical object or system, test that portrayal.
 
 Preserve actual technical work even when its name is garbled: a wrong name for an AI classifier, camera circuit or transcription service belongs to tortured phrasing. Real technical operations can happen outside software. Preserve ordinary established uses naming a relevant operation or constraint, including arranging something to happen or putting an idea into practice. Technical etymology and an available simpler synonym alone establish no defect.
 
-Preserve analogies that specify corresponding operations and explain their use. Merely calling worries bugs does not supply a debugging procedure. A recoverable ordinary activity with a decorative technical model is a hit; an unresolved figurative claim belongs to unexplained metaphor. Ordinary ornamental adjectives and evaluative modifiers belong to vocabulary or other checks unless they independently invoke that donor model. Judge adopted quotations normally and documented wording as documented wording.
+Preserve a claimed technical analogy when corresponding operations or constraints explain it. Practical details describing only the ordinary activity leave its technical portrayal decorative. Familiar or compact maintenance metaphors can still claim an imagined technical operation. A recoverable activity with a decorative technical model is a hit; an unresolved figurative claim belongs to unexplained metaphor. Ordinary ornamental adjectives belong to vocabulary or other checks unless they independently invoke that donor model. Judge adopted quotations normally and documented wording as documented wording.
 
 ## Development Examples
 
