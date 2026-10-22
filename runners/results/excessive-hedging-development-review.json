@@ -2325,5 +2325,52 @@
       "textSha256": "50045f27542c8f1fba6f248fbb85145138ef7493cd8344f67d03541f3eb3df83",
       "labelsSha256": "58716941e17f1138e13557207a1b3fcbb42ac9b2a5853261354c208bcfd2fd55"
     }
-  ]
+  ],
+  "finalSelectionCopyAudit": {
+    "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. New cross-split pairs plus prior datasets; unsplit references checked against both splits.",
+    "verifierSha256": "6903e3444e4e5bdf8b12138f8f300ffd8805e5f14c7e280a2c40810b3586bc87",
+    "newInputs": 800,
+    "priorDocuments": 15697,
+    "referenceInputs": 306786,
+    "pairs": 241166000,
+    "shortComparisons": 549796,
+    "candidates": 0,
+    "sources": [
+      {
+        "path": "datasets/ai-synthetic/passages/000053-excessive-hedging-hedge-stacking-development.md",
+        "sha256": "ecae35f88189b210824c126a7592f227702580644157d09450085d470a7fa386",
+        "labelsSha256": "2e388bb280838316afa60adfea24cf1e8bcf5a0d9b4c39c52d2bcee4151e1bcd"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
+        "sha256": "05011c6f6afcc3b19eb8b11c029b32eebd040095bd005eb8478fdf0e203a4fcc",
+        "labelsSha256": "9b12beb78925ea3b7df024ac961e508988aa9694409ebf660c649d340a25197f"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md",
+        "sha256": "50045f27542c8f1fba6f248fbb85145138ef7493cd8344f67d03541f3eb3df83",
+        "labelsSha256": "58716941e17f1138e13557207a1b3fcbb42ac9b2a5853261354c208bcfd2fd55"
+      },
+      {
+        "path": "datasets/ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md",
+        "sha256": "ed15331365ee2b9e2f352701b9338add565054e38a1f0eeb009701ed13ee8b67",
+        "labelsSha256": "16e679f026fc902d3ce076d246fa90c9b21cdd19a952db606a30a29621905164"
+      }
+    ],
+    "priorSourcesSha256": "b3c3542a44025397583d0f5c8916dbf26446113f6d572926becdcfb59fec48d1",
+    "reportPath": "/tmp/hedging-v18-crosssplit-final.json",
+    "reportSha256": "c151fb79627d379ec20ea190506569492dad05836055d9a15c8362deb2b8927b"
+  },
+  "independentFreezeAudit": {
+    "reviewer": "01a165e4-3d84-7ae0-b730-21a8b346ce37",
+    "reportPath": "/tmp/hedging-v18-freeze-independent-audit.json",
+    "reportSha256": "845f460ab0966b5fd860d1afd80e676e3f86fbe19ae894194a0bfbab2ca0f6b8",
+    "passedChecks": 43,
+    "failedChecks": 0,
+    "passages": 800,
+    "judgments": 1600,
+    "requiredIds": 92,
+    "surplusArchived": 160,
+    "providerCalls": 0
+  }
 }

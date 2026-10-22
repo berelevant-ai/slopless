@@ -23,6 +23,9 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Balanced mixed development retains 200 passages, all eight combinations with 25 passages each, all 22 required cases and 68 source slots.
 - Both protected collections complete three clean full reviews with no remaining judgments to resolve. Preserve their full 240-passage reviewed pools in Git before balanced selection; no holdout model inference has run.
 - The two legacy hedging checks run on the same 400 selected development passages. Against the new definition, their union catches 18/100 isolated hits with 27 false positives and 23/100 mixed hits with sixteen false positives.
+- All four balanced selections now contain 800 passages and 1,600 judgments, retaining 92 required cases and all 68 source slots per collection. Forty surplus passages per collection remain in the reviewed Git archives.
+- A fresh independent freeze audit passes all 43 checks. Final copy screening finds zero candidates across 241,166,000 eligible comparisons; source and label hashes match the reviewed archives.
+- Baseline `prompts/v18/hedge-stacking.md` contains 761 assembled words and six complete development demonstrations. Shared instructions match `v17` byte-for-byte; offline native validation covers all four planned baseline invocations without provider calls.
 
 ## Existing Behavior And Check Definition
 

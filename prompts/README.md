@@ -27,4 +27,7 @@
 - Its selected revisions are cliche R2, borrowed jargon R1, tortured phrasing R1, hidden-significance adverb baseline, and vocabulary R1. Their assembled prompts contain 748, 734, 737, 612 and 887 words respectively.
 - Each selected check uses three hit and three no-hit development demonstrations. The [development report](../runners/results/stock-wording-and-jargon-v17-development.md) records every trial, corrected labels, mixed results and confirmation. Only the adverb check meets both quality limits; holdout inference remains separately gated.
 
+- `v18/` begins excessive-hedging development with one `hedge-stacking` check and unchanged `v17/shared.md`. Its baseline contains 761 assembled words and six complete development demonstrations: three hits and three no-hits.
+- The check judges repeated tentative qualification in context, including cross-sentence repetitions. Frozen vague-attribution and inflated-evaluation prompts remain in `v11` and `v10` for mixed comparisons; protected holdout inference remains separately gated.
+
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.
