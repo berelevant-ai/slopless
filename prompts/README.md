@@ -19,4 +19,6 @@
 
 - `v12/` selects staged opposition with explicit yes/no criteria at 96/100 development hits and two false positives. The shared instructions, check, question, and criteria total 899 words with ten development demonstrations. The [development report](../runners/results/staged-contrasts-v12-development-tuning.md) preserves all trials; the [holdout assessment](../runners/results/staged-contrasts-v12-holdout.md) records 89/100 hits with ten false positives, below the transfer target.
 
+- `v16/` contains the wordiness, redundancy, and repeated-explanation checks with shared instructions. Complete development demonstrations highlight offending wording; assembled prompts contain 718, 628, and 984 words respectively. Development evaluation follows the frozen balanced datasets; holdout inference requires separate authorization under the [family plan](../.plans/2026-10-22-094913-wordiness-and-redundancy-development.md).
+
 Run commands are in [runners/README.md](../runners/README.md). Version `v1` preserves the wording from commit `2ebcba5`.

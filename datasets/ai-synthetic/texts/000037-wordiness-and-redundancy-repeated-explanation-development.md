@@ -1238,20 +1238,6 @@ The printed set was originally prepared for proofreading. During the private tou
 
 Before the next overnight reset, the technician will record the active package name and restart one screen while the curator is present. The duty team will keep the corrected printed labels at the gallery entrance until that check passes. The exhibition text itself needs no revision; the remaining work is the fallback set and the revised sign-off record.
 
-## 000037-181
-
-# Arranging two screens for the workshop
-
-Choose mirror mode when everyone needs to see the same slide as the presenter. Mirror mode displays the same content on both screens. Connect the room display before opening the presentation so the computer can detect it during setup.
-
-In mirror mode, check the slide edges from the back row. A display using a different shape may put black bars around the slide; that is preferable to cutting off labels at the sides. Open a slide containing the smallest text and confirm that the audience can read it without moving closer. Increase the slide's text size if necessary rather than relying on the computer's own screen for that check.
-
-Extended mode gives the two displays separate work areas. It allows a presenter to keep private notes on the laptop while showing slides in the room. Test the application's presenter view and confirm which screen receives the notes. Drag a harmless test window across the screens to establish their arrangement before showing any participant information.
-
-For this workshop, the instructor will demonstrate a spreadsheet and wants participants to follow the same pointer movements. Use mirror mode for that demonstration. If the later guest speaker needs private notes, switch to extended mode during the break and test the slide-and-notes placement before participants return. The choice follows the two different presentation tasks.
-
-At closing, return the computer to its usual display setting before disconnecting the cable. This avoids leaving new windows on a screen that is no longer attached. Collect the adapter with the lead and check the lectern drawer against its equipment list before returning the room key.
-
 ## 000037-193
 
 # Choosing the exhibition tables
@@ -1324,18 +1310,6 @@ For a project deleted by mistake, open Workspace settings, choose Bin, select th
 ## Before emptying the bin
 
 The bin may contain projects other people still expect to recover. Read the selected names and deletion dates before confirming permanent removal, especially when using Select all. The confirmation is the last stage at which you can cancel. Routine updates leave the bin contents and their original thirty-day deadlines unchanged.
-
-## 000037-109
-
-The storage figure printed on a phone describes its total built-in capacity. Part of that space is used by the operating system and its supporting files. The amount available for photographs, apps, and downloads is therefore smaller than the number on the box.
-
-The settings screen separates used space into categories. Photographs may include local originals, edited copies, and cached previews. A cloud library can keep smaller local copies while storing originals remotely, but the behaviour depends on the library settings. Check those settings before deleting anything you want to retain.
-
-Deleting an app and clearing its downloads are different operations in some apps. A music app may let you remove offline albums while keeping the app and your playlists. That can free space without making you sign in again. Open the app's own storage controls to see whether it offers that option.
-
-Now consider an update that asks for six gigabytes free even though the update download is only two gigabytes. The phone needs working space to unpack and install the new files. The operating system's existing share of total capacity and the temporary space needed for an update describe different uses of storage. Removing just the size of the download may leave the installation unable to proceed.
-
-Before travelling, check available space after downloading your maps and entertainment. If the update is due during the trip, leave room for its installation as well. A phone that has enough space for today's photographs can still lack space for both an offline map package and an update. Use the category list to choose what can be restored later, and verify that any cloud-backed files are accessible from another signed-in device before removing their local copies.
 
 ## 000037-149
 
@@ -1701,18 +1675,6 @@ The attachment password is the account reference printed at the top of your subs
 
 Thanks,
 Owen
-
-## 000037-154
-
-A stock is measured at a point in time; a flow is measured over an interval. The number of books held by a library on 31 December is a stock. The number acquired during the year is a flow. Both can be expressed in books, which makes their different time references easy to overlook.
-
-Suppose the library begins January with 12,000 books, acquires 900, and withdraws 400. Its closing stock is 12,500 if those are the only changes. The acquisition flow describes incoming books; the net change in stock also takes withdrawals into account. A statement that the collection grew by 900 would confuse the incoming flow with that net change.
-
-Now consider loans. A book can be borrowed several times while remaining part of the collection. Annual loans may exceed the number of books held without creating an accounting inconsistency. The loan count measures transactions, while the collection count measures items. Counting renewals as additional loans would change the transaction measure again, so the report needs a consistent renewal rule.
-
-The same distinction affects staffing. The number of employees on the final payroll date is a stock. The number hired during the year is a flow. A year with many hires can still end with fewer employees if departures are greater. To compare workload, neither figure substitutes directly for hours worked.
-
-When checking a report, attach a date or an interval to each count, then identify what enters and leaves the measured population. For collections, reconcile opening books, acquisitions, withdrawals, and closing books. For borrowing activity, inspect the transaction definition instead. This separates two different checks that the shared word 'books' can otherwise conceal.
 
 ## 000037-107
 
@@ -2314,22 +2276,6 @@ The smaller model has enough capacity for the annex.
 
 The kitchen manager has already approved the smaller model on the capacity test. Purchasing now needs the asset code and delivery date to complete the order. I have requested the code from finance and asked the supplier to hold Tuesday's slot until tomorrow afternoon. The temporary hire ends on Wednesday, so that slot avoids another week's hire charge.
 
-## 000037-176
-
-# Sharing the committee budget
-
-Keep the working budget in the committee folder and send members a link to that file. Editing the shared copy keeps proposed changes in one place. Use the file's comments for questions that need a decision rather than putting unapproved amounts directly into the totals.
-
-Before the meeting, check that each member can open the link with the account they use for committee work. Give editing access only to people responsible for maintaining the figures. Others can read or comment. If someone cannot open the file, confirm the address on the access list before changing the sharing setting.
-
-During the meeting, enter approved changes and record the motion number beside each affected line. Keep rejected proposals in the minutes instead of leaving them as unexplained alternative figures in the budget. If a decision is postponed, mark the amount as pending and name the person obtaining the missing information.
-
-Check formulas when a new spending line is inserted. A total may refer to a fixed range that excludes the new row, even though the row appears immediately above it. Compare the formula's selected cells with the intended category and check any grand total that depends on the category total. Enter a temporary test value if necessary, then remove it before the approved copy is produced. Record a formula correction beside the affected line so the treasurer can distinguish it from a newly approved expenditure.
-
-After approval, export a dated PDF and attach it to the signed minutes. The PDF preserves the figures approved at that meeting even while the working budget continues to change. A link alone would lead future readers to the current file, which may include later approvals. Here a separate copy serves the historical record rather than competing with live edits.
-
-At the next meeting, start from the shared working file and reconcile any changes since the last approved PDF against the minutes. Members reviewing an old decision should use the dated attachment; members preparing a new proposal should use the working link. Label both with their dates so that these two tasks lead to the appropriate version without relying on memory.
-
 ## 000037-159
 
 # Inspecting the fitted line
@@ -2671,26 +2617,6 @@ I will be in the packing room from half past seven on Monday. Call me there if a
 Thanks,
 Eve
 
-## 000037-164
-
-# Room allocation in the residence study
-
-Assigning rooms by lottery prevents the administrator from choosing rooms according to each student's preferences. That removes the administrator's selection from the comparison. The study will compare satisfaction among students offered rooms in two buildings.
-
-## Recruitment
-
-Students join the study before seeing which building they will be offered. The invitation lists the rent and facilities in both buildings so consent does not depend on a hidden price difference. Students requiring a particular accessible room enter a separate allocation process and remain outside this comparison. The number following that process will be reported with the recruitment figures.
-
-## Outcome collection
-
-The questionnaire goes out six weeks after move-in. It asks about noise, shared kitchens, maintenance, and overall satisfaction. Students who leave during the first six weeks receive the same invitation, using the contact address supplied at recruitment. Recording departures matters because a survey sent only to remaining residents would omit some potentially dissatisfied students. The lottery removes the administrator's selection from the comparison.
-
-## Records
-
-The allocation list is stored separately from the questionnaire responses, with a study code connecting them. Staff handling repairs can see room numbers but will receive no individual survey answers. The allocation by chance keeps the administrator's choices out of the room comparison. The analysis file will also record whether the student accepted the original offer, transferred later, or never moved in.
-
-Before the residence term begins, the research team must test the questionnaire link and verify the contact list. A dated copy of the allocation procedure will be deposited with the study materials, allowing the final report to describe any departure from the planned lottery.
-
 ## 000037-054
 
 # Ledger desk 3.3
@@ -2706,32 +2632,6 @@ For finance staff reversing an incorrect allocation, open the customer's history
 For supervisors checking the correction, search the same history by the credit-note number. The original allocation and its reversal appear as linked entries, followed by any new allocation. Compare their amounts and posting dates before signing off the account. A reviewer can download those entries without receiving permission to change them.
 
 The release also fixes a rounding display on multi-currency statements. Hosted customers receive it tonight, while local administrators can install it after completing their current posting batch. Installation will wait if a batch is still open.
-
-## 000037-106
-
-A wool jumper can look smaller after washing because the fibres have moved and caught against one another. In a strongly felted garment, separating those fibres again is difficult. A jumper that is merely stretched out of shape presents a different problem, so inspect the texture as well as the measurements.
-
-Lay it on a towel and compare it with an unworn garment of similar size. If the fabric feels denser, the stitches are less distinct, and the sleeves have shortened along with the body, felting is a plausible explanation. Check the care label before trying any treatment. A favourite garment may be worth showing to a cleaner who handles knitwear.
-
-If the stitches remain clear and the main change is a long body with narrow sleeves, the wet garment may have dried under its own weight. In that case, gentle reshaping according to the care instructions addresses the distorted shape rather than trying to undo felting. Photograph its dimensions before attempting the reshaping so you can assess the result.
-
-The prevention advice follows from the difference. Reducing rubbing and unsuitable washing conditions helps with felting risk. Supporting the jumper flat while it dries helps with stretching. A garment can suffer both changes, so protecting it during washing does not remove the need to support it afterwards.
-
-When deciding whether to attempt a repair, consider where the change matters. Slightly shortened sleeves may make the jumper useful under a jacket; a stiff body may make it uncomfortable regardless of sleeve length. That turns the diagnosis into a choice about wearing or altering the garment. Keep its label and a note of the wash programme if you ask a cleaner to assess it, since the washing history can help explain what the texture alone leaves uncertain.
-
-## 000037-101
-
-# A dehumidifier that stops before the tank is full
-
-A dehumidifier can stop because it has reached its selected humidity, even when there is room left in the tank. The tank float supplies a separate stop signal when the water reaches its limit. Check which indicator is lit before treating the pause as a fault.
-
-If the humidity indicator shows that the target has been reached, try looking at the reading again after the room has been occupied or laundry has been hung up. Those activities add moisture. The machine may restart as the reading rises, according to the control interval described in its manual. A pause followed by a restart under changed conditions helps explain why continuous water collection is not expected.
-
-A full-tank light with an almost empty tank points you toward a different check. Switch the unit off before removing the tank, then look for the seating and float instructions for that model. A tank pushed in at an angle can leave the switch in the same position as a full tank. Emptying it again would not correct its position.
-
-The two signals can coincide. If the room has reached the target and the tank is full, emptying and replacing the tank may leave the machine paused because the humidity control still has no reason to run. That result can look like a failed reset when both controls are doing their jobs.
-
-When you contact the retailer, provide the model, the selected humidity, the displayed reading, and the indicator that remains lit. Say whether the machine restarts in a more humid room. A photograph of the control panel is more useful than a photograph of the empty tank alone, because it shows which stop condition you are investigating.
 
 ## 000037-145
 
@@ -2855,20 +2755,6 @@ Returns are on Sunday between four and five. Put the return slip with the equipm
 
 If you cannot meet the return time, call the number printed on the slip before Sunday afternoon. The store must agree another handover while a volunteer is present.
 
-## 000037-184
-
-# Testing the new room-booking form
-
-Make a test booking using the demonstration room before inviting members to use the form. Open the confirmation message and check that its date, time, and room match the details you entered. Use a test contact address controlled by the committee rather than a real member's address.
-
-Next, try the conditions that should block a booking. Submit an end time earlier than the start time, omit the contact address, and request a slot already occupied in the demonstration calendar. Record what the form displays and whether it preserves the other details so the person can correct the problem.
-
-Test cancellation from the confirmation message. Check that the cancelled slot becomes available and that the calendar retains whatever cancellation record the committee has agreed to keep. If the message link requires signing in, test it with the type of account an ordinary member will use, rather than only with the administrator's account.
-
-After changing any form setting, create a fresh test booking and open its confirmation. This second check verifies the revised configuration, including any altered wording or calendar connection; the first booking established how the original setup behaved. Keep the two test references in the issue record so the maintainer can compare them.
-
-Before release, review the results by task: making a valid booking, correcting invalid details, cancelling, and confirming the changed setup. Resolve the failed tasks and remove demonstration appointments from the public calendar. Send the committee the release date and the support contact that members should use if a confirmation fails to arrive. Keep the test record with the form's administration notes.
-
 ## 000037-165
 
 A zero rainfall reading records an observed amount of none during the measurement interval. A blank reading records an absence of a usable measurement. The distinction matters because the same empty-looking entry can otherwise be interpreted in two incompatible ways.
@@ -2975,20 +2861,6 @@ The quotes include delivery to the kitchen. Elm costs 120 pounds less, while Den
 An eight-tray freezer covers the six session trays and the two prepared beforehand. Elm is sufficient for the planned teaching stock. The caretaker has checked that the old unit can leave through the rear door without removing its hinges. Its disposal charge is listed separately from the new freezer price.
 
 For the purchase record, the required load is eight trays and Elm accommodates it. Elm is sufficient for the planned teaching stock. Approval is requested for Elm and removal of the old freezer. Once the supplier answers the service-booking question, I will attach that answer to the order and reserve a delivery morning when the kitchen is not being used for a class.
-
-## 000037-179
-
-# Lending the exhibition cases
-
-Check the borrower's name against the approved loan sheet before releasing a case. Record the case number and inspect the hinges together. This opening check links a named person to the condition of the particular case leaving the store.
-
-Fit the removable shelf supports into their labelled bag and place that bag inside the case. Wrap the glass panels using the store's packing materials and keep their padded covers on during transport. Two trained staff should handle the packed case according to the store's moving procedure. If the approved vehicle or handling equipment is unavailable, contact the loans coordinator before beginning the move.
-
-Give the borrower the assembly sheet and point out the maximum display load specified for that case. Ask where the empty packing will be kept, since the same materials will be needed for the return journey. Photograph the packed case and add the image to the loan record.
-
-At the venue, check the receiving person's name against the delivery contact before handing over the case and shelf-support bag. The person collecting from the store may be a courier; the person accepting at the venue takes responsibility for installation. Record the receiving name and time, and have that person confirm the number of packages.
-
-For return, arrange a collection slot with the store rather than leaving the case at reception. Staff need space to inspect the glass, count the supports, and compare the condition with the outgoing photographs. Enter any damage on the same loan record before closing it. Once the inspection is complete, return the empty covers and support bag to their marked shelf positions.
 
 ## 000037-019
 
@@ -3359,22 +3231,6 @@ Coast is cheaper for the quoted three panels. Once the junction post and install
 During the trial morning, staff moved one Tern board to make room for a wheelchair turning circle. The revised position remained visible from the car park. A fixed panel at that point would have been difficult to reposition after installation. On wet days the board faces can be wiped, while the weighted bases need checking for standing water before being stored.
 
 Choose Tern's three movable boards for the closure period. Their revised total is lower, and the trial showed that the entrance layout needs adjustment as visitors arrive. Put them at the car-park junction, east-path turn, and door; bring them into the marked storage bay each evening.
-
-## 000037-201
-
-# Keeping a garden notebook
-
-Record the sowing date beside each crop when you start a garden notebook. The date lets you compare how long different batches take to emerge and helps you decide when to begin the same crop next year. Use the date you actually sowed the seed rather than the date printed on the packet.
-
-Give each bed a short name or number and draw a rough plan inside the cover. The drawing does not need a scale, but it should show which end faces the path. That will help you connect a later note about shade or drainage with the place where you observed it.
-
-Leave room beside each crop for observations made during the season. Record what you saw, such as seedlings appearing along one edge, rather than writing only that a bed was successful. A photograph can help if the notebook entry identifies the bed and the direction from which the picture was taken.
-
-## Why the sowing date belongs in the record
-
-The sowing date provides a starting point for judging emergence. When you can see when each batch went into the soil, you can compare the time it took to appear and use that experience to choose a sowing date next season. Put the actual planting date against the crop, since the packet date cannot tell you when that batch was sown.
-
-Keep the notebook somewhere you will use it. A pencil attached with string can be easier to find than one left in the shed. At the end of the season, tuck loose seed labels into an envelope fixed inside the back cover so they stay with the observations they belong to.
 
 ## 000037-202
 

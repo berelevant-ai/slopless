@@ -120,6 +120,18 @@ Six source reviewers clear all 3,259 overlap candidates before selection. The se
 
 The existing `buried-answer-development-review.json` and `buried-answer-holdout-review.json` records distinguish completed Opus opinions, authorized fresh Codex reviews, repairs, and the independently verified selection. Their historical review statistics describe the archived 240-text pools; selection fields describe the active 200-text sets.
 
+## Wordiness And Redundancy Sets
+
+Six collections contain 1,200 independently reviewed inputs. Each check has exactly 100 hits and 100 no-hits in development and in a separately authored protected holdout, with ten of each per writing setting.
+
+- Wordiness: [development](ai-synthetic/passages/000033-wordiness-and-redundancy-wordiness-development.md) and [holdout](ai-synthetic/passages/000034-wordiness-and-redundancy-wordiness-holdout.md).
+- Redundancy: [development](ai-synthetic/passages/000035-wordiness-and-redundancy-redundancy-development.md) and [holdout](ai-synthetic/passages/000036-wordiness-and-redundancy-redundancy-holdout.md).
+- Repeated explanation, using complete texts: [development](ai-synthetic/texts/000037-wordiness-and-redundancy-repeated-explanation-development.md) and [holdout](ai-synthetic/texts/000038-wordiness-and-redundancy-repeated-explanation-holdout.md).
+
+The [reviewed pools at `1f29be1f`](https://github.com/berelevant-ai/slopless/tree/1f29be1f/datasets/ai-synthetic) retain all 1,333 inputs and their labels, including 133 surplus inputs. Selection preserves mandatory cases before balancing; compact review records under `runners/results/` record corrections, retention, source hashes, and the archive link.
+
+Keep protected holdout writing outside prompt development. Mixed development and holdout texts are undergoing separate label review under the [family plan](../.plans/2026-10-22-094913-wordiness-and-redundancy-development.md).
+
 ## Commands
 
 ```sh

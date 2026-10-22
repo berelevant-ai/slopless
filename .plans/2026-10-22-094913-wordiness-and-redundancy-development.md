@@ -129,6 +129,7 @@ Use family `wordiness-and-redundancy`. Independent Codex definition review resol
 ### Current Progress
 
 - Execution progress: definitions are frozen at `eb8390ac`. All six isolated pools pass final independent review, with 1,333 inputs. Balanced selections retain 1,200 inputs and preserve 133 reviewed surplus inputs for a linked Git archive.
+- The reviewed pools are archived at `1f29be1f`. The same six dataset paths now contain the selected 100 hits and 100 no-hits each; their review records link the full pools and verify mandatory-case retention.
 - Mixed-runner support is implemented and independently reviewed: 46 contract checks pass, including the 42 unchanged historical checks. Historical development comparisons and cache validation preserve single-check behavior; provider-backed mixed evaluation still awaits finalized datasets.
 - Each selected check/split has exactly 100 hits and 100 no-hits, including ten of each in all ten settings. Selection preserves mandatory hard cases; the development sets retain all thirty pilot IDs, with later label corrections recorded.
 - Full wordiness and redundancy passage reviews reject forced constructions and identify meaningful formal language, conversions, and procedural repetition. Repair writing and correct judgments before balancing; reviewers' initial agreement does not establish plausibility.

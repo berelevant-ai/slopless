@@ -92,6 +92,22 @@ The location scanning also affects the insurance process. Northway's insurer acc
 
 I recommend Northway, with the conservator's packing instructions attached to the contract. Its price is £1,200 above Grant's, but the additional catalog day and reduced manual checking bring the adjusted difference to about £400. We should agree how damaged seals will be photographed and reported before the first crate leaves. That procedure needs to be in the moving team's briefing, not left to the receiving staff on the day.
 
+## 000038-201
+
+Choosing a lift-inspection contract
+
+The housing association received inspection proposals from Rowan Engineering and Mere Technical. Both cover the same six lifts and the same inspection schedule. Rowan charges separately for a return visit after a failed inspection; Mere includes one such visit per lift. A comparison using only the scheduled-visit price leaves out a cost that would arise when defects need checking again.
+
+Last year, two lifts needed return visits. One had a door defect that could be corrected immediately, while the other required a part that arrived the following week. Those records give us a useful scenario for comparing the bids, although the number of failures will vary. The attached calculation shows totals with no return visits and with two, rather than treating last year's experience as a forecast.
+
+Availability also matters. Rowan can offer the existing morning appointments, which the caretakers have built into their rounds. Mere proposes afternoon slots and asks for the caretaker to remain available until the inspection is complete. At the smallest building, that would require cover for the caretaker's school collection. The association has included that cover in the staffing estimate rather than assuming it can be absorbed.
+
+We asked to see completed reports with identifying details removed. Rowan uses a short defect list with photographs. Mere groups observations by component and provides a separate page for items requiring a return inspection. The second page would help the repairs team request a visit, although it would need to be linked to our job number. Since Rowan bills for checking a repaired defect again and Mere includes that check, the scheduled inspection fees alone omit part of the cost of a failed inspection. Both firms will accept our job reference on their reports, and neither charges for sending a corrected report when an equipment identifier is wrong.
+
+The repairs team preferred Rowan's photographs, particularly for faults inside a cabinet that a caretaker cannot inspect. Mere has agreed to attach images where they explain a defect, but its proposal does not specify whether the photographs remain available after the contract ends. We have asked both suppliers to confirm the export format and retention period before the documents are signed.
+
+I recommend Mere if it accepts the morning slots at the two buildings where afternoon cover would be expensive. Under that arrangement its total remains within the approved budget in both return-visit scenarios. If the slots cannot change, we should use Rowan and retain a separate allowance for follow-up inspections. The procurement officer will obtain the scheduling answer this week and record the selected scenario beside the purchase order.
+
 ## 000038-075
 
 The reception call queue was unavailable for eighteen minutes on Monday. Callers heard a busy tone, while outgoing calls and internal extensions continued to work. The telephony contractor restored the incoming route at 10:26 by reapplying the reception queue configuration.
@@ -152,20 +168,6 @@ Administrative practices add another complication. A clerk may expand initials i
 When records are linked at scale, the non-unique nature of names creates a further consequence. A common surname can generate many possible matches, so an algorithm that always chooses the closest-looking name may create false connections. Leaving a record unlinked can preserve the distinction between an uncertain match and an established identity. A dataset should make those unresolved cases visible rather than quietly treating them as absent people.
 
 Researchers can document a sample of accepted and rejected links, including difficult common-name cases, to test the linking rule. The report should identify which attributes were used, how conflicts were handled, and whether a human checked ambiguous results. That information allows later users to assess the kinds of family or migration patterns the linked records can support.
-
-## 000038-052
-
-We tested surface cleaners from Northchem and Plainwell for the sports hall. Both removed the floor marks in the agreed test area, but Northchem dried faster. Plainwell costs less per diluted litre and has a milder odor. The caretakers preferred Plainwell for regular use after evening sessions.
-
-The concentrated products require gloves and eye protection during dilution. We used the suppliers' dosing bottles and checked the final concentration with their test strips. Northchem's bottle was easier to read in low light; Plainwell has offered a larger printed scale for the store cupboard. The diluted solutions can be applied with the existing mop system.
-
-Slip resistance is the remaining question. The first tests used a dry hall with no foot traffic. Before appointing a supplier, we need to compare the floor after a normal wet-weather entrance period. The hall manager has reserved Tuesday morning for that trial, and both suppliers will send fresh sample concentrate.
-
-For Tuesday's trial, the caretaker mixing the fresh concentrate must again use gloves and eye protection. Visitors should enter through the side corridor until the caretaker has inspected the floor, confirmed that it is dry, and reopened the test area. Each test area will be marked on the plan so the surveyor can measure the same points before and after cleaning.
-
-Northchem offers staff training on site, while Plainwell supplies a video and telephone support. The current caretakers know the equipment, but new casual staff would benefit from an observed mixing session. I have asked Plainwell to price that session separately.
-
-We can decide after the wet-weather trial. The comparison sheet includes annual quantities based on last year's usage, with dosing equipment and training shown separately from the chemical price.
 
 ## 000038-071
 
@@ -505,6 +507,44 @@ The repaired lift passed its inspection in November. The room returned to use on
 
 By January, three regular activities had moved upstairs. The downstairs timetable acquired longer gaps between bookings, allowing staff to set up tables without asking the previous group to leave early. The centre kept the inventory and introduced a rule that stored boxes must name an owner and a review date.
 
+## 000038-208
+
+The cabinet labelled spare
+
+The village cinema had a cabinet marked spare beside the projection room. For years, volunteers put unused cables, lamps, and small fittings inside it. When the cinema bought a new projector, the installer asked which items still belonged to equipment in service. Nobody could answer from the cabinet's label, and the oldest volunteer suggested emptying it before the new system arrived.
+
+Three volunteers worked through the shelves on a quiet afternoon. They compared connector shapes with the current equipment and attached temporary notes to anything they recognized. A cable that fitted a socket was not automatically put back: the installer had asked them to retain the maker's specification where it was available. Unidentified items went onto a separate table instead of being tested at random.
+
+At the back of the cabinet, they found a small metal plate with two holes and a handwritten date. One volunteer thought it was a projector part. Another remembered a ticket hatch that had once occupied the wall beside the entrance. Neither could explain the holes with confidence. They photographed the plate and left it on the table while continuing the equipment inventory.
+
+The cinema's anniversary committee was preparing a display that week. A member looking for old programmes noticed the plate and brought in a photograph of the original ticket hatch. The photograph showed a similar plate fixed below the counter, where staff had attached a temporary drawer during busy screenings. The holes and outline matched, although the volunteers still wanted someone who remembered the arrangement to inspect it.
+
+"It was in the spare cabinet," one volunteer said when the committee asked to borrow it. The committee member replied, "Spare for what?" The label had previously meant that an object might be needed to keep a machine working. For the plate, the question was now whether it could help document how tickets had been sold before the foyer was rebuilt. That was a reason to keep it even if it would never fit the new projector.
+
+A retired usher visited the following Saturday. She recognized the plate and described fitting the drawer for a film that drew unusually large queues. The committee recorded her account with her permission and kept it beside the photograph, distinguishing what the image showed from what she remembered. They did not try to restore the plate to its original brightness; the writing and wear were part of what they wanted visitors to see.
+
+The cabinet was eventually divided. Labelled working spares remained beside the projection room with an equipment list. Objects selected for the cinema's history went into a separate cupboard, each with a record of where it had been found and why it was retained. Unidentified parts stayed in a review box until the installer could examine them.
+
+At the anniversary screening, the plate appeared beside the photograph of the ticket hatch and a short extract from the usher's account. The old word spare was included in the display caption. Visitors could see how the same object had moved from a possible replacement part to evidence of a past arrangement, without the volunteers having to pretend that they had recognized it when they first opened the cabinet.
+
+## 000038-206
+
+Counting the use of a public computer room
+
+A library's computer system records a session whenever somebody signs in. One person can create several sessions during a day, perhaps by returning after lunch or changing machines. The session total therefore measures occasions of access. A survey asking how many residents use the room would need a way to distinguish people while protecting their privacy.
+
+Session duration supplies another view. A room with many short visits may handle brief printing and email tasks. A smaller number of long visits may occupy the same total machine time. The library can report both the number of sessions and the hours used without treating either as a complete description of demand. Closing times should be recorded because they limit the hours available.
+
+Failed attempts deserve attention. When every machine is occupied, somebody may leave without signing in and produce no session record. Staff can count requests they cannot accommodate during sampled periods. Those observations will still miss people who look through the door and leave without asking. The report should describe the observation procedure so the resulting number can be interpreted as a count of recorded requests.
+
+Suppose the library is deciding whether to add machines or extend opening hours. It needs to locate the occupied periods, not just compare monthly totals. Several machines standing empty in the morning will not help visitors who can come only after work. A chart by hour can show when capacity is used, while staff notes may identify classes or scheduled support sessions that explain a regular peak.
+
+Now consider the budget for introductory classes. Using sign-ins as the denominator would give frequent users more weight: a confident user visiting twenty times could outweigh several residents making their first attempt. The class budget instead needs an estimate of people seeking support and the kind of help they require. The same sign-in record that is useful for allocating machine hours can therefore be unsuitable for allocating places in a beginners' class.
+
+Collecting that additional information should be proportionate. Staff could ask visitors during a defined sample week whether they want help with a task and record the task category without retaining a name. The library should also include outreach sessions if the question concerns residents who have not yet entered the computer room. A method limited to existing users would leave that part of the question unanswered.
+
+Machine scheduling can use occupancy and waiting observations; class planning can use requests for assistance and outreach responses. Session totals remain useful for describing the service's activity over time, provided changes to sign-in rules and opening hours are recorded. Keeping those measures separate lets the library expand access where equipment is scarce and offer teaching where skills are the constraint, instead of using a single rising number to justify either decision.
+
 ## 000038-082
 
 Subject: Thursday recording session
@@ -728,6 +768,22 @@ Because the numbering began again at the start of every year, the date's year wa
 The team photographed each page before continuing data entry. A second person checked the amounts against those images, paying particular attention to overwritten figures and carry-forward totals. The red cancellation marks meant that amounts could remain visible for abandoned orders, and treating every written amount as completed business would overstate sales. A separate status field was added to hold that distinction.
 
 The conversion finished in August. Staff kept a small list of unresolved entries and arranged for the original book to be boxed rather than displayed open in the office. New enquiries could now be answered from the spreadsheet, with a link to the corresponding page image when the handwriting or status needed checking.
+
+## 000038-203
+
+Making a searchable collection of garden photographs
+
+Give each photograph a filename that begins with the date it was taken. A date-first name keeps the files in time order when the folder is sorted by name, so you can follow changes in a bed without opening every image. Keep the camera's original files in a separate folder while you prepare the working copies.
+
+Draw a simple plan of the garden and assign a short name to each bed. Use those names consistently in the rest of the filename. A view covering two beds can carry the name of the wider area instead of forcing it into one bed's sequence. Put a copy of the plan in the photograph folder so someone else can understand the names later.
+
+Choose a few standing positions that you can return to during the year. A photograph taken from the same corner makes growth and gaps easier to compare than a collection of attractive views from unrelated angles. Include the path edge or another fixed feature, and record when a photograph was taken from a different position because access was blocked.
+
+Add plant identifications in a separate list linked to the filenames. Begin each name with the capture date so a name-sorted folder follows the seasons without requiring every picture to be opened, and leave an uncertain plant name out of the filename itself. In the list, describe what you can see and mark a proposed identification as provisional. A later correction can then be made in one place without breaking links that you have already sent to someone else.
+
+At the end of a season, select views that show both successful planting and places that remained empty. Keep the less flattering photographs if they explain a decision about shade, spacing, or access. Include a brief record of major changes such as removing a shrub or moving a path, since those events may explain a difference that looks like ordinary plant growth.
+
+Copy the folder and its identification list to your backup location. Open a few files from that copy before clearing space on the device used to take the photographs. For next year, return to the marked positions and add to the same sequence rather than starting an unrelated set of names.
 
 ## 000038-020
 
@@ -1251,20 +1307,6 @@ I have kept one seat available for her until Friday. If the acceptance still fai
 Thanks,
 Jules
 
-## 000038-072
-
-The community pool closed early on Sunday after its filtration pump stopped at 15:10. The duty engineer confirmed that the motor protection had tripped and could not be safely reset. Swimmers left the water, and reception issued credits for the interrupted session.
-
-Circulation stopped with the main pump, and staff isolated the automatic dosing system. The standby unit was awaiting a new seal and could not take over. Staff cleared the changing rooms and completed the closing checks while the engineer assessed the fault. Water readings were retained with the closure record.
-
-The motor showed signs of bearing wear. A replacement bearing is available locally, but the contractor advised removing the motor for bench inspection because the shaft may also be damaged. The motor was collected at 17:00, and the contractor expects to report by Tuesday morning. The outstanding seal order was included in the documents sent to the contractor.
-
-On Monday, facilities considered using a temporary pump that could arrive in the afternoon. With the standby still unavailable, the hired pump would be the only working circulation unit. When the repaired main pump returned, the contractor would have to stop that unit to disconnect the temporary pipework and reconnect the permanent installation. Facilities therefore added a second closure and recommissioning visit to the hire comparison, rather than pricing only delivery and installation.
-
-The pool will remain closed while the contractor compares a repaired motor with the temporary pump option. Reception has contacted Monday's group organizers and moved the school session to the partner pool. Staff will continue daily water checks during closure.
-
-The maintenance manager will review why the standby unit remained unavailable through two service visits. The review will use the work orders and parts correspondence to agree a firm repair date and an escalation point for future delays.
-
 ## 000038-097
 
 Subject: Tuesday audit visit
@@ -1432,6 +1474,20 @@ After washing, inspect the outside while it is still clean. If water spreads acr
 The main point about cleaning remains that grime and skin oils can reduce how well the jacket works. Keeping it unwashed to protect it can leave those contaminants in place and make wearing it in rain less comfortable.
 
 Dry it according to its own label. Some finishes respond to controlled warmth, while some garments have components that restrict tumble drying. If you apply a proofing product, choose one intended for the fabric and follow its dosing instructions. Let the jacket dry fully before storing it, with enough space that the sleeves are not compressed into a damp bundle at the bottom of a bag.
+
+## 000038-052
+
+We tested surface cleaners from Northchem and Plainwell for the sports hall. Both removed the floor marks in the agreed test area, but Northchem dried faster. Plainwell costs less per diluted litre and has a milder odor. The caretakers preferred Plainwell for regular use after evening sessions.
+
+The concentrated products require gloves and eye protection during dilution. We used the suppliers' dosing bottles and checked the final concentration with their test strips. Northchem's bottle was easier to read in low light; Plainwell has offered a larger printed scale for the store cupboard. The diluted solutions can be applied with the existing mop system.
+
+Slip resistance is the remaining question. The first tests used a dry hall with no foot traffic. Before appointing a supplier, we need to compare the floor after a normal wet-weather entrance period. The hall manager has reserved Tuesday morning for that trial, and both suppliers will send fresh sample concentrate.
+
+For Tuesday's trial, the caretaker mixing the fresh concentrate must again use gloves and eye protection. Visitors should enter through the side corridor until the caretaker has inspected the floor, confirmed that it is dry, and reopened the test area. Each test area will be marked on the plan so the surveyor can measure the same points before and after cleaning.
+
+Northchem offers staff training on site, while Plainwell supplies a video and telephone support. The current caretakers know the equipment, but new casual staff would benefit from an observed mixing session. I have asked Plainwell to price that session separately.
+
+We can decide after the wet-weather trial. The comparison sheet includes annual quantities based on last year's usage, with dosing equipment and training shown separately from the chemical price.
 
 ## 000038-007
 
@@ -1850,6 +1906,24 @@ We also added crop previews for square and portrait collection layouts. Editors 
 
 The release fixes a problem where a caption pasted from a word processor could contain an invisible tab at the beginning. New pastes are cleaned automatically. To repair an existing caption, open it and save once; the image's publication date and credit record will stay unchanged.
 
+## 000038-205
+
+What survives in a theatre's booking ledger
+
+A theatre's booking ledger can appear to describe its whole audience. Each row has a date, a performance, and a number of seats. Yet the surviving book records advance reservations only. Tickets sold at the door went into a separate cash book that has been lost. Totalling the ledger therefore counts reserved seats rather than everyone who attended.
+
+Before comparing performances, the researcher should establish what each column meant to the clerk. A pencilled number may be a request awaiting payment rather than a confirmed sale. Crossed-out entries may represent cancellations, moved bookings, or corrections to the number of seats. Several surviving receipt stubs can help establish how the book was used, but the relationship should be checked across different clerks and periods.
+
+The theatre changed its seating plan halfway through the season. A row marked balcony before the alteration may not refer to the same number or location of seats afterwards. Programmes and building plans can supply a chronology for those changes. The researcher can retain the original location terms while adding a separate field for the interpretation used in the analysis. That keeps a later correction from overwriting the source wording.
+
+Group bookings introduce another problem. A single named purchaser may have reserved seats for a club, a school, or several friends. Counting names would measure booking contacts rather than individual audience members. The distinction becomes important if the study asks whether attendance drew on a broad range of households. One teacher's name next to forty seats supplies little information about the pupils who occupied them.
+
+A transcription should record the seat quantity and the state of the entry separately. The reservations alone cannot yield the full attendance because door sales were kept in the missing cash book. An empty seat-quantity field should remain empty rather than be entered as zero. A note can distinguish an unreadable number from a blank left by the clerk. These two kinds of missing value may require different treatment when totals are calculated.
+
+Dates require checking too. The ledger may group bookings by the day payment was received rather than the day of the performance. A researcher who assumes that every row describes that evening could manufacture a weekly pattern around the office's opening hours. Comparing entries with advertised performance dates can reveal the convention, particularly where a production ran for several nights.
+
+The resulting dataset can support questions about the advance-booking business. It might show which productions attracted large organized parties, how far ahead reservations were made, or when cancellations clustered. A report should retain a small worked transcription alongside its totals so readers can see how a request became a counted reservation. Images of ambiguous entries can be linked where access permits, with the uncertainty carried into the dataset rather than resolved merely to make a chart complete.
+
 ## 000038-179
 
 Packing books for a short move
@@ -2019,6 +2093,20 @@ The market volunteers will check the trays each Friday and remove packets that h
 Labelling is important because a recipient needs to know the plant and the age of the seed. Adding the name and collection year allows the person who takes a packet to identify its contents and assess its freshness.
 
 For this year's opening morning, the gardening group will also bring spare plant labels and a few pots. These will be on the side bench rather than the seed table. Please take pots home clean and return any cracked ones to the recycling point instead of leaving them in the foyer. The market closes at noon, so leave bulky donations before 11 to give volunteers time to sort them.
+
+## 000038-072
+
+The community pool closed early on Sunday after its filtration pump stopped at 15:10. The duty engineer confirmed that the motor protection had tripped and could not be safely reset. Swimmers left the water, and reception issued credits for the interrupted session.
+
+Circulation stopped with the main pump, and staff isolated the automatic dosing system. The standby unit was awaiting a new seal and could not take over. Staff cleared the changing rooms and completed the closing checks while the engineer assessed the fault. Water readings were retained with the closure record.
+
+The motor showed signs of bearing wear. A replacement bearing is available locally, but the contractor advised removing the motor for bench inspection because the shaft may also be damaged. The motor was collected at 17:00, and the contractor expects to report by Tuesday morning. The outstanding seal order was included in the documents sent to the contractor.
+
+On Monday, facilities considered using a temporary pump that could arrive in the afternoon. With the standby still unavailable, the hired pump would be the only working circulation unit. When the repaired main pump returned, the contractor would have to stop that unit to disconnect the temporary pipework and reconnect the permanent installation. Facilities therefore added a second closure and recommissioning visit to the hire comparison, rather than pricing only delivery and installation.
+
+The pool will remain closed while the contractor compares a repaired motor with the temporary pump option. Reception has contacted Monday's group organizers and moved the school session to the partner pool. Staff will continue daily water checks during closure.
+
+The maintenance manager will review why the standby unit remained unavailable through two service visits. The review will use the work orders and parts correspondence to agree a firm repair date and an escalation point for future delays.
 
 ## 000038-010
 
@@ -2303,6 +2391,24 @@ The original motivation problem returns when the university considers making the
 
 A useful report therefore states both the assignment procedure and the population from which participants were recruited. Those details tell a reader which decision the estimate can reasonably inform.
 
+## 000038-207
+
+The boxes under the stage
+
+When the amateur theatre group emptied the space beneath its stage, it found twenty-seven boxes of costumes. The labels named productions rather than their contents. A coat used in several plays could be filed under whichever production had last needed it, so a search by garment could miss something already in the store.
+
+The wardrobe volunteer, Ruth, opened the boxes with two members who remembered the older productions. They set out a rail for clothes that could be used and a table for items needing repair. Anything with a strong smell or visible damage went aside for separate examination. The first morning ended with only five boxes completed, but it had already produced three black coats and several waistcoats that the next production might use.
+
+One member recognized a waistcoat from a photograph in the foyer. He recalled that a former actor had made it, although he could not remember whether she had donated it or lent it. Ruth put it on a separate rail while the secretary checked the minutes. They decided that ownership questions should be resolved before garments were altered. A replacement button was easy to undo; cutting a borrowed garment to fit another actor would be a different matter.
+
+The following Saturday, the secretary brought an old list of loans. The waistcoat was there, together with a name and a telephone number that no longer worked. Another member offered to contact the family through a local club. The group kept the garment available for inspection and photographed it beside its paper label, preserving the information that might help identify it.
+
+The borrowed items slowed the inventory, but the ordinary stock presented a more immediate problem. "What do I put this under?" a volunteer asked, holding a plain apron. Ruth began a list organized by garment, with colour, approximate size, and the number on a new tag. Because the old boxes followed the last production to use an item, a garment could be hidden from a search even while it was sitting in storage, and the new list also included a photograph number. The team took the photographs against a plain curtain rather than asking anyone to model the clothes.
+
+Members disagreed about whether to keep the production labels. Some were brittle, and several referred to plays staged before the current group had formed. Ruth kept them in an envelope with the inventory sheets. The new tags would help people find clothing, while the labels could still be used with programmes to reconstruct earlier productions. A young volunteer began matching the box names to dates in the theatre's programme collection.
+
+By the end of the month, the usable costumes were hanging in garment groups. Repairs had their own list, and unresolved loans remained separate. The director of the next play used the inventory to select rehearsal clothes before requesting purchases. When the family replied about the waistcoat, they confirmed the donation and supplied the maker's name. That information went into the inventory, and the original label stayed with the other records rather than disappearing when the box was discarded.
+
 ## 000038-143
 
 Borrowing and sound change
@@ -2498,20 +2604,6 @@ The committee fitted a closer that allowed the door to shut reliably and moved d
 
 The committee's final note brought the two tests together. The timer would be checked after power interruptions, and the entrance would be inspected as part of the monthly building walk. The caretaker retained the observation sheets so later complaints could be compared with the same locations and times. Users were asked to identify where and when they felt cold, giving future reports more detail than a general statement that the heating was poor.
 
-## 000038-150
-
-Coding disagreement in interview research
-
-When two researchers assign different codes to the same interview passage, the disagreement can reveal an unclear category boundary. They should return to the passage, explain what each code captures, and revise the coding guidance if the distinction cannot be applied consistently. Simply choosing the more senior researcher's code would conceal the ambiguity instead of resolving it.
-
-A useful comparison begins with a manageable sample of transcripts. Researchers code that sample independently, then examine both agreements and disagreements. High agreement on obvious passages can coexist with a recurring problem in a small but important category. A single overall percentage may hide that concentration, so disagreements should also be grouped by code.
-
-The coding scheme may change during this stage. If a broad category is divided, earlier transcripts need to be revisited under the new guidance. Keeping a versioned codebook makes that work traceable. It also allows the report to explain which categories were established before the main analysis and which emerged through reading the interviews.
-
-Where coders diverge, the appropriate response is to discuss the original passage and clarify the category definitions rather than allow seniority to determine the answer. Some projects also distinguish descriptive codes from interpretive ones. Agreement on whether a participant mentions a waiting period may be easier to achieve than agreement on whether the passage expresses distrust. Those different tasks should be evaluated with their purposes in view.
-
-The final report can include a short account of how difficult cases were handled and how revisions affected completed work. An audit trail should retain enough information to reconstruct a decision without reproducing confidential interview material in a public appendix.
-
 ## 000038-078
 
 The second-floor meeting room was double-booked for Thursday afternoon. Two teams had confirmed bookings for the same room at the same time. The conflict arose because the room had been created twice in the booking system under different names during the office move.
@@ -2642,20 +2734,6 @@ The faded red line happened to follow one edge of the proposed route. A voluntee
 
 Three months later, new volunteers were being told to keep furniture behind the red line. The instruction sounded as if it had always belonged to the building. In fact, the old mark's original purpose was still unknown. Its new meaning came from a particular afternoon's confusion and a decision the cooperative could explain. The line survived because it had become part of a working arrangement, rather than merely a relic left on the floor.
 
-## 000038-187
-
-How the choir found its missing scores
-
-The choir's music cupboard held more copies than its catalogue suggested. Scores had been filed under the name of the concert rather than the work, so the same piece could appear in several folders without being counted together. Ordering from the catalogue alone had led the librarian to buy copies the choir already owned.
-
-The problem surfaced when a new conductor requested a piece for the winter programme. The catalogue showed eighteen copies, short of the number required. During a search for another work, a singer found a folder from a concert five years earlier containing twelve more. Pencil markings showed that both groups of scores had been used in the same rehearsal period.
-
-Two volunteers began an inventory on Saturday mornings. They laid folders on the rehearsal room tables, counted usable copies, and noted missing pages. Damaged scores went into a separate pile for assessment rather than being included in the performance total. The work uncovered several vocal arrangements whose titles differed only slightly.
-
-Because the filing followed past concert names, copies of one work had been dispersed among different folders, causing the catalogue to understate holdings and prompting unnecessary purchases. The volunteers changed the main sequence to composer and title, keeping the concert programmes in a separate archive. Each entry recorded the arrangement and publisher as well as the number of copies.
-
-The conductor tested the revised catalogue when planning the spring concert. Requests could now be checked against one entry, and folders carried matching reference numbers. The choir retained a small box for returned scores awaiting refiling. At the end of every term, a singer checked that box against the lending sheet before the cupboard was locked for the holiday.
-
 ## 000038-175
 
 Preparing a second-hand desk for collection
@@ -2695,18 +2773,6 @@ You also asked whether leaving the family group would make your daughter lose he
 I have attached a list of the ten largest videos so you can decide what to remove first. Reply with the date of any item that looks unfamiliar and I will check its upload record.
 
 Sana
-
-## 000038-048
-
-For the initial batch of volunteer jackets, Harbour Stitch is the better choice. Their minimum is forty garments, and we currently have forty-six confirmed volunteers. Pine Apparel's minimum of one hundred would leave too much stock before we know the size mix.
-
-The samples use similar waterproof fabric, but the cuts differ. Harbour's sleeves allow more room over a fleece. Pine's jacket is lighter and folds into its own pocket. The event team preferred Harbour for marshals who stand outside for several hours and Pine for the cycle-route volunteers. We should choose one model for this event so replacements are straightforward.
-
-Harbour can embroider the logo in house. Pine uses a separate embroiderer, adding five working days. Both have accepted the small lettering in our artwork after checking a stitched sample. Harbour's first delivery can arrive two weeks before training, leaving time to exchange unused sizes.
-
-For the later public sale, Pine becomes the stronger option. The projected run is three hundred, comfortably above its minimum, and the lighter jacket is easier to post. At that volume Pine is £6 cheaper per garment after embroidery. Its pocket design also reduces the size of the mailing bag. Those benefits depend on the public order being confirmed separately; they do not require us to buy extra jackets for volunteers now.
-
-I propose placing the volunteer order with Harbour and retaining Pine's sample for the shop buyer. We should record the actual volunteer size distribution after collection rather than use the current estimates for any public stock. The budget attached covers only the forty-six confirmed volunteers plus four replacement jackets in the most common sizes.
 
 ## 000038-036
 
@@ -2790,20 +2856,6 @@ Bell counts items at collection and emails the count that afternoon. Severn coun
 
 Severn's advertised daily collection should still be regarded as a weekday arrangement for our planning because weekend attendance remains conditional. I suggest asking both suppliers to price an extra set of stock so we can compare the service costs with the cost of holding a larger reserve.
 
-## 000038-148
-
-Who speaks in a museum label?
-
-The sentence 'The village welcomed the railway' gives a place a single attitude. It is convenient wording, but a village contains people with different interests. A shopkeeper expecting deliveries, a farmer losing land, and a carrier competing with trains might have evaluated the same project differently. The grammatical subject can conceal those differences.
-
-A historian revising the label has several options. Naming documented groups is one: shopkeepers petitioned for a station, while several landowners disputed the proposed route. Another is to attribute a judgment to its source, such as a newspaper editorial celebrating the opening. Both choices let readers distinguish evidence about particular speakers from a claim about everyone living nearby.
-
-That distinction does not require listing every inhabitant. Labels have limited space, and the surviving record is uneven. A short contrast between two documented positions may be enough to show that the public response was contested. Where only one voice survives, the wording can identify that voice and its institutional position.
-
-Now consider the same sentence in a commemorative speech delivered by the mayor: 'The village welcomed the railway.' Here the collective subject also performs a political action. It presents the opening as a shared achievement and invites the audience to identify with that story. The sentence is evidence about how civic unity was being constructed, even if it is weak evidence about the distribution of individual opinions.
-
-Analysis therefore depends on the question being asked of the words. As a museum's unqualified account of public reaction, the sentence needs revision. As a quotation from a ceremony, it can remain intact while the surrounding text identifies who spoke, on what occasion, and with what apparent purpose.
-
 ## 000038-139
 
 Signing up for the neighbourhood lunch
@@ -2867,25 +2919,21 @@ When the new copy arrives, attach it to the existing record instead of creating 
 Thanks,
 Wes
 
-## 000038-170
+## 000038-202
 
-Sending a reading list to the course office
+Tuesday's dispatch labels
 
-The course office accepts either a document or an exported library list. Choose the route that matches the system you already use. In both cases, the office needs enough information to identify the exact edition, because page references and available licences can differ between editions of the same title.
+Thirty-two parcels were held at the depot on Tuesday because their labels carried the previous day's collection identifier. The overnight job had reused a saved batch setting instead of obtaining the identifier for Tuesday. The carrier rejected those labels as belonging to a collection it had already closed.
 
-If your list is in a document
+The depot discovered the problem when its first cage reached the collection scanner. Packing stopped while the supervisor compared the rejected label with the carrier booking. The addresses and service levels were correct. Staff separated the affected cage from a second cage that had been labelled manually and was accepted by the carrier.
 
-Put the course code, course title, and teaching term at the top. For each item, include the author, full title, year, publisher, and edition where relevant. Mark required reading separately from optional reading. If students need only a chapter, give its title and page range instead of listing the whole book without qualification. Save the document with the course code in its filename and send it to the course office address.
+The supervisor initially asked for all thirty-two labels to be printed again. Before doing so, the operator checked whether any parcel had already passed the scanner. Three had been moved out of the cage during packing, and their position was not recorded on the packing sheet. Those parcels were found on the oversized-item rack, still bearing the rejected labels. The count was reconciled before replacement printing began.
 
-If your list is in the library system
+The carrier reopened its desk to accept a corrected file at 10:40. Because the batch job had carried yesterday's collection setting into Tuesday's labels, the scanner had treated the parcels as part of a closed collection. Staff attached the replacements over the old barcodes, keeping addresses visible, and scanned all thirty-two parcels into the new manifest. The last parcel cleared at 11:12, leaving enough time for the original afternoon vehicle.
 
-Open the course list and check that it belongs to the correct teaching term. Review the edition attached to each entry; an automatic catalogue match may have selected another edition. Mark required and optional items using the list's priority field. Export the list as a document, put the course code in the filename, and send the export to the course office address.
+Customer service had sent delay messages to eight customers whose parcels were on an early service. It sent a second message once collection was confirmed. The remaining customers received their normal tracking updates. No parcel was moved to a slower service, and the carrier supplied a scan list that the supervisor matched to the corrected manifest.
 
-After submission
-
-Keep the sent version until the office confirms that the list has been processed. If you make a change, send a short note identifying the replaced item and attach a complete updated list. This helps staff distinguish a new version from an additional reading.
-
-For material outside the catalogue, include any publication details you have and indicate whether you already hold a copy. The office can then investigate availability without delaying the items that are ready to process.
+The software owner has removed the saved collection field from the overnight template. Before the next run, the operator will compare the job's collection identifier with the carrier's open booking. A test using a closed booking must stop before labels are produced. The supervisor will retain the first successful production manifest with this incident record.
 
 ## 000038-002
 
@@ -3014,6 +3062,20 @@ We corrected the order of attachments in exports containing two files with the s
 
 Hosted workspaces will receive the update overnight. Installed editions can apply it after the current export queue has finished. Jobs already in the queue retain their original numbering settings and complete using the version on which they started.
 
+## 000038-204
+
+The village shop's refrigerated display
+
+North Refrigeration quotes less for the display cabinet itself, while Lowbank includes removal of the existing cabinet. North's delivery team will leave the new unit inside the shop but will not disconnect or remove the old one. We have obtained a separate removal quote so the totals can be compared on the same basis.
+
+Both cabinets fit through the rear door with their transport packaging removed. North requires a clear route across the stockroom, and its proposed delivery falls on our largest grocery delivery day. Moving that delivery would cost a handling fee. Lowbank can arrive before opening on Thursday and remove the old cabinet on the same visit, leaving the stockroom available for the afternoon delivery.
+
+The usable shelf space differs despite the similar outside dimensions. Lowbank's deeper motor housing reduces the bottom shelf, which is where we currently put large bottles. We tried an arrangement using the proposed shelf plan and could fit the usual milk order only by moving bottled juice to the smaller drinks cabinet. That cabinet has room in winter but is usually full during summer.
+
+North's cabinet would hold the current milk and juice arrangement without that move. Its higher adjusted installation cost therefore needs to be weighed against the summer storage problem. The shop manager has asked the milk supplier whether a smaller, more frequent delivery is available, and the supplier will answer before the equipment quotes expire.
+
+Lowbank is the economical complete installation and its Thursday slot keeps the stockroom working, provided we can reduce the amount of milk stored between deliveries. Otherwise North preserves the required shelf space, and we should include the separate removal and handling charges in its order. We will wait for the milk supplier's answer before selecting either cabinet; the old unit has passed its latest service and can remain in use during that decision. Once the choice is made, the manager will confirm the door clearance and electrical connection with the installer. No stock will be moved into the new cabinet until its operating temperature has been checked.
+
 ## 000038-119
 
 A fitted sheet that keeps slipping off
@@ -3056,24 +3118,6 @@ Each tool should have its own labelled location so that people can see what is a
 
 Finally, arrange a brief monthly inspection. Check that handles are secure, powered equipment is stored as its instructions require, and the floor remains clear. Rotate responsibility so the arrangement does not depend on one member's memory. Photograph the agreed layout and keep the image near the door, replacing it when the group changes the storage plan. At the next meeting, ask which tools still take too long to find and adjust those locations first.
 
-## 000038-067
-
-A label printer configuration error caused the wrong return address to appear on parcels packed at Depot A on Monday morning. The address belonged to a closed overflow warehouse. Forty-six parcels had left before the error was found. Delivery addresses and carrier barcodes were correct, so outward delivery could continue.
-
-The configuration had been copied from a spare printer that still used the former address. The setup check tested barcode readability but did not compare the printed return address with the approved template. The depot supervisor replaced the template and printed a sample for confirmation before packing resumed.
-
-Carrier services has recorded the affected parcel numbers. Any undelivered parcel will be diverted to the current depot rather than returned to the old warehouse. Customer service has the list and will check it when handling a delayed-delivery query. No customer action is required while parcels remain in outward transit.
-
-Instructions for Depot A
-
-Keep the corrected sample beside the packing station. At the start of each shift, print a test label and compare the return address with that sample. Record the check in the station log before releasing parcels. The supervisor will review the log daily this week.
-
-Instructions for Depot B
-
-The spare printer has now been transferred to Depot B for an unrelated repair exchange. Before using it, print a test label and compare the return address with the approved local sample. Record the check in the station log. Depot B must use its own address, not copy Depot A's corrected template.
-
-The equipment register will now record each printer's assigned depot. IT will remove stored address templates when a printer changes location and require a local sample-label approval as part of the handover.
-
 ## 000038-132
 
 Comparing two self-storage quotes
@@ -3091,38 +3135,6 @@ The billing period deserves care because a four-week charge repeats thirteen tim
 Insurance may be included or charged separately. Compare the insured amount and exclusions, especially for furniture stored for several months. Damp cardboard and tightly wrapped upholstery can create problems even in a building that looks clean.
 
 Also remember that notice must precede the next charge under some advance-billed agreements. If you wait until the day you empty the room, you may already owe the following payment. Confirm the final collection arrangements with the office, including where to leave the lock and how the deposit is returned.
-
-## 000038-192
-
-The coat marked 'doctor'
-
-The school costume cupboard contained a long grey coat with a paper label reading 'doctor.' It had been used in several plays, and nobody involved in the current production knew where it came from. The drama teacher planned to shorten the sleeves for a younger actor, then noticed a name stitched inside the lining.
-
-An enquiry in the school newsletter reached a former pupil whose grandmother had donated the coat. She explained that it had belonged to a local railway clerk and had entered the cupboard during a production needing an official-looking costume. The original donation had no connection with medicine. The label described the coat's first role on stage, not its earlier use.
-
-The teacher postponed the alterations and invited the family to see it. A photograph from the clerk's retirement showed a similar coat, though the family could not establish that it was the same one. They supplied the clerk's name and working dates, which the teacher recorded as the family's account rather than as a confirmed identification.
-
-For the production, the school borrowed another coat that could be altered without concern. The grey one remained available for careful use, with a new note explaining its known donation history and the uncertain photograph. The old 'doctor' label was placed in the note's envelope.
-
-At the end of term, students used the episode in a display about stage objects. The label returned beside the coat, now as evidence of how a school had reused it. What had once looked like an identification became a record of one performance. The students kept both stories visible: the family's account of its earlier owner and the school's documented history of turning it into a costume.
-
-## 000038-049
-
-Three firms remain in the cleaning tender for the new office. Mercer has the lowest regular price, Brightroom offers daytime staffing, and Elm includes periodic carpet cleaning. All three visited the premises and priced the same floor area.
-
-Our first constraint is access. Evening cleaners must finish before the alarm is set at ten. Mercer proposes a three-person team from seven to nine-thirty, leaving half an hour for lock-up. Elm proposes two people from six to ten, which leaves no margin if a meeting runs late. Brightroom would clean most rooms during the working day, with washrooms checked again before closing.
-
-The second constraint is responsibility for supplies. Mercer requires us to purchase paper products and soap. Brightroom includes them up to an agreed monthly allowance, then charges at cost. Elm includes cleaning chemicals but treats washroom supplies as a separate order. The facilities budget should therefore compare adjusted totals, not just the service fee.
-
-We checked references from offices of similar size. Mercer's reference praised cover during absence but reported occasional changes in team leader. Brightroom's reference kept the same supervisor for two years. Elm's reference had only six months of service history, so it gives less evidence about continuity.
-
-The shortlist can be used as follows:
-
-- Choose Mercer if the evening schedule and lowest adjusted cost remain the priorities.
-- Choose Brightroom if daytime washroom coverage is required; its supervisor continuity is also useful.
-- Retain Elm only if it can shorten the evening shift enough to leave a lock-up margin.
-
-I recommend inviting Mercer and Brightroom to clarify their staffing plans. We should ask each for named holiday-cover arrangements and a sample monthly inspection report before making the final award.
 
 ## 000038-098
 
@@ -3165,139 +3177,3 @@ At the community centre, soup will be served in the main room and water will be 
 For people joining at the footbridge rather than the school, use battery lights only. Do not bring a lit candle into the walking group, where paper lanterns and coats may brush against it. The marshal there has spare lights as well.
 
 The walk will go ahead in light rain. If wind makes the riverside route unsuitable, we will use the shorter street route and put a sign at the school gate. Children must remain with their accompanying adult throughout the event.
-
-## 000038-201
-
-Choosing a lift-inspection contract
-
-The housing association received inspection proposals from Rowan Engineering and Mere Technical. Both cover the same six lifts and the same inspection schedule. Rowan charges separately for a return visit after a failed inspection; Mere includes one such visit per lift. A comparison using only the scheduled-visit price leaves out a cost that would arise when defects need checking again.
-
-Last year, two lifts needed return visits. One had a door defect that could be corrected immediately, while the other required a part that arrived the following week. Those records give us a useful scenario for comparing the bids, although the number of failures will vary. The attached calculation shows totals with no return visits and with two, rather than treating last year's experience as a forecast.
-
-Availability also matters. Rowan can offer the existing morning appointments, which the caretakers have built into their rounds. Mere proposes afternoon slots and asks for the caretaker to remain available until the inspection is complete. At the smallest building, that would require cover for the caretaker's school collection. The association has included that cover in the staffing estimate rather than assuming it can be absorbed.
-
-We asked to see completed reports with identifying details removed. Rowan uses a short defect list with photographs. Mere groups observations by component and provides a separate page for items requiring a return inspection. The second page would help the repairs team request a visit, although it would need to be linked to our job number. Since Rowan bills for checking a repaired defect again and Mere includes that check, the scheduled inspection fees alone omit part of the cost of a failed inspection. Both firms will accept our job reference on their reports, and neither charges for sending a corrected report when an equipment identifier is wrong.
-
-The repairs team preferred Rowan's photographs, particularly for faults inside a cabinet that a caretaker cannot inspect. Mere has agreed to attach images where they explain a defect, but its proposal does not specify whether the photographs remain available after the contract ends. We have asked both suppliers to confirm the export format and retention period before the documents are signed.
-
-I recommend Mere if it accepts the morning slots at the two buildings where afternoon cover would be expensive. Under that arrangement its total remains within the approved budget in both return-visit scenarios. If the slots cannot change, we should use Rowan and retain a separate allowance for follow-up inspections. The procurement officer will obtain the scheduling answer this week and record the selected scenario beside the purchase order.
-
-## 000038-202
-
-Tuesday's dispatch labels
-
-Thirty-two parcels were held at the depot on Tuesday because their labels carried the previous day's collection identifier. The overnight job had reused a saved batch setting instead of obtaining the identifier for Tuesday. The carrier rejected those labels as belonging to a collection it had already closed.
-
-The depot discovered the problem when its first cage reached the collection scanner. Packing stopped while the supervisor compared the rejected label with the carrier booking. The addresses and service levels were correct. Staff separated the affected cage from a second cage that had been labelled manually and was accepted by the carrier.
-
-The supervisor initially asked for all thirty-two labels to be printed again. Before doing so, the operator checked whether any parcel had already passed the scanner. Three had been moved out of the cage during packing, and their position was not recorded on the packing sheet. Those parcels were found on the oversized-item rack, still bearing the rejected labels. The count was reconciled before replacement printing began.
-
-The carrier reopened its desk to accept a corrected file at 10:40. Because the batch job had carried yesterday's collection setting into Tuesday's labels, the scanner had treated the parcels as part of a closed collection. Staff attached the replacements over the old barcodes, keeping addresses visible, and scanned all thirty-two parcels into the new manifest. The last parcel cleared at 11:12, leaving enough time for the original afternoon vehicle.
-
-Customer service had sent delay messages to eight customers whose parcels were on an early service. It sent a second message once collection was confirmed. The remaining customers received their normal tracking updates. No parcel was moved to a slower service, and the carrier supplied a scan list that the supervisor matched to the corrected manifest.
-
-The software owner has removed the saved collection field from the overnight template. Before the next run, the operator will compare the job's collection identifier with the carrier's open booking. A test using a closed booking must stop before labels are produced. The supervisor will retain the first successful production manifest with this incident record.
-
-## 000038-203
-
-Making a searchable collection of garden photographs
-
-Give each photograph a filename that begins with the date it was taken. A date-first name keeps the files in time order when the folder is sorted by name, so you can follow changes in a bed without opening every image. Keep the camera's original files in a separate folder while you prepare the working copies.
-
-Draw a simple plan of the garden and assign a short name to each bed. Use those names consistently in the rest of the filename. A view covering two beds can carry the name of the wider area instead of forcing it into one bed's sequence. Put a copy of the plan in the photograph folder so someone else can understand the names later.
-
-Choose a few standing positions that you can return to during the year. A photograph taken from the same corner makes growth and gaps easier to compare than a collection of attractive views from unrelated angles. Include the path edge or another fixed feature, and record when a photograph was taken from a different position because access was blocked.
-
-Add plant identifications in a separate list linked to the filenames. Begin each name with the capture date so a name-sorted folder follows the seasons without requiring every picture to be opened, and leave an uncertain plant name out of the filename itself. In the list, describe what you can see and mark a proposed identification as provisional. A later correction can then be made in one place without breaking links that you have already sent to someone else.
-
-At the end of a season, select views that show both successful planting and places that remained empty. Keep the less flattering photographs if they explain a decision about shade, spacing, or access. Include a brief record of major changes such as removing a shrub or moving a path, since those events may explain a difference that looks like ordinary plant growth.
-
-Copy the folder and its identification list to your backup location. Open a few files from that copy before clearing space on the device used to take the photographs. For next year, return to the marked positions and add to the same sequence rather than starting an unrelated set of names.
-
-## 000038-204
-
-The village shop's refrigerated display
-
-North Refrigeration quotes less for the display cabinet itself, while Lowbank includes removal of the existing cabinet. North's delivery team will leave the new unit inside the shop but will not disconnect or remove the old one. We have obtained a separate removal quote so the totals can be compared on the same basis.
-
-Both cabinets fit through the rear door with their transport packaging removed. North requires a clear route across the stockroom, and its proposed delivery falls on our largest grocery delivery day. Moving that delivery would cost a handling fee. Lowbank can arrive before opening on Thursday and remove the old cabinet on the same visit, leaving the stockroom available for the afternoon delivery.
-
-The usable shelf space differs despite the similar outside dimensions. Lowbank's deeper motor housing reduces the bottom shelf, which is where we currently put large bottles. We tried an arrangement using the proposed shelf plan and could fit the usual milk order only by moving bottled juice to the smaller drinks cabinet. That cabinet has room in winter but is usually full during summer.
-
-North's cabinet would hold the current milk and juice arrangement without that move. Its higher adjusted installation cost therefore needs to be weighed against the summer storage problem. The shop manager has asked the milk supplier whether a smaller, more frequent delivery is available, and the supplier will answer before the equipment quotes expire.
-
-Lowbank is the economical complete installation and its Thursday slot keeps the stockroom working, provided we can reduce the amount of milk stored between deliveries. Otherwise North preserves the required shelf space, and we should include the separate removal and handling charges in its order. We will wait for the milk supplier's answer before selecting either cabinet; the old unit has passed its latest service and can remain in use during that decision. Once the choice is made, the manager will confirm the door clearance and electrical connection with the installer. No stock will be moved into the new cabinet until its operating temperature has been checked.
-
-## 000038-205
-
-What survives in a theatre's booking ledger
-
-A theatre's booking ledger can appear to describe its whole audience. Each row has a date, a performance, and a number of seats. Yet the surviving book records advance reservations only. Tickets sold at the door went into a separate cash book that has been lost. Totalling the ledger therefore counts reserved seats rather than everyone who attended.
-
-Before comparing performances, the researcher should establish what each column meant to the clerk. A pencilled number may be a request awaiting payment rather than a confirmed sale. Crossed-out entries may represent cancellations, moved bookings, or corrections to the number of seats. Several surviving receipt stubs can help establish how the book was used, but the relationship should be checked across different clerks and periods.
-
-The theatre changed its seating plan halfway through the season. A row marked balcony before the alteration may not refer to the same number or location of seats afterwards. Programmes and building plans can supply a chronology for those changes. The researcher can retain the original location terms while adding a separate field for the interpretation used in the analysis. That keeps a later correction from overwriting the source wording.
-
-Group bookings introduce another problem. A single named purchaser may have reserved seats for a club, a school, or several friends. Counting names would measure booking contacts rather than individual audience members. The distinction becomes important if the study asks whether attendance drew on a broad range of households. One teacher's name next to forty seats supplies little information about the pupils who occupied them.
-
-A transcription should record the seat quantity and the state of the entry separately. The reservations alone cannot yield the full attendance because door sales were kept in the missing cash book. An empty seat-quantity field should remain empty rather than be entered as zero. A note can distinguish an unreadable number from a blank left by the clerk. These two kinds of missing value may require different treatment when totals are calculated.
-
-Dates require checking too. The ledger may group bookings by the day payment was received rather than the day of the performance. A researcher who assumes that every row describes that evening could manufacture a weekly pattern around the office's opening hours. Comparing entries with advertised performance dates can reveal the convention, particularly where a production ran for several nights.
-
-The resulting dataset can support questions about the advance-booking business. It might show which productions attracted large organized parties, how far ahead reservations were made, or when cancellations clustered. A report should retain a small worked transcription alongside its totals so readers can see how a request became a counted reservation. Images of ambiguous entries can be linked where access permits, with the uncertainty carried into the dataset rather than resolved merely to make a chart complete.
-
-## 000038-206
-
-Counting the use of a public computer room
-
-A library's computer system records a session whenever somebody signs in. One person can create several sessions during a day, perhaps by returning after lunch or changing machines. The session total therefore measures occasions of access. A survey asking how many residents use the room would need a way to distinguish people while protecting their privacy.
-
-Session duration supplies another view. A room with many short visits may handle brief printing and email tasks. A smaller number of long visits may occupy the same total machine time. The library can report both the number of sessions and the hours used without treating either as a complete description of demand. Closing times should be recorded because they limit the hours available.
-
-Failed attempts deserve attention. When every machine is occupied, somebody may leave without signing in and produce no session record. Staff can count requests they cannot accommodate during sampled periods. Those observations will still miss people who look through the door and leave without asking. The report should describe the observation procedure so the resulting number can be interpreted as a count of recorded requests.
-
-Suppose the library is deciding whether to add machines or extend opening hours. It needs to locate the occupied periods, not just compare monthly totals. Several machines standing empty in the morning will not help visitors who can come only after work. A chart by hour can show when capacity is used, while staff notes may identify classes or scheduled support sessions that explain a regular peak.
-
-Now consider the budget for introductory classes. Using sign-ins as the denominator would give frequent users more weight: a confident user visiting twenty times could outweigh several residents making their first attempt. The class budget instead needs an estimate of people seeking support and the kind of help they require. The same sign-in record that is useful for allocating machine hours can therefore be unsuitable for allocating places in a beginners' class.
-
-Collecting that additional information should be proportionate. Staff could ask visitors during a defined sample week whether they want help with a task and record the task category without retaining a name. The library should also include outreach sessions if the question concerns residents who have not yet entered the computer room. A method limited to existing users would leave that part of the question unanswered.
-
-Machine scheduling can use occupancy and waiting observations; class planning can use requests for assistance and outreach responses. Session totals remain useful for describing the service's activity over time, provided changes to sign-in rules and opening hours are recorded. Keeping those measures separate lets the library expand access where equipment is scarce and offer teaching where skills are the constraint, instead of using a single rising number to justify either decision.
-
-## 000038-207
-
-The boxes under the stage
-
-When the amateur theatre group emptied the space beneath its stage, it found twenty-seven boxes of costumes. The labels named productions rather than their contents. A coat used in several plays could be filed under whichever production had last needed it, so a search by garment could miss something already in the store.
-
-The wardrobe volunteer, Ruth, opened the boxes with two members who remembered the older productions. They set out a rail for clothes that could be used and a table for items needing repair. Anything with a strong smell or visible damage went aside for separate examination. The first morning ended with only five boxes completed, but it had already produced three black coats and several waistcoats that the next production might use.
-
-One member recognized a waistcoat from a photograph in the foyer. He recalled that a former actor had made it, although he could not remember whether she had donated it or lent it. Ruth put it on a separate rail while the secretary checked the minutes. They decided that ownership questions should be resolved before garments were altered. A replacement button was easy to undo; cutting a borrowed garment to fit another actor would be a different matter.
-
-The following Saturday, the secretary brought an old list of loans. The waistcoat was there, together with a name and a telephone number that no longer worked. Another member offered to contact the family through a local club. The group kept the garment available for inspection and photographed it beside its paper label, preserving the information that might help identify it.
-
-The borrowed items slowed the inventory, but the ordinary stock presented a more immediate problem. "What do I put this under?" a volunteer asked, holding a plain apron. Ruth began a list organized by garment, with colour, approximate size, and the number on a new tag. Because the old boxes followed the last production to use an item, a garment could be hidden from a search even while it was sitting in storage, and the new list also included a photograph number. The team took the photographs against a plain curtain rather than asking anyone to model the clothes.
-
-Members disagreed about whether to keep the production labels. Some were brittle, and several referred to plays staged before the current group had formed. Ruth kept them in an envelope with the inventory sheets. The new tags would help people find clothing, while the labels could still be used with programmes to reconstruct earlier productions. A young volunteer began matching the box names to dates in the theatre's programme collection.
-
-By the end of the month, the usable costumes were hanging in garment groups. Repairs had their own list, and unresolved loans remained separate. The director of the next play used the inventory to select rehearsal clothes before requesting purchases. When the family replied about the waistcoat, they confirmed the donation and supplied the maker's name. That information went into the inventory, and the original label stayed with the other records rather than disappearing when the box was discarded.
-
-## 000038-208
-
-The cabinet labelled spare
-
-The village cinema had a cabinet marked spare beside the projection room. For years, volunteers put unused cables, lamps, and small fittings inside it. When the cinema bought a new projector, the installer asked which items still belonged to equipment in service. Nobody could answer from the cabinet's label, and the oldest volunteer suggested emptying it before the new system arrived.
-
-Three volunteers worked through the shelves on a quiet afternoon. They compared connector shapes with the current equipment and attached temporary notes to anything they recognized. A cable that fitted a socket was not automatically put back: the installer had asked them to retain the maker's specification where it was available. Unidentified items went onto a separate table instead of being tested at random.
-
-At the back of the cabinet, they found a small metal plate with two holes and a handwritten date. One volunteer thought it was a projector part. Another remembered a ticket hatch that had once occupied the wall beside the entrance. Neither could explain the holes with confidence. They photographed the plate and left it on the table while continuing the equipment inventory.
-
-The cinema's anniversary committee was preparing a display that week. A member looking for old programmes noticed the plate and brought in a photograph of the original ticket hatch. The photograph showed a similar plate fixed below the counter, where staff had attached a temporary drawer during busy screenings. The holes and outline matched, although the volunteers still wanted someone who remembered the arrangement to inspect it.
-
-"It was in the spare cabinet," one volunteer said when the committee asked to borrow it. The committee member replied, "Spare for what?" The label had previously meant that an object might be needed to keep a machine working. For the plate, the question was now whether it could help document how tickets had been sold before the foyer was rebuilt. That was a reason to keep it even if it would never fit the new projector.
-
-A retired usher visited the following Saturday. She recognized the plate and described fitting the drawer for a film that drew unusually large queues. The committee recorded her account with her permission and kept it beside the photograph, distinguishing what the image showed from what she remembered. They did not try to restore the plate to its original brightness; the writing and wear were part of what they wanted visitors to see.
-
-The cabinet was eventually divided. Labelled working spares remained beside the projection room with an equipment list. Objects selected for the cinema's history went into a separate cupboard, each with a record of where it had been found and why it was retained. Unidentified parts stayed in a review box until the installer could examine them.
-
-At the anniversary screening, the plate appeared beside the photograph of the ticket hatch and a short extract from the usher's account. The old word spare was included in the display caption. Visitors could see how the same object had moved from a possible replacement part to evidence of a past arrangement, without the volunteers having to pretend that they had recognized it when they first opened the cabinet.

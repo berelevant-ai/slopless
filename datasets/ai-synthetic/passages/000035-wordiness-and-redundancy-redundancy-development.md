@@ -1,15 +1,5 @@
 # Wordiness And Redundancy: redundancy
 
-## 000035-163
-
-Members of the village committee collaborated together on local complaints. Members took turns receiving complaints at the schoolhouse and brought unresolved matters to the weekly meeting. The minutes distinguish decisions made there from requests passed to the district office.
-
-## 000035-058
-
-Project deletion now permanently removes the project and its folders. The confirmation screen lists the project's folders and asks you to type its name.
-
-Shared files owned by another project remain available to their owners.
-
 ## 000035-157
 
 In the deposition, the witness said, "I saw it with my own eyes personally." The analysis retains the full wording because the following question challenges whether the witness had a direct view. Removing the personal-observation claim would obscure what the question refers to.
@@ -22,15 +12,17 @@ The drainage channel was covered with a metal grate. A metal grate lay over the 
 
 I can transfer the booking to someone else. The booking is transferable to another person. Send their full name and email address, and I'll issue a new ticket under the existing reference without changing the seat allocation.
 
+## 000035-058
+
+Project deletion now permanently removes the project and its folders. The confirmation screen lists the project's folders and asks you to type its name.
+
+Shared files owned by another project remain available to their owners.
+
 ## 000035-099
 
 The pouch is waterproof and will keep water out of its interior. Close the sliding seal along its full length before taking it outside.
 
 Sand in the groove can prevent the edges from meeting, so rinse the seal after a beach trip.
-
-## 000035-166
-
-The recorded temperature showed an upward increase during the trial. Sensor placement stayed fixed throughout the trial. A separate room sensor showed a smaller rise, suggesting that the largest change was concentrated around the motor housing.
 
 ## 000035-155
 
@@ -64,12 +56,6 @@ Local repair matters for these pumps. One failed seal can stop the wash line, an
 
 Decision: choose Alder's local repair contract for the wash-line pumps. Use Fern's cheaper return-to-base cover for the portable units, which can share spares between sites.
 
-## 000035-080
-
-Controller layout
-
-The Oak controller operates without external modules and houses all its components in one enclosure. Birch separates the power supply from the control panel. The separate supply would be easier to replace, although it needs another mounting point.
-
 ## 000035-037
 
 Account access
@@ -91,6 +77,10 @@ Registration fee: The fee for registration is eight pounds per team. Pay at the 
 
 The planning meeting has moved to Thursday. It will now take place on Thursday instead, and room C is booked from two until three. Please send any estimates you want included before lunch that day.
 
+## 000035-210
+
+Sandpaper grade: The grade of sandpaper should be 180. Sand along the grain, then wipe away the dust with a dry cloth. Test the finish on the underside before coating the visible face.
+
 ## 000035-057
 
 Import progress is approximately correct during the scanning stage. A single compressed file can expand into many records, so the total changes as files are opened.
@@ -104,12 +94,6 @@ For the insulated doors, Bracken quotes a nominal thickness of 44 mm and a finis
 ## 000035-145
 
 The council's sign reads "Temporary short-term parking suspension". Include that wording and the sign's location in any appeal about this week's tickets. Several residents have sent photographs showing a different suspension date beneath the same heading.
-
-## 000035-127
-
-The morning and evening shifts share the lockers jointly. Clear personal items at the end of your shift so the next person can use the space.
-
-A small shelf beside reception is available for items awaiting collection.
 
 ## 000035-181
 
@@ -140,9 +124,9 @@ Try the larger size if your measurement falls between sizes; the wrist strap tak
 
 The station clock struck six as the last crate came off the cart. The warehouse clock struck six two minutes later. Ellis wrote both readings in the ledger, then used his pocket watch to set the time on the dispatch receipt.
 
-## 000035-178
+## 000035-207
 
-Lay out the bowls, then weigh each ingredient separately on its own before mixing begins. Put cold ingredients back in the fridge until mixing begins. Keep the recipe card beside the scales so you can tick off each quantity.
+Registration is fully complete. Every team has paid, and the fixture list will go on the pavilion noticeboard on Friday. Captains should collect their score sheets before the first match.
 
 ## 000035-052
 
@@ -150,6 +134,18 @@ Attachment limit: The attachment limit is 30 MB per file.
 
 - Larger files remain in the compose window with a warning, so you can replace them before sending.
 - Files already uploaded to a thread are unchanged.
+
+## 000035-202
+
+Each receipt now receives a completely unique reference number. Use it when requesting a copy from the Orders screen. References remain reserved after an order is cancelled.
+
+## 000035-201
+
+Your address update is fully complete. Both the order and the delivery label now show 28 Lake Road. The courier will send a new tracking link this evening.
+
+## 000035-213
+
+The new wing was completed in 1923. Building work on the new wing finished in 1923. The school moved its science classes there in September, leaving two rooms in the older building for the library.
 
 ## 000035-098
 
@@ -207,6 +203,10 @@ Recovery took more time than we had planned. The data copy finished on schedule,
 
 The drain line can look clear at the opening while remaining partly blocked farther in. Run a flexible brush through the bend and collect the loosened material in a tray. Pour a measured jug through afterward and check how quickly it exits.
 
+## 000035-167
+
+Turn the handle in a clockwise direction until the clamp grips the frame. Check that the rubber pad sits flat against the wood before tightening the final quarter turn.
+
 ## 000035-075
 
 Rush orders cost more
@@ -226,6 +226,10 @@ The balance shown in the app is almost zero because the last small card payment 
 Both firms will inspect the roof before quoting. Each will carry out a prior inspection before giving us a price.
 
 Slate can visit on Monday; Finch needs access on Thursday, when the tenant is usually away.
+
+## 000035-203
+
+You can now revert back to the last saved version from the History panel. The preview shows that version's timestamp before you confirm. Unsaved changes in the editor are discarded.
 
 ## 000035-071
 
@@ -247,11 +251,21 @@ We received the front of your licence this morning. Please upload the reverse us
 
 Both instruments measure resistance, but they do so at different points in the circuit. The first records the component under test; the second records the reference element. Taking both readings allows the calculation to account for changes in the supply voltage during the run.
 
+## 000035-046
+
+Preview access
+
+I've activated a "complimentary preview" for your team free of charge. Open the invitation with your work email to try the dashboard this week. Changes made in the preview account won't affect your live reports.
+
 ## 000035-010
 
 The cushion cover can feel dry while the foam inside is still damp. Press a clean towel firmly against the centre of the insert; a wet mark means it needs more time on the drying rack.
 
 Wait until the insert is completely dry before putting the cover back on. The zipped cover slows the escape of moisture from the foam.
+
+## 000035-212
+
+The clerk returned back to the office after the inspection. She placed the photographs beside the marked-up floor plan and wrote the room numbers on their envelopes. The caretaker brought the key register over later that afternoon.
 
 ## 000035-009
 
@@ -284,9 +298,9 @@ After hearing her account, the members walked to the building. Water marks were 
 
 The clerk's note for the next meeting lists three follow-ups: arrange a floor inspection, obtain the drain contractor's report and send the tenant a copy of the photographs taken during the visit.
 
-## 000035-167
+## 000035-178
 
-Turn the handle in a clockwise direction until the clamp grips the frame. Check that the rubber pad sits flat against the wood before tightening the final quarter turn.
+Lay out the bowls, then weigh each ingredient separately on its own before mixing begins. Put cold ingredients back in the fridge until mixing begins. Keep the recipe card beside the scales so you can tick off each quantity.
 
 ## 000035-188
 
@@ -304,12 +318,6 @@ Your parcel is waiting at the depot. Pickup deadline: The deadline for picking i
 At present, the lift is currently out of service because a replacement door sensor hasn't arrived. The engineer expects the part on Thursday and will return to fit it that afternoon.
 
 Residents who need help bringing groceries upstairs can call the office before 5 p.m. Please leave the landing clear for the repair visit.
-
-## 000035-054
-
-We've added Assigned to me to the filter menu. It uses your current workspace identity, including when you switch between organisations.
-
-Existing saved filters keep their owner selections.
 
 ## 000035-106
 
@@ -339,19 +347,9 @@ The new footpath runs alongside the canal. It starts at the old weighbridge and 
 
 By noon the central section was ready. The crew left the temporary fence in place while the gravel settled and moved the unused bags to the maintenance shed. A small sign beside the weighbridge gives the opening date and names the volunteer group that paid for the materials.
 
-## 000035-046
-
-Preview access
-
-I've activated a "complimentary preview" for your team free of charge. Open the invitation with your work email to try the dashboard this week. Changes made in the preview account won't affect your live reports.
-
 ## 000035-149
 
 A nearly complete census can still omit a concentrated group. If most missing households belong to the same settlement, the overall response rate conceals a local coverage gap. Report the rate for each settlement as well as the rate for the district.
-
-## 000035-111
-
-This camping compass has an "integrated built-in light" for reading the dial. Press the side button to illuminate the markings. Keep the compass level while taking a bearing.
 
 ## 000035-139
 
@@ -386,6 +384,10 @@ Linden offers a six-month trial period. The trial runs for half a year, and they
 
 The collection fee is fixed in the agreement, which makes the exit cost easier to budget.
 
+## 000035-198
+
+The museum guide called the chest "a remnant left over from the old workshop". It held wooden patterns used to cast the smaller hinges. The guide lifted one pattern from its felt support and showed the class the maker's mark on the underside.
+
 ## 000035-004
 
 Background uploads
@@ -394,17 +396,15 @@ Photo uploads now continue while you use another screen in the app. They still p
 
 The queue shows how many photos are waiting and how many have finished. That count covers the current batch; the album total also includes photos uploaded earlier.
 
+## 000035-067
+
+Oriole's price includes delivery to our warehouse. Their quoted price already covers delivery to our warehouse.
+
+Their driver needs a booked unloading slot, which we can arrange when the order is confirmed.
+
 ## 000035-081
 
 We need a second demonstration of the scanner with our own damaged labels. The first demonstration used clean labels supplied by the vendor. Ask both vendors to scan the same box of returns and record how many require manual entry.
-
-## 000035-189
-
-"North berth, vessel secured?" the harbour officer asked over the radio.
-
-"North berth, vessel secured," came the reply. "Stern line needs another turn."
-
-The officer waited until the crew member on the quay raised his hand, then allowed the next boat into the channel.
 
 ## 000035-023
 
@@ -438,12 +438,6 @@ We need to merge the two visitor lists into one combined list. Reception will us
 
 Please remove cancelled guests before sending the spreadsheet, and leave the dietary column in place for catering.
 
-## 000035-067
-
-Oriole's price includes delivery to our warehouse. Their quoted price already covers delivery to our warehouse.
-
-Their driver needs a booked unloading slot, which we can arrange when the order is confirmed.
-
 ## 000035-036
 
 The replacement strap is available in navy. We have the navy version in stock. I can send it today if you confirm the buckle width; the photo shows the narrow fitting, which comes in two sizes.
@@ -457,6 +451,10 @@ Coding rules
 - Visitor: stayed temporarily while maintaining a home elsewhere.
 
 Interviewers recorded the date of the last move before assigning a category.
+
+## 000035-144
+
+The committee described the garden plots as "shared communal spaces" in its welcome message to new members. Each plot has a tool hook and a water point. Please return borrowed tools to the hook before leaving the site.
 
 ## 000035-199
 
@@ -483,10 +481,6 @@ For tomorrow's finance meeting, take this decision forward: keep the room allowa
 We have a meeting with the printer at approximately 10:30 or so. Bring the paper samples from last week's delivery so we can compare them with the approved stock.
 
 The appointment is at their workshop on Station Road.
-
-## 000035-198
-
-The museum guide called the chest "a remnant left over from the old workshop". It held wooden patterns used to cast the smaller hinges. The guide lifted one pattern from its felt support and showed the class the maker's mark on the underside.
 
 ## 000035-169
 
@@ -523,15 +517,6 @@ The specimens were heated twice. The first heating drove off surface moisture; a
 
 The cover is washable, and the filling is washable too. Remove the cover and put the filling in a mesh bag before using the delicate cycle. Each part has its own care label because they dry at different temperatures.
 
-## 000035-143
-
-Raffle collection
-
-Volunteer: "Please confirm you have tickets 301 through 350."
-Collector: "Confirmed, 301 through 350, fifty tickets. I've signed the sheet."
-
-Bring the signed sheet and unsold tickets to the pavilion by five on Sunday.
-
 ## 000035-020
 
 The train reached the harbour station shortly before ten. It was the first passenger service to use the line since the bridge repairs, although freight trains had been running over it for a week.
@@ -552,11 +537,9 @@ Copy the contractor's wording, "an estimated total of approximately 40 hours", i
 
 Keep their reply alongside the original quotation. We'll use the agreed range when booking access to the rooms.
 
-## 000035-130
+## 000035-166
 
-The deadline is fixed and cannot be moved. That date is the final cutoff.
-
-The venue needs the final headcount to order ingredients, so please send your team's numbers before four.
+The recorded temperature showed an upward increase during the trial. Sensor placement stayed fixed throughout the trial. A separate room sensor showed a smaller rise, suggesting that the largest change was concentrated around the motor housing.
 
 ## 000035-192
 
@@ -571,6 +554,10 @@ The archive boxes go to the records room on level two. The empty transport crate
 Fabrication time
 
 I favour Gannet because its quote is lower and the installer can visit next week. They estimated about twelve days or thereabouts for fabrication after measurement. The estimate assumes we approve the drawing within one working day.
+
+## 000035-163
+
+Members of the village committee collaborated together on local complaints. Members took turns receiving complaints at the schoolhouse and brought unresolved matters to the weekly meeting. The minutes distinguish decisions made there from requests passed to the district office.
 
 ## 000035-138
 
@@ -604,6 +591,12 @@ Handover
 
 Please mark your starting cabinet on the sheet so the next shift can continue from it.
 
+## 000035-127
+
+The morning and evening shifts share the lockers jointly. Clear personal items at the end of your shift so the next person can use the space.
+
+A small shelf beside reception is available for items awaiting collection.
+
 ## 000035-074
 
 Please keep the phrase "free complimentary servicing" in the quotation comparison. It's the supplier's wording. We need them to identify the labour hours, call-out charge and replacement parts covered before we treat that line as a saving.
@@ -627,6 +620,10 @@ The repair should take around three working days, approximately, once the worksh
 ## 000035-041
 
 You can use the voucher on any weekday. It is valid from Monday through Friday, and reservations open two weeks ahead. Choose Voucher booking at checkout so the desk receives the code with your reservation.
+
+## 000035-111
+
+This camping compass has an "integrated built-in light" for reading the dial. Press the side button to illuminate the markings. Keep the compass level while taking a bearing.
 
 ## 000035-113
 
@@ -660,25 +657,19 @@ The lining should almost completely cover the base of the tray. Leave a narrow s
 
 Allow about half an hour for fitting, plus any drying time needed after cleaning. On the first tray, test the clip positions before cutting the remaining pieces.
 
-## 000035-144
-
-The committee described the garden plots as "shared communal spaces" in its welcome message to new members. Each plot has a tool hook and a water point. Please return borrowed tools to the hook before leaving the site.
-
 ## 000035-120
 
 Travel claims
 
 Travel claims submitted after the payroll cutoff will be paid in the following month's run. This month's cutoff is noon on the 23rd. Attach the ticket receipt and the journey details so accounts can match the fare to the client visit.
 
-## 000035-174
-
-Read the requested quantity aloud to the person weighing the flour: "Three hundred grams."
-
-They should reply, "Three hundred grams", then set the filled bowl on the marked tray. Work from one recipe card at a time during the class.
-
 ## 000035-173
 
 Make a small pilot hole before fitting the hook. Drill it about twenty millimetres deep, more or less, keeping the bit square to the timber. Brush away the dust before turning the hook into the hole.
+
+## 000035-193
+
+The two apprentices cooperated together to rebuild the cart. One measured and cut the spokes while the other shaped the hub. Their supervisor checked the fit before the wheel was taken to the forge.
 
 ## 000035-102
 
@@ -696,9 +687,9 @@ Lay the brackets beside the shelf before marking the wall. Each bracket takes tw
 
 Hold the shelf in position with a spirit level resting on top, then mark the bracket holes through their centres. Put the shelf aside while you drill so you have room to work.
 
-## 000035-194
+## 000035-206
 
-The baker counted the delivery trays before loading the van. At the shop, the receiver counted them again and signed for eleven. A twelfth tray remained on the bakery rack, where the driver found it on returning for the afternoon round.
+The travel mug weighs approximately 210 grams or so, compared with 340 grams for the desk model. Both hold the same amount and use the same lid. The travel version has a narrower handle so it fits into a side pocket.
 
 ## 000035-006
 
@@ -738,9 +729,9 @@ I've applied the credit for the missing item. The remaining balance still left o
 
 You can see the adjustment under Orders, then Payment history. If the credit hasn't appeared there by tomorrow morning, reply to this message and I'll check the posting.
 
-## 000035-053
+## 000035-211
 
-The worker now retries a failed transfer once more after the initial retry. The second retry uses a different storage endpoint. The transfer history shows the original attempt and both retries, with a separate status for each.
+Check that the two strips are the same identical length before attaching them to the frame. Place their ends against the stop on the bench and mark any overhang with a pencil. Trim the longer strip, then check the pair again.
 
 ## 000035-035
 
@@ -774,27 +765,25 @@ For the land-transfer analysis, use the adopted boundary in the second map. The 
 
 Missing observations were excluded from the calculation. Observations with missing values were left out when calculating the result. The table reports the number retained for each variable, since the available sample differs across columns.
 
+## 000035-209
+
+Return the tray back to the oven after turning the pieces. Keep it on the middle shelf so the top edges do not brown before the centres are cooked. Use gloves when moving the hot tray.
+
 ## 000035-005
 
 I'd use Vale for the first order. Their unit price is slightly higher, but they can deliver on Wednesday and our current stock will last until Thursday.
 
 Vale charges a flat delivery fee regardless of order size. Ordering more or fewer units won't change the delivery charge. Mercer offers free delivery above $500, but we would need to buy almost twice what we currently need to reach that threshold.
 
-## 000035-062
+## 000035-214
 
-Export queue
+The first cart left at 9 a.m. in the morning, carrying the survey cases and a box of spare fittings. A second cart followed after lunch with the longer poles. Both stopped at the mill before continuing to the bridge.
 
-- Queued: waiting for an available worker.
-- Running: the worker is reading and packaging your data.
-- Ready: the download link has been created.
+## 000035-080
 
-Each stage has its own timestamp in the job details.
+Controller layout
 
-## 000035-031
-
-I've removed the extra seat from your subscription. The change takes effect at the next renewal, on 6 November.
-
-Your current invoice still covers five seats. The renewal preview shows four; you can download both documents from Billing.
+The Oak controller operates without external modules and houses all its components in one enclosure. Birch separates the power supply from the control panel. The separate supply would be easier to replace, although it needs another mounting point.
 
 ## 000035-133
 
@@ -806,11 +795,9 @@ The western kiln closes
 
 The western kiln closed in September after cracks appeared around its flue. Production moved to the smaller kiln across the yard. For the remaining orders, the potters worked shorter firing cycles and stored finished bowls in the old drying shed.
 
-## 000035-086
+## 000035-053
 
-The packaging conveyor stopped at 11:42. It was no longer running. A carton had caught under the guide rail, tripping the motor protection.
-
-The operator isolated the supply before removing it.
+The worker now retries a failed transfer once more after the initial retry. The second retry uses a different storage endpoint. The transfer history shows the original attempt and both retries, with a separate status for each.
 
 ## 000035-175
 
@@ -836,9 +823,9 @@ Please confirm that the booking is for six people at 7:30 on Friday, with one hi
 
 Confirmed: six people at 7:30 this Friday, with one high chair. I've cancelled the Saturday booking.
 
-## 000035-171
+## 000035-204
 
-Add enough water to make the mixture almost smooth. A few small lumps will soften during the rest. Leave it for ten minutes, then stir again before pouring it into the prepared tin.
+Mere's quote includes transport to our site. Delivery to the site is included in the quoted price. Its driver can unload at eight, before the lifting crew arrives.
 
 ## 000035-030
 
@@ -849,6 +836,10 @@ Once the cable is secured, move the bookcase into position without trapping the 
 ## 000035-088
 
 The drain was completely blocked at the elbow. Water could still seep through the damaged joint above it, which accounts for the wet patch seen during the initial inspection. Removing the elbow exposed a solid plug of packing fibres.
+
+## 000035-216
+
+We are currently investigating the failed payment at the moment. Please leave the order in your basket rather than submitting another payment while we check the bank response. I will reply here when we know whether the first attempt reached your card issuer.
 
 ## 000035-012
 
@@ -872,12 +863,6 @@ Service was restored at 14:22, when new checkout requests began succeeding. Reco
 
 We kept the incident open during that interval because some customers were still waiting for confirmation emails, even though they could place new orders.
 
-## 000035-134
-
-Water pressure reduction
-
-Water pressure will fall between midnight and four on Wednesday while crews replace a valve on the hill. Homes above the reservoir may briefly lose supply. Fill a jug before bed if you need drinking water during that period.
-
 ## 000035-068
 
 Warranty: The warranty offered is two years for the motor and one year for the battery. Emery supplies a local repair address, while Penn requires return shipment. Freight costs could matter more than the small difference in purchase price.
@@ -892,18 +877,11 @@ The sample was divided into two halves. One half was used to fit the scoring rul
 
 The cheapest lamp is less uniform than the mid-priced model: its centre is bright enough, while the corners fall below our target reading. Both meet the desk's width requirement. I'd test the mid-priced model on the inspection bench before ordering ten.
 
-## 000035-050
+## 000035-130
 
-Bulk archive confirmation
+The deadline is fixed and cannot be moved. That date is the final cutoff.
 
-The confirmation dialog repeats the number of selected records beside the Archive button. The list behind the dialog may have scrolled out of view. You can cancel to change the selection or continue with the displayed total.
-
-## 000035-197
-
-First trial: the loaded cart stopped short of the painted line.
-Second trial: the empty cart crossed the line and reached the sand bed.
-
-The crew moved the starting point uphill for a third run, keeping the cart empty while they checked the brake adjustment.
+The venue needs the final headcount to order ingredients, so please send your team's numbers before four.
 
 ## 000035-022
 
@@ -915,13 +893,9 @@ The other 312 rows loaded successfully. Please add the missing account numbers i
 
 No visitors past the workshop door during the trial. No visitors includes our own office staff coming down for photographs; the trial team needs the aisle for moving the loaded frame. Please take any pictures from the marked area by reception.
 
-## 000035-140
+## 000035-217
 
-Age groups: under nine, under twelve and open.
-Entries: one poem per person.
-Results: posted in the hall on the afternoon of the fair.
-
-Please put the age group on the envelope. The judges receive poems without the entrant's name attached.
+The junior and adult choirs will combine together for the final song. Please attend the shared rehearsal on Thursday so the conductor can check the entries and arrange the standing positions. The junior rehearsal will finish at its usual time; parents can collect children from the side door.
 
 ## 000035-027
 
@@ -962,15 +936,6 @@ Please confirm the opening count before you unlock the till.
 
 Opening count confirmed: $150 in the drawer, including the sealed coin bag. I have signed the sheet and left the bag seal attached to it. The first float transfer can go ahead.
 
-## 000035-069
-
-I asked each bidder to confirm whether scaffolding was included.
-
-- Ash: "Scaffolding included for both elevations."
-- Stone: "Access equipment charged separately."
-
-Ash has confirmed the access cost in its total. Stone needs to price it before the figures can be compared.
-
 ## 000035-011
 
 I've put the revised rota in the shared folder. Please add your comments to the document rather than emailing them to me. Keep your feedback in the file itself instead of sending it by email. I'll work through the comments at 3 p.m. and send the final version before I leave.
@@ -983,11 +948,9 @@ Form entries
 
 I've checked the attachment you sent. The two entries are identical copies of the same entry, so you can delete either one before submitting the form. Keep the receipt attached to the entry you retain.
 
-## 000035-097
+## 000035-205
 
-Sample cupboard spill
-
-The spill was confined to the sample cupboard alone. A loose cap on the top shelf had allowed dye to run into the tray below. Staff removed the tray and wiped the shelf before bringing in replacement samples.
+The bottle is cylindrical in shape, so it fits into the round holder on the trolley. Slide it in with the cap facing up. The handle on the cap lets you lift it out without removing the holder.
 
 ## 000035-070
 
@@ -1013,13 +976,9 @@ We have cancelled Tuesday's deliveries because the depot's loading lift needs a 
 
 If Wednesday is unsuitable, reply with your order number and a preferred day. We can hold packed orders at the depot until Friday.
 
-## 000035-038
+## 000035-208
 
-Please read back the serial number on the base before we order the part.
-
-Customer: B7-221, ending in one.
-
-Thanks, B7-221 matches the hinge assembly on your service record. I'll order the left hinge and send the fitting date when it arrives.
+The tennis courts reopen on Monday. They will be open again from Monday. Book through the usual club page; the first morning session is reserved for the junior group.
 
 ## 000035-146
 
@@ -1030,6 +989,16 @@ The north path is narrower in width than the path by the cafe. Wheelchair users 
 The volunteers spent the morning sorting books in the hall, then ate lunch at the cafe across the road. They returned back to the hall just after one. By then, a local bookseller had arrived with empty crates for the unsold stock.
 
 Two volunteers stayed to help him load the van while the others cleared the tables. The caretaker locked up at three, an hour earlier than planned.
+
+## 000035-086
+
+The packaging conveyor stopped at 11:42. It was no longer running. A carton had caught under the guide rail, tripping the motor protection.
+
+The operator isolated the supply before removing it.
+
+## 000035-215
+
+Email addresses are nearly unique in this workspace, but several customers share an inbox. The duplicate finder now suggests matches using both email and billing address. It continues to use the customer number as the record key.
 
 ## 000035-090
 
@@ -1047,19 +1016,17 @@ The calendar can display two time zones simultaneously at the same time. Select 
 
 Event invitations continue to use the event organiser's zone.
 
-## 000035-107
+## 000035-097
 
-The label says "made by hand manually". Keep that wording in your complaint, along with a photograph of the identical mould marks on the two bowls. The retailer asked for the precise claim printed on the packaging before referring the case to its supplier.
+Sample cupboard spill
+
+The spill was confined to the sample cupboard alone. A loose cap on the top shelf had allowed dye to run into the tray below. Staff removed the tray and wiped the shelf before bringing in replacement samples.
 
 ## 000035-151
 
 Why the estimate changes
 
 The estimate changes because the revised model includes household size, which is related to both the payment amount and the outcome. The coefficient now compares households of similar size rather than averaging that difference into the payment association.
-
-## 000035-168
-
-Fold the sheet in half, open it, then fold it in half along the other axis. The crossing creases locate the centre. Mark that point lightly before cutting out the circular template.
 
 ## 000035-091
 
@@ -1091,84 +1058,8 @@ You can change the payment card in your account up to the day before renewal.
 
 Remove the outer casing from the fan. Take off the casing that surrounds the fan. Put its screws in a shallow dish so they cannot roll under the bench, then photograph the wire positions before disconnecting anything.
 
-## 000035-193
-
-The two apprentices cooperated together to rebuild the cart. One measured and cut the spokes while the other shaped the hub. Their supervisor checked the fit before the wheel was taken to the forge.
-
-## 000035-112
-
-The timer runs for a maximum of ninety minutes. It can be stopped earlier by turning the dial to zero. A recipe calling for about ninety minutes may need another short cycle, especially if the ingredients went in cold.
-
 ## 000035-142
 
 The east gate will stay closed
 
 The east gate will stay closed until the damaged hinge has been replaced. The repair crew expects to fit it on Tuesday morning. Use the car-park entrance for weekend matches and leave room beside the gate for the crew's vehicle.
-
-## 000035-201
-
-Your address update is fully complete. Both the order and the delivery label now show 28 Lake Road. The courier will send a new tracking link this evening.
-
-## 000035-202
-
-Each receipt now receives a completely unique reference number. Use it when requesting a copy from the Orders screen. References remain reserved after an order is cancelled.
-
-## 000035-203
-
-You can now revert back to the last saved version from the History panel. The preview shows that version's timestamp before you confirm. Unsaved changes in the editor are discarded.
-
-## 000035-204
-
-Mere's quote includes transport to our site. Delivery to the site is included in the quoted price. Its driver can unload at eight, before the lifting crew arrives.
-
-## 000035-205
-
-The bottle is cylindrical in shape, so it fits into the round holder on the trolley. Slide it in with the cap facing up. The handle on the cap lets you lift it out without removing the holder.
-
-## 000035-206
-
-The travel mug weighs approximately 210 grams or so, compared with 340 grams for the desk model. Both hold the same amount and use the same lid. The travel version has a narrower handle so it fits into a side pocket.
-
-## 000035-207
-
-Registration is fully complete. Every team has paid, and the fixture list will go on the pavilion noticeboard on Friday. Captains should collect their score sheets before the first match.
-
-## 000035-208
-
-The tennis courts reopen on Monday. They will be open again from Monday. Book through the usual club page; the first morning session is reserved for the junior group.
-
-## 000035-209
-
-Return the tray back to the oven after turning the pieces. Keep it on the middle shelf so the top edges do not brown before the centres are cooked. Use gloves when moving the hot tray.
-
-## 000035-210
-
-Sandpaper grade: The grade of sandpaper should be 180. Sand along the grain, then wipe away the dust with a dry cloth. Test the finish on the underside before coating the visible face.
-
-## 000035-211
-
-Check that the two strips are the same identical length before attaching them to the frame. Place their ends against the stop on the bench and mark any overhang with a pencil. Trim the longer strip, then check the pair again.
-
-## 000035-212
-
-The clerk returned back to the office after the inspection. She placed the photographs beside the marked-up floor plan and wrote the room numbers on their envelopes. The caretaker brought the key register over later that afternoon.
-
-## 000035-213
-
-The new wing was completed in 1923. Building work on the new wing finished in 1923. The school moved its science classes there in September, leaving two rooms in the older building for the library.
-
-## 000035-214
-
-The first cart left at 9 a.m. in the morning, carrying the survey cases and a box of spare fittings. A second cart followed after lunch with the longer poles. Both stopped at the mill before continuing to the bridge.
-
-## 000035-215
-
-Email addresses are nearly unique in this workspace, but several customers share an inbox. The duplicate finder now suggests matches using both email and billing address. It continues to use the customer number as the record key.
-
-## 000035-216
-
-We are currently investigating the failed payment at the moment. Please leave the order in your basket rather than submitting another payment while we check the bank response. I will reply here when we know whether the first attempt reached your card issuer.
-
-## 000035-217
-
-The junior and adult choirs will combine together for the final song. Please attend the shared rehearsal on Thursday so the conductor can check the entries and arrange the standing positions. The junior rehearsal will finish at its usual time; parents can collect children from the side door.

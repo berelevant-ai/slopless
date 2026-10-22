@@ -19,6 +19,10 @@ The angle remained fixed throughout, so the results compare those coverings at o
 ### Reopening day
 The organiser asked the visitors to be so good as to make their way into the courtyard while the entrance steps were photographed. A school group waited by the fountain. Once the photographer had finished, the caretaker opened both doors and let the queue move inside.
 
+## 000034-202
+
+The two recruitment waves were separated by a period that amounted to six weeks. Both used the same invitation letter and eligibility questions. We report the waves separately because a change to the bus timetable occurred between them and could have affected answers about evening access.
+
 ## 000034-004
 
 ### Opening the library
@@ -59,6 +63,11 @@ The monitor showed a temperature that was higher than the permitted maximum by a
 
 The coefficient has a value that is less than zero in both models. Higher rents are associated with fewer moves, holding the other measured variables constant.
 
+## 000034-131
+
+### Reading the invoice
+The amount due includes the delivery fee and reflects the deposit already deducted at checkout. The balance shown on your card statement may differ temporarily while an earlier authorisation is pending. Compare the invoice with the settled charge once the authorisation disappears.
+
 ## 000034-012
 
 ### Access review
@@ -76,6 +85,10 @@ The new cabinet possesses the dimensions of 90 by 45 centimetres at its base. It
 ## 000034-015
 
 The shared mailbox has the ability to send automatic replies during the closure. I have drafted the dates and emergency number below. Please check them for the purpose of ensuring that visitors contact the caretaker rather than leaving messages on the office phone.
+
+## 000034-190
+
+The night supervisor began reviewing the access log after finding the side door open. The log showed a valid staff pass at 22:46. The closer had failed to latch because a delivery strap was caught beneath the door.
 
 ## 000034-016
 
@@ -124,6 +137,12 @@ You may cover financial details on the tenancy page. We need the date to determi
 
 If your agreement is stored online, a screenshot of the relevant page is fine. Please keep your name and the property address visible so that we can match it to the account. I will send a revised statement once those details have been checked.
 
+## 000034-218
+
+Places on the community minibus are available for either the morning or the afternoon trip. Please make a decision regarding which trip you want before returning the booking slip. The morning bus leaves the square at nine, and the afternoon bus leaves at two. Each trip returns three hours after departure.
+
+Return your slip to the village shop by Thursday. The driver will phone on Friday to confirm your place and arrange a different pick-up point if you cannot get to the square.
+
 ## 000034-025
 
 ### Restoring your files
@@ -141,6 +160,12 @@ In the event that the soil feels dry below the surface, stand the tray in shallo
 ## 000034-028
 
 Welsh is a language for which spelling support is now provided by the editor. It uses the language selected for the document rather than the account language. We also corrected an issue that prevented comments from opening when a document contained a large embedded photograph.
+
+## 000034-205
+
+For the purpose of keeping the rain out, the builders fixed a sheet of corrugated iron above the ticket window. The projecting roof also shaded the clerk's desk in the afternoon.
+
+Photographs from the following decade show passengers gathering beneath it while waiting for the market bus. A timber bench appeared later, paid for by the shopkeepers whose premises faced the stop. The shelter remained after the ticket office closed and was finally removed when the road was widened.
 
 ## 000034-029
 
@@ -240,6 +265,10 @@ The mailbox can receive messages during the migration, but outgoing mail will pa
 
 I will send a message to the team chat when the sending queue is working again. Messages already waiting in the queue will go out automatically, so check Sent before sending a draft a second time. Anyone away from the office can use the web version afterward; the new login page will accept the same account details.
 
+## 000034-212
+
+The display gave an indication of the fact that the rear door was still open. The operator stopped the conveyor and checked the latch. A strip of packaging had caught between the door and frame. After it was removed, the display cleared and the operator completed the normal start-up checks before restarting the line.
+
 ## 000034-049
 
 The old waiting room was used for the purpose of housing the village library for most of the 1960s. Shelves stood where the ticket counter had been, and the station clock stayed above the door.
@@ -250,9 +279,19 @@ The librarian opened three afternoons a week, fitting the hours around her work 
 
 Your refund was approved this morning. We will undertake the processing of the refund after today's payments close. Most banks display the credit within three working days. I have attached the receipt so that you have the amount and transaction reference to hand.
 
+## 000034-213
+
+At the point in time at which the gates reopened, fourteen lorries were waiting on the approach road. The marshal admitted them in groups of three to keep the weighbridge clear. Two drivers had exceeded their booked arrival windows during the closure; dispatch retained their original places in the queue.
+
+The delivery register records the revised unloading times. No refrigerated load remained outside its permitted waiting interval.
+
 ## 000034-051
 
 The form asks us to 'make a determination as to whether' the room is suitable. I suggest changing that field to 'Is the room suitable?' and leaving the reasons box below it. That should keep the printed form on one page.
+
+## 000034-208
+
+The delay occurred as a result of the fact that the parcel was sent to the collection desk instead of your flat. I have asked the depot to put it on tomorrow's delivery round. Please leave the entrance code in your reply if it has changed since your last order; the driver will receive it with the corrected address.
 
 ## 000034-052
 
@@ -303,6 +342,13 @@ Before buying a used bicycle, take a moment to give the brakes an examination. S
 
 The filter needs replacing at six-month intervals on account of the fact that grease gradually blocks the mesh. A washable cover catches larger particles but does not protect the entire filter. Check the model number inside the hood before ordering a replacement.
 
+## 000034-214
+
+### Restored folder paths
+The restore command now returns files to the folder from which they were deleted. It removes the requirement for users to carry out a manual recreation of the original folder structure.
+
+If a parent folder has also been deleted, the command recreates it before returning the files. Existing folders keep their current sharing settings. The recovery history lists each recreated folder alongside the restored files so that administrators can inspect the changes afterward.
+
 ## 000034-064
 
 The phrase 'by reason of the fact that' appears in three of the letters. Its frequency rises in documents addressed to the council, suggesting a shift in register. We retained the original spelling and punctuation when transcribing those passages for the appendix.
@@ -331,13 +377,13 @@ Prior to the commencement of the import, the application displays the first ten 
 
 Residents are requested to undertake the removal of bicycles from the rear railings before the painter arrives on Monday. The covered rack by the laundry will be available over the weekend. Bikes can return to the railings once the new coating has dried.
 
-## 000034-069
-
-The caretaker could admit carts after dusk, although the yard normally closed then. The coal merchant arranged night deliveries by sending him a note in advance.
-
 ## 000034-070
 
 The sensor has the capability of detecting changes as small as half a degree. That resolution was sufficient for the cooling experiment, where the water temperature fell by about twelve degrees. Readings were recorded every thirty seconds until the beaker reached room temperature.
+
+## 000034-210
+
+The paper-size setting is to be found in the section of the menu labelled Print Layout. Choose A5 there before opening the preview. The printer tray setting is separate, so check that the tray also contains A5 paper if the preview is correct but the printed page is cropped.
 
 ## 000034-071
 
@@ -406,6 +452,16 @@ Harbour Print is in a position to deliver to all six branches on Tuesday. Moss L
 
 The repaired path can accommodate a mobility scooter, including at the new gate. Volunteers tested the turning space with a resident's scooter before the gateposts were fixed. The slope beyond the orchard is unchanged and may still require assistance in wet weather.
 
+## 000034-216
+
+The hall caretaker carried out the task of putting away the folding chairs after each Saturday screening. He stacked them in the former ticket office, leaving the main floor clear for the Sunday market. The projector stayed in a locked cupboard above the stage.
+
+When the market moved to the school yard, the chairs could remain in rows over the weekend. The caretaker then had only the projector and the unsold programmes to secure before locking the hall.
+
+## 000034-220
+
+You can collect the repaired watch at a branch or have it sent by courier. Please arrive at a decision as to how you want it returned and reply to this message by Wednesday. If you choose a branch, include its name; if you choose delivery, confirm the address on the repair receipt. I will keep the watch at the workshop until I hear from you.
+
 ## 000034-082
 
 The message 'unable to carry out a restoration' comes from the backup service. It means the saved copy could not be opened. Please send the error number below that message so I can distinguish a damaged archive from an expired download link.
@@ -441,6 +497,10 @@ I have reopened the delivery enquiry. That record contains the depot's investiga
 ## 000034-090
 
 The new landing stage had a measurement of four metres in width. Two crews could bring their boats alongside, and the club began using it in May.
+
+## 000034-203
+
+Replacement straps are available at a cost which is 12 pounds per pair. Each pair includes the two buckles, but the screws are sold separately. Check the width stamped on the old buckle before ordering, since the narrow strap will pass through the wider buckle without fastening securely.
 
 ## 000034-091
 
@@ -487,15 +547,6 @@ The repair is scheduled for a period of time lasting three days. The swings will
 
 We moved the retry button below the error message owing to the fact that it was difficult to reach on smaller screens. Its shortcut is unchanged.
 
-## 000034-102
-
-### Inclusion criteria
-- Participants were at least eighteen.
-- Each had lived in the area for six months.
-- Temporary visitors were excluded.
-
-The residence period gave participants experience of local services across more than one season, which was relevant to the questions about access.
-
 ## 000034-103
 
 Please indicate whether you agree to the recording of the interview before answering the first question. Agreement to participate and agreement to recording are collected separately. Participants who decline recording can still take part, with the interviewer taking written notes instead.
@@ -518,10 +569,11 @@ The review panel has authority to request additional documents. It can recommend
 
 Please give consideration to the revised freight charge when you review the packaging bids. North Box quoted per pallet, while Dale quoted per delivery. We usually need two pallets at once, which reverses the apparent difference between their delivery prices.
 
-## 000034-108
+## 000034-209
 
-### The repair ledger
-The ledger records an inspection in February and a repair in June. Between those entries, the press remained in use for short runs. A note beside the June entry says that replacement bearings arrived with the summer delivery of paper.
+Please let us have a confirmation of whether the fault occurs with both headphones disconnected. That will help us distinguish the speaker circuit from the headphone socket. You do not need to open the radio or remove any screws.
+
+If the speaker still cuts out, reply with the serial number printed on the underside. I can then check which replacement board fits this model and arrange a collection if the repair is covered.
 
 ## 000034-109
 
@@ -536,10 +588,6 @@ The forklift was unable to be used due to the fact that a tyre had split. Staff 
 
 ### Friday stock count
 Please undertake a count of the sealed cartons before opening the loading door. Compare your total with the delivery sheet on the clipboard. If anything is missing, call me before signing, as the carrier will otherwise record the consignment as complete.
-
-## 000034-112
-
-You can restore individual photographs from the recovery area, but restoring an album also restores its old order. Select the album if that order matters to you. Otherwise, open it and select only the photographs you want returned to your library.
 
 ## 000034-113
 
@@ -603,16 +651,11 @@ The replacement hinge can support the cupboard door's weight, but its screw hole
 ### The first collection
 The museum made a purchase of the notebooks from a retired surveyor in 1978. They arrived in three wooden boxes, sorted by district rather than date. A volunteer spent the following winter matching loose maps to the routes described in the notebooks.
 
-## 000034-126
+## 000034-201
 
-### Choosing a rack
-- Measure the bicycle's wheelbase.
-- Check the rack's maximum load.
-- Include the weight of any fitted battery.
+We made a calculation of the median journey time for each ward rather than pooling all journeys across the city. A city-wide median would give the busiest wards more influence because they supplied more records. The ward medians were then plotted against distance from the nearest station.
 
-A rack can hold two bicycles only if their combined weight remains within that limit. The number of wheel channels alone does not establish the load it can carry.
-
-Check the permitted weight on each channel as well as the total. A heavy electric bicycle may exceed a single channel's limit even when the combined load is low enough. The rack manual should show both figures near the fitting instructions.
+Journeys with a missing arrival time were excluded before calculating either measure. The table reports those exclusions separately so that differences in recording quality remain visible alongside the travel-time estimates.
 
 ## 000034-127
 
@@ -631,11 +674,6 @@ The grant gave the workshop the ability to keep an apprentice through the winter
 
 ### Shoe care
 The spray can be used on suede. Before the commencement of spraying, brush away loose dirt and test a small area near the heel. Let that patch dry before treating the rest of the shoe, as pale suede can darken when coated.
-
-## 000034-131
-
-### Reading the invoice
-The amount due includes the delivery fee and reflects the deposit already deducted at checkout. The balance shown on your card statement may differ temporarily while an earlier authorisation is pending. Compare the invoice with the settled charge once the authorisation disappears.
 
 ## 000034-132
 
@@ -670,6 +708,10 @@ In the event that rain is falling, the seed swap will move into the church porch
 
 The approval queue has two additional columns: reviewer and due date. Please check any personal saved views after updating, as their widths may need adjusting. Shared views receive the default widths when the first workspace owner opens them.
 
+## 000034-206
+
+The council decided to carry out the replacement of the damaged clock face rather than repair its cracked rim. A local firm copied the surviving numerals from photographs. The mechanism stayed in the tower, where the caretaker continued to wind it each Friday while the new face was being made.
+
 ## 000034-138
 
 ### Inventory snapshots
@@ -703,31 +745,13 @@ Downloaded maps remain available for the duration of a journey even if their lic
 
 For the purpose of making a booking for the spring clean-up, send your name to the library desk. Gloves and sacks will be provided. The group meets beside the footbridge at ten and returns to the hall for tea at noon.
 
-## 000034-144
-
-Readers using keyboard navigation can now move between footnotes without returning to the main text. The return link remains beside each note.
-
-The next-note command follows the numbering in the document, including notes inside tables. At the final note it returns focus to the first note rather than leaving the document. We have also increased the spacing around return links to reduce accidental taps on touchscreens. These changes apply to published documents as well as documents open in the editor.
-
 ## 000034-145
 
 I have attached the stock adjustment report, which lists damaged items separately from missing items. The warehouse team has already counted the damaged boxes. Could you check the missing items against yesterday's transfer sheet before I approve the adjustment?
 
-## 000034-146
-
-Your booking includes a wheelchair space. The driver can secure a manual chair, but the lift has a weight limit of 300 kilograms including its passenger. Please send the combined weight if you use a powered chair, so dispatch can allocate a suitable vehicle.
-
-## 000034-147
-
-The notice headed 'Removal of Vehicles' concerns the resurfacing work on Mill Lane. It applies to the numbered parking bays outside the shops, not to private drives. The council's map is pinned beside the notice on the parish board.
-
 ## 000034-148
 
 With the objective of preventing flour from escaping, start the mixer on its lowest setting. Increase the speed once the dry ingredients have disappeared into the liquid. Stop halfway through and scrape the bowl so no pockets of flour remain around the base.
-
-## 000034-149
-
-The annual plan remains available until your current month ends. After that date, the account moves to the standard monthly rate unless you accept the annual quote. Please let us know by Thursday if you need a revised invoice for your purchasing team.
 
 ## 000034-150
 
@@ -740,6 +764,10 @@ The Export operation now appears in the activity log with the source folder and 
 ## 000034-152
 
 Hold the panel in position for the duration specified on the adhesive cartridge. The initial grip time differs from the full curing time. You can remove the temporary support after the grip time, but avoid loading the panel until the adhesive has cured.
+
+## 000034-204
+
+The opening of the bridge took place during the month of September, after the harvest traffic had begun. The first crossing was made by a horse-drawn cart carrying sacks from the mill. Pedestrians continued to use the old footbridge until the council fitted a separate walkway the next spring.
 
 ## 000034-153
 
@@ -773,6 +801,12 @@ Thanks for sending the photograph. The green indicator signifies the fact that t
 
 For the purposes of the calculation of the mean, add the five readings and divide the total by five. This treats each reading equally. If the readings represent intervals of different lengths, a time-weighted mean may be more appropriate than this simple average.
 
+## 000034-215
+
+We carried out the process of grouping addresses by postcode before drawing the sample. Within each group, a random start determined the first selected address, and every tenth address was selected after that. This kept the sampling interval constant while allowing each postcode group to begin at a different position.
+
+The listing included empty properties because occupancy could change before fieldwork. Interviewers recorded those properties at the visit stage rather than replacing them with neighbouring addresses.
+
 ## 000034-160
 
 ### Lost keys
@@ -790,10 +824,6 @@ The drain cover is capable of being removed by hand. Lift it from the notch near
 ## 000034-163
 
 For the purpose of tightening the belt, loosen the motor bolts slightly. Slide the motor away from the wheel until the belt deflects about a centimetre under light finger pressure. Then carry out a tightening of the bolts while holding the motor in place.
-
-## 000034-164
-
-The investigation record contains photographs of the pallet before unloading. They show the top cartons leaning against the trailer wall. The driver and warehouse supervisor signed the damage report together, and the affected stock was moved to the inspection bay.
 
 ## 000034-165
 
@@ -834,11 +864,6 @@ The quoted warranty is the same for both scanners. Birch can lend us a replaceme
 
 The search panel now has the capability to remember your last warehouse selection. This preference is saved separately for each browser. Staff who switch between the central and east warehouses will see their previous choice when they return to the panel.
 
-## 000034-171
-
-### Your refund
-The refund is approved, and the payment processor has accepted the reversal instruction. The bank may still show the charge as pending until tomorrow. I have attached the reversal reference in case you need to ask the bank about it.
-
 ## 000034-172
 
 The cover has the appearance of being loose when the clips are not fully seated. Press each corner until it clicks, then run a finger along the edge. If a corner lifts again, check that no cable is caught beneath it before applying more pressure.
@@ -856,10 +881,11 @@ The ferry was late due to the fact that a supply van had broken down on the ramp
 
 Photograph the low-voltage doorbell's labelled terminals before disconnecting the wires. The replacement unit can have the same labels arranged in a different order.
 
-## 000034-176
+## 000034-207
 
-### Treatment assignment
-Random assignment determines which treatment a participant receives. It does not determine who enters the study. In this trial, volunteers entered through two clinics and were then assigned within each clinic, keeping the treatment groups balanced at both recruitment sites.
+Please let me know your answer to the question of whether we should renew the storage lease. The landlord needs a reply by Friday, and I will be away on Thursday.
+
+The revised quote keeps the monthly rent unchanged but adds a charge for weekend access. We used that access twice during the last stock count. I have attached the entry log so you can check whether keeping it is worth the extra charge.
 
 ## 000034-177
 
@@ -872,11 +898,6 @@ The distribution exhibits the property of being symmetric about zero. Positive a
 ## 000034-179
 
 A fixed tariff has the characteristic of keeping your unit price unchanged until the contract ends. Your bill can still rise if you use more electricity. Check both the unit price and the daily standing charge before comparing the offer with your current tariff.
-
-## 000034-180
-
-### Sprinkler activation
-Water reached the storeroom through the ceiling void. The sprinkler head in that room had not activated. Closing the valve on the floor above stopped the flow, which placed the source near the damaged head outside the upper stairwell.
 
 ## 000034-181
 
@@ -895,10 +916,6 @@ The committee requested an assessment of the roof before approving the lease. Th
 
 River's quote was late as a consequence of the fact that its surveyor could not enter the locked plant room. The measurements are now confirmed. Its revised price includes removing the old boiler, whereas West's price leaves disposal to our maintenance team.
 
-## 000034-185
-
-The ferry could carry cars, but the harbour ramp could not support a loaded delivery lorry. Suppliers therefore unloaded at the quay and sent goods across in smaller vans. The harbour authority strengthened the ramp during the following winter closure.
-
 ## 000034-186
 
 ### Clean the trap
@@ -908,34 +925,13 @@ The ferry could carry cars, but the harbour ramp could not support a loaded deli
 
 Retighten the joint and run water briefly. Check for a leak before putting stored items back under the sink.
 
-## 000034-187
-
-This verb can take a direct object in the dialect. Speakers often omit it when the referent is obvious, and our transcriptions preserve those omissions.
-
 ## 000034-188
 
 The smaller press had the ability to print eighty sheets an hour. It stood beside a window at the back of the shop, where the operator could check each sheet in daylight. Finished pages dried on racks before being gathered into weekly parish newsletters.
 
-## 000034-189
-
-Please keep the draft budget open for comment until Friday. Two travelling members can read it on Thursday evening. I will lock the figures afterward.
-
-## 000034-190
-
-The night supervisor began reviewing the access log after finding the side door open. The log showed a valid staff pass at 22:46. The closer had failed to latch because a delivery strap was caught beneath the door.
-
 ## 000034-191
 
 The courier could enter the loading bay but had no authority to open the sealed returns cage. The shift manager was away from the desk. The driver waited twelve minutes for an authorised keyholder and left with the signed collection sheet at 15:42.
-
-## 000034-192
-
-### Race morning
-- The first crew arrived before seven.
-- The marshal checked each boat at the landing stage.
-- Spectators gathered along the towpath after eight.
-
-A loose board delayed the junior race while volunteers fixed it. The senior crews started at the advertised time.
 
 ## 000034-193
 
@@ -954,10 +950,6 @@ We need to carry out the annual Fire Door Inspection before the tenants' meeting
 
 Please make a determination as to whether the damaged chairs can be repaired. The carpenter will be here on Tuesday and can inspect them while measuring the shelves. We need six seats for the reading group, so keep the usable chairs in the main room.
 
-## 000034-197
-
-Choose the smaller refrigerator. It can hold the lunches counted during our trial and fits under the counter without removing the kitchen's cutlery drawer.
-
 ## 000034-198
 
 Elm's price includes two visits for the provision of training to our staff. Ash charges separately for training. Both quotes include installation during normal opening hours.
@@ -971,105 +963,6 @@ The account holds the status of being inactive after twelve months without a pay
 ### Coding procedure
 Each response was given a classification as either a request or a complaint. Mixed responses received both labels. Two researchers coded the first batch separately, compared disagreements, and revised the examples in the coding guide before continuing with the remaining responses.
 
-## 000034-201
-
-We made a calculation of the median journey time for each ward rather than pooling all journeys across the city. A city-wide median would give the busiest wards more influence because they supplied more records. The ward medians were then plotted against distance from the nearest station.
-
-Journeys with a missing arrival time were excluded before calculating either measure. The table reports those exclusions separately so that differences in recording quality remain visible alongside the travel-time estimates.
-
-## 000034-202
-
-The two recruitment waves were separated by a period that amounted to six weeks. Both used the same invitation letter and eligibility questions. We report the waves separately because a change to the bus timetable occurred between them and could have affected answers about evening access.
-
-## 000034-203
-
-Replacement straps are available at a cost which is 12 pounds per pair. Each pair includes the two buckles, but the screws are sold separately. Check the width stamped on the old buckle before ordering, since the narrow strap will pass through the wider buckle without fastening securely.
-
-## 000034-204
-
-The opening of the bridge took place during the month of September, after the harvest traffic had begun. The first crossing was made by a horse-drawn cart carrying sacks from the mill. Pedestrians continued to use the old footbridge until the council fitted a separate walkway the next spring.
-
-## 000034-205
-
-For the purpose of keeping the rain out, the builders fixed a sheet of corrugated iron above the ticket window. The projecting roof also shaded the clerk's desk in the afternoon.
-
-Photographs from the following decade show passengers gathering beneath it while waiting for the market bus. A timber bench appeared later, paid for by the shopkeepers whose premises faced the stop. The shelter remained after the ticket office closed and was finally removed when the road was widened.
-
-## 000034-206
-
-The council decided to carry out the replacement of the damaged clock face rather than repair its cracked rim. A local firm copied the surviving numerals from photographs. The mechanism stayed in the tower, where the caretaker continued to wind it each Friday while the new face was being made.
-
-## 000034-207
-
-Please let me know your answer to the question of whether we should renew the storage lease. The landlord needs a reply by Friday, and I will be away on Thursday.
-
-The revised quote keeps the monthly rent unchanged but adds a charge for weekend access. We used that access twice during the last stock count. I have attached the entry log so you can check whether keeping it is worth the extra charge.
-
-## 000034-208
-
-The delay occurred as a result of the fact that the parcel was sent to the collection desk instead of your flat. I have asked the depot to put it on tomorrow's delivery round. Please leave the entrance code in your reply if it has changed since your last order; the driver will receive it with the corrected address.
-
-## 000034-209
-
-Please let us have a confirmation of whether the fault occurs with both headphones disconnected. That will help us distinguish the speaker circuit from the headphone socket. You do not need to open the radio or remove any screws.
-
-If the speaker still cuts out, reply with the serial number printed on the underside. I can then check which replacement board fits this model and arrange a collection if the repair is covered.
-
-## 000034-210
-
-The paper-size setting is to be found in the section of the menu labelled Print Layout. Choose A5 there before opening the preview. The printer tray setting is separate, so check that the tray also contains A5 paper if the preview is correct but the printed page is cropped.
-
 ## 000034-211
 
 The cost of having Cedar collect the old unit comes to a figure of 75 pounds. Willow includes collection in its installation price, but only if we drain the unit beforehand. Cedar will drain it on site. The caretaker can do that work on Monday, so the included collection makes Willow cheaper for this booking.
-
-## 000034-212
-
-The display gave an indication of the fact that the rear door was still open. The operator stopped the conveyor and checked the latch. A strip of packaging had caught between the door and frame. After it was removed, the display cleared and the operator completed the normal start-up checks before restarting the line.
-
-## 000034-213
-
-At the point in time at which the gates reopened, fourteen lorries were waiting on the approach road. The marshal admitted them in groups of three to keep the weighbridge clear. Two drivers had exceeded their booked arrival windows during the closure; dispatch retained their original places in the queue.
-
-The delivery register records the revised unloading times. No refrigerated load remained outside its permitted waiting interval.
-
-## 000034-214
-
-### Restored folder paths
-The restore command now returns files to the folder from which they were deleted. It removes the requirement for users to carry out a manual recreation of the original folder structure.
-
-If a parent folder has also been deleted, the command recreates it before returning the files. Existing folders keep their current sharing settings. The recovery history lists each recreated folder alongside the restored files so that administrators can inspect the changes afterward.
-
-## 000034-215
-
-We carried out the process of grouping addresses by postcode before drawing the sample. Within each group, a random start determined the first selected address, and every tenth address was selected after that. This kept the sampling interval constant while allowing each postcode group to begin at a different position.
-
-The listing included empty properties because occupancy could change before fieldwork. Interviewers recorded those properties at the visit stage rather than replacing them with neighbouring addresses.
-
-## 000034-216
-
-The hall caretaker carried out the task of putting away the folding chairs after each Saturday screening. He stacked them in the former ticket office, leaving the main floor clear for the Sunday market. The projector stayed in a locked cupboard above the stage.
-
-When the market moved to the school yard, the chairs could remain in rows over the weekend. The caretaker then had only the projector and the unsold programmes to secure before locking the hall.
-
-## 000034-217
-
-The museum volunteers will undertake the task of sorting photographs for the autumn exhibition on Saturday morning. Please leave any photographs you would like to lend at reception by Friday afternoon, with your name and contact number inside the envelope. Keep photographs from the same album together if you know their original order.
-
-The volunteers will scan the photographs and return the originals to their owners. Reception will contact you when yours are ready to collect; the exhibition will use the scans.
-
-## 000034-218
-
-Places on the community minibus are available for either the morning or the afternoon trip. Please make a decision regarding which trip you want before returning the booking slip. The morning bus leaves the square at nine, and the afternoon bus leaves at two. Each trip returns three hours after departure.
-
-Return your slip to the village shop by Thursday. The driver will phone on Friday to confirm your place and arrange a different pick-up point if you cannot get to the square.
-
-## 000034-219
-
-I can see that the camera is still linked to your old phone. Please carry out the task of removing the camera from the device list on that phone before trying to pair it with the new one. The old phone only needs a Wi-Fi connection for this step; its SIM card can stay in the new phone.
-
-If the old phone is no longer available, send me the serial number from the camera base. I can then check the account record and help release the existing link.
-
-## 000034-220
-
-You can collect the repaired watch at a branch or have it sent by courier. Please arrive at a decision as to how you want it returned and reply to this message by Wednesday. If you choose a branch, include its name; if you choose delivery, confirm the address on the repair receipt. I will keep the watch at the workshop until I hear from you.
