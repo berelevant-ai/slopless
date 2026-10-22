@@ -124,6 +124,24 @@ Please photograph the whole entire label on the parcel you received last week an
 
 I can arrange collection from your workplace if that is easier than waiting at home. The driver needs a staffed reception and a telephone number for the handover. Reply with the address and a day when reception can accept the collection sheet. Once the collection is booked, I will send that sheet separately from the replacement tracking link. Show the driver the sheet and keep the signed copy; it connects the returned package to this case even if the remaining barcode cannot be read.
 
+Version 6.3 adds a delivery calendar to the warehouse dashboard. The calendar opens on the current week and groups bookings by loading bay. Staff can switch to a list when printing a day's schedule; the printed list includes the driver's telephone number only for users with dispatch access.
+
+## Booking ownership
+
+Bookings now store the depot's time zone rather than the time zone of the person entering them. A dispatcher working from another region can therefore enter a seven o'clock delivery without shifting the slot shown to staff at the receiving depot. Existing bookings keep their displayed depot time during the migration.
+
+Colour: Amber indicates a booking awaiting confirmation from the carrier. Confirmed bookings use the carrier's assigned colour. The calendar legend lists the carrier names beside their colours, and the printed list uses those names because it may be printed in black and white. Cancelled bookings remain in the activity log but disappear from the working schedule.
+
+## Attached documents
+
+A booking can hold a packing list and a vehicle-access form. The access form remains visible to security staff after the delivery is marked complete, while the packing list follows the warehouse retention setting. Both uploads appear in the activity log with the uploader's name. Replacing a document preserves the earlier version for dispatch supervisors.
+
+## Display behaviour
+
+The time zone saved on a booking belongs to the depot, independently of the location of the dispatcher who created it. Entering seven in the morning from another region therefore leaves the delivery at seven on the receiving depot's calendar. Migration preserves the depot time already shown on older bookings.
+
+Administrators can enable the calendar for one depot at a time. The first enablement creates a blank schedule for future dates and imports the next thirty days of confirmed deliveries. Review the import count before enabling a second depot; the calendar will show that count in the setup log.
+
 The bakery set yesterday's bread on a separate shelf before the morning queue formed. Moving it away from the fresh loaves prevented the two prices from being confused at the counter. The older bread remained suitable for toast, but its paper label carried a lower price and the date it had been baked. Staff could reach that shelf without passing through the main queue.
 
 The first customer bought rolls for a meeting and asked for the receipt to name the office. The assistant entered the company details while another worker filled the bag. A tray came out of the oven, and the baker left it on the rack to cool before brushing the tops. The outside exterior of the oven door was streaked with flour from an earlier batch.
@@ -145,6 +163,18 @@ Choose a fifteen-minute appointment in the shared calendar rather than arriving 
 The photographer will supply a colour image and a monochrome version of each selected portrait. Communications will use the colour version on the staff directory unless you request otherwise. You will receive a private link to choose between the two poses taken during your appointment. Please send your selection within a week so the photographer can complete the edits together.
 
 Using calendar appointments avoids a queue outside the meeting room, leaving reception space to guide visitors around the lights and background. Please select a fifteen-minute slot instead of dropping in when you have a gap. The directory will be updated after the edited photographs arrive, with individual notification when each new image is published.
+
+The community centre will hold its annual equipment sale on Saturday, from ten until two. Volunteers have checked the folding tables, spare chairs, and sports equipment against the disposal list. Sale proceeds will pay for replacement storage racks in the rear cupboard. Items currently used by the nursery have been removed from the list.
+
+## Card payments are unavailable
+
+We cannot accept payment by card. Please bring cash if you intend to buy anything. The nearest cash machine is inside the grocery shop, which opens at nine. The sale desk can hold a paid item until closing time, but volunteers cannot reserve an item while a buyer leaves to withdraw money.
+
+Collection: Use the side gate for tables and other bulky items. The main entrance must stay clear for the morning exercise class. A volunteer will measure the largest tables before the sale and leave those measurements beside the price labels. Check your vehicle's loading space before paying; the centre has no van available for deliveries.
+
+The kitchen will serve tea from half past ten. Its cups and urn are staying in use, even though the older serving trays are included in the sale. Please ask the kitchen volunteer before carrying anything from that room to the sale desk.
+
+At one thirty, volunteers will move unsold equipment to the marked area beside the side gate. The collection vehicle is booked for two fifteen, after visitors have left. Keep the bulky-item collection route open during that move; buyers who have already paid may still be arriving with vehicles. The sale coordinator will remain by the gate until the final paid item has been collected. Any owner unable to return by two should speak to the coordinator before leaving the centre.
 
 The catering refrigerator alarm sounded at 04:18 because its door had not closed against the seal. Warm air entering around the gap raised the internal temperature above the alarm threshold. The night porter shut the door and called the duty chef, who arrived at 04:40 to check the food temperatures. Items nearest the door were moved to the spare refrigerator.
 
@@ -238,6 +268,36 @@ I carried out a calculation of the total cost using two replacement battery pack
 
 Current has a useful advantage for outdoor meets: its screen remains clearer in direct sunlight. Our annual outdoor gala is held at the municipal pool, which supplies its own timing equipment, so that difference has little value for this purchase. Before ordering Reef, we should borrow one board for a session and check that a volunteer can change the pack with wet hands. The equipment officer has agreed to record the result and confirm which spare parts need to be included in the order.
 
+The field survey records trees within the public boundary of each square. Surveyors use the same map edition and walk the boundary before counting, since fences and planted borders sometimes cross the legal edge. Trees in private gardens are recorded on a separate sheet when their branches extend over the pavement.
+
+## Identifying trees
+
+The survey form uses a tag number as the tree's identifier. A tag stays with the record when a species name is corrected, so measurements made before and after identification can be joined. Using the species name as the identifier would split one tree's measurements into separate records whenever that name changed.
+
+## Measuring the trunk
+
+The tape has the ability to display diameter directly from the circumference reading. Place it at the marked height and keep it level around the trunk. Where a fork falls below that height, measure each stem and record the fork in the notes field. The form preserves those stem measurements separately rather than adding them into a single diameter.
+
+## Recording uncertainty
+
+A provisional species name receives a question mark in the identification field. Surveyors can attach a leaf photograph and ask the botanist to check it later. Keep uncertainty about the name separate from uncertainty about the measurement; a firm measurement can remain useful while the identification is being checked.
+
+## Linking measurements
+
+A tag number identifies the tree even if its recorded species changes. It therefore allows measurements from before and after a correction to remain together. If the species name served as the identifier, changing that name would divide measurements from the same tree between different records.
+
+At the end of each day, the team leader compares the uploaded record count with the numbered sheets. A missing sheet receives a follow-up entry before the original forms are stored. The botanist reviews the flagged photographs in a separate queue, and the system records each corrected name with the date and the person who supplied it.
+
+The records room will move to the second floor on Thursday. The movers will take the closed boxes first and return for the empty shelving after lunch. Please leave the stair landing clear; the public lift will remain available for visitors. Any box still needed on Wednesday should stay at its owner's desk until the final collection.
+
+## Access during the move
+
+The records clerk can retrieve an urgent file until ten on Thursday morning. After that, the sealed boxes will be loaded in shelf order, and opening one would disrupt the delivery sequence. Give the clerk the file number and the deadline, rather than searching the packed shelves. The access restriction applies to paper files; the scanned case register will remain online throughout the move.
+
+Destination: Room 204, beside the staff kitchen. The room number will appear on the new directory when the shelving is installed. The committee has authorised the transfer of the collection, but only the records officer can authorise destruction of an individual file. Keep the retention list with the officer rather than packing it among the case papers.
+
+Friday's team meeting will use the training room because the movers need space to assemble the shelving. Bring the current register printout to that meeting so we can check which boxes arrived and assign searches for any missing ones. The first retrieval request in the new room should include both the old shelf number and the file number. That temporary second reference will help us identify errors while the location records are being updated. Once the reconciliation is finished, the clerk will remove the old shelf field from the request form.
+
 The community orchard will open for picking on Saturday, from ten until two. Volunteers have checked the fruit on the lower branches and marked the trees that are ready. Please pick only from trees with a green ribbon. The red-ribbon trees are reserved for next weekend, when their later varieties should have softened enough to use.
 
 Bring a bag or a shallow box. We have a few spare containers for people arriving on foot, but last year's cardboard trays became damp and split under a full load. Children can help from ground level; the ladders are for trained volunteers. Anyone who wants fruit from a high branch can ask at the tool table. The volunteers will combine requests so they move each ladder only a few times.
@@ -311,6 +371,26 @@ The parish office has agreed to store the children's balance bikes during the wo
 If the contractor needs an extra day because of rain, the caretaker will change the date on the gate notice. The temporary racks can remain in place through the weekend.
 
 Clear panels let daylight into the bicycle shelter where the opaque roof used to block it. That daylight reduces the need for electric lighting during the hours when the shelter is open in the day.
+
+The library's home-delivery service brings reserved books to members who cannot visit a branch. A volunteer calls before the first delivery to check the address and where the bag should be left. Members can request a regular selection or choose particular titles through the catalogue.
+
+## Deliveries are fortnightly
+
+A delivery comes once every two weeks. The route day depends on the address, and the coordinator will give you the date before adding your first bag to the route. A neighbour may take in the bag if that arrangement is recorded on your account. Volunteers carry a centre identification card and will show it when asked.
+
+## Managing reservations
+
+A home-delivery reservation stays in the catalogue queue until a copy reaches the branch. The branch then assigns that copy to the member before it is packed. This preserves the member's position in the same queue used by branch visitors; receiving books at home does not create a separate priority list.
+
+## Returning items
+
+Put returns in the empty delivery bag and leave it in the agreed place on the morning of the visit. You can keep a book for another fortnight if nobody else has reserved it. Tell the coordinator before packing day so the volunteer's sheet records the renewal. Large-print and audio items can travel in the same bag as ordinary books.
+
+## How the catalogue handles requests
+
+Requests from home-delivery members wait in the catalogue queue until a branch copy arrives and is allocated for packing. The member keeps the same queue position as someone collecting at a branch. Home delivery therefore uses the ordinary waiting list rather than a priority list of its own.
+
+To join, telephone your usual branch and ask for the home-delivery coordinator. Have your membership number ready. If another person will choose books on your behalf, the coordinator will record that permission during the first call.
 
 The station clock returned to the platform on a Tuesday, wrapped in two grey blankets. For six weeks its place above the shelter had been marked by a pale circle on the brickwork. Passengers had used the departure screen instead, though its small digits were hard to read from the far end.
 
@@ -408,6 +488,12 @@ For each continuing tenancy, we compared the payment due in the same calendar mo
 
 Advertised rent and paid rent describe different stages of a letting. A concentration of vacant properties can push the advertised figures upward without changing occupied tenants' payments, which is why the comparison keeps the two series apart.
 
+Turn off the supply at the local valve and open the tap to release the remaining water. Keep the plug in the basin while removing the handle screw. The screw is tiny and minute, and a dropped one is difficult to recover from the trap. Put the handle and cover in a shallow bowl in the order they came off, then loosen the valve assembly with a spanner that fits its flats.
+
+Lift out the valve assembly and remove its retaining screw and old washer. Check that the replacement matches the old one. A washer with the same outside diameter can still have a different centre hole. Put the two beside each other and compare their thickness as well. The new washer should sit flat against the valve face rather than hanging loose around the retaining screw.
+
+Replace the washer, refit the assembly and close the tap without forcing it. Open the local supply slowly while watching the joint beneath the handle. A leak there concerns the upper seal rather than the washer you changed. Once that joint stays dry, run the tap briefly and close it again to test for a drip from the spout. If the tap still drips, check the washer's seating before tightening the handle harder. Excess force can deform a correctly sized washer and make the next repair more difficult.
+
 The village hall committee will try a quieter setup for the next film evening. Chairs will be placed in shorter rows, leaving a wider route to the side door. People who expect to leave before the end can choose seats near that route without stepping past a full row.
 
 Please make a notification to the booking secretary if you require a space for a wheelchair. The hall has removable seats, and the volunteers can arrange a space beside a companion seat before the audience arrives. Booking a space is different from reserving a particular row; the secretary will confirm the position after checking the room plan.
@@ -488,6 +574,16 @@ Yesterday's invoice reflects the twelve seats present when the subscription rene
 
 I will hold the ticket until Friday while you retrieve the confirmation. If you need longer, reply to this message and I will extend the hold.
 
+A recorded walking tour is easier to maintain if the audio files and the printed map use the same stop numbers. Before recording, walk the route with a draft map and check that each place where a listener must turn has a visible landmark. A shop name may change during the season, so include the street name at a junction.
+
+For each stop, keep an editable recording and a compressed listening copy. Editing the original preserves room tone and gives the sound editor enough detail to remove a cough without magnifying compression noise. Repeatedly editing the listening copy can leave audible artifacts around a splice, even when the spoken words are unchanged. Save the editable file in the production archive and send only the listening copy to the web team.
+
+Ask a volunteer who has not seen the script to try the route. Let that person choose the volume on their own phone and note where traffic masks a sentence. Record their comments against stop numbers rather than timestamps, because the next edit may move the wording. If the route crosses a private courtyard, confirm its opening hours with the person who controls the gate before including it on the map.
+
+During production, the editable recording retains the detail and room tone needed to remove a cough cleanly. A compressed listening copy can develop audible noise at an edit when it is repeatedly altered. Keep the original in the production archive and give the web team the compressed version.
+
+After upload, check every map code using a phone on a mobile connection. A working link on the office network may still point to a page restricted to staff. Give each stop page a short text alternative that identifies the location and the next turn. The alternative should remain useful to someone whose phone cannot play audio, including a visitor who has reached the page from an old printed map.
+
 I recommend Reed for the first run of museum tote bags. Its sample has a tighter weave than Glen's, and the handles remained flat after the wash test. The difference matters because the shop will display the bags folded on a narrow shelf.
 
 Reed's quote is higher by 180 pounds for the order. The quoted price excludes delivery. Delivery is not included in that price. Both suppliers can use the artwork we already have, but Glen requires us to approve a paper proof before it produces a sample. Reed has offered a sewn sample with the print in place, which will let the shop manager check the image near the seam.
@@ -511,6 +607,16 @@ During the closure, volunteers cleaned the display cases on the ground floor. Th
 On opening day, the carpenter returned to check the fit of the brackets after visitors had used the stairs. The caretaker added that check to the building log and placed the tagged spare screws in the workshop cupboard.
 
 The handrail needed to move because its old fixings sat near softened board ends. The new position secured it to the sound crossbeam, which provided the firm support needed to reopen the gallery.
+
+The cafe's rear door alarm sounded at 06:42, before the opening team arrived. The monitoring company called the duty manager, who met the first employee at the front entrance. They stayed outside until the contracted guard had checked the building and confirmed that the rear door was locked.
+
+Cause - loose door-contact magnet: A loose door-contact magnet triggered the alarm. The guard found the magnet beside the frame, still attached to a strip of old adhesive. There were no marks on the lock, and the camera showed no one approaching the door during the alarm period. The guard secured the magnet temporarily and left a service request for the alarm contractor.
+
+The manager checked the cold-room display and the till before allowing the team to start work. Both showed their usual overnight status. The opening checklist was completed at 07:15, and the first delivery arrived ten minutes later. The driver used the front entrance because the rear-door contact had been marked for inspection.
+
+The contractor will conduct a review of the fixings on all external door contacts during today's visit. The service request specifies replacement screws where the frame permits them, rather than another adhesive strip on a damp surface. The contractor will record any frame that requires a different mounting plate and send photographs with the service report.
+
+Until that visit is complete, the duty manager will check the rear-door contact when closing and enter the result in the security book. If the magnet moves again, the manager will contact the monitoring company before setting the alarm. The repair test must include opening and closing the door several times, followed by a test call to confirm that the monitoring company receives the signal from that contact.
 
 The residents' association has arranged a shared garden-waste collection for the terrace next month. The contractor will accept branches, leaves and untreated wood. Soil and broken paving need a different collection because the vehicle weighs garden material separately from construction waste. Put sacks behind your gate until the collection morning so the pavement remains open for wheelchairs and pushchairs.
 
@@ -541,6 +647,18 @@ The catering quotes cover the same number of lunches but different service arran
 Both menus are almost entirely vegetarian. Each includes one fish dish, with a separate serving utensil and a label identifying it. Orchard lets us replace the fish with another bean dish at the same price. Field Table charges for a menu change after the order is confirmed, even if the replacement ingredients cost less. We should settle dietary requirements before accepting its quote.
 
 My preference is Field Table for the workshop and Orchard for the staff training day. Before proceeding, we need to give consideration to the question of access to the service lift. Field Table's trolley will not fit through the smaller kitchen door, and its attendant cannot leave the buffet to carry trays upstairs individually. Ask the venue manager to reserve the lift for delivery and collection. If it is unavailable, Orchard's smaller carriers may be the workable choice for both events, despite the extra replenishment work that would fall to our staff.
+
+We asked two firms to quote for replacing the reading room blinds. Harbour Interiors can fit the new blinds during a single evening visit. Penrose needs two mornings because its installer travels from another county. Both firms measured the same windows and allowed for removing the existing tracks.
+
+## Harbour includes removal of the old blinds
+
+Removing the old blinds is included in Harbour's price. Penrose charges for a separate collection after its fitter has finished. The reading room has no secure space for the removed tracks, so the collection charge should be included when comparing the totals. The old tracks are longer than the caretaker's van can carry.
+
+Harbour's fabric sample has a denser weave and blocks more light. That helps during projected talks, but it also makes the room dimmer for ordinary reading when the blinds are partly closed. Penrose offers a lighter fabric that staff can pull down behind the west-facing seats without darkening the whole room. Both samples meet the specification supplied by the building manager.
+
+Due to the fact that evening talks are now held in the lecture room, I favour Penrose's lighter fabric. Its two morning visits can take place before the library opens if we confirm the booking this week. I have added its collection charge to the attached comparison, so the quoted totals cover the same work.
+
+Please ask both firms to hold their samples until Friday. The librarian will check glare at the west-facing desks on Thursday afternoon, when the room receives direct sun. If that check shows the lighter fabric leaves the reading lamps reflected on the tables, we should ask Penrose for its next denser option before placing the order. That would change the fabric price while leaving the installation schedule intact.
 
 In this edition, square brackets distinguish supplied words from words present on the manuscript. A damaged edge can remove a verb ending while leaving enough context for a plausible reconstruction. Printing the supplied letters in brackets allows readers to separate that editorial inference from the surviving ink. The brackets identify the status of the text rather than the editor's level of confidence.
 
@@ -736,6 +854,16 @@ Production resumed at 14:46 after ten empty cartons passed through without catch
 
 The sensor stopped the belt because a carton was trapped beneath the rail. Stopping it there keeps the trapped carton out of the sealing head, avoiding the need to remove the guard to reach it.
 
+At 09:18, the booking desk lost access to the room calendar. Staff could open the application but received an error when selecting a date. The duty manager switched to the printed schedule and recorded incoming requests in the bound desk book. Existing room users kept their bookings, and the reception team accepted no new same-day bookings during the outage.
+
+Fault unresolved: The fault has not yet been resolved. The supplier has reproduced the error using a copy of the affected calendar and expects to send a repair for testing this afternoon. The fault began after a room was removed from the recurring-booking list; the supplier is checking whether bookings still refer to that deleted room.
+
+The team has recorded each telephone request with the caller's number, requested date, and preferred room. Two callers asked for dates already shown as occupied in the printed schedule. Those requests have been marked for a return call, rather than entered as confirmed reservations. A third caller requested a date beyond the range of the printout, and the desk offered to check it after access returns.
+
+At the next shift change, the incoming receptionist should count the unprocessed requests and sign beside the last entry. This gives the duty manager a record of which requests still require a call. Keep the desk book at reception until the calendar entries have been checked against it.
+
+Once the supplier's repair is installed, the duty manager will test a new booking, a cancellation, and a recurring booking before reopening online requests. Reception will then contact the three waiting callers in the order recorded. The manager will add the test results and the time normal booking resumed to this report.
+
 When painting a panelled door, remove the handle before starting. Painting around it can leave a ridge that catches the handle plate when it is tightened later. Removing it also lets you cover the wood beneath the plate, so a replacement handle with a smaller plate will not expose an unpainted patch. Keep the screws in a cup beside the door.
 
 Wash the door to remove grease, then let it dry before sanding. Use a sanding block on the broad rails and folded paper along the moulding. The surface should feel smooth under your hand, but there is no need to remove sound paint completely. Brush dust from the grooves before wiping the whole door with a clean cloth. Small particles can collect in the lower corners even when the broad panels look clean.
@@ -748,6 +876,18 @@ Open Parking, select the blue permit number, and choose Change vehicle. The form
 
 The visitor gate will remain available while we investigate yesterday's failed entry. I have attached a temporary code that works until noon on Thursday. If the staff gate still refuses entry after your account shows the correct plate, reply with the time and the lane number. Those details will let us locate the camera record without asking you to send a photograph of your permit.
 
+The exhibition captions are ready for the designer's first layout. Please finish corrections in the shared spreadsheet by Wednesday noon. The photographer is still checking two image credits, which are marked in yellow; leave those cells unchanged until she has confirmed the licence wording.
+
+Each object has a permanent catalogue number in the first column. Use that number when leaving a comment, because the designer may move captions between panels as the layout changes. A panel title can change during editing, while the catalogue number continues to identify the same object. This lets us connect a correction with the right caption after the room order has been revised.
+
+The longest panel has space for about 140 words at the agreed type size. We can shorten individual captions after seeing the layout, but cutting every caption to the same length now would remove details from objects that need more explanation. Mark a proposed cut in a comment rather than deleting an attributed quotation from the text.
+
+In the event that a credit is still unresolved on Wednesday, send the designer the caption with the credit cell highlighted. She can reserve the space while the photographer checks the permission. A provisional credit must stay out of the print-ready export; the production coordinator will compare that export with the signed permission sheet.
+
+When commenting, identify the object by its permanent catalogue number. Titles and panel positions may change in the design, whereas the catalogue number stays attached to the object. Using that number keeps each correction linked to its caption even after the room sequence changes.
+
+The designer will return the first layout on Friday. We will review it at Monday's installation meeting, using printed copies so we can check the relationship between captions and image sizes. Please send any planned absence to the coordinator before Friday so she can assign the relevant panels to another reviewer.
+
 The repair shop kept a shallow drawer for watches awaiting parts. Each watch lay in a paper envelope with its owner's name facing up. Paper stopped the cases rubbing against one another and gave the watchmaker somewhere to record a missing screw or a bent hand. On busy mornings, he could read those notes without opening every envelope.
 
 A customer arrived shortly after nine carrying a kitchen clock in a shopping bag. The watchmaker cleared a space beside the vice and tested the winding key. It turned freely, but the mechanism did not move. He asked whether the clock had recently fallen. The customer said it had stopped during the move to a new flat and had spent several weeks lying on its face.
@@ -755,6 +895,18 @@ A customer arrived shortly after nine carrying a kitchen clock in a shopping bag
 The watchmaker took steps to carry out the removal of the back plate. A loose washer dropped onto the bench. He placed it in a saucer and showed the customer the empty spindle it belonged to. The repair would need a new retaining clip, which he expected with the next parts delivery. The customer left the clock and took a numbered receipt.
 
 The watches stayed in paper envelopes because the paper protected their cases from scratches. The envelopes also held notes about missing or damaged components, allowing the watchmaker to read what each watch needed without taking it out.
+
+Your account still contains the photographs from the previous phone. The empty gallery on the replacement phone means the app has not finished linking to the existing collection. Please keep the old phone signed in until the new phone shows the same number of albums; that gives you a way to compare the result without downloading the collection again.
+
+## Check the account address
+
+Open Settings on the new phone and compare the address with the one shown on the old phone. The address used for store purchases can differ from the address used inside the photo app. If the two app addresses differ, sign out on the new phone and use the address shown in the old app. You can leave the store account unchanged.
+
+If the addresses match, please perform an examination of the upload status on the old phone. An album can appear there before its full-resolution files have reached the server. The status page lists files still waiting for Wi-Fi and files waiting for the phone to be connected to power. Leave the phone connected overnight if either count is above zero.
+
+Reference: Include ticket 8246 in your reply. Send the two album counts and the last successful upload time from the status page. A screenshot is useful if an error appears, but please crop any private album titles before attaching it.
+
+After the waiting counts reach zero, reopen the new phone's app and choose Refresh collection. That command asks the server for the current album list; it leaves the pictures on both phones in place. If the album counts still differ, we can check the account's transfer log using the times you supplied. Keep both phones signed in during that check so a support request does not interrupt the remaining upload.
 
 At 14:06 the booking site displayed no available pottery sessions for the following week. The sessions were still present in the staff calendar. A new room filter had excluded the studio because its public category was blank, so the public page received an empty result.
 
@@ -972,11 +1124,13 @@ For rail tickets, attach the booking receipt rather than a screenshot of the jou
 
 Team managers will receive an approval queue on the following morning. Please assign a deputy before taking leave, since finance cannot approve an expense on a manager's behalf. Timely entries are needed because finance uses them in the next customer billing run; late entries leave the cost with us until a later invoice. The finance team will hold a drop-in session on Thursday for anyone whose project code is missing from the form. Bring the purchase record and the name of the project manager so the code can be checked against the active contract.
 
-Turn off the supply at the local valve and open the tap to release the remaining water. Keep the plug in the basin while removing the handle screw. The screw is tiny and minute, and a dropped one is difficult to recover from the trap. Put the handle and cover in a shallow bowl in the order they came off, then loosen the valve assembly with a spanner that fits its flats.
+Version 2.8 adds a receipt filter to the expense register. You can show entries with receipts, entries without receipts, or both. The filter applies to the current reporting period and is saved separately for each workspace.
 
-Lift out the valve assembly and remove its retaining screw and old washer. Check that the replacement matches the old one. A washer with the same outside diameter can still have a different centre hole. Put the two beside each other and compare their thickness as well. The new washer should sit flat against the valve face rather than hanging loose around the retaining screw.
+We have made an adjustment to the way in which foreign-currency totals are displayed. The register now shows the original amount beside the converted amount instead of hiding it in a tooltip. Both amounts are useful when checking a card statement, since the bank may use a different conversion date. The report footer still uses the rate selected by the finance team.
 
-Replace the washer, refit the assembly and close the tap without forcing it. Open the local supply slowly while watching the joint beneath the handle. A leak there concerns the upper seal rather than the washer you changed. Once that joint stays dry, run the tap briefly and close it again to test for a drip from the spout. If the tap still drips, check the washer's seating before tightening the handle harder. Excess force can deform a correctly sized washer and make the next repair more difficult.
+Approvers can now return one line of an expense claim while approving the other lines. The returned line remains editable by the claimant. Approved lines are locked, and their reimbursement date appears beside the status. The new claim export includes each line's status, receipt reference, and reimbursement date; the older register export contains totals alone. This is the most complete export available within the application; supporting bank documents still need to be downloaded from the bank.
+
+For administrators, the audit log now records changes to reimbursement dates. Each entry identifies the editor and shows the old date beside the new one. To check a changed date, open the claim from the log rather than searching the register. That link preserves the relevant reporting period even if your saved filter is set to another month.
 
 Version 4.6 changes how the desktop editor handles linked photographs. A project now stores the folder's permanent identifier rather than its displayed name. Renaming a folder therefore leaves its photograph links working, provided the folder remains on the same drive.
 
@@ -1030,12 +1184,6 @@ I have booked the small upstairs room for Wednesday's interviews. It seats four 
 
 After Tuesday's visit, send me the assessor's reference number so I can attach her report to the disposal request. That is the point at which the insurer's separate approval becomes relevant. The cabinet's contents are already listed in the shared inventory, so the assessor will only need access to the cabinet itself.
 
-A water leak was found beneath the meeting room radiator at 08:10 on Monday. The cleaner placed a bucket under the joint and notified reception. Facilities closed the heating valve at 08:24. The water had reached the carpet tiles beside the cupboard but had not entered the floor socket beneath the table.
-
-The plumber's initial first inspection found a split washer in the return joint. He replaced the washer and tested the connection with the system cold. Due to the fact that the heating schedule had already ended, the joint could not be checked at operating temperature until the following morning. The room remained closed overnight, and the dehumidifier ran with its discharge hose secured in the sink.
-
-Tuesday's hot test showed no further leakage. Facilities lifted six carpet tiles, dried the floor beneath them, and replaced two tiles whose backing had separated. Reception then reopened the room for the afternoon bookings. The floor socket was inspected before power was restored to the table. The work order includes photographs of the damaged washer and the affected tiles. Accounts will use that order to separate the plumbing charge from the carpet replacement when the contractor's invoice arrives later this week.
-
 The pottery group will meet in the ground-floor studio next term. The larger room lets us leave work on drying racks between sessions, so members will no longer need to carry fragile pieces home before they can be fired. The move also gives the tutor access to the sink beside the courtyard door. Class times and membership fees remain unchanged.
 
 Please label your tools with your initials. The studio has shared rolling pins and boards, but members often bring smaller tools from home. A tray beneath each workbench will hold those items during the session. We will keep unclaimed tools in the office for a month before adding them to the shared supply. Clay should be bought through the tutor because the kiln schedule is set for the club's usual clay body.
@@ -1062,12 +1210,6 @@ With regard to the question of adapters, a plug adapter changes the connection r
 
 Power can vary with the supply even when the kettle supports both voltages. A model that boils quickly at home may take longer in a hotel abroad. Compare the wattage listed for each voltage if speed matters to you. For a shared office kitchen, a fixed-voltage kettle with a local plug may be easier to manage because users will not need to check a switch. Keep the instructions near any switchable model so the next person can confirm its setting before use.
 
-The replacement hinge can be fitted to your cupboard without drilling new holes. Your photographs show the older mounting plate, which accepts the current hinge body. Keep that plate attached to the cabinet and release the damaged hinge at the clip behind its arm. The replacement pack contains a plate as well, but you will only need it if the existing screw holes have become loose.
-
-Before ordering, please carry out a measurement of the distance between the two fixing screws on the door. We need that figure because the cupboard was sold with two door patterns. The hinge cup itself is circular in shape and looks similar in both versions. The screw spacing distinguishes them more reliably than the colour of the metal or the shape of the release clip.
-
-Send us the screw spacing and a photograph of the current gap above the drawer with your order number. We can then select the correct pack and tell you which adjustment screw to use after fitting. When the replacement arrives, support the door's outer edge while releasing the damaged hinge. A second person can hold it level, or you can rest it on a box covered with a folded towel. Once the new hinge is attached, close the door gently and check the gap above the drawer before making the final adjustment.
-
 Version 4.8 changes how the field notebook handles photographs taken without a connection. Images now remain on the device until the server acknowledges receipt. A weak signal can interrupt an upload after the progress bar reaches its end, so retaining the local image prevents that interruption from losing the only copy. The notebook displays a hollow cloud beside photographs awaiting acknowledgement.
 
 The map also includes a smaller distance scale and clearer labels for private tracks. These labels come from the downloaded survey layer and can be several months old. A locked gate on the ground takes precedence over an open track on the map. Teams sharing a device can now choose a different initials field for each session without signing out of the workspace.
@@ -1076,11 +1218,29 @@ For administrators, the export log contains the application version used to reco
 
 Photographs are kept locally until the server confirms that it has received them. Reaching the end of the progress bar can happen before that confirmation when reception is poor, and keeping the local image avoids losing the sole copy during an interrupted upload.
 
+The replacement hinge can be fitted to your cupboard without drilling new holes. Your photographs show the older mounting plate, which accepts the current hinge body. Keep that plate attached to the cabinet and release the damaged hinge at the clip behind its arm. The replacement pack contains a plate as well, but you will only need it if the existing screw holes have become loose.
+
+Before ordering, please carry out a measurement of the distance between the two fixing screws on the door. We need that figure because the cupboard was sold with two door patterns. The hinge cup itself is circular in shape and looks similar in both versions. The screw spacing distinguishes them more reliably than the colour of the metal or the shape of the release clip.
+
+Send us the screw spacing and a photograph of the current gap above the drawer with your order number. We can then select the correct pack and tell you which adjustment screw to use after fitting. When the replacement arrives, support the door's outer edge while releasing the damaged hinge. A second person can hold it level, or you can rest it on a box covered with a folded towel. Once the new hinge is attached, close the door gently and check the gap above the drawer before making the final adjustment.
+
 Choose a dry day to replace the felt on a shed roof. Remove the old covering in strips, working from the higher edge towards the gutter, and put the nails straight into a container. Old felt can hide soft boards beneath an apparently sound surface. Walk only where the supports carry your weight, and replace damaged boards before unrolling the new material.
 
 For the purpose of measuring the strips, allow the overlap specified by the felt manufacturer and an overhang at each end. Cut the first strip on a flat surface rather than on the roof. Position it along the lower edge, check the overhang, then fix its upper edge loosely while you straighten it. A second person can hold the far end without stretching the sheet out of shape.
 
 Spread adhesive where the next strip will overlap the first. The two layers should overlap each other at that joint, with the upper sheet shedding water onto the lower one. Brush out trapped air before adding the final fixings. Finish the edges with the trim appropriate to your roof's construction. Once the adhesive has set, clear the gutter of grit and felt scraps so the first rainfall can drain freely into the downpipe.
+
+Check the maker's instructions before cleaning a removable cooker hood filter. Some metal filters can go in a dishwasher, while others have a coating that requires hand washing. A charcoal filter normally needs replacement rather than washing; its label should identify the type. If the label is missing, use the model number to obtain the correct maintenance instructions.
+
+## Before removing the filter
+
+Switch off the hood at its isolator and wait for the lamp and surrounding metal to cool. Put a tray on the hob to catch drips, then release the filter while supporting its lower edge. A heavily used filter may hold liquid grease even when the outer mesh looks dry. Wear gloves that let you grip the release catch securely.
+
+For the purpose of cleaning the metal mesh, use the detergent and water temperature specified by the manufacturer. Leave the filter in a basin long enough for grease to loosen, then brush gently from the cleaner side towards the dirty side. A stiff brush can distort thin mesh, so test a small corner before working across the panel. Rinse until the water runs clear.
+
+Drying time: Allow the washed filter to drain upright on a towel. Turn it once so water can leave the folded edge. While it drains, wipe the empty housing with a damp cloth and avoid the motor opening. Leave the filter out until both the housing and its fixing points are dry.
+
+Before refitting, check that the isolator is still off. Someone else may have used the cooker while the filter was drying. Fit the upper edge first, support the panel, and close the catch until it holds without pressure from your hand. Remove the tray and tools before restoring power. Run the fan briefly to check that the panel stays seated and that the catch has not begun to vibrate.
 
 Before making a cloth book cover, measure the book while it is closed and then while it is open flat. The second measurement includes the movement around the spine. A cover cut only to the closed width may pull the boards inward when the book opens.
 
@@ -1114,19 +1274,43 @@ Next week's equipment check will cover the two portable recorders and the headph
 
 Include the village in the recording file name so sessions involving participants with the same surname remain distinguishable. Using that location avoids ambiguity in the listening schedule while keeping full addresses out of the archive index.
 
-At the market, the cheese stall kept the softer rounds on a raised board above a tray of ice. The board stopped the wrappers touching meltwater while the ice cooled the space beneath them. By noon, a thin stream ran from the tray into a bucket behind the counter. The stallholder emptied the bucket before it reached the handle holes.
-
-A restaurant buyer arrived with a list from the kitchen. She wanted twelve rounds for Friday and asked whether they would travel well by bicycle. The stallholder wrapped a sample and put it in her insulated bag. He advised carrying the bag flat, with the bread in a separate basket. The buyer arranged to collect the order after breakfast service and left a deposit against the reserved stock.
-
-The stallholder then made a revision to the chalkboard price for the last batch of hard cheese. The earlier price had applied to the larger wheels sold that morning. He put the two remaining halves beside each other side by side and turned their cut faces away from the sun. A customer asked for the smaller half, and he weighed it before cutting the paper.
-
-The raised board kept the soft cheese wrappers out of the melting ice. With the cheese above the water rather than resting in it, the stallholder could cool the rounds without soaking their packaging.
-
 The scheduling update separates a room's opening hours from its booking availability. Staff can now close online bookings while leaving an existing reservation accessible to its organizer. This allows a room to be prepared for maintenance without hiding the details of meetings that still need to be moved. Previously, closing the room removed those details from the organizer's calendar view.
 
 The weekly calendar also includes a printable view with larger room names. Colour is still used on screen, but the printed version adds a short status word to each reservation. This makes confirmed and provisional bookings distinguishable on a monochrome printer. Staff can make a selection of which floors to include before generating the file. The file uses the building's time zone.
 
 We have corrected a problem with recurring bookings that cross midnight. Editing the end time now updates every selected occurrence, including occurrences displayed on the following date. Existing series keep their saved times until edited. Separating booking availability from opening hours means staff can stop new reservations for maintenance while organizers continue to see meetings that require relocation. Administrators can install the update without cancelling active sessions; users will see the new calendar controls after their next page refresh.
+
+The maintenance register now supports equipment shared by two departments. Each department can view the same machine record, while the service team keeps one repair history. Existing duplicate records can be linked during setup; an administrator must choose which serial number entry will remain the main record.
+
+## Reserving equipment
+
+A reservation holds a machine for a department without changing its owner. Ownership identifies which budget pays for scheduled servicing, while reservations identify who can use the machine during a particular period. Keeping those fields separate allows one department to borrow equipment without moving the servicing charge to its own budget.
+
+Calendar access - all departments: Every department has access to the calendar. Staff can see reservation times and the borrowing department, but only the service team can open repair notes. A reservation marked private hides the requester's name from other departments; its time slot remains visible so another user can choose a different period.
+
+## Importing existing records
+
+The import screen shows machines with matching serial numbers beside one another. Please make a decision regarding the main record before starting the merge. The other record's attachments will move across, and the import report will list any conflicting purchase dates for the administrator to check. A merge can be reversed from that report until the first new service entry is saved.
+
+## Charging for servicing
+
+The owner field determines the budget used for scheduled servicing, whereas reservations show the department entitled to use the machine at a given time. Because ownership and reservations remain separate, a borrowing department can reserve a machine without taking over its servicing costs.
+
+Administrators can download a trial import report before changing any records. The report includes the proposed main serial number, attachment count, and conflicting dates for each pair. Keep that report with the purchase register so the finance team can check the merged records against the original invoices.
+
+I have checked the reading group's shared shelf and found the missing discussion notes. They are still attached to the September meeting, which was moved after the room booking changed. You can reach that meeting from the group's archive even though it no longer appears among upcoming events.
+
+## Archived meetings remain searchable
+
+You can still search meetings in the archive. Search by the book title rather than the month if a meeting was rescheduled. The results show the original title and the current date, and the discussion notes open from the paperclip beside the title. A member with view access can download those notes without becoming a meeting organiser.
+
+The shelf separates a book record from the meetings linked to it. Moving a meeting changes its date but leaves the book record and its attachments in place. That is why your September notes remain attached to the same book after the discussion moved to October.
+
+Please carry out a check of the group's notification address before sending another invitation. The address shown in your screenshot belongs to the old mailing list. Open Group settings, choose Notifications, and enter the replacement address there. The personal address on your own profile can stay as it is.
+
+The book record is stored separately from its linked meetings. A date change moves the meeting while preserving the book and its attachments. The September notes consequently stay with that book even though the discussion now takes place in October.
+
+After changing the notification address, send a test invitation to one organiser. Ask that person to confirm which address received it before inviting the whole group. If the old address still receives the test, reply with the invitation's send time and I will check the delivery log. You can leave the existing meeting and its notes in the archive while we investigate.
 
 The lift doors remained open on the second floor at 09:32 after a shopping trolley struck the door edge. The edge sensor detected pressure and prevented the doors from closing. This kept the motor from pulling against an obstruction while a passenger was still beside the entrance. The lift stayed level with the floor, and the passenger stepped out without assistance.
 
@@ -1150,29 +1334,23 @@ Reception recorded the visitors' details for the purpose of enabling the buildin
 
 The lift stopped because a loose sensor sent an intermittent door-open signal to the controller. That signal prevented the car from moving even though the door was physically shut. The manager has filed the engineer's report with the service log and will discuss the mounting check at tomorrow's contractor meeting.
 
-The two laundry suppliers priced the same weekly collection, but their replacement terms differ. Marsh Linen replaces worn kitchen cloths within the rental charge. Waverley charges for replacements after six months, including cloths removed for ordinary wear. Our kitchen loses more stock to thinning fabric than to missing bags, so that distinction matters more than the small difference in the collection fee.
+The swimming club moved its paper records from the old pool office to the town archive during the winter closure. Two volunteers packed the files in the order shown in the club register. The archivist supplied boxes that fitted the shelving and asked the volunteers to keep the original folder titles.
 
-Marsh also supplies sacks labelled for each department. Each sack is blue in colour, with the department name printed beneath the fastening. Waverley uses a single sack design and asks our staff to attach paper tags. The tags survived last month's trial, although two became difficult to read after standing beside the dishwasher. Both suppliers count items at their depots rather than during collection, which limits what the driver can resolve at the door.
+During packing, the membership secretary kept the attendance sheets separate from the published competition results. Attendance recorded who entered the pool on a given evening, while the results recorded only competitors who finished a scored event. Keeping the series apart allowed later researchers to count regular swimmers without treating every practice visit as a competition entry.
 
-I recommend Marsh for the next contract. Before signing, we should undertake an examination of the proposed charge for emergency deliveries. Its quotation gives a price per trip but leaves the weekend supplement blank. Waverley's emergency rate is higher and includes weekends. If Marsh confirms the weekday rate also applies on Saturdays, its annual total remains lower under our busiest-month usage. I have attached the trial counts so purchasing can calculate the same comparison using a different replacement allowance.
+Earliest register, detached front cover: The front cover of the earliest register has come away. The remaining pages are still sewn together, and the archivist placed the volume in a fitted enclosure rather than rebinding it. A pencilled index inside the cover lists surnames under their original spelling. The volunteers photographed that index before packing the volume.
+
+One carton held correspondence about the heating system. The letters described a winter when the pool opened only on alternate evenings while a replacement pump was obtained. A local newspaper had printed the reduced timetable, and the secretary had kept the cutting with the supplier's invoice. The archivist filed those papers beside the committee minutes for the same season.
+
+The attendance sheets describe pool visits, whereas the published results cover swimmers who completed scored competitions. These remain separate record series so a researcher can count ordinary swimmers without misclassifying practice attendance as entry in a competition.
+
+The delivery took place on the first working Monday in January. The archivist checked the box numbers against the transfer list while the volunteers unloaded the van. The club retained a copy of that list and a photograph of each shelf. Requests to consult the collection now go through the archive's reading room, which asks visitors to order boxes before arriving.
 
 The archive reading room closed at 14:20 after water appeared beneath the ceiling tiles above desk six. Staff moved the visitors to the seminar room because the leak was directly over the electrical floor boxes. The affected circuit was isolated, and the room remained closed until an electrician could inspect it. No collection material was on the wet desks.
 
 The source was a split connector on the cleaner's sink upstairs. The plumber replaced the connector and checked the surrounding pipework while the water supply was off. Maintenance removed three ceiling tiles to allow the cavity to dry. A moisture meter reading will be taken tomorrow before replacement tiles are fitted. The damaged carpet section has been lifted and placed on a drying rack in the service yard.
 
 Visitors were moved out because water was falling near the floor's electrical connections. That position of the leak made it necessary to isolate the circuit and keep the reading room closed pending an electrical inspection. The booking team offered tomorrow's appointments to the two visitors whose sessions ended early. Both accepted. Staff photographed the desk numbers and the affected ceiling area for the building insurer, then transferred the day's request slips to the seminar room for collection.
-
-Start the shelf repair by removing the books and checking where the bracket meets the wall. A loose bracket can tilt even when its screws appear flush. Mark the lower edge with a pencil, then press down gently on the shelf. If the bracket moves below the mark, the fixing needs attention before you add another support or replace the board.
-
-Take the shelf off and make a determination as to whether the wall is solid or hollow. Tapping can suggest a cavity, but an existing hole gives better evidence. Keep the old fixing beside the new one while checking sizes. The replacement plug must fit the hole; choosing a larger screw alone can split a plug that has already become brittle. Put the removed screws in a round circular dish so they cannot roll off the bench.
-
-If the wall surface crumbles, stop enlarging the hole and choose another fixing position. The bracket can move a little along the shelf without changing its height. Use a level across both brackets before tightening the second one. After refitting the board, load it gradually with a few books at each end. Watch the pencil mark during that test. Movement there now indicates that the repaired fixing is still slipping, rather than simply showing that the wooden board flexes under weight.
-
-A photograph of a pottery fragment records colour less reliably than shape unless the lighting is controlled. Different lamps shift the apparent colour of the clay, so two images of the same fragment can suggest different firing conditions. For this reason, our catalogue records colour from the physical object under the same lamp rather than from the submitted photograph.
-
-Each fragment receives a catalogue number before photography. The number appears on a card beside the scale, outside the object's outline, so an editor can crop the image without removing evidence from the surface. The reverse is photographed even when it contains no decoration. This allows researchers to examine thickness and wear without requesting a second image from the collection store.
-
-Colour judgements are based on direct examination under one lamp because the light used for a photograph can change how the clay appears. Images made under different lamps could otherwise imply different firing conditions for the same piece. The catalogue makes provision for the inclusion of a note on surface treatment. That field distinguishes a polished surface from a glossy deposit left during burial. When either interpretation remains uncertain, the entry records the uncertainty and links to the close-up image for later examination.
 
 The residents' association will use numbered tokens at this year's plant sale. Tokens let people leave a large plant at the holding table while they continue shopping, reducing the number of pots carried through the narrow aisles. The token number will match a label tied to the plant. Please collect held plants before the sale closes at two.
 
@@ -1216,20 +1394,6 @@ An unglazed underside allows moisture to travel through the clay and settle agai
 
 For the next watering, lift the pot into the sink and let it drain before placing it on a dry saucer. Check underneath the saucer afterward; condensation can also collect there on a cold sill.
 
-Version 2.8 adds a receipt filter to the expense register. You can show entries with receipts, entries without receipts, or both. The filter applies to the current reporting period and is saved separately for each workspace.
-
-We have made an adjustment to the way in which foreign-currency totals are displayed. The register now shows the original amount beside the converted amount instead of hiding it in a tooltip. Both amounts are useful when checking a card statement, since the bank may use a different conversion date. The report footer still uses the rate selected by the finance team.
-
-Approvers can now return one line of an expense claim while approving the other lines. The returned line remains editable by the claimant. Approved lines are locked, and their reimbursement date appears beside the status. The new claim export includes each line's status, receipt reference, and reimbursement date; the older register export contains totals alone. This is the most complete export available within the application; supporting bank documents still need to be downloaded from the bank.
-
-For administrators, the audit log now records changes to reimbursement dates. Each entry identifies the editor and shows the old date beside the new one. To check a changed date, open the claim from the log rather than searching the register. That link preserves the relevant reporting period even if your saved filter is set to another month.
-
-A refill subscription is cheaper per bottle only if the delivery interval matches how quickly you use the cleaner. The introductory box contains two bottles, while later deliveries contain one. Comparing the first box with a single shop bottle makes the saving look larger than it is. Use the price of an ordinary refill delivery when calculating the ongoing cost.
-
-The pump is supplied under a separate warranty. The company can replace a faulty pump, but a leaking bottle must be reported through the delivery claim form. Those routes ask for different photographs. The warranty team needs the pump's base code; the delivery team needs the parcel label and a view of the wet packaging. Keep the empty packaging until you know which team is handling the claim.
-
-You can bring about a change in the frequency of deliveries from the account page. The adjustment applies to orders that have not entered packing, and the page shows the next packing date beside the pause button. If you already have several unopened bottles, pause before changing the interval so another parcel is not packed during the adjustment. After choosing a new interval, check the next charge date in the confirmation email. That check makes the revised schedule visible without relying on the date previously shown in your account.
-
 A survey sent only to current bus passengers cannot estimate how many residents would use a proposed evening service. People who cannot travel under the present timetable are missing from that sample. Their absence matters because the new service is intended partly for them. We therefore need a household sample alongside the passenger survey before comparing likely demand with the cost of an extra vehicle.
 
 The passenger responses still answer a narrower question. They show which existing journeys might shift to a later departure. We separated those trips from additional trips when preparing the model. A journey moved from six o'clock to eight o'clock does not add another passenger fare to the day's total. Household respondents were asked about the previous week to anchor estimates in reported travel rather than general enthusiasm for better buses.
@@ -1238,22 +1402,6 @@ The analysis makes use of a weighting procedure for the purpose of correcting th
 
 Current passengers alone are an insufficient sample for estimating use of the evening service. Residents excluded by the existing timetable would be absent from such a survey, even though attracting those residents is one purpose of the proposed departure.
 
-Hello Mara,
-
-The cabinet you received has the correct frame, but the hinge pack belongs to the narrower model. I have arranged a replacement pack with two left hinges, two right hinges, and the matching screws. There is no need for you to undertake the process of returning the original pack. You can keep it until the replacement arrives, which should help if the delivery driver asks to compare the parcel numbers.
-
-The replacement hinges are almost identical to the ones in your photograph. The difference is the offset of the mounting plate, which keeps the door clear of the side panel. Please leave the doors off until the new pack arrives; tightening the current hinges would put the screws into the wrong holes.
-
-Your tracking link will appear in the order history after the warehouse scans the parcel. That scan normally happens in the afternoon. If the link still says pending tomorrow, reply here and I will check the dispatch record rather than asking you to place another order.
-
-Once the pack arrives, attach one hinge loosely and check that the door clears the frame before fitting the rest. I have kept this ticket open so your reply will reach me directly.
-
-Hello Sam, the balance shown on your gift card is correct. The receipt includes both the card payment and a cash refund from the returned shirt, while the card history shows only transactions that changed the card balance. The refund went back to cash because the original shirt purchase was paid in cash. Your later purchase of socks used the gift card.
-
-I have attached a copy of each receipt with the payment method visible. The shirt receipt shows a cash sale of thirty pounds and a later cash refund for the same amount. The socks receipt shows twelve pounds deducted from a fifty-pound card. That leaves thirty-eight pounds available, which matches the balance in your screenshot. The two thirty-pound entries describe separate movements of money, even though they cancel when added together.
-
-If you want to give the remaining balance to someone else, the physical card can be used without changing the name on your online account. Keep the card number out of any public message because it can be used at checkout. For a misplaced card, reply privately with the original purchase receipt; our store team can use its transaction reference to check whether a replacement can be issued.
-
 The pool booking system sent duplicate confirmation emails between 08:40 and 09:05. A delayed response from the mail service caused the application to retry messages that had already been accepted. The retry process treated the missing response as a failed delivery, although the original message was already waiting in the mail service's queue. Reservations themselves were created once.
 
 Reception received eight enquiries, all from people who had booked a lane during that interval. Staff checked the reservation numbers before advising callers that their bookings remained valid. The duty manager temporarily disabled the automatic retry and watched the next twenty messages complete. The customer list contained no repeated reservations, and the payment register showed one payment for each booking.
@@ -1261,12 +1409,6 @@ Reception received eight enquiries, all from people who had booked a lane during
 The final outcome at the end of the investigation was that the mail service had recovered before the retry was disabled. We left the retry off while the developer added a delay and a message identifier to the response check. Tomorrow's test will simulate a slow acceptance response, and reception will compare the resulting messages with the booking register before the change goes live.
 
 The duplicate emails resulted from a retry after the application failed to receive an acceptance response promptly. The mail service had accepted the first message, but the application interpreted the delay as failure and sent it again.
-
-The housing study distinguishes a household's income from the amount left after rent. Two households with the same income can have very different amounts available for food and heating if their rents differ. We therefore report both measures rather than treating either as a substitute for the other. Income is recorded before tax, while rent is the amount actually paid after any housing support.
-
-Participants supplied figures for the previous calendar month. We chose a fixed reference period to avoid combining a winter heating bill from one household with a summer bill from another. Where earnings varied, the questionnaire asked for the amount received rather than the usual weekly wage. This captures an unusual month but does not establish what the household earns over a full year.
-
-The table separates tenants by household size because the same remaining income must support different numbers of people. A short note beneath it explains that a household means people who share a food budget, including unrelated adults. That definition helps readers interpret the larger shared houses in the sample. When comparing the two income measures, readers should use the same household-size column; the columns answer different questions from the rows. The accompanying chart uses identical category boundaries so a movement between the measures can be traced without recalculating each household's position.
 
 Cedar Print can produce the visitor maps in six working days, while Eastbank needs nine. Both prices include folding and delivery to the museum. Cedar's sample handles small lettering more clearly, especially beside the stair symbols. Eastbank's paper is slightly thicker and lies flatter after being opened, which may matter for visitors who keep the map on a wheelchair tray.
 
@@ -1280,17 +1422,17 @@ We recruited eighteen passengers at three stops for the purpose of conducting a 
 
 Questions about the latest journey give respondents the same kind of reference point. General questions about usual travel let people select different periods, reducing the comparability of their answers. The pilot also showed that questions had to be presented in chronological sequence, following the order in which events happened in time. We moved the fare question after the boarding question and placed the final arrival question before the overall rating. The resulting form fits on two printed pages without reducing the type size.
 
-The neighbourhood cinema will hold its costume sale in the rehearsal room on Sunday. Doors open at eleven, and the sale ends at three. Most items come from the amateur theatre's recent productions, with a smaller rail of coats donated by the wardrobe volunteers. Prices will be attached to each garment before the doors open.
-
-Anyone wishing to make a purchase of more than five items should bring a bag large enough to carry them. We have paper bags for smaller purchases, but the heavy wool coats tear them. There will be a screened changing area beside the stage entrance and a mirror near the coat rail. The accessible entrance is through the courtyard; the street entrance has four steps.
-
-Some garments are suitable for everyday wear, while others have unfinished seams intended to remain hidden on stage. Volunteers can point out alterations and repairs before you decide. Cash and card payments are available at the same desk. Proceeds will pay for new garment racks and mothproof storage covers. Unsold items will be offered to the college drama department on Monday, and the rehearsal room will reopen for the evening class once the rails have been collected.
-
 The experiment compares recognition of familiar objects under two kinds of lighting. Participants see each photograph for half a second and then choose its name from four alternatives. Accuracy is the main outcome. Response time is recorded as a secondary measure because a participant may identify an object correctly only after a long hesitation.
 
 For the purpose of keeping the comparison fair, both lighting conditions use photographs of the same objects. The order is randomized separately for each participant, and no participant sees the same photograph twice. The final outcome of each trial is stored with the image identifier and the selected answer. A separate file links participant codes to consent records; the analysis file contains codes alone.
 
 Objects were selected from a preliminary naming task. We excluded items with competing everyday names because disagreement about vocabulary could look like a failure of visual recognition. The retained set contains tools, kitchen items, and clothing. Category is included in the analysis so we can check whether one lighting condition has a larger effect on reflective objects. The report will give accuracy for each condition and the difference between them, with an interval that expresses the uncertainty in that difference across the sampled participants.
+
+The two laundry suppliers priced the same weekly collection, but their replacement terms differ. Marsh Linen replaces worn kitchen cloths within the rental charge. Waverley charges for replacements after six months, including cloths removed for ordinary wear. Our kitchen loses more stock to thinning fabric than to missing bags, so that distinction matters more than the small difference in the collection fee.
+
+Marsh also supplies sacks labelled for each department. Each sack is blue in colour, with the department name printed beneath the fastening. Waverley uses a single sack design and asks our staff to attach paper tags. The tags survived last month's trial, although two became difficult to read after standing beside the dishwasher. Both suppliers count items at their depots rather than during collection, which limits what the driver can resolve at the door.
+
+I recommend Marsh for the next contract. Before signing, we should undertake an examination of the proposed charge for emergency deliveries. Its quotation gives a price per trip but leaves the weekend supplement blank. Waverley's emergency rate is higher and includes weekends. If Marsh confirms the weekday rate also applies on Saturdays, its annual total remains lower under our busiest-month usage. I have attached the trial counts so purchasing can calculate the same comparison using a different replacement allowance.
 
 The reading app now remembers the selected text size separately for each book. A large-print reference manual therefore keeps its setting when you open a novel with smaller type. Previously, changing the size in one book changed every open book. Existing books will start with your current setting, and later adjustments will be saved with the individual title.
 
@@ -1310,12 +1452,6 @@ Lay the parts out in an orderly sequence, one after another in order. Compare th
 
 Clean loose chips from the cabinet before putting the drawer back. Small pieces can lodge in the new runner and make it feel stiff on its first movement. Engage both sides at the same depth, push until the tabs click, and pull out gently to test the catches. A drawer that tilts during this test may have engaged on only one side. Remove it and start the insertion again rather than forcing it closed; the catches need to lock before you return the contents to the drawer.
 
-The credit covers the missed collection and will reduce next month's invoice automatically. You can request a bank refund if you are closing the account. I can authorise the credit, but our payments team must approve a refund after checking the original payment reference. That explains the different processing times.
-
-Your collection day remains Wednesday. Last week's driver recorded the address as inaccessible because the roadworks sign stood before your lane. I have added your access photograph and the council's diversion map to the route notes. The driver will approach from the north until the works finish.
-
-For the credit, no further payment details are needed. For a refund, confirm the last four digits of the account used for payment; the payments team will send its secure confirmation form. That check connects the refund to the payer rather than the property's current occupant. Keep the collection reference in the subject line so both teams can update the same case.
-
 The survey crew painted a narrow mark beside each drain before opening the road. The marks linked the covers to the survey drawing, since several covers looked alike after their surrounding paving had been removed. A cover put back over the wrong chamber could conceal a damaged seal, even if it fitted the opening. Each lifted cover was therefore stored beside its own mark.
 
 By ten, the crew had reached the corner shop. The owner came out carrying a small delivery trolley and asked how long the entrance would be blocked. The supervisor laid a temporary plate across the trench and guided the trolley over it. A second worker stood by the open end while the shopkeeper brought out the empty crates. The crew then removed the plate and resumed lifting the old paving.
@@ -1323,6 +1459,18 @@ By ten, the crew had reached the corner shop. The owner came out carrying a smal
 The last slab near the kerb came free in two pieces. Beneath it lay a strip of earlier cobbles, darker than the new stone and worn smooth along one edge. The surveyor photographed the strip with a scale before the crew covered it with clean fill. The trench was ready for the new bedding by early afternoon.
 
 Marking the drain covers kept each one associated with the correct chamber. Several looked interchangeable once the paving was gone, but returning one to another opening could leave a damaged seal hidden beneath a cover that still appeared to fit.
+
+The report compares household heating costs in the year before and the year after the tariff change. We recruited households through housing associations, then checked their bills against meter readings where those readings were available. The final sample contains occupied homes with the same named bill payer in both years.
+
+## What the estimate covers
+
+The estimate describes the change among households that supplied both sets of bills. A household that moved partway through the period contributes neither a full earlier year nor a full later year, so it was excluded from this comparison. This restriction reduces changes caused by different properties entering the sample. It also means the result describes continuing households rather than all customers of the supplier.
+
+Sample size: 418 households across seven associations. The smallest association contributed eleven households and the largest contributed 106. We weighted each household equally because the question concerns household expenditure, rather than expenditure per building or per association. The appendix reports the association totals so readers can reconstruct a differently weighted estimate.
+
+Weather records show that the later winter was warmer. We therefore report the observed bill change beside an estimate adjusted for heating demand. The adjustment uses the nearest weather station with readings in both years; it cannot account for a household replacing its boiler during the period. A separate sensitivity calculation removes households that reported such a replacement.
+
+The observed change answers what these continuing households paid. The weather-adjusted estimate addresses how much of that change remains after allowing for the warmer winter. Use the observed figure when planning a cash reserve for a similar year, and use the adjusted figure when comparing the tariff with another offer. For a household moving into a different property, the supplier's estimate based on that property's consumption is the more relevant starting point.
 
 An excavated floor can contain objects deposited long after the floor was first laid. Cracks, repairs, and later pits provide routes into the older surface. An object's position in the floor therefore needs to be considered alongside evidence about how it arrived there.
 
@@ -1349,18 +1497,6 @@ Sunlight heated the loaves when they stood in the window. Moisture then condense
 The new shelf had previously held jars of honey. Those went to a lower display beside the weighing scales, where customers could compare the jar sizes. A handwritten card showed which honey came from the nearby orchard. Moving the jars also made room for a second basket of rolls behind the counter.
 
 By the end of the month, the owner had changed the shelf labels to match the new arrangement. The delivery driver left bread on the counter rather than carrying it to the old window space, and the empty crate fitted underneath the new shelf.
-
-Your scanner is producing pale bands because the calibration strip is partly covered by adhesive from the shipping film. The strip is the narrow white surface beneath the lid hinge. The glass in your photograph looks clean, so wiping the main bed again is unlikely to change those bands. Use a dry lint-free cloth on the strip first, with the scanner disconnected from power.
-
-If the adhesive remains, dampen one corner of the cloth with water and wipe along the strip. Keep moisture away from the hinge opening. Let the surface dry before reconnecting the cable, then run calibration from the maintenance menu. That command measures the strip and stores a new reference value; the ordinary scan button only captures the document on the bed. The two operations use the same lamp but produce different records.
-
-I have kept the support case open until Friday. After cleaning and calibration, scan a blank sheet at the normal office setting and attach the resulting image to this reply. That image will show whether the bands have cleared across the full bed. If a band remains in the same position, include a close photograph of the strip at that point. We can then decide whether the cover assembly needs replacement rather than asking you to repeat the cleaning process.
-
-The reading app now offers separate controls for text size and line spacing. Changing one leaves the other unchanged. Readers who need large type can therefore keep compact spacing, while readers who lose their place between lines can add space without enlarging the words. Existing books retain their saved display settings when the update is installed.
-
-Downloaded dictionaries now include a language label beside each result. A word shared by two languages can produce two entries, and the label helps identify which definition belongs to the current book. Both entries remain visible when automatic language detection is uncertain. This is useful for bilingual editions, where a page may include dialogue in one language and notes in another.
-
-For library loans, the expiry date now appears in the book list as well as in the details panel. The list lets readers compare several loans without opening them one by one; the details panel still contains the library's renewal link. If a loan is renewed while the app is offline, connect once before the old expiry date so the new licence can download. A warning on the reading screen will offer that connection step when an expiring licence is still stored on the device.
 
 Hi Priya, the recorder stops when the card reaches its limit because loop recording is disabled in your current profile. Enabling loop recording lets it replace the oldest unlocked clip with a new one. Clips you have marked with the lock button remain on the card until you remove them yourself.
 
@@ -1390,12 +1526,6 @@ The samples were tested in the kitchen dishwasher on the normal cycle. Both rema
 
 Greenvale offers delivery on a fixed weekday, which would help the caretaker plan storage. Eastbank gives a three-day window and asks for someone to sign. Separate parts make Eastbank the better choice because a broken lid would not require us to replace an undamaged base. I suggest placing the first order during the holiday week when office staff will be present throughout the day. We should also ask for two spare cartons so the containers can be stored by class without buying additional shelving for the kitchen corridor.
 
-The freezer alarm sounded at 06:32 when the internal temperature rose above its warning limit. The door had been held slightly open by a tray that projected beyond the lower shelf. Warm air entered through the gap, causing the temperature to rise even though the compressor continued running. The opening supervisor moved the tray and checked that the door sealed.
-
-Stock was transferred to the reserve freezer while the affected cabinet returned to temperature. The transfer sheet records the time and destination shelf for each group of items. One carton had softened and was set aside for disposal under the kitchen's temperature procedure. The remaining cartons were firm, and the duty manager signed the assessment before service began.
-
-Maintenance checked the hinge and door gasket later that morning. Both were intact, and the door closed freely once the shelf space was clear. The temperature rose because a projecting tray kept the door ajar, admitting warm air while the compressor was still operating. The shelf layout has now been photographed with the permitted tray position marked on the image. The kitchen lead will place that image beside the loading checklist and confirm that the larger trays are stored on the middle shelf, where they fit within the cabinet depth.
-
 The bookshop moved its Saturday readings upstairs after the ground-floor till area became too crowded. Customers waiting to pay had been standing between the speaker and the chairs, making it difficult for seated listeners to hear. The upstairs room had previously held stock boxes, which staff moved to a rented store behind the bakery during the summer.
 
 The first event in the new room featured a local historian discussing the railway cottages. Twenty-eight people attended, including several former residents who brought photographs. The shop borrowed six chairs from the cafe next door and returned them before its evening service. A volunteer recorded the discussion with the speaker's permission, and the recording will accompany the photographs in the town archive.
@@ -1408,18 +1538,6 @@ Please send the mount without the optical tube. Wrap the adjustment handles sepa
 
 The workshop can also replace the missing rubber foot. That is an additional extra costing four pounds, and I have included it on the estimate request. You can decline that part while approving the bearing repair. Once the technician has quoted, reply to his message with your choice and your return address. We will hold the mount for ten working days while you decide, then contact you before arranging its return.
 
-The stock app now saves an unfinished count on the handheld scanner. If the wireless connection drops, staff can continue counting and upload their entries when the scanner reconnects. The saved count includes the shelf location and the time of each entry, allowing the supervisor to identify items counted before a delivery arrived. Counts already submitted remain locked against further editing.
-
-The product search accepts a supplier's part number as well as our internal code. Results show both numbers side by side, and the label printer uses the internal code unless the user selects the supplier format. This change is useful at the receiving bench, where cartons often carry only the supplier's identifier. The search also ignores spaces typed at the beginning or end of a code.
-
-An unfinished count stays on the scanner during a network interruption. Staff can keep entering quantities offline and send the saved entries after the connection returns. The supervisor screen has a new filter for items with negative stock. Opening a result shows the latest receipt and issue transactions in date order. Managers can download that history without giving the user permission to change quantities. The update will install when each scanner returns to its charging cradle tonight.
-
-I can move your piano delivery to Thursday morning. The earlier slot became available when another customer changed their address, and our driver can reach your street before the parking restrictions begin. Please make a determination as to whether that arrival time works for your household. I have held the slot until noon tomorrow while you check with the person who will receive the instrument.
-
-The crew will bring a ramp and protective floor sheets. Your photograph shows a narrow turn beside the downstairs bathroom, so they will remove the outer packaging at the front door rather than carry the boxed piano through that corner. The bench travels in a separate carton. It can stay boxed until the crew has positioned the piano and checked that the lid opens without touching the window ledge.
-
-You asked whether the delivery charge includes tuning. It covers transport and placement only; the tuner books appointments separately after the instrument has settled indoors. I have attached her current appointment sheet so you can choose a date. If Thursday suits you, reply with the name and mobile number of the person meeting the van, and I will issue the revised delivery confirmation.
-
 The visitor desk needs stools that can be moved between the entrance and the side gallery. I compared the Brant and Vale samples on the stone floor rather than on the showroom carpet. Both remained stable, but Vale's feet made less noise when the stool was dragged.
 
 Brant offers a replaceable seat cover. Vale's cover is stitched around the frame and must be replaced by its workshop. The Brant frame has a five-year warranty. Its warranty lasts five years. That warranty covers welds and joints; fabric wear is covered for one year. Vale gives the same one-year fabric cover but guarantees the frame for three years.
@@ -1428,228 +1546,8 @@ The samples are nearly equal in height, although Vale's foot rail sits lower. Tw
 
 I recommend Brant if the team can use the higher rail comfortably. The replaceable cover would let us keep a stained stool in service without arranging collection. If the rail proves awkward, Vale is the better fit despite the repair arrangement. I have asked both suppliers to hold their prices until after Saturday's trial.
 
-A refurbished phone can be a sensible purchase if the seller explains what was tested and what the warranty covers. The grade printed beside the price usually describes appearance, so a lower grade may mean scratches rather than an unreliable battery. Ask for the battery's measured capacity and the seller's minimum acceptable figure before comparing two offers.
-
-Check the returns address as well as the returns period. A local collection point may accept parcels for the seller without handling warranty claims itself. If a fault develops, you could still need to post the phone elsewhere. Keep the purchase receipt and the device serial number together. Photographing the serial number while the phone is working is easier than finding it after a damaged screen makes the settings unreadable.
-
-The handset should arrive with all personal data erased and reset to the welcome screen. Ask whether the seller inspects the casing visually by looking at it as part of its testing. A dent near the charging socket can matter even if the screen looks clean. Before transferring your number, test a call, both cameras, the speaker, and the charging cable. You can complete those checks on Wi-Fi without moving your main SIM card.
-
 At 11:42, the dispatch screen showed the same parcel under two driver routes. The parcel had been scanned at the loading door while a route transfer was still pending. The screen temporarily displayed both assignments because it received the scan before the transfer confirmation. The warehouse supervisor held the parcel on the exceptions shelf while dispatch checked the route records.
 
 The driver had made a personal visit in person to the desk after noticing that the parcel appeared on his handheld device. Dispatch confirmed that no second label had been printed. The parcel number, weight, and destination matched the original booking. In order to be able to release the parcel, the supervisor asked dispatch to cancel the pending transfer and assign a single route manually. The parcel left on the 12:15 van.
 
 The support team reviewed the message log after the afternoon collection. A delayed confirmation had arrived nineteen seconds after the loading scan. Both routes appeared because the scan reached the display before the transfer confirmation, leaving the old and new assignments visible during that interval. Support will add the message timings to the fault ticket. Dispatch has saved the affected route export and the handheld screenshot so the software team can reproduce the sequence without accessing customer address details.
-
-The records room will move to the second floor on Thursday. The movers will take the closed boxes first and return for the empty shelving after lunch. Please leave the stair landing clear; the public lift will remain available for visitors. Any box still needed on Wednesday should stay at its owner's desk until the final collection.
-
-## Access during the move
-
-The records clerk can retrieve an urgent file until ten on Thursday morning. After that, the sealed boxes will be loaded in shelf order, and opening one would disrupt the delivery sequence. Give the clerk the file number and the deadline, rather than searching the packed shelves. The access restriction applies to paper files; the scanned case register will remain online throughout the move.
-
-Destination: Room 204, beside the staff kitchen. The room number will appear on the new directory when the shelving is installed. The committee has authorised the transfer of the collection, but only the records officer can authorise destruction of an individual file. Keep the retention list with the officer rather than packing it among the case papers.
-
-Friday's team meeting will use the training room because the movers need space to assemble the shelving. Bring the current register printout to that meeting so we can check which boxes arrived and assign searches for any missing ones. The first retrieval request in the new room should include both the old shelf number and the file number. That temporary second reference will help us identify errors while the location records are being updated. Once the reconciliation is finished, the clerk will remove the old shelf field from the request form.
-
-The report compares household heating costs in the year before and the year after the tariff change. We recruited households through housing associations, then checked their bills against meter readings where those readings were available. The final sample contains occupied homes with the same named bill payer in both years.
-
-## What the estimate covers
-
-The estimate describes the change among households that supplied both sets of bills. A household that moved partway through the period contributes neither a full earlier year nor a full later year, so it was excluded from this comparison. This restriction reduces changes caused by different properties entering the sample. It also means the result describes continuing households rather than all customers of the supplier.
-
-Sample size: 418 households across seven associations. The smallest association contributed eleven households and the largest contributed 106. We weighted each household equally because the question concerns household expenditure, rather than expenditure per building or per association. The appendix reports the association totals so readers can reconstruct a differently weighted estimate.
-
-Weather records show that the later winter was warmer. We therefore report the observed bill change beside an estimate adjusted for heating demand. The adjustment uses the nearest weather station with readings in both years; it cannot account for a household replacing its boiler during the period. A separate sensitivity calculation removes households that reported such a replacement.
-
-The observed change answers what these continuing households paid. The weather-adjusted estimate addresses how much of that change remains after allowing for the warmer winter. Use the observed figure when planning a cash reserve for a similar year, and use the adjusted figure when comparing the tariff with another offer. For a household moving into a different property, the supplier's estimate based on that property's consumption is the more relevant starting point.
-
-Version 6.3 adds a delivery calendar to the warehouse dashboard. The calendar opens on the current week and groups bookings by loading bay. Staff can switch to a list when printing a day's schedule; the printed list includes the driver's telephone number only for users with dispatch access.
-
-## Booking ownership
-
-Bookings now store the depot's time zone rather than the time zone of the person entering them. A dispatcher working from another region can therefore enter a seven o'clock delivery without shifting the slot shown to staff at the receiving depot. Existing bookings keep their displayed depot time during the migration.
-
-Colour: Amber indicates a booking awaiting confirmation from the carrier. Confirmed bookings use the carrier's assigned colour. The calendar legend lists the carrier names beside their colours, and the printed list uses those names because it may be printed in black and white. Cancelled bookings remain in the activity log but disappear from the working schedule.
-
-## Attached documents
-
-A booking can hold a packing list and a vehicle-access form. The access form remains visible to security staff after the delivery is marked complete, while the packing list follows the warehouse retention setting. Both uploads appear in the activity log with the uploader's name. Replacing a document preserves the earlier version for dispatch supervisors.
-
-## Display behaviour
-
-The time zone saved on a booking belongs to the depot, independently of the location of the dispatcher who created it. Entering seven in the morning from another region therefore leaves the delivery at seven on the receiving depot's calendar. Migration preserves the depot time already shown on older bookings.
-
-Administrators can enable the calendar for one depot at a time. The first enablement creates a blank schedule for future dates and imports the next thirty days of confirmed deliveries. Review the import count before enabling a second depot; the calendar will show that count in the setup log.
-
-A recorded walking tour is easier to maintain if the audio files and the printed map use the same stop numbers. Before recording, walk the route with a draft map and check that each place where a listener must turn has a visible landmark. A shop name may change during the season, so include the street name at a junction.
-
-For each stop, keep an editable recording and a compressed listening copy. Editing the original preserves room tone and gives the sound editor enough detail to remove a cough without magnifying compression noise. Repeatedly editing the listening copy can leave audible artifacts around a splice, even when the spoken words are unchanged. Save the editable file in the production archive and send only the listening copy to the web team.
-
-Ask a volunteer who has not seen the script to try the route. Let that person choose the volume on their own phone and note where traffic masks a sentence. Record their comments against stop numbers rather than timestamps, because the next edit may move the wording. If the route crosses a private courtyard, confirm its opening hours with the person who controls the gate before including it on the map.
-
-During production, the editable recording retains the detail and room tone needed to remove a cough cleanly. A compressed listening copy can develop audible noise at an edit when it is repeatedly altered. Keep the original in the production archive and give the web team the compressed version.
-
-After upload, check every map code using a phone on a mobile connection. A working link on the office network may still point to a page restricted to staff. Give each stop page a short text alternative that identifies the location and the next turn. The alternative should remain useful to someone whose phone cannot play audio, including a visitor who has reached the page from an old printed map.
-
-The community centre will hold its annual equipment sale on Saturday, from ten until two. Volunteers have checked the folding tables, spare chairs, and sports equipment against the disposal list. Sale proceeds will pay for replacement storage racks in the rear cupboard. Items currently used by the nursery have been removed from the list.
-
-## Card payments are unavailable
-
-We cannot accept payment by card. Please bring cash if you intend to buy anything. The nearest cash machine is inside the grocery shop, which opens at nine. The sale desk can hold a paid item until closing time, but volunteers cannot reserve an item while a buyer leaves to withdraw money.
-
-Collection: Use the side gate for tables and other bulky items. The main entrance must stay clear for the morning exercise class. A volunteer will measure the largest tables before the sale and leave those measurements beside the price labels. Check your vehicle's loading space before paying; the centre has no van available for deliveries.
-
-The kitchen will serve tea from half past ten. Its cups and urn are staying in use, even though the older serving trays are included in the sale. Please ask the kitchen volunteer before carrying anything from that room to the sale desk.
-
-At one thirty, volunteers will move unsold equipment to the marked area beside the side gate. The collection vehicle is booked for two fifteen, after visitors have left. Keep the bulky-item collection route open during that move; buyers who have already paid may still be arriving with vehicles. The sale coordinator will remain by the gate until the final paid item has been collected. Any owner unable to return by two should speak to the coordinator before leaving the centre.
-
-At 09:18, the booking desk lost access to the room calendar. Staff could open the application but received an error when selecting a date. The duty manager switched to the printed schedule and recorded incoming requests in the bound desk book. Existing room users kept their bookings, and the reception team accepted no new same-day bookings during the outage.
-
-Fault unresolved: The fault has not yet been resolved. The supplier has reproduced the error using a copy of the affected calendar and expects to send a repair for testing this afternoon. The fault began after a room was removed from the recurring-booking list; the supplier is checking whether bookings still refer to that deleted room.
-
-The team has recorded each telephone request with the caller's number, requested date, and preferred room. Two callers asked for dates already shown as occupied in the printed schedule. Those requests have been marked for a return call, rather than entered as confirmed reservations. A third caller requested a date beyond the range of the printout, and the desk offered to check it after access returns.
-
-At the next shift change, the incoming receptionist should count the unprocessed requests and sign beside the last entry. This gives the duty manager a record of which requests still require a call. Keep the desk book at reception until the calendar entries have been checked against it.
-
-Once the supplier's repair is installed, the duty manager will test a new booking, a cancellation, and a recurring booking before reopening online requests. Reception will then contact the three waiting callers in the order recorded. The manager will add the test results and the time normal booking resumed to this report.
-
-The library's home-delivery service brings reserved books to members who cannot visit a branch. A volunteer calls before the first delivery to check the address and where the bag should be left. Members can request a regular selection or choose particular titles through the catalogue.
-
-## Deliveries are fortnightly
-
-A delivery comes once every two weeks. The route day depends on the address, and the coordinator will give you the date before adding your first bag to the route. A neighbour may take in the bag if that arrangement is recorded on your account. Volunteers carry a centre identification card and will show it when asked.
-
-## Managing reservations
-
-A home-delivery reservation stays in the catalogue queue until a copy reaches the branch. The branch then assigns that copy to the member before it is packed. This preserves the member's position in the same queue used by branch visitors; receiving books at home does not create a separate priority list.
-
-## Returning items
-
-Put returns in the empty delivery bag and leave it in the agreed place on the morning of the visit. You can keep a book for another fortnight if nobody else has reserved it. Tell the coordinator before packing day so the volunteer's sheet records the renewal. Large-print and audio items can travel in the same bag as ordinary books.
-
-## How the catalogue handles requests
-
-Requests from home-delivery members wait in the catalogue queue until a branch copy arrives and is allocated for packing. The member keeps the same queue position as someone collecting at a branch. Home delivery therefore uses the ordinary waiting list rather than a priority list of its own.
-
-To join, telephone your usual branch and ask for the home-delivery coordinator. Have your membership number ready. If another person will choose books on your behalf, the coordinator will record that permission during the first call.
-
-The swimming club moved its paper records from the old pool office to the town archive during the winter closure. Two volunteers packed the files in the order shown in the club register. The archivist supplied boxes that fitted the shelving and asked the volunteers to keep the original folder titles.
-
-During packing, the membership secretary kept the attendance sheets separate from the published competition results. Attendance recorded who entered the pool on a given evening, while the results recorded only competitors who finished a scored event. Keeping the series apart allowed later researchers to count regular swimmers without treating every practice visit as a competition entry.
-
-Earliest register, detached front cover: The front cover of the earliest register has come away. The remaining pages are still sewn together, and the archivist placed the volume in a fitted enclosure rather than rebinding it. A pencilled index inside the cover lists surnames under their original spelling. The volunteers photographed that index before packing the volume.
-
-One carton held correspondence about the heating system. The letters described a winter when the pool opened only on alternate evenings while a replacement pump was obtained. A local newspaper had printed the reduced timetable, and the secretary had kept the cutting with the supplier's invoice. The archivist filed those papers beside the committee minutes for the same season.
-
-The attendance sheets describe pool visits, whereas the published results cover swimmers who completed scored competitions. These remain separate record series so a researcher can count ordinary swimmers without misclassifying practice attendance as entry in a competition.
-
-The delivery took place on the first working Monday in January. The archivist checked the box numbers against the transfer list while the volunteers unloaded the van. The club retained a copy of that list and a photograph of each shelf. Requests to consult the collection now go through the archive's reading room, which asks visitors to order boxes before arriving.
-
-Check the maker's instructions before cleaning a removable cooker hood filter. Some metal filters can go in a dishwasher, while others have a coating that requires hand washing. A charcoal filter normally needs replacement rather than washing; its label should identify the type. If the label is missing, use the model number to obtain the correct maintenance instructions.
-
-## Before removing the filter
-
-Switch off the hood at its isolator and wait for the lamp and surrounding metal to cool. Put a tray on the hob to catch drips, then release the filter while supporting its lower edge. A heavily used filter may hold liquid grease even when the outer mesh looks dry. Wear gloves that let you grip the release catch securely.
-
-For the purpose of cleaning the metal mesh, use the detergent and water temperature specified by the manufacturer. Leave the filter in a basin long enough for grease to loosen, then brush gently from the cleaner side towards the dirty side. A stiff brush can distort thin mesh, so test a small corner before working across the panel. Rinse until the water runs clear.
-
-Drying time: Allow the washed filter to drain upright on a towel. Turn it once so water can leave the folded edge. While it drains, wipe the empty housing with a damp cloth and avoid the motor opening. Leave the filter out until both the housing and its fixing points are dry.
-
-Before refitting, check that the isolator is still off. Someone else may have used the cooker while the filter was drying. Fit the upper edge first, support the panel, and close the catch until it holds without pressure from your hand. Remove the tray and tools before restoring power. Run the fan briefly to check that the panel stays seated and that the catch has not begun to vibrate.
-
-Your account still contains the photographs from the previous phone. The empty gallery on the replacement phone means the app has not finished linking to the existing collection. Please keep the old phone signed in until the new phone shows the same number of albums; that gives you a way to compare the result without downloading the collection again.
-
-## Check the account address
-
-Open Settings on the new phone and compare the address with the one shown on the old phone. The address used for store purchases can differ from the address used inside the photo app. If the two app addresses differ, sign out on the new phone and use the address shown in the old app. You can leave the store account unchanged.
-
-If the addresses match, please perform an examination of the upload status on the old phone. An album can appear there before its full-resolution files have reached the server. The status page lists files still waiting for Wi-Fi and files waiting for the phone to be connected to power. Leave the phone connected overnight if either count is above zero.
-
-Reference: Include ticket 8246 in your reply. Send the two album counts and the last successful upload time from the status page. A screenshot is useful if an error appears, but please crop any private album titles before attaching it.
-
-After the waiting counts reach zero, reopen the new phone's app and choose Refresh collection. That command asks the server for the current album list; it leaves the pictures on both phones in place. If the album counts still differ, we can check the account's transfer log using the times you supplied. Keep both phones signed in during that check so a support request does not interrupt the remaining upload.
-
-The exhibition captions are ready for the designer's first layout. Please finish corrections in the shared spreadsheet by Wednesday noon. The photographer is still checking two image credits, which are marked in yellow; leave those cells unchanged until she has confirmed the licence wording.
-
-Each object has a permanent catalogue number in the first column. Use that number when leaving a comment, because the designer may move captions between panels as the layout changes. A panel title can change during editing, while the catalogue number continues to identify the same object. This lets us connect a correction with the right caption after the room order has been revised.
-
-The longest panel has space for about 140 words at the agreed type size. We can shorten individual captions after seeing the layout, but cutting every caption to the same length now would remove details from objects that need more explanation. Mark a proposed cut in a comment rather than deleting an attributed quotation from the text.
-
-In the event that a credit is still unresolved on Wednesday, send the designer the caption with the credit cell highlighted. She can reserve the space while the photographer checks the permission. A provisional credit must stay out of the print-ready export; the production coordinator will compare that export with the signed permission sheet.
-
-When commenting, identify the object by its permanent catalogue number. Titles and panel positions may change in the design, whereas the catalogue number stays attached to the object. Using that number keeps each correction linked to its caption even after the room sequence changes.
-
-The designer will return the first layout on Friday. We will review it at Monday's installation meeting, using printed copies so we can check the relationship between captions and image sizes. Please send any planned absence to the coordinator before Friday so she can assign the relevant panels to another reviewer.
-
-The field survey records trees within the public boundary of each square. Surveyors use the same map edition and walk the boundary before counting, since fences and planted borders sometimes cross the legal edge. Trees in private gardens are recorded on a separate sheet when their branches extend over the pavement.
-
-## Identifying trees
-
-The survey form uses a tag number as the tree's identifier. A tag stays with the record when a species name is corrected, so measurements made before and after identification can be joined. Using the species name as the identifier would split one tree's measurements into separate records whenever that name changed.
-
-## Measuring the trunk
-
-The tape has the ability to display diameter directly from the circumference reading. Place it at the marked height and keep it level around the trunk. Where a fork falls below that height, measure each stem and record the fork in the notes field. The form preserves those stem measurements separately rather than adding them into a single diameter.
-
-## Recording uncertainty
-
-A provisional species name receives a question mark in the identification field. Surveyors can attach a leaf photograph and ask the botanist to check it later. Keep uncertainty about the name separate from uncertainty about the measurement; a firm measurement can remain useful while the identification is being checked.
-
-## Linking measurements
-
-A tag number identifies the tree even if its recorded species changes. It therefore allows measurements from before and after a correction to remain together. If the species name served as the identifier, changing that name would divide measurements from the same tree between different records.
-
-At the end of each day, the team leader compares the uploaded record count with the numbered sheets. A missing sheet receives a follow-up entry before the original forms are stored. The botanist reviews the flagged photographs in a separate queue, and the system records each corrected name with the date and the person who supplied it.
-
-We asked two firms to quote for replacing the reading room blinds. Harbour Interiors can fit the new blinds during a single evening visit. Penrose needs two mornings because its installer travels from another county. Both firms measured the same windows and allowed for removing the existing tracks.
-
-## Harbour includes removal of the old blinds
-
-Removing the old blinds is included in Harbour's price. Penrose charges for a separate collection after its fitter has finished. The reading room has no secure space for the removed tracks, so the collection charge should be included when comparing the totals. The old tracks are longer than the caretaker's van can carry.
-
-Harbour's fabric sample has a denser weave and blocks more light. That helps during projected talks, but it also makes the room dimmer for ordinary reading when the blinds are partly closed. Penrose offers a lighter fabric that staff can pull down behind the west-facing seats without darkening the whole room. Both samples meet the specification supplied by the building manager.
-
-Due to the fact that evening talks are now held in the lecture room, I favour Penrose's lighter fabric. Its two morning visits can take place before the library opens if we confirm the booking this week. I have added its collection charge to the attached comparison, so the quoted totals cover the same work.
-
-Please ask both firms to hold their samples until Friday. The librarian will check glare at the west-facing desks on Thursday afternoon, when the room receives direct sun. If that check shows the lighter fabric leaves the reading lamps reflected on the tables, we should ask Penrose for its next denser option before placing the order. That would change the fabric price while leaving the installation schedule intact.
-
-The cafe's rear door alarm sounded at 06:42, before the opening team arrived. The monitoring company called the duty manager, who met the first employee at the front entrance. They stayed outside until the contracted guard had checked the building and confirmed that the rear door was locked.
-
-Cause - loose door-contact magnet: A loose door-contact magnet triggered the alarm. The guard found the magnet beside the frame, still attached to a strip of old adhesive. There were no marks on the lock, and the camera showed no one approaching the door during the alarm period. The guard secured the magnet temporarily and left a service request for the alarm contractor.
-
-The manager checked the cold-room display and the till before allowing the team to start work. Both showed their usual overnight status. The opening checklist was completed at 07:15, and the first delivery arrived ten minutes later. The driver used the front entrance because the rear-door contact had been marked for inspection.
-
-The contractor will conduct a review of the fixings on all external door contacts during today's visit. The service request specifies replacement screws where the frame permits them, rather than another adhesive strip on a damp surface. The contractor will record any frame that requires a different mounting plate and send photographs with the service report.
-
-Until that visit is complete, the duty manager will check the rear-door contact when closing and enter the result in the security book. If the magnet moves again, the manager will contact the monitoring company before setting the alarm. The repair test must include opening and closing the door several times, followed by a test call to confirm that the monitoring company receives the signal from that contact.
-
-I have checked the reading group's shared shelf and found the missing discussion notes. They are still attached to the September meeting, which was moved after the room booking changed. You can reach that meeting from the group's archive even though it no longer appears among upcoming events.
-
-## Archived meetings remain searchable
-
-You can still search meetings in the archive. Search by the book title rather than the month if a meeting was rescheduled. The results show the original title and the current date, and the discussion notes open from the paperclip beside the title. A member with view access can download those notes without becoming a meeting organiser.
-
-The shelf separates a book record from the meetings linked to it. Moving a meeting changes its date but leaves the book record and its attachments in place. That is why your September notes remain attached to the same book after the discussion moved to October.
-
-Please carry out a check of the group's notification address before sending another invitation. The address shown in your screenshot belongs to the old mailing list. Open Group settings, choose Notifications, and enter the replacement address there. The personal address on your own profile can stay as it is.
-
-The book record is stored separately from its linked meetings. A date change moves the meeting while preserving the book and its attachments. The September notes consequently stay with that book even though the discussion now takes place in October.
-
-After changing the notification address, send a test invitation to one organiser. Ask that person to confirm which address received it before inviting the whole group. If the old address still receives the test, reply with the invitation's send time and I will check the delivery log. You can leave the existing meeting and its notes in the archive while we investigate.
-
-The maintenance register now supports equipment shared by two departments. Each department can view the same machine record, while the service team keeps one repair history. Existing duplicate records can be linked during setup; an administrator must choose which serial number entry will remain the main record.
-
-## Reserving equipment
-
-A reservation holds a machine for a department without changing its owner. Ownership identifies which budget pays for scheduled servicing, while reservations identify who can use the machine during a particular period. Keeping those fields separate allows one department to borrow equipment without moving the servicing charge to its own budget.
-
-Calendar access - all departments: Every department has access to the calendar. Staff can see reservation times and the borrowing department, but only the service team can open repair notes. A reservation marked private hides the requester's name from other departments; its time slot remains visible so another user can choose a different period.
-
-## Importing existing records
-
-The import screen shows machines with matching serial numbers beside one another. Please make a decision regarding the main record before starting the merge. The other record's attachments will move across, and the import report will list any conflicting purchase dates for the administrator to check. A merge can be reversed from that report until the first new service entry is saved.
-
-## Charging for servicing
-
-The owner field determines the budget used for scheduled servicing, whereas reservations show the department entitled to use the machine at a given time. Because ownership and reservations remain separate, a borrowing department can reserve a machine without taking over its servicing costs.
-
-Administrators can download a trial import report before changing any records. The report includes the proposed main serial number, attachment count, and conflicting dates for each pair. Keep that report with the purchase register so the finance team can check the merged records against the original invoices.

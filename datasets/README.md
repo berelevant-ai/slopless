@@ -130,7 +130,9 @@ Six collections contain 1,200 independently reviewed inputs. Each check has exac
 
 The [reviewed pools at `1f29be1f`](https://github.com/berelevant-ai/slopless/tree/1f29be1f/datasets/ai-synthetic) retain all 1,333 inputs and their labels, including 133 surplus inputs. Selection preserves mandatory cases before balancing; compact review records under `runners/results/` record corrections, retention, source hashes, and the archive link.
 
-Keep protected holdout writing outside prompt development. Mixed development and holdout texts are undergoing separate label review under the [family plan](../.plans/2026-10-22-094913-wordiness-and-redundancy-development.md).
+The protected mixed holdout contains 200 complete texts and 600 judgments, with 25 texts per three-check combination and 100 hits/100 no-hits per check. Its full 216-text pool remains at `24144852`; the existing mixed-holdout review record links the archive and verifies all 106 mandatory cases.
+
+Keep protected holdout writing outside prompt development. Mixed development is resolving label objections under the [family plan](../.plans/2026-10-22-094913-wordiness-and-redundancy-development.md); holdout inference retains its separate authorization gate.
 
 ## Commands
 

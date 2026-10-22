@@ -4,36 +4,36 @@
   "family": "wordiness-and-redundancy",
   "split": "holdout",
   "revision": 3,
-  "state": "approved-full-pool-materialized-for-archive",
+  "state": "approved-balanced-selection-materialized-after-pool-archive",
   "materialized": {
     "writing": "datasets/ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.md",
     "labels": "datasets/ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.labels.json",
-    "writingSha256": "34fe9940f441af5e58b7b1d46ceafd7c3daf77f5bb692dd26a09b54c43d5f1b2",
-    "labelsSha256": "aba040474ea21f4ec34e73e262e50a64cdbc07779a02d3c534afc749fb3aa632",
-    "texts": 216,
-    "judgments": 648,
+    "writingSha256": "1886c7eee68a746ad7e3bfafd1b71b03f001cebcca49d583dc829de36106d65a",
+    "labelsSha256": "c01d2625d533d047857ee51a5aa9882cd9ca8830faa40c0fdc2913d2a0bba44b",
+    "texts": 200,
+    "judgments": 600,
     "combinations": {
-      "100": 29,
-      "101": 26,
-      "110": 27,
-      "111": 26,
-      "000": 30,
-      "001": 27,
-      "010": 26,
+      "100": 25,
+      "101": 25,
+      "110": 25,
+      "111": 25,
+      "000": 25,
+      "001": 25,
+      "010": 25,
       "011": 25
     },
     "perCheck": {
       "wordiness": {
-        "hits": 108,
-        "noHits": 108
+        "hits": 100,
+        "noHits": 100
       },
       "redundancy": {
-        "hits": 104,
-        "noHits": 112
+        "hits": 100,
+        "noHits": 100
       },
       "repeated-explanation": {
-        "hits": 104,
-        "noHits": 112
+        "hits": 100,
+        "noHits": 100
       }
     }
   },
@@ -70,16 +70,14 @@
   "sourceCaseDigests": {
     "pool": "2fc19ec118d36251b8fb80e6ed9f1e6f8c99953ec93757f40017a98af8cac8e6",
     "selected": "b9273385b2a61dec886fa626fdf7520ab277673d64511ca1f63aa3dc7a510538",
-    "encoding": "SHA-256 of JSON.stringify(records.map(r => ({id:r.id,textSha256:sha256(r.text),judgments:r.labels}))), preserving source array order and the displayed object key order."
+    "encoding": "SHA-256 of JSON.stringify(records.map(r => ({id:r.id,textSha256:sha256(r.text),judgments:r.labels}))), preserving source array order and the displayed object key order.",
+    "active": "b9273385b2a61dec886fa626fdf7520ab277673d64511ca1f63aa3dc7a510538",
+    "surplus": "726a4665a6292dab68c975f11f77d8a3445b231085fcad287a027642e18b72bc"
   },
   "selection": {
-    "state": "preserved-for-write-after-parent-archive-commit",
+    "state": "materialized-after-parent-archive-commit",
     "method": "Use corrected judgments before quotas. Require every supplied review-dispute, changed, or newly authored coverage case; fill each combination by ascending SHA-256 of complete text. Mix final order by the same hash. Labels remain fixed throughout selection.",
-    "bitOrder": [
-      "wordiness",
-      "redundancy",
-      "repeated-explanation"
-    ],
+    "bitOrder": ["wordiness", "redundancy", "repeated-explanation"],
     "selectedIds": [
       "000040-189",
       "000040-155",
@@ -748,10 +746,7 @@
     "repairContext": {
       "tool": "Codex",
       "continuity": "The same protected repair worker performed the V2 and V3 adjudication and this mechanical materialization.",
-      "revisions": [
-        2,
-        3
-      ]
+      "revisions": [2, 3]
     },
     "reviewContexts": [
       {
@@ -790,25 +785,26 @@
     "preservedHistory": {
       "path": "/tmp/000040-holdout-mixed-preservation-manifest-v3.json",
       "sha256": "54b28ba49f4453d962a8d5e8729642512a7017cff19fbb9666d6ef12aa79cd74"
-    }
+    },
+    "scope": "Reviewed full 216-text source pool; active membership is preserved in selection.selectedIds."
   },
   "verification": {
     "publicReadDocument": {
       "documents": 1,
-      "samples": 216,
-      "judgments": 648,
+      "samples": 200,
+      "judgments": 600,
       "checksum": "passed",
-      "exactSourceBoundaries": 216,
-      "exactSourceLabelTriples": 216
+      "exactSourceBoundaries": 200,
+      "exactSourceLabelTriples": 200
     },
     "publicLoadDataset": {
       "family": "wordiness-and-redundancy",
-      "targets": 216,
-      "judgments": 648,
-      "completeCheckTriples": 216,
-      "targetTextsEqualApprovedSources": 216
+      "targets": 200,
+      "judgments": 600,
+      "completeCheckTriples": 200,
+      "targetTextsEqualApprovedSources": 200
     },
-    "exactHitSnippets": 430,
+    "exactHitSnippets": 410,
     "invalidSnippets": 0,
     "noHitLabelsWithSnippets": 0,
     "providerCalls": 0,
@@ -816,13 +812,179 @@
     "promptReads": 0,
     "developmentDataReads": 0,
     "predictionReads": 0,
-    "balancedSelectionWrites": 0,
-    "commits": 0
+    "balancedSelectionWrites": 1,
+    "commits": 0,
+    "archiveSurplusRecoveredAndMatched": 16,
+    "mandatoryCasesRetained": 106,
+    "stagingCalls": 0
   },
   "pending": {
-    "archiveCommit": 1,
-    "balancedSelectionWriteAfterArchiveCommit": 1,
+    "archiveCommit": 0,
+    "balancedSelectionWriteAfterArchiveCommit": 0,
     "crossSplitOverlapAudit": 1,
     "canonicalMaterializationWrites": 0
+  },
+  "archiveCommit": "24144852155c4ac9158640f1a2e3a2834b8782f9",
+  "archiveLink": "https://github.com/berelevant-ai/slopless/commit/24144852155c4ac9158640f1a2e3a2834b8782f9",
+  "archive": {
+    "commit": "24144852155c4ac9158640f1a2e3a2834b8782f9",
+    "link": "https://github.com/berelevant-ai/slopless/commit/24144852155c4ac9158640f1a2e3a2834b8782f9",
+    "fullPool": {
+      "writing": "datasets/ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.md",
+      "labels": "datasets/ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.labels.json",
+      "writingSha256": "34fe9940f441af5e58b7b1d46ceafd7c3daf77f5bb692dd26a09b54c43d5f1b2",
+      "labelsSha256": "aba040474ea21f4ec34e73e262e50a64cdbc07779a02d3c534afc749fb3aa632",
+      "texts": 216,
+      "judgments": 648,
+      "combinations": {
+        "100": 29,
+        "101": 26,
+        "110": 27,
+        "111": 26,
+        "000": 30,
+        "001": 27,
+        "010": 26,
+        "011": 25
+      },
+      "perCheck": {
+        "wordiness": {
+          "hits": 108,
+          "noHits": 108
+        },
+        "redundancy": {
+          "hits": 104,
+          "noHits": 112
+        },
+        "repeated-explanation": {
+          "hits": 104,
+          "noHits": 112
+        }
+      }
+    },
+    "fullPoolCaseDigest": "2fc19ec118d36251b8fb80e6ed9f1e6f8c99953ec93757f40017a98af8cac8e6",
+    "historicalPoolReviewCounts": {
+      "priorPoolTextsReviewed": 216,
+      "priorPoolJudgmentsReviewed": 648,
+      "byteIdenticalRecordsReused": 213,
+      "changedCasesReread": 3,
+      "promotedCasesReread": 2,
+      "currentPoolJudgmentsApproved": 648
+    },
+    "historicalPoolVerification": {
+      "publicReadDocument": {
+        "documents": 1,
+        "samples": 216,
+        "judgments": 648,
+        "checksum": "passed",
+        "exactSourceBoundaries": 216,
+        "exactSourceLabelTriples": 216
+      },
+      "publicLoadDataset": {
+        "family": "wordiness-and-redundancy",
+        "targets": 216,
+        "judgments": 648,
+        "completeCheckTriples": 216,
+        "targetTextsEqualApprovedSources": 216
+      },
+      "exactHitSnippets": 430,
+      "invalidSnippets": 0,
+      "noHitLabelsWithSnippets": 0,
+      "providerCalls": 0,
+      "detectorCalls": 0,
+      "promptReads": 0,
+      "developmentDataReads": 0,
+      "predictionReads": 0,
+      "balancedSelectionWrites": 0,
+      "commits": 0
+    },
+    "fileHashes": [
+      {
+        "path": "datasets/ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.md",
+        "sha256": "34fe9940f441af5e58b7b1d46ceafd7c3daf77f5bb692dd26a09b54c43d5f1b2"
+      },
+      {
+        "path": "datasets/ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.labels.json",
+        "sha256": "aba040474ea21f4ec34e73e262e50a64cdbc07779a02d3c534afc749fb3aa632"
+      },
+      {
+        "path": "runners/results/wordiness-and-redundancy-mixed-holdout-review.json",
+        "sha256": "21a0e56b69bc944e8adb9f92bd2fe916483a17c4917bf838f9351b77207acdb9"
+      }
+    ],
+    "recoverableSurplus": {
+      "texts": 16,
+      "judgments": 48,
+      "ids": [
+        "000040-164",
+        "000040-070",
+        "000040-069",
+        "000040-018",
+        "000040-075",
+        "000040-101",
+        "000040-181",
+        "000040-178",
+        "000040-017",
+        "000040-021",
+        "000040-071",
+        "000040-182",
+        "000040-184",
+        "000040-022",
+        "000040-001",
+        "000040-015"
+      ],
+      "caseDigest": "726a4665a6292dab68c975f11f77d8a3445b231085fcad287a027642e18b72bc",
+      "source": {
+        "path": "/tmp/000040-holdout-mixed-surplus-v3.json",
+        "sha256": "730d48fbf342c9a26628b5bab6aab6a7f8333b9815384976dc85b132c3dc6adc"
+      },
+      "recovery": "Read the archived Markdown and labels at this commit, extract samples by the retained surplus IDs, and preserve each complete three-check label triple."
+    }
+  },
+  "activeSelection": {
+    "state": "materialized",
+    "archiveCommit": "24144852155c4ac9158640f1a2e3a2834b8782f9",
+    "archiveLink": "https://github.com/berelevant-ai/slopless/commit/24144852155c4ac9158640f1a2e3a2834b8782f9",
+    "approvedSource": {
+      "path": "/tmp/000040-holdout-mixed-full-author-v3.json",
+      "sha256": "c9b34777a965973660d39a06a82e330388715f56b2c6af9d733c20aaf93626a7"
+    },
+    "approvalProof": {
+      "path": "/tmp/000040-holdout-mixed-final-review-v3.json",
+      "sha256": "0df9a14d073a4363367addecac90bf8633d24462b84d9debfd7a058d3ad3e7f3"
+    },
+    "caseDigest": "b9273385b2a61dec886fa626fdf7520ab277673d64511ca1f63aa3dc7a510538",
+    "writingSha256": "1886c7eee68a746ad7e3bfafd1b71b03f001cebcca49d583dc829de36106d65a",
+    "labelsSha256": "c01d2625d533d047857ee51a5aa9882cd9ca8830faa40c0fdc2913d2a0bba44b",
+    "texts": 200,
+    "judgments": 600,
+    "combinations": {
+      "100": 25,
+      "101": 25,
+      "110": 25,
+      "111": 25,
+      "000": 25,
+      "001": 25,
+      "010": 25,
+      "011": 25
+    },
+    "perCheck": {
+      "wordiness": {
+        "hits": 100,
+        "noHits": 100
+      },
+      "redundancy": {
+        "hits": 100,
+        "noHits": 100
+      },
+      "repeated-explanation": {
+        "hits": 100,
+        "noHits": 100
+      }
+    },
+    "mandatoryTexts": 106,
+    "surplusTextsRecoverableFromArchive": 16,
+    "surplusJudgmentsRecoverableFromArchive": 48,
+    "writingChangesBeyondApprovedSelection": 0,
+    "labelChangesBeyondApprovedSelection": 0
   }
 }
