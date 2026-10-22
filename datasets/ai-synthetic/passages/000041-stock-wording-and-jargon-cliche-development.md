@@ -554,7 +554,7 @@ The admission test was a double-edged sword for the small department. It reduced
 
 ## 000041-139
 
-This tin of radiator paint does what it says on the tin. Two coats covered the dark marks on our bathroom radiator, and the stated drying time was close to what I measured. I could close the door that evening without catching the paint on the frame.
+This tin of radiator paint does what it says on the tin. Two coats covered the dark marks on our bathroom radiator, and the stated drying time was close to what I measured. The finish was dry that evening.
 
 ## 000041-140
 
