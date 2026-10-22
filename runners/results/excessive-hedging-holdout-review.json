@@ -2,7 +2,7 @@
   "family": "excessive-hedging",
   "split": "holdout",
   "protected": true,
-  "status": "Pilots approved. Full-pool generation next; three full reviews pending.",
+  "status": "Full author pools saved; independent full reviews in progress. Labels remain provisional.",
   "collections": {
     "isolated": "000054",
     "mixed": "000056"
@@ -68,15 +68,42 @@
     "proseCorrectionCount": 1,
     "correctedPassageRereviewComplete": true,
     "mandatoryPilotIDs": [
-      "000054-9d7cdecc4c3b", "000054-bf9b71016d73", "000054-da4c76b71193", "000054-9be517a7e6d8",
-      "000054-b02bb1d87826", "000054-1e90dab0c2a6", "000054-b933b16ba72e", "000054-721963c18491",
-      "000054-c22b29791326", "000054-d832f83ffd9c", "000054-8a3c48d9712b", "000054-058907a2a987",
-      "000054-81db838149c0", "000054-dfdbe02afaf3", "000054-264aee8330e6", "000054-f0cd14d23d46",
-      "000054-e8a238fc083d", "000054-1b8e33dd649b", "000054-d9ebf4894b9d", "000054-b57468ca6b01",
-      "000056-8f30674d45b3", "000056-e42be5781825", "000056-74c7583b9502", "000056-571e80acfb1d",
-      "000056-4005de8097de", "000056-9379abaa05b0", "000056-d1f12a4f84c1", "000056-ccb9bb66a4c4",
-      "000056-2f8e0f265b21", "000056-b07ee71dafb7", "000056-61590ccc735e", "000056-1090e6c12f05",
-      "000056-9cf1c63a74ab", "000056-a2e3b9ada7e4", "000056-3bd8bfd3962e", "000056-1bf5d66cada8"
+      "000054-9d7cdecc4c3b",
+      "000054-bf9b71016d73",
+      "000054-da4c76b71193",
+      "000054-9be517a7e6d8",
+      "000054-b02bb1d87826",
+      "000054-1e90dab0c2a6",
+      "000054-b933b16ba72e",
+      "000054-721963c18491",
+      "000054-c22b29791326",
+      "000054-d832f83ffd9c",
+      "000054-8a3c48d9712b",
+      "000054-058907a2a987",
+      "000054-81db838149c0",
+      "000054-dfdbe02afaf3",
+      "000054-264aee8330e6",
+      "000054-f0cd14d23d46",
+      "000054-e8a238fc083d",
+      "000054-1b8e33dd649b",
+      "000054-d9ebf4894b9d",
+      "000054-b57468ca6b01",
+      "000056-8f30674d45b3",
+      "000056-e42be5781825",
+      "000056-74c7583b9502",
+      "000056-571e80acfb1d",
+      "000056-4005de8097de",
+      "000056-9379abaa05b0",
+      "000056-d1f12a4f84c1",
+      "000056-ccb9bb66a4c4",
+      "000056-2f8e0f265b21",
+      "000056-b07ee71dafb7",
+      "000056-61590ccc735e",
+      "000056-1090e6c12f05",
+      "000056-9cf1c63a74ab",
+      "000056-a2e3b9ada7e4",
+      "000056-3bd8bfd3962e",
+      "000056-1bf5d66cada8"
     ],
     "unresolvedDisputeCount": 0,
     "pendingCorrectionCount": 0,
@@ -87,5 +114,93 @@
       "path": "/tmp/hedging-v18-holdout-pilot-reconciliation.json",
       "sha256": "c1dca00a585ee4db87f94286d5f80749ab34d6cbdce184b4fd8336902dde687a"
     }
-  }
+  },
+  "authorPools": [
+    {
+      "collection": "000054",
+      "path": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
+      "textSha256": "de31360772d526c3510305f0e0eb1b1dc8e268683f942255edceee32e4724ba9",
+      "labelsSha256": "fea2cf06ef86b8cfaa2c392175e9b6e0a39bf88271ead39bde924a16b8042b6b",
+      "authorPath": "/tmp/000054-holdout-fullpool-v18.json",
+      "authorSha256": "ae93dc2e0040949482e791966f5d6cbf2261bfd1970e96f75e4247abd53b6174",
+      "qaPath": "/tmp/000054-holdout-fullpool-v18-qa.json",
+      "qaSha256": "0ffa21645513a5f3bf30ce82e9c8c96e7d56fea95a3bb86035032aa208afca2f",
+      "passages": 240,
+      "judgments": 240,
+      "mandatoryPilots": [
+        "000054-264aee8330e6",
+        "000054-dfdbe02afaf3",
+        "000054-9d7cdecc4c3b",
+        "000054-b57468ca6b01",
+        "000054-9be517a7e6d8",
+        "000054-d9ebf4894b9d",
+        "000054-b933b16ba72e",
+        "000054-058907a2a987",
+        "000054-d832f83ffd9c",
+        "000054-bf9b71016d73",
+        "000054-f0cd14d23d46",
+        "000054-da4c76b71193",
+        "000054-e8a238fc083d",
+        "000054-721963c18491",
+        "000054-1e90dab0c2a6",
+        "000054-81db838149c0",
+        "000054-b02bb1d87826",
+        "000054-1b8e33dd649b",
+        "000054-c22b29791326",
+        "000054-8a3c48d9712b"
+      ],
+      "sourceSlotsCovered": 68,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 120,
+          "noHits": 120
+        }
+      }
+    },
+    {
+      "collection": "000056",
+      "path": "datasets/ai-synthetic/passages/000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout.md",
+      "textSha256": "4f6eecf375f8f9bf287efca26fb0eb315fced250ac87bc45f7c22ba7da7d8689",
+      "labelsSha256": "1a1acaac2d58e3adf8cc9eb3edbc7e04473568e9b43b39bfc6adfdc37d9e5b18",
+      "authorPath": "/tmp/000056-holdout-fullpool-v18.json",
+      "authorSha256": "3d736e091c428aff341861381d60332bb96c691f0455973b89efb6582daff523",
+      "qaPath": "/tmp/000056-holdout-fullpool-v18-qa.json",
+      "qaSha256": "2c47985147345cfde803a08dcb37a2ee137f8afb24a9abd7b7702f4776132729",
+      "passages": 240,
+      "judgments": 720,
+      "mandatoryPilots": [
+        "000056-74c7583b9502",
+        "000056-1bf5d66cada8",
+        "000056-2f8e0f265b21",
+        "000056-4005de8097de",
+        "000056-ccb9bb66a4c4",
+        "000056-61590ccc735e",
+        "000056-1090e6c12f05",
+        "000056-3bd8bfd3962e",
+        "000056-a2e3b9ada7e4",
+        "000056-9379abaa05b0",
+        "000056-b07ee71dafb7",
+        "000056-e42be5781825",
+        "000056-9cf1c63a74ab",
+        "000056-d1f12a4f84c1",
+        "000056-571e80acfb1d",
+        "000056-8f30674d45b3"
+      ],
+      "sourceSlotsCovered": 68,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 120,
+          "noHits": 120
+        },
+        "unsupported-authority/vague-attribution": {
+          "hits": 120,
+          "noHits": 120
+        },
+        "puffery-and-overstatement/inflated-evaluation": {
+          "hits": 120,
+          "noHits": 120
+        }
+      }
+    }
+  ]
 }

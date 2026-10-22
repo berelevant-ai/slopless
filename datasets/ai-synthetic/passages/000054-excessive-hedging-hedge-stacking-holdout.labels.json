@@ -1,144 +1,1232 @@
 {
   "schemaVersion": 2,
-  "textSha256": "d43036fce88b4da781c92aa3dd41080aef135d7d740caa4747c81d270bb87335",
+  "textSha256": "de31360772d526c3510305f0e0eb1b1dc8e268683f942255edceee32e4724ba9",
   "source": {
     "name": "Codex-authored Excessive Hedging Hedge Stacking Holdout",
     "originalPath": "datasets/ai-synthetic/passages/000054-excessive-hedging-hedge-stacking-holdout.md",
     "commit": "d3ba42a22b4af254c65cd6038d300762bfe39da9",
     "model": "Codex",
     "prompt": null,
-    "notes": "Synthetic writing authored against the frozen excessive-hedging definition and existing vague-attribution/inflated-evaluation definitions. Independent reviews and balanced selection are recorded separately."
+    "notes": "Complete 240-candidate author pool before three independent full reviews. Labels are provisional; balanced selection and detector evaluation follow review. The earlier pilot snapshot is preserved at 6f56aab6."
   },
   "split": "holdout",
-  "instructions": "Protected holdout: keep writing, labels, snippets and case-specific review outside prompt-authoring contexts. Evaluate only after separate user authorization.",
+  "instructions": "Protected holdout: keep writing, labels, snippets and case-specific review outside prompt-authoring contexts. Evaluate only after separate user authorization. Candidate pool under review: freeze reviewed labels and balanced selection before prompt tuning or model evaluation.",
   "samples": [
     {
-      "id": "000054-264aee8330e6",
+      "id": "000054-bec9d78920fc",
       "start": 68,
-      "end": 480
+      "end": 392
     },
     {
-      "id": "000054-dfdbe02afaf3",
-      "start": 506,
-      "end": 797
-    },
-    {
-      "id": "000054-9d7cdecc4c3b",
-      "start": 823,
-      "end": 1196
-    },
-    {
-      "id": "000054-b57468ca6b01",
-      "start": 1222,
-      "end": 1570
+      "id": "000054-4f241861a2e0",
+      "start": 418,
+      "end": 721
     },
     {
       "id": "000054-9be517a7e6d8",
-      "start": 1596,
-      "end": 1916
+      "start": 747,
+      "end": 1067
+    },
+    {
+      "id": "000054-b184c0038a33",
+      "start": 1093,
+      "end": 1485
     },
     {
       "id": "000054-d9ebf4894b9d",
-      "start": 1942,
-      "end": 2372
+      "start": 1511,
+      "end": 1941
     },
     {
-      "id": "000054-b933b16ba72e",
-      "start": 2398,
-      "end": 2712
+      "id": "000054-60cfba04eed4",
+      "start": 1967,
+      "end": 2277
     },
     {
-      "id": "000054-058907a2a987",
-      "start": 2738,
-      "end": 3092
+      "id": "000054-9713fa3610b3",
+      "start": 2303,
+      "end": 2634
     },
     {
-      "id": "000054-d832f83ffd9c",
-      "start": 3118,
-      "end": 3415
+      "id": "000054-0e2bf7dcd179",
+      "start": 2660,
+      "end": 2997
     },
     {
-      "id": "000054-bf9b71016d73",
-      "start": 3441,
-      "end": 3806
+      "id": "000054-d591a4b38afe",
+      "start": 3023,
+      "end": 3317
     },
     {
-      "id": "000054-f0cd14d23d46",
-      "start": 3832,
-      "end": 4234
+      "id": "000054-1bb0eae4e68c",
+      "start": 3343,
+      "end": 3901
+    },
+    {
+      "id": "000054-9756e6e985b7",
+      "start": 3927,
+      "end": 4259
+    },
+    {
+      "id": "000054-f9842fa1bf77",
+      "start": 4285,
+      "end": 4622
+    },
+    {
+      "id": "000054-92e535681e37",
+      "start": 4648,
+      "end": 4978
     },
     {
       "id": "000054-da4c76b71193",
-      "start": 4260,
-      "end": 4600
+      "start": 5004,
+      "end": 5344
     },
     {
-      "id": "000054-e8a238fc083d",
-      "start": 4626,
-      "end": 4946
+      "id": "000054-2236a63b4d99",
+      "start": 5370,
+      "end": 5677
     },
     {
-      "id": "000054-721963c18491",
-      "start": 4972,
-      "end": 5341
+      "id": "000054-0cbf14e274df",
+      "start": 5703,
+      "end": 6030
     },
     {
-      "id": "000054-1e90dab0c2a6",
-      "start": 5367,
-      "end": 5674
+      "id": "000054-2fd29bde074d",
+      "start": 6056,
+      "end": 6361
     },
     {
-      "id": "000054-81db838149c0",
-      "start": 5700,
-      "end": 6090
+      "id": "000054-68aaf80f3814",
+      "start": 6387,
+      "end": 6694
+    },
+    {
+      "id": "000054-538978dbc2fa",
+      "start": 6720,
+      "end": 7095
+    },
+    {
+      "id": "000054-e42caab02e31",
+      "start": 7121,
+      "end": 7443
+    },
+    {
+      "id": "000054-837e241c5e1d",
+      "start": 7469,
+      "end": 7809
+    },
+    {
+      "id": "000054-496c0f723689",
+      "start": 7835,
+      "end": 8142
+    },
+    {
+      "id": "000054-516118fc3fcf",
+      "start": 8168,
+      "end": 8463
+    },
+    {
+      "id": "000054-058907a2a987",
+      "start": 8489,
+      "end": 8843
+    },
+    {
+      "id": "000054-d96329a070e6",
+      "start": 8869,
+      "end": 9189
     },
     {
       "id": "000054-b02bb1d87826",
-      "start": 6116,
-      "end": 6445
+      "start": 9215,
+      "end": 9544
+    },
+    {
+      "id": "000054-58026672ebbd",
+      "start": 9570,
+      "end": 9873
+    },
+    {
+      "id": "000054-b6888bb41515",
+      "start": 9899,
+      "end": 10230
+    },
+    {
+      "id": "000054-f71a75ffc4d7",
+      "start": 10256,
+      "end": 10597
+    },
+    {
+      "id": "000054-54a2458532ec",
+      "start": 10623,
+      "end": 10931
+    },
+    {
+      "id": "000054-229d12dc0161",
+      "start": 10957,
+      "end": 11248
+    },
+    {
+      "id": "000054-002940455d1c",
+      "start": 11274,
+      "end": 11632
+    },
+    {
+      "id": "000054-0e6f874c6cdd",
+      "start": 11658,
+      "end": 12005
+    },
+    {
+      "id": "000054-91f054a4173e",
+      "start": 12031,
+      "end": 12381
+    },
+    {
+      "id": "000054-e63bbf3c8d86",
+      "start": 12407,
+      "end": 12709
+    },
+    {
+      "id": "000054-cf131bed6e2f",
+      "start": 12735,
+      "end": 13096
+    },
+    {
+      "id": "000054-69a8373821cf",
+      "start": 13122,
+      "end": 13421
+    },
+    {
+      "id": "000054-d825bd7e9f46",
+      "start": 13447,
+      "end": 13783
+    },
+    {
+      "id": "000054-1d12f22b94b6",
+      "start": 13809,
+      "end": 14126
     },
     {
       "id": "000054-1b8e33dd649b",
-      "start": 6471,
-      "end": 6805
+      "start": 14152,
+      "end": 14486
+    },
+    {
+      "id": "000054-39c2c86ad216",
+      "start": 14512,
+      "end": 14738
+    },
+    {
+      "id": "000054-fe17fe9a5bc6",
+      "start": 14764,
+      "end": 15061
+    },
+    {
+      "id": "000054-f718c8036bbc",
+      "start": 15087,
+      "end": 15408
+    },
+    {
+      "id": "000054-0173a0572d7f",
+      "start": 15434,
+      "end": 15754
+    },
+    {
+      "id": "000054-d2a25d5e4387",
+      "start": 15780,
+      "end": 16126
+    },
+    {
+      "id": "000054-3c111ef2a54a",
+      "start": 16152,
+      "end": 16461
+    },
+    {
+      "id": "000054-4c3acc9fdfae",
+      "start": 16487,
+      "end": 16835
+    },
+    {
+      "id": "000054-aca720024604",
+      "start": 16861,
+      "end": 17263
+    },
+    {
+      "id": "000054-3d2807733569",
+      "start": 17289,
+      "end": 17581
+    },
+    {
+      "id": "000054-a2c02e82ed6f",
+      "start": 17607,
+      "end": 17836
+    },
+    {
+      "id": "000054-6029c2501010",
+      "start": 17862,
+      "end": 18207
+    },
+    {
+      "id": "000054-741be7cfd314",
+      "start": 18233,
+      "end": 18544
+    },
+    {
+      "id": "000054-111a194fe8a1",
+      "start": 18570,
+      "end": 18880
+    },
+    {
+      "id": "000054-a0c25451c4c1",
+      "start": 18906,
+      "end": 19230
+    },
+    {
+      "id": "000054-1bd269dc979d",
+      "start": 19256,
+      "end": 19866
+    },
+    {
+      "id": "000054-dfdbe02afaf3",
+      "start": 19892,
+      "end": 20183
+    },
+    {
+      "id": "000054-9af950c8137c",
+      "start": 20209,
+      "end": 20530
+    },
+    {
+      "id": "000054-c216637dd3cd",
+      "start": 20556,
+      "end": 20890
+    },
+    {
+      "id": "000054-73795106b387",
+      "start": 20916,
+      "end": 21244
+    },
+    {
+      "id": "000054-3267881a6731",
+      "start": 21270,
+      "end": 21611
+    },
+    {
+      "id": "000054-abd4a401dd1e",
+      "start": 21637,
+      "end": 21967
+    },
+    {
+      "id": "000054-73a808a95eb3",
+      "start": 21993,
+      "end": 22297
+    },
+    {
+      "id": "000054-9421a052d52a",
+      "start": 22323,
+      "end": 22620
+    },
+    {
+      "id": "000054-bbddd4a46bdb",
+      "start": 22646,
+      "end": 22987
+    },
+    {
+      "id": "000054-b82990a87f27",
+      "start": 23013,
+      "end": 23371
+    },
+    {
+      "id": "000054-ab8da884c571",
+      "start": 23397,
+      "end": 23725
+    },
+    {
+      "id": "000054-457ed3f0e5b4",
+      "start": 23751,
+      "end": 24042
+    },
+    {
+      "id": "000054-d5bdf192b1dd",
+      "start": 24068,
+      "end": 24408
+    },
+    {
+      "id": "000054-4d31ba893148",
+      "start": 24434,
+      "end": 24757
+    },
+    {
+      "id": "000054-13a3ab28cc2c",
+      "start": 24783,
+      "end": 25111
+    },
+    {
+      "id": "000054-9d4fb984ba65",
+      "start": 25137,
+      "end": 25439
+    },
+    {
+      "id": "000054-80f42b8dc072",
+      "start": 25465,
+      "end": 25844
+    },
+    {
+      "id": "000054-f0f0e3a601cb",
+      "start": 25870,
+      "end": 26203
+    },
+    {
+      "id": "000054-bdaa1e7021b2",
+      "start": 26229,
+      "end": 26534
+    },
+    {
+      "id": "000054-592c91a3cf36",
+      "start": 26560,
+      "end": 26894
+    },
+    {
+      "id": "000054-292d459562dc",
+      "start": 26920,
+      "end": 27249
+    },
+    {
+      "id": "000054-bde807bb938d",
+      "start": 27275,
+      "end": 27573
+    },
+    {
+      "id": "000054-41c89719cd7f",
+      "start": 27599,
+      "end": 27898
+    },
+    {
+      "id": "000054-faa965ac9793",
+      "start": 27924,
+      "end": 28536
+    },
+    {
+      "id": "000054-5cb0f7536edd",
+      "start": 28562,
+      "end": 28886
+    },
+    {
+      "id": "000054-c497cbaf43c3",
+      "start": 28912,
+      "end": 29208
+    },
+    {
+      "id": "000054-2ed9b275829c",
+      "start": 29234,
+      "end": 29548
+    },
+    {
+      "id": "000054-cf58e9922402",
+      "start": 29574,
+      "end": 29925
+    },
+    {
+      "id": "000054-29a14c8e4828",
+      "start": 29951,
+      "end": 30258
+    },
+    {
+      "id": "000054-53668908f288",
+      "start": 30284,
+      "end": 30649
+    },
+    {
+      "id": "000054-f865579b2996",
+      "start": 30675,
+      "end": 30988
+    },
+    {
+      "id": "000054-be71a5463434",
+      "start": 31014,
+      "end": 31332
+    },
+    {
+      "id": "000054-6fad67e00123",
+      "start": 31358,
+      "end": 31684
+    },
+    {
+      "id": "000054-429c7ba5328d",
+      "start": 31710,
+      "end": 32044
+    },
+    {
+      "id": "000054-71088de4d5f3",
+      "start": 32070,
+      "end": 32405
+    },
+    {
+      "id": "000054-880703df9cf3",
+      "start": 32431,
+      "end": 32726
+    },
+    {
+      "id": "000054-519cb18487f0",
+      "start": 32752,
+      "end": 33083
+    },
+    {
+      "id": "000054-e93fe12ff2e0",
+      "start": 33109,
+      "end": 33455
+    },
+    {
+      "id": "000054-fbb7f1ec796c",
+      "start": 33481,
+      "end": 33804
+    },
+    {
+      "id": "000054-972c692f8620",
+      "start": 33830,
+      "end": 34163
+    },
+    {
+      "id": "000054-64b8c5676644",
+      "start": 34189,
+      "end": 34536
+    },
+    {
+      "id": "000054-f130d1b7a58f",
+      "start": 34562,
+      "end": 34740
+    },
+    {
+      "id": "000054-de7042ec846f",
+      "start": 34766,
+      "end": 35048
+    },
+    {
+      "id": "000054-5bce93ae98a7",
+      "start": 35074,
+      "end": 35427
+    },
+    {
+      "id": "000054-8773b4d68dbb",
+      "start": 35453,
+      "end": 35781
+    },
+    {
+      "id": "000054-15b86335ca1c",
+      "start": 35807,
+      "end": 36147
+    },
+    {
+      "id": "000054-4ebbe8b811cb",
+      "start": 36173,
+      "end": 36420
+    },
+    {
+      "id": "000054-027c14fe63a4",
+      "start": 36446,
+      "end": 36796
+    },
+    {
+      "id": "000054-5e3a96446ff9",
+      "start": 36822,
+      "end": 37150
+    },
+    {
+      "id": "000054-e1cac57c65e8",
+      "start": 37176,
+      "end": 37487
+    },
+    {
+      "id": "000054-5e937f6748ee",
+      "start": 37513,
+      "end": 37811
+    },
+    {
+      "id": "000054-54c238b4f4a9",
+      "start": 37837,
+      "end": 38187
+    },
+    {
+      "id": "000054-e8a238fc083d",
+      "start": 38213,
+      "end": 38533
+    },
+    {
+      "id": "000054-a9656e22a0c9",
+      "start": 38559,
+      "end": 38887
+    },
+    {
+      "id": "000054-9d7d0e541d9c",
+      "start": 38913,
+      "end": 39244
+    },
+    {
+      "id": "000054-889fe6053d24",
+      "start": 39270,
+      "end": 39623
+    },
+    {
+      "id": "000054-6fc12d40d91d",
+      "start": 39649,
+      "end": 39997
+    },
+    {
+      "id": "000054-6deaee02b423",
+      "start": 40023,
+      "end": 40342
+    },
+    {
+      "id": "000054-8ea2f32f9b3d",
+      "start": 40368,
+      "end": 40697
+    },
+    {
+      "id": "000054-8e30b658162d",
+      "start": 40723,
+      "end": 40938
+    },
+    {
+      "id": "000054-97830fa426d8",
+      "start": 40964,
+      "end": 41264
+    },
+    {
+      "id": "000054-654d42752c7f",
+      "start": 41290,
+      "end": 41590
+    },
+    {
+      "id": "000054-b60d3c107fc8",
+      "start": 41616,
+      "end": 41930
+    },
+    {
+      "id": "000054-16637a2542e2",
+      "start": 41956,
+      "end": 42276
+    },
+    {
+      "id": "000054-df1e54c7bc25",
+      "start": 42302,
+      "end": 42664
+    },
+    {
+      "id": "000054-d4af747df92f",
+      "start": 42690,
+      "end": 43050
+    },
+    {
+      "id": "000054-2a7ce926d4c0",
+      "start": 43076,
+      "end": 43363
+    },
+    {
+      "id": "000054-1e90dab0c2a6",
+      "start": 43389,
+      "end": 43696
+    },
+    {
+      "id": "000054-be0bada90f4a",
+      "start": 43722,
+      "end": 44078
+    },
+    {
+      "id": "000054-2298c0d320cc",
+      "start": 44104,
+      "end": 44416
+    },
+    {
+      "id": "000054-44f8e1cc75e5",
+      "start": 44442,
+      "end": 44776
+    },
+    {
+      "id": "000054-53c1b46bbc1d",
+      "start": 44802,
+      "end": 45136
+    },
+    {
+      "id": "000054-8ca90fcf98e0",
+      "start": 45162,
+      "end": 45506
+    },
+    {
+      "id": "000054-721963c18491",
+      "start": 45532,
+      "end": 45901
+    },
+    {
+      "id": "000054-6dddaa3e839e",
+      "start": 45927,
+      "end": 46139
+    },
+    {
+      "id": "000054-b933b16ba72e",
+      "start": 46165,
+      "end": 46479
+    },
+    {
+      "id": "000054-bbe7eae21b72",
+      "start": 46505,
+      "end": 46845
+    },
+    {
+      "id": "000054-652c0c35e6b1",
+      "start": 46871,
+      "end": 47196
+    },
+    {
+      "id": "000054-d580139df10b",
+      "start": 47222,
+      "end": 47492
+    },
+    {
+      "id": "000054-60fb11bd9f5e",
+      "start": 47518,
+      "end": 47866
+    },
+    {
+      "id": "000054-02c66f2f64c2",
+      "start": 47892,
+      "end": 48226
+    },
+    {
+      "id": "000054-07ebc25bbc64",
+      "start": 48252,
+      "end": 48590
+    },
+    {
+      "id": "000054-714d97f7200c",
+      "start": 48616,
+      "end": 48944
+    },
+    {
+      "id": "000054-97fc1591b0ca",
+      "start": 48970,
+      "end": 49285
+    },
+    {
+      "id": "000054-9d7cdecc4c3b",
+      "start": 49311,
+      "end": 49684
+    },
+    {
+      "id": "000054-ff3983a10c65",
+      "start": 49710,
+      "end": 50027
+    },
+    {
+      "id": "000054-7dfcb4be80a4",
+      "start": 50053,
+      "end": 50341
+    },
+    {
+      "id": "000054-b81144d1bbc3",
+      "start": 50367,
+      "end": 50778
+    },
+    {
+      "id": "000054-3cdbff05f99e",
+      "start": 50804,
+      "end": 51103
+    },
+    {
+      "id": "000054-dd4e0c941b89",
+      "start": 51129,
+      "end": 51511
+    },
+    {
+      "id": "000054-1c199bcac753",
+      "start": 51537,
+      "end": 51860
+    },
+    {
+      "id": "000054-9af28bcb3fbc",
+      "start": 51886,
+      "end": 52220
+    },
+    {
+      "id": "000054-de39c6fbfa4e",
+      "start": 52246,
+      "end": 52605
+    },
+    {
+      "id": "000054-0223d57ac48f",
+      "start": 52631,
+      "end": 52885
+    },
+    {
+      "id": "000054-9880230866e8",
+      "start": 52911,
+      "end": 53221
+    },
+    {
+      "id": "000054-3a0f0d06d33d",
+      "start": 53247,
+      "end": 53549
+    },
+    {
+      "id": "000054-bf9b71016d73",
+      "start": 53575,
+      "end": 53940
+    },
+    {
+      "id": "000054-5070f30ac380",
+      "start": 53966,
+      "end": 54284
+    },
+    {
+      "id": "000054-20c8ba6595db",
+      "start": 54310,
+      "end": 54627
+    },
+    {
+      "id": "000054-1aa1669a7e2b",
+      "start": 54653,
+      "end": 54967
+    },
+    {
+      "id": "000054-cc9bb6e91110",
+      "start": 54993,
+      "end": 55574
+    },
+    {
+      "id": "000054-48fad9ba8ac4",
+      "start": 55600,
+      "end": 55887
+    },
+    {
+      "id": "000054-65685e553306",
+      "start": 55913,
+      "end": 56222
+    },
+    {
+      "id": "000054-dc1520d94659",
+      "start": 56248,
+      "end": 56593
+    },
+    {
+      "id": "000054-54657f025659",
+      "start": 56619,
+      "end": 56941
+    },
+    {
+      "id": "000054-4a46fdd6db1d",
+      "start": 56967,
+      "end": 57272
+    },
+    {
+      "id": "000054-f0cd14d23d46",
+      "start": 57298,
+      "end": 57700
+    },
+    {
+      "id": "000054-12135b5f6586",
+      "start": 57726,
+      "end": 58043
+    },
+    {
+      "id": "000054-019a3c887512",
+      "start": 58069,
+      "end": 58345
+    },
+    {
+      "id": "000054-785d6facd634",
+      "start": 58371,
+      "end": 58656
+    },
+    {
+      "id": "000054-2478a3dd9e10",
+      "start": 58682,
+      "end": 59030
+    },
+    {
+      "id": "000054-6b63b03f052d",
+      "start": 59056,
+      "end": 59359
+    },
+    {
+      "id": "000054-9df180f739ea",
+      "start": 59385,
+      "end": 59710
+    },
+    {
+      "id": "000054-3975e1ca4ea4",
+      "start": 59736,
+      "end": 60041
+    },
+    {
+      "id": "000054-4aa4a8a2cd4e",
+      "start": 60067,
+      "end": 60413
+    },
+    {
+      "id": "000054-8559058e6409",
+      "start": 60439,
+      "end": 60781
+    },
+    {
+      "id": "000054-81db838149c0",
+      "start": 60807,
+      "end": 61197
+    },
+    {
+      "id": "000054-cddece1d9bac",
+      "start": 61223,
+      "end": 61555
+    },
+    {
+      "id": "000054-e00e94f3c3f4",
+      "start": 61581,
+      "end": 61896
+    },
+    {
+      "id": "000054-5a2b18846574",
+      "start": 61922,
+      "end": 62524
+    },
+    {
+      "id": "000054-4df9aadcacb3",
+      "start": 62550,
+      "end": 62829
+    },
+    {
+      "id": "000054-d8f8b7d3a1c2",
+      "start": 62855,
+      "end": 63184
+    },
+    {
+      "id": "000054-8c0fc625f0dd",
+      "start": 63210,
+      "end": 63539
+    },
+    {
+      "id": "000054-a8ed56a5dccd",
+      "start": 63565,
+      "end": 63879
+    },
+    {
+      "id": "000054-84d8fd41a00f",
+      "start": 63905,
+      "end": 64234
+    },
+    {
+      "id": "000054-37651c326156",
+      "start": 64260,
+      "end": 64621
+    },
+    {
+      "id": "000054-a6aff09c1428",
+      "start": 64647,
+      "end": 64948
+    },
+    {
+      "id": "000054-c6d1662c72b5",
+      "start": 64974,
+      "end": 65293
+    },
+    {
+      "id": "000054-9285254f2c48",
+      "start": 65319,
+      "end": 65639
+    },
+    {
+      "id": "000054-aa30b7a6e9a0",
+      "start": 65665,
+      "end": 65988
+    },
+    {
+      "id": "000054-6500f1b0a8b8",
+      "start": 66014,
+      "end": 66313
+    },
+    {
+      "id": "000054-7b60ace807e4",
+      "start": 66339,
+      "end": 66697
+    },
+    {
+      "id": "000054-b6fd767d7b39",
+      "start": 66723,
+      "end": 67060
+    },
+    {
+      "id": "000054-d52175edcc23",
+      "start": 67086,
+      "end": 67434
+    },
+    {
+      "id": "000054-5d1b8a5c8793",
+      "start": 67460,
+      "end": 67797
+    },
+    {
+      "id": "000054-8480eb4d9ff7",
+      "start": 67823,
+      "end": 68169
+    },
+    {
+      "id": "000054-8dd56da14ad1",
+      "start": 68195,
+      "end": 68538
+    },
+    {
+      "id": "000054-a79349704bfd",
+      "start": 68564,
+      "end": 68862
+    },
+    {
+      "id": "000054-d832f83ffd9c",
+      "start": 68888,
+      "end": 69185
     },
     {
       "id": "000054-c22b29791326",
-      "start": 6831,
-      "end": 7223
+      "start": 69211,
+      "end": 69603
+    },
+    {
+      "id": "000054-810bc7639482",
+      "start": 69629,
+      "end": 69970
+    },
+    {
+      "id": "000054-e5c82be25040",
+      "start": 69996,
+      "end": 70319
+    },
+    {
+      "id": "000054-15c900bb79e4",
+      "start": 70345,
+      "end": 70654
     },
     {
       "id": "000054-8a3c48d9712b",
-      "start": 7249,
-      "end": 7619
+      "start": 70680,
+      "end": 71050
+    },
+    {
+      "id": "000054-264aee8330e6",
+      "start": 71076,
+      "end": 71488
+    },
+    {
+      "id": "000054-be3c17fac00e",
+      "start": 71514,
+      "end": 71843
+    },
+    {
+      "id": "000054-78981258972c",
+      "start": 71869,
+      "end": 72182
+    },
+    {
+      "id": "000054-9cf22a4f8356",
+      "start": 72208,
+      "end": 72788
+    },
+    {
+      "id": "000054-e80548141a81",
+      "start": 72814,
+      "end": 73127
+    },
+    {
+      "id": "000054-04b7b671d933",
+      "start": 73153,
+      "end": 73776
+    },
+    {
+      "id": "000054-b5cf2f81f0e1",
+      "start": 73802,
+      "end": 74126
+    },
+    {
+      "id": "000054-7a12702f2afb",
+      "start": 74152,
+      "end": 74554
+    },
+    {
+      "id": "000054-f446f48c7e91",
+      "start": 74580,
+      "end": 74954
+    },
+    {
+      "id": "000054-580a4ffdd23b",
+      "start": 74980,
+      "end": 75290
+    },
+    {
+      "id": "000054-b57468ca6b01",
+      "start": 75316,
+      "end": 75664
+    },
+    {
+      "id": "000054-fac0b52c8198",
+      "start": 75690,
+      "end": 76020
+    },
+    {
+      "id": "000054-090507fcf521",
+      "start": 76046,
+      "end": 76341
+    },
+    {
+      "id": "000054-9198991d064a",
+      "start": 76367,
+      "end": 76681
+    },
+    {
+      "id": "000054-c64f463a3c79",
+      "start": 76707,
+      "end": 77014
+    },
+    {
+      "id": "000054-0c3750f783ae",
+      "start": 77040,
+      "end": 77357
+    },
+    {
+      "id": "000054-333db9ebf36d",
+      "start": 77383,
+      "end": 77678
+    },
+    {
+      "id": "000054-2f3960629adf",
+      "start": 77704,
+      "end": 78028
+    },
+    {
+      "id": "000054-60235875eb74",
+      "start": 78054,
+      "end": 78433
+    },
+    {
+      "id": "000054-025d9831fc6d",
+      "start": 78459,
+      "end": 78754
+    },
+    {
+      "id": "000054-1b49722a738c",
+      "start": 78780,
+      "end": 79026
+    },
+    {
+      "id": "000054-dd6500eb1388",
+      "start": 79052,
+      "end": 79374
+    },
+    {
+      "id": "000054-38f6a8292be8",
+      "start": 79400,
+      "end": 79726
+    },
+    {
+      "id": "000054-be84ec176ce2",
+      "start": 79752,
+      "end": 80031
+    },
+    {
+      "id": "000054-38210840c215",
+      "start": 80057,
+      "end": 80368
+    },
+    {
+      "id": "000054-873f130ed100",
+      "start": 80394,
+      "end": 80679
+    },
+    {
+      "id": "000054-86999d5a5959",
+      "start": 80705,
+      "end": 81046
+    },
+    {
+      "id": "000054-95e7aacdba62",
+      "start": 81072,
+      "end": 81381
+    },
+    {
+      "id": "000054-9e7a0670a2e1",
+      "start": 81407,
+      "end": 81712
+    },
+    {
+      "id": "000054-c87282acea70",
+      "start": 81738,
+      "end": 82362
+    },
+    {
+      "id": "000054-04605e75e618",
+      "start": 82388,
+      "end": 82692
+    },
+    {
+      "id": "000054-a489d3481396",
+      "start": 82718,
+      "end": 83058
+    },
+    {
+      "id": "000054-12db3be9208a",
+      "start": 83084,
+      "end": 83283
+    },
+    {
+      "id": "000054-d74e76a259ca",
+      "start": 83309,
+      "end": 83651
+    },
+    {
+      "id": "000054-423066d0a250",
+      "start": 83677,
+      "end": 83984
+    },
+    {
+      "id": "000054-0780d7cf06f1",
+      "start": 84010,
+      "end": 84380
+    },
+    {
+      "id": "000054-cb91520d4426",
+      "start": 84406,
+      "end": 84708
+    },
+    {
+      "id": "000054-dbb650d69691",
+      "start": 84734,
+      "end": 85091
+    },
+    {
+      "id": "000054-cda858b0991f",
+      "start": 85117,
+      "end": 85455
+    },
+    {
+      "id": "000054-7620942dda10",
+      "start": 85481,
+      "end": 85816
+    },
+    {
+      "id": "000054-f51198c37767",
+      "start": 85842,
+      "end": 86124
     }
   ],
   "labels": [
     {
-      "id": "000054-264aee8330e6",
+      "id": "000054-bec9d78920fc",
       "check": "excessive-hedging/hedge-stacking",
       "expected": false
     },
     {
-      "id": "000054-dfdbe02afaf3",
+      "id": "000054-4f241861a2e0",
       "check": "excessive-hedging/hedge-stacking",
       "expected": true,
       "snippets": [
-        "It is possible that the thermostat may be cutting out too soon."
+        "The revised drawing might satisfy the landlord's request for a wider entrance.",
+        "It remains something that could be possible."
       ]
-    },
-    {
-      "id": "000054-9d7cdecc4c3b",
-      "check": "excessive-hedging/hedge-stacking",
-      "expected": true,
-      "snippets": [
-        "A stale lease could potentially account for that mismatch."
-      ]
-    },
-    {
-      "id": "000054-b57468ca6b01",
-      "check": "excessive-hedging/hedge-stacking",
-      "expected": false
     },
     {
       "id": "000054-9be517a7e6d8",
@@ -149,12 +1237,128 @@
       ]
     },
     {
+      "id": "000054-b184c0038a33",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is perhaps a chance that fatigue contributed to those omissions."
+      ]
+    },
+    {
       "id": "000054-d9ebf4894b9d",
       "check": "excessive-hedging/hedge-stacking",
       "expected": false
     },
     {
-      "id": "000054-b933b16ba72e",
+      "id": "000054-60cfba04eed4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all likelihood, the ferry would probably leave on its next scheduled crossing."
+      ]
+    },
+    {
+      "id": "000054-9713fa3610b3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-0e2bf7dcd179",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "One tentative possibility for covering the reception break is that the training assistant might sit at the desk."
+      ]
+    },
+    {
+      "id": "000054-d591a4b38afe",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The replacement lamp could make the carving marks easier to see.",
+        "That could perhaps be possible."
+      ]
+    },
+    {
+      "id": "000054-1bb0eae4e68c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-9756e6e985b7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-f9842fa1bf77",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the drone service could finish sooner if the weather stays clear."
+      ]
+    },
+    {
+      "id": "000054-92e535681e37",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-da4c76b71193",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "One possibility is that we might need to use the library annex instead."
+      ]
+    },
+    {
+      "id": "000054-2236a63b4d99",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-0cbf14e274df",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-2fd29bde074d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-68aaf80f3814",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-538978dbc2fa",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-e42caab02e31",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Searches could, while a new folder is being indexed, conceivably return the previous set of results."
+      ]
+    },
+    {
+      "id": "000054-837e241c5e1d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-496c0f723689",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The skate session could run for another half hour if the floodlights are repaired.",
+        "An extension could be possible."
+      ]
+    },
+    {
+      "id": "000054-516118fc3fcf",
       "check": "excessive-hedging/hedge-stacking",
       "expected": false
     },
@@ -168,7 +1372,861 @@
       ]
     },
     {
-      "id": "000054-d832f83ffd9c",
+      "id": "000054-d96329a070e6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "That could remove the need for a taxi home.",
+        "It is a conceivable possibility."
+      ]
+    },
+    {
+      "id": "000054-b02bb1d87826",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that the missing wheel might be in the maintenance shed"
+      ]
+    },
+    {
+      "id": "000054-58026672ebbd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-b6888bb41515",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is conceivable that a brief overlap could produce two readings with the same sequence number."
+      ]
+    },
+    {
+      "id": "000054-f71a75ffc4d7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It has the potential to possibly catch an expired password before a large transfer begins."
+      ]
+    },
+    {
+      "id": "000054-54a2458532ec",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-229d12dc0161",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-002940455d1c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Participants might, after seeing two similar cards in succession, perhaps have used position rather than colour to choose their answer."
+      ]
+    },
+    {
+      "id": "000054-0e6f874c6cdd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "As a possible benefit, they may find it easier to answer their first customer query without leaving the till."
+      ]
+    },
+    {
+      "id": "000054-91f054a4173e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-e63bbf3c8d86",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe the darker border is perhaps making the centre look paler."
+      ]
+    },
+    {
+      "id": "000054-cf131bed6e2f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-69a8373821cf",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-d825bd7e9f46",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "An empty successful response may possibly therefore trigger another write."
+      ]
+    },
+    {
+      "id": "000054-1d12f22b94b6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the spare blank badges may be enough."
+      ]
+    },
+    {
+      "id": "000054-1b8e33dd649b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-39c2c86ad216",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-fe17fe9a5bc6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-f718c8036bbc",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all likelihood, it will probably arrive with Thursday's catering delivery."
+      ]
+    },
+    {
+      "id": "000054-0173a0572d7f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-d2a25d5e4387",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all likelihood, your bank will probably show that reversal after its next overnight update."
+      ]
+    },
+    {
+      "id": "000054-3c111ef2a54a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It could, with the rigid base removed, potentially fold into the cupboard at the cottage as well."
+      ]
+    },
+    {
+      "id": "000054-4c3acc9fdfae",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all likelihood, the direct entrance will probably make our weekly deliveries quicker."
+      ]
+    },
+    {
+      "id": "000054-aca720024604",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The marks could identify changes made during a single rebuilding campaign.",
+        "Conceivably, they point to one campaign of work."
+      ]
+    },
+    {
+      "id": "000054-3d2807733569",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-a2c02e82ed6f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-6029c2501010",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-741be7cfd314",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-111a194fe8a1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-a0c25451c4c1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The hourly rate has the potential to possibly save money on short rehearsals."
+      ]
+    },
+    {
+      "id": "000054-1bd269dc979d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "That might reduce the pauses between labels on older printers.",
+        "Such a reduction is a possibility."
+      ]
+    },
+    {
+      "id": "000054-dfdbe02afaf3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is possible that the thermostat may be cutting out too soon."
+      ]
+    },
+    {
+      "id": "000054-9af950c8137c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-c216637dd3cd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe the proxy has perhaps changed the line endings."
+      ]
+    },
+    {
+      "id": "000054-73795106b387",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The club may, after the waiting list is checked tomorrow, possibly offer them to accompanying grandparents."
+      ]
+    },
+    {
+      "id": "000054-3267881a6731",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is perhaps a possibility that weekly checks would catch duplicate payments sooner."
+      ]
+    },
+    {
+      "id": "000054-abd4a401dd1e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-73a808a95eb3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The choir might rehearse in the school hall during the roof repairs.",
+        "That is something that remains possible."
+      ]
+    },
+    {
+      "id": "000054-9421a052d52a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all probability, it will probably be the same shade as the sample we approved."
+      ]
+    },
+    {
+      "id": "000054-bbddd4a46bdb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all likelihood, it will likely resolve the swapped-day-and-month issue reported in the preview build."
+      ]
+    },
+    {
+      "id": "000054-b82990a87f27",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The narrow passage could, if the drawn measurements were accurate, conceivably lead behind the former stage."
+      ]
+    },
+    {
+      "id": "000054-ab8da884c571",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-457ed3f0e5b4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a chance that dispatch may send it with this afternoon's collection."
+      ]
+    },
+    {
+      "id": "000054-d5bdf192b1dd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It may potentially leave a recently edited file waiting until the laptop is connected to power again."
+      ]
+    },
+    {
+      "id": "000054-4d31ba893148",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-13a3ab28cc2c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-9d4fb984ba65",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It was conceivable that the small bronze could be in the second consignment."
+      ]
+    },
+    {
+      "id": "000054-80f42b8dc072",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-f0f0e3a601cb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that a single collection shelf could shorten that search."
+      ]
+    },
+    {
+      "id": "000054-bdaa1e7021b2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-592c91a3cf36",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that the blank area could mark an unfinished survey rather than open ground."
+      ]
+    },
+    {
+      "id": "000054-292d459562dc",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Wren could, for customers who leave work after six, perhaps be the easier option."
+      ]
+    },
+    {
+      "id": "000054-bde807bb938d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-41c89719cd7f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-faa965ac9793",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-5cb0f7536edd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-c497cbaf43c3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "For journeys starting at the west pier, it is possible that the driver might ask to see the printed pass."
+      ]
+    },
+    {
+      "id": "000054-2ed9b275829c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is conceivable that he could have stopped in the next street."
+      ]
+    },
+    {
+      "id": "000054-cf58e9922402",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-29a14c8e4828",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It might conceivably not match the number entered at the counter."
+      ]
+    },
+    {
+      "id": "000054-53668908f288",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "As a possible explanation, that common starting point may account for the similar error patterns."
+      ]
+    },
+    {
+      "id": "000054-f865579b2996",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A technician could collect the damaged unit when the replacement is delivered.",
+        "That could be a possibility."
+      ]
+    },
+    {
+      "id": "000054-be71a5463434",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It might, for recordings made on nearly full cards, possibly preserve more audio after a write failure."
+      ]
+    },
+    {
+      "id": "000054-6fad67e00123",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The membership might, for someone swimming three mornings a week, potentially work out cheaper."
+      ]
+    },
+    {
+      "id": "000054-429c7ba5328d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It might, once its faded cover was removed, possibly match the blue-handled one reported that morning."
+      ]
+    },
+    {
+      "id": "000054-71088de4d5f3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that this may save time when you reopen a large survey."
+      ]
+    },
+    {
+      "id": "000054-880703df9cf3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "a shared collection has potential to perhaps reduce Friday's driving"
+      ]
+    },
+    {
+      "id": "000054-519cb18487f0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe a marked photograph would perhaps get that measurement to the workshop sooner."
+      ]
+    },
+    {
+      "id": "000054-e93fe12ff2e0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-fbb7f1ec796c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-972c692f8620",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe the obstruction was perhaps a temporary stack of stone rather than a permanent wall."
+      ]
+    },
+    {
+      "id": "000054-64b8c5676644",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-f130d1b7a58f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-de7042ec846f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-5bce93ae98a7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-8773b4d68dbb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-15b86335ca1c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "One possible explanation for our slower opening routine is that the new checklist may be split across too many screens."
+      ]
+    },
+    {
+      "id": "000054-4ebbe8b811cb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The loose plug might explain the lamp's flicker.",
+        "That explanation is a tentative possibility."
+      ]
+    },
+    {
+      "id": "000054-027c14fe63a4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is conceivable that someone could identify the unnamed shop in the market-square picture."
+      ]
+    },
+    {
+      "id": "000054-5e3a96446ff9",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-e1cac57c65e8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The cutting list may, for the three pieces entered this morning, possibly be out by a factor of ten."
+      ]
+    },
+    {
+      "id": "000054-5e937f6748ee",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Under the reduced memory limit, the parser could run out of space before it reaches the closing delimiter.",
+        "That could conceivably occur."
+      ]
+    },
+    {
+      "id": "000054-54c238b4f4a9",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-e8a238fc083d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-a9656e22a0c9",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe the label was perhaps put on the wrong shelf"
+      ]
+    },
+    {
+      "id": "000054-9d7d0e541d9c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "This could prevent manual alignment after export.",
+        "It could perhaps do that."
+      ]
+    },
+    {
+      "id": "000054-889fe6053d24",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is conceivable that the punctuation could instead conceal a remembered remark by the brother."
+      ]
+    },
+    {
+      "id": "000054-6fc12d40d91d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is perhaps a chance of a damaged dictionary affecting files whose own blocks are intact."
+      ]
+    },
+    {
+      "id": "000054-6deaee02b423",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The latch may not necessarily be broken"
+      ]
+    },
+    {
+      "id": "000054-8ea2f32f9b3d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-8e30b658162d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-97830fa426d8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-654d42752c7f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that the wood might be swelling near the bottom hinge."
+      ]
+    },
+    {
+      "id": "000054-b60d3c107fc8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There was a possibility that the missing crate might have gone to the north shed."
+      ]
+    },
+    {
+      "id": "000054-16637a2542e2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "the blocked channel might explain the flooded cellar",
+        "That was a tentative possibility."
+      ]
+    },
+    {
+      "id": "000054-df1e54c7bc25",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Their apparent separation may potentially result from a change of tape rather than a break in the conversation."
+      ]
+    },
+    {
+      "id": "000054-d4af747df92f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The later copies could descend from a single missing ledger.",
+        "That is a tentative possibility."
+      ]
+    },
+    {
+      "id": "000054-2a7ce926d4c0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The new curtains might keep the streetlight out of the bedroom.",
+        "That might be a possibility."
+      ]
+    },
+    {
+      "id": "000054-1e90dab0c2a6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The head count could conceivably be short by two"
+      ]
+    },
+    {
+      "id": "000054-be0bada90f4a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-2298c0d320cc",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The change had the potential to perhaps keep parcels out of the rain when the outer shutter was raised."
+      ]
+    },
+    {
+      "id": "000054-44f8e1cc75e5",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-53c1b46bbc1d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-8ca90fcf98e0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-721963c18491",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-6dddaa3e839e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-b933b16ba72e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-bbe7eae21b72",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Roadside replacement might keep a group outing together.",
+        "That might possibly be the case."
+      ]
+    },
+    {
+      "id": "000054-652c0c35e6b1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-d580139df10b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "We could move the stock count to Thursday evening.",
+        "That is a possible option."
+      ]
+    },
+    {
+      "id": "000054-60fb11bd9f5e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A short handover recording could help our relief guides prepare for an unfamiliar tour.",
+        "That could be a tentative possibility."
+      ]
+    },
+    {
+      "id": "000054-02c66f2f64c2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-07ebc25bbc64",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-714d97f7200c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It might, if the connection drops during a large record, perhaps replay that record on the next attempt."
+      ]
+    },
+    {
+      "id": "000054-97fc1591b0ca",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all probability, they will probably come with the replacement shelf next week."
+      ]
+    },
+    {
+      "id": "000054-9d7cdecc4c3b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A stale lease could potentially account for that mismatch."
+      ]
+    },
+    {
+      "id": "000054-ff3983a10c65",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-7dfcb4be80a4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-b81144d1bbc3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The revised coding scheme has the potential to possibly separate questions about cost from questions about eligibility."
+      ]
+    },
+    {
+      "id": "000054-3cdbff05f99e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "From that image, there is a possibility that the mark could be adhesive left by the protective film."
+      ]
+    },
+    {
+      "id": "000054-dd4e0c941b89",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A clearer subject line might, for requests that already include a reference number, conceivably help the duty adviser route them sooner."
+      ]
+    },
+    {
+      "id": "000054-1c199bcac753",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-9af28bcb3fbc",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-de39c6fbfa4e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-0223d57ac48f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all probability, the duplicate entry probably comes from that fallback."
+      ]
+    },
+    {
+      "id": "000054-9880230866e8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-3a0f0d06d33d",
       "check": "excessive-hedging/hedge-stacking",
       "expected": false
     },
@@ -181,6 +2239,60 @@
       ]
     },
     {
+      "id": "000054-5070f30ac380",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-20c8ba6595db",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-1aa1669a7e2b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-cc9bb6e91110",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "We could, if enough volunteers bring folding tables, potentially put the larger plants in the courtyard."
+      ]
+    },
+    {
+      "id": "000054-48fad9ba8ac4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-65685e553306",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility that the bag service might be cheaper for bulky bedding."
+      ]
+    },
+    {
+      "id": "000054-dc1520d94659",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "As a possible explanation, retained objects might account for the rising memory curve."
+      ]
+    },
+    {
+      "id": "000054-54657f025659",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-4a46fdd6db1d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
       "id": "000054-f0cd14d23d46",
       "check": "excessive-hedging/hedge-stacking",
       "expected": true,
@@ -189,30 +2301,58 @@
       ]
     },
     {
-      "id": "000054-da4c76b71193",
-      "check": "excessive-hedging/hedge-stacking",
-      "expected": true,
-      "snippets": [
-        "One possibility is that we might need to use the library annex instead."
-      ]
-    },
-    {
-      "id": "000054-e8a238fc083d",
+      "id": "000054-12135b5f6586",
       "check": "excessive-hedging/hedge-stacking",
       "expected": false
     },
     {
-      "id": "000054-721963c18491",
+      "id": "000054-019a3c887512",
       "check": "excessive-hedging/hedge-stacking",
       "expected": false
     },
     {
-      "id": "000054-1e90dab0c2a6",
+      "id": "000054-785d6facd634",
       "check": "excessive-hedging/hedge-stacking",
       "expected": true,
       "snippets": [
-        "The head count could conceivably be short by two"
+        "A possible explanation for the silence was that the winding key might not be engaging with the square shaft."
       ]
+    },
+    {
+      "id": "000054-2478a3dd9e10",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-6b63b03f052d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe the old adapter is perhaps still in its blue pouch."
+      ]
+    },
+    {
+      "id": "000054-9df180f739ea",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is some possibility that the old renewal date could possibly still be attached to the account."
+      ]
+    },
+    {
+      "id": "000054-3975e1ca4ea4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-4aa4a8a2cd4e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-8559058e6409",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
     },
     {
       "id": "000054-81db838149c0",
@@ -220,15 +2360,143 @@
       "expected": false
     },
     {
-      "id": "000054-b02bb1d87826",
+      "id": "000054-cddece1d9bac",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-e00e94f3c3f4",
       "check": "excessive-hedging/hedge-stacking",
       "expected": true,
       "snippets": [
-        "There is a possibility that the missing wheel might be in the maintenance shed"
+        "There is a chance that it might reopen before Sunday's walk."
       ]
     },
     {
-      "id": "000054-1b8e33dd649b",
+      "id": "000054-5a2b18846574",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-4df9aadcacb3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It may, when the rear feet are extended another turn, possibly sit level."
+      ]
+    },
+    {
+      "id": "000054-d8f8b7d3a1c2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The change has the potential to perhaps reduce the scraping heard in the reading room below."
+      ]
+    },
+    {
+      "id": "000054-8c0fc625f0dd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is conceivable that the extra space might make tightly packed days easier to review."
+      ]
+    },
+    {
+      "id": "000054-a8ed56a5dccd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-84d8fd41a00f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "As one possible outcome, this could allow a drawing to be recovered after an interrupted save."
+      ]
+    },
+    {
+      "id": "000054-37651c326156",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all probability, it probably predates the paved courtyard."
+      ]
+    },
+    {
+      "id": "000054-a6aff09c1428",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The radio could potentially fail to restart when the display holds that line low."
+      ]
+    },
+    {
+      "id": "000054-c6d1662c72b5",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The locker door might open after its battery is replaced.",
+        "That is something that could possibly happen."
+      ]
+    },
+    {
+      "id": "000054-9285254f2c48",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-aa30b7a6e9a0",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe this will perhaps help distinguish photographs taken in the same burst."
+      ]
+    },
+    {
+      "id": "000054-6500f1b0a8b8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a possibility of the file being potentially locked by the importer."
+      ]
+    },
+    {
+      "id": "000054-7b60ace807e4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-b6fd767d7b39",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-d52175edcc23",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-5d1b8a5c8793",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-8480eb4d9ff7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-8dd56da14ad1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-a79349704bfd",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-d832f83ffd9c",
       "check": "excessive-hedging/hedge-stacking",
       "expected": false
     },
@@ -238,11 +2506,293 @@
       "expected": false
     },
     {
+      "id": "000054-810bc7639482",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It is conceivable that a simple reply request might reveal places that families no longer want."
+      ]
+    },
+    {
+      "id": "000054-e5c82be25040",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-15c900bb79e4",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
       "id": "000054-8a3c48d9712b",
       "check": "excessive-hedging/hedge-stacking",
       "expected": true,
       "snippets": [
         "The change has the potential to perhaps reduce memory use on long files"
+      ]
+    },
+    {
+      "id": "000054-264aee8330e6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-be3c17fac00e",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-78981258972c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-9cf22a4f8356",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It could, once the two customer records are joined, potentially appear in the account you use now."
+      ]
+    },
+    {
+      "id": "000054-e80548141a81",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-04b7b671d933",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-b5cf2f81f0e1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-7a12702f2afb",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-f446f48c7e91",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-580a4ffdd23b",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "As a possible benefit, it might reduce the number of trips needed to lend out the mower key."
+      ]
+    },
+    {
+      "id": "000054-b57468ca6b01",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-fac0b52c8198",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A link inside the allowed folder could provide access to an outside file.",
+        "Such access is a tentative possibility."
+      ]
+    },
+    {
+      "id": "000054-090507fcf521",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A possible explanation is that moisture may be trapped in the folded groundsheet."
+      ]
+    },
+    {
+      "id": "000054-9198991d064a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-c64f463a3c79",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A second key holder might make evening deliveries easier at our shared studio.",
+        "That is something that could happen."
+      ]
+    },
+    {
+      "id": "000054-0c3750f783ae",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "A corrected version may reach the email address on the order, perhaps, before the office closes today."
+      ]
+    },
+    {
+      "id": "000054-333db9ebf36d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-2f3960629adf",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-60235875eb74",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It has the potential to possibly reduce duplicate orders when a later engineer sees the same fault description."
+      ]
+    },
+    {
+      "id": "000054-025d9831fc6d",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-1b49722a738c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "As a tentative possibility, the bench tester could identify an intermittent fault that the mobile unit misses."
+      ]
+    },
+    {
+      "id": "000054-dd6500eb1388",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-38f6a8292be8",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-be84ec176ce2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is perhaps a chance that the cap is still in the tool tray."
+      ]
+    },
+    {
+      "id": "000054-38210840c215",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a tentative possibility that it could serve as a water butt for the raised beds."
+      ]
+    },
+    {
+      "id": "000054-873f130ed100",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-86999d5a5959",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "As a tentative possibility, cleaning the contacts could restore the flash connection."
+      ]
+    },
+    {
+      "id": "000054-95e7aacdba62",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-9e7a0670a2e1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-c87282acea70",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-04605e75e618",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "There is a chance that we could use that room for the interviews."
+      ]
+    },
+    {
+      "id": "000054-a489d3481396",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-12db3be9208a",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "It could possibly belong to the garden gate."
+      ]
+    },
+    {
+      "id": "000054-d74e76a259ca",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe the cheaper service would perhaps suit our single-speaker recordings without that option."
+      ]
+    },
+    {
+      "id": "000054-423066d0a250",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "They might, if the courier takes the early collection, conceivably reach the studio tomorrow."
+      ]
+    },
+    {
+      "id": "000054-0780d7cf06f1",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "In all likelihood, an earlier check would probably prevent some avoidable return visits."
+      ]
+    },
+    {
+      "id": "000054-cb91520d4426",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "The change has the potential to perhaps improve reception from the garden gate."
+      ]
+    },
+    {
+      "id": "000054-dbb650d69691",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "This may, for small cracks that are difficult to describe in a message, potentially save the repair team a follow-up call."
+      ]
+    },
+    {
+      "id": "000054-cda858b0991f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-7620942dda10",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000054-f51198c37767",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "Maybe we can perhaps use them on some of the jackets brought in on Saturday."
       ]
     }
   ]

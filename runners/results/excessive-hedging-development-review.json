@@ -1,6 +1,6 @@
 {
   "family": "excessive-hedging",
-  "status": "Development pilot approved; full-pool authoring in progress.",
+  "status": "Full author pools saved; independent full reviews in progress. Labels remain provisional.",
   "userReview": "pending",
   "definitionReview": {
     "sha256": "942acde0ba06264a5cb6660dd6cfc97f4d3e468372e30d6c1bef229e016ef158",
@@ -1811,5 +1811,93 @@
       "documented_wording_passage_has_two_actual_paragraphs": true,
       "blind_and_author_hashes_unchanged": true
     }
-  }
+  },
+  "authorPools": [
+    {
+      "collection": "000053",
+      "path": "datasets/ai-synthetic/passages/000053-excessive-hedging-hedge-stacking-development.md",
+      "textSha256": "bc47bc2dcd901c3bd9cd680fb598211df40d2445aa31f7cb3c0082edbbd55342",
+      "labelsSha256": "ee1b2190009c26852e8e4a237b13afc483c842db7d89aee4f3cd9a3f081c71ee",
+      "authorPath": "/tmp/000053-development-fullpool-v18.json",
+      "authorSha256": "b7fb02b4e1eba4f15980a50e5ba0d7209468f4d4d940ff9435f8f9303b96ca42",
+      "qaPath": "/tmp/000053-development-fullpool-v18-qa.json",
+      "qaSha256": "a2fbd81953a6d800ba4a5c4ab3d50e84c20405817a487c788c88444529a081af",
+      "passages": 240,
+      "judgments": 240,
+      "mandatoryPilots": [
+        "000053-cfc9fc81f772",
+        "000053-1526dc8ecd4b",
+        "000053-5804c7d0a7a6",
+        "000053-b60e19f4b9fb",
+        "000053-37124864bd26",
+        "000053-be6e23fc689a",
+        "000053-d8ac1d26fdcc",
+        "000053-3cca9ec1c22e",
+        "000053-65c7be92fbdd",
+        "000053-692308731d3f",
+        "000053-611ab0ea6fba",
+        "000053-0ec8850c01fe",
+        "000053-065a65dce7d9",
+        "000053-1dc60b1f07ba",
+        "000053-ca332cc500c2",
+        "000053-94f034de9b93",
+        "000053-528ddaff7f32",
+        "000053-5418418055fe",
+        "000053-dad950d8b06e",
+        "000053-a05d6021603e"
+      ],
+      "sourceSlotsCovered": 68,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 120,
+          "noHits": 120
+        }
+      }
+    },
+    {
+      "collection": "000055",
+      "path": "datasets/ai-synthetic/passages/000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development.md",
+      "textSha256": "ff60350361458862fba30868f77d1fb98942b254588b8fa819c41faadae9cfd6",
+      "labelsSha256": "5fab844e8f24d8e76fc61cccf6fb085c3cacff6dc3c8c9bcbae3b74885ec00c1",
+      "authorPath": "/tmp/000055-development-fullpool-v18.json",
+      "authorSha256": "d81d62cdfc9cb12ae7d538dfd8e54ae173fc4782350d9463b1b676cd5cea852d",
+      "qaPath": "/tmp/000055-development-fullpool-v18-qa.json",
+      "qaSha256": "93cb3dca8a3c0509cae1d34f3ad53bdfcd3840b473cbe7b4686268620c0ced5b",
+      "passages": 240,
+      "judgments": 720,
+      "mandatoryPilots": [
+        "000055-97ba5bfe69d5",
+        "000055-3974bc848ed3",
+        "000055-32d4d30c6055",
+        "000055-54ce1a78cafc",
+        "000055-dd0c319dc865",
+        "000055-80cc425f81df",
+        "000055-376cd2c5f37f",
+        "000055-19cdb7c7b247",
+        "000055-4cd5887d6901",
+        "000055-517ff66e5721",
+        "000055-1e70ada784bd",
+        "000055-7375d39942c1",
+        "000055-d7868909f197",
+        "000055-71397164d91c",
+        "000055-61d30add944e",
+        "000055-a7f614db7134"
+      ],
+      "sourceSlotsCovered": 68,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 120,
+          "noHits": 120
+        },
+        "unsupported-authority/vague-attribution": {
+          "hits": 120,
+          "noHits": 120
+        },
+        "puffery-and-overstatement/inflated-evaluation": {
+          "hits": 120,
+          "noHits": 120
+        }
+      }
+    }
+  ]
 }

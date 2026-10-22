@@ -12,8 +12,10 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 
 - The four independently authored pilots contain 72 passages and 136 judgments. Blind reviewers agree with all author classifications; both splits retain their independent review records.
 - Review refines fourteen author snippet selections and corrects one prose passage in each split. Both corrected passages are reviewed again before expansion.
-- Root collections `000053` through `000056` currently contain the approved pilots. All pilot cases are required in the final selection; full pools, three full review passes and detector evaluation remain in progress.
-- Four authors are expanding the collections to 240 candidates each. Holdout writing remains protected, and provider inference has not started.
+- Root collections `000053` through `000056` now contain all 960 authored candidates and 1,920 provisional judgments. Metadata marks the pools as under review; all 72 approved pilot cases remain unchanged.
+- Every collection contains 240 candidates with contextual coverage of all 68 legacy vocabulary slots. Isolated pools have 120 hits and 120 no-hits; mixed pools have thirty passages per combination.
+- Isolated collections finish first-pass blind comparison and enter fresh adversarial review. Mixed development has completed blind classification and awaits reconciliation; mixed holdout is undergoing blind review. Three full review passes, balanced selection and detector evaluation remain pending.
+- Two new development passages are rewritten for realism before blind review. Holdout writing remains protected, and provider inference has not started.
 
 ## Existing Behavior And Check Definition
 
