@@ -12,6 +12,7 @@ Develop and evaluate the next V2 family, `stock-wording-and-jargon`, using reali
 - Definition review: the taxonomy now records all five definitions, expression ownership, informative-use controls, and counted vocabulary boundary examples.
 - Coverage audit: all eighteen legacy identifiers have source assignments; the taxonomy records 1,132 literal entries, 137 vocabulary forms, and 36 templates with 48,878 expansions before deduplication.
 - Data preparation: all five development pilots have blind review, covering 100 passages. Correct two classifications, repair unrealistic writing, and complete isolated and mixed development and protected holdout sets with independent reviews.
+- Author checkpoint: all five isolated development collections contain 100 hits and 100 no-hits; two protected isolated collections are also authored. Full reviews and the remaining isolated/mixed collections are in progress.
 - Development evaluation: pending frozen data and prompts; retain the separate user-authorization gate for holdout inference.
 
 ## Inspected Coverage
