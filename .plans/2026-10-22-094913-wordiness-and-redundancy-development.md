@@ -103,10 +103,12 @@ Use family `wordiness-and-redundancy`. Independent Codex definition review resol
 
 ## Mixed-Check Evaluation
 
-- Plan mixed evaluation after isolated development, before treating the family as validated. Use 200 complete texts per split: 25 for each of the eight hit/no-hit combinations across the three checks.
+- Plan mixed evaluation after isolated development, before treating the family as validated. Use 200 complete texts per split, with exactly 100 hits and 100 no-hits per check and coverage of all eight combinations.
+  - Holdout retains 25 texts per combination. Development uses 28/22/22/28 for `000`/`001`/`010`/`011` and 25 each for `100`/`101`/`110`/`111`, in wordiness/redundancy/repeated-explanation order.
+  - Sixteen supported label corrections create 28 mandatory all-negative development texts. Preserve every hard case and the per-check class denominators by redistributing the four wordiness-negative combinations; the original 25-slot quota cannot retain those controls.
 - Label every text for all three checks. Each check then has exactly 100 hits and 100 no-hits per split; report 200 distinct texts and 600 judgments, plus all-issues-found and exact-match counts.
 - Implemented `runners/jev.mjs:loadDataset` support loads each target once and keeps its judgments keyed by target ID and check. Each requested check scores its own judgment, with one provider question per target/check.
-- Add aggregate scoring from the same saved predictions. All-issues-found counts texts with at least one expected hit whose expected hits are all caught: 175 eligible texts per planned split. Exact match requires all three predicted booleans to match all three labels: 200 eligible texts, including the 25 all-negative controls.
+- Add aggregate scoring from the same saved predictions. All-issues-found counts texts with at least one expected hit whose expected hits are all caught: 172 eligible development texts and 175 holdout texts. Exact match requires all three predicted booleans to match all three labels: 200 eligible texts per split, including their all-negative controls.
 - Include only texts labeled for every evaluated check in those two aggregates; report the number excluded for incomplete labeling. Missing labels remain unassessed. Per-check scoring still uses every available judgment for that check.
 - Preserve the dataset schema and file format. Add an executable Specular requirement and public contract tests for mixed positive/negative labels on the same ID, sparse labels remaining unassessed, correct denominators, cached results, and unchanged isolated scoring.
 - Run relevant Fixture3 contracts and inspect diffs before accepting a replacement baseline. Preserve existing single-check snapshots and raw predictions; choose new output files for changed request inputs.
@@ -143,6 +145,8 @@ Use family `wordiness-and-redundancy`. Independent Codex definition review resol
 - Wordiness finishes its three revisions and retains `wordiness-r2` at 98 caught hits with twenty false positives. Redundancy stops after two consecutive non-improvements and retains baseline at 83/eleven. Preserve both failed gates and all attempts; the family report records the tradeoffs.
 - Separate adjudication removes two useful badge-callback snippets from `000037-188` while preserving its hit label. Native public helpers rescore all three repeated-explanation trials with zero classification changes and preserve every original prediction. The private development driver now rejects oversized prompts before SDK access; all 157 integrity probes pass.
 - Mixed authoring and blind/adversarial review are complete for both splits. Independent adjudication is repairing realism and label-boundary objections before balancing and freezing; no mixed detector or holdout inference has run.
+- Mixed holdout is frozen at 200 texts and 600 judgments, preserving 106 mandatory cases. Full-pool archive `24144852` retains its sixteen surplus texts; independent selected-set verification reports zero mismatches.
+- Final development review supports sixteen additional no-hit corrections. Preserve the original writing and add fifteen paired padding-positive variants; proposed selection retains all 106 required cases with adjusted combination quotas and unchanged 100/100 class denominators. Final targeted review remains in progress.
 
 ### Required Before Completion
 

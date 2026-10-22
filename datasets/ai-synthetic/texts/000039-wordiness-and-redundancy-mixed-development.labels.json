@@ -1,0 +1,4843 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "67e05243ac07b95c1ab7d5f51b45aabb64f4485da74dc6e64349aecd45025f2b",
+  "source": {
+    "name": "Codex-authored mixed wordiness and redundancy development",
+    "originalPath": "/tmp/000039-development-mixed-full-author-v3.json",
+    "commit": "eb8390ac",
+    "model": "Codex",
+    "prompt": null,
+    "notes": "Reviewed complete texts and three independent judgments per text. Definitions frozen at eb8390ac; review and selection recorded in runners/results/wordiness-and-redundancy-mixed-development-review.json."
+  },
+  "split": "development",
+  "samples": [
+    { "id": "000039-001", "start": 61, "end": 1202 },
+    { "id": "000039-002", "start": 1219, "end": 2425 },
+    { "id": "000039-003", "start": 2442, "end": 3621 },
+    { "id": "000039-004", "start": 3638, "end": 4946 },
+    { "id": "000039-005", "start": 4963, "end": 6234 },
+    { "id": "000039-007", "start": 6251, "end": 7466 },
+    { "id": "000039-008", "start": 7483, "end": 8893 },
+    { "id": "000039-009", "start": 8910, "end": 10111 },
+    { "id": "000039-010", "start": 10128, "end": 11437 },
+    { "id": "000039-011", "start": 11454, "end": 12671 },
+    { "id": "000039-012", "start": 12688, "end": 13952 },
+    { "id": "000039-013", "start": 13969, "end": 15247 },
+    { "id": "000039-014", "start": 15264, "end": 16564 },
+    { "id": "000039-015", "start": 16581, "end": 17838 },
+    { "id": "000039-016", "start": 17855, "end": 19090 },
+    { "id": "000039-017", "start": 19107, "end": 20291 },
+    { "id": "000039-018", "start": 20308, "end": 21671 },
+    { "id": "000039-019", "start": 21688, "end": 22895 },
+    { "id": "000039-020", "start": 22912, "end": 24235 },
+    { "id": "000039-021", "start": 24252, "end": 25446 },
+    { "id": "000039-022", "start": 25463, "end": 26685 },
+    { "id": "000039-023", "start": 26702, "end": 28090 },
+    { "id": "000039-024", "start": 28107, "end": 29445 },
+    { "id": "000039-025", "start": 29462, "end": 30655 },
+    { "id": "000039-026", "start": 30672, "end": 31930 },
+    { "id": "000039-027", "start": 31947, "end": 33154 },
+    { "id": "000039-028", "start": 33171, "end": 34457 },
+    { "id": "000039-029", "start": 34474, "end": 35618 },
+    { "id": "000039-030", "start": 35635, "end": 36827 },
+    { "id": "000039-031", "start": 36844, "end": 38051 },
+    { "id": "000039-032", "start": 38068, "end": 39252 },
+    { "id": "000039-033", "start": 39269, "end": 40577 },
+    { "id": "000039-034", "start": 40594, "end": 41814 },
+    { "id": "000039-035", "start": 41831, "end": 43086 },
+    { "id": "000039-036", "start": 43103, "end": 44374 },
+    { "id": "000039-037", "start": 44391, "end": 45589 },
+    { "id": "000039-038", "start": 45606, "end": 46967 },
+    { "id": "000039-039", "start": 46984, "end": 48118 },
+    { "id": "000039-040", "start": 48135, "end": 49287 },
+    { "id": "000039-041", "start": 49304, "end": 50542 },
+    { "id": "000039-042", "start": 50559, "end": 51818 },
+    { "id": "000039-043", "start": 51835, "end": 53111 },
+    { "id": "000039-044", "start": 53128, "end": 54395 },
+    { "id": "000039-045", "start": 54412, "end": 55761 },
+    { "id": "000039-046", "start": 55778, "end": 57099 },
+    { "id": "000039-047", "start": 57116, "end": 58352 },
+    { "id": "000039-048", "start": 58369, "end": 59823 },
+    { "id": "000039-049", "start": 59840, "end": 61056 },
+    { "id": "000039-050", "start": 61073, "end": 62357 },
+    { "id": "000039-051", "start": 62374, "end": 63483 },
+    { "id": "000039-052", "start": 63500, "end": 64727 },
+    { "id": "000039-053", "start": 64744, "end": 65976 },
+    { "id": "000039-054", "start": 65993, "end": 67358 },
+    { "id": "000039-055", "start": 67375, "end": 68578 },
+    { "id": "000039-056", "start": 68595, "end": 69872 },
+    { "id": "000039-057", "start": 69889, "end": 71157 },
+    { "id": "000039-058", "start": 71174, "end": 72557 },
+    { "id": "000039-059", "start": 72574, "end": 73772 },
+    { "id": "000039-060", "start": 73789, "end": 75064 },
+    { "id": "000039-061", "start": 75081, "end": 76375 },
+    { "id": "000039-062", "start": 76392, "end": 77744 },
+    { "id": "000039-063", "start": 77761, "end": 79029 },
+    { "id": "000039-064", "start": 79046, "end": 80349 },
+    { "id": "000039-065", "start": 80366, "end": 81574 },
+    { "id": "000039-066", "start": 81591, "end": 82836 },
+    { "id": "000039-067", "start": 82853, "end": 84073 },
+    { "id": "000039-068", "start": 84090, "end": 85463 },
+    { "id": "000039-069", "start": 85480, "end": 86731 },
+    { "id": "000039-070", "start": 86748, "end": 88087 },
+    { "id": "000039-071", "start": 88104, "end": 89400 },
+    { "id": "000039-072", "start": 89417, "end": 90823 },
+    { "id": "000039-073", "start": 90840, "end": 92274 },
+    { "id": "000039-074", "start": 92291, "end": 93616 },
+    { "id": "000039-075", "start": 93633, "end": 94842 },
+    { "id": "000039-076", "start": 94859, "end": 96100 },
+    { "id": "000039-077", "start": 96117, "end": 97360 },
+    { "id": "000039-078", "start": 97377, "end": 98736 },
+    { "id": "000039-079", "start": 98753, "end": 99968 },
+    { "id": "000039-080", "start": 99985, "end": 101235 },
+    { "id": "000039-081", "start": 101252, "end": 102511 },
+    { "id": "000039-082", "start": 102528, "end": 103812 },
+    { "id": "000039-083", "start": 103829, "end": 105193 },
+    { "id": "000039-084", "start": 105210, "end": 106552 },
+    { "id": "000039-085", "start": 106569, "end": 107889 },
+    { "id": "000039-086", "start": 107906, "end": 109208 },
+    { "id": "000039-087", "start": 109225, "end": 110480 },
+    { "id": "000039-088", "start": 110497, "end": 111832 },
+    { "id": "000039-089", "start": 111849, "end": 113176 },
+    { "id": "000039-090", "start": 113193, "end": 114454 },
+    { "id": "000039-091", "start": 114471, "end": 115740 },
+    { "id": "000039-092", "start": 115757, "end": 117011 },
+    { "id": "000039-093", "start": 117028, "end": 118353 },
+    { "id": "000039-095", "start": 118370, "end": 119745 },
+    { "id": "000039-096", "start": 119762, "end": 121013 },
+    { "id": "000039-097", "start": 121030, "end": 122360 },
+    { "id": "000039-098", "start": 122377, "end": 123721 },
+    { "id": "000039-099", "start": 123738, "end": 125008 },
+    { "id": "000039-100", "start": 125025, "end": 126502 },
+    { "id": "000039-101", "start": 126519, "end": 127545 },
+    { "id": "000039-102", "start": 127562, "end": 128773 },
+    { "id": "000039-103", "start": 128790, "end": 129976 },
+    { "id": "000039-104", "start": 129993, "end": 131233 },
+    { "id": "000039-105", "start": 131250, "end": 132370 },
+    { "id": "000039-106", "start": 132387, "end": 133575 },
+    { "id": "000039-107", "start": 133592, "end": 134689 },
+    { "id": "000039-108", "start": 134706, "end": 136037 },
+    { "id": "000039-109", "start": 136054, "end": 137198 },
+    { "id": "000039-110", "start": 137215, "end": 138504 },
+    { "id": "000039-111", "start": 138521, "end": 139649 },
+    { "id": "000039-112", "start": 139666, "end": 140949 },
+    { "id": "000039-113", "start": 140966, "end": 142187 },
+    { "id": "000039-114", "start": 142204, "end": 143438 },
+    { "id": "000039-115", "start": 143455, "end": 144660 },
+    { "id": "000039-116", "start": 144677, "end": 145944 },
+    { "id": "000039-117", "start": 145961, "end": 147202 },
+    { "id": "000039-118", "start": 147219, "end": 148681 },
+    { "id": "000039-119", "start": 148698, "end": 149858 },
+    { "id": "000039-121", "start": 149875, "end": 151045 },
+    { "id": "000039-122", "start": 151062, "end": 152331 },
+    { "id": "000039-123", "start": 152348, "end": 153621 },
+    { "id": "000039-124", "start": 153638, "end": 154975 },
+    { "id": "000039-125", "start": 154992, "end": 156199 },
+    { "id": "000039-127", "start": 156216, "end": 157439 },
+    { "id": "000039-128", "start": 157456, "end": 158855 },
+    { "id": "000039-129", "start": 158872, "end": 160044 },
+    { "id": "000039-130", "start": 160061, "end": 161374 },
+    { "id": "000039-131", "start": 161391, "end": 162594 },
+    { "id": "000039-132", "start": 162611, "end": 163871 },
+    { "id": "000039-133", "start": 163888, "end": 165156 },
+    { "id": "000039-134", "start": 165173, "end": 166478 },
+    { "id": "000039-135", "start": 166495, "end": 167732 },
+    { "id": "000039-136", "start": 167749, "end": 169104 },
+    { "id": "000039-137", "start": 169121, "end": 170341 },
+    { "id": "000039-138", "start": 170358, "end": 171762 },
+    { "id": "000039-139", "start": 171779, "end": 173013 },
+    { "id": "000039-140", "start": 173030, "end": 174342 },
+    { "id": "000039-141", "start": 174359, "end": 175558 },
+    { "id": "000039-143", "start": 175575, "end": 176901 },
+    { "id": "000039-144", "start": 176918, "end": 178199 },
+    { "id": "000039-145", "start": 178216, "end": 179412 },
+    { "id": "000039-146", "start": 179429, "end": 180676 },
+    { "id": "000039-147", "start": 180693, "end": 181944 },
+    { "id": "000039-149", "start": 181961, "end": 183176 },
+    { "id": "000039-151", "start": 183193, "end": 184448 },
+    { "id": "000039-152", "start": 184465, "end": 185801 },
+    { "id": "000039-153", "start": 185818, "end": 187094 },
+    { "id": "000039-154", "start": 187111, "end": 188516 },
+    { "id": "000039-155", "start": 188533, "end": 189782 },
+    { "id": "000039-156", "start": 189799, "end": 191040 },
+    { "id": "000039-157", "start": 191057, "end": 192236 },
+    { "id": "000039-158", "start": 192253, "end": 193612 },
+    { "id": "000039-159", "start": 193629, "end": 194867 },
+    { "id": "000039-160", "start": 194884, "end": 196224 },
+    { "id": "000039-161", "start": 196241, "end": 197551 },
+    { "id": "000039-162", "start": 197568, "end": 198959 },
+    { "id": "000039-163", "start": 198976, "end": 200266 },
+    { "id": "000039-164", "start": 200283, "end": 201573 },
+    { "id": "000039-165", "start": 201590, "end": 202917 },
+    { "id": "000039-166", "start": 202934, "end": 204230 },
+    { "id": "000039-167", "start": 204247, "end": 205460 },
+    { "id": "000039-168", "start": 205477, "end": 206916 },
+    { "id": "000039-169", "start": 206933, "end": 208159 },
+    { "id": "000039-170", "start": 208176, "end": 209498 },
+    { "id": "000039-171", "start": 209515, "end": 210865 },
+    { "id": "000039-172", "start": 210882, "end": 212242 },
+    { "id": "000039-173", "start": 212259, "end": 213604 },
+    { "id": "000039-174", "start": 213621, "end": 215015 },
+    { "id": "000039-176", "start": 215032, "end": 216402 },
+    { "id": "000039-177", "start": 216419, "end": 217689 },
+    { "id": "000039-179", "start": 217706, "end": 218967 },
+    { "id": "000039-180", "start": 218984, "end": 220321 },
+    { "id": "000039-182", "start": 220338, "end": 221643 },
+    { "id": "000039-183", "start": 221660, "end": 223027 },
+    { "id": "000039-184", "start": 223044, "end": 224322 },
+    { "id": "000039-185", "start": 224339, "end": 225576 },
+    { "id": "000039-186", "start": 225593, "end": 226947 },
+    { "id": "000039-187", "start": 226964, "end": 228324 },
+    { "id": "000039-188", "start": 228341, "end": 229734 },
+    { "id": "000039-189", "start": 229751, "end": 230978 },
+    { "id": "000039-190", "start": 230995, "end": 232350 },
+    { "id": "000039-191", "start": 232367, "end": 233649 },
+    { "id": "000039-192", "start": 233666, "end": 235066 },
+    { "id": "000039-193", "start": 235083, "end": 236458 },
+    { "id": "000039-194", "start": 236475, "end": 237880 },
+    { "id": "000039-195", "start": 237897, "end": 239279 },
+    { "id": "000039-196", "start": 239296, "end": 240665 },
+    { "id": "000039-197", "start": 240682, "end": 241886 },
+    { "id": "000039-198", "start": 241903, "end": 243408 },
+    { "id": "000039-199", "start": 243425, "end": 244644 },
+    { "id": "000039-200", "start": 244661, "end": 246068 },
+    { "id": "000039-201", "start": 246085, "end": 247351 },
+    { "id": "000039-202", "start": 247368, "end": 248778 },
+    { "id": "000039-203", "start": 248795, "end": 250054 },
+    { "id": "000039-204", "start": 250071, "end": 251302 },
+    { "id": "000039-205", "start": 251319, "end": 252566 },
+    { "id": "000039-206", "start": 252583, "end": 253920 },
+    { "id": "000039-207", "start": 253937, "end": 255222 },
+    { "id": "000039-208", "start": 255239, "end": 256649 },
+    { "id": "000039-209", "start": 256666, "end": 258218 },
+    { "id": "000039-210", "start": 258235, "end": 259526 },
+    { "id": "000039-211", "start": 259543, "end": 261661 },
+    { "id": "000039-212", "start": 261678, "end": 263928 },
+    { "id": "000039-213", "start": 263945, "end": 266324 },
+    { "id": "000039-214", "start": 266341, "end": 268753 },
+    { "id": "000039-215", "start": 268770, "end": 270941 },
+    { "id": "000039-216", "start": 270958, "end": 273241 },
+    { "id": "000039-217", "start": 273258, "end": 275553 },
+    { "id": "000039-218", "start": 275570, "end": 277959 },
+    { "id": "000039-219", "start": 277976, "end": 280243 },
+    { "id": "000039-220", "start": 280260, "end": 282597 },
+    { "id": "000039-221", "start": 282614, "end": 284664 },
+    { "id": "000039-222", "start": 284681, "end": 286944 },
+    { "id": "000039-223", "start": 286961, "end": 289242 },
+    { "id": "000039-224", "start": 289259, "end": 291452 },
+    { "id": "000039-225", "start": 291469, "end": 294004 },
+    { "id": "000039-226", "start": 294021, "end": 296592 },
+    { "id": "000039-227", "start": 296609, "end": 299028 },
+    { "id": "000039-228", "start": 299045, "end": 301079 },
+    { "id": "000039-229", "start": 301096, "end": 303283 },
+    { "id": "000039-230", "start": 303300, "end": 305616 },
+    { "id": "000039-231", "start": 305633, "end": 307824 },
+    { "id": "000039-232", "start": 307841, "end": 309937 },
+    { "id": "000039-233", "start": 309954, "end": 312161 },
+    { "id": "000039-234", "start": 312178, "end": 314175 },
+    { "id": "000039-235", "start": 314192, "end": 316313 },
+    { "id": "000039-236", "start": 316330, "end": 318483 },
+    { "id": "000039-237", "start": 318500, "end": 320651 },
+    { "id": "000039-238", "start": 320668, "end": 322821 },
+    { "id": "000039-239", "start": 322838, "end": 324891 },
+    { "id": "000039-240", "start": 324908, "end": 326988 },
+    { "id": "000039-241", "start": 327005, "end": 329095 },
+    { "id": "000039-242", "start": 329112, "end": 331323 },
+    { "id": "000039-243", "start": 331340, "end": 333511 },
+    { "id": "000039-244", "start": 333528, "end": 335926 },
+    { "id": "000039-245", "start": 335943, "end": 337100 },
+    { "id": "000039-246", "start": 337117, "end": 338311 },
+    { "id": "000039-247", "start": 338328, "end": 339633 },
+    { "id": "000039-248", "start": 339650, "end": 341035 },
+    { "id": "000039-249", "start": 341052, "end": 342274 },
+    { "id": "000039-250", "start": 342291, "end": 343709 },
+    { "id": "000039-251", "start": 343726, "end": 345088 },
+    { "id": "000039-252", "start": 345105, "end": 346503 },
+    { "id": "000039-253", "start": 346520, "end": 347894 },
+    { "id": "000039-254", "start": 347911, "end": 349201 },
+    { "id": "000039-255", "start": 349218, "end": 350576 },
+    { "id": "000039-256", "start": 350593, "end": 352017 },
+    { "id": "000039-257", "start": 352034, "end": 353376 },
+    { "id": "000039-258", "start": 353393, "end": 354684 },
+    { "id": "000039-259", "start": 354701, "end": 356121 }
+  ],
+  "labels": [
+    {
+      "id": "000039-001",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-001",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-001",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-002",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "made an adjustment to the way in which saved filters are loaded"
+      ]
+    },
+    {
+      "id": "000039-002",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-002",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-003",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-003",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-003",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-004",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-004",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-004",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-005",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "depends on the extent to which you are able to use the electricity"
+      ]
+    },
+    {
+      "id": "000039-005",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-005",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-007",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["on account of the fact that"]
+    },
+    {
+      "id": "000039-007",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-007",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Several members share an email address, so an online form would make their bookings look like duplicate entries.",
+        "The choice of paper has been made on account of the fact that some members use a single household email address. With a web form, separate people signing up under that address could be mistaken for duplicate bookings."
+      ]
+    },
+    {
+      "id": "000039-008",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "gives rise to a reduction in the influence of stable individual differences"
+      ]
+    },
+    {
+      "id": "000039-008",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-008",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "This reduces variation caused by stable differences between people, because each person supplies their own comparison.",
+        "Since the same participant supplies a result for each version, differences in that person's baseline ability are held steady in the comparison."
+      ]
+    },
+    {
+      "id": "000039-009",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "makes it possible for the shoots to develop in a short, sturdy form"
+      ]
+    },
+    {
+      "id": "000039-009",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-009",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Light encourages short, sturdy shoots, while a dark cupboard produces long pale growth that breaks easily when handled.",
+        "In darkness they grow pale and elongated, which leaves them vulnerable to snapping during planting."
+      ]
+    },
+    {
+      "id": "000039-010",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "was the reason for the selection of the ticket office as the temporary classroom"
+      ]
+    },
+    {
+      "id": "000039-010",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-010",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The ticket office had its own street entrance, so visiting classes could arrive without crossing the gallery where the new floor was being laid.",
+        "It let school groups reach the workshop without passing through the gallery during the floor work."
+      ]
+    },
+    {
+      "id": "000039-011",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["There is a need to complete the download"]
+    },
+    {
+      "id": "000039-011",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-011",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The app stores your train tickets on the phone, so they can be shown when the station has no signal.",
+        "The reason is that a saved ticket lives on the phone and can be displayed without reception, whereas the booking email only points to a file that still needs fetching."
+      ]
+    },
+    {
+      "id": "000039-012",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["provides supervisors with the ability to arrange shifts"]
+    },
+    {
+      "id": "000039-012",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-012",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Supervisors can prepare next month's shifts without sending changes to staff while the rota is still being assembled.",
+        "The draft calendar provides supervisors with the ability to arrange shifts without sending updates to employees. Only publication makes those shifts visible to staff."
+      ]
+    },
+    {
+      "id": "000039-013",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-013",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a written estimate in writing"]
+    },
+    {
+      "id": "000039-013",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-014",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-014",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Both visitors left the lift without assistance. Neither needed help to get out."
+      ]
+    },
+    {
+      "id": "000039-014",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-015",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "make an assessment of how often you expect to use the grinder"
+      ]
+    },
+    {
+      "id": "000039-015",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["annual yearly fee"]
+    },
+    {
+      "id": "000039-015",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-016",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-016",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The final deadline is the 18th, which is the last day requests can be submitted."
+      ]
+    },
+    {
+      "id": "000039-016",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-017",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["perform a check of any books you plan to donate"]
+    },
+    {
+      "id": "000039-017",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["free of charge, with no admission fee"]
+    },
+    {
+      "id": "000039-017",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-018",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-018",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "the family selected papers they thought future readers would find interesting. The family selection was chosen by relatives who decided which papers to keep."
+      ]
+    },
+    {
+      "id": "000039-018",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-019",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-019",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["maximum weight limit"]
+    },
+    {
+      "id": "000039-019",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Air needs to circulate behind the frame so moisture does not collect against the backing board.",
+        "Without that movement, moisture can gather between the backing board and a cold wall."
+      ]
+    },
+    {
+      "id": "000039-020",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["made a rearrangement of the counter"]
+    },
+    {
+      "id": "000039-020",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "at no extra cost. There was no additional charge for the tray"
+      ]
+    },
+    {
+      "id": "000039-020",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The owner had tried paper tickets during the first weekend, but several blew into the tracks when trains passed.",
+        "The blocks replaced paper because passing trains had blown the earlier tickets onto the tracks. Customers needed something that would stay on the terrace tables, and the wooden blocks gave staff a stable marker to follow when carrying orders outside."
+      ]
+    },
+    {
+      "id": "000039-021",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make an alteration to the image size"]
+    },
+    {
+      "id": "000039-021",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["free and costs nothing"]
+    },
+    {
+      "id": "000039-021",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Our printer trims a little beyond the marked border, so an image that stops at that border can leave a thin white strip.",
+        "The printer cuts beyond the page border, which is why a picture ending at the border may show a white edge after trimming."
+      ]
+    },
+    {
+      "id": "000039-022",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["made a correction to the shelf selector"]
+    },
+    {
+      "id": "000039-022",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["optional and is not required"]
+    },
+    {
+      "id": "000039-022",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Items stay there until a warehouse worker checks their condition, so a return cannot appear as available for sale while it is still inside an unopened parcel.",
+        "An unopened parcel may contain an item that needs repair, so returned goods should become available only after inspection."
+      ]
+    },
+    {
+      "id": "000039-023",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-023",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["listed separately, apart from the meal price"]
+    },
+    {
+      "id": "000039-023",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Our reception team covers the desk alone at noon, so spending ten minutes matching meals to orders would delay visitors.",
+        "Since only one person staffs reception at lunchtime, avoiding that sorting would keep visitors from waiting."
+      ]
+    },
+    {
+      "id": "000039-024",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-024",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["compulsory and mandatory"]
+    },
+    {
+      "id": "000039-024",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The printer uses heat rather than ink, so the wrong orientation let paper feed through without producing a number.",
+        "Thermal paper needs its coated surface against the print head for heat to produce an image. With the roll reversed, it fed normally but could not display the queue number."
+      ]
+    },
+    {
+      "id": "000039-025",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-025",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-025",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-026",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-026",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-026",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-027",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-027",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-027",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-028",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-028",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-028",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-029",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-029",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-029",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-030",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-030",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-030",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-031",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-031",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-031",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-032",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-032",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-032",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Practitioners can record details for the next visit without placing them on a document that may be sent to an employer or insurer.",
+        "Practitioners' notes stay in the appointment record so information for a later visit does not travel with an invoice to an employer or insurer."
+      ]
+    },
+    {
+      "id": "000039-033",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-033",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-033",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Since the studio's sockets are due for inspection each year, a removable system would avoid replacing panels after routine electrical work.",
+        "Taking a panel off its rail and putting it back would preserve it, while adhesive-mounted panels could need replacement after that access."
+      ]
+    },
+    {
+      "id": "000039-034",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-034",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-034",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The door had not latched after the early delivery, allowing warm air to enter. The temperature rose above the alert threshold for eight minutes before the driver returned and closed the door.",
+        "With a gap at the door, warmer air entered and raised the room above its warning threshold."
+      ]
+    },
+    {
+      "id": "000039-035",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-035",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-035",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The allowance you save in a quiet month becomes available in a busier one, subject to the provider's expiry rule.",
+        "Rollover works by carrying spare data from a month when you use less into a month when you need more. That can suit an uneven routine better than losing the unused part at each billing date."
+      ]
+    },
+    {
+      "id": "000039-036",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-036",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-036",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Several attendees will open them on tablets with different fonts installed, and a PDF preserves the page layout across those devices.",
+        "PDF is the right format for the handouts because it holds the layout steady on tablets with different font collections. An editable file could move the answer spaces when a font is substituted."
+      ]
+    },
+    {
+      "id": "000039-037",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-037",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-037",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The treasurer can match transfers to booking numbers without handling envelopes of cash at the pool.",
+        "Bank transfer lets the treasurer connect each payment with its booking number and avoids collecting cash envelopes beside the pool."
+      ]
+    },
+    {
+      "id": "000039-038",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-038",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-038",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "One district might contain expensive streets beside a large estate of cheaper housing, yet its average rent appears as a single color.",
+        "If high-cost streets and lower-cost housing share a district, the map gives them one combined color. A reader therefore cannot treat that district color as a description of each household living there."
+      ]
+    },
+    {
+      "id": "000039-039",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-039",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Record the date whenever something is borrowed. Enter the borrowing date on the list."
+      ]
+    },
+    {
+      "id": "000039-039",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-040",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-040",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["the rehearsal finished and came to an end"]
+    },
+    {
+      "id": "000039-040",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-041",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-041",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["recalculated again for a second time"]
+    },
+    {
+      "id": "000039-041",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-042",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-042",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["available offline without an internet connection"]
+    },
+    {
+      "id": "000039-042",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-043",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-043",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["lasts for three years in duration"]
+    },
+    {
+      "id": "000039-043",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-044",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-044",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-044",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-045",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-045",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["outside exterior dimensions"]
+    },
+    {
+      "id": "000039-045",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Moving the charging dock to another floor can confuse that map because the robot uses the dock as a reference point.",
+        "Moving that reference to a different floor can leave the robot trying to interpret the wrong layout. Separate floor maps are therefore useful when you want the same machine to clean on more than one level."
+      ]
+    },
+    {
+      "id": "000039-046",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-046",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "We agreed to retain the existing reception desk until the trial ends. The current desk will stay in place until the trial is over."
+      ]
+    },
+    {
+      "id": "000039-046",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The supplier is bringing a full-size desk assembly, and that room has the only doorway wide enough to admit it without dismantling the legs.",
+        "The west room is needed because its wide doorway lets the complete desk come inside. Testing access around the assembled unit requires the legs to stay attached, so a room that admits only the dismantled parts would not work."
+      ]
+    },
+    {
+      "id": "000039-047",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-047",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["free and carry no charge"]
+    },
+    {
+      "id": "000039-047",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The hall has a hard floor that can be protected with reusable mats, so the bicycle team can work on oily chains without risking the library carpet.",
+        "That keeps oily chains away from the library's carpet and lets the repair team work without worrying about staining it."
+      ]
+    },
+    {
+      "id": "000039-048",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-048",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["exact verbatim transcript"]
+    },
+    {
+      "id": "000039-048",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A retired worker may describe a factory closure differently at a reunion than in a private conversation, because the audience affects which experiences feel worth mentioning.",
+        "At a reunion, a retired worker may select experiences that suit the other people present, while a private interview may bring out different details."
+      ]
+    },
+    {
+      "id": "000039-049",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-049",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["completely dry with no moisture remaining"]
+    },
+    {
+      "id": "000039-049",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "When wet, the fabric is heavier and can stretch under its own weight if hung from the shoulders.",
+        "Hanging it would let that weight pull on the shoulders and change the shape of the fabric."
+      ]
+    },
+    {
+      "id": "000039-050",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-050",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["An advance reservation made beforehand"]
+    },
+    {
+      "id": "000039-050",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Spray had washed the departure times off the board before the morning passengers arrived. Behind the glass, the writing stayed dry and could be read from the covered waiting area.",
+        "Keeping it behind the window protected the chalk from water while leaving it visible to waiting passengers."
+      ]
+    },
+    {
+      "id": "000039-051",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "for the purpose of making those trails available without a signal"
+      ]
+    },
+    {
+      "id": "000039-051",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-051",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-052",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["in light of the fact that"]
+    },
+    {
+      "id": "000039-052",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-052",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-053",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["with a view to obtaining confirmation of the seat height"]
+    },
+    {
+      "id": "000039-053",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-053",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-054",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-054",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-054",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-055",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-055",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-055",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-056",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["give consideration to using"]
+    },
+    {
+      "id": "000039-056",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-056",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-057",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "has made arrangements for the provision of two extra water butts"
+      ]
+    },
+    {
+      "id": "000039-057",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-057",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The storage tank refills slowly overnight, so spreading demand across the morning should keep the pressure steady at the far end of the site.",
+        "Spacing the watering sessions through the morning keeps too many taps from drawing on the tank at once. Because the tank takes the night to fill, dividing demand is how we maintain pressure for plots furthest from it."
+      ]
+    },
+    {
+      "id": "000039-058",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-058",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-058",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A survey of residents at a public meeting will tend to miss people who cannot attend at that hour. Their absence matters if work schedules or caring responsibilities also shape their views about local services.",
+        "People unable to get to the meeting are absent from the survey, and the same commitments that keep them away may affect their answers. More responses from those attending therefore leave the coverage problem in place."
+      ]
+    },
+    {
+      "id": "000039-059",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-059",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-059",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "If the screw rotates without drawing the handle closer, its thread may be stripped. A larger hole in the wood needs a different repair from a damaged metal thread.",
+        "A turning screw that fails to pull the handle inward can indicate damaged threads. Movement in the wooden opening is a separate fault, so the place where the looseness occurs determines which repair is needed."
+      ]
+    },
+    {
+      "id": "000039-060",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-060",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-060",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The new route kept flour sacks away from customers waiting at the front door. Drivers could unload into the storeroom without carrying their loads through the queue",
+        "Using the side door separated the flour deliveries from the customers at the shop entrance. With the pavement narrowed, carrying sacks through the front would have meant passing directly through the waiting queue."
+      ]
+    },
+    {
+      "id": "000039-061",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make a request for access"]
+    },
+    {
+      "id": "000039-061",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-061",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "their dates and photographs remain hidden until the owner grants access. Buying a larger storage plan will not change those permissions.",
+        "The hidden dates and pictures belong to profiles another member controls. They remain unavailable until that member allows access, regardless of the storage plan attached to your account."
+      ]
+    },
+    {
+      "id": "000039-062",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-062",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-062",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A thirty-minute cleaning interval now blocks the space after a reservation instead of appearing as a second customer booking. This prevents reception staff from mistaking the interval for an appointment that needs confirmation.",
+        "Cleaning intervals are now shown as blocked time attached to a reservation rather than as separate bookings. Reception therefore no longer has a cleaning entry that looks like a customer appointment awaiting confirmation."
+      ]
+    },
+    {
+      "id": "000039-063",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-063",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["combined together"]
+    },
+    {
+      "id": "000039-063",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-064",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-064",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The restart time was recorded at 15:05. The log gives 15:05 as the restart time."
+      ]
+    },
+    {
+      "id": "000039-064",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-065",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make an assessment of the cap markings"]
+    },
+    {
+      "id": "000039-065",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["clear transparent measuring cup"]
+    },
+    {
+      "id": "000039-065",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-066",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make an adjustment to your calendar invitation"]
+    },
+    {
+      "id": "000039-066",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The count starts at two in the afternoon. Two o'clock in the afternoon is the start time for the count."
+      ]
+    },
+    {
+      "id": "000039-066",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-067",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "for the purpose of matching the booking to a volunteer with the right tools"
+      ]
+    },
+    {
+      "id": "000039-067",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["free gift"]
+    },
+    {
+      "id": "000039-067",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-068",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "carry out an identification of the audience each writer expected"
+      ]
+    },
+    {
+      "id": "000039-068",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["retrospective look back"]
+    },
+    {
+      "id": "000039-068",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-069",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["undertake the removal of loose flakes"]
+    },
+    {
+      "id": "000039-069",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Put the latch screws in a labelled container rather than painting over their heads. The labelled container is where the latch screws should be kept."
+      ]
+    },
+    {
+      "id": "000039-069",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Paint can bond the moving sash to the surrounding frame if the two surfaces are pressed together before the coating has hardened.",
+        "The sash can stick to the frame because the paint has not hardened when their surfaces meet. The soft coating bonds them together."
+      ]
+    },
+    {
+      "id": "000039-070",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-070",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["held a joint meeting together"]
+    },
+    {
+      "id": "000039-070",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Staff wanted a record of their condition at dispatch so that a later mark could be distinguished from damage already present.",
+        "Photographs taken before dispatch showed which marks an object already carried. That condition record allowed staff to tell whether a mark reported after a school loan was new or had been there when the object left."
+      ]
+    },
+    {
+      "id": "000039-071",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make a selection of that location"]
+    },
+    {
+      "id": "000039-071",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["past history of your bookings"]
+    },
+    {
+      "id": "000039-071",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The bank's confirmation arrived after the ten-minute hold had ended, so the system could not attach it to that locker.",
+        "The confirmation from the bank reached the booking system after the hold had run out. Since the reservation was already expired at that point, the successful payment could not secure the original locker."
+      ]
+    },
+    {
+      "id": "000039-072",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-072",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The preview of the first printed page can be enlarged. It can be made larger on screen."
+      ]
+    },
+    {
+      "id": "000039-072",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Previously, late evening appointments could appear under the following day because the export grouped them by the server's clock. The change keeps the daily totals aligned with the reception calendar.",
+        "Grouping visits by the clinic's date prevents a late appointment from moving into the next day's total merely because the server is in another time zone. This makes the export's daily figures correspond to the reception calendar."
+      ]
+    },
+    {
+      "id": "000039-073",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "provide us with an estimate of what the cost of installing the shelter would be"
+      ]
+    },
+    {
+      "id": "000039-073",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Harlow also includes a tool compartment with a lockable door. A lockable tool compartment is included in Harlow's quote."
+      ]
+    },
+    {
+      "id": "000039-073",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Its roof slopes toward the existing drain, which avoids sending rainwater across the path to the office entrance. Bell's shelter costs less but drains toward that path unless we pay for an extra gutter.",
+        "Harlow directs the roof water into the drain rather than onto the entrance path. That drainage arrangement is why its design suits this location better than Bell's standard shelter, which would need an added gutter to achieve the same result."
+      ]
+    },
+    {
+      "id": "000039-074",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["undertook the task of checking the belt for damage"]
+    },
+    {
+      "id": "000039-074",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["brief short test run"]
+    },
+    {
+      "id": "000039-074",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The fabric prevented the roller from turning, and the motor controller stopped the belt after detecting the increased load.",
+        "The trapped fabric held the first roller still. That resistance raised the load on the motor and caused the controller to stop the conveyor."
+      ]
+    },
+    {
+      "id": "000039-075",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-075",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-075",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-076",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-076",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-076",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-077",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-077",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-077",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-078",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-078",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-078",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-079",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-079",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-079",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-080",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-080",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-080",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-081",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-081",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-081",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "That player pauses when the browser is no longer active. Downloading the lesson in the course app lets playback continue with the screen locked.",
+        "The website's player needs the browser to remain active and therefore pauses under a locked screen. Using the downloaded lesson in the app avoids that pause and allows listening while the screen is locked."
+      ]
+    },
+    {
+      "id": "000039-082",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-082",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-082",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "If the venue's wireless network drops, staff can still see the table assignments that were saved before the connection failed. Changes made on another device will appear once the tablet reconnects.",
+        "Keeping the last saved plan on the tablet means a wireless outage no longer removes the table assignments from view. Staff can consult that stored version until the tablet reconnects and receives later changes."
+      ]
+    },
+    {
+      "id": "000039-083",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-083",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-083",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Its removable adhesive is rated for the painted panels we already own, while Kestrel's standard labels are intended for glass. Choosing Morrow should let us remove the captions after the exhibition without lifting the panel paint.",
+        "Morrow's adhesive suits our painted panels and should peel away without taking paint with it. That compatibility makes it the better choice for captions that will be removed when the exhibition closes."
+      ]
+    },
+    {
+      "id": "000039-084",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-084",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-084",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The dosing tube had been fitted to the wrong pump connector during cleaning, so detergent entered during the final rinse instead of the wash.",
+        "The detergent reached the cups during rinsing because its tube was attached to the rinse pump's connector. That incorrect connection caused the residue on the opening tray."
+      ]
+    },
+    {
+      "id": "000039-085",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-085",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-085",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A model advertised as collecting twelve litres a day may collect much less in a cool spare bedroom. Cooler air holds less moisture, and some compressor models spend part of their time defrosting in low temperatures.",
+        "The daily collection figure comes from particular test conditions and can overstate collection in a cold bedroom. Lower moisture content and defrosting time both reduce the amount that a compressor machine gathers there."
+      ]
+    },
+    {
+      "id": "000039-086",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-086",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-086",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Accounts checks that folder before releasing a first payment, so a form kept only in someone's inbox can delay an otherwise complete order.",
+        "Accounts looks in the contract folder for a signed form before paying a new supplier. Keeping that form only in an inbox can hold up payment even when the rest of the order is ready."
+      ]
+    },
+    {
+      "id": "000039-087",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-087",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["basic fundamentals of seed storage"]
+    },
+    {
+      "id": "000039-087",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-088",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-088",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["total sum of the measured durations"]
+    },
+    {
+      "id": "000039-088",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-089",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-089",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "If a spare pole section came with the tent, put it in the repair bag. The repair bag is where that spare section should be stored."
+      ]
+    },
+    {
+      "id": "000039-089",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-090",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-090",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-090",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-091",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-091",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["added extra pocket"]
+    },
+    {
+      "id": "000039-091",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-092",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-092",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["twelve-month maximum limit"]
+    },
+    {
+      "id": "000039-092",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-093",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-093",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Ellis supplied a sample of the hem stitching with its quote. The quote came with a hem-stitching sample."
+      ]
+    },
+    {
+      "id": "000039-093",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-095",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-095",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-095",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A sofa fabric's rub count measures resistance to abrasion under a specified test. It does not tell you how readily the cloth will stain or whether its colour will fade beside a sunny window.",
+        "The abrasion figure describes how the fabric withstands rubbing, rather than its resistance to stains or sunlight. Even a very high rub count leaves those two properties to be checked separately."
+      ]
+    },
+    {
+      "id": "000039-096",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-096",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["mutual agreement"]
+    },
+    {
+      "id": "000039-096",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Several keys have no number stamped on them, so receiving them from the person who used them will help us match each one to the right cupboard or door.",
+        "Taking keys directly from their users lets us identify the unnumbered ones. A key left on a desk lacks that connection, which is why we are using a staffed collection at reception."
+      ]
+    },
+    {
+      "id": "000039-097",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-097",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a new innovation"]
+    },
+    {
+      "id": "000039-097",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Keeping it inside the building will allow the caretaker to monitor its temperature during normal rounds, rather than making a separate trip to the outdoor store.",
+        "Inside the foyer, the fridge's temperature can be checked as part of the caretaker's usual rounds. The outdoor store requires a separate visit, which is the reason for bringing the fridge into the building."
+      ]
+    },
+    {
+      "id": "000039-098",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-098",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["brief short account"]
+    },
+    {
+      "id": "000039-098",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "At a smaller scale, the same area of paper covers more ground, leaving less room for individual features. Cartographers therefore select and simplify rather than shrinking every mark without adjustment.",
+        "A smaller-scale map covers more territory on the same sheet, so features compete for less space. Selection and simplification follow from that space constraint, explaining why a path can be omitted without having closed."
+      ]
+    },
+    {
+      "id": "000039-099",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-099",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["small narrow gap"]
+    },
+    {
+      "id": "000039-099",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A lid label disappears when another box is stacked above it, while a side label stays readable without lifting anything.",
+        "A label on the aisle-facing side remains visible when boxes are stacked. Putting it only on the lid means the box above hides it, forcing you to move things just to identify the contents."
+      ]
+    },
+    {
+      "id": "000039-100",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-100",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Every folder contained two copies of the seating plan. There were two seating plans in each folder."
+      ]
+    },
+    {
+      "id": "000039-100",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The numbers let the librarian match each folder to a player without opening it and checking handwritten notes. Names alone had become unreliable because several players shared stands and sometimes borrowed the same folder on different evenings.",
+        "Numbering the folders allowed the librarian to identify their assigned players without inspecting the notes inside. With shared stands and borrowed folders making names uncertain, the number gave each folder a stable link to the assignment card."
+      ]
+    },
+    {
+      "id": "000039-101",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["due to the fact that"]
+    },
+    {
+      "id": "000039-101",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-101",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-102",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["With regard to the matter of keyboard navigation"]
+    },
+    {
+      "id": "000039-102",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-102",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A recording now stops cleanly when the card fills, leaving the last saved segment playable. Earlier versions could leave that segment without a closing index.",
+        "The full-card behavior also preserves the last completed segment. When storage runs out, the recorder finishes that segment's index before stopping, so the segment can still be played."
+      ]
+    },
+    {
+      "id": "000039-103",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["provide an indication of whether"]
+    },
+    {
+      "id": "000039-103",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["make a payment in advance before the delivery"]
+    },
+    {
+      "id": "000039-103",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-104",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["made an adjustment to the position of"]
+    },
+    {
+      "id": "000039-104",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The delivery sheet contained an error in the vehicle registration. The registration on the sheet was wrong."
+      ]
+    },
+    {
+      "id": "000039-104",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A bent guide caught the lower roller and prevented the door from rising.",
+        "The cause of the door's failure was the distorted guide trapping its bottom roller. That obstruction stopped the door from opening and made the north entrance unavailable."
+      ]
+    },
+    {
+      "id": "000039-105",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-105",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-105",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-106",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-106",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-106",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The main room shares a wall with the lift motor, and the low hum appears on recordings even when people in the room barely notice it. The side room gave us clean audio during yesterday's test.",
+        "The reason for choosing the side room is the lift noise beside the main room. That hum is picked up by the recorder despite being easy to overlook in person. The side room avoids that problem and produces clearer recordings."
+      ]
+    },
+    {
+      "id": "000039-107",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-107",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a free event at no cost to participants"]
+    },
+    {
+      "id": "000039-107",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-108",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-108",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a random draw chosen at random"]
+    },
+    {
+      "id": "000039-108",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Residents working from home had no opportunity to enter the sample. This sampling restriction makes the average unsuitable as an estimate of the district's typical daily commute, although it remains useful for studying station users.",
+        "The resulting mean describes station arrivals only. People who stayed home could not be interviewed there, so the figure should not be treated as the normal commute for all district residents."
+      ]
+    },
+    {
+      "id": "000039-109",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-109",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-109",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-110",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["give consideration to"]
+    },
+    {
+      "id": "000039-110",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-110",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The new pages separated passenger fares from payments for carts, allowing the clerk to see whether rising income came from more travellers or heavier goods traffic.",
+        "Separating the two kinds of income made the source of higher takings visible. The clerk could distinguish extra passenger business from increased cart traffic because the new ledger recorded their payments in different columns."
+      ]
+    },
+    {
+      "id": "000039-111",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["carry out a cancellation of"]
+    },
+    {
+      "id": "000039-111",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["past history"]
+    },
+    {
+      "id": "000039-111",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-112",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["The facility for the creation of recurring classes"]
+    },
+    {
+      "id": "000039-112",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["an unexpected surprise"]
+    },
+    {
+      "id": "000039-112",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The booking calendar now displays provisional reservations with a striped edge. These reservations hold a slot while the customer arranges payment, but they do not appear in the confirmed attendance total.",
+        "Provisional bookings have their own visual treatment because they should not inflate confirmed attendance. The striped edge identifies a held slot awaiting payment, letting staff recognize its status without opening the booking."
+      ]
+    },
+    {
+      "id": "000039-113",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-113",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-113",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-114",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-114",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-114",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A failed valve seal let water escape onto the floor.",
+        "The water on the floor came from a seal that had failed in the radiator valve. That failure allowed the heating water to leak into the reading room."
+      ]
+    },
+    {
+      "id": "000039-115",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-115",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["an extra spare thermometer"]
+    },
+    {
+      "id": "000039-115",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-116",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-116",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a combined joint index"]
+    },
+    {
+      "id": "000039-116",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Several new starters use mobile connections, and a folder link lets them choose when to download each file. Large attachments begin downloading with the rest of the message and can use much of their data allowance.",
+        "A link is preferable to video attachments because it lets people on mobile data control when the downloads happen. Sending the files inside the email could consume their allowance as soon as the message arrives. The shared-folder approach avoids that unnecessary download."
+      ]
+    },
+    {
+      "id": "000039-117",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-117",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-117",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-118",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "For the purpose of making a comparison between the versions"
+      ]
+    },
+    {
+      "id": "000039-118",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-118",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "In the interviews studied here, the source-language particle marked a tentative recollection. Removing it from the English transcript made uncertain dates read as firm assertions, although the dates themselves had been translated correctly.",
+        "The translation choice changes the apparent certainty of the account. When the tentative-recollection particle disappears, a reader encounters a definite date instead of the speaker's uncertain memory. The factual content can therefore remain intact while the strength of the assertion changes."
+      ]
+    },
+    {
+      "id": "000039-119",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make an application of lubricant"]
+    },
+    {
+      "id": "000039-119",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["visually by eye"]
+    },
+    {
+      "id": "000039-119",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-121",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-121",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-121",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-122",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-122",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-122",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The new library kiosk software keeps a return receipt available for sixty seconds after a transaction. Readers who move away before taking the slip can return to print it without scanning their card again.",
+        "Readers have a minute to retrieve a receipt after finishing their return. Keeping the print option open during that period lets someone who walked away too soon obtain the slip without another card scan."
+      ]
+    },
+    {
+      "id": "000039-123",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-123",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a choice between two alternative options"]
+    },
+    {
+      "id": "000039-123",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-124",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-124",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The manager photographed the damage for the maintenance folder. She took photographs of the damage for that folder."
+      ]
+    },
+    {
+      "id": "000039-124",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A damaged network lead interrupted the connection between the terminal and the router. Chip-and-PIN payments failed on the same device, while the terminal in the café remained connected.",
+        "The payment failure resulted from the reception terminal losing its network link through the damaged lead. That broken connection prevented both contactless and chip-and-PIN transactions on the device."
+      ]
+    },
+    {
+      "id": "000039-125",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["In the event that the machine is being used in a bedroom"]
+    },
+    {
+      "id": "000039-125",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-125",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-127",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make a separation of vegetable seeds from ornamental seeds"]
+    },
+    {
+      "id": "000039-127",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["an advance preview"]
+    },
+    {
+      "id": "000039-127",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-128",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["For the purposes of the assessment of confidence"]
+    },
+    {
+      "id": "000039-128",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["in a separate file apart from the response file"]
+    },
+    {
+      "id": "000039-128",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Participants selected a studied picture from four alternatives, so a correct response could reflect familiarity without a detailed memory of the earlier viewing.",
+        "Choosing among supplied pictures tests recognition, not a person's ability to retrieve a description without help. Familiarity may be sufficient for a correct answer in this task, even when the participant remembers few details of the original exposure."
+      ]
+    },
+    {
+      "id": "000039-129",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-129",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-129",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-130",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-130",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-130",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The editor gave it a fixed position because readers were cutting it out and keeping it beside the door. A predictable place on the page made the small timetable easier to find among advertisements that changed from week to week.",
+        "Keeping the timetable in the same back-page position helped readers locate it quickly. Since nearby advertisements changed every week, the stable placement spared them a search before cutting out the times."
+      ]
+    },
+    {
+      "id": "000039-131",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-131",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "I have attached the label to this reply. A copy of the label is attached."
+      ]
+    },
+    {
+      "id": "000039-131",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-132",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-132",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["the final end result"]
+    },
+    {
+      "id": "000039-132",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "This position is stored locally rather than on the account, so opening a manual on a shared tablet does not move the place saved on your laptop.",
+        "Reading positions stay separate because each device keeps its own last-page record. A manual opened on the workshop tablet therefore leaves the laptop's saved place untouched. Staff sharing an account can consult different pages without changing one another's position."
+      ]
+    },
+    {
+      "id": "000039-133",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for information in relation to the question of whether"]
+    },
+    {
+      "id": "000039-133",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-133",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-134",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["undertook the relocation of the charger"]
+    },
+    {
+      "id": "000039-134",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-134",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The wall tablet's battery had discharged because its charger was plugged into a socket controlled by the foyer light switch. When the lights went off after the afternoon session, charging stopped.",
+        "The display failed when the tablet ran out of battery power. Its socket lost power with the foyer lights, so switching those lights off left the tablet unable to charge. That loss of charging caused the battery to discharge during the afternoon."
+      ]
+    },
+    {
+      "id": "000039-135",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make an assessment of the fit"]
+    },
+    {
+      "id": "000039-135",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Keep a written record of any agreed alternative route. Record the agreed route in writing."
+      ]
+    },
+    {
+      "id": "000039-135",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-136",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["arrange for the provision of six clean blankets"]
+    },
+    {
+      "id": "000039-136",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["revert back"]
+    },
+    {
+      "id": "000039-136",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The loading entrance at the gallery has a low arch, and the tall van will not pass beneath it. Using the smaller vehicle will let us load inside the courtyard instead of carrying the crates along the public pavement.",
+        "The smaller van is the right choice because of the gallery's low entrance arch. The taller vehicle cannot enter, whereas the smaller one can reach the courtyard and save the crew from moving crates down the pavement."
+      ]
+    },
+    {
+      "id": "000039-137",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-137",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-137",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-138",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-138",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-138",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A pupil might be planning an answer, reading a diagram or waiting for a turn. Coding only the duration of silence allowed those possibilities to remain open instead of assigning a mental state from the absence of speech.",
+        "A silent interval does not establish that thinking has stopped. Planning, diagram reading and waiting to speak can all occur without audible speech, so the study recorded the silence without choosing among those mental activities. This kept the coding tied to what could be observed."
+      ]
+    },
+    {
+      "id": "000039-139",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-139",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a spare backup screw"]
+    },
+    {
+      "id": "000039-139",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-140",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-140",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["hand-painted by hand"]
+    },
+    {
+      "id": "000039-140",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The front counter stood beside the open doorway, where rain blew onto paper bags. The sheltered counter kept the bags dry without requiring the baker to switch to plastic packaging.",
+        "The back counter protected paper bread bags from rain entering through the doorway. Moving collection there meant the baker could retain the paper bags, since the loaves no longer waited beside the exposed entrance. The move solved the wet-packaging problem without changing the bags themselves."
+      ]
+    },
+    {
+      "id": "000039-141",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["undertake a check of the cable"]
+    },
+    {
+      "id": "000039-141",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-141",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-143",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-143",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a free complimentary box of detergent"]
+    },
+    {
+      "id": "000039-143",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-144",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-144",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The next roll from that carton was then loaded into the printer. The printer was fitted with that next roll."
+      ]
+    },
+    {
+      "id": "000039-144",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The replacement roll had been fitted with its coated face away from the print head. The printer uses heat-sensitive stock, so it could not produce a mark on the reverse face.",
+        "The blank output resulted from the heat-sensitive coating facing the wrong way. With the reverse side against the print head, the thermal process could not form the printed date."
+      ]
+    },
+    {
+      "id": "000039-145",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-145",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-145",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-146",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-146",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-146",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "People are still using printed copies of old messages, and those copies do not reflect changes agreed later. A single shared sheet gives the desk team one place to check the current arrangement.",
+        "Keeping the rota in one shared sheet avoids the outdated versions left in email printouts. Since later changes do not appear on those printed lists, staff need a single place where the current arrangement is maintained. The shared spreadsheet provides that common record for the desk team."
+      ]
+    },
+    {
+      "id": "000039-147",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-147",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["previous prior experience"]
+    },
+    {
+      "id": "000039-147",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-149",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["Make an assessment of the corners"]
+    },
+    {
+      "id": "000039-149",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-149",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-151",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["due to the fact that"]
+    },
+    {
+      "id": "000039-151",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-151",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-152",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of reducing"]
+    },
+    {
+      "id": "000039-152",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-152",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Audio is now retained on the device until the server confirms receipt, so a dropped connection will not erase an unsent interview.",
+        "Files stay on the recorder until the server acknowledges them; an interruption therefore leaves the original audio available rather than deleting it before delivery."
+      ]
+    },
+    {
+      "id": "000039-153",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-153",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "North Quay quotes delivery six weeks after ordering. Its delivery lead time is six weeks from order."
+      ]
+    },
+    {
+      "id": "000039-153",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-154",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-154",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Reception recorded eleven delayed staff arrivals. Eleven employees were delayed on arrival."
+      ]
+    },
+    {
+      "id": "000039-154",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A maintenance update replaced its access table with an empty file, so the reader had no staff permissions against which to check a card.",
+        "The reader could not admit staff because the maintenance update had supplied a blank access table, leaving it without permissions to match to their cards."
+      ]
+    },
+    {
+      "id": "000039-155",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-155",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-155",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-156",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-156",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-156",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The desktop printer leaves roller marks on the heavy stock, and those marks show through the pale photograph on the front.",
+        "The desktop machine's rollers mark this thick paper, and the light area of the invitation makes those marks visible, which is why the shared press is the right machine for this job."
+      ]
+    },
+    {
+      "id": "000039-157",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-157",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The allotment water supply will be off on Tuesday from nine until noon while the cracked standpipe beside plot 18 is replaced. The repair is scheduled for Tuesday morning, between nine and twelve."
+      ]
+    },
+    {
+      "id": "000039-157",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-158",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-158",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Our interviews covered sixteen students from the two project groups. We selected students from both groups."
+      ]
+    },
+    {
+      "id": "000039-158",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Students signed in for supervised sessions, but evening access used a door code and left no entry in the register.",
+        "The register omits evening visits because only supervised sessions required a signature; recorded attendance consequently understates use by students who entered with the code."
+      ]
+    },
+    {
+      "id": "000039-159",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["Make a determination of"]
+    },
+    {
+      "id": "000039-159",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-159",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-160",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["because of the fact that"]
+    },
+    {
+      "id": "000039-160",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-160",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The move was necessary because of the fact that the builder needed to leave the roof open overnight between stages. Rain covers protected the seating, but the insurer required the auditorium to remain empty.",
+        "With the roof open between repair stages, the cinema had to stay empty under the insurance conditions, which made the school hall necessary."
+      ]
+    },
+    {
+      "id": "000039-161",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["conduct a review of"]
+    },
+    {
+      "id": "000039-161",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "you can still download the documents you uploaded yourself. Uploaded documents remain available for download."
+      ]
+    },
+    {
+      "id": "000039-161",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-162",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["At this point in time"]
+    },
+    {
+      "id": "000039-162",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["in combination with one another"]
+    },
+    {
+      "id": "000039-162",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The room booking service now keeps a reservation in place when its owner leaves the organization. A facilities administrator can assign a new owner, so teams no longer lose a room simply because the person who booked it has left.",
+        "The departure of a booking owner no longer releases the room: facilities staff can transfer ownership and preserve the reservation for the team."
+      ]
+    },
+    {
+      "id": "000039-163",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-163",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-163",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-164",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-164",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-164",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The sensor read the label as a carton that had not moved, so the controller stopped the belt to prevent a second carton entering the same space.",
+        "The controller halted the conveyor because the trapped label made the sensor report an occupied space; stopping the belt prevented another carton from moving into it."
+      ]
+    },
+    {
+      "id": "000039-165",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-165",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The seller should state the warranty period in months. The period should be expressed as a number of months."
+      ]
+    },
+    {
+      "id": "000039-165",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-166",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-166",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Lunch will be served at half past twelve. The lunch service starts at 12:30."
+      ]
+    },
+    {
+      "id": "000039-166",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The ceiling microphone is being replaced, and the contractor needs the room empty while the ladder is up.",
+        "The microphone replacement requires an empty room for the contractor's ladder, so the large room needs to remain unavailable for Wednesday's visitors."
+      ]
+    },
+    {
+      "id": "000039-167",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-167",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-167",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-168",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-168",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-168",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "This delay matters because the displayed savings describe last month's consumption, while the thermostat affects the coming month. The household therefore responds to information from an earlier weather period.",
+        "The simulated household acts on a bill describing the previous month, although its thermostat change applies to the next one; its response consequently uses weather information from the wrong period."
+      ]
+    },
+    {
+      "id": "000039-169",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["Carry out the attachment of"]
+    },
+    {
+      "id": "000039-169",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Remove any loose fragment of the old pull with small pliers. The old fragment must be removed before the new pull is attached."
+      ]
+    },
+    {
+      "id": "000039-169",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-170",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["made an adjustment to"]
+    },
+    {
+      "id": "000039-170",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The labels gave the driver the new delivery order. They showed the sequence in which deliveries were to be made."
+      ]
+    },
+    {
+      "id": "000039-170",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The detour added twenty minutes, which pushed the first drop beyond the cafe's breakfast preparation window. Starting the van earlier solved that problem without changing the baking schedule, because the first trays were already cool before the previous departure time.",
+        "Leaving earlier recovered the twenty minutes lost on the detour and got the cafe's bread there before breakfast preparation, while the existing baking schedule could stay in place."
+      ]
+    },
+    {
+      "id": "000039-171",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-171",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-171",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-172",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-172",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-172",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The new invoice import accepts a delivery date separately from the invoice date. This lets a purchase appear in the month when the goods arrived even if the supplier sent the invoice later.",
+        "Separate delivery and invoice dates mean goods can be assigned to their arrival month even when the supplier bills for them in a later month."
+      ]
+    },
+    {
+      "id": "000039-173",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-173",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Harbour charges separately for that rinse. The rinse has a separate charge."
+      ]
+    },
+    {
+      "id": "000039-173",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-174",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-174",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The spare processed forty-three purchases. Forty-three transactions were completed on the spare unit."
+      ]
+    },
+    {
+      "id": "000039-174",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A delayed response from the payment gateway led the terminal to offer a retry after the bank had already authorized the original payment. Staff followed that retry message, which submitted a second charge.",
+        "The delay had allowed an authorization to succeed before the terminal displayed its retry option; accepting that option then created another charge for the same purchase."
+      ]
+    },
+    {
+      "id": "000039-176",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["provide notification to"]
+    },
+    {
+      "id": "000039-176",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-176",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Several printed appointment cards still show it, and callers using those cards need to reach the desk without hearing a disconnected-line message.",
+        "Keeping the previous number connected will allow patients with older appointment cards to reach reception instead of encountering a disconnected line."
+      ]
+    },
+    {
+      "id": "000039-177",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make a selection of"]
+    },
+    {
+      "id": "000039-177",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "There is enough shelf space for about three hundred books. The shelves can accommodate roughly three hundred volumes."
+      ]
+    },
+    {
+      "id": "000039-177",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-179",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-179",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-179",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-180",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-180",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-180",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The passenger ferry had a refrigerated locker normally used for a small grocery delivery, and that locker had enough space for the insulated lunch boxes. Using it kept the meals cold during the crossing without adding another boat journey.",
+        "The ferry's chilled locker could hold the lunch boxes and maintain their temperature on the crossing, allowing the meals to travel on an existing sailing rather than requiring another boat."
+      ]
+    },
+    {
+      "id": "000039-182",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-182",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The unit choice applies to the whole map, including printed copies. The selection controls units throughout the map and its printouts."
+      ]
+    },
+    {
+      "id": "000039-182",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The map editor now saves an unfinished route as a draft rather than publishing it when you close the drawing tool. This keeps partial routes out of the public map while allowing you to return to them later.",
+        "Closing the drawing tool leaves the route unpublished in drafts, which prevents an incomplete route appearing publicly and lets its author continue later."
+      ]
+    },
+    {
+      "id": "000039-183",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-183",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-183",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-184",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-184",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-184",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The seal had separated at the upper corner, allowing wind-driven rain behind the frame rather than through the glass.",
+        "The upper seal had pulled away from the brick, giving wind-driven rain a route behind the window frame even though the glazing remained sound."
+      ]
+    },
+    {
+      "id": "000039-185",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["take into consideration"]
+    },
+    {
+      "id": "000039-185",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-185",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-186",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make a revision to"]
+    },
+    {
+      "id": "000039-186",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Finance has supplied a list of orders that have not yet shipped. The list contains orders still awaiting shipment."
+      ]
+    },
+    {
+      "id": "000039-186",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The front lift is being serviced, and the rear route lets the mailroom move heavy boxes on a trolley without carrying them up the reception steps.",
+        "Routing courier boxes through the loading desk avoids carrying them up the front steps while the lift is out, because the rear entrance permits a trolley all the way to the mailroom."
+      ]
+    },
+    {
+      "id": "000039-187",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-187",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-187",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-188",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-188",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-188",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The company introduced a prepaid complaint card in the same month, making it easier for passengers to report a problem. A change in reporting effort can increase the recorded total even if the underlying number of delays stays constant.",
+        "The new prepaid card lowered the effort of making a complaint, so the rise in recorded complaints could reflect easier reporting rather than a decline in reliability."
+      ]
+    },
+    {
+      "id": "000039-189",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-189",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Let it dry before sanding. Sanding should begin after the wood has dried."
+      ]
+    },
+    {
+      "id": "000039-189",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-190",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-190",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["The box held forty books. It contained forty volumes."]
+    },
+    {
+      "id": "000039-190",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The sports centre offered level access and a sheltered place to queue, so the librarian chose it over the narrower lay-by outside the shops. The van could turn there without reversing across the pedestrian path.",
+        "Level boarding and a covered queue made the sports centre preferable to the cramped lay-by near the shops, while the turning space kept the van from reversing over the walking route."
+      ]
+    },
+    {
+      "id": "000039-191",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["due to the fact that"]
+    },
+    {
+      "id": "000039-191",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-191",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-192",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make an assignment of that list to"]
+    },
+    {
+      "id": "000039-192",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-192",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Entries are stored locally and sent when a connection returns, so a missing signal no longer prevents a researcher from completing the form.",
+        "Researchers can complete observations without a signal because the tablet holds entries locally until it reconnects and sends them."
+      ]
+    },
+    {
+      "id": "000039-193",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make a request for"]
+    },
+    {
+      "id": "000039-193",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Merchant House includes installation in its quoted price. Installation is included in that price."
+      ]
+    },
+    {
+      "id": "000039-193",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-194",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["carried out a removal of"]
+    },
+    {
+      "id": "000039-194",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The reserve refrigerator held all affected sample racks. All of the affected racks fitted in the reserve unit."
+      ]
+    },
+    {
+      "id": "000039-194",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The laboratory refrigerator reached 11 degrees overnight after a storage box prevented its door closing fully. The upper shelf had been extended with a loose tray, leaving the box beyond the door seal.",
+        "A box projecting past the seal held the door open because the added tray extended the upper shelf beyond its intended depth."
+      ]
+    },
+    {
+      "id": "000039-195",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-195",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-195",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-196",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-196",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-196",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The new starters include colleagues who need step-free access, and the upper room's lift will still be closed for maintenance.",
+        "The ground-floor room provides the step-free route the new starters need while the lift to the upstairs room is under maintenance, making it the appropriate place for induction."
+      ]
+    },
+    {
+      "id": "000039-197",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-197",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["There is no admission charge. Entry is free of charge."]
+    },
+    {
+      "id": "000039-197",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-198",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-198",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-198",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A participant can recognize a familiar image even when they cannot produce a detailed description from memory. The two tasks therefore draw on overlapping but different evidence of retention.",
+        "Someone may identify an image as familiar without being able to describe it unaided, which is why recognition and recall provide different indications of what has been retained."
+      ]
+    },
+    {
+      "id": "000039-199",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-199",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Keep the rail level while marking. The rail should be held horizontally while you make the marks."
+      ]
+    },
+    {
+      "id": "000039-199",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-200",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["undertook the preparation of"]
+    },
+    {
+      "id": "000039-200",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The files were arranged in date order. Their sequence followed the dates of the rehearsals."
+      ]
+    },
+    {
+      "id": "000039-200",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Several singers used older phones that could not download the larger attachments, while the folder allowed them to stream one part at a time.",
+        "Streaming individual parts from the shared folder let singers with older phones hear recordings that had been too large to download as email attachments."
+      ]
+    },
+    {
+      "id": "000039-201",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": [
+        "arrive at a determination of which panel member will cover each topic"
+      ]
+    },
+    {
+      "id": "000039-201",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-201",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-202",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-202",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The display returned to its normal range after thirty minutes.",
+        "It took half an hour for the display to return to its normal range."
+      ]
+    },
+    {
+      "id": "000039-202",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A crate placed behind the unit blocked the lower air grille, reducing the airflow needed to remove heat.",
+        "Blocking the lower grille reduced the airflow that carries heat away from the display. With the crate behind it, the unit could not shed heat normally and its internal temperature rose."
+      ]
+    },
+    {
+      "id": "000039-203",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of allowing"]
+    },
+    {
+      "id": "000039-203",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["unanimous agreement from everyone on the teaching team"]
+    },
+    {
+      "id": "000039-203",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Direct afternoon sun warmed the exposed rims faster than the thick bases. The uneven drying put stress on the clay, and moving the shelves into the centre of the room reduced that difference.",
+        "Sunlight at the windows had dried the bowl rims more rapidly than their bases, creating the stress that caused cracks. Relocating the shelves away from those windows helped the pots dry more evenly."
+      ]
+    },
+    {
+      "id": "000039-204",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["due to the fact that"]
+    },
+    {
+      "id": "000039-204",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-204",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Payroll closes early due to the fact that the bank holiday falls on our normal processing day. Claims received after Wednesday will move to the following month's run, as there will be no staff available to check them before the bank file is sent.",
+        "The Wednesday cutoff is earlier because of the bank holiday. Payroll cannot check later submissions before sending this month's bank file, so those claims must wait until next month's run."
+      ]
+    },
+    {
+      "id": "000039-205",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["provides users with the ability to"]
+    },
+    {
+      "id": "000039-205",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-205",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The garden planner now distinguishes seed sowing from transplanting. A crop can have both dates, with separate reminders, so a tray started indoors does not appear to have been planted in the outdoor bed.",
+        "Separate sowing and transplant dates prevent indoor starts from being confused with outdoor planting. Because each date has its own reminder, the planner can track a seed tray and its later move into a bed as different events."
+      ]
+    },
+    {
+      "id": "000039-206",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-206",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["joint consensus"]
+    },
+    {
+      "id": "000039-206",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Areas close to footpaths received more observer visits, making a blank square harder to interpret than a square with a sighting. Absence from the map can reflect a lack of searching as well as the absence of the plant.",
+        "A missing mark on this map can mean either that the plant was absent or that nobody searched that square. More visits near paths increased the chance of a record there, so the pattern of sightings cannot be read directly as the species' complete range."
+      ]
+    },
+    {
+      "id": "000039-207",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["prior to the commencement of business"]
+    },
+    {
+      "id": "000039-207",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-207",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The office clock faced the clerk's desk and could not be seen from the benches. A clock facing the benches let crews judge how long they had before the gate opened without interrupting the clerk.",
+        "The waiting-room clock gave the crews a view of the time from their benches. Since the original dial faced the clerk, the second clock spared them from asking how long remained before the gate opened."
+      ]
+    },
+    {
+      "id": "000039-208",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of keeping"]
+    },
+    {
+      "id": "000039-208",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-208",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-209",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["For the purpose of comparing"]
+    },
+    {
+      "id": "000039-209",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Each group contained thirty people. There were thirty participants in each group."
+      ]
+    },
+    {
+      "id": "000039-209",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A participant may understand the task yet ask for confirmation, while another may remain confused without asking. Waiting time therefore captures the decision to seek assistance under these conditions.",
+        "A request for help can reflect a wish for confirmation as well as confusion, so the time before it records help-seeking rather than establishing how confused someone was."
+      ]
+    },
+    {
+      "id": "000039-210",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-210",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The backup was made at 21:10 yesterday. Yesterday's backup time was 21:10."
+      ]
+    },
+    {
+      "id": "000039-210",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-211",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["due to the fact that"]
+    },
+    {
+      "id": "000039-211",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-211",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-212",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of checking"]
+    },
+    {
+      "id": "000039-212",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-212",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-213",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["has the effect of reducing"]
+    },
+    {
+      "id": "000039-213",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-213",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-214",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["With reference to the question of sharing receivers"]
+    },
+    {
+      "id": "000039-214",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-214",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-215",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["make a decision as to whether"]
+    },
+    {
+      "id": "000039-215",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-215",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-216",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["In the event that"]
+    },
+    {
+      "id": "000039-216",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-216",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-217",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["on account of the fact that"]
+    },
+    {
+      "id": "000039-217",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-217",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The deposit follows the crate rather than a particular customer account. When a shopper returns a crate to any participating stall, that stall pays the deposit back and records the crate number. The weekly settlement reimburses whichever stall made the refund.",
+        "A shopper can return a crate to a different participating stall because the refund is attached to its number, with the stall that pays the deposit reimbursed in the weekly settlement. The original selling account does not determine who can accept the return."
+      ]
+    },
+    {
+      "id": "000039-218",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["In view of the fact that"]
+    },
+    {
+      "id": "000039-218",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-218",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The weekly figure uses time spent in each sound band, rather than the number of files uploaded. One long recording can therefore contribute more than several short visits. Counting files would give extra weight to volunteers who pressed Save repeatedly, even if they spent less time at a site.",
+        "The combined weekly result reflects duration in each band. It does not reward a site simply for supplying more files, because splitting a visit into several saved clips does not add observation time.",
+        "Saving several clips during one visit still contributes only the time actually recorded. File count would overweight that visit, so the weekly sound-band figure is weighted by duration instead."
+      ]
+    },
+    {
+      "id": "000039-219",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of checking"]
+    },
+    {
+      "id": "000039-219",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-219",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The seam tape had lifted at one end, leaving a route through the needle holes. The cloth's laboratory result could remain the same even though that seam leaked.",
+        "The collar leak came through the stitching where the tape had lifted. A strong result for the fabric did not close those needle holes, so the jacket could admit water despite the material's unchanged test figure."
+      ]
+    },
+    {
+      "id": "000039-220",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["made a decision regarding"]
+    },
+    {
+      "id": "000039-220",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-220",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The copied pages were arranged by wage week, with loose correction slips placed immediately after the entry they changed. This preserved the connection between a payment and its correction. Filing all slips at the end would have required a reader to search the whole bundle to discover whether a weekly total had been altered.",
+        "Placing a correction beside its wage week kept the changed payment attached to the original entry. Readers would have had to search the full set if the slips had all been copied together at the back."
+      ]
+    },
+    {
+      "id": "000039-221",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["At this moment in time"]
+    },
+    {
+      "id": "000039-221",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Requests for either type of sign close on Monday.",
+        "Monday is the last day requests for either type of sign can be submitted."
+      ]
+    },
+    {
+      "id": "000039-221",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-222",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["provides users with the ability to"]
+    },
+    {
+      "id": "000039-222",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["combined together"]
+    },
+    {
+      "id": "000039-222",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-223",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["is in a position to provide"]
+    },
+    {
+      "id": "000039-223",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The venue has confirmed forty-eight desks for Room A.",
+        "Room A will contain forty-eight desks."
+      ]
+    },
+    {
+      "id": "000039-223",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-224",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of keeping"]
+    },
+    {
+      "id": "000039-224",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["Return the pedals back"]
+    },
+    {
+      "id": "000039-224",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-225",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["with a view to obtaining a comparison of"]
+    },
+    {
+      "id": "000039-225",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["basic fundamentals"]
+    },
+    {
+      "id": "000039-225",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-226",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["provide an indication of whether"]
+    },
+    {
+      "id": "000039-226",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The afternoon shift completed three trial jobs.",
+        "It finished three jobs in the trial."
+      ]
+    },
+    {
+      "id": "000039-226",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "When the card stayed at the terminal, the next operator loaded the paper without seeing that note. Keeping the card with the paper made the adjustment available at the point where the next operator needed it.",
+        "With the instruction travelling beside the paper, the next operator could see the feed adjustment during loading. Leaving the card by the terminal separated that note from the job, which was why the original handover caused a stop.",
+        "The reduction in stops came from keeping the adjustment note beside the paper. At the terminal, the card had been away from the loading task, so the operator beginning that task missed the information."
+      ]
+    },
+    {
+      "id": "000039-227",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-227",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The selected sample covers twelve weeks.",
+        "Twelve weeks are covered by the selected sample."
+      ]
+    },
+    {
+      "id": "000039-227",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A delayed appointment can move into a later month even though the request reached the archive before the month ended. Grouping by visit date would therefore make administrative delay look like a change in when people asked for documents.",
+        "A postponed visit can cross a month boundary after the original document request has already arrived. Using the appointment month would shift that request into a later period because of the delay, so requests are assigned to the month in which they were received."
+      ]
+    },
+    {
+      "id": "000039-228",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-228",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-228",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-229",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-229",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-229",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-230",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-230",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-230",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-231",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-231",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-231",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-232",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-232",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-232",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-233",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-233",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-233",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-234",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-234",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-234",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The cleaning cycle had ended with air still in the tube. Until ink reached the head, the trigger could fire without producing a mark.",
+        "The trigger had been operating while the tube contained air rather than ink. With no ink arriving at the head, the first bottles passed the coder without receiving a printed mark."
+      ]
+    },
+    {
+      "id": "000039-235",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-235",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-235",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The results list keeps the same relevance order in both layouts. Only the date position changes. This prevents a document moving up the list from being mistaken for an effect of making its date easier to see.",
+        "Keeping each document in the same list position makes the date placement the changed display feature. If a document moved upward as well, an earlier opening could be explained by its new position instead of by the date being easier to notice."
+      ]
+    },
+    {
+      "id": "000039-236",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-236",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-236",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Henshaw's frame lets the panels travel upright with a gap between their painted faces. The weight rests on the lower edges, leaving the painted surfaces clear of straps. Lower Road's standard wrap would protect against rubbing but would still need a rigid support to keep a tightened strap from pressing into the paint.",
+        "An upright rigid frame carries the load at the panels' lower edges while keeping the straps away from the painted faces. Wrapping can prevent rubbing, but it still needs a support that stops strap pressure reaching the paint."
+      ]
+    },
+    {
+      "id": "000039-237",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-237",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-237",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The slip number identified the desk rather than the visitor. A researcher could leave for lunch and keep the same place by leaving the slip beside the machine. The attendant could then distinguish an occupied desk from an abandoned one without touching the visitor's papers.",
+        "When the number stayed at the desk during lunch, the attendant could see that the place remained occupied without moving the papers left there. The slip marked the desk, while the entrance list retained the visitor's name."
+      ]
+    },
+    {
+      "id": "000039-238",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-238",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-238",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The Recent filter is stored on each device. Changing it on the tablet will not change the view on your office computer. That is why the two screens can show different lists while opening the same account.",
+        "The tablet keeps its own Recent filter, separately from the office computer. Different filter settings can therefore produce different lists even though both devices are signed into the same account."
+      ]
+    },
+    {
+      "id": "000039-239",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-239",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-239",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The batch number links a tile to the mixing sheet. Two buckets can have the same glaze name while containing batches mixed on different dates. Keeping the number on the tile lets the technician identify which mixture produced that surface.",
+        "A tile's batch number points to the mixing record for the specific mixture. Glazes with the same name may have been mixed at different times, so the number is what connects the displayed surface to the batch that produced it."
+      ]
+    },
+    {
+      "id": "000039-240",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-240",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-240",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The bars represented ranges in the battery reading rather than equal blocks of playing time. Losing one bar therefore did not mean that a fixed fraction of the advertised hours had passed.",
+        "The display bars do not each stand for the same amount of playback. They cover ranges of battery readings, so the time spent on one bar can differ from the time spent on another."
+      ]
+    },
+    {
+      "id": "000039-241",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-241",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-241",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-242",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-242",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-242",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The approved amount is locked when the budget holder signs. A later increase opens a new approval entry rather than changing that signed value. This leaves the earlier authorization visible and identifies which additional amount required another decision.",
+        "A signed approval amount remains visible when a later increase is requested. Opening another approval entry preserves the original authorization and shows the extra amount that needed a further decision."
+      ]
+    },
+    {
+      "id": "000039-243",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-243",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-243",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The carbon copy stayed in each book after a passenger took the top sheet. That copy preserved the receipt number and the amount paid, allowing the office to match the day's cash to tickets issued away from the counter. The clerk did not have to write a second list while boarding was under way.",
+        "Keeping the carbon sheet in the book left the office a record of the receipt number and payment. Staff could reconcile cash from the boat-side sales without asking the clerk to create another list during boarding."
+      ]
+    },
+    {
+      "id": "000039-244",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": false
+    },
+    {
+      "id": "000039-244",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Each Reed trolley holds twelve trays.",
+        "There is space for twelve trays on each Reed trolley."
+      ]
+    },
+    {
+      "id": "000039-244",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-245",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["due to the fact that"]
+    },
+    {
+      "id": "000039-245",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-245",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-246",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["in the event that"]
+    },
+    {
+      "id": "000039-246",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-246",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-247",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of comparing"]
+    },
+    {
+      "id": "000039-247",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Both visitors left the lift without assistance. Neither needed help to get out."
+      ]
+    },
+    {
+      "id": "000039-247",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-248",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["about the manner in which"]
+    },
+    {
+      "id": "000039-248",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "the family selected papers they thought future readers would find interesting. The family selection was chosen by relatives who decided which papers to keep."
+      ]
+    },
+    {
+      "id": "000039-248",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-249",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["due to the fact that"]
+    },
+    {
+      "id": "000039-249",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["maximum weight limit"]
+    },
+    {
+      "id": "000039-249",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Air needs to circulate behind the frame so moisture does not collect against the backing board.",
+        "Without that movement, moisture can gather between the backing board and a cold wall."
+      ]
+    },
+    {
+      "id": "000039-250",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of placing"]
+    },
+    {
+      "id": "000039-250",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["listed separately, apart from the meal price"]
+    },
+    {
+      "id": "000039-250",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Our reception team covers the desk alone at noon, so spending ten minutes matching meals to orders would delay visitors.",
+        "Since only one person staffs reception at lunchtime, avoiding that sorting would keep visitors from waiting."
+      ]
+    },
+    {
+      "id": "000039-251",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of showing"]
+    },
+    {
+      "id": "000039-251",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["compulsory and mandatory"]
+    },
+    {
+      "id": "000039-251",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "The printer uses heat rather than ink, so the wrong orientation let paper feed through without producing a number.",
+        "Thermal paper needs its coated surface against the print head for heat to produce an image. With the roll reversed, it fed normally but could not display the queue number."
+      ]
+    },
+    {
+      "id": "000039-252",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["in the event that"]
+    },
+    {
+      "id": "000039-252",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-252",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A survey of residents at a public meeting will tend to miss people who cannot attend at that hour. Their absence matters in the event that work schedules or caring responsibilities also shape their views about local services.",
+        "People unable to get to the meeting are absent from the survey, and the same commitments that keep them away may affect their answers. More responses from those attending therefore leave the coverage problem in place."
+      ]
+    },
+    {
+      "id": "000039-253",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of adding"]
+    },
+    {
+      "id": "000039-253",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": false
+    },
+    {
+      "id": "000039-253",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A thirty-minute cleaning interval now blocks the space after a reservation instead of appearing as a second customer booking. This prevents reception staff from mistaking the interval for an appointment that needs confirmation.",
+        "Cleaning intervals are now shown as blocked time attached to a reservation rather than as separate bookings. Reception therefore no longer has a cleaning entry that looks like a customer appointment awaiting confirmation."
+      ]
+    },
+    {
+      "id": "000039-254",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["for the purpose of allowing"]
+    },
+    {
+      "id": "000039-254",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["combined together"]
+    },
+    {
+      "id": "000039-254",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-255",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["due to the fact that"]
+    },
+    {
+      "id": "000039-255",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["held a joint meeting together"]
+    },
+    {
+      "id": "000039-255",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Staff wanted a record of their condition at dispatch so that a later mark could be distinguished from damage already present.",
+        "Photographs taken before dispatch showed which marks an object already carried. That condition record allowed staff to tell whether a mark reported after a school loan was new or had been there when the object left."
+      ]
+    },
+    {
+      "id": "000039-256",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["For the purpose of recreating"]
+    },
+    {
+      "id": "000039-256",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "The preview of the first printed page can be enlarged. It can be made larger on screen."
+      ]
+    },
+    {
+      "id": "000039-256",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "Previously, late evening appointments could appear under the following day because the export grouped them by the server's clock. The change keeps the daily totals aligned with the reception calendar.",
+        "Grouping visits by the clinic's date prevents a late appointment from moving into the next day's total merely because the server is in another time zone. This makes the export's daily figures correspond to the reception calendar."
+      ]
+    },
+    {
+      "id": "000039-257",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["For the purpose of comparing"]
+    },
+    {
+      "id": "000039-257",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": ["a free complimentary box of detergent"]
+    },
+    {
+      "id": "000039-257",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-258",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["In the event that"]
+    },
+    {
+      "id": "000039-258",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "North Quay quotes delivery six weeks after ordering. Its delivery lead time is six weeks from order."
+      ]
+    },
+    {
+      "id": "000039-258",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": false
+    },
+    {
+      "id": "000039-259",
+      "check": "wordiness-and-redundancy/wordiness",
+      "expected": true,
+      "snippets": ["in the event that"]
+    },
+    {
+      "id": "000039-259",
+      "check": "wordiness-and-redundancy/redundancy",
+      "expected": true,
+      "snippets": [
+        "Reception recorded eleven delayed staff arrivals. Eleven employees were delayed on arrival."
+      ]
+    },
+    {
+      "id": "000039-259",
+      "check": "wordiness-and-redundancy/repeated-explanation",
+      "expected": true,
+      "snippets": [
+        "A maintenance update replaced its access table with an empty file, so the reader had no staff permissions against which to check a card.",
+        "The reader could not admit staff because the maintenance update had supplied a blank access table, leaving it without permissions to match to their cards."
+      ]
+    }
+  ]
+}
