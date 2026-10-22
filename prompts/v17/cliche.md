@@ -1,35 +1,23 @@
 ---
 {
-  "instructions": "Does the complete passage adopt a complete conventional saying, stock figure or genre formula as generic rhetoric? Establish current adoption, assign the smallest complete expression to its proper check, then match its conventional meaning to the passage's details. Judge a separate cliche independently of neighboring defects.",
+  "instructions": "Does the complete passage contain a complete conventional saying, stock figure or genre formula whose own defect is generic rhetoric? First assign each suspected expression to its proper check: imported technical register belongs to borrowed jargon, a corrupted term to tortured phrasing, and loose ornamental words or adverbs to their own checks. Then judge each remaining conventional expression for adoption and useful meaning. A separate defect elsewhere leaves a distinct cliche eligible.",
   "criteria":
     {
-      "true": "At least one adopted conventional expression belongs to cliche and contributes generic reassurance, description, praise or exhortation rather than a useful state, distinction or relationship fitted to the particular subject.",
-      "false": "Every suspect expression is documented or rejected wording, a meaningful name, purposeful wordplay, literal, owned by another check, ordinary compositional wording, or a conventional expression whose useful meaning corresponds to the passage's particular details."
+      "true": "At least one remaining complete conventional expression is adopted as generic reassurance, praise or decoration rather than communicating a particular useful state or relationship.",
+      "false": "All suspect wording belongs to neighboring check definitions, or every remaining conventional expression is documented, named, purposeful wordplay, literal, or communicates a particular useful state or relationship."
     }
 }
 ---
 
 # Cliche
 
-Require both a recognizable reusable saying, stock figure or genre formula and generic rhetorical use. Assess every instance, including unseen wording. Familiarity and a plainer available paraphrase alone supply no defect.
+Start with a recognizable complete conventional saying, stock image or genre formula. Then judge its job in this passage. The writer must adopt it as generic rhetoric for a hit; quoting a historical slogan or showing wording being replaced remains no-hit.
 
-## Adoption And Ownership
+Preserve an idiom whose ordinary figurative meaning directly communicates the particular state or relationship described. Responsibility passing to someone else, a complete reset, a bypass, a consolation and proactive work can be useful meanings. Familiarity or the availability of a plainer paraphrase alone supplies no defect.
 
-Read the complete passage to establish whether the writer adopts the expression now. Wording reported as a deficient slogan and then replaced remains documented wording. Assess a slogan or quotation used as the writer's own communication normally.
+Distinguish that useful meaning from a generic service promise, product compliment or inspirational assurance. Nearby facts protect the meaning they supply; they do not automatically redeem a stock slogan that merely praises or reassures. Judge what the expression itself contributes.
 
-Assign each smallest complete expression by its own defect. For a suspected corrupted fixed term, identify its local referent and intended sense: a recoverable term garbled through a wrong-sense substitution belongs to tortured phrasing; a literal description or deliberately defined fictional concept keeps its stated meaning.
-
-For technical-looking language, distinguish ordinary causation from portraying an ordinary activity through a donor technical model. Decorative imported register belongs to borrowed jargon, including familiar formulas. Preserve literal technical work and useful analogies whose corresponding operations, constraints or relationships explain the claim. A stated benefit or causal link alone supplies no operative correspondence.
-
-Compositional ornamental words and decorative hidden-emphasis adverbs retain their own checks. Stock physical emotion belongs to narrative craft. After these assignments, require a separate complete conventional expression for cliche; remaining inflated words alone are insufficient.
-
-## Meaning Matched To Details
-
-Paraphrase what each remaining conventional expression itself communicates. Match that state, distinction or relationship to what the passage establishes. Preserve useful figurative meaning when the details instantiate that relationship; literal imagery, exceptional originality and an explicit explanation of the idiom are unnecessary.
-
-Distinguish correspondence from mere proximity. Details can establish an expression's useful meaning, or merely describe the subject beside an interchangeable compliment, reassurance or exhortation. A stock verdict remains generic when facts identify features without establishing the particular value or relationship it asserts. Judge the expression's contribution rather than the overall usefulness of the passage.
-
-Apply this test separately to each expression. A useful idiom protects its own meaning; a distinct generic formula remains eligible. Follow the fixed ownership boundaries even when several defects coexist.
+Require a conventional expression independently of other bad writing. Ornamental adjectives, decorative quietly, an invented computing metaphor or a garbled technical name can be other defects without being a cliche. Assign imported technical register to borrowed jargon, corrupted terms to tortured phrasing, and stock physical emotion to narrative craft. Ordinary compositional wording does not become a conventional expression because it sounds inflated or vague.
 
 ## Development Examples
 

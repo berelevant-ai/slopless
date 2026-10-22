@@ -1,35 +1,21 @@
 ---
 {
-  "instructions": "For each candidate expression, distinguish ordinary causation or implementation from a claimed specialist model. Does this passage contain at least one decorative imported technical label for a recoverable ordinary activity, whose claimed operation, constraint, or explanatory relationship lacks useful correspondence in the passage? Apply state.instructions and the rulebook to every expression independently.",
+  "instructions": "Does the writer transfer a recognizably technical process or structural model onto a clear ordinary activity merely for technical prestige? Require that decorative transfer, beyond ordinary causation, implementation or actual technical work, using the contextual distinctions in state.",
   "criteria":
     {
-      "true": "At least one expression portrays a clear ordinary activity through an imported technical model that contributes prestige while its claimed operation, constraint, or relationship remains decorative.",
-      "false": "Every candidate supplies ordinary causation or implementation, actual technical work, useful operative correspondence, documented wording, a meaningful literal or fictional concept, or a defect owned by another check."
+      "true": "A clear ordinary activity is dressed as an imported computing, scientific, engineering or managerial process or structure. The transferred label adds technical prestige without an operative correspondence, relevant operation or constraint.",
+      "false": "Every candidate is meaningful ordinary causation or implementation, actual technical work, a useful operative analogy, documented wording, or another defect such as ornamental diction or a corrupted technical name."
     }
 }
 ---
 
 # Borrowed Jargon
 
-Input: passage.
+Identify the actual activity first. Then identify the donor technical process or structure invoked by the expression. Require an adopted decorative transfer between them. A general elevated adjective or an unfamiliar name alone supplies no such transfer.
 
-Catch a recoverable ordinary activity given a decorative computing, scientific, engineering, or managerial label that contributes borrowed technical prestige.
+Preserve actual technical work even when its name is garbled: a wrong name for an AI classifier, camera circuit or transcription service belongs to tortured phrasing. Real technical operations can happen outside software. Preserve ordinary established uses naming a relevant operation or constraint, including arranging something to happen or putting an idea into practice. Technical etymology and an available simpler synonym alone establish no defect.
 
-## Expression-Local Test
-
-1. Identify the activity and the imported label separately. Resolve that expression's referent and sense from the complete passage. Technical origins, formal diction, and an available simpler synonym alone establish no defect.
-2. Preserve ordinary established uses that mean intentionally causing an outcome or putting an intention into practice. An abstract social goal can receive this ordinary meaning. Require a distinct specialist operation or structure before testing a technical model.
-3. For a claimed model, identify what acts on what and which operation, constraint, or causal relationship makes that portrayal useful. Correspondence can explain a relationship without describing machinery. Results used to adjust subsequent action or participation that generates further participation can supply the model's operative meaning.
-4. Flag a model when the details only describe the ordinary activity, leaving the imported operation decorative. Useful activities and promised improvements alone supply no technical correspondence. Compact claims of maintenance, restoration, or repeated revision need correspondence to that particular process, just as elaborate technical labels do.
-5. Assess every expression independently. A useful causal model or real technical service preserves its own meaning while a separate decorative claim can still be a hit. Return yes if any expression meets the definition.
-
-## Ownership
-
-Preserve actual technical work, including operations outside software. A corrupted fixed name for that work belongs to tortured phrasing; resolve its intended referent before judging its label. Literal descriptions and deliberate fictional concepts retain their contextual meanings.
-
-When the intended ordinary activity itself remains unresolved, assess unexplained metaphor. A recoverable ordinary activity with a decorative technical portrayal remains borrowed jargon. A generic nontechnical conventional expression belongs to cliche. Ornamental diction belongs to vocabulary or other checks unless the expression independently imports a specialist model. These boundaries retain their definitions regardless of neighboring defects.
-
-Preserve wording quoted for explanation, criticism, or editing, including a reply explaining a customer's wording complaint. Judge a slogan or quotation adopted as the writer's communication normally.
+Preserve analogies that specify corresponding operations and explain their use. Merely calling worries bugs does not supply a debugging procedure. A recoverable ordinary activity with a decorative technical model is a hit; an unresolved figurative claim belongs to unexplained metaphor. Ordinary ornamental adjectives and evaluative modifiers belong to vocabulary or other checks unless they independently invoke that donor model. Judge adopted quotations normally and documented wording as documented wording.
 
 ## Development Examples
 

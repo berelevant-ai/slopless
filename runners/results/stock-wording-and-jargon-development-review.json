@@ -4959,14 +4959,798 @@
     "mixed": "24241a48"
   },
   "finalAudit": {
-    "status": "passed",
-    "record": "runners/results/stock-wording-and-jargon-holdout-review.json",
-    "sha256": "cc3fa24830dca1d1548c91e744da94984ec40d4273309ed2d1e0acefb67aa607",
-    "retainedMandatory": 707,
-    "passages": 2400,
-    "judgments": 4000,
-    "overlapCandidates": 0,
-    "conservativeUnseenClicheConstructions": 52
+    "version": 2,
+    "protected": true,
+    "status": "PASS",
+    "created_at": "2026-10-22T20:46:19.802Z",
+    "commits": {
+      "root": "a15196cdced00f7bf1d8b02bc677e745e3bf1d81",
+      "exposed_old_dev": "913ba940829386d6779787d3d59f2618db7a610e",
+      "exposed_corrected_dev": "365bcef80db521257c8dd72ad719ccd313a37be0",
+      "full_holdout_archive": "5ad88d08164a6149078346432b2a16dc6f9460bf"
+    },
+    "root_raw_equality": {
+      "collections": 12,
+      "passages": 2400,
+      "labels": 4000,
+      "text_mismatches": 0,
+      "label_mismatches": 0
+    },
+    "collections": [
+      {
+        "collection": "000041",
+        "split": "development",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000041-development-selected-v3.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/cliche",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "70ef71d34ebefd4a2430a5e318ab120c86e69468",
+        "source_notes_sha256": "f28fb4e63aa5329bc55c16689e96b1f8154cc76efcc677530b2b21ae1b335c19",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000042",
+        "split": "holdout",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000042-holdout-selected-v3.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/cliche",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "70ef71d34ebefd4a2430a5e318ab120c86e69468",
+        "source_notes_sha256": "87401ead55616acf6181d56506f2293b7b63d58e5c0c4ef02839fa859adf698a",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000043",
+        "split": "development",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000043-development-selected-v3.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/borrowed-jargon",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "70ef71d34ebefd4a2430a5e318ab120c86e69468",
+        "source_notes_sha256": "f28fb4e63aa5329bc55c16689e96b1f8154cc76efcc677530b2b21ae1b335c19",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000044",
+        "split": "holdout",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000044-holdout-selected-v3.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/borrowed-jargon",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "70ef71d34ebefd4a2430a5e318ab120c86e69468",
+        "source_notes_sha256": "87401ead55616acf6181d56506f2293b7b63d58e5c0c4ef02839fa859adf698a",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000045",
+        "split": "development",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000045-development-selected-v3.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/tortured-phrasing",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "70ef71d34ebefd4a2430a5e318ab120c86e69468",
+        "source_notes_sha256": "f28fb4e63aa5329bc55c16689e96b1f8154cc76efcc677530b2b21ae1b335c19",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000046",
+        "split": "holdout",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000046-holdout-selected-v3.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/tortured-phrasing",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "f60f7998eedd897c942ace150776578cd1fce39e",
+        "source_notes_sha256": "87401ead55616acf6181d56506f2293b7b63d58e5c0c4ef02839fa859adf698a",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000047",
+        "split": "development",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000047-development-selected-v4.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/hidden-significance-adverb",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "70ef71d34ebefd4a2430a5e318ab120c86e69468",
+        "source_notes_sha256": "87401ead55616acf6181d56506f2293b7b63d58e5c0c4ef02839fa859adf698a",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000048",
+        "split": "holdout",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000048-holdout-selected-v3.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/hidden-significance-adverb",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "f60f7998eedd897c942ace150776578cd1fce39e",
+        "source_notes_sha256": "87401ead55616acf6181d56506f2293b7b63d58e5c0c4ef02839fa859adf698a",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000049",
+        "split": "development",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000049-development-corrected-selected-v6.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/stock-vocabulary",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "70ef71d34ebefd4a2430a5e318ab120c86e69468",
+        "source_notes_sha256": "3ca548d3cd79d205233cc0f0111a59571614378065505da11d457bfc23f84291",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000050",
+        "split": "holdout",
+        "passages": 200,
+        "labels": 200,
+        "raw": "/tmp/000050-holdout-corrected-selected-v5.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/stock-vocabulary",
+            100,
+            100
+          ]
+        ],
+        "combinations": null,
+        "source_commit": "f60f7998eedd897c942ace150776578cd1fce39e",
+        "source_notes_sha256": "a246f2523d4aa8df187f3e67b5f9313bd19a36148bb4f529ab8479204d598816",
+        "archive_note_present": true
+      },
+      {
+        "collection": "000051",
+        "split": "development",
+        "passages": 200,
+        "labels": 1000,
+        "raw": "/tmp/000051-development-corrected-selected-v5.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/cliche",
+            100,
+            100
+          ],
+          [
+            "stock-wording-and-jargon/borrowed-jargon",
+            100,
+            100
+          ],
+          [
+            "stock-wording-and-jargon/tortured-phrasing",
+            100,
+            100
+          ],
+          [
+            "stock-wording-and-jargon/hidden-significance-adverb",
+            100,
+            100
+          ],
+          [
+            "stock-wording-and-jargon/stock-vocabulary",
+            100,
+            100
+          ]
+        ],
+        "combinations": [
+          [
+            "00000",
+            14
+          ],
+          [
+            "00001",
+            4
+          ],
+          [
+            "00010",
+            7
+          ],
+          [
+            "00011",
+            5
+          ],
+          [
+            "00100",
+            6
+          ],
+          [
+            "00101",
+            6
+          ],
+          [
+            "00110",
+            6
+          ],
+          [
+            "00111",
+            6
+          ],
+          [
+            "01000",
+            6
+          ],
+          [
+            "01001",
+            6
+          ],
+          [
+            "01010",
+            6
+          ],
+          [
+            "01011",
+            6
+          ],
+          [
+            "01100",
+            4
+          ],
+          [
+            "01101",
+            6
+          ],
+          [
+            "01110",
+            6
+          ],
+          [
+            "01111",
+            6
+          ],
+          [
+            "10000",
+            6
+          ],
+          [
+            "10001",
+            6
+          ],
+          [
+            "10010",
+            6
+          ],
+          [
+            "10011",
+            4
+          ],
+          [
+            "10100",
+            6
+          ],
+          [
+            "10101",
+            6
+          ],
+          [
+            "10110",
+            6
+          ],
+          [
+            "10111",
+            6
+          ],
+          [
+            "11000",
+            6
+          ],
+          [
+            "11001",
+            6
+          ],
+          [
+            "11010",
+            6
+          ],
+          [
+            "11011",
+            6
+          ],
+          [
+            "11100",
+            5
+          ],
+          [
+            "11101",
+            7
+          ],
+          [
+            "11110",
+            4
+          ],
+          [
+            "11111",
+            14
+          ]
+        ],
+        "source_commit": "f60f7998eedd897c942ace150776578cd1fce39e",
+        "source_notes_sha256": "e3dc74f30bd8f66b6f3bd12267431d58b963916b8aaffe5f00cafb9358317b83",
+        "archive_note_present": false
+      },
+      {
+        "collection": "000052",
+        "split": "holdout",
+        "passages": 200,
+        "labels": 1000,
+        "raw": "/tmp/000052-holdout-corrected-selected-v5.json",
+        "balance": [
+          [
+            "stock-wording-and-jargon/cliche",
+            100,
+            100
+          ],
+          [
+            "stock-wording-and-jargon/borrowed-jargon",
+            100,
+            100
+          ],
+          [
+            "stock-wording-and-jargon/tortured-phrasing",
+            100,
+            100
+          ],
+          [
+            "stock-wording-and-jargon/hidden-significance-adverb",
+            100,
+            100
+          ],
+          [
+            "stock-wording-and-jargon/stock-vocabulary",
+            100,
+            100
+          ]
+        ],
+        "combinations": [
+          [
+            "00000",
+            7
+          ],
+          [
+            "00001",
+            7
+          ],
+          [
+            "00010",
+            7
+          ],
+          [
+            "00011",
+            7
+          ],
+          [
+            "00100",
+            6
+          ],
+          [
+            "00101",
+            6
+          ],
+          [
+            "00110",
+            6
+          ],
+          [
+            "00111",
+            6
+          ],
+          [
+            "01000",
+            6
+          ],
+          [
+            "01001",
+            6
+          ],
+          [
+            "01010",
+            6
+          ],
+          [
+            "01011",
+            6
+          ],
+          [
+            "01100",
+            6
+          ],
+          [
+            "01101",
+            6
+          ],
+          [
+            "01110",
+            6
+          ],
+          [
+            "01111",
+            6
+          ],
+          [
+            "10000",
+            6
+          ],
+          [
+            "10001",
+            6
+          ],
+          [
+            "10010",
+            6
+          ],
+          [
+            "10011",
+            6
+          ],
+          [
+            "10100",
+            6
+          ],
+          [
+            "10101",
+            6
+          ],
+          [
+            "10110",
+            6
+          ],
+          [
+            "10111",
+            6
+          ],
+          [
+            "11000",
+            6
+          ],
+          [
+            "11001",
+            6
+          ],
+          [
+            "11010",
+            6
+          ],
+          [
+            "11011",
+            6
+          ],
+          [
+            "11100",
+            7
+          ],
+          [
+            "11101",
+            7
+          ],
+          [
+            "11110",
+            7
+          ],
+          [
+            "11111",
+            7
+          ]
+        ],
+        "source_commit": "f60f7998eedd897c942ace150776578cd1fce39e",
+        "source_notes_sha256": "50f1a411a832277d0ff25698e06df973e5f1f185f1feb5f8fb0d3b0b13ad7d9b",
+        "archive_note_present": true
+      }
+    ],
+    "global_ids": {
+      "all_dataset_documents": 15697,
+      "all_unique_id_strings": 130554,
+      "sample_records": 291017,
+      "label_records": 28653,
+      "checked_new_ids": 2400,
+      "collisions": 0,
+      "legacy_document_local_id_reuse": 160545,
+      "scope": "The 2400 stable passage IDs are globally unique against every other dataset sample and judgment ID. Older schema identifiers such as hits-1 remain document-local.",
+      "corpus_manifest_sha256": "f70d43b31eee88b49c9ec1c31ad1a3ff75048fab3d54d3b06372dbc58ebe226a"
+    },
+    "guards": {
+      "old_required": 707,
+      "old_retained": 707,
+      "new_distinct_required": 21,
+      "required_union": 728,
+      "retained_union": 728,
+      "corrected_cases": 45,
+      "corrected_retained": 45,
+      "missing": 0,
+      "required_ids_sha256": "3e88ab451a35810367d20a52c0ff16d22f710dc3e536006faff6e049adf92052",
+      "corrected_ids_sha256": "202af8524e60fb130fa6f78c9704e652360ec17a3061a85da08aaa0ef4172057",
+      "original_manifest_hashes": [
+        [
+          "/tmp/stock-v17-development-final-a-v1.json",
+          131,
+          "477e0ef68551d1007aa50687af6856d3ccf5a81d3a4a8d1717effb9162c5a4ac"
+        ],
+        [
+          "/tmp/stock-v17-development-final-b-v1.json",
+          95,
+          "6035e69f735bb4cb62fb54180646ca818f53ecc1ec1bb3a91ccf8a65739722f6"
+        ],
+        [
+          "/tmp/stock-v17-holdout-final-a-v1.json",
+          223,
+          "a5dc4ae7565de8b31c6313088cb709740b98f343468ad56fc5417dcbbaa9bf89"
+        ],
+        [
+          "/tmp/stock-v17-holdout-final-b-v1.json",
+          82,
+          "de3088b26a32ff472e70725d3e2a28a1f74231fa30e3aa9c9e8c30fff4bff491"
+        ],
+        [
+          "/tmp/stock-v17-development-final-mixed-v1.json",
+          69,
+          "3fac579867252446315434cf27623a1178bc9c4bf9ddd47d8959f56290e02a7c"
+        ],
+        [
+          "/tmp/stock-v17-holdout-final-mixed-v1.json",
+          41,
+          "fdbbf7c2361c4753ee2adf91e2dbe37b511e979e8dbf2405eeb52a8c9dd1cebe"
+        ]
+      ]
+    },
+    "balance": {
+      "collection_checks": 20,
+      "all_100_100": true,
+      "mixed_collections": 2,
+      "combinations_per_mixed": 32,
+      "complement_symmetric": true
+    },
+    "literal_snippets": {
+      "checked": 2805,
+      "invalid": 0
+    },
+    "whole_corpus_overlap": {
+      "path": "/tmp/stock-v17-corrected-overlap-v2.json",
+      "sha256": "758254ed8ae78c362dcf821fd40c11d66bbc69018ef1bb3c3475d23c17d9a2bc",
+      "eligible_pairs": 721563600,
+      "reference_inputs": 304374,
+      "candidates": 0,
+      "exact": 0
+    },
+    "exposed_dev_union": {
+      "snapshot_rows": 2400,
+      "unique_texts": 1217,
+      "holdout_rows": 1200,
+      "eligible_pairs": 1460400,
+      "candidates": 0,
+      "commits": [
+        "913ba940829386d6779787d3d59f2618db7a610e",
+        "365bcef80db521257c8dd72ad719ccd313a37be0"
+      ],
+      "git_source_hashes": [
+        {
+          "commit": "913ba940829386d6779787d3d59f2618db7a610e",
+          "path": "datasets/ai-synthetic/passages/000041-stock-wording-and-jargon-cliche-development.md",
+          "text_sha256": "b9bd677a349c1b40dab4b6de1ddeac31c72117d849bc497088ee6f95a9d10e4c",
+          "labels_sha256": "e1a7a9e01ccd1e76bc4f1073623c4e6583f0be6add4c91fc2722216762900a75"
+        },
+        {
+          "commit": "913ba940829386d6779787d3d59f2618db7a610e",
+          "path": "datasets/ai-synthetic/passages/000043-stock-wording-and-jargon-borrowed-jargon-development.md",
+          "text_sha256": "b613d05521219e5cd28162fb520a43907ed4ff8f6dbb433c79f0b793be8c4ee9",
+          "labels_sha256": "dd070b4b7573f87a7fee86a1d4f09df2908310f5d1ea4e4f1456c0dd2b8e6e13"
+        },
+        {
+          "commit": "913ba940829386d6779787d3d59f2618db7a610e",
+          "path": "datasets/ai-synthetic/passages/000045-stock-wording-and-jargon-tortured-phrasing-development.md",
+          "text_sha256": "d6ab29f7090a70e98f228e9634ff747ed204913fa2030e9128c33fcd06405b6d",
+          "labels_sha256": "b58e92d883583fba48351202f0df95bbcc75d943254d51a420f574e4b4baefbf"
+        },
+        {
+          "commit": "913ba940829386d6779787d3d59f2618db7a610e",
+          "path": "datasets/ai-synthetic/passages/000047-stock-wording-and-jargon-hidden-significance-adverb-development.md",
+          "text_sha256": "ff375086b8a75ad54df5f8b5328c19dbc75821bc067e7aef659d64ef704f8a21",
+          "labels_sha256": "d1f0d7587c1b1226a69e47bf4b2b93e1d2f2ac3063d7c526111e2cf2d86b02a4"
+        },
+        {
+          "commit": "913ba940829386d6779787d3d59f2618db7a610e",
+          "path": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md",
+          "text_sha256": "a6ca6cd25e3bfb97ab29b790754c859d100e66073d805a3652e0752f5c4d0e69",
+          "labels_sha256": "0b309a14f05e40971329a4757a17b49fff503c65435066b5d9f556a091e9045b"
+        },
+        {
+          "commit": "913ba940829386d6779787d3d59f2618db7a610e",
+          "path": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+          "text_sha256": "7281653c9237a99ba1705faf6a9a3644573b449a83247088f8ab4ef8de5e5a82",
+          "labels_sha256": "23b64996af839cf0f1daa8085b255bfdb245b8dd0f265cbd84530fd9af5f7733"
+        },
+        {
+          "commit": "365bcef80db521257c8dd72ad719ccd313a37be0",
+          "path": "datasets/ai-synthetic/passages/000041-stock-wording-and-jargon-cliche-development.md",
+          "text_sha256": "b9bd677a349c1b40dab4b6de1ddeac31c72117d849bc497088ee6f95a9d10e4c",
+          "labels_sha256": "e1a7a9e01ccd1e76bc4f1073623c4e6583f0be6add4c91fc2722216762900a75"
+        },
+        {
+          "commit": "365bcef80db521257c8dd72ad719ccd313a37be0",
+          "path": "datasets/ai-synthetic/passages/000043-stock-wording-and-jargon-borrowed-jargon-development.md",
+          "text_sha256": "b613d05521219e5cd28162fb520a43907ed4ff8f6dbb433c79f0b793be8c4ee9",
+          "labels_sha256": "dd070b4b7573f87a7fee86a1d4f09df2908310f5d1ea4e4f1456c0dd2b8e6e13"
+        },
+        {
+          "commit": "365bcef80db521257c8dd72ad719ccd313a37be0",
+          "path": "datasets/ai-synthetic/passages/000045-stock-wording-and-jargon-tortured-phrasing-development.md",
+          "text_sha256": "d6ab29f7090a70e98f228e9634ff747ed204913fa2030e9128c33fcd06405b6d",
+          "labels_sha256": "b58e92d883583fba48351202f0df95bbcc75d943254d51a420f574e4b4baefbf"
+        },
+        {
+          "commit": "365bcef80db521257c8dd72ad719ccd313a37be0",
+          "path": "datasets/ai-synthetic/passages/000047-stock-wording-and-jargon-hidden-significance-adverb-development.md",
+          "text_sha256": "ff375086b8a75ad54df5f8b5328c19dbc75821bc067e7aef659d64ef704f8a21",
+          "labels_sha256": "d1f0d7587c1b1226a69e47bf4b2b93e1d2f2ac3063d7c526111e2cf2d86b02a4"
+        },
+        {
+          "commit": "365bcef80db521257c8dd72ad719ccd313a37be0",
+          "path": "datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md",
+          "text_sha256": "a030f3dccf7dcfab0e7408f778810621548d2bf64447b47fa8d90ddbfb254097",
+          "labels_sha256": "2e43fe07c56b8e6be53e9401b313325a03cde74be5a6ab4bbea795f55851e33e"
+        },
+        {
+          "commit": "365bcef80db521257c8dd72ad719ccd313a37be0",
+          "path": "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md",
+          "text_sha256": "cb44f22a4f3f4bc08760b473993d8f71af9bfd1bb53812a238f688b3f441cd82",
+          "labels_sha256": "6d8880d646c08bfe4ac45c6cd3434a4cf4cb1ce40e6014722f82031353fc9528"
+        }
+      ],
+      "recorded_actual_prompt_demo_ids": 34,
+      "recorded_demo_ids_covered": 34,
+      "prompt_coverage_basis": "The entire old and corrected DEV snapshots are included. Parent states all actual prompt examples are old DEV; recorded preflight and final-revision demonstration IDs are independently checked against the snapshot union. No prompt files were opened."
+    },
+    "cliche_novelty": {
+      "positive_passages": 100,
+      "prior_conservative_lower_bound": 52,
+      "conservative_unseen_core_lower_bound": 52,
+      "minimum": 50,
+      "new_core_conflicts": 0,
+      "prior_manual_review_reused": true,
+      "all_100_literal_and_recorded_core_patterns_rechecked": true
+    },
+    "archived_full_pools": [
+      {
+        "collection": "000050",
+        "commit": "5ad88d08164a6149078346432b2a16dc6f9460bf",
+        "full_pool_count": 240,
+        "full_pool_sha256": "98929137c91b706dfa0265a36953ff01639afb88c0ef0fcb164a849ba7a9485b",
+        "archive_text_sha256": "60955597f5f248c81b0af640c666359282e378c87087a9886cdd650d70aa8c48",
+        "archive_labels_sha256": "8f71ff9dc868028e2fdb1a6a6270e008f9ddbc74a2a8c2435ff0ca792dd40bb6"
+      },
+      {
+        "collection": "000052",
+        "commit": "5ad88d08164a6149078346432b2a16dc6f9460bf",
+        "full_pool_count": 246,
+        "full_pool_sha256": "9759991cf998c8b650c1bf4177b90e41d1e24e73e7963d792e382962206ad22f",
+        "archive_text_sha256": "0a5b9d5c0f5b7fff7c5fb13404bb4399a2c6fa4467064d20db145ebc1ff78c5a",
+        "archive_labels_sha256": "772de9864f8c7bbda5cdcdfaa7ed0699726ce01b248ad453f9d24ad32a3c40a7"
+      }
+    ],
+    "private_evidence": {
+      "path": "/tmp/stock-v17-corrected-exposure-private-v2.json",
+      "sha256": "070d0e52dc2060dac98fb1b35a9ef36543ec53c328827ba50868dbf1f8f18c1c"
+    },
+    "source_hashes": {
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000041-stock-wording-and-jargon-cliche-development.md": "b9bd677a349c1b40dab4b6de1ddeac31c72117d849bc497088ee6f95a9d10e4c",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000041-stock-wording-and-jargon-cliche-development.labels.json": "e1a7a9e01ccd1e76bc4f1073623c4e6583f0be6add4c91fc2722216762900a75",
+      "/tmp/000041-development-selected-v3.json": "b4141c28101cba205bc5beefb9de84ef1b491c86751a033051e340a91f14ff87",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000042-stock-wording-and-jargon-cliche-holdout.md": "5ea6265384e720caf4f19f4eb12b5bd1665b70e928eb97b818f098d15dd5a8d7",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000042-stock-wording-and-jargon-cliche-holdout.labels.json": "44f1429462fa4d10c54772eacec19e93eae3ca53b258cb8b2ce1106887784138",
+      "/tmp/000042-holdout-selected-v3.json": "867e35e2098f9bcdb2325bda724f6cab60b20f46b946db3101a225f4f032d13d",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000043-stock-wording-and-jargon-borrowed-jargon-development.md": "b613d05521219e5cd28162fb520a43907ed4ff8f6dbb433c79f0b793be8c4ee9",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000043-stock-wording-and-jargon-borrowed-jargon-development.labels.json": "dd070b4b7573f87a7fee86a1d4f09df2908310f5d1ea4e4f1456c0dd2b8e6e13",
+      "/tmp/000043-development-selected-v3.json": "608918d78c41700611bbfcb69d4eb7784dab2b35d3b2bd77992c68043969c7a8",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000044-stock-wording-and-jargon-borrowed-jargon-holdout.md": "700a2db7ea1b5ed9494341b6df224f0fb6df6431e00c3631fc018947e68c6dba",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000044-stock-wording-and-jargon-borrowed-jargon-holdout.labels.json": "d4b1eaa86816939b1208525aaf595a2d3394e5edd4b9c45984a2ef78dfbcfb31",
+      "/tmp/000044-holdout-selected-v3.json": "fae1a85d93859454cb32a0db47036841d1ecd5abd4bc3cb026584dc547b30bdc",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000045-stock-wording-and-jargon-tortured-phrasing-development.md": "d6ab29f7090a70e98f228e9634ff747ed204913fa2030e9128c33fcd06405b6d",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000045-stock-wording-and-jargon-tortured-phrasing-development.labels.json": "b58e92d883583fba48351202f0df95bbcc75d943254d51a420f574e4b4baefbf",
+      "/tmp/000045-development-selected-v3.json": "5fecb6510984bd7373b9fe20b6c7758c3d7d9de805424f7a84187b2f0c9e5ec3",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000046-stock-wording-and-jargon-tortured-phrasing-holdout.md": "c364539aca2b68f4d39b924aa77bfd87de3aecd64dd82d01f0a0ffc1da3e7b22",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000046-stock-wording-and-jargon-tortured-phrasing-holdout.labels.json": "08498f76844abe94bf629012e4c429e9925d6a4224e4e18ff40899d51660bf8f",
+      "/tmp/000046-holdout-selected-v3.json": "14d5fbe47d34ffc15579c1c10c894c63f8804d1a31f279ba716e1999f5c288e3",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000047-stock-wording-and-jargon-hidden-significance-adverb-development.md": "ff375086b8a75ad54df5f8b5328c19dbc75821bc067e7aef659d64ef704f8a21",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000047-stock-wording-and-jargon-hidden-significance-adverb-development.labels.json": "d1f0d7587c1b1226a69e47bf4b2b93e1d2f2ac3063d7c526111e2cf2d86b02a4",
+      "/tmp/000047-development-selected-v4.json": "dfa6315260f5e316688ed6821457fb0e856d6f92386374ba9696a286f838acff",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000048-stock-wording-and-jargon-hidden-significance-adverb-holdout.md": "cfb85c79228160b1ddd27389e513e231d1cf3f58678c7e5c5cbefd73812b7470",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000048-stock-wording-and-jargon-hidden-significance-adverb-holdout.labels.json": "fa7156d8ed1148ce62c8090242dd7d67568936203a28b5848dde5e0048935640",
+      "/tmp/000048-holdout-selected-v3.json": "30d1c5c22e17ba7281a2376cf0f2a9026d4109f917d97858129de5b0fd2debed",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.md": "a030f3dccf7dcfab0e7408f778810621548d2bf64447b47fa8d90ddbfb254097",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000049-stock-wording-and-jargon-stock-vocabulary-development.labels.json": "2e43fe07c56b8e6be53e9401b313325a03cde74be5a6ab4bbea795f55851e33e",
+      "/tmp/000049-development-corrected-selected-v6.json": "03e6dc9b9da0b8126bddf93def7a3767fd316aef5e08531aecb70786942f4663",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000050-stock-wording-and-jargon-stock-vocabulary-holdout.md": "b52f796bddd0bac674137aaa2c80a0db7e6f39e206c3be50ad95193603bdb03b",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000050-stock-wording-and-jargon-stock-vocabulary-holdout.labels.json": "e3ca6beafbb4f91e96f7b936eb72245b6383db66c12d693159bae5e67c592f3d",
+      "/tmp/000050-holdout-corrected-selected-v5.json": "1e3fb8cc7cee0011cc1244cb1687fa9cdf65bafad3caa3c7c6eecf3ca3e9d843",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md": "cb44f22a4f3f4bc08760b473993d8f71af9bfd1bb53812a238f688b3f441cd82",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.labels.json": "6d8880d646c08bfe4ac45c6cd3434a4cf4cb1ce40e6014722f82031353fc9528",
+      "/tmp/000051-development-corrected-selected-v5.json": "c620aeb9ef8c934798631e9c5539dc9c4f0b7157b23dd534f09afe80f1d9dcce",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000052-stock-wording-and-jargon-mixed-holdout.md": "9b363be4e89ad234f927a95ea1c6d8c17e97cd46ff8f4505dac22255930b3ed0",
+      "/Users/tartakovsky/Projects/agent-quality-controls/slopless/datasets/ai-synthetic/passages/000052-stock-wording-and-jargon-mixed-holdout.labels.json": "cc847fd47366c395d804eae370d67dbe8091cd520964a31d33ad4250fed3ce58",
+      "/tmp/000052-holdout-corrected-selected-v5.json": "8e52902d727de88746ba8e0beb780b4c7e6cb4273aeee5b99efa750783474813",
+      "/tmp/stock-v17-development-final-a-v1.json": "738fbd1da75ba096691772aa68393775db350b95d0a4776846bc4f8d20bcb499",
+      "/tmp/stock-v17-development-final-b-v1.json": "137788cf9cc202458888f37795d8cd24d79e190ce96d7518d62759ef930c08cd",
+      "/tmp/stock-v17-holdout-final-a-v1.json": "f3a55b6895b563bda072cda34842c1c5d36a32d68a72d9db6f76d2d39cde858b",
+      "/tmp/stock-v17-holdout-final-b-v1.json": "3aaaf01b98062e07065af61a3b35ed00ce9f1f5b2845c4ce5f769f86e81c2fc5",
+      "/tmp/stock-v17-development-final-mixed-v1.json": "66995e0ec0ee3dabad204909621360f4913a5bf81e2cf9a5dbd81e052c65a731",
+      "/tmp/stock-v17-holdout-final-mixed-v1.json": "ec3364305b3723e4dc028f8aa1e0d9ec61de789dd95fdde10b7fb4590544f1e7",
+      "/tmp/stock-v17-holdout-isolated-selection-v1.json": "315977733f9d1f5b255456a441e59453222c6af5f3b23e37a5b9d1353f01c5f4",
+      "/tmp/stock-v17-vocabulary-development-corrected-selection-qa-v1.json": "f1548ec83ea5443de154f9a5e585ff21cd17402ac11d366fbf28c5ea53e733fb",
+      "/tmp/stock-v17-vocabulary-holdout-final-selection-qa-v2.json": "4816c2ac1dfb603a6e5efe5b77ef1db246a9f0e8bc54b7a51212c7dd2e5ffd54",
+      "/tmp/stock-v17-vocabulary-holdout-label-adjudication-v3.json": "3863e8ec4868bfb88299b65663dd043c28a0225cd78c332df173245a5487279e",
+      "/tmp/stock-v17-overlap.mjs": "8d9515cba1356757547c3128ae70c61c894920e3bc675b1ee2df0947cfd8459d",
+      "/tmp/stock-v17-overlap-sidecar-after.json": "a81b5e790135ace64c88455b864ce4e81fcba8b8b0a829bb5e8a0aa28a39d84c",
+      "runners/results/stock-wording-and-jargon-development-review.json": "27919a3bc34d3008ba2ad2ce6c179d512605f2df6a9f77ccc1a7fcb4f2aaca32",
+      "/tmp/stock-v17-final-cliche-novelty-private-v1.json": "22fd006da0d3f4fdae5ff0925c06f92ab8d407fef06ab8cdbaf9aef1b3c5ffc5",
+      "/tmp/000050-holdout-corrected-pool-v5.json": "98929137c91b706dfa0265a36953ff01639afb88c0ef0fcb164a849ba7a9485b",
+      "/tmp/000052-holdout-corrected-pool-v5.json": "9759991cf998c8b650c1bf4177b90e41d1e24e73e7963d792e382962206ad22f",
+      "/tmp/stock-v17-corrected-overlap-v2.json": "758254ed8ae78c362dcf821fd40c11d66bbc69018ef1bb3c3475d23c17d9a2bc",
+      "/tmp/stock-v17-corrected-exposure-private-v2.json": "070d0e52dc2060dac98fb1b35a9ef36543ec53c328827ba50868dbf1f8f18c1c"
+    },
+    "conflicts": [],
+    "restrictions": {
+      "datasets_written": 0,
+      "prompts_read": 0,
+      "model_outputs_read": 0,
+      "inference_calls": 0,
+      "commits": 0,
+      "delegation": 0,
+      "report_review": "Existing fresh changed-case review and verified overlap-core review reused; this pass mechanically verifies final root packaging and new exposure pairs."
+    }
   },
   "vocabularyCorrection": {
     "archiveCommit": "3f663d8b",
@@ -7068,5 +7852,16 @@
         "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md": "7fde18136b9fc0e0bd09ac5d95de764f8c5c3811f58d98da73dda3b4bbc82ec9"
       }
     }
-  }
+  },
+  "originalFinalAudit": {
+    "status": "passed",
+    "record": "runners/results/stock-wording-and-jargon-holdout-review.json",
+    "sha256": "cc3fa24830dca1d1548c91e744da94984ec40d4273309ed2d1e0acefb67aa607",
+    "retainedMandatory": 707,
+    "passages": 2400,
+    "judgments": 4000,
+    "overlapCandidates": 0,
+    "conservativeUnseenClicheConstructions": 52
+  },
+  "finalAuditSha256": "d94d22d9da0f199a3130b84a735b876a906d914b3ef9a1c5a0505e223cab10cc"
 }
