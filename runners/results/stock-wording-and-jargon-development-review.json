@@ -6592,5 +6592,356 @@
       },
       "review": "Single-reviewer bounded task; no further reviewer because delegation was prohibited. Only the two requested /tmp artifacts were written."
     }
+  },
+  "finalRevisionReview": {
+    "reviewStatus": "complete",
+    "complete": true,
+    "completedAtUtc": "2026-10-22T20:34:27Z",
+    "verdict": "One actionable ownership ambiguity in borrowed-jargon; all requested mechanical checks pass.",
+    "scope": "Final offline review of the three proposed R3 prompts and their per-check proposal.json files against fixed definitions and development examples.",
+    "baseCommit": "b834fb4291f8a7686a557bcd705b6609db256aae",
+    "execution": {
+      "modelCalls": 0,
+      "delegations": 0,
+      "repositoryWrites": 0,
+      "promptVariantsCreated": 0,
+      "protectedRecordsRead": 0,
+      "holdoutDatasetFilesRead": 0,
+      "pathsContainingHoldoutRead": 0,
+      "scopeCompliance": "exception",
+      "scopeException": "An initial full read of the explicitly referenced taxonomy also exposed unrelated aggregate holdout results in its development-progress section. Subsequent taxonomy inspection used the relevant definition sections. No holdout passages, labels, result files, or protected records were accessed.",
+      "independentSecondReview": "Unavailable under the explicit no-delegation instruction; this report records the present review and offline assertions.",
+      "performanceStatus": "R3 inference was not run. Historical R2 performance claims in proposal metadata were outside this review."
+    },
+    "verification": {
+      "sharedInvariant": {
+        "path": "prompts/v17/shared.md",
+        "sha256": "b2a0c9329eb5ecd135ea8577d98e300209b0582858a45424ddd22cddb34e9761",
+        "matchesProducingCommit": true,
+        "matchesAllThreeProposals": true,
+        "words": 96,
+        "status": "pass"
+      },
+      "frontMatter": {
+        "status": "pass",
+        "method": "Parsed the JSON front matter and checked the runner's exact instructions/criteria and true/false key sets."
+      },
+      "assembledWordLimit": {
+        "status": "pass",
+        "limit": 1000,
+        "method": "Trimmed shared instructions, parsed Markdown body, question, and both criteria; split each on Unicode whitespace and summed the counts. Headings and demonstration labels count."
+      },
+      "demonstrations": {
+        "status": "pass",
+        "judgmentsChecked": 18,
+        "distinctPassages": 17,
+        "hits": 9,
+        "noHits": 9,
+        "exactHitSnippetsChecked": 9,
+        "sourceLocations": [
+          "root at initial review",
+          "producing commit",
+          "current corrected mixed cohort by ID"
+        ],
+        "currentMixedReverification": {
+          "status": "pass",
+          "cohortCommitReportedByParent": "365bcef8",
+          "judgmentsChecked": 4,
+          "markdownSha256": "cb44f22a4f3f4bc08760b473993d8f71af9bfd1bb53812a238f688b3f441cd82",
+          "labelsSha256": "6d8880d646c08bfe4ac45c6cd3434a4cf4cb1ce40e6014722f82031353fc9528",
+          "textHashMatches": true,
+          "exactPassagesLabelsAndSnippets": true
+        },
+        "method": "Read each paired development JSON, verified split and textSha256, sliced the complete passage using samples.start/end, and compared it with the demonstration after removing only bold markers. Selected labels by id and fully qualified check. Checked expected values, exact snippet arrays, and snippet occurrence in the passage.",
+        "initialCheckerCorrection": "The first diagnostic used nonexistent passageId/issueType label fields and therefore could not verify labels. The completed assertion run used the inspected schema's id/check fields and passed all 18 judgments at both source locations."
+      },
+      "taxonomy": {
+        "path": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+        "rootSha256": "a8bf1a3c876cb2453041d28aded9f7f6ef912cb8d2253948a89972245636e380",
+        "producingCommitSha256": "e967d6cc92e10fb22e37204fe709a083b9d17898f0ba92f23ebae0e2b0502f31",
+        "allProposalTaxonomyHashesMatchRoot": true,
+        "relevantDefinitionSectionsUnchangedFromProducingCommit": true,
+        "wholeFileDifference": "The diff adds three stock-vocabulary clarification bullets. The shared decisions and the three reviewed definitions remain unchanged.",
+        "sectionSha256": {
+          "shared-decisions": "3ffb3794426e685bab627903964f353a8c8216d5ae24495929af1655cd5a955d",
+          "cliche": "661d4a4ba3f54fe7a7c9915cc783f37dcc8a990d4e67585b6fed1c59620a206a",
+          "borrowed-jargon": "bfc1d77e5626b12d785029e10a39c039f3d65e1c5f32f74969867f3aa3013699",
+          "tortured-phrasing": "33844806d6aaa7101566895bd3f67bcd42b8e9c3c743bd49a108e83b552b4878"
+        },
+        "sectionHashMethod": "Raw UTF-8 text from each section heading up to the next check heading; shared decisions ends at the Cliche heading."
+      }
+    },
+    "checks": [
+      {
+        "check": "cliche",
+        "status": "pass",
+        "promptPath": "/tmp/stock-v17-cliche-r3-proposed.md",
+        "promptSha256": "9cd83407e2e5a62738fdc94c71c8e680ace1554309dd006c55b9a6b4d17b7408",
+        "proposalPath": "/tmp/stock-v17-cliche-r3-proposal.json",
+        "proposalSha256": "9bb981aa246f6b68032789fc8fbbb8e63e9ebb4861e3a1d0b9fceccb90d0fd31",
+        "candidateHashMatchesProposal": true,
+        "runnerPromptSha256": "35339b4a876583a763d1a4a858c8296195ac99f394dce6f4a41e4d8cf0b83ef4",
+        "words": {
+          "shared": 96,
+          "body": 675,
+          "question": 46,
+          "criteriaTrue": 30,
+          "criteriaFalse": 34,
+          "assembled": 881
+        },
+        "countsMatchProposal": true,
+        "demonstrationCounts": {
+          "hit": 3,
+          "noHit": 3
+        },
+        "demonstrations": [
+          {
+            "id": "000041-003",
+            "expected": true,
+            "snippets": [
+              "a match made in heaven"
+            ]
+          },
+          {
+            "id": "000041-006",
+            "expected": true,
+            "snippets": [
+              "worth its weight in gold"
+            ]
+          },
+          {
+            "id": "000041-007",
+            "expected": true,
+            "snippets": [
+              "trust the process"
+            ]
+          },
+          {
+            "id": "000041-010",
+            "expected": false
+          },
+          {
+            "id": "000041-029",
+            "expected": false
+          },
+          {
+            "id": "000051-009",
+            "expected": false
+          }
+        ],
+        "demonstrationSectionUnchangedFromR2": true,
+        "definitionReview": "Preserves the conventional-expression plus generic-rhetorical-use requirements, useful idioms, adoption test, and separable-expression ownership. The fixed definition supplies input: passage; the question and shared instructions consistently request the complete passage.",
+        "objectionIds": []
+      },
+      {
+        "check": "borrowed-jargon",
+        "status": "ownership-clarification-required",
+        "promptPath": "/tmp/stock-v17-borrowed-jargon-r3-proposed.md",
+        "promptSha256": "cc769b9bd2ab81f90ac1f67cf4933871e71ae0754cd897b5c11f903a66df4dbb",
+        "proposalPath": "/tmp/stock-v17-borrowed-jargon-r3-proposal.json",
+        "proposalSha256": "bed380ecd39b248dcbab909f6d13527e5ae4c46c16791235f38e3cf4021f7616",
+        "candidateHashMatchesProposal": true,
+        "runnerPromptSha256": "f1daa67bef8f721ec8560d54554dccf366984b82b91417249991bfae017d3c2c",
+        "baseRunnerPromptSha256": "ca10cd80c3ec7f454eefd99f516b8b8196905c3bb6209042ef871b830e65fa9f",
+        "baseRunnerHashMatchesProposal": true,
+        "words": {
+          "shared": 96,
+          "body": 702,
+          "question": 52,
+          "criteriaTrue": 26,
+          "criteriaFalse": 28,
+          "assembled": 904
+        },
+        "countsMatchProposal": true,
+        "demonstrationCounts": {
+          "hit": 3,
+          "noHit": 3
+        },
+        "demonstrations": [
+          {
+            "id": "000043-003",
+            "expected": true,
+            "snippets": [
+              "refactor our office etiquette"
+            ]
+          },
+          {
+            "id": "000043-004",
+            "expected": true,
+            "snippets": [
+              "recalibrating the leadership mindset"
+            ]
+          },
+          {
+            "id": "000051-025",
+            "expected": true,
+            "snippets": [
+              "belonging architecture"
+            ]
+          },
+          {
+            "id": "000043-052",
+            "expected": false
+          },
+          {
+            "id": "000043-022",
+            "expected": false
+          },
+          {
+            "id": "000051-037",
+            "expected": false
+          }
+        ],
+        "demonstrationSectionUnchangedFromR2": true,
+        "definitionReview": "The question and main test retain recoverable ordinary activity, decorative imported register, useful operative correspondence, ordinary established uses, and actual technical work. The Ownership paragraph introduces the routing ambiguity recorded as R3-01.",
+        "objectionIds": [
+          "R3-01"
+        ]
+      },
+      {
+        "check": "tortured-phrasing",
+        "status": "pass",
+        "promptPath": "/tmp/stock-v17-tortured-phrasing-r3-proposed.md",
+        "promptSha256": "efa23c5c2ec0066c2e607fd6a0c3ed069a5b06ffb9e089264d7dcbe1e9e74936",
+        "proposalPath": "/tmp/stock-v17-tortured-phrasing-r3-proposal.json",
+        "proposalSha256": "6d945dfef814555b3fa803e95cae67d36ba1972d2a862a8fdd195ccd1e7610a0",
+        "candidateHashMatchesProposal": true,
+        "runnerPromptSha256": "5e04cf1dc74e82bd79114bd3d2e042b98a4897bd47e018e32f22792ba501f799",
+        "runnerHashMatchesProposal": true,
+        "words": {
+          "shared": 96,
+          "body": 646,
+          "question": 71,
+          "criteriaTrue": 42,
+          "criteriaFalse": 43,
+          "assembled": 898
+        },
+        "countsMatchProposal": true,
+        "demonstrationCounts": {
+          "hit": 3,
+          "noHit": 3
+        },
+        "demonstrations": [
+          {
+            "id": "000045-033",
+            "expected": true,
+            "snippets": [
+              "laboring metropolis"
+            ]
+          },
+          {
+            "id": "000045-048",
+            "expected": true,
+            "snippets": [
+              "chilled suitcase"
+            ]
+          },
+          {
+            "id": "000051-037",
+            "expected": true,
+            "snippets": [
+              "counterfeit consciousness"
+            ]
+          },
+          {
+            "id": "000045-039",
+            "expected": false
+          },
+          {
+            "id": "000045-011",
+            "expected": false
+          },
+          {
+            "id": "000045-017",
+            "expected": false
+          }
+        ],
+        "demonstrationChangesMatchProposal": true,
+        "definitionReview": "Preserves a specific recoverable conventional correction and corrupted fixed form or sense. Literal luggage, the deliberate fictional consciousness, and documented recorder wording fit the fixed exclusions. Accurate adjacent technical explanations establish the intended referent while leaving an adopted naming defect assessable.",
+        "objectionIds": []
+      }
+    ],
+    "objections": [
+      {
+        "id": "R3-01",
+        "severity": "medium",
+        "category": "ownership-ambiguity",
+        "check": "borrowed-jargon",
+        "location": "/tmp/stock-v17-borrowed-jargon-r3-proposed.md:29",
+        "checked": "Compared the Ownership sentence with the same prompt's question, step 4, three hit demonstrations, and the fixed borrowed-jargon boundary.",
+        "promptQuote": "An unresolved ordinary activity or figurative relationship belongs to unexplained metaphor.",
+        "source": ".plans/2026-10-20-125402-v2-rule-taxonomy.md:367",
+        "sourceEvidence": "The fixed boundary assigns debug our culture with an unresolved activity to unexplained metaphor, but assigns debug our culture by collecting meeting complaints and agreeing on replacements to borrowed jargon. The latter supplies a recoverable activity while its imported label remains decorative.",
+        "whatHappens": "The disjunctive figurative-relationship condition allows routing away from borrowed jargon even after the ordinary activity is established. That reading conflicts with step 4 and the hit examples, where details explain etiquette, rehearsal, or greeting arrivals while the donor technical relationship remains unsupported.",
+        "cause": "The Ownership sentence treats an unresolved figurative relationship as an independent sufficient condition instead of preserving the fixed distinction between missing substantive meaning and a decorative donor model around a clear activity.",
+        "requiredAction": "Constrain this routing clause to the fixed missing-meaning boundary and retain borrowed-jargon ownership when the ordinary activity is recoverable but the technical model remains decorative. Keep the existing definitions, development labels, and six demonstrations fixed.",
+        "verificationNeeded": "Reconcile the ownership clause with step 4 using 000043-003, 000043-004, 000051-025 and the taxonomy's paired debug-our-culture examples.",
+        "status": "open",
+        "performanceClaim": "This is a static instruction conflict; detector behavior was not measured."
+      }
+    ],
+    "knownDevelopmentLabelDisputes": [
+      {
+        "id": "000043-104",
+        "check": "borrowed-jargon",
+        "frozenExpected": true,
+        "snippets": [
+          "operationalize the students' authentic voices"
+        ],
+        "checkedSource": "000043 development passage and paired label; borrowed-jargon proposal rationale.",
+        "tension": "Writing personal letters puts students' voices into practice, which invokes the prompt's ordinary-implementation exclusion. A hit requires an independently identifiable decorative specialist claim.",
+        "action": "Retain the frozen hit and its acknowledged dispute in dataset integration; resolve the interpretation through the dataset's adjudication process rather than a passage-specific prompt exception.",
+        "status": "existing-label-dispute"
+      },
+      {
+        "id": "000045-100",
+        "check": "tortured-phrasing",
+        "frozenExpected": true,
+        "snippets": [
+          "recycling receptacle"
+        ],
+        "checkedSource": "000045 development passage and paired label; tortured-phrasing proposal verification.",
+        "tension": "Desktop Restore instructions recover the intended bin. The boundary question is whether recycling receptacle is a garbled fixed UI name or an ordinary functional paraphrase, which the fixed definition preserves.",
+        "action": "Retain the frozen hit and the acknowledged dispute; adjudicate the fixed-name versus functional-description distinction in dataset integration.",
+        "status": "existing-label-dispute"
+      },
+      {
+        "id": "000051-171",
+        "check": "cliche",
+        "frozenExpected": false,
+        "checkedSource": "000051 development passage and paired label; cliche proposal rationale.",
+        "tension": "The booking team promises to go above and beyond, then describes specific access assistance and a tailored route. The disputed interpretation is whether those details establish the expression's extra-effort relationship or merely accompany a stock service assurance.",
+        "action": "Retain the frozen no-hit and acknowledged dispute; adjudicate that relationship against the fixed useful-meaning test during dataset integration.",
+        "status": "existing-label-dispute"
+      }
+    ],
+    "verifiedSourceHashes": {
+      "method": "SHA-256 of raw file bytes. Development hashes below record the initial review snapshot and equal the exact same paths at the producing commit. Concurrent parent integration subsequently changed 000051; current hashes and all four mixed demonstration judgment checks are recorded in currentMixedReverification. Runner prompt hashes use JSON.stringify of the inspected runner's instructions/types/questions shape.",
+      "files": {
+        "prompts/v17/cliche.md": "075965e6ff6754d818a2f8920f19530c89020dab9b834770288a97715e1407f7",
+        "prompts/v17/borrowed-jargon.md": "5004dfddd5da86c829d59515acc3869fd93e0d39b1ec50f67deb1f4b51683141",
+        "prompts/v17/tortured-phrasing.md": "5d9458cfea4078c688e866c972d4ba28abce0a74bf69e8be498771ca355d8158",
+        "runners/jev.mjs": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a",
+        "datasets/ai-synthetic/passages/000041-stock-wording-and-jargon-cliche-development.md": "b9bd677a349c1b40dab4b6de1ddeac31c72117d849bc497088ee6f95a9d10e4c",
+        "datasets/ai-synthetic/passages/000041-stock-wording-and-jargon-cliche-development.labels.json": "e1a7a9e01ccd1e76bc4f1073623c4e6583f0be6add4c91fc2722216762900a75",
+        "datasets/ai-synthetic/passages/000043-stock-wording-and-jargon-borrowed-jargon-development.md": "b613d05521219e5cd28162fb520a43907ed4ff8f6dbb433c79f0b793be8c4ee9",
+        "datasets/ai-synthetic/passages/000043-stock-wording-and-jargon-borrowed-jargon-development.labels.json": "dd070b4b7573f87a7fee86a1d4f09df2908310f5d1ea4e4f1456c0dd2b8e6e13",
+        "datasets/ai-synthetic/passages/000045-stock-wording-and-jargon-tortured-phrasing-development.md": "d6ab29f7090a70e98f228e9634ff747ed204913fa2030e9128c33fcd06405b6d",
+        "datasets/ai-synthetic/passages/000045-stock-wording-and-jargon-tortured-phrasing-development.labels.json": "b58e92d883583fba48351202f0df95bbcc75d943254d51a420f574e4b4baefbf",
+        "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.md": "7281653c9237a99ba1705faf6a9a3644573b449a83247088f8ab4ef8de5e5a82",
+        "datasets/ai-synthetic/passages/000051-stock-wording-and-jargon-mixed-development.labels.json": "23b64996af839cf0f1daa8085b255bfdb245b8dd0f265cbd84530fd9af5f7733",
+        "/Users/tartakovsky/.codex/AGENTS.md": "5ebe89b39fd1f0ca7858eb7393c12c4f13a1657c4d525894393829eb28fb271a",
+        "/Users/tartakovsky/.codex/skills/writing/SKILL.md": "adf7da3e489a1fec7631d9d7c63285931c8eb16f631af4fd11766dd20c4faa22",
+        "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md": "7c52771a4dad637c482f9b1f68586a98018064326a6dc07ecfa3c2776554f18f",
+        "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md": "7fde18136b9fc0e0bd09ac5d95de764f8c5c3811f58d98da73dda3b4bbc82ec9"
+      }
+    },
+    "parentResolution": {
+      "objection": "borrowed-jargon ownership ambiguity",
+      "change": "Route to unexplained metaphor when the intended ordinary activity itself remains unresolved; keep clear activities with decorative technical portrayal under borrowed jargon.",
+      "labelsChanged": false,
+      "sharedChanged": false,
+      "status": "Applied; fresh reviewer recheck requested."
+    }
   }
 }
