@@ -2,7 +2,7 @@
 
 ## Goal
 
-Develop three checks for unnecessary wording and repeated content using plausible writing, reviewed development data, and independently authored holdouts. This change records the plan only; generation, prompt tuning, runner changes, and provider calls begin after authorization.
+Develop three checks for unnecessary wording and repeated content using plausible writing, reviewed development data, and independently authored holdouts. Execution was authorized on 2026-10-22; use Codex for reviews as the user corrected, with independent contexts and model variety where useful. Holdout inference still requires its separate authorization.
 
 ## Current Evidence And Decisions
 
@@ -13,14 +13,17 @@ Develop three checks for unnecessary wording and repeated content using plausibl
 - Source inspection covers `src/rules/phrases/wordiness.ts`, `redundancy.ts`, `uncomparables.ts`, and their three data files. The first two match phrase lists; the third builds modifier/adjective combinations with exceptions.
 - Existing examples such as `a number of`, `brief summary`, `more complete`, and `software program` require contextual judgment. Their appearance in a legacy list supplies coverage candidates, rather than automatic V2 labels.
 
-## Proposed Checks
+## Frozen Checks
 
-Use family `wordiness-and-redundancy`. Freeze these definitions after independent review and before dataset generation; add the finalized definitions to the accepted taxonomy in that execution step.
+Use family `wordiness-and-redundancy`. Independent Codex definition review resolves the five boundaries below before generation. The accepted taxonomy contains the same finalized definitions.
+
+- Identify the repeated proposition or proposed shorter wording, then judge any contribution to meaning, emphasis, navigation, or action from the supplied writing. Include enough context to resolve that contribution; revise underspecified examples before freezing labels.
 
 ### Wordiness (`wordiness`)
 
 - **Input:** `passage`.
 - **Catch:** An unnecessarily elaborate phrase can be shortened while preserving the passage's claim, qualifications, actor, timing, and useful emphasis.
+- Require identifiable padding or an unnecessarily elaborate construction. A shorter paraphrase alone does not establish a hit; preserve ordinary useful formal language.
 - Hit: "We postponed the inspection **due to the fact that** the tenant was away." The phrase can become "because".
 - Hit: "Please **make a decision regarding** the renewal before Friday." The phrase can become "decide on".
 - No-hit: "The panel can recommend a suspension, but only the director can impose one." The verbs express different powers and must retain that distinction.
@@ -29,7 +32,8 @@ Use family `wordiness-and-redundancy`. Freeze these definitions after independen
 
 ### Redundancy (`redundancy`)
 
-- **Input:** `passage`, including a heading and its opening when needed.
+- **Input:** `passage`.
+- Include a heading and its opening together when needed.
 - **Catch:** A phrase, modifier, adjacent statement, or heading/opening pair expresses the same information twice without adding a relevant distinction or useful communicative function.
 - Hit: "Both teams **collaborated together** on the handover." The extra word repeats the joint action.
 - Hit: "Applications close on Friday. **Friday is the last day applications will be accepted.**" The second sentence repeats the same deadline.
@@ -37,10 +41,13 @@ Use family `wordiness-and-redundancy`. Freeze these definitions after independen
 - Cover redundant modifiers, repeated local propositions with different words, label/body duplication, and heading/opening restatement. Keep useful summaries, explicit confirmation, contrasts, and independently actionable instructions.
 - Preserve an additional degree, event, restriction, or scope distinction when the passage supplies it. Evaluate modifiers such as `very unique` in context rather than treating an adjective list as a universal prohibition.
 - Distinguish this from wordiness by requiring duplicated information. For one defect, use redundancy when repetition explains the excess; use wordiness for a needlessly elaborate expression of a single point.
+- An apparent reason that merely restates its claim belongs to circular explanation; duplicated substantive information belongs here.
+- Cover legacy uncomparables when a modifier merely repeats an adjective's meaning; preserve meaningful degree, approximation, and comparison. Other needless elaboration requires the separate wordiness definition to be satisfied.
 
 ### Repeated Explanation (`repeated-explanation`)
 
-- **Input:** `text`, with the complete article, story, or reply intact.
+- **Input:** `text`.
+- Keep the complete article, story, or reply intact.
 - **Catch:** A later explanation or closer restates an earlier explanation, conclusion, or recommendation without contributing a new mechanism, consequence, example, decision, or useful summary.
 - Illustrative hit: an article explains that expired invitations require a new link, then devotes another section to the same expiry-and-replacement explanation. The full example must establish both occurrences and their roles.
 - Illustrative no-hit: an opening states the expiry rule, a later section explains security reasons, and troubleshooting gives steps for obtaining a replacement. Each part serves a different task.
@@ -48,6 +55,7 @@ Use family `wordiness-and-redundancy`. Freeze these definitions after independen
 - Keep deliberate recaps, safety reminders, separately usable procedures, purposeful narrative callbacks, and contrasting cases when their role is visible in the submitted text.
 - Include repeated section closers and recommendations in both label classes. Distinguish an unnecessary repeated verdict from a concise summary that organizes a long argument or gives a usable final action.
 - Assign phrase-level or adjacent duplication to redundancy; use this type for repetition across sections or separated passages. Repeated syntax with different information belongs to rhythm and repetition.
+- Adjacent restatement, including across a heading boundary, belongs to redundancy. Repeated explanation requires intervening substantive content or a distinct later section function; paragraph breaks alone do not decide.
 
 ## Realistic Data Generation
 
@@ -73,7 +81,7 @@ Use family `wordiness-and-redundancy`. Freeze these definitions after independen
 4. Finish with a fresh review of the selected 100-hit/100-no-hit set, snippets, and complete-text context. Allow three review rounds initially; unresolved material objections block freezing and receive targeted review.
 5. Check exact and near-duplicate writing across splits, including passages copied from full texts. Keep related rewrites within one split. A protected reviewer reports overlap counts and repairs holdout without exposing its content to prompt authors.
 
-- Use the approved Opus account for adversarial review when accessible. The user's existing authorization permits fresh Codex review if the account limit prevents completion; record the actual reviewer and never call Codex review an Opus pass.
+- Use fresh Codex contexts for blind, adversarial, and final reviews, as authorized on 2026-10-22. The user corrected the speech-to-text word Codestral to Codex. Record actual model and reviewer identities; Claude remains unused while its account is limited.
 - Freeze the balanced sets in Git before detector evaluation. Preserve reviewed surplus with its labels in a linked Git commit and select independently of detector scores.
 - The isolated sets total 1,200 inputs: three checks, two splits, and 200 inputs per check/split. Each class denominator remains 100.
 
@@ -123,4 +131,4 @@ Use family `wordiness-and-redundancy`. Freeze these definitions after independen
 - Each check has recorded development predictions, prompt exposure, a selected frozen candidate, a gate result, and a manual review of remaining errors. Report failed targets explicitly.
 - Dataset validation, exact-snippet checks, split-overlap checks, relevant contracts, formatting, and fresh report review pass. Mixed support additionally requires its Specular and Fixture3 verification before use.
 - Show five complete development hits and five complete development no-hits per check, with offending spans highlighted. Whole-text examples remain complete; summaries can accompany them rather than replace them. Keep holdout writing out of the presentation.
-- Commit and push reviewed milestones on main with worklogs. Report this plan now; run neither generation nor inference during the planning task.
+- Commit and push reviewed milestones on main with worklogs. Execute the authorized generation and development work, then report frozen development candidates; retain the separate holdout-inference gates.
