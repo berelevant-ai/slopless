@@ -1,0 +1,1634 @@
+{
+  "family": "excessive-hedging",
+  "status": "Definition reviewed; pilot authoring next.",
+  "userReview": "pending",
+  "definitionReview": {
+    "sha256": "942acde0ba06264a5cb6660dd6cfc97f4d3e468372e30d6c1bef229e016ef158",
+    "pairedExamplesReviewed": 28,
+    "passagesReviewed": 56,
+    "snippetsValidated": 31,
+    "decision": "One passage-level hedge-stacking check; preserve modal scope, meaningful qualifications and communicative functions.",
+    "objections": [
+      {
+        "id": "O1",
+        "priority": "required clarification",
+        "checked": "The proposed catch requires several qualifications on the same claim and no distinct contribution from at least one.",
+        "observed": "The proposal names the right defect but leaves the decision test implicit. A shorter paraphrase could otherwise become sufficient evidence of excess.",
+        "cause": "Modals can preserve possibility, capability or permission even when another phrase expresses uncertainty about the same event.",
+        "action": "Require the reviewer to name the proposition, identify the duplicate tentative function and give a shorter version preserving commitment, scope, conditions, evidence, permission, capability and useful interpersonal or narrative function.",
+        "resolution": "Integrated into the consolidated taxonomy before generation."
+      },
+      {
+        "id": "O2",
+        "priority": "required example repair",
+        "checked": "Proposed hit: There is a chance that the repair could potentially prevent the restart.",
+        "observed": "An ordinary reading repeats possibility, but the explanation and highlighted span treat the entire nested construction as a single duplicate. The proposal's own capability guard permits another contribution from could in suitable context.",
+        "cause": "An outer epistemic chance can concern whether an inner capability or permission exists. Nesting alone supplies insufficient evidence of redundancy.",
+        "action": "Replace the unqualified nested hit with The repair might perhaps possibly prevent another restart, or explicitly identify only the established duplicate in the original. Add nested capability and permission no-hits. Preserve a quantitative chance and the distinct capability it measures.",
+        "resolution": "Integrated into the consolidated taxonomy before generation."
+      },
+      {
+        "id": "O3",
+        "priority": "required boundary addition",
+        "checked": "Legacy variability phrases may not necessarily and not necessarily, alongside the proposed general protection for uncertainty.",
+        "observed": "The same words can repeat non-guarantee or express uncertainty about whether a conclusion is necessary. Negation also changes which proposition receives the modal.",
+        "cause": "Lexical categories erase the difference between possible failure, lack of necessity and uncertainty about logical entailment.",
+        "action": "Add a contextual contrast for may not necessarily. Require preservation of negation and modal scope; use the complete passage to decide the reading before freezing a label.",
+        "resolution": "Integrated into the consolidated taxonomy before generation."
+      },
+      {
+        "id": "O4",
+        "priority": "required cross-sentence clarification",
+        "checked": "The proposal says several sentences can qualify one unresolved claim; its current cross-sentence no-hit uses independent statements.",
+        "observed": "Cross-sentence hits have no contrasting example for a meaningful correction, later evidence or changed time. A repeated topic alone can be mistaken for a repeated qualification.",
+        "cause": "The relation between claims, rather than the sentence boundary, determines whether the second qualification adds information.",
+        "action": "Require recoverable reference to the same proposition and redundant tentative force. Preserve later evidence, explicit correction, changed probability, changed time and a distinct causal hypothesis. Include exact snippets from each participating sentence.",
+        "resolution": "Integrated into the consolidated taxonomy before generation."
+      },
+      {
+        "id": "O5",
+        "priority": "required legacy-example reconciliation",
+        "checked": "The legacy coverage entry uses Maybe, just maybe, the alley would stay quiet as an example; the consolidated proposal protects useful communicative function and hesitation.",
+        "observed": "Maybe, just maybe can convey hope or suspense. The useful-function boundary changes how that legacy example should be read.",
+        "cause": "Repeated tentative wording can perform an expressive function even when it supplies no additional probability estimate.",
+        "action": "Explicitly preserve useful emphasis, suspense, hesitation and interpersonal tact. Qualify or replace the legacy example when reconciling the taxonomy. Keep dialogue eligible where the passage supports a disposable hedge rather than a character function.",
+        "resolution": "Integrated into the consolidated taxonomy before generation."
+      },
+      {
+        "id": "O6",
+        "priority": "required reporting clarification",
+        "checked": "The reporting-plus-modal legacy branch and the frozen vague-attribution definition.",
+        "observed": "An identified study can support a possible effect without duplicating the modal's function. An anonymous appeal can remain a vague-attribution hit after all redundant hedges are removed.",
+        "cause": "Source identification, evidence status and the proposition's possibility describe different properties.",
+        "action": "Show reporting-plus-modal no-hits with both identified and unspecified sources. Label unspecified operative authority separately under the frozen definition, and locate hedge stacking in an independently identifiable qualification.",
+        "resolution": "Integrated into the consolidated taxonomy before generation."
+      },
+      {
+        "id": "O7",
+        "priority": "resolved in current parent proposal; preserve",
+        "checked": "The latest consolidated family-boundary paragraph and the updated development-plan comparator paragraph.",
+        "observed": "Both now preserve frozen wordiness and use inflated-evaluation plus vague-attribution as mixed comparators. This resolves the earlier exclusive-ownership conflict.",
+        "cause": "Redundant hedge padding is a specialized removable-wording defect, so the frozen broader wordiness check can also classify it.",
+        "action": "Retain the current overlap statement. Keep previous checks frozen. Build the eight mixed combinations from hedging redundancy, source identification and evaluative strength, with separately identifiable evidence for each expected hit.",
+        "resolution": "Integrated into the consolidated taxonomy before generation."
+      }
+    ]
+  },
+  "sourceAudit": {
+    "sha256": "c8076c514a9fc6b7d537a681298cfcface891acf63db4fba0886f2117d92d45a",
+    "sourceHashes": [
+      {
+        "path": "src/rules/words/hedge-stacking.ts",
+        "bytes": 1041,
+        "sha256": "d8fca40d603357776e2f7a3f841aa8c6e9919a0446e1f74e244fdf521748df38"
+      },
+      {
+        "path": "src/rules/syntactic-patterns/generalization/softening-language.ts",
+        "bytes": 4477,
+        "sha256": "af4d14931a9a06fd8a7ff5f359579e41b0fa822317413f84f194acac1060f6bd"
+      },
+      {
+        "path": "src/index.ts",
+        "bytes": 1055,
+        "sha256": "9a36046db03f8752c33a068ef62feedda8d3ca87034246517cfd830f3e085eb0"
+      },
+      {
+        "path": "src/registries/words.ts",
+        "bytes": 929,
+        "sha256": "a296a081c2646a714aae945d9336699238571a7f8da22b5ce80c1561540bd217"
+      },
+      {
+        "path": "src/registries/syntactic-patterns.ts",
+        "bytes": 673,
+        "sha256": "c7c3152647e73265aeb12b8a9dd4128306ecf4ade6660ff2610c26d88dbb2d1c"
+      },
+      {
+        "path": "src/registries/syntactic-patterns/generalization.ts",
+        "bytes": 340,
+        "sha256": "659da7bb9fad2d358a866f653305517f42d247329fe7f01d9edc5668f466e5e3"
+      },
+      {
+        "path": "src/rules/private/textlint-rule-builders.ts",
+        "bytes": 3265,
+        "sha256": "b7f92d79381a229b0563b43f126825d990738df4ee5a4fca74b0b785e02fbbab"
+      },
+      {
+        "path": "src/adapters/textlint/rule.ts",
+        "bytes": 1542,
+        "sha256": "510b9678caf747be0849fcb8eb7c534ae2f5264a54b81c204f6105c4169c87b3"
+      },
+      {
+        "path": "src/adapters/textlint/units.ts",
+        "bytes": 7291,
+        "sha256": "85db6db448363e99c24a02c3d38c88e79eff05ad520a2ac521a18998c9ec2642"
+      },
+      {
+        "path": "src/adapters/textlint/report.ts",
+        "bytes": 3571,
+        "sha256": "8fd8bd2229eabd1cfd0bd00ae6710fcfd091e1eeb7cf8ab90237df22e0274998"
+      },
+      {
+        "path": "src/shared/text/normalize.ts",
+        "bytes": 790,
+        "sha256": "4ab217825e3e1b0884ce849add9aecc9f061689655d6daf6866f1baac0a380cc"
+      },
+      {
+        "path": "src/shared/text/tokens.ts",
+        "bytes": 672,
+        "sha256": "b690f1429c319f1dd59a067a83ef97ebfcd20971b0d19788414b635f30fe833c"
+      },
+      {
+        "path": "src/shared/text/quotes.ts",
+        "bytes": 556,
+        "sha256": "abb77b5f168596f8d89af979c54aa5ee5947cb0fd9025e065dbf8d324df10592"
+      },
+      {
+        "path": "src/shared/text/sentences.ts",
+        "bytes": 6082,
+        "sha256": "01f826d7a64267eea62cddc9582b7fce591ae02405e2bd569bf8edb10dc339a2"
+      },
+      {
+        "path": "src/shared/text/sections.ts",
+        "bytes": 4645,
+        "sha256": "a41083b22afad5780d1d51e427f5ae3a2b9a7613469faa8110ea5597f67e2d09"
+      },
+      {
+        "path": "src/shared/text/traverse.ts",
+        "bytes": 2589,
+        "sha256": "7500cccc1bd484edae978b3c6070071f1237c33200086f9956c37ad201ef2716"
+      },
+      {
+        "path": "src/shared/matchers/prose-patterns.ts",
+        "bytes": 3323,
+        "sha256": "8ea8574101c9a7d78786a64f3deebb25f73486afd4b933120c097e5b85da6f4f"
+      },
+      {
+        "path": "src/reporting/reports.ts",
+        "bytes": 8109,
+        "sha256": "564da99647c56206b8df248a5ebdd8358e93d1c8ea6001abfacf4b76b9ad5a18"
+      },
+      {
+        "path": "runners/jev.mjs",
+        "bytes": 27854,
+        "sha256": "0ee7522ea3a5f526526a71315ff0e57d032e51e9f8be7cbce928e38a2015ef0a"
+      },
+      {
+        "path": "package.json",
+        "bytes": 9910,
+        "sha256": "731781e5ad385abadc607c6203229a07f4be454c8ce84cc887b273b489c691e5"
+      },
+      {
+        "path": "tsconfig.json",
+        "bytes": 741,
+        "sha256": "625c97495a54ca5952df7f70185e989830059eb5e3a12d47f9b76f625c1cf036"
+      },
+      {
+        "path": ".plans/2026-10-22-222154-excessive-hedging-development.md",
+        "bytes": 13125,
+        "sha256": "ea2883c548b1e9b97fc14a6c164fca8c1f20b79f4a001b2665acbbd154dcded4"
+      },
+      {
+        "path": ".plans/2026-10-20-125402-v2-rule-taxonomy.md",
+        "bytes": 117084,
+        "sha256": "1c894b84c0b6c258f1039aa575d957d3d08f726b95fe6a93bacc1d89d8dc9332"
+      },
+      {
+        "path": "AGENTS.md",
+        "bytes": 9217,
+        "sha256": "ba8f0d01537bba1fd252bd52f5c052fef32010b2d68c614f7bac9175717b47cf"
+      },
+      {
+        "path": "/Users/tartakovsky/.codex/AGENTS.md",
+        "bytes": 23351,
+        "sha256": "5ebe89b39fd1f0ca7858eb7393c12c4f13a1657c4d525894393829eb28fb271a"
+      },
+      {
+        "path": "/Users/tartakovsky/.codex/skills/writing/SKILL.md",
+        "bytes": 5855,
+        "sha256": "adf7da3e489a1fec7631d9d7c63285931c8eb16f631af4fd11766dd20c4faa22"
+      },
+      {
+        "path": "/Users/tartakovsky/.codex/skills/writing/structure/internal-doc.md",
+        "bytes": 586,
+        "sha256": "7c52771a4dad637c482f9b1f68586a98018064326a6dc07ecfa3c2776554f18f"
+      },
+      {
+        "path": "/Users/tartakovsky/.codex/skills/writing/style/internal-doc.md",
+        "bytes": 298,
+        "sha256": "7fde18136b9fc0e0bd09ac5d95de764f8c5c3811f58d98da73dda3b4bbc82ec9"
+      }
+    ],
+    "literalInventory": [
+      {
+        "file": "src/rules/words/hedge-stacking.ts",
+        "strings": [
+          {
+            "value": "../../shared/text/tokens.js",
+            "raw": "\"../../shared/text/tokens.js\"",
+            "offset": 27,
+            "line": 1,
+            "column": 28
+          },
+          {
+            "value": "../private/textlint-rule-builders.js",
+            "raw": "\"../private/textlint-rule-builders.js\"",
+            "offset": 87,
+            "line": 2,
+            "column": 30
+          },
+          {
+            "value": "might",
+            "raw": "\"might\"",
+            "offset": 188,
+            "line": 7,
+            "column": 3
+          },
+          {
+            "value": "maybe",
+            "raw": "\"maybe\"",
+            "offset": 199,
+            "line": 8,
+            "column": 3
+          },
+          {
+            "value": "perhaps",
+            "raw": "\"perhaps\"",
+            "offset": 210,
+            "line": 9,
+            "column": 3
+          },
+          {
+            "value": "possibly",
+            "raw": "\"possibly\"",
+            "offset": 223,
+            "line": 10,
+            "column": 3
+          },
+          {
+            "value": "likely",
+            "raw": "\"likely\"",
+            "offset": 237,
+            "line": 11,
+            "column": 3
+          },
+          {
+            "value": "probably",
+            "raw": "\"probably\"",
+            "offset": 249,
+            "line": 12,
+            "column": 3
+          },
+          {
+            "value": "seems",
+            "raw": "\"seems\"",
+            "offset": 263,
+            "line": 13,
+            "column": 3
+          },
+          {
+            "value": "apparently",
+            "raw": "\"apparently\"",
+            "offset": 274,
+            "line": 14,
+            "column": 3
+          },
+          {
+            "value": "hedge stacking",
+            "raw": "\"hedge stacking\"",
+            "offset": 708,
+            "line": 39,
+            "column": 16
+          },
+          {
+            "value": "words",
+            "raw": "\"words\"",
+            "offset": 807,
+            "line": 44,
+            "column": 11
+          },
+          {
+            "value": "words:hedge-stacking",
+            "raw": "\"words:hedge-stacking\"",
+            "offset": 968,
+            "line": 47,
+            "column": 11
+          },
+          {
+            "value": "sentence",
+            "raw": "\"sentence\"",
+            "offset": 1004,
+            "line": 48,
+            "column": 13
+          }
+        ],
+        "templates": [
+          {
+            "raw": "`Hedge stacking found: ${report.evidence} hedge words in one sentence. Keep fewer than ${HEDGE_THRESHOLD}.`",
+            "offset": 849,
+            "line": 46,
+            "column": 5,
+            "staticParts": [
+              "Hedge stacking found: ",
+              " hedge words in one sentence. Keep fewer than ",
+              "."
+            ]
+          }
+        ],
+        "arrays": {
+          "HEDGE_WORDS": [
+            "might",
+            "maybe",
+            "perhaps",
+            "possibly",
+            "likely",
+            "probably",
+            "seems",
+            "apparently"
+          ]
+        }
+      },
+      {
+        "file": "src/rules/syntactic-patterns/generalization/softening-language.ts",
+        "strings": [
+          {
+            "value": "../../../shared/matchers/prose-patterns.js",
+            "raw": "\"../../../shared/matchers/prose-patterns.js\"",
+            "offset": 79,
+            "line": 6,
+            "column": 8
+          },
+          {
+            "value": "../../private/textlint-rule-builders.js",
+            "raw": "\"../../private/textlint-rule-builders.js\"",
+            "offset": 154,
+            "line": 7,
+            "column": 30
+          },
+          {
+            "value": " could ",
+            "raw": "\" could \"",
+            "offset": 222,
+            "line": 9,
+            "column": 25
+          },
+          {
+            "value": " may ",
+            "raw": "\" may \"",
+            "offset": 233,
+            "line": 9,
+            "column": 36
+          },
+          {
+            "value": " might ",
+            "raw": "\" might \"",
+            "offset": 242,
+            "line": 9,
+            "column": 45
+          },
+          {
+            "value": " broadly ",
+            "raw": "\" broadly \"",
+            "offset": 285,
+            "line": 11,
+            "column": 3
+          },
+          {
+            "value": " generally ",
+            "raw": "\" generally \"",
+            "offset": 300,
+            "line": 12,
+            "column": 3
+          },
+          {
+            "value": " largely ",
+            "raw": "\" largely \"",
+            "offset": 317,
+            "line": 13,
+            "column": 3
+          },
+          {
+            "value": " typically ",
+            "raw": "\" typically \"",
+            "offset": 332,
+            "line": 14,
+            "column": 3
+          },
+          {
+            "value": " commonly ",
+            "raw": "\" commonly \"",
+            "offset": 349,
+            "line": 15,
+            "column": 3
+          },
+          {
+            "value": " potentially ",
+            "raw": "\" potentially \"",
+            "offset": 365,
+            "line": 16,
+            "column": 3
+          },
+          {
+            "value": " relatively ",
+            "raw": "\" relatively \"",
+            "offset": 384,
+            "line": 17,
+            "column": 3
+          },
+          {
+            "value": " usually ",
+            "raw": "\" usually \"",
+            "offset": 402,
+            "line": 18,
+            "column": 3
+          },
+          {
+            "value": "in some individuals",
+            "raw": "\"in some individuals\"",
+            "offset": 450,
+            "line": 21,
+            "column": 3
+          },
+          {
+            "value": "in some people",
+            "raw": "\"in some people\"",
+            "offset": 475,
+            "line": 22,
+            "column": 3
+          },
+          {
+            "value": "in some children",
+            "raw": "\"in some children\"",
+            "offset": 495,
+            "line": 23,
+            "column": 3
+          },
+          {
+            "value": "in some cases",
+            "raw": "\"in some cases\"",
+            "offset": 517,
+            "line": 24,
+            "column": 3
+          },
+          {
+            "value": "from person to person",
+            "raw": "\"from person to person\"",
+            "offset": 536,
+            "line": 25,
+            "column": 3
+          },
+          {
+            "value": "may not necessarily",
+            "raw": "\"may not necessarily\"",
+            "offset": 563,
+            "line": 26,
+            "column": 3
+          },
+          {
+            "value": "not necessarily",
+            "raw": "\"not necessarily\"",
+            "offset": 588,
+            "line": 27,
+            "column": 3
+          },
+          {
+            "value": "not all individuals",
+            "raw": "\"not all individuals\"",
+            "offset": 609,
+            "line": 28,
+            "column": 3
+          },
+          {
+            "value": "not all people",
+            "raw": "\"not all people\"",
+            "offset": 634,
+            "line": 29,
+            "column": 3
+          },
+          {
+            "value": "is believed",
+            "raw": "\"is believed\"",
+            "offset": 685,
+            "line": 32,
+            "column": 3
+          },
+          {
+            "value": "are believed",
+            "raw": "\"are believed\"",
+            "offset": 702,
+            "line": 33,
+            "column": 3
+          },
+          {
+            "value": "generally considered",
+            "raw": "\"generally considered\"",
+            "offset": 720,
+            "line": 34,
+            "column": 3
+          },
+          {
+            "value": "is often seen",
+            "raw": "\"is often seen\"",
+            "offset": 746,
+            "line": 35,
+            "column": 3
+          },
+          {
+            "value": "are often seen",
+            "raw": "\"are often seen\"",
+            "offset": 765,
+            "line": 36,
+            "column": 3
+          },
+          {
+            "value": "is often treated",
+            "raw": "\"is often treated\"",
+            "offset": 785,
+            "line": 37,
+            "column": 3
+          },
+          {
+            "value": "are often treated",
+            "raw": "\"are often treated\"",
+            "offset": 807,
+            "line": 38,
+            "column": 3
+          },
+          {
+            "value": "has been reported",
+            "raw": "\"has been reported\"",
+            "offset": 830,
+            "line": 39,
+            "column": 3
+          },
+          {
+            "value": "have been reported",
+            "raw": "\"have been reported\"",
+            "offset": 853,
+            "line": 40,
+            "column": 3
+          },
+          {
+            "value": "it is thought",
+            "raw": "\"it is thought\"",
+            "offset": 877,
+            "line": 41,
+            "column": 3
+          },
+          {
+            "value": "it is believed",
+            "raw": "\"it is believed\"",
+            "offset": 896,
+            "line": 42,
+            "column": 3
+          },
+          {
+            "value": "research suggests",
+            "raw": "\"research suggests\"",
+            "offset": 916,
+            "line": 43,
+            "column": 3
+          },
+          {
+            "value": "studies suggest",
+            "raw": "\"studies suggest\"",
+            "offset": 939,
+            "line": 44,
+            "column": 3
+          },
+          {
+            "value": "studies have suggested",
+            "raw": "\"studies have suggested\"",
+            "offset": 960,
+            "line": 45,
+            "column": 3
+          },
+          {
+            "value": "more research is needed",
+            "raw": "\"more research is needed\"",
+            "offset": 988,
+            "line": 46,
+            "column": 3
+          },
+          {
+            "value": "many",
+            "raw": "\"many\"",
+            "offset": 1043,
+            "line": 48,
+            "column": 27
+          },
+          {
+            "value": "most",
+            "raw": "\"most\"",
+            "offset": 1051,
+            "line": 48,
+            "column": 35
+          },
+          {
+            "value": "some",
+            "raw": "\"some\"",
+            "offset": 1059,
+            "line": 48,
+            "column": 43
+          },
+          {
+            "value": "certain",
+            "raw": "\"certain\"",
+            "offset": 1067,
+            "line": 48,
+            "column": 51
+          },
+          {
+            "value": "various",
+            "raw": "\"various\"",
+            "offset": 1078,
+            "line": 48,
+            "column": 62
+          },
+          {
+            "value": "adults",
+            "raw": "\"adults\"",
+            "offset": 1121,
+            "line": 50,
+            "column": 3
+          },
+          {
+            "value": "children",
+            "raw": "\"children\"",
+            "offset": 1133,
+            "line": 51,
+            "column": 3
+          },
+          {
+            "value": "couples",
+            "raw": "\"couples\"",
+            "offset": 1147,
+            "line": 52,
+            "column": 3
+          },
+          {
+            "value": "families",
+            "raw": "\"families\"",
+            "offset": 1160,
+            "line": 53,
+            "column": 3
+          },
+          {
+            "value": "people",
+            "raw": "\"people\"",
+            "offset": 1174,
+            "line": 54,
+            "column": 3
+          },
+          {
+            "value": "individuals",
+            "raw": "\"individuals\"",
+            "offset": 1186,
+            "line": 55,
+            "column": 3
+          },
+          {
+            "value": "kids",
+            "raw": "\"kids\"",
+            "offset": 1203,
+            "line": 56,
+            "column": 3
+          },
+          {
+            "value": "moms",
+            "raw": "\"moms\"",
+            "offset": 1213,
+            "line": 57,
+            "column": 3
+          },
+          {
+            "value": "parents",
+            "raw": "\"parents\"",
+            "offset": 1223,
+            "line": 58,
+            "column": 3
+          },
+          {
+            "value": "experts",
+            "raw": "\"experts\"",
+            "offset": 1236,
+            "line": 59,
+            "column": 3
+          },
+          {
+            "value": "research",
+            "raw": "\"research\"",
+            "offset": 1249,
+            "line": 60,
+            "column": 3
+          },
+          {
+            "value": "studies",
+            "raw": "\"studies\"",
+            "offset": 1263,
+            "line": 61,
+            "column": 3
+          },
+          {
+            "value": "foods",
+            "raw": "\"foods\"",
+            "offset": 1276,
+            "line": 62,
+            "column": 3
+          },
+          {
+            "value": "factors",
+            "raw": "\"factors\"",
+            "offset": 1287,
+            "line": 63,
+            "column": 3
+          },
+          {
+            "value": "types",
+            "raw": "\"types\"",
+            "offset": 1300,
+            "line": 64,
+            "column": 3
+          },
+          {
+            "value": "cases",
+            "raw": "\"cases\"",
+            "offset": 1311,
+            "line": 65,
+            "column": 3
+          },
+          {
+            "value": "patients",
+            "raw": "\"patients\"",
+            "offset": 1322,
+            "line": 66,
+            "column": 3
+          },
+          {
+            "value": "patterns",
+            "raw": "\"patterns\"",
+            "offset": 1336,
+            "line": 67,
+            "column": 3
+          },
+          {
+            "value": "problems",
+            "raw": "\"problems\"",
+            "offset": 1350,
+            "line": 68,
+            "column": 3
+          },
+          {
+            "value": "ways",
+            "raw": "\"ways\"",
+            "offset": 1364,
+            "line": 69,
+            "column": 3
+          },
+          {
+            "value": " ",
+            "raw": "\" \"",
+            "offset": 2585,
+            "line": 104,
+            "column": 44
+          },
+          {
+            "value": "variability-softening",
+            "raw": "\"variability-softening\"",
+            "offset": 2994,
+            "line": 119,
+            "column": 13
+          },
+          {
+            "value": "hedged-claim",
+            "raw": "\"hedged-claim\"",
+            "offset": 3147,
+            "line": 124,
+            "column": 20
+          },
+          {
+            "value": "quantified-softening",
+            "raw": "\"quantified-softening\"",
+            "offset": 3280,
+            "line": 127,
+            "column": 20
+          },
+          {
+            "value": "tentative-reporting",
+            "raw": "\"tentative-reporting\"",
+            "offset": 3421,
+            "line": 130,
+            "column": 20
+          },
+          {
+            "value": "tentative-reporting",
+            "raw": "\"tentative-reporting\"",
+            "offset": 3571,
+            "line": 134,
+            "column": 13
+          },
+          {
+            "value": "variability-softening",
+            "raw": "\"variability-softening\"",
+            "offset": 3738,
+            "line": 140,
+            "column": 13
+          },
+          {
+            "value": "stacked-softening",
+            "raw": "\"stacked-softening\"",
+            "offset": 3839,
+            "line": 145,
+            "column": 18
+          },
+          {
+            "value": "multiple softening signals",
+            "raw": "\"multiple softening signals\"",
+            "offset": 3868,
+            "line": 145,
+            "column": 47
+          },
+          {
+            "value": "syntactic-patterns",
+            "raw": "\"syntactic-patterns\"",
+            "offset": 4222,
+            "line": 163,
+            "column": 11
+          },
+          {
+            "value": "syntactic-patterns:softening-language",
+            "raw": "\"syntactic-patterns:softening-language\"",
+            "offset": 4387,
+            "line": 166,
+            "column": 11
+          },
+          {
+            "value": "sentence",
+            "raw": "\"sentence\"",
+            "offset": 4440,
+            "line": 167,
+            "column": 13
+          }
+        ],
+        "templates": [
+          {
+            "raw": "`${lead} ${target}`",
+            "offset": 1772,
+            "line": 85,
+            "column": 14,
+            "staticParts": [
+              "",
+              " ",
+              ""
+            ]
+          },
+          {
+            "raw": "` ${cleanSentence(sentence)} `",
+            "offset": 1919,
+            "line": 93,
+            "column": 22,
+            "staticParts": [
+              " ",
+              " "
+            ]
+          },
+          {
+            "raw": "`${modal} + ${variability}`",
+            "offset": 3033,
+            "line": 120,
+            "column": 15,
+            "staticParts": [
+              "",
+              " + ",
+              ""
+            ]
+          },
+          {
+            "raw": "`${modal} + ${qualifier}`",
+            "offset": 3171,
+            "line": 124,
+            "column": 44,
+            "staticParts": [
+              "",
+              " + ",
+              ""
+            ]
+          },
+          {
+            "raw": "`${modal} + ${quantifier}`",
+            "offset": 3312,
+            "line": 127,
+            "column": 52,
+            "staticParts": [
+              "",
+              " + ",
+              ""
+            ]
+          },
+          {
+            "raw": "`${reporting} + ${modal}`",
+            "offset": 3452,
+            "line": 130,
+            "column": 51,
+            "staticParts": [
+              "",
+              " + ",
+              ""
+            ]
+          },
+          {
+            "raw": "`${reporting} + ${quantifier}`",
+            "offset": 3608,
+            "line": 135,
+            "column": 15,
+            "staticParts": [
+              "",
+              " + ",
+              ""
+            ]
+          },
+          {
+            "raw": "`${variability} + ${quantifier}`",
+            "offset": 3777,
+            "line": 141,
+            "column": 15,
+            "staticParts": [
+              "",
+              " + ",
+              ""
+            ]
+          },
+          {
+            "raw": "`Softening language found: ${report.evidence}. Make the claim specific or remove the hedge stack.`",
+            "offset": 4277,
+            "line": 165,
+            "column": 5,
+            "staticParts": [
+              "Softening language found: ",
+              ". Make the claim specific or remove the hedge stack."
+            ]
+          }
+        ],
+        "arrays": {
+          "MODAL_PATTERNS": [
+            " could ",
+            " may ",
+            " might "
+          ],
+          "QUALIFIER_PATTERNS": [
+            " broadly ",
+            " generally ",
+            " largely ",
+            " typically ",
+            " commonly ",
+            " potentially ",
+            " relatively ",
+            " usually "
+          ],
+          "VARIABILITY_PATTERNS": [
+            "in some individuals",
+            "in some people",
+            "in some children",
+            "in some cases",
+            "from person to person",
+            "may not necessarily",
+            "not necessarily",
+            "not all individuals",
+            "not all people"
+          ],
+          "REPORTING_PATTERNS": [
+            "is believed",
+            "are believed",
+            "generally considered",
+            "is often seen",
+            "are often seen",
+            "is often treated",
+            "are often treated",
+            "has been reported",
+            "have been reported",
+            "it is thought",
+            "it is believed",
+            "research suggests",
+            "studies suggest",
+            "studies have suggested",
+            "more research is needed"
+          ],
+          "QUANTIFIER_LEADS": [
+            "many",
+            "most",
+            "some",
+            "certain",
+            "various"
+          ],
+          "QUANTIFIER_TARGETS": [
+            "adults",
+            "children",
+            "couples",
+            "families",
+            "people",
+            "individuals",
+            "kids",
+            "moms",
+            "parents",
+            "experts",
+            "research",
+            "studies",
+            "foods",
+            "factors",
+            "types",
+            "cases",
+            "patients",
+            "patterns",
+            "problems",
+            "ways"
+          ]
+        }
+      }
+    ],
+    "signalSlots": {
+      "HEDGE_WORDS": [
+        "might",
+        "maybe",
+        "perhaps",
+        "possibly",
+        "likely",
+        "probably",
+        "seems",
+        "apparently"
+      ],
+      "MODAL_PATTERNS": [
+        " could ",
+        " may ",
+        " might "
+      ],
+      "QUALIFIER_PATTERNS": [
+        " broadly ",
+        " generally ",
+        " largely ",
+        " typically ",
+        " commonly ",
+        " potentially ",
+        " relatively ",
+        " usually "
+      ],
+      "VARIABILITY_PATTERNS": [
+        "in some individuals",
+        "in some people",
+        "in some children",
+        "in some cases",
+        "from person to person",
+        "may not necessarily",
+        "not necessarily",
+        "not all individuals",
+        "not all people"
+      ],
+      "REPORTING_PATTERNS": [
+        "is believed",
+        "are believed",
+        "generally considered",
+        "is often seen",
+        "are often seen",
+        "is often treated",
+        "are often treated",
+        "has been reported",
+        "have been reported",
+        "it is thought",
+        "it is believed",
+        "research suggests",
+        "studies suggest",
+        "studies have suggested",
+        "more research is needed"
+      ],
+      "QUANTIFIER_LEADS": [
+        "many",
+        "most",
+        "some",
+        "certain",
+        "various"
+      ],
+      "QUANTIFIER_TARGETS": [
+        "adults",
+        "children",
+        "couples",
+        "families",
+        "people",
+        "individuals",
+        "kids",
+        "moms",
+        "parents",
+        "experts",
+        "research",
+        "studies",
+        "foods",
+        "factors",
+        "types",
+        "cases",
+        "patients",
+        "patterns",
+        "problems",
+        "ways"
+      ]
+    },
+    "quantifierPairCount": 100,
+    "branchClasses": [
+      {
+        "class": "word-occurrence-threshold",
+        "probes": [
+          "word-threshold-0",
+          "word-threshold-1",
+          "word-threshold-2",
+          "word-repeat"
+        ],
+        "checked": "Zero, one, two, and repeated same-word tokens.",
+        "result": "Two counted tokens report regardless of meaning or distinctness.",
+        "cause": "hedgeCount increments once per listed token.",
+        "integration": "Use token values for candidate coverage; label redundant qualification by its function and retain purposeful repetition controls."
+      },
+      {
+        "class": "all-ten-category-pairs",
+        "probes": [
+          "M-V",
+          "M-Q",
+          "M-N-clean",
+          "M-R",
+          "R-N",
+          "V-N",
+          "Q-V",
+          "Q-R",
+          "Q-N",
+          "V-R"
+        ],
+        "checked": "Every distinct pair among five categories.",
+        "result": "Each reports once through the ordered branches; four pairs share fallback.",
+        "cause": "Presence sum reaches two.",
+        "integration": "Treat branch kinds as coverage classes of one hedge check; require same-claim disposable qualification before labeling a hit."
+      },
+      {
+        "class": "same-category-repetition",
+        "probes": [
+          "single-category-modals",
+          "single-category-qualifiers"
+        ],
+        "checked": "Several modals or qualifiers without another category.",
+        "result": "Softening returns no finding.",
+        "cause": "Each category contributes only one.",
+        "integration": "Include unseen same-category stacks and distinct-proposition controls; lexical count and category count both miss semantic distinctions."
+      },
+      {
+        "class": "branch-precedence",
+        "probes": [
+          "M-N",
+          "M-V",
+          "ordered-first-modal",
+          "ordered-first-report"
+        ],
+        "checked": "Multiple eligible signals and first-array selection.",
+        "result": "The returned message names only the selected winning branch signals.",
+        "cause": "Early returns after array-priority selection.",
+        "integration": "Review every redundant layer rather than interpreting the reported pair as a complete inventory of the passage."
+      },
+      {
+        "class": "variability-quantifier-self-overlap",
+        "probes": [
+          "overlap-single",
+          "overlap-all-occurrences",
+          "overlap-only-selected-phrase",
+          "overlap-created-adjacency"
+        ],
+        "checked": "Single, repeated identical, two different V phrases and an intervening V between lead and target.",
+        "result": "The single and identical-repeat inputs stay below threshold; two different phrases leave a quantifier in the unstripped phrase and report. Removing a parenthetical V can create a new quantifier pair across the removed span.",
+        "cause": "Only the first selected V string is stripped, across all its occurrences, before adjacent-token scanning.",
+        "integration": "Preserve a single useful population or condition restriction; also test multiple independent restrictions and avoid treating removal-created token adjacency as semantic evidence."
+      },
+      {
+        "class": "remaining-cross-category-self-overlap",
+        "probes": [
+          "overlap-generally-considered",
+          "overlap-may-not-necessarily"
+        ],
+        "checked": "One construction populates Q+R or M+V.",
+        "result": "Both report despite using one lexical expression.",
+        "cause": "Only V-to-N overlap is stripped; M/Q/R signals retain their original matches.",
+        "integration": "Require distinct semantic qualification layers. Preserve useful convention, non-entailment and permission; challenge may-not-necessarily context explicitly."
+      },
+      {
+        "class": "punctuation-and-word-boundaries",
+        "probes": [
+          "punctuation-padded-modal",
+          "quantifier-punctuation",
+          "case-normalization",
+          "inflection-token-boundary"
+        ],
+        "checked": "Punctuation next to padded slots, punctuation between quantifier tokens, uppercase and an unlisted lookalike.",
+        "result": "Padded includes and word token membership have different boundary behavior.",
+        "cause": "M/Q match literal spaces; quantifiers scan word tokens; hedge words require complete normalized tokens.",
+        "integration": "Vary punctuation, case and inflection without changing semantic labels."
+      },
+      {
+        "class": "claim-linking",
+        "probes": [
+          "distinct-propositions",
+          "nolist-redundancy",
+          "sentence-period",
+          "sentence-semicolon"
+        ],
+        "checked": "Same sentence with different claims, equivalent wording outside lists, and cross-sentence expressions.",
+        "result": "Count-based reports can merge distinct claims, while absent lexical matches and sentence splits suppress findings.",
+        "cause": "Legacy scope is a sentence and token/category matches establish eligibility.",
+        "integration": "Judge the complete passage; catch redundant uncertainty across sentences and preserve different claims in one sentence."
+      },
+      {
+        "class": "quotation-function",
+        "probes": [
+          "quote-documentation-double",
+          "quote-dialogue-double",
+          "quote-dialogue-single",
+          "quote-smart-double",
+          "quote-unclosed"
+        ],
+        "checked": "Documentary quotes, dialogue, quote styles and an unmatched opening quote.",
+        "result": "The word rule counts quoted tokens; softening removes double-quoted segments and their contents, including the remainder after an unmatched opening quote. Single quotes survive segment stripping.",
+        "cause": "cleanSentence uses normalizeForMatch, stripQuotedSegments, then stripOuterQuotes. stripQuotedSegments recognizes only double-quote starts.",
+        "integration": "Protect wording examined or documented; judge adopted assertions and useful dialogue by function rather than quote typography."
+      }
+    ],
+    "comparators": {
+      "countingMethod": "Count nonempty whitespace-separated words after native loadPrompts/buildRequest assembly: shared instructions + check body + instantiated detection question + explicit true/false criteria when present. Exclude target text, JSON keys, front-matter delimiters and rulebook pointer. Rulebook pointer adds one word if counted.",
+      "hashingMethod": "sha256 of exact file bytes; assembledSha256 hashes trimmed shared, body, question, then true and false criteria when explicit, joined by two LF characters.",
+      "runnerEnforcement": "loadPrompts/buildRequest parse and assemble these prompts. The audit independently asserts the 1000-word project limit; these functions contain no word-count guard.",
+      "checks": [
+        {
+          "version": "v10",
+          "check": "puffery-and-overstatement/inflated-evaluation",
+          "role": "replacement frozen comparator",
+          "files": [
+            {
+              "path": "prompts/v10/shared.md",
+              "bytes": 652,
+              "sha256": "659932221b34f73a7578f922d025a8e69ce96c720b7f70895ae86e03f1789c26",
+              "rawWhitespaceWords": 94,
+              "headSha256": "659932221b34f73a7578f922d025a8e69ce96c720b7f70895ae86e03f1789c26",
+              "unchangedFromHead": true
+            },
+            {
+              "path": "prompts/v10/inflated-evaluation.md",
+              "bytes": 2608,
+              "sha256": "b4ae65304a5b8e28752f4f2596f4c76870bf1ab9b29f9e8dc17dc92d28d1abe3",
+              "rawWhitespaceWords": 377,
+              "headSha256": "b4ae65304a5b8e28752f4f2596f4c76870bf1ab9b29f9e8dc17dc92d28d1abe3",
+              "unchangedFromHead": true
+            }
+          ],
+          "components": {
+            "shared": 94,
+            "body": 377,
+            "question": 30,
+            "trueCriterion": 0,
+            "falseCriterion": 0
+          },
+          "assembledWords": 501,
+          "limit": 1000,
+          "withinLimit": true,
+          "assembledSha256": "59b93208d192557d0f219100530eb8472e4c5410f483c41a247bae8d47604c99",
+          "question": "Apply state.instructions and rulebook to target. Does this target paragraph contain at least one instance of \"inflated-evaluation\"? Judge only this target and this type; other target paragraphs are independent cases.",
+          "criteria": null,
+          "explicitCriteria": false
+        },
+        {
+          "version": "v11",
+          "check": "unsupported-authority/vague-attribution",
+          "role": "retained frozen comparator",
+          "files": [
+            {
+              "path": "prompts/v11/shared.md",
+              "bytes": 652,
+              "sha256": "659932221b34f73a7578f922d025a8e69ce96c720b7f70895ae86e03f1789c26",
+              "rawWhitespaceWords": 94,
+              "headSha256": "659932221b34f73a7578f922d025a8e69ce96c720b7f70895ae86e03f1789c26",
+              "unchangedFromHead": true
+            },
+            {
+              "path": "prompts/v11/vague-attribution.md",
+              "bytes": 3305,
+              "sha256": "3aaf84e3e55fbe00005ba0dbcd580b19193e6301bc4c7f9a67561cbe9a1b002d",
+              "rawWhitespaceWords": 466,
+              "headSha256": "3aaf84e3e55fbe00005ba0dbcd580b19193e6301bc4c7f9a67561cbe9a1b002d",
+              "unchangedFromHead": true
+            }
+          ],
+          "components": {
+            "shared": 94,
+            "body": 466,
+            "question": 30,
+            "trueCriterion": 0,
+            "falseCriterion": 0
+          },
+          "assembledWords": 590,
+          "limit": 1000,
+          "withinLimit": true,
+          "assembledSha256": "4034371be1d4d20a6288d809f47009f3cb130959d6dc77be0c2a1d2d901cee73",
+          "question": "Apply state.instructions and rulebook to target. Does this target paragraph contain at least one instance of \"vague-attribution\"? Judge only this target and this type; other target paragraphs are independent cases.",
+          "criteria": null,
+          "explicitCriteria": false
+        },
+        {
+          "version": "v16",
+          "check": "wordiness-and-redundancy/wordiness",
+          "role": "audited original comparator; replaced due to definition overlap",
+          "files": [
+            {
+              "path": "prompts/v16/shared.md",
+              "bytes": 411,
+              "sha256": "99d71382cbb8344bdf42fe9563169674c0ded5d943b893a816881be32e0054ad",
+              "rawWhitespaceWords": 58,
+              "headSha256": "99d71382cbb8344bdf42fe9563169674c0ded5d943b893a816881be32e0054ad",
+              "unchangedFromHead": true
+            },
+            {
+              "path": "prompts/v16/wordiness.md",
+              "bytes": 5175,
+              "sha256": "96454334557eeae8e6e9c72be284c1ff4642f194482485fbe9e8fb22623d80dc",
+              "rawWhitespaceWords": 774,
+              "headSha256": "96454334557eeae8e6e9c72be284c1ff4642f194482485fbe9e8fb22623d80dc",
+              "unchangedFromHead": true
+            }
+          ],
+          "components": {
+            "shared": 58,
+            "body": 685,
+            "question": 26,
+            "trueCriterion": 32,
+            "falseCriterion": 21
+          },
+          "assembledWords": 822,
+          "limit": 1000,
+          "withinLimit": true,
+          "assembledSha256": "86c652e1ebaf90ee1ca52494f76072051e8fde80e6f1f6bc7c4cc878ce4c4e5c",
+          "question": "Does the complete target passage contain identifiable unnecessary elaboration, beyond the availability of a shorter paraphrase, according to the wordiness definition and paired examples in state?",
+          "criteria": {
+            "true": "At least one construction has identifiable padding and a specific shorter wording that preserves the claim, actor, qualifications, timing and useful emphasis. Its defect is unnecessary elaboration, rather than ordinary formal usage.",
+            "false": "No identifiable unnecessary elaboration remains after checking literal meaning and ordinary formal usage. An equivalent shorter paraphrase alone establishes no defect."
+          },
+          "explicitCriteria": true
+        }
+      ]
+    },
+    "wordinessOverlap": {
+      "status": "Source-definition finding, without provider inference.",
+      "evidence": "v16 requires identifiable padding plus a shorter wording preserving claim, actor, qualifications, timing and useful emphasis. Its prompt contains no exclusive-ownership instruction for unnecessary qualification.",
+      "example": "The delivery might perhaps arrive on Friday.",
+      "analysis": "When perhaps duplicates might, deleting perhaps preserves the useful possibility while removing identifiable padding. The same defect can satisfy both the planned hedging definition and frozen wordiness wording.",
+      "consequence": "Independent all-eight-combination labels can impose an ownership distinction absent from frozen wordiness.",
+      "parentAction": "Replace mixed wordiness with frozen v10 inflated-evaluation and retain frozen v11 vague-attribution. Use separable source appeals, assessments and redundant qualification spans; keep the 800-passage/1600-judgment design."
+    },
+    "legacyInvocation": {
+      "verified": true,
+      "entryPoint": "dist/index.js named export rules; keys hedge-stacking and softening-language.",
+      "publicApi": "textlint.createLinter({descriptor,cache:false}).lintText(rawPassage,\"raw-passage.md\")",
+      "dependencies": "Use existing textlint 15.8.0. Resolve its installed public @textlint/kernel and Markdown plugin package exports through createRequire(require.resolve(\"textlint\")); no new dependency or private Slopless imports.",
+      "code": "import { createRequire } from \"node:module\";\nimport { createLinter } from \"textlint\";\nimport { rules } from \"./dist/index.js\";\nconst require = createRequire(import.meta.url);\nconst tr = createRequire(require.resolve(\"textlint\"));\nconst { TextlintKernelDescriptor } = tr(\"@textlint/kernel\");\nconst descriptor = new TextlintKernelDescriptor({\n  rules: [\"hedge-stacking\", \"softening-language\"].map(ruleId => ({ ruleId, rule: rules[ruleId], options: true })),\n  filterRules: [],\n  plugins: [{ pluginId: \"markdown\", plugin: tr(\"@textlint/textlint-plugin-markdown\").default, options: true }]\n});\nconst linter = createLinter({ descriptor, cache: false });\nconst result = await linter.lintText(rawPassage, \"raw-passage.md\");\nconsole.log(result.messages);",
+      "fixtureVerification": "Four existing words/syntactic-patterns hits/no-hits files match all eight selected approved messages exactly, including ranges, positions, severity and message text.",
+      "sourceDistParity": [
+        {
+          "source": {
+            "path": "src/rules/words/hedge-stacking.ts",
+            "bytes": 1041,
+            "sha256": "d8fca40d603357776e2f7a3f841aa8c6e9919a0446e1f74e244fdf521748df38"
+          },
+          "dist": {
+            "path": "dist/rules/words/hedge-stacking.js",
+            "bytes": 1167,
+            "sha256": "5fbdfd5a390a56f598fcd490710622cfacb7c027854d206cac0914323b09289e"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/rules/syntactic-patterns/generalization/softening-language.ts",
+            "bytes": 4477,
+            "sha256": "af4d14931a9a06fd8a7ff5f359579e41b0fa822317413f84f194acac1060f6bd"
+          },
+          "dist": {
+            "path": "dist/rules/syntactic-patterns/generalization/softening-language.js",
+            "bytes": 4770,
+            "sha256": "77e64d98cad56f6c6d31a4928ad5d3f5d8355ffac111e18c591df79e268f4ea6"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/index.ts",
+            "bytes": 1055,
+            "sha256": "9a36046db03f8752c33a068ef62feedda8d3ca87034246517cfd830f3e085eb0"
+          },
+          "dist": {
+            "path": "dist/index.js",
+            "bytes": 1109,
+            "sha256": "1be6c5f1722d10792f8c56580e30964ea75927e392e2497eb8b32edaa6099962"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/registries/words.ts",
+            "bytes": 929,
+            "sha256": "a296a081c2646a714aae945d9336699238571a7f8da22b5ce80c1561540bd217"
+          },
+          "dist": {
+            "path": "dist/registries/words.js",
+            "bytes": 979,
+            "sha256": "806e3f199884a82315e080f29f35038931097817739760970a6a0add33969283"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/registries/syntactic-patterns.ts",
+            "bytes": 673,
+            "sha256": "c7c3152647e73265aeb12b8a9dd4128306ecf4ade6660ff2610c26d88dbb2d1c"
+          },
+          "dist": {
+            "path": "dist/registries/syntactic-patterns.js",
+            "bytes": 732,
+            "sha256": "d8b6a9f4cc2add3f144e6f90d2af185438a483f16efbbb7377fa92536db16e83"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/registries/syntactic-patterns/generalization.ts",
+            "bytes": 340,
+            "sha256": "659da7bb9fad2d358a866f653305517f42d247329fe7f01d9edc5668f466e5e3"
+          },
+          "dist": {
+            "path": "dist/registries/syntactic-patterns/generalization.js",
+            "bytes": 385,
+            "sha256": "0e10ee9a0d9bd1124cf81949cdab0be0d60a03e5853e670f89bb1c615b192e4f"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/rules/private/textlint-rule-builders.ts",
+            "bytes": 3265,
+            "sha256": "b7f92d79381a229b0563b43f126825d990738df4ee5a4fca74b0b785e02fbbab"
+          },
+          "dist": {
+            "path": "dist/rules/private/textlint-rule-builders.js",
+            "bytes": 2258,
+            "sha256": "59af577ea161f5675430d6f7a55faff285ef7d8ab721c2aef247bb146430dfc6"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/adapters/textlint/rule.ts",
+            "bytes": 1542,
+            "sha256": "510b9678caf747be0849fcb8eb7c534ae2f5264a54b81c204f6105c4169c87b3"
+          },
+          "dist": {
+            "path": "dist/adapters/textlint/rule.js",
+            "bytes": 893,
+            "sha256": "9993435b73b2cb8a69e1953cef0b5b14528361e6b131d35cb9bbfa6996113e39"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/adapters/textlint/units.ts",
+            "bytes": 7291,
+            "sha256": "85db6db448363e99c24a02c3d38c88e79eff05ad520a2ac521a18998c9ec2642"
+          },
+          "dist": {
+            "path": "dist/adapters/textlint/units.js",
+            "bytes": 6379,
+            "sha256": "2bf1eb21de410b34e9c3bef075df93a6e265a08c73df93de34b71a3ddc5fd10e"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/adapters/textlint/report.ts",
+            "bytes": 3571,
+            "sha256": "8fd8bd2229eabd1cfd0bd00ae6710fcfd091e1eeb7cf8ab90237df22e0274998"
+          },
+          "dist": {
+            "path": "dist/adapters/textlint/report.js",
+            "bytes": 2302,
+            "sha256": "09b9650f77f222d0850f03e3cd9cef153f0d036aa18b15efb6993b025930eaae"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/shared/text/normalize.ts",
+            "bytes": 790,
+            "sha256": "4ab217825e3e1b0884ce849add9aecc9f061689655d6daf6866f1baac0a380cc"
+          },
+          "dist": {
+            "path": "dist/shared/text/normalize.js",
+            "bytes": 850,
+            "sha256": "c14be3d01d481dd1691a5ad1821d5cbbf3b80c58a7c51d74e92e280b9cdb5f92"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/shared/text/tokens.ts",
+            "bytes": 672,
+            "sha256": "b690f1429c319f1dd59a067a83ef97ebfcd20971b0d19788414b635f30fe833c"
+          },
+          "dist": {
+            "path": "dist/shared/text/tokens.js",
+            "bytes": 597,
+            "sha256": "ed76c9dedfe1280fe968b5194b2f78b5d560ee76a17bc164e92e20cc73a8f60b"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/shared/text/quotes.ts",
+            "bytes": 556,
+            "sha256": "abb77b5f168596f8d89af979c54aa5ee5947cb0fd9025e065dbf8d324df10592"
+          },
+          "dist": {
+            "path": "dist/shared/text/quotes.js",
+            "bytes": 581,
+            "sha256": "4dac650860340f9742d10d09c048da9142dcc79700fd69e191b086ab4b2485a2"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/shared/text/sentences.ts",
+            "bytes": 6082,
+            "sha256": "01f826d7a64267eea62cddc9582b7fce591ae02405e2bd569bf8edb10dc339a2"
+          },
+          "dist": {
+            "path": "dist/shared/text/sentences.js",
+            "bytes": 5875,
+            "sha256": "b12d0a3cd13e70a62e15a7a997317c90a934b318b2db33539c45901f1eed6032"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/shared/text/sections.ts",
+            "bytes": 4645,
+            "sha256": "a41083b22afad5780d1d51e427f5ae3a2b9a7613469faa8110ea5597f67e2d09"
+          },
+          "dist": {
+            "path": "dist/shared/text/sections.js",
+            "bytes": 3792,
+            "sha256": "af17a70152337c3e6386c67555dcbccf12f98e40711d6b76cd5b603cd0a1f6c6"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/shared/text/traverse.ts",
+            "bytes": 2589,
+            "sha256": "7500cccc1bd484edae978b3c6070071f1237c33200086f9956c37ad201ef2716"
+          },
+          "dist": {
+            "path": "dist/shared/text/traverse.js",
+            "bytes": 2108,
+            "sha256": "072b1c2710b2fde0c10bcd8e6ea1ea907d5146e0a14bf6882cc89bd50edef2e8"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/shared/matchers/prose-patterns.ts",
+            "bytes": 3323,
+            "sha256": "8ea8574101c9a7d78786a64f3deebb25f73486afd4b933120c097e5b85da6f4f"
+          },
+          "dist": {
+            "path": "dist/shared/matchers/prose-patterns.js",
+            "bytes": 3046,
+            "sha256": "040b1e394605903f6bfbc0cd84cde9e5e934a47e9f271ca0c6c68e05bd7a73b8"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        },
+        {
+          "source": {
+            "path": "src/reporting/reports.ts",
+            "bytes": 8109,
+            "sha256": "564da99647c56206b8df248a5ebdd8358e93d1c8ea6001abfacf4b76b9ad5a18"
+          },
+          "dist": {
+            "path": "dist/reporting/reports.js",
+            "bytes": 7178,
+            "sha256": "bc26c3927a54d5ed200d7386a88214d66d6f5c0c0fc1f2e6d5b05ef2ddace187"
+          },
+          "transpiledEqualsDistIgnoringSourceMapComment": true
+        }
+      ],
+      "verificationScope": "Offline public-boundary probes and selected fixture-message comparison; no full suite, build, model evaluation or provider calls."
+    }
+  },
+  "collections": {
+    "isolated": "000053",
+    "mixed": "000055"
+  },
+  "holdoutInference": false
+}

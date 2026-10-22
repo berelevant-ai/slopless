@@ -22,13 +22,15 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
   - Preserve one useful hedge, different qualifications on different claims, probability plus a distinct population/condition limit, meaningful appearance-versus-reality distinctions, permission, capability, and conventional request politeness.
   - Preserve relevant quoted wording being documented or examined. Assess adopted claims and dialogue by their function rather than exempting quotations or fiction.
 - Have a fresh definition reviewer challenge these boundaries before generation. Update the definition and counts when evidence requires another distinction; do not create separate checks for different word lists.
-- Assign vague source identification to the frozen `unsupported-authority/vague-attribution` definition. Assign separate verbose constructions to frozen `wordiness-and-redundancy/wordiness`; one unnecessary hedge expression has primary hedging ownership.
+- Fresh review retains one check after 28 paired comparisons. Finalize the meaning-preserving reduction test, contextual modal and negation scope, useful communicative functions and cross-sentence continuation before authoring data; the taxonomy records these reconciled decisions.
+- Keep source identification and claim strength separate from qualification. Mixed comparators use frozen `unsupported-authority/vague-attribution` and `puffery-and-overstatement/inflated-evaluation` definitions.
+- Source inspection rejects wordiness as an independent mixed bit: its frozen definition can also classify redundant qualification as removable padding. Preserve that broader definition and use comparators that assess distinct properties.
 
 ## Dataset Design
 
 - Allocate paired Markdown and schema-version-2 labels under `datasets/ai-synthetic/passages/`.
   - `000053-excessive-hedging-hedge-stacking-development` and `000054-excessive-hedging-hedge-stacking-holdout` each finish at exactly 100 hits and 100 no-hits.
-  - `000055-mixed-excessive-hedging-wordiness-vague-attribution-development` and `000056-mixed-excessive-hedging-wordiness-vague-attribution-holdout` each contain 200 passages labeled for all three named checks.
+  - `000055-mixed-excessive-hedging-vague-attribution-inflated-evaluation-development` and `000056-mixed-excessive-hedging-vague-attribution-inflated-evaluation-holdout` each contain 200 passages labeled for all three named checks.
 - Mixed sets cover all eight combinations with 25 passages each: 100 hits and 100 no-hits per named check. If reviewed mandatory cases require adjusted complementary quotas, preserve every guard, all combinations and all class balances before model evaluation.
 - The active target is 800 passages and 1,600 judgments. Generate 240 reviewed candidates per collection first, then archive all surplus with labels before selecting balanced sets.
 - Use ten plausible settings: support replies, technical explanations, release notes, workplace messages, service comparisons, community notices, consumer accounts, academic discussion, professional posts and factual or fictional narration.
@@ -37,7 +39,7 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Include single-sentence and multi-sentence passages, cross-sentence qualifications, several distinct qualified propositions, quotation/adoption contrasts and useful numerical or qualitative limits.
 - Cover all legacy token values as contextual candidates; cover each quantifier lead and target in meaningful scope controls. Report actual construction coverage rather than treating 100 lexical combinations as 100 separate issue types.
 - Keep no-hit writing comparably plausible and detailed. Include the same surface vocabulary with distinct functions, ordinary uncertainty, attribution, conditionals, probabilistic forecasts, technical permissions, polite requests and useful dialogue.
-- Write mixed defects as coherent prose with independently identifiable spans. Avoid using the same qualification as both the expected hedge and the expected wordiness defect.
+- Write mixed defects as coherent prose with independently identifiable functions. Judge the hedge's contribution, source identification and evaluation strength separately, including when they appear in the same sentence.
 - Assign neutral, globally unique passage IDs without class-revealing prefixes. Labels contain only ID, fully qualified check, expected boolean and exact hit snippets. No-hit labels omit snippets.
 
 ## Review And Freeze
@@ -62,7 +64,7 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Evaluate the new check on its 200 isolated and 200 mixed development inputs. Require at least 95/100 caught hits and at most 5/100 false positives in each set.
 - Evaluate baseline plus at most three general revisions. Stop at first pass, two consecutive non-improvements, or the revision limit; rank nonpassing candidates by total errors, then caught positives, then earliest revision.
 - Run one fresh uncached confirmation of the selected candidate on the same 400 inputs. Require both selected and repeat measurements to pass; retain every failed bound and finish the bounded round after a failed confirmation.
-- Keep `v11/vague-attribution` and `v16/wordiness` frozen as mixed-set comparators. Run each on the same 200 mixed development passages once, then once more for final confirmation.
+- Keep `v11/vague-attribution` and `v10/inflated-evaluation` frozen as mixed-set comparators. Run each on the same 200 mixed development passages once, then once more for final confirmation.
   - Keep each comparator's fully qualified labels and native family invocation. The reader already supports several families in one dataset; the native runner selects one family per invocation.
   - Join complete predictions by passage ID for cross-family joint reporting while preserving the original check IDs. Use native scoring for each check; avoid changing the public runner for this report calculation.
   - Comparator failures remain reported observations. Their prompts, old datasets and prior holdouts are outside this family's tuning scope.
