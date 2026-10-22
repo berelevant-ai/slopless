@@ -2082,5 +2082,33 @@
     },
     "temporaryRepairCorrections": 2,
     "pass2RetrievalDisclosure": "The isolated development reviewer initially retrieved the full taxonomy and extra same-collection snippet comparisons. No separate holdout, prompt or model-output file was opened; its report records the overruns. Final reviewers are instructed to retrieve only their definition section."
-  }
+  },
+  "completedFullPools": [
+    {
+      "collection": "000053",
+      "reviewPasses": 3,
+      "status": "Reviewed pool ready for archived balanced selection",
+      "passages": 240,
+      "hits": 119,
+      "noHits": 121,
+      "finalReviewPath": "/tmp/000053-development-fullpool-v18-final-review-r3.json",
+      "finalReviewSha256": "fa065642c76bb1bd74777b67f3b793535f0181d4a9f7b08e5bd5a9f28421b3d5",
+      "finalRawPath": "/tmp/000053-development-fullpool-v18-reviewed-r3.json",
+      "finalRawSha256": "4c907361dc309217ed0de6e6223ac74b9b05ccfc5df05dd57d196753f9d8d84c",
+      "textSha256": "bc47bc2dcd901c3bd9cd680fb598211df40d2445aa31f7cb3c0082edbbd55342",
+      "labelsSha256": "54319a1555fcf422fb5b2a69f96d0dc335ddd5bfa4f170a4b23593ef229a4b7d",
+      "mandatoryIds": [
+        "000053-caf3ba058d12",
+        "000053-2ed5a403a09b"
+      ],
+      "remainingIssues": [],
+      "selectionReadiness": {
+        "ready": true,
+        "eligibleHits": 119,
+        "eligibleNoHits": 121,
+        "nextOperation": "Select 100 approved hits and 100 approved no-hits independently of detector scores, retaining both mandatory IDs with original complete writing. Preserve the 19 surplus hits and 21 surplus no-hits for the parent's archive step.",
+        "parentFreezeGate": "The parent performs the required cross-split identical and near-identical checks before freezing the selected set. This development-only review leaves that gate to the authorized context."
+      }
+    }
+  ]
 }

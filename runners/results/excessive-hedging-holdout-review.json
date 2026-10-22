@@ -332,5 +332,27 @@
       "phase": "Blind classification and subsequent author comparison",
       "remainingIndependentFullReviews": 2
     }
+  ],
+  "invalidatedReviews": [
+    {
+      "collection": "000054",
+      "pass": 3,
+      "reviewer": "01a165ba-72b6-7082-8e46-58d59c84a8fd",
+      "reportPath": "/tmp/000054-holdout-fullpool-v18-final-review-r3.json",
+      "reportSha256": "1f8d15693dfeb6cdb60b350e3ba51c3d619d84ef6e7dc0e0099db5d19689843e",
+      "outputPath": "/tmp/000054-holdout-fullpool-v18-reviewed-r3.json",
+      "outputSha256": "6079d22acc6ed8de9ab55aafa9ae94a051d0b67973c0196d068fc7d2c1bbf1d9",
+      "reason": "Overly broad git-show reads returned development review material and unrelated model-result summaries before classification.",
+      "coverage": 240,
+      "attemptedLabelCorrections": 5,
+      "acceptedLabelCorrections": 0,
+      "disposition": "Exclude the entire attempted pass and output. Repeat all 240 rows in a fresh protected context from unchanged pass-2 input.",
+      "replacementReviewer": "01a165c4-3f62-7770-81c8-13cf91677b61",
+      "replacementInputPath": "/tmp/000054-holdout-fullpool-v18-reviewed-r2.json",
+      "replacementInputSha256": "d3b415491c9d9f155c1dc3f61c3b90a8b36ea4f28e64362c1cbbdcddc0b963aa",
+      "definitionPath": "/tmp/hedging-v18-definition-only.md",
+      "definitionSha256": "ce8036f0200a094be5d9ed7914275f495d77ad637584f2a2d845b9cc64057a44",
+      "status": "Fresh full repeat running; no failed-pass changes installed in root datasets."
+    }
   ]
 }
