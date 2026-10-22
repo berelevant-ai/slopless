@@ -2143,6 +2143,73 @@
         "parentFreezeGate": "The parent performs the required cross-split identical and near-identical checks before freezing the selected set. This development-only review leaves that gate to the authorized context."
       },
       "archiveCommit": "93be1e7f418efd4e2eac6f536491ef1f459a70b9"
+    },
+    {
+      "collection": "000055",
+      "reviewPasses": 3,
+      "status": "Reviewed mixed pool ready for archived balanced selection",
+      "passages": 240,
+      "judgments": 720,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 118,
+          "noHits": 122
+        },
+        "unsupported-authority/vague-attribution": {
+          "hits": 118,
+          "noHits": 122
+        },
+        "puffery-and-overstatement/inflated-evaluation": {
+          "hits": 117,
+          "noHits": 123
+        }
+      },
+      "finalReviewPath": "/tmp/000055-development-fullpool-v18-final-review-r3.json",
+      "finalReviewSha256": "2bc6eb852813f7d351d9e25d1db0a1171100568f95367de9cf5b210232107d09",
+      "finalRawPath": "/tmp/000055-development-fullpool-v18-reviewed-r3.json",
+      "finalRawSha256": "4b21b2eea8a8ac3c41b205b49b57fffc5b4dde9470bdc1550dcba8c4556ccc3a",
+      "textSha256": "ff60350361458862fba30868f77d1fb98942b254588b8fa819c41faadae9cfd6",
+      "labelsSha256": "9cca6e1514f9c08813c53e8b463591e3f24dcefc56d5f3b29dfb9a54510da7b3",
+      "mandatoryIds": [
+        "000055-857d5d76e09d",
+        "000055-a297452ce803",
+        "000055-9daf0cbc69d7",
+        "000055-c4d130c82989",
+        "000055-932bcd3df47b",
+        "000055-cb8d48eac160"
+      ],
+      "pilotIds": [
+        "000055-97ba5bfe69d5",
+        "000055-3974bc848ed3",
+        "000055-32d4d30c6055",
+        "000055-54ce1a78cafc",
+        "000055-dd0c319dc865",
+        "000055-80cc425f81df",
+        "000055-376cd2c5f37f",
+        "000055-19cdb7c7b247",
+        "000055-4cd5887d6901",
+        "000055-517ff66e5721",
+        "000055-1e70ada784bd",
+        "000055-7375d39942c1",
+        "000055-d7868909f197",
+        "000055-71397164d91c",
+        "000055-61d30add944e",
+        "000055-a7f614db7134"
+      ],
+      "remainingIssues": {
+        "developmentLabelDisputes": [],
+        "snippetFailures": [],
+        "unresolvedProseRepairsForLabelReadiness": [],
+        "selectionDependency": "Pilot membership must be pinned before a subset is selected; all rows are protected in this full-pool output."
+      },
+      "readiness": {
+        "labeledPool": "ready-for-balanced-selection",
+        "developmentDisputes": 0,
+        "selectionPerformed": false,
+        "balancePolicy": "Keep observed labels and combinations; select examples later without relabeling to force balance.",
+        "feasibility": "Each of the eight combinations has at least 28 passages. Selecting 25 per combination would supply 200 passages and 100 hits plus 100 no-hits per check while accommodating the six named mandatory cases. This is a feasibility witness, not an applied selection; pilot constraints still need explicit IDs.",
+        "holdoutOrCrossSplitValidation": "Outside this DEVELOPMENT-only review; no other split retrieved."
+      }
     }
   ],
   "activeSelections": [

@@ -7,10 +7,10 @@
     "commit": "d3ba42a22b4af254c65cd6038d300762bfe39da9",
     "model": "Codex",
     "prompt": null,
-    "notes": "Complete 240-candidate author pool before three independent full reviews. Labels are provisional; balanced selection and detector evaluation follow review. The earlier pilot snapshot is preserved at 6f56aab6."
+    "notes": "Complete 240-passage mixed development pool after three independent full reviews. Seven author labels across six passages are corrected to no-hits; all writing remains unchanged. Original author pool: c129617c. Archive this reviewed pool before balanced selection; model evaluation has not started."
   },
   "split": "development",
-  "instructions": "Development writing for definition review and prompt tuning. Candidate pool under review: freeze reviewed labels and balanced selection before prompt tuning or model evaluation.",
+  "instructions": "Reviewed mixed development candidate pool awaiting balanced selection. Freeze 200 passages and 100 hits/100 no-hits per check before detector evaluation.",
   "samples": [
     {
       "id": "000055-568c34f29512",
@@ -1391,10 +1391,7 @@
     {
       "id": "000055-c4d130c82989",
       "check": "excessive-hedging/hedge-stacking",
-      "expected": true,
-      "snippets": [
-        "There is a possibility that the technician could prepare the required parts before visiting."
-      ]
+      "expected": false
     },
     {
       "id": "000055-c4d130c82989",
@@ -1580,10 +1577,7 @@
     {
       "id": "000055-932bcd3df47b",
       "check": "puffery-and-overstatement/inflated-evaluation",
-      "expected": true,
-      "snippets": [
-        "a more valid approach than compulsory-response tasks"
-      ]
+      "expected": false
     },
     {
       "id": "000055-67d037715bbf",
@@ -3620,10 +3614,7 @@
     {
       "id": "000055-857d5d76e09d",
       "check": "puffery-and-overstatement/inflated-evaluation",
-      "expected": true,
-      "snippets": [
-        "a more inclusive method than conventional questionnaires"
-      ]
+      "expected": false
     },
     {
       "id": "000055-3a4abcfc13d0",
@@ -4046,10 +4037,7 @@
     {
       "id": "000055-a297452ce803",
       "check": "excessive-hedging/hedge-stacking",
-      "expected": true,
-      "snippets": [
-        "There is a possibility that we could manage without that extra service when the lift is working."
-      ]
+      "expected": false
     },
     {
       "id": "000055-a297452ce803",
@@ -4688,18 +4676,12 @@
     {
       "id": "000055-cb8d48eac160",
       "check": "unsupported-authority/vague-attribution",
-      "expected": true,
-      "snippets": [
-        "Security experts say this makes replay attacks a solved problem."
-      ]
+      "expected": false
     },
     {
       "id": "000055-cb8d48eac160",
       "check": "puffery-and-overstatement/inflated-evaluation",
-      "expected": true,
-      "snippets": [
-        "this makes replay attacks a solved problem"
-      ]
+      "expected": false
     },
     {
       "id": "000055-7f1ebb552ae1",
@@ -4975,10 +4957,7 @@
     {
       "id": "000055-9daf0cbc69d7",
       "check": "unsupported-authority/vague-attribution",
-      "expected": true,
-      "snippets": [
-        "The old track was often treated as passable after a single dry day, and that judgment sent the cart toward the woods."
-      ]
+      "expected": false
     },
     {
       "id": "000055-9daf0cbc69d7",

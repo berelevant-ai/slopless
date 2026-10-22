@@ -14,11 +14,12 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Review refines fourteen author snippet selections and corrects one prose passage in each split. Both corrected passages are reviewed again before expansion.
 - Commit `c129617c` preserves all 960 authored candidates and 1,920 provisional judgments. Root collections are replaced with reviewed balanced selections as each collection finishes; all approved pilot cases remain required.
 - Each archived author pool contains 240 candidates with contextual coverage of all 68 legacy vocabulary slots. Initial isolated pools have 120 hits and 120 no-hits; initial mixed pools have thirty passages per combination.
-- Development completes blind and adversarial reviews; mixed development awaits its final full review. Six original protected review attempts are superseded after read-scope audits, and clean replacements use pre-extracted definitions with a strict file allowlist.
+- Both development collections complete all three full reviews. Six original protected review attempts are superseded after read-scope audits, and clean replacements use pre-extracted definitions with a strict file allowlist.
 - Pre-inference adjudication corrects eight development labels across seven passages to no-hits while preserving their complete writing. Every corrected case and the retained weaker-deadline hit are required in final selection; further mixed review remains active.
 - Full-pool copy screening finds zero candidates across 289,437,600 eligible comparisons against the other split and prior datasets. Repeat the screen after reviewed selection and any writing changes.
 - Two new development passages are rewritten for realism before blind review. Holdout writing remains protected, and provider inference has not started.
 - Isolated development `000053` completes all three full reviews and selects exactly 100 hits and 100 no-hits, retaining all 22 required cases and 68 source slots. Its complete reviewed 240-passage pool is archived at `93be1e7f`; the forty surplus passages retain their labels there.
+- Mixed development `000055` completes all three full reviews with seven corrected labels across six passages, preserving all original writing and sixteen pilots. Archive its complete reviewed 240-passage pool before balanced selection.
 
 ## Existing Behavior And Check Definition
 
