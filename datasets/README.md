@@ -130,9 +130,11 @@ Six collections contain 1,200 independently reviewed inputs. Each check has exac
 
 The [reviewed pools at `1f29be1f`](https://github.com/berelevant-ai/slopless/tree/1f29be1f/datasets/ai-synthetic) retain all 1,333 inputs and their labels, including 133 surplus inputs. Selection preserves mandatory cases before balancing; compact review records under `runners/results/` record corrections, retention, source hashes, and the archive link.
 
-The protected mixed holdout contains 200 complete texts and 600 judgments, with 25 texts per three-check combination and 100 hits/100 no-hits per check. Its full 216-text pool remains at `24144852`; the existing mixed-holdout review record links the archive and verifies all 106 mandatory cases.
+The mixed [development](ai-synthetic/texts/000039-wordiness-and-redundancy-mixed-development.md) and protected [holdout](ai-synthetic/texts/000040-wordiness-and-redundancy-mixed-holdout.md) each contain 200 complete texts and 600 judgments, with 100 hits and 100 no-hits per check. Their full pools remain at `7f6d80e6` and `24144852`, preserving 49 and sixteen surplus texts respectively.
 
-Keep protected holdout writing outside prompt development. Mixed development is resolving label objections under the [family plan](../.plans/2026-10-22-094913-wordiness-and-redundancy-development.md); holdout inference retains its separate authorization gate.
+Each split retains 106 mandatory examples. Development preserves fifteen matched original/padding-positive pairs and uses 22-28 texts per combination to retain all required controls; holdout uses 25 each. All eight selected collections pass a 640,000-pair cross-split lexical overlap screen with zero candidates.
+
+Keep protected holdout writing outside prompt development. The [family plan](../.plans/2026-10-22-094913-wordiness-and-redundancy-development.md) defines the frozen mixed-development assessment and the separate authorization gate for holdout inference.
 
 ## Commands
 

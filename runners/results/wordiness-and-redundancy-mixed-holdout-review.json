@@ -23,18 +23,9 @@
       "011": 25
     },
     "perCheck": {
-      "wordiness": {
-        "hits": 100,
-        "noHits": 100
-      },
-      "redundancy": {
-        "hits": 100,
-        "noHits": 100
-      },
-      "repeated-explanation": {
-        "hits": 100,
-        "noHits": 100
-      }
+      "wordiness": { "hits": 100, "noHits": 100 },
+      "redundancy": { "hits": 100, "noHits": 100 },
+      "repeated-explanation": { "hits": 100, "noHits": 100 }
     }
   },
   "approval": {
@@ -421,18 +412,9 @@
         "011": 25
       },
       "perCheck": {
-        "wordiness": {
-          "hits": 100,
-          "noHits": 100
-        },
-        "redundancy": {
-          "hits": 100,
-          "noHits": 100
-        },
-        "repeated-explanation": {
-          "hits": 100,
-          "noHits": 100
-        }
+        "wordiness": { "hits": 100, "noHits": 100 },
+        "redundancy": { "hits": 100, "noHits": 100 },
+        "repeated-explanation": { "hits": 100, "noHits": 100 }
       }
     },
     "surplus": {
@@ -449,18 +431,9 @@
         "011": 0
       },
       "perCheck": {
-        "wordiness": {
-          "hits": 8,
-          "noHits": 8
-        },
-        "redundancy": {
-          "hits": 4,
-          "noHits": 12
-        },
-        "repeated-explanation": {
-          "hits": 4,
-          "noHits": 12
-        }
+        "wordiness": { "hits": 8, "noHits": 8 },
+        "redundancy": { "hits": 4, "noHits": 12 },
+        "repeated-explanation": { "hits": 4, "noHits": 12 }
       }
     },
     "mandatoryTexts": 106,
@@ -816,12 +789,21 @@
     "commits": 0,
     "archiveSurplusRecoveredAndMatched": 16,
     "mandatoryCasesRetained": 106,
-    "stagingCalls": 0
+    "stagingCalls": 0,
+    "crossSplitOverlapAudit": {
+      "status": "passed",
+      "development": 800,
+      "holdout": 800,
+      "pairs": 640000,
+      "candidates": 0,
+      "proofSha256": "4dbbe1d5f68dacb77e1639bfd115d9b6f772341d3bfc81199b909b40fa57adcb",
+      "sourceBindings": "runners/results/wordiness-and-redundancy-mixed-development-review.json:overlap"
+    }
   },
   "pending": {
     "archiveCommit": 0,
     "balancedSelectionWriteAfterArchiveCommit": 0,
-    "crossSplitOverlapAudit": 1,
+    "crossSplitOverlapAudit": 0,
     "canonicalMaterializationWrites": 0
   },
   "archiveCommit": "24144852155c4ac9158640f1a2e3a2834b8782f9",
@@ -847,18 +829,9 @@
         "011": 25
       },
       "perCheck": {
-        "wordiness": {
-          "hits": 108,
-          "noHits": 108
-        },
-        "redundancy": {
-          "hits": 104,
-          "noHits": 112
-        },
-        "repeated-explanation": {
-          "hits": 104,
-          "noHits": 112
-        }
+        "wordiness": { "hits": 108, "noHits": 108 },
+        "redundancy": { "hits": 104, "noHits": 112 },
+        "repeated-explanation": { "hits": 104, "noHits": 112 }
       }
     },
     "fullPoolCaseDigest": "2fc19ec118d36251b8fb80e6ed9f1e6f8c99953ec93757f40017a98af8cac8e6",
@@ -968,18 +941,9 @@
       "011": 25
     },
     "perCheck": {
-      "wordiness": {
-        "hits": 100,
-        "noHits": 100
-      },
-      "redundancy": {
-        "hits": 100,
-        "noHits": 100
-      },
-      "repeated-explanation": {
-        "hits": 100,
-        "noHits": 100
-      }
+      "wordiness": { "hits": 100, "noHits": 100 },
+      "redundancy": { "hits": 100, "noHits": 100 },
+      "repeated-explanation": { "hits": 100, "noHits": 100 }
     },
     "mandatoryTexts": 106,
     "surplusTextsRecoverableFromArchive": 16,
