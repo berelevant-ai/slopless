@@ -14,6 +14,7 @@
   - Base decisions on labeled evaluation, later corpus validation, highlighting quality, latency, and cost. Preserve production behavior while evaluating the replacement.
 - Read [the accepted V2 taxonomy](.plans/2026-10-20-125402-v2-rule-taxonomy.md) when assigning families and issue types. It maps existing checks and records Humanizer additions and exclusions.
   - Use its consolidated semantic-thinness definitions for that family's datasets and checks. Treat the legacy identifiers as coverage sources rather than separate issue types.
+  - For protected authoring and review, supply extracted issue definitions and an explicit permitted-input list. Keep the full taxonomy, development material and evaluation summaries outside those contexts.
 - Exclude decorative-bold checks. Judge redundant label wording independently of its formatting.
 - Declare `input: passage` or `input: text` in each finalized issue definition. The submitted writing is the complete input.
   - A passage can include several paragraphs. A text is the complete article, story, or reply; text-level checks use it intact.
@@ -49,6 +50,7 @@
   - Correct labels before selecting the final set. Generate replacements when needed, preserve reviewed hard cases, and archive surplus passages with their original labels in a linked Git commit.
   - Choose the balanced set before detector evaluation, independently of detector scores. Compare candidates on the same examples and report uncertainty when drawing conclusions.
   - Check identical and near-identical writing across splits before freezing them, including passage/full-text copies.
+  - Record the files each protected reviewer read. Invalidate and repeat any pass that exceeds its permitted inputs; a later restricted read cannot remove earlier exposure.
 - Maintain isolated sets that test one issue type and mixed sets that deliberately combine issues within the same passage or complete text.
   - Name mixed sets with `mixed`, the covered families or types, and the split. Use `passages/` for independent excerpts and `texts/` for complete texts, with the same paired format.
   - Cover relevant within-family combinations, cross-family pairs, and larger mixtures among the named checks. Report mixed-set counts separately.

@@ -2209,7 +2209,8 @@
         "balancePolicy": "Keep observed labels and combinations; select examples later without relabeling to force balance.",
         "feasibility": "Each of the eight combinations has at least 28 passages. Selecting 25 per combination would supply 200 passages and 100 hits plus 100 no-hits per check while accommodating the six named mandatory cases. This is a feasibility witness, not an applied selection; pilot constraints still need explicit IDs.",
         "holdoutOrCrossSplitValidation": "Outside this DEVELOPMENT-only review; no other split retrieved."
-      }
+      },
+      "archiveCommit": "44f8782d33d64b5105d36d91d5aff3570ada097b"
     }
   ],
   "activeSelections": [
@@ -2256,6 +2257,73 @@
       "surplus": 40,
       "textSha256": "ecae35f88189b210824c126a7592f227702580644157d09450085d470a7fa386",
       "labelsSha256": "2e388bb280838316afa60adfea24cf1e8bcf5a0d9b4c39c52d2bcee4151e1bcd"
+    },
+    {
+      "collection": "000055",
+      "archiveCommit": "44f8782d33d64b5105d36d91d5aff3570ada097b",
+      "strategy": "Preserve pilots and final-review mandatory IDs; greedily retain all 68 source slots with stable hashed-ID tie breaks; fill exactly 25 per combination in the same fixed order. No detector predictions are read.",
+      "sourceHashes": {
+        "/tmp/000055-development-fullpool-v18-reviewed-r3.json": "4b21b2eea8a8ac3c41b205b49b57fffc5b4dde9470bdc1550dcba8c4556ccc3a",
+        "/tmp/000055-development-pilot-v18-reviewed-r2.json": "1d4ef292e89d2cc513fcf93429051cf4cfe3912ebea8768b9b22a750dc7b8069",
+        "/tmp/000055-development-fullpool-v18-final-review-r3.json": "2bc6eb852813f7d351d9e25d1db0a1171100568f95367de9cf5b210232107d09",
+        "/tmp/hedging-v18-source-audit.json": "c8076c514a9fc6b7d537a681298cfcface891acf63db4fba0886f2117d92d45a"
+      },
+      "selectionQaPath": "/tmp/000055-development-selected-v18-qa.json",
+      "selectionQaSha256": "3e05404c3501c556e2645a72d45cbf5a1a5e746b79bd67d3bbfd48a30fcdfd26",
+      "selected": 200,
+      "judgments": 600,
+      "checks": {
+        "excessive-hedging/hedge-stacking": {
+          "hits": 100,
+          "noHits": 100
+        },
+        "unsupported-authority/vague-attribution": {
+          "hits": 100,
+          "noHits": 100
+        },
+        "puffery-and-overstatement/inflated-evaluation": {
+          "hits": 100,
+          "noHits": 100
+        }
+      },
+      "combinations": {
+        "100": 25,
+        "101": 25,
+        "110": 25,
+        "111": 25,
+        "000": 25,
+        "001": 25,
+        "010": 25,
+        "011": 25
+      },
+      "sourceSlots": 68,
+      "mandatoryIds": [
+        "000055-97ba5bfe69d5",
+        "000055-3974bc848ed3",
+        "000055-32d4d30c6055",
+        "000055-54ce1a78cafc",
+        "000055-dd0c319dc865",
+        "000055-80cc425f81df",
+        "000055-376cd2c5f37f",
+        "000055-19cdb7c7b247",
+        "000055-4cd5887d6901",
+        "000055-517ff66e5721",
+        "000055-1e70ada784bd",
+        "000055-7375d39942c1",
+        "000055-d7868909f197",
+        "000055-71397164d91c",
+        "000055-61d30add944e",
+        "000055-a7f614db7134",
+        "000055-857d5d76e09d",
+        "000055-a297452ce803",
+        "000055-9daf0cbc69d7",
+        "000055-c4d130c82989",
+        "000055-932bcd3df47b",
+        "000055-cb8d48eac160"
+      ],
+      "surplus": 40,
+      "textSha256": "50045f27542c8f1fba6f248fbb85145138ef7493cd8344f67d03541f3eb3df83",
+      "labelsSha256": "58716941e17f1138e13557207a1b3fcbb42ac9b2a5853261354c208bcfd2fd55"
     }
   ]
 }

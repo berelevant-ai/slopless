@@ -19,7 +19,8 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - Full-pool copy screening finds zero candidates across 289,437,600 eligible comparisons against the other split and prior datasets. Repeat the screen after reviewed selection and any writing changes.
 - Two new development passages are rewritten for realism before blind review. Holdout writing remains protected, and provider inference has not started.
 - Isolated development `000053` completes all three full reviews and selects exactly 100 hits and 100 no-hits, retaining all 22 required cases and 68 source slots. Its complete reviewed 240-passage pool is archived at `93be1e7f`; the forty surplus passages retain their labels there.
-- Mixed development `000055` completes all three full reviews with seven corrected labels across six passages, preserving all original writing and sixteen pilots. Archive its complete reviewed 240-passage pool before balanced selection.
+- Mixed development `000055` completes all three full reviews with seven corrected labels across six passages, preserving all original writing and sixteen pilots. Its complete reviewed 240-passage pool is archived at `44f8782d`.
+- Balanced mixed development retains 200 passages, all eight combinations with 25 passages each, all 22 required cases and 68 source slots.
 
 ## Existing Behavior And Check Definition
 
@@ -104,3 +105,4 @@ Complete the next accepted V2 family, `excessive-hedging`, through reviewed deve
 - `prompts/v18/shared.md`, `prompts/v18/hedge-stacking.md` and prompt README.
 - Native trial outputs and one family experiment/report pair under `runners/results/`, with compact split-specific dataset review records.
 - This plan and milestone worklogs. Preserve all unrelated worktree files and existing production sources.
+- Update the existing protected-review guidance in `AGENTS.md` to require extracted definitions, explicit permitted inputs and a read-scope record. This prevents the taxonomy-result exposure reproduced during the review round.
