@@ -1,11 +1,10 @@
 ---
 {
-  "instructions": "Does the passage use an eligible clipped fragment stack whose beat packaging serves no useful function?",
-  "criteria":
-    {
-      "true": "An eligible adjacent fragment sequence splits ordinary prose into gratuitous promotional or dramatic beats, including No/No fragments or inherited continuations.",
-      "false": "No eligible fragment form reaches its threshold, the clauses are complete commands or declarations, or the clipped format serves a genuine record, label, list, explicit answer or other useful function."
-    }
+  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the passage use an eligible clipped fragment stack whose beat packaging serves no useful function? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
+  "criteria": {
+    "true": "An eligible adjacent fragment sequence splits ordinary prose into gratuitous promotional or dramatic beats, including No/No fragments or inherited continuations.",
+    "false": "No eligible fragment form reaches its threshold, the clauses are complete commands or declarations, or the clipped format serves a genuine record, label, list, explicit answer or other useful function."
+  }
 }
 ---
 

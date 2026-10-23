@@ -1,11 +1,10 @@
 ---
 {
-  "instructions": "Does the complete passage mechanically repeat a lexical sentence frame under the sentence-frame-repetition definition?",
-  "criteria":
-    {
-      "true": "Three ordinary opening, distinctive-subject or internal frame instances, or two adjacent explicit takeaway wrappers, mechanically package statements without useful comparison, progression or refrain.",
-      "false": "No eligible recurring frame appears, or its recurrence supports useful comparison, progression, precision, organization or deliberate refrain."
-    }
+  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the complete passage mechanically repeat a lexical sentence frame under the sentence-frame-repetition definition? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
+  "criteria": {
+    "true": "Three ordinary opening, distinctive-subject or internal frame instances, or two adjacent explicit takeaway wrappers, mechanically package statements without useful comparison, progression or refrain.",
+    "false": "No eligible recurring frame appears, or its recurrence supports useful comparison, progression, precision, organization or deliberate refrain."
+  }
 }
 ---
 

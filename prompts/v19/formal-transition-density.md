@@ -1,11 +1,10 @@
 ---
 {
-  "instructions": "Does the passage stack at least three redundant sentence-prefacing connectors or emphasis markers?",
-  "criteria":
-    {
-      "true": "At least three nearby markers repeatedly announce relations or significance without supplying useful local organization.",
-      "false": "Fewer than three markers form a connected sequence, or their relations genuinely organize reasoning, chronology, comparison or distinct stages."
-    }
+  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the passage stack at least three redundant sentence-prefacing connectors or emphasis markers? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
+  "criteria": {
+    "true": "At least three nearby markers repeatedly announce relations or significance without supplying useful local organization.",
+    "false": "Fewer than three markers form a connected sequence, or their relations genuinely organize reasoning, chronology, comparison or distinct stages."
+  }
 }
 ---
 

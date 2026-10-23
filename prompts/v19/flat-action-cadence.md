@@ -1,11 +1,10 @@
 ---
 {
-  "instructions": "Does the passage contain a mechanically flat run of at least three complete subject-first action clauses?",
-  "criteria":
-    {
-      "true": "At least three nearby complete subject-first actions or scene beats receive detached, unmodulated presentation without a supplied procedural, reconstruction, comparison or pacing function.",
-      "false": "The eligible run is absent, its presentation varies meaningfully, or the equal beats serve an identifiable procedure, reconstruction, comparison or deliberate pacing effect."
-    }
+  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the passage contain a mechanically flat run of at least three complete subject-first action clauses? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
+  "criteria": {
+    "true": "At least three nearby complete subject-first actions or scene beats receive detached, unmodulated presentation without a supplied procedural, reconstruction, comparison or pacing function.",
+    "false": "The eligible run is absent, its presentation varies meaningfully, or the equal beats serve an identifiable procedure, reconstruction, comparison or deliberate pacing effect."
+  }
 }
 ---
 

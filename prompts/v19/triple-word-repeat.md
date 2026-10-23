@@ -1,11 +1,10 @@
 ---
 {
-  "instructions": "Does the passage contain a coordinated list whose interchangeable rhetorical members manufacture a sense of completeness?",
-  "criteria":
-    {
-      "true": "At least three coordinated generic praise terms, abstract virtues or parallel promises perform interchangeable rhetorical roles rather than communicate useful distinctions.",
-      "false": "No eligible three-member enumeration occurs, its members communicate useful distinct properties or operations, or its sole defect concerns individual claim strength or missing explanation rather than list packaging."
-    }
+  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the passage contain a coordinated list whose interchangeable rhetorical members manufacture a sense of completeness? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
+  "criteria": {
+    "true": "At least three coordinated generic praise terms, abstract virtues or parallel promises perform interchangeable rhetorical roles rather than communicate useful distinctions.",
+    "false": "No eligible three-member enumeration occurs, its members communicate useful distinct properties or operations, or its sole defect concerns individual claim strength or missing explanation rather than list packaging."
+  }
 }
 ---
 

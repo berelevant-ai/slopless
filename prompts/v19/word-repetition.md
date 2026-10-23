@@ -1,11 +1,10 @@
 ---
 {
-  "instructions": "Does one prose paragraph contain at least six eligible same-word uses that create avoidable lexical echo?",
-  "criteria":
-    {
-      "true": "Six or more same-sense content-word uses, after specific-pattern exclusions, repeat naming avoidably rather than maintain necessary precision, useful organization, comparison or refrain.",
-      "false": "The paragraph lacks six eligible uses, or the repeated wording maintains supplied distinctions, independent instruction identification, terminology contrast or deliberate refrain."
-    }
+  "instructions": "Apply state.instructions and the named definition in state.types to target. Does one prose paragraph contain at least six eligible same-word uses that create avoidable lexical echo? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
+  "criteria": {
+    "true": "Six or more same-sense content-word uses, after specific-pattern exclusions, repeat naming avoidably rather than maintain necessary precision, useful organization, comparison or refrain.",
+    "false": "The paragraph lacks six eligible uses, or the repeated wording maintains supplied distinctions, independent instruction identification, terminology contrast or deliberate refrain."
+  }
 }
 ---
 

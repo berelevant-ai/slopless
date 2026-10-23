@@ -1,11 +1,10 @@
 ---
 {
-  "instructions": "Does the complete passage repeatedly end statements in the same generic predicate in a mechanically redundant way?",
-  "criteria":
-    {
-      "true": "At least three nearby statements end in the same generic predicate, producing a redundant verbal beat without useful comparison, findings, instruction organization or refrain.",
-      "false": "Fewer than three eligible terminal predicates recur, or their recurrence conveys useful distinct outcomes, comparisons, findings, instructions or deliberate refrain."
-    }
+  "instructions": "Apply state.instructions and the named definition in state.types to target. Does the complete passage repeatedly end statements in the same generic predicate in a mechanically redundant way? Require the named construction and its threshold, then apply every contextual preservation and ownership condition in that definition. Judge only this named issue.",
+  "criteria": {
+    "true": "At least three nearby statements end in the same generic predicate, producing a redundant verbal beat without useful comparison, findings, instruction organization or refrain.",
+    "false": "Fewer than three eligible terminal predicates recur, or their recurrence conveys useful distinct outcomes, comparisons, findings, instructions or deliberate refrain."
+  }
 }
 ---
 
