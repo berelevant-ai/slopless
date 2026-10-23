@@ -2,7 +2,7 @@
   "family": "rhythm-and-repetition",
   "version": "v19",
   "userReview": "pending",
-  "status": "Pilot generation and blind review complete; fresh pilot corrections and staged pool expansion in progress.",
+  "status": "All pilot collections reviewed and packed; complete candidate-pool authoring in progress.",
   "holdoutInference": false,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
@@ -649,9 +649,49 @@
         "collection": "000073",
         "inputSha256": "9afa234a775422409198ce811a819f63ca21a9c8df43db619ae21878cddd42ab",
         "freshAuditSha256": "86837ede6f4d17103cb4e377b12f0ba3edf1a12486f522f42b1eb00b4dbad2c4"
+      },
+      {
+        "collection": "000057",
+        "inputSha256": "625274c859ebc843ab9a97ca645ce6855f5f7261e053cefa4211c681f5c1c418",
+        "freshAuditSha256": "50b358d101efab4429b2c799a8e9771d13d433eee1251ca5925adb3f7d3395cc"
+      },
+      {
+        "collection": "000059",
+        "inputSha256": "2e70eba6d82f8143e488251274d8cce1e4c02cb00518ab52336cec9baaf2d61a",
+        "freshAuditSha256": "50b358d101efab4429b2c799a8e9771d13d433eee1251ca5925adb3f7d3395cc"
+      },
+      {
+        "collection": "000065",
+        "inputSha256": "fe071c95bebd6bed097c1464abf2c45edf6fb8f27bd6709666b8f6007fadf63c",
+        "freshAuditSha256": "50b358d101efab4429b2c799a8e9771d13d433eee1251ca5925adb3f7d3395cc"
+      },
+      {
+        "collection": "000071",
+        "inputSha256": "b6d262b9469141758c1572d0841498390e79a2972b9502b14c1b6db491661427",
+        "freshAuditSha256": "50b358d101efab4429b2c799a8e9771d13d433eee1251ca5925adb3f7d3395cc"
+      },
+      {
+        "collection": "000061",
+        "inputSha256": "4f6176578a36bbb77844de1f4bcdd29bd9cb9a526fd48dd9f9abbc767d08d95e",
+        "freshAuditSha256": "86837ede6f4d17103cb4e377b12f0ba3edf1a12486f522f42b1eb00b4dbad2c4",
+        "repairAuditSha256": "97aa6cd25796ffa77024c39508aa39f9e02f8a23a8826a3f3043e87cac21eea6",
+        "adjudications": [
+          {
+            "id": "000061-b4654a69e9ab",
+            "check": "rhythm-and-repetition/flat-action-cadence",
+            "expected": true,
+            "reason": "Accept the fresh repair review's requested label correction. Setting and available waiting time do not establish a pacing function for the five equally weighted scene observations. Preserve writing and all five snippets."
+          }
+        ]
+      },
+      {
+        "collection": "000063",
+        "inputSha256": "520f0936ef06052fc46551394a4891fb73d309a3540aa8154079061947566d57",
+        "freshAuditSha256": "86837ede6f4d17103cb4e377b12f0ba3edf1a12486f522f42b1eb00b4dbad2c4",
+        "repairAuditSha256": "97aa6cd25796ffa77024c39508aa39f9e02f8a23a8826a3f3043e87cac21eea6"
       }
     ],
-    "freshReviewStatus": "Corrections remain in the other collections; pilot balance may change after valid label corrections. Final balanced sets are selected only after complete pool review.",
+    "freshReviewStatus": "All 20 pilot collections complete fresh review and correction. Preserve altered pilot class counts and mixed cells; final balancing follows full pool review.",
     "poolAuthoring": [
       {
         "collection": "000069",
@@ -667,8 +707,29 @@
         "collection": "000067",
         "status": "running",
         "approvedPilotSha256": "3113edc48b47f61a3c02ee33eef95906872126c2408933850dfacc879668fef0"
+      },
+      {
+        "collection": "000057",
+        "status": "running",
+        "approvedPilotSha256": "625274c859ebc843ab9a97ca645ce6855f5f7261e053cefa4211c681f5c1c418"
+      },
+      {
+        "collection": "000059",
+        "status": "running",
+        "approvedPilotSha256": "2e70eba6d82f8143e488251274d8cce1e4c02cb00518ab52336cec9baaf2d61a"
       }
     ],
-    "holdoutInference": false
+    "holdoutInference": false,
+    "overlapAudit": {
+      "reportSha256": "56ded782f0644922aa0ec657cfe8ab9d2cbe76d17c171a465962440fac0f210f",
+      "producingVerifierSha256": "6127545dd1e3bdc58ea677566a89e74985ee8eb20cbd412944f0a43b7096799b",
+      "newInputs": 376,
+      "priorDatasetDocuments": 15701,
+      "legacyMarkdownFiles": 39,
+      "referenceInputs": 313566,
+      "comparisonPairs": 117936160,
+      "candidates": 0,
+      "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new cross-split pairs; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples."
+    }
   }
 }

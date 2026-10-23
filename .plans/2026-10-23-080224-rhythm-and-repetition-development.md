@@ -16,7 +16,8 @@ Develop the accepted rhythm-and-repetition family using reviewed isolated and mi
 - Two subagent-tool attempts fail with model-capacity errors and produce no review. An independent read-only Codex CLI job completes using its default `gpt-6.1-sol` configuration; use isolated CLI jobs with explicit read scopes for subsequent authoring and review.
 - Frozen definition-only and source-vocabulary extracts support protected roles. Split-specific review records preserve their hashes and permitted collection assignments before pilot generation.
 - All 376 pilots and 568 judgments receive independent blind review. Seven classification disagreements and 88 quality flags enter reconciliation; quality flags include both valid context repairs and objections that describe the intended defect itself.
-- Nine collections, containing 168 passages and 264 judgments, complete fresh review and enter root datasets. Six approved collections begin expansion; corrections and fresh review continue for the remaining pilots.
+- All twenty pilot collections complete review and correction, retaining 376 passages and 568 judgments. Preserve corrected class counts and mixed combinations before final pool balancing; eight complete-pool authors are running.
+- The pilot overlap screen finds zero candidates against 15,701 earlier dataset documents, 39 legacy Markdown fixtures and literal definition examples. It processes 313,566 reference inputs and 117,936,160 candidate comparison pairs.
 - Build, dataset reader, paragraph-runner tests and Fixture3's `datasets` contract pass before expansion. Final pools, balanced selection, overlap review and development inference remain outstanding.
 
 ## Source Review And One Proposed Consolidation

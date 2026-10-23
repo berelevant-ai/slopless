@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 2,
+  "textSha256": "c8404d5cb92b7cb280e70eaf0de768bef0e56ab1420d1712cd47360772912af0",
+  "source": {
+    "name": "Codex-authored mixed word repetition sentence frame repetition hedge stacking holdout pilot",
+    "originalPath": "datasets/ai-synthetic/passages/000076-mixed-word-repetition-sentence-frame-repetition-hedge-stacking-holdout.md",
+    "commit": "8ee726d8d61838e39ac0dda58464c8aff61b2125",
+    "model": "gpt-6.1-sol (Codex CLI default)",
+    "prompt": null,
+    "notes": "Synthetic writing authored against the frozen rhythm-and-repetition definitions and the existing hedge-stacking definition where assessed. Reviews and measured results are stored separately."
+  },
+  "split": "holdout",
+  "instructions": "Protected holdout: keep writing, labels, snippets and individual judgments outside prompt authoring. Model evaluation requires separate user authorization.",
+  "samples": [
+    {
+      "id": "000076-7e6de30ec354",
+      "start": 104,
+      "end": 538
+    },
+    {
+      "id": "000076-b44488142a5f",
+      "start": 564,
+      "end": 982
+    },
+    {
+      "id": "000076-649a1a81a328",
+      "start": 1008,
+      "end": 1380
+    },
+    {
+      "id": "000076-5d6ce8275da6",
+      "start": 1406,
+      "end": 1832
+    },
+    {
+      "id": "000076-b1d3d0dcded2",
+      "start": 1858,
+      "end": 2226
+    },
+    {
+      "id": "000076-adea0efdbad3",
+      "start": 2252,
+      "end": 2620
+    },
+    {
+      "id": "000076-92bde78a2143",
+      "start": 2646,
+      "end": 3046
+    },
+    {
+      "id": "000076-7045dad09c68",
+      "start": 3072,
+      "end": 3499
+    },
+    {
+      "id": "000076-c66c869f023c",
+      "start": 3525,
+      "end": 3814
+    },
+    {
+      "id": "000076-1e58a433cfb7",
+      "start": 3840,
+      "end": 4195
+    },
+    {
+      "id": "000076-ec85cbf83841",
+      "start": 4221,
+      "end": 4570
+    },
+    {
+      "id": "000076-7003ab2e9cde",
+      "start": 4596,
+      "end": 4980
+    },
+    {
+      "id": "000076-700811e72e14",
+      "start": 5006,
+      "end": 5438
+    },
+    {
+      "id": "000076-2468ae81945c",
+      "start": 5464,
+      "end": 5976
+    },
+    {
+      "id": "000076-f460c05bf3ce",
+      "start": 6002,
+      "end": 6513
+    },
+    {
+      "id": "000076-77a269341362",
+      "start": 6539,
+      "end": 6983
+    }
+  ],
+  "labels": [
+    {
+      "id": "000076-7e6de30ec354",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-7e6de30ec354",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-7e6de30ec354",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000076-b44488142a5f",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-b44488142a5f",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-b44488142a5f",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000076-649a1a81a328",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-649a1a81a328",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-649a1a81a328",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "may take effect overnight",
+        "That remains a conceivable possibility."
+      ]
+    },
+    {
+      "id": "000076-5d6ce8275da6",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-5d6ce8275da6",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-5d6ce8275da6",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "could conceivably perhaps"
+      ]
+    },
+    {
+      "id": "000076-b1d3d0dcded2",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-b1d3d0dcded2",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "The class is a chance to connect with neighbours.",
+        "The class is a chance to build local ties.",
+        "The class is a chance to feel part of the neighbourhood."
+      ]
+    },
+    {
+      "id": "000076-b1d3d0dcded2",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000076-adea0efdbad3",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-adea0efdbad3",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-adea0efdbad3",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000076-92bde78a2143",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-92bde78a2143",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "The takeaway is to welcome fresh thinking.",
+        "The takeaway is to embrace a new perspective."
+      ]
+    },
+    {
+      "id": "000076-92bde78a2143",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "might possibly"
+      ]
+    },
+    {
+      "id": "000076-7045dad09c68",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-7045dad09c68",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "With this release, we want to make planning easier.",
+        "With this release, we want to simplify the weekly rota.",
+        "With this release, we want to take some effort out of scheduling."
+      ]
+    },
+    {
+      "id": "000076-7045dad09c68",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "may perhaps"
+      ]
+    },
+    {
+      "id": "000076-c66c869f023c",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "Your bag is waiting",
+        "for the bag when",
+        "fetch the bag",
+        "hand the bag",
+        "kept the bag",
+        "the bag arrived"
+      ]
+    },
+    {
+      "id": "000076-c66c869f023c",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-c66c869f023c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000076-1e58a433cfb7",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "This change makes",
+        "the change to the font",
+        "a change to the spacing",
+        "tested the changes",
+        "approving the change",
+        "see the change"
+      ]
+    },
+    {
+      "id": "000076-1e58a433cfb7",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-1e58a433cfb7",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000076-ec85cbf83841",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The report may",
+        "the report reaches",
+        "put the report",
+        "to the report",
+        "read the report",
+        "about the report"
+      ]
+    },
+    {
+      "id": "000076-ec85cbf83841",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-ec85cbf83841",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "may conceivably perhaps"
+      ]
+    },
+    {
+      "id": "000076-7003ab2e9cde",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The bell might",
+        "the bell above",
+        "to the bell",
+        "remembered the bell",
+        "cleaned the bell",
+        "at the bell more closely"
+      ]
+    },
+    {
+      "id": "000076-7003ab2e9cde",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-7003ab2e9cde",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "might ring again before dawn",
+        "That was perhaps a possibility."
+      ]
+    },
+    {
+      "id": "000076-700811e72e14",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-700811e72e14",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "Our intention is to bring residents together.",
+        "Our intention is to encourage participation.",
+        "Our intention is to strengthen local ties."
+      ]
+    },
+    {
+      "id": "000076-700811e72e14",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000076-2468ae81945c",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "the room",
+        "the room",
+        "the room",
+        "the room",
+        "the room",
+        "The room"
+      ]
+    },
+    {
+      "id": "000076-2468ae81945c",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "For me, comfort is what makes a stay worthwhile.",
+        "For me, comfort is what matters after a day of travelling.",
+        "For me, comfort is the reason to choose a place like this."
+      ]
+    },
+    {
+      "id": "000076-2468ae81945c",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": false
+    },
+    {
+      "id": "000076-f460c05bf3ce",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "plan",
+        "plan",
+        "plan",
+        "plan",
+        "plan",
+        "plan"
+      ]
+    },
+    {
+      "id": "000076-f460c05bf3ce",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": true,
+      "snippets": [
+        "The main advantage is simpler administration.",
+        "The main advantage is easier management of your bookings."
+      ]
+    },
+    {
+      "id": "000076-f460c05bf3ce",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "might perhaps"
+      ]
+    },
+    {
+      "id": "000076-77a269341362",
+      "check": "rhythm-and-repetition/word-repetition",
+      "expected": true,
+      "snippets": [
+        "The form we introduced",
+        "receives the form",
+        "notes to the form",
+        "saves the form",
+        "read the form",
+        "discussed the form"
+      ]
+    },
+    {
+      "id": "000076-77a269341362",
+      "check": "rhythm-and-repetition/sentence-frame-repetition",
+      "expected": false
+    },
+    {
+      "id": "000076-77a269341362",
+      "check": "excessive-hedging/hedge-stacking",
+      "expected": true,
+      "snippets": [
+        "might possibly perhaps"
+      ]
+    }
+  ]
+}

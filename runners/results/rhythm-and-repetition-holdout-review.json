@@ -2,7 +2,7 @@
   "family": "rhythm-and-repetition",
   "version": "v19",
   "userReview": "pending",
-  "status": "Pilot generation and blind review complete; fresh pilot corrections and staged pool expansion in progress.",
+  "status": "All pilot collections reviewed and packed; complete candidate-pool authoring in progress.",
   "holdoutInference": false,
   "definitionReview": {
     "mode": "Codex CLI default configuration; independent read-only job",
@@ -682,9 +682,39 @@
         "collection": "000064",
         "inputSha256": "e8b4aa919ff9f0c9d3b4a52a6dad1f2100b950c286f2e52757212c375358484c",
         "freshAuditSha256": "fd640a826c69a96c756aa39f1ba20cfc671890685f31b781044b0925466ced64"
+      },
+      {
+        "collection": "000060",
+        "inputSha256": "5277d164e468eaa1e68142c605e4fa57081ee6f3440ec5e6115bce1e8b555bf3",
+        "freshAuditSha256": "20800d5463efbeb3973f8431a97ddb2ebbea68d6952188f0fe42f2dbe118a302",
+        "repairAuditSha256": "400b5f2c67c448fee22296fa35990354d148a85fcb2d26a9901b9ed0efc908fc"
+      },
+      {
+        "collection": "000066",
+        "inputSha256": "2572a6f22722476da0197ba7756fca0eeb7c3c796e8af9d3a8e43d1751f8b6d0",
+        "freshAuditSha256": "20800d5463efbeb3973f8431a97ddb2ebbea68d6952188f0fe42f2dbe118a302",
+        "repairAuditSha256": "400b5f2c67c448fee22296fa35990354d148a85fcb2d26a9901b9ed0efc908fc"
+      },
+      {
+        "collection": "000068",
+        "inputSha256": "56d5ed64219ec2899ed85cae7a104acfb0f985f9effe3e35581ce8870c4453f5",
+        "freshAuditSha256": "fd640a826c69a96c756aa39f1ba20cfc671890685f31b781044b0925466ced64",
+        "repairAuditSha256": "400b5f2c67c448fee22296fa35990354d148a85fcb2d26a9901b9ed0efc908fc"
+      },
+      {
+        "collection": "000074",
+        "inputSha256": "dba051b402e8ac8425ff8cc3f2812afcaa35330bd4da434c3b5b3a2c0ba084f7",
+        "freshAuditSha256": "fd640a826c69a96c756aa39f1ba20cfc671890685f31b781044b0925466ced64",
+        "repairAuditSha256": "400b5f2c67c448fee22296fa35990354d148a85fcb2d26a9901b9ed0efc908fc"
+      },
+      {
+        "collection": "000076",
+        "inputSha256": "3f73af61a74322ea30912e84b1e2a0331dd70e5058fd7534bdc89e839cea4f36",
+        "freshAuditSha256": "044ce09a3bd442f2185a9d6e2749da3a839d2828f5cda813a61b5e0ca9ff4b69",
+        "repairAuditSha256": "400b5f2c67c448fee22296fa35990354d148a85fcb2d26a9901b9ed0efc908fc"
       }
     ],
-    "freshReviewStatus": "Corrections remain in the other collections; pilot balance may change after valid label corrections. Final balanced sets are selected only after complete pool review.",
+    "freshReviewStatus": "All 20 pilot collections complete fresh review and correction. Preserve altered pilot class counts and mixed cells; final balancing follows full pool review.",
     "poolAuthoring": [
       {
         "collection": "000070",
@@ -702,6 +732,17 @@
         "approvedPilotSha256": "02d29d746dc66dbbd426a23a00b654bab613e6970b1bcbe19b16ac80b13da409"
       }
     ],
-    "holdoutInference": false
+    "holdoutInference": false,
+    "overlapAudit": {
+      "reportSha256": "56ded782f0644922aa0ec657cfe8ab9d2cbe76d17c171a465962440fac0f210f",
+      "producingVerifierSha256": "6127545dd1e3bdc58ea677566a89e74985ee8eb20cbd412944f0a43b7096799b",
+      "newInputs": 376,
+      "priorDatasetDocuments": 15701,
+      "legacyMarkdownFiles": 39,
+      "referenceInputs": 313566,
+      "comparisonPairs": 117936160,
+      "candidates": 0,
+      "method": "Lowercase Unicode tokens; normalized exact equality, or >=10 shared five-word shingles and Jaccard>=0.2 or shorter containment>=0.5; under20-token fallback uses token Levenshtein<=25% longer, allowing one edit under4. All new cross-split pairs; each new passage against ALL prior dataset splits, full texts, legacy fixture paragraphs/full files, and literal definition examples."
+    }
   }
 }
